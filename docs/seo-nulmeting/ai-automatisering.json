@@ -1,14 +1,8 @@
 {
   "url": "/ai-automatisering",
   "build_bestand": "dist/ai-automatisering/index.html",
-  "bron": [
-    "src/content/pages/ai-automatisering/index.md",
-    "src/pages/[...slug].astro"
-  ],
-  "gemeten_op": "2026-10-06",
   "html": {
     "bytes": 42156,
-    "sha256": "58c966f3a79d4a98855d84f77454098132bcf39a99f31c52e39fe18f1bdc48e6",
     "lang": "nl"
   },
   "beschermd": {
@@ -826,7 +820,7 @@
     }
   ],
   "structured_data": {
-    "sha256": "a157b1af3e0b28268986a338e45ba9af2ff0230eaf14b9ef3ebe614f53e9b784",
+    "sha256": "dbb33c3f38f773a65ae5fc03615e367a9d7ce6b1689cff21bad3de3c9d46416a",
     "items": [
       {
         "@context": "https://schema.org",
@@ -956,5 +950,6 @@
     ],
     "aantal_details": 5,
     "aantal_tabellen": 1
-  }
+  },
+  "gemeten_op": "2026-10-06"
 }

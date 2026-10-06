@@ -4,14 +4,16 @@ Stand: 6 oktober 2026. Bron: de ruwe HTML van een verse build (`npm run build`, 
 
 Eén JSON-bestand per URL. De bestandsnaam is het pad met `__` in plaats van `/`; de homepage is `home.json`. Dit is de referentie voor elke latere voor- en na-controle.
 
-Opnieuw meten (overschrijft deze map, alleen doen vóór de eerste wijziging aan een pagina):
+Vastgelegd met `planning/nulmeting.mjs`. De voor- en na-controle (`planning/check-nulmeting.mjs`) gebruikt dezelfde parser en dezelfde regels (`planning/nulmeting-lib.mjs`).
 
 ```
 npm run build
-python docs/seo-nulmeting/_nulmeting.py <pad-naar-repo> <pad-naar-samenvatting.json>
+node planning/check-nulmeting.mjs            # vergelijk de build met deze nulmeting
+node planning/nulmeting.mjs                  # leg alleen ontbrekende URL's vast
+node planning/nulmeting.mjs --overschrijf /pad   # vervang de meting van één URL, alleen na akkoord op de wijziging
 ```
 
-Het script gebruikt Python met BeautifulSoup en staat buiten de stack van de site. Zie hoofdstuk 9.3 van `docs/rag-inventarisatie.md`.
+De eerste meting van fase 0 is met een Python-script gemaakt. Op 6 oktober 2026 is alles opnieuw vastgelegd met het Node-script op dezelfde build. Beschermde elementen, koppen, links, structured data, afbeeldingen en scripts waren op alle 90 pagina's identiek; het enige verschil is dat een `<br>` nu als spatie telt in de bodytekst.
 
 ## Wat per URL is vastgelegd
 

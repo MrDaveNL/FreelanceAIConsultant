@@ -1,14 +1,8 @@
 {
   "url": "/kennisbank/microsoft-copilot-voor-bedrijven",
   "build_bestand": "dist/kennisbank/microsoft-copilot-voor-bedrijven/index.html",
-  "bron": [
-    "src/content/pages/kennisbank/microsoft-copilot-voor-bedrijven/index.md",
-    "src/pages/[...slug].astro"
-  ],
-  "gemeten_op": "2026-10-06",
   "html": {
     "bytes": 32983,
-    "sha256": "cf77fb8652c7da4d0f0fc78864b8d767a866afcc5dcf15be4d3f617f031455bb",
     "lang": "nl"
   },
   "beschermd": {
@@ -696,7 +690,7 @@
     }
   ],
   "structured_data": {
-    "sha256": "2dbf02653719a9fb3d2776a1545ab72db860efa998d41c2523087c6157868114",
+    "sha256": "8bdf6016774420852db532a1c492e776eff994e348b87afa2d0379f32b1ba458",
     "items": [
       {
         "@context": "https://schema.org",
@@ -792,5 +786,6 @@
     ],
     "aantal_details": 0,
     "aantal_tabellen": 1
-  }
+  },
+  "gemeten_op": "2026-10-06"
 }

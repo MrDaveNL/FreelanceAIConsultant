@@ -1,14 +1,8 @@
 {
   "url": "/inzichten/van-ai-strategie-naar-waarde",
   "build_bestand": "dist/inzichten/van-ai-strategie-naar-waarde/index.html",
-  "bron": [
-    "src/pages/inzichten/[slug].astro",
-    "src/data/articles/van-ai-strategie-naar-waarde.js"
-  ],
-  "gemeten_op": "2026-10-06",
   "html": {
     "bytes": 30239,
-    "sha256": "1ef2bfdbba2ba89e70851bc3b6f6010476ab974c30cfb7d08d5a52d4bba6faf0",
     "lang": "nl"
   },
   "beschermd": {
@@ -98,19 +92,19 @@
   ],
   "bodytekst": {
     "regio": "main",
-    "woorden": 1138,
-    "sha256": "e1b712f4bac4acda85d557fe26f86540b7fe3c405a6bfc3ed1e51fe8d8d4cbdb",
+    "woorden": 1141,
+    "sha256": "9ba0f14b35d90a23f3bd9be0759809d197311b794d169402039f29f7fec93e2b",
     "blokken": [
       "← Terug naar alle inzichten",
       "Strategie",
-      "Van AI-strategienaar echte waarde",
+      "Van AI-strategie naar echte waarde",
       "Een strategie die niemand kan uitvoeren is een duur document. Dit zijn de drie stappen die van richting resultaat maken, met de valkuil bij elke stap.",
       "◷ 4 min leestijd 11 juni 2026",
       "DW",
       "Door Dave Willemstein Independent AI Advisor, onafhankelijk, geen leveranciersbelangen",
       "Ik help organisaties AI-beslissingen nemen die waarde creëren. Geen dikke decks, wel duidelijke keuzes en tastbare resultaten.",
-      "vertrouwen,ervaring, impact ↓",
-      "Independent No vendor bias Senior only20+ jaar ervaring",
+      "vertrouwen, ervaring, impact ↓",
+      "Independent No vendor bias Senior only 20+ jaar ervaring",
       "IN HET KORT",
       "Vertaal ambitie naar meetbare business-uitkomsten, niet naar technologie.",
       "Kies per use case één eigenaar met budget en mandaat.",
@@ -215,7 +209,7 @@
       "✓",
       "Meet wat je beloofde",
       "Als de businesscase over euro’s ging, is gebruikersaantal geen bewijs.",
-      "ONTHOUD“Een strategie wordt pas echt op het moment dat iemand er een kwartaaldoel van maakt.”",
+      "ONTHOUD “Een strategie wordt pas echt op het moment dat iemand er een kwartaaldoel van maakt.”",
       "Sparren over jouw situatie? 30 minuten, vrijblijvend →",
       "Verder lezen",
       "⚠",
@@ -510,7 +504,7 @@
     }
   ],
   "structured_data": {
-    "sha256": "d95687fe0ad626243b07e79ba93ed161136f684e65fbd8d40a13ee885dbd8dc5",
+    "sha256": "905e02dab0658ce13fa75ca26414266856334d80c6eed9c0add38e56999ce7d5",
     "items": [
       {
         "@context": "https://schema.org",
@@ -576,5 +570,6 @@
     ],
     "aantal_details": 0,
     "aantal_tabellen": 0
-  }
+  },
+  "gemeten_op": "2026-10-06"
 }

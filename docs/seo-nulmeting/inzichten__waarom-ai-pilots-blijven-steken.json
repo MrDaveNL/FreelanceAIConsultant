@@ -1,14 +1,8 @@
 {
   "url": "/inzichten/waarom-ai-pilots-blijven-steken",
   "build_bestand": "dist/inzichten/waarom-ai-pilots-blijven-steken/index.html",
-  "bron": [
-    "src/pages/inzichten/[slug].astro",
-    "src/data/articles/waarom-ai-pilots-blijven-steken.js"
-  ],
-  "gemeten_op": "2026-10-06",
   "html": {
     "bytes": 30886,
-    "sha256": "8e403a554728142ed6a44010cabfdbc6342de06463cc2ec626b36ae278a335d8",
     "lang": "nl"
   },
   "beschermd": {
@@ -110,19 +104,19 @@
   ],
   "bodytekst": {
     "regio": "main",
-    "woorden": 1243,
-    "sha256": "ba40afb153aa394b8681846100a59dadeed807848991bb620ee8d5788e794963",
+    "woorden": 1246,
+    "sha256": "f3d3141104ce220bdc5826af9ef067923460fee2229258702716b8524ca1bd9e",
     "blokken": [
       "← Terug naar alle inzichten",
       "Organisatie",
-      "Waarom AI-pilotsblijven steken",
+      "Waarom AI-pilots blijven steken",
       "Bijna elke organisatie die ik spreek heeft geslaagde AI-pilots. Bijna geen enkele heeft er meer dan twee opgeschaald. Dat is geen technologieprobleem.",
       "◷ 4 min leestijd 26 februari 2026",
       "DW",
       "Door Dave Willemstein Independent AI Advisor, onafhankelijk, geen leveranciersbelangen",
       "Ik help organisaties AI-beslissingen nemen die waarde creëren. Geen dikke decks, wel duidelijke keuzes en tastbare resultaten.",
-      "vertrouwen,ervaring, impact ↓",
-      "Independent No vendor bias Senior only20+ jaar ervaring",
+      "vertrouwen, ervaring, impact ↓",
+      "Independent No vendor bias Senior only 20+ jaar ervaring",
       "IN HET KORT",
       "Een pilot bewijst haalbaarheid, geen waarde.",
       "Opschalen faalt op eigenaarschap, beheer en werkproces, zelden op techniek.",
@@ -227,7 +221,7 @@
       "✓",
       "Pilots in de echte omgeving",
       "Een pilot buiten het echte werkproces bewijst alleen dat de techniek werkt.",
-      "ONTHOUD“Een pilot zonder vooraf afgesproken stopcriterium eindigt nooit, hij verdampt alleen.”",
+      "ONTHOUD “Een pilot zonder vooraf afgesproken stopcriterium eindigt nooit, hij verdampt alleen.”",
       "Sparren over jouw situatie? 30 minuten, vrijblijvend →",
       "Verder lezen",
       "⌕",
@@ -522,7 +516,7 @@
     }
   ],
   "structured_data": {
-    "sha256": "923f01e62e3899dec53d1650e2b832fd78d189ecb720e15f52242408b3683340",
+    "sha256": "188b8bb1fa1ca4f91bb82ff4f4e4653a68ecf5b3d5658937794fa59ea1883ffd",
     "items": [
       {
         "@context": "https://schema.org",
@@ -588,5 +582,6 @@
     ],
     "aantal_details": 0,
     "aantal_tabellen": 0
-  }
+  },
+  "gemeten_op": "2026-10-06"
 }

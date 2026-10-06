@@ -1,14 +1,8 @@
 {
   "url": "/inzichten/build-buy-of-partner",
   "build_bestand": "dist/inzichten/build-buy-of-partner/index.html",
-  "bron": [
-    "src/pages/inzichten/[slug].astro",
-    "src/data/articles/build-buy-of-partner.js"
-  ],
-  "gemeten_op": "2026-10-06",
   "html": {
     "bytes": 30742,
-    "sha256": "d8aa39f9e6b66d5a64c177e3326b9e137a2b82076721e63b8fc97ce39ff060a1",
     "lang": "nl"
   },
   "beschermd": {
@@ -116,19 +110,19 @@
   ],
   "bodytekst": {
     "regio": "main",
-    "woorden": 1210,
-    "sha256": "509341dda239450ab27c931a8d4aa9edc68521212b82851620d5eced2163e45a",
+    "woorden": 1212,
+    "sha256": "410aa1b86d73a9c22fb045c5e149db62bf432361cb52f32e1832876aef34ec80",
     "blokken": [
       "← Terug naar alle inzichten",
       "Organisatie",
-      "Build, buy of partner:wat past bij jouw situatie?",
+      "Build, buy of partner: wat past bij jouw situatie?",
       "Zelf bouwen, kopen of samen met een partner? De keuze bepaalt je kostenstructuur, je wendbaarheid en je afhankelijkheid voor jaren. Zo maak je hem onderbouwd.",
       "◷ 4 min leestijd 28 mei 2026",
       "DW",
       "Door Dave Willemstein Independent AI Advisor, onafhankelijk, geen leveranciersbelangen",
       "Ik help organisaties AI-beslissingen nemen die waarde creëren. Geen dikke decks, wel duidelijke keuzes en tastbare resultaten.",
-      "vertrouwen,ervaring, impact ↓",
-      "Independent No vendor bias Senior only20+ jaar ervaring",
+      "vertrouwen, ervaring, impact ↓",
+      "Independent No vendor bias Senior only 20+ jaar ervaring",
       "IN HET KORT",
       "Bouw alleen wat je onderscheidt in de markt.",
       "Koop alles wat een commodity is, ook als je het zelf kunt.",
@@ -237,7 +231,7 @@
       "✓",
       "Exit hoort in het ontwerp",
       "Bij elke keuze: hoe kom je er weer vanaf, en wat kost dat?",
-      "ONTHOUD“Je bouwt geen software, je adopteert een onderhoudsverplichting.”",
+      "ONTHOUD “Je bouwt geen software, je adopteert een onderhoudsverplichting.”",
       "Sparren over jouw situatie? 30 minuten, vrijblijvend →",
       "Verder lezen",
       "◈",
@@ -532,7 +526,7 @@
     }
   ],
   "structured_data": {
-    "sha256": "e63df3f37c509bb89c92095396bbb21048b953e0083ba7217b2f450c3f1c27d5",
+    "sha256": "8f565de86f44c6a8db85e51f9d10a4861d5e78d581f34265164b16cda2b6677c",
     "items": [
       {
         "@context": "https://schema.org",
@@ -598,5 +592,6 @@
     ],
     "aantal_details": 0,
     "aantal_tabellen": 0
-  }
+  },
+  "gemeten_op": "2026-10-06"
 }

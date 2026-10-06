@@ -1,14 +1,8 @@
 {
   "url": "/ai-voor-bedrijven/mkb",
   "build_bestand": "dist/ai-voor-bedrijven/mkb/index.html",
-  "bron": [
-    "src/content/pages/ai-voor-bedrijven/mkb/index.md",
-    "src/pages/[...slug].astro"
-  ],
-  "gemeten_op": "2026-10-06",
   "html": {
     "bytes": 40284,
-    "sha256": "0b83d9b0dbb2f2b9eeb1064a8725d7593b9608417196c2594bf6c509e11a6d84",
     "lang": "nl"
   },
   "beschermd": {
@@ -761,7 +755,7 @@
     }
   ],
   "structured_data": {
-    "sha256": "d9fcabdac720efacd9b45aaa37ae57d29a936af93a683beb487dfd6e29276d72",
+    "sha256": "5d6bae947597419fed682a90ea777f1687a22115f0df32158d6c65ed64bb6485",
     "items": [
       {
         "@context": "https://schema.org",
@@ -902,5 +896,6 @@
     ],
     "aantal_details": 5,
     "aantal_tabellen": 0
-  }
+  },
+  "gemeten_op": "2026-10-06"
 }

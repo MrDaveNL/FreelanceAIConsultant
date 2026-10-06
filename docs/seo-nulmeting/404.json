@@ -1,13 +1,8 @@
 {
   "url": "/404",
   "build_bestand": "dist/404.html",
-  "bron": [
-    "src/pages/404.astro"
-  ],
-  "gemeten_op": "2026-10-06",
   "html": {
     "bytes": 9435,
-    "sha256": "008e1c0cd47417e12250ceb2eea7363b946bc818ad0335c050e325d1b3b020c7",
     "lang": "nl"
   },
   "beschermd": {
@@ -43,11 +38,11 @@
   ],
   "bodytekst": {
     "regio": "main",
-    "woorden": 66,
-    "sha256": "c762fae2544069d6a37a1affd14766f3c8baa199274ed4bc46382341088aa16b",
+    "woorden": 67,
+    "sha256": "bc722d108c320cfedcbd0922d6de4349b67edae6e5203404301fa57b6209cef0",
     "blokken": [
       "Foutje",
-      "Deze paginabestaat niet.",
+      "Deze pagina bestaat niet.",
       "Verkeerde link, verouderde bookmark of een typefout. Hieronder staan de plekken waar de meeste mensen naartoe wilden.",
       "Naar de homepage →Of stel je vraag direct →",
       "Diensten",
@@ -353,7 +348,7 @@
     }
   ],
   "structured_data": {
-    "sha256": "4b2a541641ab4d1538a87ac9347718f4133954713a00e1ae242af04e5c08ac4e",
+    "sha256": "ad6862e1810df3525435e93bd254c4a1446c8b7dc128c634f292219caa55d74e",
     "items": [
       {
         "@context": "https://schema.org",
@@ -407,5 +402,6 @@
     ],
     "aantal_details": 0,
     "aantal_tabellen": 0
-  }
+  },
+  "gemeten_op": "2026-10-06"
 }

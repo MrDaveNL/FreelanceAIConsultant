@@ -1,14 +1,8 @@
 {
   "url": "/ai-workshop/ai-coaching",
   "build_bestand": "dist/ai-workshop/ai-coaching/index.html",
-  "bron": [
-    "src/content/pages/ai-workshop/ai-coaching/index.md",
-    "src/pages/[...slug].astro"
-  ],
-  "gemeten_op": "2026-10-06",
   "html": {
     "bytes": 29064,
-    "sha256": "e86b24883648b61d7996bd3c92ea7e90a1e154263a14e1aa5ced19da289bf68c",
     "lang": "nl"
   },
   "beschermd": {
@@ -546,7 +540,7 @@
     }
   ],
   "structured_data": {
-    "sha256": "0e3d5f06d5fb6c44149c201083528fb8f8c8c552e73b474659e975924ad65d44",
+    "sha256": "df8a76033b91a7d45daaa4ae813ff6a8b9f9e80f02bf5e455167e2f0188c461b",
     "items": [
       {
         "@context": "https://schema.org",
@@ -674,5 +668,6 @@
     ],
     "aantal_details": 4,
     "aantal_tabellen": 0
-  }
+  },
+  "gemeten_op": "2026-10-06"
 }

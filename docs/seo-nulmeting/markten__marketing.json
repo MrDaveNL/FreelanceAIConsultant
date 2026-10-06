@@ -1,14 +1,8 @@
 {
   "url": "/markten/marketing",
   "build_bestand": "dist/markten/marketing/index.html",
-  "bron": [
-    "src/content/pages/markten/marketing/index.md",
-    "src/pages/[...slug].astro"
-  ],
-  "gemeten_op": "2026-10-06",
   "html": {
     "bytes": 36899,
-    "sha256": "474c8a1ca6198bf96da29b86d19043a1749dc55c3224b999dad4d380ae4b3441",
     "lang": "nl"
   },
   "beschermd": {
@@ -686,7 +680,7 @@
     }
   ],
   "structured_data": {
-    "sha256": "4be07bbbfdd439ae7925df85822c8eee9981e1b5e40c1315d456f861abc5a0e7",
+    "sha256": "9ff475b8665fc6bf6323cc830094ae9e369699433c79a37c46155414cc636f0e",
     "items": [
       {
         "@context": "https://schema.org",
@@ -827,5 +821,6 @@
     ],
     "aantal_details": 5,
     "aantal_tabellen": 0
-  }
+  },
+  "gemeten_op": "2026-10-06"
 }

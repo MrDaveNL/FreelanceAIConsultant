@@ -1,14 +1,8 @@
 {
   "url": "/kennisbank/chatgpt-voor-bedrijven",
   "build_bestand": "dist/kennisbank/chatgpt-voor-bedrijven/index.html",
-  "bron": [
-    "src/content/pages/kennisbank/chatgpt-voor-bedrijven/index.md",
-    "src/pages/[...slug].astro"
-  ],
-  "gemeten_op": "2026-10-06",
   "html": {
     "bytes": 30968,
-    "sha256": "9a162eb92116aed8940748628387cab6fa52ed300d944e7151019239214f1d5a",
     "lang": "nl"
   },
   "beschermd": {
@@ -632,7 +626,7 @@
     }
   ],
   "structured_data": {
-    "sha256": "d6ee761deff5a9a5e515a30e39106a7bd4a99c9888922cd3e8f544edfef730c1",
+    "sha256": "16350e484695edea74fc5c4ec7ecb84e635e9fef3b702d518805a1876e7ac915",
     "items": [
       {
         "@context": "https://schema.org",
@@ -728,5 +722,6 @@
     ],
     "aantal_details": 0,
     "aantal_tabellen": 1
-  }
+  },
+  "gemeten_op": "2026-10-06"
 }

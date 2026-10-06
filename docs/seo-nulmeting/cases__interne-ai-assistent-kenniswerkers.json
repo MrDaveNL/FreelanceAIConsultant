@@ -1,14 +1,8 @@
 {
   "url": "/cases/interne-ai-assistent-kenniswerkers",
   "build_bestand": "dist/cases/interne-ai-assistent-kenniswerkers/index.html",
-  "bron": [
-    "src/pages/cases/[slug].astro",
-    "src/data/cases.js"
-  ],
-  "gemeten_op": "2026-10-06",
   "html": {
     "bytes": 29152,
-    "sha256": "8c877dd358a62c8b4ea53bf8ec246d93dc392e5b8ce2868668ef74a3290e4321",
     "lang": "nl"
   },
   "beschermd": {
@@ -56,12 +50,12 @@
   ],
   "bodytekst": {
     "regio": "main",
-    "woorden": 574,
-    "sha256": "8afca347ee89676186f901be739c79d82c54a1f6f8ccc0264990a3f6a06a3854",
+    "woorden": 578,
+    "sha256": "a32cd2ccceaaaec01288b0fa67161a78aed852833dd2370792b10e1d984313c4",
     "blokken": [
       "← Terug naar cases",
       "Proces & productivity",
-      "AI-assistentvoor kenniswerkers",
+      "AI-assistent voor kenniswerkers",
       "De techniek stond in drie weken. De adoptie kostte vijf maanden. Dat is de verhouding waar bijna elke business case op stukloopt.",
       "Sector: Proces & productivity Dienst: Fractional AI Lead Duur: 6 maanden Jaar: 2026",
       "Bewijs in cijfers",
@@ -128,10 +122,10 @@
       "Proces & productivity",
       "Zakelijke dienstverlener",
       "Interne AI-assistent voor kenniswerkers",
-      "vertrouwen,ervaring, impact ↓",
-      "Independent No vendor bias Senior only20+ jaar ervaring",
+      "vertrouwen, ervaring, impact ↓",
+      "Independent No vendor bias Senior only 20+ jaar ervaring",
       "Focus op waarde",
-      "Geen hypewel impact",
+      "Geen hype wel impact",
       "1",
       "Situatie",
       "Een zakelijke dienstverlener met zo’n vierhonderd kenniswerkers gaf iedereen toegang tot een AI-assistent. Na drie maanden gebruikte 11% het wekelijks. De licentiekosten liepen door, de beloofde productiviteitswinst was nergens terug te vinden in de cijfers.",
@@ -435,7 +429,7 @@
     }
   ],
   "structured_data": {
-    "sha256": "928fd512ee27d963c00f815d4b868b1f17f81eef0ae1fdce24c451a78c71f3da",
+    "sha256": "12e9df95cf78b2d0b4c23dd827b5d7259bd0e752b1498dabb243c57f0f8682b8",
     "items": [
       {
         "@context": "https://schema.org",
@@ -496,5 +490,6 @@
     ],
     "aantal_details": 0,
     "aantal_tabellen": 0
-  }
+  },
+  "gemeten_op": "2026-10-06"
 }

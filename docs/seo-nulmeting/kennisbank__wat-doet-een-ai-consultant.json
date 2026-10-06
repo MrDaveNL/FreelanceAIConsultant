@@ -1,14 +1,8 @@
 {
   "url": "/kennisbank/wat-doet-een-ai-consultant",
   "build_bestand": "dist/kennisbank/wat-doet-een-ai-consultant/index.html",
-  "bron": [
-    "src/content/pages/kennisbank/wat-doet-een-ai-consultant/index.md",
-    "src/pages/[...slug].astro"
-  ],
-  "gemeten_op": "2026-10-06",
   "html": {
     "bytes": 34182,
-    "sha256": "f78ce89ffc83487af7a7ef3544987e935fc649baa44869f196f577b5b644eb63",
     "lang": "nl"
   },
   "beschermd": {
@@ -653,7 +647,7 @@
     }
   ],
   "structured_data": {
-    "sha256": "ca3852208650e15bc78a4f520f9a66a96805ac9ba009dfaaf0171bab277134c3",
+    "sha256": "2b3a5cc51697955403f3ff5cbe0943110740358c5650d84dfc926e9cdb5c38ce",
     "items": [
       {
         "@context": "https://schema.org",
@@ -794,5 +788,6 @@
     ],
     "aantal_details": 5,
     "aantal_tabellen": 1
-  }
+  },
+  "gemeten_op": "2026-10-06"
 }

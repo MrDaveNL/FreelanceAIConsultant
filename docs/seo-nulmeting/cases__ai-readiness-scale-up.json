@@ -1,14 +1,8 @@
 {
   "url": "/cases/ai-readiness-scale-up",
   "build_bestand": "dist/cases/ai-readiness-scale-up/index.html",
-  "bron": [
-    "src/pages/cases/[slug].astro",
-    "src/data/cases.js"
-  ],
-  "gemeten_op": "2026-10-06",
   "html": {
     "bytes": 28887,
-    "sha256": "3dd11cc2c055f086157b77495828ea57be7bcf7ad40da04b1e6d186a6453c6fc",
     "lang": "nl"
   },
   "beschermd": {
@@ -56,12 +50,12 @@
   ],
   "bodytekst": {
     "regio": "main",
-    "woorden": 554,
-    "sha256": "676e30890c2cbd292f6aff53b08dd0018c105d0df1e9324c3164dc1f112eeca0",
+    "woorden": 558,
+    "sha256": "fa5e8d1f263e60ab0d025f6e7c0ab2eb5ef66c5426ce1e1ad3b99328cdbf174b",
     "blokken": [
       "← Terug naar cases",
       "Strategy & AI",
-      "AI-readinessvoor een scale-up",
+      "AI-readiness voor een scale-up",
       "De uitkomst was niet wat de opdrachtgever hoopte: nog niet kopen. Het was wel de uitkomst die een jaar aan verspilde implementatie voorkwam.",
       "Sector: Strategy & AI Dienst: AI Readiness Assessment Duur: 3 weken Jaar: 2025",
       "Bewijs in cijfers",
@@ -128,10 +122,10 @@
       "Proces & productivity",
       "Zakelijke dienstverlener",
       "Interne AI-assistent voor kenniswerkers",
-      "vertrouwen,ervaring, impact ↓",
-      "Independent No vendor bias Senior only20+ jaar ervaring",
+      "vertrouwen, ervaring, impact ↓",
+      "Independent No vendor bias Senior only 20+ jaar ervaring",
       "Focus op waarde",
-      "Geen hypewel impact",
+      "Geen hype wel impact",
       "1",
       "Situatie",
       "Een snelgroeiende SaaS-organisatie van ruim tweehonderd medewerkers wilde AI inzetten in het product én intern. Er lag een offerte voor een AI-platform met een meerjarige verbintenis. De CTO wilde tekenen, de CFO twijfelde, en niemand kon onderbouwen wie gelijk had.",
@@ -435,7 +429,7 @@
     }
   ],
   "structured_data": {
-    "sha256": "7d82013823fa56870a828446b00fbcaff94f1483f70463c9c712fba1854faf56",
+    "sha256": "5bdc386ac6e5c26bb15a333da4dcc79c9e07d5fce948615309e81e935e8446a7",
     "items": [
       {
         "@context": "https://schema.org",
@@ -496,5 +490,6 @@
     ],
     "aantal_details": 0,
     "aantal_tabellen": 0
-  }
+  },
+  "gemeten_op": "2026-10-06"
 }

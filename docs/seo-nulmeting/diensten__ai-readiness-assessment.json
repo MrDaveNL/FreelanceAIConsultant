@@ -1,15 +1,8 @@
 {
   "url": "/diensten/ai-readiness-assessment",
   "build_bestand": "dist/diensten/ai-readiness-assessment/index.html",
-  "bron": [
-    "src/pages/diensten/[slug].astro",
-    "src/data/services.js",
-    "src/data/prijzen.ts"
-  ],
-  "gemeten_op": "2026-10-06",
   "html": {
     "bytes": 34002,
-    "sha256": "62dad3a23f9622623b98af9841f9068a5922e68b116891e6e7e5c09fab670a1a",
     "lang": "nl"
   },
   "beschermd": {
@@ -147,15 +140,15 @@
   ],
   "bodytekst": {
     "regio": "main",
-    "woorden": 862,
-    "sha256": "7190eb99b99ec1841d5251078b209b00ad86544a23c4e25583a4d57d35c62f69",
+    "woorden": 866,
+    "sha256": "0c4c2e6174ddc8725378f5dc1364737c9464e6ea59f37ef6b392ea940c4a8725",
     "blokken": [
       "Weten waar je staat",
       "AI Readiness Assessment",
       "Een nuchtere doorlichting van je organisatie op vijf dimensies: strategie, data, technologie, mensen en governance. Je weet binnen drie weken wat haalbaar is, wat eerst moet en wat je beter nog niet doet.",
       "Plan een gesprek → Alle diensten → 30 min., geen pitch deck",
-      "vertrouwen,ervaring, impact ↓",
-      "Independent No vendor bias Senior only20+ jaar ervaring",
+      "vertrouwen, ervaring, impact ↓",
+      "Independent No vendor bias Senior only 20+ jaar ervaring",
       "AI in Europa",
       "Europese merken die AI al in productie hebben.",
       "Geen klanten van mij. Wel voorbeelden van wat er gebeurt als AI voorbij de pilot komt.",
@@ -236,7 +229,7 @@
       "Week 3",
       "Prioritering, 90-dagenplan en de eindsessie waarin we het gesprek voeren dat er echt toe doet: wat gaan we wel en niet doen?",
       "Wat je krijgt",
-      "Concreet. Duidelijk.Direct toepasbaar.",
+      "Concreet. Duidelijk. Direct toepasbaar.",
       "Readiness-score op strategie, data, technologie, mensen en governance",
       "Gap-analyse met de drie blokkades die er werkelijk toe doen",
       "Gevalideerde longlist van use cases met een eerste waarde-inschatting",
@@ -253,7 +246,7 @@
       "Als je al weet wat je gaat bouwen en alleen uitvoeringscapaciteit zoekt",
       "Als het doel een rapport is dat vooral bevestigt wat al besloten is",
       "Het onderliggende ritme",
-      "Van inzichtnaar impact.",
+      "Van inzicht naar impact.",
       "Elke opdracht doorloopt dezelfde vier beslismomenten. Alleen de diepgang per stap verschilt.",
       "Meer over mijn werkwijze →",
       "01",
@@ -601,7 +594,7 @@
     }
   ],
   "structured_data": {
-    "sha256": "a6683cd261eed7ea47ecb3b15ac6164de87062b494a8a021712f84569d5ccad1",
+    "sha256": "957ec096f40572d66d0c28a3ff18883cf418d977f906d7bd883d1f34745c8cd3",
     "items": [
       {
         "@context": "https://schema.org",
@@ -669,5 +662,6 @@
     ],
     "aantal_details": 4,
     "aantal_tabellen": 0
-  }
+  },
+  "gemeten_op": "2026-10-06"
 }

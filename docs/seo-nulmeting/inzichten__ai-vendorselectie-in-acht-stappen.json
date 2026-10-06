@@ -1,14 +1,8 @@
 {
   "url": "/inzichten/ai-vendorselectie-in-acht-stappen",
   "build_bestand": "dist/inzichten/ai-vendorselectie-in-acht-stappen/index.html",
-  "bron": [
-    "src/pages/inzichten/[slug].astro",
-    "src/data/articles/ai-vendorselectie-in-acht-stappen.js"
-  ],
-  "gemeten_op": "2026-10-06",
   "html": {
     "bytes": 31948,
-    "sha256": "2b0761ba999a3893452ee3aceee6621f65f6815fcd1026fc3e4181a2b748e92c",
     "lang": "nl"
   },
   "beschermd": {
@@ -128,19 +122,19 @@
   ],
   "bodytekst": {
     "regio": "main",
-    "woorden": 1338,
-    "sha256": "1eaaec3b29a6a13c8b706e148aa6a1895477fc37e5ca812515884ab731c1fd70",
+    "woorden": 1341,
+    "sha256": "562cb7763bb558fa9b3c11f6b22263a717232360fc4d7be5c8ebb671e7a5acb8",
     "blokken": [
       "← Terug naar alle inzichten",
       "Tools & data",
-      "AI-vendorselectiein acht stappen",
+      "AI-vendorselectie in acht stappen",
       "De meeste selecties worden beslist voordat het proces begint. Acht stappen die voorkomen dat je achteraf een onderbouwing zoekt bij een keuze die al vaststond.",
       "◷ 5 min leestijd 20 november 2025",
       "DW",
       "Door Dave Willemstein Independent AI Advisor, onafhankelijk, geen leveranciersbelangen",
       "Ik help organisaties AI-beslissingen nemen die waarde creëren. Geen dikke decks, wel duidelijke keuzes en tastbare resultaten.",
-      "vertrouwen,ervaring, impact ↓",
-      "Independent No vendor bias Senior only20+ jaar ervaring",
+      "vertrouwen, ervaring, impact ↓",
+      "Independent No vendor bias Senior only 20+ jaar ervaring",
       "IN HET KORT",
       "Stel criteria en wegingen vast vóórdat je leveranciers ziet.",
       "Test met jouw data, niet met hun demo.",
@@ -264,7 +258,7 @@
       "✓",
       "Eigen referenties",
       "Bel ook klanten die niet op de aangeleverde lijst staan.",
-      "ONTHOUD“Je koopt geen functionaliteit, je koopt een relatie van drie jaar met een organisatie die verandert.”",
+      "ONTHOUD “Je koopt geen functionaliteit, je koopt een relatie van drie jaar met een organisatie die verandert.”",
       "Sparren over jouw situatie? 30 minuten, vrijblijvend →",
       "Verder lezen",
       "⇄",
@@ -559,7 +553,7 @@
     }
   ],
   "structured_data": {
-    "sha256": "3165573d6576189032d85984cafdb8593f533e158fe14b29187a42ca7f964317",
+    "sha256": "be9d1f3f14e9e0ee77adee903daf99e816b2df872b99cc93893bb357c3a131a7",
     "items": [
       {
         "@context": "https://schema.org",
@@ -625,5 +619,6 @@
     ],
     "aantal_details": 0,
     "aantal_tabellen": 0
-  }
+  },
+  "gemeten_op": "2026-10-06"
 }

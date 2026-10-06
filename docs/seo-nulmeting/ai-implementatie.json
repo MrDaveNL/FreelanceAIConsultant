@@ -1,14 +1,8 @@
 {
   "url": "/ai-implementatie",
   "build_bestand": "dist/ai-implementatie/index.html",
-  "bron": [
-    "src/content/pages/ai-implementatie/index.md",
-    "src/pages/[...slug].astro"
-  ],
-  "gemeten_op": "2026-10-06",
   "html": {
     "bytes": 40987,
-    "sha256": "0c29653e94c76faebff51387635059571fb1ec19f87defdc11ea7d0cabb4a1b2",
     "lang": "nl"
   },
   "beschermd": {
@@ -760,7 +754,7 @@
     }
   ],
   "structured_data": {
-    "sha256": "bb7b30ac3c5244620ae5dbefd07c70f9dd86306cc739a31b50ac02238267c179",
+    "sha256": "6f246f82de755f0d5a5b4dc6582077ed708f4854fbf8e6a674e3a0b464ea2513",
     "items": [
       {
         "@context": "https://schema.org",
@@ -890,5 +884,6 @@
     ],
     "aantal_details": 5,
     "aantal_tabellen": 0
-  }
+  },
+  "gemeten_op": "2026-10-06"
 }

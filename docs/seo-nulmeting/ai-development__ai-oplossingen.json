@@ -1,14 +1,8 @@
 {
   "url": "/ai-development/ai-oplossingen",
   "build_bestand": "dist/ai-development/ai-oplossingen/index.html",
-  "bron": [
-    "src/content/pages/ai-development/ai-oplossingen/index.md",
-    "src/pages/[...slug].astro"
-  ],
-  "gemeten_op": "2026-10-06",
   "html": {
     "bytes": 32686,
-    "sha256": "0797bc72988d9df39e0d2c60c71a36733166e0a91ca8a58c3a2bf157916c4cac",
     "lang": "nl"
   },
   "beschermd": {
@@ -608,7 +602,7 @@
     }
   ],
   "structured_data": {
-    "sha256": "55154291faa825843c64a2e44b5292b7e676be94b514e8a4974322238b16d78d",
+    "sha256": "42670fa85688c129cddff51b2eaf1d70f57d8715d436943b9de4a1f2e374c8ff",
     "items": [
       {
         "@context": "https://schema.org",
@@ -744,5 +738,6 @@
     ],
     "aantal_details": 5,
     "aantal_tabellen": 0
-  }
+  },
+  "gemeten_op": "2026-10-06"
 }

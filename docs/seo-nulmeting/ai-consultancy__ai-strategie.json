@@ -1,14 +1,8 @@
 {
   "url": "/ai-consultancy/ai-strategie",
   "build_bestand": "dist/ai-consultancy/ai-strategie/index.html",
-  "bron": [
-    "src/content/pages/ai-consultancy/ai-strategie/index.md",
-    "src/pages/[...slug].astro"
-  ],
-  "gemeten_op": "2026-10-06",
   "html": {
     "bytes": 34177,
-    "sha256": "6fe48f4a6afcecc3976d038a4791fa7bc12bacdac411ddb5e98005d74fb14b17",
     "lang": "nl"
   },
   "beschermd": {
@@ -620,7 +614,7 @@
     }
   ],
   "structured_data": {
-    "sha256": "3a990219eecb206c604d0b14723323761850d55d29c8a983ff9112c35d6e9cc8",
+    "sha256": "d26f6be14f6540b2a1b76bcfbbf81326460ce014d3e0ff55f79cabd3674d056f",
     "items": [
       {
         "@context": "https://schema.org",
@@ -756,5 +750,6 @@
     ],
     "aantal_details": 5,
     "aantal_tabellen": 0
-  }
+  },
+  "gemeten_op": "2026-10-06"
 }

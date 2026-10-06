@@ -1,14 +1,8 @@
 {
   "url": "/ai-consultancy/ai-consultant-inhuren",
   "build_bestand": "dist/ai-consultancy/ai-consultant-inhuren/index.html",
-  "bron": [
-    "src/content/pages/ai-consultancy/ai-consultant-inhuren/index.md",
-    "src/pages/[...slug].astro"
-  ],
-  "gemeten_op": "2026-10-06",
   "html": {
     "bytes": 32812,
-    "sha256": "74ac485626dde5c1c02b86d4dc97899f356d41b49ee8475c6d683c1021560b55",
     "lang": "nl"
   },
   "beschermd": {
@@ -629,7 +623,7 @@
     }
   ],
   "structured_data": {
-    "sha256": "198e4957220e6049800dec847853ecce41e7e0eac90fad7a26ffe621337e3956",
+    "sha256": "6acb4f17b8a8cecfeb1aaaac2b8ac9ff4a4b290a339542f87957132e962e198b",
     "items": [
       {
         "@context": "https://schema.org",
@@ -765,5 +759,6 @@
     ],
     "aantal_details": 5,
     "aantal_tabellen": 1
-  }
+  },
+  "gemeten_op": "2026-10-06"
 }

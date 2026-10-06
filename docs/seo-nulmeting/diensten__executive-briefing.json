@@ -1,15 +1,8 @@
 {
   "url": "/diensten/executive-briefing",
   "build_bestand": "dist/diensten/executive-briefing/index.html",
-  "bron": [
-    "src/pages/diensten/[slug].astro",
-    "src/data/services.js",
-    "src/data/prijzen.ts"
-  ],
-  "gemeten_op": "2026-10-06",
   "html": {
     "bytes": 33170,
-    "sha256": "d3f2eab25cd091015f23543c3eefaa78c51aed9fbcf55514f685f770dc8d0083",
     "lang": "nl"
   },
   "beschermd": {
@@ -153,15 +146,15 @@
   ],
   "bodytekst": {
     "regio": "main",
-    "woorden": 766,
-    "sha256": "b86fa74c47c497086b7b12fa9064dff0978d445ead4f33f89830b03d8d047c1e",
+    "woorden": 770,
+    "sha256": "beef3e7bca2d80a945e5396688a7245abca175547a20753ce80402692c595968",
     "blokken": [
       "Iedereen aan tafel hetzelfde beeld",
       "Executive Briefing",
       "Een sessie van drie uur waarin je directie of RvC hetzelfde, realistische beeld krijgt van wat AI voor jullie organisatie betekent, inclusief wat het van hen als toezichthouders vraagt.",
       "Plan een gesprek → Alle diensten → 30 min., geen pitch deck",
-      "vertrouwen,ervaring, impact ↓",
-      "Independent No vendor bias Senior only20+ jaar ervaring",
+      "vertrouwen, ervaring, impact ↓",
+      "Independent No vendor bias Senior only 20+ jaar ervaring",
       "AI in Europa",
       "Europese merken die AI al in productie hebben.",
       "Geen klanten van mij. Wel voorbeelden van wat er gebeurt als AI voorbij de pilot komt.",
@@ -245,7 +238,7 @@
       "Blok 3",
       "Governance en toezicht: regelgeving, aansprakelijkheid, en de vijf vragen die je als bestuurder moet kunnen stellen.",
       "Wat je krijgt",
-      "Concreet. Duidelijk.Direct toepasbaar.",
+      "Concreet. Duidelijk. Direct toepasbaar.",
       "Sessie van drie uur, op locatie of online",
       "Sectorspecifieke voorbereiding en voorbeelden",
       "Beslisagenda: welke AI-besluiten komen er op jullie af, en wanneer",
@@ -260,7 +253,7 @@
       "Minder geschikt als",
       "Als je een inspirerende keynote zoekt: dan ben ik niet de juiste spreker",
       "Het onderliggende ritme",
-      "Van inzichtnaar impact.",
+      "Van inzicht naar impact.",
       "Elke opdracht doorloopt dezelfde vier beslismomenten. Alleen de diepgang per stap verschilt.",
       "Meer over mijn werkwijze →",
       "01",
@@ -598,7 +591,7 @@
     }
   ],
   "structured_data": {
-    "sha256": "717da866d8a3cb2ffd3d9e34ac38ef5ea035ffc722bfe3c987f866523368f276",
+    "sha256": "b640f79f55aceb556b56c5657281d7c282873908441bf953acd6ee9e384c4455",
     "items": [
       {
         "@context": "https://schema.org",
@@ -666,5 +659,6 @@
     ],
     "aantal_details": 3,
     "aantal_tabellen": 0
-  }
+  },
+  "gemeten_op": "2026-10-06"
 }

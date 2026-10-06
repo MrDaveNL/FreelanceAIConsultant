@@ -1,13 +1,8 @@
 {
   "url": "/over",
   "build_bestand": "dist/over/index.html",
-  "bron": [
-    "src/pages/over.astro"
-  ],
-  "gemeten_op": "2026-10-06",
   "html": {
     "bytes": 30297,
-    "sha256": "4085e0c789340e7d0ddc6607c7cc02a9edb08c348783831a5ce1e3e7a912948f",
     "lang": "nl"
   },
   "beschermd": {
@@ -67,15 +62,15 @@
   ],
   "bodytekst": {
     "regio": "main",
-    "woorden": 637,
-    "sha256": "ff52a07f8a945336988719bc5fe14d463691faa04eac900a75b1a8c5bf0f8f49",
+    "woorden": 646,
+    "sha256": "39e5e17d670d638f1a376c717401bd4fbc0f44d51ecd20d760b244628cf0881a",
     "blokken": [
       "Over mij",
       "Hi, ik ben Dave. Onafhankelijk AI-adviseur voor boards en leiders die vooruit willen.",
       "Ik help organisaties AI-beslissingen nemen die waarde creëren, risico’s beperken en écht passen bij hun strategie. Geen verkooppraat. Geen tool-voorkeuren. Wel helder advies, scherpe keuzes en begeleiding van mens tot proces.",
       "Plan een gesprek → Neem contact op → 30 min., geen pitch deck",
-      "vertrouwen,ervaring, impact ↓",
-      "Independent No vendor bias Senior only20+ jaar ervaring",
+      "vertrouwen, ervaring, impact ↓",
+      "Independent No vendor bias Senior only 20+ jaar ervaring",
       "AI in Europa",
       "Europese merken die AI al in productie hebben.",
       "Geen klanten van mij. Wel voorbeelden van wat er gebeurt als AI voorbij de pilot komt.",
@@ -135,19 +130,19 @@
       "Zakelijke dienstverlener",
       "Interne AI-assistent voor kenniswerkers",
       "Mijn verhaal",
-      "Van strategie naar uitvoering.Met impact.",
+      "Van strategie naar uitvoering. Met impact.",
       "Na twintig jaar in strategie, digital en innovatie aan klant- én leverancierszijde, zag ik steeds hetzelfde patroon: goede intenties, maar vage keuzes. Tools vóór strategie. Hype vóór waarde. En adviseurs die meeverdienden aan de oplossing die ze aanraadden.",
       "Ik startte freelanceaiconsultant.com om daar verandering in te brengen. Ik werk zelfstandig, onafhankelijk en altijd in jouw belang. Eén senior adviseur. Geen juniors op je project. Geen ruis.",
       "Dat betekent ook dat ik niet alles kan. Grote implementatieprogramma’s, teams van tien ontwikkelaars, wereldwijde uitrol: daar ben ik de verkeerde partij voor, en dat zeg ik dan ook.",
       "Ervaring in het kort",
       "✓",
-      "20+ jaarStrategie, digital en innovatie, aan klant- én leverancierszijde",
+      "20+ jaar Strategie, digital en innovatie, aan klant- én leverancierszijde",
       "✓",
-      "100+ trajectenVan AI-strategie en vendorselectie tot implementatiebegeleiding",
+      "100+ trajecten Van AI-strategie en vendorselectie tot implementatiebegeleiding",
       "✓",
-      "Executive sparringpartnerVoor CIO’s, CFO’s, CEO’s en raden van commissarissen",
+      "Executive sparringpartner Voor CIO’s, CFO’s, CEO’s en raden van commissarissen",
       "✓",
-      "Publicist & sprekerOver AI, leiderschap en verandermanagement",
+      "Publicist & spreker Over AI, leiderschap en verandermanagement",
       "Waar ik in geloof",
       "✓",
       "Onafhankelijk",
@@ -162,7 +157,7 @@
       "Mensgericht",
       "Technologie werkt pas als mensen ermee willen werken.",
       "Achtergrond",
-      "Waar dezeervaringvandaan komt.",
+      "Waar deze ervaring vandaan komt.",
       "Nu",
       "Onafhankelijk AI-adviseur",
       "Strategie, vendorselectie, governance en fractional AI-leiderschap voor organisaties in Nederland, België en Duitsland.",
@@ -482,7 +477,7 @@
     }
   ],
   "structured_data": {
-    "sha256": "a1ad4354e526a2416c3c2f571997f7c661b6eeae84f3741dabdd9b4f010582f2",
+    "sha256": "152b9dc1614c586bc9e8a876dd6c8ea3ca968abbcf207dd10ef33fc7b0fb825b",
     "items": [
       {
         "@context": "https://schema.org",
@@ -546,5 +541,6 @@
     ],
     "aantal_details": 0,
     "aantal_tabellen": 0
-  }
+  },
+  "gemeten_op": "2026-10-06"
 }

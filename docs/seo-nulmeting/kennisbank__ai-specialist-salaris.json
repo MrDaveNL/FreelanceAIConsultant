@@ -1,14 +1,8 @@
 {
   "url": "/kennisbank/ai-specialist-salaris",
   "build_bestand": "dist/kennisbank/ai-specialist-salaris/index.html",
-  "bron": [
-    "src/content/pages/kennisbank/ai-specialist-salaris/index.md",
-    "src/pages/[...slug].astro"
-  ],
-  "gemeten_op": "2026-10-06",
   "html": {
     "bytes": 35211,
-    "sha256": "72947c09befb1fc1c238a6263c640eb19f616228ff505a3136ca5e6e9c4872fb",
     "lang": "nl"
   },
   "beschermd": {
@@ -671,7 +665,7 @@
     }
   ],
   "structured_data": {
-    "sha256": "182fd425030a6bc94f369a5a689f94630e6953589a2d32dbc7a156898512321f",
+    "sha256": "018be3fe2485f4811075bbe2709f4485206d1a35845f12609ba14692ae8a8f6e",
     "items": [
       {
         "@context": "https://schema.org",
@@ -812,5 +806,6 @@
     ],
     "aantal_details": 5,
     "aantal_tabellen": 1
-  }
+  },
+  "gemeten_op": "2026-10-06"
 }

@@ -1,14 +1,8 @@
 {
   "url": "/ai-automatisering/ai-workflows",
   "build_bestand": "dist/ai-automatisering/ai-workflows/index.html",
-  "bron": [
-    "src/content/pages/ai-automatisering/ai-workflows/index.md",
-    "src/pages/[...slug].astro"
-  ],
-  "gemeten_op": "2026-10-06",
   "html": {
     "bytes": 35667,
-    "sha256": "8e9f27d334b3fd9fa70cb55dbd56237aa14a8bfeea5c91a5d0441856f348ad98",
     "lang": "nl"
   },
   "beschermd": {
@@ -700,7 +694,7 @@
     }
   ],
   "structured_data": {
-    "sha256": "4d3a79152a1617c66531139e1631849872dc8a925e2e4171d0ab366171a2ce6e",
+    "sha256": "e5b50e98aa1175585776c49b8f0013f9782be59e4d5e9b869c98c5b382081fb5",
     "items": [
       {
         "@context": "https://schema.org",
@@ -833,5 +827,6 @@
     ],
     "aantal_details": 4,
     "aantal_tabellen": 1
-  }
+  },
+  "gemeten_op": "2026-10-06"
 }

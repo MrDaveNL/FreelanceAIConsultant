@@ -1,13 +1,8 @@
 {
   "url": "/werkwijze",
   "build_bestand": "dist/werkwijze/index.html",
-  "bron": [
-    "src/pages/werkwijze.astro"
-  ],
-  "gemeten_op": "2026-10-06",
   "html": {
     "bytes": 37237,
-    "sha256": "8f27ea98fd53d11e8e9fb48cae5d03165e913bee0606b48d439ecb4a7d2809c3",
     "lang": "nl"
   },
   "beschermd": {
@@ -139,15 +134,15 @@
   ],
   "bodytekst": {
     "regio": "main",
-    "woorden": 881,
-    "sha256": "540b0f4afd4a9a5d400b3394fdf7cc4d261dafda3a9bdb3556804bc3fd22ceb3",
+    "woorden": 883,
+    "sha256": "01219323cdb9625c01b340413aa0e335b502bfeb8b6e8941979dcd80bd17ee1e",
     "blokken": [
       "Geen complexe modellen. Wel heldere stappen.",
       "Zo werk ik.",
       "Onafhankelijk advies, scherpe prioriteiten en beslissingen waar je als board of MT op kunt sturen. Van eerste vraag tot werkende oplossing: praktisch, transparant en meetbaar.",
       "Plan een gesprek → Bekijk de diensten → 30 min., geen pitch deck",
-      "vertrouwen,ervaring, impact ↓",
-      "Independent No vendor bias Senior only20+ jaar ervaring",
+      "vertrouwen, ervaring, impact ↓",
+      "Independent No vendor bias Senior only 20+ jaar ervaring",
       "AI in Europa",
       "Europese merken die AI al in productie hebben.",
       "Geen klanten van mij. Wel voorbeelden van wat er gebeurt als AI voorbij de pilot komt.",
@@ -586,7 +581,7 @@
     }
   ],
   "structured_data": {
-    "sha256": "55722450d6ef322ca0e9b395d0ebfe7577581feb76e93d4f7420b5dcced5e4fc",
+    "sha256": "fc351a9e5893d08a9e6975c23bf603da0013ff8a6ff545834f48aa4e1052fa83",
     "items": [
       {
         "@context": "https://schema.org",
@@ -655,5 +650,6 @@
     ],
     "aantal_details": 0,
     "aantal_tabellen": 0
-  }
+  },
+  "gemeten_op": "2026-10-06"
 }

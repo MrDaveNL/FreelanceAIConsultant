@@ -1,13 +1,8 @@
 {
   "url": "/cases",
   "build_bestand": "dist/cases/index.html",
-  "bron": [
-    "src/pages/cases/index.astro"
-  ],
-  "gemeten_op": "2026-10-06",
   "html": {
     "bytes": 29567,
-    "sha256": "460ab0e975acee6fcde2c9fb07fd0d5c561fb9c3ef8bdf69e25be2bec06dcc23",
     "lang": "nl"
   },
   "beschermd": {
@@ -85,15 +80,15 @@
   ],
   "bodytekst": {
     "regio": "main",
-    "woorden": 442,
-    "sha256": "f1dc4d8cb3f616d638d09f624977150ebb35e334434df5385e853b1625efb76c",
+    "woorden": 444,
+    "sha256": "92bfdbefd562c7e7a357dea8670187c2347b7eea65a42e820c1617b0b638cafd",
     "blokken": [
       "AI-advies dat je helpt beslissen",
       "Cases die het verschil maken.",
       "Echte uitdagingen. Scherpe keuzes. Meetbaar resultaat. Inclusief de trajecten waarin het advies was om níét te kopen. Die leveren vaak het meeste op.",
       "Plan een gesprek → Bekijk de diensten → 30 min., geen pitch deck",
-      "vertrouwen,ervaring, impact ↓",
-      "Independent No vendor bias Senior only20+ jaar ervaring",
+      "vertrouwen, ervaring, impact ↓",
+      "Independent No vendor bias Senior only 20+ jaar ervaring",
       "AI in Europa",
       "Europese merken die AI al in productie hebben.",
       "Geen klanten van mij. Wel voorbeelden van wat er gebeurt als AI voorbij de pilot komt.",
@@ -161,27 +156,27 @@
       "Geen resultaten in deze categorie.",
       "◈Financial services",
       "AI-strategie & use-case portfolio voor investeringsmaatschappij",
-      "Uitdaging:Geen duidelijke AI-prioriteiten en versnipperde ideeën zonder business impact.",
+      "Uitdaging: Geen duidelijke AI-prioriteiten en versnipperde ideeën zonder business impact.",
       "8 prioritaire use cases · €1,2M impactpotentieel→",
       "◎Retail",
       "AI-gedreven vendorselectie in enterprise retail",
-      "Uitdaging:Keuze voor AI-oplossingen op basis van buikgevoel in plaats van waarde en fit.",
+      "Uitdaging: Keuze voor AI-oplossingen op basis van buikgevoel in plaats van waarde en fit.",
       "12 vendors beoordeeld · €1,1M bespaard op TCO→",
       "↗Industrial / B2B",
       "AI-roadmap & leadership voor internationale maakorganisatie",
-      "Uitdaging:Geen samenhangende AI-strategie en verspreide pilots zonder schaal.",
+      "Uitdaging: Geen samenhangende AI-strategie en verspreide pilots zonder schaal.",
       "Roadmap goedgekeurd · 25% productiviteitsdoel→",
       "☑Financial services",
       "KYC-proces versneld met AI-assisted documentanalyse",
-      "Uitdaging:Handmatige documentcontrole zorgde voor lange doorlooptijden en fouten.",
+      "Uitdaging: Handmatige documentcontrole zorgde voor lange doorlooptijden en fouten.",
       "−60% doorlooptijd · +35% kwaliteit→",
       "⌕Strategy & AI",
       "AI-readiness assessment voor groeigerichte scale-up",
-      "Uitdaging:Onzekerheid over waar te beginnen en wat nodig is om AI echt te laten landen.",
+      "Uitdaging: Onzekerheid over waar te beginnen en wat nodig is om AI echt te laten landen.",
       "Readiness-score + 90-dagen actieplan→",
       "◫Proces & productivity",
       "Interne AI-assistent voor kenniswerkers",
-      "Uitdaging:Veel tijd kwijt aan zoeken, samenvatten en herformuleren van informatie.",
+      "Uitdaging: Veel tijd kwijt aan zoeken, samenvatten en herformuleren van informatie.",
       "3 uur per persoon per week teruggewonnen→",
       "Wat opdrachtgevers zeggen",
       "“Dave brengt structuur in AI-chaos. Hij stelt de juiste vragen en komt met concrete, werkbare keuzes.”CFO, investeringsmaatschappij",
@@ -498,7 +493,7 @@
     }
   ],
   "structured_data": {
-    "sha256": "52e033833ff9bc92542a96af0ac9a36a68756170329ab4971a3af94f63c98e15",
+    "sha256": "22082b800655f5b082e52d00eceb4ed73b82f919d122f8d226b3291e0ff29df6",
     "items": [
       {
         "@context": "https://schema.org",
@@ -572,5 +567,6 @@
     ],
     "aantal_details": 0,
     "aantal_tabellen": 0
-  }
+  },
+  "gemeten_op": "2026-10-06"
 }

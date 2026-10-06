@@ -1,14 +1,8 @@
 {
   "url": "/ai-voor-bedrijven/ai-en-bi",
   "build_bestand": "dist/ai-voor-bedrijven/ai-en-bi/index.html",
-  "bron": [
-    "src/content/pages/ai-voor-bedrijven/ai-en-bi/index.md",
-    "src/pages/[...slug].astro"
-  ],
-  "gemeten_op": "2026-10-06",
   "html": {
     "bytes": 33498,
-    "sha256": "12014a4c3ef60a95732f7b9a5ae8f485913295e2bdf4d98f57a1195670b73faf",
     "lang": "nl"
   },
   "beschermd": {
@@ -614,7 +608,7 @@
     }
   ],
   "structured_data": {
-    "sha256": "b494182306ea2782d030f3e38754c3e3061c261b5ac32cd7b1077c2dc382c91a",
+    "sha256": "400a9723740905e9871da2752215fdbe035140547b8d504b6f7126f4a23c85a6",
     "items": [
       {
         "@context": "https://schema.org",
@@ -747,5 +741,6 @@
     ],
     "aantal_details": 4,
     "aantal_tabellen": 1
-  }
+  },
+  "gemeten_op": "2026-10-06"
 }

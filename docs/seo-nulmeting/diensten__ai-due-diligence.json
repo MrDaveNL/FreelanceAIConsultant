@@ -1,15 +1,8 @@
 {
   "url": "/diensten/ai-due-diligence",
   "build_bestand": "dist/diensten/ai-due-diligence/index.html",
-  "bron": [
-    "src/pages/diensten/[slug].astro",
-    "src/data/services.js",
-    "src/data/prijzen.ts"
-  ],
-  "gemeten_op": "2026-10-06",
   "html": {
     "bytes": 33315,
-    "sha256": "22d0e85093a2f4279bca9f5047156253d714bd92b261eea4f722080e8f687d0c",
     "lang": "nl"
   },
   "beschermd": {
@@ -153,15 +146,15 @@
   ],
   "bodytekst": {
     "regio": "main",
-    "woorden": 759,
-    "sha256": "677dba182a591f72e3c443288544badc6df35c8d61c7680f76306a1a3864ea3f",
+    "woorden": 763,
+    "sha256": "9cd29a189c2f3d85ed02b67b24fef8dbd07a648ef84ac8a043c8f49073689ac9",
     "blokken": [
       "Wat zit er echt onder de motorkap?",
       "AI Due Diligence",
       "Voor investeerders die een AI-propositie beoordelen, en voor organisaties die willen weten of de AI die ze kopen ook echt AI is. Technisch onderbouwd, in taal die een investment committee begrijpt.",
       "Plan een gesprek → Alle diensten → 30 min., geen pitch deck",
-      "vertrouwen,ervaring, impact ↓",
-      "Independent No vendor bias Senior only20+ jaar ervaring",
+      "vertrouwen, ervaring, impact ↓",
+      "Independent No vendor bias Senior only 20+ jaar ervaring",
       "AI in Europa",
       "Europese merken die AI al in productie hebben.",
       "Geen klanten van mij. Wel voorbeelden van wat er gebeurt als AI voorbij de pilot komt.",
@@ -245,7 +238,7 @@
       "Team & uitvoering",
       "Kan dit team dit bouwen en onderhouden? Sleutelpersoonafhankelijkheid, engineeringpraktijk en technische schuld.",
       "Wat je krijgt",
-      "Concreet. Duidelijk.Direct toepasbaar.",
+      "Concreet. Duidelijk. Direct toepasbaar.",
       "DD-rapport met bevindingen per spoor en een expliciet oordeel",
       "Red-flag-overzicht, gescheiden in deal-breakers en onderhandelpunten",
       "Beoordeling van de AI-claims tegenover wat er aantoonbaar werkt",
@@ -260,7 +253,7 @@
       "Minder geschikt als",
       "Als je een formele audit met accountantsverklaring nodig hebt",
       "Het onderliggende ritme",
-      "Van inzichtnaar impact.",
+      "Van inzicht naar impact.",
       "Elke opdracht doorloopt dezelfde vier beslismomenten. Alleen de diepgang per stap verschilt.",
       "Meer over mijn werkwijze →",
       "01",
@@ -598,7 +591,7 @@
     }
   ],
   "structured_data": {
-    "sha256": "fedd68c317b47fe539d48b90e961327513d76e021e7017f1b788c6c440a9e0be",
+    "sha256": "c27544a2f329c41989ca4d2d163dfd0b5c7c40e310fc010cb939d2210a99c7c4",
     "items": [
       {
         "@context": "https://schema.org",
@@ -666,5 +659,6 @@
     ],
     "aantal_details": 3,
     "aantal_tabellen": 0
-  }
+  },
+  "gemeten_op": "2026-10-06"
 }

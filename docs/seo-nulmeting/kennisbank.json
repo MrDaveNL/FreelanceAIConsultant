@@ -1,14 +1,8 @@
 {
   "url": "/kennisbank",
   "build_bestand": "dist/kennisbank/index.html",
-  "bron": [
-    "src/content/pages/kennisbank/index.md",
-    "src/pages/[...slug].astro"
-  ],
-  "gemeten_op": "2026-10-06",
   "html": {
     "bytes": 30343,
-    "sha256": "d26a64c9af4a4d7af0b11c9d6b294d894e614fff4f4a807e3e2df8ec1ac8e305",
     "lang": "nl"
   },
   "beschermd": {
@@ -794,7 +788,7 @@
     }
   ],
   "structured_data": {
-    "sha256": "2b5ce6af481a5bba339062acc266fb7f337b35676b7c7eb408b4a1902acfa317",
+    "sha256": "e2acab77e3c11e13392ac9894d57f1b04d0b698dfa9aa06e7c3d7c22f122ed04",
     "items": [
       {
         "@context": "https://schema.org",
@@ -1000,5 +994,6 @@
     ],
     "aantal_details": 0,
     "aantal_tabellen": 0
-  }
+  },
+  "gemeten_op": "2026-10-06"
 }

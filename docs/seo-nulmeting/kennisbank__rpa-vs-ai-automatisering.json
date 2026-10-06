@@ -1,14 +1,8 @@
 {
   "url": "/kennisbank/rpa-vs-ai-automatisering",
   "build_bestand": "dist/kennisbank/rpa-vs-ai-automatisering/index.html",
-  "bron": [
-    "src/content/pages/kennisbank/rpa-vs-ai-automatisering/index.md",
-    "src/pages/[...slug].astro"
-  ],
-  "gemeten_op": "2026-10-06",
   "html": {
     "bytes": 29783,
-    "sha256": "4d8fd79905930b5ce443c81a92cbf9bc783944cb5d3e9cc6a24a9f948bc42d2a",
     "lang": "nl"
   },
   "beschermd": {
@@ -588,7 +582,7 @@
     }
   ],
   "structured_data": {
-    "sha256": "7df21d43cda4514ce19150f2e8a7f3fa38c65af531b3c373a5b3a244c409e9b2",
+    "sha256": "731c346929ff13b743f00cd36e112eef7e9b110ba0fbdac377b2dcd09eb20b84",
     "items": [
       {
         "@context": "https://schema.org",
@@ -684,5 +678,6 @@
     ],
     "aantal_details": 0,
     "aantal_tabellen": 1
-  }
+  },
+  "gemeten_op": "2026-10-06"
 }

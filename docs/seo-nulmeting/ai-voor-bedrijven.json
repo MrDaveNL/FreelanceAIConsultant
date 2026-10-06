@@ -1,14 +1,8 @@
 {
   "url": "/ai-voor-bedrijven",
   "build_bestand": "dist/ai-voor-bedrijven/index.html",
-  "bron": [
-    "src/content/pages/ai-voor-bedrijven/index.md",
-    "src/pages/[...slug].astro"
-  ],
-  "gemeten_op": "2026-10-06",
   "html": {
     "bytes": 39371,
-    "sha256": "584853ed491d2d07cd5cdd3a598f05c32cce384c966c190ab1ed34f0eaf0cbf4",
     "lang": "nl"
   },
   "beschermd": {
@@ -730,7 +724,7 @@
     }
   ],
   "structured_data": {
-    "sha256": "01ee5adfcdafe74a8b990a1023a46e4a0c4d5794414ea519eead5e91a8b09aed",
+    "sha256": "fa20e19546abf91c7e234b83dd2b03c0941bd2fd1ddc0aa58146236bb8d93032",
     "items": [
       {
         "@context": "https://schema.org",
@@ -865,5 +859,6 @@
     ],
     "aantal_details": 5,
     "aantal_tabellen": 0
-  }
+  },
+  "gemeten_op": "2026-10-06"
 }

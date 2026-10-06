@@ -1,14 +1,8 @@
 {
   "url": "/ai-workshop/chatgpt-training",
   "build_bestand": "dist/ai-workshop/chatgpt-training/index.html",
-  "bron": [
-    "src/content/pages/ai-workshop/chatgpt-training/index.md",
-    "src/pages/[...slug].astro"
-  ],
-  "gemeten_op": "2026-10-06",
   "html": {
     "bytes": 30582,
-    "sha256": "d074b5c10a0044261fb4284ab1fb698395509193b5ece68559d0172203811108",
     "lang": "nl"
   },
   "beschermd": {
@@ -597,7 +591,7 @@
     }
   ],
   "structured_data": {
-    "sha256": "14abfbc8dd02f84a617bab29b60554a9009723c2f01ba727ac22d938dc8196c1",
+    "sha256": "0c181f77d9218d09fd20ef0fbe3f377983972ea83ec0c62f8097b899cc7d6166",
     "items": [
       {
         "@context": "https://schema.org",
@@ -725,5 +719,6 @@
     ],
     "aantal_details": 4,
     "aantal_tabellen": 0
-  }
+  },
+  "gemeten_op": "2026-10-06"
 }

@@ -1,14 +1,8 @@
 {
   "url": "/kennisbank/claude-voor-bedrijven",
   "build_bestand": "dist/kennisbank/claude-voor-bedrijven/index.html",
-  "bron": [
-    "src/content/pages/kennisbank/claude-voor-bedrijven/index.md",
-    "src/pages/[...slug].astro"
-  ],
-  "gemeten_op": "2026-10-06",
   "html": {
     "bytes": 32022,
-    "sha256": "49f6edf39a1b59be318dbe9a4fc7649d53d75a1e2b4366b0226a0d0c97fc560d",
     "lang": "nl"
   },
   "beschermd": {
@@ -668,7 +662,7 @@
     }
   ],
   "structured_data": {
-    "sha256": "c6f2f58b07deccfd326d75b9ba6daedd6b7c52955be3015f8ee2faaa4e7dd897",
+    "sha256": "705ed157d1dfb48e120a18a88b85cb27cfde2a97c43ff4b8dfad758916a54fe1",
     "items": [
       {
         "@context": "https://schema.org",
@@ -764,5 +758,6 @@
     ],
     "aantal_details": 0,
     "aantal_tabellen": 1
-  }
+  },
+  "gemeten_op": "2026-10-06"
 }

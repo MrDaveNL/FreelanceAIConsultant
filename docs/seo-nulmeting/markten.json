@@ -1,14 +1,8 @@
 {
   "url": "/markten",
   "build_bestand": "dist/markten/index.html",
-  "bron": [
-    "src/content/pages/markten/index.md",
-    "src/pages/[...slug].astro"
-  ],
-  "gemeten_op": "2026-10-06",
   "html": {
     "bytes": 28240,
-    "sha256": "15c3bcf216752ab15d66d047b148155a3cf44deef251b0c63c658910ef366985",
     "lang": "nl"
   },
   "beschermd": {
@@ -679,7 +673,7 @@
     }
   ],
   "structured_data": {
-    "sha256": "ad2ab00dd0a5b8bd79183ea790aaf45d3a570949d28f7afc74436437df7163b3",
+    "sha256": "cc601c983b20035e577686c04b2a0483f8b28056eb9c40ce259f3b29f78d9dd0",
     "items": [
       {
         "@context": "https://schema.org",
@@ -769,5 +763,6 @@
     ],
     "aantal_details": 0,
     "aantal_tabellen": 0
-  }
+  },
+  "gemeten_op": "2026-10-06"
 }

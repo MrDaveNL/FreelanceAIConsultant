@@ -1,14 +1,8 @@
 {
   "url": "/kennisbank/notuleren-met-ai",
   "build_bestand": "dist/kennisbank/notuleren-met-ai/index.html",
-  "bron": [
-    "src/content/pages/kennisbank/notuleren-met-ai/index.md",
-    "src/pages/[...slug].astro"
-  ],
-  "gemeten_op": "2026-10-06",
   "html": {
     "bytes": 36065,
-    "sha256": "4825131dcae9361eaa982d8576ecb5a9d60d2ee8630ec238e18db894734b108c",
     "lang": "nl"
   },
   "beschermd": {
@@ -676,7 +670,7 @@
     }
   ],
   "structured_data": {
-    "sha256": "6bcd65b05e6cf57f71f1e8d8063153a869df87bbd27196c50054aeb8ac035890",
+    "sha256": "5d898fda0f1f473bd5d19cf51fddf5160de4ba07a32f7197b80edff8a6c9136b",
     "items": [
       {
         "@context": "https://schema.org",
@@ -809,5 +803,6 @@
     ],
     "aantal_details": 4,
     "aantal_tabellen": 1
-  }
+  },
+  "gemeten_op": "2026-10-06"
 }

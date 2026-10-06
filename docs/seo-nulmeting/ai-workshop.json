@@ -1,14 +1,8 @@
 {
   "url": "/ai-workshop",
   "build_bestand": "dist/ai-workshop/index.html",
-  "bron": [
-    "src/content/pages/ai-workshop/index.md",
-    "src/pages/[...slug].astro"
-  ],
-  "gemeten_op": "2026-10-06",
   "html": {
     "bytes": 36057,
-    "sha256": "aeffcfc9b961dcf6075f176f853d0c5229d169093327a9ed13a513660633e57f",
     "lang": "nl"
   },
   "beschermd": {
@@ -676,7 +670,7 @@
     }
   ],
   "structured_data": {
-    "sha256": "4c53d643b3140beb4dd6574ef1a4b56419d948c09fce1ff42b2a57c95ccc01da",
+    "sha256": "29184d2fe9d7673b893f5931d12b925f29b43878cf53ec9c54d59669e498bd7f",
     "items": [
       {
         "@context": "https://schema.org",
@@ -806,5 +800,6 @@
     ],
     "aantal_details": 5,
     "aantal_tabellen": 0
-  }
+  },
+  "gemeten_op": "2026-10-06"
 }

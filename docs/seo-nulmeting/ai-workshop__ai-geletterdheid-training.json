@@ -1,14 +1,8 @@
 {
   "url": "/ai-workshop/ai-geletterdheid-training",
   "build_bestand": "dist/ai-workshop/ai-geletterdheid-training/index.html",
-  "bron": [
-    "src/content/pages/ai-workshop/ai-geletterdheid-training/index.md",
-    "src/pages/[...slug].astro"
-  ],
-  "gemeten_op": "2026-10-06",
   "html": {
     "bytes": 34156,
-    "sha256": "fce7464add343034dc606f838c2a866726722cc0d6007342678749c3794d9336",
     "lang": "nl"
   },
   "beschermd": {
@@ -628,7 +622,7 @@
     }
   ],
   "structured_data": {
-    "sha256": "ace4d2f80f20f2444f871a5e0c2ce8aaee239c4ba7b8fa8dc2c16e1b789f34a9",
+    "sha256": "63ecf01712d2dc977bc32793173ab4f9491145f367028ab72a0525ecb761f1a5",
     "items": [
       {
         "@context": "https://schema.org",
@@ -764,5 +758,6 @@
     ],
     "aantal_details": 5,
     "aantal_tabellen": 0
-  }
+  },
+  "gemeten_op": "2026-10-06"
 }

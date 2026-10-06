@@ -1,13 +1,8 @@
 {
   "url": "/",
   "build_bestand": "dist/index.html",
-  "bron": [
-    "src/pages/index.astro"
-  ],
-  "gemeten_op": "2026-10-06",
   "html": {
     "bytes": 41076,
-    "sha256": "bf07793b245758b0d6f9e61e4ec0655d4fd31046cbfa047181cee7ad82bf8a31",
     "lang": "nl"
   },
   "beschermd": {
@@ -175,15 +170,15 @@
   ],
   "bodytekst": {
     "regio": "main",
-    "woorden": 755,
-    "sha256": "6c14b88399dd97179a46d1c70badc78b3aa60380f849ddce724385a67fbaf1db",
+    "woorden": 760,
+    "sha256": "6c3c1b43db52b30f4053cc748a7c4883a982cc6ed68b3911c8222730c7a48ddd",
     "blokken": [
       "AI-advies dat je helpt beslissen",
       "Maak de AI-beslissingen die je aan je board moet uitleggen.",
       "Ik help CIO's, CDO's en AI-leads bepalen waar AI wél waarde creëert, welke leveranciers daarbij passen en hoe je voorkomt dat pilots dure zijprojecten worden.",
       "Plan een gesprek → Bekijk cases → 30 min., geen pitch deck",
-      "vertrouwen,ervaring, impact ↓",
-      "Independent No vendor bias Senior only20+ jaar ervaring",
+      "vertrouwen, ervaring, impact ↓",
+      "Independent No vendor bias Senior only 20+ jaar ervaring",
       "AI in Europa",
       "Europese merken die AI al in productie hebben.",
       "Geen klanten van mij. Wel voorbeelden van wat er gebeurt als AI voorbij de pilot komt.",
@@ -251,8 +246,8 @@
       "%",
       "32%gem. efficiencyverbetering",
       "Waarom onafhankelijk?",
-      "Agency,Big 4,of ik?",
-      "Ik win niet elke rij.Dat is het punt.",
+      "Agency, Big 4, of ik?",
+      "Ik win niet elke rij. Dat is het punt.",
       "Lees de volledige vergelijking →",
       "CriteriumOnafhankelijkAgencyBig 4",
       "Senior werkt zelf meeAltijdSomsZelden",
@@ -301,15 +296,15 @@
       "Alle cases →",
       "◈Financial services",
       "AI-strategie & use-case portfolio voor investeringsmaatschappij",
-      "Uitdaging:Geen duidelijke AI-prioriteiten en versnipperde ideeën zonder business impact.",
+      "Uitdaging: Geen duidelijke AI-prioriteiten en versnipperde ideeën zonder business impact.",
       "8 prioritaire use cases · €1,2M impactpotentieel→",
       "◎Retail",
       "AI-gedreven vendorselectie in enterprise retail",
-      "Uitdaging:Keuze voor AI-oplossingen op basis van buikgevoel in plaats van waarde en fit.",
+      "Uitdaging: Keuze voor AI-oplossingen op basis van buikgevoel in plaats van waarde en fit.",
       "12 vendors beoordeeld · €1,1M bespaard op TCO→",
       "↗Industrial / B2B",
       "AI-roadmap & leadership voor internationale maakorganisatie",
-      "Uitdaging:Geen samenhangende AI-strategie en verspreide pilots zonder schaal.",
+      "Uitdaging: Geen samenhangende AI-strategie en verspreide pilots zonder schaal.",
       "Roadmap goedgekeurd · 25% productiviteitsdoel→",
       "Wat opdrachtgevers zeggen",
       "“Dave brengt structuur in AI-chaos. Hij stelt de juiste vragen en komt met concrete, werkbare keuzes.”CFO, investeringsmaatschappij",
@@ -727,7 +722,7 @@
     }
   ],
   "structured_data": {
-    "sha256": "19925392973bd1b8f0da33087695f3bc6742180f02dcb22d7717314ed86f4a23",
+    "sha256": "9a052c57bccc82a3261ef9c2427eb334e069f1b081a39a81f9062b53f1bf456f",
     "items": [
       {
         "@context": "https://schema.org",
@@ -797,5 +792,6 @@
     ],
     "aantal_details": 0,
     "aantal_tabellen": 0
-  }
+  },
+  "gemeten_op": "2026-10-06"
 }

@@ -1,14 +1,8 @@
 {
   "url": "/markten/overheid",
   "build_bestand": "dist/markten/overheid/index.html",
-  "bron": [
-    "src/content/pages/markten/overheid/index.md",
-    "src/pages/[...slug].astro"
-  ],
-  "gemeten_op": "2026-10-06",
   "html": {
     "bytes": 37460,
-    "sha256": "fd6790bda7e19ad8271a37572be854d436986b375aa53b5a05ca3d6474530cfd",
     "lang": "nl"
   },
   "beschermd": {
@@ -717,7 +711,7 @@
     }
   ],
   "structured_data": {
-    "sha256": "8ac5e98f0f366cb4d953aab068209cba7e3243847e371a905c740d4710ddeab4",
+    "sha256": "11925165a3e8bc1f4077cab748083e2a7c2c8c3fd0083869bdb6403b05157899",
     "items": [
       {
         "@context": "https://schema.org",
@@ -858,5 +852,6 @@
     ],
     "aantal_details": 5,
     "aantal_tabellen": 0
-  }
+  },
+  "gemeten_op": "2026-10-06"
 }

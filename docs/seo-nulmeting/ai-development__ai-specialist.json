@@ -1,14 +1,8 @@
 {
   "url": "/ai-development/ai-specialist",
   "build_bestand": "dist/ai-development/ai-specialist/index.html",
-  "bron": [
-    "src/content/pages/ai-development/ai-specialist/index.md",
-    "src/pages/[...slug].astro"
-  ],
-  "gemeten_op": "2026-10-06",
   "html": {
     "bytes": 32772,
-    "sha256": "b223c816733f96bd087d5e2697bf985372b1fc32de6101f63dbd0ee6849928f1",
     "lang": "nl"
   },
   "beschermd": {
@@ -598,7 +592,7 @@
     }
   ],
   "structured_data": {
-    "sha256": "dabfcd6d865c5a1f52fcf2f8c062ebf60e13fe038ee058503d49c70474687a38",
+    "sha256": "04ae4d8c0d84063c89849949fa11e6ef07cdb57fb09205103f2567508ed956ae",
     "items": [
       {
         "@context": "https://schema.org",
@@ -734,5 +728,6 @@
     ],
     "aantal_details": 5,
     "aantal_tabellen": 0
-  }
+  },
+  "gemeten_op": "2026-10-06"
 }

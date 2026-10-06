@@ -1,14 +1,8 @@
 {
   "url": "/ai-development/ai-software",
   "build_bestand": "dist/ai-development/ai-software/index.html",
-  "bron": [
-    "src/content/pages/ai-development/ai-software/index.md",
-    "src/pages/[...slug].astro"
-  ],
-  "gemeten_op": "2026-10-06",
   "html": {
     "bytes": 31683,
-    "sha256": "d73deb2df23b640fe441884a869ad8cc5093cc79bd8bd5f880913ff48a6547e0",
     "lang": "nl"
   },
   "beschermd": {
@@ -602,7 +596,7 @@
     }
   ],
   "structured_data": {
-    "sha256": "dfed7cd144946dc17b47ab2e32d0acf553f1d6a2a24f6ccef82acb51cfdad6ac",
+    "sha256": "6c5f79f2b9fe85cc3e986e2f91f901699d245cb348ae37da0916f311bfe07a50",
     "items": [
       {
         "@context": "https://schema.org",
@@ -735,5 +729,6 @@
     ],
     "aantal_details": 4,
     "aantal_tabellen": 1
-  }
+  },
+  "gemeten_op": "2026-10-06"
 }

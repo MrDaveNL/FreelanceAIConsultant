@@ -1,14 +1,8 @@
 {
   "url": "/inzichten/ai-agents-wat-ze-wel-en-niet-kunnen",
   "build_bestand": "dist/inzichten/ai-agents-wat-ze-wel-en-niet-kunnen/index.html",
-  "bron": [
-    "src/pages/inzichten/[slug].astro",
-    "src/data/articles/ai-agents-wat-ze-wel-en-niet-kunnen.js"
-  ],
-  "gemeten_op": "2026-10-06",
   "html": {
     "bytes": 30886,
-    "sha256": "0a8e6f076b7543b1311dbd4609354ceb663489b309025dfb744b88dabf1066fb",
     "lang": "nl"
   },
   "beschermd": {
@@ -146,19 +140,19 @@
   ],
   "bodytekst": {
     "regio": "main",
-    "woorden": 1206,
-    "sha256": "8fe165feda83f1ca565555a1885b9c774a943e5eca121f22f149704ee8f8a4d0",
+    "woorden": 1209,
+    "sha256": "451891076a963f23bc4f5b843c72bafa62d543e6fb6cb0a3809e13081b8fdcbc",
     "blokken": [
       "← Terug naar alle inzichten",
       "Use cases",
-      "AI-agents: wat ze welen niet kunnen",
+      "AI-agents: wat ze wel en niet kunnen",
       "Een agent die zelf stappen zet en systemen aanroept, is aantrekkelijk en risicovol tegelijk. Het onderscheid zit in wat er gebeurt als hij ernaast zit.",
       "◷ 4 min leestijd 16 juli 2026",
       "DW",
       "Door Dave Willemstein Independent AI Advisor, onafhankelijk, geen leveranciersbelangen",
       "Ik help organisaties AI-beslissingen nemen die waarde creëren. Geen dikke decks, wel duidelijke keuzes en tastbare resultaten.",
-      "vertrouwen,ervaring, impact ↓",
-      "Independent No vendor bias Senior only20+ jaar ervaring",
+      "vertrouwen, ervaring, impact ↓",
+      "Independent No vendor bias Senior only 20+ jaar ervaring",
       "IN HET KORT",
       "Agents werken goed bij omkeerbare stappen met een duidelijke eindtoets.",
       "Ze gaan stuk op processen waar een fout stilletjes doorwerkt.",
@@ -268,7 +262,7 @@
       "✓",
       "Logging is niet optioneel",
       "Zonder volledig spoor van stappen kun je een fout niet reconstrueren.",
-      "ONTHOUD“Autonomie is geen eigenschap van het model, het is een keuze van de organisatie.”",
+      "ONTHOUD “Autonomie is geen eigenschap van het model, het is een keuze van de organisatie.”",
       "Sparren over jouw situatie? 30 minuten, vrijblijvend →",
       "Verder lezen",
       "⌕",
@@ -563,7 +557,7 @@
     }
   ],
   "structured_data": {
-    "sha256": "8419990bbc142bd913730fb4fa001266858122c50cb2dbe9faaa3eb5d73620e5",
+    "sha256": "df1dfffafcd5242cd3f1a335e450c475f6981a380caaf7517cd51f08d27f25a2",
     "items": [
       {
         "@context": "https://schema.org",
@@ -629,5 +623,6 @@
     ],
     "aantal_details": 0,
     "aantal_tabellen": 0
-  }
+  },
+  "gemeten_op": "2026-10-06"
 }

@@ -1,14 +1,8 @@
 {
   "url": "/cases/ai-roadmap-internationale-maakorganisatie",
   "build_bestand": "dist/cases/ai-roadmap-internationale-maakorganisatie/index.html",
-  "bron": [
-    "src/pages/cases/[slug].astro",
-    "src/data/cases.js"
-  ],
-  "gemeten_op": "2026-10-06",
   "html": {
     "bytes": 29232,
-    "sha256": "6e459cdcf7120144f915756c10fd0c76b735de8c756839647d4a3dae7b4454a9",
     "lang": "nl"
   },
   "beschermd": {
@@ -56,12 +50,12 @@
   ],
   "bodytekst": {
     "regio": "main",
-    "woorden": 573,
-    "sha256": "c69ffedee1a2fda0bb5ad078023d2b911b06fc4de51e213ededc5d1f54295910",
+    "woorden": 576,
+    "sha256": "9df91093e1c08c4c37da60a716366f83e5465312b0780f1612e249e2bab0e2ae",
     "blokken": [
       "← Terug naar cases",
       "Industrial / B2B",
-      "AI-roadmap& leadership",
+      "AI-roadmap & leadership",
       "Zeven pilots in vier landen, geen van alle opgeschaald. Negen maanden later: één roadmap, drie productietoepassingen en een interne lead die het stokje overnam.",
       "Sector: Industrial / B2B Dienst: Fractional AI Lead Duur: 9 maanden Jaar: 2025",
       "Bewijs in cijfers",
@@ -128,10 +122,10 @@
       "Proces & productivity",
       "Zakelijke dienstverlener",
       "Interne AI-assistent voor kenniswerkers",
-      "vertrouwen,ervaring, impact ↓",
-      "Independent No vendor bias Senior only20+ jaar ervaring",
+      "vertrouwen, ervaring, impact ↓",
+      "Independent No vendor bias Senior only 20+ jaar ervaring",
       "Focus op waarde",
-      "Geen hypewel impact",
+      "Geen hype wel impact",
       "1",
       "Situatie",
       "Een internationale maakorganisatie met vestigingen in vier landen had op elke locatie iets met AI opgezet. Kwaliteitsinspectie met beeldherkenning in Duitsland, onderhoudsvoorspelling in Nederland, een offerte-assistent in Polen. Alle zeven pilots werkten technisch. Geen enkele was opgeschaald.",
@@ -435,7 +429,7 @@
     }
   ],
   "structured_data": {
-    "sha256": "9f4155cc59909c409e8310d1566490b8067260860db016eedf6757e03acfb85f",
+    "sha256": "6fd6361d3959a019bbd5683dddca49c5c58a60fa613879c6f7f1a09642a6fedb",
     "items": [
       {
         "@context": "https://schema.org",
@@ -496,5 +490,6 @@
     ],
     "aantal_details": 0,
     "aantal_tabellen": 0
-  }
+  },
+  "gemeten_op": "2026-10-06"
 }

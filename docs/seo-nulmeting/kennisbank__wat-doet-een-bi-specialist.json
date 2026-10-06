@@ -1,14 +1,8 @@
 {
   "url": "/kennisbank/wat-doet-een-bi-specialist",
   "build_bestand": "dist/kennisbank/wat-doet-een-bi-specialist/index.html",
-  "bron": [
-    "src/content/pages/kennisbank/wat-doet-een-bi-specialist/index.md",
-    "src/pages/[...slug].astro"
-  ],
-  "gemeten_op": "2026-10-06",
   "html": {
     "bytes": 28936,
-    "sha256": "dfb9cbda364084d01f55b8f23de98d302d72c989c52a66ddfd7d08ef5d960570",
     "lang": "nl"
   },
   "beschermd": {
@@ -565,7 +559,7 @@
     }
   ],
   "structured_data": {
-    "sha256": "c8a84def7ffbe18ab2f35a1f51057e8a56c9f40dcd4124472c7480d991c0a379",
+    "sha256": "28071f75d2cfbe57d190f118f811fc3ecef51b4b36038ec78da7cb41cedcec6a",
     "items": [
       {
         "@context": "https://schema.org",
@@ -661,5 +655,6 @@
     ],
     "aantal_details": 0,
     "aantal_tabellen": 1
-  }
+  },
+  "gemeten_op": "2026-10-06"
 }

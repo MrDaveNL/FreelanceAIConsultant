@@ -1,13 +1,8 @@
 {
   "url": "/inzichten",
   "build_bestand": "dist/inzichten/index.html",
-  "bron": [
-    "src/pages/inzichten/index.astro"
-  ],
-  "gemeten_op": "2026-10-06",
   "html": {
     "bytes": 38223,
-    "sha256": "da108b0778902a4bc4ce259bfbe0ece311c834faddac2479318765374c43be44",
     "lang": "nl"
   },
   "beschermd": {
@@ -133,15 +128,15 @@
   ],
   "bodytekst": {
     "regio": "main",
-    "woorden": 737,
-    "sha256": "7ada5ed2301ac2a7aca3c3c02fc682daffe62cd3accb5edc3d0ac7af14ae41d7",
+    "woorden": 741,
+    "sha256": "1dd9184493ce5e07479dcd7f729821ef9bc20908d93ab39f374c41801e0cc876",
     "blokken": [
       "AI-advies dat je helpt beslissen",
       "Praktische inzichten voor betere AI-beslissingen.",
       "Ervaringen uit de praktijk, frameworks en no-nonsense advies voor senior leiders die AI willen inzetten met impact. 12 artikelen, geen enkele geschreven om iets te verkopen.",
       "Plan een gesprek → Bekijk cases → 30 min., geen pitch deck",
-      "vertrouwen,ervaring, impact ↓",
-      "Independent No vendor bias Senior only20+ jaar ervaring",
+      "vertrouwen, ervaring, impact ↓",
+      "Independent No vendor bias Senior only 20+ jaar ervaring",
       "AI in Europa",
       "Europese merken die AI al in productie hebben.",
       "Geen klanten van mij. Wel voorbeelden van wat er gebeurt als AI voorbij de pilot komt.",
@@ -280,7 +275,7 @@
       "Je e-mailadres",
       "Verstuur →",
       "Uitschrijven kan met één klik. Je adres gaat nergens anders heen. Zie de privacyverklaring.",
-      "No noise.Just insights. Not another newsletter.Actual value."
+      "No noise. Just insights. Not another newsletter. Actual value."
     ]
   },
   "links": [
@@ -643,7 +638,7 @@
     }
   ],
   "structured_data": {
-    "sha256": "a5061ca8a1365767976383bbe3f8ca8c7303ad55f1e69875819e8176bcd53896",
+    "sha256": "2022627d6bd01b428bfc265a7c3437322794127c634176d3c3340abde3d48a98",
     "items": [
       {
         "@context": "https://schema.org",
@@ -722,5 +717,6 @@
     ],
     "aantal_details": 0,
     "aantal_tabellen": 0
-  }
+  },
+  "gemeten_op": "2026-10-06"
 }

@@ -1,15 +1,8 @@
 {
   "url": "/diensten/ai-strategy-sprint",
   "build_bestand": "dist/diensten/ai-strategy-sprint/index.html",
-  "bron": [
-    "src/pages/diensten/[slug].astro",
-    "src/data/services.js",
-    "src/data/prijzen.ts"
-  ],
-  "gemeten_op": "2026-10-06",
   "html": {
     "bytes": 35015,
-    "sha256": "2b363f7eb11e91888f02e76acf282a9c3aebed772e4f97b7811bcbaa6d8302e1",
     "lang": "nl"
   },
   "beschermd": {
@@ -153,15 +146,15 @@
   ],
   "bodytekst": {
     "regio": "main",
-    "woorden": 937,
-    "sha256": "822752ba36b1b5befe8d73d3c9efcae058d73c7b151a0aa1a2b35ff184431fe0",
+    "woorden": 941,
+    "sha256": "568c2d886b6d397e45fa1930b2830a8d023537f2794612b6f1b037bcc0e77b9f",
     "blokken": [
       "Van ambitie naar besluit",
       "AI Strategy Sprint",
       "Een snelle, scherpe sprint om van AI-idee naar een concrete, board-ready strategie en roadmap te gaan. Praktisch, gefocust en direct toepasbaar, zonder het deck van tweehonderd slides.",
       "Plan een gesprek → Alle diensten → 30 min., geen pitch deck",
-      "vertrouwen,ervaring, impact ↓",
-      "Independent No vendor bias Senior only20+ jaar ervaring",
+      "vertrouwen, ervaring, impact ↓",
+      "Independent No vendor bias Senior only 20+ jaar ervaring",
       "AI in Europa",
       "Europese merken die AI al in productie hebben.",
       "Geen klanten van mij. Wel voorbeelden van wat er gebeurt als AI voorbij de pilot komt.",
@@ -245,7 +238,7 @@
       "Ship & govern",
       "Hoe zorgen we dat het landt? Operating model, rollen, meetpunten en de governance die de AI-verordening van je vraagt, in bruikbare vorm.",
       "Wat je krijgt",
-      "Concreet. Duidelijk.Direct toepasbaar.",
+      "Concreet. Duidelijk. Direct toepasbaar.",
       "Board-ready AI-strategie met expliciete principes en scope",
       "Prioriteitenmatrix: impact versus haalbaarheid, per use case onderbouwd",
       "Use-case roadmap met quick wins, middellange bets en bewuste no-go’s",
@@ -263,7 +256,7 @@
       "Als er nog geen mandaat is om keuzes te maken: dan eerst een Executive Briefing",
       "Als je vooral capaciteit zoekt om te bouwen",
       "Het onderliggende ritme",
-      "Van inzichtnaar impact.",
+      "Van inzicht naar impact.",
       "Elke opdracht doorloopt dezelfde vier beslismomenten. Alleen de diepgang per stap verschilt.",
       "Meer over mijn werkwijze →",
       "01",
@@ -613,7 +606,7 @@
     }
   ],
   "structured_data": {
-    "sha256": "be39a10dd8a93c8b22773f6d6899224ee5a691c3c7e60c41c19df950233f690c",
+    "sha256": "2c7facac54bed4b3bf7a757f55f93432ecb3641f39071c5ce8947912eddb07df",
     "items": [
       {
         "@context": "https://schema.org",
@@ -681,5 +674,6 @@
     ],
     "aantal_details": 5,
     "aantal_tabellen": 0
-  }
+  },
+  "gemeten_op": "2026-10-06"
 }

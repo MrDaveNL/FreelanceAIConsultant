@@ -1,14 +1,8 @@
 {
   "url": "/markten/automotive",
   "build_bestand": "dist/markten/automotive/index.html",
-  "bron": [
-    "src/content/pages/markten/automotive/index.md",
-    "src/pages/[...slug].astro"
-  ],
-  "gemeten_op": "2026-10-06",
   "html": {
     "bytes": 35019,
-    "sha256": "c4c9c437d67a83e89a3060f38863992f4e6fbf2b16fd0e89da72f3cfc6cae362",
     "lang": "nl"
   },
   "beschermd": {
@@ -670,7 +664,7 @@
     }
   ],
   "structured_data": {
-    "sha256": "b3cf0ae41620f1c580ed03c0af12339e71501b8ec47b421b45075232767bd91f",
+    "sha256": "f56076f3d031e7d68fbbaad2ad9c60ce494d9853037e4c96b9c89418e07db43d",
     "items": [
       {
         "@context": "https://schema.org",
@@ -803,5 +797,6 @@
     ],
     "aantal_details": 4,
     "aantal_tabellen": 0
-  }
+  },
+  "gemeten_op": "2026-10-06"
 }

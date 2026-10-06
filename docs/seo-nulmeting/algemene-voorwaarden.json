@@ -1,13 +1,8 @@
 {
   "url": "/algemene-voorwaarden",
   "build_bestand": "dist/algemene-voorwaarden/index.html",
-  "bron": [
-    "src/pages/algemene-voorwaarden.astro"
-  ],
-  "gemeten_op": "2026-10-06",
   "html": {
     "bytes": 24247,
-    "sha256": "0b9fafe3e7744e368cd35e45065905498ec2c694a3ccfb65f9eb057432d7733b",
     "lang": "nl"
   },
   "beschermd": {
@@ -501,7 +496,7 @@
     }
   ],
   "structured_data": {
-    "sha256": "6dc9e9a577921e8999424d7b9efb43ba4bc702b5d104bae72cb2aa417c26ded1",
+    "sha256": "4c70a4e2cd5e56ea641df1cc7945aa28d73a43bd0aca7d8bdb8d11ee9f74228f",
     "items": [
       {
         "@context": "https://schema.org",
@@ -562,5 +557,6 @@
     ],
     "aantal_details": 0,
     "aantal_tabellen": 0
-  }
+  },
+  "gemeten_op": "2026-10-06"
 }

@@ -1,14 +1,8 @@
 {
   "url": "/ai-agents/laten-maken",
   "build_bestand": "dist/ai-agents/laten-maken/index.html",
-  "bron": [
-    "src/content/pages/ai-agents/laten-maken/index.md",
-    "src/pages/[...slug].astro"
-  ],
-  "gemeten_op": "2026-10-06",
   "html": {
     "bytes": 33702,
-    "sha256": "2cd641845de8cf67be983336a02af7d9b7679f634a5fb1922fb96f1801aa11c3",
     "lang": "nl"
   },
   "beschermd": {
@@ -598,7 +592,7 @@
     }
   ],
   "structured_data": {
-    "sha256": "e3d9173794aa3b17471d201b2fb7bda1e7f59a44c71f35b6bb791505c6b76aac",
+    "sha256": "9d2c95f9a50889314136a8ddabb3e2abed9edd453486660c62cd0d675a72a1a2",
     "items": [
       {
         "@context": "https://schema.org",
@@ -734,5 +728,6 @@
     ],
     "aantal_details": 5,
     "aantal_tabellen": 0
-  }
+  },
+  "gemeten_op": "2026-10-06"
 }

@@ -1,14 +1,8 @@
 {
   "url": "/kennisbank/wat-doet-een-ai-developer",
   "build_bestand": "dist/kennisbank/wat-doet-een-ai-developer/index.html",
-  "bron": [
-    "src/content/pages/kennisbank/wat-doet-een-ai-developer/index.md",
-    "src/pages/[...slug].astro"
-  ],
-  "gemeten_op": "2026-10-06",
   "html": {
     "bytes": 28622,
-    "sha256": "58c38af036bd2644407401970b2030faa906940198b51b250febe369a9a03619",
     "lang": "nl"
   },
   "beschermd": {
@@ -567,7 +561,7 @@
     }
   ],
   "structured_data": {
-    "sha256": "028b9e7c2fa52caaa90aa39b95958bbc11426be9d38486d54b2b050c9a1cdbe4",
+    "sha256": "1ad31c59d05e3d4ec5d816b991766d513911e3fb3cc8452ff03cddad73278e1a",
     "items": [
       {
         "@context": "https://schema.org",
@@ -663,5 +657,6 @@
     ],
     "aantal_details": 0,
     "aantal_tabellen": 1
-  }
+  },
+  "gemeten_op": "2026-10-06"
 }

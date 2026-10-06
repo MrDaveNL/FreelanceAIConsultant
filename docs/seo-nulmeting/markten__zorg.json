@@ -1,14 +1,8 @@
 {
   "url": "/markten/zorg",
   "build_bestand": "dist/markten/zorg/index.html",
-  "bron": [
-    "src/content/pages/markten/zorg/index.md",
-    "src/pages/[...slug].astro"
-  ],
-  "gemeten_op": "2026-10-06",
   "html": {
     "bytes": 39142,
-    "sha256": "7ba5e40aaf1dfb2f2325ab744d006491eac5ffd7b9ec00060ae950e1998e2c8b",
     "lang": "nl"
   },
   "beschermd": {
@@ -725,7 +719,7 @@
     }
   ],
   "structured_data": {
-    "sha256": "689f881a0fd303e9fa4d5aa89f524bee569df199725b226d4f32212694f8e29f",
+    "sha256": "5bbf57a6dce3c8086e0ec4808309f9a5b0066e0849fc80412652a4277e68f82c",
     "items": [
       {
         "@context": "https://schema.org",
@@ -866,5 +860,6 @@
     ],
     "aantal_details": 5,
     "aantal_tabellen": 0
-  }
+  },
+  "gemeten_op": "2026-10-06"
 }

@@ -1,15 +1,8 @@
 {
   "url": "/diensten/fractional-ai-lead",
   "build_bestand": "dist/diensten/fractional-ai-lead/index.html",
-  "bron": [
-    "src/pages/diensten/[slug].astro",
-    "src/data/services.js",
-    "src/data/prijzen.ts"
-  ],
-  "gemeten_op": "2026-10-06",
   "html": {
     "bytes": 34302,
-    "sha256": "f80fb0351dc96f960c696a432bcfefe87767f885d8764211cba6ee725fd9136c",
     "lang": "nl"
   },
   "beschermd": {
@@ -153,15 +146,15 @@
   ],
   "bodytekst": {
     "regio": "main",
-    "woorden": 865,
-    "sha256": "d5acde2e0fdfc2b895ecef2fed1275fb78092961f27294542637307f94a01707",
+    "woorden": 869,
+    "sha256": "d8852bd518f840230769f4ce8f643dd3d1dfc81ff083a3574efc1b1613b9ee8e",
     "blokken": [
       "Senior leiderschap, deeltijd",
       "Fractional AI Lead",
       "Je hebt geen fulltime Head of AI nodig. Je hebt iemand nodig die de agenda bewaakt, de juiste vragen stelt in stuurgroepen en voorkomt dat goede initiatieven doodbloeden in de waan van de dag.",
       "Plan een gesprek → Alle diensten → 30 min., geen pitch deck",
-      "vertrouwen,ervaring, impact ↓",
-      "Independent No vendor bias Senior only20+ jaar ervaring",
+      "vertrouwen, ervaring, impact ↓",
+      "Independent No vendor bias Senior only 20+ jaar ervaring",
       "AI in Europa",
       "Europese merken die AI al in productie hebben.",
       "Geen klanten van mij. Wel voorbeelden van wat er gebeurt als AI voorbij de pilot komt.",
@@ -245,7 +238,7 @@
       "Daarna",
       "Afbouwen naar één dag per maand als sparringpartner, of overdragen aan de vaste AI-lead die inmiddels staat.",
       "Wat je krijgt",
-      "Concreet. Duidelijk.Direct toepasbaar.",
+      "Concreet. Duidelijk. Direct toepasbaar.",
       "Eigenaarschap van de AI-portfolio en het besliskader daaromheen",
       "Voorzitterschap of deelname aan stuurgroep en architectuurboard",
       "Toetsing van business cases vóór commitment, niet erna",
@@ -263,7 +256,7 @@
       "Als je iemand zoekt die vijf dagen per week beschikbaar is",
       "Als de rol vooral operationeel projectmanagement is",
       "Het onderliggende ritme",
-      "Van inzichtnaar impact.",
+      "Van inzicht naar impact.",
       "Elke opdracht doorloopt dezelfde vier beslismomenten. Alleen de diepgang per stap verschilt.",
       "Meer over mijn werkwijze →",
       "01",
@@ -611,7 +604,7 @@
     }
   ],
   "structured_data": {
-    "sha256": "b4457f7e61d3c176d38a8086409aed402a5764a78e2c35826c70cc4b2439b413",
+    "sha256": "d7ead82e914debf55b29bcdd943c826c3ac1e13bb3ce162195e51126ed426bd6",
     "items": [
       {
         "@context": "https://schema.org",
@@ -679,5 +672,6 @@
     ],
     "aantal_details": 4,
     "aantal_tabellen": 0
-  }
+  },
+  "gemeten_op": "2026-10-06"
 }

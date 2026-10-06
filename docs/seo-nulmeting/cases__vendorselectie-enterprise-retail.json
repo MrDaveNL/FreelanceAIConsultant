@@ -1,14 +1,8 @@
 {
   "url": "/cases/vendorselectie-enterprise-retail",
   "build_bestand": "dist/cases/vendorselectie-enterprise-retail/index.html",
-  "bron": [
-    "src/pages/cases/[slug].astro",
-    "src/data/cases.js"
-  ],
-  "gemeten_op": "2026-10-06",
   "html": {
     "bytes": 28882,
-    "sha256": "564462e763e2acb166939eea6645a472f1cffa0019db8f044a6f6c2d56730268",
     "lang": "nl"
   },
   "beschermd": {
@@ -56,12 +50,12 @@
   ],
   "bodytekst": {
     "regio": "main",
-    "woorden": 525,
-    "sha256": "89bc4e512c11f293af30eb05254d03e376371f303c00e68d4be2b15700820522",
+    "woorden": 529,
+    "sha256": "50038601099290a01bff69b6411439422c13db086331c7a83c3be203b9705775",
     "blokken": [
       "← Terug naar cases",
       "Retail",
-      "Vendorselectievoor enterprise retail",
+      "Vendorselectie voor enterprise retail",
       "Een gestructureerd selectieproces dat leidde tot de juiste AI-partner, lagere totale kosten en een roadmap die direct waarde oplevert.",
       "Sector: Retail Dienst: Vendor Review Duur: 6 weken Jaar: 2025",
       "Bewijs in cijfers",
@@ -128,10 +122,10 @@
       "Proces & productivity",
       "Zakelijke dienstverlener",
       "Interne AI-assistent voor kenniswerkers",
-      "vertrouwen,ervaring, impact ↓",
-      "Independent No vendor bias Senior only20+ jaar ervaring",
+      "vertrouwen, ervaring, impact ↓",
+      "Independent No vendor bias Senior only 20+ jaar ervaring",
       "Focus op waarde",
-      "Geen hypewel impact",
+      "Geen hype wel impact",
       "1",
       "Situatie",
       "De organisatie wilde AI inzetten voor vraagvoorspelling en assortimentsoptimalisatie. Er was veel aanbod, maar geen helder beeld van welke vendor het beste paste bij strategie, dataomgeving en schaalambitie. Twee leveranciers hadden al gepresenteerd en beide hadden intern een fanclub.",
@@ -435,7 +429,7 @@
     }
   ],
   "structured_data": {
-    "sha256": "c8633ba8dce7858117c8bb8356ef1c2baf55a1e85b6e2a7fec228cc140e7d047",
+    "sha256": "5476c7431e83356bb7e1d7aef4d9708911aa6884ef2b6b4fec0200fc5f64684a",
     "items": [
       {
         "@context": "https://schema.org",
@@ -496,5 +490,6 @@
     ],
     "aantal_details": 0,
     "aantal_tabellen": 0
-  }
+  },
+  "gemeten_op": "2026-10-06"
 }

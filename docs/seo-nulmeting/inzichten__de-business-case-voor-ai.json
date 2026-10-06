@@ -1,14 +1,8 @@
 {
   "url": "/inzichten/de-business-case-voor-ai",
   "build_bestand": "dist/inzichten/de-business-case-voor-ai/index.html",
-  "bron": [
-    "src/pages/inzichten/[slug].astro",
-    "src/data/articles/de-business-case-voor-ai.js"
-  ],
-  "gemeten_op": "2026-10-06",
   "html": {
     "bytes": 31318,
-    "sha256": "c703b4c39c38529dba5041bcb2918cf70d6123a639fbf463449ce5c1683b0654",
     "lang": "nl"
   },
   "beschermd": {
@@ -152,19 +146,19 @@
   ],
   "bodytekst": {
     "regio": "main",
-    "woorden": 1286,
-    "sha256": "0c37c6ebad5688ae990cb2b9f17f5312199c7d831e5d7216bdabfad78b29e774",
+    "woorden": 1289,
+    "sha256": "2b622ce7d5c871e9c639596293298a7bdf2f60d59763a98036215251d1937de5",
     "blokken": [
       "← Terug naar alle inzichten",
       "Strategie",
-      "De business case voor AI,eerlijk berekend",
+      "De business case voor AI, eerlijk berekend",
       "De meeste AI-businesscases sneuvelen niet bij de board, maar een jaar later bij de realisatiecheck. Dit is hoe je er een maakt die dat moment overleeft.",
       "◷ 5 min leestijd 29 januari 2026",
       "DW",
       "Door Dave Willemstein Independent AI Advisor, onafhankelijk, geen leveranciersbelangen",
       "Ik help organisaties AI-beslissingen nemen die waarde creëren. Geen dikke decks, wel duidelijke keuzes en tastbare resultaten.",
-      "vertrouwen,ervaring, impact ↓",
-      "Independent No vendor bias Senior only20+ jaar ervaring",
+      "vertrouwen, ervaring, impact ↓",
+      "Independent No vendor bias Senior only 20+ jaar ervaring",
       "IN HET KORT",
       "Bespaarde uren tellen pas als besparing als de kosten echt dalen.",
       "Reken de volledige kostenkant mee: bouw, beheer, verbruik, verandering.",
@@ -277,7 +271,7 @@
       "✓",
       "Bandbreedte boven precisie",
       "Een onderbouwde range is geloofwaardiger dan een exact bedrag met drie decimalen.",
-      "ONTHOUD“Een businesscase is geen verkoopdocument, het is een afspraak over wat je over een jaar gaat meten.”",
+      "ONTHOUD “Een businesscase is geen verkoopdocument, het is een afspraak over wat je over een jaar gaat meten.”",
       "Sparren over jouw situatie? 30 minuten, vrijblijvend →",
       "Verder lezen",
       "↗",
@@ -572,7 +566,7 @@
     }
   ],
   "structured_data": {
-    "sha256": "1487622a8915db0ae0b606f4f8188be744497cf31a0e0a17a0c8d9459eac25e9",
+    "sha256": "c973f87d32155f83bff84cfb8230344c41741c10039d8cedae45e28df3f9b342",
     "items": [
       {
         "@context": "https://schema.org",
@@ -638,5 +632,6 @@
     ],
     "aantal_details": 0,
     "aantal_tabellen": 0
-  }
+  },
+  "gemeten_op": "2026-10-06"
 }

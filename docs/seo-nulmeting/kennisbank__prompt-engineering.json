@@ -1,14 +1,8 @@
 {
   "url": "/kennisbank/prompt-engineering",
   "build_bestand": "dist/kennisbank/prompt-engineering/index.html",
-  "bron": [
-    "src/content/pages/kennisbank/prompt-engineering/index.md",
-    "src/pages/[...slug].astro"
-  ],
-  "gemeten_op": "2026-10-06",
   "html": {
     "bytes": 34390,
-    "sha256": "27771ba04a7808ef608c5feb544b288d0aadf985e5c336c6c8f1691f7a97936c",
     "lang": "nl"
   },
   "beschermd": {
@@ -682,7 +676,7 @@
     }
   ],
   "structured_data": {
-    "sha256": "3e1417f60ce593abffd15f261e08926cbef42dad5a4dded3edace59cb74c1051",
+    "sha256": "5b83c926dfd5f2fb814c569a27da7792427278ffe0d6ef8d083e356d86e700c6",
     "items": [
       {
         "@context": "https://schema.org",
@@ -778,5 +772,6 @@
     ],
     "aantal_details": 0,
     "aantal_tabellen": 0
-  }
+  },
+  "gemeten_op": "2026-10-06"
 }

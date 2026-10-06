@@ -1,14 +1,8 @@
 {
   "url": "/ai-voor-bedrijven/zakelijke-dienstverleners",
   "build_bestand": "dist/ai-voor-bedrijven/zakelijke-dienstverleners/index.html",
-  "bron": [
-    "src/content/pages/ai-voor-bedrijven/zakelijke-dienstverleners/index.md",
-    "src/pages/[...slug].astro"
-  ],
-  "gemeten_op": "2026-10-06",
   "html": {
     "bytes": 33451,
-    "sha256": "58c93ad1ff9d4263d2b5b779f6c3ecf51e15db57b89291dc99b9ad964fa38826",
     "lang": "nl"
   },
   "beschermd": {
@@ -627,7 +621,7 @@
     }
   ],
   "structured_data": {
-    "sha256": "e8f4b966b62c51996e2630f04590704b2cef080e38409d9645ff3751f17e350f",
+    "sha256": "ce23cb3d6adf1f864c9fa359a57878bbe52676484783e303f8980eeb2b2fbaab",
     "items": [
       {
         "@context": "https://schema.org",
@@ -760,5 +754,6 @@
     ],
     "aantal_details": 4,
     "aantal_tabellen": 0
-  }
+  },
+  "gemeten_op": "2026-10-06"
 }

@@ -1,14 +1,8 @@
 {
   "url": "/ai-agents",
   "build_bestand": "dist/ai-agents/index.html",
-  "bron": [
-    "src/content/pages/ai-agents/index.md",
-    "src/pages/[...slug].astro"
-  ],
-  "gemeten_op": "2026-10-06",
   "html": {
     "bytes": 39665,
-    "sha256": "f5915b1377f4a2fc4f97078a7842330b9f4e535d25b537fafff73d043d5adb4c",
     "lang": "nl"
   },
   "beschermd": {
@@ -797,7 +791,7 @@
     }
   ],
   "structured_data": {
-    "sha256": "3244b4b95a3f8686f5ef866ccd142ab480dee6ad1bdaf2a29d443e1685db25fc",
+    "sha256": "d6fba3ad256bac721d2425dbf8a931a29043938aed0cf01c18608a68316bc456",
     "items": [
       {
         "@context": "https://schema.org",
@@ -927,5 +921,6 @@
     ],
     "aantal_details": 5,
     "aantal_tabellen": 0
-  }
+  },
+  "gemeten_op": "2026-10-06"
 }

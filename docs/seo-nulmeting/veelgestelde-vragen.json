@@ -1,13 +1,8 @@
 {
   "url": "/veelgestelde-vragen",
   "build_bestand": "dist/veelgestelde-vragen/index.html",
-  "bron": [
-    "src/pages/veelgestelde-vragen.astro"
-  ],
-  "gemeten_op": "2026-10-06",
   "html": {
     "bytes": 42499,
-    "sha256": "47fdb5c36b9cc127dce4a7e35bb6c0ec08b7078a812c654e22506796679e0589",
     "lang": "nl"
   },
   "beschermd": {
@@ -85,15 +80,15 @@
   ],
   "bodytekst": {
     "regio": "main",
-    "woorden": 1095,
-    "sha256": "3ebe90643ca694666588dd5aebf5af6c29b5fe88e21abd7978728b5a9b3bcb73",
+    "woorden": 1097,
+    "sha256": "49c39516bac7ad46a93808900b2012b3fa6942995317edd110b3b5788f9080e9",
     "blokken": [
       "Alles wat je wilt weten",
       "Veelgestelde vragen.",
       "24 vragen over samenwerking, onafhankelijkheid, aanpak, tarieven en inkoop. Staat je vraag er niet bij? Stel hem gewoon. Je krijgt binnen één werkdag antwoord.",
       "Plan een gesprek → Bekijk de diensten → 30 min., geen pitch deck",
-      "vertrouwen,ervaring, impact ↓",
-      "Independent No vendor bias Senior only20+ jaar ervaring",
+      "vertrouwen, ervaring, impact ↓",
+      "Independent No vendor bias Senior only 20+ jaar ervaring",
       "AI in Europa",
       "Europese merken die AI al in productie hebben.",
       "Geen klanten van mij. Wel voorbeelden van wat er gebeurt als AI voorbij de pilot komt.",
@@ -524,7 +519,7 @@
     }
   ],
   "structured_data": {
-    "sha256": "0eb5f1d3078bf5b81b363cf2d849f244d58aa71aff4613d4cb26e26564740ded",
+    "sha256": "f80fdb480d170a279dc2df6ae337558eff5a6acfe365c461cfe8e7def687b826",
     "items": [
       {
         "@context": "https://schema.org",
@@ -767,5 +762,6 @@
     ],
     "aantal_details": 24,
     "aantal_tabellen": 0
-  }
+  },
+  "gemeten_op": "2026-10-06"
 }

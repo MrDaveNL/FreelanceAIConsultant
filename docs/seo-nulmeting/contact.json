@@ -1,13 +1,8 @@
 {
   "url": "/contact",
   "build_bestand": "dist/contact/index.html",
-  "bron": [
-    "src/pages/contact.astro"
-  ],
-  "gemeten_op": "2026-10-06",
   "html": {
     "bytes": 27422,
-    "sha256": "b24c5efb8247614f98096ef21edc9cd03ac9a2d8088b0b040823d2c35d2a3d74",
     "lang": "nl"
   },
   "beschermd": {
@@ -55,8 +50,8 @@
   ],
   "bodytekst": {
     "regio": "main",
-    "woorden": 511,
-    "sha256": "6d30fbf7e3a7e92c677ce89f4629c475f1a74b69470a0c3a1724053abf207bbe",
+    "woorden": 514,
+    "sha256": "21951d0ac9f3d6299604e9e3b3f51a909543c7ce59d0a2293514bcab4e841a28",
     "blokken": [
       "Contact",
       "Laten we kennismaken.",
@@ -79,7 +74,7 @@
       "✓",
       "Geen verplichtingen",
       "Geen offerte tenzij je erom vraagt, en geen automatische opvolging.",
-      "Geen verkoop.Wel een goed gesprek.",
+      "Geen verkoop. Wel een goed gesprek.",
       "AI in Europa",
       "Europese merken die AI al in productie hebben.",
       "Geen klanten van mij. Wel voorbeelden van wat er gebeurt als AI voorbij de pilot komt.",
@@ -139,7 +134,7 @@
       "Zakelijke dienstverlener",
       "Interne AI-assistent voor kenniswerkers",
       "Intakeformulier",
-      "Vertel me kort overjouw uitdaging.",
+      "Vertel me kort over jouw uitdaging.",
       "Hoe concreter je vraag, hoe scherper mijn eerste reactie. Weet je het nog niet precies? Dan is dat ook een prima startpunt. Schrijf dat dan gewoon op.",
       "Alleen naam, e-mail en je vraag zijn verplicht.",
       "Tijdlijn en budget helpen mij inschatten wat realistisch is.",
@@ -170,7 +165,7 @@
       "Verstuur aanvraag →",
       "Je krijgt binnen één werkdag antwoord. Liever direct mailen? dave@freelanceaiconsultant.com",
       "Voordat je mailt",
-      "Vier vragenvooraf beantwoord.",
+      "Vier vragen vooraf beantwoord.",
       "Alle veelgestelde vragen →",
       "Hoe snel krijg ik antwoord?+",
       "Binnen één werkdag. Als het langer duurt, ben ik op locatie bij een klant. Dan hoor je het uiterlijk de dag erna.",
@@ -458,7 +453,7 @@
     }
   ],
   "structured_data": {
-    "sha256": "89260253ed3a73d9a69615167a2a8a7f233a9043a95effe9192becfd9fed8e0e",
+    "sha256": "e16d9f6549d269bd834d5101661de71ffab2223008241c74af1665b0b93452a2",
     "items": [
       {
         "@context": "https://schema.org",
@@ -516,5 +511,6 @@
     ],
     "aantal_details": 4,
     "aantal_tabellen": 0
-  }
+  },
+  "gemeten_op": "2026-10-06"
 }

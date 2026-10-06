@@ -1,14 +1,8 @@
 {
   "url": "/kennisbank/gemini-voor-bedrijven",
   "build_bestand": "dist/kennisbank/gemini-voor-bedrijven/index.html",
-  "bron": [
-    "src/content/pages/kennisbank/gemini-voor-bedrijven/index.md",
-    "src/pages/[...slug].astro"
-  ],
-  "gemeten_op": "2026-10-06",
   "html": {
     "bytes": 32857,
-    "sha256": "9bc12176d0fcc5b27ff8090d51d46c3e07fc74eaf3b390ed9c7b23b36e70bba7",
     "lang": "nl"
   },
   "beschermd": {
@@ -694,7 +688,7 @@
     }
   ],
   "structured_data": {
-    "sha256": "1ccb6ebc58094728c7283f6ebe865dc3589b602a730fb3bcce8b668084a424b9",
+    "sha256": "d4bef484dfdefb34bf70893519f130e0f91e74bfa99d10395a5c933afe609750",
     "items": [
       {
         "@context": "https://schema.org",
@@ -790,5 +784,6 @@
     ],
     "aantal_details": 0,
     "aantal_tabellen": 2
-  }
+  },
+  "gemeten_op": "2026-10-06"
 }

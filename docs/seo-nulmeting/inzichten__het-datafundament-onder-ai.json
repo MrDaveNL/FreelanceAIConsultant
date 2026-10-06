@@ -1,14 +1,8 @@
 {
   "url": "/inzichten/het-datafundament-onder-ai",
   "build_bestand": "dist/inzichten/het-datafundament-onder-ai/index.html",
-  "bron": [
-    "src/pages/inzichten/[slug].astro",
-    "src/data/articles/het-datafundament-onder-ai.js"
-  ],
-  "gemeten_op": "2026-10-06",
   "html": {
     "bytes": 31157,
-    "sha256": "37fd87efc6a47c4b24198082e850f967d595c5cf243ea09f68a52fa1c41d1a56",
     "lang": "nl"
   },
   "beschermd": {
@@ -122,19 +116,19 @@
   ],
   "bodytekst": {
     "regio": "main",
-    "woorden": 1290,
-    "sha256": "7279ee1609fc71d7ab300af0b7dc605bbccd68503a113515fa66216812f5fe5a",
+    "woorden": 1293,
+    "sha256": "5bd1cd3e9d2b1c750536fc7ad08347580d208693c529aa1469152c65776229e2",
     "blokken": [
       "← Terug naar alle inzichten",
       "Tools & data",
-      "Het datafundamentonder je AI-initiatieven",
+      "Het datafundament onder je AI-initiatieven",
       "Het meest gegeven advies in AI-land is ook het gevaarlijkste: eerst je data op orde brengen. Soms klopt dat. Vaak is het een manier om nog twee jaar niets te doen.",
       "◷ 4 min leestijd 9 april 2026",
       "DW",
       "Door Dave Willemstein Independent AI Advisor, onafhankelijk, geen leveranciersbelangen",
       "Ik help organisaties AI-beslissingen nemen die waarde creëren. Geen dikke decks, wel duidelijke keuzes en tastbare resultaten.",
-      "vertrouwen,ervaring, impact ↓",
-      "Independent No vendor bias Senior only20+ jaar ervaring",
+      "vertrouwen, ervaring, impact ↓",
+      "Independent No vendor bias Senior only 20+ jaar ervaring",
       "IN HET KORT",
       "Je hebt geen perfect datafundament nodig, je hebt genoeg fundament voor één use case nodig.",
       "Definities zijn belangrijker dan volume of infrastructuur.",
@@ -243,7 +237,7 @@
       "✓",
       "Herkomst telt",
       "Bij AI moet je kunnen uitleggen waar een getal vandaan komt. Dat is een governancevraag, geen techniekvraag.",
-      "ONTHOUD“Een datafundament dat niet door een concrete toepassing wordt getrokken, wordt nooit af.”",
+      "ONTHOUD “Een datafundament dat niet door een concrete toepassing wordt getrokken, wordt nooit af.”",
       "Sparren over jouw situatie? 30 minuten, vrijblijvend →",
       "Verder lezen",
       "⇄",
@@ -538,7 +532,7 @@
     }
   ],
   "structured_data": {
-    "sha256": "f3aed944ccfe30e1e9986b5b93c1330cb53708c9f038a75c497cdaa7d77d8859",
+    "sha256": "156d4b1f2bfa1f0117d2095489fc45cfc3539131047942289b33668ba4b567ad",
     "items": [
       {
         "@context": "https://schema.org",
@@ -604,5 +598,6 @@
     ],
     "aantal_details": 0,
     "aantal_tabellen": 0
-  }
+  },
+  "gemeten_op": "2026-10-06"
 }

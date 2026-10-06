@@ -1,14 +1,8 @@
 {
   "url": "/markten/fintech",
   "build_bestand": "dist/markten/fintech/index.html",
-  "bron": [
-    "src/content/pages/markten/fintech/index.md",
-    "src/pages/[...slug].astro"
-  ],
-  "gemeten_op": "2026-10-06",
   "html": {
     "bytes": 37056,
-    "sha256": "8e0e029da562035a3da0e665b66a9e6654a6621baa3899f520ae7bc978539a87",
     "lang": "nl"
   },
   "beschermd": {
@@ -733,7 +727,7 @@
     }
   ],
   "structured_data": {
-    "sha256": "68f1511e054c369f60ebb3b77b577ea48073cfc9b8417f770f24b374013aa9d0",
+    "sha256": "6f4d48e7a825a45bb41ae1ae005d29f035c26add5e7feda9a77f8868d4915e54",
     "items": [
       {
         "@context": "https://schema.org",
@@ -866,5 +860,6 @@
     ],
     "aantal_details": 4,
     "aantal_tabellen": 0
-  }
+  },
+  "gemeten_op": "2026-10-06"
 }

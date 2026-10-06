@@ -1,14 +1,8 @@
 {
   "url": "/inzichten/ai-governance-zonder-bureaucratie",
   "build_bestand": "dist/inzichten/ai-governance-zonder-bureaucratie/index.html",
-  "bron": [
-    "src/pages/inzichten/[slug].astro",
-    "src/data/articles/ai-governance-zonder-bureaucratie.js"
-  ],
-  "gemeten_op": "2026-10-06",
   "html": {
     "bytes": 31576,
-    "sha256": "afe132cb66b51944beefc09c1ba1d6054b01ca86209d7cbe86354c10429011b6",
     "lang": "nl"
   },
   "beschermd": {
@@ -122,19 +116,19 @@
   ],
   "bodytekst": {
     "regio": "main",
-    "woorden": 1279,
-    "sha256": "04089263d8741af4695ee418ce852e1d634639e5ca4b3a263f20d1fbe50c2095",
+    "woorden": 1282,
+    "sha256": "4ce2e04cb37d8a1dc46be96becd761f44ced7873a22d352a407733657b4cc2e2",
     "blokken": [
       "← Terug naar alle inzichten",
       "Governance",
-      "AI-governancezonder bureaucratie",
+      "AI-governance zonder bureaucratie",
       "Europese regelgeving dwingt organisaties om AI aantoonbaar te beheersen. Dat kan uitmonden in een commissie die alles vertraagt, of in vier lichte mechanismen die het werk beter maken.",
       "◷ 5 min leestijd 19 maart 2026",
       "DW",
       "Door Dave Willemstein Independent AI Advisor, onafhankelijk, geen leveranciersbelangen",
       "Ik help organisaties AI-beslissingen nemen die waarde creëren. Geen dikke decks, wel duidelijke keuzes en tastbare resultaten.",
-      "vertrouwen,ervaring, impact ↓",
-      "Independent No vendor bias Senior only20+ jaar ervaring",
+      "vertrouwen, ervaring, impact ↓",
+      "Independent No vendor bias Senior only 20+ jaar ervaring",
       "IN HET KORT",
       "Classificeer je toepassingen naar risico, niet naar techniek.",
       "Eén register, één poort, één periodieke toets, één escalatiepad.",
@@ -242,7 +236,7 @@
       "✓",
       "Leg ook het \"nee\" vast",
       "Een vastgelegde afwijzing voorkomt dat dezelfde discussie elk kwartaal terugkomt.",
-      "ONTHOUD“Governance die mensen omzeilen is erger dan geen governance, want je denkt dat je in controle bent.”",
+      "ONTHOUD “Governance die mensen omzeilen is erger dan geen governance, want je denkt dat je in controle bent.”",
       "Sparren over jouw situatie? 30 minuten, vrijblijvend →",
       "Verder lezen",
       "◫",
@@ -537,7 +531,7 @@
     }
   ],
   "structured_data": {
-    "sha256": "11fb83994ff01254602f272bc6500fdf344ed22e43a1d3dab91bf1c573140d1b",
+    "sha256": "c43346363f98d7bd839bb528c5aa6c8da7882f736f056a86d910e1232932d95a",
     "items": [
       {
         "@context": "https://schema.org",
@@ -603,5 +597,6 @@
     ],
     "aantal_details": 0,
     "aantal_tabellen": 0
-  }
+  },
+  "gemeten_op": "2026-10-06"
 }

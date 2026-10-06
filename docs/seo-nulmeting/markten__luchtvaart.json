@@ -1,14 +1,8 @@
 {
   "url": "/markten/luchtvaart",
   "build_bestand": "dist/markten/luchtvaart/index.html",
-  "bron": [
-    "src/content/pages/markten/luchtvaart/index.md",
-    "src/pages/[...slug].astro"
-  ],
-  "gemeten_op": "2026-10-06",
   "html": {
     "bytes": 33113,
-    "sha256": "7cbc6e8a287cb7ee13ba69a01cd1cca34002a55e16415be25250a06363fe3966",
     "lang": "nl"
   },
   "beschermd": {
@@ -667,7 +661,7 @@
     }
   ],
   "structured_data": {
-    "sha256": "dd9b73718ff5efa149dcd81460ebf5ff88d490e76c11f71849af5b4a6e8ff107",
+    "sha256": "6a83481bc3f10f50b4e7a0d2a69189d7d3039b2d6013737b975eeda796ccea45",
     "items": [
       {
         "@context": "https://schema.org",
@@ -763,5 +757,6 @@
     ],
     "aantal_details": 0,
     "aantal_tabellen": 0
-  }
+  },
+  "gemeten_op": "2026-10-06"
 }

@@ -1,14 +1,8 @@
 {
   "url": "/kennisbank/ai-voorbeelden",
   "build_bestand": "dist/kennisbank/ai-voorbeelden/index.html",
-  "bron": [
-    "src/content/pages/kennisbank/ai-voorbeelden/index.md",
-    "src/pages/[...slug].astro"
-  ],
-  "gemeten_op": "2026-10-06",
   "html": {
     "bytes": 36239,
-    "sha256": "fe040ed558ca3ea9c8b47fcb1426ce3916024f560128c7e52efa21e1b45faad7",
     "lang": "nl"
   },
   "beschermd": {
@@ -755,7 +749,7 @@
     }
   ],
   "structured_data": {
-    "sha256": "4b3de4ccff04cf33c2c21cea8a1c676e2dd3c84f807667b156b6a05947a983b5",
+    "sha256": "19c71a1f5e8d9a320081006f39d5518c75b9afb37215c1ac8e862bdf5df7c900",
     "items": [
       {
         "@context": "https://schema.org",
@@ -851,5 +845,6 @@
     ],
     "aantal_details": 0,
     "aantal_tabellen": 0
-  }
+  },
+  "gemeten_op": "2026-10-06"
 }

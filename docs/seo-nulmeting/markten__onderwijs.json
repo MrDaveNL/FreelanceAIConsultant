@@ -1,14 +1,8 @@
 {
   "url": "/markten/onderwijs",
   "build_bestand": "dist/markten/onderwijs/index.html",
-  "bron": [
-    "src/content/pages/markten/onderwijs/index.md",
-    "src/pages/[...slug].astro"
-  ],
-  "gemeten_op": "2026-10-06",
   "html": {
     "bytes": 37997,
-    "sha256": "095d8f5528de2fdf48f1f2bf4e6bfe10160b19fd3be73182ad8a375c2904a6b6",
     "lang": "nl"
   },
   "beschermd": {
@@ -699,7 +693,7 @@
     }
   ],
   "structured_data": {
-    "sha256": "80c2356ef155202110e2750dc39b97b3d60fbe450ef302c91d41505d78240f8e",
+    "sha256": "128e5dc76380ff5e6aa13852e94253d5e336c96af8439d70d41d8930de489b4d",
     "items": [
       {
         "@context": "https://schema.org",
@@ -840,5 +834,6 @@
     ],
     "aantal_details": 5,
     "aantal_tabellen": 0
-  }
+  },
+  "gemeten_op": "2026-10-06"
 }

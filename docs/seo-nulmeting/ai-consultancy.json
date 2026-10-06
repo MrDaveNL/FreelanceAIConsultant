@@ -1,14 +1,8 @@
 {
   "url": "/ai-consultancy",
   "build_bestand": "dist/ai-consultancy/index.html",
-  "bron": [
-    "src/content/pages/ai-consultancy/index.md",
-    "src/pages/[...slug].astro"
-  ],
-  "gemeten_op": "2026-10-06",
   "html": {
     "bytes": 42038,
-    "sha256": "4d4045092071245d1615e38151d1ffcca5d1e7b5a97bc4480b296ee6fc50ca4c",
     "lang": "nl"
   },
   "beschermd": {
@@ -893,7 +887,7 @@
     }
   ],
   "structured_data": {
-    "sha256": "7c891a197f68a17d79f60cc49d4ce0f3c5e4aaee1d3f5a3297f9daf995ea01a3",
+    "sha256": "0a1415b5ad3c3e9f0ba5c87072e89e0e5e4cd06a27b91af57b7a5c538b4f3622",
     "items": [
       {
         "@context": "https://schema.org",
@@ -1023,5 +1017,6 @@
     ],
     "aantal_details": 5,
     "aantal_tabellen": 1
-  }
+  },
+  "gemeten_op": "2026-10-06"
 }

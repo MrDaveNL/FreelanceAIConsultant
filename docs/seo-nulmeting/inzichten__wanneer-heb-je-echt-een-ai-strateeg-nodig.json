@@ -1,14 +1,8 @@
 {
   "url": "/inzichten/wanneer-heb-je-echt-een-ai-strateeg-nodig",
   "build_bestand": "dist/inzichten/wanneer-heb-je-echt-een-ai-strateeg-nodig/index.html",
-  "bron": [
-    "src/pages/inzichten/[slug].astro",
-    "src/data/articles/wanneer-heb-je-echt-een-ai-strateeg-nodig.js"
-  ],
-  "gemeten_op": "2026-10-06",
   "html": {
     "bytes": 30121,
-    "sha256": "5ed9a313f73cffe11acbfeef03f350f91647c12b923cda81be28409ecf0b64e9",
     "lang": "nl"
   },
   "beschermd": {
@@ -140,19 +134,19 @@
   ],
   "bodytekst": {
     "regio": "main",
-    "woorden": 1158,
-    "sha256": "df8031f0e141c5dfb25cc4e713c4ca74625ce10d43a7b82a8ed1941d4e2775d6",
+    "woorden": 1161,
+    "sha256": "4c729f20f8d453d52b057a09427c741eb1b71ed6a31f2d858b1fa996d1164941",
     "blokken": [
       "← Terug naar alle inzichten",
       "Strategie",
-      "Wanneer heb je echteen AI-strateeg nodig?",
+      "Wanneer heb je echt een AI-strateeg nodig?",
       "Ik verdien mijn geld met AI-advies, dus lees dit met die wetenschap. Juist daarom staat er eerst in wanneer je me níét nodig hebt.",
       "◷ 4 min leestijd 15 oktober 2025",
       "DW",
       "Door Dave Willemstein Independent AI Advisor, onafhankelijk, geen leveranciersbelangen",
       "Ik help organisaties AI-beslissingen nemen die waarde creëren. Geen dikke decks, wel duidelijke keuzes en tastbare resultaten.",
-      "vertrouwen,ervaring, impact ↓",
-      "Independent No vendor bias Senior only20+ jaar ervaring",
+      "vertrouwen, ervaring, impact ↓",
+      "Independent No vendor bias Senior only 20+ jaar ervaring",
       "IN HET KORT",
       "Externe hulp loont bij onomkeerbare besluiten en interne patstellingen.",
       "Bij afgebakende, technische vragen ben je intern vaak sneller.",
@@ -257,7 +251,7 @@
       "✓",
       "Geen legitimatie kopen",
       "Advies dat een besluit moet bevestigen, is weggegooid geld.",
-      "ONTHOUD“Als je de vraag zelf scherp kunt stellen, kun je hem vaak ook zelf beantwoorden.”",
+      "ONTHOUD “Als je de vraag zelf scherp kunt stellen, kun je hem vaak ook zelf beantwoorden.”",
       "Sparren over jouw situatie? 30 minuten, vrijblijvend →",
       "Verder lezen",
       "⇄",
@@ -552,7 +546,7 @@
     }
   ],
   "structured_data": {
-    "sha256": "a7c7e7278e41333b8d150df51f7bae4b13097b0c53389418c7f5baf1212c8a35",
+    "sha256": "0f02f775a279e43e84cc06db0f4f2c5560fabf8d7bb094e90ad0a5f863ef0074",
     "items": [
       {
         "@context": "https://schema.org",
@@ -618,5 +612,6 @@
     ],
     "aantal_details": 0,
     "aantal_tabellen": 0
-  }
+  },
+  "gemeten_op": "2026-10-06"
 }

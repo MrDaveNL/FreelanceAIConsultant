@@ -1,14 +1,8 @@
 {
   "url": "/kennisbank/ai-agents-en-avg",
   "build_bestand": "dist/kennisbank/ai-agents-en-avg/index.html",
-  "bron": [
-    "src/content/pages/kennisbank/ai-agents-en-avg/index.md",
-    "src/pages/[...slug].astro"
-  ],
-  "gemeten_op": "2026-10-06",
   "html": {
     "bytes": 34118,
-    "sha256": "8fc2acc33e6856d0929ed94fdf61244971e474b9b8a64439817528faa5be4db0",
     "lang": "nl"
   },
   "beschermd": {
@@ -711,7 +705,7 @@
     }
   ],
   "structured_data": {
-    "sha256": "3bfb3cfed8f3dbb492421f2beeb1fbca8251b38b7f86e5746e76433946bdaa3e",
+    "sha256": "d3ccd7b03ab5edb65bc25ae5e153e474e78cdc9d531e3605c933cd7bf88508f4",
     "items": [
       {
         "@context": "https://schema.org",
@@ -807,5 +801,6 @@
     ],
     "aantal_details": 0,
     "aantal_tabellen": 0
-  }
+  },
+  "gemeten_op": "2026-10-06"
 }

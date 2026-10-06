@@ -1,14 +1,8 @@
 {
   "url": "/cases/kyc-documentanalyse-financial-services",
   "build_bestand": "dist/cases/kyc-documentanalyse-financial-services/index.html",
-  "bron": [
-    "src/pages/cases/[slug].astro",
-    "src/data/cases.js"
-  ],
-  "gemeten_op": "2026-10-06",
   "html": {
     "bytes": 29409,
-    "sha256": "ef574a5aabb2a71acdcdeb223639d9681d2bd38f8e9ee64f4faa0c161aef6b3d",
     "lang": "nl"
   },
   "beschermd": {
@@ -56,12 +50,12 @@
   ],
   "bodytekst": {
     "regio": "main",
-    "woorden": 586,
-    "sha256": "e3846ddec57ce21db404684151754c436d42a28cd4ffd2738ca2c9bd8e41072b",
+    "woorden": 590,
+    "sha256": "1a85793031e839487343c61ae2415e18558b7ef1f6e21d197036a2502e48be8c",
     "blokken": [
       "← Terug naar cases",
       "Financial services",
-      "KYC versneldmet documentanalyse",
+      "KYC versneld met documentanalyse",
       "Niet het model was het moeilijke deel. Het moeilijke deel was een werkproces ontwerpen waarin analisten de uitkomst kunnen vertrouwen én kunnen overrulen, en dat de toezichthouder accepteert.",
       "Sector: Financial services Dienst: AI Strategy Sprint Duur: 4 maanden Jaar: 2025",
       "Bewijs in cijfers",
@@ -128,10 +122,10 @@
       "Proces & productivity",
       "Zakelijke dienstverlener",
       "Interne AI-assistent voor kenniswerkers",
-      "vertrouwen,ervaring, impact ↓",
-      "Independent No vendor bias Senior only20+ jaar ervaring",
+      "vertrouwen, ervaring, impact ↓",
+      "Independent No vendor bias Senior only 20+ jaar ervaring",
       "Focus op waarde",
-      "Geen hypewel impact",
+      "Geen hype wel impact",
       "1",
       "Situatie",
       "Een financiële dienstverlener verwerkte klantonboarding grotendeels handmatig. Analisten lazen uittreksels, jaarrekeningen, identiteitsdocumenten en UBO-verklaringen door om de dossiers compleet te maken. Doorlooptijden liepen op, de kwaliteit varieerde per analist en per week.",
@@ -435,7 +429,7 @@
     }
   ],
   "structured_data": {
-    "sha256": "a3ff379954478bb385c18514cb64fc7328649ceca8fa2bf61cc732cfe1f0a498",
+    "sha256": "9cfacc84b4c6bc54fe95aaea500c927172384131e41ec5b235221f5edd1b340a",
     "items": [
       {
         "@context": "https://schema.org",
@@ -496,5 +490,6 @@
     ],
     "aantal_details": 0,
     "aantal_tabellen": 0
-  }
+  },
+  "gemeten_op": "2026-10-06"
 }

@@ -1,14 +1,8 @@
 {
   "url": "/inzichten/freelance-ai-consultant-vs-agency-vs-big4",
   "build_bestand": "dist/inzichten/freelance-ai-consultant-vs-agency-vs-big4/index.html",
-  "bron": [
-    "src/pages/inzichten/[slug].astro",
-    "src/data/articles/freelance-ai-consultant-vs-agency-vs-big4.js"
-  ],
-  "gemeten_op": "2026-10-06",
   "html": {
     "bytes": 31946,
-    "sha256": "7e92bde5cef6c7ae3c0b860ba60cfd5d6064ac0414cc2e3bf578a71205bbdbfb",
     "lang": "nl"
   },
   "beschermd": {
@@ -146,19 +140,19 @@
   ],
   "bodytekst": {
     "regio": "main",
-    "woorden": 1219,
-    "sha256": "221993c8f4ac0435c05b4933acb58da65f7c4fc7d761c56215893da5d9a34915",
+    "woorden": 1222,
+    "sha256": "8bf07d44bfc799973219a5353672a03d09f4ebc4139b23c9d9e9f38ae6e63470",
     "blokken": [
       "← Terug naar alle inzichten",
       "Strategie",
-      "Freelance AI consultantvs agency vs Big 4",
+      "Freelance AI consultant vs agency vs Big 4",
       "Welke partij past het beste bij jouw AI-vraagstuk? Een vergelijking op senioriteit, flexibiliteit, focus, kosten en uitvoeringskracht.",
       "◷ 4 min leestijd 23 april 2026",
       "DW",
       "Door Dave Willemstein Independent AI Advisor, onafhankelijk, geen leveranciersbelangen",
       "Ik help organisaties AI-beslissingen nemen die waarde creëren. Geen dikke decks, wel duidelijke keuzes en tastbare resultaten.",
-      "vertrouwen,ervaring, impact ↓",
-      "Independent No vendor bias Senior only20+ jaar ervaring",
+      "vertrouwen, ervaring, impact ↓",
+      "Independent No vendor bias Senior only 20+ jaar ervaring",
       "IN HET KORT",
       "Freelancer = senior, flexibel en direct inzetbaar.",
       "Agency = specialistische diepte en leveringscapaciteit.",
@@ -279,7 +273,7 @@
       "✓",
       "Betaal voor impact, niet voor overhead",
       "Minder lagen betekent niet automatisch beter, maar wel dat je weet waar je geld heen gaat.",
-      "ONTHOUD“De beste keuze is niet de grootste partij, maar de partij die het best past bij jouw vraag, context en tempo.”",
+      "ONTHOUD “De beste keuze is niet de grootste partij, maar de partij die het best past bij jouw vraag, context en tempo.”",
       "Sparren over jouw situatie? 30 minuten, vrijblijvend →",
       "Verder lezen",
       "◎",
@@ -574,7 +568,7 @@
     }
   ],
   "structured_data": {
-    "sha256": "ac3eb4b863e0dc70d0c301e4196f96ff557b3f2fb9b984173230b92512212be5",
+    "sha256": "cecb72fd6ed5ce61fd56ed9496e5a0a52ae113b52f20fee6154705917a6404b2",
     "items": [
       {
         "@context": "https://schema.org",
@@ -640,5 +634,6 @@
     ],
     "aantal_details": 0,
     "aantal_tabellen": 0
-  }
+  },
+  "gemeten_op": "2026-10-06"
 }

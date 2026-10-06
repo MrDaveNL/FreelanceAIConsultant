@@ -1,14 +1,8 @@
 {
   "url": "/ai-automatisering/ai-tools",
   "build_bestand": "dist/ai-automatisering/ai-tools/index.html",
-  "bron": [
-    "src/content/pages/ai-automatisering/ai-tools/index.md",
-    "src/pages/[...slug].astro"
-  ],
-  "gemeten_op": "2026-10-06",
   "html": {
     "bytes": 45143,
-    "sha256": "a4ea38de17703f3fd1c04541d6ff2df03b36946b80aa2db074ebd085ce7deb8d",
     "lang": "nl"
   },
   "beschermd": {
@@ -908,7 +902,7 @@
     }
   ],
   "structured_data": {
-    "sha256": "3545412d18eb77a8aa5a382091d3d51ae2fc7192f3555e56d9a0e6c21eb518c1",
+    "sha256": "35d559384a3fbfd1c092353b794f0eea0cf8c5c36f1749d440dc1a1ea9a84613",
     "items": [
       {
         "@context": "https://schema.org",
@@ -1049,5 +1043,6 @@
     ],
     "aantal_details": 5,
     "aantal_tabellen": 1
-  }
+  },
+  "gemeten_op": "2026-10-06"
 }

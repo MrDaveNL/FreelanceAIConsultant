@@ -1,14 +1,8 @@
 {
   "url": "/ai-automatisering/bedrijfsprocessen-automatiseren-met-ai",
   "build_bestand": "dist/ai-automatisering/bedrijfsprocessen-automatiseren-met-ai/index.html",
-  "bron": [
-    "src/content/pages/ai-automatisering/bedrijfsprocessen-automatiseren-met-ai/index.md",
-    "src/pages/[...slug].astro"
-  ],
-  "gemeten_op": "2026-10-06",
   "html": {
     "bytes": 34291,
-    "sha256": "af0e645e43ed4a9d3d0a7330764f5fb68bc1c7bf552e0420b111f51c3785d677",
     "lang": "nl"
   },
   "beschermd": {
@@ -621,7 +615,7 @@
     }
   ],
   "structured_data": {
-    "sha256": "5f43e49c6c85740ade065e24a3f0c1586fbe21b9164fcff57c1962035fb1c1bc",
+    "sha256": "450a30e6407b792e32aab5d5a9319971bd9b8ef4c3ca314dde83f195ba4ef709",
     "items": [
       {
         "@context": "https://schema.org",
@@ -754,5 +748,6 @@
     ],
     "aantal_details": 4,
     "aantal_tabellen": 0
-  }
+  },
+  "gemeten_op": "2026-10-06"
 }

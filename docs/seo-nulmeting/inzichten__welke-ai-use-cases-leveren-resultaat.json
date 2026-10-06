@@ -1,14 +1,8 @@
 {
   "url": "/inzichten/welke-ai-use-cases-leveren-resultaat",
   "build_bestand": "dist/inzichten/welke-ai-use-cases-leveren-resultaat/index.html",
-  "bron": [
-    "src/pages/inzichten/[slug].astro",
-    "src/data/articles/welke-ai-use-cases-leveren-resultaat.js"
-  ],
-  "gemeten_op": "2026-10-06",
   "html": {
     "bytes": 30647,
-    "sha256": "690b47c529040b2b29eed79ab0109a8e1af11dc440ee31f91d698441f8b2e69a",
     "lang": "nl"
   },
   "beschermd": {
@@ -134,19 +128,19 @@
   ],
   "bodytekst": {
     "regio": "main",
-    "woorden": 1231,
-    "sha256": "0ddf6c94a145c7b9c5dcdab253296e00cda9d4b34ce0b6fba57507700306dcc7",
+    "woorden": 1234,
+    "sha256": "75e70bf1bfb77b53175af45bb14a8ea3956e93939c7f567a0a3582e0eb3e2b6f",
     "blokken": [
       "← Terug naar alle inzichten",
       "Use cases",
-      "Welke AI-use casesleveren écht resultaat op?",
+      "Welke AI-use cases leveren écht resultaat op?",
       "Na tientallen use-case-inventarisaties valt hetzelfde patroon op: de winnaars zijn zelden de ideeën waar de directie enthousiast van wordt. Dit is waar ze wél aan voldoen.",
       "◷ 4 min leestijd 7 mei 2026",
       "DW",
       "Door Dave Willemstein Independent AI Advisor, onafhankelijk, geen leveranciersbelangen",
       "Ik help organisaties AI-beslissingen nemen die waarde creëren. Geen dikke decks, wel duidelijke keuzes en tastbare resultaten.",
-      "vertrouwen,ervaring, impact ↓",
-      "Independent No vendor bias Senior only20+ jaar ervaring",
+      "vertrouwen, ervaring, impact ↓",
+      "Independent No vendor bias Senior only 20+ jaar ervaring",
       "IN HET KORT",
       "Hoog volume, lage variatie, duidelijke fout-kosten.",
       "Een menselijke controlestap die goedkoper is dan de fout.",
@@ -256,7 +250,7 @@
       "✓",
       "Bestaande data wint",
       "Elke use case die nieuwe dataverzameling vereist, schuift een jaar op.",
-      "ONTHOUD“De beste use case is meestal degene waar niemand een presentatie over wil geven.”",
+      "ONTHOUD “De beste use case is meestal degene waar niemand een presentatie over wil geven.”",
       "Sparren over jouw situatie? 30 minuten, vrijblijvend →",
       "Verder lezen",
       "↗",
@@ -551,7 +545,7 @@
     }
   ],
   "structured_data": {
-    "sha256": "5aa6f154de050ca057d760b30d58c43c8cd6c8e0d55e977e0b61d23c59a36981",
+    "sha256": "144c18b675756bb5e89016e907c7a13804fcaeee308dd0dc5502e3dfc3ec628b",
     "items": [
       {
         "@context": "https://schema.org",
@@ -617,5 +611,6 @@
     ],
     "aantal_details": 0,
     "aantal_tabellen": 0
-  }
+  },
+  "gemeten_op": "2026-10-06"
 }

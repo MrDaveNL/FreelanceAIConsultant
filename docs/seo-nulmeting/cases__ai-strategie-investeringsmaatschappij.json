@@ -1,14 +1,8 @@
 {
   "url": "/cases/ai-strategie-investeringsmaatschappij",
   "build_bestand": "dist/cases/ai-strategie-investeringsmaatschappij/index.html",
-  "bron": [
-    "src/pages/cases/[slug].astro",
-    "src/data/cases.js"
-  ],
-  "gemeten_op": "2026-10-06",
   "html": {
     "bytes": 29182,
-    "sha256": "9fa7628b16c4e428e4e9ebd38133191a8d23bfec4dbfd247456b6df6851ff17d",
     "lang": "nl"
   },
   "beschermd": {
@@ -56,12 +50,12 @@
   ],
   "bodytekst": {
     "regio": "main",
-    "woorden": 569,
-    "sha256": "86f0fe2ed97c4403d8cf1b48495f492a7e85b125c7e136acfebf3557848464a8",
+    "woorden": 572,
+    "sha256": "2ce500e70b264f28930f0515e6ec6f94a97b2239c98c34ad014d20c1e26e54e8",
     "blokken": [
       "← Terug naar cases",
       "Financial services",
-      "AI-strategie& use-case portfolio",
+      "AI-strategie & use-case portfolio",
       "Zeven afdelingen, veertig ideeën en geen gedeelde maatstaf om te bepalen wat eerst moest. In vijf weken werd dat één portfolio met acht use cases, een investeringslogica en een board die ja zei.",
       "Sector: Financial services Dienst: AI Strategy Sprint Duur: 5 weken Jaar: 2025",
       "Bewijs in cijfers",
@@ -128,10 +122,10 @@
       "Proces & productivity",
       "Zakelijke dienstverlener",
       "Interne AI-assistent voor kenniswerkers",
-      "vertrouwen,ervaring, impact ↓",
-      "Independent No vendor bias Senior only20+ jaar ervaring",
+      "vertrouwen, ervaring, impact ↓",
+      "Independent No vendor bias Senior only 20+ jaar ervaring",
       "Focus op waarde",
-      "Geen hypewel impact",
+      "Geen hype wel impact",
       "1",
       "Situatie",
       "Een middelgrote investeringsmaatschappij had AI tot strategisch thema benoemd. Ieder team was daarmee aan de slag gegaan: due-diligence-ondersteuning, portfoliomonitoring, rapportagegeneratie, deal sourcing. Losse initiatieven, elk met een eigen leverancier in beeld en een eigen definitie van succes.",
@@ -435,7 +429,7 @@
     }
   ],
   "structured_data": {
-    "sha256": "301a50844fbd157cf4ea46ea52b0d612f3de8ebe5b01f3b61566d1549d171908",
+    "sha256": "01cf38da84df8245b9e079d4a685b3bcd585ae1b110425fcbd0b98fe4aec9fc1",
     "items": [
       {
         "@context": "https://schema.org",
@@ -496,5 +490,6 @@
     ],
     "aantal_details": 0,
     "aantal_tabellen": 0
-  }
+  },
+  "gemeten_op": "2026-10-06"
 }

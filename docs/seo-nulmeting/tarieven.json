@@ -1,14 +1,8 @@
 {
   "url": "/tarieven",
   "build_bestand": "dist/tarieven/index.html",
-  "bron": [
-    "src/content/pages/tarieven/index.md",
-    "src/pages/[...slug].astro"
-  ],
-  "gemeten_op": "2026-10-06",
   "html": {
     "bytes": 32578,
-    "sha256": "152b989f1ad6fc553bb9a1ee07876300bce0812c16019221882219b36d8adf4c",
     "lang": "nl"
   },
   "beschermd": {
@@ -656,7 +650,7 @@
     }
   ],
   "structured_data": {
-    "sha256": "c2eadf9009e6c52a9ca6554dc824ae2286a7164d9f9e2dd9a1cd68af59205421",
+    "sha256": "7b2ecf7e6ca511083890b0f58f90a0c156950db24416b1e8948fd473cbdadf1b",
     "items": [
       {
         "@context": "https://schema.org",
@@ -879,5 +873,6 @@
     ],
     "aantal_details": 5,
     "aantal_tabellen": 1
-  }
+  },
+  "gemeten_op": "2026-10-06"
 }

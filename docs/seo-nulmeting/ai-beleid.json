@@ -1,14 +1,8 @@
 {
   "url": "/ai-beleid",
   "build_bestand": "dist/ai-beleid/index.html",
-  "bron": [
-    "src/content/pages/ai-beleid/index.md",
-    "src/pages/[...slug].astro"
-  ],
-  "gemeten_op": "2026-10-06",
   "html": {
     "bytes": 41314,
-    "sha256": "ed8a264be4c6ae92199a685e6aaaf3fa52303d19f21e4964fa99fc97fb62e56f",
     "lang": "nl"
   },
   "beschermd": {
@@ -752,7 +746,7 @@
     }
   ],
   "structured_data": {
-    "sha256": "a824dee05f5f1abe3bd47dfd19fb650446a9a4e54139792794d12da47019a2ec",
+    "sha256": "064fe95f44c0802bd73d64c59fd04b2048b94fc0e2407fdc2e030ca6c59e130f",
     "items": [
       {
         "@context": "https://schema.org",
@@ -882,5 +876,6 @@
     ],
     "aantal_details": 5,
     "aantal_tabellen": 0
-  }
+  },
+  "gemeten_op": "2026-10-06"
 }
