@@ -151,11 +151,11 @@ Pagina: Wat kost een AI consultant? Tarieven en pakketten
 
 Pagina: AI agents voor bedrijven
 
-- **Status:** concept (10 van 11 zinnen bevestigd, 0 geschrapt, 1 voorgelegd, 0 bevinding(en) open)
+- **Status:** geverifieerd (10 van 11 zinnen bevestigd, 0 geschrapt, 1 voorgelegd, 0 bevinding(en) open)
 - **Bloktype:** dienstenoverzicht
 - **Plek:** antwoordalinea direct onder de bestaande H2 "Wat kosten AI agents?"; vervolgvragen en bronregel aan het eind van die sectie. Geen eigen kop.
 - **Vraagkop:** Wat kosten AI agents? (bestaand)
-- **Antwoordalinea:** Voor AI agents bestaat geen vast bedrag: de spreiding loopt van een licentie op een bestaand platform tot een maatwerktraject met meerdere koppelingen, en de prijs hangt af van de koppelingen, schrijfrechten, het gebruik, de eisen aan controle en logging en de kwaliteit van de bronnen. Dave Willemstein bouwt zelf geen agents en adviseert onafhankelijk over de keuze van de taak, de specificatie en het aansturen van een bouwpartij. Bij het onafhankelijk laten vergelijken van offertes van meerdere bouwpartijen past de [Vendor Review](/diensten/vendor-review), die €9.800 - €15.400 kost, exclusief btw en reiskosten.
+- **Antwoordalinea:** Voor AI agents bestaat geen vast bedrag: de spreiding loopt van een licentie op een bestaand platform tot een maatwerktraject met meerdere koppelingen, en de prijs hangt af van de koppelingen, schrijfrechten, het gebruik, de eisen aan controle en logging en de kwaliteit van de bronnen. Bij het onafhankelijk laten vergelijken van offertes van meerdere bouwpartijen past de [Vendor Review](/diensten/vendor-review) van Dave Willemstein, die €9.800 - €15.400 kost, exclusief btw en reiskosten.
 - **Vervolgvragen:**
   1. *Is een offerte voor AI agents compleet als alleen de bouw erin staat?* Nee. Bij AI agents is de bouw een eenmalige post en loopt het beheer door: modelkosten per gebruik, monitoring, periodieke tests, aanpassingen bij veranderende processen of systemen en tijd van een interne eigenaar. Het advies is om altijd een inschatting te vragen van de kosten over meerdere jaren, inclusief de kosten van een wissel van leverancier.
   2. *Zijn AI agents binnen een bestaand softwareplatform goedkoper om mee te beginnen?* Vaak wel: AI agents binnen het platform van een softwareleverancier zijn sneller en vaak goedkoper om mee te beginnen, maar de organisatie is gebonden aan wat dat platform kan en aan de prijsontwikkeling van de leverancier. Maatwerk geeft meer controle, met kosten voor beheer en doorontwikkeling.
@@ -353,16 +353,14 @@ Pagina: AI agents voorbeelden: 12 toepassingen voor bedrijven
 
 Pagina: Wat is een AI agent? Uitleg, werking en voorbeelden
 
-- **Status:** concept (9 van 9 zinnen bevestigd, 0 geschrapt, 0 voorgelegd, 0 bevinding(en) open)
-- **Externe feiten:** 1 zin(nen) met een feit van buiten de eigen dienstverlening (overig extern). Het blok blijft daarom concept; zie docs/rag-verificatie.md.
+- **Status:** geverifieerd (9 van 9 zinnen bevestigd, 0 geschrapt, 0 voorgelegd, 0 bevinding(en) open)
 - **Bloktype:** kennisbank
 - **Plek:** antwoordalinea direct onder de bestaande H2 "Wat is een AI agent?"; vervolgvragen en bronregel aan het eind van die sectie. Geen eigen kop.
 - **Vraagkop:** Wat is een AI agent? (bestaand)
 - **Antwoordalinea:** Een AI agent is software die van een mens een doel meekrijgt en daarna grotendeels zelf de route kiest: informatie verzamelen, andere systemen gebruiken, tussenresultaten beoordelen en de volgende stap bepalen. Anders dan een chatbot, die een vraag in een gesprek beantwoordt, voert een AI agent een taak uit in meerdere stappen en kan hij systemen raadplegen en soms wijzigen. De mate van zelfstandigheid is een instelling die de organisatie kiest, van alleen voorbereiden tot volledig zelfstandig werken met controle achteraf.
 - **Vervolgvragen:**
-  1. *Draait een AI agent op een taalmodel?* De meeste wel: de meeste AI agents van nu draaien op een groot taalmodel, dat de opdracht begrijpt en over de volgende stap redeneert. Wat van dat taalmodel een AI agent maakt, zijn de onderdelen eromheen: toegang tot tools en systemen, een geheugen voor de lopende taak en instructies over wat wel en niet mag.
-  2. *Kan een fout van een AI agent doorwerken zonder dat het eindresultaat er verkeerd uitziet?* Ja, dat kan: een AI agent zet meerdere stappen achter elkaar, waardoor een fout uit een vroege stap kan doorwerken tot in het eindresultaat zonder dat het er verkeerd uitziet. Logging en tussencontroles zijn bij een AI agent daarom belangrijker dan bij een gewone AI-toepassing.
-  3. *Welke vormen van opbouw komen bij een AI agent voor?* Grofweg drie vormen: een enkelvoudige AI agent voor één afgebakende taak, een AI agent binnen een AI-workflow met een vaste procesflow, en samenwerkende agents waarbij een coördinerende agent het werk verdeelt. Voor de meeste organisaties is de AI agent binnen een workflow het verstandigste startpunt.
+  1. *Kan een fout van een AI agent doorwerken zonder dat het eindresultaat er verkeerd uitziet?* Ja, dat kan: een AI agent zet meerdere stappen achter elkaar, waardoor een fout uit een vroege stap kan doorwerken tot in het eindresultaat zonder dat het er verkeerd uitziet. Logging en tussencontroles zijn bij een AI agent daarom belangrijker dan bij een gewone AI-toepassing.
+  2. *Welke vormen van opbouw komen bij een AI agent voor?* Grofweg drie vormen: een enkelvoudige AI agent voor één afgebakende taak, een AI agent binnen een AI-workflow met een vaste procesflow, en samenwerkende agents waarbij een coördinerende agent het werk verdeelt. Voor de meeste organisaties is de AI agent binnen een workflow het verstandigste startpunt.
 - **Bronregel:** Bron: artikel van Dave Willemstein.
 - **Herkomst:** Antwoord: 'Wat is een AI agent?', de tabel onder 'AI agent versus chatbot' en 'Naar zelfstandigheid' onder 'Soorten AI agents'. Vervolgvraag 1: derde alinea onder 'Wat is een AI agent?'. Vervolgvraag 2: slotalinea onder 'Hoe werkt een AI agent?'. Vervolgvraag 3: 'Naar opbouw' onder 'Soorten AI agents'.
 
@@ -370,12 +368,11 @@ Pagina: Wat is een AI agent? Uitleg, werking en voorbeelden
 
 Pagina: Beste AI tools voor bedrijven
 
-- **Status:** concept (8 van 8 zinnen bevestigd, 0 geschrapt, 0 voorgelegd, 0 bevinding(en) open)
-- **Externe feiten:** 1 zin(nen) met een feit van buiten de eigen dienstverlening (toolprijs). Het blok blijft daarom concept; zie docs/rag-verificatie.md.
+- **Status:** geverifieerd (8 van 8 zinnen bevestigd, 0 geschrapt, 0 voorgelegd, 0 bevinding(en) open)
 - **Bloktype:** kennisbank
 - **Plek:** eigen vraagkop, na de hero en vóór de eerste bestaande H2 ("Hoe kies je een AI tool?").
 - **Vraagkop:** Wat zijn de beste AI tools voor een bedrijf en waar hangt de keuze van af?
-- **Antwoordalinea:** De beste AI tools verschillen per situatie: de keuze volgt eerst uit de taak, de software die er al is, data en privacy, beheer, kosten en exit, en pas als laatste uit het merk. Organisaties die in Microsoft 365 of Google Workspace werken, beginnen bij Copilot of Gemini, en voor bedrijfs- of persoonsgegevens komt alleen een zakelijk abonnement met verwerkersovereenkomst in aanmerking. Bij een keuze die meer dan een paar licenties raakt, helpt de [Vendor Review](/diensten/vendor-review) om tot een onderbouwd besluit te komen.
+- **Antwoordalinea:** De beste AI tools verschillen per situatie: de keuze volgt eerst uit de taak, de software die er al is, data en privacy, beheer, kosten en exit, en pas als laatste uit het merk. Bij een keuze die meer dan een paar licenties raakt, helpt de [Vendor Review](/diensten/vendor-review) om tot een onderbouwd besluit te komen.
 - **Vervolgvragen:**
   1. *Betalen leveranciers voor een plek in de vergelijking van de beste AI tools?* Nee. De vergelijking van de beste AI tools is gebaseerd op de officiële product-, prijs- en privacypagina's van de leveranciers, stand september 2026. Er zijn geen affiliate-, commissie- of partnerrelaties met de genoemde partijen en er staan geen eigen benchmarkcijfers in.
   2. *Hoe wordt een nieuwe AI-tool uitgeprobeerd bij het kiezen van de beste AI tools?* Het advies bij elke nieuwe AI-tool is om één team die een paar weken op echt werk te laten gebruiken, met een vooraf afgesproken vraag die de proef moet beantwoorden, niet met iedereen tegelijk en niet op basis van een demo. Voor een keuze uit de beste AI tools die meer dan een paar licenties raakt, worden de kandidaten getest op dezelfde taak met eigen voorbeelden.
@@ -557,16 +554,14 @@ Pagina: AI implementatie stappenplan in 7 stappen
 
 Pagina: AI en BI: het verschil en hoe ze elkaar versterken
 
-- **Status:** concept (9 van 9 zinnen bevestigd, 0 geschrapt, 0 voorgelegd, 0 bevinding(en) open)
-- **Externe feiten:** 2 zin(nen) met een feit van buiten de eigen dienstverlening (toolprijs). Het blok blijft daarom concept; zie docs/rag-verificatie.md.
+- **Status:** geverifieerd (9 van 9 zinnen bevestigd, 0 geschrapt, 0 voorgelegd, 0 bevinding(en) open)
 - **Bloktype:** kennisbank
 - **Plek:** eigen vraagkop, na de hero en vóór de eerste bestaande H2 ("Wat is business intelligence?").
 - **Vraagkop:** Wat is het verschil tussen AI en BI en hoe vullen ze elkaar aan?
 - **Antwoordalinea:** BI werkt vooral met gestructureerde data en laat zien wat er is gebeurd en waarom; AI voorspelt, classificeert en verwerkt ook tekst en documenten, met een foutmarge die bekend moet zijn. AI en BI zijn geen concurrenten: AI bouwt voort op de betrouwbare cijfers en definities die BI levert. Vaak is een werkende BI-omgeving met vertrouwde cijfers daarom het beste startpunt voor AI.
 - **Vervolgvragen:**
-  1. *Is een Pro-licentie genoeg voor Copilot in Power BI?* Nee, volgens Microsoft Learn niet (stand september 2026): Copilot in Power BI, een voorbeeld van AI en BI, vraagt een betaalde Fabric- of Premium-capaciteit en een Pro-licentie alleen is niet genoeg. Zonder voorbereiding van het datamodel kan Copilot volgens Microsoft bovendien de data verkeerd interpreteren.
-  2. *Op hoeveel manieren is AI te gebruiken voor business intelligence?* Vier manieren, van eenvoudig naar ingrijpend: vragen stellen in gewone taal, automatische toelichting bij cijfers en afwijkingen, voorspellingen naast de terugblik, en tekst uit e-mails, klantreacties en documenten omzetten in analyseerbare gegevens. Bij AI en BI rusten alle vier op een betrouwbaar datamodel.
-  3. *Is de uitkomst van AI even exact als die van BI?* Nee, de uitkomst van BI is exact, mits de data klopt, terwijl een AI-model inschat en daarbij fouten maakt. Bij AI en BI vraagt dat om een andere manier van controleren en een ander gesprek over verantwoordelijkheid.
+  1. *Op hoeveel manieren is AI te gebruiken voor business intelligence?* Vier manieren, van eenvoudig naar ingrijpend: vragen stellen in gewone taal, automatische toelichting bij cijfers en afwijkingen, voorspellingen naast de terugblik, en tekst uit e-mails, klantreacties en documenten omzetten in analyseerbare gegevens. Bij AI en BI rusten alle vier op een betrouwbaar datamodel.
+  2. *Is de uitkomst van AI even exact als die van BI?* Nee, de uitkomst van BI is exact, mits de data klopt, terwijl een AI-model inschat en daarbij fouten maakt. Bij AI en BI vraagt dat om een andere manier van controleren en een ander gesprek over verantwoordelijkheid.
 - **Bronregel:** Bron: artikel van Dave Willemstein.
 - **Herkomst:** Antwoord: tabel en alinea's onder 'Het verschil tussen AI en BI' plus de summary. Vervolgvraag 1 en 2: schema en Copilot-alinea onder 'Hoe AI business intelligence versterkt'. Vervolgvraag 3: rij 'Zekerheid' en de alinea direct onder de tabel.
 
@@ -590,15 +585,14 @@ Pagina: AI voor het MKB: waar begin je en wat levert het op?
 Pagina: AI voor zakelijke dienstverleners
 
 - **Status:** concept (9 van 9 zinnen bevestigd, 0 geschrapt, 0 voorgelegd, 0 bevinding(en) open)
-- **Externe feiten:** 4 zin(nen) met een feit van buiten de eigen dienstverlening (wetgeving, overig extern). Het blok blijft daarom concept; zie docs/rag-verificatie.md.
+- **Externe feiten:** 1 zin(nen) met een feit van buiten de eigen dienstverlening (wetgeving). Het blok blijft daarom concept; zie docs/rag-verificatie.md.
 - **Bloktype:** kennisbank
 - **Plek:** eigen vraagkop, na de hero en vóór de eerste bestaande H2 ("Waarom AI voor dienstverleners loont").
 - **Vraagkop:** Waar zit de winst van AI voor zakelijke dienstverleners en wat vraagt het aan vertrouwelijkheid?
 - **Antwoordalinea:** AI voor zakelijke dienstverleners versnelt vooral het lezen, analyseren en schrijven waar accountants, advocaten, adviseurs en bureaus veel uren aan besteden: AI maakt een eerste versie of een selectie, de professional oordeelt en blijft verantwoordelijk voor het eindresultaat. De toolkeuze volgt uit de eisen aan vertrouwelijkheid: geen dossiers in gratis tools, een gecontroleerde verwerkersovereenkomst en kantoorbrede afspraken over wat mag.
 - **Vervolgvragen:**
   1. *Kan een DPIA verplicht zijn bij AI voor zakelijke dienstverleners?* Ja, bij een verwerking met een hoog risico is een DPIA bij AI voor zakelijke dienstverleners verplicht onder de AVG. Bij persoonsgegevens hoort te worden nagegaan of een DPIA nodig is, en de verwerkersovereenkomst, de opslaglocatie en de afspraken over training op data horen te worden gecontroleerd.
-  2. *Welke leidraad en aanbevelingen zijn er bij AI voor zakelijke dienstverleners zoals accountants en advocaten?* Voor AI voor zakelijke dienstverleners in de accountancy publiceerden de beroepsorganisaties NBA en NOREA in juni 2026 'Leidraad 2: AI Toegepast', en de Nederlandse orde van advocaten heeft aanbevelingen voor AI in de advocatuur gepubliceerd. De kern van de leidraad is dat validatie en menselijk oordeel de basis blijven. In de advocatuur blijft de advocaat altijd zelf verantwoordelijk voor het uiteindelijke advies.
-  3. *Waar hangt de keuze voor een tool van af bij AI voor zakelijke dienstverleners?* Van de taken, de bestaande software en de eisen aan gegevensverwerking hangt bij AI voor zakelijke dienstverleners af welke tool past, niet van de indrukwekkendste demo. Gespecialiseerde vaktools bieden meer vakinhoud, maar vragen een toets op de herkomst van bronnen en het prijsmodel.
+  2. *Waar hangt de keuze voor een tool van af bij AI voor zakelijke dienstverleners?* Van de taken, de bestaande software en de eisen aan gegevensverwerking hangt bij AI voor zakelijke dienstverleners af welke tool past, niet van de indrukwekkendste demo. Gespecialiseerde vaktools bieden meer vakinhoud, maar vragen een toets op de herkomst van bronnen en het prijsmodel.
 - **Bronregel:** Bron: artikel van Dave Willemstein; primaire bron: Verordening (EU) 2016/679 (AVG), artikel 35, EUR-Lex (peildatum 6 oktober 2026).
 - **Herkomst:** Antwoord: 'Waarom AI voor dienstverleners loont', de openingszin van 'Toepassingen per beroepsgroep' en de basisregels onder 'Vertrouwelijkheid en kwaliteit'. Vervolgvraag 1: basisregel 2 onder 'Vertrouwelijkheid en kwaliteit'. Vervolgvraag 2: subkoppen 'Accountancy' en 'Legal'. Vervolgvraag 3: schema en alinea onder 'Tools'.
 
@@ -691,16 +685,14 @@ Pagina: Microsoft Copilot training voor teams
 
 Pagina: AI in automotive: toepassingen voor autobedrijven
 
-- **Status:** concept (10 van 10 zinnen bevestigd, 0 geschrapt, 0 voorgelegd, 0 bevinding(en) open)
-- **Externe feiten:** 3 zin(nen) met een feit van buiten de eigen dienstverlening (wetgeving). Het blok blijft daarom concept; zie docs/rag-verificatie.md.
+- **Status:** geverifieerd (10 van 10 zinnen bevestigd, 0 geschrapt, 0 voorgelegd, 0 bevinding(en) open)
 - **Bloktype:** kennisbank
 - **Plek:** eigen vraagkop, na de hero en vóór de eerste bestaande H2 ("AI toepassingen in automotive").
 - **Vraagkop:** Wat kan een autobedrijf met AI in automotive en hoe begint het daarmee?
 - **Antwoordalinea:** Bij AI in automotive zit voor een autobedrijf of dealer de meeste winst in verkoopopvolging, werkplaats en klantcontact, niet in de auto zelf. De aanpak is één proces met een meetbaar knelpunt kiezen, een eigenaar in de lijn aanwijzen en vooraf afspreken wanneer er wordt gestopt. Voor wie nog niet weet welk proces dat is, is het [AI Readiness Assessment](/diensten/ai-readiness-assessment) van 2-3 weken een logisch startpunt.
 - **Vervolgvragen:**
-  1. *Is AI in automotive hoog risico als een dealer er sollicitanten mee selecteert of de kredietwaardigheid van particulieren mee beoordeelt?* Ja. AI voor het selecteren van sollicitanten en voor het beoordelen van de kredietwaardigheid van particulieren staat op de hoog-risicolijst van de AI Act, met eisen die door de Digital Omnibus volgens de Europese Commissie vanaf 2 december 2027 gelden. Een chatbot of een tekstgenerator is bij AI in automotive geen hoog-risicotoepassing.
-  2. *Hoe kan een dealer bij AI in automotive toetsen of de belofte van een leverancier van assistenten klopt?* Dat kan bijvoorbeeld met de [Vendor Review](/diensten/vendor-review), met dezelfde vragen en hetzelfde scenario voor elke leverancier. Bij assistenten gaat het bij AI in automotive om de keuze tussen wat de DMS-leverancier, het merk of een gespecialiseerde partij aanbiedt.
-  3. *Waarvoor werkt een klantgerichte assistent met AI in automotive goed?* Klantgerichte assistenten, die vragen beantwoorden en bijvoorbeeld een onderhoudsafspraak inplannen, werken bij AI in automotive goed voor voorspelbare vragen, niet voor klachten of onderhandelingen. Het advies is vooraf af te spreken wanneer de assistent overdraagt aan een mens, en dat met echte gesprekken te testen.
+  1. *Hoe kan een dealer bij AI in automotive toetsen of de belofte van een leverancier van assistenten klopt?* Dat kan bijvoorbeeld met de [Vendor Review](/diensten/vendor-review), met dezelfde vragen en hetzelfde scenario voor elke leverancier. Bij assistenten gaat het bij AI in automotive om de keuze tussen wat de DMS-leverancier, het merk of een gespecialiseerde partij aanbiedt.
+  2. *Waarvoor werkt een klantgerichte assistent met AI in automotive goed?* Klantgerichte assistenten, die vragen beantwoorden en bijvoorbeeld een onderhoudsafspraak inplannen, werken bij AI in automotive goed voor voorspelbare vragen, niet voor klachten of onderhandelingen. Het advies is vooraf af te spreken wanneer de assistent overdraagt aan een mens, en dat met echte gesprekken te testen.
 - **Bronregel:** Bron: artikel van Dave Willemstein; primaire bron: Verordening (EU) 2024/1689 (AI Act), EUR-Lex; Europese Commissie, "AI Act" (regulatory framework AI); Verordening (EU) 2026/1744 (Digitale omnibus inzake AI), EUR-Lex (peildatum 6 oktober 2026).
 - **Herkomst:** Antwoord: summary en de alinea 'Zo begin je'. Vervolgvraag 1: 'Welke regels gelden er?'. Vervolgvraag 2 en 3: 'AI assistenten'.
 
@@ -748,28 +740,26 @@ Pagina: AI specialist salaris: wat verdient een AI specialist?
 - **Bloktype:** kennisbank
 - **Plek:** eigen vraagkop, na de hero en vóór de eerste bestaande H2 ("Salarisindicatie AI specialist").
 - **Vraagkop:** Wat zeggen de salarisbronnen over een AI specialist salaris in Nederland?
-- **Antwoordalinea:** Voor een AI specialist salaris publiceren de gecontroleerde salarisbronnen hun cijfers onder de titel AI engineer, niet onder AI specialist; ze verschillen onderling flink en zijn bruikbaar als bandbreedte, niet als vast bedrag. DataJobs (bijgewerkt mei 2026) noemt bruto per maand € 3.000 tot € 4.000 voor junioren, € 4.000 tot € 5.500 voor medioren en € 5.500 tot € 7.000 voor senioren; Indeed (bijgewerkt 14 september 2026) meldt een gemiddelde van € 56.643 per jaar. Voor werkgevers past een vaste aanstelling bij structureel werk met een duidelijke scope; bij een onduidelijke scope is externe of parttime inzet vaak verstandiger.
+- **Antwoordalinea:** Voor een AI specialist salaris publiceren de gecontroleerde salarisbronnen hun cijfers onder de titel AI engineer, niet onder AI specialist; ze verschillen onderling flink en zijn bruikbaar als bandbreedte, niet als vast bedrag. DataJobs (bijgewerkt mei 2026) noemt bruto per maand € 3.000 tot € 4.000 voor junioren, € 4.000 tot € 5.500 voor medioren en € 5.500 tot € 7.000 voor senioren; Indeed meldt een gemiddelde van circa € 57.000 per jaar (peildatum 6 oktober 2026). Voor werkgevers past een vaste aanstelling bij structureel werk met een duidelijke scope; bij een onduidelijke scope is externe of parttime inzet vaak verstandiger.
 - **Vervolgvragen:**
   1. *Publiceren de gecontroleerde salarisbronnen een AI specialist salaris onder die functietitel?* Nee. De gecontroleerde salarisbronnen publiceren hun cijfers onder de titel AI engineer, niet onder AI specialist. Bij een AI specialist salaris gaat het daarom om bandbreedtes per niveau van twee bronnen, in brutobedragen per maand.
-  2. *Zijn de cijfers van Indeed en DataJobs bij een AI specialist salaris één-op-één te vergelijken?* Lastig: de cijfers van Indeed en DataJobs zijn lastig één-op-één te vergelijken, want Indeed rekent in jaarbedragen op basis van wat werknemers zelf opgeven en DataJobs in brutomaandbedragen op basis van gegevens van het eigen platform. Bij een AI specialist salaris zijn beide daarom als orde van grootte te gebruiken.
+  2. *Zijn de cijfers van Indeed en DataJobs bij een AI specialist salaris één-op-één te vergelijken?* Lastig: de cijfers van Indeed en DataJobs zijn lastig één-op-één te vergelijken, want Indeed rekent in jaarbedragen op basis van salarissen uit vacatures op Indeed en DataJobs in brutomaandbedragen op basis van gegevens van het eigen platform. Bij een AI specialist salaris zijn beide daarom als orde van grootte te gebruiken.
   3. *Wat doet de Fractional AI Lead als de scope voor een fulltime functie nog niet vaststaat?* De [Fractional AI Lead](/diensten/fractional-ai-lead) stuurt de AI-agenda in een parttime rol en helpt bij het functieprofiel en de werving van een vaste opvolger. De rol kost €2.600 - €10.400 per maand, voor 2, 4 of 8 dagen per maand.
-- **Bronregel:** Bron: artikel van Dave Willemstein; primaire bron: DataJobs, Werken als AI Engineer (bijgewerkt mei 2026); Indeed, Salaris van een AI engineer in Nederland (bijgewerkt 28 september 2026) (peildatum 6 oktober 2026).
+- **Bronregel:** Bron: artikel van Dave Willemstein; primaire bron: DataJobs, Werken als AI Engineer (bijgewerkt mei 2026); Nationale Beroepengids, Salaris Artificial Intelligence Engineer (bijgewerkt 26-11-2024); Indeed, Salaris van een AI engineer in Nederland (bijgewerkt 28 september 2026) (peildatum 6 oktober 2026).
 - **Herkomst:** Antwoord: summary, tabel en alinea's onder 'Salarisindicatie AI specialist' (kolom DataJobs), het Indeed-punt onder 'AI engineer salaris' en de vuistregels onder 'Vast in dienst of freelance inhuren?'. Vervolgvraag 1: eerste twee alinea's onder 'Salarisindicatie AI specialist' en summary. Vervolgvraag 2: alinea 'Die cijfers zijn lastig één-op-één te vergelijken'. Vervolgvraag 3: vuistregel 'Kies een parttime rol'.
 
 ### `/kennisbank/ai-voorbeelden`
 
 Pagina: AI voorbeelden: 25 toepassingen uit de praktijk
 
-- **Status:** concept (8 van 8 zinnen bevestigd, 0 geschrapt, 0 voorgelegd, 0 bevinding(en) open)
-- **Externe feiten:** 3 zin(nen) met een feit van buiten de eigen dienstverlening (wetgeving, overig extern). Het blok blijft daarom concept; zie docs/rag-verificatie.md.
+- **Status:** geverifieerd (8 van 8 zinnen bevestigd, 0 geschrapt, 0 voorgelegd, 0 bevinding(en) open)
 - **Bloktype:** kennisbank
 - **Plek:** eigen vraagkop, na de hero en vóór de eerste bestaande H2 ("AI voorbeelden per afdeling").
 - **Vraagkop:** Welke AI voorbeelden uit de praktijk zijn bruikbaar voor een organisatie?
 - **Antwoordalinea:** De meeste bruikbare AI voorbeelden zijn klein: AI doet een afgebakende taak in een bestaand proces, namelijk lezen, sorteren, samenvatten of een eerste versie maken. Het overzicht telt 25 toepassingen per afdeling, per sector en uit het dagelijks leven, en in bijna elk voorbeeld controleert een mens de uitkomst voordat die ertoe doet. Het beste startpunt is een taak met hoog volume en lage foutkosten, zoals vragen sorteren, facturen uitlezen of productteksten in concept.
 - **Vervolgvragen:**
-  1. *Hoe zijn de AI voorbeelden op de pagina beschreven?* Bewust generiek: de AI voorbeelden staan er in de vorm 'een groothandel kan' in plaats van als een verzonnen succesverhaal. Bij de drie voorbeelden uit het dagelijks leven, over spamfilters, reistijd voorspellen en vertalen, heeft de leverancier zelf beschreven hoe AI wordt ingezet.
-  2. *Wanneer gelden bij AI voorbeelden zwaardere eisen?* Zodra een toepassing zelf een besluit over een persoon neemt of een professioneel oordeel vervangt, gelden bij AI voorbeelden zwaardere eisen vanuit de AVG, de AI Act en de eigen sectorregels. AI die sollicitaties filtert of kandidaten beoordeelt, staat in de AI Act op de lijst van hoog-risicotoepassingen; ook AI die de kredietwaardigheid van personen beoordeelt en het beoordelen van leerresultaten of toelating met AI vallen onder de hoog-risicotoepassingen van de AI Act.
-  3. *Wat levert het AI Readiness Assessment op voor wie wil weten welke AI voorbeelden het meeste opleveren?* Het [AI Readiness Assessment](/diensten/ai-readiness-assessment) geeft in 2-3 weken een gevalideerde lijst met kansen en een 90-dagenplan, voor wie wil weten welke van de AI voorbeelden in de eigen organisatie het meeste oplevert.
+  1. *Hoe zijn de AI voorbeelden op de pagina beschreven?* Bewust generiek: de AI voorbeelden staan er in de vorm 'een groothandel kan' in plaats van als een verzonnen succesverhaal.
+  2. *Wat levert het AI Readiness Assessment op voor wie wil weten welke AI voorbeelden het meeste opleveren?* Het [AI Readiness Assessment](/diensten/ai-readiness-assessment) geeft in 2-3 weken een gevalideerde lijst met kansen en een 90-dagenplan, voor wie wil weten welke van de AI voorbeelden in de eigen organisatie het meeste oplevert.
 - **Bronregel:** Bron: artikel van Dave Willemstein; primaire bron: Verordening (EU) 2024/1689 (AI Act), EUR-Lex (peildatum 6 oktober 2026).
 - **Herkomst:** Antwoord: lede, summary, de inleiding onder 'AI voorbeelden per afdeling' en de keuzematrix onder 'Hoe kies je de juiste toepassing?'. Vervolgvraag 1: inleiding 'AI voorbeelden per afdeling' en 'AI voorbeelden in het dagelijks leven'. Vervolgvraag 2: voorbeelden 14, 17 en 19 en de slotalinea onder 'AI voorbeelden per sector'. Vervolgvraag 3: slotalinea.
 
@@ -858,15 +848,13 @@ Pagina: Notuleren met AI: tools, werkwijze en privacy
 
 Pagina: Prompt engineering: betere resultaten uit AI
 
-- **Status:** concept (7 van 7 zinnen bevestigd, 0 geschrapt, 0 voorgelegd, 0 bevinding(en) open)
-- **Externe feiten:** 2 zin(nen) met een feit van buiten de eigen dienstverlening (overig extern). Het blok blijft daarom concept; zie docs/rag-verificatie.md.
+- **Status:** geverifieerd (7 van 7 zinnen bevestigd, 0 geschrapt, 0 voorgelegd, 0 bevinding(en) open)
 - **Bloktype:** kennisbank
 - **Plek:** antwoordalinea direct onder de bestaande H2 "Wat is prompt engineering?"; vervolgvragen en bronregel aan het eind van die sectie. Geen eigen kop.
 - **Vraagkop:** Wat is prompt engineering? (bestaand)
 - **Antwoordalinea:** Prompt engineering is het zo formuleren van een AI prompt, de opdracht aan een taalmodel, dat het model doet wat bedoeld is en dat bij herhaling opnieuw doet. Voor de meeste zakelijke gebruikers komt het neer op een goede opdracht geven aan iemand die slim is maar de organisatie niet kent. Het advies is de uitkomst altijd te controleren, omdat een taalmodel overtuigend kan klinken en toch fout kan zitten.
 - **Vervolgvragen:**
   1. *Wat betekent prompt engineering voor ontwikkelaars en voor andere medewerkers?* Voor ontwikkelaars die AI in software inbouwen is prompt engineering een echte discipline met tests en versiebeheer. Voor de meeste medewerkers is het eenvoudiger: zij leren een paar gewoontes aan die het verschil maken tussen een generiek antwoord en een bruikbaar concept.
-  2. *Helpen zogenoemde ultieme prompts bij prompt engineering?* Ultieme prompts helpen soms, maar de leveranciers van de assistenten leggen bij prompt engineering zelf de nadruk op iets saaiers: helder formuleren, context geven, voorbeelden tonen en testen. Anthropic benadrukt dat eerst moet vaststaan wat een goed resultaat is en hoe dat wordt getoetst, voordat aan de prompt wordt geschaafd.
 - **Bronregel:** Bron: artikel van Dave Willemstein.
 - **Herkomst:** Antwoord: eerste alinea onder 'Wat is prompt engineering?', de lede en de summary. Vervolgvraag 1: tweede alinea onder 'Wat is prompt engineering?'. Vervolgvraag 2: 'Zoeken naar de magische formule' onder 'Veelgemaakte fouten'.
 
@@ -921,14 +909,13 @@ Pagina: Wat doet een AI developer?
 
 Pagina: Wat doet een BI specialist?
 
-- **Status:** concept (10 van 10 zinnen bevestigd, 0 geschrapt, 0 voorgelegd, 0 bevinding(en) open)
-- **Externe feiten:** 1 zin(nen) met een feit van buiten de eigen dienstverlening (toolprijs). Het blok blijft daarom concept; zie docs/rag-verificatie.md.
+- **Status:** geverifieerd (10 van 10 zinnen bevestigd, 0 geschrapt, 0 voorgelegd, 0 bevinding(en) open)
 - **Bloktype:** kennisbank
 - **Plek:** antwoordalinea direct onder de bestaande H2 "Wat is een BI specialist?"; vervolgvragen en bronregel aan het eind van die sectie. Geen eigen kop.
 - **Vraagkop:** Wat is een BI specialist? (bestaand)
 - **Antwoordalinea:** Een BI specialist zorgt dat een organisatie stuurt op cijfers die kloppen, overal hetzelfde betekenen en op tijd beschikbaar zijn. Het werk bestaat uit vragen ophalen bij de business, data uit bronsystemen samenbrengen, een datamodel met definities inrichten en rapportages en dashboards maken en uitleggen. Waar een BI specialist verklaart wat er is gebeurd, richt een AI specialist zich op voorspellen en op het automatiseren van taken met AI.
 - **Vervolgvragen:**
-  1. *Hoe verandert AI het werk van een BI specialist?* Doordat AI routinewerk van de BI specialist overneemt, worden datamodellering, definities en advies belangrijker. AI-functies in BI-platforms helpen bij het schrijven van berekeningen en queries, en de BI specialist controleert en verbetert. Een BI specialist die kan uitleggen hoe data tot stand komt en waar de beperkingen zitten, wordt waardevoller.
+  1. *Hoe verandert AI het werk van een BI specialist?* Doordat AI routinewerk van de BI specialist overneemt, worden datamodellering, definities en advies belangrijker. Een BI specialist die kan uitleggen hoe data tot stand komt en waar de beperkingen zitten, wordt waardevoller.
   2. *Is een BI specialist eerder nodig dan een AI specialist?* In de praktijk zijn een BI specialist en een AI specialist vaak allebei nodig, en in die volgorde. Een AI-toepassing op bedrijfscijfers is zo betrouwbaar als de definities en de data eronder; dat fundament is typisch het werk van een BI specialist.
   3. *Welke namen heeft de functie van BI specialist?* In de praktijk heeft de functie van BI specialist veel namen: BI consultant, BI developer, data analist of reporting specialist. De accenten verschillen: de een zit dichter bij de techniek, de ander dichter bij de business.
 - **Bronregel:** Bron: artikel van Dave Willemstein.
@@ -1020,15 +1007,13 @@ Pagina: Build, buy of partner: wat past bij jouw situatie?
 
 Pagina: De business case voor AI, eerlijk berekend
 
-- **Status:** concept (10 van 11 zinnen bevestigd, 0 geschrapt, 1 voorgelegd, 0 bevinding(en) open)
-- **Externe feiten:** 1 zin(nen) met een feit van buiten de eigen dienstverlening (overig extern). Het blok blijft daarom concept; zie docs/rag-verificatie.md.
+- **Status:** geverifieerd (10 van 11 zinnen bevestigd, 0 geschrapt, 1 voorgelegd, 0 bevinding(en) open)
 - **Bloktype:** kennisbank
 - **Plek:** eigen vraagkop, na de hero en vóór de eerste bestaande H2 ("Waar AI-businesscases sneuvelen").
 - **Vraagkop:** Wat hoort er in een business case voor AI die een jaar later nog standhoudt?
 - **Antwoordalinea:** In een business case voor AI tellen bespaarde uren pas als besparing wanneer de kosten echt dalen, en hoort de volledige kostenkant: verbruik, beheer, integratie, verandering en governance. De uitkomst staat er als bandbreedte in, met de aannames over adoptie, volume en het omzetten van tijdwinst in geld zichtbaar bovenaan.
 - **Vervolgvragen:**
   1. *Telt extra tijd voor waardevol werk mee als besparing in een business case voor AI?* Nee. Meer tijd voor waardevol werk is echte waarde, maar geen financiële besparing. In een business case voor AI hoort die post bij de kwalitatieve baten en niet in de rekensom.
-  2. *Hoe lang duurt de productiviteitsdip in de eerste weken?* Doorgaans vier tot acht weken. Het artikel raadt aan die dip op te nemen in een business case voor AI: dat maakt de case geloofwaardiger, niet zwakker.
 - **Bronregel:** Bron: artikel van Dave Willemstein.
 - **Herkomst:** Antwoord: summary, 'De kostenkant: waar het meestal misgaat', 'Werk met bandbreedtes, niet met puntschattingen' en 'Spreek af wat je over een jaar meet'. Vervolgvraag 1: '1. Kostenreductie'. Vervolgvraag 2: takeaway 'Verbruikskosten schalen mee' en 'Verbruikskosten die meeschalen'. Vervolgvraag 3: 'Verandering en opleiding'.
 

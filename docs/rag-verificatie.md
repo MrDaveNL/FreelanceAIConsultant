@@ -2,7 +2,220 @@
 
 Stand: 6 oktober 2026 · branch `rag-blokken-fase-0` · er is niets nieuws geplaatst
 
-Dit rapport begint met de eindstand na de derde ronde. De tweede ronde (alle 68 blokken door laag A, B en C) staat daaronder ter referentie.
+Dit rapport begint met de eindstand na de laatste correctieronde. De derde en tweede ronde staan daaronder ter referentie.
+
+## Eindstand na de correctieronde
+
+| Status in `docs/rag-concepten.json` | Aantal |
+|---|---|
+| geverifieerd | 47 |
+| concept | 18 |
+| wacht op publicatie | 5 |
+
+Daarnaast staan er drie geplaatste pilotblokken, alle drie volledig bevestigd. Geen enkel blok heeft de status "akkoord"; er is daarom niets uitgerold.
+
+## Wat er in deze ronde is gedaan
+
+- **Salarispagina gecorrigeerd** (aparte commit, voor- en na-controle in `docs/rag-wijziging-salarispagina.txt`, nulmeting bijgewerkt): Indeed staat er nu met circa € 57.000 per jaar en peildatum 6 oktober 2026, op basis van salarissen uit vacatures op Indeed. De bandbreedte en het aantal salarissen van Indeed zijn weggelaten, omdat alleen het gemiddelde opnieuw is opgehaald. Het blok volgt de pagina.
+- **AVG-pagina: alleen een voorstel.** `docs/rag-voorstel-avg.md` bevat per plek de huidige zin, de voorgestelde zin en het wetsfragment uit de op 6 oktober 2026 opgehaalde tekst van EUR-Lex. De pagina en het blok zijn niet gewijzigd.
+- **`/ai-agents`:** de voorgelegde zin is vervallen. De alinea houdt twee zinnen; de afzender staat nu bij de dienst in de slotzin ("de Vendor Review van Dave Willemstein").
+- **Geschrapt uit blokken (14 zinnen):** feiten over tools of partijen van derden op pagina's die daar niet over gaan, en de twee zinnen die niet in de primaire bron te vinden waren.
+- **Zinnen over tools op de pagina over die tool:** 25 zinnen tegen de documentatie van de leverancier gelegd (hieronder).
+- **Het woord "gids"** is in de bronregel toegestaan als eigennaam van een externe bron; de weggehaalde bronnaam staat terug. In eigen tekst blijft het een fout.
+
+**Laag A** slaagt voor alle blokken. **Laag B en C** zijn opnieuw gedraaid voor de twee blokken met een gewijzigde zin (`/ai-agents` en de salarispagina). Uitkomst: 20 zinnen door laag B, 20 bevestigd; 10 nagetrokken in laag C, 1 afwijkend. In de andere blokken is alleen geschrapt.
+
+Blokken met een extern feit blijven "concept", ook als elke zin bevestigd is: jij hebt de uitkomst van de externe controles nog niet beoordeeld.
+
+## Paginazinnen voor jou
+
+Deze zinnen zijn uit het blok geschrapt omdat de primaire bron ze niet dekt. De pagina zelf zegt iets vergelijkbaars en is niet gewijzigd:
+
+- `/kennisbank/ai-voorbeelden`: Zodra een toepassing zelf een besluit over een persoon neemt of een professioneel oordeel vervangt, gelden bij AI voorbeelden zwaardere eisen vanuit de AVG, de AI Act en de eigen sectorregels.
+  - voorgelegd en op aanwijzing geschrapt (niet als geheel gedekt door de primaire bronnen (AVG, AI Act)) De hele vervolgvraag "Wanneer gelden bij AI voorbeelden zwaardere eisen?" vervalt.
+- `/markten/automotive`: Een chatbot of een tekstgenerator is bij AI in automotive geen hoog-risicotoepassing.
+  - voorgelegd en op aanwijzing geschrapt (niet te vinden in de primaire bron (AI Act)) De hele vervolgvraag "Is AI in automotive hoog risico als een dealer er sollicitanten mee selecteert of de kredietwaardigheid van particulieren mee beoordeelt?" vervalt.
+
+## Controle tegen de documentatie van de leverancier (25 zinnen)
+
+| Oordeel | Aantal |
+|---|---|
+| bevestigd | 22 |
+| niet te vinden | 3 |
+
+Bij negen van de bevestigde zinnen dekt de leverancier alleen het feitelijke deel; het advies of oordeel in de zin is van de adviseur en staat niet bij de leverancier. Dat staat hieronder per zin als kanttekening. Niets is naar aanleiding van deze controle geschrapt of herschreven.
+
+- `/kennisbank/chatgpt-voor-bedrijven` · V2.2 · **niet te vinden**: Bij de persoonlijke abonnementen kan OpenAI gesprekken gebruiken om modellen te verbeteren tenzij de gebruiker dat zelf uitzet, en de organisatie heeft geen zicht of zeggenschap over klantgegevens die een medewerker in een persoonlijk account zet.
+  - Bron: OpenAI Help Center, How your data is used to improve model performance, onderdeel 'Services for individuals' · https://help.openai.com/en/articles/5722486-how-your-data-is-used-to-improve-model-performance · opgehaald 2026-10-06
+  - Fragment: When you use our services for individuals, such as ChatGPT and Codex, we may use your content to train our models. You can choose whether your conversations help improve our models. To opt out, turn off Improve the model for everyone under Settings > Data controls in ChatGPT
+  - Kanttekening: Deel 1 (training tenzij de gebruiker het uitzet) is letterlijk gedekt door het fragment. Deel 2 (de organisatie heeft geen zicht of zeggenschap over een persoonlijk account) staat niet in de opgehaalde OpenAI-pagina's. openai.com/enterprise-privacy/ zegt alleen het omgekeerde over de zakelijke werkruimte ('Your organization has control over workspaces', 'Workspace admins have control over workspaces and can view, access, export, and delete end user conversations in the workspace'); over persoonlijke accounts doet OpenAI daar geen uitspraak. Het is een eigen gevolgtrekking.
+- `/kennisbank/claude-voor-bedrijven` · V2.1 · **niet te vinden**: Nee.
+  - Bron: Anthropic, prijspagina Claude · https://claude.com/pricing · opgehaald 2026-10-06
+  - Fragment: 
+  - Kanttekening: Anthropic doet in de opgehaalde pagina's (claude.com/pricing, claude.com/pricing/enterprise, privacy.claude.com) geen uitspraak dat Pro en Max ongeschikt zijn voor bedrijfsdata. De prijspagina geeft alleen de onderliggende feiten (Model training 'Opt-out', geen centraal beheer; zie V2.2). Het kale 'Nee.' is een eigen oordeel, geen leveranciersfeit.
+- `/kennisbank/claude-voor-bedrijven` · V2.3 · **niet te vinden**: Voor Claude voor bedrijven met bedrijfsgegevens zijn alleen Team en Enterprise geschikt (stand september 2026).
+  - Bron: Anthropic, prijspagina Claude · https://claude.com/pricing · opgehaald 2026-10-06
+  - Fragment: 
+  - Kanttekening: Een geschiktheidsoordeel in deze vorm staat niet bij Anthropic. De prijspagina noemt wel de feiten waarop het steunt: Team 'No model training on your content by default' en 'Central billing and administration', tegenover 'Opt-out' en 'No' bij Free, Pro en Max. De zin is een eigen conclusie.
+- `/kennisbank/chatgpt-voor-bedrijven` · A1 · **bevestigd**: Voor bedrijfsdata horen de abonnementen Business of Enterprise en geen persoonlijke accounts: bij beide blijft training op invoer en uitvoer volgens OpenAI standaard uit (stand september 2026).
+  - Bron: OpenAI Help Center, How your data is used to improve model performance, onderdeel 'Business services and managed workspaces' · https://help.openai.com/en/articles/5722486-how-your-data-is-used-to-improve-model-performance · opgehaald 2026-10-06
+  - Fragment: By default, we don’t use inputs or outputs from ChatGPT Business, ChatGPT Enterprise, ChatGPT Edu, or our API to improve our models.
+  - Kanttekening: Het feitelijke deel (training standaard uit bij Business en Enterprise) is gedekt; ook de prijspagina zegt bij 'Content is used to train our models' voor Business en Enterprise 'No'. Het eerste deel ('horen ... en geen persoonlijke accounts') is een eigen advies en staat niet als uitspraak bij OpenAI.
+- `/kennisbank/chatgpt-voor-bedrijven` · A2 · **bevestigd**: ChatGPT kan zelfverzekerd een fout antwoord geven, dus voor alles wat naar een klant, toezichthouder of directie gaat blijft een mens verantwoordelijk voor de controle.
+  - Bron: OpenAI Help Center, Does ChatGPT tell the truth? · https://help.openai.com/en/articles/8313428-does-chatgpt-tell-the-truth · opgehaald 2026-10-06
+  - Fragment: But like any language model, it can produce incorrect or misleading outputs. Sometimes, it might sound confident—even when it’s wrong.
+  - Kanttekening: Het feit is gedekt; OpenAI zegt op dezelfde pagina ook 'we encourage users to approach ChatGPT critically and verify important information from reliable sources'. Dat 'een mens verantwoordelijk blijft' voor stukken naar klant, toezichthouder of directie is een eigen advies, geen uitspraak van OpenAI.
+- `/kennisbank/chatgpt-voor-bedrijven` · V1.1 · **bevestigd**: ChatGPT Enterprise, voor nieuwe werkruimtes (EER en Zwitserland); bij ChatGPT Business is er geen Europese dataopslag (stand september 2026).
+  - Bron: OpenAI Help Center, Data residency and inference residency for ChatGPT (Eligibility, Supported regions); aangevuld met de prijspagina openai.com/business/chatgpt-pricing/ · https://help.openai.com/en/articles/9903489-data-residency-and-inference-residency-for-chatgpt · opgehaald 2026-10-06
+  - Fragment: Eligible API customers and new ChatGPT Enterprise/Edu customers can choose to have in-scope customer content stored at rest in supported countries. [...] Europe (EEA + Switzerland) [...] / Prijspagina: Plan: Business, Feature: Data residency in US, EU, UK, JP, CA, KR, SG, IN, AU, UAE, No / Plan: Enterprise, Feature: Data residency in US, EU, UK, JP, CA, KR, SG, IN, AU, UAE, Yes
+  - Kanttekening: De bron spreekt van 'new ChatGPT Enterprise/Edu customers' en 'When a new ChatGPT workspace is provisioned with data residency'; Edu valt er dus ook onder, wat de zin niet tegenspreekt.
+- `/kennisbank/chatgpt-voor-bedrijven` · V1.2 · **bevestigd**: Bij ChatGPT voor bedrijven vallen gegevens die via koppelingen of webzoekopdrachten naar externe diensten gaan daar volgens OpenAI niet onder.
+  - Bron: OpenAI Help Center, Data residency and inference residency for ChatGPT, onderdeel 'Data that may be stored outside the selected region' · https://help.openai.com/en/articles/9903489-data-residency-and-inference-residency-for-chatgpt · opgehaald 2026-10-06
+  - Fragment: Certain categories of data may be stored outside the chosen data region. This includes (but may not be limited to): Data that is stored and processed outside OpenAI's infrastructure through external integrations (e.g., Apps & MCP, Web Search, if enabled)
+- `/kennisbank/chatgpt-voor-bedrijven` · V2.3 · **bevestigd**: Voor Business en Enterprise is bovendien een verwerkersovereenkomst met OpenAI af te sluiten.
+  - Bron: OpenAI, Enterprise privacy at OpenAI (FAQ) · https://openai.com/enterprise-privacy/ · opgehaald 2026-10-06
+  - Fragment: Yes, we are able to execute a Data Processing Addendum (DPA) with customers for their use of ChatGPT Business, ChatGPT Enterprise, and the API in support of their compliance with GDPR and other privacy laws.
+- `/kennisbank/claude-voor-bedrijven` · A1 · **bevestigd**: Claude voor bedrijven is de AI-assistent van Anthropic in een zakelijk abonnement: Team voor 2 tot 150 gebruikers, of Enterprise met daarnaast onder meer SCIM, rolgebaseerde toegang en auditlogs.
+  - Bron: Anthropic, prijspagina Claude (Team & Enterprise) · https://claude.com/pricing · opgehaald 2026-10-06
+  - Fragment: Team For teams of 2 to 150 [...] Enterprise For large businesses operating at scale [...] All Team plan features, plus: Admins set user and org spend limits Role-based access with fine grained permissioning System for Cross-domain Identity Management (SCIM) Audit logs
+- `/kennisbank/claude-voor-bedrijven` · A2 · **bevestigd**: Alleen de zakelijke abonnementen zijn geschikt voor gebruik met bedrijfsgegevens; bij Team en Enterprise traint Anthropic standaard niet op de content, en de data wordt volgens Anthropic in de VS opgeslagen (stand september 2026).
+  - Bron: Anthropic, prijspagina Claude (Team); Anthropic Privacy Center, Where are your servers located? Do you host your models on EU servers? · https://claude.com/pricing · opgehaald 2026-10-06
+  - Fragment: No model training on your content by default / Privacy Center (https://privacy.claude.com/en/articles/7996890-where-are-your-servers-located-do-you-host-your-models-on-eu-servers): Note that data is stored in the US.
+  - Kanttekening: Delen 2 en 3 zijn letterlijk gedekt (de vergelijkingstabel zegt bij 'Model training' voor Team en Enterprise 'None by default'; claude.com/pricing/enterprise zegt 'Your prompts, data, and results are not used to train our models by default'). Deel 1 ('alleen de zakelijke abonnementen zijn geschikt') is een eigen oordeel dat Anthropic nergens in de opgehaalde pagina's uitspreekt.
+- `/kennisbank/claude-voor-bedrijven` · V1.1 · **bevestigd**: Op dit moment kan Europese dataopslag bij Claude voor bedrijven alleen via de cloudplatforms, niet in de app (stand september 2026).
+  - Bron: Anthropic, Regional compliance (tabel 'Claude's regional availability' en FAQ); Anthropic Privacy Center, Where are your servers located? · https://claude.com/regional-compliance · opgehaald 2026-10-06
+  - Fragment: Meet your regional data residency and compliance requirements with Claude. Choose where your data is stored and processed. Available on AWS Bedrock, GCP Vertex, and Microsoft Foundry. / Privacy Center: Note that data is stored in the US.
+  - Kanttekening: De regionale tabel noemt voor Europe: AWS Bedrock 'Included', GCP Vertex 'Included', Microsoft Foundry 'Coming soon'. Voor de eigen producten zegt het Privacy Center 'data is stored in the US'; het artikel 'Enable US-only inference for your organization' (support.claude.com/en/articles/15422948) zegt dat die instelling alleen inferentie regelt ('Data storage. Where your organization's data is stored is separate from where inference runs.'). De documentatie op platform.claude.com/docs/en/manage-claude/data-residency zegt: 'Currently, "us" is the only available workspace geo.'
+- `/kennisbank/claude-voor-bedrijven` · V1.2 · **bevestigd**: In de zakelijke abonnementen wordt de data volgens Anthropic opgeslagen in de VS.
+  - Bron: Anthropic Privacy Center, Where are your servers located? Do you host your models on EU servers? (15 juni 2026) · https://privacy.claude.com/en/articles/7996890-where-are-your-servers-located-do-you-host-your-models-on-eu-servers · opgehaald 2026-10-06
+  - Fragment: This article is about our commercial products such as Claude Enterprise and the Anthropic API. [...] By default, we may route customer traffic to select countries in the US, Europe, Asia and Australia, unless otherwise agreed upon or at your instructions. [...] Note that data is stored in the US.
+- `/kennisbank/claude-voor-bedrijven` · V1.3 · **bevestigd**: Voor Europese dataopslag en verwerking wijst Anthropic naar de regionale endpoints van AWS Bedrock en Google Vertex, een route voor eigen toepassingen via de API en niet voor de claude.ai-app.
+  - Bron: Anthropic, Regional compliance (FAQ) · https://claude.com/regional-compliance · opgehaald 2026-10-06
+  - Fragment: Regional endpoints allow you to specify geographic boundaries for both data storage and inference processing. For Europe, you can select country-specific deployment options through AWS Bedrock, GCP Vertex, and Microsoft Foundry to meet local data residency requirements.
+  - Kanttekening: Let op twee punten. (a) De FAQ noemt voor Europa ook Microsoft Foundry, terwijl de tabel op dezelfde pagina Foundry voor Europe op 'Coming soon' zet; de zin noemt alleen Bedrock en Vertex en is daarmee niet onjuist. (b) Dat dit 'niet voor de claude.ai-app' geldt, staat niet letterlijk op deze pagina; het volgt uit het Privacy Center ('Note that data is stored in the US') en uit het DPA-artikel ('If you access Claude via a third-party platform or service provider, your use of Claude in those cases is governed by the third-party platform's terms of service').
+- `/kennisbank/claude-voor-bedrijven` · V2.2 · **bevestigd**: Pro en Max zijn persoonlijke abonnementen waarbij modeltraining op gesprekken aan staat tot de gebruiker het zelf uitzet, en centraal beheer ontbreekt.
+  - Bron: Anthropic, prijspagina Claude, tabblad Individual, vergelijkingstabel (kolommen Free, Pro, Max 5x, Max 20x) · https://claude.com/pricing · opgehaald 2026-10-06
+  - Fragment: Central billing and administration No No No No [...] Model training More information Opt-out Opt-out Opt-out Opt-out
+  - Kanttekening: De prijspagina zegt 'Opt-out'. Het consumentenartikel in het Privacy Center (privacy.claude.com/en/articles/10023580-is-my-data-used-for-model-training) formuleert het als een keuze: 'We will use your chats and coding sessions (including to improve our models) if: You choose to allow us to use your chats and coding sessions to improve Claude'. Dat spreekt 'aan tot de gebruiker het uitzet' niet tegen, maar zegt het ook niet letterlijk; de zin steunt op het woord 'Opt-out' van de prijspagina.
+- `/kennisbank/gemini-voor-bedrijven` · A1 · **bevestigd**: Gemini voor bedrijven is de generatieve AI van Google, die sinds januari 2025 zonder aparte AI-licentie in de Business- en Enterprise-edities van Google Workspace zit; welke functies beschikbaar zijn, verschilt per editie.
+  - Bron: Google Workspace Help, Gemini AI features now included in Google Workspace subscriptions · https://knowledge.workspace.google.com/admin/gemini/gemini-ai-features-now-included-in-google-workspace-subscriptions · opgehaald 2026-10-06
+  - Fragment: In January 2025 we started adding new AI features designed to improve productivity and innovation in organizations with Google Workspace Business and Enterprise editions. Previously these features were included in Google Workspace with Gemini add-ons. [...] The AI features available to your organization depend on Google Workspace edition.
+  - Kanttekening: De bron zegt 'we started adding' vanaf januari 2025 en dat de add-ons Gemini Business–Legacy en Gemini Enterprise–Legacy 'are no longer available for purchase'. 'Zonder aparte AI-licentie' is daarvan de eigen samenvatting; er bestaan volgens dezelfde helppagina's nog wel andere add-ons (onder meer 'AI Expanded Access').
+- `/kennisbank/gemini-voor-bedrijven` · A2 · **bevestigd**: Bij organisaties die al met Google Workspace werken, zit Gemini waarschijnlijk al in het abonnement, zodat de vraag minder is of het wordt gekocht en meer hoe het wordt ingezet en welke afspraken over data gelden.
+  - Bron: Google Workspace Help, Gemini AI features now included in Google Workspace subscriptions · https://knowledge.workspace.google.com/admin/gemini/gemini-ai-features-now-included-in-google-workspace-subscriptions · opgehaald 2026-10-06
+  - Fragment: In January 2025 we started adding new AI features designed to improve productivity and innovation in organizations with Google Workspace Business and Enterprise editions.
+  - Kanttekening: Alleen het feitelijke deel is gedekt, en de zin maakt zelf het voorbehoud 'waarschijnlijk'. De rest (de vraag verschuift naar inzet en data-afspraken) is eigen duiding, geen leveranciersfeit.
+- `/kennisbank/gemini-voor-bedrijven` · A3 · **bevestigd**: Volgens Google dient klantdata uit Workspace zonder toestemming of instructie van de klant niet als trainingsmateriaal voor modellen (stand september 2026).
+  - Bron: Google Workspace Help, Generative AI in Google Workspace Privacy Hub, onderdeel 'Model training and data usage' · https://knowledge.workspace.google.com/admin/gemini/generative-ai-in-google-workspace-privacy-hub · opgehaald 2026-10-06
+  - Fragment: Workspace does not use customer data for training models without customer's prior permission or instruction. This commitment is outlined in the 'Training Restriction' section of the Google Workspace Service Specific Terms .
+- `/kennisbank/gemini-voor-bedrijven` · V1.1 · **bevestigd**: In Business Starter zit Gemini voor bedrijven volgens Google niet in Docs en Sheets, wel in Gmail en in de Gemini-app (stand september 2026).
+  - Bron: Google Workspace, Nederlandse prijspagina (abonnementskaart Starter en vergelijkingstabel, kolom Starter) · https://workspace.google.com/intl/nl/pricing.html · opgehaald 2026-10-06
+  - Fragment: Starter bevat: [...] AI-assistent Gemini in Gmail Chat met AI in de Gemini-app / Vergelijkingstabel, eerste kolom (Starter): Gemini in Documenten : zonder writer's block schrijven of conceptdocumenten verbeteren met AI Deze functie wordt niet ondersteund door deze SKU [...] Gemini in Spreadsheets : gegevens visualiseren en sneller inzichten krijgen met AI Deze functie wordt niet ondersteund door deze SKU
+  - Kanttekening: In dezelfde tabel staat voor Starter bij 'Gemini in Workspace-apps' de waarde 'Beperkt', bij 'Gemini in Gmail' een vinkje en bij 'Gemini-app' 'Basistoegang'.
+- `/kennisbank/gemini-voor-bedrijven` · V2.1 · **bevestigd**: Gemini voor bedrijven haalt volgens Google alleen gegevens op waartoe de gebruiker zelf toegang heeft.
+  - Bron: Google Workspace Help, Generative AI in Google Workspace Privacy Hub · https://knowledge.workspace.google.com/admin/gemini/generative-ai-in-google-workspace-privacy-hub · opgehaald 2026-10-06
+  - Fragment: Gemini only retrieves relevant content in Workspace that the user has access to in order to contextualize the prompt and ground responses. If the user doesn't have access to a document or email, Gemini will not retrieve that content.
+- `/kennisbank/microsoft-copilot-voor-bedrijven` · A1 · **bevestigd**: Microsoft Copilot is de AI-assistent van Microsoft voor werk, die taalmodellen koppelt aan apps zoals Outlook, Teams, Word, Excel en PowerPoint en aan de mail, agenda, chats, vergaderingen en documenten daarin.
+  - Bron: Microsoft Learn, Data, Privacy, and Security for Microsoft Copilot; aangevuld met Microsoft Learn, Microsoft Copilot overview (lijst in-app functies) · https://learn.microsoft.com/en-us/microsoft-365/copilot/microsoft-365-copilot-privacy · opgehaald 2026-10-06
+  - Fragment: Microsoft Copilot is a sophisticated processing and orchestration engine that provides AI-powered productivity capabilities by coordinating the following components: Large language models (LLMs) Content in Microsoft Graph, such as emails, chats, and documents that you have permission to access. The Microsoft 365 productivity apps that you use every day, such as Word and PowerPoint. [...] It can generate responses anchored in your organizational data, such as user documents, emails, calendar, chats, meetings, and contacts.
+  - Kanttekening: De apps Outlook, Teams, Word, Excel en PowerPoint staan in het overzicht (https://learn.microsoft.com/en-us/microsoft-365/copilot/microsoft-365-copilot-overview): 'Word: Draft, rewrite, and summarize documents', 'Excel: Analyze data, ...', 'PowerPoint: Create presentations ...', 'Outlook: Draft emails, summarize threads, ...', 'Teams: Summarize (up to 30 days) and transcribe meetings, ...'. De typering 'AI assistant for work' komt daar voor als 'Microsoft Copilot Chat, your AI assistant for work'.
+- `/kennisbank/microsoft-copilot-voor-bedrijven` · A2 · **bevestigd**: Omdat Copilot de bestaande toegangsrechten volgt, komen te ruim gedeelde bestanden in antwoorden naar boven en hoort het opschonen van die rechten bij de voorbereiding.
+  - Bron: Microsoft Learn, Data, Privacy, and Security for Microsoft Copilot; Microsoft Learn, Set up Microsoft Copilot and assign licenses (onderdeel 'Restrict sensitive info from Copilot') · https://learn.microsoft.com/en-us/microsoft-365/copilot/microsoft-365-copilot-privacy · opgehaald 2026-10-06
+  - Fragment: Microsoft Copilot only surfaces organizational data to which individual users have at least view permissions. It's important that you're using the permission models available in Microsoft 365 services, such as SharePoint, to help ensure the right users or groups have the right access to the right content within your organization. / Setup: To protect sensitive information during the deployment and use of Microsoft Copilot, follow these steps to identify, assess, and mitigate oversharing risks.
+  - Kanttekening: Dat te ruim gedeelde bestanden 'in antwoorden naar boven komen' zegt Microsoft niet in die woorden; het volgt uit 'only surfaces organizational data to which individual users have at least view permissions' en uit het advies om oversharing-risico's te beperken.
+- `/kennisbank/microsoft-copilot-voor-bedrijven` · V1.1 · **bevestigd**: Nee, volgens wat Microsoft toezegt in de privacydocumentatie van Microsoft Copilot (stand september 2026): prompts, antwoorden en gegevens die via Microsoft Graph worden opgehaald, worden niet gebruikt om de basismodellen te trainen.
+  - Bron: Microsoft Learn, Data, Privacy, and Security for Microsoft Copilot · https://learn.microsoft.com/en-us/microsoft-365/copilot/microsoft-365-copilot-privacy · opgehaald 2026-10-06
+  - Fragment: Prompts, responses, and data accessed through Microsoft Graph aren't used to train foundation LLMs, including those used by Microsoft Copilot.
+- `/kennisbank/microsoft-copilot-voor-bedrijven` · V2.1 · **bevestigd**: Copilot Chat is vooral een chat die antwoordt op basis van het web en van wat de gebruiker zelf aanlevert, en kan in Outlook ook met mailbox, agenda en vergaderingen werken.
+  - Bron: Microsoft Learn, Overview of Microsoft Copilot Chat · https://learn.microsoft.com/en-us/copilot/overview · opgehaald 2026-10-06
+  - Fragment: Copilot Chat is primarily web grounded. Depending on the experience, users can also provide organizational content through uploaded files, supported app context, or agents. [...] Copilot Chat in Outlook Inbox, calendar, meetings, chats, and limited related content [...] In Outlook, users can ask questions across supported content, such as emails, calendar items, meetings, chats, and a bounded set of files and related content.
+  - Kanttekening: Microsoft verbindt er een voorwaarde aan die de zin niet noemt: 'To use Copilot Chat in Outlook, users must meet the requirements for supported Outlook experiences.'
+- `/kennisbank/microsoft-copilot-voor-bedrijven` · V2.2 · **bevestigd**: Pas met de betaalde licentie werkt Microsoft Copilot breed met de eigen bedrijfsinformatie: Copilot kan dan redeneren over de volle breedte van de werkdata, zoals mail, chats, vergaderingen, documenten en sites, voor zover de gebruiker daar toegang toe heeft.
+  - Bron: Microsoft Learn, Overview of Microsoft Copilot Chat, onderdeel 'The Microsoft Copilot licensed experience' · https://learn.microsoft.com/en-us/copilot/overview · opgehaald 2026-10-06
+  - Fragment: With a paid Microsoft Copilot license, Copilot can reason across a wider set of organizational data, including: Emails Meetings Calendars Chats Documents Sites Files Other Microsoft 365 content that users have permission to access
+  - Kanttekening: Microsoft zegt 'a wider set of organizational data', niet 'de volle breedte'. Voor 'pas met de betaalde licentie': 'Without a Microsoft 365 Copilot license, in outside supported experiences such as Outlook, Copilot Chat doesn't provide the broad Microsoft 365 organizational grounding that's available through Work IQ and semantic indexing in Microsoft Copilot.'
+- `/ai-workshop/copilot-training` · A2 · **bevestigd**: Deelnemers leren goede opdrachten geven, kiezen tussen Copilot in een app en Copilot Chat, uitkomsten controleren en herkennen welke taken en gegevens niet bij Copilot horen.
+  - Bron: Microsoft Learn, Overview of Microsoft Copilot Chat; Microsoft Learn, Data, Privacy, and Security for Microsoft Copilot · https://learn.microsoft.com/en-us/copilot/overview · opgehaald 2026-10-06
+  - Fragment: Copilot Chat (Basic) indicates that a user doesn't have the Microsoft Copilot add-on license and doesn't have access to Copilot chat in Word, Excel, PowerPoint, and OneNote. / Privacy: The responses that generative AI produces aren't guaranteed to be 100% factual. While we continue to improve responses, users should still use their judgment when reviewing the output before sending them to others.
+  - Kanttekening: De zin beschrijft vooral de inhoud van de eigen training; dat is niet tegen een leveranciersbron te toetsen. Bevestigd is alleen het onderliggende leveranciersfeit: Copilot in de apps en Copilot Chat zijn bij Microsoft verschillende ervaringen, en Microsoft zegt zelf dat gebruikers de uitvoer moeten beoordelen.
+
+## Status per blok
+
+| Pagina | Status | Reden als het concept blijft |
+|---|---|---|
+| `/ai-agents` | geverifieerd |  |
+| `/ai-agents/laten-maken` | geverifieerd |  |
+| `/ai-agents/voorbeelden` | geverifieerd |  |
+| `/ai-agents/wat-is-een-ai-agent` | geverifieerd |  |
+| `/ai-automatisering` | geverifieerd |  |
+| `/ai-automatisering/ai-tools` | geverifieerd |  |
+| `/ai-automatisering/ai-workflows` | geverifieerd |  |
+| `/ai-automatisering/bedrijfsprocessen-automatiseren-met-ai` | geverifieerd |  |
+| `/ai-beleid` | concept | 2 extern feit(en), wacht op jouw oordeel |
+| `/ai-beleid/ai-act` | concept | 7 extern feit(en), wacht op jouw oordeel |
+| `/ai-consultancy` | geverifieerd |  |
+| `/ai-consultancy/ai-advies` | concept | 1 extern feit(en), wacht op jouw oordeel |
+| `/ai-consultancy/ai-roadmap` | geverifieerd |  |
+| `/ai-development` | geverifieerd |  |
+| `/ai-development/ai-oplossingen` | geverifieerd |  |
+| `/ai-development/ai-software` | geverifieerd |  |
+| `/ai-development/ai-specialist` | geverifieerd |  |
+| `/ai-implementatie` | geverifieerd |  |
+| `/ai-implementatie/advies` | concept | 1 extern feit(en), wacht op jouw oordeel |
+| `/ai-implementatie/stappenplan` | geverifieerd |  |
+| `/ai-voor-bedrijven` | concept | 2 extern feit(en), wacht op jouw oordeel |
+| `/ai-voor-bedrijven/ai-en-bi` | geverifieerd |  |
+| `/ai-voor-bedrijven/mkb` | geverifieerd |  |
+| `/ai-voor-bedrijven/zakelijke-dienstverleners` | concept | 1 extern feit(en), wacht op jouw oordeel |
+| `/ai-workshop` | geverifieerd |  |
+| `/ai-workshop/ai-coaching` | geverifieerd |  |
+| `/ai-workshop/ai-geletterdheid-training` | concept | 5 extern feit(en), wacht op jouw oordeel |
+| `/ai-workshop/chatgpt-training` | geverifieerd |  |
+| `/ai-workshop/copilot-training` | concept | 1 extern feit(en), wacht op jouw oordeel |
+| `/diensten` | geverifieerd |  |
+| `/diensten/ai-due-diligence` | geverifieerd |  |
+| `/diensten/ai-strategy-sprint` | geverifieerd |  |
+| `/diensten/executive-briefing` | geverifieerd |  |
+| `/diensten/fractional-ai-lead` | geverifieerd |  |
+| `/diensten/vendor-review` | geverifieerd |  |
+| `/inzichten/ai-adoptie-begint-bij-het-werk` | geverifieerd |  |
+| `/inzichten/ai-agents-wat-ze-wel-en-niet-kunnen` | geverifieerd |  |
+| `/inzichten/ai-governance-zonder-bureaucratie` | concept | 1 extern feit(en), wacht op jouw oordeel |
+| `/inzichten/ai-vendorselectie-in-acht-stappen` | geverifieerd |  |
+| `/inzichten/build-buy-of-partner` | geverifieerd |  |
+| `/inzichten/de-business-case-voor-ai` | geverifieerd |  |
+| `/inzichten/freelance-ai-consultant-vs-agency-vs-big4` | geverifieerd |  |
+| `/inzichten/het-datafundament-onder-ai` | geverifieerd |  |
+| `/inzichten/van-ai-strategie-naar-waarde` | geverifieerd |  |
+| `/inzichten/waarom-ai-pilots-blijven-steken` | geverifieerd |  |
+| `/inzichten/wanneer-heb-je-echt-een-ai-strateeg-nodig` | geverifieerd |  |
+| `/inzichten/welke-ai-use-cases-leveren-resultaat` | geverifieerd |  |
+| `/kennisbank/ai-agents-en-avg` | concept | 7 extern feit(en), wacht op jouw oordeel; wacht op jouw besluit over het AVG-voorstel |
+| `/kennisbank/ai-specialist-salaris` | concept | 5 extern feit(en), wacht op jouw oordeel; niet bevestigd: A1 afwijkend bij tweede lezing: Het fragment op regel 48 staat er letterlijk, maar de bron zegt dat de bronnen onderling 'duidelijk' verschillen (regel 50), niet 'flink', en 'bruikbaar als bandbreedte, niet als vast bedrag' staat nergens zo: de bron zegt alleen 'gebruik ze als orde van grootte' (regel 89, over de Indeed- en DataJobs-totaalcijfers) en 'geen gemiddelde' (regel 79). |
+| `/kennisbank/ai-voorbeelden` | geverifieerd |  |
+| `/kennisbank/chatgpt-voor-bedrijven` | concept | 6 extern feit(en), wacht op jouw oordeel |
+| `/kennisbank/claude-voor-bedrijven` | concept | 8 extern feit(en), wacht op jouw oordeel |
+| `/kennisbank/gemini-voor-bedrijven` | concept | 5 extern feit(en), wacht op jouw oordeel |
+| `/kennisbank/microsoft-copilot-voor-bedrijven` | concept | 5 extern feit(en), wacht op jouw oordeel |
+| `/kennisbank/notuleren-met-ai` | concept | 1 extern feit(en), wacht op jouw oordeel |
+| `/kennisbank/prompt-engineering` | geverifieerd |  |
+| `/kennisbank/rpa-vs-ai-automatisering` | geverifieerd |  |
+| `/kennisbank/wat-doet-een-ai-consultant` | geverifieerd |  |
+| `/kennisbank/wat-doet-een-ai-developer` | geverifieerd |  |
+| `/kennisbank/wat-doet-een-bi-specialist` | geverifieerd |  |
+| `/markten` | concept | 1 extern feit(en), wacht op jouw oordeel |
+| `/markten/automotive` | geverifieerd |  |
+| `/markten/fintech` | concept | 3 extern feit(en), wacht op jouw oordeel |
+| `/partnernetwerk` | geverifieerd |  |
+| `/tarieven` | geverifieerd |  |
+
+---
+
+# Derde ronde (ter referentie)
+
+Stand: 6 oktober 2026 · branch `rag-blokken-fase-0` · er is niets nieuws geplaatst
+
+
 
 ## Eindstand
 

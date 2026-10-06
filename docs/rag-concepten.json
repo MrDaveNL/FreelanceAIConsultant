@@ -842,7 +842,7 @@
       "tekst": "artikel van {{afzender}}"
     },
     "herkomst": "Antwoord: lede, summary, de criterialijst en de keuzeboom onder 'Hoe kies je een AI tool?' en de slotalinea onder 'Vergelijkingstabel'. Vervolgvraag 1: de kanttekening onder 'Hoe kies je een AI tool?'. Vervolgvraag 2: slotalinea onder 'Nieuwe AI tools om te volgen' en de slotalinea onder 'Vergelijkingstabel'.",
-    "status": "concept",
+    "status": "geverifieerd",
     "wijzigingen": [
       "Vervolgvraag 1: inhoud ongewijzigd; 'onvoorwaardelijk' gezet omdat de bron zonder voorbehoud zegt dat niemand voor een vermelding betaalt.",
       "Vervolgvraag 2: vraag omgebouwd en kaal 'Nee.' geschrapt; 'geldt dat' vervangen door 'Het advies bij elke nieuwe AI-tool is', omdat de bron dit als advies brengt en niet als algemene regel. De tweede zin kreeg de voorwaarde van de bron (een keuze die meer dan een paar licenties raakt).",
@@ -858,13 +858,6 @@
         "laag": "aanwijzing",
         "zin": "Organisaties die in Microsoft 365 of Google Workspace werken, beginnen bij Copilot of Gemini, en voor bedrijfs- of persoonsgegevens komt alleen een zakelijk abonnement met verwerkersovereenkomst in aanmerking.",
         "reden": "voorgelegd en op aanwijzing geschrapt (feit over een tool of partij van derden op een pagina die daar niet over gaat)"
-      }
-    ],
-    "externeFeiten": [
-      {
-        "zin": "Organisaties die in Microsoft 365 of Google Workspace werken, beginnen bij Copilot of Gemini, en voor bedrijfs- of persoonsgegevens komt alleen een zakelijk abonnement met verwerkersovereenkomst in aanmerking.",
-        "soort": "toolprijs",
-        "primaireBron": "niet gecontroleerd: valt buiten wetgeving, salarissen en marktcijfers"
       }
     ],
     "verificatie": {
@@ -897,29 +890,12 @@
       "tekst": "artikel van {{afzender}}; primaire bron: Verordening (EU) 2024/1689 (AI Act), EUR-Lex (peildatum 6 oktober 2026)"
     },
     "herkomst": "Antwoord: lede, summary, de inleiding onder 'AI voorbeelden per afdeling' en de keuzematrix onder 'Hoe kies je de juiste toepassing?'. Vervolgvraag 1: inleiding 'AI voorbeelden per afdeling' en 'AI voorbeelden in het dagelijks leven'. Vervolgvraag 2: voorbeelden 14, 17 en 19 en de slotalinea onder 'AI voorbeelden per sector'. Vervolgvraag 3: slotalinea.",
-    "status": "concept",
+    "status": "geverifieerd",
     "wijzigingen": [
       "Antwoord: 'zijn meestal klein' werd 'De meeste ... zijn klein' (woorden van de summary); 'een eerste versie schrijven' werd 'maken' en 'beoordeelt ... voordat die gevolgen heeft' werd 'controleert ... voordat die ertoe doet', zoals de bron.",
       "Vervolgvraag 1 (V1.3 en bevinding): 'Alleen' geschrapt; de bron zegt niet dat dit de enige voorbeelden met een leveranciersbeschrijving zijn. Vraag omgebouwd tot een open vraag, omdat 'succesverhalen van bestaande bedrijven' niet in de bron staat; kaal 'Nee.' weg.",
       "Vervolgvraag 2: ja-neevraag met kaal 'Ja.' vervangen door een open vraag met de voorwaarde van de bron ('Zodra een toepassing zelf een besluit ... neemt'); 'de eigen sectorregels' en 'leerresultaten of toelating' in de woorden van de bron.",
       "Vervolgvraag 3: kaal 'Ja.' weg; de bron zegt alleen wat het assessment oplevert, niet dat het uitzoekt welke voorbeelden het meeste opleveren. Vraag en antwoord daarop aangepast ('geeft' in plaats van 'levert op')."
-    ],
-    "externeFeiten": [
-      {
-        "zin": "Zodra een toepassing zelf een besluit over een persoon neemt of een professioneel oordeel vervangt, gelden bij AI voorbeelden zwaardere eisen vanuit de AVG, de AI Act en de eigen sectorregels.",
-        "soort": "wetgeving",
-        "primaireBron": "niet te vinden"
-      },
-      {
-        "zin": "AI die sollicitaties filtert of kandidaten beoordeelt, staat in de AI Act op de lijst van hoog-risicotoepassingen; ook AI die de kredietwaardigheid van personen beoordeelt en het beoordelen van leerresultaten of toelating met AI vallen onder de hoog-risicotoepassingen van de AI Act.",
-        "soort": "wetgeving",
-        "primaireBron": "bevestigd"
-      },
-      {
-        "zin": "Bij de drie voorbeelden uit het dagelijks leven, over spamfilters, reistijd voorspellen en vertalen, heeft de leverancier zelf beschreven hoe AI wordt ingezet.",
-        "soort": "overig extern",
-        "primaireBron": "niet gecontroleerd: valt buiten wetgeving, salarissen en marktcijfers"
-      }
     ],
     "verificatie": {
       "datum": "2026-10-06",
@@ -1068,7 +1044,7 @@
       "href": "/tarieven"
     },
     "herkomst": "Antwoord: 'Wat kosten AI agents?' met 'Factoren die de kosten bepalen', summary en de alinea over de Vendor Review; prijsvoorwaarde uit prijzen.ts. Vervolgvraag 1: 'Kosten voor beheer en optimalisatie'. Vervolgvraag 2: 'Ontwikkeling versus bestaande oplossingen'. Vervolgvraag 3: slotalinea onder 'AI agents voor het MKB'.",
-    "status": "concept",
+    "status": "geverifieerd",
     "wijzigingen": [
       "Antwoord: doorlooptijd van de Vendor Review geschrapt (staat niet op de pagina) en uitgetypte prijsvoorwaarde vervangen door het token {{voorwaarden}}; 'kan met' werd 'past' zoals op de pagina.",
       "Vervolgvraag 1: 'Een volledige offerte bevat ...' omgebouwd naar het advies van de pagina om altijd een meerjarige inschatting te vragen; onvoorwaardelijk gemarkeerd (pagina: zo'n offerte is onvolledig).",
@@ -1107,18 +1083,11 @@
       "tekst": "artikel van {{afzender}}"
     },
     "herkomst": "Antwoord: 'Wat is een AI agent?', de tabel onder 'AI agent versus chatbot' en 'Naar zelfstandigheid' onder 'Soorten AI agents'. Vervolgvraag 1: derde alinea onder 'Wat is een AI agent?'. Vervolgvraag 2: slotalinea onder 'Hoe werkt een AI agent?'. Vervolgvraag 3: 'Naar opbouw' onder 'Soorten AI agents'.",
-    "status": "concept",
+    "status": "geverifieerd",
     "wijzigingen": [
       "Vervolgvraag 1: kaal 'Ja.' vervangen door het voorbehoud van de bron ('De meeste agents die je nu tegenkomt'); 'meestal' uit de vraag gehaald, het voorbehoud staat nu in het antwoord.",
       "Vervolgvraag 2: vraag 'altijd te zien aan het eindresultaat?' met kaal 'Nee.' omgebouwd naar de 'kan'-uitspraak van de bron; antwoord begint met 'Ja, dat kan'.",
       "Vervolgvraag 3: vraag 'Hoeveel vormen' (veronderstelt een vast aantal) omgebouwd naar 'Welke vormen'; antwoord begint met het 'grofweg drie vormen' van de bron."
-    ],
-    "externeFeiten": [
-      {
-        "zin": "De meeste wel: de meeste AI agents van nu draaien op een groot taalmodel, dat de opdracht begrijpt en over de volgende stap redeneert.",
-        "soort": "overig extern",
-        "primaireBron": "niet gecontroleerd: valt buiten wetgeving, salarissen en marktcijfers"
-      }
     ],
     "verificatie": {
       "datum": "2026-10-06",
@@ -1462,21 +1431,6 @@
         "zin": "Ja, bij een verwerking met een hoog risico is een DPIA bij AI voor zakelijke dienstverleners verplicht onder de AVG.",
         "soort": "wetgeving",
         "primaireBron": "bevestigd"
-      },
-      {
-        "zin": "Voor AI voor zakelijke dienstverleners in de accountancy publiceerden de beroepsorganisaties NBA en NOREA in juni 2026 'Leidraad 2: AI Toegepast', en de Nederlandse orde van advocaten heeft aanbevelingen voor AI in de advocatuur gepubliceerd.",
-        "soort": "overig extern",
-        "primaireBron": "niet gecontroleerd: valt buiten wetgeving, salarissen en marktcijfers"
-      },
-      {
-        "zin": "De kern van de leidraad is dat validatie en menselijk oordeel de basis blijven.",
-        "soort": "overig extern",
-        "primaireBron": "niet gecontroleerd: valt buiten wetgeving, salarissen en marktcijfers"
-      },
-      {
-        "zin": "In de advocatuur blijft de advocaat altijd zelf verantwoordelijk voor het uiteindelijke advies.",
-        "soort": "overig extern",
-        "primaireBron": "niet gecontroleerd: valt buiten wetgeving, salarissen en marktcijfers"
       }
     ],
     "verificatie": {
@@ -1527,24 +1481,12 @@
       "tekst": "artikel van {{afzender}}"
     },
     "herkomst": "Antwoord: tabel en alinea's onder 'Het verschil tussen AI en BI' plus de summary. Vervolgvraag 1 en 2: schema en Copilot-alinea onder 'Hoe AI business intelligence versterkt'. Vervolgvraag 3: rij 'Zekerheid' en de alinea direct onder de tabel.",
-    "status": "concept",
+    "status": "geverifieerd",
     "wijzigingen": [
       "Antwoord: 'vooral' toegevoegd bij gestructureerde data (tabel: 'Vooral gestructureerd'); 'een logische opstap naar AI op bedrijfscijfers' vervangen door het 'vaak het beste startpunt voor AI' van de bron.",
       "Vervolgvraag 1: vraag versmald van 'om AI en BI te combineren met Copilot in Power BI' naar 'voor Copilot in Power BI' (bevinding: de bron koppelt alleen Copilot aan een licentie); kaal 'Nee.' vervangen door 'Nee, volgens Microsoft Learn niet (stand september 2026)'; tweede zin krijgt de toeschrijving aan Microsoft uit de bron.",
       "Vervolgvraag 2: 'samenwerken' in de vraag vervangen door de bronformulering (AI gebruiken voor business intelligence); 'van eenvoudig naar ingrijpend' uit de bron toegevoegd.",
       "Vervolgvraag 3: kaal 'Nee.' vervangen door een antwoord met het voorbehoud 'mits de data klopt' uit de tabel; 'geeft een inschatting' naar 'inschat' (bronwoord)."
-    ],
-    "externeFeiten": [
-      {
-        "zin": "Nee, volgens Microsoft Learn niet (stand september 2026): Copilot in Power BI, een voorbeeld van AI en BI, vraagt een betaalde Fabric- of Premium-capaciteit en een Pro-licentie alleen is niet genoeg.",
-        "soort": "toolprijs",
-        "primaireBron": "niet gecontroleerd: valt buiten wetgeving, salarissen en marktcijfers"
-      },
-      {
-        "zin": "Zonder voorbereiding van het datamodel kan Copilot volgens Microsoft bovendien de data verkeerd interpreteren.",
-        "soort": "toolprijs",
-        "primaireBron": "niet gecontroleerd: valt buiten wetgeving, salarissen en marktcijfers"
-      }
     ],
     "verificatie": {
       "datum": "2026-10-06",
@@ -1594,18 +1536,11 @@
       "tekst": "artikel van {{afzender}}"
     },
     "herkomst": "Antwoord: 'Wat is een BI specialist?', het schema onder 'Taken en vaardigheden' en de tabel onder 'BI specialist versus AI specialist'. Vervolgvraag 1: 'Hoe AI de rol verandert' en de summary. Vervolgvraag 2: alinea 'In de praktijk heb je ze vaak allebei nodig'. Vervolgvraag 3: tweede alinea onder 'Wat is een BI specialist?'.",
-    "status": "concept",
+    "status": "geverifieerd",
     "wijzigingen": [
       "Vervolgvraag 1: de bron zegt nergens dat AI de BI specialist niet overbodig maakt; vraag omgebouwd naar 'Hoe verandert AI het werk van een BI specialist?' en kaal 'Nee' geschrapt. Berekeningen en queries staan nu als hulp van AI-functies die de BI specialist controleert en verbetert, niet als overname.",
       "Vervolgvraag 2: 'meestal' uit de vraag gehaald, kaal 'Ja' vervangen door het voorbehoud 'vaak allebei nodig'; 'typisch' teruggezet bij 'het werk van een BI specialist'.",
       "Vervolgvraag 3: kaal 'Nee' op een vraag met 'altijd' vervangen door een open vraag; het voorbehoud 'in de praktijk' uit de bron staat in de eerste zin."
-    ],
-    "externeFeiten": [
-      {
-        "zin": "AI-functies in BI-platforms helpen bij het schrijven van berekeningen en queries, en de BI specialist controleert en verbetert.",
-        "soort": "toolprijs",
-        "primaireBron": "niet gecontroleerd: valt buiten wetgeving, salarissen en marktcijfers"
-      }
     ],
     "verificatie": {
       "datum": "2026-10-06",
@@ -2164,29 +2099,12 @@
       "tekst": "artikel van {{afzender}}; primaire bron: Verordening (EU) 2024/1689 (AI Act), EUR-Lex; Europese Commissie, \"AI Act\" (regulatory framework AI); Verordening (EU) 2026/1744 (Digitale omnibus inzake AI), EUR-Lex (peildatum 6 oktober 2026)"
     },
     "herkomst": "Antwoord: summary en de alinea 'Zo begin je'. Vervolgvraag 1: 'Welke regels gelden er?'. Vervolgvraag 2 en 3: 'AI assistenten'.",
-    "status": "concept",
+    "status": "geverifieerd",
     "wijzigingen": [
       "Antwoord: eerste zin was stelliger dan de bron ('draait om'); nu 'de meeste winst zit in verkoopopvolging, werkplaats en klantcontact', zoals de summary. Derde zin: 'kan starten met' werd 'is een logisch startpunt', zoals de bron.",
       "Vervolgvraag 1: onvoorwaardelijk: true gezet (bron: 'Die toepassingen staan op de hoog-risicolijst van de AI Act'); 'van particulieren' in de vraag en 'volgens de Europese Commissie' bij de datum toegevoegd. Laatste zin: 'De meeste andere dealertoepassingen ... zijn geen hoog risico' was niet letterlijk gedekt en is vervangen door wat de bron zegt over een chatbot of tekstgenerator.",
       "Vervolgvraag 2: kaal 'Ja.' weg; de bron zegt dat het 'bijvoorbeeld' met een Vendor Review kan en doet dat in de context van assistenten. Vraag omgebouwd tot open vraag, voorbehoud 'bijvoorbeeld' vastgelegd.",
       "Vervolgvraag 3: kaal 'Nee.' weg; de bron zegt 'werken goed voor voorspelbare vragen, niet voor klachten of onderhandelingen'. Vraag omgebouwd; de onderhoudsafspraak staat nu als voorbeeld van wat de assistent doet (zoals de bron) en niet als voorbeeld van een voorspelbare vraag."
-    ],
-    "externeFeiten": [
-      {
-        "zin": "Ja.",
-        "soort": "wetgeving",
-        "primaireBron": "bevestigd"
-      },
-      {
-        "zin": "AI voor het selecteren van sollicitanten en voor het beoordelen van de kredietwaardigheid van particulieren staat op de hoog-risicolijst van de AI Act, met eisen die door de Digital Omnibus volgens de Europese Commissie vanaf 2 december 2027 gelden.",
-        "soort": "wetgeving",
-        "primaireBron": "bevestigd"
-      },
-      {
-        "zin": "Een chatbot of een tekstgenerator is bij AI in automotive geen hoog-risicotoepassing.",
-        "soort": "wetgeving",
-        "primaireBron": "niet te vinden"
-      }
     ],
     "verificatie": {
       "datum": "2026-10-06",
@@ -2547,32 +2465,32 @@
       {
         "zin": "Voor bedrijfsdata horen de abonnementen Business of Enterprise en geen persoonlijke accounts: bij beide blijft training op invoer en uitvoer volgens OpenAI standaard uit (stand september 2026).",
         "soort": "toolprijs",
-        "primaireBron": "niet gecontroleerd: valt buiten wetgeving, salarissen en marktcijfers"
+        "primaireBron": "bevestigd (documentatie van de leverancier, opgehaald 6 oktober 2026)"
       },
       {
         "zin": "ChatGPT kan zelfverzekerd een fout antwoord geven, dus voor alles wat naar een klant, toezichthouder of directie gaat blijft een mens verantwoordelijk voor de controle.",
         "soort": "toolprijs",
-        "primaireBron": "niet gecontroleerd: valt buiten wetgeving, salarissen en marktcijfers"
+        "primaireBron": "bevestigd (documentatie van de leverancier, opgehaald 6 oktober 2026)"
       },
       {
         "zin": "ChatGPT Enterprise, voor nieuwe werkruimtes (EER en Zwitserland); bij ChatGPT Business is er geen Europese dataopslag (stand september 2026).",
         "soort": "toolprijs",
-        "primaireBron": "niet gecontroleerd: valt buiten wetgeving, salarissen en marktcijfers"
+        "primaireBron": "bevestigd (documentatie van de leverancier, opgehaald 6 oktober 2026)"
       },
       {
         "zin": "Bij ChatGPT voor bedrijven vallen gegevens die via koppelingen of webzoekopdrachten naar externe diensten gaan daar volgens OpenAI niet onder.",
         "soort": "toolprijs",
-        "primaireBron": "niet gecontroleerd: valt buiten wetgeving, salarissen en marktcijfers"
+        "primaireBron": "bevestigd (documentatie van de leverancier, opgehaald 6 oktober 2026)"
       },
       {
         "zin": "Bij de persoonlijke abonnementen kan OpenAI gesprekken gebruiken om modellen te verbeteren tenzij de gebruiker dat zelf uitzet, en de organisatie heeft geen zicht of zeggenschap over klantgegevens die een medewerker in een persoonlijk account zet.",
         "soort": "toolprijs",
-        "primaireBron": "niet gecontroleerd: valt buiten wetgeving, salarissen en marktcijfers"
+        "primaireBron": "niet te vinden (documentatie van de leverancier, opgehaald 6 oktober 2026)"
       },
       {
         "zin": "Voor Business en Enterprise is bovendien een verwerkersovereenkomst met OpenAI af te sluiten.",
         "soort": "toolprijs",
-        "primaireBron": "niet gecontroleerd: valt buiten wetgeving, salarissen en marktcijfers"
+        "primaireBron": "bevestigd (documentatie van de leverancier, opgehaald 6 oktober 2026)"
       }
     ],
     "verificatie": {
@@ -2641,42 +2559,42 @@
       {
         "zin": "Claude voor bedrijven is de AI-assistent van Anthropic in een zakelijk abonnement: Team voor 2 tot 150 gebruikers, of Enterprise met daarnaast onder meer SCIM, rolgebaseerde toegang en auditlogs.",
         "soort": "toolprijs",
-        "primaireBron": "niet gecontroleerd: valt buiten wetgeving, salarissen en marktcijfers"
+        "primaireBron": "bevestigd (documentatie van de leverancier, opgehaald 6 oktober 2026)"
       },
       {
         "zin": "Alleen de zakelijke abonnementen zijn geschikt voor gebruik met bedrijfsgegevens; bij Team en Enterprise traint Anthropic standaard niet op de content, en de data wordt volgens Anthropic in de VS opgeslagen (stand september 2026).",
         "soort": "toolprijs",
-        "primaireBron": "niet gecontroleerd: valt buiten wetgeving, salarissen en marktcijfers"
+        "primaireBron": "bevestigd (documentatie van de leverancier, opgehaald 6 oktober 2026)"
       },
       {
         "zin": "Op dit moment kan Europese dataopslag bij Claude voor bedrijven alleen via de cloudplatforms, niet in de app (stand september 2026).",
         "soort": "toolprijs",
-        "primaireBron": "niet gecontroleerd: valt buiten wetgeving, salarissen en marktcijfers"
+        "primaireBron": "bevestigd (documentatie van de leverancier, opgehaald 6 oktober 2026)"
       },
       {
         "zin": "In de zakelijke abonnementen wordt de data volgens Anthropic opgeslagen in de VS.",
         "soort": "toolprijs",
-        "primaireBron": "niet gecontroleerd: valt buiten wetgeving, salarissen en marktcijfers"
+        "primaireBron": "bevestigd (documentatie van de leverancier, opgehaald 6 oktober 2026)"
       },
       {
         "zin": "Voor Europese dataopslag en verwerking wijst Anthropic naar de regionale endpoints van AWS Bedrock en Google Vertex, een route voor eigen toepassingen via de API en niet voor de claude.ai-app.",
         "soort": "toolprijs",
-        "primaireBron": "niet gecontroleerd: valt buiten wetgeving, salarissen en marktcijfers"
+        "primaireBron": "bevestigd (documentatie van de leverancier, opgehaald 6 oktober 2026)"
       },
       {
         "zin": "Nee.",
         "soort": "toolprijs",
-        "primaireBron": "niet gecontroleerd: valt buiten wetgeving, salarissen en marktcijfers"
+        "primaireBron": "niet te vinden (documentatie van de leverancier, opgehaald 6 oktober 2026)"
       },
       {
         "zin": "Pro en Max zijn persoonlijke abonnementen waarbij modeltraining op gesprekken aan staat tot de gebruiker het zelf uitzet, en centraal beheer ontbreekt.",
         "soort": "toolprijs",
-        "primaireBron": "niet gecontroleerd: valt buiten wetgeving, salarissen en marktcijfers"
+        "primaireBron": "bevestigd (documentatie van de leverancier, opgehaald 6 oktober 2026)"
       },
       {
         "zin": "Voor Claude voor bedrijven met bedrijfsgegevens zijn alleen Team en Enterprise geschikt (stand september 2026).",
         "soort": "toolprijs",
-        "primaireBron": "niet gecontroleerd: valt buiten wetgeving, salarissen en marktcijfers"
+        "primaireBron": "niet te vinden (documentatie van de leverancier, opgehaald 6 oktober 2026)"
       }
     ],
     "verificatie": {
@@ -2733,27 +2651,27 @@
       {
         "zin": "Gemini voor bedrijven is de generatieve AI van Google, die sinds januari 2025 zonder aparte AI-licentie in de Business- en Enterprise-edities van Google Workspace zit; welke functies beschikbaar zijn, verschilt per editie.",
         "soort": "toolprijs",
-        "primaireBron": "niet gecontroleerd: valt buiten wetgeving, salarissen en marktcijfers"
+        "primaireBron": "bevestigd (documentatie van de leverancier, opgehaald 6 oktober 2026)"
       },
       {
         "zin": "Bij organisaties die al met Google Workspace werken, zit Gemini waarschijnlijk al in het abonnement, zodat de vraag minder is of het wordt gekocht en meer hoe het wordt ingezet en welke afspraken over data gelden.",
         "soort": "toolprijs",
-        "primaireBron": "niet gecontroleerd: valt buiten wetgeving, salarissen en marktcijfers"
+        "primaireBron": "bevestigd (documentatie van de leverancier, opgehaald 6 oktober 2026)"
       },
       {
         "zin": "Volgens Google dient klantdata uit Workspace zonder toestemming of instructie van de klant niet als trainingsmateriaal voor modellen (stand september 2026).",
         "soort": "toolprijs",
-        "primaireBron": "niet gecontroleerd: valt buiten wetgeving, salarissen en marktcijfers"
+        "primaireBron": "bevestigd (documentatie van de leverancier, opgehaald 6 oktober 2026)"
       },
       {
         "zin": "In Business Starter zit Gemini voor bedrijven volgens Google niet in Docs en Sheets, wel in Gmail en in de Gemini-app (stand september 2026).",
         "soort": "toolprijs",
-        "primaireBron": "niet gecontroleerd: valt buiten wetgeving, salarissen en marktcijfers"
+        "primaireBron": "bevestigd (documentatie van de leverancier, opgehaald 6 oktober 2026)"
       },
       {
         "zin": "Gemini voor bedrijven haalt volgens Google alleen gegevens op waartoe de gebruiker zelf toegang heeft.",
         "soort": "toolprijs",
-        "primaireBron": "niet gecontroleerd: valt buiten wetgeving, salarissen en marktcijfers"
+        "primaireBron": "bevestigd (documentatie van de leverancier, opgehaald 6 oktober 2026)"
       }
     ],
     "verificatie": {
@@ -2814,27 +2732,27 @@
       {
         "zin": "Microsoft Copilot is de AI-assistent van Microsoft voor werk, die taalmodellen koppelt aan apps zoals Outlook, Teams, Word, Excel en PowerPoint en aan de mail, agenda, chats, vergaderingen en documenten daarin.",
         "soort": "toolprijs",
-        "primaireBron": "niet gecontroleerd: valt buiten wetgeving, salarissen en marktcijfers"
+        "primaireBron": "bevestigd (documentatie van de leverancier, opgehaald 6 oktober 2026)"
       },
       {
         "zin": "Omdat Copilot de bestaande toegangsrechten volgt, komen te ruim gedeelde bestanden in antwoorden naar boven en hoort het opschonen van die rechten bij de voorbereiding.",
         "soort": "toolprijs",
-        "primaireBron": "niet gecontroleerd: valt buiten wetgeving, salarissen en marktcijfers"
+        "primaireBron": "bevestigd (documentatie van de leverancier, opgehaald 6 oktober 2026)"
       },
       {
         "zin": "Nee, volgens wat Microsoft toezegt in de privacydocumentatie van Microsoft Copilot (stand september 2026): prompts, antwoorden en gegevens die via Microsoft Graph worden opgehaald, worden niet gebruikt om de basismodellen te trainen.",
         "soort": "toolprijs",
-        "primaireBron": "niet gecontroleerd: valt buiten wetgeving, salarissen en marktcijfers"
+        "primaireBron": "bevestigd (documentatie van de leverancier, opgehaald 6 oktober 2026)"
       },
       {
         "zin": "Copilot Chat is vooral een chat die antwoordt op basis van het web en van wat de gebruiker zelf aanlevert, en kan in Outlook ook met mailbox, agenda en vergaderingen werken.",
         "soort": "toolprijs",
-        "primaireBron": "niet gecontroleerd: valt buiten wetgeving, salarissen en marktcijfers"
+        "primaireBron": "bevestigd (documentatie van de leverancier, opgehaald 6 oktober 2026)"
       },
       {
         "zin": "Pas met de betaalde licentie werkt Microsoft Copilot breed met de eigen bedrijfsinformatie: Copilot kan dan redeneren over de volle breedte van de werkdata, zoals mail, chats, vergaderingen, documenten en sites, voor zover de gebruiker daar toegang toe heeft.",
         "soort": "toolprijs",
-        "primaireBron": "niet gecontroleerd: valt buiten wetgeving, salarissen en marktcijfers"
+        "primaireBron": "bevestigd (documentatie van de leverancier, opgehaald 6 oktober 2026)"
       }
     ],
     "verificatie": {
@@ -2885,7 +2803,7 @@
       "tekst": "artikel van {{afzender}}"
     },
     "herkomst": "Antwoord: eerste alinea onder 'Wat is prompt engineering?', de lede en de summary. Vervolgvraag 1: tweede alinea onder 'Wat is prompt engineering?'. Vervolgvraag 2: 'Zoeken naar de magische formule' onder 'Veelgemaakte fouten'.",
-    "status": "concept",
+    "status": "geverifieerd",
     "wijzigingen": [
       "A2: de zelf samengestelde opsomming van 'gewoontes' geschrapt (de bron benoemt ze niet); vervangen door de omschrijving uit de lede voor de meeste zakelijke gebruikers.",
       "A3: 'vraagt altijd controle' omgebouwd tot het advies van de bron, in haar woorden (overtuigend klinken en toch fout zitten); de verwijzing naar de gewoontes is hier weg.",
@@ -2908,18 +2826,6 @@
         "laag": "aanwijzing",
         "zin": "Anthropic benadrukt dat eerst moet vaststaan wat een goed resultaat is en hoe dat wordt getoetst, voordat aan de prompt wordt geschaafd.",
         "reden": "voorgelegd en op aanwijzing geschrapt (feit over een tool of partij van derden op een pagina die daar niet over gaat) De hele vervolgvraag \"Helpen zogenoemde ultieme prompts bij prompt engineering?\" vervalt."
-      }
-    ],
-    "externeFeiten": [
-      {
-        "zin": "Ultieme prompts helpen soms, maar de leveranciers van de assistenten leggen bij prompt engineering zelf de nadruk op iets saaiers: helder formuleren, context geven, voorbeelden tonen en testen.",
-        "soort": "overig extern",
-        "primaireBron": "niet gecontroleerd: valt buiten wetgeving, salarissen en marktcijfers"
-      },
-      {
-        "zin": "Anthropic benadrukt dat eerst moet vaststaan wat een goed resultaat is en hoe dat wordt getoetst, voordat aan de prompt wordt geschaafd.",
-        "soort": "overig extern",
-        "primaireBron": "niet gecontroleerd: valt buiten wetgeving, salarissen en marktcijfers"
       }
     ],
     "verificatie": {
@@ -3014,7 +2920,7 @@
       {
         "zin": "Deelnemers leren goede opdrachten geven, kiezen tussen Copilot in een app en Copilot Chat, uitkomsten controleren en herkennen welke taken en gegevens niet bij Copilot horen.",
         "soort": "overig extern",
-        "primaireBron": "niet gecontroleerd: valt buiten wetgeving, salarissen en marktcijfers"
+        "primaireBron": "bevestigd (documentatie van de leverancier, opgehaald 6 oktober 2026)"
       }
     ],
     "verificatie": {
@@ -3445,19 +3351,12 @@
       "tekst": "artikel van {{afzender}}"
     },
     "herkomst": "Antwoord: summary, 'De kostenkant: waar het meestal misgaat', 'Werk met bandbreedtes, niet met puntschattingen' en 'Spreek af wat je over een jaar meet'. Vervolgvraag 1: '1. Kostenreductie'. Vervolgvraag 2: takeaway 'Verbruikskosten schalen mee' en 'Verbruikskosten die meeschalen'. Vervolgvraag 3: 'Verandering en opleiding'.",
-    "status": "concept",
+    "status": "geverifieerd",
     "wijzigingen": [
       "Antwoord zin 1: 'houdt stand als' (belooft een uitkomst die de bron niet garandeert) omgebouwd naar wat er volgens de bron in de business case hoort.",
       "Vervolgvraag 1: bron is onvoorwaardelijk ('Wat niet telt'), onvoorwaardelijk: true gezet.",
       "Vervolgvraag 2: vraag aangescherpt naar 'variabele kosten' (takeaway van de bron); de rekenregel staat nu als advies van het artikel in plaats van als feit; het scenario 'dubbel volume' geschrapt omdat de bron zichzelf tegenspreekt (lopende tekst: dubbel volume, takeaway: tien keer volume); 'waardoor de verbruikskosten meeschalen' geschrapt als eigen gevolgtrekking.",
       "Vervolgvraag 3: de vraag veronderstelde dat een business case met de dip rekening houdt; omgebouwd naar de duur van de dip met het voorbehoud 'doorgaans', en het opnemen van de dip als advies van het artikel verwoord; 'na de invoering' geschrapt."
-    ],
-    "externeFeiten": [
-      {
-        "zin": "Doorgaans vier tot acht weken.",
-        "soort": "overig extern",
-        "primaireBron": "niet gecontroleerd: valt buiten wetgeving, salarissen en marktcijfers"
-      }
     ],
     "verificatie": {
       "datum": "2026-10-06",
