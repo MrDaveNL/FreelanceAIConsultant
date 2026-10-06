@@ -80,7 +80,7 @@ Pagina: Executive Briefing
 - **Bloktype:** dienst
 - **Plek:** eigen vraagkop, na de hero en vóór de eerste bestaande H2 ("Waarom dit nodig is").
 - **Vraagkop:** Wat levert een Executive Briefing op en wat kost die?
-- **Antwoordalinea:** De Executive Briefing van Dave Willemstein geeft een directie, RvC of RvT een gedeeld en realistisch beeld van wat AI voor de organisatie betekent. Deelnemers krijgen een beslisagenda, een vragenlijst voor toezicht en een beknopte samenvatting. De sessie beslaat 1 dagdeel incl. voorbereiding en kost €2.800, exclusief btw en reiskosten.
+- **Antwoordalinea:** De Executive Briefing van Dave Willemstein geeft een directie, RvC of RvT een gedeeld en realistisch beeld van wat AI voor de organisatie betekent. Deelnemers krijgen een beslisagenda, een vragenlijst voor toezicht en een beknopte samenvatting. De Executive Briefing is een sessie van drie uur, samen met de voorbereiding één dagdeel, en kost €2.800, exclusief btw en reiskosten.
 - **Vervolgvragen:**
   1. *Wanneer wordt de prijs van de Executive Briefing verrekend?* De Executive Briefing wordt volledig verrekend als binnen 60 dagen een [AI Readiness Assessment](/diensten/ai-readiness-assessment) start.
   2. *Past de Executive Briefing bij wie een inspirerende keynote zoekt?* Minder geschikt: de Executive Briefing is minder geschikt als een organisatie een inspirerende keynote zoekt. De Executive Briefing is een compacte sessie voor directie of board over de kansen en risico's van AI en over wat het van bestuurders vraagt.
@@ -130,7 +130,6 @@ Pagina: Diensten die AI-beslissingen helder maken.
 - **Antwoordalinea:** Dave Willemstein biedt AI-adviesdiensten van het [AI Readiness Assessment](/diensten/ai-readiness-assessment) tot de [Fractional AI Lead](/diensten/fractional-ai-lead), elk met een vaste prijs of een duidelijke bandbreedte. Van de hoofddiensten heeft het AI Readiness Assessment als doel inzicht en prioriteiten te bepalen, de [AI Strategy Sprint](/diensten/ai-strategy-sprint) strategie en roadmap vast te leggen en de Fractional AI Lead uitvoering en borging te realiseren. De bedragen zijn exclusief btw en reiskosten.
 - **Vervolgvragen:**
   1. *Is de kennismaking voor een AI-dienst kosteloos?* Ja. Elke AI-dienst begint met een kennismaking van dertig minuten zonder kosten, gevolgd door een voorstel binnen drie werkdagen.
-  2. *Staat het exacte bedrag van een AI-dienst vooraf vast?* Ja. Elke AI-dienst heeft een vaste prijs of een duidelijke bandbreedte; waar een bandbreedte geldt, legt het voorstel na de kennismaking het exacte bedrag vast, voordat de opdracht start.
 - **Bronregel:** Bron: [tarieven en doorlooptijden van Dave Willemstein](/tarieven).
 - **Herkomst:** Antwoord: de intro van de pagina (vaste prijs of duidelijke bandbreedte), de paginabeschrijving (van AI Readiness Assessment tot Fractional AI Lead), de rij 'Doel' van de vergelijking 'Welke past wanneer?' (serviceComparison in services.js) en de notitie onder de vergelijking. Vervolgvragen: 'Hoe een opdracht begint', de intro en de notitie onder de vergelijking.
 
@@ -201,7 +200,7 @@ Pagina: AI beleid en governance voor organisaties
   1. *Wat heeft een mkb-bedrijf nodig aan AI beleid?* Een mkb-bedrijf hoeft geen AI beleid van twintig pagina's te hebben; wat wel nodig is, is een AI-beleid dat iedereen in tien minuten kan lezen en dat antwoord geeft op de vragen die medewerkers echt hebben. Het stappenplan loopt van inventariseren wat er al gebruikt wordt tot evalueren na drie maanden, met als stap het schrijven van de eerste versie op één tot drie pagina's. Het [AI-beleid template (pdf)](/downloads/ai-beleid-template.pdf) heeft in te vullen velden, tabellen voor tools en gegevenscategorieën en een checklist om af te ronden.
   2. *Is voor AI-geletterdheid onder de AI Act een certificaat nodig?* Nee, volgens de Europese Commissie is een certificaat niet nodig: een organisatie kan intern bijhouden welke trainingen en andere initiatieven zijn ingezet. De plicht rond AI-geletterdheid geldt sinds 2 februari 2025 en is met de Digital Omnibus, die op 27 juli 2026 in werking trad, aangepast: een organisatie moet maatregelen nemen om AI-geletterdheid te ondersteunen, zonder dat een bepaald niveau per persoon wordt voorgeschreven. Een AI beleid is de logische plek om die maatregelen vast te leggen.
   3. *Vraagt AI governance bij een AI beleid om een nieuwe commissie?* Nee, het advies is AI toe te voegen aan het risico-overleg of de stuurgroep die al bestaat, in plaats van een nieuwe commissie op te tuigen: het belangrijkste punt is dat governance wordt gekoppeld aan wat er al is. Het uitgangspunt voor de governance rond een AI beleid is licht waar het kan en zwaar alleen waar het risico dat rechtvaardigt.
-- **Bronregel:** Bron: [tarieven en doorlooptijden van Dave Willemstein](/tarieven).
+- **Bronregel:** Bron: [tarieven en doorlooptijden](/tarieven) van Dave Willemstein; primaire bron: Europese Commissie, "AI Literacy - Questions & Answers"; Verordening (EU) 2026/1744 (Digitale omnibus inzake AI), EUR-Lex; Europese Commissie, "AI Omnibus enters into force" (27 juli 2026) (peildatum 6 oktober 2026).
 - **Herkomst:** Antwoord: lede, 'Onderdelen van een AI beleid', de FAQ over de lengte en over het laten schrijven van een beleid, 'AI governance inrichten' en de slotalinea's van 'AI-beleid voor het MKB'. Tabel: dezelfde twee dienstalinea's plus de prijstabel. Vervolgvragen: 'AI-beleid voor het MKB: voorbeeld en template', 'AI Act en compliance' met de summary, en 'AI governance inrichten'.
 
 ### `/ai-consultancy`
@@ -214,7 +213,7 @@ Pagina: AI consultancy: strategisch advies dat tot resultaat leidt
 - **Vraagkop:** Wat kost AI consultancy? (bestaand)
 - **Antwoordalinea:** AI consultancy van Dave Willemstein wordt geleverd in vaste pakketten met zichtbare vanaf-prijzen, niet tegen een open uurtarief. Het [AI Readiness Assessment](/diensten/ai-readiness-assessment) duurt 2-3 weken en kost €7.000, de [AI Strategy Sprint](/diensten/ai-strategy-sprint) duurt 4-6 weken en kost €15.400 - €22.400, en de [Fractional AI Lead](/diensten/fractional-ai-lead) is een doorlopende rol voor €2.600 - €10.400 per maand, voor 2, 4 of 8 dagen per maand. Afgebakend advies en second opinions krijgen een vaste prijs in het voorstel, en de bedragen zijn exclusief btw en reiskosten.
 - **Vervolgvragen:**
-  1. *Wat kost AI consultancy voor een directie of raad van commissarissen?* €2.800 is de prijs van de [Executive Briefing](/diensten/executive-briefing), bedoeld voor directie en raad van commissarissen die hun toezichtrol op AI willen invullen. De Executive Briefing duurt 1 dagdeel incl. voorbereiding en wordt voorbereid op de sector van de organisatie.
+  1. *Wat kost AI consultancy voor een directie of raad van commissarissen?* €2.800 is de prijs van de [Executive Briefing](/diensten/executive-briefing), bedoeld voor directie en raad van commissarissen die hun toezichtrol op AI willen invullen. De Executive Briefing is een sessie van drie uur, samen met de voorbereiding één dagdeel, en wordt voorbereid op de sector van de organisatie.
   2. *Kan het AI Readiness Assessment bij AI consultancy ook voor één afdeling?* Ja. Het AI Readiness Assessment kan ook voor één afdeling of één procesdomein worden uitgevoerd. Die variant is korter en vraagt een lagere investering.
   3. *Heeft de adviseur bij AI consultancy belang bij een leverancier of een grotere scope?* Nee. De adviseur bouwt en verkoopt bij AI consultancy zelf geen software, AI-agents of implementaties en heeft daardoor geen belang bij een grotere scope of bij een bepaalde leverancier. Het bouwen doet het eigen team of een partner die de opdrachtgever rechtstreeks contracteert.
 - **Bronregel:** Bron: [tarieven en doorlooptijden van Dave Willemstein](/tarieven).
@@ -273,7 +272,7 @@ Pagina: AI implementatie: van plan naar werkende oplossing
 Pagina: AI voor bedrijven: wat kan AI voor jouw organisatie betekenen?
 
 - **Status:** concept (10 van 10 zinnen bevestigd, 0 geschrapt, 0 voorgelegd, 0 bevinding(en) open)
-- **Externe feiten:** 4 zin(nen) met een feit van buiten de eigen dienstverlening (wetgeving, marktcijfer). Het blok blijft daarom concept; zie docs/rag-verificatie.md.
+- **Externe feiten:** 2 zin(nen) met een feit van buiten de eigen dienstverlening (wetgeving). Het blok blijft daarom concept; zie docs/rag-verificatie.md.
 - **Bloktype:** kennisbank
 - **Plek:** eigen vraagkop, na de hero en vóór de eerste bestaande H2 ("Wat kan AI betekenen voor mijn bedrijf?").
 - **Vraagkop:** Waar levert AI voor bedrijven in de praktijk het meest op?
@@ -281,8 +280,7 @@ Pagina: AI voor bedrijven: wat kan AI voor jouw organisatie betekenen?
 - **Vervolgvragen:**
   1. *Zijn de regels uit de AI Act voor hoog-risicotoepassingen bij AI voor bedrijven uitgesteld?* Ja. Via de Digital Omnibus on AI, die op 27 juli 2026 in werking trad, gelden de regels voor de hoog-risicogebieden uit bijlage III, zoals werving en kredietverlening, vanaf 2 december 2027 en voor AI in gereguleerde producten vanaf 2 augustus 2028. Bij AI voor bedrijven loont het om nu al te weten in welke categorie een toepassing valt.
   2. *Begint AI voor bedrijven met gebruiken of met bouwen?* Bij voorkeur met gebruiken: bij AI voor bedrijven zit veel waarde in tools en AI-functies die al aanwezig zijn of eenvoudig aan te schaffen zijn. Maatwerk wordt pas zinvol wanneer standaardtools aantoonbaar tekortschieten.
-  3. *Waarvoor wordt AI voor bedrijven in Nederland het vaakst gebruikt?* AI voor bedrijven werd in 2025 het vaakst gebruikt voor marketing of verkoop (35 procent) en voor administratie of bestuurstaken (32 procent), volgens CBS-cijfers over AI-gebruikende bedrijven. Onder bedrijven die AI overwogen maar niet invoerden, was gebrek aan ervaring de meest genoemde reden.
-- **Bronregel:** Bron: artikel van Dave Willemstein.
+- **Bronregel:** Bron: artikel van Dave Willemstein; primaire bron: Verordening (EU) 2026/1744 (Digitale omnibus inzake AI), Publicatieblad L van 24.7.2026, EUR-Lex; Europese Commissie: AI Omnibus enters into force (27 juli 2026); Verordening (EU) 2024/1689 (AI-verordening), EUR-Lex (peildatum 6 oktober 2026).
 - **Herkomst:** Antwoord: summary (waar AI het meest oplevert), de lijst met risico's onder 'Kansen en risico's' en het punt 'Weten waar je staat' onder 'Hoe ik je kan helpen'. Vervolgvraag 1: punt 'Wet- en regelgeving' onder 'Kansen en risico's'. Vervolgvraag 2: punt 'Begin met gebruiken, niet met bouwen' onder 'Zo begin je met AI' en de FAQ over gebruiken en laten bouwen. Vervolgvraag 3: CBS-alinea onder 'Wat kan AI betekenen voor mijn bedrijf?'.
 
 ### `/markten`
@@ -290,7 +288,7 @@ Pagina: AI voor bedrijven: wat kan AI voor jouw organisatie betekenen?
 Pagina: AI per branche: toepassingen per sector
 
 - **Status:** concept (8 van 8 zinnen bevestigd, 0 geschrapt, 0 voorgelegd, 0 bevinding(en) open)
-- **Externe feiten:** 2 zin(nen) met een feit van buiten de eigen dienstverlening (wetgeving). Het blok blijft daarom concept; zie docs/rag-verificatie.md.
+- **Externe feiten:** 1 zin(nen) met een feit van buiten de eigen dienstverlening (wetgeving). Het blok blijft daarom concept; zie docs/rag-verificatie.md.
 - **Bloktype:** kennisbank
 - **Plek:** eigen vraagkop, na de hero en vóór de eerste bestaande H2 ("Waarom sectorkennis ertoe doet").
 - **Vraagkop:** Wat verschilt er bij AI per branche en wat blijft in elke sector gelijk?
@@ -299,7 +297,7 @@ Pagina: AI per branche: toepassingen per sector
   1. *Wanneer gelden de regels voor hoog-risicotoepassingen bij AI per branche?* Vanaf 2 december 2027 gelden sinds de Digital Omnibus de regels voor hoog-risicotoepassingen, en voor AI in producten als medische hulpmiddelen vanaf 2 augustus 2028; die regels zijn uitgesteld. Bij AI per branche legt de AI Act een laag over de sectorregels heen, met verplichtingen die per toepassing verschillen; de uitwerking staat op de pagina over [de AI Act](/ai-beleid/ai-act).
   2. *Staan er bij AI per branche voor elke sector cases op de site?* Nee. Er staan cases uit financiële dienstverlening, retail, industrie en zakelijke dienstverlening in het [overzicht van cases](/cases). Voor zorg, marketing, automotive, onderwijs, luchtvaart en overheid beschrijven de pagina's over AI per branche de vraagstukken en regels, geen eigen resultaten.
   3. *Wat laat het AI Readiness Assessment zien, ongeacht de sector?* Het [AI Readiness Assessment](/diensten/ai-readiness-assessment) geeft in korte tijd een nuchter beeld van hoe een organisatie ervoor staat, ongeacht de sector.
-- **Bronregel:** Bron: artikel van Dave Willemstein.
+- **Bronregel:** Bron: artikel van Dave Willemstein; primaire bron: Verordening (EU) 2026/1744 (Digitale omnibus inzake AI), gewijzigd artikel 113 AI Act, EUR-Lex; Verordening (EU) 2024/1689 (AI Act), bijlage I, EUR-Lex; Europese Commissie, AI Omnibus enters into force (27 juli 2026); Autoriteit Persoonsgegevens, AI-verordening (peildatum 6 oktober 2026).
 - **Herkomst:** Antwoord: lede, summary en de alinea's plus het schema onder 'Waarom sectorkennis ertoe doet'. Vervolgvraag 1: slotalinea van 'Sectoren' over de Digital Omnibus en het punt 'Regels' onder 'Waarom sectorkennis ertoe doet'. Vervolgvraag 2 en 3: 'Cases per sector'.
 
 ### `/partnernetwerk`
@@ -347,8 +345,7 @@ Pagina: AI agents voorbeelden: 12 toepassingen voor bedrijven
 - **Antwoordalinea:** De AI agents voorbeelden bestaan uit twaalf generieke toepassingen voor klantenservice, sales, HR en finance, zoals mail- en ticketvoorbereiding, leadonderzoek, onboarding en factuurcontrole, elk met de benodigde koppelingen en het moment van menselijke controle. Voorbereidend werk dat een mens daarna beoordeelt, levert de meeste waarde op. Hoeveel zelfstandigheid een agent kan krijgen, hangt af van de vraag of een handeling omkeerbaar is en of de gevolgen intern of extern zijn.
 - **Vervolgvragen:**
   1. *Laten de AI agents voorbeelden zien wat een agent bij een bepaald bedrijf heeft opgeleverd?* Nee. De AI agents voorbeelden zijn bewust generiek beschreven en tonen hoe een agent in een proces past. Wat een agent oplevert, hangt af van de volumes, de bronnen en de hoeveelheid controle die het proces vraagt.
-  2. *Boekt of betaalt de agent in de AI agents voorbeelden voor finance zelf?* Nee. In de AI agents voorbeelden voor finance stelt de agent voor en bevestigt een medewerker elke boeking, omdat een fout in een boeking doorwerkt in rapportages en aangiftes. Afwijkingen en betaalbeslissingen blijven bij de crediteurenadministratie.
-  3. *Is er één beste platform voor de AI agents voorbeelden?* Niet in het algemeen: welk platform bij de AI agents voorbeelden past, hangt af van de software die een organisatie al gebruikt, de eisen aan controle en de eigen technische capaciteit. Het platformoverzicht geeft de stand van september 2026 weer, zonder commissies of andere vergoedingen van de genoemde leveranciers.
+  2. *Is er één beste platform voor de AI agents voorbeelden?* Niet in het algemeen: welk platform bij de AI agents voorbeelden past, hangt af van de software die een organisatie al gebruikt, de eisen aan controle en de eigen technische capaciteit. Het platformoverzicht geeft de stand van september 2026 weer, zonder commissies of andere vergoedingen van de genoemde leveranciers.
 - **Bronregel:** Bron: artikel van Dave Willemstein.
 - **Herkomst:** Antwoord: lede, summary, de twaalf genummerde voorbeelden en de matrix onder 'AI agents in klantenservice'. Vervolgvraag 1: inleiding onder 'AI agents in klantenservice'. Vervolgvraag 2: 'AI agents in finance'. Vervolgvraag 3: inleiding onder 'Beste AI agent-platforms'.
 
@@ -421,7 +418,7 @@ Pagina: Bedrijfsprocessen automatiseren met AI
 Pagina: De AI Act voor bedrijven: wat moet je doen?
 
 - **Status:** concept (11 van 11 zinnen bevestigd, 0 geschrapt, 0 voorgelegd, 0 bevinding(en) open)
-- **Externe feiten:** 8 zin(nen) met een feit van buiten de eigen dienstverlening (wetgeving). Het blok blijft daarom concept; zie docs/rag-verificatie.md.
+- **Externe feiten:** 7 zin(nen) met een feit van buiten de eigen dienstverlening (wetgeving). Het blok blijft daarom concept; zie docs/rag-verificatie.md.
 - **Bloktype:** kennisbank
 - **Plek:** eigen vraagkop, na de hero en vóór de eerste bestaande H2 ("Wat is de AI Act?").
 - **Vraagkop:** Wat vraagt de AI Act voor bedrijven nu al en wat geldt pas later?
@@ -430,7 +427,7 @@ Pagina: De AI Act voor bedrijven: wat moet je doen?
   1. *Kan een organisatie onder de AI Act voor bedrijven ongemerkt aanbieder worden?* Ja. Volgens artikel 25 gebeurt dat bij een hoog-risicosysteem wanneer een organisatie er de eigen naam of het eigen merk op zet, het ingrijpend wijzigt of een systeem zo inzet dat het een hoog-risicotoepassing wordt. Onder de AI Act voor bedrijven speelt die vraag bijvoorbeeld bij een algemene AI-tool die sollicitanten gaat rangschikken.
   2. *Hoe lang bewaart een gebruiksverantwoordelijke van een hoog-risicosysteem de logs onder de AI Act voor bedrijven?* Minimaal zes maanden bewaart een gebruiksverantwoordelijke van een hoog-risicosysteem de automatisch gegenereerde logs, volgens artikel 26. Onder de AI Act voor bedrijven noemt hetzelfde artikel voor die gebruiksverantwoordelijken onder meer ook menselijk toezicht, het melden van incidenten en het vooraf informeren van werknemers en hun vertegenwoordigers bij inzet van zo'n systeem op de werkvloer.
   3. *Komt de AI Act voor bedrijven aan bod in het AI Readiness Assessment?* Ja. Het [AI Readiness Assessment](/diensten/ai-readiness-assessment) bevat een risico- en compliance-scan, inclusief de positionering van toepassingen onder de AI-verordening. Voor een directie of raad van commissarissen die eerst een gedeeld beeld nodig heeft, behandelt de [Executive Briefing](/diensten/executive-briefing) ook regelgeving en toezicht.
-- **Bronregel:** Bron: artikel van Dave Willemstein.
+- **Bronregel:** Bron: artikel van Dave Willemstein; primaire bron: Europese Commissie, "AI Act" (regulatory framework AI); Verordening (EU) 2024/1689 (AI Act), EUR-Lex; Verordening (EU) 2026/1744 (Digitale omnibus inzake AI), EUR-Lex; Europese Commissie, "AI Omnibus enters into force" (27 juli 2026) (peildatum 6 oktober 2026).
 - **Herkomst:** Antwoord: lede, 'Risicocategorieën' (ook het negende verbod), 'Verplichtingen per rol', de tweede FAQ (overgangstermijn markering) en de tabel onder 'Tijdlijn'. Vervolgvraag 1 en 2: 'Verplichtingen per rol' (artikel 25 en artikel 26). Vervolgvraag 3: slotalinea van 'Eerste stappen voor bedrijven'.
 
 ### `/ai-consultancy/ai-advies`
@@ -456,7 +453,7 @@ Pagina: AI advies: onafhankelijk advies over AI in je bedrijf
   1. *Is het eerste gesprek over AI advies vrijblijvend?* Ja. De kennismaking voor AI advies duurt dertig minuten, is vrijblijvend en zonder pitch. Aan het eind hoort de opdrachtgever wat de adviseur in die situatie zou doen.
   2. *Is AI advies over de AI Act hetzelfde als juridisch advies?* Nee. AI advies over de AI Act helpt bepalen in welke risicocategorie een toepassing valt, wat dat van de organisatie vraagt en hoe de governance wordt ingericht. De adviseur is geen jurist: voor juridisch advies is een jurist nodig.
   3. *Kan bij AI advies blijken dat de vraag groter is dan een adviesvraag?* Soms blijkt een vraag bij AI advies groter dan een adviesvraag; dan wordt dat gezegd en volgt een voorstel voor wat wel past. Soms is dat het AI Readiness Assessment, om eerst te weten waar de organisatie staat.
-- **Bronregel:** Bron: [tarieven en doorlooptijden van Dave Willemstein](/tarieven).
+- **Bronregel:** Bron: [tarieven en doorlooptijden](/tarieven) van Dave Willemstein; primaire bron: Verordening (EU) 2024/1689 (AI-verordening), EUR-Lex (peildatum 6 oktober 2026).
 - **Herkomst:** Antwoord: 'Wat is AI advies?', 'AI advies versus AI consultancy', de FAQ over toolkeuze en de alinea over de Executive Briefing onder 'Hoe een adviestraject verloopt'. Tabel: 'Tools en leveranciers' (afgebakend advies en Vendor Review) en 'Hoe een adviestraject verloopt' (Executive Briefing, AI Readiness Assessment). Vervolgvragen: 'Hoe een adviestraject verloopt', 'Risico's en compliance' en het figuurbijschrift onder 'AI advies versus AI consultancy'.
 
 ### `/ai-consultancy/ai-roadmap`
@@ -537,7 +534,7 @@ Pagina: AI implementatie advies: goed voorbereid starten
   1. *Levert AI implementatie advies een dik rapport op?* Nee. AI implementatie advies eindigt met een beslisdocument en geen dik rapport: welke use case, welke bouwkeuze, welke randvoorwaarden voor data en privacy, welke verandering nodig is en wat de bouwpartij moet opleveren om te slagen. Alle kaders en analyses zijn daarna van de opdrachtgever.
   2. *Kijkt AI implementatie advies ook naar de privacykant?* Ja. Bij AI implementatie advies wordt in kaart gebracht welke data de toepassing nodig heeft en wordt daarnaast naar de privacykant gekeken. Een DPIA is onder de AVG verplicht als de toepassing persoonsgegevens verwerkt met een grote kans op een hoog privacyrisico, en die vraag hoort aan het begin, niet vlak voor livegang.
   3. *Hoe lang duurt het eerste gesprek over AI implementatie advies?* Dertig minuten duurt de kennismaking over AI implementatie advies. De opdrachtgever vertelt waar de organisatie staat en hoort aan het eind wat de adviseur zou doen, ook als dat betekent dat de opdrachtgever deze adviseur niet nodig heeft.
-- **Bronregel:** Bron: [tarieven en doorlooptijden van Dave Willemstein](/tarieven).
+- **Bronregel:** Bron: [tarieven en doorlooptijden](/tarieven) van Dave Willemstein; primaire bron: Verordening (EU) 2016/679 (AVG), EUR-Lex; Autoriteit Persoonsgegevens: Data protection impact assessment (DPIA) (peildatum 6 oktober 2026).
 - **Herkomst:** Antwoord: 'Waar ik over adviseer' (vier onderwerpen) en de alinea's over afgebakend advies, het AI Readiness Assessment en het beslisdocument onder 'Hoe een adviestraject verloopt'. Vervolgvraag 1 en 3: 'Hoe een adviestraject verloopt'. Vervolgvraag 2: 'Data en privacy'.
 
 ### `/ai-implementatie/stappenplan`
@@ -577,16 +574,14 @@ Pagina: AI en BI: het verschil en hoe ze elkaar versterken
 
 Pagina: AI voor het MKB: waar begin je en wat levert het op?
 
-- **Status:** concept (12 van 12 zinnen bevestigd, 0 geschrapt, 0 voorgelegd, 0 bevinding(en) open)
-- **Externe feiten:** 3 zin(nen) met een feit van buiten de eigen dienstverlening (marktcijfer). Het blok blijft daarom concept; zie docs/rag-verificatie.md.
+- **Status:** geverifieerd (12 van 12 zinnen bevestigd, 0 geschrapt, 0 voorgelegd, 0 bevinding(en) open)
 - **Bloktype:** kennisbank
 - **Plek:** eigen vraagkop, na de hero en vóór de eerste bestaande H2 ("Waarom AI nu relevant is voor het MKB").
 - **Vraagkop:** Hoe begint een ondernemer met AI voor het mkb zonder groot budget?
-- **Antwoordalinea:** AI voor het mkb begint bij één taak die vaak terugkomt, veel tijd kost en al een vaste controle kent, zoals offertes of het sorteren van e-mail, met software die het bedrijf al heeft of een zakelijke licentie op een AI-assistent. Na een nulmeting en een paar spelregels over tools en gegevens volgt een test van vier weken in het echte werk, waarna de meting bepaalt of het bedrijf doorgaat, bijstuurt of stopt. Voor kleinere bedrijven is de [Executive Briefing](/diensten/executive-briefing) van 1 dagdeel incl. voorbereiding voor €2.800 een van de twee lichtere instappen.
+- **Antwoordalinea:** AI voor het mkb begint bij één taak die vaak terugkomt, veel tijd kost en al een vaste controle kent, zoals offertes of het sorteren van e-mail, met software die het bedrijf al heeft of een zakelijke licentie op een AI-assistent. Na een nulmeting en een paar spelregels over tools en gegevens volgt een test van vier weken in het echte werk, waarna de meting bepaalt of het bedrijf doorgaat, bijstuurt of stopt. Voor kleinere bedrijven is de [Executive Briefing](/diensten/executive-briefing), een sessie van drie uur, samen met de voorbereiding één dagdeel, voor €2.800 een van de twee lichtere instappen.
 - **Vervolgvragen:**
   1. *Passen het AI Readiness Assessment en de AI Strategy Sprint bij elk budget voor AI voor het mkb?* Nee. Het [AI Readiness Assessment](/diensten/ai-readiness-assessment) kost €7.000 en de [AI Strategy Sprint](/diensten/ai-strategy-sprint) €15.400 - €22.400: dat past bij een middelgroot bedrijf met meerdere afdelingen en een concrete investeringsvraag. Voor een bedrijf van tien mensen zijn die pakketten vaak te veel.
-  2. *Blijft het gebruik van AI in het mkb achter bij grotere bedrijven?* Ja. Het gebruik van AI voor het mkb blijft achter bij grotere bedrijven: in 2025 gebruikte 29,8 procent van de bedrijven met 10 tot en met 249 werkzame personen AI-technologie, tegen 66,2 procent van het grootbedrijf, volgens het CBS. Bij microbedrijven met 2 tot 9 werkzame personen was dat 13,8 procent, een aandeel dat sinds 2023 wel is verdubbeld.
-  3. *Is een chatbot die zelfstandig klanten te woord staat een goed startpunt bij AI voor het mkb?* Nee. Het advies voor AI voor het mkb in de klantenservice is niet te beginnen met zo'n chatbot, maar achter de schermen: e-mails sorteren, conceptantwoorden die een medewerker controleert en klantdossiers samenvatten. Een klantgerichte assistent voor eenvoudige vragen is pas een logische volgende stap als dat goed loopt.
+  2. *Is een chatbot die zelfstandig klanten te woord staat een goed startpunt bij AI voor het mkb?* Nee. Het advies voor AI voor het mkb in de klantenservice is niet te beginnen met zo'n chatbot, maar achter de schermen: e-mails sorteren, conceptantwoorden die een medewerker controleert en klantdossiers samenvatten. Een klantgerichte assistent voor eenvoudige vragen is pas een logische volgende stap als dat goed loopt.
 - **Bronregel:** Bron: artikel van Dave Willemstein.
 - **Herkomst:** Antwoord: stappenschema en tips onder 'Eerste stappen' en de tweede alinea onder 'Hoe ik MKB-bedrijven help'. Vervolgvraag 1: eerste alinea onder 'Hoe ik MKB-bedrijven help'. Vervolgvraag 2: CBS-alinea onder 'Waarom AI nu relevant is voor het MKB'. Vervolgvraag 3: subkop 'Klantenservice'.
 
@@ -604,7 +599,7 @@ Pagina: AI voor zakelijke dienstverleners
   1. *Kan een DPIA verplicht zijn bij AI voor zakelijke dienstverleners?* Ja, bij een verwerking met een hoog risico is een DPIA bij AI voor zakelijke dienstverleners verplicht onder de AVG. Bij persoonsgegevens hoort te worden nagegaan of een DPIA nodig is, en de verwerkersovereenkomst, de opslaglocatie en de afspraken over training op data horen te worden gecontroleerd.
   2. *Welke leidraad en aanbevelingen zijn er bij AI voor zakelijke dienstverleners zoals accountants en advocaten?* Voor AI voor zakelijke dienstverleners in de accountancy publiceerden de beroepsorganisaties NBA en NOREA in juni 2026 'Leidraad 2: AI Toegepast', en de Nederlandse orde van advocaten heeft aanbevelingen voor AI in de advocatuur gepubliceerd. De kern van de leidraad is dat validatie en menselijk oordeel de basis blijven. In de advocatuur blijft de advocaat altijd zelf verantwoordelijk voor het uiteindelijke advies.
   3. *Waar hangt de keuze voor een tool van af bij AI voor zakelijke dienstverleners?* Van de taken, de bestaande software en de eisen aan gegevensverwerking hangt bij AI voor zakelijke dienstverleners af welke tool past, niet van de indrukwekkendste demo. Gespecialiseerde vaktools bieden meer vakinhoud, maar vragen een toets op de herkomst van bronnen en het prijsmodel.
-- **Bronregel:** Bron: artikel van Dave Willemstein.
+- **Bronregel:** Bron: artikel van Dave Willemstein; primaire bron: Verordening (EU) 2016/679 (AVG), artikel 35, EUR-Lex (peildatum 6 oktober 2026).
 - **Herkomst:** Antwoord: 'Waarom AI voor dienstverleners loont', de openingszin van 'Toepassingen per beroepsgroep' en de basisregels onder 'Vertrouwelijkheid en kwaliteit'. Vervolgvraag 1: basisregel 2 onder 'Vertrouwelijkheid en kwaliteit'. Vervolgvraag 2: subkoppen 'Accountancy' en 'Legal'. Vervolgvraag 3: schema en alinea onder 'Tools'.
 
 ## 5. Workshops, training en coaching (5)
@@ -646,7 +641,7 @@ Pagina: AI coaching voor managers en teams
 Pagina: AI geletterdheid training: voldoen aan de AI Act
 
 - **Status:** concept (8 van 8 zinnen bevestigd, 0 geschrapt, 0 voorgelegd, 0 bevinding(en) open)
-- **Externe feiten:** 7 zin(nen) met een feit van buiten de eigen dienstverlening (wetgeving). Het blok blijft daarom concept; zie docs/rag-verificatie.md.
+- **Externe feiten:** 5 zin(nen) met een feit van buiten de eigen dienstverlening (wetgeving). Het blok blijft daarom concept; zie docs/rag-verificatie.md.
 - **Bloktype:** dienstenoverzicht
 - **Plek:** eigen vraagkop, na de hero en vóór de eerste bestaande H2 ("Wat is AI geletterdheid?").
 - **Vraagkop:** Voldoet een organisatie met een AI geletterdheid training aan de AI Act?
@@ -654,7 +649,7 @@ Pagina: AI geletterdheid training: voldoen aan de AI Act
 - **Vervolgvragen:**
   1. *Is de verplichting achter een AI geletterdheid training in 2026 vervallen?* Nee. De verplichting uit artikel 4 van de AI Act, waar een AI geletterdheid training bij helpt, blijft bestaan voor aanbieders en gebruiksverantwoordelijken van AI-systemen. Sinds 27 juli 2026 is het een inspanningsverplichting, en niets doen voldoet niet (stand september 2026).
   2. *Bestaat er een voorgeschreven lesprogramma voor een AI geletterdheid training?* Nee. Voor een AI geletterdheid training bestaat geen voorgeschreven lesprogramma: volgens de Autoriteit Persoonsgegevens hangt wat nodig is af van de risico's, de rollen en de context.
-- **Bronregel:** Bron: Dave Willemstein, onafhankelijk AI-adviseur.
+- **Bronregel:** Bron: Dave Willemstein, onafhankelijk AI-adviseur; primaire bron: Verordening (EU) 2026/1744 (Digitale omnibus inzake AI), Publicatieblad L van 24.7.2026, EUR-Lex; Verordening (EU) 2024/1689 (AI Act), artikel 113, EUR-Lex; Europese Commissie, AI Literacy - Questions & Answers (bijgewerkt 27 juli 2026); Europese Commissie, AI Omnibus enters into force (27 juli 2026); Autoriteit Persoonsgegevens, Aan de slag met AI-geletterdheid (februari 2025) (peildatum 6 oktober 2026).
 - **Herkomst:** Antwoord: summary, slot van 'Wat is AI geletterdheid?', de opsomming onder 'Wat de AI Act vraagt' en de eerste alinea onder 'Aantonen dat je voldoet'. Vervolgvraag 1: 'Wat de AI Act vraagt'. Vervolgvraag 2: eerste alinea onder 'Inhoud van de training'.
 
 ### `/ai-workshop/chatgpt-training`
@@ -706,7 +701,7 @@ Pagina: AI in automotive: toepassingen voor autobedrijven
   1. *Is AI in automotive hoog risico als een dealer er sollicitanten mee selecteert of de kredietwaardigheid van particulieren mee beoordeelt?* Ja. AI voor het selecteren van sollicitanten en voor het beoordelen van de kredietwaardigheid van particulieren staat op de hoog-risicolijst van de AI Act, met eisen die door de Digital Omnibus volgens de Europese Commissie vanaf 2 december 2027 gelden. Een chatbot of een tekstgenerator is bij AI in automotive geen hoog-risicotoepassing.
   2. *Hoe kan een dealer bij AI in automotive toetsen of de belofte van een leverancier van assistenten klopt?* Dat kan bijvoorbeeld met de [Vendor Review](/diensten/vendor-review), met dezelfde vragen en hetzelfde scenario voor elke leverancier. Bij assistenten gaat het bij AI in automotive om de keuze tussen wat de DMS-leverancier, het merk of een gespecialiseerde partij aanbiedt.
   3. *Waarvoor werkt een klantgerichte assistent met AI in automotive goed?* Klantgerichte assistenten, die vragen beantwoorden en bijvoorbeeld een onderhoudsafspraak inplannen, werken bij AI in automotive goed voor voorspelbare vragen, niet voor klachten of onderhandelingen. Het advies is vooraf af te spreken wanneer de assistent overdraagt aan een mens, en dat met echte gesprekken te testen.
-- **Bronregel:** Bron: artikel van Dave Willemstein.
+- **Bronregel:** Bron: artikel van Dave Willemstein; primaire bron: Verordening (EU) 2024/1689 (AI Act), EUR-Lex; Europese Commissie, "AI Act" (regulatory framework AI); Verordening (EU) 2026/1744 (Digitale omnibus inzake AI), EUR-Lex (peildatum 6 oktober 2026).
 - **Herkomst:** Antwoord: summary en de alinea 'Zo begin je'. Vervolgvraag 1: 'Welke regels gelden er?'. Vervolgvraag 2 en 3: 'AI assistenten'.
 
 ### `/markten/fintech`
@@ -714,7 +709,7 @@ Pagina: AI in automotive: toepassingen voor autobedrijven
 Pagina: AI in fintech en financiële dienstverlening
 
 - **Status:** concept (11 van 11 zinnen bevestigd, 0 geschrapt, 0 voorgelegd, 0 bevinding(en) open)
-- **Externe feiten:** 4 zin(nen) met een feit van buiten de eigen dienstverlening (wetgeving). Het blok blijft daarom concept; zie docs/rag-verificatie.md.
+- **Externe feiten:** 3 zin(nen) met een feit van buiten de eigen dienstverlening (wetgeving). Het blok blijft daarom concept; zie docs/rag-verificatie.md.
 - **Bloktype:** kennisbank
 - **Plek:** eigen vraagkop, na de hero en vóór de eerste bestaande H2 ("AI toepassingen in fintech").
 - **Vraagkop:** Waar levert AI in fintech het meest op en welke regels spelen mee?
@@ -723,7 +718,7 @@ Pagina: AI in fintech en financiële dienstverlening
   1. *Blijft bij AI in fintech het oordeel bij een mens?* Bij AI in fintech hoort het oordeel in de meeste processen bij een mens, die de voorstellen van het systeem bevestigt of corrigeert. Dat levert met elke bevestiging en correctie een auditspoor en een meetbare kwaliteitsloop op.
   2. *Is het uitstel van de AI Act een reden om met eisen aan AI in fintech te wachten?* Nee. Een kredietmodel dat nu wordt ingekocht of gebouwd, is waarschijnlijk nog in gebruik als de hoog-risicoregels vanaf 2 december 2027 gelden, dus bij AI in fintech horen die eisen nu al in ontwerp en selectie. Met de Vendor Review wordt de keuze voor een leverancier of bouwpartij vastgelegd op een manier waar inkoop, compliance en audit mee verder kunnen.
   3. *Hoe verhoudt een AI-dienst van een externe leverancier bij AI in fintech zich tot DORA?* Een AI-dienst die een financiële instelling afneemt, hoort bij AI in fintech in de praktijk bij de ICT-diensten van derden waarvan DORA een informatieregister vraagt, inclusief onderuitbesteding. DORA geldt sinds 17 januari 2025 en richt zich op de financiële instelling; de precieze kwalificatie is iets om te laten toetsen door de compliance- of juridische afdeling. Exitpad, afhankelijkheid en incidentafspraken horen bij een externe AI-dienst in de selectie.
-- **Bronregel:** Bron: artikel van Dave Willemstein.
+- **Bronregel:** Bron: artikel van Dave Willemstein; primaire bron: Verordening (EU) 2024/1689 (AI-verordening), EUR-Lex; Verordening (EU) 2026/1744 (Digitale omnibus inzake AI), Publicatieblad L van 24.7.2026, EUR-Lex; Verordening (EU) 2022/2554 (DORA), EUR-Lex; Uitvoeringsverordening (EU) 2024/2956 (standaardmodellen informatieregister DORA), EUR-Lex (peildatum 6 oktober 2026).
 - **Herkomst:** Antwoord: 'AI toepassingen in fintech', 'AI automatisering in financiële dienstverlening', de AI Act-bullet onder 'AI governance en compliance' en de lijst onder 'AI consultancy voor financiële instellingen'. Vervolgvraag 1: onderscheid extractie en oordeel. Vervolgvraag 2: slotalinea onder 'AI governance en compliance' en 'Kiezen' in de dienstenlijst. Vervolgvraag 3: DORA-bullet en de FAQ 'Geldt DORA ook voor AI-leveranciers?'.
 
 ## 7. Kennisbankartikelen (13)
@@ -733,16 +728,15 @@ Pagina: AI in fintech en financiële dienstverlening
 Pagina: AI agents en de AVG: waar moet je op letten?
 
 - **Status:** concept (9 van 10 zinnen bevestigd, 0 geschrapt, 1 voorgelegd, 0 bevinding(en) open)
-- **Externe feiten:** 9 zin(nen) met een feit van buiten de eigen dienstverlening (wetgeving). Het blok blijft daarom concept; zie docs/rag-verificatie.md.
+- **Externe feiten:** 7 zin(nen) met een feit van buiten de eigen dienstverlening (wetgeving). Het blok blijft daarom concept; zie docs/rag-verificatie.md.
 - **Bloktype:** kennisbank
 - **Plek:** eigen vraagkop, na de hero en vóór de eerste bestaande H2 ("Waarom AI agents privacyrisico’s geven").
 - **Vraagkop:** Wat vraagt de AVG bij AI agents van een organisatie?
 - **Antwoordalinea:** De AVG bij AI agents geldt volledig: de organisatie die de agent inzet, blijft verwerkingsverantwoordelijke, ook als de agent zelf gegevens opzoekt, vastlegt of verstuurt. De basis bestaat uit een vastgelegd doel met grondslag, toegang die per bron is afgebakend, een verwerkersovereenkomst met de leverancier, logging van elke stap en vaak een DPIA. Neemt de agent besluiten over mensen, dan komen de regels over geautomatiseerde besluitvorming erbij, en daarnaast kan de AI Act gelden.
 - **Vervolgvragen:**
   1. *Heeft de AVG een apart hoofdstuk voor AI agents?* Nee. De AVG bij AI agents bestaat uit de bestaande regels, die direct van toepassing zijn; een apart hoofdstuk voor AI agents heeft de AVG niet. Wat verandert is het risicoprofiel, door brede toegang, meerdere stappen zonder zicht, gegevens naar derden en handelen in plaats van adviseren.
-  2. *Binnen hoeveel uur wordt een datalek gemeld onder de AVG bij AI agents?* 72 uur is onder de AVG bij AI agents de termijn waarbinnen een datalek zo mogelijk bij de Autoriteit Persoonsgegevens wordt gemeld, zonder onredelijke vertraging. De melding is niet nodig als het risico voor betrokkenen onwaarschijnlijk is.
-  3. *Kan de AI Act naast de AVG bij AI agents gelden?* Voor een agent kunnen de AVG en de AI Act tegelijk gelden: de AVG bij AI agents gaat over persoonsgegevens, de AI Act over het AI-systeem zelf. Voor agents die onder bijlage III vallen, bijvoorbeeld doordat ze sollicitaties filteren of kandidaten beoordelen, gelden de hoog-risicoverplichtingen door de Digital Omnibus vanaf 2 december 2027 in plaats van 2 augustus 2026.
-- **Bronregel:** Bron: artikel van Dave Willemstein.
+  2. *Kan de AI Act naast de AVG bij AI agents gelden?* Voor een agent kunnen de AVG en de AI Act tegelijk gelden: de AVG bij AI agents gaat over persoonsgegevens, de AI Act over het AI-systeem zelf. Voor agents die onder bijlage III vallen, bijvoorbeeld doordat ze sollicitaties filteren of kandidaten beoordelen, gelden de hoog-risicoverplichtingen door de Digital Omnibus vanaf 2 december 2027 in plaats van 2 augustus 2026.
+- **Bronregel:** Bron: artikel van Dave Willemstein; primaire bron: Verordening (EU) 2016/679 (AVG), EUR-Lex; Verordening (EU) 2024/1689 (AI-verordening), EUR-Lex; Verordening (EU) 2026/1744 (Digitale omnibus inzake AI), Publicatieblad L van 24.7.2026, EUR-Lex (peildatum 6 oktober 2026).
 - **Herkomst:** Antwoord: 'Waarom AI agents privacyrisico's geven', summary en de lijst onder 'AVG-eisen voor AI agents'. Vervolgvraag 1: inleiding 'AVG-eisen voor AI agents' en de vier kenmerken onder de eerste H2. Vervolgvraag 2: punt 'Beveiliging en datalekken'. Vervolgvraag 3: 'Samenhang met de AI Act'.
 
 ### `/kennisbank/ai-specialist-salaris`
@@ -750,7 +744,7 @@ Pagina: AI agents en de AVG: waar moet je op letten?
 Pagina: AI specialist salaris: wat verdient een AI specialist?
 
 - **Status:** concept (10 van 10 zinnen bevestigd, 0 geschrapt, 0 voorgelegd, 0 bevinding(en) open)
-- **Externe feiten:** 6 zin(nen) met een feit van buiten de eigen dienstverlening (salaris). Het blok blijft daarom concept; zie docs/rag-verificatie.md.
+- **Externe feiten:** 5 zin(nen) met een feit van buiten de eigen dienstverlening (salaris). Het blok blijft daarom concept; zie docs/rag-verificatie.md.
 - **Bloktype:** kennisbank
 - **Plek:** eigen vraagkop, na de hero en vóór de eerste bestaande H2 ("Salarisindicatie AI specialist").
 - **Vraagkop:** Wat zeggen de salarisbronnen over een AI specialist salaris in Nederland?
@@ -759,7 +753,7 @@ Pagina: AI specialist salaris: wat verdient een AI specialist?
   1. *Publiceren de gecontroleerde salarisbronnen een AI specialist salaris onder die functietitel?* Nee. De gecontroleerde salarisbronnen publiceren hun cijfers onder de titel AI engineer, niet onder AI specialist. Bij een AI specialist salaris gaat het daarom om bandbreedtes per niveau van twee bronnen, in brutobedragen per maand.
   2. *Zijn de cijfers van Indeed en DataJobs bij een AI specialist salaris één-op-één te vergelijken?* Lastig: de cijfers van Indeed en DataJobs zijn lastig één-op-één te vergelijken, want Indeed rekent in jaarbedragen op basis van wat werknemers zelf opgeven en DataJobs in brutomaandbedragen op basis van gegevens van het eigen platform. Bij een AI specialist salaris zijn beide daarom als orde van grootte te gebruiken.
   3. *Wat doet de Fractional AI Lead als de scope voor een fulltime functie nog niet vaststaat?* De [Fractional AI Lead](/diensten/fractional-ai-lead) stuurt de AI-agenda in een parttime rol en helpt bij het functieprofiel en de werving van een vaste opvolger. De rol kost €2.600 - €10.400 per maand, voor 2, 4 of 8 dagen per maand.
-- **Bronregel:** Bron: artikel van Dave Willemstein.
+- **Bronregel:** Bron: artikel van Dave Willemstein; primaire bron: DataJobs, Werken als AI Engineer (bijgewerkt mei 2026); Indeed, Salaris van een AI engineer in Nederland (bijgewerkt 28 september 2026) (peildatum 6 oktober 2026).
 - **Herkomst:** Antwoord: summary, tabel en alinea's onder 'Salarisindicatie AI specialist' (kolom DataJobs), het Indeed-punt onder 'AI engineer salaris' en de vuistregels onder 'Vast in dienst of freelance inhuren?'. Vervolgvraag 1: eerste twee alinea's onder 'Salarisindicatie AI specialist' en summary. Vervolgvraag 2: alinea 'Die cijfers zijn lastig één-op-één te vergelijken'. Vervolgvraag 3: vuistregel 'Kies een parttime rol'.
 
 ### `/kennisbank/ai-voorbeelden`
@@ -767,7 +761,7 @@ Pagina: AI specialist salaris: wat verdient een AI specialist?
 Pagina: AI voorbeelden: 25 toepassingen uit de praktijk
 
 - **Status:** concept (8 van 8 zinnen bevestigd, 0 geschrapt, 0 voorgelegd, 0 bevinding(en) open)
-- **Externe feiten:** 3 zin(nen) met een feit van buiten de eigen dienstverlening (overig extern, wetgeving). Het blok blijft daarom concept; zie docs/rag-verificatie.md.
+- **Externe feiten:** 3 zin(nen) met een feit van buiten de eigen dienstverlening (wetgeving, overig extern). Het blok blijft daarom concept; zie docs/rag-verificatie.md.
 - **Bloktype:** kennisbank
 - **Plek:** eigen vraagkop, na de hero en vóór de eerste bestaande H2 ("AI voorbeelden per afdeling").
 - **Vraagkop:** Welke AI voorbeelden uit de praktijk zijn bruikbaar voor een organisatie?
@@ -776,7 +770,7 @@ Pagina: AI voorbeelden: 25 toepassingen uit de praktijk
   1. *Hoe zijn de AI voorbeelden op de pagina beschreven?* Bewust generiek: de AI voorbeelden staan er in de vorm 'een groothandel kan' in plaats van als een verzonnen succesverhaal. Bij de drie voorbeelden uit het dagelijks leven, over spamfilters, reistijd voorspellen en vertalen, heeft de leverancier zelf beschreven hoe AI wordt ingezet.
   2. *Wanneer gelden bij AI voorbeelden zwaardere eisen?* Zodra een toepassing zelf een besluit over een persoon neemt of een professioneel oordeel vervangt, gelden bij AI voorbeelden zwaardere eisen vanuit de AVG, de AI Act en de eigen sectorregels. AI die sollicitaties filtert of kandidaten beoordeelt, staat in de AI Act op de lijst van hoog-risicotoepassingen; ook AI die de kredietwaardigheid van personen beoordeelt en het beoordelen van leerresultaten of toelating met AI vallen onder de hoog-risicotoepassingen van de AI Act.
   3. *Wat levert het AI Readiness Assessment op voor wie wil weten welke AI voorbeelden het meeste opleveren?* Het [AI Readiness Assessment](/diensten/ai-readiness-assessment) geeft in 2-3 weken een gevalideerde lijst met kansen en een 90-dagenplan, voor wie wil weten welke van de AI voorbeelden in de eigen organisatie het meeste oplevert.
-- **Bronregel:** Bron: artikel van Dave Willemstein.
+- **Bronregel:** Bron: artikel van Dave Willemstein; primaire bron: Verordening (EU) 2024/1689 (AI Act), EUR-Lex (peildatum 6 oktober 2026).
 - **Herkomst:** Antwoord: lede, summary, de inleiding onder 'AI voorbeelden per afdeling' en de keuzematrix onder 'Hoe kies je de juiste toepassing?'. Vervolgvraag 1: inleiding 'AI voorbeelden per afdeling' en 'AI voorbeelden in het dagelijks leven'. Vervolgvraag 2: voorbeelden 14, 17 en 19 en de slotalinea onder 'AI voorbeelden per sector'. Vervolgvraag 3: slotalinea.
 
 ### `/kennisbank/chatgpt-voor-bedrijven`
@@ -784,15 +778,14 @@ Pagina: AI voorbeelden: 25 toepassingen uit de praktijk
 Pagina: ChatGPT voor bedrijven: toepassingen en veilig gebruik
 
 - **Status:** concept (11 van 11 zinnen bevestigd, 0 geschrapt, 0 voorgelegd, 0 bevinding(en) open)
-- **Externe feiten:** 10 zin(nen) met een feit van buiten de eigen dienstverlening (toolprijs). Het blok blijft daarom concept; zie docs/rag-verificatie.md.
+- **Externe feiten:** 6 zin(nen) met een feit van buiten de eigen dienstverlening (toolprijs). Het blok blijft daarom concept; zie docs/rag-verificatie.md.
 - **Bloktype:** kennisbank
 - **Plek:** antwoordalinea direct onder de bestaande H2 "Wat kan ChatGPT voor bedrijven?"; vervolgvragen en bronregel aan het eind van die sectie. Geen eigen kop.
 - **Vraagkop:** Wat kan ChatGPT voor bedrijven? (bestaand)
-- **Antwoordalinea:** ChatGPT voor bedrijven is de AI-assistent van OpenAI als schrijf-, denk- en analysepartner die in gewone taal een tekst, samenvatting, analyse of opzet teruggeeft; bij ChatGPT Business horen volgens de prijspagina van OpenAI onder meer projecten, eigen GPT's, data-analyse en koppelingen (stand september 2026). Voor bedrijfsdata horen de abonnementen Business of Enterprise en geen persoonlijke accounts: bij beide blijft training op invoer en uitvoer volgens OpenAI standaard uit (stand september 2026). ChatGPT kan zelfverzekerd een fout antwoord geven, dus voor alles wat naar een klant, toezichthouder of directie gaat blijft een mens verantwoordelijk voor de controle.
+- **Antwoordalinea:** Voor bedrijfsdata horen de abonnementen Business of Enterprise en geen persoonlijke accounts: bij beide blijft training op invoer en uitvoer volgens OpenAI standaard uit (stand september 2026). ChatGPT kan zelfverzekerd een fout antwoord geven, dus voor alles wat naar een klant, toezichthouder of directie gaat blijft een mens verantwoordelijk voor de controle.
 - **Vervolgvragen:**
-  1. *Wat kost een plek bij ChatGPT Business per gebruiker per maand?* Een standaardplek van ChatGPT Business kost $20 per gebruiker per maand bij jaarbetaling of $25 bij maandbetaling, en een premiumplek $100 of $125 (stand september 2026). Dat zijn Amerikaanse lijstprijzen exclusief btw, en OpenAI geeft aan dat prijzen per land en valuta kunnen verschillen. Bij ChatGPT voor bedrijven is de prijs van ChatGPT Enterprise op aanvraag.
-  2. *Welk abonnement van ChatGPT voor bedrijven biedt Europese dataopslag?* ChatGPT Enterprise, voor nieuwe werkruimtes (EER en Zwitserland); bij ChatGPT Business is er geen Europese dataopslag (stand september 2026). Bij ChatGPT voor bedrijven vallen gegevens die via koppelingen of webzoekopdrachten naar externe diensten gaan daar volgens OpenAI niet onder.
-  3. *Is een persoonlijk account geschikt voor bedrijfsdata bij ChatGPT voor bedrijven?* Nee, voor bedrijfsdata geldt bij ChatGPT voor bedrijven: Business of Enterprise, geen persoonlijke accounts. Bij de persoonlijke abonnementen kan OpenAI gesprekken gebruiken om modellen te verbeteren tenzij de gebruiker dat zelf uitzet, en de organisatie heeft geen zicht of zeggenschap over klantgegevens die een medewerker in een persoonlijk account zet. Voor Business en Enterprise is bovendien een verwerkersovereenkomst met OpenAI af te sluiten.
+  1. *Welk abonnement van ChatGPT voor bedrijven biedt Europese dataopslag?* ChatGPT Enterprise, voor nieuwe werkruimtes (EER en Zwitserland); bij ChatGPT Business is er geen Europese dataopslag (stand september 2026). Bij ChatGPT voor bedrijven vallen gegevens die via koppelingen of webzoekopdrachten naar externe diensten gaan daar volgens OpenAI niet onder.
+  2. *Is een persoonlijk account geschikt voor bedrijfsdata bij ChatGPT voor bedrijven?* Nee, voor bedrijfsdata geldt bij ChatGPT voor bedrijven: Business of Enterprise, geen persoonlijke accounts. Bij de persoonlijke abonnementen kan OpenAI gesprekken gebruiken om modellen te verbeteren tenzij de gebruiker dat zelf uitzet, en de organisatie heeft geen zicht of zeggenschap over klantgegevens die een medewerker in een persoonlijk account zet. Voor Business en Enterprise is bovendien een verwerkersovereenkomst met OpenAI af te sluiten.
 - **Bronregel:** Bron: artikel van Dave Willemstein.
 - **Herkomst:** Antwoord: alinea's onder 'Wat kan ChatGPT voor bedrijven?', de summary en de alinea over training onder 'Privacy en veiligheid'. Vervolgvraag 1 en 2: tabel en toelichting onder 'Zakelijke abonnementen' en het punt 'Dataopslag'. Vervolgvraag 3: summary en eerste twee alinea's onder 'Privacy en veiligheid'.
 
@@ -801,15 +794,14 @@ Pagina: ChatGPT voor bedrijven: toepassingen en veilig gebruik
 Pagina: Claude voor bedrijven: mogelijkheden en toepassingen
 
 - **Status:** concept (12 van 12 zinnen bevestigd, 0 geschrapt, 0 voorgelegd, 0 bevinding(en) open)
-- **Externe feiten:** 11 zin(nen) met een feit van buiten de eigen dienstverlening (toolprijs). Het blok blijft daarom concept; zie docs/rag-verificatie.md.
+- **Externe feiten:** 8 zin(nen) met een feit van buiten de eigen dienstverlening (toolprijs). Het blok blijft daarom concept; zie docs/rag-verificatie.md.
 - **Bloktype:** kennisbank
 - **Plek:** eigen vraagkop, na de hero en vóór de eerste bestaande H2 ("Wat is Claude?").
 - **Vraagkop:** Welk abonnement hoort bij Claude voor bedrijven en waar staat de data?
 - **Antwoordalinea:** Claude voor bedrijven is de AI-assistent van Anthropic in een zakelijk abonnement: Team voor 2 tot 150 gebruikers, of Enterprise met daarnaast onder meer SCIM, rolgebaseerde toegang en auditlogs. Alleen de zakelijke abonnementen zijn geschikt voor gebruik met bedrijfsgegevens; bij Team en Enterprise traint Anthropic standaard niet op de content, en de data wordt volgens Anthropic in de VS opgeslagen (stand september 2026). Wie voor Claude kiest, doet dat vaak vanwege lange documenten, schrijfwerk of het delegeren van taken.
 - **Vervolgvragen:**
-  1. *Wat kost Claude voor bedrijven per gebruiker?* Een standaardplek in het Team-abonnement van Claude voor bedrijven kost $20 per gebruiker per maand bij jaarbetaling of $25 bij maandbetaling, en een premiumplek $100 of $125. Enterprise kost $20 per plek per maand bij jaarbetaling plus gebruik tegen API-tarieven, met een jaarcontract van minimaal 20 plekken. Dat zijn Amerikaanse lijstprijzen exclusief btw, stand september 2026.
-  2. *Kan de data van Claude voor bedrijven in de app in Europa worden opgeslagen?* Op dit moment kan Europese dataopslag bij Claude voor bedrijven alleen via de cloudplatforms, niet in de app (stand september 2026). In de zakelijke abonnementen wordt de data volgens Anthropic opgeslagen in de VS. Voor Europese dataopslag en verwerking wijst Anthropic naar de regionale endpoints van AWS Bedrock en Google Vertex, een route voor eigen toepassingen via de API en niet voor de claude.ai-app.
-  3. *Zijn de abonnementen Pro en Max geschikt voor bedrijfsdata?* Nee. Pro en Max zijn persoonlijke abonnementen waarbij modeltraining op gesprekken aan staat tot de gebruiker het zelf uitzet, en centraal beheer ontbreekt. Voor Claude voor bedrijven met bedrijfsgegevens zijn alleen Team en Enterprise geschikt (stand september 2026).
+  1. *Kan de data van Claude voor bedrijven in de app in Europa worden opgeslagen?* Op dit moment kan Europese dataopslag bij Claude voor bedrijven alleen via de cloudplatforms, niet in de app (stand september 2026). In de zakelijke abonnementen wordt de data volgens Anthropic opgeslagen in de VS. Voor Europese dataopslag en verwerking wijst Anthropic naar de regionale endpoints van AWS Bedrock en Google Vertex, een route voor eigen toepassingen via de API en niet voor de claude.ai-app.
+  2. *Zijn de abonnementen Pro en Max geschikt voor bedrijfsdata?* Nee. Pro en Max zijn persoonlijke abonnementen waarbij modeltraining op gesprekken aan staat tot de gebruiker het zelf uitzet, en centraal beheer ontbreekt. Voor Claude voor bedrijven met bedrijfsgegevens zijn alleen Team en Enterprise geschikt (stand september 2026).
 - **Bronregel:** Bron: artikel van Dave Willemstein.
 - **Herkomst:** Antwoord: lede, summary, eerste alinea en diagram onder 'Zakelijke mogelijkheden', alinea 'Waar staat je data?' en de slotzin van de eerste alinea na de tabel onder 'Claude versus ChatGPT en Gemini'. Vervolgvraag 1: prijslijst onder 'Zakelijke mogelijkheden'. Vervolgvraag 2: alinea 'Waar staat je data?' en de alinea na de vergelijkingstabel. Vervolgvraag 3: eerste alinea en diagram onder 'Zakelijke mogelijkheden'.
 
@@ -818,15 +810,14 @@ Pagina: Claude voor bedrijven: mogelijkheden en toepassingen
 Pagina: Gemini voor bedrijven: toepassingen in Google Workspace
 
 - **Status:** concept (8 van 9 zinnen bevestigd, 0 geschrapt, 1 voorgelegd, 0 bevinding(en) open)
-- **Externe feiten:** 8 zin(nen) met een feit van buiten de eigen dienstverlening (toolprijs). Het blok blijft daarom concept; zie docs/rag-verificatie.md.
+- **Externe feiten:** 5 zin(nen) met een feit van buiten de eigen dienstverlening (toolprijs). Het blok blijft daarom concept; zie docs/rag-verificatie.md.
 - **Bloktype:** kennisbank
 - **Plek:** eigen vraagkop, na de hero en vóór de eerste bestaande H2 ("Wat is Gemini?").
 - **Vraagkop:** Wat krijgt een organisatie met Gemini voor bedrijven in Google Workspace?
 - **Antwoordalinea:** Gemini voor bedrijven is de generatieve AI van Google, die sinds januari 2025 zonder aparte AI-licentie in de Business- en Enterprise-edities van Google Workspace zit; welke functies beschikbaar zijn, verschilt per editie. Bij organisaties die al met Google Workspace werken, zit Gemini waarschijnlijk al in het abonnement, zodat de vraag minder is of het wordt gekocht en meer hoe het wordt ingezet en welke afspraken over data gelden. Volgens Google dient klantdata uit Workspace zonder toestemming of instructie van de klant niet als trainingsmateriaal voor modellen (stand september 2026).
 - **Vervolgvragen:**
-  1. *Wat kost Gemini voor bedrijven per gebruiker?* Business Starter kost € 6,80, Business Standard € 13,60 en Business Plus € 21,10: dat zijn de Business-edities van Google Workspace met Gemini voor bedrijven, per gebruiker per maand bij een jaarcontract, exclusief belastingen (stand september 2026). De prijs van de Enterprise-editie is op aanvraag.
-  2. *Werkt Gemini voor bedrijven in Docs en Sheets met de editie Business Starter?* In Business Starter zit Gemini voor bedrijven volgens Google niet in Docs en Sheets, wel in Gmail en in de Gemini-app (stand september 2026). In Business Standard zit Gemini in onder andere Gmail, Docs en Meet.
-  3. *Kan Gemini voor bedrijven gegevens ophalen waar een medewerker geen toegang toe heeft?* Gemini voor bedrijven haalt volgens Google alleen gegevens op waartoe de gebruiker zelf toegang heeft. Te ruim gedeelde Drive-mappen komen daardoor wel sneller boven, dus het opschonen van toegangsrechten hoort vóór een brede uitrol.
+  1. *Werkt Gemini voor bedrijven in Docs en Sheets met de editie Business Starter?* In Business Starter zit Gemini voor bedrijven volgens Google niet in Docs en Sheets, wel in Gmail en in de Gemini-app (stand september 2026).
+  2. *Kan Gemini voor bedrijven gegevens ophalen waar een medewerker geen toegang toe heeft?* Gemini voor bedrijven haalt volgens Google alleen gegevens op waartoe de gebruiker zelf toegang heeft. Te ruim gedeelde Drive-mappen komen daardoor wel sneller boven, dus het opschonen van toegangsrechten hoort vóór een brede uitrol.
 - **Bronregel:** Bron: artikel van Dave Willemstein.
 - **Herkomst:** Antwoord: lede, eerste alinea onder 'Gemini in Google Workspace' en het eerste punt onder 'Privacy en data'. Vervolgvraag 1 en 2: editietabel onder 'Gemini in Google Workspace'. Vervolgvraag 3: punt 'Gemini volgt toegangsrechten' en aandachtspunt 1 onder 'Privacy en data'.
 
@@ -835,15 +826,14 @@ Pagina: Gemini voor bedrijven: toepassingen in Google Workspace
 Pagina: Microsoft Copilot voor bedrijven: wat kun je ermee?
 
 - **Status:** concept (7 van 8 zinnen bevestigd, 0 geschrapt, 1 voorgelegd, 0 bevinding(en) open)
-- **Externe feiten:** 8 zin(nen) met een feit van buiten de eigen dienstverlening (toolprijs). Het blok blijft daarom concept; zie docs/rag-verificatie.md.
+- **Externe feiten:** 5 zin(nen) met een feit van buiten de eigen dienstverlening (toolprijs). Het blok blijft daarom concept; zie docs/rag-verificatie.md.
 - **Bloktype:** kennisbank
 - **Plek:** antwoordalinea direct onder de bestaande H2 "Wat is Microsoft Copilot?"; vervolgvragen en bronregel aan het eind van die sectie. Geen eigen kop.
 - **Vraagkop:** Wat is Microsoft Copilot? (bestaand)
-- **Antwoordalinea:** Microsoft Copilot is de AI-assistent van Microsoft voor werk, die taalmodellen koppelt aan apps zoals Outlook, Teams, Word, Excel en PowerPoint en aan de mail, agenda, chats, vergaderingen en documenten daarin. Microsoft onderscheidt grofweg twee niveaus (stand september 2026): Copilot Chat, volgens Microsoft zonder extra kosten beschikbaar bij een geschikt Microsoft 365-abonnement, en de betaalde licentie, waarmee Copilot kan redeneren over de volle breedte van de werkdata. Omdat Copilot de bestaande toegangsrechten volgt, komen te ruim gedeelde bestanden in antwoorden naar boven en hoort het opschonen van die rechten bij de voorbereiding.
+- **Antwoordalinea:** Microsoft Copilot is de AI-assistent van Microsoft voor werk, die taalmodellen koppelt aan apps zoals Outlook, Teams, Word, Excel en PowerPoint en aan de mail, agenda, chats, vergaderingen en documenten daarin. Omdat Copilot de bestaande toegangsrechten volgt, komen te ruim gedeelde bestanden in antwoorden naar boven en hoort het opschonen van die rechten bij de voorbereiding.
 - **Vervolgvragen:**
-  1. *Wat kost een betaalde licentie voor Microsoft Copilot?* Copilot Business kost € 18,20 en Microsoft Copilot voor enterprise € 26,00 per gebruiker per maand, bij jaarlijkse betaling en exclusief btw (stand september 2026). Wie Copilot Business van 1 juli tot en met 31 december 2026 afsluit, betaalt het eerste jaar tijdelijk € 15,60.
-  2. *Worden prompts en antwoorden gebruikt om de basismodellen achter Microsoft Copilot te trainen?* Nee, volgens wat Microsoft toezegt in de privacydocumentatie van Microsoft Copilot (stand september 2026): prompts, antwoorden en gegevens die via Microsoft Graph worden opgehaald, worden niet gebruikt om de basismodellen te trainen.
-  3. *Welke data gebruikt Copilot Chat en welke de betaalde licentie van Microsoft Copilot?* Copilot Chat is vooral een chat die antwoordt op basis van het web en van wat de gebruiker zelf aanlevert, en kan in Outlook ook met mailbox, agenda en vergaderingen werken. Pas met de betaalde licentie werkt Microsoft Copilot breed met de eigen bedrijfsinformatie: Copilot kan dan redeneren over de volle breedte van de werkdata, zoals mail, chats, vergaderingen, documenten en sites, voor zover de gebruiker daar toegang toe heeft.
+  1. *Worden prompts en antwoorden gebruikt om de basismodellen achter Microsoft Copilot te trainen?* Nee, volgens wat Microsoft toezegt in de privacydocumentatie van Microsoft Copilot (stand september 2026): prompts, antwoorden en gegevens die via Microsoft Graph worden opgehaald, worden niet gebruikt om de basismodellen te trainen.
+  2. *Welke data gebruikt Copilot Chat en welke de betaalde licentie van Microsoft Copilot?* Copilot Chat is vooral een chat die antwoordt op basis van het web en van wat de gebruiker zelf aanlevert, en kan in Outlook ook met mailbox, agenda en vergaderingen werken. Pas met de betaalde licentie werkt Microsoft Copilot breed met de eigen bedrijfsinformatie: Copilot kan dan redeneren over de volle breedte van de werkdata, zoals mail, chats, vergaderingen, documenten en sites, voor zover de gebruiker daar toegang toe heeft.
 - **Bronregel:** Bron: artikel van Dave Willemstein.
 - **Herkomst:** Antwoord: eerste alinea onder 'Wat is Microsoft Copilot?', de twee niveaus onder 'Licenties' en de alinea over bestaande rechten onder 'Randvoorwaarden voor je data'. Vervolgvraag 1 en 3: prijstabel, opsomming en bijschrift van de matrix onder 'Licenties'. Vervolgvraag 2: punt 'Geen training op je data' met de inleidende zin erboven.
 
@@ -861,7 +851,7 @@ Pagina: Notuleren met AI: tools, werkwijze en privacy
   1. *Op welke manieren kan een tool meeluisteren bij notuleren met AI?* Er zijn bij notuleren met AI grofweg drie manieren: ingebouwd in het vergaderplatform, via een bot die als deelnemer aan de vergadering wordt toegevoegd, of via een app op de computer die het geluid lokaal opneemt. Die keuze bepaalt wie ziet dat er wordt opgenomen, waar de data terechtkomt en of het ook werkt bij externe vergaderingen.
   2. *Welke vergaderingen vragen extra voorzichtigheid bij notuleren met AI?* Vergaderingen waarin gevoelige onderwerpen langskomen, zoals gezondheid in een verzuimgesprek of een reorganisatie: daar is het advies bij notuleren met AI extra voorzichtig te zijn. Bij zulke vergaderingen staat de AI-notulist beter uit.
   3. *Waarmee begint het inrichten van notuleren met AI?* Met de keuze voor één tool die past bij het vergaderplatform en de taal en die zakelijk te contracteren is; het advies is medewerkers niet elk een eigen gratis tool te laten gebruiken. Daarna worden bij notuleren met AI de spelregels vastgelegd: bij welke vergaderingen de notulist aan mag, hoe dat wordt aangekondigd, wie het verslag controleert en hoe lang opnames en transcripten worden bewaard.
-- **Bronregel:** Bron: artikel van Dave Willemstein.
+- **Bronregel:** Bron: artikel van Dave Willemstein; primaire bron: Verordening (EU) 2016/679 (AVG), EUR-Lex; Autoriteit Persoonsgegevens: Controle van communicatiemiddelen (peildatum 6 oktober 2026).
 - **Herkomst:** Antwoord: 'Hoe werkt notuleren met AI?' met het stappenschema, summary en de eerste alinea onder 'Privacy en AVG'. Vervolgvraag 1: de lijst met grofweg drie manieren van meeluisteren. Vervolgvraag 2: alinea 'Waar staat de data en wie kan erbij?'. Vervolgvraag 3: stap 1 en 2 onder 'Zo richt je het in'.
 
 ### `/kennisbank/prompt-engineering`
@@ -950,12 +940,11 @@ Pagina: Wat doet een BI specialist?
 
 Pagina: AI-adoptie begint bij het werk
 
-- **Status:** concept (12 van 12 zinnen bevestigd, 0 geschrapt, 0 voorgelegd, 0 bevinding(en) open)
-- **Externe feiten:** 1 zin(nen) met een feit van buiten de eigen dienstverlening (marktcijfer). Het blok blijft daarom concept; zie docs/rag-verificatie.md.
+- **Status:** geverifieerd (12 van 12 zinnen bevestigd, 0 geschrapt, 0 voorgelegd, 0 bevinding(en) open)
 - **Bloktype:** kennisbank
 - **Plek:** eigen vraagkop, na de hero en vóór de eerste bestaande H2 ("Het patroon dat zich overal herhaalt").
 - **Vraagkop:** Waarom blijft AI-adoptie laag na de uitrol van een tool en wat werkt wel?
-- **Antwoordalinea:** Bij AI-adoptie zien organisaties die AI-tools uitrollen doorgaans tien tot vijftien procent wekelijks gebruik, omdat een algemene AI-assistent geen enkel startpunt biedt en medewerkers onzeker zijn over wat mag. Wat wel werkt, is per rol drie tot vijf concrete scenario's aanbieden als kant-en-klaar startpunt, zoals een knop, een sjabloon of een vooraf ingevulde opdracht. Adoptie verspreidt zich via collega's, met ambassadeurs per team, en het advies is de meting uit te splitsen naar rol of team in plaats van één adoptiepercentage over de hele organisatie te gebruiken.
+- **Antwoordalinea:** Wat wel werkt, is per rol drie tot vijf concrete scenario's aanbieden als kant-en-klaar startpunt, zoals een knop, een sjabloon of een vooraf ingevulde opdracht. Adoptie verspreidt zich via collega's, met ambassadeurs per team, en het advies is de meting uit te splitsen naar rol of team in plaats van één adoptiepercentage over de hele organisatie te gebruiken.
 - **Vervolgvragen:**
   1. *Betekent lage AI-adoptie dat medewerkers er nog niet klaar voor zijn?* Bijna altijd niet: de conclusie dat medewerkers er nog niet klaar voor zijn, is bij lage AI-adoptie bijna altijd onjuist. Volgens het artikel zit het probleem in het ontwerp van de introductie en niet in de bereidheid. Bij twijfel over wat mag, doen medewerkers niets, en dat is verstandig gedrag bij onduidelijke regels.
   2. *Is één adoptiepercentage voor de hele organisatie genoeg om AI-adoptie te volgen?* Nee. Eén adoptiepercentage over de hele organisatie verbergt bij AI-adoptie waar het wel en niet werkt. Een meting per rol of team kijkt naar het wekelijkse gebruik, naar het gebruikte scenario en naar wat medewerkers doen die het één keer probeerden en niet terugkwamen.
@@ -988,12 +977,12 @@ Pagina: AI-governance zonder bureaucratie
 - **Bloktype:** kennisbank
 - **Plek:** eigen vraagkop, na de hero en vóór de eerste bestaande H2 ("Het echte risico van AI-governance").
 - **Vraagkop:** Hoe richt een organisatie AI-governance in zonder dat het bureaucratie wordt?
-- **Antwoordalinea:** AI-governance blijft licht als toepassingen eerst naar risico worden ingedeeld in laag, midden en hoog, zodat alleen de hoogste categorie het zwaarste regime krijgt. Daarnaast heeft een organisatie minimaal vier mechanismen nodig: één register van alle AI-toepassingen, één poort voor beoordeling vooraf, één periodieke toets en één escalatiepad. Het risico van te veel regelen is dat mensen eromheen gaan werken en er een schaduwpraktijk ontstaat met tools die niemand kent, terwijl de organisatie denkt in controle te zijn.
+- **Antwoordalinea:** Daarnaast heeft een organisatie minimaal vier mechanismen nodig: één register van alle AI-toepassingen, één poort voor beoordeling vooraf, één periodieke toets en één escalatiepad. Het risico van te veel regelen is dat mensen eromheen gaan werken en er een schaduwpraktijk ontstaat met tools die niemand kent, terwijl de organisatie denkt in controle te zijn.
 - **Vervolgvragen:**
   1. *Is een aparte AI-ethiekcommissie nodig voor AI-governance?* Meestal niet: voor AI-governance is het meestal beter om AI als onderwerp toe te voegen aan het gremium dat er binnen de bestaande risicostructuur al is. Dat gremium heeft mandaat en vergadert al.
   2. *Kan het register voor AI-governance een spreadsheet zijn?* Ja, als de spreadsheet klopt: voor AI-governance verslaat een spreadsheet die klopt een GRC-module die half gevuld is. Het register bevat per toepassing de eigenaar, het doel, het risiconiveau, de gebruikte data, de leverancier en het moment van de laatste beoordeling.
   3. *Is de risico-indeling voor AI-governance in drie niveaus ook een juridisch oordeel onder de Europese AI-verordening?* Nee. De indeling in drie niveaus is een werkmodel om binnen AI-governance het interne gesprek te structureren. De Europese AI-verordening hanteert een eigen classificatie, en het advies is de juridische afdeling of een gespecialiseerde adviseur te laten vaststellen waar toepassingen exact onder vallen.
-- **Bronregel:** Bron: artikel van Dave Willemstein.
+- **Bronregel:** Bron: artikel van Dave Willemstein; primaire bron: Verordening (EU) 2024/1689 (AI Act), EUR-Lex; Europese Commissie, "AI Act" (regulatory framework AI) (peildatum 6 oktober 2026).
 - **Herkomst:** Antwoord: 'Het echte risico van AI-governance', 'Begin bij risicoclassificatie, niet bij techniek' en 'De vier mechanismen die je minimaal nodig hebt'. Vervolgvraag 1: 'Wat je kunt overslaan'. Vervolgvraag 2: '1. Eén register'. Vervolgvraag 3: slotalinea onder de risicoclassificatie.
 
 ### `/inzichten/ai-vendorselectie-in-acht-stappen`
@@ -1016,16 +1005,14 @@ Pagina: AI-vendorselectie in acht stappen
 
 Pagina: Build, buy of partner: wat past bij jouw situatie?
 
-- **Status:** concept (9 van 9 zinnen bevestigd, 0 geschrapt, 0 voorgelegd, 0 bevinding(en) open)
-- **Externe feiten:** 2 zin(nen) met een feit van buiten de eigen dienstverlening (marktcijfer). Het blok blijft daarom concept; zie docs/rag-verificatie.md.
+- **Status:** geverifieerd (9 van 9 zinnen bevestigd, 0 geschrapt, 0 voorgelegd, 0 bevinding(en) open)
 - **Bloktype:** kennisbank
 - **Plek:** eigen vraagkop, na de hero en vóór de eerste bestaande H2 ("Waarom deze keuze zwaarder weegt bij AI").
 - **Vraagkop:** Wanneer kiest een organisatie bij AI voor build, buy of partner?
 - **Antwoordalinea:** De keuze tussen build, buy of partner bij AI hangt af van vier vragen: is de toepassing onderscheidend, wat kost ze in jaar vijf, wie moet de uitkomst kunnen sturen en hoe verloopt de exit. Zelf bouwen past alleen bij wat een organisatie in de markt onderscheidt, kopen bij alles wat een commodity is, en een partner bij toepassingen waar sturing op de uitkomst nodig is zonder de techniek te bezitten. De opzet die het vaakst standhoudt is een mengvorm: de bouwstenen kopen, de laag met eigen kennis zelf bouwen en voor de implementatie een partner inschakelen.
 - **Vervolgvragen:**
-  1. *Blijft zelf bouwen bij build, buy of partner goedkoop na jaar één?* Vaak keert de conclusie om wanneer het onderhoud vijf jaar wordt doorgerekend en met een licentie vergeleken: bij build, buy of partner is bouwen goedkoop in jaar één. Een vuistregel uit de praktijk is dat het jaarlijkse onderhoud van een zelfgebouwde AI-toepassing tussen de 20% en 40% van de oorspronkelijke bouwkosten ligt.
+  1. *Blijft zelf bouwen bij build, buy of partner goedkoop na jaar één?* Vaak keert de conclusie om wanneer het onderhoud vijf jaar wordt doorgerekend en met een licentie vergeleken: bij build, buy of partner is bouwen goedkoop in jaar één.
   2. *Is kopen bij twijfel tussen build, buy of partner de goedkoopste manier om te leren wat nodig is?* Bijna altijd: bij twijfel tussen build, buy of partner is kopen bijna altijd de goedkoopste manier om te leren wat werkelijk nodig is. Later bouwen kan alsnog, met een scherpere specificatie.
-  3. *Welk deel van wat organisaties zelf willen bouwen is bij build, buy of partner werkelijk onderscheidend?* Hooguit tien tot twintig procent, in de praktijk: zo veel van wat organisaties willen bouwen is werkelijk onderscheidend. De toets bij build, buy of partner is of de belangrijkste concurrent hetzelfde resultaat morgen bij een leverancier kan kopen: is dat zo, dan is het een commodity.
 - **Bronregel:** Bron: artikel van Dave Willemstein.
 - **Herkomst:** Antwoord: 'De vier vragen die de keuze bepalen', summary en 'De hybride vorm die het vaakst werkt'. Vervolgvraag 1: 'Vraag 2: Wat kost het in jaar vijf?'. Vervolgvraag 2: slotalinea van 'Drie situaties waarin de keuze duidelijk is'. Vervolgvraag 3: 'Vraag 1: Is dit onderscheidend, of is het een commodity?'.
 
@@ -1034,15 +1021,14 @@ Pagina: Build, buy of partner: wat past bij jouw situatie?
 Pagina: De business case voor AI, eerlijk berekend
 
 - **Status:** concept (10 van 11 zinnen bevestigd, 0 geschrapt, 1 voorgelegd, 0 bevinding(en) open)
-- **Externe feiten:** 2 zin(nen) met een feit van buiten de eigen dienstverlening (toolprijs, overig extern). Het blok blijft daarom concept; zie docs/rag-verificatie.md.
+- **Externe feiten:** 1 zin(nen) met een feit van buiten de eigen dienstverlening (overig extern). Het blok blijft daarom concept; zie docs/rag-verificatie.md.
 - **Bloktype:** kennisbank
 - **Plek:** eigen vraagkop, na de hero en vóór de eerste bestaande H2 ("Waar AI-businesscases sneuvelen").
 - **Vraagkop:** Wat hoort er in een business case voor AI die een jaar later nog standhoudt?
-- **Antwoordalinea:** In een business case voor AI tellen bespaarde uren pas als besparing wanneer de kosten echt dalen, en hoort de volledige kostenkant: verbruik, beheer, integratie, verandering en governance. De uitkomst staat er als bandbreedte in, met de aannames over adoptie, volume en het omzetten van tijdwinst in geld zichtbaar bovenaan. Bij goedkeuring ligt vast welke cijfers na twaalf maanden worden gerapporteerd, wat de nulmeting is en bij welke uitkomst wordt bijgestuurd of gestopt.
+- **Antwoordalinea:** In een business case voor AI tellen bespaarde uren pas als besparing wanneer de kosten echt dalen, en hoort de volledige kostenkant: verbruik, beheer, integratie, verandering en governance. De uitkomst staat er als bandbreedte in, met de aannames over adoptie, volume en het omzetten van tijdwinst in geld zichtbaar bovenaan.
 - **Vervolgvragen:**
   1. *Telt extra tijd voor waardevol werk mee als besparing in een business case voor AI?* Nee. Meer tijd voor waardevol werk is echte waarde, maar geen financiële besparing. In een business case voor AI hoort die post bij de kwalitatieve baten en niet in de rekensom.
-  2. *Stijgen de variabele kosten bij AI mee met het gebruik?* Ja. Bij AI wordt vaak betaald per verwerkt document, per gesprek of per verwerkte hoeveelheid tekst. Het artikel raadt aan voor een business case voor AI de kosten per transactie in de pilot te meten en te vermenigvuldigen met het verwachte volume bij volledige uitrol.
-  3. *Hoe lang duurt de productiviteitsdip in de eerste weken?* Doorgaans vier tot acht weken. Het artikel raadt aan die dip op te nemen in een business case voor AI: dat maakt de case geloofwaardiger, niet zwakker.
+  2. *Hoe lang duurt de productiviteitsdip in de eerste weken?* Doorgaans vier tot acht weken. Het artikel raadt aan die dip op te nemen in een business case voor AI: dat maakt de case geloofwaardiger, niet zwakker.
 - **Bronregel:** Bron: artikel van Dave Willemstein.
 - **Herkomst:** Antwoord: summary, 'De kostenkant: waar het meestal misgaat', 'Werk met bandbreedtes, niet met puntschattingen' en 'Spreek af wat je over een jaar meet'. Vervolgvraag 1: '1. Kostenreductie'. Vervolgvraag 2: takeaway 'Verbruikskosten schalen mee' en 'Verbruikskosten die meeschalen'. Vervolgvraag 3: 'Verandering en opleiding'.
 
@@ -1130,16 +1116,14 @@ Pagina: Wanneer heb je echt een AI-strateeg nodig?
 
 Pagina: Welke AI-use cases leveren écht resultaat op?
 
-- **Status:** concept (10 van 10 zinnen bevestigd, 0 geschrapt, 0 voorgelegd, 0 bevinding(en) open)
-- **Externe feiten:** 1 zin(nen) met een feit van buiten de eigen dienstverlening (marktcijfer). Het blok blijft daarom concept; zie docs/rag-verificatie.md.
+- **Status:** geverifieerd (10 van 10 zinnen bevestigd, 0 geschrapt, 0 voorgelegd, 0 bevinding(en) open)
 - **Bloktype:** kennisbank
 - **Plek:** eigen vraagkop, na de hero en vóór de eerste bestaande H2 ("Het patroon achter de winnaars").
 - **Vraagkop:** Waaraan zijn AI-use cases te herkennen die resultaat opleveren?
 - **Antwoordalinea:** AI-use cases die resultaat opleveren, delen vier kenmerken: een hoog volume met weinig variatie, fouten waarvan de kosten bekend en betaalbaar zijn, een menselijke controlestap die al in het proces zit en data die al bestaat en al voor beslissingen wordt gebruikt. Technologie komt in geen van die vier kenmerken voor. Vrijwel altijd stranden de assistent die alles kan, het voorspelmodel zonder besluit erachter, de use case zonder eigenaar in de lijn en de automatisering van een proces dat beter afgeschaft kan worden.
 - **Vervolgvragen:**
-  1. *Geldt iedereen een AI-assistent geven als een van de AI-use cases?* Nee. Iedereen een AI-assistent geven hoort niet bij de AI-use cases: het is geen use case maar een licentie, en zonder afgebakende scenario's blijft het gebruik hangen rond de tien procent. Het advies bij zo'n AI-assistent is drie tot vijf concrete taken te kiezen, daar kant-en-klare startpunten voor te maken en pas later vrijheid toe te voegen.
-  2. *Wat gebeurt er met AI-use cases die beginnen met het verzamelen van data?* AI-use cases die beginnen met eerst data verzamelen, schuiven minstens een jaar op. Soms is dat de juiste investering, maar dan heet het een datatraject en geen AI-use case.
-  3. *Welke AI-use cases gaan bij het prioriteren niet eerst?* AI-use cases die onder de 15 punten scoren, gaan niet eerst; bij het prioriteren worden meestal vijf vragen gebruikt, elk met een score van 1 tot 5. De vijf vragen gaan over volume, variatie, datagereedheid, veiligheid en trekkracht.
+  1. *Wat gebeurt er met AI-use cases die beginnen met het verzamelen van data?* AI-use cases die beginnen met eerst data verzamelen, schuiven minstens een jaar op. Soms is dat de juiste investering, maar dan heet het een datatraject en geen AI-use case.
+  2. *Welke AI-use cases gaan bij het prioriteren niet eerst?* AI-use cases die onder de 15 punten scoren, gaan niet eerst; bij het prioriteren worden meestal vijf vragen gebruikt, elk met een score van 1 tot 5. De vijf vragen gaan over volume, variatie, datagereedheid, veiligheid en trekkracht.
 - **Bronregel:** Bron: artikel van Dave Willemstein.
 - **Herkomst:** Antwoord: 'Het patroon achter de winnaars' met de vier genummerde kenmerken en 'Vier patronen die vrijwel altijd stranden'. Vervolgvraag 1: 'De assistent die alles kan'. Vervolgvraag 2: '4. De data bestaat al en wordt al gebruikt'. Vervolgvraag 3: 'Een praktische scoringsvraag'.
 
