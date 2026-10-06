@@ -344,3 +344,162 @@ Aanvulling op hoofdstuk 8 van `docs/rag-inventarisatie.md`. Deze diensten hebben
 | Cases | Alle zes | Geverifieerde cijfers; cases krijgen voorlopig geen blok |
 
 Ongewijzigd uit jouw besluit: `/tarieven` krijgt bij de uitrol alleen een vraagkop, antwoordalinea en bronregel rond de bestaande tabel, geen tweede tabel.
+
+---
+
+# Vervolg: aanpassingen na akkoord en derde pilot
+
+Stand: 6 oktober 2026, na jouw akkoord op de pilot. Hoofdstuk 1 tot en met 10 hierboven beschrijven de eerste ronde en zijn niet herschreven; waar dit vervolg afwijkt, geldt dit vervolg.
+
+## 11. Wat er is aangepast
+
+| Commit | Inhoud |
+|---|---|
+| `f3040c8` | Afzender alleen in antwoordalinea en bronregel; maximaal één link per doel-URL; beide pilotblokken aangepast en hun nulmeting bijgewerkt |
+| `ef57e89` | `aria-label` van het diagram op `/ai-consultancy/ai-strategie` volgt `prijzen.ts` (2-3 weken) |
+| `9eeecbb` | Overal "het AI Readiness Assessment" in bestaande tekst |
+| `04094e8` | `/ai-consultancy/ai-consultant-inhuren`, blok onder een bestaande vraagkop |
+
+**Afzender.** Het schema weigert `{{afzender}}` in een vervolgvraag en eist hem in de bronregel en, bij dienstachtige blokken, in de antwoordalinea. `check-rag.mjs` controleert hetzelfde in de HTML en eist per vervolgvraag de volledige dienstnaam of het onderwerp.
+
+**Eén link per doel.** De renderfunctie zet de link zelf: in de tabelrij als het doel daar staat, anders bij de eerste vermelding. `check-rag.mjs` faalt bij een tweede link naar hetzelfde doel, bij een link in een alinea terwijl het doel in een tabelrij staat, en bij een link die niet bij de eerste vermelding staat. Eén geval dat jouw regel niet letterlijk dekt: een dienst die alleen in een vervolgvraag voorkomt (de Executive Briefing op de pagina van het Readiness Assessment) krijgt zijn link daar, bij de eerste vermelding. Bestaande links op de pagina zijn niet aangeraakt.
+
+**"Sessie van drie uur"** bij de Executive Briefing is blijven staan. In je bericht stond bij dat punt nog een open invulveld; ik heb het gelezen als "blijft staan tot je iets anders zegt".
+
+## 12. "Het AI Readiness Assessment" in bestaande tekst (commit `9eeecbb`)
+
+Een correctie op mijn vorige rapport: ik schreef dat de dienstpagina "de AI Readiness Assessment" gebruikte. Dat klopte niet. Op de dienstpagina zelf stond geen lidwoord bij de naam; het enige "de" stond in mijn eigen blok. Het lidwoord "de" stond wel op alle 55 contentpagina's.
+
+Omdat je "overal" schreef, heb ik het daar aangepast. Dat is groter dan je op basis van mijn rapport kon verwachten, dus hier precies wat het raakt:
+
+| Waar | Aantal | Voorbeeld |
+|---|---|---|
+| Knop in de zijkolom (`src/pages/[...slug].astro`) | 1 regel, zichtbaar op 55 pagina's | "Bekijk het AI Readiness Assessment →" |
+| CTA-label in frontmatter | 36 pagina's | `label: "Bekijk het AI Readiness Assessment"` |
+| Zin in lopende tekst of FAQ | 19 zinnen op 18 pagina's | "Dan is het AI Readiness Assessment het logische startpunt." |
+| `planning/SCHRIJFRICHTLIJN.md` | 1 bestand | CTA-afspraak voor nieuwe pagina's |
+
+Alleen het lidwoord is gewijzigd (57 regels, 39 bestanden). Op 55 pagina's wijzigen daardoor ankerteksten en bodytekst, en op `/ai-implementatie/advies` ook de FAQ in de structured data. Title, meta description, canonical, H1 en koppen zijn nergens gewijzigd. De volledige voor- en na-controle per pagina staat in `docs/rag-wijziging-het.txt`; de nulmeting van die 55 pagina's is in dezelfde commit bijgewerkt. Wil je dit niet, dan draait `git revert 9eeecbb` de tekst en de nulmeting samen terug.
+
+Niet aangepast: de Excel-planning en `planning/specs/*.json`, waar het CTA-label nog met "de" staat.
+
+## 13. Pilot 1 en 2 na de aanpassingen
+
+Nulmeting van beide pagina's is bijgewerkt; ze staan nu als ongewijzigd in de controle. Beide blokken zijn niet meer als concept gemarkeerd.
+
+### `/diensten/ai-readiness-assessment`
+
+```html
+<section class="rag-blok">
+<h2>Wat levert het AI Readiness Assessment op en wat kost het?</h2>
+<p class="rag-blok__antwoord">Het AI Readiness Assessment van Dave Willemstein laat organisaties die AI overwegen maar nog geen richting hebben gekozen zien wat haalbaar is en wat eerst moet. Het resultaat is een readiness-score op strategie, data, technologie, mensen en governance, een gap-analyse en een 90-dagenplan. De doorlichting duurt 2-3 weken en kost €7.000, als vaste prijs exclusief btw en reiskosten.</p>
+<h3>Hoe lang duurt het AI Readiness Assessment?</h3>
+<p>2-3 weken. In die periode bestaat het AI Readiness Assessment uit een documentenanalyse, een datascan en 8 tot 12 interviews, gevolgd door de scoring, de prioritering en een eindsessie.</p>
+<h3>Is de prijs van het AI Readiness Assessment een vaste prijs?</h3>
+<p>Ja. Het AI Readiness Assessment kost €7.000 als vaste prijs, en de eindpresentatie aan MT of board zit daarbij in. Het bedrag is exclusief btw en reiskosten.</p>
+<h3>Wordt een Executive Briefing verrekend met het AI Readiness Assessment?</h3>
+<p>Ja. De <a href="/diensten/executive-briefing">Executive Briefing</a> kost €2.800 en wordt volledig verrekend bij een start met het AI Readiness Assessment binnen 60 dagen.</p>
+<p class="rag-blok__bron">Bron: <a href="/tarieven">tarieven en doorlooptijden van Dave Willemstein</a>. Bijgewerkt: <time datetime="2026-10">oktober 2026</time>.</p>
+</section>
+```
+
+### `/ai-consultancy/ai-strategie`
+
+```html
+<section class="rag-blok">
+<h2>Wat kost het om een AI strategie te laten ontwikkelen en hoe lang duurt het?</h2>
+<p class="rag-blok__antwoord">Een AI strategie laten ontwikkelen door Dave Willemstein kan in één traject met de AI Strategy Sprint, die 4-6 weken duurt en €15.400 - €22.400 kost. Wie eerst wil weten wat haalbaar is, start met het AI Readiness Assessment van 2-3 weken voor €7.000. Beide bedragen zijn exclusief btw en reiskosten.</p>
+<div class="rag-blok__tabel">
+<table>
+<caption>AI strategie ontwikkelen: passende dienst per situatie</caption>
+<thead><tr><th scope="col">Situatie</th><th scope="col">Resultaat</th><th scope="col">Doorlooptijd</th><th scope="col">Prijs</th><th scope="col">Passende dienst</th></tr></thead>
+<tbody>
+<tr><th scope="row">Onduidelijk wat haalbaar is met de huidige organisatie, data en systemen</th><td>Readiness-score per dimensie, gap-analyse en 90-dagenplan</td><td>2-3 weken</td><td>€7.000</td><td><a href="/diensten/ai-readiness-assessment">AI Readiness Assessment</a></td></tr>
+<tr><th scope="row">Strategie en roadmap in één keer vastleggen, met de beslissers aan tafel</th><td>Board-ready strategie, prioriteitenmatrix en use-case roadmap</td><td>4-6 weken</td><td>€15.400 - €22.400</td><td><a href="/diensten/ai-strategy-sprint">AI Strategy Sprint</a></td></tr>
+</tbody>
+</table>
+</div>
+<h3>Is een AI strategie goedkoper als er al een AI Readiness Assessment ligt?</h3>
+<p>Ja. De AI Strategy Sprint kost €15.400 - €22.400: de onderkant geldt als er al een AI Readiness Assessment ligt, de bovenkant bij meerdere bedrijfsonderdelen.</p>
+<h3>Kan de uitkomst zijn dat een organisatie nog niet klaar is voor een AI strategie?</h3>
+<p>Ja. Het AI Readiness Assessment kan uitwijzen dat het fundament eerst op orde moet. De organisatie krijgt dan een plan voor het fundament in plaats van een plan voor use cases.</p>
+<p class="rag-blok__bron">Bron: <a href="/tarieven">tarieven en doorlooptijden van Dave Willemstein</a>. Bijgewerkt: <time datetime="2026-10">oktober 2026</time>.</p>
+</section>
+```
+
+## 14. Pilot 3: `/ai-consultancy/ai-consultant-inhuren`, onder een bestaande vraagkop
+
+**Plek:** direct onder de bestaande H2 "Wat kost een AI consultant inhuren?", vóór de bestaande alinea en de bestaande tabel met inhuurvormen. Het blok heeft geen eigen `h2` en geen tabel. De teksten zijn concept.
+
+### Diff van de bestaande pagina
+
+Geen. Het Markdown-bestand, het template en `astro.config.mjs` zijn in deze commit niet gewijzigd. De commit bevat alleen het nieuwe blokbestand en één regel registratie:
+
+```
+ .../ai-consultancy-ai-consultant-inhuren.ts        | 27 ++++++++++++++++++++++
+ src/data/rag/index.ts                              |  3 ++-
+ 2 files changed, 29 insertions(+), 1 deletion(-)
+```
+
+### Ruwe HTML (uit `curl`, zonder JavaScript), met de bestaande kop erboven en de bestaande tekst eronder
+
+```html
+<h2 id="wat-kost-een-ai-consultant-inhuren">Wat kost een AI consultant inhuren?</h2>
+<section class="rag-blok">
+<p class="rag-blok__antwoord">Een AI consultant inhuren bij Dave Willemstein kost per pakket een vaste prijs of een bedrag binnen een bandbreedte. Het <a href="/diensten/ai-readiness-assessment">AI Readiness Assessment</a> kost €7.000, de <a href="/diensten/ai-strategy-sprint">AI Strategy Sprint</a> €15.400 - €22.400 en een doorlopende rol als <a href="/diensten/fractional-ai-lead">Fractional AI Lead</a> €2.600 / €5.200 / €10.400 per maand. De bedragen gelden exclusief btw en reiskosten.</p>
+<h3>Wat is het kleinste pakket om een AI consultant in te huren?</h3>
+<p>€2.800. Voor dat bedrag is de <a href="/diensten/executive-briefing">Executive Briefing</a> het kleinste pakket met een vaste prijs.</p>
+<h3>Kan een AI consultant inhuren ook zonder vast pakket?</h3>
+<p>Ja. AI consultant inhuren kan ook voor afgebakend advies, zoals een second opinion, een workshop of een korte toets, tegen een vaste prijs die in het voorstel staat.</p>
+<p class="rag-blok__bron">Bron: <a href="/tarieven">tarieven en doorlooptijden van Dave Willemstein</a>. Bijgewerkt: <time datetime="2026-10">oktober 2026</time>.</p>
+</section>
+<p>Ik werk niet met een open uurtarief, maar met vaste pakketten en zichtbare vanaf-prijzen. Er zijn drie inhuurvormen:</p>
+<table>...</table>
+```
+
+### Voor- en na-controle
+
+```
+✓ /ai-consultancy/ai-consultant-inhuren
+  info  2 kop(pen) toegevoegd: H3: Wat is het kleinste pakket om een AI consultant in te huren? | H3: Kan een AI consultant inhuren ook zonder vast pakket?
+  info  6 tekstblok(ken) toegevoegd, 125 woorden erbij
+  info    + "Een AI consultant inhuren bij Dave Willemstein kost per pakket een vaste prijs of een bedrag binnen een bandbreedte. Het AI Readiness Assessment kost €7.000,..."
+  info    + "Wat is het kleinste pakket om een AI consultant in te huren?"
+  info    + "€2.800. Voor dat bedrag is de Executive Briefing het kleinste pakket met een vaste prijs."
+  info    + "Kan een AI consultant inhuren ook zonder vast pakket?"
+  info    + "Ja. AI consultant inhuren kan ook voor afgebakend advies, zoals een second opinion, een workshop of een korte toets, tegen een vaste prijs die in het voorste..."
+  info    + "Bron: tarieven en doorlooptijden van Dave Willemstein. Bijgewerkt: oktober 2026."
+  info  5 link(s) toegevoegd: main | /diensten/ai-readiness-assessment | AI Readiness Assessment ; main | /diensten/ai-strategy-sprint | AI Strategy Sprint ; main | /diensten/executive-briefing | Executive Briefing ; main | /tarieven | tarieven en doorlooptijden van Dave Willemstein ; main | /diensten/fractional-ai-lead | Fractional AI Lead
+  info  HTML: 34372 → 35534 bytes
+
+1 pagina's vergeleken met de nulmeting: 0 ongewijzigd, 1 met alleen toevoegingen, 0 met fouten.
+```
+
+De bestaande H2 staat nog op dezelfde plek met dezelfde tekst en hetzelfde `id`; de bestaande alinea, tabel en links eronder zijn ongewijzigd. De nulmeting van deze pagina werk ik pas bij na akkoord.
+
+## 15. Stand van de controles
+
+```
+✓ /ai-consultancy/ai-consultant-inhuren
+  info  2 kop(pen) toegevoegd
+  info  6 tekstblok(ken) toegevoegd, 125 woorden erbij
+  info  5 link(s) toegevoegd
+  info  HTML: 34372 → 35534 bytes
+90 pagina's vergeleken met de nulmeting: 89 ongewijzigd, 1 met alleen toevoegingen, 0 met fouten.
+✓ /ai-consultancy/ai-consultant-inhuren  (concept: teksten nog niet beoordeeld)
+✓ /ai-consultancy/ai-strategie
+✓ /diensten/ai-readiness-assessment
+3 RAG-blok(ken) in de databron, 0 pagina('s) met fouten, 1 concept(en) nog te beoordelen.
+90 HTML-bestanden gecontroleerd, 0 probleem/problemen.
+55 bestand(en), 0 met fouten.
+```
+
+## 16. Conceptteksten voor de overige pagina's
+
+Staan in `docs/rag-concepten.md`: 70 concepten, gegroepeerd per paginatype, met bovenaan wat wel en niet gecontroleerd is en negen beslissingen die voor meerdere blokken gelden. Er is niets van geplaatst.
+
+Nieuw in de tooling hiervoor:
+
+- `planning/check-concepten.mjs` zet concepten op hun beoogde plek in een kopie van de build en draait daar `check-rag.mjs` op, zonder de site of de databron te raken.
+- `alleenAntwoord` in het schema: de uitzondering voor `/tarieven` (alleen vraagkop, antwoordalinea en bronregel).
+- De consistentiecontrole koppelt een bedrag aan een dienst uit dezelfde zin of alinea, en een termijn alleen aan een dienst uit dezelfde zin. Zonder genoemde dienst gaat een bedrag of termijn niet over het eigen aanbod (toolprijs, wettelijke termijn) en wordt het niet tegen `prijzen.ts` gelegd.
