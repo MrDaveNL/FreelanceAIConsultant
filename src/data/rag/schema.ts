@@ -1,7 +1,7 @@
 // Datamodel voor de RAG-ready contentblokken (zie docs/rag-inventarisatie.md, hoofdstuk 9).
 // Elk blok en elke dienst wordt bij het laden gevalideerd: een ontbrekend of ongeldig veld laat de build falen.
 import { z } from 'astro/zod';
-import { begintMetJaNeeOfGetal, celFout, schrijfregelFout, telZinnen } from '../../lib/rag-tekst.js';
+import { begintMetAntwoord, begintMetBedrag, vraagtNaarBedrag, celFout, schrijfregelFout, telZinnen } from '../../lib/rag-tekst.js';
 
 const tekst = z
   .string()
@@ -68,10 +68,8 @@ export const tabelSchema = z
 export const vervolgvraagSchema = z.object({
   vraag: tekst.refine((t) => t.endsWith('?'), 'moet op een vraagteken eindigen'),
   // De afzender staat alleen in de antwoordalinea en de bronregel; hier volstaat de volledige dienstnaam.
-  antwoord: tekst
-    .refine(begintMetJaNeeOfGetal, 'moet beginnen met Ja, Nee of het getal')
-    .refine((t) => !t.includes('{{afzender}}'), 'mag de afzender niet noemen'),
-});
+  antwoord: tekst.refine((t) => !t.includes('{{afzender}}'), 'mag de afzender niet noemen'),
+}).refine((v) => begintMetAntwoord(v.antwoord, [], v.vraag), { path: ['antwoord'], message: 'moet beginnen met het antwoord op de vraag: ja of nee bij een ja-neevraag, anders het getal of de naam' });
 
 export const blokSchema = z
   .object({
@@ -102,8 +100,14 @@ export const blokSchema = z
       ctx.addIssue({ code: z.ZodIssueCode.custom, path: ['vervolgvragen'], message: 'minimaal 1 vervolgvraag' });
     if (blok.alleenAntwoord && (blok.vervolgvragen.length || blok.tabel))
       ctx.addIssue({ code: z.ZodIssueCode.custom, path: ['alleenAntwoord'], message: 'een blok met alleenAntwoord heeft geen tabel en geen vervolgvragen' });
+    // Afzender: bij dienstachtige blokken in de antwoordalinea en de bronregel, bij kennisbankblokken alleen in de bronregel.
     if (blok.type !== 'kennisbank' && !blok.antwoord.includes('{{afzender}}'))
       ctx.addIssue({ code: z.ZodIssueCode.custom, path: ['antwoord'], message: 'moet de afzender noemen ({{afzender}})' });
+    if (blok.type === 'kennisbank' && blok.antwoord.includes('{{afzender}}'))
+      ctx.addIssue({ code: z.ZodIssueCode.custom, path: ['antwoord'], message: 'kennisbankblok noemt de afzender alleen in de bronregel' });
+    for (const [i, v] of blok.vervolgvragen.entries())
+      if (begintMetBedrag(v.antwoord) && !vraagtNaarBedrag(v.vraag))
+        ctx.addIssue({ code: z.ZodIssueCode.custom, path: ['vervolgvragen', i, 'antwoord'], message: 'begint met een bedrag terwijl de vraag daar niet naar vraagt' });
     if (!blok.bron.tekst.includes('{{afzender}}'))
       ctx.addIssue({ code: z.ZodIssueCode.custom, path: ['bron', 'tekst'], message: 'moet de afzender noemen ({{afzender}})' });
   });

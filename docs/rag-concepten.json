@@ -17,14 +17,15 @@
       },
       {
         "vraag": "Hoeveel werksessies telt de AI Strategy Sprint?",
-        "antwoord": "5 werksessies. De {{dienst:ai-strategy-sprint}} verdeelt vier vaste beslismomenten over die sessies, met vier tot zes mensen in de kerngroep."
+        "antwoord": "Vijf werksessies. De {{dienst:ai-strategy-sprint}} verdeelt vier vaste beslismomenten over die sessies, met vier tot zes mensen in de kerngroep."
       }
     ],
     "bron": {
       "tekst": "tarieven en doorlooptijden van {{afzender}}",
       "href": "/tarieven"
     },
-    "herkomst": "Antwoord: lede, 'Vier vaste beslismomenten, verdeeld over vijf werksessies', deliverables en 'best passend bij' in services.js. Vervolgvraag 1: prijsnotitie in prijzen.ts. Vervolgvraag 2: 'minder geschikt als'. Vervolgvraag 3: aanpak en de bestaande FAQ over de kerngroep."
+    "herkomst": "Antwoord: lede, 'Vier vaste beslismomenten, verdeeld over vijf werksessies', deliverables en 'best passend bij' in services.js. Vervolgvraag 1: prijsnotitie in prijzen.ts. Vervolgvraag 2: 'minder geschikt als'. Vervolgvraag 3: aanpak en de bestaande FAQ over de kerngroep.",
+    "status": "concept"
   },
   {
     "pagina": "/diensten/fractional-ai-lead",
@@ -48,7 +49,8 @@
       "href": "/tarieven"
     },
     "herkomst": "Antwoord: lede, 'best passend bij' en de prijsnotitie in prijzen.ts. Vervolgvraag 1: prijsnotitie. Vervolgvraag 2: 'minder geschikt als'.",
-    "opmerking": "Geen tabel met de drie niveaus. Per niveau ontbreken een resultaat en een 'past bij' (datagat), en een kolom doorlooptijd zou in elke rij dezelfde waarde hebben. Ook staat nog open of de drie maandbedragen naast het aantal dagen in een tabel mogen."
+    "opmerking": "Geen tabel met de drie niveaus. Per niveau ontbreken een resultaat en een 'past bij' (datagat), en een kolom doorlooptijd zou in elke rij dezelfde waarde hebben. Ook staat nog open of de drie maandbedragen naast het aantal dagen in een tabel mogen.",
+    "status": "concept"
   },
   {
     "pagina": "/diensten/vendor-review",
@@ -60,7 +62,7 @@
     "vervolgvragen": [
       {
         "vraag": "Hoeveel leveranciers beoordeelt een Vendor Review?",
-        "antwoord": "2 tot 4 leveranciers. Dat aantal bepaalt waar de {{dienst:vendor-review}} binnen de bandbreedte van {{pricelc:vendor-review}} uitkomt."
+        "antwoord": "2 tot 4. Het aantal leveranciers bepaalt waar de {{dienst:vendor-review}} binnen de bandbreedte van {{pricelc:vendor-review}} uitkomt."
       },
       {
         "vraag": "Is een Vendor Review zinvol als de leverancier al gekozen is?",
@@ -72,7 +74,8 @@
       "href": "/tarieven"
     },
     "herkomst": "Antwoord: lede, deliverables en 'best passend bij' in services.js. Vervolgvraag 1: prijsnotitie in prijzen.ts. Vervolgvraag 2: 'minder geschikt als'.",
-    "opmerking": "De prijsnotitie noemt 2 tot 4 leveranciers; de case op dezelfde pagina noemt twaalf beoordeelde leveranciers. Het blok volgt de prijsnotitie. De dienst heet 'Vendor Review' in de title en 'Vendor Review & selectie' in de H1; het blok gebruikt 'Vendor Review'."
+    "opmerking": "De prijsnotitie noemt 2 tot 4 leveranciers; de case op dezelfde pagina noemt twaalf beoordeelde leveranciers. Het blok volgt de prijsnotitie. De dienst heet 'Vendor Review' in de title en 'Vendor Review & selectie' in de H1; het blok gebruikt 'Vendor Review'.",
+    "status": "concept"
   },
   {
     "pagina": "/diensten/executive-briefing",
@@ -96,7 +99,8 @@
       "href": "/tarieven"
     },
     "herkomst": "Antwoord: lede, deliverables en 'best passend bij' in services.js. Vervolgvraag 1: prijsnotitie in prijzen.ts. Vervolgvraag 2: 'minder geschikt als' en de beschrijving van blok 2 ('Open gesprek, geen slides').",
-    "opmerking": "De pagina zelf spreekt nog van een 'sessie van drie uur'; het blok noemt de doorlooptijd uit prijzen.ts."
+    "opmerking": "De pagina zelf spreekt nog van een 'sessie van drie uur'; het blok noemt de doorlooptijd uit prijzen.ts.",
+    "status": "concept"
   },
   {
     "pagina": "/diensten/ai-due-diligence",
@@ -119,7 +123,8 @@
       "tekst": "tarieven en doorlooptijden van {{afzender}}",
       "href": "/tarieven"
     },
-    "herkomst": "Antwoord: lede, deliverables en 'best passend bij' in services.js. Vervolgvraag 1: prijsnotitie in prijzen.ts. Vervolgvraag 2: 'minder geschikt als'."
+    "herkomst": "Antwoord: lede, deliverables en 'best passend bij' in services.js. Vervolgvraag 1: prijsnotitie in prijzen.ts. Vervolgvraag 2: 'minder geschikt als'.",
+    "status": "concept"
   },
   {
     "pagina": "/diensten",
@@ -127,112 +132,11 @@
     "onderwerp": "AI-dienst",
     "vraagkop": "Welke AI-dienst past bij welke situatie?",
     "onderBestaandeKop": false,
-    "antwoord": "{{afzender}} biedt zes AI-adviesdiensten met een vaste prijs of een bandbreedte, van een {{dienst:executive-briefing}} van {{timing:executive-briefing}} tot een doorlopende rol als {{dienst:fractional-ai-lead}}. Welke dienst past, hangt af van de situatie: weten waar de organisatie staat, een strategie vastleggen, een leverancier kiezen of de uitvoering borgen. De bedragen gelden exclusief btw en reiskosten.",
-    "tabel": {
-      "bijschrift": "AI-diensten van Dave Willemstein: passende dienst per situatie",
-      "kolommen": [
-        "Situatie",
-        "Doorlooptijd",
-        "Prijs",
-        "Passende dienst"
-      ],
-      "rijen": [
-        [
-          "Directie of RvC wil een gedeeld beeld van AI-kansen en risico's",
-          {
-            "dienst": "executive-briefing",
-            "veld": "doorlooptijd"
-          },
-          {
-            "dienst": "executive-briefing",
-            "veld": "prijs"
-          },
-          {
-            "dienst": "executive-briefing",
-            "veld": "naam"
-          }
-        ],
-        [
-          "Onduidelijk waar de organisatie staat met AI en wat eerst moet",
-          {
-            "dienst": "ai-readiness-assessment",
-            "veld": "doorlooptijd"
-          },
-          {
-            "dienst": "ai-readiness-assessment",
-            "veld": "prijs"
-          },
-          {
-            "dienst": "ai-readiness-assessment",
-            "veld": "naam"
-          }
-        ],
-        [
-          "Van ambitie naar een AI-strategie en roadmap",
-          {
-            "dienst": "ai-strategy-sprint",
-            "veld": "doorlooptijd"
-          },
-          {
-            "dienst": "ai-strategy-sprint",
-            "veld": "prijs"
-          },
-          {
-            "dienst": "ai-strategy-sprint",
-            "veld": "naam"
-          }
-        ],
-        [
-          "Een tool of leverancier kiezen voordat er getekend wordt",
-          {
-            "dienst": "vendor-review",
-            "veld": "doorlooptijd"
-          },
-          {
-            "dienst": "vendor-review",
-            "veld": "prijs"
-          },
-          {
-            "dienst": "vendor-review",
-            "veld": "naam"
-          }
-        ],
-        [
-          "Een AI-oplossing of AI-bedrijf beoordelen op waarde, risico en haalbaarheid",
-          {
-            "dienst": "ai-due-diligence",
-            "veld": "doorlooptijd"
-          },
-          {
-            "dienst": "ai-due-diligence",
-            "veld": "prijs"
-          },
-          {
-            "dienst": "ai-due-diligence",
-            "veld": "naam"
-          }
-        ],
-        [
-          "AI-initiatieven sturen en borgen zonder fulltime executive",
-          {
-            "dienst": "fractional-ai-lead",
-            "veld": "doorlooptijd"
-          },
-          {
-            "dienst": "fractional-ai-lead",
-            "veld": "prijs"
-          },
-          {
-            "dienst": "fractional-ai-lead",
-            "veld": "naam"
-          }
-        ]
-      ]
-    },
+    "antwoord": "{{afzender}} biedt AI-adviesdiensten met een vaste prijs of een bandbreedte, van een {{dienst:executive-briefing}} van {{timing:executive-briefing}} tot een doorlopende rol als {{dienst:fractional-ai-lead}}. Welke dienst past, hangt af van de situatie: weten waar de organisatie staat, een strategie vastleggen, een leverancier kiezen of de uitvoering borgen. De bedragen gelden exclusief btw en reiskosten.",
     "vervolgvragen": [
       {
         "vraag": "Is de kennismaking voor een AI-dienst kosteloos?",
-        "antwoord": "Ja. Elke AI-dienst begint met een kennismaking van 30 minuten zonder kosten, gevolgd door een voorstel binnen drie werkdagen."
+        "antwoord": "Ja. Elke AI-dienst begint met een kennismaking van dertig minuten zonder kosten, gevolgd door een voorstel binnen drie werkdagen."
       },
       {
         "vraag": "Staat het exacte bedrag van een AI-dienst vooraf vast?",
@@ -244,7 +148,8 @@
       "href": "/tarieven"
     },
     "herkomst": "Tabel: de kaartteksten per dienst (cardText in services.js), prijs en doorlooptijd uit prijzen.ts. Antwoord: de intro van de pagina. Vervolgvragen: 'Hoe een opdracht begint' en de notitie onder de vergelijking.",
-    "opmerking": "De pagina heeft al een vergelijking van drie van de zes diensten ('Welke past wanneer?', opgemaakt met div's). Dit blok is daarnaast een tweede vergelijking, per situatie en voor alle zes. Wil je hier net als op /tarieven geen tweede tabel, dan vervalt de tabel en blijft het blok bij antwoord en vervolgvragen."
+    "opmerking": "Geen tabel, volgens je besluit. De pagina heeft een eigen vergelijking van drie diensten.",
+    "status": "concept"
   },
   {
     "pagina": "/tarieven",
@@ -260,7 +165,8 @@
       "href": "/tarieven"
     },
     "herkomst": "Antwoord: alinea onder 'Wat kost AI consultancy?', de bestaande tabel 'Pakketten en vanaf-prijzen' en de eerste FAQ.",
-    "opmerking": "Volgens je besluit: alleen vraagkop, antwoordalinea en bronregel, geen tweede tabel en geen vervolgvragen. Het blok komt onder de bestaande H2 'Wat kost AI consultancy?'; de bestaande tabel staat één kop lager, onder 'Pakketten en vanaf-prijzen'. De bronregel linkt hier niet, omdat de bron de pagina zelf is. Dezelfde H2 staat ook op /ai-consultancy."
+    "opmerking": "Volgens je besluit: alleen vraagkop, antwoordalinea en bronregel, geen tweede tabel en geen vervolgvragen. Het blok komt onder de bestaande H2 'Wat kost AI consultancy?'; de bestaande tabel staat één kop lager, onder 'Pakketten en vanaf-prijzen'. De bronregel linkt hier niet, omdat de bron de pagina zelf is. Dezelfde H2 staat ook op /ai-consultancy.",
+    "status": "concept"
   },
   {
     "pagina": "/ai-consultancy",
@@ -288,7 +194,8 @@
       "href": "/tarieven"
     },
     "herkomst": "Antwoord: alinea's en prijstabel onder 'Wat kost AI consultancy?'. Vervolgvraag 1: alinea 'Governance en compliance' plus de tabelrij Executive Briefing. Vervolgvraag 2: alinea 'Praktisch en binnen budget'. Vervolgvraag 3: 'Wat is AI consultancy?' (tweede alinea) en 'Begeleiding bij implementatie'.",
-    "opmerking": "Geen tabel geleverd, de pagina heeft onder deze kop al een eigen prijstabel. De Executive Briefing staat niet in het antwoord maar in vervolgvraag 1, om het antwoord op drie zinnen te houden. Vervolgvraag 3 raakt inhoudelijk aan de bestaande FAQ over het verschil met een implementatiepartij, maar stelt een andere vraag."
+    "opmerking": "Geen tabel geleverd, de pagina heeft onder deze kop al een eigen prijstabel. De Executive Briefing staat niet in het antwoord maar in vervolgvraag 1, om het antwoord op drie zinnen te houden. Vervolgvraag 3 raakt inhoudelijk aan de bestaande FAQ over het verschil met een implementatiepartij, maar stelt een andere vraag.",
+    "status": "concept"
   },
   {
     "pagina": "/ai-consultancy/ai-roadmap",
@@ -304,7 +211,7 @@
       },
       {
         "vraag": "Hoeveel use cases passen in de eerste horizon van een AI roadmap voor het MKB?",
-        "antwoord": "2 of 3 use cases in de eerste horizon is het advies voor een AI roadmap in het MKB. Meer use cases zijn zonder eigen AI-capaciteit lastig goed te begeleiden."
+        "antwoord": "Twee of drie use cases in de eerste horizon is het advies voor een AI roadmap in het MKB. Meer use cases zijn zonder eigen AI-capaciteit lastig goed te begeleiden."
       },
       {
         "vraag": "Is er een dienst die een AI roadmap als vast resultaat oplevert?",
@@ -315,7 +222,8 @@
       "tekst": "artikel van {{afzender}}"
     },
     "herkomst": "Antwoord: de drie alinea's onder 'Wat is een AI roadmap?' en 'Planning en budget'. Vervolgvraag 1: derde alinea onder 'Wat is een AI roadmap?' en het FAQ-antwoord over het implementatieplan. Vervolgvraag 2: 'AI roadmap voor het MKB'. Vervolgvraag 3: alinea's onder 'Inventarisatie' en 'Deliverables van een AI roadmap'.",
-    "opmerking": "Geen prijzen of doorlooptijden opgenomen: de pagina noemt ze zelf niet en het is een kennisbankblok. Geen tabel: de pagina heeft al een eigen voorbeeldtabel en die is fictief."
+    "opmerking": "Geen prijzen of doorlooptijden opgenomen: de pagina noemt ze zelf niet en het is een kennisbankblok. Geen tabel: de pagina heeft al een eigen voorbeeldtabel en die is fictief.",
+    "status": "concept"
   },
   {
     "pagina": "/ai-consultancy/ai-advies",
@@ -394,7 +302,8 @@
       "href": "/tarieven"
     },
     "herkomst": "Antwoord: 'Wat is AI advies?', 'AI advies versus AI consultancy' en de alinea over de Executive Briefing onder 'Hoe een adviestraject verloopt'. Tabel: 'Tools en leveranciers' (afgebakend advies en Vendor Review) en 'Hoe een adviestraject verloopt' (Executive Briefing, AI Readiness Assessment). Vervolgvragen: 'Hoe een adviestraject verloopt', 'Risico's en compliance' en 'AI advies versus AI consultancy'.",
-    "opmerking": "Geen bestaande H2 met de kostenvraag, dus eigen vraagkop. De tabel heeft geen kolom Doorlooptijd, omdat afgebakend advies geen doorlooptijd mag krijgen en de cel dan leeg zou blijven. De pagina noemt de prijs van de Vendor Review en het AI Readiness Assessment zelf niet; die komen via de dienstverwijzing uit de prijstabel in de regels. De pagina omschrijft de Executive Briefing als 'een sessie van drie uur', het token geeft de doorlooptijd uit de regels; dat verschil is niet door mij opgelost. De eerste tabelrij linkt naar /contact omdat afgebakend advies geen eigen dienstpagina heeft."
+    "opmerking": "Geen bestaande H2 met de kostenvraag, dus eigen vraagkop. De tabel heeft geen kolom Doorlooptijd, omdat afgebakend advies geen doorlooptijd mag krijgen en de cel dan leeg zou blijven. De pagina noemt de prijs van de Vendor Review en het AI Readiness Assessment zelf niet; die komen via de dienstverwijzing uit de prijstabel in de regels. De pagina omschrijft de Executive Briefing als 'een sessie van drie uur', het token geeft de doorlooptijd uit de regels; dat verschil is niet door mij opgelost. De eerste tabelrij linkt naar /contact omdat afgebakend advies geen eigen dienstpagina heeft.",
+    "status": "concept"
   },
   {
     "pagina": "/kennisbank/wat-doet-een-ai-consultant",
@@ -402,7 +311,7 @@
     "onderwerp": "AI consultant",
     "vraagkop": "Wat is een AI consultant?",
     "onderBestaandeKop": true,
-    "antwoord": "Een AI consultant adviseert organisaties over de keuzes rond kunstmatige intelligentie: welke problemen AI oplost en welke niet, wat het kost, welke risico's meespelen en wie waarvoor verantwoordelijk is. De vier kerntaken zijn strategie bepalen, use cases selecteren, de implementatie begeleiden en governance inrichten. Code schrijven en modellen trainen hoort meestal niet bij de rol: dat is het werk van een AI developer.",
+    "antwoord": "Een AI consultant adviseert organisaties over de keuzes rond kunstmatige intelligentie: welke problemen AI oplost en welke niet, wat het kost, welke risico's meespelen en wie waarvoor verantwoordelijk is. De kerntaken zijn strategie bepalen, use cases selecteren, de implementatie begeleiden en governance inrichten. Code schrijven en modellen trainen hoort meestal niet bij de rol: dat is het werk van een AI developer.",
     "vervolgvragen": [
       {
         "vraag": "Is elke AI consultant onafhankelijk van leveranciers?",
@@ -421,7 +330,8 @@
       "tekst": "artikel van {{afzender}}"
     },
     "herkomst": "Antwoord: 'Wat is een AI consultant?', het diagram onder 'Taken van een AI consultant' en 'AI consultant versus AI developer'. Vervolgvraag 1: derde alinea onder 'Wat is een AI consultant?'. Vervolgvraag 2: slotalinea onder 'AI consultant versus AI developer'. Vervolgvraag 3: 'Wanneer schakel je een AI consultant in?'.",
-    "opmerking": "De eigenlijke artikelvraag 'Wat doet een AI consultant?' is de H1 en mag dus niet als eigen vraagkop; daarom de bestaande H2 'Wat is een AI consultant?' gebruikt. Vervolgvraag 3 ligt inhoudelijk dicht bij de H2 'Wanneer schakel je een AI consultant in?', maar is als ja/nee-vraag anders geformuleerd; eventueel schrappen. Geen tabel: de pagina heeft al een vergelijkingstabel consultant versus developer."
+    "opmerking": "De eigenlijke artikelvraag 'Wat doet een AI consultant?' is de H1 en mag dus niet als eigen vraagkop; daarom de bestaande H2 'Wat is een AI consultant?' gebruikt. Vervolgvraag 3 ligt inhoudelijk dicht bij de H2 'Wanneer schakel je een AI consultant in?', maar is als ja/nee-vraag anders geformuleerd; eventueel schrappen. Geen tabel: de pagina heeft al een vergelijkingstabel consultant versus developer.",
+    "status": "concept"
   },
   {
     "pagina": "/ai-implementatie",
@@ -505,7 +415,8 @@
       "href": "/tarieven"
     },
     "herkomst": "Antwoord: 'Mijn implementatieaanpak' (inleiding) en 'Kosten en doorlooptijd'. Tabel: 'AI implementatie: van strategie naar praktijk' (AI Readiness Assessment), 'Bouwen en testen' (Vendor Review) en 'Monitoren en optimaliseren' (Fractional AI Lead). Vervolgvragen: 'Bouwen en testen', 'AI implementatie: van strategie naar praktijk' en 'Kosten en doorlooptijd'.",
-    "opmerking": "Geen bestaande H2 met de kostenvraag (alleen de H3 'Kosten en doorlooptijd'), dus eigen vraagkop. De pagina noemt de Vendor Review wel, maar niet de prijs of doorlooptijd ervan; die komen in de tabel via de dienstverwijzing. De pagina zegt 'Waar nodig verzorg ik zelf workshops en trainingen'; dat heb ik weggelaten omdat het geen geprijsde dienst is."
+    "opmerking": "Geen bestaande H2 met de kostenvraag (alleen de H3 'Kosten en doorlooptijd'), dus eigen vraagkop. De pagina noemt de Vendor Review wel, maar niet de prijs of doorlooptijd ervan; die komen in de tabel via de dienstverwijzing. De pagina zegt 'Waar nodig verzorg ik zelf workshops en trainingen'; dat heb ik weggelaten omdat het geen geprijsde dienst is.",
+    "status": "concept"
   },
   {
     "pagina": "/ai-implementatie/advies",
@@ -513,7 +424,7 @@
     "onderwerp": "AI implementatie advies",
     "vraagkop": "Wat levert AI implementatie advies vooraf op en welke dienst past erbij?",
     "onderBestaandeKop": false,
-    "antwoord": "AI implementatie advies van {{afzender}} legt vóór de bouw vier keuzes onderbouwd vast: de use case, bouwen of kopen, data en privacy, en de verandering die nodig is. Het resultaat is een beslisdocument met het besluit en de opdracht voor de bouwpartij; een concrete vraag over één toepassing past bij afgebakend advies tegen een vaste prijs per opdracht. Wie eerst wil weten of de organisatie er breed klaar voor is, start met het {{dienst:ai-readiness-assessment}} van {{timing:ai-readiness-assessment}} voor {{pricelc:ai-readiness-assessment}}.",
+    "antwoord": "AI implementatie advies van {{afzender}} legt vóór de bouw deze keuzes onderbouwd vast: de use case, bouwen of kopen, data en privacy, en de verandering die nodig is. Het resultaat is een beslisdocument met het besluit en de opdracht voor de bouwpartij; een concrete vraag over één toepassing past bij afgebakend advies tegen een vaste prijs per opdracht. Wie eerst wil weten of de organisatie er breed klaar voor is, start met het {{dienst:ai-readiness-assessment}} van {{timing:ai-readiness-assessment}} voor {{pricelc:ai-readiness-assessment}}.",
     "vervolgvragen": [
       {
         "vraag": "Levert AI implementatie advies een uitgebreid rapport op?",
@@ -525,7 +436,7 @@
       },
       {
         "vraag": "Hoe lang duurt het eerste gesprek over AI implementatie advies?",
-        "antwoord": "30 minuten duurt de kennismaking over AI implementatie advies. De opdrachtgever vertelt waar de organisatie staat en hoort aan het eind wat de adviseur zou doen, ook als de uitkomst is dat er geen adviseur nodig is."
+        "antwoord": "Dertig minuten duurt de kennismaking over AI implementatie advies. De opdrachtgever vertelt waar de organisatie staat en hoort aan het eind wat de adviseur zou doen, ook als de uitkomst is dat er geen adviseur nodig is."
       }
     ],
     "bron": {
@@ -533,7 +444,8 @@
       "href": "/tarieven"
     },
     "herkomst": "Antwoord: 'Waar ik over adviseer' (vier onderwerpen) en de alinea's over afgebakend advies, het AI Readiness Assessment en het beslisdocument onder 'Hoe een adviestraject verloopt'. Vervolgvraag 1 en 3: 'Hoe een adviestraject verloopt'. Vervolgvraag 2: 'Data en privacy'.",
-    "opmerking": "De kostenvraag staat al als FAQ op de pagina ('Wat kost AI implementatie advies?'), dus de eigen vraagkop stuurt op opbrengst en passende dienst. Geen tabel: er is maar één geprijsde dienst in de lopende tekst; de Vendor Review komt alleen in een FAQ-antwoord voor en heb ik daarom niet gebruikt."
+    "opmerking": "De kostenvraag staat al als FAQ op de pagina ('Wat kost AI implementatie advies?'), dus de eigen vraagkop stuurt op opbrengst en passende dienst. Geen tabel: er is maar één geprijsde dienst in de lopende tekst; de Vendor Review komt alleen in een FAQ-antwoord voor en heb ik daarom niet gebruikt.",
+    "status": "concept"
   },
   {
     "pagina": "/ai-implementatie/stappenplan",
@@ -541,7 +453,7 @@
     "onderwerp": "AI implementatie stappenplan",
     "vraagkop": "Welke stappen horen in een AI implementatie stappenplan?",
     "onderBestaandeKop": false,
-    "antwoord": "Een AI implementatie stappenplan bestaat uit zeven beslissingen in een vaste volgorde: doel bepalen, use case kiezen, data en systemen in kaart brengen, bouwen of kopen, een pilot bouwen en testen, adoptie organiseren, en meten, borgen en opschalen. De volgorde telt omdat elke stap de volgende bepaalt, en adoptie, beheer en meting worden al bij de eerste stap voorbereid. Het stappenplan gaat uit van één toepassing; organisaties met meerdere kandidaten bepalen eerst de volgorde in een [AI-roadmap](/ai-consultancy/ai-roadmap).",
+    "antwoord": "Een AI implementatie stappenplan bestaat uit 7 stappen in een vaste volgorde: doel bepalen, use case kiezen, data en systemen in kaart brengen, bouwen of kopen, een pilot bouwen en testen, adoptie organiseren, en meten, borgen en opschalen. De volgorde telt omdat elke stap de volgende bepaalt, en adoptie, beheer en meting worden al bij de eerste stap voorbereid. Het stappenplan gaat uit van één toepassing; organisaties met meerdere kandidaten bepalen eerst de volgorde in een [AI-roadmap](/ai-consultancy/ai-roadmap).",
     "vervolgvragen": [
       {
         "vraag": "Begint een AI implementatie stappenplan met het kiezen van een tool?",
@@ -560,7 +472,8 @@
       "tekst": "artikel van {{afzender}}"
     },
     "herkomst": "Antwoord: openingsalinea, diagram en de alinea over één toepassing onder 'Stap 1: Bepaal het doel'. Vervolgvraag 1 en 2: 'Stap 1: Bepaal het doel'. Vervolgvraag 3: 'Download de checklist'.",
-    "opmerking": "Geen bestaande H2 stelt de hoofdvraag (alle H2's zijn stapnamen), dus eigen vraagkop. Vervolgvraag 3 linkt naar de pdf-download waar de pagina zelf ook naar linkt; haal de link weg als downloads niet in een blok horen. Het AI Readiness Assessment wordt op de pagina genoemd maar is niet in het blok opgenomen, omdat het artikel over het stappenplan zelf gaat."
+    "opmerking": "Geen bestaande H2 stelt de hoofdvraag (alle H2's zijn stapnamen), dus eigen vraagkop. Vervolgvraag 3 linkt naar de pdf-download waar de pagina zelf ook naar linkt; haal de link weg als downloads niet in een blok horen. Het AI Readiness Assessment wordt op de pagina genoemd maar is niet in het blok opgenomen, omdat het artikel over het stappenplan zelf gaat.",
+    "status": "concept"
   },
   {
     "pagina": "/ai-automatisering",
@@ -576,7 +489,7 @@
       },
       {
         "vraag": "Uit hoeveel kostenposten bestaat AI automatisering?",
-        "antwoord": "4 posten bepalen de kosten van AI automatisering: de eenmalige inrichting, licenties voor het platform, verbruikskosten van het AI-model per verwerkt document of bericht, en beheer. Verbruik en beheer worden het vaakst vergeten."
+        "antwoord": "Vier posten bepalen de kosten van AI automatisering: de eenmalige inrichting, licenties voor het platform, verbruikskosten van het AI-model per verwerkt document of bericht, en beheer. Verbruik en beheer worden het vaakst vergeten."
       },
       {
         "vraag": "Is voor AI automatisering altijd maatwerk nodig?",
@@ -588,7 +501,8 @@
       "href": "/tarieven"
     },
     "herkomst": "Antwoord: lede, summary en de alinea's onder 'Zo pak ik AI automatisering aan', inclusief de slotalinea over het AI Readiness Assessment. Vervolgvraag 1: 'Zo pak ik AI automatisering aan'. Vervolgvraag 2: 'Kosten en terugverdientijd'. Vervolgvraag 3: 'Tools en workflows'.",
-    "opmerking": "De bestaande H2 'Wat is AI automatisering?' bevat het onderwerp, maar is een definitievraag en geen kosten- of keuzevraag; daarom een eigen vraagkop. De kostenvraag van de pagina zelf staat in een H3 en het rekenvoorbeeld is fictief, dus niet gebruikt. Geen tabel: de pagina noemt maar één dienst."
+    "opmerking": "De bestaande H2 'Wat is AI automatisering?' bevat het onderwerp, maar is een definitievraag en geen kosten- of keuzevraag; daarom een eigen vraagkop. De kostenvraag van de pagina zelf staat in een H3 en het rekenvoorbeeld is fictief, dus niet gebruikt. Geen tabel: de pagina noemt maar één dienst.",
+    "status": "concept"
   },
   {
     "pagina": "/ai-automatisering/bedrijfsprocessen-automatiseren-met-ai",
@@ -599,23 +513,27 @@
     "antwoord": "Bedrijfsprocessen automatiseren met AI loont vooral bij processen met veel tekst, documenten of vrije input, een hoog volume en een controlestap die al bestaat; werk met nette velden en vaste regels gaat meestal goedkoper en betrouwbaarder zonder AI. De aanpak is: kandidaten scoren, één proces met een eigenaar kiezen, de huidige situatie meten en het proces daarna in vijf stappen omzetten naar een workflow, van nulmeting tot livegang met meten. Welke processen in een organisatie het meeste opleveren, brengt het {{dienst:ai-readiness-assessment}} in {{timing:ai-readiness-assessment}} in kaart.",
     "vervolgvragen": [
       {
-        "vraag": "Op hoeveel punten wordt een kandidaat-proces gescoord bij bedrijfsprocessen automatiseren met AI?",
-        "antwoord": "5 punten, elk met een score van 1 tot 5: volume, variatie, data, controle en eigenaar. Bij bedrijfsprocessen automatiseren met AI vallen processen af die laag scoren op controle of eigenaar, hoe aantrekkelijk ze ook klinken."
-      },
-      {
         "vraag": "Mag de AI bij bedrijfsprocessen automatiseren zelf versturen, boeken of betalen?",
         "antwoord": "Nee. Bij bedrijfsprocessen automatiseren met AI wordt vooraf vastgelegd dat de AI voorstelt en voorbereidt, en dat versturen, boeken en betalen daarbuiten vallen. Ook wordt vastgelegd wat er gebeurt als de AI twijfelt."
       },
       {
         "vraag": "Is één berekening genoeg om de besparing van bedrijfsprocessen automatiseren met AI in te schatten?",
-        "antwoord": "Nee. Bij bedrijfsprocessen automatiseren met AI horen naast de basisberekening twee extra scenario's: een pessimistisch scenario met lagere adoptie en meer controletijd, en een scenario met het dubbele volume, omdat verbruikskosten meestal meegroeien met het gebruik. Bespaarde uren tellen pas als besparing wanneer ze elders aantoonbaar iets opleveren, zoals minder inhuur."
+        "antwoord": "Nee. Bij bedrijfsprocessen automatiseren met AI horen naast de basisberekening extra scenario's: een pessimistisch scenario met lagere adoptie en meer controletijd, en een scenario met het dubbele volume, omdat verbruikskosten meestal meegroeien met het gebruik. Bespaarde uren tellen pas als besparing wanneer ze elders aantoonbaar iets opleveren, zoals minder inhuur."
       }
     ],
     "bron": {
       "tekst": "artikel van {{afzender}}"
     },
     "herkomst": "Antwoord: 'Welke bedrijfsprocessen kun je automatiseren met AI?', summary, 'Van proces naar geautomatiseerde workflow' en de slotalinea. Vervolgvraag 1: 'Hoe kies je het juiste proces?'. Vervolgvraag 2: stap 'AI-stap bepalen'. Vervolgvraag 3: 'Besparing berekenen', zonder de fictieve bedragen.",
-    "opmerking": "De keyphrase telt vijf woorden; het onderwerp is ingekort tot 'bedrijfsprocessen automatiseren'. De bestaande H2 'Welke bedrijfsprocessen kun je automatiseren met AI?' bevat dat onderwerp niet aaneengesloten, daarom een eigen vraagkop. Als onderwerp 'bedrijfsprocessen' volstaat, kan het blok ook onder die bestaande H2. De pagina noemt alleen de doorlooptijd van het AI Readiness Assessment, geen prijs; de prijs is daarom weggelaten."
+    "opmerking": "De keyphrase telt vijf woorden; het onderwerp is ingekort tot 'bedrijfsprocessen automatiseren'. De bestaande H2 'Welke bedrijfsprocessen kun je automatiseren met AI?' bevat dat onderwerp niet aaneengesloten, daarom een eigen vraagkop. Als onderwerp 'bedrijfsprocessen' volstaat, kan het blok ook onder die bestaande H2. De pagina noemt alleen de doorlooptijd van het AI Readiness Assessment, geen prijs; de prijs is daarom weggelaten.",
+    "status": "concept",
+    "geschrapt": [
+      {
+        "laag": "A",
+        "zin": "Op hoeveel punten wordt een kandidaat-proces gescoord bij bedrijfsprocessen automatiseren met AI? 5 punten, elk met een score van 1 tot 5: volume, variatie, data, controle en eigenaar. Bij bedrijfsprocessen automatiseren met AI vallen processen af die laag scoren op controle of eigenaar, hoe aantrekkelijk ze ook klinken.",
+        "reden": "het aantal in het antwoord is zelf geteld en staat niet letterlijk op de pagina"
+      }
+    ]
   },
   {
     "pagina": "/ai-automatisering/ai-workflows",
@@ -623,7 +541,7 @@
     "onderwerp": "AI workflow",
     "vraagkop": "Wat is een AI workflow?",
     "onderBestaandeKop": true,
-    "antwoord": "Een AI workflow is een geautomatiseerde keten met een vooraf vastgelegde route, waarin een AI-model alleen de stappen doet die gewone regels niet aankunnen, zoals vrije tekst in een e-mail begrijpen of gegevens uit een pdf halen. De keten bestaat uit zes bouwstenen: trigger, ophalen, AI-stap, controle, actie en logging. Een AI workflow past bij processen die steeds dezelfde stappen kennen; pas als de stappen per geval echt verschillen en een fout omkeerbaar is, komt een AI agent in beeld.",
+    "antwoord": "Een AI workflow is een geautomatiseerde keten met een vooraf vastgelegde route, waarin een AI-model alleen de stappen doet die gewone regels niet aankunnen, zoals vrije tekst in een e-mail begrijpen of gegevens uit een pdf halen. De keten bestaat uit deze bouwstenen: trigger, ophalen, AI-stap, controle, actie en logging. Een AI workflow past bij processen die steeds dezelfde stappen kennen; pas als de stappen per geval echt verschillen en een fout omkeerbaar is, komt een AI agent in beeld.",
     "vervolgvragen": [
       {
         "vraag": "Bepaalt het AI-model in een AI workflow zelf welke stappen het zet?",
@@ -635,14 +553,15 @@
       },
       {
         "vraag": "In hoeveel stappen komt een AI workflow in gebruik?",
-        "antwoord": "5 stappen: één proces kiezen en vooraf meten, de route uittekenen met de mensen die het werk doen, bepalen wie bouwt, testen met echte voorbeelden en het beheer regelen vóór livegang. In de testfase loopt de AI workflow een paar weken naast het huidige proces."
+        "antwoord": "Vijf stappen: één proces kiezen en vooraf meten, de route uittekenen met de mensen die het werk doen, bepalen wie bouwt, testen met echte voorbeelden en het beheer regelen vóór livegang. In de testfase loopt de AI workflow een paar weken naast het huidige proces."
       }
     ],
     "bron": {
       "tekst": "artikel van {{afzender}}"
     },
     "herkomst": "Antwoord: 'Wat is een AI workflow?' met de lijst bouwstenen, en 'AI workflows versus AI agents'. Vervolgvraag 1: 'AI workflows versus AI agents'. Vervolgvraag 2 en 3: de genummerde lijst onder 'Een AI workflow implementeren'.",
-    "opmerking": "De pagina noemt geen dienst met prijs of doorlooptijd, dus geen diensttoken. De onafhankelijkheid van de leveranciers (geen commissie) staat op de pagina maar is in ik-vorm geschreven; niet opgenomen omdat de afzender in vervolgvragen niet mag voorkomen."
+    "opmerking": "De pagina noemt geen dienst met prijs of doorlooptijd, dus geen diensttoken. De onafhankelijkheid van de leveranciers (geen commissie) staat op de pagina maar is in ik-vorm geschreven; niet opgenomen omdat de afzender in vervolgvragen niet mag voorkomen.",
+    "status": "concept"
   },
   {
     "pagina": "/ai-automatisering/ai-tools",
@@ -657,10 +576,6 @@
         "antwoord": "Nee. De vergelijking van de beste AI tools is gebaseerd op de officiële product-, prijs- en privacypagina's van de leveranciers, stand september 2026. Er zijn geen affiliate-, commissie- of partnerrelaties met de genoemde partijen en er staan geen eigen benchmarkcijfers in."
       },
       {
-        "vraag": "Hoeveel criteria tellen mee bij het kiezen tussen de beste AI tools?",
-        "antwoord": "6 criteria bepalen de keuze tussen de beste AI tools: taak, bestaande software, data en privacy, beheer, kosten en exit. Voor zakelijke dienstverleners met vertrouwelijke klantinformatie wegen training en opslag, bewaartermijnen en logs, en beroepsregels extra zwaar."
-      },
-      {
         "vraag": "Is een demo genoeg om uit de beste AI tools te kiezen?",
         "antwoord": "Nee. Ook bij de beste AI tools geldt dat één team een nieuwe tool eerst een paar weken op echt werk gebruikt, met een vooraf afgesproken vraag die de proef moet beantwoorden. Kandidaten worden vergeleken op dezelfde taak met eigen voorbeelden."
       }
@@ -669,7 +584,15 @@
       "tekst": "artikel van {{afzender}}"
     },
     "herkomst": "Antwoord: lede, summary, de criterialijst en de keuzeboom onder 'Hoe kies je een AI tool?' en de slotalinea onder 'Vergelijkingstabel'. Vervolgvraag 1: de kanttekening onder 'Hoe kies je een AI tool?'. Vervolgvraag 2: de criterialijst en 'AI tools voor zakelijke dienstverleners'. Vervolgvraag 3: 'Nieuwe AI tools om te volgen' en de slotalinea.",
-    "opmerking": "Toolprijzen en dataopslag per leverancier staan al in de eigen vergelijkingstabel van de pagina en zijn bewust niet herhaald, ook omdat ze snel veranderen. De pagina noemt de Vendor Review en het AI Readiness Assessment zonder prijs of doorlooptijd; daarom geen prijs- of timingtokens."
+    "opmerking": "Toolprijzen en dataopslag per leverancier staan al in de eigen vergelijkingstabel van de pagina en zijn bewust niet herhaald, ook omdat ze snel veranderen. De pagina noemt de Vendor Review en het AI Readiness Assessment zonder prijs of doorlooptijd; daarom geen prijs- of timingtokens.",
+    "status": "concept",
+    "geschrapt": [
+      {
+        "laag": "A",
+        "zin": "Hoeveel criteria tellen mee bij het kiezen tussen de beste AI tools? 6 criteria bepalen de keuze tussen de beste AI tools: taak, bestaande software, data en privacy, beheer, kosten en exit. Voor zakelijke dienstverleners met vertrouwelijke klantinformatie wegen training en opslag, bewaartermijnen en logs, en beroepsregels extra zwaar.",
+        "reden": "het aantal in het antwoord is zelf geteld en staat niet letterlijk op de pagina"
+      }
+    ]
   },
   {
     "pagina": "/kennisbank/ai-voorbeelden",
@@ -681,7 +604,7 @@
     "vervolgvragen": [
       {
         "vraag": "Zijn de AI voorbeelden per afdeling en sector succesverhalen van bestaande bedrijven?",
-        "antwoord": "Nee. De AI voorbeelden per afdeling en sector zijn bewust generiek beschreven en laten zien welke afgebakende taak AI in een bestaand proces kan doen. Alleen de 3 voorbeelden uit het dagelijks leven, over spamfilters, reistijd voorspellen en vertalen, gaan over toepassingen die de leverancier zelf heeft beschreven."
+        "antwoord": "Nee. De AI voorbeelden per afdeling en sector zijn bewust generiek beschreven en laten zien welke afgebakende taak AI in een bestaand proces kan doen. Alleen de drie voorbeelden uit het dagelijks leven, over spamfilters, reistijd voorspellen en vertalen, gaan over toepassingen die de leverancier zelf heeft beschreven."
       },
       {
         "vraag": "Gelden voor sommige AI voorbeelden zwaardere regels?",
@@ -696,7 +619,8 @@
       "tekst": "artikel van {{afzender}}"
     },
     "herkomst": "Antwoord: lede, summary, de inleiding onder 'AI voorbeelden per afdeling' en de keuzematrix onder 'Hoe kies je de juiste toepassing?'. Vervolgvraag 1: inleiding 'AI voorbeelden per afdeling' en 'AI voorbeelden in het dagelijks leven'. Vervolgvraag 2: voorbeelden 14, 17 en 19 en de slotalinea onder 'AI voorbeelden per sector'. Vervolgvraag 3: slotalinea.",
-    "opmerking": "Geen bestaande H2 is als vraag over het onderwerp gesteld, daarom een eigen vraagkop. Het voorbeeldscenario met de technische groothandel is niet gebruikt. De pagina noemt alleen de doorlooptijd van het AI Readiness Assessment, geen prijs."
+    "opmerking": "Geen bestaande H2 is als vraag over het onderwerp gesteld, daarom een eigen vraagkop. Het voorbeeldscenario met de technische groothandel is niet gebruikt. De pagina noemt alleen de doorlooptijd van het AI Readiness Assessment, geen prijs.",
+    "status": "concept"
   },
   {
     "pagina": "/kennisbank/notuleren-met-ai",
@@ -708,7 +632,7 @@
     "vervolgvragen": [
       {
         "vraag": "Op hoeveel manieren kan een tool meeluisteren bij notuleren met AI?",
-        "antwoord": "3 manieren: ingebouwd in het vergaderplatform, via een bot die als deelnemer aan de vergadering wordt toegevoegd, of via een app op de computer die het geluid lokaal opneemt. Bij notuleren met AI bepaalt die keuze wie ziet dat er wordt opgenomen, waar de data terechtkomt en of het ook werkt bij externe vergaderingen."
+        "antwoord": "Drie manieren: ingebouwd in het vergaderplatform, via een bot die als deelnemer aan de vergadering wordt toegevoegd, of via een app op de computer die het geluid lokaal opneemt. Bij notuleren met AI bepaalt die keuze wie ziet dat er wordt opgenomen, waar de data terechtkomt en of het ook werkt bij externe vergaderingen."
       },
       {
         "vraag": "Is notuleren met AI geschikt voor elke vergadering?",
@@ -723,7 +647,8 @@
       "tekst": "artikel van {{afzender}}"
     },
     "herkomst": "Antwoord: 'Hoe werkt notuleren met AI?' met het stappenschema, summary en de eerste alinea onder 'Privacy en AVG'. Vervolgvraag 1: de lijst met drie manieren van meeluisteren. Vervolgvraag 2: alinea 'Waar staat de data en wie kan erbij?'. Vervolgvraag 3: stap 1 en 2 onder 'Zo richt je het in'.",
-    "opmerking": "De pagina noemt geen dienst, dus geen diensttoken. Toolnamen en taalondersteuning staan al in de eigen tabel van de pagina en zijn niet herhaald. Juridische uitspraken van de Autoriteit Persoonsgegevens zijn bewust niet verder samengevat dan de pagina zelf doet."
+    "opmerking": "De pagina noemt geen dienst, dus geen diensttoken. Toolnamen en taalondersteuning staan al in de eigen tabel van de pagina en zijn niet herhaald. Juridische uitspraken van de Autoriteit Persoonsgegevens zijn bewust niet verder samengevat dan de pagina zelf doet.",
+    "status": "concept"
   },
   {
     "pagina": "/kennisbank/rpa-vs-ai-automatisering",
@@ -750,7 +675,8 @@
       "tekst": "artikel van {{afzender}}"
     },
     "herkomst": "Antwoord: 'Wat is robotic process automation (RPA)?', lede, summary en 'RPA en AI combineren'. Vervolgvraag 1: vuistregel 'Kies RPA' onder 'Wanneer kies je wat?'. Vervolgvraag 2: alinea over beheer onder 'Verschillen tussen RPA en AI'. Vervolgvraag 3: slotalinea en de alinea over de Vendor Review.",
-    "opmerking": "Twijfel over de plek: de keyphrase is 'robotic process automation' en de eerste H2 stelt die vraag letterlijk, maar de pagina als geheel is een vergelijking van RPA en AI automatisering. Het antwoord dekt daarom beide. De pagina heeft geen FAQ. De Vendor Review staat op de pagina zonder prijs of doorlooptijd, dus zonder die tokens."
+    "opmerking": "Twijfel over de plek: de keyphrase is 'robotic process automation' en de eerste H2 stelt die vraag letterlijk, maar de pagina als geheel is een vergelijking van RPA en AI automatisering. Het antwoord dekt daarom beide. De pagina heeft geen FAQ. De Vendor Review staat op de pagina zonder prijs of doorlooptijd, dus zonder die tokens.",
+    "status": "concept"
   },
   {
     "pagina": "/ai-agents",
@@ -778,7 +704,8 @@
       "href": "/tarieven"
     },
     "herkomst": "Antwoord: 'Wat kosten AI agents?' met 'Factoren die de kosten bepalen', summary en de alinea over de Vendor Review. Vervolgvraag 1: 'Kosten voor beheer en optimalisatie'. Vervolgvraag 2: 'Ontwikkeling versus bestaande oplossingen'. Vervolgvraag 3: slotalinea onder 'AI agents voor het MKB'.",
-    "opmerking": "De pagina noemt van de Vendor Review alleen de prijs; de doorlooptijd komt uit de prijstabel in de regels. De pagina noemt ook het AI Readiness Assessment als startpunt, zonder prijs; dat is uit het antwoord gelaten om het bij de kostenvraag te houden. Geen tabel: maar één dienst met prijs op de pagina."
+    "opmerking": "De pagina noemt van de Vendor Review alleen de prijs; de doorlooptijd komt uit de prijstabel in de regels. De pagina noemt ook het AI Readiness Assessment als startpunt, zonder prijs; dat is uit het antwoord gelaten om het bij de kostenvraag te houden. Geen tabel: maar één dienst met prijs op de pagina.",
+    "status": "concept"
   },
   {
     "pagina": "/ai-agents/wat-is-een-ai-agent",
@@ -798,14 +725,15 @@
       },
       {
         "vraag": "Hoeveel vormen van opbouw heeft een AI agent?",
-        "antwoord": "3 vormen: een enkelvoudige AI agent voor één afgebakende taak, een AI agent binnen een AI-workflow met een vaste procesflow, en samenwerkende agents waarbij een coördinerende agent het werk verdeelt. Voor de meeste organisaties is de AI agent binnen een workflow het verstandigste startpunt."
+        "antwoord": "Drie vormen: een enkelvoudige AI agent voor één afgebakende taak, een AI agent binnen een AI-workflow met een vaste procesflow, en samenwerkende agents waarbij een coördinerende agent het werk verdeelt. Voor de meeste organisaties is de AI agent binnen een workflow het verstandigste startpunt."
       }
     ],
     "bron": {
       "tekst": "artikel van {{afzender}}"
     },
     "herkomst": "Antwoord: 'Wat is een AI agent?', de tabel onder 'AI agent versus chatbot' en 'Naar zelfstandigheid' onder 'Soorten AI agents'. Vervolgvraag 1: derde alinea onder 'Wat is een AI agent?'. Vervolgvraag 2: slotalinea onder 'Hoe werkt een AI agent?'. Vervolgvraag 3: 'Naar opbouw' onder 'Soorten AI agents'.",
-    "opmerking": "De pagina noemt geen dienst met prijs of doorlooptijd, dus geen diensttoken. Vervolgvraag 3 raakt de H2 'Soorten AI agents', maar die kop is geen vraag en noemt geen aantal."
+    "opmerking": "De pagina noemt geen dienst met prijs of doorlooptijd, dus geen diensttoken. Vervolgvraag 3 raakt de H2 'Soorten AI agents', maar die kop is geen vraag en noemt geen aantal.",
+    "status": "concept"
   },
   {
     "pagina": "/ai-agents/laten-maken",
@@ -833,7 +761,8 @@
       "href": "/tarieven"
     },
     "herkomst": "Antwoord: 'Wat kost een AI agent?' met de factorenlijst en de alinea over de Vendor Review en Fractional AI Lead, plus 'Mijn rol'. Vervolgvraag 1: inleiding en figuurbijschrift onder 'Het ontwikkeltraject'. Vervolgvraag 2: prijsnotitie van de Vendor Review uit de prijstabel in de regels. Vervolgvraag 3: 'Beveiliging, privacy en beheer'.",
-    "opmerking": "Onderwerp ingekort tot 'AI agent', omdat de bestaande kostenkop 'Wat kost een AI agent?' de keyphrase 'AI agent laten maken' niet letterlijk bevat. De Fractional AI Lead is zonder prijs genoemd, omdat de pagina daar zelf geen bedrag bij zet. Geen tabel: Vendor Review (eenmalig) en Fractional AI Lead (doorlopend) zijn niet goed vergelijkbaar op doorlooptijd. De toelichting '2 tot 4 leveranciers' staat niet op de pagina zelf, alleen in de prijstabel."
+    "opmerking": "Onderwerp ingekort tot 'AI agent', omdat de bestaande kostenkop 'Wat kost een AI agent?' de keyphrase 'AI agent laten maken' niet letterlijk bevat. De Fractional AI Lead is zonder prijs genoemd, omdat de pagina daar zelf geen bedrag bij zet. Geen tabel: Vendor Review (eenmalig) en Fractional AI Lead (doorlopend) zijn niet goed vergelijkbaar op doorlooptijd. De toelichting '2 tot 4 leveranciers' staat niet op de pagina zelf, alleen in de prijstabel.",
+    "status": "concept"
   },
   {
     "pagina": "/ai-agents/voorbeelden",
@@ -841,7 +770,7 @@
     "onderwerp": "AI agents voorbeelden",
     "vraagkop": "Welke AI agents voorbeelden passen bij klantenservice, sales, HR en finance?",
     "onderBestaandeKop": false,
-    "antwoord": "De AI agents voorbeelden bestaan uit 12 generieke toepassingen voor klantenservice, sales, HR en finance, zoals mail- en ticketvoorbereiding, leadonderzoek, onboarding en factuurcontrole, elk met de benodigde koppelingen en het moment van menselijke controle. Het zwaartepunt ligt bij voorbereidend werk dat daarna door een mens wordt beoordeeld. Hoeveel zelfstandigheid een agent kan krijgen, hangt af van de vraag of een handeling omkeerbaar is en of de gevolgen intern of extern zijn.",
+    "antwoord": "De AI agents voorbeelden bestaan uit twaalf generieke toepassingen voor klantenservice, sales, HR en finance, zoals mail- en ticketvoorbereiding, leadonderzoek, onboarding en factuurcontrole, elk met de benodigde koppelingen en het moment van menselijke controle. Het zwaartepunt ligt bij voorbereidend werk dat daarna door een mens wordt beoordeeld. Hoeveel zelfstandigheid een agent kan krijgen, hangt af van de vraag of een handeling omkeerbaar is en of de gevolgen intern of extern zijn.",
     "vervolgvragen": [
       {
         "vraag": "Laten de AI agents voorbeelden zien wat een agent bij een bepaald bedrijf heeft opgeleverd?",
@@ -860,7 +789,8 @@
       "tekst": "artikel van {{afzender}}"
     },
     "herkomst": "Antwoord: lede, summary, de twaalf genummerde voorbeelden en de matrix onder 'AI agents in klantenservice'. Vervolgvraag 1: inleiding onder 'AI agents in klantenservice'. Vervolgvraag 2: 'AI agents in finance'. Vervolgvraag 3: inleiding onder 'Beste AI agent-platforms'.",
-    "opmerking": "Geen bestaande H2 is een vraag, daarom een eigen vraagkop. 'AI agents voorbeelden' leest als keyphrase wat stroef in lopende zinnen; het is letterlijk aangehouden omdat de vraagkop het onderwerp moet bevatten. De pagina noemt geen dienst, dus geen diensttoken. Het scenario met het productiebedrijf is niet gebruikt."
+    "opmerking": "Geen bestaande H2 is een vraag, daarom een eigen vraagkop. 'AI agents voorbeelden' leest als keyphrase wat stroef in lopende zinnen; het is letterlijk aangehouden omdat de vraagkop het onderwerp moet bevatten. De pagina noemt geen dienst, dus geen diensttoken. Het scenario met het productiebedrijf is niet gebruikt.",
+    "status": "concept"
   },
   {
     "pagina": "/kennisbank/ai-agents-en-avg",
@@ -887,7 +817,8 @@
       "tekst": "artikel van {{afzender}}"
     },
     "herkomst": "Antwoord: 'Waarom AI agents privacyrisico's geven', summary en de lijst onder 'AVG-eisen voor AI agents'. Vervolgvraag 1: inleiding 'AVG-eisen voor AI agents' en de vier kenmerken onder de eerste H2. Vervolgvraag 2: punt 'Beveiliging en datalekken'. Vervolgvraag 3: 'Samenhang met de AI Act'.",
-    "opmerking": "Geen bestaande H2 is een vraag, daarom een eigen vraagkop; het onderwerp is geformuleerd als 'AVG bij AI agents' zodat het letterlijk in de vraagkop past (keyphrase is 'ai agent avg'). De pagina zegt zelf dat het artikel geen juridisch advies is en dat het Digital Omnibus-voorstel voor de AVG nog in behandeling is (stand september 2026); data en termijnen zijn exact overgenomen en moeten bij publicatie nog actueel zijn. Geen DPIA-vervolgvraag, omdat de pagina daar geen eenduidig ja of nee op geeft. De pagina noemt geen dienst."
+    "opmerking": "Geen bestaande H2 is een vraag, daarom een eigen vraagkop; het onderwerp is geformuleerd als 'AVG bij AI agents' zodat het letterlijk in de vraagkop past (keyphrase is 'ai agent avg'). De pagina zegt zelf dat het artikel geen juridisch advies is en dat het Digital Omnibus-voorstel voor de AVG nog in behandeling is (stand september 2026); data en termijnen zijn exact overgenomen en moeten bij publicatie nog actueel zijn. Geen DPIA-vervolgvraag, omdat de pagina daar geen eenduidig ja of nee op geeft. De pagina noemt geen dienst.",
+    "status": "concept"
   },
   {
     "pagina": "/ai-voor-bedrijven",
@@ -914,7 +845,8 @@
       "tekst": "artikel van {{afzender}}"
     },
     "herkomst": "Antwoord: alinea's onder 'Kansen en risico's' (kenmerken van toepassingen en de lijst met risico's) en het punt 'Weten waar je staat' onder 'Hoe ik je kan helpen'. Vervolgvraag 1: punt 'Wet- en regelgeving' onder 'Kansen en risico's'. Vervolgvraag 2: punt 'Begin met gebruiken, niet met bouwen' onder 'Zo begin je met AI'. Vervolgvraag 3: CBS-alinea onder 'Wat kan AI betekenen voor mijn bedrijf?'.",
-    "opmerking": "De bestaande H2 'Wat kan AI betekenen voor mijn bedrijf?' bevat het onderwerp 'AI voor bedrijven' niet letterlijk, daarom een eigen vraagkop. Vervolgvraag 2 raakt aan de bestaande FAQ over gebruiken versus laten bouwen, maar stelt een andere vraag."
+    "opmerking": "De bestaande H2 'Wat kan AI betekenen voor mijn bedrijf?' bevat het onderwerp 'AI voor bedrijven' niet letterlijk, daarom een eigen vraagkop. Vervolgvraag 2 raakt aan de bestaande FAQ over gebruiken versus laten bouwen, maar stelt een andere vraag.",
+    "status": "concept"
   },
   {
     "pagina": "/ai-voor-bedrijven/mkb",
@@ -941,7 +873,8 @@
       "tekst": "artikel van {{afzender}}"
     },
     "herkomst": "Antwoord: stappenschema en tips onder 'Eerste stappen' en de tweede alinea onder 'Hoe ik MKB-bedrijven help'. Vervolgvraag 1: eerste alinea onder 'Hoe ik MKB-bedrijven help'. Vervolgvraag 2: CBS-alinea onder 'Waarom AI nu relevant is voor het MKB'. Vervolgvraag 3: subkop 'Klantenservice'.",
-    "opmerking": "De slotzin van vervolgvraag 2 ('nog ruimte heeft om te groeien') is een eigen gevolgtrekking uit de CBS-cijfers en kan desgewenst weg. De pagina noemt voor de Executive Briefing 'één dagdeel'; de timing-token geeft '1 dagdeel incl. voorbereiding'."
+    "opmerking": "De slotzin van vervolgvraag 2 ('nog ruimte heeft om te groeien') is een eigen gevolgtrekking uit de CBS-cijfers en kan desgewenst weg. De pagina noemt voor de Executive Briefing 'één dagdeel'; de timing-token geeft '1 dagdeel incl. voorbereiding'.",
+    "status": "concept"
   },
   {
     "pagina": "/ai-voor-bedrijven/zakelijke-dienstverleners",
@@ -968,7 +901,8 @@
       "tekst": "artikel van {{afzender}}"
     },
     "herkomst": "Antwoord: 'Waarom AI voor dienstverleners loont', de openingszin van 'Toepassingen per beroepsgroep' en de basisregels onder 'Vertrouwelijkheid en kwaliteit'. Vervolgvraag 1: basisregel 2 onder 'Vertrouwelijkheid en kwaliteit'. Vervolgvraag 2: subkoppen 'Accountancy' en 'Legal'. Vervolgvraag 3: schema en alinea onder 'Tools'.",
-    "opmerking": "Geen dienst genoemd: de body, lede, summary en FAQ noemen geen dienst (alleen de secondaryCta in de frontmatter verwijst naar het AI Readiness Assessment). Daardoor ook geen prijs of doorlooptijd in dit blok."
+    "opmerking": "Geen dienst genoemd: de body, lede, summary en FAQ noemen geen dienst (alleen de secondaryCta in de frontmatter verwijst naar het AI Readiness Assessment). Daardoor ook geen prijs of doorlooptijd in dit blok.",
+    "status": "concept"
   },
   {
     "pagina": "/ai-voor-bedrijven/ai-en-bi",
@@ -984,7 +918,7 @@
       },
       {
         "vraag": "Op hoeveel manieren kunnen AI en BI samenwerken?",
-        "antwoord": "4 manieren: vragen stellen in gewone taal, automatische toelichting bij cijfers en afwijkingen, voorspellingen naast de terugblik, en tekst uit e-mails, klantreacties en documenten omzetten in analyseerbare gegevens. Bij AI en BI rusten alle vier op een betrouwbaar datamodel."
+        "antwoord": "Vier manieren: vragen stellen in gewone taal, automatische toelichting bij cijfers en afwijkingen, voorspellingen naast de terugblik, en tekst uit e-mails, klantreacties en documenten omzetten in analyseerbare gegevens. Bij AI en BI rusten alle vier op een betrouwbaar datamodel."
       },
       {
         "vraag": "Is de uitkomst van AI even exact als die van BI?",
@@ -995,7 +929,8 @@
       "tekst": "artikel van {{afzender}}"
     },
     "herkomst": "Antwoord: tabel en alinea's onder 'Het verschil tussen AI en BI' plus de summary. Vervolgvraag 1 en 2: schema en Copilot-alinea onder 'Hoe AI business intelligence versterkt'. Vervolgvraag 3: rij 'Zekerheid' en de alinea direct onder de tabel.",
-    "opmerking": "Keyphrase is 'ai bi'; als onderwerp is 'AI en BI' gekozen omdat dat zo in H1 en H2 staat. Geen dienst genoemd: de body noemt alleen AI consultancy als pagina, geen pakket met prijs. De pagina zegt 'vaak het beste startpunt'; dat is afgezwakt tot 'vaak een logische opstap' vanwege de regel over superlatieven."
+    "opmerking": "Keyphrase is 'ai bi'; als onderwerp is 'AI en BI' gekozen omdat dat zo in H1 en H2 staat. Geen dienst genoemd: de body noemt alleen AI consultancy als pagina, geen pakket met prijs. De pagina zegt 'vaak het beste startpunt'; dat is afgezwakt tot 'vaak een logische opstap' vanwege de regel over superlatieven.",
+    "status": "concept"
   },
   {
     "pagina": "/kennisbank/wat-doet-een-bi-specialist",
@@ -1022,7 +957,8 @@
       "tekst": "artikel van {{afzender}}"
     },
     "herkomst": "Antwoord: 'Wat is een BI specialist?', het schema onder 'Taken en vaardigheden' en de tabel onder 'BI specialist versus AI specialist'. Vervolgvraag 1: 'Hoe AI de rol verandert' en de summary. Vervolgvraag 2: alinea 'In de praktijk heb je ze vaak allebei nodig'. Vervolgvraag 3: tweede alinea onder 'Wat is een BI specialist?'.",
-    "opmerking": "Blok geplaatst onder de bestaande H2 'Wat is een BI specialist?'. De eigenlijke artikelvraag (H1) is 'Wat doet een BI specialist?'; als dat niet als hoofdvraag telt, is een eigen vraagkop nodig. Keyphrase is het meervoud 'bi specialisten'; onderwerp in enkelvoud zodat de kop het letterlijk bevat. De pagina heeft geen FAQ en noemt geen dienst."
+    "opmerking": "Blok geplaatst onder de bestaande H2 'Wat is een BI specialist?'. De eigenlijke artikelvraag (H1) is 'Wat doet een BI specialist?'; als dat niet als hoofdvraag telt, is een eigen vraagkop nodig. Keyphrase is het meervoud 'bi specialisten'; onderwerp in enkelvoud zodat de kop het letterlijk bevat. De pagina heeft geen FAQ en noemt geen dienst.",
+    "status": "concept"
   },
   {
     "pagina": "/ai-development",
@@ -1110,7 +1046,8 @@
       "href": "/tarieven"
     },
     "herkomst": "Antwoord en tabel: lede, summary en de lijst 'Wat je concreet van mij krijgt' onder 'Ontwikkelproces'. Vervolgvraag 1: 'Samenwerking met developers uit mijn netwerk'. Vervolgvraag 2: prijsnotitie van de Vendor Review uit de prijstabel in de regels. Vervolgvraag 3: 'Build versus buy'.",
-    "opmerking": "Eigen vraagkop in plaats van de bestaande H2 'Wat is AI development?', omdat het blok over kosten en rolverdeling gaat. In de tabel komen doorlooptijd, prijs en 'inclusief eindpresentatie aan MT of board' van het AI Readiness Assessment uit de prijstabel in de regels; de pagina zelf noemt die dienst alleen als logische eerste stap. De pagina geeft voor de Fractional AI Lead alleen de prijs; de doorlooptijdcel toont de dagen per maand uit de prijstabel. De pagina spreekt bij de Vendor Review over de bouwpartij, de prijstabel over leveranciers."
+    "opmerking": "Eigen vraagkop in plaats van de bestaande H2 'Wat is AI development?', omdat het blok over kosten en rolverdeling gaat. In de tabel komen doorlooptijd, prijs en 'inclusief eindpresentatie aan MT of board' van het AI Readiness Assessment uit de prijstabel in de regels; de pagina zelf noemt die dienst alleen als logische eerste stap. De pagina geeft voor de Fractional AI Lead alleen de prijs; de doorlooptijdcel toont de dagen per maand uit de prijstabel. De pagina spreekt bij de Vendor Review over de bouwpartij, de prijstabel over leveranciers.",
+    "status": "concept"
   },
   {
     "pagina": "/ai-development/ai-specialist",
@@ -1138,7 +1075,8 @@
       "href": "/tarieven"
     },
     "herkomst": "Antwoord: 'Soorten AI specialisten', de summary en de lijst onder 'Mijn specialisaties'. Vervolgvraag 1: alinea's over strategische en technische AI specialisten. Vervolgvraag 2: de eerste en derde situatie onder 'Welke expertise heb jij nodig?'. Vervolgvraag 3: punt 'Begeleiding vanuit klantzijde' onder 'Mijn specialisaties'.",
-    "opmerking": "Eigen vraagkop in plaats van de bestaande H2 'Wat doet een AI specialist?', zodat de keuze- en kostenvraag centraal staat. Inzet en prijs van de Fractional AI Lead in vervolgvraag 3 komen uit de prijstabel; de pagina noemt de dienst zonder bedrag. Geen tabel: de pagina koppelt de vier situaties niet aan vier verschillende diensten."
+    "opmerking": "Eigen vraagkop in plaats van de bestaande H2 'Wat doet een AI specialist?', zodat de keuze- en kostenvraag centraal staat. Inzet en prijs van de Fractional AI Lead in vervolgvraag 3 komen uit de prijstabel; de pagina noemt de dienst zonder bedrag. Geen tabel: de pagina koppelt de vier situaties niet aan vier verschillende diensten.",
+    "status": "concept"
   },
   {
     "pagina": "/ai-development/ai-software",
@@ -1146,7 +1084,7 @@
     "onderwerp": "AI software",
     "vraagkop": "Wanneer volstaat standaard AI software en wanneer loont maatwerk?",
     "onderBestaandeKop": false,
-    "antwoord": "Standaard AI software volstaat voor alles wat een concurrent ook bij een leverancier kan kopen; maatwerk loont alleen voor de laag waarin de eigen kennis zit, zoals regels, prompts, testsets en koppelingen. Vaak is de uitkomst een combinatie: model en platform inkopen, de kennislaag op maat laten bouwen en de implementatie bij een partner beleggen. Wie de selectie niet zelf wil trekken, kan die laten begeleiden met de {{dienst:vendor-review}} van {{timing:vendor-review}} voor {{pricelc:vendor-review}}.",
+    "antwoord": "Standaard AI software volstaat voor alles wat een concurrent ook bij een leverancier kan kopen; maatwerk loont alleen voor de laag waarin de eigen kennis zit, zoals regels, prompts, testsets en koppelingen. Vaak is de uitkomst een combinatie: model en platform inkopen, de kennislaag op maat laten bouwen en de implementatie bij een partner beleggen. Wie de selectie niet zelf wil trekken, kan die laten begeleiden met de {{dienst:vendor-review}}, die {{timing:vendor-review}} duurt.",
     "vervolgvragen": [
       {
         "vraag": "Is de licentie de grootste kostenpost van AI software?",
@@ -1165,7 +1103,8 @@
       "tekst": "artikel van {{afzender}}"
     },
     "herkomst": "Antwoord: 'Standaard of maatwerk?' met het schema en de laatste alinea onder 'Selectiecriteria'. Vervolgvraag 1: summary en de rij 'Kosten' in de criteriatabel. Vervolgvraag 2: openingsalinea onder 'Selectiecriteria'. Vervolgvraag 3: alinea over de Vendor Review.",
-    "opmerking": "De pagina noemt de Vendor Review zonder prijs of doorlooptijd; die komen via tokens uit de prijstabel. Type is kennisbank omdat het schema article is, daarom de bron 'artikel van' ondanks de prijs in het antwoord."
+    "opmerking": "De pagina noemt de Vendor Review zonder prijs of doorlooptijd; die komen via tokens uit de prijstabel. Type is kennisbank omdat het schema article is, daarom de bron 'artikel van' ondanks de prijs in het antwoord.",
+    "status": "concept"
   },
   {
     "pagina": "/ai-development/ai-oplossingen",
@@ -1193,7 +1132,8 @@
       "href": "/tarieven"
     },
     "herkomst": "Antwoord: derde alinea onder 'Wat zijn AI oplossingen?' en de slotalinea onder 'AI oplossingen voor het MKB'. Vervolgvraag 1: vuistregels onder 'AI oplossingen op maat versus standaard'. Vervolgvraag 2: slotalinea onder 'AI oplossingen voor het MKB'. Vervolgvraag 3: alinea 'Wat je in dat traject van mij kunt verwachten' onder 'Van idee tot livegang'.",
-    "opmerking": "Eigen vraagkop in plaats van de bestaande H2 'Wat zijn AI oplossingen?'. De pagina noemt maar één geprijsde dienst (het AI Readiness Assessment), dus geen tabel. Vervolgvraag 1 ligt dicht bij de H2 'AI oplossingen op maat versus standaard' en de FAQ over bestaande software, maar is een andere vraag."
+    "opmerking": "Eigen vraagkop in plaats van de bestaande H2 'Wat zijn AI oplossingen?'. De pagina noemt maar één geprijsde dienst (het AI Readiness Assessment), dus geen tabel. Vervolgvraag 1 ligt dicht bij de H2 'AI oplossingen op maat versus standaard' en de FAQ over bestaande software, maar is een andere vraag.",
+    "status": "concept"
   },
   {
     "pagina": "/kennisbank/wat-doet-een-ai-developer",
@@ -1210,17 +1150,21 @@
       {
         "vraag": "Beslist een AI developer of een toepassing de investering waard is?",
         "antwoord": "Nee. Een AI developer bepaalt doorgaans niet of de toepassing de investering waard is, kiest niet tussen leveranciers namens de organisatie en richt de governance niet in. Dat hoort bij de rol van een AI consultant aan de kant van de opdrachtgever."
-      },
-      {
-        "vraag": "Hoeveel zaken moeten vooraf geregeld zijn voor een goede samenwerking met een AI developer?",
-        "antwoord": "3 zaken helpen bij de samenwerking met een AI developer: een specificatie met meetbare eisen, een testset op eigen data die van de opdrachtgever blijft, en afspraken over beheer en overdracht."
       }
     ],
     "bron": {
       "tekst": "artikel van {{afzender}}"
     },
     "herkomst": "Antwoord: 'Wat is een AI developer?', het bijschrift van het takenschema en de tabel onder 'AI developer versus AI consultant'. Vervolgvraag 1: derde alinea onder 'Wat is een AI developer?'. Vervolgvraag 2: alinea 'Wat een AI developer doorgaans níét doet' onder 'Taken'. Vervolgvraag 3: voorlaatste alinea onder 'AI developer versus AI consultant'.",
-    "opmerking": "Blok geplaatst onder de bestaande H2 'Wat is een AI developer?'; de artikelvraag (H1) luidt 'Wat doet een AI developer?'. Keyphrase is de hele vraag; als onderwerp is 'AI developer' gekozen. De pagina heeft geen FAQ en noemt geen dienst."
+    "opmerking": "Blok geplaatst onder de bestaande H2 'Wat is een AI developer?'; de artikelvraag (H1) luidt 'Wat doet een AI developer?'. Keyphrase is de hele vraag; als onderwerp is 'AI developer' gekozen. De pagina heeft geen FAQ en noemt geen dienst.",
+    "status": "concept",
+    "geschrapt": [
+      {
+        "laag": "A",
+        "zin": "Hoeveel zaken moeten vooraf geregeld zijn voor een goede samenwerking met een AI developer? 3 zaken helpen bij de samenwerking met een AI developer: een specificatie met meetbare eisen, een testset op eigen data die van de opdrachtgever blijft, en afspraken over beheer en overdracht.",
+        "reden": "het aantal in het antwoord is zelf geteld en staat niet letterlijk op de pagina"
+      }
+    ]
   },
   {
     "pagina": "/kennisbank/ai-specialist-salaris",
@@ -1247,7 +1191,8 @@
       "tekst": "artikel van {{afzender}}"
     },
     "herkomst": "Antwoord: tabel en alinea's onder 'Salarisindicatie AI specialist' (kolom DataJobs), het Indeed-punt onder 'AI engineer salaris' en de vuistregels onder 'Vast in dienst of freelance inhuren?'. Vervolgvraag 1: eerste alinea en summary. Vervolgvraag 2: alinea 'Die cijfers zijn lastig één-op-één te vergelijken'. Vervolgvraag 3: vuistregel 'Kies een parttime rol'.",
-    "opmerking": "Alleen bedragen van DataJobs en Indeed overgenomen, met de peildata van de pagina. De cijfers van de Nationale Beroepen-bron (hogere bandbreedtes, bijgewerkt november 2024) en van de publicatie van The Search Company zijn weggelaten omdat hun namen het verboden woord bevatten; het blok toont daardoor de lagere van de twee bandbreedtes per niveau. Het senior-bedrag van DataJobs (€ 7.000) is toevallig gelijk aan de prijs van het AI Readiness Assessment en kan een automatische controle op uitgetypte dienstprijzen laten afgaan. De en dashes uit de bedragen op de pagina zijn vervangen door 'tot'."
+    "opmerking": "Alleen bedragen van DataJobs en Indeed overgenomen, met de peildata van de pagina. De cijfers van de Nationale Beroepen-bron (hogere bandbreedtes, bijgewerkt november 2024) en van de publicatie van The Search Company zijn weggelaten omdat hun namen het verboden woord bevatten; het blok toont daardoor de lagere van de twee bandbreedtes per niveau. Het senior-bedrag van DataJobs (€ 7.000) is toevallig gelijk aan de prijs van het AI Readiness Assessment en kan een automatische controle op uitgetypte dienstprijzen laten afgaan. De en dashes uit de bedragen op de pagina zijn vervangen door 'tot'.",
+    "status": "concept"
   },
   {
     "pagina": "/markten",
@@ -1255,7 +1200,7 @@
     "onderwerp": "AI per branche",
     "vraagkop": "Wat verschilt er bij AI per branche en wat blijft in elke sector gelijk?",
     "onderBestaandeKop": false,
-    "antwoord": "Bij AI per branche zijn de vraagstukken in elke sector dezelfde: bepalen welke toepassingen voorrang krijgen, een leverancier of bouwpartij kiezen en de toepassing na livegang beheersen. De verschillen zitten in de regels, de gevoeligheid van de data en de gevolgen van een fout, en die drie bepalen hoe zwaar elke stap wordt ingericht. Het zwaartepunt van het werk van {{afzender}} ligt bij financiële dienstverlening, retail, industrie en zakelijke dienstverlening.",
+    "antwoord": "Bij AI per branche zijn de vraagstukken in elke sector dezelfde: bepalen welke toepassingen voorrang krijgen, een leverancier of bouwpartij kiezen en de toepassing na livegang beheersen. De verschillen zitten in de regels, de gevoeligheid van de data en de gevolgen van een fout, en die bepalen hoe zwaar elke stap wordt ingericht.",
     "vervolgvragen": [
       {
         "vraag": "Gelden de hoog-risicoregels van de AI Act al voor AI per branche?",
@@ -1267,14 +1212,15 @@
       },
       {
         "vraag": "Is het AI Readiness Assessment bruikbaar in elke sector?",
-        "antwoord": "Ja. Het {{dienst:ai-readiness-assessment}} laat zien hoe een organisatie ervoor staat, ongeacht de sector. Het duurt {{timing:ai-readiness-assessment}} en kost {{pricelc:ai-readiness-assessment}}, exclusief btw en reiskosten."
+        "antwoord": "Ja. Het {{dienst:ai-readiness-assessment}} laat zien hoe een organisatie ervoor staat, ongeacht de sector. Het duurt {{timing:ai-readiness-assessment}}."
       }
     ],
     "bron": {
       "tekst": "artikel van {{afzender}}"
     },
     "herkomst": "Antwoord: lede, summary en de alinea's plus het schema onder 'Waarom sectorkennis ertoe doet'. Vervolgvraag 1: slotalinea van 'Sectoren' over de Digital Omnibus. Vervolgvraag 2 en 3: 'Cases per sector', met prijs en doorlooptijd uit de prijstabel.",
-    "opmerking": "De pagina zelf noemt bij het AI Readiness Assessment alleen 'in korte tijd'; doorlooptijd en prijs komen via tokens uit de prijstabel. Het voorbeeldscenario (leasemaatschappij) is niet gebruikt."
+    "opmerking": "De pagina zelf noemt bij het AI Readiness Assessment alleen 'in korte tijd'; doorlooptijd en prijs komen via tokens uit de prijstabel. Het voorbeeldscenario (leasemaatschappij) is niet gebruikt.",
+    "status": "concept"
   },
   {
     "pagina": "/markten/zorg",
@@ -1301,7 +1247,8 @@
       "tekst": "artikel van {{afzender}}"
     },
     "herkomst": "Antwoord: matrix en alinea's onder 'AI toepassingen in de zorg', 'AI zorgapplicaties' en de lijst onder 'Uitdagingen en regelgeving'. Vervolgvraag 1: 'AI en data in de zorg'. Vervolgvraag 2 en 3: 'Uitdagingen en regelgeving' en de slotalinea van 'AI zorgapplicaties'.",
-    "opmerking": "Pagina staat op noindex. De pagina zegt zelf dat dit geen juridisch advies is en dat de zorg niet het zwaartepunt van de adviseur is; dat staat niet in het blok. Het voorbeeldscenario (ggz-instelling) is niet gebruikt."
+    "opmerking": "Pagina staat op noindex. De pagina zegt zelf dat dit geen juridisch advies is en dat de zorg niet het zwaartepunt van de adviseur is; dat staat niet in het blok. Het voorbeeldscenario (ggz-instelling) is niet gebruikt.",
+    "status": "wacht op publicatie"
   },
   {
     "pagina": "/markten/marketing",
@@ -1328,7 +1275,8 @@
       "tekst": "artikel van {{afzender}}"
     },
     "herkomst": "Antwoord: 'Wat is AI marketing?', het schema onder 'Toepassingen van AI in marketing', de alinea 'Content' en de eerste alinea van 'AI marketing strategie ontwikkelen'. Vervolgvraag 1: 'Personalisatie'. Vervolgvraag 2: stap 4 van het stappenplan. Vervolgvraag 3: 'Tools'.",
-    "opmerking": "Pagina staat op noindex. Vervolgvraag 2 ligt in de buurt van de bestaande FAQ over het vermelden van AI-content, maar gaat over chatbots en niet over het labelen van content. De pagina noemt geen dienst met prijs, dus geen diensttokens. Voorbeeldscenario (webwinkel) niet gebruikt."
+    "opmerking": "Pagina staat op noindex. Vervolgvraag 2 ligt in de buurt van de bestaande FAQ over het vermelden van AI-content, maar gaat over chatbots en niet over het labelen van content. De pagina noemt geen dienst met prijs, dus geen diensttokens. Voorbeeldscenario (webwinkel) niet gebruikt.",
+    "status": "wacht op publicatie"
   },
   {
     "pagina": "/markten/fintech",
@@ -1336,7 +1284,7 @@
     "onderwerp": "AI in fintech",
     "vraagkop": "Waar levert AI in fintech het meest op en welke regels spelen mee?",
     "onderBestaandeKop": false,
-    "antwoord": "AI in fintech levert de snelste winst op bij documentverwerking en signalering, waar AI de gegevens uit documenten haalt en een mens het oordeel houdt. Kredietbeoordeling van personen en de risicobeoordeling en prijsstelling bij levens- en ziektekostenverzekeringen zijn hoog risico onder de AI Act, met regels vanaf 2 december 2027 (stand september 2026). Financiële instellingen kunnen bij {{afzender}} terecht voor prioriteren met het {{dienst:ai-readiness-assessment}}, kiezen met de {{dienst:vendor-review}}, beoordelen met de {{dienst:ai-due-diligence}} en borgen met de {{dienst:fractional-ai-lead}}.",
+    "antwoord": "AI in fintech levert de snelste winst op bij documentverwerking en signalering, waar AI de gegevens uit documenten haalt en een mens het oordeel houdt. Kredietbeoordeling van personen en de risicobeoordeling en prijsstelling bij levens- en ziektekostenverzekeringen zijn hoog risico onder de AI Act, met regels vanaf 2 december 2027 (stand september 2026). Voor financiële instellingen zijn er het {{dienst:ai-readiness-assessment}} om te prioriteren, de {{dienst:vendor-review}} om te kiezen, de {{dienst:ai-due-diligence}} om te beoordelen en de {{dienst:fractional-ai-lead}} om te borgen.",
     "vervolgvragen": [
       {
         "vraag": "Blijft bij AI in fintech een mens verantwoordelijk voor het oordeel?",
@@ -1355,7 +1303,8 @@
       "tekst": "artikel van {{afzender}}"
     },
     "herkomst": "Antwoord: 'AI toepassingen in fintech', 'AI automatisering in financiële dienstverlening', de AI Act-bullet onder 'AI governance en compliance' en de lijst onder 'AI consultancy voor financiële instellingen'. Vervolgvraag 1: onderscheid extractie en oordeel. Vervolgvraag 2 en 3: 'AI governance en compliance' (uitstel en DORA).",
-    "opmerking": "Vervolgvraag 3 raakt aan de bestaande FAQ 'Geldt DORA ook voor AI-leveranciers?' maar stelt de vraag vanuit de instelling; bij te veel overlap deze schrappen. De pagina voegt toe dat de kwalificatie door compliance of juridische zaken getoetst moet worden; dat staat niet in het blok. Een tabel met de vier diensten was mogelijk maar is weggelaten. Geen prijzen genoemd omdat de pagina die niet noemt. Voorbeeldscenario (schadeverzekeraar) niet gebruikt."
+    "opmerking": "Vervolgvraag 3 raakt aan de bestaande FAQ 'Geldt DORA ook voor AI-leveranciers?' maar stelt de vraag vanuit de instelling; bij te veel overlap deze schrappen. De pagina voegt toe dat de kwalificatie door compliance of juridische zaken getoetst moet worden; dat staat niet in het blok. Een tabel met de vier diensten was mogelijk maar is weggelaten. Geen prijzen genoemd omdat de pagina die niet noemt. Voorbeeldscenario (schadeverzekeraar) niet gebruikt.",
+    "status": "concept"
   },
   {
     "pagina": "/markten/automotive",
@@ -1382,7 +1331,8 @@
       "tekst": "artikel van {{afzender}}"
     },
     "herkomst": "Antwoord: lede, summary en de alinea 'Zo begin je'. Vervolgvraag 1: 'Welke regels gelden er?'. Vervolgvraag 2 en 3: 'AI assistenten'.",
-    "opmerking": "De pagina noemt alleen de doorlooptijd van het AI Readiness Assessment, geen prijs; daarom alleen het timing-token. De pagina zegt dat automotive niet het zwaartepunt van de adviseur is; dat staat niet in het blok. Voorbeeldscenario (dealerbedrijf) niet gebruikt."
+    "opmerking": "De pagina noemt alleen de doorlooptijd van het AI Readiness Assessment, geen prijs; daarom alleen het timing-token. De pagina zegt dat automotive niet het zwaartepunt van de adviseur is; dat staat niet in het blok. Voorbeeldscenario (dealerbedrijf) niet gebruikt.",
+    "status": "concept"
   },
   {
     "pagina": "/markten/onderwijs",
@@ -1409,7 +1359,8 @@
       "tekst": "artikel van {{afzender}}"
     },
     "herkomst": "Antwoord: lede, 'AI implementeren in een onderwijsorganisatie' (schema met vijf stappen) en de wettelijke kaders onder 'AI-beleid voor onderwijsinstellingen'. Vervolgvraag 1 en 3: 'AI implementeren in een onderwijsorganisatie'. Vervolgvraag 2: toepassing 10 en 'Nadelen en risico's'.",
-    "opmerking": "Pagina staat op noindex. De datum van het toetsingskader (april 2026) staat alleen in de lopende tekst, niet in de bronvermelding; letterlijk overgenomen. De pagina zegt dat onderwijs niet het zwaartepunt van de adviseur is; dat staat niet in het blok. Voorbeeldscenario (mbo-instelling) niet gebruikt."
+    "opmerking": "Pagina staat op noindex. De datum van het toetsingskader (april 2026) staat alleen in de lopende tekst, niet in de bronvermelding; letterlijk overgenomen. De pagina zegt dat onderwijs niet het zwaartepunt van de adviseur is; dat staat niet in het blok. Voorbeeldscenario (mbo-instelling) niet gebruikt.",
+    "status": "wacht op publicatie"
   },
   {
     "pagina": "/markten/luchtvaart",
@@ -1436,7 +1387,8 @@
       "tekst": "artikel van {{afzender}}"
     },
     "herkomst": "Antwoord: openingsalinea, matrix en schema onder de eerste H2 en stap 2 onder 'AI implementeren in de luchtvaart'. Vervolgvraag 1: 'AI op luchthavens'. Vervolgvraag 2: 'AI implementeren in de luchtvaart'. Vervolgvraag 3: 'AI en automatisering'.",
-    "opmerking": "Pagina staat op noindex en heeft geen FAQ. Vervolgvraag 2 zegt bewust alleen iets over producten uit bijlage I; de pagina geeft voor de luchtvaart geen datum voor bijlage III. De pagina noemt het AI Readiness Assessment en de Vendor Review, maar die zijn niet in het blok gebruikt omdat luchtvaart niet het zwaartepunt is; desgewenst toe te voegen. Voorbeeldscenario (compensatieaanvragen) niet gebruikt."
+    "opmerking": "Pagina staat op noindex en heeft geen FAQ. Vervolgvraag 2 zegt bewust alleen iets over producten uit bijlage I; de pagina geeft voor de luchtvaart geen datum voor bijlage III. De pagina noemt het AI Readiness Assessment en de Vendor Review, maar die zijn niet in het blok gebruikt omdat luchtvaart niet het zwaartepunt is; desgewenst toe te voegen. Voorbeeldscenario (compensatieaanvragen) niet gebruikt.",
+    "status": "wacht op publicatie"
   },
   {
     "pagina": "/markten/overheid",
@@ -1463,7 +1415,8 @@
       "tekst": "artikel van {{afzender}}"
     },
     "herkomst": "Antwoord: de eerste twee alinea's onder de eerste H2, het schema onder 'Toepassingen binnen overheidsorganisaties' en 'AI Act en publieke waarden'. Vervolgvraag 1: 'AI implementeren binnen de overheid'. Vervolgvraag 2: 'AI Act en publieke waarden'. Vervolgvraag 3: 'AI advies voor overheidsorganisaties'.",
-    "opmerking": "Pagina staat op noindex. Onderwerp is 'AI bij de overheid' (woordkeus van de lede) in plaats van de H1-vorm 'AI voor de overheid'; beide dekken de keyphrase 'ai overheid'. Vervolgvraag 1 ligt in de buurt van de FAQ 'Mogen ambtenaren generatieve AI gebruiken?', maar gaat over de reikwijdte naar gemeenten. De pagina zegt dat de overheid niet het zwaartepunt van de adviseur is; dat staat niet in het blok. Voorbeeldscenario (gemeente) niet gebruikt."
+    "opmerking": "Pagina staat op noindex. Onderwerp is 'AI bij de overheid' (woordkeus van de lede) in plaats van de H1-vorm 'AI voor de overheid'; beide dekken de keyphrase 'ai overheid'. Vervolgvraag 1 ligt in de buurt van de FAQ 'Mogen ambtenaren generatieve AI gebruiken?', maar gaat over de reikwijdte naar gemeenten. De pagina zegt dat de overheid niet het zwaartepunt van de adviseur is; dat staat niet in het blok. Voorbeeldscenario (gemeente) niet gebruikt.",
+    "status": "wacht op publicatie"
   },
   {
     "pagina": "/ai-beleid",
@@ -1519,7 +1472,7 @@
     "vervolgvragen": [
       {
         "vraag": "Is een AI beleid haalbaar voor een mkb-bedrijf zonder compliance-afdeling?",
-        "antwoord": "Ja. Een AI beleid voor het mkb past op één tot drie pagina's die iedereen in tien minuten kan lezen. Het stappenplan telt 7 stappen, van inventariseren wat er al gebruikt wordt tot evalueren na drie maanden, en er is een [AI-beleid template (pdf)](/downloads/ai-beleid-template.pdf) met dezelfde opzet."
+        "antwoord": "Ja. Een AI beleid voor het mkb past op één tot drie pagina's die iedereen in tien minuten kan lezen. Het stappenplan loopt van inventariseren wat er al gebruikt wordt tot evalueren na drie maanden, en er is een [AI-beleid template (pdf)](/downloads/ai-beleid-template.pdf) met dezelfde opzet."
       },
       {
         "vraag": "Vraagt de AI Act om een certificaat voor AI-geletterdheid in het AI beleid?",
@@ -1535,7 +1488,8 @@
       "href": "/tarieven"
     },
     "herkomst": "Antwoord: lede, 'Onderdelen van een AI beleid', de FAQ over het laten schrijven van een beleid, 'AI governance inrichten' en de slotalinea's van 'AI-beleid voor het MKB'. Tabel: dezelfde twee dienstalinea's plus de prijstabel. Vervolgvragen: 'AI-beleid voor het MKB: voorbeeld en template', 'AI Act en compliance' en 'AI governance inrichten'.",
-    "opmerking": "Geen bestaande H2 in vraagvorm, daarom een eigen vraagkop. Het begeleiden van het opstellen zelf heeft op de pagina geen prijs of doorlooptijd; het blok noemt daar dus geen bedrag bij. De lede-claim 'in een paar weken een eerste versie' is niet overgenomen, omdat die op een doorlooptijd van een dienst kan lijken. Vervolgvraag 2 overlapt met een FAQ op /ai-beleid/ai-act, niet met een FAQ op deze pagina. Voorbeeldscenario (installatiebedrijf) niet gebruikt."
+    "opmerking": "Geen bestaande H2 in vraagvorm, daarom een eigen vraagkop. Het begeleiden van het opstellen zelf heeft op de pagina geen prijs of doorlooptijd; het blok noemt daar dus geen bedrag bij. De lede-claim 'in een paar weken een eerste versie' is niet overgenomen, omdat die op een doorlooptijd van een dienst kan lijken. Vervolgvraag 2 overlapt met een FAQ op /ai-beleid/ai-act, niet met een FAQ op deze pagina. Voorbeeldscenario (installatiebedrijf) niet gebruikt.",
+    "status": "concept"
   },
   {
     "pagina": "/ai-beleid/ai-act",
@@ -1543,7 +1497,7 @@
     "onderwerp": "AI Act voor bedrijven",
     "vraagkop": "Wat vraagt de AI Act voor bedrijven nu al en wat geldt pas later?",
     "onderBestaandeKop": false,
-    "antwoord": "De AI Act voor bedrijven hangt af van drie dingen: welke AI een organisatie gebruikt of maakt, in welke van de vier risicocategorieën die valt en of de organisatie aanbieder of gebruiksverantwoordelijke is. De verboden praktijken en de plicht rond AI-geletterdheid gelden sinds 2 februari 2025 en de transparantieverplichtingen sinds 2 augustus 2026. De hoog-risicoregels gelden sinds de Digital Omnibus vanaf 2 december 2027 voor toepassingen uit bijlage III en vanaf 2 augustus 2028 voor AI in producten uit bijlage I (stand 23 september 2026).",
+    "antwoord": "De AI Act voor bedrijven hangt af van het volgende: welke AI een organisatie gebruikt of maakt, in welke van de vier risicocategorieën die valt en of de organisatie aanbieder of gebruiksverantwoordelijke is. De verboden praktijken en de plicht rond AI-geletterdheid gelden sinds 2 februari 2025 en de transparantieverplichtingen sinds 2 augustus 2026. De hoog-risicoregels gelden sinds de Digital Omnibus vanaf 2 december 2027 voor toepassingen uit bijlage III en vanaf 2 augustus 2028 voor AI in producten uit bijlage I (stand 23 september 2026).",
     "vervolgvragen": [
       {
         "vraag": "Kan een gebruiker onder de AI Act voor bedrijven ongemerkt aanbieder worden?",
@@ -1551,7 +1505,7 @@
       },
       {
         "vraag": "Hoe lang bewaart een gebruiksverantwoordelijke logs onder de AI Act voor bedrijven?",
-        "antwoord": "6 maanden is het minimum voor automatisch gegenereerde logs van een hoog-risicosysteem, volgens artikel 26. Onder de AI Act voor bedrijven noemt hetzelfde artikel voor gebruiksverantwoordelijken onder meer ook menselijk toezicht, het melden van incidenten en het vooraf informeren van werknemers en hun vertegenwoordigers."
+        "antwoord": "Zes maanden is het minimum voor automatisch gegenereerde logs van een hoog-risicosysteem, volgens artikel 26. Onder de AI Act voor bedrijven noemt hetzelfde artikel voor gebruiksverantwoordelijken onder meer ook menselijk toezicht, het melden van incidenten en het vooraf informeren van werknemers en hun vertegenwoordigers."
       },
       {
         "vraag": "Bevat het AI Readiness Assessment een toets op de AI Act voor bedrijven?",
@@ -1562,7 +1516,8 @@
       "tekst": "artikel van {{afzender}}"
     },
     "herkomst": "Antwoord: lede, 'Risicocategorieën', 'Verplichtingen per rol' en de tabel onder 'Tijdlijn'. Vervolgvraag 1 en 2: 'Verplichtingen per rol' (artikel 25 en artikel 26). Vervolgvraag 3: slotalinea van 'Eerste stappen voor bedrijven'.",
-    "opmerking": "De H2 'Wat is de AI Act?' is een vraag maar bevat het onderwerp 'AI Act voor bedrijven' niet letterlijk, daarom een eigen vraagkop; als onderwerp 'AI Act' ook goed is, kan het blok onder die bestaande kop. Alle data komen letterlijk uit de tijdlijntabel met peildatum 23 september 2026. De pagina zegt dat dit geen juridisch advies is; dat staat niet in het blok. Geen prijzen genoemd omdat de pagina die niet noemt. Voorbeeldscenario (zakelijke dienstverlener) niet gebruikt."
+    "opmerking": "De H2 'Wat is de AI Act?' is een vraag maar bevat het onderwerp 'AI Act voor bedrijven' niet letterlijk, daarom een eigen vraagkop; als onderwerp 'AI Act' ook goed is, kan het blok onder die bestaande kop. Alle data komen letterlijk uit de tijdlijntabel met peildatum 23 september 2026. De pagina zegt dat dit geen juridisch advies is; dat staat niet in het blok. Geen prijzen genoemd omdat de pagina die niet noemt. Voorbeeldscenario (zakelijke dienstverlener) niet gebruikt.",
+    "status": "concept"
   },
   {
     "pagina": "/partnernetwerk",
@@ -1570,11 +1525,11 @@
     "onderwerp": "AI bureau",
     "vraagkop": "Waarom geen traditioneel AI bureau?",
     "onderBestaandeKop": true,
-    "antwoord": "Een traditioneel AI bureau verkoopt capaciteit en heeft daardoor belang bij een grotere scope, terwijl {{afzender}} alleen werkt als onafhankelijk AI-adviseur die adviseert en de uitvoering begeleidt zonder zelf iets te bouwen of te verkopen. Is er meer capaciteit nodig voor development, data en BI of training, dan stelt hij partijen voor die hij kent en die de opdrachtgever rechtstreeks contracteert, zonder marge of commissie. Voor het vergelijken van meerdere partijen is er de {{dienst:vendor-review}}, die {{timing:vendor-review}} duurt en {{pricelc:vendor-review}} kost.",
+    "antwoord": "Een traditioneel AI bureau verkoopt capaciteit en heeft daardoor belang bij een grotere scope, terwijl {{afzender}} alleen werkt als onafhankelijk AI-adviseur die adviseert en de uitvoering begeleidt zonder zelf iets te bouwen of te verkopen. Is er meer capaciteit nodig voor development, data en BI of training, dan stelt hij partijen voor die hij kent en die de opdrachtgever rechtstreeks contracteert, zonder marge of commissie. Voor het vergelijken van meerdere partijen is er de {{dienst:vendor-review}}, die {{timing:vendor-review}} duurt.",
     "vervolgvragen": [
       {
         "vraag": "Hoeveel typen expertise biedt het partnernetwerk aan wie een AI bureau zoekt?",
-        "antwoord": "3 typen expertise: development, data en BI, en training en verandermanagement. Welke partij past bij wie een AI bureau zoekt, hangt af van de vraag, en eerst wordt bepaald of zelf bouwen, kopen of partneren de juiste keuze is."
+        "antwoord": "Drie typen expertise: development, data en BI, en training en verandermanagement. Welke partij past bij wie een AI bureau zoekt, hangt af van de vraag, en eerst wordt bepaald of zelf bouwen, kopen of partneren de juiste keuze is."
       },
       {
         "vraag": "Heeft dit alternatief voor een AI bureau een partnerstatus bij Microsoft, OpenAI of andere leveranciers?",
@@ -1582,7 +1537,7 @@
       },
       {
         "vraag": "Kan de begeleiding die een AI bureau vervangt ook doorlopend?",
-        "antwoord": "Ja. Bij doorlopende trajecten kan de begeleiding als {{dienst:fractional-ai-lead}}: {{timing:fractional-ai-lead}} voor {{pricelc:fractional-ai-lead}}. De opdrachtgever houdt daarbij één aanspreekpunt voor advies en regie, terwijl de partner de capaciteit levert."
+        "antwoord": "Ja. Bij doorlopende trajecten kan de begeleiding als {{dienst:fractional-ai-lead}}, voor {{timing:fractional-ai-lead}}. De opdrachtgever houdt daarbij één aanspreekpunt voor advies en regie, terwijl de partner de capaciteit levert."
       }
     ],
     "bron": {
@@ -1590,7 +1545,8 @@
       "href": "/tarieven"
     },
     "herkomst": "Antwoord: 'Waarom geen traditioneel AI bureau?', lede, summary en de lijst onder 'Hoe ik partners selecteer'. Vervolgvraag 1: 'Mijn gescreende partnernetwerk'. Vervolgvraag 2: 'Platforms en technologie'. Vervolgvraag 3: 'Eén aanspreekpunt, schaalbare capaciteit', met prijs en doorlooptijd uit de prijstabel.",
-    "opmerking": "Er zijn geen partnernamen genoemd, want de pagina noemt er geen; de leveranciers in vervolgvraag 2 zijn platformleveranciers waarvan de pagina uitdrukkelijk zegt dat het geen partnerschappen zijn. Twijfel of 'Waarom geen traditioneel AI bureau?' de hoofdvraag is: het is geen kostenvraag, maar wel de keuzevraag van de pagina en het bevat het onderwerp. Prijzen en doorlooptijden van de Vendor Review en de Fractional AI Lead staan niet op de pagina zelf en komen via tokens uit de prijstabel."
+    "opmerking": "Er zijn geen partnernamen genoemd, want de pagina noemt er geen; de leveranciers in vervolgvraag 2 zijn platformleveranciers waarvan de pagina uitdrukkelijk zegt dat het geen partnerschappen zijn. Twijfel of 'Waarom geen traditioneel AI bureau?' de hoofdvraag is: het is geen kostenvraag, maar wel de keuzevraag van de pagina en het bevat het onderwerp. Prijzen en doorlooptijden van de Vendor Review en de Fractional AI Lead staan niet op de pagina zelf en komen via tokens uit de prijstabel.",
+    "status": "concept"
   },
   {
     "pagina": "/kennisbank/chatgpt-voor-bedrijven",
@@ -1598,11 +1554,11 @@
     "onderwerp": "ChatGPT voor bedrijven",
     "vraagkop": "Wat kan ChatGPT voor bedrijven?",
     "onderBestaandeKop": true,
-    "antwoord": "ChatGPT voor bedrijven is de AI-assistent van OpenAI in een zakelijk abonnement, die in gewone taal teksten, samenvattingen, analyses en opzetten levert en daarnaast onder meer projecten, eigen GPT's, data-analyse en koppelingen met andere systemen biedt. Voor bedrijfsdata zijn de abonnementen Business en Enterprise bedoeld en geen persoonlijke accounts: bij die twee blijft training op invoer en uitvoer volgens OpenAI standaard uit (stand september 2026). ChatGPT kan een fout antwoord zelfverzekerd brengen, dus voor alles wat naar een klant, toezichthouder of directie gaat blijft controle door een mens nodig.",
+    "antwoord": "ChatGPT voor bedrijven is de AI-assistent van OpenAI in een zakelijk abonnement, die in gewone taal teksten, samenvattingen, analyses en opzetten levert en daarnaast onder meer projecten, eigen GPT's, data-analyse en koppelingen met andere systemen biedt. Voor bedrijfsdata zijn de abonnementen Business en Enterprise bedoeld en geen persoonlijke accounts: bij beide blijft training op invoer en uitvoer volgens OpenAI standaard uit (stand september 2026). ChatGPT kan een fout antwoord zelfverzekerd brengen, dus voor alles wat naar een klant, toezichthouder of directie gaat blijft controle door een mens nodig.",
     "vervolgvragen": [
       {
         "vraag": "Wat kost ChatGPT voor bedrijven per gebruiker?",
-        "antwoord": "2 soorten plekken kent ChatGPT Business, het instapabonnement van ChatGPT voor bedrijven: een standaardplek van $20 per gebruiker per maand bij jaarbetaling of $25 bij maandbetaling, en een premiumplek van $100 of $125. Dat zijn Amerikaanse lijstprijzen exclusief btw, stand september 2026. De prijs van ChatGPT Enterprise is op aanvraag."
+        "antwoord": "Een standaardplek van ChatGPT Business, het instapabonnement van ChatGPT voor bedrijven, kost $20 per gebruiker per maand bij jaarbetaling of $25 bij maandbetaling, en een premiumplek $100 of $125. Dat zijn Amerikaanse lijstprijzen exclusief btw, stand september 2026. De prijs van ChatGPT Enterprise is op aanvraag."
       },
       {
         "vraag": "Biedt ChatGPT voor bedrijven Europese dataopslag?",
@@ -1617,7 +1573,8 @@
       "tekst": "artikel van {{afzender}}"
     },
     "herkomst": "Antwoord: alinea's onder 'Wat kan ChatGPT voor bedrijven?', de summary en de alinea over training onder 'Privacy en veiligheid'. Vervolgvraag 1 en 2: tabel en toelichting onder 'Zakelijke abonnementen' en het punt 'Dataopslag'. Vervolgvraag 3: eerste twee alinea's onder 'Privacy en veiligheid'.",
-    "opmerking": "Toolprijzen in dollars overgenomen zoals de pagina ze geeft, met peildatum. Het antwoord op vervolgvraag 1 begint met het cijfer 2 (soorten plekken) omdat een antwoord niet met een dollarteken mag beginnen. Geen tabel: de pagina heeft al een eigen abonnementstabel."
+    "opmerking": "Toolprijzen in dollars overgenomen zoals de pagina ze geeft, met peildatum. Het antwoord op vervolgvraag 1 begint met het cijfer 2 (soorten plekken) omdat een antwoord niet met een dollarteken mag beginnen. Geen tabel: de pagina heeft al een eigen abonnementstabel.",
+    "status": "concept"
   },
   {
     "pagina": "/kennisbank/claude-voor-bedrijven",
@@ -1625,11 +1582,11 @@
     "onderwerp": "Claude voor bedrijven",
     "vraagkop": "Welk abonnement hoort bij Claude voor bedrijven en waar staat de data?",
     "onderBestaandeKop": false,
-    "antwoord": "Claude voor bedrijven is de AI-assistent van Anthropic in een zakelijk abonnement: Team voor 2 tot 150 gebruikers, of Enterprise met uitgebreider beheer. Alleen die twee abonnementen zijn geschikt voor bedrijfsgegevens, omdat training op de content daar standaard uit staat; de data wordt volgens Anthropic in de VS opgeslagen (stand september 2026). Claude komt het meest tot zijn recht bij lange documenten, schrijfwerk en het delegeren van taken.",
+    "antwoord": "Claude voor bedrijven is de AI-assistent van Anthropic in een zakelijk abonnement: Team voor 2 tot 150 gebruikers, of Enterprise met uitgebreider beheer. Alleen die abonnementen zijn geschikt voor bedrijfsgegevens, omdat training op de content daar standaard uit staat; de data wordt volgens Anthropic in de VS opgeslagen (stand september 2026). Claude komt het meest tot zijn recht bij lange documenten, schrijfwerk en het delegeren van taken.",
     "vervolgvragen": [
       {
         "vraag": "Wat kost Claude voor bedrijven per gebruiker?",
-        "antwoord": "2 soorten plekken kent het Team-abonnement van Claude voor bedrijven: een standaardplek van $20 per gebruiker per maand bij jaarbetaling of $25 bij maandbetaling, en een premiumplek van $100 of $125. Enterprise kost $20 per plek per maand bij jaarbetaling plus gebruik tegen API-tarieven, met een jaarcontract van minimaal 20 plekken. Dat zijn Amerikaanse lijstprijzen exclusief btw, stand september 2026."
+        "antwoord": "Een standaardplek in het Team-abonnement van Claude voor bedrijven kost $20 per gebruiker per maand bij jaarbetaling of $25 bij maandbetaling, en een premiumplek $100 of $125. Enterprise kost $20 per plek per maand bij jaarbetaling plus gebruik tegen API-tarieven, met een jaarcontract van minimaal 20 plekken. Dat zijn Amerikaanse lijstprijzen exclusief btw, stand september 2026."
       },
       {
         "vraag": "Kan de data van Claude voor bedrijven in de app in Europa worden opgeslagen?",
@@ -1644,7 +1601,8 @@
       "tekst": "artikel van {{afzender}}"
     },
     "herkomst": "Antwoord: lede, summary, eerste alinea en diagram onder 'Zakelijke mogelijkheden' en de slotzin van de eerste alinea na de tabel onder 'Claude versus ChatGPT en Gemini'. Vervolgvraag 1: prijslijst onder 'Zakelijke mogelijkheden'. Vervolgvraag 2: alinea 'Waar staat je data?'. Vervolgvraag 3: eerste alinea en diagram onder 'Zakelijke mogelijkheden'.",
-    "opmerking": "Geen bestaande H2 bevat 'Claude voor bedrijven', daarom een eigen vraagkop. Toolprijzen in dollars overgenomen zoals de pagina ze geeft; het Enterprise-minimum van 20 plekken staat op de pagina als 'volgens de Enterprise-pagina'. De naam 'claude.ai' is vermeden omdat de punt de zinstelling breekt; er staat 'de app van Claude'."
+    "opmerking": "Geen bestaande H2 bevat 'Claude voor bedrijven', daarom een eigen vraagkop. Toolprijzen in dollars overgenomen zoals de pagina ze geeft; het Enterprise-minimum van 20 plekken staat op de pagina als 'volgens de Enterprise-pagina'. De naam 'claude.ai' is vermeden omdat de punt de zinstelling breekt; er staat 'de app van Claude'.",
+    "status": "concept"
   },
   {
     "pagina": "/kennisbank/gemini-voor-bedrijven",
@@ -1656,7 +1614,7 @@
     "vervolgvragen": [
       {
         "vraag": "Wat kost Gemini voor bedrijven per gebruiker?",
-        "antwoord": "3 Business-edities van Google Workspace bevatten Gemini voor bedrijven: Business Starter voor € 6,80, Business Standard voor € 13,60 en Business Plus voor € 21,10 per gebruiker per maand bij een jaarcontract, exclusief belastingen (stand september 2026). De prijs van de Enterprise-editie is op aanvraag."
+        "antwoord": "Business Starter kost € 6,80, Business Standard € 13,60 en Business Plus € 21,10: dat zijn de Business-edities van Google Workspace met Gemini voor bedrijven, per gebruiker per maand bij een jaarcontract, exclusief belastingen (stand september 2026). De prijs van de Enterprise-editie is op aanvraag."
       },
       {
         "vraag": "Werkt Gemini voor bedrijven in Docs en Sheets met de editie Business Starter?",
@@ -1671,7 +1629,8 @@
       "tekst": "artikel van {{afzender}}"
     },
     "herkomst": "Antwoord: lede, eerste alinea onder 'Gemini in Google Workspace' en het eerste punt onder 'Privacy en data'. Vervolgvraag 1 en 2: editietabel onder 'Gemini in Google Workspace'. Vervolgvraag 3: punt 'Gemini volgt toegangsrechten' en aandachtspunt 1 onder 'Privacy en data'.",
-    "opmerking": "Geen bestaande H2 bevat 'Gemini voor bedrijven', daarom een eigen vraagkop. Europrijzen zijn toolprijzen van Google, overgenomen zoals de pagina ze geeft. De Vendor Review is niet genoemd: de pagina linkt wel naar /diensten/vendor-review, maar noemt de dienst niet bij naam."
+    "opmerking": "Geen bestaande H2 bevat 'Gemini voor bedrijven', daarom een eigen vraagkop. Europrijzen zijn toolprijzen van Google, overgenomen zoals de pagina ze geeft. De Vendor Review is niet genoemd: de pagina linkt wel naar /diensten/vendor-review, maar noemt de dienst niet bij naam.",
+    "status": "concept"
   },
   {
     "pagina": "/kennisbank/microsoft-copilot-voor-bedrijven",
@@ -1683,7 +1642,7 @@
     "vervolgvragen": [
       {
         "vraag": "Wat kost een betaalde licentie voor Microsoft Copilot?",
-        "antwoord": "2 betaalde licenties voor Microsoft Copilot staan op de Nederlandse prijspagina van Microsoft: Copilot Business voor € 18,20 en Microsoft Copilot voor enterprise voor € 26,00 per gebruiker per maand, bij jaarlijkse betaling en exclusief btw (stand september 2026). Wie Copilot Business van 1 juli tot en met 31 december 2026 afsluit, betaalt het eerste jaar tijdelijk € 15,60."
+        "antwoord": "Copilot Business kost € 18,20 en Microsoft Copilot voor enterprise € 26,00 per gebruiker per maand, bij jaarlijkse betaling en exclusief btw (stand september 2026). Wie Copilot Business van 1 juli tot en met 31 december 2026 afsluit, betaalt het eerste jaar tijdelijk € 15,60."
       },
       {
         "vraag": "Wordt bedrijfsdata gebruikt om Microsoft Copilot te trainen?",
@@ -1698,7 +1657,8 @@
       "tekst": "artikel van {{afzender}}"
     },
     "herkomst": "Antwoord: eerste alinea onder 'Wat is Microsoft Copilot?', de twee niveaus onder 'Licenties' en de alinea over bestaande rechten onder 'Randvoorwaarden voor je data'. Vervolgvraag 1 en 3: prijstabel en opsomming onder 'Licenties'. Vervolgvraag 2: punt 'Geen training op je data'.",
-    "opmerking": "Onderwerp ingekort tot 'Microsoft Copilot' zodat de bestaande H2 exact als vraagkop kan dienen; de keyphrase is 'microsoft copilot voor bedrijven'. Europrijzen zijn toolprijzen van Microsoft, overgenomen zoals de pagina ze geeft. De maandprijs van € 21,84 en de bundels zijn weggelaten om het antwoord kort te houden."
+    "opmerking": "Onderwerp ingekort tot 'Microsoft Copilot' zodat de bestaande H2 exact als vraagkop kan dienen; de keyphrase is 'microsoft copilot voor bedrijven'. Europrijzen zijn toolprijzen van Microsoft, overgenomen zoals de pagina ze geeft. De maandprijs van € 21,84 en de bundels zijn weggelaten om het antwoord kort te houden.",
+    "status": "concept"
   },
   {
     "pagina": "/kennisbank/prompt-engineering",
@@ -1708,10 +1668,6 @@
     "onderBestaandeKop": true,
     "antwoord": "Prompt engineering is het zo formuleren van een AI prompt, de opdracht aan een taalmodel, dat het model doet wat bedoeld is en dat bij herhaling opnieuw doet. Voor de meeste medewerkers komt het neer op een paar gewoontes: duidelijk en specifiek zijn, context en een rol geven, voorbeelden tonen en de gewenste vorm vastleggen. Die gewoontes werken in elke assistent, en de uitkomst vraagt altijd controle omdat een overtuigend geformuleerd antwoord nog steeds onjuist kan zijn.",
     "vervolgvragen": [
-      {
-        "vraag": "Uit hoeveel bouwstenen bestaat een prompt bij prompt engineering?",
-        "antwoord": "5 bouwstenen: rol, taak, context, voorbeelden en vorm. Bij prompt engineering heeft niet elke prompt ze alle vijf nodig, maar hoe belangrijker de uitkomst is, hoe meer bouwstenen worden ingevuld."
-      },
       {
         "vraag": "Is prompt engineering alleen iets voor ontwikkelaars?",
         "antwoord": "Nee. Voor ontwikkelaars die AI in software inbouwen is prompt engineering een discipline met tests en versiebeheer, maar voor de meeste medewerkers volstaan een paar gewoontes die het verschil maken tussen een generiek antwoord en een bruikbaar concept."
@@ -1725,7 +1681,15 @@
       "tekst": "artikel van {{afzender}}"
     },
     "herkomst": "Antwoord: eerste twee alinea's onder 'Wat is prompt engineering?', de technieken 1 tot en met 6 onder 'Technieken' en de summary. Vervolgvraag 1: diagram met bouwstenen onder 'Technieken'. Vervolgvraag 2: tweede alinea onder 'Wat is prompt engineering?'. Vervolgvraag 3: 'Zoeken naar de magische formule' onder 'Veelgemaakte fouten'.",
-    "opmerking": "De keyphrase is 'ai prompt', maar H1 en de vraag-H2 gaan over prompt engineering; daarom onderwerp 'Prompt engineering' met de bestaande H2, en 'AI prompt' in de eerste zin van het antwoord. Het woord dat op de pagina voor de leveranciersdocumentatie wordt gebruikt is bewust vermeden; er staat 'de leveranciers van de assistenten'."
+    "opmerking": "De keyphrase is 'ai prompt', maar H1 en de vraag-H2 gaan over prompt engineering; daarom onderwerp 'Prompt engineering' met de bestaande H2, en 'AI prompt' in de eerste zin van het antwoord. Het woord dat op de pagina voor de leveranciersdocumentatie wordt gebruikt is bewust vermeden; er staat 'de leveranciers van de assistenten'.",
+    "status": "concept",
+    "geschrapt": [
+      {
+        "laag": "A",
+        "zin": "Uit hoeveel bouwstenen bestaat een prompt bij prompt engineering? 5 bouwstenen: rol, taak, context, voorbeelden en vorm. Bij prompt engineering heeft niet elke prompt ze alle vijf nodig, maar hoe belangrijker de uitkomst is, hoe meer bouwstenen worden ingevuld.",
+        "reden": "het aantal in het antwoord is zelf geteld en staat niet letterlijk op de pagina"
+      }
+    ]
   },
   {
     "pagina": "/ai-workshop",
@@ -1733,7 +1697,7 @@
     "onderwerp": "AI workshop",
     "vraagkop": "Welke AI workshop past bij welk team en hoe wordt de prijs bepaald?",
     "onderBestaandeKop": false,
-    "antwoord": "{{afzender}} geeft een AI workshop of training incompany en op maat, opgebouwd rond drie tot vijf concrete taken per rol uit de eigen praktijk van het team. De vier gangbare vertrekpunten zijn een introductie voor management, hands-on werken met ChatGPT en Copilot, AI-geletterdheid en een workshop AI-strategie. Elke opdracht krijgt een vaste prijs, die in de intake wordt besproken en vooraf op papier staat.",
+    "antwoord": "{{afzender}} geeft een AI workshop of training incompany en op maat, opgebouwd rond drie tot vijf concrete taken per rol uit de eigen praktijk van het team. De gangbare vertrekpunten zijn een introductie voor management, hands-on werken met ChatGPT en Copilot, AI-geletterdheid en een workshop AI-strategie. Elke opdracht krijgt een vaste prijs, die in de intake wordt besproken en vooraf op papier staat.",
     "vervolgvragen": [
       {
         "vraag": "Is er een AI workshop voor directie of raad van commissarissen?",
@@ -1753,7 +1717,8 @@
       "href": "/tarieven"
     },
     "herkomst": "Antwoord: 'Waarom een AI workshop?', het diagram onder 'Soorten workshops', 'Incompany of op locatie' en 'Investering'. Vervolgvraag 1: 'Introductie AI voor management' en de alinea over de Executive Briefing onder 'Investering'. Vervolgvraag 2 en 3: 'Incompany of op locatie' en de tweede alinea onder 'Waarom een AI workshop?'.",
-    "opmerking": "Geen bedrag en geen duur voor workshops of trainingen. De Executive Briefing is alleen met tokens genoemd omdat de pagina die zelf met prijstoken noemt; de duur van drie uur uit de pagina is niet overgenomen en er is geen timing-token gebruikt. Bron verwijst naar /tarieven vanwege dat ene prijstoken. Geen tabel: de pagina toont de vier varianten al in een eigen matrix."
+    "opmerking": "Geen bedrag en geen duur voor workshops of trainingen. De Executive Briefing is alleen met tokens genoemd omdat de pagina die zelf met prijstoken noemt; de duur van drie uur uit de pagina is niet overgenomen en er is geen timing-token gebruikt. Bron verwijst naar /tarieven vanwege dat ene prijstoken. Geen tabel: de pagina toont de vier varianten al in een eigen matrix.",
+    "status": "concept"
   },
   {
     "pagina": "/ai-workshop/copilot-training",
@@ -1780,7 +1745,8 @@
       "tekst": "{{afzender}}, onafhankelijk AI-adviseur"
     },
     "herkomst": "Antwoord: 'Wat leer je in de Copilot training?', de summary en de alinea over incompany en vaste prijs onder 'Programma en investering'. Vervolgvraag 1: diagram onder 'Programma en investering'. Vervolgvraag 2 en 3: slotalinea onder 'Veilig werken met bedrijfsdata'.",
-    "opmerking": "De bestaande H2 is exact overgenomen en bevat daardoor 'je'; dat is de kop van de pagina, niet eigen tekst. Het is een inhoudsvraag en geen kostenvraag; de prijsvorm staat wel in het antwoord. Bron zonder /tarieven omdat er geen bedrag of doorlooptijd in het blok staat."
+    "opmerking": "De bestaande H2 is exact overgenomen en bevat daardoor 'je'; dat is de kop van de pagina, niet eigen tekst. Het is een inhoudsvraag en geen kostenvraag; de prijsvorm staat wel in het antwoord. Bron zonder /tarieven omdat er geen bedrag of doorlooptijd in het blok staat.",
+    "status": "concept"
   },
   {
     "pagina": "/ai-workshop/chatgpt-training",
@@ -1807,7 +1773,8 @@
       "tekst": "{{afzender}}, onafhankelijk AI-adviseur"
     },
     "herkomst": "Antwoord: 'Wat leer je?', eerste alinea onder 'Voor wie?' en de alinea over locatie, intake en vaste prijs onder 'Programma'. Vervolgvraag 1 en 2: 'Voor wie?'. Vervolgvraag 3: 'Programma'.",
-    "opmerking": "Geen bestaande H2 bevat 'ChatGPT training', daarom een eigen vraagkop. Geen bedrag en geen duur; alleen de prijsvorm die de pagina zelf noemt. Bron zonder /tarieven omdat er geen bedrag of doorlooptijd in het blok staat."
+    "opmerking": "Geen bestaande H2 bevat 'ChatGPT training', daarom een eigen vraagkop. Geen bedrag en geen duur; alleen de prijsvorm die de pagina zelf noemt. Bron zonder /tarieven omdat er geen bedrag of doorlooptijd in het blok staat.",
+    "status": "concept"
   },
   {
     "pagina": "/ai-workshop/ai-coaching",
@@ -1834,7 +1801,8 @@
       "tekst": "{{afzender}}, onafhankelijk AI-adviseur"
     },
     "herkomst": "Antwoord: lede, eerste alinea onder 'Wat is AI coaching?', eerste alinea onder 'Hoe een traject verloopt' en de alinea over afgebakend advies en vaste prijs. Vervolgvraag 1 en 2: de uitgangspunten 'Afbouwen is het doel' en 'Jij blijft eigenaar'. Vervolgvraag 3: slotalinea onder 'Voor wie is AI coaching?'.",
-    "opmerking": "Bestaande H2 gebruikt; dat is een definitievraag en geen kostenvraag. Vervolgvraag 3 ligt inhoudelijk in de buurt van de FAQ-vraag over een probleem dat groter is dan één team, maar gaat over de Fractional AI Lead, die de FAQ niet noemt. De Fractional AI Lead is zonder prijs of doorlooptijd genoemd, daarom bron zonder /tarieven; wie daar tokens bij wil, moet de bron aanpassen."
+    "opmerking": "Bestaande H2 gebruikt; dat is een definitievraag en geen kostenvraag. Vervolgvraag 3 ligt inhoudelijk in de buurt van de FAQ-vraag over een probleem dat groter is dan één team, maar gaat over de Fractional AI Lead, die de FAQ niet noemt. De Fractional AI Lead is zonder prijs of doorlooptijd genoemd, daarom bron zonder /tarieven; wie daar tokens bij wil, moet de bron aanpassen.",
+    "status": "concept"
   },
   {
     "pagina": "/ai-workshop/ai-geletterdheid-training",
@@ -1851,17 +1819,21 @@
       {
         "vraag": "Schrijft de AI Act een vast lesprogramma voor een AI geletterdheid training voor?",
         "antwoord": "Nee. Voor een AI geletterdheid training bestaat geen voorgeschreven lesprogramma: volgens de Autoriteit Persoonsgegevens hangt wat nodig is af van de risico's, de rollen en de context."
-      },
-      {
-        "vraag": "Uit hoeveel onderdelen bestaat een AI geletterdheid training?",
-        "antwoord": "5 onderdelen in het voorbeeldprogramma: hoe AI werkt, de systemen van de organisatie, risico's en regels, afspraken en oefenen. De inhoud van een AI geletterdheid training wordt per organisatie afgestemd."
       }
     ],
     "bron": {
       "tekst": "{{afzender}}, onafhankelijk AI-adviseur"
     },
     "herkomst": "Antwoord: summary, slot van 'Wat is AI geletterdheid?', de opsomming onder 'Wat de AI Act vraagt' en de eerste alinea onder 'Aantonen dat je voldoet'. Vervolgvraag 1: 'Wat de AI Act vraagt'. Vervolgvraag 2 en 3: eerste alinea en genummerde lijst onder 'Inhoud van de training'.",
-    "opmerking": "Deze pagina noemt geen prijs en ook geen prijsvorm, dus het blok zegt niets over kosten. De pagina bevat de disclaimer dat de uitleg geen juridisch advies is; die staat niet in het blok, maar het blok komt bovenaan en bevat wetsuitleg, dus overweeg of de disclaimer dichterbij moet. Wetsfeiten en data zijn overgenomen zoals de pagina ze geeft."
+    "opmerking": "Deze pagina noemt geen prijs en ook geen prijsvorm, dus het blok zegt niets over kosten. De pagina bevat de disclaimer dat de uitleg geen juridisch advies is; die staat niet in het blok, maar het blok komt bovenaan en bevat wetsuitleg, dus overweeg of de disclaimer dichterbij moet. Wetsfeiten en data zijn overgenomen zoals de pagina ze geeft.",
+    "status": "concept",
+    "geschrapt": [
+      {
+        "laag": "A",
+        "zin": "Uit hoeveel onderdelen bestaat een AI geletterdheid training? 5 onderdelen in het voorbeeldprogramma: hoe AI werkt, de systemen van de organisatie, risico's en regels, afspraken en oefenen. De inhoud van een AI geletterdheid training wordt per organisatie afgestemd.",
+        "reden": "het aantal in het antwoord is zelf geteld en staat niet letterlijk op de pagina"
+      }
+    ]
   },
   {
     "pagina": "/inzichten/ai-adoptie-begint-bij-het-werk",
@@ -1888,7 +1860,8 @@
       "tekst": "artikel van {{afzender}}"
     },
     "herkomst": "Antwoord: lede, 'Waarom een leeg invoerveld niet werkt', 'Wat wel werkt: scenario's in plaats van mogelijkheden', summary en 'Adoptie verspreidt zich via collega's'. Vervolgvraag 1: 'Het patroon dat zich overal herhaalt' en de tweede drempel onder 'Waarom een leeg invoerveld niet werkt'. Vervolgvraag 2: 'Meet per rol, niet in totaal'. Vervolgvraag 3: 'Drie signalen dat je adoptie op de goede weg is'.",
-    "opmerking": "Het percentage 'tien tot vijftien procent wekelijks gebruik' komt uit de lede (algemene uitspraak). De cijfers elf en veertien procent en 70% tegenover 4% zijn illustratief en niet overgenomen. Geen tabel: het artikel vergelijkt geen opties en bevat geen interne links."
+    "opmerking": "Het percentage 'tien tot vijftien procent wekelijks gebruik' komt uit de lede (algemene uitspraak). De cijfers elf en veertien procent en 70% tegenover 4% zijn illustratief en niet overgenomen. Geen tabel: het artikel vergelijkt geen opties en bevat geen interne links.",
+    "status": "concept"
   },
   {
     "pagina": "/inzichten/ai-agents-wat-ze-wel-en-niet-kunnen",
@@ -1900,7 +1873,7 @@
     "vervolgvragen": [
       {
         "vraag": "Kunnen AI-agents vanaf de start zelfstandig een hele keten uitvoeren?",
-        "antwoord": "Nee. Het advies is om AI-agents te laten beginnen met voorbereiden of voorstellen, de 2 laagste van de 4 autonomieniveaus, ook als het model meer aankan. In die fase wordt duidelijk welke fouten werkelijk optreden, en die kennis is nodig om de autonomie veilig te verhogen."
+        "antwoord": "Nee. Het advies is om AI-agents te laten beginnen met voorbereiden of voorstellen, de laagste autonomieniveaus, ook als het model meer aankan. In die fase wordt duidelijk welke fouten werkelijk optreden, en die kennis is nodig om de autonomie veilig te verhogen."
       },
       {
         "vraag": "Is een bevestigingsstap nodig als AI-agents berichten naar klanten sturen of betalingen starten?",
@@ -1915,7 +1888,8 @@
       "tekst": "artikel van {{afzender}}"
     },
     "herkomst": "Antwoord: 'Waar agents goed werken', 'Waar agents stukgaan' en 'De vraag die je vooraf moet beantwoorden'. Vervolgvraag 1: 'Het autonomieniveau als bewuste keuze'. Vervolgvraag 2: 'Handelingen met externe gevolgen'. Vervolgvraag 3: 'Situaties zonder volledig logboek'.",
-    "opmerking": "De tijdwinst 'vaak tientallen procenten op de voorbereidende stap' is een praktijkcijfer en weggelaten. Geen tabel: geen interne links in het artikel."
+    "opmerking": "De tijdwinst 'vaak tientallen procenten op de voorbereidende stap' is een praktijkcijfer en weggelaten. Geen tabel: geen interne links in het artikel.",
+    "status": "concept"
   },
   {
     "pagina": "/inzichten/ai-governance-zonder-bureaucratie",
@@ -1935,14 +1909,15 @@
       },
       {
         "vraag": "Is de risico-indeling voor AI-governance in drie niveaus ook een juridisch oordeel onder de Europese AI-verordening?",
-        "antwoord": "Nee. De indeling in 3 niveaus is een werkmodel om binnen AI-governance het interne gesprek te structureren. De Europese AI-verordening hanteert een eigen classificatie, en de juridische afdeling of een gespecialiseerde adviseur stelt vast waar toepassingen exact onder vallen."
+        "antwoord": "Nee. De indeling in drie niveaus is een werkmodel om binnen AI-governance het interne gesprek te structureren. De Europese AI-verordening hanteert een eigen classificatie, en de juridische afdeling of een gespecialiseerde adviseur stelt vast waar toepassingen exact onder vallen."
       }
     ],
     "bron": {
       "tekst": "artikel van {{afzender}}"
     },
     "herkomst": "Antwoord: 'Het echte risico van AI-governance', 'Begin bij risicoclassificatie, niet bij techniek' en 'De vier mechanismen die je minimaal nodig hebt'. Vervolgvraag 1: 'Wat je kunt overslaan'. Vervolgvraag 2: '1. Eén register'. Vervolgvraag 3: slotalinea onder de risicoclassificatie.",
-    "opmerking": "De voorbeeldtermijnen (twee weken doorlooptijd voor de poort, twee werkdagen reactietijd) zijn als voorbeeld geformuleerd en daarom niet overgenomen. Geen tabel: de drie risiconiveaus zijn geen keuze-opties en het artikel bevat geen interne links."
+    "opmerking": "De voorbeeldtermijnen (twee weken doorlooptijd voor de poort, twee werkdagen reactietijd) zijn als voorbeeld geformuleerd en daarom niet overgenomen. Geen tabel: de drie risiconiveaus zijn geen keuze-opties en het artikel bevat geen interne links.",
+    "status": "concept"
   },
   {
     "pagina": "/inzichten/ai-vendorselectie-in-acht-stappen",
@@ -1962,14 +1937,15 @@
       },
       {
         "vraag": "Over hoeveel jaar worden de kosten berekend in een AI-vendorselectie?",
-        "antwoord": "3 jaar is de periode waarover de totale kosten in een AI-vendorselectie worden berekend. De berekening bevat minimaal de licentie, verbruikskosten bij verwacht en dubbel volume, eenmalige integratie, doorlopend beheer, opleiding en geschatte exitkosten."
+        "antwoord": "Drie jaar is de periode waarover de totale kosten in een AI-vendorselectie worden berekend. De berekening bevat minimaal de licentie, verbruikskosten bij verwacht en dubbel volume, eenmalige integratie, doorlopend beheer, opleiding en geschatte exitkosten."
       }
     ],
     "bron": {
       "tekst": "artikel van {{afzender}}"
     },
     "herkomst": "Antwoord: stap 1, 2, 4, 5, 7 en 8 en 'Tot slot: documenteer waarom de anderen afvielen'. Vervolgvraag 1: 'Stap 8: Onderhandel op wat je écht nodig hebt'. Vervolgvraag 2: 'Stap 3: Maak een longlist op fit, niet op bekendheid'. Vervolgvraag 3: 'Stap 7: Reken de echte kosten uit'.",
-    "opmerking": "Het artikel noemt de Vendor Review niet, dus geen diensttoken gebruikt, hoewel het onderwerp er direct op aansluit. Geen tabel: het artikel vergelijkt geen opties en bevat geen interne links."
+    "opmerking": "Het artikel noemt de Vendor Review niet, dus geen diensttoken gebruikt, hoewel het onderwerp er direct op aansluit. Geen tabel: het artikel vergelijkt geen opties en bevat geen interne links.",
+    "status": "concept"
   },
   {
     "pagina": "/inzichten/build-buy-of-partner",
@@ -1989,14 +1965,15 @@
       },
       {
         "vraag": "Welk deel van wat organisaties zelf willen bouwen is bij build, buy of partner werkelijk onderscheidend?",
-        "antwoord": "10 tot 20 procent is hooguit het deel van wat organisaties willen bouwen dat werkelijk onderscheidend is. De toets bij build, buy of partner is of de belangrijkste concurrent hetzelfde resultaat morgen bij een leverancier kan kopen: is dat zo, dan is het een commodity."
+        "antwoord": "Tien tot twintig procent is hooguit het deel van wat organisaties willen bouwen dat werkelijk onderscheidend is. De toets bij build, buy of partner is of de belangrijkste concurrent hetzelfde resultaat morgen bij een leverancier kan kopen: is dat zo, dan is het een commodity."
       }
     ],
     "bron": {
       "tekst": "artikel van {{afzender}}"
     },
     "herkomst": "Antwoord: 'De vier vragen die de keuze bepalen', summary en 'De hybride vorm die het vaakst werkt'. Vervolgvraag 1: 'Vraag 2: Wat kost het in jaar vijf?'. Vervolgvraag 2: slotalinea van 'Drie situaties waarin de keuze duidelijk is'. Vervolgvraag 3: 'Vraag 1: Is dit onderscheidend, of is het een commodity?'.",
-    "opmerking": "De H1 is zelf een vraag, daarom een eigen, andere vraagkop. Tabel weggelaten: het artikel vergelijkt wel drie opties, maar bevat geen enkele interne link, dus de verplichte gelinkte laatste cel per rij is niet te vullen. De vuistregel van 20% tot 40% onderhoud en 'tien tot twintig procent onderscheidend' staan als algemene praktijkuitspraak in het artikel; schrap vervolgvraag 1 en 3 als dat te veel op een praktijkcijfer lijkt."
+    "opmerking": "De H1 is zelf een vraag, daarom een eigen, andere vraagkop. Tabel weggelaten: het artikel vergelijkt wel drie opties, maar bevat geen enkele interne link, dus de verplichte gelinkte laatste cel per rij is niet te vullen. De vuistregel van 20% tot 40% onderhoud en 'tien tot twintig procent onderscheidend' staan als algemene praktijkuitspraak in het artikel; schrap vervolgvraag 1 en 3 als dat te veel op een praktijkcijfer lijkt.",
+    "status": "concept"
   },
   {
     "pagina": "/inzichten/de-business-case-voor-ai",
@@ -2016,14 +1993,15 @@
       },
       {
         "vraag": "Hoe lang duurt de productiviteitsdip waarmee een business case voor AI rekening houdt?",
-        "antwoord": "4 tot 8 weken duurt de productiviteitsdip na de invoering doorgaans. Het opnemen van die dip maakt een business case voor AI geloofwaardiger en niet zwakker."
+        "antwoord": "Vier tot acht weken duurt de productiviteitsdip na de invoering doorgaans. Het opnemen van die dip maakt een business case voor AI geloofwaardiger en niet zwakker."
       }
     ],
     "bron": {
       "tekst": "artikel van {{afzender}}"
     },
     "herkomst": "Antwoord: summary, 'De kostenkant: waar het meestal misgaat', 'Werk met bandbreedtes, niet met puntschattingen' en 'Spreek af wat je over een jaar meet'. Vervolgvraag 1: '1. Kostenreductie'. Vervolgvraag 2: 'Verbruikskosten die meeschalen'. Vervolgvraag 3: 'Verandering en opleiding'.",
-    "opmerking": "De eurobedragen uit het bandbreedtevoorbeeld en de beheerraming van een halve tot een hele dag per maand zijn niet overgenomen. Het onderwerp is gespeld als 'business case voor AI' (zoals in de H1); het artikel schrijft in de lopende tekst ook 'businesscase' aaneen. Geen tabel: geen interne links."
+    "opmerking": "De eurobedragen uit het bandbreedtevoorbeeld en de beheerraming van een halve tot een hele dag per maand zijn niet overgenomen. Het onderwerp is gespeld als 'business case voor AI' (zoals in de H1); het artikel schrijft in de lopende tekst ook 'businesscase' aaneen. Geen tabel: geen interne links.",
+    "status": "concept"
   },
   {
     "pagina": "/inzichten/freelance-ai-consultant-vs-agency-vs-big4",
@@ -2031,7 +2009,7 @@
     "onderwerp": "freelance AI consultant",
     "vraagkop": "Wanneer past een freelance AI consultant beter dan een agency of een Big 4-kantoor?",
     "onderBestaandeKop": false,
-    "antwoord": "Een freelance AI consultant past bij afgebakende, besluitgedreven vraagstukken, zoals een strategiesprint, een vendorselectie of een second opinion op een businesscase, waar één senior adviseur snel en flexibel werkt. Een agency past wanneer vaststaat wat er gebouwd moet worden en er specialistische capaciteit nodig is, en een Big 4-kantoor bij grote transformaties en trajecten waar compliance leidend is. Geen van de drie wint op alle punten: de keuze hangt af van het doel, de urgentie en de vereiste governance.",
+    "antwoord": "Een freelance AI consultant past bij afgebakende, besluitgedreven vraagstukken, zoals een strategiesprint, een vendorselectie of een second opinion op een businesscase, waar één senior adviseur snel en flexibel werkt. Een agency past wanneer vaststaat wat er gebouwd moet worden en er specialistische capaciteit nodig is, en een Big 4-kantoor bij grote transformaties en trajecten waar compliance leidend is. Geen van deze opties wint op alle punten: de keuze hangt af van het doel, de urgentie en de vereiste governance.",
     "vervolgvragen": [
       {
         "vraag": "Kan een freelance AI consultant een grote implementatie met een ontwikkelteam leveren?",
@@ -2043,14 +2021,15 @@
       },
       {
         "vraag": "Moet een opdrachtgever ook een freelance AI consultant naar belangen bij leveranciers vragen?",
-        "antwoord": "Ja. De 4 vragen over vergoedingen of partnerstatus, een eigen implementatiepraktijk, de verhouding tussen omzet uit implementatie en advies en afrekening op vervolgomzet gelden voor elke partij, dus ook voor een freelance AI consultant. Een eerlijk en onderbouwd antwoord is betrouwbaarder dan de bewering volledig onafhankelijk te zijn."
+        "antwoord": "Ja. De vier vragen over vergoedingen of partnerstatus, een eigen implementatiepraktijk, de verhouding tussen omzet uit implementatie en advies en afrekening op vervolgomzet gelden voor elke partij, dus ook voor een freelance AI consultant. Een eerlijk en onderbouwd antwoord is betrouwbaarder dan de bewering volledig onafhankelijk te zijn."
       }
     ],
     "bron": {
       "tekst": "artikel van {{afzender}}"
     },
     "herkomst": "Antwoord: 'Wanneer kies je voor wie?', de drie optieblokken onder '2. Wat betekent dit in de praktijk?', 'Waar de freelancer wint' en '4. Hoe maak je de juiste keuze?'. Vervolgvraag 1: 'Waar de freelancer verliest'. Vervolgvraag 2: '5. De combinatie die vaak het beste werkt'. Vervolgvraag 3: '3. Het conflict-of-interest-gesprek'.",
-    "opmerking": "Tabel weggelaten: het artikel toont de vergelijking freelance, agency en Big 4 al in een eigen tabel en bevat geen interne links. De bestaande H2 'Wanneer kies je voor wie?' bevat het onderwerp niet, daarom een eigen vraagkop. 'Strategiesprint', 'vendorselectie' en 'second opinion' staan in het artikel als soortnamen, niet als dienstnamen van Dave, en zijn daarom zonder token geschreven: graag controleren of dat gewenst is. Het artikel is in de ik-vorm geschreven door de freelancer zelf; het blok is neutraal in de derde persoon gehouden."
+    "opmerking": "Tabel weggelaten: het artikel toont de vergelijking freelance, agency en Big 4 al in een eigen tabel en bevat geen interne links. De bestaande H2 'Wanneer kies je voor wie?' bevat het onderwerp niet, daarom een eigen vraagkop. 'Strategiesprint', 'vendorselectie' en 'second opinion' staan in het artikel als soortnamen, niet als dienstnamen van Dave, en zijn daarom zonder token geschreven: graag controleren of dat gewenst is. Het artikel is in de ik-vorm geschreven door de freelancer zelf; het blok is neutraal in de derde persoon gehouden.",
+    "status": "concept"
   },
   {
     "pagina": "/inzichten/het-datafundament-onder-ai",
@@ -2066,18 +2045,19 @@
       },
       {
         "vraag": "Zijn er situaties waarin het datafundament wel vóór de eerste AI-toepassing moet worden aangepakt?",
-        "antwoord": "Ja. Het datafundament gaat voor als de kernentiteit niet eenduidig is, als de benodigde data niet wordt vastgelegd of als een bron geen eigenaar heeft. Die 3 signalen gaan over betekenis en eigenaarschap, niet over technologie."
+        "antwoord": "Ja. Het datafundament gaat voor als de kernentiteit niet eenduidig is, als de benodigde data niet wordt vastgelegd of als een bron geen eigenaar heeft. Die drie signalen gaan over betekenis en eigenaarschap, niet over technologie."
       },
       {
         "vraag": "Hoeveel begrippen moeten worden gedefinieerd voor het datafundament van één use case?",
-        "antwoord": "5 tot 10 begrippen die de use case raakt, zijn genoeg voor het datafundament van één toepassing. Het hele bedrijfsdatamodel definiëren is daarvoor niet nodig."
+        "antwoord": "Vijf tot tien begrippen die de use case raakt, zijn genoeg voor het datafundament van één toepassing. Het hele bedrijfsdatamodel definiëren is daarvoor niet nodig."
       }
     ],
     "bron": {
       "tekst": "artikel van {{afzender}}"
     },
     "herkomst": "Antwoord: summary, 'Twee waarheden die elkaar tegenspreken' en 'De use-case-gedreven volgorde'. Vervolgvraag 1: 'Probleem 4: Toegankelijkheid en infrastructuur'. Vervolgvraag 2: 'Wanneer \"eerst de data\" wél het juiste antwoord is'. Vervolgvraag 3: 'Probleem 1: Definities'.",
-    "opmerking": "Vervolgvraag 2 ligt inhoudelijk dicht bij de bestaande H2 'Wanneer \"eerst de data\" wél het juiste antwoord is', maar is anders geformuleerd; schrap hem als dat te veel overlapt. De percentages 94%, 6% en 40% zijn rekenvoorbeelden en niet overgenomen. Geen tabel: geen interne links."
+    "opmerking": "Vervolgvraag 2 ligt inhoudelijk dicht bij de bestaande H2 'Wanneer \"eerst de data\" wél het juiste antwoord is', maar is anders geformuleerd; schrap hem als dat te veel overlapt. De percentages 94%, 6% en 40% zijn rekenvoorbeelden en niet overgenomen. Geen tabel: geen interne links.",
+    "status": "concept"
   },
   {
     "pagina": "/inzichten/van-ai-strategie-naar-waarde",
@@ -2104,7 +2084,8 @@
       "tekst": "artikel van {{afzender}}"
     },
     "herkomst": "Antwoord: excerpt, summary, 'Waar het misgaat tussen strategie en resultaat' en 'Wat dit in de praktijk oplevert'. Vervolgvraag 1: valkuil onder 'Stap 2: Beleg eigenaarschap met budget en mandaat'. Vervolgvraag 2 en 3: 'Stap 3: Meet op het niveau waarop je het beloofde'.",
-    "opmerking": "Het rekenvoorbeeld met het besparingsbedrag en de gebruikscijfers (1.200 gebruikers, 87%, 40.000 documenten) is niet overgenomen, net als de voorbeelduitkomsten onder stap 1. Het artikel noemt de AI Strategy Sprint niet, dus geen diensttoken. Geen tabel: geen interne links."
+    "opmerking": "Het rekenvoorbeeld met het besparingsbedrag en de gebruikscijfers (1.200 gebruikers, 87%, 40.000 documenten) is niet overgenomen, net als de voorbeelduitkomsten onder stap 1. Het artikel noemt de AI Strategy Sprint niet, dus geen diensttoken. Geen tabel: geen interne links.",
+    "status": "concept"
   },
   {
     "pagina": "/inzichten/waarom-ai-pilots-blijven-steken",
@@ -2112,7 +2093,7 @@
     "onderwerp": "AI-pilots",
     "vraagkop": "Waardoor worden geslaagde AI-pilots zelden opgeschaald naar productie?",
     "onderBestaandeKop": false,
-    "antwoord": "AI-pilots blijven steken door vijf oorzaken die geen van alle technisch zijn: de pilot beantwoordt alleen of iets technisch kan, draait buiten het echte werkproces, heeft geen eigenaar voor de fase erna, rekent het beheer niet mee en vermijdt de organisatorische verandering. Een pilot toont haalbaarheid aan en geen waarde. De tegenmaatregel is om vóór de start de te beantwoorden vraag, de stopcriteria, de opschaaleigenaar, de beheerraming en de benodigde verandering op één pagina vast te leggen.",
+    "antwoord": "AI-pilots blijven steken door oorzaken die geen van alle technisch zijn: de pilot beantwoordt alleen of iets technisch kan, draait buiten het echte werkproces, heeft geen eigenaar voor de fase erna, rekent het beheer niet mee en vermijdt de organisatorische verandering. Een pilot toont haalbaarheid aan en geen waarde. De tegenmaatregel is om vóór de start de te beantwoorden vraag, de stopcriteria, de opschaaleigenaar, de beheerraming en de benodigde verandering op één pagina vast te leggen.",
     "vervolgvragen": [
       {
         "vraag": "Kunnen AI-pilots beter in de echte werkomgeving draaien dan in een aparte omgeving?",
@@ -2131,7 +2112,8 @@
       "tekst": "artikel van {{afzender}}"
     },
     "herkomst": "Antwoord: 'De pilotparadox', de vijf oorzaak-koppen, summary en 'Een pilotcontract van één pagina'. Vervolgvraag 1: tegenmaatregel bij oorzaak 2. Vervolgvraag 2: tegenmaatregel bij oorzaak 3. Vervolgvraag 3: tegenmaatregel bij oorzaak 5.",
-    "opmerking": "De H1 heeft de vorm van een vraag zonder vraagteken; de vraagkop is daarom bewust anders geformuleerd. De uitspraak uit de lede over hoeveel organisaties pilots opschalen is een ervaringsclaim en niet overgenomen. Geen tabel: geen interne links."
+    "opmerking": "De H1 heeft de vorm van een vraag zonder vraagteken; de vraagkop is daarom bewust anders geformuleerd. De uitspraak uit de lede over hoeveel organisaties pilots opschalen is een ervaringsclaim en niet overgenomen. Geen tabel: geen interne links.",
+    "status": "concept"
   },
   {
     "pagina": "/inzichten/wanneer-heb-je-echt-een-ai-strateeg-nodig",
@@ -2151,14 +2133,15 @@
       },
       {
         "vraag": "Hoe lang duurt een afgebakende opdracht voor een AI-strateeg meestal?",
-        "antwoord": "2 tot 6 weken is de omvang van een afgebakende opdracht die voor de meeste organisaties klopt. Een opdracht voor een AI-strateeg die langer duurt zonder tussentijdse beslismomenten, is zelden in het belang van de opdrachtgever."
+        "antwoord": "Twee tot zes weken is de omvang van een afgebakende opdracht die voor de meeste organisaties klopt. Een opdracht voor een AI-strateeg die langer duurt zonder tussentijdse beslismomenten, is zelden in het belang van de opdrachtgever."
       }
     ],
     "bron": {
       "tekst": "artikel van {{afzender}}"
     },
     "herkomst": "Antwoord: 'Wanneer externe hulp wél loont', 'Eerst: wanneer je het zelf beter kunt' en 'De omvang die meestal klopt'. Vervolgvraag 1: '2. Het besluit is klein en omkeerbaar'. Vervolgvraag 2: '4. Het besluit is al genomen' en '3. Je moet iets aan een board of toezichthouder uitleggen'. Vervolgvraag 3: 'De omvang die meestal klopt'.",
-    "opmerking": "De H1 is zelf een vraag en geen H2 stelt de hoofdvraag als vraag, daarom een eigen, andere vraagkop. Vervolgvraag 3 noemt 'twee tot zes weken' uitgetypt: dat is de algemene uitspraak van het artikel over opdrachten van adviseurs, niet de doorlooptijd van een benoemde dienst van Dave. Schrap vervolgvraag 3 als dat toch te dicht bij een eigen doorlooptijd komt. Het artikel noemt geen dienst bij naam, dus geen diensttokens. Geen tabel: geen interne links."
+    "opmerking": "De H1 is zelf een vraag en geen H2 stelt de hoofdvraag als vraag, daarom een eigen, andere vraagkop. Vervolgvraag 3 noemt 'twee tot zes weken' uitgetypt: dat is de algemene uitspraak van het artikel over opdrachten van adviseurs, niet de doorlooptijd van een benoemde dienst van Dave. Schrap vervolgvraag 3 als dat toch te dicht bij een eigen doorlooptijd komt. Het artikel noemt geen dienst bij naam, dus geen diensttokens. Geen tabel: geen interne links.",
+    "status": "concept"
   },
   {
     "pagina": "/inzichten/welke-ai-use-cases-leveren-resultaat",
@@ -2185,6 +2168,7 @@
       "tekst": "artikel van {{afzender}}"
     },
     "herkomst": "Antwoord: 'Het patroon achter de winnaars' met de vier genummerde kenmerken en 'Vier patronen die vrijwel altijd stranden'. Vervolgvraag 1: 'De assistent die alles kan'. Vervolgvraag 2: '4. De data bestaat al en wordt al gebruikt'. Vervolgvraag 3: 'Een praktische scoringsvraag'.",
-    "opmerking": "De H1 is zelf een vraag en geen H2 is als vraag geformuleerd, daarom een eigen, andere vraagkop. 'Na tientallen use-case-inventarisaties' uit de lede is een ervaringsaantal en niet gebruikt. Geen tabel: geen interne links."
+    "opmerking": "De H1 is zelf een vraag en geen H2 is als vraag geformuleerd, daarom een eigen, andere vraagkop. 'Na tientallen use-case-inventarisaties' uit de lede is een ervaringsaantal en niet gebruikt. Geen tabel: geen interne links.",
+    "status": "concept"
   }
 ]

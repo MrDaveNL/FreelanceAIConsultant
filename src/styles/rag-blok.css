@@ -28,3 +28,7 @@
 @media (max-width: 620px) {
   .rag-blok { padding: 20px 18px; }
 }
+
+/* Onder een bestaande kop is het blok gesplitst: antwoord direct onder de kop, vervolgvragen en bron aan het eind van de sectie. */
+.prose .rag-blok--antwoord { margin-bottom: 24px; }
+.prose .rag-blok--vervolg { margin: 28px 0 40px; }
