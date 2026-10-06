@@ -69,7 +69,7 @@ export const vervolgvraagSchema = z
   .object({
     vraag: tekst.refine((t) => t.endsWith('?'), 'moet op een vraagteken eindigen'),
     // De afzender staat alleen in de antwoordalinea en de bronregel; hier volstaat de volledige dienstnaam.
-    antwoord: tekst.refine((t) => !t.includes('{{afzender}}'), 'mag de afzender niet noemen'),
+    antwoord: tekst.refine((t) => !/\{\{afzender\}\}(?! adviseert)/.test(t), 'mag de afzender alleen noemen als advies van de afzender ("{{afzender}} adviseert ...")'),
     // Stelligheid van de bron. Maakt de bron een voorbehoud ("vaak", "meestal", "minder geschikt"), dan staat dat
     // hier letterlijk en komt het terug in de eerste zin van het antwoord. Een kaal "Ja." of "Nee." mag alleen
     // met onvoorwaardelijk: true, als de bron zelf geen voorbehoud maakt.
@@ -119,7 +119,7 @@ export const blokSchema = z
     // Afzender: bij dienstachtige blokken in de antwoordalinea en de bronregel, bij kennisbankblokken alleen in de bronregel.
     if (blok.type !== 'kennisbank' && !blok.antwoord.includes('{{afzender}}'))
       ctx.addIssue({ code: z.ZodIssueCode.custom, path: ['antwoord'], message: 'moet de afzender noemen ({{afzender}})' });
-    if (blok.type === 'kennisbank' && blok.antwoord.includes('{{afzender}}'))
+    if (blok.type === 'kennisbank' && /\{\{afzender\}\}(?! adviseert)/.test(blok.antwoord))
       ctx.addIssue({ code: z.ZodIssueCode.custom, path: ['antwoord'], message: 'kennisbankblok noemt de afzender alleen in de bronregel' });
     for (const [i, v] of blok.vervolgvragen.entries())
       if (begintMetBedrag(v.antwoord) && !vraagtNaarBedrag(v.vraag))

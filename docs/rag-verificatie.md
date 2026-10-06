@@ -2,7 +2,38 @@
 
 Stand: 6 oktober 2026 · branch `rag-blokken-fase-0` · er is niets nieuws geplaatst
 
-Dit rapport begint met de eindstand na de laatste correctieronde. De derde en tweede ronde staan daaronder ter referentie.
+Dit rapport begint met de vijfde ronde; daaronder staat de correctieronde. De derde en tweede ronde staan daaronder ter referentie.
+
+## Vijfde ronde: salarispagina en toolzinnen
+
+Stand na deze ronde: 47 geverifieerd, 18 concept, 0 akkoord, 5 wacht op publicatie, 3 geplaatste pilotblokken. Er is niets geplaatst.
+
+1. **Salarispagina.** De eerste zin van de antwoordalinea gebruikt nu de woorden van de pagina: "ze verschillen onderling duidelijk en zijn te gebruiken als orde van grootte." De afwijking uit de vorige tweede lezing is daarmee weg.
+2. **Drie toolzinnen geschrapt** die niet in de documentatie van de leverancier te vinden waren: ChatGPT V2.2, Claude V2.1 (de hele vervolgvraag, omdat het antwoord zonder die zin niet meer begon met het antwoord) en Claude V2.3.
+3. **Oordeel gescheiden van feit: 5 zinnen herschreven.** Het feit staat er in de woorden die de leverancier dekt en houdt zijn leveranciersbron; het oordeel is nu een advies van de afzender ("Dave Willemstein adviseert ..."). Dat advies staat in alle gevallen ook op de eigen pagina. Schema en controle staan de afzender buiten antwoordalinea en bronregel alleen toe in precies die formulering.
+
+| Pagina | Was | Is nu |
+|---|---|---|
+| `/kennisbank/chatgpt-voor-bedrijven` | concept | 6 extern feit(en), wacht op jouw oordeel (bijgewerkt in de vijfde ronde) |
+| `/kennisbank/chatgpt-voor-bedrijven` | ChatGPT kan zelfverzekerd een fout antwoord geven, dus voor alles wat naar een klant, toezichthouder of directie gaat blijft een mens verantwoordelijk voor de controle. | ChatGPT kan zelfverzekerd een fout antwoord geven; Dave Willemstein adviseert dat een mens verantwoordelijk blijft voor de controle van alles wat naar een klant, toezichthouder of directie gaat. |
+| `/kennisbank/claude-voor-bedrijven` | concept | 8 extern feit(en), wacht op jouw oordeel (bijgewerkt in de vijfde ronde) |
+| `/kennisbank/gemini-voor-bedrijven` | concept | 5 extern feit(en), wacht op jouw oordeel (bijgewerkt in de vijfde ronde) |
+| `/kennisbank/microsoft-copilot-voor-bedrijven` | concept | 5 extern feit(en), wacht op jouw oordeel (bijgewerkt in de vijfde ronde) |
+
+**Vier van de negen zinnen zijn niet herschreven**, omdat de kanttekening van de controleur daar geen oordeel of advies betreft dat aan de afzender toe te schrijven is. Ze staan er ongewijzigd en zijn aan jou:
+
+- `/kennisbank/claude-voor-bedrijven` · V1.3: "niet voor de claude.ai-app" staat niet letterlijk bij Anthropic; het volgt uit twee andere pagina's van Anthropic. Dat is een gevolgtrekking, geen advies.
+- `/kennisbank/gemini-voor-bedrijven` · A1: "zonder aparte AI-licentie" is een eigen samenvatting van wat Google schrijft, en de pagina zegt dat Google sinds januari 2025 functies toevoegt, niet dat Gemini er sindsdien in zit.
+- `/kennisbank/microsoft-copilot-voor-bedrijven` · V2.2: Microsoft schrijft "a wider set of organizational data", de zin "de volle breedte van de werkdata". Dat is een verschil in stelligheid, geen advies.
+- `/ai-workshop/copilot-training` · A2: de zin beschrijft de inhoud van de eigen training; daar is geen leveranciersfeit of oordeel te scheiden.
+
+4. **Laag A, B en C voor de zes gewijzigde blokken.** Laag A: 0 fouten. Laag B: 44 zinnen, 43 bevestigd; de ene niet bevestigde zin was de nieuwe Copilot-zin, waarin "weergaverechten" stond waar de pagina "leesrechten" zegt. Die is aangepast naar het woord van de pagina en daarna opnieuw door laag B (bevestigd) gegaan. Laag C: 27 zinnen nagetrokken, waaronder alle herschreven zinnen, 0 afwijkend.
+
+Twee oordelen in laag C waren volgens de lezer krap akkoord: de salariszin ("orde van grootte" staat op de pagina bij Indeed en DataJobs, de samenvatting zegt voor alle bronnen "gebruik ze als bandbreedte") en Gemini A1 (zie hierboven).
+
+De zes blokken blijven "concept": ze bevatten een extern feit en wachten op jouw oordeel. Het overzicht per blok staat in `docs/rag-akkoordlijst.md`; hoe een blok wordt toegevoegd en gecontroleerd staat in `docs/rag-blok.md`.
+
+---
 
 ## Eindstand na de correctieronde
 
@@ -171,7 +202,7 @@ Bij negen van de bevestigde zinnen dekt de leverancier alleen het feitelijke dee
 | `/ai-workshop/ai-coaching` | geverifieerd |  |
 | `/ai-workshop/ai-geletterdheid-training` | concept | 5 extern feit(en), wacht op jouw oordeel |
 | `/ai-workshop/chatgpt-training` | geverifieerd |  |
-| `/ai-workshop/copilot-training` | concept | 1 extern feit(en), wacht op jouw oordeel |
+| `/ai-workshop/copilot-training` | concept | 1 extern feit(en), wacht op jouw oordeel (bijgewerkt in de vijfde ronde) |
 | `/diensten` | geverifieerd |  |
 | `/diensten/ai-due-diligence` | geverifieerd |  |
 | `/diensten/ai-strategy-sprint` | geverifieerd |  |
@@ -191,7 +222,7 @@ Bij negen van de bevestigde zinnen dekt de leverancier alleen het feitelijke dee
 | `/inzichten/wanneer-heb-je-echt-een-ai-strateeg-nodig` | geverifieerd |  |
 | `/inzichten/welke-ai-use-cases-leveren-resultaat` | geverifieerd |  |
 | `/kennisbank/ai-agents-en-avg` | concept | 7 extern feit(en), wacht op jouw oordeel; wacht op jouw besluit over het AVG-voorstel |
-| `/kennisbank/ai-specialist-salaris` | concept | 5 extern feit(en), wacht op jouw oordeel; niet bevestigd: A1 afwijkend bij tweede lezing: Het fragment op regel 48 staat er letterlijk, maar de bron zegt dat de bronnen onderling 'duidelijk' verschillen (regel 50), niet 'flink', en 'bruikbaar als bandbreedte, niet als vast bedrag' staat nergens zo: de bron zegt alleen 'gebruik ze als orde van grootte' (regel 89, over de Indeed- en DataJobs-totaalcijfers) en 'geen gemiddelde' (regel 79). |
+| `/kennisbank/ai-specialist-salaris` | concept | 5 extern feit(en), wacht op jouw oordeel (bijgewerkt in de vijfde ronde) |
 | `/kennisbank/ai-voorbeelden` | geverifieerd |  |
 | `/kennisbank/chatgpt-voor-bedrijven` | concept | 6 extern feit(en), wacht op jouw oordeel |
 | `/kennisbank/claude-voor-bedrijven` | concept | 8 extern feit(en), wacht op jouw oordeel |

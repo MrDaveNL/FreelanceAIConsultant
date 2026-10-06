@@ -1846,7 +1846,7 @@
     "onderwerp": "AI specialist salaris",
     "vraagkop": "Wat zeggen de salarisbronnen over een AI specialist salaris in Nederland?",
     "onderBestaandeKop": false,
-    "antwoord": "Voor een AI specialist salaris publiceren de gecontroleerde salarisbronnen hun cijfers onder de titel AI engineer, niet onder AI specialist; ze verschillen onderling flink en zijn bruikbaar als bandbreedte, niet als vast bedrag. DataJobs (bijgewerkt mei 2026) noemt bruto per maand € 3.000 tot € 4.000 voor junioren, € 4.000 tot € 5.500 voor medioren en € 5.500 tot € 7.000 voor senioren; Indeed meldt een gemiddelde van circa € 57.000 per jaar (peildatum 6 oktober 2026). Voor werkgevers past een vaste aanstelling bij structureel werk met een duidelijke scope; bij een onduidelijke scope is externe of parttime inzet vaak verstandiger.",
+    "antwoord": "Voor een AI specialist salaris publiceren de gecontroleerde salarisbronnen hun cijfers onder de titel AI engineer, niet onder AI specialist; ze verschillen onderling duidelijk en zijn te gebruiken als orde van grootte. DataJobs (bijgewerkt mei 2026) noemt bruto per maand € 3.000 tot € 4.000 voor junioren, € 4.000 tot € 5.500 voor medioren en € 5.500 tot € 7.000 voor senioren; Indeed meldt een gemiddelde van circa € 57.000 per jaar (peildatum 6 oktober 2026). Voor werkgevers past een vaste aanstelling bij structureel werk met een duidelijke scope; bij een onduidelijke scope is externe of parttime inzet vaak verstandiger.",
     "vervolgvragen": [
       {
         "vraag": "Publiceren de gecontroleerde salarisbronnen een AI specialist salaris onder die functietitel?",
@@ -1877,7 +1877,7 @@
     ],
     "externeFeiten": [
       {
-        "zin": "Voor een AI specialist salaris publiceren de gecontroleerde salarisbronnen hun cijfers onder de titel AI engineer, niet onder AI specialist; ze verschillen onderling flink en zijn bruikbaar als bandbreedte, niet als vast bedrag.",
+        "zin": "Voor een AI specialist salaris publiceren de gecontroleerde salarisbronnen hun cijfers onder de titel AI engineer, niet onder AI specialist; ze verschillen onderling duidelijk en zijn te gebruiken als orde van grootte.",
         "soort": "salaris",
         "primaireBron": "bevestigd"
       },
@@ -2438,7 +2438,7 @@
     "onderwerp": "ChatGPT voor bedrijven",
     "vraagkop": "Wat kan ChatGPT voor bedrijven?",
     "onderBestaandeKop": true,
-    "antwoord": "Voor bedrijfsdata horen de abonnementen Business of Enterprise en geen persoonlijke accounts: bij beide blijft training op invoer en uitvoer volgens OpenAI standaard uit (stand september 2026). ChatGPT kan zelfverzekerd een fout antwoord geven, dus voor alles wat naar een klant, toezichthouder of directie gaat blijft een mens verantwoordelijk voor de controle.",
+    "antwoord": "Bij de abonnementen Business en Enterprise blijft training op invoer en uitvoer volgens OpenAI standaard uit (stand september 2026); {{afzender}} adviseert voor bedrijfsdata Business of Enterprise en geen persoonlijke accounts. ChatGPT kan zelfverzekerd een fout antwoord geven; {{afzender}} adviseert dat een mens verantwoordelijk blijft voor de controle van alles wat naar een klant, toezichthouder of directie gaat.",
     "vervolgvragen": [
       {
         "vraag": "Welk abonnement van ChatGPT voor bedrijven biedt Europese dataopslag?",
@@ -2447,7 +2447,7 @@
       },
       {
         "vraag": "Is een persoonlijk account geschikt voor bedrijfsdata bij ChatGPT voor bedrijven?",
-        "antwoord": "Nee, voor bedrijfsdata geldt bij ChatGPT voor bedrijven: Business of Enterprise, geen persoonlijke accounts. Bij de persoonlijke abonnementen kan OpenAI gesprekken gebruiken om modellen te verbeteren tenzij de gebruiker dat zelf uitzet, en de organisatie heeft geen zicht of zeggenschap over klantgegevens die een medewerker in een persoonlijk account zet. Voor Business en Enterprise is bovendien een verwerkersovereenkomst met OpenAI af te sluiten."
+        "antwoord": "Nee, voor bedrijfsdata geldt bij ChatGPT voor bedrijven: Business of Enterprise, geen persoonlijke accounts. Voor Business en Enterprise is bovendien een verwerkersovereenkomst met OpenAI af te sluiten."
       }
     ],
     "bron": {
@@ -2459,16 +2459,18 @@
       "Antwoord: de functies (projecten, eigen GPT's, data-analyse, koppelingen) toegeschreven aan ChatGPT Business volgens de prijspagina van OpenAI, zoals de bron; 'blijft controle door een mens nodig' naar 'blijft een mens verantwoordelijk voor de controle'; 'bedoeld' geschrapt.",
       "Vervolgvraag 1: 'het instapabonnement van ChatGPT voor bedrijven' geschrapt (staat niet in de bron); vraag versmald naar ChatGPT Business, omdat de bron alleen daarvoor prijzen geeft; het voorbehoud dat prijzen per land en valuta kunnen verschillen toegevoegd.",
       "Vervolgvraag 2: vraag met kaal 'Ja.' omgebouwd naar 'Welk abonnement ... biedt Europese dataopslag?'; antwoord begint met Enterprise en de beperking tot nieuwe werkruimtes, en zegt dat Business het niet heeft.",
-      "Vervolgvraag 3: vraag toegespitst op bedrijfsdata (zoals de summary); kaal 'Nee.' vervangen door 'Nee, voor bedrijfsdata ...'; 'wat medewerkers invoeren' naar het 'klantgegevens in een persoonlijk account' van de bron; 'bedoeld' geschrapt."
+      "Vervolgvraag 3: vraag toegespitst op bedrijfsdata (zoals de summary); kaal 'Nee.' vervangen door 'Nee, voor bedrijfsdata ...'; 'wat medewerkers invoeren' naar het 'klantgegevens in een persoonlijk account' van de bron; 'bedoeld' geschrapt.",
+      "Ronde 5: oordeel gescheiden van het leveranciersfeit en als advies van de afzender geformuleerd. Was: 'Voor bedrijfsdata horen de abonnementen Business of Enterprise en geen persoonlijke accounts: bij beide blijft training op invoer en uitvoer volgens OpenAI standaard uit (stand september 2026).'",
+      "Ronde 5: oordeel gescheiden van het leveranciersfeit en als advies van de afzender geformuleerd. Was: 'ChatGPT kan zelfverzekerd een fout antwoord geven, dus voor alles wat naar een klant, toezichthouder of directie gaat blijft een mens verantwoordelijk voor de controle.'"
     ],
     "externeFeiten": [
       {
-        "zin": "Voor bedrijfsdata horen de abonnementen Business of Enterprise en geen persoonlijke accounts: bij beide blijft training op invoer en uitvoer volgens OpenAI standaard uit (stand september 2026).",
+        "zin": "Bij de abonnementen Business en Enterprise blijft training op invoer en uitvoer volgens OpenAI standaard uit (stand september 2026); Dave Willemstein adviseert voor bedrijfsdata Business of Enterprise en geen persoonlijke accounts.",
         "soort": "toolprijs",
         "primaireBron": "bevestigd (documentatie van de leverancier, opgehaald 6 oktober 2026)"
       },
       {
-        "zin": "ChatGPT kan zelfverzekerd een fout antwoord geven, dus voor alles wat naar een klant, toezichthouder of directie gaat blijft een mens verantwoordelijk voor de controle.",
+        "zin": "ChatGPT kan zelfverzekerd een fout antwoord geven; Dave Willemstein adviseert dat een mens verantwoordelijk blijft voor de controle van alles wat naar een klant, toezichthouder of directie gaat.",
         "soort": "toolprijs",
         "primaireBron": "bevestigd (documentatie van de leverancier, opgehaald 6 oktober 2026)"
       },
@@ -2521,6 +2523,11 @@
         "laag": "aanwijzing",
         "zin": "Bij ChatGPT voor bedrijven is de prijs van ChatGPT Enterprise op aanvraag.",
         "reden": "prijs van een tool van derden De hele vervolgvraag \"Wat kost een plek bij ChatGPT Business per gebruiker per maand?\" vervalt."
+      },
+      {
+        "laag": "aanwijzing",
+        "zin": "Bij de persoonlijke abonnementen kan OpenAI gesprekken gebruiken om modellen te verbeteren tenzij de gebruiker dat zelf uitzet, en de organisatie heeft geen zicht of zeggenschap over klantgegevens die een medewerker in een persoonlijk account zet.",
+        "reden": "voorgelegd en op aanwijzing geschrapt (niet te vinden in de documentatie van de leverancier)"
       }
     ]
   },
@@ -2530,17 +2537,12 @@
     "onderwerp": "Claude voor bedrijven",
     "vraagkop": "Welk abonnement hoort bij Claude voor bedrijven en waar staat de data?",
     "onderBestaandeKop": false,
-    "antwoord": "Claude voor bedrijven is de AI-assistent van Anthropic in een zakelijk abonnement: Team voor 2 tot 150 gebruikers, of Enterprise met daarnaast onder meer SCIM, rolgebaseerde toegang en auditlogs. Alleen de zakelijke abonnementen zijn geschikt voor gebruik met bedrijfsgegevens; bij Team en Enterprise traint Anthropic standaard niet op de content, en de data wordt volgens Anthropic in de VS opgeslagen (stand september 2026). Wie voor Claude kiest, doet dat vaak vanwege lange documenten, schrijfwerk of het delegeren van taken.",
+    "antwoord": "Claude voor bedrijven is de AI-assistent van Anthropic in een zakelijk abonnement: Team voor 2 tot 150 gebruikers, of Enterprise met daarnaast onder meer SCIM, rolgebaseerde toegang en auditlogs. Bij Team en Enterprise traint Anthropic standaard niet op de content, en de data wordt volgens Anthropic in de VS opgeslagen (stand september 2026); {{afzender}} adviseert voor gebruik met bedrijfsgegevens alleen de zakelijke abonnementen. Wie voor Claude kiest, doet dat vaak vanwege lange documenten, schrijfwerk of het delegeren van taken.",
     "vervolgvragen": [
       {
         "vraag": "Kan de data van Claude voor bedrijven in de app in Europa worden opgeslagen?",
         "voorbehoud": "op dit moment",
         "antwoord": "Op dit moment kan Europese dataopslag bij Claude voor bedrijven alleen via de cloudplatforms, niet in de app (stand september 2026). In de zakelijke abonnementen wordt de data volgens Anthropic opgeslagen in de VS. Voor Europese dataopslag en verwerking wijst Anthropic naar de regionale endpoints van AWS Bedrock en Google Vertex, een route voor eigen toepassingen via de API en niet voor de claude.ai-app."
-      },
-      {
-        "vraag": "Zijn de abonnementen Pro en Max geschikt voor bedrijfsdata?",
-        "onvoorwaardelijk": true,
-        "antwoord": "Nee. Pro en Max zijn persoonlijke abonnementen waarbij modeltraining op gesprekken aan staat tot de gebruiker het zelf uitzet, en centraal beheer ontbreekt. Voor Claude voor bedrijven met bedrijfsgegevens zijn alleen Team en Enterprise geschikt (stand september 2026)."
       }
     ],
     "bron": {
@@ -2553,7 +2555,8 @@
       "Antwoord zin 2: het causale 'omdat' geschrapt; de bron zet beide uitspraken naast elkaar zonder oorzakelijk verband.",
       "Antwoord zin 3: 'komt het meest tot zijn recht bij' (de bron noemt daar vijf toepassingen) vervangen door de bronuitspraak met 'vaak' over de reden om voor Claude te kiezen.",
       "Vervolgvraag 2: kaal 'Nee' vervangen door het voorbehoud 'op dit moment' uit de bron; 'lopen via' werd 'wijst Anthropic naar', zoals de bron.",
-      "Vervolgvraag 3: vraag versmald van 'bruikbaar als Claude voor bedrijven' naar 'geschikt voor bedrijfsdata', wat de bron zegt ('Niet voor bedrijfsdata'); onvoorwaardelijk: true gezet."
+      "Vervolgvraag 3: vraag versmald van 'bruikbaar als Claude voor bedrijven' naar 'geschikt voor bedrijfsdata', wat de bron zegt ('Niet voor bedrijfsdata'); onvoorwaardelijk: true gezet.",
+      "Ronde 5: oordeel gescheiden van het leveranciersfeit en als advies van de afzender geformuleerd. Was: 'Alleen de zakelijke abonnementen zijn geschikt voor gebruik met bedrijfsgegevens; bij Team en Enterprise traint Anthropic standaard niet op de content, en de data wordt volgens Anthropic in de VS opgeslagen (stand september 2026).'"
     ],
     "externeFeiten": [
       {
@@ -2562,7 +2565,7 @@
         "primaireBron": "bevestigd (documentatie van de leverancier, opgehaald 6 oktober 2026)"
       },
       {
-        "zin": "Alleen de zakelijke abonnementen zijn geschikt voor gebruik met bedrijfsgegevens; bij Team en Enterprise traint Anthropic standaard niet op de content, en de data wordt volgens Anthropic in de VS opgeslagen (stand september 2026).",
+        "zin": "Bij Team en Enterprise traint Anthropic standaard niet op de content, en de data wordt volgens Anthropic in de VS opgeslagen (stand september 2026); Dave Willemstein adviseert voor gebruik met bedrijfsgegevens alleen de zakelijke abonnementen.",
         "soort": "toolprijs",
         "primaireBron": "bevestigd (documentatie van de leverancier, opgehaald 6 oktober 2026)"
       },
@@ -2615,6 +2618,16 @@
         "laag": "aanwijzing",
         "zin": "Enterprise kost $20 per plek per maand bij jaarbetaling plus gebruik tegen API-tarieven, met een jaarcontract van minimaal 20 plekken.",
         "reden": "prijs van een tool van derden De hele vervolgvraag \"Wat kost Claude voor bedrijven per gebruiker?\" vervalt."
+      },
+      {
+        "laag": "aanwijzing",
+        "zin": "Nee.",
+        "reden": "voorgelegd en op aanwijzing geschrapt (niet te vinden in de documentatie van de leverancier) De hele vervolgvraag \"Zijn de abonnementen Pro en Max geschikt voor bedrijfsdata?\" vervalt."
+      },
+      {
+        "laag": "aanwijzing",
+        "zin": "Voor Claude voor bedrijven met bedrijfsgegevens zijn alleen Team en Enterprise geschikt (stand september 2026).",
+        "reden": "voorgelegd en op aanwijzing geschrapt (niet te vinden in de documentatie van de leverancier) De hele vervolgvraag \"Zijn de abonnementen Pro en Max geschikt voor bedrijfsdata?\" vervalt."
       }
     ]
   },
@@ -2624,7 +2637,7 @@
     "onderwerp": "Gemini voor bedrijven",
     "vraagkop": "Wat krijgt een organisatie met Gemini voor bedrijven in Google Workspace?",
     "onderBestaandeKop": false,
-    "antwoord": "Gemini voor bedrijven is de generatieve AI van Google, die sinds januari 2025 zonder aparte AI-licentie in de Business- en Enterprise-edities van Google Workspace zit; welke functies beschikbaar zijn, verschilt per editie. Bij organisaties die al met Google Workspace werken, zit Gemini waarschijnlijk al in het abonnement, zodat de vraag minder is of het wordt gekocht en meer hoe het wordt ingezet en welke afspraken over data gelden. Volgens Google dient klantdata uit Workspace zonder toestemming of instructie van de klant niet als trainingsmateriaal voor modellen (stand september 2026).",
+    "antwoord": "Gemini voor bedrijven is de generatieve AI van Google, die sinds januari 2025 zonder aparte AI-licentie in de Business- en Enterprise-edities van Google Workspace zit; welke functies beschikbaar zijn, verschilt per editie. Bij organisaties die al met Google Workspace werken, zit Gemini waarschijnlijk al in het abonnement; {{afzender}} adviseert om dan minder te kijken naar de vraag of het wordt gekocht en meer naar hoe het wordt ingezet en welke afspraken over data gelden. Volgens Google dient klantdata uit Workspace zonder toestemming of instructie van de klant niet als trainingsmateriaal voor modellen (stand september 2026).",
     "vervolgvragen": [
       {
         "vraag": "Werkt Gemini voor bedrijven in Docs en Sheets met de editie Business Starter?",
@@ -2645,7 +2658,8 @@
     "wijzigingen": [
       "Antwoord, zin 2: 'Gmail, Docs en Meet' vervangen door 'Google Workspace' en het voorbehoud 'waarschijnlijk' uit de lede toegevoegd; 'hoeven vooral te bepalen' vervangen door de afweging van de bron (minder of het wordt gekocht, meer hoe het wordt ingezet).",
       "Vervolgvraag 2: kaal 'Nee.' geschrapt en voorbehoud 'volgens Google' gezet; 'Vanaf Business Standard' vervangen door 'In Business Standard', want de tabel beschrijft die editie en niet alles daarboven.",
-      "Vervolgvraag 3: kaal 'Nee.' geschrapt en voorbehoud 'volgens Google' gezet; 'tonen' in de vraag vervangen door 'ophalen', het woord van de bron."
+      "Vervolgvraag 3: kaal 'Nee.' geschrapt en voorbehoud 'volgens Google' gezet; 'tonen' in de vraag vervangen door 'ophalen', het woord van de bron.",
+      "Ronde 5: oordeel gescheiden van het leveranciersfeit en als advies van de afzender geformuleerd. Was: 'Bij organisaties die al met Google Workspace werken, zit Gemini waarschijnlijk al in het abonnement, zodat de vraag minder is of het wordt gekocht en meer hoe het wordt ingezet en welke afspraken over data gelden.'"
     ],
     "externeFeiten": [
       {
@@ -2654,7 +2668,7 @@
         "primaireBron": "bevestigd (documentatie van de leverancier, opgehaald 6 oktober 2026)"
       },
       {
-        "zin": "Bij organisaties die al met Google Workspace werken, zit Gemini waarschijnlijk al in het abonnement, zodat de vraag minder is of het wordt gekocht en meer hoe het wordt ingezet en welke afspraken over data gelden.",
+        "zin": "Bij organisaties die al met Google Workspace werken, zit Gemini waarschijnlijk al in het abonnement; Dave Willemstein adviseert om dan minder te kijken naar de vraag of het wordt gekocht en meer naar hoe het wordt ingezet en welke afspraken over data gelden.",
         "soort": "toolprijs",
         "primaireBron": "bevestigd (documentatie van de leverancier, opgehaald 6 oktober 2026)"
       },
@@ -2706,7 +2720,7 @@
     "onderwerp": "Microsoft Copilot",
     "vraagkop": "Wat is Microsoft Copilot?",
     "onderBestaandeKop": true,
-    "antwoord": "Microsoft Copilot is de AI-assistent van Microsoft voor werk, die taalmodellen koppelt aan apps zoals Outlook, Teams, Word, Excel en PowerPoint en aan de mail, agenda, chats, vergaderingen en documenten daarin. Omdat Copilot de bestaande toegangsrechten volgt, komen te ruim gedeelde bestanden in antwoorden naar boven en hoort het opschonen van die rechten bij de voorbereiding.",
+    "antwoord": "Microsoft Copilot is de AI-assistent van Microsoft voor werk, die taalmodellen koppelt aan apps zoals Outlook, Teams, Word, Excel en PowerPoint en aan de mail, agenda, chats, vergaderingen en documenten daarin. Volgens Microsoft laat Copilot een gebruiker alleen gegevens van de organisatie zien waarvoor die gebruiker minstens leesrechten heeft; {{afzender}} adviseert daarom toegangsrechten op te ruimen voordat de betaalde licentie breed aangaat.",
     "vervolgvragen": [
       {
         "vraag": "Worden prompts en antwoorden gebruikt om de basismodellen achter Microsoft Copilot te trainen?",
@@ -2726,7 +2740,8 @@
     "wijzigingen": [
       "Antwoord: 'apps zoals' toegevoegd (de bron noemt de apps als voorbeelden). Tweede zin in de voorbehouden van de bron: 'grofweg twee niveaus', 'volgens Microsoft' en 'kan redeneren over de volle breedte van de werkdata' in plaats van 'redeneert breed'.",
       "Vervolgvraag 2: kaal 'Nee.' vervangen door 'Nee, volgens wat Microsoft toezegt ...'; de bron geeft dit als toezegging van Microsoft. Vraag vraagt nu naar prompts en antwoorden in plaats van het bredere 'bedrijfsdata'; 'achter Microsoft Copilot' uit het antwoord gehaald.",
-      "Vervolgvraag 3 (V3.3 en bevinding): tweede zin schuurde met de eerste; nu met 'breed' en 'de volle breedte' zoals de bron, plus 'kan' en 'voor zover de gebruiker daar toegang toe heeft'. Kaal 'Nee.' weg, vraag omgebouwd tot open vraag, 'vooral' toegevoegd en als voorbehoud vastgelegd."
+      "Vervolgvraag 3 (V3.3 en bevinding): tweede zin schuurde met de eerste; nu met 'breed' en 'de volle breedte' zoals de bron, plus 'kan' en 'voor zover de gebruiker daar toegang toe heeft'. Kaal 'Nee.' weg, vraag omgebouwd tot open vraag, 'vooral' toegevoegd en als voorbehoud vastgelegd.",
+      "Ronde 5: oordeel gescheiden van het leveranciersfeit en als advies van de afzender geformuleerd. Was: 'Omdat Copilot de bestaande toegangsrechten volgt, komen te ruim gedeelde bestanden in antwoorden naar boven en hoort het opschonen van die rechten bij de voorbereiding.'"
     ],
     "externeFeiten": [
       {
@@ -2735,7 +2750,7 @@
         "primaireBron": "bevestigd (documentatie van de leverancier, opgehaald 6 oktober 2026)"
       },
       {
-        "zin": "Omdat Copilot de bestaande toegangsrechten volgt, komen te ruim gedeelde bestanden in antwoorden naar boven en hoort het opschonen van die rechten bij de voorbereiding.",
+        "zin": "Volgens Microsoft laat Copilot een gebruiker alleen gegevens van de organisatie zien waarvoor die gebruiker minstens leesrechten heeft; Dave Willemstein adviseert daarom toegangsrechten op te ruimen voordat de betaalde licentie breed aangaat.",
         "soort": "toolprijs",
         "primaireBron": "bevestigd (documentatie van de leverancier, opgehaald 6 oktober 2026)"
       },

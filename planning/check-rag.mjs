@@ -103,8 +103,10 @@ for (const { url, doc } of paginas) {
       if (/per maand voor \p{Lu}[\p{L}+]* \(\d+ dagen per maand\)/u.test(tekstVan(eerste))) fout.push('antwoordalinea somt de prijsniveaus op; gebruik daar de bandbreedte');
       // Afzender: voluit in de antwoordalinea bij dienstachtige blokken, bij kennisbankblokken alleen in de bronregel.
       const metAfzender = tekstVan(eerste).includes(afzender);
+      // Een advies dat uitdrukkelijk aan de afzender is toegeschreven mag overal staan.
+      const buitenAdvies = tekstVan(eerste).replaceAll(`${afzender} adviseert`, '').includes(afzender);
       if (blok.type !== 'kennisbank' && !metAfzender) fout.push(`antwoordalinea noemt de afzender (${afzender}) niet`);
-      if (blok.type === 'kennisbank' && metAfzender) fout.push('antwoordalinea van een kennisbankblok noemt de afzender; die hoort daar alleen in de bronregel');
+      if (blok.type === 'kennisbank' && buitenAdvies) fout.push('antwoordalinea van een kennisbankblok noemt de afzender; die hoort daar alleen in de bronregel');
     }
 
     // Tabel.
@@ -143,7 +145,7 @@ for (const { url, doc } of paginas) {
       } else if (!begintMetAntwoord(t, dienstnamen, vraag)) fout.push(`antwoord op "${vraag}" begint niet met het antwoord: ja of nee bij een ja-neevraag, anders het getal of de naam`);
       if (begintMetBedrag(t) && !vraagtNaarBedrag(vraag)) fout.push(`antwoord op "${vraag}" begint met een bedrag, terwijl de vraag daar niet naar vraagt`);
       // In een vervolgvraag staat de afzender niet; de volledige dienstnaam of het onderwerp wel.
-      if (t.includes(afzender)) fout.push(`antwoord op "${vraag}" noemt de afzender; die hoort alleen in de antwoordalinea en de bronregel`);
+      if (t.replaceAll(`${afzender} adviseert`, '').includes(afzender)) fout.push(`antwoord op "${vraag}" noemt de afzender; die hoort alleen in de antwoordalinea en de bronregel`);
       if (!dienstnamen.some((n) => t.includes(n)) && !t.toLowerCase().includes(blok.onderwerp.toLowerCase())) fout.push(`antwoord op "${vraag}" noemt geen dienst of het onderwerp "${blok.onderwerp}" voluit`);
     }
 
