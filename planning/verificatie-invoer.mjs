@@ -41,7 +41,7 @@ const plat = (el) => {
 const concepten = JSON.parse(fs.readFileSync(bron, 'utf8')).filter((c) => c.status !== 'wacht op publicatie');
 const alle = [
   ...geplaatst.map((b) => ({ blok: b, geplaatst: true })),
-  ...concepten.map(({ herkomst, opmerking, status, verificatie, geschrapt, ...velden }) => ({ blok: valideer(blokSchema, [{ bijgewerkt: '2026-10', concept: true, ...velden }], 'concept', 'pagina')[0], geplaatst: false })),
+  ...concepten.map(({ herkomst, opmerking, status, verificatie, geschrapt, wijzigingen, externeFeiten, ...velden }) => ({ blok: valideer(blokSchema, [{ bijgewerkt: '2026-10', concept: true, ...velden }], 'concept', 'pagina')[0], geplaatst: false })),
 ];
 
 const invoer = alle.map(({ blok, geplaatst: staat }) => {
@@ -50,7 +50,11 @@ const invoer = alle.map(({ blok, geplaatst: staat }) => {
   const voeg = (id, soort, zin) => zinnen.push({ id, soort, zin, heeftGetal: getalUitdrukkingen(zin).length > 0 || /[€$]\s?\d/.test(zin) });
   splitsZinnen(plat(doc.querySelector('.rag-blok__antwoord'))).forEach((z, i) => voeg(`A${i + 1}`, 'antwoordalinea', z));
   doc.querySelectorAll('tbody tr').forEach((tr, i) => voeg(`T${i + 1}`, 'tabelrij', tr.childNodes.filter((n) => n.nodeType === 1).map(plat).join(' | ')));
-  doc.querySelectorAll('h3').forEach((h3, i) => splitsZinnen(plat(h3.nextElementSibling)).forEach((z, j) => voeg(`V${i + 1}.${j + 1}`, `antwoord op vervolgvraag "${tekstVan(h3)}"`, z)));
+  doc.querySelectorAll('h3').forEach((h3, i) => splitsZinnen(plat(h3.nextElementSibling)).forEach((z, j) => {
+    voeg(`V${i + 1}.${j + 1}`, `antwoord op vervolgvraag "${tekstVan(h3)}"`, z);
+    const vv = blok.vervolgvragen[i];
+    if (j === 0) zinnen.at(-1).stelligheid = vv.onvoorwaardelijk ? 'gemarkeerd als onvoorwaardelijk: de bron zou dit zonder enig voorbehoud zeggen' : vv.voorbehoud ? `voorbehoud uit de bron: "${vv.voorbehoud}"` : 'geen markering';
+  }));
   return {
     pagina: blok.pagina,
     geplaatst: staat,

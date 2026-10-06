@@ -55,7 +55,8 @@ const laagB = (n) => {
         if (f && /regelnummer/.test(f)) regelAfwijking = f;
         else if (f) { oordeel = 'niet gevonden'; reden = `${f} (laag B noemde ${plat(o.bestand)}:${o.regel})`; }
       }
-      return { ...z, claim: plat(o.claim), bestand: plat(o.bestand), regel: o.regel, fragment: plat(o.fragment), oordeel, reden, regelAfwijking };
+      const extern = plat(o.externFeit);
+      return { ...z, claim: plat(o.claim), bestand: plat(o.bestand), regel: o.regel, fragment: plat(o.fragment), oordeel, reden, regelAfwijking, extern: extern && !/^(geen|nee|null|false)$/i.test(extern) ? extern : null };
     });
     // Geen bevinding: een bevestiging dat iets klopt, de datum in de bronregel (eigen metadata van het blok),
     // de naam van de afzender (komt uit src/data/site.js en is goedgekeurd) en de notatie van links in de invoer.
@@ -97,6 +98,7 @@ if (stap === 'eind') {
   const voorgelegd = [];
   const geschrapt = [];
   const extraLijst = [];
+  const externLijst = [];
   const laagC = [];
   for (const n of batches) {
     const c = laatste('c', n) ? lees(path.join(map, laatste('c', n))) : [];
@@ -120,7 +122,7 @@ if (stap === 'eind') {
       for (const z of mis) {
         const v = z.id.match(/^V(\d+)\.(\d+)$/);
         // Een geplaatst blok wijzigt niet zonder akkoord; antwoordalinea en tabelrij worden altijd voorgelegd.
-        if (!v || blok.geplaatst || !concept) { legVoor(z, blok.geplaatst ? ' (blok is al geplaatst en is niet gewijzigd)' : ''); continue; }
+        if (!v || blok.geplaatst || !concept || process.env.RAG_NIET_SCHRAPPEN) { legVoor(z, blok.geplaatst ? ' (blok is al geplaatst)' : ''); continue; }
         const vi = Number(v[1]) - 1;
         if (!weg.has(vi)) weg.set(vi, new Set());
         weg.get(vi).add(Number(v[2]) - 1);
@@ -162,17 +164,23 @@ if (stap === 'eind') {
         const i = w.match(/vervolgvragen\[(\d+)\]/) ? Number(w.match(/vervolgvragen\[(\d+)\]/)[1]) : w.match(/V(\d+)\./) ? Number(w.match(/V(\d+)\./)[1]) - 1 : null;
         return i === null || !vervallen.has(i);
       });
+      // Feiten van buiten de eigen dienstverlening: het blok blijft concept en komt op een aparte lijst.
+      const extern = blok.zinnen.filter((z) => z.extern);
+      for (const z of extern) externLijst.push({ pagina: blok.pagina, id: z.id, soort: z.extern, zin: z.zin });
+      const bronregel = concept ? concept.bron?.tekst ?? '' : '';
+      if (extern.length && concept && /^tarieven en doorlooptijden van \{\{afzender\}\}$/.test(bronregel.trim())) blok.extra.push({ soort: 'bron', waar: 'bronregel', bevinding: 'Het blok bevat een extern feit, maar "tarieven en doorlooptijden" is de enige bron in de bronregel.' });
+      if (concept) { if (extern.length) concept.externeFeiten = extern.map((z) => ({ zin: z.zin, soort: z.extern })); else delete concept.externeFeiten; }
       for (const e of blok.extra) extraLijst.push({ pagina: blok.pagina, ...e });
-      const geverifieerd = nVoorgelegd === 0 && blok.extra.length === 0;
+      const geverifieerd = nVoorgelegd === 0 && blok.extra.length === 0 && extern.length === 0;
       if (concept) {
         concept.status = geverifieerd ? 'geverifieerd' : 'concept';
         concept.verificatie = { datum: new Date().toISOString().slice(0, 10), zinnen: blok.zinnen.length, bevestigd: blok.zinnen.length - mis.length, geschrapt: nGeschrapt, voorgelegd: nVoorgelegd, bevindingen: blok.extra.length };
       }
-      rijen.push({ pagina: blok.pagina, geplaatst: blok.geplaatst, zinnen: blok.zinnen.length, bevestigd: blok.zinnen.length - mis.length, geschrapt: nGeschrapt, voorgelegd: nVoorgelegd, extra: blok.extra.length, status: geverifieerd ? 'geverifieerd' : 'concept', regels: blok.zinnen.filter((z) => z.regelAfwijking).length });
+      rijen.push({ extern: extern.length, pagina: blok.pagina, geplaatst: blok.geplaatst, zinnen: blok.zinnen.length, bevestigd: blok.zinnen.length - mis.length, geschrapt: nGeschrapt, voorgelegd: nVoorgelegd, extra: blok.extra.length, status: geverifieerd ? 'geverifieerd' : 'concept', regels: blok.zinnen.filter((z) => z.regelAfwijking).length });
     }
   }
   fs.writeFileSync(conceptenPad, `${JSON.stringify(concepten, null, 2)}\n`);
-  fs.writeFileSync(path.join(map, 'eind.json'), JSON.stringify({ rijen, voorgelegd, geschrapt, extraLijst, laagC }, null, 1));
+  fs.writeFileSync(path.join(map, 'eind.json'), JSON.stringify({ rijen, voorgelegd, geschrapt, extraLijst, externLijst, laagC }, null, 1));
   const som = (k) => rijen.reduce((s, r) => s + r[k], 0);
   console.log(`${rijen.length} blokken | zinnen ${som('zinnen')} | bevestigd ${som('bevestigd')} | geschrapt ${som('geschrapt')} | voorgelegd ${som('voorgelegd')} | geverifieerd ${rijen.filter((r) => r.status === 'geverifieerd').length} | concept ${rijen.filter((r) => r.status !== 'geverifieerd').length} | bevindingen ${extraLijst.length}`);
   if (rapportPad) {
@@ -182,12 +190,14 @@ if (stap === 'eind') {
     r.push(`| ${rijen.length} | ${som('zinnen')} | ${som('bevestigd')} | ${som('geschrapt')} | ${som('voorgelegd')} | ${rijen.filter((x) => x.status === 'geverifieerd').length} | ${rijen.filter((x) => x.status !== 'geverifieerd').length} |`, '');
     r.push('## Laag C per batch', '', '| Batch | Ronde laag B | Nagetrokken | Afwijkend |', '|---|---|---|---|');
     laagC.forEach((c) => r.push(`| ${c.n} | ${c.rondeB} | ${c.nagetrokken} | ${c.afwijkend} |`));
-    r.push('', '## Per blok', '', '| Pagina | Zinnen | Bevestigd | Geschrapt | Voorgelegd | Bevindingen | Status |', '|---|---|---|---|---|---|---|');
-    rijen.sort((a, b) => a.pagina.localeCompare(b.pagina)).forEach((x) => r.push(`| \`${x.pagina}\`${x.geplaatst ? ' (geplaatst)' : ''} | ${x.zinnen} | ${x.bevestigd} | ${x.geschrapt} | ${x.voorgelegd} | ${x.extra} | ${x.status} |`));
+    r.push('', '## Per blok', '', '| Pagina | Zinnen | Bevestigd | Geschrapt | Voorgelegd | Bevindingen | Externe feiten | Status |', '|---|---|---|---|---|---|---|---|');
+    rijen.sort((a, b) => a.pagina.localeCompare(b.pagina)).forEach((x) => r.push(`| \`${x.pagina}\`${x.geplaatst ? ' (geplaatst)' : ''} | ${x.zinnen} | ${x.bevestigd} | ${x.geschrapt} | ${x.voorgelegd} | ${x.extra} | ${x.extern} | ${x.status} |`));
     r.push('', `## Voorgelegde zinnen (${voorgelegd.length})`, '', voorgelegd.length ? 'Deze zinnen zijn niet bevestigd en staan nog in het blok. Het blok blijft "concept" tot jij per zin beslist: schrappen, of de bron aanwijzen.' : 'Geen.', '');
     voorgelegd.forEach((v) => r.push(`- \`${v.pagina}\` · ${v.id} (${v.soort}) · **${v.oordeel}**`, `  - Zin: ${cel(v.zin)}`, `  - Reden: ${cel(v.reden)}`));
     r.push('', `## Geschrapte zinnen (${geschrapt.length})`, '', geschrapt.length ? 'Deze zinnen zijn uit het concept gehaald en staan niet meer in `docs/rag-concepten.json`.' : 'Geen.', '');
     geschrapt.forEach((g) => r.push(`- \`${g.pagina}\`: ${cel(g.zin)}`, `  - Reden: ${cel(g.reden)}`));
+    r.push('', `## Blokken met een extern feit (${new Set(externLijst.map((e) => e.pagina)).size} blokken, ${externLijst.length} zinnen)`, '', externLijst.length ? 'Feiten van buiten de eigen dienstverlening: wetgeving, prijzen van tools, salarissen en marktcijfers. De zin klopt met de eigen pagina, maar of de pagina zelf nog klopt met de werkelijkheid is niet gecontroleerd. Deze blokken blijven "concept".' : 'Geen.', '');
+    externLijst.forEach((e) => r.push(`- \`${e.pagina}\` · ${e.id} · ${cel(e.soort)}: ${cel(e.zin)}`));
     r.push('', `## Overige bevindingen: links, dienstnamen, lidwoorden en vragen (${extraLijst.length})`, '', extraLijst.length ? 'Een blok met een bevinding blijft "concept".' : 'Geen.', '');
     extraLijst.forEach((e) => r.push(`- \`${e.pagina}\` · ${e.soort} · ${cel(e.waar)}: ${cel(e.bevinding)}`));
     fs.writeFileSync(rapportPad, `${r.join('\n').trimEnd()}\n`);

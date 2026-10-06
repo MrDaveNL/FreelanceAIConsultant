@@ -578,3 +578,73 @@ Alle blokken en concepten zijn in drie lagen geverifieerd; zie `docs/rag-verific
   - V1.1: "De Executive Briefing [link naar /diensten/executive-briefing].". De bron van deze pagina noemt de Executive Briefing alleen 'het kleinste pakket met een vaste prijs'; de zin (als antwoord op de vraag) maakt daar zonder die beperking 'het kleinste pakket' van, wat breder is. (blok is al geplaatst en is niet gewijzigd)
   - Bevinding (vraag): De vraag 'Wat is het kleinste pakket om een AI consultant in te huren?' veronderstelt een kleinste pakket zonder meer; de bron van deze pagina zegt alleen 'het kleinste pakket met een vaste prijs' (regel 99).
   - Bevinding (vraag): De term 'zonder vast pakket' staat niet letterlijk in de bron; de bron noemt 'Afgebakend advies' als een van drie inhuurvormen naast 'Vast traject' en 'Doorlopende rol' (regels 92-97).
+
+---
+
+# Vervolg 3: pilotblokken herzien na de verificatie
+
+Stand: 6 oktober 2026. Geldt boven hoofdstuk 13, 18 en 20.
+
+De drie geplaatste blokken zijn herzien: niet-bevestigde zinnen zijn omgebouwd of geschrapt, het antwoord op elke vervolgvraag begint in de stelligheid van de bron, "exclusief btw en reiskosten" komt uit `prijzen.ts`, en de Fractional AI Lead staat in de antwoordalinea als bandbreedte. De nulmeting van de drie pagina's is bijgewerkt. In de tweede verificatieronde zijn alle zinnen van de drie blokken bevestigd, zonder open bevinding en zonder extern feit. Ze staan in de databron nog als concept tot jij ze beoordeelt.
+
+## `/diensten/ai-readiness-assessment`
+
+9 van 9 zinnen bevestigd.
+
+```html
+<section class="rag-blok">
+<h2>Wat levert het AI Readiness Assessment op en wat kost het?</h2>
+<p class="rag-blok__antwoord">Het AI Readiness Assessment van Dave Willemstein laat organisaties die AI overwegen maar nog geen richting hebben gekozen zien wat haalbaar is en wat eerst moet. Het resultaat is een readiness-score op strategie, data, technologie, mensen en governance, een gap-analyse en een 90-dagenplan. De doorlichting duurt 2-3 weken en kost €7.000, als vaste prijs exclusief btw en reiskosten.</p>
+<h3>Hoe lang duurt het AI Readiness Assessment?</h3>
+<p>2-3 weken. In die periode bestaat het AI Readiness Assessment uit een documentenanalyse, een datascan en 8 tot 12 interviews, gevolgd door de scoring, de prioritering en een eindsessie.</p>
+<h3>Is de prijs van het AI Readiness Assessment een vaste prijs?</h3>
+<p>Ja, voor de hele organisatie: het AI Readiness Assessment kost €7.000 als vaste prijs, en de eindpresentatie aan MT of board zit daarbij in. Voor een enkele business unit of een specifiek procesdomein ligt de investering lager. Het bedrag is exclusief btw en reiskosten.</p>
+<h3>Wordt een Executive Briefing verrekend met het AI Readiness Assessment?</h3>
+<p>Ja, als het AI Readiness Assessment binnen 60 dagen start: de <a href="/diensten/executive-briefing">Executive Briefing</a> kost €2.800 en wordt dan volledig verrekend.</p>
+<p class="rag-blok__bron">Bron: <a href="/tarieven">tarieven en doorlooptijden van Dave Willemstein</a>. Bijgewerkt: <time datetime="2026-10">oktober 2026</time>.</p>
+</section>
+```
+
+## `/ai-consultancy/ai-strategie`
+
+8 van 8 zinnen bevestigd.
+
+```html
+<section class="rag-blok">
+<h2>Wat kost het om een AI strategie te laten ontwikkelen en hoe lang duurt het?</h2>
+<p class="rag-blok__antwoord">Een AI strategie laten ontwikkelen door Dave Willemstein kan in één traject met de AI Strategy Sprint, die 4-6 weken duurt en €15.400 - €22.400 kost. Wie eerst wil weten wat haalbaar is, start met het AI Readiness Assessment van 2-3 weken voor €7.000. Beide bedragen zijn exclusief btw en reiskosten.</p>
+<div class="rag-blok__tabel">
+<table>
+<caption>AI strategie ontwikkelen: passende dienst per situatie</caption>
+<thead><tr><th scope="col">Situatie</th><th scope="col">Resultaat</th><th scope="col">Doorlooptijd</th><th scope="col">Prijs</th><th scope="col">Passende dienst</th></tr></thead>
+<tbody>
+<tr><th scope="row">Onduidelijk wat haalbaar is met de huidige organisatie, data en systemen</th><td>Readiness-score per dimensie, gap-analyse en 90-dagenplan</td><td>2-3 weken</td><td>€7.000</td><td><a href="/diensten/ai-readiness-assessment">AI Readiness Assessment</a></td></tr>
+<tr><th scope="row">Strategie en roadmap in één keer vastleggen, met de beslissers aan tafel</th><td>Board-ready strategie, prioriteitenmatrix en use-case roadmap</td><td>4-6 weken</td><td>€15.400 - €22.400</td><td><a href="/diensten/ai-strategy-sprint">AI Strategy Sprint</a></td></tr>
+</tbody>
+</table>
+</div>
+<h3>Is de AI Strategy Sprint voor een AI strategie goedkoper als er al een AI Readiness Assessment ligt?</h3>
+<p>Ja, binnen de bandbreedte: de AI Strategy Sprint kost €15.400 - €22.400, waarbij de onderkant geldt als er al een AI Readiness Assessment ligt en de bovenkant bij meerdere bedrijfsonderdelen.</p>
+<h3>Kan de uitkomst van het AI Readiness Assessment zijn dat een organisatie nog niet klaar is?</h3>
+<p>Soms wel: de uitkomst van het AI Readiness Assessment is soms dat een organisatie nog niet klaar is. De organisatie krijgt dan een plan voor het fundament in plaats van een plan voor use cases.</p>
+<p class="rag-blok__bron">Bron: <a href="/tarieven">tarieven en doorlooptijden van Dave Willemstein</a>. Bijgewerkt: <time datetime="2026-10">oktober 2026</time>.</p>
+</section>
+```
+
+## `/ai-consultancy/ai-consultant-inhuren`
+
+7 van 7 zinnen bevestigd.
+
+```html
+<section class="rag-blok rag-blok--antwoord">
+<p class="rag-blok__antwoord">Een AI consultant inhuren bij Dave Willemstein gaat via vaste pakketten met zichtbare vanaf-prijzen. Het <a href="/diensten/ai-readiness-assessment">AI Readiness Assessment</a> kost €7.000, de <a href="/diensten/ai-strategy-sprint">AI Strategy Sprint</a> kost €15.400 - €22.400 en de <a href="/diensten/fractional-ai-lead">Fractional AI Lead</a> kost €2.600 - €10.400 per maand, voor 2, 4 of 8 dagen per maand. De bedragen gelden exclusief btw en reiskosten.</p>
+</section>
+<section class="rag-blok rag-blok--vervolg">
+<h3>Wat is het kleinste pakket met een vaste prijs om een AI consultant in te huren?</h3>
+<p>De <a href="/diensten/executive-briefing">Executive Briefing</a>. Dat pakket kost €2.800.</p>
+<h3>Kan een AI consultant inhuren ook voor afgebakend advies?</h3>
+<p>Ja. AI consultant inhuren kan ook voor afgebakend advies, zoals een second opinion, een workshop of een korte toets, tegen een vaste prijs in het voorstel.</p>
+<p class="rag-blok__bron">Bron: <a href="/tarieven">tarieven en doorlooptijden van Dave Willemstein</a>. Bijgewerkt: <time datetime="2026-10">oktober 2026</time>.</p>
+</section>
+```
+
