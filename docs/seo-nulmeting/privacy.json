@@ -1,0 +1,578 @@
+{
+  "url": "/privacy",
+  "build_bestand": "dist/privacy/index.html",
+  "bron": [
+    "src/pages/privacy.astro"
+  ],
+  "gemeten_op": "2026-10-06",
+  "html": {
+    "bytes": 22641,
+    "sha256": "c772ee40e1acba85d6645029a4ab56a7720d3ccee660e93fcd110cf7d2d7c158",
+    "lang": "nl"
+  },
+  "beschermd": {
+    "title": "Privacyverklaring | Freelance AI Consultant",
+    "meta_description": "Hoe freelanceaiconsultant.com omgaat met persoonsgegevens: welke gegevens worden verwerkt, waarom, hoe lang en welke rechten je hebt.",
+    "canonical": "https://freelanceaiconsultant.com/privacy",
+    "robots_meta": null,
+    "hreflang": [],
+    "h1": [
+      "Privacyverklaring"
+    ]
+  },
+  "social": {
+    "og:type": "website",
+    "og:locale": "nl_NL",
+    "og:site_name": "freelanceaiconsultant.com",
+    "og:title": "Privacyverklaring | Freelance AI Consultant",
+    "og:description": "Hoe freelanceaiconsultant.com omgaat met persoonsgegevens: welke gegevens worden verwerkt, waarom, hoe lang en welke rechten je hebt.",
+    "og:url": "https://freelanceaiconsultant.com/privacy",
+    "og:image": "https://freelanceaiconsultant.com/images/dave-portrait.jpg",
+    "twitter:card": "summary_large_image",
+    "twitter:title": "Privacyverklaring | Freelance AI Consultant",
+    "twitter:description": "Hoe freelanceaiconsultant.com omgaat met persoonsgegevens: welke gegevens worden verwerkt, waarom, hoe lang en welke rechten je hebt.",
+    "twitter:image": "https://freelanceaiconsultant.com/images/dave-portrait.jpg"
+  },
+  "koppen": [
+    {
+      "niveau": 1,
+      "tekst": "Privacyverklaring",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "1. Wie is verantwoordelijk?",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "2. Welke gegevens worden verwerkt?",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 3,
+      "tekst": "Contact- en intakeformulier",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 3,
+      "tekst": "E-mail en telefonisch contact",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 3,
+      "tekst": "Nieuwsbrief",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 3,
+      "tekst": "Opdrachtgevers",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "3. Waarom worden deze gegevens verwerkt?",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "4. Hoe lang worden gegevens bewaard?",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "5. Delen met derden",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "6. Doorgifte buiten de EER",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "7. Cookies en statistieken",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "8. Beveiliging",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "9. Jouw rechten",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "10. Wijzigingen",
+      "regio": "main",
+      "id": null
+    }
+  ],
+  "bodytekst": {
+    "regio": "main",
+    "woorden": 731,
+    "sha256": "83c3e771bb2daf0c9a01f6ace301e3e961adcde053001224d96e08a1b5a1d9ec",
+    "blokken": [
+      "← Terug naar home",
+      "Juridisch",
+      "Privacyverklaring",
+      "Deze verklaring beschrijft hoe 4AP Digital (freelanceaiconsultant.com) omgaat met persoonsgegevens van bezoekers, contactpersonen en opdrachtgevers.",
+      "Laatst bijgewerkt: 22 september 2026",
+      "AI in Europa",
+      "Europese merken die AI al in productie hebben.",
+      "Geen klanten van mij. Wel voorbeelden van wat er gebeurt als AI voorbij de pilot komt.",
+      "Pauzeer",
+      "Klarna",
+      "Zweden",
+      "AI-assistent in de klantenservice",
+      "Zalando",
+      "Duitsland",
+      "Mode-assistent voor productadvies",
+      "Financial services",
+      "Investeringsmaatschappij",
+      "AI-strategie en use-case portfolio",
+      "Booking.com",
+      "Nederland",
+      "AI Trip Planner voor reisplanning",
+      "Siemens",
+      "Duitsland",
+      "Industrial Copilot voor engineering",
+      "Retail",
+      "Enterprise retailer",
+      "AI-gedreven vendorselectie",
+      "Spotify",
+      "Zweden",
+      "AI DJ en gepersonaliseerde playlists",
+      "Mercedes-Benz",
+      "Duitsland",
+      "Generatieve spraakassistent in de auto",
+      "Industrial / B2B",
+      "Internationale maakorganisatie",
+      "AI-roadmap en leadership",
+      "ING",
+      "Nederland",
+      "Generatieve chatbot voor klantvragen",
+      "L'Oréal",
+      "Frankrijk",
+      "Beauty Genius: persoonlijk advies",
+      "Financial services",
+      "Financiële dienstverlener",
+      "KYC versneld met AI-documentanalyse",
+      "SAP",
+      "Duitsland",
+      "Joule: copilot in bedrijfssoftware",
+      "Carrefour",
+      "Frankrijk",
+      "Hopla: boodschappenassistent",
+      "Strategy & AI",
+      "SaaS scale-up",
+      "AI-readiness assessment",
+      "Adyen",
+      "Nederland",
+      "AI-optimalisatie van betalingen",
+      "Philips",
+      "Nederland",
+      "AI in medische beeldvorming",
+      "Proces & productivity",
+      "Zakelijke dienstverlener",
+      "Interne AI-assistent voor kenniswerkers",
+      "Nog in te vullen vóór livegang Het btw-identificatienummer en de vestigingsplaats hieronder staan nog op voorbeeldwaarden. Vervang ze in src/data/site.js en laat deze verklaring toetsen aan je feitelijke verwerkingen voordat de site publiek gaat.",
+      "1. Wie is verantwoordelijk?",
+      "Verwerkingsverantwoordelijke voor de verwerking van persoonsgegevens via deze website is:",
+      "4AP Digital, handelend onder de naam freelanceaiconsultant.com",
+      "Gevestigd te Amsterdam, Nederland",
+      "KvK-nummer: 86608789",
+      "Btw-identificatienummer: NL000000000B00",
+      "E-mail: dave@freelanceaiconsultant.com",
+      "2. Welke gegevens worden verwerkt?",
+      "Contact- en intakeformulier",
+      "Als je het contactformulier invult, worden de gegevens verwerkt die je zelf opgeeft: naam, e-mailadres, en optioneel functie, organisatie, tijdlijn, budgetindicatie en de omschrijving van je vraagstuk.",
+      "E-mail en telefonisch contact",
+      "Bij rechtstreeks contact worden je contactgegevens en de inhoud van de correspondentie verwerkt, voor zover nodig om je vraag te beantwoorden en een eventuele opdracht uit te voeren.",
+      "Nieuwsbrief",
+      "Bij aanmelding voor de nieuwsbrief wordt je e-mailadres verwerkt, samen met de datum van aanmelding. Uitschrijven kan via de link in elke uitzending of door een bericht te sturen.",
+      "Opdrachtgevers",
+      "Tijdens een opdracht worden zakelijke contactgegevens van betrokken medewerkers verwerkt, evenals gegevens die nodig zijn voor facturatie en administratie.",
+      "3. Waarom worden deze gegevens verwerkt?",
+      "Doel",
+      "Grondslag",
+      "Beantwoorden van vragen en aanvragen",
+      "Uitvoering van een overeenkomst of stappen voorafgaand daaraan",
+      "Uitvoeren van een opdracht",
+      "Uitvoering van een overeenkomst",
+      "Facturatie en administratie",
+      "Wettelijke verplichting",
+      "Versturen van de nieuwsbrief",
+      "Toestemming",
+      "Beveiliging en misbruikpreventie",
+      "Gerechtvaardigd belang",
+      "4. Hoe lang worden gegevens bewaard?",
+      "Aanvragen die niet tot een opdracht leiden: maximaal twaalf maanden na het laatste contact.",
+      "Opdrachtgegevens: gedurende de opdracht en daarna zeven jaar, conform de fiscale bewaarplicht voor administratie.",
+      "Nieuwsbriefgegevens: tot je je uitschrijft.",
+      "5. Delen met derden",
+      "Persoonsgegevens worden niet verkocht en niet gedeeld voor commerciële doeleinden van derden. Gegevens worden uitsluitend gedeeld met dienstverleners die nodig zijn voor de bedrijfsvoering (denk aan een e-maildienst, een formulierdienst voor het contactformulier, een boekhoudpakket en een hostingpartij), en alleen voor zover dat voor hun dienstverlening noodzakelijk is. Met deze partijen zijn verwerkersovereenkomsten gesloten.",
+      "Bij opdrachten waarin toegang tot bedrijfsgegevens van een opdrachtgever nodig is, gelden aanvullend de afspraken uit de opdrachtovereenkomst en, waar van toepassing, een verwerkersovereenkomst met die opdrachtgever.",
+      "6. Doorgifte buiten de EER",
+      "Waar dienstverleners gegevens buiten de Europese Economische Ruimte verwerken, gebeurt dat op basis van een adequaatheidsbesluit of standaardcontractbepalingen van de Europese Commissie.",
+      "7. Cookies en statistieken",
+      "Deze website plaatst geen tracking- of advertentiecookies en gebruikt geen profileringstechnieken. Er worden geen cookies geplaatst die toestemming vereisen. De website laadt lettertypen van Google Fonts; daarbij wordt je IP-adres aan die dienst doorgegeven om het lettertype te kunnen leveren.",
+      "8. Beveiliging",
+      "Er zijn passende technische en organisatorische maatregelen getroffen om persoonsgegevens te beschermen tegen verlies en onrechtmatige verwerking, waaronder versleutelde verbindingen, toegangsbeperking en periodieke controle van de gebruikte diensten.",
+      "9. Jouw rechten",
+      "Je hebt het recht om je gegevens in te zien, te laten corrigeren of te laten verwijderen. Daarnaast kun je bezwaar maken tegen verwerking, om beperking van de verwerking verzoeken, en je gegevens in een overdraagbaar formaat opvragen. Toestemming (bijvoorbeeld voor de nieuwsbrief) kun je op elk moment intrekken.",
+      "Een verzoek stuur je naar dave@freelanceaiconsultant.com. Je ontvangt binnen vier weken een reactie.",
+      "Ben je het oneens met de afhandeling, dan kun je een klacht indienen bij de Autoriteit Persoonsgegevens via autoriteitpersoonsgegevens.nl.",
+      "10. Wijzigingen",
+      "Deze privacyverklaring kan worden aangepast wanneer de dienstverlening of de wetgeving daartoe aanleiding geeft. De datum bovenaan geeft aan wanneer de laatste wijziging is doorgevoerd."
+    ]
+  },
+  "links": [
+    {
+      "regio": "overig",
+      "soort": "intern",
+      "href": "#main",
+      "anker": "Naar hoofdinhoud",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/",
+      "anker": "",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/diensten",
+      "anker": "Diensten",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/cases",
+      "anker": "Cases",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/werkwijze",
+      "anker": "Werkwijze",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/inzichten",
+      "anker": "Inzichten",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/over",
+      "anker": "Over mij",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/contact",
+      "anker": "Plan een gesprek →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/",
+      "anker": "← Terug naar home",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "overig",
+      "href": "mailto:dave@freelanceaiconsultant.com",
+      "anker": "dave@freelanceaiconsultant.com",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "overig",
+      "href": "mailto:dave@freelanceaiconsultant.com",
+      "anker": "dave@freelanceaiconsultant.com",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "extern",
+      "href": "https://autoriteitpersoonsgegevens.nl",
+      "anker": "autoriteitpersoonsgegevens.nl",
+      "rel": "noopener"
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/diensten/ai-readiness-assessment",
+      "anker": "AI Readiness Assessment",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/diensten/ai-strategy-sprint",
+      "anker": "AI Strategy Sprint",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/diensten/fractional-ai-lead",
+      "anker": "Fractional AI Lead",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/diensten",
+      "anker": "Alle diensten",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/cases",
+      "anker": "Cases",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/werkwijze",
+      "anker": "Werkwijze",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/inzichten",
+      "anker": "Inzichten",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/veelgestelde-vragen",
+      "anker": "Veelgestelde vragen",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/over",
+      "anker": "Over mij",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-consultancy",
+      "anker": "AI consultancy",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-implementatie",
+      "anker": "AI implementatie",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-automatisering",
+      "anker": "AI automatisering",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-voor-bedrijven",
+      "anker": "AI voor bedrijven",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-development",
+      "anker": "AI development",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-agents",
+      "anker": "AI agents",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-beleid",
+      "anker": "AI beleid",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-workshop",
+      "anker": "AI workshop",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/markten",
+      "anker": "AI per branche",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/kennisbank",
+      "anker": "Kennisbank",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/tarieven",
+      "anker": "Tarieven",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/partnernetwerk",
+      "anker": "Partnernetwerk",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "overig",
+      "href": "mailto:dave@freelanceaiconsultant.com",
+      "anker": "dave@freelanceaiconsultant.com",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "extern",
+      "href": "https://www.linkedin.com/in/davewillemstein",
+      "anker": "LinkedIn ↗",
+      "rel": "noopener"
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/contact",
+      "anker": "Plan een gesprek",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/privacy",
+      "anker": "Privacyverklaring",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/algemene-voorwaarden",
+      "anker": "Algemene voorwaarden",
+      "rel": null
+    }
+  ],
+  "structured_data": {
+    "sha256": "e0b9c921dd9f89e8092eda50e17acfcfd2c524790ede069c13fce4cd307c0d9d",
+    "items": [
+      {
+        "@context": "https://schema.org",
+        "@type": "ProfessionalService",
+        "name": "Dave Willemstein, Independent AI Advisor",
+        "url": "https://freelanceaiconsultant.com",
+        "image": "https://freelanceaiconsultant.com/images/dave-portrait.jpg",
+        "email": "dave@freelanceaiconsultant.com",
+        "description": "Hoe freelanceaiconsultant.com omgaat met persoonsgegevens: welke gegevens worden verwerkt, waarom, hoe lang en welke rechten je hebt.",
+        "areaServed": [
+          "NL",
+          "BE",
+          "DE"
+        ],
+        "priceRange": "€€€",
+        "founder": {
+          "@type": "Person",
+          "name": "Dave Willemstein",
+          "jobTitle": "Onafhankelijk AI-adviseur",
+          "url": "https://freelanceaiconsultant.com",
+          "sameAs": [
+            "https://www.linkedin.com/in/davewillemstein"
+          ]
+        }
+      }
+    ]
+  },
+  "afbeeldingen": [
+    {
+      "regio": "header",
+      "src": "/images/freelance-ai-consultant-logo-header.png",
+      "alt": "freelanceaiconsultant.com logo",
+      "width": "600",
+      "height": "287",
+      "loading": null
+    },
+    {
+      "regio": "footer",
+      "src": "/images/freelance-ai-consultant-icon-footer.png",
+      "alt": "",
+      "width": "192",
+      "height": "192",
+      "loading": "lazy"
+    }
+  ],
+  "laadprestaties": {
+    "scripts": [
+      {
+        "src": "/logo-carousel/logo-carousel.js?v=2",
+        "type": null,
+        "inline_bytes": 0
+      }
+    ],
+    "stylesheets": [
+      "https://fonts.googleapis.com/css2?family=Caveat:wght@600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap",
+      "/_astro/_slug_.bq6BBoZ5.css",
+      "/logo-carousel/logo-carousel.css?v=2"
+    ],
+    "aantal_details": 0,
+    "aantal_tabellen": 1
+  }
+}

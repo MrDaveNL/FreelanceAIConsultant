@@ -1,0 +1,816 @@
+{
+  "url": "/kennisbank/ai-specialist-salaris",
+  "build_bestand": "dist/kennisbank/ai-specialist-salaris/index.html",
+  "bron": [
+    "src/content/pages/kennisbank/ai-specialist-salaris/index.md",
+    "src/pages/[...slug].astro"
+  ],
+  "gemeten_op": "2026-10-06",
+  "html": {
+    "bytes": 35211,
+    "sha256": "72947c09befb1fc1c238a6263c640eb19f616228ff505a3136ca5e6e9c4872fb",
+    "lang": "nl"
+  },
+  "beschermd": {
+    "title": "AI specialist salaris | Wat verdient een AI specialist?",
+    "meta_description": "Wat verdient een AI specialist of AI engineer in Nederland? Bekijk salarisindicaties per niveau en vergelijk een vaste kracht met een freelance AI consultant.",
+    "canonical": "https://freelanceaiconsultant.com/kennisbank/ai-specialist-salaris",
+    "robots_meta": null,
+    "hreflang": [],
+    "h1": [
+      "AI specialist salaris: wat verdient een AI specialist?"
+    ]
+  },
+  "social": {
+    "og:type": "website",
+    "og:locale": "nl_NL",
+    "og:site_name": "freelanceaiconsultant.com",
+    "og:title": "AI specialist salaris | Wat verdient een AI specialist?",
+    "og:description": "Wat verdient een AI specialist of AI engineer in Nederland? Bekijk salarisindicaties per niveau en vergelijk een vaste kracht met een freelance AI consultant.",
+    "og:url": "https://freelanceaiconsultant.com/kennisbank/ai-specialist-salaris",
+    "og:image": "https://freelanceaiconsultant.com/images/dave-portrait.jpg",
+    "twitter:card": "summary_large_image",
+    "twitter:title": "AI specialist salaris | Wat verdient een AI specialist?",
+    "twitter:description": "Wat verdient een AI specialist of AI engineer in Nederland? Bekijk salarisindicaties per niveau en vergelijk een vaste kracht met een freelance AI consultant.",
+    "twitter:image": "https://freelanceaiconsultant.com/images/dave-portrait.jpg"
+  },
+  "koppen": [
+    {
+      "niveau": 1,
+      "tekst": "AI specialist salaris: wat verdient een AI specialist?",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "Salarisindicatie AI specialist",
+      "regio": "main",
+      "id": "salarisindicatie-ai-specialist"
+    },
+    {
+      "niveau": 3,
+      "tekst": "Junior",
+      "regio": "main",
+      "id": "junior"
+    },
+    {
+      "niveau": 3,
+      "tekst": "Medior",
+      "regio": "main",
+      "id": "medior"
+    },
+    {
+      "niveau": 3,
+      "tekst": "Senior",
+      "regio": "main",
+      "id": "senior"
+    },
+    {
+      "niveau": 2,
+      "tekst": "AI engineer salaris",
+      "regio": "main",
+      "id": "ai-engineer-salaris"
+    },
+    {
+      "niveau": 2,
+      "tekst": "Factoren die het salaris bepalen",
+      "regio": "main",
+      "id": "factoren-die-het-salaris-bepalen"
+    },
+    {
+      "niveau": 2,
+      "tekst": "Vast in dienst of freelance inhuren?",
+      "regio": "main",
+      "id": "vast-in-dienst-of-freelance-inhuren"
+    },
+    {
+      "niveau": 2,
+      "tekst": "Veelgestelde vragen",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "Bronnen",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "Van AI-ambitie naar concrete resultaten.",
+      "regio": "main",
+      "id": null
+    }
+  ],
+  "bodytekst": {
+    "regio": "main",
+    "woorden": 1744,
+    "sha256": "86ee700331d2e2fab95dc2ac462bbed9807e64efd5817bc2e37301512276c96e",
+    "blokken": [
+      "Home",
+      "Kennisbank",
+      "AI specialist salaris",
+      "Kennisbank",
+      "AI specialist salaris: wat verdient een AI specialist?",
+      "Wat verdient een AI specialist in Nederland? Het eerlijke antwoord: dat hangt af van de bron die je raadpleegt en van wat je onder AI specialist verstaat. Ik zet de salarisbronnen die ik kon controleren naast elkaar, met peildatum, en vergelijk een vaste kracht met externe inhuur.",
+      "Bekijk tarieven → Plan een adviesgesprek →",
+      "Geschreven door Dave Willemstein, onafhankelijk AI consultant · gepubliceerd 23 september 2026",
+      "IN HET KORT",
+      "Salarisbronnen verschillen onderling flink; gebruik ze als bandbreedte, niet als vast bedrag.",
+      "De bronnen die ik kon controleren, publiceren cijfers voor de titel AI engineer, niet voor AI specialist.",
+      "Vast aannemen loont bij structureel werk; bij een onduidelijke scope is externe of parttime inzet vaak verstandiger.",
+      "AI in Europa",
+      "Europese merken die AI al in productie hebben.",
+      "Geen klanten van mij. Wel voorbeelden van wat er gebeurt als AI voorbij de pilot komt.",
+      "Pauzeer",
+      "Klarna",
+      "Zweden",
+      "AI-assistent in de klantenservice",
+      "Zalando",
+      "Duitsland",
+      "Mode-assistent voor productadvies",
+      "Financial services",
+      "Investeringsmaatschappij",
+      "AI-strategie en use-case portfolio",
+      "Booking.com",
+      "Nederland",
+      "AI Trip Planner voor reisplanning",
+      "Siemens",
+      "Duitsland",
+      "Industrial Copilot voor engineering",
+      "Retail",
+      "Enterprise retailer",
+      "AI-gedreven vendorselectie",
+      "Spotify",
+      "Zweden",
+      "AI DJ en gepersonaliseerde playlists",
+      "Mercedes-Benz",
+      "Duitsland",
+      "Generatieve spraakassistent in de auto",
+      "Industrial / B2B",
+      "Internationale maakorganisatie",
+      "AI-roadmap en leadership",
+      "ING",
+      "Nederland",
+      "Generatieve chatbot voor klantvragen",
+      "L'Oréal",
+      "Frankrijk",
+      "Beauty Genius: persoonlijk advies",
+      "Financial services",
+      "Financiële dienstverlener",
+      "KYC versneld met AI-documentanalyse",
+      "SAP",
+      "Duitsland",
+      "Joule: copilot in bedrijfssoftware",
+      "Carrefour",
+      "Frankrijk",
+      "Hopla: boodschappenassistent",
+      "Strategy & AI",
+      "SaaS scale-up",
+      "AI-readiness assessment",
+      "Adyen",
+      "Nederland",
+      "AI-optimalisatie van betalingen",
+      "Philips",
+      "Nederland",
+      "AI in medische beeldvorming",
+      "Proces & productivity",
+      "Zakelijke dienstverlener",
+      "Interne AI-assistent voor kenniswerkers",
+      "Salarisindicatie AI specialist",
+      "Wie zoekt naar het salaris van een AI specialist, loopt tegen twee problemen aan. Ten eerste is “AI specialist” geen vaste functietitel: het kan gaan om een strateeg, een machine learning engineer of een ontwikkelaar die een AI-platform inricht. Op de pagina over wat een AI specialist doet zet ik die profielen naast elkaar. Ten tweede publiceren de salarisbronnen die ik kon controleren hun cijfers onder de titel AI engineer, niet onder AI specialist.",
+      "Hieronder staan daarom de bandbreedtes per niveau van twee bronnen die hun cijfers indelen naar ervaring. Het zijn brutobedragen per maand, zoals de bronnen ze publiceren. Ik heb ze op 23 september 2026 gecontroleerd. De bronnen verschillen onderling duidelijk, en dat is precies de reden om ze naast elkaar te zetten in plaats van er één gemiddelde van te maken.",
+      "Niveau",
+      "Nationale Beroepengids (bijgewerkt nov. 2024)",
+      "DataJobs (bijgewerkt mei 2026)",
+      "Junior",
+      "€ 3.600 – € 4.480 (0–2 jaar)",
+      "€ 3.000 – € 4.000 (0–2 jaar)",
+      "Medior",
+      "€ 4.480 – € 7.120 (3–5 jaar)",
+      "€ 4.000 – € 5.500 (3–6 jaar)",
+      "Senior",
+      "€ 7.120 – € 8.000 (5+ jaar)",
+      "€ 5.500 – € 7.000 (6+ jaar)",
+      "Bronnen: Nationale Beroepengids, salaris Artificial Intelligence Engineer (uitgaand van een 40-urige werkweek) en DataJobs, werken als AI Engineer.",
+      "Junior",
+      "Een junior AI specialist heeft doorgaans nul tot twee jaar ervaring en werkt onder begeleiding aan afgebakende onderdelen: data voorbereiden, tests uitvoeren, delen van een toepassing bouwen. De twee bronnen komen uit op een bandbreedte van ongeveer € 3.000 tot € 4.480 bruto per maand, waarbij de ondergrens van DataJobs lager ligt dan die van de Nationale Beroepengids.",
+      "Medior",
+      "Na een paar jaar werkt een medior zelfstandig aan complete toepassingen en neemt die meer verantwoordelijkheid voor kwaliteit en koppelingen. Hier lopen de bronnen het verst uiteen: DataJobs noemt € 4.000 tot € 5.500, de Nationale Beroepengids € 4.480 tot € 7.120 bruto per maand. Ook de ervaringsjaren die ze onder medior rekenen, verschillen.",
+      "Senior",
+      "Een senior AI specialist ontwerpt oplossingen, begeleidt anderen en is vaak aanspreekpunt voor business en leveranciers. DataJobs noemt € 5.500 tot € 7.000 bruto per maand en daarboven een aparte categorie voor leidinggevende rollen van € 7.000 tot € 9.000 of meer. De Nationale Beroepengids komt voor senioren uit op € 7.120 tot € 8.000. Houd er rekening mee dat de cijfers van de Nationale Beroepengids uit november 2024 stammen.",
+      "JuniorBeide bronnen: ongeveer € 3.000 – € 4.480 bruto per maand",
+      "MediorGrootste verschil: € 4.000 – € 5.500 (DataJobs) tegenover € 4.480 – € 7.120 (Nationale Beroepengids)",
+      "Senior€ 5.500 – € 7.000 (DataJobs) tegenover € 7.120 – € 8.000 (Nationale Beroepengids)",
+      "LeadAlleen DataJobs: € 7.000 – € 9.000 of meer voor leidinggevende rollen",
+      "Bandbreedtes per bron, bruto per maand, gecontroleerd op 23 september 2026. Geen gemiddelde: de bronnen gebruiken verschillende methodes en peildata.",
+      "AI engineer salaris",
+      "Voor de titel AI engineer zijn ook bronnen die niet naar niveau indelen, maar een totaalbeeld geven:",
+      "Indeed meldt op basis van 400 doorgegeven salarissen dat AI engineer-salarissen doorgaans tussen € 38.702 en € 82.901 per jaar liggen, met een gemiddelde van € 56.643 per jaar (bijgewerkt 14 september 2026). Bron: Indeed, salaris AI engineer.",
+      "DataJobs meldt dat salarissen voor AI engineers op het eigen platform lopen van € 4.954 tot € 6.688 bruto per maand, met een mediaan van € 5.500.",
+      "Die cijfers zijn lastig één-op-één te vergelijken. Indeed rekent in jaarbedragen op basis van wat werknemers zelf opgeven, DataJobs in brutomaandbedragen op basis van gegevens van het eigen platform, zonder de methode verder toe te lichten. Of vakantiegeld en bonussen zijn meegeteld, verschilt per bron. Gebruik ze daarom als orde van grootte.",
+      "Voor een AI engineer, machine learning engineer of AI programmeur geldt hetzelfde als voor de AI specialist: de functietitel zegt weinig zonder de taken erbij. Wat een AI developer concreet doet, lees je in wat doet een AI developer.",
+      "Factoren die het salaris bepalen",
+      "Binnen de bandbreedtes beweegt het salaris met een paar factoren mee:",
+      "Ervaring en zelfstandigheid. De bronnen die naar niveau indelen, doen dat op ervaringsjaren, maar in de praktijk telt vooral wat iemand zelfstandig kan opleveren.",
+      "Specialisatie. Iemand die modellen in productie kan brengen en bewaken, is schaarser dan iemand die vooral prototypes bouwt.",
+      "Werkgever en sector. Een groot adviesbureau, een scale-up en een overheidsorganisatie hanteren elk een eigen salarisstructuur, soms met een cao.",
+      "AI-vaardigheden in een andere functie. Volgens de IT & Sales Salarisgids 2026 van The Search Company verdienen professionals met AI- of machine learning-ervaring gemiddeld 15 tot 20 procent meer dan collega’s zonder die vaardigheden, zoals Dutch IT Leaders meldde.",
+      "Voorbeeldscenario",
+      "Een industriële producent met 260 medewerkers zoekt een vaste AI specialist. Na vijf maanden heeft de vacature 40 reacties opgeleverd, maar niemand past op het profiel. Dat profiel vraagt tegelijk om strategie, machine learning en beheer van een dataplatform.",
+      "De adviseur brengt vanuit klantzijde eerst in kaart welk werk er de komende twee jaar echt ligt. Ongeveer vier dagen per week blijkt structureel bouw- en beheerwerk aan twee bestaande toepassingen. Keuzes maken, prioriteren en leveranciers beoordelen vraagt hooguit een paar dagen per maand.",
+      "De organisatie splitst de rol. De nieuwe vacature voor een medior AI engineer is na tien weken vervuld. Het strategische deel ligt het eerste halfjaar bij een Fractional AI Lead, twee dagen per maand. Een senior profiel voor alles tegelijk wordt bewust niet meer gezocht.",
+      "Fictief voorbeeld, samengesteld uit situaties die veel voorkomen. Organisatie en cijfers zijn illustratief.",
+      "Vast in dienst of freelance inhuren?",
+      "Voor werkgevers is het salaris maar een deel van de afweging. Een vaste AI specialist kost ook werkgeverslasten, opleiding en werving, en hij kost geld als er even geen AI-werk ligt. Daartegenover staat dat kennis in huis blijft en dat iemand de organisatie leert kennen.",
+      "Een paar vuistregels:",
+      "Neem vast aan als er structureel werk ligt met een duidelijke scope: een team dat AI-toepassingen bouwt en beheert, of een platform dat dagelijks onderhoud vraagt.",
+      "Huur extern in als de vraag afgebakend is: een strategie, een leverancierskeuze, een second opinion. Waar je op let bij het selecteren van een externe adviseur, staat bij een AI consultant inhuren.",
+      "Kies een parttime rol als je iemand nodig hebt die de AI-agenda stuurt, maar de scope voor een fulltime functie nog niet vaststaat. Een Fractional AI Lead doet dat voor een paar dagen per maand, €2.600 / €5.200 / €10.400 per maand, en helpt bij het functieprofiel en de werving van een vaste opvolger.",
+      "Wat ik als freelance adviseur reken, staat per pakket op de pagina met tarieven. Ik bouw zelf geen software; voor bouwcapaciteit heb je je eigen developers nodig of een ontwikkelpartij. Hoe je die selecteert en aanstuurt, lees je op de pagina over AI development, en hoe je kiest tussen standaardsoftware en maatwerk bij AI software.",
+      "Twijfel je of je een AI specialist moet aannemen of beter tijdelijk inhuurt? Plan een adviesgesprek van dertig minuten; ook als het antwoord is dat je iemand moet aannemen, hoor je dat.",
+      "Dave Willemstein Onafhankelijk AI-adviseur",
+      "Onafhankelijk: geen commissies, geen partnerdeals, geen marge op implementatiepartners.",
+      "Over mij Mijn partnernetwerk",
+      "Weten waar je staat met AI? Bekijk de AI Readiness Assessment →",
+      "Veelgestelde vragen",
+      "Waarom verschillen salarisbronnen zo sterk?+",
+      "Ze meten iets anders. De ene bron gebruikt salarissen die werknemers zelf doorgeven, de andere vacatureteksten, weer een andere een eigen beroepenindeling. Daarnaast verschilt wat onder een functietitel valt en hoe oud de data is. Kijk daarom altijd naar de methode en de peildatum.",
+      "Zijn de genoemde bedragen bruto of netto?+",
+      "De maandbedragen van de Nationale Beroepengids en DataJobs zijn bruto, zoals die bronnen ze publiceren. Indeed vermeldt niet expliciet of het om bruto- of nettobedragen gaat. Controleer per bron ook of bonussen en vakantiegeld zijn meegeteld.",
+      "Verdient een freelance AI specialist meer dan iemand in loondienst?+",
+      "Dat valt niet uit het tarief af te lezen. Een freelancer betaalt uit zijn tarief ook niet-declarabele tijd, verzekeringen, pensioenopbouw en ondernemersrisico. Een uurtarief en een brutosalaris zijn daarom geen vergelijkbare bedragen.",
+      "Wat kost een AI specialist de werkgever in totaal?+",
+      "Meer dan het brutosalaris. Daar komen werkgeverslasten, pensioenpremie, vakantiegeld, opleiding, werkplek en de kosten van werving bij. Hoeveel precies, verschilt per werkgever; reken dat door met je eigen salarisadministratie.",
+      "Hoe vergelijk ik een salaris met het tarief van een freelancer?+",
+      "Vergelijk niet het uurtarief met het brutosalaris, maar de totale kosten voor de inzet die je nodig hebt. Een vaste kracht kost ook geld als er even geen AI-werk is; een externe specialist betaal je alleen voor de afgesproken inzet.",
+      "Bronnen",
+      "Nationale Beroepengids, Salaris Artificial Intelligence Engineer (bijgewerkt 26-11-2024)",
+      "DataJobs, Werken als AI Engineer: taken, salaris en vacatures (bijgewerkt mei 2026)",
+      "Indeed, Salaris van een AI engineer in Nederland (bijgewerkt 14 september 2026)",
+      "Dutch IT Leaders, AI-specialist is de grootverdiener van 2026 (11 maart 2026), over de IT & Sales Salarisgids Nederland 2026 van The Search Company",
+      "Klaar voor impact?",
+      "Van AI-ambitie naar concrete resultaten.",
+      "Plan een vrijblijvend gesprek. Geen pitch. Wel scherpe vragen.",
+      "30 min., geen pitch deckPlan een gesprek →"
+    ]
+  },
+  "links": [
+    {
+      "regio": "overig",
+      "soort": "intern",
+      "href": "#main",
+      "anker": "Naar hoofdinhoud",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/",
+      "anker": "",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/diensten",
+      "anker": "Diensten",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/cases",
+      "anker": "Cases",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/werkwijze",
+      "anker": "Werkwijze",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/inzichten",
+      "anker": "Inzichten",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/over",
+      "anker": "Over mij",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/contact",
+      "anker": "Plan een gesprek →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/",
+      "anker": "Home",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/kennisbank",
+      "anker": "Kennisbank",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/tarieven",
+      "anker": "Bekijk tarieven →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/contact",
+      "anker": "Plan een adviesgesprek →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/over",
+      "anker": "Dave Willemstein",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/ai-development/ai-specialist",
+      "anker": "wat een AI specialist doet",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "extern",
+      "href": "https://www.nationaleberoepengids.nl/salaris/artificial-intelligence-engineer",
+      "anker": "Nationale Beroepengids, salaris Artificial Intelligence Engineer",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "extern",
+      "href": "https://www.datajobs.nl/kennisbank/carrieregids/beroepen-in-data-en-analytics/werken-als-ai-engineer",
+      "anker": "DataJobs, werken als AI Engineer",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "extern",
+      "href": "https://nl.indeed.com/career/ai-engineer/salaries",
+      "anker": "Indeed, salaris AI engineer",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/kennisbank/wat-doet-een-ai-developer",
+      "anker": "wat doet een AI developer",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "extern",
+      "href": "https://www.dutchitleaders.nl/blog/726995/ai-specialist-is-de-grootverdiener-van-2026",
+      "anker": "Dutch IT Leaders meldde",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/ai-consultancy/ai-consultant-inhuren",
+      "anker": "een AI consultant inhuren",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/diensten/fractional-ai-lead",
+      "anker": "Fractional AI Lead",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/tarieven",
+      "anker": "tarieven",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/ai-development",
+      "anker": "AI development",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/ai-development/ai-software",
+      "anker": "AI software",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/contact",
+      "anker": "Plan een adviesgesprek",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/over",
+      "anker": "Over mij",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/partnernetwerk",
+      "anker": "Mijn partnernetwerk",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/diensten/ai-readiness-assessment",
+      "anker": "Weten waar je staat met AI? Bekijk de AI Readiness Assessment →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "extern",
+      "href": "https://www.nationaleberoepengids.nl/salaris/artificial-intelligence-engineer",
+      "anker": "Nationale Beroepengids, Salaris Artificial Intelligence Engineer (bijgewerkt 26-11-2024)",
+      "rel": "noopener"
+    },
+    {
+      "regio": "main",
+      "soort": "extern",
+      "href": "https://www.datajobs.nl/kennisbank/carrieregids/beroepen-in-data-en-analytics/werken-als-ai-engineer",
+      "anker": "DataJobs, Werken als AI Engineer: taken, salaris en vacatures (bijgewerkt mei 2026)",
+      "rel": "noopener"
+    },
+    {
+      "regio": "main",
+      "soort": "extern",
+      "href": "https://nl.indeed.com/career/ai-engineer/salaries",
+      "anker": "Indeed, Salaris van een AI engineer in Nederland (bijgewerkt 14 september 2026)",
+      "rel": "noopener"
+    },
+    {
+      "regio": "main",
+      "soort": "extern",
+      "href": "https://www.dutchitleaders.nl/blog/726995/ai-specialist-is-de-grootverdiener-van-2026",
+      "anker": "Dutch IT Leaders, AI-specialist is de grootverdiener van 2026 (11 maart 2026), over de IT & Sales Salarisgids Nederland 2026 van The Search Company",
+      "rel": "noopener"
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/contact",
+      "anker": "Plan een gesprek →",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/diensten/ai-readiness-assessment",
+      "anker": "AI Readiness Assessment",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/diensten/ai-strategy-sprint",
+      "anker": "AI Strategy Sprint",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/diensten/fractional-ai-lead",
+      "anker": "Fractional AI Lead",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/diensten",
+      "anker": "Alle diensten",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/cases",
+      "anker": "Cases",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/werkwijze",
+      "anker": "Werkwijze",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/inzichten",
+      "anker": "Inzichten",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/veelgestelde-vragen",
+      "anker": "Veelgestelde vragen",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/over",
+      "anker": "Over mij",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-consultancy",
+      "anker": "AI consultancy",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-implementatie",
+      "anker": "AI implementatie",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-automatisering",
+      "anker": "AI automatisering",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-voor-bedrijven",
+      "anker": "AI voor bedrijven",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-development",
+      "anker": "AI development",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-agents",
+      "anker": "AI agents",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-beleid",
+      "anker": "AI beleid",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-workshop",
+      "anker": "AI workshop",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/markten",
+      "anker": "AI per branche",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/kennisbank",
+      "anker": "Kennisbank",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/tarieven",
+      "anker": "Tarieven",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/partnernetwerk",
+      "anker": "Partnernetwerk",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "overig",
+      "href": "mailto:dave@freelanceaiconsultant.com",
+      "anker": "dave@freelanceaiconsultant.com",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "extern",
+      "href": "https://www.linkedin.com/in/davewillemstein",
+      "anker": "LinkedIn ↗",
+      "rel": "noopener"
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/contact",
+      "anker": "Plan een gesprek",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/privacy",
+      "anker": "Privacyverklaring",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/algemene-voorwaarden",
+      "anker": "Algemene voorwaarden",
+      "rel": null
+    }
+  ],
+  "structured_data": {
+    "sha256": "182fd425030a6bc94f369a5a689f94630e6953589a2d32dbc7a156898512321f",
+    "items": [
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://freelanceaiconsultant.com/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Kennisbank",
+                "item": "https://freelanceaiconsultant.com/kennisbank"
+              },
+              {
+                "@type": "ListItem",
+                "position": 3,
+                "name": "AI specialist salaris",
+                "item": "https://freelanceaiconsultant.com/kennisbank/ai-specialist-salaris"
+              }
+            ]
+          },
+          {
+            "@type": "Article",
+            "headline": "AI specialist salaris: wat verdient een AI specialist?",
+            "description": "Wat verdient een AI specialist of AI engineer in Nederland? Bekijk salarisindicaties per niveau en vergelijk een vaste kracht met een freelance AI consultant.",
+            "inLanguage": "nl-NL",
+            "datePublished": "2026-09-23",
+            "dateModified": "2026-09-23",
+            "author": {
+              "@type": "Person",
+              "name": "Dave Willemstein",
+              "jobTitle": "Onafhankelijk AI-adviseur",
+              "url": "https://freelanceaiconsultant.com/over",
+              "sameAs": [
+                "https://www.linkedin.com/in/davewillemstein"
+              ]
+            },
+            "publisher": {
+              "@type": "Person",
+              "name": "Dave Willemstein"
+            },
+            "mainEntityOfPage": "https://freelanceaiconsultant.com/kennisbank/ai-specialist-salaris"
+          },
+          {
+            "@type": "FAQPage",
+            "mainEntity": [
+              {
+                "@type": "Question",
+                "name": "Waarom verschillen salarisbronnen zo sterk?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Ze meten iets anders. De ene bron gebruikt salarissen die werknemers zelf doorgeven, de andere vacatureteksten, weer een andere een eigen beroepenindeling. Daarnaast verschilt wat onder een functietitel valt en hoe oud de data is. Kijk daarom altijd naar de methode en de peildatum."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Zijn de genoemde bedragen bruto of netto?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "De maandbedragen van de Nationale Beroepengids en DataJobs zijn bruto, zoals die bronnen ze publiceren. Indeed vermeldt niet expliciet of het om bruto- of nettobedragen gaat. Controleer per bron ook of bonussen en vakantiegeld zijn meegeteld."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Verdient een freelance AI specialist meer dan iemand in loondienst?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Dat valt niet uit het tarief af te lezen. Een freelancer betaalt uit zijn tarief ook niet-declarabele tijd, verzekeringen, pensioenopbouw en ondernemersrisico. Een uurtarief en een brutosalaris zijn daarom geen vergelijkbare bedragen."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Wat kost een AI specialist de werkgever in totaal?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Meer dan het brutosalaris. Daar komen werkgeverslasten, pensioenpremie, vakantiegeld, opleiding, werkplek en de kosten van werving bij. Hoeveel precies, verschilt per werkgever; reken dat door met je eigen salarisadministratie."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Hoe vergelijk ik een salaris met het tarief van een freelancer?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Vergelijk niet het uurtarief met het brutosalaris, maar de totale kosten voor de inzet die je nodig hebt. Een vaste kracht kost ook geld als er even geen AI-werk is; een externe specialist betaal je alleen voor de afgesproken inzet."
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "afbeeldingen": [
+    {
+      "regio": "header",
+      "src": "/images/freelance-ai-consultant-logo-header.png",
+      "alt": "freelanceaiconsultant.com logo",
+      "width": "600",
+      "height": "287",
+      "loading": null
+    },
+    {
+      "regio": "main",
+      "src": "/images/dave-portrait.jpg",
+      "alt": "Portret van Dave Willemstein",
+      "width": "88",
+      "height": "88",
+      "loading": "lazy"
+    },
+    {
+      "regio": "footer",
+      "src": "/images/freelance-ai-consultant-icon-footer.png",
+      "alt": "",
+      "width": "192",
+      "height": "192",
+      "loading": "lazy"
+    }
+  ],
+  "laadprestaties": {
+    "scripts": [
+      {
+        "src": "/logo-carousel/logo-carousel.js?v=2",
+        "type": null,
+        "inline_bytes": 0
+      }
+    ],
+    "stylesheets": [
+      "https://fonts.googleapis.com/css2?family=Caveat:wght@600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap",
+      "/_astro/_slug_.bq6BBoZ5.css",
+      "/_astro/_slug_.goiX3PVF.css",
+      "/logo-carousel/logo-carousel.css?v=2"
+    ],
+    "aantal_details": 5,
+    "aantal_tabellen": 1
+  }
+}

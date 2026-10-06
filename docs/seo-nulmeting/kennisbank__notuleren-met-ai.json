@@ -1,0 +1,813 @@
+{
+  "url": "/kennisbank/notuleren-met-ai",
+  "build_bestand": "dist/kennisbank/notuleren-met-ai/index.html",
+  "bron": [
+    "src/content/pages/kennisbank/notuleren-met-ai/index.md",
+    "src/pages/[...slug].astro"
+  ],
+  "gemeten_op": "2026-10-06",
+  "html": {
+    "bytes": 36065,
+    "sha256": "4825131dcae9361eaa982d8576ecb5a9d60d2ee8630ec238e18db894734b108c",
+    "lang": "nl"
+  },
+  "beschermd": {
+    "title": "Notuleren met AI | Tools, werkwijze en privacy op een rij",
+    "meta_description": "Notuleren met AI kan veel tijd schelen. Vergelijk tools zoals Copilot en Fireflies, lees hoe je veilig werkt met privacygevoelige data en start direct.",
+    "canonical": "https://freelanceaiconsultant.com/kennisbank/notuleren-met-ai",
+    "robots_meta": null,
+    "hreflang": [],
+    "h1": [
+      "Notuleren met AI: tools, werkwijze en privacy"
+    ]
+  },
+  "social": {
+    "og:type": "website",
+    "og:locale": "nl_NL",
+    "og:site_name": "freelanceaiconsultant.com",
+    "og:title": "Notuleren met AI | Tools, werkwijze en privacy op een rij",
+    "og:description": "Notuleren met AI kan veel tijd schelen. Vergelijk tools zoals Copilot en Fireflies, lees hoe je veilig werkt met privacygevoelige data en start direct.",
+    "og:url": "https://freelanceaiconsultant.com/kennisbank/notuleren-met-ai",
+    "og:image": "https://freelanceaiconsultant.com/images/dave-portrait.jpg",
+    "twitter:card": "summary_large_image",
+    "twitter:title": "Notuleren met AI | Tools, werkwijze en privacy op een rij",
+    "twitter:description": "Notuleren met AI kan veel tijd schelen. Vergelijk tools zoals Copilot en Fireflies, lees hoe je veilig werkt met privacygevoelige data en start direct.",
+    "twitter:image": "https://freelanceaiconsultant.com/images/dave-portrait.jpg"
+  },
+  "koppen": [
+    {
+      "niveau": 1,
+      "tekst": "Notuleren met AI: tools, werkwijze en privacy",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "Hoe werkt notuleren met AI?",
+      "regio": "main",
+      "id": "hoe-werkt-notuleren-met-ai"
+    },
+    {
+      "niveau": 2,
+      "tekst": "De beste tools om te notuleren met AI",
+      "regio": "main",
+      "id": "de-beste-tools-om-te-notuleren-met-ai"
+    },
+    {
+      "niveau": 2,
+      "tekst": "Privacy en AVG",
+      "regio": "main",
+      "id": "privacy-en-avg"
+    },
+    {
+      "niveau": 2,
+      "tekst": "Zo richt je het in",
+      "regio": "main",
+      "id": "zo-richt-je-het-in"
+    },
+    {
+      "niveau": 2,
+      "tekst": "Veelgestelde vragen",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "Bronnen",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "Van AI-ambitie naar concrete resultaten.",
+      "regio": "main",
+      "id": null
+    }
+  ],
+  "bodytekst": {
+    "regio": "main",
+    "woorden": 1802,
+    "sha256": "4b24576878dc79ee65c9325ec888e6fd5380c38477691c7b9458f227ccdced4e",
+    "blokken": [
+      "Home",
+      "Kennisbank",
+      "Notuleren met AI",
+      "Kennisbank",
+      "Notuleren met AI: tools, werkwijze en privacy",
+      "Notuleren met AI is een van de laagdrempeligste AI-toepassingen op kantoor: een tool luistert mee, maakt een transcript en stelt een verslag met actiepunten op. Het werkt goed, mits je de juiste tool kiest en de privacy vooraf regelt. Hier lees je hoe het werkt, welke tools er zijn en waar je op let.",
+      "Lees meer over AI automatisering → Plan een adviesgesprek →",
+      "Geschreven door Dave Willemstein, onafhankelijk AI consultant · gepubliceerd 23 september 2026",
+      "IN HET KORT",
+      "Een AI-notulist neemt op, transcribeert en vat samen; een mens controleert en deelt.",
+      "Kijk bij de toolkeuze vooral naar taalondersteuning, waar de data staat en hoe de tool meedoet aan het gesprek.",
+      "Opnemen is een verwerking van persoonsgegevens: informeer deelnemers vooraf en leg vast wat je bewaart.",
+      "AI in Europa",
+      "Europese merken die AI al in productie hebben.",
+      "Geen klanten van mij. Wel voorbeelden van wat er gebeurt als AI voorbij de pilot komt.",
+      "Pauzeer",
+      "Klarna",
+      "Zweden",
+      "AI-assistent in de klantenservice",
+      "Zalando",
+      "Duitsland",
+      "Mode-assistent voor productadvies",
+      "Financial services",
+      "Investeringsmaatschappij",
+      "AI-strategie en use-case portfolio",
+      "Booking.com",
+      "Nederland",
+      "AI Trip Planner voor reisplanning",
+      "Siemens",
+      "Duitsland",
+      "Industrial Copilot voor engineering",
+      "Retail",
+      "Enterprise retailer",
+      "AI-gedreven vendorselectie",
+      "Spotify",
+      "Zweden",
+      "AI DJ en gepersonaliseerde playlists",
+      "Mercedes-Benz",
+      "Duitsland",
+      "Generatieve spraakassistent in de auto",
+      "Industrial / B2B",
+      "Internationale maakorganisatie",
+      "AI-roadmap en leadership",
+      "ING",
+      "Nederland",
+      "Generatieve chatbot voor klantvragen",
+      "L'Oréal",
+      "Frankrijk",
+      "Beauty Genius: persoonlijk advies",
+      "Financial services",
+      "Financiële dienstverlener",
+      "KYC versneld met AI-documentanalyse",
+      "SAP",
+      "Duitsland",
+      "Joule: copilot in bedrijfssoftware",
+      "Carrefour",
+      "Frankrijk",
+      "Hopla: boodschappenassistent",
+      "Strategy & AI",
+      "SaaS scale-up",
+      "AI-readiness assessment",
+      "Adyen",
+      "Nederland",
+      "AI-optimalisatie van betalingen",
+      "Philips",
+      "Nederland",
+      "AI in medische beeldvorming",
+      "Proces & productivity",
+      "Zakelijke dienstverlener",
+      "Interne AI-assistent voor kenniswerkers",
+      "Hoe werkt notuleren met AI?",
+      "Notuleren met AI verloopt bij vrijwel alle tools in dezelfde stappen. De tool neemt het gesprek op, zet spraak om in tekst en herkent wie er spreekt. Daarna maakt een taalmodel van dat transcript een samenvatting, met besluiten en actiepunten. Het resultaat is een concept dat een mens nog moet controleren.",
+      "OpnemenDe tool luistert mee via het vergaderplatform, een bot of een app",
+      "TranscriberenSpraak wordt tekst, met herkenning van sprekers",
+      "SamenvattenEen taalmodel haalt besluiten, actiepunten en hoofdlijnen eruit",
+      "ControlerenVoorzitter of eigenaar corrigeert en stelt het verslag vast",
+      "Delen en bewarenVerslag delen; opname en transcript bewaren of verwijderen volgens afspraak",
+      "Automatisch notuleren is een keten. De controle door een mens is de stap die het verschil maakt tussen een transcript en een betrouwbaar verslag.",
+      "Er zijn grofweg drie manieren waarop een tool meeluistert:",
+      "Ingebouwd in je vergaderplatform, zoals de AI-functies in Microsoft Teams. Er komt geen extra deelnemer bij.",
+      "Via een bot die als deelnemer aan de vergadering wordt toegevoegd, vaak automatisch via je agenda.",
+      "Via een app op je computer die het geluid lokaal opneemt, zonder dat er een bot inbelt.",
+      "Die keuze bepaalt meer dan je zou denken: wie ziet dat er wordt opgenomen, waar de data terechtkomt en of het ook werkt bij externe vergaderingen. AI-notulen zijn daarmee een goed voorbeeld van hoe je een klein stuk bedrijfsprocessen automatiseren met AI kunt aanpakken: een afgebakende taak, een duidelijke menselijke controlestap en meetbaar resultaat.",
+      "De beste tools om te notuleren met AI",
+      "Er bestaat niet één beste tool. De juiste keuze hangt af van je vergaderplatform, je taal en je eisen aan dataopslag. Hieronder een overzicht van veelgebruikte tools, op basis van de officiële productinformatie (stand september 2026). Functies en prijzen veranderen snel, dus controleer ze voordat je kiest.",
+      "Tool",
+      "Hoe het meeluistert",
+      "Aandachtspunt (stand september 2026)",
+      "Microsoft Teams (met Teams Premium of Microsoft Copilot, voorheen Microsoft 365 Copilot)",
+      "Ingebouwd in Teams",
+      "Intelligent recap vraagt een Teams Premium- of Microsoft Copilot-licentie en ingeschakelde transcriptie",
+      "Otter.ai",
+      "Neemt deel aan Zoom, Google Meet en Teams, of neemt op via een desktopapp zonder bot",
+      "De prijspagina noemt transcriptie in het Engels, Spaans, Frans, Duits, Japans en Chinees; Nederlands staat er niet bij",
+      "Fireflies.ai",
+      "Bot die meedoet in de vergadering, een Chrome-extensie zonder bot of upload van audio- en videobestanden",
+      "Engels is de primaire taal; naast een paar andere talen noemt Fireflies meer dan honderd talen in bèta, Nederlands wordt niet apart genoemd",
+      "tl;dv",
+      "Werkt met Google Meet, Zoom en Microsoft Teams",
+      "Noemt transcriptie in meer dan dertig talen, AVG-naleving en opslag in de EU",
+      "Notuleren met Copilot in Teams. Werk je in Microsoft 365, dan is dit de meest voor de hand liggende route. Volgens Microsoft Learn levert intelligent recap onder meer AI-notities, voorgestelde taken en sprekers- en hoofdstukmarkeringen, maar alleen als transcriptie aanstaat; voor de volledige ervaring moet ook opnemen zijn toegestaan. Copilot kan tijdens en na de vergadering vragen beantwoorden over wat er besproken is. Er is een instelling waarbij Copilot alleen tijdens de vergadering werkt, zonder dat er een transcript blijft bestaan, en Copilot werkt niet in vergaderingen die door een andere organisatie worden gehost.",
+      "Externe tools zoals Otter, Fireflies en tl;dv zijn handig als je veel buiten Teams vergadert. Let dan extra op de taalondersteuning voor Nederlands en op waar de opnames worden opgeslagen. Een bredere vergelijking van AI-tools en hoe je daartussen kiest, lees je in het overzicht van AI tools voor organisaties.",
+      "Privacy en AVG",
+      "Een vergadering opnemen is een verwerking van persoonsgegevens: stemmen, namen en alles wat mensen zeggen. De AVG is dus van toepassing, ook als de tool alleen een samenvatting bewaart. Veilig notuleren begint bij vier vragen.",
+      "Welke grondslag heb je? De AVG kent zes grondslagen. Binnen de organisatie is toestemming vaak geen goede basis: de AP wijst er bij het monitoren van personeel op dat werknemers een verzoek van hun werkgever moeilijk kunnen weigeren. Een gerechtvaardigd belang ligt meestal meer voor de hand, maar dan moet opnemen wel noodzakelijk zijn en mag het doel niet op een minder ingrijpende manier te bereiken zijn.",
+      "Weten deelnemers het? De AP is duidelijk over het opnemen van telefoongesprekken van werknemers: medewerkers hebben het recht om te weten dat hun gesprek wordt opgenomen, eenmalig informeren bij indiensttreding is niet genoeg, en ook externe gesprekspartners moet je vooraf informeren en vertellen waarvoor je de opname gebruikt. Heimelijk opnemen mag vrijwel nooit. Voor een opgenomen vergadering ligt het voor de hand dezelfde lijn te volgen.",
+      "Gebruik je het ook om medewerkers te controleren? Kunnen opnames of transcripten worden gebruikt om medewerkers te beoordelen, dan gelden de voorwaarden voor controle van werknemers: onder meer vooraf informeren, instemming van de ondernemingsraad bij een regeling voor controle van personeel en, bij stelselmatige monitoring, een DPIA. Sluit dit gebruik liever expliciet uit.",
+      "Waar staat de data en wie kan erbij? Sluit een verwerkersovereenkomst met de leverancier, kijk waar opnames en transcripten worden opgeslagen, en spreek bewaartermijnen af. Wees extra voorzichtig met vergaderingen waarin gevoelige onderwerpen langskomen, zoals gezondheid in een verzuimgesprek of een reorganisatie. Daar zet je de AI-notulist beter uit.",
+      "Deze afspraken horen niet in een losse notitie, maar in je AI beleid, zodat iedereen dezelfde regels volgt.",
+      "Zo richt je het in",
+      "Kies één tool die past bij je vergaderplatform en je taal, en die je zakelijk kunt contracteren. Laat medewerkers niet elk hun eigen gratis tool gebruiken.",
+      "Leg de spelregels vast: bij welke vergaderingen de notulist aan mag, hoe je dat aankondigt, wie het verslag controleert en hoe lang opnames en transcripten worden bewaard.",
+      "Test met echte vergaderingen, inclusief Nederlands vakjargon en externe deelnemers, en vergelijk het resultaat met een handmatig verslag.",
+      "Maak iemand eigenaar van het verslag. De AI levert het concept; een mens stelt het vast.",
+      "Koppel pas daarna door. Actiepunten automatisch in je takenlijst of CRM zetten is een logische volgende stap; hoe je zulke ketens bouwt en beheert, lees je bij AI workflows.",
+      "Voorbeeldscenario",
+      "Een adviesbureau met 60 medewerkers heeft zo'n 25 interne overleggen per week. Een verslag uitwerken kost gemiddeld drie kwartier, samen ongeveer negentien uur per week.",
+      "Het bureau werkt al in Microsoft 365 en kiest voor Copilot in Teams, met licenties voor de medewerkers die vergaderingen voorzitten. De adviseur helpt de spelregels opstellen: geen AI-notulist bij personeelsgesprekken en vertrouwelijke klantoverleggen, opname vooraf aankondigen, de voorzitter stelt het verslag vast en transcripten worden na dertig dagen verwijderd. Eerst draait een test met tien echte vergaderingen, inclusief vakjargon.",
+      "Na drie maanden kost controleren en corrigeren ongeveer een kwartier per verslag. Dat scheelt zo'n twaalf uur per week. Actiepunten gaan bewust nog niet automatisch naar de takenlijst: eerst moet de kwaliteit van de verslagen een paar maanden stabiel blijven.",
+      "Fictief voorbeeld, samengesteld uit situaties die veel voorkomen. Organisatie en cijfers zijn illustratief.",
+      "Notuleren met AI is vaak een goede eerste stap, maar het levert het meeste op als het past in een bredere aanpak. Hoe je bepaalt welke taken je automatiseert en in welke volgorde, lees je op de pagina over AI automatisering. Wil je sparren over de juiste tool en de privacyafspraken voor jouw organisatie? Plan een adviesgesprek.",
+      "Dave Willemstein Onafhankelijk AI-adviseur",
+      "Onafhankelijk: geen commissies, geen partnerdeals, geen marge op implementatiepartners.",
+      "Over mij Mijn partnernetwerk",
+      "Weten waar je staat met AI? Bekijk de AI Readiness Assessment →",
+      "Veelgestelde vragen",
+      "Mag ik een vergadering opnemen zonder dat iedereen het weet?+",
+      "Als organisatie vrijwel nooit. Over het opnemen van telefoongesprekken zegt de Autoriteit Persoonsgegevens dat medewerkers het recht hebben om te weten dat hun gesprek wordt opgenomen, en dat heimelijk opnemen alleen in uitzonderlijke situaties mag, zoals bij een vermoeden dat een werknemer iets strafbaars doet. Voor vergaderingen ligt dezelfde lijn voor de hand: vooraf aankondigen, uitleggen waarvoor en de opname zichtbaar starten.",
+      "Is toestemming van alle deelnemers nodig?+",
+      "Toestemming is één van de zes grondslagen uit de AVG, maar niet altijd de beste. Voor het monitoren van personeel noemt de AP toestemming geen goede grondslag, omdat medewerkers een verzoek van hun werkgever moeilijk kunnen weigeren. Vaak ligt een gerechtvaardigd belang meer voor de hand, met goede informatie vooraf. Welke grondslag past, moet je als organisatie zelf beoordelen en vastleggen.",
+      "Hoe goed zijn AI-notulen in het Nederlands?+",
+      "Dat verschilt sterk per tool. Sommige tools noemen Nederlands niet als ondersteunde taal of ondersteunen het alleen in bèta. Test altijd met een paar echte vergaderingen, inclusief vakjargon, namen en mensen die door elkaar praten, voordat je een tool breed uitrolt.",
+      "Kan de AI-notulist de notulist helemaal vervangen?+",
+      "Voor het vastleggen van wat er gezegd is vaak wel, voor het vaststellen van besluiten niet. Een samenvatting kan nuances missen of een voorstel als besluit weergeven. Laat de voorzitter of een vaste eigenaar het verslag altijd controleren voordat het wordt gedeeld.",
+      "Bronnen",
+      "Microsoft Learn: Intelligent recap for Teams calls, meetings, and events",
+      "Microsoft Support: Catch up on meetings with Microsoft Copilot in Teams",
+      "Otter.ai: Pricing",
+      "Otter.ai: Desktop app, record meetings without a bot",
+      "Fireflies.ai: Pricing",
+      "tl;dv: homepage",
+      "Autoriteit Persoonsgegevens: Controle van communicatiemiddelen (opnemen telefoongesprekken)",
+      "Autoriteit Persoonsgegevens: Voorwaarden voor controle werknemers",
+      "Autoriteit Persoonsgegevens: Grondslagen AVG uitgelegd",
+      "Klaar voor impact?",
+      "Van AI-ambitie naar concrete resultaten.",
+      "Plan een vrijblijvend gesprek. Geen pitch. Wel scherpe vragen.",
+      "30 min., geen pitch deckPlan een gesprek →"
+    ]
+  },
+  "links": [
+    {
+      "regio": "overig",
+      "soort": "intern",
+      "href": "#main",
+      "anker": "Naar hoofdinhoud",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/",
+      "anker": "",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/diensten",
+      "anker": "Diensten",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/cases",
+      "anker": "Cases",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/werkwijze",
+      "anker": "Werkwijze",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/inzichten",
+      "anker": "Inzichten",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/over",
+      "anker": "Over mij",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/contact",
+      "anker": "Plan een gesprek →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/",
+      "anker": "Home",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/kennisbank",
+      "anker": "Kennisbank",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/ai-automatisering",
+      "anker": "Lees meer over AI automatisering →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/contact",
+      "anker": "Plan een adviesgesprek →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/over",
+      "anker": "Dave Willemstein",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/ai-automatisering/bedrijfsprocessen-automatiseren-met-ai",
+      "anker": "bedrijfsprocessen automatiseren met AI",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "extern",
+      "href": "https://learn.microsoft.com/en-us/microsoftteams/intelligent-recap-calls-meetings",
+      "anker": "Microsoft Learn",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/ai-automatisering/ai-tools",
+      "anker": "AI tools voor organisaties",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "extern",
+      "href": "https://autoriteitpersoonsgegevens.nl/themas/basis-avg/avg-algemeen/grondslagen-avg-uitgelegd",
+      "anker": "zes grondslagen",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "extern",
+      "href": "https://autoriteitpersoonsgegevens.nl/themas/werk-en-uitkering/controle-van-werknemers/controle-van-communicatiemiddelen",
+      "anker": "opnemen van telefoongesprekken van werknemers",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "extern",
+      "href": "https://autoriteitpersoonsgegevens.nl/themas/werk-en-uitkering/controle-van-werknemers/voorwaarden-voor-controle-werknemers",
+      "anker": "voorwaarden voor controle van werknemers",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/ai-beleid",
+      "anker": "AI beleid",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/ai-automatisering/ai-workflows",
+      "anker": "AI workflows",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/ai-automatisering",
+      "anker": "AI automatisering",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/contact",
+      "anker": "Plan een adviesgesprek",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/over",
+      "anker": "Over mij",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/partnernetwerk",
+      "anker": "Mijn partnernetwerk",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/diensten/ai-readiness-assessment",
+      "anker": "Weten waar je staat met AI? Bekijk de AI Readiness Assessment →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "extern",
+      "href": "https://learn.microsoft.com/en-us/microsoftteams/intelligent-recap-calls-meetings",
+      "anker": "Microsoft Learn: Intelligent recap for Teams calls, meetings, and events",
+      "rel": "noopener"
+    },
+    {
+      "regio": "main",
+      "soort": "extern",
+      "href": "https://support.microsoft.com/en-us/office/use-copilot-in-microsoft-teams-meetings-0bf9dd3c-96f7-44e2-8bb8-790bedf066b1",
+      "anker": "Microsoft Support: Catch up on meetings with Microsoft Copilot in Teams",
+      "rel": "noopener"
+    },
+    {
+      "regio": "main",
+      "soort": "extern",
+      "href": "https://otter.ai/pricing",
+      "anker": "Otter.ai: Pricing",
+      "rel": "noopener"
+    },
+    {
+      "regio": "main",
+      "soort": "extern",
+      "href": "https://otter.ai/desktop",
+      "anker": "Otter.ai: Desktop app, record meetings without a bot",
+      "rel": "noopener"
+    },
+    {
+      "regio": "main",
+      "soort": "extern",
+      "href": "https://fireflies.ai/pricing",
+      "anker": "Fireflies.ai: Pricing",
+      "rel": "noopener"
+    },
+    {
+      "regio": "main",
+      "soort": "extern",
+      "href": "https://tldv.io/",
+      "anker": "tl;dv: homepage",
+      "rel": "noopener"
+    },
+    {
+      "regio": "main",
+      "soort": "extern",
+      "href": "https://autoriteitpersoonsgegevens.nl/themas/werk-en-uitkering/controle-van-werknemers/controle-van-communicatiemiddelen",
+      "anker": "Autoriteit Persoonsgegevens: Controle van communicatiemiddelen (opnemen telefoongesprekken)",
+      "rel": "noopener"
+    },
+    {
+      "regio": "main",
+      "soort": "extern",
+      "href": "https://autoriteitpersoonsgegevens.nl/themas/werk-en-uitkering/controle-van-werknemers/voorwaarden-voor-controle-werknemers",
+      "anker": "Autoriteit Persoonsgegevens: Voorwaarden voor controle werknemers",
+      "rel": "noopener"
+    },
+    {
+      "regio": "main",
+      "soort": "extern",
+      "href": "https://autoriteitpersoonsgegevens.nl/themas/basis-avg/avg-algemeen/grondslagen-avg-uitgelegd",
+      "anker": "Autoriteit Persoonsgegevens: Grondslagen AVG uitgelegd",
+      "rel": "noopener"
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/contact",
+      "anker": "Plan een gesprek →",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/diensten/ai-readiness-assessment",
+      "anker": "AI Readiness Assessment",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/diensten/ai-strategy-sprint",
+      "anker": "AI Strategy Sprint",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/diensten/fractional-ai-lead",
+      "anker": "Fractional AI Lead",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/diensten",
+      "anker": "Alle diensten",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/cases",
+      "anker": "Cases",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/werkwijze",
+      "anker": "Werkwijze",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/inzichten",
+      "anker": "Inzichten",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/veelgestelde-vragen",
+      "anker": "Veelgestelde vragen",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/over",
+      "anker": "Over mij",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-consultancy",
+      "anker": "AI consultancy",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-implementatie",
+      "anker": "AI implementatie",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-automatisering",
+      "anker": "AI automatisering",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-voor-bedrijven",
+      "anker": "AI voor bedrijven",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-development",
+      "anker": "AI development",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-agents",
+      "anker": "AI agents",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-beleid",
+      "anker": "AI beleid",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-workshop",
+      "anker": "AI workshop",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/markten",
+      "anker": "AI per branche",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/kennisbank",
+      "anker": "Kennisbank",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/tarieven",
+      "anker": "Tarieven",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/partnernetwerk",
+      "anker": "Partnernetwerk",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "overig",
+      "href": "mailto:dave@freelanceaiconsultant.com",
+      "anker": "dave@freelanceaiconsultant.com",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "extern",
+      "href": "https://www.linkedin.com/in/davewillemstein",
+      "anker": "LinkedIn ↗",
+      "rel": "noopener"
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/contact",
+      "anker": "Plan een gesprek",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/privacy",
+      "anker": "Privacyverklaring",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/algemene-voorwaarden",
+      "anker": "Algemene voorwaarden",
+      "rel": null
+    }
+  ],
+  "structured_data": {
+    "sha256": "6bcd65b05e6cf57f71f1e8d8063153a869df87bbd27196c50054aeb8ac035890",
+    "items": [
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://freelanceaiconsultant.com/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Kennisbank",
+                "item": "https://freelanceaiconsultant.com/kennisbank"
+              },
+              {
+                "@type": "ListItem",
+                "position": 3,
+                "name": "Notuleren met AI",
+                "item": "https://freelanceaiconsultant.com/kennisbank/notuleren-met-ai"
+              }
+            ]
+          },
+          {
+            "@type": "Article",
+            "headline": "Notuleren met AI: tools, werkwijze en privacy",
+            "description": "Notuleren met AI kan veel tijd schelen. Vergelijk tools zoals Copilot en Fireflies, lees hoe je veilig werkt met privacygevoelige data en start direct.",
+            "inLanguage": "nl-NL",
+            "datePublished": "2026-09-23",
+            "dateModified": "2026-09-23",
+            "author": {
+              "@type": "Person",
+              "name": "Dave Willemstein",
+              "jobTitle": "Onafhankelijk AI-adviseur",
+              "url": "https://freelanceaiconsultant.com/over",
+              "sameAs": [
+                "https://www.linkedin.com/in/davewillemstein"
+              ]
+            },
+            "publisher": {
+              "@type": "Person",
+              "name": "Dave Willemstein"
+            },
+            "mainEntityOfPage": "https://freelanceaiconsultant.com/kennisbank/notuleren-met-ai"
+          },
+          {
+            "@type": "FAQPage",
+            "mainEntity": [
+              {
+                "@type": "Question",
+                "name": "Mag ik een vergadering opnemen zonder dat iedereen het weet?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Als organisatie vrijwel nooit. Over het opnemen van telefoongesprekken zegt de Autoriteit Persoonsgegevens dat medewerkers het recht hebben om te weten dat hun gesprek wordt opgenomen, en dat heimelijk opnemen alleen in uitzonderlijke situaties mag, zoals bij een vermoeden dat een werknemer iets strafbaars doet. Voor vergaderingen ligt dezelfde lijn voor de hand: vooraf aankondigen, uitleggen waarvoor en de opname zichtbaar starten."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Is toestemming van alle deelnemers nodig?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Toestemming is één van de zes grondslagen uit de AVG, maar niet altijd de beste. Voor het monitoren van personeel noemt de AP toestemming geen goede grondslag, omdat medewerkers een verzoek van hun werkgever moeilijk kunnen weigeren. Vaak ligt een gerechtvaardigd belang meer voor de hand, met goede informatie vooraf. Welke grondslag past, moet je als organisatie zelf beoordelen en vastleggen."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Hoe goed zijn AI-notulen in het Nederlands?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Dat verschilt sterk per tool. Sommige tools noemen Nederlands niet als ondersteunde taal of ondersteunen het alleen in bèta. Test altijd met een paar echte vergaderingen, inclusief vakjargon, namen en mensen die door elkaar praten, voordat je een tool breed uitrolt."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Kan de AI-notulist de notulist helemaal vervangen?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Voor het vastleggen van wat er gezegd is vaak wel, voor het vaststellen van besluiten niet. Een samenvatting kan nuances missen of een voorstel als besluit weergeven. Laat de voorzitter of een vaste eigenaar het verslag altijd controleren voordat het wordt gedeeld."
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "afbeeldingen": [
+    {
+      "regio": "header",
+      "src": "/images/freelance-ai-consultant-logo-header.png",
+      "alt": "freelanceaiconsultant.com logo",
+      "width": "600",
+      "height": "287",
+      "loading": null
+    },
+    {
+      "regio": "main",
+      "src": "/images/dave-portrait.jpg",
+      "alt": "Portret van Dave Willemstein",
+      "width": "88",
+      "height": "88",
+      "loading": "lazy"
+    },
+    {
+      "regio": "footer",
+      "src": "/images/freelance-ai-consultant-icon-footer.png",
+      "alt": "",
+      "width": "192",
+      "height": "192",
+      "loading": "lazy"
+    }
+  ],
+  "laadprestaties": {
+    "scripts": [
+      {
+        "src": "/logo-carousel/logo-carousel.js?v=2",
+        "type": null,
+        "inline_bytes": 0
+      }
+    ],
+    "stylesheets": [
+      "https://fonts.googleapis.com/css2?family=Caveat:wght@600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap",
+      "/_astro/_slug_.bq6BBoZ5.css",
+      "/_astro/_slug_.goiX3PVF.css",
+      "/logo-carousel/logo-carousel.css?v=2"
+    ],
+    "aantal_details": 4,
+    "aantal_tabellen": 1
+  }
+}

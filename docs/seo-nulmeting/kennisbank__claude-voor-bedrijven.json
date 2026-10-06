@@ -1,0 +1,768 @@
+{
+  "url": "/kennisbank/claude-voor-bedrijven",
+  "build_bestand": "dist/kennisbank/claude-voor-bedrijven/index.html",
+  "bron": [
+    "src/content/pages/kennisbank/claude-voor-bedrijven/index.md",
+    "src/pages/[...slug].astro"
+  ],
+  "gemeten_op": "2026-10-06",
+  "html": {
+    "bytes": 32022,
+    "sha256": "49f6edf39a1b59be318dbe9a4fc7649d53d75a1e2b4366b0226a0d0c97fc560d",
+    "lang": "nl"
+  },
+  "beschermd": {
+    "title": "Claude voor bedrijven | Mogelijkheden en toepassingen",
+    "meta_description": "Wat kan Claude van Anthropic voor jouw bedrijf? Lees over zakelijke plannen, sterke punten, toepassingen en hoe Claude zich verhoudt tot ChatGPT en Gemini.",
+    "canonical": "https://freelanceaiconsultant.com/kennisbank/claude-voor-bedrijven",
+    "robots_meta": null,
+    "hreflang": [],
+    "h1": [
+      "Claude voor bedrijven: mogelijkheden en toepassingen"
+    ]
+  },
+  "social": {
+    "og:type": "website",
+    "og:locale": "nl_NL",
+    "og:site_name": "freelanceaiconsultant.com",
+    "og:title": "Claude voor bedrijven | Mogelijkheden en toepassingen",
+    "og:description": "Wat kan Claude van Anthropic voor jouw bedrijf? Lees over zakelijke plannen, sterke punten, toepassingen en hoe Claude zich verhoudt tot ChatGPT en Gemini.",
+    "og:url": "https://freelanceaiconsultant.com/kennisbank/claude-voor-bedrijven",
+    "og:image": "https://freelanceaiconsultant.com/images/dave-portrait.jpg",
+    "twitter:card": "summary_large_image",
+    "twitter:title": "Claude voor bedrijven | Mogelijkheden en toepassingen",
+    "twitter:description": "Wat kan Claude van Anthropic voor jouw bedrijf? Lees over zakelijke plannen, sterke punten, toepassingen en hoe Claude zich verhoudt tot ChatGPT en Gemini.",
+    "twitter:image": "https://freelanceaiconsultant.com/images/dave-portrait.jpg"
+  },
+  "koppen": [
+    {
+      "niveau": 1,
+      "tekst": "Claude voor bedrijven: mogelijkheden en toepassingen",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "Wat is Claude?",
+      "regio": "main",
+      "id": "wat-is-claude"
+    },
+    {
+      "niveau": 2,
+      "tekst": "Zakelijke mogelijkheden",
+      "regio": "main",
+      "id": "zakelijke-mogelijkheden"
+    },
+    {
+      "niveau": 2,
+      "tekst": "Toepassingen",
+      "regio": "main",
+      "id": "toepassingen"
+    },
+    {
+      "niveau": 2,
+      "tekst": "Claude versus ChatGPT en Gemini",
+      "regio": "main",
+      "id": "claude-versus-chatgpt-en-gemini"
+    },
+    {
+      "niveau": 2,
+      "tekst": "Bronnen",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "Van AI-ambitie naar concrete resultaten.",
+      "regio": "main",
+      "id": null
+    }
+  ],
+  "bodytekst": {
+    "regio": "main",
+    "woorden": 1611,
+    "sha256": "2708f2954ba888c589f8f6b258bcbac6f85f248702734b5f1284c0b1eb9f08ec",
+    "blokken": [
+      "Home",
+      "Kennisbank",
+      "Claude voor bedrijven",
+      "Kennisbank · AI tools",
+      "Claude voor bedrijven: mogelijkheden en toepassingen",
+      "Claude voor bedrijven is de zakelijke variant van de AI-assistent van Anthropic. Op deze pagina lees je wat Claude is, welke zakelijke abonnementen er zijn, waar het in de praktijk goed voor werkt en hoe het zich verhoudt tot ChatGPT en Gemini. Alle productfeiten zijn stand september 2026.",
+      "Lees meer over AI tools → Plan een adviesgesprek →",
+      "Geschreven door Dave Willemstein, onafhankelijk AI consultant · gepubliceerd 23 september 2026",
+      "IN HET KORT",
+      "Zakelijk kies je tussen Team (2 tot 150 gebruikers) en Enterprise.",
+      "Bij Team en Enterprise traint Anthropic standaard niet op je content.",
+      "Data van de zakelijke abonnementen staat in de VS; EU-regio's lopen via cloudplatforms.",
+      "AI in Europa",
+      "Europese merken die AI al in productie hebben.",
+      "Geen klanten van mij. Wel voorbeelden van wat er gebeurt als AI voorbij de pilot komt.",
+      "Pauzeer",
+      "Klarna",
+      "Zweden",
+      "AI-assistent in de klantenservice",
+      "Zalando",
+      "Duitsland",
+      "Mode-assistent voor productadvies",
+      "Financial services",
+      "Investeringsmaatschappij",
+      "AI-strategie en use-case portfolio",
+      "Booking.com",
+      "Nederland",
+      "AI Trip Planner voor reisplanning",
+      "Siemens",
+      "Duitsland",
+      "Industrial Copilot voor engineering",
+      "Retail",
+      "Enterprise retailer",
+      "AI-gedreven vendorselectie",
+      "Spotify",
+      "Zweden",
+      "AI DJ en gepersonaliseerde playlists",
+      "Mercedes-Benz",
+      "Duitsland",
+      "Generatieve spraakassistent in de auto",
+      "Industrial / B2B",
+      "Internationale maakorganisatie",
+      "AI-roadmap en leadership",
+      "ING",
+      "Nederland",
+      "Generatieve chatbot voor klantvragen",
+      "L'Oréal",
+      "Frankrijk",
+      "Beauty Genius: persoonlijk advies",
+      "Financial services",
+      "Financiële dienstverlener",
+      "KYC versneld met AI-documentanalyse",
+      "SAP",
+      "Duitsland",
+      "Joule: copilot in bedrijfssoftware",
+      "Carrefour",
+      "Frankrijk",
+      "Hopla: boodschappenassistent",
+      "Strategy & AI",
+      "SaaS scale-up",
+      "AI-readiness assessment",
+      "Adyen",
+      "Nederland",
+      "AI-optimalisatie van betalingen",
+      "Philips",
+      "Nederland",
+      "AI in medische beeldvorming",
+      "Proces & productivity",
+      "Zakelijke dienstverlener",
+      "Interne AI-assistent voor kenniswerkers",
+      "Wat is Claude?",
+      "Claude is een AI-assistent van het Amerikaanse bedrijf Anthropic. Net als ChatGPT werkt Claude in gewone taal: je geeft een opdracht, deelt eventueel documenten, en krijgt een tekst, analyse, samenvatting of stuk code terug. Je gebruikt Claude via de website claude.ai, de desktop-apps en de mobiele apps. Organisaties die zelf toepassingen bouwen, kunnen de modellen ook via de API gebruiken of via de cloudplatforms van Amazon (AWS Bedrock), Google (Vertex) en Microsoft (Foundry).",
+      "In de abonnementsvergelijking op de prijspagina van Anthropic staan stand september 2026 de modellen Fable, Opus, Sonnet en Haiku. Welke je kunt gebruiken en hoeveel, hangt af van je abonnement. Het contextvenster, de hoeveelheid tekst die Claude in één keer kan meenemen, loopt volgens Anthropic op tot 1 miljoen tokens, afhankelijk van het model. Dat maakt Claude geschikt voor werk met lange documenten.",
+      "Wie “Claude voor bedrijven” zoekt, komt ook de naam “Claude for Work” tegen. Anthropic gebruikt die naam in zijn helpartikelen voor de zakelijke producten; de abonnementen zelf heten Team en Enterprise.",
+      "Zakelijke mogelijkheden",
+      "Claude heeft persoonlijke abonnementen (Free, Pro en Max) en zakelijke abonnementen (Team en Enterprise). Voor gebruik met bedrijfsgegevens zijn alleen de zakelijke abonnementen geschikt. Bij de persoonlijke abonnementen staat modeltraining op je gesprekken volgens de prijspagina op “opt-out”: de gebruiker moet het zelf uitzetten. Bij Team en Enterprise traint Anthropic standaard niet op je content.",
+      "Pro en MaxPersoonlijke abonnementen. Training standaard aan tot de gebruiker het uitzet, geen centraal beheer. Niet voor bedrijfsdata.",
+      "Team2 tot 150 gebruikers. SSO, centraal beheer, zoeken over de bronnen van je organisatie. Geen training op je content.",
+      "EnterpriseDaarnaast SCIM, rolgebaseerde toegang, auditlogs, compliance-API en eigen bewaartermijnen.",
+      "Via cloudplatformClaude-modellen via AWS, Google Cloud of Microsoft, met regionale endpoints, ook in Europa. Voor eigen toepassingen.",
+      "Vier routes naar Claude: kies op wie het gebruikt en welke data erin gaat, stand september 2026.",
+      "De prijzen en kenmerken, stand september 2026, volgens de prijspagina van Anthropic (Amerikaanse lijstprijzen, exclusief btw):",
+      "Team: voor 2 tot 150 gebruikers. Een standaardplek kost $20 per gebruiker per maand bij jaarbetaling of $25 bij maandbetaling; een premiumplek met vijf keer zoveel gebruik $100 of $125. Inclusief SSO, domeinverificatie, centraal beheer, beheer van connectoren, gebruiksanalyses en organisatiebrede skills.",
+      "Enterprise: $20 per plek per maand bij jaarbetaling, plus gebruik tegen API-tarieven. Volgens de Enterprise-pagina geldt een jaarcontract met minimaal 20 plekken. Daarbovenop komen onder meer domeincapture, SCIM, rolgebaseerde toegang, auditlogs, een compliance-API, eigen bewaartermijnen en IP-allowlisting.",
+      "In alle betaalde abonnementen zitten projecten, connectoren naar andere apps, skills, Claude Code voor programmeerwerk en Claude in Chrome en Microsoft 365. Daarnaast is er Claude Cowork: je geeft een doel en Claude werkt zelfstandig over je bestanden en tools heen, met een ingebouwde browser voor webtaken. Anthropic meldt dat Cowork en de chat samengaan in één Claude, eerst voor Pro en Max en later voor andere abonnementen.",
+      "Waar staat je data? Volgens het Privacy Center van Anthropic wordt data van de zakelijke producten opgeslagen in de VS, en kan verwerking plaatsvinden in de VS, Europa, Azië en Australië. Voor Europese dataopslag en verwerking wijst Anthropic op zijn pagina over regionale compliance naar de regionale endpoints van AWS Bedrock en Google Vertex; Microsoft Foundry staat daar voor Europa als “binnenkort”. Dat is een route voor eigen toepassingen via de API, niet voor de claude.ai-app. De verwerkersovereenkomst (DPA) met standaardcontractbepalingen is onderdeel van de Commercial Terms; wie die voorwaarden accepteert, accepteert ook de DPA.",
+      "Toepassingen",
+      "Claude is breed inzetbaar, net als andere assistenten. De toepassingen waar de kenmerken van Claude het meest tot hun recht komen:",
+      "Lange documenten analyseren. Contracten, beleidsstukken, aanbestedingsdocumenten of onderzoeksrapporten samenvatten, vergelijken en doorzoeken op specifieke bepalingen.",
+      "Schrijven en herschrijven. Van een eerste versie van een notitie tot het aanpassen van toon en lengte voor verschillende lezers.",
+      "Werken met je eigen bronnen. Met projecten en connectoren geef je Claude toegang tot de documenten en systemen die voor een taak nodig zijn, zodat je niet steeds opnieuw hoeft te plakken.",
+      "Taken delegeren. Met Cowork laat je een taak over meerdere stappen uitvoeren, zoals informatie verzamelen, ordenen en in een document of spreadsheet zetten, om het resultaat daarna te beoordelen.",
+      "Programmeren. Met Claude Code kunnen ontwikkelaars code laten schrijven, uitleggen en aanpassen vanuit de terminal, de ontwikkelomgeving of de browser.",
+      "Voor alle toepassingen geldt hetzelfde als bij andere AI-tools: de uitkomst is een concept. Hoe beter je de opdracht formuleert, hoe bruikbaarder het concept. De basis daarvan beschrijf ik bij prompt engineering. En hoe meer zelfstandigheid je een tool geeft, zoals bij Cowork, hoe belangrijker het is om vooraf vast te leggen wat hij wel en niet mag. Dat hoort in je AI-beleid.",
+      "Voorbeeldscenario",
+      "De juridische afdeling van een verzekeraar met 600 medewerkers toetst elke maand zo'n 15 leverancierscontracten van 40 tot 80 pagina's aan de eigen inkoopvoorwaarden. Een eerste lezing kost een jurist ongeveer drie uur per contract.",
+      "De adviseur zet vanuit klantzijde een vergelijkende test op: Claude en ChatGPT voeren dezelfde drie taken uit met geanonimiseerde contracten, en vijf juristen beoordelen de uitkomst. Claude komt als beste uit de lijst met afwijkingen per clausule, met een verwijzing naar de pagina. De functionaris gegevensbescherming stelt vooraf vast dat dossiers met klantgegevens buiten de pilot blijven, omdat de data in de VS staat.",
+      "Na twee maanden Claude Team met vijf plekken daalt de eerste lezing naar ongeveer anderhalf uur. Dat is zo'n 22 uur per maand. Cowork blijft bewust uit tot er afspraken zijn over wat het mag doen.",
+      "Fictief voorbeeld, samengesteld uit situaties die veel voorkomen. Organisatie en cijfers zijn illustratief.",
+      "Claude versus ChatGPT en Gemini",
+      "Ik heb geen commissie- of partnerrelatie met Anthropic, OpenAI, Google of andere leveranciers. De vergelijking hieronder is gebaseerd op de officiële pagina’s van de leveranciers, stand september 2026, niet op eigen benchmarktests.",
+      "Claude",
+      "ChatGPT",
+      "Gemini",
+      "Aanbieder",
+      "Anthropic",
+      "OpenAI",
+      "Google",
+      "Zakelijk instappen",
+      "Team: $20 per gebruiker per maand bij jaarbetaling",
+      "Business: $20 per gebruiker per maand bij jaarbetaling",
+      "Onderdeel van Google Workspace-abonnementen",
+      "Training op bedrijfsdata",
+      "Standaard niet (Team, Enterprise)",
+      "Standaard niet (Business, Enterprise)",
+      "Niet zonder toestemming buiten je domein",
+      "Europese dataopslag in de app",
+      "Nee, opslag in de VS",
+      "Ja, bij Enterprise",
+      "Dataregio VS of Europa instelbaar vanaf Business Standard",
+      "Sterk als",
+      "Je met lange documenten werkt of taken wilt delegeren",
+      "Je een breed pakket functies en eigen GPT’s zoekt",
+      "Je organisatie al in Gmail, Docs en Meet werkt",
+      "De assistenten liggen qua basisfuncties dicht bij elkaar, en de prijs van een standaardplek in Team en Business is gelijk. Het verschil zit in de omgeving. Werk je in Google Workspace, dan ligt Gemini voor bedrijven voor de hand, omdat het al in je apps zit; in Microsoft 365 geldt hetzelfde voor Copilot. Is Europese dataopslag in de app een harde eis, dan bieden ChatGPT Enterprise (zie ChatGPT voor bedrijven), Gemini via de dataregio’s van Workspace en Copilot via de EU Data Boundary daar een route voor. Bij Claude kan dat op dit moment alleen via de cloudplatforms. Kies je voor Claude, dan is dat vaak vanwege lange documenten, schrijfwerk of het delegeren van taken.",
+      "De eerlijkste manier om te kiezen: laat twee kandidaten dezelfde drie taken uitvoeren met je eigen, geanonimiseerde voorbeelden, en laat de mensen die het werk doen de uitkomst beoordelen. Een breder overzicht van criteria en tools staat in mijn vergelijking van AI tools voor bedrijven. Wil je een second opinion op je keuze? Plan een adviesgesprek van dertig minuten.",
+      "Dave Willemstein Onafhankelijk AI-adviseur",
+      "Onafhankelijk: geen commissies, geen partnerdeals, geen marge op implementatiepartners.",
+      "Over mij Mijn partnernetwerk",
+      "Weten waar je staat met AI? Bekijk de AI Readiness Assessment →",
+      "Bronnen",
+      "Anthropic – Claude pricing (Pro, Max, Team, Enterprise)",
+      "Anthropic – Claude Enterprise",
+      "Anthropic – Claude Cowork",
+      "Anthropic Privacy Center – Where are your servers located?",
+      "Anthropic – Regional compliance",
+      "Claude Help Center – How do I view and sign your Data Processing Addendum (DPA)?",
+      "OpenAI – Business pricing (ChatGPT Business en Enterprise)",
+      "Google Workspace – Pricing",
+      "Google Workspace Admin Help – Generative AI in Google Workspace Privacy Hub",
+      "Google Workspace Admin Help – Data covered by data regions",
+      "Microsoft Learn – Data, privacy, and security for Microsoft Copilot",
+      "Klaar voor impact?",
+      "Van AI-ambitie naar concrete resultaten.",
+      "Plan een vrijblijvend gesprek. Geen pitch. Wel scherpe vragen.",
+      "30 min., geen pitch deckPlan een gesprek →"
+    ]
+  },
+  "links": [
+    {
+      "regio": "overig",
+      "soort": "intern",
+      "href": "#main",
+      "anker": "Naar hoofdinhoud",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/",
+      "anker": "",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/diensten",
+      "anker": "Diensten",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/cases",
+      "anker": "Cases",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/werkwijze",
+      "anker": "Werkwijze",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/inzichten",
+      "anker": "Inzichten",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/over",
+      "anker": "Over mij",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/contact",
+      "anker": "Plan een gesprek →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/",
+      "anker": "Home",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/kennisbank",
+      "anker": "Kennisbank",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/ai-automatisering/ai-tools",
+      "anker": "Lees meer over AI tools →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/contact",
+      "anker": "Plan een adviesgesprek →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/over",
+      "anker": "Dave Willemstein",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "extern",
+      "href": "https://claude.com/regional-compliance",
+      "anker": "regionale compliance",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/kennisbank/prompt-engineering",
+      "anker": "prompt engineering",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/ai-beleid",
+      "anker": "AI-beleid",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/kennisbank/gemini-voor-bedrijven",
+      "anker": "Gemini voor bedrijven",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/kennisbank/microsoft-copilot-voor-bedrijven",
+      "anker": "Copilot",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/kennisbank/chatgpt-voor-bedrijven",
+      "anker": "ChatGPT voor bedrijven",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/ai-automatisering/ai-tools",
+      "anker": "vergelijking van AI tools voor bedrijven",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/contact",
+      "anker": "Plan een adviesgesprek",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/over",
+      "anker": "Over mij",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/partnernetwerk",
+      "anker": "Mijn partnernetwerk",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/diensten/ai-readiness-assessment",
+      "anker": "Weten waar je staat met AI? Bekijk de AI Readiness Assessment →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "extern",
+      "href": "https://claude.com/pricing",
+      "anker": "Anthropic – Claude pricing (Pro, Max, Team, Enterprise)",
+      "rel": "noopener"
+    },
+    {
+      "regio": "main",
+      "soort": "extern",
+      "href": "https://claude.com/pricing/enterprise",
+      "anker": "Anthropic – Claude Enterprise",
+      "rel": "noopener"
+    },
+    {
+      "regio": "main",
+      "soort": "extern",
+      "href": "https://claude.com/product/cowork",
+      "anker": "Anthropic – Claude Cowork",
+      "rel": "noopener"
+    },
+    {
+      "regio": "main",
+      "soort": "extern",
+      "href": "https://privacy.claude.com/en/articles/7996890-where-are-your-servers-located-do-you-host-your-models-on-eu-servers",
+      "anker": "Anthropic Privacy Center – Where are your servers located?",
+      "rel": "noopener"
+    },
+    {
+      "regio": "main",
+      "soort": "extern",
+      "href": "https://claude.com/regional-compliance",
+      "anker": "Anthropic – Regional compliance",
+      "rel": "noopener"
+    },
+    {
+      "regio": "main",
+      "soort": "extern",
+      "href": "https://support.claude.com/en/articles/7996862-how-do-i-view-and-sign-your-data-processing-addendum-dpa",
+      "anker": "Claude Help Center – How do I view and sign your Data Processing Addendum (DPA)?",
+      "rel": "noopener"
+    },
+    {
+      "regio": "main",
+      "soort": "extern",
+      "href": "https://openai.com/business/chatgpt-pricing/",
+      "anker": "OpenAI – Business pricing (ChatGPT Business en Enterprise)",
+      "rel": "noopener"
+    },
+    {
+      "regio": "main",
+      "soort": "extern",
+      "href": "https://workspace.google.com/pricing",
+      "anker": "Google Workspace – Pricing",
+      "rel": "noopener"
+    },
+    {
+      "regio": "main",
+      "soort": "extern",
+      "href": "https://support.google.com/a/answer/15706919?hl=en",
+      "anker": "Google Workspace Admin Help – Generative AI in Google Workspace Privacy Hub",
+      "rel": "noopener"
+    },
+    {
+      "regio": "main",
+      "soort": "extern",
+      "href": "https://knowledge.workspace.google.com/admin/compliance/data-covered-by-data-regions",
+      "anker": "Google Workspace Admin Help – Data covered by data regions",
+      "rel": "noopener"
+    },
+    {
+      "regio": "main",
+      "soort": "extern",
+      "href": "https://learn.microsoft.com/en-us/microsoft-365/copilot/microsoft-365-copilot-privacy",
+      "anker": "Microsoft Learn – Data, privacy, and security for Microsoft Copilot",
+      "rel": "noopener"
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/contact",
+      "anker": "Plan een gesprek →",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/diensten/ai-readiness-assessment",
+      "anker": "AI Readiness Assessment",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/diensten/ai-strategy-sprint",
+      "anker": "AI Strategy Sprint",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/diensten/fractional-ai-lead",
+      "anker": "Fractional AI Lead",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/diensten",
+      "anker": "Alle diensten",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/cases",
+      "anker": "Cases",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/werkwijze",
+      "anker": "Werkwijze",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/inzichten",
+      "anker": "Inzichten",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/veelgestelde-vragen",
+      "anker": "Veelgestelde vragen",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/over",
+      "anker": "Over mij",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-consultancy",
+      "anker": "AI consultancy",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-implementatie",
+      "anker": "AI implementatie",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-automatisering",
+      "anker": "AI automatisering",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-voor-bedrijven",
+      "anker": "AI voor bedrijven",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-development",
+      "anker": "AI development",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-agents",
+      "anker": "AI agents",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-beleid",
+      "anker": "AI beleid",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-workshop",
+      "anker": "AI workshop",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/markten",
+      "anker": "AI per branche",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/kennisbank",
+      "anker": "Kennisbank",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/tarieven",
+      "anker": "Tarieven",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/partnernetwerk",
+      "anker": "Partnernetwerk",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "overig",
+      "href": "mailto:dave@freelanceaiconsultant.com",
+      "anker": "dave@freelanceaiconsultant.com",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "extern",
+      "href": "https://www.linkedin.com/in/davewillemstein",
+      "anker": "LinkedIn ↗",
+      "rel": "noopener"
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/contact",
+      "anker": "Plan een gesprek",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/privacy",
+      "anker": "Privacyverklaring",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/algemene-voorwaarden",
+      "anker": "Algemene voorwaarden",
+      "rel": null
+    }
+  ],
+  "structured_data": {
+    "sha256": "c6f2f58b07deccfd326d75b9ba6daedd6b7c52955be3015f8ee2faaa4e7dd897",
+    "items": [
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://freelanceaiconsultant.com/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Kennisbank",
+                "item": "https://freelanceaiconsultant.com/kennisbank"
+              },
+              {
+                "@type": "ListItem",
+                "position": 3,
+                "name": "Claude voor bedrijven",
+                "item": "https://freelanceaiconsultant.com/kennisbank/claude-voor-bedrijven"
+              }
+            ]
+          },
+          {
+            "@type": "Article",
+            "headline": "Claude voor bedrijven: mogelijkheden en toepassingen",
+            "description": "Wat kan Claude van Anthropic voor jouw bedrijf? Lees over zakelijke plannen, sterke punten, toepassingen en hoe Claude zich verhoudt tot ChatGPT en Gemini.",
+            "inLanguage": "nl-NL",
+            "datePublished": "2026-09-23",
+            "dateModified": "2026-09-23",
+            "author": {
+              "@type": "Person",
+              "name": "Dave Willemstein",
+              "jobTitle": "Onafhankelijk AI-adviseur",
+              "url": "https://freelanceaiconsultant.com/over",
+              "sameAs": [
+                "https://www.linkedin.com/in/davewillemstein"
+              ]
+            },
+            "publisher": {
+              "@type": "Person",
+              "name": "Dave Willemstein"
+            },
+            "mainEntityOfPage": "https://freelanceaiconsultant.com/kennisbank/claude-voor-bedrijven"
+          }
+        ]
+      }
+    ]
+  },
+  "afbeeldingen": [
+    {
+      "regio": "header",
+      "src": "/images/freelance-ai-consultant-logo-header.png",
+      "alt": "freelanceaiconsultant.com logo",
+      "width": "600",
+      "height": "287",
+      "loading": null
+    },
+    {
+      "regio": "main",
+      "src": "/images/dave-portrait.jpg",
+      "alt": "Portret van Dave Willemstein",
+      "width": "88",
+      "height": "88",
+      "loading": "lazy"
+    },
+    {
+      "regio": "footer",
+      "src": "/images/freelance-ai-consultant-icon-footer.png",
+      "alt": "",
+      "width": "192",
+      "height": "192",
+      "loading": "lazy"
+    }
+  ],
+  "laadprestaties": {
+    "scripts": [
+      {
+        "src": "/logo-carousel/logo-carousel.js?v=2",
+        "type": null,
+        "inline_bytes": 0
+      }
+    ],
+    "stylesheets": [
+      "https://fonts.googleapis.com/css2?family=Caveat:wght@600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap",
+      "/_astro/_slug_.bq6BBoZ5.css",
+      "/_astro/_slug_.goiX3PVF.css",
+      "/logo-carousel/logo-carousel.css?v=2"
+    ],
+    "aantal_details": 0,
+    "aantal_tabellen": 1
+  }
+}

@@ -1,0 +1,768 @@
+{
+  "url": "/ai-workshop/ai-geletterdheid-training",
+  "build_bestand": "dist/ai-workshop/ai-geletterdheid-training/index.html",
+  "bron": [
+    "src/content/pages/ai-workshop/ai-geletterdheid-training/index.md",
+    "src/pages/[...slug].astro"
+  ],
+  "gemeten_op": "2026-10-06",
+  "html": {
+    "bytes": 34156,
+    "sha256": "fce7464add343034dc606f838c2a866726722cc0d6007342678749c3794d9336",
+    "lang": "nl"
+  },
+  "beschermd": {
+    "title": "AI geletterdheid training | Zo voldoe je aan de AI Act",
+    "meta_description": "De AI Act vraagt organisaties om AI-geletterdheid te ondersteunen. Met deze training weet je team wat AI kan, waar de risico's liggen en hoe je veilig werkt.",
+    "canonical": "https://freelanceaiconsultant.com/ai-workshop/ai-geletterdheid-training",
+    "robots_meta": null,
+    "hreflang": [],
+    "h1": [
+      "AI geletterdheid training: voldoen aan de AI Act"
+    ]
+  },
+  "social": {
+    "og:type": "website",
+    "og:locale": "nl_NL",
+    "og:site_name": "freelanceaiconsultant.com",
+    "og:title": "AI geletterdheid training | Zo voldoe je aan de AI Act",
+    "og:description": "De AI Act vraagt organisaties om AI-geletterdheid te ondersteunen. Met deze training weet je team wat AI kan, waar de risico's liggen en hoe je veilig werkt.",
+    "og:url": "https://freelanceaiconsultant.com/ai-workshop/ai-geletterdheid-training",
+    "og:image": "https://freelanceaiconsultant.com/images/dave-portrait.jpg",
+    "twitter:card": "summary_large_image",
+    "twitter:title": "AI geletterdheid training | Zo voldoe je aan de AI Act",
+    "twitter:description": "De AI Act vraagt organisaties om AI-geletterdheid te ondersteunen. Met deze training weet je team wat AI kan, waar de risico's liggen en hoe je veilig werkt.",
+    "twitter:image": "https://freelanceaiconsultant.com/images/dave-portrait.jpg"
+  },
+  "koppen": [
+    {
+      "niveau": 1,
+      "tekst": "AI geletterdheid training: voldoen aan de AI Act",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "Wat is AI geletterdheid?",
+      "regio": "main",
+      "id": "wat-is-ai-geletterdheid"
+    },
+    {
+      "niveau": 2,
+      "tekst": "Wat de AI Act vraagt",
+      "regio": "main",
+      "id": "wat-de-ai-act-vraagt"
+    },
+    {
+      "niveau": 2,
+      "tekst": "Inhoud van de training",
+      "regio": "main",
+      "id": "inhoud-van-de-training"
+    },
+    {
+      "niveau": 2,
+      "tekst": "Aantonen dat je voldoet",
+      "regio": "main",
+      "id": "aantonen-dat-je-voldoet"
+    },
+    {
+      "niveau": 2,
+      "tekst": "Veelgestelde vragen",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "Bronnen",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "Van AI-ambitie naar concrete resultaten.",
+      "regio": "main",
+      "id": null
+    }
+  ],
+  "bodytekst": {
+    "regio": "main",
+    "woorden": 1651,
+    "sha256": "6aef8f1e66bc7f2377e4c521e853a6554e88068523a7f38d55b919ea7351998d",
+    "blokken": [
+      "Home",
+      "AI workshop",
+      "AI geletterdheid",
+      "AI-geletterdheid",
+      "AI geletterdheid training: voldoen aan de AI Act",
+      "Een AI geletterdheid training helpt je team begrijpen wat AI kan, waar het misgaat en welke afspraken er gelden. Dat is verstandig werkgeverschap, en het is ook wat de AI Act van organisaties vraagt. Op deze pagina lees je wat de wet sinds de wijziging van juli 2026 precies vraagt, wat een training oplevert en hoe je vastlegt wat je doet.",
+      "Vraag een training aan → Bekijk de AI Readiness Assessment →",
+      "IN HET KORT",
+      "Artikel 4 van de AI Act geldt sinds 2 februari 2025 voor organisaties die AI ontwikkelen of gebruiken.",
+      "Sinds de Digital Omnibus (juli 2026) is het een inspanningsverplichting: maatregelen nemen, geen vereist niveau.",
+      "Een certificaat is niet nodig; een interne registratie van wat je doet wel verstandig.",
+      "AI in Europa",
+      "Europese merken die AI al in productie hebben.",
+      "Geen klanten van mij. Wel voorbeelden van wat er gebeurt als AI voorbij de pilot komt.",
+      "Pauzeer",
+      "Klarna",
+      "Zweden",
+      "AI-assistent in de klantenservice",
+      "Zalando",
+      "Duitsland",
+      "Mode-assistent voor productadvies",
+      "Financial services",
+      "Investeringsmaatschappij",
+      "AI-strategie en use-case portfolio",
+      "Booking.com",
+      "Nederland",
+      "AI Trip Planner voor reisplanning",
+      "Siemens",
+      "Duitsland",
+      "Industrial Copilot voor engineering",
+      "Retail",
+      "Enterprise retailer",
+      "AI-gedreven vendorselectie",
+      "Spotify",
+      "Zweden",
+      "AI DJ en gepersonaliseerde playlists",
+      "Mercedes-Benz",
+      "Duitsland",
+      "Generatieve spraakassistent in de auto",
+      "Industrial / B2B",
+      "Internationale maakorganisatie",
+      "AI-roadmap en leadership",
+      "ING",
+      "Nederland",
+      "Generatieve chatbot voor klantvragen",
+      "L'Oréal",
+      "Frankrijk",
+      "Beauty Genius: persoonlijk advies",
+      "Financial services",
+      "Financiële dienstverlener",
+      "KYC versneld met AI-documentanalyse",
+      "SAP",
+      "Duitsland",
+      "Joule: copilot in bedrijfssoftware",
+      "Carrefour",
+      "Frankrijk",
+      "Hopla: boodschappenassistent",
+      "Strategy & AI",
+      "SaaS scale-up",
+      "AI-readiness assessment",
+      "Adyen",
+      "Nederland",
+      "AI-optimalisatie van betalingen",
+      "Philips",
+      "Nederland",
+      "AI in medische beeldvorming",
+      "Proces & productivity",
+      "Zakelijke dienstverlener",
+      "Interne AI-assistent voor kenniswerkers",
+      "Wat is AI geletterdheid?",
+      "AI-geletterdheid betekent dat mensen die met AI-systemen werken de kennis, vaardigheden en het begrip hebben om dat verantwoord te doen. De Autoriteit Persoonsgegevens benadrukt in Aan de slag met AI-geletterdheid dat het niet alleen over de technische werking gaat, maar ook over de sociale, ethische en praktische kant. Bijvoorbeeld: begrijpen hoe je de uitkomst van een AI-systeem interpreteert, en wat een beslissing met hulp van AI betekent voor de mensen over wie wordt beslist.",
+      "In de praktijk komt het neer op vier vragen die een medewerker moet kunnen beantwoorden:",
+      "Wat doet dit systeem, en waar is het onbetrouwbaar?",
+      "Welke gegevens mogen er wel en niet in?",
+      "Hoe controleer ik de uitkomst voordat ik die gebruik?",
+      "Bij wie meld ik het als er iets misgaat?",
+      "Een AI geletterdheid training is een manier om die vragen voor je hele organisatie te beantwoorden. Het is niet de enige manier, en een training alleen is ook niet genoeg.",
+      "Wat de AI Act vraagt",
+      "Artikel 4 van de AI Act geldt sinds 2 februari 2025 voor aanbieders en gebruiksverantwoordelijken van AI-systemen. Gebruiksverantwoordelijke ben je al snel: een organisatie die AI-tools inzet in haar werk, valt eronder.",
+      "De tekst van artikel 4 is in 2026 gewijzigd. Op 19 november 2025 stelde de Europese Commissie in het Digital Omnibus-pakket voor om de verplichting voor organisaties te vervangen door een taak voor de Commissie en de lidstaten om AI-geletterdheid te bevorderen. Dat voorstel is niet ongewijzigd overgenomen. De uiteindelijke wijziging trad op 27 juli 2026 in werking. De stand per september 2026, volgens de uitleg van de Europese Commissie:",
+      "De verplichting blijft bestaan voor aanbieders en gebruiksverantwoordelijken van AI-systemen.",
+      "Het is een inspanningsverplichting geworden: organisaties nemen maatregelen die de ontwikkeling van AI-geletterdheid van hun personeel en andere betrokkenen ondersteunen. Er is geen specifiek of “voldoende” niveau meer voorgeschreven.",
+      "Context telt mee: de technische kennis, ervaring, opleiding en training van mensen, en de context waarin de systemen worden gebruikt.",
+      "Commissie en lidstaten krijgen een grotere rol in het stimuleren van AI-geletterdheid.",
+      "Toezicht ligt bij de nationale markttoezichthouders, die vanaf 2 augustus 2026 toezien en handhaven.",
+      "De lat is dus verschoven van een resultaat naar een inspanning, maar niets doen voldoet niet. Hoe artikel 4 zich verhoudt tot de rest van de wet, lees je op de pagina over de AI Act voor organisaties.",
+      "Dit is geen juridisch advies. De uitleg van de wet ontwikkelt zich nog; laat de toepassing op jouw organisatie toetsen door een jurist of je compliance-afdeling.",
+      "Inhoud van de training",
+      "Er is geen voorgeschreven lesprogramma, en dat is maar goed ook. De AP beschrijft het als een aanpak zonder “one size fits all”: wat nodig is, hangt af van de risico’s, de rollen en de context. Daarom stem ik de inhoud af op jullie organisatie. Een training AI-geletterdheid kan er zo uitzien:",
+      "Hoe AI werkt: wat generatieve AI doet, waarom het fouten maakt die overtuigend klinken en wat dat betekent voor controle.",
+      "Jullie systemen: welke AI-tools er in de organisatie in gebruik zijn, waarvoor ze bedoeld zijn en waarvoor niet.",
+      "Risico’s en regels: persoonsgegevens en de AVG, vertrouwelijke informatie, bias en de hoofdlijnen van de AI Act.",
+      "Afspraken: wat jullie interne regels zijn, wie aanspreekpunt is en hoe je een incident meldt.",
+      "Oefenen: herkenbare taken uit het eigen werk, inclusief het controleren van een uitkomst.",
+      "Voor teams die daarna echt met de tools aan de slag gaan, volgt verdieping. Dat kan in een praktische Copilot training voor organisaties met Microsoft 365, of een hands-on ChatGPT training. Een overzicht van alle vormen staat op de pagina over AI workshops en trainingen.",
+      "Ontbreken interne afspraken nog, dan is het zinvol die tegelijk op te stellen. Een training over regels die niet bestaan, blijft vaag. Op de pagina over AI-beleid opstellen lees je wat daarin hoort.",
+      "Aantonen dat je voldoet",
+      "Volgens de Europese Commissie heb je geen certificaat nodig. Je kunt intern bijhouden welke trainingen en andere initiatieven je hebt ingezet. Het gaat erom dat je kunt laten zien welke maatregelen je hebt genomen en waarom die passen bij jullie situatie.",
+      "De AP geeft een bruikbare structuur in vier stappen, die ik als basis gebruik:",
+      "IdentificerenWelke AI-systemen gebruiken we, wie werkt ermee en wat zijn de risico's?",
+      "Doel bepalenWat moet elke rol weten, afhankelijk van risico en context?",
+      "UitvoerenTraining, afspraken, aanspreekpunt en herhaling.",
+      "EvaluerenWerkt het, en wat is er veranderd aan tools of risico's?",
+      "Een doorlopende cyclus, gebaseerd op de vier stappen uit Aan de slag met AI-geletterdheid van de Autoriteit Persoonsgegevens.",
+      "Wat je in elk geval vastlegt:",
+      "een overzicht van de AI-systemen in gebruik en wie ermee werkt;",
+      "per rol wat iemand moet weten en welke maatregel daarbij hoort;",
+      "wie welke training of instructie heeft gevolgd, en wanneer;",
+      "de interne afspraken over AI-gebruik en waar medewerkers ze vinden;",
+      "een moment waarop je het geheel opnieuw bekijkt.",
+      "Spreek bij een training vooraf af dat je de inhoud, de deelnemerslijst en de gemaakte afspraken zo ontvangt dat je ze direct in dat dossier kunt opnemen. Dan is de registratie geen klus achteraf.",
+      "Voorbeeldscenario",
+      "Een logistiek bedrijf met 260 medewerkers gebruikt een AI-assistent op kantoor, een planningsmodule met voorspellingen en een tool die vrachtdocumenten uitleest. Een selectietool voor werving ligt klaar. De adviseur loopt met HR en de privacyfunctionaris de vier stappen van de AP door: 140 mensen blijken met minstens één systeem te werken, verdeeld over vijf rollen.",
+      "Iedereen volgt een basissessie van anderhalf uur, in zes groepen. Twaalf planners krijgen daarnaast een verdieping van een dagdeel over het controleren van voorspellingen. De selectietool gaat voorlopig niet live, omdat AI bij werving onder de hoog-risicoregels kan vallen en eerst apart wordt getoetst.",
+      "Na drie maanden ligt er een dossier met het overzicht van systemen, de maatregel per rol, de interne afspraken en de deelnemerslijsten: 132 van de 140 mensen volgden de basissessie. Over een half jaar volgt een evaluatie.",
+      "Fictief voorbeeld, samengesteld uit situaties die veel voorkomen. Organisatie en cijfers zijn illustratief.",
+      "Wil je weten wat voor jullie organisatie een passende aanpak is? Vraag een training aan; in een eerste gesprek bespreken we welke rollen, systemen en afspraken er zijn, en wat er als eerste nodig is.",
+      "Dave Willemstein Onafhankelijk AI-adviseur",
+      "Onafhankelijk: geen commissies, geen partnerdeals, geen marge op implementatiepartners.",
+      "Over mij Mijn partnernetwerk",
+      "Weten waar je staat met AI? Bekijk de AI Readiness Assessment →",
+      "Veelgestelde vragen",
+      "Geldt de verplichting ook als we alleen ChatGPT of Copilot gebruiken?+",
+      "Ja. De verplichting geldt voor organisaties die AI-systemen inzetten, ook als het gaat om algemeen beschikbare tools. Volgens de Europese Commissie moeten medewerkers dan in elk geval op de hoogte zijn van de specifieke risico's, zoals uitkomsten die overtuigend klinken maar niet kloppen.",
+      "Moeten alle medewerkers dezelfde training volgen?+",
+      "Nee. Wat iemand moet weten, hangt af van zijn rol, zijn voorkennis en de risico's van de systemen waarmee hij werkt. Iemand die AI inzet bij beslissingen over klanten of sollicitanten heeft meer nodig dan iemand die af en toe een tekst laat samenvatten.",
+      "Vallen externe medewerkers en uitzendkrachten er ook onder?+",
+      "De verplichting gaat over je personeel en over andere personen die namens jouw organisatie met AI-systemen werken. Volgens de uitleg van de Europese Commissie kunnen dat ook contractors en dienstverleners zijn. Neem hen dus mee in je aanpak.",
+      "Is een e-learning voldoende?+",
+      "Dat kan een onderdeel zijn, zeker voor basiskennis bij grote groepen. Maar kennis over jullie eigen tools, afspraken en risico's haal je zelden uit een generieke module. Een combinatie van een brede basis en verdieping voor de rollen met meer risico ligt meestal meer voor de hand.",
+      "Wie houdt toezicht op AI-geletterdheid?+",
+      "Volgens de Europese Commissie ligt het toezicht bij de nationale markttoezichthouders, niet bij het Europese AI Office. Welke Nederlandse toezichthouder dit oppakt, staat nog niet vast: de Uitvoeringswet AI-verordening, die de verdeling van het toezicht regelt, is nog een wetsvoorstel.",
+      "Bronnen",
+      "Europese Commissie: AI Literacy - Questions & Answers (bijgewerkt 27 juli 2026)",
+      "Europese Commissie: AI Omnibus enters into force (27 juli 2026)",
+      "Europees Parlement (EPRS): Digital Omnibus on AI, briefing 2026",
+      "Autoriteit Persoonsgegevens: Toezicht op AI wordt concreet, sleutelrol voor de AP en de RDI (20 april 2026)",
+      "Autoriteit Persoonsgegevens: Aan de slag met AI-geletterdheid (februari 2025)",
+      "Klaar voor impact?",
+      "Van AI-ambitie naar concrete resultaten.",
+      "Plan een vrijblijvend gesprek. Geen pitch. Wel scherpe vragen.",
+      "30 min., geen pitch deckPlan een gesprek →"
+    ]
+  },
+  "links": [
+    {
+      "regio": "overig",
+      "soort": "intern",
+      "href": "#main",
+      "anker": "Naar hoofdinhoud",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/",
+      "anker": "",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/diensten",
+      "anker": "Diensten",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/cases",
+      "anker": "Cases",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/werkwijze",
+      "anker": "Werkwijze",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/inzichten",
+      "anker": "Inzichten",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/over",
+      "anker": "Over mij",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/contact",
+      "anker": "Plan een gesprek →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/",
+      "anker": "Home",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/ai-workshop",
+      "anker": "AI workshop",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/contact",
+      "anker": "Vraag een training aan →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/diensten/ai-readiness-assessment",
+      "anker": "Bekijk de AI Readiness Assessment →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "extern",
+      "href": "https://www.autoriteitpersoonsgegevens.nl/system/files?file=2025-01%2FAan+de+slag+met+AI-geletterdheid.pdf",
+      "anker": "Aan de slag met AI-geletterdheid",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "extern",
+      "href": "https://digital-strategy.ec.europa.eu/en/news/ai-omnibus-enters-force",
+      "anker": "27 juli 2026 in werking",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "extern",
+      "href": "https://digital-strategy.ec.europa.eu/en/faqs/ai-literacy-questions-answers",
+      "anker": "uitleg van de Europese Commissie",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/ai-beleid/ai-act",
+      "anker": "de AI Act voor organisaties",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/ai-workshop/copilot-training",
+      "anker": "praktische Copilot training",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/ai-workshop/chatgpt-training",
+      "anker": "hands-on ChatGPT training",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/ai-workshop",
+      "anker": "AI workshops en trainingen",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/ai-beleid",
+      "anker": "AI-beleid opstellen",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/contact",
+      "anker": "Vraag een training aan",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/over",
+      "anker": "Over mij",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/partnernetwerk",
+      "anker": "Mijn partnernetwerk",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/diensten/ai-readiness-assessment",
+      "anker": "Weten waar je staat met AI? Bekijk de AI Readiness Assessment →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "extern",
+      "href": "https://digital-strategy.ec.europa.eu/en/faqs/ai-literacy-questions-answers",
+      "anker": "Europese Commissie: AI Literacy - Questions & Answers (bijgewerkt 27 juli 2026)",
+      "rel": "noopener"
+    },
+    {
+      "regio": "main",
+      "soort": "extern",
+      "href": "https://digital-strategy.ec.europa.eu/en/news/ai-omnibus-enters-force",
+      "anker": "Europese Commissie: AI Omnibus enters into force (27 juli 2026)",
+      "rel": "noopener"
+    },
+    {
+      "regio": "main",
+      "soort": "extern",
+      "href": "https://www.europarl.europa.eu/RegData/etudes/BRIE/2026/782651/EPRS_BRI(2026)782651_EN.pdf",
+      "anker": "Europees Parlement (EPRS): Digital Omnibus on AI, briefing 2026",
+      "rel": "noopener"
+    },
+    {
+      "regio": "main",
+      "soort": "extern",
+      "href": "https://www.autoriteitpersoonsgegevens.nl/actueel/toezicht-op-ai-wordt-concreet-sleutelrol-voor-de-ap-en-de-rdi",
+      "anker": "Autoriteit Persoonsgegevens: Toezicht op AI wordt concreet, sleutelrol voor de AP en de RDI (20 april 2026)",
+      "rel": "noopener"
+    },
+    {
+      "regio": "main",
+      "soort": "extern",
+      "href": "https://www.autoriteitpersoonsgegevens.nl/system/files?file=2025-01%2FAan+de+slag+met+AI-geletterdheid.pdf",
+      "anker": "Autoriteit Persoonsgegevens: Aan de slag met AI-geletterdheid (februari 2025)",
+      "rel": "noopener"
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/contact",
+      "anker": "Plan een gesprek →",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/diensten/ai-readiness-assessment",
+      "anker": "AI Readiness Assessment",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/diensten/ai-strategy-sprint",
+      "anker": "AI Strategy Sprint",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/diensten/fractional-ai-lead",
+      "anker": "Fractional AI Lead",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/diensten",
+      "anker": "Alle diensten",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/cases",
+      "anker": "Cases",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/werkwijze",
+      "anker": "Werkwijze",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/inzichten",
+      "anker": "Inzichten",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/veelgestelde-vragen",
+      "anker": "Veelgestelde vragen",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/over",
+      "anker": "Over mij",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-consultancy",
+      "anker": "AI consultancy",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-implementatie",
+      "anker": "AI implementatie",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-automatisering",
+      "anker": "AI automatisering",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-voor-bedrijven",
+      "anker": "AI voor bedrijven",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-development",
+      "anker": "AI development",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-agents",
+      "anker": "AI agents",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-beleid",
+      "anker": "AI beleid",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-workshop",
+      "anker": "AI workshop",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/markten",
+      "anker": "AI per branche",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/kennisbank",
+      "anker": "Kennisbank",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/tarieven",
+      "anker": "Tarieven",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/partnernetwerk",
+      "anker": "Partnernetwerk",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "overig",
+      "href": "mailto:dave@freelanceaiconsultant.com",
+      "anker": "dave@freelanceaiconsultant.com",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "extern",
+      "href": "https://www.linkedin.com/in/davewillemstein",
+      "anker": "LinkedIn ↗",
+      "rel": "noopener"
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/contact",
+      "anker": "Plan een gesprek",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/privacy",
+      "anker": "Privacyverklaring",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/algemene-voorwaarden",
+      "anker": "Algemene voorwaarden",
+      "rel": null
+    }
+  ],
+  "structured_data": {
+    "sha256": "ace4d2f80f20f2444f871a5e0c2ce8aaee239c4ba7b8fa8dc2c16e1b789f34a9",
+    "items": [
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://freelanceaiconsultant.com/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "AI workshop",
+                "item": "https://freelanceaiconsultant.com/ai-workshop"
+              },
+              {
+                "@type": "ListItem",
+                "position": 3,
+                "name": "AI geletterdheid",
+                "item": "https://freelanceaiconsultant.com/ai-workshop/ai-geletterdheid-training"
+              }
+            ]
+          },
+          {
+            "@type": "Service",
+            "name": "AI geletterdheid",
+            "serviceType": "ai geletterdheid training",
+            "description": "De AI Act vraagt organisaties om AI-geletterdheid te ondersteunen. Met deze training weet je team wat AI kan, waar de risico's liggen en hoe je veilig werkt.",
+            "url": "https://freelanceaiconsultant.com/ai-workshop/ai-geletterdheid-training",
+            "areaServed": "NL",
+            "provider": {
+              "@type": "Person",
+              "name": "Dave Willemstein",
+              "jobTitle": "Onafhankelijk AI-adviseur",
+              "url": "https://freelanceaiconsultant.com/over",
+              "sameAs": [
+                "https://www.linkedin.com/in/davewillemstein"
+              ]
+            }
+          },
+          {
+            "@type": "FAQPage",
+            "mainEntity": [
+              {
+                "@type": "Question",
+                "name": "Geldt de verplichting ook als we alleen ChatGPT of Copilot gebruiken?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Ja. De verplichting geldt voor organisaties die AI-systemen inzetten, ook als het gaat om algemeen beschikbare tools. Volgens de Europese Commissie moeten medewerkers dan in elk geval op de hoogte zijn van de specifieke risico's, zoals uitkomsten die overtuigend klinken maar niet kloppen."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Moeten alle medewerkers dezelfde training volgen?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Nee. Wat iemand moet weten, hangt af van zijn rol, zijn voorkennis en de risico's van de systemen waarmee hij werkt. Iemand die AI inzet bij beslissingen over klanten of sollicitanten heeft meer nodig dan iemand die af en toe een tekst laat samenvatten."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Vallen externe medewerkers en uitzendkrachten er ook onder?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "De verplichting gaat over je personeel en over andere personen die namens jouw organisatie met AI-systemen werken. Volgens de uitleg van de Europese Commissie kunnen dat ook contractors en dienstverleners zijn. Neem hen dus mee in je aanpak."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Is een e-learning voldoende?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Dat kan een onderdeel zijn, zeker voor basiskennis bij grote groepen. Maar kennis over jullie eigen tools, afspraken en risico's haal je zelden uit een generieke module. Een combinatie van een brede basis en verdieping voor de rollen met meer risico ligt meestal meer voor de hand."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Wie houdt toezicht op AI-geletterdheid?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Volgens de Europese Commissie ligt het toezicht bij de nationale markttoezichthouders, niet bij het Europese AI Office. Welke Nederlandse toezichthouder dit oppakt, staat nog niet vast: de Uitvoeringswet AI-verordening, die de verdeling van het toezicht regelt, is nog een wetsvoorstel."
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "afbeeldingen": [
+    {
+      "regio": "header",
+      "src": "/images/freelance-ai-consultant-logo-header.png",
+      "alt": "freelanceaiconsultant.com logo",
+      "width": "600",
+      "height": "287",
+      "loading": null
+    },
+    {
+      "regio": "main",
+      "src": "/images/dave-portrait.jpg",
+      "alt": "Portret van Dave Willemstein",
+      "width": "88",
+      "height": "88",
+      "loading": "lazy"
+    },
+    {
+      "regio": "footer",
+      "src": "/images/freelance-ai-consultant-icon-footer.png",
+      "alt": "",
+      "width": "192",
+      "height": "192",
+      "loading": "lazy"
+    }
+  ],
+  "laadprestaties": {
+    "scripts": [
+      {
+        "src": "/logo-carousel/logo-carousel.js?v=2",
+        "type": null,
+        "inline_bytes": 0
+      }
+    ],
+    "stylesheets": [
+      "https://fonts.googleapis.com/css2?family=Caveat:wght@600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap",
+      "/_astro/_slug_.bq6BBoZ5.css",
+      "/_astro/_slug_.goiX3PVF.css",
+      "/logo-carousel/logo-carousel.css?v=2"
+    ],
+    "aantal_details": 5,
+    "aantal_tabellen": 0
+  }
+}

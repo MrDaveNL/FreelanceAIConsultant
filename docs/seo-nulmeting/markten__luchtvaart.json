@@ -1,0 +1,767 @@
+{
+  "url": "/markten/luchtvaart",
+  "build_bestand": "dist/markten/luchtvaart/index.html",
+  "bron": [
+    "src/content/pages/markten/luchtvaart/index.md",
+    "src/pages/[...slug].astro"
+  ],
+  "gemeten_op": "2026-10-06",
+  "html": {
+    "bytes": 33113,
+    "sha256": "7cbc6e8a287cb7ee13ba69a01cd1cca34002a55e16415be25250a06363fe3966",
+    "lang": "nl"
+  },
+  "beschermd": {
+    "title": "AI in de luchtvaart | Toepassingen, kansen en uitdagingen",
+    "meta_description": "Hoe verandert AI de luchtvaart? Bekijk toepassingen voor luchtvaartmaatschappijen en luchthavens, van onderhoud tot planning, en de uitdagingen daarbij.",
+    "canonical": "https://freelanceaiconsultant.com/markten/luchtvaart",
+    "robots_meta": "noindex, follow",
+    "hreflang": [],
+    "h1": [
+      "AI in de luchtvaart: toepassingen en uitdagingen"
+    ]
+  },
+  "social": {
+    "og:type": "website",
+    "og:locale": "nl_NL",
+    "og:site_name": "freelanceaiconsultant.com",
+    "og:title": "AI in de luchtvaart | Toepassingen, kansen en uitdagingen",
+    "og:description": "Hoe verandert AI de luchtvaart? Bekijk toepassingen voor luchtvaartmaatschappijen en luchthavens, van onderhoud tot planning, en de uitdagingen daarbij.",
+    "og:url": "https://freelanceaiconsultant.com/markten/luchtvaart",
+    "og:image": "https://freelanceaiconsultant.com/images/dave-portrait.jpg",
+    "twitter:card": "summary_large_image",
+    "twitter:title": "AI in de luchtvaart | Toepassingen, kansen en uitdagingen",
+    "twitter:description": "Hoe verandert AI de luchtvaart? Bekijk toepassingen voor luchtvaartmaatschappijen en luchthavens, van onderhoud tot planning, en de uitdagingen daarbij.",
+    "twitter:image": "https://freelanceaiconsultant.com/images/dave-portrait.jpg"
+  },
+  "koppen": [
+    {
+      "niveau": 1,
+      "tekst": "AI in de luchtvaart: toepassingen en uitdagingen",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "AI in de luchtvaart: toepassingen, kansen en uitdagingen",
+      "regio": "main",
+      "id": "ai-in-de-luchtvaart-toepassingen-kansen-en-uitdagingen"
+    },
+    {
+      "niveau": 2,
+      "tekst": "Toepassingen voor luchtvaartmaatschappijen",
+      "regio": "main",
+      "id": "toepassingen-voor-luchtvaartmaatschappijen"
+    },
+    {
+      "niveau": 2,
+      "tekst": "AI op luchthavens",
+      "regio": "main",
+      "id": "ai-op-luchthavens"
+    },
+    {
+      "niveau": 2,
+      "tekst": "AI en automatisering",
+      "regio": "main",
+      "id": "ai-en-automatisering"
+    },
+    {
+      "niveau": 2,
+      "tekst": "AI implementeren in de luchtvaart",
+      "regio": "main",
+      "id": "ai-implementeren-in-de-luchtvaart"
+    },
+    {
+      "niveau": 2,
+      "tekst": "Bronnen",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "Van AI-ambitie naar concrete resultaten.",
+      "regio": "main",
+      "id": null
+    }
+  ],
+  "bodytekst": {
+    "regio": "main",
+    "woorden": 1692,
+    "sha256": "94b990c71f0d180f750b64be19d5d1e8d6dc172de764f364786aeba39a52e41b",
+    "blokken": [
+      "Home",
+      "Markten",
+      "AI in de luchtvaart",
+      "AI in de luchtvaart",
+      "AI in de luchtvaart: toepassingen en uitdagingen",
+      "AI in de luchtvaart speelt op twee heel verschillende terreinen: in systemen die de veiligheid raken, en in de commerciële en operationele processen eromheen. Op deze pagina lees je welke toepassingen er zijn voor luchtvaartmaatschappijen en luchthavens, welke regels gelden en hoe je een AI-traject in deze sector aanpakt.",
+      "Lees meer over Markten → Plan een adviesgesprek →",
+      "Geschreven door Dave Willemstein, onafhankelijk AI consultant · gepubliceerd 23 september 2026",
+      "IN HET KORT",
+      "Maak eerst het onderscheid tussen veiligheidsgerelateerde AI en AI in commerciële en ondersteunende processen.",
+      "Voor veiligheidsgerelateerde AI ontwikkelt EASA eigen regels, in lijn met de AI Act.",
+      "Buiten de veiligheidskritische systemen lijken de vraagstukken sterk op die in andere sectoren.",
+      "AI in Europa",
+      "Europese merken die AI al in productie hebben.",
+      "Geen klanten van mij. Wel voorbeelden van wat er gebeurt als AI voorbij de pilot komt.",
+      "Pauzeer",
+      "Klarna",
+      "Zweden",
+      "AI-assistent in de klantenservice",
+      "Zalando",
+      "Duitsland",
+      "Mode-assistent voor productadvies",
+      "Financial services",
+      "Investeringsmaatschappij",
+      "AI-strategie en use-case portfolio",
+      "Booking.com",
+      "Nederland",
+      "AI Trip Planner voor reisplanning",
+      "Siemens",
+      "Duitsland",
+      "Industrial Copilot voor engineering",
+      "Retail",
+      "Enterprise retailer",
+      "AI-gedreven vendorselectie",
+      "Spotify",
+      "Zweden",
+      "AI DJ en gepersonaliseerde playlists",
+      "Mercedes-Benz",
+      "Duitsland",
+      "Generatieve spraakassistent in de auto",
+      "Industrial / B2B",
+      "Internationale maakorganisatie",
+      "AI-roadmap en leadership",
+      "ING",
+      "Nederland",
+      "Generatieve chatbot voor klantvragen",
+      "L'Oréal",
+      "Frankrijk",
+      "Beauty Genius: persoonlijk advies",
+      "Financial services",
+      "Financiële dienstverlener",
+      "KYC versneld met AI-documentanalyse",
+      "SAP",
+      "Duitsland",
+      "Joule: copilot in bedrijfssoftware",
+      "Carrefour",
+      "Frankrijk",
+      "Hopla: boodschappenassistent",
+      "Strategy & AI",
+      "SaaS scale-up",
+      "AI-readiness assessment",
+      "Adyen",
+      "Nederland",
+      "AI-optimalisatie van betalingen",
+      "Philips",
+      "Nederland",
+      "AI in medische beeldvorming",
+      "Proces & productivity",
+      "Zakelijke dienstverlener",
+      "Interne AI-assistent voor kenniswerkers",
+      "AI in de luchtvaart: toepassingen, kansen en uitdagingen",
+      "De luchtvaart heeft een sterke veiligheidscultuur, en dat bepaalt ook hoe AI in de luchtvaart wordt ingezet. In alles wat de vliegveiligheid raakt, gaat het langzaam en zorgvuldig, met certificering en toezicht door EASA en de nationale luchtvaartautoriteiten. In de processen eromheen, zoals planning, klantcontact, prijsbeleid en de afhandeling op luchthavens, gaat het sneller en lijken de vragen op die in andere sectoren.",
+      "Dat onderscheid is het eerste wat je moet maken bij elk AI-initiatief in deze sector:",
+      "Veiligheidsgerelateerd, beslissendAI die zelf beslist in een systeem dat de vliegveiligheid raakt. Zwaarste eisen, lange doorlooptijd, EASA-kaders leidend.",
+      "Veiligheidsgerelateerd, ondersteunendAI die een mens helpt in een veiligheidsrelevant proces, zoals onderhoudsanalyse. Eisen aan betrouwbaarheid en menselijk toezicht.",
+      "OperationeelPlanning, verstoringen, afhandeling en passagiersstromen. Grote waarde, veel afhankelijkheden tussen partijen.",
+      "Commercieel en ondersteunendKlantcontact, prijsbeleid, marketing en backoffice. Vragen zoals in elke andere sector, met de AVG en de algemene AI Act-regels.",
+      "CommercieelAlgemene regels: AVG en AI Act",
+      "OperationeelAfspraken met luchthaven, afhandelaars en luchtverkeersleiding",
+      "Veiligheid, ondersteunendEASA-richtlijnen, menselijk toezicht",
+      "Veiligheid, beslissendCertificering onder EASA-kaders",
+      "Hoe dichter een toepassing bij de vliegveiligheid komt, hoe zwaarder de eisen en hoe langer de weg naar productie.",
+      "Luchtvaart is niet mijn zwaartepunt; dat ligt bij financiële dienstverlening, retail, industrie en zakelijke dienstverlening. De vraagstukken die bij een AI-traject spelen (wat pak je eerst op, welke leverancier kies je en hoe borg je het) lijken wel sterk op elkaar. Voor luchtvaartspecifieke uitvoering en certificering heb je daarnaast specialisten uit de sector nodig.",
+      "Toepassingen voor luchtvaartmaatschappijen",
+      "Voor luchtvaartmaatschappijen liggen de toepassingen vooral op vier terreinen:",
+      "Onderhoud: sensordata en onderhoudshistorie gebruiken om te voorspellen wanneer een onderdeel aandacht nodig heeft. Dit is een ondersteunende toepassing in een veiligheidsrelevant proces: de technicus en de onderhoudsorganisatie blijven verantwoordelijk.",
+      "Planning en verstoringen: bemanning, toestellen en slots opnieuw puzzelen bij vertraging of uitval. AI kan scenario’s doorrekenen; de keuze blijft bij de operationele leiding.",
+      "Prijsbeleid en commercie: vraag voorspellen en aanbiedingen afstemmen. Hier gelden vooral de regels voor klantgegevens en eerlijke communicatie.",
+      "Klantcontact: vragen over boekingen, bagage en compensatie beantwoorden, en bij verstoringen snel veel reizigers informeren. De transparantieregels van de AI Act gelden: reizigers moeten weten dat ze met AI praten.",
+      "Bij veel van deze toepassingen zit de moeilijkheid niet in het model, maar in de data en de koppelingen. Gegevens over onderhoud, bemanning en boekingen staan in verschillende systemen, soms bij verschillende partijen.",
+      "AI op luchthavens",
+      "Een luchthaven is een keten van partijen: de luchthavenexploitant, luchtvaartmaatschappijen, afhandelaars, beveiliging, douane en marechaussee. AI op luchthavens werkt daardoor alleen als die partijen data en afspraken delen. Voorbeelden van toepassingen:",
+      "Passagiersstromen voorspellen, zodat bezetting van beveiliging en balies beter aansluit.",
+      "Turnaround volgen, zodat afwijkingen in de afhandeling van een toestel eerder zichtbaar zijn.",
+      "Bagageafhandeling, met betere voorspelling van piekbelasting en storingen.",
+      "Biometrisch boarden, waarbij het gezicht van de reiziger als instapkaart dient.",
+      "Dat laatste raakt direct aan de AVG. De Europese privacytoezichthouders (EDPB) stelden in 2024 in Opinion 11/2024 dat alleen biometrische gegevens van reizigers die zich actief aanmelden en toestemming geven verwerkt mogen worden. Volgens de EDPB kunnen alleen opslagvormen met de AVG verenigbaar zijn waarbij de reiziger de gegevens zelf in handen heeft, of waarbij de gegevens centraal staan maar de versleutelingssleutel alleen bij de reiziger ligt. Onder de AI Act geldt biometrische verificatie, waarbij alleen wordt bevestigd dat iemand is wie hij zegt te zijn, niet als hoog risico. Biometrische identificatie op afstand wel.",
+      "AI en automatisering",
+      "Naast de grote operationele toepassingen zit er veel waarde in minder zichtbare automatisering: documenten verwerken, rapportages opstellen, compensatieaanvragen voorbereiden, contracten en tarieven vergelijken, en interne kennis doorzoekbaar maken voor medewerkers. Dat zijn toepassingen waar de luchtvaart niet anders is dan andere sectoren.",
+      "Een paar vragen helpen om te bepalen of een proces geschikt is voor automatisering met AI:",
+      "Komt de taak vaak voor, met een duidelijk begin en eind?",
+      "Is de invoer grotendeels tekst of documenten die nu worden overgetypt of samengevat?",
+      "Kan een medewerker de uitkomst snel controleren voordat die ergens landt?",
+      "Staat de benodigde informatie digitaal en actueel op één plek, of moet dat eerst geregeld worden?",
+      "Is er iemand in de lijn die eigenaar wil zijn van het proces na de pilot?",
+      "Hoe meer vragen je met ja beantwoordt, hoe kleiner het risico. Een nee bij de laatste vraag is reden om nog niet te beginnen.",
+      "Juist op dat punt blijft AI-automatisering, in de luchtvaart net als elders, makkelijk steken in losse pilots: de techniek werkt, maar niemand is eigenaar van de fase erna. Waarom dat zo vaak gebeurt, beschrijf ik in waarom AI-pilots blijven steken. Spreek daarom vóór de start af wie de toepassing na de pilot beheert en wanneer je stopt.",
+      "Voorbeeldscenario",
+      "Een luchtvaartmaatschappij met 400 medewerkers ontvangt na verstoringen zo'n 2.500 aanvragen per maand voor compensatie en vergoeding van kosten. Twaalf medewerkers zoeken per aanvraag vluchtgegevens op en nemen bonnetjes over, gemiddeld 15 minuten per stuk.",
+      "De adviseur helpt eerst classificeren: dit is een commerciële toepassing, buiten de veiligheidssystemen. Daarna stelt hij met het team de selectiecriteria op en toetst hij twee aanbieders op dezelfde set aanvragen. De teamleider klantenservice wordt eigenaar. Het contract loopt rechtstreeks tussen de maatschappij en de leverancier.",
+      "Na drie maanden kost een aanvraag gemiddeld 9 minuten, samen zo'n 250 uur per maand minder. De medewerker beoordeelt en beslist nog steeds zelf. Automatisch afwijzen is bewust buiten de scope gehouden, net als elke toepassing die raakt aan onderhoud of vluchtuitvoering.",
+      "Fictief voorbeeld, samengesteld uit situaties die veel voorkomen. Organisatie en cijfers zijn illustratief.",
+      "Het loont om te kijken naar sectoren met vergelijkbare kenmerken. De zorg combineert net als de luchtvaart strenge veiligheidseisen met gevoelige gegevens; lees hoe AI in de zorg daarmee omgaat. En voor de commerciële kant van een luchtvaartmaatschappij, zoals campagnes en klantcommunicatie, is AI voor marketing relevant.",
+      "AI implementeren in de luchtvaart",
+      "Voor veiligheidsgerelateerde AI ontwikkelt EASA eigen regels. Het agentschap publiceerde in mei 2023 zijn AI Roadmap 2.0 en in maart 2024 een concept paper (Issue 2) met richtlijnen voor zogenoemde Level 1-toepassingen (AI die de mens ondersteunt) en Level 2-toepassingen (mens en AI die samenwerken). In november 2025 volgde het eerste regelgevingsvoorstel, NPA 2025-07, over de betrouwbaarheid van AI, in lijn met de eisen die de AI Act aan hoog-risicosystemen stelt. EASA kondigde daarbij een tweede voorstel aan voor 2026, om dat kader in de afzonderlijke luchtvaartdomeinen toe te passen.",
+      "Voor luchtvaartproducten die onder de Europese luchtvaartregels vallen (de EASA-basisverordening en de regels voor beveiliging van de burgerluchtvaart, genoemd in bijlage I, afdeling B van de AI Act) laat de AI Act de eisen via die sectorregels lopen. De hoog-risicoregels voor AI in producten uit bijlage I gelden na de Digital Omnibus vanaf 2 augustus 2028, meldt de Europese Commissie. Voor commerciële en ondersteunende toepassingen gelden de algemene regels van de AI Act en de AVG; een overzicht daarvan staat op de pagina over de AI Act.",
+      "Weet je nog niet waar je organisatie staat, dan brengt een AI Readiness Assessment in 2-3 weken strategie, data, technologie, mensen en governance in kaart. Daarna helpen deze stappen:",
+      "Classificeer eerst. Valt de toepassing in een veiligheidsgerelateerd domein, of niet? Dat bepaalt doorlooptijd, eisen en wie er aan tafel zit.",
+      "Begin buiten de veiligheidskritische systemen. Daar leer je als organisatie het snelst, met de minste regeldruk.",
+      "Regel data en afspraken tussen partijen. Op een luchthaven heb je meestal gegevens van anderen nodig.",
+      "Kies leveranciers op criteria, niet op demo’s. Leg vooraf vast hoe je beoordeelt, inclusief exitmogelijkheden. Zo werkt ook een onafhankelijke Vendor Review.",
+      "Borg menselijk toezicht. Ook bij ondersteunende toepassingen moet duidelijk zijn wie beslist en wie ingrijpt.",
+      "Wil je weten welke AI-toepassing in jouw organisatie het meeste oplevert en wat daarvoor nodig is? Bekijk het overzicht van markten voor andere sectoren, of plan een gesprek van dertig minuten om jouw situatie te bespreken.",
+      "Dave Willemstein Onafhankelijk AI-adviseur",
+      "Onafhankelijk: geen commissies, geen partnerdeals, geen marge op implementatiepartners.",
+      "Over mij Mijn partnernetwerk",
+      "Weten waar je staat met AI? Bekijk de AI Readiness Assessment →",
+      "Bronnen",
+      "EASA: Artificial Intelligence and Aviation",
+      "EASA: Artificial Intelligence Concept Paper Issue 2, guidance for Level 1 & 2 machine learning applications",
+      "EASA: first regulatory proposal on Artificial Intelligence for Aviation open for consultation (NPA 2025-07)",
+      "EDPB: Opinion 11/2024 on the use of facial recognition to streamline airport passengers' flow",
+      "Europese Commissie: AI Act, tijdlijn en toepassing",
+      "Europese Commissie: AI Omnibus treedt in werking (27 juli 2026)",
+      "Verordening (EU) 2024/1689 (AI Act), officiële tekst op EUR-Lex",
+      "Klaar voor impact?",
+      "Van AI-ambitie naar concrete resultaten.",
+      "Plan een vrijblijvend gesprek. Geen pitch. Wel scherpe vragen.",
+      "30 min., geen pitch deckPlan een gesprek →"
+    ]
+  },
+  "links": [
+    {
+      "regio": "overig",
+      "soort": "intern",
+      "href": "#main",
+      "anker": "Naar hoofdinhoud",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/",
+      "anker": "",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/diensten",
+      "anker": "Diensten",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/cases",
+      "anker": "Cases",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/werkwijze",
+      "anker": "Werkwijze",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/inzichten",
+      "anker": "Inzichten",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/over",
+      "anker": "Over mij",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/contact",
+      "anker": "Plan een gesprek →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/",
+      "anker": "Home",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/markten",
+      "anker": "Markten",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/markten",
+      "anker": "Lees meer over Markten →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/contact",
+      "anker": "Plan een adviesgesprek →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/over",
+      "anker": "Dave Willemstein",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "extern",
+      "href": "https://www.edpb.europa.eu/our-work-tools/our-documents/opinion-board-art-64/opinion-112024-use-facial-recognition-streamline_en",
+      "anker": "Opinion 11/2024",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/inzichten/waarom-ai-pilots-blijven-steken",
+      "anker": "waarom AI-pilots blijven steken",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/markten/zorg",
+      "anker": "AI in de zorg",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/markten/marketing",
+      "anker": "AI voor marketing",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "extern",
+      "href": "https://www.easa.europa.eu/en/light/topics/artificial-intelligence-and-aviation-0",
+      "anker": "AI Roadmap 2.0",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "extern",
+      "href": "https://www.easa.europa.eu/en/newsroom-and-events/news/easas-first-regulatory-proposal-artificial-intelligence-aviation-now-open",
+      "anker": "NPA 2025-07",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "extern",
+      "href": "https://digital-strategy.ec.europa.eu/en/news/ai-omnibus-enters-force",
+      "anker": "Europese Commissie",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/ai-beleid/ai-act",
+      "anker": "de AI Act",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/diensten/ai-readiness-assessment",
+      "anker": "AI Readiness Assessment",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/diensten/vendor-review",
+      "anker": "onafhankelijke Vendor Review",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/markten",
+      "anker": "overzicht van markten",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/contact",
+      "anker": "plan een gesprek van dertig minuten",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/over",
+      "anker": "Over mij",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/partnernetwerk",
+      "anker": "Mijn partnernetwerk",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/diensten/ai-readiness-assessment",
+      "anker": "Weten waar je staat met AI? Bekijk de AI Readiness Assessment →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "extern",
+      "href": "https://www.easa.europa.eu/en/light/topics/artificial-intelligence-and-aviation-0",
+      "anker": "EASA: Artificial Intelligence and Aviation",
+      "rel": "noopener"
+    },
+    {
+      "regio": "main",
+      "soort": "extern",
+      "href": "https://www.easa.europa.eu/en/document-library/general-publications/easa-artificial-intelligence-concept-paper-issue-2",
+      "anker": "EASA: Artificial Intelligence Concept Paper Issue 2, guidance for Level 1 & 2 machine learning applications",
+      "rel": "noopener"
+    },
+    {
+      "regio": "main",
+      "soort": "extern",
+      "href": "https://www.easa.europa.eu/en/newsroom-and-events/news/easas-first-regulatory-proposal-artificial-intelligence-aviation-now-open",
+      "anker": "EASA: first regulatory proposal on Artificial Intelligence for Aviation open for consultation (NPA 2025-07)",
+      "rel": "noopener"
+    },
+    {
+      "regio": "main",
+      "soort": "extern",
+      "href": "https://www.edpb.europa.eu/our-work-tools/our-documents/opinion-board-art-64/opinion-112024-use-facial-recognition-streamline_en",
+      "anker": "EDPB: Opinion 11/2024 on the use of facial recognition to streamline airport passengers' flow",
+      "rel": "noopener"
+    },
+    {
+      "regio": "main",
+      "soort": "extern",
+      "href": "https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai",
+      "anker": "Europese Commissie: AI Act, tijdlijn en toepassing",
+      "rel": "noopener"
+    },
+    {
+      "regio": "main",
+      "soort": "extern",
+      "href": "https://digital-strategy.ec.europa.eu/en/news/ai-omnibus-enters-force",
+      "anker": "Europese Commissie: AI Omnibus treedt in werking (27 juli 2026)",
+      "rel": "noopener"
+    },
+    {
+      "regio": "main",
+      "soort": "extern",
+      "href": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj",
+      "anker": "Verordening (EU) 2024/1689 (AI Act), officiële tekst op EUR-Lex",
+      "rel": "noopener"
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/contact",
+      "anker": "Plan een gesprek →",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/diensten/ai-readiness-assessment",
+      "anker": "AI Readiness Assessment",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/diensten/ai-strategy-sprint",
+      "anker": "AI Strategy Sprint",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/diensten/fractional-ai-lead",
+      "anker": "Fractional AI Lead",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/diensten",
+      "anker": "Alle diensten",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/cases",
+      "anker": "Cases",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/werkwijze",
+      "anker": "Werkwijze",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/inzichten",
+      "anker": "Inzichten",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/veelgestelde-vragen",
+      "anker": "Veelgestelde vragen",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/over",
+      "anker": "Over mij",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-consultancy",
+      "anker": "AI consultancy",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-implementatie",
+      "anker": "AI implementatie",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-automatisering",
+      "anker": "AI automatisering",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-voor-bedrijven",
+      "anker": "AI voor bedrijven",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-development",
+      "anker": "AI development",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-agents",
+      "anker": "AI agents",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-beleid",
+      "anker": "AI beleid",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-workshop",
+      "anker": "AI workshop",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/markten",
+      "anker": "AI per branche",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/kennisbank",
+      "anker": "Kennisbank",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/tarieven",
+      "anker": "Tarieven",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/partnernetwerk",
+      "anker": "Partnernetwerk",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "overig",
+      "href": "mailto:dave@freelanceaiconsultant.com",
+      "anker": "dave@freelanceaiconsultant.com",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "extern",
+      "href": "https://www.linkedin.com/in/davewillemstein",
+      "anker": "LinkedIn ↗",
+      "rel": "noopener"
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/contact",
+      "anker": "Plan een gesprek",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/privacy",
+      "anker": "Privacyverklaring",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/algemene-voorwaarden",
+      "anker": "Algemene voorwaarden",
+      "rel": null
+    }
+  ],
+  "structured_data": {
+    "sha256": "dd9b73718ff5efa149dcd81460ebf5ff88d490e76c11f71849af5b4a6e8ff107",
+    "items": [
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://freelanceaiconsultant.com/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Markten",
+                "item": "https://freelanceaiconsultant.com/markten"
+              },
+              {
+                "@type": "ListItem",
+                "position": 3,
+                "name": "AI in de luchtvaart",
+                "item": "https://freelanceaiconsultant.com/markten/luchtvaart"
+              }
+            ]
+          },
+          {
+            "@type": "Article",
+            "headline": "AI in de luchtvaart: toepassingen en uitdagingen",
+            "description": "Hoe verandert AI de luchtvaart? Bekijk toepassingen voor luchtvaartmaatschappijen en luchthavens, van onderhoud tot planning, en de uitdagingen daarbij.",
+            "inLanguage": "nl-NL",
+            "datePublished": "2026-09-23",
+            "dateModified": "2026-09-23",
+            "author": {
+              "@type": "Person",
+              "name": "Dave Willemstein",
+              "jobTitle": "Onafhankelijk AI-adviseur",
+              "url": "https://freelanceaiconsultant.com/over",
+              "sameAs": [
+                "https://www.linkedin.com/in/davewillemstein"
+              ]
+            },
+            "publisher": {
+              "@type": "Person",
+              "name": "Dave Willemstein"
+            },
+            "mainEntityOfPage": "https://freelanceaiconsultant.com/markten/luchtvaart"
+          }
+        ]
+      }
+    ]
+  },
+  "afbeeldingen": [
+    {
+      "regio": "header",
+      "src": "/images/freelance-ai-consultant-logo-header.png",
+      "alt": "freelanceaiconsultant.com logo",
+      "width": "600",
+      "height": "287",
+      "loading": null
+    },
+    {
+      "regio": "main",
+      "src": "/images/dave-portrait.jpg",
+      "alt": "Portret van Dave Willemstein",
+      "width": "88",
+      "height": "88",
+      "loading": "lazy"
+    },
+    {
+      "regio": "footer",
+      "src": "/images/freelance-ai-consultant-icon-footer.png",
+      "alt": "",
+      "width": "192",
+      "height": "192",
+      "loading": "lazy"
+    }
+  ],
+  "laadprestaties": {
+    "scripts": [
+      {
+        "src": "/logo-carousel/logo-carousel.js?v=2",
+        "type": null,
+        "inline_bytes": 0
+      }
+    ],
+    "stylesheets": [
+      "https://fonts.googleapis.com/css2?family=Caveat:wght@600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap",
+      "/_astro/_slug_.bq6BBoZ5.css",
+      "/_astro/_slug_.goiX3PVF.css",
+      "/logo-carousel/logo-carousel.css?v=2"
+    ],
+    "aantal_details": 0,
+    "aantal_tabellen": 0
+  }
+}

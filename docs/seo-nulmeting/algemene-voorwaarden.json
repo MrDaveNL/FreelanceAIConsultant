@@ -1,0 +1,566 @@
+{
+  "url": "/algemene-voorwaarden",
+  "build_bestand": "dist/algemene-voorwaarden/index.html",
+  "bron": [
+    "src/pages/algemene-voorwaarden.astro"
+  ],
+  "gemeten_op": "2026-10-06",
+  "html": {
+    "bytes": 24247,
+    "sha256": "0b9fafe3e7744e368cd35e45065905498ec2c694a3ccfb65f9eb057432d7733b",
+    "lang": "nl"
+  },
+  "beschermd": {
+    "title": "Algemene voorwaarden | Freelance AI Consultant",
+    "meta_description": "Algemene voorwaarden voor adviesopdrachten van freelanceaiconsultant.com: offertes, uitvoering, tarieven, betaling, aansprakelijkheid en intellectueel eigendom.",
+    "canonical": "https://freelanceaiconsultant.com/algemene-voorwaarden",
+    "robots_meta": null,
+    "hreflang": [],
+    "h1": [
+      "Algemene voorwaarden"
+    ]
+  },
+  "social": {
+    "og:type": "website",
+    "og:locale": "nl_NL",
+    "og:site_name": "freelanceaiconsultant.com",
+    "og:title": "Algemene voorwaarden | Freelance AI Consultant",
+    "og:description": "Algemene voorwaarden voor adviesopdrachten van freelanceaiconsultant.com: offertes, uitvoering, tarieven, betaling, aansprakelijkheid en intellectueel eigendom.",
+    "og:url": "https://freelanceaiconsultant.com/algemene-voorwaarden",
+    "og:image": "https://freelanceaiconsultant.com/images/dave-portrait.jpg",
+    "twitter:card": "summary_large_image",
+    "twitter:title": "Algemene voorwaarden | Freelance AI Consultant",
+    "twitter:description": "Algemene voorwaarden voor adviesopdrachten van freelanceaiconsultant.com: offertes, uitvoering, tarieven, betaling, aansprakelijkheid en intellectueel eigendom.",
+    "twitter:image": "https://freelanceaiconsultant.com/images/dave-portrait.jpg"
+  },
+  "koppen": [
+    {
+      "niveau": 1,
+      "tekst": "Algemene voorwaarden",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "Artikel 1: Definities",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "Artikel 2: Toepasselijkheid",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "Artikel 3: Offertes en totstandkoming",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "Artikel 4: Uitvoering van de opdracht",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "Artikel 5: Onafhankelijkheid en belangenverstrengeling",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "Artikel 6: Wijziging van de opdracht",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "Artikel 7: Tarieven en betaling",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "Artikel 8: Annulering en opzegging",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "Artikel 9: Vertrouwelijkheid",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "Artikel 10: Persoonsgegevens",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "Artikel 11: Intellectueel eigendom",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "Artikel 12: Aansprakelijkheid",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "Artikel 13: Overmacht",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "Artikel 14: Klachten",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "Artikel 15: Toepasselijk recht",
+      "regio": "main",
+      "id": null
+    }
+  ],
+  "bodytekst": {
+    "regio": "main",
+    "woorden": 987,
+    "sha256": "8e3b31f640efe6c4e2221121a5c28e914d3169bff4fb8719e513bcd02c1922e1",
+    "blokken": [
+      "← Terug naar home",
+      "Juridisch",
+      "Algemene voorwaarden",
+      "Deze voorwaarden gelden voor alle offertes, opdrachten en overeenkomsten van 4AP Digital, handelend onder de naam freelanceaiconsultant.com.",
+      "Versie 22 september 2026",
+      "AI in Europa",
+      "Europese merken die AI al in productie hebben.",
+      "Geen klanten van mij. Wel voorbeelden van wat er gebeurt als AI voorbij de pilot komt.",
+      "Pauzeer",
+      "Klarna",
+      "Zweden",
+      "AI-assistent in de klantenservice",
+      "Zalando",
+      "Duitsland",
+      "Mode-assistent voor productadvies",
+      "Financial services",
+      "Investeringsmaatschappij",
+      "AI-strategie en use-case portfolio",
+      "Booking.com",
+      "Nederland",
+      "AI Trip Planner voor reisplanning",
+      "Siemens",
+      "Duitsland",
+      "Industrial Copilot voor engineering",
+      "Retail",
+      "Enterprise retailer",
+      "AI-gedreven vendorselectie",
+      "Spotify",
+      "Zweden",
+      "AI DJ en gepersonaliseerde playlists",
+      "Mercedes-Benz",
+      "Duitsland",
+      "Generatieve spraakassistent in de auto",
+      "Industrial / B2B",
+      "Internationale maakorganisatie",
+      "AI-roadmap en leadership",
+      "ING",
+      "Nederland",
+      "Generatieve chatbot voor klantvragen",
+      "L'Oréal",
+      "Frankrijk",
+      "Beauty Genius: persoonlijk advies",
+      "Financial services",
+      "Financiële dienstverlener",
+      "KYC versneld met AI-documentanalyse",
+      "SAP",
+      "Duitsland",
+      "Joule: copilot in bedrijfssoftware",
+      "Carrefour",
+      "Frankrijk",
+      "Hopla: boodschappenassistent",
+      "Strategy & AI",
+      "SaaS scale-up",
+      "AI-readiness assessment",
+      "Adyen",
+      "Nederland",
+      "AI-optimalisatie van betalingen",
+      "Philips",
+      "Nederland",
+      "AI in medische beeldvorming",
+      "Proces & productivity",
+      "Zakelijke dienstverlener",
+      "Interne AI-assistent voor kenniswerkers",
+      "Artikel 1: Definities",
+      "Opdrachtnemer: 4AP Digital, handelend onder de naam freelanceaiconsultant.com, KvK 86608789.",
+      "Opdrachtgever: de partij die met opdrachtnemer een overeenkomst aangaat.",
+      "Opdracht: de door opdrachtnemer te verrichten advies-, begeleidings- of onderzoekswerkzaamheden.",
+      "Deliverables: de schriftelijke of mondelinge resultaten die uit de opdracht voortkomen.",
+      "Artikel 2: Toepasselijkheid",
+      "Deze voorwaarden zijn van toepassing op alle offertes, opdrachtbevestigingen en overeenkomsten tussen opdrachtnemer en opdrachtgever. Afwijkingen gelden uitsluitend indien schriftelijk overeengekomen. Inkoopvoorwaarden van opdrachtgever worden uitdrukkelijk van de hand gewezen, tenzij partijen schriftelijk anders afspreken.",
+      "Artikel 3: Offertes en totstandkoming",
+      "Offertes zijn vrijblijvend en geldig gedurende dertig dagen, tenzij anders vermeld. Een overeenkomst komt tot stand op het moment dat opdrachtgever de offerte of opdrachtbevestiging schriftelijk of per e-mail aanvaardt. Genoemde bedragen zijn exclusief btw en reis- en verblijfkosten, tenzij uitdrukkelijk anders vermeld.",
+      "Artikel 4: Uitvoering van de opdracht",
+      "Opdrachtnemer voert de opdracht naar beste inzicht en vermogen uit, op basis van een inspanningsverplichting. Er wordt geen resultaat gegarandeerd; wel legt opdrachtnemer vooraf vast welke uitkomsten worden nagestreefd en hoe die worden getoetst.",
+      "De opdracht wordt persoonlijk uitgevoerd. Inschakeling van derden gebeurt alleen na overleg met opdrachtgever. Opdrachtnemer brengt geen opslag of marge in rekening over de tarieven van ingeschakelde derden.",
+      "Opdrachtgever zorgt tijdig voor de informatie, toegang en beschikbaarheid van medewerkers die voor de uitvoering nodig zijn. Vertraging die hieruit voortvloeit, komt voor rekening van opdrachtgever.",
+      "Artikel 5: Onafhankelijkheid en belangenverstrengeling",
+      "Opdrachtnemer ontvangt geen commissies, kortingen, affiliate-vergoedingen of andere voordelen van leveranciers van software of diensten die in een opdracht kunnen worden geadviseerd. Bestaande of recente relaties met leveranciers die in de opdracht aan de orde kunnen komen, worden voorafgaand aan de beoordeling schriftelijk gemeld.",
+      "Opdrachtnemer neemt geen opdrachten aan voor directe concurrenten van een opdrachtgever gedurende de looptijd van een doorlopende opdracht, tenzij opdrachtgever daar schriftelijk mee instemt.",
+      "Artikel 6: Wijziging van de opdracht",
+      "Wijzigingen in de scope worden schriftelijk vastgelegd, inclusief de gevolgen voor planning en prijs. Meerwerk wordt uitsluitend uitgevoerd na voorafgaande goedkeuring van opdrachtgever.",
+      "Artikel 7: Tarieven en betaling",
+      "Facturatie vindt plaats per maand of per mijlpaal, zoals vastgelegd in de opdrachtbevestiging.",
+      "Bij opdrachten met een vaste prijs geldt vijftig procent bij aanvang en vijftig procent bij oplevering, tenzij anders overeengekomen.",
+      "De betalingstermijn bedraagt dertig dagen na factuurdatum.",
+      "Bij overschrijding is opdrachtgever de wettelijke handelsrente verschuldigd, evenals redelijke incassokosten.",
+      "Tarieven kunnen jaarlijks per 1 januari worden geïndexeerd; bij doorlopende opdrachten wordt dit minimaal twee maanden vooraf aangekondigd.",
+      "Artikel 8: Annulering en opzegging",
+      "Doorlopende opdrachten, waaronder een fractional rol, zijn door beide partijen opzegbaar met inachtneming van een opzegtermijn van één kalendermaand.",
+      "Bij tussentijdse beëindiging van een opdracht met vaste prijs worden de verrichte werkzaamheden en de tot dat moment opgeleverde resultaten naar rato afgerekend. Reeds gereserveerde capaciteit die binnen twee weken voor aanvang wordt geannuleerd, kan voor vijftig procent in rekening worden gebracht.",
+      "Artikel 9: Vertrouwelijkheid",
+      "Beide partijen behandelen alle informatie die zij in het kader van de opdracht van elkaar ontvangen als vertrouwelijk, en delen deze niet met derden zonder voorafgaande schriftelijke toestemming. Deze verplichting blijft na afloop van de opdracht van kracht. Waar opdrachtgever een eigen geheimhoudingsovereenkomst hanteert, prevaleert die overeenkomst.",
+      "Artikel 10: Persoonsgegevens",
+      "Partijen verwerken persoonsgegevens in overeenstemming met de Algemene verordening gegevensbescherming. Waar opdrachtnemer persoonsgegevens verwerkt in opdracht van opdrachtgever, sluiten partijen een verwerkersovereenkomst. Zie ook de privacyverklaring.",
+      "Artikel 11: Intellectueel eigendom",
+      "Alle deliverables die specifiek voor opdrachtgever zijn gemaakt, worden na volledige betaling eigendom van opdrachtgever. Opdrachtgever mag deze vrij binnen de eigen organisatie gebruiken, aanpassen en hergebruiken.",
+      "Opdrachtnemer behoudt het recht om de onderliggende generieke methodiek, modellen en werkwijzen te blijven gebruiken bij andere opdrachten. Daarbij worden nooit gegevens, cijfers, namen of herleidbare situaties van opdrachtgever gebruikt.",
+      "Opdrachtnemer mag de opdracht uitsluitend als referentie noemen na schriftelijke toestemming van opdrachtgever; zonder toestemming gebeurt dit uitsluitend geanonimiseerd.",
+      "Artikel 12: Aansprakelijkheid",
+      "De aansprakelijkheid van opdrachtnemer is beperkt tot het bedrag dat in het betreffende geval door de beroeps- of bedrijfsaansprakelijkheidsverzekering wordt uitgekeerd, vermeerderd met het eigen risico. Keert de verzekering niet uit, dan is de aansprakelijkheid beperkt tot het voor de opdracht gefactureerde bedrag over de laatste zes maanden, met een maximum van het totale opdrachtbedrag.",
+      "Opdrachtnemer is niet aansprakelijk voor indirecte schade, waaronder gederfde winst, gemiste besparingen en gevolgschade. Beslissingen die opdrachtgever neemt op basis van het advies blijven de verantwoordelijkheid van opdrachtgever.",
+      "Deze beperkingen gelden niet bij opzet of bewuste roekeloosheid van opdrachtnemer.",
+      "Artikel 13: Overmacht",
+      "Bij overmacht worden de verplichtingen opgeschort. Duurt de overmachtssituatie langer dan zestig dagen, dan kunnen beide partijen de overeenkomst ontbinden zonder schadeplichtig te zijn. Reeds verrichte werkzaamheden worden afgerekend.",
+      "Artikel 14: Klachten",
+      "Klachten over de uitvoering dienen binnen veertien dagen na constatering schriftelijk te worden gemeld, met een duidelijke omschrijving. Partijen treden in overleg om tot een oplossing te komen voordat andere stappen worden gezet.",
+      "Artikel 15: Toepasselijk recht",
+      "Op alle overeenkomsten is Nederlands recht van toepassing. Geschillen worden voorgelegd aan de bevoegde rechter in het arrondissement van de vestigingsplaats van opdrachtnemer, tenzij partijen kiezen voor mediation."
+    ]
+  },
+  "links": [
+    {
+      "regio": "overig",
+      "soort": "intern",
+      "href": "#main",
+      "anker": "Naar hoofdinhoud",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/",
+      "anker": "",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/diensten",
+      "anker": "Diensten",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/cases",
+      "anker": "Cases",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/werkwijze",
+      "anker": "Werkwijze",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/inzichten",
+      "anker": "Inzichten",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/over",
+      "anker": "Over mij",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/contact",
+      "anker": "Plan een gesprek →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/",
+      "anker": "← Terug naar home",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/privacy",
+      "anker": "privacyverklaring",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/diensten/ai-readiness-assessment",
+      "anker": "AI Readiness Assessment",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/diensten/ai-strategy-sprint",
+      "anker": "AI Strategy Sprint",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/diensten/fractional-ai-lead",
+      "anker": "Fractional AI Lead",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/diensten",
+      "anker": "Alle diensten",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/cases",
+      "anker": "Cases",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/werkwijze",
+      "anker": "Werkwijze",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/inzichten",
+      "anker": "Inzichten",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/veelgestelde-vragen",
+      "anker": "Veelgestelde vragen",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/over",
+      "anker": "Over mij",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-consultancy",
+      "anker": "AI consultancy",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-implementatie",
+      "anker": "AI implementatie",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-automatisering",
+      "anker": "AI automatisering",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-voor-bedrijven",
+      "anker": "AI voor bedrijven",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-development",
+      "anker": "AI development",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-agents",
+      "anker": "AI agents",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-beleid",
+      "anker": "AI beleid",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-workshop",
+      "anker": "AI workshop",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/markten",
+      "anker": "AI per branche",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/kennisbank",
+      "anker": "Kennisbank",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/tarieven",
+      "anker": "Tarieven",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/partnernetwerk",
+      "anker": "Partnernetwerk",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "overig",
+      "href": "mailto:dave@freelanceaiconsultant.com",
+      "anker": "dave@freelanceaiconsultant.com",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "extern",
+      "href": "https://www.linkedin.com/in/davewillemstein",
+      "anker": "LinkedIn ↗",
+      "rel": "noopener"
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/contact",
+      "anker": "Plan een gesprek",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/privacy",
+      "anker": "Privacyverklaring",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/algemene-voorwaarden",
+      "anker": "Algemene voorwaarden",
+      "rel": null
+    }
+  ],
+  "structured_data": {
+    "sha256": "6dc9e9a577921e8999424d7b9efb43ba4bc702b5d104bae72cb2aa417c26ded1",
+    "items": [
+      {
+        "@context": "https://schema.org",
+        "@type": "ProfessionalService",
+        "name": "Dave Willemstein, Independent AI Advisor",
+        "url": "https://freelanceaiconsultant.com",
+        "image": "https://freelanceaiconsultant.com/images/dave-portrait.jpg",
+        "email": "dave@freelanceaiconsultant.com",
+        "description": "Algemene voorwaarden voor adviesopdrachten van freelanceaiconsultant.com: offertes, uitvoering, tarieven, betaling, aansprakelijkheid en intellectueel eigendom.",
+        "areaServed": [
+          "NL",
+          "BE",
+          "DE"
+        ],
+        "priceRange": "€€€",
+        "founder": {
+          "@type": "Person",
+          "name": "Dave Willemstein",
+          "jobTitle": "Onafhankelijk AI-adviseur",
+          "url": "https://freelanceaiconsultant.com",
+          "sameAs": [
+            "https://www.linkedin.com/in/davewillemstein"
+          ]
+        }
+      }
+    ]
+  },
+  "afbeeldingen": [
+    {
+      "regio": "header",
+      "src": "/images/freelance-ai-consultant-logo-header.png",
+      "alt": "freelanceaiconsultant.com logo",
+      "width": "600",
+      "height": "287",
+      "loading": null
+    },
+    {
+      "regio": "footer",
+      "src": "/images/freelance-ai-consultant-icon-footer.png",
+      "alt": "",
+      "width": "192",
+      "height": "192",
+      "loading": "lazy"
+    }
+  ],
+  "laadprestaties": {
+    "scripts": [
+      {
+        "src": "/logo-carousel/logo-carousel.js?v=2",
+        "type": null,
+        "inline_bytes": 0
+      }
+    ],
+    "stylesheets": [
+      "https://fonts.googleapis.com/css2?family=Caveat:wght@600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap",
+      "/_astro/_slug_.bq6BBoZ5.css",
+      "/logo-carousel/logo-carousel.css?v=2"
+    ],
+    "aantal_details": 0,
+    "aantal_tabellen": 0
+  }
+}

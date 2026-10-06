@@ -1,0 +1,758 @@
+{
+  "url": "/ai-automatisering/bedrijfsprocessen-automatiseren-met-ai",
+  "build_bestand": "dist/ai-automatisering/bedrijfsprocessen-automatiseren-met-ai/index.html",
+  "bron": [
+    "src/content/pages/ai-automatisering/bedrijfsprocessen-automatiseren-met-ai/index.md",
+    "src/pages/[...slug].astro"
+  ],
+  "gemeten_op": "2026-10-06",
+  "html": {
+    "bytes": 34291,
+    "sha256": "af0e645e43ed4a9d3d0a7330764f5fb68bc1c7bf552e0420b111f51c3785d677",
+    "lang": "nl"
+  },
+  "beschermd": {
+    "title": "Bedrijfsprocessen automatiseren met AI | Waar begin je?",
+    "meta_description": "Welke bedrijfsprocessen kun je automatiseren met AI? Lees hoe je processen selecteert, welke tools je inzet en hoe je de besparing vooraf inschat en meet.",
+    "canonical": "https://freelanceaiconsultant.com/ai-automatisering/bedrijfsprocessen-automatiseren-met-ai",
+    "robots_meta": null,
+    "hreflang": [],
+    "h1": [
+      "Bedrijfsprocessen automatiseren met AI"
+    ]
+  },
+  "social": {
+    "og:type": "website",
+    "og:locale": "nl_NL",
+    "og:site_name": "freelanceaiconsultant.com",
+    "og:title": "Bedrijfsprocessen automatiseren met AI | Waar begin je?",
+    "og:description": "Welke bedrijfsprocessen kun je automatiseren met AI? Lees hoe je processen selecteert, welke tools je inzet en hoe je de besparing vooraf inschat en meet.",
+    "og:url": "https://freelanceaiconsultant.com/ai-automatisering/bedrijfsprocessen-automatiseren-met-ai",
+    "og:image": "https://freelanceaiconsultant.com/images/dave-portrait.jpg",
+    "twitter:card": "summary_large_image",
+    "twitter:title": "Bedrijfsprocessen automatiseren met AI | Waar begin je?",
+    "twitter:description": "Welke bedrijfsprocessen kun je automatiseren met AI? Lees hoe je processen selecteert, welke tools je inzet en hoe je de besparing vooraf inschat en meet.",
+    "twitter:image": "https://freelanceaiconsultant.com/images/dave-portrait.jpg"
+  },
+  "koppen": [
+    {
+      "niveau": 1,
+      "tekst": "Bedrijfsprocessen automatiseren met AI",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "Welke bedrijfsprocessen kun je automatiseren met AI?",
+      "regio": "main",
+      "id": "welke-bedrijfsprocessen-kun-je-automatiseren-met-ai"
+    },
+    {
+      "niveau": 3,
+      "tekst": "Klantenservice",
+      "regio": "main",
+      "id": "klantenservice"
+    },
+    {
+      "niveau": 3,
+      "tekst": "Offertes en facturen",
+      "regio": "main",
+      "id": "offertes-en-facturen"
+    },
+    {
+      "niveau": 3,
+      "tekst": "Leadopvolging",
+      "regio": "main",
+      "id": "leadopvolging"
+    },
+    {
+      "niveau": 3,
+      "tekst": "Rapportages",
+      "regio": "main",
+      "id": "rapportages"
+    },
+    {
+      "niveau": 2,
+      "tekst": "Hoe kies je het juiste proces?",
+      "regio": "main",
+      "id": "hoe-kies-je-het-juiste-proces"
+    },
+    {
+      "niveau": 2,
+      "tekst": "Van proces naar geautomatiseerde workflow",
+      "regio": "main",
+      "id": "van-proces-naar-geautomatiseerde-workflow"
+    },
+    {
+      "niveau": 2,
+      "tekst": "Besparing berekenen",
+      "regio": "main",
+      "id": "besparing-berekenen"
+    },
+    {
+      "niveau": 2,
+      "tekst": "Veelgestelde vragen",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "Van AI-ambitie naar concrete resultaten.",
+      "regio": "main",
+      "id": null
+    }
+  ],
+  "bodytekst": {
+    "regio": "main",
+    "woorden": 1775,
+    "sha256": "eb7dc0365842dc53642e0db1536a4d2d4d16a31abfe2945ebc05b7f6c484734b",
+    "blokken": [
+      "Home",
+      "AI Automatisering",
+      "Bedrijfsprocessen automatiseren",
+      "Processen automatiseren",
+      "Bedrijfsprocessen automatiseren met AI",
+      "Bedrijfsprocessen automatiseren met AI begint niet bij een tool, maar bij de vraag welk proces het waard is. Op deze pagina lees je welke processen zich ervoor lenen, hoe je er één kiest, hoe je het omzet in een werkende workflow en hoe je de besparing vooraf eerlijk inschat.",
+      "Lees meer over AI Automatisering → Bekijk de AI Readiness Assessment →",
+      "Geschreven door Dave Willemstein, onafhankelijk AI consultant · gepubliceerd 23 september 2026",
+      "IN HET KORT",
+      "Geschikte processen: hoog volume, voorspelbare input, een bestaande controlestap.",
+      "Kies één proces met een eigenaar en meet de huidige situatie voordat je begint.",
+      "Reken de besparing door inclusief controletijd, adoptie en doorlopende kosten.",
+      "AI in Europa",
+      "Europese merken die AI al in productie hebben.",
+      "Geen klanten van mij. Wel voorbeelden van wat er gebeurt als AI voorbij de pilot komt.",
+      "Pauzeer",
+      "Klarna",
+      "Zweden",
+      "AI-assistent in de klantenservice",
+      "Zalando",
+      "Duitsland",
+      "Mode-assistent voor productadvies",
+      "Financial services",
+      "Investeringsmaatschappij",
+      "AI-strategie en use-case portfolio",
+      "Booking.com",
+      "Nederland",
+      "AI Trip Planner voor reisplanning",
+      "Siemens",
+      "Duitsland",
+      "Industrial Copilot voor engineering",
+      "Retail",
+      "Enterprise retailer",
+      "AI-gedreven vendorselectie",
+      "Spotify",
+      "Zweden",
+      "AI DJ en gepersonaliseerde playlists",
+      "Mercedes-Benz",
+      "Duitsland",
+      "Generatieve spraakassistent in de auto",
+      "Industrial / B2B",
+      "Internationale maakorganisatie",
+      "AI-roadmap en leadership",
+      "ING",
+      "Nederland",
+      "Generatieve chatbot voor klantvragen",
+      "L'Oréal",
+      "Frankrijk",
+      "Beauty Genius: persoonlijk advies",
+      "Financial services",
+      "Financiële dienstverlener",
+      "KYC versneld met AI-documentanalyse",
+      "SAP",
+      "Duitsland",
+      "Joule: copilot in bedrijfssoftware",
+      "Carrefour",
+      "Frankrijk",
+      "Hopla: boodschappenassistent",
+      "Strategy & AI",
+      "SaaS scale-up",
+      "AI-readiness assessment",
+      "Adyen",
+      "Nederland",
+      "AI-optimalisatie van betalingen",
+      "Philips",
+      "Nederland",
+      "AI in medische beeldvorming",
+      "Proces & productivity",
+      "Zakelijke dienstverlener",
+      "Interne AI-assistent voor kenniswerkers",
+      "Welke bedrijfsprocessen kun je automatiseren met AI?",
+      "Bedrijfsprocessen automatiseren met AI werkt het best bij processen waar veel tekst, documenten of vrije input in zit. Denk aan e-mails die gelezen moeten worden, pdf’s waar gegevens uit moeten, of antwoorden die telkens net anders geformuleerd moeten zijn. Processen met nette velden en vaste regels automatiseer je meestal goedkoper en betrouwbaarder zonder AI; dat verschil staat uitgewerkt in RPA versus AI-automatisering.",
+      "Welke processen kom je dan tegen? Hieronder vier gebieden waar de combinatie van volume en voorspelbare input vaak voorkomt, zowel bij grotere organisaties als in het mkb.",
+      "Klantenservice",
+      "Een AI-stap leest binnenkomende vragen, bepaalt het onderwerp en de urgentie, en zet ze in de juiste wachtrij. Voor veelvoorkomende vragen stelt hij een conceptantwoord op uit de kennisbank en eerdere antwoorden. De medewerker controleert, past aan en verstuurt. Wat verdwijnt is het sorteren en het zoeken; het contact met de klant blijft bij een mens.",
+      "Offertes en facturen",
+      "Bij offertes haalt AI de relevante gegevens uit de aanvraag (product, aantallen, leverdatum, bijzonderheden) en vult een concept in op basis van je standaardteksten en prijslijst. Een verkoper controleert en verstuurt. Bij inkomende facturen leest AI de factuurgegevens uit, vergelijkt ze met de inkooporder en legt alleen afwijkingen voor aan de crediteurenadministratie.",
+      "Dit patroon, waarbij het systeem gegevens uit een document haalt en een mens het oordeel houdt, is ook de kern van de case over KYC-documentanalyse bij een financiële dienstverlener. Daar werden extractie en oordeel bewust gescheiden.",
+      "Leadopvolging",
+      "Een nieuwe lead uit een webformulier wordt aangevuld met openbare bedrijfsinformatie, krijgt een eerste inschatting van de fit en een conceptmail voor de eerste opvolging. De verkoper beslist of en hoe hij opvolgt. Leg vooraf vast welke bronnen de AI mag gebruiken; niet alles wat online staat, mag je zomaar verwerken.",
+      "Rapportages",
+      "Maandelijkse rapportages bestaan vaak uit cijfers plus een toelichting die iemand elke maand opnieuw schrijft. AI kan de toelichting in concept opstellen op basis van de cijfers en de vorige rapportage. De cijfers zelf komen uit je bronsystemen, niet uit het taalmodel: laat een AI nooit getallen bedenken of herberekenen die je niet controleert.",
+      "Hoe kies je het juiste proces?",
+      "De meeste organisaties hebben geen gebrek aan ideeën, maar aan een manier om te kiezen. Scoor elk kandidaat-proces op vijf vragen, elk van 1 tot 5:",
+      "Volume: hoe vaak komt deze handeling voor per week?",
+      "Variatie: hoe voorspelbaar is de input?",
+      "Data: bestaan de benodigde gegevens al en worden ze al gebruikt?",
+      "Controle: is er al iemand die het resultaat bekijkt, of moet die stap erbij?",
+      "Eigenaar: is er één persoon in de lijn die er beter van wordt en het wil trekken?",
+      "Processen die laag scoren op controle of eigenaar vallen af, hoe aantrekkelijk ze ook klinken. De achtergrond bij deze criteria staat in welke AI-use cases echt resultaat leveren.",
+      "Stel daarnaast één vraag die vaak wordt overgeslagen: waarom bestaat deze stap eigenlijk? Soms blijkt een proces er alleen te zijn omdat twee systemen niet met elkaar praten. Dan los je dat op, in plaats van het handwerk sneller te maken.",
+      "Voorbeeldscenario",
+      "Een zakelijke dienstverlener met 120 medewerkers heeft negen ideeën om processen met AI te automatiseren. Na het scoren op de vijf vragen blijven er drie over: inkomende facturen uitlezen, offerteaanvragen voorbereiden en de toelichting bij de maandrapportage schrijven.",
+      "De adviseur loopt de drie vanuit klantzijde door met de mensen die het werk doen. De maandrapportage valt alsnog af: twaalf keer per jaar ongeveer 6 uur werk, en niemand in de lijn wil eigenaar zijn. Bij de facturen blijkt de helft van het handwerk te ontstaan doordat leveranciers geen ordernummer vermelden. Dat los je op met een afspraak met leveranciers, niet met AI.",
+      "Zo blijven de offerteaanvragen over: ongeveer 60 per maand van elk 50 minuten, samen 50 uur werk per maand. Dat wordt het eerste proces.",
+      "Fictief voorbeeld, samengesteld uit situaties die veel voorkomen. Organisatie en cijfers zijn illustratief.",
+      "Van proces naar geautomatiseerde workflow",
+      "Heb je een proces gekozen, dan zet je het in vijf stappen om naar een werkende workflow.",
+      "NulmetingVolume, tijd per handeling en foutpercentage van nu",
+      "UittekenenElke stap, met wie wat doet en welke systemen erbij horen",
+      "AI-stap bepalenWelke stap neemt AI over, en waar controleert een mens?",
+      "Bouwen en testenNaast het huidige proces, met een vaste testset",
+      "Live en metenCorrecties, doorlooptijd en kosten per maand",
+      "Van proces naar workflow: meten vóór je begint, en de controlestap ontwerpen voordat er gebouwd wordt.",
+      "Nulmeting. Meet vóór de start hoeveel handelingen er zijn, hoe lang ze duren en hoe vaak er iets fout gaat. Achteraf reconstrueren lukt zelden eerlijk.",
+      "Uittekenen. Loop het proces door met de mensen die het doen, niet alleen met hun leidinggevende. De uitzonderingen zitten in de details.",
+      "AI-stap bepalen. Kies zo min mogelijk stappen voor AI en laat de rest aan regels over. Leg vast wat de AI mag (voorstellen, voorbereiden) en wat niet (versturen, boeken, betalen), en wat er gebeurt als hij twijfelt.",
+      "Bouwen en testen. Voor veel processen volstaat een workflowplatform; hoe zo’n stroom is opgebouwd, lees je bij AI workflows. Welke platforms en assistenten er zijn en hoe je kiest, staat bij AI tools. Het bouwen doet je eigen team of een partner die je rechtstreeks contracteert. Test met een vaste set echte voorbeelden, inclusief de lastige gevallen.",
+      "Live en meten. Laat de nieuwe werkwijze een paar weken naast de oude lopen en vergelijk. Pas als de correcties laag en stabiel zijn, schaal je op. Moet de automatisering zelf stappen kiezen in plaats van een vaste route te volgen, dan heb je het over AI agents, en gelden er strengere eisen aan controle.",
+      "Besparing berekenen",
+      "Een besparing die je vooraf niet kunt uitrekenen, kun je achteraf ook niet aantonen. Gebruik deze rekenmethode:",
+      "Uren nu = aantal handelingen per maand × tijd per handeling.",
+      "Uren straks = aantal handelingen × (resterende tijd per handeling, inclusief controle en correcties).",
+      "Adoptiefactor: welk deel van de handelingen gaat echt via de nieuwe workflow? Uitzonderingen blijven handwerk.",
+      "Bruto besparing = (uren nu − uren straks) × adoptiefactor × uurkosten.",
+      "Netto besparing = bruto besparing − licenties − verbruikskosten van het AI-model − beheer.",
+      "Terugverdientijd = eenmalige kosten ÷ netto besparing per maand.",
+      "Rekenvoorbeeld met fictieve, ronde getallen. Een bedrijf maakt 120 offertes per maand. Handmatig kost een offerte 45 minuten: 90 uur per maand. Met een AI-concept blijft er 20 minuten per offerte over voor controle en aanpassing: 40 uur. Dat is 50 uur verschil. Stel dat 70 procent van de offertes standaard genoeg is voor de nieuwe workflow; dan blijft er 35 uur besparing over. Bij fictieve uurkosten van € 60 is dat € 2.100 bruto per maand. Trek € 400 af voor licenties, verbruik en beheer: € 1.700 netto. Bij eenmalige kosten van € 12.000 is de terugverdientijd ongeveer zeven maanden.",
+      "Reken daarna twee scenario’s door: een pessimistisch scenario (lagere adoptie, meer controletijd) en een scenario met het dubbele volume, omdat verbruikskosten meestal meegroeien met het gebruik. Zo krijg je een bandbreedte in plaats van één bedrag dat niemand gelooft.",
+      "En de belangrijkste regel: 35 bespaarde uren zijn pas € 2.100 waard als die uren ergens anders aantoonbaar iets opleveren, bijvoorbeeld minder inhuur of meer offertes met dezelfde bezetting. Hoe je dat verdedigbaar maakt richting je CFO, lees je in de business case voor AI.",
+      "Deze pagina hoort bij het overzicht over AI automatisering. Wil je weten welke processen in jouw organisatie het meeste opleveren, dan brengt de AI Readiness Assessment dat in 2-3 weken in kaart. Of bespreek je situatie in een adviesgesprek van dertig minuten.",
+      "Dave Willemstein Onafhankelijk AI-adviseur",
+      "Onafhankelijk: geen commissies, geen partnerdeals, geen marge op implementatiepartners.",
+      "Over mij Mijn partnernetwerk",
+      "Weten waar je staat met AI? Bekijk de AI Readiness Assessment →",
+      "Veelgestelde vragen",
+      "Welke processen kun je beter niet met AI automatiseren?+",
+      "Processen die zelden voorkomen, telkens anders verlopen of waarin een fout onherstelbaar is, zoals een definitieve afwijzing of een betaling. Ook processen die er alleen zijn omdat een ander systeem slecht is ingericht, kun je beter eerst afschaffen of repareren.",
+      "Hoe lang duurt het om één bedrijfsproces te automatiseren?+",
+      "Dat hangt vooral af van de koppelingen. Een stroom die alleen e-mail en een gedeelde map gebruikt, staat snel. Moet de automatisering lezen en schrijven in je ERP of CRM, dan bepaalt het regelen van toegang, rechten en tests de doorlooptijd. Plan daarnaast een testperiode waarin de oude werkwijze nog naast de nieuwe loopt.",
+      "Moet ik mijn proces eerst verbeteren voordat ik het automatiseer?+",
+      "Vaak wel. Als een proces veel uitzonderingen, dubbele stappen of onduidelijke eigenaren heeft, automatiseer je die problemen mee. Loop het proces eerst door met de mensen die het uitvoeren en schrap wat overbodig is. Pas daarna kijk je waar AI helpt.",
+      "Hoe meet ik of de automatisering na livegang nog goed werkt?+",
+      "Houd drie dingen bij: hoe vaak een medewerker de uitkomst moet corrigeren, hoeveel gevallen alsnog handmatig worden afgehandeld en hoeveel tijd een handeling nu kost. Vergelijk die elke maand met de nulmeting. Een stijgend aantal correcties is het eerste signaal dat er iets verandert, bijvoorbeeld in de input of in het model.",
+      "Klaar voor impact?",
+      "Van AI-ambitie naar concrete resultaten.",
+      "Plan een vrijblijvend gesprek. Geen pitch. Wel scherpe vragen.",
+      "30 min., geen pitch deckPlan een gesprek →"
+    ]
+  },
+  "links": [
+    {
+      "regio": "overig",
+      "soort": "intern",
+      "href": "#main",
+      "anker": "Naar hoofdinhoud",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/",
+      "anker": "",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/diensten",
+      "anker": "Diensten",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/cases",
+      "anker": "Cases",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/werkwijze",
+      "anker": "Werkwijze",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/inzichten",
+      "anker": "Inzichten",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/over",
+      "anker": "Over mij",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/contact",
+      "anker": "Plan een gesprek →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/",
+      "anker": "Home",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/ai-automatisering",
+      "anker": "AI Automatisering",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/ai-automatisering",
+      "anker": "Lees meer over AI Automatisering →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/diensten/ai-readiness-assessment",
+      "anker": "Bekijk de AI Readiness Assessment →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/over",
+      "anker": "Dave Willemstein",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/kennisbank/rpa-vs-ai-automatisering",
+      "anker": "RPA versus AI-automatisering",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/cases/kyc-documentanalyse-financial-services",
+      "anker": "KYC-documentanalyse bij een financiële dienstverlener",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/inzichten/welke-ai-use-cases-leveren-resultaat",
+      "anker": "welke AI-use cases echt resultaat leveren",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/ai-automatisering/ai-workflows",
+      "anker": "AI workflows",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/ai-automatisering/ai-tools",
+      "anker": "AI tools",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/ai-agents",
+      "anker": "AI agents",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/inzichten/de-business-case-voor-ai",
+      "anker": "de business case voor AI",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/ai-automatisering",
+      "anker": "AI automatisering",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/diensten/ai-readiness-assessment",
+      "anker": "AI Readiness Assessment",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/contact",
+      "anker": "bespreek je situatie in een adviesgesprek",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/over",
+      "anker": "Over mij",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/partnernetwerk",
+      "anker": "Mijn partnernetwerk",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/diensten/ai-readiness-assessment",
+      "anker": "Weten waar je staat met AI? Bekijk de AI Readiness Assessment →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/contact",
+      "anker": "Plan een gesprek →",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/diensten/ai-readiness-assessment",
+      "anker": "AI Readiness Assessment",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/diensten/ai-strategy-sprint",
+      "anker": "AI Strategy Sprint",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/diensten/fractional-ai-lead",
+      "anker": "Fractional AI Lead",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/diensten",
+      "anker": "Alle diensten",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/cases",
+      "anker": "Cases",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/werkwijze",
+      "anker": "Werkwijze",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/inzichten",
+      "anker": "Inzichten",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/veelgestelde-vragen",
+      "anker": "Veelgestelde vragen",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/over",
+      "anker": "Over mij",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-consultancy",
+      "anker": "AI consultancy",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-implementatie",
+      "anker": "AI implementatie",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-automatisering",
+      "anker": "AI automatisering",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-voor-bedrijven",
+      "anker": "AI voor bedrijven",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-development",
+      "anker": "AI development",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-agents",
+      "anker": "AI agents",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-beleid",
+      "anker": "AI beleid",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-workshop",
+      "anker": "AI workshop",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/markten",
+      "anker": "AI per branche",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/kennisbank",
+      "anker": "Kennisbank",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/tarieven",
+      "anker": "Tarieven",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/partnernetwerk",
+      "anker": "Partnernetwerk",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "overig",
+      "href": "mailto:dave@freelanceaiconsultant.com",
+      "anker": "dave@freelanceaiconsultant.com",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "extern",
+      "href": "https://www.linkedin.com/in/davewillemstein",
+      "anker": "LinkedIn ↗",
+      "rel": "noopener"
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/contact",
+      "anker": "Plan een gesprek",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/privacy",
+      "anker": "Privacyverklaring",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/algemene-voorwaarden",
+      "anker": "Algemene voorwaarden",
+      "rel": null
+    }
+  ],
+  "structured_data": {
+    "sha256": "5f43e49c6c85740ade065e24a3f0c1586fbe21b9164fcff57c1962035fb1c1bc",
+    "items": [
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://freelanceaiconsultant.com/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "AI Automatisering",
+                "item": "https://freelanceaiconsultant.com/ai-automatisering"
+              },
+              {
+                "@type": "ListItem",
+                "position": 3,
+                "name": "Bedrijfsprocessen automatiseren",
+                "item": "https://freelanceaiconsultant.com/ai-automatisering/bedrijfsprocessen-automatiseren-met-ai"
+              }
+            ]
+          },
+          {
+            "@type": "Article",
+            "headline": "Bedrijfsprocessen automatiseren met AI",
+            "description": "Welke bedrijfsprocessen kun je automatiseren met AI? Lees hoe je processen selecteert, welke tools je inzet en hoe je de besparing vooraf inschat en meet.",
+            "inLanguage": "nl-NL",
+            "datePublished": "2026-09-23",
+            "dateModified": "2026-09-23",
+            "author": {
+              "@type": "Person",
+              "name": "Dave Willemstein",
+              "jobTitle": "Onafhankelijk AI-adviseur",
+              "url": "https://freelanceaiconsultant.com/over",
+              "sameAs": [
+                "https://www.linkedin.com/in/davewillemstein"
+              ]
+            },
+            "publisher": {
+              "@type": "Person",
+              "name": "Dave Willemstein"
+            },
+            "mainEntityOfPage": "https://freelanceaiconsultant.com/ai-automatisering/bedrijfsprocessen-automatiseren-met-ai"
+          },
+          {
+            "@type": "FAQPage",
+            "mainEntity": [
+              {
+                "@type": "Question",
+                "name": "Welke processen kun je beter niet met AI automatiseren?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Processen die zelden voorkomen, telkens anders verlopen of waarin een fout onherstelbaar is, zoals een definitieve afwijzing of een betaling. Ook processen die er alleen zijn omdat een ander systeem slecht is ingericht, kun je beter eerst afschaffen of repareren."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Hoe lang duurt het om één bedrijfsproces te automatiseren?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Dat hangt vooral af van de koppelingen. Een stroom die alleen e-mail en een gedeelde map gebruikt, staat snel. Moet de automatisering lezen en schrijven in je ERP of CRM, dan bepaalt het regelen van toegang, rechten en tests de doorlooptijd. Plan daarnaast een testperiode waarin de oude werkwijze nog naast de nieuwe loopt."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Moet ik mijn proces eerst verbeteren voordat ik het automatiseer?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Vaak wel. Als een proces veel uitzonderingen, dubbele stappen of onduidelijke eigenaren heeft, automatiseer je die problemen mee. Loop het proces eerst door met de mensen die het uitvoeren en schrap wat overbodig is. Pas daarna kijk je waar AI helpt."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Hoe meet ik of de automatisering na livegang nog goed werkt?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Houd drie dingen bij: hoe vaak een medewerker de uitkomst moet corrigeren, hoeveel gevallen alsnog handmatig worden afgehandeld en hoeveel tijd een handeling nu kost. Vergelijk die elke maand met de nulmeting. Een stijgend aantal correcties is het eerste signaal dat er iets verandert, bijvoorbeeld in de input of in het model."
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "afbeeldingen": [
+    {
+      "regio": "header",
+      "src": "/images/freelance-ai-consultant-logo-header.png",
+      "alt": "freelanceaiconsultant.com logo",
+      "width": "600",
+      "height": "287",
+      "loading": null
+    },
+    {
+      "regio": "main",
+      "src": "/images/dave-portrait.jpg",
+      "alt": "Portret van Dave Willemstein",
+      "width": "88",
+      "height": "88",
+      "loading": "lazy"
+    },
+    {
+      "regio": "footer",
+      "src": "/images/freelance-ai-consultant-icon-footer.png",
+      "alt": "",
+      "width": "192",
+      "height": "192",
+      "loading": "lazy"
+    }
+  ],
+  "laadprestaties": {
+    "scripts": [
+      {
+        "src": "/logo-carousel/logo-carousel.js?v=2",
+        "type": null,
+        "inline_bytes": 0
+      }
+    ],
+    "stylesheets": [
+      "https://fonts.googleapis.com/css2?family=Caveat:wght@600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap",
+      "/_astro/_slug_.bq6BBoZ5.css",
+      "/_astro/_slug_.goiX3PVF.css",
+      "/logo-carousel/logo-carousel.css?v=2"
+    ],
+    "aantal_details": 4,
+    "aantal_tabellen": 0
+  }
+}

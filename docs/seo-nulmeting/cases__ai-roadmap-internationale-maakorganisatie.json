@@ -1,0 +1,500 @@
+{
+  "url": "/cases/ai-roadmap-internationale-maakorganisatie",
+  "build_bestand": "dist/cases/ai-roadmap-internationale-maakorganisatie/index.html",
+  "bron": [
+    "src/pages/cases/[slug].astro",
+    "src/data/cases.js"
+  ],
+  "gemeten_op": "2026-10-06",
+  "html": {
+    "bytes": 29232,
+    "sha256": "6e459cdcf7120144f915756c10fd0c76b735de8c756839647d4a3dae7b4454a9",
+    "lang": "nl"
+  },
+  "beschermd": {
+    "title": "Case: AI-roadmap voor een internationale maakorganisatie",
+    "meta_description": "Zeven pilots in vier landen, geen van alle opgeschaald. Negen maanden later: één roadmap, drie productietoepassingen en een interne lead die het stokje overnam.",
+    "canonical": "https://freelanceaiconsultant.com/cases/ai-roadmap-internationale-maakorganisatie",
+    "robots_meta": null,
+    "hreflang": [],
+    "h1": [
+      "AI-roadmap & leadership"
+    ]
+  },
+  "social": {
+    "og:type": "website",
+    "og:locale": "nl_NL",
+    "og:site_name": "freelanceaiconsultant.com",
+    "og:title": "Case: AI-roadmap voor een internationale maakorganisatie",
+    "og:description": "Zeven pilots in vier landen, geen van alle opgeschaald. Negen maanden later: één roadmap, drie productietoepassingen en een interne lead die het stokje overnam.",
+    "og:url": "https://freelanceaiconsultant.com/cases/ai-roadmap-internationale-maakorganisatie",
+    "og:image": "https://freelanceaiconsultant.com/images/dave-portrait.jpg",
+    "twitter:card": "summary_large_image",
+    "twitter:title": "Case: AI-roadmap voor een internationale maakorganisatie",
+    "twitter:description": "Zeven pilots in vier landen, geen van alle opgeschaald. Negen maanden later: één roadmap, drie productietoepassingen en een interne lead die het stokje overnam.",
+    "twitter:image": "https://freelanceaiconsultant.com/images/dave-portrait.jpg"
+  },
+  "koppen": [
+    {
+      "niveau": 1,
+      "tekst": "AI-roadmap & leadership",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "KYC-proces versneld met AI-assisted documentanalyse",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "Laten we jouw case bespreken.",
+      "regio": "main",
+      "id": null
+    }
+  ],
+  "bodytekst": {
+    "regio": "main",
+    "woorden": 573,
+    "sha256": "c69ffedee1a2fda0bb5ad078023d2b911b06fc4de51e213ededc5d1f54295910",
+    "blokken": [
+      "← Terug naar cases",
+      "Industrial / B2B",
+      "AI-roadmap& leadership",
+      "Zeven pilots in vier landen, geen van alle opgeschaald. Negen maanden later: één roadmap, drie productietoepassingen en een interne lead die het stokje overnam.",
+      "Sector: Industrial / B2B Dienst: Fractional AI Lead Duur: 9 maanden Jaar: 2025",
+      "Bewijs in cijfers",
+      "✓7losse pilots bij aanvang",
+      "✓3toepassingen naar productie",
+      "✓25%productiviteitsdoel vastgesteld",
+      "✓4landen onder één governance",
+      "✓9maanden tot interne overdracht",
+      "AI in Europa",
+      "Europese merken die AI al in productie hebben.",
+      "Geen klanten van mij. Wel voorbeelden van wat er gebeurt als AI voorbij de pilot komt.",
+      "Pauzeer",
+      "Klarna",
+      "Zweden",
+      "AI-assistent in de klantenservice",
+      "Zalando",
+      "Duitsland",
+      "Mode-assistent voor productadvies",
+      "Financial services",
+      "Investeringsmaatschappij",
+      "AI-strategie en use-case portfolio",
+      "Booking.com",
+      "Nederland",
+      "AI Trip Planner voor reisplanning",
+      "Siemens",
+      "Duitsland",
+      "Industrial Copilot voor engineering",
+      "Retail",
+      "Enterprise retailer",
+      "AI-gedreven vendorselectie",
+      "Spotify",
+      "Zweden",
+      "AI DJ en gepersonaliseerde playlists",
+      "Mercedes-Benz",
+      "Duitsland",
+      "Generatieve spraakassistent in de auto",
+      "Industrial / B2B",
+      "Internationale maakorganisatie",
+      "AI-roadmap en leadership",
+      "ING",
+      "Nederland",
+      "Generatieve chatbot voor klantvragen",
+      "L'Oréal",
+      "Frankrijk",
+      "Beauty Genius: persoonlijk advies",
+      "Financial services",
+      "Financiële dienstverlener",
+      "KYC versneld met AI-documentanalyse",
+      "SAP",
+      "Duitsland",
+      "Joule: copilot in bedrijfssoftware",
+      "Carrefour",
+      "Frankrijk",
+      "Hopla: boodschappenassistent",
+      "Strategy & AI",
+      "SaaS scale-up",
+      "AI-readiness assessment",
+      "Adyen",
+      "Nederland",
+      "AI-optimalisatie van betalingen",
+      "Philips",
+      "Nederland",
+      "AI in medische beeldvorming",
+      "Proces & productivity",
+      "Zakelijke dienstverlener",
+      "Interne AI-assistent voor kenniswerkers",
+      "vertrouwen,ervaring, impact ↓",
+      "Independent No vendor bias Senior only20+ jaar ervaring",
+      "Focus op waarde",
+      "Geen hypewel impact",
+      "1",
+      "Situatie",
+      "Een internationale maakorganisatie met vestigingen in vier landen had op elke locatie iets met AI opgezet. Kwaliteitsinspectie met beeldherkenning in Duitsland, onderhoudsvoorspelling in Nederland, een offerte-assistent in Polen. Alle zeven pilots werkten technisch. Geen enkele was opgeschaald.",
+      "2",
+      "Uitdaging",
+      "Er was geen eigenaar. De CIO had de portefeuille erbij gekregen, maar geen tijd en geen AI-achtergrond. Zonder iemand die de agenda bewaakte, verdween elk initiatief zodra de lokale enthousiasteling een andere prioriteit kreeg. Een fulltime Head of AI aannemen was niet realistisch zolang de scope van die rol onduidelijk was.",
+      "3",
+      "Aanpak",
+      "Ik startte als fractional AI lead voor drie dagen per maand. De eerste maand ging op aan een eerlijke inventarisatie: wat draait er echt, wat kost het, en wie gebruikt het. Van de zeven pilots bleken er twee al feitelijk gestopt. In maand twee en drie richtten we de governance in: één stuurgroep, één besliskader, één set meetpunten waar alle vier de landen aan rapporteerden.",
+      "4",
+      "Besluit",
+      "Drie pilots kregen groen licht om te schalen, twee werden bewust beëindigd en twee werden geparkeerd tot het datafundament op orde was. Het besluit om te stoppen kostte de meeste discussie en leverde de meeste capaciteit op.",
+      "5",
+      "Resultaat",
+      "De roadmap werd goedgekeurd met een productiviteitsdoel van 25% op de betrokken processen. Drie toepassingen draaien in productie over meerdere vestigingen. Na negen maanden nam een intern gepromoveerde lead de rol over; ik bouwde af naar één dag per maand als sparringpartner.",
+      "“Eindelijk iemand die AI vertaalt naar waarde, niet naar technologie. En die durft te zeggen wat we moesten stoppen.”CEO, industriebedrijf",
+      "Mijn rol",
+      "Fractional AI lead, 3 dagen per maand",
+      "Portfolio-inventarisatie en opschoning",
+      "Governance en besliskader over 4 landen",
+      "Voorzitterschap stuurgroep",
+      "Coaching en overdracht aan interne lead",
+      "Ingezette dienst",
+      "Fractional AI Lead 2, 4 of 8 dagen / maand · €2.600 / €5.200 / €10.400 per maand Bekijk deze dienst →",
+      "Volgende case",
+      "KYC-proces versneld met AI-assisted documentanalyse",
+      "Handmatige documentcontrole zorgde voor lange doorlooptijden en fouten.",
+      "Lees de case →",
+      "Klaar voor impact?",
+      "Laten we jouw case bespreken.",
+      "Vrijblijvend sparren over jouw uitdaging, de mogelijkheden en de beste volgende stap.",
+      "30 min., geen pitch deckPlan een gesprek →"
+    ]
+  },
+  "links": [
+    {
+      "regio": "overig",
+      "soort": "intern",
+      "href": "#main",
+      "anker": "Naar hoofdinhoud",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/",
+      "anker": "",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/diensten",
+      "anker": "Diensten",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/cases",
+      "anker": "Cases",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/werkwijze",
+      "anker": "Werkwijze",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/inzichten",
+      "anker": "Inzichten",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/over",
+      "anker": "Over mij",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/contact",
+      "anker": "Plan een gesprek →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/cases",
+      "anker": "← Terug naar cases",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/diensten/fractional-ai-lead",
+      "anker": "Ingezette dienst Fractional AI Lead 2, 4 of 8 dagen / maand · €2.600 / €5.200 / €10.400 per maand Bekijk deze dienst →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/cases/kyc-documentanalyse-financial-services",
+      "anker": "Lees de case →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/contact",
+      "anker": "Plan een gesprek →",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/diensten/ai-readiness-assessment",
+      "anker": "AI Readiness Assessment",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/diensten/ai-strategy-sprint",
+      "anker": "AI Strategy Sprint",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/diensten/fractional-ai-lead",
+      "anker": "Fractional AI Lead",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/diensten",
+      "anker": "Alle diensten",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/cases",
+      "anker": "Cases",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/werkwijze",
+      "anker": "Werkwijze",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/inzichten",
+      "anker": "Inzichten",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/veelgestelde-vragen",
+      "anker": "Veelgestelde vragen",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/over",
+      "anker": "Over mij",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-consultancy",
+      "anker": "AI consultancy",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-implementatie",
+      "anker": "AI implementatie",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-automatisering",
+      "anker": "AI automatisering",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-voor-bedrijven",
+      "anker": "AI voor bedrijven",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-development",
+      "anker": "AI development",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-agents",
+      "anker": "AI agents",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-beleid",
+      "anker": "AI beleid",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-workshop",
+      "anker": "AI workshop",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/markten",
+      "anker": "AI per branche",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/kennisbank",
+      "anker": "Kennisbank",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/tarieven",
+      "anker": "Tarieven",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/partnernetwerk",
+      "anker": "Partnernetwerk",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "overig",
+      "href": "mailto:dave@freelanceaiconsultant.com",
+      "anker": "dave@freelanceaiconsultant.com",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "extern",
+      "href": "https://www.linkedin.com/in/davewillemstein",
+      "anker": "LinkedIn ↗",
+      "rel": "noopener"
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/contact",
+      "anker": "Plan een gesprek",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/privacy",
+      "anker": "Privacyverklaring",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/algemene-voorwaarden",
+      "anker": "Algemene voorwaarden",
+      "rel": null
+    }
+  ],
+  "structured_data": {
+    "sha256": "9f4155cc59909c409e8310d1566490b8067260860db016eedf6757e03acfb85f",
+    "items": [
+      {
+        "@context": "https://schema.org",
+        "@type": "Article",
+        "headline": "AI-roadmap & leadership voor internationale maakorganisatie",
+        "description": "Zeven pilots in vier landen, geen van alle opgeschaald. Negen maanden later: één roadmap, drie productietoepassingen en een interne lead die het stokje overnam.",
+        "author": {
+          "@type": "Person",
+          "name": "Dave Willemstein",
+          "url": "https://freelanceaiconsultant.com"
+        },
+        "publisher": {
+          "@type": "Person",
+          "name": "Dave Willemstein"
+        },
+        "about": "Industrial / B2B"
+      }
+    ]
+  },
+  "afbeeldingen": [
+    {
+      "regio": "header",
+      "src": "/images/freelance-ai-consultant-logo-header.png",
+      "alt": "freelanceaiconsultant.com logo",
+      "width": "600",
+      "height": "287",
+      "loading": null
+    },
+    {
+      "regio": "main",
+      "src": "/images/dave-portrait.jpg",
+      "alt": "Dave Willemstein, Independent AI Advisor",
+      "width": "500",
+      "height": "620",
+      "loading": "lazy"
+    },
+    {
+      "regio": "footer",
+      "src": "/images/freelance-ai-consultant-icon-footer.png",
+      "alt": "",
+      "width": "192",
+      "height": "192",
+      "loading": "lazy"
+    }
+  ],
+  "laadprestaties": {
+    "scripts": [
+      {
+        "src": "/logo-carousel/logo-carousel.js?v=2",
+        "type": null,
+        "inline_bytes": 0
+      }
+    ],
+    "stylesheets": [
+      "https://fonts.googleapis.com/css2?family=Caveat:wght@600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap",
+      "/_astro/_slug_.bq6BBoZ5.css",
+      "/logo-carousel/logo-carousel.css?v=2"
+    ],
+    "aantal_details": 0,
+    "aantal_tabellen": 0
+  }
+}

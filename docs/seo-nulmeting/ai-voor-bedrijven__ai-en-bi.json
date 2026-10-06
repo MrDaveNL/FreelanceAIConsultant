@@ -1,0 +1,751 @@
+{
+  "url": "/ai-voor-bedrijven/ai-en-bi",
+  "build_bestand": "dist/ai-voor-bedrijven/ai-en-bi/index.html",
+  "bron": [
+    "src/content/pages/ai-voor-bedrijven/ai-en-bi/index.md",
+    "src/pages/[...slug].astro"
+  ],
+  "gemeten_op": "2026-10-06",
+  "html": {
+    "bytes": 33498,
+    "sha256": "12014a4c3ef60a95732f7b9a5ae8f485913295e2bdf4d98f57a1195670b73faf",
+    "lang": "nl"
+  },
+  "beschermd": {
+    "title": "AI en BI | Het verschil en hoe je ze slim combineert",
+    "meta_description": "Wat is het verschil tussen AI en BI, en hoe versterken ze elkaar? Lees hoe AI business intelligence slimmer maakt, met voorbeelden en een praktische aanpak.",
+    "canonical": "https://freelanceaiconsultant.com/ai-voor-bedrijven/ai-en-bi",
+    "robots_meta": null,
+    "hreflang": [],
+    "h1": [
+      "AI en BI: het verschil en hoe ze elkaar versterken"
+    ]
+  },
+  "social": {
+    "og:type": "website",
+    "og:locale": "nl_NL",
+    "og:site_name": "freelanceaiconsultant.com",
+    "og:title": "AI en BI | Het verschil en hoe je ze slim combineert",
+    "og:description": "Wat is het verschil tussen AI en BI, en hoe versterken ze elkaar? Lees hoe AI business intelligence slimmer maakt, met voorbeelden en een praktische aanpak.",
+    "og:url": "https://freelanceaiconsultant.com/ai-voor-bedrijven/ai-en-bi",
+    "og:image": "https://freelanceaiconsultant.com/images/dave-portrait.jpg",
+    "twitter:card": "summary_large_image",
+    "twitter:title": "AI en BI | Het verschil en hoe je ze slim combineert",
+    "twitter:description": "Wat is het verschil tussen AI en BI, en hoe versterken ze elkaar? Lees hoe AI business intelligence slimmer maakt, met voorbeelden en een praktische aanpak.",
+    "twitter:image": "https://freelanceaiconsultant.com/images/dave-portrait.jpg"
+  },
+  "koppen": [
+    {
+      "niveau": 1,
+      "tekst": "AI en BI: het verschil en hoe ze elkaar versterken",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "Wat is business intelligence?",
+      "regio": "main",
+      "id": "wat-is-business-intelligence"
+    },
+    {
+      "niveau": 2,
+      "tekst": "Wat is AI?",
+      "regio": "main",
+      "id": "wat-is-ai"
+    },
+    {
+      "niveau": 2,
+      "tekst": "Het verschil tussen AI en BI",
+      "regio": "main",
+      "id": "het-verschil-tussen-ai-en-bi"
+    },
+    {
+      "niveau": 2,
+      "tekst": "Hoe AI business intelligence versterkt",
+      "regio": "main",
+      "id": "hoe-ai-business-intelligence-versterkt"
+    },
+    {
+      "niveau": 2,
+      "tekst": "Voorbeelden",
+      "regio": "main",
+      "id": "voorbeelden"
+    },
+    {
+      "niveau": 2,
+      "tekst": "Veelgestelde vragen",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "Bronnen",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "Van AI-ambitie naar concrete resultaten.",
+      "regio": "main",
+      "id": null
+    }
+  ],
+  "bodytekst": {
+    "regio": "main",
+    "woorden": 1611,
+    "sha256": "84784197893c1983b1e240ab5750f0feaf4003372e39b5b29c9696af5dc9918e",
+    "blokken": [
+      "Home",
+      "AI voor bedrijven",
+      "AI en BI",
+      "AI en BI",
+      "AI en BI: het verschil en hoe ze elkaar versterken",
+      "AI en BI worden vaak door elkaar gehaald, maar ze beantwoorden verschillende vragen. Business intelligence laat zien wat er is gebeurd; AI helpt voorspellen, verklaren en informatie ontsluiten die niet in een tabel past. Hier lees je het verschil, hoe AI BI versterkt en waarom een goed BI-fundament vaak de beste opstap naar AI is.",
+      "Lees meer over AI voor bedrijven → Bekijk de AI Readiness Assessment →",
+      "Geschreven door Dave Willemstein, onafhankelijk AI consultant · gepubliceerd 23 september 2026",
+      "IN HET KORT",
+      "BI beschrijft en verklaart het verleden met gestructureerde data; AI voorspelt, classificeert en werkt ook met tekst.",
+      "AI in BI-tools is zo goed als het datamodel eronder: eenduidige definities gaan voor slimme functies.",
+      "Een werkende BI-omgeving met vertrouwde cijfers is vaak het beste startpunt voor AI.",
+      "AI in Europa",
+      "Europese merken die AI al in productie hebben.",
+      "Geen klanten van mij. Wel voorbeelden van wat er gebeurt als AI voorbij de pilot komt.",
+      "Pauzeer",
+      "Klarna",
+      "Zweden",
+      "AI-assistent in de klantenservice",
+      "Zalando",
+      "Duitsland",
+      "Mode-assistent voor productadvies",
+      "Financial services",
+      "Investeringsmaatschappij",
+      "AI-strategie en use-case portfolio",
+      "Booking.com",
+      "Nederland",
+      "AI Trip Planner voor reisplanning",
+      "Siemens",
+      "Duitsland",
+      "Industrial Copilot voor engineering",
+      "Retail",
+      "Enterprise retailer",
+      "AI-gedreven vendorselectie",
+      "Spotify",
+      "Zweden",
+      "AI DJ en gepersonaliseerde playlists",
+      "Mercedes-Benz",
+      "Duitsland",
+      "Generatieve spraakassistent in de auto",
+      "Industrial / B2B",
+      "Internationale maakorganisatie",
+      "AI-roadmap en leadership",
+      "ING",
+      "Nederland",
+      "Generatieve chatbot voor klantvragen",
+      "L'Oréal",
+      "Frankrijk",
+      "Beauty Genius: persoonlijk advies",
+      "Financial services",
+      "Financiële dienstverlener",
+      "KYC versneld met AI-documentanalyse",
+      "SAP",
+      "Duitsland",
+      "Joule: copilot in bedrijfssoftware",
+      "Carrefour",
+      "Frankrijk",
+      "Hopla: boodschappenassistent",
+      "Strategy & AI",
+      "SaaS scale-up",
+      "AI-readiness assessment",
+      "Adyen",
+      "Nederland",
+      "AI-optimalisatie van betalingen",
+      "Philips",
+      "Nederland",
+      "AI in medische beeldvorming",
+      "Proces & productivity",
+      "Zakelijke dienstverlener",
+      "Interne AI-assistent voor kenniswerkers",
+      "Wat is business intelligence?",
+      "Business intelligence, kortweg BI, is het verzamelen, ordenen en zichtbaar maken van bedrijfsgegevens zodat je er beslissingen op kunt nemen. Denk aan dashboards met omzet per regio, rapportages over voorraad en marge, of een maandoverzicht voor het managementteam.",
+      "Onder de dashboards zit het echte werk: gegevens uit verschillende systemen samenbrengen, opschonen en vastleggen wat een begrip betekent. Wat is een klant, wanneer telt een order als omzet, hoe bereken je marge? BI draait om gestructureerde data in tabellen, en om vaste, herhaalbare vragen: wat is er gebeurd, en waarom?",
+      "Goede BI zorgt ervoor dat iedereen in de organisatie over dezelfde cijfers praat. Dat klinkt eenvoudig, maar het is vaak het moeilijkste deel.",
+      "Wat is AI?",
+      "AI, kunstmatige intelligentie, is een verzamelnaam voor systemen die patronen leren uit data en daarmee taken uitvoeren die eerder menselijk denkwerk vroegen. In een zakelijke context gaat het meestal om twee soorten:",
+      "Voorspellende AI (machine learning): modellen die op basis van historische data een uitkomst voorspellen of indelen, zoals de verwachte vraag volgende maand of de kans dat een klant opzegt.",
+      "Generatieve AI: taalmodellen die tekst begrijpen en maken. Ze kunnen documenten samenvatten, vragen in gewone taal beantwoorden en informatie halen uit e-mails, contracten of klantreacties.",
+      "Waar BI vooral met tabellen werkt, kan AI ook overweg met ongestructureerde informatie. En waar BI terugkijkt, kijkt voorspellende AI vooruit. Wat AI voor organisaties in bredere zin kan betekenen, staat op de overzichtspagina AI voor bedrijven.",
+      "Het verschil tussen AI en BI",
+      "Het verschil tussen BI en AI zit in de vraag die ze beantwoorden, het soort data waarmee ze werken en wat je met de uitkomst doet:",
+      "Business intelligence",
+      "AI",
+      "Hoofdvraag",
+      "Wat is er gebeurd en waarom?",
+      "Wat gaat er gebeuren, wat hoort bij wat, wat staat hierin?",
+      "Data",
+      "Vooral gestructureerd: tabellen en systemen",
+      "Gestructureerd én ongestructureerd: tekst, documenten, beeld",
+      "Uitkomst",
+      "Rapportages en dashboards",
+      "Voorspellingen, classificaties, samenvattingen, conceptteksten",
+      "Wie beslist",
+      "De mens, op basis van cijfers",
+      "De mens, met een voorstel of inschatting van het systeem",
+      "Zekerheid",
+      "Exact, mits de data klopt",
+      "Waarschijnlijk, met een foutmarge die je moet kennen",
+      "De laatste rij is het belangrijkste verschil. Een BI-rapport rekent: als de data klopt, klopt de uitkomst. Een AI-model schat in, en maakt daarbij fouten. Dat vraagt een andere manier van controleren en een ander gesprek over verantwoordelijkheid.",
+      "Ze zijn dus geen concurrenten. BI levert de betrouwbare cijfers en definities; AI bouwt daarop voort.",
+      "Hoe AI business intelligence versterkt",
+      "AI gebruiken voor business intelligence kan op vier manieren, van eenvoudig naar ingrijpend:",
+      "Vragen in gewone taalEen vraag typen in plaats van zelf een rapport filteren of bouwen.",
+      "Automatische toelichtingSamenvattingen en verklaringen bij cijfers en afwijkingen.",
+      "VoorspellenVooruitkijken naar vraag, uitval of risico, naast de terugblik.",
+      "Nieuwe bronnenTekst uit e-mails, klantreacties en documenten omzetten in analyseerbare gegevens.",
+      "Hoe verder naar beneden, hoe meer waarde, maar ook hoe meer eisen aan data, controle en beheer. Alle vier rusten op een betrouwbaar datamodel.",
+      "De eerste twee zitten inmiddels in veel BI-platforms. Een voorbeeld: Copilot in Power BI laat gebruikers vragen stellen over rapporten, samenvattingen maken en helpt makers bij het bouwen van rapportpagina’s en berekeningen. Microsoft zegt er zelf bij dat Copilot zonder voorbereiding van het datamodel de data verkeerd kan interpreteren en algemene of onjuiste antwoorden kan geven. Ook vraagt het een betaalde Fabric- of Premium-capaciteit; een Pro-licentie alleen is niet genoeg (stand september 2026, volgens Microsoft Learn).",
+      "Dat illustreert het punt: AI in BI is zo goed als het fundament eronder. Onduidelijke kolomnamen, drie definities van “omzet” en ontbrekende beschrijvingen leiden tot antwoorden die overtuigend klinken maar niet kloppen. Hoe je dat fundament opbouwt langs concrete toepassingen, in plaats van eerst alles op orde te willen hebben, beschreef ik in het datafundament onder AI.",
+      "Voorbeelden",
+      "Een paar herkenbare manieren waarop AI en BI samenkomen:",
+      "Managementrapportage met toelichting. Het maandrapport wordt aangevuld met een samenvatting van de belangrijkste afwijkingen in gewone taal, die de controller controleert en aanvult.",
+      "Vraagvoorspelling. Naast de verkoopcijfers van vorig jaar laat het dashboard een verwachting voor de komende weken zien, als input voor inkoop en planning.",
+      "Klantreacties in cijfers. Reviews, klachten en e-mails worden automatisch ingedeeld naar onderwerp en toon, zodat je ze naast je omzet- en retourcijfers kunt leggen.",
+      "Zelf vragen stellen. Een salesmanager vraagt in gewone taal welke klanten minder bestellen dan vorig kwartaal, zonder te wachten op een nieuw rapport.",
+      "Afwijkingen signaleren. Ongebruikelijke boekingen of plotselinge veranderingen in een reeks worden gemarkeerd voor een menselijke controle.",
+      "Voor kleinere bedrijven begint het meestal bij de AI-functies in het BI- of boekhoudpakket dat ze al gebruiken; zie ook AI voor het mkb. Bij zakelijke dienstverleners ligt het accent vaker op het ontsluiten van documenten dan op dashboards.",
+      "Voorbeeldscenario",
+      "Een retailketen met 35 winkels en een BI-team van twee mensen wil Copilot in Power BI inzetten, zodat acht regiomanagers zelf vragen over omzet en marge kunnen stellen. De adviseur toetst vooraf 50 vragen die de regiomanagers echt stellen tegen het bestaande datamodel.",
+      "Van die 50 antwoorden kloppen er 19 niet. De oorzaak zit niet in de AI: er zijn drie verschillende definities van marge in omloop en veel kolomnamen zeggen niets. Het BI-team legt in zes weken eenduidige definities en beschrijvingen vast voor de twintig meest gebruikte begrippen. Bij een tweede toets op dezelfde vragen kloppen er 44 van de 50.",
+      "Bewust niet gedaan: de functie meteen openzetten voor alle 120 rapportgebruikers. De uitrol begint bij de acht regiomanagers, met een maandelijkse steekproef door het BI-team.",
+      "Fictief voorbeeld, samengesteld uit situaties die veel voorkomen. Organisatie en cijfers zijn illustratief.",
+      "Waar sta ik in dit verhaal? Ik ben geen BI-bouwer. Ik maak geen dashboards en richt geen datawarehouses in. Mijn rol ligt ervoor en erboven: helpen bepalen welke AI-toepassingen op je data waarde opleveren, wat daarvoor aan het fundament moet gebeuren en welke partij het kan uitvoeren. Dat doe ik als onderdeel van mijn AI consultancy. Voor de uitvoering werkt je eigen BI-team of een partij uit mijn partnernetwerk, die je rechtstreeks contracteert.",
+      "Wil je weten wat de BI-rol zelf inhoudt en hoe die verandert, lees dan wat een BI-specialist doet. Twijfel je of je vraag bij BI, AI of allebei hoort, neem dan contact op voor een kort gesprek.",
+      "Dave Willemstein Onafhankelijk AI-adviseur",
+      "Onafhankelijk: geen commissies, geen partnerdeals, geen marge op implementatiepartners.",
+      "Over mij Mijn partnernetwerk",
+      "Weten waar je staat met AI? Bekijk de AI Readiness Assessment →",
+      "Veelgestelde vragen",
+      "Vervangt AI straks onze dashboards?+",
+      "Niet helemaal. Vaste dashboards blijven nuttig voor de cijfers die je elke week op dezelfde manier wilt zien. AI maakt het wel makkelijker om buiten die vaste vragen om te zoeken, bijvoorbeeld door een vraag in gewone taal te stellen. De kans is groot dat je minder dashboards nodig hebt, maar een betere set kerncijfers.",
+      "Moeten we eerst BI op orde hebben voordat we aan AI beginnen?+",
+      "Niet voor elke toepassing. AI voor tekst en documenten, zoals samenvatten of e-mail sorteren, staat grotendeels los van je BI-omgeving. Wil je AI gebruiken voor analyses en voorspellingen op je bedrijfscijfers, dan heb je wel eenduidige definities en betrouwbare data nodig voor de cijfers die die toepassing gebruikt.",
+      "Kan ik vragen over mijn cijfers stellen in gewone taal?+",
+      "Steeds meer BI-platforms bieden die mogelijkheid. Of de antwoorden kloppen, hangt vooral af van hoe goed het datamodel is ingericht: duidelijke namen, beschrijvingen van begrippen en vastgelegde berekeningen. Zonder die voorbereiding geeft zo'n functie snel algemene of onjuiste antwoorden.",
+      "Wie heb ik nodig: een BI-specialist, een data scientist of een AI-adviseur?+",
+      "Dat hangt af van de vraag. Een BI-specialist bouwt en beheert rapportages en datamodellen. Een data scientist ontwikkelt voorspellende modellen. Een AI-adviseur helpt bepalen welke toepassingen waarde opleveren, welke rol en partij daarbij past en hoe je het borgt. In kleinere organisaties combineer je vaak een interne BI-kracht met externe ondersteuning.",
+      "Bronnen",
+      "Microsoft Learn: Copilot for Power BI overview (bijgewerkt augustus 2026)",
+      "Klaar voor impact?",
+      "Van AI-ambitie naar concrete resultaten.",
+      "Plan een vrijblijvend gesprek. Geen pitch. Wel scherpe vragen.",
+      "30 min., geen pitch deckPlan een gesprek →"
+    ]
+  },
+  "links": [
+    {
+      "regio": "overig",
+      "soort": "intern",
+      "href": "#main",
+      "anker": "Naar hoofdinhoud",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/",
+      "anker": "",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/diensten",
+      "anker": "Diensten",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/cases",
+      "anker": "Cases",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/werkwijze",
+      "anker": "Werkwijze",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/inzichten",
+      "anker": "Inzichten",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/over",
+      "anker": "Over mij",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/contact",
+      "anker": "Plan een gesprek →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/",
+      "anker": "Home",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/ai-voor-bedrijven",
+      "anker": "AI voor bedrijven",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/ai-voor-bedrijven",
+      "anker": "Lees meer over AI voor bedrijven →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/diensten/ai-readiness-assessment",
+      "anker": "Bekijk de AI Readiness Assessment →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/over",
+      "anker": "Dave Willemstein",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/ai-voor-bedrijven",
+      "anker": "AI voor bedrijven",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "extern",
+      "href": "https://learn.microsoft.com/en-us/power-bi/create-reports/copilot-introduction",
+      "anker": "Microsoft Learn",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/inzichten/het-datafundament-onder-ai",
+      "anker": "het datafundament onder AI",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/ai-voor-bedrijven/mkb",
+      "anker": "AI voor het mkb",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/ai-voor-bedrijven/zakelijke-dienstverleners",
+      "anker": "zakelijke dienstverleners",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/ai-consultancy",
+      "anker": "AI consultancy",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/partnernetwerk",
+      "anker": "partnernetwerk",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/kennisbank/wat-doet-een-bi-specialist",
+      "anker": "wat een BI-specialist doet",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/contact",
+      "anker": "neem dan contact op",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/over",
+      "anker": "Over mij",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/partnernetwerk",
+      "anker": "Mijn partnernetwerk",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/diensten/ai-readiness-assessment",
+      "anker": "Weten waar je staat met AI? Bekijk de AI Readiness Assessment →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "extern",
+      "href": "https://learn.microsoft.com/en-us/power-bi/create-reports/copilot-introduction",
+      "anker": "Microsoft Learn: Copilot for Power BI overview (bijgewerkt augustus 2026)",
+      "rel": "noopener"
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/contact",
+      "anker": "Plan een gesprek →",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/diensten/ai-readiness-assessment",
+      "anker": "AI Readiness Assessment",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/diensten/ai-strategy-sprint",
+      "anker": "AI Strategy Sprint",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/diensten/fractional-ai-lead",
+      "anker": "Fractional AI Lead",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/diensten",
+      "anker": "Alle diensten",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/cases",
+      "anker": "Cases",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/werkwijze",
+      "anker": "Werkwijze",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/inzichten",
+      "anker": "Inzichten",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/veelgestelde-vragen",
+      "anker": "Veelgestelde vragen",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/over",
+      "anker": "Over mij",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-consultancy",
+      "anker": "AI consultancy",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-implementatie",
+      "anker": "AI implementatie",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-automatisering",
+      "anker": "AI automatisering",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-voor-bedrijven",
+      "anker": "AI voor bedrijven",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-development",
+      "anker": "AI development",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-agents",
+      "anker": "AI agents",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-beleid",
+      "anker": "AI beleid",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-workshop",
+      "anker": "AI workshop",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/markten",
+      "anker": "AI per branche",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/kennisbank",
+      "anker": "Kennisbank",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/tarieven",
+      "anker": "Tarieven",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/partnernetwerk",
+      "anker": "Partnernetwerk",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "overig",
+      "href": "mailto:dave@freelanceaiconsultant.com",
+      "anker": "dave@freelanceaiconsultant.com",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "extern",
+      "href": "https://www.linkedin.com/in/davewillemstein",
+      "anker": "LinkedIn ↗",
+      "rel": "noopener"
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/contact",
+      "anker": "Plan een gesprek",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/privacy",
+      "anker": "Privacyverklaring",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/algemene-voorwaarden",
+      "anker": "Algemene voorwaarden",
+      "rel": null
+    }
+  ],
+  "structured_data": {
+    "sha256": "b494182306ea2782d030f3e38754c3e3061c261b5ac32cd7b1077c2dc382c91a",
+    "items": [
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://freelanceaiconsultant.com/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "AI voor bedrijven",
+                "item": "https://freelanceaiconsultant.com/ai-voor-bedrijven"
+              },
+              {
+                "@type": "ListItem",
+                "position": 3,
+                "name": "AI en BI",
+                "item": "https://freelanceaiconsultant.com/ai-voor-bedrijven/ai-en-bi"
+              }
+            ]
+          },
+          {
+            "@type": "Article",
+            "headline": "AI en BI: het verschil en hoe ze elkaar versterken",
+            "description": "Wat is het verschil tussen AI en BI, en hoe versterken ze elkaar? Lees hoe AI business intelligence slimmer maakt, met voorbeelden en een praktische aanpak.",
+            "inLanguage": "nl-NL",
+            "datePublished": "2026-09-23",
+            "dateModified": "2026-09-23",
+            "author": {
+              "@type": "Person",
+              "name": "Dave Willemstein",
+              "jobTitle": "Onafhankelijk AI-adviseur",
+              "url": "https://freelanceaiconsultant.com/over",
+              "sameAs": [
+                "https://www.linkedin.com/in/davewillemstein"
+              ]
+            },
+            "publisher": {
+              "@type": "Person",
+              "name": "Dave Willemstein"
+            },
+            "mainEntityOfPage": "https://freelanceaiconsultant.com/ai-voor-bedrijven/ai-en-bi"
+          },
+          {
+            "@type": "FAQPage",
+            "mainEntity": [
+              {
+                "@type": "Question",
+                "name": "Vervangt AI straks onze dashboards?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Niet helemaal. Vaste dashboards blijven nuttig voor de cijfers die je elke week op dezelfde manier wilt zien. AI maakt het wel makkelijker om buiten die vaste vragen om te zoeken, bijvoorbeeld door een vraag in gewone taal te stellen. De kans is groot dat je minder dashboards nodig hebt, maar een betere set kerncijfers."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Moeten we eerst BI op orde hebben voordat we aan AI beginnen?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Niet voor elke toepassing. AI voor tekst en documenten, zoals samenvatten of e-mail sorteren, staat grotendeels los van je BI-omgeving. Wil je AI gebruiken voor analyses en voorspellingen op je bedrijfscijfers, dan heb je wel eenduidige definities en betrouwbare data nodig voor de cijfers die die toepassing gebruikt."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Kan ik vragen over mijn cijfers stellen in gewone taal?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Steeds meer BI-platforms bieden die mogelijkheid. Of de antwoorden kloppen, hangt vooral af van hoe goed het datamodel is ingericht: duidelijke namen, beschrijvingen van begrippen en vastgelegde berekeningen. Zonder die voorbereiding geeft zo'n functie snel algemene of onjuiste antwoorden."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Wie heb ik nodig: een BI-specialist, een data scientist of een AI-adviseur?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Dat hangt af van de vraag. Een BI-specialist bouwt en beheert rapportages en datamodellen. Een data scientist ontwikkelt voorspellende modellen. Een AI-adviseur helpt bepalen welke toepassingen waarde opleveren, welke rol en partij daarbij past en hoe je het borgt. In kleinere organisaties combineer je vaak een interne BI-kracht met externe ondersteuning."
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "afbeeldingen": [
+    {
+      "regio": "header",
+      "src": "/images/freelance-ai-consultant-logo-header.png",
+      "alt": "freelanceaiconsultant.com logo",
+      "width": "600",
+      "height": "287",
+      "loading": null
+    },
+    {
+      "regio": "main",
+      "src": "/images/dave-portrait.jpg",
+      "alt": "Portret van Dave Willemstein",
+      "width": "88",
+      "height": "88",
+      "loading": "lazy"
+    },
+    {
+      "regio": "footer",
+      "src": "/images/freelance-ai-consultant-icon-footer.png",
+      "alt": "",
+      "width": "192",
+      "height": "192",
+      "loading": "lazy"
+    }
+  ],
+  "laadprestaties": {
+    "scripts": [
+      {
+        "src": "/logo-carousel/logo-carousel.js?v=2",
+        "type": null,
+        "inline_bytes": 0
+      }
+    ],
+    "stylesheets": [
+      "https://fonts.googleapis.com/css2?family=Caveat:wght@600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap",
+      "/_astro/_slug_.bq6BBoZ5.css",
+      "/_astro/_slug_.goiX3PVF.css",
+      "/logo-carousel/logo-carousel.css?v=2"
+    ],
+    "aantal_details": 4,
+    "aantal_tabellen": 1
+  }
+}

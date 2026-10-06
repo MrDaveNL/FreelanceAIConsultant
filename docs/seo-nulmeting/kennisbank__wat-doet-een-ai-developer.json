@@ -1,0 +1,667 @@
+{
+  "url": "/kennisbank/wat-doet-een-ai-developer",
+  "build_bestand": "dist/kennisbank/wat-doet-een-ai-developer/index.html",
+  "bron": [
+    "src/content/pages/kennisbank/wat-doet-een-ai-developer/index.md",
+    "src/pages/[...slug].astro"
+  ],
+  "gemeten_op": "2026-10-06",
+  "html": {
+    "bytes": 28622,
+    "sha256": "58c38af036bd2644407401970b2030faa906940198b51b250febe369a9a03619",
+    "lang": "nl"
+  },
+  "beschermd": {
+    "title": "Wat doet een AI developer? Taken, skills en samenwerking",
+    "meta_description": "Wat doet een AI developer en hoe verschilt die van een AI consultant? Lees over taken, vaardigheden, tools en hoe je goed samenwerkt met AI developers.",
+    "canonical": "https://freelanceaiconsultant.com/kennisbank/wat-doet-een-ai-developer",
+    "robots_meta": null,
+    "hreflang": [],
+    "h1": [
+      "Wat doet een AI developer?"
+    ]
+  },
+  "social": {
+    "og:type": "website",
+    "og:locale": "nl_NL",
+    "og:site_name": "freelanceaiconsultant.com",
+    "og:title": "Wat doet een AI developer? Taken, skills en samenwerking",
+    "og:description": "Wat doet een AI developer en hoe verschilt die van een AI consultant? Lees over taken, vaardigheden, tools en hoe je goed samenwerkt met AI developers.",
+    "og:url": "https://freelanceaiconsultant.com/kennisbank/wat-doet-een-ai-developer",
+    "og:image": "https://freelanceaiconsultant.com/images/dave-portrait.jpg",
+    "twitter:card": "summary_large_image",
+    "twitter:title": "Wat doet een AI developer? Taken, skills en samenwerking",
+    "twitter:description": "Wat doet een AI developer en hoe verschilt die van een AI consultant? Lees over taken, vaardigheden, tools en hoe je goed samenwerkt met AI developers.",
+    "twitter:image": "https://freelanceaiconsultant.com/images/dave-portrait.jpg"
+  },
+  "koppen": [
+    {
+      "niveau": 1,
+      "tekst": "Wat doet een AI developer?",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "Wat is een AI developer?",
+      "regio": "main",
+      "id": "wat-is-een-ai-developer"
+    },
+    {
+      "niveau": 2,
+      "tekst": "Taken",
+      "regio": "main",
+      "id": "taken"
+    },
+    {
+      "niveau": 2,
+      "tekst": "Vaardigheden en tools",
+      "regio": "main",
+      "id": "vaardigheden-en-tools"
+    },
+    {
+      "niveau": 2,
+      "tekst": "AI developer versus AI consultant",
+      "regio": "main",
+      "id": "ai-developer-versus-ai-consultant"
+    },
+    {
+      "niveau": 2,
+      "tekst": "Van AI-ambitie naar concrete resultaten.",
+      "regio": "main",
+      "id": null
+    }
+  ],
+  "bodytekst": {
+    "regio": "main",
+    "woorden": 1377,
+    "sha256": "874f250df3dd335419922fd09d34d4a844da111249ec328bad268122266aaa5a",
+    "blokken": [
+      "Home",
+      "Kennisbank",
+      "Wat doet een AI developer?",
+      "Kennisbank",
+      "Wat doet een AI developer?",
+      "Wat doet een AI developer precies? Kort gezegd: die bouwt de software waarin AI het werk doet, van koppeling tot evaluatie. In dit artikel lees je welke taken daarbij horen, welke vaardigheden en tools een AI developer gebruikt, en hoe de rol verschilt van die van een AI consultant zoals ik.",
+      "Lees meer over AI development → Plan een adviesgesprek →",
+      "Geschreven door Dave Willemstein, onafhankelijk AI consultant · gepubliceerd 23 september 2026",
+      "IN HET KORT",
+      "Een AI developer bouwt, test en onderhoudt software waarin een AI-model een kernrol speelt.",
+      "Het meeste werk zit in data, koppelingen en evaluatie, niet in het model zelf.",
+      "Een AI consultant bepaalt wat er gebouwd moet worden; een AI developer bouwt het.",
+      "AI in Europa",
+      "Europese merken die AI al in productie hebben.",
+      "Geen klanten van mij. Wel voorbeelden van wat er gebeurt als AI voorbij de pilot komt.",
+      "Pauzeer",
+      "Klarna",
+      "Zweden",
+      "AI-assistent in de klantenservice",
+      "Zalando",
+      "Duitsland",
+      "Mode-assistent voor productadvies",
+      "Financial services",
+      "Investeringsmaatschappij",
+      "AI-strategie en use-case portfolio",
+      "Booking.com",
+      "Nederland",
+      "AI Trip Planner voor reisplanning",
+      "Siemens",
+      "Duitsland",
+      "Industrial Copilot voor engineering",
+      "Retail",
+      "Enterprise retailer",
+      "AI-gedreven vendorselectie",
+      "Spotify",
+      "Zweden",
+      "AI DJ en gepersonaliseerde playlists",
+      "Mercedes-Benz",
+      "Duitsland",
+      "Generatieve spraakassistent in de auto",
+      "Industrial / B2B",
+      "Internationale maakorganisatie",
+      "AI-roadmap en leadership",
+      "ING",
+      "Nederland",
+      "Generatieve chatbot voor klantvragen",
+      "L'Oréal",
+      "Frankrijk",
+      "Beauty Genius: persoonlijk advies",
+      "Financial services",
+      "Financiële dienstverlener",
+      "KYC versneld met AI-documentanalyse",
+      "SAP",
+      "Duitsland",
+      "Joule: copilot in bedrijfssoftware",
+      "Carrefour",
+      "Frankrijk",
+      "Hopla: boodschappenassistent",
+      "Strategy & AI",
+      "SaaS scale-up",
+      "AI-readiness assessment",
+      "Adyen",
+      "Nederland",
+      "AI-optimalisatie van betalingen",
+      "Philips",
+      "Nederland",
+      "AI in medische beeldvorming",
+      "Proces & productivity",
+      "Zakelijke dienstverlener",
+      "Interne AI-assistent voor kenniswerkers",
+      "Wat is een AI developer?",
+      "Een AI developer is een softwareontwikkelaar die toepassingen bouwt waarin kunstmatige intelligentie een kernrol speelt. Denk aan een assistent die vragen beantwoordt op basis van interne documenten, een applicatie die gegevens uit formulieren haalt of een agent die taken uitvoert in andere systemen.",
+      "Wat doet een AI developer dan anders dan een gewone ontwikkelaar? Het verschil zit in de onvoorspelbaarheid. Gewone software doet wat je programmeert. Een AI-model geeft een waarschijnlijk antwoord, en dat antwoord kan fout zijn. Een groot deel van het werk van een AI developer bestaat daarom uit meten, testen en afvangen: hoe goed werkt het, waar gaat het mis en wat gebeurt er dan?",
+      "De titel wordt breed gebruikt. Soms bedoelt men een machine learning engineer die zelf modellen traint. Vaker gaat het tegenwoordig om een ontwikkelaar die bestaande modellen van een leverancier inzet en er een toepassing omheen bouwt. Een overzicht van de verschillende profielen, van strategisch tot technisch, staat bij soorten AI specialisten.",
+      "Taken",
+      "De taken van een AI developer verschillen per project, maar komen meestal neer op zes onderdelen:",
+      "Vraag vertalenEen functionele wens omzetten in een technisch ontwerp met meetbare eisen",
+      "Data voorbereidenBronnen ontsluiten, opschonen en structureren zodat een model ermee kan werken",
+      "Oplossing bouwenEen model kiezen of trainen, prompts en regels opstellen, de applicatielogica schrijven",
+      "KoppelenDe toepassing verbinden met bestaande systemen, inclusief rechten en beveiliging",
+      "EvaluerenTestsets opstellen, kwaliteit meten, fouten analyseren en verbeteren",
+      "BeherenMonitoren na livegang, bijsturen als data of onderliggende modellen veranderen",
+      "Het model zelf is vaak een klein deel van het werk; data, koppelingen en evaluatie kosten de meeste tijd.",
+      "In de praktijk schuift het zwaartepunt naar de randen. Het aanroepen van een model is technisch niet ingewikkeld. Zorgen dat de juiste data op het juiste moment beschikbaar is, dat de toepassing niet meer ziet dan de gebruiker mag zien, en dat je kunt aantonen hoe goed het werkt: dat is waar het vakmanschap zit. Een rommelig datafundament is dan ook een veelvoorkomende rem, zoals ik beschreef in het datafundament onder AI.",
+      "Wat een AI developer doorgaans níét doet: bepalen of de toepassing de investering waard is, kiezen tussen leveranciers namens de organisatie, of de governance inrichten. Daar is een andere rol voor nodig, en daar kom ik verderop op terug.",
+      "Voorbeeldscenario",
+      "Een industrieel bedrijf met 300 medewerkers wil een assistent laten bouwen waarmee servicemonteurs vragen kunnen stellen over ruim 2.000 technische handleidingen.",
+      "De adviseur stelt samen met de servicemanager een specificatie op met meetbare eisen, plus een testset van 150 echte vragen waarvan senior monteurs de juiste antwoorden hebben vastgelegd. Die testset blijft van het bedrijf. Een ontwikkelpartij die het bedrijf rechtstreeks contracteert, bouwt de assistent. De adviseur toetst elke oplevering tegen de afgesproken eis van 85 procent juiste antwoorden.",
+      "De eerste oplevering scoort 71 procent. De developers vinden de oorzaak: verouderde versies van handleidingen werden als bron meegenomen. Na het opschonen van de bronnen scoort de assistent 87 procent en gaat hij na veertien weken live. Een koppeling met het ERP-systeem om onderdelen te bestellen is bewust doorgeschoven naar een tweede fase.",
+      "Fictief voorbeeld, samengesteld uit situaties die veel voorkomen. Organisatie en cijfers zijn illustratief.",
+      "Vaardigheden en tools",
+      "Een goede AI developer combineert gewone softwarevaardigheden met kennis van hoe modellen zich gedragen. De belangrijkste vaardigheden:",
+      "Programmeren. Python wordt in AI-werk veel gebruikt; daarnaast kennis van de talen en omgevingen waarin de rest van je software draait.",
+      "Werken met data. Databases, datastromen, opschonen en structureren. Zonder bruikbare data geen bruikbare AI.",
+      "Werken met modellen. Weten wanneer je een bestaand taalmodel gebruikt, wanneer je het met eigen documenten aanvult en wanneer trainen zinvol is. Het formuleren van goede instructies hoort daarbij; daarover gaat prompt engineering.",
+      "Integratie. API’s, authenticatie, rechtenmodellen en de systemen die je al gebruikt.",
+      "Evaluatie en testen. Testsets opbouwen, kwaliteit meetbaar maken en fouten systematisch analyseren.",
+      "Beveiliging en privacy. Weten welke data waar terechtkomt, en wat de AVG en de AI-verordening daarover vragen.",
+      "Qua tools werkt een AI developer met ontwikkelomgevingen, versiebeheer, cloudplatforms, de API’s van modelleveranciers en frameworks voor machine learning en voor het bouwen van toepassingen rond taalmodellen. Welke precies, verschilt per organisatie en verandert snel. Een goede developer kiest tools die passen bij je bestaande landschap, niet de nieuwste.",
+      "Voor wie AI developer wil worden: een achtergrond in softwareontwikkeling, informatica of data science is het gebruikelijke vertrekpunt. Daarna leer je het vak vooral door te bouwen, te meten en van fouten te leren. Wat de rol ongeveer oplevert, staat in het overzicht van het salaris van een AI specialist.",
+      "AI developer versus AI consultant",
+      "Een AI developer en een AI consultant werken aan hetzelfde doel, maar vanuit een andere vraag. De developer vraagt: hoe bouwen we dit goed? De consultant vraagt: moeten we dit bouwen, en zo ja, wat, door wie en hoe weten we of het werkt?",
+      "AI developer",
+      "AI consultant",
+      "Kernvraag",
+      "Hoe bouwen we dit?",
+      "Wat bouwen we, en waarom?",
+      "Product",
+      "Werkende software",
+      "Onderbouwd besluit, specificatie, selectieadvies",
+      "Werkt aan",
+      "Code, data, koppelingen, evaluatie",
+      "Prioriteiten, business case, leverancierskeuze, governance",
+      "Zit meestal",
+      "Bij de bouwpartij of in je IT-team",
+      "Aan de kant van de opdrachtgever",
+      "Ik ben zelf AI consultant en geen developer. Ik schrijf geen code en verkoop geen implementaties. In een ontwikkeltraject help ik bepalen wat er gebouwd moet worden, begeleid ik de keuze van een bouwpartij en toets ik of de oplevering doet wat is afgesproken. Het bouwen doet je eigen team of een ontwikkelpartij die je rechtstreeks contracteert. Wat een consultant verder doet, lees je in wat doet een AI consultant.",
+      "Die scheiding is geen formaliteit. Wie adviseert over wat er gebouwd moet worden en er zelf aan verdient, heeft belang bij een grotere scope. Een onafhankelijke adviseur naast een goede developer geeft je allebei: vakmanschap in de bouw en een tegenstem aan jouw kant van de tafel.",
+      "Voor een goede samenwerking met AI developers helpt het om drie dingen vooraf te regelen: een specificatie met meetbare eisen, een testset op je eigen data die van jou blijft, en afspraken over beheer en overdracht. Of je daarbij standaardsoftware inzet of laat bouwen, lees je bij AI software kiezen of laten bouwen. Hoe het hele traject verloopt, staat op de pagina over AI development.",
+      "Sta je op het punt een AI developer of bouwpartij in te schakelen en wil je vooraf sparren over de opdracht? Neem contact op voor een gesprek van dertig minuten.",
+      "Dave Willemstein Onafhankelijk AI-adviseur",
+      "Onafhankelijk: geen commissies, geen partnerdeals, geen marge op implementatiepartners.",
+      "Over mij Mijn partnernetwerk",
+      "Weten waar je staat met AI? Bekijk de AI Readiness Assessment →",
+      "Klaar voor impact?",
+      "Van AI-ambitie naar concrete resultaten.",
+      "Plan een vrijblijvend gesprek. Geen pitch. Wel scherpe vragen.",
+      "30 min., geen pitch deckPlan een gesprek →"
+    ]
+  },
+  "links": [
+    {
+      "regio": "overig",
+      "soort": "intern",
+      "href": "#main",
+      "anker": "Naar hoofdinhoud",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/",
+      "anker": "",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/diensten",
+      "anker": "Diensten",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/cases",
+      "anker": "Cases",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/werkwijze",
+      "anker": "Werkwijze",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/inzichten",
+      "anker": "Inzichten",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/over",
+      "anker": "Over mij",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/contact",
+      "anker": "Plan een gesprek →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/",
+      "anker": "Home",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/kennisbank",
+      "anker": "Kennisbank",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/ai-development",
+      "anker": "Lees meer over AI development →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/contact",
+      "anker": "Plan een adviesgesprek →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/over",
+      "anker": "Dave Willemstein",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/ai-development/ai-specialist",
+      "anker": "soorten AI specialisten",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/inzichten/het-datafundament-onder-ai",
+      "anker": "het datafundament onder AI",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/kennisbank/prompt-engineering",
+      "anker": "prompt engineering",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/kennisbank/ai-specialist-salaris",
+      "anker": "salaris van een AI specialist",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/kennisbank/wat-doet-een-ai-consultant",
+      "anker": "wat doet een AI consultant",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/ai-development/ai-software",
+      "anker": "AI software kiezen of laten bouwen",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/ai-development",
+      "anker": "AI development",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/contact",
+      "anker": "Neem contact op",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/over",
+      "anker": "Over mij",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/partnernetwerk",
+      "anker": "Mijn partnernetwerk",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/diensten/ai-readiness-assessment",
+      "anker": "Weten waar je staat met AI? Bekijk de AI Readiness Assessment →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/contact",
+      "anker": "Plan een gesprek →",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/diensten/ai-readiness-assessment",
+      "anker": "AI Readiness Assessment",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/diensten/ai-strategy-sprint",
+      "anker": "AI Strategy Sprint",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/diensten/fractional-ai-lead",
+      "anker": "Fractional AI Lead",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/diensten",
+      "anker": "Alle diensten",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/cases",
+      "anker": "Cases",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/werkwijze",
+      "anker": "Werkwijze",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/inzichten",
+      "anker": "Inzichten",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/veelgestelde-vragen",
+      "anker": "Veelgestelde vragen",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/over",
+      "anker": "Over mij",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-consultancy",
+      "anker": "AI consultancy",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-implementatie",
+      "anker": "AI implementatie",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-automatisering",
+      "anker": "AI automatisering",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-voor-bedrijven",
+      "anker": "AI voor bedrijven",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-development",
+      "anker": "AI development",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-agents",
+      "anker": "AI agents",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-beleid",
+      "anker": "AI beleid",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-workshop",
+      "anker": "AI workshop",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/markten",
+      "anker": "AI per branche",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/kennisbank",
+      "anker": "Kennisbank",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/tarieven",
+      "anker": "Tarieven",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/partnernetwerk",
+      "anker": "Partnernetwerk",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "overig",
+      "href": "mailto:dave@freelanceaiconsultant.com",
+      "anker": "dave@freelanceaiconsultant.com",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "extern",
+      "href": "https://www.linkedin.com/in/davewillemstein",
+      "anker": "LinkedIn ↗",
+      "rel": "noopener"
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/contact",
+      "anker": "Plan een gesprek",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/privacy",
+      "anker": "Privacyverklaring",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/algemene-voorwaarden",
+      "anker": "Algemene voorwaarden",
+      "rel": null
+    }
+  ],
+  "structured_data": {
+    "sha256": "028b9e7c2fa52caaa90aa39b95958bbc11426be9d38486d54b2b050c9a1cdbe4",
+    "items": [
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://freelanceaiconsultant.com/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Kennisbank",
+                "item": "https://freelanceaiconsultant.com/kennisbank"
+              },
+              {
+                "@type": "ListItem",
+                "position": 3,
+                "name": "Wat doet een AI developer?",
+                "item": "https://freelanceaiconsultant.com/kennisbank/wat-doet-een-ai-developer"
+              }
+            ]
+          },
+          {
+            "@type": "Article",
+            "headline": "Wat doet een AI developer?",
+            "description": "Wat doet een AI developer en hoe verschilt die van een AI consultant? Lees over taken, vaardigheden, tools en hoe je goed samenwerkt met AI developers.",
+            "inLanguage": "nl-NL",
+            "datePublished": "2026-09-23",
+            "dateModified": "2026-09-23",
+            "author": {
+              "@type": "Person",
+              "name": "Dave Willemstein",
+              "jobTitle": "Onafhankelijk AI-adviseur",
+              "url": "https://freelanceaiconsultant.com/over",
+              "sameAs": [
+                "https://www.linkedin.com/in/davewillemstein"
+              ]
+            },
+            "publisher": {
+              "@type": "Person",
+              "name": "Dave Willemstein"
+            },
+            "mainEntityOfPage": "https://freelanceaiconsultant.com/kennisbank/wat-doet-een-ai-developer"
+          }
+        ]
+      }
+    ]
+  },
+  "afbeeldingen": [
+    {
+      "regio": "header",
+      "src": "/images/freelance-ai-consultant-logo-header.png",
+      "alt": "freelanceaiconsultant.com logo",
+      "width": "600",
+      "height": "287",
+      "loading": null
+    },
+    {
+      "regio": "main",
+      "src": "/images/dave-portrait.jpg",
+      "alt": "Portret van Dave Willemstein",
+      "width": "88",
+      "height": "88",
+      "loading": "lazy"
+    },
+    {
+      "regio": "footer",
+      "src": "/images/freelance-ai-consultant-icon-footer.png",
+      "alt": "",
+      "width": "192",
+      "height": "192",
+      "loading": "lazy"
+    }
+  ],
+  "laadprestaties": {
+    "scripts": [
+      {
+        "src": "/logo-carousel/logo-carousel.js?v=2",
+        "type": null,
+        "inline_bytes": 0
+      }
+    ],
+    "stylesheets": [
+      "https://fonts.googleapis.com/css2?family=Caveat:wght@600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap",
+      "/_astro/_slug_.bq6BBoZ5.css",
+      "/_astro/_slug_.goiX3PVF.css",
+      "/logo-carousel/logo-carousel.css?v=2"
+    ],
+    "aantal_details": 0,
+    "aantal_tabellen": 1
+  }
+}

@@ -1,0 +1,801 @@
+{
+  "url": "/",
+  "build_bestand": "dist/index.html",
+  "bron": [
+    "src/pages/index.astro"
+  ],
+  "gemeten_op": "2026-10-06",
+  "html": {
+    "bytes": 41076,
+    "sha256": "bf07793b245758b0d6f9e61e4ec0655d4fd31046cbfa047181cee7ad82bf8a31",
+    "lang": "nl"
+  },
+  "beschermd": {
+    "title": "Freelance AI Consultant | Dave Willemstein",
+    "meta_description": "Onafhankelijk AI-advies van Dave Willemstein, freelance AI consultant. Ik help bepalen waar AI waarde creëert, welke leveranciers passen en hoe pilots slagen.",
+    "canonical": "https://freelanceaiconsultant.com/",
+    "robots_meta": null,
+    "hreflang": [],
+    "h1": [
+      "Maak de AI-beslissingen die je aan je board moet uitleggen."
+    ]
+  },
+  "social": {
+    "og:type": "website",
+    "og:locale": "nl_NL",
+    "og:site_name": "freelanceaiconsultant.com",
+    "og:title": "Freelance AI Consultant | Dave Willemstein",
+    "og:description": "Onafhankelijk AI-advies van Dave Willemstein, freelance AI consultant. Ik help bepalen waar AI waarde creëert, welke leveranciers passen en hoe pilots slagen.",
+    "og:url": "https://freelanceaiconsultant.com/",
+    "og:image": "https://freelanceaiconsultant.com/images/dave-portrait.jpg",
+    "twitter:card": "summary_large_image",
+    "twitter:title": "Freelance AI Consultant | Dave Willemstein",
+    "twitter:description": "Onafhankelijk AI-advies van Dave Willemstein, freelance AI consultant. Ik help bepalen waar AI waarde creëert, welke leveranciers passen en hoe pilots slagen.",
+    "twitter:image": "https://freelanceaiconsultant.com/images/dave-portrait.jpg"
+  },
+  "koppen": [
+    {
+      "niveau": 1,
+      "tekst": "Maak de AI-beslissingen die je aan je board moet uitleggen.",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "Europese merken die AI al in productie hebben.",
+      "regio": "main",
+      "id": "aimerken-titel-home"
+    },
+    {
+      "niveau": 2,
+      "tekst": "Agency, Big 4, of ik?",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "Drie manieren om verder te komen.",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 3,
+      "tekst": "AI Readiness Assessment",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 3,
+      "tekst": "AI Strategy Sprint",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 3,
+      "tekst": "Fractional AI Lead",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "Geen 200-slide deck.",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 3,
+      "tekst": "Diagnose",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 3,
+      "tekst": "Prioriteren",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 3,
+      "tekst": "Beslissen",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 3,
+      "tekst": "Ship & govern",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "Werk dat het verschil maakt.",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 3,
+      "tekst": "AI-strategie & use-case portfolio voor investeringsmaatschappij",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 3,
+      "tekst": "AI-gedreven vendorselectie in enterprise retail",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 3,
+      "tekst": "AI-roadmap & leadership voor internationale maakorganisatie",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "Ik verdien niet meer als jij meer software koopt.",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "Lezen voordat je beslist.",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 3,
+      "tekst": "AI-agents: wat ze wel en niet kunnen in een bedrijfsproces",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 3,
+      "tekst": "Van AI-strategie naar waarde: een 3-stappenplan",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 3,
+      "tekst": "Build, buy of partner: wat past bij jouw situatie?",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 3,
+      "tekst": "Welke AI-use cases leveren écht resultaat op?",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "Klaar om AI-beslissingen helder te maken?",
+      "regio": "main",
+      "id": null
+    }
+  ],
+  "bodytekst": {
+    "regio": "main",
+    "woorden": 755,
+    "sha256": "6c14b88399dd97179a46d1c70badc78b3aa60380f849ddce724385a67fbaf1db",
+    "blokken": [
+      "AI-advies dat je helpt beslissen",
+      "Maak de AI-beslissingen die je aan je board moet uitleggen.",
+      "Ik help CIO's, CDO's en AI-leads bepalen waar AI wél waarde creëert, welke leveranciers daarbij passen en hoe je voorkomt dat pilots dure zijprojecten worden.",
+      "Plan een gesprek → Bekijk cases → 30 min., geen pitch deck",
+      "vertrouwen,ervaring, impact ↓",
+      "Independent No vendor bias Senior only20+ jaar ervaring",
+      "AI in Europa",
+      "Europese merken die AI al in productie hebben.",
+      "Geen klanten van mij. Wel voorbeelden van wat er gebeurt als AI voorbij de pilot komt.",
+      "Pauzeer",
+      "Klarna",
+      "Zweden",
+      "AI-assistent in de klantenservice",
+      "Zalando",
+      "Duitsland",
+      "Mode-assistent voor productadvies",
+      "Financial services",
+      "Investeringsmaatschappij",
+      "AI-strategie en use-case portfolio",
+      "Booking.com",
+      "Nederland",
+      "AI Trip Planner voor reisplanning",
+      "Siemens",
+      "Duitsland",
+      "Industrial Copilot voor engineering",
+      "Retail",
+      "Enterprise retailer",
+      "AI-gedreven vendorselectie",
+      "Spotify",
+      "Zweden",
+      "AI DJ en gepersonaliseerde playlists",
+      "Mercedes-Benz",
+      "Duitsland",
+      "Generatieve spraakassistent in de auto",
+      "Industrial / B2B",
+      "Internationale maakorganisatie",
+      "AI-roadmap en leadership",
+      "ING",
+      "Nederland",
+      "Generatieve chatbot voor klantvragen",
+      "L'Oréal",
+      "Frankrijk",
+      "Beauty Genius: persoonlijk advies",
+      "Financial services",
+      "Financiële dienstverlener",
+      "KYC versneld met AI-documentanalyse",
+      "SAP",
+      "Duitsland",
+      "Joule: copilot in bedrijfssoftware",
+      "Carrefour",
+      "Frankrijk",
+      "Hopla: boodschappenassistent",
+      "Strategy & AI",
+      "SaaS scale-up",
+      "AI-readiness assessment",
+      "Adyen",
+      "Nederland",
+      "AI-optimalisatie van betalingen",
+      "Philips",
+      "Nederland",
+      "AI in medische beeldvorming",
+      "Proces & productivity",
+      "Zakelijke dienstverlener",
+      "Interne AI-assistent voor kenniswerkers",
+      "✓",
+      "10strategische AI-trajecten in 12 maanden",
+      "↗",
+      "€2,1M+waarde gerealiseerd voor klanten",
+      "◎",
+      "8 MT’sondersteund bij AI-besluitvorming",
+      "%",
+      "32%gem. efficiencyverbetering",
+      "Waarom onafhankelijk?",
+      "Agency,Big 4,of ik?",
+      "Ik win niet elke rij.Dat is het punt.",
+      "Lees de volledige vergelijking →",
+      "CriteriumOnafhankelijkAgencyBig 4",
+      "Senior werkt zelf meeAltijdSomsZelden",
+      "SnelheidHoogHoogLager",
+      "SoftwarebelangGeenSomsSoms",
+      "SchaalBeperktHoogZeer hoog",
+      "KostenstructuurTransparantProjectafhankelijkHoog",
+      "ProcurementGemiddeldMakkelijkMakkelijk",
+      "Hoe ik help",
+      "Drie manieren om verder te komen.",
+      "Alle diensten →",
+      "01",
+      "AI Readiness Assessment",
+      "Waar sta je nu met AI? We brengen kansen, risico’s en randvoorwaarden scherp in kaart voordat budget wordt vastgezet.",
+      "2-3 weken€7.000→",
+      "02",
+      "AI Strategy Sprint",
+      "Van ambitie naar een realistische AI-roadmap die past bij business, mensen en middelen, board-ready in zes weken.",
+      "4-6 weken€15.400 - €22.400→",
+      "03",
+      "Fractional AI Lead",
+      "Ervaren AI-leiderschap op interim-basis. Ik stuur, bouw mee en borg AI-initiatieven, zonder dat je direct een fulltime executive aanneemt.",
+      "2, 4 of 8 dagenVanaf €2.600 / mnd→",
+      "How I work",
+      "Geen 200-slide deck.",
+      "Wel vier duidelijke beslismomenten.",
+      "Bekijk mijn werkwijze →",
+      "01",
+      "⌕",
+      "Diagnose",
+      "Wat proberen we werkelijk op te lossen?",
+      "02",
+      "☑",
+      "Prioriteren",
+      "Welke use cases verdienen geld, tijd en aandacht?",
+      "03",
+      "↯",
+      "Beslissen",
+      "Build, buy of partner, en waarom?",
+      "04",
+      "↗",
+      "Ship & govern",
+      "Hoe zorgen we dat het ook echt landt?",
+      "Recent work",
+      "Werk dat het verschil maakt.",
+      "Alle cases →",
+      "◈Financial services",
+      "AI-strategie & use-case portfolio voor investeringsmaatschappij",
+      "Uitdaging:Geen duidelijke AI-prioriteiten en versnipperde ideeën zonder business impact.",
+      "8 prioritaire use cases · €1,2M impactpotentieel→",
+      "◎Retail",
+      "AI-gedreven vendorselectie in enterprise retail",
+      "Uitdaging:Keuze voor AI-oplossingen op basis van buikgevoel in plaats van waarde en fit.",
+      "12 vendors beoordeeld · €1,1M bespaard op TCO→",
+      "↗Industrial / B2B",
+      "AI-roadmap & leadership voor internationale maakorganisatie",
+      "Uitdaging:Geen samenhangende AI-strategie en verspreide pilots zonder schaal.",
+      "Roadmap goedgekeurd · 25% productiviteitsdoel→",
+      "Wat opdrachtgevers zeggen",
+      "“Dave brengt structuur in AI-chaos. Hij stelt de juiste vragen en komt met concrete, werkbare keuzes.”CFO, investeringsmaatschappij",
+      "“Geen dikke rapporten, maar een helder plan waarmee we direct aan de slag konden.”COO, retailorganisatie",
+      "“Eindelijk iemand die AI vertaalt naar waarde, niet naar technologie.”CEO, industriebedrijf",
+      "My independence commitment",
+      "Ik verdien niet meer als jij meer software koopt.",
+      "Mijn inkomsten komen volledig uit adviesuren die jij betaalt. Geen enkele leverancier betaalt mij iets, in geen enkele vorm. Dat is de reden dat ik “nee, niet kopen” kan adviseren zonder dat het mij geld kost.",
+      "Geen softwarecommissies",
+      "Geen affiliate-deals",
+      "Geen vendor-kickbacks",
+      "Geen marge op implementatiepartners",
+      "Belangenconflicten vooraf gemeld",
+      "Bekijk mijn werkwijze →",
+      "Inzichten",
+      "Lezen voordat je beslist.",
+      "Alle inzichten →",
+      "↯",
+      "Use cases",
+      "AI-agents: wat ze wel en niet kunnen in een bedrijfsproces",
+      "Agents die zelfstandig taken uitvoeren zijn de belofte van dit moment. Waar ze werken, waar ze stukgaan, en welke vraag je vooraf moet beantwoorden.",
+      "◷ 4 min leestijd Lees artikel →",
+      "↗",
+      "Strategie",
+      "Van AI-strategie naar waarde: een 3-stappenplan",
+      "De meeste AI-strategieën stranden niet op de strategie, maar op de vertaling ervan. Drie stappen die die vertaling afdwingen.",
+      "◷ 4 min leestijd Lees artikel →",
+      "⇄",
+      "Organisatie",
+      "Build, buy of partner: wat past bij jouw situatie?",
+      "De vraag is zelden \"kunnen we dit zelf bouwen?\" maar \"willen we dit over drie jaar nog steeds onderhouden?\". Een beslisraamwerk in vier vragen.",
+      "◷ 4 min leestijd Lees artikel →",
+      "⌕",
+      "Use cases",
+      "Welke AI-use cases leveren écht resultaat op?",
+      "Niet de spectaculairste, maar de saaiste. Vier kenmerken die de winnaars delen, en vier patronen die vrijwel altijd stranden.",
+      "◷ 4 min leestijd Lees artikel →",
+      "Klaar voor impact?",
+      "Klaar om AI-beslissingen helder te maken?",
+      "Plan een vrijblijvend gesprek. Geen pitch. Wel scherpe vragen.",
+      "30 min., geen pitch deckPlan een gesprek →"
+    ]
+  },
+  "links": [
+    {
+      "regio": "overig",
+      "soort": "intern",
+      "href": "#main",
+      "anker": "Naar hoofdinhoud",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/",
+      "anker": "",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/diensten",
+      "anker": "Diensten",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/cases",
+      "anker": "Cases",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/werkwijze",
+      "anker": "Werkwijze",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/inzichten",
+      "anker": "Inzichten",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/over",
+      "anker": "Over mij",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/contact",
+      "anker": "Plan een gesprek →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/contact",
+      "anker": "Plan een gesprek →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/cases",
+      "anker": "Bekijk cases →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/inzichten/freelance-ai-consultant-vs-agency-vs-big4",
+      "anker": "Lees de volledige vergelijking →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/diensten",
+      "anker": "Alle diensten →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/diensten/ai-readiness-assessment",
+      "anker": "01 AI Readiness Assessment Waar sta je nu met AI? We brengen kansen, risico’s en randvoorwaarden scherp in kaart voordat budget wordt vastgezet. 2-3 weken €7.000 →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/diensten/ai-strategy-sprint",
+      "anker": "02 AI Strategy Sprint Van ambitie naar een realistische AI-roadmap die past bij business, mensen en middelen, board-ready in zes weken. 4-6 weken €15.400 - €22.400 →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/diensten/fractional-ai-lead",
+      "anker": "03 Fractional AI Lead Ervaren AI-leiderschap op interim-basis. Ik stuur, bouw mee en borg AI-initiatieven, zonder dat je direct een fulltime executive aanneemt. 2, 4 of 8 dagen Vanaf €2.600 / mnd →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/werkwijze",
+      "anker": "Bekijk mijn werkwijze →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/cases",
+      "anker": "Alle cases →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/cases/ai-strategie-investeringsmaatschappij",
+      "anker": "◈ Financial services AI-strategie & use-case portfolio voor investeringsmaatschappij Uitdaging: Geen duidelijke AI-prioriteiten en versnipperde ideeën zonder business impact. 8 prioritaire use cases · €1,2M impactpotentieel →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/cases/vendorselectie-enterprise-retail",
+      "anker": "◎ Retail AI-gedreven vendorselectie in enterprise retail Uitdaging: Keuze voor AI-oplossingen op basis van buikgevoel in plaats van waarde en fit. 12 vendors beoordeeld · €1,1M bespaard op TCO →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/cases/ai-roadmap-internationale-maakorganisatie",
+      "anker": "↗ Industrial / B2B AI-roadmap & leadership voor internationale maakorganisatie Uitdaging: Geen samenhangende AI-strategie en verspreide pilots zonder schaal. Roadmap goedgekeurd · 25% productiviteitsdoel →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/werkwijze",
+      "anker": "Bekijk mijn werkwijze →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/inzichten",
+      "anker": "Alle inzichten →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/inzichten/ai-agents-wat-ze-wel-en-niet-kunnen",
+      "anker": "↯ Use cases AI-agents: wat ze wel en niet kunnen in een bedrijfsproces Agents die zelfstandig taken uitvoeren zijn de belofte van dit moment. Waar ze werken, waar ze stukgaan, en welke vraag je vooraf moet beantwoorden. ◷ 4 min leestijd Lees artikel →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/inzichten/van-ai-strategie-naar-waarde",
+      "anker": "↗ Strategie Van AI-strategie naar waarde: een 3-stappenplan De meeste AI-strategieën stranden niet op de strategie, maar op de vertaling ervan. Drie stappen die die vertaling afdwingen. ◷ 4 min leestijd Lees artikel →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/inzichten/build-buy-of-partner",
+      "anker": "⇄ Organisatie Build, buy of partner: wat past bij jouw situatie? De vraag is zelden \"kunnen we dit zelf bouwen?\" maar \"willen we dit over drie jaar nog steeds onderhouden?\". Een beslisraamwerk in vier vragen. ◷ 4 min leestijd Lees artikel →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/inzichten/welke-ai-use-cases-leveren-resultaat",
+      "anker": "⌕ Use cases Welke AI-use cases leveren écht resultaat op? Niet de spectaculairste, maar de saaiste. Vier kenmerken die de winnaars delen, en vier patronen die vrijwel altijd stranden. ◷ 4 min leestijd Lees artikel →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/contact",
+      "anker": "Plan een gesprek →",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/diensten/ai-readiness-assessment",
+      "anker": "AI Readiness Assessment",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/diensten/ai-strategy-sprint",
+      "anker": "AI Strategy Sprint",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/diensten/fractional-ai-lead",
+      "anker": "Fractional AI Lead",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/diensten",
+      "anker": "Alle diensten",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/cases",
+      "anker": "Cases",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/werkwijze",
+      "anker": "Werkwijze",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/inzichten",
+      "anker": "Inzichten",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/veelgestelde-vragen",
+      "anker": "Veelgestelde vragen",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/over",
+      "anker": "Over mij",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-consultancy",
+      "anker": "AI consultancy",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-implementatie",
+      "anker": "AI implementatie",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-automatisering",
+      "anker": "AI automatisering",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-voor-bedrijven",
+      "anker": "AI voor bedrijven",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-development",
+      "anker": "AI development",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-agents",
+      "anker": "AI agents",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-beleid",
+      "anker": "AI beleid",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-workshop",
+      "anker": "AI workshop",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/markten",
+      "anker": "AI per branche",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/kennisbank",
+      "anker": "Kennisbank",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/tarieven",
+      "anker": "Tarieven",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/partnernetwerk",
+      "anker": "Partnernetwerk",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "overig",
+      "href": "mailto:dave@freelanceaiconsultant.com",
+      "anker": "dave@freelanceaiconsultant.com",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "extern",
+      "href": "https://www.linkedin.com/in/davewillemstein",
+      "anker": "LinkedIn ↗",
+      "rel": "noopener"
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/contact",
+      "anker": "Plan een gesprek",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/privacy",
+      "anker": "Privacyverklaring",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/algemene-voorwaarden",
+      "anker": "Algemene voorwaarden",
+      "rel": null
+    }
+  ],
+  "structured_data": {
+    "sha256": "19925392973bd1b8f0da33087695f3bc6742180f02dcb22d7717314ed86f4a23",
+    "items": [
+      {
+        "@context": "https://schema.org",
+        "@type": "ProfessionalService",
+        "name": "Dave Willemstein, Independent AI Advisor",
+        "url": "https://freelanceaiconsultant.com",
+        "image": "https://freelanceaiconsultant.com/images/dave-portrait.jpg",
+        "email": "dave@freelanceaiconsultant.com",
+        "description": "Onafhankelijk AI-advies van Dave Willemstein, freelance AI consultant. Ik help bepalen waar AI waarde creëert, welke leveranciers passen en hoe pilots slagen.",
+        "areaServed": [
+          "NL",
+          "BE",
+          "DE"
+        ],
+        "priceRange": "€€€",
+        "founder": {
+          "@type": "Person",
+          "name": "Dave Willemstein",
+          "jobTitle": "Onafhankelijk AI-adviseur",
+          "url": "https://freelanceaiconsultant.com",
+          "sameAs": [
+            "https://www.linkedin.com/in/davewillemstein"
+          ]
+        }
+      }
+    ]
+  },
+  "afbeeldingen": [
+    {
+      "regio": "header",
+      "src": "/images/freelance-ai-consultant-logo-header.png",
+      "alt": "freelanceaiconsultant.com logo",
+      "width": "600",
+      "height": "287",
+      "loading": null
+    },
+    {
+      "regio": "main",
+      "src": "/images/dave-portrait.jpg",
+      "alt": "Dave Willemstein, Independent AI Advisor",
+      "width": "500",
+      "height": "620",
+      "loading": "lazy"
+    },
+    {
+      "regio": "footer",
+      "src": "/images/freelance-ai-consultant-icon-footer.png",
+      "alt": "",
+      "width": "192",
+      "height": "192",
+      "loading": "lazy"
+    }
+  ],
+  "laadprestaties": {
+    "scripts": [
+      {
+        "src": "/logo-carousel/logo-carousel.js?v=2",
+        "type": null,
+        "inline_bytes": 0
+      }
+    ],
+    "stylesheets": [
+      "https://fonts.googleapis.com/css2?family=Caveat:wght@600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap",
+      "/_astro/_slug_.bq6BBoZ5.css",
+      "/_astro/index.B39LJ1hL.css",
+      "/logo-carousel/logo-carousel.css?v=2"
+    ],
+    "aantal_details": 0,
+    "aantal_tabellen": 0
+  }
+}

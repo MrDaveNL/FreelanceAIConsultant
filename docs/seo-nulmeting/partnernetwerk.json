@@ -1,0 +1,777 @@
+{
+  "url": "/partnernetwerk",
+  "build_bestand": "dist/partnernetwerk/index.html",
+  "bron": [
+    "src/content/pages/partnernetwerk/index.md",
+    "src/pages/[...slug].astro"
+  ],
+  "gemeten_op": "2026-10-06",
+  "html": {
+    "bytes": 30804,
+    "sha256": "5cc6ff1acd29e33bd655732c58c0e9129dcb74bea424a9167e855ff74ad310db",
+    "lang": "nl"
+  },
+  "beschermd": {
+    "title": "AI bureau nodig? Freelance expertise met partnernetwerk",
+    "meta_description": "Zoek je een AI bureau? Werk direct met een senior AI consultant, met een gescreend partnernetwerk voor development, data en training als je meer nodig hebt.",
+    "canonical": "https://freelanceaiconsultant.com/partnernetwerk",
+    "robots_meta": null,
+    "hreflang": [],
+    "h1": [
+      "Geen bureau, wel bureau-capaciteit: mijn partnernetwerk"
+    ]
+  },
+  "social": {
+    "og:type": "website",
+    "og:locale": "nl_NL",
+    "og:site_name": "freelanceaiconsultant.com",
+    "og:title": "AI bureau nodig? Freelance expertise met partnernetwerk",
+    "og:description": "Zoek je een AI bureau? Werk direct met een senior AI consultant, met een gescreend partnernetwerk voor development, data en training als je meer nodig hebt.",
+    "og:url": "https://freelanceaiconsultant.com/partnernetwerk",
+    "og:image": "https://freelanceaiconsultant.com/images/dave-portrait.jpg",
+    "twitter:card": "summary_large_image",
+    "twitter:title": "AI bureau nodig? Freelance expertise met partnernetwerk",
+    "twitter:description": "Zoek je een AI bureau? Werk direct met een senior AI consultant, met een gescreend partnernetwerk voor development, data en training als je meer nodig hebt.",
+    "twitter:image": "https://freelanceaiconsultant.com/images/dave-portrait.jpg"
+  },
+  "koppen": [
+    {
+      "niveau": 1,
+      "tekst": "Geen bureau, wel bureau-capaciteit: mijn partnernetwerk",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "Waarom geen traditioneel AI bureau?",
+      "regio": "main",
+      "id": "waarom-geen-traditioneel-ai-bureau"
+    },
+    {
+      "niveau": 2,
+      "tekst": "Mijn gescreende partnernetwerk",
+      "regio": "main",
+      "id": "mijn-gescreende-partnernetwerk"
+    },
+    {
+      "niveau": 3,
+      "tekst": "Development",
+      "regio": "main",
+      "id": "development"
+    },
+    {
+      "niveau": 3,
+      "tekst": "Data en BI",
+      "regio": "main",
+      "id": "data-en-bi"
+    },
+    {
+      "niveau": 3,
+      "tekst": "Training en verandermanagement",
+      "regio": "main",
+      "id": "training-en-verandermanagement"
+    },
+    {
+      "niveau": 3,
+      "tekst": "Platforms en technologie",
+      "regio": "main",
+      "id": "platforms-en-technologie"
+    },
+    {
+      "niveau": 2,
+      "tekst": "Hoe ik partners selecteer",
+      "regio": "main",
+      "id": "hoe-ik-partners-selecteer"
+    },
+    {
+      "niveau": 2,
+      "tekst": "Eén aanspreekpunt, schaalbare capaciteit",
+      "regio": "main",
+      "id": "eén-aanspreekpunt-schaalbare-capaciteit"
+    },
+    {
+      "niveau": 2,
+      "tekst": "Veelgestelde vragen",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "Van AI-ambitie naar concrete resultaten.",
+      "regio": "main",
+      "id": null
+    }
+  ],
+  "bodytekst": {
+    "regio": "main",
+    "woorden": 1367,
+    "sha256": "ca4821e9240fee8c6d9eb1a4762f1c0e8c07ac09f9d7f3b9ee86ab982a5f7ea7",
+    "blokken": [
+      "Home",
+      "Partnernetwerk",
+      "Partnernetwerk",
+      "Geen bureau, wel bureau-capaciteit: mijn partnernetwerk",
+      "Zoek je een AI bureau? Dan wil ik eerlijk zijn: dat ben ik niet. Ik ben een onafhankelijk AI-adviseur die alleen werkt. Als je meer handen nodig hebt, stel ik partijen voor die ik ken, en die contracteer je rechtstreeks, zonder marge voor mij.",
+      "Plan een adviesgesprek → Bekijk de AI Readiness Assessment →",
+      "IN HET KORT",
+      "Ik ben geen AI bureau en bouw zelf niets; ik adviseer en begeleid vanuit jouw kant.",
+      "Partners voor development, data en BI, en training contracteer je rechtstreeks.",
+      "Geen marge, geen commissies, en bestaande relaties meld ik vooraf.",
+      "AI in Europa",
+      "Europese merken die AI al in productie hebben.",
+      "Geen klanten van mij. Wel voorbeelden van wat er gebeurt als AI voorbij de pilot komt.",
+      "Pauzeer",
+      "Klarna",
+      "Zweden",
+      "AI-assistent in de klantenservice",
+      "Zalando",
+      "Duitsland",
+      "Mode-assistent voor productadvies",
+      "Financial services",
+      "Investeringsmaatschappij",
+      "AI-strategie en use-case portfolio",
+      "Booking.com",
+      "Nederland",
+      "AI Trip Planner voor reisplanning",
+      "Siemens",
+      "Duitsland",
+      "Industrial Copilot voor engineering",
+      "Retail",
+      "Enterprise retailer",
+      "AI-gedreven vendorselectie",
+      "Spotify",
+      "Zweden",
+      "AI DJ en gepersonaliseerde playlists",
+      "Mercedes-Benz",
+      "Duitsland",
+      "Generatieve spraakassistent in de auto",
+      "Industrial / B2B",
+      "Internationale maakorganisatie",
+      "AI-roadmap en leadership",
+      "ING",
+      "Nederland",
+      "Generatieve chatbot voor klantvragen",
+      "L'Oréal",
+      "Frankrijk",
+      "Beauty Genius: persoonlijk advies",
+      "Financial services",
+      "Financiële dienstverlener",
+      "KYC versneld met AI-documentanalyse",
+      "SAP",
+      "Duitsland",
+      "Joule: copilot in bedrijfssoftware",
+      "Carrefour",
+      "Frankrijk",
+      "Hopla: boodschappenassistent",
+      "Strategy & AI",
+      "SaaS scale-up",
+      "AI-readiness assessment",
+      "Adyen",
+      "Nederland",
+      "AI-optimalisatie van betalingen",
+      "Philips",
+      "Nederland",
+      "AI in medische beeldvorming",
+      "Proces & productivity",
+      "Zakelijke dienstverlener",
+      "Interne AI-assistent voor kenniswerkers",
+      "Waarom geen traditioneel AI bureau?",
+      "Een AI bureau verkoopt uiteindelijk capaciteit: een team dat bouwt, implementeert en beheert. Dat is waardevol als je al weet wat je wilt bouwen. Maar wie aan de bouw verdient, heeft belang bij een grotere scope. Daarom heb ik bewust gekozen voor een andere rol: ik adviseer, maak keuzes besluitbaar en begeleid de uitvoering, maar ik bouw en verkoop zelf niets. Mijn inkomsten komen uit het advieswerk dat jij betaalt; wat dat werk inhoudt, zie je in mijn aanbod als onafhankelijk adviseur.",
+      "Dat betekent ook dat ik geen AI-bedrijf met ontwikkelaars ben, en dat ook niet claim. Wanneer een bureau, een Big 4-partij of een freelancer het beste past, zette ik eerlijk op een rij in freelance AI consultant, agency of Big 4.",
+      "Mijn gescreende partnernetwerk",
+      "Voor werk waar meer handen nodig zijn, stel ik partijen voor die ik ken. Welke partij past, hangt af van je vraag. Meestal gaat het om een van deze drie typen expertise, en onder alle drie liggen de platforms van de grote AI- en techbedrijven.",
+      "Development",
+      "Partijen die AI-toepassingen bouwen, integreren met je bestaande systemen en in productie brengen. Denk aan koppelingen met taalmodellen, documentverwerking of een interne assistent. Wat er bij zo’n bouwtraject komt kijken en hoe je de regie houdt, lees je op de pagina over AI-oplossingen laten ontwikkelen.",
+      "Data en BI",
+      "Specialisten voor datakwaliteit, datamodellen, dashboards en de koppeling tussen rapportage en AI. Vaak is dit het werk dat vóór een AI-toepassing moet gebeuren; waarom, lees je in het datafundament onder AI. Over de samenhang tussen beide gaat de pagina AI en BI.",
+      "Training en verandermanagement",
+      "Trainers en veranderbegeleiders die teams helpen om nieuwe werkwijzen echt te gebruiken. Workshops en trainingen geef ik zelf, zie AI workshops en trainingen. Vraagt een adoptieprogramma meer capaciteit dan één adviseur kan leveren, dan stel ik partijen voor. Waarom adoptie bij het werk begint en niet bij de tool, beschrijf ik in dit artikel over AI-adoptie.",
+      "Platforms en technologie",
+      "Wat een partner bouwt of traint, draait bijna altijd op technologie van een van de grote spelers. Die platforms ken ik van binnenuit: hun zakelijke abonnementen, de voorwaarden rond data en de plekken waar ze tekortschieten. Dit zijn de platforms waar ik het vaakst mee werk (stand september 2026):",
+      "Leverancier",
+      "Platforms",
+      "Waar het vaak om gaat",
+      "Microsoft",
+      "Microsoft Copilot, Azure AI-diensten",
+      "Organisaties die al op Microsoft 365 werken. Meer in Microsoft Copilot voor bedrijven.",
+      "OpenAI",
+      "ChatGPT Business en Enterprise, OpenAI API",
+      "Brede inzet van een AI-assistent en maatwerk via de API. Zie ChatGPT voor bedrijven.",
+      "Anthropic",
+      "Claude, Claude API",
+      "Lange documenten, analyse en schrijfwerk. Zie Claude voor bedrijven.",
+      "Google",
+      "Gemini in Google Workspace, Google Cloud",
+      "Organisaties die op Google Workspace werken. Zie Gemini voor bedrijven.",
+      "Amazon Web Services",
+      "Amazon Bedrock",
+      "Toegang tot meerdere taalmodellen binnen een bestaande AWS-omgeving.",
+      "Mistral AI en Meta",
+      "Mistral-modellen, Llama",
+      "Open modellen die je zelf kunt hosten, bijvoorbeeld als data binnen de EU of je eigen omgeving moet blijven.",
+      "Voor de duidelijkheid: dit zijn geen partnerschappen. Ik heb bij geen van deze bedrijven een partnerstatus, resellerafspraak of commissieregeling. Daardoor kan ik ze eerlijk naast elkaar zetten en zeggen wanneer een goedkopere of eenvoudigere optie volstaat.",
+      "Hoe ik partners selecteer",
+      "Een partner voorstellen is ook een advies, en daar gelden dezelfde regels voor als voor de rest van mijn werk. Mijn werkwijze:",
+      "Geen financieel belang. Ik ontvang geen commissie, fee of marge van partners, en ik heb geen partnerstatus bij leveranciers.",
+      "Relaties vooraf gemeld. Ken ik een partij, dan hoor je vóór het voorstel wat de aard en de periode van die relatie is.",
+      "Passend bij de vraag, niet bij het netwerk. Eerst bepalen we of zelf bouwen, kopen of partneren de juiste keuze is. Die afweging beschrijf ik in build, buy of partner. Pas daarna komt de vraag wie het doet.",
+      "Alleen partijen die ik ken. Ik stel geen partijen voor waar ik zelf geen beeld van heb.",
+      "Jij kiest. Ik stel voor, jij beslist en contracteert. Wil je meerdere partijen naast elkaar zetten, dan doen we dat met een Vendor Review.",
+      "Eén aanspreekpunt, schaalbare capaciteit",
+      "Voor het advies en de regie heb je één aanspreekpunt: mij. De capaciteit eromheen schaalt mee met de fase van je traject, zonder dat ik die capaciteit doorverkoop.",
+      "Vraag en doelWe bepalen wat je wilt bereiken en wat daarvoor nodig is",
+      "Bouwen, kopen of partnerenEen onderbouwde keuze per onderwerp",
+      "VoorstelPassende partijen, met eventuele relaties vooraf gemeld",
+      "Rechtstreeks contractJij contracteert de partner, zonder marge voor mij",
+      "BegeleidingIk sta tijdens de uitvoering aan jouw kant van de tafel",
+      "De partner levert de capaciteit; ik lever het onafhankelijke oordeel.",
+      "In de praktijk betekent dat: ik help de opdracht scherp te formuleren, toets voorstellen en planning, en bewaak of wat gebouwd wordt nog past bij het doel. Bij doorlopende trajecten kan dat als Fractional AI Lead. Hoe ik stap voor stap werk, van diagnose tot borging, staat op de pagina over mijn werkwijze.",
+      "Wil je weten of je een partner nodig hebt, en zo ja welk type? Plan een adviesgesprek van dertig minuten. Aan het eind hoor je wat ik zou doen, ook als het antwoord is dat je interne team het prima zelf kan.",
+      "Dave Willemstein Onafhankelijk AI-adviseur",
+      "Onafhankelijk: geen commissies, geen partnerdeals, geen marge op implementatiepartners.",
+      "Over mij",
+      "Weten waar je staat met AI? Bekijk de AI Readiness Assessment →",
+      "Veelgestelde vragen",
+      "Ben je een AI bureau?+",
+      "Nee. Ik werk alleen, als onafhankelijk AI-adviseur. Ik bouw en verkoop geen software, AI-agents of implementaties. Heb je uitvoeringscapaciteit nodig, dan stel ik partijen voor die je zelf contracteert.",
+      "Moet ik met een partner uit jouw netwerk werken?+",
+      "Nee. Heb je al een bouwpartij of een intern team, dan werken we daarmee. Een voorstel uit mijn netwerk is een optie, geen voorwaarde. Wil je meerdere partijen vergelijken, dan kan dat via een gestructureerde selectie.",
+      "Met wie sluit ik het contract voor de uitvoering?+",
+      "Rechtstreeks met de partner. Ik sta niet tussen jou en de partner in: geen onderaanneming, geen doorbelasting en geen marge op hun tarief. De afspraken over scope, prijs, oplevering en aansprakelijkheid maak je met die partij zelf.",
+      "Wat doe jij terwijl een partner bouwt?+",
+      "Als je dat wilt, begeleid ik de implementatie vanuit jouw kant van de tafel. Ik toets voorstellen en planning, bewaak of de scope past bij het doel en help bij de keuzes die onderweg op tafel komen. Het werk zelf doet de partner.",
+      "Wat als een voorgestelde partner niet bevalt?+",
+      "Dan zeg je dat, en zoeken we een alternatief. Omdat ik niets verdien aan een partner, heb ik er geen belang bij om een samenwerking in stand te houden die niet werkt.",
+      "Klaar voor impact?",
+      "Van AI-ambitie naar concrete resultaten.",
+      "Plan een vrijblijvend gesprek. Geen pitch. Wel scherpe vragen.",
+      "30 min., geen pitch deckPlan een gesprek →"
+    ]
+  },
+  "links": [
+    {
+      "regio": "overig",
+      "soort": "intern",
+      "href": "#main",
+      "anker": "Naar hoofdinhoud",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/",
+      "anker": "",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/diensten",
+      "anker": "Diensten",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/cases",
+      "anker": "Cases",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/werkwijze",
+      "anker": "Werkwijze",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/inzichten",
+      "anker": "Inzichten",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/over",
+      "anker": "Over mij",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/contact",
+      "anker": "Plan een gesprek →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/",
+      "anker": "Home",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/contact",
+      "anker": "Plan een adviesgesprek →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/diensten/ai-readiness-assessment",
+      "anker": "Bekijk de AI Readiness Assessment →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/",
+      "anker": "mijn aanbod als onafhankelijk adviseur",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/inzichten/freelance-ai-consultant-vs-agency-vs-big4",
+      "anker": "freelance AI consultant, agency of Big 4",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/ai-development",
+      "anker": "AI-oplossingen laten ontwikkelen",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/inzichten/het-datafundament-onder-ai",
+      "anker": "het datafundament onder AI",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/ai-voor-bedrijven/ai-en-bi",
+      "anker": "AI en BI",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/ai-workshop",
+      "anker": "AI workshops en trainingen",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/inzichten/ai-adoptie-begint-bij-het-werk",
+      "anker": "dit artikel over AI-adoptie",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/kennisbank/microsoft-copilot-voor-bedrijven",
+      "anker": "Microsoft Copilot voor bedrijven",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/kennisbank/chatgpt-voor-bedrijven",
+      "anker": "ChatGPT voor bedrijven",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/kennisbank/claude-voor-bedrijven",
+      "anker": "Claude voor bedrijven",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/kennisbank/gemini-voor-bedrijven",
+      "anker": "Gemini voor bedrijven",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/inzichten/build-buy-of-partner",
+      "anker": "build, buy of partner",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/diensten/vendor-review",
+      "anker": "Vendor Review",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/diensten/fractional-ai-lead",
+      "anker": "Fractional AI Lead",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/werkwijze",
+      "anker": "werkwijze",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/contact",
+      "anker": "Plan een adviesgesprek",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/over",
+      "anker": "Over mij",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/diensten/ai-readiness-assessment",
+      "anker": "Weten waar je staat met AI? Bekijk de AI Readiness Assessment →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/contact",
+      "anker": "Plan een gesprek →",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/diensten/ai-readiness-assessment",
+      "anker": "AI Readiness Assessment",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/diensten/ai-strategy-sprint",
+      "anker": "AI Strategy Sprint",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/diensten/fractional-ai-lead",
+      "anker": "Fractional AI Lead",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/diensten",
+      "anker": "Alle diensten",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/cases",
+      "anker": "Cases",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/werkwijze",
+      "anker": "Werkwijze",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/inzichten",
+      "anker": "Inzichten",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/veelgestelde-vragen",
+      "anker": "Veelgestelde vragen",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/over",
+      "anker": "Over mij",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-consultancy",
+      "anker": "AI consultancy",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-implementatie",
+      "anker": "AI implementatie",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-automatisering",
+      "anker": "AI automatisering",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-voor-bedrijven",
+      "anker": "AI voor bedrijven",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-development",
+      "anker": "AI development",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-agents",
+      "anker": "AI agents",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-beleid",
+      "anker": "AI beleid",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-workshop",
+      "anker": "AI workshop",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/markten",
+      "anker": "AI per branche",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/kennisbank",
+      "anker": "Kennisbank",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/tarieven",
+      "anker": "Tarieven",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/partnernetwerk",
+      "anker": "Partnernetwerk",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "overig",
+      "href": "mailto:dave@freelanceaiconsultant.com",
+      "anker": "dave@freelanceaiconsultant.com",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "extern",
+      "href": "https://www.linkedin.com/in/davewillemstein",
+      "anker": "LinkedIn ↗",
+      "rel": "noopener"
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/contact",
+      "anker": "Plan een gesprek",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/privacy",
+      "anker": "Privacyverklaring",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/algemene-voorwaarden",
+      "anker": "Algemene voorwaarden",
+      "rel": null
+    }
+  ],
+  "structured_data": {
+    "sha256": "6cfc911b19ec0a7dd22c2026eae654322b087b5a8ec5caca8d81591f8eef47f7",
+    "items": [
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://freelanceaiconsultant.com/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Partnernetwerk",
+                "item": "https://freelanceaiconsultant.com/partnernetwerk"
+              }
+            ]
+          },
+          {
+            "@type": "Service",
+            "name": "Partnernetwerk",
+            "serviceType": "ai bureau",
+            "description": "Zoek je een AI bureau? Werk direct met een senior AI consultant, met een gescreend partnernetwerk voor development, data en training als je meer nodig hebt.",
+            "url": "https://freelanceaiconsultant.com/partnernetwerk",
+            "areaServed": "NL",
+            "provider": {
+              "@type": "Person",
+              "name": "Dave Willemstein",
+              "jobTitle": "Onafhankelijk AI-adviseur",
+              "url": "https://freelanceaiconsultant.com/over",
+              "sameAs": [
+                "https://www.linkedin.com/in/davewillemstein"
+              ]
+            }
+          },
+          {
+            "@type": "FAQPage",
+            "mainEntity": [
+              {
+                "@type": "Question",
+                "name": "Ben je een AI bureau?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Nee. Ik werk alleen, als onafhankelijk AI-adviseur. Ik bouw en verkoop geen software, AI-agents of implementaties. Heb je uitvoeringscapaciteit nodig, dan stel ik partijen voor die je zelf contracteert."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Moet ik met een partner uit jouw netwerk werken?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Nee. Heb je al een bouwpartij of een intern team, dan werken we daarmee. Een voorstel uit mijn netwerk is een optie, geen voorwaarde. Wil je meerdere partijen vergelijken, dan kan dat via een gestructureerde selectie."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Met wie sluit ik het contract voor de uitvoering?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Rechtstreeks met de partner. Ik sta niet tussen jou en de partner in: geen onderaanneming, geen doorbelasting en geen marge op hun tarief. De afspraken over scope, prijs, oplevering en aansprakelijkheid maak je met die partij zelf."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Wat doe jij terwijl een partner bouwt?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Als je dat wilt, begeleid ik de implementatie vanuit jouw kant van de tafel. Ik toets voorstellen en planning, bewaak of de scope past bij het doel en help bij de keuzes die onderweg op tafel komen. Het werk zelf doet de partner."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Wat als een voorgestelde partner niet bevalt?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Dan zeg je dat, en zoeken we een alternatief. Omdat ik niets verdien aan een partner, heb ik er geen belang bij om een samenwerking in stand te houden die niet werkt."
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "afbeeldingen": [
+    {
+      "regio": "header",
+      "src": "/images/freelance-ai-consultant-logo-header.png",
+      "alt": "freelanceaiconsultant.com logo",
+      "width": "600",
+      "height": "287",
+      "loading": null
+    },
+    {
+      "regio": "main",
+      "src": "/images/dave-portrait.jpg",
+      "alt": "Portret van Dave Willemstein",
+      "width": "88",
+      "height": "88",
+      "loading": "lazy"
+    },
+    {
+      "regio": "footer",
+      "src": "/images/freelance-ai-consultant-icon-footer.png",
+      "alt": "",
+      "width": "192",
+      "height": "192",
+      "loading": "lazy"
+    }
+  ],
+  "laadprestaties": {
+    "scripts": [
+      {
+        "src": "/logo-carousel/logo-carousel.js?v=2",
+        "type": null,
+        "inline_bytes": 0
+      }
+    ],
+    "stylesheets": [
+      "https://fonts.googleapis.com/css2?family=Caveat:wght@600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap",
+      "/_astro/_slug_.bq6BBoZ5.css",
+      "/_astro/_slug_.goiX3PVF.css",
+      "/logo-carousel/logo-carousel.css?v=2"
+    ],
+    "aantal_details": 5,
+    "aantal_tabellen": 1
+  }
+}

@@ -1,0 +1,844 @@
+{
+  "url": "/markten/onderwijs",
+  "build_bestand": "dist/markten/onderwijs/index.html",
+  "bron": [
+    "src/content/pages/markten/onderwijs/index.md",
+    "src/pages/[...slug].astro"
+  ],
+  "gemeten_op": "2026-10-06",
+  "html": {
+    "bytes": 37997,
+    "sha256": "095d8f5528de2fdf48f1f2bf4e6bfe10160b19fd3be73182ad8a375c2904a6b6",
+    "lang": "nl"
+  },
+  "beschermd": {
+    "title": "AI in het onderwijs | Toepassingen, kansen en beleid",
+    "meta_description": "Hoe zet je AI verantwoord in binnen het onderwijs? Lees over toepassingen voor docenten en studenten, AI-beleid voor scholen en de voor- en nadelen van AI.",
+    "canonical": "https://freelanceaiconsultant.com/markten/onderwijs",
+    "robots_meta": "noindex, follow",
+    "hreflang": [],
+    "h1": [
+      "AI in het onderwijs: toepassingen, kansen en uitdagingen"
+    ]
+  },
+  "social": {
+    "og:type": "website",
+    "og:locale": "nl_NL",
+    "og:site_name": "freelanceaiconsultant.com",
+    "og:title": "AI in het onderwijs | Toepassingen, kansen en beleid",
+    "og:description": "Hoe zet je AI verantwoord in binnen het onderwijs? Lees over toepassingen voor docenten en studenten, AI-beleid voor scholen en de voor- en nadelen van AI.",
+    "og:url": "https://freelanceaiconsultant.com/markten/onderwijs",
+    "og:image": "https://freelanceaiconsultant.com/images/dave-portrait.jpg",
+    "twitter:card": "summary_large_image",
+    "twitter:title": "AI in het onderwijs | Toepassingen, kansen en beleid",
+    "twitter:description": "Hoe zet je AI verantwoord in binnen het onderwijs? Lees over toepassingen voor docenten en studenten, AI-beleid voor scholen en de voor- en nadelen van AI.",
+    "twitter:image": "https://freelanceaiconsultant.com/images/dave-portrait.jpg"
+  },
+  "koppen": [
+    {
+      "niveau": 1,
+      "tekst": "AI in het onderwijs: toepassingen, kansen en uitdagingen",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "AI in het onderwijs: toepassingen, kansen en uitdagingen",
+      "regio": "main",
+      "id": "ai-in-het-onderwijs-toepassingen-kansen-en-uitdagingen"
+    },
+    {
+      "niveau": 2,
+      "tekst": "10 praktische toepassingen",
+      "regio": "main",
+      "id": "10-praktische-toepassingen"
+    },
+    {
+      "niveau": 2,
+      "tekst": "AI implementeren in een onderwijsorganisatie",
+      "regio": "main",
+      "id": "ai-implementeren-in-een-onderwijsorganisatie"
+    },
+    {
+      "niveau": 2,
+      "tekst": "AI-beleid voor onderwijsinstellingen",
+      "regio": "main",
+      "id": "ai-beleid-voor-onderwijsinstellingen"
+    },
+    {
+      "niveau": 2,
+      "tekst": "Nadelen en risico’s",
+      "regio": "main",
+      "id": "nadelen-en-risicos"
+    },
+    {
+      "niveau": 2,
+      "tekst": "Veelgestelde vragen",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "Bronnen",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "Van AI-ambitie naar concrete resultaten.",
+      "regio": "main",
+      "id": null
+    }
+  ],
+  "bodytekst": {
+    "regio": "main",
+    "woorden": 1973,
+    "sha256": "1b4e0cc52e2bc778310fe30dde860f6f50853983677c44e46cf621ce3625414c",
+    "blokken": [
+      "Home",
+      "Markten",
+      "AI in het onderwijs",
+      "AI in het onderwijs",
+      "AI in het onderwijs: toepassingen, kansen en uitdagingen",
+      "AI in het onderwijs is geen toekomstvraag meer: docenten, studenten en ondersteunende diensten gebruiken het vaak al, met of zonder beleid. Op deze pagina lees je welke toepassingen zinvol zijn, hoe je AI in een onderwijsorganisatie invoert en welke regels voor scholen gelden.",
+      "Lees meer over Markten → Plan een adviesgesprek →",
+      "Geschreven door Dave Willemstein, onafhankelijk AI consultant · gepubliceerd 23 september 2026",
+      "IN HET KORT",
+      "Een deel van de AI-toepassingen in het onderwijs valt onder de hoog-risicoregels van de AI Act, zoals toelating, beoordeling en toezicht op toetsen.",
+      "Emotieherkenning in onderwijsinstellingen is sinds februari 2025 verboden, op medische en veiligheidsredenen na.",
+      "Begin met een inventarisatie van wat er al gebruikt wordt, niet met een nieuwe tool.",
+      "AI in Europa",
+      "Europese merken die AI al in productie hebben.",
+      "Geen klanten van mij. Wel voorbeelden van wat er gebeurt als AI voorbij de pilot komt.",
+      "Pauzeer",
+      "Klarna",
+      "Zweden",
+      "AI-assistent in de klantenservice",
+      "Zalando",
+      "Duitsland",
+      "Mode-assistent voor productadvies",
+      "Financial services",
+      "Investeringsmaatschappij",
+      "AI-strategie en use-case portfolio",
+      "Booking.com",
+      "Nederland",
+      "AI Trip Planner voor reisplanning",
+      "Siemens",
+      "Duitsland",
+      "Industrial Copilot voor engineering",
+      "Retail",
+      "Enterprise retailer",
+      "AI-gedreven vendorselectie",
+      "Spotify",
+      "Zweden",
+      "AI DJ en gepersonaliseerde playlists",
+      "Mercedes-Benz",
+      "Duitsland",
+      "Generatieve spraakassistent in de auto",
+      "Industrial / B2B",
+      "Internationale maakorganisatie",
+      "AI-roadmap en leadership",
+      "ING",
+      "Nederland",
+      "Generatieve chatbot voor klantvragen",
+      "L'Oréal",
+      "Frankrijk",
+      "Beauty Genius: persoonlijk advies",
+      "Financial services",
+      "Financiële dienstverlener",
+      "KYC versneld met AI-documentanalyse",
+      "SAP",
+      "Duitsland",
+      "Joule: copilot in bedrijfssoftware",
+      "Carrefour",
+      "Frankrijk",
+      "Hopla: boodschappenassistent",
+      "Strategy & AI",
+      "SaaS scale-up",
+      "AI-readiness assessment",
+      "Adyen",
+      "Nederland",
+      "AI-optimalisatie van betalingen",
+      "Philips",
+      "Nederland",
+      "AI in medische beeldvorming",
+      "Proces & productivity",
+      "Zakelijke dienstverlener",
+      "Interne AI-assistent voor kenniswerkers",
+      "AI in het onderwijs: toepassingen, kansen en uitdagingen",
+      "AI in het onderwijs raakt twee werelden tegelijk. Aan de ene kant het primaire proces: lesgeven, leren, toetsen en begeleiden. Aan de andere kant de organisatie: roosters, administratie, communicatie met ouders en studenten, en beleid. De kansen en risico’s verschillen sterk tussen die twee.",
+      "In het primaire proces is AI vooral een hulpmiddel voor docenten en een nieuw gegeven voor leerlingen, dat vragen oproept over leren, toetsen en eerlijkheid. In de organisatie lijkt AI meer op wat je in andere sectoren ziet: minder handwerk, sneller antwoord op vragen en betere informatie voor besluiten.",
+      "Eerlijk vooraf: onderwijs is niet mijn zwaartepunt. De vraagstukken die bij invoering spelen (wat pak je eerst op, welk systeem kies je, hoe borg je het) lijken wel sterk op die in andere sectoren. Voor onderwijskundige en didactische vragen heb je daarnaast specialisten uit het onderwijs nodig.",
+      "Voorbeeldscenario",
+      "Een mbo-instelling met 6.000 studenten en 550 medewerkers wil een tool aanschaffen die schrijfopdrachten nakijkt. Voordat er getekend wordt, vraagt het bestuur om overzicht.",
+      "De adviseur begeleidt de inventarisatie en de classificatie. Die levert 23 tools en AI-functies in bestaande systemen op, waarvan drie mogelijk hoog risico. De nakijktool is er een van, omdat die leerresultaten zou beoordelen. De aanschaf wordt aangehouden tot er een plan ligt voor menselijk toezicht en de afspraken met de leverancier. Als eerste stap kiest de instelling een assistent voor vragen aan de studentenadministratie, die ze rechtstreeks inkoopt.",
+      "Na drie maanden beantwoordt de assistent zo'n 490 van de 1.400 vragen per maand zelf, met de bron erbij. Bij 6 minuten per vraag scheelt dat ongeveer 49 uur per maand. Vragen over individuele studenten gaan altijd naar een medewerker.",
+      "Fictief voorbeeld, samengesteld uit situaties die veel voorkomen. Organisatie en cijfers zijn illustratief.",
+      "10 praktische toepassingen",
+      "Vijf toepassingen in het primaire proces:",
+      "Lesvoorbereiding: een eerste opzet voor een les, opdracht of casus, die de docent aanpast aan de groep.",
+      "Differentiatie: dezelfde stof uitleggen op verschillende niveaus of in eenvoudiger taal.",
+      "Oefenmateriaal: extra oefenvragen of voorbeelden bij een onderwerp, waarbij de docent controleert op juistheid.",
+      "Feedback op concepten: suggesties bij een conceptversie van een verslag, die de docent beoordeelt voordat de student ze krijgt.",
+      "Toegankelijkheid: vertalen van berichten voor ouders, voorlezen of samenvatten voor leerlingen die daar baat bij hebben.",
+      "Vijf toepassingen in de organisatie:",
+      "Vragen van studenten en ouders: een assistent die veelgestelde vragen over roosters, inschrijving of regelingen beantwoordt, met de bron erbij.",
+      "Verslaglegging: vergaderingen samenvatten en actiepunten vastleggen. Let op bij gesprekken over individuele leerlingen; meer daarover in mijn stuk over notuleren met AI.",
+      "Beleidsdocumenten doorzoeken: medewerkers vinden sneller wat er in reglementen en handboeken staat.",
+      "Roosteren en planning: ondersteuning bij puzzels met lokalen, docenten en groepen.",
+      "Signaleren van uitval: patronen in aanwezigheid of voortgang zichtbaar maken voor een mentor. Hier is voorzichtigheid geboden, zie hieronder.",
+      "Een deel van deze toepassingen kan onder de hoog-risicoregels van de AI Act vallen, afhankelijk van het precieze doel. Dat geldt vooral voor alles wat raakt aan toelating, beoordeling, niveaubepaling en toezicht op toetsen.",
+      "AI implementeren in een onderwijsorganisatie",
+      "Vaak begin je niet bij nul. Docenten gebruiken al generatieve AI, leveranciers van leermiddelen en administratiesystemen voegen AI-functies toe en er draaien losse proeven. Invoering begint dus met overzicht, niet met aanschaf.",
+      "InventariserenWelke systemen, tools en leermiddelen met AI worden al gebruikt, en door wie?",
+      "ClassificerenPer toepassing: verboden, hoog risico, transparantieplicht of laag risico",
+      "KadersWat mag, wat niet, wie beslist en welke afspraken met leveranciers",
+      "BeproevenEen kleine toepassing in de echte les of het echte proces, met een stopcriterium",
+      "BorgenEigenaar, scholing, evaluatie en periodieke herbeoordeling",
+      "Invoering in vijf stappen. De eerste twee stappen leveren vaak al de belangrijkste inzichten op.",
+      "Voor de eerste stappen hoef je het wiel niet uit te vinden. Kennisnet beschrijft een stappenplan voor scholen, van inventariseren tot periodiek herzien. Voor het funderend onderwijs publiceerden SIVON en Kennisnet in april 2026 een toetsingskader waarmee leveranciers en scholen kunnen nagaan of een AI-systeem onder de AI Act valt en in welke risicoklasse. Voor informatiebeveiliging heeft SURF een handreiking die AI-risico’s koppelt aan het bestaande SURFaudit-toetsingskader.",
+      "Twee lessen uit andere sectoren gelden hier net zo goed. Adoptie hangt af van het werk dat mensen doen, niet van de licentie die ze krijgen; zie AI-adoptie begint bij het werk. En kies leveranciers op basis van vooraf vastgestelde criteria, niet op basis van de demo. Weet je nog niet waar je organisatie staat, dan geeft een AI Readiness Assessment in 2-3 weken een nuchter beeld en een plan voor de eerste negentig dagen.",
+      "AI-beleid voor onderwijsinstellingen",
+      "Een goed AI-beleid voor scholen is kort genoeg om gelezen te worden en concreet genoeg om te gebruiken. Het beantwoordt in elk geval deze vragen:",
+      "Gebruik door leerlingen en studenten: wat mag bij welk type opdracht, en hoe maak je gebruik zichtbaar?",
+      "Gebruik door medewerkers: welke tools zijn goedgekeurd, en welke gegevens mogen er nooit in?",
+      "Toetsing: hoe borg je dat een beoordeling van de docent blijft, en hoe ga je om met vermoedens van misbruik?",
+      "Inkoop: welke eisen stel je aan leveranciers, onder meer over de AVG, datalocatie en de AI Act?",
+      "Eigenaarschap: wie beslist over nieuwe toepassingen, en wie houdt het overzicht bij?",
+      "De wettelijke kaders daarbij zijn de AI Act en de AVG. De AI Act noemt vier soorten onderwijstoepassingen hoog risico: systemen voor toelating of plaatsing, voor het beoordelen van leerresultaten, voor het bepalen van het passende onderwijsniveau en voor toezicht op ongeoorloofd gedrag tijdens toetsen. Door de Digital Omnibus gelden de eisen voor die systemen volgens de Europese Commissie vanaf 2 december 2027. Sinds 2 februari 2025 is het al verboden om in onderwijsinstellingen AI te gebruiken om emoties van mensen af te leiden, behalve om medische of veiligheidsredenen.",
+      "Daarnaast vraagt de AI Act organisaties die AI inzetten om de AI-geletterdheid van hun mensen te ondersteunen. De Digital Omnibus, die op 27 juli 2026 in werking trad, heeft die plicht vereenvoudigd: er is geen verplicht ‘toereikend niveau’ meer en een certificaat is niet nodig. Kennisnet en de Universiteit Twente publiceerden in september 2026 een raamwerk AI-geletterdheid voor het primair en voortgezet onderwijs. Hoe je dat vertaalt naar scholing voor je eigen team, lees je bij AI-geletterdheid trainen.",
+      "Beleid hoeft geen dik document te worden. Hoe je met een paar heldere afspraken verder komt dan met een uitgebreid reglement, beschrijf ik in AI-governance zonder bureaucratie. Een bredere aanpak voor het opstellen van beleid staat op de pagina over AI-beleid, en wat de wet precies vraagt lees je bij de AI Act.",
+      "Nadelen en risico’s",
+      "AI in het onderwijs heeft ook nadelen, en het is goed die hardop te benoemen:",
+      "Leren wordt overgeslagen. Een leerling die een opdracht door AI laat maken, heeft een product maar niet het leerproces. Dat vraagt om andere opdrachten en toetsvormen, niet alleen om regels.",
+      "Fouten klinken overtuigend. Generatieve AI geeft soms onjuiste informatie met grote stelligheid. Controle door de docent blijft nodig.",
+      "Ongelijkheid. Niet elke leerling heeft thuis dezelfde tools of dezelfde begeleiding bij het gebruik ervan.",
+      "Privacy. Leerlinggegevens gaan vaak over minderjarigen en soms over gevoelige onderwerpen zoals zorg en begeleiding. Beoordeel per toepassing of een DPIA nodig is.",
+      "Afhankelijkheid van leveranciers. Als AI-functies in je leerplatform zitten, bepaalt de leverancier veel van wat er gebeurt. Maak afspraken over transparantie en exit.",
+      "Signalering die een oordeel wordt. Een uitvalsignaal is een aanleiding voor een gesprek, geen conclusie over een leerling.",
+      "Onderwijs deelt veel van deze risico’s met de zorg, waar ook gevoelige gegevens en kwetsbare groepen centraal staan; zie AI in de zorg. Voor communicatie en werving van studenten is AI voor marketing relevant. Alle sectoren staan op het overzicht van markten.",
+      "Wil je bespreken waar je instelling staat en wat een verstandige eerste stap is? Plan een gesprek van dertig minuten.",
+      "Dave Willemstein Onafhankelijk AI-adviseur",
+      "Onafhankelijk: geen commissies, geen partnerdeals, geen marge op implementatiepartners.",
+      "Over mij Mijn partnernetwerk",
+      "Weten waar je staat met AI? Bekijk de AI Readiness Assessment →",
+      "Veelgestelde vragen",
+      "Mogen leerlingen en studenten ChatGPT of vergelijkbare tools gebruiken?+",
+      "Dat is in de eerste plaats een onderwijskundige keuze van de instelling, niet een juridische. Leg per type opdracht vast wat mag, hoe het gebruik zichtbaar wordt gemaakt en wat er gebeurt bij misbruik. Let daarnaast op privacy: laat leerlingen geen persoonsgegevens invoeren in tools waar de school geen afspraken mee heeft.",
+      "Is AI die opdrachten nakijkt een hoog-risicotoepassing?+",
+      "Als het systeem bedoeld is om leerresultaten te beoordelen, valt het volgens de AI Act in de hoog-risicocategorie, ook als die beoordeling het leerproces stuurt. Dan gelden er strengere eisen, onder meer voor menselijk toezicht. Een tool die alleen feedbacksuggesties geeft die de docent zelf beoordeelt, kan anders uitvallen. Laat de classificatie per toepassing toetsen.",
+      "Wie is verantwoordelijk: de school of de leverancier?+",
+      "Allebei, voor een ander deel. De leverancier is als aanbieder verantwoordelijk voor het systeem zelf. Bij een hoog-risicosysteem is de school als gebruiksverantwoordelijke verantwoordelijk voor hoe het wordt ingezet: menselijk toezicht, het informeren van betrokkenen en het gebruik volgens de instructies. Leg die verdeling vast in het contract.",
+      "Moet elke docent een AI-training volgen?+",
+      "De AI Act vraagt organisaties die AI inzetten om maatregelen te nemen die de AI-geletterdheid van hun mensen ondersteunen. Sinds de Digital Omnibus is er geen verplicht 'toereikend niveau' meer en is geen certificaat nodig. In de praktijk is een basisniveau voor iedereen plus verdieping voor wie met hoog-risicosystemen werkt een verstandige lijn.",
+      "Kan een school AI gebruiken om fraude met AI op te sporen?+",
+      "Wees terughoudend. Systemen die toezicht houden op ongeoorloofd gedrag tijdens toetsen vallen onder de hoog-risicoregels. En een detectiescore is geen bewijs: gebruik de uitkomst hooguit als aanleiding voor een gesprek, nooit als enige grond voor een sanctie.",
+      "Bronnen",
+      "Europese Commissie: AI Act, tijdlijn en toepassing",
+      "Europese Commissie: AI Omnibus treedt in werking (27 juli 2026)",
+      "Verordening (EU) 2024/1689 (AI Act), officiële tekst op EUR-Lex",
+      "Future of Privacy Forum: The AI Act implementation timeline, what changes under the AI Omnibus",
+      "Kennisnet: Voldoen aan de AI-verordening",
+      "SIVON en Kennisnet: Toetsingskader AI funderend onderwijs (versie 1.0)",
+      "SIVON: Nieuw raamwerk AI-geletterdheid voor primair en voortgezet onderwijs",
+      "SURF: Handreiking AI en informatiebeveiliging binnen onderwijsinstellingen",
+      "Klaar voor impact?",
+      "Van AI-ambitie naar concrete resultaten.",
+      "Plan een vrijblijvend gesprek. Geen pitch. Wel scherpe vragen.",
+      "30 min., geen pitch deckPlan een gesprek →"
+    ]
+  },
+  "links": [
+    {
+      "regio": "overig",
+      "soort": "intern",
+      "href": "#main",
+      "anker": "Naar hoofdinhoud",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/",
+      "anker": "",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/diensten",
+      "anker": "Diensten",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/cases",
+      "anker": "Cases",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/werkwijze",
+      "anker": "Werkwijze",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/inzichten",
+      "anker": "Inzichten",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/over",
+      "anker": "Over mij",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/contact",
+      "anker": "Plan een gesprek →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/",
+      "anker": "Home",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/markten",
+      "anker": "Markten",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/markten",
+      "anker": "Lees meer over Markten →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/contact",
+      "anker": "Plan een adviesgesprek →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/over",
+      "anker": "Dave Willemstein",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/kennisbank/notuleren-met-ai",
+      "anker": "notuleren met AI",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "extern",
+      "href": "https://www.kennisnet.nl/artificial-intelligence/met-deze-wetgeving-rond-ai-hebben-scholen-te-maken",
+      "anker": "Kennisnet",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/inzichten/ai-adoptie-begint-bij-het-werk",
+      "anker": "AI-adoptie begint bij het werk",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/diensten/ai-readiness-assessment",
+      "anker": "AI Readiness Assessment",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "extern",
+      "href": "https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai",
+      "anker": "Europese Commissie",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/ai-workshop/ai-geletterdheid-training",
+      "anker": "AI-geletterdheid trainen",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/inzichten/ai-governance-zonder-bureaucratie",
+      "anker": "AI-governance zonder bureaucratie",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/ai-beleid",
+      "anker": "AI-beleid",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/ai-beleid/ai-act",
+      "anker": "de AI Act",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/markten/zorg",
+      "anker": "AI in de zorg",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/markten/marketing",
+      "anker": "AI voor marketing",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/markten",
+      "anker": "overzicht van markten",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/contact",
+      "anker": "Plan een gesprek van dertig minuten",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/over",
+      "anker": "Over mij",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/partnernetwerk",
+      "anker": "Mijn partnernetwerk",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/diensten/ai-readiness-assessment",
+      "anker": "Weten waar je staat met AI? Bekijk de AI Readiness Assessment →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "extern",
+      "href": "https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai",
+      "anker": "Europese Commissie: AI Act, tijdlijn en toepassing",
+      "rel": "noopener"
+    },
+    {
+      "regio": "main",
+      "soort": "extern",
+      "href": "https://digital-strategy.ec.europa.eu/en/news/ai-omnibus-enters-force",
+      "anker": "Europese Commissie: AI Omnibus treedt in werking (27 juli 2026)",
+      "rel": "noopener"
+    },
+    {
+      "regio": "main",
+      "soort": "extern",
+      "href": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj",
+      "anker": "Verordening (EU) 2024/1689 (AI Act), officiële tekst op EUR-Lex",
+      "rel": "noopener"
+    },
+    {
+      "regio": "main",
+      "soort": "extern",
+      "href": "https://fpf.org/blog/the-ai-act-implementation-timeline-what-changes-under-the-ai-omnibus/",
+      "anker": "Future of Privacy Forum: The AI Act implementation timeline, what changes under the AI Omnibus",
+      "rel": "noopener"
+    },
+    {
+      "regio": "main",
+      "soort": "extern",
+      "href": "https://www.kennisnet.nl/artificial-intelligence/met-deze-wetgeving-rond-ai-hebben-scholen-te-maken",
+      "anker": "Kennisnet: Voldoen aan de AI-verordening",
+      "rel": "noopener"
+    },
+    {
+      "regio": "main",
+      "soort": "extern",
+      "href": "https://www.sivon.nl/toetsingskader/",
+      "anker": "SIVON en Kennisnet: Toetsingskader AI funderend onderwijs (versie 1.0)",
+      "rel": "noopener"
+    },
+    {
+      "regio": "main",
+      "soort": "extern",
+      "href": "https://sivon.nl/2026/09/nieuw-raamwerk-ai-geletterdheid-voor-primair-en-voortgezet-onderwijs/",
+      "anker": "SIVON: Nieuw raamwerk AI-geletterdheid voor primair en voortgezet onderwijs",
+      "rel": "noopener"
+    },
+    {
+      "regio": "main",
+      "soort": "extern",
+      "href": "https://sec.surf.nl/assets/handreiking-ai-en-informatiebeveiliging-binnen-onderwijs/",
+      "anker": "SURF: Handreiking AI en informatiebeveiliging binnen onderwijsinstellingen",
+      "rel": "noopener"
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/contact",
+      "anker": "Plan een gesprek →",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/diensten/ai-readiness-assessment",
+      "anker": "AI Readiness Assessment",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/diensten/ai-strategy-sprint",
+      "anker": "AI Strategy Sprint",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/diensten/fractional-ai-lead",
+      "anker": "Fractional AI Lead",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/diensten",
+      "anker": "Alle diensten",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/cases",
+      "anker": "Cases",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/werkwijze",
+      "anker": "Werkwijze",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/inzichten",
+      "anker": "Inzichten",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/veelgestelde-vragen",
+      "anker": "Veelgestelde vragen",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/over",
+      "anker": "Over mij",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-consultancy",
+      "anker": "AI consultancy",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-implementatie",
+      "anker": "AI implementatie",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-automatisering",
+      "anker": "AI automatisering",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-voor-bedrijven",
+      "anker": "AI voor bedrijven",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-development",
+      "anker": "AI development",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-agents",
+      "anker": "AI agents",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-beleid",
+      "anker": "AI beleid",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-workshop",
+      "anker": "AI workshop",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/markten",
+      "anker": "AI per branche",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/kennisbank",
+      "anker": "Kennisbank",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/tarieven",
+      "anker": "Tarieven",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/partnernetwerk",
+      "anker": "Partnernetwerk",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "overig",
+      "href": "mailto:dave@freelanceaiconsultant.com",
+      "anker": "dave@freelanceaiconsultant.com",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "extern",
+      "href": "https://www.linkedin.com/in/davewillemstein",
+      "anker": "LinkedIn ↗",
+      "rel": "noopener"
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/contact",
+      "anker": "Plan een gesprek",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/privacy",
+      "anker": "Privacyverklaring",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/algemene-voorwaarden",
+      "anker": "Algemene voorwaarden",
+      "rel": null
+    }
+  ],
+  "structured_data": {
+    "sha256": "80c2356ef155202110e2750dc39b97b3d60fbe450ef302c91d41505d78240f8e",
+    "items": [
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://freelanceaiconsultant.com/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Markten",
+                "item": "https://freelanceaiconsultant.com/markten"
+              },
+              {
+                "@type": "ListItem",
+                "position": 3,
+                "name": "AI in het onderwijs",
+                "item": "https://freelanceaiconsultant.com/markten/onderwijs"
+              }
+            ]
+          },
+          {
+            "@type": "Article",
+            "headline": "AI in het onderwijs: toepassingen, kansen en uitdagingen",
+            "description": "Hoe zet je AI verantwoord in binnen het onderwijs? Lees over toepassingen voor docenten en studenten, AI-beleid voor scholen en de voor- en nadelen van AI.",
+            "inLanguage": "nl-NL",
+            "datePublished": "2026-09-23",
+            "dateModified": "2026-09-23",
+            "author": {
+              "@type": "Person",
+              "name": "Dave Willemstein",
+              "jobTitle": "Onafhankelijk AI-adviseur",
+              "url": "https://freelanceaiconsultant.com/over",
+              "sameAs": [
+                "https://www.linkedin.com/in/davewillemstein"
+              ]
+            },
+            "publisher": {
+              "@type": "Person",
+              "name": "Dave Willemstein"
+            },
+            "mainEntityOfPage": "https://freelanceaiconsultant.com/markten/onderwijs"
+          },
+          {
+            "@type": "FAQPage",
+            "mainEntity": [
+              {
+                "@type": "Question",
+                "name": "Mogen leerlingen en studenten ChatGPT of vergelijkbare tools gebruiken?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Dat is in de eerste plaats een onderwijskundige keuze van de instelling, niet een juridische. Leg per type opdracht vast wat mag, hoe het gebruik zichtbaar wordt gemaakt en wat er gebeurt bij misbruik. Let daarnaast op privacy: laat leerlingen geen persoonsgegevens invoeren in tools waar de school geen afspraken mee heeft."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Is AI die opdrachten nakijkt een hoog-risicotoepassing?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Als het systeem bedoeld is om leerresultaten te beoordelen, valt het volgens de AI Act in de hoog-risicocategorie, ook als die beoordeling het leerproces stuurt. Dan gelden er strengere eisen, onder meer voor menselijk toezicht. Een tool die alleen feedbacksuggesties geeft die de docent zelf beoordeelt, kan anders uitvallen. Laat de classificatie per toepassing toetsen."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Wie is verantwoordelijk: de school of de leverancier?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Allebei, voor een ander deel. De leverancier is als aanbieder verantwoordelijk voor het systeem zelf. Bij een hoog-risicosysteem is de school als gebruiksverantwoordelijke verantwoordelijk voor hoe het wordt ingezet: menselijk toezicht, het informeren van betrokkenen en het gebruik volgens de instructies. Leg die verdeling vast in het contract."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Moet elke docent een AI-training volgen?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "De AI Act vraagt organisaties die AI inzetten om maatregelen te nemen die de AI-geletterdheid van hun mensen ondersteunen. Sinds de Digital Omnibus is er geen verplicht 'toereikend niveau' meer en is geen certificaat nodig. In de praktijk is een basisniveau voor iedereen plus verdieping voor wie met hoog-risicosystemen werkt een verstandige lijn."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Kan een school AI gebruiken om fraude met AI op te sporen?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Wees terughoudend. Systemen die toezicht houden op ongeoorloofd gedrag tijdens toetsen vallen onder de hoog-risicoregels. En een detectiescore is geen bewijs: gebruik de uitkomst hooguit als aanleiding voor een gesprek, nooit als enige grond voor een sanctie."
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "afbeeldingen": [
+    {
+      "regio": "header",
+      "src": "/images/freelance-ai-consultant-logo-header.png",
+      "alt": "freelanceaiconsultant.com logo",
+      "width": "600",
+      "height": "287",
+      "loading": null
+    },
+    {
+      "regio": "main",
+      "src": "/images/dave-portrait.jpg",
+      "alt": "Portret van Dave Willemstein",
+      "width": "88",
+      "height": "88",
+      "loading": "lazy"
+    },
+    {
+      "regio": "footer",
+      "src": "/images/freelance-ai-consultant-icon-footer.png",
+      "alt": "",
+      "width": "192",
+      "height": "192",
+      "loading": "lazy"
+    }
+  ],
+  "laadprestaties": {
+    "scripts": [
+      {
+        "src": "/logo-carousel/logo-carousel.js?v=2",
+        "type": null,
+        "inline_bytes": 0
+      }
+    ],
+    "stylesheets": [
+      "https://fonts.googleapis.com/css2?family=Caveat:wght@600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap",
+      "/_astro/_slug_.bq6BBoZ5.css",
+      "/_astro/_slug_.goiX3PVF.css",
+      "/logo-carousel/logo-carousel.css?v=2"
+    ],
+    "aantal_details": 5,
+    "aantal_tabellen": 0
+  }
+}

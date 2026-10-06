@@ -1,0 +1,642 @@
+{
+  "url": "/inzichten/de-business-case-voor-ai",
+  "build_bestand": "dist/inzichten/de-business-case-voor-ai/index.html",
+  "bron": [
+    "src/pages/inzichten/[slug].astro",
+    "src/data/articles/de-business-case-voor-ai.js"
+  ],
+  "gemeten_op": "2026-10-06",
+  "html": {
+    "bytes": 31318,
+    "sha256": "c703b4c39c38529dba5041bcb2918cf70d6123a639fbf463449ce5c1683b0654",
+    "lang": "nl"
+  },
+  "beschermd": {
+    "title": "De business case voor AI: hoe je hem eerlijk berekent",
+    "meta_description": "Tijdbesparing is geen besparing tot iemand die tijd anders besteedt. Een rekenmodel voor de AI business case dat de toets van de CFO doorstaat.",
+    "canonical": "https://freelanceaiconsultant.com/inzichten/de-business-case-voor-ai",
+    "robots_meta": null,
+    "hreflang": [],
+    "h1": [
+      "De business case voor AI, eerlijk berekend"
+    ]
+  },
+  "social": {
+    "og:type": "website",
+    "og:locale": "nl_NL",
+    "og:site_name": "freelanceaiconsultant.com",
+    "og:title": "De business case voor AI: hoe je hem eerlijk berekent",
+    "og:description": "Tijdbesparing is geen besparing tot iemand die tijd anders besteedt. Een rekenmodel voor de AI business case dat de toets van de CFO doorstaat.",
+    "og:url": "https://freelanceaiconsultant.com/inzichten/de-business-case-voor-ai",
+    "og:image": "https://freelanceaiconsultant.com/images/dave-portrait.jpg",
+    "twitter:card": "summary_large_image",
+    "twitter:title": "De business case voor AI: hoe je hem eerlijk berekent",
+    "twitter:description": "Tijdbesparing is geen besparing tot iemand die tijd anders besteedt. Een rekenmodel voor de AI business case dat de toets van de CFO doorstaat.",
+    "twitter:image": "https://freelanceaiconsultant.com/images/dave-portrait.jpg"
+  },
+  "koppen": [
+    {
+      "niveau": 1,
+      "tekst": "De business case voor AI, eerlijk berekend",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "Waar AI-businesscases sneuvelen",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "De batenkant: drie soorten waarde, drie manieren van tellen",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 3,
+      "tekst": "1. Kostenreductie (hard, mits je het afmaakt)",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 3,
+      "tekst": "2. Omzeteffect (zachter, maar vaak groter)",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 3,
+      "tekst": "3. Risicoreductie (moeilijk te kwantificeren, wel te onderbouwen)",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "De kostenkant: waar het meestal misgaat",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 3,
+      "tekst": "Verbruikskosten die meeschalen",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 3,
+      "tekst": "Beheer en monitoring",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 3,
+      "tekst": "Integratie en koppelingen",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 3,
+      "tekst": "Verandering en opleiding",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 3,
+      "tekst": "Governance en compliance",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "Werk met bandbreedtes, niet met puntschattingen",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "Spreek af wat je over een jaar meet",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "Een laatste toets",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 3,
+      "tekst": "Key takeaways",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 3,
+      "tekst": "Van AI-strategie naar waarde: een 3-stappenplan",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 3,
+      "tekst": "Welke AI-use cases leveren écht resultaat op?",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "Van AI-ambitie naar concrete resultaten.",
+      "regio": "main",
+      "id": null
+    }
+  ],
+  "bodytekst": {
+    "regio": "main",
+    "woorden": 1286,
+    "sha256": "0c37c6ebad5688ae990cb2b9f17f5312199c7d831e5d7216bdabfad78b29e774",
+    "blokken": [
+      "← Terug naar alle inzichten",
+      "Strategie",
+      "De business case voor AI,eerlijk berekend",
+      "De meeste AI-businesscases sneuvelen niet bij de board, maar een jaar later bij de realisatiecheck. Dit is hoe je er een maakt die dat moment overleeft.",
+      "◷ 5 min leestijd 29 januari 2026",
+      "DW",
+      "Door Dave Willemstein Independent AI Advisor, onafhankelijk, geen leveranciersbelangen",
+      "Ik help organisaties AI-beslissingen nemen die waarde creëren. Geen dikke decks, wel duidelijke keuzes en tastbare resultaten.",
+      "vertrouwen,ervaring, impact ↓",
+      "Independent No vendor bias Senior only20+ jaar ervaring",
+      "IN HET KORT",
+      "Bespaarde uren tellen pas als besparing als de kosten echt dalen.",
+      "Reken de volledige kostenkant mee: bouw, beheer, verbruik, verandering.",
+      "Maak aannames zichtbaar en toetsbaar, met een bandbreedte.",
+      "Een eerlijke businesscase is kleiner en houdbaarder.",
+      "AI in Europa",
+      "Europese merken die AI al in productie hebben.",
+      "Geen klanten van mij. Wel voorbeelden van wat er gebeurt als AI voorbij de pilot komt.",
+      "Pauzeer",
+      "Klarna",
+      "Zweden",
+      "AI-assistent in de klantenservice",
+      "Zalando",
+      "Duitsland",
+      "Mode-assistent voor productadvies",
+      "Financial services",
+      "Investeringsmaatschappij",
+      "AI-strategie en use-case portfolio",
+      "Booking.com",
+      "Nederland",
+      "AI Trip Planner voor reisplanning",
+      "Siemens",
+      "Duitsland",
+      "Industrial Copilot voor engineering",
+      "Retail",
+      "Enterprise retailer",
+      "AI-gedreven vendorselectie",
+      "Spotify",
+      "Zweden",
+      "AI DJ en gepersonaliseerde playlists",
+      "Mercedes-Benz",
+      "Duitsland",
+      "Generatieve spraakassistent in de auto",
+      "Industrial / B2B",
+      "Internationale maakorganisatie",
+      "AI-roadmap en leadership",
+      "ING",
+      "Nederland",
+      "Generatieve chatbot voor klantvragen",
+      "L'Oréal",
+      "Frankrijk",
+      "Beauty Genius: persoonlijk advies",
+      "Financial services",
+      "Financiële dienstverlener",
+      "KYC versneld met AI-documentanalyse",
+      "SAP",
+      "Duitsland",
+      "Joule: copilot in bedrijfssoftware",
+      "Carrefour",
+      "Frankrijk",
+      "Hopla: boodschappenassistent",
+      "Strategy & AI",
+      "SaaS scale-up",
+      "AI-readiness assessment",
+      "Adyen",
+      "Nederland",
+      "AI-optimalisatie van betalingen",
+      "Philips",
+      "Nederland",
+      "AI in medische beeldvorming",
+      "Proces & productivity",
+      "Zakelijke dienstverlener",
+      "Interne AI-assistent voor kenniswerkers",
+      "Waar AI-businesscases sneuvelen",
+      "Niet bij de goedkeuring, want daar doen ze het meestal prima. Ze sneuvelen een jaar later, bij de vraag of het beloofde resultaat is gehaald. Op dat moment blijkt de belofte niet meetbaar, de kostenkant incompleet, en de besparing niet terug te vinden in enige begroting.",
+      "Dat is jammer, want het beschadigt het vertrouwen in de volgende businesscase, ook als die beter is.",
+      "De batenkant: drie soorten waarde, drie manieren van tellen",
+      "1. Kostenreductie (hard, mits je het afmaakt)",
+      "De klassieke: we besparen uren, dus we besparen geld. Dat klopt alleen als die uren daadwerkelijk uit de kostenbasis verdwijnen. Drie manieren waarop dat gebeurt:",
+      "Minder externe inhuur of uitzendkrachten: direct zichtbaar in de cijfers, dus hard.",
+      "Groei opvangen zonder extra aanname: reëel, maar alleen als de groei er daadwerkelijk is. Leg vast wat het referentiescenario was.",
+      "Minder eigen fte: hard, maar vraagt een besluit dat verder gaat dan een AI-project. Neem dit alleen op als de directie dat besluit ook werkelijk wil nemen.",
+      "Wat níét telt: \"onze mensen hebben meer tijd voor waardevol werk\". Dat is echte waarde, maar geen financiële besparing. Zet het in de businesscase onder kwalitatieve baten, niet in de rekensom. Anders wordt het je over een jaar aangerekend.",
+      "2. Omzeteffect (zachter, maar vaak groter)",
+      "Snellere offertes, hogere conversie, minder klantverloop, meer capaciteit voor declarabel werk. Dit is vaak waar de grootste waarde zit en tegelijk het lastigst toe te rekenen.",
+      "Werkwijze die standhoudt: kies één meetbare tussenstap in plaats van de eindomzet. Bijvoorbeeld niet \"meer omzet\" maar \"doorlooptijd van offerte-aanvraag tot verzending van 4 dagen naar 1 dag\". Toon daarnaast historisch aan wat het verband is tussen die doorlooptijd en de conversie. Dan is de redenering navolgbaar, ook voor iemand die sceptisch is.",
+      "3. Risicoreductie (moeilijk te kwantificeren, wel te onderbouwen)",
+      "Minder fouten, betere naleving, minder herstelwerk. Reken hier met de kosten van incidenten uit het verleden: hoeveel dossiers moesten vorig jaar opnieuw, wat kostte dat aan uren, boetes of claims? Dat is een verdedigbare basis. Een percentage uit een onderzoeksrapport is dat niet.",
+      "De kostenkant: waar het meestal misgaat",
+      "De batenkant krijgt de aandacht, de kostenkant wordt onderschat. Vijf posten die er vrijwel altijd te laag in staan of helemaal ontbreken.",
+      "Verbruikskosten die meeschalen",
+      "Dit is fundamenteel anders dan bij klassieke software. Waar een licentie een vast bedrag per gebruiker is, betaal je bij AI vaak per verwerkt document, per gesprek of per verwerkte hoeveelheid tekst. In de pilot met vijftig gebruikers is dat verwaarloosbaar. Bij vijfhonderd gebruikers en tien keer het volume is het een serieuze post.",
+      "Doe dit: meet in de pilot de kosten per transactie en vermenigvuldig met het verwachte volume bij volledige uitrol. Reken ook een scenario door met het dubbele volume, want succesvolle toepassingen worden intensiever gebruikt dan gepland.",
+      "Beheer en monitoring",
+      "Reken op structurele uren voor kwaliteitsmonitoring, het actueel houden van testsets, modelupdates en incidentafhandeling. Voor een middelgrote toepassing is een halve tot een hele dag per maand realistisch, meer bij hoog-risicotoepassingen met formele toetsvereisten.",
+      "Integratie en koppelingen",
+      "Meestal de grootste verrassing. De toepassing zelf is klaar in weken; de koppeling met het bronsysteem, het rechtenmodel en de logging duurt maanden. Vraag bij elke businesscase expliciet: welke systemen moeten hiervoor open, en wie beheert die?",
+      "Verandering en opleiding",
+      "Instructie, begeleiding, tijdelijk dubbel werk tijdens de overgang, en de productiviteitsdip in de eerste weken. Die dip is echt en duurt doorgaans vier tot acht weken. Neem hem op: het maakt je case geloofwaardiger, niet zwakker.",
+      "Governance en compliance",
+      "Voor midden- en hoog-risicotoepassingen: documentatie, beoordeling, periodieke toetsing, eventueel externe validatie. Bij gereguleerde processen is dit geen marginale post.",
+      "Werk met bandbreedtes, niet met puntschattingen",
+      "Een case die zegt \"€412.000 besparing in jaar twee\" is minder geloofwaardig dan een case die zegt \"€250.000 tot €500.000, afhankelijk van of we adoptie boven de 60% krijgen\". De tweede laat zien dat je weet waar de onzekerheid zit.",
+      "Maak daarbij expliciet welke aannames de uitkomst het sterkst bepalen. In de meeste AI-businesscases zijn dat er drie: het adoptiepercentage, het volume, en of de tijdwinst omgezet wordt in iets dat geld oplevert. Zet die drie bovenaan, met de waarde die je hebt aangenomen en de bron ervan.",
+      "Spreek af wat je over een jaar meet",
+      "Het onderdeel dat het vaakst ontbreekt en het meeste verschil maakt. Leg bij goedkeuring vast:",
+      "Welke drie cijfers je over twaalf maanden rapporteert, en waar ze vandaan komen.",
+      "Wat de nulmeting is, gemeten vóór de start, niet gereconstrueerd achteraf.",
+      "Bij welke uitkomst je bijstuurt, en bij welke uitkomst je stopt.",
+      "Dat laatste punt maakt een businesscase tot een afspraak in plaats van een pleidooi. Het verlaagt bovendien de drempel voor goedkeuring: een CFO zegt makkelijker ja tegen een voorstel met een expliciet afbreekpunt dan tegen een voorstel dat alleen maar kan slagen.",
+      "Een laatste toets",
+      "Laat iemand die niets met het project te maken heeft de case lezen, met één opdracht: zoek de aanname waar de hele uitkomst op rust. Als die persoon hem binnen vijf minuten vindt, is je case transparant. Als hij hem niet kan vinden, zit hij te diep verstopt. En dat komt over een jaar alsnog naar boven, op een ongelegener moment.",
+      "Key takeaways",
+      "✓",
+      "Uren zijn geen euro’s",
+      "Tenzij je de uren omzet in omzet of in minder inhuur, is het geen financiële besparing.",
+      "✓",
+      "Verbruikskosten schalen mee",
+      "Bij AI stijgen de variabele kosten met het gebruik. Reken door op tien keer volume.",
+      "✓",
+      "Bandbreedte boven precisie",
+      "Een onderbouwde range is geloofwaardiger dan een exact bedrag met drie decimalen.",
+      "ONTHOUD“Een businesscase is geen verkoopdocument, het is een afspraak over wat je over een jaar gaat meten.”",
+      "Sparren over jouw situatie? 30 minuten, vrijblijvend →",
+      "Verder lezen",
+      "↗",
+      "Strategie",
+      "Van AI-strategie naar waarde: een 3-stappenplan",
+      "De meeste AI-strategieën stranden niet op de strategie, maar op de vertaling ervan. Drie stappen die die vertaling afdwingen.",
+      "◷ 4 min leestijd Lees artikel →",
+      "⌕",
+      "Use cases",
+      "Welke AI-use cases leveren écht resultaat op?",
+      "Niet de spectaculairste, maar de saaiste. Vier kenmerken die de winnaars delen, en vier patronen die vrijwel altijd stranden.",
+      "◷ 4 min leestijd Lees artikel →",
+      "Klaar voor impact?",
+      "Van AI-ambitie naar concrete resultaten.",
+      "Plan een vrijblijvend gesprek. Geen pitch. Wel scherpe vragen.",
+      "30 min., geen pitch deckPlan een gesprek →"
+    ]
+  },
+  "links": [
+    {
+      "regio": "overig",
+      "soort": "intern",
+      "href": "#main",
+      "anker": "Naar hoofdinhoud",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/",
+      "anker": "",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/diensten",
+      "anker": "Diensten",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/cases",
+      "anker": "Cases",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/werkwijze",
+      "anker": "Werkwijze",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/inzichten",
+      "anker": "Inzichten",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/over",
+      "anker": "Over mij",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/contact",
+      "anker": "Plan een gesprek →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/inzichten",
+      "anker": "← Terug naar alle inzichten",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/contact",
+      "anker": "Sparren over jouw situatie? 30 minuten, vrijblijvend →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/inzichten/van-ai-strategie-naar-waarde",
+      "anker": "↗ Strategie Van AI-strategie naar waarde: een 3-stappenplan De meeste AI-strategieën stranden niet op de strategie, maar op de vertaling ervan. Drie stappen die die vertaling afdwingen. ◷ 4 min leestijd Lees artikel →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/inzichten/welke-ai-use-cases-leveren-resultaat",
+      "anker": "⌕ Use cases Welke AI-use cases leveren écht resultaat op? Niet de spectaculairste, maar de saaiste. Vier kenmerken die de winnaars delen, en vier patronen die vrijwel altijd stranden. ◷ 4 min leestijd Lees artikel →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/contact",
+      "anker": "Plan een gesprek →",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/diensten/ai-readiness-assessment",
+      "anker": "AI Readiness Assessment",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/diensten/ai-strategy-sprint",
+      "anker": "AI Strategy Sprint",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/diensten/fractional-ai-lead",
+      "anker": "Fractional AI Lead",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/diensten",
+      "anker": "Alle diensten",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/cases",
+      "anker": "Cases",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/werkwijze",
+      "anker": "Werkwijze",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/inzichten",
+      "anker": "Inzichten",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/veelgestelde-vragen",
+      "anker": "Veelgestelde vragen",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/over",
+      "anker": "Over mij",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-consultancy",
+      "anker": "AI consultancy",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-implementatie",
+      "anker": "AI implementatie",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-automatisering",
+      "anker": "AI automatisering",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-voor-bedrijven",
+      "anker": "AI voor bedrijven",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-development",
+      "anker": "AI development",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-agents",
+      "anker": "AI agents",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-beleid",
+      "anker": "AI beleid",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-workshop",
+      "anker": "AI workshop",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/markten",
+      "anker": "AI per branche",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/kennisbank",
+      "anker": "Kennisbank",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/tarieven",
+      "anker": "Tarieven",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/partnernetwerk",
+      "anker": "Partnernetwerk",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "overig",
+      "href": "mailto:dave@freelanceaiconsultant.com",
+      "anker": "dave@freelanceaiconsultant.com",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "extern",
+      "href": "https://www.linkedin.com/in/davewillemstein",
+      "anker": "LinkedIn ↗",
+      "rel": "noopener"
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/contact",
+      "anker": "Plan een gesprek",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/privacy",
+      "anker": "Privacyverklaring",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/algemene-voorwaarden",
+      "anker": "Algemene voorwaarden",
+      "rel": null
+    }
+  ],
+  "structured_data": {
+    "sha256": "1487622a8915db0ae0b606f4f8188be744497cf31a0e0a17a0c8d9459eac25e9",
+    "items": [
+      {
+        "@context": "https://schema.org",
+        "@type": "BlogPosting",
+        "headline": "De business case voor AI: hoe je hem eerlijk berekent",
+        "description": "Tijdbesparing is geen besparing tot iemand die tijd anders besteedt. Een rekenmodel dat de toets van de CFO doorstaat.",
+        "datePublished": "2026-01-29",
+        "inLanguage": "nl-NL",
+        "articleSection": "Strategie",
+        "author": {
+          "@type": "Person",
+          "name": "Dave Willemstein",
+          "url": "https://freelanceaiconsultant.com",
+          "jobTitle": "Onafhankelijk AI-adviseur"
+        },
+        "publisher": {
+          "@type": "Person",
+          "name": "Dave Willemstein"
+        },
+        "mainEntityOfPage": "https://freelanceaiconsultant.com/inzichten/de-business-case-voor-ai"
+      }
+    ]
+  },
+  "afbeeldingen": [
+    {
+      "regio": "header",
+      "src": "/images/freelance-ai-consultant-logo-header.png",
+      "alt": "freelanceaiconsultant.com logo",
+      "width": "600",
+      "height": "287",
+      "loading": null
+    },
+    {
+      "regio": "main",
+      "src": "/images/dave-portrait.jpg",
+      "alt": "Dave Willemstein, Independent AI Advisor",
+      "width": "500",
+      "height": "620",
+      "loading": "lazy"
+    },
+    {
+      "regio": "footer",
+      "src": "/images/freelance-ai-consultant-icon-footer.png",
+      "alt": "",
+      "width": "192",
+      "height": "192",
+      "loading": "lazy"
+    }
+  ],
+  "laadprestaties": {
+    "scripts": [
+      {
+        "src": "/logo-carousel/logo-carousel.js?v=2",
+        "type": null,
+        "inline_bytes": 0
+      }
+    ],
+    "stylesheets": [
+      "https://fonts.googleapis.com/css2?family=Caveat:wght@600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap",
+      "/_astro/_slug_.bq6BBoZ5.css",
+      "/_astro/_slug_.CyUYGuAp.css",
+      "/logo-carousel/logo-carousel.css?v=2"
+    ],
+    "aantal_details": 0,
+    "aantal_tabellen": 0
+  }
+}

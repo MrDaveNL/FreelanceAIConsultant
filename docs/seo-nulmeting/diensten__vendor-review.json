@@ -1,0 +1,678 @@
+{
+  "url": "/diensten/vendor-review",
+  "build_bestand": "dist/diensten/vendor-review/index.html",
+  "bron": [
+    "src/pages/diensten/[slug].astro",
+    "src/data/services.js",
+    "src/data/prijzen.ts"
+  ],
+  "gemeten_op": "2026-10-06",
+  "html": {
+    "bytes": 33408,
+    "sha256": "c5fd7f9a69a9d822bb2d9da1bff152117feadd718becdaab81436af60717941d",
+    "lang": "nl"
+  },
+  "beschermd": {
+    "title": "Vendor Review | Freelance AI Consultant",
+    "meta_description": "Onafhankelijke selectie van AI-leveranciers: criteria vooraf, scorecards, test op eigen data en TCO over drie jaar inclusief exit.",
+    "canonical": "https://freelanceaiconsultant.com/diensten/vendor-review",
+    "robots_meta": null,
+    "hreflang": [],
+    "h1": [
+      "Vendor Review & selectie"
+    ]
+  },
+  "social": {
+    "og:type": "website",
+    "og:locale": "nl_NL",
+    "og:site_name": "freelanceaiconsultant.com",
+    "og:title": "Vendor Review | Freelance AI Consultant",
+    "og:description": "Onafhankelijke selectie van AI-leveranciers: criteria vooraf, scorecards, test op eigen data en TCO over drie jaar inclusief exit.",
+    "og:url": "https://freelanceaiconsultant.com/diensten/vendor-review",
+    "og:image": "https://freelanceaiconsultant.com/images/dave-portrait.jpg",
+    "twitter:card": "summary_large_image",
+    "twitter:title": "Vendor Review | Freelance AI Consultant",
+    "twitter:description": "Onafhankelijke selectie van AI-leveranciers: criteria vooraf, scorecards, test op eigen data en TCO over drie jaar inclusief exit.",
+    "twitter:image": "https://freelanceaiconsultant.com/images/dave-portrait.jpg"
+  },
+  "koppen": [
+    {
+      "niveau": 1,
+      "tekst": "Vendor Review & selectie",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "Waar selectietrajecten misgaan",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "Criteria eerst, leveranciers daarna. Nooit andersom.",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 3,
+      "tekst": "Criteria & longlist",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 3,
+      "tekst": "Gestructureerde evaluatie",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 3,
+      "tekst": "Validatie & TCO",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 3,
+      "tekst": "Besluit & onderhandeling",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "Concreet. Duidelijk. Direct toepasbaar.",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 3,
+      "tekst": "Voor organisaties die:",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "Van inzicht naar impact.",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 3,
+      "tekst": "Diagnose",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 3,
+      "tekst": "Prioriteren",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 3,
+      "tekst": "Beslissen",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 3,
+      "tekst": "Ship & govern",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "Twaalf leveranciers, zes weken, één onderbouwd besluit.",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "Antwoorden op wat je nu denkt.",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 3,
+      "tekst": "AI Due Diligence",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 3,
+      "tekst": "AI Strategy Sprint",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "Plan een gesprek.",
+      "regio": "main",
+      "id": null
+    }
+  ],
+  "bodytekst": {
+    "regio": "main",
+    "woorden": 763,
+    "sha256": "ea1fcbe8ad9aadad2887bb150ab3452bdc7345472819ad60e963d37b55549a45",
+    "blokken": [
+      "Kiezen op fit, niet op demo",
+      "Vendor Review & selectie",
+      "Een gestructureerd selectieproces met heldere criteria, echte scorecards en een TCO-berekening die verder kijkt dan het licentietarief. Zodat je keuze uit te leggen is, ook over twee jaar.",
+      "Plan een gesprek → Alle diensten → 30 min., geen pitch deck",
+      "vertrouwen,ervaring, impact ↓",
+      "Independent No vendor bias Senior only20+ jaar ervaring",
+      "AI in Europa",
+      "Europese merken die AI al in productie hebben.",
+      "Geen klanten van mij. Wel voorbeelden van wat er gebeurt als AI voorbij de pilot komt.",
+      "Pauzeer",
+      "Klarna",
+      "Zweden",
+      "AI-assistent in de klantenservice",
+      "Zalando",
+      "Duitsland",
+      "Mode-assistent voor productadvies",
+      "Financial services",
+      "Investeringsmaatschappij",
+      "AI-strategie en use-case portfolio",
+      "Booking.com",
+      "Nederland",
+      "AI Trip Planner voor reisplanning",
+      "Siemens",
+      "Duitsland",
+      "Industrial Copilot voor engineering",
+      "Retail",
+      "Enterprise retailer",
+      "AI-gedreven vendorselectie",
+      "Spotify",
+      "Zweden",
+      "AI DJ en gepersonaliseerde playlists",
+      "Mercedes-Benz",
+      "Duitsland",
+      "Generatieve spraakassistent in de auto",
+      "Industrial / B2B",
+      "Internationale maakorganisatie",
+      "AI-roadmap en leadership",
+      "ING",
+      "Nederland",
+      "Generatieve chatbot voor klantvragen",
+      "L'Oréal",
+      "Frankrijk",
+      "Beauty Genius: persoonlijk advies",
+      "Financial services",
+      "Financiële dienstverlener",
+      "KYC versneld met AI-documentanalyse",
+      "SAP",
+      "Duitsland",
+      "Joule: copilot in bedrijfssoftware",
+      "Carrefour",
+      "Frankrijk",
+      "Hopla: boodschappenassistent",
+      "Strategy & AI",
+      "SaaS scale-up",
+      "AI-readiness assessment",
+      "Adyen",
+      "Nederland",
+      "AI-optimalisatie van betalingen",
+      "Philips",
+      "Nederland",
+      "AI in medische beeldvorming",
+      "Proces & productivity",
+      "Zakelijke dienstverlener",
+      "Interne AI-assistent voor kenniswerkers",
+      "Duur3-6 weken",
+      "ResultaatOnderbouwd selectieadvies",
+      "Investering€9.800 - €15.400",
+      "Afhankelijk van het aantal leveranciers (2 tot 4). Bedragen zijn exclusief btw en reiskosten.",
+      "De aanleiding",
+      "Waar selectietrajecten misgaan",
+      "De criteria worden opgesteld nadat de favoriet al bekend is.",
+      "Demo’s worden beoordeeld op presentatiekwaliteit in plaats van op fit met jouw data en processen.",
+      "De TCO-vergelijking stopt bij licentiekosten en negeert integratie, beheer en exit.",
+      "Referenties worden gebeld, maar alleen de referenties die de leverancier zelf aandraagt.",
+      "Hoe het werkt",
+      "Criteria eerst, leveranciers daarna. Nooit andersom.",
+      "01",
+      "Criteria & longlist",
+      "Wegingsfactoren vastgesteld met business, IT en inkoop vóórdat we naar de markt kijken. Longlist op basis van fit, niet op naamsbekendheid.",
+      "02",
+      "Gestructureerde evaluatie",
+      "Iedere leverancier krijgt hetzelfde scenario met jouw data, dezelfde vragenlijst en dezelfde tijd. Scorecards worden onafhankelijk ingevuld en daarna besproken.",
+      "03",
+      "Validatie & TCO",
+      "Use-case validatie op echte data, referentiechecks buiten de aangeleverde lijst om, en een driejarige TCO inclusief integratie, beheer en exitkosten.",
+      "04",
+      "Besluit & onderhandeling",
+      "Eén onderbouwd advies, een beslisdocument dat door procurement komt, en ondersteuning aan de onderhandelingstafel.",
+      "Wat je krijgt",
+      "Concreet. Duidelijk.Direct toepasbaar.",
+      "Wegingskader en scorecards, ingevuld en navolgbaar",
+      "Longlist-, shortlist- en eindbeoordeling met motivatie per afvalmoment",
+      "TCO-vergelijking over drie jaar, inclusief integratie-, beheer- en exitkosten",
+      "Risicoanalyse: vendor lock-in, dataverwerking, modelafhankelijkheid, continuïteit",
+      "Referentierapport op basis van eigen research",
+      "Beslisdocument dat procurement en board direct kunnen gebruiken",
+      "Best passend bij",
+      "Voor organisaties die:",
+      "Trajecten waarbij meerdere partijen intern een andere voorkeur hebben",
+      "Aankopen waarbij de keuze achteraf uit te leggen moet zijn",
+      "Organisaties die eerder een verkeerde tool kochten en dat niet nog eens willen",
+      "Minder geschikt als",
+      "Als de leverancier feitelijk al gekozen is en je een onderbouwing achteraf zoekt",
+      "Het onderliggende ritme",
+      "Van inzichtnaar impact.",
+      "Elke opdracht doorloopt dezelfde vier beslismomenten. Alleen de diepgang per stap verschilt.",
+      "Meer over mijn werkwijze →",
+      "01",
+      "⌕",
+      "Diagnose",
+      "Wat proberen we werkelijk op te lossen?",
+      "02",
+      "☑",
+      "Prioriteren",
+      "Welke use cases verdienen geld, tijd en aandacht?",
+      "03",
+      "↯",
+      "Beslissen",
+      "Build, buy of partner, en waarom?",
+      "04",
+      "↗",
+      "Ship & govern",
+      "Hoe zorgen we dat het ook echt landt?",
+      "Recente case",
+      "Twaalf leveranciers, zes weken, één onderbouwd besluit.",
+      "Lees de volledige case →",
+      "Een enterprise retailer koos een AI-partner voor vraagvoorspelling. Het selectieproces bespaarde €1,1M aan TCO over drie jaar, vooral doordat de goedkoopste licentie de duurste integratie bleek te hebben.",
+      "12leveranciers beoordeeld€1,1Mbespaard op TCO6weken doorlooptijd35%hogere verwachte waarde",
+      "Veelgestelde vragen",
+      "Antwoorden op wat je nu denkt.",
+      "Mag ik jouw scorecards zelf hergebruiken?+",
+      "Ja. Het kader is van jou na afloop, inclusief de wegingen en de ingevulde beoordelingen. Ik lever geen black box.",
+      "Heb je relaties met leveranciers?+",
+      "Ik ken de markt, dus ik ken partijen. Maar ik ontvang van geen enkele leverancier een vergoeding. Als ik in de afgelopen twee jaar met een partij heb samengewerkt, meld ik dat voordat die partij op de longlist komt.",
+      "Wat als geen enkele leverancier past?+",
+      "Dan is dat het advies. Het komt regelmatig voor dat de conclusie is dat zelf bouwen of uitstellen verstandiger is dan kopen.",
+      "Meer vragen over samenwerking, tarieven en inkoop? Bekijk alle veelgestelde vragen →",
+      "Ook interessant",
+      "☑",
+      "AI Due Diligence",
+      "Beoordeel AI-oplossingen of -bedrijven op waarde, risico, veiligheid en haalbaarheid.",
+      "2-4 weken · €12.600 - €19.600",
+      "→ ↯",
+      "AI Strategy Sprint",
+      "Van ambitie naar een realistische AI-roadmap die past bij business, mensen en middelen, board-ready in zes weken.",
+      "4-6 weken · €15.400 - €22.400",
+      "→",
+      "Klaar voor impact?",
+      "Plan een gesprek.",
+      "30 minuten. Geen pitch deck. Gewoon een goed gesprek over jouw situatie.",
+      "30 min., geen pitch deckPlan een gesprek →"
+    ]
+  },
+  "links": [
+    {
+      "regio": "overig",
+      "soort": "intern",
+      "href": "#main",
+      "anker": "Naar hoofdinhoud",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/",
+      "anker": "",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/diensten",
+      "anker": "Diensten",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/cases",
+      "anker": "Cases",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/werkwijze",
+      "anker": "Werkwijze",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/inzichten",
+      "anker": "Inzichten",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/over",
+      "anker": "Over mij",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/contact",
+      "anker": "Plan een gesprek →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/contact",
+      "anker": "Plan een gesprek →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/diensten",
+      "anker": "Alle diensten →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/werkwijze",
+      "anker": "Meer over mijn werkwijze →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/cases/vendorselectie-enterprise-retail",
+      "anker": "Lees de volledige case →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/veelgestelde-vragen",
+      "anker": "Bekijk alle veelgestelde vragen →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/diensten/ai-due-diligence",
+      "anker": "☑ AI Due Diligence Beoordeel AI-oplossingen of -bedrijven op waarde, risico, veiligheid en haalbaarheid. 2-4 weken · €12.600 - €19.600 →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/diensten/ai-strategy-sprint",
+      "anker": "↯ AI Strategy Sprint Van ambitie naar een realistische AI-roadmap die past bij business, mensen en middelen, board-ready in zes weken. 4-6 weken · €15.400 - €22.400 →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/contact",
+      "anker": "Plan een gesprek →",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/diensten/ai-readiness-assessment",
+      "anker": "AI Readiness Assessment",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/diensten/ai-strategy-sprint",
+      "anker": "AI Strategy Sprint",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/diensten/fractional-ai-lead",
+      "anker": "Fractional AI Lead",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/diensten",
+      "anker": "Alle diensten",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/cases",
+      "anker": "Cases",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/werkwijze",
+      "anker": "Werkwijze",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/inzichten",
+      "anker": "Inzichten",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/veelgestelde-vragen",
+      "anker": "Veelgestelde vragen",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/over",
+      "anker": "Over mij",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-consultancy",
+      "anker": "AI consultancy",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-implementatie",
+      "anker": "AI implementatie",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-automatisering",
+      "anker": "AI automatisering",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-voor-bedrijven",
+      "anker": "AI voor bedrijven",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-development",
+      "anker": "AI development",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-agents",
+      "anker": "AI agents",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-beleid",
+      "anker": "AI beleid",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-workshop",
+      "anker": "AI workshop",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/markten",
+      "anker": "AI per branche",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/kennisbank",
+      "anker": "Kennisbank",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/tarieven",
+      "anker": "Tarieven",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/partnernetwerk",
+      "anker": "Partnernetwerk",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "overig",
+      "href": "mailto:dave@freelanceaiconsultant.com",
+      "anker": "dave@freelanceaiconsultant.com",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "extern",
+      "href": "https://www.linkedin.com/in/davewillemstein",
+      "anker": "LinkedIn ↗",
+      "rel": "noopener"
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/contact",
+      "anker": "Plan een gesprek",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/privacy",
+      "anker": "Privacyverklaring",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/algemene-voorwaarden",
+      "anker": "Algemene voorwaarden",
+      "rel": null
+    }
+  ],
+  "structured_data": {
+    "sha256": "4f2656a7aa45ee3cbd38309b8d9022b65414c106e54218241c25b5b3026bd745",
+    "items": [
+      {
+        "@context": "https://schema.org",
+        "@type": "Service",
+        "name": "Vendor Review",
+        "description": "Een gestructureerd selectieproces met heldere criteria, echte scorecards en een TCO-berekening die verder kijkt dan het licentietarief. Zodat je keuze uit te leggen is, ook over twee jaar.",
+        "provider": {
+          "@type": "Person",
+          "name": "Dave Willemstein",
+          "url": "https://freelanceaiconsultant.com"
+        },
+        "areaServed": [
+          "NL",
+          "BE",
+          "DE"
+        ],
+        "serviceType": "AI-advies",
+        "offers": {
+          "@type": "Offer",
+          "priceCurrency": "EUR",
+          "description": "€9.800 - €15.400. Afhankelijk van het aantal leveranciers (2 tot 4)."
+        }
+      }
+    ]
+  },
+  "afbeeldingen": [
+    {
+      "regio": "header",
+      "src": "/images/freelance-ai-consultant-logo-header.png",
+      "alt": "freelanceaiconsultant.com logo",
+      "width": "600",
+      "height": "287",
+      "loading": null
+    },
+    {
+      "regio": "main",
+      "src": "/images/dave-portrait.jpg",
+      "alt": "Dave Willemstein, Independent AI Advisor",
+      "width": "500",
+      "height": "620",
+      "loading": "lazy"
+    },
+    {
+      "regio": "footer",
+      "src": "/images/freelance-ai-consultant-icon-footer.png",
+      "alt": "",
+      "width": "192",
+      "height": "192",
+      "loading": "lazy"
+    }
+  ],
+  "laadprestaties": {
+    "scripts": [
+      {
+        "src": "/logo-carousel/logo-carousel.js?v=2",
+        "type": null,
+        "inline_bytes": 0
+      }
+    ],
+    "stylesheets": [
+      "https://fonts.googleapis.com/css2?family=Caveat:wght@600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap",
+      "/_astro/_slug_.bq6BBoZ5.css",
+      "/_astro/_slug_.BJ2d3JA4.css",
+      "/logo-carousel/logo-carousel.css?v=2"
+    ],
+    "aantal_details": 3,
+    "aantal_tabellen": 0
+  }
+}

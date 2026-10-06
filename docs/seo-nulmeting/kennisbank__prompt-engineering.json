@@ -1,0 +1,782 @@
+{
+  "url": "/kennisbank/prompt-engineering",
+  "build_bestand": "dist/kennisbank/prompt-engineering/index.html",
+  "bron": [
+    "src/content/pages/kennisbank/prompt-engineering/index.md",
+    "src/pages/[...slug].astro"
+  ],
+  "gemeten_op": "2026-10-06",
+  "html": {
+    "bytes": 34390,
+    "sha256": "27771ba04a7808ef608c5feb544b288d0aadf985e5c336c6c8f1691f7a97936c",
+    "lang": "nl"
+  },
+  "beschermd": {
+    "title": "Prompt engineering | Zo schrijf je betere AI prompts",
+    "meta_description": "Leer hoe je betere AI prompts schrijft. Met technieken, voorbeelden en templates voor zakelijk gebruik in ChatGPT, Claude, Gemini en Microsoft Copilot.",
+    "canonical": "https://freelanceaiconsultant.com/kennisbank/prompt-engineering",
+    "robots_meta": null,
+    "hreflang": [],
+    "h1": [
+      "Prompt engineering: betere resultaten uit AI"
+    ]
+  },
+  "social": {
+    "og:type": "website",
+    "og:locale": "nl_NL",
+    "og:site_name": "freelanceaiconsultant.com",
+    "og:title": "Prompt engineering | Zo schrijf je betere AI prompts",
+    "og:description": "Leer hoe je betere AI prompts schrijft. Met technieken, voorbeelden en templates voor zakelijk gebruik in ChatGPT, Claude, Gemini en Microsoft Copilot.",
+    "og:url": "https://freelanceaiconsultant.com/kennisbank/prompt-engineering",
+    "og:image": "https://freelanceaiconsultant.com/images/dave-portrait.jpg",
+    "twitter:card": "summary_large_image",
+    "twitter:title": "Prompt engineering | Zo schrijf je betere AI prompts",
+    "twitter:description": "Leer hoe je betere AI prompts schrijft. Met technieken, voorbeelden en templates voor zakelijk gebruik in ChatGPT, Claude, Gemini en Microsoft Copilot.",
+    "twitter:image": "https://freelanceaiconsultant.com/images/dave-portrait.jpg"
+  },
+  "koppen": [
+    {
+      "niveau": 1,
+      "tekst": "Prompt engineering: betere resultaten uit AI",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "Wat is prompt engineering?",
+      "regio": "main",
+      "id": "wat-is-prompt-engineering"
+    },
+    {
+      "niveau": 2,
+      "tekst": "Technieken",
+      "regio": "main",
+      "id": "technieken"
+    },
+    {
+      "niveau": 2,
+      "tekst": "Voorbeelden en templates",
+      "regio": "main",
+      "id": "voorbeelden-en-templates"
+    },
+    {
+      "niveau": 3,
+      "tekst": "Template voor een goede AI prompt",
+      "regio": "main",
+      "id": "template-voor-een-goede-ai-prompt"
+    },
+    {
+      "niveau": 2,
+      "tekst": "Veelgemaakte fouten",
+      "regio": "main",
+      "id": "veelgemaakte-fouten"
+    },
+    {
+      "niveau": 2,
+      "tekst": "Bronnen",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "Van AI-ambitie naar concrete resultaten.",
+      "regio": "main",
+      "id": null
+    }
+  ],
+  "bodytekst": {
+    "regio": "main",
+    "woorden": 1779,
+    "sha256": "8c40732c55e51c0183df4029b2e99716445f903a44c902921b3f358100212ae1",
+    "blokken": [
+      "Home",
+      "Kennisbank",
+      "Prompt engineering",
+      "Kennisbank",
+      "Prompt engineering: betere resultaten uit AI",
+      "Een AI prompt is de opdracht die je aan een taalmodel geeft, en de kwaliteit van die opdracht bepaalt voor een groot deel wat je terugkrijgt. Prompt engineering klinkt technisch, maar voor de meeste zakelijke gebruikers komt het neer op iets vertrouwds: een goede opdracht geven aan iemand die slim is maar je organisatie niet kent. Hieronder lees je welke technieken de makers van ChatGPT, Claude, Gemini en Copilot zelf aanraden, met templates die je direct kunt gebruiken.",
+      "Bekijk de AI workshops → Plan een adviesgesprek →",
+      "Geschreven door Dave Willemstein, onafhankelijk AI consultant · gepubliceerd 23 september 2026",
+      "IN HET KORT",
+      "Een goede prompt vertelt wat je wilt, waarom, voor wie en in welke vorm.",
+      "Voorbeelden, context en een duidelijke structuur verbeteren het resultaat meer dan slimme formules.",
+      "Controleer de uitkomst altijd: een taalmodel kan overtuigend klinken en toch fout zitten.",
+      "AI in Europa",
+      "Europese merken die AI al in productie hebben.",
+      "Geen klanten van mij. Wel voorbeelden van wat er gebeurt als AI voorbij de pilot komt.",
+      "Pauzeer",
+      "Klarna",
+      "Zweden",
+      "AI-assistent in de klantenservice",
+      "Zalando",
+      "Duitsland",
+      "Mode-assistent voor productadvies",
+      "Financial services",
+      "Investeringsmaatschappij",
+      "AI-strategie en use-case portfolio",
+      "Booking.com",
+      "Nederland",
+      "AI Trip Planner voor reisplanning",
+      "Siemens",
+      "Duitsland",
+      "Industrial Copilot voor engineering",
+      "Retail",
+      "Enterprise retailer",
+      "AI-gedreven vendorselectie",
+      "Spotify",
+      "Zweden",
+      "AI DJ en gepersonaliseerde playlists",
+      "Mercedes-Benz",
+      "Duitsland",
+      "Generatieve spraakassistent in de auto",
+      "Industrial / B2B",
+      "Internationale maakorganisatie",
+      "AI-roadmap en leadership",
+      "ING",
+      "Nederland",
+      "Generatieve chatbot voor klantvragen",
+      "L'Oréal",
+      "Frankrijk",
+      "Beauty Genius: persoonlijk advies",
+      "Financial services",
+      "Financiële dienstverlener",
+      "KYC versneld met AI-documentanalyse",
+      "SAP",
+      "Duitsland",
+      "Joule: copilot in bedrijfssoftware",
+      "Carrefour",
+      "Frankrijk",
+      "Hopla: boodschappenassistent",
+      "Strategy & AI",
+      "SaaS scale-up",
+      "AI-readiness assessment",
+      "Adyen",
+      "Nederland",
+      "AI-optimalisatie van betalingen",
+      "Philips",
+      "Nederland",
+      "AI in medische beeldvorming",
+      "Proces & productivity",
+      "Zakelijke dienstverlener",
+      "Interne AI-assistent voor kenniswerkers",
+      "Wat is prompt engineering?",
+      "Een AI prompt is de tekst waarmee je een taalmodel aan het werk zet: een vraag, een opdracht, eventueel met documenten of voorbeelden erbij. Prompt engineering is het vak om die opdracht zo te formuleren dat het model doet wat je bedoelt, en dat het dat de volgende keer weer doet.",
+      "Voor ontwikkelaars die AI in software inbouwen, is dat een echte discipline met tests en versiebeheer. Voor de meeste medewerkers is het eenvoudiger: je leert een paar gewoontes aan die het verschil maken tussen een generiek antwoord en een bruikbaar concept. Die gewoontes werken in elke assistent, of je nu met ChatGPT in je organisatie, Claude, Gemini in Google Workspace of Microsoft Copilot werkt.",
+      "Anthropic geeft in zijn handleiding voor prompts een beeld dat goed blijft hangen: zie het model als een briljante maar nieuwe medewerker die je normen en werkwijze nog niet kent. Hoe preciezer je uitlegt wat je wilt, hoe beter het resultaat. Hun vuistregel: laat je prompt lezen door een collega die niets van de taak weet. Snapt die het niet, dan snapt het model het ook niet.",
+      "Welke assistent bij je organisatie past, is een aparte vraag; daarvoor is het overzicht van AI tools een beter startpunt.",
+      "Technieken",
+      "De officiële promptgidsen van OpenAI, Anthropic, Google en Microsoft verschillen in details, maar stand september 2026 komen ze op dezelfde kern uit. Dit zijn de technieken die in meerdere gidsen terugkomen.",
+      "RolVanuit welk perspectief moet het model werken?",
+      "TaakWat moet er gebeuren, zo concreet mogelijk?",
+      "ContextVoor wie, waarom en met welke bronnen?",
+      "VoorbeeldenHoe ziet een goed resultaat eruit?",
+      "VormLengte, structuur, toon en wat er niet in mag.",
+      "Niet elke prompt heeft alle vijf nodig, maar hoe belangrijker de uitkomst, hoe meer bouwstenen je invult.",
+      "1. Wees duidelijk en specifiek. Google noemt heldere en specifieke instructies als eerste strategie. “Schrijf een mail aan een klant” levert iets generieks op. “Schrijf een korte mail aan een bestaande klant die een levering te laat krijgt, bied excuses aan zonder schuld te erkennen en noem de nieuwe datum” levert iets bruikbaars op.",
+      "2. Geef context en leg uit waarom. Anthropic raadt aan om het doel achter een instructie te geven, zodat het model beter begrijpt wat je wilt bereiken. Microsoft zegt in zijn uitleg over Copilot-prompts iets vergelijkbaars: een goede prompt kan vier elementen bevatten, namelijk het doel, de context, je verwachtingen en de bron. Alleen het doel is verplicht; de rest maakt het antwoord specifieker.",
+      "3. Geef een rol. Een zin als “Je bent een ervaren inkoper die offertes beoordeelt” stuurt toon en invalshoek. Anthropic merkt op dat zelfs één zin al verschil maakt.",
+      "4. Laat voorbeelden zien. Dit heet few-shot prompting. OpenAI adviseert een handvol voorbeelden van invoer en gewenste uitvoer, met variatie. Google gaat verder en raadt aan om in principe altijd voorbeelden op te nemen. Anthropic noemt drie tot vijf goed gekozen voorbeelden als richtlijn. Heb je een mail of samenvatting die precies goed is, plak die dan mee als voorbeeld.",
+      "5. Maak de structuur zichtbaar. Zowel OpenAI als Anthropic raden aan om instructies, context en voorbeelden duidelijk van elkaar te scheiden, met kopjes of met labels zoals <context> en <voorbeeld>. Dat voorkomt dat het model een voorbeeld aanziet voor een instructie.",
+      "6. Leg vorm en grenzen vast. Vraag expliciet om een tabel, vijf bullets of maximaal honderd woorden. Google noemt zowel het antwoordformaat als beperkingen (“wat wel en niet”) als aparte technieken.",
+      "7. Knip grote taken op. De promptgids van Google Workspace raadt aan complexe taken in aparte prompts te verdelen. Anthropic beschrijft een bruikbaar patroon: laat eerst een concept maken, laat het model dat daarna toetsen aan criteria, en laat het op basis van die toets verbeteren.",
+      "8. Zet lange documenten bovenaan. Werk je met lange stukken, zoals een contract of jaarverslag, zet die dan volgens Anthropic bovenaan de prompt en je vraag onderaan.",
+      "Voorbeelden en templates",
+      "Onderstaande templates kun je kopiëren en aanvullen. Vervang alles tussen haken door je eigen situatie. Ze werken in elke gangbare assistent.",
+      "Template voor een goede AI prompt",
+      "Rol: Je bent [rol, bijvoorbeeld: een ervaren communicatieadviseur]. Taak: [Wat moet er gebeuren, in één of twee zinnen.] Context: Dit is bedoeld voor [doelgroep]. Het doel is [wat je wilt bereiken]. Bronnen: Gebruik alleen de informatie hieronder. Als iets ontbreekt, zeg dat dan. Vorm: [Lengte, structuur, toon.] Niet doen: [wat je expliciet niet wilt]. <bron> [Plak hier de tekst of het document.] </bron>",
+      "Een lange tekst samenvatten voor een besluit",
+      "Vat het document hieronder samen voor de directie, die over twee weken moet besluiten of we doorgaan met [project]. Geef: 1. de kern in drie zinnen; 2. de belangrijkste risico's als bullets; 3. de open vragen die nog beantwoord moeten worden. Maximaal 250 woorden. Citeer geen cijfers die niet in het document staan.",
+      "Een tekst herschrijven in een vaste stijl",
+      "Herschrijf de tekst hieronder in dezelfde stijl als het voorbeeld. Houd de inhoud gelijk, verander alleen toon en opbouw. <voorbeeld> [Een tekst die precies goed is.] </voorbeeld> <tekst> [De tekst die herschreven moet worden.] </tekst>",
+      "Een concept laten toetsen",
+      "Hieronder staat een concept voor [offerte, beleidsnotitie, mail]. Beoordeel het op: duidelijkheid voor [doelgroep], volledigheid en toon. Geef per punt wat beter kan, en schrijf daarna een verbeterde versie.",
+      "Het laatste template past het patroon van concept, toets en verbetering toe. Het werkt ook als je het concept zelf hebt geschreven.",
+      "Voorbeeldscenario",
+      "Een groothandel met 85 medewerkers gebruikt ChatGPT Business om antwoorden op klachten op te stellen. De klantenservice gebruikt steeds dezelfde prompt: \"Schrijf een antwoord op deze klacht.\" De concepten zijn lang en stijf, en worden vaak grotendeels herschreven.",
+      "Tijdens een training met de adviseur herschrijft het team die prompt, met de eigen klachten als oefenmateriaal. De nieuwe versie geeft een rol, de context (bestaande klant, levering te laat), twee goedgekeurde voorbeeldmails en een vorm: maximaal 120 woorden, je-vorm, excuses zonder schuld te erkennen en altijd de nieuwe leverdatum. Ontbreekt die datum, dan moet het model erom vragen in plaats van er een te verzinnen.",
+      "Van dertig echte klachten konden eerst 6 concepten vrijwel ongewijzigd de deur uit, met de nieuwe prompt 21. De teamleider beheert de prompt nu in een gedeelde bibliotheek. Automatisch versturen is bewust niet ingevoerd.",
+      "Fictief voorbeeld, samengesteld uit situaties die veel voorkomen. Organisatie en cijfers zijn illustratief.",
+      "Een losse template helpt een individu. Een team heeft meer aan een gedeelde verzameling prompts voor terugkerend werk, met één eigenaar die ze bijhoudt. Dat voorkomt dat iedereen opnieuw het wiel uitvindt en maakt de kwaliteit voorspelbaarder.",
+      "Veelgemaakte fouten",
+      "Te weinig context. De meest voorkomende fout. Het model weet niet voor wie het schrijft, wat al bekend is of wat je ermee gaat doen, en vult dat in met iets gemiddelds.",
+      "Alles in één prompt. Een opdracht met zes deeltaken levert zes halve antwoorden op. Knip op en bouw voort op het vorige antwoord.",
+      "De uitkomst niet controleren. Microsoft schrijft zelf in zijn documentatie over Copilot dat antwoorden van generatieve AI niet gegarandeerd feitelijk juist zijn en dat gebruikers ze moeten beoordelen voordat ze iets delen. Dat geldt voor elke assistent. Controleer namen, cijfers, bronnen en juridische of financiële uitspraken altijd zelf.",
+      "Vertrouwelijke gegevens in de verkeerde tool. Een goede prompt bevat vaak context, en die context kan gevoelig zijn. Gebruik voor bedrijfsinformatie alleen de omgeving die je organisatie daarvoor heeft goedgekeurd, en houd je aan de afspraken over persoonsgegevens.",
+      "Zoeken naar de magische formule. Er circuleren veel “ultieme prompts”. Ze helpen soms, maar de gidsen van de leveranciers zelf leggen de nadruk op iets saaiers: helder formuleren, context geven, voorbeelden tonen en testen. Anthropic benadrukt zelfs dat je eerst moet vastleggen wat een goed resultaat is en hoe je dat toetst, voordat je aan de prompt gaat schaven.",
+      "Stoppen na de eerste poging. Een eerste antwoord is een concept. Vraag door, geef feedback (“korter”, “formeler”, “meer nadruk op kosten”) en sla een prompt die goed werkt op voor de volgende keer.",
+      "Prompten leer je het snelst met je eigen werk als oefenmateriaal. Wil je dat met je team doen, kijk dan naar de ChatGPT training voor teams of, als je met Microsoft 365 werkt, de training voor Copilot. Een overzicht van alle vormen staat bij de AI workshops en trainingen.",
+      "Wil je weten waar prompt engineering in jouw organisatie het meeste oplevert, of hoe je een gedeelde promptbibliotheek opzet? Plan een adviesgesprek van dertig minuten.",
+      "Dave Willemstein Onafhankelijk AI-adviseur",
+      "Onafhankelijk: geen commissies, geen partnerdeals, geen marge op implementatiepartners.",
+      "Over mij Mijn partnernetwerk",
+      "Weten waar je staat met AI? Bekijk de AI Readiness Assessment →",
+      "Bronnen",
+      "Anthropic: Prompting best practices (Claude)",
+      "Anthropic: Prompt engineering overview",
+      "OpenAI: Prompt engineering guide",
+      "Google AI for Developers: Prompt design strategies",
+      "Google Workspace Learning Center: Tips to write prompts for Gemini",
+      "Microsoft Support: Learn about Copilot prompts",
+      "Microsoft Learn: Data, privacy, and security for Microsoft Copilot",
+      "Klaar voor impact?",
+      "Van AI-ambitie naar concrete resultaten.",
+      "Plan een vrijblijvend gesprek. Geen pitch. Wel scherpe vragen.",
+      "30 min., geen pitch deckPlan een gesprek →"
+    ]
+  },
+  "links": [
+    {
+      "regio": "overig",
+      "soort": "intern",
+      "href": "#main",
+      "anker": "Naar hoofdinhoud",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/",
+      "anker": "",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/diensten",
+      "anker": "Diensten",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/cases",
+      "anker": "Cases",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/werkwijze",
+      "anker": "Werkwijze",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/inzichten",
+      "anker": "Inzichten",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/over",
+      "anker": "Over mij",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/contact",
+      "anker": "Plan een gesprek →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/",
+      "anker": "Home",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/kennisbank",
+      "anker": "Kennisbank",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/ai-workshop",
+      "anker": "Bekijk de AI workshops →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/contact",
+      "anker": "Plan een adviesgesprek →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/over",
+      "anker": "Dave Willemstein",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/kennisbank/chatgpt-voor-bedrijven",
+      "anker": "ChatGPT in je organisatie",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/kennisbank/claude-voor-bedrijven",
+      "anker": "Claude",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/kennisbank/gemini-voor-bedrijven",
+      "anker": "Gemini in Google Workspace",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/kennisbank/microsoft-copilot-voor-bedrijven",
+      "anker": "Microsoft Copilot",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "extern",
+      "href": "https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/claude-prompting-best-practices",
+      "anker": "handleiding voor prompts",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/ai-automatisering/ai-tools",
+      "anker": "overzicht van AI tools",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "extern",
+      "href": "https://ai.google.dev/gemini-api/docs/prompting-strategies",
+      "anker": "heldere en specifieke instructies",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "extern",
+      "href": "https://support.microsoft.com/en-us/topic/learn-about-copilot-prompts-f6c3b467-f07c-4db1-ae54-ffac96184dd5",
+      "anker": "uitleg over Copilot-prompts",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "extern",
+      "href": "https://developers.openai.com/api/docs/guides/prompt-engineering",
+      "anker": "OpenAI",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "extern",
+      "href": "https://support.google.com/a/users/answer/14200040",
+      "anker": "promptgids van Google Workspace",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "extern",
+      "href": "https://learn.microsoft.com/en-us/microsoft-365/copilot/microsoft-365-copilot-privacy",
+      "anker": "documentatie over Copilot",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/ai-workshop/chatgpt-training",
+      "anker": "ChatGPT training voor teams",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/ai-workshop/copilot-training",
+      "anker": "training voor Copilot",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/ai-workshop",
+      "anker": "AI workshops en trainingen",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/contact",
+      "anker": "Plan een adviesgesprek",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/over",
+      "anker": "Over mij",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/partnernetwerk",
+      "anker": "Mijn partnernetwerk",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/diensten/ai-readiness-assessment",
+      "anker": "Weten waar je staat met AI? Bekijk de AI Readiness Assessment →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "extern",
+      "href": "https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/claude-prompting-best-practices",
+      "anker": "Anthropic: Prompting best practices (Claude)",
+      "rel": "noopener"
+    },
+    {
+      "regio": "main",
+      "soort": "extern",
+      "href": "https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/overview",
+      "anker": "Anthropic: Prompt engineering overview",
+      "rel": "noopener"
+    },
+    {
+      "regio": "main",
+      "soort": "extern",
+      "href": "https://developers.openai.com/api/docs/guides/prompt-engineering",
+      "anker": "OpenAI: Prompt engineering guide",
+      "rel": "noopener"
+    },
+    {
+      "regio": "main",
+      "soort": "extern",
+      "href": "https://ai.google.dev/gemini-api/docs/prompting-strategies",
+      "anker": "Google AI for Developers: Prompt design strategies",
+      "rel": "noopener"
+    },
+    {
+      "regio": "main",
+      "soort": "extern",
+      "href": "https://support.google.com/a/users/answer/14200040",
+      "anker": "Google Workspace Learning Center: Tips to write prompts for Gemini",
+      "rel": "noopener"
+    },
+    {
+      "regio": "main",
+      "soort": "extern",
+      "href": "https://support.microsoft.com/en-us/topic/learn-about-copilot-prompts-f6c3b467-f07c-4db1-ae54-ffac96184dd5",
+      "anker": "Microsoft Support: Learn about Copilot prompts",
+      "rel": "noopener"
+    },
+    {
+      "regio": "main",
+      "soort": "extern",
+      "href": "https://learn.microsoft.com/en-us/microsoft-365/copilot/microsoft-365-copilot-privacy",
+      "anker": "Microsoft Learn: Data, privacy, and security for Microsoft Copilot",
+      "rel": "noopener"
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/contact",
+      "anker": "Plan een gesprek →",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/diensten/ai-readiness-assessment",
+      "anker": "AI Readiness Assessment",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/diensten/ai-strategy-sprint",
+      "anker": "AI Strategy Sprint",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/diensten/fractional-ai-lead",
+      "anker": "Fractional AI Lead",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/diensten",
+      "anker": "Alle diensten",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/cases",
+      "anker": "Cases",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/werkwijze",
+      "anker": "Werkwijze",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/inzichten",
+      "anker": "Inzichten",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/veelgestelde-vragen",
+      "anker": "Veelgestelde vragen",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/over",
+      "anker": "Over mij",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-consultancy",
+      "anker": "AI consultancy",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-implementatie",
+      "anker": "AI implementatie",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-automatisering",
+      "anker": "AI automatisering",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-voor-bedrijven",
+      "anker": "AI voor bedrijven",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-development",
+      "anker": "AI development",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-agents",
+      "anker": "AI agents",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-beleid",
+      "anker": "AI beleid",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-workshop",
+      "anker": "AI workshop",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/markten",
+      "anker": "AI per branche",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/kennisbank",
+      "anker": "Kennisbank",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/tarieven",
+      "anker": "Tarieven",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/partnernetwerk",
+      "anker": "Partnernetwerk",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "overig",
+      "href": "mailto:dave@freelanceaiconsultant.com",
+      "anker": "dave@freelanceaiconsultant.com",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "extern",
+      "href": "https://www.linkedin.com/in/davewillemstein",
+      "anker": "LinkedIn ↗",
+      "rel": "noopener"
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/contact",
+      "anker": "Plan een gesprek",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/privacy",
+      "anker": "Privacyverklaring",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/algemene-voorwaarden",
+      "anker": "Algemene voorwaarden",
+      "rel": null
+    }
+  ],
+  "structured_data": {
+    "sha256": "3e1417f60ce593abffd15f261e08926cbef42dad5a4dded3edace59cb74c1051",
+    "items": [
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://freelanceaiconsultant.com/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Kennisbank",
+                "item": "https://freelanceaiconsultant.com/kennisbank"
+              },
+              {
+                "@type": "ListItem",
+                "position": 3,
+                "name": "Prompt engineering",
+                "item": "https://freelanceaiconsultant.com/kennisbank/prompt-engineering"
+              }
+            ]
+          },
+          {
+            "@type": "Article",
+            "headline": "Prompt engineering: betere resultaten uit AI",
+            "description": "Leer hoe je betere AI prompts schrijft. Met technieken, voorbeelden en templates voor zakelijk gebruik in ChatGPT, Claude, Gemini en Microsoft Copilot.",
+            "inLanguage": "nl-NL",
+            "datePublished": "2026-09-23",
+            "dateModified": "2026-09-23",
+            "author": {
+              "@type": "Person",
+              "name": "Dave Willemstein",
+              "jobTitle": "Onafhankelijk AI-adviseur",
+              "url": "https://freelanceaiconsultant.com/over",
+              "sameAs": [
+                "https://www.linkedin.com/in/davewillemstein"
+              ]
+            },
+            "publisher": {
+              "@type": "Person",
+              "name": "Dave Willemstein"
+            },
+            "mainEntityOfPage": "https://freelanceaiconsultant.com/kennisbank/prompt-engineering"
+          }
+        ]
+      }
+    ]
+  },
+  "afbeeldingen": [
+    {
+      "regio": "header",
+      "src": "/images/freelance-ai-consultant-logo-header.png",
+      "alt": "freelanceaiconsultant.com logo",
+      "width": "600",
+      "height": "287",
+      "loading": null
+    },
+    {
+      "regio": "main",
+      "src": "/images/dave-portrait.jpg",
+      "alt": "Portret van Dave Willemstein",
+      "width": "88",
+      "height": "88",
+      "loading": "lazy"
+    },
+    {
+      "regio": "footer",
+      "src": "/images/freelance-ai-consultant-icon-footer.png",
+      "alt": "",
+      "width": "192",
+      "height": "192",
+      "loading": "lazy"
+    }
+  ],
+  "laadprestaties": {
+    "scripts": [
+      {
+        "src": "/logo-carousel/logo-carousel.js?v=2",
+        "type": null,
+        "inline_bytes": 0
+      }
+    ],
+    "stylesheets": [
+      "https://fonts.googleapis.com/css2?family=Caveat:wght@600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap",
+      "/_astro/_slug_.bq6BBoZ5.css",
+      "/_astro/_slug_.goiX3PVF.css",
+      "/logo-carousel/logo-carousel.css?v=2"
+    ],
+    "aantal_details": 0,
+    "aantal_tabellen": 0
+  }
+}

@@ -1,0 +1,608 @@
+{
+  "url": "/inzichten/het-datafundament-onder-ai",
+  "build_bestand": "dist/inzichten/het-datafundament-onder-ai/index.html",
+  "bron": [
+    "src/pages/inzichten/[slug].astro",
+    "src/data/articles/het-datafundament-onder-ai.js"
+  ],
+  "gemeten_op": "2026-10-06",
+  "html": {
+    "bytes": 31157,
+    "sha256": "37fd87efc6a47c4b24198082e850f967d595c5cf243ea09f68a52fa1c41d1a56",
+    "lang": "nl"
+  },
+  "beschermd": {
+    "title": "De rol van het datafundament in succesvolle AI-initiatieven",
+    "meta_description": "\"Eerst de data op orde\" is net zo vaak een excuus als een noodzaak. Zo bepaal je welke van de twee speelt bij jouw AI-initiatief, en wat je dan doet.",
+    "canonical": "https://freelanceaiconsultant.com/inzichten/het-datafundament-onder-ai",
+    "robots_meta": null,
+    "hreflang": [],
+    "h1": [
+      "Het datafundament onder je AI-initiatieven"
+    ]
+  },
+  "social": {
+    "og:type": "website",
+    "og:locale": "nl_NL",
+    "og:site_name": "freelanceaiconsultant.com",
+    "og:title": "De rol van het datafundament in succesvolle AI-initiatieven",
+    "og:description": "\"Eerst de data op orde\" is net zo vaak een excuus als een noodzaak. Zo bepaal je welke van de twee speelt bij jouw AI-initiatief, en wat je dan doet.",
+    "og:url": "https://freelanceaiconsultant.com/inzichten/het-datafundament-onder-ai",
+    "og:image": "https://freelanceaiconsultant.com/images/dave-portrait.jpg",
+    "twitter:card": "summary_large_image",
+    "twitter:title": "De rol van het datafundament in succesvolle AI-initiatieven",
+    "twitter:description": "\"Eerst de data op orde\" is net zo vaak een excuus als een noodzaak. Zo bepaal je welke van de twee speelt bij jouw AI-initiatief, en wat je dan doet.",
+    "twitter:image": "https://freelanceaiconsultant.com/images/dave-portrait.jpg"
+  },
+  "koppen": [
+    {
+      "niveau": 1,
+      "tekst": "Het datafundament onder je AI-initiatieven",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "Twee waarheden die elkaar tegenspreken",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "Wat er werkelijk toe doet",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 3,
+      "tekst": "Probleem 1: Definities (ernstig, vaak onderschat)",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 3,
+      "tekst": "Probleem 2: Herkomst en traceerbaarheid (ernstig bij gereguleerd werk)",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 3,
+      "tekst": "Probleem 3: Kwaliteit en volledigheid (hanteerbaar)",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 3,
+      "tekst": "Probleem 4: Toegankelijkheid en infrastructuur (meestal het minst urgent)",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "De use-case-gedreven volgorde",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "Wanneer \"eerst de data\" wél het juiste antwoord is",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "Een test van een halve dag",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 3,
+      "tekst": "Key takeaways",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 3,
+      "tekst": "Build, buy of partner: wat past bij jouw situatie?",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 3,
+      "tekst": "AI-governance zonder bureaucratie: wat je minimaal nodig hebt",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "Van AI-ambitie naar concrete resultaten.",
+      "regio": "main",
+      "id": null
+    }
+  ],
+  "bodytekst": {
+    "regio": "main",
+    "woorden": 1290,
+    "sha256": "7279ee1609fc71d7ab300af0b7dc605bbccd68503a113515fa66216812f5fe5a",
+    "blokken": [
+      "← Terug naar alle inzichten",
+      "Tools & data",
+      "Het datafundamentonder je AI-initiatieven",
+      "Het meest gegeven advies in AI-land is ook het gevaarlijkste: eerst je data op orde brengen. Soms klopt dat. Vaak is het een manier om nog twee jaar niets te doen.",
+      "◷ 4 min leestijd 9 april 2026",
+      "DW",
+      "Door Dave Willemstein Independent AI Advisor, onafhankelijk, geen leveranciersbelangen",
+      "Ik help organisaties AI-beslissingen nemen die waarde creëren. Geen dikke decks, wel duidelijke keuzes en tastbare resultaten.",
+      "vertrouwen,ervaring, impact ↓",
+      "Independent No vendor bias Senior only20+ jaar ervaring",
+      "IN HET KORT",
+      "Je hebt geen perfect datafundament nodig, je hebt genoeg fundament voor één use case nodig.",
+      "Definities zijn belangrijker dan volume of infrastructuur.",
+      "Bouw het fundament langs een use case, niet ervoor.",
+      "Data op orde brengen zonder toepassing is een project zonder einde.",
+      "AI in Europa",
+      "Europese merken die AI al in productie hebben.",
+      "Geen klanten van mij. Wel voorbeelden van wat er gebeurt als AI voorbij de pilot komt.",
+      "Pauzeer",
+      "Klarna",
+      "Zweden",
+      "AI-assistent in de klantenservice",
+      "Zalando",
+      "Duitsland",
+      "Mode-assistent voor productadvies",
+      "Financial services",
+      "Investeringsmaatschappij",
+      "AI-strategie en use-case portfolio",
+      "Booking.com",
+      "Nederland",
+      "AI Trip Planner voor reisplanning",
+      "Siemens",
+      "Duitsland",
+      "Industrial Copilot voor engineering",
+      "Retail",
+      "Enterprise retailer",
+      "AI-gedreven vendorselectie",
+      "Spotify",
+      "Zweden",
+      "AI DJ en gepersonaliseerde playlists",
+      "Mercedes-Benz",
+      "Duitsland",
+      "Generatieve spraakassistent in de auto",
+      "Industrial / B2B",
+      "Internationale maakorganisatie",
+      "AI-roadmap en leadership",
+      "ING",
+      "Nederland",
+      "Generatieve chatbot voor klantvragen",
+      "L'Oréal",
+      "Frankrijk",
+      "Beauty Genius: persoonlijk advies",
+      "Financial services",
+      "Financiële dienstverlener",
+      "KYC versneld met AI-documentanalyse",
+      "SAP",
+      "Duitsland",
+      "Joule: copilot in bedrijfssoftware",
+      "Carrefour",
+      "Frankrijk",
+      "Hopla: boodschappenassistent",
+      "Strategy & AI",
+      "SaaS scale-up",
+      "AI-readiness assessment",
+      "Adyen",
+      "Nederland",
+      "AI-optimalisatie van betalingen",
+      "Philips",
+      "Nederland",
+      "AI in medische beeldvorming",
+      "Proces & productivity",
+      "Zakelijke dienstverlener",
+      "Interne AI-assistent voor kenniswerkers",
+      "Twee waarheden die elkaar tegenspreken",
+      "De eerste: zonder betrouwbare data levert AI onbetrouwbare uitkomsten. Dat is onomstreden.",
+      "De tweede: organisaties die eerst hun volledige datalandschap op orde willen brengen voordat ze aan AI beginnen, komen zelden aan AI toe. Het datafundament is namelijk nooit af, en er is altijd een volgende laag die eerst zou moeten.",
+      "Beide zijn waar. De uitweg zit in de vraagstelling. \"Is onze data op orde?\" is een onbeantwoordbare vraag. \"Is deze data goed genoeg om dit specifieke besluit op te baseren?\" is wél te beantwoorden, in een week.",
+      "Wat er werkelijk toe doet",
+      "Bij datascans in aanloop naar AI-trajecten kom ik vier problemen tegen. Ze zijn niet even erg en ze vragen niet dezelfde oplossing.",
+      "Probleem 1: Definities (ernstig, vaak onderschat)",
+      "Vier systemen, drie definities van \"klant\". Twee afdelingen die \"omzet\" verschillend berekenen. Een productcode die in het ene systeem een variant is en in het andere een apart product. Dit is verreweg het meest voorkomende en het meest onderschatte probleem.",
+      "Het is ernstig omdat geen enkele hoeveelheid technologie het oplost. Een model dat traint op tegenstrijdig gedefinieerde data leert die tegenstrijdigheid mee. En het wordt onderschat omdat iedereen binnen zijn eigen afdeling consistent werkt. Het probleem is alleen zichtbaar als je erdoorheen kijkt.",
+      "Aanpak: definieer alleen de vijf tot tien begrippen die je use case raakt. Niet het hele bedrijfsdatamodel. Dat is twee weken werk in plaats van twee jaar.",
+      "Probleem 2: Herkomst en traceerbaarheid (ernstig bij gereguleerd werk)",
+      "Kun je van een getal in een rapportage terugvinden waar het vandaan komt en welke bewerkingen het heeft ondergaan? Bij AI-toepassingen die beslissingen beïnvloeden, is dit geen luxe. Toezichthouders, accountants en uiteindelijk ook je eigen bestuurders gaan die vraag stellen.",
+      "Aanpak: breng de herkomst in kaart voor de datastromen die je use case gebruikt. Documenteer de transformaties. Dat hoeft niet in een dure tool: een leesbaar document dat klopt, is meer waard dan een lineage-tool die niemand onderhoudt.",
+      "Probleem 3: Kwaliteit en volledigheid (hanteerbaar)",
+      "Missende velden, inconsistente invoer, historische data die halverwege van formaat veranderde. Vervelend, maar dit is het type probleem waar technologie wél mee helpt en dat je kunt kwantificeren.",
+      "Aanpak: meet het. Hoeveel procent van de records heeft het veld dat je nodig hebt? Als dat 94% is, kun je aan de slag en is de vraag wat je met de overige 6% doet. Als het 40% is, heb je een ander gesprek.",
+      "Probleem 4: Toegankelijkheid en infrastructuur (meestal het minst urgent)",
+      "Geen centraal datawarehouse, data verspreid over systemen, geen API’s. Dit voelt als het grootste probleem omdat het het zichtbaarst is en omdat leveranciers er graag een platform voor verkopen. In de praktijk is het vaak het makkelijkst op te lossen, zeker voor één use case.",
+      "Aanpak: voor een eerste use case is een dagelijkse export vaak genoeg. Bouw geen platform om een hypothese te testen.",
+      "De use-case-gedreven volgorde",
+      "De aanpak die in de praktijk werkt, draait de volgorde om. Je bouwt het fundament niet vooraf, je trekt het mee met de eerste toepassingen.",
+      "Stap 1: Kies één use case met duidelijke waarde en een eigenaar in de lijn.",
+      "Stap 2: Breng in kaart welke data die use case nodig heeft: meestal drie tot zeven bronnen, niet dertig.",
+      "Stap 3: Los voor díe bronnen de definities, de herkomst en de kwaliteit op. Doe dit goed, want dit wordt je referentie.",
+      "Stap 4: Bouw de use case en meet of hij werkt.",
+      "Stap 5: Kies de volgende use case die zoveel mogelijk dezelfde bronnen gebruikt.",
+      "Na drie of vier use cases heb je een fundament dat is ontstaan uit gebruik. Dat fundament is kleiner dan het ideaalplaatje en aanzienlijk betrouwbaarder, omdat elke component in productie wordt getoetst.",
+      "Wanneer \"eerst de data\" wél het juiste antwoord is",
+      "Er zijn situaties waarin uitstellen echt verstandig is. Drie signalen:",
+      "De kernentiteit is niet eenduidig. Als je niet kunt vaststellen wie een klant is of wat één order is, dan raakt dat elke use case. Dit eerst oplossen bespaart je herwerk bij alles wat volgt.",
+      "De data die je nodig hebt, wordt niet vastgelegd. Geen hoeveelheid slimme techniek maakt data die er niet is. Dan is de eerste stap een registratiewijziging, en die duurt.",
+      "Er is geen eigenaar van de bron. Als niemand verantwoordelijk is voor een dataset, wordt hij ook niet onderhouden, en zakt je toepassing na een half jaar stilletjes in.",
+      "Merk op dat geen van deze drie gaat over technologie of over het ontbreken van een platform. Ze gaan alle drie over betekenis en eigenaarschap. Dat is waar het datafundament werkelijk over gaat. De rest is infrastructuur, en infrastructuur koop je.",
+      "Een test van een halve dag",
+      "Wil je weten waar je staat? Neem één concreet besluit dat je met AI wilt ondersteunen en probeer het handmatig te reconstrueren voor tien gevallen uit het verleden. Kost dat een middag, dan is je fundament in orde genoeg. Kost dat twee weken en moet je drie afdelingen bellen, dan weet je precies welk deel je eerst moet aanpakken. En het is bijna nooit het deel waar het platformvoorstel over ging.",
+      "Key takeaways",
+      "✓",
+      "Fundament per use case",
+      "Vraag niet \"is onze data op orde?\" maar \"is deze data goed genoeg voor dit besluit?\".",
+      "✓",
+      "Definities eerst",
+      "Vier systemen met drie definities van \"klant\" is een groter probleem dan een ontbrekend datawarehouse.",
+      "✓",
+      "Herkomst telt",
+      "Bij AI moet je kunnen uitleggen waar een getal vandaan komt. Dat is een governancevraag, geen techniekvraag.",
+      "ONTHOUD“Een datafundament dat niet door een concrete toepassing wordt getrokken, wordt nooit af.”",
+      "Sparren over jouw situatie? 30 minuten, vrijblijvend →",
+      "Verder lezen",
+      "⇄",
+      "Organisatie",
+      "Build, buy of partner: wat past bij jouw situatie?",
+      "De vraag is zelden \"kunnen we dit zelf bouwen?\" maar \"willen we dit over drie jaar nog steeds onderhouden?\". Een beslisraamwerk in vier vragen.",
+      "◷ 4 min leestijd Lees artikel →",
+      "▣",
+      "Governance",
+      "AI-governance zonder bureaucratie: wat je minimaal nodig hebt",
+      "Governance die niemand gebruikt, beschermt niemand. Vier mechanismen die het verschil maken, en wat je gerust kunt overslaan.",
+      "◷ 5 min leestijd Lees artikel →",
+      "Klaar voor impact?",
+      "Van AI-ambitie naar concrete resultaten.",
+      "Plan een vrijblijvend gesprek. Geen pitch. Wel scherpe vragen.",
+      "30 min., geen pitch deckPlan een gesprek →"
+    ]
+  },
+  "links": [
+    {
+      "regio": "overig",
+      "soort": "intern",
+      "href": "#main",
+      "anker": "Naar hoofdinhoud",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/",
+      "anker": "",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/diensten",
+      "anker": "Diensten",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/cases",
+      "anker": "Cases",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/werkwijze",
+      "anker": "Werkwijze",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/inzichten",
+      "anker": "Inzichten",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/over",
+      "anker": "Over mij",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/contact",
+      "anker": "Plan een gesprek →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/inzichten",
+      "anker": "← Terug naar alle inzichten",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/contact",
+      "anker": "Sparren over jouw situatie? 30 minuten, vrijblijvend →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/inzichten/build-buy-of-partner",
+      "anker": "⇄ Organisatie Build, buy of partner: wat past bij jouw situatie? De vraag is zelden \"kunnen we dit zelf bouwen?\" maar \"willen we dit over drie jaar nog steeds onderhouden?\". Een beslisraamwerk in vier vragen. ◷ 4 min leestijd Lees artikel →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/inzichten/ai-governance-zonder-bureaucratie",
+      "anker": "▣ Governance AI-governance zonder bureaucratie: wat je minimaal nodig hebt Governance die niemand gebruikt, beschermt niemand. Vier mechanismen die het verschil maken, en wat je gerust kunt overslaan. ◷ 5 min leestijd Lees artikel →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/contact",
+      "anker": "Plan een gesprek →",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/diensten/ai-readiness-assessment",
+      "anker": "AI Readiness Assessment",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/diensten/ai-strategy-sprint",
+      "anker": "AI Strategy Sprint",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/diensten/fractional-ai-lead",
+      "anker": "Fractional AI Lead",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/diensten",
+      "anker": "Alle diensten",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/cases",
+      "anker": "Cases",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/werkwijze",
+      "anker": "Werkwijze",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/inzichten",
+      "anker": "Inzichten",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/veelgestelde-vragen",
+      "anker": "Veelgestelde vragen",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/over",
+      "anker": "Over mij",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-consultancy",
+      "anker": "AI consultancy",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-implementatie",
+      "anker": "AI implementatie",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-automatisering",
+      "anker": "AI automatisering",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-voor-bedrijven",
+      "anker": "AI voor bedrijven",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-development",
+      "anker": "AI development",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-agents",
+      "anker": "AI agents",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-beleid",
+      "anker": "AI beleid",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-workshop",
+      "anker": "AI workshop",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/markten",
+      "anker": "AI per branche",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/kennisbank",
+      "anker": "Kennisbank",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/tarieven",
+      "anker": "Tarieven",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/partnernetwerk",
+      "anker": "Partnernetwerk",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "overig",
+      "href": "mailto:dave@freelanceaiconsultant.com",
+      "anker": "dave@freelanceaiconsultant.com",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "extern",
+      "href": "https://www.linkedin.com/in/davewillemstein",
+      "anker": "LinkedIn ↗",
+      "rel": "noopener"
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/contact",
+      "anker": "Plan een gesprek",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/privacy",
+      "anker": "Privacyverklaring",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/algemene-voorwaarden",
+      "anker": "Algemene voorwaarden",
+      "rel": null
+    }
+  ],
+  "structured_data": {
+    "sha256": "f3aed944ccfe30e1e9986b5b93c1330cb53708c9f038a75c497cdaa7d77d8859",
+    "items": [
+      {
+        "@context": "https://schema.org",
+        "@type": "BlogPosting",
+        "headline": "De rol van het datafundament in succesvolle AI-initiatieven",
+        "description": "\"Eerst de data op orde\" is net zo vaak een excuus als een noodzaak. Hoe je bepaalt welke van de twee bij jou speelt.",
+        "datePublished": "2026-04-09",
+        "inLanguage": "nl-NL",
+        "articleSection": "Tools & data",
+        "author": {
+          "@type": "Person",
+          "name": "Dave Willemstein",
+          "url": "https://freelanceaiconsultant.com",
+          "jobTitle": "Onafhankelijk AI-adviseur"
+        },
+        "publisher": {
+          "@type": "Person",
+          "name": "Dave Willemstein"
+        },
+        "mainEntityOfPage": "https://freelanceaiconsultant.com/inzichten/het-datafundament-onder-ai"
+      }
+    ]
+  },
+  "afbeeldingen": [
+    {
+      "regio": "header",
+      "src": "/images/freelance-ai-consultant-logo-header.png",
+      "alt": "freelanceaiconsultant.com logo",
+      "width": "600",
+      "height": "287",
+      "loading": null
+    },
+    {
+      "regio": "main",
+      "src": "/images/dave-portrait.jpg",
+      "alt": "Dave Willemstein, Independent AI Advisor",
+      "width": "500",
+      "height": "620",
+      "loading": "lazy"
+    },
+    {
+      "regio": "footer",
+      "src": "/images/freelance-ai-consultant-icon-footer.png",
+      "alt": "",
+      "width": "192",
+      "height": "192",
+      "loading": "lazy"
+    }
+  ],
+  "laadprestaties": {
+    "scripts": [
+      {
+        "src": "/logo-carousel/logo-carousel.js?v=2",
+        "type": null,
+        "inline_bytes": 0
+      }
+    ],
+    "stylesheets": [
+      "https://fonts.googleapis.com/css2?family=Caveat:wght@600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap",
+      "/_astro/_slug_.bq6BBoZ5.css",
+      "/_astro/_slug_.CyUYGuAp.css",
+      "/logo-carousel/logo-carousel.css?v=2"
+    ],
+    "aantal_details": 0,
+    "aantal_tabellen": 0
+  }
+}

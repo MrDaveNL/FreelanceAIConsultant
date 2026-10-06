@@ -1,0 +1,775 @@
+{
+  "url": "/ai-development",
+  "build_bestand": "dist/ai-development/index.html",
+  "bron": [
+    "src/content/pages/ai-development/index.md",
+    "src/pages/[...slug].astro"
+  ],
+  "gemeten_op": "2026-10-06",
+  "html": {
+    "bytes": 33962,
+    "sha256": "492e87ef3139eca189b8e20c77f29b76d0f2a123b018f96b77b2084d2f56330b",
+    "lang": "nl"
+  },
+  "beschermd": {
+    "title": "AI development | AI-oplossingen en applicaties op maat",
+    "meta_description": "AI development op maat: van prototype tot productie. Lees hoe AI-applicaties worden ontwikkeld, gekoppeld aan je systemen en veilig in gebruik genomen.",
+    "canonical": "https://freelanceaiconsultant.com/ai-development",
+    "robots_meta": null,
+    "hreflang": [],
+    "h1": [
+      "AI development: AI-oplossingen op maat laten ontwikkelen"
+    ]
+  },
+  "social": {
+    "og:type": "website",
+    "og:locale": "nl_NL",
+    "og:site_name": "freelanceaiconsultant.com",
+    "og:title": "AI development | AI-oplossingen en applicaties op maat",
+    "og:description": "AI development op maat: van prototype tot productie. Lees hoe AI-applicaties worden ontwikkeld, gekoppeld aan je systemen en veilig in gebruik genomen.",
+    "og:url": "https://freelanceaiconsultant.com/ai-development",
+    "og:image": "https://freelanceaiconsultant.com/images/dave-portrait.jpg",
+    "twitter:card": "summary_large_image",
+    "twitter:title": "AI development | AI-oplossingen en applicaties op maat",
+    "twitter:description": "AI development op maat: van prototype tot productie. Lees hoe AI-applicaties worden ontwikkeld, gekoppeld aan je systemen en veilig in gebruik genomen.",
+    "twitter:image": "https://freelanceaiconsultant.com/images/dave-portrait.jpg"
+  },
+  "koppen": [
+    {
+      "niveau": 1,
+      "tekst": "AI development: AI-oplossingen op maat laten ontwikkelen",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "Wat is AI development?",
+      "regio": "main",
+      "id": "wat-is-ai-development"
+    },
+    {
+      "niveau": 2,
+      "tekst": "Wat je kunt laten ontwikkelen",
+      "regio": "main",
+      "id": "wat-je-kunt-laten-ontwikkelen"
+    },
+    {
+      "niveau": 3,
+      "tekst": "AI-applicaties",
+      "regio": "main",
+      "id": "ai-applicaties"
+    },
+    {
+      "niveau": 3,
+      "tekst": "AI agents",
+      "regio": "main",
+      "id": "ai-agents"
+    },
+    {
+      "niveau": 3,
+      "tekst": "Integraties met bestaande software",
+      "regio": "main",
+      "id": "integraties-met-bestaande-software"
+    },
+    {
+      "niveau": 2,
+      "tekst": "Ontwikkelproces",
+      "regio": "main",
+      "id": "ontwikkelproces"
+    },
+    {
+      "niveau": 2,
+      "tekst": "Build versus buy",
+      "regio": "main",
+      "id": "build-versus-buy"
+    },
+    {
+      "niveau": 2,
+      "tekst": "Samenwerking met developers uit mijn netwerk",
+      "regio": "main",
+      "id": "samenwerking-met-developers-uit-mijn-netwerk"
+    },
+    {
+      "niveau": 2,
+      "tekst": "Veelgestelde vragen",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "Van AI-ambitie naar concrete resultaten.",
+      "regio": "main",
+      "id": null
+    }
+  ],
+  "bodytekst": {
+    "regio": "main",
+    "woorden": 1815,
+    "sha256": "c18c53ed904a738b0373866494b15b36e4baa86b08010912cf4b88bc78aab986",
+    "blokken": [
+      "Home",
+      "AI Development",
+      "AI development",
+      "AI development: AI-oplossingen op maat laten ontwikkelen",
+      "AI development gaat zelden mis op de techniek en vaak op de opdracht: een vage specificatie, de verkeerde bouwpartij of niemand die aan jouw kant van de tafel meekijkt. Ik bouw zelf geen software. Ik help je bepalen wat er gebouwd moet worden, door wie, en of het oplevert wat is afgesproken.",
+      "Plan een adviesgesprek → Bekijk de AI Readiness Assessment →",
+      "IN HET KORT",
+      "Het bouwen doet je eigen team of een ontwikkelpartij die je rechtstreeks contracteert.",
+      "Mijn rol: specificatie, selectie van de bouwpartij, toetsing en governance vanuit jouw kant.",
+      "Eerst de vraag of je moet bouwen, kopen of partneren; pas daarna de vraag hoe.",
+      "AI in Europa",
+      "Europese merken die AI al in productie hebben.",
+      "Geen klanten van mij. Wel voorbeelden van wat er gebeurt als AI voorbij de pilot komt.",
+      "Pauzeer",
+      "Klarna",
+      "Zweden",
+      "AI-assistent in de klantenservice",
+      "Zalando",
+      "Duitsland",
+      "Mode-assistent voor productadvies",
+      "Financial services",
+      "Investeringsmaatschappij",
+      "AI-strategie en use-case portfolio",
+      "Booking.com",
+      "Nederland",
+      "AI Trip Planner voor reisplanning",
+      "Siemens",
+      "Duitsland",
+      "Industrial Copilot voor engineering",
+      "Retail",
+      "Enterprise retailer",
+      "AI-gedreven vendorselectie",
+      "Spotify",
+      "Zweden",
+      "AI DJ en gepersonaliseerde playlists",
+      "Mercedes-Benz",
+      "Duitsland",
+      "Generatieve spraakassistent in de auto",
+      "Industrial / B2B",
+      "Internationale maakorganisatie",
+      "AI-roadmap en leadership",
+      "ING",
+      "Nederland",
+      "Generatieve chatbot voor klantvragen",
+      "L'Oréal",
+      "Frankrijk",
+      "Beauty Genius: persoonlijk advies",
+      "Financial services",
+      "Financiële dienstverlener",
+      "KYC versneld met AI-documentanalyse",
+      "SAP",
+      "Duitsland",
+      "Joule: copilot in bedrijfssoftware",
+      "Carrefour",
+      "Frankrijk",
+      "Hopla: boodschappenassistent",
+      "Strategy & AI",
+      "SaaS scale-up",
+      "AI-readiness assessment",
+      "Adyen",
+      "Nederland",
+      "AI-optimalisatie van betalingen",
+      "Philips",
+      "Nederland",
+      "AI in medische beeldvorming",
+      "Proces & productivity",
+      "Zakelijke dienstverlener",
+      "Interne AI-assistent voor kenniswerkers",
+      "Wat is AI development?",
+      "AI development is het ontwerpen, bouwen, testen en in gebruik nemen van software waarin AI een kernrol speelt. Denk aan een applicatie die documenten leest en velden invult, een assistent die interne kennis doorzoekt of een agent die taken in je systemen uitvoert. Het verschil met gewone softwareontwikkeling zit in drie dingen: de uitkomst is niet altijd voorspelbaar, de kwaliteit hangt sterk af van je data, en het systeem moet na livegang blijven worden gemeten.",
+      "Daarom begint goed AI development niet bij de AI-developer, maar bij de vraag welk probleem je oplost en hoe je gaat meten of dat lukt. Pas als dat helder is, weet een ontwikkelaar wat hij moet bouwen.",
+      "Ik ben daarin niet de bouwer. Ik werk als onafhankelijk adviseur aan de kant van de opdrachtgever: ik help de vraag scherp te krijgen, de juiste bouwpartij te kiezen en te toetsen wat er wordt opgeleverd. Het bouwen zelf doet je eigen team of een ontwikkelpartij die je rechtstreeks contracteert. Ik verdien niets aan de bouw, dus ik heb geen belang bij een grotere scope.",
+      "Wil je eerst weten welk profiel je eigenlijk zoekt? Op wat een AI specialist doet zet ik de verschillende rollen naast elkaar, van strateeg tot machine learning engineer. En in wat doet een AI developer lees je hoe het werk van een AI ontwikkelaar er concreet uitziet.",
+      "Wat je kunt laten ontwikkelen",
+      "De meeste vragen over AI development vallen in drie categorieën. Ze overlappen, maar vragen elk om een andere specificatie en vaak om een ander type bouwpartij.",
+      "AI-applicaties",
+      "Een AI-applicatie is een zelfstandige toepassing, vaak een AI webapplicatie, die een afgebakende taak ondersteunt: dossiers samenvatten, offertes voorbereiden, klantvragen classificeren. Wie AI applicaties laat ontwikkelen, koopt meestal het onderliggende taalmodel in en laat de laag eromheen bouwen: de gebruikersinterface, de regels, de koppeling met je data en de evaluatie. Welke soorten er zijn en wanneer maatwerk loont, lees je op de pagina over AI software kiezen of laten bouwen.",
+      "AI agents",
+      "Een AI agent gaat een stap verder: die voert zelf acties uit in je systemen, zoals een ticket aanmaken of een e-mail opstellen en klaarzetten. Dat vraagt strakkere afspraken over bevoegdheden, logging en menselijke controle. Hoe je zo’n traject aanpakt, beschrijf ik apart bij een AI agent laten maken.",
+      "Integraties met bestaande software",
+      "Vaak is de waardevolste vorm van AI development geen nieuwe applicatie, maar AI in de software die je al gebruikt: je CRM, je documentmanagementsysteem, je ERP. De AI-component is dan klein; de koppeling, het rechtenmodel en de gegevensstromen zijn het echte werk. Een overzicht van toepassingen, van documentverwerking tot interne assistenten, staat bij AI oplossingen op maat.",
+      "Ontwikkelproces",
+      "Een AI-traject loopt grofweg in vijf fasen. Per fase staat hieronder wie het werk doet en waar ik vanuit jouw kant bij betrokken ben.",
+      "1. Vraag en specificatieJij en ik: probleem, meetpunten, randvoorwaarden en een eerste build-buy-partnerkeuze",
+      "2. Selectie bouwpartijJij beslist, ik begeleid: criteria vooraf, gelijk scenario, contract en exitafspraken",
+      "3. Prototype op eigen dataBouwpartij bouwt, jouw team test, ik toets tegen de afgesproken meetpunten",
+      "4. Naar productieBouwpartij en IT: koppelingen, beveiliging, logging en beheer; ik bewaak scope en risico's",
+      "5. Beheer en metenJouw organisatie is eigenaar; periodieke evaluatie en bijsturen of stoppen",
+      "Het bouwen gebeurt door je eigen team of een partner die je zelf contracteert. De adviseur zit aan jouw kant van de tafel en verdient niet aan de bouw.",
+      "Wat je concreet van mij krijgt, hangt af van de fase:",
+      "Bij de start: een specificatie in gewone taal, met het probleem, de meetpunten, de data die nodig is en de randvoorwaarden rond privacy en de AI-verordening. Heb je nog geen scherp beeld van waar je staat, dan is de AI Readiness Assessment een logische eerste stap.",
+      "Bij de keuze van de bouwpartij: een Vendor Review met scorecards, een test op jouw data en een TCO-vergelijking over drie jaar. De investering is €9.800 - €15.400, bij een doorlooptijd van 3-6 weken. De stappen daarachter beschreef ik in vendorselectie in acht stappen.",
+      "Tijdens de bouw: begeleiding vanuit klantzijde, bijvoorbeeld als Fractional AI Lead (€2.600 / €5.200 / €10.400 per maand), met toetsing van opleveringen, bewaking van de business case en de governance die erbij hoort.",
+      "Wat er daarna gebeurt, van pilot naar dagelijks gebruik, valt onder AI implementatie. Daar gaat het minder over code en meer over werkprocessen, adoptie en eigenaarschap.",
+      "Voorbeeldscenario",
+      "Een financiële dienstverlener met 250 medewerkers laat door een externe ontwikkelpartij een applicatie bouwen die inkomende aanvraagdossiers controleert op volledigheid. De organisatie contracteert die partij zelf; de adviseur is als Fractional AI Lead twee dagen per maand betrokken vanuit klantzijde.",
+      "Voor de start legt hij met het team vast wat succes is: van de dossiers die de applicatie als compleet markeert, mag bij handmatige controle hoogstens 3 procent toch onvolledig blijken. Op het prototype is dat 11 procent. In plaats van door te bouwen, laat de organisatie eerst de 40 slechtst verwerkte dossiers analyseren. De oorzaak is een verouderd aanvraagformulier dat nog in omloop is.",
+      "Na aanpassing en een tweede test komt het uit op 2,5 procent. De livegang schuift daardoor vijf weken op. Afspraken over eigendom van de code en de testset staan vanaf dag één in het contract.",
+      "Fictief voorbeeld, samengesteld uit situaties die veel voorkomen. Organisatie en cijfers zijn illustratief.",
+      "Een voorbeeld van hoe dat eruit kan zien: in de case over KYC-documentanalyse bij een financiële dienstverlener lag de nadruk niet op het model, maar op het werkproces eromheen en op de begeleiding van leverancier en implementatieteam.",
+      "Build versus buy",
+      "Voordat je iets laat ontwikkelen, hoort de vraag of je het überhaupt moet bouwen. Bouw alleen wat je onderscheidt in de markt, koop wat een commodity is en kies een partner als je de uitkomst wilt sturen zonder de techniek zelf te bezitten. De hybride vorm werkt vaak het best: bouwstenen inkopen, de laag met jouw kennis zelf laten bouwen en de implementatie bij een partner beleggen. Het volledige beslisraamwerk in vier vragen staat in build, buy of partner.",
+      "Samenwerking met developers uit mijn netwerk",
+      "Omdat ik alleen werk en niet bouw, stel ik voor de uitvoering soms partijen voor die ik ken: ontwikkelaars, data engineers of specialisten in een bepaald platform. Hoe dat werkt, is bewust eenvoudig gehouden:",
+      "Je contracteert rechtstreeks. Er zit geen tussenlaag via mij. De afspraken over scope, prijs, eigendom en aansprakelijkheid maak je direct met de bouwpartij.",
+      "Geen marge, geen commissie. Ik verdien niets aan hun tarief en heb geen partnerstatus bij leveranciers.",
+      "Bekende relaties meld ik vooraf. Als ik een partij eerder heb geadviseerd of ermee heb samengewerkt, hoor je dat voordat die partij in beeld komt.",
+      "Een voorstel is geen voorkeur. Een partij uit mijn netwerk doorloopt dezelfde selectie als ieder ander.",
+      "Meer over hoe ik partners selecteer en wat je wel en niet van ze kunt verwachten, staat op de pagina over het partnernetwerk.",
+      "Voor werkgevers die overwegen om zelf AI-talent aan te nemen: in het overzicht van het salaris van een AI specialist zet ik de bekende salarisbronnen naast elkaar, inclusief de vergelijking tussen vast personeel en externe inhuur.",
+      "Wil je sparren over een ontwikkeltraject dat op stapel staat, of over een bouwpartij die al een offerte heeft gestuurd? Plan een adviesgesprek van dertig minuten. Aan het eind hoor je wat ik zou doen, ook als het antwoord is dat je mij daarvoor niet nodig hebt.",
+      "Dave Willemstein Onafhankelijk AI-adviseur",
+      "Onafhankelijk: geen commissies, geen partnerdeals, geen marge op implementatiepartners.",
+      "Over mij Mijn partnernetwerk",
+      "Weten waar je staat met AI? Bekijk de AI Readiness Assessment →",
+      "Veelgestelde vragen",
+      "Bouw jij zelf AI-applicaties?+",
+      "Nee. Ik schrijf geen code en lever geen software. Het bouwen doet je eigen team of een ontwikkelpartij die je zelf contracteert. Ik help met de specificatie, de keuze van die partij, de toetsing van wat er wordt opgeleverd en de governance eromheen.",
+      "Wat is het verschil tussen een AI developer en een AI-adviseur?+",
+      "Een AI developer bouwt: modellen, koppelingen, applicaties. Een adviseur zoals ik bepaalt samen met jou wat er gebouwd moet worden, waarom, met welke partij en hoe je controleert of het werkt. Voor een goed resultaat heb je beide rollen nodig, maar ze horen niet in dezelfde partij te zitten als je onafhankelijk advies wilt.",
+      "Hoe lang duurt het om een AI-applicatie te laten ontwikkelen?+",
+      "Dat hangt vooral af van de koppelingen met je bestaande systemen en de kwaliteit van je data, minder van het model zelf. Een eerste werkend prototype is vaak snel gemaakt; de weg naar productie met beveiliging, logging en beheer kost het meeste tijd. Een realistische planning maak je pas na een specificatie en een gesprek met de bouwpartij.",
+      "Kan ik een AI webapplicatie ook met standaardcomponenten laten bouwen?+",
+      "Meestal wel, en vaak is dat verstandig. De meeste AI webapplicaties combineren een ingekocht taalmodel of platform met een eigen laag voor jouw regels, data en werkproces. Zelf een model trainen is zelden nodig.",
+      "Wie is eigenaar van de code en de data?+",
+      "Dat regel je in het contract met de bouwpartij, niet achteraf. Leg vast wie eigenaar is van de code, de configuratie, de testsets en de data, en hoe je die bij een overstap meeneemt. Bij een Vendor Review of begeleiding neem ik die punten mee in de beoordeling van het contract.",
+      "Klaar voor impact?",
+      "Van AI-ambitie naar concrete resultaten.",
+      "Plan een vrijblijvend gesprek. Geen pitch. Wel scherpe vragen.",
+      "30 min., geen pitch deckPlan een gesprek →"
+    ]
+  },
+  "links": [
+    {
+      "regio": "overig",
+      "soort": "intern",
+      "href": "#main",
+      "anker": "Naar hoofdinhoud",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/",
+      "anker": "",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/diensten",
+      "anker": "Diensten",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/cases",
+      "anker": "Cases",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/werkwijze",
+      "anker": "Werkwijze",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/inzichten",
+      "anker": "Inzichten",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/over",
+      "anker": "Over mij",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/contact",
+      "anker": "Plan een gesprek →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/",
+      "anker": "Home",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/contact",
+      "anker": "Plan een adviesgesprek →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/diensten/ai-readiness-assessment",
+      "anker": "Bekijk de AI Readiness Assessment →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/over",
+      "anker": "onafhankelijk adviseur",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/ai-development/ai-specialist",
+      "anker": "wat een AI specialist doet",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/kennisbank/wat-doet-een-ai-developer",
+      "anker": "wat doet een AI developer",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/ai-development/ai-software",
+      "anker": "AI software kiezen of laten bouwen",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/ai-agents/laten-maken",
+      "anker": "een AI agent laten maken",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/ai-development/ai-oplossingen",
+      "anker": "AI oplossingen op maat",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/diensten/ai-readiness-assessment",
+      "anker": "AI Readiness Assessment",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/diensten/vendor-review",
+      "anker": "Vendor Review",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/inzichten/ai-vendorselectie-in-acht-stappen",
+      "anker": "vendorselectie in acht stappen",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/diensten/fractional-ai-lead",
+      "anker": "Fractional AI Lead",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/ai-implementatie",
+      "anker": "AI implementatie",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/cases/kyc-documentanalyse-financial-services",
+      "anker": "KYC-documentanalyse bij een financiële dienstverlener",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/inzichten/build-buy-of-partner",
+      "anker": "build, buy of partner",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/partnernetwerk",
+      "anker": "partnernetwerk",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/kennisbank/ai-specialist-salaris",
+      "anker": "salaris van een AI specialist",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/contact",
+      "anker": "Plan een adviesgesprek",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/over",
+      "anker": "Over mij",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/partnernetwerk",
+      "anker": "Mijn partnernetwerk",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/diensten/ai-readiness-assessment",
+      "anker": "Weten waar je staat met AI? Bekijk de AI Readiness Assessment →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/contact",
+      "anker": "Plan een gesprek →",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/diensten/ai-readiness-assessment",
+      "anker": "AI Readiness Assessment",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/diensten/ai-strategy-sprint",
+      "anker": "AI Strategy Sprint",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/diensten/fractional-ai-lead",
+      "anker": "Fractional AI Lead",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/diensten",
+      "anker": "Alle diensten",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/cases",
+      "anker": "Cases",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/werkwijze",
+      "anker": "Werkwijze",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/inzichten",
+      "anker": "Inzichten",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/veelgestelde-vragen",
+      "anker": "Veelgestelde vragen",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/over",
+      "anker": "Over mij",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-consultancy",
+      "anker": "AI consultancy",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-implementatie",
+      "anker": "AI implementatie",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-automatisering",
+      "anker": "AI automatisering",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-voor-bedrijven",
+      "anker": "AI voor bedrijven",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-development",
+      "anker": "AI development",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-agents",
+      "anker": "AI agents",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-beleid",
+      "anker": "AI beleid",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-workshop",
+      "anker": "AI workshop",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/markten",
+      "anker": "AI per branche",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/kennisbank",
+      "anker": "Kennisbank",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/tarieven",
+      "anker": "Tarieven",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/partnernetwerk",
+      "anker": "Partnernetwerk",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "overig",
+      "href": "mailto:dave@freelanceaiconsultant.com",
+      "anker": "dave@freelanceaiconsultant.com",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "extern",
+      "href": "https://www.linkedin.com/in/davewillemstein",
+      "anker": "LinkedIn ↗",
+      "rel": "noopener"
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/contact",
+      "anker": "Plan een gesprek",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/privacy",
+      "anker": "Privacyverklaring",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/algemene-voorwaarden",
+      "anker": "Algemene voorwaarden",
+      "rel": null
+    }
+  ],
+  "structured_data": {
+    "sha256": "1543be10247d4c77c3250e55cd3f37e5c59f37d7fdba33609af861e02c5d10d7",
+    "items": [
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://freelanceaiconsultant.com/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "AI Development",
+                "item": "https://freelanceaiconsultant.com/ai-development"
+              }
+            ]
+          },
+          {
+            "@type": "Service",
+            "name": "AI Development",
+            "serviceType": "ai development",
+            "description": "AI development op maat: van prototype tot productie. Lees hoe AI-applicaties worden ontwikkeld, gekoppeld aan je systemen en veilig in gebruik genomen.",
+            "url": "https://freelanceaiconsultant.com/ai-development",
+            "areaServed": "NL",
+            "provider": {
+              "@type": "Person",
+              "name": "Dave Willemstein",
+              "jobTitle": "Onafhankelijk AI-adviseur",
+              "url": "https://freelanceaiconsultant.com/over",
+              "sameAs": [
+                "https://www.linkedin.com/in/davewillemstein"
+              ]
+            }
+          },
+          {
+            "@type": "FAQPage",
+            "mainEntity": [
+              {
+                "@type": "Question",
+                "name": "Bouw jij zelf AI-applicaties?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Nee. Ik schrijf geen code en lever geen software. Het bouwen doet je eigen team of een ontwikkelpartij die je zelf contracteert. Ik help met de specificatie, de keuze van die partij, de toetsing van wat er wordt opgeleverd en de governance eromheen."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Wat is het verschil tussen een AI developer en een AI-adviseur?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Een AI developer bouwt: modellen, koppelingen, applicaties. Een adviseur zoals ik bepaalt samen met jou wat er gebouwd moet worden, waarom, met welke partij en hoe je controleert of het werkt. Voor een goed resultaat heb je beide rollen nodig, maar ze horen niet in dezelfde partij te zitten als je onafhankelijk advies wilt."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Hoe lang duurt het om een AI-applicatie te laten ontwikkelen?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Dat hangt vooral af van de koppelingen met je bestaande systemen en de kwaliteit van je data, minder van het model zelf. Een eerste werkend prototype is vaak snel gemaakt; de weg naar productie met beveiliging, logging en beheer kost het meeste tijd. Een realistische planning maak je pas na een specificatie en een gesprek met de bouwpartij."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Kan ik een AI webapplicatie ook met standaardcomponenten laten bouwen?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Meestal wel, en vaak is dat verstandig. De meeste AI webapplicaties combineren een ingekocht taalmodel of platform met een eigen laag voor jouw regels, data en werkproces. Zelf een model trainen is zelden nodig."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Wie is eigenaar van de code en de data?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Dat regel je in het contract met de bouwpartij, niet achteraf. Leg vast wie eigenaar is van de code, de configuratie, de testsets en de data, en hoe je die bij een overstap meeneemt. Bij een Vendor Review of begeleiding neem ik die punten mee in de beoordeling van het contract."
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "afbeeldingen": [
+    {
+      "regio": "header",
+      "src": "/images/freelance-ai-consultant-logo-header.png",
+      "alt": "freelanceaiconsultant.com logo",
+      "width": "600",
+      "height": "287",
+      "loading": null
+    },
+    {
+      "regio": "main",
+      "src": "/images/dave-portrait.jpg",
+      "alt": "Portret van Dave Willemstein",
+      "width": "88",
+      "height": "88",
+      "loading": "lazy"
+    },
+    {
+      "regio": "footer",
+      "src": "/images/freelance-ai-consultant-icon-footer.png",
+      "alt": "",
+      "width": "192",
+      "height": "192",
+      "loading": "lazy"
+    }
+  ],
+  "laadprestaties": {
+    "scripts": [
+      {
+        "src": "/logo-carousel/logo-carousel.js?v=2",
+        "type": null,
+        "inline_bytes": 0
+      }
+    ],
+    "stylesheets": [
+      "https://fonts.googleapis.com/css2?family=Caveat:wght@600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap",
+      "/_astro/_slug_.bq6BBoZ5.css",
+      "/_astro/_slug_.goiX3PVF.css",
+      "/logo-carousel/logo-carousel.css?v=2"
+    ],
+    "aantal_details": 5,
+    "aantal_tabellen": 0
+  }
+}

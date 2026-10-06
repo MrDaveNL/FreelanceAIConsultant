@@ -1,0 +1,683 @@
+{
+  "url": "/diensten/fractional-ai-lead",
+  "build_bestand": "dist/diensten/fractional-ai-lead/index.html",
+  "bron": [
+    "src/pages/diensten/[slug].astro",
+    "src/data/services.js",
+    "src/data/prijzen.ts"
+  ],
+  "gemeten_op": "2026-10-06",
+  "html": {
+    "bytes": 34302,
+    "sha256": "f80fb0351dc96f960c696a432bcfefe87767f885d8764211cba6ee725fd9136c",
+    "lang": "nl"
+  },
+  "beschermd": {
+    "title": "Fractional AI Lead | Freelance AI Consultant",
+    "meta_description": "Senior AI-leiderschap voor 2, 4 of 8 dagen per maand. Ik stuur, bewaak en borg je AI-agenda, en draag over aan je eigen lead.",
+    "canonical": "https://freelanceaiconsultant.com/diensten/fractional-ai-lead",
+    "robots_meta": null,
+    "hreflang": [],
+    "h1": [
+      "Fractional AI Lead"
+    ]
+  },
+  "social": {
+    "og:type": "website",
+    "og:locale": "nl_NL",
+    "og:site_name": "freelanceaiconsultant.com",
+    "og:title": "Fractional AI Lead | Freelance AI Consultant",
+    "og:description": "Senior AI-leiderschap voor 2, 4 of 8 dagen per maand. Ik stuur, bewaak en borg je AI-agenda, en draag over aan je eigen lead.",
+    "og:url": "https://freelanceaiconsultant.com/diensten/fractional-ai-lead",
+    "og:image": "https://freelanceaiconsultant.com/images/dave-portrait.jpg",
+    "twitter:card": "summary_large_image",
+    "twitter:title": "Fractional AI Lead | Freelance AI Consultant",
+    "twitter:description": "Senior AI-leiderschap voor 2, 4 of 8 dagen per maand. Ik stuur, bewaak en borg je AI-agenda, en draag over aan je eigen lead.",
+    "twitter:image": "https://freelanceaiconsultant.com/images/dave-portrait.jpg"
+  },
+  "koppen": [
+    {
+      "niveau": 1,
+      "tekst": "Fractional AI Lead",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "Het gat dat dit vult",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "Vast ritme, vaste rol, aflopende afhankelijkheid.",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 3,
+      "tekst": "Maand 1",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 3,
+      "tekst": "Maand 2–3",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 3,
+      "tekst": "Maand 4–6",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 3,
+      "tekst": "Daarna",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "Concreet. Duidelijk. Direct toepasbaar.",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 3,
+      "tekst": "Voor organisaties die:",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "Van inzicht naar impact.",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 3,
+      "tekst": "Diagnose",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 3,
+      "tekst": "Prioriteren",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 3,
+      "tekst": "Beslissen",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 3,
+      "tekst": "Ship & govern",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "Maakbedrijf bracht verspreide pilots onder één roadmap.",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "Antwoorden op wat je nu denkt.",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 3,
+      "tekst": "AI Strategy Sprint",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 3,
+      "tekst": "AI Due Diligence",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "Plan een gesprek.",
+      "regio": "main",
+      "id": null
+    }
+  ],
+  "bodytekst": {
+    "regio": "main",
+    "woorden": 865,
+    "sha256": "d5acde2e0fdfc2b895ecef2fed1275fb78092961f27294542637307f94a01707",
+    "blokken": [
+      "Senior leiderschap, deeltijd",
+      "Fractional AI Lead",
+      "Je hebt geen fulltime Head of AI nodig. Je hebt iemand nodig die de agenda bewaakt, de juiste vragen stelt in stuurgroepen en voorkomt dat goede initiatieven doodbloeden in de waan van de dag.",
+      "Plan een gesprek → Alle diensten → 30 min., geen pitch deck",
+      "vertrouwen,ervaring, impact ↓",
+      "Independent No vendor bias Senior only20+ jaar ervaring",
+      "AI in Europa",
+      "Europese merken die AI al in productie hebben.",
+      "Geen klanten van mij. Wel voorbeelden van wat er gebeurt als AI voorbij de pilot komt.",
+      "Pauzeer",
+      "Klarna",
+      "Zweden",
+      "AI-assistent in de klantenservice",
+      "Zalando",
+      "Duitsland",
+      "Mode-assistent voor productadvies",
+      "Financial services",
+      "Investeringsmaatschappij",
+      "AI-strategie en use-case portfolio",
+      "Booking.com",
+      "Nederland",
+      "AI Trip Planner voor reisplanning",
+      "Siemens",
+      "Duitsland",
+      "Industrial Copilot voor engineering",
+      "Retail",
+      "Enterprise retailer",
+      "AI-gedreven vendorselectie",
+      "Spotify",
+      "Zweden",
+      "AI DJ en gepersonaliseerde playlists",
+      "Mercedes-Benz",
+      "Duitsland",
+      "Generatieve spraakassistent in de auto",
+      "Industrial / B2B",
+      "Internationale maakorganisatie",
+      "AI-roadmap en leadership",
+      "ING",
+      "Nederland",
+      "Generatieve chatbot voor klantvragen",
+      "L'Oréal",
+      "Frankrijk",
+      "Beauty Genius: persoonlijk advies",
+      "Financial services",
+      "Financiële dienstverlener",
+      "KYC versneld met AI-documentanalyse",
+      "SAP",
+      "Duitsland",
+      "Joule: copilot in bedrijfssoftware",
+      "Carrefour",
+      "Frankrijk",
+      "Hopla: boodschappenassistent",
+      "Strategy & AI",
+      "SaaS scale-up",
+      "AI-readiness assessment",
+      "Adyen",
+      "Nederland",
+      "AI-optimalisatie van betalingen",
+      "Philips",
+      "Nederland",
+      "AI in medische beeldvorming",
+      "Proces & productivity",
+      "Zakelijke dienstverlener",
+      "Interne AI-assistent voor kenniswerkers",
+      "Ritme2, 4 of 8 dagen per maand",
+      "LooptijdMinimaal 3 maanden",
+      "Investering€2.600 / €5.200 / €10.400 per maand",
+      "Advies (2 dagen), Lead (4 dagen) of Lead+ (8 dagen) per maand. Minimaal 3 maanden, daarna maandelijks opzegbaar. Bedragen zijn exclusief btw en reiskosten.",
+      "De aanleiding",
+      "Het gat dat dit vult",
+      "Een fulltime Head of AI kost je een zwaar salarispakket en maanden werving, voor een rol waarvan de scope nog niet vaststaat.",
+      "Zonder eigenaar verdwijnt de AI-agenda tussen IT-prioriteiten en kwartaaldoelen.",
+      "Je interne kandidaat is goed, maar heeft iemand nodig die dit eerder heeft gedaan.",
+      "Er moeten beslissingen worden genomen waar niemand in de organisatie het mandaat of de ervaring voor heeft.",
+      "Hoe het werkt",
+      "Vast ritme, vaste rol, aflopende afhankelijkheid.",
+      "01",
+      "Maand 1",
+      "Overname van de lopende agenda, stakeholderronde en een eerlijk beeld van wat er werkelijk loopt versus wat er op de roadmap staat.",
+      "02",
+      "Maand 2–3",
+      "Governance en cadans inrichten: stuurgroep, meetpunten, besliskader. Eerste initiatieven door de poort of bewust gestopt.",
+      "03",
+      "Maand 4–6",
+      "Uitvoering bewaken, business cases toetsen aan realisatie, en je interne opvolger klaarstomen.",
+      "04",
+      "Daarna",
+      "Afbouwen naar één dag per maand als sparringpartner, of overdragen aan de vaste AI-lead die inmiddels staat.",
+      "Wat je krijgt",
+      "Concreet. Duidelijk.Direct toepasbaar.",
+      "Eigenaarschap van de AI-portfolio en het besliskader daaromheen",
+      "Voorzitterschap of deelname aan stuurgroep en architectuurboard",
+      "Toetsing van business cases vóór commitment, niet erna",
+      "Leveranciersgesprekken en contractbeoordeling vanuit jouw belang",
+      "Coaching van de interne AI-lead, product owners en data-team",
+      "Maandelijkse rapportage die je één-op-één doorstuurt naar de board",
+      "Een expliciet overdrachtsplan, vanaf dag één",
+      "Best passend bij",
+      "Voor organisaties die:",
+      "Organisaties met lopende AI-initiatieven zonder duidelijke eigenaar",
+      "Teams die koers en capaciteit nodig hebben, maar nog geen fulltime rol kunnen dragen",
+      "Situaties waarin een interne kandidaat doorgroeit en begeleiding nodig heeft",
+      "Bedrijven die net een strategie hebben vastgesteld en nu uitvoering moeten borgen",
+      "Minder geschikt als",
+      "Als je iemand zoekt die vijf dagen per week beschikbaar is",
+      "Als de rol vooral operationeel projectmanagement is",
+      "Het onderliggende ritme",
+      "Van inzichtnaar impact.",
+      "Elke opdracht doorloopt dezelfde vier beslismomenten. Alleen de diepgang per stap verschilt.",
+      "Meer over mijn werkwijze →",
+      "01",
+      "⌕",
+      "Diagnose",
+      "Wat proberen we werkelijk op te lossen?",
+      "02",
+      "☑",
+      "Prioriteren",
+      "Welke use cases verdienen geld, tijd en aandacht?",
+      "03",
+      "↯",
+      "Beslissen",
+      "Build, buy of partner, en waarom?",
+      "04",
+      "↗",
+      "Ship & govern",
+      "Hoe zorgen we dat het ook echt landt?",
+      "Recente case",
+      "Maakbedrijf bracht verspreide pilots onder één roadmap.",
+      "Lees de volledige case →",
+      "Bij een internationale maakorganisatie liepen zeven pilots in vier landen, zonder onderling verband. In negen maanden groeide dat naar één goedgekeurde roadmap, drie geschaalde toepassingen en een interne lead die het overnam.",
+      "7losse pilots bij start3toepassingen geschaald25%productiviteitsdoel vastgesteld9maanden tot overdracht",
+      "Veelgestelde vragen",
+      "Antwoorden op wat je nu denkt.",
+      "Hoeveel dagen heb ik nodig?+",
+      "Twee dagen per maand werkt als er een strategie ligt en de uitvoering vooral bewaking vraagt. Vier dagen is realistischer als er nog governance moet worden opgebouwd of als er meerdere business units bij betrokken zijn.",
+      "Ben je beschikbaar tussen de vaste dagen door?+",
+      "Ja, voor escalaties en korte vragen. Dat zit in het tarief. Wat niet in het tarief zit, is ongelimiteerde aanwezigheid bij overleggen: daar wordt niemand beter van.",
+      "Wat gebeurt er als we intern iemand aannemen?+",
+      "Dan is mijn werk geslaagd. Ik help bij het functieprofiel en de selectie, en bouw af naar een sparringrol. Het overdrachtsplan maken we in maand één, niet in maand zes.",
+      "Doe je ook meerdere opdrachtgevers tegelijk?+",
+      "Ja, maximaal drie fractional-rollen naast elkaar. Nooit twee directe concurrenten, en dat check ik voordat ik een opdracht aanneem.",
+      "Meer vragen over samenwerking, tarieven en inkoop? Bekijk alle veelgestelde vragen →",
+      "Ook interessant",
+      "↯",
+      "AI Strategy Sprint",
+      "Van ambitie naar een realistische AI-roadmap die past bij business, mensen en middelen, board-ready in zes weken.",
+      "4-6 weken · €15.400 - €22.400",
+      "→ ☑",
+      "AI Due Diligence",
+      "Beoordeel AI-oplossingen of -bedrijven op waarde, risico, veiligheid en haalbaarheid.",
+      "2-4 weken · €12.600 - €19.600",
+      "→",
+      "Klaar voor impact?",
+      "Plan een gesprek.",
+      "30 minuten. Geen pitch deck. Gewoon een goed gesprek over jouw situatie.",
+      "30 min., geen pitch deckPlan een gesprek →"
+    ]
+  },
+  "links": [
+    {
+      "regio": "overig",
+      "soort": "intern",
+      "href": "#main",
+      "anker": "Naar hoofdinhoud",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/",
+      "anker": "",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/diensten",
+      "anker": "Diensten",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/cases",
+      "anker": "Cases",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/werkwijze",
+      "anker": "Werkwijze",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/inzichten",
+      "anker": "Inzichten",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/over",
+      "anker": "Over mij",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/contact",
+      "anker": "Plan een gesprek →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/contact",
+      "anker": "Plan een gesprek →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/diensten",
+      "anker": "Alle diensten →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/werkwijze",
+      "anker": "Meer over mijn werkwijze →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/cases/ai-roadmap-internationale-maakorganisatie",
+      "anker": "Lees de volledige case →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/veelgestelde-vragen",
+      "anker": "Bekijk alle veelgestelde vragen →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/diensten/ai-strategy-sprint",
+      "anker": "↯ AI Strategy Sprint Van ambitie naar een realistische AI-roadmap die past bij business, mensen en middelen, board-ready in zes weken. 4-6 weken · €15.400 - €22.400 →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/diensten/ai-due-diligence",
+      "anker": "☑ AI Due Diligence Beoordeel AI-oplossingen of -bedrijven op waarde, risico, veiligheid en haalbaarheid. 2-4 weken · €12.600 - €19.600 →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/contact",
+      "anker": "Plan een gesprek →",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/diensten/ai-readiness-assessment",
+      "anker": "AI Readiness Assessment",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/diensten/ai-strategy-sprint",
+      "anker": "AI Strategy Sprint",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/diensten/fractional-ai-lead",
+      "anker": "Fractional AI Lead",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/diensten",
+      "anker": "Alle diensten",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/cases",
+      "anker": "Cases",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/werkwijze",
+      "anker": "Werkwijze",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/inzichten",
+      "anker": "Inzichten",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/veelgestelde-vragen",
+      "anker": "Veelgestelde vragen",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/over",
+      "anker": "Over mij",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-consultancy",
+      "anker": "AI consultancy",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-implementatie",
+      "anker": "AI implementatie",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-automatisering",
+      "anker": "AI automatisering",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-voor-bedrijven",
+      "anker": "AI voor bedrijven",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-development",
+      "anker": "AI development",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-agents",
+      "anker": "AI agents",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-beleid",
+      "anker": "AI beleid",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-workshop",
+      "anker": "AI workshop",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/markten",
+      "anker": "AI per branche",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/kennisbank",
+      "anker": "Kennisbank",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/tarieven",
+      "anker": "Tarieven",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/partnernetwerk",
+      "anker": "Partnernetwerk",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "overig",
+      "href": "mailto:dave@freelanceaiconsultant.com",
+      "anker": "dave@freelanceaiconsultant.com",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "extern",
+      "href": "https://www.linkedin.com/in/davewillemstein",
+      "anker": "LinkedIn ↗",
+      "rel": "noopener"
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/contact",
+      "anker": "Plan een gesprek",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/privacy",
+      "anker": "Privacyverklaring",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/algemene-voorwaarden",
+      "anker": "Algemene voorwaarden",
+      "rel": null
+    }
+  ],
+  "structured_data": {
+    "sha256": "b4457f7e61d3c176d38a8086409aed402a5764a78e2c35826c70cc4b2439b413",
+    "items": [
+      {
+        "@context": "https://schema.org",
+        "@type": "Service",
+        "name": "Fractional AI Lead",
+        "description": "Je hebt geen fulltime Head of AI nodig. Je hebt iemand nodig die de agenda bewaakt, de juiste vragen stelt in stuurgroepen en voorkomt dat goede initiatieven doodbloeden in de waan van de dag.",
+        "provider": {
+          "@type": "Person",
+          "name": "Dave Willemstein",
+          "url": "https://freelanceaiconsultant.com"
+        },
+        "areaServed": [
+          "NL",
+          "BE",
+          "DE"
+        ],
+        "serviceType": "AI-advies",
+        "offers": {
+          "@type": "Offer",
+          "priceCurrency": "EUR",
+          "description": "€2.600 / €5.200 / €10.400 per maand. Advies (2 dagen), Lead (4 dagen) of Lead+ (8 dagen) per maand. Minimaal 3 maanden, daarna maandelijks opzegbaar."
+        }
+      }
+    ]
+  },
+  "afbeeldingen": [
+    {
+      "regio": "header",
+      "src": "/images/freelance-ai-consultant-logo-header.png",
+      "alt": "freelanceaiconsultant.com logo",
+      "width": "600",
+      "height": "287",
+      "loading": null
+    },
+    {
+      "regio": "main",
+      "src": "/images/dave-portrait.jpg",
+      "alt": "Dave Willemstein, Independent AI Advisor",
+      "width": "500",
+      "height": "620",
+      "loading": "lazy"
+    },
+    {
+      "regio": "footer",
+      "src": "/images/freelance-ai-consultant-icon-footer.png",
+      "alt": "",
+      "width": "192",
+      "height": "192",
+      "loading": "lazy"
+    }
+  ],
+  "laadprestaties": {
+    "scripts": [
+      {
+        "src": "/logo-carousel/logo-carousel.js?v=2",
+        "type": null,
+        "inline_bytes": 0
+      }
+    ],
+    "stylesheets": [
+      "https://fonts.googleapis.com/css2?family=Caveat:wght@600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap",
+      "/_astro/_slug_.bq6BBoZ5.css",
+      "/_astro/_slug_.BJ2d3JA4.css",
+      "/logo-carousel/logo-carousel.css?v=2"
+    ],
+    "aantal_details": 4,
+    "aantal_tabellen": 0
+  }
+}

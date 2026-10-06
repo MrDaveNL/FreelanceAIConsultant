@@ -1,0 +1,629 @@
+{
+  "url": "/inzichten/ai-vendorselectie-in-acht-stappen",
+  "build_bestand": "dist/inzichten/ai-vendorselectie-in-acht-stappen/index.html",
+  "bron": [
+    "src/pages/inzichten/[slug].astro",
+    "src/data/articles/ai-vendorselectie-in-acht-stappen.js"
+  ],
+  "gemeten_op": "2026-10-06",
+  "html": {
+    "bytes": 31948,
+    "sha256": "2b0761ba999a3893452ee3aceee6621f65f6815fcd1026fc3e4181a2b748e92c",
+    "lang": "nl"
+  },
+  "beschermd": {
+    "title": "AI-vendorselectie in acht stappen | Freelance AI Consultant",
+    "meta_description": "Criteria eerst, leveranciers daarna. Een selectieproces voor AI-leveranciers in acht stappen dat bestand is tegen goede demo's en interne voorkeuren.",
+    "canonical": "https://freelanceaiconsultant.com/inzichten/ai-vendorselectie-in-acht-stappen",
+    "robots_meta": null,
+    "hreflang": [],
+    "h1": [
+      "AI-vendorselectie in acht stappen"
+    ]
+  },
+  "social": {
+    "og:type": "website",
+    "og:locale": "nl_NL",
+    "og:site_name": "freelanceaiconsultant.com",
+    "og:title": "AI-vendorselectie in acht stappen | Freelance AI Consultant",
+    "og:description": "Criteria eerst, leveranciers daarna. Een selectieproces voor AI-leveranciers in acht stappen dat bestand is tegen goede demo's en interne voorkeuren.",
+    "og:url": "https://freelanceaiconsultant.com/inzichten/ai-vendorselectie-in-acht-stappen",
+    "og:image": "https://freelanceaiconsultant.com/images/dave-portrait.jpg",
+    "twitter:card": "summary_large_image",
+    "twitter:title": "AI-vendorselectie in acht stappen | Freelance AI Consultant",
+    "twitter:description": "Criteria eerst, leveranciers daarna. Een selectieproces voor AI-leveranciers in acht stappen dat bestand is tegen goede demo's en interne voorkeuren.",
+    "twitter:image": "https://freelanceaiconsultant.com/images/dave-portrait.jpg"
+  },
+  "koppen": [
+    {
+      "niveau": 1,
+      "tekst": "AI-vendorselectie in acht stappen",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "Waarom AI-selectie anders is",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "Stap 1: Formuleer het besluit, niet de behoefte",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "Stap 2: Stel criteria en wegingen vast vóór de marktverkenning",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "Stap 3: Maak een longlist op fit, niet op bekendheid",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "Stap 4: Stuur iedereen hetzelfde scenario",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "Stap 5: Beoordeel onafhankelijk, bespreek daarna",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "Stap 6: Stel de vragen die het verschil maken",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "Stap 7: Reken de echte kosten uit",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "Stap 8: Onderhandel op wat je écht nodig hebt",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "Tot slot: documenteer waarom de anderen afvielen",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 3,
+      "tekst": "Key takeaways",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 3,
+      "tekst": "Build, buy of partner: wat past bij jouw situatie?",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 3,
+      "tekst": "Freelance AI consultant vs agency vs Big 4",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "Van AI-ambitie naar concrete resultaten.",
+      "regio": "main",
+      "id": null
+    }
+  ],
+  "bodytekst": {
+    "regio": "main",
+    "woorden": 1338,
+    "sha256": "1eaaec3b29a6a13c8b706e148aa6a1895477fc37e5ca812515884ab731c1fd70",
+    "blokken": [
+      "← Terug naar alle inzichten",
+      "Tools & data",
+      "AI-vendorselectiein acht stappen",
+      "De meeste selecties worden beslist voordat het proces begint. Acht stappen die voorkomen dat je achteraf een onderbouwing zoekt bij een keuze die al vaststond.",
+      "◷ 5 min leestijd 20 november 2025",
+      "DW",
+      "Door Dave Willemstein Independent AI Advisor, onafhankelijk, geen leveranciersbelangen",
+      "Ik help organisaties AI-beslissingen nemen die waarde creëren. Geen dikke decks, wel duidelijke keuzes en tastbare resultaten.",
+      "vertrouwen,ervaring, impact ↓",
+      "Independent No vendor bias Senior only20+ jaar ervaring",
+      "IN HET KORT",
+      "Stel criteria en wegingen vast vóórdat je leveranciers ziet.",
+      "Test met jouw data, niet met hun demo.",
+      "Reken TCO over drie jaar, inclusief integratie en exit.",
+      "De goedkoopste licentie is zelden de goedkoopste keuze.",
+      "AI in Europa",
+      "Europese merken die AI al in productie hebben.",
+      "Geen klanten van mij. Wel voorbeelden van wat er gebeurt als AI voorbij de pilot komt.",
+      "Pauzeer",
+      "Klarna",
+      "Zweden",
+      "AI-assistent in de klantenservice",
+      "Zalando",
+      "Duitsland",
+      "Mode-assistent voor productadvies",
+      "Financial services",
+      "Investeringsmaatschappij",
+      "AI-strategie en use-case portfolio",
+      "Booking.com",
+      "Nederland",
+      "AI Trip Planner voor reisplanning",
+      "Siemens",
+      "Duitsland",
+      "Industrial Copilot voor engineering",
+      "Retail",
+      "Enterprise retailer",
+      "AI-gedreven vendorselectie",
+      "Spotify",
+      "Zweden",
+      "AI DJ en gepersonaliseerde playlists",
+      "Mercedes-Benz",
+      "Duitsland",
+      "Generatieve spraakassistent in de auto",
+      "Industrial / B2B",
+      "Internationale maakorganisatie",
+      "AI-roadmap en leadership",
+      "ING",
+      "Nederland",
+      "Generatieve chatbot voor klantvragen",
+      "L'Oréal",
+      "Frankrijk",
+      "Beauty Genius: persoonlijk advies",
+      "Financial services",
+      "Financiële dienstverlener",
+      "KYC versneld met AI-documentanalyse",
+      "SAP",
+      "Duitsland",
+      "Joule: copilot in bedrijfssoftware",
+      "Carrefour",
+      "Frankrijk",
+      "Hopla: boodschappenassistent",
+      "Strategy & AI",
+      "SaaS scale-up",
+      "AI-readiness assessment",
+      "Adyen",
+      "Nederland",
+      "AI-optimalisatie van betalingen",
+      "Philips",
+      "Nederland",
+      "AI in medische beeldvorming",
+      "Proces & productivity",
+      "Zakelijke dienstverlener",
+      "Interne AI-assistent voor kenniswerkers",
+      "Waarom AI-selectie anders is",
+      "Bij gewone software kun je functionaliteit afvinken. Bij AI-toepassingen is de kernvraag niet \"kan het systeem dit?\" maar \"hoe goed doet het dit op mijn data, en wat gebeurt er als het ernaast zit?\". Dat is een fundamenteel andere vraag, en de standaard-RFP is er niet op ingericht.",
+      "Daarbij komt dat demo’s in dit domein misleidend goed zijn. Een presentatie op zorgvuldig gekozen voorbeelden zegt weinig over prestaties op jouw rommelige werkelijkheid. Dit proces is ontworpen om dat verschil zichtbaar te maken.",
+      "Stap 1: Formuleer het besluit, niet de behoefte",
+      "Begin met de uitkomst die je wilt bereiken, uitgedrukt in je eigen proces. Niet \"we zoeken een documentverwerkingsplatform\" maar \"we willen dat 80% van de binnenkomende dossiers binnen een dag compleet is, met minder handmatige controle dan nu\".",
+      "Deze formulering houdt de deur open voor oplossingen die je nog niet kent, inclusief de mogelijkheid dat er geen aankoop nodig is.",
+      "Stap 2: Stel criteria en wegingen vast vóór de marktverkenning",
+      "Dit is de belangrijkste stap en degene die het vaakst wordt overgeslagen. Business, IT, security en inkoop bepalen samen welke criteria tellen en hoe zwaar, voordat er één leveranciersnaam op tafel komt.",
+      "Een werkbare set categorieën:",
+      "Functionele fit: dekt het jouw scenario’s af?",
+      "Prestatie op eigen data: hoe goed werkt het op jouw materiaal?",
+      "Integratie: hoeveel werk is koppelen met jouw systemen?",
+      "Data en privacy: waar staat de data, wat gebeurt ermee, wordt er op getraind?",
+      "Beheersbaarheid: kun je drempels, regels en uitzonderingen zelf aanpassen?",
+      "Kosten: licentie, verbruik, integratie, beheer, exit.",
+      "Leverancier: continuïteit, roadmap, ondersteuning in jouw taal en tijdzone.",
+      "Leg de wegingen schriftelijk vast en laat ze accorderen. Criteria die na de eerste demo worden bijgesteld, beschrijven die demo.",
+      "Stap 3: Maak een longlist op fit, niet op bekendheid",
+      "Zoek breder dan de drie namen die iedereen kent. Kijk naar gespecialiseerde partijen in jouw sector, naar wat er in je bestaande softwarelandschap al inzit (vaak meer dan je denkt), en naar de mogelijkheid om het met standaardcomponenten zelf samen te stellen.",
+      "Neem minimaal één \"geen aankoop\"-optie op in de vergelijking. Dat is geen formaliteit: het geeft je een referentiepunt voor wat de aankoop werkelijk toevoegt.",
+      "Stap 4: Stuur iedereen hetzelfde scenario",
+      "Geen open RFP met tweehonderd vragen. Stuur een concreet scenario: hier is een representatieve set van onze data (geanonimiseerd), dit is de taak, dit willen we terugzien. Dezelfde set, dezelfde vragen, dezelfde tijd voor iedereen.",
+      "De set moet representatief zijn, niet mooi. Neem de rommelige gevallen mee: onvolledige documenten, afwijkende formaten, randgevallen. Precies daar zit het verschil tussen leveranciers, en precies die gevallen ontbreken in elke demo.",
+      "Stap 5: Beoordeel onafhankelijk, bespreek daarna",
+      "Laat de beoordelaars hun scorecard individueel invullen voordat er gezamenlijk over wordt gesproken. Anders domineert de mening van de senior of de enthousiasteling, en verdwijnt de informatie uit de afwijkende oordelen.",
+      "Bespreek vooral de verschillen. Als twee beoordelaars hetzelfde antwoord heel anders scoren, betekent dat meestal dat het criterium niet scherp genoeg is. Dat wil je weten voordat je beslist.",
+      "Stap 6: Stel de vragen die het verschil maken",
+      "Een selectie van vragen die in de praktijk het meeste opleveren:",
+      "Wordt onze data gebruikt om jullie modellen te trainen? Zo ja, kunnen we dat uitzetten, en wat kost dat?",
+      "Welke onderliggende modellen gebruiken jullie, en wat gebeurt er als die leverancier zijn voorwaarden of prijzen wijzigt?",
+      "Hoe meten jullie kwaliteit, en mogen wij die meetmethode zien en reproduceren?",
+      "Wat gebeurt er als het systeem het fout heeft? Hoe merken wij dat, en wat is jullie aansprakelijkheid?",
+      "Kunnen wij zelf drempels en regels aanpassen, of moet dat via jullie?",
+      "Hoe krijgen wij onze data en configuratie eruit als we stoppen, in welk formaat en binnen welke termijn?",
+      "Welke klant die jullie vorig jaar verloren, mogen wij bellen?",
+      "Die laatste vraag levert zelden een naam op, maar de reactie erop zegt veel.",
+      "Stap 7: Reken de echte kosten uit",
+      "Een TCO over drie jaar, met minimaal deze posten: licentie, verbruikskosten bij verwacht én dubbel volume, eenmalige integratie, doorlopend beheer aan jouw kant, opleiding, en de geschatte exitkosten.",
+      "In de praktijk draait deze berekening de rangorde regelmatig om. De partij met het laagste licentietarief heeft vaak de duurste integratie, en verbruikskosten die bij volledige uitrol de licentie overstijgen.",
+      "Maak de berekening voor elke shortlistpartij op dezelfde manier en laat inkoop hem controleren. Een TCO die alleen de adviseur begrijpt, overleeft de eerste kritische vraag niet.",
+      "Stap 8: Onderhandel op wat je écht nodig hebt",
+      "De prijs is niet het belangrijkste onderhandelpunt. Belangrijker zijn:",
+      "Een prijsafspraak voor verbruik bij groei, zodat succes je niet onverwacht duur uitvalt.",
+      "Vastlegging van de exitvoorwaarden, inclusief formaat en doorlooptijd van dataoverdracht.",
+      "Een prestatieafspraak op jouw scenario, niet op een generieke SLA over beschikbaarheid.",
+      "Het recht om je eigen kwaliteitsmeting uit te voeren en de resultaten intern te gebruiken.",
+      "Duidelijkheid over wat er gebeurt als de leverancier het onderliggende model vervangt.",
+      "Dat laatste punt is nieuw ten opzichte van klassieke software en wordt bijna altijd vergeten. Leveranciers wisselen hun onderliggende modellen, soms zonder aankondiging, en dat kan de prestaties op jouw specifieke taak merkbaar veranderen, in beide richtingen. Leg vast dat je daarover wordt geïnformeerd en dat je dan opnieuw mag valideren.",
+      "Tot slot: documenteer waarom de anderen afvielen",
+      "Niet alleen waarom de winnaar won. De afvalredenen zijn het waardevolst als er over een jaar tegenvallers zijn en iemand vraagt waarom er niet voor partij B is gekozen. Zonder vastlegging wordt dat een gesprek over gevoel. Met vastlegging is het een gesprek over criteria die je destijds samen hebt bepaald.",
+      "Key takeaways",
+      "✓",
+      "Wegingen vooraf",
+      "Criteria die na de demo worden opgesteld, beschrijven de demo.",
+      "✓",
+      "Eigen scenario",
+      "Iedere leverancier hetzelfde scenario op jouw data, met dezelfde tijd.",
+      "✓",
+      "Eigen referenties",
+      "Bel ook klanten die niet op de aangeleverde lijst staan.",
+      "ONTHOUD“Je koopt geen functionaliteit, je koopt een relatie van drie jaar met een organisatie die verandert.”",
+      "Sparren over jouw situatie? 30 minuten, vrijblijvend →",
+      "Verder lezen",
+      "⇄",
+      "Organisatie",
+      "Build, buy of partner: wat past bij jouw situatie?",
+      "De vraag is zelden \"kunnen we dit zelf bouwen?\" maar \"willen we dit over drie jaar nog steeds onderhouden?\". Een beslisraamwerk in vier vragen.",
+      "◷ 4 min leestijd Lees artikel →",
+      "⇄",
+      "Strategie",
+      "Freelance AI consultant vs agency vs Big 4",
+      "Een eerlijke vergelijking op onafhankelijkheid, snelheid, diepgang, kosten en uitvoeringskracht. Zodat jij de juiste partner kiest, ook als dat niet ik ben.",
+      "◷ 4 min leestijd Lees artikel →",
+      "Klaar voor impact?",
+      "Van AI-ambitie naar concrete resultaten.",
+      "Plan een vrijblijvend gesprek. Geen pitch. Wel scherpe vragen.",
+      "30 min., geen pitch deckPlan een gesprek →"
+    ]
+  },
+  "links": [
+    {
+      "regio": "overig",
+      "soort": "intern",
+      "href": "#main",
+      "anker": "Naar hoofdinhoud",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/",
+      "anker": "",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/diensten",
+      "anker": "Diensten",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/cases",
+      "anker": "Cases",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/werkwijze",
+      "anker": "Werkwijze",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/inzichten",
+      "anker": "Inzichten",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/over",
+      "anker": "Over mij",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/contact",
+      "anker": "Plan een gesprek →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/inzichten",
+      "anker": "← Terug naar alle inzichten",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/contact",
+      "anker": "Sparren over jouw situatie? 30 minuten, vrijblijvend →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/inzichten/build-buy-of-partner",
+      "anker": "⇄ Organisatie Build, buy of partner: wat past bij jouw situatie? De vraag is zelden \"kunnen we dit zelf bouwen?\" maar \"willen we dit over drie jaar nog steeds onderhouden?\". Een beslisraamwerk in vier vragen. ◷ 4 min leestijd Lees artikel →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/inzichten/freelance-ai-consultant-vs-agency-vs-big4",
+      "anker": "⇄ Strategie Freelance AI consultant vs agency vs Big 4 Een eerlijke vergelijking op onafhankelijkheid, snelheid, diepgang, kosten en uitvoeringskracht. Zodat jij de juiste partner kiest, ook als dat niet ik ben. ◷ 4 min leestijd Lees artikel →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/contact",
+      "anker": "Plan een gesprek →",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/diensten/ai-readiness-assessment",
+      "anker": "AI Readiness Assessment",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/diensten/ai-strategy-sprint",
+      "anker": "AI Strategy Sprint",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/diensten/fractional-ai-lead",
+      "anker": "Fractional AI Lead",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/diensten",
+      "anker": "Alle diensten",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/cases",
+      "anker": "Cases",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/werkwijze",
+      "anker": "Werkwijze",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/inzichten",
+      "anker": "Inzichten",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/veelgestelde-vragen",
+      "anker": "Veelgestelde vragen",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/over",
+      "anker": "Over mij",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-consultancy",
+      "anker": "AI consultancy",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-implementatie",
+      "anker": "AI implementatie",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-automatisering",
+      "anker": "AI automatisering",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-voor-bedrijven",
+      "anker": "AI voor bedrijven",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-development",
+      "anker": "AI development",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-agents",
+      "anker": "AI agents",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-beleid",
+      "anker": "AI beleid",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-workshop",
+      "anker": "AI workshop",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/markten",
+      "anker": "AI per branche",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/kennisbank",
+      "anker": "Kennisbank",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/tarieven",
+      "anker": "Tarieven",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/partnernetwerk",
+      "anker": "Partnernetwerk",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "overig",
+      "href": "mailto:dave@freelanceaiconsultant.com",
+      "anker": "dave@freelanceaiconsultant.com",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "extern",
+      "href": "https://www.linkedin.com/in/davewillemstein",
+      "anker": "LinkedIn ↗",
+      "rel": "noopener"
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/contact",
+      "anker": "Plan een gesprek",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/privacy",
+      "anker": "Privacyverklaring",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/algemene-voorwaarden",
+      "anker": "Algemene voorwaarden",
+      "rel": null
+    }
+  ],
+  "structured_data": {
+    "sha256": "3165573d6576189032d85984cafdb8593f533e158fe14b29187a42ca7f964317",
+    "items": [
+      {
+        "@context": "https://schema.org",
+        "@type": "BlogPosting",
+        "headline": "AI-vendorselectie in acht stappen",
+        "description": "Criteria eerst, leveranciers daarna. Een selectieproces dat bestand is tegen goede demo’s en interne voorkeuren.",
+        "datePublished": "2025-11-20",
+        "inLanguage": "nl-NL",
+        "articleSection": "Tools & data",
+        "author": {
+          "@type": "Person",
+          "name": "Dave Willemstein",
+          "url": "https://freelanceaiconsultant.com",
+          "jobTitle": "Onafhankelijk AI-adviseur"
+        },
+        "publisher": {
+          "@type": "Person",
+          "name": "Dave Willemstein"
+        },
+        "mainEntityOfPage": "https://freelanceaiconsultant.com/inzichten/ai-vendorselectie-in-acht-stappen"
+      }
+    ]
+  },
+  "afbeeldingen": [
+    {
+      "regio": "header",
+      "src": "/images/freelance-ai-consultant-logo-header.png",
+      "alt": "freelanceaiconsultant.com logo",
+      "width": "600",
+      "height": "287",
+      "loading": null
+    },
+    {
+      "regio": "main",
+      "src": "/images/dave-portrait.jpg",
+      "alt": "Dave Willemstein, Independent AI Advisor",
+      "width": "500",
+      "height": "620",
+      "loading": "lazy"
+    },
+    {
+      "regio": "footer",
+      "src": "/images/freelance-ai-consultant-icon-footer.png",
+      "alt": "",
+      "width": "192",
+      "height": "192",
+      "loading": "lazy"
+    }
+  ],
+  "laadprestaties": {
+    "scripts": [
+      {
+        "src": "/logo-carousel/logo-carousel.js?v=2",
+        "type": null,
+        "inline_bytes": 0
+      }
+    ],
+    "stylesheets": [
+      "https://fonts.googleapis.com/css2?family=Caveat:wght@600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap",
+      "/_astro/_slug_.bq6BBoZ5.css",
+      "/_astro/_slug_.CyUYGuAp.css",
+      "/logo-carousel/logo-carousel.css?v=2"
+    ],
+    "aantal_details": 0,
+    "aantal_tabellen": 0
+  }
+}

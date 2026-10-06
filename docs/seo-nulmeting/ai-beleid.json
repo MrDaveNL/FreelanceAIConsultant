@@ -1,0 +1,886 @@
+{
+  "url": "/ai-beleid",
+  "build_bestand": "dist/ai-beleid/index.html",
+  "bron": [
+    "src/content/pages/ai-beleid/index.md",
+    "src/pages/[...slug].astro"
+  ],
+  "gemeten_op": "2026-10-06",
+  "html": {
+    "bytes": 41314,
+    "sha256": "ed8a264be4c6ae92199a685e6aaaf3fa52303d19f21e4964fa99fc97fb62e56f",
+    "lang": "nl"
+  },
+  "beschermd": {
+    "title": "AI beleid en governance | Verantwoord werken met AI",
+    "meta_description": "Stel een AI beleid op dat werkt: heldere afspraken over tools, data, risico's en verantwoordelijkheden. Inclusief AI governance, AI Act en responsible AI.",
+    "canonical": "https://freelanceaiconsultant.com/ai-beleid",
+    "robots_meta": null,
+    "hreflang": [],
+    "h1": [
+      "AI beleid en governance voor organisaties"
+    ]
+  },
+  "social": {
+    "og:type": "website",
+    "og:locale": "nl_NL",
+    "og:site_name": "freelanceaiconsultant.com",
+    "og:title": "AI beleid en governance | Verantwoord werken met AI",
+    "og:description": "Stel een AI beleid op dat werkt: heldere afspraken over tools, data, risico's en verantwoordelijkheden. Inclusief AI governance, AI Act en responsible AI.",
+    "og:url": "https://freelanceaiconsultant.com/ai-beleid",
+    "og:image": "https://freelanceaiconsultant.com/images/dave-portrait.jpg",
+    "twitter:card": "summary_large_image",
+    "twitter:title": "AI beleid en governance | Verantwoord werken met AI",
+    "twitter:description": "Stel een AI beleid op dat werkt: heldere afspraken over tools, data, risico's en verantwoordelijkheden. Inclusief AI governance, AI Act en responsible AI.",
+    "twitter:image": "https://freelanceaiconsultant.com/images/dave-portrait.jpg"
+  },
+  "koppen": [
+    {
+      "niveau": 1,
+      "tekst": "AI beleid en governance voor organisaties",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "Waarom een AI beleid nodig is",
+      "regio": "main",
+      "id": "waarom-een-ai-beleid-nodig-is"
+    },
+    {
+      "niveau": 2,
+      "tekst": "Onderdelen van een AI beleid",
+      "regio": "main",
+      "id": "onderdelen-van-een-ai-beleid"
+    },
+    {
+      "niveau": 3,
+      "tekst": "Toegestane tools",
+      "regio": "main",
+      "id": "toegestane-tools"
+    },
+    {
+      "niveau": 3,
+      "tekst": "Data en privacy",
+      "regio": "main",
+      "id": "data-en-privacy"
+    },
+    {
+      "niveau": 3,
+      "tekst": "Rollen en verantwoordelijkheden",
+      "regio": "main",
+      "id": "rollen-en-verantwoordelijkheden"
+    },
+    {
+      "niveau": 3,
+      "tekst": "Risicobeheer",
+      "regio": "main",
+      "id": "risicobeheer"
+    },
+    {
+      "niveau": 2,
+      "tekst": "AI governance inrichten",
+      "regio": "main",
+      "id": "ai-governance-inrichten"
+    },
+    {
+      "niveau": 2,
+      "tekst": "AI Act en compliance",
+      "regio": "main",
+      "id": "ai-act-en-compliance"
+    },
+    {
+      "niveau": 2,
+      "tekst": "Responsible AI",
+      "regio": "main",
+      "id": "responsible-ai"
+    },
+    {
+      "niveau": 2,
+      "tekst": "AI-beleid voor het MKB: voorbeeld en template",
+      "regio": "main",
+      "id": "ai-beleid-voor-het-mkb-voorbeeld-en-template"
+    },
+    {
+      "niveau": 3,
+      "tekst": "Stappenplan",
+      "regio": "main",
+      "id": "stappenplan"
+    },
+    {
+      "niveau": 3,
+      "tekst": "Download het template",
+      "regio": "main",
+      "id": "download-het-template"
+    },
+    {
+      "niveau": 2,
+      "tekst": "Veelgestelde vragen",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "Bronnen",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "Van AI-ambitie naar concrete resultaten.",
+      "regio": "main",
+      "id": null
+    }
+  ],
+  "bodytekst": {
+    "regio": "main",
+    "woorden": 2566,
+    "sha256": "32e8c0401b6089ca2bab8427c76b1f4736bea4a9d911eed96ac76c3d30eeb2d1",
+    "blokken": [
+      "Home",
+      "AI beleid",
+      "AI beleid en governance",
+      "AI beleid en governance voor organisaties",
+      "Een goed AI beleid is geen dik document, maar een set heldere afspraken: welke tools mogen, welke data erin mag, wie waarover beslist en hoe je risico's bewaakt. Op deze pagina lees je wat erin hoort, hoe het zich verhoudt tot de AI Act en hoe je als mkb'er in een paar weken een eerste versie neerzet.",
+      "Plan een adviesgesprek → Bekijk de AI Readiness Assessment →",
+      "IN HET KORT",
+      "Een AI beleid legt vast welke tools en data mogen, wie verantwoordelijk is en hoe je risico's beheerst.",
+      "Begin klein: één pagina met werkbare afspraken, en laat het meegroeien met je toepassingen.",
+      "De AI Act vraagt al sinds februari 2025 om maatregelen voor AI-geletterdheid; een beleid is de logische plek om die vast te leggen.",
+      "AI in Europa",
+      "Europese merken die AI al in productie hebben.",
+      "Geen klanten van mij. Wel voorbeelden van wat er gebeurt als AI voorbij de pilot komt.",
+      "Pauzeer",
+      "Klarna",
+      "Zweden",
+      "AI-assistent in de klantenservice",
+      "Zalando",
+      "Duitsland",
+      "Mode-assistent voor productadvies",
+      "Financial services",
+      "Investeringsmaatschappij",
+      "AI-strategie en use-case portfolio",
+      "Booking.com",
+      "Nederland",
+      "AI Trip Planner voor reisplanning",
+      "Siemens",
+      "Duitsland",
+      "Industrial Copilot voor engineering",
+      "Retail",
+      "Enterprise retailer",
+      "AI-gedreven vendorselectie",
+      "Spotify",
+      "Zweden",
+      "AI DJ en gepersonaliseerde playlists",
+      "Mercedes-Benz",
+      "Duitsland",
+      "Generatieve spraakassistent in de auto",
+      "Industrial / B2B",
+      "Internationale maakorganisatie",
+      "AI-roadmap en leadership",
+      "ING",
+      "Nederland",
+      "Generatieve chatbot voor klantvragen",
+      "L'Oréal",
+      "Frankrijk",
+      "Beauty Genius: persoonlijk advies",
+      "Financial services",
+      "Financiële dienstverlener",
+      "KYC versneld met AI-documentanalyse",
+      "SAP",
+      "Duitsland",
+      "Joule: copilot in bedrijfssoftware",
+      "Carrefour",
+      "Frankrijk",
+      "Hopla: boodschappenassistent",
+      "Strategy & AI",
+      "SaaS scale-up",
+      "AI-readiness assessment",
+      "Adyen",
+      "Nederland",
+      "AI-optimalisatie van betalingen",
+      "Philips",
+      "Nederland",
+      "AI in medische beeldvorming",
+      "Proces & productivity",
+      "Zakelijke dienstverlener",
+      "Interne AI-assistent voor kenniswerkers",
+      "Waarom een AI beleid nodig is",
+      "Medewerkers gebruiken AI al, of er nu een AI beleid is of niet. Ze vatten documenten samen met een chatbot, laten conceptmails schrijven of zetten een vergadertool aan die automatisch notuleert. Dat is meestal goedbedoeld en vaak nuttig. Het probleem is dat niemand overzicht heeft: welke tools draaien er, welke klantgegevens gaan erin, en wie is aanspreekbaar als het misgaat?",
+      "Een AI beleid lost dat op met een paar heldere afspraken. Het geeft medewerkers duidelijkheid over wat wel mag, zodat ze niet uit onzekerheid stoppen of uit gemak eromheen werken. Het geeft de directie zicht op risico’s. En het maakt aantoonbaar dat je nadenkt over verantwoord gebruik, wat steeds vaker wordt gevraagd door klanten, toezichthouders en accountants.",
+      "Er zijn drie concrete aanleidingen om er nu werk van te maken:",
+      "Schaduwgebruik. Zonder afspraken kiest iedereen zijn eigen tool, vaak met een privéaccount waar je als organisatie geen grip op hebt.",
+      "Wet- en regelgeving. De AVG geldt al jaren voor elke verwerking van persoonsgegevens, ook als een AI-tool die uitvoert. De AI Act voegt daar verplichtingen aan toe, onder meer rond AI-geletterdheid en transparantie.",
+      "Strategie. Een beleid dwingt je om te kiezen waar AI wel en niet past. Dat sluit direct aan op je AI strategie: wat je wilt bereiken bepaalt welke risico’s je accepteert.",
+      "Een AI beleid is dus geen rem. Het is de voorwaarde om AI met vertrouwen breder in te zetten.",
+      "Onderdelen van een AI beleid",
+      "Een werkbaar beleid beantwoordt vier vragen: wat mag je gebruiken, wat mag erin, wie beslist en hoe houd je het veilig? Die vragen vormen de ruggengraat van elk beleid, of je nu twintig of tweeduizend medewerkers hebt.",
+      "Toegestane toolsWelke AI-tools mogen medewerkers gebruiken, met welk account en voor welk soort werk?",
+      "Data en privacyWelke gegevens mogen in een AI-tool, en welke nooit?",
+      "Rollen en verantwoordelijkhedenWie keurt nieuwe tools goed, wie is eigenaar van een toepassing en waar meld je een probleem?",
+      "RisicobeheerHoe deel je toepassingen in naar risico, en welke controles horen bij welk niveau?",
+      "De vier bouwstenen van een AI beleid. Samen beantwoorden ze de vraag wat mag, wat erin mag, wie beslist en hoe je het veilig houdt.",
+      "Toegestane tools",
+      "Leg vast welke tools goedgekeurd zijn en onder welke voorwaarden. Maak onderscheid tussen zakelijke licenties, waarbij je contractuele afspraken hebt over dataverwerking, en gratis consumentenversies, waarbij dat vaak niet zo is. Een korte lijst werkt beter dan een lang verbod: noem de tools die mogen, voor welk werk, en hoe je een nieuwe tool aanvraagt.",
+      "Voorbeelden van afspraken die in de praktijk goed werken:",
+      "Gebruik alleen tools met een zakelijk account van de organisatie.",
+      "Nieuwe tools vraag je aan via één vast aanspreekpunt, met een beslissing binnen een afgesproken termijn.",
+      "Tools die automatisch vergaderingen opnemen of notuleren vallen onder aparte afspraken; lees daarover meer bij notuleren met AI.",
+      "Data en privacy",
+      "Dit is voor de meeste organisaties het belangrijkste onderdeel. Deel gegevens in een paar categorieën in, bijvoorbeeld openbaar, intern, vertrouwelijk en persoonsgegevens, en spreek per categorie af wat in welke tool mag. Zodra persoonsgegevens worden verwerkt, heb je volgens de AVG een grondslag nodig; de Autoriteit Persoonsgegevens legt de zes grondslagen uit. Leg ook vast of er een verwerkersovereenkomst met de leverancier is en waar de data wordt opgeslagen.",
+      "Werk je met AI-toepassingen die zelfstandig taken uitvoeren en daarbij klant- of medewerkersgegevens raken, dan worden de privacyvragen scherper. Die situatie behandel ik apart in AI agents en de AVG.",
+      "Rollen en verantwoordelijkheden",
+      "Een beleid zonder eigenaar is een intentieverklaring. Benoem minimaal:",
+      "Een eigenaar van het beleid, meestal iemand uit de directie of het MT, die het vaststelt en periodiek herziet.",
+      "Een eigenaar per toepassing, die verantwoordelijk is voor het doel, de kwaliteit en het gebruik ervan.",
+      "Een aanspreekpunt voor vragen, aanvragen van nieuwe tools en meldingen als er iets misgaat.",
+      "De rol van privacy en informatiebeveiliging, zoals je functionaris gegevensbescherming of security officer, bij de beoordeling van nieuwe toepassingen.",
+      "Beschrijf ook wat je van medewerkers verwacht: dat ze AI-uitvoer controleren voordat ze die gebruiken, en dat ze verantwoordelijk blijven voor het eindresultaat.",
+      "Risicobeheer",
+      "Niet elke AI-toepassing verdient dezelfde aandacht. Een tool die een conceptmail schrijft vraagt om andere controles dan een systeem dat sollicitanten voorselecteert. Deel toepassingen daarom in naar risico en koppel per niveau de maatregelen: van alleen registreren tot een formele beoordeling vooraf, testen en periodieke controle. Een praktische indeling in drie niveaus staat in mijn artikel over AI-governance zonder bureaucratie.",
+      "Voorbeeldscenario",
+      "Een installatiebedrijf met 110 medewerkers heeft nog geen AI beleid. Een korte enquête laat zien dat 40 medewerkers AI-tools gebruiken, verspreid over zeven verschillende tools, de meeste met een privéaccount.",
+      "De adviseur begeleidt een werkgroep van vier mensen: een directielid, de IT-beheerder, de medewerker met privacy in de portefeuille en een projectleider. In vier weken ligt er een beleid van twee pagina's: twee toegestane tools met een zakelijk account, vier gegevenscategorieën en één aanspreekpunt voor aanvragen. De directie stelt het vast.",
+      "Bij de evaluatie na drie maanden werken 34 van de 40 gebruikers met een zakelijk account. Er kwamen zes aanvragen voor nieuwe tools binnen, waarvan twee zijn goedgekeurd. Het beleid telt nog steeds twee pagina's.",
+      "Fictief voorbeeld, samengesteld uit situaties die veel voorkomen. Organisatie en cijfers zijn illustratief.",
+      "AI governance inrichten",
+      "Waar het AI beleid vastlegt wat de afspraken zijn, gaat AI governance over hoe je die afspraken in de praktijk laat werken. Het grootste risico is niet te weinig regelen, maar zoveel regelen dat mensen eromheen gaan werken. Mijn uitgangspunt: licht waar het kan, zwaar alleen waar het risico dat rechtvaardigt.",
+      "In het artikel over governance beschrijf ik vier lichte mechanismen die je minimaal nodig hebt: een register van toepassingen, één beoordelingsmoment, een periodieke toets en een helder escalatiepad. Hier herhaal ik dat niet; het belangrijkste punt is dat je governance koppelt aan wat er al is. Voeg AI toe aan het risico-overleg of de stuurgroep die al bestaat, in plaats van een nieuwe commissie op te tuigen.",
+      "Heb je geen capaciteit om dit zelf te trekken, dan kan een Fractional AI Lead de governance en cadans opzetten en bewaken; de investering is €2.600 / €5.200 / €10.400 per maand.",
+      "AI Act en compliance",
+      "De AI Act (Verordening (EU) 2024/1689) deelt AI-systemen in naar risico, met verboden praktijken, hoog-risicosystemen met strenge eisen, transparantieverplichtingen en een grote groep systemen met minimaal risico. Volgens de Europese Commissie valt het overgrote deel van de AI-systemen die nu in de EU worden gebruikt in die laatste categorie.",
+      "Voor je AI beleid zijn twee dingen nu al relevant:",
+      "AI-geletterdheid. Sinds 2 februari 2025 moeten organisaties die AI-systemen aanbieden of gebruiken aandacht besteden aan de AI-kennis van hun medewerkers. Met de Digital Omnibus, die op 27 juli 2026 in werking trad, is die plicht aangepast: je moet maatregelen nemen om AI-geletterdheid te ondersteunen, zonder dat een bepaald niveau per persoon wordt voorgeschreven. Een certificaat is volgens de Commissie niet nodig; je kunt intern bijhouden welke trainingen en andere initiatieven je hebt ingezet. Een training in AI-geletterdheid is een voor de hand liggende maatregel om in je beleid op te nemen.",
+      "Transparantie. Zet je bijvoorbeeld een chatbot in richting klanten, dan moeten mensen weten dat ze met AI communiceren.",
+      "Welke verplichtingen verder voor jouw organisatie gelden, hangt af van je rol en je toepassingen. De Omnibus heeft bovendien de hoog-risicoregels uitgesteld. Hoe dat zit, per risicocategorie, per rol en met de actuele tijdlijn, lees je in het overzicht de AI Act voor bedrijven.",
+      "Deze pagina geeft een praktische toelichting en is geen juridisch advies. Laat de juridische kwalificatie van je toepassingen toetsen door een jurist of je functionaris gegevensbescherming.",
+      "Responsible AI",
+      "Responsible AI gaat verder dan wat de wet vraagt. Het gaat om de vraag of je een toepassing verantwoord vindt, ook als die juridisch mag. Denk aan eerlijkheid (behandelt het systeem groepen mensen gelijk?), uitlegbaarheid (kun je aan een klant uitleggen waarom een besluit zo uitviel?), menselijk toezicht (wie kan ingrijpen?) en de impact op het werk van medewerkers.",
+      "Ik raad aan om hier geen apart ethisch kader naast je beleid te zetten, maar een paar principes op te nemen die je daadwerkelijk toepast bij de beoordeling van nieuwe toepassingen. Bijvoorbeeld: “Bij beslissingen die mensen raken, neemt altijd een medewerker het laatste besluit.” Of: “We zetten AI niet in om individuele prestaties van medewerkers te beoordelen, tenzij de directie daar expliciet toe besluit.” Principes die je kunt toetsen, zijn meer waard dan waarden die mooi klinken.",
+      "Responsible AI raakt ook aan adoptie. Medewerkers gebruiken AI eerder als ze begrijpen waarom de afspraken er zijn en merken dat ze meetellen; daarover schreef ik in AI-adoptie begint bij het werk.",
+      "AI-beleid voor het MKB: voorbeeld en template",
+      "Een mkb-bedrijf heeft geen compliance-afdeling en hoeft ook geen beleid van twintig pagina’s. Wat wel nodig is: een AI-beleid dat iedereen in tien minuten kan lezen en dat antwoord geeft op de vragen die medewerkers echt hebben. Het stappenplan en het template hieronder zijn daarvoor bedoeld.",
+      "Stappenplan",
+      "Inventariseer wat er al gebruikt wordt. Vraag teams welke AI-tools ze gebruiken en waarvoor. Oordeel nog niet; je wilt een eerlijk beeld.",
+      "Kies de toegestane tools. Beslis welke tools je zakelijk aanbiedt en welke je uitfaseert. Kijk naar functionaliteit, maar vooral naar de afspraken over data.",
+      "Deel je data in. Spreek af welke gegevens nooit in een AI-tool mogen, zoals persoonsgegevens van klanten zonder grondslag of vertrouwelijke contracten.",
+      "Wijs eigenaren aan. Eén eigenaar van het beleid en één aanspreekpunt voor vragen en aanvragen.",
+      "Schrijf de eerste versie op één tot drie pagina’s. Gebruik het template hieronder.",
+      "Train en communiceer. Leg uit waarom de afspraken er zijn en hoe je AI goed gebruikt; dat is meteen een invulling van je plicht rond AI-geletterdheid.",
+      "Evalueer na drie maanden. Wat werkt, wat wordt omzeild, welke vragen komen steeds terug? Pas het beleid daarop aan.",
+      "Download het template",
+      "Het AI-beleid template (pdf) volgt deze opzet, met in te vullen velden, tabellen voor tools en gegevenscategorieën en een checklist om af te ronden. Je kunt de opzet ook direct overnemen in je eigen document:",
+      "Doel en reikwijdte: waarom dit beleid er is en voor wie het geldt, inclusief externe medewerkers.",
+      "Toegestane tools: lijst met goedgekeurde tools, accounts en toepassingen, plus de procedure om een nieuwe tool aan te vragen.",
+      "Data: de gegevenscategorieën en per categorie wat wel en niet in een AI-tool mag.",
+      "Gebruiksregels: controleer uitvoer altijd, vermeld AI-gebruik waar dat relevant is, en blijf zelf verantwoordelijk voor het resultaat.",
+      "Rollen: eigenaar van het beleid, aanspreekpunt, eigenaren van toepassingen.",
+      "Risico’s en meldingen: hoe nieuwe toepassingen worden beoordeeld en waar je een incident of twijfel meldt.",
+      "AI-geletterdheid: welke training of instructie medewerkers krijgen en hoe je dat bijhoudt.",
+      "Herziening: wanneer en door wie het beleid wordt geëvalueerd.",
+      "Wil je weten waar je organisatie staat voordat je het beleid schrijft? De AI Readiness Assessment brengt in 2-3 weken je uitgangspositie in kaart, inclusief een risico- en compliance-scan en je positie onder de AI-verordening, voor €7.000. Alle bedragen en pakketten staan op de pagina tarieven.",
+      "Ik werk onafhankelijk: ik verkoop geen tools en ontvang geen commissies van leveranciers, dus het beleid gaat over wat bij jullie past. Meer over mijn achtergrond lees je op over mij. Waar uitvoering nodig is, bijvoorbeeld bij technische inrichting, kan ik partijen uit mijn partnernetwerk voorstellen die je rechtstreeks contracteert.",
+      "Wil je sparren over een eerste versie van jullie AI beleid? Plan een gesprek van dertig minuten; aan het eind weet je wat ik als eerste zou regelen.",
+      "Dave Willemstein Onafhankelijk AI-adviseur",
+      "Onafhankelijk: geen commissies, geen partnerdeals, geen marge op implementatiepartners.",
+      "Over mij Mijn partnernetwerk",
+      "Weten waar je staat met AI? Bekijk de AI Readiness Assessment →",
+      "Veelgestelde vragen",
+      "Is een AI beleid wettelijk verplicht?+",
+      "De AI Act schrijft geen document met de naam AI beleid voor. Wel moeten organisaties die AI-systemen gebruiken of aanbieden maatregelen nemen voor AI-geletterdheid, en afhankelijk van de toepassing gelden er transparantie- of hoog-risicoverplichtingen. Daarnaast geldt de AVG zodra er persoonsgegevens in het spel zijn. Een AI beleid is in de praktijk de eenvoudigste manier om die verplichtingen aantoonbaar te organiseren.",
+      "Hoe lang moet een AI beleid zijn?+",
+      "Voor de meeste organisaties volstaat een eerste versie van één tot drie pagina's: gebruiksafspraken voor medewerkers, een lijst met toegestane tools, regels voor data en een aanspreekpunt. Uitgebreidere procedures voeg je pas toe als je toepassingen met een hoger risico gaat inzetten.",
+      "Wie moet het AI beleid vaststellen?+",
+      "De directie stelt het vast, omdat het beleid keuzes bevat over risico's die de hele organisatie raken. Het opstellen gebeurt meestal door een kleine groep met iemand uit de business, iemand van IT of informatiebeveiliging en de privacy- of compliance-functie. Heb je een ondernemingsraad, betrek die dan tijdig, zeker als het beleid gaat over het monitoren of beoordelen van medewerkers.",
+      "Hoe vaak moet je een AI beleid bijwerken?+",
+      "Plan minimaal een jaarlijkse herziening en werk het tussendoor bij als er een nieuwe tool, een nieuw type toepassing of een wijziging in de regelgeving bijkomt. De AI Act zelf is in 2026 al aangepast, dus een beleid dat alleen bij de start is geschreven, veroudert snel.",
+      "Kun je een AI beleid voor ons schrijven?+",
+      "Ik begeleid het opstellen en toets het tegen jullie praktijk, maar het beleid moet van jullie zijn: afspraken die medewerkers niet herkennen, worden niet nageleefd. Voor de juridische toets van specifieke toepassingen onder de AI Act of de AVG adviseer ik om daarnaast een jurist of je functionaris gegevensbescherming te betrekken.",
+      "Bronnen",
+      "Europese Commissie: AI Act, regulatory framework en tijdlijn (bijgewerkt 3 augustus 2026)",
+      "Europese Commissie: AI Omnibus enters into force (27 juli 2026)",
+      "Europese Commissie: AI literacy, questions and answers",
+      "Autoriteit Persoonsgegevens: AI-geletterdheid",
+      "Autoriteit Persoonsgegevens: Grondslagen AVG uitgelegd",
+      "Klaar voor impact?",
+      "Van AI-ambitie naar concrete resultaten.",
+      "Plan een vrijblijvend gesprek. Geen pitch. Wel scherpe vragen.",
+      "30 min., geen pitch deckPlan een gesprek →"
+    ]
+  },
+  "links": [
+    {
+      "regio": "overig",
+      "soort": "intern",
+      "href": "#main",
+      "anker": "Naar hoofdinhoud",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/",
+      "anker": "",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/diensten",
+      "anker": "Diensten",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/cases",
+      "anker": "Cases",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/werkwijze",
+      "anker": "Werkwijze",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/inzichten",
+      "anker": "Inzichten",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/over",
+      "anker": "Over mij",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/contact",
+      "anker": "Plan een gesprek →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/",
+      "anker": "Home",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/contact",
+      "anker": "Plan een adviesgesprek →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/diensten/ai-readiness-assessment",
+      "anker": "Bekijk de AI Readiness Assessment →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/ai-consultancy/ai-strategie",
+      "anker": "AI strategie",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/kennisbank/notuleren-met-ai",
+      "anker": "notuleren met AI",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "extern",
+      "href": "https://autoriteitpersoonsgegevens.nl/themas/basis-avg/avg-algemeen/grondslagen-avg-uitgelegd",
+      "anker": "legt de zes grondslagen uit",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/kennisbank/ai-agents-en-avg",
+      "anker": "AI agents en de AVG",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/inzichten/ai-governance-zonder-bureaucratie",
+      "anker": "AI-governance zonder bureaucratie",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/diensten/fractional-ai-lead",
+      "anker": "Fractional AI Lead",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "extern",
+      "href": "https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai",
+      "anker": "Europese Commissie",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "extern",
+      "href": "https://digital-strategy.ec.europa.eu/en/faqs/ai-literacy-questions-answers",
+      "anker": "Commissie",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/ai-workshop/ai-geletterdheid-training",
+      "anker": "training in AI-geletterdheid",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/ai-beleid/ai-act",
+      "anker": "de AI Act voor bedrijven",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/inzichten/ai-adoptie-begint-bij-het-werk",
+      "anker": "AI-adoptie begint bij het werk",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/downloads/ai-beleid-template.pdf",
+      "anker": "AI-beleid template (pdf)",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/diensten/ai-readiness-assessment",
+      "anker": "AI Readiness Assessment",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/tarieven",
+      "anker": "tarieven",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/over",
+      "anker": "over mij",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/partnernetwerk",
+      "anker": "partnernetwerk",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/contact",
+      "anker": "Plan een gesprek van dertig minuten",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/over",
+      "anker": "Over mij",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/partnernetwerk",
+      "anker": "Mijn partnernetwerk",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/diensten/ai-readiness-assessment",
+      "anker": "Weten waar je staat met AI? Bekijk de AI Readiness Assessment →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "extern",
+      "href": "https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai",
+      "anker": "Europese Commissie: AI Act, regulatory framework en tijdlijn (bijgewerkt 3 augustus 2026)",
+      "rel": "noopener"
+    },
+    {
+      "regio": "main",
+      "soort": "extern",
+      "href": "https://digital-strategy.ec.europa.eu/en/news/ai-omnibus-enters-force",
+      "anker": "Europese Commissie: AI Omnibus enters into force (27 juli 2026)",
+      "rel": "noopener"
+    },
+    {
+      "regio": "main",
+      "soort": "extern",
+      "href": "https://digital-strategy.ec.europa.eu/en/faqs/ai-literacy-questions-answers",
+      "anker": "Europese Commissie: AI literacy, questions and answers",
+      "rel": "noopener"
+    },
+    {
+      "regio": "main",
+      "soort": "extern",
+      "href": "https://autoriteitpersoonsgegevens.nl/themas/algoritmes-ai/ai-verordening/ai-geletterdheid",
+      "anker": "Autoriteit Persoonsgegevens: AI-geletterdheid",
+      "rel": "noopener"
+    },
+    {
+      "regio": "main",
+      "soort": "extern",
+      "href": "https://autoriteitpersoonsgegevens.nl/themas/basis-avg/avg-algemeen/grondslagen-avg-uitgelegd",
+      "anker": "Autoriteit Persoonsgegevens: Grondslagen AVG uitgelegd",
+      "rel": "noopener"
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/contact",
+      "anker": "Plan een gesprek →",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/diensten/ai-readiness-assessment",
+      "anker": "AI Readiness Assessment",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/diensten/ai-strategy-sprint",
+      "anker": "AI Strategy Sprint",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/diensten/fractional-ai-lead",
+      "anker": "Fractional AI Lead",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/diensten",
+      "anker": "Alle diensten",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/cases",
+      "anker": "Cases",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/werkwijze",
+      "anker": "Werkwijze",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/inzichten",
+      "anker": "Inzichten",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/veelgestelde-vragen",
+      "anker": "Veelgestelde vragen",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/over",
+      "anker": "Over mij",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-consultancy",
+      "anker": "AI consultancy",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-implementatie",
+      "anker": "AI implementatie",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-automatisering",
+      "anker": "AI automatisering",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-voor-bedrijven",
+      "anker": "AI voor bedrijven",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-development",
+      "anker": "AI development",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-agents",
+      "anker": "AI agents",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-beleid",
+      "anker": "AI beleid",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-workshop",
+      "anker": "AI workshop",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/markten",
+      "anker": "AI per branche",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/kennisbank",
+      "anker": "Kennisbank",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/tarieven",
+      "anker": "Tarieven",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/partnernetwerk",
+      "anker": "Partnernetwerk",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "overig",
+      "href": "mailto:dave@freelanceaiconsultant.com",
+      "anker": "dave@freelanceaiconsultant.com",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "extern",
+      "href": "https://www.linkedin.com/in/davewillemstein",
+      "anker": "LinkedIn ↗",
+      "rel": "noopener"
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/contact",
+      "anker": "Plan een gesprek",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/privacy",
+      "anker": "Privacyverklaring",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/algemene-voorwaarden",
+      "anker": "Algemene voorwaarden",
+      "rel": null
+    }
+  ],
+  "structured_data": {
+    "sha256": "a824dee05f5f1abe3bd47dfd19fb650446a9a4e54139792794d12da47019a2ec",
+    "items": [
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://freelanceaiconsultant.com/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "AI beleid",
+                "item": "https://freelanceaiconsultant.com/ai-beleid"
+              }
+            ]
+          },
+          {
+            "@type": "Service",
+            "name": "AI beleid",
+            "serviceType": "ai beleid",
+            "description": "Stel een AI beleid op dat werkt: heldere afspraken over tools, data, risico's en verantwoordelijkheden. Inclusief AI governance, AI Act en responsible AI.",
+            "url": "https://freelanceaiconsultant.com/ai-beleid",
+            "areaServed": "NL",
+            "provider": {
+              "@type": "Person",
+              "name": "Dave Willemstein",
+              "jobTitle": "Onafhankelijk AI-adviseur",
+              "url": "https://freelanceaiconsultant.com/over",
+              "sameAs": [
+                "https://www.linkedin.com/in/davewillemstein"
+              ]
+            }
+          },
+          {
+            "@type": "FAQPage",
+            "mainEntity": [
+              {
+                "@type": "Question",
+                "name": "Is een AI beleid wettelijk verplicht?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "De AI Act schrijft geen document met de naam AI beleid voor. Wel moeten organisaties die AI-systemen gebruiken of aanbieden maatregelen nemen voor AI-geletterdheid, en afhankelijk van de toepassing gelden er transparantie- of hoog-risicoverplichtingen. Daarnaast geldt de AVG zodra er persoonsgegevens in het spel zijn. Een AI beleid is in de praktijk de eenvoudigste manier om die verplichtingen aantoonbaar te organiseren."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Hoe lang moet een AI beleid zijn?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Voor de meeste organisaties volstaat een eerste versie van één tot drie pagina's: gebruiksafspraken voor medewerkers, een lijst met toegestane tools, regels voor data en een aanspreekpunt. Uitgebreidere procedures voeg je pas toe als je toepassingen met een hoger risico gaat inzetten."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Wie moet het AI beleid vaststellen?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "De directie stelt het vast, omdat het beleid keuzes bevat over risico's die de hele organisatie raken. Het opstellen gebeurt meestal door een kleine groep met iemand uit de business, iemand van IT of informatiebeveiliging en de privacy- of compliance-functie. Heb je een ondernemingsraad, betrek die dan tijdig, zeker als het beleid gaat over het monitoren of beoordelen van medewerkers."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Hoe vaak moet je een AI beleid bijwerken?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Plan minimaal een jaarlijkse herziening en werk het tussendoor bij als er een nieuwe tool, een nieuw type toepassing of een wijziging in de regelgeving bijkomt. De AI Act zelf is in 2026 al aangepast, dus een beleid dat alleen bij de start is geschreven, veroudert snel."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Kun je een AI beleid voor ons schrijven?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Ik begeleid het opstellen en toets het tegen jullie praktijk, maar het beleid moet van jullie zijn: afspraken die medewerkers niet herkennen, worden niet nageleefd. Voor de juridische toets van specifieke toepassingen onder de AI Act of de AVG adviseer ik om daarnaast een jurist of je functionaris gegevensbescherming te betrekken."
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "afbeeldingen": [
+    {
+      "regio": "header",
+      "src": "/images/freelance-ai-consultant-logo-header.png",
+      "alt": "freelanceaiconsultant.com logo",
+      "width": "600",
+      "height": "287",
+      "loading": null
+    },
+    {
+      "regio": "main",
+      "src": "/images/dave-portrait.jpg",
+      "alt": "Portret van Dave Willemstein",
+      "width": "88",
+      "height": "88",
+      "loading": "lazy"
+    },
+    {
+      "regio": "footer",
+      "src": "/images/freelance-ai-consultant-icon-footer.png",
+      "alt": "",
+      "width": "192",
+      "height": "192",
+      "loading": "lazy"
+    }
+  ],
+  "laadprestaties": {
+    "scripts": [
+      {
+        "src": "/logo-carousel/logo-carousel.js?v=2",
+        "type": null,
+        "inline_bytes": 0
+      }
+    ],
+    "stylesheets": [
+      "https://fonts.googleapis.com/css2?family=Caveat:wght@600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap",
+      "/_astro/_slug_.bq6BBoZ5.css",
+      "/_astro/_slug_.goiX3PVF.css",
+      "/logo-carousel/logo-carousel.css?v=2"
+    ],
+    "aantal_details": 5,
+    "aantal_tabellen": 0
+  }
+}

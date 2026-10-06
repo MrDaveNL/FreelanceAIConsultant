@@ -1,0 +1,500 @@
+{
+  "url": "/cases/interne-ai-assistent-kenniswerkers",
+  "build_bestand": "dist/cases/interne-ai-assistent-kenniswerkers/index.html",
+  "bron": [
+    "src/pages/cases/[slug].astro",
+    "src/data/cases.js"
+  ],
+  "gemeten_op": "2026-10-06",
+  "html": {
+    "bytes": 29152,
+    "sha256": "8c877dd358a62c8b4ea53bf8ec246d93dc392e5b8ce2868668ef74a3290e4321",
+    "lang": "nl"
+  },
+  "beschermd": {
+    "title": "Case: Interne AI-assistent voor kenniswerkers",
+    "meta_description": "De techniek stond in drie weken. De adoptie kostte vijf maanden. Dat is de verhouding waar bijna elke business case op stukloopt.",
+    "canonical": "https://freelanceaiconsultant.com/cases/interne-ai-assistent-kenniswerkers",
+    "robots_meta": null,
+    "hreflang": [],
+    "h1": [
+      "AI-assistent voor kenniswerkers"
+    ]
+  },
+  "social": {
+    "og:type": "website",
+    "og:locale": "nl_NL",
+    "og:site_name": "freelanceaiconsultant.com",
+    "og:title": "Case: Interne AI-assistent voor kenniswerkers",
+    "og:description": "De techniek stond in drie weken. De adoptie kostte vijf maanden. Dat is de verhouding waar bijna elke business case op stukloopt.",
+    "og:url": "https://freelanceaiconsultant.com/cases/interne-ai-assistent-kenniswerkers",
+    "og:image": "https://freelanceaiconsultant.com/images/dave-portrait.jpg",
+    "twitter:card": "summary_large_image",
+    "twitter:title": "Case: Interne AI-assistent voor kenniswerkers",
+    "twitter:description": "De techniek stond in drie weken. De adoptie kostte vijf maanden. Dat is de verhouding waar bijna elke business case op stukloopt.",
+    "twitter:image": "https://freelanceaiconsultant.com/images/dave-portrait.jpg"
+  },
+  "koppen": [
+    {
+      "niveau": 1,
+      "tekst": "AI-assistent voor kenniswerkers",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "AI-strategie & use-case portfolio voor investeringsmaatschappij",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "Laten we jouw case bespreken.",
+      "regio": "main",
+      "id": null
+    }
+  ],
+  "bodytekst": {
+    "regio": "main",
+    "woorden": 574,
+    "sha256": "8afca347ee89676186f901be739c79d82c54a1f6f8ccc0264990a3f6a06a3854",
+    "blokken": [
+      "← Terug naar cases",
+      "Proces & productivity",
+      "AI-assistentvoor kenniswerkers",
+      "De techniek stond in drie weken. De adoptie kostte vijf maanden. Dat is de verhouding waar bijna elke business case op stukloopt.",
+      "Sector: Proces & productivity Dienst: Fractional AI Lead Duur: 6 maanden Jaar: 2026",
+      "Bewijs in cijfers",
+      "✓3 uurper persoon per week teruggewonnen",
+      "✓68%wekelijks actieve gebruikers",
+      "✓4kernscenario’s in plaats van vrije chat",
+      "✓6maanden tot stabiele adoptie",
+      "✓2functies bewust niet gebouwd",
+      "AI in Europa",
+      "Europese merken die AI al in productie hebben.",
+      "Geen klanten van mij. Wel voorbeelden van wat er gebeurt als AI voorbij de pilot komt.",
+      "Pauzeer",
+      "Klarna",
+      "Zweden",
+      "AI-assistent in de klantenservice",
+      "Zalando",
+      "Duitsland",
+      "Mode-assistent voor productadvies",
+      "Financial services",
+      "Investeringsmaatschappij",
+      "AI-strategie en use-case portfolio",
+      "Booking.com",
+      "Nederland",
+      "AI Trip Planner voor reisplanning",
+      "Siemens",
+      "Duitsland",
+      "Industrial Copilot voor engineering",
+      "Retail",
+      "Enterprise retailer",
+      "AI-gedreven vendorselectie",
+      "Spotify",
+      "Zweden",
+      "AI DJ en gepersonaliseerde playlists",
+      "Mercedes-Benz",
+      "Duitsland",
+      "Generatieve spraakassistent in de auto",
+      "Industrial / B2B",
+      "Internationale maakorganisatie",
+      "AI-roadmap en leadership",
+      "ING",
+      "Nederland",
+      "Generatieve chatbot voor klantvragen",
+      "L'Oréal",
+      "Frankrijk",
+      "Beauty Genius: persoonlijk advies",
+      "Financial services",
+      "Financiële dienstverlener",
+      "KYC versneld met AI-documentanalyse",
+      "SAP",
+      "Duitsland",
+      "Joule: copilot in bedrijfssoftware",
+      "Carrefour",
+      "Frankrijk",
+      "Hopla: boodschappenassistent",
+      "Strategy & AI",
+      "SaaS scale-up",
+      "AI-readiness assessment",
+      "Adyen",
+      "Nederland",
+      "AI-optimalisatie van betalingen",
+      "Philips",
+      "Nederland",
+      "AI in medische beeldvorming",
+      "Proces & productivity",
+      "Zakelijke dienstverlener",
+      "Interne AI-assistent voor kenniswerkers",
+      "vertrouwen,ervaring, impact ↓",
+      "Independent No vendor bias Senior only20+ jaar ervaring",
+      "Focus op waarde",
+      "Geen hypewel impact",
+      "1",
+      "Situatie",
+      "Een zakelijke dienstverlener met zo’n vierhonderd kenniswerkers gaf iedereen toegang tot een AI-assistent. Na drie maanden gebruikte 11% het wekelijks. De licentiekosten liepen door, de beloofde productiviteitswinst was nergens terug te vinden in de cijfers.",
+      "2",
+      "Uitdaging",
+      "De tool werkte prima. Het probleem was dat “je kunt er alles mee” voor de meeste mensen betekent dat ze niet weten waarmee ze moeten beginnen. Een leeg invoerveld is geen werkproces. En de mensen die het wel gebruikten, deelden hun werkwijze niet, dus er ontstond geen olievlek.",
+      "3",
+      "Aanpak",
+      "We stapten af van “assistent voor alles”. In werksessies met vier teams identificeerden we de taken waar écht tijd in ging zitten: dossiers doorzoeken, verslagen opstellen, offertes herschrijven naar klantcontext en interne kennis terugvinden. Voor elk van die vier scenario’s bouwden we een kant-en-klaar startpunt, ingebed in de tool waar het werk al gebeurde.",
+      "4",
+      "Besluit",
+      "Twee gewenste functies zijn bewust niet gebouwd: automatische klantcorrespondentie en beoordelingsondersteuning bij personeelsdossiers. Het eerste vanwege reputatierisico, het tweede vanwege arbeidsrechtelijke gevoeligheid. Die keuze is vastgelegd inclusief de afweging, zodat hij niet elk kwartaal opnieuw ter discussie staat.",
+      "5",
+      "Resultaat",
+      "Wekelijks actief gebruik groeide van 11% naar 68%. Een tijdsmeting over twee representatieve teams liet gemiddeld drie uur per persoon per week aan teruggewonnen tijd zien, geconcentreerd bij de vier scenario’s. Die tijd is niet weggesaneerd maar herbesteed aan declarabel werk, wat de business case pas echt sluitend maakte.",
+      "“We dachten dat we een tool nodig hadden. We hadden vier goede werkafspraken nodig, en de tool erbij.”COO, zakelijke dienstverlening",
+      "Mijn rol",
+      "Analyse van daadwerkelijk tijdsbeslag per taak",
+      "Ontwerp van vier scenario’s in plaats van vrije chat",
+      "Adoptieprogramma met interne ambassadeurs",
+      "Risicoafweging en vastlegging van no-go-functies",
+      "Meetopzet voor teruggewonnen tijd",
+      "Ingezette dienst",
+      "Fractional AI Lead 2, 4 of 8 dagen / maand · €2.600 / €5.200 / €10.400 per maand Bekijk deze dienst →",
+      "Volgende case",
+      "AI-strategie & use-case portfolio voor investeringsmaatschappij",
+      "Geen duidelijke AI-prioriteiten en versnipperde ideeën zonder business impact.",
+      "Lees de case →",
+      "Klaar voor impact?",
+      "Laten we jouw case bespreken.",
+      "Vrijblijvend sparren over jouw uitdaging, de mogelijkheden en de beste volgende stap.",
+      "30 min., geen pitch deckPlan een gesprek →"
+    ]
+  },
+  "links": [
+    {
+      "regio": "overig",
+      "soort": "intern",
+      "href": "#main",
+      "anker": "Naar hoofdinhoud",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/",
+      "anker": "",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/diensten",
+      "anker": "Diensten",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/cases",
+      "anker": "Cases",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/werkwijze",
+      "anker": "Werkwijze",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/inzichten",
+      "anker": "Inzichten",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/over",
+      "anker": "Over mij",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/contact",
+      "anker": "Plan een gesprek →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/cases",
+      "anker": "← Terug naar cases",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/diensten/fractional-ai-lead",
+      "anker": "Ingezette dienst Fractional AI Lead 2, 4 of 8 dagen / maand · €2.600 / €5.200 / €10.400 per maand Bekijk deze dienst →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/cases/ai-strategie-investeringsmaatschappij",
+      "anker": "Lees de case →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/contact",
+      "anker": "Plan een gesprek →",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/diensten/ai-readiness-assessment",
+      "anker": "AI Readiness Assessment",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/diensten/ai-strategy-sprint",
+      "anker": "AI Strategy Sprint",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/diensten/fractional-ai-lead",
+      "anker": "Fractional AI Lead",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/diensten",
+      "anker": "Alle diensten",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/cases",
+      "anker": "Cases",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/werkwijze",
+      "anker": "Werkwijze",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/inzichten",
+      "anker": "Inzichten",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/veelgestelde-vragen",
+      "anker": "Veelgestelde vragen",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/over",
+      "anker": "Over mij",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-consultancy",
+      "anker": "AI consultancy",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-implementatie",
+      "anker": "AI implementatie",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-automatisering",
+      "anker": "AI automatisering",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-voor-bedrijven",
+      "anker": "AI voor bedrijven",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-development",
+      "anker": "AI development",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-agents",
+      "anker": "AI agents",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-beleid",
+      "anker": "AI beleid",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-workshop",
+      "anker": "AI workshop",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/markten",
+      "anker": "AI per branche",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/kennisbank",
+      "anker": "Kennisbank",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/tarieven",
+      "anker": "Tarieven",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/partnernetwerk",
+      "anker": "Partnernetwerk",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "overig",
+      "href": "mailto:dave@freelanceaiconsultant.com",
+      "anker": "dave@freelanceaiconsultant.com",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "extern",
+      "href": "https://www.linkedin.com/in/davewillemstein",
+      "anker": "LinkedIn ↗",
+      "rel": "noopener"
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/contact",
+      "anker": "Plan een gesprek",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/privacy",
+      "anker": "Privacyverklaring",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/algemene-voorwaarden",
+      "anker": "Algemene voorwaarden",
+      "rel": null
+    }
+  ],
+  "structured_data": {
+    "sha256": "928fd512ee27d963c00f815d4b868b1f17f81eef0ae1fdce24c451a78c71f3da",
+    "items": [
+      {
+        "@context": "https://schema.org",
+        "@type": "Article",
+        "headline": "Interne AI-assistent voor kenniswerkers",
+        "description": "De techniek stond in drie weken. De adoptie kostte vijf maanden. Dat is de verhouding waar bijna elke business case op stukloopt.",
+        "author": {
+          "@type": "Person",
+          "name": "Dave Willemstein",
+          "url": "https://freelanceaiconsultant.com"
+        },
+        "publisher": {
+          "@type": "Person",
+          "name": "Dave Willemstein"
+        },
+        "about": "Proces & productivity"
+      }
+    ]
+  },
+  "afbeeldingen": [
+    {
+      "regio": "header",
+      "src": "/images/freelance-ai-consultant-logo-header.png",
+      "alt": "freelanceaiconsultant.com logo",
+      "width": "600",
+      "height": "287",
+      "loading": null
+    },
+    {
+      "regio": "main",
+      "src": "/images/dave-portrait.jpg",
+      "alt": "Dave Willemstein, Independent AI Advisor",
+      "width": "500",
+      "height": "620",
+      "loading": "lazy"
+    },
+    {
+      "regio": "footer",
+      "src": "/images/freelance-ai-consultant-icon-footer.png",
+      "alt": "",
+      "width": "192",
+      "height": "192",
+      "loading": "lazy"
+    }
+  ],
+  "laadprestaties": {
+    "scripts": [
+      {
+        "src": "/logo-carousel/logo-carousel.js?v=2",
+        "type": null,
+        "inline_bytes": 0
+      }
+    ],
+    "stylesheets": [
+      "https://fonts.googleapis.com/css2?family=Caveat:wght@600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap",
+      "/_astro/_slug_.bq6BBoZ5.css",
+      "/logo-carousel/logo-carousel.css?v=2"
+    ],
+    "aantal_details": 0,
+    "aantal_tabellen": 0
+  }
+}

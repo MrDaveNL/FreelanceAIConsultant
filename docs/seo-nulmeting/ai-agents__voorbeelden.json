@@ -1,0 +1,837 @@
+{
+  "url": "/ai-agents/voorbeelden",
+  "build_bestand": "dist/ai-agents/voorbeelden/index.html",
+  "bron": [
+    "src/content/pages/ai-agents/voorbeelden/index.md",
+    "src/pages/[...slug].astro"
+  ],
+  "gemeten_op": "2026-10-06",
+  "html": {
+    "bytes": 35737,
+    "sha256": "cf56f0136ffe7af12093333a9ad96616fe2d12fc98fb343167a71e890a9f2592",
+    "lang": "nl"
+  },
+  "beschermd": {
+    "title": "AI agents voorbeelden | 12 toepassingen voor bedrijven",
+    "meta_description": "Twaalf voorbeelden van AI agents voor bedrijven, van klantenservice en sales tot HR en finance. Per voorbeeld de werking, benodigde tools en verwachte impact.",
+    "canonical": "https://freelanceaiconsultant.com/ai-agents/voorbeelden",
+    "robots_meta": null,
+    "hreflang": [],
+    "h1": [
+      "AI agents voorbeelden: 12 toepassingen voor bedrijven"
+    ]
+  },
+  "social": {
+    "og:type": "website",
+    "og:locale": "nl_NL",
+    "og:site_name": "freelanceaiconsultant.com",
+    "og:title": "AI agents voorbeelden | 12 toepassingen voor bedrijven",
+    "og:description": "Twaalf voorbeelden van AI agents voor bedrijven, van klantenservice en sales tot HR en finance. Per voorbeeld de werking, benodigde tools en verwachte impact.",
+    "og:url": "https://freelanceaiconsultant.com/ai-agents/voorbeelden",
+    "og:image": "https://freelanceaiconsultant.com/images/dave-portrait.jpg",
+    "twitter:card": "summary_large_image",
+    "twitter:title": "AI agents voorbeelden | 12 toepassingen voor bedrijven",
+    "twitter:description": "Twaalf voorbeelden van AI agents voor bedrijven, van klantenservice en sales tot HR en finance. Per voorbeeld de werking, benodigde tools en verwachte impact.",
+    "twitter:image": "https://freelanceaiconsultant.com/images/dave-portrait.jpg"
+  },
+  "koppen": [
+    {
+      "niveau": 1,
+      "tekst": "AI agents voorbeelden: 12 toepassingen voor bedrijven",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "AI agents in klantenservice",
+      "regio": "main",
+      "id": "ai-agents-in-klantenservice"
+    },
+    {
+      "niveau": 2,
+      "tekst": "AI agents in sales",
+      "regio": "main",
+      "id": "ai-agents-in-sales"
+    },
+    {
+      "niveau": 2,
+      "tekst": "AI agents in HR",
+      "regio": "main",
+      "id": "ai-agents-in-hr"
+    },
+    {
+      "niveau": 2,
+      "tekst": "AI agents in finance",
+      "regio": "main",
+      "id": "ai-agents-in-finance"
+    },
+    {
+      "niveau": 2,
+      "tekst": "Beste AI agent-platforms",
+      "regio": "main",
+      "id": "beste-ai-agent-platforms"
+    },
+    {
+      "niveau": 2,
+      "tekst": "Bronnen",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "Van AI-ambitie naar concrete resultaten.",
+      "regio": "main",
+      "id": null
+    }
+  ],
+  "bodytekst": {
+    "regio": "main",
+    "woorden": 1913,
+    "sha256": "8c2c0f33c6189a03d066997ffb76bd2687c008707ea8bc5ef485ce3c9ade380b",
+    "blokken": [
+      "Home",
+      "AI Agents",
+      "AI agents voorbeelden",
+      "Voorbeelden",
+      "AI agents voorbeelden: 12 toepassingen voor bedrijven",
+      "Zoek je AI agents voorbeelden die verder gaan dan de demo? Hieronder staan twaalf toepassingen voor klantenservice, sales, HR en finance. Per voorbeeld lees je hoe de agent werkt, welke koppelingen hij nodig heeft en waar de winst zit, plus op welk moment een mens moet meekijken.",
+      "Lees meer over AI agents voor bedrijven → Bekijk de AI Readiness Assessment →",
+      "Geschreven door Dave Willemstein, onafhankelijk AI consultant · gepubliceerd 23 september 2026",
+      "IN HET KORT",
+      "Twaalf generieke voorbeelden, geordend per afdeling, met koppelingen en controlepunten.",
+      "De meeste waarde zit in voorbereidend werk dat een mens daarna beoordeelt.",
+      "Platforms veranderen snel; het overzicht is de stand van september 2026.",
+      "AI in Europa",
+      "Europese merken die AI al in productie hebben.",
+      "Geen klanten van mij. Wel voorbeelden van wat er gebeurt als AI voorbij de pilot komt.",
+      "Pauzeer",
+      "Klarna",
+      "Zweden",
+      "AI-assistent in de klantenservice",
+      "Zalando",
+      "Duitsland",
+      "Mode-assistent voor productadvies",
+      "Financial services",
+      "Investeringsmaatschappij",
+      "AI-strategie en use-case portfolio",
+      "Booking.com",
+      "Nederland",
+      "AI Trip Planner voor reisplanning",
+      "Siemens",
+      "Duitsland",
+      "Industrial Copilot voor engineering",
+      "Retail",
+      "Enterprise retailer",
+      "AI-gedreven vendorselectie",
+      "Spotify",
+      "Zweden",
+      "AI DJ en gepersonaliseerde playlists",
+      "Mercedes-Benz",
+      "Duitsland",
+      "Generatieve spraakassistent in de auto",
+      "Industrial / B2B",
+      "Internationale maakorganisatie",
+      "AI-roadmap en leadership",
+      "ING",
+      "Nederland",
+      "Generatieve chatbot voor klantvragen",
+      "L'Oréal",
+      "Frankrijk",
+      "Beauty Genius: persoonlijk advies",
+      "Financial services",
+      "Financiële dienstverlener",
+      "KYC versneld met AI-documentanalyse",
+      "SAP",
+      "Duitsland",
+      "Joule: copilot in bedrijfssoftware",
+      "Carrefour",
+      "Frankrijk",
+      "Hopla: boodschappenassistent",
+      "Strategy & AI",
+      "SaaS scale-up",
+      "AI-readiness assessment",
+      "Adyen",
+      "Nederland",
+      "AI-optimalisatie van betalingen",
+      "Philips",
+      "Nederland",
+      "AI in medische beeldvorming",
+      "Proces & productivity",
+      "Zakelijke dienstverlener",
+      "Interne AI-assistent voor kenniswerkers",
+      "AI agents in klantenservice",
+      "Voordat de voorbeelden per afdeling volgen, eerst twee opmerkingen. Deze voorbeelden zijn bewust generiek beschreven. Ze laten zien hoe een agent in een proces past, niet wat hij bij een bepaald bedrijf heeft opgeleverd. Wat een agent in jouw situatie oplevert, hangt af van je volumes, je bronnen en hoeveel controle het proces vraagt. Wie eerst wil weten wat een agent precies is, leest de uitleg over hoe een AI agent werkt.",
+      "Bij elk voorbeeld geldt dezelfde vuistregel: begin met een agent die voorbereidt of voorstelt, en geef pas meer zelfstandigheid als je weet welke fouten hij maakt. Waarom dat zo is, staat in mijn artikel over de grenzen van AI agents.",
+      "Intern en omkeerbaarKennisvragen, concepten, classificeren. Hier kan de agent het snelst zelfstandig werken.",
+      "Extern en omkeerbaarAfspraken inplannen, statusupdates. Zelfstandig met steekproef achteraf.",
+      "Intern en onomkeerbaarBoekingen, stamdata wijzigen. Voorstel door de agent, bevestiging door een mens.",
+      "Extern en onomkeerbaarBetalingen, afwijzingen, besluiten over mensen. Agent bereidt voor, mens beslist.",
+      "Waar een voorbeeld in deze matrix valt, bepaalt meer dan de techniek hoeveel autonomie de agent kan krijgen.",
+      "In klantenservice worden agents vaak als eerste overwogen, omdat er veel herhaling is en de informatie verspreid staat over meerdere systemen.",
+      "1. Mail- en ticketvoorbereiding. De agent leest een binnenkomende vraag, herkent het onderwerp, zoekt klant- en ordergegevens op en stelt een conceptantwoord op. Een medewerker controleert en verstuurt.",
+      "Koppelingen: mailbox of ticketsysteem, CRM, orderadministratie.",
+      "Waar de winst zit: minder zoekwerk per vraag, consistentere antwoorden.",
+      "Menselijke controle: elke uitgaande mail, tot blijkt welke categorieën consequent goed gaan.",
+      "2. Doorverwijzen en prioriteren. De agent beoordeelt binnenkomende meldingen op urgentie en onderwerp en zet ze bij het juiste team, met een korte samenvatting.",
+      "Koppelingen: ticketsysteem, teamindeling.",
+      "Waar de winst zit: snellere eerste reactie op urgente zaken, minder handmatig sorteren.",
+      "Menselijke controle: een dagelijkse steekproef op verkeerd ingedeelde meldingen.",
+      "3. Selfservice met echte handelingen. Een klant vraagt via chat om een adreswijziging of de status van een retour, en de agent voert dat uit binnen vooraf bepaalde grenzen.",
+      "Koppelingen: klantportaal, CRM, logistiek systeem.",
+      "Waar de winst zit: eenvoudige verzoeken buiten kantoortijd afgehandeld.",
+      "Menselijke controle: vaste grenzen per handeling en een steekproef achteraf; alles daarbuiten gaat naar een medewerker.",
+      "Let op: de Autoriteit Persoonsgegevens en de ACM vragen organisaties om duidelijk te maken dat klanten met een chatbot praten en een route naar een medewerker open te houden (oproep van oktober 2025). Meer daarover in het artikel over AI agents en de AVG.",
+      "AI agents in sales",
+      "In sales zit veel tijd in voorbereiding en administratie rond het eigenlijke gesprek. Daar kan een agent helpen, zolang het contact met de klant bij de verkoper blijft.",
+      "4. Leadonderzoek. De agent verzamelt openbare informatie over een prospect en combineert die met eerdere contactmomenten uit het CRM tot een korte gespreksvoorbereiding.",
+      "Koppelingen: CRM, zoekfunctie op internet.",
+      "Waar de winst zit: betere voorbereiding in minder tijd.",
+      "Menselijke controle: de verkoper beoordeelt de voorbereiding; de agent neemt zelf geen contact op.",
+      "5. Verslag en vervolgactie. Na een gesprek zet de agent de notities om in een verslag, werkt de verkoopkans bij en stelt een vervolgmail op. De verkoper keurt goed.",
+      "Koppelingen: agenda, notitie- of transcriptietool, CRM, mail.",
+      "Waar de winst zit: minder administratie na elk gesprek, een actueler CRM.",
+      "Menselijke controle: goedkeuring van het verslag en de mail voordat er iets wordt opgeslagen of verstuurd.",
+      "6. Offertevoorbereiding. De agent haalt de juiste producten, prijsafspraken en standaardteksten op en zet een conceptofferte klaar.",
+      "Koppelingen: productcatalogus, prijslijsten, CRM, documentsjablonen.",
+      "Waar de winst zit: snellere doorlooptijd van aanvraag naar offerte.",
+      "Menselijke controle: de verkoper controleert prijzen en voorwaarden.",
+      "Een agent die zelfstandig offertes verstuurt, raakt direct je marge en reputatie; hier hoort altijd een bevestigingsstap bij.",
+      "AI agents in HR",
+      "HR combineert veel terugkerende vragen met gevoelige gegevens en besluiten over mensen. Dat maakt het een terrein waar je de grens tussen ondersteunen en beslissen extra scherp moet trekken.",
+      "7. Vragen van medewerkers. De agent beantwoordt vragen over verlof, declaraties en regelingen op basis van het personeelshandboek en verwijst naar de bron.",
+      "Koppelingen: intranet, HR-beleidsdocumenten.",
+      "Waar de winst zit: minder terugkerende vragen bij HR.",
+      "Menselijke controle: periodieke controle of de bronnen actueel zijn; persoonlijke situaties gaan naar een HR-medewerker.",
+      "8. Onboarding. De agent zet voor een nieuwe medewerker de standaardtaken klaar: accounts aanvragen, introductieafspraken plannen, documenten verzamelen.",
+      "Koppelingen: HR-systeem, IT-servicedesk, agenda.",
+      "Waar de winst zit: minder vergeten stappen, een voorspelbare eerste week.",
+      "Menselijke controle: HR bevestigt de aanvragen voordat accounts worden aangemaakt.",
+      "9. Vacatureteksten en planning. De agent stelt conceptvacatures op en plant gesprekken in overleg met de agenda’s van het team.",
+      "Koppelingen: wervingssysteem, agenda.",
+      "Waar de winst zit: minder coördinatiewerk.",
+      "Menselijke controle: de recruiter keurt teksten en uitnodigingen goed.",
+      "Een grens: AI-systemen die sollicitaties filteren of kandidaten beoordelen, vallen volgens bijlage III van de AI-verordening onder hoog risico. Houd de agent hier bij ondersteunend werk en laat de beoordeling bij mensen.",
+      "AI agents in finance",
+      "In finance draait veel om controleren, aansluiten en opvolgen. Agents kunnen dat voorbereidende werk goed doen, maar een fout in een boeking werkt door in rapportages en aangiftes. Daarom blijft de mens hier de laatste stap zetten.",
+      "10. Factuurcontrole. De agent vergelijkt binnenkomende facturen met inkooporders en ontvangstbevestigingen en markeert afwijkingen voor de crediteurenadministratie.",
+      "Koppelingen: boekhoudpakket of ERP, inkoopsysteem.",
+      "Waar de winst zit: aandacht gaat naar de afwijkingen, niet naar de routine.",
+      "Menselijke controle: afwijkingen en betaalbeslissingen blijven bij de crediteurenadministratie.",
+      "11. Voorbereiding van de maandafsluiting. De agent verzamelt openstaande posten, stelt conceptboekingen voor en maakt een lijst van ontbrekende stukken.",
+      "Koppelingen: ERP, bank, rapportagetool.",
+      "Waar de winst zit: een snellere en beter voorbereide afsluiting.",
+      "Menselijke controle: elke boeking wordt door een medewerker bevestigd.",
+      "Boekingen horen bij de categorie waar een fout stilletjes kan doorwerken. De agent stelt voor, een mens boekt.",
+      "12. Debiteurenopvolging. De agent signaleert achterstallige facturen, zoekt de contactgeschiedenis op en stelt een passende herinnering op.",
+      "Koppelingen: boekhoudpakket, CRM, mail.",
+      "Waar de winst zit: tijdiger opvolging zonder dat iemand lijsten hoeft bij te houden.",
+      "Menselijke controle: herinneringen gaan pas de deur uit na goedkeuring, zeker bij klanten met een lopend gesprek.",
+      "Meer AI-toepassingen buiten agents, zoals analyse en documentverwerking, staan in de bredere verzameling AI-voorbeelden voor bedrijven.",
+      "Voorbeeldscenario",
+      "Een productiebedrijf met 180 medewerkers ontvangt zo'n 2.500 inkoopfacturen per maand. Twee medewerkers van de crediteurenadministratie leggen ze handmatig naast inkooporders en ontvangstbevestigingen, gemiddeld 4 minuten per factuur.",
+      "De adviseur stelt vanuit klantzijde de eisen op en toetst de voorstellen van twee leveranciers op dezelfde set van 300 facturen uit het vorige kwartaal. De agent vergelijkt bedragen, aantallen en ordernummers en markeert afwijkingen. Boeken, betalen en contact met leveranciers blijven bewust bij de administratie.",
+      "Na drie maanden gaat ongeveer 75 procent van de facturen zonder afwijking door naar goedkeuring. Die kosten nog een halve minuut controle. Dat scheelt zo'n 110 uur per maand, tijd die nu naar het uitzoeken van de afwijkingen gaat.",
+      "Fictief voorbeeld, samengesteld uit situaties die veel voorkomen. Organisatie en cijfers zijn illustratief.",
+      "Beste AI agent-platforms",
+      "Er bestaat geen beste platform in het algemeen; wel een platform dat past bij de software die je al gebruikt, je eisen aan controle en je eigen technische capaciteit. Ik ontvang van geen van deze leveranciers commissies of andere vergoedingen. Dit overzicht is de stand van september 2026, gebaseerd op de productinformatie van de leveranciers zelf. Functies en namen veranderen snel, dus controleer de actuele situatie voordat je kiest.",
+      "Platform",
+      "Wat het is",
+      "Past vooral bij",
+      "Microsoft Copilot Studio",
+      "Omgeving om agents te bouwen met natuurlijke taal of een grafische editor, te publiceren in onder meer Teams en SharePoint",
+      "Organisaties die op Microsoft 365 werken",
+      "Salesforce Agentforce",
+      "Agentplatform binnen Salesforce, voor onder meer service, sales en HR, op basis van CRM-gegevens",
+      "Organisaties met Salesforce als CRM",
+      "Google Gemini Enterprise Agent Platform",
+      "Ontwikkelplatform van Google Cloud (voorheen Vertex AI) om agents te bouwen, op te schalen en te beheren",
+      "Teams met ontwikkelcapaciteit op Google Cloud",
+      "n8n",
+      "Visuele workflowbouwer met agentfuncties en veel integraties, ook zelf te hosten",
+      "Organisaties die agents in bredere workflows willen inbouwen",
+      "OpenAI Agents SDK",
+      "Ontwikkelkit (Python of TypeScript) om agents in code te bouwen, die in je eigen applicatie draait",
+      "Ontwikkelteams die maatwerk bouwen",
+      "Bij het kiezen tussen platforms kijk ik naar vijf vragen:",
+      "Aansluiting: werkt het platform met de systemen waarin de agent moet lezen en schrijven, zonder zware maatwerkkoppelingen?",
+      "Controle: kun je per handeling instellen dat een mens moet bevestigen, en zijn alle stappen van de agent terug te zien?",
+      "Gegevens: waar worden gegevens verwerkt en opgeslagen, is er een verwerkersovereenkomst en wordt je invoer gebruikt om modellen te trainen?",
+      "Kosten: hoe wordt afgerekend, per gebruiker, per gesprek of per verwerkte hoeveelheid tekst, en wat betekent dat bij jouw volumes?",
+      "Exit: kun je instructies, gegevens en logging meenemen als je overstapt?",
+      "Een actueel voorbeeld van hoe snel dit verandert: volgens de documentatie van OpenAI wordt de visuele Agent Builder uitgefaseerd en stopt die op 30 november 2026 (stand september 2026). Wie daarop bouwde, moet migreren. Dat onderstreept waarom je bij elke platformkeuze ook moet vastleggen hoe je er weer vanaf komt.",
+      "Welke route past, platform of maatwerk, en hoe je een bouwpartij selecteert, lees je op de pagina over een AI agent laten maken. Voor toepassingen, kosten en implementatie op hoofdlijnen is er het overzicht van AI agents voor bedrijven. Wil je weten welk van deze voorbeelden bij jouw organisatie past? Plan een vrijblijvend gesprek.",
+      "Dave Willemstein Onafhankelijk AI-adviseur",
+      "Onafhankelijk: geen commissies, geen partnerdeals, geen marge op implementatiepartners.",
+      "Over mij Mijn partnernetwerk",
+      "Weten waar je staat met AI? Bekijk de AI Readiness Assessment →",
+      "Bronnen",
+      "Microsoft Copilot Studio (productpagina)",
+      "Salesforce Agentforce (productpagina)",
+      "Google Cloud: Gemini Enterprise Agent Platform (productpagina)",
+      "n8n: AI agents (productpagina)",
+      "OpenAI: Agents SDK-documentatie",
+      "OpenAI: Agent Builder-documentatie, inclusief uitfaseringsbericht",
+      "Autoriteit Persoonsgegevens en ACM: Oproep over AI-chatbots (2 oktober 2025)",
+      "Verordening (EU) 2024/1689 (AI-verordening), bijlage III, via EUR-Lex",
+      "Klaar voor impact?",
+      "Van AI-ambitie naar concrete resultaten.",
+      "Plan een vrijblijvend gesprek. Geen pitch. Wel scherpe vragen.",
+      "30 min., geen pitch deckPlan een gesprek →"
+    ]
+  },
+  "links": [
+    {
+      "regio": "overig",
+      "soort": "intern",
+      "href": "#main",
+      "anker": "Naar hoofdinhoud",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/",
+      "anker": "",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/diensten",
+      "anker": "Diensten",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/cases",
+      "anker": "Cases",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/werkwijze",
+      "anker": "Werkwijze",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/inzichten",
+      "anker": "Inzichten",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/over",
+      "anker": "Over mij",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/contact",
+      "anker": "Plan een gesprek →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/",
+      "anker": "Home",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/ai-agents",
+      "anker": "AI Agents",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/ai-agents",
+      "anker": "Lees meer over AI agents voor bedrijven →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/diensten/ai-readiness-assessment",
+      "anker": "Bekijk de AI Readiness Assessment →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/over",
+      "anker": "Dave Willemstein",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/ai-agents/wat-is-een-ai-agent",
+      "anker": "hoe een AI agent werkt",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/inzichten/ai-agents-wat-ze-wel-en-niet-kunnen",
+      "anker": "de grenzen van AI agents",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "extern",
+      "href": "https://www.autoriteitpersoonsgegevens.nl/documenten/oproep-acm-ap-over-ai-chatbots",
+      "anker": "oproep van oktober 2025",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/kennisbank/ai-agents-en-avg",
+      "anker": "AI agents en de AVG",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/kennisbank/ai-voorbeelden",
+      "anker": "AI-voorbeelden voor bedrijven",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "extern",
+      "href": "https://www.microsoft.com/en-us/microsoft-365-copilot/microsoft-copilot-studio",
+      "anker": "Microsoft Copilot Studio",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "extern",
+      "href": "https://www.salesforce.com/agentforce/",
+      "anker": "Salesforce Agentforce",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "extern",
+      "href": "https://cloud.google.com/products/gemini-enterprise-agent-platform",
+      "anker": "Google Gemini Enterprise Agent Platform",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "extern",
+      "href": "https://n8n.io/ai-agents/",
+      "anker": "n8n",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "extern",
+      "href": "https://developers.openai.com/api/docs/guides/agents/sdk",
+      "anker": "OpenAI Agents SDK",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "extern",
+      "href": "https://developers.openai.com/api/docs/guides/agent-builder",
+      "anker": "documentatie van OpenAI",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/ai-agents/laten-maken",
+      "anker": "een AI agent laten maken",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/ai-agents",
+      "anker": "AI agents voor bedrijven",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/contact",
+      "anker": "Plan een vrijblijvend gesprek",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/over",
+      "anker": "Over mij",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/partnernetwerk",
+      "anker": "Mijn partnernetwerk",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/diensten/ai-readiness-assessment",
+      "anker": "Weten waar je staat met AI? Bekijk de AI Readiness Assessment →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "extern",
+      "href": "https://www.microsoft.com/en-us/microsoft-365-copilot/microsoft-copilot-studio",
+      "anker": "Microsoft Copilot Studio (productpagina)",
+      "rel": "noopener"
+    },
+    {
+      "regio": "main",
+      "soort": "extern",
+      "href": "https://www.salesforce.com/agentforce/",
+      "anker": "Salesforce Agentforce (productpagina)",
+      "rel": "noopener"
+    },
+    {
+      "regio": "main",
+      "soort": "extern",
+      "href": "https://cloud.google.com/products/gemini-enterprise-agent-platform",
+      "anker": "Google Cloud: Gemini Enterprise Agent Platform (productpagina)",
+      "rel": "noopener"
+    },
+    {
+      "regio": "main",
+      "soort": "extern",
+      "href": "https://n8n.io/ai-agents/",
+      "anker": "n8n: AI agents (productpagina)",
+      "rel": "noopener"
+    },
+    {
+      "regio": "main",
+      "soort": "extern",
+      "href": "https://developers.openai.com/api/docs/guides/agents/sdk",
+      "anker": "OpenAI: Agents SDK-documentatie",
+      "rel": "noopener"
+    },
+    {
+      "regio": "main",
+      "soort": "extern",
+      "href": "https://developers.openai.com/api/docs/guides/agent-builder",
+      "anker": "OpenAI: Agent Builder-documentatie, inclusief uitfaseringsbericht",
+      "rel": "noopener"
+    },
+    {
+      "regio": "main",
+      "soort": "extern",
+      "href": "https://www.autoriteitpersoonsgegevens.nl/documenten/oproep-acm-ap-over-ai-chatbots",
+      "anker": "Autoriteit Persoonsgegevens en ACM: Oproep over AI-chatbots (2 oktober 2025)",
+      "rel": "noopener"
+    },
+    {
+      "regio": "main",
+      "soort": "extern",
+      "href": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj/nld",
+      "anker": "Verordening (EU) 2024/1689 (AI-verordening), bijlage III, via EUR-Lex",
+      "rel": "noopener"
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/contact",
+      "anker": "Plan een gesprek →",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/diensten/ai-readiness-assessment",
+      "anker": "AI Readiness Assessment",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/diensten/ai-strategy-sprint",
+      "anker": "AI Strategy Sprint",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/diensten/fractional-ai-lead",
+      "anker": "Fractional AI Lead",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/diensten",
+      "anker": "Alle diensten",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/cases",
+      "anker": "Cases",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/werkwijze",
+      "anker": "Werkwijze",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/inzichten",
+      "anker": "Inzichten",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/veelgestelde-vragen",
+      "anker": "Veelgestelde vragen",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/over",
+      "anker": "Over mij",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-consultancy",
+      "anker": "AI consultancy",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-implementatie",
+      "anker": "AI implementatie",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-automatisering",
+      "anker": "AI automatisering",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-voor-bedrijven",
+      "anker": "AI voor bedrijven",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-development",
+      "anker": "AI development",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-agents",
+      "anker": "AI agents",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-beleid",
+      "anker": "AI beleid",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-workshop",
+      "anker": "AI workshop",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/markten",
+      "anker": "AI per branche",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/kennisbank",
+      "anker": "Kennisbank",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/tarieven",
+      "anker": "Tarieven",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/partnernetwerk",
+      "anker": "Partnernetwerk",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "overig",
+      "href": "mailto:dave@freelanceaiconsultant.com",
+      "anker": "dave@freelanceaiconsultant.com",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "extern",
+      "href": "https://www.linkedin.com/in/davewillemstein",
+      "anker": "LinkedIn ↗",
+      "rel": "noopener"
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/contact",
+      "anker": "Plan een gesprek",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/privacy",
+      "anker": "Privacyverklaring",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/algemene-voorwaarden",
+      "anker": "Algemene voorwaarden",
+      "rel": null
+    }
+  ],
+  "structured_data": {
+    "sha256": "d19f75b0ce26f53effc2473ca319040619741ae28497850dda3ccef617145d78",
+    "items": [
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://freelanceaiconsultant.com/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "AI Agents",
+                "item": "https://freelanceaiconsultant.com/ai-agents"
+              },
+              {
+                "@type": "ListItem",
+                "position": 3,
+                "name": "AI agents voorbeelden",
+                "item": "https://freelanceaiconsultant.com/ai-agents/voorbeelden"
+              }
+            ]
+          },
+          {
+            "@type": "Article",
+            "headline": "AI agents voorbeelden: 12 toepassingen voor bedrijven",
+            "description": "Twaalf voorbeelden van AI agents voor bedrijven, van klantenservice en sales tot HR en finance. Per voorbeeld de werking, benodigde tools en verwachte impact.",
+            "inLanguage": "nl-NL",
+            "datePublished": "2026-09-23",
+            "dateModified": "2026-09-23",
+            "author": {
+              "@type": "Person",
+              "name": "Dave Willemstein",
+              "jobTitle": "Onafhankelijk AI-adviseur",
+              "url": "https://freelanceaiconsultant.com/over",
+              "sameAs": [
+                "https://www.linkedin.com/in/davewillemstein"
+              ]
+            },
+            "publisher": {
+              "@type": "Person",
+              "name": "Dave Willemstein"
+            },
+            "mainEntityOfPage": "https://freelanceaiconsultant.com/ai-agents/voorbeelden"
+          }
+        ]
+      }
+    ]
+  },
+  "afbeeldingen": [
+    {
+      "regio": "header",
+      "src": "/images/freelance-ai-consultant-logo-header.png",
+      "alt": "freelanceaiconsultant.com logo",
+      "width": "600",
+      "height": "287",
+      "loading": null
+    },
+    {
+      "regio": "main",
+      "src": "/images/dave-portrait.jpg",
+      "alt": "Portret van Dave Willemstein",
+      "width": "88",
+      "height": "88",
+      "loading": "lazy"
+    },
+    {
+      "regio": "footer",
+      "src": "/images/freelance-ai-consultant-icon-footer.png",
+      "alt": "",
+      "width": "192",
+      "height": "192",
+      "loading": "lazy"
+    }
+  ],
+  "laadprestaties": {
+    "scripts": [
+      {
+        "src": "/logo-carousel/logo-carousel.js?v=2",
+        "type": null,
+        "inline_bytes": 0
+      }
+    ],
+    "stylesheets": [
+      "https://fonts.googleapis.com/css2?family=Caveat:wght@600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap",
+      "/_astro/_slug_.bq6BBoZ5.css",
+      "/_astro/_slug_.goiX3PVF.css",
+      "/logo-carousel/logo-carousel.css?v=2"
+    ],
+    "aantal_details": 0,
+    "aantal_tabellen": 1
+  }
+}

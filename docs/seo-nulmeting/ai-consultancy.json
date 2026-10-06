@@ -1,0 +1,1027 @@
+{
+  "url": "/ai-consultancy",
+  "build_bestand": "dist/ai-consultancy/index.html",
+  "bron": [
+    "src/content/pages/ai-consultancy/index.md",
+    "src/pages/[...slug].astro"
+  ],
+  "gemeten_op": "2026-10-06",
+  "html": {
+    "bytes": 42038,
+    "sha256": "4d4045092071245d1615e38151d1ffcca5d1e7b5a97bc4480b296ee6fc50ca4c",
+    "lang": "nl"
+  },
+  "beschermd": {
+    "title": "AI Consultancy | Strategie, advies en roadmap op maat",
+    "meta_description": "AI consultancy voor bedrijven: van strategie en roadmap tot begeleiding bij implementatie. Onafhankelijk advies van een ervaren AI consultant. Plan een gesprek.",
+    "canonical": "https://freelanceaiconsultant.com/ai-consultancy",
+    "robots_meta": null,
+    "hreflang": [],
+    "h1": [
+      "AI consultancy: strategisch advies dat tot resultaat leidt"
+    ]
+  },
+  "social": {
+    "og:type": "website",
+    "og:locale": "nl_NL",
+    "og:site_name": "freelanceaiconsultant.com",
+    "og:title": "AI Consultancy | Strategie, advies en roadmap op maat",
+    "og:description": "AI consultancy voor bedrijven: van strategie en roadmap tot begeleiding bij implementatie. Onafhankelijk advies van een ervaren AI consultant. Plan een gesprek.",
+    "og:url": "https://freelanceaiconsultant.com/ai-consultancy",
+    "og:image": "https://freelanceaiconsultant.com/images/dave-portrait.jpg",
+    "twitter:card": "summary_large_image",
+    "twitter:title": "AI Consultancy | Strategie, advies en roadmap op maat",
+    "twitter:description": "AI consultancy voor bedrijven: van strategie en roadmap tot begeleiding bij implementatie. Onafhankelijk advies van een ervaren AI consultant. Plan een gesprek.",
+    "twitter:image": "https://freelanceaiconsultant.com/images/dave-portrait.jpg"
+  },
+  "koppen": [
+    {
+      "niveau": 1,
+      "tekst": "AI consultancy: strategisch advies dat tot resultaat leidt",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "Wat is AI consultancy?",
+      "regio": "main",
+      "id": "wat-is-ai-consultancy"
+    },
+    {
+      "niveau": 2,
+      "tekst": "Wanneer heb je AI consultancy nodig?",
+      "regio": "main",
+      "id": "wanneer-heb-je-ai-consultancy-nodig"
+    },
+    {
+      "niveau": 3,
+      "tekst": "Je wilt met AI starten maar mist richting",
+      "regio": "main",
+      "id": "je-wilt-met-ai-starten-maar-mist-richting"
+    },
+    {
+      "niveau": 3,
+      "tekst": "Pilots leveren niets op",
+      "regio": "main",
+      "id": "pilots-leveren-niets-op"
+    },
+    {
+      "niveau": 3,
+      "tekst": "Je moet voldoen aan de AI Act",
+      "regio": "main",
+      "id": "je-moet-voldoen-aan-de-ai-act"
+    },
+    {
+      "niveau": 2,
+      "tekst": "Mijn aanpak",
+      "regio": "main",
+      "id": "mijn-aanpak"
+    },
+    {
+      "niveau": 3,
+      "tekst": "AI Readiness Assessment",
+      "regio": "main",
+      "id": "ai-readiness-assessment"
+    },
+    {
+      "niveau": 3,
+      "tekst": "AI-strategie",
+      "regio": "main",
+      "id": "ai-strategie"
+    },
+    {
+      "niveau": 3,
+      "tekst": "AI roadmap",
+      "regio": "main",
+      "id": "ai-roadmap"
+    },
+    {
+      "niveau": 3,
+      "tekst": "Begeleiding bij implementatie",
+      "regio": "main",
+      "id": "begeleiding-bij-implementatie"
+    },
+    {
+      "niveau": 2,
+      "tekst": "Diensten binnen AI consultancy",
+      "regio": "main",
+      "id": "diensten-binnen-ai-consultancy"
+    },
+    {
+      "niveau": 3,
+      "tekst": "AI strategie",
+      "regio": "main",
+      "id": "ai-strategie-1"
+    },
+    {
+      "niveau": 3,
+      "tekst": "AI roadmap",
+      "regio": "main",
+      "id": "ai-roadmap-1"
+    },
+    {
+      "niveau": 3,
+      "tekst": "AI advies",
+      "regio": "main",
+      "id": "ai-advies"
+    },
+    {
+      "niveau": 3,
+      "tekst": "AI consultant inhuren",
+      "regio": "main",
+      "id": "ai-consultant-inhuren"
+    },
+    {
+      "niveau": 2,
+      "tekst": "AI consultancy voor grotere organisaties",
+      "regio": "main",
+      "id": "ai-consultancy-voor-grotere-organisaties"
+    },
+    {
+      "niveau": 3,
+      "tekst": "Versnipperde AI-initiatieven bundelen",
+      "regio": "main",
+      "id": "versnipperde-ai-initiatieven-bundelen"
+    },
+    {
+      "niveau": 3,
+      "tekst": "Samenwerken met IT en interne teams",
+      "regio": "main",
+      "id": "samenwerken-met-it-en-interne-teams"
+    },
+    {
+      "niveau": 3,
+      "tekst": "Governance en compliance",
+      "regio": "main",
+      "id": "governance-en-compliance"
+    },
+    {
+      "niveau": 2,
+      "tekst": "AI consultancy voor het MKB",
+      "regio": "main",
+      "id": "ai-consultancy-voor-het-mkb"
+    },
+    {
+      "niveau": 3,
+      "tekst": "Praktisch en binnen budget",
+      "regio": "main",
+      "id": "praktisch-en-binnen-budget"
+    },
+    {
+      "niveau": 3,
+      "tekst": "Snel eerste resultaat",
+      "regio": "main",
+      "id": "snel-eerste-resultaat"
+    },
+    {
+      "niveau": 2,
+      "tekst": "Data & AI consultancy",
+      "regio": "main",
+      "id": "data--ai-consultancy"
+    },
+    {
+      "niveau": 2,
+      "tekst": "Resultaten en cases",
+      "regio": "main",
+      "id": "resultaten-en-cases"
+    },
+    {
+      "niveau": 2,
+      "tekst": "Wat kost AI consultancy?",
+      "regio": "main",
+      "id": "wat-kost-ai-consultancy"
+    },
+    {
+      "niveau": 2,
+      "tekst": "Veelgestelde vragen over AI consultancy",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "Bronnen",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "Van AI-ambitie naar concrete resultaten.",
+      "regio": "main",
+      "id": null
+    }
+  ],
+  "bodytekst": {
+    "regio": "main",
+    "woorden": 2847,
+    "sha256": "a8a0b19d88cde72313d138ac708b281cd48b99efda93c1c3127b355b9de8ccb8",
+    "blokken": [
+      "Home",
+      "AI Consultancy",
+      "AI consultancy",
+      "AI consultancy: strategisch advies dat tot resultaat leidt",
+      "AI consultancy helpt je bepalen waar AI in jouw organisatie echt waarde toevoegt, wat daarvoor nodig is en in welke volgorde je het aanpakt. Ik adviseer onafhankelijk: van readiness en strategie tot roadmap en begeleiding bij de implementatie, zonder belang bij een leverancier of een grotere scope.",
+      "Plan een adviesgesprek → Bekijk de AI Readiness Assessment →",
+      "IN HET KORT",
+      "AI consultancy levert besluiten op: wat je wel doet, wat niet, en in welke volgorde.",
+      "Vier vaste stappen: diagnose, prioriteren, beslissen en ship & govern.",
+      "Ik bouw en verkoop geen software; ik begeleid de uitvoering vanuit jouw kant van de tafel.",
+      "AI in Europa",
+      "Europese merken die AI al in productie hebben.",
+      "Geen klanten van mij. Wel voorbeelden van wat er gebeurt als AI voorbij de pilot komt.",
+      "Pauzeer",
+      "Klarna",
+      "Zweden",
+      "AI-assistent in de klantenservice",
+      "Zalando",
+      "Duitsland",
+      "Mode-assistent voor productadvies",
+      "Financial services",
+      "Investeringsmaatschappij",
+      "AI-strategie en use-case portfolio",
+      "Booking.com",
+      "Nederland",
+      "AI Trip Planner voor reisplanning",
+      "Siemens",
+      "Duitsland",
+      "Industrial Copilot voor engineering",
+      "Retail",
+      "Enterprise retailer",
+      "AI-gedreven vendorselectie",
+      "Spotify",
+      "Zweden",
+      "AI DJ en gepersonaliseerde playlists",
+      "Mercedes-Benz",
+      "Duitsland",
+      "Generatieve spraakassistent in de auto",
+      "Industrial / B2B",
+      "Internationale maakorganisatie",
+      "AI-roadmap en leadership",
+      "ING",
+      "Nederland",
+      "Generatieve chatbot voor klantvragen",
+      "L'Oréal",
+      "Frankrijk",
+      "Beauty Genius: persoonlijk advies",
+      "Financial services",
+      "Financiële dienstverlener",
+      "KYC versneld met AI-documentanalyse",
+      "SAP",
+      "Duitsland",
+      "Joule: copilot in bedrijfssoftware",
+      "Carrefour",
+      "Frankrijk",
+      "Hopla: boodschappenassistent",
+      "Strategy & AI",
+      "SaaS scale-up",
+      "AI-readiness assessment",
+      "Adyen",
+      "Nederland",
+      "AI-optimalisatie van betalingen",
+      "Philips",
+      "Nederland",
+      "AI in medische beeldvorming",
+      "Proces & productivity",
+      "Zakelijke dienstverlener",
+      "Interne AI-assistent voor kenniswerkers",
+      "Wat is AI consultancy?",
+      "AI consultancy is advies over de vraag waar AI waarde toevoegt in je organisatie, wat daarvoor nodig is en in welke volgorde je het aanpakt. Het gaat minder over techniek dan de naam doet vermoeden. Het gaat vooral om keuzes: welke use cases eerst, zelf bouwen of kopen, welke leverancier, wie wordt eigenaar en hoe houd je het beheersbaar.",
+      "Onder de noemer AI consulting valt in de markt van alles, van strategisch advies tot bureaus die modellen bouwen en licenties doorverkopen. Ik zit bewust aan de advieskant. Ik help je beslissen en begeleid de uitvoering vanuit jouw kant van de tafel, maar ik bouw en verkoop zelf geen software, AI-agents of implementaties. Daardoor heb ik geen belang bij een grotere scope of bij een bepaalde leverancier. Wat dat werk van dag tot dag inhoudt, en hoe het verschilt van dat van een developer, lees je in wat een AI consultant eigenlijk doet.",
+      "Wat je aan het eind in handen hebt, zijn besluiten, onderbouwd met documenten die je zelf kunt hergebruiken: een readiness-beeld, een geprioriteerd portfolio van use cases, een roadmap, een selectieadvies of een governancekader. Een compleet overzicht van de trajecten vind je bij alle diensten.",
+      "Wanneer heb je AI consultancy nodig?",
+      "Niet altijd. Een kleine, omkeerbare keuze, zoals een tool voor één team die je per maand opzegt, kun je beter gewoon uitproberen. Externe hulp loont als een besluit duur is, lastig terug te draaien, of als er intern geen gedeeld beeld is. Drie situaties zijn herkenbaar.",
+      "Je wilt met AI starten maar mist richting",
+      "Er zijn ideeën genoeg, vaak ook medewerkers die al op eigen initiatief met AI-tools werken. Wat ontbreekt, is een gedeelde maatstaf om te bepalen wat eerst moet. Zonder die maatstaf wint het idee van degene die het hardst lobbyt, of van de leverancier met de beste demo. De eerste stap is dan een nuchter beeld van waar je staat, gevolgd door een korte lijst met prioriteiten waar de directie achter staat.",
+      "Pilots leveren niets op",
+      "De pilot werkte technisch, iedereen was tevreden, en een jaar later is er niets opgeschaald. Dat ligt zelden aan de techniek. De gebruikelijke oorzaken: de pilot beantwoordde de verkeerde vraag, draaide naast het echte werk, had geen eigenaar voor de fase erna en geen afspraak over beheer. Ik zette de vijf oorzaken met hun tegenmaatregelen op een rij in waarom AI-pilots blijven steken. In een consultancytraject maak ik die punten expliciet voordat er opnieuw budget naar een pilot gaat.",
+      "Je moet voldoen aan de AI Act",
+      "De Europese AI Act (AI-verordening) wordt in fases van toepassing. Volgens de Europese Commissie gelden de verboden AI-praktijken sinds 2 februari 2025, de regels voor AI-modellen voor algemene doeleinden sinds 2 augustus 2025 en de transparantieregels sinds 2 augustus 2026. Met de Digital Omnibus, die op 27 juli 2026 in werking trad, zijn de verplichtingen voor hoog-risicosystemen uitgesteld: naar 2 december 2027 voor toepassingen in onder meer werkgelegenheid, onderwijs, biometrie en kritieke infrastructuur, en naar 2 augustus 2028 voor AI die is ingebouwd in gereguleerde producten (stand september 2026).",
+      "Uitstel betekent niet dat je kunt wachten. Je moet weten welke AI-toepassingen je gebruikt of koopt en in welke risicocategorie ze vallen, en dat vraagt tijd. Daarom hoort bij het AI Readiness Assessment een risico- en compliance-scan en bij de AI Strategy Sprint een risicoclassificatie. Dat is een werkinstrument om het gesprek te structureren, geen juridisch oordeel; waar nodig betrek je je jurist of privacy officer. Wat de wet van je vraagt, staat uitgebreider in de AI Act voor organisaties.",
+      "Mijn aanpak",
+      "Elk traject volgt dezelfde vier stappen als in mijn werkwijze: diagnose, prioriteren, beslissen en ship & govern. De diensten zijn daar de concrete invulling van. Je hoeft niet bij stap één te beginnen als je daar al voorbij bent.",
+      "DiagnoseAI Readiness Assessment: waar sta je en wat moet eerst?",
+      "PrioriterenAI-strategie: welke use cases verdienen geld, tijd en aandacht?",
+      "BeslissenAI roadmap: build, buy of partner, en in welke volgorde",
+      "Ship & governBegeleiding bij implementatie: eigenaar, meetpunten en beheer",
+      "De vier stappen uit mijn werkwijze, gekoppeld aan de onderdelen van een AI consultancy-traject.",
+      "AI Readiness Assessment",
+      "De diagnose. Ik licht je organisatie door op vijf dimensies: strategie, data, technologie, mensen en governance. Dat doe ik met documentenanalyse, een datascan en interviews dwars door de organisatie, van business en IT tot risk en de werkvloer. Je krijgt een readiness-score per dimensie, een gap-analyse met de blokkades die er werkelijk toe doen, een gevalideerde longlist van use cases, een risico- en compliance-scan en een 90-dagenplan met eigenaren. Het AI Readiness Assessment duurt 2-3 weken en is voor de meeste organisaties het logische startpunt.",
+      "AI-strategie",
+      "Prioriteren en beslissen. Elke kandidaat-use case wordt op dezelfde manier beoordeeld: waarde, haalbaarheid, datagereedheid, veranderlast en de vraag of er een eigenaar in de lijn is die er beter van wordt. De lijst wordt korter, niet langer. Daarna volgt per thema een onderbouwde keuze tussen zelf bouwen, kopen of samenwerken met een partner, inclusief een orde van grootte van de kosten over drie jaar. In de AI Strategy Sprint doen we dit in vijf werksessies met een kerngroep van vier tot zes mensen, zodat de beslissers zelf aan tafel zitten.",
+      "AI roadmap",
+      "De roadmap legt vast wat er gebeurt en in welke volgorde: quick wins, middellange investeringen en bewuste no-go’s, elk met een eigenaar, afhankelijkheden en beslismomenten. Een goede roadmap is geen planning van twintig initiatieven, maar een korte lijst waar iemand zijn naam aan verbindt, met afgesproken momenten om bij te sturen of te stoppen.",
+      "Begeleiding bij implementatie",
+      "Ship & govern. Dit is de fase waarin de meeste trajecten stilvallen. Het bouwen doet je eigen team of een partner die je rechtstreeks contracteert. Ik zit aan jouw kant van de tafel: ik toets business cases voordat er getekend wordt, voer leveranciersgesprekken vanuit jouw belang, zet een meetopzet met nulmeting neer en richt het beheer en de governance in. Als je daar doorlopend iemand voor nodig hebt, doe ik dat als Fractional AI Lead, een paar vaste dagen per maand. Hoe een implementatie zelf verloopt, lees je bij AI implementatie.",
+      "Als er meer handen nodig zijn, stel ik partijen voor die ik ken. Hoe dat werkt en waarom ik geen marge op hun tarief reken, staat bij mijn partnernetwerk.",
+      "Diensten binnen AI consultancy",
+      "Onder AI consultancy vallen vier soorten vragen. Elk heeft een eigen pagina met meer uitleg.",
+      "AI strategie",
+      "Voor organisaties die van losse ideeën naar gerichte keuzes willen. Een strategie beschrijft je doelen, de randvoorwaarden op het gebied van data, mensen en governance, en de use cases die daar het meest aan bijdragen. Lees hoe je een AI strategie ontwikkelt die niet in een la verdwijnt.",
+      "AI roadmap",
+      "De vertaling van strategie naar planning en budget: welke stappen je zet, in welke volgorde en met welke deliverables. Op de pagina over een AI roadmap opstellen vind je de stappen en een template om zelf mee te beginnen.",
+      "AI advies",
+      "Niet elke vraag vraagt om een traject. Soms wil je een second opinion op een leveranciersvoorstel, een toets op een business case of een beoordeling van een AI-bedrijf dat je wilt overnemen. Voor dat laatste is er de AI Due Diligence. Welke vormen van onafhankelijk AI advies er verder zijn, lees je op de pagina over advies.",
+      "AI consultant inhuren",
+      "Overweeg je iemand in te schakelen, dan wil je weten waar je op let: senioriteit, onafhankelijkheid, wat je overhoudt als de adviseur weg is. Daarover gaat de pagina een AI consultant inhuren, met de vragen die ik zelf zou stellen.",
+      "AI consultancy voor grotere organisaties",
+      "In grotere organisaties is het probleem zelden een gebrek aan AI-initiatieven. Het is het gebrek aan samenhang ertussen.",
+      "Versnipperde AI-initiatieven bundelen",
+      "Elke afdeling of vestiging heeft iets opgezet, met een eigen leverancier en een eigen definitie van succes. Ik begin dan met een eerlijke inventarisatie: wat draait er echt, wat kost het en wie gebruikt het. Daarna komen alle initiatieven onder één besliskader en één set meetpunten. Sommige gaan door, sommige worden bewust gestopt. Dat laatste levert discussie op, maar maakt ook capaciteit vrij.",
+      "Samenwerken met IT en interne teams",
+      "Ik werk naast je IT-afdeling, datateam en architecten, niet eromheen. Zij kennen de systemen; ik breng de besliskaders, de vergelijking tussen opties en de vertaling naar de business. De vraag of je zelf bouwt, koopt of een partner inschakelt, beantwoord je samen, met de kosten en afhankelijkheden van de jaren erna erbij. Het beslisraamwerk daarvoor staat in build, buy of partner.",
+      "Governance en compliance",
+      "Governance moet het werk beter maken, niet trager. Ik richt het zo licht mogelijk in: een register van AI-toepassingen, een poort voordat iets in productie gaat, een periodieke toets en een escalatiepad. Hoe je dat doet zonder commissie die alles vertraagt, lees je in AI-governance zonder bureaucratie. Voor directie en raad van commissarissen die hun toezichtrol op AI willen invullen, is er de Executive Briefing: 1 dagdeel incl. voorbereiding, voorbereid op jouw sector.",
+      "AI consultancy voor het MKB",
+      "In het MKB zijn de vragen vaak dezelfde, maar de schaal is anders. Er is meestal geen AI-team, het budget is beperkt en de directeur beslist zelf. Dat maakt het in veel opzichten eenvoudiger.",
+      "Praktisch en binnen budget",
+      "Je hebt geen traject van maanden nodig. Een AI Readiness Assessment kan ook voor één afdeling of één procesdomein; dat is korter en de investering ligt lager. Een afgebakende vraag of een second opinion krijgt een vaste prijs per opdracht. En de uitkomst kan ook zijn dat je nu nog niets moet kopen. Meer over de keuzes die in kleinere bedrijven spelen, lees je bij AI voor het MKB.",
+      "Snel eerste resultaat",
+      "Snel resultaat komt meestal niet uit de spectaculairste toepassing, maar uit een saaie taak waar veel tijd in zit en waarvoor de data al in één systeem staat. Het 90-dagenplan uit het assessment benoemt wat je in de eerste drie maanden oppakt, met eigenaren en beslismomenten. Daar hoort idealiter een toepassing bij die direct kan starten, met een eigenaar en een meetpunt. Of dat resultaat ook blijft, hangt vooral af van hoe goed de toepassing aansluit op het dagelijkse werk. Waarom dat zo is, lees je in AI-adoptie begint bij het werk.",
+      "Data & AI consultancy",
+      "AI is zo goed als de data waarop het draait. Toch is “eerst de data op orde” net zo vaak een excuus als een noodzaak. Een compleet datalandschap wordt nooit af; de vraag die je wel kunt beantwoorden, is of de data goed genoeg is voor één concrete toepassing.",
+      "In data & AI consultancy kijk ik daarom per use case naar vier dingen: eenduidige definities, herkomst en traceerbaarheid, kwaliteit en volledigheid, en toegankelijkheid. Definities zijn meestal het grootste en meest onderschatte probleem; infrastructuur het minst urgente. Het fundament bouw je mee met de eerste toepassingen, niet ervoor. Die redenering werkte ik uit in het datafundament onder AI.",
+      "Machine learning consultants en data scientists richten zich op het bouwen en trainen van modellen. Mijn rol ligt een stap eerder en een stap erboven: bepalen welk model je nodig hebt, of je het zelf moet maken, en hoe je beheer en risico regelt.",
+      "Resultaten en cases",
+      "Wat AI consultancy oplevert, zie je het best aan concrete trajecten. Bij een investeringsmaatschappij ging het om het terugbrengen van losse ideeën tot één AI-strategie en use-case portfolio waar de board mee kon instemmen. Bij een internationale maakorganisatie om het samenbrengen van verspreide pilots in één roadmap onder een gedeelde governance. En bij een scale-up leidde een readiness-assessment tot het advies om een platformaankoop uit te stellen en eerst het fundament aan te pakken.",
+      "Voorbeeldscenario",
+      "Een zakelijke dienstverlener met 140 medewerkers heeft in anderhalf jaar zeven AI-initiatieven zien ontstaan, verdeeld over vier afdelingen en drie leveranciers. De directie wil weten wat echt iets oplevert voordat het budget voor volgend jaar vastligt.",
+      "In een AI Readiness Assessment brengt de adviseur met de afdelingshoofden in kaart wat er draait, wie het gebruikt en wat het kost. Van de 60 betaalde licenties blijken er 22 wekelijks in gebruik. Twee initiatieven hebben een eigenaar en een meetbaar effect: bij de binnendienst kost het samenvatten van klantdossiers vier medewerkers samen ongeveer vijf uur per week minder.",
+      "Die twee gaan door, met een nulmeting en een beslismoment na drie maanden. Drie initiatieven stoppen, twee worden geparkeerd tot er een eigenaar is. De directie kiest er bewust voor om dit jaar geen nieuw platform aan te schaffen.",
+      "Fictief voorbeeld, samengesteld uit situaties die veel voorkomen. Organisatie en cijfers zijn illustratief.",
+      "Alle trajecten staan op de overzichtspagina met cases. Wie ik ben en waar mijn ervaring vandaan komt, lees je op de pagina over mij.",
+      "Wat kost AI consultancy?",
+      "Ik werk met vaste pakketten en zichtbare vanaf-prijzen, niet met een open uurtarief. Zo weet je vooraf ongeveer of het in je budget past en gaat het gesprek over de uitkomst in plaats van over de urenstaat.",
+      "Traject",
+      "Doorlooptijd",
+      "Investering",
+      "Executive Briefing",
+      "1 dagdeel incl. voorbereiding",
+      "€2.800",
+      "AI Readiness Assessment",
+      "2-3 weken",
+      "€7.000",
+      "AI Strategy Sprint",
+      "4-6 weken",
+      "€15.400 - €22.400",
+      "Fractional AI Lead",
+      "2, 4 of 8 dagen / maand",
+      "€2.600 / €5.200 / €10.400 per maand",
+      "Afgebakend advies en second opinions",
+      "In overleg",
+      "Vaste prijs in het voorstel",
+      "Alle bedragen zijn exclusief btw en reiskosten. Binnen een pakket bewegen de kosten mee met de scope, het aantal betrokkenen en de tijdsinzet. Hoe dat werkt en wat er per pakket in zit, lees je op de pagina met tarieven en pakketten.",
+      "Wil je weten welke aanpak bij jouw situatie past? Plan een adviesgesprek van dertig minuten. Aan het eind hoor je wat ik zou doen, ook als dat betekent dat je mij niet nodig hebt.",
+      "Dave Willemstein Onafhankelijk AI-adviseur",
+      "Onafhankelijk: geen commissies, geen partnerdeals, geen marge op implementatiepartners.",
+      "Over mij Mijn partnernetwerk",
+      "Weten waar je staat met AI? Bekijk de AI Readiness Assessment →",
+      "Veelgestelde vragen over AI consultancy",
+      "Wat is het verschil tussen AI consultancy en een AI-implementatiepartij?+",
+      "Een implementatiepartij bouwt, integreert en beheert de oplossing en verdient aan de uitvoering. AI consultancy zoals ik die doe, gaat over de keuzes vooraf en de sturing tijdens de uitvoering: wat bouw je, wie bouwt het, hoe meet je of het werkt. Ik bouw zelf niets, zodat mijn advies niet afhangt van de omvang van de bouwopdracht.",
+      "Moet onze data eerst op orde zijn voordat we met AI consultancy beginnen?+",
+      "Nee. Een deel van het werk is juist vaststellen of je data goed genoeg is voor de use cases die je overweegt. Voor een eerste toepassing volstaat meestal een beperkte set bronnen met heldere definities; de rest groeit mee.",
+      "Hoe lang duurt een AI consultancy-traject?+",
+      "Dat hangt af van de vraag. Een AI Readiness Assessment duurt 2-3 weken, een AI Strategy Sprint 4-6 weken. Een Fractional AI Lead is een doorlopende rol van 2, 4 of 8 dagen / maand. Losse adviesvragen en second opinions krijgen een vaste prijs per opdracht.",
+      "Is AI consultancy ook zinvol als we al AI-tools gebruiken?+",
+      "Ja, vaak juist dan. Als medewerkers al met AI-tools werken, liggen de vragen over gebruik, data, risico en waarde er al. Consultancy helpt dan om losse initiatieven te bundelen, afspraken te maken en te bepalen welke toepassingen je verder uitbouwt en welke je stopt.",
+      "Kan AI consultancy ook in het Engels of in het buitenland?+",
+      "Ja. Ik werk in Nederland, België en Duitsland, en sessies en documenten kunnen in het Nederlands of het Engels. Voor trajecten met veel aanwezigheid op locatie houden we in de planning rekening met reistijd.",
+      "Bronnen",
+      "Europese Commissie: AI Act, regulatory framework en tijdlijn (stand september 2026)",
+      "Klaar voor impact?",
+      "Van AI-ambitie naar concrete resultaten.",
+      "Plan een vrijblijvend gesprek. Geen pitch. Wel scherpe vragen.",
+      "30 min., geen pitch deckPlan een gesprek →"
+    ]
+  },
+  "links": [
+    {
+      "regio": "overig",
+      "soort": "intern",
+      "href": "#main",
+      "anker": "Naar hoofdinhoud",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/",
+      "anker": "",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/diensten",
+      "anker": "Diensten",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/cases",
+      "anker": "Cases",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/werkwijze",
+      "anker": "Werkwijze",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/inzichten",
+      "anker": "Inzichten",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/over",
+      "anker": "Over mij",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/contact",
+      "anker": "Plan een gesprek →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/",
+      "anker": "Home",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/contact",
+      "anker": "Plan een adviesgesprek →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/diensten/ai-readiness-assessment",
+      "anker": "Bekijk de AI Readiness Assessment →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/kennisbank/wat-doet-een-ai-consultant",
+      "anker": "wat een AI consultant eigenlijk doet",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/diensten",
+      "anker": "alle diensten",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/inzichten/waarom-ai-pilots-blijven-steken",
+      "anker": "waarom AI-pilots blijven steken",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "extern",
+      "href": "https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai",
+      "anker": "Europese Commissie",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/ai-beleid/ai-act",
+      "anker": "de AI Act voor organisaties",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/werkwijze",
+      "anker": "werkwijze",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/diensten/ai-readiness-assessment",
+      "anker": "AI Readiness Assessment",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/diensten/ai-strategy-sprint",
+      "anker": "AI Strategy Sprint",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/diensten/fractional-ai-lead",
+      "anker": "Fractional AI Lead",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/ai-implementatie",
+      "anker": "AI implementatie",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/partnernetwerk",
+      "anker": "partnernetwerk",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/ai-consultancy/ai-strategie",
+      "anker": "een AI strategie ontwikkelt",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/ai-consultancy/ai-roadmap",
+      "anker": "een AI roadmap opstellen",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/diensten/ai-due-diligence",
+      "anker": "AI Due Diligence",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/ai-consultancy/ai-advies",
+      "anker": "onafhankelijk AI advies",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/ai-consultancy/ai-consultant-inhuren",
+      "anker": "een AI consultant inhuren",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/inzichten/build-buy-of-partner",
+      "anker": "build, buy of partner",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/inzichten/ai-governance-zonder-bureaucratie",
+      "anker": "AI-governance zonder bureaucratie",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/diensten/executive-briefing",
+      "anker": "Executive Briefing",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/ai-voor-bedrijven/mkb",
+      "anker": "AI voor het MKB",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/inzichten/ai-adoptie-begint-bij-het-werk",
+      "anker": "AI-adoptie begint bij het werk",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/inzichten/het-datafundament-onder-ai",
+      "anker": "het datafundament onder AI",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/cases/ai-strategie-investeringsmaatschappij",
+      "anker": "AI-strategie en use-case portfolio",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/cases/ai-roadmap-internationale-maakorganisatie",
+      "anker": "één roadmap onder een gedeelde governance",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/cases/ai-readiness-scale-up",
+      "anker": "readiness-assessment",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/cases",
+      "anker": "overzichtspagina met cases",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/over",
+      "anker": "over mij",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/tarieven",
+      "anker": "tarieven en pakketten",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/contact",
+      "anker": "Plan een adviesgesprek",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/over",
+      "anker": "Over mij",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/partnernetwerk",
+      "anker": "Mijn partnernetwerk",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/diensten/ai-readiness-assessment",
+      "anker": "Weten waar je staat met AI? Bekijk de AI Readiness Assessment →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "extern",
+      "href": "https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai",
+      "anker": "Europese Commissie: AI Act, regulatory framework en tijdlijn (stand september 2026)",
+      "rel": "noopener"
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/contact",
+      "anker": "Plan een gesprek →",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/diensten/ai-readiness-assessment",
+      "anker": "AI Readiness Assessment",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/diensten/ai-strategy-sprint",
+      "anker": "AI Strategy Sprint",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/diensten/fractional-ai-lead",
+      "anker": "Fractional AI Lead",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/diensten",
+      "anker": "Alle diensten",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/cases",
+      "anker": "Cases",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/werkwijze",
+      "anker": "Werkwijze",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/inzichten",
+      "anker": "Inzichten",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/veelgestelde-vragen",
+      "anker": "Veelgestelde vragen",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/over",
+      "anker": "Over mij",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-consultancy",
+      "anker": "AI consultancy",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-implementatie",
+      "anker": "AI implementatie",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-automatisering",
+      "anker": "AI automatisering",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-voor-bedrijven",
+      "anker": "AI voor bedrijven",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-development",
+      "anker": "AI development",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-agents",
+      "anker": "AI agents",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-beleid",
+      "anker": "AI beleid",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-workshop",
+      "anker": "AI workshop",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/markten",
+      "anker": "AI per branche",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/kennisbank",
+      "anker": "Kennisbank",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/tarieven",
+      "anker": "Tarieven",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/partnernetwerk",
+      "anker": "Partnernetwerk",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "overig",
+      "href": "mailto:dave@freelanceaiconsultant.com",
+      "anker": "dave@freelanceaiconsultant.com",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "extern",
+      "href": "https://www.linkedin.com/in/davewillemstein",
+      "anker": "LinkedIn ↗",
+      "rel": "noopener"
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/contact",
+      "anker": "Plan een gesprek",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/privacy",
+      "anker": "Privacyverklaring",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/algemene-voorwaarden",
+      "anker": "Algemene voorwaarden",
+      "rel": null
+    }
+  ],
+  "structured_data": {
+    "sha256": "7c891a197f68a17d79f60cc49d4ce0f3c5e4aaee1d3f5a3297f9daf995ea01a3",
+    "items": [
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://freelanceaiconsultant.com/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "AI Consultancy",
+                "item": "https://freelanceaiconsultant.com/ai-consultancy"
+              }
+            ]
+          },
+          {
+            "@type": "Service",
+            "name": "AI Consultancy",
+            "serviceType": "ai consultancy",
+            "description": "AI consultancy voor bedrijven: van strategie en roadmap tot begeleiding bij implementatie. Onafhankelijk advies van een ervaren AI consultant. Plan een gesprek.",
+            "url": "https://freelanceaiconsultant.com/ai-consultancy",
+            "areaServed": "NL",
+            "provider": {
+              "@type": "Person",
+              "name": "Dave Willemstein",
+              "jobTitle": "Onafhankelijk AI-adviseur",
+              "url": "https://freelanceaiconsultant.com/over",
+              "sameAs": [
+                "https://www.linkedin.com/in/davewillemstein"
+              ]
+            }
+          },
+          {
+            "@type": "FAQPage",
+            "mainEntity": [
+              {
+                "@type": "Question",
+                "name": "Wat is het verschil tussen AI consultancy en een AI-implementatiepartij?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Een implementatiepartij bouwt, integreert en beheert de oplossing en verdient aan de uitvoering. AI consultancy zoals ik die doe, gaat over de keuzes vooraf en de sturing tijdens de uitvoering: wat bouw je, wie bouwt het, hoe meet je of het werkt. Ik bouw zelf niets, zodat mijn advies niet afhangt van de omvang van de bouwopdracht."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Moet onze data eerst op orde zijn voordat we met AI consultancy beginnen?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Nee. Een deel van het werk is juist vaststellen of je data goed genoeg is voor de use cases die je overweegt. Voor een eerste toepassing volstaat meestal een beperkte set bronnen met heldere definities; de rest groeit mee."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Hoe lang duurt een AI consultancy-traject?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Dat hangt af van de vraag. Een AI Readiness Assessment duurt 2-3 weken, een AI Strategy Sprint 4-6 weken. Een Fractional AI Lead is een doorlopende rol van 2, 4 of 8 dagen / maand. Losse adviesvragen en second opinions krijgen een vaste prijs per opdracht."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Is AI consultancy ook zinvol als we al AI-tools gebruiken?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Ja, vaak juist dan. Als medewerkers al met AI-tools werken, liggen de vragen over gebruik, data, risico en waarde er al. Consultancy helpt dan om losse initiatieven te bundelen, afspraken te maken en te bepalen welke toepassingen je verder uitbouwt en welke je stopt."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Kan AI consultancy ook in het Engels of in het buitenland?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Ja. Ik werk in Nederland, België en Duitsland, en sessies en documenten kunnen in het Nederlands of het Engels. Voor trajecten met veel aanwezigheid op locatie houden we in de planning rekening met reistijd."
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "afbeeldingen": [
+    {
+      "regio": "header",
+      "src": "/images/freelance-ai-consultant-logo-header.png",
+      "alt": "freelanceaiconsultant.com logo",
+      "width": "600",
+      "height": "287",
+      "loading": null
+    },
+    {
+      "regio": "main",
+      "src": "/images/dave-portrait.jpg",
+      "alt": "Portret van Dave Willemstein",
+      "width": "88",
+      "height": "88",
+      "loading": "lazy"
+    },
+    {
+      "regio": "footer",
+      "src": "/images/freelance-ai-consultant-icon-footer.png",
+      "alt": "",
+      "width": "192",
+      "height": "192",
+      "loading": "lazy"
+    }
+  ],
+  "laadprestaties": {
+    "scripts": [
+      {
+        "src": "/logo-carousel/logo-carousel.js?v=2",
+        "type": null,
+        "inline_bytes": 0
+      }
+    ],
+    "stylesheets": [
+      "https://fonts.googleapis.com/css2?family=Caveat:wght@600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap",
+      "/_astro/_slug_.bq6BBoZ5.css",
+      "/_astro/_slug_.goiX3PVF.css",
+      "/logo-carousel/logo-carousel.css?v=2"
+    ],
+    "aantal_details": 5,
+    "aantal_tabellen": 1
+  }
+}

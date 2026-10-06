@@ -1,0 +1,906 @@
+{
+  "url": "/ai-voor-bedrijven/mkb",
+  "build_bestand": "dist/ai-voor-bedrijven/mkb/index.html",
+  "bron": [
+    "src/content/pages/ai-voor-bedrijven/mkb/index.md",
+    "src/pages/[...slug].astro"
+  ],
+  "gemeten_op": "2026-10-06",
+  "html": {
+    "bytes": 40284,
+    "sha256": "0b83d9b0dbb2f2b9eeb1064a8725d7593b9608417196c2594bf6c509e11a6d84",
+    "lang": "nl"
+  },
+  "beschermd": {
+    "title": "AI voor het MKB | Toepassingen, risico's en eerste stappen",
+    "meta_description": "AI voor het MKB: concrete toepassingen, risico's en eerste stappen voor ondernemers. Ontdek waar je snel winst haalt en hoe je zonder groot budget begint.",
+    "canonical": "https://freelanceaiconsultant.com/ai-voor-bedrijven/mkb",
+    "robots_meta": null,
+    "hreflang": [],
+    "h1": [
+      "AI voor het MKB: waar begin je en wat levert het op?"
+    ]
+  },
+  "social": {
+    "og:type": "website",
+    "og:locale": "nl_NL",
+    "og:site_name": "freelanceaiconsultant.com",
+    "og:title": "AI voor het MKB | Toepassingen, risico's en eerste stappen",
+    "og:description": "AI voor het MKB: concrete toepassingen, risico's en eerste stappen voor ondernemers. Ontdek waar je snel winst haalt en hoe je zonder groot budget begint.",
+    "og:url": "https://freelanceaiconsultant.com/ai-voor-bedrijven/mkb",
+    "og:image": "https://freelanceaiconsultant.com/images/dave-portrait.jpg",
+    "twitter:card": "summary_large_image",
+    "twitter:title": "AI voor het MKB | Toepassingen, risico's en eerste stappen",
+    "twitter:description": "AI voor het MKB: concrete toepassingen, risico's en eerste stappen voor ondernemers. Ontdek waar je snel winst haalt en hoe je zonder groot budget begint.",
+    "twitter:image": "https://freelanceaiconsultant.com/images/dave-portrait.jpg"
+  },
+  "koppen": [
+    {
+      "niveau": 1,
+      "tekst": "AI voor het MKB: waar begin je en wat levert het op?",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "Waarom AI nu relevant is voor het MKB",
+      "regio": "main",
+      "id": "waarom-ai-nu-relevant-is-voor-het-mkb"
+    },
+    {
+      "niveau": 2,
+      "tekst": "Voorbeelden van AI-toepassingen in het MKB",
+      "regio": "main",
+      "id": "voorbeelden-van-ai-toepassingen-in-het-mkb"
+    },
+    {
+      "niveau": 3,
+      "tekst": "Klantenservice",
+      "regio": "main",
+      "id": "klantenservice"
+    },
+    {
+      "niveau": 3,
+      "tekst": "Sales en offertes",
+      "regio": "main",
+      "id": "sales-en-offertes"
+    },
+    {
+      "niveau": 3,
+      "tekst": "Marketing",
+      "regio": "main",
+      "id": "marketing"
+    },
+    {
+      "niveau": 3,
+      "tekst": "Administratie",
+      "regio": "main",
+      "id": "administratie"
+    },
+    {
+      "niveau": 3,
+      "tekst": "Interne kennis",
+      "regio": "main",
+      "id": "interne-kennis"
+    },
+    {
+      "niveau": 2,
+      "tekst": "Risico’s en bedreigingen",
+      "regio": "main",
+      "id": "risicos-en-bedreigingen"
+    },
+    {
+      "niveau": 2,
+      "tekst": "Eerste stappen",
+      "regio": "main",
+      "id": "eerste-stappen"
+    },
+    {
+      "niveau": 2,
+      "tekst": "Hoe ik MKB-bedrijven help",
+      "regio": "main",
+      "id": "hoe-ik-mkb-bedrijven-help"
+    },
+    {
+      "niveau": 3,
+      "tekst": "AI consultancy",
+      "regio": "main",
+      "id": "ai-consultancy"
+    },
+    {
+      "niveau": 3,
+      "tekst": "AI implementatie",
+      "regio": "main",
+      "id": "ai-implementatie"
+    },
+    {
+      "niveau": 3,
+      "tekst": "AI automatisering",
+      "regio": "main",
+      "id": "ai-automatisering"
+    },
+    {
+      "niveau": 3,
+      "tekst": "AI agents",
+      "regio": "main",
+      "id": "ai-agents"
+    },
+    {
+      "niveau": 3,
+      "tekst": "AI-beleid",
+      "regio": "main",
+      "id": "ai-beleid"
+    },
+    {
+      "niveau": 3,
+      "tekst": "Workshops en training",
+      "regio": "main",
+      "id": "workshops-en-training"
+    },
+    {
+      "niveau": 2,
+      "tekst": "Veelgestelde vragen",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "Bronnen",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "Van AI-ambitie naar concrete resultaten.",
+      "regio": "main",
+      "id": null
+    }
+  ],
+  "bodytekst": {
+    "regio": "main",
+    "woorden": 2443,
+    "sha256": "c716dd1d5141822a5c00a2b26b28e36cc3e102d7fa4dd73f62a4a435d28ed783",
+    "blokken": [
+      "Home",
+      "AI voor bedrijven",
+      "AI voor MKB",
+      "AI voor het mkb",
+      "AI voor het MKB: waar begin je en wat levert het op?",
+      "AI voor het mkb draait niet om grote platforms of eigen modellen. Het gaat om de taken die in jouw bedrijf elke dag terugkomen: offertes, klantvragen, administratie en het terugvinden van informatie. Hier lees je waar ondernemers winst halen, welke risico's je moet kennen en hoe je begint zonder groot budget.",
+      "Lees meer over AI voor bedrijven → Bekijk de AI Readiness Assessment →",
+      "Geschreven door Dave Willemstein, onafhankelijk AI consultant · gepubliceerd 23 september 2026",
+      "IN HET KORT",
+      "Begin bij één taak die vaak voorkomt en veel tijd kost, met tools die je al hebt of eenvoudig aanschaft.",
+      "De belangrijkste risico's voor het mkb zijn klantgegevens in de verkeerde tool en afhankelijkheid van één enthousiaste medewerker.",
+      "Niet elk mkb-bedrijf heeft een adviestraject nodig; soms is een korte sessie of een dag advies genoeg.",
+      "AI in Europa",
+      "Europese merken die AI al in productie hebben.",
+      "Geen klanten van mij. Wel voorbeelden van wat er gebeurt als AI voorbij de pilot komt.",
+      "Pauzeer",
+      "Klarna",
+      "Zweden",
+      "AI-assistent in de klantenservice",
+      "Zalando",
+      "Duitsland",
+      "Mode-assistent voor productadvies",
+      "Financial services",
+      "Investeringsmaatschappij",
+      "AI-strategie en use-case portfolio",
+      "Booking.com",
+      "Nederland",
+      "AI Trip Planner voor reisplanning",
+      "Siemens",
+      "Duitsland",
+      "Industrial Copilot voor engineering",
+      "Retail",
+      "Enterprise retailer",
+      "AI-gedreven vendorselectie",
+      "Spotify",
+      "Zweden",
+      "AI DJ en gepersonaliseerde playlists",
+      "Mercedes-Benz",
+      "Duitsland",
+      "Generatieve spraakassistent in de auto",
+      "Industrial / B2B",
+      "Internationale maakorganisatie",
+      "AI-roadmap en leadership",
+      "ING",
+      "Nederland",
+      "Generatieve chatbot voor klantvragen",
+      "L'Oréal",
+      "Frankrijk",
+      "Beauty Genius: persoonlijk advies",
+      "Financial services",
+      "Financiële dienstverlener",
+      "KYC versneld met AI-documentanalyse",
+      "SAP",
+      "Duitsland",
+      "Joule: copilot in bedrijfssoftware",
+      "Carrefour",
+      "Frankrijk",
+      "Hopla: boodschappenassistent",
+      "Strategy & AI",
+      "SaaS scale-up",
+      "AI-readiness assessment",
+      "Adyen",
+      "Nederland",
+      "AI-optimalisatie van betalingen",
+      "Philips",
+      "Nederland",
+      "AI in medische beeldvorming",
+      "Proces & productivity",
+      "Zakelijke dienstverlener",
+      "Interne AI-assistent voor kenniswerkers",
+      "Waarom AI nu relevant is voor het MKB",
+      "AI voor het mkb is de afgelopen jaren van experiment naar gewoon gereedschap gegaan. Je hebt geen datateam of eigen model meer nodig om ermee te werken: een AI-assistent of de AI-functies in je boekhoud-, CRM- of kantoorsoftware zijn vaak al genoeg om de eerste tijdwinst te halen.",
+      "Tegelijk blijft het gebruik achter bij grotere bedrijven. Volgens het CBS gebruikte in 2025 29,8 procent van de bedrijven met 10 tot en met 249 werkzame personen AI-technologie, tegen 66,2 procent van het grootbedrijf. Bij microbedrijven met 2 tot 9 werkzame personen was dat 13,8 procent, al is dat aandeel sinds 2023 wel verdubbeld.",
+      "Waarom beginnen veel bedrijven niet? Bedrijven die AI overwogen maar niet invoerden, noemden vooral gebrek aan ervaring (73 procent), gevolgd door privacyzorgen en onduidelijkheid over de juridische gevolgen (CBS, december 2025). Dat zijn geen technische drempels. Het zijn vragen over waar je begint, wat mag en wie het regelt.",
+      "Het mkb heeft daarbij een voordeel dat grote organisaties missen: korte lijnen. De ondernemer die besluit, kent het werk vaak zelf. Er is geen stuurgroep nodig om één team een nieuwe werkwijze te laten proberen. Wie gericht begint, ziet sneller of iets werkt.",
+      "De keerzijde is ook echt. Minder volume betekent dat een toepassing zich minder snel terugverdient. En zonder IT-afdeling komt alles terecht bij een paar mensen die het naast hun werk doen. Daarom is kiezen hier belangrijker dan in een groot bedrijf. Het bredere verhaal over wat AI voor organisaties betekent, staat op de overzichtspagina AI voor bedrijven.",
+      "Voorbeelden van AI-toepassingen in het MKB",
+      "De toepassingen die in het mkb het best werken, hebben een paar dingen gemeen: de taak komt vaak voor, heeft steeds ongeveer dezelfde vorm, en er kijkt al iemand naar het resultaat voordat het de deur uitgaat. Een paar voorbeelden per gebied.",
+      "Klantenservice",
+      "Hoe gebruik je AI voor klantenservice in het mkb? Begin niet met een chatbot die zelfstandig klanten te woord staat. Begin achter de schermen:",
+      "binnenkomende e-mails automatisch sorteren op onderwerp en urgentie;",
+      "conceptantwoorden laten voorstellen op basis van eerdere antwoorden en je voorwaarden, die een medewerker controleert en verstuurt;",
+      "lange klantdossiers samenvatten voordat iemand terugbelt.",
+      "Zo houdt een mens de regie en leer je welke vragen zich lenen voor verdere automatisering. Pas als dat goed loopt, is een klantgerichte assistent voor eenvoudige vragen een logische volgende stap.",
+      "Sales en offertes",
+      "Offertes en voorstellen zijn in veel mkb-bedrijven handwerk dat telkens bijna hetzelfde is. AI kan een eerste versie opstellen op basis van eerdere offertes, de klantvraag en je prijslijst. Ook het samenvatten van een verkoopgesprek en het voorbereiden van een afspraak met informatie uit je CRM scheelt tijd. De prijs en de toezeggingen controleer je altijd zelf.",
+      "Marketing",
+      "Marketing is voor veel ondernemers de eerste kennismaking met AI: teksten voor de website, nieuwsbrieven en social media. Het levert vooral op bij varianten en herschrijven, zoals één artikel omzetten naar drie berichten, of een tekst aanpassen voor een andere doelgroep. Voor strategie en de eigen toon blijft je eigen oordeel nodig; zonder bijsturing gaat alles hetzelfde klinken.",
+      "Administratie",
+      "Facturen, bonnen en pakbonnen uitlezen, gegevens overnemen in je boekhouding, afwijkingen signaleren: dit is saai, frequent werk met een duidelijke controle, en daarmee een van de beste startpunten. Veel boekhoudpakketten hebben hier inmiddels eigen functies voor. Kijk daar eerst naar voordat je iets aparts aanschaft.",
+      "Interne kennis",
+      "In een klein bedrijf zit veel kennis in de hoofden van een paar mensen en in mappen die niemand meer doorzoekt. Een AI-assistent die antwoord geeft op basis van je eigen handleidingen, procedures en eerdere projecten helpt nieuwe medewerkers sneller op weg en maakt je minder afhankelijk van die ene collega die alles weet. Voorwaarde: de documenten moeten actueel zijn. Een assistent op verouderde procedures geeft verouderde antwoorden.",
+      "Voorbeeldscenario",
+      "Een webwinkel in tuinmeubelen met 14 medewerkers krijgt in het seizoen zo'n 600 klantmails per week. Twee medewerkers zijn daar met gemiddeld 4 minuten per mail samen ongeveer 40 uur per week mee bezig.",
+      "In één adviesdag kiest de eigenaar samen met de adviseur één taak: conceptantwoorden op basis van eerdere antwoorden en de leveringsvoorwaarden, met de AI-functie van het klantenservicepakket dat het bedrijf al gebruikt. Na een nulmeting testen beide medewerkers vier weken in het echte werk. Geen antwoord gaat zonder controle de deur uit.",
+      "De tijd per mail daalt naar gemiddeld 2,5 minuut: zo'n 15 uur per week in het seizoen. De extra kosten blijven beperkt tot een uitbreiding van het bestaande abonnement. Bewust niet gedaan: een chatbot op de website, omdat vragen over schade en levering altijd een mens nodig hebben.",
+      "Fictief voorbeeld, samengesteld uit situaties die veel voorkomen. Organisatie en cijfers zijn illustratief.",
+      "Risico’s en bedreigingen",
+      "AI brengt voor het mkb andere risico’s mee dan voor grote organisaties. Minder regels en minder specialisten betekent dat fouten langer onopgemerkt blijven. De belangrijkste bedreigingen:",
+      "Klantgegevens in de verkeerde tool. Een medewerker die een klantdossier in een gratis AI-tool plakt, deelt mogelijk persoonsgegevens met een partij waarmee je geen afspraken hebt. Dat is een AVG-risico en een vertrouwensrisico.",
+      "Afhankelijkheid van één persoon. Vaak is er één enthousiaste medewerker die alles heeft ingericht. Als die vertrekt, weet niemand meer hoe het werkt.",
+      "Blind vertrouwen. AI-tools formuleren overtuigend, ook als de inhoud niet klopt. Een offerte met een verzonnen korting of een antwoord met een verkeerde voorwaarde komt in een klein bedrijf direct bij de klant terecht.",
+      "Kosten die sluipend oplopen. Losse abonnementen per medewerker en per tool tellen op, zonder dat iemand overziet wat ze opleveren.",
+      "Leveranciersclaims. Veel software heet tegenwoordig “AI-gedreven”. Vraag altijd wat het concreet doet, met welke data en wat er gebeurt als je wilt overstappen.",
+      "Regelgeving. De AI Act geldt ook voor kleine bedrijven, al hangen de verplichtingen af van hoe je AI inzet. Voor de meeste mkb-toepassingen, zoals teksten en samenvattingen, zijn de eisen beperkt. Wie AI inzet bij beslissingen over mensen, bijvoorbeeld bij werving, moet beter opletten.",
+      "Geen van deze risico’s is een reden om niet te beginnen. Wel een reden om een paar afspraken te maken voordat iedereen zijn eigen weg gaat.",
+      "Eerste stappen",
+      "Begin met AI in het mkb met zo weinig mogelijk vooraf, maar wel met een paar bewuste keuzes:",
+      "Kies één taakFrequent, tijdrovend en met een vaste controle, zoals offertes of e-mail sorteren.",
+      "Meet het nuHoeveel tijd kost de taak per week, en hoe vaak gaat er iets mis?",
+      "Maak spelregelsWelke tool, welke gegevens er niet in mogen en wie het resultaat controleert.",
+      "Test vier wekenMet twee of drie collega's, in het echte werk, met de echte klantvragen.",
+      "BesluitDoorgaan, bijsturen of stoppen, op basis van de meting en niet van het gevoel.",
+      "Een eerste AI-toepassing in het mkb: klein beginnen, meten en dan pas uitbreiden.",
+      "Een paar tips daarbij:",
+      "Kijk eerst naar wat je al hebt. Veel kantoor-, boekhoud- en CRM-software heeft AI-functies die je al betaalt maar niet gebruikt.",
+      "Kies een zakelijke licentie. Dan heb je afspraken over wat er met je gegevens gebeurt. Gratis accounts zijn geen plek voor klantdata.",
+      "Maak het werk zichtbaar. Laat de collega’s die ermee werken hun aanpak delen. Eén goede werkwijze die het hele team gebruikt, levert meer op dan tien losse experimenten.",
+      "Houd de rekensom eerlijk. Tel de tijd van je eigen mensen mee, niet alleen de licentie.",
+      "Over subsidies nog dit: regelingen als de MIT (voor innovatie) en SLIM (voor leren en ontwikkelen in het mkb) kunnen interessant zijn, maar de openstellingen zijn kort en wisselen per jaar. Stand september 2026 zijn de MIT R&D-samenwerkingsprojecten volgens RVO tijdelijk gesloten, en zijn beide tijdvakken van SLIM-mkb voor 2026 verstreken; het laatste sloot op 7 september (Rijksoverheid). Bouw je plan dus niet op een subsidie, en controleer de actuele status voordat je erop rekent.",
+      "Hoe ik MKB-bedrijven help",
+      "Eerst eerlijk over geld. Mijn vaste pakketten zijn gemaakt voor organisaties die een serieuze AI-investering overwegen. Een AI Readiness Assessment kost €7.000, een AI Strategy Sprint €15.400 - €22.400. Dat past bij een middelgroot bedrijf met meerdere afdelingen en een concrete investeringsvraag, maar niet bij elk mkb-budget. Voor een bedrijf van tien mensen is het vaak te veel.",
+      "Voor kleinere bedrijven zijn er twee lichtere instappen. Een Executive Briefing van één dagdeel (€2.800) geeft jou en je managementteam een gedeeld, realistisch beeld van wat AI voor jullie betekent. En voor een afgebakende vraag, zoals een second opinion op een offerte van een leverancier of het kiezen van een eerste toepassing, werk ik met een vaste prijs per opdracht. Soms is de eerlijkste uitkomst van een eerste gesprek dat je mij niet nodig hebt en gewoon kunt beginnen.",
+      "Hieronder per onderwerp waar je terechtkunt. De meeste van die pagina’s hebben een eigen deel over het mkb.",
+      "AI consultancy",
+      "Advies over waar je begint, wat je prioriteert en wat je beter laat liggen. Voor het mkb betekent dat vooral: praktisch, binnen budget en gericht op een snel eerste resultaat. Lees meer over AI consultancy voor het mkb.",
+      "AI implementatie",
+      "Van idee naar een toepassing die echt in het werk draait. Ik bouw niet zelf, maar help je kiezen tussen een standaardtool en maatwerk, een geschikte partij te vinden en die aan te sturen. Hoe dat werkt zonder groot IT-team, staat bij AI implementatie in het mkb.",
+      "AI automatisering",
+      "Welke processen lenen zich voor automatisering, en welke kun je beter eerst vereenvoudigen of afschaffen? Met welke processen je het best start en hoe je de terugverdientijd inschat, lees je bij AI automatisering voor het mkb.",
+      "AI agents",
+      "AI-agents voeren zelfstandig taken uit, zoals een aanvraag verwerken of gegevens tussen systemen overzetten. Dat is krachtiger dan een assistent, maar vraagt ook meer controle. Welke toepassingen geschikt zijn en hoe je veilig start, staat bij AI agents voor het mkb.",
+      "AI-beleid",
+      "Een AI-beleid hoeft in het mkb geen dik document te zijn. Eén of twee pagina’s met toegestane tools, regels voor gegevens en wie waarover beslist, is een goed begin. Er is een voorbeeld en template voor een AI-beleid in het mkb die je als vertrekpunt kunt gebruiken.",
+      "Workshops en training",
+      "De snelste manier om een team verder te helpen, is samen oefenen met hun eigen taken. Een workshop van een dagdeel of een dag geeft medewerkers vaardigheden en jou zicht op waar de kansen zitten. Bekijk de mogelijkheden bij AI workshops en trainingen.",
+      "Werk je in een kantoor met veel documenten en vertrouwelijke dossiers, zoals een accountants-, advocaten- of adviespraktijk? Lees dan ook AI voor zakelijke dienstverleners. Wil je vooral meer uit je cijfers en rapportages halen, dan past AI en BI beter. En twijfel je waar je staat, plan dan een vrijblijvend gesprek van dertig minuten.",
+      "Dave Willemstein Onafhankelijk AI-adviseur",
+      "Onafhankelijk: geen commissies, geen partnerdeals, geen marge op implementatiepartners.",
+      "Over mij Mijn partnernetwerk",
+      "Weten waar je staat met AI? Bekijk de AI Readiness Assessment →",
+      "Veelgestelde vragen",
+      "Wat kost het om als mkb-bedrijf met AI te beginnen?+",
+      "De instap kan klein zijn. Veel mkb-bedrijven beginnen met een zakelijke licentie op een AI-assistent of met AI-functies in software die ze al gebruiken. De grootste kostenpost is meestal niet de tool, maar de tijd van je eigen mensen om taken opnieuw in te richten en te leren werken met de uitkomsten.",
+      "Heb ik een IT-afdeling nodig om AI te gebruiken?+",
+      "Voor de eerste stappen niet. Een AI-assistent of AI-functies in je boekhoud-, CRM- of kantoorsoftware kun je zonder eigen IT-team gebruiken. Zodra je systemen aan elkaar wilt koppelen of iets op maat wilt laten maken, heb je wel technische hulp nodig, van een eigen medewerker of een externe partij.",
+      "Mag ik klantgegevens in ChatGPT of een vergelijkbare tool zetten?+",
+      "Alleen als de tool daarvoor zakelijk is ingericht en je dat onder de AVG kunt verantwoorden. Gebruik voor persoonsgegevens en vertrouwelijke informatie geen gratis of persoonlijke accounts, controleer of je data wordt gebruikt om het model te trainen en leg vast welke gegevens er niet in mogen.",
+      "Hoe snel levert AI iets op in een klein bedrijf?+",
+      "Bij eenvoudige toepassingen, zoals conceptteksten, samenvattingen en het uitlezen van documenten, merk je binnen enkele weken of het tijd scheelt. Toepassingen waarbij systemen gekoppeld worden, hebben meer doorlooptijd nodig. Meet vooraf hoeveel tijd een taak nu kost, dan kun je het verschil ook echt zien.",
+      "Zijn er subsidies voor AI in het mkb?+",
+      "Er bestaan landelijke en regionale regelingen, maar de openstellingen wisselen per jaar en zijn vaak kort. Stand september 2026 zijn de landelijke MIT R&D-samenwerkingsprojecten tijdelijk gesloten en zijn de aanvraagtijdvakken van SLIM-mkb voor 2026 verstreken. MIT-haalbaarheidsprojecten lopen via de regio. Controleer de actuele status altijd bij RVO, Uitvoering van Beleid SZW of je provincie voordat je erop rekent.",
+      "Bronnen",
+      "CBS: Gebruik van AI-technologie door Nederlandse microbedrijven (16 maart 2026)",
+      "CBS: Bedrijven gebruiken AI vaakst voor marketing of verkoop (12 december 2025)",
+      "RVO: MIT, Mkb-innovatiestimulering Regio en Topsectoren",
+      "Rijksoverheid: Nieuwe aanvraagtijdvakken SLIM-mkb bekend (31 maart 2026)",
+      "Klaar voor impact?",
+      "Van AI-ambitie naar concrete resultaten.",
+      "Plan een vrijblijvend gesprek. Geen pitch. Wel scherpe vragen.",
+      "30 min., geen pitch deckPlan een gesprek →"
+    ]
+  },
+  "links": [
+    {
+      "regio": "overig",
+      "soort": "intern",
+      "href": "#main",
+      "anker": "Naar hoofdinhoud",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/",
+      "anker": "",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/diensten",
+      "anker": "Diensten",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/cases",
+      "anker": "Cases",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/werkwijze",
+      "anker": "Werkwijze",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/inzichten",
+      "anker": "Inzichten",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/over",
+      "anker": "Over mij",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/contact",
+      "anker": "Plan een gesprek →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/",
+      "anker": "Home",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/ai-voor-bedrijven",
+      "anker": "AI voor bedrijven",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/ai-voor-bedrijven",
+      "anker": "Lees meer over AI voor bedrijven →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/diensten/ai-readiness-assessment",
+      "anker": "Bekijk de AI Readiness Assessment →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/over",
+      "anker": "Dave Willemstein",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "extern",
+      "href": "https://www.cbs.nl/nl-nl/longread/rapportages/2026/gebruik-van-ai-technologie-door-nederlandse-microbedrijven/2-gebruik-ai-technologie",
+      "anker": "CBS",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "extern",
+      "href": "https://www.cbs.nl/nl-nl/nieuws/2025/50/bedrijven-gebruiken-ai-vaakst-voor-marketing-of-verkoop",
+      "anker": "CBS, december 2025",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/ai-voor-bedrijven",
+      "anker": "AI voor bedrijven",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "extern",
+      "href": "https://www.rvo.nl/subsidies-financiering/mit",
+      "anker": "RVO",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "extern",
+      "href": "https://www.rijksoverheid.nl/actueel/nieuws/2026/03/31/nieuwe-aanvraagtijdvakken-slim-mkb-bekend",
+      "anker": "Rijksoverheid",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/diensten/ai-readiness-assessment",
+      "anker": "AI Readiness Assessment",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/ai-consultancy#ai-consultancy-voor-het-mkb",
+      "anker": "AI consultancy voor het mkb",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/ai-implementatie#ai-implementatie-in-het-mkb",
+      "anker": "AI implementatie in het mkb",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/ai-automatisering#ai-automatisering-voor-het-mkb",
+      "anker": "AI automatisering voor het mkb",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/ai-agents#ai-agents-voor-het-mkb",
+      "anker": "AI agents voor het mkb",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/ai-beleid#ai-beleid-voor-het-mkb-voorbeeld-en-template",
+      "anker": "voorbeeld en template voor een AI-beleid in het mkb",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/ai-workshop",
+      "anker": "AI workshops en trainingen",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/ai-voor-bedrijven/zakelijke-dienstverleners",
+      "anker": "AI voor zakelijke dienstverleners",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/ai-voor-bedrijven/ai-en-bi",
+      "anker": "AI en BI",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/contact",
+      "anker": "plan dan een vrijblijvend gesprek",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/over",
+      "anker": "Over mij",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/partnernetwerk",
+      "anker": "Mijn partnernetwerk",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/diensten/ai-readiness-assessment",
+      "anker": "Weten waar je staat met AI? Bekijk de AI Readiness Assessment →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "extern",
+      "href": "https://www.cbs.nl/nl-nl/longread/rapportages/2026/gebruik-van-ai-technologie-door-nederlandse-microbedrijven/2-gebruik-ai-technologie",
+      "anker": "CBS: Gebruik van AI-technologie door Nederlandse microbedrijven (16 maart 2026)",
+      "rel": "noopener"
+    },
+    {
+      "regio": "main",
+      "soort": "extern",
+      "href": "https://www.cbs.nl/nl-nl/nieuws/2025/50/bedrijven-gebruiken-ai-vaakst-voor-marketing-of-verkoop",
+      "anker": "CBS: Bedrijven gebruiken AI vaakst voor marketing of verkoop (12 december 2025)",
+      "rel": "noopener"
+    },
+    {
+      "regio": "main",
+      "soort": "extern",
+      "href": "https://www.rvo.nl/subsidies-financiering/mit",
+      "anker": "RVO: MIT, Mkb-innovatiestimulering Regio en Topsectoren",
+      "rel": "noopener"
+    },
+    {
+      "regio": "main",
+      "soort": "extern",
+      "href": "https://www.rijksoverheid.nl/actueel/nieuws/2026/03/31/nieuwe-aanvraagtijdvakken-slim-mkb-bekend",
+      "anker": "Rijksoverheid: Nieuwe aanvraagtijdvakken SLIM-mkb bekend (31 maart 2026)",
+      "rel": "noopener"
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/contact",
+      "anker": "Plan een gesprek →",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/diensten/ai-readiness-assessment",
+      "anker": "AI Readiness Assessment",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/diensten/ai-strategy-sprint",
+      "anker": "AI Strategy Sprint",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/diensten/fractional-ai-lead",
+      "anker": "Fractional AI Lead",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/diensten",
+      "anker": "Alle diensten",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/cases",
+      "anker": "Cases",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/werkwijze",
+      "anker": "Werkwijze",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/inzichten",
+      "anker": "Inzichten",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/veelgestelde-vragen",
+      "anker": "Veelgestelde vragen",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/over",
+      "anker": "Over mij",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-consultancy",
+      "anker": "AI consultancy",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-implementatie",
+      "anker": "AI implementatie",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-automatisering",
+      "anker": "AI automatisering",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-voor-bedrijven",
+      "anker": "AI voor bedrijven",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-development",
+      "anker": "AI development",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-agents",
+      "anker": "AI agents",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-beleid",
+      "anker": "AI beleid",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-workshop",
+      "anker": "AI workshop",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/markten",
+      "anker": "AI per branche",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/kennisbank",
+      "anker": "Kennisbank",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/tarieven",
+      "anker": "Tarieven",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/partnernetwerk",
+      "anker": "Partnernetwerk",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "overig",
+      "href": "mailto:dave@freelanceaiconsultant.com",
+      "anker": "dave@freelanceaiconsultant.com",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "extern",
+      "href": "https://www.linkedin.com/in/davewillemstein",
+      "anker": "LinkedIn ↗",
+      "rel": "noopener"
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/contact",
+      "anker": "Plan een gesprek",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/privacy",
+      "anker": "Privacyverklaring",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/algemene-voorwaarden",
+      "anker": "Algemene voorwaarden",
+      "rel": null
+    }
+  ],
+  "structured_data": {
+    "sha256": "d9fcabdac720efacd9b45aaa37ae57d29a936af93a683beb487dfd6e29276d72",
+    "items": [
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://freelanceaiconsultant.com/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "AI voor bedrijven",
+                "item": "https://freelanceaiconsultant.com/ai-voor-bedrijven"
+              },
+              {
+                "@type": "ListItem",
+                "position": 3,
+                "name": "AI voor MKB",
+                "item": "https://freelanceaiconsultant.com/ai-voor-bedrijven/mkb"
+              }
+            ]
+          },
+          {
+            "@type": "Article",
+            "headline": "AI voor het MKB: waar begin je en wat levert het op?",
+            "description": "AI voor het MKB: concrete toepassingen, risico's en eerste stappen voor ondernemers. Ontdek waar je snel winst haalt en hoe je zonder groot budget begint.",
+            "inLanguage": "nl-NL",
+            "datePublished": "2026-09-23",
+            "dateModified": "2026-09-23",
+            "author": {
+              "@type": "Person",
+              "name": "Dave Willemstein",
+              "jobTitle": "Onafhankelijk AI-adviseur",
+              "url": "https://freelanceaiconsultant.com/over",
+              "sameAs": [
+                "https://www.linkedin.com/in/davewillemstein"
+              ]
+            },
+            "publisher": {
+              "@type": "Person",
+              "name": "Dave Willemstein"
+            },
+            "mainEntityOfPage": "https://freelanceaiconsultant.com/ai-voor-bedrijven/mkb"
+          },
+          {
+            "@type": "FAQPage",
+            "mainEntity": [
+              {
+                "@type": "Question",
+                "name": "Wat kost het om als mkb-bedrijf met AI te beginnen?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "De instap kan klein zijn. Veel mkb-bedrijven beginnen met een zakelijke licentie op een AI-assistent of met AI-functies in software die ze al gebruiken. De grootste kostenpost is meestal niet de tool, maar de tijd van je eigen mensen om taken opnieuw in te richten en te leren werken met de uitkomsten."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Heb ik een IT-afdeling nodig om AI te gebruiken?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Voor de eerste stappen niet. Een AI-assistent of AI-functies in je boekhoud-, CRM- of kantoorsoftware kun je zonder eigen IT-team gebruiken. Zodra je systemen aan elkaar wilt koppelen of iets op maat wilt laten maken, heb je wel technische hulp nodig, van een eigen medewerker of een externe partij."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Mag ik klantgegevens in ChatGPT of een vergelijkbare tool zetten?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Alleen als de tool daarvoor zakelijk is ingericht en je dat onder de AVG kunt verantwoorden. Gebruik voor persoonsgegevens en vertrouwelijke informatie geen gratis of persoonlijke accounts, controleer of je data wordt gebruikt om het model te trainen en leg vast welke gegevens er niet in mogen."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Hoe snel levert AI iets op in een klein bedrijf?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Bij eenvoudige toepassingen, zoals conceptteksten, samenvattingen en het uitlezen van documenten, merk je binnen enkele weken of het tijd scheelt. Toepassingen waarbij systemen gekoppeld worden, hebben meer doorlooptijd nodig. Meet vooraf hoeveel tijd een taak nu kost, dan kun je het verschil ook echt zien."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Zijn er subsidies voor AI in het mkb?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Er bestaan landelijke en regionale regelingen, maar de openstellingen wisselen per jaar en zijn vaak kort. Stand september 2026 zijn de landelijke MIT R&D-samenwerkingsprojecten tijdelijk gesloten en zijn de aanvraagtijdvakken van SLIM-mkb voor 2026 verstreken. MIT-haalbaarheidsprojecten lopen via de regio. Controleer de actuele status altijd bij RVO, Uitvoering van Beleid SZW of je provincie voordat je erop rekent."
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "afbeeldingen": [
+    {
+      "regio": "header",
+      "src": "/images/freelance-ai-consultant-logo-header.png",
+      "alt": "freelanceaiconsultant.com logo",
+      "width": "600",
+      "height": "287",
+      "loading": null
+    },
+    {
+      "regio": "main",
+      "src": "/images/dave-portrait.jpg",
+      "alt": "Portret van Dave Willemstein",
+      "width": "88",
+      "height": "88",
+      "loading": "lazy"
+    },
+    {
+      "regio": "footer",
+      "src": "/images/freelance-ai-consultant-icon-footer.png",
+      "alt": "",
+      "width": "192",
+      "height": "192",
+      "loading": "lazy"
+    }
+  ],
+  "laadprestaties": {
+    "scripts": [
+      {
+        "src": "/logo-carousel/logo-carousel.js?v=2",
+        "type": null,
+        "inline_bytes": 0
+      }
+    ],
+    "stylesheets": [
+      "https://fonts.googleapis.com/css2?family=Caveat:wght@600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap",
+      "/_astro/_slug_.bq6BBoZ5.css",
+      "/_astro/_slug_.goiX3PVF.css",
+      "/logo-carousel/logo-carousel.css?v=2"
+    ],
+    "aantal_details": 5,
+    "aantal_tabellen": 0
+  }
+}

@@ -1,0 +1,739 @@
+{
+  "url": "/ai-development/ai-software",
+  "build_bestand": "dist/ai-development/ai-software/index.html",
+  "bron": [
+    "src/content/pages/ai-development/ai-software/index.md",
+    "src/pages/[...slug].astro"
+  ],
+  "gemeten_op": "2026-10-06",
+  "html": {
+    "bytes": 31683,
+    "sha256": "d73deb2df23b640fe441884a869ad8cc5093cc79bd8bd5f880913ff48a6547e0",
+    "lang": "nl"
+  },
+  "beschermd": {
+    "title": "AI software | Kiezen, integreren of op maat laten bouwen",
+    "meta_description": "Welke AI software past bij je organisatie? Lees hoe je kiest tussen standaardsoftware en maatwerk, en hoe je AI software veilig integreert met je systemen.",
+    "canonical": "https://freelanceaiconsultant.com/ai-development/ai-software",
+    "robots_meta": null,
+    "hreflang": [],
+    "h1": [
+      "AI software: kiezen, integreren of op maat laten bouwen"
+    ]
+  },
+  "social": {
+    "og:type": "website",
+    "og:locale": "nl_NL",
+    "og:site_name": "freelanceaiconsultant.com",
+    "og:title": "AI software | Kiezen, integreren of op maat laten bouwen",
+    "og:description": "Welke AI software past bij je organisatie? Lees hoe je kiest tussen standaardsoftware en maatwerk, en hoe je AI software veilig integreert met je systemen.",
+    "og:url": "https://freelanceaiconsultant.com/ai-development/ai-software",
+    "og:image": "https://freelanceaiconsultant.com/images/dave-portrait.jpg",
+    "twitter:card": "summary_large_image",
+    "twitter:title": "AI software | Kiezen, integreren of op maat laten bouwen",
+    "twitter:description": "Welke AI software past bij je organisatie? Lees hoe je kiest tussen standaardsoftware en maatwerk, en hoe je AI software veilig integreert met je systemen.",
+    "twitter:image": "https://freelanceaiconsultant.com/images/dave-portrait.jpg"
+  },
+  "koppen": [
+    {
+      "niveau": 1,
+      "tekst": "AI software: kiezen, integreren of op maat laten bouwen",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "Soorten AI software",
+      "regio": "main",
+      "id": "soorten-ai-software"
+    },
+    {
+      "niveau": 2,
+      "tekst": "Standaard of maatwerk?",
+      "regio": "main",
+      "id": "standaard-of-maatwerk"
+    },
+    {
+      "niveau": 2,
+      "tekst": "AI software integreren",
+      "regio": "main",
+      "id": "ai-software-integreren"
+    },
+    {
+      "niveau": 2,
+      "tekst": "Selectiecriteria",
+      "regio": "main",
+      "id": "selectiecriteria"
+    },
+    {
+      "niveau": 2,
+      "tekst": "Veelgestelde vragen",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "Van AI-ambitie naar concrete resultaten.",
+      "regio": "main",
+      "id": null
+    }
+  ],
+  "bodytekst": {
+    "regio": "main",
+    "woorden": 1484,
+    "sha256": "109743ec8850cebb36838ca25e44fe37ae8556ab21eac81cd187790e90219665",
+    "blokken": [
+      "Home",
+      "AI Development",
+      "AI software",
+      "AI software",
+      "AI software: kiezen, integreren of op maat laten bouwen",
+      "Bijna elke softwareleverancier noemt zijn product inmiddels AI software. Dat maakt kiezen lastiger, niet makkelijker. Op deze pagina lees je welke soorten er zijn, wanneer standaard volstaat en wanneer maatwerk loont, en waar je op let bij integratie en selectie.",
+      "Lees meer over AI Development → Bekijk de AI Readiness Assessment →",
+      "Geschreven door Dave Willemstein, onafhankelijk AI consultant · gepubliceerd 23 september 2026",
+      "IN HET KORT",
+      "AI software loopt van een functie in bestaande software tot volledig maatwerk.",
+      "Kies standaard waar het kan; laat alleen de laag met jouw kennis op maat bouwen.",
+      "Integratie, data en exit bepalen de echte kosten, niet de licentie.",
+      "AI in Europa",
+      "Europese merken die AI al in productie hebben.",
+      "Geen klanten van mij. Wel voorbeelden van wat er gebeurt als AI voorbij de pilot komt.",
+      "Pauzeer",
+      "Klarna",
+      "Zweden",
+      "AI-assistent in de klantenservice",
+      "Zalando",
+      "Duitsland",
+      "Mode-assistent voor productadvies",
+      "Financial services",
+      "Investeringsmaatschappij",
+      "AI-strategie en use-case portfolio",
+      "Booking.com",
+      "Nederland",
+      "AI Trip Planner voor reisplanning",
+      "Siemens",
+      "Duitsland",
+      "Industrial Copilot voor engineering",
+      "Retail",
+      "Enterprise retailer",
+      "AI-gedreven vendorselectie",
+      "Spotify",
+      "Zweden",
+      "AI DJ en gepersonaliseerde playlists",
+      "Mercedes-Benz",
+      "Duitsland",
+      "Generatieve spraakassistent in de auto",
+      "Industrial / B2B",
+      "Internationale maakorganisatie",
+      "AI-roadmap en leadership",
+      "ING",
+      "Nederland",
+      "Generatieve chatbot voor klantvragen",
+      "L'Oréal",
+      "Frankrijk",
+      "Beauty Genius: persoonlijk advies",
+      "Financial services",
+      "Financiële dienstverlener",
+      "KYC versneld met AI-documentanalyse",
+      "SAP",
+      "Duitsland",
+      "Joule: copilot in bedrijfssoftware",
+      "Carrefour",
+      "Frankrijk",
+      "Hopla: boodschappenassistent",
+      "Strategy & AI",
+      "SaaS scale-up",
+      "AI-readiness assessment",
+      "Adyen",
+      "Nederland",
+      "AI-optimalisatie van betalingen",
+      "Philips",
+      "Nederland",
+      "AI in medische beeldvorming",
+      "Proces & productivity",
+      "Zakelijke dienstverlener",
+      "Interne AI-assistent voor kenniswerkers",
+      "Soorten AI software",
+      "AI software is software waarin een model een deel van het werk doet: tekst begrijpen of genereren, beelden herkennen, voorspellingen maken of taken uitvoeren. In de praktijk kom je vier vormen tegen, van licht naar zwaar:",
+      "AI-functies in software die je al hebt. Je kantoorpakket, CRM of servicedesk krijgt een assistent of een slimme functie erbij. Weinig integratiewerk, maar ook weinig invloed op hoe het werkt.",
+      "Zelfstandige AI-tools. Chatassistenten, schrijf- en analysetools, transcriptie. Snel in gebruik te nemen, vaak per gebruiker gelicenseerd. Een overzicht van veelgebruikte categorieën staat bij AI tools voor bedrijven.",
+      "Gespecialiseerde AI-platforms. Software voor één domein, zoals documentverwerking, vraagvoorspelling of klantenservice, die je configureert en koppelt aan je eigen systemen.",
+      "AI software op maat. Een applicatie die voor jouw proces wordt gebouwd, meestal rond een ingekocht taalmodel, met eigen regels, koppelingen en evaluatie. Voorbeelden van wat dat kan opleveren, staan bij AI oplossingen op maat.",
+      "Hoe verder je naar beneden gaat, hoe meer invloed je krijgt op de uitkomst en hoe meer je zelf moet beheren.",
+      "Standaard of maatwerk?",
+      "De kernvraag is niet of je iets zelf kunt laten bouwen, maar of je het over een paar jaar nog wilt onderhouden. Bouw alleen wat je onderscheidt in de markt. Als je concurrent hetzelfde resultaat morgen bij een leverancier kan kopen, is het een commodity en koop je het ook.",
+      "Koop de bouwstenenTaalmodellen, infrastructuur, standaardcomponenten: hier hebben leveranciers schaalvoordeel",
+      "Configureer het platformDrempels, regels en werkstromen instellen binnen standaardsoftware",
+      "Laat de kennislaag bouwenJouw regels, prompts, testsets en koppelingen: klein in omvang, groot in waarde",
+      "Houd de evaluatie zelfDe criteria waarop je de uitkomst beoordeelt, blijven altijd van jou",
+      "De hybride vorm: standaard waar het kan, maatwerk alleen voor de laag waarin jouw kennis zit.",
+      "In veel gevallen is het antwoord een combinatie. Je koopt het model en het platform, laat de laag met jouw kennis op maat bouwen en belegt de implementatie bij een partner. Het volledige beslisraamwerk, inclusief de vraag hoe je er weer vanaf komt, staat in build, buy of partner. Kiezen tussen standaard en maatwerk vraagt ook een eerlijke kostenvergelijking; hoe je die opstelt, lees je in de business case voor AI.",
+      "AI software integreren",
+      "De software zelf is vaak het kleinste deel van het werk. AI software integreren met je bestaande systemen kost de meeste tijd en levert de meeste verrassingen op. Vijf punten om vooraf te regelen:",
+      "Databronnen en kwaliteit. Welke systemen moeten open, hoe actueel en volledig is de data, en wie beheert die bronnen? Als je datafundament rammelt, merkt de AI software dat als eerste. Meer daarover in het datafundament onder AI.",
+      "Rechten en toegang. De AI mag niet meer zien dan de gebruiker die hem aanroept. Controleer hoe het rechtenmodel van je bronsystemen wordt doorgegeven.",
+      "Privacy en de AVG. Waar wordt de data verwerkt en opgeslagen, wordt er op getraind, en is er een verwerkersovereenkomst? Bij persoonsgegevens is dat geen detail.",
+      "Logging en controle. Leg vast welke invoer tot welke uitkomst leidde en wie die heeft bevestigd. Zonder auditspoor kun je fouten niet herleiden.",
+      "Beheer na livegang. Wie meet de kwaliteit, wie houdt testsets actueel, en wat gebeurt er als de leverancier het onderliggende model vervangt?",
+      "Het bouwen en koppelen doet je eigen IT-team of een implementatiepartner die je rechtstreeks contracteert. Ik bouw niet mee, maar help de eisen op te stellen en te toetsen of de oplevering eraan voldoet. Hoe dat in het hele ontwikkeltraject past, lees je bij AI development.",
+      "Voorbeeldscenario",
+      "Een groothandel in bouwmaterialen met 85 medewerkers koopt een AI-tool die orders uit e-mail en pdf herkent en klaarzet in het ERP-systeem. De licentie is binnen een week geregeld; de leverancier schat de koppeling op drie weken.",
+      "De adviseur stelt vooraf met de IT-beheerder en het hoofd binnendienst de eisen op: welke velden de tool mag vullen, dat een medewerker elke order bevestigt en dat elke wijziging wordt gelogd. Bij de toetsing blijkt dat 30 procent van de artikelcodes in de orders afwijkt van het ERP, omdat klanten hun eigen codes gebruiken. Er is een vertaaltabel nodig, en iemand die die bijhoudt.",
+      "De koppeling duurt negen weken in plaats van drie. Daarna daalt de verwerkingstijd van zes naar drie minuten per order, bij ongeveer 150 orders per dag: ruim zeven uur per dag. Orders zonder controle doorzetten doet de groothandel bewust nog niet.",
+      "Fictief voorbeeld, samengesteld uit situaties die veel voorkomen. Organisatie en cijfers zijn illustratief.",
+      "Selectiecriteria",
+      "Stel de criteria en hun weging vast voordat je leveranciers ziet. Criteria die na de eerste demo worden opgesteld, beschrijven die demo. Een werkbare set:",
+      "Criterium",
+      "Kernvraag",
+      "Functionele fit",
+      "Dekt het jouw scenario’s af, inclusief de lastige gevallen?",
+      "Prestatie op eigen data",
+      "Hoe goed werkt het op jouw materiaal, niet op het demomateriaal?",
+      "Integratie",
+      "Hoeveel werk is koppelen met je systemen, en wie doet dat?",
+      "Data en privacy",
+      "Waar staat de data, wat gebeurt ermee en wordt er op getraind?",
+      "Beheersbaarheid",
+      "Kun je drempels, regels en uitzonderingen zelf aanpassen?",
+      "Kosten",
+      "Licentie, verbruik bij groei, integratie, beheer en exit over drie jaar",
+      "Leverancier",
+      "Continuïteit, roadmap en ondersteuning in jouw taal en tijdzone",
+      "Geef iedere leverancier hetzelfde scenario op jouw data, laat beoordelaars eerst individueel scoren en reken de totale kosten door. De volledige aanpak staat in AI-vendorselectie in acht stappen.",
+      "Wil je dat proces niet zelf trekken, dan begeleid ik het met een Vendor Review: criteria vooraf, scorecards, validatie op echte data en een TCO-vergelijking inclusief exitkosten. Hoe dat in de praktijk verloopt, laat de case over vendorselectie bij een enterprise retailer zien. Ik ontvang geen vergoeding van leveranciers, dus het advies kan ook zijn dat je niets koopt.",
+      "Zoek je eerder iemand die de technische kant beoordeelt of bouwt? Op de pagina over de AI specialist lees je welke profielen er zijn. En twijfel je welke route past, plan dan een adviesgesprek.",
+      "Dave Willemstein Onafhankelijk AI-adviseur",
+      "Onafhankelijk: geen commissies, geen partnerdeals, geen marge op implementatiepartners.",
+      "Over mij Mijn partnernetwerk",
+      "Weten waar je staat met AI? Bekijk de AI Readiness Assessment →",
+      "Veelgestelde vragen",
+      "Wat is het verschil tussen AI software en gewone software?+",
+      "Gewone software doet wat je programmeert. AI software doet een voorspelling of genereert een antwoord op basis van een model, en kan daarbij fouten maken. Daarom moet je bij AI software niet alleen vragen wat het kan, maar ook hoe goed het werkt op jouw data en wat er gebeurt als het ernaast zit.",
+      "Wordt mijn data gebruikt om de AI software te trainen?+",
+      "Dat verschilt per leverancier en vaak per abonnement. Vraag het expliciet na, laat het vastleggen in het contract en controleer of je het kunt uitzetten. Ga er nooit van uit dat de standaardinstelling past bij jouw beleid.",
+      "Kan AI software op maat goedkoper zijn dan een licentie?+",
+      "In jaar één soms wel, over meerdere jaren zelden. Maatwerk brengt doorlopende kosten mee voor beheer, monitoring en het bijhouden van onderliggende modellen. Reken daarom altijd over meerdere jaren en neem ook de exitkosten mee.",
+      "Wie is aansprakelijk als AI software een fout maakt?+",
+      "Dat hangt af van je contract en van hoe je de software inzet. Leg vast wat de leverancier garandeert, hoe fouten worden gemeld en wie wat herstelt. Richt je proces zo in dat een mens de uitkomst controleert waar de gevolgen groot zijn.",
+      "Klaar voor impact?",
+      "Van AI-ambitie naar concrete resultaten.",
+      "Plan een vrijblijvend gesprek. Geen pitch. Wel scherpe vragen.",
+      "30 min., geen pitch deckPlan een gesprek →"
+    ]
+  },
+  "links": [
+    {
+      "regio": "overig",
+      "soort": "intern",
+      "href": "#main",
+      "anker": "Naar hoofdinhoud",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/",
+      "anker": "",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/diensten",
+      "anker": "Diensten",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/cases",
+      "anker": "Cases",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/werkwijze",
+      "anker": "Werkwijze",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/inzichten",
+      "anker": "Inzichten",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/over",
+      "anker": "Over mij",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/contact",
+      "anker": "Plan een gesprek →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/",
+      "anker": "Home",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/ai-development",
+      "anker": "AI Development",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/ai-development",
+      "anker": "Lees meer over AI Development →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/diensten/ai-readiness-assessment",
+      "anker": "Bekijk de AI Readiness Assessment →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/over",
+      "anker": "Dave Willemstein",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/ai-automatisering/ai-tools",
+      "anker": "AI tools voor bedrijven",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/ai-development/ai-oplossingen",
+      "anker": "AI oplossingen op maat",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/inzichten/build-buy-of-partner",
+      "anker": "build, buy of partner",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/inzichten/de-business-case-voor-ai",
+      "anker": "de business case voor AI",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/inzichten/het-datafundament-onder-ai",
+      "anker": "het datafundament onder AI",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/ai-development",
+      "anker": "AI development",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/inzichten/ai-vendorselectie-in-acht-stappen",
+      "anker": "AI-vendorselectie in acht stappen",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/diensten/vendor-review",
+      "anker": "Vendor Review",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/cases/vendorselectie-enterprise-retail",
+      "anker": "vendorselectie bij een enterprise retailer",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/ai-development/ai-specialist",
+      "anker": "de AI specialist",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/contact",
+      "anker": "plan dan een adviesgesprek",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/over",
+      "anker": "Over mij",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/partnernetwerk",
+      "anker": "Mijn partnernetwerk",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/diensten/ai-readiness-assessment",
+      "anker": "Weten waar je staat met AI? Bekijk de AI Readiness Assessment →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/contact",
+      "anker": "Plan een gesprek →",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/diensten/ai-readiness-assessment",
+      "anker": "AI Readiness Assessment",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/diensten/ai-strategy-sprint",
+      "anker": "AI Strategy Sprint",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/diensten/fractional-ai-lead",
+      "anker": "Fractional AI Lead",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/diensten",
+      "anker": "Alle diensten",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/cases",
+      "anker": "Cases",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/werkwijze",
+      "anker": "Werkwijze",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/inzichten",
+      "anker": "Inzichten",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/veelgestelde-vragen",
+      "anker": "Veelgestelde vragen",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/over",
+      "anker": "Over mij",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-consultancy",
+      "anker": "AI consultancy",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-implementatie",
+      "anker": "AI implementatie",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-automatisering",
+      "anker": "AI automatisering",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-voor-bedrijven",
+      "anker": "AI voor bedrijven",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-development",
+      "anker": "AI development",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-agents",
+      "anker": "AI agents",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-beleid",
+      "anker": "AI beleid",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-workshop",
+      "anker": "AI workshop",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/markten",
+      "anker": "AI per branche",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/kennisbank",
+      "anker": "Kennisbank",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/tarieven",
+      "anker": "Tarieven",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/partnernetwerk",
+      "anker": "Partnernetwerk",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "overig",
+      "href": "mailto:dave@freelanceaiconsultant.com",
+      "anker": "dave@freelanceaiconsultant.com",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "extern",
+      "href": "https://www.linkedin.com/in/davewillemstein",
+      "anker": "LinkedIn ↗",
+      "rel": "noopener"
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/contact",
+      "anker": "Plan een gesprek",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/privacy",
+      "anker": "Privacyverklaring",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/algemene-voorwaarden",
+      "anker": "Algemene voorwaarden",
+      "rel": null
+    }
+  ],
+  "structured_data": {
+    "sha256": "dfed7cd144946dc17b47ab2e32d0acf553f1d6a2a24f6ccef82acb51cfdad6ac",
+    "items": [
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://freelanceaiconsultant.com/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "AI Development",
+                "item": "https://freelanceaiconsultant.com/ai-development"
+              },
+              {
+                "@type": "ListItem",
+                "position": 3,
+                "name": "AI software",
+                "item": "https://freelanceaiconsultant.com/ai-development/ai-software"
+              }
+            ]
+          },
+          {
+            "@type": "Article",
+            "headline": "AI software: kiezen, integreren of op maat laten bouwen",
+            "description": "Welke AI software past bij je organisatie? Lees hoe je kiest tussen standaardsoftware en maatwerk, en hoe je AI software veilig integreert met je systemen.",
+            "inLanguage": "nl-NL",
+            "datePublished": "2026-09-23",
+            "dateModified": "2026-09-23",
+            "author": {
+              "@type": "Person",
+              "name": "Dave Willemstein",
+              "jobTitle": "Onafhankelijk AI-adviseur",
+              "url": "https://freelanceaiconsultant.com/over",
+              "sameAs": [
+                "https://www.linkedin.com/in/davewillemstein"
+              ]
+            },
+            "publisher": {
+              "@type": "Person",
+              "name": "Dave Willemstein"
+            },
+            "mainEntityOfPage": "https://freelanceaiconsultant.com/ai-development/ai-software"
+          },
+          {
+            "@type": "FAQPage",
+            "mainEntity": [
+              {
+                "@type": "Question",
+                "name": "Wat is het verschil tussen AI software en gewone software?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Gewone software doet wat je programmeert. AI software doet een voorspelling of genereert een antwoord op basis van een model, en kan daarbij fouten maken. Daarom moet je bij AI software niet alleen vragen wat het kan, maar ook hoe goed het werkt op jouw data en wat er gebeurt als het ernaast zit."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Wordt mijn data gebruikt om de AI software te trainen?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Dat verschilt per leverancier en vaak per abonnement. Vraag het expliciet na, laat het vastleggen in het contract en controleer of je het kunt uitzetten. Ga er nooit van uit dat de standaardinstelling past bij jouw beleid."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Kan AI software op maat goedkoper zijn dan een licentie?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "In jaar één soms wel, over meerdere jaren zelden. Maatwerk brengt doorlopende kosten mee voor beheer, monitoring en het bijhouden van onderliggende modellen. Reken daarom altijd over meerdere jaren en neem ook de exitkosten mee."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Wie is aansprakelijk als AI software een fout maakt?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Dat hangt af van je contract en van hoe je de software inzet. Leg vast wat de leverancier garandeert, hoe fouten worden gemeld en wie wat herstelt. Richt je proces zo in dat een mens de uitkomst controleert waar de gevolgen groot zijn."
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "afbeeldingen": [
+    {
+      "regio": "header",
+      "src": "/images/freelance-ai-consultant-logo-header.png",
+      "alt": "freelanceaiconsultant.com logo",
+      "width": "600",
+      "height": "287",
+      "loading": null
+    },
+    {
+      "regio": "main",
+      "src": "/images/dave-portrait.jpg",
+      "alt": "Portret van Dave Willemstein",
+      "width": "88",
+      "height": "88",
+      "loading": "lazy"
+    },
+    {
+      "regio": "footer",
+      "src": "/images/freelance-ai-consultant-icon-footer.png",
+      "alt": "",
+      "width": "192",
+      "height": "192",
+      "loading": "lazy"
+    }
+  ],
+  "laadprestaties": {
+    "scripts": [
+      {
+        "src": "/logo-carousel/logo-carousel.js?v=2",
+        "type": null,
+        "inline_bytes": 0
+      }
+    ],
+    "stylesheets": [
+      "https://fonts.googleapis.com/css2?family=Caveat:wght@600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap",
+      "/_astro/_slug_.bq6BBoZ5.css",
+      "/_astro/_slug_.goiX3PVF.css",
+      "/logo-carousel/logo-carousel.css?v=2"
+    ],
+    "aantal_details": 4,
+    "aantal_tabellen": 1
+  }
+}

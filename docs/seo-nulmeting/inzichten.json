@@ -1,0 +1,726 @@
+{
+  "url": "/inzichten",
+  "build_bestand": "dist/inzichten/index.html",
+  "bron": [
+    "src/pages/inzichten/index.astro"
+  ],
+  "gemeten_op": "2026-10-06",
+  "html": {
+    "bytes": 38223,
+    "sha256": "da108b0778902a4bc4ce259bfbe0ece311c834faddac2479318765374c43be44",
+    "lang": "nl"
+  },
+  "beschermd": {
+    "title": "Inzichten | Freelance AI Consultant",
+    "meta_description": "Praktische artikelen over AI-strategie, use cases, governance, datafundament en vendorselectie. Geschreven voor senior leiders die moeten beslissen.",
+    "canonical": "https://freelanceaiconsultant.com/inzichten",
+    "robots_meta": null,
+    "hreflang": [],
+    "h1": [
+      "Praktische inzichten voor betere AI-beslissingen."
+    ]
+  },
+  "social": {
+    "og:type": "website",
+    "og:locale": "nl_NL",
+    "og:site_name": "freelanceaiconsultant.com",
+    "og:title": "Inzichten | Freelance AI Consultant",
+    "og:description": "Praktische artikelen over AI-strategie, use cases, governance, datafundament en vendorselectie. Geschreven voor senior leiders die moeten beslissen.",
+    "og:url": "https://freelanceaiconsultant.com/inzichten",
+    "og:image": "https://freelanceaiconsultant.com/images/dave-portrait.jpg",
+    "twitter:card": "summary_large_image",
+    "twitter:title": "Inzichten | Freelance AI Consultant",
+    "twitter:description": "Praktische artikelen over AI-strategie, use cases, governance, datafundament en vendorselectie. Geschreven voor senior leiders die moeten beslissen.",
+    "twitter:image": "https://freelanceaiconsultant.com/images/dave-portrait.jpg"
+  },
+  "koppen": [
+    {
+      "niveau": 1,
+      "tekst": "Praktische inzichten voor betere AI-beslissingen.",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "Freelance AI consultant vs agency vs Big 4",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "Alle artikelen",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 3,
+      "tekst": "AI-agents: wat ze wel en niet kunnen in een bedrijfsproces",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 3,
+      "tekst": "Van AI-strategie naar waarde: een 3-stappenplan",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 3,
+      "tekst": "Build, buy of partner: wat past bij jouw situatie?",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 3,
+      "tekst": "Welke AI-use cases leveren écht resultaat op?",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 3,
+      "tekst": "Freelance AI consultant vs agency vs Big 4",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 3,
+      "tekst": "De rol van het datafundament in succesvolle AI-initiatieven",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 3,
+      "tekst": "AI-governance zonder bureaucratie: wat je minimaal nodig hebt",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 3,
+      "tekst": "Waarom AI-pilots blijven steken (en wat je eraan doet)",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 3,
+      "tekst": "De business case voor AI: hoe je hem eerlijk berekent",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 3,
+      "tekst": "AI-adoptie begint bij het werk, niet bij de tool",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 3,
+      "tekst": "AI-vendorselectie in acht stappen",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 3,
+      "tekst": "Wanneer heb je echt een AI-strateeg nodig?",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "Blijf scherp. Ontvang praktische AI-inzichten.",
+      "regio": "main",
+      "id": null
+    }
+  ],
+  "bodytekst": {
+    "regio": "main",
+    "woorden": 737,
+    "sha256": "7ada5ed2301ac2a7aca3c3c02fc682daffe62cd3accb5edc3d0ac7af14ae41d7",
+    "blokken": [
+      "AI-advies dat je helpt beslissen",
+      "Praktische inzichten voor betere AI-beslissingen.",
+      "Ervaringen uit de praktijk, frameworks en no-nonsense advies voor senior leiders die AI willen inzetten met impact. 12 artikelen, geen enkele geschreven om iets te verkopen.",
+      "Plan een gesprek → Bekijk cases → 30 min., geen pitch deck",
+      "vertrouwen,ervaring, impact ↓",
+      "Independent No vendor bias Senior only20+ jaar ervaring",
+      "AI in Europa",
+      "Europese merken die AI al in productie hebben.",
+      "Geen klanten van mij. Wel voorbeelden van wat er gebeurt als AI voorbij de pilot komt.",
+      "Pauzeer",
+      "Klarna",
+      "Zweden",
+      "AI-assistent in de klantenservice",
+      "Zalando",
+      "Duitsland",
+      "Mode-assistent voor productadvies",
+      "Financial services",
+      "Investeringsmaatschappij",
+      "AI-strategie en use-case portfolio",
+      "Booking.com",
+      "Nederland",
+      "AI Trip Planner voor reisplanning",
+      "Siemens",
+      "Duitsland",
+      "Industrial Copilot voor engineering",
+      "Retail",
+      "Enterprise retailer",
+      "AI-gedreven vendorselectie",
+      "Spotify",
+      "Zweden",
+      "AI DJ en gepersonaliseerde playlists",
+      "Mercedes-Benz",
+      "Duitsland",
+      "Generatieve spraakassistent in de auto",
+      "Industrial / B2B",
+      "Internationale maakorganisatie",
+      "AI-roadmap en leadership",
+      "ING",
+      "Nederland",
+      "Generatieve chatbot voor klantvragen",
+      "L'Oréal",
+      "Frankrijk",
+      "Beauty Genius: persoonlijk advies",
+      "Financial services",
+      "Financiële dienstverlener",
+      "KYC versneld met AI-documentanalyse",
+      "SAP",
+      "Duitsland",
+      "Joule: copilot in bedrijfssoftware",
+      "Carrefour",
+      "Frankrijk",
+      "Hopla: boodschappenassistent",
+      "Strategy & AI",
+      "SaaS scale-up",
+      "AI-readiness assessment",
+      "Adyen",
+      "Nederland",
+      "AI-optimalisatie van betalingen",
+      "Philips",
+      "Nederland",
+      "AI in medische beeldvorming",
+      "Proces & productivity",
+      "Zakelijke dienstverlener",
+      "Interne AI-assistent voor kenniswerkers",
+      "Freelance AI consultant Agency Big 4",
+      "Uitgelicht artikel",
+      "Freelance AI consultant vs agency vs Big 4",
+      "Een eerlijke vergelijking op onafhankelijkheid, snelheid, diepgang, kosten en uitvoeringskracht. Zodat jij de juiste partner kiest, ook als dat niet ik ben.",
+      "◷ 4 min leestijd 23 april 2026",
+      "Lees artikel →",
+      "Alle inzichten",
+      "Use cases",
+      "Strategie",
+      "Organisatie",
+      "Tools & data",
+      "Governance",
+      "Geen resultaten in deze categorie.",
+      "Alle artikelen",
+      "12 artikelen · RSS",
+      "↯",
+      "Use cases",
+      "AI-agents: wat ze wel en niet kunnen in een bedrijfsproces",
+      "Agents die zelfstandig taken uitvoeren zijn de belofte van dit moment. Waar ze werken, waar ze stukgaan, en welke vraag je vooraf moet beantwoorden.",
+      "◷ 4 min leestijd Lees artikel →",
+      "↗",
+      "Strategie",
+      "Van AI-strategie naar waarde: een 3-stappenplan",
+      "De meeste AI-strategieën stranden niet op de strategie, maar op de vertaling ervan. Drie stappen die die vertaling afdwingen.",
+      "◷ 4 min leestijd Lees artikel →",
+      "⇄",
+      "Organisatie",
+      "Build, buy of partner: wat past bij jouw situatie?",
+      "De vraag is zelden \"kunnen we dit zelf bouwen?\" maar \"willen we dit over drie jaar nog steeds onderhouden?\". Een beslisraamwerk in vier vragen.",
+      "◷ 4 min leestijd Lees artikel →",
+      "⌕",
+      "Use cases",
+      "Welke AI-use cases leveren écht resultaat op?",
+      "Niet de spectaculairste, maar de saaiste. Vier kenmerken die de winnaars delen, en vier patronen die vrijwel altijd stranden.",
+      "◷ 4 min leestijd Lees artikel →",
+      "⇄",
+      "Strategie",
+      "Freelance AI consultant vs agency vs Big 4",
+      "Een eerlijke vergelijking op onafhankelijkheid, snelheid, diepgang, kosten en uitvoeringskracht. Zodat jij de juiste partner kiest, ook als dat niet ik ben.",
+      "◷ 4 min leestijd Lees artikel →",
+      "◫",
+      "Tools & data",
+      "De rol van het datafundament in succesvolle AI-initiatieven",
+      "\"Eerst de data op orde\" is net zo vaak een excuus als een noodzaak. Hoe je bepaalt welke van de twee bij jou speelt.",
+      "◷ 4 min leestijd Lees artikel →",
+      "▣",
+      "Governance",
+      "AI-governance zonder bureaucratie: wat je minimaal nodig hebt",
+      "Governance die niemand gebruikt, beschermt niemand. Vier mechanismen die het verschil maken, en wat je gerust kunt overslaan.",
+      "◷ 5 min leestijd Lees artikel →",
+      "⚠",
+      "Organisatie",
+      "Waarom AI-pilots blijven steken (en wat je eraan doet)",
+      "De pilot werkte. Iedereen was enthousiast. En toch is er een jaar later niets opgeschaald. Vijf oorzaken, vijf tegenmaatregelen.",
+      "◷ 4 min leestijd Lees artikel →",
+      "€",
+      "Strategie",
+      "De business case voor AI: hoe je hem eerlijk berekent",
+      "Tijdbesparing is geen besparing tot iemand die tijd anders besteedt. Een rekenmodel dat de toets van de CFO doorstaat.",
+      "◷ 5 min leestijd Lees artikel →",
+      "◉",
+      "Organisatie",
+      "AI-adoptie begint bij het werk, niet bij de tool",
+      "Iedereen een licentie geven is geen adoptiestrategie. Waarom een leeg invoerveld de grootste drempel is, en wat er wel werkt.",
+      "◷ 4 min leestijd Lees artikel →",
+      "◈",
+      "Tools & data",
+      "AI-vendorselectie in acht stappen",
+      "Criteria eerst, leveranciers daarna. Een selectieproces dat bestand is tegen goede demo’s en interne voorkeuren.",
+      "◷ 5 min leestijd Lees artikel →",
+      "◎",
+      "Strategie",
+      "Wanneer heb je echt een AI-strateeg nodig?",
+      "In de helft van de gevallen is het antwoord: niet. Vier situaties waarin externe hulp loont, en vier waarin je het zelf beter kunt.",
+      "◷ 4 min leestijd Lees artikel →",
+      "Blijf scherp. Ontvang praktische AI-inzichten.",
+      "Eén keer per maand een korte, praktische update met frameworks, ervaringen en voorbeelden die je direct kunt toepassen. Geen nieuwsbrief met linkjes, maar één uitgewerkt idee per keer.",
+      "Je e-mailadres",
+      "Verstuur →",
+      "Uitschrijven kan met één klik. Je adres gaat nergens anders heen. Zie de privacyverklaring.",
+      "No noise.Just insights. Not another newsletter.Actual value."
+    ]
+  },
+  "links": [
+    {
+      "regio": "overig",
+      "soort": "intern",
+      "href": "#main",
+      "anker": "Naar hoofdinhoud",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/",
+      "anker": "",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/diensten",
+      "anker": "Diensten",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/cases",
+      "anker": "Cases",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/werkwijze",
+      "anker": "Werkwijze",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/inzichten",
+      "anker": "Inzichten",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/over",
+      "anker": "Over mij",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/contact",
+      "anker": "Plan een gesprek →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/contact",
+      "anker": "Plan een gesprek →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/cases",
+      "anker": "Bekijk cases →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/inzichten/freelance-ai-consultant-vs-agency-vs-big4",
+      "anker": "Lees artikel →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/rss.xml",
+      "anker": "RSS",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/inzichten/ai-agents-wat-ze-wel-en-niet-kunnen",
+      "anker": "↯ Use cases AI-agents: wat ze wel en niet kunnen in een bedrijfsproces Agents die zelfstandig taken uitvoeren zijn de belofte van dit moment. Waar ze werken, waar ze stukgaan, en welke vraag je vooraf moet beantwoorden. ◷ 4 min leestijd Lees artikel →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/inzichten/van-ai-strategie-naar-waarde",
+      "anker": "↗ Strategie Van AI-strategie naar waarde: een 3-stappenplan De meeste AI-strategieën stranden niet op de strategie, maar op de vertaling ervan. Drie stappen die die vertaling afdwingen. ◷ 4 min leestijd Lees artikel →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/inzichten/build-buy-of-partner",
+      "anker": "⇄ Organisatie Build, buy of partner: wat past bij jouw situatie? De vraag is zelden \"kunnen we dit zelf bouwen?\" maar \"willen we dit over drie jaar nog steeds onderhouden?\". Een beslisraamwerk in vier vragen. ◷ 4 min leestijd Lees artikel →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/inzichten/welke-ai-use-cases-leveren-resultaat",
+      "anker": "⌕ Use cases Welke AI-use cases leveren écht resultaat op? Niet de spectaculairste, maar de saaiste. Vier kenmerken die de winnaars delen, en vier patronen die vrijwel altijd stranden. ◷ 4 min leestijd Lees artikel →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/inzichten/freelance-ai-consultant-vs-agency-vs-big4",
+      "anker": "⇄ Strategie Freelance AI consultant vs agency vs Big 4 Een eerlijke vergelijking op onafhankelijkheid, snelheid, diepgang, kosten en uitvoeringskracht. Zodat jij de juiste partner kiest, ook als dat niet ik ben. ◷ 4 min leestijd Lees artikel →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/inzichten/het-datafundament-onder-ai",
+      "anker": "◫ Tools & data De rol van het datafundament in succesvolle AI-initiatieven \"Eerst de data op orde\" is net zo vaak een excuus als een noodzaak. Hoe je bepaalt welke van de twee bij jou speelt. ◷ 4 min leestijd Lees artikel →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/inzichten/ai-governance-zonder-bureaucratie",
+      "anker": "▣ Governance AI-governance zonder bureaucratie: wat je minimaal nodig hebt Governance die niemand gebruikt, beschermt niemand. Vier mechanismen die het verschil maken, en wat je gerust kunt overslaan. ◷ 5 min leestijd Lees artikel →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/inzichten/waarom-ai-pilots-blijven-steken",
+      "anker": "⚠ Organisatie Waarom AI-pilots blijven steken (en wat je eraan doet) De pilot werkte. Iedereen was enthousiast. En toch is er een jaar later niets opgeschaald. Vijf oorzaken, vijf tegenmaatregelen. ◷ 4 min leestijd Lees artikel →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/inzichten/de-business-case-voor-ai",
+      "anker": "€ Strategie De business case voor AI: hoe je hem eerlijk berekent Tijdbesparing is geen besparing tot iemand die tijd anders besteedt. Een rekenmodel dat de toets van de CFO doorstaat. ◷ 5 min leestijd Lees artikel →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/inzichten/ai-adoptie-begint-bij-het-werk",
+      "anker": "◉ Organisatie AI-adoptie begint bij het werk, niet bij de tool Iedereen een licentie geven is geen adoptiestrategie. Waarom een leeg invoerveld de grootste drempel is, en wat er wel werkt. ◷ 4 min leestijd Lees artikel →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/inzichten/ai-vendorselectie-in-acht-stappen",
+      "anker": "◈ Tools & data AI-vendorselectie in acht stappen Criteria eerst, leveranciers daarna. Een selectieproces dat bestand is tegen goede demo’s en interne voorkeuren. ◷ 5 min leestijd Lees artikel →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/inzichten/wanneer-heb-je-echt-een-ai-strateeg-nodig",
+      "anker": "◎ Strategie Wanneer heb je echt een AI-strateeg nodig? In de helft van de gevallen is het antwoord: niet. Vier situaties waarin externe hulp loont, en vier waarin je het zelf beter kunt. ◷ 4 min leestijd Lees artikel →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/privacy",
+      "anker": "privacyverklaring",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/diensten/ai-readiness-assessment",
+      "anker": "AI Readiness Assessment",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/diensten/ai-strategy-sprint",
+      "anker": "AI Strategy Sprint",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/diensten/fractional-ai-lead",
+      "anker": "Fractional AI Lead",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/diensten",
+      "anker": "Alle diensten",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/cases",
+      "anker": "Cases",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/werkwijze",
+      "anker": "Werkwijze",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/inzichten",
+      "anker": "Inzichten",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/veelgestelde-vragen",
+      "anker": "Veelgestelde vragen",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/over",
+      "anker": "Over mij",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-consultancy",
+      "anker": "AI consultancy",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-implementatie",
+      "anker": "AI implementatie",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-automatisering",
+      "anker": "AI automatisering",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-voor-bedrijven",
+      "anker": "AI voor bedrijven",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-development",
+      "anker": "AI development",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-agents",
+      "anker": "AI agents",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-beleid",
+      "anker": "AI beleid",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-workshop",
+      "anker": "AI workshop",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/markten",
+      "anker": "AI per branche",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/kennisbank",
+      "anker": "Kennisbank",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/tarieven",
+      "anker": "Tarieven",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/partnernetwerk",
+      "anker": "Partnernetwerk",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "overig",
+      "href": "mailto:dave@freelanceaiconsultant.com",
+      "anker": "dave@freelanceaiconsultant.com",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "extern",
+      "href": "https://www.linkedin.com/in/davewillemstein",
+      "anker": "LinkedIn ↗",
+      "rel": "noopener"
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/contact",
+      "anker": "Plan een gesprek",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/privacy",
+      "anker": "Privacyverklaring",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/algemene-voorwaarden",
+      "anker": "Algemene voorwaarden",
+      "rel": null
+    }
+  ],
+  "structured_data": {
+    "sha256": "a5061ca8a1365767976383bbe3f8ca8c7303ad55f1e69875819e8176bcd53896",
+    "items": [
+      {
+        "@context": "https://schema.org",
+        "@type": "ProfessionalService",
+        "name": "Dave Willemstein, Independent AI Advisor",
+        "url": "https://freelanceaiconsultant.com",
+        "image": "https://freelanceaiconsultant.com/images/dave-portrait.jpg",
+        "email": "dave@freelanceaiconsultant.com",
+        "description": "Praktische artikelen over AI-strategie, use cases, governance, datafundament en vendorselectie. Geschreven voor senior leiders die moeten beslissen.",
+        "areaServed": [
+          "NL",
+          "BE",
+          "DE"
+        ],
+        "priceRange": "€€€",
+        "founder": {
+          "@type": "Person",
+          "name": "Dave Willemstein",
+          "jobTitle": "Onafhankelijk AI-adviseur",
+          "url": "https://freelanceaiconsultant.com",
+          "sameAs": [
+            "https://www.linkedin.com/in/davewillemstein"
+          ]
+        }
+      }
+    ]
+  },
+  "afbeeldingen": [
+    {
+      "regio": "header",
+      "src": "/images/freelance-ai-consultant-logo-header.png",
+      "alt": "freelanceaiconsultant.com logo",
+      "width": "600",
+      "height": "287",
+      "loading": null
+    },
+    {
+      "regio": "main",
+      "src": "/images/dave-portrait.jpg",
+      "alt": "Dave Willemstein, Independent AI Advisor",
+      "width": "500",
+      "height": "620",
+      "loading": "lazy"
+    },
+    {
+      "regio": "footer",
+      "src": "/images/freelance-ai-consultant-icon-footer.png",
+      "alt": "",
+      "width": "192",
+      "height": "192",
+      "loading": "lazy"
+    }
+  ],
+  "laadprestaties": {
+    "scripts": [
+      {
+        "src": null,
+        "type": "module",
+        "inline_bytes": 621
+      },
+      {
+        "src": null,
+        "type": "module",
+        "inline_bytes": 1068
+      },
+      {
+        "src": "/logo-carousel/logo-carousel.js?v=2",
+        "type": null,
+        "inline_bytes": 0
+      }
+    ],
+    "stylesheets": [
+      "https://fonts.googleapis.com/css2?family=Caveat:wght@600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap",
+      "/_astro/_slug_.bq6BBoZ5.css",
+      "/logo-carousel/logo-carousel.css?v=2"
+    ],
+    "aantal_details": 0,
+    "aantal_tabellen": 0
+  }
+}

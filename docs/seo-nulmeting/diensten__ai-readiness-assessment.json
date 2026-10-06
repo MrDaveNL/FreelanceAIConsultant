@@ -1,0 +1,673 @@
+{
+  "url": "/diensten/ai-readiness-assessment",
+  "build_bestand": "dist/diensten/ai-readiness-assessment/index.html",
+  "bron": [
+    "src/pages/diensten/[slug].astro",
+    "src/data/services.js",
+    "src/data/prijzen.ts"
+  ],
+  "gemeten_op": "2026-10-06",
+  "html": {
+    "bytes": 34002,
+    "sha256": "62dad3a23f9622623b98af9841f9068a5922e68b116891e6e7e5c09fab670a1a",
+    "lang": "nl"
+  },
+  "beschermd": {
+    "title": "AI Readiness Assessment | Freelance AI Consultant",
+    "meta_description": "Nuchtere doorlichting op strategie, data, technologie, mensen en governance. In 3 weken weet je wat haalbaar is en wat eerst moet. Vaste prijs €7.000.",
+    "canonical": "https://freelanceaiconsultant.com/diensten/ai-readiness-assessment",
+    "robots_meta": null,
+    "hreflang": [],
+    "h1": [
+      "AI Readiness Assessment"
+    ]
+  },
+  "social": {
+    "og:type": "website",
+    "og:locale": "nl_NL",
+    "og:site_name": "freelanceaiconsultant.com",
+    "og:title": "AI Readiness Assessment | Freelance AI Consultant",
+    "og:description": "Nuchtere doorlichting op strategie, data, technologie, mensen en governance. In 3 weken weet je wat haalbaar is en wat eerst moet. Vaste prijs €7.000.",
+    "og:url": "https://freelanceaiconsultant.com/diensten/ai-readiness-assessment",
+    "og:image": "https://freelanceaiconsultant.com/images/dave-portrait.jpg",
+    "twitter:card": "summary_large_image",
+    "twitter:title": "AI Readiness Assessment | Freelance AI Consultant",
+    "twitter:description": "Nuchtere doorlichting op strategie, data, technologie, mensen en governance. In 3 weken weet je wat haalbaar is en wat eerst moet. Vaste prijs €7.000.",
+    "twitter:image": "https://freelanceaiconsultant.com/images/dave-portrait.jpg"
+  },
+  "koppen": [
+    {
+      "niveau": 1,
+      "tekst": "AI Readiness Assessment",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "Herkenbaar?",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "Drie weken, vier vaste blokken. Geen wekenlange interviewrondes.",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 3,
+      "tekst": "Week 1",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 3,
+      "tekst": "Week 2",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 3,
+      "tekst": "Week 3",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "Concreet. Duidelijk. Direct toepasbaar.",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 3,
+      "tekst": "Voor organisaties die:",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "Van inzicht naar impact.",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 3,
+      "tekst": "Diagnose",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 3,
+      "tekst": "Prioriteren",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 3,
+      "tekst": "Beslissen",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 3,
+      "tekst": "Ship & govern",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "Scale-up wist na drie weken wat níét te doen.",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "Antwoorden op wat je nu denkt.",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 3,
+      "tekst": "AI Strategy Sprint",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 3,
+      "tekst": "Executive Briefing",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "Plan een gesprek.",
+      "regio": "main",
+      "id": null
+    }
+  ],
+  "bodytekst": {
+    "regio": "main",
+    "woorden": 862,
+    "sha256": "7190eb99b99ec1841d5251078b209b00ad86544a23c4e25583a4d57d35c62f69",
+    "blokken": [
+      "Weten waar je staat",
+      "AI Readiness Assessment",
+      "Een nuchtere doorlichting van je organisatie op vijf dimensies: strategie, data, technologie, mensen en governance. Je weet binnen drie weken wat haalbaar is, wat eerst moet en wat je beter nog niet doet.",
+      "Plan een gesprek → Alle diensten → 30 min., geen pitch deck",
+      "vertrouwen,ervaring, impact ↓",
+      "Independent No vendor bias Senior only20+ jaar ervaring",
+      "AI in Europa",
+      "Europese merken die AI al in productie hebben.",
+      "Geen klanten van mij. Wel voorbeelden van wat er gebeurt als AI voorbij de pilot komt.",
+      "Pauzeer",
+      "Klarna",
+      "Zweden",
+      "AI-assistent in de klantenservice",
+      "Zalando",
+      "Duitsland",
+      "Mode-assistent voor productadvies",
+      "Financial services",
+      "Investeringsmaatschappij",
+      "AI-strategie en use-case portfolio",
+      "Booking.com",
+      "Nederland",
+      "AI Trip Planner voor reisplanning",
+      "Siemens",
+      "Duitsland",
+      "Industrial Copilot voor engineering",
+      "Retail",
+      "Enterprise retailer",
+      "AI-gedreven vendorselectie",
+      "Spotify",
+      "Zweden",
+      "AI DJ en gepersonaliseerde playlists",
+      "Mercedes-Benz",
+      "Duitsland",
+      "Generatieve spraakassistent in de auto",
+      "Industrial / B2B",
+      "Internationale maakorganisatie",
+      "AI-roadmap en leadership",
+      "ING",
+      "Nederland",
+      "Generatieve chatbot voor klantvragen",
+      "L'Oréal",
+      "Frankrijk",
+      "Beauty Genius: persoonlijk advies",
+      "Financial services",
+      "Financiële dienstverlener",
+      "KYC versneld met AI-documentanalyse",
+      "SAP",
+      "Duitsland",
+      "Joule: copilot in bedrijfssoftware",
+      "Carrefour",
+      "Frankrijk",
+      "Hopla: boodschappenassistent",
+      "Strategy & AI",
+      "SaaS scale-up",
+      "AI-readiness assessment",
+      "Adyen",
+      "Nederland",
+      "AI-optimalisatie van betalingen",
+      "Philips",
+      "Nederland",
+      "AI in medische beeldvorming",
+      "Proces & productivity",
+      "Zakelijke dienstverlener",
+      "Interne AI-assistent voor kenniswerkers",
+      "Duur2-3 weken",
+      "ResultaatReadiness-rapport + 90-dagenplan",
+      "Investering€7.000",
+      "Vaste prijs, inclusief eindpresentatie aan MT of board. Bedragen zijn exclusief btw en reiskosten.",
+      "De aanleiding",
+      "Herkenbaar?",
+      "Er lopen pilots, maar niemand kan uitleggen wat ze samen opleveren.",
+      "De vraag “zijn we er klaar voor?” krijgt vier verschillende antwoorden, afhankelijk van wie je het vraagt.",
+      "Een leverancier heeft een indrukwekkende demo gegeven en nu moet er snel een besluit komen.",
+      "Het datafundament wordt genoemd als probleem, maar niemand weet hoe groot dat probleem precies is.",
+      "Hoe het werkt",
+      "Drie weken, vier vaste blokken. Geen wekenlange interviewrondes.",
+      "01",
+      "Week 1",
+      "Documentenanalyse, datascan en 8–12 interviews dwars door de organisatie: business, IT, data, risk en een paar mensen op de werkvloer.",
+      "02",
+      "Week 2",
+      "Scoring op vijf dimensies tegen een referentiekader, plus een eerste kansenlijst die we toetsen bij de eigenaren van die processen.",
+      "03",
+      "Week 3",
+      "Prioritering, 90-dagenplan en de eindsessie waarin we het gesprek voeren dat er echt toe doet: wat gaan we wel en niet doen?",
+      "Wat je krijgt",
+      "Concreet. Duidelijk.Direct toepasbaar.",
+      "Readiness-score op strategie, data, technologie, mensen en governance",
+      "Gap-analyse met de drie blokkades die er werkelijk toe doen",
+      "Gevalideerde longlist van use cases met een eerste waarde-inschatting",
+      "90-dagenplan met eigenaren, budget-orde-van-grootte en beslismomenten",
+      "Risico- en compliance-scan inclusief positionering onder de AI-verordening",
+      "Eindpresentatie die je één-op-één kunt hergebruiken richting board",
+      "Best passend bij",
+      "Voor organisaties die:",
+      "Organisaties die AI serieus overwegen maar nog geen richting hebben gekozen",
+      "MT’s die een investeringsvoorstel moeten onderbouwen",
+      "Teams die vastlopen tussen enthousiaste pilots en een sceptische board",
+      "Situaties waarin er haast is, maar een verkeerd besluit duur wordt",
+      "Minder geschikt als",
+      "Als je al weet wat je gaat bouwen en alleen uitvoeringscapaciteit zoekt",
+      "Als het doel een rapport is dat vooral bevestigt wat al besloten is",
+      "Het onderliggende ritme",
+      "Van inzichtnaar impact.",
+      "Elke opdracht doorloopt dezelfde vier beslismomenten. Alleen de diepgang per stap verschilt.",
+      "Meer over mijn werkwijze →",
+      "01",
+      "⌕",
+      "Diagnose",
+      "Wat proberen we werkelijk op te lossen?",
+      "02",
+      "☑",
+      "Prioriteren",
+      "Welke use cases verdienen geld, tijd en aandacht?",
+      "03",
+      "↯",
+      "Beslissen",
+      "Build, buy of partner, en waarom?",
+      "04",
+      "↗",
+      "Ship & govern",
+      "Hoe zorgen we dat het ook echt landt?",
+      "Recente case",
+      "Scale-up wist na drie weken wat níét te doen.",
+      "Lees de volledige case →",
+      "Een groeiende SaaS-organisatie stond op het punt een AI-platform te kopen. Het assessment liet zien dat het datafundament dat platform binnen een jaar zou laten mislukken. Het besluit werd uitgesteld, het fundament eerst aangepakt.",
+      "5dimensies gescoord14use cases beoordeeld90dagen concreet actieplan€0verspild aan een te vroege licentie",
+      "Veelgestelde vragen",
+      "Antwoorden op wat je nu denkt.",
+      "Hoeveel tijd kost dit mijn team?+",
+      "Reken op 45–60 minuten per geïnterviewde, plus twee sessies van anderhalf uur met de kerngroep. Meer vraag ik niet. Het gros van het werk doe ik zelf op basis van documenten, systemen en data.",
+      "Krijg ik een scorecard of een advies?+",
+      "Allebei, maar het advies is het product. Een score zonder interpretatie is een cijfer zonder betekenis. In de eindsessie leg ik uit welke score je kunt negeren en welke je serieus moet nemen.",
+      "Wat als de uitkomst is dat we nog niet klaar zijn?+",
+      "Dan is dat de waardevolste uitkomst die je voor dit bedrag kunt krijgen. Je krijgt dan een fundamentplan in plaats van een use-caseplan, en je bespaart een mislukt traject.",
+      "Kan dit ook voor één afdeling in plaats van de hele organisatie?+",
+      "Ja. Voor een enkele business unit of een specifiek procesdomein duurt het assessment doorgaans twee weken en ligt de investering lager. Dat bespreken we in de intake.",
+      "Meer vragen over samenwerking, tarieven en inkoop? Bekijk alle veelgestelde vragen →",
+      "Ook interessant",
+      "↯",
+      "AI Strategy Sprint",
+      "Van ambitie naar een realistische AI-roadmap die past bij business, mensen en middelen, board-ready in zes weken.",
+      "4-6 weken · €15.400 - €22.400",
+      "→ ◉",
+      "Executive Briefing",
+      "Compacte sessie voor directie of board over AI-kansen, risico’s en wat het van bestuurders vraagt.",
+      "1 dagdeel incl. voorbereiding · €2.800",
+      "→",
+      "Klaar voor impact?",
+      "Plan een gesprek.",
+      "30 minuten. Geen pitch deck. Gewoon een goed gesprek over jouw situatie.",
+      "30 min., geen pitch deckPlan een gesprek →"
+    ]
+  },
+  "links": [
+    {
+      "regio": "overig",
+      "soort": "intern",
+      "href": "#main",
+      "anker": "Naar hoofdinhoud",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/",
+      "anker": "",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/diensten",
+      "anker": "Diensten",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/cases",
+      "anker": "Cases",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/werkwijze",
+      "anker": "Werkwijze",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/inzichten",
+      "anker": "Inzichten",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/over",
+      "anker": "Over mij",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/contact",
+      "anker": "Plan een gesprek →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/contact",
+      "anker": "Plan een gesprek →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/diensten",
+      "anker": "Alle diensten →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/werkwijze",
+      "anker": "Meer over mijn werkwijze →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/cases/ai-readiness-scale-up",
+      "anker": "Lees de volledige case →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/veelgestelde-vragen",
+      "anker": "Bekijk alle veelgestelde vragen →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/diensten/ai-strategy-sprint",
+      "anker": "↯ AI Strategy Sprint Van ambitie naar een realistische AI-roadmap die past bij business, mensen en middelen, board-ready in zes weken. 4-6 weken · €15.400 - €22.400 →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/diensten/executive-briefing",
+      "anker": "◉ Executive Briefing Compacte sessie voor directie of board over AI-kansen, risico’s en wat het van bestuurders vraagt. 1 dagdeel incl. voorbereiding · €2.800 →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/contact",
+      "anker": "Plan een gesprek →",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/diensten/ai-readiness-assessment",
+      "anker": "AI Readiness Assessment",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/diensten/ai-strategy-sprint",
+      "anker": "AI Strategy Sprint",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/diensten/fractional-ai-lead",
+      "anker": "Fractional AI Lead",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/diensten",
+      "anker": "Alle diensten",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/cases",
+      "anker": "Cases",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/werkwijze",
+      "anker": "Werkwijze",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/inzichten",
+      "anker": "Inzichten",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/veelgestelde-vragen",
+      "anker": "Veelgestelde vragen",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/over",
+      "anker": "Over mij",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-consultancy",
+      "anker": "AI consultancy",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-implementatie",
+      "anker": "AI implementatie",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-automatisering",
+      "anker": "AI automatisering",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-voor-bedrijven",
+      "anker": "AI voor bedrijven",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-development",
+      "anker": "AI development",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-agents",
+      "anker": "AI agents",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-beleid",
+      "anker": "AI beleid",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-workshop",
+      "anker": "AI workshop",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/markten",
+      "anker": "AI per branche",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/kennisbank",
+      "anker": "Kennisbank",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/tarieven",
+      "anker": "Tarieven",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/partnernetwerk",
+      "anker": "Partnernetwerk",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "overig",
+      "href": "mailto:dave@freelanceaiconsultant.com",
+      "anker": "dave@freelanceaiconsultant.com",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "extern",
+      "href": "https://www.linkedin.com/in/davewillemstein",
+      "anker": "LinkedIn ↗",
+      "rel": "noopener"
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/contact",
+      "anker": "Plan een gesprek",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/privacy",
+      "anker": "Privacyverklaring",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/algemene-voorwaarden",
+      "anker": "Algemene voorwaarden",
+      "rel": null
+    }
+  ],
+  "structured_data": {
+    "sha256": "a6683cd261eed7ea47ecb3b15ac6164de87062b494a8a021712f84569d5ccad1",
+    "items": [
+      {
+        "@context": "https://schema.org",
+        "@type": "Service",
+        "name": "AI Readiness Assessment",
+        "description": "Een nuchtere doorlichting van je organisatie op vijf dimensies: strategie, data, technologie, mensen en governance. Je weet binnen drie weken wat haalbaar is, wat eerst moet en wat je beter nog niet doet.",
+        "provider": {
+          "@type": "Person",
+          "name": "Dave Willemstein",
+          "url": "https://freelanceaiconsultant.com"
+        },
+        "areaServed": [
+          "NL",
+          "BE",
+          "DE"
+        ],
+        "serviceType": "AI-advies",
+        "offers": {
+          "@type": "Offer",
+          "priceCurrency": "EUR",
+          "description": "€7.000. Vaste prijs, inclusief eindpresentatie aan MT of board."
+        }
+      }
+    ]
+  },
+  "afbeeldingen": [
+    {
+      "regio": "header",
+      "src": "/images/freelance-ai-consultant-logo-header.png",
+      "alt": "freelanceaiconsultant.com logo",
+      "width": "600",
+      "height": "287",
+      "loading": null
+    },
+    {
+      "regio": "main",
+      "src": "/images/dave-portrait.jpg",
+      "alt": "Dave Willemstein, Independent AI Advisor",
+      "width": "500",
+      "height": "620",
+      "loading": "lazy"
+    },
+    {
+      "regio": "footer",
+      "src": "/images/freelance-ai-consultant-icon-footer.png",
+      "alt": "",
+      "width": "192",
+      "height": "192",
+      "loading": "lazy"
+    }
+  ],
+  "laadprestaties": {
+    "scripts": [
+      {
+        "src": "/logo-carousel/logo-carousel.js?v=2",
+        "type": null,
+        "inline_bytes": 0
+      }
+    ],
+    "stylesheets": [
+      "https://fonts.googleapis.com/css2?family=Caveat:wght@600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap",
+      "/_astro/_slug_.bq6BBoZ5.css",
+      "/_astro/_slug_.BJ2d3JA4.css",
+      "/logo-carousel/logo-carousel.css?v=2"
+    ],
+    "aantal_details": 4,
+    "aantal_tabellen": 0
+  }
+}

@@ -1,0 +1,633 @@
+{
+  "url": "/inzichten/ai-agents-wat-ze-wel-en-niet-kunnen",
+  "build_bestand": "dist/inzichten/ai-agents-wat-ze-wel-en-niet-kunnen/index.html",
+  "bron": [
+    "src/pages/inzichten/[slug].astro",
+    "src/data/articles/ai-agents-wat-ze-wel-en-niet-kunnen.js"
+  ],
+  "gemeten_op": "2026-10-06",
+  "html": {
+    "bytes": 30886,
+    "sha256": "0a8e6f076b7543b1311dbd4609354ceb663489b309025dfb744b88dabf1066fb",
+    "lang": "nl"
+  },
+  "beschermd": {
+    "title": "AI-agents: wat ze wel en niet kunnen in een bedrijfsproces",
+    "meta_description": "Agents die zelfstandig taken uitvoeren zijn de belofte van dit moment. Waar ze werken, waar ze stukgaan, en welke vraag je vooraf moet beantwoorden.",
+    "canonical": "https://freelanceaiconsultant.com/inzichten/ai-agents-wat-ze-wel-en-niet-kunnen",
+    "robots_meta": null,
+    "hreflang": [],
+    "h1": [
+      "AI-agents: wat ze wel en niet kunnen"
+    ]
+  },
+  "social": {
+    "og:type": "website",
+    "og:locale": "nl_NL",
+    "og:site_name": "freelanceaiconsultant.com",
+    "og:title": "AI-agents: wat ze wel en niet kunnen in een bedrijfsproces",
+    "og:description": "Agents die zelfstandig taken uitvoeren zijn de belofte van dit moment. Waar ze werken, waar ze stukgaan, en welke vraag je vooraf moet beantwoorden.",
+    "og:url": "https://freelanceaiconsultant.com/inzichten/ai-agents-wat-ze-wel-en-niet-kunnen",
+    "og:image": "https://freelanceaiconsultant.com/images/dave-portrait.jpg",
+    "twitter:card": "summary_large_image",
+    "twitter:title": "AI-agents: wat ze wel en niet kunnen in een bedrijfsproces",
+    "twitter:description": "Agents die zelfstandig taken uitvoeren zijn de belofte van dit moment. Waar ze werken, waar ze stukgaan, en welke vraag je vooraf moet beantwoorden.",
+    "twitter:image": "https://freelanceaiconsultant.com/images/dave-portrait.jpg"
+  },
+  "koppen": [
+    {
+      "niveau": 1,
+      "tekst": "AI-agents: wat ze wel en niet kunnen",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "Wat een agent anders maakt",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "Waar agents goed werken",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 3,
+      "tekst": "Voorbereidend werk met een duidelijke eindtoets",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 3,
+      "tekst": "Stappen die je zonder schade kunt terugdraaien",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 3,
+      "tekst": "Routes met een harde, controleerbare uitkomst",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "Waar agents stukgaan",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 3,
+      "tekst": "Processen waarin een fout stilletjes doorwerkt",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 3,
+      "tekst": "Handelingen met externe gevolgen",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 3,
+      "tekst": "Lange ketens zonder tussentoets",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 3,
+      "tekst": "Situaties zonder volledig logboek",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "Het autonomieniveau als bewuste keuze",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "De vraag die je vooraf moet beantwoorden",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "Wat dit in de praktijk betekent",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 3,
+      "tekst": "Key takeaways",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 3,
+      "tekst": "Welke AI-use cases leveren écht resultaat op?",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 3,
+      "tekst": "AI-governance zonder bureaucratie: wat je minimaal nodig hebt",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "Van AI-ambitie naar concrete resultaten.",
+      "regio": "main",
+      "id": null
+    }
+  ],
+  "bodytekst": {
+    "regio": "main",
+    "woorden": 1206,
+    "sha256": "8fe165feda83f1ca565555a1885b9c774a943e5eca121f22f149704ee8f8a4d0",
+    "blokken": [
+      "← Terug naar alle inzichten",
+      "Use cases",
+      "AI-agents: wat ze welen niet kunnen",
+      "Een agent die zelf stappen zet en systemen aanroept, is aantrekkelijk en risicovol tegelijk. Het onderscheid zit in wat er gebeurt als hij ernaast zit.",
+      "◷ 4 min leestijd 16 juli 2026",
+      "DW",
+      "Door Dave Willemstein Independent AI Advisor, onafhankelijk, geen leveranciersbelangen",
+      "Ik help organisaties AI-beslissingen nemen die waarde creëren. Geen dikke decks, wel duidelijke keuzes en tastbare resultaten.",
+      "vertrouwen,ervaring, impact ↓",
+      "Independent No vendor bias Senior only20+ jaar ervaring",
+      "IN HET KORT",
+      "Agents werken goed bij omkeerbare stappen met een duidelijke eindtoets.",
+      "Ze gaan stuk op processen waar een fout stilletjes doorwerkt.",
+      "Begin met voorbereiden en voorstellen, niet met uitvoeren.",
+      "Bepaal eerst wat een fout kost, dan pas hoeveel autonomie je geeft.",
+      "AI in Europa",
+      "Europese merken die AI al in productie hebben.",
+      "Geen klanten van mij. Wel voorbeelden van wat er gebeurt als AI voorbij de pilot komt.",
+      "Pauzeer",
+      "Klarna",
+      "Zweden",
+      "AI-assistent in de klantenservice",
+      "Zalando",
+      "Duitsland",
+      "Mode-assistent voor productadvies",
+      "Financial services",
+      "Investeringsmaatschappij",
+      "AI-strategie en use-case portfolio",
+      "Booking.com",
+      "Nederland",
+      "AI Trip Planner voor reisplanning",
+      "Siemens",
+      "Duitsland",
+      "Industrial Copilot voor engineering",
+      "Retail",
+      "Enterprise retailer",
+      "AI-gedreven vendorselectie",
+      "Spotify",
+      "Zweden",
+      "AI DJ en gepersonaliseerde playlists",
+      "Mercedes-Benz",
+      "Duitsland",
+      "Generatieve spraakassistent in de auto",
+      "Industrial / B2B",
+      "Internationale maakorganisatie",
+      "AI-roadmap en leadership",
+      "ING",
+      "Nederland",
+      "Generatieve chatbot voor klantvragen",
+      "L'Oréal",
+      "Frankrijk",
+      "Beauty Genius: persoonlijk advies",
+      "Financial services",
+      "Financiële dienstverlener",
+      "KYC versneld met AI-documentanalyse",
+      "SAP",
+      "Duitsland",
+      "Joule: copilot in bedrijfssoftware",
+      "Carrefour",
+      "Frankrijk",
+      "Hopla: boodschappenassistent",
+      "Strategy & AI",
+      "SaaS scale-up",
+      "AI-readiness assessment",
+      "Adyen",
+      "Nederland",
+      "AI-optimalisatie van betalingen",
+      "Philips",
+      "Nederland",
+      "AI in medische beeldvorming",
+      "Proces & productivity",
+      "Zakelijke dienstverlener",
+      "Interne AI-assistent voor kenniswerkers",
+      "Wat een agent anders maakt",
+      "Een gewone AI-toepassing krijgt een opdracht en geeft een antwoord. Een agent krijgt een doel en bepaalt zelf welke stappen nodig zijn: informatie ophalen, een systeem raadplegen, een tussenresultaat beoordelen, een vervolgstap kiezen. Dat maakt het krachtiger en het verandert de risicovraag fundamenteel.",
+      "Bij een gewoon antwoord beoordeel je één uitkomst. Bij een agent beoordeel je een keten waarin een fout in stap twee doorwerkt in stap vijf, mogelijk zonder dat de eindoutput er verkeerd uitziet. Dat is precies waar het in de praktijk misgaat.",
+      "Waar agents goed werken",
+      "Voorbereidend werk met een duidelijke eindtoets",
+      "Het verzamelen en ordenen van informatie waar een mens daarna een besluit op neemt. Een dossier samenstellen uit vijf bronnen, een marktoverzicht opbouwen, een offerteaanvraag voorbereiden. De agent doet het zoekwerk, de mens doet de beoordeling.",
+      "Dit werkt omdat de fout zichtbaar is op het moment dat hij ertoe doet: de beoordelaar ziet dat er iets ontbreekt of niet klopt, voordat er iets onomkeerbaars gebeurt.",
+      "Stappen die je zonder schade kunt terugdraaien",
+      "Een concept opstellen, een categorie toekennen die later wijzigbaar is, een interne notitie aanmaken. Als het fout gaat, corrigeer je het en verlies je hooguit wat tijd.",
+      "Routes met een harde, controleerbare uitkomst",
+      "Als er een objectieve toets bestaat (een berekening die klopt of niet, een query die resultaten oplevert of niet, een bestand dat valideert of niet), kan een agent zelfstandig itereren tot die toets slaagt. De toets is de veiligheidsklep.",
+      "Waar agents stukgaan",
+      "Processen waarin een fout stilletjes doorwerkt",
+      "Dit is de belangrijkste categorie om te vermijden. Als een verkeerde tussenstap leidt tot een eindresultaat dat er plausibel uitziet, dan ontdekt niemand de fout: niet bij de controle en niet in de rapportage. Financiële verwerking, risicobeoordeling en alles waar een getal doorrolt naar een ander systeem valt hieronder.",
+      "Handelingen met externe gevolgen",
+      "Een bericht naar een klant sturen, een bestelling plaatsen, een afspraak wijzigen, een betaling in gang zetten. Niet omdat een agent dat technisch niet kan, maar omdat de kosten van een fout buiten je organisatie landen en je ze niet kunt terugnemen. Hier hoort standaard een bevestigingsstap.",
+      "Lange ketens zonder tussentoets",
+      "Hoe meer stappen zonder controlepunt, hoe groter de kans dat de agent ergens halverwege een verkeerde aanname doet en daar consequent op doorbouwt. Praktische grens: als er meer dan een handvol stappen zijn zonder enige toets, bouw dan een tussencontrole in, geautomatiseerd of menselijk.",
+      "Situaties zonder volledig logboek",
+      "Als je niet kunt reconstrueren welke stappen de agent heeft gezet, welke bronnen hij heeft geraadpleegd en waarom hij een bepaalde route koos, dan kun je een incident niet onderzoeken. Voor gereguleerde processen is dat geen optie, en voor de rest is het onverstandig.",
+      "Het autonomieniveau als bewuste keuze",
+      "Autonomie is geen eigenschap van de technologie maar een instelling die je kiest. Vier niveaus, oplopend:",
+      "Voorbereiden: de agent verzamelt en ordent, een mens doet alles daarna. Laagste risico, vaak al de meeste tijdwinst.",
+      "Voorstellen: de agent doet een concreet voorstel inclusief onderbouwing, een mens keurt goed of wijzigt.",
+      "Uitvoeren met bevestiging: de agent zet de stappen maar vraagt bevestiging op de onomkeerbare momenten.",
+      "Zelfstandig uitvoeren: volledige keten zonder tussenkomst, met monitoring achteraf. Alleen bij omkeerbare stappen en een harde eindtoets.",
+      "Mijn advies is vrijwel altijd om op niveau één of twee te beginnen, ook als het model meer aankan. Niet uit voorzichtigheid, maar omdat je in die fase leert welke fouten er werkelijk optreden. Die kennis heb je nodig om te bepalen waar je autonomie veilig kunt verhogen, en die informatie krijg je nergens anders vandaan.",
+      "De vraag die je vooraf moet beantwoorden",
+      "Voor elke stap die je aan een agent uit handen geeft, één vraag: als deze stap fout gaat, wie merkt het, wanneer, en wat kost het om het te herstellen?",
+      "Drie mogelijke antwoorden en wat ze betekenen:",
+      "Direct zichtbaar, goedkoop te herstellen: geef autonomie.",
+      "Later zichtbaar, te herstellen: autonomie met monitoring en een periodieke steekproef.",
+      "Niet zichtbaar of niet te herstellen: geen autonomie, punt.",
+      "Wat dit in de praktijk betekent",
+      "De toepassingen die ik in productie zie werken, zijn zelden de spectaculaire. Het zijn agents die dossiers voorbereiden, informatie uit verschillende systemen samenbrengen, of een eerste versie opstellen die een mens afmaakt. De tijdwinst is reëel (vaak tientallen procenten op de voorbereidende stap) en het risico is beheersbaar omdat er altijd iemand naar kijkt voordat het ertoe doet.",
+      "De toepassingen die stranden, zijn de ketens die te vroeg te veel zelfstandigheid kregen. Niet omdat de technologie het niet kon, maar omdat niemand had vastgesteld wat er zou gebeuren als hij het bij het verkeerde eind had. Die vraag kost een half uur en bepaalt of je toepassing over een jaar nog draait.",
+      "Key takeaways",
+      "✓",
+      "Omkeerbaarheid als criterium",
+      "Geef autonomie op stappen die je zonder schade kunt terugdraaien.",
+      "✓",
+      "Een agent is een proces, geen tool",
+      "De vraag is niet welk model, maar welke stappen je uit handen geeft.",
+      "✓",
+      "Logging is niet optioneel",
+      "Zonder volledig spoor van stappen kun je een fout niet reconstrueren.",
+      "ONTHOUD“Autonomie is geen eigenschap van het model, het is een keuze van de organisatie.”",
+      "Sparren over jouw situatie? 30 minuten, vrijblijvend →",
+      "Verder lezen",
+      "⌕",
+      "Use cases",
+      "Welke AI-use cases leveren écht resultaat op?",
+      "Niet de spectaculairste, maar de saaiste. Vier kenmerken die de winnaars delen, en vier patronen die vrijwel altijd stranden.",
+      "◷ 4 min leestijd Lees artikel →",
+      "▣",
+      "Governance",
+      "AI-governance zonder bureaucratie: wat je minimaal nodig hebt",
+      "Governance die niemand gebruikt, beschermt niemand. Vier mechanismen die het verschil maken, en wat je gerust kunt overslaan.",
+      "◷ 5 min leestijd Lees artikel →",
+      "Klaar voor impact?",
+      "Van AI-ambitie naar concrete resultaten.",
+      "Plan een vrijblijvend gesprek. Geen pitch. Wel scherpe vragen.",
+      "30 min., geen pitch deckPlan een gesprek →"
+    ]
+  },
+  "links": [
+    {
+      "regio": "overig",
+      "soort": "intern",
+      "href": "#main",
+      "anker": "Naar hoofdinhoud",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/",
+      "anker": "",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/diensten",
+      "anker": "Diensten",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/cases",
+      "anker": "Cases",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/werkwijze",
+      "anker": "Werkwijze",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/inzichten",
+      "anker": "Inzichten",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/over",
+      "anker": "Over mij",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/contact",
+      "anker": "Plan een gesprek →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/inzichten",
+      "anker": "← Terug naar alle inzichten",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/contact",
+      "anker": "Sparren over jouw situatie? 30 minuten, vrijblijvend →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/inzichten/welke-ai-use-cases-leveren-resultaat",
+      "anker": "⌕ Use cases Welke AI-use cases leveren écht resultaat op? Niet de spectaculairste, maar de saaiste. Vier kenmerken die de winnaars delen, en vier patronen die vrijwel altijd stranden. ◷ 4 min leestijd Lees artikel →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/inzichten/ai-governance-zonder-bureaucratie",
+      "anker": "▣ Governance AI-governance zonder bureaucratie: wat je minimaal nodig hebt Governance die niemand gebruikt, beschermt niemand. Vier mechanismen die het verschil maken, en wat je gerust kunt overslaan. ◷ 5 min leestijd Lees artikel →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/contact",
+      "anker": "Plan een gesprek →",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/diensten/ai-readiness-assessment",
+      "anker": "AI Readiness Assessment",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/diensten/ai-strategy-sprint",
+      "anker": "AI Strategy Sprint",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/diensten/fractional-ai-lead",
+      "anker": "Fractional AI Lead",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/diensten",
+      "anker": "Alle diensten",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/cases",
+      "anker": "Cases",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/werkwijze",
+      "anker": "Werkwijze",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/inzichten",
+      "anker": "Inzichten",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/veelgestelde-vragen",
+      "anker": "Veelgestelde vragen",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/over",
+      "anker": "Over mij",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-consultancy",
+      "anker": "AI consultancy",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-implementatie",
+      "anker": "AI implementatie",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-automatisering",
+      "anker": "AI automatisering",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-voor-bedrijven",
+      "anker": "AI voor bedrijven",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-development",
+      "anker": "AI development",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-agents",
+      "anker": "AI agents",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-beleid",
+      "anker": "AI beleid",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-workshop",
+      "anker": "AI workshop",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/markten",
+      "anker": "AI per branche",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/kennisbank",
+      "anker": "Kennisbank",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/tarieven",
+      "anker": "Tarieven",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/partnernetwerk",
+      "anker": "Partnernetwerk",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "overig",
+      "href": "mailto:dave@freelanceaiconsultant.com",
+      "anker": "dave@freelanceaiconsultant.com",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "extern",
+      "href": "https://www.linkedin.com/in/davewillemstein",
+      "anker": "LinkedIn ↗",
+      "rel": "noopener"
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/contact",
+      "anker": "Plan een gesprek",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/privacy",
+      "anker": "Privacyverklaring",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/algemene-voorwaarden",
+      "anker": "Algemene voorwaarden",
+      "rel": null
+    }
+  ],
+  "structured_data": {
+    "sha256": "8419990bbc142bd913730fb4fa001266858122c50cb2dbe9faaa3eb5d73620e5",
+    "items": [
+      {
+        "@context": "https://schema.org",
+        "@type": "BlogPosting",
+        "headline": "AI-agents: wat ze wel en niet kunnen in een bedrijfsproces",
+        "description": "Agents die zelfstandig taken uitvoeren zijn de belofte van dit moment. Waar ze werken, waar ze stukgaan, en welke vraag je vooraf moet beantwoorden.",
+        "datePublished": "2026-07-16",
+        "inLanguage": "nl-NL",
+        "articleSection": "Use cases",
+        "author": {
+          "@type": "Person",
+          "name": "Dave Willemstein",
+          "url": "https://freelanceaiconsultant.com",
+          "jobTitle": "Onafhankelijk AI-adviseur"
+        },
+        "publisher": {
+          "@type": "Person",
+          "name": "Dave Willemstein"
+        },
+        "mainEntityOfPage": "https://freelanceaiconsultant.com/inzichten/ai-agents-wat-ze-wel-en-niet-kunnen"
+      }
+    ]
+  },
+  "afbeeldingen": [
+    {
+      "regio": "header",
+      "src": "/images/freelance-ai-consultant-logo-header.png",
+      "alt": "freelanceaiconsultant.com logo",
+      "width": "600",
+      "height": "287",
+      "loading": null
+    },
+    {
+      "regio": "main",
+      "src": "/images/dave-portrait.jpg",
+      "alt": "Dave Willemstein, Independent AI Advisor",
+      "width": "500",
+      "height": "620",
+      "loading": "lazy"
+    },
+    {
+      "regio": "footer",
+      "src": "/images/freelance-ai-consultant-icon-footer.png",
+      "alt": "",
+      "width": "192",
+      "height": "192",
+      "loading": "lazy"
+    }
+  ],
+  "laadprestaties": {
+    "scripts": [
+      {
+        "src": "/logo-carousel/logo-carousel.js?v=2",
+        "type": null,
+        "inline_bytes": 0
+      }
+    ],
+    "stylesheets": [
+      "https://fonts.googleapis.com/css2?family=Caveat:wght@600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap",
+      "/_astro/_slug_.bq6BBoZ5.css",
+      "/_astro/_slug_.CyUYGuAp.css",
+      "/logo-carousel/logo-carousel.css?v=2"
+    ],
+    "aantal_details": 0,
+    "aantal_tabellen": 0
+  }
+}

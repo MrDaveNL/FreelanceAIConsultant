@@ -1,0 +1,748 @@
+{
+  "url": "/ai-development/ai-oplossingen",
+  "build_bestand": "dist/ai-development/ai-oplossingen/index.html",
+  "bron": [
+    "src/content/pages/ai-development/ai-oplossingen/index.md",
+    "src/pages/[...slug].astro"
+  ],
+  "gemeten_op": "2026-10-06",
+  "html": {
+    "bytes": 32686,
+    "sha256": "0797bc72988d9df39e0d2c60c71a36733166e0a91ca8a58c3a2bf157916c4cac",
+    "lang": "nl"
+  },
+  "beschermd": {
+    "title": "AI oplossingen op maat | Van vraagstuk naar werkende AI",
+    "meta_description": "AI oplossingen op maat die aansluiten op jouw processen en data. Bekijk voorbeelden, de aanpak van idee tot livegang en wat een AI oplossing oplevert.",
+    "canonical": "https://freelanceaiconsultant.com/ai-development/ai-oplossingen",
+    "robots_meta": null,
+    "hreflang": [],
+    "h1": [
+      "AI oplossingen op maat voor jouw bedrijf"
+    ]
+  },
+  "social": {
+    "og:type": "website",
+    "og:locale": "nl_NL",
+    "og:site_name": "freelanceaiconsultant.com",
+    "og:title": "AI oplossingen op maat | Van vraagstuk naar werkende AI",
+    "og:description": "AI oplossingen op maat die aansluiten op jouw processen en data. Bekijk voorbeelden, de aanpak van idee tot livegang en wat een AI oplossing oplevert.",
+    "og:url": "https://freelanceaiconsultant.com/ai-development/ai-oplossingen",
+    "og:image": "https://freelanceaiconsultant.com/images/dave-portrait.jpg",
+    "twitter:card": "summary_large_image",
+    "twitter:title": "AI oplossingen op maat | Van vraagstuk naar werkende AI",
+    "twitter:description": "AI oplossingen op maat die aansluiten op jouw processen en data. Bekijk voorbeelden, de aanpak van idee tot livegang en wat een AI oplossing oplevert.",
+    "twitter:image": "https://freelanceaiconsultant.com/images/dave-portrait.jpg"
+  },
+  "koppen": [
+    {
+      "niveau": 1,
+      "tekst": "AI oplossingen op maat voor jouw bedrijf",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "Wat zijn AI oplossingen?",
+      "regio": "main",
+      "id": "wat-zijn-ai-oplossingen"
+    },
+    {
+      "niveau": 2,
+      "tekst": "Voorbeelden van AI oplossingen",
+      "regio": "main",
+      "id": "voorbeelden-van-ai-oplossingen"
+    },
+    {
+      "niveau": 2,
+      "tekst": "AI oplossingen op maat versus standaard",
+      "regio": "main",
+      "id": "ai-oplossingen-op-maat-versus-standaard"
+    },
+    {
+      "niveau": 2,
+      "tekst": "Van idee tot livegang",
+      "regio": "main",
+      "id": "van-idee-tot-livegang"
+    },
+    {
+      "niveau": 2,
+      "tekst": "AI oplossingen voor het MKB",
+      "regio": "main",
+      "id": "ai-oplossingen-voor-het-mkb"
+    },
+    {
+      "niveau": 2,
+      "tekst": "Veelgestelde vragen",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "Van AI-ambitie naar concrete resultaten.",
+      "regio": "main",
+      "id": null
+    }
+  ],
+  "bodytekst": {
+    "regio": "main",
+    "woorden": 1580,
+    "sha256": "bf509df499e95a4d35a469e0f3575fea103bc467ee8f67e9f94ad0ed0f4fae3e",
+    "blokken": [
+      "Home",
+      "AI Development",
+      "AI oplossingen",
+      "AI oplossingen",
+      "AI oplossingen op maat voor jouw bedrijf",
+      "Goede AI oplossingen beginnen bij een concreet knelpunt in je werk, niet bij een technologie. Op deze pagina lees je welke soorten AI oplossingen er zijn, wanneer maatwerk loont en hoe je van idee tot livegang komt. En welke rol ik daarin speel: niet als bouwer, maar als onafhankelijk adviseur aan jouw kant.",
+      "Plan een adviesgesprek → Bekijk de AI Readiness Assessment →",
+      "IN HET KORT",
+      "Een AI oplossing is een werkproces met AI erin, niet alleen een stuk software.",
+      "Begin standaard en laat alleen maatwerk bouwen waar jouw kennis het verschil maakt.",
+      "Het bouwen doet je eigen team of een partner die je rechtstreeks contracteert; ik begeleid vanuit jouw kant.",
+      "AI in Europa",
+      "Europese merken die AI al in productie hebben.",
+      "Geen klanten van mij. Wel voorbeelden van wat er gebeurt als AI voorbij de pilot komt.",
+      "Pauzeer",
+      "Klarna",
+      "Zweden",
+      "AI-assistent in de klantenservice",
+      "Zalando",
+      "Duitsland",
+      "Mode-assistent voor productadvies",
+      "Financial services",
+      "Investeringsmaatschappij",
+      "AI-strategie en use-case portfolio",
+      "Booking.com",
+      "Nederland",
+      "AI Trip Planner voor reisplanning",
+      "Siemens",
+      "Duitsland",
+      "Industrial Copilot voor engineering",
+      "Retail",
+      "Enterprise retailer",
+      "AI-gedreven vendorselectie",
+      "Spotify",
+      "Zweden",
+      "AI DJ en gepersonaliseerde playlists",
+      "Mercedes-Benz",
+      "Duitsland",
+      "Generatieve spraakassistent in de auto",
+      "Industrial / B2B",
+      "Internationale maakorganisatie",
+      "AI-roadmap en leadership",
+      "ING",
+      "Nederland",
+      "Generatieve chatbot voor klantvragen",
+      "L'Oréal",
+      "Frankrijk",
+      "Beauty Genius: persoonlijk advies",
+      "Financial services",
+      "Financiële dienstverlener",
+      "KYC versneld met AI-documentanalyse",
+      "SAP",
+      "Duitsland",
+      "Joule: copilot in bedrijfssoftware",
+      "Carrefour",
+      "Frankrijk",
+      "Hopla: boodschappenassistent",
+      "Strategy & AI",
+      "SaaS scale-up",
+      "AI-readiness assessment",
+      "Adyen",
+      "Nederland",
+      "AI-optimalisatie van betalingen",
+      "Philips",
+      "Nederland",
+      "AI in medische beeldvorming",
+      "Proces & productivity",
+      "Zakelijke dienstverlener",
+      "Interne AI-assistent voor kenniswerkers",
+      "Wat zijn AI oplossingen?",
+      "Een AI oplossing is een toepassing waarin kunstmatige intelligentie een concreet probleem in je werk oplost: informatie uit documenten halen, vragen beantwoorden op basis van interne kennis, verzoeken sorteren of voorspellingen doen. Het woord “oplossing” is daarbij belangrijk. Een AI-oplossing is niet alleen de software, maar het geheel van model, data, koppelingen, werkproces en de mensen die ermee werken.",
+      "Dat verschil verklaart waarom veel AI-projecten technisch slagen en in de praktijk toch weinig opleveren. Het model werkt, maar niemand heeft bedacht wie de uitkomst controleert, wat er gebeurt bij twijfel, of hoe het in de dagelijkse routine past.",
+      "Ik ben een onafhankelijk AI-adviseur en bouw zelf geen AI oplossingen. Ik help je bepalen welke oplossing zinvol is, kies samen met jou een oplossing of bouwpartij en toets vanuit jouw kant of het resultaat werkt. Het bouwen zelf doet je eigen team of een partner die je rechtstreeks contracteert.",
+      "Voorbeelden van AI oplossingen",
+      "De meeste AI solutions die in organisaties echt worden gebruikt, vallen in een handvol categorieën:",
+      "Documentverwerking. Gegevens uit facturen, contracten, aanvragen of dossiers halen en klaarzetten voor controle.",
+      "Kennisassistenten. Medewerkers vinden antwoorden in beleid, handboeken en eerdere dossiers zonder zelf te zoeken.",
+      "Classificeren en routeren. Binnenkomende e-mails, tickets of meldingen automatisch sorteren en bij de juiste persoon leggen.",
+      "Samenvatten en opstellen. Verslagen, offertes of rapportages voorbereiden op basis van bestaande informatie.",
+      "Voorspellen. Vraag, uitval of risico’s inschatten op basis van historische data.",
+      "AI agents. Systemen die zelf stappen uitvoeren in je software, binnen afgesproken grenzen. Meer daarover bij AI agents.",
+      "Twee cases laten zien hoe zo’n oplossing er in de praktijk uitziet. Bij KYC-documentanalyse voor een financiële dienstverlener zat de uitdaging vooral in het werkproces: het systeem doet voorstellen, de analist beslist. Bij de interne AI-assistent voor kenniswerkers was de techniek snel klaar en ging het meeste werk zitten in adoptie en een paar heldere werkscenario’s. Meer herkenbare toepassingen per afdeling staan bij AI voorbeelden.",
+      "Voorbeeldscenario",
+      "Een technisch installatiebedrijf met 120 medewerkers ontvangt op het algemene serviceadres gemiddeld 300 e-mails per dag: storingen, offerteaanvragen, facturen en planningsvragen. Twee medewerkers zijn samen ongeveer drie uur per dag bezig met sorteren en doorzetten.",
+      "De adviseur helpt eerst de route bepalen. De servicedesksoftware die het bedrijf al gebruikt, heeft een classificatiefunctie, en die krijgt de voorkeur boven maatwerk. Met de teamleider legt hij vooraf de categorieën vast, welke foutmarge acceptabel is en dat een mens elke storingsmelding controleert. De softwareleverancier richt de functie in; de adviseur toetst de pilot op een steekproef van 600 berichten.",
+      "Na acht weken wordt 85 procent van de e-mails direct goed gesorteerd en daalt de sorteertijd van drie naar ruim één uur per dag. Maatwerk voor de overige 15 procent wordt bewust niet gebouwd: de extra winst weegt niet op tegen het beheer.",
+      "Fictief voorbeeld, samengesteld uit situaties die veel voorkomen. Organisatie en cijfers zijn illustratief.",
+      "AI oplossingen op maat versus standaard",
+      "Niet elke vraag vraagt om AI oplossingen op maat. Vaak is een standaardoplossing, goed ingericht, de snelste en goedkoopste route. Een paar vuistregels:",
+      "Kies standaard als meerdere leveranciers hetzelfde bieden, de taak niet uniek is voor jouw organisatie en je vooral snel waarde wilt.",
+      "Kies maatwerk als de oplossing raakt aan waarom klanten voor jou kiezen, als je data of werkwijze bijzonder is, of als geen standaardpakket je de controle geeft die je nodig hebt.",
+      "Kies een combinatie in de meeste andere gevallen: standaard bouwstenen, met een op maat gebouwde laag voor jouw regels, data en koppelingen.",
+      "Hoe je standaardsoftware beoordeelt en wat er komt kijken bij integratie, lees je op de pagina over AI software kiezen, integreren of laten bouwen.",
+      "Van idee tot livegang",
+      "Een AI oplossing komt in vijf stappen van idee naar dagelijks gebruik. Bij elke stap is duidelijk wie het werk doet.",
+      "1. Knelpunt kiezenWelk probleem, voor wie, en hoe meten we succes? Jij en ik samen",
+      "2. Route bepalenStandaard, maatwerk of combinatie; eisen aan data, privacy en de AI-verordening vastleggen",
+      "3. Oplossing of bouwpartij kiezenCriteria vooraf, test op je eigen data; jij contracteert rechtstreeks",
+      "4. Pilot op echte dataBouwpartij of eigen team bouwt; ik toets tegen de afgesproken meetpunten",
+      "5. Livegang en beheerWerkproces, adoptie en eigenaarschap in jouw organisatie; meten, bijsturen of stoppen",
+      "Het bouwen gebeurt door je eigen team of een partner die je zelf contracteert. De adviseur begeleidt vanuit jouw kant en verdient niet aan de bouw.",
+      "Wat je in dat traject van mij kunt verwachten, zijn concrete producten: een beoordeelde lijst van use cases, een specificatie met meetpunten, een onderbouwd selectieadvies en toetsing van wat er wordt opgeleverd. De bouwers komen uit je eigen organisatie of van een partij die je zelf kiest; als het helpt, stel ik ontwikkelaars voor die ik ken, zonder marge op hun tarief.",
+      "De stap na de pilot, van werkend prototype naar gebruik in de hele organisatie, is vaak de lastigste. Daar gaat het om werkprocessen, adoptie en governance; meer daarover bij AI implementatie. Een breder overzicht van het ontwikkeltraject staat op de pagina over AI development.",
+      "AI oplossingen voor het MKB",
+      "Voor het MKB gelden dezelfde principes, maar met minder ruimte voor experimenten. Een mislukt traject weegt in een kleinere organisatie zwaarder. Drie adviezen:",
+      "Begin bij de software die je al hebt. Veel pakketten bevatten AI-functies die met de juiste inrichting een flink deel van de vraag afdekken, zonder maatwerk.",
+      "Kies één knelpunt met een duidelijke eigenaar. Liever één proces goed dan vijf half. Welke toepassingen in de praktijk resultaat opleveren, beschreef ik in welke AI use cases leveren resultaat.",
+      "Laat pas bouwen als standaard aantoonbaar tekortschiet. Maatwerk brengt blijvende beheerkosten mee, en die moet je kunnen dragen.",
+      "Meer over AI in kleinere organisaties staat op de pagina AI voor het MKB. Wil je eerst weten waar je staat? De AI Readiness Assessment geeft in 2-3 weken een onderbouwd beeld, voor €7.000. Voor één afdeling of procesdomein kan het ook kleiner, met een lagere investering.",
+      "Zoek je vooral iemand met technische diepgang? Op de pagina over de AI specialist lees je welke profielen er zijn en welk profiel bij jouw vraag past. En wil je sparren over een concreet knelpunt, plan dan een adviesgesprek.",
+      "Dave Willemstein Onafhankelijk AI-adviseur",
+      "Onafhankelijk: geen commissies, geen partnerdeals, geen marge op implementatiepartners.",
+      "Over mij Mijn partnernetwerk",
+      "Weten waar je staat met AI? Bekijk de AI Readiness Assessment →",
+      "Veelgestelde vragen",
+      "Lever jij AI oplossingen?+",
+      "Nee. Ik ontwerp de aanpak, help bij de keuze van een oplossing of bouwpartij en toets of wat wordt opgeleverd werkt. De oplossing zelf wordt gebouwd of geleverd door je eigen team of door een partij die je rechtstreeks contracteert.",
+      "Wat levert een AI oplossing op?+",
+      "Dat verschilt sterk per toepassing en is vooraf alleen als bandbreedte te schatten. Typische opbrengsten zijn kortere doorlooptijden, minder zoekwerk en een constantere kwaliteit. Spreek bij de start af welke cijfers je na een jaar meet en wat de nulmeting is, anders is de opbrengst achteraf niet vast te stellen.",
+      "Hoe weet ik of een AI oplossing betrouwbaar genoeg is?+",
+      "Test op een representatieve set van je eigen data, inclusief de rommelige gevallen, en spreek vooraf af welke kwaliteit nodig is. Bepaal ook wat er gebeurt als het systeem twijfelt of fout zit. Bij gevoelige processen hoort er een menselijke controle in het proces.",
+      "Moet ik rekening houden met de AI-verordening?+",
+      "Ja, al hangt het van de toepassing af hoe zwaar die weegt. Breng bij elke AI oplossing in kaart in welke risicocategorie hij valt en welke verplichtingen daarbij horen. Dat hoort in de specificatie, niet pas vlak voor livegang.",
+      "Kan een AI oplossing ook met bestaande software?+",
+      "Vaak wel. Veel pakketten die je al gebruikt, hebben AI-functies die met de juiste inrichting een groot deel van de vraag oplossen. Dat is meestal de goedkoopste eerste stap en leert je wat je werkelijk nodig hebt.",
+      "Klaar voor impact?",
+      "Van AI-ambitie naar concrete resultaten.",
+      "Plan een vrijblijvend gesprek. Geen pitch. Wel scherpe vragen.",
+      "30 min., geen pitch deckPlan een gesprek →"
+    ]
+  },
+  "links": [
+    {
+      "regio": "overig",
+      "soort": "intern",
+      "href": "#main",
+      "anker": "Naar hoofdinhoud",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/",
+      "anker": "",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/diensten",
+      "anker": "Diensten",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/cases",
+      "anker": "Cases",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/werkwijze",
+      "anker": "Werkwijze",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/inzichten",
+      "anker": "Inzichten",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/over",
+      "anker": "Over mij",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/contact",
+      "anker": "Plan een gesprek →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/",
+      "anker": "Home",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/ai-development",
+      "anker": "AI Development",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/contact",
+      "anker": "Plan een adviesgesprek →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/diensten/ai-readiness-assessment",
+      "anker": "Bekijk de AI Readiness Assessment →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/over",
+      "anker": "onafhankelijk AI-adviseur",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/ai-agents",
+      "anker": "AI agents",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/cases/kyc-documentanalyse-financial-services",
+      "anker": "KYC-documentanalyse voor een financiële dienstverlener",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/cases/interne-ai-assistent-kenniswerkers",
+      "anker": "interne AI-assistent voor kenniswerkers",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/kennisbank/ai-voorbeelden",
+      "anker": "AI voorbeelden",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/ai-development/ai-software",
+      "anker": "AI software kiezen, integreren of laten bouwen",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/ai-implementatie",
+      "anker": "AI implementatie",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/ai-development",
+      "anker": "AI development",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/inzichten/welke-ai-use-cases-leveren-resultaat",
+      "anker": "welke AI use cases leveren resultaat",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/ai-voor-bedrijven/mkb",
+      "anker": "AI voor het MKB",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/diensten/ai-readiness-assessment",
+      "anker": "AI Readiness Assessment",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/ai-development/ai-specialist",
+      "anker": "de AI specialist",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/contact",
+      "anker": "plan dan een adviesgesprek",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/over",
+      "anker": "Over mij",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/partnernetwerk",
+      "anker": "Mijn partnernetwerk",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/diensten/ai-readiness-assessment",
+      "anker": "Weten waar je staat met AI? Bekijk de AI Readiness Assessment →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/contact",
+      "anker": "Plan een gesprek →",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/diensten/ai-readiness-assessment",
+      "anker": "AI Readiness Assessment",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/diensten/ai-strategy-sprint",
+      "anker": "AI Strategy Sprint",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/diensten/fractional-ai-lead",
+      "anker": "Fractional AI Lead",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/diensten",
+      "anker": "Alle diensten",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/cases",
+      "anker": "Cases",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/werkwijze",
+      "anker": "Werkwijze",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/inzichten",
+      "anker": "Inzichten",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/veelgestelde-vragen",
+      "anker": "Veelgestelde vragen",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/over",
+      "anker": "Over mij",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-consultancy",
+      "anker": "AI consultancy",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-implementatie",
+      "anker": "AI implementatie",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-automatisering",
+      "anker": "AI automatisering",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-voor-bedrijven",
+      "anker": "AI voor bedrijven",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-development",
+      "anker": "AI development",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-agents",
+      "anker": "AI agents",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-beleid",
+      "anker": "AI beleid",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-workshop",
+      "anker": "AI workshop",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/markten",
+      "anker": "AI per branche",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/kennisbank",
+      "anker": "Kennisbank",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/tarieven",
+      "anker": "Tarieven",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/partnernetwerk",
+      "anker": "Partnernetwerk",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "overig",
+      "href": "mailto:dave@freelanceaiconsultant.com",
+      "anker": "dave@freelanceaiconsultant.com",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "extern",
+      "href": "https://www.linkedin.com/in/davewillemstein",
+      "anker": "LinkedIn ↗",
+      "rel": "noopener"
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/contact",
+      "anker": "Plan een gesprek",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/privacy",
+      "anker": "Privacyverklaring",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/algemene-voorwaarden",
+      "anker": "Algemene voorwaarden",
+      "rel": null
+    }
+  ],
+  "structured_data": {
+    "sha256": "55154291faa825843c64a2e44b5292b7e676be94b514e8a4974322238b16d78d",
+    "items": [
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://freelanceaiconsultant.com/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "AI Development",
+                "item": "https://freelanceaiconsultant.com/ai-development"
+              },
+              {
+                "@type": "ListItem",
+                "position": 3,
+                "name": "AI oplossingen",
+                "item": "https://freelanceaiconsultant.com/ai-development/ai-oplossingen"
+              }
+            ]
+          },
+          {
+            "@type": "Service",
+            "name": "AI oplossingen",
+            "serviceType": "ai oplossingen",
+            "description": "AI oplossingen op maat die aansluiten op jouw processen en data. Bekijk voorbeelden, de aanpak van idee tot livegang en wat een AI oplossing oplevert.",
+            "url": "https://freelanceaiconsultant.com/ai-development/ai-oplossingen",
+            "areaServed": "NL",
+            "provider": {
+              "@type": "Person",
+              "name": "Dave Willemstein",
+              "jobTitle": "Onafhankelijk AI-adviseur",
+              "url": "https://freelanceaiconsultant.com/over",
+              "sameAs": [
+                "https://www.linkedin.com/in/davewillemstein"
+              ]
+            }
+          },
+          {
+            "@type": "FAQPage",
+            "mainEntity": [
+              {
+                "@type": "Question",
+                "name": "Lever jij AI oplossingen?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Nee. Ik ontwerp de aanpak, help bij de keuze van een oplossing of bouwpartij en toets of wat wordt opgeleverd werkt. De oplossing zelf wordt gebouwd of geleverd door je eigen team of door een partij die je rechtstreeks contracteert."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Wat levert een AI oplossing op?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Dat verschilt sterk per toepassing en is vooraf alleen als bandbreedte te schatten. Typische opbrengsten zijn kortere doorlooptijden, minder zoekwerk en een constantere kwaliteit. Spreek bij de start af welke cijfers je na een jaar meet en wat de nulmeting is, anders is de opbrengst achteraf niet vast te stellen."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Hoe weet ik of een AI oplossing betrouwbaar genoeg is?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Test op een representatieve set van je eigen data, inclusief de rommelige gevallen, en spreek vooraf af welke kwaliteit nodig is. Bepaal ook wat er gebeurt als het systeem twijfelt of fout zit. Bij gevoelige processen hoort er een menselijke controle in het proces."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Moet ik rekening houden met de AI-verordening?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Ja, al hangt het van de toepassing af hoe zwaar die weegt. Breng bij elke AI oplossing in kaart in welke risicocategorie hij valt en welke verplichtingen daarbij horen. Dat hoort in de specificatie, niet pas vlak voor livegang."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Kan een AI oplossing ook met bestaande software?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Vaak wel. Veel pakketten die je al gebruikt, hebben AI-functies die met de juiste inrichting een groot deel van de vraag oplossen. Dat is meestal de goedkoopste eerste stap en leert je wat je werkelijk nodig hebt."
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "afbeeldingen": [
+    {
+      "regio": "header",
+      "src": "/images/freelance-ai-consultant-logo-header.png",
+      "alt": "freelanceaiconsultant.com logo",
+      "width": "600",
+      "height": "287",
+      "loading": null
+    },
+    {
+      "regio": "main",
+      "src": "/images/dave-portrait.jpg",
+      "alt": "Portret van Dave Willemstein",
+      "width": "88",
+      "height": "88",
+      "loading": "lazy"
+    },
+    {
+      "regio": "footer",
+      "src": "/images/freelance-ai-consultant-icon-footer.png",
+      "alt": "",
+      "width": "192",
+      "height": "192",
+      "loading": "lazy"
+    }
+  ],
+  "laadprestaties": {
+    "scripts": [
+      {
+        "src": "/logo-carousel/logo-carousel.js?v=2",
+        "type": null,
+        "inline_bytes": 0
+      }
+    ],
+    "stylesheets": [
+      "https://fonts.googleapis.com/css2?family=Caveat:wght@600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap",
+      "/_astro/_slug_.bq6BBoZ5.css",
+      "/_astro/_slug_.goiX3PVF.css",
+      "/logo-carousel/logo-carousel.css?v=2"
+    ],
+    "aantal_details": 5,
+    "aantal_tabellen": 0
+  }
+}

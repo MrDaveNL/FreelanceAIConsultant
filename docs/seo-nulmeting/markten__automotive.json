@@ -1,0 +1,807 @@
+{
+  "url": "/markten/automotive",
+  "build_bestand": "dist/markten/automotive/index.html",
+  "bron": [
+    "src/content/pages/markten/automotive/index.md",
+    "src/pages/[...slug].astro"
+  ],
+  "gemeten_op": "2026-10-06",
+  "html": {
+    "bytes": 35019,
+    "sha256": "c4c9c437d67a83e89a3060f38863992f4e6fbf2b16fd0e89da72f3cfc6cae362",
+    "lang": "nl"
+  },
+  "beschermd": {
+    "title": "AI in automotive | Toepassingen voor autobedrijven",
+    "meta_description": "Hoe gebruiken autobedrijven AI? Bekijk toepassingen in verkoop, werkplaats en klantcontact, AI assistenten voor dealers en automatisering in automotive.",
+    "canonical": "https://freelanceaiconsultant.com/markten/automotive",
+    "robots_meta": null,
+    "hreflang": [],
+    "h1": [
+      "AI in automotive: toepassingen voor autobedrijven"
+    ]
+  },
+  "social": {
+    "og:type": "website",
+    "og:locale": "nl_NL",
+    "og:site_name": "freelanceaiconsultant.com",
+    "og:title": "AI in automotive | Toepassingen voor autobedrijven",
+    "og:description": "Hoe gebruiken autobedrijven AI? Bekijk toepassingen in verkoop, werkplaats en klantcontact, AI assistenten voor dealers en automatisering in automotive.",
+    "og:url": "https://freelanceaiconsultant.com/markten/automotive",
+    "og:image": "https://freelanceaiconsultant.com/images/dave-portrait.jpg",
+    "twitter:card": "summary_large_image",
+    "twitter:title": "AI in automotive | Toepassingen voor autobedrijven",
+    "twitter:description": "Hoe gebruiken autobedrijven AI? Bekijk toepassingen in verkoop, werkplaats en klantcontact, AI assistenten voor dealers en automatisering in automotive.",
+    "twitter:image": "https://freelanceaiconsultant.com/images/dave-portrait.jpg"
+  },
+  "koppen": [
+    {
+      "niveau": 1,
+      "tekst": "AI in automotive: toepassingen voor autobedrijven",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "AI toepassingen in automotive",
+      "regio": "main",
+      "id": "ai-toepassingen-in-automotive"
+    },
+    {
+      "niveau": 2,
+      "tekst": "AI voor autobedrijven en dealers",
+      "regio": "main",
+      "id": "ai-voor-autobedrijven-en-dealers"
+    },
+    {
+      "niveau": 2,
+      "tekst": "AI assistenten",
+      "regio": "main",
+      "id": "ai-assistenten"
+    },
+    {
+      "niveau": 2,
+      "tekst": "AI automatisering in automotive",
+      "regio": "main",
+      "id": "ai-automatisering-in-automotive"
+    },
+    {
+      "niveau": 3,
+      "tekst": "Welke regels gelden er?",
+      "regio": "main",
+      "id": "welke-regels-gelden-er"
+    },
+    {
+      "niveau": 3,
+      "tekst": "Zo begin je",
+      "regio": "main",
+      "id": "zo-begin-je"
+    },
+    {
+      "niveau": 2,
+      "tekst": "Veelgestelde vragen",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "Bronnen",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "Van AI-ambitie naar concrete resultaten.",
+      "regio": "main",
+      "id": null
+    }
+  ],
+  "bodytekst": {
+    "regio": "main",
+    "woorden": 1831,
+    "sha256": "8087a267dcb36c46cd074d2dfe3a6b6d5f4f85886eef3a0ba4d4861ed3b2ef20",
+    "blokken": [
+      "Home",
+      "Markten",
+      "AI voor automotive",
+      "AI in automotive",
+      "AI in automotive: toepassingen voor autobedrijven",
+      "AI in automotive gaat voor de meeste autobedrijven niet over zelfrijdende auto's, maar over leads die blijven liggen, een volle werkplaatsplanning en klantvragen buiten openingstijd. Op deze pagina lees je waar AI een dealer of autobedrijf echt helpt, wat je daarvoor nodig hebt en welke regels meespelen.",
+      "Lees meer over Markten → Plan een adviesgesprek →",
+      "Geschreven door Dave Willemstein, onafhankelijk AI consultant · gepubliceerd 23 september 2026",
+      "IN HET KORT",
+      "De meeste winst zit in verkoopopvolging, werkplaats en klantcontact, niet in de auto zelf.",
+      "Begin bij één proces met een meetbaar knelpunt en een eigenaar in de lijn.",
+      "Dealertoepassingen zijn zelden hoog risico onder de AI Act, maar werving en kredietbeoordeling wel.",
+      "AI in Europa",
+      "Europese merken die AI al in productie hebben.",
+      "Geen klanten van mij. Wel voorbeelden van wat er gebeurt als AI voorbij de pilot komt.",
+      "Pauzeer",
+      "Klarna",
+      "Zweden",
+      "AI-assistent in de klantenservice",
+      "Zalando",
+      "Duitsland",
+      "Mode-assistent voor productadvies",
+      "Financial services",
+      "Investeringsmaatschappij",
+      "AI-strategie en use-case portfolio",
+      "Booking.com",
+      "Nederland",
+      "AI Trip Planner voor reisplanning",
+      "Siemens",
+      "Duitsland",
+      "Industrial Copilot voor engineering",
+      "Retail",
+      "Enterprise retailer",
+      "AI-gedreven vendorselectie",
+      "Spotify",
+      "Zweden",
+      "AI DJ en gepersonaliseerde playlists",
+      "Mercedes-Benz",
+      "Duitsland",
+      "Generatieve spraakassistent in de auto",
+      "Industrial / B2B",
+      "Internationale maakorganisatie",
+      "AI-roadmap en leadership",
+      "ING",
+      "Nederland",
+      "Generatieve chatbot voor klantvragen",
+      "L'Oréal",
+      "Frankrijk",
+      "Beauty Genius: persoonlijk advies",
+      "Financial services",
+      "Financiële dienstverlener",
+      "KYC versneld met AI-documentanalyse",
+      "SAP",
+      "Duitsland",
+      "Joule: copilot in bedrijfssoftware",
+      "Carrefour",
+      "Frankrijk",
+      "Hopla: boodschappenassistent",
+      "Strategy & AI",
+      "SaaS scale-up",
+      "AI-readiness assessment",
+      "Adyen",
+      "Nederland",
+      "AI-optimalisatie van betalingen",
+      "Philips",
+      "Nederland",
+      "AI in medische beeldvorming",
+      "Proces & productivity",
+      "Zakelijke dienstverlener",
+      "Interne AI-assistent voor kenniswerkers",
+      "AI toepassingen in automotive",
+      "Wie aan AI in automotive denkt, ziet al snel zelfrijdende auto’s en slimme fabrieken. Voor een autobedrijf of dealer ligt de waarde dichterbij: in de stappen tussen de eerste aanvraag en de volgende onderhoudsbeurt.",
+      "De knelpunten zijn in veel autobedrijven herkenbaar:",
+      "Leads uit veel kanalen: aanvragen via de eigen site, advertentieplatforms, het merk en de telefoon, die niet allemaal even snel worden opgevolgd.",
+      "Occasions: inkoop, prijsbepaling en advertentieteksten kosten per auto tijd, terwijl de marge afhangt van hoe snel een auto weer verkocht is.",
+      "Werkplaats: de planning is krap, monteurs zoeken technische informatie bij elkaar en werkorders worden achteraf aangevuld.",
+      "Klantcontact: vragen over afspraken, status van de reparatie of een offerte komen ook ‘s avonds en in het weekend binnen.",
+      "Data verspreid: het dealermanagementsysteem, het CRM en de systemen van het merk praten niet altijd met elkaar.",
+      "AI kan op elk van die punten iets doen, maar niet overal tegelijk. De vraag is dus niet welke toepassing kan, maar welke het meeste oplevert voor jouw bedrijf. Een bruikbaar kader om dat te bepalen staat in mijn stuk over welke AI use cases resultaat leveren.",
+      "LeadAanvragen samenvoegen, kwalificeren en snel een eerste antwoord sturen",
+      "Offerte en proefritConceptoffertes en afspraken voorbereiden voor de verkoper",
+      "AfleveringDocumenten en uitleg klaarzetten, vragen na aflevering beantwoorden",
+      "OnderhoudAfspraken plannen, werkorders samenvatten, technische info zoeken",
+      "InruilOccasion taxeren, prijs onderbouwen en advertentie opstellen",
+      "Waar AI in de klantreis van een autobedrijf kan helpen. Kies één stap met een meetbaar knelpunt, niet alle vijf tegelijk.",
+      "AI voor autobedrijven en dealers",
+      "Een dealer is tegelijk een retailer, een servicebedrijf en een schakel in de keten van een merk. Die drie rollen bepalen waar AI past.",
+      "Als retailer draait het om snelheid en opvolging. Een AI-toepassing kan binnenkomende aanvragen samenvoegen, de belangrijkste gegevens eruit halen (model, inruil, financieringswens) en een verkoper een voorstel geven voor het eerste antwoord. De verkoper blijft degene die contact heeft; de AI zorgt dat er niets blijft liggen.",
+      "Als servicebedrijf zit de winst in de werkplaats. Denk aan het samenvatten van klachten bij het maken van een afspraak, het voorbereiden van een werkorder en het doorzoeken van technische documentatie. Dat laatste werkt alleen als die documentatie digitaal en actueel beschikbaar is, en dat is lang niet altijd zo.",
+      "Als schakel in de keten heb je te maken met de systemen en afspraken van het merk. Sommige functies komen vanzelf via de importeur. Het loont om eerst te weten wat daar in de pijplijn zit, voordat je zelf iets aanschaft.",
+      "Mijn zwaartepunt ligt bij industrie, retail, financiële dienstverlening en zakelijke dienstverlening, niet specifiek bij automotive. Een autobedrijf raakt wel aan al die werelden. De vraagstukken zijn dezelfde: wat pak je eerst op, welke leverancier kies je en hoe zorg je dat het blijft werken. Hoe dat eruitziet in een industriële omgeving, lees je in de case over een AI-roadmap voor een internationale maakorganisatie: losse pilots terugbrengen tot één roadmap, met een helder besluit over wat stopt.",
+      "Voorbeeldscenario",
+      "Een dealerbedrijf met twee vestigingen en 60 medewerkers krijgt zo'n 650 leads per maand binnen via vijf kanalen. De nulmeting laat zien dat een aanvraag gemiddeld pas na vijf werkuren een eerste reactie krijgt, en dat 12 procent binnen twee werkdagen helemaal geen antwoord krijgt.",
+      "De adviseur helpt het eerste proces kiezen en vergelijkt twee aanbieders met hetzelfde testscenario: de module van de DMS-leverancier en een gespecialiseerde partij. De keuze valt op de DMS-module, omdat de data daar al zit. Het autobedrijf contracteert de leverancier rechtstreeks en de verkoopmanager wordt eigenaar.",
+      "Na tien weken ligt de gemiddelde reactietijd onder één uur en krijgt nog 3 procent van de leads geen tijdige reactie: ongeveer 20 per maand in plaats van 78. De verkoper verstuurt elk antwoord zelf. Een klantgerichte chatbot staat bewust nog niet op de planning.",
+      "Fictief voorbeeld, samengesteld uit situaties die veel voorkomen. Organisatie en cijfers zijn illustratief.",
+      "AI assistenten",
+      "Een AI-assistent voor autobedrijven kan twee kanten op kijken: naar de klant of naar je eigen mensen.",
+      "Klantgerichte assistenten beantwoorden vragen op de website, via WhatsApp of aan de telefoon, en plannen bijvoorbeeld een onderhoudsafspraak in. Ze werken goed voor voorspelbare vragen, niet voor klachten of onderhandelingen. Spreek vooraf af wanneer de assistent overdraagt aan een mens, en test dat met echte gesprekken.",
+      "Interne assistenten helpen verkopers en monteurs: een vraag stellen over een model, een garantievoorwaarde of een werkinstructie, en een antwoord krijgen met de bron erbij. Hier is de kwaliteit van je eigen documentatie doorslaggevend. Een assistent die in rommelige bestanden zoekt, geeft rommelige antwoorden.",
+      "Een stap verder gaan AI-agents, die zelfstandig taken uitvoeren in je systemen, zoals een afspraak inplannen en de bevestiging versturen. Wat daar nu al realistisch is, zie je in de voorbeelden van AI-agents in de praktijk.",
+      "Ik bouw of verkoop zelf geen assistenten. Wel help ik je kiezen tussen wat je DMS-leverancier, het merk of een gespecialiseerde partij aanbiedt, en toets ik of de belofte klopt. Dat kan bijvoorbeeld met een onafhankelijke Vendor Review, met dezelfde vragen en hetzelfde scenario voor elke leverancier.",
+      "AI automatisering in automotive",
+      "Automatisering met AI werkt het best op taken die vaak voorkomen, een duidelijk begin en eind hebben en nu veel overtypen vragen. In een autobedrijf zijn dat bijvoorbeeld:",
+      "gegevens uit inkoopfacturen, kentekenpapieren en schaderapporten overnemen in je systemen;",
+      "advertentieteksten voor occasions opstellen op basis van de specificaties;",
+      "garantie- en goodwilldeclaraties voorbereiden, zodat een medewerker alleen nog controleert.",
+      "Twee kanttekeningen. Ten eerste: de techniek is zelden het probleem. Waar het vastloopt, is dat niemand na de pilot eigenaar is of dat het werkproces niet mag veranderen. Ten tweede: tijdwinst op papier is pas echte winst als iemand die tijd anders gaat besteden. Meer over die kant lees je in AI-adoptie begint bij het werk. Een breder overzicht van processen die zich lenen voor automatisering vind je bij AI automatisering.",
+      "Welke regels gelden er?",
+      "Voor de meeste dealertoepassingen is de AI Act overzichtelijk. Een chatbot of een tekstgenerator is geen hoog-risicotoepassing, maar wel geldt sinds augustus 2026 een transparantieplicht: mensen moeten weten dat ze met AI te maken hebben. Het ligt anders als je AI inzet bij het selecteren van sollicitanten of bij het beoordelen van de kredietwaardigheid van particulieren. Die toepassingen staan op de hoog-risicolijst van de AI Act. Door de Digital Omnibus gelden de eisen daarvoor volgens de Europese Commissie vanaf 2 december 2027. Een compact overzicht van wat de wet vraagt, staat op de pagina over de AI Act.",
+      "AI in het voertuig zelf, zoals rijhulpsystemen, valt onder de Europese typegoedkeuring. De AI Act noemt de verordeningen daarvoor (2018/858 en 2019/2144) in bijlage I, afdeling B, en laat de eisen via die sectorregels lopen. Voor de Europese typegoedkeuring moeten fabrikanten daarnaast voldoen aan de UNECE-regels voor cybersecurity (R155) en software-updates (R156). Dat is vooral het terrein van merk en importeur. En voor alle klant- en medewerkersgegevens blijft natuurlijk de AVG gelden.",
+      "Zo begin je",
+      "Kies één proces met een meetbaar knelpunt, wijs een eigenaar aan in de lijn en spreek vooraf af wanneer je stopt. Weet je nog niet welk proces dat is, dan is een AI Readiness Assessment een logisch startpunt: in 2-3 weken weet je waar je staat en wat de eerste stap is.",
+      "Ben je benieuwd hoe andere sectoren dit aanpakken? Lees dan hoe AI in de zorg wordt ingezet, waar privacy en veiligheid zwaarder wegen, of hoe AI voor marketing werkt, wat dicht bij de verkoopkant van een autobedrijf ligt. Alle branches staan op het overzicht van markten. Wil je sparren over jouw situatie? Plan een gesprek van dertig minuten.",
+      "Dave Willemstein Onafhankelijk AI-adviseur",
+      "Onafhankelijk: geen commissies, geen partnerdeals, geen marge op implementatiepartners.",
+      "Over mij Mijn partnernetwerk",
+      "Weten waar je staat met AI? Bekijk de AI Readiness Assessment →",
+      "Veelgestelde vragen",
+      "Welke AI-toepassing levert een autobedrijf meestal het snelst iets op?+",
+      "Vaak de opvolging van leads en klantvragen, omdat daar het knelpunt goed meetbaar is: hoe snel reageer je, en hoeveel aanvragen blijven liggen. Maar dat is een vuistregel. Als je werkplaats het echte knelpunt is, begin je daar. Meet eerst waar tijd en omzet weglekken en kies dan pas de toepassing.",
+      "Valt een AI-chatbot op onze website onder de AI Act?+",
+      "Een klantenservice-chatbot is geen hoog-risicotoepassing. Wel gelden er transparantieregels: mensen moeten weten dat ze met een AI-systeem praten, tenzij dat vanzelf duidelijk is. Daarnaast blijft de AVG gelden voor alle klantgegevens die de chatbot verwerkt.",
+      "Mag ik klantgegevens uit ons dealersysteem in een AI-tool zetten?+",
+      "Alleen als je daar een grondslag voor hebt, de leverancier de gegevens verwerkt volgens een verwerkersovereenkomst en je weet waar de data blijft. Gratis consumentenversies van AI-tools zijn daar meestal niet geschikt voor. Regel dit vóór de pilot, niet erna.",
+      "Heb ik als dealer te maken met de AI-regels voor voertuigen?+",
+      "Nauwelijks. Eisen aan AI in het voertuig zelf lopen via de Europese typegoedkeuring en richten zich op de fabrikant. Voor een dealer tellen vooral de regels voor de systemen die je zelf inzet: in verkoop, werving, financiering en klantcontact.",
+      "Bronnen",
+      "Europese Commissie: AI Act, tijdlijn en toepassing",
+      "Europese Commissie: AI Omnibus treedt in werking (27 juli 2026)",
+      "Verordening (EU) 2024/1689 (AI Act), officiële tekst op EUR-Lex",
+      "UNECE: UN Regulation No. 155, cyber security and cyber security management system",
+      "UNECE: UN Regulation No. 156, software update and software update management system",
+      "Klaar voor impact?",
+      "Van AI-ambitie naar concrete resultaten.",
+      "Plan een vrijblijvend gesprek. Geen pitch. Wel scherpe vragen.",
+      "30 min., geen pitch deckPlan een gesprek →"
+    ]
+  },
+  "links": [
+    {
+      "regio": "overig",
+      "soort": "intern",
+      "href": "#main",
+      "anker": "Naar hoofdinhoud",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/",
+      "anker": "",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/diensten",
+      "anker": "Diensten",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/cases",
+      "anker": "Cases",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/werkwijze",
+      "anker": "Werkwijze",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/inzichten",
+      "anker": "Inzichten",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/over",
+      "anker": "Over mij",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/contact",
+      "anker": "Plan een gesprek →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/",
+      "anker": "Home",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/markten",
+      "anker": "Markten",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/markten",
+      "anker": "Lees meer over Markten →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/contact",
+      "anker": "Plan een adviesgesprek →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/over",
+      "anker": "Dave Willemstein",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/inzichten/welke-ai-use-cases-leveren-resultaat",
+      "anker": "welke AI use cases resultaat leveren",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/cases/ai-roadmap-internationale-maakorganisatie",
+      "anker": "AI-roadmap voor een internationale maakorganisatie",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/ai-agents/voorbeelden",
+      "anker": "voorbeelden van AI-agents in de praktijk",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/diensten/vendor-review",
+      "anker": "onafhankelijke Vendor Review",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/inzichten/ai-adoptie-begint-bij-het-werk",
+      "anker": "AI-adoptie begint bij het werk",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/ai-automatisering",
+      "anker": "AI automatisering",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "extern",
+      "href": "https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai",
+      "anker": "Europese Commissie",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/ai-beleid/ai-act",
+      "anker": "de AI Act",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/diensten/ai-readiness-assessment",
+      "anker": "AI Readiness Assessment",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/markten/zorg",
+      "anker": "AI in de zorg",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/markten/marketing",
+      "anker": "AI voor marketing",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/markten",
+      "anker": "overzicht van markten",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/contact",
+      "anker": "Plan een gesprek van dertig minuten",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/over",
+      "anker": "Over mij",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/partnernetwerk",
+      "anker": "Mijn partnernetwerk",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/diensten/ai-readiness-assessment",
+      "anker": "Weten waar je staat met AI? Bekijk de AI Readiness Assessment →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "extern",
+      "href": "https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai",
+      "anker": "Europese Commissie: AI Act, tijdlijn en toepassing",
+      "rel": "noopener"
+    },
+    {
+      "regio": "main",
+      "soort": "extern",
+      "href": "https://digital-strategy.ec.europa.eu/en/news/ai-omnibus-enters-force",
+      "anker": "Europese Commissie: AI Omnibus treedt in werking (27 juli 2026)",
+      "rel": "noopener"
+    },
+    {
+      "regio": "main",
+      "soort": "extern",
+      "href": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj",
+      "anker": "Verordening (EU) 2024/1689 (AI Act), officiële tekst op EUR-Lex",
+      "rel": "noopener"
+    },
+    {
+      "regio": "main",
+      "soort": "extern",
+      "href": "https://unece.org/transport/documents/2021/03/standards/un-regulation-no-155-cyber-security-and-cyber-security",
+      "anker": "UNECE: UN Regulation No. 155, cyber security and cyber security management system",
+      "rel": "noopener"
+    },
+    {
+      "regio": "main",
+      "soort": "extern",
+      "href": "https://unece.org/transport/documents/2021/03/standards/un-regulation-no-156-software-update-and-software-update",
+      "anker": "UNECE: UN Regulation No. 156, software update and software update management system",
+      "rel": "noopener"
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/contact",
+      "anker": "Plan een gesprek →",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/diensten/ai-readiness-assessment",
+      "anker": "AI Readiness Assessment",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/diensten/ai-strategy-sprint",
+      "anker": "AI Strategy Sprint",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/diensten/fractional-ai-lead",
+      "anker": "Fractional AI Lead",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/diensten",
+      "anker": "Alle diensten",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/cases",
+      "anker": "Cases",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/werkwijze",
+      "anker": "Werkwijze",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/inzichten",
+      "anker": "Inzichten",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/veelgestelde-vragen",
+      "anker": "Veelgestelde vragen",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/over",
+      "anker": "Over mij",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-consultancy",
+      "anker": "AI consultancy",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-implementatie",
+      "anker": "AI implementatie",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-automatisering",
+      "anker": "AI automatisering",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-voor-bedrijven",
+      "anker": "AI voor bedrijven",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-development",
+      "anker": "AI development",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-agents",
+      "anker": "AI agents",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-beleid",
+      "anker": "AI beleid",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-workshop",
+      "anker": "AI workshop",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/markten",
+      "anker": "AI per branche",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/kennisbank",
+      "anker": "Kennisbank",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/tarieven",
+      "anker": "Tarieven",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/partnernetwerk",
+      "anker": "Partnernetwerk",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "overig",
+      "href": "mailto:dave@freelanceaiconsultant.com",
+      "anker": "dave@freelanceaiconsultant.com",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "extern",
+      "href": "https://www.linkedin.com/in/davewillemstein",
+      "anker": "LinkedIn ↗",
+      "rel": "noopener"
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/contact",
+      "anker": "Plan een gesprek",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/privacy",
+      "anker": "Privacyverklaring",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/algemene-voorwaarden",
+      "anker": "Algemene voorwaarden",
+      "rel": null
+    }
+  ],
+  "structured_data": {
+    "sha256": "b3cf0ae41620f1c580ed03c0af12339e71501b8ec47b421b45075232767bd91f",
+    "items": [
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://freelanceaiconsultant.com/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Markten",
+                "item": "https://freelanceaiconsultant.com/markten"
+              },
+              {
+                "@type": "ListItem",
+                "position": 3,
+                "name": "AI voor automotive",
+                "item": "https://freelanceaiconsultant.com/markten/automotive"
+              }
+            ]
+          },
+          {
+            "@type": "Article",
+            "headline": "AI in automotive: toepassingen voor autobedrijven",
+            "description": "Hoe gebruiken autobedrijven AI? Bekijk toepassingen in verkoop, werkplaats en klantcontact, AI assistenten voor dealers en automatisering in automotive.",
+            "inLanguage": "nl-NL",
+            "datePublished": "2026-09-23",
+            "dateModified": "2026-09-23",
+            "author": {
+              "@type": "Person",
+              "name": "Dave Willemstein",
+              "jobTitle": "Onafhankelijk AI-adviseur",
+              "url": "https://freelanceaiconsultant.com/over",
+              "sameAs": [
+                "https://www.linkedin.com/in/davewillemstein"
+              ]
+            },
+            "publisher": {
+              "@type": "Person",
+              "name": "Dave Willemstein"
+            },
+            "mainEntityOfPage": "https://freelanceaiconsultant.com/markten/automotive"
+          },
+          {
+            "@type": "FAQPage",
+            "mainEntity": [
+              {
+                "@type": "Question",
+                "name": "Welke AI-toepassing levert een autobedrijf meestal het snelst iets op?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Vaak de opvolging van leads en klantvragen, omdat daar het knelpunt goed meetbaar is: hoe snel reageer je, en hoeveel aanvragen blijven liggen. Maar dat is een vuistregel. Als je werkplaats het echte knelpunt is, begin je daar. Meet eerst waar tijd en omzet weglekken en kies dan pas de toepassing."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Valt een AI-chatbot op onze website onder de AI Act?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Een klantenservice-chatbot is geen hoog-risicotoepassing. Wel gelden er transparantieregels: mensen moeten weten dat ze met een AI-systeem praten, tenzij dat vanzelf duidelijk is. Daarnaast blijft de AVG gelden voor alle klantgegevens die de chatbot verwerkt."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Mag ik klantgegevens uit ons dealersysteem in een AI-tool zetten?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Alleen als je daar een grondslag voor hebt, de leverancier de gegevens verwerkt volgens een verwerkersovereenkomst en je weet waar de data blijft. Gratis consumentenversies van AI-tools zijn daar meestal niet geschikt voor. Regel dit vóór de pilot, niet erna."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Heb ik als dealer te maken met de AI-regels voor voertuigen?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Nauwelijks. Eisen aan AI in het voertuig zelf lopen via de Europese typegoedkeuring en richten zich op de fabrikant. Voor een dealer tellen vooral de regels voor de systemen die je zelf inzet: in verkoop, werving, financiering en klantcontact."
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "afbeeldingen": [
+    {
+      "regio": "header",
+      "src": "/images/freelance-ai-consultant-logo-header.png",
+      "alt": "freelanceaiconsultant.com logo",
+      "width": "600",
+      "height": "287",
+      "loading": null
+    },
+    {
+      "regio": "main",
+      "src": "/images/dave-portrait.jpg",
+      "alt": "Portret van Dave Willemstein",
+      "width": "88",
+      "height": "88",
+      "loading": "lazy"
+    },
+    {
+      "regio": "footer",
+      "src": "/images/freelance-ai-consultant-icon-footer.png",
+      "alt": "",
+      "width": "192",
+      "height": "192",
+      "loading": "lazy"
+    }
+  ],
+  "laadprestaties": {
+    "scripts": [
+      {
+        "src": "/logo-carousel/logo-carousel.js?v=2",
+        "type": null,
+        "inline_bytes": 0
+      }
+    ],
+    "stylesheets": [
+      "https://fonts.googleapis.com/css2?family=Caveat:wght@600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap",
+      "/_astro/_slug_.bq6BBoZ5.css",
+      "/_astro/_slug_.goiX3PVF.css",
+      "/logo-carousel/logo-carousel.css?v=2"
+    ],
+    "aantal_details": 4,
+    "aantal_tabellen": 0
+  }
+}

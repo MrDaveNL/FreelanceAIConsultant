@@ -1,0 +1,811 @@
+{
+  "url": "/kennisbank/ai-agents-en-avg",
+  "build_bestand": "dist/kennisbank/ai-agents-en-avg/index.html",
+  "bron": [
+    "src/content/pages/kennisbank/ai-agents-en-avg/index.md",
+    "src/pages/[...slug].astro"
+  ],
+  "gemeten_op": "2026-10-06",
+  "html": {
+    "bytes": 34118,
+    "sha256": "8fc2acc33e6856d0929ed94fdf61244971e474b9b8a64439817528faa5be4db0",
+    "lang": "nl"
+  },
+  "beschermd": {
+    "title": "AI agents en de AVG | Privacy en compliance in de praktijk",
+    "meta_description": "Hoe zet je AI agents in zonder AVG-risico's? Lees over verwerkersovereenkomsten, dataminimalisatie, logging en de AI Act. Inclusief praktische checklist.",
+    "canonical": "https://freelanceaiconsultant.com/kennisbank/ai-agents-en-avg",
+    "robots_meta": null,
+    "hreflang": [],
+    "h1": [
+      "AI agents en de AVG: waar moet je op letten?"
+    ]
+  },
+  "social": {
+    "og:type": "website",
+    "og:locale": "nl_NL",
+    "og:site_name": "freelanceaiconsultant.com",
+    "og:title": "AI agents en de AVG | Privacy en compliance in de praktijk",
+    "og:description": "Hoe zet je AI agents in zonder AVG-risico's? Lees over verwerkersovereenkomsten, dataminimalisatie, logging en de AI Act. Inclusief praktische checklist.",
+    "og:url": "https://freelanceaiconsultant.com/kennisbank/ai-agents-en-avg",
+    "og:image": "https://freelanceaiconsultant.com/images/dave-portrait.jpg",
+    "twitter:card": "summary_large_image",
+    "twitter:title": "AI agents en de AVG | Privacy en compliance in de praktijk",
+    "twitter:description": "Hoe zet je AI agents in zonder AVG-risico's? Lees over verwerkersovereenkomsten, dataminimalisatie, logging en de AI Act. Inclusief praktische checklist.",
+    "twitter:image": "https://freelanceaiconsultant.com/images/dave-portrait.jpg"
+  },
+  "koppen": [
+    {
+      "niveau": 1,
+      "tekst": "AI agents en de AVG: waar moet je op letten?",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "Waarom AI agents privacyrisico’s geven",
+      "regio": "main",
+      "id": "waarom-ai-agents-privacyrisicos-geven"
+    },
+    {
+      "niveau": 2,
+      "tekst": "AVG-eisen voor AI agents",
+      "regio": "main",
+      "id": "avg-eisen-voor-ai-agents"
+    },
+    {
+      "niveau": 2,
+      "tekst": "Samenhang met de AI Act",
+      "regio": "main",
+      "id": "samenhang-met-de-ai-act"
+    },
+    {
+      "niveau": 2,
+      "tekst": "Checklist",
+      "regio": "main",
+      "id": "checklist"
+    },
+    {
+      "niveau": 2,
+      "tekst": "Bronnen",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "Van AI-ambitie naar concrete resultaten.",
+      "regio": "main",
+      "id": null
+    }
+  ],
+  "bodytekst": {
+    "regio": "main",
+    "woorden": 1829,
+    "sha256": "9a4bfdf77863eee30b27186a5a99a11924d4e4e8b27c523ae0310cb4dade55c6",
+    "blokken": [
+      "Home",
+      "Kennisbank",
+      "AI agents en AVG",
+      "Kennisbank",
+      "AI agents en de AVG: waar moet je op letten?",
+      "Een AI agent die zelf systemen raadpleegt en gegevens verwerkt, valt gewoon onder de AVG. Voor wie een AI agent inzet, verandert de AVG niet, maar de risico's wel: een agent verwerkt meer gegevens, in meer stappen, met minder zicht. Dit artikel zet de belangrijkste eisen op een rij, legt de samenhang met de AI Act uit en sluit af met een checklist.",
+      "Lees meer over AI beleid → Plan een adviesgesprek →",
+      "Geschreven door Dave Willemstein, onafhankelijk AI consultant · gepubliceerd 23 september 2026",
+      "IN HET KORT",
+      "De AVG geldt volledig voor AI agents; de risico's zitten in de breedte van toegang en het gebrek aan zicht.",
+      "Verwerkersovereenkomst, dataminimalisatie, logging en vaak een DPIA zijn de basis.",
+      "De AI Act komt daar bovenop, met data die door de Digital Omnibus zijn verschoven.",
+      "AI in Europa",
+      "Europese merken die AI al in productie hebben.",
+      "Geen klanten van mij. Wel voorbeelden van wat er gebeurt als AI voorbij de pilot komt.",
+      "Pauzeer",
+      "Klarna",
+      "Zweden",
+      "AI-assistent in de klantenservice",
+      "Zalando",
+      "Duitsland",
+      "Mode-assistent voor productadvies",
+      "Financial services",
+      "Investeringsmaatschappij",
+      "AI-strategie en use-case portfolio",
+      "Booking.com",
+      "Nederland",
+      "AI Trip Planner voor reisplanning",
+      "Siemens",
+      "Duitsland",
+      "Industrial Copilot voor engineering",
+      "Retail",
+      "Enterprise retailer",
+      "AI-gedreven vendorselectie",
+      "Spotify",
+      "Zweden",
+      "AI DJ en gepersonaliseerde playlists",
+      "Mercedes-Benz",
+      "Duitsland",
+      "Generatieve spraakassistent in de auto",
+      "Industrial / B2B",
+      "Internationale maakorganisatie",
+      "AI-roadmap en leadership",
+      "ING",
+      "Nederland",
+      "Generatieve chatbot voor klantvragen",
+      "L'Oréal",
+      "Frankrijk",
+      "Beauty Genius: persoonlijk advies",
+      "Financial services",
+      "Financiële dienstverlener",
+      "KYC versneld met AI-documentanalyse",
+      "SAP",
+      "Duitsland",
+      "Joule: copilot in bedrijfssoftware",
+      "Carrefour",
+      "Frankrijk",
+      "Hopla: boodschappenassistent",
+      "Strategy & AI",
+      "SaaS scale-up",
+      "AI-readiness assessment",
+      "Adyen",
+      "Nederland",
+      "AI-optimalisatie van betalingen",
+      "Philips",
+      "Nederland",
+      "AI in medische beeldvorming",
+      "Proces & productivity",
+      "Zakelijke dienstverlener",
+      "Interne AI-assistent voor kenniswerkers",
+      "Waarom AI agents privacyrisico’s geven",
+      "Een AI agent krijgt een doel en zet zelf stappen: gegevens opzoeken, systemen raadplegen, iets vastleggen of versturen. Voor de AVG maakt het niet uit of een mens of een agent die stappen zet. De organisatie die de agent inzet, blijft verwerkingsverantwoordelijke. Wat wel verandert, is het risicoprofiel.",
+      "Vier kenmerken maken agents gevoeliger dan een gewone AI-toepassing:",
+      "Brede toegang. Een agent die mailbox, CRM en documentopslag kan doorzoeken, komt vanzelf persoonsgegevens tegen die voor zijn taak niet nodig zijn.",
+      "Meerdere stappen zonder zicht. Als je niet ziet welke bronnen de agent raadpleegde, kun je niet aantonen dat de verwerking beperkt bleef tot wat nodig was.",
+      "Gegevens naar derden. De meeste agents draaien op een taalmodel van een externe leverancier. Wat de agent opzoekt, gaat mee naar die leverancier, soms buiten de EU.",
+      "Handelen in plaats van adviseren. Een agent die een aanvraag afwijst of een klant indeelt, neemt mogelijk een besluit over een persoon.",
+      "Dat het misgaat, is geen theorie. De Autoriteit Persoonsgegevens (AP) meldde in augustus 2024 dat zij meerdere datalekken had ontvangen doordat medewerkers persoonsgegevens van patiënten of klanten in een AI-chatbot hadden ingevoerd. Bij een agent gebeurt hetzelfde, alleen geautomatiseerd en op grotere schaal.",
+      "AVG-eisen voor AI agents",
+      "De AVG heeft geen apart hoofdstuk voor AI agents. De bestaande regels van de AVG zijn wel direct van toepassing. De belangrijkste voor een AI agent:",
+      "Doel en grondslag (art. 5 en 6). Leg per agent vast voor welk welbepaald doel hij persoonsgegevens verwerkt en op welke grondslag. Een agent die “alles mag doorzoeken” heeft geen welbepaald doel.",
+      "Minimale gegevensverwerking (art. 5 lid 1 onder c). Gegevens moeten beperkt blijven tot wat noodzakelijk is. Voor een agent betekent dat: toegang per bron afbakenen en velden die hij niet nodig heeft afschermen.",
+      "Gegevensbescherming door ontwerp (art. 25). Die afbakening hoort in het ontwerp, niet achteraf. Neem haar op in de specificatie als je een AI agent laat maken.",
+      "Verwerkersovereenkomst (art. 28). Verwerkt de leverancier van het platform of taalmodel persoonsgegevens namens jou, dan is een verwerkersovereenkomst nodig. Let op subverwerkers: de verwerker mag die alleen inschakelen met jouw voorafgaande specifieke of algemene schriftelijke toestemming.",
+      "Doorgifte buiten de EU (art. 44 e.v.). Als gegevens naar een land buiten de EU gaan, gelden de aanvullende voorwaarden uit hoofdstuk V.",
+      "Beveiliging en datalekken (art. 32 en 33). Passende beveiliging, en een datalek meld je zonder onredelijke vertraging en zo mogelijk binnen 72 uur bij de AP, tenzij het risico voor betrokkenen onwaarschijnlijk is.",
+      "Register (art. 30). Neem de verwerking door de agent op in je register van verwerkingsactiviteiten.",
+      "Geautomatiseerde besluitvorming (art. 22). Mensen hebben het recht niet te worden onderworpen aan een besluit dat uitsluitend op geautomatiseerde verwerking berust en rechtsgevolgen heeft of hen anderszins in aanmerkelijke mate treft. Er zijn uitzonderingen. Berust zo’n besluit op een overeenkomst of op uitdrukkelijke toestemming, dan hebben betrokkenen ten minste recht op menselijke tussenkomst, op het geven van hun standpunt en op het aanvechten van het besluit. Daarnaast moet je bij zulke besluiten informatie geven over de onderliggende logica (art. 13 lid 2 onder f).",
+      "Persoonsgegevens?Welke bronnen raakt de agent",
+      "Doel en grondslagPer agent vastgelegd, toegang afgebakend",
+      "LeverancierVerwerkersovereenkomst, subverwerkers, locatie",
+      "DPIA-toetsAP-lijst en de negen criteria",
+      "Besluit over mensen?Dan art. 22: menselijke tussenkomst",
+      "Vijf vragen die je per agent beantwoordt voordat hij met echte persoonsgegevens gaat werken.",
+      "DPIA. Een DPIA is verplicht als een verwerking, zeker met nieuwe technologie, waarschijnlijk een hoog risico inhoudt (art. 35). De AP heeft een lijst van verwerkingen waarvoor een DPIA verplicht is. Daarop staan onder meer profilering, grootschalige controle van werknemers en grootschalige verwerking van communicatiegegevens. Staat je verwerking er niet op, dan kun je de negen criteria van de Europese privacytoezichthouders gebruiken. Volgens de uitleg van de AP geldt als vuistregel dat een DPIA nodig is bij twee of meer criteria. Omdat het gebruik van nieuwe technologieën een van die criteria is, zal een agent die persoonsgegevens verwerkt vaak al snel in de buurt komen.",
+      "Let op: de Europese Commissie heeft met het Digital Omnibus-pakket ook wijzigingen van de AVG voorgesteld. Dat voorstel is volgens het overzicht van het Europees Parlement nog in behandeling (stand september 2026). Tot het is aangenomen, geldt de huidige tekst.",
+      "Samenhang met de AI Act",
+      "De AVG gaat over persoonsgegevens, de AI Act over het AI-systeem zelf. Voor een agent kunnen beide tegelijk gelden. De AI-verordening is gewijzigd door de Digital Omnibus on AI (Verordening (EU) 2026/1744), gepubliceerd op 24 juli 2026 en in werking sinds 27 juli 2026. De punten die voor agents het meest relevant zijn:",
+      "Transparantie (art. 50). Aanbieders moeten AI-systemen die rechtstreeks met mensen communiceren zo ontwerpen dat mensen weten dat ze met AI te maken hebben, tenzij dat al duidelijk is. Deze verplichting geldt vanaf 2 augustus 2026. De AP en de ACM riepen in een gezamenlijke oproep bovendien op om bij chatbots altijd een route naar een medewerker te bieden.",
+      "Hoog risico. Agents die bijvoorbeeld sollicitaties filteren of kandidaten beoordelen, vallen onder bijlage III. Door de Digital Omnibus gelden de verplichtingen voor die systemen vanaf 2 december 2027 in plaats van 2 augustus 2026; voor hoog-risicosystemen onder bijlage I is dat 2 augustus 2028. Organisaties die zo’n systeem gebruiken, moeten dan onder meer menselijk toezicht beleggen bij mensen met de nodige bekwaamheid en autoriteit (art. 26).",
+      "AI-geletterdheid (art. 4). Deze plicht geldt sinds 2 februari 2025. Na de wijziging moeten aanbieders en gebruiksverantwoordelijken maatregelen nemen om de AI-geletterdheid van hun medewerkers te ondersteunen, zonder dat een bepaald niveau gegarandeerd hoeft te worden.",
+      "In Nederland is het toezicht op de AI Act nog niet definitief geregeld: de Uitvoeringswet AI-verordening is een wetsvoorstel, dat het kabinet in april 2026 in consultatie bracht. Daarin is de AP voorgesteld als toezichthouder op onder meer verboden AI, transparantieverplichtingen en een groot deel van de hoog-risicotoepassingen, naast haar bestaande rol als toezichthouder op de AVG. Een uitgebreidere uitleg van de verordening staat op de pagina over de AI Act.",
+      "Checklist",
+      "Gebruik deze checklist per agent, voordat hij met echte persoonsgegevens werkt:",
+      "Het doel en de grondslag van de verwerking zijn vastgelegd.",
+      "De agent heeft alleen toegang tot de bronnen en velden die hij nodig heeft.",
+      "Er is een verwerkersovereenkomst met de leverancier, inclusief afspraken over subverwerkers en opslaglocatie.",
+      "Je weet of gegevens buiten de EU worden verwerkt en op welke basis.",
+      "Je hebt getoetst of een DPIA nodig is, en die uitkomst vastgelegd.",
+      "Elke stap van de agent wordt gelogd: welke bronnen, welke handelingen, welke goedkeuringen.",
+      "Neemt de agent besluiten over mensen, dan beslist of controleert een mens, en kunnen betrokkenen hun standpunt geven en het besluit aanvechten.",
+      "Klanten en medewerkers weten wanneer ze met een AI-systeem te maken hebben.",
+      "De verwerking staat in het register en de agent in je overzicht van AI-toepassingen.",
+      "Er is een eigenaar, een meldroute voor incidenten en iemand die de agent mag stilzetten.",
+      "Die laatste punten zijn geen privacyregels maar governance. Hoe je dat licht houdt, beschreef ik in AI-governance zonder bureaucratie. Voor het bredere beleid rond AI in je organisatie is er de pagina over AI beleid, en voor toepassingen en implementatie het overzicht van AI agents voor bedrijven.",
+      "Voorbeeldscenario",
+      "Een zakelijke dienstverlener met 140 medewerkers wil een agent die de gedeelde klantinbox leest, de klant opzoekt in het CRM en een conceptantwoord klaarzet. Het gaat om zo'n 1.200 e-mails per maand. In het eerste ontwerp kan de agent de hele inbox en alle 38 velden in het CRM lezen.",
+      "De adviseur toetst het ontwerp vanuit klantzijde, samen met de functionaris gegevensbescherming. Twee van de negen criteria gelden: nieuwe technologie en grootschalige verwerking. Er komt dus een DPIA. Daaruit blijkt dat de agent voor zijn taak 9 van de 38 CRM-velden nodig heeft, en dat bijlagen buiten de scope vallen, omdat daar vaak loonstroken en kopieën van identiteitsbewijzen in zitten.",
+      "De bouwpartij die de organisatie zelf heeft gecontracteerd, past het ontwerp aan. De livegang schuift drie weken op. De agent verstuurt niets zelf: elk antwoord gaat langs een medewerker en elke stap wordt gelogd.",
+      "Fictief voorbeeld, samengesteld uit situaties die veel voorkomen. Organisatie en cijfers zijn illustratief.",
+      "Dit artikel is een praktische toelichting en geen juridisch advies. Laat de toepassing op jouw situatie beoordelen door je functionaris gegevensbescherming of een privacyjurist. Wil je sparren over hoe je privacy en governance meeneemt in een agenttraject? Plan een adviesgesprek.",
+      "Dave Willemstein Onafhankelijk AI-adviseur",
+      "Onafhankelijk: geen commissies, geen partnerdeals, geen marge op implementatiepartners.",
+      "Over mij Mijn partnernetwerk",
+      "Weten waar je staat met AI? Bekijk de AI Readiness Assessment →",
+      "Bronnen",
+      "Verordening (EU) 2016/679 (AVG), via EUR-Lex",
+      "Verordening (EU) 2024/1689 (AI-verordening), via EUR-Lex",
+      "Verordening (EU) 2026/1744 (Digital Omnibus on AI), via EUR-Lex",
+      "Europees Parlement, Legislative Train: Digital Omnibus Regulation Proposal (2025/0360(COD))",
+      "Autoriteit Persoonsgegevens: Data protection impact assessment (DPIA)",
+      "Autoriteit Persoonsgegevens: Lijst verplichte DPIA (Staatscourant 2019, nr. 64418)",
+      "Autoriteit Persoonsgegevens: Caution: use of AI chatbot may lead to data breaches (6 augustus 2024)",
+      "Autoriteit Persoonsgegevens en ACM: Oproep over AI-chatbots (2 oktober 2025)",
+      "Autoriteit Persoonsgegevens: Toezicht op AI wordt concreet, sleutelrol voor de AP en de RDI (20 april 2026)",
+      "EDPB: Endorsed WP29 Guidelines (o.a. DPIA en geautomatiseerde besluitvorming)",
+      "Klaar voor impact?",
+      "Van AI-ambitie naar concrete resultaten.",
+      "Plan een vrijblijvend gesprek. Geen pitch. Wel scherpe vragen.",
+      "30 min., geen pitch deckPlan een gesprek →"
+    ]
+  },
+  "links": [
+    {
+      "regio": "overig",
+      "soort": "intern",
+      "href": "#main",
+      "anker": "Naar hoofdinhoud",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/",
+      "anker": "",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/diensten",
+      "anker": "Diensten",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/cases",
+      "anker": "Cases",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/werkwijze",
+      "anker": "Werkwijze",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/inzichten",
+      "anker": "Inzichten",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/over",
+      "anker": "Over mij",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/contact",
+      "anker": "Plan een gesprek →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/",
+      "anker": "Home",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/kennisbank",
+      "anker": "Kennisbank",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/ai-beleid",
+      "anker": "Lees meer over AI beleid →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/contact",
+      "anker": "Plan een adviesgesprek →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/over",
+      "anker": "Dave Willemstein",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/ai-agents/wat-is-een-ai-agent",
+      "anker": "AI agent",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "extern",
+      "href": "https://www.autoriteitpersoonsgegevens.nl/en/current/caution-use-of-ai-chatbot-may-lead-to-data-breaches",
+      "anker": "meerdere datalekken had ontvangen",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "extern",
+      "href": "https://eur-lex.europa.eu/eli/reg/2016/679/oj/nld",
+      "anker": "AVG",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/ai-agents/laten-maken",
+      "anker": "een AI agent laat maken",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "extern",
+      "href": "https://www.autoriteitpersoonsgegevens.nl/documenten/lijst-verplichte-dpia",
+      "anker": "lijst van verwerkingen waarvoor een DPIA verplicht is",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "extern",
+      "href": "https://autoriteitpersoonsgegevens.nl/themas/basis-avg/praktisch-avg/data-protection-impact-assessment-dpia",
+      "anker": "uitleg van de AP",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "extern",
+      "href": "https://www.europarl.europa.eu/legislative-train/theme-a-new-plan-for-europe-s-sustainable-prosperity-and-competitiveness/file-digital-package",
+      "anker": "overzicht van het Europees Parlement",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "extern",
+      "href": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj/nld",
+      "anker": "AI-verordening",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "extern",
+      "href": "https://eur-lex.europa.eu/eli/reg/2026/1744/oj",
+      "anker": "Digital Omnibus on AI",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "extern",
+      "href": "https://www.autoriteitpersoonsgegevens.nl/documenten/oproep-acm-ap-over-ai-chatbots",
+      "anker": "gezamenlijke oproep",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "extern",
+      "href": "https://www.autoriteitpersoonsgegevens.nl/actueel/toezicht-op-ai-wordt-concreet-sleutelrol-voor-de-ap-en-de-rdi",
+      "anker": "toezichthouder",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/ai-beleid/ai-act",
+      "anker": "de AI Act",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/inzichten/ai-governance-zonder-bureaucratie",
+      "anker": "AI-governance zonder bureaucratie",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/ai-beleid",
+      "anker": "AI beleid",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/ai-agents",
+      "anker": "AI agents voor bedrijven",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/contact",
+      "anker": "Plan een adviesgesprek",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/over",
+      "anker": "Over mij",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/partnernetwerk",
+      "anker": "Mijn partnernetwerk",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/diensten/ai-readiness-assessment",
+      "anker": "Weten waar je staat met AI? Bekijk de AI Readiness Assessment →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "extern",
+      "href": "https://eur-lex.europa.eu/eli/reg/2016/679/oj/nld",
+      "anker": "Verordening (EU) 2016/679 (AVG), via EUR-Lex",
+      "rel": "noopener"
+    },
+    {
+      "regio": "main",
+      "soort": "extern",
+      "href": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj/nld",
+      "anker": "Verordening (EU) 2024/1689 (AI-verordening), via EUR-Lex",
+      "rel": "noopener"
+    },
+    {
+      "regio": "main",
+      "soort": "extern",
+      "href": "https://eur-lex.europa.eu/eli/reg/2026/1744/oj",
+      "anker": "Verordening (EU) 2026/1744 (Digital Omnibus on AI), via EUR-Lex",
+      "rel": "noopener"
+    },
+    {
+      "regio": "main",
+      "soort": "extern",
+      "href": "https://www.europarl.europa.eu/legislative-train/theme-a-new-plan-for-europe-s-sustainable-prosperity-and-competitiveness/file-digital-package",
+      "anker": "Europees Parlement, Legislative Train: Digital Omnibus Regulation Proposal (2025/0360(COD))",
+      "rel": "noopener"
+    },
+    {
+      "regio": "main",
+      "soort": "extern",
+      "href": "https://autoriteitpersoonsgegevens.nl/themas/basis-avg/praktisch-avg/data-protection-impact-assessment-dpia",
+      "anker": "Autoriteit Persoonsgegevens: Data protection impact assessment (DPIA)",
+      "rel": "noopener"
+    },
+    {
+      "regio": "main",
+      "soort": "extern",
+      "href": "https://www.autoriteitpersoonsgegevens.nl/documenten/lijst-verplichte-dpia",
+      "anker": "Autoriteit Persoonsgegevens: Lijst verplichte DPIA (Staatscourant 2019, nr. 64418)",
+      "rel": "noopener"
+    },
+    {
+      "regio": "main",
+      "soort": "extern",
+      "href": "https://www.autoriteitpersoonsgegevens.nl/en/current/caution-use-of-ai-chatbot-may-lead-to-data-breaches",
+      "anker": "Autoriteit Persoonsgegevens: Caution: use of AI chatbot may lead to data breaches (6 augustus 2024)",
+      "rel": "noopener"
+    },
+    {
+      "regio": "main",
+      "soort": "extern",
+      "href": "https://www.autoriteitpersoonsgegevens.nl/documenten/oproep-acm-ap-over-ai-chatbots",
+      "anker": "Autoriteit Persoonsgegevens en ACM: Oproep over AI-chatbots (2 oktober 2025)",
+      "rel": "noopener"
+    },
+    {
+      "regio": "main",
+      "soort": "extern",
+      "href": "https://www.autoriteitpersoonsgegevens.nl/actueel/toezicht-op-ai-wordt-concreet-sleutelrol-voor-de-ap-en-de-rdi",
+      "anker": "Autoriteit Persoonsgegevens: Toezicht op AI wordt concreet, sleutelrol voor de AP en de RDI (20 april 2026)",
+      "rel": "noopener"
+    },
+    {
+      "regio": "main",
+      "soort": "extern",
+      "href": "https://www.edpb.europa.eu/our-work-tools/general-guidance/endorsed-wp29-guidelines_en",
+      "anker": "EDPB: Endorsed WP29 Guidelines (o.a. DPIA en geautomatiseerde besluitvorming)",
+      "rel": "noopener"
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/contact",
+      "anker": "Plan een gesprek →",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/diensten/ai-readiness-assessment",
+      "anker": "AI Readiness Assessment",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/diensten/ai-strategy-sprint",
+      "anker": "AI Strategy Sprint",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/diensten/fractional-ai-lead",
+      "anker": "Fractional AI Lead",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/diensten",
+      "anker": "Alle diensten",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/cases",
+      "anker": "Cases",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/werkwijze",
+      "anker": "Werkwijze",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/inzichten",
+      "anker": "Inzichten",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/veelgestelde-vragen",
+      "anker": "Veelgestelde vragen",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/over",
+      "anker": "Over mij",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-consultancy",
+      "anker": "AI consultancy",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-implementatie",
+      "anker": "AI implementatie",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-automatisering",
+      "anker": "AI automatisering",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-voor-bedrijven",
+      "anker": "AI voor bedrijven",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-development",
+      "anker": "AI development",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-agents",
+      "anker": "AI agents",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-beleid",
+      "anker": "AI beleid",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-workshop",
+      "anker": "AI workshop",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/markten",
+      "anker": "AI per branche",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/kennisbank",
+      "anker": "Kennisbank",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/tarieven",
+      "anker": "Tarieven",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/partnernetwerk",
+      "anker": "Partnernetwerk",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "overig",
+      "href": "mailto:dave@freelanceaiconsultant.com",
+      "anker": "dave@freelanceaiconsultant.com",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "extern",
+      "href": "https://www.linkedin.com/in/davewillemstein",
+      "anker": "LinkedIn ↗",
+      "rel": "noopener"
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/contact",
+      "anker": "Plan een gesprek",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/privacy",
+      "anker": "Privacyverklaring",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/algemene-voorwaarden",
+      "anker": "Algemene voorwaarden",
+      "rel": null
+    }
+  ],
+  "structured_data": {
+    "sha256": "3bfb3cfed8f3dbb492421f2beeb1fbca8251b38b7f86e5746e76433946bdaa3e",
+    "items": [
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://freelanceaiconsultant.com/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Kennisbank",
+                "item": "https://freelanceaiconsultant.com/kennisbank"
+              },
+              {
+                "@type": "ListItem",
+                "position": 3,
+                "name": "AI agents en AVG",
+                "item": "https://freelanceaiconsultant.com/kennisbank/ai-agents-en-avg"
+              }
+            ]
+          },
+          {
+            "@type": "Article",
+            "headline": "AI agents en de AVG: waar moet je op letten?",
+            "description": "Hoe zet je AI agents in zonder AVG-risico's? Lees over verwerkersovereenkomsten, dataminimalisatie, logging en de AI Act. Inclusief praktische checklist.",
+            "inLanguage": "nl-NL",
+            "datePublished": "2026-09-23",
+            "dateModified": "2026-09-23",
+            "author": {
+              "@type": "Person",
+              "name": "Dave Willemstein",
+              "jobTitle": "Onafhankelijk AI-adviseur",
+              "url": "https://freelanceaiconsultant.com/over",
+              "sameAs": [
+                "https://www.linkedin.com/in/davewillemstein"
+              ]
+            },
+            "publisher": {
+              "@type": "Person",
+              "name": "Dave Willemstein"
+            },
+            "mainEntityOfPage": "https://freelanceaiconsultant.com/kennisbank/ai-agents-en-avg"
+          }
+        ]
+      }
+    ]
+  },
+  "afbeeldingen": [
+    {
+      "regio": "header",
+      "src": "/images/freelance-ai-consultant-logo-header.png",
+      "alt": "freelanceaiconsultant.com logo",
+      "width": "600",
+      "height": "287",
+      "loading": null
+    },
+    {
+      "regio": "main",
+      "src": "/images/dave-portrait.jpg",
+      "alt": "Portret van Dave Willemstein",
+      "width": "88",
+      "height": "88",
+      "loading": "lazy"
+    },
+    {
+      "regio": "footer",
+      "src": "/images/freelance-ai-consultant-icon-footer.png",
+      "alt": "",
+      "width": "192",
+      "height": "192",
+      "loading": "lazy"
+    }
+  ],
+  "laadprestaties": {
+    "scripts": [
+      {
+        "src": "/logo-carousel/logo-carousel.js?v=2",
+        "type": null,
+        "inline_bytes": 0
+      }
+    ],
+    "stylesheets": [
+      "https://fonts.googleapis.com/css2?family=Caveat:wght@600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap",
+      "/_astro/_slug_.bq6BBoZ5.css",
+      "/_astro/_slug_.goiX3PVF.css",
+      "/logo-carousel/logo-carousel.css?v=2"
+    ],
+    "aantal_details": 0,
+    "aantal_tabellen": 0
+  }
+}

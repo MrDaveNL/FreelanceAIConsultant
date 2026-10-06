@@ -1,0 +1,883 @@
+{
+  "url": "/tarieven",
+  "build_bestand": "dist/tarieven/index.html",
+  "bron": [
+    "src/content/pages/tarieven/index.md",
+    "src/pages/[...slug].astro"
+  ],
+  "gemeten_op": "2026-10-06",
+  "html": {
+    "bytes": 32578,
+    "sha256": "152b989f1ad6fc553bb9a1ee07876300bce0812c16019221882219b36d8adf4c",
+    "lang": "nl"
+  },
+  "beschermd": {
+    "title": "Wat kost een AI consultant? Tarieven, pakketten en prijzen",
+    "meta_description": "Bekijk transparante vanaf-prijzen voor AI Readiness Assessment, Strategy Sprint en Fractional AI Lead. Geen uurtarief, wel heldere pakketten en bandbreedtes.",
+    "canonical": "https://freelanceaiconsultant.com/tarieven",
+    "robots_meta": null,
+    "hreflang": [],
+    "h1": [
+      "Wat kost een AI consultant? Tarieven en pakketten"
+    ]
+  },
+  "social": {
+    "og:type": "website",
+    "og:locale": "nl_NL",
+    "og:site_name": "freelanceaiconsultant.com",
+    "og:title": "Wat kost een AI consultant? Tarieven, pakketten en prijzen",
+    "og:description": "Bekijk transparante vanaf-prijzen voor AI Readiness Assessment, Strategy Sprint en Fractional AI Lead. Geen uurtarief, wel heldere pakketten en bandbreedtes.",
+    "og:url": "https://freelanceaiconsultant.com/tarieven",
+    "og:image": "https://freelanceaiconsultant.com/images/dave-portrait.jpg",
+    "twitter:card": "summary_large_image",
+    "twitter:title": "Wat kost een AI consultant? Tarieven, pakketten en prijzen",
+    "twitter:description": "Bekijk transparante vanaf-prijzen voor AI Readiness Assessment, Strategy Sprint en Fractional AI Lead. Geen uurtarief, wel heldere pakketten en bandbreedtes.",
+    "twitter:image": "https://freelanceaiconsultant.com/images/dave-portrait.jpg"
+  },
+  "koppen": [
+    {
+      "niveau": 1,
+      "tekst": "Wat kost een AI consultant? Tarieven en pakketten",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "Wat kost AI consultancy?",
+      "regio": "main",
+      "id": "wat-kost-ai-consultancy"
+    },
+    {
+      "niveau": 3,
+      "tekst": "Factoren die de prijs bepalen",
+      "regio": "main",
+      "id": "factoren-die-de-prijs-bepalen"
+    },
+    {
+      "niveau": 2,
+      "tekst": "Pakketten en vanaf-prijzen",
+      "regio": "main",
+      "id": "pakketten-en-vanaf-prijzen"
+    },
+    {
+      "niveau": 3,
+      "tekst": "AI Readiness Assessment",
+      "regio": "main",
+      "id": "ai-readiness-assessment"
+    },
+    {
+      "niveau": 3,
+      "tekst": "AI Strategy Sprint",
+      "regio": "main",
+      "id": "ai-strategy-sprint"
+    },
+    {
+      "niveau": 3,
+      "tekst": "Fractional AI Lead",
+      "regio": "main",
+      "id": "fractional-ai-lead"
+    },
+    {
+      "niveau": 3,
+      "tekst": "Vendor Review",
+      "regio": "main",
+      "id": "vendor-review"
+    },
+    {
+      "niveau": 3,
+      "tekst": "Executive Briefing",
+      "regio": "main",
+      "id": "executive-briefing"
+    },
+    {
+      "niveau": 3,
+      "tekst": "AI Due Diligence",
+      "regio": "main",
+      "id": "ai-due-diligence"
+    },
+    {
+      "niveau": 3,
+      "tekst": "AI workshop en training",
+      "regio": "main",
+      "id": "ai-workshop-en-training"
+    },
+    {
+      "niveau": 2,
+      "tekst": "Waarom geen uurtarief?",
+      "regio": "main",
+      "id": "waarom-geen-uurtarief"
+    },
+    {
+      "niveau": 2,
+      "tekst": "Freelance consultant versus bureau: kostenverschil",
+      "regio": "main",
+      "id": "freelance-consultant-versus-bureau-kostenverschil"
+    },
+    {
+      "niveau": 2,
+      "tekst": "Veelgestelde vragen over kosten",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "Van AI-ambitie naar concrete resultaten.",
+      "regio": "main",
+      "id": null
+    }
+  ],
+  "bodytekst": {
+    "regio": "main",
+    "woorden": 1343,
+    "sha256": "04a7d35b0c0ba6fd0b481c412390e6f16a26f82b9ceb784fc35510e74bbd319b",
+    "blokken": [
+      "Home",
+      "Tarieven",
+      "Tarieven",
+      "Wat kost een AI consultant? Tarieven en pakketten",
+      "Wat AI consultancy kost, hangt af van de vraag die je wilt beantwoorden. Daarom werk ik met vaste pakketten en zichtbare vanaf-prijzen in plaats van een open uurtarief. Zo weet je vóór het eerste gesprek ongeveer of het in je budget past.",
+      "Plan een adviesgesprek → Bekijk de AI Readiness Assessment →",
+      "IN HET KORT",
+      "Vaste prijs, bandbreedte of maandbedrag per pakket, geen open urenstaat.",
+      "Alle bedragen exclusief btw en reiskosten.",
+      "Waar je binnen een bandbreedte uitkomt, staat in het voorstel, voordat we starten.",
+      "AI in Europa",
+      "Europese merken die AI al in productie hebben.",
+      "Geen klanten van mij. Wel voorbeelden van wat er gebeurt als AI voorbij de pilot komt.",
+      "Pauzeer",
+      "Klarna",
+      "Zweden",
+      "AI-assistent in de klantenservice",
+      "Zalando",
+      "Duitsland",
+      "Mode-assistent voor productadvies",
+      "Financial services",
+      "Investeringsmaatschappij",
+      "AI-strategie en use-case portfolio",
+      "Booking.com",
+      "Nederland",
+      "AI Trip Planner voor reisplanning",
+      "Siemens",
+      "Duitsland",
+      "Industrial Copilot voor engineering",
+      "Retail",
+      "Enterprise retailer",
+      "AI-gedreven vendorselectie",
+      "Spotify",
+      "Zweden",
+      "AI DJ en gepersonaliseerde playlists",
+      "Mercedes-Benz",
+      "Duitsland",
+      "Generatieve spraakassistent in de auto",
+      "Industrial / B2B",
+      "Internationale maakorganisatie",
+      "AI-roadmap en leadership",
+      "ING",
+      "Nederland",
+      "Generatieve chatbot voor klantvragen",
+      "L'Oréal",
+      "Frankrijk",
+      "Beauty Genius: persoonlijk advies",
+      "Financial services",
+      "Financiële dienstverlener",
+      "KYC versneld met AI-documentanalyse",
+      "SAP",
+      "Duitsland",
+      "Joule: copilot in bedrijfssoftware",
+      "Carrefour",
+      "Frankrijk",
+      "Hopla: boodschappenassistent",
+      "Strategy & AI",
+      "SaaS scale-up",
+      "AI-readiness assessment",
+      "Adyen",
+      "Nederland",
+      "AI-optimalisatie van betalingen",
+      "Philips",
+      "Nederland",
+      "AI in medische beeldvorming",
+      "Proces & productivity",
+      "Zakelijke dienstverlener",
+      "Interne AI-assistent voor kenniswerkers",
+      "Wat kost AI consultancy?",
+      "Er bestaat geen standaardprijs voor AI consultancy, omdat de vragen zo verschillen. Een directie die in één middag een gedeeld beeld wil, heeft iets anders nodig dan een organisatie die een roadmap voor anderhalf jaar zoekt. Wat ik wel kan doen, is de meest voorkomende vragen vertalen naar vaste pakketten, elk met een heldere prijs of bandbreedte. Hoe die trajecten inhoudelijk verlopen, lees je op de pagina over mijn werkwijze in vier stappen.",
+      "Factoren die de prijs bepalen",
+      "Binnen een pakket beweegt het bedrag mee met een paar concrete factoren:",
+      "Scope: één afdeling of procesdomein is sneller doorgelicht dan de hele organisatie.",
+      "Aantal betrokkenen: meer business units, interviews of deelnemers betekent meer voorbereiding en sessies.",
+      "Aantal leveranciers of opties: bij een selectietraject bepaalt het aantal te beoordelen partijen de omvang.",
+      "Tijdsinzet per maand: bij een doorlopende rol bepaalt het aantal vaste dagen het maandbedrag.",
+      "Alle bedragen op deze pagina zijn exclusief btw en reiskosten.",
+      "Pakketten en vanaf-prijzen",
+      "OriënterenExecutive Briefing: 1 dagdeel incl. voorbereiding voor directie of RvC",
+      "Weten waar je staatAI Readiness Assessment: vaste prijs, 2-3 weken",
+      "KiezenVendor Review of AI Due Diligence: onderbouwd besluit",
+      "Richting bepalenAI Strategy Sprint: strategie en roadmap",
+      "BorgenFractional AI Lead: doorlopende sturing",
+      "Van oriëntatie naar borging: de pakketten sluiten op elkaar aan, maar je kunt bij elk pakket instappen.",
+      "Pakket",
+      "Doorlooptijd",
+      "Investering",
+      "Executive Briefing",
+      "1 dagdeel incl. voorbereiding",
+      "€2.800",
+      "AI Readiness Assessment",
+      "2-3 weken",
+      "€7.000",
+      "Vendor Review",
+      "3-6 weken",
+      "€9.800 - €15.400",
+      "AI Due Diligence",
+      "2-4 weken",
+      "€12.600 - €19.600",
+      "AI Strategy Sprint",
+      "4-6 weken",
+      "€15.400 - €22.400",
+      "Fractional AI Lead",
+      "2, 4 of 8 dagen / maand",
+      "€2.600 / €5.200 / €10.400 per maand",
+      "AI workshop en training",
+      "Dagdeel of dag",
+      "Vaste prijs in het voorstel",
+      "AI Readiness Assessment",
+      "Een nuchtere doorlichting op strategie, data, technologie, mensen en governance, in 2-3 weken. Je krijgt een readiness-score, een gap-analyse en een 90-dagenplan. De prijs is vast: €7.000, inclusief eindpresentatie aan MT of board. Dit is voor de meeste organisaties het logische startpunt; alle details staan op de pagina van de AI Readiness Assessment.",
+      "AI Strategy Sprint",
+      "Voor organisaties die van losse ideeën naar een board-ready AI-strategie en roadmap willen. De sprint duurt 4-6 weken en kost €15.400 - €22.400: aan de onderkant als er al een Readiness Assessment ligt, aan de bovenkant bij meerdere bedrijfsonderdelen. Lees wat er in de AI Strategy Sprint wordt opgeleverd.",
+      "Fractional AI Lead",
+      "Als je geen fulltime Head of AI nodig hebt, maar wel iemand die de AI-agenda bewaakt en in stuurgroepen de juiste vragen stelt. De investering is €2.600 / €5.200 / €10.400 per maand voor de niveaus Advies, Lead en Lead+ (2, 4 of 8 dagen per maand). De minimale looptijd is 3 maanden, daarna is de rol maandelijks opzegbaar. Meer over deze parttime AI-leiderschapsrol.",
+      "Vendor Review",
+      "Een gestructureerd selectieproces met scorecards en een TCO-vergelijking over drie jaar. Afhankelijk van het aantal leveranciers (2 tot 4) kost een Vendor Review €9.800 - €15.400, bij een doorlooptijd van 3-6 weken.",
+      "Executive Briefing",
+      "Een sessie van drie uur waarin je directie of raad van commissarissen een gedeeld, realistisch beeld krijgt van AI. Inclusief voorbereiding op jouw sector kost de Executive Briefing €2.800. Dit is het kleinste pakket met een vaste prijs, en het wordt volledig verrekend als je binnen 60 dagen start met een AI Readiness Assessment.",
+      "AI Due Diligence",
+      "Voor investeerders en organisaties die een AI-propositie of -leverancier moeten beoordelen. Een AI Due Diligence duurt 2-4 weken en kost €12.600 - €19.600: één oplossing aan de onderkant, een heel bedrijf aan de bovenkant. Altijd onder NDA.",
+      "AI workshop en training",
+      "Workshops en trainingen krijgen een vaste prijs per opdracht. Voorbereiding, duur en groepsgrootte bepalen het bedrag, en dat krijg je vóór de start op papier. Wat een workshop kan opleveren, lees je bij AI workshops en trainingen voor teams.",
+      "Twijfel je welk pakket past? Op het overzicht van alle diensten vergelijk je ze naast elkaar.",
+      "Waarom geen uurtarief?",
+      "Een uurtarief beloont de verkeerde dingen. Het maakt meer uren aantrekkelijker dan een snellere uitkomst, en het verschuift het gesprek naar de urenstaat in plaats van naar het besluit dat je wilt nemen. Met een vaste prijs of een vooraf afgesproken bandbreedte weet je vóór de start waar je aan toe bent, en gaat de samenwerking over het resultaat.",
+      "Ook afgebakend advieswerk, workshops en second opinions krijgen een vaste prijs, zonder minimumafname.",
+      "Freelance consultant versus bureau: kostenverschil",
+      "Een bureau of groot adviesbureau heeft een organisatie om de adviseur heen, zoals accountmanagement en vaak een mix van senior en junior consultants, en die kosten zitten in het tarief. Bij mij werk je altijd met de senior die je gesproken hebt; er zitten geen juniors op je project. Daartegenover staat dat een eenmanspraktijk minder uitvoeringscapaciteit heeft; daarvoor stel ik partners voor die je rechtstreeks contracteert, zonder marge voor mij.",
+      "Welke vorm het best past, hangt af van je vraag en niet alleen van de prijs. Ik zette de verschillen eerlijk op een rij in freelance AI consultant, agency of Big 4. En wie concreet overweegt om iemand in te schakelen, vindt praktische selectiecriteria op de pagina over een AI consultant inhuren.",
+      "Wil je weten welk pakket bij jouw situatie past? Plan een vrijblijvend gesprek van dertig minuten; aan het eind hoor je wat ik zou doen, ook als dat betekent dat je mij niet nodig hebt.",
+      "Dave Willemstein Onafhankelijk AI-adviseur",
+      "Onafhankelijk: geen commissies, geen partnerdeals, geen marge op implementatiepartners.",
+      "Over mij Mijn partnernetwerk",
+      "Weten waar je staat met AI? Bekijk de AI Readiness Assessment →",
+      "Veelgestelde vragen over kosten",
+      "Wat kost een AI consultant?+",
+      "Bij mij betaal je per pakket. Het kleinste pakket is de Executive Briefing van €2.800; een AI Readiness Assessment kost €7.000 en een AI Strategy Sprint €15.400 - €22.400. Alle bedragen zijn exclusief btw en reiskosten.",
+      "Zijn de genoemde prijzen definitief?+",
+      "Elke dienst heeft een vaste prijs of een duidelijke bandbreedte. Waar je daarbinnen uitkomt, legt het voorstel na de kennismaking vast, voordat er iets start.",
+      "Kan ik ook een losse vraag of workshop afnemen?+",
+      "Ja, voor afgebakend advieswerk, workshops en second opinions. Ook dan krijg je vooraf een vaste prijs in het voorstel, zodat het gesprek over de uitkomst gaat en niet over de urenstaat.",
+      "Hoe verloopt de facturatie?+",
+      "Per maand of per mijlpaal, met een betaaltermijn van dertig dagen. Bij trajecten met een vaste prijs factureer ik vijftig procent bij aanvang en vijftig procent bij oplevering.",
+      "Betaal ik extra voor implementatiepartners die je voorstelt?+",
+      "Niet via mij. Partners die ik voorstel contracteer je rechtstreeks, en ik reken geen marge op hun tarief. Mijn inkomsten komen volledig uit het advieswerk dat jij betaalt.",
+      "Klaar voor impact?",
+      "Van AI-ambitie naar concrete resultaten.",
+      "Plan een vrijblijvend gesprek. Geen pitch. Wel scherpe vragen.",
+      "30 min., geen pitch deckPlan een gesprek →"
+    ]
+  },
+  "links": [
+    {
+      "regio": "overig",
+      "soort": "intern",
+      "href": "#main",
+      "anker": "Naar hoofdinhoud",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/",
+      "anker": "",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/diensten",
+      "anker": "Diensten",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/cases",
+      "anker": "Cases",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/werkwijze",
+      "anker": "Werkwijze",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/inzichten",
+      "anker": "Inzichten",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/over",
+      "anker": "Over mij",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/contact",
+      "anker": "Plan een gesprek →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/",
+      "anker": "Home",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/contact",
+      "anker": "Plan een adviesgesprek →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/diensten/ai-readiness-assessment",
+      "anker": "Bekijk de AI Readiness Assessment →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/werkwijze",
+      "anker": "werkwijze in vier stappen",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/diensten/ai-readiness-assessment",
+      "anker": "AI Readiness Assessment",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/diensten/ai-strategy-sprint",
+      "anker": "AI Strategy Sprint",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/diensten/fractional-ai-lead",
+      "anker": "parttime AI-leiderschapsrol",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/diensten/vendor-review",
+      "anker": "Vendor Review",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/diensten/executive-briefing",
+      "anker": "Executive Briefing",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/diensten/ai-due-diligence",
+      "anker": "AI Due Diligence",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/ai-workshop",
+      "anker": "AI workshops en trainingen voor teams",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/diensten",
+      "anker": "overzicht van alle diensten",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/inzichten/freelance-ai-consultant-vs-agency-vs-big4",
+      "anker": "freelance AI consultant, agency of Big 4",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/ai-consultancy/ai-consultant-inhuren",
+      "anker": "een AI consultant inhuren",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/contact",
+      "anker": "Plan een vrijblijvend gesprek",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/over",
+      "anker": "Over mij",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/partnernetwerk",
+      "anker": "Mijn partnernetwerk",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/diensten/ai-readiness-assessment",
+      "anker": "Weten waar je staat met AI? Bekijk de AI Readiness Assessment →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/contact",
+      "anker": "Plan een gesprek →",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/diensten/ai-readiness-assessment",
+      "anker": "AI Readiness Assessment",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/diensten/ai-strategy-sprint",
+      "anker": "AI Strategy Sprint",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/diensten/fractional-ai-lead",
+      "anker": "Fractional AI Lead",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/diensten",
+      "anker": "Alle diensten",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/cases",
+      "anker": "Cases",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/werkwijze",
+      "anker": "Werkwijze",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/inzichten",
+      "anker": "Inzichten",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/veelgestelde-vragen",
+      "anker": "Veelgestelde vragen",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/over",
+      "anker": "Over mij",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-consultancy",
+      "anker": "AI consultancy",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-implementatie",
+      "anker": "AI implementatie",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-automatisering",
+      "anker": "AI automatisering",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-voor-bedrijven",
+      "anker": "AI voor bedrijven",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-development",
+      "anker": "AI development",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-agents",
+      "anker": "AI agents",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-beleid",
+      "anker": "AI beleid",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-workshop",
+      "anker": "AI workshop",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/markten",
+      "anker": "AI per branche",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/kennisbank",
+      "anker": "Kennisbank",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/tarieven",
+      "anker": "Tarieven",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/partnernetwerk",
+      "anker": "Partnernetwerk",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "overig",
+      "href": "mailto:dave@freelanceaiconsultant.com",
+      "anker": "dave@freelanceaiconsultant.com",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "extern",
+      "href": "https://www.linkedin.com/in/davewillemstein",
+      "anker": "LinkedIn ↗",
+      "rel": "noopener"
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/contact",
+      "anker": "Plan een gesprek",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/privacy",
+      "anker": "Privacyverklaring",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/algemene-voorwaarden",
+      "anker": "Algemene voorwaarden",
+      "rel": null
+    }
+  ],
+  "structured_data": {
+    "sha256": "c2eadf9009e6c52a9ca6554dc824ae2286a7164d9f9e2dd9a1cd68af59205421",
+    "items": [
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://freelanceaiconsultant.com/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Tarieven",
+                "item": "https://freelanceaiconsultant.com/tarieven"
+              }
+            ]
+          },
+          {
+            "@type": "Service",
+            "name": "AI consultancy",
+            "description": "Bekijk transparante vanaf-prijzen voor AI Readiness Assessment, Strategy Sprint en Fractional AI Lead. Geen uurtarief, wel heldere pakketten en bandbreedtes.",
+            "url": "https://freelanceaiconsultant.com/tarieven",
+            "provider": {
+              "@type": "Person",
+              "name": "Dave Willemstein",
+              "jobTitle": "Onafhankelijk AI-adviseur",
+              "url": "https://freelanceaiconsultant.com/over",
+              "sameAs": [
+                "https://www.linkedin.com/in/davewillemstein"
+              ]
+            },
+            "hasOfferCatalog": {
+              "@type": "OfferCatalog",
+              "name": "Pakketten en vanaf-prijzen",
+              "itemListElement": [
+                {
+                  "@type": "Offer",
+                  "itemOffered": {
+                    "@type": "Service",
+                    "name": "AI Readiness Assessment",
+                    "url": "https://freelanceaiconsultant.com/diensten/ai-readiness-assessment"
+                  },
+                  "priceSpecification": {
+                    "@type": "PriceSpecification",
+                    "priceCurrency": "EUR",
+                    "valueAddedTaxIncluded": false,
+                    "price": 7000
+                  }
+                },
+                {
+                  "@type": "Offer",
+                  "itemOffered": {
+                    "@type": "Service",
+                    "name": "AI Strategy Sprint",
+                    "url": "https://freelanceaiconsultant.com/diensten/ai-strategy-sprint"
+                  },
+                  "priceSpecification": {
+                    "@type": "PriceSpecification",
+                    "priceCurrency": "EUR",
+                    "valueAddedTaxIncluded": false,
+                    "minPrice": 15400,
+                    "maxPrice": 22400
+                  }
+                },
+                {
+                  "@type": "Offer",
+                  "itemOffered": {
+                    "@type": "Service",
+                    "name": "Fractional AI Lead",
+                    "url": "https://freelanceaiconsultant.com/diensten/fractional-ai-lead"
+                  },
+                  "priceSpecification": {
+                    "@type": "PriceSpecification",
+                    "priceCurrency": "EUR",
+                    "valueAddedTaxIncluded": false,
+                    "minPrice": 2600,
+                    "maxPrice": 10400,
+                    "unitText": "MONTH"
+                  }
+                },
+                {
+                  "@type": "Offer",
+                  "itemOffered": {
+                    "@type": "Service",
+                    "name": "Vendor Review",
+                    "url": "https://freelanceaiconsultant.com/diensten/vendor-review"
+                  },
+                  "priceSpecification": {
+                    "@type": "PriceSpecification",
+                    "priceCurrency": "EUR",
+                    "valueAddedTaxIncluded": false,
+                    "minPrice": 9800,
+                    "maxPrice": 15400
+                  }
+                },
+                {
+                  "@type": "Offer",
+                  "itemOffered": {
+                    "@type": "Service",
+                    "name": "Executive Briefing",
+                    "url": "https://freelanceaiconsultant.com/diensten/executive-briefing"
+                  },
+                  "priceSpecification": {
+                    "@type": "PriceSpecification",
+                    "priceCurrency": "EUR",
+                    "valueAddedTaxIncluded": false,
+                    "price": 2800
+                  }
+                },
+                {
+                  "@type": "Offer",
+                  "itemOffered": {
+                    "@type": "Service",
+                    "name": "AI Due Diligence",
+                    "url": "https://freelanceaiconsultant.com/diensten/ai-due-diligence"
+                  },
+                  "priceSpecification": {
+                    "@type": "PriceSpecification",
+                    "priceCurrency": "EUR",
+                    "valueAddedTaxIncluded": false,
+                    "minPrice": 12600,
+                    "maxPrice": 19600
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "@type": "FAQPage",
+            "mainEntity": [
+              {
+                "@type": "Question",
+                "name": "Wat kost een AI consultant?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Bij mij betaal je per pakket. Het kleinste pakket is de Executive Briefing van €2.800; een AI Readiness Assessment kost €7.000 en een AI Strategy Sprint €15.400 - €22.400. Alle bedragen zijn exclusief btw en reiskosten."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Zijn de genoemde prijzen definitief?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Elke dienst heeft een vaste prijs of een duidelijke bandbreedte. Waar je daarbinnen uitkomt, legt het voorstel na de kennismaking vast, voordat er iets start."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Kan ik ook een losse vraag of workshop afnemen?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Ja, voor afgebakend advieswerk, workshops en second opinions. Ook dan krijg je vooraf een vaste prijs in het voorstel, zodat het gesprek over de uitkomst gaat en niet over de urenstaat."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Hoe verloopt de facturatie?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Per maand of per mijlpaal, met een betaaltermijn van dertig dagen. Bij trajecten met een vaste prijs factureer ik vijftig procent bij aanvang en vijftig procent bij oplevering."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Betaal ik extra voor implementatiepartners die je voorstelt?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Niet via mij. Partners die ik voorstel contracteer je rechtstreeks, en ik reken geen marge op hun tarief. Mijn inkomsten komen volledig uit het advieswerk dat jij betaalt."
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "afbeeldingen": [
+    {
+      "regio": "header",
+      "src": "/images/freelance-ai-consultant-logo-header.png",
+      "alt": "freelanceaiconsultant.com logo",
+      "width": "600",
+      "height": "287",
+      "loading": null
+    },
+    {
+      "regio": "main",
+      "src": "/images/dave-portrait.jpg",
+      "alt": "Portret van Dave Willemstein",
+      "width": "88",
+      "height": "88",
+      "loading": "lazy"
+    },
+    {
+      "regio": "footer",
+      "src": "/images/freelance-ai-consultant-icon-footer.png",
+      "alt": "",
+      "width": "192",
+      "height": "192",
+      "loading": "lazy"
+    }
+  ],
+  "laadprestaties": {
+    "scripts": [
+      {
+        "src": "/logo-carousel/logo-carousel.js?v=2",
+        "type": null,
+        "inline_bytes": 0
+      }
+    ],
+    "stylesheets": [
+      "https://fonts.googleapis.com/css2?family=Caveat:wght@600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap",
+      "/_astro/_slug_.bq6BBoZ5.css",
+      "/_astro/_slug_.goiX3PVF.css",
+      "/logo-carousel/logo-carousel.css?v=2"
+    ],
+    "aantal_details": 5,
+    "aantal_tabellen": 1
+  }
+}

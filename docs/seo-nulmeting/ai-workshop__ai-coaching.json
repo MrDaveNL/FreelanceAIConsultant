@@ -1,0 +1,678 @@
+{
+  "url": "/ai-workshop/ai-coaching",
+  "build_bestand": "dist/ai-workshop/ai-coaching/index.html",
+  "bron": [
+    "src/content/pages/ai-workshop/ai-coaching/index.md",
+    "src/pages/[...slug].astro"
+  ],
+  "gemeten_op": "2026-10-06",
+  "html": {
+    "bytes": 29064,
+    "sha256": "e86b24883648b61d7996bd3c92ea7e90a1e154263a14e1aa5ced19da289bf68c",
+    "lang": "nl"
+  },
+  "beschermd": {
+    "title": "AI coaching | Persoonlijke begeleiding bij AI-adoptie",
+    "meta_description": "Met AI coaching krijgen managers en teams persoonlijke begeleiding bij het toepassen van AI. Van eerste stappen tot structurele verandering in het team.",
+    "canonical": "https://freelanceaiconsultant.com/ai-workshop/ai-coaching",
+    "robots_meta": null,
+    "hreflang": [],
+    "h1": [
+      "AI coaching voor managers en teams"
+    ]
+  },
+  "social": {
+    "og:type": "website",
+    "og:locale": "nl_NL",
+    "og:site_name": "freelanceaiconsultant.com",
+    "og:title": "AI coaching | Persoonlijke begeleiding bij AI-adoptie",
+    "og:description": "Met AI coaching krijgen managers en teams persoonlijke begeleiding bij het toepassen van AI. Van eerste stappen tot structurele verandering in het team.",
+    "og:url": "https://freelanceaiconsultant.com/ai-workshop/ai-coaching",
+    "og:image": "https://freelanceaiconsultant.com/images/dave-portrait.jpg",
+    "twitter:card": "summary_large_image",
+    "twitter:title": "AI coaching | Persoonlijke begeleiding bij AI-adoptie",
+    "twitter:description": "Met AI coaching krijgen managers en teams persoonlijke begeleiding bij het toepassen van AI. Van eerste stappen tot structurele verandering in het team.",
+    "twitter:image": "https://freelanceaiconsultant.com/images/dave-portrait.jpg"
+  },
+  "koppen": [
+    {
+      "niveau": 1,
+      "tekst": "AI coaching voor managers en teams",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "Wat is AI coaching?",
+      "regio": "main",
+      "id": "wat-is-ai-coaching"
+    },
+    {
+      "niveau": 2,
+      "tekst": "Voor wie is AI coaching?",
+      "regio": "main",
+      "id": "voor-wie-is-ai-coaching"
+    },
+    {
+      "niveau": 2,
+      "tekst": "Hoe een traject verloopt",
+      "regio": "main",
+      "id": "hoe-een-traject-verloopt"
+    },
+    {
+      "niveau": 2,
+      "tekst": "Veelgestelde vragen",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "Van AI-ambitie naar concrete resultaten.",
+      "regio": "main",
+      "id": null
+    }
+  ],
+  "bodytekst": {
+    "regio": "main",
+    "woorden": 1273,
+    "sha256": "e3c532393d23e79f187714ddd99865671361381ff74ef57ef1e58c46f4266cba",
+    "blokken": [
+      "Home",
+      "AI workshop",
+      "AI coaching",
+      "AI coaching",
+      "AI coaching voor managers en teams",
+      "Een workshop geeft een team een vertrekpunt. Maar de vragen komen pas echt als mensen AI in hun werk gaan gebruiken. AI coaching is persoonlijke begeleiding voor managers en teamleads in die fase: wat pak je als eerste op, hoe neem je je team mee en hoe houd je het vol als de waan van de dag terugkomt.",
+      "Plan een adviesgesprek → Bekijk de AI Readiness Assessment →",
+      "IN HET KORT",
+      "Persoonlijke begeleiding voor managers en teamleads die AI in hun team willen laten landen.",
+      "Gericht op het werk van het team, niet op de tool.",
+      "Afgebakend en tegen een vaste prijs; we spreken vooraf af wanneer het klaar is.",
+      "AI in Europa",
+      "Europese merken die AI al in productie hebben.",
+      "Geen klanten van mij. Wel voorbeelden van wat er gebeurt als AI voorbij de pilot komt.",
+      "Pauzeer",
+      "Klarna",
+      "Zweden",
+      "AI-assistent in de klantenservice",
+      "Zalando",
+      "Duitsland",
+      "Mode-assistent voor productadvies",
+      "Financial services",
+      "Investeringsmaatschappij",
+      "AI-strategie en use-case portfolio",
+      "Booking.com",
+      "Nederland",
+      "AI Trip Planner voor reisplanning",
+      "Siemens",
+      "Duitsland",
+      "Industrial Copilot voor engineering",
+      "Retail",
+      "Enterprise retailer",
+      "AI-gedreven vendorselectie",
+      "Spotify",
+      "Zweden",
+      "AI DJ en gepersonaliseerde playlists",
+      "Mercedes-Benz",
+      "Duitsland",
+      "Generatieve spraakassistent in de auto",
+      "Industrial / B2B",
+      "Internationale maakorganisatie",
+      "AI-roadmap en leadership",
+      "ING",
+      "Nederland",
+      "Generatieve chatbot voor klantvragen",
+      "L'Oréal",
+      "Frankrijk",
+      "Beauty Genius: persoonlijk advies",
+      "Financial services",
+      "Financiële dienstverlener",
+      "KYC versneld met AI-documentanalyse",
+      "SAP",
+      "Duitsland",
+      "Joule: copilot in bedrijfssoftware",
+      "Carrefour",
+      "Frankrijk",
+      "Hopla: boodschappenassistent",
+      "Strategy & AI",
+      "SaaS scale-up",
+      "AI-readiness assessment",
+      "Adyen",
+      "Nederland",
+      "AI-optimalisatie van betalingen",
+      "Philips",
+      "Nederland",
+      "AI in medische beeldvorming",
+      "Proces & productivity",
+      "Zakelijke dienstverlener",
+      "Interne AI-assistent voor kenniswerkers",
+      "Wat is AI coaching?",
+      "AI coaching is persoonlijke begeleiding bij het toepassen van AI in het dagelijkse werk. Geen cursus met een vast programma, maar een reeks gesprekken en werksessies rond de vragen die een manager of team op dat moment heeft. Bijvoorbeeld:",
+      "Welke taken in mijn team lenen zich voor AI, en welke niet?",
+      "Hoe krijg ik de mensen mee die afwachten, zonder de enthousiastelingen af te remmen?",
+      "Wat mag er met klantgegevens, en hoe maak ik dat duidelijk?",
+      "Hoe zie ik of het iets oplevert, zonder een meetsysteem op te tuigen?",
+      "Het verschil met een workshop zit in de tijd. Een workshop legt een basis, maar de meeste vragen ontstaan pas weken later, als iemand een tool in zijn eigen werk probeert. Adoptie verspreidt zich via collega’s en leidinggevenden, niet via trainingen alleen; dat beschreef ik uitgebreider in AI-adoptie begint bij het werk. AI coaching richt zich precies op die mensen die het voorbeeld moeten geven.",
+      "Ik ben daarbij een onafhankelijke AI-coach: ik verkoop geen software of licenties, en adviseer dus ook geen tool omdat ik er iets aan verdien.",
+      "Voor wie is AI coaching?",
+      "AI coaching is bedoeld voor management en teamleads die verantwoordelijk zijn voor hoe hun team werkt. Het past als:",
+      "je team toegang heeft tot AI-tools, maar het gebruik blijft hangen bij een paar mensen;",
+      "je na een training merkt dat de energie wegzakt en niemand de volgende stap zet;",
+      "je als leidinggevende zelf nog zoekt naar hoe je AI in je eigen werk gebruikt;",
+      "er in je team onzekerheid is over wat AI betekent voor functies en taken;",
+      "je een concrete verandering wilt doorvoeren, bijvoorbeeld een nieuwe werkwijze voor rapportages of klantcontact.",
+      "Het past minder als de vraag organisatiebreed is. Moet er iemand de AI-agenda van de hele organisatie sturen, dan is een Fractional AI Lead de betere vorm. En als je team nog helemaal aan het begin staat, is een gezamenlijke basis vaak een betere eerste stap: een training AI-geletterdheid of, bij organisaties met Microsoft 365, een Copilot training.",
+      "Hoe een traject verloopt",
+      "Elk traject is afgebakend. We spreken vooraf af wat het doel is, hoeveel sessies we ongeveer nodig hebben en wanneer het klaar is. Een traject kan er zo uitzien:",
+      "IntakeDoel, team, tools en afspraken. Wat moet er over een paar maanden anders zijn?",
+      "Taken kiezenSamen met het team drie tot vijf concrete taken per rol kiezen om mee te starten.",
+      "BegeleidenRegelmatige gesprekken en werksessies: wat werkt, wat niet, en wat is de volgende stap.",
+      "AfrondenEvalueren, vastleggen wat blijft en de rol overdragen aan iemand in het team.",
+      "Een voorbeeld van het verloop; het aantal sessies en de tussenpozen stemmen we af op het team.",
+      "Een paar uitgangspunten die voor elk traject gelden:",
+      "Het werk staat centraal, niet de tool. We beginnen bij taken die vorige week meer tijd kostten dan ze waard waren.",
+      "Jij blijft eigenaar. Ik stel vragen, deel wat in vergelijkbare situaties vaak werkt en help keuzes scherp te krijgen. Het besluit en de uitvoering liggen bij jou en je team.",
+      "Het moeilijke gesprek hoort erbij. Als een taak verandert of verdwijnt, bespreken we hoe je dat eerlijk met je team deelt.",
+      "Afbouwen is het doel. Aan het eind moet het team zonder mij verder kunnen, met iemand die de rol van aanspreekpunt overneemt.",
+      "AI coaching valt onder afgebakend advies, met een vaste prijs per opdracht. De omvang spreken we vooraf af; op de pagina tarieven lees je hoe dat werkt. Wil je eerst een overzicht van alle vormen, van introductieworkshop tot hands-on training, kijk dan bij AI workshops en trainingen voor bedrijven.",
+      "Voorbeeldscenario",
+      "Een teamleider klantenservice bij een energieleverancier heeft 18 medewerkers. Het team heeft sinds een half jaar een AI-assistent, maar vier mensen gebruiken die. De rest wacht af, en er leeft onzekerheid over wat het betekent voor hun functie.",
+      "In drie maanden volgen vijf coachingsgesprekken van anderhalf uur en twee werksessies met het team, samen ongeveer drie dagen. De adviseur helpt de teamleider drie taken kiezen: klantmails samenvatten, conceptantwoorden over betalingsregelingen en gespreksnotities uitwerken. De teamleider bespreekt openlijk welke taken verschuiven en dat er geen functies verdwijnen.",
+      "Na drie maanden gebruiken 14 van de 18 medewerkers de assistent wekelijks voor minstens één van die taken. Een mail over een betalingsregeling kost gemiddeld 6 in plaats van 9 minuten. Twee medewerkers nemen de rol van aanspreekpunt over en de coaching stopt, zoals vooraf afgesproken.",
+      "Fictief voorbeeld, samengesteld uit situaties die veel voorkomen. Organisatie en cijfers zijn illustratief.",
+      "Twijfel je of coaching past bij jouw vraag? Plan een adviesgesprek van dertig minuten; aan het eind hoor je wat ik zou doen, ook als dat iets anders is dan coaching.",
+      "Dave Willemstein Onafhankelijk AI-adviseur",
+      "Onafhankelijk: geen commissies, geen partnerdeals, geen marge op implementatiepartners.",
+      "Over mij Mijn partnernetwerk",
+      "Weten waar je staat met AI? Bekijk de AI Readiness Assessment →",
+      "Veelgestelde vragen",
+      "Wat is het verschil tussen AI coaching en een training?+",
+      "Een training brengt een groep kennis en vaardigheden bij, met een vooraf bepaald programma. Coaching volgt de vragen van één manager of een klein team, op het moment dat ze zich voordoen. Een combinatie werkt vaak goed: eerst een training voor de breedte, daarna coaching voor de mensen die de verandering moeten trekken.",
+      "Moet ik zelf technisch onderlegd zijn?+",
+      "Nee. AI coaching voor management gaat over keuzes, werkprocessen en mensen. Je moet wel bereid zijn de tools zelf te gebruiken, want een team neemt weinig aan van een leidinggevende die het alleen van horen zeggen kent.",
+      "Kan coaching ook online?+",
+      "Ja. Voor korte, regelmatige gesprekken werkt online vaak prima. Een sessie met het hele team, bijvoorbeeld om taken door te lopen, doen we bij voorkeur op locatie.",
+      "Wat als blijkt dat het probleem groter is dan één team?+",
+      "Dan zeg ik dat. Soms blijkt dat de echte belemmering in beleid, licenties of data zit, en niet in het team. Dan is een breder traject zinvoller dan doorgaan met coaching, en bespreken we welke vorm past.",
+      "Klaar voor impact?",
+      "Van AI-ambitie naar concrete resultaten.",
+      "Plan een vrijblijvend gesprek. Geen pitch. Wel scherpe vragen.",
+      "30 min., geen pitch deckPlan een gesprek →"
+    ]
+  },
+  "links": [
+    {
+      "regio": "overig",
+      "soort": "intern",
+      "href": "#main",
+      "anker": "Naar hoofdinhoud",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/",
+      "anker": "",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/diensten",
+      "anker": "Diensten",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/cases",
+      "anker": "Cases",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/werkwijze",
+      "anker": "Werkwijze",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/inzichten",
+      "anker": "Inzichten",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/over",
+      "anker": "Over mij",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/contact",
+      "anker": "Plan een gesprek →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/",
+      "anker": "Home",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/ai-workshop",
+      "anker": "AI workshop",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/contact",
+      "anker": "Plan een adviesgesprek →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/diensten/ai-readiness-assessment",
+      "anker": "Bekijk de AI Readiness Assessment →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/inzichten/ai-adoptie-begint-bij-het-werk",
+      "anker": "AI-adoptie begint bij het werk",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/diensten/fractional-ai-lead",
+      "anker": "Fractional AI Lead",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/ai-workshop/ai-geletterdheid-training",
+      "anker": "training AI-geletterdheid",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/ai-workshop/copilot-training",
+      "anker": "Copilot training",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/tarieven",
+      "anker": "tarieven",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/ai-workshop",
+      "anker": "AI workshops en trainingen voor bedrijven",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/contact",
+      "anker": "Plan een adviesgesprek",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/over",
+      "anker": "Over mij",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/partnernetwerk",
+      "anker": "Mijn partnernetwerk",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/diensten/ai-readiness-assessment",
+      "anker": "Weten waar je staat met AI? Bekijk de AI Readiness Assessment →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/contact",
+      "anker": "Plan een gesprek →",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/diensten/ai-readiness-assessment",
+      "anker": "AI Readiness Assessment",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/diensten/ai-strategy-sprint",
+      "anker": "AI Strategy Sprint",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/diensten/fractional-ai-lead",
+      "anker": "Fractional AI Lead",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/diensten",
+      "anker": "Alle diensten",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/cases",
+      "anker": "Cases",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/werkwijze",
+      "anker": "Werkwijze",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/inzichten",
+      "anker": "Inzichten",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/veelgestelde-vragen",
+      "anker": "Veelgestelde vragen",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/over",
+      "anker": "Over mij",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-consultancy",
+      "anker": "AI consultancy",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-implementatie",
+      "anker": "AI implementatie",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-automatisering",
+      "anker": "AI automatisering",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-voor-bedrijven",
+      "anker": "AI voor bedrijven",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-development",
+      "anker": "AI development",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-agents",
+      "anker": "AI agents",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-beleid",
+      "anker": "AI beleid",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-workshop",
+      "anker": "AI workshop",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/markten",
+      "anker": "AI per branche",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/kennisbank",
+      "anker": "Kennisbank",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/tarieven",
+      "anker": "Tarieven",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/partnernetwerk",
+      "anker": "Partnernetwerk",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "overig",
+      "href": "mailto:dave@freelanceaiconsultant.com",
+      "anker": "dave@freelanceaiconsultant.com",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "extern",
+      "href": "https://www.linkedin.com/in/davewillemstein",
+      "anker": "LinkedIn ↗",
+      "rel": "noopener"
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/contact",
+      "anker": "Plan een gesprek",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/privacy",
+      "anker": "Privacyverklaring",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/algemene-voorwaarden",
+      "anker": "Algemene voorwaarden",
+      "rel": null
+    }
+  ],
+  "structured_data": {
+    "sha256": "0e3d5f06d5fb6c44149c201083528fb8f8c8c552e73b474659e975924ad65d44",
+    "items": [
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://freelanceaiconsultant.com/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "AI workshop",
+                "item": "https://freelanceaiconsultant.com/ai-workshop"
+              },
+              {
+                "@type": "ListItem",
+                "position": 3,
+                "name": "AI coaching",
+                "item": "https://freelanceaiconsultant.com/ai-workshop/ai-coaching"
+              }
+            ]
+          },
+          {
+            "@type": "Service",
+            "name": "AI coaching",
+            "serviceType": "ai coaching",
+            "description": "Met AI coaching krijgen managers en teams persoonlijke begeleiding bij het toepassen van AI. Van eerste stappen tot structurele verandering in het team.",
+            "url": "https://freelanceaiconsultant.com/ai-workshop/ai-coaching",
+            "areaServed": "NL",
+            "provider": {
+              "@type": "Person",
+              "name": "Dave Willemstein",
+              "jobTitle": "Onafhankelijk AI-adviseur",
+              "url": "https://freelanceaiconsultant.com/over",
+              "sameAs": [
+                "https://www.linkedin.com/in/davewillemstein"
+              ]
+            }
+          },
+          {
+            "@type": "FAQPage",
+            "mainEntity": [
+              {
+                "@type": "Question",
+                "name": "Wat is het verschil tussen AI coaching en een training?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Een training brengt een groep kennis en vaardigheden bij, met een vooraf bepaald programma. Coaching volgt de vragen van één manager of een klein team, op het moment dat ze zich voordoen. Een combinatie werkt vaak goed: eerst een training voor de breedte, daarna coaching voor de mensen die de verandering moeten trekken."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Moet ik zelf technisch onderlegd zijn?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Nee. AI coaching voor management gaat over keuzes, werkprocessen en mensen. Je moet wel bereid zijn de tools zelf te gebruiken, want een team neemt weinig aan van een leidinggevende die het alleen van horen zeggen kent."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Kan coaching ook online?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Ja. Voor korte, regelmatige gesprekken werkt online vaak prima. Een sessie met het hele team, bijvoorbeeld om taken door te lopen, doen we bij voorkeur op locatie."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Wat als blijkt dat het probleem groter is dan één team?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Dan zeg ik dat. Soms blijkt dat de echte belemmering in beleid, licenties of data zit, en niet in het team. Dan is een breder traject zinvoller dan doorgaan met coaching, en bespreken we welke vorm past."
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "afbeeldingen": [
+    {
+      "regio": "header",
+      "src": "/images/freelance-ai-consultant-logo-header.png",
+      "alt": "freelanceaiconsultant.com logo",
+      "width": "600",
+      "height": "287",
+      "loading": null
+    },
+    {
+      "regio": "main",
+      "src": "/images/dave-portrait.jpg",
+      "alt": "Portret van Dave Willemstein",
+      "width": "88",
+      "height": "88",
+      "loading": "lazy"
+    },
+    {
+      "regio": "footer",
+      "src": "/images/freelance-ai-consultant-icon-footer.png",
+      "alt": "",
+      "width": "192",
+      "height": "192",
+      "loading": "lazy"
+    }
+  ],
+  "laadprestaties": {
+    "scripts": [
+      {
+        "src": "/logo-carousel/logo-carousel.js?v=2",
+        "type": null,
+        "inline_bytes": 0
+      }
+    ],
+    "stylesheets": [
+      "https://fonts.googleapis.com/css2?family=Caveat:wght@600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap",
+      "/_astro/_slug_.bq6BBoZ5.css",
+      "/_astro/_slug_.goiX3PVF.css",
+      "/logo-carousel/logo-carousel.css?v=2"
+    ],
+    "aantal_details": 4,
+    "aantal_tabellen": 0
+  }
+}

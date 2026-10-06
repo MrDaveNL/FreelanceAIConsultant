@@ -1,0 +1,798 @@
+{
+  "url": "/kennisbank/wat-doet-een-ai-consultant",
+  "build_bestand": "dist/kennisbank/wat-doet-een-ai-consultant/index.html",
+  "bron": [
+    "src/content/pages/kennisbank/wat-doet-een-ai-consultant/index.md",
+    "src/pages/[...slug].astro"
+  ],
+  "gemeten_op": "2026-10-06",
+  "html": {
+    "bytes": 34182,
+    "sha256": "f78ce89ffc83487af7a7ef3544987e935fc649baa44869f196f577b5b644eb63",
+    "lang": "nl"
+  },
+  "beschermd": {
+    "title": "Wat doet een AI consultant? Taken, rol en meerwaarde",
+    "meta_description": "Wat doet een AI consultant precies? Lees welke taken een AI consultant heeft, welke vaardigheden belangrijk zijn en wanneer inhuren voor jouw bedrijf loont.",
+    "canonical": "https://freelanceaiconsultant.com/kennisbank/wat-doet-een-ai-consultant",
+    "robots_meta": null,
+    "hreflang": [],
+    "h1": [
+      "Wat doet een AI consultant?"
+    ]
+  },
+  "social": {
+    "og:type": "website",
+    "og:locale": "nl_NL",
+    "og:site_name": "freelanceaiconsultant.com",
+    "og:title": "Wat doet een AI consultant? Taken, rol en meerwaarde",
+    "og:description": "Wat doet een AI consultant precies? Lees welke taken een AI consultant heeft, welke vaardigheden belangrijk zijn en wanneer inhuren voor jouw bedrijf loont.",
+    "og:url": "https://freelanceaiconsultant.com/kennisbank/wat-doet-een-ai-consultant",
+    "og:image": "https://freelanceaiconsultant.com/images/dave-portrait.jpg",
+    "twitter:card": "summary_large_image",
+    "twitter:title": "Wat doet een AI consultant? Taken, rol en meerwaarde",
+    "twitter:description": "Wat doet een AI consultant precies? Lees welke taken een AI consultant heeft, welke vaardigheden belangrijk zijn en wanneer inhuren voor jouw bedrijf loont.",
+    "twitter:image": "https://freelanceaiconsultant.com/images/dave-portrait.jpg"
+  },
+  "koppen": [
+    {
+      "niveau": 1,
+      "tekst": "Wat doet een AI consultant?",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "Wat is een AI consultant?",
+      "regio": "main",
+      "id": "wat-is-een-ai-consultant"
+    },
+    {
+      "niveau": 2,
+      "tekst": "Taken van een AI consultant",
+      "regio": "main",
+      "id": "taken-van-een-ai-consultant"
+    },
+    {
+      "niveau": 3,
+      "tekst": "Strategie",
+      "regio": "main",
+      "id": "strategie"
+    },
+    {
+      "niveau": 3,
+      "tekst": "Use cases selecteren",
+      "regio": "main",
+      "id": "use-cases-selecteren"
+    },
+    {
+      "niveau": 3,
+      "tekst": "Implementatie begeleiden",
+      "regio": "main",
+      "id": "implementatie-begeleiden"
+    },
+    {
+      "niveau": 3,
+      "tekst": "Governance",
+      "regio": "main",
+      "id": "governance"
+    },
+    {
+      "niveau": 2,
+      "tekst": "Welke vaardigheden heeft een goede AI consultant?",
+      "regio": "main",
+      "id": "welke-vaardigheden-heeft-een-goede-ai-consultant"
+    },
+    {
+      "niveau": 2,
+      "tekst": "AI consultant versus AI developer",
+      "regio": "main",
+      "id": "ai-consultant-versus-ai-developer"
+    },
+    {
+      "niveau": 2,
+      "tekst": "Wanneer schakel je een AI consultant in?",
+      "regio": "main",
+      "id": "wanneer-schakel-je-een-ai-consultant-in"
+    },
+    {
+      "niveau": 2,
+      "tekst": "Veelgestelde vragen",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "Van AI-ambitie naar concrete resultaten.",
+      "regio": "main",
+      "id": null
+    }
+  ],
+  "bodytekst": {
+    "regio": "main",
+    "woorden": 1711,
+    "sha256": "741a5dbd4fb3eaf389a815865e597c726994aca51ee68db7c3d75c67bf3385b6",
+    "blokken": [
+      "Home",
+      "Kennisbank",
+      "Wat doet een AI consultant?",
+      "Kennisbank",
+      "Wat doet een AI consultant?",
+      "Wat doet een AI consultant eigenlijk, naast praten over AI? Kort gezegd: een AI consultant helpt een organisatie beslissen wat ze met AI doet, in welke volgorde, met welke partijen en onder welke voorwaarden. Hieronder lees je welke taken daarbij horen, welke vaardigheden tellen en waar de rol ophoudt.",
+      "Lees meer over AI consultancy → Plan een adviesgesprek →",
+      "Geschreven door Dave Willemstein, onafhankelijk AI consultant · gepubliceerd 23 september 2026",
+      "IN HET KORT",
+      "Een AI consultant helpt beslissen: wat je met AI doet, in welke volgorde en met wie.",
+      "Kerntaken: strategie, use cases selecteren, implementatie begeleiden en governance.",
+      "Een AI developer bouwt; een AI consultant bepaalt wat er gebouwd wordt en bewaakt of het landt.",
+      "AI in Europa",
+      "Europese merken die AI al in productie hebben.",
+      "Geen klanten van mij. Wel voorbeelden van wat er gebeurt als AI voorbij de pilot komt.",
+      "Pauzeer",
+      "Klarna",
+      "Zweden",
+      "AI-assistent in de klantenservice",
+      "Zalando",
+      "Duitsland",
+      "Mode-assistent voor productadvies",
+      "Financial services",
+      "Investeringsmaatschappij",
+      "AI-strategie en use-case portfolio",
+      "Booking.com",
+      "Nederland",
+      "AI Trip Planner voor reisplanning",
+      "Siemens",
+      "Duitsland",
+      "Industrial Copilot voor engineering",
+      "Retail",
+      "Enterprise retailer",
+      "AI-gedreven vendorselectie",
+      "Spotify",
+      "Zweden",
+      "AI DJ en gepersonaliseerde playlists",
+      "Mercedes-Benz",
+      "Duitsland",
+      "Generatieve spraakassistent in de auto",
+      "Industrial / B2B",
+      "Internationale maakorganisatie",
+      "AI-roadmap en leadership",
+      "ING",
+      "Nederland",
+      "Generatieve chatbot voor klantvragen",
+      "L'Oréal",
+      "Frankrijk",
+      "Beauty Genius: persoonlijk advies",
+      "Financial services",
+      "Financiële dienstverlener",
+      "KYC versneld met AI-documentanalyse",
+      "SAP",
+      "Duitsland",
+      "Joule: copilot in bedrijfssoftware",
+      "Carrefour",
+      "Frankrijk",
+      "Hopla: boodschappenassistent",
+      "Strategy & AI",
+      "SaaS scale-up",
+      "AI-readiness assessment",
+      "Adyen",
+      "Nederland",
+      "AI-optimalisatie van betalingen",
+      "Philips",
+      "Nederland",
+      "AI in medische beeldvorming",
+      "Proces & productivity",
+      "Zakelijke dienstverlener",
+      "Interne AI-assistent voor kenniswerkers",
+      "Wat is een AI consultant?",
+      "Een AI consultant is een adviseur die organisaties helpt om kunstmatige intelligentie zinvol in te zetten. Wat doet een AI consultant dan precies? Hij of zij vertaalt de mogelijkheden van AI naar keuzes voor jouw organisatie: welke problemen je ermee oplost, welke niet, wat het kost, welke risico’s erbij horen en wie waarvoor verantwoordelijk is.",
+      "Het werk zit dus vooral aan de besliskant. Een AI consultant schrijft meestal zelf geen code en traint geen modellen. De meerwaarde zit in overzicht, ervaring met vergelijkbare vraagstukken en de vrijheid om te zeggen wat intern lastig te zeggen is.",
+      "Er zijn grofweg twee soorten AI consultants: onafhankelijke adviseurs, die alleen aan advies verdienen, en consultants die ook implementatiepartner of reseller zijn van bepaalde platforms. Beide kunnen goed werk leveren, maar het verschil bepaalt hoe vrij het advies is. Ik ben zelf een onafhankelijke AI-adviseur en bouw of verkoop geen software.",
+      "Taken van een AI consultant",
+      "De taken van een AI consultant volgen grofweg de levenscyclus van een AI-besluit: van richting bepalen tot borgen dat het werkt.",
+      "StrategieBepalen wat AI moet bijdragen aan de doelen van de organisatie.",
+      "Use cases selecterenVan een lange lijst ideeën naar een korte lijst met eigenaren.",
+      "Implementatie begeleidenKiezen tussen bouwen, kopen of partner, en de uitvoering bewaken.",
+      "GovernanceRegels, rollen en controle, zodat AI veilig en beheersbaar blijft.",
+      "De kerntaken van een AI consultant volgen de weg van ambitie naar een toepassing die blijft werken.",
+      "Strategie",
+      "Een AI consultant helpt de directie bepalen wat AI moet opleveren en waar de grenzen liggen. Dat begint niet bij technologie, maar bij de doelen van de organisatie: waar zitten de knelpunten, wat is de ambitie en wat is realistisch met de huidige data en mensen? Het resultaat is een AI strategie met expliciete keuzes, inclusief wat je bewust niet doet. Die keuzes worden vervolgens vertaald naar een AI roadmap met volgorde, planning en budget.",
+      "Use cases selecteren",
+      "In veel organisaties zijn er meer AI-ideeën dan capaciteit. Een AI consultant beoordeelt ze op dezelfde manier: welke waarde levert het op, is het haalbaar, is de data er klaar voor, hoeveel verandering vraagt het en is er iemand in de lijn die eigenaar wil worden? De lijst wordt daardoor korter, niet langer. Welke typen use cases doorgaans resultaat opleveren, lees je in welke AI use cases resultaat leveren.",
+      "Implementatie begeleiden",
+      "Na de keuze komt de uitvoering, en daar stranden veel initiatieven. Een AI consultant helpt bepalen of je zelf bouwt, koopt of met een partner werkt; die afweging staat uitgewerkt in build, buy of partner. Daarna begeleidt de consultant de uitvoering: leveranciers selecteren, business cases toetsen aan de realisatie, en bewaken dat beheer, eigenaarschap en adoptie niet vergeten worden. Waarom dat zo vaak misgaat, beschrijf ik in waarom AI-pilots blijven steken.",
+      "Belangrijk onderscheid: begeleiden is niet hetzelfde als bouwen. Ik begeleid implementaties vanuit de kant van de opdrachtgever, terwijl het bouwen gebeurt door het eigen team of een partij die de opdrachtgever rechtstreeks contracteert.",
+      "Voorbeeldscenario",
+      "Een financiële dienstverlener met 220 medewerkers heeft na een reeks brainstorms 34 AI-ideeën, maar capaciteit voor hooguit twee.",
+      "De adviseur beoordeelt de ideeën met de directie op waarde, haalbaarheid, data, benodigde verandering en eigenaarschap. Twaalf ideeën vallen direct af omdat niemand in de lijn eigenaar wil worden. Van de vijf die de verdere analyse halen, gaan er twee door: dossiers samenvatten en binnenkomende mail naar de juiste afdeling sorteren. Het interne IT-team bouwt de mailtoepassing. De adviseur begeleidt vanuit de opdrachtgever en spreekt vooraf een stopcriterium af: minstens 85 procent juist op een testset van 500 echte mails.",
+      "Na tien weken haalt de toepassing 88 procent. Hij gaat live met menselijke controle bij twijfelgevallen. De andere drie ideeën staan bewust op de lijst voor volgend jaar.",
+      "Fictief voorbeeld, samengesteld uit situaties die veel voorkomen. Organisatie en cijfers zijn illustratief.",
+      "Governance",
+      "AI vraagt om afspraken: wie mag welke tools gebruiken, met welke data, wie beoordeelt nieuwe toepassingen en wie mag ze stoppen? Een AI consultant helpt die governance inrichten, zodat risico’s beheersbaar blijven zonder dat elk initiatief vastloopt in procedures. Daar hoort ook de vertaling van wetgeving bij, zoals de AI Act en de AVG, naar concrete regels in je organisatie. Hoe je dat licht houdt, lees je in AI governance zonder bureaucratie.",
+      "Welke vaardigheden heeft een goede AI consultant?",
+      "Technische kennis is een voorwaarde, maar zelden het verschil. De vaardigheden die er in de praktijk toe doen:",
+      "Vertalen. Technische mogelijkheden omzetten in gevolgen voor kosten, risico en werkprocessen, in taal die een directie begrijpt.",
+      "Prioriteren. Durven zeggen welke ideeën afvallen, en waarom.",
+      "Kritisch toetsen. Een demo of leveranciersvoorstel kunnen doorprikken: wat werkt aantoonbaar, en wat is marketing?",
+      "Kennis van data en architectuur. Genoeg om te zien of een idee strandt op de datakwaliteit of de bestaande systemen.",
+      "Kennis van regelgeving. Weten wat de AI Act en de AVG vragen, en wanneer een jurist nodig is.",
+      "Verandermanagement. Begrijpen dat AI pas waarde oplevert als mensen hun werk anders gaan doen; zie ook AI-adoptie begint bij het werk.",
+      "Onafhankelijkheid. Geen belang hebben bij een specifieke leverancier of een grotere scope.",
+      "AI consultant versus AI developer",
+      "De twee rollen worden vaak verward, maar ze vullen elkaar aan. Een AI consultant bepaalt wat er moet gebeuren en waarom. Een AI developer bouwt het: modellen, integraties, koppelingen met bestaande systemen en de software eromheen, inclusief testen en onderhoud. Hoe dat werk eruitziet, lees je in wat een AI developer doet.",
+      "AI consultant",
+      "AI developer",
+      "Kernvraag",
+      "Wat doen we, waarom en met wie?",
+      "Hoe bouwen we het en hoe zorgen we dat het werkt?",
+      "Resultaat",
+      "Strategie, prioriteiten, keuzes, governance",
+      "Werkende software, modellen en integraties",
+      "Werkt vooral met",
+      "Directie, business, IT, inkoop, risk",
+      "Engineers, data, bestaande systemen",
+      "Moment",
+      "Vóór en tijdens de uitvoering",
+      "Tijdens bouw en beheer",
+      "In een goed project heb je beide nodig. De consultant zorgt dat de developer aan het juiste probleem werkt, met heldere eisen en een eigenaar in de organisatie. De developer zorgt dat het ook echt werkt. Het wordt riskant als één partij beide rollen heeft en aan de bouw verdient: dan heeft het advies belang bij een grotere scope.",
+      "Wanneer schakel je een AI consultant in?",
+      "Dit artikel gaat over wat een AI consultant doet. De vraag wanneer je er een nodig hebt, is een aparte. Kort gezegd loont het bij besluiten die duur of moeilijk terug te draaien zijn, bij interne patstellingen, als je een investering moet verantwoorden of als je iets voor het eerst doet onder tijdsdruk. Die situaties, en de gevallen waarin je het beter zelf doet, staan uitgewerkt in wanneer je echt een AI-strateeg nodig hebt.",
+      "Overweeg je concreet om iemand in te schakelen? Op de pagina over een AI consultant inhuren lees je waar je op let bij de selectie en wat het kost. Voor een overzicht van alle vormen van begeleiding, van advies tot doorlopende sturing, kijk je bij AI consultancy. En wil je jouw situatie voorleggen, plan dan een gesprek van dertig minuten.",
+      "Dave Willemstein Onafhankelijk AI-adviseur",
+      "Onafhankelijk: geen commissies, geen partnerdeals, geen marge op implementatiepartners.",
+      "Over mij Mijn partnernetwerk",
+      "Weten waar je staat met AI? Bekijk de AI Readiness Assessment →",
+      "Veelgestelde vragen",
+      "Heeft een AI consultant een technische achtergrond nodig?+",
+      "Genoeg om technische keuzes te begrijpen en kritische vragen te stellen aan leveranciers en developers. Zelf modellen bouwen hoort niet bij de rol. Belangrijker is dat iemand techniek kan vertalen naar gevolgen voor kosten, risico en werkprocessen.",
+      "Wat is het verschil tussen een AI consultant en een AI-strateeg?+",
+      "De termen overlappen sterk. Een AI-strateeg richt zich vooral op richting en prioriteiten. Een AI consultant doet dat ook, maar begeleidt vaak ook selectie, implementatie en governance. In de praktijk gaat het om dezelfde vraag: welke AI-besluiten neem je en hoe borg je ze.",
+      "Kan een AI consultant ook zelf AI-tools implementeren?+",
+      "Dat verschilt per consultant. Sommigen zijn ook implementatiepartner of reseller van een platform. Ik niet: ik bouw en verkoop geen software. Vraag bij elke consultant na of die aan de uitvoering verdient, want dat beïnvloedt het advies.",
+      "Wat levert een AI consultant concreet op?+",
+      "Documenten om mee te besluiten: een geprioriteerde lijst use cases, een strategie met expliciete keuzes, een roadmap, een leveranciersvergelijking of een governance-opzet. Het echte resultaat is het besluit dat je daarmee neemt, en dat het daarna ook wordt uitgevoerd.",
+      "Werkt een AI consultant alleen voor grote organisaties?+",
+      "Nee. De omvang van de opdracht past zich aan. Voor een kleinere organisatie kan een korte toets of een afgebakende adviesvraag al genoeg zijn, terwijl een grote organisatie eerder een volledige strategie en doorlopende begeleiding nodig heeft.",
+      "Klaar voor impact?",
+      "Van AI-ambitie naar concrete resultaten.",
+      "Plan een vrijblijvend gesprek. Geen pitch. Wel scherpe vragen.",
+      "30 min., geen pitch deckPlan een gesprek →"
+    ]
+  },
+  "links": [
+    {
+      "regio": "overig",
+      "soort": "intern",
+      "href": "#main",
+      "anker": "Naar hoofdinhoud",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/",
+      "anker": "",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/diensten",
+      "anker": "Diensten",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/cases",
+      "anker": "Cases",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/werkwijze",
+      "anker": "Werkwijze",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/inzichten",
+      "anker": "Inzichten",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/over",
+      "anker": "Over mij",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/contact",
+      "anker": "Plan een gesprek →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/",
+      "anker": "Home",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/kennisbank",
+      "anker": "Kennisbank",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/ai-consultancy",
+      "anker": "Lees meer over AI consultancy →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/contact",
+      "anker": "Plan een adviesgesprek →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/over",
+      "anker": "Dave Willemstein",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/over",
+      "anker": "onafhankelijke AI-adviseur",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/ai-consultancy/ai-strategie",
+      "anker": "AI strategie",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/ai-consultancy/ai-roadmap",
+      "anker": "AI roadmap",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/inzichten/welke-ai-use-cases-leveren-resultaat",
+      "anker": "welke AI use cases resultaat leveren",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/inzichten/build-buy-of-partner",
+      "anker": "build, buy of partner",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/inzichten/waarom-ai-pilots-blijven-steken",
+      "anker": "waarom AI-pilots blijven steken",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/inzichten/ai-governance-zonder-bureaucratie",
+      "anker": "AI governance zonder bureaucratie",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/inzichten/ai-adoptie-begint-bij-het-werk",
+      "anker": "AI-adoptie begint bij het werk",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/kennisbank/wat-doet-een-ai-developer",
+      "anker": "wat een AI developer doet",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/inzichten/wanneer-heb-je-echt-een-ai-strateeg-nodig",
+      "anker": "wanneer je echt een AI-strateeg nodig hebt",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/ai-consultancy/ai-consultant-inhuren",
+      "anker": "een AI consultant inhuren",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/ai-consultancy",
+      "anker": "AI consultancy",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/contact",
+      "anker": "plan dan een gesprek",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/over",
+      "anker": "Over mij",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/partnernetwerk",
+      "anker": "Mijn partnernetwerk",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/diensten/ai-readiness-assessment",
+      "anker": "Weten waar je staat met AI? Bekijk de AI Readiness Assessment →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/contact",
+      "anker": "Plan een gesprek →",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/diensten/ai-readiness-assessment",
+      "anker": "AI Readiness Assessment",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/diensten/ai-strategy-sprint",
+      "anker": "AI Strategy Sprint",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/diensten/fractional-ai-lead",
+      "anker": "Fractional AI Lead",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/diensten",
+      "anker": "Alle diensten",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/cases",
+      "anker": "Cases",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/werkwijze",
+      "anker": "Werkwijze",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/inzichten",
+      "anker": "Inzichten",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/veelgestelde-vragen",
+      "anker": "Veelgestelde vragen",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/over",
+      "anker": "Over mij",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-consultancy",
+      "anker": "AI consultancy",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-implementatie",
+      "anker": "AI implementatie",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-automatisering",
+      "anker": "AI automatisering",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-voor-bedrijven",
+      "anker": "AI voor bedrijven",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-development",
+      "anker": "AI development",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-agents",
+      "anker": "AI agents",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-beleid",
+      "anker": "AI beleid",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-workshop",
+      "anker": "AI workshop",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/markten",
+      "anker": "AI per branche",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/kennisbank",
+      "anker": "Kennisbank",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/tarieven",
+      "anker": "Tarieven",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/partnernetwerk",
+      "anker": "Partnernetwerk",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "overig",
+      "href": "mailto:dave@freelanceaiconsultant.com",
+      "anker": "dave@freelanceaiconsultant.com",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "extern",
+      "href": "https://www.linkedin.com/in/davewillemstein",
+      "anker": "LinkedIn ↗",
+      "rel": "noopener"
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/contact",
+      "anker": "Plan een gesprek",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/privacy",
+      "anker": "Privacyverklaring",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/algemene-voorwaarden",
+      "anker": "Algemene voorwaarden",
+      "rel": null
+    }
+  ],
+  "structured_data": {
+    "sha256": "ca3852208650e15bc78a4f520f9a66a96805ac9ba009dfaaf0171bab277134c3",
+    "items": [
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://freelanceaiconsultant.com/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Kennisbank",
+                "item": "https://freelanceaiconsultant.com/kennisbank"
+              },
+              {
+                "@type": "ListItem",
+                "position": 3,
+                "name": "Wat doet een AI consultant?",
+                "item": "https://freelanceaiconsultant.com/kennisbank/wat-doet-een-ai-consultant"
+              }
+            ]
+          },
+          {
+            "@type": "Article",
+            "headline": "Wat doet een AI consultant?",
+            "description": "Wat doet een AI consultant precies? Lees welke taken een AI consultant heeft, welke vaardigheden belangrijk zijn en wanneer inhuren voor jouw bedrijf loont.",
+            "inLanguage": "nl-NL",
+            "datePublished": "2026-09-23",
+            "dateModified": "2026-09-23",
+            "author": {
+              "@type": "Person",
+              "name": "Dave Willemstein",
+              "jobTitle": "Onafhankelijk AI-adviseur",
+              "url": "https://freelanceaiconsultant.com/over",
+              "sameAs": [
+                "https://www.linkedin.com/in/davewillemstein"
+              ]
+            },
+            "publisher": {
+              "@type": "Person",
+              "name": "Dave Willemstein"
+            },
+            "mainEntityOfPage": "https://freelanceaiconsultant.com/kennisbank/wat-doet-een-ai-consultant"
+          },
+          {
+            "@type": "FAQPage",
+            "mainEntity": [
+              {
+                "@type": "Question",
+                "name": "Heeft een AI consultant een technische achtergrond nodig?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Genoeg om technische keuzes te begrijpen en kritische vragen te stellen aan leveranciers en developers. Zelf modellen bouwen hoort niet bij de rol. Belangrijker is dat iemand techniek kan vertalen naar gevolgen voor kosten, risico en werkprocessen."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Wat is het verschil tussen een AI consultant en een AI-strateeg?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "De termen overlappen sterk. Een AI-strateeg richt zich vooral op richting en prioriteiten. Een AI consultant doet dat ook, maar begeleidt vaak ook selectie, implementatie en governance. In de praktijk gaat het om dezelfde vraag: welke AI-besluiten neem je en hoe borg je ze."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Kan een AI consultant ook zelf AI-tools implementeren?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Dat verschilt per consultant. Sommigen zijn ook implementatiepartner of reseller van een platform. Ik niet: ik bouw en verkoop geen software. Vraag bij elke consultant na of die aan de uitvoering verdient, want dat beïnvloedt het advies."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Wat levert een AI consultant concreet op?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Documenten om mee te besluiten: een geprioriteerde lijst use cases, een strategie met expliciete keuzes, een roadmap, een leveranciersvergelijking of een governance-opzet. Het echte resultaat is het besluit dat je daarmee neemt, en dat het daarna ook wordt uitgevoerd."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Werkt een AI consultant alleen voor grote organisaties?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Nee. De omvang van de opdracht past zich aan. Voor een kleinere organisatie kan een korte toets of een afgebakende adviesvraag al genoeg zijn, terwijl een grote organisatie eerder een volledige strategie en doorlopende begeleiding nodig heeft."
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "afbeeldingen": [
+    {
+      "regio": "header",
+      "src": "/images/freelance-ai-consultant-logo-header.png",
+      "alt": "freelanceaiconsultant.com logo",
+      "width": "600",
+      "height": "287",
+      "loading": null
+    },
+    {
+      "regio": "main",
+      "src": "/images/dave-portrait.jpg",
+      "alt": "Portret van Dave Willemstein",
+      "width": "88",
+      "height": "88",
+      "loading": "lazy"
+    },
+    {
+      "regio": "footer",
+      "src": "/images/freelance-ai-consultant-icon-footer.png",
+      "alt": "",
+      "width": "192",
+      "height": "192",
+      "loading": "lazy"
+    }
+  ],
+  "laadprestaties": {
+    "scripts": [
+      {
+        "src": "/logo-carousel/logo-carousel.js?v=2",
+        "type": null,
+        "inline_bytes": 0
+      }
+    ],
+    "stylesheets": [
+      "https://fonts.googleapis.com/css2?family=Caveat:wght@600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap",
+      "/_astro/_slug_.bq6BBoZ5.css",
+      "/_astro/_slug_.goiX3PVF.css",
+      "/logo-carousel/logo-carousel.css?v=2"
+    ],
+    "aantal_details": 5,
+    "aantal_tabellen": 1
+  }
+}

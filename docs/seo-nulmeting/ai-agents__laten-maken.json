@@ -1,0 +1,738 @@
+{
+  "url": "/ai-agents/laten-maken",
+  "build_bestand": "dist/ai-agents/laten-maken/index.html",
+  "bron": [
+    "src/content/pages/ai-agents/laten-maken/index.md",
+    "src/pages/[...slug].astro"
+  ],
+  "gemeten_op": "2026-10-06",
+  "html": {
+    "bytes": 33702,
+    "sha256": "2cd641845de8cf67be983336a02af7d9b7679f634a5fb1922fb96f1801aa11c3",
+    "lang": "nl"
+  },
+  "beschermd": {
+    "title": "AI agent laten maken | Aanpak, kosten en doorlooptijd",
+    "meta_description": "Een AI agent laten maken? Lees hoe het ontwikkeltraject verloopt, wat een AI agent kost, hoe lang het duurt en waar je op let bij beveiliging en beheer.",
+    "canonical": "https://freelanceaiconsultant.com/ai-agents/laten-maken",
+    "robots_meta": null,
+    "hreflang": [],
+    "h1": [
+      "AI agent laten maken: aanpak, kosten en doorlooptijd"
+    ]
+  },
+  "social": {
+    "og:type": "website",
+    "og:locale": "nl_NL",
+    "og:site_name": "freelanceaiconsultant.com",
+    "og:title": "AI agent laten maken | Aanpak, kosten en doorlooptijd",
+    "og:description": "Een AI agent laten maken? Lees hoe het ontwikkeltraject verloopt, wat een AI agent kost, hoe lang het duurt en waar je op let bij beveiliging en beheer.",
+    "og:url": "https://freelanceaiconsultant.com/ai-agents/laten-maken",
+    "og:image": "https://freelanceaiconsultant.com/images/dave-portrait.jpg",
+    "twitter:card": "summary_large_image",
+    "twitter:title": "AI agent laten maken | Aanpak, kosten en doorlooptijd",
+    "twitter:description": "Een AI agent laten maken? Lees hoe het ontwikkeltraject verloopt, wat een AI agent kost, hoe lang het duurt en waar je op let bij beveiliging en beheer.",
+    "twitter:image": "https://freelanceaiconsultant.com/images/dave-portrait.jpg"
+  },
+  "koppen": [
+    {
+      "niveau": 1,
+      "tekst": "AI agent laten maken: aanpak, kosten en doorlooptijd",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "Wanneer laat je een AI agent maken?",
+      "regio": "main",
+      "id": "wanneer-laat-je-een-ai-agent-maken"
+    },
+    {
+      "niveau": 2,
+      "tekst": "Het ontwikkeltraject",
+      "regio": "main",
+      "id": "het-ontwikkeltraject"
+    },
+    {
+      "niveau": 2,
+      "tekst": "Wat kost een AI agent?",
+      "regio": "main",
+      "id": "wat-kost-een-ai-agent"
+    },
+    {
+      "niveau": 2,
+      "tekst": "Beveiliging, privacy en beheer",
+      "regio": "main",
+      "id": "beveiliging-privacy-en-beheer"
+    },
+    {
+      "niveau": 2,
+      "tekst": "Veelgestelde vragen",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "Van AI-ambitie naar concrete resultaten.",
+      "regio": "main",
+      "id": null
+    }
+  ],
+  "bodytekst": {
+    "regio": "main",
+    "woorden": 1682,
+    "sha256": "7fd2cdf692b9791595c424ee66651fdc0cb4e094d1ee69adde52291fbe7d83d1",
+    "blokken": [
+      "Home",
+      "AI Agents",
+      "AI agent laten maken",
+      "AI agent laten maken",
+      "AI agent laten maken: aanpak, kosten en doorlooptijd",
+      "Wie een AI agent laat maken, koopt geen product maar een stuk proces dat zelfstandig handelt. Het succes wordt grotendeels bepaald vóórdat er een regel code geschreven is: welke taak, welke grenzen, welke controle en welke bouwpartij. Op deze pagina lees je hoe je dat aanpakt en waar ik je daarbij help.",
+      "Plan een adviesgesprek → Bekijk de AI Readiness Assessment →",
+      "IN HET KORT",
+      "Kies eerst tussen zelf bouwen, een platform gebruiken of een partner inschakelen.",
+      "Leg taken, grenzen en menselijke controle vast voordat je offertes opvraagt.",
+      "Ik bouw zelf geen agents; ik begeleid onafhankelijk vanuit jouw kant van de tafel.",
+      "AI in Europa",
+      "Europese merken die AI al in productie hebben.",
+      "Geen klanten van mij. Wel voorbeelden van wat er gebeurt als AI voorbij de pilot komt.",
+      "Pauzeer",
+      "Klarna",
+      "Zweden",
+      "AI-assistent in de klantenservice",
+      "Zalando",
+      "Duitsland",
+      "Mode-assistent voor productadvies",
+      "Financial services",
+      "Investeringsmaatschappij",
+      "AI-strategie en use-case portfolio",
+      "Booking.com",
+      "Nederland",
+      "AI Trip Planner voor reisplanning",
+      "Siemens",
+      "Duitsland",
+      "Industrial Copilot voor engineering",
+      "Retail",
+      "Enterprise retailer",
+      "AI-gedreven vendorselectie",
+      "Spotify",
+      "Zweden",
+      "AI DJ en gepersonaliseerde playlists",
+      "Mercedes-Benz",
+      "Duitsland",
+      "Generatieve spraakassistent in de auto",
+      "Industrial / B2B",
+      "Internationale maakorganisatie",
+      "AI-roadmap en leadership",
+      "ING",
+      "Nederland",
+      "Generatieve chatbot voor klantvragen",
+      "L'Oréal",
+      "Frankrijk",
+      "Beauty Genius: persoonlijk advies",
+      "Financial services",
+      "Financiële dienstverlener",
+      "KYC versneld met AI-documentanalyse",
+      "SAP",
+      "Duitsland",
+      "Joule: copilot in bedrijfssoftware",
+      "Carrefour",
+      "Frankrijk",
+      "Hopla: boodschappenassistent",
+      "Strategy & AI",
+      "SaaS scale-up",
+      "AI-readiness assessment",
+      "Adyen",
+      "Nederland",
+      "AI-optimalisatie van betalingen",
+      "Philips",
+      "Nederland",
+      "AI in medische beeldvorming",
+      "Proces & productivity",
+      "Zakelijke dienstverlener",
+      "Interne AI-assistent voor kenniswerkers",
+      "Wanneer laat je een AI agent maken?",
+      "Een AI agent laten maken is zinvol als een taak veel herhaling heeft, informatie uit meerdere bronnen vraagt en een uitkomst oplevert die een mens snel kan beoordelen. Is de taak volledig voorspelbaar, dan is een gewone workflow of klassieke automatisering vaak beter. Weet je nog niet precies wat een agent onderscheidt van andere AI-toepassingen, lees dan eerst wat een AI agent is. Inspiratie per afdeling vind je bij de voorbeelden van AI agents.",
+      "Staat vast dat een agent de juiste route is, dan is de eerste keuze niet welke leverancier, maar welke vorm.",
+      "Zelf bouwenJe eigen team bouwt de agent. Maximale controle, maar alleen realistisch als je ontwikkelcapaciteit en kennis van taalmodellen, koppelingen en beheer in huis hebt.",
+      "Platform gebruikenJe configureert een agent binnen software die je al hebt of koopt. Snel en relatief goedkoop om te starten, maar je zit vast aan de mogelijkheden en prijzen van dat platform.",
+      "Partner inschakelenEen externe bouwpartij maakt de agent op maat. Meer vrijheid dan een platform, maar je betaalt ook voor beheer en je moet de partij goed kunnen aansturen.",
+      "CombinatieVaak de praktijk: een platform als basis, een partner voor de koppelingen en een interne eigenaar voor beheer en controle.",
+      "Welke route past, hangt af van je eigen capaciteit, de gewenste controle en hoe afhankelijk je van één leverancier wilt zijn.",
+      "De afweging tussen deze routes, inclusief de kosten over meerdere jaren en de vraag hoe je er weer vanaf komt, beschreef ik in build, buy of partner. Voor maatwerk is ook de pagina over AI development relevant.",
+      "Het ontwikkeltraject",
+      "Een goed traject begint met een specificatie die je zelf opstelt, niet de bouwpartij. Wie dat overlaat aan de partij die ook bouwt, krijgt een specificatie die past bij wat die partij het liefst maakt.",
+      "AfbakenenEén taak, één eigenaar, één meetpunt",
+      "SpecificerenTaken, grenzen, menselijke controle",
+      "SelecterenZelfde scenario voor elke partij",
+      "Bouwen en testenVaste testset, mens beoordeelt alles",
+      "BeheerLogging, steekproef, stopknop",
+      "De eerste twee stappen doe je zelf of met een onafhankelijke adviseur; pas daarna komt een bouwpartij in beeld.",
+      "Specificeer de agent. Leg minimaal vast:",
+      "Taken: welke stappen de agent uitvoert en welk resultaat hij oplevert.",
+      "Grenzen: welke systemen en gegevens hij mag lezen, wat hij mag wijzigen en wat nooit.",
+      "Menselijke controle: op welke momenten een mens goedkeurt, wie dat is en wat er gebeurt bij twijfel.",
+      "Kwaliteitsmaat: een testset van echte gevallen met de juiste uitkomst, zodat je objectief kunt beoordelen.",
+      "Logging en eigenaarschap: wat er wordt vastgelegd, wie de agent beheert en wie hem mag stilzetten.",
+      "Selecteer een bouwpartij. Stuur elke kandidaat hetzelfde scenario op basis van je eigen data en beoordeel de uitkomsten los van de presentatie. Vraag naar ervaring met vergelijkbare koppelingen, naar de manier van testen en logging, naar eigendom van code en instructies, en naar de voorwaarden bij beëindiging. De volledige aanpak staat in AI-vendorselectie in acht stappen.",
+      "Bouw en test. Laat de partij eerst een beperkte versie maken die alleen voorbereidt of voorstelt. In de testperiode beoordeelt een mens elke uitkomst. Pas als duidelijk is welke fouten optreden, verhoog je de zelfstandigheid.",
+      "Voorbeeldscenario",
+      "Een logistiek dienstverlener met 220 medewerkers behandelt zo'n 120 schadeclaims per maand. Een claimbehandelaar is per dossier gemiddeld 50 minuten kwijt aan het verzamelen van vrachtbrieven, foto's en afleverscans uit drie systemen.",
+      "De adviseur stelt samen met de claimafdeling de specificatie op: de agent maakt het dossier compleet en schrijft een samenvatting, maar beoordeelt de aansprakelijkheid niet en mailt geen klanten. Drie bouwpartijen krijgen hetzelfde scenario met twintig geanonimiseerde dossiers. De keuze valt op de partij met de duidelijkste logging en exitafspraken, niet op de laagste prijs.",
+      "Na een testperiode van acht weken kost een dossier gemiddeld 20 minuten in plaats van 50. Bij 120 claims is dat ongeveer 60 uur per maand. Het besluit over uitkeren blijft bij de behandelaar.",
+      "Fictief voorbeeld, samengesteld uit situaties die veel voorkomen. Organisatie en cijfers zijn illustratief.",
+      "Wat kost een AI agent?",
+      "Wat een AI agent kost, verschilt sterk per route. Een vast bedrag noemen zou misleidend zijn. De factoren die de prijs bepalen, zijn wel goed te benoemen:",
+      "Route: een agent binnen een bestaand platform kost vooral licenties en configuratie; maatwerk kost bouwuren en daarna beheer.",
+      "Koppelingen: elk systeem waarmee de agent praat, vraagt bouw, testwerk en onderhoud.",
+      "Schrijfrechten en controle: hoe meer de agent mag wijzigen, hoe meer testwerk, logging en controlepunten nodig zijn.",
+      "Gebruik: taalmodellen worden vaak per verwerkte hoeveelheid tekst afgerekend, dus volume en documentlengte bepalen de lopende kosten.",
+      "Beheer: monitoring, periodieke tests, aanpassingen bij proceswijzigingen en de tijd van een interne eigenaar.",
+      "De grootste risicofactoren zijn een te brede eerste scope, bronnen die niet op orde zijn en afhankelijkheid van één leverancier zonder exitafspraken. Vraag elke partij om een kostenraming over meerdere jaren, inclusief beheer en overstap.",
+      "Mijn eigen tarieven staan op de pagina met tarieven. Wil je offertes van meerdere bouwpartijen onafhankelijk laten beoordelen, dan past een Vendor Review van 3-6 weken; die kost €9.800 - €15.400. Heb je doorlopend iemand nodig die het traject namens jou bewaakt, dan kan dat als Fractional AI Lead.",
+      "Beveiliging, privacy en beheer",
+      "Een agent die systemen aanroept, is een nieuwe gebruiker in je IT-landschap, met de risico’s van dien. Geef hem niet meer rechten dan nodig, laat hem inloggen met een eigen account zodat zijn handelingen herleidbaar zijn, en houd een bevestigingsstap op elk onomkeerbaar moment.",
+      "Verwerkt de agent persoonsgegevens, dan gelden de gewone AVG-regels: een doel en grondslag, niet meer gegevens dan nodig, een verwerkersovereenkomst met de leverancier en in veel gevallen een DPIA. Neemt de agent besluiten over mensen, dan komen daar strengere eisen bij. Dat werk ik uit in het artikel over AI agents en de AVG.",
+      "Beheer is geen sluitpost. Modellen en platforms veranderen, en een agent die vandaag goed werkt, kan na een update anders reageren. Spreek met de bouwpartij af wie monitort, hoe vaak de testset opnieuw wordt gedraaid en wie een incident oppakt.",
+      "Mijn rol. Ik bouw zelf geen agents en verkoop geen implementaties. Ik help je de taak afbakenen, de specificatie opstellen, bouwpartijen vergelijken en de uitvoering bewaken, vanuit jouw kant van de tafel. Heb je nog geen bouwpartij, dan kan ik partijen uit mijn partnernetwerk voorstellen; die contracteer je rechtstreeks, zonder marge voor mij. Meer over agents in het algemeen lees je op de pagina over AI agents voor bedrijven. Heb je een concreet idee? Plan een adviesgesprek en je hoort aan het eind van het gesprek wat ik zou doen.",
+      "Dave Willemstein Onafhankelijk AI-adviseur",
+      "Onafhankelijk: geen commissies, geen partnerdeals, geen marge op implementatiepartners.",
+      "Over mij Mijn partnernetwerk",
+      "Weten waar je staat met AI? Bekijk de AI Readiness Assessment →",
+      "Veelgestelde vragen",
+      "Hoe lang duurt het om een AI agent te laten maken?+",
+      "Dat hangt vooral af van het aantal koppelingen, de kwaliteit van de bronnen en de eisen aan controle. Een agent die binnen een bestaand platform alleen voorbereidend werk doet, is sneller in gebruik dan een maatwerkagent die in meerdere systemen schrijft. Vraag elke bouwpartij om een planning per fase, inclusief testperiode, en vergelijk die naast elkaar.",
+      "Kan ik een AI agent ook zelf maken zonder ontwikkelaars?+",
+      "Voor eenvoudige taken binnen software die je al gebruikt, vaak wel: veel platforms bieden inmiddels low-code bouwstenen voor agents. Zodra de agent in meerdere systemen moet schrijven, persoonsgegevens verwerkt of in een gereguleerd proces draait, is technische kennis over koppelingen, rechten en logging nodig.",
+      "Wie is eigenaar van de agent als een partner hem bouwt?+",
+      "Dat regel je in het contract met de bouwpartij, en het is een punt om vooraf scherp te hebben. Denk aan eigendom van de code en de instructies, toegang tot de logging, en wat er gebeurt als je met een andere partij verder wilt. Zonder die afspraken ben je afhankelijker dan je denkt.",
+      "Welke rol speel jij als ik een AI agent laat maken?+",
+      "Ik help je de taak afbakenen, de specificatie opstellen, bouwpartijen vergelijken en de uitvoering bewaken. Het bouwen doet je eigen team of een partij die je rechtstreeks contracteert. Ik verdien niets aan de bouw, zodat mijn advies niet afhangt van de omvang van het project.",
+      "Wat als blijkt dat een AI agent niet de beste oplossing is?+",
+      "Dan hoor je dat. Voor voorspelbare stappen is een regelgebaseerde workflow vaak goedkoper en betrouwbaarder, en soms is het proces zelf het probleem. Een agent is een middel; als een eenvoudiger middel hetzelfde oplevert, is dat meestal de betere keuze.",
+      "Klaar voor impact?",
+      "Van AI-ambitie naar concrete resultaten.",
+      "Plan een vrijblijvend gesprek. Geen pitch. Wel scherpe vragen.",
+      "30 min., geen pitch deckPlan een gesprek →"
+    ]
+  },
+  "links": [
+    {
+      "regio": "overig",
+      "soort": "intern",
+      "href": "#main",
+      "anker": "Naar hoofdinhoud",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/",
+      "anker": "",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/diensten",
+      "anker": "Diensten",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/cases",
+      "anker": "Cases",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/werkwijze",
+      "anker": "Werkwijze",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/inzichten",
+      "anker": "Inzichten",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/over",
+      "anker": "Over mij",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/contact",
+      "anker": "Plan een gesprek →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/",
+      "anker": "Home",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/ai-agents",
+      "anker": "AI Agents",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/contact",
+      "anker": "Plan een adviesgesprek →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/diensten/ai-readiness-assessment",
+      "anker": "Bekijk de AI Readiness Assessment →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/ai-agents/wat-is-een-ai-agent",
+      "anker": "wat een AI agent is",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/ai-agents/voorbeelden",
+      "anker": "voorbeelden van AI agents",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/inzichten/build-buy-of-partner",
+      "anker": "build, buy of partner",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/ai-development",
+      "anker": "AI development",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/inzichten/ai-vendorselectie-in-acht-stappen",
+      "anker": "AI-vendorselectie in acht stappen",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/tarieven",
+      "anker": "tarieven",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/diensten/vendor-review",
+      "anker": "Vendor Review",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/diensten/fractional-ai-lead",
+      "anker": "Fractional AI Lead",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/kennisbank/ai-agents-en-avg",
+      "anker": "AI agents en de AVG",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/partnernetwerk",
+      "anker": "partnernetwerk",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/ai-agents",
+      "anker": "AI agents voor bedrijven",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/contact",
+      "anker": "Plan een adviesgesprek",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/over",
+      "anker": "Over mij",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/partnernetwerk",
+      "anker": "Mijn partnernetwerk",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/diensten/ai-readiness-assessment",
+      "anker": "Weten waar je staat met AI? Bekijk de AI Readiness Assessment →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/contact",
+      "anker": "Plan een gesprek →",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/diensten/ai-readiness-assessment",
+      "anker": "AI Readiness Assessment",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/diensten/ai-strategy-sprint",
+      "anker": "AI Strategy Sprint",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/diensten/fractional-ai-lead",
+      "anker": "Fractional AI Lead",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/diensten",
+      "anker": "Alle diensten",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/cases",
+      "anker": "Cases",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/werkwijze",
+      "anker": "Werkwijze",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/inzichten",
+      "anker": "Inzichten",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/veelgestelde-vragen",
+      "anker": "Veelgestelde vragen",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/over",
+      "anker": "Over mij",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-consultancy",
+      "anker": "AI consultancy",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-implementatie",
+      "anker": "AI implementatie",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-automatisering",
+      "anker": "AI automatisering",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-voor-bedrijven",
+      "anker": "AI voor bedrijven",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-development",
+      "anker": "AI development",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-agents",
+      "anker": "AI agents",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-beleid",
+      "anker": "AI beleid",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-workshop",
+      "anker": "AI workshop",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/markten",
+      "anker": "AI per branche",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/kennisbank",
+      "anker": "Kennisbank",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/tarieven",
+      "anker": "Tarieven",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/partnernetwerk",
+      "anker": "Partnernetwerk",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "overig",
+      "href": "mailto:dave@freelanceaiconsultant.com",
+      "anker": "dave@freelanceaiconsultant.com",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "extern",
+      "href": "https://www.linkedin.com/in/davewillemstein",
+      "anker": "LinkedIn ↗",
+      "rel": "noopener"
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/contact",
+      "anker": "Plan een gesprek",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/privacy",
+      "anker": "Privacyverklaring",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/algemene-voorwaarden",
+      "anker": "Algemene voorwaarden",
+      "rel": null
+    }
+  ],
+  "structured_data": {
+    "sha256": "e3d9173794aa3b17471d201b2fb7bda1e7f59a44c71f35b6bb791505c6b76aac",
+    "items": [
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://freelanceaiconsultant.com/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "AI Agents",
+                "item": "https://freelanceaiconsultant.com/ai-agents"
+              },
+              {
+                "@type": "ListItem",
+                "position": 3,
+                "name": "AI agent laten maken",
+                "item": "https://freelanceaiconsultant.com/ai-agents/laten-maken"
+              }
+            ]
+          },
+          {
+            "@type": "Service",
+            "name": "AI agent laten maken",
+            "serviceType": "ai agent laten maken",
+            "description": "Een AI agent laten maken? Lees hoe het ontwikkeltraject verloopt, wat een AI agent kost, hoe lang het duurt en waar je op let bij beveiliging en beheer.",
+            "url": "https://freelanceaiconsultant.com/ai-agents/laten-maken",
+            "areaServed": "NL",
+            "provider": {
+              "@type": "Person",
+              "name": "Dave Willemstein",
+              "jobTitle": "Onafhankelijk AI-adviseur",
+              "url": "https://freelanceaiconsultant.com/over",
+              "sameAs": [
+                "https://www.linkedin.com/in/davewillemstein"
+              ]
+            }
+          },
+          {
+            "@type": "FAQPage",
+            "mainEntity": [
+              {
+                "@type": "Question",
+                "name": "Hoe lang duurt het om een AI agent te laten maken?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Dat hangt vooral af van het aantal koppelingen, de kwaliteit van de bronnen en de eisen aan controle. Een agent die binnen een bestaand platform alleen voorbereidend werk doet, is sneller in gebruik dan een maatwerkagent die in meerdere systemen schrijft. Vraag elke bouwpartij om een planning per fase, inclusief testperiode, en vergelijk die naast elkaar."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Kan ik een AI agent ook zelf maken zonder ontwikkelaars?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Voor eenvoudige taken binnen software die je al gebruikt, vaak wel: veel platforms bieden inmiddels low-code bouwstenen voor agents. Zodra de agent in meerdere systemen moet schrijven, persoonsgegevens verwerkt of in een gereguleerd proces draait, is technische kennis over koppelingen, rechten en logging nodig."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Wie is eigenaar van de agent als een partner hem bouwt?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Dat regel je in het contract met de bouwpartij, en het is een punt om vooraf scherp te hebben. Denk aan eigendom van de code en de instructies, toegang tot de logging, en wat er gebeurt als je met een andere partij verder wilt. Zonder die afspraken ben je afhankelijker dan je denkt."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Welke rol speel jij als ik een AI agent laat maken?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Ik help je de taak afbakenen, de specificatie opstellen, bouwpartijen vergelijken en de uitvoering bewaken. Het bouwen doet je eigen team of een partij die je rechtstreeks contracteert. Ik verdien niets aan de bouw, zodat mijn advies niet afhangt van de omvang van het project."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Wat als blijkt dat een AI agent niet de beste oplossing is?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Dan hoor je dat. Voor voorspelbare stappen is een regelgebaseerde workflow vaak goedkoper en betrouwbaarder, en soms is het proces zelf het probleem. Een agent is een middel; als een eenvoudiger middel hetzelfde oplevert, is dat meestal de betere keuze."
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "afbeeldingen": [
+    {
+      "regio": "header",
+      "src": "/images/freelance-ai-consultant-logo-header.png",
+      "alt": "freelanceaiconsultant.com logo",
+      "width": "600",
+      "height": "287",
+      "loading": null
+    },
+    {
+      "regio": "main",
+      "src": "/images/dave-portrait.jpg",
+      "alt": "Portret van Dave Willemstein",
+      "width": "88",
+      "height": "88",
+      "loading": "lazy"
+    },
+    {
+      "regio": "footer",
+      "src": "/images/freelance-ai-consultant-icon-footer.png",
+      "alt": "",
+      "width": "192",
+      "height": "192",
+      "loading": "lazy"
+    }
+  ],
+  "laadprestaties": {
+    "scripts": [
+      {
+        "src": "/logo-carousel/logo-carousel.js?v=2",
+        "type": null,
+        "inline_bytes": 0
+      }
+    ],
+    "stylesheets": [
+      "https://fonts.googleapis.com/css2?family=Caveat:wght@600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap",
+      "/_astro/_slug_.bq6BBoZ5.css",
+      "/_astro/_slug_.goiX3PVF.css",
+      "/logo-carousel/logo-carousel.css?v=2"
+    ],
+    "aantal_details": 5,
+    "aantal_tabellen": 0
+  }
+}

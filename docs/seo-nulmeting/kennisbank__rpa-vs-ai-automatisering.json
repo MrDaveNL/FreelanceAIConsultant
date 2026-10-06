@@ -1,0 +1,688 @@
+{
+  "url": "/kennisbank/rpa-vs-ai-automatisering",
+  "build_bestand": "dist/kennisbank/rpa-vs-ai-automatisering/index.html",
+  "bron": [
+    "src/content/pages/kennisbank/rpa-vs-ai-automatisering/index.md",
+    "src/pages/[...slug].astro"
+  ],
+  "gemeten_op": "2026-10-06",
+  "html": {
+    "bytes": 29783,
+    "sha256": "4d8fd79905930b5ce443c81a92cbf9bc783944cb5d3e9cc6a24a9f948bc42d2a",
+    "lang": "nl"
+  },
+  "beschermd": {
+    "title": "RPA versus AI automatisering | Verschillen en keuzehulp",
+    "meta_description": "Wat is robotic process automation en hoe verschilt RPA van AI automatisering? Lees de voor- en nadelen, voorbeelden en wanneer je beide slim combineert.",
+    "canonical": "https://freelanceaiconsultant.com/kennisbank/rpa-vs-ai-automatisering",
+    "robots_meta": null,
+    "hreflang": [],
+    "h1": [
+      "RPA versus AI automatisering: wat past bij jou?"
+    ]
+  },
+  "social": {
+    "og:type": "website",
+    "og:locale": "nl_NL",
+    "og:site_name": "freelanceaiconsultant.com",
+    "og:title": "RPA versus AI automatisering | Verschillen en keuzehulp",
+    "og:description": "Wat is robotic process automation en hoe verschilt RPA van AI automatisering? Lees de voor- en nadelen, voorbeelden en wanneer je beide slim combineert.",
+    "og:url": "https://freelanceaiconsultant.com/kennisbank/rpa-vs-ai-automatisering",
+    "og:image": "https://freelanceaiconsultant.com/images/dave-portrait.jpg",
+    "twitter:card": "summary_large_image",
+    "twitter:title": "RPA versus AI automatisering | Verschillen en keuzehulp",
+    "twitter:description": "Wat is robotic process automation en hoe verschilt RPA van AI automatisering? Lees de voor- en nadelen, voorbeelden en wanneer je beide slim combineert.",
+    "twitter:image": "https://freelanceaiconsultant.com/images/dave-portrait.jpg"
+  },
+  "koppen": [
+    {
+      "niveau": 1,
+      "tekst": "RPA versus AI automatisering: wat past bij jou?",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "Wat is robotic process automation (RPA)?",
+      "regio": "main",
+      "id": "wat-is-robotic-process-automation-rpa"
+    },
+    {
+      "niveau": 2,
+      "tekst": "Wat is AI automatisering?",
+      "regio": "main",
+      "id": "wat-is-ai-automatisering"
+    },
+    {
+      "niveau": 2,
+      "tekst": "Verschillen tussen RPA en AI",
+      "regio": "main",
+      "id": "verschillen-tussen-rpa-en-ai"
+    },
+    {
+      "niveau": 2,
+      "tekst": "Wanneer kies je wat?",
+      "regio": "main",
+      "id": "wanneer-kies-je-wat"
+    },
+    {
+      "niveau": 2,
+      "tekst": "RPA en AI combineren",
+      "regio": "main",
+      "id": "rpa-en-ai-combineren"
+    },
+    {
+      "niveau": 2,
+      "tekst": "Van AI-ambitie naar concrete resultaten.",
+      "regio": "main",
+      "id": null
+    }
+  ],
+  "bodytekst": {
+    "regio": "main",
+    "woorden": 1489,
+    "sha256": "e0342a1135d95ee47355f78b2b4f8bcee02f5398cca9e4d9be7957b89f89d0b0",
+    "blokken": [
+      "Home",
+      "Kennisbank",
+      "RPA versus AI",
+      "Kennisbank",
+      "RPA versus AI automatisering: wat past bij jou?",
+      "Robotic process automation (RPA) en AI automatisering worden vaak door elkaar gehaald, maar ze lossen een ander probleem op. RPA voert vaste regels snel en consequent uit; AI kan omgaan met variatie en ongestructureerde informatie. Hier lees je het verschil, wanneer je wat kiest en hoe je ze combineert.",
+      "Lees meer over AI automatisering → Plan een adviesgesprek →",
+      "Geschreven door Dave Willemstein, onafhankelijk AI consultant · gepubliceerd 23 september 2026",
+      "IN HET KORT",
+      "RPA volgt vaste regels in bestaande schermen en systemen; voorspelbaar, maar kwetsbaar bij verandering.",
+      "AI automatisering interpreteert tekst, documenten en taal, maar vraagt om controle op de uitkomst.",
+      "De sterkste oplossingen combineren beide: AI voor het begrijpen, RPA of een koppeling voor het uitvoeren.",
+      "AI in Europa",
+      "Europese merken die AI al in productie hebben.",
+      "Geen klanten van mij. Wel voorbeelden van wat er gebeurt als AI voorbij de pilot komt.",
+      "Pauzeer",
+      "Klarna",
+      "Zweden",
+      "AI-assistent in de klantenservice",
+      "Zalando",
+      "Duitsland",
+      "Mode-assistent voor productadvies",
+      "Financial services",
+      "Investeringsmaatschappij",
+      "AI-strategie en use-case portfolio",
+      "Booking.com",
+      "Nederland",
+      "AI Trip Planner voor reisplanning",
+      "Siemens",
+      "Duitsland",
+      "Industrial Copilot voor engineering",
+      "Retail",
+      "Enterprise retailer",
+      "AI-gedreven vendorselectie",
+      "Spotify",
+      "Zweden",
+      "AI DJ en gepersonaliseerde playlists",
+      "Mercedes-Benz",
+      "Duitsland",
+      "Generatieve spraakassistent in de auto",
+      "Industrial / B2B",
+      "Internationale maakorganisatie",
+      "AI-roadmap en leadership",
+      "ING",
+      "Nederland",
+      "Generatieve chatbot voor klantvragen",
+      "L'Oréal",
+      "Frankrijk",
+      "Beauty Genius: persoonlijk advies",
+      "Financial services",
+      "Financiële dienstverlener",
+      "KYC versneld met AI-documentanalyse",
+      "SAP",
+      "Duitsland",
+      "Joule: copilot in bedrijfssoftware",
+      "Carrefour",
+      "Frankrijk",
+      "Hopla: boodschappenassistent",
+      "Strategy & AI",
+      "SaaS scale-up",
+      "AI-readiness assessment",
+      "Adyen",
+      "Nederland",
+      "AI-optimalisatie van betalingen",
+      "Philips",
+      "Nederland",
+      "AI in medische beeldvorming",
+      "Proces & productivity",
+      "Zakelijke dienstverlener",
+      "Interne AI-assistent voor kenniswerkers",
+      "Wat is robotic process automation (RPA)?",
+      "Robotic process automation is software die handelingen van een medewerker in bestaande applicaties nabootst. Een RPA-robot klikt door schermen, kopieert gegevens van het ene systeem naar het andere, vult formulieren in en start rapportages, precies zoals een mens dat zou doen, maar dan zonder pauze en zonder typfouten. De “robot” is dus geen fysieke robot, maar een script dat op de gebruikersinterface werkt.",
+      "RPA is vooral sterk bij werk dat:",
+      "Regelgebaseerd is: elke stap is vooraf te beschrijven als “als dit, dan dat”.",
+      "Gestructureerde input heeft: vaste velden, vaste bestandsformaten, vaste schermen.",
+      "Veel herhaling kent: hetzelfde handwerk, vele keren per dag of per maand.",
+      "Tussen systemen zit zonder goede koppeling: bijvoorbeeld een oud pakket zonder API.",
+      "Typische voorbeelden zijn het overnemen van orderregels uit een portaal in het ERP-systeem, het klaarzetten van periodieke rapportages en het bijwerken van stamgegevens in meerdere systemen tegelijk.",
+      "Het zwakke punt van RPA is dat het letterlijk doet wat is voorgeschreven. Verandert een scherm, een veldnaam of de volgorde van stappen, dan stopt de robot of doet hij iets verkeerds. En komt er een document binnen dat net anders is opgemaakt, dan weet RPA daar niets mee.",
+      "Wat is AI automatisering?",
+      "AI automatisering gebruikt modellen die kunnen omgaan met informatie die niet netjes gestructureerd is. Denk aan het lezen van een e-mail en bepalen wat de klant vraagt, het uitlezen van gegevens uit facturen met wisselende opmaak, het samenvatten van een dossier of het opstellen van een conceptantwoord. Waar RPA regels volgt, herkent AI patronen en maakt een inschatting.",
+      "Daarmee kun je taken automatiseren die met vaste regels niet te vangen zijn:",
+      "Classificeren: binnenkomende berichten sorteren naar onderwerp, urgentie of afdeling.",
+      "Extraheren: gegevens halen uit pdf’s, contracten of scans.",
+      "Genereren: conceptteksten, samenvattingen of verslagen maken.",
+      "Redeneren over stappen: bij AI agents bepaalt het systeem zelf welke acties nodig zijn; daarover meer bij AI agents.",
+      "De keerzijde is dat AI niet altijd hetzelfde antwoord geeft en fouten kan maken die er overtuigend uitzien. AI automatisering vraagt daarom om een testset, controle op de uitkomst en duidelijke afspraken over wanneer een mens meekijkt. Hoe je dat per proces aanpakt, lees je bij bedrijfsprocessen automatiseren met AI.",
+      "Verschillen tussen RPA en AI",
+      "Het verschil tussen RPA en AI zit in de kern in één vraag: moet het systeem regels volgen, of moet het iets begrijpen?",
+      "RPA",
+      "AI automatisering",
+      "Werkt op basis van",
+      "Vooraf vastgelegde regels",
+      "Patronen die een model heeft geleerd",
+      "Input",
+      "Gestructureerd: velden, tabellen, vaste schermen",
+      "Ook ongestructureerd: tekst, e-mail, documenten, spraak",
+      "Uitkomst",
+      "Voorspelbaar en herhaalbaar",
+      "Waarschijnlijk juist, maar niet gegarandeerd",
+      "Kwetsbaar voor",
+      "Wijzigingen in schermen en processen",
+      "Afwijkende situaties, veranderende data, modelupdates van de leverancier",
+      "Controle",
+      "Werkt het script nog?",
+      "Klopt de uitkomst nog, gemeten tegen een testset?",
+      "Uitleg",
+      "Elke stap is traceerbaar",
+      "Uitleg is beperkter; vastleggen van invoer en uitvoer is belangrijk",
+      "Een verschil dat vaak wordt onderschat, is beheer. Een RPA-robot moet worden aangepast bij elke wijziging in de onderliggende applicaties. Een AI-toepassing moet periodiek worden getoetst, omdat de kwaliteit ongemerkt kan verschuiven. Beide vragen dus om een eigenaar na de oplevering, en die kosten horen in je business case.",
+      "Wanneer kies je wat?",
+      "Gebruik de aard van het werk als uitgangspunt, niet de technologie die op dat moment in de belangstelling staat.",
+      "Gestructureerd en vaste regelsRPA of, beter nog, een directe koppeling tussen systemen.",
+      "Ongestructureerd en vaste regelsAI om de informatie te lezen, daarna vaste regels of RPA om te verwerken.",
+      "Gestructureerd en oordeel nodigRegels voor de standaardgevallen, een mens voor de uitzonderingen.",
+      "Ongestructureerd en oordeel nodigAI met menselijke controle op de uitkomst, zeker bij beslissingen die mensen raken.",
+      "De input (gestructureerd of niet) en het soort beslissing (vaste regel of oordeel) bepalen of RPA, AI of een combinatie het beste past.",
+      "Een paar vuistregels:",
+      "Kies RPA als het proces stabiel is, de input vast ligt en er geen goede koppeling mogelijk is. Kan de leverancier van je software een API leveren, dan is dat meestal stabieler dan een robot die door schermen klikt.",
+      "Kies AI als het knelpunt zit in het lezen, begrijpen of schrijven van tekst, en als een af en toe foute uitkomst op te vangen is met controle.",
+      "Kies geen van beide als het proces zelf nog niet helder is. Automatiseren van een rommelig proces levert een snel rommelig proces op. Soms is de eerste stap het proces vereenvoudigen of de data op orde brengen; daarover gaat het datafundament onder AI.",
+      "Twijfel je tussen zelf bouwen, een platform kopen of een partner inschakelen, dan helpt de afweging in build, buy of partner. En moet je kiezen tussen leveranciers die allemaal zeggen dat ze beide kunnen, dan is een onafhankelijke Vendor Review een manier om de claims naast elkaar te leggen.",
+      "RPA en AI combineren",
+      "In de praktijk zit de meeste waarde in de combinatie. AI neemt het deel dat begrip vraagt, RPA of een koppeling voert de vaste stappen uit. Een generiek voorbeeld: facturen komen binnen per e-mail in allerlei opmaak. AI leest de factuur en haalt leverancier, bedrag en ordernummer eruit. Vaste regels controleren of het ordernummer bestaat en het bedrag klopt. Klopt alles, dan boekt een robot of koppeling de factuur in; wijkt iets af, dan gaat de factuur naar een medewerker.",
+      "Zo’n combinatie werkt het best als je drie dingen vooraf regelt:",
+      "Duidelijke overdrachtspunten. Waar stopt de AI en begint de regel? Leg vast welke zekerheid nodig is voordat iets automatisch doorgaat.",
+      "Een route voor uitzonderingen. Alles wat niet past, gaat naar een mens, met genoeg context om snel te beslissen.",
+      "Meten per stap. Houd bij hoeveel gevallen automatisch doorgaan, hoeveel er worden afgevangen en waar fouten ontstaan. Dan zie je waar verbetering loont.",
+      "Hoe je zulke ketens ontwerpt, beheert en uitbreidt, lees je bij AI workflows.",
+      "Voorbeeldscenario",
+      "Een technische groothandel met 120 medewerkers ontvangt zo'n 1.800 inkoopfacturen per maand, in wisselende opmaak. Twee medewerkers van de crediteurenadministratie besteden er samen ongeveer 50 uur per week aan. Een leverancier stelt een RPA-robot voor die de facturen overtypt in het ERP-systeem.",
+      "De adviseur toetst dat voorstel en ziet dat het ERP-pakket een API heeft voor het inboeken. Daarom kiest de groothandel voor AI om de facturen uit te lezen, vaste regels om ordernummer en bedrag te controleren en een koppeling om te boeken. Een robot die door schermen klikt, is niet nodig. De adviseur vergelijkt twee aanbieders; de groothandel contracteert de gekozen partij rechtstreeks.",
+      "Na vier maanden gaat ongeveer 65 procent van de facturen zonder handwerk door. De rest komt met een toelichting bij een medewerker terecht. Het werk is teruggebracht tot zo'n 22 uur per week, inclusief steekproeven.",
+      "Fictief voorbeeld, samengesteld uit situaties die veel voorkomen. Organisatie en cijfers zijn illustratief.",
+      "Ik bouw zelf geen robots of AI-toepassingen. Wel help ik je bepalen welke aanpak bij je proces past, help ik bij het selecteren van een partij en begeleid ik de uitvoering vanuit jouw kant van de tafel. Wil je het bredere plaatje zien, begin dan bij AI automatisering. Wil je een concreet proces bespreken? Plan een adviesgesprek.",
+      "Dave Willemstein Onafhankelijk AI-adviseur",
+      "Onafhankelijk: geen commissies, geen partnerdeals, geen marge op implementatiepartners.",
+      "Over mij Mijn partnernetwerk",
+      "Weten waar je staat met AI? Bekijk de AI Readiness Assessment →",
+      "Klaar voor impact?",
+      "Van AI-ambitie naar concrete resultaten.",
+      "Plan een vrijblijvend gesprek. Geen pitch. Wel scherpe vragen.",
+      "30 min., geen pitch deckPlan een gesprek →"
+    ]
+  },
+  "links": [
+    {
+      "regio": "overig",
+      "soort": "intern",
+      "href": "#main",
+      "anker": "Naar hoofdinhoud",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/",
+      "anker": "",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/diensten",
+      "anker": "Diensten",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/cases",
+      "anker": "Cases",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/werkwijze",
+      "anker": "Werkwijze",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/inzichten",
+      "anker": "Inzichten",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/over",
+      "anker": "Over mij",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/contact",
+      "anker": "Plan een gesprek →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/",
+      "anker": "Home",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/kennisbank",
+      "anker": "Kennisbank",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/ai-automatisering",
+      "anker": "Lees meer over AI automatisering →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/contact",
+      "anker": "Plan een adviesgesprek →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/over",
+      "anker": "Dave Willemstein",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/ai-agents",
+      "anker": "AI agents",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/ai-automatisering/bedrijfsprocessen-automatiseren-met-ai",
+      "anker": "bedrijfsprocessen automatiseren met AI",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/inzichten/het-datafundament-onder-ai",
+      "anker": "het datafundament onder AI",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/inzichten/build-buy-of-partner",
+      "anker": "build, buy of partner",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/diensten/vendor-review",
+      "anker": "Vendor Review",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/ai-automatisering/ai-workflows",
+      "anker": "AI workflows",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/ai-automatisering",
+      "anker": "AI automatisering",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/contact",
+      "anker": "Plan een adviesgesprek",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/over",
+      "anker": "Over mij",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/partnernetwerk",
+      "anker": "Mijn partnernetwerk",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/diensten/ai-readiness-assessment",
+      "anker": "Weten waar je staat met AI? Bekijk de AI Readiness Assessment →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/contact",
+      "anker": "Plan een gesprek →",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/diensten/ai-readiness-assessment",
+      "anker": "AI Readiness Assessment",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/diensten/ai-strategy-sprint",
+      "anker": "AI Strategy Sprint",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/diensten/fractional-ai-lead",
+      "anker": "Fractional AI Lead",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/diensten",
+      "anker": "Alle diensten",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/cases",
+      "anker": "Cases",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/werkwijze",
+      "anker": "Werkwijze",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/inzichten",
+      "anker": "Inzichten",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/veelgestelde-vragen",
+      "anker": "Veelgestelde vragen",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/over",
+      "anker": "Over mij",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-consultancy",
+      "anker": "AI consultancy",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-implementatie",
+      "anker": "AI implementatie",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-automatisering",
+      "anker": "AI automatisering",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-voor-bedrijven",
+      "anker": "AI voor bedrijven",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-development",
+      "anker": "AI development",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-agents",
+      "anker": "AI agents",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-beleid",
+      "anker": "AI beleid",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-workshop",
+      "anker": "AI workshop",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/markten",
+      "anker": "AI per branche",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/kennisbank",
+      "anker": "Kennisbank",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/tarieven",
+      "anker": "Tarieven",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/partnernetwerk",
+      "anker": "Partnernetwerk",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "overig",
+      "href": "mailto:dave@freelanceaiconsultant.com",
+      "anker": "dave@freelanceaiconsultant.com",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "extern",
+      "href": "https://www.linkedin.com/in/davewillemstein",
+      "anker": "LinkedIn ↗",
+      "rel": "noopener"
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/contact",
+      "anker": "Plan een gesprek",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/privacy",
+      "anker": "Privacyverklaring",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/algemene-voorwaarden",
+      "anker": "Algemene voorwaarden",
+      "rel": null
+    }
+  ],
+  "structured_data": {
+    "sha256": "7df21d43cda4514ce19150f2e8a7f3fa38c65af531b3c373a5b3a244c409e9b2",
+    "items": [
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://freelanceaiconsultant.com/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Kennisbank",
+                "item": "https://freelanceaiconsultant.com/kennisbank"
+              },
+              {
+                "@type": "ListItem",
+                "position": 3,
+                "name": "RPA versus AI",
+                "item": "https://freelanceaiconsultant.com/kennisbank/rpa-vs-ai-automatisering"
+              }
+            ]
+          },
+          {
+            "@type": "Article",
+            "headline": "RPA versus AI automatisering: wat past bij jou?",
+            "description": "Wat is robotic process automation en hoe verschilt RPA van AI automatisering? Lees de voor- en nadelen, voorbeelden en wanneer je beide slim combineert.",
+            "inLanguage": "nl-NL",
+            "datePublished": "2026-09-23",
+            "dateModified": "2026-09-23",
+            "author": {
+              "@type": "Person",
+              "name": "Dave Willemstein",
+              "jobTitle": "Onafhankelijk AI-adviseur",
+              "url": "https://freelanceaiconsultant.com/over",
+              "sameAs": [
+                "https://www.linkedin.com/in/davewillemstein"
+              ]
+            },
+            "publisher": {
+              "@type": "Person",
+              "name": "Dave Willemstein"
+            },
+            "mainEntityOfPage": "https://freelanceaiconsultant.com/kennisbank/rpa-vs-ai-automatisering"
+          }
+        ]
+      }
+    ]
+  },
+  "afbeeldingen": [
+    {
+      "regio": "header",
+      "src": "/images/freelance-ai-consultant-logo-header.png",
+      "alt": "freelanceaiconsultant.com logo",
+      "width": "600",
+      "height": "287",
+      "loading": null
+    },
+    {
+      "regio": "main",
+      "src": "/images/dave-portrait.jpg",
+      "alt": "Portret van Dave Willemstein",
+      "width": "88",
+      "height": "88",
+      "loading": "lazy"
+    },
+    {
+      "regio": "footer",
+      "src": "/images/freelance-ai-consultant-icon-footer.png",
+      "alt": "",
+      "width": "192",
+      "height": "192",
+      "loading": "lazy"
+    }
+  ],
+  "laadprestaties": {
+    "scripts": [
+      {
+        "src": "/logo-carousel/logo-carousel.js?v=2",
+        "type": null,
+        "inline_bytes": 0
+      }
+    ],
+    "stylesheets": [
+      "https://fonts.googleapis.com/css2?family=Caveat:wght@600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap",
+      "/_astro/_slug_.bq6BBoZ5.css",
+      "/_astro/_slug_.goiX3PVF.css",
+      "/logo-carousel/logo-carousel.css?v=2"
+    ],
+    "aantal_details": 0,
+    "aantal_tabellen": 1
+  }
+}

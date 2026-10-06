@@ -1,0 +1,769 @@
+{
+  "url": "/ai-consultancy/ai-consultant-inhuren",
+  "build_bestand": "dist/ai-consultancy/ai-consultant-inhuren/index.html",
+  "bron": [
+    "src/content/pages/ai-consultancy/ai-consultant-inhuren/index.md",
+    "src/pages/[...slug].astro"
+  ],
+  "gemeten_op": "2026-10-06",
+  "html": {
+    "bytes": 32812,
+    "sha256": "74ac485626dde5c1c02b86d4dc97899f356d41b49ee8475c6d683c1021560b55",
+    "lang": "nl"
+  },
+  "beschermd": {
+    "title": "AI consultant inhuren | Freelance, senior en snel inzetbaar",
+    "meta_description": "Een AI consultant inhuren? Lees waar je op let bij selectie, wat een freelance AI consultant kost en hoe je snel start. Direct contact met de expert zelf.",
+    "canonical": "https://freelanceaiconsultant.com/ai-consultancy/ai-consultant-inhuren",
+    "robots_meta": null,
+    "hreflang": [],
+    "h1": [
+      "AI consultant inhuren: waar let je op?"
+    ]
+  },
+  "social": {
+    "og:type": "website",
+    "og:locale": "nl_NL",
+    "og:site_name": "freelanceaiconsultant.com",
+    "og:title": "AI consultant inhuren | Freelance, senior en snel inzetbaar",
+    "og:description": "Een AI consultant inhuren? Lees waar je op let bij selectie, wat een freelance AI consultant kost en hoe je snel start. Direct contact met de expert zelf.",
+    "og:url": "https://freelanceaiconsultant.com/ai-consultancy/ai-consultant-inhuren",
+    "og:image": "https://freelanceaiconsultant.com/images/dave-portrait.jpg",
+    "twitter:card": "summary_large_image",
+    "twitter:title": "AI consultant inhuren | Freelance, senior en snel inzetbaar",
+    "twitter:description": "Een AI consultant inhuren? Lees waar je op let bij selectie, wat een freelance AI consultant kost en hoe je snel start. Direct contact met de expert zelf.",
+    "twitter:image": "https://freelanceaiconsultant.com/images/dave-portrait.jpg"
+  },
+  "koppen": [
+    {
+      "niveau": 1,
+      "tekst": "AI consultant inhuren: waar let je op?",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "Wanneer huur je een AI consultant in?",
+      "regio": "main",
+      "id": "wanneer-huur-je-een-ai-consultant-in"
+    },
+    {
+      "niveau": 2,
+      "tekst": "Freelance AI consultant of bureau?",
+      "regio": "main",
+      "id": "freelance-ai-consultant-of-bureau"
+    },
+    {
+      "niveau": 2,
+      "tekst": "Waar let je op bij selectie?",
+      "regio": "main",
+      "id": "waar-let-je-op-bij-selectie"
+    },
+    {
+      "niveau": 3,
+      "tekst": "Aantoonbare ervaring",
+      "regio": "main",
+      "id": "aantoonbare-ervaring"
+    },
+    {
+      "niveau": 3,
+      "tekst": "Onafhankelijkheid",
+      "regio": "main",
+      "id": "onafhankelijkheid"
+    },
+    {
+      "niveau": 3,
+      "tekst": "Werkwijze en deliverables",
+      "regio": "main",
+      "id": "werkwijze-en-deliverables"
+    },
+    {
+      "niveau": 2,
+      "tekst": "Wat kost een AI consultant inhuren?",
+      "regio": "main",
+      "id": "wat-kost-een-ai-consultant-inhuren"
+    },
+    {
+      "niveau": 2,
+      "tekst": "Zo start je",
+      "regio": "main",
+      "id": "zo-start-je"
+    },
+    {
+      "niveau": 2,
+      "tekst": "Veelgestelde vragen",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "Van AI-ambitie naar concrete resultaten.",
+      "regio": "main",
+      "id": null
+    }
+  ],
+  "bodytekst": {
+    "regio": "main",
+    "woorden": 1592,
+    "sha256": "549740aa95c2c22f1f64276f69c26aec345dc34ac2c1a629cd167f5257ff50ae",
+    "blokken": [
+      "Home",
+      "AI Consultancy",
+      "AI consultant inhuren",
+      "AI consultant inhuren",
+      "AI consultant inhuren: waar let je op?",
+      "Een AI consultant inhuren is een investering in één persoon, dus die persoon moet kloppen. Op deze pagina lees je wanneer het loont, waar je op let bij de selectie, wat het kost en hoe een start eruitziet. Eerlijk, ook waar dat betekent dat je beter iemand anders kiest.",
+      "Plan een adviesgesprek → Bekijk de AI Readiness Assessment →",
+      "IN HET KORT",
+      "Huur een AI consultant in voor besluiten die duur of moeilijk terug te draaien zijn.",
+      "Selecteer op aantoonbare ervaring, onafhankelijkheid en concrete deliverables.",
+      "Bij mij: vaste pakketprijzen, een vaste prijs voor afgebakend advies of een Fractional AI Lead-rol.",
+      "AI in Europa",
+      "Europese merken die AI al in productie hebben.",
+      "Geen klanten van mij. Wel voorbeelden van wat er gebeurt als AI voorbij de pilot komt.",
+      "Pauzeer",
+      "Klarna",
+      "Zweden",
+      "AI-assistent in de klantenservice",
+      "Zalando",
+      "Duitsland",
+      "Mode-assistent voor productadvies",
+      "Financial services",
+      "Investeringsmaatschappij",
+      "AI-strategie en use-case portfolio",
+      "Booking.com",
+      "Nederland",
+      "AI Trip Planner voor reisplanning",
+      "Siemens",
+      "Duitsland",
+      "Industrial Copilot voor engineering",
+      "Retail",
+      "Enterprise retailer",
+      "AI-gedreven vendorselectie",
+      "Spotify",
+      "Zweden",
+      "AI DJ en gepersonaliseerde playlists",
+      "Mercedes-Benz",
+      "Duitsland",
+      "Generatieve spraakassistent in de auto",
+      "Industrial / B2B",
+      "Internationale maakorganisatie",
+      "AI-roadmap en leadership",
+      "ING",
+      "Nederland",
+      "Generatieve chatbot voor klantvragen",
+      "L'Oréal",
+      "Frankrijk",
+      "Beauty Genius: persoonlijk advies",
+      "Financial services",
+      "Financiële dienstverlener",
+      "KYC versneld met AI-documentanalyse",
+      "SAP",
+      "Duitsland",
+      "Joule: copilot in bedrijfssoftware",
+      "Carrefour",
+      "Frankrijk",
+      "Hopla: boodschappenassistent",
+      "Strategy & AI",
+      "SaaS scale-up",
+      "AI-readiness assessment",
+      "Adyen",
+      "Nederland",
+      "AI-optimalisatie van betalingen",
+      "Philips",
+      "Nederland",
+      "AI in medische beeldvorming",
+      "Proces & productivity",
+      "Zakelijke dienstverlener",
+      "Interne AI-assistent voor kenniswerkers",
+      "Wanneer huur je een AI consultant in?",
+      "Een AI consultant inhuren loont niet altijd. Als je vraag technisch en afgebakend is, of als je intern al iemand hebt met ervaring en mandaat, ben je zelf vaak sneller. Externe hulp loont wel in een paar herkenbare situaties:",
+      "Het besluit is duur en moeilijk terug te draaien. Een meerjarig platformcontract, een architectuurkeuze of een make-or-buy-besluit over een kernproces.",
+      "Er is een interne patstelling. Twee afdelingen met elk goede argumenten, en niemand zonder belang die de knoop doorhakt.",
+      "Je moet een investering verdedigen bij directie, raad van commissarissen of toezichthouder.",
+      "Je doet dit voor het eerst en er is tijdsdruk. Een eerste AI-selectie of governance-opzet kost zonder ervaring al snel meer tijd.",
+      "Er lopen initiatieven zonder eigenaar. Pilots die niet opschalen, en niemand die de AI-agenda bewaakt.",
+      "Deze situaties werkte ik verder uit in wanneer je echt een AI-strateeg nodig hebt, inclusief de gevallen waarin ik zelf zou afraden om iemand in te huren. Wil je eerst weten wat zo’n rol precies inhoudt, lees dan wat een AI consultant doet.",
+      "Freelance AI consultant of bureau?",
+      "Een freelance AI consultant is doorgaans flexibel en snel inzetbaar, en je werkt met de persoon die je in het eerste gesprek sprak, zonder lagen ertussen. Een bureau of groot adviesbureau brengt capaciteit, specialistische teams en institutionele dekking, wat telt bij grote transformaties, veel uitvoeringswerk of trajecten waar auditeerbaarheid leidend is. De keerzijde van een freelancer is beperkte schaal en afhankelijkheid van één persoon.",
+      "Welke vorm past, hangt af van je doel, je tijdsdruk en hoeveel handen er nodig zijn. Ik zette de verschillen op een rij in freelance AI consultant, agency of Big 4. Heb je naast advies ook uitvoeringscapaciteit nodig, dan stel ik partijen uit mijn partnernetwerk voor, die je rechtstreeks contracteert.",
+      "Waar let je op bij selectie?",
+      "Of je nu een freelance AI consultant of een bureau kiest: dezelfde drie criteria scheiden de goede kandidaten van de rest.",
+      "Aantoonbare ervaring",
+      "Vraag niet of iemand ervaring heeft met AI, maar met jouw type vraag. Een strategie voor een directie is ander werk dan een leveranciersselectie of een governance-opzet. Goede vragen:",
+      "Welke vergelijkbare opdrachten heb je gedaan, en wat was daar het besluit?",
+      "Kun je een geanonimiseerd voorbeeld laten zien van wat je opleverde?",
+      "Mag ik zelf een referentie kiezen, in plaats van alleen de referenties die je aandraagt?",
+      "Wie doet het werk: de persoon tegenover me, of iemand anders?",
+      "Let op antwoorden die vooral over tools en trends gaan. Ervaring blijkt uit hoe iemand over besluiten, eigenaarschap en mislukkingen praat.",
+      "Voorbeeldscenario",
+      "Een productiebedrijf met 180 medewerkers twijfelt tussen twee routes voor visuele kwaliteitscontrole: een standaardpakket van een leverancier of maatwerk via de eigen machinebouwer. Productie en IT zijn het niet eens, en de investering loopt over meerdere jaren.",
+      "Het bedrijf huurt een onafhankelijk adviseur in voor een afgebakende opdracht van vier adviesdagen. Hij zet beide routes naast elkaar op dezelfde criteria, laat beide partijen een test doen op 500 foto's uit de eigen productielijn en rekent de kosten over drie jaar door, inclusief beheer en exit.",
+      "Het maatwerk scoort op de test iets beter, maar vraagt naar schatting 0,4 fte aan blijvend beheer die het bedrijf niet heeft. De directie kiest het standaardpakket, met een evaluatie na zes maanden. Wat overblijft is een beslisdocument van zes pagina's dat het bedrijf bij de volgende keuze opnieuw gebruikt.",
+      "Fictief voorbeeld, samengesteld uit situaties die veel voorkomen. Organisatie en cijfers zijn illustratief.",
+      "Onafhankelijkheid",
+      "Sommige AI-adviseurs zijn ook implementatiepartner of reseller van een platform. Dat is niet per se fout, maar je moet het weten. Vraag expliciet of iemand vergoedingen, korting of partnerstatus ontvangt van leveranciers die in beeld kunnen komen, en of er verdiend wordt aan de bouw. Vraag het ook op papier.",
+      "Mijn eigen antwoord: ik bouw en verkoop geen software, ontvang geen commissies en reken geen marge op partners. Bestaande relaties met een leverancier meld ik voordat die partij in beeld komt. Meer over mijn achtergrond lees je op over mij.",
+      "Werkwijze en deliverables",
+      "Vraag vooraf wat je aan het eind in handen hebt en wanneer de opdracht klaar is. “Dat hangt ervan af” is geen antwoord. Goede deliverables zijn gemaakt om mee te besluiten: een geprioriteerde lijst use cases met eigenaren, een AI strategie met expliciete keuzes, een AI roadmap met planning en budget, of een beslisdocument voor een leverancierskeuze. Vraag ook of je de kaders en scorecards daarna zelf mag hergebruiken.",
+      "Wat kost een AI consultant inhuren?",
+      "Ik werk niet met een open uurtarief, maar met vaste pakketten en zichtbare vanaf-prijzen. Er zijn drie inhuurvormen:",
+      "Inhuurvorm",
+      "Voorbeeld",
+      "Investering",
+      "Afgebakend advies",
+      "Second opinion, workshop, korte toets",
+      "Vaste prijs in het voorstel",
+      "Vast traject",
+      "AI Readiness Assessment",
+      "€7.000",
+      "Vast traject",
+      "AI Strategy Sprint",
+      "€15.400 - €22.400",
+      "Doorlopende rol",
+      "Fractional AI Lead",
+      "€2.600 / €5.200 / €10.400 per maand",
+      "Het kleinste pakket met een vaste prijs is de Executive Briefing van €2.800. Een Fractional AI Lead is de vorm om een AI consultant voor langere tijd in te huren: 2, 4 of 8 dagen / maand, met een minimale looptijd van 3 maanden, daarna maandelijks opzegbaar, zonder dat je direct een fulltime Head of AI aanneemt.",
+      "Alle bedragen zijn exclusief btw en reiskosten. Een volledig overzicht staat op de pagina met tarieven en pakketten.",
+      "Zo start je",
+      "Een start is bewust eenvoudig en verplicht je tot niets.",
+      "Eerste gesprekDertig minuten, online of op locatie. Geen presentatie, geen offerte ter plekke.",
+      "IntakeWe maken de vraag, de scope en het gewenste eindproduct samen scherp.",
+      "OpdrachtbevestigingScope, prijs en afspraken leg ik vast in de opdrachtbevestiging.",
+      "StartVoor een Executive Briefing of intake meestal binnen twee weken, voor grotere trajecten afhankelijk van de agenda.",
+      "Van eerste gesprek naar opdracht: je weet vooraf wat het kost en wat je krijgt.",
+      "In het eerste gesprek vertel jij waar je tegenaan loopt, stel ik vragen en zeg ik aan het eind wat ik zou doen, ook als dat betekent dat je me niet nodig hebt. Past het, dan volgt een intake waarin we de scope bepalen. Daarna leg ik scope en prijs vast in een opdrachtbevestiging, zodat je vóór de start weet waar je aan toe bent. Hoe de trajecten daarna verlopen, lees je bij AI consultancy.",
+      "Wil je een AI consultant inhuren voor jouw vraag? Plan een adviesgesprek van dertig minuten.",
+      "Dave Willemstein Onafhankelijk AI-adviseur",
+      "Onafhankelijk: geen commissies, geen partnerdeals, geen marge op implementatiepartners.",
+      "Over mij Mijn partnernetwerk",
+      "Weten waar je staat met AI? Bekijk de AI Readiness Assessment →",
+      "Veelgestelde vragen",
+      "Hoe lang huur je een AI consultant meestal in?+",
+      "Vaak volstaat een afgebakende opdracht van enkele weken, zoals een assessment (2-3 weken), een strategiesprint (4-6 weken) of een leveranciersselectie (3-6 weken). Is er doorlopende sturing nodig, dan past een deeltijdrol van een paar dagen per maand beter dan een fulltime inzet.",
+      "Kan ik een AI consultant tijdelijk als AI-lead inhuren?+",
+      "Ja, dat is precies de rol van een Fractional AI Lead: 2, 4 of 8 dagen / maand, met een minimale looptijd van 3 maanden, daarna maandelijks opzegbaar. Het doel is dat je eigen organisatie de rol daarna overneemt.",
+      "Kan een AI consultant ook de AI-oplossing voor ons bouwen?+",
+      "Sommige consultants wel, ik niet. Ik bouw en verkoop geen software. Bouwen doet je eigen team of een partij die je rechtstreeks contracteert. Ik help die partij selecteren en begeleid de implementatie vanuit jouw kant van de tafel.",
+      "Wat moet ik intern regelen voordat ik een AI consultant inhuur?+",
+      "Drie dingen: een opdrachtgever met mandaat om te besluiten, een eerste formulering van de vraag en toegang tot de relevante documenten, voorstellen en mensen. De rest kunnen we in de intake samen scherp krijgen.",
+      "Is een AI consultant hetzelfde als een AI specialist?+",
+      "Niet helemaal. AI specialist is een brede term die ook technische rollen omvat, zoals developers en data scientists. Een AI consultant richt zich op keuzes, strategie, selectie en borging. Zoek je iemand die zelf modellen bouwt, dan zoek je een ander profiel.",
+      "Klaar voor impact?",
+      "Van AI-ambitie naar concrete resultaten.",
+      "Plan een vrijblijvend gesprek. Geen pitch. Wel scherpe vragen.",
+      "30 min., geen pitch deckPlan een gesprek →"
+    ]
+  },
+  "links": [
+    {
+      "regio": "overig",
+      "soort": "intern",
+      "href": "#main",
+      "anker": "Naar hoofdinhoud",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/",
+      "anker": "",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/diensten",
+      "anker": "Diensten",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/cases",
+      "anker": "Cases",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/werkwijze",
+      "anker": "Werkwijze",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/inzichten",
+      "anker": "Inzichten",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/over",
+      "anker": "Over mij",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/contact",
+      "anker": "Plan een gesprek →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/",
+      "anker": "Home",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/ai-consultancy",
+      "anker": "AI Consultancy",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/contact",
+      "anker": "Plan een adviesgesprek →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/diensten/ai-readiness-assessment",
+      "anker": "Bekijk de AI Readiness Assessment →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/inzichten/wanneer-heb-je-echt-een-ai-strateeg-nodig",
+      "anker": "wanneer je echt een AI-strateeg nodig hebt",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/kennisbank/wat-doet-een-ai-consultant",
+      "anker": "wat een AI consultant doet",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/inzichten/freelance-ai-consultant-vs-agency-vs-big4",
+      "anker": "freelance AI consultant, agency of Big 4",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/partnernetwerk",
+      "anker": "partnernetwerk",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/over",
+      "anker": "over mij",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/ai-consultancy/ai-strategie",
+      "anker": "AI strategie",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/ai-consultancy/ai-roadmap",
+      "anker": "AI roadmap",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/diensten/fractional-ai-lead",
+      "anker": "Fractional AI Lead",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/tarieven",
+      "anker": "tarieven en pakketten",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/ai-consultancy",
+      "anker": "AI consultancy",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/contact",
+      "anker": "Plan een adviesgesprek",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/over",
+      "anker": "Over mij",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/partnernetwerk",
+      "anker": "Mijn partnernetwerk",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/diensten/ai-readiness-assessment",
+      "anker": "Weten waar je staat met AI? Bekijk de AI Readiness Assessment →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/contact",
+      "anker": "Plan een gesprek →",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/diensten/ai-readiness-assessment",
+      "anker": "AI Readiness Assessment",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/diensten/ai-strategy-sprint",
+      "anker": "AI Strategy Sprint",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/diensten/fractional-ai-lead",
+      "anker": "Fractional AI Lead",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/diensten",
+      "anker": "Alle diensten",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/cases",
+      "anker": "Cases",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/werkwijze",
+      "anker": "Werkwijze",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/inzichten",
+      "anker": "Inzichten",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/veelgestelde-vragen",
+      "anker": "Veelgestelde vragen",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/over",
+      "anker": "Over mij",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-consultancy",
+      "anker": "AI consultancy",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-implementatie",
+      "anker": "AI implementatie",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-automatisering",
+      "anker": "AI automatisering",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-voor-bedrijven",
+      "anker": "AI voor bedrijven",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-development",
+      "anker": "AI development",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-agents",
+      "anker": "AI agents",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-beleid",
+      "anker": "AI beleid",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-workshop",
+      "anker": "AI workshop",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/markten",
+      "anker": "AI per branche",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/kennisbank",
+      "anker": "Kennisbank",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/tarieven",
+      "anker": "Tarieven",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/partnernetwerk",
+      "anker": "Partnernetwerk",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "overig",
+      "href": "mailto:dave@freelanceaiconsultant.com",
+      "anker": "dave@freelanceaiconsultant.com",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "extern",
+      "href": "https://www.linkedin.com/in/davewillemstein",
+      "anker": "LinkedIn ↗",
+      "rel": "noopener"
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/contact",
+      "anker": "Plan een gesprek",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/privacy",
+      "anker": "Privacyverklaring",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/algemene-voorwaarden",
+      "anker": "Algemene voorwaarden",
+      "rel": null
+    }
+  ],
+  "structured_data": {
+    "sha256": "198e4957220e6049800dec847853ecce41e7e0eac90fad7a26ffe621337e3956",
+    "items": [
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://freelanceaiconsultant.com/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "AI Consultancy",
+                "item": "https://freelanceaiconsultant.com/ai-consultancy"
+              },
+              {
+                "@type": "ListItem",
+                "position": 3,
+                "name": "AI consultant inhuren",
+                "item": "https://freelanceaiconsultant.com/ai-consultancy/ai-consultant-inhuren"
+              }
+            ]
+          },
+          {
+            "@type": "Service",
+            "name": "AI consultant inhuren",
+            "serviceType": "ai consultant inhuren",
+            "description": "Een AI consultant inhuren? Lees waar je op let bij selectie, wat een freelance AI consultant kost en hoe je snel start. Direct contact met de expert zelf.",
+            "url": "https://freelanceaiconsultant.com/ai-consultancy/ai-consultant-inhuren",
+            "areaServed": "NL",
+            "provider": {
+              "@type": "Person",
+              "name": "Dave Willemstein",
+              "jobTitle": "Onafhankelijk AI-adviseur",
+              "url": "https://freelanceaiconsultant.com/over",
+              "sameAs": [
+                "https://www.linkedin.com/in/davewillemstein"
+              ]
+            }
+          },
+          {
+            "@type": "FAQPage",
+            "mainEntity": [
+              {
+                "@type": "Question",
+                "name": "Hoe lang huur je een AI consultant meestal in?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Vaak volstaat een afgebakende opdracht van enkele weken, zoals een assessment (2-3 weken), een strategiesprint (4-6 weken) of een leveranciersselectie (3-6 weken). Is er doorlopende sturing nodig, dan past een deeltijdrol van een paar dagen per maand beter dan een fulltime inzet."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Kan ik een AI consultant tijdelijk als AI-lead inhuren?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Ja, dat is precies de rol van een Fractional AI Lead: 2, 4 of 8 dagen / maand, met een minimale looptijd van 3 maanden, daarna maandelijks opzegbaar. Het doel is dat je eigen organisatie de rol daarna overneemt."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Kan een AI consultant ook de AI-oplossing voor ons bouwen?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Sommige consultants wel, ik niet. Ik bouw en verkoop geen software. Bouwen doet je eigen team of een partij die je rechtstreeks contracteert. Ik help die partij selecteren en begeleid de implementatie vanuit jouw kant van de tafel."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Wat moet ik intern regelen voordat ik een AI consultant inhuur?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Drie dingen: een opdrachtgever met mandaat om te besluiten, een eerste formulering van de vraag en toegang tot de relevante documenten, voorstellen en mensen. De rest kunnen we in de intake samen scherp krijgen."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Is een AI consultant hetzelfde als een AI specialist?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Niet helemaal. AI specialist is een brede term die ook technische rollen omvat, zoals developers en data scientists. Een AI consultant richt zich op keuzes, strategie, selectie en borging. Zoek je iemand die zelf modellen bouwt, dan zoek je een ander profiel."
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "afbeeldingen": [
+    {
+      "regio": "header",
+      "src": "/images/freelance-ai-consultant-logo-header.png",
+      "alt": "freelanceaiconsultant.com logo",
+      "width": "600",
+      "height": "287",
+      "loading": null
+    },
+    {
+      "regio": "main",
+      "src": "/images/dave-portrait.jpg",
+      "alt": "Portret van Dave Willemstein",
+      "width": "88",
+      "height": "88",
+      "loading": "lazy"
+    },
+    {
+      "regio": "footer",
+      "src": "/images/freelance-ai-consultant-icon-footer.png",
+      "alt": "",
+      "width": "192",
+      "height": "192",
+      "loading": "lazy"
+    }
+  ],
+  "laadprestaties": {
+    "scripts": [
+      {
+        "src": "/logo-carousel/logo-carousel.js?v=2",
+        "type": null,
+        "inline_bytes": 0
+      }
+    ],
+    "stylesheets": [
+      "https://fonts.googleapis.com/css2?family=Caveat:wght@600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap",
+      "/_astro/_slug_.bq6BBoZ5.css",
+      "/_astro/_slug_.goiX3PVF.css",
+      "/logo-carousel/logo-carousel.css?v=2"
+    ],
+    "aantal_details": 5,
+    "aantal_tabellen": 1
+  }
+}

@@ -1,0 +1,817 @@
+{
+  "url": "/ai-consultancy/ai-advies",
+  "build_bestand": "dist/ai-consultancy/ai-advies/index.html",
+  "bron": [
+    "src/content/pages/ai-consultancy/ai-advies/index.md",
+    "src/pages/[...slug].astro"
+  ],
+  "gemeten_op": "2026-10-06",
+  "html": {
+    "bytes": 34343,
+    "sha256": "6163959c0bd7cee78a32a06371e60fc49b6c80184cbe0fc0bd86374619dc7c28",
+    "lang": "nl"
+  },
+  "beschermd": {
+    "title": "AI advies | Onafhankelijke AI-adviseur voor bedrijven",
+    "meta_description": "Onafhankelijk AI advies over strategie, tools, data en risico's. Lees wat een AI-adviseur doet en wanneer advies volstaat of je beter kiest voor consultancy.",
+    "canonical": "https://freelanceaiconsultant.com/ai-consultancy/ai-advies",
+    "robots_meta": null,
+    "hreflang": [],
+    "h1": [
+      "AI advies: onafhankelijk advies over AI in je bedrijf"
+    ]
+  },
+  "social": {
+    "og:type": "website",
+    "og:locale": "nl_NL",
+    "og:site_name": "freelanceaiconsultant.com",
+    "og:title": "AI advies | Onafhankelijke AI-adviseur voor bedrijven",
+    "og:description": "Onafhankelijk AI advies over strategie, tools, data en risico's. Lees wat een AI-adviseur doet en wanneer advies volstaat of je beter kiest voor consultancy.",
+    "og:url": "https://freelanceaiconsultant.com/ai-consultancy/ai-advies",
+    "og:image": "https://freelanceaiconsultant.com/images/dave-portrait.jpg",
+    "twitter:card": "summary_large_image",
+    "twitter:title": "AI advies | Onafhankelijke AI-adviseur voor bedrijven",
+    "twitter:description": "Onafhankelijk AI advies over strategie, tools, data en risico's. Lees wat een AI-adviseur doet en wanneer advies volstaat of je beter kiest voor consultancy.",
+    "twitter:image": "https://freelanceaiconsultant.com/images/dave-portrait.jpg"
+  },
+  "koppen": [
+    {
+      "niveau": 1,
+      "tekst": "AI advies: onafhankelijk advies over AI in je bedrijf",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "Wat is AI advies?",
+      "regio": "main",
+      "id": "wat-is-ai-advies"
+    },
+    {
+      "niveau": 2,
+      "tekst": "AI advies versus AI consultancy",
+      "regio": "main",
+      "id": "ai-advies-versus-ai-consultancy"
+    },
+    {
+      "niveau": 2,
+      "tekst": "Onderwerpen waarover ik adviseer",
+      "regio": "main",
+      "id": "onderwerpen-waarover-ik-adviseer"
+    },
+    {
+      "niveau": 3,
+      "tekst": "Tools en leveranciers",
+      "regio": "main",
+      "id": "tools-en-leveranciers"
+    },
+    {
+      "niveau": 3,
+      "tekst": "Data en privacy",
+      "regio": "main",
+      "id": "data-en-privacy"
+    },
+    {
+      "niveau": 3,
+      "tekst": "Use cases",
+      "regio": "main",
+      "id": "use-cases"
+    },
+    {
+      "niveau": 3,
+      "tekst": "Risico’s en compliance",
+      "regio": "main",
+      "id": "risicos-en-compliance"
+    },
+    {
+      "niveau": 2,
+      "tekst": "Hoe een adviestraject verloopt",
+      "regio": "main",
+      "id": "hoe-een-adviestraject-verloopt"
+    },
+    {
+      "niveau": 2,
+      "tekst": "Veelgestelde vragen",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "Bronnen",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "Van AI-ambitie naar concrete resultaten.",
+      "regio": "main",
+      "id": null
+    }
+  ],
+  "bodytekst": {
+    "regio": "main",
+    "woorden": 1778,
+    "sha256": "0ca6a04fe79811cdbe1ccac27f68a3eb52e7bf714c1819043bb7d231891ce720",
+    "blokken": [
+      "Home",
+      "AI Consultancy",
+      "AI advies",
+      "AI advies",
+      "AI advies: onafhankelijk advies over AI in je bedrijf",
+      "Soms heb je geen traject nodig, maar een scherp antwoord op één vraag. Welke tool, welke leverancier, welk risico, welke use case eerst? Met onafhankelijk AI advies krijg je dat antwoord van iemand die niets verdient aan de oplossing die hij aanraadt.",
+      "Plan een adviesgesprek → Bekijk de AI Readiness Assessment →",
+      "IN HET KORT",
+      "AI advies beantwoordt een afgebakende vraag; consultancy begeleidt een traject.",
+      "Ik adviseer over tools en leveranciers, data en privacy, use cases en compliance.",
+      "Kleinste instap: een Executive Briefing of afgebakend advies tegen een vaste prijs.",
+      "AI in Europa",
+      "Europese merken die AI al in productie hebben.",
+      "Geen klanten van mij. Wel voorbeelden van wat er gebeurt als AI voorbij de pilot komt.",
+      "Pauzeer",
+      "Klarna",
+      "Zweden",
+      "AI-assistent in de klantenservice",
+      "Zalando",
+      "Duitsland",
+      "Mode-assistent voor productadvies",
+      "Financial services",
+      "Investeringsmaatschappij",
+      "AI-strategie en use-case portfolio",
+      "Booking.com",
+      "Nederland",
+      "AI Trip Planner voor reisplanning",
+      "Siemens",
+      "Duitsland",
+      "Industrial Copilot voor engineering",
+      "Retail",
+      "Enterprise retailer",
+      "AI-gedreven vendorselectie",
+      "Spotify",
+      "Zweden",
+      "AI DJ en gepersonaliseerde playlists",
+      "Mercedes-Benz",
+      "Duitsland",
+      "Generatieve spraakassistent in de auto",
+      "Industrial / B2B",
+      "Internationale maakorganisatie",
+      "AI-roadmap en leadership",
+      "ING",
+      "Nederland",
+      "Generatieve chatbot voor klantvragen",
+      "L'Oréal",
+      "Frankrijk",
+      "Beauty Genius: persoonlijk advies",
+      "Financial services",
+      "Financiële dienstverlener",
+      "KYC versneld met AI-documentanalyse",
+      "SAP",
+      "Duitsland",
+      "Joule: copilot in bedrijfssoftware",
+      "Carrefour",
+      "Frankrijk",
+      "Hopla: boodschappenassistent",
+      "Strategy & AI",
+      "SaaS scale-up",
+      "AI-readiness assessment",
+      "Adyen",
+      "Nederland",
+      "AI-optimalisatie van betalingen",
+      "Philips",
+      "Nederland",
+      "AI in medische beeldvorming",
+      "Proces & productivity",
+      "Zakelijke dienstverlener",
+      "Interne AI-assistent voor kenniswerkers",
+      "Wat is AI advies?",
+      "AI advies is onafhankelijk, deskundig advies over de inzet van kunstmatige intelligentie in je organisatie, gericht op een concrete vraag of een concreet besluit. Denk aan: welke leverancier past bij ons, is deze business case realistisch, mogen we deze data gebruiken, en welke use case pakken we als eerste op?",
+      "Het verschil met een presentatie over AI of een demo van een leverancier: goed advies eindigt met een keuze die je kunt onderbouwen. Niet met een lijst mogelijkheden, maar met wat ik in jouw situatie zou doen en waarom.",
+      "Ik ben Dave Willemstein, onafhankelijk AI-adviseur. Ik werk alleen, verkoop geen software of implementaties en ontvang geen commissies van leveranciers. Mijn inkomsten komen volledig uit het advies dat jij betaalt. Dat is geen detail: het bepaalt of een adviseur vrij is om te zeggen dat je iets beter niet koopt.",
+      "Voorbeeldscenario",
+      "Een logistiek bedrijf met 220 medewerkers heeft een voorstel liggen voor een AI-platform dat vrachtdocumenten automatisch verwerkt: een contract van drie jaar met een implementatie van vier maanden. Voordat de directie tekent, wil ze een second opinion.",
+      "In drie adviesdagen leest de adviseur het voorstel en de contractvoorwaarden, spreekt hij de teamleider planning en de IT-beheerder, en laat hij de leverancier een test draaien op 200 eigen documenten. Ongeveer 70 procent gaat zonder correctie goed; de leverancier noemde 95 procent, gemeten op eigen demomateriaal. Afspraken over exit en het meenemen van de configuratie ontbreken.",
+      "Het advies: niet tekenen in deze vorm. De directie onderhandelt een pilot van drie maanden met een vooraf afgesproken drempel en een exitclausule. Een tweede leverancier komt er bewust niet bij, want de vraag was niet welke partij, maar of dit voorstel klopte.",
+      "Fictief voorbeeld, samengesteld uit situaties die veel voorkomen. Organisatie en cijfers zijn illustratief.",
+      "AI advies versus AI consultancy",
+      "De termen worden door elkaar gebruikt, maar voor jou als opdrachtgever is het onderscheid handig. AI advies beantwoordt een afgebakende vraag, meestal in dagen. AI consultancy begeleidt een traject: van diagnose via prioriteiten en keuzes tot borging, over weken of maanden.",
+      "AI advies: de vraagEén afgebakende vraag of besluit, zoals een leverancierskeuze of een second opinion.",
+      "AI consultancy: de vraagEen bredere opgave, zoals richting bepalen voor de hele organisatie.",
+      "AI advies: het resultaatEen onderbouwd antwoord in dagen, als afgebakende opdracht of als Executive Briefing.",
+      "AI consultancy: het resultaatEen strategie, roadmap of begeleide uitvoering, als vast traject of doorlopende rol.",
+      "Advies en consultancy lopen in elkaar over: een adviesvraag blijkt soms een grotere vraag, en dan zeg ik dat.",
+      "Advies volstaat als de vraag helder is en het besluit op zichzelf staat. Kies je beter voor consultancy, dan is dat meestal omdat de vraag eigenlijk groter is: er ontbreekt richting, of er lopen al pilots zonder samenhang. Dan helpt een AI strategie die vastlegt waar je naartoe wilt, of een AI roadmap die prioriteiten omzet in een planning.",
+      "Twijfel je of je überhaupt externe hulp nodig hebt? In wanneer je echt een AI-strateeg nodig hebt beschrijf ik ook de situaties waarin je het beter zelf doet.",
+      "Onderwerpen waarover ik adviseer",
+      "Mijn advies gaat over vier onderwerpen. Vaak raken ze elkaar: een toolkeuze is ook een datavraag, en een use case is ook een compliancevraag.",
+      "Tools en leveranciers",
+      "Welke AI-tool of leverancier past bij jouw processen, data en budget? Ik kijk verder dan de demo: past het bij je bestaande systemen, wat kost het over drie jaar inclusief integratie en beheer, en hoe kom je er weer vanaf als het tegenvalt? Omdat ik geen partnerstatus heb bij leveranciers, heb ik er geen belang bij welke partij het wordt.",
+      "Voor een korte toets van één voorstel volstaat afgebakend advies. Moet je meerdere partijen systematisch vergelijken, dan past een Vendor Review beter. De aanpak daarachter lees je in AI vendorselectie in acht stappen.",
+      "Data en privacy",
+      "Zonder bruikbare data levert AI weinig op, en zonder heldere afspraken over persoonsgegevens loop je risico onder de AVG. Ik help je beoordelen of je data geschikt is voor de toepassing die je voor ogen hebt, welke data je wel en niet naar een externe AI-dienst mag sturen, en welke afspraken je met een leverancier moet maken. Wanneer data echt de bottleneck is en wanneer “eerst de data op orde” vooral een excuus is, lees je in het datafundament onder AI.",
+      "Use cases",
+      "Er zijn meestal meer ideeën dan capaciteit. Ik help je kiezen welke use case waarde oplevert, welke haalbaar is met je huidige data en mensen, en welke je beter laat liggen. Ik beoordeel daarbij op waarde, haalbaarheid, datagereedheid en de vraag of er iemand in de lijn eigenaar wil worden. Meer over dat patroon staat in welke AI use cases resultaat leveren.",
+      "Risico’s en compliance",
+      "De AI Act stelt eisen die afhangen van het risico van je toepassing. Sommige verplichtingen gelden al: het verbod op bepaalde AI-praktijken en de bepaling over AI-geletterdheid zijn sinds 2 februari 2025 van toepassing. Die laatste vraagt na de Digital Omnibus dat je maatregelen neemt om AI-geletterdheid te ondersteunen; een verplicht niveau of certificaat is er niet. Sinds 2 augustus 2026 is de AI Act in het algemeen van toepassing, inclusief de transparantieverplichtingen. Voor hoog-risicosystemen zijn de termijnen met de Digital Omnibus verschoven naar 2 december 2027 en 2 augustus 2028, afhankelijk van het type systeem (Europese Commissie, stand september 2026).",
+      "Ik help je bepalen in welke risicocategorie je toepassing valt, wat dat concreet van je vraagt en hoe je governance inricht zonder er een papieren exercitie van te maken. Een overzicht van de wet vind je op de pagina over de AI Act. Ik ben geen jurist: voor juridisch advies schakel je een jurist in. Ik vertaal de regels naar keuzes in je organisatie.",
+      "Hoe een adviestraject verloopt",
+      "Een adviestraject is kort en heeft een duidelijk eindpunt. Het verloopt in vier stappen.",
+      "KennismakingDertig minuten over je vraag. Aan het eind hoor je wat ik zou doen.",
+      "AfbakeningIn de intake en de opdrachtbevestiging leggen we de vraag, de scope en het eindproduct vast.",
+      "AnalyseDocumenten, voorstellen en data doornemen, plus gesprekken met de mensen die het raakt.",
+      "AdviesEen onderbouwd antwoord dat je kunt gebruiken om te besluiten, mondeling toegelicht.",
+      "Van vraag naar besluit: een adviestraject is zo kort als de vraag toelaat.",
+      "Het eerste gesprek is vrijblijvend en zonder pitch. Blijkt je vraag groter dan een adviesvraag, dan zeg ik dat en stel ik voor wat wel past. Soms is dat een AI Readiness Assessment om eerst te weten waar je staat. Staat er een implementatie op het punt van beginnen, dan gaat het vaak om advies voorafgaand aan AI implementatie: keuze van use case, build of buy, en de voorbereiding van je organisatie.",
+      "Wil je directie of raad van commissarissen eerst een gedeeld beeld geven? Dan is de Executive Briefing de laagdrempeligste vorm van advies: een sessie van drie uur, voorbereid op jouw sector, voor €2.800. Afgebakend advies en second opinions krijgen een vaste prijs per opdracht. Alle bedragen staan op de pagina met tarieven en pakketten.",
+      "Heb je extra capaciteit nodig om het advies uit te voeren, dan stel ik partijen uit mijn partnernetwerk voor. Die contracteer je rechtstreeks, zonder marge voor mij.",
+      "Heb je een concrete vraag? Plan een adviesgesprek en vertel waar je tegenaan loopt.",
+      "Dave Willemstein Onafhankelijk AI-adviseur",
+      "Onafhankelijk: geen commissies, geen partnerdeals, geen marge op implementatiepartners.",
+      "Over mij Mijn partnernetwerk",
+      "Weten waar je staat met AI? Bekijk de AI Readiness Assessment →",
+      "Veelgestelde vragen",
+      "Kan ik AI advies vragen over één concrete vraag?+",
+      "Ja. Een second opinion op een leveranciersvoorstel, een toets van een business case of een vraag over de positionering onder de AI Act kan als afgebakend advies tegen een vaste prijs. In de intake en de opdrachtbevestiging leggen we vast wat de vraag is en wat je aan het eind in handen hebt.",
+      "Adviseer je ook welke AI-tool we moeten kiezen?+",
+      "Ja, en omdat ik geen partnerstatus of commissies heb bij leveranciers, kan ik dat doen zonder eigen belang. Voor een korte vraag volstaat afgebakend advies. Moeten er meerdere leveranciers systematisch worden vergeleken, dan is een Vendor Review met scorecards en een TCO-vergelijking passender.",
+      "Wat is het verschil tussen een AI-adviseur en een AI-leverancier?+",
+      "Een leverancier verkoopt een product of bouwt een oplossing en heeft er dus belang bij dat je die afneemt. Een onafhankelijke AI-adviseur verkoopt alleen advies. Dat maakt het makkelijker om ook te zeggen dat je iets beter niet, later of kleiner kunt doen.",
+      "Hoe bereid ik een adviesgesprek goed voor?+",
+      "Probeer je vraag op één pagina te zetten: wat wil je besluiten, welke opties zie je, welke criteria tellen en wat weet je nog niet. Lukt dat niet helemaal, dan is dat geen probleem; dan weten we meteen waar het gesprek over moet gaan.",
+      "Is AI advies ook geschikt voor kleinere organisaties?+",
+      "Ja. Juist bij een kleiner budget loont het om vooraf een verkeerde aankoop of een doodlopende pilot te voorkomen. Afgebakend advies of een Executive Briefing houdt de investering beperkt, en de scope stemmen we af op de omvang van je organisatie.",
+      "Bronnen",
+      "Europese Commissie: AI Act, regelgevingskader en tijdlijn",
+      "Europese Commissie: AI Literacy – Questions & Answers (bijgewerkt juli 2026)",
+      "Klaar voor impact?",
+      "Van AI-ambitie naar concrete resultaten.",
+      "Plan een vrijblijvend gesprek. Geen pitch. Wel scherpe vragen.",
+      "30 min., geen pitch deckPlan een gesprek →"
+    ]
+  },
+  "links": [
+    {
+      "regio": "overig",
+      "soort": "intern",
+      "href": "#main",
+      "anker": "Naar hoofdinhoud",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/",
+      "anker": "",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/diensten",
+      "anker": "Diensten",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/cases",
+      "anker": "Cases",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/werkwijze",
+      "anker": "Werkwijze",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/inzichten",
+      "anker": "Inzichten",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/over",
+      "anker": "Over mij",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/contact",
+      "anker": "Plan een gesprek →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/",
+      "anker": "Home",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/ai-consultancy",
+      "anker": "AI Consultancy",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/contact",
+      "anker": "Plan een adviesgesprek →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/diensten/ai-readiness-assessment",
+      "anker": "Bekijk de AI Readiness Assessment →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/over",
+      "anker": "onafhankelijk AI-adviseur",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/ai-consultancy",
+      "anker": "AI consultancy",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/ai-consultancy/ai-strategie",
+      "anker": "AI strategie",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/ai-consultancy/ai-roadmap",
+      "anker": "AI roadmap",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/inzichten/wanneer-heb-je-echt-een-ai-strateeg-nodig",
+      "anker": "wanneer je echt een AI-strateeg nodig hebt",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/diensten/vendor-review",
+      "anker": "Vendor Review",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/inzichten/ai-vendorselectie-in-acht-stappen",
+      "anker": "AI vendorselectie in acht stappen",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/inzichten/het-datafundament-onder-ai",
+      "anker": "het datafundament onder AI",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/inzichten/welke-ai-use-cases-leveren-resultaat",
+      "anker": "welke AI use cases resultaat leveren",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "extern",
+      "href": "https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai",
+      "anker": "Europese Commissie",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/ai-beleid/ai-act",
+      "anker": "de AI Act",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/diensten/ai-readiness-assessment",
+      "anker": "AI Readiness Assessment",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/ai-implementatie/advies",
+      "anker": "advies voorafgaand aan AI implementatie",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/diensten/executive-briefing",
+      "anker": "Executive Briefing",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/tarieven",
+      "anker": "tarieven en pakketten",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/partnernetwerk",
+      "anker": "partnernetwerk",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/contact",
+      "anker": "Plan een adviesgesprek",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/over",
+      "anker": "Over mij",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/partnernetwerk",
+      "anker": "Mijn partnernetwerk",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/diensten/ai-readiness-assessment",
+      "anker": "Weten waar je staat met AI? Bekijk de AI Readiness Assessment →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "extern",
+      "href": "https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai",
+      "anker": "Europese Commissie: AI Act, regelgevingskader en tijdlijn",
+      "rel": "noopener"
+    },
+    {
+      "regio": "main",
+      "soort": "extern",
+      "href": "https://digital-strategy.ec.europa.eu/en/faqs/ai-literacy-questions-answers",
+      "anker": "Europese Commissie: AI Literacy – Questions & Answers (bijgewerkt juli 2026)",
+      "rel": "noopener"
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/contact",
+      "anker": "Plan een gesprek →",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/diensten/ai-readiness-assessment",
+      "anker": "AI Readiness Assessment",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/diensten/ai-strategy-sprint",
+      "anker": "AI Strategy Sprint",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/diensten/fractional-ai-lead",
+      "anker": "Fractional AI Lead",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/diensten",
+      "anker": "Alle diensten",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/cases",
+      "anker": "Cases",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/werkwijze",
+      "anker": "Werkwijze",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/inzichten",
+      "anker": "Inzichten",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/veelgestelde-vragen",
+      "anker": "Veelgestelde vragen",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/over",
+      "anker": "Over mij",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-consultancy",
+      "anker": "AI consultancy",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-implementatie",
+      "anker": "AI implementatie",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-automatisering",
+      "anker": "AI automatisering",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-voor-bedrijven",
+      "anker": "AI voor bedrijven",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-development",
+      "anker": "AI development",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-agents",
+      "anker": "AI agents",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-beleid",
+      "anker": "AI beleid",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-workshop",
+      "anker": "AI workshop",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/markten",
+      "anker": "AI per branche",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/kennisbank",
+      "anker": "Kennisbank",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/tarieven",
+      "anker": "Tarieven",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/partnernetwerk",
+      "anker": "Partnernetwerk",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "overig",
+      "href": "mailto:dave@freelanceaiconsultant.com",
+      "anker": "dave@freelanceaiconsultant.com",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "extern",
+      "href": "https://www.linkedin.com/in/davewillemstein",
+      "anker": "LinkedIn ↗",
+      "rel": "noopener"
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/contact",
+      "anker": "Plan een gesprek",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/privacy",
+      "anker": "Privacyverklaring",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/algemene-voorwaarden",
+      "anker": "Algemene voorwaarden",
+      "rel": null
+    }
+  ],
+  "structured_data": {
+    "sha256": "f2d4874064552c6acbb953f3146b52ae16e180b2082ba340d537ee539547c652",
+    "items": [
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://freelanceaiconsultant.com/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "AI Consultancy",
+                "item": "https://freelanceaiconsultant.com/ai-consultancy"
+              },
+              {
+                "@type": "ListItem",
+                "position": 3,
+                "name": "AI advies",
+                "item": "https://freelanceaiconsultant.com/ai-consultancy/ai-advies"
+              }
+            ]
+          },
+          {
+            "@type": "Service",
+            "name": "AI advies",
+            "serviceType": "ai advies",
+            "description": "Onafhankelijk AI advies over strategie, tools, data en risico's. Lees wat een AI-adviseur doet en wanneer advies volstaat of je beter kiest voor consultancy.",
+            "url": "https://freelanceaiconsultant.com/ai-consultancy/ai-advies",
+            "areaServed": "NL",
+            "provider": {
+              "@type": "Person",
+              "name": "Dave Willemstein",
+              "jobTitle": "Onafhankelijk AI-adviseur",
+              "url": "https://freelanceaiconsultant.com/over",
+              "sameAs": [
+                "https://www.linkedin.com/in/davewillemstein"
+              ]
+            }
+          },
+          {
+            "@type": "FAQPage",
+            "mainEntity": [
+              {
+                "@type": "Question",
+                "name": "Kan ik AI advies vragen over één concrete vraag?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Ja. Een second opinion op een leveranciersvoorstel, een toets van een business case of een vraag over de positionering onder de AI Act kan als afgebakend advies tegen een vaste prijs. In de intake en de opdrachtbevestiging leggen we vast wat de vraag is en wat je aan het eind in handen hebt."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Adviseer je ook welke AI-tool we moeten kiezen?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Ja, en omdat ik geen partnerstatus of commissies heb bij leveranciers, kan ik dat doen zonder eigen belang. Voor een korte vraag volstaat afgebakend advies. Moeten er meerdere leveranciers systematisch worden vergeleken, dan is een Vendor Review met scorecards en een TCO-vergelijking passender."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Wat is het verschil tussen een AI-adviseur en een AI-leverancier?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Een leverancier verkoopt een product of bouwt een oplossing en heeft er dus belang bij dat je die afneemt. Een onafhankelijke AI-adviseur verkoopt alleen advies. Dat maakt het makkelijker om ook te zeggen dat je iets beter niet, later of kleiner kunt doen."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Hoe bereid ik een adviesgesprek goed voor?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Probeer je vraag op één pagina te zetten: wat wil je besluiten, welke opties zie je, welke criteria tellen en wat weet je nog niet. Lukt dat niet helemaal, dan is dat geen probleem; dan weten we meteen waar het gesprek over moet gaan."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Is AI advies ook geschikt voor kleinere organisaties?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Ja. Juist bij een kleiner budget loont het om vooraf een verkeerde aankoop of een doodlopende pilot te voorkomen. Afgebakend advies of een Executive Briefing houdt de investering beperkt, en de scope stemmen we af op de omvang van je organisatie."
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "afbeeldingen": [
+    {
+      "regio": "header",
+      "src": "/images/freelance-ai-consultant-logo-header.png",
+      "alt": "freelanceaiconsultant.com logo",
+      "width": "600",
+      "height": "287",
+      "loading": null
+    },
+    {
+      "regio": "main",
+      "src": "/images/dave-portrait.jpg",
+      "alt": "Portret van Dave Willemstein",
+      "width": "88",
+      "height": "88",
+      "loading": "lazy"
+    },
+    {
+      "regio": "footer",
+      "src": "/images/freelance-ai-consultant-icon-footer.png",
+      "alt": "",
+      "width": "192",
+      "height": "192",
+      "loading": "lazy"
+    }
+  ],
+  "laadprestaties": {
+    "scripts": [
+      {
+        "src": "/logo-carousel/logo-carousel.js?v=2",
+        "type": null,
+        "inline_bytes": 0
+      }
+    ],
+    "stylesheets": [
+      "https://fonts.googleapis.com/css2?family=Caveat:wght@600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap",
+      "/_astro/_slug_.bq6BBoZ5.css",
+      "/_astro/_slug_.goiX3PVF.css",
+      "/logo-carousel/logo-carousel.css?v=2"
+    ],
+    "aantal_details": 5,
+    "aantal_tabellen": 0
+  }
+}

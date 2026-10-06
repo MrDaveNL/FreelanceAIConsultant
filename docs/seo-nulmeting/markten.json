@@ -1,0 +1,773 @@
+{
+  "url": "/markten",
+  "build_bestand": "dist/markten/index.html",
+  "bron": [
+    "src/content/pages/markten/index.md",
+    "src/pages/[...slug].astro"
+  ],
+  "gemeten_op": "2026-10-06",
+  "html": {
+    "bytes": 28240,
+    "sha256": "15c3bcf216752ab15d66d047b148155a3cf44deef251b0c63c658910ef366985",
+    "lang": "nl"
+  },
+  "beschermd": {
+    "title": "AI per branche | Toepassingen in zorg, finance en meer",
+    "meta_description": "Ontdek hoe AI wordt ingezet in zorg, marketing, fintech, automotive, onderwijs, luchtvaart en overheid. Per sector de belangrijkste kansen en aandachtspunten.",
+    "canonical": "https://freelanceaiconsultant.com/markten",
+    "robots_meta": null,
+    "hreflang": [],
+    "h1": [
+      "AI per branche: toepassingen per sector"
+    ]
+  },
+  "social": {
+    "og:type": "website",
+    "og:locale": "nl_NL",
+    "og:site_name": "freelanceaiconsultant.com",
+    "og:title": "AI per branche | Toepassingen in zorg, finance en meer",
+    "og:description": "Ontdek hoe AI wordt ingezet in zorg, marketing, fintech, automotive, onderwijs, luchtvaart en overheid. Per sector de belangrijkste kansen en aandachtspunten.",
+    "og:url": "https://freelanceaiconsultant.com/markten",
+    "og:image": "https://freelanceaiconsultant.com/images/dave-portrait.jpg",
+    "twitter:card": "summary_large_image",
+    "twitter:title": "AI per branche | Toepassingen in zorg, finance en meer",
+    "twitter:description": "Ontdek hoe AI wordt ingezet in zorg, marketing, fintech, automotive, onderwijs, luchtvaart en overheid. Per sector de belangrijkste kansen en aandachtspunten.",
+    "twitter:image": "https://freelanceaiconsultant.com/images/dave-portrait.jpg"
+  },
+  "koppen": [
+    {
+      "niveau": 1,
+      "tekst": "AI per branche: toepassingen per sector",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "Waarom sectorkennis ertoe doet",
+      "regio": "main",
+      "id": "waarom-sectorkennis-ertoe-doet"
+    },
+    {
+      "niveau": 2,
+      "tekst": "Sectoren",
+      "regio": "main",
+      "id": "sectoren"
+    },
+    {
+      "niveau": 3,
+      "tekst": "Zorg",
+      "regio": "main",
+      "id": "zorg"
+    },
+    {
+      "niveau": 3,
+      "tekst": "Marketing",
+      "regio": "main",
+      "id": "marketing"
+    },
+    {
+      "niveau": 3,
+      "tekst": "Fintech",
+      "regio": "main",
+      "id": "fintech"
+    },
+    {
+      "niveau": 3,
+      "tekst": "Automotive",
+      "regio": "main",
+      "id": "automotive"
+    },
+    {
+      "niveau": 3,
+      "tekst": "Onderwijs",
+      "regio": "main",
+      "id": "onderwijs"
+    },
+    {
+      "niveau": 3,
+      "tekst": "Luchtvaart",
+      "regio": "main",
+      "id": "luchtvaart"
+    },
+    {
+      "niveau": 3,
+      "tekst": "Overheid",
+      "regio": "main",
+      "id": "overheid"
+    },
+    {
+      "niveau": 2,
+      "tekst": "Cases per sector",
+      "regio": "main",
+      "id": "cases-per-sector"
+    },
+    {
+      "niveau": 2,
+      "tekst": "Bronnen",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "Van AI-ambitie naar concrete resultaten.",
+      "regio": "main",
+      "id": null
+    }
+  ],
+  "bodytekst": {
+    "regio": "main",
+    "woorden": 1242,
+    "sha256": "21541c0a5407a8cf25351c7e89927e53bf50f14923826e7be7b6acef0bf64aa1",
+    "blokken": [
+      "Home",
+      "Markten",
+      "AI per sector",
+      "AI per branche: toepassingen per sector",
+      "AI per branche verschilt minder dan je zou denken, en tegelijk meer dan leveranciers je vertellen. De vragen zijn overal hetzelfde: wat pak je eerst aan, wat koop je en hoe houd je grip. Het verschil zit in de regels, de data en het risico als het misgaat.",
+      "Plan een adviesgesprek → Bekijk de AI Readiness Assessment →",
+      "Geschreven door Dave Willemstein, onafhankelijk AI consultant · gepubliceerd 23 september 2026",
+      "IN HET KORT",
+      "Prioriteren, kiezen en borgen: die vragen zijn in elke sector gelijk.",
+      "Regels, datagevoeligheid en foutkosten verschillen sterk per branche.",
+      "Mijn zwaartepunt ligt bij financiële dienstverlening, retail, industrie en zakelijke dienstverlening.",
+      "AI in Europa",
+      "Europese merken die AI al in productie hebben.",
+      "Geen klanten van mij. Wel voorbeelden van wat er gebeurt als AI voorbij de pilot komt.",
+      "Pauzeer",
+      "Klarna",
+      "Zweden",
+      "AI-assistent in de klantenservice",
+      "Zalando",
+      "Duitsland",
+      "Mode-assistent voor productadvies",
+      "Financial services",
+      "Investeringsmaatschappij",
+      "AI-strategie en use-case portfolio",
+      "Booking.com",
+      "Nederland",
+      "AI Trip Planner voor reisplanning",
+      "Siemens",
+      "Duitsland",
+      "Industrial Copilot voor engineering",
+      "Retail",
+      "Enterprise retailer",
+      "AI-gedreven vendorselectie",
+      "Spotify",
+      "Zweden",
+      "AI DJ en gepersonaliseerde playlists",
+      "Mercedes-Benz",
+      "Duitsland",
+      "Generatieve spraakassistent in de auto",
+      "Industrial / B2B",
+      "Internationale maakorganisatie",
+      "AI-roadmap en leadership",
+      "ING",
+      "Nederland",
+      "Generatieve chatbot voor klantvragen",
+      "L'Oréal",
+      "Frankrijk",
+      "Beauty Genius: persoonlijk advies",
+      "Financial services",
+      "Financiële dienstverlener",
+      "KYC versneld met AI-documentanalyse",
+      "SAP",
+      "Duitsland",
+      "Joule: copilot in bedrijfssoftware",
+      "Carrefour",
+      "Frankrijk",
+      "Hopla: boodschappenassistent",
+      "Strategy & AI",
+      "SaaS scale-up",
+      "AI-readiness assessment",
+      "Adyen",
+      "Nederland",
+      "AI-optimalisatie van betalingen",
+      "Philips",
+      "Nederland",
+      "AI in medische beeldvorming",
+      "Proces & productivity",
+      "Zakelijke dienstverlener",
+      "Interne AI-assistent voor kenniswerkers",
+      "Waarom sectorkennis ertoe doet",
+      "Wie AI per branche bekijkt, ziet eerst de verschillen: een ziekenhuis heeft andere processen dan een bank, een marketingafdeling werkt met andere data dan een gemeente. Toch lijken de vraagstukken sterk op elkaar. Overal moet iemand bepalen welke toepassingen voorrang krijgen, welke leverancier of bouwpartij past en hoe je het na de livegang in de hand houdt. Prioriteren, kiezen en borgen: dat is het werk, in elke sector.",
+      "Sectorkennis doet ertoe op drie punten:",
+      "Regels. In de zorg speelt de regelgeving voor medische hulpmiddelen mee, in de financiële sector het toezicht van DNB en AFM, bij de overheid de eisen aan besluiten over burgers. De AI Act legt daar een laag overheen, met verplichtingen die per toepassing verschillen.",
+      "Data. Gezondheidsgegevens, financiële transacties en klantprofielen vragen elk een andere omgang. Wat in de ene sector een gewone dataset is, is in de andere een bijzonder persoonsgegeven.",
+      "Foutkosten. Een verkeerd gegenereerde productbeschrijving is vervelend. Een verkeerde kredietbeoordeling of triage is iets anders. Hoeveel menselijke controle je inbouwt, hangt daarvan af.",
+      "PrioriterenWelke toepassingen leveren iets op en zijn haalbaar? Gelijk in elke sector.",
+      "KiezenKopen, bouwen of een partner: dezelfde afweging, andere eisen.",
+      "BorgenEigenaarschap, meten en bijsturen na livegang.",
+      "SectorlaagRegels, datagevoeligheid en foutkosten bepalen hoe streng elke stap is.",
+      "De aanpak is overal dezelfde; de sector bepaalt hoe zwaar je elke stap inricht.",
+      "Eerlijk over mijn eigen achtergrond: het zwaartepunt van mijn werk ligt bij financiële dienstverlening, retail, industrie en zakelijke dienstverlening. Dat staat ook zo in de veelgestelde vragen. Voor andere sectoren breng ik de aanpak mee; voor sectorspecifieke vragen heb je daarnaast iemand nodig die het domein van binnenuit kent.",
+      "Voorbeeldscenario",
+      "Een leasemaatschappij met 140 medewerkers wil AI inzetten om aanvragen voor private lease sneller af te handelen. Het oorspronkelijke plan: een model dat elke aanvraag vooraf beoordeelt en een advies over goedkeuring geeft.",
+      "De adviseur toetst het plan vanuit klantzijde. Een advies over de kredietwaardigheid van particulieren valt onder de AI Act in de hoog-risicocategorie, met eisen vanaf 2 december 2027. Het team splitst de vraag daarom op: AI haalt gegevens uit loonstroken en bankafschriften, de acceptant blijft beoordelen. De extractie komt van een leverancier die de leasemaatschappij zelf contracteert.",
+      "Uitkomst: bij ongeveer 1.100 aanvragen per maand daalt het overtypen van 20 naar 8 minuten per aanvraag, samen zo'n 220 uur per maand. Een automatisch goedkeuringsadvies komt er bewust niet, zolang er geen plan ligt voor de hoog-risico-eisen.",
+      "Fictief voorbeeld, samengesteld uit situaties die veel voorkomen. Organisatie en cijfers zijn illustratief.",
+      "Sectoren",
+      "Per sector heb ik een aparte pagina gemaakt met de belangrijkste toepassingen, de regels die meespelen en de valkuilen die vaak terugkomen. Hieronder een korte kennismaking.",
+      "Zorg",
+      "In de zorg ligt de druk op capaciteit en administratie, terwijl de eisen aan veiligheid en privacy hoog zijn. Software met een medisch doel kan een medisch hulpmiddel zijn, en gezondheidsgegevens zijn extra beschermd. Lees meer over toepassingen en regels voor AI in de zorg.",
+      "Marketing",
+      "Marketing was een van de eerste domeinen waar generatieve AI breed werd gebruikt, voor content, personalisatie en analyse. De uitdaging zit minder in de tools en meer in merkconsistentie, klantdata en toestemming. Zie de pagina over AI in marketing en een eigen marketingstrategie.",
+      "Fintech",
+      "Banken, verzekeraars en fintechs werken onder stevig toezicht. Kredietbeoordeling van particulieren en de risicobeoordeling en prijsstelling bij levens- en ziektekostenverzekeringen gelden onder de AI Act als hoog risico. Hoe je daar verantwoord mee omgaat, lees je bij AI in fintech en financiële dienstverlening.",
+      "Automotive",
+      "In de automotive-keten speelt AI van productie en kwaliteitscontrole tot aftersales en klantcontact. Veel van de vragen overlappen met die in de bredere maakindustrie. Meer op de pagina over AI voor automotive.",
+      "Onderwijs",
+      "Onderwijsinstellingen zoeken naar een balans tussen de mogelijkheden voor studenten en docenten en de risico’s voor toetsing en gelijke kansen. Lees verder over AI in het onderwijs.",
+      "Luchtvaart",
+      "De luchtvaart kent een eigen veiligheidsregime en een eigen Europese toezichthouder. AI voor planning, onderhoud of klantcontact moet daarin passen. Zie AI in de luchtvaart.",
+      "Overheid",
+      "Bij de overheid raken AI-toepassingen al snel de rechten van burgers, en daarmee transparantie en uitlegbaarheid. Lees meer over AI binnen de overheid.",
+      "Zit je sector er niet tussen? Dan is de algemene pagina over AI voor bedrijven een beter startpunt. En welke verplichtingen de Europese regels per toepassing meebrengen, staat uitgewerkt op de pagina over de AI Act. Let op dat de regels voor hoog-risicotoepassingen zijn uitgesteld: sinds de Digital Omnibus gelden ze vanaf 2 december 2027, en voor AI in producten als medische hulpmiddelen vanaf 2 augustus 2028 (Europese Commissie).",
+      "Cases per sector",
+      "De meeste cases op deze site komen uit de sectoren waar mijn werk het zwaarst op leunt. Ze laten zien hoe dezelfde aanpak in een andere context uitpakt:",
+      "Financiële dienstverlening: een KYC-proces met AI-ondersteunde documentanalyse, waarin de analist altijd de laatste toets houdt, en een use-case portfolio voor een investeringsmaatschappij.",
+      "Retail: een gestructureerde leveranciersselectie in enterprise retail, waarin de criteria vastlagen voordat er een leverancier op tafel kwam.",
+      "Industrie: een AI-roadmap voor een internationale maakorganisatie, met losse pilots die onder één governance kwamen.",
+      "Zakelijke dienstverlening: een interne AI-assistent voor kenniswerkers, waar adoptie meer werk was dan techniek.",
+      "Voor zorg, marketing, automotive, onderwijs, luchtvaart en overheid staan er geen cases op de site. Op die sectorpagina’s beschrijf ik daarom de vraagstukken en regels, niet eigen resultaten. Alle cases vind je in het overzicht van cases.",
+      "Wil je weten hoe je organisatie ervoor staat, ongeacht de sector? De AI Readiness Assessment geeft in korte tijd een nuchter beeld. Of plan een adviesgesprek van dertig minuten, dan hoor je aan het eind wat ik zou doen.",
+      "Dave Willemstein Onafhankelijk AI-adviseur",
+      "Onafhankelijk: geen commissies, geen partnerdeals, geen marge op implementatiepartners.",
+      "Over mij Mijn partnernetwerk",
+      "Weten waar je staat met AI? Bekijk de AI Readiness Assessment →",
+      "Bronnen",
+      "Europese Commissie: AI Omnibus enters into force",
+      "Klaar voor impact?",
+      "Van AI-ambitie naar concrete resultaten.",
+      "Plan een vrijblijvend gesprek. Geen pitch. Wel scherpe vragen.",
+      "30 min., geen pitch deckPlan een gesprek →"
+    ]
+  },
+  "links": [
+    {
+      "regio": "overig",
+      "soort": "intern",
+      "href": "#main",
+      "anker": "Naar hoofdinhoud",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/",
+      "anker": "",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/diensten",
+      "anker": "Diensten",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/cases",
+      "anker": "Cases",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/werkwijze",
+      "anker": "Werkwijze",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/inzichten",
+      "anker": "Inzichten",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/over",
+      "anker": "Over mij",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/contact",
+      "anker": "Plan een gesprek →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/",
+      "anker": "Home",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/contact",
+      "anker": "Plan een adviesgesprek →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/diensten/ai-readiness-assessment",
+      "anker": "Bekijk de AI Readiness Assessment →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/over",
+      "anker": "Dave Willemstein",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/veelgestelde-vragen",
+      "anker": "veelgestelde vragen",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/markten/zorg",
+      "anker": "toepassingen en regels voor AI in de zorg",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/markten/marketing",
+      "anker": "AI in marketing en een eigen marketingstrategie",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/markten/fintech",
+      "anker": "AI in fintech en financiële dienstverlening",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/markten/automotive",
+      "anker": "AI voor automotive",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/markten/onderwijs",
+      "anker": "AI in het onderwijs",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/markten/luchtvaart",
+      "anker": "AI in de luchtvaart",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/markten/overheid",
+      "anker": "AI binnen de overheid",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/ai-voor-bedrijven",
+      "anker": "AI voor bedrijven",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/ai-beleid/ai-act",
+      "anker": "de AI Act",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "extern",
+      "href": "https://digital-strategy.ec.europa.eu/en/news/ai-omnibus-enters-force",
+      "anker": "Europese Commissie",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/cases/kyc-documentanalyse-financial-services",
+      "anker": "KYC-proces met AI-ondersteunde documentanalyse",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/cases/ai-strategie-investeringsmaatschappij",
+      "anker": "use-case portfolio voor een investeringsmaatschappij",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/cases/vendorselectie-enterprise-retail",
+      "anker": "gestructureerde leveranciersselectie in enterprise retail",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/cases/ai-roadmap-internationale-maakorganisatie",
+      "anker": "AI-roadmap voor een internationale maakorganisatie",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/cases/interne-ai-assistent-kenniswerkers",
+      "anker": "interne AI-assistent voor kenniswerkers",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/cases",
+      "anker": "overzicht van cases",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/diensten/ai-readiness-assessment",
+      "anker": "AI Readiness Assessment",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/contact",
+      "anker": "plan een adviesgesprek",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/over",
+      "anker": "Over mij",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/partnernetwerk",
+      "anker": "Mijn partnernetwerk",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/diensten/ai-readiness-assessment",
+      "anker": "Weten waar je staat met AI? Bekijk de AI Readiness Assessment →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "extern",
+      "href": "https://digital-strategy.ec.europa.eu/en/news/ai-omnibus-enters-force",
+      "anker": "Europese Commissie: AI Omnibus enters into force",
+      "rel": "noopener"
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/contact",
+      "anker": "Plan een gesprek →",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/diensten/ai-readiness-assessment",
+      "anker": "AI Readiness Assessment",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/diensten/ai-strategy-sprint",
+      "anker": "AI Strategy Sprint",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/diensten/fractional-ai-lead",
+      "anker": "Fractional AI Lead",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/diensten",
+      "anker": "Alle diensten",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/cases",
+      "anker": "Cases",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/werkwijze",
+      "anker": "Werkwijze",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/inzichten",
+      "anker": "Inzichten",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/veelgestelde-vragen",
+      "anker": "Veelgestelde vragen",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/over",
+      "anker": "Over mij",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-consultancy",
+      "anker": "AI consultancy",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-implementatie",
+      "anker": "AI implementatie",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-automatisering",
+      "anker": "AI automatisering",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-voor-bedrijven",
+      "anker": "AI voor bedrijven",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-development",
+      "anker": "AI development",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-agents",
+      "anker": "AI agents",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-beleid",
+      "anker": "AI beleid",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-workshop",
+      "anker": "AI workshop",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/markten",
+      "anker": "AI per branche",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/kennisbank",
+      "anker": "Kennisbank",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/tarieven",
+      "anker": "Tarieven",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/partnernetwerk",
+      "anker": "Partnernetwerk",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "overig",
+      "href": "mailto:dave@freelanceaiconsultant.com",
+      "anker": "dave@freelanceaiconsultant.com",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "extern",
+      "href": "https://www.linkedin.com/in/davewillemstein",
+      "anker": "LinkedIn ↗",
+      "rel": "noopener"
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/contact",
+      "anker": "Plan een gesprek",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/privacy",
+      "anker": "Privacyverklaring",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/algemene-voorwaarden",
+      "anker": "Algemene voorwaarden",
+      "rel": null
+    }
+  ],
+  "structured_data": {
+    "sha256": "ad2ab00dd0a5b8bd79183ea790aaf45d3a570949d28f7afc74436437df7163b3",
+    "items": [
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://freelanceaiconsultant.com/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Markten",
+                "item": "https://freelanceaiconsultant.com/markten"
+              }
+            ]
+          },
+          {
+            "@type": "Article",
+            "headline": "AI per branche: toepassingen per sector",
+            "description": "Ontdek hoe AI wordt ingezet in zorg, marketing, fintech, automotive, onderwijs, luchtvaart en overheid. Per sector de belangrijkste kansen en aandachtspunten.",
+            "inLanguage": "nl-NL",
+            "datePublished": "2026-09-23",
+            "dateModified": "2026-09-23",
+            "author": {
+              "@type": "Person",
+              "name": "Dave Willemstein",
+              "jobTitle": "Onafhankelijk AI-adviseur",
+              "url": "https://freelanceaiconsultant.com/over",
+              "sameAs": [
+                "https://www.linkedin.com/in/davewillemstein"
+              ]
+            },
+            "publisher": {
+              "@type": "Person",
+              "name": "Dave Willemstein"
+            },
+            "mainEntityOfPage": "https://freelanceaiconsultant.com/markten"
+          }
+        ]
+      }
+    ]
+  },
+  "afbeeldingen": [
+    {
+      "regio": "header",
+      "src": "/images/freelance-ai-consultant-logo-header.png",
+      "alt": "freelanceaiconsultant.com logo",
+      "width": "600",
+      "height": "287",
+      "loading": null
+    },
+    {
+      "regio": "main",
+      "src": "/images/dave-portrait.jpg",
+      "alt": "Portret van Dave Willemstein",
+      "width": "88",
+      "height": "88",
+      "loading": "lazy"
+    },
+    {
+      "regio": "footer",
+      "src": "/images/freelance-ai-consultant-icon-footer.png",
+      "alt": "",
+      "width": "192",
+      "height": "192",
+      "loading": "lazy"
+    }
+  ],
+  "laadprestaties": {
+    "scripts": [
+      {
+        "src": "/logo-carousel/logo-carousel.js?v=2",
+        "type": null,
+        "inline_bytes": 0
+      }
+    ],
+    "stylesheets": [
+      "https://fonts.googleapis.com/css2?family=Caveat:wght@600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap",
+      "/_astro/_slug_.bq6BBoZ5.css",
+      "/_astro/_slug_.goiX3PVF.css",
+      "/logo-carousel/logo-carousel.css?v=2"
+    ],
+    "aantal_details": 0,
+    "aantal_tabellen": 0
+  }
+}

@@ -1,0 +1,831 @@
+{
+  "url": "/markten/marketing",
+  "build_bestand": "dist/markten/marketing/index.html",
+  "bron": [
+    "src/content/pages/markten/marketing/index.md",
+    "src/pages/[...slug].astro"
+  ],
+  "gemeten_op": "2026-10-06",
+  "html": {
+    "bytes": 36899,
+    "sha256": "474c8a1ca6198bf96da29b86d19043a1749dc55c3224b999dad4d380ae4b3441",
+    "lang": "nl"
+  },
+  "beschermd": {
+    "title": "AI marketing | Strategie, toepassingen en de beste tools",
+    "meta_description": "Wat is AI marketing en hoe zet je het slim in? Ontdek toepassingen voor content, personalisatie en analyse, en bouw een AI marketing strategie die werkt.",
+    "canonical": "https://freelanceaiconsultant.com/markten/marketing",
+    "robots_meta": "noindex, follow",
+    "hreflang": [],
+    "h1": [
+      "AI marketing: slimmer marketen met AI"
+    ]
+  },
+  "social": {
+    "og:type": "website",
+    "og:locale": "nl_NL",
+    "og:site_name": "freelanceaiconsultant.com",
+    "og:title": "AI marketing | Strategie, toepassingen en de beste tools",
+    "og:description": "Wat is AI marketing en hoe zet je het slim in? Ontdek toepassingen voor content, personalisatie en analyse, en bouw een AI marketing strategie die werkt.",
+    "og:url": "https://freelanceaiconsultant.com/markten/marketing",
+    "og:image": "https://freelanceaiconsultant.com/images/dave-portrait.jpg",
+    "twitter:card": "summary_large_image",
+    "twitter:title": "AI marketing | Strategie, toepassingen en de beste tools",
+    "twitter:description": "Wat is AI marketing en hoe zet je het slim in? Ontdek toepassingen voor content, personalisatie en analyse, en bouw een AI marketing strategie die werkt.",
+    "twitter:image": "https://freelanceaiconsultant.com/images/dave-portrait.jpg"
+  },
+  "koppen": [
+    {
+      "niveau": 1,
+      "tekst": "AI marketing: slimmer marketen met AI",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "Wat is AI marketing?",
+      "regio": "main",
+      "id": "wat-is-ai-marketing"
+    },
+    {
+      "niveau": 2,
+      "tekst": "Toepassingen van AI in marketing",
+      "regio": "main",
+      "id": "toepassingen-van-ai-in-marketing"
+    },
+    {
+      "niveau": 3,
+      "tekst": "Content",
+      "regio": "main",
+      "id": "content"
+    },
+    {
+      "niveau": 3,
+      "tekst": "Personalisatie",
+      "regio": "main",
+      "id": "personalisatie"
+    },
+    {
+      "niveau": 3,
+      "tekst": "Advertenties",
+      "regio": "main",
+      "id": "advertenties"
+    },
+    {
+      "niveau": 3,
+      "tekst": "Analyse",
+      "regio": "main",
+      "id": "analyse"
+    },
+    {
+      "niveau": 2,
+      "tekst": "AI marketing strategie ontwikkelen",
+      "regio": "main",
+      "id": "ai-marketing-strategie-ontwikkelen"
+    },
+    {
+      "niveau": 2,
+      "tekst": "Tools",
+      "regio": "main",
+      "id": "tools"
+    },
+    {
+      "niveau": 2,
+      "tekst": "Veelgestelde vragen",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "Bronnen",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "Van AI-ambitie naar concrete resultaten.",
+      "regio": "main",
+      "id": null
+    }
+  ],
+  "bodytekst": {
+    "regio": "main",
+    "woorden": 1979,
+    "sha256": "e6d24348eba46659d69f895d2df46586fe5414c92785673f5a1acd736ae6d9f6",
+    "blokken": [
+      "Home",
+      "Markten",
+      "AI voor marketing",
+      "AI voor marketing",
+      "AI marketing: slimmer marketen met AI",
+      "AI marketing is geen nieuw vak, maar een andere manier van het bestaande werk doen: content maken, klanten beter bedienen, campagnes sturen en resultaten begrijpen. De tools zijn er al. Wat meestal ontbreekt, is een keuze waar je ze voor inzet en hoe je de kwaliteit bewaakt.",
+      "Lees meer over Markten → Plan een adviesgesprek →",
+      "Geschreven door Dave Willemstein, onafhankelijk AI consultant · gepubliceerd 23 september 2026",
+      "IN HET KORT",
+      "Kies AI-toepassingen op basis van je marketingdoelen, niet op basis van de nieuwste tool.",
+      "Merkstem, klantdata en toestemming zijn de echte randvoorwaarden.",
+      "Tracking cookies vragen toestemming; AI-gegenereerde deepfakes moeten sinds augustus 2026 als zodanig herkenbaar zijn.",
+      "AI in Europa",
+      "Europese merken die AI al in productie hebben.",
+      "Geen klanten van mij. Wel voorbeelden van wat er gebeurt als AI voorbij de pilot komt.",
+      "Pauzeer",
+      "Klarna",
+      "Zweden",
+      "AI-assistent in de klantenservice",
+      "Zalando",
+      "Duitsland",
+      "Mode-assistent voor productadvies",
+      "Financial services",
+      "Investeringsmaatschappij",
+      "AI-strategie en use-case portfolio",
+      "Booking.com",
+      "Nederland",
+      "AI Trip Planner voor reisplanning",
+      "Siemens",
+      "Duitsland",
+      "Industrial Copilot voor engineering",
+      "Retail",
+      "Enterprise retailer",
+      "AI-gedreven vendorselectie",
+      "Spotify",
+      "Zweden",
+      "AI DJ en gepersonaliseerde playlists",
+      "Mercedes-Benz",
+      "Duitsland",
+      "Generatieve spraakassistent in de auto",
+      "Industrial / B2B",
+      "Internationale maakorganisatie",
+      "AI-roadmap en leadership",
+      "ING",
+      "Nederland",
+      "Generatieve chatbot voor klantvragen",
+      "L'Oréal",
+      "Frankrijk",
+      "Beauty Genius: persoonlijk advies",
+      "Financial services",
+      "Financiële dienstverlener",
+      "KYC versneld met AI-documentanalyse",
+      "SAP",
+      "Duitsland",
+      "Joule: copilot in bedrijfssoftware",
+      "Carrefour",
+      "Frankrijk",
+      "Hopla: boodschappenassistent",
+      "Strategy & AI",
+      "SaaS scale-up",
+      "AI-readiness assessment",
+      "Adyen",
+      "Nederland",
+      "AI-optimalisatie van betalingen",
+      "Philips",
+      "Nederland",
+      "AI in medische beeldvorming",
+      "Proces & productivity",
+      "Zakelijke dienstverlener",
+      "Interne AI-assistent voor kenniswerkers",
+      "Wat is AI marketing?",
+      "AI marketing is het inzetten van kunstmatige intelligentie in het marketingwerk: teksten en beeld genereren, klanten indelen en benaderen, advertenties sturen en data analyseren. Een deel daarvan bestaat al jaren, bijvoorbeeld de biedalgoritmes in advertentieplatforms. Wat nieuw is, is dat generatieve AI het maakwerk zelf binnen handbereik brengt van elke marketeer.",
+      "Daardoor is de vraag verschoven. Het gaat niet meer om de vraag óf je AI gebruikt voor marketing, want je team doet dat waarschijnlijk al. Het gaat om de vraag of het gebeurt op een manier die je merk, je klantdata en je resultaten ten goede komt. In veel organisaties is AI in marketing nu vooral een verzameling individuele gewoontes: iedereen gebruikt zijn eigen tool, met zijn eigen prompts, zonder gedeelde afspraken.",
+      "Dat is geen ramp, maar het laat veel liggen. De winst zit in het moment waarop je van losse gewoontes naar gedeelde werkwijzen gaat.",
+      "Toepassingen van AI in marketing",
+      "Ik deel de toepassingen van AI in marketing op in vier gebieden. Per gebied verschilt waar de winst zit en waar het risico.",
+      "ContentWinst: snelheid en variatie. Risico: generieke tekst, feitelijke fouten, verlies van merkstem.",
+      "PersonalisatieWinst: relevantere boodschappen. Risico: klantdata en toestemming.",
+      "AdvertentiesWinst: meer varianten testen, sneller bijsturen. Risico: sturen op het verkeerde doel.",
+      "AnalyseWinst: sneller inzicht uit veel data. Risico: overtuigend klinkende, onjuiste conclusies.",
+      "Elk gebied heeft een eigen winst en een eigen risico. Een goede aanpak richt de controle daarop in.",
+      "Content",
+      "Dit is het gebied waar de meeste teams beginnen: conceptteksten voor blogs, social posts, nieuwsbrieven, productbeschrijvingen en varianten van advertentieteksten. De tijdwinst zit vooral in de eerste versie en in het maken van varianten.",
+      "De valkuil is dat alles op elkaar gaat lijken. Een taalmodel schrijft standaard gemiddelde tekst, en gemiddelde tekst onderscheidt je merk niet. Wat helpt: een vastgelegde merkstem met voorbeelden, een vaste redactieslag door een mens en een duidelijke afspraak over feitencontrole. Hoe je een model gerichter instrueert, lees je bij prompt engineering.",
+      "Personalisatie",
+      "AI maakt het mogelijk om boodschappen, aanbiedingen of content af te stemmen op segmenten of zelfs individuele klanten. Dat kan de relevantie flink verbeteren, maar het draait volledig op klantdata. En daar gelden regels.",
+      "Tracking cookies, die gedrag over websites heen volgen en profielen opbouwen, mogen alleen worden geplaatst als de bezoeker vooraf is geïnformeerd en toestemming heeft gegeven. Doorscrollen geldt niet als toestemming, vooraf aangevinkte categorieën ook niet, en een cookiewall die de site onbruikbaar maakt bij weigeren is niet toegestaan. Voor beperkte analytische cookies met weinig impact op de privacy is volgens artikel 11.7a van de Telecommunicatiewet geen toestemming nodig (Autoriteit Persoonsgegevens, cookies). Worden er persoonsgegevens verwerkt, dan heb je daarnaast een grondslag onder de AVG nodig.",
+      "Voor AI-personalisatie betekent dat: je model is zo goed als de data die je rechtmatig mag gebruiken. Begin daarom bij de vraag welke data je hebt, met welke toestemming, en pas daarna bij de tool.",
+      "Advertenties",
+      "Advertentieplatforms gebruiken al lang machine learning voor bieden en targeting, en bieden steeds meer generatieve functies voor teksten en beeld. De verleiding is om het platform zoveel mogelijk zelf te laten beslissen.",
+      "Dat werkt alleen als het platform stuurt op het doel dat voor jou telt. Stuurt het op klikken terwijl jij marge of klantwaarde wilt, dan optimaliseert het heel efficiënt de verkeerde kant op. De belangrijkste marketingbeslissing blijft dus menselijk: welk doel geef je de machine mee, en hoe controleer je of het werkelijke resultaat daarmee overeenkomt?",
+      "Analyse",
+      "AI kan helpen om campagnedata, klantfeedback, reviews of zoekgedrag sneller te doorgronden. Vooral bij veel ongestructureerde tekst, zoals open antwoorden in klanttevredenheidsonderzoek, scheelt dat veel tijd.",
+      "Het risico is dat een taalmodel een overtuigend verhaal vertelt dat niet klopt. Laat AI patronen voorstellen, maar controleer de conclusies tegen de brondata voordat je er budget op verschuift.",
+      "AI marketing strategie ontwikkelen",
+      "Een AI marketing strategie ontwikkelen begint niet bij tools, maar bij je marketingdoelen. Welke doelen wil je dit jaar halen, en waar zit het werk dat je daarbij in de weg zit? Pas daarna kijk je welke AI-toepassingen helpen.",
+      "Een werkbare volgorde in vijf stappen:",
+      "Inventariseer wat er al gebeurt. Welke tools gebruikt je team, waarvoor en met welke data? Vaak is dat meer dan het management weet.",
+      "Kies twee of drie toepassingen die direct bijdragen aan een marketingdoel en waarvan je de winst kunt meten. Hoe je toepassingen onderling afweegt, beschrijf ik in welke AI use cases resultaat leveren.",
+      "Leg de randvoorwaarden vast: merkstem, redactieslag, welke data wel en niet in welke tool mag, en wie eindverantwoordelijk is voor wat er gepubliceerd wordt.",
+      "Regel de transparantie. Sinds 2 augustus 2026 gelden de transparantieregels van de AI Act: chatbots moeten laten weten dat je met AI praat, deepfakes moeten als zodanig gelabeld worden en AI-gegenereerde content moet machineleesbare markeringen dragen (Europese Commissie). Die laatste verplichting ligt vooral bij de aanbieders van de tools; voor systemen die al vóór 2 augustus 2026 op de markt waren, loopt daarvoor een overgangstermijn tot 2 december 2026 (AI Act Service Desk, tijdlijn). Een marketingchatbot of een synthetische video raakt je wel direct.",
+      "Meet en stuur bij. Maak een nulmeting, spreek af wanneer je evalueert en wees bereid om een toepassing te stoppen als ze niets oplevert.",
+      "Deze aanpak is in de kern dezelfde als bij elke AI-strategie, alleen toegespitst op het marketingteam. Werk je in een bureau of adviesorganisatie, dan spelen er extra vragen over klantdata en declarabele uren; die behandel ik op de pagina over AI voor zakelijke dienstverleners.",
+      "Wie mag wat met welke tool? Dat hoeft geen dik beleidsdocument te worden. Een paar heldere afspraken en een register van gebruikte tools brengen je een heel eind; hoe je dat licht houdt, lees je in AI-governance zonder bureaucratie.",
+      "Voorbeeldscenario",
+      "Een webwinkel met 70 medewerkers heeft een marketingteam van 12 mensen. Een inventarisatie laat zien dat het team zeven verschillende AI-tools gebruikt, vier daarvan via gratis accounts, en dat er af en toe klantsegmenten in worden geplakt.",
+      "De adviseur begeleidt de afspraken en de toolkeuze. Het resultaat past op één pagina: welke data nooit in een tool mag, wie de redactieslag doet en wie eindverantwoordelijk is voor publicatie. Uit de vergelijking komen een zakelijke versie van een algemene AI-assistent met een verwerkersovereenkomst en de AI-functie in het bestaande e-mailplatform.",
+      "Na twee maanden werkt het team met twee tools in plaats van zeven. Een productbeschrijving kost 10 minuten in plaats van 25, bij zo'n 120 nieuwe producten per maand samen 30 uur. Personalisatie op klantdata is bewust uitgesteld tot de toestemmingen zijn nagelopen.",
+      "Fictief voorbeeld, samengesteld uit situaties die veel voorkomen. Organisatie en cijfers zijn illustratief.",
+      "Tools",
+      "Het aanbod aan AI-tools voor marketing verandert zo snel dat een lijstje met namen binnen een paar maanden verouderd is. Ik noem daarom geen favorieten, maar de categorieën waar je uit kiest (stand september 2026):",
+      "Algemene AI-assistenten voor tekst, samenvatten en analyse. Breed inzetbaar, maar zonder afspraken snel een bron van inconsistentie.",
+      "AI-functies in je bestaande marketingsoftware, zoals je CRM, e-mailplatform of advertentieplatform. Vaak de makkelijkste stap, omdat de data er al zit.",
+      "Gespecialiseerde tools voor bijvoorbeeld beeld, video, vertaling of social media. Nuttig voor een specifieke taak, maar let op de datavoorwaarden.",
+      "Maatwerk of koppelingen tussen systemen. Pas zinvol als een standaardtool aantoonbaar tekortschiet.",
+      "Bij de keuze kijk ik naar vier dingen: past de tool bij een concrete taak, wat gebeurt er met je data, hoe goed sluit hij aan op je bestaande systemen, en wat kost hij over drie jaar inclusief beheer en training. Een breder overzicht van AI-tools en hoe je ertussen kiest staat op een aparte pagina, en voor een gestructureerde selectie kun je het stappenplan uit AI-vendorselectie in acht stappen gebruiken.",
+      "Omdat ik geen commissies of partnerdeals met leveranciers heb, kan ik tools vergelijken zonder eigen belang. Mijn zwaartepunt ligt overigens niet in marketing, maar in financiële dienstverlening, retail, industrie en zakelijke dienstverlening. De vragen over prioriteren, kiezen en borgen zijn in marketing hetzelfde; voor de uitvoering van campagnes en content werk je met marketingspecialisten die je zelf contracteert. Wil je dat je team de tools ook echt goed leert gebruiken, kijk dan bij AI workshops en trainingen.",
+      "Benieuwd hoe andere sectoren met AI omgaan? Zie AI in de zorg, waar de regels rond data nog strenger zijn, of AI in fintech. Het volledige overzicht staat bij AI per branche. Of plan een adviesgesprek over jouw marketingvraag.",
+      "Dave Willemstein Onafhankelijk AI-adviseur",
+      "Onafhankelijk: geen commissies, geen partnerdeals, geen marge op implementatiepartners.",
+      "Over mij Mijn partnernetwerk",
+      "Weten waar je staat met AI? Bekijk de AI Readiness Assessment →",
+      "Veelgestelde vragen",
+      "Wat is het verschil tussen AI marketing en marketingautomatisering?+",
+      "Marketingautomatisering voert vaste regels uit: als iemand dit doet, stuur dan dat. AI marketing voegt daar voorspellen, genereren en analyseren aan toe, bijvoorbeeld een tekst schrijven, een segment voorstellen of een patroon in campagnedata vinden. In de praktijk lopen ze in elkaar over.",
+      "Moet ik vermelden dat content met AI is gemaakt?+",
+      "Voor deepfakes, dus beeld, audio of video die echte personen of gebeurtenissen nabootst, geldt sinds 2 augustus 2026 een labelplicht onder de AI Act. Voor gewone marketingteksten die een mens heeft gecontroleerd is dat genuanceerder. Laat bij twijfel juridisch toetsen wat voor jouw uitingen geldt, en maak intern een heldere afspraak.",
+      "Mag ik klantdata in een AI-tool stoppen?+",
+      "Alleen als je daar een grondslag voor hebt, de tool passende afspraken over verwerking en opslag biedt en er een verwerkersovereenkomst ligt waar dat nodig is. Stop in elk geval geen klantbestanden in een gratis consumentenversie van een tool.",
+      "Werk je als adviseur ook in marketing?+",
+      "Mijn zwaartepunt ligt bij financiële dienstverlening, retail, industrie en zakelijke dienstverlening. Bij marketingvraagstukken help ik met prioriteren, tools kiezen en borgen; voor de uitvoering van campagnes of content betrek je een marketingspecialist of bureau dat je rechtstreeks contracteert.",
+      "Hoe meet ik of AI in marketing iets oplevert?+",
+      "Leg vóór de start een nulmeting vast: hoeveel tijd kost een taak nu, wat is de huidige conversie of kwaliteit. Meet daarna op dezelfde manier. Tijdwinst telt pas als die tijd ergens anders aan wordt besteed, dus leg ook vast waaraan.",
+      "Bronnen",
+      "Autoriteit Persoonsgegevens: Cookies",
+      "Europese Commissie: Commission starts enforcing AI Act rules and new transparency requirements on 2 August",
+      "Europese Commissie, AI Act Service Desk: tijdlijn van de implementatie",
+      "Klaar voor impact?",
+      "Van AI-ambitie naar concrete resultaten.",
+      "Plan een vrijblijvend gesprek. Geen pitch. Wel scherpe vragen.",
+      "30 min., geen pitch deckPlan een gesprek →"
+    ]
+  },
+  "links": [
+    {
+      "regio": "overig",
+      "soort": "intern",
+      "href": "#main",
+      "anker": "Naar hoofdinhoud",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/",
+      "anker": "",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/diensten",
+      "anker": "Diensten",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/cases",
+      "anker": "Cases",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/werkwijze",
+      "anker": "Werkwijze",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/inzichten",
+      "anker": "Inzichten",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/over",
+      "anker": "Over mij",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/contact",
+      "anker": "Plan een gesprek →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/",
+      "anker": "Home",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/markten",
+      "anker": "Markten",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/markten",
+      "anker": "Lees meer over Markten →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/contact",
+      "anker": "Plan een adviesgesprek →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/over",
+      "anker": "Dave Willemstein",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/kennisbank/prompt-engineering",
+      "anker": "prompt engineering",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "extern",
+      "href": "https://www.autoriteitpersoonsgegevens.nl/en/themes/internet-and-smart-devices/cookies",
+      "anker": "Autoriteit Persoonsgegevens, cookies",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/inzichten/welke-ai-use-cases-leveren-resultaat",
+      "anker": "welke AI use cases resultaat leveren",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "extern",
+      "href": "https://cyprus.representation.ec.europa.eu/news/commission-starts-enforcing-ai-act-rules-and-new-transparency-requirements-2-august-2026-07-31_en",
+      "anker": "Europese Commissie",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "extern",
+      "href": "https://ai-act-service-desk.ec.europa.eu/en/ai-act/timeline/timeline-implementation-eu-ai-act",
+      "anker": "AI Act Service Desk, tijdlijn",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/ai-consultancy/ai-strategie",
+      "anker": "AI-strategie",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/ai-voor-bedrijven/zakelijke-dienstverleners",
+      "anker": "AI voor zakelijke dienstverleners",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/inzichten/ai-governance-zonder-bureaucratie",
+      "anker": "AI-governance zonder bureaucratie",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/ai-automatisering/ai-tools",
+      "anker": "AI-tools en hoe je ertussen kiest",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/inzichten/ai-vendorselectie-in-acht-stappen",
+      "anker": "AI-vendorselectie in acht stappen",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/ai-workshop",
+      "anker": "AI workshops en trainingen",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/markten/zorg",
+      "anker": "AI in de zorg",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/markten/fintech",
+      "anker": "AI in fintech",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/markten",
+      "anker": "AI per branche",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/contact",
+      "anker": "plan een adviesgesprek",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/over",
+      "anker": "Over mij",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/partnernetwerk",
+      "anker": "Mijn partnernetwerk",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/diensten/ai-readiness-assessment",
+      "anker": "Weten waar je staat met AI? Bekijk de AI Readiness Assessment →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "extern",
+      "href": "https://www.autoriteitpersoonsgegevens.nl/en/themes/internet-and-smart-devices/cookies",
+      "anker": "Autoriteit Persoonsgegevens: Cookies",
+      "rel": "noopener"
+    },
+    {
+      "regio": "main",
+      "soort": "extern",
+      "href": "https://cyprus.representation.ec.europa.eu/news/commission-starts-enforcing-ai-act-rules-and-new-transparency-requirements-2-august-2026-07-31_en",
+      "anker": "Europese Commissie: Commission starts enforcing AI Act rules and new transparency requirements on 2 August",
+      "rel": "noopener"
+    },
+    {
+      "regio": "main",
+      "soort": "extern",
+      "href": "https://ai-act-service-desk.ec.europa.eu/en/ai-act/timeline/timeline-implementation-eu-ai-act",
+      "anker": "Europese Commissie, AI Act Service Desk: tijdlijn van de implementatie",
+      "rel": "noopener"
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/contact",
+      "anker": "Plan een gesprek →",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/diensten/ai-readiness-assessment",
+      "anker": "AI Readiness Assessment",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/diensten/ai-strategy-sprint",
+      "anker": "AI Strategy Sprint",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/diensten/fractional-ai-lead",
+      "anker": "Fractional AI Lead",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/diensten",
+      "anker": "Alle diensten",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/cases",
+      "anker": "Cases",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/werkwijze",
+      "anker": "Werkwijze",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/inzichten",
+      "anker": "Inzichten",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/veelgestelde-vragen",
+      "anker": "Veelgestelde vragen",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/over",
+      "anker": "Over mij",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-consultancy",
+      "anker": "AI consultancy",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-implementatie",
+      "anker": "AI implementatie",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-automatisering",
+      "anker": "AI automatisering",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-voor-bedrijven",
+      "anker": "AI voor bedrijven",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-development",
+      "anker": "AI development",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-agents",
+      "anker": "AI agents",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-beleid",
+      "anker": "AI beleid",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-workshop",
+      "anker": "AI workshop",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/markten",
+      "anker": "AI per branche",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/kennisbank",
+      "anker": "Kennisbank",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/tarieven",
+      "anker": "Tarieven",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/partnernetwerk",
+      "anker": "Partnernetwerk",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "overig",
+      "href": "mailto:dave@freelanceaiconsultant.com",
+      "anker": "dave@freelanceaiconsultant.com",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "extern",
+      "href": "https://www.linkedin.com/in/davewillemstein",
+      "anker": "LinkedIn ↗",
+      "rel": "noopener"
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/contact",
+      "anker": "Plan een gesprek",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/privacy",
+      "anker": "Privacyverklaring",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/algemene-voorwaarden",
+      "anker": "Algemene voorwaarden",
+      "rel": null
+    }
+  ],
+  "structured_data": {
+    "sha256": "4be07bbbfdd439ae7925df85822c8eee9981e1b5e40c1315d456f861abc5a0e7",
+    "items": [
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://freelanceaiconsultant.com/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Markten",
+                "item": "https://freelanceaiconsultant.com/markten"
+              },
+              {
+                "@type": "ListItem",
+                "position": 3,
+                "name": "AI voor marketing",
+                "item": "https://freelanceaiconsultant.com/markten/marketing"
+              }
+            ]
+          },
+          {
+            "@type": "Article",
+            "headline": "AI marketing: slimmer marketen met AI",
+            "description": "Wat is AI marketing en hoe zet je het slim in? Ontdek toepassingen voor content, personalisatie en analyse, en bouw een AI marketing strategie die werkt.",
+            "inLanguage": "nl-NL",
+            "datePublished": "2026-09-23",
+            "dateModified": "2026-09-23",
+            "author": {
+              "@type": "Person",
+              "name": "Dave Willemstein",
+              "jobTitle": "Onafhankelijk AI-adviseur",
+              "url": "https://freelanceaiconsultant.com/over",
+              "sameAs": [
+                "https://www.linkedin.com/in/davewillemstein"
+              ]
+            },
+            "publisher": {
+              "@type": "Person",
+              "name": "Dave Willemstein"
+            },
+            "mainEntityOfPage": "https://freelanceaiconsultant.com/markten/marketing"
+          },
+          {
+            "@type": "FAQPage",
+            "mainEntity": [
+              {
+                "@type": "Question",
+                "name": "Wat is het verschil tussen AI marketing en marketingautomatisering?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Marketingautomatisering voert vaste regels uit: als iemand dit doet, stuur dan dat. AI marketing voegt daar voorspellen, genereren en analyseren aan toe, bijvoorbeeld een tekst schrijven, een segment voorstellen of een patroon in campagnedata vinden. In de praktijk lopen ze in elkaar over."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Moet ik vermelden dat content met AI is gemaakt?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Voor deepfakes, dus beeld, audio of video die echte personen of gebeurtenissen nabootst, geldt sinds 2 augustus 2026 een labelplicht onder de AI Act. Voor gewone marketingteksten die een mens heeft gecontroleerd is dat genuanceerder. Laat bij twijfel juridisch toetsen wat voor jouw uitingen geldt, en maak intern een heldere afspraak."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Mag ik klantdata in een AI-tool stoppen?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Alleen als je daar een grondslag voor hebt, de tool passende afspraken over verwerking en opslag biedt en er een verwerkersovereenkomst ligt waar dat nodig is. Stop in elk geval geen klantbestanden in een gratis consumentenversie van een tool."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Werk je als adviseur ook in marketing?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Mijn zwaartepunt ligt bij financiële dienstverlening, retail, industrie en zakelijke dienstverlening. Bij marketingvraagstukken help ik met prioriteren, tools kiezen en borgen; voor de uitvoering van campagnes of content betrek je een marketingspecialist of bureau dat je rechtstreeks contracteert."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Hoe meet ik of AI in marketing iets oplevert?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Leg vóór de start een nulmeting vast: hoeveel tijd kost een taak nu, wat is de huidige conversie of kwaliteit. Meet daarna op dezelfde manier. Tijdwinst telt pas als die tijd ergens anders aan wordt besteed, dus leg ook vast waaraan."
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "afbeeldingen": [
+    {
+      "regio": "header",
+      "src": "/images/freelance-ai-consultant-logo-header.png",
+      "alt": "freelanceaiconsultant.com logo",
+      "width": "600",
+      "height": "287",
+      "loading": null
+    },
+    {
+      "regio": "main",
+      "src": "/images/dave-portrait.jpg",
+      "alt": "Portret van Dave Willemstein",
+      "width": "88",
+      "height": "88",
+      "loading": "lazy"
+    },
+    {
+      "regio": "footer",
+      "src": "/images/freelance-ai-consultant-icon-footer.png",
+      "alt": "",
+      "width": "192",
+      "height": "192",
+      "loading": "lazy"
+    }
+  ],
+  "laadprestaties": {
+    "scripts": [
+      {
+        "src": "/logo-carousel/logo-carousel.js?v=2",
+        "type": null,
+        "inline_bytes": 0
+      }
+    ],
+    "stylesheets": [
+      "https://fonts.googleapis.com/css2?family=Caveat:wght@600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap",
+      "/_astro/_slug_.bq6BBoZ5.css",
+      "/_astro/_slug_.goiX3PVF.css",
+      "/logo-carousel/logo-carousel.css?v=2"
+    ],
+    "aantal_details": 5,
+    "aantal_tabellen": 0
+  }
+}

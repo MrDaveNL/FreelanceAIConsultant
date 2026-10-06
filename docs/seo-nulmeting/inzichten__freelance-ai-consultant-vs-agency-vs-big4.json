@@ -1,0 +1,644 @@
+{
+  "url": "/inzichten/freelance-ai-consultant-vs-agency-vs-big4",
+  "build_bestand": "dist/inzichten/freelance-ai-consultant-vs-agency-vs-big4/index.html",
+  "bron": [
+    "src/pages/inzichten/[slug].astro",
+    "src/data/articles/freelance-ai-consultant-vs-agency-vs-big4.js"
+  ],
+  "gemeten_op": "2026-10-06",
+  "html": {
+    "bytes": 31946,
+    "sha256": "7e92bde5cef6c7ae3c0b860ba60cfd5d6064ac0414cc2e3bf578a71205bbdbfb",
+    "lang": "nl"
+  },
+  "beschermd": {
+    "title": "Freelance AI consultant vs agency vs Big 4",
+    "meta_description": "Een eerlijke vergelijking op onafhankelijkheid, snelheid, diepgang, kosten en uitvoeringskracht. Zodat jij de juiste partner kiest, ook als dat niet ik ben.",
+    "canonical": "https://freelanceaiconsultant.com/inzichten/freelance-ai-consultant-vs-agency-vs-big4",
+    "robots_meta": null,
+    "hreflang": [],
+    "h1": [
+      "Freelance AI consultant vs agency vs Big 4"
+    ]
+  },
+  "social": {
+    "og:type": "website",
+    "og:locale": "nl_NL",
+    "og:site_name": "freelanceaiconsultant.com",
+    "og:title": "Freelance AI consultant vs agency vs Big 4",
+    "og:description": "Een eerlijke vergelijking op onafhankelijkheid, snelheid, diepgang, kosten en uitvoeringskracht. Zodat jij de juiste partner kiest, ook als dat niet ik ben.",
+    "og:url": "https://freelanceaiconsultant.com/inzichten/freelance-ai-consultant-vs-agency-vs-big4",
+    "og:image": "https://freelanceaiconsultant.com/images/dave-portrait.jpg",
+    "twitter:card": "summary_large_image",
+    "twitter:title": "Freelance AI consultant vs agency vs Big 4",
+    "twitter:description": "Een eerlijke vergelijking op onafhankelijkheid, snelheid, diepgang, kosten en uitvoeringskracht. Zodat jij de juiste partner kiest, ook als dat niet ik ben.",
+    "twitter:image": "https://freelanceaiconsultant.com/images/dave-portrait.jpg"
+  },
+  "koppen": [
+    {
+      "niveau": 1,
+      "tekst": "Freelance AI consultant vs agency vs Big 4",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "Wanneer kies je voor wie?",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "1. De verschillen in één oogopslag",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "2. Wat betekent dit in de praktijk?",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 3,
+      "tekst": "Freelance AI consultant",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 3,
+      "tekst": "Agency",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 3,
+      "tekst": "Big 4",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 3,
+      "tekst": "Waar de freelancer wint",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 3,
+      "tekst": "Waar de freelancer verliest",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 3,
+      "tekst": "Waar agencies onderschat worden",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 3,
+      "tekst": "Waar de Big 4 onderschat worden",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "3. Het conflict-of-interest-gesprek",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "4. Hoe maak je de juiste keuze?",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "5. De combinatie die vaak het beste werkt",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 3,
+      "tekst": "Key takeaways",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 3,
+      "tekst": "Wanneer heb je echt een AI-strateeg nodig?",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 3,
+      "tekst": "AI-vendorselectie in acht stappen",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "Van AI-ambitie naar concrete resultaten.",
+      "regio": "main",
+      "id": null
+    }
+  ],
+  "bodytekst": {
+    "regio": "main",
+    "woorden": 1219,
+    "sha256": "221993c8f4ac0435c05b4933acb58da65f7c4fc7d761c56215893da5d9a34915",
+    "blokken": [
+      "← Terug naar alle inzichten",
+      "Strategie",
+      "Freelance AI consultantvs agency vs Big 4",
+      "Welke partij past het beste bij jouw AI-vraagstuk? Een vergelijking op senioriteit, flexibiliteit, focus, kosten en uitvoeringskracht.",
+      "◷ 4 min leestijd 23 april 2026",
+      "DW",
+      "Door Dave Willemstein Independent AI Advisor, onafhankelijk, geen leveranciersbelangen",
+      "Ik help organisaties AI-beslissingen nemen die waarde creëren. Geen dikke decks, wel duidelijke keuzes en tastbare resultaten.",
+      "vertrouwen,ervaring, impact ↓",
+      "Independent No vendor bias Senior only20+ jaar ervaring",
+      "IN HET KORT",
+      "Freelancer = senior, flexibel en direct inzetbaar.",
+      "Agency = specialistische diepte en leveringscapaciteit.",
+      "Big 4 = governance, zekerheid en internationale dekking.",
+      "Kies op basis van doel, tijdsdruk en veranderkracht.",
+      "AI in Europa",
+      "Europese merken die AI al in productie hebben.",
+      "Geen klanten van mij. Wel voorbeelden van wat er gebeurt als AI voorbij de pilot komt.",
+      "Pauzeer",
+      "Klarna",
+      "Zweden",
+      "AI-assistent in de klantenservice",
+      "Zalando",
+      "Duitsland",
+      "Mode-assistent voor productadvies",
+      "Financial services",
+      "Investeringsmaatschappij",
+      "AI-strategie en use-case portfolio",
+      "Booking.com",
+      "Nederland",
+      "AI Trip Planner voor reisplanning",
+      "Siemens",
+      "Duitsland",
+      "Industrial Copilot voor engineering",
+      "Retail",
+      "Enterprise retailer",
+      "AI-gedreven vendorselectie",
+      "Spotify",
+      "Zweden",
+      "AI DJ en gepersonaliseerde playlists",
+      "Mercedes-Benz",
+      "Duitsland",
+      "Generatieve spraakassistent in de auto",
+      "Industrial / B2B",
+      "Internationale maakorganisatie",
+      "AI-roadmap en leadership",
+      "ING",
+      "Nederland",
+      "Generatieve chatbot voor klantvragen",
+      "L'Oréal",
+      "Frankrijk",
+      "Beauty Genius: persoonlijk advies",
+      "Financial services",
+      "Financiële dienstverlener",
+      "KYC versneld met AI-documentanalyse",
+      "SAP",
+      "Duitsland",
+      "Joule: copilot in bedrijfssoftware",
+      "Carrefour",
+      "Frankrijk",
+      "Hopla: boodschappenassistent",
+      "Strategy & AI",
+      "SaaS scale-up",
+      "AI-readiness assessment",
+      "Adyen",
+      "Nederland",
+      "AI-optimalisatie van betalingen",
+      "Philips",
+      "Nederland",
+      "AI in medische beeldvorming",
+      "Proces & productivity",
+      "Zakelijke dienstverlener",
+      "Interne AI-assistent voor kenniswerkers",
+      "Wanneer kies je voor wie?",
+      "AI-projecten verschillen sterk in doel, complexiteit en context. De keuze voor een freelancer, agency of Big 4 heeft direct impact op snelheid, wendbaarheid, kosten en resultaat. Er is geen partij die op alle assen wint, en iedereen die dat wél beweert, verkoopt je iets.",
+      "Ik ben zelf de freelancer in dit rijtje. Dat maakt me niet objectief, dus lees dit stuk met die wetenschap. Wat ik wél kan doen, is eerlijk zijn over de gevallen waarin je beter níét bij mij aanklopt. Die staan er allemaal in.",
+      "1. De verschillen in één oogopslag",
+      "CriteriaFreelance AI consultantAgencyBig 4",
+      "SenioriteitAltijd seniorWisselendWisselend",
+      "FlexibiliteitZeer hoogGemiddeldLaag",
+      "DoorlooptijdSnelGemiddeldLang",
+      "KostenstructuurTransparant & leanProjectafhankelijkHoog (overhead)",
+      "SchaalbaarheidBeperktHoogZeer hoog",
+      "FocusImpact & resultaatOplossing & deliveryGovernance & zekerheid",
+      "Geschikt voorGerichte AI-initiatievenMaatwerk & specialismenTransformatie & compliance",
+      "2. Wat betekent dit in de praktijk?",
+      "Freelance AI consultant",
+      "Je werkt direct met een senior expert die meebeweegt, snel schakelt en alleen doet wat echt nodig is. Je krijgt één mening, geen afgestemd standpunt.",
+      "Agency",
+      "Je haalt specialistische capaciteit binnen en bouwt methodisch. Ideaal voor maatwerk en schaalbare delivery, zeker als je zelf geen engineeringteam hebt.",
+      "Big 4",
+      "Je kiest voor zekerheid, governance en wereldwijde dekking. Geschikt bij grote transformaties, fusies en trajecten waar compliance leidend is.",
+      "Waar de freelancer wint",
+      "Bij afgebakende, besluitgedreven vraagstukken. Een strategiesprint, een vendorselectie, een second opinion op een businesscase, een fractional leiderschapsrol. Werk waarbij één ervaren hoofd meer waard is dan tien paar handen. De doorlooptijd is korter omdat er geen interne afstemming tussen consultants nodig is, en de senior die je in het kennismakingsgesprek sprak is dezelfde persoon die het werk doet.",
+      "Waar de freelancer verliest",
+      "Zodra er volume nodig is. Een implementatie met acht ontwikkelaars, een migratie over vijftien landen, een programma dat twee jaar loopt: dat kan ik niet leveren en dat moet ik ook niet willen. Ook bij bus-factor-gevoelige trajecten is een eenmanspraktijk een reëel risico: als ik drie maanden uitval, heb jij een probleem. Een agency of Big 4 heeft dat probleem niet.",
+      "Waar agencies onderschat worden",
+      "Agencies krijgen soms het verwijt dat ze vooral willen bouwen. Dat klopt: dat is hun verdienmodel. Maar als je weet wát je wilt bouwen, is dat precies wat je nodig hebt. Een goed agency brengt engineeringdiscipline, herbruikbare componenten en een team dat dit type systeem vaker in productie heeft gebracht. Onderschat niet hoeveel dat scheelt.",
+      "Waar de Big 4 onderschat worden",
+      "De kritiek op grote adviesbureaus is bekend: duur, veel juniors, dikke rapporten. Dat gebeurt. Maar bij trajecten waar het bestuur aansprakelijk is, waar toezichthouders meekijken of waar een besluit door een auditcommissie moet, koop je iets wat een freelancer niet kan leveren: institutionele dekking en een methodiek die audit-proof is. Dat is geen overhead, dat is het product.",
+      "Begin klein, leer snel en schaal met focus. Zo maak je AI werkbaar én waardevol.",
+      "3. Het conflict-of-interest-gesprek",
+      "Dit gaat bij AI verder dan bij gewoon advieswerk, omdat veel adviseurs ook implementatiepartner zijn van specifieke platforms. Dat is niet per definitie fout. Een partij die een platform dagelijks bouwt, weet er meer van dan iemand die het van een afstand beoordeelt. Maar je moet weten of het zo is.",
+      "Stel deze vier vragen aan elke partij, ongeacht de grootte:",
+      "Ontvangen jullie enige vergoeding, korting of partnerstatus van leveranciers die in dit traject kunnen worden geadviseerd?",
+      "Hebben jullie een implementatiepraktijk op de platforms die op de shortlist kunnen komen?",
+      "Wat is jullie omzet uit implementatie versus advies?",
+      "Wordt de consultant die het advies schrijft, afgerekend op vervolgomzet?",
+      "Eerlijke antwoorden op deze vragen zijn belangrijker dan het antwoord zelf. Een partij die zegt \"wij zijn implementatiepartner van drie platforms en daar houden we rekening mee door X\" is betrouwbaarder dan een partij die \"volledig onafhankelijk\" roept zonder dat te onderbouwen.",
+      "4. Hoe maak je de juiste keuze?",
+      "Beantwoord deze vragen en je weet sneller welke partij het beste past:",
+      "Wat is het primaire doel: een besluit nemen, iets bouwen, of iets aantoonbaar beheersen?",
+      "Hoe urgent is de doorlooptijd, en wat kost uitstel?",
+      "Welke mate van governance en compliance is vereist, en wie kijkt er mee?",
+      "Heb je interne capability om mee te bouwen en later te borgen?",
+      "Wat is het beschikbare budget, en hoeveel flexibiliteit heb je daarin nodig?",
+      "Wat gebeurt er als de gekozen partij halverwege wegvalt?",
+      "5. De combinatie die vaak het beste werkt",
+      "In de praktijk zie ik zelden een zuivere keuze. De opzet die het vaakst goed uitpakt: een onafhankelijke senior die de strategie en de selectie doet, en een agency of systeemintegrator die bouwt, met de adviseur aan jouw kant van de tafel tijdens de bouw. De adviseur heeft dan geen belang bij de scope-groei van de implementatie, wat precies de spanning wegneemt die anders in maand vier ontstaat.",
+      "Dat kost je wat meer aan adviesuren. Het bespaart je doorgaans een veelvoud aan meerwerk.",
+      "Key takeaways",
+      "✓",
+      "Senioriteit maakt het verschil",
+      "Bij een freelancer werk je altijd met de senior die je sprak. Bij grotere partijen is dat geen vanzelfsprekendheid.",
+      "✓",
+      "Snelheid en flexibiliteit",
+      "Een eenmanspraktijk kan de scope in een week bijstellen. Een raamcontract kan dat niet.",
+      "✓",
+      "Betaal voor impact, niet voor overhead",
+      "Minder lagen betekent niet automatisch beter, maar wel dat je weet waar je geld heen gaat.",
+      "ONTHOUD“De beste keuze is niet de grootste partij, maar de partij die het best past bij jouw vraag, context en tempo.”",
+      "Sparren over jouw situatie? 30 minuten, vrijblijvend →",
+      "Verder lezen",
+      "◎",
+      "Strategie",
+      "Wanneer heb je echt een AI-strateeg nodig?",
+      "In de helft van de gevallen is het antwoord: niet. Vier situaties waarin externe hulp loont, en vier waarin je het zelf beter kunt.",
+      "◷ 4 min leestijd Lees artikel →",
+      "◈",
+      "Tools & data",
+      "AI-vendorselectie in acht stappen",
+      "Criteria eerst, leveranciers daarna. Een selectieproces dat bestand is tegen goede demo’s en interne voorkeuren.",
+      "◷ 5 min leestijd Lees artikel →",
+      "Klaar voor impact?",
+      "Van AI-ambitie naar concrete resultaten.",
+      "Plan een vrijblijvend gesprek. Geen pitch. Wel scherpe vragen.",
+      "30 min., geen pitch deckPlan een gesprek →"
+    ]
+  },
+  "links": [
+    {
+      "regio": "overig",
+      "soort": "intern",
+      "href": "#main",
+      "anker": "Naar hoofdinhoud",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/",
+      "anker": "",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/diensten",
+      "anker": "Diensten",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/cases",
+      "anker": "Cases",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/werkwijze",
+      "anker": "Werkwijze",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/inzichten",
+      "anker": "Inzichten",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/over",
+      "anker": "Over mij",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/contact",
+      "anker": "Plan een gesprek →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/inzichten",
+      "anker": "← Terug naar alle inzichten",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/contact",
+      "anker": "Sparren over jouw situatie? 30 minuten, vrijblijvend →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/inzichten/wanneer-heb-je-echt-een-ai-strateeg-nodig",
+      "anker": "◎ Strategie Wanneer heb je echt een AI-strateeg nodig? In de helft van de gevallen is het antwoord: niet. Vier situaties waarin externe hulp loont, en vier waarin je het zelf beter kunt. ◷ 4 min leestijd Lees artikel →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/inzichten/ai-vendorselectie-in-acht-stappen",
+      "anker": "◈ Tools & data AI-vendorselectie in acht stappen Criteria eerst, leveranciers daarna. Een selectieproces dat bestand is tegen goede demo’s en interne voorkeuren. ◷ 5 min leestijd Lees artikel →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/contact",
+      "anker": "Plan een gesprek →",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/diensten/ai-readiness-assessment",
+      "anker": "AI Readiness Assessment",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/diensten/ai-strategy-sprint",
+      "anker": "AI Strategy Sprint",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/diensten/fractional-ai-lead",
+      "anker": "Fractional AI Lead",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/diensten",
+      "anker": "Alle diensten",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/cases",
+      "anker": "Cases",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/werkwijze",
+      "anker": "Werkwijze",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/inzichten",
+      "anker": "Inzichten",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/veelgestelde-vragen",
+      "anker": "Veelgestelde vragen",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/over",
+      "anker": "Over mij",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-consultancy",
+      "anker": "AI consultancy",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-implementatie",
+      "anker": "AI implementatie",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-automatisering",
+      "anker": "AI automatisering",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-voor-bedrijven",
+      "anker": "AI voor bedrijven",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-development",
+      "anker": "AI development",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-agents",
+      "anker": "AI agents",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-beleid",
+      "anker": "AI beleid",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-workshop",
+      "anker": "AI workshop",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/markten",
+      "anker": "AI per branche",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/kennisbank",
+      "anker": "Kennisbank",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/tarieven",
+      "anker": "Tarieven",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/partnernetwerk",
+      "anker": "Partnernetwerk",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "overig",
+      "href": "mailto:dave@freelanceaiconsultant.com",
+      "anker": "dave@freelanceaiconsultant.com",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "extern",
+      "href": "https://www.linkedin.com/in/davewillemstein",
+      "anker": "LinkedIn ↗",
+      "rel": "noopener"
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/contact",
+      "anker": "Plan een gesprek",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/privacy",
+      "anker": "Privacyverklaring",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/algemene-voorwaarden",
+      "anker": "Algemene voorwaarden",
+      "rel": null
+    }
+  ],
+  "structured_data": {
+    "sha256": "ac3eb4b863e0dc70d0c301e4196f96ff557b3f2fb9b984173230b92512212be5",
+    "items": [
+      {
+        "@context": "https://schema.org",
+        "@type": "BlogPosting",
+        "headline": "Freelance AI consultant vs agency vs Big 4",
+        "description": "Een eerlijke vergelijking op onafhankelijkheid, snelheid, diepgang, kosten en uitvoeringskracht. Zodat jij de juiste partner kiest, ook als dat niet ik ben.",
+        "datePublished": "2026-04-23",
+        "inLanguage": "nl-NL",
+        "articleSection": "Strategie",
+        "author": {
+          "@type": "Person",
+          "name": "Dave Willemstein",
+          "url": "https://freelanceaiconsultant.com",
+          "jobTitle": "Onafhankelijk AI-adviseur"
+        },
+        "publisher": {
+          "@type": "Person",
+          "name": "Dave Willemstein"
+        },
+        "mainEntityOfPage": "https://freelanceaiconsultant.com/inzichten/freelance-ai-consultant-vs-agency-vs-big4"
+      }
+    ]
+  },
+  "afbeeldingen": [
+    {
+      "regio": "header",
+      "src": "/images/freelance-ai-consultant-logo-header.png",
+      "alt": "freelanceaiconsultant.com logo",
+      "width": "600",
+      "height": "287",
+      "loading": null
+    },
+    {
+      "regio": "main",
+      "src": "/images/dave-portrait.jpg",
+      "alt": "Dave Willemstein, Independent AI Advisor",
+      "width": "500",
+      "height": "620",
+      "loading": "lazy"
+    },
+    {
+      "regio": "footer",
+      "src": "/images/freelance-ai-consultant-icon-footer.png",
+      "alt": "",
+      "width": "192",
+      "height": "192",
+      "loading": "lazy"
+    }
+  ],
+  "laadprestaties": {
+    "scripts": [
+      {
+        "src": "/logo-carousel/logo-carousel.js?v=2",
+        "type": null,
+        "inline_bytes": 0
+      }
+    ],
+    "stylesheets": [
+      "https://fonts.googleapis.com/css2?family=Caveat:wght@600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap",
+      "/_astro/_slug_.bq6BBoZ5.css",
+      "/_astro/_slug_.CyUYGuAp.css",
+      "/logo-carousel/logo-carousel.css?v=2"
+    ],
+    "aantal_details": 0,
+    "aantal_tabellen": 0
+  }
+}

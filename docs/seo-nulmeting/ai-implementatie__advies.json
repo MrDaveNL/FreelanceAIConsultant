@@ -1,0 +1,750 @@
+{
+  "url": "/ai-implementatie/advies",
+  "build_bestand": "dist/ai-implementatie/advies/index.html",
+  "bron": [
+    "src/content/pages/ai-implementatie/advies/index.md",
+    "src/pages/[...slug].astro"
+  ],
+  "gemeten_op": "2026-10-06",
+  "html": {
+    "bytes": 32115,
+    "sha256": "c5beea11d9bd62615b43ee2c552668efdaa95a0c87b35c176f25d743f02d6898",
+    "lang": "nl"
+  },
+  "beschermd": {
+    "title": "AI implementatie advies | Voorkom dure fouten vooraf",
+    "meta_description": "Advies bij AI implementatie: welke use case, welke tools, welke data en welke risico's. Voorkom dure fouten en start je AI-project met een helder plan.",
+    "canonical": "https://freelanceaiconsultant.com/ai-implementatie/advies",
+    "robots_meta": null,
+    "hreflang": [],
+    "h1": [
+      "AI implementatie advies: goed voorbereid starten"
+    ]
+  },
+  "social": {
+    "og:type": "website",
+    "og:locale": "nl_NL",
+    "og:site_name": "freelanceaiconsultant.com",
+    "og:title": "AI implementatie advies | Voorkom dure fouten vooraf",
+    "og:description": "Advies bij AI implementatie: welke use case, welke tools, welke data en welke risico's. Voorkom dure fouten en start je AI-project met een helder plan.",
+    "og:url": "https://freelanceaiconsultant.com/ai-implementatie/advies",
+    "og:image": "https://freelanceaiconsultant.com/images/dave-portrait.jpg",
+    "twitter:card": "summary_large_image",
+    "twitter:title": "AI implementatie advies | Voorkom dure fouten vooraf",
+    "twitter:description": "Advies bij AI implementatie: welke use case, welke tools, welke data en welke risico's. Voorkom dure fouten en start je AI-project met een helder plan.",
+    "twitter:image": "https://freelanceaiconsultant.com/images/dave-portrait.jpg"
+  },
+  "koppen": [
+    {
+      "niveau": 1,
+      "tekst": "AI implementatie advies: goed voorbereid starten",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "Waarom advies vooraf loont",
+      "regio": "main",
+      "id": "waarom-advies-vooraf-loont"
+    },
+    {
+      "niveau": 2,
+      "tekst": "Waar ik over adviseer",
+      "regio": "main",
+      "id": "waar-ik-over-adviseer"
+    },
+    {
+      "niveau": 3,
+      "tekst": "Keuze van use case",
+      "regio": "main",
+      "id": "keuze-van-use-case"
+    },
+    {
+      "niveau": 3,
+      "tekst": "Build versus buy",
+      "regio": "main",
+      "id": "build-versus-buy"
+    },
+    {
+      "niveau": 3,
+      "tekst": "Data en privacy",
+      "regio": "main",
+      "id": "data-en-privacy"
+    },
+    {
+      "niveau": 3,
+      "tekst": "Change management",
+      "regio": "main",
+      "id": "change-management"
+    },
+    {
+      "niveau": 2,
+      "tekst": "Hoe een adviestraject verloopt",
+      "regio": "main",
+      "id": "hoe-een-adviestraject-verloopt"
+    },
+    {
+      "niveau": 2,
+      "tekst": "Veelgestelde vragen",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "Bronnen",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "Van AI-ambitie naar concrete resultaten.",
+      "regio": "main",
+      "id": null
+    }
+  ],
+  "bodytekst": {
+    "regio": "main",
+    "woorden": 1537,
+    "sha256": "2c0119cdd70862ce7c239ea79a1002292e7e3f22596858eef7504bc723d6dc90",
+    "blokken": [
+      "Home",
+      "AI Implementatie",
+      "AI implementatie advies",
+      "Advies vooraf",
+      "AI implementatie advies: goed voorbereid starten",
+      "De duurste fouten in een AI-project worden gemaakt voordat er één regel code is geschreven: de verkeerde use case, een leverancier die te snel is gekozen, data die niet blijkt te deugen. Met AI implementatie advies vooraf leg je die keuzes onderbouwd vast, zodat je bouwpartij weet wat ze moet leveren en jij weet waarop je stuurt.",
+      "Plan een adviesgesprek → Bekijk de AI Readiness Assessment →",
+      "IN HET KORT",
+      "Advies vooraf is goedkoper dan bijsturen tijdens de bouw.",
+      "Vier onderwerpen bepalen het succes: use case, bouwen of kopen, data en privacy, en verandering.",
+      "Onafhankelijk: ik verdien niet aan de oplossing die je kiest.",
+      "AI in Europa",
+      "Europese merken die AI al in productie hebben.",
+      "Geen klanten van mij. Wel voorbeelden van wat er gebeurt als AI voorbij de pilot komt.",
+      "Pauzeer",
+      "Klarna",
+      "Zweden",
+      "AI-assistent in de klantenservice",
+      "Zalando",
+      "Duitsland",
+      "Mode-assistent voor productadvies",
+      "Financial services",
+      "Investeringsmaatschappij",
+      "AI-strategie en use-case portfolio",
+      "Booking.com",
+      "Nederland",
+      "AI Trip Planner voor reisplanning",
+      "Siemens",
+      "Duitsland",
+      "Industrial Copilot voor engineering",
+      "Retail",
+      "Enterprise retailer",
+      "AI-gedreven vendorselectie",
+      "Spotify",
+      "Zweden",
+      "AI DJ en gepersonaliseerde playlists",
+      "Mercedes-Benz",
+      "Duitsland",
+      "Generatieve spraakassistent in de auto",
+      "Industrial / B2B",
+      "Internationale maakorganisatie",
+      "AI-roadmap en leadership",
+      "ING",
+      "Nederland",
+      "Generatieve chatbot voor klantvragen",
+      "L'Oréal",
+      "Frankrijk",
+      "Beauty Genius: persoonlijk advies",
+      "Financial services",
+      "Financiële dienstverlener",
+      "KYC versneld met AI-documentanalyse",
+      "SAP",
+      "Duitsland",
+      "Joule: copilot in bedrijfssoftware",
+      "Carrefour",
+      "Frankrijk",
+      "Hopla: boodschappenassistent",
+      "Strategy & AI",
+      "SaaS scale-up",
+      "AI-readiness assessment",
+      "Adyen",
+      "Nederland",
+      "AI-optimalisatie van betalingen",
+      "Philips",
+      "Nederland",
+      "AI in medische beeldvorming",
+      "Proces & productivity",
+      "Zakelijke dienstverlener",
+      "Interne AI-assistent voor kenniswerkers",
+      "Waarom advies vooraf loont",
+      "Een AI-project wordt duur op het moment dat je ontdekt dat een eerdere keuze niet klopte. Een use case zonder eigenaar, een leverancierscontract zonder exitclausule of een dataset die rommeliger blijkt dan gedacht: tijdens de bouw kost elk van die ontdekkingen weken en budget. Vooraf kost dezelfde ontdekking een paar gesprekken.",
+      "AI implementatie advies is daarom geen luxe voor grote organisaties. Het is de goedkoopste fase van het hele traject, en de fase waarin je de meeste invloed hebt op de uitkomst. Voor projectleiders en IT betekent het een heldere opdracht aan de bouwpartij. Voor de directie betekent het een besluit dat onderbouwd is en niet alleen op een overtuigende demo rust.",
+      "Dit advies is één onderdeel van de bredere begeleiding bij AI implementatie, van use case tot beheer. Zoek je advies over AI in bredere zin, zoals strategie of prioritering over de hele organisatie, kijk dan bij AI advies voor directie en management.",
+      "Waar ik over adviseer",
+      "Vier onderwerpen bepalen of een implementatie slaagt. Ze horen samen op tafel, omdat ze elkaar beïnvloeden: een andere use case vraagt andere data, en andere data kan de bouwkeuze omdraaien.",
+      "Keuze van use case",
+      "De eerste vraag is niet “wat kan AI?”, maar “welk probleem kost ons nu te veel tijd, geld of kwaliteit?”. Ik help kandidaat-toepassingen op dezelfde manier te beoordelen: op waarde, haalbaarheid, datagereedheid, veranderlast en de vraag of er een eigenaar in de lijn is die er beter van wordt. Het resultaat is een korte lijst, met een gemotiveerde afvallijst erbij. Welke soorten toepassingen doorgaans resultaat opleveren, beschreef ik in welke AI use cases leveren resultaat.",
+      "Build versus buy",
+      "Zelf bouwen, een product kopen of samenwerken met een partner: die keuze bepaalt je kosten, je afhankelijkheid en je wendbaarheid voor jaren. Bouw alleen wat je onderscheidt, koop wat een commodity is en kies een partner als je de uitkomst wilt sturen zonder de techniek te bezitten. Reken daarbij met de onderhoudskosten over meerdere jaren en leg vooraf vast hoe je er weer vanaf komt. Het volledige beslisraamwerk staat in het artikel build, buy of partner. Kies je voor een partner, dan contracteer je die rechtstreeks; hoe ik daarbij werk, staat op de pagina over het partnernetwerk.",
+      "Data en privacy",
+      "Ik breng in kaart welke data de toepassing nodig heeft, waar die vandaan komt, hoe betrouwbaar die is en wie erover gaat. Daarnaast kijk ik naar de privacykant. Verwerkt de toepassing persoonsgegevens met een grote kans op een hoog privacyrisico, dan is een DPIA verplicht onder de AVG. Die vraag hoort aan het begin, niet vlak voor livegang. Ook kijk ik welke data je naar een externe dienst mag sturen, en welke afspraken met de leverancier daarvoor nodig zijn.",
+      "Change management",
+      "Elke AI-toepassing die tijd bespaart, verandert het werk van iemand. Dat gesprek wordt vaak uitgesteld tot na de oplevering, en dan blijkt de businesscase alleen te kloppen als er iets verandert waar geen draagvlak voor is. Ik help vooraf te benoemen welke verandering nodig is, wie daarover beslist en hoe je de mensen meeneemt die ermee gaan werken: met concrete scenario’s per rol in plaats van één algemene uitrol.",
+      "Hoe een adviestraject verloopt",
+      "KennismakingDertig minuten: wat speelt er en wat zou ik doen?",
+      "AfbakeningIntake: vraag, scope en vorm vastleggen in een opdrachtbevestiging",
+      "Analyse en adviesUse case, bouwkeuze, data en privacy, verandering",
+      "BeslisdocumentOnderbouwd besluit plus opdracht voor de bouwpartij",
+      "Van eerste gesprek tot een besluit waarmee je bouwpartij aan de slag kan.",
+      "Een traject begint met een gesprek van dertig minuten. Je vertelt waar je staat, ik stel vragen en zeg aan het eind wat ik zou doen, ook als dat betekent dat je mij niet nodig hebt.",
+      "Daarna bakenen we in een intake de vraag af en leggen we die vast in een opdrachtbevestiging. Een concrete vraag over één toepassing past meestal bij afgebakend advies. Wil je eerst weten of je organisatie er breed klaar voor is, dan is de AI Readiness Assessment de betere start: 2-3 weken, vaste prijs €7.000. Alle pakketten en prijzen staan op de pagina met tarieven.",
+      "In de analyse spreek ik de mensen die het werk doen, de eigenaar van het proces, IT en waar nodig privacy of compliance. Ik kijk naar de data, naar eventuele leveranciersvoorstellen en naar wat er al is geprobeerd.",
+      "Je krijgt een beslisdocument, geen dik rapport: welke use case, welke bouwkeuze, welke randvoorwaarden voor data en privacy, welke verandering nodig is, en wat de bouwpartij moet opleveren om te slagen. Alle kaders en analyses zijn daarna van jou. Wil je zelf verder, dan helpt het stappenplan voor AI implementatie bij de volgende fasen.",
+      "Voorbeeldscenario",
+      "Een installatiebedrijf met 60 medewerkers heeft een offerte liggen voor een AI-planningsmodule: 48.000 euro per jaar, met een contract van drie jaar. De directeur wil weten of dit de juiste eerste stap is voordat hij tekent.",
+      "In vier adviesdagen spreekt de adviseur de planners, de servicemanager en IT, en legt hij het voorstel naast de eigen data. Het voorstel gaat uit van werkorders met een betrouwbare duur en locatie. In de praktijk ontbreekt die informatie bij 35 procent van de werkorders.",
+      "Het advies: nu niet tekenen. Eerst drie maanden de registratie van werkorders op orde brengen en ondertussen een kleinere toepassing starten met de AI-assistent die het bedrijf al heeft: werkbonnen samenvatten voor de binnendienst. Het beslisdocument bevat de eisen voor een latere selectie, met een test op eigen data en een exitclausule. De verplichting van 144.000 euro over drie jaar blijft voorlopig van tafel.",
+      "Fictief voorbeeld, samengesteld uit situaties die veel voorkomen. Organisatie en cijfers zijn illustratief.",
+      "Meer over mijn achtergrond en waarom ik bewust geen implementatie verkoop, lees je over mij. Wil je je AI-project goed voorbereid starten? Plan een adviesgesprek.",
+      "Dave Willemstein Onafhankelijk AI-adviseur",
+      "Onafhankelijk: geen commissies, geen partnerdeals, geen marge op implementatiepartners.",
+      "Over mij Mijn partnernetwerk",
+      "Weten waar je staat met AI? Bekijk de AI Readiness Assessment →",
+      "Veelgestelde vragen",
+      "Wanneer is het beste moment voor advies over AI implementatie?+",
+      "Voordat je een leverancier kiest of een contract tekent. Dan liggen de keuzes nog open en kost bijsturen alleen denkwerk. Ligt er al een offerte of loopt het project al, dan heeft advies nog steeds zin, maar is het vooral een toets op wat er al besloten is.",
+      "Kun je een leveranciersvoorstel beoordelen dat al op tafel ligt?+",
+      "Ja, als second opinion. Ik kijk dan of het voorstel het juiste probleem oplost, of de aannames over data en beheer kloppen, wat de kosten over meerdere jaren zijn en hoe je er weer vanaf komt. Zijn er meerdere leveranciers in beeld, dan is een gestructureerde Vendor Review vaak de betere vorm.",
+      "Adviseer je ook over welke AI-tools we moeten gebruiken?+",
+      "Ja, maar pas nadat duidelijk is welk probleem de tool moet oplossen. Ik heb geen partnerstatus of commissies bij leveranciers, dus mijn advies hangt niet af van een merk. Soms blijkt een tool die je al hebt te volstaan, mits die goed wordt ingericht.",
+      "Is advies vooraf ook zinvol voor een mkb-bedrijf?+",
+      "Juist daar, omdat er minder ruimte is voor een mislukte investering. De scope is kleiner, dus het adviestraject ook. Een paar dagen afgebakend advies kan dan volstaan om de use case, de bouwkeuze en de randvoorwaarden scherp te krijgen.",
+      "Wat kost AI implementatie advies?+",
+      "Afgebakend advies en second opinions krijgen een vaste prijs per opdracht; de omvang bepalen we in de intake. Wie eerst een volledig beeld van de organisatie wil, start met de AI Readiness Assessment tegen een vaste prijs. Alle bedragen zijn exclusief btw en reiskosten.",
+      "Bronnen",
+      "Ondernemersplein (KVK/Rijksoverheid): DPIA uitvoeren",
+      "Klaar voor impact?",
+      "Van AI-ambitie naar concrete resultaten.",
+      "Plan een vrijblijvend gesprek. Geen pitch. Wel scherpe vragen.",
+      "30 min., geen pitch deckPlan een gesprek →"
+    ]
+  },
+  "links": [
+    {
+      "regio": "overig",
+      "soort": "intern",
+      "href": "#main",
+      "anker": "Naar hoofdinhoud",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/",
+      "anker": "",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/diensten",
+      "anker": "Diensten",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/cases",
+      "anker": "Cases",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/werkwijze",
+      "anker": "Werkwijze",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/inzichten",
+      "anker": "Inzichten",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/over",
+      "anker": "Over mij",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/contact",
+      "anker": "Plan een gesprek →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/",
+      "anker": "Home",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/ai-implementatie",
+      "anker": "AI Implementatie",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/contact",
+      "anker": "Plan een adviesgesprek →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/diensten/ai-readiness-assessment",
+      "anker": "Bekijk de AI Readiness Assessment →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/ai-implementatie",
+      "anker": "begeleiding bij AI implementatie",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/ai-consultancy/ai-advies",
+      "anker": "AI advies voor directie en management",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/inzichten/welke-ai-use-cases-leveren-resultaat",
+      "anker": "welke AI use cases leveren resultaat",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/inzichten/build-buy-of-partner",
+      "anker": "build, buy of partner",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/partnernetwerk",
+      "anker": "partnernetwerk",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "extern",
+      "href": "https://ondernemersplein.overheid.nl/wetten-en-regels/dpia-data-protection-impact-assessment-uitvoeren/",
+      "anker": "DPIA verplicht onder de AVG",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/diensten/ai-readiness-assessment",
+      "anker": "AI Readiness Assessment",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/tarieven",
+      "anker": "tarieven",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/ai-implementatie/stappenplan",
+      "anker": "stappenplan voor AI implementatie",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/over",
+      "anker": "over mij",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/contact",
+      "anker": "Plan een adviesgesprek",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/over",
+      "anker": "Over mij",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/partnernetwerk",
+      "anker": "Mijn partnernetwerk",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/diensten/ai-readiness-assessment",
+      "anker": "Weten waar je staat met AI? Bekijk de AI Readiness Assessment →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "extern",
+      "href": "https://ondernemersplein.overheid.nl/wetten-en-regels/dpia-data-protection-impact-assessment-uitvoeren/",
+      "anker": "Ondernemersplein (KVK/Rijksoverheid): DPIA uitvoeren",
+      "rel": "noopener"
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/contact",
+      "anker": "Plan een gesprek →",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/diensten/ai-readiness-assessment",
+      "anker": "AI Readiness Assessment",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/diensten/ai-strategy-sprint",
+      "anker": "AI Strategy Sprint",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/diensten/fractional-ai-lead",
+      "anker": "Fractional AI Lead",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/diensten",
+      "anker": "Alle diensten",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/cases",
+      "anker": "Cases",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/werkwijze",
+      "anker": "Werkwijze",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/inzichten",
+      "anker": "Inzichten",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/veelgestelde-vragen",
+      "anker": "Veelgestelde vragen",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/over",
+      "anker": "Over mij",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-consultancy",
+      "anker": "AI consultancy",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-implementatie",
+      "anker": "AI implementatie",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-automatisering",
+      "anker": "AI automatisering",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-voor-bedrijven",
+      "anker": "AI voor bedrijven",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-development",
+      "anker": "AI development",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-agents",
+      "anker": "AI agents",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-beleid",
+      "anker": "AI beleid",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-workshop",
+      "anker": "AI workshop",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/markten",
+      "anker": "AI per branche",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/kennisbank",
+      "anker": "Kennisbank",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/tarieven",
+      "anker": "Tarieven",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/partnernetwerk",
+      "anker": "Partnernetwerk",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "overig",
+      "href": "mailto:dave@freelanceaiconsultant.com",
+      "anker": "dave@freelanceaiconsultant.com",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "extern",
+      "href": "https://www.linkedin.com/in/davewillemstein",
+      "anker": "LinkedIn ↗",
+      "rel": "noopener"
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/contact",
+      "anker": "Plan een gesprek",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/privacy",
+      "anker": "Privacyverklaring",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/algemene-voorwaarden",
+      "anker": "Algemene voorwaarden",
+      "rel": null
+    }
+  ],
+  "structured_data": {
+    "sha256": "b59ff3a8025bcefdf14f89750e83910991a65a0abd537da465a359a95a86c867",
+    "items": [
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://freelanceaiconsultant.com/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "AI Implementatie",
+                "item": "https://freelanceaiconsultant.com/ai-implementatie"
+              },
+              {
+                "@type": "ListItem",
+                "position": 3,
+                "name": "AI implementatie advies",
+                "item": "https://freelanceaiconsultant.com/ai-implementatie/advies"
+              }
+            ]
+          },
+          {
+            "@type": "Service",
+            "name": "AI implementatie advies",
+            "serviceType": "ai implementatie advies",
+            "description": "Advies bij AI implementatie: welke use case, welke tools, welke data en welke risico's. Voorkom dure fouten en start je AI-project met een helder plan.",
+            "url": "https://freelanceaiconsultant.com/ai-implementatie/advies",
+            "areaServed": "NL",
+            "provider": {
+              "@type": "Person",
+              "name": "Dave Willemstein",
+              "jobTitle": "Onafhankelijk AI-adviseur",
+              "url": "https://freelanceaiconsultant.com/over",
+              "sameAs": [
+                "https://www.linkedin.com/in/davewillemstein"
+              ]
+            }
+          },
+          {
+            "@type": "FAQPage",
+            "mainEntity": [
+              {
+                "@type": "Question",
+                "name": "Wanneer is het beste moment voor advies over AI implementatie?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Voordat je een leverancier kiest of een contract tekent. Dan liggen de keuzes nog open en kost bijsturen alleen denkwerk. Ligt er al een offerte of loopt het project al, dan heeft advies nog steeds zin, maar is het vooral een toets op wat er al besloten is."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Kun je een leveranciersvoorstel beoordelen dat al op tafel ligt?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Ja, als second opinion. Ik kijk dan of het voorstel het juiste probleem oplost, of de aannames over data en beheer kloppen, wat de kosten over meerdere jaren zijn en hoe je er weer vanaf komt. Zijn er meerdere leveranciers in beeld, dan is een gestructureerde Vendor Review vaak de betere vorm."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Adviseer je ook over welke AI-tools we moeten gebruiken?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Ja, maar pas nadat duidelijk is welk probleem de tool moet oplossen. Ik heb geen partnerstatus of commissies bij leveranciers, dus mijn advies hangt niet af van een merk. Soms blijkt een tool die je al hebt te volstaan, mits die goed wordt ingericht."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Is advies vooraf ook zinvol voor een mkb-bedrijf?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Juist daar, omdat er minder ruimte is voor een mislukte investering. De scope is kleiner, dus het adviestraject ook. Een paar dagen afgebakend advies kan dan volstaan om de use case, de bouwkeuze en de randvoorwaarden scherp te krijgen."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Wat kost AI implementatie advies?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Afgebakend advies en second opinions krijgen een vaste prijs per opdracht; de omvang bepalen we in de intake. Wie eerst een volledig beeld van de organisatie wil, start met de AI Readiness Assessment tegen een vaste prijs. Alle bedragen zijn exclusief btw en reiskosten."
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "afbeeldingen": [
+    {
+      "regio": "header",
+      "src": "/images/freelance-ai-consultant-logo-header.png",
+      "alt": "freelanceaiconsultant.com logo",
+      "width": "600",
+      "height": "287",
+      "loading": null
+    },
+    {
+      "regio": "main",
+      "src": "/images/dave-portrait.jpg",
+      "alt": "Portret van Dave Willemstein",
+      "width": "88",
+      "height": "88",
+      "loading": "lazy"
+    },
+    {
+      "regio": "footer",
+      "src": "/images/freelance-ai-consultant-icon-footer.png",
+      "alt": "",
+      "width": "192",
+      "height": "192",
+      "loading": "lazy"
+    }
+  ],
+  "laadprestaties": {
+    "scripts": [
+      {
+        "src": "/logo-carousel/logo-carousel.js?v=2",
+        "type": null,
+        "inline_bytes": 0
+      }
+    ],
+    "stylesheets": [
+      "https://fonts.googleapis.com/css2?family=Caveat:wght@600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap",
+      "/_astro/_slug_.bq6BBoZ5.css",
+      "/_astro/_slug_.goiX3PVF.css",
+      "/logo-carousel/logo-carousel.css?v=2"
+    ],
+    "aantal_details": 5,
+    "aantal_tabellen": 0
+  }
+}

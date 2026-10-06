@@ -1,0 +1,870 @@
+{
+  "url": "/markten/fintech",
+  "build_bestand": "dist/markten/fintech/index.html",
+  "bron": [
+    "src/content/pages/markten/fintech/index.md",
+    "src/pages/[...slug].astro"
+  ],
+  "gemeten_op": "2026-10-06",
+  "html": {
+    "bytes": 37056,
+    "sha256": "8e0e029da562035a3da0e665b66a9e6654a6621baa3899f520ae7bc978539a87",
+    "lang": "nl"
+  },
+  "beschermd": {
+    "title": "AI in fintech | Toepassingen voor financiële dienstverlening",
+    "meta_description": "Hoe zetten banken en fintechs AI in? Lees over toepassingen, automatisering, governance en compliance, en hoe je AI verantwoord implementeert in finance.",
+    "canonical": "https://freelanceaiconsultant.com/markten/fintech",
+    "robots_meta": null,
+    "hreflang": [],
+    "h1": [
+      "AI in fintech en financiële dienstverlening"
+    ]
+  },
+  "social": {
+    "og:type": "website",
+    "og:locale": "nl_NL",
+    "og:site_name": "freelanceaiconsultant.com",
+    "og:title": "AI in fintech | Toepassingen voor financiële dienstverlening",
+    "og:description": "Hoe zetten banken en fintechs AI in? Lees over toepassingen, automatisering, governance en compliance, en hoe je AI verantwoord implementeert in finance.",
+    "og:url": "https://freelanceaiconsultant.com/markten/fintech",
+    "og:image": "https://freelanceaiconsultant.com/images/dave-portrait.jpg",
+    "twitter:card": "summary_large_image",
+    "twitter:title": "AI in fintech | Toepassingen voor financiële dienstverlening",
+    "twitter:description": "Hoe zetten banken en fintechs AI in? Lees over toepassingen, automatisering, governance en compliance, en hoe je AI verantwoord implementeert in finance.",
+    "twitter:image": "https://freelanceaiconsultant.com/images/dave-portrait.jpg"
+  },
+  "koppen": [
+    {
+      "niveau": 1,
+      "tekst": "AI in fintech en financiële dienstverlening",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "AI toepassingen in fintech",
+      "regio": "main",
+      "id": "ai-toepassingen-in-fintech"
+    },
+    {
+      "niveau": 2,
+      "tekst": "AI automatisering in financiële dienstverlening",
+      "regio": "main",
+      "id": "ai-automatisering-in-financiële-dienstverlening"
+    },
+    {
+      "niveau": 2,
+      "tekst": "AI governance en compliance",
+      "regio": "main",
+      "id": "ai-governance-en-compliance"
+    },
+    {
+      "niveau": 2,
+      "tekst": "AI consultancy voor financiële instellingen",
+      "regio": "main",
+      "id": "ai-consultancy-voor-financiële-instellingen"
+    },
+    {
+      "niveau": 2,
+      "tekst": "Veelgestelde vragen",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "Bronnen",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "Van AI-ambitie naar concrete resultaten.",
+      "regio": "main",
+      "id": null
+    }
+  ],
+  "bodytekst": {
+    "regio": "main",
+    "woorden": 1834,
+    "sha256": "d9d9d41b0d06c409fe70a61d93dcf5d93093084cf70b15198d1da4e5be8a2fb2",
+    "blokken": [
+      "Home",
+      "Markten",
+      "AI voor fintech",
+      "AI voor fintech",
+      "AI in fintech en financiële dienstverlening",
+      "AI in fintech en bij banken en verzekeraars draait om één spanning: veel repeterend documentwerk dat zich goed leent voor AI, in een sector waar elke beslissing uitlegbaar en herleidbaar moet zijn. Financiële dienstverlening is een van de sectoren waar mijn werk het zwaarst op leunt. Hier lees je waar de kansen zitten en welke regels meespelen.",
+      "Lees meer over Markten → Plan een adviesgesprek →",
+      "Geschreven door Dave Willemstein, onafhankelijk AI consultant · gepubliceerd 23 september 2026",
+      "IN HET KORT",
+      "De meeste winst zit in extractie en voorbereiding; het oordeel blijft bij de mens.",
+      "Kredietbeoordeling en premiebepaling voor levens- en ziektekostenverzekeringen zijn hoog risico onder de AI Act, met regels vanaf 2 december 2027.",
+      "DORA geldt sinds 17 januari 2025 ook voor de ICT-diensten achter je AI-toepassingen.",
+      "AI in Europa",
+      "Europese merken die AI al in productie hebben.",
+      "Geen klanten van mij. Wel voorbeelden van wat er gebeurt als AI voorbij de pilot komt.",
+      "Pauzeer",
+      "Klarna",
+      "Zweden",
+      "AI-assistent in de klantenservice",
+      "Zalando",
+      "Duitsland",
+      "Mode-assistent voor productadvies",
+      "Financial services",
+      "Investeringsmaatschappij",
+      "AI-strategie en use-case portfolio",
+      "Booking.com",
+      "Nederland",
+      "AI Trip Planner voor reisplanning",
+      "Siemens",
+      "Duitsland",
+      "Industrial Copilot voor engineering",
+      "Retail",
+      "Enterprise retailer",
+      "AI-gedreven vendorselectie",
+      "Spotify",
+      "Zweden",
+      "AI DJ en gepersonaliseerde playlists",
+      "Mercedes-Benz",
+      "Duitsland",
+      "Generatieve spraakassistent in de auto",
+      "Industrial / B2B",
+      "Internationale maakorganisatie",
+      "AI-roadmap en leadership",
+      "ING",
+      "Nederland",
+      "Generatieve chatbot voor klantvragen",
+      "L'Oréal",
+      "Frankrijk",
+      "Beauty Genius: persoonlijk advies",
+      "Financial services",
+      "Financiële dienstverlener",
+      "KYC versneld met AI-documentanalyse",
+      "SAP",
+      "Duitsland",
+      "Joule: copilot in bedrijfssoftware",
+      "Carrefour",
+      "Frankrijk",
+      "Hopla: boodschappenassistent",
+      "Strategy & AI",
+      "SaaS scale-up",
+      "AI-readiness assessment",
+      "Adyen",
+      "Nederland",
+      "AI-optimalisatie van betalingen",
+      "Philips",
+      "Nederland",
+      "AI in medische beeldvorming",
+      "Proces & productivity",
+      "Zakelijke dienstverlener",
+      "Interne AI-assistent voor kenniswerkers",
+      "AI toepassingen in fintech",
+      "In fintech en de bredere financiële sector komen AI-toepassingen grofweg in vier soorten voor:",
+      "Documentverwerking: gegevens halen uit identiteitsbewijzen, uittreksels, jaarrekeningen, loonstroken of polissen. Dit is het klassieke terrein van onboarding, KYC en acceptatie.",
+      "Signalering: transactiemonitoring, fraudedetectie en het markeren van afwijkende patronen voor een analist.",
+      "Beoordeling en prijsstelling: kredietbeoordeling, risicoselectie en premiebepaling. Hier raakt AI direct de belangen van klanten.",
+      "Klantcontact en kennis: het beantwoorden van standaardvragen, het voorbereiden van adviesgesprekken en het doorzoeken van interne regelgeving en procedures.",
+      "De eerste twee soorten leveren vaak de snelste winst. De derde soort kan veel waarde hebben, maar valt deels onder het zwaarste regime van de AI Act. De vierde lijkt onschuldig, maar een chatbot die klanten verkeerd informeert, is in een gereguleerde sector geen klein probleem.",
+      "Welke toepassing je eerst aanpakt, hangt af van waar het werk zit en hoeveel risico je kunt dragen. Een voorbeeld van hoe dat afwegen in de praktijk gaat, is de case over een use-case portfolio voor een investeringsmaatschappij.",
+      "AI automatisering in financiële dienstverlening",
+      "Het belangrijkste onderscheid bij automatisering in financiële dienstverlening is dat tussen extractie en oordeel. Extractie is feiten uit een document halen: wat is de naam, het bedrag, de datum, de uiteindelijk belanghebbende. Oordeel is wegen wat die feiten betekenen: vormt dit een risico, past deze klant binnen ons beleid?",
+      "AI is goed in extractie en kan daar veel zoekwerk wegnemen. Het oordeel hoort in de meeste processen bij een mens, die de voorstellen van het systeem bevestigt of corrigeert. Dat is niet alleen voorzichtig, het is ook praktisch: elke bevestiging en correctie levert een auditspoor en een meetbare kwaliteitsloop op.",
+      "Document binnenIdentiteitsbewijs, uittreksel, jaarrekening of polis.",
+      "ExtractieAI haalt de gegevens eruit, met een betrouwbaarheidsscore per veld.",
+      "DrempelBoven de drempel een voorstel; eronder gaat het veld ongefilterd naar de analist.",
+      "OordeelDe analist bevestigt, corrigeert en beslist.",
+      "VastleggenElke bevestiging en correctie komt in het auditspoor en voedt de kwaliteitsmeting.",
+      "De AI bereidt voor, de mens beslist, en alles is herleidbaar. Zo blijft een geautomatiseerd proces uitlegbaar richting audit en toezicht.",
+      "Precies dit patroon staat centraal in de case over KYC-documentanalyse bij een financiële dienstverlener. Het moeilijke deel was daar niet het model, maar een werkproces ontwerpen waarin analisten de uitkomst kunnen vertrouwen én kunnen overrulen.",
+      "Een waarschuwing bij de huidige belangstelling voor agents die zelfstandig stappen zetten: in een financieel proces wil je precies weten wat er gebeurt als zo’n agent ernaast zit. Wat agents wel en niet goed kunnen, beschrijf ik in AI-agents in een bedrijfsproces.",
+      "Voorbeeldscenario",
+      "Een schadeverzekeraar met 250 medewerkers verwerkt zo'n 4.000 schademeldingen per maand. Een leverancier biedt een agent aan die meldingen leest, routeert en kleine schades zelfstandig uitkeert.",
+      "De adviseur begeleidt de selectie vanuit klantzijde. Drie aanbieders krijgen dezelfde set van 200 geanonimiseerde meldingen, en auditspoor, exitpad en de plek in het DORA-informatieregister wegen mee. De scope gaat terug naar voorbereiden: de agent haalt gegevens uit het formulier en stelt een route voor, de schadebehandelaar beslist. De verzekeraar contracteert de gekozen partij rechtstreeks.",
+      "Na acht weken daalt de registratietijd van 11 naar 6 minuten per melding, samen ruim 330 uur per maand. Behandelaars nemen 94 procent van de routevoorstellen ongewijzigd over, en elke correctie wordt vastgelegd. Zelfstandig uitkeren is bewust niet ingevoerd.",
+      "Fictief voorbeeld, samengesteld uit situaties die veel voorkomen. Organisatie en cijfers zijn illustratief.",
+      "AI governance en compliance",
+      "AI governance in de financiële sector is geen nieuw bouwwerk naast het bestaande risicobeheer. AFM en DNB stelden in hun gezamenlijke rapport van april 2024 al dat van financiële instellingen verwacht mag worden dat ze AI verantwoord inzetten, en dat bestaande regelgeving onverkort geldt als AI wordt toegepast (DNB). Datakwaliteit, gegevensbescherming, uitlegbaarheid en het risico op discriminatie en uitsluiting noemen ze daarbij expliciet.",
+      "Daarbovenop komen drie regimes die je moet kennen (stand september 2026):",
+      "De AI Act. AI waarmee de kredietwaardigheid van personen wordt beoordeeld of een kredietscore wordt vastgesteld, is hoog risico, met uitzondering van systemen voor het opsporen van financiële fraude. Hetzelfde geldt voor AI voor risicobeoordeling en prijsstelling bij levens- en ziektekostenverzekeringen (AI Act, bijlage III). Door de Digital Omnibus gelden de hoog-risicoregels voor deze toepassingen vanaf 2 december 2027 in plaats van augustus 2026 (Europese Commissie). De transparantieregels, bijvoorbeeld dat een chatbot moet melden dat de klant met AI praat, gelden al sinds 2 augustus 2026 (Europese Commissie).",
+      "DORA. De Digital Operational Resilience Act geldt sinds 17 januari 2025 en regelt ICT-risicobeheer, incidentmelding, het testen van digitale weerbaarheid en het beheer van ICT-dienstverleners. Financiële instellingen moeten een informatieregister bijhouden van alle ICT-diensten die ze van derden afnemen, inclusief onderuitbesteding (DNB, DORA; DNB, toezicht per 17 januari 2025). Een AI-dienst van een externe leverancier is daarmee ook een DORA-vraag: exitpad, afhankelijkheid en incidentafspraken horen in je selectie.",
+      "Het Nederlandse toezicht op de AI Act. Wie in Nederland op de AI Act toeziet, wordt geregeld in de Uitvoeringswet AI-verordening. Die was in juni 2026 nog een wetsvoorstel in consultatie. De AFM pleit ervoor dat zowel AFM als DNB, elk vanuit de eigen rol, worden aangewezen voor het toezicht op verboden toepassingen en hoog-risicotoepassingen zoals kredietbeoordeling en verzekeringspricing (AFM, 12 juni 2026).",
+      "Uitstel van de AI Act-regels is geen reden om te wachten. Een kredietmodel dat je nu inkoopt of laat bouwen, gebruik je waarschijnlijk nog als de eisen in december 2027 gaan gelden. Neem ze dus nu al mee in je ontwerp en selectie. Wat de AI Act per risicocategorie vraagt, staat op de pagina over de AI Act; hoe je daar een breder AI-beleid omheen zet, lees je op de overzichtspagina. Hoe je governance proportioneel houdt, met zware eisen alleen waar het risico dat rechtvaardigt, beschrijf ik in AI-governance zonder bureaucratie. Dit is geen juridisch advies: laat de kwalificatie van een concrete toepassing toetsen door je compliance- of juridische afdeling.",
+      "AI consultancy voor financiële instellingen",
+      "Wat ik voor banken, verzekeraars, fintechs en investeerders doe, is hetzelfde als in andere sectoren, maar met de lat hoger voor uitlegbaarheid en herleidbaarheid:",
+      "Prioriteren: welke toepassingen leveren iets op en passen binnen je risicobereidheid? Een logisch begin is een nulmeting met de AI Readiness Assessment.",
+      "Kiezen: een leverancier of bouwpartij selecteren met criteria voor uitlegbaarheid, auditspoor, datarechten en exitpad. Met een Vendor Review leg je die keuze vast op een manier waar inkoop, compliance en audit mee verder kunnen.",
+      "Beoordelen: voor investeerders en corporate-developmentteams die een AI-propositie of -leverancier willen doorlichten, is er de AI Due Diligence, altijd onder NDA.",
+      "Borgen: als je geen fulltime Head of AI hebt, kan een Fractional AI Lead de AI-agenda bewaken en de afstemming met risk, compliance en audit organiseren.",
+      "Ik bouw en verkoop zelf geen software en heb geen commissies of partnerstatus bij leveranciers. Implementaties begeleid ik vanuit jouw kant van de tafel. Juist in een sector waar je later moet kunnen uitleggen waarom je voor een bepaalde partij hebt gekozen, maakt dat verschil.",
+      "Andere sectoren met stevige regels zijn de zorg, waar medische software onder aparte productwetgeving valt; zie AI in de zorg. Voor een sector waar het vooral om klantdata en toestemming draait, zie AI voor marketing. Alle sectoren vind je bij AI per branche. Wil je sparren over een concrete vraag? Plan een adviesgesprek.",
+      "Dave Willemstein Onafhankelijk AI-adviseur",
+      "Onafhankelijk: geen commissies, geen partnerdeals, geen marge op implementatiepartners.",
+      "Over mij Mijn partnernetwerk",
+      "Weten waar je staat met AI? Bekijk de AI Readiness Assessment →",
+      "Veelgestelde vragen",
+      "Valt fraudedetectie onder hoog-risico-AI?+",
+      "Niet op grond van de bepaling over kredietwaardigheid: de AI Act zondert systemen voor het opsporen van financiële fraude daar uitdrukkelijk van uit. Dat betekent niet dat er geen eisen gelden. De AVG, het bestaande financiële toezicht en je eigen risicobeheer blijven van toepassing.",
+      "Wie houdt toezicht op AI bij financiële instellingen?+",
+      "Voor het gebruik van AI binnen bestaande processen doen DNB en AFM dat al via het gewone financiële toezicht; bestaande regels gelden onverkort als AI wordt toegepast. Voor de AI Act wordt de verdeling in Nederland geregeld in de Uitvoeringswet AI-verordening. Stand september 2026 is dat nog een wetsvoorstel, en de AFM heeft zorgen geuit over de voorgestelde verdeling van toezichttaken tussen AFM en DNB.",
+      "Geldt DORA ook voor AI-leveranciers?+",
+      "DORA richt zich op de financiële instelling. Die moet onder meer een informatieregister bijhouden van alle ICT-diensten die ze van derde partijen afneemt, inclusief onderuitbesteding. Een AI-dienst die je afneemt, hoort daar in de praktijk bij. Laat de precieze kwalificatie toetsen door je compliance- of juridische afdeling.",
+      "Hoe begin je met AI als kleine fintech?+",
+      "Met één proces waar veel handwerk zit en waar een fout te herstellen is, zoals het voorbereiden van dossiers of het beantwoorden van standaardvragen. Leg vanaf de start vast wat het systeem doet, wie controleert en hoe je dat aantoont. Dat is goedkoper dan het achteraf reconstrueren voor een toezichthouder.",
+      "Bronnen",
+      "AI Act, bijlage III (tekstweergave artificialintelligenceact.eu)",
+      "AI-verordening (EU) 2024/1689 (EUR-Lex)",
+      "Europese Commissie: AI Omnibus enters into force",
+      "Europese Commissie: Commission starts enforcing AI Act rules and new transparency requirements on 2 August",
+      "DNB: AFM en DNB publiceren rapport over de impact van AI in de financiële sector en het toezicht daarop (9 april 2024)",
+      "DNB: DORA",
+      "DNB: DORA, het toezicht van DNB per 17 januari 2025",
+      "AFM: Uitvoeringswet AI-verordening uitvoerbaar, maar aanpassingen nodig voor effectief toezicht (12 juni 2026)",
+      "Klaar voor impact?",
+      "Van AI-ambitie naar concrete resultaten.",
+      "Plan een vrijblijvend gesprek. Geen pitch. Wel scherpe vragen.",
+      "30 min., geen pitch deckPlan een gesprek →"
+    ]
+  },
+  "links": [
+    {
+      "regio": "overig",
+      "soort": "intern",
+      "href": "#main",
+      "anker": "Naar hoofdinhoud",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/",
+      "anker": "",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/diensten",
+      "anker": "Diensten",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/cases",
+      "anker": "Cases",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/werkwijze",
+      "anker": "Werkwijze",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/inzichten",
+      "anker": "Inzichten",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/over",
+      "anker": "Over mij",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/contact",
+      "anker": "Plan een gesprek →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/",
+      "anker": "Home",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/markten",
+      "anker": "Markten",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/markten",
+      "anker": "Lees meer over Markten →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/contact",
+      "anker": "Plan een adviesgesprek →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/over",
+      "anker": "Dave Willemstein",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/cases/ai-strategie-investeringsmaatschappij",
+      "anker": "use-case portfolio voor een investeringsmaatschappij",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/cases/kyc-documentanalyse-financial-services",
+      "anker": "KYC-documentanalyse bij een financiële dienstverlener",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/inzichten/ai-agents-wat-ze-wel-en-niet-kunnen",
+      "anker": "AI-agents in een bedrijfsproces",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "extern",
+      "href": "https://www.dnb.nl/nieuws-voor-de-sector/toezicht-2024/afm-en-dnb-publiceren-rapport-over-de-impact-van-ai-in-de-financiele-sector-en-het-toezicht-daarop/",
+      "anker": "DNB",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "extern",
+      "href": "https://artificialintelligenceact.eu/annex/3/",
+      "anker": "AI Act, bijlage III",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "extern",
+      "href": "https://digital-strategy.ec.europa.eu/en/news/ai-omnibus-enters-force",
+      "anker": "Europese Commissie",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "extern",
+      "href": "https://cyprus.representation.ec.europa.eu/news/commission-starts-enforcing-ai-act-rules-and-new-transparency-requirements-2-august-2026-07-31_en",
+      "anker": "Europese Commissie",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "extern",
+      "href": "https://www.dnb.nl/voor-de-sector/open-boek-toezicht/wet-regelgeving/dora/",
+      "anker": "DNB, DORA",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "extern",
+      "href": "https://www.dnb.nl/nieuws-voor-de-sector/toezicht-2024/dora-het-toezicht-van-dnb-per-17-januari-2025/",
+      "anker": "DNB, toezicht per 17 januari 2025",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "extern",
+      "href": "https://www.afm.nl/nl-nl/sector/actueel/2026/jun/pb-uitvoeringstoets",
+      "anker": "AFM, 12 juni 2026",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/ai-beleid/ai-act",
+      "anker": "de AI Act",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/ai-beleid",
+      "anker": "AI-beleid",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/inzichten/ai-governance-zonder-bureaucratie",
+      "anker": "AI-governance zonder bureaucratie",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/diensten/ai-readiness-assessment",
+      "anker": "AI Readiness Assessment",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/diensten/vendor-review",
+      "anker": "Vendor Review",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/diensten/ai-due-diligence",
+      "anker": "AI Due Diligence",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/diensten/fractional-ai-lead",
+      "anker": "Fractional AI Lead",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/markten/zorg",
+      "anker": "AI in de zorg",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/markten/marketing",
+      "anker": "AI voor marketing",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/markten",
+      "anker": "AI per branche",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/contact",
+      "anker": "Plan een adviesgesprek",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/over",
+      "anker": "Over mij",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/partnernetwerk",
+      "anker": "Mijn partnernetwerk",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/diensten/ai-readiness-assessment",
+      "anker": "Weten waar je staat met AI? Bekijk de AI Readiness Assessment →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "extern",
+      "href": "https://artificialintelligenceact.eu/annex/3/",
+      "anker": "AI Act, bijlage III (tekstweergave artificialintelligenceact.eu)",
+      "rel": "noopener"
+    },
+    {
+      "regio": "main",
+      "soort": "extern",
+      "href": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj",
+      "anker": "AI-verordening (EU) 2024/1689 (EUR-Lex)",
+      "rel": "noopener"
+    },
+    {
+      "regio": "main",
+      "soort": "extern",
+      "href": "https://digital-strategy.ec.europa.eu/en/news/ai-omnibus-enters-force",
+      "anker": "Europese Commissie: AI Omnibus enters into force",
+      "rel": "noopener"
+    },
+    {
+      "regio": "main",
+      "soort": "extern",
+      "href": "https://cyprus.representation.ec.europa.eu/news/commission-starts-enforcing-ai-act-rules-and-new-transparency-requirements-2-august-2026-07-31_en",
+      "anker": "Europese Commissie: Commission starts enforcing AI Act rules and new transparency requirements on 2 August",
+      "rel": "noopener"
+    },
+    {
+      "regio": "main",
+      "soort": "extern",
+      "href": "https://www.dnb.nl/nieuws-voor-de-sector/toezicht-2024/afm-en-dnb-publiceren-rapport-over-de-impact-van-ai-in-de-financiele-sector-en-het-toezicht-daarop/",
+      "anker": "DNB: AFM en DNB publiceren rapport over de impact van AI in de financiële sector en het toezicht daarop (9 april 2024)",
+      "rel": "noopener"
+    },
+    {
+      "regio": "main",
+      "soort": "extern",
+      "href": "https://www.dnb.nl/voor-de-sector/open-boek-toezicht/wet-regelgeving/dora/",
+      "anker": "DNB: DORA",
+      "rel": "noopener"
+    },
+    {
+      "regio": "main",
+      "soort": "extern",
+      "href": "https://www.dnb.nl/nieuws-voor-de-sector/toezicht-2024/dora-het-toezicht-van-dnb-per-17-januari-2025/",
+      "anker": "DNB: DORA, het toezicht van DNB per 17 januari 2025",
+      "rel": "noopener"
+    },
+    {
+      "regio": "main",
+      "soort": "extern",
+      "href": "https://www.afm.nl/nl-nl/sector/actueel/2026/jun/pb-uitvoeringstoets",
+      "anker": "AFM: Uitvoeringswet AI-verordening uitvoerbaar, maar aanpassingen nodig voor effectief toezicht (12 juni 2026)",
+      "rel": "noopener"
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/contact",
+      "anker": "Plan een gesprek →",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/diensten/ai-readiness-assessment",
+      "anker": "AI Readiness Assessment",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/diensten/ai-strategy-sprint",
+      "anker": "AI Strategy Sprint",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/diensten/fractional-ai-lead",
+      "anker": "Fractional AI Lead",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/diensten",
+      "anker": "Alle diensten",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/cases",
+      "anker": "Cases",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/werkwijze",
+      "anker": "Werkwijze",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/inzichten",
+      "anker": "Inzichten",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/veelgestelde-vragen",
+      "anker": "Veelgestelde vragen",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/over",
+      "anker": "Over mij",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-consultancy",
+      "anker": "AI consultancy",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-implementatie",
+      "anker": "AI implementatie",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-automatisering",
+      "anker": "AI automatisering",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-voor-bedrijven",
+      "anker": "AI voor bedrijven",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-development",
+      "anker": "AI development",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-agents",
+      "anker": "AI agents",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-beleid",
+      "anker": "AI beleid",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-workshop",
+      "anker": "AI workshop",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/markten",
+      "anker": "AI per branche",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/kennisbank",
+      "anker": "Kennisbank",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/tarieven",
+      "anker": "Tarieven",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/partnernetwerk",
+      "anker": "Partnernetwerk",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "overig",
+      "href": "mailto:dave@freelanceaiconsultant.com",
+      "anker": "dave@freelanceaiconsultant.com",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "extern",
+      "href": "https://www.linkedin.com/in/davewillemstein",
+      "anker": "LinkedIn ↗",
+      "rel": "noopener"
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/contact",
+      "anker": "Plan een gesprek",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/privacy",
+      "anker": "Privacyverklaring",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/algemene-voorwaarden",
+      "anker": "Algemene voorwaarden",
+      "rel": null
+    }
+  ],
+  "structured_data": {
+    "sha256": "68f1511e054c369f60ebb3b77b577ea48073cfc9b8417f770f24b374013aa9d0",
+    "items": [
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://freelanceaiconsultant.com/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Markten",
+                "item": "https://freelanceaiconsultant.com/markten"
+              },
+              {
+                "@type": "ListItem",
+                "position": 3,
+                "name": "AI voor fintech",
+                "item": "https://freelanceaiconsultant.com/markten/fintech"
+              }
+            ]
+          },
+          {
+            "@type": "Article",
+            "headline": "AI in fintech en financiële dienstverlening",
+            "description": "Hoe zetten banken en fintechs AI in? Lees over toepassingen, automatisering, governance en compliance, en hoe je AI verantwoord implementeert in finance.",
+            "inLanguage": "nl-NL",
+            "datePublished": "2026-09-23",
+            "dateModified": "2026-09-23",
+            "author": {
+              "@type": "Person",
+              "name": "Dave Willemstein",
+              "jobTitle": "Onafhankelijk AI-adviseur",
+              "url": "https://freelanceaiconsultant.com/over",
+              "sameAs": [
+                "https://www.linkedin.com/in/davewillemstein"
+              ]
+            },
+            "publisher": {
+              "@type": "Person",
+              "name": "Dave Willemstein"
+            },
+            "mainEntityOfPage": "https://freelanceaiconsultant.com/markten/fintech"
+          },
+          {
+            "@type": "FAQPage",
+            "mainEntity": [
+              {
+                "@type": "Question",
+                "name": "Valt fraudedetectie onder hoog-risico-AI?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Niet op grond van de bepaling over kredietwaardigheid: de AI Act zondert systemen voor het opsporen van financiële fraude daar uitdrukkelijk van uit. Dat betekent niet dat er geen eisen gelden. De AVG, het bestaande financiële toezicht en je eigen risicobeheer blijven van toepassing."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Wie houdt toezicht op AI bij financiële instellingen?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Voor het gebruik van AI binnen bestaande processen doen DNB en AFM dat al via het gewone financiële toezicht; bestaande regels gelden onverkort als AI wordt toegepast. Voor de AI Act wordt de verdeling in Nederland geregeld in de Uitvoeringswet AI-verordening. Stand september 2026 is dat nog een wetsvoorstel, en de AFM heeft zorgen geuit over de voorgestelde verdeling van toezichttaken tussen AFM en DNB."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Geldt DORA ook voor AI-leveranciers?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "DORA richt zich op de financiële instelling. Die moet onder meer een informatieregister bijhouden van alle ICT-diensten die ze van derde partijen afneemt, inclusief onderuitbesteding. Een AI-dienst die je afneemt, hoort daar in de praktijk bij. Laat de precieze kwalificatie toetsen door je compliance- of juridische afdeling."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Hoe begin je met AI als kleine fintech?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Met één proces waar veel handwerk zit en waar een fout te herstellen is, zoals het voorbereiden van dossiers of het beantwoorden van standaardvragen. Leg vanaf de start vast wat het systeem doet, wie controleert en hoe je dat aantoont. Dat is goedkoper dan het achteraf reconstrueren voor een toezichthouder."
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "afbeeldingen": [
+    {
+      "regio": "header",
+      "src": "/images/freelance-ai-consultant-logo-header.png",
+      "alt": "freelanceaiconsultant.com logo",
+      "width": "600",
+      "height": "287",
+      "loading": null
+    },
+    {
+      "regio": "main",
+      "src": "/images/dave-portrait.jpg",
+      "alt": "Portret van Dave Willemstein",
+      "width": "88",
+      "height": "88",
+      "loading": "lazy"
+    },
+    {
+      "regio": "footer",
+      "src": "/images/freelance-ai-consultant-icon-footer.png",
+      "alt": "",
+      "width": "192",
+      "height": "192",
+      "loading": "lazy"
+    }
+  ],
+  "laadprestaties": {
+    "scripts": [
+      {
+        "src": "/logo-carousel/logo-carousel.js?v=2",
+        "type": null,
+        "inline_bytes": 0
+      }
+    ],
+    "stylesheets": [
+      "https://fonts.googleapis.com/css2?family=Caveat:wght@600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap",
+      "/_astro/_slug_.bq6BBoZ5.css",
+      "/_astro/_slug_.goiX3PVF.css",
+      "/logo-carousel/logo-carousel.css?v=2"
+    ],
+    "aantal_details": 4,
+    "aantal_tabellen": 0
+  }
+}
