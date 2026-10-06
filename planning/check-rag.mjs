@@ -8,7 +8,7 @@ import { blokSchema, valideer } from '../src/data/rag/schema.ts';
 import { services } from '../src/data/services.js';
 import { afzender } from '../src/lib/rag-blok.js';
 import { bronTekst, dienstSlugs } from '../src/lib/rag-prijzen.js';
-import { splitsZinnen, normaliseer, celFout, schrijfregelFout, begintMetAntwoord, begintMetBedrag, vraagtNaarBedrag,
+import { splitsZinnen, normaliseer, celFout, schrijfregelFout, begintMetAntwoord, begintMetBedrag, isKaalJaNee, vraagtNaarBedrag,
   normaliseerGetallen, getalUitdrukkingen, getalStaatIn } from '../src/lib/rag-tekst.js';
 
 // RAG_BLOKKEN: JSON-bestand met blokken in plaats van de databron, voor het controleren van concepten.
@@ -99,6 +99,8 @@ for (const { url, doc } of paginas) {
       const n = splitsZinnen(tekstVan(eerste)).length;
       if (n > 3) fout.push(`antwoordalinea heeft ${n} zinnen (maximaal 3)`);
       if (n < 2) fout.push(`antwoordalinea heeft ${n} zin (minimaal 2)`);
+      // In de antwoordalinea staat de bandbreedte, niet de opsomming per niveau.
+      if (/per maand voor \p{Lu}[\p{L}+]* \(\d+ dagen per maand\)/u.test(tekstVan(eerste))) fout.push('antwoordalinea somt de prijsniveaus op; gebruik daar de bandbreedte');
       // Afzender: voluit in de antwoordalinea bij dienstachtige blokken, bij kennisbankblokken alleen in de bronregel.
       const metAfzender = tekstVan(eerste).includes(afzender);
       if (blok.type !== 'kennisbank' && !metAfzender) fout.push(`antwoordalinea noemt de afzender (${afzender}) niet`);
@@ -121,7 +123,8 @@ for (const { url, doc } of paginas) {
 
     // Vervolgvragen.
     const vragen = alle('h3');
-    if (blok.alleenAntwoord ? vragen.length > 0 : vragen.length < 1 || vragen.length > 3) fout.push(`${vragen.length} vervolgvragen (${blok.alleenAntwoord ? 'geen' : '1 tot 3'} vereist)`);
+    // Een blok zonder vervolgvragen is toegestaan: antwoordalinea plus bronregel volstaat.
+    if (vragen.length > 3 || (blok.alleenAntwoord && vragen.length)) fout.push(`${vragen.length} vervolgvragen (${blok.alleenAntwoord ? 'geen' : 'maximaal 3'} toegestaan)`);
     for (const h3 of vragen) {
       const vraag = tekstVan(h3);
       const antwoord = h3.nextElementSibling;
@@ -129,7 +132,15 @@ for (const { url, doc } of paginas) {
       if (!antwoord || tag(antwoord) !== 'p') { fout.push(`antwoord op "${vraag}" ontbreekt`); continue; }
       const t = tekstVan(antwoord);
       // Het antwoord begint met het antwoord op de vraag; een bedrag komt daarna, tenzij de vraag naar het bedrag vraagt.
-      if (!begintMetAntwoord(t, dienstnamen, vraag)) fout.push(`antwoord op "${vraag}" begint niet met het antwoord: ja of nee bij een ja-neevraag, anders het getal of de naam`);
+      // Stelligheid: het antwoord begint in de stelligheid van de bron. Een voorbehoud staat letterlijk in de eerste
+      // zin en op de pagina zelf; een kaal Ja of Nee mag alleen als het blok de bron als onvoorwaardelijk aanmerkt.
+      const bronVraag = blok.vervolgvragen.find((v) => normaliseer(v.vraag) === normaliseer(vraag));
+      const eersteZin = splitsZinnen(t)[0] ?? '';
+      if (isKaalJaNee(t) && !bronVraag?.onvoorwaardelijk) fout.push(`antwoord op "${vraag}" begint met een kaal Ja of Nee zonder dat de bron als onvoorwaardelijk is aangemerkt`);
+      if (bronVraag?.voorbehoud) {
+        if (!eersteZin.toLowerCase().includes(bronVraag.voorbehoud.toLowerCase())) fout.push(`antwoord op "${vraag}" neemt het voorbehoud "${bronVraag.voorbehoud}" niet over in de eerste zin`);
+        if (!paginaTekst.includes(normaliseerGetallen(bronVraag.voorbehoud)) && !databron.includes(normaliseerGetallen(bronVraag.voorbehoud))) fout.push(`voorbehoud "${bronVraag.voorbehoud}" staat niet letterlijk op de eigen pagina of in prijzen.ts`);
+      } else if (!begintMetAntwoord(t, dienstnamen, vraag)) fout.push(`antwoord op "${vraag}" begint niet met het antwoord: ja of nee bij een ja-neevraag, anders het getal of de naam`);
       if (begintMetBedrag(t) && !vraagtNaarBedrag(vraag)) fout.push(`antwoord op "${vraag}" begint met een bedrag, terwijl de vraag daar niet naar vraagt`);
       // In een vervolgvraag staat de afzender niet; de volledige dienstnaam of het onderwerp wel.
       if (t.includes(afzender)) fout.push(`antwoord op "${vraag}" noemt de afzender; die hoort alleen in de antwoordalinea en de bronregel`);

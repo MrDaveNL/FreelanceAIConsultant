@@ -35,6 +35,8 @@ export const begintMetAntwoord = (tekst, namen = [], vraag = '') => {
   const zonderLidwoord = t.replace(/^(De|Het|Een)\s+/, '');
   return /^\{\{(dienst|title):/.test(zonderLidwoord) || namen.some((n) => zonderLidwoord.startsWith(n));
 };
+// Een kaal "Ja." of "Nee.": alleen toegestaan als de bron onvoorwaardelijk is.
+export const isKaalJaNee = (tekst) => /^(Ja|Nee)\.(\s|$)/.test(tekst.trim());
 export const begintMetBedrag = (tekst) => /^€|^\{\{(price|pricelc):/.test(tekst.trim());
 export const vraagtNaarBedrag = (vraag) => /kost|prijs|tarie|bedrag|investering/i.test(vraag);
 

@@ -12,6 +12,9 @@ const fractional = (dagen: number) => dagen * fractionalDagtarief;
 const eur = (bedrag: number) => '€' + String(bedrag).replace(/\B(?=(\d{3})+(?!\d))/g, '.');
 const bandbreedte = (min: number, max: number) => `${eur(min)} - ${eur(max)}`;
 
+// Geldt voor alle diensten. Blokken lezen de voorwaarde hier, zodat hij overal gelijk is.
+export const prijsvoorwaarden = 'exclusief btw en reiskosten';
+
 export const fractionalNiveaus = [
   { naam: 'Advies', dagen: 2, perMaand: fractional(2) },
   { naam: 'Lead', dagen: 4, perMaand: fractional(4) },

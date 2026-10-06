@@ -2,7 +2,7 @@
   "url": "/ai-consultancy/ai-strategie",
   "build_bestand": "dist/ai-consultancy/ai-strategie/index.html",
   "html": {
-    "bytes": 37799,
+    "bytes": 37977,
     "lang": "nl"
   },
   "beschermd": {
@@ -43,13 +43,13 @@
     },
     {
       "niveau": 3,
-      "tekst": "Is een AI strategie goedkoper als er al een AI Readiness Assessment ligt?",
+      "tekst": "Is de AI Strategy Sprint voor een AI strategie goedkoper als er al een AI Readiness Assessment ligt?",
       "regio": "main",
       "id": null
     },
     {
       "niveau": 3,
-      "tekst": "Kan de uitkomst zijn dat een organisatie nog niet klaar is voor een AI strategie?",
+      "tekst": "Kan de uitkomst van het AI Readiness Assessment zijn dat een organisatie nog niet klaar is?",
       "regio": "main",
       "id": null
     },
@@ -122,8 +122,8 @@
   ],
   "bodytekst": {
     "regio": "main",
-    "woorden": 2059,
-    "sha256": "65a2d3aa4f41677f28612cc747195b62bdfcc6ae9a6dfaa350bb225ab86223cb",
+    "woorden": 2074,
+    "sha256": "f8ee39d95a7ec92a8120c55d3c4821a33ac8f3be4b25687b247bbdb26bd9ada2",
     "blokken": [
       "Home",
       "AI Consultancy",
@@ -212,10 +212,10 @@
       "4-6 weken",
       "€15.400 - €22.400",
       "AI Strategy Sprint",
-      "Is een AI strategie goedkoper als er al een AI Readiness Assessment ligt?",
-      "Ja. De AI Strategy Sprint kost €15.400 - €22.400: de onderkant geldt als er al een AI Readiness Assessment ligt, de bovenkant bij meerdere bedrijfsonderdelen.",
-      "Kan de uitkomst zijn dat een organisatie nog niet klaar is voor een AI strategie?",
-      "Ja. Het AI Readiness Assessment kan uitwijzen dat het fundament eerst op orde moet. De organisatie krijgt dan een plan voor het fundament in plaats van een plan voor use cases.",
+      "Is de AI Strategy Sprint voor een AI strategie goedkoper als er al een AI Readiness Assessment ligt?",
+      "Ja, binnen de bandbreedte: de AI Strategy Sprint kost €15.400 - €22.400, waarbij de onderkant geldt als er al een AI Readiness Assessment ligt en de bovenkant bij meerdere bedrijfsonderdelen.",
+      "Kan de uitkomst van het AI Readiness Assessment zijn dat een organisatie nog niet klaar is?",
+      "Soms wel: de uitkomst van het AI Readiness Assessment is soms dat een organisatie nog niet klaar is. De organisatie krijgt dan een plan voor het fundament in plaats van een plan voor use cases.",
       "Bron: tarieven en doorlooptijden van Dave Willemstein. Bijgewerkt: oktober 2026.",
       "Wat is een AI strategie?",
       "Een AI strategie is de set keuzes die bepaalt waar je organisatie AI voor inzet, waarom, en wat daarvoor moet veranderen. Een goede AI strategie beantwoordt vier vragen: welke business-uitkomsten wil je bereiken, welke toepassingen dragen daar het meest aan bij, wat is er nodig aan data, mensen en governance, en wat doe je bewust niet.",

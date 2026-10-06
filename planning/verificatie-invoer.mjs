@@ -7,7 +7,7 @@ import { parseHtml, tekstVan, tag, root } from './nulmeting-lib.mjs';
 import { blokSchema, valideer } from '../src/data/rag/schema.ts';
 import { blokken as geplaatst } from '../src/data/rag/index.ts';
 import { renderRagBlok } from '../src/lib/rag-blok.js';
-import { prijsTekst, duurTekst, dienstSlugs } from '../src/lib/rag-prijzen.js';
+import { prijsTekst, duurTekst, niveausTekst, voorwaarden, dienstSlugs } from '../src/lib/rag-prijzen.js';
 import { prijzen } from '../src/data/prijzen.ts';
 import { services } from '../src/data/services.js';
 import { splitsZinnen, getalUitdrukkingen } from '../src/lib/rag-tekst.js';
@@ -21,6 +21,7 @@ for (const slug of dienstSlugs) {
   const s = services.find((x) => x.slug === slug);
   waarden.push(`${slug} | naam: ${s.title} | prijs: ${prijzen[slug].price} | prijs voluit: ${prijsTekst(slug)} | doorlooptijd: ${prijzen[slug].timing} | doorlooptijd voluit: ${duurTekst(slug)} | prijsnotitie: ${prijzen[slug].priceNote}`);
 }
+waarden.push('', `Prijsvoorwaarde voor ALLE diensten (prijsvoorwaarden in prijzen.ts): ${voorwaarden}`, `Niveaus Fractional AI Lead voluit: ${niveausTekst('fractional-ai-lead')}`);
 fs.writeFileSync(path.join(uit, 'prijzen-waarden.txt'), `${waarden.join('\n')}\n`);
 
 const bronnenVan = (url) => {

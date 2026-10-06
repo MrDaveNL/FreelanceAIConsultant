@@ -3,7 +3,7 @@
 // zodat er één implementatie van het blok is.
 import { services } from '../data/services.js';
 import { site } from '../data/site.js';
-import { prijsTekst, duurTekst } from './rag-prijzen.js';
+import { prijsTekst, duurTekst, niveausTekst, voorwaarden } from './rag-prijzen.js';
 
 // De afzender. Eén plek, zodat de naam overal gelijk is.
 export const afzender = site.name;
@@ -32,8 +32,10 @@ const maakLinker = (pagina) => {
 };
 
 // Tekst met tokens en links. Prijs en doorlooptijd komen via tokens uit prijzen.ts en worden nooit overgetypt:
-//   {{price:slug}} {{pricelc:slug}}  prijs; bij een dienst met niveaus elk niveau voluit (zie rag-prijzen.js)
+//   {{price:slug}} {{pricelc:slug}}  prijs; bij een dienst met niveaus de bandbreedte met de omvang (zie rag-prijzen.js)
 //   {{timing:slug}}                  doorlooptijd of omvang
+//   {{niveaus:slug}}                 elk prijsniveau voluit; niet in de antwoordalinea
+//   {{voorwaarden}}                  prijsvoorwaarde uit prijzen.ts (exclusief btw en reiskosten)
 //   {{title:slug}}                   naam van de dienst, zonder link
 //   {{dienst:slug}}                  naam van de dienst; de renderfunctie bepaalt waar die gelinkt wordt (zie maakLinker)
 //   {{afzender}}                     naam van de afzender
@@ -42,10 +44,12 @@ const tekst = (ruw, pagina, link) => {
   const html = esc(ruw)
     .replace(/\{\{(\w+)(?::([a-z0-9-]+))?\}\}/g, (token, veld, slug) => {
       if (veld === 'afzender' && !slug) return esc(afzender);
+      if (veld === 'voorwaarden' && !slug) return esc(voorwaarden);
       if (!slug) throw new Error(`RAG-blok ${pagina}: onbekend token ${token}`);
       if (veld === 'dienst') return link ? link(dienstUrl(slug), esc(dienst(slug).title)) : esc(dienst(slug).title);
       if (veld === 'title') return esc(dienst(slug).title);
       if (veld === 'timing') return esc(duurTekst(dienst(slug).slug));
+      if (veld === 'niveaus' && niveausTekst(dienst(slug).slug)) return esc(niveausTekst(dienst(slug).slug));
       if (veld === 'price') return esc(prijsTekst(dienst(slug).slug));
       if (veld === 'pricelc') return esc(prijsTekst(dienst(slug).slug).replace(/^\p{Lu}/u, (c) => c.toLowerCase()));
       throw new Error(`RAG-blok ${pagina}: onbekend token ${token}`);
@@ -59,6 +63,7 @@ const cel = (waarde, pagina, link) => {
   if (typeof waarde === 'string') return tekst(waarde, pagina, link);
   if ('href' in waarde) return link(waarde.href, tekst(waarde.tekst, pagina));
   if (waarde.veld === 'naam') return link(dienstUrl(waarde.dienst), esc(dienst(waarde.dienst).title));
+  if (waarde.veld === 'niveaus') return esc(niveausTekst(dienst(waarde.dienst).slug) ?? prijsTekst(dienst(waarde.dienst).slug));
   return esc(waarde.veld === 'prijs' ? prijsTekst(dienst(waarde.dienst).slug) : duurTekst(dienst(waarde.dienst).slug));
 };
 
@@ -95,6 +100,8 @@ export function renderRagDelen(blok) {
   // Zonder vraagkop, antwoordalinea en bron rendert het blok niets.
   if (!blok?.vraagkop || !blok.antwoord || !blok.bron?.tekst) return { antwoord: '', vervolg: '' };
   const { pagina } = blok;
+  // In de antwoordalinea staat de bandbreedte, niet de opsomming per niveau.
+  if (/\{\{niveaus:/.test(blok.antwoord)) throw new Error(`RAG-blok ${pagina}: {{niveaus:...}} hoort niet in de antwoordalinea`);
   const [jaar, maand] = blok.bijgewerkt.split('-');
   const link = maakLinker(pagina);
   // Eerst de tabel, zodat een doel dat in een tabelrij staat daar zijn ene link krijgt.

@@ -1,7 +1,7 @@
 // Datamodel voor de RAG-ready contentblokken (zie docs/rag-inventarisatie.md, hoofdstuk 9).
 // Elk blok en elke dienst wordt bij het laden gevalideerd: een ontbrekend of ongeldig veld laat de build falen.
 import { z } from 'astro/zod';
-import { begintMetAntwoord, begintMetBedrag, vraagtNaarBedrag, celFout, schrijfregelFout, telZinnen } from '../../lib/rag-tekst.js';
+import { begintMetAntwoord, begintMetBedrag, isKaalJaNee, splitsZinnen, vraagtNaarBedrag, celFout, schrijfregelFout, telZinnen } from '../../lib/rag-tekst.js';
 
 const tekst = z
   .string()
@@ -48,7 +48,7 @@ const celTekst = tekst.superRefine((waarde, ctx) => {
 export const celSchema = z.union([
   celTekst,
   z.object({ tekst: celTekst, href: pad }).strict(),
-  z.object({ dienst: slug, veld: z.enum(['naam', 'prijs', 'doorlooptijd']) }).strict(),
+  z.object({ dienst: slug, veld: z.enum(['naam', 'prijs', 'niveaus', 'doorlooptijd']) }).strict(),
 ]);
 
 export const tabelSchema = z
@@ -65,11 +65,25 @@ export const tabelSchema = z
     });
   });
 
-export const vervolgvraagSchema = z.object({
-  vraag: tekst.refine((t) => t.endsWith('?'), 'moet op een vraagteken eindigen'),
-  // De afzender staat alleen in de antwoordalinea en de bronregel; hier volstaat de volledige dienstnaam.
-  antwoord: tekst.refine((t) => !t.includes('{{afzender}}'), 'mag de afzender niet noemen'),
-}).refine((v) => begintMetAntwoord(v.antwoord, [], v.vraag), { path: ['antwoord'], message: 'moet beginnen met het antwoord op de vraag: ja of nee bij een ja-neevraag, anders het getal of de naam' });
+export const vervolgvraagSchema = z
+  .object({
+    vraag: tekst.refine((t) => t.endsWith('?'), 'moet op een vraagteken eindigen'),
+    // De afzender staat alleen in de antwoordalinea en de bronregel; hier volstaat de volledige dienstnaam.
+    antwoord: tekst.refine((t) => !t.includes('{{afzender}}'), 'mag de afzender niet noemen'),
+    // Stelligheid van de bron. Maakt de bron een voorbehoud ("vaak", "meestal", "minder geschikt"), dan staat dat
+    // hier letterlijk en komt het terug in de eerste zin van het antwoord. Een kaal "Ja." of "Nee." mag alleen
+    // met onvoorwaardelijk: true, als de bron zelf geen voorbehoud maakt.
+    voorbehoud: tekst.optional(),
+    onvoorwaardelijk: z.boolean().default(false),
+  })
+  .superRefine((v, ctx) => {
+    const fout = (message) => ctx.addIssue({ code: z.ZodIssueCode.custom, path: ['antwoord'], message });
+    const eersteZin = splitsZinnen(v.antwoord)[0] ?? '';
+    if (v.voorbehoud && v.onvoorwaardelijk) fout('heeft een voorbehoud en is tegelijk als onvoorwaardelijk gemarkeerd');
+    if (v.voorbehoud && !eersteZin.toLowerCase().includes(v.voorbehoud.toLowerCase())) fout(`eerste zin neemt het voorbehoud "${v.voorbehoud}" niet letterlijk over`);
+    if (isKaalJaNee(v.antwoord) && !v.onvoorwaardelijk) fout('begint met een kaal Ja of Nee; neem het voorbehoud van de bron over in de eerste zin, of zet onvoorwaardelijk: true als de bron geen voorbehoud maakt');
+    if (!v.voorbehoud && !begintMetAntwoord(v.antwoord, [], v.vraag)) fout('moet beginnen met het antwoord op de vraag: ja of nee bij een ja-neevraag, anders het getal of de naam');
+  });
 
 export const blokSchema = z
   .object({
@@ -88,6 +102,9 @@ export const blokSchema = z
     // true: uitzondering voor een pagina die de vraag zelf al volledig uitwerkt (zoals /tarieven).
     // Het blok bestaat dan alleen uit vraagkop, antwoordalinea en bronregel, zonder tabel en vervolgvragen.
     alleenAntwoord: z.boolean().default(false),
+    // Feiten van buiten de eigen dienstverlening (wetgeving, prijzen van tools, salarissen, marktcijfers).
+    // Een blok met zo'n feit blijft concept tot het feit apart is bevestigd.
+    externeFeiten: z.array(z.object({ zin: z.string(), soort: z.string() })).optional(),
     bron: z.object({ tekst, href: z.union([pad, z.string().url()]).optional() }),
     bijgewerkt: maand,
     // true: de teksten zijn een concept en nog niet beoordeeld. check-rag.mjs meldt elk concept.
@@ -96,8 +113,6 @@ export const blokSchema = z
   .superRefine((blok, ctx) => {
     if (!blok.vraagkop.toLowerCase().includes(blok.onderwerp.toLowerCase()))
       ctx.addIssue({ code: z.ZodIssueCode.custom, path: ['vraagkop'], message: `moet "${blok.onderwerp}" bij naam noemen` });
-    if (!blok.alleenAntwoord && blok.vervolgvragen.length < 1)
-      ctx.addIssue({ code: z.ZodIssueCode.custom, path: ['vervolgvragen'], message: 'minimaal 1 vervolgvraag' });
     if (blok.alleenAntwoord && (blok.vervolgvragen.length || blok.tabel))
       ctx.addIssue({ code: z.ZodIssueCode.custom, path: ['alleenAntwoord'], message: 'een blok met alleenAntwoord heeft geen tabel en geen vervolgvragen' });
     // Afzender: bij dienstachtige blokken in de antwoordalinea en de bronregel, bij kennisbankblokken alleen in de bronregel.
@@ -108,6 +123,8 @@ export const blokSchema = z
     for (const [i, v] of blok.vervolgvragen.entries())
       if (begintMetBedrag(v.antwoord) && !vraagtNaarBedrag(v.vraag))
         ctx.addIssue({ code: z.ZodIssueCode.custom, path: ['vervolgvragen', i, 'antwoord'], message: 'begint met een bedrag terwijl de vraag daar niet naar vraagt' });
+    if (blok.externeFeiten?.length && /^tarieven en doorlooptijden van \{\{afzender\}\}$/.test(blok.bron.tekst.trim()))
+      ctx.addIssue({ code: z.ZodIssueCode.custom, path: ['bron', 'tekst'], message: 'blok bevat een extern feit; tarieven en doorlooptijden mag dan niet de enige bron zijn' });
     if (!blok.bron.tekst.includes('{{afzender}}'))
       ctx.addIssue({ code: z.ZodIssueCode.custom, path: ['bron', 'tekst'], message: 'moet de afzender noemen ({{afzender}})' });
   });

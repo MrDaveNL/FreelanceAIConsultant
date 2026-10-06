@@ -1,6 +1,6 @@
 // Hoe prijs en doorlooptijd van een dienst in een RAG-blok staan. Alles komt letterlijk uit src/data/prijzen.ts.
 // Gedeeld door de renderfunctie (src/lib/rag-blok.js) en de controle (planning/check-rag.mjs).
-import { prijzen, fractionalNiveaus } from '../data/prijzen.ts';
+import { prijzen, fractionalNiveaus, prijsvoorwaarden } from '../data/prijzen.ts';
 
 // Zelfde notatie als in prijzen.ts: €7.000, punt als duizendtalscheiding.
 const eur = (bedrag) => '€' + String(bedrag).replace(/\B(?=(\d{3})+(?!\d))/g, '.');
@@ -10,17 +10,23 @@ const opsomming = (items, voegwoord) => (items.length > 1 ? `${items.slice(0, -1
 // betekent staat daar niet en wordt dus nergens ingevuld.
 const niveaus = { 'fractional-ai-lead': fractionalNiveaus };
 
-// Elk prijsniveau voluit, zonder schuine strepen: bedrag, periode, naam van het niveau en omvang.
+// Voorwaarde die voor alle diensten geldt ("exclusief btw en reiskosten").
+export const voorwaarden = prijsvoorwaarden;
+
+// Prijs van een dienst. Bij een dienst met niveaus de bandbreedte met de omvang, zonder schuine strepen.
 export const prijsTekst = (slug) =>
   niveaus[slug]
-    ? opsomming(niveaus[slug].map((n) => `${eur(n.perMaand)} per maand voor ${n.naam} (${n.dagen} dagen per maand)`), 'en')
+    ? `${eur(prijzen[slug].minPrice)} - ${eur(prijzen[slug].maxPrice)} per maand, voor ${opsomming(niveaus[slug].map((n) => String(n.dagen)), 'of')} dagen per maand`
     : prijzen[slug].price;
+// Elk niveau voluit: bedrag, periode, naam en omvang. Alleen voor een tabelrij of een vervolgvraag over de niveaus.
+export const niveausTekst = (slug) =>
+  niveaus[slug] ? opsomming(niveaus[slug].map((n) => `${eur(n.perMaand)} per maand voor ${n.naam} (${n.dagen} dagen per maand)`), 'en') : null;
 export const duurTekst = (slug) =>
   niveaus[slug] ? `${opsomming(niveaus[slug].map((n) => String(n.dagen)), 'of')} dagen per maand` : prijzen[slug].timing;
 
 // Alle tekst die de databron over één dienst bevat, voor de controle "staat dit letterlijk in prijzen.ts?".
 export const bronTekst = (slug) => {
   const p = prijzen[slug];
-  return [p.price, p.timing, p.priceNote, p.cardPrice ?? '', p.cardTiming ?? '', prijsTekst(slug), duurTekst(slug)].join(' | ');
+  return [p.price, p.timing, p.priceNote, p.cardPrice ?? '', p.cardTiming ?? '', prijsTekst(slug), niveausTekst(slug) ?? '', duurTekst(slug), voorwaarden].join(' | ');
 };
 export const dienstSlugs = Object.keys(prijzen);

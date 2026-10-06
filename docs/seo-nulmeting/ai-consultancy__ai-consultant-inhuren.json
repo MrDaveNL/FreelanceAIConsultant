@@ -2,7 +2,7 @@
   "url": "/ai-consultancy/ai-consultant-inhuren",
   "build_bestand": "dist/ai-consultancy/ai-consultant-inhuren/index.html",
   "html": {
-    "bytes": 34372,
+    "bytes": 35665,
     "lang": "nl"
   },
   "beschermd": {
@@ -78,6 +78,18 @@
       "id": "wat-kost-een-ai-consultant-inhuren"
     },
     {
+      "niveau": 3,
+      "tekst": "Wat is het kleinste pakket met een vaste prijs om een AI consultant in te huren?",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 3,
+      "tekst": "Kan een AI consultant inhuren ook voor afgebakend advies?",
+      "regio": "main",
+      "id": null
+    },
+    {
       "niveau": 2,
       "tekst": "Zo start je",
       "regio": "main",
@@ -98,8 +110,8 @@
   ],
   "bodytekst": {
     "regio": "main",
-    "woorden": 1592,
-    "sha256": "763515982d33bf114d29ad68aec8f79df137874330e37508b74e647371eabf17",
+    "woorden": 1712,
+    "sha256": "be01a99381fe84c282f2f4285309577d3f28bc1360ffa7bec63af66b5ec019ad",
     "blokken": [
       "Home",
       "AI Consultancy",
@@ -201,6 +213,7 @@
       "Werkwijze en deliverables",
       "Vraag vooraf wat je aan het eind in handen hebt en wanneer de opdracht klaar is. “Dat hangt ervan af” is geen antwoord. Goede deliverables zijn gemaakt om mee te besluiten: een geprioriteerde lijst use cases met eigenaren, een AI strategie met expliciete keuzes, een AI roadmap met planning en budget, of een beslisdocument voor een leverancierskeuze. Vraag ook of je de kaders en scorecards daarna zelf mag hergebruiken.",
       "Wat kost een AI consultant inhuren?",
+      "Een AI consultant inhuren bij Dave Willemstein gaat via vaste pakketten met zichtbare vanaf-prijzen. Het AI Readiness Assessment kost €7.000, de AI Strategy Sprint kost €15.400 - €22.400 en de Fractional AI Lead kost €2.600 - €10.400 per maand, voor 2, 4 of 8 dagen per maand. De bedragen gelden exclusief btw en reiskosten.",
       "Ik werk niet met een open uurtarief, maar met vaste pakketten en zichtbare vanaf-prijzen. Er zijn drie inhuurvormen:",
       "Inhuurvorm",
       "Voorbeeld",
@@ -219,6 +232,11 @@
       "€2.600 / €5.200 / €10.400 per maand",
       "Het kleinste pakket met een vaste prijs is de Executive Briefing van €2.800. Een Fractional AI Lead is de vorm om een AI consultant voor langere tijd in te huren: 2, 4 of 8 dagen / maand, met een minimale looptijd van 3 maanden, daarna maandelijks opzegbaar, zonder dat je direct een fulltime Head of AI aanneemt.",
       "Alle bedragen zijn exclusief btw en reiskosten. Een volledig overzicht staat op de pagina met tarieven en pakketten.",
+      "Wat is het kleinste pakket met een vaste prijs om een AI consultant in te huren?",
+      "De Executive Briefing. Dat pakket kost €2.800.",
+      "Kan een AI consultant inhuren ook voor afgebakend advies?",
+      "Ja. AI consultant inhuren kan ook voor afgebakend advies, zoals een second opinion, een workshop of een korte toets, tegen een vaste prijs in het voorstel.",
+      "Bron: tarieven en doorlooptijden van Dave Willemstein. Bijgewerkt: oktober 2026.",
       "Zo start je",
       "Een start is bewust eenvoudig en verplicht je tot niets.",
       "Eerste gesprekDertig minuten, online of op locatie. Geen presentatie, geen offerte ter plekke.",
@@ -386,6 +404,27 @@
     {
       "regio": "main",
       "soort": "intern",
+      "href": "/diensten/ai-readiness-assessment",
+      "anker": "AI Readiness Assessment",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/diensten/ai-strategy-sprint",
+      "anker": "AI Strategy Sprint",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/diensten/fractional-ai-lead",
+      "anker": "Fractional AI Lead",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
       "href": "/diensten/fractional-ai-lead",
       "anker": "Fractional AI Lead",
       "rel": null
@@ -395,6 +434,20 @@
       "soort": "intern",
       "href": "/tarieven",
       "anker": "tarieven en pakketten",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/diensten/executive-briefing",
+      "anker": "Executive Briefing",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/tarieven",
+      "anker": "tarieven en doorlooptijden van Dave Willemstein",
       "rel": null
     },
     {
