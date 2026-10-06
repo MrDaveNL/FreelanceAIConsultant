@@ -9,6 +9,12 @@ import { meetUrl, nulmetingDir, distPaginas, urlVanBestand, naamVanUrl } from '.
 const args = process.argv.slice(2);
 const toonToevoegingen = args.includes('--toon-toevoegingen');
 const gevraagd = args.filter((a) => a.startsWith('/'));
+const onbekend = args.filter((a) => a !== '--toon-toevoegingen' && !a.startsWith('/'));
+if (onbekend.length) {
+  // Git Bash zet een argument als /pad om naar een Windows-pad; gebruik daar MSYS_NO_PATHCONV=1.
+  console.error(`Onbekend argument: ${onbekend.join(' ')}. Geef URL's op als /pad.`);
+  process.exit(1);
+}
 
 const gelijk = (a, b) => JSON.stringify(a) === JSON.stringify(b);
 const kort = (v) => {

@@ -9,6 +9,12 @@ import { distPaginas, meet, distDir, nulmetingDir, urlVanBestand, naamVanUrl, be
 const args = process.argv.slice(2);
 const overschrijf = args.includes('--overschrijf');
 const gevraagd = args.filter((a) => a.startsWith('/'));
+const onbekend = args.filter((a) => a !== '--overschrijf' && !a.startsWith('/'));
+if (onbekend.length) {
+  // Git Bash zet een argument als /pad om naar een Windows-pad; gebruik daar MSYS_NO_PATHCONV=1.
+  console.error(`Onbekend argument: ${onbekend.join(' ')}. Geef URL's op als /pad.`);
+  process.exit(1);
+}
 const urls = gevraagd.length ? gevraagd : distPaginas().map(urlVanBestand);
 const vandaag = new Date().toISOString().slice(0, 10);
 
