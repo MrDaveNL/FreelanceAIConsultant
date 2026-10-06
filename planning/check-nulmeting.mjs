@@ -16,14 +16,26 @@ const kort = (v) => {
   return s.length > 160 ? `${s.slice(0, 157)}...` : s;
 };
 // Komt elke waarde uit `voor` in dezelfde volgorde terug in `na`? Geeft de ontbrekende en de toegevoegde waarden.
+// Langste gemeenschappelijke deelrij, zodat één gewijzigde regel niet alles erna als ontbrekend meldt.
 const volgorde = (voor, na) => {
-  let i = 0;
+  const n = voor.length;
+  const m = na.length;
+  const lcs = Array.from({ length: n + 1 }, () => new Uint16Array(m + 1));
+  for (let i = n - 1; i >= 0; i--)
+    for (let j = m - 1; j >= 0; j--)
+      lcs[i][j] = voor[i] === na[j] ? lcs[i + 1][j + 1] + 1 : Math.max(lcs[i + 1][j], lcs[i][j + 1]);
+  const ontbreekt = [];
   const toegevoegd = [];
-  for (const item of na) {
-    if (i < voor.length && item === voor[i]) i++;
-    else toegevoegd.push(item);
+  let i = 0;
+  let j = 0;
+  while (i < n && j < m) {
+    if (voor[i] === na[j]) { i++; j++; }
+    else if (lcs[i + 1][j] >= lcs[i][j + 1]) ontbreekt.push(voor[i++]);
+    else toegevoegd.push(na[j++]);
   }
-  return { ontbreekt: voor.slice(i), toegevoegd };
+  ontbreekt.push(...voor.slice(i));
+  toegevoegd.push(...na.slice(j));
+  return { ontbreekt, toegevoegd };
 };
 
 const metingen = fs.readdirSync(nulmetingDir).filter((f) => f.endsWith('.json'))
