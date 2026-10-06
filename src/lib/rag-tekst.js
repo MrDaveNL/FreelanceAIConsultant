@@ -22,4 +22,5 @@ export const celFout = (tekst) =>
   !tekst.trim() ? 'is leeg' : /(^|[^\p{L}])(zie|n\.v\.t\.?|nvt|volgt)([^\p{L}]|$)/iu.test(tekst) ? 'bevat "zie", "n.v.t." of "volgt"' : null;
 
 // Een antwoord op een vervolgvraag begint met ja, nee of het getal.
-export const begintMetJaNeeOfGetal = (tekst) => /^(Ja|Nee)[.,:]|^€?\s?\d/.test(tekst.trim());
+// In de databron mag dat getal een token zijn ({{timing:slug}} of {{price:slug}}).
+export const begintMetJaNeeOfGetal = (tekst) => /^(Ja|Nee)[.,:]|^€?\s?\d|^\{\{(timing|price|pricelc):/.test(tekst.trim());
