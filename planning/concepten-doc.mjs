@@ -37,7 +37,7 @@ const volgorde = ["Dienstpagina's", 'Dienstenoverzicht en tarieven', "Hubs en ov
 const groepen = new Map(volgorde.map((v) => [v, []]));
 const getallenMis = [];
 for (const c of concepten) {
-  const { herkomst, opmerking, _groep, status, verificatie, geschrapt, ...velden } = c;
+  const { herkomst, opmerking, _groep, status, verificatie, geschrapt, wijzigingen, externeFeiten, ...velden } = c;
   const [blok] = valideer(blokSchema, [{ bijgewerkt: '2026-10', concept: true, ...velden }], 'concept', 'pagina');
   const sectie = parseHtml(`<div>${renderRagBlok(blok)}</div>`).querySelector('div');
   const pagina = parseHtml(fs.readFileSync(path.join(distDir, bestandVanUrl(blok.pagina)), 'utf8'));
@@ -58,6 +58,7 @@ for (const c of concepten) {
   r.push(`Pagina: ${h1}${robots ? ` · staat op \`${robots}\`` : ''}`);
   r.push('');
   r.push(`- **Status:** ${status ?? 'concept'}${verificatie ? ` (${verificatie.bevestigd} van ${verificatie.zinnen} zinnen bevestigd, ${verificatie.geschrapt} geschrapt, ${verificatie.voorgelegd} voorgelegd, ${verificatie.bevindingen} bevinding(en) open)` : ''}`);
+  if (externeFeiten?.length) r.push(`- **Externe feiten:** ${externeFeiten.length} zin(nen) met een feit van buiten de eigen dienstverlening (${[...new Set(externeFeiten.map((x) => x.soort))].join(', ')}). Het blok blijft daarom concept; zie docs/rag-verificatie.md.`);
   r.push(`- **Bloktype:** ${blok.type}${blok.alleenAntwoord ? ' (alleen vraagkop, antwoordalinea en bronregel)' : ''}`);
   r.push(blok.onderBestaandeKop
     ? `- **Plek:** antwoordalinea direct onder de bestaande H2 "${blok.vraagkop}"; vervolgvragen en bronregel aan het eind van die sectie. Geen eigen kop.`
