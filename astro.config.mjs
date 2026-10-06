@@ -1,5 +1,6 @@
 import { defineConfig } from 'astro/config';
 import { services } from './src/data/services.js';
+import { remarkRagBlok } from './src/lib/remark-rag-blok.js';
 
 // Vervangt {{price:slug}}, {{pricelc:slug}} (midden in een zin) en {{timing:slug}} in Markdown door de waarden uit services.js,
 // zodat prijzen op nieuwe pagina's altijd 1-op-1 gelijk zijn aan de dienstpagina's.
@@ -27,5 +28,5 @@ export default defineConfig({
   site: 'https://freelanceaiconsultant.com',
   output: 'static',
   trailingSlash: 'never',
-  markdown: { remarkPlugins: [remarkServiceTokens] },
+  markdown: { remarkPlugins: [remarkServiceTokens, remarkRagBlok] },
 });

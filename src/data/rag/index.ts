@@ -3,8 +3,9 @@ import { blokSchema, valideer } from './schema.ts';
 import type { Blok } from './schema.ts';
 import { getDienst } from './diensten.ts';
 import dienstenAiReadinessAssessment from './blokken/diensten-ai-readiness-assessment.ts';
+import aiConsultancyAiStrategie from './blokken/ai-consultancy-ai-strategie.ts';
 
-const bronnen: unknown[] = [dienstenAiReadinessAssessment];
+const bronnen: unknown[] = [dienstenAiReadinessAssessment, aiConsultancyAiStrategie];
 
 export const blokken: Blok[] = valideer(blokSchema, bronnen, 'blok', 'pagina');
 
