@@ -2,7 +2,7 @@
   "url": "/kennisbank/notuleren-met-ai",
   "build_bestand": "dist/kennisbank/notuleren-met-ai/index.html",
   "html": {
-    "bytes": 36065,
+    "bytes": 37624,
     "lang": "nl"
   },
   "beschermd": {
@@ -81,7 +81,7 @@
   "bodytekst": {
     "regio": "main",
     "woorden": 1802,
-    "sha256": "4b24576878dc79ee65c9325ec888e6fd5380c38477691c7b9458f227ccdced4e",
+    "sha256": "7f1c3282c1c9807496c00b332b11a7544cad97be0a6667774848f9d5eb8590ee",
     "blokken": [
       "Home",
       "Kennisbank",
@@ -207,7 +207,7 @@
       "Dave Willemstein Onafhankelijk AI-adviseur",
       "Onafhankelijk: geen commissies, geen partnerdeals, geen marge op implementatiepartners.",
       "Over mij Mijn partnernetwerk",
-      "Weten waar je staat met AI? Bekijk de AI Readiness Assessment →",
+      "Weten waar je staat met AI? Bekijk het AI Readiness Assessment →",
       "Veelgestelde vragen",
       "Mag ik een vergadering opnemen zonder dat iedereen het weet?+",
       "Als organisatie vrijwel nooit. Over het opnemen van telefoongesprekken zegt de Autoriteit Persoonsgegevens dat medewerkers het recht hebben om te weten dat hun gesprek wordt opgenomen, en dat heimelijk opnemen alleen in uitzonderlijke situaties mag, zoals bij een vermoeden dat een werknemer iets strafbaars doet. Voor vergaderingen ligt dezelfde lijn voor de hand: vooraf aankondigen, uitleggen waarvoor en de opname zichtbaar starten.",
@@ -413,7 +413,7 @@
       "regio": "main",
       "soort": "intern",
       "href": "/diensten/ai-readiness-assessment",
-      "anker": "Weten waar je staat met AI? Bekijk de AI Readiness Assessment →",
+      "anker": "Weten waar je staat met AI? Bekijk het AI Readiness Assessment →",
       "rel": null
     },
     {

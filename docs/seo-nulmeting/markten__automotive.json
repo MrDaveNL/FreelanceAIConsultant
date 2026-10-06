@@ -2,7 +2,7 @@
   "url": "/markten/automotive",
   "build_bestand": "dist/markten/automotive/index.html",
   "html": {
-    "bytes": 35019,
+    "bytes": 36578,
     "lang": "nl"
   },
   "beschermd": {
@@ -93,7 +93,7 @@
   "bodytekst": {
     "regio": "main",
     "woorden": 1831,
-    "sha256": "8087a267dcb36c46cd074d2dfe3a6b6d5f4f85886eef3a0ba4d4861ed3b2ef20",
+    "sha256": "4f0a193255070d4fa9544c4e5d1dced277028e28e21d0292640e94dbda6903d7",
     "blokken": [
       "Home",
       "Markten",
@@ -212,7 +212,7 @@
       "Dave Willemstein Onafhankelijk AI-adviseur",
       "Onafhankelijk: geen commissies, geen partnerdeals, geen marge op implementatiepartners.",
       "Over mij Mijn partnernetwerk",
-      "Weten waar je staat met AI? Bekijk de AI Readiness Assessment →",
+      "Weten waar je staat met AI? Bekijk het AI Readiness Assessment →",
       "Veelgestelde vragen",
       "Welke AI-toepassing levert een autobedrijf meestal het snelst iets op?+",
       "Vaak de opvolging van leads en klantvragen, omdat daar het knelpunt goed meetbaar is: hoe snel reageer je, en hoeveel aanvragen blijven liggen. Maar dat is een vuistregel. Als je werkplaats het echte knelpunt is, begin je daar. Meet eerst waar tijd en omzet weglekken en kies dan pas de toepassing.",
@@ -435,7 +435,7 @@
       "regio": "main",
       "soort": "intern",
       "href": "/diensten/ai-readiness-assessment",
-      "anker": "Weten waar je staat met AI? Bekijk de AI Readiness Assessment →",
+      "anker": "Weten waar je staat met AI? Bekijk het AI Readiness Assessment →",
       "rel": null
     },
     {

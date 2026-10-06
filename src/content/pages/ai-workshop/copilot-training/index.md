@@ -13,7 +13,7 @@ keyphrase: training copilot
 eyebrow: "Copilot training"
 lede: "Licenties voor Microsoft Copilot zijn snel uitgedeeld; dagelijks gebruik komt niet vanzelf. Een training Copilot laat je team zien wat het in Outlook, Teams, Word en Excel echt oplevert, waar het tekortschiet en hoe je veilig werkt met bedrijfsdata. Praktisch, met jullie eigen taken als oefenmateriaal."
 primaryCta: { label: "Vraag een training aan", href: /contact }
-secondaryCta: { label: "Bekijk de AI Readiness Assessment", href: /diensten/ai-readiness-assessment }
+secondaryCta: { label: "Bekijk het AI Readiness Assessment", href: /diensten/ai-readiness-assessment }
 summary:
   - "Oefenen met eigen taken in Outlook, Teams, Word, Excel en PowerPoint."
   - "Aandacht voor rechten, gevoelige data en het controleren van uitkomsten."

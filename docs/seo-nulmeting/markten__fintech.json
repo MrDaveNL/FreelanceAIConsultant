@@ -2,7 +2,7 @@
   "url": "/markten/fintech",
   "build_bestand": "dist/markten/fintech/index.html",
   "html": {
-    "bytes": 37056,
+    "bytes": 38616,
     "lang": "nl"
   },
   "beschermd": {
@@ -81,7 +81,7 @@
   "bodytekst": {
     "regio": "main",
     "woorden": 1834,
-    "sha256": "d9d9d41b0d06c409fe70a61d93dcf5d93093084cf70b15198d1da4e5be8a2fb2",
+    "sha256": "a7166776058598ed3270e93bbeb0d21828fb7e709b162d6aeb4b86235e2237ff",
     "blokken": [
       "Home",
       "Markten",
@@ -186,7 +186,7 @@
       "Uitstel van de AI Act-regels is geen reden om te wachten. Een kredietmodel dat je nu inkoopt of laat bouwen, gebruik je waarschijnlijk nog als de eisen in december 2027 gaan gelden. Neem ze dus nu al mee in je ontwerp en selectie. Wat de AI Act per risicocategorie vraagt, staat op de pagina over de AI Act; hoe je daar een breder AI-beleid omheen zet, lees je op de overzichtspagina. Hoe je governance proportioneel houdt, met zware eisen alleen waar het risico dat rechtvaardigt, beschrijf ik in AI-governance zonder bureaucratie. Dit is geen juridisch advies: laat de kwalificatie van een concrete toepassing toetsen door je compliance- of juridische afdeling.",
       "AI consultancy voor financiële instellingen",
       "Wat ik voor banken, verzekeraars, fintechs en investeerders doe, is hetzelfde als in andere sectoren, maar met de lat hoger voor uitlegbaarheid en herleidbaarheid:",
-      "Prioriteren: welke toepassingen leveren iets op en passen binnen je risicobereidheid? Een logisch begin is een nulmeting met de AI Readiness Assessment.",
+      "Prioriteren: welke toepassingen leveren iets op en passen binnen je risicobereidheid? Een logisch begin is een nulmeting met het AI Readiness Assessment.",
       "Kiezen: een leverancier of bouwpartij selecteren met criteria voor uitlegbaarheid, auditspoor, datarechten en exitpad. Met een Vendor Review leg je die keuze vast op een manier waar inkoop, compliance en audit mee verder kunnen.",
       "Beoordelen: voor investeerders en corporate-developmentteams die een AI-propositie of -leverancier willen doorlichten, is er de AI Due Diligence, altijd onder NDA.",
       "Borgen: als je geen fulltime Head of AI hebt, kan een Fractional AI Lead de AI-agenda bewaken en de afstemming met risk, compliance en audit organiseren.",
@@ -195,7 +195,7 @@
       "Dave Willemstein Onafhankelijk AI-adviseur",
       "Onafhankelijk: geen commissies, geen partnerdeals, geen marge op implementatiepartners.",
       "Over mij Mijn partnernetwerk",
-      "Weten waar je staat met AI? Bekijk de AI Readiness Assessment →",
+      "Weten waar je staat met AI? Bekijk het AI Readiness Assessment →",
       "Veelgestelde vragen",
       "Valt fraudedetectie onder hoog-risico-AI?+",
       "Niet op grond van de bepaling over kredietwaardigheid: de AI Act zondert systemen voor het opsporen van financiële fraude daar uitdrukkelijk van uit. Dat betekent niet dat er geen eisen gelden. De AVG, het bestaande financiële toezicht en je eigen risicobeheer blijven van toepassing.",
@@ -477,7 +477,7 @@
       "regio": "main",
       "soort": "intern",
       "href": "/diensten/ai-readiness-assessment",
-      "anker": "Weten waar je staat met AI? Bekijk de AI Readiness Assessment →",
+      "anker": "Weten waar je staat met AI? Bekijk het AI Readiness Assessment →",
       "rel": null
     },
     {

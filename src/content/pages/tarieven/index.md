@@ -13,7 +13,7 @@ keyphrase: ai consult kosten
 eyebrow: Tarieven
 lede: "Wat AI consultancy kost, hangt af van de vraag die je wilt beantwoorden. Daarom werk ik met vaste pakketten en zichtbare vanaf-prijzen in plaats van een open uurtarief. Zo weet je vóór het eerste gesprek ongeveer of het in je budget past."
 primaryCta: { label: "Plan een adviesgesprek", href: /contact }
-secondaryCta: { label: "Bekijk de AI Readiness Assessment", href: /diensten/ai-readiness-assessment }
+secondaryCta: { label: "Bekijk het AI Readiness Assessment", href: /diensten/ai-readiness-assessment }
 summary:
   - "Vaste prijs, bandbreedte of maandbedrag per pakket, geen open urenstaat."
   - "Alle bedragen exclusief btw en reiskosten."
@@ -74,7 +74,7 @@ Alle bedragen op deze pagina zijn exclusief btw en reiskosten.
 
 ### AI Readiness Assessment
 
-Een nuchtere doorlichting op strategie, data, technologie, mensen en governance, in {{timing:ai-readiness-assessment}}. Je krijgt een readiness-score, een gap-analyse en een 90-dagenplan. De prijs is vast: {{price:ai-readiness-assessment}}, inclusief eindpresentatie aan MT of board. Dit is voor de meeste organisaties het logische startpunt; alle details staan op de pagina van de [AI Readiness Assessment](/diensten/ai-readiness-assessment).
+Een nuchtere doorlichting op strategie, data, technologie, mensen en governance, in {{timing:ai-readiness-assessment}}. Je krijgt een readiness-score, een gap-analyse en een 90-dagenplan. De prijs is vast: {{price:ai-readiness-assessment}}, inclusief eindpresentatie aan MT of board. Dit is voor de meeste organisaties het logische startpunt; alle details staan op de pagina van het [AI Readiness Assessment](/diensten/ai-readiness-assessment).
 
 ### AI Strategy Sprint
 

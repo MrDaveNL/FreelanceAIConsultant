@@ -2,7 +2,7 @@
   "url": "/markten",
   "build_bestand": "dist/markten/index.html",
   "html": {
-    "bytes": 28240,
+    "bytes": 29801,
     "lang": "nl"
   },
   "beschermd": {
@@ -111,14 +111,14 @@
   "bodytekst": {
     "regio": "main",
     "woorden": 1242,
-    "sha256": "21541c0a5407a8cf25351c7e89927e53bf50f14923826e7be7b6acef0bf64aa1",
+    "sha256": "6cd3f985275f1396a990c16ed2d1d4b55681bd999f00c8452356771f5b4affb8",
     "blokken": [
       "Home",
       "Markten",
       "AI per sector",
       "AI per branche: toepassingen per sector",
       "AI per branche verschilt minder dan je zou denken, en tegelijk meer dan leveranciers je vertellen. De vragen zijn overal hetzelfde: wat pak je eerst aan, wat koop je en hoe houd je grip. Het verschil zit in de regels, de data en het risico als het misgaat.",
-      "Plan een adviesgesprek → Bekijk de AI Readiness Assessment →",
+      "Plan een adviesgesprek → Bekijk het AI Readiness Assessment →",
       "Geschreven door Dave Willemstein, onafhankelijk AI consultant · gepubliceerd 23 september 2026",
       "IN HET KORT",
       "Prioriteren, kiezen en borgen: die vragen zijn in elke sector gelijk.",
@@ -223,11 +223,11 @@
       "Industrie: een AI-roadmap voor een internationale maakorganisatie, met losse pilots die onder één governance kwamen.",
       "Zakelijke dienstverlening: een interne AI-assistent voor kenniswerkers, waar adoptie meer werk was dan techniek.",
       "Voor zorg, marketing, automotive, onderwijs, luchtvaart en overheid staan er geen cases op de site. Op die sectorpagina’s beschrijf ik daarom de vraagstukken en regels, niet eigen resultaten. Alle cases vind je in het overzicht van cases.",
-      "Wil je weten hoe je organisatie ervoor staat, ongeacht de sector? De AI Readiness Assessment geeft in korte tijd een nuchter beeld. Of plan een adviesgesprek van dertig minuten, dan hoor je aan het eind wat ik zou doen.",
+      "Wil je weten hoe je organisatie ervoor staat, ongeacht de sector? Het AI Readiness Assessment geeft in korte tijd een nuchter beeld. Of plan een adviesgesprek van dertig minuten, dan hoor je aan het eind wat ik zou doen.",
       "Dave Willemstein Onafhankelijk AI-adviseur",
       "Onafhankelijk: geen commissies, geen partnerdeals, geen marge op implementatiepartners.",
       "Over mij Mijn partnernetwerk",
-      "Weten waar je staat met AI? Bekijk de AI Readiness Assessment →",
+      "Weten waar je staat met AI? Bekijk het AI Readiness Assessment →",
       "Bronnen",
       "Europese Commissie: AI Omnibus enters into force",
       "Klaar voor impact?",
@@ -311,7 +311,7 @@
       "regio": "main",
       "soort": "intern",
       "href": "/diensten/ai-readiness-assessment",
-      "anker": "Bekijk de AI Readiness Assessment →",
+      "anker": "Bekijk het AI Readiness Assessment →",
       "rel": null
     },
     {
@@ -472,7 +472,7 @@
       "regio": "main",
       "soort": "intern",
       "href": "/diensten/ai-readiness-assessment",
-      "anker": "Weten waar je staat met AI? Bekijk de AI Readiness Assessment →",
+      "anker": "Weten waar je staat met AI? Bekijk het AI Readiness Assessment →",
       "rel": null
     },
     {

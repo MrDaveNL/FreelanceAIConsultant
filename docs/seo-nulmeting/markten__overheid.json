@@ -2,7 +2,7 @@
   "url": "/markten/overheid",
   "build_bestand": "dist/markten/overheid/index.html",
   "html": {
-    "bytes": 37460,
+    "bytes": 39019,
     "lang": "nl"
   },
   "beschermd": {
@@ -87,7 +87,7 @@
   "bodytekst": {
     "regio": "main",
     "woorden": 1829,
-    "sha256": "0384aabef50360d589b0b734922d1a5698b6d69249d08e5109d009107f289614",
+    "sha256": "8c47287a50181e1eec0b27895a29bd56761279524956646a99fbde185823fc03",
     "blokken": [
       "Home",
       "Markten",
@@ -205,7 +205,7 @@
       "Dave Willemstein Onafhankelijk AI-adviseur",
       "Onafhankelijk: geen commissies, geen partnerdeals, geen marge op implementatiepartners.",
       "Over mij Mijn partnernetwerk",
-      "Weten waar je staat met AI? Bekijk de AI Readiness Assessment →",
+      "Weten waar je staat met AI? Bekijk het AI Readiness Assessment →",
       "Veelgestelde vragen",
       "Moet elk algoritme in het Algoritmeregister?+",
       "Nee. Het aanleveren van informatie is volgens het register zelf nog geen wettelijke verplichting. Het Algoritmekader vraagt overheden wel om impactvolle algoritmes en hoog-risico-AI-systemen te publiceren. Daarnaast moeten overheden die een hoog-risico-AI-systeem inzetten, dat gebruik onder de AI Act (vanaf 2 december 2027) registreren in de Europese databank.",
@@ -461,7 +461,7 @@
       "regio": "main",
       "soort": "intern",
       "href": "/diensten/ai-readiness-assessment",
-      "anker": "Weten waar je staat met AI? Bekijk de AI Readiness Assessment →",
+      "anker": "Weten waar je staat met AI? Bekijk het AI Readiness Assessment →",
       "rel": null
     },
     {

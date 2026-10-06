@@ -2,7 +2,7 @@
   "url": "/markten/onderwijs",
   "build_bestand": "dist/markten/onderwijs/index.html",
   "html": {
-    "bytes": 37997,
+    "bytes": 39556,
     "lang": "nl"
   },
   "beschermd": {
@@ -87,7 +87,7 @@
   "bodytekst": {
     "regio": "main",
     "woorden": 1973,
-    "sha256": "1b4e0cc52e2bc778310fe30dde860f6f50853983677c44e46cf621ce3625414c",
+    "sha256": "a2a7e19c4d7611ac713e2e694c3200168eb6f0eb6f1e437787218ae6fc5181e2",
     "blokken": [
       "Home",
       "Markten",
@@ -215,7 +215,7 @@
       "Dave Willemstein Onafhankelijk AI-adviseur",
       "Onafhankelijk: geen commissies, geen partnerdeals, geen marge op implementatiepartners.",
       "Over mij Mijn partnernetwerk",
-      "Weten waar je staat met AI? Bekijk de AI Readiness Assessment →",
+      "Weten waar je staat met AI? Bekijk het AI Readiness Assessment →",
       "Veelgestelde vragen",
       "Mogen leerlingen en studenten ChatGPT of vergelijkbare tools gebruiken?+",
       "Dat is in de eerste plaats een onderwijskundige keuze van de instelling, niet een juridische. Leg per type opdracht vast wat mag, hoe het gebruik zichtbaar wordt gemaakt en wat er gebeurt bij misbruik. Let daarnaast op privacy: laat leerlingen geen persoonsgegevens invoeren in tools waar de school geen afspraken mee heeft.",
@@ -443,7 +443,7 @@
       "regio": "main",
       "soort": "intern",
       "href": "/diensten/ai-readiness-assessment",
-      "anker": "Weten waar je staat met AI? Bekijk de AI Readiness Assessment →",
+      "anker": "Weten waar je staat met AI? Bekijk het AI Readiness Assessment →",
       "rel": null
     },
     {

@@ -2,7 +2,7 @@
   "url": "/kennisbank/ai-agents-en-avg",
   "build_bestand": "dist/kennisbank/ai-agents-en-avg/index.html",
   "html": {
-    "bytes": 34118,
+    "bytes": 35677,
     "lang": "nl"
   },
   "beschermd": {
@@ -75,7 +75,7 @@
   "bodytekst": {
     "regio": "main",
     "woorden": 1829,
-    "sha256": "9a4bfdf77863eee30b27186a5a99a11924d4e4e8b27c523ae0310cb4dade55c6",
+    "sha256": "2d0313eae43de429376840bcd9be6899ccb4b6ed56cf9de32f961e7d4a8dfe11",
     "blokken": [
       "Home",
       "Kennisbank",
@@ -201,7 +201,7 @@
       "Dave Willemstein Onafhankelijk AI-adviseur",
       "Onafhankelijk: geen commissies, geen partnerdeals, geen marge op implementatiepartners.",
       "Over mij Mijn partnernetwerk",
-      "Weten waar je staat met AI? Bekijk de AI Readiness Assessment →",
+      "Weten waar je staat met AI? Bekijk het AI Readiness Assessment →",
       "Bronnen",
       "Verordening (EU) 2016/679 (AVG), via EUR-Lex",
       "Verordening (EU) 2024/1689 (AI-verordening), via EUR-Lex",
@@ -441,7 +441,7 @@
       "regio": "main",
       "soort": "intern",
       "href": "/diensten/ai-readiness-assessment",
-      "anker": "Weten waar je staat met AI? Bekijk de AI Readiness Assessment →",
+      "anker": "Weten waar je staat met AI? Bekijk het AI Readiness Assessment →",
       "rel": null
     },
     {

@@ -2,7 +2,7 @@
   "url": "/ai-agents/wat-is-een-ai-agent",
   "build_bestand": "dist/ai-agents/wat-is-een-ai-agent/index.html",
   "html": {
-    "bytes": 34039,
+    "bytes": 35599,
     "lang": "nl"
   },
   "beschermd": {
@@ -81,7 +81,7 @@
   "bodytekst": {
     "regio": "main",
     "woorden": 1787,
-    "sha256": "b8beb95cc57a6b811535c19abe96e87d025da94586c320ee899640682ce60af2",
+    "sha256": "96985df46f99b61ceafb9a2318fbea6620b579e4229778a37a440e1d80748238",
     "blokken": [
       "Home",
       "AI Agents",
@@ -89,7 +89,7 @@
       "Uitleg",
       "Wat is een AI agent? Uitleg, werking en voorbeelden",
       "Wat is een AI agent, en waarom praat iedereen er ineens over? Kort gezegd: software die niet alleen antwoord geeft, maar zelf stappen zet om een doel te bereiken. In dit artikel leg ik uit hoe dat werkt, waarin een agent verschilt van een chatbot en welke soorten je tegenkomt.",
-      "Lees meer over AI agents voor bedrijven → Bekijk de AI Readiness Assessment →",
+      "Lees meer over AI agents voor bedrijven → Bekijk het AI Readiness Assessment →",
       "Geschreven door Dave Willemstein, onafhankelijk AI consultant · gepubliceerd 23 september 2026",
       "IN HET KORT",
       "Een AI agent krijgt een doel en kiest zelf de stappen, inclusief het gebruik van andere systemen.",
@@ -217,7 +217,7 @@
       "Dave Willemstein Onafhankelijk AI-adviseur",
       "Onafhankelijk: geen commissies, geen partnerdeals, geen marge op implementatiepartners.",
       "Over mij Mijn partnernetwerk",
-      "Weten waar je staat met AI? Bekijk de AI Readiness Assessment →",
+      "Weten waar je staat met AI? Bekijk het AI Readiness Assessment →",
       "Veelgestelde vragen",
       "Is een AI agent hetzelfde als een AI-assistent?+",
       "Niet helemaal. Een AI-assistent helpt jou terwijl jij het werk doet: je stelt een vraag en krijgt een antwoord of concept. Een AI agent voert zelf een reeks stappen uit richting een doel, vaak in andere systemen. In de praktijk lopen de termen door elkaar en bieden veel assistenten inmiddels ook agentfuncties.",
@@ -317,7 +317,7 @@
       "regio": "main",
       "soort": "intern",
       "href": "/diensten/ai-readiness-assessment",
-      "anker": "Bekijk de AI Readiness Assessment →",
+      "anker": "Bekijk het AI Readiness Assessment →",
       "rel": null
     },
     {
@@ -394,7 +394,7 @@
       "regio": "main",
       "soort": "intern",
       "href": "/diensten/ai-readiness-assessment",
-      "anker": "Weten waar je staat met AI? Bekijk de AI Readiness Assessment →",
+      "anker": "Weten waar je staat met AI? Bekijk het AI Readiness Assessment →",
       "rel": null
     },
     {

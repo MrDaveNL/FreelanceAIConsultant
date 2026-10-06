@@ -2,7 +2,7 @@
   "url": "/ai-automatisering/ai-workflows",
   "build_bestand": "dist/ai-automatisering/ai-workflows/index.html",
   "html": {
-    "bytes": 35667,
+    "bytes": 37227,
     "lang": "nl"
   },
   "beschermd": {
@@ -105,7 +105,7 @@
   "bodytekst": {
     "regio": "main",
     "woorden": 1860,
-    "sha256": "b9a0f97402275473066e11c735a1d2d8dca8c6c1a02335060241c1b41ffdc851",
+    "sha256": "d23adeb671d3fc4978bf24a2068a6d72ea7b4b8fd4744b4f4fe0a57049f1a0de",
     "blokken": [
       "Home",
       "AI Automatisering",
@@ -113,7 +113,7 @@
       "AI workflows",
       "AI workflows: zo automatiseer je werk van begin tot eind",
       "Een AI workflow is een vaste reeks stappen waarin één of meer stappen door een AI-model worden uitgevoerd: een e-mail lezen, een document uitpluizen, een concept schrijven. De rest van de keten bestaat uit gewone koppelingen en een mens die controleert. Hier lees je hoe zo'n workflow eruitziet, welke tools je nodig hebt en hoe je hem veilig invoert.",
-      "Lees meer over AI Automatisering → Bekijk de AI Readiness Assessment →",
+      "Lees meer over AI Automatisering → Bekijk het AI Readiness Assessment →",
       "Geschreven door Dave Willemstein, onafhankelijk AI consultant · gepubliceerd 23 september 2026",
       "IN HET KORT",
       "Een AI workflow volgt een vaste route; alleen enkele stappen gebruiken AI.",
@@ -242,7 +242,7 @@
       "Dave Willemstein Onafhankelijk AI-adviseur",
       "Onafhankelijk: geen commissies, geen partnerdeals, geen marge op implementatiepartners.",
       "Over mij Mijn partnernetwerk",
-      "Weten waar je staat met AI? Bekijk de AI Readiness Assessment →",
+      "Weten waar je staat met AI? Bekijk het AI Readiness Assessment →",
       "Veelgestelde vragen",
       "Wat kost een AI workflow per maand?+",
       "Dat bestaat uit drie delen: het abonnement op het workflowplatform, de verbruikskosten van het AI-model per verwerkte taak en de tijd voor beheer. De eerste twee hangen sterk af van het volume. Laat de leverancier of bouwpartij de kosten per verwerkte taak uitrekenen en vermenigvuldig die met je verwachte volume, en met het dubbele daarvan.",
@@ -346,7 +346,7 @@
       "regio": "main",
       "soort": "intern",
       "href": "/diensten/ai-readiness-assessment",
-      "anker": "Bekijk de AI Readiness Assessment →",
+      "anker": "Bekijk het AI Readiness Assessment →",
       "rel": null
     },
     {
@@ -465,7 +465,7 @@
       "regio": "main",
       "soort": "intern",
       "href": "/diensten/ai-readiness-assessment",
-      "anker": "Weten waar je staat met AI? Bekijk de AI Readiness Assessment →",
+      "anker": "Weten waar je staat met AI? Bekijk het AI Readiness Assessment →",
       "rel": null
     },
     {

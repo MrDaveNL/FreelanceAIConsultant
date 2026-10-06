@@ -13,7 +13,7 @@ keyphrase: ai voor mkb
 eyebrow: "AI voor het mkb"
 lede: "AI voor het mkb draait niet om grote platforms of eigen modellen. Het gaat om de taken die in jouw bedrijf elke dag terugkomen: offertes, klantvragen, administratie en het terugvinden van informatie. Hier lees je waar ondernemers winst halen, welke risico's je moet kennen en hoe je begint zonder groot budget."
 primaryCta: { label: "Lees meer over AI voor bedrijven", href: /ai-voor-bedrijven }
-secondaryCta: { label: "Bekijk de AI Readiness Assessment", href: /diensten/ai-readiness-assessment }
+secondaryCta: { label: "Bekijk het AI Readiness Assessment", href: /diensten/ai-readiness-assessment }
 summary:
   - "Begin bij één taak die vaak voorkomt en veel tijd kost, met tools die je al hebt of eenvoudig aanschaft."
   - "De belangrijkste risico's voor het mkb zijn klantgegevens in de verkeerde tool en afhankelijkheid van één enthousiaste medewerker."

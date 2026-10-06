@@ -13,7 +13,7 @@ keyphrase: ai consultant inhuren
 eyebrow: "AI consultant inhuren"
 lede: "Een AI consultant inhuren is een investering in één persoon, dus die persoon moet kloppen. Op deze pagina lees je wanneer het loont, waar je op let bij de selectie, wat het kost en hoe een start eruitziet. Eerlijk, ook waar dat betekent dat je beter iemand anders kiest."
 primaryCta: { label: "Plan een adviesgesprek", href: /contact }
-secondaryCta: { label: "Bekijk de AI Readiness Assessment", href: /diensten/ai-readiness-assessment }
+secondaryCta: { label: "Bekijk het AI Readiness Assessment", href: /diensten/ai-readiness-assessment }
 summary:
   - "Huur een AI consultant in voor besluiten die duur of moeilijk terug te draaien zijn."
   - "Selecteer op aantoonbare ervaring, onafhankelijkheid en concrete deliverables."

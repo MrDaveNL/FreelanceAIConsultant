@@ -13,7 +13,7 @@ keyphrase: ai roadmap
 eyebrow: "AI roadmap"
 lede: "Een AI roadmap vertaalt je AI-ambities naar een volgorde: wat pak je eerst op, wat is daarvoor nodig, wat kost het en wanneer besluit je om door te gaan of te stoppen. Zo ontwikkel je er een in vier stappen, inclusief een template om zelf mee te beginnen."
 primaryCta: { label: "Lees meer over AI Consultancy", href: /ai-consultancy }
-secondaryCta: { label: "Bekijk de AI Readiness Assessment", href: /diensten/ai-readiness-assessment }
+secondaryCta: { label: "Bekijk het AI Readiness Assessment", href: /diensten/ai-readiness-assessment }
 summary:
   - "Een AI roadmap is een korte, geprioriteerde lijst met eigenaren, randvoorwaarden en beslismomenten."
   - "Vier stappen: inventariseren, prioriteren, randvoorwaarden regelen, plannen en begroten."

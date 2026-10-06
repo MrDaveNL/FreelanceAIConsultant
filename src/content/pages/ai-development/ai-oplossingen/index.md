@@ -13,7 +13,7 @@ keyphrase: ai oplossingen
 eyebrow: "AI oplossingen"
 lede: "Goede AI oplossingen beginnen bij een concreet knelpunt in je werk, niet bij een technologie. Op deze pagina lees je welke soorten AI oplossingen er zijn, wanneer maatwerk loont en hoe je van idee tot livegang komt. En welke rol ik daarin speel: niet als bouwer, maar als onafhankelijk adviseur aan jouw kant."
 primaryCta: { label: "Plan een adviesgesprek", href: /contact }
-secondaryCta: { label: "Bekijk de AI Readiness Assessment", href: /diensten/ai-readiness-assessment }
+secondaryCta: { label: "Bekijk het AI Readiness Assessment", href: /diensten/ai-readiness-assessment }
 summary:
   - "Een AI oplossing is een werkproces met AI erin, niet alleen een stuk software."
   - "Begin standaard en laat alleen maatwerk bouwen waar jouw kennis het verschil maakt."
@@ -101,6 +101,6 @@ Voor het MKB gelden dezelfde principes, maar met minder ruimte voor experimenten
 - **Kies één knelpunt met een duidelijke eigenaar.** Liever één proces goed dan vijf half. Welke toepassingen in de praktijk resultaat opleveren, beschreef ik in [welke AI use cases leveren resultaat](/inzichten/welke-ai-use-cases-leveren-resultaat).
 - **Laat pas bouwen als standaard aantoonbaar tekortschiet.** Maatwerk brengt blijvende beheerkosten mee, en die moet je kunnen dragen.
 
-Meer over AI in kleinere organisaties staat op de pagina [AI voor het MKB](/ai-voor-bedrijven/mkb). Wil je eerst weten waar je staat? De [AI Readiness Assessment](/diensten/ai-readiness-assessment) geeft in {{timing:ai-readiness-assessment}} een onderbouwd beeld, voor {{pricelc:ai-readiness-assessment}}. Voor één afdeling of procesdomein kan het ook kleiner, met een lagere investering.
+Meer over AI in kleinere organisaties staat op de pagina [AI voor het MKB](/ai-voor-bedrijven/mkb). Wil je eerst weten waar je staat? Het [AI Readiness Assessment](/diensten/ai-readiness-assessment) geeft in {{timing:ai-readiness-assessment}} een onderbouwd beeld, voor {{pricelc:ai-readiness-assessment}}. Voor één afdeling of procesdomein kan het ook kleiner, met een lagere investering.
 
 Zoek je vooral iemand met technische diepgang? Op de pagina over [de AI specialist](/ai-development/ai-specialist) lees je welke profielen er zijn en welk profiel bij jouw vraag past. En wil je sparren over een concreet knelpunt, [plan dan een adviesgesprek](/contact).

@@ -12,7 +12,7 @@ metaDescription: "In de AI kennisbank vind je praktische artikelen over AI-strat
 keyphrase: ai kennisbank
 eyebrow: Kennisbank
 lede: "In deze AI kennisbank vind je praktische uitleg over AI voor bedrijven: wat een begrip betekent, hoe je iets aanpakt en waar je op let. Nuchter geschreven, zonder hype, voor wie een besluit moet nemen of een traject moet trekken."
-primaryCta: { label: "Bekijk de AI Readiness Assessment", href: /diensten/ai-readiness-assessment }
+primaryCta: { label: "Bekijk het AI Readiness Assessment", href: /diensten/ai-readiness-assessment }
 secondaryCta: { label: "Plan een adviesgesprek", href: /contact }
 summary:
   - "Evergreen uitleg en how-to over AI voor bedrijven."

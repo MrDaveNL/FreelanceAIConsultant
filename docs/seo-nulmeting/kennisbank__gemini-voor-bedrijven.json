@@ -2,7 +2,7 @@
   "url": "/kennisbank/gemini-voor-bedrijven",
   "build_bestand": "dist/kennisbank/gemini-voor-bedrijven/index.html",
   "html": {
-    "bytes": 32857,
+    "bytes": 34416,
     "lang": "nl"
   },
   "beschermd": {
@@ -81,7 +81,7 @@
   "bodytekst": {
     "regio": "main",
     "woorden": 1712,
-    "sha256": "1d12697d282528d2a8e666284ffa342370af86fe5e4bb649419402f68c12eae0",
+    "sha256": "a5be6358b1157f8d50dcaf77bfc35233347456b54d9cf828890204ad683d765a",
     "blokken": [
       "Home",
       "Kennisbank",
@@ -229,7 +229,7 @@
       "Dave Willemstein Onafhankelijk AI-adviseur",
       "Onafhankelijk: geen commissies, geen partnerdeals, geen marge op implementatiepartners.",
       "Over mij Mijn partnernetwerk",
-      "Weten waar je staat met AI? Bekijk de AI Readiness Assessment →",
+      "Weten waar je staat met AI? Bekijk het AI Readiness Assessment →",
       "Bronnen",
       "Google Workspace: abonnementen en prijzen (NL)",
       "Google Workspace Admin Help: Gemini AI features now included in Google Workspace subscriptions",
@@ -445,7 +445,7 @@
       "regio": "main",
       "soort": "intern",
       "href": "/diensten/ai-readiness-assessment",
-      "anker": "Weten waar je staat met AI? Bekijk de AI Readiness Assessment →",
+      "anker": "Weten waar je staat met AI? Bekijk het AI Readiness Assessment →",
       "rel": null
     },
     {

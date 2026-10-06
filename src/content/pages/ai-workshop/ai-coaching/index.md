@@ -13,7 +13,7 @@ keyphrase: ai coaching
 eyebrow: "AI coaching"
 lede: "Een workshop geeft een team een vertrekpunt. Maar de vragen komen pas echt als mensen AI in hun werk gaan gebruiken. AI coaching is persoonlijke begeleiding voor managers en teamleads in die fase: wat pak je als eerste op, hoe neem je je team mee en hoe houd je het vol als de waan van de dag terugkomt."
 primaryCta: { label: "Plan een adviesgesprek", href: /contact }
-secondaryCta: { label: "Bekijk de AI Readiness Assessment", href: /diensten/ai-readiness-assessment }
+secondaryCta: { label: "Bekijk het AI Readiness Assessment", href: /diensten/ai-readiness-assessment }
 summary:
   - "Persoonlijke begeleiding voor managers en teamleads die AI in hun team willen laten landen."
   - "Gericht op het werk van het team, niet op de tool."

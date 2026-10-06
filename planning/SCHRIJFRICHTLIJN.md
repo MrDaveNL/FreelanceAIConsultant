@@ -66,7 +66,7 @@ keyphrase: ai consultancy       # Primaire keyphrase, exact
 eyebrow: "AI consultancy"       # kort label boven de H1
 lede: "…"                       # intro van 2–3 zinnen; primaire keyphrase erin
 primaryCta: { label: "Plan een adviesgesprek", href: /contact }
-secondaryCta: { label: "Bekijk de AI Readiness Assessment", href: /diensten/ai-readiness-assessment }
+secondaryCta: { label: "Bekijk het AI Readiness Assessment", href: /diensten/ai-readiness-assessment }
 summary: ["…", "…", "…"]        # 3 kernpunten ("In het kort")
 published: "2026-09-23"
 updated: "2026-09-23"
@@ -80,7 +80,7 @@ sources:                        # alleen externe bronnen die je echt hebt gecont
 ---
 ```
 
-CTA-mapping: "Plan een adviesgesprek" → `/contact`; "Bekijk de AI Readiness Assessment" → `/diensten/ai-readiness-assessment`; "Lees meer over X" → de URL van hub X.
+CTA-mapping: "Plan een adviesgesprek" → `/contact`; "Bekijk het AI Readiness Assessment" → `/diensten/ai-readiness-assessment`; "Lees meer over X" → de URL van hub X.
 
 - De **H1 komt uit de frontmatter**; de body begint met de eerste H2.
 - Volg de **H1-H3-structuur uit de planning exact** (zelfde koptekst, zelfde niveau, zelfde volgorde). Extra H3's mogen alleen als het echt nodig is.

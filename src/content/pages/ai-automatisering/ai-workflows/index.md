@@ -13,7 +13,7 @@ keyphrase: ai workflow
 eyebrow: "AI workflows"
 lede: "Een AI workflow is een vaste reeks stappen waarin één of meer stappen door een AI-model worden uitgevoerd: een e-mail lezen, een document uitpluizen, een concept schrijven. De rest van de keten bestaat uit gewone koppelingen en een mens die controleert. Hier lees je hoe zo'n workflow eruitziet, welke tools je nodig hebt en hoe je hem veilig invoert."
 primaryCta: { label: "Lees meer over AI Automatisering", href: /ai-automatisering }
-secondaryCta: { label: "Bekijk de AI Readiness Assessment", href: /diensten/ai-readiness-assessment }
+secondaryCta: { label: "Bekijk het AI Readiness Assessment", href: /diensten/ai-readiness-assessment }
 summary:
   - "Een AI workflow volgt een vaste route; alleen enkele stappen gebruiken AI."
   - "Bouw de controlestap en de logging in vanaf de eerste versie."

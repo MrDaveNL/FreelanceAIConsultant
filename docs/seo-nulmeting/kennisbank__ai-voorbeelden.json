@@ -2,7 +2,7 @@
   "url": "/kennisbank/ai-voorbeelden",
   "build_bestand": "dist/kennisbank/ai-voorbeelden/index.html",
   "html": {
-    "bytes": 36239,
+    "bytes": 37800,
     "lang": "nl"
   },
   "beschermd": {
@@ -105,7 +105,7 @@
   "bodytekst": {
     "regio": "main",
     "woorden": 2118,
-    "sha256": "51d4ba6978f0a00dc90e1ecc1791b28b2f81405a5a750de537f624eb9768df8a",
+    "sha256": "e0b1b37ba2560c2648aa7f5f3099efd61ed304f29297ec77ed7da04762df58e3",
     "blokken": [
       "Home",
       "Kennisbank",
@@ -113,7 +113,7 @@
       "Kennisbank",
       "AI voorbeelden: 25 toepassingen uit de praktijk",
       "Wie AI voorbeelden zoekt, vindt vooral grote beloften. Deze lijst doet het omgekeerde: 25 concrete toepassingen, per afdeling, per sector en uit het dagelijks leven, met bij elk voorbeeld wat de AI doet en waar de mens blijft. Zo zie je sneller wat in jouw organisatie zou kunnen werken.",
-      "Bekijk de AI Readiness Assessment → Plan een adviesgesprek →",
+      "Bekijk het AI Readiness Assessment → Plan een adviesgesprek →",
       "Geschreven door Dave Willemstein, onafhankelijk AI consultant · gepubliceerd 23 september 2026",
       "IN HET KORT",
       "De meeste bruikbare AI-toepassingen zijn klein: lezen, sorteren, samenvatten, een concept schrijven.",
@@ -240,11 +240,11 @@
       "De adviseur begeleidt die keuze vanuit klantzijde en helpt bij de nulmeting. Facturen uitlezen en matchen scoort het hoogst: 2.400 inkoopfacturen per maand, gemiddeld drie minuten per stuk, samen 120 uur. Het eigen team richt de functie in het bestaande boekhoudpakket in en laat die zes weken naast de oude werkwijze lopen bij drie medewerkers van de crediteurenadministratie.",
       "Na zes weken gaat 70 procent van de facturen zonder correctie door. De rest blijft handwerk. Het werk daalt van 120 naar ongeveer 55 uur per maand. Conceptoffertes, de favoriet uit de demo, blijven bewust liggen: een prijsfout gaat direct naar de klant.",
       "Fictief voorbeeld, samengesteld uit situaties die veel voorkomen. Organisatie en cijfers zijn illustratief.",
-      "Wil je weten welke van deze toepassingen in jouw organisatie het meeste oplevert? De AI Readiness Assessment geeft je in 2-3 weken een gevalideerde lijst met kansen en een 90-dagenplan. Liever eerst sparren? Plan een adviesgesprek van dertig minuten.",
+      "Wil je weten welke van deze toepassingen in jouw organisatie het meeste oplevert? Het AI Readiness Assessment geeft je in 2-3 weken een gevalideerde lijst met kansen en een 90-dagenplan. Liever eerst sparren? Plan een adviesgesprek van dertig minuten.",
       "Dave Willemstein Onafhankelijk AI-adviseur",
       "Onafhankelijk: geen commissies, geen partnerdeals, geen marge op implementatiepartners.",
       "Over mij Mijn partnernetwerk",
-      "Weten waar je staat met AI? Bekijk de AI Readiness Assessment →",
+      "Weten waar je staat met AI? Bekijk het AI Readiness Assessment →",
       "Bronnen",
       "Google Workspace Blog: Ridding Gmail of 100 million more spam messages with TensorFlow",
       "Google DeepMind: Traffic prediction with advanced Graph Neural Networks",
@@ -331,7 +331,7 @@
       "regio": "main",
       "soort": "intern",
       "href": "/diensten/ai-readiness-assessment",
-      "anker": "Bekijk de AI Readiness Assessment →",
+      "anker": "Bekijk het AI Readiness Assessment →",
       "rel": null
     },
     {
@@ -527,7 +527,7 @@
       "regio": "main",
       "soort": "intern",
       "href": "/diensten/ai-readiness-assessment",
-      "anker": "Weten waar je staat met AI? Bekijk de AI Readiness Assessment →",
+      "anker": "Weten waar je staat met AI? Bekijk het AI Readiness Assessment →",
       "rel": null
     },
     {

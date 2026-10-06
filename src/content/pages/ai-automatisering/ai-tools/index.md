@@ -13,7 +13,7 @@ keyphrase: beste ai tools
 eyebrow: "AI tools"
 lede: "De beste AI tools voor bedrijven bestaan niet in het algemeen, wel per situatie. Op deze pagina vergelijk ik de bekendste AI-tools op kenmerken die er zakelijk toe doen: waar ze passen, wat ze kosten en wat er met je data gebeurt. Ik heb geen commissie- of partnerrelatie met een van deze leveranciers."
 primaryCta: { label: "Lees meer over AI automatisering", href: /ai-automatisering }
-secondaryCta: { label: "Bekijk de AI Readiness Assessment", href: /diensten/ai-readiness-assessment }
+secondaryCta: { label: "Bekijk het AI Readiness Assessment", href: /diensten/ai-readiness-assessment }
 summary:
   - "Kies eerst op taak, data en bestaande software, pas daarna op merk."
   - "Voor bedrijfsdata alleen een zakelijk abonnement met vastgelegde afspraken over training en opslag."
@@ -183,6 +183,6 @@ De tabel vat de geverifieerde kenmerken samen, stand september 2026. Prijzen gel
 | Intercom Fin | Klantenservice-agent | Supportteams met een goede kennisbank | Vanaf $0,99 per Fin outcome, plus Intercom-plekken of eigen helpdesk | Navragen | Navragen |
 | n8n | Workflowautomatisering | Processen met AI-stappen, technische teams | Starter vanaf €20 per maand bij jaarbetaling; Community Edition zelf te hosten | Hangt af van het gekoppelde model | Gehost: Frankfurt. Zelf gehost: eigen keuze |
 
-Gebruik de tabel als startpunt, niet als eindoordeel. Voor een keuze die meer dan een paar licenties raakt, maak je een eigen scorekaart met je eigen weging en test je de kandidaten op dezelfde taak met je eigen voorbeelden. Wil je daarbij een onafhankelijke blik, dan helpt een [Vendor Review](/diensten/vendor-review) om tot een onderbouwd besluit te komen. Wil je eerst weten of je organisatie er klaar voor is, dan is de [AI Readiness Assessment](/diensten/ai-readiness-assessment) het logische begin.
+Gebruik de tabel als startpunt, niet als eindoordeel. Voor een keuze die meer dan een paar licenties raakt, maak je een eigen scorekaart met je eigen weging en test je de kandidaten op dezelfde taak met je eigen voorbeelden. Wil je daarbij een onafhankelijke blik, dan helpt een [Vendor Review](/diensten/vendor-review) om tot een onderbouwd besluit te komen. Wil je eerst weten of je organisatie er klaar voor is, dan is het [AI Readiness Assessment](/diensten/ai-readiness-assessment) het logische begin.
 
 Een tool is pas waardevol als mensen hem in hun dagelijkse werk gebruiken. Waarom adoptie daar begint en niet bij de licentie, lees je in [AI-adoptie begint bij het werk](/inzichten/ai-adoptie-begint-bij-het-werk). Meer over hoe AI tools passen in bredere procesautomatisering vind je op de [hub AI automatisering](/ai-automatisering). Twijfel je welke tool bij jouw situatie past? [Plan een gesprek van dertig minuten](/contact); je hoort aan het eind wat ik zou doen.

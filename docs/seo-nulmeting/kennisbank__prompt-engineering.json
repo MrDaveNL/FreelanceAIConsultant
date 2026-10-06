@@ -2,7 +2,7 @@
   "url": "/kennisbank/prompt-engineering",
   "build_bestand": "dist/kennisbank/prompt-engineering/index.html",
   "html": {
-    "bytes": 34390,
+    "bytes": 35949,
     "lang": "nl"
   },
   "beschermd": {
@@ -81,7 +81,7 @@
   "bodytekst": {
     "regio": "main",
     "woorden": 1779,
-    "sha256": "8c40732c55e51c0183df4029b2e99716445f903a44c902921b3f358100212ae1",
+    "sha256": "ad269cde13c9052bec1ace64ba3aaed559b020ba335ea78e0711f1dd7511a168",
     "blokken": [
       "Home",
       "Kennisbank",
@@ -203,7 +203,7 @@
       "Dave Willemstein Onafhankelijk AI-adviseur",
       "Onafhankelijk: geen commissies, geen partnerdeals, geen marge op implementatiepartners.",
       "Over mij Mijn partnernetwerk",
-      "Weten waar je staat met AI? Bekijk de AI Readiness Assessment →",
+      "Weten waar je staat met AI? Bekijk het AI Readiness Assessment →",
       "Bronnen",
       "Anthropic: Prompting best practices (Claude)",
       "Anthropic: Prompt engineering overview",
@@ -433,7 +433,7 @@
       "regio": "main",
       "soort": "intern",
       "href": "/diensten/ai-readiness-assessment",
-      "anker": "Weten waar je staat met AI? Bekijk de AI Readiness Assessment →",
+      "anker": "Weten waar je staat met AI? Bekijk het AI Readiness Assessment →",
       "rel": null
     },
     {

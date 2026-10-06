@@ -2,7 +2,7 @@
   "url": "/kennisbank",
   "build_bestand": "dist/kennisbank/index.html",
   "html": {
-    "bytes": 30343,
+    "bytes": 31903,
     "lang": "nl"
   },
   "beschermd": {
@@ -99,14 +99,14 @@
   "bodytekst": {
     "regio": "main",
     "woorden": 905,
-    "sha256": "050e7e50b85a36aca346884a17f1101714a4754caa4760c20e7d2b798c08cc2c",
+    "sha256": "228536e773bb0db3a2085cd5149675c05045cebd9d1c1c20f90bd9efb286be10",
     "blokken": [
       "Home",
       "Kennisbank",
       "Kennisbank",
       "AI kennisbank: praktische kennis over AI voor bedrijven",
       "In deze AI kennisbank vind je praktische uitleg over AI voor bedrijven: wat een begrip betekent, hoe je iets aanpakt en waar je op let. Nuchter geschreven, zonder hype, voor wie een besluit moet nemen of een traject moet trekken.",
-      "Bekijk de AI Readiness Assessment → Plan een adviesgesprek →",
+      "Bekijk het AI Readiness Assessment → Plan een adviesgesprek →",
       "Geschreven door Dave Willemstein, onafhankelijk AI consultant · gepubliceerd 23 september 2026",
       "IN HET KORT",
       "Evergreen uitleg en how-to over AI voor bedrijven.",
@@ -225,7 +225,7 @@
       "Dave Willemstein Onafhankelijk AI-adviseur",
       "Onafhankelijk: geen commissies, geen partnerdeals, geen marge op implementatiepartners.",
       "Over mij Mijn partnernetwerk",
-      "Weten waar je staat met AI? Bekijk de AI Readiness Assessment →",
+      "Weten waar je staat met AI? Bekijk het AI Readiness Assessment →",
       "Klaar voor impact?",
       "Van AI-ambitie naar concrete resultaten.",
       "Plan een vrijblijvend gesprek. Geen pitch. Wel scherpe vragen.",
@@ -300,7 +300,7 @@
       "regio": "main",
       "soort": "intern",
       "href": "/diensten/ai-readiness-assessment",
-      "anker": "Bekijk de AI Readiness Assessment →",
+      "anker": "Bekijk het AI Readiness Assessment →",
       "rel": null
     },
     {
@@ -594,7 +594,7 @@
       "regio": "main",
       "soort": "intern",
       "href": "/diensten/ai-readiness-assessment",
-      "anker": "Weten waar je staat met AI? Bekijk de AI Readiness Assessment →",
+      "anker": "Weten waar je staat met AI? Bekijk het AI Readiness Assessment →",
       "rel": null
     },
     {

@@ -2,7 +2,7 @@
   "url": "/ai-beleid/ai-act",
   "build_bestand": "dist/ai-beleid/ai-act/index.html",
   "html": {
-    "bytes": 41873,
+    "bytes": 43434,
     "lang": "nl"
   },
   "beschermd": {
@@ -87,7 +87,7 @@
   "bodytekst": {
     "regio": "main",
     "woorden": 2383,
-    "sha256": "15f05470ff7853975aa8bd937582252d636c763b2c742f4e5bbfdf70cbc0d214",
+    "sha256": "a096b42f620e6f9776f285dad98d4c15652d56945bf89e2c231b3427cb03bb37",
     "blokken": [
       "Home",
       "AI beleid",
@@ -95,7 +95,7 @@
       "AI Act",
       "De AI Act voor bedrijven: wat moet je doen?",
       "De AI Act voor bedrijven komt neer op drie vragen: welke AI gebruik of maak je, in welke risicocategorie valt dat, en welke rol heb je? In 2026 is de wet bovendien aangepast via de Digital Omnibus. Hier lees je de actuele stand per september 2026 en wat je nu concreet doet.",
-      "Lees meer over AI beleid → Bekijk de AI Readiness Assessment →",
+      "Lees meer over AI beleid → Bekijk het AI Readiness Assessment →",
       "Geschreven door Dave Willemstein, onafhankelijk AI consultant · gepubliceerd 23 september 2026",
       "IN HET KORT",
       "De AI Act deelt AI in naar risico: verboden, hoog risico, transparantieverplichtingen en minimaal risico.",
@@ -243,11 +243,11 @@
       "De adviseur begeleidt de indeling vanuit klantzijde, samen met de functionaris gegevensbescherming. Twaalf toepassingen vallen onder minimaal risico. De chatbot krijgt een duidelijke melding dat klanten met AI praten. De rangschikkingsmodule valt onder bijlage III; de hoog-risicoregels gelden daarvoor vanaf 2 december 2027.",
       "De organisatie zet die module uit en laat de voorselectie weer door recruiters doen. Alle 90 medewerkers krijgen een korte instructie over AI-gebruik als maatregel voor AI-geletterdheid. Het traject duurt zes weken.",
       "Fictief voorbeeld, samengesteld uit situaties die veel voorkomen. Organisatie en cijfers zijn illustratief.",
-      "Wil je weten waar je staat? De AI Readiness Assessment bevat een risico- en compliance-scan, inclusief de positionering van je toepassingen onder de AI-verordening. Moet je directie of raad van commissarissen eerst een gedeeld beeld krijgen, dan behandelt de Executive Briefing ook regelgeving en toezicht. En wil je eerst sparren over wat de AI Act voor jouw situatie betekent, plan dan een kort gesprek.",
+      "Wil je weten waar je staat? Het AI Readiness Assessment bevat een risico- en compliance-scan, inclusief de positionering van je toepassingen onder de AI-verordening. Moet je directie of raad van commissarissen eerst een gedeeld beeld krijgen, dan behandelt de Executive Briefing ook regelgeving en toezicht. En wil je eerst sparren over wat de AI Act voor jouw situatie betekent, plan dan een kort gesprek.",
       "Dave Willemstein Onafhankelijk AI-adviseur",
       "Onafhankelijk: geen commissies, geen partnerdeals, geen marge op implementatiepartners.",
       "Over mij Mijn partnernetwerk",
-      "Weten waar je staat met AI? Bekijk de AI Readiness Assessment →",
+      "Weten waar je staat met AI? Bekijk het AI Readiness Assessment →",
       "Veelgestelde vragen",
       "Geldt de AI Act ook als we alleen ChatGPT of Copilot gebruiken?+",
       "Ja, maar meestal licht. Als je een algemene AI-tool gebruikt voor je werk, ben je gebruiksverantwoordelijke. Dan moet je in ieder geval maatregelen nemen voor de AI-geletterdheid van je medewerkers, en gelden transparantieregels als je de tool bijvoorbeeld inzet om met klanten te communiceren of om deepfakes te maken. Zware verplichtingen komen pas in beeld als je de tool inzet voor een toepassing die als hoog risico geldt, zoals het beoordelen van sollicitanten.",
@@ -355,7 +355,7 @@
       "regio": "main",
       "soort": "intern",
       "href": "/diensten/ai-readiness-assessment",
-      "anker": "Bekijk de AI Readiness Assessment →",
+      "anker": "Bekijk het AI Readiness Assessment →",
       "rel": null
     },
     {
@@ -453,7 +453,7 @@
       "regio": "main",
       "soort": "intern",
       "href": "/diensten/ai-readiness-assessment",
-      "anker": "Weten waar je staat met AI? Bekijk de AI Readiness Assessment →",
+      "anker": "Weten waar je staat met AI? Bekijk het AI Readiness Assessment →",
       "rel": null
     },
     {

@@ -13,7 +13,7 @@ keyphrase: chatgpt training
 eyebrow: "ChatGPT training"
 lede: "Veel medewerkers gebruiken ChatGPT al, vaak met een privéaccount en zonder afspraken. Een ChatGPT training brengt dat terug naar iets waar je als organisatie grip op hebt: betere prompts, herbruikbare GPT's en projecten voor terugkerend werk, en duidelijkheid over welke gegevens er wel en niet in horen."
 primaryCta: { label: "Vraag een training aan", href: /contact }
-secondaryCta: { label: "Bekijk de AI Readiness Assessment", href: /diensten/ai-readiness-assessment }
+secondaryCta: { label: "Bekijk het AI Readiness Assessment", href: /diensten/ai-readiness-assessment }
 summary:
   - "Incompany training met taken uit het eigen werk van je team."
   - "Van betere prompts tot eigen GPT's en projecten voor terugkerend werk."

@@ -13,7 +13,7 @@ keyphrase: ai development
 eyebrow: "AI development"
 lede: "AI development gaat zelden mis op de techniek en vaak op de opdracht: een vage specificatie, de verkeerde bouwpartij of niemand die aan jouw kant van de tafel meekijkt. Ik bouw zelf geen software. Ik help je bepalen wat er gebouwd moet worden, door wie, en of het oplevert wat is afgesproken."
 primaryCta: { label: "Plan een adviesgesprek", href: /contact }
-secondaryCta: { label: "Bekijk de AI Readiness Assessment", href: /diensten/ai-readiness-assessment }
+secondaryCta: { label: "Bekijk het AI Readiness Assessment", href: /diensten/ai-readiness-assessment }
 summary:
   - "Het bouwen doet je eigen team of een ontwikkelpartij die je rechtstreeks contracteert."
   - "Mijn rol: specificatie, selectie van de bouwpartij, toetsing en governance vanuit jouw kant."
@@ -78,7 +78,7 @@ Een AI-traject loopt grofweg in vijf fasen. Per fase staat hieronder wie het wer
 
 Wat je concreet van mij krijgt, hangt af van de fase:
 
-- **Bij de start:** een specificatie in gewone taal, met het probleem, de meetpunten, de data die nodig is en de randvoorwaarden rond privacy en de AI-verordening. Heb je nog geen scherp beeld van waar je staat, dan is de [AI Readiness Assessment](/diensten/ai-readiness-assessment) een logische eerste stap.
+- **Bij de start:** een specificatie in gewone taal, met het probleem, de meetpunten, de data die nodig is en de randvoorwaarden rond privacy en de AI-verordening. Heb je nog geen scherp beeld van waar je staat, dan is het [AI Readiness Assessment](/diensten/ai-readiness-assessment) een logische eerste stap.
 - **Bij de keuze van de bouwpartij:** een [Vendor Review](/diensten/vendor-review) met scorecards, een test op jouw data en een TCO-vergelijking over drie jaar. De investering is {{pricelc:vendor-review}}, bij een doorlooptijd van {{timing:vendor-review}}. De stappen daarachter beschreef ik in [vendorselectie in acht stappen](/inzichten/ai-vendorselectie-in-acht-stappen).
 - **Tijdens de bouw:** begeleiding vanuit klantzijde, bijvoorbeeld als [Fractional AI Lead](/diensten/fractional-ai-lead) ({{pricelc:fractional-ai-lead}}), met toetsing van opleveringen, bewaking van de business case en de governance die erbij hoort.
 

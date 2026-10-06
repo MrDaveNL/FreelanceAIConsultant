@@ -13,7 +13,7 @@ keyphrase: ai agents voor bedrijven
 eyebrow: "AI agents"
 lede: "AI agents voor bedrijven beloven werk dat zichzelf uitvoert: een systeem dat een doel krijgt en zelf de stappen zet. Dat kan veel opleveren, maar alleen als je vooraf bepaalt welke stappen je uit handen geeft en wie meekijkt. Op deze pagina lees je waar agents passen, wat ze kosten en hoe je ze verantwoord invoert."
 primaryCta: { label: "Plan een adviesgesprek", href: /contact }
-secondaryCta: { label: "Bekijk de AI Readiness Assessment", href: /diensten/ai-readiness-assessment }
+secondaryCta: { label: "Bekijk het AI Readiness Assessment", href: /diensten/ai-readiness-assessment }
 summary:
   - "Een AI agent voert zelf stappen uit richting een doel; dat vraagt andere afspraken dan een chatbot."
   - "Begin met voorbereiden en voorstellen, pas later met zelfstandig uitvoeren."
@@ -158,6 +158,6 @@ Voor een AI agent in het MKB zijn toepassingen geschikt die binnen software draa
 
 ### Kosten en een veilige start
 
-Begin met een agentfunctie binnen een pakket dat je al hebt, op één afgebakende taak, met een testperiode waarin iemand alles controleert. Spreek vooraf af welke gegevens de agent mag gebruiken en controleer of er een verwerkersovereenkomst met de leverancier is. Wil je eerst weten of je organisatie er klaar voor is en welke taken in aanmerking komen, dan is de [AI Readiness Assessment](/diensten/ai-readiness-assessment) het logische startpunt.
+Begin met een agentfunctie binnen een pakket dat je al hebt, op één afgebakende taak, met een testperiode waarin iemand alles controleert. Spreek vooraf af welke gegevens de agent mag gebruiken en controleer of er een verwerkersovereenkomst met de leverancier is. Wil je eerst weten of je organisatie er klaar voor is en welke taken in aanmerking komen, dan is het [AI Readiness Assessment](/diensten/ai-readiness-assessment) het logische startpunt.
 
 Ik bouw zelf geen agents. Wel help ik je bepalen welke taak geschikt is, wat je van een bouwpartij moet vragen en hoe je de uitvoering bewaakt. Heb je extra handen nodig, dan stel ik partijen uit mijn [partnernetwerk](/partnernetwerk) voor; die contracteer je rechtstreeks, zonder marge voor mij. Wil je sparren over een concreet idee? [Plan een gesprek van dertig minuten](/contact); aan het eind hoor je wat ik zou doen.

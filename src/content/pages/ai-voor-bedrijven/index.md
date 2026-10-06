@@ -12,7 +12,7 @@ metaDescription: "Wat kan AI voor jouw bedrijf betekenen? Ontdek toepassingen pe
 keyphrase: ai voor bedrijven
 eyebrow: "AI voor bedrijven"
 lede: "AI voor bedrijven is geen kwestie van één tool aanschaffen. Het gaat om de vraag welk werk in jouw organisatie beter, sneller of goedkoper kan, en wat daarvoor nodig is. Op deze pagina lees je waar AI in de praktijk waarde levert, per afdeling en per branche, welke risico's erbij horen en hoe je verantwoord begint."
-primaryCta: { label: "Bekijk de AI Readiness Assessment", href: /diensten/ai-readiness-assessment }
+primaryCta: { label: "Bekijk het AI Readiness Assessment", href: /diensten/ai-readiness-assessment }
 secondaryCta: { label: "Plan een adviesgesprek", href: /contact }
 summary:
   - "AI levert het meest op bij frequent, voorspelbaar werk met bestaande data en een menselijke controlestap."

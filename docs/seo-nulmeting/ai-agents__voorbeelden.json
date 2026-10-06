@@ -2,7 +2,7 @@
   "url": "/ai-agents/voorbeelden",
   "build_bestand": "dist/ai-agents/voorbeelden/index.html",
   "html": {
-    "bytes": 35737,
+    "bytes": 37297,
     "lang": "nl"
   },
   "beschermd": {
@@ -81,7 +81,7 @@
   "bodytekst": {
     "regio": "main",
     "woorden": 1913,
-    "sha256": "8c2c0f33c6189a03d066997ffb76bd2687c008707ea8bc5ef485ce3c9ade380b",
+    "sha256": "04676f89a4de0af7f4bedc92ba4efb48f5c135b24609f71a4b7d282261c206aa",
     "blokken": [
       "Home",
       "AI Agents",
@@ -89,7 +89,7 @@
       "Voorbeelden",
       "AI agents voorbeelden: 12 toepassingen voor bedrijven",
       "Zoek je AI agents voorbeelden die verder gaan dan de demo? Hieronder staan twaalf toepassingen voor klantenservice, sales, HR en finance. Per voorbeeld lees je hoe de agent werkt, welke koppelingen hij nodig heeft en waar de winst zit, plus op welk moment een mens moet meekijken.",
-      "Lees meer over AI agents voor bedrijven → Bekijk de AI Readiness Assessment →",
+      "Lees meer over AI agents voor bedrijven → Bekijk het AI Readiness Assessment →",
       "Geschreven door Dave Willemstein, onafhankelijk AI consultant · gepubliceerd 23 september 2026",
       "IN HET KORT",
       "Twaalf generieke voorbeelden, geordend per afdeling, met koppelingen en controlepunten.",
@@ -257,7 +257,7 @@
       "Dave Willemstein Onafhankelijk AI-adviseur",
       "Onafhankelijk: geen commissies, geen partnerdeals, geen marge op implementatiepartners.",
       "Over mij Mijn partnernetwerk",
-      "Weten waar je staat met AI? Bekijk de AI Readiness Assessment →",
+      "Weten waar je staat met AI? Bekijk het AI Readiness Assessment →",
       "Bronnen",
       "Microsoft Copilot Studio (productpagina)",
       "Salesforce Agentforce (productpagina)",
@@ -355,7 +355,7 @@
       "regio": "main",
       "soort": "intern",
       "href": "/diensten/ai-readiness-assessment",
-      "anker": "Bekijk de AI Readiness Assessment →",
+      "anker": "Bekijk het AI Readiness Assessment →",
       "rel": null
     },
     {
@@ -481,7 +481,7 @@
       "regio": "main",
       "soort": "intern",
       "href": "/diensten/ai-readiness-assessment",
-      "anker": "Weten waar je staat met AI? Bekijk de AI Readiness Assessment →",
+      "anker": "Weten waar je staat met AI? Bekijk het AI Readiness Assessment →",
       "rel": null
     },
     {

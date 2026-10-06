@@ -12,7 +12,7 @@ metaDescription: "Bekijk 25 concrete AI voorbeelden uit de praktijk, per afdelin
 keyphrase: ai voorbeelden
 eyebrow: "Kennisbank"
 lede: "Wie AI voorbeelden zoekt, vindt vooral grote beloften. Deze lijst doet het omgekeerde: 25 concrete toepassingen, per afdeling, per sector en uit het dagelijks leven, met bij elk voorbeeld wat de AI doet en waar de mens blijft. Zo zie je sneller wat in jouw organisatie zou kunnen werken."
-primaryCta: { label: "Bekijk de AI Readiness Assessment", href: /diensten/ai-readiness-assessment }
+primaryCta: { label: "Bekijk het AI Readiness Assessment", href: /diensten/ai-readiness-assessment }
 secondaryCta: { label: "Plan een adviesgesprek", href: /contact }
 summary:
   - "De meeste bruikbare AI-toepassingen zijn klein: lezen, sorteren, samenvatten, een concept schrijven."
@@ -132,4 +132,4 @@ Heb je een kandidaat gekozen, dan is de volgende stap om het proces uit te werke
 <p class="scenario-note">Fictief voorbeeld, samengesteld uit situaties die veel voorkomen. Organisatie en cijfers zijn illustratief.</p>
 </aside>
 
-Wil je weten welke van deze toepassingen in jouw organisatie het meeste oplevert? De [AI Readiness Assessment](/diensten/ai-readiness-assessment) geeft je in {{timing:ai-readiness-assessment}} een gevalideerde lijst met kansen en een 90-dagenplan. Liever eerst sparren? [Plan een adviesgesprek](/contact) van dertig minuten.
+Wil je weten welke van deze toepassingen in jouw organisatie het meeste oplevert? Het [AI Readiness Assessment](/diensten/ai-readiness-assessment) geeft je in {{timing:ai-readiness-assessment}} een gevalideerde lijst met kansen en een 90-dagenplan. Liever eerst sparren? [Plan een adviesgesprek](/contact) van dertig minuten.

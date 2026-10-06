@@ -2,7 +2,7 @@
   "url": "/markten/marketing",
   "build_bestand": "dist/markten/marketing/index.html",
   "html": {
-    "bytes": 36899,
+    "bytes": 38458,
     "lang": "nl"
   },
   "beschermd": {
@@ -105,7 +105,7 @@
   "bodytekst": {
     "regio": "main",
     "woorden": 1979,
-    "sha256": "e6d24348eba46659d69f895d2df46586fe5414c92785673f5a1acd736ae6d9f6",
+    "sha256": "faf6a17c3e6dcc76389ee24215582106c1bceb7af2a247cb56407e9d3544910c",
     "blokken": [
       "Home",
       "Markten",
@@ -228,7 +228,7 @@
       "Dave Willemstein Onafhankelijk AI-adviseur",
       "Onafhankelijk: geen commissies, geen partnerdeals, geen marge op implementatiepartners.",
       "Over mij Mijn partnernetwerk",
-      "Weten waar je staat met AI? Bekijk de AI Readiness Assessment →",
+      "Weten waar je staat met AI? Bekijk het AI Readiness Assessment →",
       "Veelgestelde vragen",
       "Wat is het verschil tussen AI marketing en marketingautomatisering?+",
       "Marketingautomatisering voert vaste regels uit: als iemand dit doet, stuur dan dat. AI marketing voegt daar voorspellen, genereren en analyseren aan toe, bijvoorbeeld een tekst schrijven, een segment voorstellen of een patroon in campagnedata vinden. In de praktijk lopen ze in elkaar over.",
@@ -465,7 +465,7 @@
       "regio": "main",
       "soort": "intern",
       "href": "/diensten/ai-readiness-assessment",
-      "anker": "Weten waar je staat met AI? Bekijk de AI Readiness Assessment →",
+      "anker": "Weten waar je staat met AI? Bekijk het AI Readiness Assessment →",
       "rel": null
     },
     {

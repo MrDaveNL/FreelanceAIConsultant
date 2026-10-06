@@ -2,7 +2,7 @@
   "url": "/ai-development",
   "build_bestand": "dist/ai-development/index.html",
   "html": {
-    "bytes": 33962,
+    "bytes": 35523,
     "lang": "nl"
   },
   "beschermd": {
@@ -99,14 +99,14 @@
   "bodytekst": {
     "regio": "main",
     "woorden": 1815,
-    "sha256": "c18c53ed904a738b0373866494b15b36e4baa86b08010912cf4b88bc78aab986",
+    "sha256": "41d7cf80a6eb5d8fe6d139cf5c7031b453a057275d9c7d3c4ada0b6ae583fda3",
     "blokken": [
       "Home",
       "AI Development",
       "AI development",
       "AI development: AI-oplossingen op maat laten ontwikkelen",
       "AI development gaat zelden mis op de techniek en vaak op de opdracht: een vage specificatie, de verkeerde bouwpartij of niemand die aan jouw kant van de tafel meekijkt. Ik bouw zelf geen software. Ik help je bepalen wat er gebouwd moet worden, door wie, en of het oplevert wat is afgesproken.",
-      "Plan een adviesgesprek → Bekijk de AI Readiness Assessment →",
+      "Plan een adviesgesprek → Bekijk het AI Readiness Assessment →",
       "IN HET KORT",
       "Het bouwen doet je eigen team of een ontwikkelpartij die je rechtstreeks contracteert.",
       "Mijn rol: specificatie, selectie van de bouwpartij, toetsing en governance vanuit jouw kant.",
@@ -191,7 +191,7 @@
       "5. Beheer en metenJouw organisatie is eigenaar; periodieke evaluatie en bijsturen of stoppen",
       "Het bouwen gebeurt door je eigen team of een partner die je zelf contracteert. De adviseur zit aan jouw kant van de tafel en verdient niet aan de bouw.",
       "Wat je concreet van mij krijgt, hangt af van de fase:",
-      "Bij de start: een specificatie in gewone taal, met het probleem, de meetpunten, de data die nodig is en de randvoorwaarden rond privacy en de AI-verordening. Heb je nog geen scherp beeld van waar je staat, dan is de AI Readiness Assessment een logische eerste stap.",
+      "Bij de start: een specificatie in gewone taal, met het probleem, de meetpunten, de data die nodig is en de randvoorwaarden rond privacy en de AI-verordening. Heb je nog geen scherp beeld van waar je staat, dan is het AI Readiness Assessment een logische eerste stap.",
       "Bij de keuze van de bouwpartij: een Vendor Review met scorecards, een test op jouw data en een TCO-vergelijking over drie jaar. De investering is €9.800 - €15.400, bij een doorlooptijd van 3-6 weken. De stappen daarachter beschreef ik in vendorselectie in acht stappen.",
       "Tijdens de bouw: begeleiding vanuit klantzijde, bijvoorbeeld als Fractional AI Lead (€2.600 / €5.200 / €10.400 per maand), met toetsing van opleveringen, bewaking van de business case en de governance die erbij hoort.",
       "Wat er daarna gebeurt, van pilot naar dagelijks gebruik, valt onder AI implementatie. Daar gaat het minder over code en meer over werkprocessen, adoptie en eigenaarschap.",
@@ -215,7 +215,7 @@
       "Dave Willemstein Onafhankelijk AI-adviseur",
       "Onafhankelijk: geen commissies, geen partnerdeals, geen marge op implementatiepartners.",
       "Over mij Mijn partnernetwerk",
-      "Weten waar je staat met AI? Bekijk de AI Readiness Assessment →",
+      "Weten waar je staat met AI? Bekijk het AI Readiness Assessment →",
       "Veelgestelde vragen",
       "Bouw jij zelf AI-applicaties?+",
       "Nee. Ik schrijf geen code en lever geen software. Het bouwen doet je eigen team of een ontwikkelpartij die je zelf contracteert. Ik help met de specificatie, de keuze van die partij, de toetsing van wat er wordt opgeleverd en de governance eromheen.",
@@ -308,7 +308,7 @@
       "regio": "main",
       "soort": "intern",
       "href": "/diensten/ai-readiness-assessment",
-      "anker": "Bekijk de AI Readiness Assessment →",
+      "anker": "Bekijk het AI Readiness Assessment →",
       "rel": null
     },
     {
@@ -441,7 +441,7 @@
       "regio": "main",
       "soort": "intern",
       "href": "/diensten/ai-readiness-assessment",
-      "anker": "Weten waar je staat met AI? Bekijk de AI Readiness Assessment →",
+      "anker": "Weten waar je staat met AI? Bekijk het AI Readiness Assessment →",
       "rel": null
     },
     {

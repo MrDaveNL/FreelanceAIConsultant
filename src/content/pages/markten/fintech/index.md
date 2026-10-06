@@ -107,7 +107,7 @@ Uitstel van de AI Act-regels is geen reden om te wachten. Een kredietmodel dat j
 
 Wat ik voor banken, verzekeraars, fintechs en investeerders doe, is hetzelfde als in andere sectoren, maar met de lat hoger voor uitlegbaarheid en herleidbaarheid:
 
-- **Prioriteren:** welke toepassingen leveren iets op en passen binnen je risicobereidheid? Een logisch begin is een nulmeting met de [AI Readiness Assessment](/diensten/ai-readiness-assessment).
+- **Prioriteren:** welke toepassingen leveren iets op en passen binnen je risicobereidheid? Een logisch begin is een nulmeting met het [AI Readiness Assessment](/diensten/ai-readiness-assessment).
 - **Kiezen:** een leverancier of bouwpartij selecteren met criteria voor uitlegbaarheid, auditspoor, datarechten en exitpad. Met een [Vendor Review](/diensten/vendor-review) leg je die keuze vast op een manier waar inkoop, compliance en audit mee verder kunnen.
 - **Beoordelen:** voor investeerders en corporate-developmentteams die een AI-propositie of -leverancier willen doorlichten, is er de [AI Due Diligence](/diensten/ai-due-diligence), altijd onder NDA.
 - **Borgen:** als je geen fulltime Head of AI hebt, kan een [Fractional AI Lead](/diensten/fractional-ai-lead) de AI-agenda bewaken en de afstemming met risk, compliance en audit organiseren.

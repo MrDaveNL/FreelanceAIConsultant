@@ -2,7 +2,7 @@
   "url": "/ai-agents",
   "build_bestand": "dist/ai-agents/index.html",
   "html": {
-    "bytes": 39665,
+    "bytes": 41226,
     "lang": "nl"
   },
   "beschermd": {
@@ -195,14 +195,14 @@
   "bodytekst": {
     "regio": "main",
     "woorden": 2452,
-    "sha256": "08ba0715073ffcac0b7066754238f52373d89012175c153e372fc8be72cd48e8",
+    "sha256": "66dc189541b0e6c13d73cf67274fa5dbd8c850cca67c8dc9cc9db7c702a4547a",
     "blokken": [
       "Home",
       "AI Agents",
       "AI agents",
       "AI agents voor bedrijven",
       "AI agents voor bedrijven beloven werk dat zichzelf uitvoert: een systeem dat een doel krijgt en zelf de stappen zet. Dat kan veel opleveren, maar alleen als je vooraf bepaalt welke stappen je uit handen geeft en wie meekijkt. Op deze pagina lees je waar agents passen, wat ze kosten en hoe je ze verantwoord invoert.",
-      "Plan een adviesgesprek → Bekijk de AI Readiness Assessment →",
+      "Plan een adviesgesprek → Bekijk het AI Readiness Assessment →",
       "IN HET KORT",
       "Een AI agent voert zelf stappen uit richting een doel; dat vraagt andere afspraken dan een chatbot.",
       "Begin met voorbereiden en voorstellen, pas later met zelfstandig uitvoeren.",
@@ -328,12 +328,12 @@
       "Geschikte toepassingen",
       "Voor een AI agent in het MKB zijn toepassingen geschikt die binnen software draaien die je al gebruikt: je mailomgeving, boekhoudpakket, CRM of kantoorsoftware. Denk aan een agent die inkomende mail sorteert en conceptantwoorden klaarzet, die offerteaanvragen voorbereidt of die facturen voorcontroleert. Het gemeenschappelijke kenmerk: een mens beoordeelt de uitkomst voordat er iets de deur uitgaat.",
       "Kosten en een veilige start",
-      "Begin met een agentfunctie binnen een pakket dat je al hebt, op één afgebakende taak, met een testperiode waarin iemand alles controleert. Spreek vooraf af welke gegevens de agent mag gebruiken en controleer of er een verwerkersovereenkomst met de leverancier is. Wil je eerst weten of je organisatie er klaar voor is en welke taken in aanmerking komen, dan is de AI Readiness Assessment het logische startpunt.",
+      "Begin met een agentfunctie binnen een pakket dat je al hebt, op één afgebakende taak, met een testperiode waarin iemand alles controleert. Spreek vooraf af welke gegevens de agent mag gebruiken en controleer of er een verwerkersovereenkomst met de leverancier is. Wil je eerst weten of je organisatie er klaar voor is en welke taken in aanmerking komen, dan is het AI Readiness Assessment het logische startpunt.",
       "Ik bouw zelf geen agents. Wel help ik je bepalen welke taak geschikt is, wat je van een bouwpartij moet vragen en hoe je de uitvoering bewaakt. Heb je extra handen nodig, dan stel ik partijen uit mijn partnernetwerk voor; die contracteer je rechtstreeks, zonder marge voor mij. Wil je sparren over een concreet idee? Plan een gesprek van dertig minuten; aan het eind hoor je wat ik zou doen.",
       "Dave Willemstein Onafhankelijk AI-adviseur",
       "Onafhankelijk: geen commissies, geen partnerdeals, geen marge op implementatiepartners.",
       "Over mij Mijn partnernetwerk",
-      "Weten waar je staat met AI? Bekijk de AI Readiness Assessment →",
+      "Weten waar je staat met AI? Bekijk het AI Readiness Assessment →",
       "Veelgestelde vragen over AI agents",
       "Wat is het verschil tussen een AI agent en een chatbot?+",
       "Een chatbot beantwoordt vragen binnen één gesprek. Een AI agent krijgt een doel, bepaalt zelf welke stappen nodig zijn en voert die uit in andere systemen, zoals een CRM, een ticketsysteem of een mailbox. Daardoor kan een agent meer, maar ook meer fout doen. De vraag wie een stap controleert, wordt bij een agent veel belangrijker.",
@@ -429,7 +429,7 @@
       "regio": "main",
       "soort": "intern",
       "href": "/diensten/ai-readiness-assessment",
-      "anker": "Bekijk de AI Readiness Assessment →",
+      "anker": "Bekijk het AI Readiness Assessment →",
       "rel": null
     },
     {
@@ -583,7 +583,7 @@
       "regio": "main",
       "soort": "intern",
       "href": "/diensten/ai-readiness-assessment",
-      "anker": "Weten waar je staat met AI? Bekijk de AI Readiness Assessment →",
+      "anker": "Weten waar je staat met AI? Bekijk het AI Readiness Assessment →",
       "rel": null
     },
     {

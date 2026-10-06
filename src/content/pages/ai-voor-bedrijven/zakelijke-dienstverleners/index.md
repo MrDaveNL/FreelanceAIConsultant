@@ -13,7 +13,7 @@ keyphrase: ai voor zakelijke dienstverleners
 eyebrow: "AI voor dienstverleners"
 lede: "Accountants, advocaten, adviseurs en bureaus verkopen kennis en tijd. Daarmee is AI voor zakelijke dienstverleners interessanter dan voor bijna elke andere sector, en tegelijk gevoeliger. Hier lees je waar de winst zit per beroepsgroep, welke soorten tools er zijn en hoe je vertrouwelijkheid en kwaliteit bewaakt."
 primaryCta: { label: "Lees meer over AI voor bedrijven", href: /ai-voor-bedrijven }
-secondaryCta: { label: "Bekijk de AI Readiness Assessment", href: /diensten/ai-readiness-assessment }
+secondaryCta: { label: "Bekijk het AI Readiness Assessment", href: /diensten/ai-readiness-assessment }
 summary:
   - "Dienstverleners werken met documenten en taal, precies waar generatieve AI sterk in is."
   - "De professional blijft verantwoordelijk: AI levert een concept, geen advies."

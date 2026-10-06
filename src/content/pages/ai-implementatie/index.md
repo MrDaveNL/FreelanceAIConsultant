@@ -13,7 +13,7 @@ keyphrase: ai implementatie
 eyebrow: "AI implementatie"
 lede: "Een geslaagde AI implementatie draait minder om het model dan om alles eromheen: de juiste use case, bruikbare data, een bouwpartij die levert wat je nodig hebt en mensen die het gaan gebruiken. Ik begeleid dat traject vanuit jouw kant van de tafel, onafhankelijk van leveranciers en zonder zelf aan de bouw te verdienen."
 primaryCta: { label: "Plan een adviesgesprek", href: /contact }
-secondaryCta: { label: "Bekijk de AI Readiness Assessment", href: /diensten/ai-readiness-assessment }
+secondaryCta: { label: "Bekijk het AI Readiness Assessment", href: /diensten/ai-readiness-assessment }
 summary:
   - "AI implementatie is een verandertraject met techniek erin, geen IT-project met een beetje verandering."
   - "Het bouwen doet je eigen team of een partner die je rechtstreeks contracteert; ik toets, stuur en bewaak de uitkomst."
@@ -59,7 +59,7 @@ Tussen een AI-strategie en een werkende toepassing zit een gat waar veel organis
 
 Een goede [AI-roadmap](/ai-consultancy/ai-roadmap) maakt die vertaling al half: ze zet use cases in volgorde en koppelt ze aan eigenaren en beslismomenten. Ligt er nog geen roadmap, dan is dat geen reden om te wachten. Wel is het een reden om het eerste traject klein en goed afgebakend te houden, zodat je leert wat je organisatie aankan voordat je de tweede en derde toepassing start.
 
-Twijfel je of je er klaar voor bent, of lopen de meningen daarover uiteen? Dan is de [AI Readiness Assessment](/diensten/ai-readiness-assessment) het logische startpunt. In {{timing:ai-readiness-assessment}} weet je waar je staat op strategie, data, technologie, mensen en governance, en welke blokkades eerst weg moeten.
+Twijfel je of je er klaar voor bent, of lopen de meningen daarover uiteen? Dan is het [AI Readiness Assessment](/diensten/ai-readiness-assessment) het logische startpunt. In {{timing:ai-readiness-assessment}} weet je waar je staat op strategie, data, technologie, mensen en governance, en welke blokkades eerst weg moeten.
 
 ## Mijn implementatieaanpak
 

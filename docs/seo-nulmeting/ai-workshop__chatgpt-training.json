@@ -2,7 +2,7 @@
   "url": "/ai-workshop/chatgpt-training",
   "build_bestand": "dist/ai-workshop/chatgpt-training/index.html",
   "html": {
-    "bytes": 30582,
+    "bytes": 32142,
     "lang": "nl"
   },
   "beschermd": {
@@ -75,7 +75,7 @@
   "bodytekst": {
     "regio": "main",
     "woorden": 1279,
-    "sha256": "fe34f61dc74d67c3ee6c2b30980e9afd3a0624c98f0836371b746260642779d7",
+    "sha256": "d67ce9db5f08edbe8ceec6cc984f7dfe2c4ad72f92c24064754f4539b3880f1d",
     "blokken": [
       "Home",
       "AI workshop",
@@ -83,7 +83,7 @@
       "ChatGPT training",
       "ChatGPT training voor bedrijven",
       "Veel medewerkers gebruiken ChatGPT al, vaak met een privéaccount en zonder afspraken. Een ChatGPT training brengt dat terug naar iets waar je als organisatie grip op hebt: betere prompts, herbruikbare GPT's en projecten voor terugkerend werk, en duidelijkheid over welke gegevens er wel en niet in horen.",
-      "Vraag een training aan → Bekijk de AI Readiness Assessment →",
+      "Vraag een training aan → Bekijk het AI Readiness Assessment →",
       "IN HET KORT",
       "Incompany training met taken uit het eigen werk van je team.",
       "Van betere prompts tot eigen GPT's en projecten voor terugkerend werk.",
@@ -182,7 +182,7 @@
       "Dave Willemstein Onafhankelijk AI-adviseur",
       "Onafhankelijk: geen commissies, geen partnerdeals, geen marge op implementatiepartners.",
       "Over mij Mijn partnernetwerk",
-      "Weten waar je staat met AI? Bekijk de AI Readiness Assessment →",
+      "Weten waar je staat met AI? Bekijk het AI Readiness Assessment →",
       "Veelgestelde vragen",
       "Hebben we een zakelijk ChatGPT-abonnement nodig voor de training?+",
       "Niet per se, maar het helpt. Met een zakelijke workspace kunnen deelnemers oefenen met functies zoals gedeelde GPT's en projecten, binnen de afspraken van de organisatie. Zonder zakelijk abonnement werken we met oefenmateriaal zonder vertrouwelijke gegevens.",
@@ -285,7 +285,7 @@
       "regio": "main",
       "soort": "intern",
       "href": "/diensten/ai-readiness-assessment",
-      "anker": "Bekijk de AI Readiness Assessment →",
+      "anker": "Bekijk het AI Readiness Assessment →",
       "rel": null
     },
     {
@@ -369,7 +369,7 @@
       "regio": "main",
       "soort": "intern",
       "href": "/diensten/ai-readiness-assessment",
-      "anker": "Weten waar je staat met AI? Bekijk de AI Readiness Assessment →",
+      "anker": "Weten waar je staat met AI? Bekijk het AI Readiness Assessment →",
       "rel": null
     },
     {

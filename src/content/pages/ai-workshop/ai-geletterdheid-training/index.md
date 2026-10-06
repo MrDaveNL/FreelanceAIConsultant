@@ -13,7 +13,7 @@ keyphrase: ai geletterdheid training
 eyebrow: "AI-geletterdheid"
 lede: "Een AI geletterdheid training helpt je team begrijpen wat AI kan, waar het misgaat en welke afspraken er gelden. Dat is verstandig werkgeverschap, en het is ook wat de AI Act van organisaties vraagt. Op deze pagina lees je wat de wet sinds de wijziging van juli 2026 precies vraagt, wat een training oplevert en hoe je vastlegt wat je doet."
 primaryCta: { label: "Vraag een training aan", href: /contact }
-secondaryCta: { label: "Bekijk de AI Readiness Assessment", href: /diensten/ai-readiness-assessment }
+secondaryCta: { label: "Bekijk het AI Readiness Assessment", href: /diensten/ai-readiness-assessment }
 summary:
   - "Artikel 4 van de AI Act geldt sinds 2 februari 2025 voor organisaties die AI ontwikkelen of gebruiken."
   - "Sinds de Digital Omnibus (juli 2026) is het een inspanningsverplichting: maatregelen nemen, geen vereist niveau."

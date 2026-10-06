@@ -13,7 +13,7 @@ keyphrase: ai specialist
 eyebrow: "AI specialist"
 lede: "Een AI specialist kan een strateeg zijn, een machine learning engineer of iemand die een AI-platform inricht. Wie zoekt naar een AI specialist, zoekt dus eigenlijk een specifieke expertise. Hier lees je welke soorten er zijn, hoe je bepaalt welke je nodig hebt en welke rol ik als freelance AI specialist vervul."
 primaryCta: { label: "Plan een adviesgesprek", href: /contact }
-secondaryCta: { label: "Bekijk de AI Readiness Assessment", href: /diensten/ai-readiness-assessment }
+secondaryCta: { label: "Bekijk het AI Readiness Assessment", href: /diensten/ai-readiness-assessment }
 summary:
   - "'AI specialist' is een verzamelnaam: strategische en technische specialisten doen heel ander werk."
   - "Bepaal eerst welk besluit of welk product je nodig hebt; daaruit volgt het profiel."
@@ -90,7 +90,7 @@ Ik ben een freelance AI consultant, een AI specialist aan de strategische kant: 
 Waar ik wel in gespecialiseerd ben:
 
 - **AI-strategie en prioritering.** Van losse ideeën naar een portfolio met onderbouwde keuzes en een roadmap.
-- **Readiness.** Een doorlichting op strategie, data, technologie, mensen en governance. De [AI Readiness Assessment](/diensten/ai-readiness-assessment) kost {{pricelc:ai-readiness-assessment}} en duurt {{timing:ai-readiness-assessment}}.
+- **Readiness.** Een doorlichting op strategie, data, technologie, mensen en governance. Het [AI Readiness Assessment](/diensten/ai-readiness-assessment) kost {{pricelc:ai-readiness-assessment}} en duurt {{timing:ai-readiness-assessment}}.
 - **Leveranciersselectie.** Criteria vooraf, een gelijk scenario op jouw data en een TCO-vergelijking over drie jaar. Een voorbeeld is de case over [vendorselectie in enterprise retail](/cases/vendorselectie-enterprise-retail).
 - **Toetsing en due diligence.** Business cases en AI-proposities beoordelen op waarde, risico en haalbaarheid.
 - **Governance.** Rollen, besliskaders en de eisen uit de AI-verordening in een werkbare vorm.

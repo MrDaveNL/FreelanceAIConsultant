@@ -2,7 +2,7 @@
   "url": "/kennisbank/wat-doet-een-ai-consultant",
   "build_bestand": "dist/kennisbank/wat-doet-een-ai-consultant/index.html",
   "html": {
-    "bytes": 34182,
+    "bytes": 35741,
     "lang": "nl"
   },
   "beschermd": {
@@ -105,7 +105,7 @@
   "bodytekst": {
     "regio": "main",
     "woorden": 1711,
-    "sha256": "741a5dbd4fb3eaf389a815865e597c726994aca51ee68db7c3d75c67bf3385b6",
+    "sha256": "1aef8ebd867c8b43f96c27c67d255bba8d2fef2f4bd6c3406f38d0f4049f77a2",
     "blokken": [
       "Home",
       "Kennisbank",
@@ -234,7 +234,7 @@
       "Dave Willemstein Onafhankelijk AI-adviseur",
       "Onafhankelijk: geen commissies, geen partnerdeals, geen marge op implementatiepartners.",
       "Over mij Mijn partnernetwerk",
-      "Weten waar je staat met AI? Bekijk de AI Readiness Assessment →",
+      "Weten waar je staat met AI? Bekijk het AI Readiness Assessment →",
       "Veelgestelde vragen",
       "Heeft een AI consultant een technische achtergrond nodig?+",
       "Genoeg om technische keuzes te begrijpen en kritische vragen te stellen aan leveranciers en developers. Zelf modellen bouwen hoort niet bij de rol. Belangrijker is dat iemand techniek kan vertalen naar gevolgen voor kosten, risico en werkprocessen.",
@@ -453,7 +453,7 @@
       "regio": "main",
       "soort": "intern",
       "href": "/diensten/ai-readiness-assessment",
-      "anker": "Weten waar je staat met AI? Bekijk de AI Readiness Assessment →",
+      "anker": "Weten waar je staat met AI? Bekijk het AI Readiness Assessment →",
       "rel": null
     },
     {

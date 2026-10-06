@@ -13,7 +13,7 @@ keyphrase: ai per branche
 eyebrow: "AI per sector"
 lede: "AI per branche verschilt minder dan je zou denken, en tegelijk meer dan leveranciers je vertellen. De vragen zijn overal hetzelfde: wat pak je eerst aan, wat koop je en hoe houd je grip. Het verschil zit in de regels, de data en het risico als het misgaat."
 primaryCta: { label: "Plan een adviesgesprek", href: /contact }
-secondaryCta: { label: "Bekijk de AI Readiness Assessment", href: /diensten/ai-readiness-assessment }
+secondaryCta: { label: "Bekijk het AI Readiness Assessment", href: /diensten/ai-readiness-assessment }
 summary:
   - "Prioriteren, kiezen en borgen: die vragen zijn in elke sector gelijk."
   - "Regels, datagevoeligheid en foutkosten verschillen sterk per branche."
@@ -100,4 +100,4 @@ De meeste cases op deze site komen uit de sectoren waar mijn werk het zwaarst op
 
 Voor zorg, marketing, automotive, onderwijs, luchtvaart en overheid staan er geen cases op de site. Op die sectorpagina's beschrijf ik daarom de vraagstukken en regels, niet eigen resultaten. Alle cases vind je in het [overzicht van cases](/cases).
 
-Wil je weten hoe je organisatie ervoor staat, ongeacht de sector? De [AI Readiness Assessment](/diensten/ai-readiness-assessment) geeft in korte tijd een nuchter beeld. Of [plan een adviesgesprek](/contact) van dertig minuten, dan hoor je aan het eind wat ik zou doen.
+Wil je weten hoe je organisatie ervoor staat, ongeacht de sector? Het [AI Readiness Assessment](/diensten/ai-readiness-assessment) geeft in korte tijd een nuchter beeld. Of [plan een adviesgesprek](/contact) van dertig minuten, dan hoor je aan het eind wat ik zou doen.

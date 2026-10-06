@@ -13,7 +13,7 @@ keyphrase: ai agents voorbeelden
 eyebrow: "Voorbeelden"
 lede: "Zoek je AI agents voorbeelden die verder gaan dan de demo? Hieronder staan twaalf toepassingen voor klantenservice, sales, HR en finance. Per voorbeeld lees je hoe de agent werkt, welke koppelingen hij nodig heeft en waar de winst zit, plus op welk moment een mens moet meekijken."
 primaryCta: { label: "Lees meer over AI agents voor bedrijven", href: /ai-agents }
-secondaryCta: { label: "Bekijk de AI Readiness Assessment", href: /diensten/ai-readiness-assessment }
+secondaryCta: { label: "Bekijk het AI Readiness Assessment", href: /diensten/ai-readiness-assessment }
 summary:
   - "Twaalf generieke voorbeelden, geordend per afdeling, met koppelingen en controlepunten."
   - "De meeste waarde zit in voorbereidend werk dat een mens daarna beoordeelt."

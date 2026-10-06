@@ -2,7 +2,7 @@
   "url": "/markten/zorg",
   "build_bestand": "dist/markten/zorg/index.html",
   "html": {
-    "bytes": 39142,
+    "bytes": 40701,
     "lang": "nl"
   },
   "beschermd": {
@@ -87,7 +87,7 @@
   "bodytekst": {
     "regio": "main",
     "woorden": 2119,
-    "sha256": "1fb1dbba8dc2579fcb4013e733929ccccb0e5a2dd65da25c139bb154d83b98e9",
+    "sha256": "90fee712acebabca28783e1bbda7efaf4e0957677c28afffb96c09ae1f389e2f",
     "blokken": [
       "Home",
       "Markten",
@@ -213,7 +213,7 @@
       "Dave Willemstein Onafhankelijk AI-adviseur",
       "Onafhankelijk: geen commissies, geen partnerdeals, geen marge op implementatiepartners.",
       "Over mij Mijn partnernetwerk",
-      "Weten waar je staat met AI? Bekijk de AI Readiness Assessment →",
+      "Weten waar je staat met AI? Bekijk het AI Readiness Assessment →",
       "Veelgestelde vragen",
       "Is elke AI-toepassing in de zorg een medisch hulpmiddel?+",
       "Nee. Het gaat om het beoogde doel. Software die helpt bij diagnose of behandeling kan een medisch hulpmiddel zijn; software die alleen communicatie of logistiek ondersteunt, zoals roosterplanning, in de regel niet. Laat de kwalificatie bij twijfel vooraf toetsen door een regulatory specialist.",
@@ -469,7 +469,7 @@
       "regio": "main",
       "soort": "intern",
       "href": "/diensten/ai-readiness-assessment",
-      "anker": "Weten waar je staat met AI? Bekijk de AI Readiness Assessment →",
+      "anker": "Weten waar je staat met AI? Bekijk het AI Readiness Assessment →",
       "rel": null
     },
     {

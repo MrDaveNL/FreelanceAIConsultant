@@ -13,7 +13,7 @@ keyphrase: ai agent laten maken
 eyebrow: "AI agent laten maken"
 lede: "Wie een AI agent laat maken, koopt geen product maar een stuk proces dat zelfstandig handelt. Het succes wordt grotendeels bepaald vóórdat er een regel code geschreven is: welke taak, welke grenzen, welke controle en welke bouwpartij. Op deze pagina lees je hoe je dat aanpakt en waar ik je daarbij help."
 primaryCta: { label: "Plan een adviesgesprek", href: /contact }
-secondaryCta: { label: "Bekijk de AI Readiness Assessment", href: /diensten/ai-readiness-assessment }
+secondaryCta: { label: "Bekijk het AI Readiness Assessment", href: /diensten/ai-readiness-assessment }
 summary:
   - "Kies eerst tussen zelf bouwen, een platform gebruiken of een partner inschakelen."
   - "Leg taken, grenzen en menselijke controle vast voordat je offertes opvraagt."

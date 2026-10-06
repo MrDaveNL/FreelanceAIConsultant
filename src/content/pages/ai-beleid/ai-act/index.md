@@ -13,7 +13,7 @@ keyphrase: ai act voor bedrijven
 eyebrow: "AI Act"
 lede: "De AI Act voor bedrijven komt neer op drie vragen: welke AI gebruik of maak je, in welke risicocategorie valt dat, en welke rol heb je? In 2026 is de wet bovendien aangepast via de Digital Omnibus. Hier lees je de actuele stand per september 2026 en wat je nu concreet doet."
 primaryCta: { label: "Lees meer over AI beleid", href: /ai-beleid }
-secondaryCta: { label: "Bekijk de AI Readiness Assessment", href: /diensten/ai-readiness-assessment }
+secondaryCta: { label: "Bekijk het AI Readiness Assessment", href: /diensten/ai-readiness-assessment }
 summary:
   - "De AI Act deelt AI in naar risico: verboden, hoog risico, transparantieverplichtingen en minimaal risico."
   - "Je verplichtingen hangen af van je rol: aanbieder of gebruiksverantwoordelijke."
@@ -150,4 +150,4 @@ Je hoeft niet te wachten tot december 2027. De verplichtingen die nu al gelden z
 <p class="scenario-note">Fictief voorbeeld, samengesteld uit situaties die veel voorkomen. Organisatie en cijfers zijn illustratief.</p>
 </aside>
 
-Wil je weten waar je staat? De [AI Readiness Assessment](/diensten/ai-readiness-assessment) bevat een risico- en compliance-scan, inclusief de positionering van je toepassingen onder de AI-verordening. Moet je directie of raad van commissarissen eerst een gedeeld beeld krijgen, dan behandelt de [Executive Briefing](/diensten/executive-briefing) ook regelgeving en toezicht. En wil je eerst sparren over wat de AI Act voor jouw situatie betekent, [plan dan een kort gesprek](/contact).
+Wil je weten waar je staat? Het [AI Readiness Assessment](/diensten/ai-readiness-assessment) bevat een risico- en compliance-scan, inclusief de positionering van je toepassingen onder de AI-verordening. Moet je directie of raad van commissarissen eerst een gedeeld beeld krijgen, dan behandelt de [Executive Briefing](/diensten/executive-briefing) ook regelgeving en toezicht. En wil je eerst sparren over wat de AI Act voor jouw situatie betekent, [plan dan een kort gesprek](/contact).

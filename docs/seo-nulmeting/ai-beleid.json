@@ -2,7 +2,7 @@
   "url": "/ai-beleid",
   "build_bestand": "dist/ai-beleid/index.html",
   "html": {
-    "bytes": 41314,
+    "bytes": 42875,
     "lang": "nl"
   },
   "beschermd": {
@@ -129,14 +129,14 @@
   "bodytekst": {
     "regio": "main",
     "woorden": 2566,
-    "sha256": "32e8c0401b6089ca2bab8427c76b1f4736bea4a9d911eed96ac76c3d30eeb2d1",
+    "sha256": "21644e0b03e3ca78755d2cde95c9e5c9183c67a156e32752caf724da2ef807e2",
     "blokken": [
       "Home",
       "AI beleid",
       "AI beleid en governance",
       "AI beleid en governance voor organisaties",
       "Een goed AI beleid is geen dik document, maar een set heldere afspraken: welke tools mogen, welke data erin mag, wie waarover beslist en hoe je risico's bewaakt. Op deze pagina lees je wat erin hoort, hoe het zich verhoudt tot de AI Act en hoe je als mkb'er in een paar weken een eerste versie neerzet.",
-      "Plan een adviesgesprek → Bekijk de AI Readiness Assessment →",
+      "Plan een adviesgesprek → Bekijk het AI Readiness Assessment →",
       "IN HET KORT",
       "Een AI beleid legt vast welke tools en data mogen, wie verantwoordelijk is en hoe je risico's beheerst.",
       "Begin klein: één pagina met werkbare afspraken, en laat het meegroeien met je toepassingen.",
@@ -272,13 +272,13 @@
       "Risico’s en meldingen: hoe nieuwe toepassingen worden beoordeeld en waar je een incident of twijfel meldt.",
       "AI-geletterdheid: welke training of instructie medewerkers krijgen en hoe je dat bijhoudt.",
       "Herziening: wanneer en door wie het beleid wordt geëvalueerd.",
-      "Wil je weten waar je organisatie staat voordat je het beleid schrijft? De AI Readiness Assessment brengt in 2-3 weken je uitgangspositie in kaart, inclusief een risico- en compliance-scan en je positie onder de AI-verordening, voor €7.000. Alle bedragen en pakketten staan op de pagina tarieven.",
+      "Wil je weten waar je organisatie staat voordat je het beleid schrijft? Het AI Readiness Assessment brengt in 2-3 weken je uitgangspositie in kaart, inclusief een risico- en compliance-scan en je positie onder de AI-verordening, voor €7.000. Alle bedragen en pakketten staan op de pagina tarieven.",
       "Ik werk onafhankelijk: ik verkoop geen tools en ontvang geen commissies van leveranciers, dus het beleid gaat over wat bij jullie past. Meer over mijn achtergrond lees je op over mij. Waar uitvoering nodig is, bijvoorbeeld bij technische inrichting, kan ik partijen uit mijn partnernetwerk voorstellen die je rechtstreeks contracteert.",
       "Wil je sparren over een eerste versie van jullie AI beleid? Plan een gesprek van dertig minuten; aan het eind weet je wat ik als eerste zou regelen.",
       "Dave Willemstein Onafhankelijk AI-adviseur",
       "Onafhankelijk: geen commissies, geen partnerdeals, geen marge op implementatiepartners.",
       "Over mij Mijn partnernetwerk",
-      "Weten waar je staat met AI? Bekijk de AI Readiness Assessment →",
+      "Weten waar je staat met AI? Bekijk het AI Readiness Assessment →",
       "Veelgestelde vragen",
       "Is een AI beleid wettelijk verplicht?+",
       "De AI Act schrijft geen document met de naam AI beleid voor. Wel moeten organisaties die AI-systemen gebruiken of aanbieden maatregelen nemen voor AI-geletterdheid, en afhankelijk van de toepassing gelden er transparantie- of hoog-risicoverplichtingen. Daarnaast geldt de AVG zodra er persoonsgegevens in het spel zijn. Een AI beleid is in de praktijk de eenvoudigste manier om die verplichtingen aantoonbaar te organiseren.",
@@ -377,7 +377,7 @@
       "regio": "main",
       "soort": "intern",
       "href": "/diensten/ai-readiness-assessment",
-      "anker": "Bekijk de AI Readiness Assessment →",
+      "anker": "Bekijk het AI Readiness Assessment →",
       "rel": null
     },
     {
@@ -517,7 +517,7 @@
       "regio": "main",
       "soort": "intern",
       "href": "/diensten/ai-readiness-assessment",
-      "anker": "Weten waar je staat met AI? Bekijk de AI Readiness Assessment →",
+      "anker": "Weten waar je staat met AI? Bekijk het AI Readiness Assessment →",
       "rel": null
     },
     {

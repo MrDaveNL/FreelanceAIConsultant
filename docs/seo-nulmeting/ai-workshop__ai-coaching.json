@@ -2,7 +2,7 @@
   "url": "/ai-workshop/ai-coaching",
   "build_bestand": "dist/ai-workshop/ai-coaching/index.html",
   "html": {
-    "bytes": 29064,
+    "bytes": 30624,
     "lang": "nl"
   },
   "beschermd": {
@@ -69,7 +69,7 @@
   "bodytekst": {
     "regio": "main",
     "woorden": 1273,
-    "sha256": "e3c532393d23e79f187714ddd99865671361381ff74ef57ef1e58c46f4266cba",
+    "sha256": "c60bcbada83d67d7c417fb2a2e5ac23409d6ebb7d8f9a9804eb48649cd102a6e",
     "blokken": [
       "Home",
       "AI workshop",
@@ -77,7 +77,7 @@
       "AI coaching",
       "AI coaching voor managers en teams",
       "Een workshop geeft een team een vertrekpunt. Maar de vragen komen pas echt als mensen AI in hun werk gaan gebruiken. AI coaching is persoonlijke begeleiding voor managers en teamleads in die fase: wat pak je als eerste op, hoe neem je je team mee en hoe houd je het vol als de waan van de dag terugkomt.",
-      "Plan een adviesgesprek → Bekijk de AI Readiness Assessment →",
+      "Plan een adviesgesprek → Bekijk het AI Readiness Assessment →",
       "IN HET KORT",
       "Persoonlijke begeleiding voor managers en teamleads die AI in hun team willen laten landen.",
       "Gericht op het werk van het team, niet op de tool.",
@@ -178,7 +178,7 @@
       "Dave Willemstein Onafhankelijk AI-adviseur",
       "Onafhankelijk: geen commissies, geen partnerdeals, geen marge op implementatiepartners.",
       "Over mij Mijn partnernetwerk",
-      "Weten waar je staat met AI? Bekijk de AI Readiness Assessment →",
+      "Weten waar je staat met AI? Bekijk het AI Readiness Assessment →",
       "Veelgestelde vragen",
       "Wat is het verschil tussen AI coaching en een training?+",
       "Een training brengt een groep kennis en vaardigheden bij, met een vooraf bepaald programma. Coaching volgt de vragen van één manager of een klein team, op het moment dat ze zich voordoen. Een combinatie werkt vaak goed: eerst een training voor de breedte, daarna coaching voor de mensen die de verandering moeten trekken.",
@@ -276,7 +276,7 @@
       "regio": "main",
       "soort": "intern",
       "href": "/diensten/ai-readiness-assessment",
-      "anker": "Bekijk de AI Readiness Assessment →",
+      "anker": "Bekijk het AI Readiness Assessment →",
       "rel": null
     },
     {
@@ -346,7 +346,7 @@
       "regio": "main",
       "soort": "intern",
       "href": "/diensten/ai-readiness-assessment",
-      "anker": "Weten waar je staat met AI? Bekijk de AI Readiness Assessment →",
+      "anker": "Weten waar je staat met AI? Bekijk het AI Readiness Assessment →",
       "rel": null
     },
     {

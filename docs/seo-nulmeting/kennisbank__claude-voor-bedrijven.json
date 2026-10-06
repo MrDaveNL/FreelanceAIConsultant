@@ -2,7 +2,7 @@
   "url": "/kennisbank/claude-voor-bedrijven",
   "build_bestand": "dist/kennisbank/claude-voor-bedrijven/index.html",
   "html": {
-    "bytes": 32022,
+    "bytes": 33581,
     "lang": "nl"
   },
   "beschermd": {
@@ -75,7 +75,7 @@
   "bodytekst": {
     "regio": "main",
     "woorden": 1611,
-    "sha256": "2708f2954ba888c589f8f6b258bcbac6f85f248702734b5f1284c0b1eb9f08ec",
+    "sha256": "d8e05633edde14eb89734c0cc3b044bdcd7f260d9ab9818bfa7f0a4ab4ee4c55",
     "blokken": [
       "Home",
       "Kennisbank",
@@ -206,7 +206,7 @@
       "Dave Willemstein Onafhankelijk AI-adviseur",
       "Onafhankelijk: geen commissies, geen partnerdeals, geen marge op implementatiepartners.",
       "Over mij Mijn partnernetwerk",
-      "Weten waar je staat met AI? Bekijk de AI Readiness Assessment →",
+      "Weten waar je staat met AI? Bekijk het AI Readiness Assessment →",
       "Bronnen",
       "Anthropic – Claude pricing (Pro, Max, Team, Enterprise)",
       "Anthropic – Claude Enterprise",
@@ -391,7 +391,7 @@
       "regio": "main",
       "soort": "intern",
       "href": "/diensten/ai-readiness-assessment",
-      "anker": "Weten waar je staat met AI? Bekijk de AI Readiness Assessment →",
+      "anker": "Weten waar je staat met AI? Bekijk het AI Readiness Assessment →",
       "rel": null
     },
     {

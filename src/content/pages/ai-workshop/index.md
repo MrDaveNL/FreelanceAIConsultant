@@ -13,7 +13,7 @@ keyphrase: workshop ai
 eyebrow: "AI workshop en training"
 lede: "Een goede workshop AI begint niet bij de tool, maar bij het werk dat je team morgen weer op het bureau vindt. Ik geef workshops en trainingen die aansluiten op jullie eigen taken, jullie eigen tools en de afspraken die in jullie organisatie gelden. Praktisch, op maat en zonder verkooppraatje over software."
 primaryCta: { label: "Vraag een workshop aan", href: /contact }
-secondaryCta: { label: "Bekijk de AI Readiness Assessment", href: /diensten/ai-readiness-assessment }
+secondaryCta: { label: "Bekijk het AI Readiness Assessment", href: /diensten/ai-readiness-assessment }
 summary:
   - "Workshops en trainingen op maat, gebouwd rond de taken van je eigen team."
   - "Van een introductie voor management tot hands-on met ChatGPT en Copilot."
@@ -140,4 +140,4 @@ Workshops en trainingen krijgen een vaste prijs per opdracht, omdat voorbereidin
 
 De Executive Briefing is de uitzondering: die heeft een vaste prijs van {{price:executive-briefing}}, inclusief voorbereiding op jullie sector.
 
-Wil je eerst zien waar je als organisatie staat, dan is de [AI Readiness Assessment](/diensten/ai-readiness-assessment) een logischer begin. Meer over mijn achtergrond lees je op de pagina [over mij](/over). Weet je nog niet of een workshop de juiste eerste stap is? [Vraag dan een workshop aan](/contact): in een gesprek van dertig minuten hoor je wat ik zou voorstellen, ook als dat iets anders is dan een workshop.
+Wil je eerst zien waar je als organisatie staat, dan is het [AI Readiness Assessment](/diensten/ai-readiness-assessment) een logischer begin. Meer over mijn achtergrond lees je op de pagina [over mij](/over). Weet je nog niet of een workshop de juiste eerste stap is? [Vraag dan een workshop aan](/contact): in een gesprek van dertig minuten hoor je wat ik zou voorstellen, ook als dat iets anders is dan een workshop.

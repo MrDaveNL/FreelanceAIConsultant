@@ -2,7 +2,7 @@
   "url": "/ai-implementatie/stappenplan",
   "build_bestand": "dist/ai-implementatie/stappenplan/index.html",
   "html": {
-    "bytes": 32664,
+    "bytes": 34225,
     "lang": "nl"
   },
   "beschermd": {
@@ -99,7 +99,7 @@
   "bodytekst": {
     "regio": "main",
     "woorden": 1893,
-    "sha256": "e4f3dfd712569103a9c7245addcdb65913dd4bff6d89c53afb8b7aceb597aec9",
+    "sha256": "e6152e73ce4dfb9a1c2f7cf7c678613da943f3213f2e2a7a88c546ff008ed8e2",
     "blokken": [
       "Home",
       "AI Implementatie",
@@ -107,7 +107,7 @@
       "Stappenplan",
       "AI implementatie stappenplan in 7 stappen",
       "Dit AI implementatie stappenplan brengt je in zeven stappen van een doel naar een toepassing die in het dagelijkse werk draait en blijft draaien. Per stap lees je wat je moet beslissen, waar het vaak misgaat en wat je vastlegt voordat je doorgaat. De volledige checklist kun je onderaan downloaden.",
-      "Lees meer over AI implementatie → Bekijk de AI Readiness Assessment →",
+      "Lees meer over AI implementatie → Bekijk het AI Readiness Assessment →",
       "Geschreven door Dave Willemstein, onafhankelijk AI consultant · gepubliceerd 23 september 2026",
       "IN HET KORT",
       "Begin bij een meetbaar doel, niet bij een tool.",
@@ -226,11 +226,11 @@
       "Pilot: in het echte werk, met een testset, een succesdrempel en stopcriteria.",
       "Adoptie: scenario’s per rol, ambassadeurs, duidelijke regels en meting per team.",
       "Meten en opschalen: vergelijking met de nulmeting, beheerplan, governance en een besluit over de volgende stap.",
-      "Loop je bij een van de stappen vast, of wil je weten welke keuzes je vooraf moet maken? Lees wat advies vóór de implementatie oplevert. Weet je nog niet of je organisatie er klaar voor is, dan geeft de AI Readiness Assessment in 2-3 weken een onderbouwd antwoord. En wil je het gewoon even voorleggen, plan dan een gesprek.",
+      "Loop je bij een van de stappen vast, of wil je weten welke keuzes je vooraf moet maken? Lees wat advies vóór de implementatie oplevert. Weet je nog niet of je organisatie er klaar voor is, dan geeft het AI Readiness Assessment in 2-3 weken een onderbouwd antwoord. En wil je het gewoon even voorleggen, plan dan een gesprek.",
       "Dave Willemstein Onafhankelijk AI-adviseur",
       "Onafhankelijk: geen commissies, geen partnerdeals, geen marge op implementatiepartners.",
       "Over mij Mijn partnernetwerk",
-      "Weten waar je staat met AI? Bekijk de AI Readiness Assessment →",
+      "Weten waar je staat met AI? Bekijk het AI Readiness Assessment →",
       "Bronnen",
       "Ondernemersplein (KVK/Rijksoverheid): DPIA uitvoeren",
       "Europese Commissie: AI Omnibus enters into force",
@@ -322,7 +322,7 @@
       "regio": "main",
       "soort": "intern",
       "href": "/diensten/ai-readiness-assessment",
-      "anker": "Bekijk de AI Readiness Assessment →",
+      "anker": "Bekijk het AI Readiness Assessment →",
       "rel": null
     },
     {
@@ -469,7 +469,7 @@
       "regio": "main",
       "soort": "intern",
       "href": "/diensten/ai-readiness-assessment",
-      "anker": "Weten waar je staat met AI? Bekijk de AI Readiness Assessment →",
+      "anker": "Weten waar je staat met AI? Bekijk het AI Readiness Assessment →",
       "rel": null
     },
     {

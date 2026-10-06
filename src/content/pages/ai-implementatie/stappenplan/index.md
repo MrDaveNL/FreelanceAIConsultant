@@ -13,7 +13,7 @@ keyphrase: ai implementatie stappenplan
 eyebrow: "Stappenplan"
 lede: "Dit AI implementatie stappenplan brengt je in zeven stappen van een doel naar een toepassing die in het dagelijkse werk draait en blijft draaien. Per stap lees je wat je moet beslissen, waar het vaak misgaat en wat je vastlegt voordat je doorgaat. De volledige checklist kun je onderaan downloaden."
 primaryCta: { label: "Lees meer over AI implementatie", href: /ai-implementatie }
-secondaryCta: { label: "Bekijk de AI Readiness Assessment", href: /diensten/ai-readiness-assessment }
+secondaryCta: { label: "Bekijk het AI Readiness Assessment", href: /diensten/ai-readiness-assessment }
 summary:
   - "Begin bij een meetbaar doel, niet bij een tool."
   - "Beslis vóór de pilot wanneer je opschaalt en wanneer je stopt."
@@ -126,4 +126,4 @@ Wil je dit stappenplan gebruiken in je eigen project? [Download de AI implementa
 - **Adoptie:** scenario's per rol, ambassadeurs, duidelijke regels en meting per team.
 - **Meten en opschalen:** vergelijking met de nulmeting, beheerplan, governance en een besluit over de volgende stap.
 
-Loop je bij een van de stappen vast, of wil je weten welke keuzes je vooraf moet maken? Lees wat [advies vóór de implementatie](/ai-implementatie/advies) oplevert. Weet je nog niet of je organisatie er klaar voor is, dan geeft de [AI Readiness Assessment](/diensten/ai-readiness-assessment) in {{timing:ai-readiness-assessment}} een onderbouwd antwoord. En wil je het gewoon even voorleggen, [plan dan een gesprek](/contact).
+Loop je bij een van de stappen vast, of wil je weten welke keuzes je vooraf moet maken? Lees wat [advies vóór de implementatie](/ai-implementatie/advies) oplevert. Weet je nog niet of je organisatie er klaar voor is, dan geeft het [AI Readiness Assessment](/diensten/ai-readiness-assessment) in {{timing:ai-readiness-assessment}} een onderbouwd antwoord. En wil je het gewoon even voorleggen, [plan dan een gesprek](/contact).

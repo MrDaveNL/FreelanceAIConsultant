@@ -2,7 +2,7 @@
   "url": "/ai-workshop/ai-geletterdheid-training",
   "build_bestand": "dist/ai-workshop/ai-geletterdheid-training/index.html",
   "html": {
-    "bytes": 34156,
+    "bytes": 35716,
     "lang": "nl"
   },
   "beschermd": {
@@ -81,7 +81,7 @@
   "bodytekst": {
     "regio": "main",
     "woorden": 1651,
-    "sha256": "6aef8f1e66bc7f2377e4c521e853a6554e88068523a7f38d55b919ea7351998d",
+    "sha256": "dc990041dc4c7d1eeb714f467cc27f97a54326f4b10af815d80f525d9a30896c",
     "blokken": [
       "Home",
       "AI workshop",
@@ -89,7 +89,7 @@
       "AI-geletterdheid",
       "AI geletterdheid training: voldoen aan de AI Act",
       "Een AI geletterdheid training helpt je team begrijpen wat AI kan, waar het misgaat en welke afspraken er gelden. Dat is verstandig werkgeverschap, en het is ook wat de AI Act van organisaties vraagt. Op deze pagina lees je wat de wet sinds de wijziging van juli 2026 precies vraagt, wat een training oplevert en hoe je vastlegt wat je doet.",
-      "Vraag een training aan → Bekijk de AI Readiness Assessment →",
+      "Vraag een training aan → Bekijk het AI Readiness Assessment →",
       "IN HET KORT",
       "Artikel 4 van de AI Act geldt sinds 2 februari 2025 voor organisaties die AI ontwikkelen of gebruiken.",
       "Sinds de Digital Omnibus (juli 2026) is het een inspanningsverplichting: maatregelen nemen, geen vereist niveau.",
@@ -203,7 +203,7 @@
       "Dave Willemstein Onafhankelijk AI-adviseur",
       "Onafhankelijk: geen commissies, geen partnerdeals, geen marge op implementatiepartners.",
       "Over mij Mijn partnernetwerk",
-      "Weten waar je staat met AI? Bekijk de AI Readiness Assessment →",
+      "Weten waar je staat met AI? Bekijk het AI Readiness Assessment →",
       "Veelgestelde vragen",
       "Geldt de verplichting ook als we alleen ChatGPT of Copilot gebruiken?+",
       "Ja. De verplichting geldt voor organisaties die AI-systemen inzetten, ook als het gaat om algemeen beschikbare tools. Volgens de Europese Commissie moeten medewerkers dan in elk geval op de hoogte zijn van de specifieke risico's, zoals uitkomsten die overtuigend klinken maar niet kloppen.",
@@ -309,7 +309,7 @@
       "regio": "main",
       "soort": "intern",
       "href": "/diensten/ai-readiness-assessment",
-      "anker": "Bekijk de AI Readiness Assessment →",
+      "anker": "Bekijk het AI Readiness Assessment →",
       "rel": null
     },
     {
@@ -393,7 +393,7 @@
       "regio": "main",
       "soort": "intern",
       "href": "/diensten/ai-readiness-assessment",
-      "anker": "Weten waar je staat met AI? Bekijk de AI Readiness Assessment →",
+      "anker": "Weten waar je staat met AI? Bekijk het AI Readiness Assessment →",
       "rel": null
     },
     {

@@ -13,7 +13,7 @@ keyphrase: ai beleid
 eyebrow: "AI beleid en governance"
 lede: "Een goed AI beleid is geen dik document, maar een set heldere afspraken: welke tools mogen, welke data erin mag, wie waarover beslist en hoe je risico's bewaakt. Op deze pagina lees je wat erin hoort, hoe het zich verhoudt tot de AI Act en hoe je als mkb'er in een paar weken een eerste versie neerzet."
 primaryCta: { label: "Plan een adviesgesprek", href: /contact }
-secondaryCta: { label: "Bekijk de AI Readiness Assessment", href: /diensten/ai-readiness-assessment }
+secondaryCta: { label: "Bekijk het AI Readiness Assessment", href: /diensten/ai-readiness-assessment }
 summary:
   - "Een AI beleid legt vast welke tools en data mogen, wie verantwoordelijk is en hoe je risico's beheerst."
   - "Begin klein: één pagina met werkbare afspraken, en laat het meegroeien met je toepassingen."
@@ -170,7 +170,7 @@ Het [AI-beleid template (pdf)](/downloads/ai-beleid-template.pdf) volgt deze opz
 
 <!-- Het downloadbestand wordt gegenereerd uit planning/downloads/ai-beleid-template.md (python planning/build-downloads.py). -->
 
-Wil je weten waar je organisatie staat voordat je het beleid schrijft? De [AI Readiness Assessment](/diensten/ai-readiness-assessment) brengt in {{timing:ai-readiness-assessment}} je uitgangspositie in kaart, inclusief een risico- en compliance-scan en je positie onder de AI-verordening, voor {{pricelc:ai-readiness-assessment}}. Alle bedragen en pakketten staan op de pagina [tarieven](/tarieven).
+Wil je weten waar je organisatie staat voordat je het beleid schrijft? Het [AI Readiness Assessment](/diensten/ai-readiness-assessment) brengt in {{timing:ai-readiness-assessment}} je uitgangspositie in kaart, inclusief een risico- en compliance-scan en je positie onder de AI-verordening, voor {{pricelc:ai-readiness-assessment}}. Alle bedragen en pakketten staan op de pagina [tarieven](/tarieven).
 
 Ik werk onafhankelijk: ik verkoop geen tools en ontvang geen commissies van leveranciers, dus het beleid gaat over wat bij jullie past. Meer over mijn achtergrond lees je op [over mij](/over). Waar uitvoering nodig is, bijvoorbeeld bij technische inrichting, kan ik partijen uit mijn [partnernetwerk](/partnernetwerk) voorstellen die je rechtstreeks contracteert.
 

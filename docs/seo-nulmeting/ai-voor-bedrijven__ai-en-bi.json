@@ -2,7 +2,7 @@
   "url": "/ai-voor-bedrijven/ai-en-bi",
   "build_bestand": "dist/ai-voor-bedrijven/ai-en-bi/index.html",
   "html": {
-    "bytes": 33498,
+    "bytes": 35058,
     "lang": "nl"
   },
   "beschermd": {
@@ -87,7 +87,7 @@
   "bodytekst": {
     "regio": "main",
     "woorden": 1611,
-    "sha256": "84784197893c1983b1e240ab5750f0feaf4003372e39b5b29c9696af5dc9918e",
+    "sha256": "cd6d0b7cfdd5f83816f633b405c3acc142e439630774c6e62b4eed76439b0360",
     "blokken": [
       "Home",
       "AI voor bedrijven",
@@ -95,7 +95,7 @@
       "AI en BI",
       "AI en BI: het verschil en hoe ze elkaar versterken",
       "AI en BI worden vaak door elkaar gehaald, maar ze beantwoorden verschillende vragen. Business intelligence laat zien wat er is gebeurd; AI helpt voorspellen, verklaren en informatie ontsluiten die niet in een tabel past. Hier lees je het verschil, hoe AI BI versterkt en waarom een goed BI-fundament vaak de beste opstap naar AI is.",
-      "Lees meer over AI voor bedrijven → Bekijk de AI Readiness Assessment →",
+      "Lees meer over AI voor bedrijven → Bekijk het AI Readiness Assessment →",
       "Geschreven door Dave Willemstein, onafhankelijk AI consultant · gepubliceerd 23 september 2026",
       "IN HET KORT",
       "BI beschrijft en verklaart het verleden met gestructureerde data; AI voorspelt, classificeert en werkt ook met tekst.",
@@ -216,7 +216,7 @@
       "Dave Willemstein Onafhankelijk AI-adviseur",
       "Onafhankelijk: geen commissies, geen partnerdeals, geen marge op implementatiepartners.",
       "Over mij Mijn partnernetwerk",
-      "Weten waar je staat met AI? Bekijk de AI Readiness Assessment →",
+      "Weten waar je staat met AI? Bekijk het AI Readiness Assessment →",
       "Veelgestelde vragen",
       "Vervangt AI straks onze dashboards?+",
       "Niet helemaal. Vaste dashboards blijven nuttig voor de cijfers die je elke week op dezelfde manier wilt zien. AI maakt het wel makkelijker om buiten die vaste vragen om te zoeken, bijvoorbeeld door een vraag in gewone taal te stellen. De kans is groot dat je minder dashboards nodig hebt, maar een betere set kerncijfers.",
@@ -316,7 +316,7 @@
       "regio": "main",
       "soort": "intern",
       "href": "/diensten/ai-readiness-assessment",
-      "anker": "Bekijk de AI Readiness Assessment →",
+      "anker": "Bekijk het AI Readiness Assessment →",
       "rel": null
     },
     {
@@ -407,7 +407,7 @@
       "regio": "main",
       "soort": "intern",
       "href": "/diensten/ai-readiness-assessment",
-      "anker": "Weten waar je staat met AI? Bekijk de AI Readiness Assessment →",
+      "anker": "Weten waar je staat met AI? Bekijk het AI Readiness Assessment →",
       "rel": null
     },
     {

@@ -2,7 +2,7 @@
   "url": "/tarieven",
   "build_bestand": "dist/tarieven/index.html",
   "html": {
-    "bytes": 32578,
+    "bytes": 34139,
     "lang": "nl"
   },
   "beschermd": {
@@ -123,14 +123,14 @@
   "bodytekst": {
     "regio": "main",
     "woorden": 1343,
-    "sha256": "04a7d35b0c0ba6fd0b481c412390e6f16a26f82b9ceb784fc35510e74bbd319b",
+    "sha256": "275c63ec768ea7dcff2b3ce6cee6c40451cb32eced1851905ffab0861b2952e1",
     "blokken": [
       "Home",
       "Tarieven",
       "Tarieven",
       "Wat kost een AI consultant? Tarieven en pakketten",
       "Wat AI consultancy kost, hangt af van de vraag die je wilt beantwoorden. Daarom werk ik met vaste pakketten en zichtbare vanaf-prijzen in plaats van een open uurtarief. Zo weet je vóór het eerste gesprek ongeveer of het in je budget past.",
-      "Plan een adviesgesprek → Bekijk de AI Readiness Assessment →",
+      "Plan een adviesgesprek → Bekijk het AI Readiness Assessment →",
       "IN HET KORT",
       "Vaste prijs, bandbreedte of maandbedrag per pakket, geen open urenstaat.",
       "Alle bedragen exclusief btw en reiskosten.",
@@ -234,7 +234,7 @@
       "Dagdeel of dag",
       "Vaste prijs in het voorstel",
       "AI Readiness Assessment",
-      "Een nuchtere doorlichting op strategie, data, technologie, mensen en governance, in 2-3 weken. Je krijgt een readiness-score, een gap-analyse en een 90-dagenplan. De prijs is vast: €7.000, inclusief eindpresentatie aan MT of board. Dit is voor de meeste organisaties het logische startpunt; alle details staan op de pagina van de AI Readiness Assessment.",
+      "Een nuchtere doorlichting op strategie, data, technologie, mensen en governance, in 2-3 weken. Je krijgt een readiness-score, een gap-analyse en een 90-dagenplan. De prijs is vast: €7.000, inclusief eindpresentatie aan MT of board. Dit is voor de meeste organisaties het logische startpunt; alle details staan op de pagina van het AI Readiness Assessment.",
       "AI Strategy Sprint",
       "Voor organisaties die van losse ideeën naar een board-ready AI-strategie en roadmap willen. De sprint duurt 4-6 weken en kost €15.400 - €22.400: aan de onderkant als er al een Readiness Assessment ligt, aan de bovenkant bij meerdere bedrijfsonderdelen. Lees wat er in de AI Strategy Sprint wordt opgeleverd.",
       "Fractional AI Lead",
@@ -258,7 +258,7 @@
       "Dave Willemstein Onafhankelijk AI-adviseur",
       "Onafhankelijk: geen commissies, geen partnerdeals, geen marge op implementatiepartners.",
       "Over mij Mijn partnernetwerk",
-      "Weten waar je staat met AI? Bekijk de AI Readiness Assessment →",
+      "Weten waar je staat met AI? Bekijk het AI Readiness Assessment →",
       "Veelgestelde vragen over kosten",
       "Wat kost een AI consultant?+",
       "Bij mij betaal je per pakket. Het kleinste pakket is de Executive Briefing van €2.800; een AI Readiness Assessment kost €7.000 en een AI Strategy Sprint €15.400 - €22.400. Alle bedragen zijn exclusief btw en reiskosten.",
@@ -351,7 +351,7 @@
       "regio": "main",
       "soort": "intern",
       "href": "/diensten/ai-readiness-assessment",
-      "anker": "Bekijk de AI Readiness Assessment →",
+      "anker": "Bekijk het AI Readiness Assessment →",
       "rel": null
     },
     {
@@ -456,7 +456,7 @@
       "regio": "main",
       "soort": "intern",
       "href": "/diensten/ai-readiness-assessment",
-      "anker": "Weten waar je staat met AI? Bekijk de AI Readiness Assessment →",
+      "anker": "Weten waar je staat met AI? Bekijk het AI Readiness Assessment →",
       "rel": null
     },
     {

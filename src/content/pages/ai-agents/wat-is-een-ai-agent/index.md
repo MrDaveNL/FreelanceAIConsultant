@@ -13,7 +13,7 @@ keyphrase: wat is een ai agent
 eyebrow: "Uitleg"
 lede: "Wat is een AI agent, en waarom praat iedereen er ineens over? Kort gezegd: software die niet alleen antwoord geeft, maar zelf stappen zet om een doel te bereiken. In dit artikel leg ik uit hoe dat werkt, waarin een agent verschilt van een chatbot en welke soorten je tegenkomt."
 primaryCta: { label: "Lees meer over AI agents voor bedrijven", href: /ai-agents }
-secondaryCta: { label: "Bekijk de AI Readiness Assessment", href: /diensten/ai-readiness-assessment }
+secondaryCta: { label: "Bekijk het AI Readiness Assessment", href: /diensten/ai-readiness-assessment }
 summary:
   - "Een AI agent krijgt een doel en kiest zelf de stappen, inclusief het gebruik van andere systemen."
   - "Het verschil met een chatbot zit in handelen: een agent kan dingen doen, niet alleen zeggen."

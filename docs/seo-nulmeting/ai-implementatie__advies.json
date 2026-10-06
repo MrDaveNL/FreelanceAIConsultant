@@ -2,7 +2,7 @@
   "url": "/ai-implementatie/advies",
   "build_bestand": "dist/ai-implementatie/advies/index.html",
   "html": {
-    "bytes": 32115,
+    "bytes": 33678,
     "lang": "nl"
   },
   "beschermd": {
@@ -99,7 +99,7 @@
   "bodytekst": {
     "regio": "main",
     "woorden": 1537,
-    "sha256": "2c0119cdd70862ce7c239ea79a1002292e7e3f22596858eef7504bc723d6dc90",
+    "sha256": "3f43f23770899fe5c32a947de6c66a73651089ebc9d79476f8f769077feb5f8c",
     "blokken": [
       "Home",
       "AI Implementatie",
@@ -107,7 +107,7 @@
       "Advies vooraf",
       "AI implementatie advies: goed voorbereid starten",
       "De duurste fouten in een AI-project worden gemaakt voordat er één regel code is geschreven: de verkeerde use case, een leverancier die te snel is gekozen, data die niet blijkt te deugen. Met AI implementatie advies vooraf leg je die keuzes onderbouwd vast, zodat je bouwpartij weet wat ze moet leveren en jij weet waarop je stuurt.",
-      "Plan een adviesgesprek → Bekijk de AI Readiness Assessment →",
+      "Plan een adviesgesprek → Bekijk het AI Readiness Assessment →",
       "IN HET KORT",
       "Advies vooraf is goedkoper dan bijsturen tijdens de bouw.",
       "Vier onderwerpen bepalen het succes: use case, bouwen of kopen, data en privacy, en verandering.",
@@ -191,7 +191,7 @@
       "BeslisdocumentOnderbouwd besluit plus opdracht voor de bouwpartij",
       "Van eerste gesprek tot een besluit waarmee je bouwpartij aan de slag kan.",
       "Een traject begint met een gesprek van dertig minuten. Je vertelt waar je staat, ik stel vragen en zeg aan het eind wat ik zou doen, ook als dat betekent dat je mij niet nodig hebt.",
-      "Daarna bakenen we in een intake de vraag af en leggen we die vast in een opdrachtbevestiging. Een concrete vraag over één toepassing past meestal bij afgebakend advies. Wil je eerst weten of je organisatie er breed klaar voor is, dan is de AI Readiness Assessment de betere start: 2-3 weken, vaste prijs €7.000. Alle pakketten en prijzen staan op de pagina met tarieven.",
+      "Daarna bakenen we in een intake de vraag af en leggen we die vast in een opdrachtbevestiging. Een concrete vraag over één toepassing past meestal bij afgebakend advies. Wil je eerst weten of je organisatie er breed klaar voor is, dan is het AI Readiness Assessment de betere start: 2-3 weken, vaste prijs €7.000. Alle pakketten en prijzen staan op de pagina met tarieven.",
       "In de analyse spreek ik de mensen die het werk doen, de eigenaar van het proces, IT en waar nodig privacy of compliance. Ik kijk naar de data, naar eventuele leveranciersvoorstellen en naar wat er al is geprobeerd.",
       "Je krijgt een beslisdocument, geen dik rapport: welke use case, welke bouwkeuze, welke randvoorwaarden voor data en privacy, welke verandering nodig is, en wat de bouwpartij moet opleveren om te slagen. Alle kaders en analyses zijn daarna van jou. Wil je zelf verder, dan helpt het stappenplan voor AI implementatie bij de volgende fasen.",
       "Voorbeeldscenario",
@@ -203,7 +203,7 @@
       "Dave Willemstein Onafhankelijk AI-adviseur",
       "Onafhankelijk: geen commissies, geen partnerdeals, geen marge op implementatiepartners.",
       "Over mij Mijn partnernetwerk",
-      "Weten waar je staat met AI? Bekijk de AI Readiness Assessment →",
+      "Weten waar je staat met AI? Bekijk het AI Readiness Assessment →",
       "Veelgestelde vragen",
       "Wanneer is het beste moment voor advies over AI implementatie?+",
       "Voordat je een leverancier kiest of een contract tekent. Dan liggen de keuzes nog open en kost bijsturen alleen denkwerk. Ligt er al een offerte of loopt het project al, dan heeft advies nog steeds zin, maar is het vooral een toets op wat er al besloten is.",
@@ -214,7 +214,7 @@
       "Is advies vooraf ook zinvol voor een mkb-bedrijf?+",
       "Juist daar, omdat er minder ruimte is voor een mislukte investering. De scope is kleiner, dus het adviestraject ook. Een paar dagen afgebakend advies kan dan volstaan om de use case, de bouwkeuze en de randvoorwaarden scherp te krijgen.",
       "Wat kost AI implementatie advies?+",
-      "Afgebakend advies en second opinions krijgen een vaste prijs per opdracht; de omvang bepalen we in de intake. Wie eerst een volledig beeld van de organisatie wil, start met de AI Readiness Assessment tegen een vaste prijs. Alle bedragen zijn exclusief btw en reiskosten.",
+      "Afgebakend advies en second opinions krijgen een vaste prijs per opdracht; de omvang bepalen we in de intake. Wie eerst een volledig beeld van de organisatie wil, start met het AI Readiness Assessment tegen een vaste prijs. Alle bedragen zijn exclusief btw en reiskosten.",
       "Bronnen",
       "Ondernemersplein (KVK/Rijksoverheid): DPIA uitvoeren",
       "Klaar voor impact?",
@@ -305,7 +305,7 @@
       "regio": "main",
       "soort": "intern",
       "href": "/diensten/ai-readiness-assessment",
-      "anker": "Bekijk de AI Readiness Assessment →",
+      "anker": "Bekijk het AI Readiness Assessment →",
       "rel": null
     },
     {
@@ -403,7 +403,7 @@
       "regio": "main",
       "soort": "intern",
       "href": "/diensten/ai-readiness-assessment",
-      "anker": "Weten waar je staat met AI? Bekijk de AI Readiness Assessment →",
+      "anker": "Weten waar je staat met AI? Bekijk het AI Readiness Assessment →",
       "rel": null
     },
     {
@@ -604,7 +604,7 @@
     }
   ],
   "structured_data": {
-    "sha256": "f887f5b762172d637f0d6c6dde9d922f560cdae5be2f49e8d2f1b6273007ef24",
+    "sha256": "b9019fe99defc6d7449c45c21aefebf88ad1e50e9f644d9f5161c37dcecd288a",
     "items": [
       {
         "@context": "https://schema.org",
@@ -689,7 +689,7 @@
                 "name": "Wat kost AI implementatie advies?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "Afgebakend advies en second opinions krijgen een vaste prijs per opdracht; de omvang bepalen we in de intake. Wie eerst een volledig beeld van de organisatie wil, start met de AI Readiness Assessment tegen een vaste prijs. Alle bedragen zijn exclusief btw en reiskosten."
+                  "text": "Afgebakend advies en second opinions krijgen een vaste prijs per opdracht; de omvang bepalen we in de intake. Wie eerst een volledig beeld van de organisatie wil, start met het AI Readiness Assessment tegen een vaste prijs. Alle bedragen zijn exclusief btw en reiskosten."
                 }
               }
             ]

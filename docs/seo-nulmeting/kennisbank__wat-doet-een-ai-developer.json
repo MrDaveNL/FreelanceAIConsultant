@@ -2,7 +2,7 @@
   "url": "/kennisbank/wat-doet-een-ai-developer",
   "build_bestand": "dist/kennisbank/wat-doet-een-ai-developer/index.html",
   "html": {
-    "bytes": 28622,
+    "bytes": 30181,
     "lang": "nl"
   },
   "beschermd": {
@@ -69,7 +69,7 @@
   "bodytekst": {
     "regio": "main",
     "woorden": 1377,
-    "sha256": "874f250df3dd335419922fd09d34d4a844da111249ec328bad268122266aaa5a",
+    "sha256": "29d320b43c8c2eb50f00a12f95552cbbd131bf815211018b24cdd510397e5813",
     "blokken": [
       "Home",
       "Kennisbank",
@@ -194,7 +194,7 @@
       "Dave Willemstein Onafhankelijk AI-adviseur",
       "Onafhankelijk: geen commissies, geen partnerdeals, geen marge op implementatiepartners.",
       "Over mij Mijn partnernetwerk",
-      "Weten waar je staat met AI? Bekijk de AI Readiness Assessment →",
+      "Weten waar je staat met AI? Bekijk het AI Readiness Assessment →",
       "Klaar voor impact?",
       "Van AI-ambitie naar concrete resultaten.",
       "Plan een vrijblijvend gesprek. Geen pitch. Wel scherpe vragen.",
@@ -367,7 +367,7 @@
       "regio": "main",
       "soort": "intern",
       "href": "/diensten/ai-readiness-assessment",
-      "anker": "Weten waar je staat met AI? Bekijk de AI Readiness Assessment →",
+      "anker": "Weten waar je staat met AI? Bekijk het AI Readiness Assessment →",
       "rel": null
     },
     {

@@ -2,7 +2,7 @@
   "url": "/ai-workshop",
   "build_bestand": "dist/ai-workshop/index.html",
   "html": {
-    "bytes": 36057,
+    "bytes": 37618,
     "lang": "nl"
   },
   "beschermd": {
@@ -129,14 +129,14 @@
   "bodytekst": {
     "regio": "main",
     "woorden": 2035,
-    "sha256": "1f2902da1f72943407f8fab865bb412c5e8b0ac5da2acac974f8eae66330f7ec",
+    "sha256": "51b5939ca1c944802ab86c020852cf8a36e073770f9d1e884b185ec9f8a41465",
     "blokken": [
       "Home",
       "AI workshop",
       "AI workshop en training",
       "AI workshop en training voor bedrijven",
       "Een goede workshop AI begint niet bij de tool, maar bij het werk dat je team morgen weer op het bureau vindt. Ik geef workshops en trainingen die aansluiten op jullie eigen taken, jullie eigen tools en de afspraken die in jullie organisatie gelden. Praktisch, op maat en zonder verkooppraatje over software.",
-      "Vraag een workshop aan → Bekijk de AI Readiness Assessment →",
+      "Vraag een workshop aan → Bekijk het AI Readiness Assessment →",
       "IN HET KORT",
       "Workshops en trainingen op maat, gebouwd rond de taken van je eigen team.",
       "Van een introductie voor management tot hands-on met ChatGPT en Copilot.",
@@ -258,11 +258,11 @@
       "Investering",
       "Workshops en trainingen krijgen een vaste prijs per opdracht, omdat voorbereiding, duur en groepsgrootte sterk verschillen. Het bedrag bespreken we in de intake, en je krijgt het vooraf op papier. Op de pagina met tarieven en pakketten zie je hoe dat zich verhoudt tot de vaste trajecten. Alle bedragen zijn exclusief btw en reiskosten.",
       "De Executive Briefing is de uitzondering: die heeft een vaste prijs van €2.800, inclusief voorbereiding op jullie sector.",
-      "Wil je eerst zien waar je als organisatie staat, dan is de AI Readiness Assessment een logischer begin. Meer over mijn achtergrond lees je op de pagina over mij. Weet je nog niet of een workshop de juiste eerste stap is? Vraag dan een workshop aan: in een gesprek van dertig minuten hoor je wat ik zou voorstellen, ook als dat iets anders is dan een workshop.",
+      "Wil je eerst zien waar je als organisatie staat, dan is het AI Readiness Assessment een logischer begin. Meer over mijn achtergrond lees je op de pagina over mij. Weet je nog niet of een workshop de juiste eerste stap is? Vraag dan een workshop aan: in een gesprek van dertig minuten hoor je wat ik zou voorstellen, ook als dat iets anders is dan een workshop.",
       "Dave Willemstein Onafhankelijk AI-adviseur",
       "Onafhankelijk: geen commissies, geen partnerdeals, geen marge op implementatiepartners.",
       "Over mij Mijn partnernetwerk",
-      "Weten waar je staat met AI? Bekijk de AI Readiness Assessment →",
+      "Weten waar je staat met AI? Bekijk het AI Readiness Assessment →",
       "Veelgestelde vragen",
       "Wat is het verschil tussen een AI workshop en een AI training?+",
       "Een workshop is meestal één sessie met een duidelijke vraag: begrip opbouwen, een gezamenlijk beeld krijgen of een eerste set toepassingen kiezen. Een training loopt vaker over meerdere sessies en richt zich op vaardigheden die mensen daarna zelf toepassen. In de praktijk lopen ze in elkaar over; het doel bepaalt de vorm.",
@@ -357,7 +357,7 @@
       "regio": "main",
       "soort": "intern",
       "href": "/diensten/ai-readiness-assessment",
-      "anker": "Bekijk de AI Readiness Assessment →",
+      "anker": "Bekijk het AI Readiness Assessment →",
       "rel": null
     },
     {
@@ -469,7 +469,7 @@
       "regio": "main",
       "soort": "intern",
       "href": "/diensten/ai-readiness-assessment",
-      "anker": "Weten waar je staat met AI? Bekijk de AI Readiness Assessment →",
+      "anker": "Weten waar je staat met AI? Bekijk het AI Readiness Assessment →",
       "rel": null
     },
     {

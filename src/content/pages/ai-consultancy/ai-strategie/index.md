@@ -13,7 +13,7 @@ keyphrase: ai strategie
 eyebrow: "AI strategie"
 lede: "Een AI strategie legt vast wat je met AI wilt bereiken, waar je het wel en niet voor inzet en wat daarvoor nodig is. Geen visiedocument vol ambities, maar een korte set keuzes waar iemand zijn naam aan verbindt. Zo ontwikkel je er een die past bij je doelen, je data en je organisatie."
 primaryCta: { label: "Plan een adviesgesprek", href: /contact }
-secondaryCta: { label: "Bekijk de AI Readiness Assessment", href: /diensten/ai-readiness-assessment }
+secondaryCta: { label: "Bekijk het AI Readiness Assessment", href: /diensten/ai-readiness-assessment }
 summary:
   - "Een AI strategie begint bij business-uitkomsten, niet bij technologie."
   - "Vier onderdelen: doelen en businesscase, data en infrastructuur, mensen en vaardigheden, governance en risico's."

@@ -13,7 +13,7 @@ keyphrase: ai implementatie advies
 eyebrow: "Advies vooraf"
 lede: "De duurste fouten in een AI-project worden gemaakt voordat er één regel code is geschreven: de verkeerde use case, een leverancier die te snel is gekozen, data die niet blijkt te deugen. Met AI implementatie advies vooraf leg je die keuzes onderbouwd vast, zodat je bouwpartij weet wat ze moet leveren en jij weet waarop je stuurt."
 primaryCta: { label: "Plan een adviesgesprek", href: /contact }
-secondaryCta: { label: "Bekijk de AI Readiness Assessment", href: /diensten/ai-readiness-assessment }
+secondaryCta: { label: "Bekijk het AI Readiness Assessment", href: /diensten/ai-readiness-assessment }
 summary:
   - "Advies vooraf is goedkoper dan bijsturen tijdens de bouw."
   - "Vier onderwerpen bepalen het succes: use case, bouwen of kopen, data en privacy, en verandering."
@@ -31,7 +31,7 @@ faq:
   - q: "Is advies vooraf ook zinvol voor een mkb-bedrijf?"
     a: "Juist daar, omdat er minder ruimte is voor een mislukte investering. De scope is kleiner, dus het adviestraject ook. Een paar dagen afgebakend advies kan dan volstaan om de use case, de bouwkeuze en de randvoorwaarden scherp te krijgen."
   - q: "Wat kost AI implementatie advies?"
-    a: "Afgebakend advies en second opinions krijgen een vaste prijs per opdracht; de omvang bepalen we in de intake. Wie eerst een volledig beeld van de organisatie wil, start met de AI Readiness Assessment tegen een vaste prijs. Alle bedragen zijn exclusief btw en reiskosten."
+    a: "Afgebakend advies en second opinions krijgen een vaste prijs per opdracht; de omvang bepalen we in de intake. Wie eerst een volledig beeld van de organisatie wil, start met het AI Readiness Assessment tegen een vaste prijs. Alle bedragen zijn exclusief btw en reiskosten."
 sources:
   - title: "Ondernemersplein (KVK/Rijksoverheid): DPIA uitvoeren"
     url: "https://ondernemersplein.overheid.nl/wetten-en-regels/dpia-data-protection-impact-assessment-uitvoeren/"
@@ -79,7 +79,7 @@ Elke AI-toepassing die tijd bespaart, verandert het werk van iemand. Dat gesprek
 
 Een traject begint met een gesprek van dertig minuten. Je vertelt waar je staat, ik stel vragen en zeg aan het eind wat ik zou doen, ook als dat betekent dat je mij niet nodig hebt.
 
-Daarna bakenen we in een intake de vraag af en leggen we die vast in een opdrachtbevestiging. Een concrete vraag over één toepassing past meestal bij afgebakend advies. Wil je eerst weten of je organisatie er breed klaar voor is, dan is de [AI Readiness Assessment](/diensten/ai-readiness-assessment) de betere start: {{timing:ai-readiness-assessment}}, vaste prijs {{price:ai-readiness-assessment}}. Alle pakketten en prijzen staan op de pagina met [tarieven](/tarieven).
+Daarna bakenen we in een intake de vraag af en leggen we die vast in een opdrachtbevestiging. Een concrete vraag over één toepassing past meestal bij afgebakend advies. Wil je eerst weten of je organisatie er breed klaar voor is, dan is het [AI Readiness Assessment](/diensten/ai-readiness-assessment) de betere start: {{timing:ai-readiness-assessment}}, vaste prijs {{price:ai-readiness-assessment}}. Alle pakketten en prijzen staan op de pagina met [tarieven](/tarieven).
 
 In de analyse spreek ik de mensen die het werk doen, de eigenaar van het proces, IT en waar nodig privacy of compliance. Ik kijk naar de data, naar eventuele leveranciersvoorstellen en naar wat er al is geprobeerd.
 

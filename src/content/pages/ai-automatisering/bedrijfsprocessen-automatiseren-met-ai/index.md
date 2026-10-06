@@ -13,7 +13,7 @@ keyphrase: bedrijfsprocessen automatiseren met ai
 eyebrow: "Processen automatiseren"
 lede: "Bedrijfsprocessen automatiseren met AI begint niet bij een tool, maar bij de vraag welk proces het waard is. Op deze pagina lees je welke processen zich ervoor lenen, hoe je er één kiest, hoe je het omzet in een werkende workflow en hoe je de besparing vooraf eerlijk inschat."
 primaryCta: { label: "Lees meer over AI Automatisering", href: /ai-automatisering }
-secondaryCta: { label: "Bekijk de AI Readiness Assessment", href: /diensten/ai-readiness-assessment }
+secondaryCta: { label: "Bekijk het AI Readiness Assessment", href: /diensten/ai-readiness-assessment }
 summary:
   - "Geschikte processen: hoog volume, voorspelbare input, een bestaande controlestap."
   - "Kies één proces met een eigenaar en meet de huidige situatie voordat je begint."
@@ -120,4 +120,4 @@ Reken daarna twee scenario's door: een pessimistisch scenario (lagere adoptie, m
 
 En de belangrijkste regel: 35 bespaarde uren zijn pas € 2.100 waard als die uren ergens anders aantoonbaar iets opleveren, bijvoorbeeld minder inhuur of meer offertes met dezelfde bezetting. Hoe je dat verdedigbaar maakt richting je CFO, lees je in [de business case voor AI](/inzichten/de-business-case-voor-ai).
 
-Deze pagina hoort bij het overzicht over [AI automatisering](/ai-automatisering). Wil je weten welke processen in jouw organisatie het meeste opleveren, dan brengt de [AI Readiness Assessment](/diensten/ai-readiness-assessment) dat in {{timing:ai-readiness-assessment}} in kaart. Of [bespreek je situatie in een adviesgesprek](/contact) van dertig minuten.
+Deze pagina hoort bij het overzicht over [AI automatisering](/ai-automatisering). Wil je weten welke processen in jouw organisatie het meeste opleveren, dan brengt het [AI Readiness Assessment](/diensten/ai-readiness-assessment) dat in {{timing:ai-readiness-assessment}} in kaart. Of [bespreek je situatie in een adviesgesprek](/contact) van dertig minuten.

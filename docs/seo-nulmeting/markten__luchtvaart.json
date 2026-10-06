@@ -2,7 +2,7 @@
   "url": "/markten/luchtvaart",
   "build_bestand": "dist/markten/luchtvaart/index.html",
   "html": {
-    "bytes": 33113,
+    "bytes": 34672,
     "lang": "nl"
   },
   "beschermd": {
@@ -81,7 +81,7 @@
   "bodytekst": {
     "regio": "main",
     "woorden": 1692,
-    "sha256": "94b990c71f0d180f750b64be19d5d1e8d6dc172de764f364786aeba39a52e41b",
+    "sha256": "f8653a354e4123af0001f90e7b17ce3582064d099e459b592ea34cfa05179b7d",
     "blokken": [
       "Home",
       "Markten",
@@ -209,7 +209,7 @@
       "Dave Willemstein Onafhankelijk AI-adviseur",
       "Onafhankelijk: geen commissies, geen partnerdeals, geen marge op implementatiepartners.",
       "Over mij Mijn partnernetwerk",
-      "Weten waar je staat met AI? Bekijk de AI Readiness Assessment →",
+      "Weten waar je staat met AI? Bekijk het AI Readiness Assessment →",
       "Bronnen",
       "EASA: Artificial Intelligence and Aviation",
       "EASA: Artificial Intelligence Concept Paper Issue 2, guidance for Level 1 & 2 machine learning applications",
@@ -418,7 +418,7 @@
       "regio": "main",
       "soort": "intern",
       "href": "/diensten/ai-readiness-assessment",
-      "anker": "Weten waar je staat met AI? Bekijk de AI Readiness Assessment →",
+      "anker": "Weten waar je staat met AI? Bekijk het AI Readiness Assessment →",
       "rel": null
     },
     {

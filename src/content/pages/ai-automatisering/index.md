@@ -13,7 +13,7 @@ keyphrase: ai automatisering
 eyebrow: "AI automatisering"
 lede: "AI automatisering neemt werk over dat te rommelig is voor klassieke automatisering: e-mails lezen, documenten uitpluizen, een eerste antwoord opstellen. Het levert pas iets op als je het juiste proces kiest en de menselijke controle goed regelt. Op deze pagina lees je waar je begint, wat het kost en hoe je het veilig opschaalt."
 primaryCta: { label: "Plan een adviesgesprek", href: /contact }
-secondaryCta: { label: "Bekijk de AI Readiness Assessment", href: /diensten/ai-readiness-assessment }
+secondaryCta: { label: "Bekijk het AI Readiness Assessment", href: /diensten/ai-readiness-assessment }
 summary:
   - "AI automatisering is geschikt voor werk met ongestructureerde input: tekst, documenten, e-mail."
   - "Kies processen met hoog volume, lage variatie en een bestaande controlestap."
@@ -174,7 +174,7 @@ Concreet lever ik per stap iets op waar je een besluit mee kunt nemen: een proce
 
 Heb je hulp nodig bij het vinden van een bouwpartij, dan stel ik partijen voor uit mijn [partnernetwerk](/partnernetwerk). Je kiest en contracteert zelf. Wie ik ben en hoe ik werk, lees je op de pagina [over mij](/over). Voor de bredere route van besluit naar productie, ook buiten automatisering, zie [AI implementatie](/ai-implementatie).
 
-Weet je nog niet welk proces als eerste aan de beurt is? Dan is de [AI Readiness Assessment](/diensten/ai-readiness-assessment) het logische begin. In {{timing:ai-readiness-assessment}} krijg je een gevalideerde lijst met kansen en een 90-dagenplan, voor een vaste prijs van {{price:ai-readiness-assessment}} (exclusief btw en reiskosten).
+Weet je nog niet welk proces als eerste aan de beurt is? Dan is het [AI Readiness Assessment](/diensten/ai-readiness-assessment) het logische begin. In {{timing:ai-readiness-assessment}} krijg je een gevalideerde lijst met kansen en een 90-dagenplan, voor een vaste prijs van {{price:ai-readiness-assessment}} (exclusief btw en reiskosten).
 
 ## Tools en workflows
 

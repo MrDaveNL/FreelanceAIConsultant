@@ -2,7 +2,7 @@
   "url": "/kennisbank/chatgpt-voor-bedrijven",
   "build_bestand": "dist/kennisbank/chatgpt-voor-bedrijven/index.html",
   "html": {
-    "bytes": 30968,
+    "bytes": 32527,
     "lang": "nl"
   },
   "beschermd": {
@@ -75,7 +75,7 @@
   "bodytekst": {
     "regio": "main",
     "woorden": 1514,
-    "sha256": "723dbafcb8f62676808bf0f886e83089c422b0013eadd890b9c17ab1ad084419",
+    "sha256": "3a60f26dc67f8ab8984a9e1979df889a8cb5b8222f663df12988ca7158fe379a",
     "blokken": [
       "Home",
       "Kennisbank",
@@ -211,7 +211,7 @@
       "Dave Willemstein Onafhankelijk AI-adviseur",
       "Onafhankelijk: geen commissies, geen partnerdeals, geen marge op implementatiepartners.",
       "Over mij Mijn partnernetwerk",
-      "Weten waar je staat met AI? Bekijk de AI Readiness Assessment →",
+      "Weten waar je staat met AI? Bekijk het AI Readiness Assessment →",
       "Bronnen",
       "OpenAI – Business pricing (ChatGPT Business en Enterprise)",
       "OpenAI Help Center – ChatGPT Business Overview",
@@ -397,7 +397,7 @@
       "regio": "main",
       "soort": "intern",
       "href": "/diensten/ai-readiness-assessment",
-      "anker": "Weten waar je staat met AI? Bekijk de AI Readiness Assessment →",
+      "anker": "Weten waar je staat met AI? Bekijk het AI Readiness Assessment →",
       "rel": null
     },
     {

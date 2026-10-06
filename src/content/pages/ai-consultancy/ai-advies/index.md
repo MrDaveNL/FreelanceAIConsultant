@@ -13,7 +13,7 @@ keyphrase: ai advies
 eyebrow: "AI advies"
 lede: "Soms heb je geen traject nodig, maar een scherp antwoord op één vraag. Welke tool, welke leverancier, welk risico, welke use case eerst? Met onafhankelijk AI advies krijg je dat antwoord van iemand die niets verdient aan de oplossing die hij aanraadt."
 primaryCta: { label: "Plan een adviesgesprek", href: /contact }
-secondaryCta: { label: "Bekijk de AI Readiness Assessment", href: /diensten/ai-readiness-assessment }
+secondaryCta: { label: "Bekijk het AI Readiness Assessment", href: /diensten/ai-readiness-assessment }
 summary:
   - "AI advies beantwoordt een afgebakende vraag; consultancy begeleidt een traject."
   - "Ik adviseer over tools en leveranciers, data en privacy, use cases en compliance."

@@ -2,7 +2,7 @@
   "url": "/ai-automatisering/bedrijfsprocessen-automatiseren-met-ai",
   "build_bestand": "dist/ai-automatisering/bedrijfsprocessen-automatiseren-met-ai/index.html",
   "html": {
-    "bytes": 34291,
+    "bytes": 35852,
     "lang": "nl"
   },
   "beschermd": {
@@ -99,7 +99,7 @@
   "bodytekst": {
     "regio": "main",
     "woorden": 1775,
-    "sha256": "eb7dc0365842dc53642e0db1536a4d2d4d16a31abfe2945ebc05b7f6c484734b",
+    "sha256": "931d5910b6f107a627f7e55bb9f5e5c0c895f858437b4b85bb77c3e4dbecae46",
     "blokken": [
       "Home",
       "AI Automatisering",
@@ -107,7 +107,7 @@
       "Processen automatiseren",
       "Bedrijfsprocessen automatiseren met AI",
       "Bedrijfsprocessen automatiseren met AI begint niet bij een tool, maar bij de vraag welk proces het waard is. Op deze pagina lees je welke processen zich ervoor lenen, hoe je er één kiest, hoe je het omzet in een werkende workflow en hoe je de besparing vooraf eerlijk inschat.",
-      "Lees meer over AI Automatisering → Bekijk de AI Readiness Assessment →",
+      "Lees meer over AI Automatisering → Bekijk het AI Readiness Assessment →",
       "Geschreven door Dave Willemstein, onafhankelijk AI consultant · gepubliceerd 23 september 2026",
       "IN HET KORT",
       "Geschikte processen: hoog volume, voorspelbare input, een bestaande controlestap.",
@@ -221,11 +221,11 @@
       "Rekenvoorbeeld met fictieve, ronde getallen. Een bedrijf maakt 120 offertes per maand. Handmatig kost een offerte 45 minuten: 90 uur per maand. Met een AI-concept blijft er 20 minuten per offerte over voor controle en aanpassing: 40 uur. Dat is 50 uur verschil. Stel dat 70 procent van de offertes standaard genoeg is voor de nieuwe workflow; dan blijft er 35 uur besparing over. Bij fictieve uurkosten van € 60 is dat € 2.100 bruto per maand. Trek € 400 af voor licenties, verbruik en beheer: € 1.700 netto. Bij eenmalige kosten van € 12.000 is de terugverdientijd ongeveer zeven maanden.",
       "Reken daarna twee scenario’s door: een pessimistisch scenario (lagere adoptie, meer controletijd) en een scenario met het dubbele volume, omdat verbruikskosten meestal meegroeien met het gebruik. Zo krijg je een bandbreedte in plaats van één bedrag dat niemand gelooft.",
       "En de belangrijkste regel: 35 bespaarde uren zijn pas € 2.100 waard als die uren ergens anders aantoonbaar iets opleveren, bijvoorbeeld minder inhuur of meer offertes met dezelfde bezetting. Hoe je dat verdedigbaar maakt richting je CFO, lees je in de business case voor AI.",
-      "Deze pagina hoort bij het overzicht over AI automatisering. Wil je weten welke processen in jouw organisatie het meeste opleveren, dan brengt de AI Readiness Assessment dat in 2-3 weken in kaart. Of bespreek je situatie in een adviesgesprek van dertig minuten.",
+      "Deze pagina hoort bij het overzicht over AI automatisering. Wil je weten welke processen in jouw organisatie het meeste opleveren, dan brengt het AI Readiness Assessment dat in 2-3 weken in kaart. Of bespreek je situatie in een adviesgesprek van dertig minuten.",
       "Dave Willemstein Onafhankelijk AI-adviseur",
       "Onafhankelijk: geen commissies, geen partnerdeals, geen marge op implementatiepartners.",
       "Over mij Mijn partnernetwerk",
-      "Weten waar je staat met AI? Bekijk de AI Readiness Assessment →",
+      "Weten waar je staat met AI? Bekijk het AI Readiness Assessment →",
       "Veelgestelde vragen",
       "Welke processen kun je beter niet met AI automatiseren?+",
       "Processen die zelden voorkomen, telkens anders verlopen of waarin een fout onherstelbaar is, zoals een definitieve afwijzing of een betaling. Ook processen die er alleen zijn omdat een ander systeem slecht is ingericht, kun je beter eerst afschaffen of repareren.",
@@ -323,7 +323,7 @@
       "regio": "main",
       "soort": "intern",
       "href": "/diensten/ai-readiness-assessment",
-      "anker": "Bekijk de AI Readiness Assessment →",
+      "anker": "Bekijk het AI Readiness Assessment →",
       "rel": null
     },
     {
@@ -421,7 +421,7 @@
       "regio": "main",
       "soort": "intern",
       "href": "/diensten/ai-readiness-assessment",
-      "anker": "Weten waar je staat met AI? Bekijk de AI Readiness Assessment →",
+      "anker": "Weten waar je staat met AI? Bekijk het AI Readiness Assessment →",
       "rel": null
     },
     {

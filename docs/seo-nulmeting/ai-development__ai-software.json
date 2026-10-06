@@ -2,7 +2,7 @@
   "url": "/ai-development/ai-software",
   "build_bestand": "dist/ai-development/ai-software/index.html",
   "html": {
-    "bytes": 31683,
+    "bytes": 33243,
     "lang": "nl"
   },
   "beschermd": {
@@ -75,7 +75,7 @@
   "bodytekst": {
     "regio": "main",
     "woorden": 1484,
-    "sha256": "109743ec8850cebb36838ca25e44fe37ae8556ab21eac81cd187790e90219665",
+    "sha256": "b911e7268d683f691833821da47fd34dd2be750e08fcc51f71541db91f4862f3",
     "blokken": [
       "Home",
       "AI Development",
@@ -83,7 +83,7 @@
       "AI software",
       "AI software: kiezen, integreren of op maat laten bouwen",
       "Bijna elke softwareleverancier noemt zijn product inmiddels AI software. Dat maakt kiezen lastiger, niet makkelijker. Op deze pagina lees je welke soorten er zijn, wanneer standaard volstaat en wanneer maatwerk loont, en waar je op let bij integratie en selectie.",
-      "Lees meer over AI Development → Bekijk de AI Readiness Assessment →",
+      "Lees meer over AI Development → Bekijk het AI Readiness Assessment →",
       "Geschreven door Dave Willemstein, onafhankelijk AI consultant · gepubliceerd 23 september 2026",
       "IN HET KORT",
       "AI software loopt van een functie in bestaande software tot volledig maatwerk.",
@@ -199,7 +199,7 @@
       "Dave Willemstein Onafhankelijk AI-adviseur",
       "Onafhankelijk: geen commissies, geen partnerdeals, geen marge op implementatiepartners.",
       "Over mij Mijn partnernetwerk",
-      "Weten waar je staat met AI? Bekijk de AI Readiness Assessment →",
+      "Weten waar je staat met AI? Bekijk het AI Readiness Assessment →",
       "Veelgestelde vragen",
       "Wat is het verschil tussen AI software en gewone software?+",
       "Gewone software doet wat je programmeert. AI software doet een voorspelling of genereert een antwoord op basis van een model, en kan daarbij fouten maken. Daarom moet je bij AI software niet alleen vragen wat het kan, maar ook hoe goed het werkt op jouw data en wat er gebeurt als het ernaast zit.",
@@ -297,7 +297,7 @@
       "regio": "main",
       "soort": "intern",
       "href": "/diensten/ai-readiness-assessment",
-      "anker": "Bekijk de AI Readiness Assessment →",
+      "anker": "Bekijk het AI Readiness Assessment →",
       "rel": null
     },
     {
@@ -402,7 +402,7 @@
       "regio": "main",
       "soort": "intern",
       "href": "/diensten/ai-readiness-assessment",
-      "anker": "Weten waar je staat met AI? Bekijk de AI Readiness Assessment →",
+      "anker": "Weten waar je staat met AI? Bekijk het AI Readiness Assessment →",
       "rel": null
     },
     {

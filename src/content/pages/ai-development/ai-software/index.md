@@ -13,7 +13,7 @@ keyphrase: ai software
 eyebrow: "AI software"
 lede: "Bijna elke softwareleverancier noemt zijn product inmiddels AI software. Dat maakt kiezen lastiger, niet makkelijker. Op deze pagina lees je welke soorten er zijn, wanneer standaard volstaat en wanneer maatwerk loont, en waar je op let bij integratie en selectie."
 primaryCta: { label: "Lees meer over AI Development", href: /ai-development }
-secondaryCta: { label: "Bekijk de AI Readiness Assessment", href: /diensten/ai-readiness-assessment }
+secondaryCta: { label: "Bekijk het AI Readiness Assessment", href: /diensten/ai-readiness-assessment }
 summary:
   - "AI software loopt van een functie in bestaande software tot volledig maatwerk."
   - "Kies standaard waar het kan; laat alleen de laag met jouw kennis op maat bouwen."

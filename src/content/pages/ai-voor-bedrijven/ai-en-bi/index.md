@@ -13,7 +13,7 @@ keyphrase: ai bi
 eyebrow: "AI en BI"
 lede: "AI en BI worden vaak door elkaar gehaald, maar ze beantwoorden verschillende vragen. Business intelligence laat zien wat er is gebeurd; AI helpt voorspellen, verklaren en informatie ontsluiten die niet in een tabel past. Hier lees je het verschil, hoe AI BI versterkt en waarom een goed BI-fundament vaak de beste opstap naar AI is."
 primaryCta: { label: "Lees meer over AI voor bedrijven", href: /ai-voor-bedrijven }
-secondaryCta: { label: "Bekijk de AI Readiness Assessment", href: /diensten/ai-readiness-assessment }
+secondaryCta: { label: "Bekijk het AI Readiness Assessment", href: /diensten/ai-readiness-assessment }
 summary:
   - "BI beschrijft en verklaart het verleden met gestructureerde data; AI voorspelt, classificeert en werkt ook met tekst."
   - "AI in BI-tools is zo goed als het datamodel eronder: eenduidige definities gaan voor slimme functies."

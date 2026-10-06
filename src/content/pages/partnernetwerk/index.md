@@ -13,7 +13,7 @@ keyphrase: ai bureau
 eyebrow: Partnernetwerk
 lede: "Zoek je een AI bureau? Dan wil ik eerlijk zijn: dat ben ik niet. Ik ben een onafhankelijk AI-adviseur die alleen werkt. Als je meer handen nodig hebt, stel ik partijen voor die ik ken, en die contracteer je rechtstreeks, zonder marge voor mij."
 primaryCta: { label: "Plan een adviesgesprek", href: /contact }
-secondaryCta: { label: "Bekijk de AI Readiness Assessment", href: /diensten/ai-readiness-assessment }
+secondaryCta: { label: "Bekijk het AI Readiness Assessment", href: /diensten/ai-readiness-assessment }
 summary:
   - "Ik ben geen AI bureau en bouw zelf niets; ik adviseer en begeleid vanuit jouw kant."
   - "Partners voor development, data en BI, en training contracteer je rechtstreeks."

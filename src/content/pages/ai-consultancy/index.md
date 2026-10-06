@@ -13,7 +13,7 @@ keyphrase: ai consultancy
 eyebrow: "AI consultancy"
 lede: "AI consultancy helpt je bepalen waar AI in jouw organisatie echt waarde toevoegt, wat daarvoor nodig is en in welke volgorde je het aanpakt. Ik adviseer onafhankelijk: van readiness en strategie tot roadmap en begeleiding bij de implementatie, zonder belang bij een leverancier of een grotere scope."
 primaryCta: { label: "Plan een adviesgesprek", href: /contact }
-secondaryCta: { label: "Bekijk de AI Readiness Assessment", href: /diensten/ai-readiness-assessment }
+secondaryCta: { label: "Bekijk het AI Readiness Assessment", href: /diensten/ai-readiness-assessment }
 summary:
   - "AI consultancy levert besluiten op: wat je wel doet, wat niet, en in welke volgorde."
   - "Vier vaste stappen: diagnose, prioriteren, beslissen en ship & govern."

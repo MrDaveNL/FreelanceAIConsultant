@@ -2,7 +2,7 @@
   "url": "/ai-workshop/copilot-training",
   "build_bestand": "dist/ai-workshop/copilot-training/index.html",
   "html": {
-    "bytes": 32857,
+    "bytes": 34417,
     "lang": "nl"
   },
   "beschermd": {
@@ -81,7 +81,7 @@
   "bodytekst": {
     "regio": "main",
     "woorden": 1479,
-    "sha256": "3f481a93ebf63545ce26e176f5c4fe68efe5e28369b86e11f15112ace90129b4",
+    "sha256": "68d390f15de6866eff1ae1c746c2362faada9d603f6015495cf3880fb2743015",
     "blokken": [
       "Home",
       "AI workshop",
@@ -89,7 +89,7 @@
       "Copilot training",
       "Microsoft Copilot training voor teams",
       "Licenties voor Microsoft Copilot zijn snel uitgedeeld; dagelijks gebruik komt niet vanzelf. Een training Copilot laat je team zien wat het in Outlook, Teams, Word en Excel echt oplevert, waar het tekortschiet en hoe je veilig werkt met bedrijfsdata. Praktisch, met jullie eigen taken als oefenmateriaal.",
-      "Vraag een training aan → Bekijk de AI Readiness Assessment →",
+      "Vraag een training aan → Bekijk het AI Readiness Assessment →",
       "IN HET KORT",
       "Oefenen met eigen taken in Outlook, Teams, Word, Excel en PowerPoint.",
       "Aandacht voor rechten, gevoelige data en het controleren van uitkomsten.",
@@ -212,7 +212,7 @@
       "Dave Willemstein Onafhankelijk AI-adviseur",
       "Onafhankelijk: geen commissies, geen partnerdeals, geen marge op implementatiepartners.",
       "Over mij Mijn partnernetwerk",
-      "Weten waar je staat met AI? Bekijk de AI Readiness Assessment →",
+      "Weten waar je staat met AI? Bekijk het AI Readiness Assessment →",
       "Veelgestelde vragen",
       "Heeft iedere deelnemer een betaalde Copilot-licentie nodig?+",
       "Voor de onderdelen die met je eigen mail, documenten en vergaderingen werken wel. Copilot Chat met webresultaten is bij een geschikt Microsoft 365-abonnement zonder extra kosten beschikbaar. Heeft een deel van de groep geen licentie, dan richt ik het programma daarop in, zodat niemand alleen toekijkt.",
@@ -316,7 +316,7 @@
       "regio": "main",
       "soort": "intern",
       "href": "/diensten/ai-readiness-assessment",
-      "anker": "Bekijk de AI Readiness Assessment →",
+      "anker": "Bekijk het AI Readiness Assessment →",
       "rel": null
     },
     {
@@ -407,7 +407,7 @@
       "regio": "main",
       "soort": "intern",
       "href": "/diensten/ai-readiness-assessment",
-      "anker": "Weten waar je staat met AI? Bekijk de AI Readiness Assessment →",
+      "anker": "Weten waar je staat met AI? Bekijk het AI Readiness Assessment →",
       "rel": null
     },
     {

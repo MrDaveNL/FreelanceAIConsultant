@@ -2,7 +2,7 @@
   "url": "/partnernetwerk",
   "build_bestand": "dist/partnernetwerk/index.html",
   "html": {
-    "bytes": 30804,
+    "bytes": 32364,
     "lang": "nl"
   },
   "beschermd": {
@@ -99,14 +99,14 @@
   "bodytekst": {
     "regio": "main",
     "woorden": 1367,
-    "sha256": "ca4821e9240fee8c6d9eb1a4762f1c0e8c07ac09f9d7f3b9ee86ab982a5f7ea7",
+    "sha256": "f0c26594239e8e1ceaab38267bc66fa2a83ecea6d8cee16ff8718fcfb9b3ada5",
     "blokken": [
       "Home",
       "Partnernetwerk",
       "Partnernetwerk",
       "Geen bureau, wel bureau-capaciteit: mijn partnernetwerk",
       "Zoek je een AI bureau? Dan wil ik eerlijk zijn: dat ben ik niet. Ik ben een onafhankelijk AI-adviseur die alleen werkt. Als je meer handen nodig hebt, stel ik partijen voor die ik ken, en die contracteer je rechtstreeks, zonder marge voor mij.",
-      "Plan een adviesgesprek → Bekijk de AI Readiness Assessment →",
+      "Plan een adviesgesprek → Bekijk het AI Readiness Assessment →",
       "IN HET KORT",
       "Ik ben geen AI bureau en bouw zelf niets; ik adviseer en begeleid vanuit jouw kant.",
       "Partners voor development, data en BI, en training contracteer je rechtstreeks.",
@@ -224,7 +224,7 @@
       "Dave Willemstein Onafhankelijk AI-adviseur",
       "Onafhankelijk: geen commissies, geen partnerdeals, geen marge op implementatiepartners.",
       "Over mij",
-      "Weten waar je staat met AI? Bekijk de AI Readiness Assessment →",
+      "Weten waar je staat met AI? Bekijk het AI Readiness Assessment →",
       "Veelgestelde vragen",
       "Ben je een AI bureau?+",
       "Nee. Ik werk alleen, als onafhankelijk AI-adviseur. Ik bouw en verkoop geen software, AI-agents of implementaties. Heb je uitvoeringscapaciteit nodig, dan stel ik partijen voor die je zelf contracteert.",
@@ -317,7 +317,7 @@
       "regio": "main",
       "soort": "intern",
       "href": "/diensten/ai-readiness-assessment",
-      "anker": "Bekijk de AI Readiness Assessment →",
+      "anker": "Bekijk het AI Readiness Assessment →",
       "rel": null
     },
     {
@@ -443,7 +443,7 @@
       "regio": "main",
       "soort": "intern",
       "href": "/diensten/ai-readiness-assessment",
-      "anker": "Weten waar je staat met AI? Bekijk de AI Readiness Assessment →",
+      "anker": "Weten waar je staat met AI? Bekijk het AI Readiness Assessment →",
       "rel": null
     },
     {
