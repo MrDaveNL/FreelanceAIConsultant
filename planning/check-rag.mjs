@@ -7,6 +7,7 @@ import { parseHtml, tekstVan, tekstblokken, tag, distDir, distPaginas, urlVanBes
 import { blokken } from '../src/data/rag/index.ts';
 import { services } from '../src/data/services.js';
 import { prijzen } from '../src/data/prijzen.ts';
+import { afzender } from '../src/lib/rag-blok.js';
 import { splitsZinnen, normaliseer, celFout, schrijfregelFout, begintMetJaNeeOfGetal } from '../src/lib/rag-tekst.js';
 
 const bedragen = (t) => t.match(/€\s?\d[\d.]*\d|€\s?\d/g)?.map((b) => b.replace(/\s/g, '')) ?? [];
@@ -64,6 +65,8 @@ for (const { url, doc } of paginas) {
       const n = splitsZinnen(tekstVan(eerste)).length;
       if (n > 3) fout.push(`antwoordalinea heeft ${n} zinnen (maximaal 3)`);
       if (n < 2) fout.push(`antwoordalinea heeft ${n} zin (minimaal 2)`);
+      // De afzender staat voluit in de antwoordalinea (bij kennisbankblokken volstaat de bronregel).
+      if (blok.type !== 'kennisbank' && !tekstVan(eerste).includes(afzender)) fout.push(`antwoordalinea noemt de afzender (${afzender}) niet`);
     }
 
     // Tabel.
@@ -89,6 +92,12 @@ for (const { url, doc } of paginas) {
       const antwoord = h3.nextElementSibling;
       if (!vraag.endsWith('?')) fout.push(`vervolgvraag eindigt niet op een vraagteken: "${vraag}"`);
       if (!antwoord || tag(antwoord) !== 'p' || !begintMetJaNeeOfGetal(tekstVan(antwoord))) fout.push(`antwoord op "${vraag}" begint niet met Ja, Nee of het getal`);
+      if (antwoord && tag(antwoord) === 'p') {
+        const t = tekstVan(antwoord);
+        // In een vervolgvraag staat de afzender niet; de volledige dienstnaam of het onderwerp wel.
+        if (t.includes(afzender)) fout.push(`antwoord op "${vraag}" noemt de afzender; die hoort alleen in de antwoordalinea en de bronregel`);
+        if (!services.some((s) => t.includes(s.title)) && !t.toLowerCase().includes(blok.onderwerp.toLowerCase())) fout.push(`antwoord op "${vraag}" noemt geen dienst of het onderwerp "${blok.onderwerp}" voluit`);
+      }
     }
 
     // Links: elke genoemde dienst met eigen URL is gelinkt, en elke interne link bestaat.
@@ -97,7 +106,19 @@ for (const { url, doc } of paginas) {
       const eigenUrl = `/diensten/${s.slug}`;
       if (tekst.includes(s.title) && eigenUrl !== url && !hrefs.includes(eigenUrl)) fout.push(`dienst "${s.title}" is genoemd maar niet gelinkt naar ${eigenUrl}`);
     }
-    for (const href of hrefs) {
+    // Maximaal één link per doel-URL: in de tabelrij als het doel daar staat, anders bij de eerste vermelding.
+    const alineas = sectie.querySelectorAll('p');
+    const inTabel = (el) => { for (let p = el; p; p = p.parentNode) if (tag(p) === 'table') return true; return false; };
+    for (const href of new Set(hrefs)) {
+      const ankers = sectie.querySelectorAll('a').filter((a) => a.getAttribute('href') === href);
+      if (ankers.length > 1) { fout.push(`${ankers.length} links naar ${href} in één blok (maximaal 1)`); continue; }
+      if (inTabel(ankers[0])) continue;
+      const anker = tekstVan(ankers[0]);
+      if (sectie.querySelectorAll('tbody tr').some((tr) => tekstVan(tr, ' ').includes(anker))) fout.push(`link naar ${href} hoort in de tabelrij, niet in een alinea`);
+      const eersteVermelding = alineas.find((p) => tekstVan(p, ' ').includes(anker));
+      if (eersteVermelding && !eersteVermelding.querySelectorAll('a').includes(ankers[0])) fout.push(`link naar ${href} staat niet bij de eerste vermelding in het blok`);
+    }
+    for (const href of new Set(hrefs)) {
       if (href === url) fout.push('link naar de pagina zelf');
       if (href.startsWith('/') && !fs.existsSync(path.join(distDir, bestandVanUrl(href.split('#')[0])))) fout.push(`link geeft geen 200: ${href}`);
       if (href.length > 1 && href.endsWith('/')) fout.push(`link met slash aan het eind: ${href}`);
@@ -106,6 +127,7 @@ for (const { url, doc } of paginas) {
     // Bron en datum.
     const bronregel = sectie.querySelector('.rag-blok__bron');
     if (!bronregel || !/^Bron: \S/.test(tekstVan(bronregel))) fout.push('bronregel ontbreekt');
+    else if (!tekstVan(bronregel).includes(afzender)) fout.push(`bronregel noemt de afzender (${afzender}) niet`);
     if (!/^\d{4}-\d{2}(-\d{2})?$/.test(bronregel?.querySelector('time')?.getAttribute('datetime') ?? '')) fout.push('time met datetime ontbreekt in de bronregel');
 
     // Zichtbaar en server-side.

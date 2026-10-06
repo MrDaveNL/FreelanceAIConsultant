@@ -2,7 +2,7 @@
   "url": "/ai-consultancy/ai-strategie",
   "build_bestand": "dist/ai-consultancy/ai-strategie/index.html",
   "html": {
-    "bytes": 34177,
+    "bytes": 37798,
     "lang": "nl"
   },
   "beschermd": {
@@ -32,6 +32,24 @@
     {
       "niveau": 1,
       "tekst": "AI strategie ontwikkelen voor jouw organisatie",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "Wat kost het om een AI strategie te laten ontwikkelen en hoe lang duurt het?",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 3,
+      "tekst": "Is een AI strategie goedkoper als er al een AI Readiness Assessment ligt?",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 3,
+      "tekst": "Kan de uitkomst zijn dat een organisatie nog niet klaar is voor een AI strategie?",
       "regio": "main",
       "id": null
     },
@@ -104,8 +122,8 @@
   ],
   "bodytekst": {
     "regio": "main",
-    "woorden": 1840,
-    "sha256": "a912e9eb7c623016e573b080f8782f4287d53a7f846c31ed1613044eb77c6ed7",
+    "woorden": 2059,
+    "sha256": "f6a83d283076d1d205c80f29705085b375bbe66a2e1127d44604762fc74dfe62",
     "blokken": [
       "Home",
       "AI Consultancy",
@@ -176,6 +194,29 @@
       "Proces & productivity",
       "Zakelijke dienstverlener",
       "Interne AI-assistent voor kenniswerkers",
+      "Wat kost het om een AI strategie te laten ontwikkelen en hoe lang duurt het?",
+      "Een AI strategie laten ontwikkelen door Dave Willemstein kan in één traject met de AI Strategy Sprint, die 4-6 weken duurt en €15.400 - €22.400 kost. Wie eerst wil weten wat haalbaar is, start met het AI Readiness Assessment van 2-3 weken voor €7.000. Beide bedragen zijn exclusief btw en reiskosten.",
+      "AI strategie ontwikkelen: passende dienst per situatie",
+      "Situatie",
+      "Resultaat",
+      "Doorlooptijd",
+      "Prijs",
+      "Passende dienst",
+      "Onduidelijk wat haalbaar is met de huidige organisatie, data en systemen",
+      "Readiness-score per dimensie, gap-analyse en 90-dagenplan",
+      "2-3 weken",
+      "€7.000",
+      "AI Readiness Assessment",
+      "Strategie en roadmap in één keer vastleggen, met de beslissers aan tafel",
+      "Board-ready strategie, prioriteitenmatrix en use-case roadmap",
+      "4-6 weken",
+      "€15.400 - €22.400",
+      "AI Strategy Sprint",
+      "Is een AI strategie goedkoper als er al een AI Readiness Assessment ligt?",
+      "Ja. De AI Strategy Sprint kost €15.400 - €22.400: de onderkant geldt als er al een AI Readiness Assessment ligt, de bovenkant bij meerdere bedrijfsonderdelen.",
+      "Kan de uitkomst zijn dat een organisatie nog niet klaar is voor een AI strategie?",
+      "Ja. Het AI Readiness Assessment kan uitwijzen dat het fundament eerst op orde moet. De organisatie krijgt dan een plan voor het fundament in plaats van een plan voor use cases.",
+      "Bron: tarieven en doorlooptijden van Dave Willemstein. Bijgewerkt: oktober 2026.",
       "Wat is een AI strategie?",
       "Een AI strategie is de set keuzes die bepaalt waar je organisatie AI voor inzet, waarom, en wat daarvoor moet veranderen. Een goede AI strategie beantwoordt vier vragen: welke business-uitkomsten wil je bereiken, welke toepassingen dragen daar het meest aan bij, wat is er nodig aan data, mensen en governance, en wat doe je bewust niet.",
       "Dat laatste wordt vaak vergeten. Een strategie die alles openhoudt, helpt niemand kiezen. De waarde zit juist in de korte lijst en in de gemotiveerde afvallijst ernaast.",
@@ -323,6 +364,27 @@
       "soort": "intern",
       "href": "/diensten/ai-readiness-assessment",
       "anker": "Bekijk de AI Readiness Assessment →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/diensten/ai-readiness-assessment",
+      "anker": "AI Readiness Assessment",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/diensten/ai-strategy-sprint",
+      "anker": "AI Strategy Sprint",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/tarieven",
+      "anker": "tarieven en doorlooptijden van Dave Willemstein",
       "rel": null
     },
     {
@@ -749,7 +811,7 @@
       "/logo-carousel/logo-carousel.css?v=2"
     ],
     "aantal_details": 5,
-    "aantal_tabellen": 0
+    "aantal_tabellen": 1
   },
   "gemeten_op": "2026-10-06"
 }

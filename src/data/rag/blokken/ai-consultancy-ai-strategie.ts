@@ -1,5 +1,5 @@
-// CONCEPT: teksten geschreven op basis van de bestaande paginatekst (src/content/pages/ai-consultancy/ai-strategie)
-// en prijzen.ts, nog niet beoordeeld.
+// Teksten op basis van de bestaande paginatekst (src/content/pages/ai-consultancy/ai-strategie) en prijzen.ts.
+// Akkoord op 6 oktober 2026.
 export default {
   pagina: '/ai-consultancy/ai-strategie',
   type: 'dienstenoverzicht',
@@ -31,15 +31,15 @@ export default {
     {
       vraag: 'Is een AI strategie goedkoper als er al een AI Readiness Assessment ligt?',
       antwoord:
-        'Ja. De {{title:ai-strategy-sprint}} van {{afzender}} kost {{pricelc:ai-strategy-sprint}}: de onderkant geldt als er al een {{title:ai-readiness-assessment}} ligt, de bovenkant bij meerdere bedrijfsonderdelen.',
+        'Ja. De {{dienst:ai-strategy-sprint}} kost {{pricelc:ai-strategy-sprint}}: de onderkant geldt als er al een {{dienst:ai-readiness-assessment}} ligt, de bovenkant bij meerdere bedrijfsonderdelen.',
     },
     {
       vraag: 'Kan de uitkomst zijn dat een organisatie nog niet klaar is voor een AI strategie?',
       antwoord:
-        'Ja. Het {{title:ai-readiness-assessment}} van {{afzender}} kan uitwijzen dat het fundament eerst op orde moet. De organisatie krijgt dan een plan voor het fundament in plaats van een plan voor use cases.',
+        'Ja. Het {{dienst:ai-readiness-assessment}} kan uitwijzen dat het fundament eerst op orde moet. De organisatie krijgt dan een plan voor het fundament in plaats van een plan voor use cases.',
     },
   ],
   bron: { tekst: 'tarieven en doorlooptijden van {{afzender}}', href: '/tarieven' },
   bijgewerkt: '2026-10',
-  concept: true,
+  concept: false,
 };

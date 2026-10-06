@@ -2,7 +2,7 @@
   "url": "/diensten/ai-readiness-assessment",
   "build_bestand": "dist/diensten/ai-readiness-assessment/index.html",
   "html": {
-    "bytes": 34035,
+    "bytes": 37079,
     "lang": "nl"
   },
   "beschermd": {
@@ -32,6 +32,30 @@
     {
       "niveau": 1,
       "tekst": "AI Readiness Assessment",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "Wat levert het AI Readiness Assessment op en wat kost het?",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 3,
+      "tekst": "Hoe lang duurt het AI Readiness Assessment?",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 3,
+      "tekst": "Is de prijs van het AI Readiness Assessment een vaste prijs?",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 3,
+      "tekst": "Wordt een Executive Briefing verrekend met het AI Readiness Assessment?",
       "regio": "main",
       "id": null
     },
@@ -140,8 +164,8 @@
   ],
   "bodytekst": {
     "regio": "main",
-    "woorden": 870,
-    "sha256": "159779ccbe16ec1711964fb68a5c716a0af635a57a0c39871878c898e155113c",
+    "woorden": 1054,
+    "sha256": "48541271c676d4432f0206b1b978b7018646040020c776bba014802c3e62c900",
     "blokken": [
       "Weten waar je staat",
       "AI Readiness Assessment",
@@ -211,6 +235,15 @@
       "ResultaatReadiness-rapport + 90-dagenplan",
       "Investering€7.000",
       "Vaste prijs, inclusief eindpresentatie aan MT of board. Bedragen zijn exclusief btw en reiskosten.",
+      "Wat levert het AI Readiness Assessment op en wat kost het?",
+      "Het AI Readiness Assessment van Dave Willemstein laat organisaties die AI overwegen maar nog geen richting hebben gekozen zien wat haalbaar is en wat eerst moet. Het resultaat is een readiness-score op strategie, data, technologie, mensen en governance, een gap-analyse en een 90-dagenplan. De doorlichting duurt 2-3 weken en kost €7.000, als vaste prijs exclusief btw en reiskosten.",
+      "Hoe lang duurt het AI Readiness Assessment?",
+      "2-3 weken. In die periode bestaat het AI Readiness Assessment uit een documentenanalyse, een datascan en 8 tot 12 interviews, gevolgd door de scoring, de prioritering en een eindsessie.",
+      "Is de prijs van het AI Readiness Assessment een vaste prijs?",
+      "Ja. Het AI Readiness Assessment kost €7.000 als vaste prijs, en de eindpresentatie aan MT of board zit daarbij in. Het bedrag is exclusief btw en reiskosten.",
+      "Wordt een Executive Briefing verrekend met het AI Readiness Assessment?",
+      "Ja. De Executive Briefing kost €2.800 en wordt volledig verrekend bij een start met het AI Readiness Assessment binnen 60 dagen.",
+      "Bron: tarieven en doorlooptijden van Dave Willemstein. Bijgewerkt: oktober 2026.",
       "De aanleiding",
       "Herkenbaar?",
       "Er lopen pilots, maar niemand kan uitleggen wat ze samen opleveren.",
@@ -366,6 +399,20 @@
       "soort": "intern",
       "href": "/diensten",
       "anker": "Alle diensten →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/diensten/executive-briefing",
+      "anker": "Executive Briefing",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/tarieven",
+      "anker": "tarieven en doorlooptijden van Dave Willemstein",
       "rel": null
     },
     {

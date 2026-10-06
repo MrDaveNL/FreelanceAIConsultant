@@ -67,7 +67,10 @@ export const tabelSchema = z
 
 export const vervolgvraagSchema = z.object({
   vraag: tekst.refine((t) => t.endsWith('?'), 'moet op een vraagteken eindigen'),
-  antwoord: tekst.refine(begintMetJaNeeOfGetal, 'moet beginnen met Ja, Nee of het getal'),
+  // De afzender staat alleen in de antwoordalinea en de bronregel; hier volstaat de volledige dienstnaam.
+  antwoord: tekst
+    .refine(begintMetJaNeeOfGetal, 'moet beginnen met Ja, Nee of het getal')
+    .refine((t) => !t.includes('{{afzender}}'), 'mag de afzender niet noemen'),
 });
 
 export const blokSchema = z
@@ -92,6 +95,10 @@ export const blokSchema = z
   .superRefine((blok, ctx) => {
     if (!blok.vraagkop.toLowerCase().includes(blok.onderwerp.toLowerCase()))
       ctx.addIssue({ code: z.ZodIssueCode.custom, path: ['vraagkop'], message: `moet "${blok.onderwerp}" bij naam noemen` });
+    if (blok.type !== 'kennisbank' && !blok.antwoord.includes('{{afzender}}'))
+      ctx.addIssue({ code: z.ZodIssueCode.custom, path: ['antwoord'], message: 'moet de afzender noemen ({{afzender}})' });
+    if (!blok.bron.tekst.includes('{{afzender}}'))
+      ctx.addIssue({ code: z.ZodIssueCode.custom, path: ['bron', 'tekst'], message: 'moet de afzender noemen ({{afzender}})' });
   });
 
 export type Pakket = z.infer<typeof pakketSchema>;
