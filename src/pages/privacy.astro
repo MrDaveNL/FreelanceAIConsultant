@@ -1,0 +1,95 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { site } from '../data/site.js';
+
+const updated = '22 september 2026';
+---
+<BaseLayout
+  title={`Privacyverklaring | ${site.brand}`}
+  description="Hoe freelanceaiconsultant.com omgaat met persoonsgegevens: welke gegevens worden verwerkt, waarom, hoe lang en welke rechten je hebt."
+>
+  <section class="section-sm legal-hero">
+    <div class="container">
+      <a class="back" href="/">← Terug naar home</a>
+      <p class="eyebrow">Juridisch</p>
+      <h1 class="h1">Privacy<span class="marker">verklaring</span></h1>
+      <p class="lede">Deze verklaring beschrijft hoe {site.legal.entity} ({site.domain}) omgaat met persoonsgegevens van bezoekers, contactpersonen en opdrachtgevers.</p>
+      <p class="updated">Laatst bijgewerkt: {updated}</p>
+    </div>
+  </section>
+
+  <section class="section-sm">
+    <div class="container legal-prose">
+      <div class="legal-note">
+        <b>Nog in te vullen vóór livegang</b>
+        Het btw-identificatienummer en de vestigingsplaats hieronder staan nog op voorbeeldwaarden. Vervang ze in <code>src/data/site.js</code> en laat deze verklaring toetsen aan je feitelijke verwerkingen voordat de site publiek gaat.
+      </div>
+
+      <h2>1. Wie is verantwoordelijk?</h2>
+      <p>Verwerkingsverantwoordelijke voor de verwerking van persoonsgegevens via deze website is:</p>
+      <ul>
+        <li>{site.legal.entity}, handelend onder de naam {site.domain}</li>
+        <li>Gevestigd te {site.legal.city}, {site.legal.country}</li>
+        <li>KvK-nummer: {site.legal.kvk}</li>
+        <li>Btw-identificatienummer: {site.legal.btw}</li>
+        <li>E-mail: <a href={`mailto:${site.email}`}>{site.email}</a></li>
+      </ul>
+
+      <h2>2. Welke gegevens worden verwerkt?</h2>
+      <h3>Contact- en intakeformulier</h3>
+      <p>Als je het contactformulier invult, worden de gegevens verwerkt die je zelf opgeeft: naam, e-mailadres, en optioneel functie, organisatie, tijdlijn, budgetindicatie en de omschrijving van je vraagstuk.</p>
+      <h3>E-mail en telefonisch contact</h3>
+      <p>Bij rechtstreeks contact worden je contactgegevens en de inhoud van de correspondentie verwerkt, voor zover nodig om je vraag te beantwoorden en een eventuele opdracht uit te voeren.</p>
+      <h3>Nieuwsbrief</h3>
+      <p>Bij aanmelding voor de nieuwsbrief wordt je e-mailadres verwerkt, samen met de datum van aanmelding. Uitschrijven kan via de link in elke uitzending of door een bericht te sturen.</p>
+      <h3>Opdrachtgevers</h3>
+      <p>Tijdens een opdracht worden zakelijke contactgegevens van betrokken medewerkers verwerkt, evenals gegevens die nodig zijn voor facturatie en administratie.</p>
+
+      <h2>3. Waarom worden deze gegevens verwerkt?</h2>
+      <table>
+        <thead><tr><th>Doel</th><th>Grondslag</th></tr></thead>
+        <tbody>
+          <tr><td>Beantwoorden van vragen en aanvragen</td><td>Uitvoering van een overeenkomst of stappen voorafgaand daaraan</td></tr>
+          <tr><td>Uitvoeren van een opdracht</td><td>Uitvoering van een overeenkomst</td></tr>
+          <tr><td>Facturatie en administratie</td><td>Wettelijke verplichting</td></tr>
+          <tr><td>Versturen van de nieuwsbrief</td><td>Toestemming</td></tr>
+          <tr><td>Beveiliging en misbruikpreventie</td><td>Gerechtvaardigd belang</td></tr>
+        </tbody>
+      </table>
+
+      <h2>4. Hoe lang worden gegevens bewaard?</h2>
+      <ul>
+        <li><b>Aanvragen die niet tot een opdracht leiden:</b> maximaal twaalf maanden na het laatste contact.</li>
+        <li><b>Opdrachtgegevens:</b> gedurende de opdracht en daarna zeven jaar, conform de fiscale bewaarplicht voor administratie.</li>
+        <li><b>Nieuwsbriefgegevens:</b> tot je je uitschrijft.</li>
+      </ul>
+
+      <h2>5. Delen met derden</h2>
+      <p>Persoonsgegevens worden niet verkocht en niet gedeeld voor commerciële doeleinden van derden. Gegevens worden uitsluitend gedeeld met dienstverleners die nodig zijn voor de bedrijfsvoering (denk aan een e-maildienst, een formulierdienst voor het contactformulier, een boekhoudpakket en een hostingpartij), en alleen voor zover dat voor hun dienstverlening noodzakelijk is. Met deze partijen zijn verwerkersovereenkomsten gesloten.</p>
+      <p>Bij opdrachten waarin toegang tot bedrijfsgegevens van een opdrachtgever nodig is, gelden aanvullend de afspraken uit de opdrachtovereenkomst en, waar van toepassing, een verwerkersovereenkomst met die opdrachtgever.</p>
+
+      <h2>6. Doorgifte buiten de EER</h2>
+      <p>Waar dienstverleners gegevens buiten de Europese Economische Ruimte verwerken, gebeurt dat op basis van een adequaatheidsbesluit of standaardcontractbepalingen van de Europese Commissie.</p>
+
+      <h2>7. Cookies en statistieken</h2>
+      <p>Deze website plaatst geen tracking- of advertentiecookies en gebruikt geen profileringstechnieken. Er worden geen cookies geplaatst die toestemming vereisen. De website laadt lettertypen van Google Fonts; daarbij wordt je IP-adres aan die dienst doorgegeven om het lettertype te kunnen leveren.</p>
+
+      <h2>8. Beveiliging</h2>
+      <p>Er zijn passende technische en organisatorische maatregelen getroffen om persoonsgegevens te beschermen tegen verlies en onrechtmatige verwerking, waaronder versleutelde verbindingen, toegangsbeperking en periodieke controle van de gebruikte diensten.</p>
+
+      <h2>9. Jouw rechten</h2>
+      <p>Je hebt het recht om je gegevens in te zien, te laten corrigeren of te laten verwijderen. Daarnaast kun je bezwaar maken tegen verwerking, om beperking van de verwerking verzoeken, en je gegevens in een overdraagbaar formaat opvragen. Toestemming (bijvoorbeeld voor de nieuwsbrief) kun je op elk moment intrekken.</p>
+      <p>Een verzoek stuur je naar <a href={`mailto:${site.email}`}>{site.email}</a>. Je ontvangt binnen vier weken een reactie.</p>
+      <p>Ben je het oneens met de afhandeling, dan kun je een klacht indienen bij de Autoriteit Persoonsgegevens via <a href="https://autoriteitpersoonsgegevens.nl" rel="noopener">autoriteitpersoonsgegevens.nl</a>.</p>
+
+      <h2>10. Wijzigingen</h2>
+      <p>Deze privacyverklaring kan worden aangepast wanneer de dienstverlening of de wetgeving daartoe aanleiding geeft. De datum bovenaan geeft aan wanneer de laatste wijziging is doorgevoerd.</p>
+    </div>
+  </section>
+</BaseLayout>
+<style>
+.legal-hero{padding-top:52px}
+.legal-hero .lede{margin-top:24px}
+.updated{font-size:.82rem;color:var(--muted);margin-top:16px}
+code{background:rgba(74,31,42,.1);padding:2px 6px;border-radius:4px;font-size:.88em}
+</style>

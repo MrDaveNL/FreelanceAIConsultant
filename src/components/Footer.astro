@@ -1,0 +1,50 @@
+---
+import { site } from '../data/site.js';
+import { hubLinks } from '../data/protected-urls.js';
+const year = new Date().getFullYear();
+---
+<footer class="footer dark-band">
+  <div class="container footer-grid">
+    <div>
+      <img class="footer-icon" src="/images/freelance-ai-consultant-icon-footer.png" width="192" height="192" alt="" loading="lazy" />
+      <strong>{site.nameUpper}</strong>
+      <span>{site.role}</span>
+      <em>{site.domain}</em>
+    </div>
+    <div>
+      <b>Diensten</b>
+      <a href="/diensten/ai-readiness-assessment">AI Readiness Assessment</a>
+      <a href="/diensten/ai-strategy-sprint">AI Strategy Sprint</a>
+      <a href="/diensten/fractional-ai-lead">Fractional AI Lead</a>
+      <a href="/diensten">Alle diensten</a>
+    </div>
+    <div>
+      <b>Inhoud</b>
+      <a href="/cases">Cases</a>
+      <a href="/werkwijze">Werkwijze</a>
+      <a href="/inzichten">Inzichten</a>
+      <a href="/veelgestelde-vragen">Veelgestelde vragen</a>
+      <a href="/over">Over mij</a>
+    </div>
+    <div>
+      <b>Kennis & aanpak</b>
+      {hubLinks.map(([href, label]) => <a href={href}>{label}</a>)}
+    </div>
+    <div>
+      <b>Contact</b>
+      <a href={`mailto:${site.email}`}>{site.email}</a>
+      <a href={site.linkedin} rel="noopener">LinkedIn ↗</a>
+      <a href="/contact">Plan een gesprek</a>
+    </div>
+  </div>
+  <div class="container legal">
+    <span>© {year} {site.domain}</span>
+    <a href="/privacy">Privacyverklaring</a>
+    <a href="/algemene-voorwaarden">Algemene voorwaarden</a>
+    <span>{site.legal.entity} · KvK {site.legal.kvk}</span>
+  </div>
+</footer>
+<style>
+.footer{padding:58px 0 24px}.footer-grid{display:grid;grid-template-columns:1.4fr repeat(4,1fr);gap:44px}.footer-grid>div{display:flex;flex-direction:column;gap:8px}.footer-icon{box-sizing:border-box;width:76px;height:76px;padding:9px;background:var(--cream);border-radius:16px;object-fit:contain;margin-bottom:10px}.footer strong{font-size:1.05rem}.footer span,.footer a{font-size:.84rem;color:#f5e8df}.footer a:hover{color:var(--mustard)}.footer em{font-family:'Caveat',cursive;color:var(--salmon);font-size:1.18rem;font-style:normal}.footer b{color:var(--mustard);font-size:.78rem;text-transform:uppercase;letter-spacing:.07em;margin-bottom:5px}.legal{display:flex;gap:28px;padding-top:34px;margin-top:34px;border-top:1px solid rgba(255,255,255,.12);font-size:.76rem;color:#d9c9c6;flex-wrap:wrap}.legal a{font-size:.76rem}
+@media(max-width:760px){.footer-grid{grid-template-columns:1fr 1fr}.footer-grid>div:first-child{grid-column:1/-1}.legal{flex-direction:column;gap:8px}}
+</style>

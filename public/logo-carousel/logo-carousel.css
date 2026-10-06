@@ -1,0 +1,139 @@
+/* Logo-carrousel: Europese merken die AI inzetten. Kleuren komen uit de variabelen in global.css. */
+.aimerken {
+  --aimerken-gap: 16px;
+  --aimerken-kaart: 194px;
+  color: var(--burgundy);
+  background: var(--cream);
+  padding: 72px 0 80px;
+  font-family: inherit;
+  overflow: hidden;
+}
+.aimerken__kop {
+  margin-bottom: 36px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 24px;
+  flex-wrap: wrap;
+}
+.aimerken__label {
+  margin: 0 0 10px;
+  font-size: 12px;
+  font-style: italic;
+  font-weight: 700;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+  /* Bordeaux in plaats van zalm: zalm op creme haalt het WCAG-contrast voor kleine tekst niet. */
+  color: var(--burgundy);
+}
+.aimerken__titel {
+  margin: 0;
+  font-size: clamp(28px, 4.2vw, 46px);
+  line-height: 1.08;
+  font-weight: 800;
+  letter-spacing: -.02em;
+  /* em in plaats van ch: zo breekt de titel in het fallback-font op dezelfde plek als in het sitefont (geen layout shift bij font-swap). */
+  max-width: 11.66em;
+}
+.aimerken__titel u {
+  text-decoration: underline;
+  text-decoration-color: var(--salmon);
+  text-decoration-thickness: .12em;
+  text-underline-offset: .14em;
+}
+.aimerken__sub {
+  margin: 14px 0 0;
+  font-size: 15px;
+  line-height: 1.5;
+  max-width: 29.8em;
+}
+.aimerken__pauze {
+  font: inherit;
+  font-size: 13px;
+  font-weight: 700;
+  color: var(--burgundy);
+  background: none;
+  border: 0;
+  border-bottom: 2px solid var(--burgundy);
+  padding: 0 0 3px;
+  cursor: pointer;
+}
+.aimerken__pauze:focus-visible,
+.aimerken__kaart:focus-visible,
+.aimerken__baan:focus-visible { outline: 3px solid var(--salmon); outline-offset: 3px; }
+
+/* De hoogte van de baan ligt vast, zodat de sectie niet verspringt tijdens het laden. */
+.aimerken__baan {
+  display: flex;
+  width: max-content;
+  min-height: calc(var(--aimerken-kaart) + 12px);
+  animation: aimerken-loop var(--duur, 60s) linear infinite paused;
+}
+/* De animatie loopt alleen als de sectie in beeld is en het tabblad zichtbaar is (zie logo-carousel.js). */
+.aimerken.is-lopend .aimerken__baan { animation-play-state: running; }
+.aimerken .aimerken__baan:hover,
+.aimerken .aimerken__baan:focus-within,
+.aimerken.is-gepauzeerd .aimerken__baan { animation-play-state: paused; }
+@keyframes aimerken-loop { to { transform: translateX(-50%); } }
+
+.aimerken__lijst {
+  display: flex;
+  gap: var(--aimerken-gap);
+  padding: 4px var(--aimerken-gap) 8px 0;
+  margin: 0;
+  list-style: none;
+}
+.aimerken__lijst li { display: flex; }
+.aimerken__kaart {
+  display: flex;
+  flex-direction: column;
+  width: 232px;
+  min-height: var(--aimerken-kaart);
+  box-sizing: border-box;
+  padding: 20px 18px 16px;
+  border: 1.5px solid var(--burgundy);
+  border-radius: 12px;
+  background: var(--paper);
+  color: inherit;
+  text-decoration: none;
+}
+.aimerken__lijst li:nth-child(4n+1) .aimerken__kaart { background: var(--mustard); }
+.aimerken__lijst li:nth-child(4n+2) .aimerken__kaart { background: var(--aqua); }
+.aimerken__lijst li:nth-child(4n+3) .aimerken__kaart { background: var(--salmon); }
+
+.aimerken__logo { height: 40px; display: flex; align-items: center; }
+.aimerken__logo-svg {
+  width: 150px;
+  height: 34px;
+  background: var(--burgundy);
+  -webkit-mask: var(--src) left center / contain no-repeat;
+          mask: var(--src) left center / contain no-repeat;
+}
+.aimerken__logo-kleur { max-width: 150px; max-height: 34px; display: block; }
+.aimerken__woordmerk { font-size: 22px; font-weight: 800; letter-spacing: -.02em; white-space: nowrap; }
+/* Kaart met branche-icoon: icoon naast de naam, naam kleiner en over maximaal twee regels. */
+.aimerken__logo--icoon { gap: 10px; }
+.aimerken__icoon { flex: 0 0 auto; display: flex; }
+.aimerken__icoon svg { display: block; width: 28px; height: 28px; }
+.aimerken__logo--icoon .aimerken__woordmerk { font-size: 16px; line-height: 1.1; letter-spacing: -.01em; white-space: normal; }
+
+.aimerken__land {
+  margin: 18px 0 6px;
+  padding-top: 12px;
+  border-top: 1.5px solid var(--burgundy);
+  font-size: 12px;
+  font-weight: 700;
+}
+.aimerken__toepassing { margin: 0; font-size: 13.5px; line-height: 1.4; }
+
+@media (prefers-reduced-motion: reduce) {
+  .aimerken__baan {
+    animation: none;
+    width: auto;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    padding-left: max(20px, calc((100% - var(--container)) / 2));
+  }
+  .aimerken__lijst li { scroll-snap-align: start; }
+  .aimerken__lijst[aria-hidden="true"], .aimerken__pauze { display: none; }
+}

@@ -1,0 +1,30 @@
+---
+const rows = [
+  ['Senior werkt zelf mee', 'Altijd', 'Soms', 'Zelden'],
+  ['Snelheid', 'Hoog', 'Hoog', 'Lager'],
+  ['Softwarebelang', 'Geen', 'Soms', 'Soms'],
+  ['Schaal', 'Beperkt', 'Hoog', 'Zeer hoog'],
+  ['Kostenstructuur', 'Transparant', 'Projectafhankelijk', 'Hoog'],
+  ['Procurement', 'Gemiddeld', 'Makkelijk', 'Makkelijk'],
+];
+---
+<section class="comparison dark-band section-sm">
+  <div class="container comparison-grid">
+    <div>
+      <p class="eyebrow">Waarom onafhankelijk?</p>
+      <h2 class="h2">Agency,<br/>Big 4,<br/><span class="underline">of ik?</span></h2>
+      <div class="sticker sticker--salmon hand-note">Ik win niet elke rij.<br/>Dat is het punt.</div>
+      <a class="text-link compare-link" href="/inzichten/freelance-ai-consultant-vs-agency-vs-big4">Lees de volledige vergelijking →</a>
+    </div>
+    <div class="table-wrap">
+      <div class="thead"><span>Criterium</span><b>Onafhankelijk</b><b>Agency</b><b>Big 4</b></div>
+      {rows.map((row) => (
+        <div class="trow"><span>{row[0]}</span><strong>{row[1]}</strong><span>{row[2]}</span><span>{row[3]}</span></div>
+      ))}
+    </div>
+  </div>
+</section>
+<style>
+.comparison{overflow:hidden}.comparison-grid{display:grid;grid-template-columns:.65fr 1.35fr;gap:54px;align-items:end}.comparison .eyebrow{color:var(--salmon)}.hand-note{margin-top:24px;font-family:'Caveat',cursive;text-transform:none;font-size:1.2rem;transform:rotate(-4deg)}.compare-link{display:inline-block;margin-top:26px;border-color:var(--mustard);color:var(--mustard)}.table-wrap{font-size:.87rem}.thead,.trow{display:grid;grid-template-columns:1.3fr repeat(3,1fr);align-items:center}.thead{border-bottom:1px solid rgba(255,255,255,.32);padding-bottom:14px}.thead span{padding-inline:12px;font-size:.76rem;color:#e4cfc9;text-transform:uppercase;letter-spacing:.06em}.thead b{color:var(--mustard);text-transform:uppercase;padding-inline:12px}.trow{border-bottom:1px solid rgba(255,255,255,.2);min-height:52px}.trow>*{padding:9px 12px}.trow strong{color:var(--mustard);border-inline:2px solid var(--mustard)}
+@media(max-width:800px){.comparison-grid{grid-template-columns:1fr;align-items:start}.table-wrap{overflow-x:auto}.thead,.trow{min-width:680px}}
+</style>

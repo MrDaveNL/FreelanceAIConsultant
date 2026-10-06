@@ -1,0 +1,29 @@
+---
+import LogoCarousel from './LogoCarousel.astro';
+import config from '../data/logo-carousel.json';
+
+// Plaatst de logo-carrousel direct na de hero van de pagina in de slot.
+// De hero is de eerste <section> of <header> waarin de H1 staat.
+// Uitzetten per pagina: logoCarousel={false} op BaseLayout, of het pad toevoegen aan verbergOp in src/data/logo-carousel.json.
+const { show = true } = Astro.props;
+
+const html = await Astro.slots.render('default');
+const path = Astro.url.pathname.replace(/\/$/, '') || '/';
+
+let at = -1;
+if (show && !config.verbergOp.includes(path)) {
+  const h1 = html.indexOf('<h1');
+  const close = h1 >= 0 ? /<\/(?:section|header)>/.exec(html.slice(h1)) : null;
+  if (close) at = h1 + close.index + close[0].length;
+  else console.warn(`[logo-carrousel] Geen hero met H1 gevonden op ${path}, carrousel niet geplaatst.`);
+}
+---
+{at < 0 ? (
+  <Fragment set:html={html} />
+) : (
+  <>
+    <Fragment set:html={html.slice(0, at)} />
+    <LogoCarousel />
+    <Fragment set:html={html.slice(at)} />
+  </>
+)}

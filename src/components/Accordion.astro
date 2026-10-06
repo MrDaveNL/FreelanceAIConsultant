@@ -1,0 +1,14 @@
+---
+const { items = [], name = 'faq' } = Astro.props;
+---
+<div class="accordion">
+  {items.map(([q, a]) => (
+    <details name={name}>
+      <summary>{q}<span aria-hidden="true">+</span></summary>
+      <p>{a}</p>
+    </details>
+  ))}
+</div>
+<style>
+.accordion details{border-top:1px solid var(--line);padding:16px 0}.accordion details:last-child{border-bottom:1px solid var(--line)}.accordion summary{list-style:none;cursor:pointer;font-weight:750;display:flex;justify-content:space-between;gap:20px;color:var(--burgundy)}.accordion summary::-webkit-details-marker{display:none}.accordion summary span{flex:0 0 auto;transition:transform .2s ease}.accordion details[open] summary span{transform:rotate(45deg)}.accordion p{max-width:760px;color:var(--muted);margin:12px 0 4px;font-size:.92rem}
+</style>

@@ -1,0 +1,12 @@
+---
+const { item } = Astro.props;
+---
+<a class="case-card card" href={`/cases/${item.slug}`} data-sector={item.sector}>
+  <div class="case-top"><span class="icon-dot">{item.icon}</span><span class="sector">{item.sector}</span></div>
+  <h3>{item.cardTitle}</h3>
+  <p><b>Uitdaging:</b><br/>{item.challenge}</p>
+  <div class:list={['result', `tone-${item.tone}`]}>{item.result}<span>→</span></div>
+</a>
+<style>
+.case-card{padding:24px;min-height:330px;display:flex;flex-direction:column;box-shadow:none;background:rgba(255,250,241,.45);transition:transform .2s ease,background .2s}.case-card:hover{transform:translateY(-4px);background:rgba(255,250,241,.84)}.case-top{display:flex;align-items:center;gap:13px}.sector{font-family:'Caveat',cursive;font-weight:700;text-transform:uppercase;color:var(--salmon);font-size:1.05rem}.case-card h3{font-size:1.5rem;line-height:1.02;letter-spacing:-.035em;color:var(--burgundy);margin:20px 0}.case-card p{font-size:.85rem}.result{margin-top:auto;padding:14px 16px;border-radius:10px;font-weight:700;display:flex;justify-content:space-between;gap:12px;align-items:center;font-size:.86rem}.tone-yellow{background:var(--mustard)}.tone-aqua{background:var(--aqua)}.tone-salmon{background:var(--salmon)}.tone-sand{background:var(--sand)}
+</style>

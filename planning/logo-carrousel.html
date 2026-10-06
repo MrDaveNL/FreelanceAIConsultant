@@ -1,0 +1,242 @@
+<!doctype html>
+<html lang="nl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Logo-carrousel: Europese merken die AI inzetten</title>
+<style>
+  /* Demo-pagina. Op de live site vervalt dit blok: het component erft het sitefont. */
+  body { margin: 0; background: #F8EFDF; font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; }
+
+  /* ---------- Component ---------- */
+  .aimerken {
+    --ink: #4A1A2B;
+    --cream: #F8EFDF;
+    --paper: #FCF7EC;
+    --mustard: #F2C132;
+    --coral: #F0826C;
+    --mint: #A9D9D0;
+    --gap: 16px;
+    color: var(--ink);
+    background: var(--cream);
+    padding: 72px 0 80px;
+    font-family: inherit;
+    overflow: hidden;
+  }
+  .aimerken__kop {
+    max-width: 1120px;
+    margin: 0 auto 36px;
+    padding: 0 24px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    gap: 24px;
+    flex-wrap: wrap;
+  }
+  .aimerken__label {
+    margin: 0 0 10px;
+    font-size: 12px;
+    font-style: italic;
+    font-weight: 700;
+    letter-spacing: .08em;
+    text-transform: uppercase;
+    color: var(--coral);
+  }
+  .aimerken__titel {
+    margin: 0;
+    font-size: clamp(28px, 4.2vw, 46px);
+    line-height: 1.08;
+    font-weight: 800;
+    letter-spacing: -.02em;
+    max-width: 18ch;
+  }
+  .aimerken__titel u {
+    text-decoration: underline;
+    text-decoration-color: var(--coral);
+    text-decoration-thickness: .12em;
+    text-underline-offset: .14em;
+  }
+  .aimerken__sub {
+    margin: 14px 0 0;
+    font-size: 15px;
+    line-height: 1.5;
+    max-width: 46ch;
+  }
+  .aimerken__pauze {
+    font: inherit;
+    font-size: 13px;
+    font-weight: 700;
+    color: var(--ink);
+    background: none;
+    border: 0;
+    border-bottom: 2px solid var(--ink);
+    padding: 0 0 3px;
+    cursor: pointer;
+  }
+  .aimerken__pauze:focus-visible,
+  .aimerken__kaart:focus-visible { outline: 3px solid var(--coral); outline-offset: 3px; }
+
+  .aimerken__baan { display: flex; width: max-content; animation: aimerken-loop var(--duur, 60s) linear infinite; }
+  .aimerken__baan:hover,
+  .aimerken__baan:focus-within,
+  .aimerken.is-gepauzeerd .aimerken__baan { animation-play-state: paused; }
+  @keyframes aimerken-loop { to { transform: translateX(-50%); } }
+
+  .aimerken__lijst {
+    display: flex;
+    gap: var(--gap);
+    padding: 4px var(--gap) 8px 0;
+    margin: 0;
+    list-style: none;
+  }
+  .aimerken__kaart {
+    display: flex;
+    flex-direction: column;
+    width: 232px;
+    height: 100%;
+    box-sizing: border-box;
+    padding: 20px 18px 16px;
+    border: 1.5px solid var(--ink);
+    border-radius: 12px;
+    background: var(--paper);
+    color: inherit;
+    text-decoration: none;
+  }
+  .aimerken__lijst li:nth-child(4n+1) .aimerken__kaart { background: var(--mustard); }
+  .aimerken__lijst li:nth-child(4n+2) .aimerken__kaart { background: var(--mint); }
+  .aimerken__lijst li:nth-child(4n+3) .aimerken__kaart { background: var(--coral); }
+
+  .aimerken__logo { height: 40px; display: flex; align-items: center; }
+  .aimerken__logo-svg {
+    width: 150px;
+    height: 34px;
+    background: var(--ink);
+    -webkit-mask: var(--src) left center / contain no-repeat;
+            mask: var(--src) left center / contain no-repeat;
+  }
+  .aimerken__logo-kleur { max-width: 150px; max-height: 34px; display: block; }
+  .aimerken__woordmerk { font-size: 22px; font-weight: 800; letter-spacing: -.02em; white-space: nowrap; }
+
+  .aimerken__land {
+    margin: 18px 0 6px;
+    padding-top: 12px;
+    border-top: 1.5px solid var(--ink);
+    font-size: 12px;
+    font-weight: 700;
+  }
+  .aimerken__toepassing { margin: 0; font-size: 13.5px; line-height: 1.4; }
+
+  @media (prefers-reduced-motion: reduce) {
+    .aimerken__baan { animation: none; width: auto; overflow-x: auto; scroll-snap-type: x mandatory; padding-left: 24px; }
+    .aimerken__lijst li { scroll-snap-align: start; }
+    .aimerken__lijst[aria-hidden="true"], .aimerken__pauze { display: none; }
+  }
+</style>
+</head>
+<body>
+
+<section class="aimerken" aria-labelledby="aimerken-titel">
+  <div class="aimerken__kop">
+    <div>
+      <p class="aimerken__label">AI in Europa</p>
+      <h2 class="aimerken__titel" id="aimerken-titel">Europese merken die AI al <u>in productie</u> hebben.</h2>
+      <p class="aimerken__sub">Geen klanten van mij. Wel voorbeelden van wat er gebeurt als AI voorbij de pilot komt.</p>
+    </div>
+    <button class="aimerken__pauze" type="button" aria-pressed="false">Pauzeer</button>
+  </div>
+  <div class="aimerken__baan"></div>
+</section>
+
+<script>
+(function () {
+  /*
+    Per merk:
+    logo  = pad naar het officiele SVG-bestand (uit de press kit van het merk).
+            Bestaat het bestand niet, dan toont de kaart de merknaam als woordmerk.
+    mono  = true kleurt het logo in de sitekleur, false toont de originele kleuren.
+    bron  = URL naar persbericht of case. Leeg = kaart is niet klikbaar.
+  */
+  var MONO = true;
+  var MERKEN = [
+    { naam: "Klarna",        land: "Zweden",     toepassing: "AI-assistent in de klantenservice",        logo: "logos/klarna.svg",        bron: "" },
+    { naam: "Zalando",       land: "Duitsland",  toepassing: "Mode-assistent voor productadvies",        logo: "logos/zalando.svg",       bron: "" },
+    { naam: "Booking.com",   land: "Nederland",  toepassing: "AI Trip Planner voor reisplanning",        logo: "logos/booking.svg",       bron: "" },
+    { naam: "Siemens",       land: "Duitsland",  toepassing: "Industrial Copilot voor engineering",      logo: "logos/siemens.svg",       bron: "" },
+    { naam: "Spotify",       land: "Zweden",     toepassing: "AI DJ en gepersonaliseerde playlists",     logo: "logos/spotify.svg",       bron: "" },
+    { naam: "Mercedes-Benz", land: "Duitsland",  toepassing: "Generatieve spraakassistent in de auto",   logo: "logos/mercedes-benz.svg", bron: "" },
+    { naam: "ING",           land: "Nederland",  toepassing: "Generatieve chatbot voor klantvragen",     logo: "logos/ing.svg",           bron: "" },
+    { naam: "L'Oréal",       land: "Frankrijk",  toepassing: "Beauty Genius: persoonlijk advies",        logo: "logos/loreal.svg",        bron: "" },
+    { naam: "SAP",           land: "Duitsland",  toepassing: "Joule: copilot in bedrijfssoftware",       logo: "logos/sap.svg",           bron: "" },
+    { naam: "Carrefour",     land: "Frankrijk",  toepassing: "Hopla: boodschappenassistent",             logo: "logos/carrefour.svg",     bron: "" },
+    { naam: "Adyen",         land: "Nederland",  toepassing: "AI-optimalisatie van betalingen",          logo: "logos/adyen.svg",         bron: "" },
+    { naam: "Philips",       land: "Nederland",  toepassing: "AI in medische beeldvorming",              logo: "logos/philips.svg",       bron: "" }
+  ];
+
+  var sectie = document.querySelector(".aimerken");
+  var baan = sectie.querySelector(".aimerken__baan");
+
+  function el(tag, cls, tekst) {
+    var n = document.createElement(tag);
+    if (cls) n.className = cls;
+    if (tekst) n.textContent = tekst;
+    return n;
+  }
+
+  function maakLogo(m) {
+    var houder = el("div", "aimerken__logo");
+    var woordmerk = el("span", "aimerken__woordmerk", m.naam);
+    houder.appendChild(woordmerk);
+    if (!m.logo) return houder;
+    var test = new Image();
+    test.onload = function () {
+      var logo;
+      if (MONO) {
+        logo = el("span", "aimerken__logo-svg");
+        logo.style.setProperty("--src", 'url("' + m.logo + '")');
+        logo.setAttribute("role", "img");
+        logo.setAttribute("aria-label", m.naam);
+      } else {
+        logo = el("img", "aimerken__logo-kleur");
+        logo.src = m.logo;
+        logo.alt = m.naam;
+      }
+      houder.replaceChild(logo, woordmerk);
+    };
+    test.src = m.logo;
+    return houder;
+  }
+
+  function maakLijst(verborgen) {
+    var ul = el("ul", "aimerken__lijst");
+    if (verborgen) ul.setAttribute("aria-hidden", "true");
+    MERKEN.forEach(function (m) {
+      var li = el("li");
+      var kaart = el(m.bron ? "a" : "div", "aimerken__kaart");
+      if (m.bron) {
+        kaart.href = m.bron;
+        kaart.rel = "noopener";
+        if (verborgen) kaart.tabIndex = -1;
+      }
+      kaart.appendChild(maakLogo(m));
+      kaart.appendChild(el("p", "aimerken__land", m.land));
+      kaart.appendChild(el("p", "aimerken__toepassing", m.toepassing));
+      li.appendChild(kaart);
+      ul.appendChild(li);
+    });
+    return ul;
+  }
+
+  baan.appendChild(maakLijst(false));
+  baan.appendChild(maakLijst(true));
+  baan.style.setProperty("--duur", MERKEN.length * 5 + "s");
+
+  var knop = sectie.querySelector(".aimerken__pauze");
+  knop.addEventListener("click", function () {
+    var uit = sectie.classList.toggle("is-gepauzeerd");
+    knop.setAttribute("aria-pressed", String(uit));
+    knop.textContent = uit ? "Speel af" : "Pauzeer";
+  });
+})();
+</script>
+</body>
+</html>

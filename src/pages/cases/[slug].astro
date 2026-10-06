@@ -1,0 +1,135 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import HeroPortrait from '../../components/HeroPortrait.astro';
+import CTA from '../../components/CTA.astro';
+import { cases, getCase } from '../../data/cases.js';
+import { getService } from '../../data/services.js';
+import { site, seoTitle } from '../../data/site.js';
+
+export function getStaticPaths() {
+  return cases.map((item) => ({ params: { slug: item.slug }, props: { item } }));
+}
+
+const { item } = Astro.props;
+const service = getService(item.serviceSlug);
+const next = getCase(item.next);
+
+const schema = {
+  '@context': 'https://schema.org',
+  '@type': 'Article',
+  headline: item.cardTitle,
+  description: item.lede,
+  author: { '@type': 'Person', name: site.name, url: site.url },
+  publisher: { '@type': 'Person', name: site.name },
+  about: item.sector,
+};
+---
+<BaseLayout
+  title={seoTitle(item.metaTitle ?? `Case: ${item.cardTitle}`)}
+  description={item.metaDescription ?? item.lede}
+  schema={schema}
+>
+  <article>
+    <section class="case-hero section-sm">
+      <div class="container case-hero-grid">
+        <div>
+          <a class="back" href="/cases">← Terug naar cases</a>
+          <p class="eyebrow">{item.sector}</p>
+          <h1 class="h1"><span class="marker">{item.titleMarked}</span><br/>{item.titleRest}</h1>
+          <p class="lede">{item.lede}</p>
+          <div class="tags">
+            <span>Sector: {item.sector}</span>
+            <span>Dienst: {item.service}</span>
+            <span>Duur: {item.duration}</span>
+            <span>Jaar: {item.year}</span>
+          </div>
+        </div>
+        <div class="proof-panel">
+          <p class="eyebrow">Bewijs in cijfers</p>
+          {item.proof.map(([value, label]) => (
+            <div class="proof"><span class="icon-dot" aria-hidden="true">✓</span><b>{value}</b><small>{label}</small></div>
+          ))}
+        </div>
+      </div>
+    </section>
+
+    <section class="section-sm">
+      <div class="container visual-case">
+        <div class="portrait"><HeroPortrait compact={true} /></div>
+        <div class="sticker sticker--yellow">Focus op waarde</div>
+        <div class="sticker sticker--salmon">Geen hype<br/>wel impact</div>
+      </div>
+    </section>
+
+    <section class="section-sm">
+      <div class="container story-grid">
+        <div class="story">
+          {item.story.map(([title, body], i) => (
+            <div class="story-row">
+              <span class="icon-dot" aria-hidden="true">{i + 1}</span>
+              <div><p class="eyebrow">{title}</p><p>{body}</p></div>
+            </div>
+          ))}
+        </div>
+        <aside>
+          <div class="quote-card">“{item.quote.text}”<small>{item.quote.author}</small></div>
+          <div class="role card">
+            <p class="eyebrow">Mijn rol</p>
+            <ul>{item.role.map((line) => <li>{line}</li>)}</ul>
+          </div>
+          {service && (
+            <a class="service-link card" href={`/diensten/${service.slug}`}>
+              <p class="eyebrow">Ingezette dienst</p>
+              <b>{service.title}</b>
+              <small>{service.timing} · {service.price}</small>
+              <span>Bekijk deze dienst →</span>
+            </a>
+          )}
+        </aside>
+      </div>
+    </section>
+
+    {next && (
+      <section class="section-sm next-case">
+        <div class="container next-box">
+          <div><p class="eyebrow">Volgende case</p><h2 class="h2">{next.cardTitle}</h2><p>{next.challenge}</p></div>
+          <a class="btn" href={`/cases/${next.slug}`}>Lees de case →</a>
+        </div>
+      </section>
+    )}
+
+    <CTA title="Laten we jouw case bespreken." body="Vrijblijvend sparren over jouw uitdaging, de mogelijkheden en de beste volgende stap." />
+  </article>
+</BaseLayout>
+<style>
+.case-hero{padding-top:54px}
+.case-hero-grid{display:grid;grid-template-columns:1.25fr .75fr;gap:60px}
+.tags{display:flex;gap:12px;flex-wrap:wrap;margin-top:24px}
+.tags span{padding:8px 12px;background:rgba(255,250,241,.66);border:1px solid var(--line);border-radius:999px;font-size:.76rem}
+.proof-panel{padding-top:55px}
+.proof{display:grid;grid-template-columns:auto .55fr 1fr;gap:15px;align-items:center;padding:15px 0;border-bottom:1px solid var(--line)}
+.proof b{font-size:1.65rem;color:var(--burgundy)}
+.proof small{font-size:.76rem}
+.visual-case{position:relative;min-height:420px;background:color-mix(in srgb,var(--sand) 32%,transparent);border-radius:18px;overflow:hidden}
+.portrait{width:56%;margin:auto}
+.visual-case>.sticker{position:absolute;right:12%;top:24%}
+.visual-case>.sticker:last-child{top:43%;right:8%}
+.story-grid{display:grid;grid-template-columns:1.4fr .6fr;gap:50px}
+.story-row{display:grid;grid-template-columns:auto 1fr;gap:20px;padding:20px 0;border-bottom:1px solid var(--line)}
+.story-row .eyebrow{margin:0}
+.story-row p:last-child{margin:4px 0 0}
+.quote-card{background:var(--aqua);border-radius:18px;padding:30px;font-family:'Caveat',cursive;font-size:1.42rem;line-height:1.14;color:var(--burgundy)}
+.quote-card small{display:block;margin-top:18px;font-family:'Space Grotesk',sans-serif;font-size:.72rem}
+.role{margin-top:22px;padding:26px;box-shadow:none}
+.role ul{padding-left:18px;margin:0}
+.role li{font-size:.86rem;margin:8px 0}
+.service-link{display:block;margin-top:22px;padding:26px;box-shadow:none;background:var(--mustard);border-color:rgba(74,31,42,.12);transition:transform .2s ease}
+.service-link:hover{transform:translateY(-3px)}
+.service-link b{display:block;color:var(--burgundy);font-size:1.15rem}
+.service-link small{display:block;margin-top:6px;font-size:.76rem}
+.service-link span{display:block;margin-top:14px;font-weight:800;font-size:.8rem}
+.next-case{background:var(--cream-2)}
+.next-box{display:grid;grid-template-columns:1fr auto;gap:34px;align-items:center}
+.next-box p:last-of-type{margin:12px 0 0;max-width:620px;font-size:.9rem}
+@media(max-width:850px){.case-hero-grid,.story-grid,.next-box{grid-template-columns:1fr}.proof-panel{padding-top:0}.portrait{width:90%}}
+</style>

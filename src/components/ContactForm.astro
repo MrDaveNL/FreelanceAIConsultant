@@ -1,0 +1,184 @@
+---
+import { site } from '../data/site.js';
+
+const endpoint = site.formEndpoint || (site.formAccessKey ? 'https://api.web3forms.com/submit' : '');
+---
+<form class="contact-form" data-contact-form data-endpoint={endpoint} data-access-key={site.formAccessKey} data-site={site.domain} data-mailto={site.email} novalidate>
+  <div class="field">
+    <label for="name">Naam <span aria-hidden="true">*</span></label>
+    <input id="name" name="name" autocomplete="name" required />
+    <small class="error" data-error-for="name" hidden>Vul je naam in.</small>
+  </div>
+  <div class="field">
+    <label for="role">Functie</label>
+    <input id="role" name="role" autocomplete="organization-title" placeholder="Bijv. CIO, CFO, AI-lead" />
+  </div>
+  <div class="field">
+    <label for="company">Organisatie</label>
+    <input id="company" name="company" autocomplete="organization" />
+  </div>
+  <div class="field">
+    <label for="email">E-mailadres <span aria-hidden="true">*</span></label>
+    <input id="email" name="email" type="email" autocomplete="email" required />
+    <small class="error" data-error-for="email" hidden>Vul een geldig e-mailadres in.</small>
+  </div>
+  <div class="field full">
+    <label for="challenge">Waar loop je tegenaan? <span aria-hidden="true">*</span></label>
+    <textarea id="challenge" name="challenge" rows="5" required placeholder="Beschrijf kort je uitdaging of vraagstuk."></textarea>
+    <small class="error" data-error-for="challenge" hidden>Beschrijf kort je vraagstuk.</small>
+  </div>
+  <div class="field">
+    <label for="timeline">Tijdlijn</label>
+    <select id="timeline" name="timeline">
+      <option value="">Kies een termijn</option>
+      <option>Zo snel mogelijk</option>
+      <option>0–3 maanden</option>
+      <option>3–6 maanden</option>
+      <option>6+ maanden</option>
+      <option>Nog oriënterend</option>
+    </select>
+  </div>
+  <div class="field">
+    <label for="budget">Budgetindicatie</label>
+    <select id="budget" name="budget">
+      <option value="">Kies een range</option>
+      <option>Tot €10k</option>
+      <option>€10–25k</option>
+      <option>€25–50k</option>
+      <option>€50k+</option>
+      <option>Nog niet bekend</option>
+    </select>
+  </div>
+  <div class="field full hp" aria-hidden="true">
+    <label for="company-website">Laat dit veld leeg</label>
+    <input id="company-website" name="company-website" tabindex="-1" autocomplete="off" />
+  </div>
+  <button class="btn" type="submit">Verstuur aanvraag →</button>
+  <p class="form-note full">Je krijgt binnen één werkdag antwoord. Liever direct mailen? <a href={`mailto:${site.email}`}>{site.email}</a></p>
+  <p class="form-status full" data-form-status role="status" hidden></p>
+</form>
+<script>
+  document.querySelectorAll('[data-contact-form]').forEach((form) => {
+    const status = form.querySelector('[data-form-status]');
+    const endpoint = form.getAttribute('data-endpoint');
+    const accessKey = form.getAttribute('data-access-key');
+    const siteName = form.getAttribute('data-site');
+    const mailto = form.getAttribute('data-mailto');
+
+    const showError = (field, show) => {
+      const hint = form.querySelector(`[data-error-for="${field.name}"]`);
+      if (hint) hint.hidden = !show;
+      field.setAttribute('aria-invalid', show ? 'true' : 'false');
+    };
+
+    const validate = () => {
+      let firstInvalid = null;
+      form.querySelectorAll('[required]').forEach((field) => {
+        const invalid = !field.value.trim() || (field.type === 'email' && !field.checkValidity());
+        showError(field, invalid);
+        if (invalid && !firstInvalid) firstInvalid = field;
+      });
+      return firstInvalid;
+    };
+
+    form.querySelectorAll('[required]').forEach((field) => {
+      field.addEventListener('blur', () => {
+        const invalid = !field.value.trim() || (field.type === 'email' && !field.checkValidity());
+        showError(field, invalid);
+      });
+    });
+
+    form.addEventListener('submit', async (event) => {
+      event.preventDefault();
+      if (form.querySelector('[name="company-website"]').value) return; // honeypot
+
+      const firstInvalid = validate();
+      if (firstInvalid) {
+        firstInvalid.focus();
+        return;
+      }
+
+      const data = Object.fromEntries(new FormData(form).entries());
+      delete data['company-website'];
+      const button = form.querySelector('button[type="submit"]');
+
+      if (endpoint) {
+        button.disabled = true;
+        const original = button.textContent;
+        button.textContent = 'Versturen…';
+        // De sleutels zijn de labels in de e-mail die binnenkomt; name en email bepalen afzender en reply-to.
+        const payload = {
+          subject: `Aanvraag via ${siteName}: ${data.name}${data.company ? ` (${data.company})` : ''}`,
+          from_name: data.name,
+          name: data.name,
+          email: data.email,
+          Functie: data.role || '-',
+          Organisatie: data.company || '-',
+          Tijdlijn: data.timeline || '-',
+          Budgetindicatie: data.budget || '-',
+          Vraagstuk: data.challenge,
+        };
+        if (accessKey) payload.access_key = accessKey;
+        try {
+          const response = await fetch(endpoint, {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json', Accept: 'application/json' },
+            body: JSON.stringify(payload),
+          });
+          if (!response.ok) throw new Error(String(response.status));
+          const result = await response.json().catch(() => ({}));
+          if (result.success === false) throw new Error(result.message);
+          form.reset();
+          status.hidden = false;
+          status.className = 'form-status full is-ok';
+          status.textContent = 'Dank je. Je aanvraag is verstuurd. Je krijgt binnen één werkdag antwoord.';
+        } catch {
+          status.hidden = false;
+          status.className = 'form-status full is-error';
+          status.innerHTML = `Verzenden lukte niet. Mail je vraag gerust rechtstreeks naar <a href="mailto:${mailto}">${mailto}</a>.`;
+        } finally {
+          button.disabled = false;
+          button.textContent = original;
+        }
+        return;
+      }
+
+      // Geen endpoint geconfigureerd: open een vooringevulde e-mail.
+      const lines = [
+        `Naam: ${data.name}`,
+        `Functie: ${data.role || '-'}`,
+        `Organisatie: ${data.company || '-'}`,
+        `E-mail: ${data.email}`,
+        `Tijdlijn: ${data.timeline || '-'}`,
+        `Budgetindicatie: ${data.budget || '-'}`,
+        '',
+        'Vraagstuk:',
+        data.challenge,
+      ].join('\n');
+      const href = `mailto:${mailto}?subject=${encodeURIComponent(`Aanvraag via ${siteName}`)}&body=${encodeURIComponent(lines)}`;
+      window.location.href = href;
+      status.hidden = false;
+      status.className = 'form-status full is-ok';
+      status.textContent = 'Je e-mailprogramma opent met een vooringevuld bericht. Verstuur het om je aanvraag af te ronden.';
+    });
+  });
+</script>
+<style>
+.contact-form{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+.field{display:flex;flex-direction:column;gap:6px}
+.full{grid-column:1/-1}
+.field label{font-size:.78rem;font-weight:800;color:var(--burgundy)}
+.field label span{color:var(--salmon)}
+input,textarea,select{width:100%;border:1px solid rgba(74,31,42,.22);background:rgba(255,250,241,.72);padding:13px 14px;border-radius:7px;color:var(--ink);outline:none}
+input:focus,textarea:focus,select:focus{border-color:var(--burgundy);box-shadow:0 0 0 3px rgba(239,124,108,.18)}
+[aria-invalid='true']{border-color:#b3413a}
+.error{color:#b3413a;font-size:.74rem;font-weight:600}
+.hp{position:absolute;left:-9999px;width:1px;height:1px;overflow:hidden}
+button{width:max-content;margin-top:8px}
+.form-note{font-size:.78rem;color:var(--muted);margin:0}
+.form-note a{border-bottom:1px solid var(--line)}
+.form-status{margin:0;padding:14px 16px;border-radius:9px;font-size:.86rem;font-weight:600}
+.form-status.is-ok{background:var(--aqua);color:var(--burgundy-deep)}
+.form-status.is-error{background:var(--salmon);color:var(--burgundy-deep)}
+@media(max-width:600px){.contact-form{grid-template-columns:1fr}.full{grid-column:auto}}
+</style>

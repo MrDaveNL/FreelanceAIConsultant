@@ -1,0 +1,17 @@
+---
+const { items = [] } = Astro.props;
+---
+<section class="metrics">
+  <div class="container metrics-grid">
+    {items.map((item) => (
+      <div class="metric">
+        <span class="icon-dot" aria-hidden="true">{item.icon ?? '✓'}</span>
+        <div><strong>{item.value}</strong><small>{item.label}</small></div>
+      </div>
+    ))}
+  </div>
+</section>
+<style>
+.metrics{padding:28px 0 32px;background:color-mix(in srgb,var(--sand) 42%,var(--cream));border-block:1px solid rgba(74,31,42,.07)}.metrics-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:20px}.metric{display:flex;align-items:center;gap:14px}.metric strong{display:block;color:var(--burgundy);font-size:1.7rem;letter-spacing:-.04em}.metric small{display:block;max-width:160px;font-size:.76rem;line-height:1.2;color:#51423f}
+@media(max-width:760px){.metrics-grid{grid-template-columns:1fr 1fr}.metric strong{font-size:1.35rem}}@media(max-width:480px){.metrics-grid{grid-template-columns:1fr}}
+</style>

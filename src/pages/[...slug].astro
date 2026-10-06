@@ -1,0 +1,255 @@
+---
+import { getCollection, render } from 'astro:content';
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Accordion from '../components/Accordion.astro';
+import CTA from '../components/CTA.astro';
+import { site } from '../data/site.js';
+import { services } from '../data/services.js';
+import { protectedUrls } from '../data/protected-urls.js';
+import '../styles/content-pages.css';
+
+export async function getStaticPaths() {
+  const entries = await getCollection('pages');
+  const seen = new Set();
+  for (const entry of entries) {
+    const { url, id } = entry.data;
+    if (protectedUrls.includes(url)) throw new Error(`${id} probeert bestaande URL ${url} te genereren.`);
+    if (seen.has(url)) throw new Error(`Dubbele URL in content: ${url}`);
+    seen.add(url);
+  }
+  return entries.map((entry) => ({
+    params: { slug: entry.data.url.slice(1) },
+    props: { entry, all: entries },
+  }));
+}
+
+const { entry, all } = Astro.props;
+// Prijstokens ({{price:slug}} e.d.) ook buiten de Markdown-body vervangen (zie astro.config.mjs).
+const tokenize = (text) =>
+  text.replace(/\{\{(price|pricelc|timing|title):([a-z0-9-]+)\}\}/g, (_, field, slug) => {
+    const service = services.find((s) => s.slug === slug);
+    if (!service) throw new Error(`Onbekende dienst in token: ${slug}`);
+    const value = service[field === 'pricelc' ? 'price' : field];
+    return field === 'pricelc' ? value.charAt(0).toLowerCase() + value.slice(1) : value;
+  });
+const page = {
+  ...entry.data,
+  lede: tokenize(entry.data.lede),
+  summary: entry.data.summary?.map(tokenize),
+  faq: entry.data.faq?.map(({ q, a }) => ({ q: tokenize(q), a: tokenize(a) })),
+};
+const { Content } = await render(entry);
+const byUrl = new Map(all.map((e) => [e.data.url, e.data]));
+const pageUrl = `${site.url}${page.url}`;
+const isArticle = page.schema === 'article' || page.schema === 'collection';
+
+// Breadcrumbs volgen de URL-structuur.
+const segments = page.url.split('/').filter(Boolean);
+const crumbs = [{ href: '/', label: 'Home' }];
+segments.slice(0, -1).forEach((_, i) => {
+  const href = `/${segments.slice(0, i + 1).join('/')}`;
+  const match = byUrl.get(href);
+  if (match) crumbs.push({ href, label: match.navLabel });
+});
+
+const formatDate = (iso) =>
+  new Date(`${iso}T12:00:00`).toLocaleDateString('nl-NL', { day: 'numeric', month: 'long', year: 'numeric' });
+
+// Kennisbank-overzicht (P08): artikelen gegroepeerd per onderwerp.
+const kbCategories = [
+  ['AI consultancy en strategie', ['C1', 'C4']],
+  ['AI implementatie', ['C2', 'C5']],
+  ['AI automatisering', ['C3']],
+  ['AI agents', ['C6']],
+  ['AI beleid en AI Act', ['C8']],
+  ['AI tools', ['C10']],
+];
+const categoryOf = (p) => {
+  if (p.id === 'C3-05') return 'AI tools';
+  const prefix = p.id.split('-')[0];
+  return kbCategories.find(([, prefixes]) => prefixes.includes(prefix))?.[0];
+};
+const articles = all
+  .map((e) => e.data)
+  .filter((p) => p.schema === 'article' && categoryOf(p))
+  .sort((a, b) => (a.published < b.published ? 1 : a.published > b.published ? -1 : a.id.localeCompare(b.id)));
+const featuredIds = ['C2-03', 'C6-01', 'C3-06'];
+const featured = featuredIds.map((id) => articles.find((p) => p.id === id)).filter(Boolean);
+const newest = [...articles].sort((a, b) => (a.updated < b.updated ? 1 : -1)).slice(0, 6);
+
+// Structured data.
+const person = { '@type': 'Person', name: site.name, jobTitle: site.roleNl, url: `${site.url}/over`, sameAs: [site.linkedin] };
+const graph = [
+  {
+    '@type': 'BreadcrumbList',
+    itemListElement: [...crumbs, { href: page.url, label: page.navLabel }].map((c, i) => ({
+      '@type': 'ListItem',
+      position: i + 1,
+      name: c.label,
+      item: `${site.url}${c.href === '/' ? '/' : c.href}`,
+    })),
+  },
+];
+const parsePrice = (price) => {
+  const nums = price.match(/[\d.]+/g).map((n) => Number(n.replace(/\./g, '')));
+  const spec = { '@type': 'PriceSpecification', priceCurrency: 'EUR', valueAddedTaxIncluded: false };
+  if (/vanaf/i.test(price)) Object.assign(spec, { minPrice: nums[0] });
+  else if (nums.length > 1) Object.assign(spec, { minPrice: nums[0], maxPrice: nums[nums.length - 1] });
+  else Object.assign(spec, { price: nums[0] });
+  if (/maand/i.test(price)) spec.unitText = 'MONTH';
+  return spec;
+};
+if (page.schema === 'service') {
+  graph.push({ '@type': 'Service', name: page.navLabel, serviceType: page.keyphrase, description: page.metaDescription, url: pageUrl, areaServed: 'NL', provider: person });
+} else if (page.schema === 'pricing') {
+  graph.push({
+    '@type': 'Service',
+    name: 'AI consultancy',
+    description: page.metaDescription,
+    url: pageUrl,
+    provider: person,
+    hasOfferCatalog: {
+      '@type': 'OfferCatalog',
+      name: 'Pakketten en vanaf-prijzen',
+      itemListElement: services.map((s) => ({
+        '@type': 'Offer',
+        itemOffered: { '@type': 'Service', name: s.title, url: `${site.url}/diensten/${s.slug}` },
+        priceSpecification: parsePrice(s.price),
+      })),
+    },
+  });
+} else if (page.schema === 'collection') {
+  graph.push({
+    '@type': 'CollectionPage',
+    name: page.title,
+    description: page.metaDescription,
+    url: pageUrl,
+    hasPart: articles.map((p) => ({ '@type': 'Article', headline: p.title, url: `${site.url}${p.url}` })),
+  });
+} else {
+  graph.push({
+    '@type': 'Article',
+    headline: page.title,
+    description: page.metaDescription,
+    inLanguage: 'nl-NL',
+    datePublished: page.published,
+    dateModified: page.updated,
+    author: person,
+    publisher: { '@type': 'Person', name: site.name },
+    mainEntityOfPage: pageUrl,
+  });
+}
+if (page.faq?.length) {
+  graph.push({
+    '@type': 'FAQPage',
+    mainEntity: page.faq.map(({ q, a }) => ({ '@type': 'Question', name: q, acceptedAnswer: { '@type': 'Answer', text: a } })),
+  });
+}
+const schema = { '@context': 'https://schema.org', '@graph': graph };
+---
+<BaseLayout title={page.metaTitle} description={page.metaDescription} schema={schema} noindex={page.noindex ? 'noindex, follow' : false}>
+  <article class="cp">
+    <header class="cp-hero">
+      <div class="container cp-hero-grid">
+        <div>
+          <nav class="crumbs" aria-label="Kruimelpad">
+            <ol>
+              {crumbs.map((c) => <li><a href={c.href}>{c.label}</a></li>)}
+              <li aria-current="page">{page.navLabel}</li>
+            </ol>
+          </nav>
+          <p class="eyebrow">{page.eyebrow}</p>
+          <h1 class="cp-h1">{page.title}</h1>
+          <p class="lede">{page.lede}</p>
+          <div class="cp-actions">
+            <a class="btn" href={page.primaryCta.href}>{page.primaryCta.label} →</a>
+            {page.secondaryCta && <a class="text-link" href={page.secondaryCta.href}>{page.secondaryCta.label} →</a>}
+          </div>
+          {isArticle && (
+            <p class="cp-meta">
+              Geschreven door <a href="/over">{site.name}</a>, onafhankelijk AI consultant ·
+              gepubliceerd <time datetime={page.published}>{formatDate(page.published)}</time>
+              {page.updated !== page.published && <> · bijgewerkt <time datetime={page.updated}>{formatDate(page.updated)}</time></>}
+            </p>
+          )}
+        </div>
+        {page.summary?.length ? (
+          <div class="sticky-note cp-note">
+            <p class="hand">IN HET KORT</p>
+            <ul>{page.summary.map((line) => <li>{line}</li>)}</ul>
+          </div>
+        ) : <div />}
+      </div>
+    </header>
+
+    <section class="section-sm">
+      <div class="container cp-grid">
+        <div class="prose">
+          <Content />
+
+          {page.id === 'P08' && (
+            <>
+              <h2 id="uitgelicht">Uitgelichte artikelen</h2>
+              <div class="kb-grid">
+                {featured.map((p) => (
+                  <a class="kb-card card" href={p.url}><span class="kb-cat">{categoryOf(p)}</span><b>{p.title}</b><span>{p.metaDescription}</span></a>
+                ))}
+              </div>
+              <h2 id="onderwerpen">Onderwerpen</h2>
+              {kbCategories.map(([label]) => {
+                const items = articles.filter((p) => categoryOf(p) === label);
+                return items.length > 0 && (
+                  <>
+                    <h3>{label}</h3>
+                    <ul class="kb-list">{items.map((p) => <li><a href={p.url}>{p.title}</a></li>)}</ul>
+                  </>
+                );
+              })}
+              <h2 id="nieuwste">Nieuwste artikelen</h2>
+              <ul class="kb-list">
+                {newest.map((p) => <li><a href={p.url}>{p.title}</a> <span class="muted">· {formatDate(p.updated)}</span></li>)}
+              </ul>
+            </>
+          )}
+        </div>
+
+        <aside class="cp-aside">
+          <div class="expert card">
+            <img src={site.portrait} alt={`Portret van ${site.name}`} width="88" height="88" loading="lazy" decoding="async" />
+            <div>
+              <b>{site.name}</b>
+              <span>{site.roleNl}</span>
+            </div>
+            <p>Onafhankelijk: geen commissies, geen partnerdeals, geen marge op implementatiepartners.</p>
+            <a class="text-link" href="/over">Over mij</a>
+            {page.url !== '/partnernetwerk' && <a class="text-link" href="/partnernetwerk">Mijn partnernetwerk</a>}
+          </div>
+          <a class="aside-cta card" href="/diensten/ai-readiness-assessment">
+            <b>Weten waar je staat met AI?</b>
+            <span>Bekijk de AI Readiness Assessment →</span>
+          </a>
+        </aside>
+      </div>
+    </section>
+
+    {page.faq?.length > 0 && (
+      <section class="section-sm cp-faq">
+        <div class="container cp-narrow">
+          <h2 class="h3">{page.faqTitle ?? 'Veelgestelde vragen'}</h2>
+          <Accordion items={page.faq.map(({ q, a }) => [q, a])} name={`faq-${page.id}`} />
+        </div>
+      </section>
+    )}
+
+    {page.sources?.length > 0 && (
+      <section class="section-sm cp-sources">
+        <div class="container cp-narrow">
+          <h2 class="h3">Bronnen</h2>
+          <ul>{page.sources.map((s) => <li><a href={s.url} rel="noopener" target="_blank">{s.title}</a></li>)}</ul>
+        </div>
+      </section>
+    )}
+
+    <CTA title="Van AI-ambitie naar concrete resultaten." />
+  </article>
+</BaseLayout>

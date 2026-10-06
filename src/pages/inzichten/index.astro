@@ -1,0 +1,70 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import PageHero from '../../components/PageHero.astro';
+import ArticleCard from '../../components/ArticleCard.astro';
+import FilterBar from '../../components/FilterBar.astro';
+import Newsletter from '../../components/Newsletter.astro';
+import { articles, featuredArticle, articleCategories } from '../../data/articles/index.js';
+---
+<BaseLayout
+  title="Inzichten | Freelance AI Consultant"
+  description="Praktische artikelen over AI-strategie, use cases, governance, datafundament en vendorselectie. Geschreven voor senior leiders die moeten beslissen."
+>
+  <PageHero
+    compact
+    eyebrow="AI-advies dat je helpt beslissen"
+    title="Praktische inzichten voor betere AI-beslissingen."
+    marked="inzichten"
+    body={`Ervaringen uit de praktijk, frameworks en no-nonsense advies voor senior leiders die AI willen inzetten met impact. ${articles.length} artikelen, geen enkele geschreven om iets te verkopen.`}
+    cta="Plan een gesprek"
+    secondary="Bekijk cases"
+    secondaryHref="/cases"
+  />
+
+  <section class="section-sm">
+    <div class="container feature card">
+      <div class="feature-art" aria-hidden="true">
+        <span class="bubble salmon">Freelance AI consultant</span>
+        <span class="bubble aqua">Agency</span>
+        <span class="bubble yellow">Big 4</span>
+      </div>
+      <div>
+        <p class="eyebrow">Uitgelicht artikel</p>
+        <h2 class="h2">{featuredArticle.title}</h2>
+        <p>{featuredArticle.excerpt}</p>
+        <div class="feature-meta">◷ {featuredArticle.readingTime} <span>{featuredArticle.dateLabel}</span></div>
+        <a class="text-link" href={`/inzichten/${featuredArticle.slug}`}>Lees artikel →</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section-sm">
+    <div class="container">
+      <FilterBar filters={articleCategories} target="#article-grid" />
+    </div>
+  </section>
+
+  <section class="section-sm">
+    <div class="container">
+      <div class="section-head"><h2 class="h3">Alle artikelen</h2><span class="count">{articles.length} artikelen · <a href="/rss.xml">RSS</a></span></div>
+      <div class="grid-4 articles" id="article-grid">
+        {articles.map((item) => <ArticleCard item={item} />)}
+      </div>
+    </div>
+  </section>
+
+  <Newsletter />
+</BaseLayout>
+<style>
+.feature{display:grid;grid-template-columns:.8fr 1.2fr;gap:36px;padding:20px;box-shadow:none;align-items:center}
+.feature>div:last-child{padding:12px 20px 12px 0}
+.feature-art{position:relative;min-height:330px;background:var(--aqua);border-radius:14px;overflow:hidden}
+.bubble{position:absolute;width:158px;height:158px;border-radius:50%;display:grid;place-items:center;text-align:center;font-family:'Caveat',cursive;font-weight:700;font-size:1.35rem;padding:20px;color:var(--burgundy);line-height:1.05}
+.bubble.salmon{background:var(--salmon);left:10%;top:18%}
+.bubble.aqua{background:#78c5c1;right:10%;top:14%}
+.bubble.yellow{background:var(--mustard);left:36%;bottom:4%}
+.feature-meta{display:flex;gap:20px;font-size:.78rem;margin:18px 0;color:var(--muted)}
+.count{font-size:.8rem;color:var(--muted);font-weight:700}
+@media(max-width:850px){.feature{grid-template-columns:1fr}.feature>div:last-child{padding:0 8px 16px}.articles{grid-template-columns:1fr 1fr}}
+@media(max-width:560px){.articles{grid-template-columns:1fr}}
+</style>

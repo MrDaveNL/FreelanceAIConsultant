@@ -1,0 +1,94 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { site } from '../data/site.js';
+
+const updated = '22 september 2026';
+---
+<BaseLayout
+  title={`Algemene voorwaarden | ${site.brand}`}
+  description="Algemene voorwaarden voor adviesopdrachten van freelanceaiconsultant.com: offertes, uitvoering, tarieven, betaling, aansprakelijkheid en intellectueel eigendom."
+>
+  <section class="section-sm legal-hero">
+    <div class="container">
+      <a class="back" href="/">← Terug naar home</a>
+      <p class="eyebrow">Juridisch</p>
+      <h1 class="h1">Algemene <span class="marker">voorwaarden</span></h1>
+      <p class="lede">Deze voorwaarden gelden voor alle offertes, opdrachten en overeenkomsten van {site.legal.entity}, handelend onder de naam {site.domain}.</p>
+      <p class="updated">Versie {updated}</p>
+    </div>
+  </section>
+
+  <section class="section-sm">
+    <div class="container legal-prose">
+      <h2>Artikel 1: Definities</h2>
+      <ul>
+        <li><b>Opdrachtnemer:</b> {site.legal.entity}, handelend onder de naam {site.domain}, KvK {site.legal.kvk}.</li>
+        <li><b>Opdrachtgever:</b> de partij die met opdrachtnemer een overeenkomst aangaat.</li>
+        <li><b>Opdracht:</b> de door opdrachtnemer te verrichten advies-, begeleidings- of onderzoekswerkzaamheden.</li>
+        <li><b>Deliverables:</b> de schriftelijke of mondelinge resultaten die uit de opdracht voortkomen.</li>
+      </ul>
+
+      <h2>Artikel 2: Toepasselijkheid</h2>
+      <p>Deze voorwaarden zijn van toepassing op alle offertes, opdrachtbevestigingen en overeenkomsten tussen opdrachtnemer en opdrachtgever. Afwijkingen gelden uitsluitend indien schriftelijk overeengekomen. Inkoopvoorwaarden van opdrachtgever worden uitdrukkelijk van de hand gewezen, tenzij partijen schriftelijk anders afspreken.</p>
+
+      <h2>Artikel 3: Offertes en totstandkoming</h2>
+      <p>Offertes zijn vrijblijvend en geldig gedurende dertig dagen, tenzij anders vermeld. Een overeenkomst komt tot stand op het moment dat opdrachtgever de offerte of opdrachtbevestiging schriftelijk of per e-mail aanvaardt. Genoemde bedragen zijn exclusief btw en reis- en verblijfkosten, tenzij uitdrukkelijk anders vermeld.</p>
+
+      <h2>Artikel 4: Uitvoering van de opdracht</h2>
+      <p>Opdrachtnemer voert de opdracht naar beste inzicht en vermogen uit, op basis van een inspanningsverplichting. Er wordt geen resultaat gegarandeerd; wel legt opdrachtnemer vooraf vast welke uitkomsten worden nagestreefd en hoe die worden getoetst.</p>
+      <p>De opdracht wordt persoonlijk uitgevoerd. Inschakeling van derden gebeurt alleen na overleg met opdrachtgever. Opdrachtnemer brengt geen opslag of marge in rekening over de tarieven van ingeschakelde derden.</p>
+      <p>Opdrachtgever zorgt tijdig voor de informatie, toegang en beschikbaarheid van medewerkers die voor de uitvoering nodig zijn. Vertraging die hieruit voortvloeit, komt voor rekening van opdrachtgever.</p>
+
+      <h2>Artikel 5: Onafhankelijkheid en belangenverstrengeling</h2>
+      <p>Opdrachtnemer ontvangt geen commissies, kortingen, affiliate-vergoedingen of andere voordelen van leveranciers van software of diensten die in een opdracht kunnen worden geadviseerd. Bestaande of recente relaties met leveranciers die in de opdracht aan de orde kunnen komen, worden voorafgaand aan de beoordeling schriftelijk gemeld.</p>
+      <p>Opdrachtnemer neemt geen opdrachten aan voor directe concurrenten van een opdrachtgever gedurende de looptijd van een doorlopende opdracht, tenzij opdrachtgever daar schriftelijk mee instemt.</p>
+
+      <h2>Artikel 6: Wijziging van de opdracht</h2>
+      <p>Wijzigingen in de scope worden schriftelijk vastgelegd, inclusief de gevolgen voor planning en prijs. Meerwerk wordt uitsluitend uitgevoerd na voorafgaande goedkeuring van opdrachtgever.</p>
+
+      <h2>Artikel 7: Tarieven en betaling</h2>
+      <ul>
+        <li>Facturatie vindt plaats per maand of per mijlpaal, zoals vastgelegd in de opdrachtbevestiging.</li>
+        <li>Bij opdrachten met een vaste prijs geldt vijftig procent bij aanvang en vijftig procent bij oplevering, tenzij anders overeengekomen.</li>
+        <li>De betalingstermijn bedraagt dertig dagen na factuurdatum.</li>
+        <li>Bij overschrijding is opdrachtgever de wettelijke handelsrente verschuldigd, evenals redelijke incassokosten.</li>
+        <li>Tarieven kunnen jaarlijks per 1 januari worden geïndexeerd; bij doorlopende opdrachten wordt dit minimaal twee maanden vooraf aangekondigd.</li>
+      </ul>
+
+      <h2>Artikel 8: Annulering en opzegging</h2>
+      <p>Doorlopende opdrachten, waaronder een fractional rol, zijn door beide partijen opzegbaar met inachtneming van een opzegtermijn van één kalendermaand.</p>
+      <p>Bij tussentijdse beëindiging van een opdracht met vaste prijs worden de verrichte werkzaamheden en de tot dat moment opgeleverde resultaten naar rato afgerekend. Reeds gereserveerde capaciteit die binnen twee weken voor aanvang wordt geannuleerd, kan voor vijftig procent in rekening worden gebracht.</p>
+
+      <h2>Artikel 9: Vertrouwelijkheid</h2>
+      <p>Beide partijen behandelen alle informatie die zij in het kader van de opdracht van elkaar ontvangen als vertrouwelijk, en delen deze niet met derden zonder voorafgaande schriftelijke toestemming. Deze verplichting blijft na afloop van de opdracht van kracht. Waar opdrachtgever een eigen geheimhoudingsovereenkomst hanteert, prevaleert die overeenkomst.</p>
+
+      <h2>Artikel 10: Persoonsgegevens</h2>
+      <p>Partijen verwerken persoonsgegevens in overeenstemming met de Algemene verordening gegevensbescherming. Waar opdrachtnemer persoonsgegevens verwerkt in opdracht van opdrachtgever, sluiten partijen een verwerkersovereenkomst. Zie ook de <a href="/privacy">privacyverklaring</a>.</p>
+
+      <h2>Artikel 11: Intellectueel eigendom</h2>
+      <p>Alle deliverables die specifiek voor opdrachtgever zijn gemaakt, worden na volledige betaling eigendom van opdrachtgever. Opdrachtgever mag deze vrij binnen de eigen organisatie gebruiken, aanpassen en hergebruiken.</p>
+      <p>Opdrachtnemer behoudt het recht om de onderliggende generieke methodiek, modellen en werkwijzen te blijven gebruiken bij andere opdrachten. Daarbij worden nooit gegevens, cijfers, namen of herleidbare situaties van opdrachtgever gebruikt.</p>
+      <p>Opdrachtnemer mag de opdracht uitsluitend als referentie noemen na schriftelijke toestemming van opdrachtgever; zonder toestemming gebeurt dit uitsluitend geanonimiseerd.</p>
+
+      <h2>Artikel 12: Aansprakelijkheid</h2>
+      <p>De aansprakelijkheid van opdrachtnemer is beperkt tot het bedrag dat in het betreffende geval door de beroeps- of bedrijfsaansprakelijkheidsverzekering wordt uitgekeerd, vermeerderd met het eigen risico. Keert de verzekering niet uit, dan is de aansprakelijkheid beperkt tot het voor de opdracht gefactureerde bedrag over de laatste zes maanden, met een maximum van het totale opdrachtbedrag.</p>
+      <p>Opdrachtnemer is niet aansprakelijk voor indirecte schade, waaronder gederfde winst, gemiste besparingen en gevolgschade. Beslissingen die opdrachtgever neemt op basis van het advies blijven de verantwoordelijkheid van opdrachtgever.</p>
+      <p>Deze beperkingen gelden niet bij opzet of bewuste roekeloosheid van opdrachtnemer.</p>
+
+      <h2>Artikel 13: Overmacht</h2>
+      <p>Bij overmacht worden de verplichtingen opgeschort. Duurt de overmachtssituatie langer dan zestig dagen, dan kunnen beide partijen de overeenkomst ontbinden zonder schadeplichtig te zijn. Reeds verrichte werkzaamheden worden afgerekend.</p>
+
+      <h2>Artikel 14: Klachten</h2>
+      <p>Klachten over de uitvoering dienen binnen veertien dagen na constatering schriftelijk te worden gemeld, met een duidelijke omschrijving. Partijen treden in overleg om tot een oplossing te komen voordat andere stappen worden gezet.</p>
+
+      <h2>Artikel 15: Toepasselijk recht</h2>
+      <p>Op alle overeenkomsten is Nederlands recht van toepassing. Geschillen worden voorgelegd aan de bevoegde rechter in het arrondissement van de vestigingsplaats van opdrachtnemer, tenzij partijen kiezen voor mediation.</p>
+    </div>
+  </section>
+</BaseLayout>
+<style>
+.legal-hero{padding-top:52px}
+.legal-hero .lede{margin-top:24px}
+.updated{font-size:.82rem;color:var(--muted);margin-top:16px}
+code{background:rgba(74,31,42,.1);padding:2px 6px;border-radius:4px;font-size:.88em}
+</style>

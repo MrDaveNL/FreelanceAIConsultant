@@ -1,0 +1,61 @@
+---
+import { existsSync } from 'node:fs';
+import { join } from 'node:path';
+import brands from '../data/brands.json';
+
+// Versie in de URL van logo-carousel.css en logo-carousel.js. Ophogen na een wijziging in die bestanden.
+const VERSION = '2';
+// true kleurt het logo in de sitekleur, false toont de originele kleuren.
+const MONO = true;
+
+const path = Astro.url.pathname.replace(/\/$/, '');
+const isHome = path === '';
+// Homepage: h2. Overige pagina's: p met dezelfde opmaak, zodat de kop niet op elke pagina in de outline staat.
+const Title = isHome ? 'h2' : 'p';
+const titleId = `aimerken-titel-${isHome ? 'home' : path.slice(1).replace(/[^a-z0-9]+/gi, '-')}`;
+
+// Alleen logo's die in public/logos staan krijgen data-logo. Ontbreekt het bestand, dan blijft het woordmerk staan.
+const hasLogo = (logo) => Boolean(logo) && existsSync(join(process.cwd(), 'public', logo));
+
+// Branche-iconen (veld icoon) staan in src/assets/branche-iconen en worden inline gezet, zodat ze de tekstkleur erven.
+// De paden blijven zoals aangeleverd; alleen het ingesloten metadata-blok gaat er bij het inlinen uit.
+const icons = import.meta.glob('../assets/branche-iconen/*.svg', { query: '?raw', import: 'default', eager: true });
+const icon = (file) =>
+  (file ? icons['../assets/branche-iconen/' + file] : undefined)
+    ?.replace(/<metadata>[\s\S]*?<\/metadata>/, '')
+    .replace(/\s+xmlns:c2pa="[^"]*"/, '')
+    .replace('<svg ', '<svg aria-hidden="true" focusable="false" ');
+---
+<link rel="stylesheet" href={`/logo-carousel/logo-carousel.css?v=${VERSION}`} />
+<section class="aimerken" aria-labelledby={titleId} data-mono={MONO ? 'true' : 'false'}>
+  <div class="container aimerken__kop">
+    <div>
+      <p class="aimerken__label">AI in Europa</p>
+      <Title class="aimerken__titel" id={titleId}>Europese merken die AI al <u>in productie</u> hebben.</Title>
+      <p class="aimerken__sub">Geen klanten van mij. Wel voorbeelden van wat er gebeurt als AI voorbij de pilot komt.</p>
+    </div>
+    <button class="aimerken__pauze" type="button" aria-pressed="false">Pauzeer</button>
+  </div>
+  <div class="aimerken__baan">
+    <ul class="aimerken__lijst">
+      {brands.map((brand) => {
+        const Card = brand.bron ? 'a' : 'div';
+        const link = brand.bron ? { href: brand.bron, rel: 'noopener' } : {};
+        const svg = icon(brand.icoon);
+        return (
+          <li>
+            <Card class="aimerken__kaart" {...link}>
+              <div class:list={['aimerken__logo', svg && 'aimerken__logo--icoon']} data-logo={hasLogo(brand.logo) ? brand.logo : undefined} data-naam={brand.naam}>
+                {svg && <span class="aimerken__icoon" set:html={svg} />}
+                <span class="aimerken__woordmerk">{brand.naam}</span>
+              </div>
+              <p class="aimerken__land">{brand.land}</p>
+              <p class="aimerken__toepassing">{brand.toepassing}</p>
+            </Card>
+          </li>
+        );
+      })}
+    </ul>
+  </div>
+</section>
+<script src={`/logo-carousel/logo-carousel.js?v=${VERSION}`} defer></script>

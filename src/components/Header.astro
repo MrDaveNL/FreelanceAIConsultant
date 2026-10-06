@@ -1,0 +1,22 @@
+---
+import { site, nav } from '../data/site.js';
+const { currentPath = '/' } = Astro.props;
+const active = (href) => (href === '/' ? currentPath === '/' : currentPath.startsWith(href));
+---
+<header class="site-header">
+  <div class="container nav-wrap">
+    <a class="brand" href="/">
+      <img class="brand-logo" src="/images/freelance-ai-consultant-logo-header.png" width="600" height="287" alt={`${site.domain} logo`} />
+    </a>
+    <nav aria-label="Hoofdnavigatie">
+      {nav.map(([href, label]) => <a class:list={['nav-link', active(href) && 'is-active']} href={href}>{label}</a>)}
+    </nav>
+    <a class="btn nav-cta" href="/contact">Plan een gesprek <span>→</span></a>
+    <button class="menu" aria-label="Open menu" aria-expanded="false" onclick="const h=this.closest('header');h.classList.toggle('menu-open');this.setAttribute('aria-expanded',h.classList.contains('menu-open'))">☰</button>
+  </div>
+</header>
+<style>
+.site-header{position:sticky;top:0;z-index:50;background:color-mix(in srgb,var(--cream) 94%,transparent);backdrop-filter:blur(14px);border-bottom:1px solid rgba(74,31,42,.06)}
+.nav-wrap{height:94px;display:grid;grid-template-columns:1.25fr auto auto;gap:34px;align-items:center}.brand{display:flex;align-items:center;width:max-content}.brand-logo{height:74px;width:auto}nav{display:flex;gap:26px;align-items:center}.nav-link{position:relative;font-size:.91rem;font-weight:700;color:#3a2928}.nav-link::after{content:'';position:absolute;left:0;right:100%;bottom:-7px;height:2px;background:var(--burgundy);transition:right .2s}.nav-link:hover::after,.nav-link.is-active::after{right:0}.nav-cta{min-height:44px;padding-inline:18px;font-size:.78rem}.menu{display:none;border:0;background:transparent;font-size:1.5rem;color:var(--burgundy)}
+@media(max-width:900px){.nav-wrap{grid-template-columns:1fr auto;height:76px}.site-header nav,.nav-cta{display:none}.menu{display:block}.menu-open .nav-wrap{height:auto;padding-block:18px;grid-template-columns:1fr auto}.menu-open nav{display:flex;grid-column:1/-1;flex-direction:column;align-items:flex-start;padding:12px 0}.menu-open .nav-cta{display:inline-flex;grid-column:1/-1;width:max-content}.brand-logo{height:58px}}
+</style>

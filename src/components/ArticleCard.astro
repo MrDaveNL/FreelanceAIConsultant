@@ -1,0 +1,15 @@
+---
+const { item } = Astro.props;
+---
+<a class="article-card" href={`/inzichten/${item.slug}`} data-category={item.category}>
+  <div class:list={['visual', `tone-${item.tone}`]}><span>{item.icon}</span></div>
+  <div class="article-body">
+    <small>{item.category}</small>
+    <h3>{item.title}</h3>
+    <p>{item.excerpt}</p>
+    <div class="meta">◷ {item.readingTime} <span>Lees artikel →</span></div>
+  </div>
+</a>
+<style>
+.article-card{border:1px solid var(--line);border-radius:16px;overflow:hidden;background:rgba(255,250,241,.62);display:flex;flex-direction:column;min-height:390px;transition:transform .2s ease,background .2s}.article-card:hover{transform:translateY(-4px);background:rgba(255,250,241,.9)}.visual{height:150px;display:grid;place-items:center}.visual span{font-size:4.2rem;color:var(--burgundy)}.tone-yellow{background:var(--mustard)}.tone-aqua{background:var(--aqua)}.tone-salmon{background:var(--salmon)}.tone-sand{background:var(--sand)}.article-body{padding:22px;display:flex;flex-direction:column;flex:1}.article-body small{text-transform:uppercase;color:var(--salmon);font-weight:800;font-size:.7rem;letter-spacing:.05em}.article-body h3{font-size:1.2rem;line-height:1.08;color:var(--burgundy);margin:10px 0}.article-body p{font-size:.82rem}.meta{margin-top:auto;border-top:1px solid var(--line);padding-top:14px;display:flex;justify-content:space-between;gap:10px;font-size:.74rem;font-weight:600}.meta span{font-weight:800}
+</style>

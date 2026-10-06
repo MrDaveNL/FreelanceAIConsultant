@@ -1,0 +1,121 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import ContactForm from '../components/ContactForm.astro';
+import Accordion from '../components/Accordion.astro';
+import { site } from '../data/site.js';
+
+const expectations = [
+  ['30 minuten', 'Online of op locatie. Kort genoeg om in te plannen, lang genoeg om ergens te komen.'],
+  ['Geen pitch deck', 'Ik presenteer niets. Je vertelt waar je tegenaan loopt, ik stel vragen.'],
+  ['Een eerlijk antwoord', 'Aan het eind zeg ik wat ik zou doen, ook als dat betekent dat je mij niet nodig hebt.'],
+  ['Geen verplichtingen', 'Geen offerte tenzij je erom vraagt, en geen automatische opvolging.'],
+];
+
+const quickFaq = [
+  ['Hoe snel krijg ik antwoord?', 'Binnen één werkdag. Als het langer duurt, ben ik op locatie bij een klant. Dan hoor je het uiterlijk de dag erna.'],
+  ['Wat heb je van mij nodig voor een goed gesprek?', 'Niets van tevoren. Een paar zinnen over je situatie is genoeg. Documenten stuur je eventueel na het gesprek, als dat zinvol blijkt.'],
+  ['Kan ik ook bellen?', 'Stuur even een mail met een paar momenten die je schikken, dan bel ik je. Zo hoef jij niet te gokken wanneer ik opneem.'],
+  ['Ik weet nog niet of dit iets voor ons is.', 'Dat is precies waar dit gesprek voor is. Een flink deel van de gesprekken leidt niet tot een opdracht, en dat is prima.'],
+];
+
+const schema = {
+  '@context': 'https://schema.org',
+  '@type': 'ContactPage',
+  name: 'Contact',
+  url: `${site.url}/contact`,
+  mainEntity: {
+    '@type': 'Person',
+    name: site.name,
+    email: site.email,
+    jobTitle: site.roleNl,
+    sameAs: [site.linkedin],
+  },
+};
+---
+<BaseLayout
+  title={`Contact en kennismaking | ${site.brand}`}
+  description="Plan een vrijblijvend gesprek van 30 minuten over je AI-vraagstuk. Geen pitch, wel scherpe vragen en een eerlijk antwoord."
+  schema={schema}
+>
+  <section class="contact-hero section-sm">
+    <div class="container hero-grid">
+      <div>
+        <p class="eyebrow">Contact</p>
+        <h1 class="h1">Laten we <span class="marker">kennismaken.</span></h1>
+        <p class="lede">Vertel kort waar je tegenaan loopt. Je krijgt binnen één werkdag antwoord, van mij, niet van een assistent of een agenda-tool.</p>
+        <div class="direct">
+          <a class="direct-item" href={`mailto:${site.email}`}>
+            <span class="icon-dot" aria-hidden="true">✉</span>
+            <div><b>E-mail</b><span>{site.email}</span></div>
+          </a>
+          <a class="direct-item" href={site.linkedin} rel="noopener">
+            <span class="icon-dot" aria-hidden="true">in</span>
+            <div><b>LinkedIn</b><span>Stuur een bericht ↗</span></div>
+          </a>
+        </div>
+        <p class="availability"><b>Beschikbaarheid:</b> {site.availability}</p>
+      </div>
+      <div class="expect card">
+        <p class="eyebrow">Wat je kunt verwachten</p>
+        {expectations.map(([title, text]) => (
+          <div class="expect-row"><span class="icon-dot" aria-hidden="true">✓</span><div><b>{title}</b><p>{text}</p></div></div>
+        ))}
+        <span class="sticker sticker--salmon">Geen verkoop.<br/>Wel een goed gesprek.</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="section-sm form-section">
+    <div class="container form-grid">
+      <div class="intro">
+        <p class="eyebrow">Intakeformulier</p>
+        <h2 class="h2">Vertel me kort over<br/>jouw <span class="marker">uitdaging.</span></h2>
+        <p>Hoe concreter je vraag, hoe scherper mijn eerste reactie. Weet je het nog niet precies? Dan is dat ook een prima startpunt. Schrijf dat dan gewoon op.</p>
+        <ul class="checks">
+          <li>Alleen naam, e-mail en je vraag zijn verplicht.</li>
+          <li>Tijdlijn en budget helpen mij inschatten wat realistisch is.</li>
+          <li>Je gegevens gaan nergens anders heen. Zie de <a href="/privacy">privacyverklaring</a>.</li>
+        </ul>
+      </div>
+      <div class="form-card card">
+        <ContactForm />
+      </div>
+    </div>
+  </section>
+
+  <section class="section-sm faq-section">
+    <div class="container faq-inner">
+      <div>
+        <p class="eyebrow">Voordat je mailt</p>
+        <h2 class="h2">Vier vragen<br/>vooraf beantwoord.</h2>
+        <a class="text-link" href="/veelgestelde-vragen">Alle veelgestelde vragen →</a>
+      </div>
+      <Accordion items={quickFaq} name="contact-faq" />
+    </div>
+  </section>
+</BaseLayout>
+<style>
+.contact-hero{padding-top:52px}
+.hero-grid{display:grid;grid-template-columns:1.1fr .9fr;gap:54px;align-items:start}
+.direct{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin:32px 0 22px}
+.direct-item{display:grid;grid-template-columns:auto 1fr;gap:14px;align-items:center;padding:18px;border:1px solid var(--line);border-radius:14px;background:rgba(255,250,241,.62);transition:transform .2s ease,background .2s}
+.direct-item:hover{transform:translateY(-3px);background:rgba(255,250,241,.95)}
+.direct-item b{display:block;color:var(--burgundy);font-size:.9rem}
+.direct-item span:last-child{font-size:.8rem;color:var(--muted)}
+.direct-item .icon-dot{font-size:.82rem}
+.availability{font-size:.86rem;color:var(--muted)}
+.expect{padding:34px;box-shadow:none;position:relative}
+.expect-row{display:grid;grid-template-columns:auto 1fr;gap:14px;padding:14px 0;border-bottom:1px solid var(--line)}
+.expect-row b{color:var(--burgundy);font-size:.95rem}
+.expect-row p{margin:4px 0 0;font-size:.82rem}
+.expect .sticker{display:inline-block;margin-top:26px;font-family:'Caveat',cursive;text-transform:none;font-size:1.18rem;line-height:1.1}
+.form-section{background:var(--cream-2)}
+.form-grid{display:grid;grid-template-columns:.8fr 1.2fr;gap:50px;align-items:start}
+.intro p{font-size:.94rem}
+.intro .checks{margin-top:22px}
+.intro a{border-bottom:1px solid var(--line)}
+.form-card{padding:34px;box-shadow:none;background:var(--paper)}
+.faq-inner{display:grid;grid-template-columns:.55fr 1.45fr;gap:48px;align-items:start}
+.faq-inner .text-link{display:inline-block;margin-top:22px}
+@media(max-width:900px){.hero-grid,.form-grid,.faq-inner{grid-template-columns:1fr}.direct{grid-template-columns:1fr}.form-card{padding:24px}}
+</style>

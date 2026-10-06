@@ -1,0 +1,54 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import PageHero from '../../components/PageHero.astro';
+import CaseCard from '../../components/CaseCard.astro';
+import FilterBar from '../../components/FilterBar.astro';
+import CTA from '../../components/CTA.astro';
+import { cases, caseFilters, testimonials } from '../../data/cases.js';
+---
+<BaseLayout
+  title="Cases | Freelance AI Consultant"
+  description="Zes AI-trajecten van strategie tot vendorselectie en fractional leiderschap. Echte uitdagingen, gemaakte keuzes en wat het opleverde."
+>
+  <PageHero
+    compact
+    eyebrow="AI-advies dat je helpt beslissen"
+    title="Cases die het verschil maken."
+    marked="het verschil"
+    body="Echte uitdagingen. Scherpe keuzes. Meetbaar resultaat. Inclusief de trajecten waarin het advies was om níét te kopen. Die leveren vaak het meeste op."
+    secondary="Bekijk de diensten"
+    secondaryHref="/diensten"
+  />
+
+  <section class="section-sm">
+    <div class="container">
+      <FilterBar filters={caseFilters} target="#case-grid" center={true} />
+    </div>
+  </section>
+
+  <section class="section-sm cases">
+    <div class="container">
+      <div class="grid-3" id="case-grid">
+        {cases.map((item) => <CaseCard item={item} />)}
+      </div>
+    </div>
+  </section>
+
+  <section class="section-sm testimonials">
+    <div class="container">
+      <p class="eyebrow">Wat opdrachtgevers zeggen</p>
+      <div class="grid-3 quotes">
+        {testimonials.map((quote) => <blockquote>“{quote.text}”<cite>{quote.author}</cite></blockquote>)}
+      </div>
+      <p class="disclosure">Opdrachtgevers worden op verzoek geanonimiseerd weergegeven. Referenties met naam deel ik in een persoonlijk gesprek.</p>
+    </div>
+  </section>
+
+  <CTA title="Klaar om jouw case de volgende te laten zijn?" />
+</BaseLayout>
+<style>
+.testimonials{background:var(--cream-2)}
+blockquote{margin:0;font-family:'Caveat',cursive;font-size:1.5rem;line-height:1.1;color:var(--burgundy);padding:22px 26px;border-left:4px solid var(--salmon)}
+cite{display:block;font-family:'Space Grotesk',sans-serif;font-style:normal;font-size:.74rem;color:var(--muted);margin-top:16px}
+.disclosure{margin-top:30px;font-size:.76rem;color:var(--muted)}
+</style>

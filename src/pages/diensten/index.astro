@@ -1,0 +1,108 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import PageHero from '../../components/PageHero.astro';
+import ServiceCard from '../../components/ServiceCard.astro';
+import CTA from '../../components/CTA.astro';
+import { featuredServices, extraServices, serviceComparison } from '../../data/services.js';
+---
+<BaseLayout
+  title="Diensten | Freelance AI Consultant"
+  description="Van AI Readiness Assessment tot Fractional AI Lead. Zes diensten met heldere scope, doorlooptijd en investering. Onafhankelijk en vendor-neutraal."
+>
+  <PageHero
+    compact
+    eyebrow="AI-advies dat je helpt beslissen"
+    title="Diensten die AI-beslissingen helder maken."
+    marked="AI-beslissingen"
+    body="Van eerste AI-stappen tot strategische verankering. Praktisch advies dat je team begrijpt, je board vertrouwt en je organisatie vooruithelpt. Elke dienst heeft een vaste prijs of een duidelijke bandbreedte. Waar je daarbinnen uitkomt, staat in het voorstel, voordat we starten."
+    secondary="Vergelijk de diensten"
+    secondaryHref="#vergelijking"
+  />
+
+  <section class="section-sm">
+    <div class="container">
+      <p class="eyebrow center">Mijn hoofddiensten</p>
+      <div class="grid-3">
+        {featuredServices.map((service) => <ServiceCard service={service} />)}
+      </div>
+    </div>
+  </section>
+
+  <section class="section-sm extras">
+    <div class="container">
+      <p class="eyebrow center">Aanvullende diensten</p>
+      <div class="grid-3 mini-grid">
+        {extraServices.map((service) => (
+          <a class="mini card" href={`/diensten/${service.slug}`}>
+            <span class="icon-dot" aria-hidden="true">{service.icon}</span>
+            <div>
+              <h3>{service.title}</h3>
+              <p>{service.cardText}</p>
+              <small>{service.timing} · {service.price}</small>
+            </div>
+            <span aria-hidden="true">→</span>
+          </a>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <section class="section fit" id="vergelijking">
+    <div class="container">
+      <p class="eyebrow center">Welke past wanneer?</p>
+      <div class="compare card">
+        <div class="row head">
+          <span></span>
+          {serviceComparison.head.map((h) => <b>{h}</b>)}
+        </div>
+        {serviceComparison.rows.map((row) => (
+          <div class="row">
+            <strong>{row[0]}</strong><span>{row[1]}</span><span>{row[2]}</span><span>{row[3]}</span>
+          </div>
+        ))}
+      </div>
+      <p class="note center">Alle bedragen zijn exclusief btw en reiskosten. Waar een bandbreedte staat, legt het voorstel na de kennismaking het exacte bedrag vast.</p>
+    </div>
+  </section>
+
+  <section class="section-sm process-note">
+    <div class="container two">
+      <div>
+        <p class="eyebrow">Hoe een opdracht begint</p>
+        <h2 class="h2">Altijd hetzelfde<br/><span class="marker">startpunt.</span></h2>
+      </div>
+      <ol class="start-steps">
+        <li><b>Kennismaking (30 min, kosteloos)</b><span>Je vertelt waar je tegenaan loopt. Ik stel vragen en zeg aan het eind wat ik zou doen, ook als dat betekent dat je me niet nodig hebt.</span></li>
+        <li><b>Voorstel binnen drie werkdagen</b><span>Scope, aanpak, doorlooptijd, prijs en wat je van mij én van je eigen team kunt verwachten. Eén pagina, geen bijlagenbundel.</span></li>
+        <li><b>Start binnen twee tot zes weken</b><span>Afhankelijk van de lopende agenda. Voor briefings en intakes is het meestal sneller.</span></li>
+        <li><b>Evaluatie na drie maanden</b><span>Standaard onderdeel, kosteloos. We kijken of het beloofde resultaat er ook echt is.</span></li>
+      </ol>
+    </div>
+  </section>
+
+  <CTA title="Twijfel je welke dienst past?" body="Bel het gewoon even. In dertig minuten weet je het, en soms is het antwoord dat je niets nodig hebt." />
+</BaseLayout>
+<style>
+.extras{background:var(--cream-2)}
+.mini{padding:22px;display:grid;grid-template-columns:auto 1fr auto;gap:15px;align-items:center;box-shadow:none;transition:transform .2s ease,background .2s}
+.mini:hover{transform:translateY(-3px);background:rgba(255,250,241,.95)}
+.mini h3{margin:0;color:var(--burgundy);font-size:1.08rem}
+.mini p{margin:5px 0 0;font-size:.8rem}
+.mini small{display:block;margin-top:8px;font-size:.72rem;font-weight:700;color:var(--muted)}
+.compare{overflow:hidden;box-shadow:none}
+.row{display:grid;grid-template-columns:.55fr repeat(3,1fr);min-height:62px;border-bottom:1px solid var(--line);align-items:center}
+.row>*{padding:12px 18px;font-size:.87rem}
+.row.head{background:color-mix(in srgb,var(--sand) 35%,transparent);color:var(--burgundy)}
+.row.head b:nth-child(2){color:#986700}
+.row.head b:nth-child(3){color:#336c69}
+.row.head b:nth-child(4){color:#9a3e3a}
+.row:last-child{border:0}
+.note{margin-top:20px;font-size:.78rem;color:var(--muted)}
+.two{display:grid;grid-template-columns:.5fr 1.5fr;gap:44px;align-items:start}
+.start-steps{list-style:none;counter-reset:s;padding:0;margin:0}
+.start-steps li{counter-increment:s;display:grid;grid-template-columns:auto 1fr;gap:18px;padding:18px 0;border-bottom:1px solid var(--line)}
+.start-steps li::before{content:counter(s,decimal-leading-zero);display:grid;place-items:center;width:34px;height:34px;border-radius:50%;background:var(--burgundy);color:#fff;font-size:.74rem;font-weight:800}
+.start-steps b{grid-column:2;color:var(--burgundy)}
+.start-steps span{grid-column:2;font-size:.86rem;color:var(--muted)}
+@media(max-width:800px){.compare{overflow-x:auto}.row{min-width:900px}.two{grid-template-columns:1fr}}
+</style>

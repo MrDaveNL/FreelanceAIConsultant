@@ -1,0 +1,17 @@
+---
+const {
+  title = 'Klaar om AI-beslissingen helder te maken?',
+  body = 'Plan een vrijblijvend gesprek. Geen pitch. Wel scherpe vragen.',
+  compact = false,
+} = Astro.props;
+---
+<section class:list={['cta', 'dark-band', compact && 'compact']}>
+  <div class="container cta-inner">
+    <div><p class="eyebrow">Klaar voor impact?</p><h2>{title}</h2><p>{body}</p></div>
+    <div class="cta-side"><span class="hand">30 min., geen pitch deck</span><a class="btn" href="/contact">Plan een gesprek →</a></div>
+  </div>
+</section>
+<style>
+.cta{padding:54px 0}.cta.compact{padding:38px 0}.cta-inner{display:grid;grid-template-columns:1fr auto;align-items:center;gap:40px}.cta h2{margin:0;color:white;font-size:clamp(2rem,4vw,3.4rem);line-height:1;letter-spacing:-.045em}.cta p{margin-bottom:0;color:#f0ded9}.cta .eyebrow{color:var(--salmon)}.cta-side{display:flex;align-items:center;gap:20px;flex-wrap:wrap}.cta-side .hand{font-size:1.1rem;color:#fff}
+@media(max-width:760px){.cta-inner{grid-template-columns:1fr}.cta-side{justify-content:flex-start}}
+</style>
