@@ -105,7 +105,8 @@ export const blokSchema = z
     // Feiten van buiten de eigen dienstverlening (wetgeving, prijzen van tools, salarissen, marktcijfers).
     // Een blok met zo'n feit blijft concept tot het feit apart is bevestigd.
     externeFeiten: z.array(z.object({ zin: z.string(), soort: z.string() })).optional(),
-    bron: z.object({ tekst, href: z.union([pad, z.string().url()]).optional() }),
+    // De bronregel mag de eigennaam van een externe bron bevatten, ook als daar het woord "gids" in zit.
+    bron: z.object({ tekst: z.string().trim().min(1).refine((t) => !/—/.test(t), 'bevat een em dash'), href: z.union([pad, z.string().url()]).optional() }),
     bijgewerkt: maand,
     // true: de teksten zijn een concept en nog niet beoordeeld. check-rag.mjs meldt elk concept.
     concept: z.boolean().default(false),

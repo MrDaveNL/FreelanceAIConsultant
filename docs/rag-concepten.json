@@ -826,7 +826,7 @@
     "onderwerp": "beste AI tools",
     "vraagkop": "Wat zijn de beste AI tools voor een bedrijf en waar hangt de keuze van af?",
     "onderBestaandeKop": false,
-    "antwoord": "De beste AI tools verschillen per situatie: de keuze volgt eerst uit de taak, de software die er al is, data en privacy, beheer, kosten en exit, en pas als laatste uit het merk. Organisaties die in Microsoft 365 of Google Workspace werken, beginnen bij Copilot of Gemini, en voor bedrijfs- of persoonsgegevens komt alleen een zakelijk abonnement met verwerkersovereenkomst in aanmerking. Bij een keuze die meer dan een paar licenties raakt, helpt de {{dienst:vendor-review}} om tot een onderbouwd besluit te komen.",
+    "antwoord": "De beste AI tools verschillen per situatie: de keuze volgt eerst uit de taak, de software die er al is, data en privacy, beheer, kosten en exit, en pas als laatste uit het merk. Bij een keuze die meer dan een paar licenties raakt, helpt de {{dienst:vendor-review}} om tot een onderbouwd besluit te komen.",
     "vervolgvragen": [
       {
         "vraag": "Betalen leveranciers voor een plek in de vergelijking van de beste AI tools?",
@@ -853,6 +853,11 @@
         "laag": "A",
         "zin": "Hoeveel criteria tellen mee bij het kiezen tussen de beste AI tools? 6 criteria bepalen de keuze tussen de beste AI tools: taak, bestaande software, data en privacy, beheer, kosten en exit. Voor zakelijke dienstverleners met vertrouwelijke klantinformatie wegen training en opslag, bewaartermijnen en logs, en beroepsregels extra zwaar.",
         "reden": "het aantal in het antwoord is zelf geteld en staat niet letterlijk op de pagina"
+      },
+      {
+        "laag": "aanwijzing",
+        "zin": "Organisaties die in Microsoft 365 of Google Workspace werken, beginnen bij Copilot of Gemini, en voor bedrijfs- of persoonsgegevens komt alleen een zakelijk abonnement met verwerkersovereenkomst in aanmerking.",
+        "reden": "voorgelegd en op aanwijzing geschrapt (feit over een tool of partij van derden op een pagina die daar niet over gaat)"
       }
     ],
     "externeFeiten": [
@@ -881,11 +886,7 @@
     "vervolgvragen": [
       {
         "vraag": "Hoe zijn de AI voorbeelden op de pagina beschreven?",
-        "antwoord": "Bewust generiek: de AI voorbeelden staan er in de vorm 'een groothandel kan' in plaats van als een verzonnen succesverhaal. Bij de drie voorbeelden uit het dagelijks leven, over spamfilters, reistijd voorspellen en vertalen, heeft de leverancier zelf beschreven hoe AI wordt ingezet."
-      },
-      {
-        "vraag": "Wanneer gelden bij AI voorbeelden zwaardere eisen?",
-        "antwoord": "Zodra een toepassing zelf een besluit over een persoon neemt of een professioneel oordeel vervangt, gelden bij AI voorbeelden zwaardere eisen vanuit de AVG, de AI Act en de eigen sectorregels. AI die sollicitaties filtert of kandidaten beoordeelt, staat in de AI Act op de lijst van hoog-risicotoepassingen; ook AI die de kredietwaardigheid van personen beoordeelt en het beoordelen van leerresultaten of toelating met AI vallen onder de hoog-risicotoepassingen van de AI Act."
+        "antwoord": "Bewust generiek: de AI voorbeelden staan er in de vorm 'een groothandel kan' in plaats van als een verzonnen succesverhaal."
       },
       {
         "vraag": "Wat levert het AI Readiness Assessment op voor wie wil weten welke AI voorbeelden het meeste opleveren?",
@@ -927,7 +928,19 @@
       "geschrapt": 0,
       "voorgelegd": 0,
       "bevindingen": 0
-    }
+    },
+    "geschrapt": [
+      {
+        "laag": "aanwijzing",
+        "zin": "Bij de drie voorbeelden uit het dagelijks leven, over spamfilters, reistijd voorspellen en vertalen, heeft de leverancier zelf beschreven hoe AI wordt ingezet.",
+        "reden": "voorgelegd en op aanwijzing geschrapt (feit over een tool of partij van derden op een pagina die daar niet over gaat)"
+      },
+      {
+        "laag": "aanwijzing",
+        "zin": "Zodra een toepassing zelf een besluit over een persoon neemt of een professioneel oordeel vervangt, gelden bij AI voorbeelden zwaardere eisen vanuit de AVG, de AI Act en de eigen sectorregels.",
+        "reden": "voorgelegd en op aanwijzing geschrapt (niet als geheel gedekt door de primaire bronnen (AVG, AI Act)) De hele vervolgvraag \"Wanneer gelden bij AI voorbeelden zwaardere eisen?\" vervalt."
+      }
+    ]
   },
   {
     "pagina": "/kennisbank/notuleren-met-ai",
@@ -1032,7 +1045,7 @@
     "onderwerp": "AI agents",
     "vraagkop": "Wat kosten AI agents?",
     "onderBestaandeKop": true,
-    "antwoord": "Voor AI agents bestaat geen vast bedrag: de spreiding loopt van een licentie op een bestaand platform tot een maatwerktraject met meerdere koppelingen, en de prijs hangt af van de koppelingen, schrijfrechten, het gebruik, de eisen aan controle en logging en de kwaliteit van de bronnen. {{afzender}} bouwt zelf geen agents en adviseert onafhankelijk over de keuze van de taak, de specificatie en het aansturen van een bouwpartij. Bij het onafhankelijk laten vergelijken van offertes van meerdere bouwpartijen past de {{dienst:vendor-review}}, die {{pricelc:vendor-review}} kost, {{voorwaarden}}.",
+    "antwoord": "Voor AI agents bestaat geen vast bedrag: de spreiding loopt van een licentie op een bestaand platform tot een maatwerktraject met meerdere koppelingen, en de prijs hangt af van de koppelingen, schrijfrechten, het gebruik, de eisen aan controle en logging en de kwaliteit van de bronnen. Bij het onafhankelijk laten vergelijken van offertes van meerdere bouwpartijen past de {{dienst:vendor-review}} van {{afzender}}, die {{pricelc:vendor-review}} kost, {{voorwaarden}}.",
     "vervolgvragen": [
       {
         "vraag": "Is een offerte voor AI agents compleet als alleen de bouw erin staat?",
@@ -1080,11 +1093,6 @@
     "antwoord": "Een AI agent is software die van een mens een doel meekrijgt en daarna grotendeels zelf de route kiest: informatie verzamelen, andere systemen gebruiken, tussenresultaten beoordelen en de volgende stap bepalen. Anders dan een chatbot, die een vraag in een gesprek beantwoordt, voert een AI agent een taak uit in meerdere stappen en kan hij systemen raadplegen en soms wijzigen. De mate van zelfstandigheid is een instelling die de organisatie kiest, van alleen voorbereiden tot volledig zelfstandig werken met controle achteraf.",
     "vervolgvragen": [
       {
-        "vraag": "Draait een AI agent op een taalmodel?",
-        "antwoord": "De meeste wel: de meeste AI agents van nu draaien op een groot taalmodel, dat de opdracht begrijpt en over de volgende stap redeneert. Wat van dat taalmodel een AI agent maakt, zijn de onderdelen eromheen: toegang tot tools en systemen, een geheugen voor de lopende taak en instructies over wat wel en niet mag.",
-        "voorbehoud": "De meeste"
-      },
-      {
         "vraag": "Kan een fout van een AI agent doorwerken zonder dat het eindresultaat er verkeerd uitziet?",
         "antwoord": "Ja, dat kan: een AI agent zet meerdere stappen achter elkaar, waardoor een fout uit een vroege stap kan doorwerken tot in het eindresultaat zonder dat het er verkeerd uitziet. Logging en tussencontroles zijn bij een AI agent daarom belangrijker dan bij een gewone AI-toepassing.",
         "voorbehoud": "kan"
@@ -1119,7 +1127,14 @@
       "geschrapt": 0,
       "voorgelegd": 0,
       "bevindingen": 0
-    }
+    },
+    "geschrapt": [
+      {
+        "laag": "aanwijzing",
+        "zin": "De meeste wel: de meeste AI agents van nu draaien op een groot taalmodel, dat de opdracht begrijpt en over de volgende stap redeneert.",
+        "reden": "voorgelegd en op aanwijzing geschrapt (feit over een tool of partij van derden op een pagina die daar niet over gaat) De hele vervolgvraag \"Draait een AI agent op een taalmodel?\" vervalt."
+      }
+    ]
   },
   {
     "pagina": "/ai-agents/laten-maken",
@@ -1428,10 +1443,6 @@
         "antwoord": "Ja, bij een verwerking met een hoog risico is een DPIA bij AI voor zakelijke dienstverleners verplicht onder de AVG. Bij persoonsgegevens hoort te worden nagegaan of een DPIA nodig is, en de verwerkersovereenkomst, de opslaglocatie en de afspraken over training op data horen te worden gecontroleerd."
       },
       {
-        "vraag": "Welke leidraad en aanbevelingen zijn er bij AI voor zakelijke dienstverleners zoals accountants en advocaten?",
-        "antwoord": "Voor AI voor zakelijke dienstverleners in de accountancy publiceerden de beroepsorganisaties NBA en NOREA in juni 2026 'Leidraad 2: AI Toegepast', en de Nederlandse orde van advocaten heeft aanbevelingen voor AI in de advocatuur gepubliceerd. De kern van de leidraad is dat validatie en menselijk oordeel de basis blijven. In de advocatuur blijft de advocaat altijd zelf verantwoordelijk voor het uiteindelijke advies."
-      },
-      {
         "vraag": "Waar hangt de keuze voor een tool van af bij AI voor zakelijke dienstverleners?",
         "antwoord": "Van de taken, de bestaande software en de eisen aan gegevensverwerking hangt bij AI voor zakelijke dienstverleners af welke tool past, niet van de indrukwekkendste demo. Gespecialiseerde vaktools bieden meer vakinhoud, maar vragen een toets op de herkomst van bronnen en het prijsmodel."
       }
@@ -1475,7 +1486,24 @@
       "geschrapt": 0,
       "voorgelegd": 0,
       "bevindingen": 0
-    }
+    },
+    "geschrapt": [
+      {
+        "laag": "aanwijzing",
+        "zin": "Voor AI voor zakelijke dienstverleners in de accountancy publiceerden de beroepsorganisaties NBA en NOREA in juni 2026 'Leidraad 2: AI Toegepast', en de Nederlandse orde van advocaten heeft aanbevelingen voor AI in de advocatuur gepubliceerd.",
+        "reden": "voorgelegd en op aanwijzing geschrapt (feit over een tool of partij van derden op een pagina die daar niet over gaat) De hele vervolgvraag \"Welke leidraad en aanbevelingen zijn er bij AI voor zakelijke dienstverleners zoals accountants en advocaten?\" vervalt."
+      },
+      {
+        "laag": "aanwijzing",
+        "zin": "De kern van de leidraad is dat validatie en menselijk oordeel de basis blijven.",
+        "reden": "voorgelegd en op aanwijzing geschrapt (feit over een tool of partij van derden op een pagina die daar niet over gaat) De hele vervolgvraag \"Welke leidraad en aanbevelingen zijn er bij AI voor zakelijke dienstverleners zoals accountants en advocaten?\" vervalt."
+      },
+      {
+        "laag": "aanwijzing",
+        "zin": "In de advocatuur blijft de advocaat altijd zelf verantwoordelijk voor het uiteindelijke advies.",
+        "reden": "voorgelegd en op aanwijzing geschrapt (feit over een tool of partij van derden op een pagina die daar niet over gaat) De hele vervolgvraag \"Welke leidraad en aanbevelingen zijn er bij AI voor zakelijke dienstverleners zoals accountants en advocaten?\" vervalt."
+      }
+    ]
   },
   {
     "pagina": "/ai-voor-bedrijven/ai-en-bi",
@@ -1485,10 +1513,6 @@
     "onderBestaandeKop": false,
     "antwoord": "BI werkt vooral met gestructureerde data en laat zien wat er is gebeurd en waarom; AI voorspelt, classificeert en verwerkt ook tekst en documenten, met een foutmarge die bekend moet zijn. AI en BI zijn geen concurrenten: AI bouwt voort op de betrouwbare cijfers en definities die BI levert. Vaak is een werkende BI-omgeving met vertrouwde cijfers daarom het beste startpunt voor AI.",
     "vervolgvragen": [
-      {
-        "vraag": "Is een Pro-licentie genoeg voor Copilot in Power BI?",
-        "antwoord": "Nee, volgens Microsoft Learn niet (stand september 2026): Copilot in Power BI, een voorbeeld van AI en BI, vraagt een betaalde Fabric- of Premium-capaciteit en een Pro-licentie alleen is niet genoeg. Zonder voorbereiding van het datamodel kan Copilot volgens Microsoft bovendien de data verkeerd interpreteren."
-      },
       {
         "vraag": "Op hoeveel manieren is AI te gebruiken voor business intelligence?",
         "antwoord": "Vier manieren, van eenvoudig naar ingrijpend: vragen stellen in gewone taal, automatische toelichting bij cijfers en afwijkingen, voorspellingen naast de terugblik, en tekst uit e-mails, klantreacties en documenten omzetten in analyseerbare gegevens. Bij AI en BI rusten alle vier op een betrouwbaar datamodel."
@@ -1529,7 +1553,19 @@
       "geschrapt": 0,
       "voorgelegd": 0,
       "bevindingen": 0
-    }
+    },
+    "geschrapt": [
+      {
+        "laag": "aanwijzing",
+        "zin": "Nee, volgens Microsoft Learn niet (stand september 2026): Copilot in Power BI, een voorbeeld van AI en BI, vraagt een betaalde Fabric- of Premium-capaciteit en een Pro-licentie alleen is niet genoeg.",
+        "reden": "voorgelegd en op aanwijzing geschrapt (feit over een tool of partij van derden op een pagina die daar niet over gaat) De hele vervolgvraag \"Is een Pro-licentie genoeg voor Copilot in Power BI?\" vervalt."
+      },
+      {
+        "laag": "aanwijzing",
+        "zin": "Zonder voorbereiding van het datamodel kan Copilot volgens Microsoft bovendien de data verkeerd interpreteren.",
+        "reden": "voorgelegd en op aanwijzing geschrapt (feit over een tool of partij van derden op een pagina die daar niet over gaat) De hele vervolgvraag \"Is een Pro-licentie genoeg voor Copilot in Power BI?\" vervalt."
+      }
+    ]
   },
   {
     "pagina": "/kennisbank/wat-doet-een-bi-specialist",
@@ -1541,7 +1577,7 @@
     "vervolgvragen": [
       {
         "vraag": "Hoe verandert AI het werk van een BI specialist?",
-        "antwoord": "Doordat AI routinewerk van de BI specialist overneemt, worden datamodellering, definities en advies belangrijker. AI-functies in BI-platforms helpen bij het schrijven van berekeningen en queries, en de BI specialist controleert en verbetert. Een BI specialist die kan uitleggen hoe data tot stand komt en waar de beperkingen zitten, wordt waardevoller."
+        "antwoord": "Doordat AI routinewerk van de BI specialist overneemt, worden datamodellering, definities en advies belangrijker. Een BI specialist die kan uitleggen hoe data tot stand komt en waar de beperkingen zitten, wordt waardevoller."
       },
       {
         "vraag": "Is een BI specialist eerder nodig dan een AI specialist?",
@@ -1578,7 +1614,14 @@
       "geschrapt": 0,
       "voorgelegd": 0,
       "bevindingen": 0
-    }
+    },
+    "geschrapt": [
+      {
+        "laag": "aanwijzing",
+        "zin": "AI-functies in BI-platforms helpen bij het schrijven van berekeningen en queries, en de BI specialist controleert en verbetert.",
+        "reden": "voorgelegd en op aanwijzing geschrapt (feit over een tool of partij van derden op een pagina die daar niet over gaat)"
+      }
+    ]
   },
   {
     "pagina": "/ai-development",
@@ -1868,7 +1911,7 @@
     "onderwerp": "AI specialist salaris",
     "vraagkop": "Wat zeggen de salarisbronnen over een AI specialist salaris in Nederland?",
     "onderBestaandeKop": false,
-    "antwoord": "Voor een AI specialist salaris publiceren de gecontroleerde salarisbronnen hun cijfers onder de titel AI engineer, niet onder AI specialist; ze verschillen onderling flink en zijn bruikbaar als bandbreedte, niet als vast bedrag. DataJobs (bijgewerkt mei 2026) noemt bruto per maand € 3.000 tot € 4.000 voor junioren, € 4.000 tot € 5.500 voor medioren en € 5.500 tot € 7.000 voor senioren; Indeed (bijgewerkt 14 september 2026) meldt een gemiddelde van € 56.643 per jaar. Voor werkgevers past een vaste aanstelling bij structureel werk met een duidelijke scope; bij een onduidelijke scope is externe of parttime inzet vaak verstandiger.",
+    "antwoord": "Voor een AI specialist salaris publiceren de gecontroleerde salarisbronnen hun cijfers onder de titel AI engineer, niet onder AI specialist; ze verschillen onderling flink en zijn bruikbaar als bandbreedte, niet als vast bedrag. DataJobs (bijgewerkt mei 2026) noemt bruto per maand € 3.000 tot € 4.000 voor junioren, € 4.000 tot € 5.500 voor medioren en € 5.500 tot € 7.000 voor senioren; Indeed meldt een gemiddelde van circa € 57.000 per jaar (peildatum 6 oktober 2026). Voor werkgevers past een vaste aanstelling bij structureel werk met een duidelijke scope; bij een onduidelijke scope is externe of parttime inzet vaak verstandiger.",
     "vervolgvragen": [
       {
         "vraag": "Publiceren de gecontroleerde salarisbronnen een AI specialist salaris onder die functietitel?",
@@ -1877,7 +1920,7 @@
       },
       {
         "vraag": "Zijn de cijfers van Indeed en DataJobs bij een AI specialist salaris één-op-één te vergelijken?",
-        "antwoord": "Lastig: de cijfers van Indeed en DataJobs zijn lastig één-op-één te vergelijken, want Indeed rekent in jaarbedragen op basis van wat werknemers zelf opgeven en DataJobs in brutomaandbedragen op basis van gegevens van het eigen platform. Bij een AI specialist salaris zijn beide daarom als orde van grootte te gebruiken.",
+        "antwoord": "Lastig: de cijfers van Indeed en DataJobs zijn lastig één-op-één te vergelijken, want Indeed rekent in jaarbedragen op basis van salarissen uit vacatures op Indeed en DataJobs in brutomaandbedragen op basis van gegevens van het eigen platform. Bij een AI specialist salaris zijn beide daarom als orde van grootte te gebruiken.",
         "voorbehoud": "lastig één-op-één te vergelijken"
       },
       {
@@ -1886,7 +1929,7 @@
       }
     ],
     "bron": {
-      "tekst": "artikel van {{afzender}}; primaire bron: DataJobs, Werken als AI Engineer (bijgewerkt mei 2026); Indeed, Salaris van een AI engineer in Nederland (bijgewerkt 28 september 2026) (peildatum 6 oktober 2026)"
+      "tekst": "artikel van {{afzender}}; primaire bron: DataJobs, Werken als AI Engineer (bijgewerkt mei 2026); Nationale Beroepengids, Salaris Artificial Intelligence Engineer (bijgewerkt 26-11-2024); Indeed, Salaris van een AI engineer in Nederland (bijgewerkt 28 september 2026) (peildatum 6 oktober 2026)"
     },
     "herkomst": "Antwoord: summary, tabel en alinea's onder 'Salarisindicatie AI specialist' (kolom DataJobs), het Indeed-punt onder 'AI engineer salaris' en de vuistregels onder 'Vast in dienst of freelance inhuren?'. Vervolgvraag 1: eerste twee alinea's onder 'Salarisindicatie AI specialist' en summary. Vervolgvraag 2: alinea 'Die cijfers zijn lastig één-op-één te vergelijken'. Vervolgvraag 3: vuistregel 'Kies een parttime rol'.",
     "status": "concept",
@@ -1919,7 +1962,7 @@
         "primaireBron": "bevestigd"
       },
       {
-        "zin": "Lastig: de cijfers van Indeed en DataJobs zijn lastig één-op-één te vergelijken, want Indeed rekent in jaarbedragen op basis van wat werknemers zelf opgeven en DataJobs in brutomaandbedragen op basis van gegevens van het eigen platform.",
+        "zin": "Lastig: de cijfers van Indeed en DataJobs zijn lastig één-op-één te vergelijken, want Indeed rekent in jaarbedragen op basis van salarissen uit vacatures op Indeed en DataJobs in brutomaandbedragen op basis van gegevens van het eigen platform.",
         "soort": "salaris",
         "primaireBron": "onjuist"
       }
@@ -2108,11 +2151,6 @@
     "antwoord": "Bij AI in automotive zit voor een autobedrijf of dealer de meeste winst in verkoopopvolging, werkplaats en klantcontact, niet in de auto zelf. De aanpak is één proces met een meetbaar knelpunt kiezen, een eigenaar in de lijn aanwijzen en vooraf afspreken wanneer er wordt gestopt. Voor wie nog niet weet welk proces dat is, is het {{dienst:ai-readiness-assessment}} van {{timing:ai-readiness-assessment}} een logisch startpunt.",
     "vervolgvragen": [
       {
-        "vraag": "Is AI in automotive hoog risico als een dealer er sollicitanten mee selecteert of de kredietwaardigheid van particulieren mee beoordeelt?",
-        "antwoord": "Ja. AI voor het selecteren van sollicitanten en voor het beoordelen van de kredietwaardigheid van particulieren staat op de hoog-risicolijst van de AI Act, met eisen die door de Digital Omnibus volgens de Europese Commissie vanaf 2 december 2027 gelden. Een chatbot of een tekstgenerator is bij AI in automotive geen hoog-risicotoepassing.",
-        "onvoorwaardelijk": true
-      },
-      {
         "vraag": "Hoe kan een dealer bij AI in automotive toetsen of de belofte van een leverancier van assistenten klopt?",
         "antwoord": "Dat kan bijvoorbeeld met de {{dienst:vendor-review}}, met dezelfde vragen en hetzelfde scenario voor elke leverancier. Bij assistenten gaat het bij AI in automotive om de keuze tussen wat de DMS-leverancier, het merk of een gespecialiseerde partij aanbiedt.",
         "voorbehoud": "bijvoorbeeld"
@@ -2157,7 +2195,14 @@
       "geschrapt": 0,
       "voorgelegd": 0,
       "bevindingen": 0
-    }
+    },
+    "geschrapt": [
+      {
+        "laag": "aanwijzing",
+        "zin": "Een chatbot of een tekstgenerator is bij AI in automotive geen hoog-risicotoepassing.",
+        "reden": "voorgelegd en op aanwijzing geschrapt (niet te vinden in de primaire bron (AI Act)) De hele vervolgvraag \"Is AI in automotive hoog risico als een dealer er sollicitanten mee selecteert of de kredietwaardigheid van particulieren mee beoordeelt?\" vervalt."
+      }
+    ]
   },
   {
     "pagina": "/markten/onderwijs",
@@ -2834,11 +2879,6 @@
       {
         "vraag": "Wat betekent prompt engineering voor ontwikkelaars en voor andere medewerkers?",
         "antwoord": "Voor ontwikkelaars die AI in software inbouwen is prompt engineering een echte discipline met tests en versiebeheer. Voor de meeste medewerkers is het eenvoudiger: zij leren een paar gewoontes aan die het verschil maken tussen een generiek antwoord en een bruikbaar concept."
-      },
-      {
-        "vraag": "Helpen zogenoemde ultieme prompts bij prompt engineering?",
-        "voorbehoud": "helpen soms",
-        "antwoord": "Ultieme prompts helpen soms, maar de leveranciers van de assistenten leggen bij prompt engineering zelf de nadruk op iets saaiers: helder formuleren, context geven, voorbeelden tonen en testen. Anthropic benadrukt dat eerst moet vaststaan wat een goed resultaat is en hoe dat wordt getoetst, voordat aan de prompt wordt geschaafd."
       }
     ],
     "bron": {
@@ -2858,6 +2898,16 @@
         "laag": "A",
         "zin": "Uit hoeveel bouwstenen bestaat een prompt bij prompt engineering? 5 bouwstenen: rol, taak, context, voorbeelden en vorm. Bij prompt engineering heeft niet elke prompt ze alle vijf nodig, maar hoe belangrijker de uitkomst is, hoe meer bouwstenen worden ingevuld.",
         "reden": "het aantal in het antwoord is zelf geteld en staat niet letterlijk op de pagina"
+      },
+      {
+        "laag": "aanwijzing",
+        "zin": "Ultieme prompts helpen soms, maar de leveranciers van de assistenten leggen bij prompt engineering zelf de nadruk op iets saaiers: helder formuleren, context geven, voorbeelden tonen en testen.",
+        "reden": "voorgelegd en op aanwijzing geschrapt (feit over een tool of partij van derden op een pagina die daar niet over gaat) De hele vervolgvraag \"Helpen zogenoemde ultieme prompts bij prompt engineering?\" vervalt."
+      },
+      {
+        "laag": "aanwijzing",
+        "zin": "Anthropic benadrukt dat eerst moet vaststaan wat een goed resultaat is en hoe dat wordt getoetst, voordat aan de prompt wordt geschaafd.",
+        "reden": "voorgelegd en op aanwijzing geschrapt (feit over een tool of partij van derden op een pagina die daar niet over gaat) De hele vervolgvraag \"Helpen zogenoemde ultieme prompts bij prompt engineering?\" vervalt."
       }
     ],
     "externeFeiten": [
@@ -3389,11 +3439,6 @@
         "vraag": "Telt extra tijd voor waardevol werk mee als besparing in een business case voor AI?",
         "onvoorwaardelijk": true,
         "antwoord": "Nee. Meer tijd voor waardevol werk is echte waarde, maar geen financiële besparing. In een business case voor AI hoort die post bij de kwalitatieve baten en niet in de rekensom."
-      },
-      {
-        "vraag": "Hoe lang duurt de productiviteitsdip in de eerste weken?",
-        "voorbehoud": "doorgaans",
-        "antwoord": "Doorgaans vier tot acht weken. Het artikel raadt aan die dip op te nemen in een business case voor AI: dat maakt de case geloofwaardiger, niet zwakker."
       }
     ],
     "bron": {
@@ -3432,6 +3477,11 @@
         "laag": "C",
         "zin": "Stijgen de variabele kosten bij AI mee met het gebruik? Ja. Bij AI wordt vaak betaald per verwerkt document, per gesprek of per verwerkte hoeveelheid tekst. Het artikel raadt aan voor een business case voor AI de kosten per transactie in de pilot te meten en te vermenigvuldigen met het verwachte volume bij volledige uitrol.",
         "reden": "tweede lezing met de vraag erbij: beantwoordt de vraag: ja, bron onvoorwaardelijk: twijfel. De kernpunt-regel (24) zegt het zonder voorbehoud, maar de uitwerking op regel 56 zegt dat je 'vaak' per gebruik betaalt; het antwoord neemt dat 'vaak' wel over, maar het kale 'Ja' is daarmee stelliger dan de lopende tekst."
+      },
+      {
+        "laag": "aanwijzing",
+        "zin": "Doorgaans vier tot acht weken.",
+        "reden": "voorgelegd en op aanwijzing geschrapt (feit over een tool of partij van derden op een pagina die daar niet over gaat) De hele vervolgvraag \"Hoe lang duurt de productiviteitsdip in de eerste weken?\" vervalt."
       }
     ]
   },

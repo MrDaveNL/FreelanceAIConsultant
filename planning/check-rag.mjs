@@ -190,7 +190,9 @@ for (const { url, doc } of paginas) {
     if (main.querySelectorAll('section.rag-blok').length !== delen.length) fout.push('blok staat niet in <main>');
 
     // Schrijfregels. Prijsniveaus staan voluit, zonder schuine strepen.
-    const schrijf = schrijfregelFout(tekst);
+    // De bronregel telt hier niet mee voor het woord "gids": dat kan de eigennaam van een externe bron zijn.
+    const eigenTekst = delen.map((d) => { const k = parseHtml(d.toString()); k.querySelectorAll('.rag-blok__bron').forEach((b) => b.remove()); return tekstVan(k, ' '); }).join(' ');
+    const schrijf = schrijfregelFout(eigenTekst) ?? (/—/.test(tekst) ? 'bevat een em dash' : null);
     if (schrijf) fout.push(`tekst ${schrijf}`);
     if (/€[\d.]+\s*\/|\/\s*(?:€|maand|mnd|jaar|week|dag|uur)/i.test(tekst)) fout.push('bedrag of omvang met een schuine streep; schrijf elk niveau voluit');
 
