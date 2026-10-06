@@ -1,0 +1,14 @@
+---
+import { blokVoor } from '../data/rag/index.ts';
+import { renderRagBlok } from '../lib/rag-blok.js';
+
+// RAG-ready contentblok voor de pagina met dit pad. Rendert niets als er geen blok voor de pagina is.
+const { pagina } = Astro.props;
+const blok = blokVoor(pagina);
+const html = blok ? renderRagBlok(blok) : '';
+---
+{html && (
+  <div class="rag-blok-sectie">
+    <div class="container"><Fragment set:html={html} /></div>
+  </div>
+)}
