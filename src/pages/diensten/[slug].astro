@@ -4,6 +4,7 @@ import PageHero from '../../components/PageHero.astro';
 import Steps from '../../components/Steps.astro';
 import Accordion from '../../components/Accordion.astro';
 import CTA from '../../components/CTA.astro';
+import RagBlok from '../../components/RagBlok.astro';
 import { services, getService } from '../../data/services.js';
 import { getCase } from '../../data/cases.js';
 import { site } from '../../data/site.js';
@@ -54,6 +55,8 @@ const schema = {
     </div>
     <div class="container"><p class="price-note">{service.priceNote} Bedragen zijn exclusief btw en reiskosten.</p></div>
   </section>
+
+  <RagBlok pagina={`/diensten/${service.slug}`} />
 
   <section class="section-sm problem">
     <div class="container problem-grid">

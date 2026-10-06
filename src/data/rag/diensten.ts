@@ -7,7 +7,15 @@ import type { Dienst, Pakket } from './schema.ts';
 type Aanvulling = { resultaat: string; doelgroep: string; laatstGecontroleerd: string; pakketten?: Pakket[] };
 
 // Eén regel per dienst, op slug. Een dienst zonder aanvulling kan geen dienstblok krijgen.
-const aanvullingen: Record<string, Aanvulling> = {};
+const aanvullingen: Record<string, Aanvulling> = {
+  // VOORSTEL, nog niet beoordeeld. Bron: deliverables en "best passend bij" in services.js.
+  // Prijs en doorlooptijd zijn op 6 oktober 2026 bevestigd als vastgesteld.
+  'ai-readiness-assessment': {
+    resultaat: 'De AI Readiness Assessment levert een readiness-score op vijf dimensies, een gap-analyse en een 90-dagenplan met eigenaren en beslismomenten op.',
+    doelgroep: "Organisaties die AI serieus overwegen maar nog geen richting hebben gekozen, en MT's die een investeringsvoorstel moeten onderbouwen.",
+    laatstGecontroleerd: '2026-10-06',
+  },
+};
 
 export const diensten: Dienst[] = valideer(
   dienstSchema,
