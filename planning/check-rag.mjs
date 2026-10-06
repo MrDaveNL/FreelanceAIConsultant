@@ -215,7 +215,9 @@ for (const { url, doc } of paginas) {
     // Laag A: elk bedrag, elke doorlooptijd, elk aantal en elke termijn staat letterlijk in prijzen.ts of in de
     // tekst van de eigen pagina. Geen match is een fout.
     const gemeld = new Set();
-    for (const u of getalUitdrukkingen(tekst.replace(/Bijgewerkt:\s*\p{L}+\s+\d{4}\s*\./u, ''))) {
+    // De bronregel telt hier niet mee: die noemt een bron bij naam, met nummer en peildatum.
+    const zonderBronregel = delen.map((d) => { const k = parseHtml(d.toString()); k.querySelectorAll('.rag-blok__bron').forEach((b) => b.remove()); return tekstVan(k, ' '); }).join(' ');
+    for (const u of getalUitdrukkingen(zonderBronregel)) {
       if (getalStaatIn(u, databron) || getalStaatIn(u, paginaTekst)) continue;
       const leesbaar = [u.voor, u.getal, u.na].filter(Boolean).join(' ');
       if (!gemeld.has(leesbaar)) fout.push(`getal staat niet letterlijk in prijzen.ts of op de eigen pagina: "${leesbaar}"`);

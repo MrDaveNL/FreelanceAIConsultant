@@ -22,7 +22,7 @@ export const prijsTekst = (slug) =>
 export const niveausTekst = (slug) =>
   niveaus[slug] ? opsomming(niveaus[slug].map((n) => `${eur(n.perMaand)} per maand voor ${n.naam} (${n.dagen} dagen per maand)`), 'en') : null;
 export const duurTekst = (slug) =>
-  niveaus[slug] ? `${opsomming(niveaus[slug].map((n) => String(n.dagen)), 'of')} dagen per maand` : prijzen[slug].timing;
+  niveaus[slug] ? `${opsomming(niveaus[slug].map((n) => String(n.dagen)), 'of')} dagen per maand` : prijzen[slug].timingVoluit ?? prijzen[slug].timing;
 
 // Alle tekst die de databron over één dienst bevat, voor de controle "staat dit letterlijk in prijzen.ts?".
 export const bronTekst = (slug) => {

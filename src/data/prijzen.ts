@@ -21,13 +21,16 @@ export const fractionalNiveaus = [
   { naam: 'Lead+', dagen: 8, perMaand: fractional(8) },
 ];
 
-type Prijs = { price: string; timing: string; priceNote: string; minPrice: number; maxPrice: number; cardPrice?: string; cardTiming?: string };
+type Prijs = { price: string; timing: string; priceNote: string; minPrice: number; maxPrice: number; cardPrice?: string; cardTiming?: string; sessieduur?: string; timingVoluit?: string };
 
 export const prijzen: Record<string, Prijs> = {
   'executive-briefing': {
     // 2 dagen: sessie van 1 dagdeel + voorbereiding
     price: eur(project(2)),
     timing: '1 dagdeel incl. voorbereiding',
+    // De sessie zelf duurt drie uur; met de voorbereiding erbij is het één dagdeel.
+    sessieduur: 'drie uur',
+    timingVoluit: 'sessie van drie uur, samen met de voorbereiding één dagdeel',
     priceNote: 'Inclusief voorbereiding op jouw sector en situatie. Volledig verrekend als je binnen 60 dagen start met een AI Readiness Assessment.',
     minPrice: project(2),
     maxPrice: project(2),

@@ -125,7 +125,7 @@
     "onderwerp": "Executive Briefing",
     "vraagkop": "Wat levert een Executive Briefing op en wat kost die?",
     "onderBestaandeKop": false,
-    "antwoord": "De {{dienst:executive-briefing}} van {{afzender}} geeft een directie, RvC of RvT een gedeeld en realistisch beeld van wat AI voor de organisatie betekent. Deelnemers krijgen een beslisagenda, een vragenlijst voor toezicht en een beknopte samenvatting. De sessie beslaat {{timing:executive-briefing}} en kost {{pricelc:executive-briefing}}, {{voorwaarden}}.",
+    "antwoord": "De {{dienst:executive-briefing}} van {{afzender}} geeft een directie, RvC of RvT een gedeeld en realistisch beeld van wat AI voor de organisatie betekent. Deelnemers krijgen een beslisagenda, een vragenlijst voor toezicht en een beknopte samenvatting. De {{dienst:executive-briefing}} is een {{timing:executive-briefing}}, en kost {{pricelc:executive-briefing}}, {{voorwaarden}}.",
     "vervolgvragen": [
       {
         "vraag": "Wanneer wordt de prijs van de Executive Briefing verrekend?",
@@ -274,7 +274,7 @@
     "vervolgvragen": [
       {
         "vraag": "Wat kost AI consultancy voor een directie of raad van commissarissen?",
-        "antwoord": "{{price:executive-briefing}} is de prijs van de {{dienst:executive-briefing}}, bedoeld voor directie en raad van commissarissen die hun toezichtrol op AI willen invullen. De {{dienst:executive-briefing}} duurt {{timing:executive-briefing}} en wordt voorbereid op de sector van de organisatie."
+        "antwoord": "{{price:executive-briefing}} is de prijs van de {{dienst:executive-briefing}}, bedoeld voor directie en raad van commissarissen die hun toezichtrol op AI willen invullen. De {{dienst:executive-briefing}} is een {{timing:executive-briefing}}, en wordt voorbereid op de sector van de organisatie."
       },
       {
         "vraag": "Kan het AI Readiness Assessment bij AI consultancy ook voor één afdeling?",
@@ -1216,11 +1216,6 @@
         "onvoorwaardelijk": true
       },
       {
-        "vraag": "Binnen hoeveel uur wordt een datalek gemeld onder de AVG bij AI agents?",
-        "antwoord": "72 uur is onder de AVG bij AI agents de termijn waarbinnen een datalek zo mogelijk bij de Autoriteit Persoonsgegevens wordt gemeld, zonder onredelijke vertraging. De melding is niet nodig als het risico voor betrokkenen onwaarschijnlijk is.",
-        "voorbehoud": "zo mogelijk"
-      },
-      {
         "vraag": "Kan de AI Act naast de AVG bij AI agents gelden?",
         "antwoord": "Voor een agent kunnen de AVG en de AI Act tegelijk gelden: de AVG bij AI agents gaat over persoonsgegevens, de AI Act over het AI-systeem zelf. Voor agents die onder bijlage III vallen, bijvoorbeeld doordat ze sollicitaties filteren of kandidaten beoordelen, gelden de hoog-risicoverplichtingen door de Digital Omnibus vanaf 2 december 2027 in plaats van 2 augustus 2026.",
         "voorbehoud": "kunnen"
@@ -1281,7 +1276,14 @@
       "geschrapt": 0,
       "voorgelegd": 1,
       "bevindingen": 0
-    }
+    },
+    "geschrapt": [
+      {
+        "laag": "aanwijzing",
+        "zin": "72 uur is onder de AVG bij AI agents de termijn waarbinnen een datalek zo mogelijk bij de Autoriteit Persoonsgegevens wordt gemeld, zonder onredelijke vertraging.",
+        "reden": "voorgelegd en op aanwijzing geschrapt (tweede lezing (laag C) wijkt af: De bron beperkt de meldplicht met 'tenzij het risico voor betrokkenen onwaarschijnlijk is'; de zin laat die voorwaarde weg en is daardoor stelliger dan de bron.) De hele vervolgvraag \"Binnen hoeveel uur wordt een datalek gemeld onder de AVG bij AI agents?\" vervalt."
+      }
+    ]
   },
   {
     "pagina": "/ai-voor-bedrijven",
@@ -1300,10 +1302,6 @@
         "vraag": "Begint AI voor bedrijven met gebruiken of met bouwen?",
         "voorbehoud": "bij voorkeur",
         "antwoord": "Bij voorkeur met gebruiken: bij AI voor bedrijven zit veel waarde in tools en AI-functies die al aanwezig zijn of eenvoudig aan te schaffen zijn. Maatwerk wordt pas zinvol wanneer standaardtools aantoonbaar tekortschieten."
-      },
-      {
-        "vraag": "Waarvoor wordt AI voor bedrijven in Nederland het vaakst gebruikt?",
-        "antwoord": "AI voor bedrijven werd in 2025 het vaakst gebruikt voor marketing of verkoop (35 procent) en voor administratie of bestuurstaken (32 procent), volgens CBS-cijfers over AI-gebruikende bedrijven. Onder bedrijven die AI overwogen maar niet invoerden, was gebrek aan ervaring de meest genoemde reden."
       }
     ],
     "bron": {
@@ -1344,7 +1342,19 @@
       "geschrapt": 0,
       "voorgelegd": 0,
       "bevindingen": 0
-    }
+    },
+    "geschrapt": [
+      {
+        "laag": "aanwijzing",
+        "zin": "AI voor bedrijven werd in 2025 het vaakst gebruikt voor marketing of verkoop (35 procent) en voor administratie of bestuurstaken (32 procent), volgens CBS-cijfers over AI-gebruikende bedrijven.",
+        "reden": "marktcijfer op een pagina die daar niet zelf over gaat De hele vervolgvraag \"Waarvoor wordt AI voor bedrijven in Nederland het vaakst gebruikt?\" vervalt."
+      },
+      {
+        "laag": "aanwijzing",
+        "zin": "Onder bedrijven die AI overwogen maar niet invoerden, was gebrek aan ervaring de meest genoemde reden.",
+        "reden": "marktcijfer op een pagina die daar niet zelf over gaat De hele vervolgvraag \"Waarvoor wordt AI voor bedrijven in Nederland het vaakst gebruikt?\" vervalt."
+      }
+    ]
   },
   {
     "pagina": "/ai-voor-bedrijven/mkb",
@@ -1352,16 +1362,11 @@
     "onderwerp": "AI voor het mkb",
     "vraagkop": "Hoe begint een ondernemer met AI voor het mkb zonder groot budget?",
     "onderBestaandeKop": false,
-    "antwoord": "AI voor het mkb begint bij één taak die vaak terugkomt, veel tijd kost en al een vaste controle kent, zoals offertes of het sorteren van e-mail, met software die het bedrijf al heeft of een zakelijke licentie op een AI-assistent. Na een nulmeting en een paar spelregels over tools en gegevens volgt een test van vier weken in het echte werk, waarna de meting bepaalt of het bedrijf doorgaat, bijstuurt of stopt. Voor kleinere bedrijven is de {{dienst:executive-briefing}} van {{timing:executive-briefing}} voor {{pricelc:executive-briefing}} een van de twee lichtere instappen.",
+    "antwoord": "AI voor het mkb begint bij één taak die vaak terugkomt, veel tijd kost en al een vaste controle kent, zoals offertes of het sorteren van e-mail, met software die het bedrijf al heeft of een zakelijke licentie op een AI-assistent. Na een nulmeting en een paar spelregels over tools en gegevens volgt een test van vier weken in het echte werk, waarna de meting bepaalt of het bedrijf doorgaat, bijstuurt of stopt. Voor kleinere bedrijven is de {{dienst:executive-briefing}}, een {{timing:executive-briefing}}, voor {{pricelc:executive-briefing}} een van de twee lichtere instappen.",
     "vervolgvragen": [
       {
         "vraag": "Passen het AI Readiness Assessment en de AI Strategy Sprint bij elk budget voor AI voor het mkb?",
         "antwoord": "Nee. Het {{dienst:ai-readiness-assessment}} kost {{pricelc:ai-readiness-assessment}} en de {{dienst:ai-strategy-sprint}} {{pricelc:ai-strategy-sprint}}: dat past bij een middelgroot bedrijf met meerdere afdelingen en een concrete investeringsvraag. Voor een bedrijf van tien mensen zijn die pakketten vaak te veel.",
-        "onvoorwaardelijk": true
-      },
-      {
-        "vraag": "Blijft het gebruik van AI in het mkb achter bij grotere bedrijven?",
-        "antwoord": "Ja. Het gebruik van AI voor het mkb blijft achter bij grotere bedrijven: in 2025 gebruikte 29,8 procent van de bedrijven met 10 tot en met 249 werkzame personen AI-technologie, tegen 66,2 procent van het grootbedrijf, volgens het CBS. Bij microbedrijven met 2 tot 9 werkzame personen was dat 13,8 procent, een aandeel dat sinds 2023 wel is verdubbeld.",
         "onvoorwaardelijk": true
       },
       {
@@ -1402,7 +1407,24 @@
       "geschrapt": 0,
       "voorgelegd": 0,
       "bevindingen": 0
-    }
+    },
+    "geschrapt": [
+      {
+        "laag": "aanwijzing",
+        "zin": "Ja.",
+        "reden": "marktcijfer op een pagina die daar niet zelf over gaat De hele vervolgvraag \"Blijft het gebruik van AI in het mkb achter bij grotere bedrijven?\" vervalt."
+      },
+      {
+        "laag": "aanwijzing",
+        "zin": "Het gebruik van AI voor het mkb blijft achter bij grotere bedrijven: in 2025 gebruikte 29,8 procent van de bedrijven met 10 tot en met 249 werkzame personen AI-technologie, tegen 66,2 procent van het grootbedrijf, volgens het CBS.",
+        "reden": "marktcijfer op een pagina die daar niet zelf over gaat De hele vervolgvraag \"Blijft het gebruik van AI in het mkb achter bij grotere bedrijven?\" vervalt."
+      },
+      {
+        "laag": "aanwijzing",
+        "zin": "Bij microbedrijven met 2 tot 9 werkzame personen was dat 13,8 procent, een aandeel dat sinds 2023 wel is verdubbeld.",
+        "reden": "marktcijfer op een pagina die daar niet zelf over gaat De hele vervolgvraag \"Blijft het gebruik van AI in het mkb achter bij grotere bedrijven?\" vervalt."
+      }
+    ]
   },
   {
     "pagina": "/ai-voor-bedrijven/zakelijke-dienstverleners",
@@ -2453,12 +2475,8 @@
     "onderwerp": "ChatGPT voor bedrijven",
     "vraagkop": "Wat kan ChatGPT voor bedrijven?",
     "onderBestaandeKop": true,
-    "antwoord": "ChatGPT voor bedrijven is de AI-assistent van OpenAI als schrijf-, denk- en analysepartner die in gewone taal een tekst, samenvatting, analyse of opzet teruggeeft; bij ChatGPT Business horen volgens de prijspagina van OpenAI onder meer projecten, eigen GPT's, data-analyse en koppelingen (stand september 2026). Voor bedrijfsdata horen de abonnementen Business of Enterprise en geen persoonlijke accounts: bij beide blijft training op invoer en uitvoer volgens OpenAI standaard uit (stand september 2026). ChatGPT kan zelfverzekerd een fout antwoord geven, dus voor alles wat naar een klant, toezichthouder of directie gaat blijft een mens verantwoordelijk voor de controle.",
+    "antwoord": "Voor bedrijfsdata horen de abonnementen Business of Enterprise en geen persoonlijke accounts: bij beide blijft training op invoer en uitvoer volgens OpenAI standaard uit (stand september 2026). ChatGPT kan zelfverzekerd een fout antwoord geven, dus voor alles wat naar een klant, toezichthouder of directie gaat blijft een mens verantwoordelijk voor de controle.",
     "vervolgvragen": [
-      {
-        "vraag": "Wat kost een plek bij ChatGPT Business per gebruiker per maand?",
-        "antwoord": "Een standaardplek van ChatGPT Business kost $20 per gebruiker per maand bij jaarbetaling of $25 bij maandbetaling, en een premiumplek $100 of $125 (stand september 2026). Dat zijn Amerikaanse lijstprijzen exclusief btw, en OpenAI geeft aan dat prijzen per land en valuta kunnen verschillen. Bij ChatGPT voor bedrijven is de prijs van ChatGPT Enterprise op aanvraag."
-      },
       {
         "vraag": "Welk abonnement van ChatGPT voor bedrijven biedt Europese dataopslag?",
         "antwoord": "ChatGPT Enterprise, voor nieuwe werkruimtes (EER en Zwitserland); bij ChatGPT Business is er geen Europese dataopslag (stand september 2026). Bij ChatGPT voor bedrijven vallen gegevens die via koppelingen of webzoekopdrachten naar externe diensten gaan daar volgens OpenAI niet onder.",
@@ -2529,7 +2547,29 @@
       "geschrapt": 0,
       "voorgelegd": 0,
       "bevindingen": 0
-    }
+    },
+    "geschrapt": [
+      {
+        "laag": "aanwijzing",
+        "zin": "ChatGPT voor bedrijven is de AI-assistent van OpenAI als schrijf-, denk- en analysepartner die in gewone taal een tekst, samenvatting, analyse of opzet teruggeeft; bij ChatGPT Business horen volgens de prijspagina van OpenAI onder meer projecten, eigen GPT's, data-analyse en koppelingen (stand september 2026).",
+        "reden": "prijs van een tool van derden"
+      },
+      {
+        "laag": "aanwijzing",
+        "zin": "Een standaardplek van ChatGPT Business kost $20 per gebruiker per maand bij jaarbetaling of $25 bij maandbetaling, en een premiumplek $100 of $125 (stand september 2026).",
+        "reden": "prijs van een tool van derden De hele vervolgvraag \"Wat kost een plek bij ChatGPT Business per gebruiker per maand?\" vervalt."
+      },
+      {
+        "laag": "aanwijzing",
+        "zin": "Dat zijn Amerikaanse lijstprijzen exclusief btw, en OpenAI geeft aan dat prijzen per land en valuta kunnen verschillen.",
+        "reden": "prijs van een tool van derden De hele vervolgvraag \"Wat kost een plek bij ChatGPT Business per gebruiker per maand?\" vervalt."
+      },
+      {
+        "laag": "aanwijzing",
+        "zin": "Bij ChatGPT voor bedrijven is de prijs van ChatGPT Enterprise op aanvraag.",
+        "reden": "prijs van een tool van derden De hele vervolgvraag \"Wat kost een plek bij ChatGPT Business per gebruiker per maand?\" vervalt."
+      }
+    ]
   },
   {
     "pagina": "/kennisbank/claude-voor-bedrijven",
@@ -2539,10 +2579,6 @@
     "onderBestaandeKop": false,
     "antwoord": "Claude voor bedrijven is de AI-assistent van Anthropic in een zakelijk abonnement: Team voor 2 tot 150 gebruikers, of Enterprise met daarnaast onder meer SCIM, rolgebaseerde toegang en auditlogs. Alleen de zakelijke abonnementen zijn geschikt voor gebruik met bedrijfsgegevens; bij Team en Enterprise traint Anthropic standaard niet op de content, en de data wordt volgens Anthropic in de VS opgeslagen (stand september 2026). Wie voor Claude kiest, doet dat vaak vanwege lange documenten, schrijfwerk of het delegeren van taken.",
     "vervolgvragen": [
-      {
-        "vraag": "Wat kost Claude voor bedrijven per gebruiker?",
-        "antwoord": "Een standaardplek in het Team-abonnement van Claude voor bedrijven kost $20 per gebruiker per maand bij jaarbetaling of $25 bij maandbetaling, en een premiumplek $100 of $125. Enterprise kost $20 per plek per maand bij jaarbetaling plus gebruik tegen API-tarieven, met een jaarcontract van minimaal 20 plekken. Dat zijn Amerikaanse lijstprijzen exclusief btw, stand september 2026."
-      },
       {
         "vraag": "Kan de data van Claude voor bedrijven in de app in Europa worden opgeslagen?",
         "voorbehoud": "op dit moment",
@@ -2619,7 +2655,19 @@
       "geschrapt": 0,
       "voorgelegd": 0,
       "bevindingen": 0
-    }
+    },
+    "geschrapt": [
+      {
+        "laag": "aanwijzing",
+        "zin": "Een standaardplek in het Team-abonnement van Claude voor bedrijven kost $20 per gebruiker per maand bij jaarbetaling of $25 bij maandbetaling, en een premiumplek $100 of $125.",
+        "reden": "prijs van een tool van derden De hele vervolgvraag \"Wat kost Claude voor bedrijven per gebruiker?\" vervalt."
+      },
+      {
+        "laag": "aanwijzing",
+        "zin": "Enterprise kost $20 per plek per maand bij jaarbetaling plus gebruik tegen API-tarieven, met een jaarcontract van minimaal 20 plekken.",
+        "reden": "prijs van een tool van derden De hele vervolgvraag \"Wat kost Claude voor bedrijven per gebruiker?\" vervalt."
+      }
+    ]
   },
   {
     "pagina": "/kennisbank/gemini-voor-bedrijven",
@@ -2630,13 +2678,9 @@
     "antwoord": "Gemini voor bedrijven is de generatieve AI van Google, die sinds januari 2025 zonder aparte AI-licentie in de Business- en Enterprise-edities van Google Workspace zit; welke functies beschikbaar zijn, verschilt per editie. Bij organisaties die al met Google Workspace werken, zit Gemini waarschijnlijk al in het abonnement, zodat de vraag minder is of het wordt gekocht en meer hoe het wordt ingezet en welke afspraken over data gelden. Volgens Google dient klantdata uit Workspace zonder toestemming of instructie van de klant niet als trainingsmateriaal voor modellen (stand september 2026).",
     "vervolgvragen": [
       {
-        "vraag": "Wat kost Gemini voor bedrijven per gebruiker?",
-        "antwoord": "Business Starter kost € 6,80, Business Standard € 13,60 en Business Plus € 21,10: dat zijn de Business-edities van Google Workspace met Gemini voor bedrijven, per gebruiker per maand bij een jaarcontract, exclusief belastingen (stand september 2026). De prijs van de Enterprise-editie is op aanvraag."
-      },
-      {
         "vraag": "Werkt Gemini voor bedrijven in Docs en Sheets met de editie Business Starter?",
         "voorbehoud": "volgens Google",
-        "antwoord": "In Business Starter zit Gemini voor bedrijven volgens Google niet in Docs en Sheets, wel in Gmail en in de Gemini-app (stand september 2026). In Business Standard zit Gemini in onder andere Gmail, Docs en Meet."
+        "antwoord": "In Business Starter zit Gemini voor bedrijven volgens Google niet in Docs en Sheets, wel in Gmail en in de Gemini-app (stand september 2026)."
       },
       {
         "vraag": "Kan Gemini voor bedrijven gegevens ophalen waar een medewerker geen toegang toe heeft?",
@@ -2695,7 +2739,24 @@
       "geschrapt": 0,
       "voorgelegd": 1,
       "bevindingen": 0
-    }
+    },
+    "geschrapt": [
+      {
+        "laag": "aanwijzing",
+        "zin": "Business Starter kost € 6,80, Business Standard € 13,60 en Business Plus € 21,10: dat zijn de Business-edities van Google Workspace met Gemini voor bedrijven, per gebruiker per maand bij een jaarcontract, exclusief belastingen (stand september 2026).",
+        "reden": "prijs van een tool van derden De hele vervolgvraag \"Wat kost Gemini voor bedrijven per gebruiker?\" vervalt."
+      },
+      {
+        "laag": "aanwijzing",
+        "zin": "De prijs van de Enterprise-editie is op aanvraag.",
+        "reden": "prijs van een tool van derden De hele vervolgvraag \"Wat kost Gemini voor bedrijven per gebruiker?\" vervalt."
+      },
+      {
+        "laag": "aanwijzing",
+        "zin": "In Business Standard zit Gemini in onder andere Gmail, Docs en Meet.",
+        "reden": "voorgelegd en op aanwijzing geschrapt (De inhoud staat in de tabel, maar de bron geeft dit alleen als opgave van Google (kolom 'Gemini volgens Google', stand september 2026); de zin stelt het zonder dat voorbehoud als feit en is daarmee stelliger dan de bron.)"
+      }
+    ]
   },
   {
     "pagina": "/kennisbank/microsoft-copilot-voor-bedrijven",
@@ -2703,12 +2764,8 @@
     "onderwerp": "Microsoft Copilot",
     "vraagkop": "Wat is Microsoft Copilot?",
     "onderBestaandeKop": true,
-    "antwoord": "Microsoft Copilot is de AI-assistent van Microsoft voor werk, die taalmodellen koppelt aan apps zoals Outlook, Teams, Word, Excel en PowerPoint en aan de mail, agenda, chats, vergaderingen en documenten daarin. Microsoft onderscheidt grofweg twee niveaus (stand september 2026): Copilot Chat, volgens Microsoft zonder extra kosten beschikbaar bij een geschikt Microsoft 365-abonnement, en de betaalde licentie, waarmee Copilot kan redeneren over de volle breedte van de werkdata. Omdat Copilot de bestaande toegangsrechten volgt, komen te ruim gedeelde bestanden in antwoorden naar boven en hoort het opschonen van die rechten bij de voorbereiding.",
+    "antwoord": "Microsoft Copilot is de AI-assistent van Microsoft voor werk, die taalmodellen koppelt aan apps zoals Outlook, Teams, Word, Excel en PowerPoint en aan de mail, agenda, chats, vergaderingen en documenten daarin. Omdat Copilot de bestaande toegangsrechten volgt, komen te ruim gedeelde bestanden in antwoorden naar boven en hoort het opschonen van die rechten bij de voorbereiding.",
     "vervolgvragen": [
-      {
-        "vraag": "Wat kost een betaalde licentie voor Microsoft Copilot?",
-        "antwoord": "Copilot Business kost € 18,20 en Microsoft Copilot voor enterprise € 26,00 per gebruiker per maand, bij jaarlijkse betaling en exclusief btw (stand september 2026). Wie Copilot Business van 1 juli tot en met 31 december 2026 afsluit, betaalt het eerste jaar tijdelijk € 15,60."
-      },
       {
         "vraag": "Worden prompts en antwoorden gebruikt om de basismodellen achter Microsoft Copilot te trainen?",
         "antwoord": "Nee, volgens wat Microsoft toezegt in de privacydocumentatie van Microsoft Copilot (stand september 2026): prompts, antwoorden en gegevens die via Microsoft Graph worden opgehaald, worden niet gebruikt om de basismodellen te trainen."
@@ -2770,7 +2827,29 @@
       "geschrapt": 0,
       "voorgelegd": 1,
       "bevindingen": 0
-    }
+    },
+    "geschrapt": [
+      {
+        "laag": "aanwijzing",
+        "zin": "Microsoft onderscheidt grofweg twee niveaus (stand september 2026): Copilot Chat, volgens Microsoft zonder extra kosten beschikbaar bij een geschikt Microsoft 365-abonnement, en de betaalde licentie, waarmee Copilot kan redeneren over de volle breedte van de werkdata.",
+        "reden": "voorgelegd en op aanwijzing geschrapt (De bron beperkt 'de volle breedte van je werkdata' met de voorwaarde 'voor zover de gebruiker daar toegang toe heeft'; die voorwaarde ontbreekt in deze zin, waardoor hij breder is dan de bron (de rest van de zin is gedekt, en A3 noemt de toegangsrechten wel).)"
+      },
+      {
+        "laag": "aanwijzing",
+        "zin": "Microsoft onderscheidt grofweg twee niveaus (stand september 2026): Copilot Chat, volgens Microsoft zonder extra kosten beschikbaar bij een geschikt Microsoft 365-abonnement, en de betaalde licentie, waarmee Copilot kan redeneren over de volle breedte van de werkdata.",
+        "reden": "prijs van een tool van derden"
+      },
+      {
+        "laag": "aanwijzing",
+        "zin": "Copilot Business kost € 18,20 en Microsoft Copilot voor enterprise € 26,00 per gebruiker per maand, bij jaarlijkse betaling en exclusief btw (stand september 2026).",
+        "reden": "prijs van een tool van derden De hele vervolgvraag \"Wat kost een betaalde licentie voor Microsoft Copilot?\" vervalt."
+      },
+      {
+        "laag": "aanwijzing",
+        "zin": "Wie Copilot Business van 1 juli tot en met 31 december 2026 afsluit, betaalt het eerste jaar tijdelijk € 15,60.",
+        "reden": "prijs van een tool van derden De hele vervolgvraag \"Wat kost een betaalde licentie voor Microsoft Copilot?\" vervalt."
+      }
+    ]
   },
   {
     "pagina": "/kennisbank/prompt-engineering",
@@ -3090,7 +3169,7 @@
     "onderwerp": "AI-adoptie",
     "vraagkop": "Waarom blijft AI-adoptie laag na de uitrol van een tool en wat werkt wel?",
     "onderBestaandeKop": false,
-    "antwoord": "Bij AI-adoptie zien organisaties die AI-tools uitrollen doorgaans tien tot vijftien procent wekelijks gebruik, omdat een algemene AI-assistent geen enkel startpunt biedt en medewerkers onzeker zijn over wat mag. Wat wel werkt, is per rol drie tot vijf concrete scenario's aanbieden als kant-en-klaar startpunt, zoals een knop, een sjabloon of een vooraf ingevulde opdracht. Adoptie verspreidt zich via collega's, met ambassadeurs per team, en het advies is de meting uit te splitsen naar rol of team in plaats van één adoptiepercentage over de hele organisatie te gebruiken.",
+    "antwoord": "Wat wel werkt, is per rol drie tot vijf concrete scenario's aanbieden als kant-en-klaar startpunt, zoals een knop, een sjabloon of een vooraf ingevulde opdracht. Adoptie verspreidt zich via collega's, met ambassadeurs per team, en het advies is de meting uit te splitsen naar rol of team in plaats van één adoptiepercentage over de hele organisatie te gebruiken.",
     "vervolgvragen": [
       {
         "vraag": "Betekent lage AI-adoptie dat medewerkers er nog niet klaar voor zijn?",
@@ -3132,7 +3211,14 @@
       "geschrapt": 0,
       "voorgelegd": 0,
       "bevindingen": 0
-    }
+    },
+    "geschrapt": [
+      {
+        "laag": "aanwijzing",
+        "zin": "Bij AI-adoptie zien organisaties die AI-tools uitrollen doorgaans tien tot vijftien procent wekelijks gebruik, omdat een algemene AI-assistent geen enkel startpunt biedt en medewerkers onzeker zijn over wat mag.",
+        "reden": "marktcijfer op een pagina die daar niet zelf over gaat"
+      }
+    ]
   },
   {
     "pagina": "/inzichten/ai-agents-wat-ze-wel-en-niet-kunnen",
@@ -3182,7 +3268,7 @@
     "onderwerp": "AI-governance",
     "vraagkop": "Hoe richt een organisatie AI-governance in zonder dat het bureaucratie wordt?",
     "onderBestaandeKop": false,
-    "antwoord": "AI-governance blijft licht als toepassingen eerst naar risico worden ingedeeld in laag, midden en hoog, zodat alleen de hoogste categorie het zwaarste regime krijgt. Daarnaast heeft een organisatie minimaal vier mechanismen nodig: één register van alle AI-toepassingen, één poort voor beoordeling vooraf, één periodieke toets en één escalatiepad. Het risico van te veel regelen is dat mensen eromheen gaan werken en er een schaduwpraktijk ontstaat met tools die niemand kent, terwijl de organisatie denkt in controle te zijn.",
+    "antwoord": "Daarnaast heeft een organisatie minimaal vier mechanismen nodig: één register van alle AI-toepassingen, één poort voor beoordeling vooraf, één periodieke toets en één escalatiepad. Het risico van te veel regelen is dat mensen eromheen gaan werken en er een schaduwpraktijk ontstaat met tools die niemand kent, terwijl de organisatie denkt in controle te zijn.",
     "vervolgvragen": [
       {
         "vraag": "Is een aparte AI-ethiekcommissie nodig voor AI-governance?",
@@ -3224,7 +3310,14 @@
       "geschrapt": 0,
       "voorgelegd": 1,
       "bevindingen": 0
-    }
+    },
+    "geschrapt": [
+      {
+        "laag": "aanwijzing",
+        "zin": "AI-governance blijft licht als toepassingen eerst naar risico worden ingedeeld in laag, midden en hoog, zodat alleen de hoogste categorie het zwaarste regime krijgt.",
+        "reden": "voorgelegd en op aanwijzing geschrapt (De indeling in laag, midden en hoog en 'zware governance alleen waar het risico dat rechtvaardigt' staan in de bron, maar de stellige voorwaarde 'blijft licht als' staat er niet: de bron zegt alleen dat één regime voor alles lage-risicotoepassingen onnodig vertraagt en noemt de vier mechanismen 'licht'.)"
+      }
+    ]
   },
   {
     "pagina": "/inzichten/ai-vendorselectie-in-acht-stappen",
@@ -3276,18 +3369,13 @@
     "vervolgvragen": [
       {
         "vraag": "Blijft zelf bouwen bij build, buy of partner goedkoop na jaar één?",
-        "antwoord": "Vaak keert de conclusie om wanneer het onderhoud vijf jaar wordt doorgerekend en met een licentie vergeleken: bij build, buy of partner is bouwen goedkoop in jaar één. Een vuistregel uit de praktijk is dat het jaarlijkse onderhoud van een zelfgebouwde AI-toepassing tussen de 20% en 40% van de oorspronkelijke bouwkosten ligt.",
+        "antwoord": "Vaak keert de conclusie om wanneer het onderhoud vijf jaar wordt doorgerekend en met een licentie vergeleken: bij build, buy of partner is bouwen goedkoop in jaar één.",
         "voorbehoud": "Vaak keert de conclusie om"
       },
       {
         "vraag": "Is kopen bij twijfel tussen build, buy of partner de goedkoopste manier om te leren wat nodig is?",
         "antwoord": "Bijna altijd: bij twijfel tussen build, buy of partner is kopen bijna altijd de goedkoopste manier om te leren wat werkelijk nodig is. Later bouwen kan alsnog, met een scherpere specificatie.",
         "voorbehoud": "bijna altijd"
-      },
-      {
-        "vraag": "Welk deel van wat organisaties zelf willen bouwen is bij build, buy of partner werkelijk onderscheidend?",
-        "antwoord": "Hooguit tien tot twintig procent, in de praktijk: zo veel van wat organisaties willen bouwen is werkelijk onderscheidend. De toets bij build, buy of partner is of de belangrijkste concurrent hetzelfde resultaat morgen bij een leverancier kan kopen: is dat zo, dan is het een commodity.",
-        "voorbehoud": "hooguit tien tot twintig procent"
       }
     ],
     "bron": {
@@ -3318,7 +3406,19 @@
       "geschrapt": 0,
       "voorgelegd": 0,
       "bevindingen": 0
-    }
+    },
+    "geschrapt": [
+      {
+        "laag": "aanwijzing",
+        "zin": "Een vuistregel uit de praktijk is dat het jaarlijkse onderhoud van een zelfgebouwde AI-toepassing tussen de 20% en 40% van de oorspronkelijke bouwkosten ligt.",
+        "reden": "marktcijfer op een pagina die daar niet zelf over gaat"
+      },
+      {
+        "laag": "aanwijzing",
+        "zin": "Hooguit tien tot twintig procent, in de praktijk: zo veel van wat organisaties willen bouwen is werkelijk onderscheidend.",
+        "reden": "marktcijfer op een pagina die daar niet zelf over gaat De hele vervolgvraag \"Welk deel van wat organisaties zelf willen bouwen is bij build, buy of partner werkelijk onderscheidend?\" vervalt."
+      }
+    ]
   },
   {
     "pagina": "/inzichten/de-business-case-voor-ai",
@@ -3326,7 +3426,7 @@
     "onderwerp": "business case voor AI",
     "vraagkop": "Wat hoort er in een business case voor AI die een jaar later nog standhoudt?",
     "onderBestaandeKop": false,
-    "antwoord": "In een business case voor AI tellen bespaarde uren pas als besparing wanneer de kosten echt dalen, en hoort de volledige kostenkant: verbruik, beheer, integratie, verandering en governance. De uitkomst staat er als bandbreedte in, met de aannames over adoptie, volume en het omzetten van tijdwinst in geld zichtbaar bovenaan. Bij goedkeuring ligt vast welke cijfers na twaalf maanden worden gerapporteerd, wat de nulmeting is en bij welke uitkomst wordt bijgestuurd of gestopt.",
+    "antwoord": "In een business case voor AI tellen bespaarde uren pas als besparing wanneer de kosten echt dalen, en hoort de volledige kostenkant: verbruik, beheer, integratie, verandering en governance. De uitkomst staat er als bandbreedte in, met de aannames over adoptie, volume en het omzetten van tijdwinst in geld zichtbaar bovenaan.",
     "vervolgvragen": [
       {
         "vraag": "Telt extra tijd voor waardevol werk mee als besparing in een business case voor AI?",
@@ -3372,7 +3472,14 @@
       "geschrapt": 0,
       "voorgelegd": 1,
       "bevindingen": 0
-    }
+    },
+    "geschrapt": [
+      {
+        "laag": "aanwijzing",
+        "zin": "Bij goedkeuring ligt vast welke cijfers na twaalf maanden worden gerapporteerd, wat de nulmeting is en bij welke uitkomst wordt bijgestuurd of gestopt.",
+        "reden": "voorgelegd en op aanwijzing geschrapt (tweede lezing (laag C) wijkt af: De bron formuleert dit als advies ('Leg bij goedkeuring vast:') en noemt het 'het onderdeel dat het vaakst ontbreekt'; de zin stelt als feit dat het bij goedkeuring vastligt, wat stelliger is dan de bron.)"
+      }
+    ]
   },
   {
     "pagina": "/inzichten/freelance-ai-consultant-vs-agency-vs-big4",
@@ -3599,11 +3706,6 @@
     "antwoord": "AI-use cases die resultaat opleveren, delen vier kenmerken: een hoog volume met weinig variatie, fouten waarvan de kosten bekend en betaalbaar zijn, een menselijke controlestap die al in het proces zit en data die al bestaat en al voor beslissingen wordt gebruikt. Technologie komt in geen van die vier kenmerken voor. Vrijwel altijd stranden de assistent die alles kan, het voorspelmodel zonder besluit erachter, de use case zonder eigenaar in de lijn en de automatisering van een proces dat beter afgeschaft kan worden.",
     "vervolgvragen": [
       {
-        "vraag": "Geldt iedereen een AI-assistent geven als een van de AI-use cases?",
-        "antwoord": "Nee. Iedereen een AI-assistent geven hoort niet bij de AI-use cases: het is geen use case maar een licentie, en zonder afgebakende scenario's blijft het gebruik hangen rond de tien procent. Het advies bij zo'n AI-assistent is drie tot vijf concrete taken te kiezen, daar kant-en-klare startpunten voor te maken en pas later vrijheid toe te voegen.",
-        "onvoorwaardelijk": true
-      },
-      {
         "vraag": "Wat gebeurt er met AI-use cases die beginnen met het verzamelen van data?",
         "antwoord": "AI-use cases die beginnen met eerst data verzamelen, schuiven minstens een jaar op. Soms is dat de juiste investering, maar dan heet het een datatraject en geen AI-use case.",
         "voorbehoud": "minstens een jaar"
@@ -3637,6 +3739,13 @@
       "geschrapt": 0,
       "voorgelegd": 0,
       "bevindingen": 0
-    }
+    },
+    "geschrapt": [
+      {
+        "laag": "aanwijzing",
+        "zin": "Iedereen een AI-assistent geven hoort niet bij de AI-use cases: het is geen use case maar een licentie, en zonder afgebakende scenario's blijft het gebruik hangen rond de tien procent.",
+        "reden": "marktcijfer op een pagina die daar niet zelf over gaat De hele vervolgvraag \"Geldt iedereen een AI-assistent geven als een van de AI-use cases?\" vervalt."
+      }
+    ]
   }
 ]
