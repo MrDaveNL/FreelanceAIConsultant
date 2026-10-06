@@ -86,7 +86,10 @@ export const blokSchema = z
     onderBestaandeKop: z.boolean().default(false),
     antwoord: tekst.refine((t) => telZinnen(t) >= 2 && telZinnen(t) <= 3, 'moet 2 tot 3 zinnen zijn'),
     tabel: tabelSchema.optional(),
-    vervolgvragen: z.array(vervolgvraagSchema).min(1).max(3),
+    vervolgvragen: z.array(vervolgvraagSchema).max(3),
+    // true: uitzondering voor een pagina die de vraag zelf al volledig uitwerkt (zoals /tarieven).
+    // Het blok bestaat dan alleen uit vraagkop, antwoordalinea en bronregel, zonder tabel en vervolgvragen.
+    alleenAntwoord: z.boolean().default(false),
     bron: z.object({ tekst, href: z.union([pad, z.string().url()]).optional() }),
     bijgewerkt: maand,
     // true: de teksten zijn een concept en nog niet beoordeeld. check-rag.mjs meldt elk concept.
@@ -95,6 +98,10 @@ export const blokSchema = z
   .superRefine((blok, ctx) => {
     if (!blok.vraagkop.toLowerCase().includes(blok.onderwerp.toLowerCase()))
       ctx.addIssue({ code: z.ZodIssueCode.custom, path: ['vraagkop'], message: `moet "${blok.onderwerp}" bij naam noemen` });
+    if (!blok.alleenAntwoord && blok.vervolgvragen.length < 1)
+      ctx.addIssue({ code: z.ZodIssueCode.custom, path: ['vervolgvragen'], message: 'minimaal 1 vervolgvraag' });
+    if (blok.alleenAntwoord && (blok.vervolgvragen.length || blok.tabel))
+      ctx.addIssue({ code: z.ZodIssueCode.custom, path: ['alleenAntwoord'], message: 'een blok met alleenAntwoord heeft geen tabel en geen vervolgvragen' });
     if (blok.type !== 'kennisbank' && !blok.antwoord.includes('{{afzender}}'))
       ctx.addIssue({ code: z.ZodIssueCode.custom, path: ['antwoord'], message: 'moet de afzender noemen ({{afzender}})' });
     if (!blok.bron.tekst.includes('{{afzender}}'))

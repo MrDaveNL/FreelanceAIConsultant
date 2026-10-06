@@ -4,11 +4,16 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import { parseHtml, tekstVan, tekstblokken, tag, distDir, distPaginas, urlVanBestand, bestandVanUrl } from './nulmeting-lib.mjs';
-import { blokken } from '../src/data/rag/index.ts';
+import { blokSchema, valideer } from '../src/data/rag/schema.ts';
 import { services } from '../src/data/services.js';
 import { prijzen } from '../src/data/prijzen.ts';
 import { afzender } from '../src/lib/rag-blok.js';
 import { splitsZinnen, normaliseer, celFout, schrijfregelFout, begintMetJaNeeOfGetal } from '../src/lib/rag-tekst.js';
+
+// RAG_BLOKKEN: JSON-bestand met blokken in plaats van de databron, voor het controleren van concepten.
+const blokken = process.env.RAG_BLOKKEN
+  ? valideer(blokSchema, JSON.parse(fs.readFileSync(process.env.RAG_BLOKKEN, 'utf8')), 'blok', 'pagina')
+  : (await import('../src/data/rag/index.ts')).blokken;
 
 const bedragen = (t) => t.match(/€\s?\d[\d.]*\d|€\s?\d/g)?.map((b) => b.replace(/\s/g, '')) ?? [];
 const duren = (t) =>
@@ -86,7 +91,7 @@ for (const { url, doc } of paginas) {
 
     // Vervolgvragen.
     const vragen = sectie.querySelectorAll('h3');
-    if (vragen.length < 1 || vragen.length > 3) fout.push(`${vragen.length} vervolgvragen (1 tot 3 vereist)`);
+    if (blok.alleenAntwoord ? vragen.length > 0 : vragen.length < 1 || vragen.length > 3) fout.push(`${vragen.length} vervolgvragen (${blok.alleenAntwoord ? 'geen' : '1 tot 3'} vereist)`);
     for (const h3 of vragen) {
       const vraag = tekstVan(h3);
       const antwoord = h3.nextElementSibling;
@@ -120,7 +125,9 @@ for (const { url, doc } of paginas) {
     }
     for (const href of new Set(hrefs)) {
       if (href === url) fout.push('link naar de pagina zelf');
-      if (href.startsWith('/') && !fs.existsSync(path.join(distDir, bestandVanUrl(href.split('#')[0])))) fout.push(`link geeft geen 200: ${href}`);
+      // Een interne link is een pagina (map met index.html) of een bestand, zoals een download.
+      const doel = href.split('#')[0];
+      if (href.startsWith('/') && !fs.existsSync(path.join(distDir, bestandVanUrl(doel))) && !(fs.existsSync(path.join(distDir, doel)) && fs.statSync(path.join(distDir, doel)).isFile())) fout.push(`link geeft geen 200: ${href}`);
       if (href.length > 1 && href.endsWith('/')) fout.push(`link met slash aan het eind: ${href}`);
     }
 
@@ -145,13 +152,22 @@ for (const { url, doc } of paginas) {
 
     // Consistentie met de databron (src/data/prijzen.ts).
     // Per alinea en per tabelrij: elk bedrag en elke doorlooptijd hoort bij een dienst die daar genoemd wordt.
+    // Een bedrag hoort bij een dienst uit dezelfde zin, anders uit dezelfde alinea of rij. Een termijn alleen bij
+    // een dienst uit dezelfde zin: termijnen komen ook los van het eigen aanbod voor (een proef van vier weken,
+    // een wettelijke termijn). Zonder genoemde dienst gaat het niet over het eigen aanbod; op een dienstpagina
+    // telt de eigen dienst altijd mee.
+    const genoemdIn = (t) => services.filter((s) => t.includes(s.title)).map((s) => s.slug);
+    const eigen = blok.type === 'dienst' ? [url.split('/').pop()] : [];
     for (const deel of [...sectie.querySelectorAll('p'), ...sectie.querySelectorAll('tbody tr')]) {
       const deelTekst = tekstVan(deel, ' ');
-      const genoemd = services.filter((s) => deelTekst.includes(s.title)).map((s) => s.slug);
-      const slugs = genoemd.length ? genoemd : Object.keys(bron);
-      const bij = genoemd.length ? ` bij ${genoemd.join(' of ')}` : '';
-      for (const b of new Set(bedragen(deelTekst))) if (!slugs.some((s) => bron[s].bedragen.includes(b))) fout.push(`bedrag ${b} staat niet in de databron${bij}`);
-      for (const d of new Set(duren(deelTekst).map((x) => x.toLowerCase().replace(/\s?-\s?/g, '-')))) if (!slugs.some((s) => bron[s].tekst.includes(d))) fout.push(`doorlooptijd "${d}" staat niet in de databron${bij}`);
+      const inDeel = genoemdIn(deelTekst);
+      for (const zin of tag(deel) === 'tr' ? [deelTekst] : splitsZinnen(deelTekst)) {
+        const inZin = genoemdIn(zin);
+        const voorBedrag = inZin.length ? inZin : inDeel.length ? inDeel : eigen;
+        const voorDuur = inZin.length ? inZin : eigen;
+        for (const b of new Set(bedragen(zin))) if (voorBedrag.length && !voorBedrag.some((s) => bron[s].bedragen.includes(b))) fout.push(`bedrag ${b} staat niet in de databron bij ${voorBedrag.join(' of ')}`);
+        for (const d of new Set(duren(zin).map((x) => x.toLowerCase().replace(/\s?-\s?/g, '-')))) if (voorDuur.length && !voorDuur.some((s) => bron[s].tekst.includes(d))) fout.push(`doorlooptijd "${d}" staat niet in de databron bij ${voorDuur.join(' of ')}`);
+      }
     }
 
     // Dubbele tekst: geen zin uit de bestaande tekst van de pagina woordelijk in het blok.

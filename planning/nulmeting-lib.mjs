@@ -7,7 +7,8 @@ import path from 'node:path';
 import { parse } from 'node-html-parser';
 
 export const root = path.resolve(path.dirname(new URL(import.meta.url).pathname.replace(/^\/([A-Z]:)/, '$1')), '..');
-export const distDir = path.join(root, 'dist');
+// RAG_DIST: andere map met gebouwde HTML, voor het controleren van conceptblokken (planning/check-concepten.mjs).
+export const distDir = process.env.RAG_DIST ? path.resolve(process.env.RAG_DIST) : path.join(root, 'dist');
 export const nulmetingDir = path.join(root, 'docs', 'seo-nulmeting');
 
 const BLOCK = new Set(['address', 'article', 'aside', 'blockquote', 'caption', 'dd', 'details', 'div', 'dl', 'dt', 'fieldset',
