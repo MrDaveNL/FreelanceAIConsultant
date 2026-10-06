@@ -1,0 +1,30 @@
+/* RAG-ready contentblok (src/lib/rag-blok.js). Alleen bestaande designtokens uit global.css. */
+.rag-blok { padding: 26px 28px; border: 1px solid var(--line); border-radius: 16px; background: rgba(255,250,241,.7); }
+.rag-blok > :first-child { margin-top: 0; }
+.rag-blok > :last-child { margin-bottom: 0; }
+.rag-blok .rag-blok__bron { margin-top: 20px; font-size: .8rem; color: var(--muted); }
+
+/* Brede tabellen scrollen binnen hun eigen container, niet de pagina. */
+.rag-blok .rag-blok__tabel { margin: 22px 0; overflow-x: auto; }
+.rag-blok .rag-blok__tabel table { display: table; width: 100%; min-width: 540px; margin: 0; border-collapse: collapse; font-size: .86rem; }
+.rag-blok caption { padding-bottom: 8px; text-align: left; font-weight: 700; color: var(--burgundy); }
+.rag-blok th, .rag-blok td { text-align: left; padding: 10px 12px; border-bottom: 1px solid var(--line); vertical-align: top; }
+.rag-blok thead th { background: var(--sand); color: var(--burgundy-deep); }
+.rag-blok tbody th { background: transparent; color: var(--burgundy); font-weight: 700; }
+
+/* In de lopende tekst van een contentpagina (.prose levert de typografie). */
+.prose .rag-blok { margin: 0 0 40px; }
+.prose h2 + .rag-blok { margin-top: 18px; }
+
+/* Als eigen sectie in een Astro-template (dienstpagina's e.d.). */
+.rag-blok-sectie { padding: 0 0 54px; }
+.rag-blok-sectie .rag-blok { max-width: 820px; }
+.rag-blok-sectie h2 { margin: 0 0 12px; color: var(--burgundy); font-size: clamp(1.5rem, 2.4vw, 2.1rem); line-height: 1.1; letter-spacing: -.03em; font-weight: 800; }
+.rag-blok-sectie h3 { margin: 26px 0 6px; color: var(--burgundy); font-size: 1.12rem; }
+.rag-blok-sectie p { margin: 0 0 12px; font-size: .98rem; line-height: 1.62; }
+.rag-blok-sectie a { font-weight: 600; color: var(--burgundy); text-decoration: underline; text-decoration-color: var(--salmon); text-decoration-thickness: 2px; text-underline-offset: 3px; }
+.rag-blok-sectie a:hover { background: color-mix(in srgb, var(--mustard) 40%, transparent); }
+
+@media (max-width: 620px) {
+  .rag-blok { padding: 20px 18px; }
+}
