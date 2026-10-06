@@ -3,7 +3,7 @@ import { prijzen } from './prijzen.ts';
 export const services = [
   {
     slug: 'ai-readiness-assessment',
-    meta: 'Nuchtere doorlichting op strategie, data, technologie, mensen en governance. In 3 weken weet je wat haalbaar is en wat eerst moet. Vaste prijs ' + prijzen['ai-readiness-assessment'].price + '.',
+    meta: 'Nuchtere doorlichting op strategie, data, technologie, mensen en governance. In 2-3 weken weet je wat haalbaar is en wat eerst moet. Vaste prijs ' + prijzen['ai-readiness-assessment'].price + '.',
     number: '01',
     featured: true,
     tone: 'yellow',
@@ -16,7 +16,7 @@ export const services = [
     eyebrow: 'Weten waar je staat',
     heroTitle: 'AI Readiness Assessment',
     marked: 'Readiness',
-    lede: 'Een nuchtere doorlichting van je organisatie op vijf dimensies: strategie, data, technologie, mensen en governance. Je weet binnen drie weken wat haalbaar is, wat eerst moet en wat je beter nog niet doet.',
+    lede: 'Een nuchtere doorlichting van je organisatie op vijf dimensies: strategie, data, technologie, mensen en governance. Je weet binnen twee tot drie weken wat haalbaar is, wat eerst moet en wat je beter nog niet doet.',
     facts: [
       { label: 'Duur', value: prijzen['ai-readiness-assessment'].timing, tone: 'aqua' },
       { label: 'Resultaat', value: 'Readiness-rapport + 90-dagenplan', tone: 'salmon' },
@@ -29,7 +29,7 @@ export const services = [
       'Een leverancier heeft een indrukwekkende demo gegeven en nu moet er snel een besluit komen.',
       'Het datafundament wordt genoemd als probleem, maar niemand weet hoe groot dat probleem precies is.',
     ],
-    approachIntro: 'Drie weken, vier vaste blokken. Geen wekenlange interviewrondes.',
+    approachIntro: 'Twee tot drie weken, vier vaste blokken. Geen wekenlange interviewrondes.',
     approach: [
       ['Week 1', 'Documentenanalyse, datascan en 8–12 interviews dwars door de organisatie: business, IT, data, risk en een paar mensen op de werkvloer.'],
       ['Week 2', 'Scoring op vijf dimensies tegen een referentiekader, plus een eerste kansenlijst die we toetsen bij de eigenaren van die processen.'],
@@ -315,7 +315,7 @@ export const services = [
     marked: 'Executive',
     lede: 'Een sessie van drie uur waarin je directie of RvC hetzelfde, realistische beeld krijgt van wat AI voor jullie organisatie betekent, inclusief wat het van hen als toezichthouders vraagt.',
     facts: [
-      { label: 'Duur', value: '3 uur + voorbereiding', tone: 'aqua' },
+      { label: 'Duur', value: prijzen['executive-briefing'].timing, tone: 'aqua' },
       { label: 'Resultaat', value: 'Gedeeld beeld + beslisagenda', tone: 'salmon' },
       { label: 'Investering', value: prijzen['executive-briefing'].price, tone: 'yellow' },
     ],

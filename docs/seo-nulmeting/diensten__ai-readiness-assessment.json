@@ -2,12 +2,12 @@
   "url": "/diensten/ai-readiness-assessment",
   "build_bestand": "dist/diensten/ai-readiness-assessment/index.html",
   "html": {
-    "bytes": 34002,
+    "bytes": 34035,
     "lang": "nl"
   },
   "beschermd": {
     "title": "AI Readiness Assessment | Freelance AI Consultant",
-    "meta_description": "Nuchtere doorlichting op strategie, data, technologie, mensen en governance. In 3 weken weet je wat haalbaar is en wat eerst moet. Vaste prijs €7.000.",
+    "meta_description": "Nuchtere doorlichting op strategie, data, technologie, mensen en governance. In 2-3 weken weet je wat haalbaar is en wat eerst moet. Vaste prijs €7.000.",
     "canonical": "https://freelanceaiconsultant.com/diensten/ai-readiness-assessment",
     "robots_meta": null,
     "hreflang": [],
@@ -20,12 +20,12 @@
     "og:locale": "nl_NL",
     "og:site_name": "freelanceaiconsultant.com",
     "og:title": "AI Readiness Assessment | Freelance AI Consultant",
-    "og:description": "Nuchtere doorlichting op strategie, data, technologie, mensen en governance. In 3 weken weet je wat haalbaar is en wat eerst moet. Vaste prijs €7.000.",
+    "og:description": "Nuchtere doorlichting op strategie, data, technologie, mensen en governance. In 2-3 weken weet je wat haalbaar is en wat eerst moet. Vaste prijs €7.000.",
     "og:url": "https://freelanceaiconsultant.com/diensten/ai-readiness-assessment",
     "og:image": "https://freelanceaiconsultant.com/images/dave-portrait.jpg",
     "twitter:card": "summary_large_image",
     "twitter:title": "AI Readiness Assessment | Freelance AI Consultant",
-    "twitter:description": "Nuchtere doorlichting op strategie, data, technologie, mensen en governance. In 3 weken weet je wat haalbaar is en wat eerst moet. Vaste prijs €7.000.",
+    "twitter:description": "Nuchtere doorlichting op strategie, data, technologie, mensen en governance. In 2-3 weken weet je wat haalbaar is en wat eerst moet. Vaste prijs €7.000.",
     "twitter:image": "https://freelanceaiconsultant.com/images/dave-portrait.jpg"
   },
   "koppen": [
@@ -43,7 +43,7 @@
     },
     {
       "niveau": 2,
-      "tekst": "Drie weken, vier vaste blokken. Geen wekenlange interviewrondes.",
+      "tekst": "Twee tot drie weken, vier vaste blokken. Geen wekenlange interviewrondes.",
       "regio": "main",
       "id": null
     },
@@ -140,12 +140,12 @@
   ],
   "bodytekst": {
     "regio": "main",
-    "woorden": 866,
-    "sha256": "0c4c2e6174ddc8725378f5dc1364737c9464e6ea59f37ef6b392ea940c4a8725",
+    "woorden": 870,
+    "sha256": "159779ccbe16ec1711964fb68a5c716a0af635a57a0c39871878c898e155113c",
     "blokken": [
       "Weten waar je staat",
       "AI Readiness Assessment",
-      "Een nuchtere doorlichting van je organisatie op vijf dimensies: strategie, data, technologie, mensen en governance. Je weet binnen drie weken wat haalbaar is, wat eerst moet en wat je beter nog niet doet.",
+      "Een nuchtere doorlichting van je organisatie op vijf dimensies: strategie, data, technologie, mensen en governance. Je weet binnen twee tot drie weken wat haalbaar is, wat eerst moet en wat je beter nog niet doet.",
       "Plan een gesprek → Alle diensten → 30 min., geen pitch deck",
       "vertrouwen, ervaring, impact ↓",
       "Independent No vendor bias Senior only 20+ jaar ervaring",
@@ -218,7 +218,7 @@
       "Een leverancier heeft een indrukwekkende demo gegeven en nu moet er snel een besluit komen.",
       "Het datafundament wordt genoemd als probleem, maar niemand weet hoe groot dat probleem precies is.",
       "Hoe het werkt",
-      "Drie weken, vier vaste blokken. Geen wekenlange interviewrondes.",
+      "Twee tot drie weken, vier vaste blokken. Geen wekenlange interviewrondes.",
       "01",
       "Week 1",
       "Documentenanalyse, datascan en 8–12 interviews dwars door de organisatie: business, IT, data, risk en een paar mensen op de werkvloer.",
@@ -594,13 +594,13 @@
     }
   ],
   "structured_data": {
-    "sha256": "957ec096f40572d66d0c28a3ff18883cf418d977f906d7bd883d1f34745c8cd3",
+    "sha256": "6ad3bb84c9ab924db786f8817436a2075986f9a6e0612c881079c19dec598831",
     "items": [
       {
         "@context": "https://schema.org",
         "@type": "Service",
         "name": "AI Readiness Assessment",
-        "description": "Een nuchtere doorlichting van je organisatie op vijf dimensies: strategie, data, technologie, mensen en governance. Je weet binnen drie weken wat haalbaar is, wat eerst moet en wat je beter nog niet doet.",
+        "description": "Een nuchtere doorlichting van je organisatie op vijf dimensies: strategie, data, technologie, mensen en governance. Je weet binnen twee tot drie weken wat haalbaar is, wat eerst moet en wat je beter nog niet doet.",
         "provider": {
           "@type": "Person",
           "name": "Dave Willemstein",
