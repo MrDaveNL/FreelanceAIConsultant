@@ -37,7 +37,7 @@ sources:
     url: "https://www.nationaleberoepengids.nl/salaris/artificial-intelligence-engineer"
   - title: "DataJobs, Werken als AI Engineer: taken, salaris en vacatures (bijgewerkt mei 2026)"
     url: "https://www.datajobs.nl/kennisbank/carrieregids/beroepen-in-data-en-analytics/werken-als-ai-engineer"
-  - title: "Indeed, Salaris van een AI engineer in Nederland (bijgewerkt 14 september 2026)"
+  - title: "Indeed, Salaris van een AI engineer in Nederland (bijgewerkt 28 september 2026)"
     url: "https://nl.indeed.com/career/ai-engineer/salaries"
   - title: "Dutch IT Leaders, AI-specialist is de grootverdiener van 2026 (11 maart 2026), over de IT & Sales Salarisgids Nederland 2026 van The Search Company"
     url: "https://www.dutchitleaders.nl/blog/726995/ai-specialist-is-de-grootverdiener-van-2026"
@@ -83,10 +83,10 @@ Een senior AI specialist ontwerpt oplossingen, begeleidt anderen en is vaak aans
 
 Voor de titel AI engineer zijn ook bronnen die niet naar niveau indelen, maar een totaalbeeld geven:
 
-- **Indeed** meldt op basis van 400 doorgegeven salarissen dat AI engineer-salarissen doorgaans tussen € 38.702 en € 82.901 per jaar liggen, met een gemiddelde van € 56.643 per jaar (bijgewerkt 14 september 2026). Bron: [Indeed, salaris AI engineer](https://nl.indeed.com/career/ai-engineer/salaries).
+- **Indeed** meldt op basis van salarissen uit vacatures op Indeed een gemiddelde van circa € 57.000 per jaar voor een AI engineer (peildatum 6 oktober 2026). Bron: [Indeed, salaris AI engineer](https://nl.indeed.com/career/ai-engineer/salaries).
 - **DataJobs** meldt dat salarissen voor AI engineers op het eigen platform lopen van € 4.954 tot € 6.688 bruto per maand, met een mediaan van € 5.500.
 
-Die cijfers zijn lastig één-op-één te vergelijken. Indeed rekent in jaarbedragen op basis van wat werknemers zelf opgeven, DataJobs in brutomaandbedragen op basis van gegevens van het eigen platform, zonder de methode verder toe te lichten. Of vakantiegeld en bonussen zijn meegeteld, verschilt per bron. Gebruik ze daarom als orde van grootte.
+Die cijfers zijn lastig één-op-één te vergelijken. Indeed rekent in jaarbedragen op basis van salarissen uit vacatures op Indeed, DataJobs in brutomaandbedragen op basis van gegevens van het eigen platform, zonder de methode verder toe te lichten. Of vakantiegeld en bonussen zijn meegeteld, verschilt per bron. Gebruik ze daarom als orde van grootte.
 
 Voor een AI engineer, machine learning engineer of AI programmeur geldt hetzelfde als voor de AI specialist: de functietitel zegt weinig zonder de taken erbij. Wat een AI developer concreet doet, lees je in [wat doet een AI developer](/kennisbank/wat-doet-een-ai-developer).
 
