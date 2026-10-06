@@ -7,7 +7,10 @@ import { blokSchema, valideer } from '../src/data/rag/schema.ts';
 import { renderRagBlok } from '../src/lib/rag-blok.js';
 
 const [bron, uit, kop] = process.argv.slice(2);
-const concepten = JSON.parse(fs.readFileSync(bron, 'utf8'));
+const alleConcepten = JSON.parse(fs.readFileSync(bron, 'utf8'));
+// Concepten die op publicatie van de pagina wachten zijn niet herzien en niet geverifieerd; ze staan alleen in de JSON.
+const wacht = alleConcepten.filter((c) => c.status === 'wacht op publicatie');
+const concepten = alleConcepten.filter((c) => c.status !== 'wacht op publicatie');
 
 const md = (el) => {
   let s = '';
@@ -97,6 +100,8 @@ for (const [naam, items] of groepen) {
   delen.push(`## ${++n}. ${naam} (${items.length})`, '');
   for (const item of items.sort((a, b) => a.url.localeCompare(b.url))) delen.push(item.tekst);
 }
+if (wacht.length)
+  delen.push(`## Wacht op publicatie (${wacht.length})`, '', "Deze pagina's staan op `noindex`. Hun concepten staan alleen in `docs/rag-concepten.json`, zijn niet herzien of geverifieerd en worden niet geplaatst:", '', ...wacht.map((c) => `- \`${c.pagina}\``), '');
 fs.writeFileSync(uit, `${delen.join('\n').trimEnd()}\n`);
 console.log(`${alle.length} concepten geschreven naar ${uit}`);
 console.log(`getallen die niet letterlijk op de pagina staan (${getallenMis.length} pagina's):`);
