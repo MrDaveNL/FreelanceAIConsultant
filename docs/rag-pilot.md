@@ -503,3 +503,78 @@ Nieuw in de tooling hiervoor:
 - `planning/check-concepten.mjs` zet concepten op hun beoogde plek in een kopie van de build en draait daar `check-rag.mjs` op, zonder de site of de databron te raken.
 - `alleenAntwoord` in het schema: de uitzondering voor `/tarieven` (alleen vraagkop, antwoordalinea en bronregel).
 - De consistentiecontrole koppelt een bedrag aan een dienst uit dezelfde zin of alinea, en een termijn alleen aan een dienst uit dezelfde zin. Zonder genoemde dienst gaat een bedrag of termijn niet over het eigen aanbod (toolprijs, wettelijke termijn) en wordt het niet tegen `prijzen.ts` gelegd.
+
+---
+
+# Vervolg 2: gesplitst blok onder een bestaande kop, pilot 3 opnieuw
+
+Stand: 6 oktober 2026. Geldt boven hoofdstuk 14.
+
+## 17. Wat er is aangepast
+
+- **Splitsing.** Onder een bestaande kop rendert het blok in twee delen: `rag-blok--antwoord` (de antwoordalinea, en een tabel als die er is) direct onder de bestaande H2, en `rag-blok--vervolg` (vervolgvragen en bronregel) aan het eind van die sectie, vóór de volgende H2 of het einde van de content. Met een eigen vraagkop blijft het blok één geheel.
+- **Controle.** `check-rag.mjs` faalt als na het deel met de vervolgvragen in dezelfde container nog iets anders volgt dan een H2, als het antwoorddeel een `h3` bevat, als er een H2 tussen beide delen staat, of als het antwoorddeel niet direct onder de bestaande H2 staat. Bestaande tekst kan daardoor niet onder een `h3` van het blok terechtkomen zonder dat de build faalt.
+- **Prijsniveaus voluit.** De Fractional AI Lead staat niet meer als "€2.600 / €5.200 / €10.400 per maand", maar per niveau met bedrag, periode, naam en omvang, letterlijk uit `fractionalNiveaus` in `prijzen.ts`. Een schuine streep bij een bedrag of omvang is nu een fout in de controle.
+- **Volgorde in antwoorden.** Een antwoord op een vervolgvraag begint met het antwoord zelf. Een bedrag vooraan mag alleen als de vraag naar het bedrag vraagt.
+
+## 18. Pilot 3 opnieuw: `/ai-consultancy/ai-consultant-inhuren`
+
+**Diff van de bestaande pagina:** geen. Het Markdown-bestand en het template zijn niet gewijzigd.
+
+**Ruwe HTML** (uit `curl`, zonder JavaScript) van de hele sectie, van de bestaande H2 tot de volgende H2:
+
+```html
+<h2 id="wat-kost-een-ai-consultant-inhuren">Wat kost een AI consultant inhuren?</h2>
+<section class="rag-blok rag-blok--antwoord">
+<p class="rag-blok__antwoord">Een AI consultant inhuren bij Dave Willemstein kost per pakket een vaste prijs of een bedrag binnen een bandbreedte. Het <a href="/diensten/ai-readiness-assessment">AI Readiness Assessment</a> kost €7.000, de <a href="/diensten/ai-strategy-sprint">AI Strategy Sprint</a> kost €15.400 - €22.400 en de <a href="/diensten/fractional-ai-lead">Fractional AI Lead</a> kost €2.600 per maand voor Advies (2 dagen per maand), €5.200 per maand voor Lead (4 dagen per maand) en €10.400 per maand voor Lead+ (8 dagen per maand). De bedragen gelden exclusief btw en reiskosten.</p>
+</section>
+<p>Ik werk niet met een open uurtarief, maar met vaste pakketten en zichtbare vanaf-prijzen. Er zijn drie inhuurvormen:</p>
+<table>… bestaande tabel met inhuurvormen, ongewijzigd …</table>
+<p>Het kleinste pakket met een vaste prijs is de Executive Briefing van €2.800. Een <a href="/diensten/fractional-ai-lead">Fractional AI Lead</a> is de vorm om een AI consultant voor langere tijd in te huren: 2, 4 of 8 dagen / maand, met een minimale looptijd van 3 maanden, daarna maandelijks opzegbaar, zonder dat je direct een fulltime Head of AI aanneemt.</p>
+<p>Alle bedragen zijn exclusief btw en reiskosten. Een volledig overzicht staat op de pagina met <a href="/tarieven">tarieven en pakketten</a>.</p>
+<section class="rag-blok rag-blok--vervolg">
+<h3>Wat is het kleinste pakket om een AI consultant in te huren?</h3>
+<p>De <a href="/diensten/executive-briefing">Executive Briefing</a>. Dat pakket heeft een vaste prijs van €2.800.</p>
+<h3>Kan een AI consultant inhuren ook zonder vast pakket?</h3>
+<p>Ja. AI consultant inhuren kan ook voor afgebakend advies, zoals een second opinion, een workshop of een korte toets, tegen een vaste prijs die in het voorstel staat.</p>
+<p class="rag-blok__bron">Bron: <a href="/tarieven">tarieven en doorlooptijden van Dave Willemstein</a>. Bijgewerkt: <time datetime="2026-10">oktober 2026</time>.</p>
+</section>
+<h2 id="zo-start-je">Zo start je</h2>
+```
+
+**Voor- en na-controle:**
+
+```
+✓ /ai-consultancy/ai-consultant-inhuren
+  info  2 kop(pen) toegevoegd
+  info  6 tekstblok(ken) toegevoegd, 143 woorden erbij
+  info  5 link(s) toegevoegd
+  info  HTML: 34372 → 35780 bytes
+
+1 pagina's vergeleken met de nulmeting: 0 ongewijzigd, 1 met alleen toevoegingen, 0 met fouten.
+```
+
+De bestaande alinea's, de bestaande tabel en de bestaande links staan tussen de twee blokdelen, ongewijzigd en in dezelfde volgorde. De eerste `h3` van het blok komt pas na de laatste bestaande alinea van de sectie.
+
+## 19. Datagat erbij
+
+| Dienst | Ontbreekt |
+|---|---|
+| Fractional AI Lead | Wat de niveaus Advies, Lead en Lead+ inhoudelijk betekenen. `prijzen.ts` geeft per niveau alleen de naam, het aantal dagen per maand en het maandbedrag. Het blok toont daarom alleen die drie gegevens. |
+
+## 20. Verificatie
+
+Alle blokken en concepten zijn in drie lagen geverifieerd; zie `docs/rag-verificatie.md`. Ook de drie geplaatste pilotblokken zijn meegenomen. Bij alle drie staat iets open, en ze zijn niet gewijzigd omdat ze al geplaatst zijn:
+
+- `/diensten/ai-readiness-assessment`: 10 van 10 zinnen bevestigd, 0 voorgelegd, 1 bevinding(en).
+  - Bevinding (vraag): De bron noemt naast 'Vaste prijs' ook een uitzondering: voor één business unit of procesdomein 'ligt de investering lager' (src/data/services.js regel 72). De vraag en het antwoord noemen die nuance niet.
+- `/ai-consultancy/ai-strategie`: 8 van 10 zinnen bevestigd, 2 voorgelegd, 2 bevinding(en).
+  - A3: "Beide bedragen zijn exclusief btw en reiskosten.". Alleen 'exclusief btw' staat in de bronnen van dit blok (prijzen.ts regel 1); 'reiskosten' komt in geen van de drie bronbestanden voor. (blok is al geplaatst en is niet gewijzigd)
+  - V2.1: "Ja.". De bron zegt alleen 'nog niet klaar' (als uitkomst van het assessment) en noemt het fundamentplan juist 'ook een strategische keuze'; 'niet klaar voor een AI strategie' staat er niet. (blok is al geplaatst en is niet gewijzigd)
+  - Bevinding (vraag): De vraag veronderstelt 'nog niet klaar voor een AI strategie'. De bron (regel 100) zegt alleen 'nog niet klaar' en noemt het plan voor het fundament 'ook een strategische keuze'; de toevoeging 'voor een AI strategie' is niet gedekt.
+  - Bevinding (vraag): De vraag spreekt over 'een AI strategie' die goedkoper wordt; de bron koppelt de onderkant van de bandbreedte uitsluitend aan de AI Strategy Sprint (prijsnotitie), niet aan 'een AI strategie' in het algemeen.
+- `/ai-consultancy/ai-consultant-inhuren`: 5 van 7 zinnen bevestigd, 2 voorgelegd, 2 bevinding(en).
+  - A1: "Een AI consultant inhuren bij Dave Willemstein kost per pakket een vaste prijs of een bedrag binnen een bandbreedte.". De bron van deze pagina noemt 'vaste pakketten en zichtbare vanaf-prijzen' en het woord bandbreedte komt er niet in voor; bovendien heeft de Fractional AI Lead een maandbedrag per niveau, wat geen vaste prijs en geen bandbreedte is, dus de tweedeling dekt niet
+  - V1.1: "De Executive Briefing [link naar /diensten/executive-briefing].". De bron van deze pagina noemt de Executive Briefing alleen 'het kleinste pakket met een vaste prijs'; de zin (als antwoord op de vraag) maakt daar zonder die beperking 'het kleinste pakket' van, wat breder is. (blok is al geplaatst en is niet gewijzigd)
+  - Bevinding (vraag): De vraag 'Wat is het kleinste pakket om een AI consultant in te huren?' veronderstelt een kleinste pakket zonder meer; de bron van deze pagina zegt alleen 'het kleinste pakket met een vaste prijs' (regel 99).
+  - Bevinding (vraag): De term 'zonder vast pakket' staat niet letterlijk in de bron; de bron noemt 'Afgebakend advies' als een van drie inhuurvormen naast 'Vast traject' en 'Doorlopende rol' (regels 92-97).

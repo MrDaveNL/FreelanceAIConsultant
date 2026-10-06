@@ -37,9 +37,9 @@ const volgorde = ["Dienstpagina's", 'Dienstenoverzicht en tarieven', "Hubs en ov
 const groepen = new Map(volgorde.map((v) => [v, []]));
 const getallenMis = [];
 for (const c of concepten) {
-  const { herkomst, opmerking, _groep, ...velden } = c;
+  const { herkomst, opmerking, _groep, status, verificatie, geschrapt, ...velden } = c;
   const [blok] = valideer(blokSchema, [{ bijgewerkt: '2026-10', concept: true, ...velden }], 'concept', 'pagina');
-  const sectie = parseHtml(renderRagBlok(blok)).querySelector('section');
+  const sectie = parseHtml(`<div>${renderRagBlok(blok)}</div>`).querySelector('div');
   const pagina = parseHtml(fs.readFileSync(path.join(distDir, bestandVanUrl(blok.pagina)), 'utf8'));
   const robots = pagina.querySelector('meta[name="robots"]')?.getAttribute('content');
   const h1 = tekstVan(pagina.querySelector('h1'));
@@ -57,9 +57,10 @@ for (const c of concepten) {
   r.push('');
   r.push(`Pagina: ${h1}${robots ? ` · staat op \`${robots}\`` : ''}`);
   r.push('');
+  r.push(`- **Status:** ${status ?? 'concept'}${verificatie ? ` (${verificatie.bevestigd} van ${verificatie.zinnen} zinnen bevestigd, ${verificatie.geschrapt} geschrapt, ${verificatie.voorgelegd} voorgelegd, ${verificatie.bevindingen} bevinding(en) open)` : ''}`);
   r.push(`- **Bloktype:** ${blok.type}${blok.alleenAntwoord ? ' (alleen vraagkop, antwoordalinea en bronregel)' : ''}`);
   r.push(blok.onderBestaandeKop
-    ? `- **Plek:** direct onder de bestaande H2 "${blok.vraagkop}", vóór de bestaande tekst. Het blok krijgt geen eigen kop.`
+    ? `- **Plek:** antwoordalinea direct onder de bestaande H2 "${blok.vraagkop}"; vervolgvragen en bronregel aan het eind van die sectie. Geen eigen kop.`
     : `- **Plek:** eigen vraagkop, na de hero en vóór de eerste bestaande H2 ("${eersteH2}").`);
   r.push(`- **Vraagkop:** ${blok.vraagkop}${blok.onderBestaandeKop ? ' (bestaand)' : ''}`);
   r.push(`- **Antwoordalinea:** ${md(sectie.querySelector('.rag-blok__antwoord'))}`);
