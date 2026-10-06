@@ -12,9 +12,11 @@ import { splitsZinnen, normaliseer, celFout, schrijfregelFout, begintMetJaNeeOfG
 const bedragen = (t) => t.match(/€\s?\d[\d.]*\d|€\s?\d/g)?.map((b) => b.replace(/\s/g, '')) ?? [];
 const duren = (t) =>
   t.match(/(?<![\p{L}\d])(?:\d+(?:\s?-\s?\d+)?(?:,\s\d+)*(?:\sof\s\d+)?|één|een|twee|drie|vier|vijf|zes|acht)\s(?:weken|week|maanden|maand|dagen|dagdelen|dagdeel|uur)(?![\p{L}])/giu) ?? [];
-// Alles wat de databron over prijs en doorlooptijd zegt.
-const bronBedragen = new Set(Object.values(prijzen).flatMap((p) => bedragen(`${p.price} ${p.cardPrice ?? ''} ${p.priceNote}`)));
-const bronTekst = Object.values(prijzen).map((p) => `${p.timing} | ${p.cardTiming ?? ''} | ${p.priceNote}`).join(' | ').toLowerCase();
+// Wat de databron per dienst over prijs en doorlooptijd zegt.
+const bron = Object.fromEntries(Object.entries(prijzen).map(([slug, p]) => [slug, {
+  bedragen: bedragen(`${p.price} ${p.cardPrice ?? ''} ${p.priceNote}`),
+  tekst: `${p.timing} | ${p.cardTiming ?? ''} | ${p.priceNote}`.toLowerCase(),
+}]));
 
 const paginas = distPaginas().map((rel) => {
   const url = urlVanBestand(rel);
@@ -22,7 +24,8 @@ const paginas = distPaginas().map((rel) => {
 });
 const inBlok = (el) => { for (let p = el; p; p = p.parentNode) if (p.classList?.contains('rag-blok')) return true; return false; };
 // Alle koppen van de site, om dubbele vraagkoppen te vinden.
-const koppenPerPagina = new Map(paginas.map(({ url, doc }) => [url, doc.querySelectorAll('h1,h2,h3,h4,h5,h6').map((h) => ({ tekst: normaliseer(tekstVan(h)), blok: inBlok(h) }))]));
+// Ook de vragen in de FAQ-accordeons (summary) tellen mee: dat zijn op deze site de bestaande vraagkoppen.
+const koppenPerPagina = new Map(paginas.map(({ url, doc }) => [url, doc.querySelectorAll('h1,h2,h3,h4,h5,h6,summary').map((h) => ({ tekst: normaliseer(tekstVan(h).replace(/\s*\+$/, '')), blok: inBlok(h) }))]));
 
 let fouten = 0;
 const concepten = [];
@@ -101,9 +104,9 @@ for (const { url, doc } of paginas) {
     }
 
     // Bron en datum.
-    const bron = sectie.querySelector('.rag-blok__bron');
-    if (!bron || !/^Bron: \S/.test(tekstVan(bron))) fout.push('bronregel ontbreekt');
-    if (!/^\d{4}-\d{2}(-\d{2})?$/.test(bron?.querySelector('time')?.getAttribute('datetime') ?? '')) fout.push('time met datetime ontbreekt in de bronregel');
+    const bronregel = sectie.querySelector('.rag-blok__bron');
+    if (!bronregel || !/^Bron: \S/.test(tekstVan(bronregel))) fout.push('bronregel ontbreekt');
+    if (!/^\d{4}-\d{2}(-\d{2})?$/.test(bronregel?.querySelector('time')?.getAttribute('datetime') ?? '')) fout.push('time met datetime ontbreekt in de bronregel');
 
     // Zichtbaar en server-side.
     for (let p = sectie.parentNode; p; p = p.parentNode) {
@@ -119,8 +122,15 @@ for (const { url, doc } of paginas) {
     if (schrijf) fout.push(`tekst ${schrijf}`);
 
     // Consistentie met de databron (src/data/prijzen.ts).
-    for (const b of new Set(bedragen(tekst))) if (!bronBedragen.has(b)) fout.push(`bedrag ${b} staat niet in de databron`);
-    for (const d of new Set(duren(tekst).map((x) => x.toLowerCase().replace(/\s?-\s?/g, '-')))) if (!bronTekst.includes(d)) fout.push(`doorlooptijd "${d}" staat niet in de databron`);
+    // Per alinea en per tabelrij: elk bedrag en elke doorlooptijd hoort bij een dienst die daar genoemd wordt.
+    for (const deel of [...sectie.querySelectorAll('p'), ...sectie.querySelectorAll('tbody tr')]) {
+      const deelTekst = tekstVan(deel, ' ');
+      const genoemd = services.filter((s) => deelTekst.includes(s.title)).map((s) => s.slug);
+      const slugs = genoemd.length ? genoemd : Object.keys(bron);
+      const bij = genoemd.length ? ` bij ${genoemd.join(' of ')}` : '';
+      for (const b of new Set(bedragen(deelTekst))) if (!slugs.some((s) => bron[s].bedragen.includes(b))) fout.push(`bedrag ${b} staat niet in de databron${bij}`);
+      for (const d of new Set(duren(deelTekst).map((x) => x.toLowerCase().replace(/\s?-\s?/g, '-')))) if (!slugs.some((s) => bron[s].tekst.includes(d))) fout.push(`doorlooptijd "${d}" staat niet in de databron${bij}`);
+    }
 
     // Dubbele tekst: geen zin uit de bestaande tekst van de pagina woordelijk in het blok.
     const zonderBlok = parseHtml(doc.querySelector('main').toString());
