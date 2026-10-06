@@ -86,7 +86,7 @@ Voordat je keuzes maakt, moet je weten waar je staat. AI maturity en AI readines
 
 Dat beantwoord ik met het [AI Readiness Assessment](/diensten/ai-readiness-assessment). Ik licht je organisatie door op vijf dimensies: strategie, data, technologie, mensen en governance. In {{timing:ai-readiness-assessment}} doe ik een documentenanalyse, een datascan op de relevante bronnen en acht tot twaalf interviews dwars door de organisatie, van business en IT tot risk en de werkvloer. Daarna scoor ik de vijf dimensies tegen een referentiekader en toets ik een eerste kansenlijst bij de eigenaren van de processen.
 
-<figure class="diagram" role="img" aria-label="Het AI Readiness Assessment in drie weken: in week 1 documentenanalyse, datascan en interviews, in week 2 scoring op vijf dimensies en een eerste kansenlijst, in week 3 prioritering, 90-dagenplan en eindsessie">
+<figure class="diagram" role="img" aria-label="Het AI Readiness Assessment in {{timing:ai-readiness-assessment}}: in week 1 documentenanalyse, datascan en interviews, in week 2 scoring op vijf dimensies en een eerste kansenlijst, in week 3 prioritering, 90-dagenplan en eindsessie">
 <ol class="flow">
 <li><b>Week 1: ophalen</b>Documentenanalyse, datascan en 8 tot 12 interviews</li>
 <li><b>Week 2: scoren</b>Vijf dimensies tegen een referentiekader, eerste kansenlijst getoetst bij proceseigenaren</li>
