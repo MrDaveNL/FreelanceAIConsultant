@@ -26,7 +26,7 @@
       "href": "/tarieven"
     },
     "herkomst": "Antwoord: lede, 'Vier vaste beslismomenten, verdeeld over vijf werksessies', deliverables en 'best passend bij' in services.js; prijsvoorwaarde uit prijzen.ts. Vervolgvraag 1: prijsnotitie in prijzen.ts. Vervolgvraag 2: beide punten onder 'Minder geschikt als' (notFor in services.js, kop in [slug].astro). Vervolgvraag 3: aanpak en de bestaande FAQ over de kerngroep.",
-    "status": "geverifieerd",
+    "status": "akkoord",
     "wijzigingen": [
       "Antwoord: uitgetypte prijsvoorwaarde vervangen door het token {{voorwaarden}}.",
       "Vervolgvraag 1: ja-neevraag met kaal 'Ja' omgebouwd tot een vraag naar de plek in de bandbreedte; antwoord volgt de prijsnotitie (onderkant, bovenkant).",
@@ -65,7 +65,7 @@
       "href": "/tarieven"
     },
     "herkomst": "Antwoord: eyebrow en meta (senior leiderschap, deeltijd), 'best passend bij', feit 'Looptijd' en de prijsnotitie in prijzen.ts. Vervolgvraag 1: prijsnotitie ('Minimaal 3 maanden, daarna maandelijks opzegbaar'). Vervolgvraag 2: eyebrow 'Senior leiderschap, deeltijd', feit 'Ritme' en 'best passend bij' (tweede punt).",
-    "status": "geverifieerd",
+    "status": "akkoord",
     "wijzigingen": [
       "Antwoord: omvang (2, 4 of 8 dagen per maand) uit de tweede zin gehaald, omdat {{pricelc:fractional-ai-lead}} die al bevat.",
       "Antwoord: 'exclusief btw en reiskosten' vervangen door het token {{voorwaarden}}.",
@@ -104,7 +104,7 @@
       "href": "/tarieven"
     },
     "herkomst": "Antwoord: meta, deliverables en 'best passend bij' in services.js; prijs, doorlooptijd en prijsvoorwaarde uit prijzen.ts. Vervolgvraag 1: prijsnotitie in prijzen.ts. Vervolgvraag 2: 'Minder geschikt als' (notFor in services.js, kop in [slug].astro).",
-    "status": "geverifieerd",
+    "status": "akkoord",
     "wijzigingen": [
       "Antwoord: 'exclusief btw en reiskosten' vervangen door het token {{voorwaarden}}.",
       "Vervolgvraag 1: vraag omgebouwd van 'Hoeveel leveranciers beoordeelt een Vendor Review?' naar 'Wat bepaalt de prijs van een Vendor Review?'; de bron noemt '2 tot 4' alleen als prijsfactor en de case op de pagina noemt 12 leveranciers. Het kale '2 tot 4.' is geschrapt.",
@@ -142,7 +142,7 @@
       "href": "/tarieven"
     },
     "herkomst": "Antwoord: lede, deliverables en 'best passend bij' in services.js; prijsvoorwaarde uit prijzen.ts. Vervolgvraag 1: prijsnotitie in prijzen.ts. Vervolgvraag 2: 'Minder geschikt als' ([slug].astro) met notFor en cardText in services.js.",
-    "status": "geverifieerd",
+    "status": "akkoord",
     "wijzigingen": [
       "Antwoord: uitgeschreven prijsvoorwaarde vervangen door het token {{voorwaarden}}.",
       "Vervolgvraag 1: vraag omgebouwd (de bron kent geen verrekening met 'een vervolgtraject' in het algemeen) en het kale 'Ja.' geschrapt; het antwoord begint nu met de voorwaarde uit de prijsnotitie.",
@@ -181,7 +181,7 @@
       "href": "/tarieven"
     },
     "herkomst": "Antwoord: lede, deliverables en 'best passend bij' in services.js; prijsvoorwaarde uit prijzen.ts. Vervolgvraag 1: prijsnotitie in prijzen.ts. Vervolgvraag 2: 'Minder geschikt als' ([slug].astro) met notFor in services.js.",
-    "status": "geverifieerd",
+    "status": "akkoord",
     "wijzigingen": [
       "Antwoord: uitgetypte 'exclusief btw en reiskosten' vervangen door het token {{voorwaarden}}.",
       "Vervolgvraag 1: onvoorwaardelijk: true gezet; de prijsnotitie in prijzen.ts maakt geen voorbehoud.",
@@ -215,7 +215,7 @@
       "href": "/tarieven"
     },
     "herkomst": "Antwoord: de intro van de pagina (vaste prijs of duidelijke bandbreedte), de paginabeschrijving (van AI Readiness Assessment tot Fractional AI Lead), de rij 'Doel' van de vergelijking 'Welke past wanneer?' (serviceComparison in services.js) en de notitie onder de vergelijking. Vervolgvragen: 'Hoe een opdracht begint', de intro en de notitie onder de vergelijking.",
-    "status": "geverifieerd",
+    "status": "akkoord",
     "wijzigingen": [
       "A1: spanwijdte omgebouwd naar die van de bron (van AI Readiness Assessment tot Fractional AI Lead); de eigen ordening vanaf de Executive Briefing met doorlooptijd is geschrapt; 'duidelijke bandbreedte' zoals de bron.",
       "A2: 'hangt af van de situatie' en 'een leverancier kiezen' geschrapt (niet in de bron); vervangen door het doel per hoofddienst uit de vergelijking 'Welke past wanneer?'.",
@@ -253,7 +253,7 @@
       "href": "/tarieven"
     },
     "herkomst": "Antwoord: summary, alinea onder 'Wat kost AI consultancy?', de bestaande tabel 'Pakketten en vanaf-prijzen' en de eerste FAQ.",
-    "status": "geverifieerd",
+    "status": "akkoord",
     "wijzigingen": [
       "A3: uitgetypte prijsvoorwaarde vervangen door het token {{voorwaarden}} (regel 4 van de opdracht)."
     ],
@@ -294,7 +294,7 @@
       "href": "/tarieven"
     },
     "herkomst": "Antwoord: alinea's en prijstabel onder 'Wat kost AI consultancy?'. Vervolgvraag 1: alinea 'Governance en compliance' plus de tabelrij Executive Briefing. Vervolgvraag 2: alinea 'Praktisch en binnen budget'. Vervolgvraag 3: 'Wat is AI consultancy?' (tweede alinea) en 'Begeleiding bij implementatie'.",
-    "status": "geverifieerd",
+    "status": "akkoord",
     "wijzigingen": [
       "Antwoord: {{timing:fractional-ai-lead}} verwijderd omdat {{pricelc:fractional-ai-lead}} de omvang al noemt (stond dubbel in dezelfde zin).",
       "Antwoord: 'btw en reiskosten nog bovenop' vervangen door het token {{voorwaarden}}.",
@@ -337,7 +337,7 @@
       "tekst": "artikel van {{afzender}}"
     },
     "herkomst": "Antwoord: de drie alinea's onder 'Wat is een AI roadmap?' en 'Planning en budget'. Vervolgvraag 1: derde alinea onder 'Wat is een AI roadmap?' en het FAQ-antwoord over het implementatieplan. Vervolgvraag 2: 'AI roadmap voor het MKB'. Vervolgvraag 3: alinea's onder 'Inventarisatie' en 'Deliverables van een AI roadmap'.",
-    "status": "geverifieerd",
+    "status": "akkoord",
     "wijzigingen": [
       "Antwoord: 'De roadmap bestaat uit een handvol use cases' teruggebracht naar de stelligheid van de bron ('een goede AI roadmap is kort ... een handvol use cases'); 'alleen de eerste drie maanden' zonder het toegevoegde 'alleen'; 'geregeld moet zijn' naar 'nodig is'.",
       "Vervolgvraag 1: 'alleen de eerste horizon is concreet gepland' vervangen door de bronwoorden (eerste drie maanden concreet, daarna grover); 'plan' naar 'implementatieplan'; onvoorwaardelijk gemarkeerd (bron: 'Een roadmap is ook geen projectplanning').",
@@ -431,7 +431,7 @@
       "tekst": "[tarieven en doorlooptijden](/tarieven) van {{afzender}}; primaire bron: Verordening (EU) 2024/1689 (AI-verordening), EUR-Lex (peildatum 6 oktober 2026)"
     },
     "herkomst": "Antwoord: 'Wat is AI advies?', 'AI advies versus AI consultancy', de FAQ over toolkeuze en de alinea over de Executive Briefing onder 'Hoe een adviestraject verloopt'. Tabel: 'Tools en leveranciers' (afgebakend advies en Vendor Review) en 'Hoe een adviestraject verloopt' (Executive Briefing, AI Readiness Assessment). Vervolgvragen: 'Hoe een adviestraject verloopt', 'Risico's en compliance' en het figuurbijschrift onder 'AI advies versus AI consultancy'.",
-    "status": "concept",
+    "status": "akkoord",
     "wijzigingen": [
       "Antwoord: de doorlooptijd van de Executive Briefing (token '1 dagdeel incl. voorbereiding') weggehaald, omdat de pagina zelf 'een sessie van drie uur' zegt en er anders twee formuleringen van de duur op één pagina staan.",
       "Antwoord: 'meestal binnen dagen' gelijkgetrokken met de bron ('meestal in dagen'); de zin over de vaste prijs anders verwoord zodat hij niet woordelijk de paginazin overneemt.",
@@ -481,7 +481,7 @@
       "tekst": "artikel van {{afzender}}"
     },
     "herkomst": "Antwoord: 'Wat is een AI consultant?', het diagram onder 'Taken van een AI consultant' en 'AI consultant versus AI developer'. Vervolgvraag 1: derde alinea onder 'Wat is een AI consultant?' en de FAQ over implementeren. Vervolgvraag 2: slotalinea onder 'AI consultant versus AI developer'. Vervolgvraag 3: 'Wanneer schakel je een AI consultant in?'.",
-    "status": "geverifieerd",
+    "status": "akkoord",
     "wijzigingen": [
       "Vervolgvraag 1: kaal 'Nee.' vervangen door 'Dat verschilt per AI consultant' (FAQ van de pagina) met het voorbehoud 'grofweg'; 'Beide kunnen goed werk leveren' uit de bron toegevoegd.",
       "Vervolgvraag 2: vraag omgebouwd en kaal 'Ja.' geschrapt; de bron zegt niet dat één partij beide rollen 'kan' combineren, alleen dat het riskant wordt als die partij aan de bouw verdient.",
@@ -581,7 +581,7 @@
       "href": "/tarieven"
     },
     "herkomst": "Antwoord: 'Mijn implementatieaanpak' (inleiding) en 'Kosten en doorlooptijd'. Tabel: 'AI implementatie: van strategie naar praktijk' (AI Readiness Assessment), 'Bouwen en testen' (Vendor Review) en 'Monitoren en optimaliseren' (Fractional AI Lead). Vervolgvragen: 'Bouwen en testen', 'AI implementatie: van strategie naar praktijk' en 'Kosten en doorlooptijd'.",
-    "status": "geverifieerd",
+    "status": "akkoord",
     "wijzigingen": [
       "Vervolgvraag 1: onvoorwaardelijk: true gezet (de bron zegt zonder voorbehoud dat er geen marge op partners wordt gerekend). Tweede zin omgebouwd: de bron noemt het eigen team of een rechtstreeks gecontracteerde partij, niet alleen een gecontracteerde bouwpartij.",
       "Vervolgvraag 2: onvoorwaardelijk: true gezet (de bron: geen roadmap is geen reden om te wachten). 'een tweede toepassing' vervangen door 'de tweede en derde toepassing', zoals de bron.",
@@ -623,7 +623,7 @@
       "tekst": "[tarieven en doorlooptijden](/tarieven) van {{afzender}}; primaire bron: Verordening (EU) 2016/679 (AVG), EUR-Lex; Autoriteit Persoonsgegevens: Data protection impact assessment (DPIA) (peildatum 6 oktober 2026)"
     },
     "herkomst": "Antwoord: 'Waar ik over adviseer' (vier onderwerpen) en de alinea's over afgebakend advies, het AI Readiness Assessment en het beslisdocument onder 'Hoe een adviestraject verloopt'. Vervolgvraag 1 en 3: 'Hoe een adviestraject verloopt'. Vervolgvraag 2: 'Data en privacy'.",
-    "status": "concept",
+    "status": "akkoord",
     "wijzigingen": [
       "A2: voorbehoud 'meestal' van de bron teruggezet ('past meestal bij afgebakend advies').",
       "V1: vraag gebruikt nu de term van de bron ('dik rapport'); kaal Nee gemarkeerd als onvoorwaardelijk; opsomming aangevuld tot de formulering van de bron ('welke verandering nodig is', 'om te slagen').",
@@ -674,7 +674,7 @@
       "tekst": "artikel van {{afzender}}"
     },
     "herkomst": "Antwoord: openingsalinea, diagram en de alinea over één toepassing onder 'Stap 1: Bepaal het doel'. Vervolgvraag 1: summary en 'Stap 1: Bepaal het doel'. Vervolgvraag 2: openingsalinea onder 'Stap 1: Bepaal het doel' (gevolg van stap 3 overslaan en stap 6 uitstellen). Vervolgvraag 3: 'Download de checklist'.",
-    "status": "geverifieerd",
+    "status": "akkoord",
     "wijzigingen": [
       "A3: beide voorwaarden van de bron opgenomen (meerdere kandidaten en eerst de volgorde willen bepalen) en als advies geformuleerd in plaats van als feit.",
       "Vervolgvraag 2: ja-neevraag met categorisch 'Nee' vervangen door een open vraag naar het gevolg dat de bron beschrijft; het kale 'Nee.' is geschrapt.",
@@ -717,7 +717,7 @@
       "href": "/tarieven"
     },
     "herkomst": "Antwoord: lede, summary en de alinea's onder 'Zo pak ik AI automatisering aan', inclusief de slotalinea over het AI Readiness Assessment. Vervolgvraag 1: 'Zo pak ik AI automatisering aan'. Vervolgvraag 2: 'Kosten en terugverdientijd'. Vervolgvraag 3: 'Tools en workflows'.",
-    "status": "geverifieerd",
+    "status": "akkoord",
     "wijzigingen": [
       "Antwoord: uitgetypte prijsvoorwaarde vervangen door het token {{voorwaarden}}.",
       "Vervolgvraag 1: onvoorwaardelijk gemarkeerd (de pagina zegt zonder voorbehoud dat de adviseur zelf geen automatiseringen bouwt).",
@@ -753,7 +753,7 @@
       "tekst": "artikel van {{afzender}}"
     },
     "herkomst": "Antwoord: 'Welke bedrijfsprocessen kun je automatiseren met AI?', summary, 'Hoe kies je het juiste proces?', 'Van proces naar geautomatiseerde workflow' en de slotalinea. Vervolgvraag 1: stap 'AI-stap bepalen'. Vervolgvraag 2: 'Besparing berekenen', zonder de fictieve bedragen.",
-    "status": "geverifieerd",
+    "status": "akkoord",
     "wijzigingen": [
       "Antwoord: 'loont vooral' vervangen door 'werkt het best' (bronwoorden); 'een hoog volume en een controlestap die al bestaat' weggehaald uit die zin, omdat de bron 'werkt het best' alleen aan tekst, documenten of vrije input koppelt.",
       "Vervolgvraag 1: ja-neevraag met kaal 'Nee.' omgebouwd naar een open vraag; de bron geeft een instructie om vast te leggen wat de AI mag en niet mag, geen verbod. 'vooraf' geschrapt (staat niet in de bron).",
@@ -803,7 +803,7 @@
       "tekst": "artikel van {{afzender}}"
     },
     "herkomst": "Antwoord: 'Wat is een AI workflow?' met de lijst bouwstenen, en het schema onder 'AI workflows versus AI agents'. Vervolgvraag 1: 'AI workflows versus AI agents'. Vervolgvraag 2 en 3: de genummerde lijst onder 'Een AI workflow implementeren'.",
-    "status": "geverifieerd",
+    "status": "akkoord",
     "wijzigingen": [
       "Antwoord zin 2: 'bijna altijd' en 'dezelfde' uit de bron teruggezet.",
       "Antwoord zin 3: de tweede voorwaarde van de bron toegevoegd (elke uitkomst kunnen verklaren).",
@@ -842,7 +842,7 @@
       "tekst": "artikel van {{afzender}}"
     },
     "herkomst": "Antwoord: lede, summary, de criterialijst en de keuzeboom onder 'Hoe kies je een AI tool?' en de slotalinea onder 'Vergelijkingstabel'. Vervolgvraag 1: de kanttekening onder 'Hoe kies je een AI tool?'. Vervolgvraag 2: slotalinea onder 'Nieuwe AI tools om te volgen' en de slotalinea onder 'Vergelijkingstabel'.",
-    "status": "geverifieerd",
+    "status": "akkoord",
     "wijzigingen": [
       "Vervolgvraag 1: inhoud ongewijzigd; 'onvoorwaardelijk' gezet omdat de bron zonder voorbehoud zegt dat niemand voor een vermelding betaalt.",
       "Vervolgvraag 2: vraag omgebouwd en kaal 'Nee.' geschrapt; 'geldt dat' vervangen door 'Het advies bij elke nieuwe AI-tool is', omdat de bron dit als advies brengt en niet als algemene regel. De tweede zin kreeg de voorwaarde van de bron (een keuze die meer dan een paar licenties raakt).",
@@ -890,7 +890,7 @@
       "tekst": "artikel van {{afzender}}; primaire bron: Verordening (EU) 2024/1689 (AI Act), EUR-Lex (peildatum 6 oktober 2026)"
     },
     "herkomst": "Antwoord: lede, summary, de inleiding onder 'AI voorbeelden per afdeling' en de keuzematrix onder 'Hoe kies je de juiste toepassing?'. Vervolgvraag 1: inleiding 'AI voorbeelden per afdeling' en 'AI voorbeelden in het dagelijks leven'. Vervolgvraag 2: voorbeelden 14, 17 en 19 en de slotalinea onder 'AI voorbeelden per sector'. Vervolgvraag 3: slotalinea.",
-    "status": "geverifieerd",
+    "status": "akkoord",
     "wijzigingen": [
       "Antwoord: 'zijn meestal klein' werd 'De meeste ... zijn klein' (woorden van de summary); 'een eerste versie schrijven' werd 'maken' en 'beoordeelt ... voordat die gevolgen heeft' werd 'controleert ... voordat die ertoe doet', zoals de bron.",
       "Vervolgvraag 1 (V1.3 en bevinding): 'Alleen' geschrapt; de bron zegt niet dat dit de enige voorbeelden met een leveranciersbeschrijving zijn. Vraag omgebouwd tot een open vraag, omdat 'succesverhalen van bestaande bedrijven' niet in de bron staat; kaal 'Nee.' weg.",
@@ -945,7 +945,7 @@
       "tekst": "artikel van {{afzender}}; primaire bron: Verordening (EU) 2016/679 (AVG), EUR-Lex; Autoriteit Persoonsgegevens: Controle van communicatiemiddelen (peildatum 6 oktober 2026)"
     },
     "herkomst": "Antwoord: 'Hoe werkt notuleren met AI?' met het stappenschema, summary en de eerste alinea onder 'Privacy en AVG'. Vervolgvraag 1: de lijst met grofweg drie manieren van meeluisteren. Vervolgvraag 2: alinea 'Waar staat de data en wie kan erbij?'. Vervolgvraag 3: stap 1 en 2 onder 'Zo richt je het in'.",
-    "status": "concept",
+    "status": "akkoord",
     "wijzigingen": [
       "A1: voorbehoud van de bron toegevoegd ('bij vrijwel alle tools ... in dezelfde stappen').",
       "A2: omgebouwd naar de bron: een concept dat een mens nog moet controleren; voorzitter of eigenaar corrigeert en stelt vast.",
@@ -998,7 +998,7 @@
       "tekst": "artikel van {{afzender}}"
     },
     "herkomst": "Antwoord: 'Wat is robotic process automation (RPA)?', lede, summary en 'RPA en AI combineren'. Vervolgvraag 1: vuistregel 'Kies RPA' onder 'Wanneer kies je wat?'. Vervolgvraag 2: alinea over beheer onder 'Verschillen tussen RPA en AI'. Vervolgvraag 3: slotalinea en de alinea over de Vendor Review.",
-    "status": "geverifieerd",
+    "status": "akkoord",
     "wijzigingen": [
       "A2: 'vooral sterk' van de bron overgenomen; het gevolg (stoppen of iets verkeerds doen) alleen gekoppeld aan scherm, veldnaam en volgorde van stappen, zoals de bron; de documentopmaak is daar weggehaald.",
       "A3: voorbehoud 'in de praktijk' toegevoegd bij de waarde van de combinatie.",
@@ -1044,7 +1044,7 @@
       "href": "/tarieven"
     },
     "herkomst": "Antwoord: 'Wat kosten AI agents?' met 'Factoren die de kosten bepalen', summary en de alinea over de Vendor Review; prijsvoorwaarde uit prijzen.ts. Vervolgvraag 1: 'Kosten voor beheer en optimalisatie'. Vervolgvraag 2: 'Ontwikkeling versus bestaande oplossingen'. Vervolgvraag 3: slotalinea onder 'AI agents voor het MKB'.",
-    "status": "geverifieerd",
+    "status": "akkoord",
     "wijzigingen": [
       "Antwoord: doorlooptijd van de Vendor Review geschrapt (staat niet op de pagina) en uitgetypte prijsvoorwaarde vervangen door het token {{voorwaarden}}; 'kan met' werd 'past' zoals op de pagina.",
       "Vervolgvraag 1: 'Een volledige offerte bevat ...' omgebouwd naar het advies van de pagina om altijd een meerjarige inschatting te vragen; onvoorwaardelijk gemarkeerd (pagina: zo'n offerte is onvolledig).",
@@ -1083,7 +1083,7 @@
       "tekst": "artikel van {{afzender}}"
     },
     "herkomst": "Antwoord: 'Wat is een AI agent?', de tabel onder 'AI agent versus chatbot' en 'Naar zelfstandigheid' onder 'Soorten AI agents'. Vervolgvraag 1: derde alinea onder 'Wat is een AI agent?'. Vervolgvraag 2: slotalinea onder 'Hoe werkt een AI agent?'. Vervolgvraag 3: 'Naar opbouw' onder 'Soorten AI agents'.",
-    "status": "geverifieerd",
+    "status": "akkoord",
     "wijzigingen": [
       "Vervolgvraag 1: kaal 'Ja.' vervangen door het voorbehoud van de bron ('De meeste agents die je nu tegenkomt'); 'meestal' uit de vraag gehaald, het voorbehoud staat nu in het antwoord.",
       "Vervolgvraag 2: vraag 'altijd te zien aan het eindresultaat?' met kaal 'Nee.' omgebouwd naar de 'kan'-uitspraak van de bron; antwoord begint met 'Ja, dat kan'.",
@@ -1133,7 +1133,7 @@
       "href": "/tarieven"
     },
     "herkomst": "Antwoord: 'Wat kost een AI agent?' met de factorenlijst en de alinea over de Vendor Review en Fractional AI Lead, plus 'Mijn rol'. Vervolgvraag 1: inleiding en figuurbijschrift onder 'Het ontwikkeltraject'. Vervolgvraag 2: prijsnotitie en prijsvoorwaarde uit prijzen.ts. Vervolgvraag 3: eerste alinea onder 'Beveiliging, privacy en beheer' en de metaDescription.",
-    "status": "geverifieerd",
+    "status": "akkoord",
     "wijzigingen": [
       "Antwoord zin 1: 'het aantal koppelingen' werd 'de koppelingen' en 'een vast bedrag is niet te geven' werd 'een vast bedrag zou misleidend zijn', zoals de bron; 'verschilt sterk per route' toegevoegd.",
       "Antwoord zin 3: 'onafhankelijk' toegevoegd en 'kiest de Fractional AI Lead' afgezwakt naar 'kan met', zoals de bron ('dan kan dat als').",
@@ -1173,7 +1173,7 @@
       "tekst": "artikel van {{afzender}}"
     },
     "herkomst": "Antwoord: lede, summary, de twaalf genummerde voorbeelden en de matrix onder 'AI agents in klantenservice'. Vervolgvraag 1: inleiding onder 'AI agents in klantenservice'. Vervolgvraag 2: 'AI agents in finance'. Vervolgvraag 3: inleiding onder 'Beste AI agent-platforms'.",
-    "status": "geverifieerd",
+    "status": "akkoord",
     "wijzigingen": [
       "Antwoord, zin 2: 'Het zwaartepunt ligt bij' vervangen door de bewoording van de bron (de meeste waarde zit in voorbereidend werk), zodat er geen eigen telling van voorbeelden in staat.",
       "Vervolgvraag 1: inhoud ongewijzigd; 'onvoorwaardelijk' gezet (de bron zegt dit zonder voorbehoud).",
@@ -1219,7 +1219,7 @@
       "tekst": "artikel van {{afzender}}; primaire bron: Verordening (EU) 2016/679 (AVG), EUR-Lex; Verordening (EU) 2024/1689 (AI-verordening), EUR-Lex; Verordening (EU) 2026/1744 (Digitale omnibus inzake AI), Publicatieblad L van 24.7.2026, EUR-Lex (peildatum 6 oktober 2026)"
     },
     "herkomst": "Antwoord: 'Waarom AI agents privacyrisico's geven', summary en de lijst onder 'AVG-eisen voor AI agents'. Vervolgvraag 1: inleiding 'AVG-eisen voor AI agents' en de vier kenmerken onder de eerste H2. Vervolgvraag 2: punt 'Beveiliging en datalekken'. Vervolgvraag 3: 'Samenhang met de AI Act'.",
-    "status": "concept",
+    "status": "akkoord",
     "wijzigingen": [
       "Vervolgvraag 1: vraag vraagt nu naar 'een apart hoofdstuk' (wat de bron zegt) in plaats van 'aparte regels'; onvoorwaardelijk: true gezet. Tweede zin omgebouwd: 'stuurt gegevens naar een externe leverancier' was stelliger dan de bron ('De meeste agents ...') en is vervangen door de kenmerken zoals de bron ze benoemt.",
       "Vervolgvraag 2: voorbehoud 'zo mogelijk' toegevoegd (stond al in de eerste zin); tekst ongewijzigd.",
@@ -1301,7 +1301,7 @@
       "tekst": "artikel van {{afzender}}; primaire bron: Verordening (EU) 2026/1744 (Digitale omnibus inzake AI), Publicatieblad L van 24.7.2026, EUR-Lex; Europese Commissie: AI Omnibus enters into force (27 juli 2026); Verordening (EU) 2024/1689 (AI-verordening), EUR-Lex (peildatum 6 oktober 2026)"
     },
     "herkomst": "Antwoord: summary (waar AI het meest oplevert), de lijst met risico's onder 'Kansen en risico's' en het punt 'Weten waar je staat' onder 'Hoe ik je kan helpen'. Vervolgvraag 1: punt 'Wet- en regelgeving' onder 'Kansen en risico's'. Vervolgvraag 2: punt 'Begin met gebruiken, niet met bouwen' onder 'Zo begin je met AI' en de FAQ over gebruiken en laten bouwen. Vervolgvraag 3: CBS-alinea onder 'Wat kan AI betekenen voor mijn bedrijf?'.",
-    "status": "concept",
+    "status": "akkoord",
     "wijzigingen": [
       "A1: de samengevoegde formulering losgelaten; 'levert het meest op' is nu gekoppeld aan wat de bron daar zelf bij noemt (frequent, voorspelbaar werk met bestaande data en een menselijke controlestap).",
       "A2: 'liggen buiten de techniek' was stelliger dan de bron; voorbehoud 'zelden technisch van aard' teruggezet, risico's in de woorden van de bron.",
@@ -1366,7 +1366,7 @@
       "tekst": "artikel van {{afzender}}"
     },
     "herkomst": "Antwoord: stappenschema en tips onder 'Eerste stappen' en de tweede alinea onder 'Hoe ik MKB-bedrijven help'. Vervolgvraag 1: eerste alinea onder 'Hoe ik MKB-bedrijven help'. Vervolgvraag 2: CBS-alinea onder 'Waarom AI nu relevant is voor het MKB'. Vervolgvraag 3: subkop 'Klantenservice'.",
-    "status": "geverifieerd",
+    "status": "akkoord",
     "wijzigingen": [
       "A3: 'een lichtere instap dan de vaste adviespakketten' vervangen door 'een van de twee lichtere instappen', zoals de bron het zegt.",
       "Vervolgvraag 2 (V2.3): conclusie 'nog ruimte heeft om te groeien' geschrapt en vervangen door wat de bron zegt (aandeel sinds 2023 verdubbeld); vraag en eerste zin beperkt tot het gebruik van AI, niet achterlopen in bredere zin.",
@@ -1420,7 +1420,7 @@
       "tekst": "artikel van {{afzender}}; primaire bron: Verordening (EU) 2016/679 (AVG), artikel 35, EUR-Lex (peildatum 6 oktober 2026)"
     },
     "herkomst": "Antwoord: 'Waarom AI voor dienstverleners loont', de openingszin van 'Toepassingen per beroepsgroep' en de basisregels onder 'Vertrouwelijkheid en kwaliteit'. Vervolgvraag 1: basisregel 2 onder 'Vertrouwelijkheid en kwaliteit'. Vervolgvraag 2: subkoppen 'Accountancy' en 'Legal'. Vervolgvraag 3: schema en alinea onder 'Tools'.",
-    "status": "concept",
+    "status": "akkoord",
     "wijzigingen": [
       "Vervolgvraag 1: kaal 'Ja' vervangen door 'Ja, bij een verwerking met een hoog risico', de voorwaarde van de pagina.",
       "Vervolgvraag 2: 'beroepsrichtlijnen' en kaal 'Ja' geschrapt, vraag gesteld in de woorden van de pagina (leidraad, aanbevelingen). 'In beide blijft het menselijk oordeel de basis' gesplitst: 'validatie en menselijk oordeel blijven de basis' alleen voor de leidraad van NBA en NOREA; voor de advocatuur de zin dat de advocaat zelf verantwoordelijk blijft.",
@@ -1481,7 +1481,7 @@
       "tekst": "artikel van {{afzender}}"
     },
     "herkomst": "Antwoord: tabel en alinea's onder 'Het verschil tussen AI en BI' plus de summary. Vervolgvraag 1 en 2: schema en Copilot-alinea onder 'Hoe AI business intelligence versterkt'. Vervolgvraag 3: rij 'Zekerheid' en de alinea direct onder de tabel.",
-    "status": "geverifieerd",
+    "status": "akkoord",
     "wijzigingen": [
       "Antwoord: 'vooral' toegevoegd bij gestructureerde data (tabel: 'Vooral gestructureerd'); 'een logische opstap naar AI op bedrijfscijfers' vervangen door het 'vaak het beste startpunt voor AI' van de bron.",
       "Vervolgvraag 1: vraag versmald van 'om AI en BI te combineren met Copilot in Power BI' naar 'voor Copilot in Power BI' (bevinding: de bron koppelt alleen Copilot aan een licentie); kaal 'Nee.' vervangen door 'Nee, volgens Microsoft Learn niet (stand september 2026)'; tweede zin krijgt de toeschrijving aan Microsoft uit de bron.",
@@ -1536,7 +1536,7 @@
       "tekst": "artikel van {{afzender}}"
     },
     "herkomst": "Antwoord: 'Wat is een BI specialist?', het schema onder 'Taken en vaardigheden' en de tabel onder 'BI specialist versus AI specialist'. Vervolgvraag 1: 'Hoe AI de rol verandert' en de summary. Vervolgvraag 2: alinea 'In de praktijk heb je ze vaak allebei nodig'. Vervolgvraag 3: tweede alinea onder 'Wat is een BI specialist?'.",
-    "status": "geverifieerd",
+    "status": "akkoord",
     "wijzigingen": [
       "Vervolgvraag 1: de bron zegt nergens dat AI de BI specialist niet overbodig maakt; vraag omgebouwd naar 'Hoe verandert AI het werk van een BI specialist?' en kaal 'Nee' geschrapt. Berekeningen en queries staan nu als hulp van AI-functies die de BI specialist controleert en verbetert, niet als overname.",
       "Vervolgvraag 2: 'meestal' uit de vraag gehaald, kaal 'Ja' vervangen door het voorbehoud 'vaak allebei nodig'; 'typisch' teruggezet bij 'het werk van een BI specialist'.",
@@ -1646,7 +1646,7 @@
       "href": "/tarieven"
     },
     "herkomst": "Antwoord en tabel: lede, summary en de lijst 'Wat je concreet van mij krijgt' onder 'Ontwikkelproces'. Vervolgvraag 1: 'Samenwerking met developers uit mijn netwerk'. Vervolgvraag 2: prijsnotitie van de Vendor Review in prijzen.ts. Vervolgvraag 3: 'Build versus buy'.",
-    "status": "geverifieerd",
+    "status": "akkoord",
     "wijzigingen": [
       "Antwoord, zin 2: 'bijvoorbeeld als' toegevoegd bij de Fractional AI Lead, omdat de bron die dienst als voorbeeld van begeleiding tijdens de bouw noemt.",
       "Tabel, rij 1: 'Een eerste stap vóór de specificatie' vervangen door 'Een logische eerste stap'; de volgorde vóór de specificatie staat niet in de bron.",
@@ -1689,7 +1689,7 @@
       "href": "/tarieven"
     },
     "herkomst": "Antwoord: 'Soorten AI specialisten' (met het bijschrift van de matrix), de summary en de lijst onder 'Mijn specialisaties'. Vervolgvraag 1: alinea's over strategische en technische AI specialisten. Vervolgvraag 2: de eerste en derde situatie onder 'Welke expertise heb jij nodig?'. Vervolgvraag 3: punt 'Begeleiding vanuit klantzijde' onder 'Mijn specialisaties' en prijzen.ts.",
-    "status": "geverifieerd",
+    "status": "akkoord",
     "wijzigingen": [
       "Antwoord: 'vooral' toegevoegd bij beide families (bron: rollen die 'vooral' besluiten voorbereiden en sturen, rollen die 'vooral' bouwen).",
       "Vervolgvraag 1: kaal 'Nee.' weg en vraag omgebouwd tot een open vraag; de bron zegt alleen wat het product van elke familie is en noemt elders dat één specialist 'soms' beide doet. 'machine learning engineer' werd 'machine learning expert', zoals in de bronalinea.",
@@ -1731,7 +1731,7 @@
       "tekst": "artikel van {{afzender}}"
     },
     "herkomst": "Antwoord: 'Standaard of maatwerk?' met het schema en de laatste alinea onder 'Selectiecriteria'. Vervolgvraag 1: summary en de rij 'Kosten' in de criteriatabel. Vervolgvraag 2: openingsalinea onder 'Selectiecriteria' en de alinea na de criteriatabel. Vervolgvraag 3: alinea over de Vendor Review.",
-    "status": "geverifieerd",
+    "status": "akkoord",
     "wijzigingen": [
       "A2: 'Vaak' vervangen door het voorbehoud van de bron: 'In veel gevallen'.",
       "V1: 'grootste kostenpost' staat niet in de bron; vraag omgebouwd naar 'de echte kosten', kaal Nee vervallen.",
@@ -1777,7 +1777,7 @@
       "href": "/tarieven"
     },
     "herkomst": "Antwoord: derde alinea onder 'Wat zijn AI oplossingen?', de eerste FAQ en de slotalinea onder 'AI oplossingen voor het MKB'. Vervolgvraag 1: vuistregels onder 'AI oplossingen op maat versus standaard'. Vervolgvraag 2: slotalinea onder 'AI oplossingen voor het MKB'. Vervolgvraag 3: alinea 'Wat je in dat traject van mij kunt verwachten' onder 'Van idee tot livegang'.",
-    "status": "geverifieerd",
+    "status": "akkoord",
     "wijzigingen": [
       "Vraagkop: 'Wat kost advies over AI oplossingen op maat' geschrapt; de bron noemt geen prijs voor dat advies, alleen voor het AI Readiness Assessment. De kop vraagt nu wie bouwt en welke rol de adviseur heeft.",
       "A2: 'kan starten met' vervangen door wat de bron zegt: het assessment geeft in die doorlooptijd een onderbouwd beeld, voor dat bedrag (het bedrag staat op de pagina zelf).",
@@ -1817,7 +1817,7 @@
       "tekst": "artikel van {{afzender}}"
     },
     "herkomst": "Antwoord: 'Wat is een AI developer?' (eerste en tweede alinea), de summary en de tabel onder 'AI developer versus AI consultant'. Vervolgvraag 1: derde alinea onder 'Wat is een AI developer?'. Vervolgvraag 2: alinea 'Wat een AI developer doorgaans níét doet' onder 'Taken' en de tabel onder 'AI developer versus AI consultant'.",
-    "status": "geverifieerd",
+    "status": "akkoord",
     "wijzigingen": [
       "Antwoord, zin 2: het oorzakelijke verband met 'data, koppelingen en evaluatie' stond niet in de bron; de zin koppelt de foutgevoeligheid nu aan 'meten, testen en afvangen', zoals de pagina doet ('een groot deel van het werk').",
       "Vervolgvraag 1: kaal 'Nee' en 'altijd' geschrapt; antwoord begint met het voorbehoud 'Soms' van de pagina, gevolgd door 'vaker'.",
@@ -1867,7 +1867,7 @@
       "tekst": "artikel van {{afzender}}; primaire bron: DataJobs, Werken als AI Engineer (bijgewerkt mei 2026); Nationale Beroepengids, Salaris Artificial Intelligence Engineer (bijgewerkt 26-11-2024); Indeed, Salaris van een AI engineer in Nederland (bijgewerkt 28 september 2026) (peildatum 6 oktober 2026)"
     },
     "herkomst": "Antwoord: summary, tabel en alinea's onder 'Salarisindicatie AI specialist' (kolom DataJobs), het Indeed-punt onder 'AI engineer salaris' en de vuistregels onder 'Vast in dienst of freelance inhuren?'. Vervolgvraag 1: eerste twee alinea's onder 'Salarisindicatie AI specialist' en summary. Vervolgvraag 2: alinea 'Die cijfers zijn lastig één-op-één te vergelijken'. Vervolgvraag 3: vuistregel 'Kies een parttime rol'.",
-    "status": "concept",
+    "status": "akkoord",
     "wijzigingen": [
       "Vraagkop: 'Hoe hoog is een AI specialist salaris in Nederland?' veronderstelde een bedrag voor de titel AI specialist; omgebouwd naar wat de bron wel beantwoordt (wat de salarisbronnen zeggen).",
       "Antwoord: het zelfgelegde oorzakelijke verband ('alleen als bandbreedte te geven, omdat') vervangen door de twee losse bronuitspraken; 'staat de scope nog niet vast ... vaak de verstandiger keuze' naar de bronwoorden 'bij een onduidelijke scope ... vaak verstandiger'.",
@@ -1937,7 +1937,7 @@
       "tekst": "artikel van {{afzender}}; primaire bron: Verordening (EU) 2026/1744 (Digitale omnibus inzake AI), gewijzigd artikel 113 AI Act, EUR-Lex; Verordening (EU) 2024/1689 (AI Act), bijlage I, EUR-Lex; Europese Commissie, AI Omnibus enters into force (27 juli 2026); Autoriteit Persoonsgegevens, AI-verordening (peildatum 6 oktober 2026)"
     },
     "herkomst": "Antwoord: lede, summary en de alinea's plus het schema onder 'Waarom sectorkennis ertoe doet'. Vervolgvraag 1: slotalinea van 'Sectoren' over de Digital Omnibus en het punt 'Regels' onder 'Waarom sectorkennis ertoe doet'. Vervolgvraag 2 en 3: 'Cases per sector'.",
-    "status": "concept",
+    "status": "akkoord",
     "wijzigingen": [
       "Antwoord: 'beheersen' werd 'in de hand houden' en 'de gevolgen van een fout' werd 'de foutkosten', de woorden van de bron.",
       "Vervolgvraag 1: de bron zegt niet letterlijk dat de regels 'nog niet gelden' maar vanaf welke datum; ja-neevraag met kaal 'Nee' omgebouwd naar 'Wanneer gelden de regels...?'; 'producten zoals' werd 'producten als'.",
@@ -2044,7 +2044,7 @@
       "tekst": "artikel van {{afzender}}; primaire bron: Verordening (EU) 2024/1689 (AI-verordening), EUR-Lex; Verordening (EU) 2026/1744 (Digitale omnibus inzake AI), Publicatieblad L van 24.7.2026, EUR-Lex; Verordening (EU) 2022/2554 (DORA), EUR-Lex; Uitvoeringsverordening (EU) 2024/2956 (standaardmodellen informatieregister DORA), EUR-Lex (peildatum 6 oktober 2026)"
     },
     "herkomst": "Antwoord: 'AI toepassingen in fintech', 'AI automatisering in financiële dienstverlening', de AI Act-bullet onder 'AI governance en compliance' en de lijst onder 'AI consultancy voor financiële instellingen'. Vervolgvraag 1: onderscheid extractie en oordeel. Vervolgvraag 2: slotalinea onder 'AI governance en compliance' en 'Kiezen' in de dienstenlijst. Vervolgvraag 3: DORA-bullet en de FAQ 'Geldt DORA ook voor AI-leveranciers?'.",
-    "status": "concept",
+    "status": "akkoord",
     "wijzigingen": [
       "Antwoord, zin 1: voorbehouden 'vaak' en 'in de meeste processen' uit de bron toegevoegd; de extractie is nu geformuleerd zoals de bron ('AI is goed in').",
       "Vervolgvraag 1: 'verantwoordelijk' uit de vraag gehaald (staat niet in de bron), kaal 'Ja.' geschrapt en voorbehoud 'in de meeste processen' gezet; de bewering dat AI in de meeste processen de feiten uit een document haalt is geschrapt.",
@@ -2099,7 +2099,7 @@
       "tekst": "artikel van {{afzender}}; primaire bron: Verordening (EU) 2024/1689 (AI Act), EUR-Lex; Europese Commissie, \"AI Act\" (regulatory framework AI); Verordening (EU) 2026/1744 (Digitale omnibus inzake AI), EUR-Lex (peildatum 6 oktober 2026)"
     },
     "herkomst": "Antwoord: summary en de alinea 'Zo begin je'. Vervolgvraag 1: 'Welke regels gelden er?'. Vervolgvraag 2 en 3: 'AI assistenten'.",
-    "status": "geverifieerd",
+    "status": "akkoord",
     "wijzigingen": [
       "Antwoord: eerste zin was stelliger dan de bron ('draait om'); nu 'de meeste winst zit in verkoopopvolging, werkplaats en klantcontact', zoals de summary. Derde zin: 'kan starten met' werd 'is een logisch startpunt', zoals de bron.",
       "Vervolgvraag 1: onvoorwaardelijk: true gezet (bron: 'Die toepassingen staan op de hoog-risicolijst van de AI Act'); 'van particulieren' in de vraag en 'volgens de Europese Commissie' bij de datum toegevoegd. Laatste zin: 'De meeste andere dealertoepassingen ... zijn geen hoog risico' was niet letterlijk gedekt en is vervangen door wat de bron zegt over een chatbot of tekstgenerator.",
@@ -2275,7 +2275,7 @@
       "tekst": "[tarieven en doorlooptijden](/tarieven) van {{afzender}}; primaire bron: Europese Commissie, \"AI Literacy - Questions & Answers\"; Verordening (EU) 2026/1744 (Digitale omnibus inzake AI), EUR-Lex; Europese Commissie, \"AI Omnibus enters into force\" (27 juli 2026) (peildatum 6 oktober 2026)"
     },
     "herkomst": "Antwoord: lede, 'Onderdelen van een AI beleid', de FAQ over de lengte en over het laten schrijven van een beleid, 'AI governance inrichten' en de slotalinea's van 'AI-beleid voor het MKB'. Tabel: dezelfde twee dienstalinea's plus de prijstabel. Vervolgvragen: 'AI-beleid voor het MKB: voorbeeld en template', 'AI Act en compliance' met de summary, en 'AI governance inrichten'.",
-    "status": "concept",
+    "status": "akkoord",
     "wijzigingen": [
       "Vraagkop: 'met welke dienst begint een organisatie' veronderstelde dat een AI beleid met een dienst begint; omgebouwd tot 'welke dienst past erbij'.",
       "A1: 'één tot drie pagina's' heeft nu de voorbehouden van de bron: 'voor de meeste organisaties' en 'een eerste versie'.",
@@ -2334,7 +2334,7 @@
       "tekst": "artikel van {{afzender}}; primaire bron: Europese Commissie, \"AI Act\" (regulatory framework AI); Verordening (EU) 2024/1689 (AI Act), EUR-Lex; Verordening (EU) 2026/1744 (Digitale omnibus inzake AI), EUR-Lex; Europese Commissie, \"AI Omnibus enters into force\" (27 juli 2026) (peildatum 6 oktober 2026)"
     },
     "herkomst": "Antwoord: lede, 'Risicocategorieën' (ook het negende verbod), 'Verplichtingen per rol', de tweede FAQ (overgangstermijn markering) en de tabel onder 'Tijdlijn'. Vervolgvraag 1 en 2: 'Verplichtingen per rol' (artikel 25 en artikel 26). Vervolgvraag 3: slotalinea van 'Eerste stappen voor bedrijven'.",
-    "status": "concept",
+    "status": "akkoord",
     "wijzigingen": [
       "A2: de twee uitzonderingen van de bron toegevoegd: het negende verbod geldt pas vanaf 2 december 2026 en voor de machineleesbare markering door bestaande systemen geldt een overgangstermijn tot 2 december 2026.",
       "Vervolgvraag 1: 'gebruiker' in de vraag vervangen door 'organisatie'; de bron spreekt de organisatie aan en gebruikt het woord gebruiker niet.",
@@ -2416,7 +2416,7 @@
       "href": "/tarieven"
     },
     "herkomst": "Antwoord: 'Waarom geen traditioneel AI bureau?', lede, summary en de lijst onder 'Hoe ik partners selecteer'. Vervolgvraag 1: 'Mijn gescreende partnernetwerk' en de summary. Vervolgvraag 2: 'Platforms en technologie'. Vervolgvraag 3: 'Eén aanspreekpunt, schaalbare capaciteit', met de omvang uit prijzen.ts.",
-    "status": "geverifieerd",
+    "status": "akkoord",
     "wijzigingen": [
       "Antwoord, zin 1: 'uiteindelijk' teruggezet en het belang bij een grotere scope gekoppeld aan 'wie aan de bouw verdient', zoals de pagina.",
       "Vervolgvraag 1: telvraag en 'wie een AI bureau zoekt' geschrapt; antwoord begint met het voorbehoud 'Meestal' van de pagina. Het onderwerp komt terug via de zin dat de adviseur zelf geen AI bureau is (summary).",
@@ -2454,7 +2454,7 @@
       "tekst": "artikel van {{afzender}}"
     },
     "herkomst": "Antwoord: alinea's onder 'Wat kan ChatGPT voor bedrijven?', de summary en de alinea over training onder 'Privacy en veiligheid'. Vervolgvraag 1 en 2: tabel en toelichting onder 'Zakelijke abonnementen' en het punt 'Dataopslag'. Vervolgvraag 3: summary en eerste twee alinea's onder 'Privacy en veiligheid'.",
-    "status": "concept",
+    "status": "akkoord",
     "wijzigingen": [
       "Antwoord: de functies (projecten, eigen GPT's, data-analyse, koppelingen) toegeschreven aan ChatGPT Business volgens de prijspagina van OpenAI, zoals de bron; 'blijft controle door een mens nodig' naar 'blijft een mens verantwoordelijk voor de controle'; 'bedoeld' geschrapt.",
       "Vervolgvraag 1: 'het instapabonnement van ChatGPT voor bedrijven' geschrapt (staat niet in de bron); vraag versmald naar ChatGPT Business, omdat de bron alleen daarvoor prijzen geeft; het voorbehoud dat prijzen per land en valuta kunnen verschillen toegevoegd.",
@@ -2549,7 +2549,7 @@
       "tekst": "artikel van {{afzender}}"
     },
     "herkomst": "Antwoord: lede, summary, eerste alinea en diagram onder 'Zakelijke mogelijkheden', alinea 'Waar staat je data?' en de slotzin van de eerste alinea na de tabel onder 'Claude versus ChatGPT en Gemini'. Vervolgvraag 1: prijslijst onder 'Zakelijke mogelijkheden'. Vervolgvraag 2: alinea 'Waar staat je data?' en de alinea na de vergelijkingstabel. Vervolgvraag 3: eerste alinea en diagram onder 'Zakelijke mogelijkheden'.",
-    "status": "concept",
+    "status": "akkoord",
     "wijzigingen": [
       "Antwoord zin 1: 'met uitgebreider beheer' (eigen samenvatting) vervangen door wat het diagram bij Enterprise noemt.",
       "Antwoord zin 2: het causale 'omdat' geschrapt; de bron zet beide uitspraken naast elkaar zonder oorzakelijk verband.",
@@ -2654,7 +2654,7 @@
       "tekst": "artikel van {{afzender}}"
     },
     "herkomst": "Antwoord: lede, eerste alinea onder 'Gemini in Google Workspace' en het eerste punt onder 'Privacy en data'. Vervolgvraag 1 en 2: editietabel onder 'Gemini in Google Workspace'. Vervolgvraag 3: punt 'Gemini volgt toegangsrechten' en aandachtspunt 1 onder 'Privacy en data'.",
-    "status": "concept",
+    "status": "akkoord",
     "wijzigingen": [
       "Antwoord, zin 2: 'Gmail, Docs en Meet' vervangen door 'Google Workspace' en het voorbehoud 'waarschijnlijk' uit de lede toegevoegd; 'hoeven vooral te bepalen' vervangen door de afweging van de bron (minder of het wordt gekocht, meer hoe het wordt ingezet).",
       "Vervolgvraag 2: kaal 'Nee.' geschrapt en voorbehoud 'volgens Google' gezet; 'Vanaf Business Standard' vervangen door 'In Business Standard', want de tabel beschrijft die editie en niet alles daarboven.",
@@ -2736,7 +2736,7 @@
       "tekst": "artikel van {{afzender}}"
     },
     "herkomst": "Antwoord: eerste alinea onder 'Wat is Microsoft Copilot?', de twee niveaus onder 'Licenties' en de alinea over bestaande rechten onder 'Randvoorwaarden voor je data'. Vervolgvraag 1 en 3: prijstabel, opsomming en bijschrift van de matrix onder 'Licenties'. Vervolgvraag 2: punt 'Geen training op je data' met de inleidende zin erboven.",
-    "status": "concept",
+    "status": "akkoord",
     "wijzigingen": [
       "Antwoord: 'apps zoals' toegevoegd (de bron noemt de apps als voorbeelden). Tweede zin in de voorbehouden van de bron: 'grofweg twee niveaus', 'volgens Microsoft' en 'kan redeneren over de volle breedte van de werkdata' in plaats van 'redeneert breed'.",
       "Vervolgvraag 2: kaal 'Nee.' vervangen door 'Nee, volgens wat Microsoft toezegt ...'; de bron geeft dit als toezegging van Microsoft. Vraag vraagt nu naar prompts en antwoorden in plaats van het bredere 'bedrijfsdata'; 'achter Microsoft Copilot' uit het antwoord gehaald.",
@@ -2818,7 +2818,7 @@
       "tekst": "artikel van {{afzender}}"
     },
     "herkomst": "Antwoord: eerste alinea onder 'Wat is prompt engineering?', de lede en de summary. Vervolgvraag 1: tweede alinea onder 'Wat is prompt engineering?'. Vervolgvraag 2: 'Zoeken naar de magische formule' onder 'Veelgemaakte fouten'.",
-    "status": "geverifieerd",
+    "status": "akkoord",
     "wijzigingen": [
       "A2: de zelf samengestelde opsomming van 'gewoontes' geschrapt (de bron benoemt ze niet); vervangen door de omschrijving uit de lede voor de meeste zakelijke gebruikers.",
       "A3: 'vraagt altijd controle' omgebouwd tot het advies van de bron, in haar woorden (overtuigend klinken en toch fout zitten); de verwijzing naar de gewoontes is hier weg.",
@@ -2880,7 +2880,7 @@
       "href": "/tarieven"
     },
     "herkomst": "Antwoord: 'Waarom een AI workshop?', het diagram onder 'Soorten workshops', 'Incompany of op locatie' en 'Investering'. Vervolgvraag 1: 'Introductie AI voor management' en de alinea over de Executive Briefing onder 'Investering'. Vervolgvraag 2: 'Incompany of op locatie'. Vervolgvraag 3: de tweede alinea onder 'Waarom een AI workshop?'.",
-    "status": "geverifieerd",
+    "status": "akkoord",
     "wijzigingen": [
       "A1: 'drie tot vijf concrete taken per rol' alleen nog aan de workshop gekoppeld, niet aan de training; de bron zegt dit letterlijk alleen over een workshop.",
       "A2: 'gangbare' vervangen door 'meest voorkomende', het woord van de bron.",
@@ -2925,7 +2925,7 @@
       "tekst": "{{afzender}}, onafhankelijk AI-adviseur"
     },
     "herkomst": "Antwoord: 'Wat leer je in de Copilot training?', de summary en de alinea over incompany en vaste prijs onder 'Programma en investering'. Vervolgvraag 1: openingszinnen, diagram en bijschrift onder 'Programma en investering'. Vervolgvraag 2 en 3: 'Veilig werken met bedrijfsdata', vooral de slotalinea.",
-    "status": "concept",
+    "status": "akkoord",
     "wijzigingen": [
       "Vervolgvraag 1: ja-neevraag met kaal 'Nee' omgebouwd; intake en volgorde stonden als vaststaand verloop, terwijl de pagina een voorbeeld geeft. Antwoord bevat nu het voorbehoud 'kan er bijvoorbeeld' en het bijschrift dat duur en invulling afhangen van groep en doel.",
       "Vervolgvraag 2: 'toezeggingen van Microsoft' vervangen door 'wat Microsoft ... stelt'; onvoorwaardelijk gemarkeerd.",
@@ -2974,7 +2974,7 @@
       "tekst": "{{afzender}}, onafhankelijk AI-adviseur"
     },
     "herkomst": "Antwoord: 'Wat leer je?', eerste alinea onder 'Voor wie?' en de alinea over locatie, intake en vaste prijs onder 'Programma'. Vervolgvraag 1 en 2: 'Voor wie?'. Vervolgvraag 3: 'Programma'.",
-    "status": "geverifieerd",
+    "status": "akkoord",
     "wijzigingen": [
       "Vraagkop: 'Wat levert ... een team op en hoe wordt de prijs bepaald?' veronderstelde een opbrengst en een uitleg van de prijsopbouw die de bron niet geeft; omgebouwd naar wat deelnemers leren en hoe de prijs is geregeld (vaste prijs, vooraf schriftelijk bevestigd).",
       "Antwoord: 'teams' aangevuld tot 'teams en professionals' zoals de bron.",
@@ -3018,7 +3018,7 @@
       "tekst": "{{afzender}}, onafhankelijk AI-adviseur"
     },
     "herkomst": "Antwoord: lede, eerste alinea onder 'Wat is AI coaching?', eerste alinea onder 'Hoe een traject verloopt' en de alinea over afgebakend advies en vaste prijs. Vervolgvraag 1 en 2: de uitgangspunten 'Afbouwen is het doel' en 'Jij blijft eigenaar'. Vervolgvraag 3: slotalinea onder 'Voor wie is AI coaching?'.",
-    "status": "geverifieerd",
+    "status": "akkoord",
     "wijzigingen": [
       "Antwoord zin 3: anders verwoord, omdat de zin vrijwel woordelijk op de pagina stond.",
       "Vervolgvraag 1 en 2: bron is onvoorwaardelijk ('Elk traject is afgebakend', uitgangspunten 'die voor elk traject gelden'), onvoorwaardelijk: true gezet; 'zelfstandig' werd 'zonder de coach', zoals de bron.",
@@ -3056,7 +3056,7 @@
       "tekst": "{{afzender}}, onafhankelijk AI-adviseur; primaire bron: Verordening (EU) 2026/1744 (Digitale omnibus inzake AI), Publicatieblad L van 24.7.2026, EUR-Lex; Verordening (EU) 2024/1689 (AI Act), artikel 113, EUR-Lex; Europese Commissie, AI Literacy - Questions & Answers (bijgewerkt 27 juli 2026); Europese Commissie, AI Omnibus enters into force (27 juli 2026); Autoriteit Persoonsgegevens, Aan de slag met AI-geletterdheid (februari 2025) (peildatum 6 oktober 2026)"
     },
     "herkomst": "Antwoord: summary, slot van 'Wat is AI geletterdheid?', de opsomming onder 'Wat de AI Act vraagt' en de eerste alinea onder 'Aantonen dat je voldoet'. Vervolgvraag 1: 'Wat de AI Act vraagt'. Vervolgvraag 2: eerste alinea onder 'Inhoud van de training'.",
-    "status": "concept",
+    "status": "akkoord",
     "wijzigingen": [
       "Antwoord, zin 1: omgebouwd zodat 'maatregelen nemen' bij de wijziging van juli 2026 staat (zoals in de bron) en niet al bij 2 februari 2025.",
       "Vervolgvraag 1: inhoud ongewijzigd; 'onvoorwaardelijk' gezet (bron: 'De verplichting blijft bestaan').",
@@ -3134,7 +3134,7 @@
       "tekst": "artikel van {{afzender}}"
     },
     "herkomst": "Antwoord: lede, 'Waarom een leeg invoerveld niet werkt', 'Wat wel werkt: scenario's in plaats van mogelijkheden', summary, 'Adoptie verspreidt zich via collega's' en 'Meet per rol, niet in totaal'. Vervolgvraag 1: 'Het patroon dat zich overal herhaalt' en de tweede drempel onder 'Waarom een leeg invoerveld niet werkt'. Vervolgvraag 2: 'Meet per rol, niet in totaal' en takeaway 'Meet per rol'. Vervolgvraag 3: 'Drie signalen dat je adoptie op de goede weg is'.",
-    "status": "geverifieerd",
+    "status": "akkoord",
     "wijzigingen": [
       "Antwoord: 'vaak steken op' werd 'doorgaans', het woord van de bron; 'niet weten wat is toegestaan' werd 'onzeker zijn over wat mag'. Derde zin: 'in hetzelfde team' en 'wordt per rol gemeten' waren stelliger dan de bron; nu ambassadeurs per team en de meting als advies.",
       "Vervolgvraag 1: kaal 'Nee.' weg. De bron noemt de conclusie 'bijna altijd onjuist'; vraag sluit nu aan op die conclusie, eerste zin bevat 'bijna altijd' en het voorbehoud is vastgelegd.",
@@ -3184,7 +3184,7 @@
       "tekst": "artikel van {{afzender}}"
     },
     "herkomst": "Antwoord: 'Waar agents goed werken', 'Waar agents stukgaan' en 'De vraag die je vooraf moet beantwoorden'. Vervolgvraag 1: 'Het autonomieniveau als bewuste keuze'. Vervolgvraag 2: 'Handelingen met externe gevolgen'. Vervolgvraag 3: 'Situaties zonder volledig logboek' en de takeaway 'Logging is niet optioneel'.",
-    "status": "geverifieerd",
+    "status": "akkoord",
     "wijzigingen": [
       "V1: de vraag 'Kunnen AI-agents ...' met kaal Nee paste niet bij de bron (die adviseert en sluit zelfstandig uitvoeren niet uit); omgebouwd tot een vraag naar het advies, met het voorbehoud 'vrijwel altijd' letterlijk in de eerste zin en 'niveau één of twee' zoals de bron.",
       "V2: kaal Ja vervangen door 'Ja, standaard:' met de stelligheid van de bron ('Hier hoort standaard een bevestigingsstap').",
@@ -3226,7 +3226,7 @@
       "tekst": "artikel van {{afzender}}; primaire bron: Verordening (EU) 2024/1689 (AI Act), EUR-Lex; Europese Commissie, \"AI Act\" (regulatory framework AI) (peildatum 6 oktober 2026)"
     },
     "herkomst": "Antwoord: 'Het echte risico van AI-governance', 'Begin bij risicoclassificatie, niet bij techniek' en 'De vier mechanismen die je minimaal nodig hebt'. Vervolgvraag 1: 'Wat je kunt overslaan'. Vervolgvraag 2: '1. Eén register'. Vervolgvraag 3: slotalinea onder de risicoclassificatie.",
-    "status": "concept",
+    "status": "akkoord",
     "wijzigingen": [
       "A2: 'volstaan' vervangen door 'minimaal nodig', zoals de bron de vier mechanismen presenteert.",
       "A3: van vaststaand gevolg ('leiden ertoe dat') omgebouwd naar het risico dat de bron beschrijft, inclusief het denken in controle te zijn.",
@@ -3284,7 +3284,7 @@
       "tekst": "artikel van {{afzender}}"
     },
     "herkomst": "Antwoord: stap 1, 2, 4, 5, 7 en 8 en 'Tot slot: documenteer waarom de anderen afvielen'. Vervolgvraag 1: 'Stap 8: Onderhandel op wat je écht nodig hebt'. Vervolgvraag 2: 'Stap 3: Maak een longlist op fit, niet op bekendheid'. Vervolgvraag 3: 'Stap 7: Reken de echte kosten uit'.",
-    "status": "geverifieerd",
+    "status": "akkoord",
     "wijzigingen": [
       "Geen tekst gewijzigd. Vervolgvraag 1 en 2 onvoorwaardelijk gemarkeerd: het artikel zegt zonder voorbehoud dat de prijs niet het belangrijkste onderhandelpunt is en dat minimaal één 'geen aankoop'-optie in de vergelijking hoort."
     ],
@@ -3320,7 +3320,7 @@
       "tekst": "artikel van {{afzender}}"
     },
     "herkomst": "Antwoord: 'De vier vragen die de keuze bepalen', summary en 'De hybride vorm die het vaakst werkt'. Vervolgvraag 1: 'Vraag 2: Wat kost het in jaar vijf?'. Vervolgvraag 2: slotalinea van 'Drie situaties waarin de keuze duidelijk is'. Vervolgvraag 3: 'Vraag 1: Is dit onderscheidend, of is het een commodity?'.",
-    "status": "geverifieerd",
+    "status": "akkoord",
     "wijzigingen": [
       "Antwoord: 'Vaak houdt een mengvorm het best stand' vervangen door 'De opzet die het vaakst standhoudt' (bronwoorden); 'door een partner laten doen' naar 'voor de implementatie een partner inschakelen'.",
       "Vervolgvraag 1: vraag 'altijd de goedkoopste optie?' met kaal 'Nee.' omgebouwd; het antwoord begint nu met het voorbehoud van de bron ('Vaak keert de conclusie om').",
@@ -3366,7 +3366,7 @@
       "tekst": "artikel van {{afzender}}"
     },
     "herkomst": "Antwoord: summary, 'De kostenkant: waar het meestal misgaat', 'Werk met bandbreedtes, niet met puntschattingen' en 'Spreek af wat je over een jaar meet'. Vervolgvraag 1: '1. Kostenreductie'. Vervolgvraag 2: takeaway 'Verbruikskosten schalen mee' en 'Verbruikskosten die meeschalen'. Vervolgvraag 3: 'Verandering en opleiding'.",
-    "status": "geverifieerd",
+    "status": "akkoord",
     "wijzigingen": [
       "Antwoord zin 1: 'houdt stand als' (belooft een uitkomst die de bron niet garandeert) omgebouwd naar wat er volgens de bron in de business case hoort.",
       "Vervolgvraag 1: bron is onvoorwaardelijk ('Wat niet telt'), onvoorwaardelijk: true gezet.",
@@ -3425,7 +3425,7 @@
       "tekst": "artikel van {{afzender}}"
     },
     "herkomst": "Antwoord: 'Wanneer kies je voor wie?', de drie optieblokken onder '2. Wat betekent dit in de praktijk?', 'Waar de freelancer wint' en '4. Hoe maak je de juiste keuze?'. Vervolgvraag 1: 'Waar de freelancer verliest'. Vervolgvraag 2: '5. De combinatie die vaak het beste werkt'. Vervolgvraag 3: '3. Het conflict-of-interest-gesprek'.",
-    "status": "geverifieerd",
+    "status": "akkoord",
     "wijzigingen": [
       "Vervolgvraag 1: vraag omgebouwd en kaal 'Nee.' geschrapt; het antwoord volgt 'Waar de freelancer verliest' (zodra er volume nodig is) en gebruikt 'bus-factor-gevoelige trajecten' uit de bron in plaats van een eigen omschrijving.",
       "Vervolgvraag 2: vraag omgebouwd en kaal 'Ja.' geschrapt; 'zoals een freelance AI consultant' als invulling van 'een onafhankelijke senior' verwijderd, voorbehoud 'zelden' gezet en 'het vaakst' uit de bron behouden.",
@@ -3467,7 +3467,7 @@
       "tekst": "artikel van {{afzender}}"
     },
     "herkomst": "Antwoord: summary, 'Twee waarheden die elkaar tegenspreken' en 'De use-case-gedreven volgorde'. Vervolgvraag 1: 'Probleem 4: Toegankelijkheid en infrastructuur'. Vervolgvraag 2: 'Wanneer \"eerst de data\" wél het juiste antwoord is'. Vervolgvraag 3: 'Probleem 1: Definities'.",
-    "status": "geverifieerd",
+    "status": "akkoord",
     "wijzigingen": [
       "Antwoord: 'Een volledig datafundament is geen voorwaarde' werd 'Een perfect datafundament is niet nodig' (summary); 'in de praktijk' en 'aanzienlijk' toegevoegd, zoals de bron.",
       "Vervolgvraag 1 (V1.1 en bevinding): kaal 'Nee.' vervangen door 'Vaak niet:' met 'vaak genoeg' letterlijk in de eerste zin en als voorbehoud; 'in de praktijk' en 'zeker voor één use case' toegevoegd aan de tweede zin.",
@@ -3511,7 +3511,7 @@
       "tekst": "artikel van {{afzender}}"
     },
     "herkomst": "Antwoord: excerpt, summary, 'Waar het misgaat tussen strategie en resultaat' en 'Wat dit in de praktijk oplevert'. Vervolgvraag 1: valkuil onder 'Stap 2: Beleg eigenaarschap met budget en mandaat'. Vervolgvraag 2 en 3: 'Stap 3: Meet op het niveau waarop je het beloofde'.",
-    "status": "geverifieerd",
+    "status": "akkoord",
     "wijzigingen": [
       "A1: 'levert pas resultaat op na' was stelliger dan de bron; omgebouwd naar 'wordt uitvoerbaar' (de bron: vragen die beantwoord moeten zijn voordat een strategie uitvoerbaar wordt), met de werkwoorden van de summary.",
       "A2: 'niet op de inhoud, maar op het ontbreken van die vertaling' teruggebracht naar de bron: niet op de strategie, maar op de vertaling ervan.",
@@ -3555,7 +3555,7 @@
       "tekst": "artikel van {{afzender}}"
     },
     "herkomst": "Antwoord: 'De pilotparadox', de vijf oorzaak-koppen, summary en 'Een pilotcontract van één pagina'. Vervolgvraag 1: tegenmaatregel bij oorzaak 2. Vervolgvraag 2: tegenmaatregel bij oorzaak 3. Vervolgvraag 3: tegenmaatregel bij oorzaak 5.",
-    "status": "geverifieerd",
+    "status": "akkoord",
     "wijzigingen": [
       "A3: 'De tegenmaatregel is' vervangen door 'Wat in de praktijk goed werkt', het voorbehoud van de bron bij het pilotcontract.",
       "Vervolgvraag 1: kaal 'Ja.' vervangen door 'Ja, voor AI-pilots geldt als tegenmaatregel: liever ...', in de woorden van de bron; 'in de eerste week' vervangen door 'week één' zoals de bron.",
@@ -3599,7 +3599,7 @@
       "tekst": "artikel van {{afzender}}"
     },
     "herkomst": "Antwoord: 'Wanneer externe hulp wél loont', 'Eerst: wanneer je het zelf beter kunt' en 'De omvang die meestal klopt'. Vervolgvraag 1: openingszin van 'Eerst: wanneer je het zelf beter kunt' en '2. Het besluit is klein en omkeerbaar'. Vervolgvraag 2: '4. Het besluit is al genomen' en '3. Je moet iets aan een board of toezichthouder uitleggen'. Vervolgvraag 3: 'De omvang die meestal klopt'.",
-    "status": "geverifieerd",
+    "status": "akkoord",
     "wijzigingen": [
       "Antwoord, zin 3: 'volstaat' vervangen door 'geldt', het woord van het artikel.",
       "Vervolgvraag 1: kaal 'Nee' en 'niet nodig' waren stelliger dan het artikel ('externe hulp weinig toevoegt'); vraag en antwoord omgebouwd met dat voorbehoud.",
@@ -3638,7 +3638,7 @@
       "tekst": "artikel van {{afzender}}"
     },
     "herkomst": "Antwoord: 'Het patroon achter de winnaars' met de vier genummerde kenmerken en 'Vier patronen die vrijwel altijd stranden'. Vervolgvraag 1: 'De assistent die alles kan'. Vervolgvraag 2: '4. De data bestaat al en wordt al gebruikt'. Vervolgvraag 3: 'Een praktische scoringsvraag'.",
-    "status": "geverifieerd",
+    "status": "akkoord",
     "wijzigingen": [
       "Vervolgvraag 1: vraag omgebouwd van 'een van de AI-use cases die resultaat opleveren?' naar wat de bron zonder voorbehoud zegt (geen use case maar een licentie), en daarom onvoorwaardelijk gemarkeerd; de niet gedekte verbreding 'AI-use cases werken beter met drie tot vijf concrete taken' teruggebracht tot het advies bij de AI-assistent, zoals de bron.",
       "Vervolgvraag 2: 'geschikt als eerste stap' (staat niet in de bron) uit de vraag gehaald; ja-neevraag met kaal 'Nee.' omgebouwd naar een open vraag, met 'minstens een jaar' als voorbehoud in de eerste zin.",
