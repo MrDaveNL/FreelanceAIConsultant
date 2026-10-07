@@ -24,8 +24,9 @@ import aiWorkshopCopilotTraining from './blokken/ai-workshop-copilot-training.ts
 import diensten from './blokken/diensten.ts';
 import partnernetwerk from './blokken/partnernetwerk.ts';
 import tarieven from './blokken/tarieven.ts';
+import aiAgentsVoorbeelden from './blokken/ai-agents-voorbeelden.ts';
 
-const bronnen: unknown[] = [dienstenAiReadinessAssessment, aiConsultancyAiStrategie, aiConsultancyAiConsultantInhuren, aiAgents, aiAgentsLatenMaken, aiAutomatisering, aiBeleid, aiConsultancy, aiConsultancyAiAdvies, aiDevelopment, aiDevelopmentAiOplossingen, aiDevelopmentAiSpecialist, aiImplementatie, aiImplementatieAdvies, aiWorkshop, aiWorkshopAiCoaching, aiWorkshopAiGeletterdheidTraining, aiWorkshopChatgptTraining, aiWorkshopCopilotTraining, diensten, partnernetwerk, tarieven];
+const bronnen: unknown[] = [dienstenAiReadinessAssessment, aiConsultancyAiStrategie, aiConsultancyAiConsultantInhuren, aiAgents, aiAgentsLatenMaken, aiAutomatisering, aiBeleid, aiConsultancy, aiConsultancyAiAdvies, aiDevelopment, aiDevelopmentAiOplossingen, aiDevelopmentAiSpecialist, aiImplementatie, aiImplementatieAdvies, aiWorkshop, aiWorkshopAiCoaching, aiWorkshopAiGeletterdheidTraining, aiWorkshopChatgptTraining, aiWorkshopCopilotTraining, diensten, partnernetwerk, tarieven, aiAgentsVoorbeelden];
 
 export const blokken: Blok[] = valideer(blokSchema, bronnen, 'blok', 'pagina');
 
