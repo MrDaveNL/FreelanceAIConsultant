@@ -12,8 +12,9 @@ import aiBeleid from './blokken/ai-beleid.ts';
 import aiConsultancy from './blokken/ai-consultancy.ts';
 import aiConsultancyAiAdvies from './blokken/ai-consultancy-ai-advies.ts';
 import aiDevelopment from './blokken/ai-development.ts';
+import aiDevelopmentAiOplossingen from './blokken/ai-development-ai-oplossingen.ts';
 
-const bronnen: unknown[] = [dienstenAiReadinessAssessment, aiConsultancyAiStrategie, aiConsultancyAiConsultantInhuren, aiAgents, aiAgentsLatenMaken, aiAutomatisering, aiBeleid, aiConsultancy, aiConsultancyAiAdvies, aiDevelopment];
+const bronnen: unknown[] = [dienstenAiReadinessAssessment, aiConsultancyAiStrategie, aiConsultancyAiConsultantInhuren, aiAgents, aiAgentsLatenMaken, aiAutomatisering, aiBeleid, aiConsultancy, aiConsultancyAiAdvies, aiDevelopment, aiDevelopmentAiOplossingen];
 
 export const blokken: Blok[] = valideer(blokSchema, bronnen, 'blok', 'pagina');
 
