@@ -2,6 +2,91 @@
 
 Stand: 6 oktober 2026 · branch `rag-blokken-fase-0` · niet gemerged
 
+## Uitrol op 7 oktober 2026
+
+Na akkoord op alle 65 blokken zijn er 60 geplaatst, per paginatype en elke pagina in een eigen commit ("RAG-blok geplaatst: /pad"). Na elke plaatsing is de site gebouwd en zijn de voor- en na-controle (`check-nulmeting.mjs`) en de blokcontrole (`check-rag.mjs`) gedraaid; een pagina is alleen gecommit als beide slaagden.
+
+Eindstand van de laatste volledige build: 90 pagina's vergeleken met de nulmeting, 30 ongewijzigd, 60 met alleen toevoegingen, 0 met fouten. 63 blokken in de databron (60 nieuw, 3 pilots), 0 pagina's met fouten.
+
+Vooraf is in een aparte commit de template voor artikelen (`src/pages/inzichten/[slug].astro`) en het dienstenoverzicht (`src/pages/diensten/index.astro`) aangepast zodat ze een blok tonen als het bestaat. Zonder blok bleef de uitvoer gelijk aan de nulmeting.
+
+### Niet geplaatst (5)
+
+- `/diensten/ai-due-diligence`: dienstfeiten (resultaat, doelgroep) ontbreken in src/data/rag/diensten.ts. De build weigert een dienstblok zonder resultaatzin en doelgroepzin, en die zijn niet aangeleverd; ze zijn niet verzonnen.
+- `/diensten/ai-strategy-sprint`: dienstfeiten (resultaat, doelgroep) ontbreken in src/data/rag/diensten.ts. De build weigert een dienstblok zonder resultaatzin en doelgroepzin, en die zijn niet aangeleverd; ze zijn niet verzonnen.
+- `/diensten/executive-briefing`: dienstfeiten (resultaat, doelgroep) ontbreken in src/data/rag/diensten.ts. De build weigert een dienstblok zonder resultaatzin en doelgroepzin, en die zijn niet aangeleverd; ze zijn niet verzonnen.
+- `/diensten/fractional-ai-lead`: dienstfeiten (resultaat, doelgroep) ontbreken in src/data/rag/diensten.ts. De build weigert een dienstblok zonder resultaatzin en doelgroepzin, en die zijn niet aangeleverd; ze zijn niet verzonnen.
+- `/diensten/vendor-review`: dienstfeiten (resultaat, doelgroep) ontbreken in src/data/rag/diensten.ts. De build weigert een dienstblok zonder resultaatzin en doelgroepzin, en die zijn niet aangeleverd; ze zijn niet verzonnen.
+
+De vijf blokken die op publicatie wachten (noindex) zijn buiten beschouwing gebleven. De drie pilotblokken staan nog als concept gemarkeerd.
+
+### Geplaatst (60)
+
+| Pagina | Paginatype |
+|---|---|
+| `/ai-agents` | dienstenoverzicht |
+| `/ai-agents/laten-maken` | dienstenoverzicht |
+| `/ai-automatisering` | dienstenoverzicht |
+| `/ai-beleid` | dienstenoverzicht |
+| `/ai-consultancy` | dienstenoverzicht |
+| `/ai-consultancy/ai-advies` | dienstenoverzicht |
+| `/ai-development` | dienstenoverzicht |
+| `/ai-development/ai-oplossingen` | dienstenoverzicht |
+| `/ai-development/ai-specialist` | dienstenoverzicht |
+| `/ai-implementatie` | dienstenoverzicht |
+| `/ai-implementatie/advies` | dienstenoverzicht |
+| `/ai-workshop` | dienstenoverzicht |
+| `/ai-workshop/ai-coaching` | dienstenoverzicht |
+| `/ai-workshop/ai-geletterdheid-training` | dienstenoverzicht |
+| `/ai-workshop/chatgpt-training` | dienstenoverzicht |
+| `/ai-workshop/copilot-training` | dienstenoverzicht |
+| `/diensten` | dienstenoverzicht |
+| `/partnernetwerk` | dienstenoverzicht |
+| `/tarieven` | dienstenoverzicht |
+| `/ai-agents/voorbeelden` | kennisbank |
+| `/ai-agents/wat-is-een-ai-agent` | kennisbank |
+| `/ai-automatisering/ai-tools` | kennisbank |
+| `/ai-automatisering/ai-workflows` | kennisbank |
+| `/ai-automatisering/bedrijfsprocessen-automatiseren-met-ai` | kennisbank |
+| `/ai-beleid/ai-act` | kennisbank |
+| `/ai-consultancy/ai-roadmap` | kennisbank |
+| `/ai-development/ai-software` | kennisbank |
+| `/ai-implementatie/stappenplan` | kennisbank |
+| `/ai-voor-bedrijven` | kennisbank |
+| `/ai-voor-bedrijven/ai-en-bi` | kennisbank |
+| `/ai-voor-bedrijven/mkb` | kennisbank |
+| `/ai-voor-bedrijven/zakelijke-dienstverleners` | kennisbank |
+| `/inzichten/ai-adoptie-begint-bij-het-werk` | kennisbank |
+| `/inzichten/ai-agents-wat-ze-wel-en-niet-kunnen` | kennisbank |
+| `/inzichten/ai-governance-zonder-bureaucratie` | kennisbank |
+| `/inzichten/ai-vendorselectie-in-acht-stappen` | kennisbank |
+| `/inzichten/build-buy-of-partner` | kennisbank |
+| `/inzichten/de-business-case-voor-ai` | kennisbank |
+| `/inzichten/freelance-ai-consultant-vs-agency-vs-big4` | kennisbank |
+| `/inzichten/het-datafundament-onder-ai` | kennisbank |
+| `/inzichten/van-ai-strategie-naar-waarde` | kennisbank |
+| `/inzichten/waarom-ai-pilots-blijven-steken` | kennisbank |
+| `/inzichten/wanneer-heb-je-echt-een-ai-strateeg-nodig` | kennisbank |
+| `/inzichten/welke-ai-use-cases-leveren-resultaat` | kennisbank |
+| `/kennisbank/ai-agents-en-avg` | kennisbank |
+| `/kennisbank/ai-specialist-salaris` | kennisbank |
+| `/kennisbank/ai-voorbeelden` | kennisbank |
+| `/kennisbank/chatgpt-voor-bedrijven` | kennisbank |
+| `/kennisbank/claude-voor-bedrijven` | kennisbank |
+| `/kennisbank/gemini-voor-bedrijven` | kennisbank |
+| `/kennisbank/microsoft-copilot-voor-bedrijven` | kennisbank |
+| `/kennisbank/notuleren-met-ai` | kennisbank |
+| `/kennisbank/prompt-engineering` | kennisbank |
+| `/kennisbank/rpa-vs-ai-automatisering` | kennisbank |
+| `/kennisbank/wat-doet-een-ai-consultant` | kennisbank |
+| `/kennisbank/wat-doet-een-ai-developer` | kennisbank |
+| `/kennisbank/wat-doet-een-bi-specialist` | kennisbank |
+| `/markten` | kennisbank |
+| `/markten/automotive` | kennisbank |
+| `/markten/fintech` | kennisbank |
+
+---
+
 ## Samenvatting
 
 - Gebouwd en getest: schema, renderfunctie, component, remark-plugin, styling en vier controlescripts. `npm run build` draait de controles en faalt bij een fout.

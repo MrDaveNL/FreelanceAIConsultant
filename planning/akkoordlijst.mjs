@@ -12,8 +12,9 @@ const [bron, uit, ...bovenaan] = process.argv.slice(2);
 const cel = (s) => String(s ?? '').replace(/\s+/g, ' ').trim().replaceAll('|', '/');
 const eersteZin = (blok) => splitsZinnen(tekstVan(parseHtml(`<div>${renderRagBlok(blok)}</div>`).querySelector('.rag-blok__antwoord')))[0];
 
-const rijen = geplaatst.map((b) => ({ pagina: b.pagina, type: b.type, status: 'geplaatst (pilot, concept)', vraagkop: b.vraagkop, zin: eersteZin(b) }));
+const rijen = geplaatst.map((b) => ({ pagina: b.pagina, type: b.type, status: b.concept ? 'geplaatst (pilot, concept)' : 'geplaatst', vraagkop: b.vraagkop, zin: eersteZin(b) }));
 for (const { herkomst, opmerking, status, verificatie, geschrapt, wijzigingen, externeFeiten, ...velden } of JSON.parse(fs.readFileSync(bron, 'utf8'))) {
+  if (rijen.some((r) => r.pagina === velden.pagina)) continue; // al geplaatst
   // Een concept dat op publicatie wacht is niet herzien en kan ongeldig zijn: dan staat de ruwe eerste zin er, met tokens.
   let zin;
   try { zin = eersteZin(valideer(blokSchema, [{ bijgewerkt: '2026-10', concept: true, ...velden }], 'concept', 'pagina')[0]); } catch { zin = splitsZinnen(velden.antwoord)[0]; }
@@ -29,8 +30,8 @@ const types = [...new Set(rijen.map((r) => r.type))].sort();
 
 const md = [
   '# RAG-blokken: akkoordlijst', '',
-  `Eén regel per blok: ${rijen.length} blokken. Er is niets nieuws geplaatst. Zet een blok dat geplaatst mag worden in \`docs/rag-concepten.json\` op de status "akkoord"; alleen die blokken worden geplaatst.`, '',
-  `Stand: ${tel('geverifieerd')} geverifieerd, ${tel('concept')} concept, ${tel('akkoord')} akkoord, ${tel('wacht op publicatie')} wacht op publicatie, ${geplaatst.length} al geplaatst als pilot. De volledige tekst van elk blok staat in \`docs/rag-concepten.md\`, de reden waarom een blok concept blijft in \`docs/rag-verificatie.md\`.`, '',
+  `Eén regel per blok: ${rijen.length} blokken. Zet een blok dat geplaatst mag worden in \`docs/rag-concepten.json\` op de status "akkoord"; alleen die blokken worden geplaatst.`, '',
+  `Stand: ${tel('geverifieerd')} geverifieerd, ${tel('concept')} concept, ${tel('akkoord')} akkoord, ${tel('wacht op publicatie')} wacht op publicatie, ${tel('geplaatst')} geplaatst, ${tel('geplaatst (pilot, concept)')} geplaatst als pilot. De volledige tekst van elk blok staat in \`docs/rag-concepten.md\`, de reden waarom een blok concept blijft in \`docs/rag-verificatie.md\`.`, '',
   'De eerste zin staat er zoals hij in de HTML komt. Bij een blok dat op publicatie wacht is de tekst niet herzien en kunnen er nog tokens in staan.', '',
   ...(boven.length ? [`## Eerst beoordelen: blokken met een gewijzigde vraagkop (${boven.length})`, '', 'Deze blokken staan ook in hun eigen paginatype hieronder.', '', ...kop, ...boven.map(regel), ''] : []),
   ...types.flatMap((t) => { const r = rijen.filter((x) => x.type === t).sort(opPagina); return [`## Paginatype: ${t} (${r.length})`, '', ...kop, ...r.map(regel), '']; }),
