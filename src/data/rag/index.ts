@@ -35,8 +35,9 @@ import aiDevelopmentAiSoftware from './blokken/ai-development-ai-software.ts';
 import aiImplementatieStappenplan from './blokken/ai-implementatie-stappenplan.ts';
 import aiVoorBedrijven from './blokken/ai-voor-bedrijven.ts';
 import aiVoorBedrijvenAiEnBi from './blokken/ai-voor-bedrijven-ai-en-bi.ts';
+import aiVoorBedrijvenMkb from './blokken/ai-voor-bedrijven-mkb.ts';
 
-const bronnen: unknown[] = [dienstenAiReadinessAssessment, aiConsultancyAiStrategie, aiConsultancyAiConsultantInhuren, aiAgents, aiAgentsLatenMaken, aiAutomatisering, aiBeleid, aiConsultancy, aiConsultancyAiAdvies, aiDevelopment, aiDevelopmentAiOplossingen, aiDevelopmentAiSpecialist, aiImplementatie, aiImplementatieAdvies, aiWorkshop, aiWorkshopAiCoaching, aiWorkshopAiGeletterdheidTraining, aiWorkshopChatgptTraining, aiWorkshopCopilotTraining, diensten, partnernetwerk, tarieven, aiAgentsVoorbeelden, aiAgentsWatIsEenAiAgent, aiAutomatiseringAiTools, aiAutomatiseringAiWorkflows, aiAutomatiseringBedrijfsprocessenAutomatiserenMetAi, aiBeleidAiAct, aiConsultancyAiRoadmap, aiDevelopmentAiSoftware, aiImplementatieStappenplan, aiVoorBedrijven, aiVoorBedrijvenAiEnBi];
+const bronnen: unknown[] = [dienstenAiReadinessAssessment, aiConsultancyAiStrategie, aiConsultancyAiConsultantInhuren, aiAgents, aiAgentsLatenMaken, aiAutomatisering, aiBeleid, aiConsultancy, aiConsultancyAiAdvies, aiDevelopment, aiDevelopmentAiOplossingen, aiDevelopmentAiSpecialist, aiImplementatie, aiImplementatieAdvies, aiWorkshop, aiWorkshopAiCoaching, aiWorkshopAiGeletterdheidTraining, aiWorkshopChatgptTraining, aiWorkshopCopilotTraining, diensten, partnernetwerk, tarieven, aiAgentsVoorbeelden, aiAgentsWatIsEenAiAgent, aiAutomatiseringAiTools, aiAutomatiseringAiWorkflows, aiAutomatiseringBedrijfsprocessenAutomatiserenMetAi, aiBeleidAiAct, aiConsultancyAiRoadmap, aiDevelopmentAiSoftware, aiImplementatieStappenplan, aiVoorBedrijven, aiVoorBedrijvenAiEnBi, aiVoorBedrijvenMkb];
 
 export const blokken: Blok[] = valideer(blokSchema, bronnen, 'blok', 'pagina');
 
