@@ -26,8 +26,9 @@ import partnernetwerk from './blokken/partnernetwerk.ts';
 import tarieven from './blokken/tarieven.ts';
 import aiAgentsVoorbeelden from './blokken/ai-agents-voorbeelden.ts';
 import aiAgentsWatIsEenAiAgent from './blokken/ai-agents-wat-is-een-ai-agent.ts';
+import aiAutomatiseringAiTools from './blokken/ai-automatisering-ai-tools.ts';
 
-const bronnen: unknown[] = [dienstenAiReadinessAssessment, aiConsultancyAiStrategie, aiConsultancyAiConsultantInhuren, aiAgents, aiAgentsLatenMaken, aiAutomatisering, aiBeleid, aiConsultancy, aiConsultancyAiAdvies, aiDevelopment, aiDevelopmentAiOplossingen, aiDevelopmentAiSpecialist, aiImplementatie, aiImplementatieAdvies, aiWorkshop, aiWorkshopAiCoaching, aiWorkshopAiGeletterdheidTraining, aiWorkshopChatgptTraining, aiWorkshopCopilotTraining, diensten, partnernetwerk, tarieven, aiAgentsVoorbeelden, aiAgentsWatIsEenAiAgent];
+const bronnen: unknown[] = [dienstenAiReadinessAssessment, aiConsultancyAiStrategie, aiConsultancyAiConsultantInhuren, aiAgents, aiAgentsLatenMaken, aiAutomatisering, aiBeleid, aiConsultancy, aiConsultancyAiAdvies, aiDevelopment, aiDevelopmentAiOplossingen, aiDevelopmentAiSpecialist, aiImplementatie, aiImplementatieAdvies, aiWorkshop, aiWorkshopAiCoaching, aiWorkshopAiGeletterdheidTraining, aiWorkshopChatgptTraining, aiWorkshopCopilotTraining, diensten, partnernetwerk, tarieven, aiAgentsVoorbeelden, aiAgentsWatIsEenAiAgent, aiAutomatiseringAiTools];
 
 export const blokken: Blok[] = valideer(blokSchema, bronnen, 'blok', 'pagina');
 
