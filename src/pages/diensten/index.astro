@@ -3,6 +3,7 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
 import PageHero from '../../components/PageHero.astro';
 import ServiceCard from '../../components/ServiceCard.astro';
 import CTA from '../../components/CTA.astro';
+import RagBlok from '../../components/RagBlok.astro';
 import { featuredServices, extraServices, serviceComparison } from '../../data/services.js';
 ---
 <BaseLayout
@@ -64,6 +65,8 @@ import { featuredServices, extraServices, serviceComparison } from '../../data/s
       <p class="note center">Alle bedragen zijn exclusief btw en reiskosten. Waar een bandbreedte staat, legt het voorstel na de kennismaking het exacte bedrag vast.</p>
     </div>
   </section>
+
+  <RagBlok pagina="/diensten" />
 
   <section class="section-sm process-note">
     <div class="container two">

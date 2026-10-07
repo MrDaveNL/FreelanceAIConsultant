@@ -5,6 +5,9 @@ import ArticleCard from '../../components/ArticleCard.astro';
 import CTA from '../../components/CTA.astro';
 import { articles, getArticle } from '../../data/articles/index.js';
 import { site, seoTitle } from '../../data/site.js';
+import '../../styles/rag-blok.css';
+import { blokVoor } from '../../data/rag/index.ts';
+import { renderRagBlok } from '../../lib/rag-blok.js';
 
 export function getStaticPaths() {
   return articles.map((article) => ({ params: { slug: article.slug }, props: { article } }));
@@ -12,6 +15,13 @@ export function getStaticPaths() {
 
 const { article } = Astro.props;
 const related = (article.related ?? []).map(getArticle).filter(Boolean);
+
+// RAG-ready contentblok: vóór de eerste H2 van de artikeltekst. Zonder blok blijft de tekst zoals hij is.
+const blok = blokVoor(`/inzichten/${article.slug}`);
+const eersteH2 = article.body.indexOf('<h2');
+if (blok && eersteH2 < 0) throw new Error(`RAG-blok /inzichten/${article.slug}: artikel heeft geen H2`);
+const body = blok ? `${article.body.slice(0, eersteH2)}${renderRagBlok(blok)}
+${article.body.slice(eersteH2)}` : article.body;
 
 const schema = {
   '@context': 'https://schema.org',
@@ -58,7 +68,7 @@ const schema = {
 
     <section class="section-sm">
       <div class="container article-grid">
-        <div class="content" set:html={article.body} />
+        <div class="content" set:html={body} />
         <aside>
           <h3>Key takeaways</h3>
           {article.takeaways.map(([title, text]) => (
