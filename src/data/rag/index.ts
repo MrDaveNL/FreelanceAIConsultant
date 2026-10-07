@@ -36,8 +36,9 @@ import aiImplementatieStappenplan from './blokken/ai-implementatie-stappenplan.t
 import aiVoorBedrijven from './blokken/ai-voor-bedrijven.ts';
 import aiVoorBedrijvenAiEnBi from './blokken/ai-voor-bedrijven-ai-en-bi.ts';
 import aiVoorBedrijvenMkb from './blokken/ai-voor-bedrijven-mkb.ts';
+import aiVoorBedrijvenZakelijkeDienstverleners from './blokken/ai-voor-bedrijven-zakelijke-dienstverleners.ts';
 
-const bronnen: unknown[] = [dienstenAiReadinessAssessment, aiConsultancyAiStrategie, aiConsultancyAiConsultantInhuren, aiAgents, aiAgentsLatenMaken, aiAutomatisering, aiBeleid, aiConsultancy, aiConsultancyAiAdvies, aiDevelopment, aiDevelopmentAiOplossingen, aiDevelopmentAiSpecialist, aiImplementatie, aiImplementatieAdvies, aiWorkshop, aiWorkshopAiCoaching, aiWorkshopAiGeletterdheidTraining, aiWorkshopChatgptTraining, aiWorkshopCopilotTraining, diensten, partnernetwerk, tarieven, aiAgentsVoorbeelden, aiAgentsWatIsEenAiAgent, aiAutomatiseringAiTools, aiAutomatiseringAiWorkflows, aiAutomatiseringBedrijfsprocessenAutomatiserenMetAi, aiBeleidAiAct, aiConsultancyAiRoadmap, aiDevelopmentAiSoftware, aiImplementatieStappenplan, aiVoorBedrijven, aiVoorBedrijvenAiEnBi, aiVoorBedrijvenMkb];
+const bronnen: unknown[] = [dienstenAiReadinessAssessment, aiConsultancyAiStrategie, aiConsultancyAiConsultantInhuren, aiAgents, aiAgentsLatenMaken, aiAutomatisering, aiBeleid, aiConsultancy, aiConsultancyAiAdvies, aiDevelopment, aiDevelopmentAiOplossingen, aiDevelopmentAiSpecialist, aiImplementatie, aiImplementatieAdvies, aiWorkshop, aiWorkshopAiCoaching, aiWorkshopAiGeletterdheidTraining, aiWorkshopChatgptTraining, aiWorkshopCopilotTraining, diensten, partnernetwerk, tarieven, aiAgentsVoorbeelden, aiAgentsWatIsEenAiAgent, aiAutomatiseringAiTools, aiAutomatiseringAiWorkflows, aiAutomatiseringBedrijfsprocessenAutomatiserenMetAi, aiBeleidAiAct, aiConsultancyAiRoadmap, aiDevelopmentAiSoftware, aiImplementatieStappenplan, aiVoorBedrijven, aiVoorBedrijvenAiEnBi, aiVoorBedrijvenMkb, aiVoorBedrijvenZakelijkeDienstverleners];
 
 export const blokken: Blok[] = valideer(blokSchema, bronnen, 'blok', 'pagina');
 
