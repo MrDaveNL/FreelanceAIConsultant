@@ -1,0 +1,30 @@
+// RAG-blok. Teksten geverifieerd (docs/rag-verificatie.md) en akkoord bevonden op 7 oktober 2026.
+export default {
+  "pagina": "/ai-consultancy",
+  "type": "dienstenoverzicht",
+  "onderwerp": "AI consultancy",
+  "vraagkop": "Wat kost AI consultancy?",
+  "onderBestaandeKop": true,
+  "antwoord": "AI consultancy van {{afzender}} wordt geleverd in vaste pakketten met zichtbare vanaf-prijzen, niet tegen een open uurtarief. Het {{dienst:ai-readiness-assessment}} duurt {{timing:ai-readiness-assessment}} en kost {{pricelc:ai-readiness-assessment}}, de {{dienst:ai-strategy-sprint}} duurt {{timing:ai-strategy-sprint}} en kost {{pricelc:ai-strategy-sprint}}, en de {{dienst:fractional-ai-lead}} is een doorlopende rol voor {{pricelc:fractional-ai-lead}}. Afgebakend advies en second opinions krijgen een vaste prijs in het voorstel, en de bedragen zijn {{voorwaarden}}.",
+  "vervolgvragen": [
+    {
+      "vraag": "Wat kost AI consultancy voor een directie of raad van commissarissen?",
+      "antwoord": "{{price:executive-briefing}} is de prijs van de {{dienst:executive-briefing}}, bedoeld voor directie en raad van commissarissen die hun toezichtrol op AI willen invullen. De {{dienst:executive-briefing}} is een {{timing:executive-briefing}}, en wordt voorbereid op de sector van de organisatie."
+    },
+    {
+      "vraag": "Kan het AI Readiness Assessment bij AI consultancy ook voor één afdeling?",
+      "onvoorwaardelijk": true,
+      "antwoord": "Ja. Het {{dienst:ai-readiness-assessment}} kan ook voor één afdeling of één procesdomein worden uitgevoerd. Die variant is korter en vraagt een lagere investering."
+    },
+    {
+      "vraag": "Heeft de adviseur bij AI consultancy belang bij een leverancier of een grotere scope?",
+      "onvoorwaardelijk": true,
+      "antwoord": "Nee. De adviseur bouwt en verkoopt bij AI consultancy zelf geen software, AI-agents of implementaties en heeft daardoor geen belang bij een grotere scope of bij een bepaalde leverancier. Het bouwen doet het eigen team of een partner die de opdrachtgever rechtstreeks contracteert."
+    }
+  ],
+  "bron": {
+    "tekst": "tarieven en doorlooptijden van {{afzender}}",
+    "href": "/tarieven"
+  },
+  "bijgewerkt": "2026-10"
+};
