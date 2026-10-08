@@ -51,5 +51,6 @@ export default {
       "soort": "wetgeving"
     }
   ],
-  "bijgewerkt": "2026-10"
+  "bijgewerkt": "2026-10",
+  "markup": true
 };
