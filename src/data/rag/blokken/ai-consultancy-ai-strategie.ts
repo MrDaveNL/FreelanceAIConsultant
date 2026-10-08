@@ -1,5 +1,5 @@
 // Geplaatst pilotblok. Teksten op basis van de bestaande paginatekst en prijzen.ts; herzien op 6 oktober 2026
-// na de verificatie (stelligheid van de bron, prijsvoorwaarden uit prijzen.ts). Nog niet opnieuw beoordeeld.
+// na de verificatie (stelligheid van de bron, prijsvoorwaarden uit prijzen.ts). Akkoord bevonden op 8 oktober 2026.
 export default {
   "pagina": "/ai-consultancy/ai-strategie",
   "type": "dienstenoverzicht",
@@ -65,6 +65,5 @@ export default {
     "tekst": "tarieven en doorlooptijden van {{afzender}}",
     "href": "/tarieven"
   },
-  "bijgewerkt": "2026-10",
-  "concept": true
+  "bijgewerkt": "2026-10"
 };
