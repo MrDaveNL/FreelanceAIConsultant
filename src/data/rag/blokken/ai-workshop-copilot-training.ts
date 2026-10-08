@@ -32,5 +32,6 @@ export default {
       "soort": "overig extern"
     }
   ],
-  "bijgewerkt": "2026-10"
+  "bijgewerkt": "2026-10",
+  "markup": true
 };
