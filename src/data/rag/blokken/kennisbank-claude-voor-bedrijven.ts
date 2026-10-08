@@ -50,5 +50,6 @@ export default {
       "soort": "toolprijs"
     }
   ],
-  "bijgewerkt": "2026-10"
+  "bijgewerkt": "2026-10",
+  "markup": true
 };
