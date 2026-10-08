@@ -24,5 +24,6 @@ export default {
     "tekst": "tarieven en doorlooptijden van {{afzender}}",
     "href": "/tarieven"
   },
-  "bijgewerkt": "2026-10"
+  "bijgewerkt": "2026-10",
+  "markup": true
 };
