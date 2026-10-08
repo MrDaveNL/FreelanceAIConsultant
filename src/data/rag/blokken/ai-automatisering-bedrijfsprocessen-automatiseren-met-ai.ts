@@ -19,5 +19,6 @@ export default {
   "bron": {
     "tekst": "artikel van {{afzender}}"
   },
-  "bijgewerkt": "2026-10"
+  "bijgewerkt": "2026-10",
+  "markup": true
 };
