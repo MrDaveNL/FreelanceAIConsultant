@@ -76,6 +76,7 @@ In een tabelcel verwijs je naar een dienstveld met een object in plaats van een 
 | `alleenAntwoord` | Nee | Standaard `false`. Dan geen tabel en geen vervolgvragen. |
 | `externeFeiten` | Nee | Lijst van `{ zin, soort }` voor feiten van buiten de eigen dienstverlening. |
 | `concept` | Nee | Standaard `false`. Bij `true` meldt `check-rag.mjs` dat de teksten nog niet beoordeeld zijn. |
+| `markup` | Nee | Standaard `false`. Bij `true` staan de vraagkop met de antwoordalinea en de vervolgvragen ook als `FAQPage` in de structured data van de pagina. De tabel en de bronregel niet. |
 
 Elk blok en elke dienst wordt bij het laden gevalideerd. Een ontbrekend of ongeldig veld laat de build falen met het bestand, het veld en de reden.
 
@@ -113,6 +114,7 @@ Elk blok en elke dienst wordt bij het laden gevalideerd. Een ontbrekend of ongel
 7. **Dienstblok: vul eerst de dienstfeiten aan.** Een blok met `type: 'dienst'` vereist een regel voor die dienst in `aanvullingen` in `src/data/rag/diensten.ts`, met `resultaat` (precies één zin), `doelgroep` en `laatstGecontroleerd` (`jjjj-mm-dd`). Naam, URL, prijs en doorlooptijd komen uit `services.js` en worden daar niet overgetypt. Ontbreken de dienstfeiten, dan faalt de build.
 8. **Zorg dat de pagina het blok toont.** Dat verschilt per soort pagina, zie hieronder.
 9. **Draai `npm run build`** en los elke fout op voordat je verdergaat.
+10. **Zet `markup: true` in het blokbestand** als de vragen van het blok ook in de structured data moeten staan, en draai de build opnieuw. Dat hoeft in geen enkele template: `src/layouts/BaseLayout.astro` zoekt het blok op via het pad van de pagina en voegt de vragen toe met `metRagVragen` uit `src/lib/rag-blok.js`. Heeft de pagina al een `FAQPage`, dan komen de vragen achter de bestaande items. Heeft ze één los object, dan wordt de JSON-LD een lijst van twee: het bestaande object, ongewijzigd, en de `FAQPage`. De tekst komt uit dezelfde renderfunctie als de zichtbare HTML en wordt nergens overgetypt.
 
 ### In een Astro-template
 
@@ -170,6 +172,7 @@ De controles lezen de ruwe HTML in `dist/`. Wat daar niet staat, staat niet in d
 | Bedragen alleen als de pagina ze noemt | Een bedrag van een dienst staat alleen in het blok als de pagina zelf dat bedrag noemt, of als de vraagkop over kosten gaat. |
 | Dubbele tekst | Geen zin van vier of meer woorden uit de bestaande paginatekst staat woordelijk in het blok. |
 | Dubbele vraag | De vraagkop en de vervolgvragen staan niet al als kop op deze of een andere pagina. De vragen in FAQ-accordeons (`summary`) tellen mee. |
+| Structured data | Met `markup: true` staat elke vraag van het blok precies één keer in `FAQPage`, met een antwoord dat woordelijk gelijk is aan de zichtbare alinea. Zonder `markup` staat geen vraag van het blok in `FAQPage`. |
 
 Het script meldt daarnaast elk blok met `concept: true`. Dat is een melding, geen fout.
 
@@ -183,7 +186,7 @@ Dit script vergelijkt elke pagina in `dist/` met de nulmeting in `docs/seo-nulme
 | Koppenstructuur | Elke bestaande kop komt terug met dezelfde tekst, hetzelfde niveau en in dezelfde volgorde. Het aantal H1's is gelijk. |
 | Bestaande bodytekst | Elk tekstblok uit `<main>` komt volledig en in dezelfde volgorde terug. |
 | Bestaande links | Elke link komt terug met dezelfde regio, `href` en ankertekst. |
-| Structured data | De JSON-LD is ongewijzigd en nog geldige JSON. |
+| Structured data | Elke bestaande knoop en elk bestaand FAQ-item komt identiek en in dezelfde volgorde terug, en de JSON-LD is geldige JSON. Toegevoegd mag alleen een `FAQPage` of een vraag daarin zijn; elke andere toevoeging is een fout. |
 | Afbeeldingen | Bron, alt-tekst, afmetingen en `loading` zijn gelijk. |
 | Laadprestaties | Geen ander of extra script, en hetzelfde aantal `details`-elementen. |
 | Aanwezigheid | De pagina uit de nulmeting bestaat nog in `dist/`. |

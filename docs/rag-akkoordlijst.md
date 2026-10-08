@@ -2,7 +2,7 @@
 
 Eén regel per blok: 73 blokken. Zet een blok dat geplaatst mag worden in `docs/rag-concepten.json` op de status "akkoord"; alleen die blokken worden geplaatst.
 
-Stand: 0 geverifieerd, 0 concept, 5 akkoord, 5 wacht op publicatie, 60 geplaatst, 3 geplaatst als pilot. De volledige tekst van elk blok staat in `docs/rag-concepten.md`, de reden waarom een blok concept blijft in `docs/rag-verificatie.md`.
+Stand: 0 geverifieerd, 0 concept, 0 akkoord, 5 wacht op publicatie, 68 geplaatst, 0 geplaatst als pilot. De volledige tekst van elk blok staat in `docs/rag-concepten.md`, de reden waarom een blok concept blijft in `docs/rag-verificatie.md`.
 
 De eerste zin staat er zoals hij in de HTML komt. Bij een blok dat op publicatie wacht is de tekst niet herzien en kunnen er nog tokens in staan.
 
@@ -21,12 +21,12 @@ Deze blokken staan ook in hun eigen paginatype hieronder.
 
 | Pagina | Paginatype | Status | Vraagkop | Eerste zin van de antwoordalinea |
 |---|---|---|---|---|
-| `/diensten/ai-due-diligence` | dienst | akkoord | Wat levert een AI Due Diligence op en wat kost die? | De AI Due Diligence van Dave Willemstein beoordeelt een AI-propositie of AI-leverancier voor investeerders en voor organisaties die een strategische AI-leverancier binnenhalen. |
-| `/diensten/ai-readiness-assessment` | dienst | geplaatst (pilot, concept) | Wat levert het AI Readiness Assessment op en wat kost het? | Het AI Readiness Assessment van Dave Willemstein laat organisaties die AI overwegen maar nog geen richting hebben gekozen zien wat haalbaar is en wat eerst moet. |
-| `/diensten/ai-strategy-sprint` | dienst | akkoord | Wat levert de AI Strategy Sprint op en wat kost die? | De AI Strategy Sprint van Dave Willemstein brengt organisaties die AI serieus willen inzetten maar niet weten waar te beginnen in 4-6 weken van ambitie naar een board-ready AI-strategie en een use-case roadmap. |
-| `/diensten/executive-briefing` | dienst | akkoord | Wat levert een Executive Briefing op en wat kost die? | De Executive Briefing van Dave Willemstein geeft een directie, RvC of RvT een gedeeld en realistisch beeld van wat AI voor de organisatie betekent. |
-| `/diensten/fractional-ai-lead` | dienst | akkoord | Wat kost een Fractional AI Lead en voor wie is die rol bedoeld? | De Fractional AI Lead van Dave Willemstein geeft organisaties met lopende AI-initiatieven zonder duidelijke eigenaar senior AI-leiderschap in deeltijd. |
-| `/diensten/vendor-review` | dienst | akkoord | Wat levert een Vendor Review op en wat kost die? | De Vendor Review van Dave Willemstein is een onafhankelijk selectietraject voor organisaties die een AI-leverancier kiezen en die keuze achteraf moeten kunnen uitleggen. |
+| `/diensten/ai-due-diligence` | dienst | geplaatst | Wat levert een AI Due Diligence op en wat kost die? | De AI Due Diligence van Dave Willemstein beoordeelt een AI-propositie of AI-leverancier voor investeerders en voor organisaties die een strategische AI-leverancier binnenhalen. |
+| `/diensten/ai-readiness-assessment` | dienst | geplaatst | Wat levert het AI Readiness Assessment op en wat kost het? | Het AI Readiness Assessment van Dave Willemstein laat organisaties die AI overwegen maar nog geen richting hebben gekozen zien wat haalbaar is en wat eerst moet. |
+| `/diensten/ai-strategy-sprint` | dienst | geplaatst | Wat levert de AI Strategy Sprint op en wat kost die? | De AI Strategy Sprint van Dave Willemstein brengt organisaties die AI serieus willen inzetten maar niet weten waar te beginnen in 4-6 weken van ambitie naar een board-ready AI-strategie en een use-case roadmap. |
+| `/diensten/executive-briefing` | dienst | geplaatst | Wat levert een Executive Briefing op en wat kost die? | De Executive Briefing van Dave Willemstein geeft een directie, RvC of RvT een gedeeld en realistisch beeld van wat AI voor de organisatie betekent. |
+| `/diensten/fractional-ai-lead` | dienst | geplaatst | Wat kost een Fractional AI Lead en voor wie is die rol bedoeld? | De Fractional AI Lead van Dave Willemstein geeft organisaties met lopende AI-initiatieven zonder duidelijke eigenaar senior AI-leiderschap in deeltijd. |
+| `/diensten/vendor-review` | dienst | geplaatst | Wat levert een Vendor Review op en wat kost die? | De Vendor Review van Dave Willemstein is een onafhankelijk selectietraject voor organisaties die een AI-leverancier kiezen en die keuze achteraf moeten kunnen uitleggen. |
 
 ## Paginatype: dienstenoverzicht (21)
 
@@ -38,8 +38,8 @@ Deze blokken staan ook in hun eigen paginatype hieronder.
 | `/ai-beleid` | dienstenoverzicht | geplaatst | Wat hoort er in een AI beleid en welke dienst past erbij? | Een AI beleid legt vast welke tools zijn toegestaan, welke gegevens erin mogen, wie beslist en hoe risico's worden beheerst; voor de meeste organisaties volstaat een eerste versie van één tot drie pagina's. |
 | `/ai-consultancy` | dienstenoverzicht | geplaatst | Wat kost AI consultancy? | AI consultancy van Dave Willemstein wordt geleverd in vaste pakketten met zichtbare vanaf-prijzen, niet tegen een open uurtarief. |
 | `/ai-consultancy/ai-advies` | dienstenoverzicht | geplaatst | Wat kost AI advies en welke vorm past bij welke vraag? | AI advies van Dave Willemstein beantwoordt één afgebakende vraag of besluit, zoals een leverancierskeuze, een toets van een business case of een second opinion, meestal in dagen. |
-| `/ai-consultancy/ai-consultant-inhuren` | dienstenoverzicht | geplaatst (pilot, concept) | Wat kost een AI consultant inhuren? | Een AI consultant inhuren bij Dave Willemstein gaat via vaste pakketten met zichtbare vanaf-prijzen. |
-| `/ai-consultancy/ai-strategie` | dienstenoverzicht | geplaatst (pilot, concept) | Wat kost het om een AI strategie te laten ontwikkelen en hoe lang duurt het? | Een AI strategie laten ontwikkelen door Dave Willemstein kan in één traject met de AI Strategy Sprint, die 4-6 weken duurt en €15.400 - €22.400 kost. |
+| `/ai-consultancy/ai-consultant-inhuren` | dienstenoverzicht | geplaatst | Wat kost een AI consultant inhuren? | Een AI consultant inhuren bij Dave Willemstein gaat via vaste pakketten met zichtbare vanaf-prijzen. |
+| `/ai-consultancy/ai-strategie` | dienstenoverzicht | geplaatst | Wat kost het om een AI strategie te laten ontwikkelen en hoe lang duurt het? | Een AI strategie laten ontwikkelen door Dave Willemstein kan in één traject met de AI Strategy Sprint, die 4-6 weken duurt en €15.400 - €22.400 kost. |
 | `/ai-development` | dienstenoverzicht | geplaatst | Wat kost onafhankelijke begeleiding bij AI development en wie bouwt er? | Dave Willemstein bouwt zelf geen software, maar begeleidt AI development vanuit de kant van de opdrachtgever: specificatie, selectie van de bouwpartij, toetsing van opleveringen en governance. |
 | `/ai-development/ai-oplossingen` | dienstenoverzicht | geplaatst | Wie bouwt AI oplossingen op maat en welke rol heeft de onafhankelijk adviseur? | Dave Willemstein bouwt of levert zelf geen AI oplossingen, maar helpt bepalen welke oplossing zinvol is, begeleidt de keuze van een oplossing of bouwpartij en toetst vanuit de kant van de opdrachtgever of het resultaat werkt. |
 | `/ai-development/ai-specialist` | dienstenoverzicht | geplaatst | Welke AI specialist past bij welke vraag en wat kost strategische inzet? | AI specialist is een verzamelnaam voor strategische specialisten, die vooral besluiten voorbereiden en sturen, en technische specialisten, die vooral bouwen; het benodigde profiel volgt uit het besluit of het product dat een organisatie nodig heeft. |

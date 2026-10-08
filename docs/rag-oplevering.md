@@ -2,6 +2,30 @@
 
 Stand: 6 oktober 2026 · branch `rag-blokken-fase-0` · niet gemerged
 
+## Open op 8 oktober 2026
+
+Wat nog open staat, wacht op gegevens of op jou:
+
+| Punt | Wacht op | Waar het staat |
+|---|---|---|
+| Vijf marktpagina's op noindex | Publicatie van de pagina's; de tekst is daarna nog te herzien | `docs/rag-akkoordlijst.md` |
+| Handmatige punten uit de acceptatiecriteria | Niet nagelopen; de pagina's zijn niet in een browser bekeken | briefing, "Handmatig" |
+| Structured data extern valideren | Niet door de Rich Results Test of de validator van schema.org gehaald | `docs/rag-voorstel-structured-data.md` |
+| Fractional AI Lead: wat Advies, Lead en Lead+ inhouden | Gegevens van jou | `docs/rag-pilot.md` hoofdstuk 10 |
+| Pull request | Een remote; de branch staat alleen lokaal | - |
+
+Stap 9 is gedaan: `docs/rag-blok.md` bestaat sinds commit `d03170b`. Het deel van dit rapport onder de streep is de stand van 6 oktober, vóór de uitrol, en is niet bijgewerkt.
+
+## Gedaan op 8 oktober 2026
+
+Na jouw akkoord op drie punten. Laatste build: 90 pagina's vergeleken met de nulmeting, 22 ongewijzigd, 68 met alleen toevoegingen, 0 met fouten. 68 blokken in de databron, 0 pagina's met fouten, 0 concepten.
+
+- **Vijf dienstblokken geplaatst**: `/diensten/ai-due-diligence`, `/diensten/ai-strategy-sprint`, `/diensten/executive-briefing`, `/diensten/fractional-ai-lead` en `/diensten/vendor-review`. De resultaatzin en doelgroepzin per dienst zijn ongewijzigd overgenomen uit `docs/rag-pilot.md` hoofdstuk 7 en staan in `src/data/rag/diensten.ts`. Elke pagina is een eigen commit.
+- **Conceptmarkering van de drie pilotblokken verwijderd.** De zichtbare HTML is niet gewijzigd.
+- **Stap 8, structured data, variant A.** De vragen van alle 68 blokken staan ook in FAQPage: 237 vragen, per pagina een eigen commit. Bestaande markup is op elke pagina identiek gebleven. Details en afwijkingen: `docs/rag-voorstel-structured-data.md`, onderaan.
+
+De tabellen hieronder (uitrol van 7 oktober) noemen de vijf dienstblokken nog als niet geplaatst en de pilots nog als concept. Dat is de stand van die dag.
+
 ## Uitrol op 7 oktober 2026
 
 Na akkoord op alle 65 blokken zijn er 60 geplaatst, per paginatype en elke pagina in een eigen commit ("RAG-blok geplaatst: /pad"). Na elke plaatsing is de site gebouwd en zijn de voor- en na-controle (`check-nulmeting.mjs`) en de blokcontrole (`check-rag.mjs`) gedraaid; een pagina is alleen gecommit als beide slaagden.
