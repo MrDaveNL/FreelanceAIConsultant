@@ -4,6 +4,8 @@ import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
 import LogoCarouselSlot from '../components/LogoCarouselSlot.astro';
 import { site } from '../data/site.js';
+import { blokVoor } from '../data/rag/index.ts';
+import { metRagVragen } from '../lib/rag-blok.js';
 
 const {
   title = `${site.brand} | ${site.name}`,
@@ -17,6 +19,8 @@ const {
 
 const canonical = new URL(currentPath === '/' ? '/' : currentPath.replace(/\/$/, ''), site.url).href;
 const ogImage = new URL(image, site.url).href;
+// De vragen van een RAG-blok komen ook in de structured data, als het blok daarvoor is aangezet (markup: true).
+const ragBlok = blokVoor(currentPath === '/' ? '/' : currentPath.replace(/\/$/, ''));
 
 const baseSchema = {
   '@context': 'https://schema.org',
@@ -70,7 +74,7 @@ const baseSchema = {
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet" />
 
-    <script type="application/ld+json" set:html={JSON.stringify(schema ?? baseSchema)} />
+    <script type="application/ld+json" set:html={JSON.stringify(metRagVragen(schema ?? baseSchema, ragBlok))} />
   </head>
   <body>
     <a class="skip-link" href="#main">Naar hoofdinhoud</a>

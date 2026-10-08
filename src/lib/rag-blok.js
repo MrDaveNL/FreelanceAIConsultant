@@ -119,6 +119,36 @@ export function renderRagDelen(blok) {
   return { antwoord: sectie('rag-blok', [`<h2>${tekst(blok.vraagkop, pagina)}</h2>`, antwoord, tabelHtml, ...vervolg, bronregel]), vervolg: '' };
 }
 
+// De vragen van het blok met hun antwoord als platte tekst: de vraagkop met de antwoordalinea, daarna elke
+// vervolgvraag. Zelfde bron en zelfde tokens als de zichtbare HTML, zodat structured data en pagina gelijk blijven.
+const platteTekst = (ruw, pagina) =>
+  tekst(ruw, pagina).replace(/&lt;/g, '<').replace(/&gt;/g, '>').replace(/&quot;/g, '"').replace(/&amp;/g, '&');
+export function ragVragen(blok) {
+  if (!renderRagDelen(blok).antwoord) return [];
+  return [{ vraag: blok.vraagkop, antwoord: blok.antwoord }, ...blok.vervolgvragen].map((v) => ({
+    vraag: platteTekst(v.vraag, blok.pagina),
+    antwoord: platteTekst(v.antwoord, blok.pagina),
+  }));
+}
+
+// Zet de vragen van het blok als FAQPage in de structured data van de pagina, als het blok markup: true heeft.
+// Bestaande knopen en bestaande FAQ-items blijven gelijk en in dezelfde volgorde; de vragen van het blok komen erachter.
+// Een pagina met één los object krijgt een lijst van twee: het bestaande object, ongewijzigd, en de FAQPage.
+export function metRagVragen(schema, blok) {
+  if (!blok?.markup) return schema;
+  const vragen = ragVragen(blok).map(({ vraag, antwoord }) => ({ '@type': 'Question', name: vraag, acceptedAnswer: { '@type': 'Answer', text: antwoord } }));
+  if (!vragen.length) return schema;
+  const graph = schema['@graph'];
+  if (!Array.isArray(graph)) return [schema, { '@context': 'https://schema.org', '@type': 'FAQPage', mainEntity: vragen }];
+  const faq = graph.find((knoop) => knoop['@type'] === 'FAQPage');
+  return {
+    ...schema,
+    '@graph': faq
+      ? graph.map((knoop) => (knoop === faq ? { ...faq, mainEntity: [...faq.mainEntity, ...vragen] } : knoop))
+      : [...graph, { '@type': 'FAQPage', mainEntity: vragen }],
+  };
+}
+
 export const renderRagBlok = (blok) => {
   const { antwoord, vervolg } = renderRagDelen(blok);
   return [antwoord, vervolg].filter(Boolean).join('\n');

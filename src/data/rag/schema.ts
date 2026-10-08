@@ -108,6 +108,8 @@ export const blokSchema = z
     // De bronregel mag de eigennaam van een externe bron bevatten, ook als daar het woord "gids" in zit.
     bron: z.object({ tekst: z.string().trim().min(1).refine((t) => !/—/.test(t), 'bevat een em dash'), href: z.union([pad, z.string().url()]).optional() }),
     bijgewerkt: maand,
+    // true: de vraagkop met de antwoordalinea en de vervolgvragen staan ook als FAQPage in de structured data.
+    markup: z.boolean().default(false),
     // true: de teksten zijn een concept en nog niet beoordeeld. check-rag.mjs meldt elk concept.
     concept: z.boolean().default(false),
   })

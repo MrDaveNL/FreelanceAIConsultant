@@ -244,6 +244,20 @@ for (const { url, doc } of paginas) {
         if (koppen.some((k) => k.tekst === vraag && !(andere === url && k.blok))) fout.push(`vraag "${tekstVan(h)}" staat al als kop op ${andere === url ? 'deze pagina' : andere}`);
     }
 
+    // Structured data: met markup: true staat elke vraag van het blok in FAQPage, woordelijk zoals op de pagina.
+    // Zonder markup staat er geen enkele in.
+    const inMarkup = doc.querySelectorAll('script[type="application/ld+json"]')
+      .flatMap((s) => { try { return [JSON.parse(s.rawText)].flat(); } catch { return []; } })
+      .flatMap((item) => item['@graph'] ?? [item])
+      .filter((knoop) => knoop['@type'] === 'FAQPage')
+      .flatMap((knoop) => knoop.mainEntity ?? []);
+    const zichtbaar = [[kop, eerste && tekstVan(eerste)], ...vragen.map((h3) => [tekstVan(h3), h3.nextElementSibling && tekstVan(h3.nextElementSibling)])];
+    for (const [vraag, antwoord] of zichtbaar) {
+      const aantal = inMarkup.filter((m) => m.name === vraag && m.acceptedAnswer?.text === antwoord).length;
+      if (blok.markup && aantal !== 1) fout.push(`vraag "${vraag}" staat ${aantal} keer met het zichtbare antwoord in FAQPage (verwacht 1)`);
+      if (!blok.markup && aantal) fout.push(`vraag "${vraag}" staat in FAQPage terwijl het blok geen markup: true heeft`);
+    }
+
     if (blok.concept) concepten.push(url);
   }
 

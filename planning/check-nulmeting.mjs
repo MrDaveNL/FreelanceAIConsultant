@@ -85,12 +85,22 @@ for (const voor of metingen) {
   for (const l of links.ontbreekt.slice(0, 8)) fout.push(`bestaande link of ankertekst ontbreekt of is gewijzigd: ${kort(l)}`);
   if (links.toegevoegd.length) info.push(`${links.toegevoegd.length} link(s) toegevoegd${toonToevoegingen ? `: ${links.toegevoegd.map(kort).join(' ; ')}` : ''}`);
 
+  // Structured data: elke bestaande knoop en elk bestaand FAQ-item komt identiek en in dezelfde volgorde terug.
+  // Toegevoegd mag alleen een FAQPage of een vraag daarin zijn (de vragen van een RAG-blok).
   if (voor.structured_data.sha256 !== na.structured_data.sha256) {
-    fout.push('structured data gewijzigd');
-    const plat = (items) => items.flatMap((i) => (i['@graph'] ?? [i])).map((i) => JSON.stringify(i));
+    const plat = (items) => items.flat().flatMap((item) => {
+      const { '@graph': graph, ...omhulsel } = item;
+      return [...(graph ? [`omhulsel ${JSON.stringify(omhulsel)}`] : []), ...(graph ?? [item]).flatMap((knoop) => {
+        if (knoop['@type'] !== 'FAQPage') return [`knoop ${JSON.stringify(knoop)}`];
+        const { mainEntity = [], ...faq } = knoop;
+        return [`FAQPage ${JSON.stringify(faq)}`, ...mainEntity.map((vraag) => `vraag ${JSON.stringify(vraag)}`)];
+      })];
+    });
     const sd = volgorde(plat(voor.structured_data.items), plat(na.structured_data.items));
-    for (const s of sd.ontbreekt) fout.push(`  voor: ${kort(s)}`);
-    for (const s of sd.toegevoegd) fout.push(`  na:   ${kort(s)}`);
+    for (const s of sd.ontbreekt) fout.push(`structured data: bestaand deel ontbreekt, is gewijzigd of verplaatst: ${kort(s)}`);
+    for (const s of sd.toegevoegd.filter((t) => !/^(FAQPage|vraag) /.test(t))) fout.push(`structured data: toevoeging die geen FAQ-vraag is: ${kort(s)}`);
+    const vragen = sd.toegevoegd.filter((t) => t.startsWith('vraag '));
+    if (vragen.length) info.push(`${vragen.length} vraag/vragen toegevoegd aan FAQPage in de structured data${toonToevoegingen ? `: ${vragen.map(kort).join(' ; ')}` : ''}`);
   }
   if (na.structured_data.items.some((i) => i._parse_error)) fout.push('structured data is geen geldige JSON meer');
   if (!gelijk(voor.afbeeldingen, na.afbeeldingen)) fout.push('afbeeldingen, alt-teksten of bestandsnamen gewijzigd');
