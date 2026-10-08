@@ -25,5 +25,6 @@ export default {
   "bron": {
     "tekst": "{{afzender}}, onafhankelijk AI-adviseur"
   },
-  "bijgewerkt": "2026-10"
+  "bijgewerkt": "2026-10",
+  "markup": true
 };
