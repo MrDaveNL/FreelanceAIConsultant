@@ -47,5 +47,6 @@ export default {
       "soort": "salaris"
     }
   ],
-  "bijgewerkt": "2026-10"
+  "bijgewerkt": "2026-10",
+  "markup": true
 };
