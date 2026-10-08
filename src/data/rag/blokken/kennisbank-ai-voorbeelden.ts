@@ -19,5 +19,6 @@ export default {
   "bron": {
     "tekst": "artikel van {{afzender}}; primaire bron: Verordening (EU) 2024/1689 (AI Act), EUR-Lex (peildatum 6 oktober 2026)"
   },
-  "bijgewerkt": "2026-10"
+  "bijgewerkt": "2026-10",
+  "markup": true
 };
