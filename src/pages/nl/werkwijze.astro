@@ -1,11 +1,11 @@
 ---
-import BaseLayout from '../layouts/BaseLayout.astro';
-import PageHero from '../components/PageHero.astro';
-import Steps from '../components/Steps.astro';
-import CTA from '../components/CTA.astro';
-import { stepDetails, expectations, antiPatterns, engagementModels } from '../data/process.js';
-import { procurement } from '../data/faq.js';
-import { independence } from '../data/site.js';
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import PageHero from '@/components/PageHero.astro';
+import Steps from '@/components/Steps.astro';
+import CTA from '@/components/CTA.astro';
+import { stepDetails, expectations, antiPatterns, engagementModels } from '@/data/process.js';
+import { procurement } from '@/data/faq.js';
+import { independence } from '@/data/site.js';
 ---
 <BaseLayout
   title="Werkwijze | Freelance AI Consultant"
@@ -18,7 +18,7 @@ import { independence } from '../data/site.js';
     marked="werk"
     body="Onafhankelijk advies, scherpe prioriteiten en beslissingen waar je als board of MT op kunt sturen. Van eerste vraag tot werkende oplossing: praktisch, transparant en meetbaar."
     secondary="Bekijk de diensten"
-    secondaryHref="/diensten"
+    secondaryHref="/nl/diensten"
   />
 
   <section class="section-sm">
@@ -99,7 +99,7 @@ import { independence } from '../data/site.js';
           <div><span class="icon-dot" aria-hidden="true">{icon}</span><h3>{title}</h3><p>{text}</p></div>
         ))}
       </div>
-      <p class="procure-more"><a class="text-link" href="/veelgestelde-vragen">Alle veelgestelde vragen over samenwerking, tarieven en data →</a></p>
+      <p class="procure-more"><a class="text-link" href="/nl/veelgestelde-vragen">Alle veelgestelde vragen over samenwerking, tarieven en data →</a></p>
     </div>
   </section>
 

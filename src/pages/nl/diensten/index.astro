@@ -1,10 +1,15 @@
 ---
-import BaseLayout from '../../layouts/BaseLayout.astro';
-import PageHero from '../../components/PageHero.astro';
-import ServiceCard from '../../components/ServiceCard.astro';
-import CTA from '../../components/CTA.astro';
-import RagBlok from '../../components/RagBlok.astro';
-import { featuredServices, extraServices, serviceComparison } from '../../data/services.js';
+import { getCollection } from 'astro:content';
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import PageHero from '@/components/PageHero.astro';
+import ServiceCard from '@/components/ServiceCard.astro';
+import CTA from '@/components/CTA.astro';
+import RagBlok from '@/components/RagBlok.astro';
+import { serviceComparison } from '@/data/services.js';
+
+const allServices = (await getCollection('services', ({ data }) => data.lang === 'nl')).map((s) => s.data);
+const featuredServices = allServices.filter((s) => s.featured);
+const extraServices = allServices.filter((s) => !s.featured);
 ---
 <BaseLayout
   title="Diensten | Freelance AI Consultant"
@@ -34,7 +39,7 @@ import { featuredServices, extraServices, serviceComparison } from '../../data/s
       <p class="eyebrow center">Aanvullende diensten</p>
       <div class="grid-3 mini-grid">
         {extraServices.map((service) => (
-          <a class="mini card" href={`/diensten/${service.slug}`}>
+          <a class="mini card" href={`/nl/diensten/${service.slug}`}>
             <span class="icon-dot" aria-hidden="true">{service.icon}</span>
             <div>
               <h3>{service.title}</h3>
@@ -66,7 +71,7 @@ import { featuredServices, extraServices, serviceComparison } from '../../data/s
     </div>
   </section>
 
-  <RagBlok pagina="/diensten" />
+  <RagBlok pagina="/nl/diensten" />
 
   <section class="section-sm process-note">
     <div class="container two">

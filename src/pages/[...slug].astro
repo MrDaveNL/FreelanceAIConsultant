@@ -6,6 +6,8 @@ import CTA from '../components/CTA.astro';
 import { site } from '../data/site.js';
 import { services } from '../data/services.js';
 import { protectedUrls } from '../data/protected-urls.js';
+import { routeById } from '../data/routes';
+import { t, localeFromPath, SCHEMA_LANG } from '../i18n';
 import '../styles/content-pages.css';
 import '../styles/rag-blok.css';
 
@@ -43,18 +45,25 @@ const { Content } = await render(entry);
 const byUrl = new Map(all.map((e) => [e.data.url, e.data]));
 const pageUrl = `${site.url}${page.url}`;
 const isArticle = page.schema === 'article' || page.schema === 'collection';
+const locale = localeFromPath(page.url);
+const dict = t(locale);
+const homeHref = routeById('home')?.paths[locale] ?? '/';
+const overHref = routeById('over')?.paths[locale] ?? '/over';
+const partnernetworkHref = routeById('P06')?.paths[locale] ?? '/partnernetwerk';
+const serviceHref = (slug) => routeById(`svc-${slug}`)?.paths[locale] ?? `/diensten/${slug}`;
 
 // Breadcrumbs volgen de URL-structuur.
-const segments = page.url.split('/').filter(Boolean);
-const crumbs = [{ href: '/', label: 'Home' }];
+const segments = page.url.replace(/^\/nl\//, '').split('/').filter(Boolean);
+const urlPrefix = locale === 'nl' ? '/nl' : '';
+const crumbs = [{ href: homeHref, label: dict.breadcrumbs.home }];
 segments.slice(0, -1).forEach((_, i) => {
-  const href = `/${segments.slice(0, i + 1).join('/')}`;
+  const href = `${urlPrefix}/${segments.slice(0, i + 1).join('/')}`;
   const match = byUrl.get(href);
   if (match) crumbs.push({ href, label: match.navLabel });
 });
 
 const formatDate = (iso) =>
-  new Date(`${iso}T12:00:00`).toLocaleDateString('nl-NL', { day: 'numeric', month: 'long', year: 'numeric' });
+  new Date(`${iso}T12:00:00`).toLocaleDateString(locale === 'nl' ? 'nl-NL' : 'en-US', { day: 'numeric', month: 'long', year: 'numeric' });
 
 // Kennisbank-overzicht (P08): artikelen gegroepeerd per onderwerp.
 const kbCategories = [
@@ -114,7 +123,7 @@ if (page.schema === 'service') {
       name: 'Pakketten en vanaf-prijzen',
       itemListElement: services.map((s) => ({
         '@type': 'Offer',
-        itemOffered: { '@type': 'Service', name: s.title, url: `${site.url}/diensten/${s.slug}` },
+        itemOffered: { '@type': 'Service', name: s.title, url: `${site.url}${serviceHref(s.slug)}` },
         priceSpecification: parsePrice(s.price),
       })),
     },
@@ -132,7 +141,7 @@ if (page.schema === 'service') {
     '@type': 'Article',
     headline: page.title,
     description: page.metaDescription,
-    inLanguage: 'nl-NL',
+    inLanguage: SCHEMA_LANG[locale],
     datePublished: page.published,
     dateModified: page.updated,
     author: person,
@@ -153,7 +162,7 @@ const schema = { '@context': 'https://schema.org', '@graph': graph };
     <header class="cp-hero">
       <div class="container cp-hero-grid">
         <div>
-          <nav class="crumbs" aria-label="Kruimelpad">
+          <nav class="crumbs" aria-label={dict.breadcrumbs.aria}>
             <ol>
               {crumbs.map((c) => <li><a href={c.href}>{c.label}</a></li>)}
               <li aria-current="page">{page.navLabel}</li>
@@ -168,7 +177,7 @@ const schema = { '@context': 'https://schema.org', '@graph': graph };
           </div>
           {isArticle && (
             <p class="cp-meta">
-              Geschreven door <a href="/over">{site.name}</a>, onafhankelijk AI consultant ·
+              Geschreven door <a href={overHref}>{site.name}</a>, onafhankelijk AI consultant ·
               gepubliceerd <time datetime={page.published}>{formatDate(page.published)}</time>
               {page.updated !== page.published && <> · bijgewerkt <time datetime={page.updated}>{formatDate(page.updated)}</time></>}
             </p>
@@ -222,10 +231,10 @@ const schema = { '@context': 'https://schema.org', '@graph': graph };
               <span>{site.roleNl}</span>
             </div>
             <p>Onafhankelijk: geen commissies, geen partnerdeals, geen marge op implementatiepartners.</p>
-            <a class="text-link" href="/over">Over mij</a>
-            {page.url !== '/partnernetwerk' && <a class="text-link" href="/partnernetwerk">Mijn partnernetwerk</a>}
+            <a class="text-link" href={overHref}>Over mij</a>
+            {page.url !== partnernetworkHref && <a class="text-link" href={partnernetworkHref}>Mijn partnernetwerk</a>}
           </div>
-          <a class="aside-cta card" href="/diensten/ai-readiness-assessment">
+          <a class="aside-cta card" href={serviceHref('ai-readiness-assessment')}>
             <b>Weten waar je staat met AI?</b>
             <span>Bekijk het AI Readiness Assessment →</span>
           </a>

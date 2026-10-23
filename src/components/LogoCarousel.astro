@@ -2,14 +2,18 @@
 import { existsSync } from 'node:fs';
 import { join } from 'node:path';
 import brands from '../data/brands.json';
+import { routeById } from '../data/routes';
+import { localeFromPath } from '../i18n';
 
 // Versie in de URL van logo-carousel.css en logo-carousel.js. Ophogen na een wijziging in die bestanden.
 const VERSION = '2';
 // true kleurt het logo in de sitekleur, false toont de originele kleuren.
 const MONO = true;
 
-const path = Astro.url.pathname.replace(/\/$/, '');
-const isHome = path === '';
+const path = Astro.url.pathname.replace(/\/$/, '') || '/';
+// Homepage-pad verschilt per taal (/ voor EN, /nl voor NL); bepaal "isHome" via de route-kaart,
+// niet via een lege string (die klopte alleen toen de NL-homepage nog op '/' stond).
+const isHome = path === (routeById('home')?.paths[localeFromPath(path)] ?? '/');
 // Homepage: h2. Overige pagina's: p met dezelfde opmaak, zodat de kop niet op elke pagina in de outline staat.
 const Title = isHome ? 'h2' : 'p';
 const titleId = `aimerken-titel-${isHome ? 'home' : path.slice(1).replace(/[^a-z0-9]+/gi, '-')}`;

@@ -1,7 +1,7 @@
 ---
-const { item } = Astro.props;
+const { item, href = `/nl/cases/${item.slug}` } = Astro.props;
 ---
-<a class="case-card card" href={`/cases/${item.slug}`} data-sector={item.sector}>
+<a class="case-card card" href={href} data-sector={item.sector}>
   <div class="case-top"><span class="icon-dot">{item.icon}</span><span class="sector">{item.sector}</span></div>
   <h3>{item.cardTitle}</h3>
   <p><b>Uitdaging:</b><br/>{item.challenge}</p>

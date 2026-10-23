@@ -1,10 +1,10 @@
 ---
-import BaseLayout from '../layouts/BaseLayout.astro';
-import PageHero from '../components/PageHero.astro';
-import Accordion from '../components/Accordion.astro';
-import CTA from '../components/CTA.astro';
-import { faqGroups } from '../data/faq.js';
-import { site } from '../data/site.js';
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import PageHero from '@/components/PageHero.astro';
+import Accordion from '@/components/Accordion.astro';
+import CTA from '@/components/CTA.astro';
+import { faqGroups } from '@/data/faq.js';
+import { site } from '@/data/site.js';
 
 const allItems = faqGroups.flatMap((group) => group.items);
 
@@ -30,7 +30,7 @@ const schema = {
     marked="vragen"
     body={`${allItems.length} vragen over samenwerking, onafhankelijkheid, aanpak, tarieven en inkoop. Staat je vraag er niet bij? Stel hem gewoon. Je krijgt binnen één werkdag antwoord.`}
     secondary="Bekijk de diensten"
-    secondaryHref="/diensten"
+    secondaryHref="/nl/diensten"
   />
 
   <section class="section-sm">
@@ -63,7 +63,7 @@ const schema = {
         <p class="eyebrow">Staat je vraag er niet bij?</p>
         <h2 class="h3">Stel hem gewoon. Ook als je nog niet weet of je iets nodig hebt.</h2>
       </div>
-      <a class="btn" href="/contact">Stel je vraag →</a>
+      <a class="btn" href="/nl/contact">Stel je vraag →</a>
     </div>
   </section>
 

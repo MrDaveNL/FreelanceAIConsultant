@@ -1,7 +1,7 @@
 ---
-const { item } = Astro.props;
+const { item, href = `/nl/inzichten/${item.slug}` } = Astro.props;
 ---
-<a class="article-card" href={`/inzichten/${item.slug}`} data-category={item.category}>
+<a class="article-card" href={href} data-category={item.category}>
   <div class:list={['visual', `tone-${item.tone}`]}><span>{item.icon}</span></div>
   <div class="article-body">
     <small>{item.category}</small>

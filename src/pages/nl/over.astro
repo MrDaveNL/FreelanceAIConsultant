@@ -1,8 +1,8 @@
 ---
-import BaseLayout from '../layouts/BaseLayout.astro';
-import PageHero from '../components/PageHero.astro';
-import CTA from '../components/CTA.astro';
-import { site, principles } from '../data/site.js';
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import PageHero from '@/components/PageHero.astro';
+import CTA from '@/components/CTA.astro';
+import { site, principles } from '@/data/site.js';
 
 const timeline = [
   ['20+ jaar', 'Strategie, digital en innovatie, aan klant- én leverancierszijde'],
@@ -22,7 +22,7 @@ const schema = {
   '@type': 'Person',
   name: site.name,
   jobTitle: site.roleNl,
-  url: `${site.url}/over`,
+  url: `${site.url}/nl/over`,
   email: site.email,
   image: new URL(site.portrait, site.url).href,
   sameAs: [site.linkedin],
@@ -41,7 +41,7 @@ const schema = {
     marked="Onafhankelijk"
     body="Ik help organisaties AI-beslissingen nemen die waarde creëren, risico’s beperken en écht passen bij hun strategie. Geen verkooppraat. Geen tool-voorkeuren. Wel helder advies, scherpe keuzes en begeleiding van mens tot proces."
     secondary="Neem contact op"
-    secondaryHref="/contact"
+    secondaryHref="/nl/contact"
   />
 
   <section class="section-sm story">
@@ -103,7 +103,7 @@ const schema = {
         <p class="eyebrow">Buiten het werk</p>
         <p>Ik lees veel over besluitvorming en risico, vakgebieden waar AI verrassend weinig van heeft geleerd. Verder hardlopen, koken en met enige regelmaat de fout ingaan met zelfbouwprojecten in huis.</p>
         <p>Spreken doe ik ook: over AI-besluitvorming, governance en waarom de meeste pilots blijven steken. Liever een scherp gesprek met twintig mensen dan een keynote voor vijfhonderd.</p>
-        <a class="text-link" href="/contact">Vraag naar beschikbaarheid →</a>
+        <a class="text-link" href="/nl/contact">Vraag naar beschikbaarheid →</a>
       </div>
     </div>
   </section>
@@ -118,7 +118,7 @@ const schema = {
       <div class="teaser-links">
         <a href={`mailto:${site.email}`}>{site.email}</a>
         <a href={site.linkedin} rel="noopener">LinkedIn ↗</a>
-        <a class="btn" href="/contact">Naar het contactformulier →</a>
+        <a class="btn" href="/nl/contact">Naar het contactformulier →</a>
       </div>
     </div>
   </section>

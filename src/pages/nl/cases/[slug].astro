@@ -1,13 +1,15 @@
 ---
-import BaseLayout from '../../layouts/BaseLayout.astro';
-import HeroPortrait from '../../components/HeroPortrait.astro';
-import CTA from '../../components/CTA.astro';
-import { cases, getCase } from '../../data/cases.js';
-import { getService } from '../../data/services.js';
-import { site, seoTitle } from '../../data/site.js';
+import { getCollection } from 'astro:content';
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import HeroPortrait from '@/components/HeroPortrait.astro';
+import CTA from '@/components/CTA.astro';
+import { getCase } from '@/data/cases.js';
+import { getService } from '@/data/services.js';
+import { site, seoTitle } from '@/data/site.js';
 
-export function getStaticPaths() {
-  return cases.map((item) => ({ params: { slug: item.slug }, props: { item } }));
+export async function getStaticPaths() {
+  const entries = await getCollection('cases', ({ data }) => data.lang === 'nl');
+  return entries.map((entry) => ({ params: { slug: entry.data.slug }, props: { item: entry.data } }));
 }
 
 const { item } = Astro.props;
@@ -33,7 +35,7 @@ const schema = {
     <section class="case-hero section-sm">
       <div class="container case-hero-grid">
         <div>
-          <a class="back" href="/cases">← Terug naar cases</a>
+          <a class="back" href="/nl/cases">← Terug naar cases</a>
           <p class="eyebrow">{item.sector}</p>
           <h1 class="h1"><span class="marker">{item.titleMarked}</span><br/>{item.titleRest}</h1>
           <p class="lede">{item.lede}</p>
@@ -78,7 +80,7 @@ const schema = {
             <ul>{item.role.map((line) => <li>{line}</li>)}</ul>
           </div>
           {service && (
-            <a class="service-link card" href={`/diensten/${service.slug}`}>
+            <a class="service-link card" href={`/nl/diensten/${service.slug}`}>
               <p class="eyebrow">Ingezette dienst</p>
               <b>{service.title}</b>
               <small>{service.timing} · {service.price}</small>
@@ -93,7 +95,7 @@ const schema = {
       <section class="section-sm next-case">
         <div class="container next-box">
           <div><p class="eyebrow">Volgende case</p><h2 class="h2">{next.cardTitle}</h2><p>{next.challenge}</p></div>
-          <a class="btn" href={`/cases/${next.slug}`}>Lees de case →</a>
+          <a class="btn" href={`/nl/cases/${next.slug}`}>Lees de case →</a>
         </div>
       </section>
     )}

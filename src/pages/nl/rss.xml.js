@@ -1,5 +1,5 @@
-import { site } from '../data/site.js';
-import { articles } from '../data/articles/index.js';
+import { getCollection } from 'astro:content';
+import { site } from '@/data/site.js';
 
 const escape = (value) =>
   String(value)
@@ -9,9 +9,12 @@ const escape = (value) =>
     .replace(/"/g, '&quot;');
 
 export async function GET() {
+  const articles = (await getCollection('articles', ({ data }) => data.lang === 'nl'))
+    .map((a) => a.data)
+    .sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime());
   const items = articles
     .map((article) => {
-      const url = `${site.url}/inzichten/${article.slug}`;
+      const url = `${site.url}/nl/inzichten/${article.slug}`;
       return `    <item>
       <title>${escape(article.title)}</title>
       <link>${url}</link>
@@ -27,8 +30,8 @@ export async function GET() {
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Inzichten | ${escape(site.name)}</title>
-    <link>${site.url}/inzichten</link>
-    <atom:link href="${site.url}/rss.xml" rel="self" type="application/rss+xml" />
+    <link>${site.url}/nl/inzichten</link>
+    <atom:link href="${site.url}/nl/rss.xml" rel="self" type="application/rss+xml" />
     <description>Praktische inzichten over AI-strategie, governance en besluitvorming voor senior leiders.</description>
     <language>nl-NL</language>
     <lastBuildDate>${new Date().toUTCString()}</lastBuildDate>

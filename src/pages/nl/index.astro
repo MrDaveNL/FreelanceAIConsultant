@@ -1,20 +1,25 @@
 ---
-import BaseLayout from '../layouts/BaseLayout.astro';
-import PageHero from '../components/PageHero.astro';
-import MetricStrip from '../components/MetricStrip.astro';
-import Comparison from '../components/Comparison.astro';
-import ServiceCard from '../components/ServiceCard.astro';
-import Steps from '../components/Steps.astro';
-import CaseCard from '../components/CaseCard.astro';
-import ArticleCard from '../components/ArticleCard.astro';
-import CTA from '../components/CTA.astro';
-import { site, metrics, independence } from '../data/site.js';
-import { featuredServices } from '../data/services.js';
-import { cases, testimonials } from '../data/cases.js';
-import { articles } from '../data/articles/index.js';
+import { getCollection } from 'astro:content';
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import PageHero from '@/components/PageHero.astro';
+import MetricStrip from '@/components/MetricStrip.astro';
+import Comparison from '@/components/Comparison.astro';
+import ServiceCard from '@/components/ServiceCard.astro';
+import Steps from '@/components/Steps.astro';
+import CaseCard from '@/components/CaseCard.astro';
+import ArticleCard from '@/components/ArticleCard.astro';
+import CTA from '@/components/CTA.astro';
+import { site, metrics, independence } from '@/data/site.js';
+import { testimonials } from '@/data/cases.js';
 
-const homeCases = cases.slice(0, 3);
-const homeArticles = articles.slice(0, 4);
+const featuredServices = (await getCollection('services', ({ data }) => data.lang === 'nl' && data.featured)).map((s) => s.data);
+const allCases = (await getCollection('cases', ({ data }) => data.lang === 'nl')).map((c) => c.data);
+const allArticles = (await getCollection('articles', ({ data }) => data.lang === 'nl')).map((a) => a.data);
+const homeCases = allCases.slice(0, 3);
+const homeArticles = allArticles
+  .slice()
+  .sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime())
+  .slice(0, 4);
 const description = `Onafhankelijk AI-advies van ${site.name}, freelance AI consultant. Ik help bepalen waar AI waarde creëert, welke leveranciers passen en hoe pilots slagen.`;
 ---
 <BaseLayout title={`${site.brand} | ${site.name}`} description={description}>
@@ -24,7 +29,7 @@ const description = `Onafhankelijk AI-advies van ${site.name}, freelance AI cons
     marked="AI-beslissingen"
     body="Ik help CIO's, CDO's en AI-leads bepalen waar AI wél waarde creëert, welke leveranciers daarbij passen en hoe je voorkomt dat pilots dure zijprojecten worden."
     secondary="Bekijk cases"
-    secondaryHref="/cases"
+    secondaryHref="/nl/cases"
   />
 
   <MetricStrip items={metrics} />
@@ -38,7 +43,7 @@ const description = `Onafhankelijk AI-advies van ${site.name}, freelance AI cons
           <p class="eyebrow">Hoe ik help</p>
           <h2 class="h2">Drie manieren om <span class="marker">verder te komen.</span></h2>
         </div>
-        <a class="text-link" href="/diensten">Alle diensten →</a>
+        <a class="text-link" href="/nl/diensten">Alle diensten →</a>
       </div>
       <div class="service-grid">
         {featuredServices.map((service) => <ServiceCard service={service} />)}
@@ -52,7 +57,7 @@ const description = `Onafhankelijk AI-advies van ${site.name}, freelance AI cons
         <p class="eyebrow">How I work</p>
         <h2 class="h2">Geen 200-slide deck.</h2>
         <p class="lede">Wel <span class="marker">vier duidelijke beslismomenten.</span></p>
-        <a class="text-link" href="/werkwijze">Bekijk mijn werkwijze →</a>
+        <a class="text-link" href="/nl/werkwijze">Bekijk mijn werkwijze →</a>
       </div>
       <Steps compact={true} />
     </div>
@@ -65,7 +70,7 @@ const description = `Onafhankelijk AI-advies van ${site.name}, freelance AI cons
           <p class="eyebrow">Recent work</p>
           <h2 class="h2">Werk dat <span class="marker">het verschil</span> maakt.</h2>
         </div>
-        <a class="text-link" href="/cases">Alle cases →</a>
+        <a class="text-link" href="/nl/cases">Alle cases →</a>
       </div>
       <div class="grid-3">
         {homeCases.map((item) => <CaseCard item={item} />)}
@@ -92,7 +97,7 @@ const description = `Onafhankelijk AI-advies van ${site.name}, freelance AI cons
         <p>Mijn inkomsten komen volledig uit adviesuren die jij betaalt. Geen enkele leverancier betaalt mij iets, in geen enkele vorm. Dat is de reden dat ik “nee, niet kopen” kan adviseren zonder dat het mij geld kost.</p>
       </div>
       <ul>{independence.map((item) => <li>{item}</li>)}</ul>
-      <a class="btn btn--ghost" href="/werkwijze">Bekijk mijn werkwijze →</a>
+      <a class="btn btn--ghost" href="/nl/werkwijze">Bekijk mijn werkwijze →</a>
     </div>
   </section>
 
@@ -103,7 +108,7 @@ const description = `Onafhankelijk AI-advies van ${site.name}, freelance AI cons
           <p class="eyebrow">Inzichten</p>
           <h2 class="h2">Lezen voordat je <span class="marker">beslist.</span></h2>
         </div>
-        <a class="text-link" href="/inzichten">Alle inzichten →</a>
+        <a class="text-link" href="/nl/inzichten">Alle inzichten →</a>
       </div>
       <div class="grid-4">
         {homeArticles.map((item) => <ArticleCard item={item} />)}

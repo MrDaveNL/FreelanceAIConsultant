@@ -1,10 +1,16 @@
 ---
-import BaseLayout from '../../layouts/BaseLayout.astro';
-import PageHero from '../../components/PageHero.astro';
-import ArticleCard from '../../components/ArticleCard.astro';
-import FilterBar from '../../components/FilterBar.astro';
-import Newsletter from '../../components/Newsletter.astro';
-import { articles, featuredArticle, articleCategories } from '../../data/articles/index.js';
+import { getCollection } from 'astro:content';
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import PageHero from '@/components/PageHero.astro';
+import ArticleCard from '@/components/ArticleCard.astro';
+import FilterBar from '@/components/FilterBar.astro';
+import Newsletter from '@/components/Newsletter.astro';
+import { articleCategories } from '@/data/articles/index.js';
+
+const articles = (await getCollection('articles', ({ data }) => data.lang === 'nl'))
+  .map((a) => a.data)
+  .sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime());
+const featuredArticle = articles.find((a) => a.featured) ?? articles[0];
 ---
 <BaseLayout
   title="Inzichten | Freelance AI Consultant"
@@ -18,7 +24,7 @@ import { articles, featuredArticle, articleCategories } from '../../data/article
     body={`Ervaringen uit de praktijk, frameworks en no-nonsense advies voor senior leiders die AI willen inzetten met impact. ${articles.length} artikelen, geen enkele geschreven om iets te verkopen.`}
     cta="Plan een gesprek"
     secondary="Bekijk cases"
-    secondaryHref="/cases"
+    secondaryHref="/nl/cases"
   />
 
   <section class="section-sm">
@@ -33,7 +39,7 @@ import { articles, featuredArticle, articleCategories } from '../../data/article
         <h2 class="h2">{featuredArticle.title}</h2>
         <p>{featuredArticle.excerpt}</p>
         <div class="feature-meta">◷ {featuredArticle.readingTime} <span>{featuredArticle.dateLabel}</span></div>
-        <a class="text-link" href={`/inzichten/${featuredArticle.slug}`}>Lees artikel →</a>
+        <a class="text-link" href={`/nl/inzichten/${featuredArticle.slug}`}>Lees artikel →</a>
       </div>
     </div>
   </section>
@@ -46,7 +52,7 @@ import { articles, featuredArticle, articleCategories } from '../../data/article
 
   <section class="section-sm">
     <div class="container">
-      <div class="section-head"><h2 class="h3">Alle artikelen</h2><span class="count">{articles.length} artikelen · <a href="/rss.xml">RSS</a></span></div>
+      <div class="section-head"><h2 class="h3">Alle artikelen</h2><span class="count">{articles.length} artikelen · <a href="/nl/rss.xml">RSS</a></span></div>
       <div class="grid-4 articles" id="article-grid">
         {articles.map((item) => <ArticleCard item={item} />)}
       </div>

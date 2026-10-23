@@ -1,9 +1,11 @@
 ---
 import { site } from '../data/site.js';
 
+const { locale = 'nl' } = Astro.props;
 const endpoint = site.formEndpoint || (site.formAccessKey ? 'https://api.web3forms.com/submit' : '');
 ---
-<form class="contact-form" data-contact-form data-endpoint={endpoint} data-access-key={site.formAccessKey} data-site={site.domain} data-mailto={site.email} novalidate>
+<form class="contact-form" data-contact-form data-endpoint={endpoint} data-access-key={site.formAccessKey} data-site={site.domain} data-mailto={site.email} data-locale={locale} novalidate>
+  <input type="hidden" name="locale" value={locale} />
   <div class="field">
     <label for="name">Naam <span aria-hidden="true">*</span></label>
     <input id="name" name="name" autocomplete="name" required />
@@ -101,6 +103,7 @@ const endpoint = site.formEndpoint || (site.formAccessKey ? 'https://api.web3for
       const data = Object.fromEntries(new FormData(form).entries());
       delete data['company-website'];
       const button = form.querySelector('button[type="submit"]');
+      const localeTag = `[${(data.locale || 'nl').toUpperCase()}]`;
 
       if (endpoint) {
         button.disabled = true;
@@ -108,7 +111,7 @@ const endpoint = site.formEndpoint || (site.formAccessKey ? 'https://api.web3for
         button.textContent = 'Versturen…';
         // De sleutels zijn de labels in de e-mail die binnenkomt; name en email bepalen afzender en reply-to.
         const payload = {
-          subject: `Aanvraag via ${siteName}: ${data.name}${data.company ? ` (${data.company})` : ''}`,
+          subject: `${localeTag} Aanvraag via ${siteName}: ${data.name}${data.company ? ` (${data.company})` : ''}`,
           from_name: data.name,
           name: data.name,
           email: data.email,
@@ -155,7 +158,7 @@ const endpoint = site.formEndpoint || (site.formAccessKey ? 'https://api.web3for
         'Vraagstuk:',
         data.challenge,
       ].join('\n');
-      const href = `mailto:${mailto}?subject=${encodeURIComponent(`Aanvraag via ${siteName}`)}&body=${encodeURIComponent(lines)}`;
+      const href = `mailto:${mailto}?subject=${encodeURIComponent(`${localeTag} Aanvraag via ${siteName}`)}&body=${encodeURIComponent(lines)}`;
       window.location.href = href;
       status.hidden = false;
       status.className = 'form-status full is-ok';

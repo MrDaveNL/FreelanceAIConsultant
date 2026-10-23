@@ -1,6 +1,6 @@
 ---
-import BaseLayout from '../layouts/BaseLayout.astro';
-import { site } from '../data/site.js';
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import { site } from '@/data/site.js';
 
 const updated = '22 september 2026';
 ---
@@ -10,7 +10,7 @@ const updated = '22 september 2026';
 >
   <section class="section-sm legal-hero">
     <div class="container">
-      <a class="back" href="/">← Terug naar home</a>
+      <a class="back" href="/nl">← Terug naar home</a>
       <p class="eyebrow">Juridisch</p>
       <h1 class="h1">Privacy<span class="marker">verklaring</span></h1>
       <p class="lede">Deze verklaring beschrijft hoe {site.legal.entity} ({site.domain}) omgaat met persoonsgegevens van bezoekers, contactpersonen en opdrachtgevers.</p>

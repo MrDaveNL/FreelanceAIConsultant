@@ -1,0 +1,51 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { t } from '../i18n';
+import { site } from '../data/site.js';
+
+const dict = t('en');
+const featuredServices = (await getCollection('services', ({ data }) => data.lang === 'en' && data.featured)).map((s) => s.data);
+const popular = (await getCollection('articles', ({ data }) => data.lang === 'en'))
+  .map((a) => a.data)
+  .sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime())
+  .slice(0, 3);
+---
+<BaseLayout title={dict.error404.title} description={dict.error404.description} noindex={true}>
+  <section class="section notfound">
+    <div class="container nf-grid">
+      <div>
+        <p class="eyebrow">{dict.error404.eyebrow}</p>
+        <h1 class="h1">{dict.error404.heading}</h1>
+        <p class="lede">{dict.error404.body}</p>
+        <div class="actions"><a class="btn" href="/">{dict.error404.ctaHome}</a><a class="text-link" href={`mailto:${site.email}`}>{dict.error404.ctaContact}</a></div>
+      </div>
+      {(featuredServices.length > 0 || popular.length > 0) && (
+        <div class="nf-links">
+          {featuredServices.length > 0 && (
+            <div class="card block">
+              <p class="eyebrow">{dict.error404.servicesEyebrow}</p>
+              {featuredServices.map((s) => <a href={`/services/${s.slug}`}>{s.title} →</a>)}
+            </div>
+          )}
+          {popular.length > 0 && (
+            <div class="card block">
+              <p class="eyebrow">{dict.error404.articlesEyebrow}</p>
+              {popular.map((a) => <a href={`/insights/${a.slug}`}>{a.title} →</a>)}
+            </div>
+          )}
+        </div>
+      )}
+    </div>
+  </section>
+</BaseLayout>
+<style>
+.notfound{padding-top:60px}
+.nf-grid{display:grid;grid-template-columns:1.05fr .95fr;gap:54px;align-items:start}
+.actions{display:flex;gap:24px;align-items:center;flex-wrap:wrap;margin-top:30px}
+.nf-links{display:grid;gap:18px}
+.block{padding:26px;box-shadow:none;display:flex;flex-direction:column;gap:12px}
+.block a{font-weight:700;color:var(--burgundy);font-size:.92rem}
+.block a:hover{color:var(--salmon)}
+@media(max-width:850px){.nf-grid{grid-template-columns:1fr}}
+</style>

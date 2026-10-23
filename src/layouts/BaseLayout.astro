@@ -6,6 +6,8 @@ import LogoCarouselSlot from '../components/LogoCarouselSlot.astro';
 import { site } from '../data/site.js';
 import { blokVoor } from '../data/rag/index.ts';
 import { metRagVragen } from '../lib/rag-blok.js';
+import { routeByPath, routeById } from '../data/routes';
+import { t, LOCALES, DEFAULT_LOCALE, HTML_LANG, OG_LOCALE, SCHEMA_LANG, localeFromPath, otherLocale } from '../i18n';
 
 const {
   title = `${site.brand} | ${site.name}`,
@@ -17,10 +19,22 @@ const {
   schema = null,
 } = Astro.props;
 
-const canonical = new URL(currentPath === '/' ? '/' : currentPath.replace(/\/$/, ''), site.url).href;
+const cleanPath = currentPath === '/' ? '/' : currentPath.replace(/\/$/, '');
+const locale = localeFromPath(cleanPath);
+const canonical = new URL(cleanPath, site.url).href;
 const ogImage = new URL(image, site.url).href;
 // De vragen van een RAG-blok komen ook in de structured data, als het blok daarvoor is aangezet (markup: true).
-const ragBlok = blokVoor(currentPath === '/' ? '/' : currentPath.replace(/\/$/, ''));
+// RAG-blokken bestaan in fase 1 alleen in het NL; voor EN levert dit altijd undefined op.
+const ragBlok = blokVoor(cleanPath);
+
+// Reciproque hreflang + x-default (wijst naar EN). Alleen talen die voor deze pagina
+// echt live zijn krijgen een alternate; geen counterpart betekent geen hreflang-regel.
+const currentRoute = routeByPath(cleanPath, locale);
+const alternates = LOCALES.filter((loc) => currentRoute?.live[loc]).map((loc) => ({
+  hreflang: loc,
+  href: new URL(currentRoute!.paths[loc], site.url).href,
+}));
+const hasDefaultAlternate = currentRoute?.live[DEFAULT_LOCALE];
 
 const baseSchema = {
   '@context': 'https://schema.org',
@@ -30,6 +44,7 @@ const baseSchema = {
   image: ogImage,
   email: site.email,
   description,
+  inLanguage: SCHEMA_LANG[locale],
   areaServed: ['NL', 'BE', 'DE'],
   priceRange: '€€€',
   founder: {
@@ -42,19 +57,22 @@ const baseSchema = {
 };
 ---
 <!doctype html>
-<html lang="nl">
+<html lang={HTML_LANG[locale]}>
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>{title}</title>
     <meta name="description" content={description} />
     <link rel="canonical" href={canonical} />
+    {alternates.map(({ hreflang, href }) => <link rel="alternate" hreflang={hreflang} href={href} />)}
+    {hasDefaultAlternate && <link rel="alternate" hreflang="x-default" href={new URL(currentRoute!.paths[DEFAULT_LOCALE], site.url).href} />}
     {noindex && <meta name="robots" content={typeof noindex === 'string' ? noindex : 'noindex, nofollow'} />}
     <meta name="author" content={site.name} />
     <meta name="theme-color" content="#F3E7D2" />
 
     <meta property="og:type" content="website" />
-    <meta property="og:locale" content="nl_NL" />
+    <meta property="og:locale" content={OG_LOCALE[locale]} />
+    {currentRoute?.live[otherLocale(locale)] && <meta property="og:locale:alternate" content={OG_LOCALE[otherLocale(locale)]} />}
     <meta property="og:site_name" content={site.domain} />
     <meta property="og:title" content={title} />
     <meta property="og:description" content={description} />
@@ -69,7 +87,7 @@ const baseSchema = {
     <link rel="icon" href="/favicon-32x32.png" type="image/png" sizes="32x32" />
     <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
     <link rel="sitemap" href="/sitemap.xml" />
-    <link rel="alternate" type="application/rss+xml" title="Inzichten" href="/rss.xml" />
+    <link rel="alternate" type="application/rss+xml" title={locale === 'nl' ? 'Inzichten' : 'Insights'} href={locale === 'nl' ? '/nl/rss.xml' : '/rss.xml'} />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet" />
@@ -77,9 +95,9 @@ const baseSchema = {
     <script type="application/ld+json" set:html={JSON.stringify(metRagVragen(schema ?? baseSchema, ragBlok))} />
   </head>
   <body>
-    <a class="skip-link" href="#main">Naar hoofdinhoud</a>
+    <a class="skip-link" href="#main">{t(locale).skipLink}</a>
     <Header currentPath={currentPath} />
     <main id="main"><LogoCarouselSlot show={Astro.props.logoCarousel}><slot /></LogoCarouselSlot></main>
-    {showFooter && <Footer />}
+    {showFooter && <Footer currentPath={currentPath} />}
   </body>
 </html>

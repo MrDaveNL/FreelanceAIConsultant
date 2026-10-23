@@ -1,23 +1,25 @@
 ---
-import BaseLayout from '../../layouts/BaseLayout.astro';
-import HeroPortrait from '../../components/HeroPortrait.astro';
-import ArticleCard from '../../components/ArticleCard.astro';
-import CTA from '../../components/CTA.astro';
-import { articles, getArticle } from '../../data/articles/index.js';
-import { site, seoTitle } from '../../data/site.js';
-import '../../styles/rag-blok.css';
-import { blokVoor } from '../../data/rag/index.ts';
-import { renderRagBlok } from '../../lib/rag-blok.js';
+import { getCollection } from 'astro:content';
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import HeroPortrait from '@/components/HeroPortrait.astro';
+import ArticleCard from '@/components/ArticleCard.astro';
+import CTA from '@/components/CTA.astro';
+import { getArticle } from '@/data/articles/index.js';
+import { site, seoTitle } from '@/data/site.js';
+import '@/styles/rag-blok.css';
+import { blokVoor } from '@/data/rag/index.ts';
+import { renderRagBlok } from '@/lib/rag-blok.js';
 
-export function getStaticPaths() {
-  return articles.map((article) => ({ params: { slug: article.slug }, props: { article } }));
+export async function getStaticPaths() {
+  const entries = await getCollection('articles', ({ data }) => data.lang === 'nl');
+  return entries.map((entry) => ({ params: { slug: entry.data.slug }, props: { article: entry.data } }));
 }
 
 const { article } = Astro.props;
 const related = (article.related ?? []).map(getArticle).filter(Boolean);
 
 // RAG-ready contentblok: vóór de eerste H2 van de artikeltekst. Zonder blok blijft de tekst zoals hij is.
-const blok = blokVoor(`/inzichten/${article.slug}`);
+const blok = blokVoor(`/nl/inzichten/${article.slug}`);
 const eersteH2 = article.body.indexOf('<h2');
 if (blok && eersteH2 < 0) throw new Error(`RAG-blok /inzichten/${article.slug}: artikel heeft geen H2`);
 const body = blok ? `${article.body.slice(0, eersteH2)}${renderRagBlok(blok)}
@@ -33,7 +35,7 @@ const schema = {
   articleSection: article.category,
   author: { '@type': 'Person', name: site.name, url: site.url, jobTitle: site.roleNl },
   publisher: { '@type': 'Person', name: site.name },
-  mainEntityOfPage: `${site.url}/inzichten/${article.slug}`,
+  mainEntityOfPage: `${site.url}/nl/inzichten/${article.slug}`,
 };
 ---
 <BaseLayout title={seoTitle(article.metaTitle ?? article.title)} description={article.metaDescription ?? article.excerpt} schema={schema}>
@@ -41,7 +43,7 @@ const schema = {
     <header class="article-hero section-sm">
       <div class="container hero-grid">
         <div>
-          <a class="back" href="/inzichten">← Terug naar alle inzichten</a>
+          <a class="back" href="/nl/inzichten">← Terug naar alle inzichten</a>
           <p class="eyebrow">{article.category}</p>
           <h1 class="h1">{article.titleLine1}<br/><span class="marker">{article.titleLine2}</span></h1>
           <p class="lede">{article.lede}</p>
@@ -75,7 +77,7 @@ const schema = {
             <div class="take"><span class="icon-dot" aria-hidden="true">✓</span><div><b>{title}</b><p>{text}</p></div></div>
           ))}
           <div class="remember hand">ONTHOUD<br/><br/>“{article.remember}”</div>
-          <a class="aside-cta card" href="/contact">
+          <a class="aside-cta card" href="/nl/contact">
             <b>Sparren over jouw situatie?</b>
             <span>30 minuten, vrijblijvend →</span>
           </a>

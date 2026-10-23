@@ -1,7 +1,30 @@
 ---
 import { site } from '../data/site.js';
 import { hubLinks } from '../data/protected-urls.js';
+import { routeById } from '../data/routes';
+import { t, localeFromPath } from '../i18n';
+const { currentPath = '/' } = Astro.props;
+const locale = localeFromPath(currentPath);
+const dict = t(locale);
 const year = new Date().getFullYear();
+const href = (id: string) => {
+  const entry = routeById(id);
+  return entry?.live[locale] ? entry.paths[locale] : null;
+};
+const servicesLinks = [
+  ['svc-ai-readiness-assessment', 'AI Readiness Assessment'],
+  ['svc-ai-strategy-sprint', 'AI Strategy Sprint'],
+  ['svc-fractional-ai-lead', 'Fractional AI Lead'],
+] as const;
+// Volgorde moet exact overeenkomen met hubLinks in src/data/protected-urls.js.
+const hubRouteIds = ['C1-00', 'C2-00', 'C3-00', 'C4-00', 'C5-00', 'C6-00', 'C8-00', 'C9-00', 'C7-00', 'P08', 'P04', 'P06'];
+const hubLinksLocalized = hubLinks
+  .map(([, label], i) => {
+    const entry = routeById(hubRouteIds[i]);
+    const path = entry?.live[locale] ? entry.paths[locale] : null;
+    return path ? [path, label] : null;
+  })
+  .filter((item): item is [string, string] => item !== null);
 ---
 <footer class="footer dark-band">
   <div class="container footer-grid">
@@ -12,35 +35,33 @@ const year = new Date().getFullYear();
       <em>{site.domain}</em>
     </div>
     <div>
-      <b>Diensten</b>
-      <a href="/diensten/ai-readiness-assessment">AI Readiness Assessment</a>
-      <a href="/diensten/ai-strategy-sprint">AI Strategy Sprint</a>
-      <a href="/diensten/fractional-ai-lead">Fractional AI Lead</a>
-      <a href="/diensten">Alle diensten</a>
+      <b>{dict.footer.servicesHeading}</b>
+      {servicesLinks.map(([id, label]) => href(id) && <a href={href(id)}>{label}</a>)}
+      {href('diensten') && <a href={href('diensten')}>{dict.footer.allServices}</a>}
     </div>
     <div>
-      <b>Inhoud</b>
-      <a href="/cases">Cases</a>
-      <a href="/werkwijze">Werkwijze</a>
-      <a href="/inzichten">Inzichten</a>
-      <a href="/veelgestelde-vragen">Veelgestelde vragen</a>
-      <a href="/over">Over mij</a>
+      <b>{dict.footer.contentHeading}</b>
+      {href('cases') && <a href={href('cases')}>{dict.nav.cases}</a>}
+      {href('werkwijze') && <a href={href('werkwijze')}>{dict.nav.werkwijze}</a>}
+      {href('inzichten') && <a href={href('inzichten')}>{dict.nav.inzichten}</a>}
+      {href('veelgestelde-vragen') && <a href={href('veelgestelde-vragen')}>{dict.footer.faq}</a>}
+      {href('over') && <a href={href('over')}>{dict.nav.over}</a>}
     </div>
     <div>
-      <b>Kennis & aanpak</b>
-      {hubLinks.map(([href, label]) => <a href={href}>{label}</a>)}
+      <b>{dict.footer.hubHeading}</b>
+      {hubLinksLocalized.map(([path, label]) => <a href={path}>{label}</a>)}
     </div>
     <div>
-      <b>Contact</b>
+      <b>{dict.footer.contactHeading}</b>
       <a href={`mailto:${site.email}`}>{site.email}</a>
-      <a href={site.linkedin} rel="noopener">LinkedIn ↗</a>
-      <a href="/contact">Plan een gesprek</a>
+      <a href={site.linkedin} rel="noopener">{dict.footer.linkedin}</a>
+      {href('contact') && <a href={href('contact')}>{dict.footer.cta}</a>}
     </div>
   </div>
   <div class="container legal">
     <span>© {year} {site.domain}</span>
-    <a href="/privacy">Privacyverklaring</a>
-    <a href="/algemene-voorwaarden">Algemene voorwaarden</a>
+    {href('privacy') && <a href={href('privacy')}>{dict.footer.privacy}</a>}
+    {href('algemene-voorwaarden') && <a href={href('algemene-voorwaarden')}>{dict.footer.terms}</a>}
     <span>{site.legal.entity} · KvK {site.legal.kvk}</span>
   </div>
 </footer>
