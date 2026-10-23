@@ -8,7 +8,7 @@ const allArticles = (await getCollection('articles', ({ data }) => data.lang ===
 );
 const popular = allArticles.slice(0, 3);
 ---
-<BaseLayout title="Pagina niet gevonden | Freelance AI Consultant" description="Deze pagina bestaat niet of is verplaatst. Bekijk de diensten, cases en artikelen van Dave Willemstein, onafhankelijk AI-adviseur." noindex={true}>
+<BaseLayout title="Pagina niet gevonden | Freelance AI Consultant" description="Deze pagina bestaat niet of is verplaatst. Bekijk de diensten, cases en artikelen van Dave Willemstein, onafhankelijk AI-adviseur." noindex="noindex">
   <section class="section notfound">
     <div class="container nf-grid">
       <div>

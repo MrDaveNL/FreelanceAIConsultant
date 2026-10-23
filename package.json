@@ -8,7 +8,7 @@
     "start": "astro dev",
     "prebuild": "node -e \"require('fs').rmSync('node_modules/.astro',{recursive:true,force:true})\" && node scripts/generate-content-collections.mjs",
     "build": "astro build",
-    "postbuild": "node planning/check-nulmeting.mjs && node planning/check-rag.mjs",
+    "postbuild": "node planning/check-dist.mjs && node planning/check-nulmeting.mjs && node planning/check-rag.mjs",
     "nulmeting": "node planning/nulmeting.mjs",
     "check": "node planning/check-dist.mjs && node planning/check-nulmeting.mjs && node planning/check-rag.mjs",
     "preview": "astro preview"

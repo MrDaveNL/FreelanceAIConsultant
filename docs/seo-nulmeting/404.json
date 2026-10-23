@@ -2,14 +2,14 @@
   "url": "/404",
   "build_bestand": "dist/404.html",
   "html": {
-    "bytes": 9435,
+    "bytes": 9639,
     "lang": "nl"
   },
   "beschermd": {
     "title": "Pagina niet gevonden | Freelance AI Consultant",
     "meta_description": "Deze pagina bestaat niet of is verplaatst. Bekijk de diensten, cases en artikelen van Dave Willemstein, onafhankelijk AI-adviseur.",
-    "canonical": "https://freelanceaiconsultant.com/404",
-    "robots_meta": "noindex, nofollow",
+    "canonical": null,
+    "robots_meta": "noindex",
     "hreflang": [],
     "h1": [
       "Deze pagina bestaat niet."
@@ -403,5 +403,6 @@
     "aantal_details": 0,
     "aantal_tabellen": 0
   },
-  "gemeten_op": "2026-10-06"
+  "gemeten_op": "2026-10-06",
+  "baseline_wijziging": "2026-10-23: canonical verwijderd en robots_meta naar 'noindex' geaccepteerd als nieuwe baseline (404 heeft geen canonical/hreflang/x-default meer), na akkoord."
 }

@@ -37,6 +37,14 @@ for (const file of walk(dist)) {
   const is404 = file.endsWith('404.html') || path.basename(path.dirname(file)) === '404';
   if (h1 !== 1 && !is404) report(file, `${h1} H1's`);
 
+  // 404-pagina's zijn infrastructuur zonder content: geen canonical, geen hreflang (dus ook geen
+  // x-default, die ook als hreflang-attribuut rendert), en robots moet exact 'noindex' zijn.
+  if (is404) {
+    if (/<link rel="canonical"/.test(html)) report(file, '404 heeft een canonical, maar mag die niet hebben');
+    if (/<link rel="alternate"[^>]*hreflang=/.test(html)) report(file, '404 heeft een hreflang/x-default, maar mag die niet hebben');
+    if (!/<meta name="robots" content="noindex">/.test(html)) report(file, '404 mist exact <meta name="robots" content="noindex">');
+  }
+
   // SEO: titel 30-60 tekens, beschrijving 120-160, uniek, geen oud merk, geen en/em dash.
   const decode = (s) => s.replace(/&amp;/g, '&').replace(/&quot;/g, '"').replace(/&#39;/g, "'").replace(/&lt;/g, '<').replace(/&gt;/g, '>');
   const title = decode(html.match(/<title>([\s\S]*?)<\/title>/)?.[1].trim() ?? '');
@@ -50,5 +58,13 @@ for (const file of walk(dist)) {
 }
 for (const [kind, map] of [['titel', seen.titles], ['beschrijving', seen.descs]])
   for (const [value, files] of Object.entries(map)) if (files.length > 1) report(files[0], `dubbele ${kind} op ${files.length} pagina's: ${value.slice(0, 60)}`);
+
+// 404 mag in geen van de sitemaps voorkomen.
+for (const sitemapFile of ['sitemap.xml', 'sitemap-en.xml', 'nl/sitemap.xml']) {
+  const p = path.join(dist, sitemapFile);
+  if (!fs.existsSync(p)) continue;
+  if (/\/404(["<]|\/)/.test(fs.readFileSync(p, 'utf8'))) report(p, '404 staat in de sitemap, maar mag daar niet in');
+}
+
 console.log(`${walk(dist).length} HTML-bestanden gecontroleerd, ${problems} probleem/problemen.`);
 process.exitCode = problems ? 1 : 0;
