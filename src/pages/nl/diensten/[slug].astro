@@ -156,7 +156,11 @@ const schema = {
   <CTA title="Plan een gesprek." body="30 minuten. Geen pitch deck. Gewoon een goed gesprek over jouw situatie." />
 </BaseLayout>
 <style>
-.fact-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;max-width:820px}
+/* min-width:0 op elk grid-item: zonder dit weigert een item te krimpen onder de min-content-breedte
+   van zijn inhoud (lange tekst, tabel), wat de pagina horizontaal kan laten scrollen. */
+.fact-grid,.problem-grid,.approach-grid,.split,.case-box,.proofs,.related-card{min-width:0}
+.fact-grid>*,.problem-grid>*,.approach-grid>*,.split>*,.case-box>*,.proofs>*,.related-card>*{min-width:0}
+.fact-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px;max-width:820px}
 .fact{padding:18px 22px;border-radius:10px;display:flex;flex-direction:column}
 .fact b{text-transform:uppercase;font-size:.72rem}
 .fact strong{font-size:1.3rem;color:var(--burgundy);line-height:1.1;margin-top:4px}

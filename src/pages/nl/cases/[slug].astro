@@ -104,6 +104,9 @@ const schema = {
   </article>
 </BaseLayout>
 <style>
+/* min-width:0 op elk grid-item: zonder dit weigert een item te krimpen onder de min-content-breedte
+   van zijn inhoud (lange tekst, tabel), wat de pagina horizontaal kan laten scrollen. */
+.case-hero-grid>*,.proof>*,.story-grid>*,.story-row>*,.next-box>*{min-width:0}
 .case-hero{padding-top:54px}
 .case-hero-grid{display:grid;grid-template-columns:1.25fr .75fr;gap:60px}
 .tags{display:flex;gap:12px;flex-wrap:wrap;margin-top:24px}

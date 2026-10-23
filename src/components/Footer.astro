@@ -25,6 +25,11 @@ const hubLinksLocalized = hubLinks
     return path ? [path, label] : null;
   })
   .filter((item): item is [string, string] => item !== null);
+
+// Een kolom met alleen een kop en geen enkele live link eronder wordt niet getoond.
+const hasServicesLinks = servicesLinks.some(([id]) => href(id)) || Boolean(href('diensten'));
+const hasContentLinks = Boolean(href('cases') || href('werkwijze') || href('inzichten') || href('veelgestelde-vragen') || href('over'));
+const hasHubLinks = hubLinksLocalized.length > 0;
 ---
 <footer class="footer dark-band">
   <div class="container footer-grid">
@@ -34,23 +39,29 @@ const hubLinksLocalized = hubLinks
       <span>{site.role}</span>
       <em>{site.domain}</em>
     </div>
-    <div>
-      <b>{dict.footer.servicesHeading}</b>
-      {servicesLinks.map(([id, label]) => href(id) && <a href={href(id)}>{label}</a>)}
-      {href('diensten') && <a href={href('diensten')}>{dict.footer.allServices}</a>}
-    </div>
-    <div>
-      <b>{dict.footer.contentHeading}</b>
-      {href('cases') && <a href={href('cases')}>{dict.nav.cases}</a>}
-      {href('werkwijze') && <a href={href('werkwijze')}>{dict.nav.werkwijze}</a>}
-      {href('inzichten') && <a href={href('inzichten')}>{dict.nav.inzichten}</a>}
-      {href('veelgestelde-vragen') && <a href={href('veelgestelde-vragen')}>{dict.footer.faq}</a>}
-      {href('over') && <a href={href('over')}>{dict.nav.over}</a>}
-    </div>
-    <div>
-      <b>{dict.footer.hubHeading}</b>
-      {hubLinksLocalized.map(([path, label]) => <a href={path}>{label}</a>)}
-    </div>
+    {hasServicesLinks && (
+      <div>
+        <b>{dict.footer.servicesHeading}</b>
+        {servicesLinks.map(([id, label]) => href(id) && <a href={href(id)}>{label}</a>)}
+        {href('diensten') && <a href={href('diensten')}>{dict.footer.allServices}</a>}
+      </div>
+    )}
+    {hasContentLinks && (
+      <div>
+        <b>{dict.footer.contentHeading}</b>
+        {href('cases') && <a href={href('cases')}>{dict.nav.cases}</a>}
+        {href('werkwijze') && <a href={href('werkwijze')}>{dict.nav.werkwijze}</a>}
+        {href('inzichten') && <a href={href('inzichten')}>{dict.nav.inzichten}</a>}
+        {href('veelgestelde-vragen') && <a href={href('veelgestelde-vragen')}>{dict.footer.faq}</a>}
+        {href('over') && <a href={href('over')}>{dict.nav.over}</a>}
+      </div>
+    )}
+    {hasHubLinks && (
+      <div>
+        <b>{dict.footer.hubHeading}</b>
+        {hubLinksLocalized.map(([path, label]) => <a href={path}>{label}</a>)}
+      </div>
+    )}
     <div>
       <b>{dict.footer.contactHeading}</b>
       <a href={`mailto:${site.email}`}>{site.email}</a>
@@ -66,6 +77,6 @@ const hubLinksLocalized = hubLinks
   </div>
 </footer>
 <style>
-.footer{padding:58px 0 24px}.footer-grid{display:grid;grid-template-columns:1.4fr repeat(4,1fr);gap:44px}.footer-grid>div{display:flex;flex-direction:column;gap:8px}.footer-icon{box-sizing:border-box;width:76px;height:76px;padding:9px;background:var(--cream);border-radius:16px;object-fit:contain;margin-bottom:10px}.footer strong{font-size:1.05rem}.footer span,.footer a{font-size:.84rem;color:#f5e8df}.footer a:hover{color:var(--mustard)}.footer em{font-family:'Caveat',cursive;color:var(--salmon);font-size:1.18rem;font-style:normal}.footer b{color:var(--mustard);font-size:.78rem;text-transform:uppercase;letter-spacing:.07em;margin-bottom:5px}.legal{display:flex;gap:28px;padding-top:34px;margin-top:34px;border-top:1px solid rgba(255,255,255,.12);font-size:.76rem;color:#d9c9c6;flex-wrap:wrap}.legal a{font-size:.76rem}
+.footer{padding:58px 0 24px}.footer-grid{display:grid;grid-template-columns:minmax(0,1.4fr) repeat(4,minmax(0,1fr));gap:44px}.footer-grid>div{display:flex;flex-direction:column;gap:8px;min-width:0}.footer-icon{box-sizing:border-box;width:76px;height:76px;padding:9px;background:var(--cream);border-radius:16px;object-fit:contain;margin-bottom:10px}.footer strong{font-size:1.05rem}.footer span,.footer a{font-size:.84rem;color:#f5e8df;overflow-wrap:anywhere}.footer a:hover{color:var(--mustard)}.footer em{font-family:'Caveat',cursive;color:var(--salmon);font-size:1.18rem;font-style:normal}.footer b{color:var(--mustard);font-size:.78rem;text-transform:uppercase;letter-spacing:.07em;margin-bottom:5px}.legal{display:flex;gap:28px;padding-top:34px;margin-top:34px;border-top:1px solid rgba(255,255,255,.12);font-size:.76rem;color:#d9c9c6;flex-wrap:wrap}.legal a{font-size:.76rem}
 @media(max-width:760px){.footer-grid{grid-template-columns:1fr 1fr}.footer-grid>div:first-child{grid-column:1/-1}.legal{flex-direction:column;gap:8px}}
 </style>

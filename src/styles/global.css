@@ -53,10 +53,13 @@ button, input, textarea, select { font: inherit; }
   line-height: .92;
   letter-spacing: -.065em;
   font-weight: 800;
+  overflow-wrap: break-word;
 }
-.h1 { margin: 0; color: var(--burgundy); font-size: clamp(2.7rem,5.6vw,5.3rem); line-height:.95; letter-spacing:-.055em; font-weight:800; }
-.h2 { margin:0; color:var(--burgundy); font-size:clamp(2.2rem,4vw,4.15rem); line-height:1; letter-spacing:-.045em; font-weight:800; }
-.h3 { margin:0; color:var(--burgundy); font-size:clamp(1.35rem,2vw,2rem); line-height:1.05; letter-spacing:-.025em; font-weight:750; }
+/* overflow-wrap: lange, onafbreekbare woorden (bv. "Investeringsmaatschappij") breken anders uit hun
+   kolom bij deze grote lettergroottes en veroorzaken horizontale scroll. Geen effect op tekst die al past. */
+.h1 { margin: 0; color: var(--burgundy); font-size: clamp(2.7rem,5.6vw,5.3rem); line-height:.95; letter-spacing:-.055em; font-weight:800; overflow-wrap: break-word; }
+.h2 { margin:0; color:var(--burgundy); font-size:clamp(2.2rem,4vw,4.15rem); line-height:1; letter-spacing:-.045em; font-weight:800; overflow-wrap: break-word; }
+.h3 { margin:0; color:var(--burgundy); font-size:clamp(1.35rem,2vw,2rem); line-height:1.05; letter-spacing:-.025em; font-weight:750; overflow-wrap: break-word; }
 .lede { max-width: 700px; font-size: clamp(1.05rem,1.5vw,1.25rem); color:#493a37; }
 .muted { color: var(--muted); }
 .hand { font-family: 'Caveat', cursive; font-weight:700; }

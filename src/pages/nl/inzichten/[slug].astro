@@ -100,6 +100,9 @@ const schema = {
   </article>
 </BaseLayout>
 <style>
+/* min-width:0 op elk grid-item: zonder dit weigert een item te krimpen onder de min-content-breedte
+   van zijn inhoud (lange tekst, tabel), wat de pagina horizontaal kan laten scrollen. */
+.hero-grid>*,.author>*,.take>*{min-width:0}
 .article-hero{padding-top:48px}
 .hero-grid{display:grid;grid-template-columns:1.15fr .85fr;gap:44px}
 .meta{display:flex;gap:22px;font-size:.8rem;margin:22px 0;color:var(--muted)}
@@ -113,7 +116,10 @@ const schema = {
 .sticky-note ul{padding-left:18px;margin:0}
 .sticky-note li{margin:12px 0;font-size:.83rem}
 .sticky-note b{display:block;border-top:2px solid rgba(74,31,42,.35);padding-top:13px;margin-top:16px;font-size:.88rem}
-.article-grid{display:grid;grid-template-columns:1.45fr .55fr;gap:54px;align-items:start}
+.article-grid{display:grid;grid-template-columns:minmax(0,1.45fr) minmax(0,.55fr);gap:54px;align-items:start}
+/* min-width:0 op het grid-item zelf: de track mag krimpen, maar zonder dit weigert .content
+   te krimpen onder de min-content-breedte van zijn breedste kind (bv. .tr, min-width:760px). */
+.content{min-width:0}
 .take{display:grid;grid-template-columns:auto 1fr;gap:13px;padding:17px 0;border-bottom:1px solid var(--line)}
 .take b{color:var(--burgundy);font-size:.92rem}
 .take p{font-size:.78rem;margin:4px 0 0}
