@@ -29,4 +29,11 @@ export default defineConfig({
   output: 'static',
   trailingSlash: 'never',
   markdown: { remarkPlugins: [remarkServiceTokens, remarkRagBlok] },
+  // Routing blijft handmatig (content-collections met een 'url'-veld per taal, geen locale-mappen
+  // onder src/pages/); dit blok levert alleen de taalconfiguratie en Astro.currentLocale.
+  i18n: {
+    defaultLocale: 'en',
+    locales: ['en', 'nl'],
+    routing: { prefixDefaultLocale: false },
+  },
 });
