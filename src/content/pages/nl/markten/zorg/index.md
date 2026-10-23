@@ -1,6 +1,7 @@
 ---
 id: C7-01
-url: /markten/zorg
+lang: nl
+url: /nl/markten/zorg
 parent: C7-00
 cluster: "7. AI markten"
 pageType: Branche
@@ -12,8 +13,8 @@ metaDescription: "Hoe wordt AI ingezet in de zorg? Bekijk toepassingen, zorgappl
 keyphrase: ai zorg
 eyebrow: "AI in de zorg"
 lede: "AI in de zorg belooft minder administratie en meer tijd voor de patiënt. Tegelijk gelden er strengere regels dan in bijna elke andere sector: voor medische software, voor gezondheidsgegevens en straks voor hoog-risico-AI. Op deze pagina zet ik de toepassingen, de kansen en de uitdagingen nuchter op een rij."
-primaryCta: { label: "Lees meer over Markten", href: /markten }
-secondaryCta: { label: "Plan een adviesgesprek", href: /contact }
+primaryCta: { label: "Lees meer over Markten", href: /nl/markten }
+secondaryCta: { label: "Plan een adviesgesprek", href: /nl/contact }
 summary:
   - "De snelste winst zit vaak in administratie en planning, niet in diagnostiek."
   - "Software met een medisch doel kan een medisch hulpmiddel zijn, met CE-markering en toezicht van de IGJ."
@@ -87,16 +88,16 @@ Valt een applicatie wel onder de definitie, dan gelden de Europese Medical Devic
 - Hoe is het gevalideerd, en op welke patiëntpopulatie?
 - Wat gebeurt er als we het anders of breder inzetten dan bedoeld?
 
-Die laatste vraag wordt vaak vergeten. Een tool die als administratief hulpmiddel is gekocht en later wordt gebruikt om klinische keuzes te onderbouwen, kan ongemerkt in een ander regime terechtkomen. Een onafhankelijke [beoordeling van leveranciers vóór de aankoop](/diensten/vendor-review) helpt om dit soort vragen op tafel te krijgen voordat er getekend is.
+Die laatste vraag wordt vaak vergeten. Een tool die als administratief hulpmiddel is gekocht en later wordt gebruikt om klinische keuzes te onderbouwen, kan ongemerkt in een ander regime terechtkomen. Een onafhankelijke [beoordeling van leveranciers vóór de aankoop](/nl/diensten/vendor-review) helpt om dit soort vragen op tafel te krijgen voordat er getekend is.
 
 ## AI automatisering in de zorg
 
-Automatisering in de zorg gaat zelden over het volledig overnemen van een taak. Het gaat over het weghalen van zoekwerk, overtypen en dubbele registratie, zodat de professional meer tijd heeft voor het oordeel dat alleen hij of zij kan geven. Hoe je processen daarvoor analyseert en welke vormen van automatisering er zijn, beschrijf ik uitgebreider bij [AI automatisering](/ai-automatisering).
+Automatisering in de zorg gaat zelden over het volledig overnemen van een taak. Het gaat over het weghalen van zoekwerk, overtypen en dubbele registratie, zodat de professional meer tijd heeft voor het oordeel dat alleen hij of zij kan geven. Hoe je processen daarvoor analyseert en welke vormen van automatisering er zijn, beschrijf ik uitgebreider bij [AI automatisering](/nl/ai-automatisering).
 
 In de zorg verdienen bij automatisering drie dingen extra aandacht:
 
 1. **De mens blijft aantoonbaar aan zet.** Een conceptverslag dat de zorgverlener controleert en aanpast, is iets anders dan een verslag dat ongelezen in het dossier belandt. Leg vast wie wat controleert.
-2. **Het werk moet echt veranderen.** Een tool die tijd bespaart op verslaglegging levert pas iets op als die tijd ergens anders terechtkomt. Dat is een organisatorische keuze, geen technische. Waarom adoptie zo vaak de bottleneck is, lees je in [AI-adoptie begint bij het werk](/inzichten/ai-adoptie-begint-bij-het-werk).
+2. **Het werk moet echt veranderen.** Een tool die tijd bespaart op verslaglegging levert pas iets op als die tijd ergens anders terechtkomt. Dat is een organisatorische keuze, geen technische. Waarom adoptie zo vaak de bottleneck is, lees je in [AI-adoptie begint bij het werk](/nl/inzichten/ai-adoptie-begint-bij-het-werk).
 3. **Beheer hoort bij de business case.** Modellen en leveranciers veranderen. Iemand moet bijhouden of de kwaliteit gelijk blijft, ook na de eerste maanden.
 
 Voor generatieve AI heeft de IGJ zorgaanbieders expliciet opgeroepen tot zorgvuldigheid. De inspectie verwacht dat je vooraf bepaalt wat de toepassing moet doen, de risico's en beperkingen kent, nagaat hoe de toepassing is gevalideerd of getest, en na invoering bewaakt of ze in de praktijk goed functioneert. De zorgaanbieder blijft wettelijk verantwoordelijk voor een zorgvuldige invoering ([IGJ, februari 2025](https://www.igj.nl/documenten/2025/02/10/igj-roept-zorgaanbieders-op-ga-zorgvuldig-om-met-invoering-van-generatieve-ai-toepassingen)).
@@ -113,7 +114,7 @@ Voor generatieve AI heeft de IGJ zorgaanbieders expliciet opgeroepen tot zorgvul
 
 Gezondheidsgegevens zijn onder de AVG bijzondere persoonsgegevens en krijgen extra bescherming. De Autoriteit Persoonsgegevens wijst erop dat een zorgaanbieder bij grootschalige verwerking van gezondheidsgegevens een DPIA moet uitvoeren en een functionaris gegevensbescherming moet aanstellen ([AP, gezondheidsgegevens](https://www.autoriteitpersoonsgegevens.nl/en/themes/health/using-and-sharing-health-data)). Voor AI-projecten is die DPIA geen formaliteit: het is het moment waarop je vastlegt welke gegevens de toepassing echt nodig heeft.
 
-Daarnaast is data in de zorg vaak versnipperd. Informatie zit in het elektronisch dossier, in losse systemen per afdeling, in vrije tekst en in documenten van andere zorgverleners. Dat maakt het verleidelijk om eerst een groot datatraject te starten. Kleiner beginnen werkt meestal beter: kies één toepassing en kijk welke data daarvoor nodig is en van welke kwaliteit. Waarom dat vaak beter werkt dan eerst alles op orde brengen, lees je in [het datafundament onder AI](/inzichten/het-datafundament-onder-ai).
+Daarnaast is data in de zorg vaak versnipperd. Informatie zit in het elektronisch dossier, in losse systemen per afdeling, in vrije tekst en in documenten van andere zorgverleners. Dat maakt het verleidelijk om eerst een groot datatraject te starten. Kleiner beginnen werkt meestal beter: kies één toepassing en kijk welke data daarvoor nodig is en van welke kwaliteit. Waarom dat vaak beter werkt dan eerst alles op orde brengen, lees je in [het datafundament onder AI](/nl/inzichten/het-datafundament-onder-ai).
 
 Een paar vragen die in elk zorgproject beantwoord moeten zijn:
 
@@ -133,8 +134,8 @@ Voor de regelgeving is dit de stand van zaken per september 2026:
 - **De Digital Omnibus** heeft de hoog-risicoregels uitgesteld. Toepassingen uit bijlage III vallen er vanaf 2 december 2027 onder, AI in producten uit bijlage I, zoals medische hulpmiddelen, vanaf 2 augustus 2028 ([Europese Commissie](https://digital-strategy.ec.europa.eu/en/news/ai-omnibus-enters-force)).
 - **Transparantie** geldt al wel: sinds 2 augustus 2026 moeten chatbots en andere interactieve AI-systemen laten weten dat je met AI te maken hebt ([Europese Commissie](https://cyprus.representation.ec.europa.eu/news/commission-starts-enforcing-ai-act-rules-and-new-transparency-requirements-2-august-2026-07-31_en)). Dat raakt bijvoorbeeld een patiëntenchatbot.
 
-Uitstel betekent niet dat je kunt wachten. Wie nu een klinische AI-toepassing inkoopt, gebruikt die waarschijnlijk nog als de eisen gelden. Neem ze dus mee in je selectiecriteria. Wat de AI Act per risicocategorie vraagt, staat uitgewerkt op de pagina over [de AI Act](/ai-beleid/ai-act). Dit is geen juridisch advies: laat de kwalificatie van een specifieke toepassing toetsen door een regulatory of juridisch specialist.
+Uitstel betekent niet dat je kunt wachten. Wie nu een klinische AI-toepassing inkoopt, gebruikt die waarschijnlijk nog als de eisen gelden. Neem ze dus mee in je selectiecriteria. Wat de AI Act per risicocategorie vraagt, staat uitgewerkt op de pagina over [de AI Act](/nl/ai-beleid/ai-act). Dit is geen juridisch advies: laat de kwalificatie van een specifieke toepassing toetsen door een regulatory of juridisch specialist.
 
-Waar sta ik in dit verhaal? Mijn werk ligt vooral in financiële dienstverlening, retail, industrie en zakelijke dienstverlening. De vraagstukken in de zorg lijken daar sterk op: wat pak je eerst aan, wat koop je en hoe houd je het in de hand. Voor klinische en regulatoire vragen heb je specialisten uit het zorgdomein nodig, die je rechtstreeks contracteert. Hoe ik met partijen omga die je voor uitvoering inschakelt, zonder marge voor mij, lees je bij het [partnernetwerk](/partnernetwerk).
+Waar sta ik in dit verhaal? Mijn werk ligt vooral in financiële dienstverlening, retail, industrie en zakelijke dienstverlening. De vraagstukken in de zorg lijken daar sterk op: wat pak je eerst aan, wat koop je en hoe houd je het in de hand. Voor klinische en regulatoire vragen heb je specialisten uit het zorgdomein nodig, die je rechtstreeks contracteert. Hoe ik met partijen omga die je voor uitvoering inschakelt, zonder marge voor mij, lees je bij het [partnernetwerk](/nl/partnernetwerk).
 
-Andere sectoren met vergelijkbaar strenge regels vind je bij [AI in fintech en financiële dienstverlening](/markten/fintech); voor een sector waar de regels juist om klantdata en toestemming draaien, zie [AI voor marketing](/markten/marketing). Alle sectoren staan op het [overzicht van AI per branche](/markten). Wil je sparren over een concrete vraag? [Plan een adviesgesprek](/contact) van dertig minuten.
+Andere sectoren met vergelijkbaar strenge regels vind je bij [AI in fintech en financiële dienstverlening](/nl/markten/fintech); voor een sector waar de regels juist om klantdata en toestemming draaien, zie [AI voor marketing](/nl/markten/marketing). Alle sectoren staan op het [overzicht van AI per branche](/nl/markten). Wil je sparren over een concrete vraag? [Plan een adviesgesprek](/nl/contact) van dertig minuten.

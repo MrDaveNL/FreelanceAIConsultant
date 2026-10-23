@@ -1,6 +1,7 @@
 ---
 id: C5-05
-url: /kennisbank/ai-specialist-salaris
+lang: nl
+url: /nl/kennisbank/ai-specialist-salaris
 parent: C5-00
 cluster: "5. AI Development"
 pageType: Kennisbank
@@ -12,8 +13,8 @@ metaDescription: "Wat verdient een AI specialist of AI engineer in Nederland? Be
 keyphrase: ai specialist salaris
 eyebrow: "Kennisbank"
 lede: "Wat verdient een AI specialist in Nederland? Het eerlijke antwoord: dat hangt af van de bron die je raadpleegt en van wat je onder AI specialist verstaat. Ik zet de salarisbronnen die ik kon controleren naast elkaar, met peildatum, en vergelijk een vaste kracht met externe inhuur."
-primaryCta: { label: "Bekijk tarieven", href: /tarieven }
-secondaryCta: { label: "Plan een adviesgesprek", href: /contact }
+primaryCta: { label: "Bekijk tarieven", href: /nl/tarieven }
+secondaryCta: { label: "Plan een adviesgesprek", href: /nl/contact }
 summary:
   - "Salarisbronnen verschillen onderling flink; gebruik ze als bandbreedte, niet als vast bedrag."
   - "De bronnen die ik kon controleren, publiceren cijfers voor de titel AI engineer, niet voor AI specialist."
@@ -45,7 +46,7 @@ sources:
 
 ## Salarisindicatie AI specialist
 
-Wie zoekt naar het salaris van een AI specialist, loopt tegen twee problemen aan. Ten eerste is "AI specialist" geen vaste functietitel: het kan gaan om een strateeg, een machine learning engineer of een ontwikkelaar die een AI-platform inricht. Op de pagina over [wat een AI specialist doet](/ai-development/ai-specialist) zet ik die profielen naast elkaar. Ten tweede publiceren de salarisbronnen die ik kon controleren hun cijfers onder de titel AI engineer, niet onder AI specialist.
+Wie zoekt naar het salaris van een AI specialist, loopt tegen twee problemen aan. Ten eerste is "AI specialist" geen vaste functietitel: het kan gaan om een strateeg, een machine learning engineer of een ontwikkelaar die een AI-platform inricht. Op de pagina over [wat een AI specialist doet](/nl/ai-development/ai-specialist) zet ik die profielen naast elkaar. Ten tweede publiceren de salarisbronnen die ik kon controleren hun cijfers onder de titel AI engineer, niet onder AI specialist.
 
 Hieronder staan daarom de bandbreedtes per niveau van twee bronnen die hun cijfers indelen naar ervaring. Het zijn brutobedragen per maand, zoals de bronnen ze publiceren. Ik heb ze op 23 september 2026 gecontroleerd. De bronnen verschillen onderling duidelijk, en dat is precies de reden om ze naast elkaar te zetten in plaats van er één gemiddelde van te maken.
 
@@ -88,7 +89,7 @@ Voor de titel AI engineer zijn ook bronnen die niet naar niveau indelen, maar ee
 
 Die cijfers zijn lastig één-op-één te vergelijken. Indeed rekent in jaarbedragen op basis van salarissen uit vacatures op Indeed, DataJobs in brutomaandbedragen op basis van gegevens van het eigen platform, zonder de methode verder toe te lichten. Of vakantiegeld en bonussen zijn meegeteld, verschilt per bron. Gebruik ze daarom als orde van grootte.
 
-Voor een AI engineer, machine learning engineer of AI programmeur geldt hetzelfde als voor de AI specialist: de functietitel zegt weinig zonder de taken erbij. Wat een AI developer concreet doet, lees je in [wat doet een AI developer](/kennisbank/wat-doet-een-ai-developer).
+Voor een AI engineer, machine learning engineer of AI programmeur geldt hetzelfde als voor de AI specialist: de functietitel zegt weinig zonder de taken erbij. Wat een AI developer concreet doet, lees je in [wat doet een AI developer](/nl/kennisbank/wat-doet-een-ai-developer).
 
 ## Factoren die het salaris bepalen
 
@@ -114,9 +115,9 @@ Voor werkgevers is het salaris maar een deel van de afweging. Een vaste AI speci
 Een paar vuistregels:
 
 - **Neem vast aan** als er structureel werk ligt met een duidelijke scope: een team dat AI-toepassingen bouwt en beheert, of een platform dat dagelijks onderhoud vraagt.
-- **Huur extern in** als de vraag afgebakend is: een strategie, een leverancierskeuze, een second opinion. Waar je op let bij het selecteren van een externe adviseur, staat bij [een AI consultant inhuren](/ai-consultancy/ai-consultant-inhuren).
-- **Kies een parttime rol** als je iemand nodig hebt die de AI-agenda stuurt, maar de scope voor een fulltime functie nog niet vaststaat. Een [Fractional AI Lead](/diensten/fractional-ai-lead) doet dat voor een paar dagen per maand, {{pricelc:fractional-ai-lead}}, en helpt bij het functieprofiel en de werving van een vaste opvolger.
+- **Huur extern in** als de vraag afgebakend is: een strategie, een leverancierskeuze, een second opinion. Waar je op let bij het selecteren van een externe adviseur, staat bij [een AI consultant inhuren](/nl/ai-consultancy/ai-consultant-inhuren).
+- **Kies een parttime rol** als je iemand nodig hebt die de AI-agenda stuurt, maar de scope voor een fulltime functie nog niet vaststaat. Een [Fractional AI Lead](/nl/diensten/fractional-ai-lead) doet dat voor een paar dagen per maand, {{pricelc:fractional-ai-lead}}, en helpt bij het functieprofiel en de werving van een vaste opvolger.
 
-Wat ik als freelance adviseur reken, staat per pakket op de pagina met [tarieven](/tarieven). Ik bouw zelf geen software; voor bouwcapaciteit heb je je eigen developers nodig of een ontwikkelpartij. Hoe je die selecteert en aanstuurt, lees je op de pagina over [AI development](/ai-development), en hoe je kiest tussen standaardsoftware en maatwerk bij [AI software](/ai-development/ai-software).
+Wat ik als freelance adviseur reken, staat per pakket op de pagina met [tarieven](/nl/tarieven). Ik bouw zelf geen software; voor bouwcapaciteit heb je je eigen developers nodig of een ontwikkelpartij. Hoe je die selecteert en aanstuurt, lees je op de pagina over [AI development](/nl/ai-development), en hoe je kiest tussen standaardsoftware en maatwerk bij [AI software](/nl/ai-development/ai-software).
 
-Twijfel je of je een AI specialist moet aannemen of beter tijdelijk inhuurt? [Plan een adviesgesprek](/contact) van dertig minuten; ook als het antwoord is dat je iemand moet aannemen, hoor je dat.
+Twijfel je of je een AI specialist moet aannemen of beter tijdelijk inhuurt? [Plan een adviesgesprek](/nl/contact) van dertig minuten; ook als het antwoord is dat je iemand moet aannemen, hoor je dat.

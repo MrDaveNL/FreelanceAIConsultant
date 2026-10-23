@@ -1,6 +1,7 @@
 ---
 id: C3-08
-url: /kennisbank/rpa-vs-ai-automatisering
+lang: nl
+url: /nl/kennisbank/rpa-vs-ai-automatisering
 parent: C3-00
 cluster: "3. AI Automatisering"
 pageType: Kennisbank
@@ -12,8 +13,8 @@ metaDescription: "Wat is robotic process automation en hoe verschilt RPA van AI 
 keyphrase: robotic process automation
 eyebrow: "Kennisbank"
 lede: "Robotic process automation (RPA) en AI automatisering worden vaak door elkaar gehaald, maar ze lossen een ander probleem op. RPA voert vaste regels snel en consequent uit; AI kan omgaan met variatie en ongestructureerde informatie. Hier lees je het verschil, wanneer je wat kiest en hoe je ze combineert."
-primaryCta: { label: "Lees meer over AI automatisering", href: /ai-automatisering }
-secondaryCta: { label: "Plan een adviesgesprek", href: /contact }
+primaryCta: { label: "Lees meer over AI automatisering", href: /nl/ai-automatisering }
+secondaryCta: { label: "Plan een adviesgesprek", href: /nl/contact }
 summary:
   - "RPA volgt vaste regels in bestaande schermen en systemen; voorspelbaar, maar kwetsbaar bij verandering."
   - "AI automatisering interpreteert tekst, documenten en taal, maar vraagt om controle op de uitkomst."
@@ -46,9 +47,9 @@ Daarmee kun je taken automatiseren die met vaste regels niet te vangen zijn:
 - **Classificeren:** binnenkomende berichten sorteren naar onderwerp, urgentie of afdeling.
 - **Extraheren:** gegevens halen uit pdf's, contracten of scans.
 - **Genereren:** conceptteksten, samenvattingen of verslagen maken.
-- **Redeneren over stappen:** bij AI agents bepaalt het systeem zelf welke acties nodig zijn; daarover meer bij [AI agents](/ai-agents).
+- **Redeneren over stappen:** bij AI agents bepaalt het systeem zelf welke acties nodig zijn; daarover meer bij [AI agents](/nl/ai-agents).
 
-De keerzijde is dat AI niet altijd hetzelfde antwoord geeft en fouten kan maken die er overtuigend uitzien. AI automatisering vraagt daarom om een testset, controle op de uitkomst en duidelijke afspraken over wanneer een mens meekijkt. Hoe je dat per proces aanpakt, lees je bij [bedrijfsprocessen automatiseren met AI](/ai-automatisering/bedrijfsprocessen-automatiseren-met-ai).
+De keerzijde is dat AI niet altijd hetzelfde antwoord geeft en fouten kan maken die er overtuigend uitzien. AI automatisering vraagt daarom om een testset, controle op de uitkomst en duidelijke afspraken over wanneer een mens meekijkt. Hoe je dat per proces aanpakt, lees je bij [bedrijfsprocessen automatiseren met AI](/nl/ai-automatisering/bedrijfsprocessen-automatiseren-met-ai).
 
 ## Verschillen tussen RPA en AI
 
@@ -83,9 +84,9 @@ Een paar vuistregels:
 
 - **Kies RPA** als het proces stabiel is, de input vast ligt en er geen goede koppeling mogelijk is. Kan de leverancier van je software een API leveren, dan is dat meestal stabieler dan een robot die door schermen klikt.
 - **Kies AI** als het knelpunt zit in het lezen, begrijpen of schrijven van tekst, en als een af en toe foute uitkomst op te vangen is met controle.
-- **Kies geen van beide** als het proces zelf nog niet helder is. Automatiseren van een rommelig proces levert een snel rommelig proces op. Soms is de eerste stap het proces vereenvoudigen of de data op orde brengen; daarover gaat [het datafundament onder AI](/inzichten/het-datafundament-onder-ai).
+- **Kies geen van beide** als het proces zelf nog niet helder is. Automatiseren van een rommelig proces levert een snel rommelig proces op. Soms is de eerste stap het proces vereenvoudigen of de data op orde brengen; daarover gaat [het datafundament onder AI](/nl/inzichten/het-datafundament-onder-ai).
 
-Twijfel je tussen zelf bouwen, een platform kopen of een partner inschakelen, dan helpt de afweging in [build, buy of partner](/inzichten/build-buy-of-partner). En moet je kiezen tussen leveranciers die allemaal zeggen dat ze beide kunnen, dan is een onafhankelijke [Vendor Review](/diensten/vendor-review) een manier om de claims naast elkaar te leggen.
+Twijfel je tussen zelf bouwen, een platform kopen of een partner inschakelen, dan helpt de afweging in [build, buy of partner](/nl/inzichten/build-buy-of-partner). En moet je kiezen tussen leveranciers die allemaal zeggen dat ze beide kunnen, dan is een onafhankelijke [Vendor Review](/nl/diensten/vendor-review) een manier om de claims naast elkaar te leggen.
 
 ## RPA en AI combineren
 
@@ -97,7 +98,7 @@ Zo'n combinatie werkt het best als je drie dingen vooraf regelt:
 2. **Een route voor uitzonderingen.** Alles wat niet past, gaat naar een mens, met genoeg context om snel te beslissen.
 3. **Meten per stap.** Houd bij hoeveel gevallen automatisch doorgaan, hoeveel er worden afgevangen en waar fouten ontstaan. Dan zie je waar verbetering loont.
 
-Hoe je zulke ketens ontwerpt, beheert en uitbreidt, lees je bij [AI workflows](/ai-automatisering/ai-workflows).
+Hoe je zulke ketens ontwerpt, beheert en uitbreidt, lees je bij [AI workflows](/nl/ai-automatisering/ai-workflows).
 
 <aside class="scenario" aria-label="Voorbeeldscenario">
 <p class="scenario-label">Voorbeeldscenario</p>
@@ -107,4 +108,4 @@ Hoe je zulke ketens ontwerpt, beheert en uitbreidt, lees je bij [AI workflows](/
 <p class="scenario-note">Fictief voorbeeld, samengesteld uit situaties die veel voorkomen. Organisatie en cijfers zijn illustratief.</p>
 </aside>
 
-Ik bouw zelf geen robots of AI-toepassingen. Wel help ik je bepalen welke aanpak bij je proces past, help ik bij het selecteren van een partij en begeleid ik de uitvoering vanuit jouw kant van de tafel. Wil je het bredere plaatje zien, begin dan bij [AI automatisering](/ai-automatisering). Wil je een concreet proces bespreken? [Plan een adviesgesprek](/contact).
+Ik bouw zelf geen robots of AI-toepassingen. Wel help ik je bepalen welke aanpak bij je proces past, help ik bij het selecteren van een partij en begeleid ik de uitvoering vanuit jouw kant van de tafel. Wil je het bredere plaatje zien, begin dan bij [AI automatisering](/nl/ai-automatisering). Wil je een concreet proces bespreken? [Plan een adviesgesprek](/nl/contact).

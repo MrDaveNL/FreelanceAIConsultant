@@ -1,6 +1,7 @@
 ---
 id: C10-01
-url: /kennisbank/chatgpt-voor-bedrijven
+lang: nl
+url: /nl/kennisbank/chatgpt-voor-bedrijven
 parent: C3-05
 cluster: "10. Kennisbank AI tools"
 pageType: Kennisbank
@@ -12,8 +13,8 @@ metaDescription: "Hoe zet je ChatGPT verantwoord in binnen je bedrijf? Lees over
 keyphrase: chatgpt voor bedrijven
 eyebrow: "Kennisbank · AI tools"
 lede: "ChatGPT voor bedrijven is iets anders dan medewerkers die zelf een account aanmaken. Met een zakelijk abonnement krijg je beheer, centrale facturatie en afspraken over je data. Op deze pagina lees je welke abonnementen er zijn, waar ChatGPT per afdeling helpt en hoe je het veilig inricht."
-primaryCta: { label: "Lees meer over AI tools", href: /ai-automatisering/ai-tools }
-secondaryCta: { label: "Plan een adviesgesprek", href: /contact }
+primaryCta: { label: "Lees meer over AI tools", href: /nl/ai-automatisering/ai-tools }
+secondaryCta: { label: "Plan een adviesgesprek", href: /nl/contact }
 summary:
   - "Voor bedrijfsdata: ChatGPT Business of Enterprise, geen persoonlijke accounts."
   - "Bij Business en Enterprise traint OpenAI standaard niet op je werkruimtedata."
@@ -46,7 +47,7 @@ In de zakelijke abonnementen zit meer dan het chatvenster. Volgens de prijspagin
 - **Koppelingen** met onder meer Google Workspace, Slack, GitHub en Microsoft 365, en "company knowledge" om antwoorden op je eigen bronnen te baseren.
 - **ChatGPT Work, Codex en workspace agents** voor taken die over meerdere stappen lopen.
 
-Wat ChatGPT niet is: een systeem dat vanzelf de waarheid spreekt. Het kan zelfverzekerd een fout antwoord geven, zeker bij feiten, cijfers en bronverwijzingen. Voor alles wat naar een klant, een toezichthouder of de directie gaat, blijft een mens verantwoordelijk voor de controle. Hoe ChatGPT zich verhoudt tot andere tools, zie je in mijn [vergelijking van AI tools voor bedrijven](/ai-automatisering/ai-tools).
+Wat ChatGPT niet is: een systeem dat vanzelf de waarheid spreekt. Het kan zelfverzekerd een fout antwoord geven, zeker bij feiten, cijfers en bronverwijzingen. Voor alles wat naar een klant, een toezichthouder of de directie gaat, blijft een mens verantwoordelijk voor de controle. Hoe ChatGPT zich verhoudt tot andere tools, zie je in mijn [vergelijking van AI tools voor bedrijven](/nl/ai-automatisering/ai-tools).
 
 ## Zakelijke abonnementen
 
@@ -62,7 +63,7 @@ OpenAI biedt persoonlijke abonnementen (Free, Go, Plus en Pro) en zakelijke abon
 
 Prijzen zijn Amerikaanse lijstprijzen, exclusief btw; OpenAI geeft aan dat prijzen per land en valuta kunnen verschillen. Een Business-abonnement bevat geen API-gebruik; dat rekent OpenAI apart af.
 
-Mijn vuistregel: Business past bij een organisatie die snel en beheerst wil starten. Enterprise wordt interessant zodra je Europese dataopslag nodig hebt, gebruikers automatisch wilt beheren via je identiteitssysteem, of eigen bewaartermijnen moet kunnen instellen. Gebruik je al Microsoft 365 of Google Workspace, vergelijk dan ook met de AI die daarin zit: [Microsoft Copilot](/kennisbank/microsoft-copilot-voor-bedrijven) of [Gemini voor bedrijven](/kennisbank/gemini-voor-bedrijven). En wie twijfelt tussen assistenten, leest ook [Claude voor bedrijven](/kennisbank/claude-voor-bedrijven).
+Mijn vuistregel: Business past bij een organisatie die snel en beheerst wil starten. Enterprise wordt interessant zodra je Europese dataopslag nodig hebt, gebruikers automatisch wilt beheren via je identiteitssysteem, of eigen bewaartermijnen moet kunnen instellen. Gebruik je al Microsoft 365 of Google Workspace, vergelijk dan ook met de AI die daarin zit: [Microsoft Copilot](/nl/kennisbank/microsoft-copilot-voor-bedrijven) of [Gemini voor bedrijven](/nl/kennisbank/gemini-voor-bedrijven). En wie twijfelt tussen assistenten, leest ook [Claude voor bedrijven](/nl/kennisbank/claude-voor-bedrijven).
 
 ## Toepassingen per afdeling
 
@@ -75,7 +76,7 @@ De beste toepassingen zijn taken die vaak terugkomen, veel tekst bevatten en waa
 - **Finance:** een export analyseren, afwijkingen laten benoemen en een toelichting in gewone taal opstellen. De cijfers zelf controleer je in de bron.
 - **Management:** vergaderstukken samenvatten, een besluit van meerdere kanten laten bekijken, of een lastige mail aanscherpen.
 
-Het verschil tussen een handig trucje en echte tijdwinst zit in het werkproces. Als één medewerker slim prompt, blijft het bij die medewerker. Als een team afspraken maakt over vaste opdrachten en gedeelde GPT's, wordt het een werkwijze. Een [ChatGPT-training voor je team](/ai-workshop/chatgpt-training) helpt om daar gezamenlijk op in te zetten, en de basis van goede opdrachten staat bij [prompt engineering](/kennisbank/prompt-engineering).
+Het verschil tussen een handig trucje en echte tijdwinst zit in het werkproces. Als één medewerker slim prompt, blijft het bij die medewerker. Als een team afspraken maakt over vaste opdrachten en gedeelde GPT's, wordt het een werkwijze. Een [ChatGPT-training voor je team](/nl/ai-workshop/chatgpt-training) helpt om daar gezamenlijk op in te zetten, en de basis van goede opdrachten staat bij [prompt engineering](/nl/kennisbank/prompt-engineering).
 
 <aside class="scenario" aria-label="Voorbeeldscenario">
 <p class="scenario-label">Voorbeeldscenario</p>
@@ -109,6 +110,6 @@ Een paar aandachtspunten bij de inrichting:
 - **Feedback.** Bij persoonlijke accounts geldt ook met training uitgezet: wie een antwoord met duim omhoog of omlaag beoordeelt, geeft OpenAI volgens eigen zeggen de ruimte om dat hele gesprek te gebruiken voor het trainen van modellen.
 - **Schaduwgebruik.** Een zakelijk abonnement werkt alleen als medewerkers het ook gebruiken. Maak het makkelijker om de goedgekeurde route te nemen dan de eigen.
 
-Leg dit vast in een kort intern AI-beleid; hoe je dat opzet zonder dik handboek, lees je bij [AI-beleid voor organisaties](/ai-beleid). Gebruik je ChatGPT ook voor taken waarin het zelfstandig handelt, kijk dan ook naar [AI agents en de AVG](/kennisbank/ai-agents-en-avg).
+Leg dit vast in een kort intern AI-beleid; hoe je dat opzet zonder dik handboek, lees je bij [AI-beleid voor organisaties](/nl/ai-beleid). Gebruik je ChatGPT ook voor taken waarin het zelfstandig handelt, kijk dan ook naar [AI agents en de AVG](/nl/kennisbank/ai-agents-en-avg).
 
-Twijfel je of ChatGPT de juiste keuze is voor jouw organisatie, of hoe je het verantwoord uitrolt? Ik heb geen commissie- of partnerrelatie met OpenAI of andere leveranciers, dus ik kijk alleen naar wat bij jou past. [Plan een adviesgesprek](/contact) van dertig minuten.
+Twijfel je of ChatGPT de juiste keuze is voor jouw organisatie, of hoe je het verantwoord uitrolt? Ik heb geen commissie- of partnerrelatie met OpenAI of andere leveranciers, dus ik kijk alleen naar wat bij jou past. [Plan een adviesgesprek](/nl/contact) van dertig minuten.

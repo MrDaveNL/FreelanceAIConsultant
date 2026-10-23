@@ -1,6 +1,7 @@
 ---
 id: C7-03
-url: /markten/fintech
+lang: nl
+url: /nl/markten/fintech
 parent: C7-00
 cluster: "7. AI markten"
 pageType: Branche
@@ -12,8 +13,8 @@ metaDescription: "Hoe zetten banken en fintechs AI in? Lees over toepassingen, a
 keyphrase: ai fintech
 eyebrow: "AI voor fintech"
 lede: "AI in fintech en bij banken en verzekeraars draait om één spanning: veel repeterend documentwerk dat zich goed leent voor AI, in een sector waar elke beslissing uitlegbaar en herleidbaar moet zijn. Financiële dienstverlening is een van de sectoren waar mijn werk het zwaarst op leunt. Hier lees je waar de kansen zitten en welke regels meespelen."
-primaryCta: { label: "Lees meer over Markten", href: /markten }
-secondaryCta: { label: "Plan een adviesgesprek", href: /contact }
+primaryCta: { label: "Lees meer over Markten", href: /nl/markten }
+secondaryCta: { label: "Plan een adviesgesprek", href: /nl/contact }
 summary:
   - "De meeste winst zit in extractie en voorbereiding; het oordeel blijft bij de mens."
   - "Kredietbeoordeling en premiebepaling voor levens- en ziektekostenverzekeringen zijn hoog risico onder de AI Act, met regels vanaf 2 december 2027."
@@ -60,7 +61,7 @@ In fintech en de bredere financiële sector komen AI-toepassingen grofweg in vie
 
 De eerste twee soorten leveren vaak de snelste winst. De derde soort kan veel waarde hebben, maar valt deels onder het zwaarste regime van de AI Act. De vierde lijkt onschuldig, maar een chatbot die klanten verkeerd informeert, is in een gereguleerde sector geen klein probleem.
 
-Welke toepassing je eerst aanpakt, hangt af van waar het werk zit en hoeveel risico je kunt dragen. Een voorbeeld van hoe dat afwegen in de praktijk gaat, is de case over een [use-case portfolio voor een investeringsmaatschappij](/cases/ai-strategie-investeringsmaatschappij).
+Welke toepassing je eerst aanpakt, hangt af van waar het werk zit en hoeveel risico je kunt dragen. Een voorbeeld van hoe dat afwegen in de praktijk gaat, is de case over een [use-case portfolio voor een investeringsmaatschappij](/nl/cases/ai-strategie-investeringsmaatschappij).
 
 ## AI automatisering in financiële dienstverlening
 
@@ -79,9 +80,9 @@ AI is goed in extractie en kan daar veel zoekwerk wegnemen. Het oordeel hoort in
 <figcaption>De AI bereidt voor, de mens beslist, en alles is herleidbaar. Zo blijft een geautomatiseerd proces uitlegbaar richting audit en toezicht.</figcaption>
 </figure>
 
-Precies dit patroon staat centraal in de case over [KYC-documentanalyse bij een financiële dienstverlener](/cases/kyc-documentanalyse-financial-services). Het moeilijke deel was daar niet het model, maar een werkproces ontwerpen waarin analisten de uitkomst kunnen vertrouwen én kunnen overrulen.
+Precies dit patroon staat centraal in de case over [KYC-documentanalyse bij een financiële dienstverlener](/nl/cases/kyc-documentanalyse-financial-services). Het moeilijke deel was daar niet het model, maar een werkproces ontwerpen waarin analisten de uitkomst kunnen vertrouwen én kunnen overrulen.
 
-Een waarschuwing bij de huidige belangstelling voor agents die zelfstandig stappen zetten: in een financieel proces wil je precies weten wat er gebeurt als zo'n agent ernaast zit. Wat agents wel en niet goed kunnen, beschrijf ik in [AI-agents in een bedrijfsproces](/inzichten/ai-agents-wat-ze-wel-en-niet-kunnen).
+Een waarschuwing bij de huidige belangstelling voor agents die zelfstandig stappen zetten: in een financieel proces wil je precies weten wat er gebeurt als zo'n agent ernaast zit. Wat agents wel en niet goed kunnen, beschrijf ik in [AI-agents in een bedrijfsproces](/nl/inzichten/ai-agents-wat-ze-wel-en-niet-kunnen).
 
 <aside class="scenario" aria-label="Voorbeeldscenario">
 <p class="scenario-label">Voorbeeldscenario</p>
@@ -101,17 +102,17 @@ Daarbovenop komen drie regimes die je moet kennen (stand september 2026):
 - **DORA.** De Digital Operational Resilience Act geldt sinds 17 januari 2025 en regelt ICT-risicobeheer, incidentmelding, het testen van digitale weerbaarheid en het beheer van ICT-dienstverleners. Financiële instellingen moeten een informatieregister bijhouden van alle ICT-diensten die ze van derden afnemen, inclusief onderuitbesteding ([DNB, DORA](https://www.dnb.nl/voor-de-sector/open-boek-toezicht/wet-regelgeving/dora/); [DNB, toezicht per 17 januari 2025](https://www.dnb.nl/nieuws-voor-de-sector/toezicht-2024/dora-het-toezicht-van-dnb-per-17-januari-2025/)). Een AI-dienst van een externe leverancier is daarmee ook een DORA-vraag: exitpad, afhankelijkheid en incidentafspraken horen in je selectie.
 - **Het Nederlandse toezicht op de AI Act.** Wie in Nederland op de AI Act toeziet, wordt geregeld in de Uitvoeringswet AI-verordening. Die was in juni 2026 nog een wetsvoorstel in consultatie. De AFM pleit ervoor dat zowel AFM als DNB, elk vanuit de eigen rol, worden aangewezen voor het toezicht op verboden toepassingen en hoog-risicotoepassingen zoals kredietbeoordeling en verzekeringspricing ([AFM, 12 juni 2026](https://www.afm.nl/nl-nl/sector/actueel/2026/jun/pb-uitvoeringstoets)).
 
-Uitstel van de AI Act-regels is geen reden om te wachten. Een kredietmodel dat je nu inkoopt of laat bouwen, gebruik je waarschijnlijk nog als de eisen in december 2027 gaan gelden. Neem ze dus nu al mee in je ontwerp en selectie. Wat de AI Act per risicocategorie vraagt, staat op de pagina over [de AI Act](/ai-beleid/ai-act); hoe je daar een breder [AI-beleid](/ai-beleid) omheen zet, lees je op de overzichtspagina. Hoe je governance proportioneel houdt, met zware eisen alleen waar het risico dat rechtvaardigt, beschrijf ik in [AI-governance zonder bureaucratie](/inzichten/ai-governance-zonder-bureaucratie). Dit is geen juridisch advies: laat de kwalificatie van een concrete toepassing toetsen door je compliance- of juridische afdeling.
+Uitstel van de AI Act-regels is geen reden om te wachten. Een kredietmodel dat je nu inkoopt of laat bouwen, gebruik je waarschijnlijk nog als de eisen in december 2027 gaan gelden. Neem ze dus nu al mee in je ontwerp en selectie. Wat de AI Act per risicocategorie vraagt, staat op de pagina over [de AI Act](/nl/ai-beleid/ai-act); hoe je daar een breder [AI-beleid](/nl/ai-beleid) omheen zet, lees je op de overzichtspagina. Hoe je governance proportioneel houdt, met zware eisen alleen waar het risico dat rechtvaardigt, beschrijf ik in [AI-governance zonder bureaucratie](/nl/inzichten/ai-governance-zonder-bureaucratie). Dit is geen juridisch advies: laat de kwalificatie van een concrete toepassing toetsen door je compliance- of juridische afdeling.
 
 ## AI consultancy voor financiële instellingen
 
 Wat ik voor banken, verzekeraars, fintechs en investeerders doe, is hetzelfde als in andere sectoren, maar met de lat hoger voor uitlegbaarheid en herleidbaarheid:
 
-- **Prioriteren:** welke toepassingen leveren iets op en passen binnen je risicobereidheid? Een logisch begin is een nulmeting met het [AI Readiness Assessment](/diensten/ai-readiness-assessment).
-- **Kiezen:** een leverancier of bouwpartij selecteren met criteria voor uitlegbaarheid, auditspoor, datarechten en exitpad. Met een [Vendor Review](/diensten/vendor-review) leg je die keuze vast op een manier waar inkoop, compliance en audit mee verder kunnen.
-- **Beoordelen:** voor investeerders en corporate-developmentteams die een AI-propositie of -leverancier willen doorlichten, is er de [AI Due Diligence](/diensten/ai-due-diligence), altijd onder NDA.
-- **Borgen:** als je geen fulltime Head of AI hebt, kan een [Fractional AI Lead](/diensten/fractional-ai-lead) de AI-agenda bewaken en de afstemming met risk, compliance en audit organiseren.
+- **Prioriteren:** welke toepassingen leveren iets op en passen binnen je risicobereidheid? Een logisch begin is een nulmeting met het [AI Readiness Assessment](/nl/diensten/ai-readiness-assessment).
+- **Kiezen:** een leverancier of bouwpartij selecteren met criteria voor uitlegbaarheid, auditspoor, datarechten en exitpad. Met een [Vendor Review](/nl/diensten/vendor-review) leg je die keuze vast op een manier waar inkoop, compliance en audit mee verder kunnen.
+- **Beoordelen:** voor investeerders en corporate-developmentteams die een AI-propositie of -leverancier willen doorlichten, is er de [AI Due Diligence](/nl/diensten/ai-due-diligence), altijd onder NDA.
+- **Borgen:** als je geen fulltime Head of AI hebt, kan een [Fractional AI Lead](/nl/diensten/fractional-ai-lead) de AI-agenda bewaken en de afstemming met risk, compliance en audit organiseren.
 
 Ik bouw en verkoop zelf geen software en heb geen commissies of partnerstatus bij leveranciers. Implementaties begeleid ik vanuit jouw kant van de tafel. Juist in een sector waar je later moet kunnen uitleggen waarom je voor een bepaalde partij hebt gekozen, maakt dat verschil.
 
-Andere sectoren met stevige regels zijn de zorg, waar medische software onder aparte productwetgeving valt; zie [AI in de zorg](/markten/zorg). Voor een sector waar het vooral om klantdata en toestemming draait, zie [AI voor marketing](/markten/marketing). Alle sectoren vind je bij [AI per branche](/markten). Wil je sparren over een concrete vraag? [Plan een adviesgesprek](/contact).
+Andere sectoren met stevige regels zijn de zorg, waar medische software onder aparte productwetgeving valt; zie [AI in de zorg](/nl/markten/zorg). Voor een sector waar het vooral om klantdata en toestemming draait, zie [AI voor marketing](/nl/markten/marketing). Alle sectoren vind je bij [AI per branche](/nl/markten). Wil je sparren over een concrete vraag? [Plan een adviesgesprek](/nl/contact).

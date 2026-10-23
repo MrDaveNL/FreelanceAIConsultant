@@ -1,6 +1,7 @@
 ---
 id: C7-02
-url: /markten/marketing
+lang: nl
+url: /nl/markten/marketing
 parent: C7-00
 cluster: "7. AI markten"
 pageType: Branche
@@ -12,8 +13,8 @@ metaDescription: "Wat is AI marketing en hoe zet je het slim in? Ontdek toepassi
 keyphrase: ai marketing
 eyebrow: "AI voor marketing"
 lede: "AI marketing is geen nieuw vak, maar een andere manier van het bestaande werk doen: content maken, klanten beter bedienen, campagnes sturen en resultaten begrijpen. De tools zijn er al. Wat meestal ontbreekt, is een keuze waar je ze voor inzet en hoe je de kwaliteit bewaakt."
-primaryCta: { label: "Lees meer over Markten", href: /markten }
-secondaryCta: { label: "Plan een adviesgesprek", href: /contact }
+primaryCta: { label: "Lees meer over Markten", href: /nl/markten }
+secondaryCta: { label: "Plan een adviesgesprek", href: /nl/contact }
 summary:
   - "Kies AI-toepassingen op basis van je marketingdoelen, niet op basis van de nieuwste tool."
   - "Merkstem, klantdata en toestemming zijn de echte randvoorwaarden."
@@ -69,7 +70,7 @@ Ik deel de toepassingen van AI in marketing op in vier gebieden. Per gebied vers
 
 Dit is het gebied waar de meeste teams beginnen: conceptteksten voor blogs, social posts, nieuwsbrieven, productbeschrijvingen en varianten van advertentieteksten. De tijdwinst zit vooral in de eerste versie en in het maken van varianten.
 
-De valkuil is dat alles op elkaar gaat lijken. Een taalmodel schrijft standaard gemiddelde tekst, en gemiddelde tekst onderscheidt je merk niet. Wat helpt: een vastgelegde merkstem met voorbeelden, een vaste redactieslag door een mens en een duidelijke afspraak over feitencontrole. Hoe je een model gerichter instrueert, lees je bij [prompt engineering](/kennisbank/prompt-engineering).
+De valkuil is dat alles op elkaar gaat lijken. Een taalmodel schrijft standaard gemiddelde tekst, en gemiddelde tekst onderscheidt je merk niet. Wat helpt: een vastgelegde merkstem met voorbeelden, een vaste redactieslag door een mens en een duidelijke afspraak over feitencontrole. Hoe je een model gerichter instrueert, lees je bij [prompt engineering](/nl/kennisbank/prompt-engineering).
 
 ### Personalisatie
 
@@ -98,14 +99,14 @@ Een AI marketing strategie ontwikkelen begint niet bij tools, maar bij je market
 Een werkbare volgorde in vijf stappen:
 
 1. **Inventariseer wat er al gebeurt.** Welke tools gebruikt je team, waarvoor en met welke data? Vaak is dat meer dan het management weet.
-2. **Kies twee of drie toepassingen** die direct bijdragen aan een marketingdoel en waarvan je de winst kunt meten. Hoe je toepassingen onderling afweegt, beschrijf ik in [welke AI use cases resultaat leveren](/inzichten/welke-ai-use-cases-leveren-resultaat).
+2. **Kies twee of drie toepassingen** die direct bijdragen aan een marketingdoel en waarvan je de winst kunt meten. Hoe je toepassingen onderling afweegt, beschrijf ik in [welke AI use cases resultaat leveren](/nl/inzichten/welke-ai-use-cases-leveren-resultaat).
 3. **Leg de randvoorwaarden vast:** merkstem, redactieslag, welke data wel en niet in welke tool mag, en wie eindverantwoordelijk is voor wat er gepubliceerd wordt.
 4. **Regel de transparantie.** Sinds 2 augustus 2026 gelden de transparantieregels van de AI Act: chatbots moeten laten weten dat je met AI praat, deepfakes moeten als zodanig gelabeld worden en AI-gegenereerde content moet machineleesbare markeringen dragen ([Europese Commissie](https://cyprus.representation.ec.europa.eu/news/commission-starts-enforcing-ai-act-rules-and-new-transparency-requirements-2-august-2026-07-31_en)). Die laatste verplichting ligt vooral bij de aanbieders van de tools; voor systemen die al vóór 2 augustus 2026 op de markt waren, loopt daarvoor een overgangstermijn tot 2 december 2026 ([AI Act Service Desk, tijdlijn](https://ai-act-service-desk.ec.europa.eu/en/ai-act/timeline/timeline-implementation-eu-ai-act)). Een marketingchatbot of een synthetische video raakt je wel direct.
 5. **Meet en stuur bij.** Maak een nulmeting, spreek af wanneer je evalueert en wees bereid om een toepassing te stoppen als ze niets oplevert.
 
-Deze aanpak is in de kern dezelfde als bij elke [AI-strategie](/ai-consultancy/ai-strategie), alleen toegespitst op het marketingteam. Werk je in een bureau of adviesorganisatie, dan spelen er extra vragen over klantdata en declarabele uren; die behandel ik op de pagina over [AI voor zakelijke dienstverleners](/ai-voor-bedrijven/zakelijke-dienstverleners).
+Deze aanpak is in de kern dezelfde als bij elke [AI-strategie](/nl/ai-consultancy/ai-strategie), alleen toegespitst op het marketingteam. Werk je in een bureau of adviesorganisatie, dan spelen er extra vragen over klantdata en declarabele uren; die behandel ik op de pagina over [AI voor zakelijke dienstverleners](/nl/ai-voor-bedrijven/zakelijke-dienstverleners).
 
-Wie mag wat met welke tool? Dat hoeft geen dik beleidsdocument te worden. Een paar heldere afspraken en een register van gebruikte tools brengen je een heel eind; hoe je dat licht houdt, lees je in [AI-governance zonder bureaucratie](/inzichten/ai-governance-zonder-bureaucratie).
+Wie mag wat met welke tool? Dat hoeft geen dik beleidsdocument te worden. Een paar heldere afspraken en een register van gebruikte tools brengen je een heel eind; hoe je dat licht houdt, lees je in [AI-governance zonder bureaucratie](/nl/inzichten/ai-governance-zonder-bureaucratie).
 
 <aside class="scenario" aria-label="Voorbeeldscenario">
 <p class="scenario-label">Voorbeeldscenario</p>
@@ -124,8 +125,8 @@ Het aanbod aan AI-tools voor marketing verandert zo snel dat een lijstje met nam
 - **Gespecialiseerde tools** voor bijvoorbeeld beeld, video, vertaling of social media. Nuttig voor een specifieke taak, maar let op de datavoorwaarden.
 - **Maatwerk of koppelingen** tussen systemen. Pas zinvol als een standaardtool aantoonbaar tekortschiet.
 
-Bij de keuze kijk ik naar vier dingen: past de tool bij een concrete taak, wat gebeurt er met je data, hoe goed sluit hij aan op je bestaande systemen, en wat kost hij over drie jaar inclusief beheer en training. Een breder overzicht van [AI-tools en hoe je ertussen kiest](/ai-automatisering/ai-tools) staat op een aparte pagina, en voor een gestructureerde selectie kun je het stappenplan uit [AI-vendorselectie in acht stappen](/inzichten/ai-vendorselectie-in-acht-stappen) gebruiken.
+Bij de keuze kijk ik naar vier dingen: past de tool bij een concrete taak, wat gebeurt er met je data, hoe goed sluit hij aan op je bestaande systemen, en wat kost hij over drie jaar inclusief beheer en training. Een breder overzicht van [AI-tools en hoe je ertussen kiest](/nl/ai-automatisering/ai-tools) staat op een aparte pagina, en voor een gestructureerde selectie kun je het stappenplan uit [AI-vendorselectie in acht stappen](/nl/inzichten/ai-vendorselectie-in-acht-stappen) gebruiken.
 
-Omdat ik geen commissies of partnerdeals met leveranciers heb, kan ik tools vergelijken zonder eigen belang. Mijn zwaartepunt ligt overigens niet in marketing, maar in financiële dienstverlening, retail, industrie en zakelijke dienstverlening. De vragen over prioriteren, kiezen en borgen zijn in marketing hetzelfde; voor de uitvoering van campagnes en content werk je met marketingspecialisten die je zelf contracteert. Wil je dat je team de tools ook echt goed leert gebruiken, kijk dan bij [AI workshops en trainingen](/ai-workshop).
+Omdat ik geen commissies of partnerdeals met leveranciers heb, kan ik tools vergelijken zonder eigen belang. Mijn zwaartepunt ligt overigens niet in marketing, maar in financiële dienstverlening, retail, industrie en zakelijke dienstverlening. De vragen over prioriteren, kiezen en borgen zijn in marketing hetzelfde; voor de uitvoering van campagnes en content werk je met marketingspecialisten die je zelf contracteert. Wil je dat je team de tools ook echt goed leert gebruiken, kijk dan bij [AI workshops en trainingen](/nl/ai-workshop).
 
-Benieuwd hoe andere sectoren met AI omgaan? Zie [AI in de zorg](/markten/zorg), waar de regels rond data nog strenger zijn, of [AI in fintech](/markten/fintech). Het volledige overzicht staat bij [AI per branche](/markten). Of [plan een adviesgesprek](/contact) over jouw marketingvraag.
+Benieuwd hoe andere sectoren met AI omgaan? Zie [AI in de zorg](/nl/markten/zorg), waar de regels rond data nog strenger zijn, of [AI in fintech](/nl/markten/fintech). Het volledige overzicht staat bij [AI per branche](/nl/markten). Of [plan een adviesgesprek](/nl/contact) over jouw marketingvraag.

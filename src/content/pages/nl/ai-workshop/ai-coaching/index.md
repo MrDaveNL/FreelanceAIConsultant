@@ -1,6 +1,7 @@
 ---
 id: C9-04
-url: /ai-workshop/ai-coaching
+lang: nl
+url: /nl/ai-workshop/ai-coaching
 parent: C9-00
 cluster: "9. AI workshops & training"
 pageType: Spoke
@@ -12,8 +13,8 @@ metaDescription: "Met AI coaching krijgen managers en teams persoonlijke begelei
 keyphrase: ai coaching
 eyebrow: "AI coaching"
 lede: "Een workshop geeft een team een vertrekpunt. Maar de vragen komen pas echt als mensen AI in hun werk gaan gebruiken. AI coaching is persoonlijke begeleiding voor managers en teamleads in die fase: wat pak je als eerste op, hoe neem je je team mee en hoe houd je het vol als de waan van de dag terugkomt."
-primaryCta: { label: "Plan een adviesgesprek", href: /contact }
-secondaryCta: { label: "Bekijk het AI Readiness Assessment", href: /diensten/ai-readiness-assessment }
+primaryCta: { label: "Plan een adviesgesprek", href: /nl/contact }
+secondaryCta: { label: "Bekijk het AI Readiness Assessment", href: /nl/diensten/ai-readiness-assessment }
 summary:
   - "Persoonlijke begeleiding voor managers en teamleads die AI in hun team willen laten landen."
   - "Gericht op het werk van het team, niet op de tool."
@@ -42,7 +43,7 @@ AI coaching is persoonlijke begeleiding bij het toepassen van AI in het dagelijk
 - Wat mag er met klantgegevens, en hoe maak ik dat duidelijk?
 - Hoe zie ik of het iets oplevert, zonder een meetsysteem op te tuigen?
 
-Het verschil met een workshop zit in de tijd. Een workshop legt een basis, maar de meeste vragen ontstaan pas weken later, als iemand een tool in zijn eigen werk probeert. Adoptie verspreidt zich via collega's en leidinggevenden, niet via trainingen alleen; dat beschreef ik uitgebreider in [AI-adoptie begint bij het werk](/inzichten/ai-adoptie-begint-bij-het-werk). AI coaching richt zich precies op die mensen die het voorbeeld moeten geven.
+Het verschil met een workshop zit in de tijd. Een workshop legt een basis, maar de meeste vragen ontstaan pas weken later, als iemand een tool in zijn eigen werk probeert. Adoptie verspreidt zich via collega's en leidinggevenden, niet via trainingen alleen; dat beschreef ik uitgebreider in [AI-adoptie begint bij het werk](/nl/inzichten/ai-adoptie-begint-bij-het-werk). AI coaching richt zich precies op die mensen die het voorbeeld moeten geven.
 
 Ik ben daarbij een onafhankelijke AI-coach: ik verkoop geen software of licenties, en adviseer dus ook geen tool omdat ik er iets aan verdien.
 
@@ -56,7 +57,7 @@ AI coaching is bedoeld voor management en teamleads die verantwoordelijk zijn vo
 - er in je team onzekerheid is over wat AI betekent voor functies en taken;
 - je een concrete verandering wilt doorvoeren, bijvoorbeeld een nieuwe werkwijze voor rapportages of klantcontact.
 
-Het past minder als de vraag organisatiebreed is. Moet er iemand de AI-agenda van de hele organisatie sturen, dan is een [Fractional AI Lead](/diensten/fractional-ai-lead) de betere vorm. En als je team nog helemaal aan het begin staat, is een gezamenlijke basis vaak een betere eerste stap: een [training AI-geletterdheid](/ai-workshop/ai-geletterdheid-training) of, bij organisaties met Microsoft 365, een [Copilot training](/ai-workshop/copilot-training).
+Het past minder als de vraag organisatiebreed is. Moet er iemand de AI-agenda van de hele organisatie sturen, dan is een [Fractional AI Lead](/nl/diensten/fractional-ai-lead) de betere vorm. En als je team nog helemaal aan het begin staat, is een gezamenlijke basis vaak een betere eerste stap: een [training AI-geletterdheid](/nl/ai-workshop/ai-geletterdheid-training) of, bij organisaties met Microsoft 365, een [Copilot training](/nl/ai-workshop/copilot-training).
 
 ## Hoe een traject verloopt
 
@@ -79,7 +80,7 @@ Een paar uitgangspunten die voor elk traject gelden:
 - **Het moeilijke gesprek hoort erbij.** Als een taak verandert of verdwijnt, bespreken we hoe je dat eerlijk met je team deelt.
 - **Afbouwen is het doel.** Aan het eind moet het team zonder mij verder kunnen, met iemand die de rol van aanspreekpunt overneemt.
 
-AI coaching valt onder afgebakend advies, met een vaste prijs per opdracht. De omvang spreken we vooraf af; op de pagina [tarieven](/tarieven) lees je hoe dat werkt. Wil je eerst een overzicht van alle vormen, van introductieworkshop tot hands-on training, kijk dan bij [AI workshops en trainingen voor bedrijven](/ai-workshop).
+AI coaching valt onder afgebakend advies, met een vaste prijs per opdracht. De omvang spreken we vooraf af; op de pagina [tarieven](/nl/tarieven) lees je hoe dat werkt. Wil je eerst een overzicht van alle vormen, van introductieworkshop tot hands-on training, kijk dan bij [AI workshops en trainingen voor bedrijven](/nl/ai-workshop).
 
 <aside class="scenario" aria-label="Voorbeeldscenario">
 <p class="scenario-label">Voorbeeldscenario</p>
@@ -89,4 +90,4 @@ AI coaching valt onder afgebakend advies, met een vaste prijs per opdracht. De o
 <p class="scenario-note">Fictief voorbeeld, samengesteld uit situaties die veel voorkomen. Organisatie en cijfers zijn illustratief.</p>
 </aside>
 
-Twijfel je of coaching past bij jouw vraag? [Plan een adviesgesprek](/contact) van dertig minuten; aan het eind hoor je wat ik zou doen, ook als dat iets anders is dan coaching.
+Twijfel je of coaching past bij jouw vraag? [Plan een adviesgesprek](/nl/contact) van dertig minuten; aan het eind hoor je wat ik zou doen, ook als dat iets anders is dan coaching.

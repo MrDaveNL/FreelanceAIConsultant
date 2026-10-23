@@ -1,6 +1,7 @@
 ---
 id: C10-04
-url: /kennisbank/microsoft-copilot-voor-bedrijven
+lang: nl
+url: /nl/kennisbank/microsoft-copilot-voor-bedrijven
 parent: C3-05
 cluster: "10. Kennisbank AI tools"
 pageType: Kennisbank
@@ -12,8 +13,8 @@ metaDescription: "Wat kan Microsoft Copilot voor jouw bedrijf? Lees over licenti
 keyphrase: microsoft copilot voor bedrijven
 eyebrow: "Kennisbank"
 lede: "Microsoft Copilot voor bedrijven is geen enkel product maar een familie: een gratis chat voor wie Microsoft 365 heeft, en een betaalde licentie die in Outlook, Teams, Word en Excel met je eigen bedrijfsdata werkt. Het verschil tussen die twee bepaalt wat je kunt verwachten en wat je moet regelen. Hieronder lees je hoe de licenties in elkaar zitten, waar Copilot in de praktijk helpt en welke randvoorwaarden er voor je data gelden."
-primaryCta: { label: "Bekijk de Copilot training", href: /ai-workshop/copilot-training }
-secondaryCta: { label: "Plan een adviesgesprek", href: /contact }
+primaryCta: { label: "Bekijk de Copilot training", href: /nl/ai-workshop/copilot-training }
+secondaryCta: { label: "Plan een adviesgesprek", href: /nl/contact }
 summary:
   - "Copilot Chat is zonder extra kosten beschikbaar voor geschikte Microsoft 365-gebruikers; de volledige Copilot is een betaalde uitbreiding."
   - "Copilot laat alleen zien wat een gebruiker al mag openen, dus te ruim gedeelde bestanden worden zichtbaar."
@@ -43,7 +44,7 @@ Copilot is de AI-assistent van Microsoft voor werk. Microsoft Copilot voor bedri
 
 Een punt dat verwarring geeft: de naam verandert. Microsoft meldt op zijn [documentatie over data en privacy](https://learn.microsoft.com/en-us/microsoft-365/copilot/microsoft-365-copilot-privacy) dat Microsoft 365 Copilot nu Microsoft Copilot heet en Microsoft 365 Copilot Chat nu Microsoft Copilot Chat. Tijdens de overgang kom je beide namen tegen, ook op prijspagina's en in het beheercentrum. Stand september 2026 gaat het om hetzelfde product.
 
-Copilot is een van de zakelijke assistenten waaruit je kunt kiezen. Het [overzicht van AI tools](/ai-automatisering/ai-tools) zet de categorieën naast elkaar. Werkt je organisatie met Google Workspace, lees dan over [Gemini in Workspace](/kennisbank/gemini-voor-bedrijven); zoek je een losse assistent naast Microsoft 365, dan zijn [ChatGPT voor bedrijven](/kennisbank/chatgpt-voor-bedrijven) en [Claude voor zakelijk gebruik](/kennisbank/claude-voor-bedrijven) de gangbare alternatieven.
+Copilot is een van de zakelijke assistenten waaruit je kunt kiezen. Het [overzicht van AI tools](/nl/ai-automatisering/ai-tools) zet de categorieën naast elkaar. Werkt je organisatie met Google Workspace, lees dan over [Gemini in Workspace](/nl/kennisbank/gemini-voor-bedrijven); zoek je een losse assistent naast Microsoft 365, dan zijn [ChatGPT voor bedrijven](/nl/kennisbank/chatgpt-voor-bedrijven) en [Claude voor zakelijk gebruik](/nl/kennisbank/claude-voor-bedrijven) de gangbare alternatieven.
 
 ## Licenties
 
@@ -71,7 +72,7 @@ Wat de betaalde licentie kost, staat op de [Nederlandse prijspagina van Microsof
 
 Copilot Business kun je volgens Microsoft ook maandelijks afnemen, voor € 21,84 per gebruiker per maand. Microsoft verkoopt daarnaast bundels van Microsoft 365 Business Standard of Premium met Copilot. Welke basisabonnementen in aanmerking komen, staat in het [licentieoverzicht op Microsoft Learn](https://learn.microsoft.com/en-us/microsoft-365/copilot/microsoft-365-copilot-licensing); voor Copilot Business zijn dat onder meer Business Basic, Standard en Premium. In Microsoft 365 E7 zit Copilot volgens hetzelfde overzicht al inbegrepen.
 
-Reken bij een begroting niet alleen met de licentie. De grootste kosten zitten vaak in de voorbereiding van je data en in adoptie. Hoe je dat eerlijk doorrekent, beschreef ik in [de business case voor AI](/inzichten/de-business-case-voor-ai).
+Reken bij een begroting niet alleen met de licentie. De grootste kosten zitten vaak in de voorbereiding van je data en in adoptie. Hoe je dat eerlijk doorrekent, beschreef ik in [de business case voor AI](/nl/inzichten/de-business-case-voor-ai).
 
 ## Toepassingen in Microsoft 365
 
@@ -83,7 +84,7 @@ Copilot is het sterkst bij werk dat al in Microsoft 365 gebeurt en veel lezen, z
 - **Word:** documenten opstellen, herschrijven en samenvatten.
 - **PowerPoint:** een presentatie maken vanuit een opdracht of een bestaand document.
 
-Wat deze voorbeelden gemeen hebben: de output is een concept. Microsoft schrijft zelf dat antwoorden van generatieve AI niet gegarandeerd feitelijk juist zijn en dat gebruikers ze moeten controleren. Dat vraagt vaardigheid. Het helpt als mensen weten hoe je een opdracht formuleert; de basis staat in de uitleg over [prompt engineering](/kennisbank/prompt-engineering).
+Wat deze voorbeelden gemeen hebben: de output is een concept. Microsoft schrijft zelf dat antwoorden van generatieve AI niet gegarandeerd feitelijk juist zijn en dat gebruikers ze moeten controleren. Dat vraagt vaardigheid. Het helpt als mensen weten hoe je een opdracht formuleert; de basis staat in de uitleg over [prompt engineering](/nl/kennisbank/prompt-engineering).
 
 <aside class="scenario" aria-label="Voorbeeldscenario">
 <p class="scenario-label">Voorbeeldscenario</p>
@@ -112,8 +113,8 @@ Microsoft zelf raadt een uitrol in drie fasen aan: een pilot met een kleine groe
 
 1. **Kijk wat je al hebt.** Heeft iedereen al toegang tot Copilot Chat? Dan kun je daarmee oefenen voordat je licenties koopt.
 2. **Ruim toegangsrechten op.** Loop gedeelde sites en mappen na voordat de betaalde licentie breed aangaat.
-3. **Kies een pilotgroep met echte taken.** Geen vrijblijvende proef, maar een team met herkenbaar werk en een afgesproken vraag die de pilot moet beantwoorden. Waarom dat uitmaakt, lees je in [waarom AI-pilots blijven steken](/inzichten/waarom-ai-pilots-blijven-steken).
-4. **Train op het eigen werk.** Een algemene demo helpt weinig. Een [Copilot training voor teams](/ai-workshop/copilot-training) die met eigen mail, documenten en vergaderingen werkt, levert meer op.
+3. **Kies een pilotgroep met echte taken.** Geen vrijblijvende proef, maar een team met herkenbaar werk en een afgesproken vraag die de pilot moet beantwoorden. Waarom dat uitmaakt, lees je in [waarom AI-pilots blijven steken](/nl/inzichten/waarom-ai-pilots-blijven-steken).
+4. **Train op het eigen werk.** Een algemene demo helpt weinig. Een [Copilot training voor teams](/nl/ai-workshop/copilot-training) die met eigen mail, documenten en vergaderingen werkt, levert meer op.
 5. **Meet en besluit.** Microsoft biedt gebruiksrapportages in het beheercentrum. Gebruik die om te beslissen of, en voor wie, je licenties uitbreidt.
 
-Dat de adoptie meer tijd kost dan de techniek, zie je terug in de case over een [interne AI-assistent voor kenniswerkers](/cases/interne-ai-assistent-kenniswerkers). Ik heb geen partnerstatus bij Microsoft en verdien niet aan licenties. Twijfel je of Copilot bij je organisatie past, of hoe je de uitrol aanpakt? [Plan een adviesgesprek](/contact) van dertig minuten.
+Dat de adoptie meer tijd kost dan de techniek, zie je terug in de case over een [interne AI-assistent voor kenniswerkers](/nl/cases/interne-ai-assistent-kenniswerkers). Ik heb geen partnerstatus bij Microsoft en verdien niet aan licenties. Twijfel je of Copilot bij je organisatie past, of hoe je de uitrol aanpakt? [Plan een adviesgesprek](/nl/contact) van dertig minuten.

@@ -1,6 +1,7 @@
 ---
 id: C6-05
-url: /kennisbank/ai-agents-en-avg
+lang: nl
+url: /nl/kennisbank/ai-agents-en-avg
 parent: C6-00
 cluster: "6. AI Agents"
 pageType: Kennisbank
@@ -12,8 +13,8 @@ metaDescription: "Hoe zet je AI agents in zonder AVG-risico's? Lees over verwerk
 keyphrase: ai agent avg
 eyebrow: "Kennisbank"
 lede: "Een AI agent die zelf systemen raadpleegt en gegevens verwerkt, valt gewoon onder de AVG. Voor wie een AI agent inzet, verandert de AVG niet, maar de risico's wel: een agent verwerkt meer gegevens, in meer stappen, met minder zicht. Dit artikel zet de belangrijkste eisen op een rij, legt de samenhang met de AI Act uit en sluit af met een checklist."
-primaryCta: { label: "Lees meer over AI beleid", href: /ai-beleid }
-secondaryCta: { label: "Plan een adviesgesprek", href: /contact }
+primaryCta: { label: "Lees meer over AI beleid", href: /nl/ai-beleid }
+secondaryCta: { label: "Plan een adviesgesprek", href: /nl/contact }
 summary:
   - "De AVG geldt volledig voor AI agents; de risico's zitten in de breedte van toegang en het gebrek aan zicht."
   - "Verwerkersovereenkomst, dataminimalisatie, logging en vaak een DPIA zijn de basis."
@@ -45,7 +46,7 @@ sources:
 
 ## Waarom AI agents privacyrisico's geven
 
-Een [AI agent](/ai-agents/wat-is-een-ai-agent) krijgt een doel en zet zelf stappen: gegevens opzoeken, systemen raadplegen, iets vastleggen of versturen. Voor de AVG maakt het niet uit of een mens of een agent die stappen zet. De organisatie die de agent inzet, blijft verwerkingsverantwoordelijke. Wat wel verandert, is het risicoprofiel.
+Een [AI agent](/nl/ai-agents/wat-is-een-ai-agent) krijgt een doel en zet zelf stappen: gegevens opzoeken, systemen raadplegen, iets vastleggen of versturen. Voor de AVG maakt het niet uit of een mens of een agent die stappen zet. De organisatie die de agent inzet, blijft verwerkingsverantwoordelijke. Wat wel verandert, is het risicoprofiel.
 
 Vier kenmerken maken agents gevoeliger dan een gewone AI-toepassing:
 
@@ -62,7 +63,7 @@ De AVG heeft geen apart hoofdstuk voor AI agents. De bestaande regels van de [AV
 
 - **Doel en grondslag (art. 5 en 6).** Leg per agent vast voor welk welbepaald doel hij persoonsgegevens verwerkt en op welke grondslag. Een agent die "alles mag doorzoeken" heeft geen welbepaald doel.
 - **Minimale gegevensverwerking (art. 5 lid 1 onder c).** Gegevens moeten beperkt blijven tot wat noodzakelijk is. Voor een agent betekent dat: toegang per bron afbakenen en velden die hij niet nodig heeft afschermen.
-- **Gegevensbescherming door ontwerp (art. 25).** Die afbakening hoort in het ontwerp, niet achteraf. Neem haar op in de specificatie als je [een AI agent laat maken](/ai-agents/laten-maken).
+- **Gegevensbescherming door ontwerp (art. 25).** Die afbakening hoort in het ontwerp, niet achteraf. Neem haar op in de specificatie als je [een AI agent laat maken](/nl/ai-agents/laten-maken).
 - **Verwerkersovereenkomst (art. 28).** Verwerkt de leverancier van het platform of taalmodel persoonsgegevens namens jou, dan is een verwerkersovereenkomst nodig. Let op subverwerkers: de verwerker mag die alleen inschakelen met jouw voorafgaande specifieke of algemene schriftelijke toestemming.
 - **Doorgifte buiten de EU (art. 44 e.v.).** Als gegevens naar een land buiten de EU gaan, gelden de aanvullende voorwaarden uit hoofdstuk V.
 - **Beveiliging en datalekken (art. 32 en 33).** Passende beveiliging, en een datalek meld je zonder onredelijke vertraging en zo mogelijk binnen 72 uur bij de AP, tenzij het risico voor betrokkenen onwaarschijnlijk is.
@@ -92,7 +93,7 @@ De AVG gaat over persoonsgegevens, de AI Act over het AI-systeem zelf. Voor een 
 - **Hoog risico.** Agents die bijvoorbeeld sollicitaties filteren of kandidaten beoordelen, vallen onder bijlage III. Door de Digital Omnibus gelden de verplichtingen voor die systemen vanaf 2 december 2027 in plaats van 2 augustus 2026; voor hoog-risicosystemen onder bijlage I is dat 2 augustus 2028. Organisaties die zo'n systeem gebruiken, moeten dan onder meer menselijk toezicht beleggen bij mensen met de nodige bekwaamheid en autoriteit (art. 26).
 - **AI-geletterdheid (art. 4).** Deze plicht geldt sinds 2 februari 2025. Na de wijziging moeten aanbieders en gebruiksverantwoordelijken maatregelen nemen om de AI-geletterdheid van hun medewerkers te ondersteunen, zonder dat een bepaald niveau gegarandeerd hoeft te worden.
 
-In Nederland is het toezicht op de AI Act nog niet definitief geregeld: de Uitvoeringswet AI-verordening is een wetsvoorstel, dat het kabinet in april 2026 in consultatie bracht. Daarin is de AP voorgesteld als [toezichthouder](https://www.autoriteitpersoonsgegevens.nl/actueel/toezicht-op-ai-wordt-concreet-sleutelrol-voor-de-ap-en-de-rdi) op onder meer verboden AI, transparantieverplichtingen en een groot deel van de hoog-risicotoepassingen, naast haar bestaande rol als toezichthouder op de AVG. Een uitgebreidere uitleg van de verordening staat op de pagina over [de AI Act](/ai-beleid/ai-act).
+In Nederland is het toezicht op de AI Act nog niet definitief geregeld: de Uitvoeringswet AI-verordening is een wetsvoorstel, dat het kabinet in april 2026 in consultatie bracht. Daarin is de AP voorgesteld als [toezichthouder](https://www.autoriteitpersoonsgegevens.nl/actueel/toezicht-op-ai-wordt-concreet-sleutelrol-voor-de-ap-en-de-rdi) op onder meer verboden AI, transparantieverplichtingen en een groot deel van de hoog-risicotoepassingen, naast haar bestaande rol als toezichthouder op de AVG. Een uitgebreidere uitleg van de verordening staat op de pagina over [de AI Act](/nl/ai-beleid/ai-act).
 
 ## Checklist
 
@@ -109,7 +110,7 @@ Gebruik deze checklist per agent, voordat hij met echte persoonsgegevens werkt:
 9. De verwerking staat in het register en de agent in je overzicht van AI-toepassingen.
 10. Er is een eigenaar, een meldroute voor incidenten en iemand die de agent mag stilzetten.
 
-Die laatste punten zijn geen privacyregels maar governance. Hoe je dat licht houdt, beschreef ik in [AI-governance zonder bureaucratie](/inzichten/ai-governance-zonder-bureaucratie). Voor het bredere beleid rond AI in je organisatie is er de pagina over [AI beleid](/ai-beleid), en voor toepassingen en implementatie het overzicht van [AI agents voor bedrijven](/ai-agents).
+Die laatste punten zijn geen privacyregels maar governance. Hoe je dat licht houdt, beschreef ik in [AI-governance zonder bureaucratie](/nl/inzichten/ai-governance-zonder-bureaucratie). Voor het bredere beleid rond AI in je organisatie is er de pagina over [AI beleid](/nl/ai-beleid), en voor toepassingen en implementatie het overzicht van [AI agents voor bedrijven](/nl/ai-agents).
 
 <aside class="scenario" aria-label="Voorbeeldscenario">
 <p class="scenario-label">Voorbeeldscenario</p>
@@ -119,4 +120,4 @@ Die laatste punten zijn geen privacyregels maar governance. Hoe je dat licht hou
 <p class="scenario-note">Fictief voorbeeld, samengesteld uit situaties die veel voorkomen. Organisatie en cijfers zijn illustratief.</p>
 </aside>
 
-*Dit artikel is een praktische toelichting en geen juridisch advies. Laat de toepassing op jouw situatie beoordelen door je functionaris gegevensbescherming of een privacyjurist.* Wil je sparren over hoe je privacy en governance meeneemt in een agenttraject? [Plan een adviesgesprek](/contact).
+*Dit artikel is een praktische toelichting en geen juridisch advies. Laat de toepassing op jouw situatie beoordelen door je functionaris gegevensbescherming of een privacyjurist.* Wil je sparren over hoe je privacy en governance meeneemt in een agenttraject? [Plan een adviesgesprek](/nl/contact).

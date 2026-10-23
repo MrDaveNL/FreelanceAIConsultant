@@ -1,6 +1,7 @@
 ---
 id: C2-01
-url: /ai-implementatie/advies
+lang: nl
+url: /nl/ai-implementatie/advies
 parent: C2-00
 cluster: "2. AI Implementatie"
 pageType: Spoke
@@ -12,8 +13,8 @@ metaDescription: "Advies bij AI implementatie: welke use case, welke tools, welk
 keyphrase: ai implementatie advies
 eyebrow: "Advies vooraf"
 lede: "De duurste fouten in een AI-project worden gemaakt voordat er één regel code is geschreven: de verkeerde use case, een leverancier die te snel is gekozen, data die niet blijkt te deugen. Met AI implementatie advies vooraf leg je die keuzes onderbouwd vast, zodat je bouwpartij weet wat ze moet leveren en jij weet waarop je stuurt."
-primaryCta: { label: "Plan een adviesgesprek", href: /contact }
-secondaryCta: { label: "Bekijk het AI Readiness Assessment", href: /diensten/ai-readiness-assessment }
+primaryCta: { label: "Plan een adviesgesprek", href: /nl/contact }
+secondaryCta: { label: "Bekijk het AI Readiness Assessment", href: /nl/diensten/ai-readiness-assessment }
 summary:
   - "Advies vooraf is goedkoper dan bijsturen tijdens de bouw."
   - "Vier onderwerpen bepalen het succes: use case, bouwen of kopen, data en privacy, en verandering."
@@ -43,7 +44,7 @@ Een AI-project wordt duur op het moment dat je ontdekt dat een eerdere keuze nie
 
 AI implementatie advies is daarom geen luxe voor grote organisaties. Het is de goedkoopste fase van het hele traject, en de fase waarin je de meeste invloed hebt op de uitkomst. Voor projectleiders en IT betekent het een heldere opdracht aan de bouwpartij. Voor de directie betekent het een besluit dat onderbouwd is en niet alleen op een overtuigende demo rust.
 
-Dit advies is één onderdeel van de bredere [begeleiding bij AI implementatie](/ai-implementatie), van use case tot beheer. Zoek je advies over AI in bredere zin, zoals strategie of prioritering over de hele organisatie, kijk dan bij [AI advies voor directie en management](/ai-consultancy/ai-advies).
+Dit advies is één onderdeel van de bredere [begeleiding bij AI implementatie](/nl/ai-implementatie), van use case tot beheer. Zoek je advies over AI in bredere zin, zoals strategie of prioritering over de hele organisatie, kijk dan bij [AI advies voor directie en management](/nl/ai-consultancy/ai-advies).
 
 ## Waar ik over adviseer
 
@@ -51,11 +52,11 @@ Vier onderwerpen bepalen of een implementatie slaagt. Ze horen samen op tafel, o
 
 ### Keuze van use case
 
-De eerste vraag is niet "wat kan AI?", maar "welk probleem kost ons nu te veel tijd, geld of kwaliteit?". Ik help kandidaat-toepassingen op dezelfde manier te beoordelen: op waarde, haalbaarheid, datagereedheid, veranderlast en de vraag of er een eigenaar in de lijn is die er beter van wordt. Het resultaat is een korte lijst, met een gemotiveerde afvallijst erbij. Welke soorten toepassingen doorgaans resultaat opleveren, beschreef ik in [welke AI use cases leveren resultaat](/inzichten/welke-ai-use-cases-leveren-resultaat).
+De eerste vraag is niet "wat kan AI?", maar "welk probleem kost ons nu te veel tijd, geld of kwaliteit?". Ik help kandidaat-toepassingen op dezelfde manier te beoordelen: op waarde, haalbaarheid, datagereedheid, veranderlast en de vraag of er een eigenaar in de lijn is die er beter van wordt. Het resultaat is een korte lijst, met een gemotiveerde afvallijst erbij. Welke soorten toepassingen doorgaans resultaat opleveren, beschreef ik in [welke AI use cases leveren resultaat](/nl/inzichten/welke-ai-use-cases-leveren-resultaat).
 
 ### Build versus buy
 
-Zelf bouwen, een product kopen of samenwerken met een partner: die keuze bepaalt je kosten, je afhankelijkheid en je wendbaarheid voor jaren. Bouw alleen wat je onderscheidt, koop wat een commodity is en kies een partner als je de uitkomst wilt sturen zonder de techniek te bezitten. Reken daarbij met de onderhoudskosten over meerdere jaren en leg vooraf vast hoe je er weer vanaf komt. Het volledige beslisraamwerk staat in het artikel [build, buy of partner](/inzichten/build-buy-of-partner). Kies je voor een partner, dan contracteer je die rechtstreeks; hoe ik daarbij werk, staat op de pagina over het [partnernetwerk](/partnernetwerk).
+Zelf bouwen, een product kopen of samenwerken met een partner: die keuze bepaalt je kosten, je afhankelijkheid en je wendbaarheid voor jaren. Bouw alleen wat je onderscheidt, koop wat een commodity is en kies een partner als je de uitkomst wilt sturen zonder de techniek te bezitten. Reken daarbij met de onderhoudskosten over meerdere jaren en leg vooraf vast hoe je er weer vanaf komt. Het volledige beslisraamwerk staat in het artikel [build, buy of partner](/nl/inzichten/build-buy-of-partner). Kies je voor een partner, dan contracteer je die rechtstreeks; hoe ik daarbij werk, staat op de pagina over het [partnernetwerk](/nl/partnernetwerk).
 
 ### Data en privacy
 
@@ -79,11 +80,11 @@ Elke AI-toepassing die tijd bespaart, verandert het werk van iemand. Dat gesprek
 
 Een traject begint met een gesprek van dertig minuten. Je vertelt waar je staat, ik stel vragen en zeg aan het eind wat ik zou doen, ook als dat betekent dat je mij niet nodig hebt.
 
-Daarna bakenen we in een intake de vraag af en leggen we die vast in een opdrachtbevestiging. Een concrete vraag over één toepassing past meestal bij afgebakend advies. Wil je eerst weten of je organisatie er breed klaar voor is, dan is het [AI Readiness Assessment](/diensten/ai-readiness-assessment) de betere start: {{timing:ai-readiness-assessment}}, vaste prijs {{price:ai-readiness-assessment}}. Alle pakketten en prijzen staan op de pagina met [tarieven](/tarieven).
+Daarna bakenen we in een intake de vraag af en leggen we die vast in een opdrachtbevestiging. Een concrete vraag over één toepassing past meestal bij afgebakend advies. Wil je eerst weten of je organisatie er breed klaar voor is, dan is het [AI Readiness Assessment](/nl/diensten/ai-readiness-assessment) de betere start: {{timing:ai-readiness-assessment}}, vaste prijs {{price:ai-readiness-assessment}}. Alle pakketten en prijzen staan op de pagina met [tarieven](/nl/tarieven).
 
 In de analyse spreek ik de mensen die het werk doen, de eigenaar van het proces, IT en waar nodig privacy of compliance. Ik kijk naar de data, naar eventuele leveranciersvoorstellen en naar wat er al is geprobeerd.
 
-Je krijgt een beslisdocument, geen dik rapport: welke use case, welke bouwkeuze, welke randvoorwaarden voor data en privacy, welke verandering nodig is, en wat de bouwpartij moet opleveren om te slagen. Alle kaders en analyses zijn daarna van jou. Wil je zelf verder, dan helpt het [stappenplan voor AI implementatie](/ai-implementatie/stappenplan) bij de volgende fasen.
+Je krijgt een beslisdocument, geen dik rapport: welke use case, welke bouwkeuze, welke randvoorwaarden voor data en privacy, welke verandering nodig is, en wat de bouwpartij moet opleveren om te slagen. Alle kaders en analyses zijn daarna van jou. Wil je zelf verder, dan helpt het [stappenplan voor AI implementatie](/nl/ai-implementatie/stappenplan) bij de volgende fasen.
 
 <aside class="scenario" aria-label="Voorbeeldscenario">
 <p class="scenario-label">Voorbeeldscenario</p>
@@ -93,4 +94,4 @@ Je krijgt een beslisdocument, geen dik rapport: welke use case, welke bouwkeuze,
 <p class="scenario-note">Fictief voorbeeld, samengesteld uit situaties die veel voorkomen. Organisatie en cijfers zijn illustratief.</p>
 </aside>
 
-Meer over mijn achtergrond en waarom ik bewust geen implementatie verkoop, lees je [over mij](/over). Wil je je AI-project goed voorbereid starten? [Plan een adviesgesprek](/contact).
+Meer over mijn achtergrond en waarom ik bewust geen implementatie verkoop, lees je [over mij](/nl/over). Wil je je AI-project goed voorbereid starten? [Plan een adviesgesprek](/nl/contact).

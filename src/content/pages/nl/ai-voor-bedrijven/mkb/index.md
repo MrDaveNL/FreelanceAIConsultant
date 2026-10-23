@@ -1,6 +1,7 @@
 ---
 id: C4-01
-url: /ai-voor-bedrijven/mkb
+lang: nl
+url: /nl/ai-voor-bedrijven/mkb
 parent: C4-00
 cluster: "4. AI voor bedrijven"
 pageType: Spoke
@@ -12,8 +13,8 @@ metaDescription: "AI voor het MKB: concrete toepassingen, risico's en eerste sta
 keyphrase: ai voor mkb
 eyebrow: "AI voor het mkb"
 lede: "AI voor het mkb draait niet om grote platforms of eigen modellen. Het gaat om de taken die in jouw bedrijf elke dag terugkomen: offertes, klantvragen, administratie en het terugvinden van informatie. Hier lees je waar ondernemers winst halen, welke risico's je moet kennen en hoe je begint zonder groot budget."
-primaryCta: { label: "Lees meer over AI voor bedrijven", href: /ai-voor-bedrijven }
-secondaryCta: { label: "Bekijk het AI Readiness Assessment", href: /diensten/ai-readiness-assessment }
+primaryCta: { label: "Lees meer over AI voor bedrijven", href: /nl/ai-voor-bedrijven }
+secondaryCta: { label: "Bekijk het AI Readiness Assessment", href: /nl/diensten/ai-readiness-assessment }
 summary:
   - "Begin bij één taak die vaak voorkomt en veel tijd kost, met tools die je al hebt of eenvoudig aanschaft."
   - "De belangrijkste risico's voor het mkb zijn klantgegevens in de verkeerde tool en afhankelijkheid van één enthousiaste medewerker."
@@ -53,7 +54,7 @@ Waarom beginnen veel bedrijven niet? Bedrijven die AI overwogen maar niet invoer
 
 Het mkb heeft daarbij een voordeel dat grote organisaties missen: korte lijnen. De ondernemer die besluit, kent het werk vaak zelf. Er is geen stuurgroep nodig om één team een nieuwe werkwijze te laten proberen. Wie gericht begint, ziet sneller of iets werkt.
 
-De keerzijde is ook echt. Minder volume betekent dat een toepassing zich minder snel terugverdient. En zonder IT-afdeling komt alles terecht bij een paar mensen die het naast hun werk doen. Daarom is kiezen hier belangrijker dan in een groot bedrijf. Het bredere verhaal over wat AI voor organisaties betekent, staat op de overzichtspagina [AI voor bedrijven](/ai-voor-bedrijven).
+De keerzijde is ook echt. Minder volume betekent dat een toepassing zich minder snel terugverdient. En zonder IT-afdeling komt alles terecht bij een paar mensen die het naast hun werk doen. Daarom is kiezen hier belangrijker dan in een groot bedrijf. Het bredere verhaal over wat AI voor organisaties betekent, staat op de overzichtspagina [AI voor bedrijven](/nl/ai-voor-bedrijven).
 
 ## Voorbeelden van AI-toepassingen in het MKB
 
@@ -132,7 +133,7 @@ Over subsidies nog dit: regelingen als de MIT (voor innovatie) en SLIM (voor ler
 
 ## Hoe ik MKB-bedrijven help
 
-Eerst eerlijk over geld. Mijn vaste pakketten zijn gemaakt voor organisaties die een serieuze AI-investering overwegen. Een [AI Readiness Assessment](/diensten/ai-readiness-assessment) kost {{price:ai-readiness-assessment}}, een AI Strategy Sprint {{price:ai-strategy-sprint}}. Dat past bij een middelgroot bedrijf met meerdere afdelingen en een concrete investeringsvraag, maar niet bij elk mkb-budget. Voor een bedrijf van tien mensen is het vaak te veel.
+Eerst eerlijk over geld. Mijn vaste pakketten zijn gemaakt voor organisaties die een serieuze AI-investering overwegen. Een [AI Readiness Assessment](/nl/diensten/ai-readiness-assessment) kost {{price:ai-readiness-assessment}}, een AI Strategy Sprint {{price:ai-strategy-sprint}}. Dat past bij een middelgroot bedrijf met meerdere afdelingen en een concrete investeringsvraag, maar niet bij elk mkb-budget. Voor een bedrijf van tien mensen is het vaak te veel.
 
 Voor kleinere bedrijven zijn er twee lichtere instappen. Een Executive Briefing van één dagdeel ({{price:executive-briefing}}) geeft jou en je managementteam een gedeeld, realistisch beeld van wat AI voor jullie betekent. En voor een afgebakende vraag, zoals een second opinion op een offerte van een leverancier of het kiezen van een eerste toepassing, werk ik met een vaste prijs per opdracht. Soms is de eerlijkste uitkomst van een eerste gesprek dat je mij niet nodig hebt en gewoon kunt beginnen.
 
@@ -140,26 +141,26 @@ Hieronder per onderwerp waar je terechtkunt. De meeste van die pagina's hebben e
 
 ### AI consultancy
 
-Advies over waar je begint, wat je prioriteert en wat je beter laat liggen. Voor het mkb betekent dat vooral: praktisch, binnen budget en gericht op een snel eerste resultaat. Lees meer over [AI consultancy voor het mkb](/ai-consultancy#ai-consultancy-voor-het-mkb).
+Advies over waar je begint, wat je prioriteert en wat je beter laat liggen. Voor het mkb betekent dat vooral: praktisch, binnen budget en gericht op een snel eerste resultaat. Lees meer over [AI consultancy voor het mkb](/nl/ai-consultancy#ai-consultancy-voor-het-mkb).
 
 ### AI implementatie
 
-Van idee naar een toepassing die echt in het werk draait. Ik bouw niet zelf, maar help je kiezen tussen een standaardtool en maatwerk, een geschikte partij te vinden en die aan te sturen. Hoe dat werkt zonder groot IT-team, staat bij [AI implementatie in het mkb](/ai-implementatie#ai-implementatie-in-het-mkb).
+Van idee naar een toepassing die echt in het werk draait. Ik bouw niet zelf, maar help je kiezen tussen een standaardtool en maatwerk, een geschikte partij te vinden en die aan te sturen. Hoe dat werkt zonder groot IT-team, staat bij [AI implementatie in het mkb](/nl/ai-implementatie#ai-implementatie-in-het-mkb).
 
 ### AI automatisering
 
-Welke processen lenen zich voor automatisering, en welke kun je beter eerst vereenvoudigen of afschaffen? Met welke processen je het best start en hoe je de terugverdientijd inschat, lees je bij [AI automatisering voor het mkb](/ai-automatisering#ai-automatisering-voor-het-mkb).
+Welke processen lenen zich voor automatisering, en welke kun je beter eerst vereenvoudigen of afschaffen? Met welke processen je het best start en hoe je de terugverdientijd inschat, lees je bij [AI automatisering voor het mkb](/nl/ai-automatisering#ai-automatisering-voor-het-mkb).
 
 ### AI agents
 
-AI-agents voeren zelfstandig taken uit, zoals een aanvraag verwerken of gegevens tussen systemen overzetten. Dat is krachtiger dan een assistent, maar vraagt ook meer controle. Welke toepassingen geschikt zijn en hoe je veilig start, staat bij [AI agents voor het mkb](/ai-agents#ai-agents-voor-het-mkb).
+AI-agents voeren zelfstandig taken uit, zoals een aanvraag verwerken of gegevens tussen systemen overzetten. Dat is krachtiger dan een assistent, maar vraagt ook meer controle. Welke toepassingen geschikt zijn en hoe je veilig start, staat bij [AI agents voor het mkb](/nl/ai-agents#ai-agents-voor-het-mkb).
 
 ### AI-beleid
 
-Een AI-beleid hoeft in het mkb geen dik document te zijn. Eén of twee pagina's met toegestane tools, regels voor gegevens en wie waarover beslist, is een goed begin. Er is een [voorbeeld en template voor een AI-beleid in het mkb](/ai-beleid#ai-beleid-voor-het-mkb-voorbeeld-en-template) die je als vertrekpunt kunt gebruiken.
+Een AI-beleid hoeft in het mkb geen dik document te zijn. Eén of twee pagina's met toegestane tools, regels voor gegevens en wie waarover beslist, is een goed begin. Er is een [voorbeeld en template voor een AI-beleid in het mkb](/nl/ai-beleid#ai-beleid-voor-het-mkb-voorbeeld-en-template) die je als vertrekpunt kunt gebruiken.
 
 ### Workshops en training
 
-De snelste manier om een team verder te helpen, is samen oefenen met hun eigen taken. Een workshop van een dagdeel of een dag geeft medewerkers vaardigheden en jou zicht op waar de kansen zitten. Bekijk de mogelijkheden bij [AI workshops en trainingen](/ai-workshop).
+De snelste manier om een team verder te helpen, is samen oefenen met hun eigen taken. Een workshop van een dagdeel of een dag geeft medewerkers vaardigheden en jou zicht op waar de kansen zitten. Bekijk de mogelijkheden bij [AI workshops en trainingen](/nl/ai-workshop).
 
-Werk je in een kantoor met veel documenten en vertrouwelijke dossiers, zoals een accountants-, advocaten- of adviespraktijk? Lees dan ook [AI voor zakelijke dienstverleners](/ai-voor-bedrijven/zakelijke-dienstverleners). Wil je vooral meer uit je cijfers en rapportages halen, dan past [AI en BI](/ai-voor-bedrijven/ai-en-bi) beter. En twijfel je waar je staat, [plan dan een vrijblijvend gesprek](/contact) van dertig minuten.
+Werk je in een kantoor met veel documenten en vertrouwelijke dossiers, zoals een accountants-, advocaten- of adviespraktijk? Lees dan ook [AI voor zakelijke dienstverleners](/nl/ai-voor-bedrijven/zakelijke-dienstverleners). Wil je vooral meer uit je cijfers en rapportages halen, dan past [AI en BI](/nl/ai-voor-bedrijven/ai-en-bi) beter. En twijfel je waar je staat, [plan dan een vrijblijvend gesprek](/nl/contact) van dertig minuten.

@@ -1,6 +1,7 @@
 ---
 id: C1-04
-url: /ai-consultancy/ai-roadmap
+lang: nl
+url: /nl/ai-consultancy/ai-roadmap
 parent: C1-00
 cluster: "1. AI Consultancy & Advies"
 pageType: Spoke
@@ -12,8 +13,8 @@ metaDescription: "Ontwikkel een AI roadmap met heldere prioriteiten, planning en
 keyphrase: ai roadmap
 eyebrow: "AI roadmap"
 lede: "Een AI roadmap vertaalt je AI-ambities naar een volgorde: wat pak je eerst op, wat is daarvoor nodig, wat kost het en wanneer besluit je om door te gaan of te stoppen. Zo ontwikkel je er een in vier stappen, inclusief een template om zelf mee te beginnen."
-primaryCta: { label: "Lees meer over AI Consultancy", href: /ai-consultancy }
-secondaryCta: { label: "Bekijk het AI Readiness Assessment", href: /diensten/ai-readiness-assessment }
+primaryCta: { label: "Lees meer over AI Consultancy", href: /nl/ai-consultancy }
+secondaryCta: { label: "Bekijk het AI Readiness Assessment", href: /nl/diensten/ai-readiness-assessment }
 summary:
   - "Een AI roadmap is een korte, geprioriteerde lijst met eigenaren, randvoorwaarden en beslismomenten."
   - "Vier stappen: inventariseren, prioriteren, randvoorwaarden regelen, plannen en begroten."
@@ -40,11 +41,11 @@ Een AI roadmap is het plan dat bepaalt in welke volgorde je AI-toepassingen oppa
 
 Een goede AI roadmap is kort. Geen lijst van twintig initiatieven waar iedereen enthousiast over is en niemand over gaat, maar een handvol use cases met een naam erbij. Daarnaast staat een lijst met wat bewust niet gebeurt, en waarom. Die afvallijst voorkomt dat afgewezen ideeën via een omweg terugkomen.
 
-Een roadmap is ook geen projectplanning. Hij werkt in horizonnen: de eerste drie maanden concreet, daarna grover. Op vaste momenten kijk je of de aannames nog kloppen. Een AI roadmap volgt op de strategie; heb je die nog niet, begin dan bij [een AI strategie ontwikkelen](/ai-consultancy/ai-strategie).
+Een roadmap is ook geen projectplanning. Hij werkt in horizonnen: de eerste drie maanden concreet, daarna grover. Op vaste momenten kijk je of de aannames nog kloppen. Een AI roadmap volgt op de strategie; heb je die nog niet, begin dan bij [een AI strategie ontwikkelen](/nl/ai-consultancy/ai-strategie).
 
 ## Stappen om een AI roadmap te ontwikkelen
 
-Een AI roadmap ontwikkelen doe je in vier stappen. Ze sluiten aan op de werkwijze die ik bij alle [AI consultancy](/ai-consultancy) hanteer: eerst begrijpen, dan kiezen, dan pas plannen.
+Een AI roadmap ontwikkelen doe je in vier stappen. Ze sluiten aan op de werkwijze die ik bij alle [AI consultancy](/nl/ai-consultancy) hanteer: eerst begrijpen, dan kiezen, dan pas plannen.
 
 <figure class="diagram" role="img" aria-label="Vier stappen om een AI roadmap te ontwikkelen: inventarisatie van wat er al is, use cases prioriteren, randvoorwaarden vaststellen en tot slot planning en budget in horizonnen">
 <ol class="flow">
@@ -60,25 +61,25 @@ Een AI roadmap ontwikkelen doe je in vier stappen. Ze sluiten aan op de werkwijz
 
 Begin met wat er al is. Welke AI-toepassingen en pilots lopen er, wat kosten ze en wie gebruikt ze echt? Welke ideeën zweven rond, en welke leveranciersvoorstellen liggen er? Het kan goed zijn dat een deel van wat op papier loopt, in de praktijk al is stilgevallen.
 
-Leg daarnaast de uitgangssituatie vast: hoe staat het met data, systemen, vaardigheden en governance? Die nulmeting heb je later nodig om te kunnen zeggen of de roadmap iets heeft opgeleverd. Het [AI Readiness Assessment](/diensten/ai-readiness-assessment) dekt deze stap en levert met het 90-dagenplan een eerste versie van de roadmap.
+Leg daarnaast de uitgangssituatie vast: hoe staat het met data, systemen, vaardigheden en governance? Die nulmeting heb je later nodig om te kunnen zeggen of de roadmap iets heeft opgeleverd. Het [AI Readiness Assessment](/nl/diensten/ai-readiness-assessment) dekt deze stap en levert met het 90-dagenplan een eerste versie van de roadmap.
 
 ### Use cases prioriteren
 
 Beoordeel elke kandidaat op dezelfde manier: welke business-uitkomst, hoeveel waarde, hoe haalbaar, hoe gereed is de data, hoe groot is de veranderlast, en is er een eigenaar in de lijn die er beter van wordt? Scoor samen met de mensen die de processen kennen, niet in één spreadsheet achter een bureau.
 
-Het resultaat is een korte lijst en een afvallijst met reden. Welke kenmerken de use cases delen die in de praktijk wel resultaat opleveren, lees je in [welke AI use cases resultaat leveren](/inzichten/welke-ai-use-cases-leveren-resultaat).
+Het resultaat is een korte lijst en een afvallijst met reden. Welke kenmerken de use cases delen die in de praktijk wel resultaat opleveren, lees je in [welke AI use cases resultaat leveren](/nl/inzichten/welke-ai-use-cases-leveren-resultaat).
 
 ### Randvoorwaarden
 
 Per geselecteerde use case bepaal je wat er nodig is voordat hij kan starten. Welke databronnen en definities moeten op orde zijn? Wie gaat er anders werken, en wie beheert de toepassing na oplevering? Welke risicotoets is nodig, ook met het oog op de AI Act en de AVG?
 
-Hier valt ook de keuze of je zelf bouwt, koopt of een partner inschakelt. Die keuze bepaalt je kosten en afhankelijkheden voor jaren, dus maak hem per thema en niet per tool. Het beslisraamwerk daarvoor staat in [build, buy of partner](/inzichten/build-buy-of-partner).
+Hier valt ook de keuze of je zelf bouwt, koopt of een partner inschakelt. Die keuze bepaalt je kosten en afhankelijkheden voor jaren, dus maak hem per thema en niet per tool. Het beslisraamwerk daarvoor staat in [build, buy of partner](/nl/inzichten/build-buy-of-partner).
 
 ### Planning en budget
 
 Zet de use cases in horizonnen. Horizon 1 (de eerste drie maanden) plan je concreet, met eigenaren en een startdatum. Horizon 2 en 3 beschrijf je in grotere blokken. Veel roadmaps combineren snelle resultaten met een paar middellange investeringen, zodat je vroeg leert terwijl het fundament meegroeit.
 
-Geef per use case een budget-orde-van-grootte, inclusief beheer na oplevering. Beheer wordt makkelijk vergeten, terwijl een toepassing zonder beheer na verloop van tijd ongemerkt slechter kan gaan presteren. Leg tot slot per use case een beslismoment vast met een vooraf afgesproken criterium voor doorgaan of stoppen. Hoe je de businesscase per use case eerlijk doorrekent, lees je in [de business case voor AI](/inzichten/de-business-case-voor-ai).
+Geef per use case een budget-orde-van-grootte, inclusief beheer na oplevering. Beheer wordt makkelijk vergeten, terwijl een toepassing zonder beheer na verloop van tijd ongemerkt slechter kan gaan presteren. Leg tot slot per use case een beslismoment vast met een vooraf afgesproken criterium voor doorgaan of stoppen. Hoe je de businesscase per use case eerlijk doorrekent, lees je in [de business case voor AI](/nl/inzichten/de-business-case-voor-ai).
 
 ## Deliverables van een AI roadmap
 
@@ -95,7 +96,7 @@ Wat je na een roadmaptraject in handen hoort te hebben:
 
 Een lege versie van deze onderdelen, met invulvragen per sectie, vind je in het [AI roadmap-template (pdf)](/downloads/ai-roadmap-template.pdf). Dat kun je gebruiken om zelf te beginnen of om een bestaande roadmap te toetsen.
 
-Wil je de roadmap samen met je kerngroep opstellen, inclusief de strategie erboven? In de [AI Strategy Sprint](/diensten/ai-strategy-sprint) is een use-case roadmap met quick wins, middellange investeringen en bewuste no-go's een van de vaste deliverables. Hoe een roadmap vervolgens in uitvoering komt, stap voor stap, staat in het [stappenplan voor AI implementatie](/ai-implementatie/stappenplan).
+Wil je de roadmap samen met je kerngroep opstellen, inclusief de strategie erboven? In de [AI Strategy Sprint](/nl/diensten/ai-strategy-sprint) is een use-case roadmap met quick wins, middellange investeringen en bewuste no-go's een van de vaste deliverables. Hoe een roadmap vervolgens in uitvoering komt, stap voor stap, staat in het [stappenplan voor AI implementatie](/nl/ai-implementatie/stappenplan).
 
 ## AI roadmap voor het MKB
 
@@ -108,7 +109,7 @@ Een paar aandachtspunten voor kleinere organisaties:
 - **Plan het beheer expliciet.** Wie houdt bij of het nog werkt, als er geen IT-afdeling is?
 - **Houd rekening met de AVG** zodra er persoonsgegevens in een toepassing terechtkomen.
 
-Heb je geen tijd of capaciteit om de roadmap zelf op te stellen, dan kan een afgebakende adviesopdracht volstaan. Welke vormen daarvoor zijn, lees je bij [AI advies](/ai-consultancy/ai-advies).
+Heb je geen tijd of capaciteit om de roadmap zelf op te stellen, dan kan een afgebakende adviesopdracht volstaan. Welke vormen daarvoor zijn, lees je bij [AI advies](/nl/ai-consultancy/ai-advies).
 
 ## Voorbeeld van een AI roadmap
 
@@ -124,7 +125,7 @@ Hieronder staat een fictief voorbeeld, ter illustratie: een AI roadmap voor een 
 
 Let op wat het voorbeeld laat zien. De eerste horizon bevat toepassingen die op bestaande data draaien en waarbij een medewerker elke uitkomst controleert. De zwaarste investering, vraagvoorspelling, staat bewust later, omdat die schone historische data en een onderbouwde leverancierskeuze vraagt. En de afvallijst is net zo concreet als de rest.
 
-Hoe een echte roadmap tot stand kwam in een complexere omgeving, met pilots in meerdere landen die onder één governance werden gebracht, lees je in de case over een [AI roadmap voor een internationale maakorganisatie](/cases/ai-roadmap-internationale-maakorganisatie).
+Hoe een echte roadmap tot stand kwam in een complexere omgeving, met pilots in meerdere landen die onder één governance werden gebracht, lees je in de case over een [AI roadmap voor een internationale maakorganisatie](/nl/cases/ai-roadmap-internationale-maakorganisatie).
 
 <aside class="scenario" aria-label="Voorbeeldscenario">
 <p class="scenario-label">Voorbeeldscenario</p>
@@ -134,4 +135,4 @@ Hoe een echte roadmap tot stand kwam in een complexere omgeving, met pilots in m
 <p class="scenario-note">Fictief voorbeeld, samengesteld uit situaties die veel voorkomen. Organisatie en cijfers zijn illustratief.</p>
 </aside>
 
-Wil je weten hoe een roadmap er voor jouw organisatie uit zou zien? [Plan een adviesgesprek](/contact) van dertig minuten.
+Wil je weten hoe een roadmap er voor jouw organisatie uit zou zien? [Plan een adviesgesprek](/nl/contact) van dertig minuten.

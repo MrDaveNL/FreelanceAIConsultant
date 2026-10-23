@@ -1,6 +1,7 @@
 ---
 id: C7-05
-url: /markten/onderwijs
+lang: nl
+url: /nl/markten/onderwijs
 parent: C7-00
 cluster: "7. AI markten"
 pageType: Branche
@@ -12,8 +13,8 @@ metaDescription: "Hoe zet je AI verantwoord in binnen het onderwijs? Lees over t
 keyphrase: ai onderwijs
 eyebrow: "AI in het onderwijs"
 lede: "AI in het onderwijs is geen toekomstvraag meer: docenten, studenten en ondersteunende diensten gebruiken het vaak al, met of zonder beleid. Op deze pagina lees je welke toepassingen zinvol zijn, hoe je AI in een onderwijsorganisatie invoert en welke regels voor scholen gelden."
-primaryCta: { label: "Lees meer over Markten", href: /markten }
-secondaryCta: { label: "Plan een adviesgesprek", href: /contact }
+primaryCta: { label: "Lees meer over Markten", href: /nl/markten }
+secondaryCta: { label: "Plan een adviesgesprek", href: /nl/contact }
 summary:
   - "Een deel van de AI-toepassingen in het onderwijs valt onder de hoog-risicoregels van de AI Act, zoals toelating, beoordeling en toezicht op toetsen."
   - "Emotieherkenning in onderwijsinstellingen is sinds februari 2025 verboden, op medische en veiligheidsredenen na."
@@ -82,7 +83,7 @@ Vijf toepassingen in het primaire proces:
 Vijf toepassingen in de organisatie:
 
 6. **Vragen van studenten en ouders:** een assistent die veelgestelde vragen over roosters, inschrijving of regelingen beantwoordt, met de bron erbij.
-7. **Verslaglegging:** vergaderingen samenvatten en actiepunten vastleggen. Let op bij gesprekken over individuele leerlingen; meer daarover in mijn stuk over [notuleren met AI](/kennisbank/notuleren-met-ai).
+7. **Verslaglegging:** vergaderingen samenvatten en actiepunten vastleggen. Let op bij gesprekken over individuele leerlingen; meer daarover in mijn stuk over [notuleren met AI](/nl/kennisbank/notuleren-met-ai).
 8. **Beleidsdocumenten doorzoeken:** medewerkers vinden sneller wat er in reglementen en handboeken staat.
 9. **Roosteren en planning:** ondersteuning bij puzzels met lokalen, docenten en groepen.
 10. **Signaleren van uitval:** patronen in aanwezigheid of voortgang zichtbaar maken voor een mentor. Hier is voorzichtigheid geboden, zie hieronder.
@@ -106,7 +107,7 @@ Vaak begin je niet bij nul. Docenten gebruiken al generatieve AI, leveranciers v
 
 Voor de eerste stappen hoef je het wiel niet uit te vinden. [Kennisnet](https://www.kennisnet.nl/artificial-intelligence/met-deze-wetgeving-rond-ai-hebben-scholen-te-maken) beschrijft een stappenplan voor scholen, van inventariseren tot periodiek herzien. Voor het funderend onderwijs publiceerden SIVON en Kennisnet in april 2026 een toetsingskader waarmee leveranciers en scholen kunnen nagaan of een AI-systeem onder de AI Act valt en in welke risicoklasse. Voor informatiebeveiliging heeft SURF een handreiking die AI-risico's koppelt aan het bestaande SURFaudit-toetsingskader.
 
-Twee lessen uit andere sectoren gelden hier net zo goed. Adoptie hangt af van het werk dat mensen doen, niet van de licentie die ze krijgen; zie [AI-adoptie begint bij het werk](/inzichten/ai-adoptie-begint-bij-het-werk). En kies leveranciers op basis van vooraf vastgestelde criteria, niet op basis van de demo. Weet je nog niet waar je organisatie staat, dan geeft een [AI Readiness Assessment](/diensten/ai-readiness-assessment) in {{timing:ai-readiness-assessment}} een nuchter beeld en een plan voor de eerste negentig dagen.
+Twee lessen uit andere sectoren gelden hier net zo goed. Adoptie hangt af van het werk dat mensen doen, niet van de licentie die ze krijgen; zie [AI-adoptie begint bij het werk](/nl/inzichten/ai-adoptie-begint-bij-het-werk). En kies leveranciers op basis van vooraf vastgestelde criteria, niet op basis van de demo. Weet je nog niet waar je organisatie staat, dan geeft een [AI Readiness Assessment](/nl/diensten/ai-readiness-assessment) in {{timing:ai-readiness-assessment}} een nuchter beeld en een plan voor de eerste negentig dagen.
 
 ## AI-beleid voor onderwijsinstellingen
 
@@ -120,9 +121,9 @@ Een goed AI-beleid voor scholen is kort genoeg om gelezen te worden en concreet 
 
 De wettelijke kaders daarbij zijn de AI Act en de AVG. De AI Act noemt vier soorten onderwijstoepassingen hoog risico: systemen voor toelating of plaatsing, voor het beoordelen van leerresultaten, voor het bepalen van het passende onderwijsniveau en voor toezicht op ongeoorloofd gedrag tijdens toetsen. Door de Digital Omnibus gelden de eisen voor die systemen volgens de [Europese Commissie](https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai) vanaf 2 december 2027. Sinds 2 februari 2025 is het al verboden om in onderwijsinstellingen AI te gebruiken om emoties van mensen af te leiden, behalve om medische of veiligheidsredenen.
 
-Daarnaast vraagt de AI Act organisaties die AI inzetten om de AI-geletterdheid van hun mensen te ondersteunen. De Digital Omnibus, die op 27 juli 2026 in werking trad, heeft die plicht vereenvoudigd: er is geen verplicht 'toereikend niveau' meer en een certificaat is niet nodig. Kennisnet en de Universiteit Twente publiceerden in september 2026 een raamwerk AI-geletterdheid voor het primair en voortgezet onderwijs. Hoe je dat vertaalt naar scholing voor je eigen team, lees je bij [AI-geletterdheid trainen](/ai-workshop/ai-geletterdheid-training).
+Daarnaast vraagt de AI Act organisaties die AI inzetten om de AI-geletterdheid van hun mensen te ondersteunen. De Digital Omnibus, die op 27 juli 2026 in werking trad, heeft die plicht vereenvoudigd: er is geen verplicht 'toereikend niveau' meer en een certificaat is niet nodig. Kennisnet en de Universiteit Twente publiceerden in september 2026 een raamwerk AI-geletterdheid voor het primair en voortgezet onderwijs. Hoe je dat vertaalt naar scholing voor je eigen team, lees je bij [AI-geletterdheid trainen](/nl/ai-workshop/ai-geletterdheid-training).
 
-Beleid hoeft geen dik document te worden. Hoe je met een paar heldere afspraken verder komt dan met een uitgebreid reglement, beschrijf ik in [AI-governance zonder bureaucratie](/inzichten/ai-governance-zonder-bureaucratie). Een bredere aanpak voor het opstellen van beleid staat op de pagina over [AI-beleid](/ai-beleid), en wat de wet precies vraagt lees je bij [de AI Act](/ai-beleid/ai-act).
+Beleid hoeft geen dik document te worden. Hoe je met een paar heldere afspraken verder komt dan met een uitgebreid reglement, beschrijf ik in [AI-governance zonder bureaucratie](/nl/inzichten/ai-governance-zonder-bureaucratie). Een bredere aanpak voor het opstellen van beleid staat op de pagina over [AI-beleid](/nl/ai-beleid), en wat de wet precies vraagt lees je bij [de AI Act](/nl/ai-beleid/ai-act).
 
 ## Nadelen en risico's
 
@@ -135,6 +136,6 @@ AI in het onderwijs heeft ook nadelen, en het is goed die hardop te benoemen:
 - **Afhankelijkheid van leveranciers.** Als AI-functies in je leerplatform zitten, bepaalt de leverancier veel van wat er gebeurt. Maak afspraken over transparantie en exit.
 - **Signalering die een oordeel wordt.** Een uitvalsignaal is een aanleiding voor een gesprek, geen conclusie over een leerling.
 
-Onderwijs deelt veel van deze risico's met de zorg, waar ook gevoelige gegevens en kwetsbare groepen centraal staan; zie [AI in de zorg](/markten/zorg). Voor communicatie en werving van studenten is [AI voor marketing](/markten/marketing) relevant. Alle sectoren staan op het [overzicht van markten](/markten).
+Onderwijs deelt veel van deze risico's met de zorg, waar ook gevoelige gegevens en kwetsbare groepen centraal staan; zie [AI in de zorg](/nl/markten/zorg). Voor communicatie en werving van studenten is [AI voor marketing](/nl/markten/marketing) relevant. Alle sectoren staan op het [overzicht van markten](/nl/markten).
 
-Wil je bespreken waar je instelling staat en wat een verstandige eerste stap is? [Plan een gesprek van dertig minuten](/contact).
+Wil je bespreken waar je instelling staat en wat een verstandige eerste stap is? [Plan een gesprek van dertig minuten](/nl/contact).

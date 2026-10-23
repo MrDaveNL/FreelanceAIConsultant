@@ -1,6 +1,7 @@
 ---
 id: C6-03
-url: /ai-agents/laten-maken
+lang: nl
+url: /nl/ai-agents/laten-maken
 parent: C6-00
 cluster: "6. AI Agents"
 pageType: Spoke
@@ -12,8 +13,8 @@ metaDescription: "Een AI agent laten maken? Lees hoe het ontwikkeltraject verloo
 keyphrase: ai agent laten maken
 eyebrow: "AI agent laten maken"
 lede: "Wie een AI agent laat maken, koopt geen product maar een stuk proces dat zelfstandig handelt. Het succes wordt grotendeels bepaald vóórdat er een regel code geschreven is: welke taak, welke grenzen, welke controle en welke bouwpartij. Op deze pagina lees je hoe je dat aanpakt en waar ik je daarbij help."
-primaryCta: { label: "Plan een adviesgesprek", href: /contact }
-secondaryCta: { label: "Bekijk het AI Readiness Assessment", href: /diensten/ai-readiness-assessment }
+primaryCta: { label: "Plan een adviesgesprek", href: /nl/contact }
+secondaryCta: { label: "Bekijk het AI Readiness Assessment", href: /nl/diensten/ai-readiness-assessment }
 summary:
   - "Kies eerst tussen zelf bouwen, een platform gebruiken of een partner inschakelen."
   - "Leg taken, grenzen en menselijke controle vast voordat je offertes opvraagt."
@@ -36,7 +37,7 @@ faq:
 
 ## Wanneer laat je een AI agent maken?
 
-Een AI agent laten maken is zinvol als een taak veel herhaling heeft, informatie uit meerdere bronnen vraagt en een uitkomst oplevert die een mens snel kan beoordelen. Is de taak volledig voorspelbaar, dan is een gewone workflow of klassieke automatisering vaak beter. Weet je nog niet precies wat een agent onderscheidt van andere AI-toepassingen, lees dan eerst [wat een AI agent is](/ai-agents/wat-is-een-ai-agent). Inspiratie per afdeling vind je bij de [voorbeelden van AI agents](/ai-agents/voorbeelden).
+Een AI agent laten maken is zinvol als een taak veel herhaling heeft, informatie uit meerdere bronnen vraagt en een uitkomst oplevert die een mens snel kan beoordelen. Is de taak volledig voorspelbaar, dan is een gewone workflow of klassieke automatisering vaak beter. Weet je nog niet precies wat een agent onderscheidt van andere AI-toepassingen, lees dan eerst [wat een AI agent is](/nl/ai-agents/wat-is-een-ai-agent). Inspiratie per afdeling vind je bij de [voorbeelden van AI agents](/nl/ai-agents/voorbeelden).
 
 Staat vast dat een agent de juiste route is, dan is de eerste keuze niet welke leverancier, maar welke vorm.
 
@@ -45,7 +46,7 @@ Staat vast dat een agent de juiste route is, dan is de eerste keuze niet welke l
 <figcaption>Welke route past, hangt af van je eigen capaciteit, de gewenste controle en hoe afhankelijk je van één leverancier wilt zijn.</figcaption>
 </figure>
 
-De afweging tussen deze routes, inclusief de kosten over meerdere jaren en de vraag hoe je er weer vanaf komt, beschreef ik in [build, buy of partner](/inzichten/build-buy-of-partner). Voor maatwerk is ook de pagina over [AI development](/ai-development) relevant.
+De afweging tussen deze routes, inclusief de kosten over meerdere jaren en de vraag hoe je er weer vanaf komt, beschreef ik in [build, buy of partner](/nl/inzichten/build-buy-of-partner). Voor maatwerk is ook de pagina over [AI development](/nl/ai-development) relevant.
 
 ## Het ontwikkeltraject
 
@@ -70,7 +71,7 @@ Een goed traject begint met een specificatie die je zelf opstelt, niet de bouwpa
 - **Kwaliteitsmaat:** een testset van echte gevallen met de juiste uitkomst, zodat je objectief kunt beoordelen.
 - **Logging en eigenaarschap:** wat er wordt vastgelegd, wie de agent beheert en wie hem mag stilzetten.
 
-**Selecteer een bouwpartij.** Stuur elke kandidaat hetzelfde scenario op basis van je eigen data en beoordeel de uitkomsten los van de presentatie. Vraag naar ervaring met vergelijkbare koppelingen, naar de manier van testen en logging, naar eigendom van code en instructies, en naar de voorwaarden bij beëindiging. De volledige aanpak staat in [AI-vendorselectie in acht stappen](/inzichten/ai-vendorselectie-in-acht-stappen).
+**Selecteer een bouwpartij.** Stuur elke kandidaat hetzelfde scenario op basis van je eigen data en beoordeel de uitkomsten los van de presentatie. Vraag naar ervaring met vergelijkbare koppelingen, naar de manier van testen en logging, naar eigendom van code en instructies, en naar de voorwaarden bij beëindiging. De volledige aanpak staat in [AI-vendorselectie in acht stappen](/nl/inzichten/ai-vendorselectie-in-acht-stappen).
 
 **Bouw en test.** Laat de partij eerst een beperkte versie maken die alleen voorbereidt of voorstelt. In de testperiode beoordeelt een mens elke uitkomst. Pas als duidelijk is welke fouten optreden, verhoog je de zelfstandigheid.
 
@@ -94,14 +95,14 @@ Wat een AI agent kost, verschilt sterk per route. Een vast bedrag noemen zou mis
 
 De grootste risicofactoren zijn een te brede eerste scope, bronnen die niet op orde zijn en afhankelijkheid van één leverancier zonder exitafspraken. Vraag elke partij om een kostenraming over meerdere jaren, inclusief beheer en overstap.
 
-Mijn eigen tarieven staan op de pagina met [tarieven](/tarieven). Wil je offertes van meerdere bouwpartijen onafhankelijk laten beoordelen, dan past een [Vendor Review](/diensten/vendor-review) van {{timing:vendor-review}}; die kost {{pricelc:vendor-review}}. Heb je doorlopend iemand nodig die het traject namens jou bewaakt, dan kan dat als [Fractional AI Lead](/diensten/fractional-ai-lead).
+Mijn eigen tarieven staan op de pagina met [tarieven](/nl/tarieven). Wil je offertes van meerdere bouwpartijen onafhankelijk laten beoordelen, dan past een [Vendor Review](/nl/diensten/vendor-review) van {{timing:vendor-review}}; die kost {{pricelc:vendor-review}}. Heb je doorlopend iemand nodig die het traject namens jou bewaakt, dan kan dat als [Fractional AI Lead](/nl/diensten/fractional-ai-lead).
 
 ## Beveiliging, privacy en beheer
 
 Een agent die systemen aanroept, is een nieuwe gebruiker in je IT-landschap, met de risico's van dien. Geef hem niet meer rechten dan nodig, laat hem inloggen met een eigen account zodat zijn handelingen herleidbaar zijn, en houd een bevestigingsstap op elk onomkeerbaar moment.
 
-Verwerkt de agent persoonsgegevens, dan gelden de gewone AVG-regels: een doel en grondslag, niet meer gegevens dan nodig, een verwerkersovereenkomst met de leverancier en in veel gevallen een DPIA. Neemt de agent besluiten over mensen, dan komen daar strengere eisen bij. Dat werk ik uit in het artikel over [AI agents en de AVG](/kennisbank/ai-agents-en-avg).
+Verwerkt de agent persoonsgegevens, dan gelden de gewone AVG-regels: een doel en grondslag, niet meer gegevens dan nodig, een verwerkersovereenkomst met de leverancier en in veel gevallen een DPIA. Neemt de agent besluiten over mensen, dan komen daar strengere eisen bij. Dat werk ik uit in het artikel over [AI agents en de AVG](/nl/kennisbank/ai-agents-en-avg).
 
 Beheer is geen sluitpost. Modellen en platforms veranderen, en een agent die vandaag goed werkt, kan na een update anders reageren. Spreek met de bouwpartij af wie monitort, hoe vaak de testset opnieuw wordt gedraaid en wie een incident oppakt.
 
-**Mijn rol.** Ik bouw zelf geen agents en verkoop geen implementaties. Ik help je de taak afbakenen, de specificatie opstellen, bouwpartijen vergelijken en de uitvoering bewaken, vanuit jouw kant van de tafel. Heb je nog geen bouwpartij, dan kan ik partijen uit mijn [partnernetwerk](/partnernetwerk) voorstellen; die contracteer je rechtstreeks, zonder marge voor mij. Meer over agents in het algemeen lees je op de pagina over [AI agents voor bedrijven](/ai-agents). Heb je een concreet idee? [Plan een adviesgesprek](/contact) en je hoort aan het eind van het gesprek wat ik zou doen.
+**Mijn rol.** Ik bouw zelf geen agents en verkoop geen implementaties. Ik help je de taak afbakenen, de specificatie opstellen, bouwpartijen vergelijken en de uitvoering bewaken, vanuit jouw kant van de tafel. Heb je nog geen bouwpartij, dan kan ik partijen uit mijn [partnernetwerk](/nl/partnernetwerk) voorstellen; die contracteer je rechtstreeks, zonder marge voor mij. Meer over agents in het algemeen lees je op de pagina over [AI agents voor bedrijven](/nl/ai-agents). Heb je een concreet idee? [Plan een adviesgesprek](/nl/contact) en je hoort aan het eind van het gesprek wat ik zou doen.

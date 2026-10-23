@@ -1,6 +1,7 @@
 ---
 id: C7-00
-url: /markten
+lang: nl
+url: /nl/markten
 parent: null
 cluster: "7. AI markten"
 pageType: Hub
@@ -12,8 +13,8 @@ metaDescription: "Ontdek hoe AI wordt ingezet in zorg, marketing, fintech, autom
 keyphrase: ai per branche
 eyebrow: "AI per sector"
 lede: "AI per branche verschilt minder dan je zou denken, en tegelijk meer dan leveranciers je vertellen. De vragen zijn overal hetzelfde: wat pak je eerst aan, wat koop je en hoe houd je grip. Het verschil zit in de regels, de data en het risico als het misgaat."
-primaryCta: { label: "Plan een adviesgesprek", href: /contact }
-secondaryCta: { label: "Bekijk het AI Readiness Assessment", href: /diensten/ai-readiness-assessment }
+primaryCta: { label: "Plan een adviesgesprek", href: /nl/contact }
+secondaryCta: { label: "Bekijk het AI Readiness Assessment", href: /nl/diensten/ai-readiness-assessment }
 summary:
   - "Prioriteren, kiezen en borgen: die vragen zijn in elke sector gelijk."
   - "Regels, datagevoeligheid en foutkosten verschillen sterk per branche."
@@ -45,7 +46,7 @@ Sectorkennis doet ertoe op drie punten:
 <figcaption>De aanpak is overal dezelfde; de sector bepaalt hoe zwaar je elke stap inricht.</figcaption>
 </figure>
 
-Eerlijk over mijn eigen achtergrond: het zwaartepunt van mijn werk ligt bij financiële dienstverlening, retail, industrie en zakelijke dienstverlening. Dat staat ook zo in de [veelgestelde vragen](/veelgestelde-vragen). Voor andere sectoren breng ik de aanpak mee; voor sectorspecifieke vragen heb je daarnaast iemand nodig die het domein van binnenuit kent.
+Eerlijk over mijn eigen achtergrond: het zwaartepunt van mijn werk ligt bij financiële dienstverlening, retail, industrie en zakelijke dienstverlening. Dat staat ook zo in de [veelgestelde vragen](/nl/veelgestelde-vragen). Voor andere sectoren breng ik de aanpak mee; voor sectorspecifieke vragen heb je daarnaast iemand nodig die het domein van binnenuit kent.
 
 <aside class="scenario" aria-label="Voorbeeldscenario">
 <p class="scenario-label">Voorbeeldscenario</p>
@@ -61,43 +62,43 @@ Per sector heb ik een aparte pagina gemaakt met de belangrijkste toepassingen, d
 
 ### Zorg
 
-In de zorg ligt de druk op capaciteit en administratie, terwijl de eisen aan veiligheid en privacy hoog zijn. Software met een medisch doel kan een medisch hulpmiddel zijn, en gezondheidsgegevens zijn extra beschermd. Lees meer over [toepassingen en regels voor AI in de zorg](/markten/zorg).
+In de zorg ligt de druk op capaciteit en administratie, terwijl de eisen aan veiligheid en privacy hoog zijn. Software met een medisch doel kan een medisch hulpmiddel zijn, en gezondheidsgegevens zijn extra beschermd. Lees meer over [toepassingen en regels voor AI in de zorg](/nl/markten/zorg).
 
 ### Marketing
 
-Marketing was een van de eerste domeinen waar generatieve AI breed werd gebruikt, voor content, personalisatie en analyse. De uitdaging zit minder in de tools en meer in merkconsistentie, klantdata en toestemming. Zie de pagina over [AI in marketing en een eigen marketingstrategie](/markten/marketing).
+Marketing was een van de eerste domeinen waar generatieve AI breed werd gebruikt, voor content, personalisatie en analyse. De uitdaging zit minder in de tools en meer in merkconsistentie, klantdata en toestemming. Zie de pagina over [AI in marketing en een eigen marketingstrategie](/nl/markten/marketing).
 
 ### Fintech
 
-Banken, verzekeraars en fintechs werken onder stevig toezicht. Kredietbeoordeling van particulieren en de risicobeoordeling en prijsstelling bij levens- en ziektekostenverzekeringen gelden onder de AI Act als hoog risico. Hoe je daar verantwoord mee omgaat, lees je bij [AI in fintech en financiële dienstverlening](/markten/fintech).
+Banken, verzekeraars en fintechs werken onder stevig toezicht. Kredietbeoordeling van particulieren en de risicobeoordeling en prijsstelling bij levens- en ziektekostenverzekeringen gelden onder de AI Act als hoog risico. Hoe je daar verantwoord mee omgaat, lees je bij [AI in fintech en financiële dienstverlening](/nl/markten/fintech).
 
 ### Automotive
 
-In de automotive-keten speelt AI van productie en kwaliteitscontrole tot aftersales en klantcontact. Veel van de vragen overlappen met die in de bredere maakindustrie. Meer op de pagina over [AI voor automotive](/markten/automotive).
+In de automotive-keten speelt AI van productie en kwaliteitscontrole tot aftersales en klantcontact. Veel van de vragen overlappen met die in de bredere maakindustrie. Meer op de pagina over [AI voor automotive](/nl/markten/automotive).
 
 ### Onderwijs
 
-Onderwijsinstellingen zoeken naar een balans tussen de mogelijkheden voor studenten en docenten en de risico's voor toetsing en gelijke kansen. Lees verder over [AI in het onderwijs](/markten/onderwijs).
+Onderwijsinstellingen zoeken naar een balans tussen de mogelijkheden voor studenten en docenten en de risico's voor toetsing en gelijke kansen. Lees verder over [AI in het onderwijs](/nl/markten/onderwijs).
 
 ### Luchtvaart
 
-De luchtvaart kent een eigen veiligheidsregime en een eigen Europese toezichthouder. AI voor planning, onderhoud of klantcontact moet daarin passen. Zie [AI in de luchtvaart](/markten/luchtvaart).
+De luchtvaart kent een eigen veiligheidsregime en een eigen Europese toezichthouder. AI voor planning, onderhoud of klantcontact moet daarin passen. Zie [AI in de luchtvaart](/nl/markten/luchtvaart).
 
 ### Overheid
 
-Bij de overheid raken AI-toepassingen al snel de rechten van burgers, en daarmee transparantie en uitlegbaarheid. Lees meer over [AI binnen de overheid](/markten/overheid).
+Bij de overheid raken AI-toepassingen al snel de rechten van burgers, en daarmee transparantie en uitlegbaarheid. Lees meer over [AI binnen de overheid](/nl/markten/overheid).
 
-Zit je sector er niet tussen? Dan is de algemene pagina over [AI voor bedrijven](/ai-voor-bedrijven) een beter startpunt. En welke verplichtingen de Europese regels per toepassing meebrengen, staat uitgewerkt op de pagina over [de AI Act](/ai-beleid/ai-act). Let op dat de regels voor hoog-risicotoepassingen zijn uitgesteld: sinds de Digital Omnibus gelden ze vanaf 2 december 2027, en voor AI in producten als medische hulpmiddelen vanaf 2 augustus 2028 ([Europese Commissie](https://digital-strategy.ec.europa.eu/en/news/ai-omnibus-enters-force)).
+Zit je sector er niet tussen? Dan is de algemene pagina over [AI voor bedrijven](/nl/ai-voor-bedrijven) een beter startpunt. En welke verplichtingen de Europese regels per toepassing meebrengen, staat uitgewerkt op de pagina over [de AI Act](/nl/ai-beleid/ai-act). Let op dat de regels voor hoog-risicotoepassingen zijn uitgesteld: sinds de Digital Omnibus gelden ze vanaf 2 december 2027, en voor AI in producten als medische hulpmiddelen vanaf 2 augustus 2028 ([Europese Commissie](https://digital-strategy.ec.europa.eu/en/news/ai-omnibus-enters-force)).
 
 ## Cases per sector
 
 De meeste cases op deze site komen uit de sectoren waar mijn werk het zwaarst op leunt. Ze laten zien hoe dezelfde aanpak in een andere context uitpakt:
 
-- **Financiële dienstverlening:** een [KYC-proces met AI-ondersteunde documentanalyse](/cases/kyc-documentanalyse-financial-services), waarin de analist altijd de laatste toets houdt, en een [use-case portfolio voor een investeringsmaatschappij](/cases/ai-strategie-investeringsmaatschappij).
-- **Retail:** een [gestructureerde leveranciersselectie in enterprise retail](/cases/vendorselectie-enterprise-retail), waarin de criteria vastlagen voordat er een leverancier op tafel kwam.
-- **Industrie:** een [AI-roadmap voor een internationale maakorganisatie](/cases/ai-roadmap-internationale-maakorganisatie), met losse pilots die onder één governance kwamen.
-- **Zakelijke dienstverlening:** een [interne AI-assistent voor kenniswerkers](/cases/interne-ai-assistent-kenniswerkers), waar adoptie meer werk was dan techniek.
+- **Financiële dienstverlening:** een [KYC-proces met AI-ondersteunde documentanalyse](/nl/cases/kyc-documentanalyse-financial-services), waarin de analist altijd de laatste toets houdt, en een [use-case portfolio voor een investeringsmaatschappij](/nl/cases/ai-strategie-investeringsmaatschappij).
+- **Retail:** een [gestructureerde leveranciersselectie in enterprise retail](/nl/cases/vendorselectie-enterprise-retail), waarin de criteria vastlagen voordat er een leverancier op tafel kwam.
+- **Industrie:** een [AI-roadmap voor een internationale maakorganisatie](/nl/cases/ai-roadmap-internationale-maakorganisatie), met losse pilots die onder één governance kwamen.
+- **Zakelijke dienstverlening:** een [interne AI-assistent voor kenniswerkers](/nl/cases/interne-ai-assistent-kenniswerkers), waar adoptie meer werk was dan techniek.
 
-Voor zorg, marketing, automotive, onderwijs, luchtvaart en overheid staan er geen cases op de site. Op die sectorpagina's beschrijf ik daarom de vraagstukken en regels, niet eigen resultaten. Alle cases vind je in het [overzicht van cases](/cases).
+Voor zorg, marketing, automotive, onderwijs, luchtvaart en overheid staan er geen cases op de site. Op die sectorpagina's beschrijf ik daarom de vraagstukken en regels, niet eigen resultaten. Alle cases vind je in het [overzicht van cases](/nl/cases).
 
-Wil je weten hoe je organisatie ervoor staat, ongeacht de sector? Het [AI Readiness Assessment](/diensten/ai-readiness-assessment) geeft in korte tijd een nuchter beeld. Of [plan een adviesgesprek](/contact) van dertig minuten, dan hoor je aan het eind wat ik zou doen.
+Wil je weten hoe je organisatie ervoor staat, ongeacht de sector? Het [AI Readiness Assessment](/nl/diensten/ai-readiness-assessment) geeft in korte tijd een nuchter beeld. Of [plan een adviesgesprek](/nl/contact) van dertig minuten, dan hoor je aan het eind wat ik zou doen.

@@ -1,6 +1,7 @@
 ---
 id: C3-05
-url: /ai-automatisering/ai-tools
+lang: nl
+url: /nl/ai-automatisering/ai-tools
 parent: C3-00
 cluster: "3. AI Automatisering"
 pageType: Spoke
@@ -12,8 +13,8 @@ metaDescription: "De beste AI tools voor bedrijven: voor tekst, klantenservice, 
 keyphrase: beste ai tools
 eyebrow: "AI tools"
 lede: "De beste AI tools voor bedrijven bestaan niet in het algemeen, wel per situatie. Op deze pagina vergelijk ik de bekendste AI-tools op kenmerken die er zakelijk toe doen: waar ze passen, wat ze kosten en wat er met je data gebeurt. Ik heb geen commissie- of partnerrelatie met een van deze leveranciers."
-primaryCta: { label: "Lees meer over AI automatisering", href: /ai-automatisering }
-secondaryCta: { label: "Bekijk het AI Readiness Assessment", href: /diensten/ai-readiness-assessment }
+primaryCta: { label: "Lees meer over AI automatisering", href: /nl/ai-automatisering }
+secondaryCta: { label: "Bekijk het AI Readiness Assessment", href: /nl/diensten/ai-readiness-assessment }
 summary:
   - "Kies eerst op taak, data en bestaande software, pas daarna op merk."
   - "Voor bedrijfsdata alleen een zakelijk abonnement met vastgelegde afspraken over training en opslag."
@@ -88,7 +89,7 @@ Dit zijn de criteria die ik bij elke keuze langsloop:
 - **Kosten:** licentie per gebruiker, eventueel verbruik bovenop de licentie, en de tijd die inrichting en training kosten.
 - **Exit:** kun je je gesprekken, bestanden en instellingen meenemen als je overstapt?
 
-Deze criteria sluiten aan op de manier waarop ik grotere selecties aanpak in [AI-vendorselectie in acht stappen](/inzichten/ai-vendorselectie-in-acht-stappen): eerst de criteria en de weging, daarna pas de namen.
+Deze criteria sluiten aan op de manier waarop ik grotere selecties aanpak in [AI-vendorselectie in acht stappen](/nl/inzichten/ai-vendorselectie-in-acht-stappen): eerst de criteria en de weging, daarna pas de namen.
 
 <figure class="diagram" role="img" aria-label="Keuzeboom voor een AI tool: begin bij de taak, kijk dan of je bestaande kantoorsoftware AI bevat, toets daarna data en privacy, dan beheer en kosten, en kies pas daarna een leverancier">
 <ol class="flow">
@@ -117,12 +118,12 @@ Hieronder de meest voorkomende zakelijke toepassingen, met de tools die daar log
 
 Voor schrijven, samenvatten, vertalen en herschrijven zijn de algemene AI-assistenten het meest gebruikt: ChatGPT van OpenAI, Claude van Anthropic, Gemini van Google en Microsoft Copilot. De verschillen zitten minder in "kan het schrijven?" en meer in de omgeving eromheen.
 
-- **ChatGPT Business** biedt onder meer projecten, gedeelde GPT's, deep research en koppelingen met Google Workspace, Slack, GitHub en Microsoft 365. Hoe je het zakelijk inzet, lees je in [ChatGPT voor bedrijven](/kennisbank/chatgpt-voor-bedrijven).
-- **Claude Team** biedt projecten, connectoren en een zoekfunctie over de bronnen van je organisatie heen. Meer daarover op de pagina [Claude voor bedrijven](/kennisbank/claude-voor-bedrijven).
-- **Gemini** zit in de Google Workspace-abonnementen, in Gmail en afhankelijk van het abonnement ook in Docs, Meet en andere apps. Zie [Gemini voor bedrijven](/kennisbank/gemini-voor-bedrijven).
-- **Microsoft Copilot** (voorheen Microsoft 365 Copilot) werkt in Word, Excel, PowerPoint, Outlook en Teams. Wat de verschillende Copilot-varianten zijn, staat in [Copilot voor bedrijven](/kennisbank/microsoft-copilot-voor-bedrijven).
+- **ChatGPT Business** biedt onder meer projecten, gedeelde GPT's, deep research en koppelingen met Google Workspace, Slack, GitHub en Microsoft 365. Hoe je het zakelijk inzet, lees je in [ChatGPT voor bedrijven](/nl/kennisbank/chatgpt-voor-bedrijven).
+- **Claude Team** biedt projecten, connectoren en een zoekfunctie over de bronnen van je organisatie heen. Meer daarover op de pagina [Claude voor bedrijven](/nl/kennisbank/claude-voor-bedrijven).
+- **Gemini** zit in de Google Workspace-abonnementen, in Gmail en afhankelijk van het abonnement ook in Docs, Meet en andere apps. Zie [Gemini voor bedrijven](/nl/kennisbank/gemini-voor-bedrijven).
+- **Microsoft Copilot** (voorheen Microsoft 365 Copilot) werkt in Word, Excel, PowerPoint, Outlook en Teams. Wat de verschillende Copilot-varianten zijn, staat in [Copilot voor bedrijven](/nl/kennisbank/microsoft-copilot-voor-bedrijven).
 
-Welke assistent je ook kiest, de kwaliteit van de uitkomst hangt sterk af van hoe je de vraag stelt. De basis daarvan beschrijf ik bij [prompt engineering](/kennisbank/prompt-engineering).
+Welke assistent je ook kiest, de kwaliteit van de uitkomst hangt sterk af van hoe je de vraag stelt. De basis daarvan beschrijf ik bij [prompt engineering](/nl/kennisbank/prompt-engineering).
 
 ### Klantenservice
 
@@ -134,19 +135,19 @@ Het belangrijkste criterium hier is niet de tool, maar je kennisbank. Een AI-age
 
 Voor het samenvatten van vergaderingen hoef je vaak niets nieuws aan te schaffen. Microsoft Copilot werkt in Teams, Gemini zit afhankelijk van je Workspace-abonnement in Meet, en ChatGPT Business heeft een opnamemodus. Daarnaast bestaan er gespecialiseerde notuleertools.
 
-De keuze hangt af van waar je vergadert, wie er meeluistert en waar de opnames en transcripties worden bewaard. Omdat je gesprekken van deelnemers vastlegt, speelt de AVG hier direct. Dat heb ik uitgewerkt in [notuleren met AI](/kennisbank/notuleren-met-ai), inclusief wat je deelnemers vooraf vertelt.
+De keuze hangt af van waar je vergadert, wie er meeluistert en waar de opnames en transcripties worden bewaard. Omdat je gesprekken van deelnemers vastlegt, speelt de AVG hier direct. Dat heb ik uitgewerkt in [notuleren met AI](/nl/kennisbank/notuleren-met-ai), inclusief wat je deelnemers vooraf vertelt.
 
 ### Data en analyse
 
 Voor analyse van spreadsheets en exports bieden de algemene assistenten een analysefunctie: ChatGPT Business heeft data-analyse, en Copilot werkt in Excel. Dat is sterk voor verkennen, samenvatten en een eerste grafiek.
 
-Voor terugkerende rapportages is een assistent meestal niet de juiste plek. Daar wil je een vaste bron, vaste definities en een BI-omgeving die iedere maand hetzelfde getal laat zien. Een AI-assistent helpt om vragen te stellen aan die data, maar vervangt het datafundament niet. Waarom dat fundament zo bepalend is, lees je in [het datafundament onder AI](/inzichten/het-datafundament-onder-ai).
+Voor terugkerende rapportages is een assistent meestal niet de juiste plek. Daar wil je een vaste bron, vaste definities en een BI-omgeving die iedere maand hetzelfde getal laat zien. Een AI-assistent helpt om vragen te stellen aan die data, maar vervangt het datafundament niet. Waarom dat fundament zo bepalend is, lees je in [het datafundament onder AI](/nl/inzichten/het-datafundament-onder-ai).
 
 ### Automatisering
 
 Voor het automatiseren van processen kom je bij workflowtools uit. Voorbeelden zijn n8n, dat je zelf kunt hosten (Community Edition) of als dienst kunt afnemen met opslag in Frankfurt, en Zapier, dat AI koppelt aan duizenden apps. Met zulke tools laat je een AI-stap onderdeel zijn van een proces: een binnenkomende mail classificeren, gegevens uit een document halen, een concept klaarzetten.
 
-Hier verschuift de vraag van "welke tool?" naar "welk proces?". Hoe je een geschikt proces kiest, staat bij [bedrijfsprocessen automatiseren met AI](/ai-automatisering/bedrijfsprocessen-automatiseren-met-ai), en hoe je zo'n keten opbouwt met controlepunten bij [AI workflows](/ai-automatisering/ai-workflows). Twijfel je tussen regelgebaseerde automatisering en AI, lees dan eerst [RPA versus AI-automatisering](/kennisbank/rpa-vs-ai-automatisering).
+Hier verschuift de vraag van "welke tool?" naar "welk proces?". Hoe je een geschikt proces kiest, staat bij [bedrijfsprocessen automatiseren met AI](/nl/ai-automatisering/bedrijfsprocessen-automatiseren-met-ai), en hoe je zo'n keten opbouwt met controlepunten bij [AI workflows](/nl/ai-automatisering/ai-workflows). Twijfel je tussen regelgebaseerde automatisering en AI, lees dan eerst [RPA versus AI-automatisering](/nl/kennisbank/rpa-vs-ai-automatisering).
 
 ## Nieuwe AI tools om te volgen
 
@@ -156,7 +157,7 @@ De grootste verschuiving in 2026 is dat de assistenten van "antwoorden" naar "ta
 - **Copilot Cowork.** Microsoft maakte op 16 juni 2026 bekend dat Copilot Cowork algemeen beschikbaar is voor klanten met een betaalde Copilot-licentie. Het voert langere taken met meerdere tools van begin tot eind uit. Het gebruik wordt volgens Microsoft bovenop de licentie per taak afgerekend.
 - **ChatGPT Work en workspace agents.** Bij ChatGPT Business horen volgens OpenAI ook ChatGPT Work en workspace agents, waarmee je eigen workflows laat uitvoeren.
 
-Dit soort functies is veelbelovend, maar vraagt ander beheer dan een chatvenster. Een tool die zelf bestanden aanpast of formulieren invult, moet je dezelfde vragen stellen als een nieuwe collega: welke rechten krijgt hij, wie controleert het werk en hoe merk je een fout op? Wat AI-agents wel en niet kunnen, lees je in de [uitleg over AI agents](/ai-agents).
+Dit soort functies is veelbelovend, maar vraagt ander beheer dan een chatvenster. Een tool die zelf bestanden aanpast of formulieren invult, moet je dezelfde vragen stellen als een nieuwe collega: welke rechten krijgt hij, wie controleert het werk en hoe merk je een fout op? Wat AI-agents wel en niet kunnen, lees je in de [uitleg over AI agents](/nl/ai-agents).
 
 Mijn advies bij elke nieuwe AI-tool: laat één team hem een paar weken gebruiken op echt werk, met een vooraf afgesproken vraag die de proef moet beantwoorden. Niet iedereen tegelijk, en niet op basis van een demo.
 
@@ -168,7 +169,7 @@ Accountants, advocaten, adviesbureaus en andere zakelijke dienstverleners werken
 2. **Bewaartermijnen en logs.** Kun je instellen hoe lang gesprekken worden bewaard, en kun je achteraf nagaan wie wat heeft gedaan? Die functies zitten meestal in de enterprise-abonnementen, niet in de teamabonnementen.
 3. **Beroepsregels.** Je beroepsorganisatie of toezichthouder kan eigen eisen stellen aan het gebruik van AI met cliëntgegevens. Toets je toolkeuze daaraan voordat je uitrolt.
 
-Voor dienstverleners is het verleidelijk om te beginnen bij de tool met de mooiste demo. Beter is het om te beginnen bij het werk dat de meeste uren kost en het minst oplevert. Welke toepassingen daar het meest opleveren, beschrijf ik op de pagina over [AI voor zakelijke dienstverleners](/ai-voor-bedrijven/zakelijke-dienstverleners). En zorg dat er vóór de uitrol een kort intern [AI-beleid](/ai-beleid) ligt.
+Voor dienstverleners is het verleidelijk om te beginnen bij de tool met de mooiste demo. Beter is het om te beginnen bij het werk dat de meeste uren kost en het minst oplevert. Welke toepassingen daar het meest opleveren, beschrijf ik op de pagina over [AI voor zakelijke dienstverleners](/nl/ai-voor-bedrijven/zakelijke-dienstverleners). En zorg dat er vóór de uitrol een kort intern [AI-beleid](/nl/ai-beleid) ligt.
 
 ## Vergelijkingstabel
 
@@ -183,6 +184,6 @@ De tabel vat de geverifieerde kenmerken samen, stand september 2026. Prijzen gel
 | Intercom Fin | Klantenservice-agent | Supportteams met een goede kennisbank | Vanaf $0,99 per Fin outcome, plus Intercom-plekken of eigen helpdesk | Navragen | Navragen |
 | n8n | Workflowautomatisering | Processen met AI-stappen, technische teams | Starter vanaf €20 per maand bij jaarbetaling; Community Edition zelf te hosten | Hangt af van het gekoppelde model | Gehost: Frankfurt. Zelf gehost: eigen keuze |
 
-Gebruik de tabel als startpunt, niet als eindoordeel. Voor een keuze die meer dan een paar licenties raakt, maak je een eigen scorekaart met je eigen weging en test je de kandidaten op dezelfde taak met je eigen voorbeelden. Wil je daarbij een onafhankelijke blik, dan helpt een [Vendor Review](/diensten/vendor-review) om tot een onderbouwd besluit te komen. Wil je eerst weten of je organisatie er klaar voor is, dan is het [AI Readiness Assessment](/diensten/ai-readiness-assessment) het logische begin.
+Gebruik de tabel als startpunt, niet als eindoordeel. Voor een keuze die meer dan een paar licenties raakt, maak je een eigen scorekaart met je eigen weging en test je de kandidaten op dezelfde taak met je eigen voorbeelden. Wil je daarbij een onafhankelijke blik, dan helpt een [Vendor Review](/nl/diensten/vendor-review) om tot een onderbouwd besluit te komen. Wil je eerst weten of je organisatie er klaar voor is, dan is het [AI Readiness Assessment](/nl/diensten/ai-readiness-assessment) het logische begin.
 
-Een tool is pas waardevol als mensen hem in hun dagelijkse werk gebruiken. Waarom adoptie daar begint en niet bij de licentie, lees je in [AI-adoptie begint bij het werk](/inzichten/ai-adoptie-begint-bij-het-werk). Meer over hoe AI tools passen in bredere procesautomatisering vind je op de [hub AI automatisering](/ai-automatisering). Twijfel je welke tool bij jouw situatie past? [Plan een gesprek van dertig minuten](/contact); je hoort aan het eind wat ik zou doen.
+Een tool is pas waardevol als mensen hem in hun dagelijkse werk gebruiken. Waarom adoptie daar begint en niet bij de licentie, lees je in [AI-adoptie begint bij het werk](/nl/inzichten/ai-adoptie-begint-bij-het-werk). Meer over hoe AI tools passen in bredere procesautomatisering vind je op de [hub AI automatisering](/nl/ai-automatisering). Twijfel je welke tool bij jouw situatie past? [Plan een gesprek van dertig minuten](/nl/contact); je hoort aan het eind wat ik zou doen.

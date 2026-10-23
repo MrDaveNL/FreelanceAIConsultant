@@ -1,6 +1,7 @@
 ---
 id: C7-07
-url: /markten/overheid
+lang: nl
+url: /nl/markten/overheid
 parent: C7-00
 cluster: "7. AI markten"
 pageType: Branche
@@ -12,8 +13,8 @@ metaDescription: "Hoe zetten overheidsorganisaties AI verantwoord in? Lees over 
 keyphrase: ai overheid
 eyebrow: "AI binnen de overheid"
 lede: "AI bij de overheid vraagt om meer dan een goede business case. Een gemeente, ministerie of uitvoeringsorganisatie moet ook kunnen uitleggen waarom een systeem eerlijk, controleerbaar en rechtmatig is. Op deze pagina lees je welke toepassingen kansrijk zijn, hoe je AI binnen de overheid invoert en wat de AI Act en de Nederlandse kaders vragen."
-primaryCta: { label: "Lees meer over Markten", href: /markten }
-secondaryCta: { label: "Plan een adviesgesprek", href: /contact }
+primaryCta: { label: "Lees meer over Markten", href: /nl/markten }
+secondaryCta: { label: "Plan een adviesgesprek", href: /nl/contact }
 summary:
   - "Vanaf 2 december 2027 moeten overheden vóór gebruik van een hoog-risico-AI-systeem de gevolgen voor grondrechten beoordelen; de IAMA is daar in februari 2026 op aangepast."
   - "Publiceren in het Algoritmeregister is (stand september 2026) geen wettelijke plicht, maar het Algoritmekader vraagt het wel voor impactvolle en hoog-risico-toepassingen."
@@ -84,7 +85,7 @@ AI-toepassingen bij de overheid kun je grofweg indelen naar hoe dicht ze bij een
 
 Concrete voorbeelden per niveau:
 
-- **Interne ondersteuning:** raadsvoorstellen en beleidsnotities samenvatten, zoeken in regelgeving en eerdere besluiten, verslagen van overleggen maken. Voor dat laatste lees je de aandachtspunten in mijn stuk over [notuleren met AI](/kennisbank/notuleren-met-ai). Een interne assistent voor kenniswerkers is vaak een goede eerste stap; in de case over een [interne AI-assistent](/cases/interne-ai-assistent-kenniswerkers) zie je dat de techniek snel staat en adoptie het meeste werk kost.
+- **Interne ondersteuning:** raadsvoorstellen en beleidsnotities samenvatten, zoeken in regelgeving en eerdere besluiten, verslagen van overleggen maken. Voor dat laatste lees je de aandachtspunten in mijn stuk over [notuleren met AI](/nl/kennisbank/notuleren-met-ai). Een interne assistent voor kenniswerkers is vaak een goede eerste stap; in de case over een [interne AI-assistent](/nl/cases/interne-ai-assistent-kenniswerkers) zie je dat de techniek snel staat en adoptie het meeste werk kost.
 - **Dienstverlening:** een assistent die vragen over producten, openingstijden en procedures beantwoordt, of die een aanvraag vooraf controleert op volledigheid.
 - **Besluitondersteuning:** het voorbereiden van beoordelingen, het signaleren van onvolledige dossiers of het selecteren van dossiers voor extra controle. Hier ligt de lat het hoogst.
 
@@ -100,23 +101,23 @@ Een paar principes die helpen:
 4. **Wijs een eigenaar aan in de lijn**, die na de pilot verantwoordelijk is voor beheer en resultaat.
 5. **Maak transparantie standaard.** Publiceer impactvolle toepassingen in het Algoritmeregister, ook zonder wettelijke plicht.
 
-Voor generatieve AI geldt sinds april 2025 een [overheidsbreed standpunt](https://www.rijksoverheid.nl/actueel/nieuws/2025/04/22/overheid-verruimt-standpunt-inzet-generatieve-ai) dat meer ruimte geeft, mits organisaties onder meer een risicoanalyse maken en betrouwbare modellen gebruiken. Het standpunt geldt naast het Rijk ook voor gemeenten, provincies, waterschappen en uitvoeringsorganisaties. Scholing hoort daarbij: medewerkers die weten wat AI wel en niet kan, maken betere keuzes. Hoe je dat organiseert, lees je bij [een training in AI-geletterdheid](/ai-workshop/ai-geletterdheid-training).
+Voor generatieve AI geldt sinds april 2025 een [overheidsbreed standpunt](https://www.rijksoverheid.nl/actueel/nieuws/2025/04/22/overheid-verruimt-standpunt-inzet-generatieve-ai) dat meer ruimte geeft, mits organisaties onder meer een risicoanalyse maken en betrouwbare modellen gebruiken. Het standpunt geldt naast het Rijk ook voor gemeenten, provincies, waterschappen en uitvoeringsorganisaties. Scholing hoort daarbij: medewerkers die weten wat AI wel en niet kan, maken betere keuzes. Hoe je dat organiseert, lees je bij [een training in AI-geletterdheid](/nl/ai-workshop/ai-geletterdheid-training).
 
 ## AI advies voor overheidsorganisaties
 
 Als onafhankelijk adviseur bouw of verkoop ik geen software, en ik heb geen commissies of partnerstatus bij leveranciers. Voor een overheidsorganisatie is dat relevant: het advies over wat je koopt, komt niet van de partij die het verkoopt. Waar ik bij help:
 
-- **Prioriteren:** welke toepassingen leveren het meeste op, en welke kun je verantwoord beheren? Een [AI Readiness Assessment](/diensten/ai-readiness-assessment) geeft daar in {{timing:ai-readiness-assessment}} een onderbouwd beeld van.
-- **Kiezen:** leveranciers vergelijken op vooraf vastgestelde criteria, met een [onafhankelijke Vendor Review](/diensten/vendor-review) die ook in een inkooptraject bruikbaar is.
-- **Borgen:** governance inrichten die werkt zonder een extra laag bureaucratie. Hoe dat eruitziet, lees je in [AI-governance zonder bureaucratie](/inzichten/ai-governance-zonder-bureaucratie).
+- **Prioriteren:** welke toepassingen leveren het meeste op, en welke kun je verantwoord beheren? Een [AI Readiness Assessment](/nl/diensten/ai-readiness-assessment) geeft daar in {{timing:ai-readiness-assessment}} een onderbouwd beeld van.
+- **Kiezen:** leveranciers vergelijken op vooraf vastgestelde criteria, met een [onafhankelijke Vendor Review](/nl/diensten/vendor-review) die ook in een inkooptraject bruikbaar is.
+- **Borgen:** governance inrichten die werkt zonder een extra laag bureaucratie. Hoe dat eruitziet, lees je in [AI-governance zonder bureaucratie](/nl/inzichten/ai-governance-zonder-bureaucratie).
 
-Wat je van goed AI-advies mag verwachten, en wanneer je het niet nodig hebt, staat op de pagina over [AI advies](/ai-consultancy/ai-advies).
+Wat je van goed AI-advies mag verwachten, en wanneer je het niet nodig hebt, staat op de pagina over [AI advies](/nl/ai-consultancy/ai-advies).
 
 ## AI Act en publieke waarden
 
 De AI Act raakt de overheid op een paar specifieke punten. Systemen waarmee overheden beoordelen of iemand recht heeft op uitkeringen of publieke diensten, of waarmee ze die toekennen, verlagen of terugvorderen, staan op de hoog-risicolijst. Door de Digital Omnibus gelden de eisen voor die systemen volgens de [Europese Commissie](https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai) vanaf 2 december 2027.
 
-Vanaf dat moment moeten publiekrechtelijke organisaties vóór het gebruik van een hoog-risicosysteem een beoordeling maken van de gevolgen voor grondrechten (artikel 27). Overheden die zo'n systeem inzetten, moeten het bovendien registreren in de Europese databank; een systeem dat daar niet in staat, mogen ze niet gebruiken. Wat de wet verder vraagt, lees je op de pagina over [de AI Act](/ai-beleid/ai-act).
+Vanaf dat moment moeten publiekrechtelijke organisaties vóór het gebruik van een hoog-risicosysteem een beoordeling maken van de gevolgen voor grondrechten (artikel 27). Overheden die zo'n systeem inzetten, moeten het bovendien registreren in de Europese databank; een systeem dat daar niet in staat, mogen ze niet gebruiken. Wat de wet verder vraagt, lees je op de pagina over [de AI Act](/nl/ai-beleid/ai-act).
 
 Nederland heeft daarnaast eigen instrumenten:
 
@@ -124,6 +125,6 @@ Nederland heeft daarnaast eigen instrumenten:
 - **Het Algoritmeregister** is de plek waar overheden informatie over hun algoritmes publiceren. Volgens het [register zelf](https://algoritmes.overheid.nl/nl/footer/over) is dat nog geen wettelijke plicht; het Algoritmekader vraagt het wel voor impactvolle algoritmes en hoog-risico-AI-systemen.
 - **Het Algoritmekader** bundelt normen en maatregelen voor verantwoord gebruik van algoritmes.
 
-Die instrumenten zijn geen doel op zich. Ze helpen om publieke waarden zoals gelijke behandeling, transparantie en rechtszekerheid concreet te maken in ontwerpkeuzes. Hoe je dat vertaalt naar een werkbaar beleid voor je eigen organisatie, lees je bij [AI-beleid opstellen](/ai-beleid).
+Die instrumenten zijn geen doel op zich. Ze helpen om publieke waarden zoals gelijke behandeling, transparantie en rechtszekerheid concreet te maken in ontwerpkeuzes. Hoe je dat vertaalt naar een werkbaar beleid voor je eigen organisatie, lees je bij [AI-beleid opstellen](/nl/ai-beleid).
 
-Andere publieke sectoren worstelen met vergelijkbare vragen; zie bijvoorbeeld [AI in de zorg](/markten/zorg). Voor voorlichting en campagnes is [AI voor marketing](/markten/marketing) relevant. Alle sectoren vind je op het [overzicht van markten](/markten). Wil je bespreken wat een verstandige eerste stap is voor jouw organisatie? [Plan een gesprek van dertig minuten](/contact).
+Andere publieke sectoren worstelen met vergelijkbare vragen; zie bijvoorbeeld [AI in de zorg](/nl/markten/zorg). Voor voorlichting en campagnes is [AI voor marketing](/nl/markten/marketing) relevant. Alle sectoren vind je op het [overzicht van markten](/nl/markten). Wil je bespreken wat een verstandige eerste stap is voor jouw organisatie? [Plan een gesprek van dertig minuten](/nl/contact).

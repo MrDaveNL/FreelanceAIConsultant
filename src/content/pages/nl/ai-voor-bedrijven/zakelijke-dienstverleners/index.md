@@ -1,6 +1,7 @@
 ---
 id: C4-02
-url: /ai-voor-bedrijven/zakelijke-dienstverleners
+lang: nl
+url: /nl/ai-voor-bedrijven/zakelijke-dienstverleners
 parent: C4-00
 cluster: "4. AI voor bedrijven"
 pageType: Spoke
@@ -12,8 +13,8 @@ metaDescription: "AI voor zakelijke dienstverleners: sneller rapporteren, analys
 keyphrase: ai voor zakelijke dienstverleners
 eyebrow: "AI voor dienstverleners"
 lede: "Accountants, advocaten, adviseurs en bureaus verkopen kennis en tijd. Daarmee is AI voor zakelijke dienstverleners interessanter dan voor bijna elke andere sector, en tegelijk gevoeliger. Hier lees je waar de winst zit per beroepsgroep, welke soorten tools er zijn en hoe je vertrouwelijkheid en kwaliteit bewaakt."
-primaryCta: { label: "Lees meer over AI voor bedrijven", href: /ai-voor-bedrijven }
-secondaryCta: { label: "Bekijk het AI Readiness Assessment", href: /diensten/ai-readiness-assessment }
+primaryCta: { label: "Lees meer over AI voor bedrijven", href: /nl/ai-voor-bedrijven }
+secondaryCta: { label: "Bekijk het AI Readiness Assessment", href: /nl/diensten/ai-readiness-assessment }
 summary:
   - "Dienstverleners werken met documenten en taal, precies waar generatieve AI sterk in is."
   - "De professional blijft verantwoordelijk: AI levert een concept, geen advies."
@@ -69,7 +70,7 @@ De Nederlandse orde van advocaten heeft [aanbevelingen voor AI in de advocatuur]
 
 Adviseurs en bureaus besteden veel tijd aan research, interviews verwerken, analyses opzetten en rapporten schrijven. AI helpt bij het structureren van interviewverslagen, het doorzoeken van eerdere projecten, het opstellen van een eerste rapportstructuur en het herschrijven van een voorstel naar de context van een nieuwe klant.
 
-Het risico hier is gemakzucht: rapporten die vooral goed klinken. De waarde van een adviseur zit in het oordeel en de keuze, en die kun je niet uitbesteden. Hoe een zakelijke dienstverlener een interne AI-assistent rond een paar vaste scenario's invoerde, lees je in de case over een [AI-assistent voor kenniswerkers](/cases/interne-ai-assistent-kenniswerkers).
+Het risico hier is gemakzucht: rapporten die vooral goed klinken. De waarde van een adviseur zit in het oordeel en de keuze, en die kun je niet uitbesteden. Hoe een zakelijke dienstverlener een interne AI-assistent rond een paar vaste scenario's invoerde, lees je in de case over een [AI-assistent voor kenniswerkers](/nl/cases/interne-ai-assistent-kenniswerkers).
 
 <aside class="scenario" aria-label="Voorbeeldscenario">
 <p class="scenario-label">Voorbeeldscenario</p>
@@ -92,7 +93,7 @@ Voor dienstverleners zijn er grofweg drie soorten tools, elk met een andere afwe
 <figcaption>Hoe dichter een tool bij je vak en je bestaande data zit, hoe groter de waarde, maar ook hoe belangrijker de selectie.</figcaption>
 </figure>
 
-Welke tool past, hangt af van je taken, je bestaande software en je eisen aan gegevensverwerking, niet van de indrukwekkendste demo. Een overzicht van de soorten tools en hoe je ertussen kiest, staat bij [AI tools voor bedrijven](/ai-automatisering/ai-tools). Kantoren die met Microsoft 365 werken, vinden een verdieping in [Copilot voor bedrijven](/kennisbank/microsoft-copilot-voor-bedrijven).
+Welke tool past, hangt af van je taken, je bestaande software en je eisen aan gegevensverwerking, niet van de indrukwekkendste demo. Een overzicht van de soorten tools en hoe je ertussen kiest, staat bij [AI tools voor bedrijven](/nl/ai-automatisering/ai-tools). Kantoren die met Microsoft 365 werken, vinden een verdieping in [Copilot voor bedrijven](/nl/kennisbank/microsoft-copilot-voor-bedrijven).
 
 Let bij de keuze vooral op: waar je data wordt opgeslagen en verwerkt, of je invoer wordt gebruikt om het model te trainen, hoe de tool omgaat met bronvermelding en wat het kost om weer over te stappen.
 
@@ -102,10 +103,10 @@ Voor een dienstverlener is vertrouwelijkheid geen voorwaarde achteraf, maar het 
 
 1. **Geen dossiers in gratis tools.** Hoe minder je betaalt, hoe waarschijnlijker het is dat je gegevens op een andere manier worden gebruikt. De Nederlandse orde van advocaten wijst daar in haar aanbevelingen expliciet op.
 2. **Lees het contract, niet de brochure.** Controleer de verwerkersovereenkomst, de opslaglocatie en de afspraken over training op je data. Ga bij persoonsgegevens na of een DPIA nodig is; bij een verwerking met een hoog risico is die verplicht onder de AVG.
-3. **Leg kantoorbreed vast wat mag.** Zonder beleid ontwikkelt iedere medewerker een eigen werkwijze. Hoe je dat opzet zonder bureaucratie, lees je bij [AI-beleid voor organisaties](/ai-beleid).
+3. **Leg kantoorbreed vast wat mag.** Zonder beleid ontwikkelt iedere medewerker een eigen werkwijze. Hoe je dat opzet zonder bureaucratie, lees je bij [AI-beleid voor organisaties](/nl/ai-beleid).
 4. **Controleer naar risico.** Een interne notitie vraagt een lichtere toets dan een advies, een verklaring of een processtuk.
 5. **Houd bronnen controleerbaar.** Gebruik bij voorkeur tools die aangeven waar een antwoord vandaan komt, en controleer verwijzingen altijd in de oorspronkelijke bron.
 
 Kwaliteit bewaken betekent ook meten. Kies een paar taken, leg vooraf vast hoe lang ze duren en hoeveel correcties er nodig zijn, en vergelijk dat na een paar weken met AI.
 
-Werk je vooral met cijfers en rapportages, dan is [de combinatie van AI en BI](/ai-voor-bedrijven/ai-en-bi) ook interessant. Ben je een klein kantoor, lees dan ook [AI voor het mkb](/ai-voor-bedrijven/mkb). Het bredere overzicht staat op [AI voor bedrijven](/ai-voor-bedrijven). Wil je sparren over de eerste stap voor jouw praktijk? [Plan een gesprek](/contact).
+Werk je vooral met cijfers en rapportages, dan is [de combinatie van AI en BI](/nl/ai-voor-bedrijven/ai-en-bi) ook interessant. Ben je een klein kantoor, lees dan ook [AI voor het mkb](/nl/ai-voor-bedrijven/mkb). Het bredere overzicht staat op [AI voor bedrijven](/nl/ai-voor-bedrijven). Wil je sparren over de eerste stap voor jouw praktijk? [Plan een gesprek](/nl/contact).

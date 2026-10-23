@@ -1,6 +1,7 @@
 ---
 id: C1-05
-url: /ai-consultancy/ai-advies
+lang: nl
+url: /nl/ai-consultancy/ai-advies
 parent: C1-00
 cluster: "1. AI Consultancy & Advies"
 pageType: Spoke
@@ -12,8 +13,8 @@ metaDescription: "Onafhankelijk AI advies over strategie, tools, data en risico'
 keyphrase: ai advies
 eyebrow: "AI advies"
 lede: "Soms heb je geen traject nodig, maar een scherp antwoord op één vraag. Welke tool, welke leverancier, welk risico, welke use case eerst? Met onafhankelijk AI advies krijg je dat antwoord van iemand die niets verdient aan de oplossing die hij aanraadt."
-primaryCta: { label: "Plan een adviesgesprek", href: /contact }
-secondaryCta: { label: "Bekijk het AI Readiness Assessment", href: /diensten/ai-readiness-assessment }
+primaryCta: { label: "Plan een adviesgesprek", href: /nl/contact }
+secondaryCta: { label: "Bekijk het AI Readiness Assessment", href: /nl/diensten/ai-readiness-assessment }
 summary:
   - "AI advies beantwoordt een afgebakende vraag; consultancy begeleidt een traject."
   - "Ik adviseer over tools en leveranciers, data en privacy, use cases en compliance."
@@ -45,7 +46,7 @@ AI advies is onafhankelijk, deskundig advies over de inzet van kunstmatige intel
 
 Het verschil met een presentatie over AI of een demo van een leverancier: goed advies eindigt met een keuze die je kunt onderbouwen. Niet met een lijst mogelijkheden, maar met wat ik in jouw situatie zou doen en waarom.
 
-Ik ben Dave Willemstein, [onafhankelijk AI-adviseur](/over). Ik werk alleen, verkoop geen software of implementaties en ontvang geen commissies van leveranciers. Mijn inkomsten komen volledig uit het advies dat jij betaalt. Dat is geen detail: het bepaalt of een adviseur vrij is om te zeggen dat je iets beter niet koopt.
+Ik ben Dave Willemstein, [onafhankelijk AI-adviseur](/nl/over). Ik werk alleen, verkoop geen software of implementaties en ontvang geen commissies van leveranciers. Mijn inkomsten komen volledig uit het advies dat jij betaalt. Dat is geen detail: het bepaalt of een adviseur vrij is om te zeggen dat je iets beter niet koopt.
 
 <aside class="scenario" aria-label="Voorbeeldscenario">
 <p class="scenario-label">Voorbeeldscenario</p>
@@ -57,7 +58,7 @@ Ik ben Dave Willemstein, [onafhankelijk AI-adviseur](/over). Ik werk alleen, ver
 
 ## AI advies versus AI consultancy
 
-De termen worden door elkaar gebruikt, maar voor jou als opdrachtgever is het onderscheid handig. AI advies beantwoordt een afgebakende vraag, meestal in dagen. [AI consultancy](/ai-consultancy) begeleidt een traject: van diagnose via prioriteiten en keuzes tot borging, over weken of maanden.
+De termen worden door elkaar gebruikt, maar voor jou als opdrachtgever is het onderscheid handig. AI advies beantwoordt een afgebakende vraag, meestal in dagen. [AI consultancy](/nl/ai-consultancy) begeleidt een traject: van diagnose via prioriteiten en keuzes tot borging, over weken of maanden.
 
 <figure class="diagram" role="img" aria-label="Vergelijking tussen AI advies en AI consultancy op vraag, doorlooptijd, resultaat en passende dienst">
 <div class="matrix">
@@ -69,9 +70,9 @@ De termen worden door elkaar gebruikt, maar voor jou als opdrachtgever is het on
 <figcaption>Advies en consultancy lopen in elkaar over: een adviesvraag blijkt soms een grotere vraag, en dan zeg ik dat.</figcaption>
 </figure>
 
-Advies volstaat als de vraag helder is en het besluit op zichzelf staat. Kies je beter voor consultancy, dan is dat meestal omdat de vraag eigenlijk groter is: er ontbreekt richting, of er lopen al pilots zonder samenhang. Dan helpt een [AI strategie](/ai-consultancy/ai-strategie) die vastlegt waar je naartoe wilt, of een [AI roadmap](/ai-consultancy/ai-roadmap) die prioriteiten omzet in een planning.
+Advies volstaat als de vraag helder is en het besluit op zichzelf staat. Kies je beter voor consultancy, dan is dat meestal omdat de vraag eigenlijk groter is: er ontbreekt richting, of er lopen al pilots zonder samenhang. Dan helpt een [AI strategie](/nl/ai-consultancy/ai-strategie) die vastlegt waar je naartoe wilt, of een [AI roadmap](/nl/ai-consultancy/ai-roadmap) die prioriteiten omzet in een planning.
 
-Twijfel je of je überhaupt externe hulp nodig hebt? In [wanneer je echt een AI-strateeg nodig hebt](/inzichten/wanneer-heb-je-echt-een-ai-strateeg-nodig) beschrijf ik ook de situaties waarin je het beter zelf doet.
+Twijfel je of je überhaupt externe hulp nodig hebt? In [wanneer je echt een AI-strateeg nodig hebt](/nl/inzichten/wanneer-heb-je-echt-een-ai-strateeg-nodig) beschrijf ik ook de situaties waarin je het beter zelf doet.
 
 ## Onderwerpen waarover ik adviseer
 
@@ -81,21 +82,21 @@ Mijn advies gaat over vier onderwerpen. Vaak raken ze elkaar: een toolkeuze is o
 
 Welke AI-tool of leverancier past bij jouw processen, data en budget? Ik kijk verder dan de demo: past het bij je bestaande systemen, wat kost het over drie jaar inclusief integratie en beheer, en hoe kom je er weer vanaf als het tegenvalt? Omdat ik geen partnerstatus heb bij leveranciers, heb ik er geen belang bij welke partij het wordt.
 
-Voor een korte toets van één voorstel volstaat afgebakend advies. Moet je meerdere partijen systematisch vergelijken, dan past een [Vendor Review](/diensten/vendor-review) beter. De aanpak daarachter lees je in [AI vendorselectie in acht stappen](/inzichten/ai-vendorselectie-in-acht-stappen).
+Voor een korte toets van één voorstel volstaat afgebakend advies. Moet je meerdere partijen systematisch vergelijken, dan past een [Vendor Review](/nl/diensten/vendor-review) beter. De aanpak daarachter lees je in [AI vendorselectie in acht stappen](/nl/inzichten/ai-vendorselectie-in-acht-stappen).
 
 ### Data en privacy
 
-Zonder bruikbare data levert AI weinig op, en zonder heldere afspraken over persoonsgegevens loop je risico onder de AVG. Ik help je beoordelen of je data geschikt is voor de toepassing die je voor ogen hebt, welke data je wel en niet naar een externe AI-dienst mag sturen, en welke afspraken je met een leverancier moet maken. Wanneer data echt de bottleneck is en wanneer "eerst de data op orde" vooral een excuus is, lees je in [het datafundament onder AI](/inzichten/het-datafundament-onder-ai).
+Zonder bruikbare data levert AI weinig op, en zonder heldere afspraken over persoonsgegevens loop je risico onder de AVG. Ik help je beoordelen of je data geschikt is voor de toepassing die je voor ogen hebt, welke data je wel en niet naar een externe AI-dienst mag sturen, en welke afspraken je met een leverancier moet maken. Wanneer data echt de bottleneck is en wanneer "eerst de data op orde" vooral een excuus is, lees je in [het datafundament onder AI](/nl/inzichten/het-datafundament-onder-ai).
 
 ### Use cases
 
-Er zijn meestal meer ideeën dan capaciteit. Ik help je kiezen welke use case waarde oplevert, welke haalbaar is met je huidige data en mensen, en welke je beter laat liggen. Ik beoordeel daarbij op waarde, haalbaarheid, datagereedheid en de vraag of er iemand in de lijn eigenaar wil worden. Meer over dat patroon staat in [welke AI use cases resultaat leveren](/inzichten/welke-ai-use-cases-leveren-resultaat).
+Er zijn meestal meer ideeën dan capaciteit. Ik help je kiezen welke use case waarde oplevert, welke haalbaar is met je huidige data en mensen, en welke je beter laat liggen. Ik beoordeel daarbij op waarde, haalbaarheid, datagereedheid en de vraag of er iemand in de lijn eigenaar wil worden. Meer over dat patroon staat in [welke AI use cases resultaat leveren](/nl/inzichten/welke-ai-use-cases-leveren-resultaat).
 
 ### Risico's en compliance
 
 De AI Act stelt eisen die afhangen van het risico van je toepassing. Sommige verplichtingen gelden al: het verbod op bepaalde AI-praktijken en de bepaling over AI-geletterdheid zijn sinds 2 februari 2025 van toepassing. Die laatste vraagt na de Digital Omnibus dat je maatregelen neemt om AI-geletterdheid te ondersteunen; een verplicht niveau of certificaat is er niet. Sinds 2 augustus 2026 is de AI Act in het algemeen van toepassing, inclusief de transparantieverplichtingen. Voor hoog-risicosystemen zijn de termijnen met de Digital Omnibus verschoven naar 2 december 2027 en 2 augustus 2028, afhankelijk van het type systeem ([Europese Commissie](https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai), stand september 2026).
 
-Ik help je bepalen in welke risicocategorie je toepassing valt, wat dat concreet van je vraagt en hoe je governance inricht zonder er een papieren exercitie van te maken. Een overzicht van de wet vind je op de pagina over [de AI Act](/ai-beleid/ai-act). Ik ben geen jurist: voor juridisch advies schakel je een jurist in. Ik vertaal de regels naar keuzes in je organisatie.
+Ik help je bepalen in welke risicocategorie je toepassing valt, wat dat concreet van je vraagt en hoe je governance inricht zonder er een papieren exercitie van te maken. Een overzicht van de wet vind je op de pagina over [de AI Act](/nl/ai-beleid/ai-act). Ik ben geen jurist: voor juridisch advies schakel je een jurist in. Ik vertaal de regels naar keuzes in je organisatie.
 
 ## Hoe een adviestraject verloopt
 
@@ -111,10 +112,10 @@ Een adviestraject is kort en heeft een duidelijk eindpunt. Het verloopt in vier 
 <figcaption>Van vraag naar besluit: een adviestraject is zo kort als de vraag toelaat.</figcaption>
 </figure>
 
-Het eerste gesprek is vrijblijvend en zonder pitch. Blijkt je vraag groter dan een adviesvraag, dan zeg ik dat en stel ik voor wat wel past. Soms is dat een [AI Readiness Assessment](/diensten/ai-readiness-assessment) om eerst te weten waar je staat. Staat er een implementatie op het punt van beginnen, dan gaat het vaak om [advies voorafgaand aan AI implementatie](/ai-implementatie/advies): keuze van use case, build of buy, en de voorbereiding van je organisatie.
+Het eerste gesprek is vrijblijvend en zonder pitch. Blijkt je vraag groter dan een adviesvraag, dan zeg ik dat en stel ik voor wat wel past. Soms is dat een [AI Readiness Assessment](/nl/diensten/ai-readiness-assessment) om eerst te weten waar je staat. Staat er een implementatie op het punt van beginnen, dan gaat het vaak om [advies voorafgaand aan AI implementatie](/nl/ai-implementatie/advies): keuze van use case, build of buy, en de voorbereiding van je organisatie.
 
-Wil je directie of raad van commissarissen eerst een gedeeld beeld geven? Dan is de [Executive Briefing](/diensten/executive-briefing) de laagdrempeligste vorm van advies: een sessie van drie uur, voorbereid op jouw sector, voor {{pricelc:executive-briefing}}. Afgebakend advies en second opinions krijgen een vaste prijs per opdracht. Alle bedragen staan op de pagina met [tarieven en pakketten](/tarieven).
+Wil je directie of raad van commissarissen eerst een gedeeld beeld geven? Dan is de [Executive Briefing](/nl/diensten/executive-briefing) de laagdrempeligste vorm van advies: een sessie van drie uur, voorbereid op jouw sector, voor {{pricelc:executive-briefing}}. Afgebakend advies en second opinions krijgen een vaste prijs per opdracht. Alle bedragen staan op de pagina met [tarieven en pakketten](/nl/tarieven).
 
-Heb je extra capaciteit nodig om het advies uit te voeren, dan stel ik partijen uit mijn [partnernetwerk](/partnernetwerk) voor. Die contracteer je rechtstreeks, zonder marge voor mij.
+Heb je extra capaciteit nodig om het advies uit te voeren, dan stel ik partijen uit mijn [partnernetwerk](/nl/partnernetwerk) voor. Die contracteer je rechtstreeks, zonder marge voor mij.
 
-Heb je een concrete vraag? [Plan een adviesgesprek](/contact) en vertel waar je tegenaan loopt.
+Heb je een concrete vraag? [Plan een adviesgesprek](/nl/contact) en vertel waar je tegenaan loopt.

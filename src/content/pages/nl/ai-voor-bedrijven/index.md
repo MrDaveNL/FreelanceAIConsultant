@@ -1,6 +1,7 @@
 ---
 id: C4-00
-url: /ai-voor-bedrijven
+lang: nl
+url: /nl/ai-voor-bedrijven
 parent: null
 cluster: "4. AI voor bedrijven"
 pageType: Hub
@@ -12,8 +13,8 @@ metaDescription: "Wat kan AI voor jouw bedrijf betekenen? Ontdek toepassingen pe
 keyphrase: ai voor bedrijven
 eyebrow: "AI voor bedrijven"
 lede: "AI voor bedrijven is geen kwestie van één tool aanschaffen. Het gaat om de vraag welk werk in jouw organisatie beter, sneller of goedkoper kan, en wat daarvoor nodig is. Op deze pagina lees je waar AI in de praktijk waarde levert, per afdeling en per branche, welke risico's erbij horen en hoe je verantwoord begint."
-primaryCta: { label: "Bekijk het AI Readiness Assessment", href: /diensten/ai-readiness-assessment }
-secondaryCta: { label: "Plan een adviesgesprek", href: /contact }
+primaryCta: { label: "Bekijk het AI Readiness Assessment", href: /nl/diensten/ai-readiness-assessment }
+secondaryCta: { label: "Plan een adviesgesprek", href: /nl/contact }
 summary:
   - "AI levert het meest op bij frequent, voorspelbaar werk met bestaande data en een menselijke controlestap."
   - "De grootste risico's zijn zelden technisch: eigenaarschap, beheer, privacy en adoptie bepalen of het werkt."
@@ -45,7 +46,7 @@ AI voor bedrijven klinkt groot, maar de waarde zit meestal in kleine, herhaalde 
 
 Wat AI in 2026 goed kan, is werken met taal en ongestructureerde informatie: teksten samenvatten, documenten doorzoeken, conceptteksten opstellen, gegevens uit e-mails en pdf's halen en patronen herkennen in grote hoeveelheden data. Wat het niet kan, is verantwoordelijkheid dragen. Een AI-toepassing maakt fouten, en de vraag is steeds of je die fouten op tijd ziet en wat ze kosten.
 
-Daarom begin ik bij het werk en niet bij de technologie. De vraag is niet "wat kunnen we met AI?", maar "welk werk kost ons nu te veel tijd, geld of kwaliteit, en helpt AI daarbij?". Dat onderscheid klinkt klein. In de praktijk bepaalt het of je na een jaar een werkende toepassing hebt of een verzameling proefprojecten. Waarom adoptie bij het werk begint en niet bij de tool, lees je in [AI-adoptie begint bij het werk](/inzichten/ai-adoptie-begint-bij-het-werk).
+Daarom begin ik bij het werk en niet bij de technologie. De vraag is niet "wat kunnen we met AI?", maar "welk werk kost ons nu te veel tijd, geld of kwaliteit, en helpt AI daarbij?". Dat onderscheid klinkt klein. In de praktijk bepaalt het of je na een jaar een werkende toepassing hebt of een verzameling proefprojecten. Waarom adoptie bij het werk begint en niet bij de tool, lees je in [AI-adoptie begint bij het werk](/nl/inzichten/ai-adoptie-begint-bij-het-werk).
 
 Nederlandse bedrijven zijn er volop mee bezig. Volgens het [CBS](https://www.cbs.nl/nl-nl/nieuws/2025/50/bedrijven-gebruiken-ai-vaakst-voor-marketing-of-verkoop) gebruikten AI-gebruikende bedrijven de technologie in 2025 het vaakst voor marketing of verkoop (35 procent) en voor administratie of bestuurstaken (32 procent). Bij bedrijven die AI overwogen maar niet invoerden, was gebrek aan ervaring de meest genoemde reden. Dat laatste is precies waar een goede aanpak het verschil maakt.
 
@@ -59,9 +60,9 @@ Per afdeling liggen de kansen op een andere plek. Een paar herkenbare voorbeelde
 - **Finance en administratie:** facturen en bonnen uitlezen, afwijkingen signaleren en rapportages voorzien van een toelichting in gewone taal.
 - **HR:** vacatureteksten opstellen, interne vragen over regelingen beantwoorden en onboardingmateriaal actueel houden. Wees hier terughoudend met alles wat beslissingen over mensen raakt.
 - **Operatie en IT:** storingsmeldingen samenvatten, documentatie doorzoekbaar maken en planningen ondersteunen met voorspellingen.
-- **Management:** informatie uit verschillende bronnen bundelen en rapportages sneller interpreteren. Hier raakt AI aan business intelligence; hoe die twee samenhangen, lees je bij [AI en BI](/ai-voor-bedrijven/ai-en-bi).
+- **Management:** informatie uit verschillende bronnen bundelen en rapportages sneller interpreteren. Hier raakt AI aan business intelligence; hoe die twee samenhangen, lees je bij [AI en BI](/nl/ai-voor-bedrijven/ai-en-bi).
 
-Veel van deze toepassingen draaien om het automatiseren van terugkerende stappen in een proces. Hoe je bepaalt welke processen daarvoor geschikt zijn, en hoe je dat aanpakt zonder een proces te automatiseren dat je beter kunt afschaffen, staat op de pagina over [AI automatisering](/ai-automatisering). Meer concrete voorbeelden vind je in de kennisbank bij [AI-voorbeelden uit de praktijk](/kennisbank/ai-voorbeelden).
+Veel van deze toepassingen draaien om het automatiseren van terugkerende stappen in een proces. Hoe je bepaalt welke processen daarvoor geschikt zijn, en hoe je dat aanpakt zonder een proces te automatiseren dat je beter kunt afschaffen, staat op de pagina over [AI automatisering](/nl/ai-automatisering). Meer concrete voorbeelden vind je in de kennisbank bij [AI-voorbeelden uit de praktijk](/nl/kennisbank/ai-voorbeelden).
 
 ## AI per branche
 
@@ -69,10 +70,10 @@ De afdelingen lijken over sectoren heen op elkaar, de spelregels niet. In financ
 
 Voor twee groepen heb ik aparte pagina's gemaakt, omdat hun vragen sterk op elkaar lijken:
 
-- **Het mkb.** Minder volume, geen eigen datateam en een beperkter budget, maar wel korte lijnen. Welke toepassingen daar werken en hoe je zonder groot budget begint, lees je op de pagina over [AI voor het mkb](/ai-voor-bedrijven/mkb).
-- **Zakelijke dienstverleners.** Accountants, advocaten, adviseurs en bureaus werken vrijwel volledig met documenten en kennis. Dat maakt AI er bijzonder bruikbaar, maar vertrouwelijkheid en beroepsregels vragen extra zorg. Zie [AI voor zakelijke dienstverleners](/ai-voor-bedrijven/zakelijke-dienstverleners).
+- **Het mkb.** Minder volume, geen eigen datateam en een beperkter budget, maar wel korte lijnen. Welke toepassingen daar werken en hoe je zonder groot budget begint, lees je op de pagina over [AI voor het mkb](/nl/ai-voor-bedrijven/mkb).
+- **Zakelijke dienstverleners.** Accountants, advocaten, adviseurs en bureaus werken vrijwel volledig met documenten en kennis. Dat maakt AI er bijzonder bruikbaar, maar vertrouwelijkheid en beroepsregels vragen extra zorg. Zie [AI voor zakelijke dienstverleners](/nl/ai-voor-bedrijven/zakelijke-dienstverleners).
 
-Een overzicht van toepassingen per sector, van zorg en fintech tot luchtvaart en overheid, staat bij [AI per branche](/markten). Het zwaartepunt van mijn eigen werk ligt bij financiële dienstverlening, retail, industrie en zakelijke dienstverlening.
+Een overzicht van toepassingen per sector, van zorg en fintech tot luchtvaart en overheid, staat bij [AI per branche](/nl/markten). Het zwaartepunt van mijn eigen werk ligt bij financiële dienstverlening, retail, industrie en zakelijke dienstverlening.
 
 <aside class="scenario" aria-label="Voorbeeldscenario">
 <p class="scenario-label">Voorbeeldscenario</p>
@@ -86,7 +87,7 @@ Een overzicht van toepassingen per sector, van zorg en fintech tot luchtvaart en
 
 AI biedt drie soorten kansen. Tijd: minder handwerk bij terugkerende taken. Kwaliteit: minder fouten en consistentere output, mits er een controlestap is. En nieuwe mogelijkheden: informatie die eerst onbereikbaar was, zoals duizenden documenten of klantreacties, wordt ineens bruikbaar.
 
-Niet elke kans is even waardevol. De toepassingen die het halen, delen een paar kenmerken: hoog volume, weinig variatie, data die al bestaat en een fout die zichtbaar en betaalbaar is. Hoe je een lijst ideeën daarop toetst, beschreef ik in [welke AI-use cases resultaat leveren](/inzichten/welke-ai-use-cases-leveren-resultaat).
+Niet elke kans is even waardevol. De toepassingen die het halen, delen een paar kenmerken: hoog volume, weinig variatie, data die al bestaat en een fout die zichtbaar en betaalbaar is. Hoe je een lijst ideeën daarop toetst, beschreef ik in [welke AI-use cases resultaat leveren](/nl/inzichten/welke-ai-use-cases-leveren-resultaat).
 
 <figure class="diagram" role="img" aria-label="Twee bij twee matrix die use cases indeelt naar volume van de taak en de kosten van een fout, met een aanbeveling per kwadrant">
 <div class="matrix">
@@ -100,10 +101,10 @@ Niet elke kans is even waardevol. De toepassingen die het halen, delen een paar 
 
 De risico's zijn zelden technisch van aard:
 
-- **Geen eigenaar.** Een proefproject dat werkt maar door niemand in de lijn wordt overgenomen, verdampt. Dat is de meest voorkomende reden dat [AI-pilots blijven steken](/inzichten/waarom-ai-pilots-blijven-steken).
+- **Geen eigenaar.** Een proefproject dat werkt maar door niemand in de lijn wordt overgenomen, verdampt. Dat is de meest voorkomende reden dat [AI-pilots blijven steken](/nl/inzichten/waarom-ai-pilots-blijven-steken).
 - **Geen beheer.** AI-toepassingen vragen doorlopend onderhoud. Wie dat niet inplant, ziet de kwaliteit ongemerkt dalen.
 - **Privacy en vertrouwelijkheid.** Gegevens van klanten of medewerkers in een tool die daar niet voor is ingericht, is een AVG-risico en een vertrouwensrisico.
-- **Wet- en regelgeving.** De AI Act (AI-verordening) stelt eisen die afhangen van het risico van een toepassing. Via de Digital Omnibus on AI, die op 27 juli 2026 in werking trad, zijn de regels voor hoog-risicotoepassingen uitgesteld: voor de hoog-risicogebieden uit bijlage III, zoals werving en kredietverlening, gelden ze vanaf 2 december 2027 en voor AI in gereguleerde producten vanaf 2 augustus 2028 ([Europese Commissie](https://digital-strategy.ec.europa.eu/en/news/ai-omnibus-enters-force)). Uitstel is geen afstel; het loont om nu al te weten in welke categorie je toepassingen vallen. Hoe je dat regelt zonder papieren tijger, staat bij [AI-beleid en governance](/ai-beleid).
+- **Wet- en regelgeving.** De AI Act (AI-verordening) stelt eisen die afhangen van het risico van een toepassing. Via de Digital Omnibus on AI, die op 27 juli 2026 in werking trad, zijn de regels voor hoog-risicotoepassingen uitgesteld: voor de hoog-risicogebieden uit bijlage III, zoals werving en kredietverlening, gelden ze vanaf 2 december 2027 en voor AI in gereguleerde producten vanaf 2 augustus 2028 ([Europese Commissie](https://digital-strategy.ec.europa.eu/en/news/ai-omnibus-enters-force)). Uitstel is geen afstel; het loont om nu al te weten in welke categorie je toepassingen vallen. Hoe je dat regelt zonder papieren tijger, staat bij [AI-beleid en governance](/nl/ai-beleid).
 - **Schaduwgebruik.** Als de organisatie geen goedgekeurde tool aanbiedt, gebruiken medewerkers hun eigen. Dan heb je de risico's wel, maar geen zicht en geen regie.
 
 ## Zo begin je met AI
@@ -123,9 +124,9 @@ Je hoeft niet te beginnen met een strategie van vijftig pagina's. Wel met een pa
 
 Een paar praktische aandachtspunten daarbij:
 
-1. **Begin met gebruiken, niet met bouwen.** Veel waarde zit in tools en AI-functies die je al hebt of eenvoudig kunt aanschaffen. Maatwerk laten ontwikkelen is pas zinvol als standaardtools aantoonbaar tekortschieten. Wat daarbij komt kijken, lees je bij [AI development](/ai-development).
+1. **Begin met gebruiken, niet met bouwen.** Veel waarde zit in tools en AI-functies die je al hebt of eenvoudig kunt aanschaffen. Maatwerk laten ontwikkelen is pas zinvol als standaardtools aantoonbaar tekortschieten. Wat daarbij komt kijken, lees je bij [AI development](/nl/ai-development).
 2. **Leg een paar spelregels vast.** Welke tools mogen, welke gegevens er niet in mogen en wie ergens over beslist. Eén pagina is genoeg om mee te beginnen.
-3. **Investeer in vaardigheden.** Medewerkers die weten wat AI wel en niet kan, halen er meer uit en maken minder fouten. Een [AI workshop of training](/ai-workshop) rond hun eigen taken werkt beter dan een algemene demo.
+3. **Investeer in vaardigheden.** Medewerkers die weten wat AI wel en niet kan, halen er meer uit en maken minder fouten. Een [AI workshop of training](/nl/ai-workshop) rond hun eigen taken werkt beter dan een algemene demo.
 4. **Kijk verder dan de licentie.** Integratie, beheer en de tijd van je eigen mensen zijn vaak groter dan de kosten van de tool.
 
 Wie meer grip wil voordat er budget wordt vastgelegd, kan beginnen met een doorlichting. Daarover meer in de volgende sectie.
@@ -136,12 +137,12 @@ Ik ben een onafhankelijk AI-adviseur. Ik adviseer, maak strategie en roadmaps, s
 
 Concreet kan ik op deze manieren helpen:
 
-- **Weten waar je staat.** Met een [AI Readiness Assessment](/diensten/ai-readiness-assessment) breng ik in {{timing:ai-readiness-assessment}} strategie, data, technologie, mensen en governance in kaart, met een 90-dagenplan als uitkomst. Vaste prijs: {{price:ai-readiness-assessment}}.
-- **Een gedeeld beeld in de top.** Een [Executive Briefing](/diensten/executive-briefing) van één dagdeel geeft directie of raad van commissarissen een realistisch vertrekpunt.
-- **Strategie en roadmap.** Van losse ideeën naar keuzes, prioriteiten en een plan. Alles over deze vorm van advies vind je bij [AI consultancy](/ai-consultancy).
-- **Van plan naar werkende toepassing.** Ik begeleid de invoering, stuur de bouwpartij aan en bewaak dat het in het werk landt. Zie [AI implementatie](/ai-implementatie). Voor AI-agents, die zelfstandig taken uitvoeren, is er een aparte pagina over [AI agents](/ai-agents).
+- **Weten waar je staat.** Met een [AI Readiness Assessment](/nl/diensten/ai-readiness-assessment) breng ik in {{timing:ai-readiness-assessment}} strategie, data, technologie, mensen en governance in kaart, met een 90-dagenplan als uitkomst. Vaste prijs: {{price:ai-readiness-assessment}}.
+- **Een gedeeld beeld in de top.** Een [Executive Briefing](/nl/diensten/executive-briefing) van één dagdeel geeft directie of raad van commissarissen een realistisch vertrekpunt.
+- **Strategie en roadmap.** Van losse ideeën naar keuzes, prioriteiten en een plan. Alles over deze vorm van advies vind je bij [AI consultancy](/nl/ai-consultancy).
+- **Van plan naar werkende toepassing.** Ik begeleid de invoering, stuur de bouwpartij aan en bewaak dat het in het werk landt. Zie [AI implementatie](/nl/ai-implementatie). Voor AI-agents, die zelfstandig taken uitvoeren, is er een aparte pagina over [AI agents](/nl/ai-agents).
 - **Kiezen en toetsen.** Een Vendor Review, een AI Due Diligence of een second opinion op een voorstel dat al op tafel ligt.
 
-Het bouwen zelf doet je eigen team of een partij die je rechtstreeks contracteert. Waar dat nodig is, stel ik partijen voor uit mijn [partnernetwerk](/partnernetwerk), zonder marge op hun tarief. Wat de verschillende vormen kosten, staat overzichtelijk bij [tarieven](/tarieven).
+Het bouwen zelf doet je eigen team of een partij die je rechtstreeks contracteert. Waar dat nodig is, stel ik partijen voor uit mijn [partnernetwerk](/nl/partnernetwerk), zonder marge op hun tarief. Wat de verschillende vormen kosten, staat overzichtelijk bij [tarieven](/nl/tarieven).
 
-Werk je met data en rapportages en wil je weten welke rol daar hoort? In de kennisbank lees je [wat een BI-specialist doet](/kennisbank/wat-doet-een-bi-specialist) en waar die rol ophoudt en AI begint. En heb je een concrete vraag, [plan dan een gesprek van dertig minuten](/contact). Aan het eind hoor je wat ik zou doen, ook als dat betekent dat je mij niet nodig hebt.
+Werk je met data en rapportages en wil je weten welke rol daar hoort? In de kennisbank lees je [wat een BI-specialist doet](/nl/kennisbank/wat-doet-een-bi-specialist) en waar die rol ophoudt en AI begint. En heb je een concrete vraag, [plan dan een gesprek van dertig minuten](/nl/contact). Aan het eind hoor je wat ik zou doen, ook als dat betekent dat je mij niet nodig hebt.

@@ -1,6 +1,7 @@
 ---
 id: C5-02
-url: /ai-development/ai-software
+lang: nl
+url: /nl/ai-development/ai-software
 parent: C5-00
 cluster: "5. AI Development"
 pageType: Spoke
@@ -12,8 +13,8 @@ metaDescription: "Welke AI software past bij je organisatie? Lees hoe je kiest t
 keyphrase: ai software
 eyebrow: "AI software"
 lede: "Bijna elke softwareleverancier noemt zijn product inmiddels AI software. Dat maakt kiezen lastiger, niet makkelijker. Op deze pagina lees je welke soorten er zijn, wanneer standaard volstaat en wanneer maatwerk loont, en waar je op let bij integratie en selectie."
-primaryCta: { label: "Lees meer over AI Development", href: /ai-development }
-secondaryCta: { label: "Bekijk het AI Readiness Assessment", href: /diensten/ai-readiness-assessment }
+primaryCta: { label: "Lees meer over AI Development", href: /nl/ai-development }
+secondaryCta: { label: "Bekijk het AI Readiness Assessment", href: /nl/diensten/ai-readiness-assessment }
 summary:
   - "AI software loopt van een functie in bestaande software tot volledig maatwerk."
   - "Kies standaard waar het kan; laat alleen de laag met jouw kennis op maat bouwen."
@@ -38,9 +39,9 @@ sources: []
 AI software is software waarin een model een deel van het werk doet: tekst begrijpen of genereren, beelden herkennen, voorspellingen maken of taken uitvoeren. In de praktijk kom je vier vormen tegen, van licht naar zwaar:
 
 1. **AI-functies in software die je al hebt.** Je kantoorpakket, CRM of servicedesk krijgt een assistent of een slimme functie erbij. Weinig integratiewerk, maar ook weinig invloed op hoe het werkt.
-2. **Zelfstandige AI-tools.** Chatassistenten, schrijf- en analysetools, transcriptie. Snel in gebruik te nemen, vaak per gebruiker gelicenseerd. Een overzicht van veelgebruikte categorieën staat bij [AI tools voor bedrijven](/ai-automatisering/ai-tools).
+2. **Zelfstandige AI-tools.** Chatassistenten, schrijf- en analysetools, transcriptie. Snel in gebruik te nemen, vaak per gebruiker gelicenseerd. Een overzicht van veelgebruikte categorieën staat bij [AI tools voor bedrijven](/nl/ai-automatisering/ai-tools).
 3. **Gespecialiseerde AI-platforms.** Software voor één domein, zoals documentverwerking, vraagvoorspelling of klantenservice, die je configureert en koppelt aan je eigen systemen.
-4. **AI software op maat.** Een applicatie die voor jouw proces wordt gebouwd, meestal rond een ingekocht taalmodel, met eigen regels, koppelingen en evaluatie. Voorbeelden van wat dat kan opleveren, staan bij [AI oplossingen op maat](/ai-development/ai-oplossingen).
+4. **AI software op maat.** Een applicatie die voor jouw proces wordt gebouwd, meestal rond een ingekocht taalmodel, met eigen regels, koppelingen en evaluatie. Voorbeelden van wat dat kan opleveren, staan bij [AI oplossingen op maat](/nl/ai-development/ai-oplossingen).
 
 Hoe verder je naar beneden gaat, hoe meer invloed je krijgt op de uitkomst en hoe meer je zelf moet beheren.
 
@@ -58,19 +59,19 @@ De kernvraag is niet of je iets zelf kunt laten bouwen, maar of je het over een 
 <figcaption>De hybride vorm: standaard waar het kan, maatwerk alleen voor de laag waarin jouw kennis zit.</figcaption>
 </figure>
 
-In veel gevallen is het antwoord een combinatie. Je koopt het model en het platform, laat de laag met jouw kennis op maat bouwen en belegt de implementatie bij een partner. Het volledige beslisraamwerk, inclusief de vraag hoe je er weer vanaf komt, staat in [build, buy of partner](/inzichten/build-buy-of-partner). Kiezen tussen standaard en maatwerk vraagt ook een eerlijke kostenvergelijking; hoe je die opstelt, lees je in [de business case voor AI](/inzichten/de-business-case-voor-ai).
+In veel gevallen is het antwoord een combinatie. Je koopt het model en het platform, laat de laag met jouw kennis op maat bouwen en belegt de implementatie bij een partner. Het volledige beslisraamwerk, inclusief de vraag hoe je er weer vanaf komt, staat in [build, buy of partner](/nl/inzichten/build-buy-of-partner). Kiezen tussen standaard en maatwerk vraagt ook een eerlijke kostenvergelijking; hoe je die opstelt, lees je in [de business case voor AI](/nl/inzichten/de-business-case-voor-ai).
 
 ## AI software integreren
 
 De software zelf is vaak het kleinste deel van het werk. AI software integreren met je bestaande systemen kost de meeste tijd en levert de meeste verrassingen op. Vijf punten om vooraf te regelen:
 
-- **Databronnen en kwaliteit.** Welke systemen moeten open, hoe actueel en volledig is de data, en wie beheert die bronnen? Als je datafundament rammelt, merkt de AI software dat als eerste. Meer daarover in [het datafundament onder AI](/inzichten/het-datafundament-onder-ai).
+- **Databronnen en kwaliteit.** Welke systemen moeten open, hoe actueel en volledig is de data, en wie beheert die bronnen? Als je datafundament rammelt, merkt de AI software dat als eerste. Meer daarover in [het datafundament onder AI](/nl/inzichten/het-datafundament-onder-ai).
 - **Rechten en toegang.** De AI mag niet meer zien dan de gebruiker die hem aanroept. Controleer hoe het rechtenmodel van je bronsystemen wordt doorgegeven.
 - **Privacy en de AVG.** Waar wordt de data verwerkt en opgeslagen, wordt er op getraind, en is er een verwerkersovereenkomst? Bij persoonsgegevens is dat geen detail.
 - **Logging en controle.** Leg vast welke invoer tot welke uitkomst leidde en wie die heeft bevestigd. Zonder auditspoor kun je fouten niet herleiden.
 - **Beheer na livegang.** Wie meet de kwaliteit, wie houdt testsets actueel, en wat gebeurt er als de leverancier het onderliggende model vervangt?
 
-Het bouwen en koppelen doet je eigen IT-team of een implementatiepartner die je rechtstreeks contracteert. Ik bouw niet mee, maar help de eisen op te stellen en te toetsen of de oplevering eraan voldoet. Hoe dat in het hele ontwikkeltraject past, lees je bij [AI development](/ai-development).
+Het bouwen en koppelen doet je eigen IT-team of een implementatiepartner die je rechtstreeks contracteert. Ik bouw niet mee, maar help de eisen op te stellen en te toetsen of de oplevering eraan voldoet. Hoe dat in het hele ontwikkeltraject past, lees je bij [AI development](/nl/ai-development).
 
 <aside class="scenario" aria-label="Voorbeeldscenario">
 <p class="scenario-label">Voorbeeldscenario</p>
@@ -94,8 +95,8 @@ Stel de criteria en hun weging vast voordat je leveranciers ziet. Criteria die n
 | Kosten | Licentie, verbruik bij groei, integratie, beheer en exit over drie jaar |
 | Leverancier | Continuïteit, roadmap en ondersteuning in jouw taal en tijdzone |
 
-Geef iedere leverancier hetzelfde scenario op jouw data, laat beoordelaars eerst individueel scoren en reken de totale kosten door. De volledige aanpak staat in [AI-vendorselectie in acht stappen](/inzichten/ai-vendorselectie-in-acht-stappen).
+Geef iedere leverancier hetzelfde scenario op jouw data, laat beoordelaars eerst individueel scoren en reken de totale kosten door. De volledige aanpak staat in [AI-vendorselectie in acht stappen](/nl/inzichten/ai-vendorselectie-in-acht-stappen).
 
-Wil je dat proces niet zelf trekken, dan begeleid ik het met een [Vendor Review](/diensten/vendor-review): criteria vooraf, scorecards, validatie op echte data en een TCO-vergelijking inclusief exitkosten. Hoe dat in de praktijk verloopt, laat de case over [vendorselectie bij een enterprise retailer](/cases/vendorselectie-enterprise-retail) zien. Ik ontvang geen vergoeding van leveranciers, dus het advies kan ook zijn dat je niets koopt.
+Wil je dat proces niet zelf trekken, dan begeleid ik het met een [Vendor Review](/nl/diensten/vendor-review): criteria vooraf, scorecards, validatie op echte data en een TCO-vergelijking inclusief exitkosten. Hoe dat in de praktijk verloopt, laat de case over [vendorselectie bij een enterprise retailer](/nl/cases/vendorselectie-enterprise-retail) zien. Ik ontvang geen vergoeding van leveranciers, dus het advies kan ook zijn dat je niets koopt.
 
-Zoek je eerder iemand die de technische kant beoordeelt of bouwt? Op de pagina over [de AI specialist](/ai-development/ai-specialist) lees je welke profielen er zijn. En twijfel je welke route past, [plan dan een adviesgesprek](/contact).
+Zoek je eerder iemand die de technische kant beoordeelt of bouwt? Op de pagina over [de AI specialist](/nl/ai-development/ai-specialist) lees je welke profielen er zijn. En twijfel je welke route past, [plan dan een adviesgesprek](/nl/contact).

@@ -1,6 +1,7 @@
 ---
 id: P06
-url: /partnernetwerk
+lang: nl
+url: /nl/partnernetwerk
 parent: null
 cluster: "Kernpagina's"
 pageType: "Trust / partnernetwerk"
@@ -12,8 +13,8 @@ metaDescription: "Zoek je een AI bureau? Werk direct met een senior AI consultan
 keyphrase: ai bureau
 eyebrow: Partnernetwerk
 lede: "Zoek je een AI bureau? Dan wil ik eerlijk zijn: dat ben ik niet. Ik ben een onafhankelijk AI-adviseur die alleen werkt. Als je meer handen nodig hebt, stel ik partijen voor die ik ken, en die contracteer je rechtstreeks, zonder marge voor mij."
-primaryCta: { label: "Plan een adviesgesprek", href: /contact }
-secondaryCta: { label: "Bekijk het AI Readiness Assessment", href: /diensten/ai-readiness-assessment }
+primaryCta: { label: "Plan een adviesgesprek", href: /nl/contact }
+secondaryCta: { label: "Bekijk het AI Readiness Assessment", href: /nl/diensten/ai-readiness-assessment }
 summary:
   - "Ik ben geen AI bureau en bouw zelf niets; ik adviseer en begeleid vanuit jouw kant."
   - "Partners voor development, data en BI, en training contracteer je rechtstreeks."
@@ -36,9 +37,9 @@ faq:
 
 ## Waarom geen traditioneel AI bureau?
 
-Een AI bureau verkoopt uiteindelijk capaciteit: een team dat bouwt, implementeert en beheert. Dat is waardevol als je al weet wat je wilt bouwen. Maar wie aan de bouw verdient, heeft belang bij een grotere scope. Daarom heb ik bewust gekozen voor een andere rol: ik adviseer, maak keuzes besluitbaar en begeleid de uitvoering, maar ik bouw en verkoop zelf niets. Mijn inkomsten komen uit het advieswerk dat jij betaalt; wat dat werk inhoudt, zie je in [mijn aanbod als onafhankelijk adviseur](/).
+Een AI bureau verkoopt uiteindelijk capaciteit: een team dat bouwt, implementeert en beheert. Dat is waardevol als je al weet wat je wilt bouwen. Maar wie aan de bouw verdient, heeft belang bij een grotere scope. Daarom heb ik bewust gekozen voor een andere rol: ik adviseer, maak keuzes besluitbaar en begeleid de uitvoering, maar ik bouw en verkoop zelf niets. Mijn inkomsten komen uit het advieswerk dat jij betaalt; wat dat werk inhoudt, zie je in [mijn aanbod als onafhankelijk adviseur](/nl).
 
-Dat betekent ook dat ik geen AI-bedrijf met ontwikkelaars ben, en dat ook niet claim. Wanneer een bureau, een Big 4-partij of een freelancer het beste past, zette ik eerlijk op een rij in [freelance AI consultant, agency of Big 4](/inzichten/freelance-ai-consultant-vs-agency-vs-big4).
+Dat betekent ook dat ik geen AI-bedrijf met ontwikkelaars ben, en dat ook niet claim. Wanneer een bureau, een Big 4-partij of een freelancer het beste past, zette ik eerlijk op een rij in [freelance AI consultant, agency of Big 4](/nl/inzichten/freelance-ai-consultant-vs-agency-vs-big4).
 
 ## Mijn gescreende partnernetwerk
 
@@ -46,15 +47,15 @@ Voor werk waar meer handen nodig zijn, stel ik partijen voor die ik ken. Welke p
 
 ### Development
 
-Partijen die AI-toepassingen bouwen, integreren met je bestaande systemen en in productie brengen. Denk aan koppelingen met taalmodellen, documentverwerking of een interne assistent. Wat er bij zo'n bouwtraject komt kijken en hoe je de regie houdt, lees je op de pagina over [AI-oplossingen laten ontwikkelen](/ai-development).
+Partijen die AI-toepassingen bouwen, integreren met je bestaande systemen en in productie brengen. Denk aan koppelingen met taalmodellen, documentverwerking of een interne assistent. Wat er bij zo'n bouwtraject komt kijken en hoe je de regie houdt, lees je op de pagina over [AI-oplossingen laten ontwikkelen](/nl/ai-development).
 
 ### Data en BI
 
-Specialisten voor datakwaliteit, datamodellen, dashboards en de koppeling tussen rapportage en AI. Vaak is dit het werk dat vóór een AI-toepassing moet gebeuren; waarom, lees je in [het datafundament onder AI](/inzichten/het-datafundament-onder-ai). Over de samenhang tussen beide gaat de pagina [AI en BI](/ai-voor-bedrijven/ai-en-bi).
+Specialisten voor datakwaliteit, datamodellen, dashboards en de koppeling tussen rapportage en AI. Vaak is dit het werk dat vóór een AI-toepassing moet gebeuren; waarom, lees je in [het datafundament onder AI](/nl/inzichten/het-datafundament-onder-ai). Over de samenhang tussen beide gaat de pagina [AI en BI](/nl/ai-voor-bedrijven/ai-en-bi).
 
 ### Training en verandermanagement
 
-Trainers en veranderbegeleiders die teams helpen om nieuwe werkwijzen echt te gebruiken. Workshops en trainingen geef ik zelf, zie [AI workshops en trainingen](/ai-workshop). Vraagt een adoptieprogramma meer capaciteit dan één adviseur kan leveren, dan stel ik partijen voor. Waarom adoptie bij het werk begint en niet bij de tool, beschrijf ik in [dit artikel over AI-adoptie](/inzichten/ai-adoptie-begint-bij-het-werk).
+Trainers en veranderbegeleiders die teams helpen om nieuwe werkwijzen echt te gebruiken. Workshops en trainingen geef ik zelf, zie [AI workshops en trainingen](/nl/ai-workshop). Vraagt een adoptieprogramma meer capaciteit dan één adviseur kan leveren, dan stel ik partijen voor. Waarom adoptie bij het werk begint en niet bij de tool, beschrijf ik in [dit artikel over AI-adoptie](/nl/inzichten/ai-adoptie-begint-bij-het-werk).
 
 ### Platforms en technologie
 
@@ -62,10 +63,10 @@ Wat een partner bouwt of traint, draait bijna altijd op technologie van een van 
 
 | Leverancier | Platforms | Waar het vaak om gaat |
 |---|---|---|
-| Microsoft | Microsoft Copilot, Azure AI-diensten | Organisaties die al op Microsoft 365 werken. Meer in [Microsoft Copilot voor bedrijven](/kennisbank/microsoft-copilot-voor-bedrijven). |
-| OpenAI | ChatGPT Business en Enterprise, OpenAI API | Brede inzet van een AI-assistent en maatwerk via de API. Zie [ChatGPT voor bedrijven](/kennisbank/chatgpt-voor-bedrijven). |
-| Anthropic | Claude, Claude API | Lange documenten, analyse en schrijfwerk. Zie [Claude voor bedrijven](/kennisbank/claude-voor-bedrijven). |
-| Google | Gemini in Google Workspace, Google Cloud | Organisaties die op Google Workspace werken. Zie [Gemini voor bedrijven](/kennisbank/gemini-voor-bedrijven). |
+| Microsoft | Microsoft Copilot, Azure AI-diensten | Organisaties die al op Microsoft 365 werken. Meer in [Microsoft Copilot voor bedrijven](/nl/kennisbank/microsoft-copilot-voor-bedrijven). |
+| OpenAI | ChatGPT Business en Enterprise, OpenAI API | Brede inzet van een AI-assistent en maatwerk via de API. Zie [ChatGPT voor bedrijven](/nl/kennisbank/chatgpt-voor-bedrijven). |
+| Anthropic | Claude, Claude API | Lange documenten, analyse en schrijfwerk. Zie [Claude voor bedrijven](/nl/kennisbank/claude-voor-bedrijven). |
+| Google | Gemini in Google Workspace, Google Cloud | Organisaties die op Google Workspace werken. Zie [Gemini voor bedrijven](/nl/kennisbank/gemini-voor-bedrijven). |
 | Amazon Web Services | Amazon Bedrock | Toegang tot meerdere taalmodellen binnen een bestaande AWS-omgeving. |
 | Mistral AI en Meta | Mistral-modellen, Llama | Open modellen die je zelf kunt hosten, bijvoorbeeld als data binnen de EU of je eigen omgeving moet blijven. |
 
@@ -77,9 +78,9 @@ Een partner voorstellen is ook een advies, en daar gelden dezelfde regels voor a
 
 - **Geen financieel belang.** Ik ontvang geen commissie, fee of marge van partners, en ik heb geen partnerstatus bij leveranciers.
 - **Relaties vooraf gemeld.** Ken ik een partij, dan hoor je vóór het voorstel wat de aard en de periode van die relatie is.
-- **Passend bij de vraag, niet bij het netwerk.** Eerst bepalen we of zelf bouwen, kopen of partneren de juiste keuze is. Die afweging beschrijf ik in [build, buy of partner](/inzichten/build-buy-of-partner). Pas daarna komt de vraag wie het doet.
+- **Passend bij de vraag, niet bij het netwerk.** Eerst bepalen we of zelf bouwen, kopen of partneren de juiste keuze is. Die afweging beschrijf ik in [build, buy of partner](/nl/inzichten/build-buy-of-partner). Pas daarna komt de vraag wie het doet.
 - **Alleen partijen die ik ken.** Ik stel geen partijen voor waar ik zelf geen beeld van heb.
-- **Jij kiest.** Ik stel voor, jij beslist en contracteert. Wil je meerdere partijen naast elkaar zetten, dan doen we dat met een [Vendor Review](/diensten/vendor-review).
+- **Jij kiest.** Ik stel voor, jij beslist en contracteert. Wil je meerdere partijen naast elkaar zetten, dan doen we dat met een [Vendor Review](/nl/diensten/vendor-review).
 
 ## Eén aanspreekpunt, schaalbare capaciteit
 
@@ -96,6 +97,6 @@ Voor het advies en de regie heb je één aanspreekpunt: mij. De capaciteit eromh
 <figcaption>De partner levert de capaciteit; ik lever het onafhankelijke oordeel.</figcaption>
 </figure>
 
-In de praktijk betekent dat: ik help de opdracht scherp te formuleren, toets voorstellen en planning, en bewaak of wat gebouwd wordt nog past bij het doel. Bij doorlopende trajecten kan dat als [Fractional AI Lead](/diensten/fractional-ai-lead). Hoe ik stap voor stap werk, van diagnose tot borging, staat op de pagina over mijn [werkwijze](/werkwijze).
+In de praktijk betekent dat: ik help de opdracht scherp te formuleren, toets voorstellen en planning, en bewaak of wat gebouwd wordt nog past bij het doel. Bij doorlopende trajecten kan dat als [Fractional AI Lead](/nl/diensten/fractional-ai-lead). Hoe ik stap voor stap werk, van diagnose tot borging, staat op de pagina over mijn [werkwijze](/nl/werkwijze).
 
-Wil je weten of je een partner nodig hebt, en zo ja welk type? [Plan een adviesgesprek](/contact) van dertig minuten. Aan het eind hoor je wat ik zou doen, ook als het antwoord is dat je interne team het prima zelf kan.
+Wil je weten of je een partner nodig hebt, en zo ja welk type? [Plan een adviesgesprek](/nl/contact) van dertig minuten. Aan het eind hoor je wat ik zou doen, ook als het antwoord is dat je interne team het prima zelf kan.

@@ -1,6 +1,7 @@
 ---
 id: C9-02
-url: /ai-workshop/copilot-training
+lang: nl
+url: /nl/ai-workshop/copilot-training
 parent: C9-00
 cluster: "9. AI workshops & training"
 pageType: Spoke
@@ -12,8 +13,8 @@ metaDescription: "Haal meer uit Microsoft Copilot met een praktische training vo
 keyphrase: training copilot
 eyebrow: "Copilot training"
 lede: "Licenties voor Microsoft Copilot zijn snel uitgedeeld; dagelijks gebruik komt niet vanzelf. Een training Copilot laat je team zien wat het in Outlook, Teams, Word en Excel echt oplevert, waar het tekortschiet en hoe je veilig werkt met bedrijfsdata. Praktisch, met jullie eigen taken als oefenmateriaal."
-primaryCta: { label: "Vraag een training aan", href: /contact }
-secondaryCta: { label: "Bekijk het AI Readiness Assessment", href: /diensten/ai-readiness-assessment }
+primaryCta: { label: "Vraag een training aan", href: /nl/contact }
+secondaryCta: { label: "Bekijk het AI Readiness Assessment", href: /nl/diensten/ai-readiness-assessment }
 summary:
   - "Oefenen met eigen taken in Outlook, Teams, Word, Excel en PowerPoint."
   - "Aandacht voor rechten, gevoelige data en het controleren van uitkomsten."
@@ -45,7 +46,7 @@ sources:
 
 ## Wat leer je in de Copilot training?
 
-Een training Copilot draait bij mij niet om een rondleiding langs alle knoppen. Die vinden mensen zelf wel. Het draait om de vraag welke taken van jouw team sneller of beter gaan met Copilot, en hoe je de uitkomst controleert voordat je hem gebruikt. Daarom werk ik met drie tot vijf herkenbare taken per rol, uit jullie eigen werk. Waarom die aanpak meer oplevert dan een algemene demo, beschreef ik in [AI-adoptie begint bij het werk](/inzichten/ai-adoptie-begint-bij-het-werk).
+Een training Copilot draait bij mij niet om een rondleiding langs alle knoppen. Die vinden mensen zelf wel. Het draait om de vraag welke taken van jouw team sneller of beter gaan met Copilot, en hoe je de uitkomst controleert voordat je hem gebruikt. Daarom werk ik met drie tot vijf herkenbare taken per rol, uit jullie eigen werk. Waarom die aanpak meer oplevert dan een algemene demo, beschreef ik in [AI-adoptie begint bij het werk](/nl/inzichten/ai-adoptie-begint-bij-het-werk).
 
 Deelnemers leren:
 
@@ -54,7 +55,7 @@ Deelnemers leren:
 - **Controleren:** bronnen nalopen, cijfers narekenen en herkennen wanneer een samenvatting iets weglaat.
 - **Grenzen kennen:** welke taken je beter niet aan Copilot overlaat, en welke gegevens er niet in horen.
 
-Microsoft heeft het product inmiddels hernoemd: Microsoft 365 Copilot heet nu Microsoft Copilot, en Microsoft 365 Copilot Chat heet Microsoft Copilot Chat (stand september 2026). In licenties en schermen kom je de oude namen soms nog tegen. Wil je eerst een overzicht van wat Copilot is en welke varianten er zijn, lees dan [Microsoft Copilot voor bedrijven](/kennisbank/microsoft-copilot-voor-bedrijven) in de kennisbank.
+Microsoft heeft het product inmiddels hernoemd: Microsoft 365 Copilot heet nu Microsoft Copilot, en Microsoft 365 Copilot Chat heet Microsoft Copilot Chat (stand september 2026). In licenties en schermen kom je de oude namen soms nog tegen. Wil je eerst een overzicht van wat Copilot is en welke varianten er zijn, lees dan [Microsoft Copilot voor bedrijven](/nl/kennisbank/microsoft-copilot-voor-bedrijven) in de kennisbank.
 
 ## Toepassingen in Microsoft 365
 
@@ -89,7 +90,7 @@ Verder stelt Microsoft (stand september 2026):
 - gevoeligheidslabels en versleuteling uit Microsoft Purview worden gerespecteerd;
 - gegenereerde antwoorden zijn niet gegarandeerd juist en moeten door de gebruiker worden gecontroleerd.
 
-In de training vertaal ik dat naar gedrag: wat deel je wel en niet, hoe herken je een antwoord dat op een verkeerde bron leunt, en wat doe je als Copilot iets laat zien dat je niet had mogen zien. De basis daarvoor, begrijpen hoe AI werkt en waar de risico's zitten, is ook wat een [training AI-geletterdheid](/ai-workshop/ai-geletterdheid-training) behandelt. Die twee zijn goed te combineren.
+In de training vertaal ik dat naar gedrag: wat deel je wel en niet, hoe herken je een antwoord dat op een verkeerde bron leunt, en wat doe je als Copilot iets laat zien dat je niet had mogen zien. De basis daarvoor, begrijpen hoe AI werkt en waar de risico's zitten, is ook wat een [training AI-geletterdheid](/nl/ai-workshop/ai-geletterdheid-training) behandelt. Die twee zijn goed te combineren.
 
 ## Programma en investering
 
@@ -105,9 +106,9 @@ Een Copilot training is maatwerk. Een programma kan er bijvoorbeeld zo uitzien:
 <figcaption>Een voorbeeld van de opzet; duur en invulling hangen af van de groep en het doel.</figcaption>
 </figure>
 
-De training geef ik incompany, bij jullie op kantoor, zodat deelnemers met hun eigen account en bestanden oefenen. De training krijgt een vaste prijs; het bedrag bespreken we in de intake en je krijgt het vooraf schriftelijk bevestigd. Op de pagina [tarieven](/tarieven) lees je hoe ik prijzen opbouw.
+De training geef ik incompany, bij jullie op kantoor, zodat deelnemers met hun eigen account en bestanden oefenen. De training krijgt een vaste prijs; het bedrag bespreken we in de intake en je krijgt het vooraf schriftelijk bevestigd. Op de pagina [tarieven](/nl/tarieven) lees je hoe ik prijzen opbouw.
 
-Werkt een deel van je organisatie met ChatGPT in plaats van, of naast, Copilot? Dan past de [ChatGPT training voor bedrijven](/ai-workshop/chatgpt-training) beter. Alle vormen, van managementworkshop tot coaching, staan op de overzichtspagina over [AI workshops en trainingen](/ai-workshop).
+Werkt een deel van je organisatie met ChatGPT in plaats van, of naast, Copilot? Dan past de [ChatGPT training voor bedrijven](/nl/ai-workshop/chatgpt-training) beter. Alle vormen, van managementworkshop tot coaching, staan op de overzichtspagina over [AI workshops en trainingen](/nl/ai-workshop).
 
 <aside class="scenario" aria-label="Voorbeeldscenario">
 <p class="scenario-label">Voorbeeldscenario</p>
@@ -117,4 +118,4 @@ Werkt een deel van je organisatie met ChatGPT in plaats van, of naast, Copilot? 
 <p class="scenario-note">Fictief voorbeeld, samengesteld uit situaties die veel voorkomen. Organisatie en cijfers zijn illustratief.</p>
 </aside>
 
-Wil je weten wat een Copilot training voor jouw team kan opleveren? [Neem contact op](/contact) voor een eerste gesprek van dertig minuten.
+Wil je weten wat een Copilot training voor jouw team kan opleveren? [Neem contact op](/nl/contact) voor een eerste gesprek van dertig minuten.

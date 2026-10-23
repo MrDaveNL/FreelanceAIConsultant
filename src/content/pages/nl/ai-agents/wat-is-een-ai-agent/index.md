@@ -1,6 +1,7 @@
 ---
 id: C6-01
-url: /ai-agents/wat-is-een-ai-agent
+lang: nl
+url: /nl/ai-agents/wat-is-een-ai-agent
 parent: C6-00
 cluster: "6. AI Agents"
 pageType: Spoke
@@ -12,8 +13,8 @@ metaDescription: "Wat is een AI agent en hoe werkt het? Heldere uitleg over AI a
 keyphrase: wat is een ai agent
 eyebrow: "Uitleg"
 lede: "Wat is een AI agent, en waarom praat iedereen er ineens over? Kort gezegd: software die niet alleen antwoord geeft, maar zelf stappen zet om een doel te bereiken. In dit artikel leg ik uit hoe dat werkt, waarin een agent verschilt van een chatbot en welke soorten je tegenkomt."
-primaryCta: { label: "Lees meer over AI agents voor bedrijven", href: /ai-agents }
-secondaryCta: { label: "Bekijk het AI Readiness Assessment", href: /diensten/ai-readiness-assessment }
+primaryCta: { label: "Lees meer over AI agents voor bedrijven", href: /nl/ai-agents }
+secondaryCta: { label: "Bekijk het AI Readiness Assessment", href: /nl/diensten/ai-readiness-assessment }
 summary:
   - "Een AI agent krijgt een doel en kiest zelf de stappen, inclusief het gebruik van andere systemen."
   - "Het verschil met een chatbot zit in handelen: een agent kan dingen doen, niet alleen zeggen."
@@ -42,7 +43,7 @@ Dat is het wezenlijke verschil met de meeste AI-toepassingen die je kent. Een to
 
 De meeste agents die je nu tegenkomt, draaien op een groot taalmodel. Dat model zorgt voor het begrijpen van de opdracht en het redeneren over de volgende stap. Daaromheen zitten de onderdelen die van een taalmodel een agent maken: toegang tot tools en systemen, een geheugen voor de lopende taak en instructies over wat wel en niet mag.
 
-Wie vooral wil weten wat dit voor een organisatie betekent, vindt de toepassingen, kosten en aanpak op de pagina over [AI agents voor bedrijven](/ai-agents).
+Wie vooral wil weten wat dit voor een organisatie betekent, vindt de toepassingen, kosten en aanpak op de pagina over [AI agents voor bedrijven](/nl/ai-agents).
 
 ## Hoe werkt een AI agent?
 
@@ -65,9 +66,9 @@ Wat er in elke stap gebeurt:
 - **Plannen.** Het taalmodel bepaalt wat de logische volgende stap is. Bij een eenvoudige taak is dat één actie, bij een complexe taak een reeks.
 - **Handelen via tools.** Een tool is alles wat de agent kan aanroepen: een zoekfunctie, een database, een CRM, een agenda, een rekenmodule of een ander AI-model. Hier gaat de agent van praten naar doen.
 - **Beoordelen.** De agent kijkt naar het resultaat van zijn actie. Heeft de zoekopdracht iets opgeleverd? Past het antwoord bij de vraag? Zo niet, dan kiest hij een andere route.
-- **Geheugen.** Tijdens de taak onthoudt de agent wat hij al gedaan heeft. Sommige agents bewaren ook informatie tussen taken, wat handig is maar ook vragen oproept over welke gegevens je vasthoudt. Die vragen werk ik uit in het artikel over [AI agents en privacy](/kennisbank/ai-agents-en-avg).
+- **Geheugen.** Tijdens de taak onthoudt de agent wat hij al gedaan heeft. Sommige agents bewaren ook informatie tussen taken, wat handig is maar ook vragen oproept over welke gegevens je vasthoudt. Die vragen werk ik uit in het artikel over [AI agents en privacy](/nl/kennisbank/ai-agents-en-avg).
 
-Omdat een agent meerdere stappen achter elkaar zet, kan een fout in een vroege stap doorwerken tot in het eindresultaat, zonder dat dat eindresultaat er verkeerd uitziet. Daarom zijn logging en tussencontroles bij agents belangrijker dan bij een gewone AI-toepassing. Ik werkte dat uit in het artikel over [wat agents wel en niet kunnen](/inzichten/ai-agents-wat-ze-wel-en-niet-kunnen): agents werken goed bij omkeerbare stappen met een duidelijke eindtoets en gaan stuk op lange ketens waarin een fout stilletjes doorwerkt.
+Omdat een agent meerdere stappen achter elkaar zet, kan een fout in een vroege stap doorwerken tot in het eindresultaat, zonder dat dat eindresultaat er verkeerd uitziet. Daarom zijn logging en tussencontroles bij agents belangrijker dan bij een gewone AI-toepassing. Ik werkte dat uit in het artikel over [wat agents wel en niet kunnen](/nl/inzichten/ai-agents-wat-ze-wel-en-niet-kunnen): agents werken goed bij omkeerbare stappen met een duidelijke eindtoets en gaan stuk op lange ketens waarin een fout stilletjes doorwerkt.
 
 ## AI agent versus chatbot
 
@@ -92,7 +93,7 @@ Er bestaan verschillende indelingen. Voor een organisatie zijn twee manieren van
 **Naar opbouw.** Je ziet grofweg drie vormen:
 
 - **Enkelvoudige agents** die één afgebakende taak uitvoeren, zoals het voorbereiden van een antwoord op een klantmail.
-- **Agents binnen een [AI-workflow](/ai-automatisering/ai-workflows)**, waarbij een vaste procesflow de hoofdlijn bepaalt en de agent alleen de stappen doet die interpretatie vragen, zoals een document lezen of een vraag classificeren.
+- **Agents binnen een [AI-workflow](/nl/ai-automatisering/ai-workflows)**, waarbij een vaste procesflow de hoofdlijn bepaalt en de agent alleen de stappen doet die interpretatie vragen, zoals een document lezen of een vraag classificeren.
 - **Samenwerkende agents**, waarbij meerdere agents elk een deeltaak hebben en een coördinerende agent het werk verdeelt. Dat is krachtiger, maar ook lastiger te testen en te controleren.
 
 Voor de meeste organisaties is de tweede vorm het verstandigste startpunt: vaste regels waar het kan, een agent waar het moet.
@@ -106,7 +107,7 @@ Een paar generieke voorbeelden om het concreet te maken:
 - **Finance:** een agent vergelijkt binnenkomende facturen met inkooporders en markeert afwijkingen voor de crediteurenadministratie.
 - **Interne kennis:** een agent beantwoordt vragen van collega's op basis van handboeken en beleidsdocumenten, met verwijzing naar de bron.
 
-Een uitgebreidere lijst, per afdeling uitgewerkt met werking en benodigde koppelingen, vind je bij de [twaalf voorbeelden van AI agents](/ai-agents/voorbeelden).
+Een uitgebreidere lijst, per afdeling uitgewerkt met werking en benodigde koppelingen, vind je bij de [twaalf voorbeelden van AI agents](/nl/ai-agents/voorbeelden).
 
 <aside class="scenario" aria-label="Voorbeeldscenario">
 <p class="scenario-label">Voorbeeldscenario</p>
@@ -116,4 +117,4 @@ Een uitgebreidere lijst, per afdeling uitgewerkt met werking en benodigde koppel
 <p class="scenario-note">Fictief voorbeeld, samengesteld uit situaties die veel voorkomen. Organisatie en cijfers zijn illustratief.</p>
 </aside>
 
-Overweeg je zelf een agent, dan is de volgende vraag hoe je er een laat bouwen: wat je vooraf vastlegt, hoe je een bouwpartij kiest en wat het kost. Dat staat op de pagina over [een AI agent laten maken](/ai-agents/laten-maken). Wil je eerst sparren over de vraag of een agent de juiste oplossing is voor jouw proces? [Neem contact op](/contact) voor een vrijblijvend gesprek.
+Overweeg je zelf een agent, dan is de volgende vraag hoe je er een laat bouwen: wat je vooraf vastlegt, hoe je een bouwpartij kiest en wat het kost. Dat staat op de pagina over [een AI agent laten maken](/nl/ai-agents/laten-maken). Wil je eerst sparren over de vraag of een agent de juiste oplossing is voor jouw proces? [Neem contact op](/nl/contact) voor een vrijblijvend gesprek.

@@ -1,6 +1,7 @@
 ---
 id: C9-03
-url: /ai-workshop/chatgpt-training
+lang: nl
+url: /nl/ai-workshop/chatgpt-training
 parent: C9-00
 cluster: "9. AI workshops & training"
 pageType: Spoke
@@ -12,8 +13,8 @@ metaDescription: "Een ChatGPT training voor je team: leer betere prompts, eigen 
 keyphrase: chatgpt training
 eyebrow: "ChatGPT training"
 lede: "Veel medewerkers gebruiken ChatGPT al, vaak met een privéaccount en zonder afspraken. Een ChatGPT training brengt dat terug naar iets waar je als organisatie grip op hebt: betere prompts, herbruikbare GPT's en projecten voor terugkerend werk, en duidelijkheid over welke gegevens er wel en niet in horen."
-primaryCta: { label: "Vraag een training aan", href: /contact }
-secondaryCta: { label: "Bekijk het AI Readiness Assessment", href: /diensten/ai-readiness-assessment }
+primaryCta: { label: "Vraag een training aan", href: /nl/contact }
+secondaryCta: { label: "Bekijk het AI Readiness Assessment", href: /nl/diensten/ai-readiness-assessment }
 summary:
   - "Incompany training met taken uit het eigen werk van je team."
   - "Van betere prompts tot eigen GPT's en projecten voor terugkerend werk."
@@ -47,13 +48,13 @@ Een ChatGPT training bij mij gaat niet over trucjes of lijstjes met honderd prom
 
 Deelnemers leren:
 
-- **Betere prompts schrijven:** rol, context, voorbeeld en gewenst format meegeven, en een antwoord verbeteren door door te vragen. De achtergrond daarvan lees je in het kennisbankartikel over [prompt engineering](/kennisbank/prompt-engineering).
+- **Betere prompts schrijven:** rol, context, voorbeeld en gewenst format meegeven, en een antwoord verbeteren door door te vragen. De achtergrond daarvan lees je in het kennisbankartikel over [prompt engineering](/nl/kennisbank/prompt-engineering).
 - **Terugkerend werk vastleggen:** met eigen GPT's en projecten, zodat je niet elke keer dezelfde uitleg hoeft te geven.
 - **Controleren:** ChatGPT schrijft overtuigend, ook als het niet klopt. Deelnemers oefenen met het nalopen van feiten, bronnen en cijfers.
 - **Veilig werken:** welke gegevens niet in een tool horen, wat het verschil is tussen een privéaccount en een zakelijke omgeving, en wat de interne afspraken zijn.
 - **Kiezen:** voor welke taken ChatGPT tijd oplevert, en voor welke het meer controle kost dan het bespaart.
 
-Dat verschil tussen privé en zakelijk is geen detail. Volgens [OpenAI zelf](https://openai.com/policies/how-your-data-is-used-to-improve-model-performance/) kan inhoud uit de diensten voor particulieren worden gebruikt om modellen te trainen, tenzij de gebruiker dat uitzet via de instelling "Improve the model for everyone". Voor de zakelijke abonnementen, zoals ChatGPT Business en ChatGPT Enterprise, geeft OpenAI op de pagina over [enterprise privacy](https://openai.com/enterprise-privacy/) aan dat bedrijfsdata standaard niet voor training wordt gebruikt (stand september 2026). Wat de verschillende abonnementen verder bieden, staat in [ChatGPT voor bedrijven](/kennisbank/chatgpt-voor-bedrijven) in de kennisbank.
+Dat verschil tussen privé en zakelijk is geen detail. Volgens [OpenAI zelf](https://openai.com/policies/how-your-data-is-used-to-improve-model-performance/) kan inhoud uit de diensten voor particulieren worden gebruikt om modellen te trainen, tenzij de gebruiker dat uitzet via de instelling "Improve the model for everyone". Voor de zakelijke abonnementen, zoals ChatGPT Business en ChatGPT Enterprise, geeft OpenAI op de pagina over [enterprise privacy](https://openai.com/enterprise-privacy/) aan dat bedrijfsdata standaard niet voor training wordt gebruikt (stand september 2026). Wat de verschillende abonnementen verder bieden, staat in [ChatGPT voor bedrijven](/nl/kennisbank/chatgpt-voor-bedrijven) in de kennisbank.
 
 ## Voor wie?
 
@@ -65,9 +66,9 @@ De training past goed als:
 - je een zakelijk abonnement hebt aangeschaft of overweegt, en wilt dat het ook gebruikt wordt;
 - je wilt weten welke taken zich lenen voor ChatGPT voordat je breder uitrolt.
 
-Werkt je organisatie vooral met Microsoft 365? Dan ligt een [Copilot training](/ai-workshop/copilot-training) meer voor de hand, omdat Copilot in je bestaande apps en documenten zit. Gebruiken teams beide, dan combineren we dat in één programma.
+Werkt je organisatie vooral met Microsoft 365? Dan ligt een [Copilot training](/nl/ai-workshop/copilot-training) meer voor de hand, omdat Copilot in je bestaande apps en documenten zit. Gebruiken teams beide, dan combineren we dat in één programma.
 
-Wil je dat iedereen in de organisatie eerst een gedeelde basis heeft over wat AI is en wat de risico's zijn, begin dan met een [training in AI-geletterdheid](/ai-workshop/ai-geletterdheid-training). De ChatGPT training bouwt daarop voort.
+Wil je dat iedereen in de organisatie eerst een gedeelde basis heeft over wat AI is en wat de risico's zijn, begin dan met een [training in AI-geletterdheid](/nl/ai-workshop/ai-geletterdheid-training). De ChatGPT training bouwt daarop voort.
 
 ## Programma
 
@@ -84,9 +85,9 @@ Ik werk niet met een vast programma. Een incompany ChatGPT training kan er bijvo
 <figcaption>Een voorbeeld van de opbouw; volgorde, duur en diepgang stemmen we af op de groep.</figcaption>
 </figure>
 
-De training geef ik bij jullie op locatie, in het Nederlands of het Engels. Het programma stemmen we af in een korte intake. De training krijgt een vaste prijs; het bedrag hoor je vooraf en krijg je schriftelijk bevestigd. Hoe ik mijn prijzen opbouw, lees je bij [tarieven](/tarieven).
+De training geef ik bij jullie op locatie, in het Nederlands of het Engels. Het programma stemmen we af in een korte intake. De training krijgt een vaste prijs; het bedrag hoor je vooraf en krijg je schriftelijk bevestigd. Hoe ik mijn prijzen opbouw, lees je bij [tarieven](/nl/tarieven).
 
-Het belangrijkste deel van de training gebeurt daarna: mensen moeten de week erna in hun eigen werk kunnen toepassen wat ze hebben geoefend. Daarom eindig ik met concrete afspraken per rol, en een eigenaar binnen het team die het gebruik volgt. Andere vormen, zoals een introductie voor management of persoonlijke begeleiding, vind je in het overzicht van [AI workshops en trainingen](/ai-workshop).
+Het belangrijkste deel van de training gebeurt daarna: mensen moeten de week erna in hun eigen werk kunnen toepassen wat ze hebben geoefend. Daarom eindig ik met concrete afspraken per rol, en een eigenaar binnen het team die het gebruik volgt. Andere vormen, zoals een introductie voor management of persoonlijke begeleiding, vind je in het overzicht van [AI workshops en trainingen](/nl/ai-workshop).
 
 <aside class="scenario" aria-label="Voorbeeldscenario">
 <p class="scenario-label">Voorbeeldscenario</p>
@@ -96,4 +97,4 @@ Het belangrijkste deel van de training gebeurt daarna: mensen moeten de week ern
 <p class="scenario-note">Fictief voorbeeld, samengesteld uit situaties die veel voorkomen. Organisatie en cijfers zijn illustratief.</p>
 </aside>
 
-Benieuwd wat een ChatGPT training voor jouw team kan betekenen? [Plan een kort gesprek](/contact) en vertel waar je team nu staat.
+Benieuwd wat een ChatGPT training voor jouw team kan betekenen? [Plan een kort gesprek](/nl/contact) en vertel waar je team nu staat.

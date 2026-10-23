@@ -1,6 +1,7 @@
 ---
 id: C5-01
-url: /ai-development/ai-specialist
+lang: nl
+url: /nl/ai-development/ai-specialist
 parent: C5-00
 cluster: "5. AI Development"
 pageType: Spoke
@@ -12,8 +13,8 @@ metaDescription: "Op zoek naar een AI specialist? Lees welke expertise je nodig 
 keyphrase: ai specialist
 eyebrow: "AI specialist"
 lede: "Een AI specialist kan een strateeg zijn, een machine learning engineer of iemand die een AI-platform inricht. Wie zoekt naar een AI specialist, zoekt dus eigenlijk een specifieke expertise. Hier lees je welke soorten er zijn, hoe je bepaalt welke je nodig hebt en welke rol ik als freelance AI specialist vervul."
-primaryCta: { label: "Plan een adviesgesprek", href: /contact }
-secondaryCta: { label: "Bekijk het AI Readiness Assessment", href: /diensten/ai-readiness-assessment }
+primaryCta: { label: "Plan een adviesgesprek", href: /nl/contact }
+secondaryCta: { label: "Bekijk het AI Readiness Assessment", href: /nl/diensten/ai-readiness-assessment }
 summary:
   - "'AI specialist' is een verzamelnaam: strategische en technische specialisten doen heel ander werk."
   - "Bepaal eerst welk besluit of welk product je nodig hebt; daaruit volgt het profiel."
@@ -68,7 +69,7 @@ Grofweg zijn er twee families: strategische en technische AI specialisten. Binne
 
 **Strategische AI specialisten** werken op het niveau van besluiten. Ze helpen bepalen waar AI waarde toevoegt, welke use cases eerst moeten, of je moet bouwen, kopen of partneren, en welke risico's je daarbij loopt. Hun product is een onderbouwde keuze: een roadmap, een selectieadvies, een beoordeelde business case.
 
-**Technische AI specialisten** werken op het niveau van systemen. Een machine learning expert traint en evalueert modellen. Een AI-developer bouwt applicaties rond bestaande modellen, vaak een groot taalmodel van een leverancier. Een platformspecialist richt één specifieke omgeving in, zoals een AI-assistent binnen je kantoorsoftware. Hun product is werkende software. Wat een ontwikkelaar precies doet, lees je in [wat doet een AI developer](/kennisbank/wat-doet-een-ai-developer).
+**Technische AI specialisten** werken op het niveau van systemen. Een machine learning expert traint en evalueert modellen. Een AI-developer bouwt applicaties rond bestaande modellen, vaak een groot taalmodel van een leverancier. Een platformspecialist richt één specifieke omgeving in, zoals een AI-assistent binnen je kantoorsoftware. Hun product is werkende software. Wat een ontwikkelaar precies doet, lees je in [wat doet een AI developer](/nl/kennisbank/wat-doet-een-ai-developer).
 
 Beide families zijn nodig in een volwassen AI-traject. Het risico ontstaat als je de ene zoekt en de andere inhuurt: een technisch sterke bouwer die ook de strategische keuzes maakt, of een strateeg van wie je een werkend systeem verwacht.
 
@@ -77,26 +78,26 @@ Beide families zijn nodig in een volwassen AI-traject. Het risico ontstaat als j
 Begin bij de vraag die op tafel ligt, niet bij de functietitel. Vier situaties die vaak voorkomen:
 
 - **Je weet nog niet waar AI waarde toevoegt.** Dan heb je strategische AI-expertise nodig: iemand die kansen, risico's en randvoorwaarden in kaart brengt voordat er budget wordt vastgezet.
-- **Je moet kiezen tussen leveranciers of oplossingen.** Ook dan strategisch, maar met genoeg technische diepgang om demo's te doorzien en een test op je eigen data op te zetten. Hoe je standaardsoftware en maatwerk tegen elkaar afweegt, staat bij [AI software kiezen of laten bouwen](/ai-development/ai-software).
-- **Je weet wat je wilt en zoekt bouwcapaciteit.** Dan heb je technische specialisten nodig: je eigen team, een ontwikkelpartij of freelance ontwikkelaars. Voorbeelden van wat er gebouwd kan worden, vind je bij [AI oplossingen op maat](/ai-development/ai-oplossingen).
+- **Je moet kiezen tussen leveranciers of oplossingen.** Ook dan strategisch, maar met genoeg technische diepgang om demo's te doorzien en een test op je eigen data op te zetten. Hoe je standaardsoftware en maatwerk tegen elkaar afweegt, staat bij [AI software kiezen of laten bouwen](/nl/ai-development/ai-software).
+- **Je weet wat je wilt en zoekt bouwcapaciteit.** Dan heb je technische specialisten nodig: je eigen team, een ontwikkelpartij of freelance ontwikkelaars. Voorbeelden van wat er gebouwd kan worden, vind je bij [AI oplossingen op maat](/nl/ai-development/ai-oplossingen).
 - **Er lopen initiatieven zonder eigenaar.** Dan zoek je een AI-lead die stuurt en borgt, eventueel parttime.
 
-Twijfel je tussen inhuren en aannemen, kijk dan ook naar de kosten. Het overzicht van het [salaris van een AI specialist](/kennisbank/ai-specialist-salaris) zet de bekende salarisbronnen op een rij. Praktische criteria voor het selecteren van een externe adviseur staan op de pagina over [een AI consultant inhuren](/ai-consultancy/ai-consultant-inhuren).
+Twijfel je tussen inhuren en aannemen, kijk dan ook naar de kosten. Het overzicht van het [salaris van een AI specialist](/nl/kennisbank/ai-specialist-salaris) zet de bekende salarisbronnen op een rij. Praktische criteria voor het selecteren van een externe adviseur staan op de pagina over [een AI consultant inhuren](/nl/ai-consultancy/ai-consultant-inhuren).
 
 ## Mijn specialisaties
 
-Ik ben een freelance AI consultant, een AI specialist aan de strategische kant: een [onafhankelijk AI-adviseur](/over) die alleen werkt. Ik schrijf geen code en verkoop geen software of implementaties. Dat is een bewuste keuze: zodra ik aan de bouw verdien, heb ik belang bij een grotere scope.
+Ik ben een freelance AI consultant, een AI specialist aan de strategische kant: een [onafhankelijk AI-adviseur](/nl/over) die alleen werkt. Ik schrijf geen code en verkoop geen software of implementaties. Dat is een bewuste keuze: zodra ik aan de bouw verdien, heb ik belang bij een grotere scope.
 
 Waar ik wel in gespecialiseerd ben:
 
 - **AI-strategie en prioritering.** Van losse ideeën naar een portfolio met onderbouwde keuzes en een roadmap.
-- **Readiness.** Een doorlichting op strategie, data, technologie, mensen en governance. Het [AI Readiness Assessment](/diensten/ai-readiness-assessment) kost {{pricelc:ai-readiness-assessment}} en duurt {{timing:ai-readiness-assessment}}.
-- **Leveranciersselectie.** Criteria vooraf, een gelijk scenario op jouw data en een TCO-vergelijking over drie jaar. Een voorbeeld is de case over [vendorselectie in enterprise retail](/cases/vendorselectie-enterprise-retail).
+- **Readiness.** Een doorlichting op strategie, data, technologie, mensen en governance. Het [AI Readiness Assessment](/nl/diensten/ai-readiness-assessment) kost {{pricelc:ai-readiness-assessment}} en duurt {{timing:ai-readiness-assessment}}.
+- **Leveranciersselectie.** Criteria vooraf, een gelijk scenario op jouw data en een TCO-vergelijking over drie jaar. Een voorbeeld is de case over [vendorselectie in enterprise retail](/nl/cases/vendorselectie-enterprise-retail).
 - **Toetsing en due diligence.** Business cases en AI-proposities beoordelen op waarde, risico en haalbaarheid.
 - **Governance.** Rollen, besliskaders en de eisen uit de AI-verordening in een werkbare vorm.
-- **Begeleiding vanuit klantzijde.** Als [Fractional AI Lead](/diensten/fractional-ai-lead) stuur ik mee op uitvoering door je eigen team of een bouwpartij.
+- **Begeleiding vanuit klantzijde.** Als [Fractional AI Lead](/nl/diensten/fractional-ai-lead) stuur ik mee op uitvoering door je eigen team of een bouwpartij.
 
-Voor het bouwen zelf werk je met je eigen team of met partijen die je rechtstreeks contracteert. Als dat helpt, stel ik ontwikkelaars voor die ik ken, zonder marge op hun tarief; hoe dat werkt, lees je bij het [partnernetwerk](/partnernetwerk). Een overzicht van het hele ontwikkeltraject, van specificatie tot beheer, staat op de pagina over [AI development](/ai-development).
+Voor het bouwen zelf werk je met je eigen team of met partijen die je rechtstreeks contracteert. Als dat helpt, stel ik ontwikkelaars voor die ik ken, zonder marge op hun tarief; hoe dat werkt, lees je bij het [partnernetwerk](/nl/partnernetwerk). Een overzicht van het hele ontwikkeltraject, van specificatie tot beheer, staat op de pagina over [AI development](/nl/ai-development).
 
 <aside class="scenario" aria-label="Voorbeeldscenario">
 <p class="scenario-label">Voorbeeldscenario</p>
@@ -106,4 +107,4 @@ Voor het bouwen zelf werk je met je eigen team of met partijen die je rechtstree
 <p class="scenario-note">Fictief voorbeeld, samengesteld uit situaties die veel voorkomen. Organisatie en cijfers zijn illustratief.</p>
 </aside>
 
-Wil je weten welke AI-expertise jouw vraag nodig heeft? [Plan een adviesgesprek](/contact) van dertig minuten. Als het antwoord is dat je een bouwer nodig hebt en geen adviseur, hoor je dat ook.
+Wil je weten welke AI-expertise jouw vraag nodig heeft? [Plan een adviesgesprek](/nl/contact) van dertig minuten. Als het antwoord is dat je een bouwer nodig hebt en geen adviseur, hoor je dat ook.

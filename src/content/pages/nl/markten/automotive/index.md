@@ -1,6 +1,7 @@
 ---
 id: C7-04
-url: /markten/automotive
+lang: nl
+url: /nl/markten/automotive
 parent: C7-00
 cluster: "7. AI markten"
 pageType: Branche
@@ -12,8 +13,8 @@ metaDescription: "Hoe gebruiken autobedrijven AI? Bekijk toepassingen in verkoop
 keyphrase: ai automotive
 eyebrow: "AI in automotive"
 lede: "AI in automotive gaat voor de meeste autobedrijven niet over zelfrijdende auto's, maar over leads die blijven liggen, een volle werkplaatsplanning en klantvragen buiten openingstijd. Op deze pagina lees je waar AI een dealer of autobedrijf echt helpt, wat je daarvoor nodig hebt en welke regels meespelen."
-primaryCta: { label: "Lees meer over Markten", href: /markten }
-secondaryCta: { label: "Plan een adviesgesprek", href: /contact }
+primaryCta: { label: "Lees meer over Markten", href: /nl/markten }
+secondaryCta: { label: "Plan een adviesgesprek", href: /nl/contact }
 summary:
   - "De meeste winst zit in verkoopopvolging, werkplaats en klantcontact, niet in de auto zelf."
   - "Begin bij één proces met een meetbaar knelpunt en een eigenaar in de lijn."
@@ -55,7 +56,7 @@ De knelpunten zijn in veel autobedrijven herkenbaar:
 - **Klantcontact:** vragen over afspraken, status van de reparatie of een offerte komen ook 's avonds en in het weekend binnen.
 - **Data verspreid:** het dealermanagementsysteem, het CRM en de systemen van het merk praten niet altijd met elkaar.
 
-AI kan op elk van die punten iets doen, maar niet overal tegelijk. De vraag is dus niet welke toepassing kan, maar welke het meeste oplevert voor jouw bedrijf. Een bruikbaar kader om dat te bepalen staat in mijn stuk over [welke AI use cases resultaat leveren](/inzichten/welke-ai-use-cases-leveren-resultaat).
+AI kan op elk van die punten iets doen, maar niet overal tegelijk. De vraag is dus niet welke toepassing kan, maar welke het meeste oplevert voor jouw bedrijf. Een bruikbaar kader om dat te bepalen staat in mijn stuk over [welke AI use cases resultaat leveren](/nl/inzichten/welke-ai-use-cases-leveren-resultaat).
 
 <figure class="diagram" role="img" aria-label="De klantreis van een autobedrijf in vijf stappen, met per stap een AI-toepassing: lead opvolgen, offerte en proefrit, aflevering, onderhoud en werkplaats, inruil en occasions">
 <ol class="flow">
@@ -78,7 +79,7 @@ Een dealer is tegelijk een retailer, een servicebedrijf en een schakel in de ket
 
 **Als schakel in de keten** heb je te maken met de systemen en afspraken van het merk. Sommige functies komen vanzelf via de importeur. Het loont om eerst te weten wat daar in de pijplijn zit, voordat je zelf iets aanschaft.
 
-Mijn zwaartepunt ligt bij industrie, retail, financiële dienstverlening en zakelijke dienstverlening, niet specifiek bij automotive. Een autobedrijf raakt wel aan al die werelden. De vraagstukken zijn dezelfde: wat pak je eerst op, welke leverancier kies je en hoe zorg je dat het blijft werken. Hoe dat eruitziet in een industriële omgeving, lees je in de case over een [AI-roadmap voor een internationale maakorganisatie](/cases/ai-roadmap-internationale-maakorganisatie): losse pilots terugbrengen tot één roadmap, met een helder besluit over wat stopt.
+Mijn zwaartepunt ligt bij industrie, retail, financiële dienstverlening en zakelijke dienstverlening, niet specifiek bij automotive. Een autobedrijf raakt wel aan al die werelden. De vraagstukken zijn dezelfde: wat pak je eerst op, welke leverancier kies je en hoe zorg je dat het blijft werken. Hoe dat eruitziet in een industriële omgeving, lees je in de case over een [AI-roadmap voor een internationale maakorganisatie](/nl/cases/ai-roadmap-internationale-maakorganisatie): losse pilots terugbrengen tot één roadmap, met een helder besluit over wat stopt.
 
 <aside class="scenario" aria-label="Voorbeeldscenario">
 <p class="scenario-label">Voorbeeldscenario</p>
@@ -96,9 +97,9 @@ Een AI-assistent voor autobedrijven kan twee kanten op kijken: naar de klant of 
 
 **Interne assistenten** helpen verkopers en monteurs: een vraag stellen over een model, een garantievoorwaarde of een werkinstructie, en een antwoord krijgen met de bron erbij. Hier is de kwaliteit van je eigen documentatie doorslaggevend. Een assistent die in rommelige bestanden zoekt, geeft rommelige antwoorden.
 
-Een stap verder gaan AI-agents, die zelfstandig taken uitvoeren in je systemen, zoals een afspraak inplannen en de bevestiging versturen. Wat daar nu al realistisch is, zie je in de [voorbeelden van AI-agents in de praktijk](/ai-agents/voorbeelden).
+Een stap verder gaan AI-agents, die zelfstandig taken uitvoeren in je systemen, zoals een afspraak inplannen en de bevestiging versturen. Wat daar nu al realistisch is, zie je in de [voorbeelden van AI-agents in de praktijk](/nl/ai-agents/voorbeelden).
 
-Ik bouw of verkoop zelf geen assistenten. Wel help ik je kiezen tussen wat je DMS-leverancier, het merk of een gespecialiseerde partij aanbiedt, en toets ik of de belofte klopt. Dat kan bijvoorbeeld met een [onafhankelijke Vendor Review](/diensten/vendor-review), met dezelfde vragen en hetzelfde scenario voor elke leverancier.
+Ik bouw of verkoop zelf geen assistenten. Wel help ik je kiezen tussen wat je DMS-leverancier, het merk of een gespecialiseerde partij aanbiedt, en toets ik of de belofte klopt. Dat kan bijvoorbeeld met een [onafhankelijke Vendor Review](/nl/diensten/vendor-review), met dezelfde vragen en hetzelfde scenario voor elke leverancier.
 
 ## AI automatisering in automotive
 
@@ -108,16 +109,16 @@ Automatisering met AI werkt het best op taken die vaak voorkomen, een duidelijk 
 - advertentieteksten voor occasions opstellen op basis van de specificaties;
 - garantie- en goodwilldeclaraties voorbereiden, zodat een medewerker alleen nog controleert.
 
-Twee kanttekeningen. Ten eerste: de techniek is zelden het probleem. Waar het vastloopt, is dat niemand na de pilot eigenaar is of dat het werkproces niet mag veranderen. Ten tweede: tijdwinst op papier is pas echte winst als iemand die tijd anders gaat besteden. Meer over die kant lees je in [AI-adoptie begint bij het werk](/inzichten/ai-adoptie-begint-bij-het-werk). Een breder overzicht van processen die zich lenen voor automatisering vind je bij [AI automatisering](/ai-automatisering).
+Twee kanttekeningen. Ten eerste: de techniek is zelden het probleem. Waar het vastloopt, is dat niemand na de pilot eigenaar is of dat het werkproces niet mag veranderen. Ten tweede: tijdwinst op papier is pas echte winst als iemand die tijd anders gaat besteden. Meer over die kant lees je in [AI-adoptie begint bij het werk](/nl/inzichten/ai-adoptie-begint-bij-het-werk). Een breder overzicht van processen die zich lenen voor automatisering vind je bij [AI automatisering](/nl/ai-automatisering).
 
 ### Welke regels gelden er?
 
-Voor de meeste dealertoepassingen is de AI Act overzichtelijk. Een chatbot of een tekstgenerator is geen hoog-risicotoepassing, maar wel geldt sinds augustus 2026 een transparantieplicht: mensen moeten weten dat ze met AI te maken hebben. Het ligt anders als je AI inzet bij het selecteren van sollicitanten of bij het beoordelen van de kredietwaardigheid van particulieren. Die toepassingen staan op de hoog-risicolijst van de AI Act. Door de Digital Omnibus gelden de eisen daarvoor volgens de [Europese Commissie](https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai) vanaf 2 december 2027. Een compact overzicht van wat de wet vraagt, staat op de pagina over [de AI Act](/ai-beleid/ai-act).
+Voor de meeste dealertoepassingen is de AI Act overzichtelijk. Een chatbot of een tekstgenerator is geen hoog-risicotoepassing, maar wel geldt sinds augustus 2026 een transparantieplicht: mensen moeten weten dat ze met AI te maken hebben. Het ligt anders als je AI inzet bij het selecteren van sollicitanten of bij het beoordelen van de kredietwaardigheid van particulieren. Die toepassingen staan op de hoog-risicolijst van de AI Act. Door de Digital Omnibus gelden de eisen daarvoor volgens de [Europese Commissie](https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai) vanaf 2 december 2027. Een compact overzicht van wat de wet vraagt, staat op de pagina over [de AI Act](/nl/ai-beleid/ai-act).
 
 AI in het voertuig zelf, zoals rijhulpsystemen, valt onder de Europese typegoedkeuring. De AI Act noemt de verordeningen daarvoor (2018/858 en 2019/2144) in bijlage I, afdeling B, en laat de eisen via die sectorregels lopen. Voor de Europese typegoedkeuring moeten fabrikanten daarnaast voldoen aan de UNECE-regels voor cybersecurity (R155) en software-updates (R156). Dat is vooral het terrein van merk en importeur. En voor alle klant- en medewerkersgegevens blijft natuurlijk de AVG gelden.
 
 ### Zo begin je
 
-Kies één proces met een meetbaar knelpunt, wijs een eigenaar aan in de lijn en spreek vooraf af wanneer je stopt. Weet je nog niet welk proces dat is, dan is een [AI Readiness Assessment](/diensten/ai-readiness-assessment) een logisch startpunt: in {{timing:ai-readiness-assessment}} weet je waar je staat en wat de eerste stap is.
+Kies één proces met een meetbaar knelpunt, wijs een eigenaar aan in de lijn en spreek vooraf af wanneer je stopt. Weet je nog niet welk proces dat is, dan is een [AI Readiness Assessment](/nl/diensten/ai-readiness-assessment) een logisch startpunt: in {{timing:ai-readiness-assessment}} weet je waar je staat en wat de eerste stap is.
 
-Ben je benieuwd hoe andere sectoren dit aanpakken? Lees dan hoe [AI in de zorg](/markten/zorg) wordt ingezet, waar privacy en veiligheid zwaarder wegen, of hoe [AI voor marketing](/markten/marketing) werkt, wat dicht bij de verkoopkant van een autobedrijf ligt. Alle branches staan op het [overzicht van markten](/markten). Wil je sparren over jouw situatie? [Plan een gesprek van dertig minuten](/contact).
+Ben je benieuwd hoe andere sectoren dit aanpakken? Lees dan hoe [AI in de zorg](/nl/markten/zorg) wordt ingezet, waar privacy en veiligheid zwaarder wegen, of hoe [AI voor marketing](/nl/markten/marketing) werkt, wat dicht bij de verkoopkant van een autobedrijf ligt. Alle branches staan op het [overzicht van markten](/nl/markten). Wil je sparren over jouw situatie? [Plan een gesprek van dertig minuten](/nl/contact).

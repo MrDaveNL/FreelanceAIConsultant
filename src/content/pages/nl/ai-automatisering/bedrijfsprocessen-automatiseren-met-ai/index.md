@@ -1,6 +1,7 @@
 ---
 id: C3-03
-url: /ai-automatisering/bedrijfsprocessen-automatiseren-met-ai
+lang: nl
+url: /nl/ai-automatisering/bedrijfsprocessen-automatiseren-met-ai
 parent: C3-00
 cluster: "3. AI Automatisering"
 pageType: Spoke
@@ -12,8 +13,8 @@ metaDescription: "Welke bedrijfsprocessen kun je automatiseren met AI? Lees hoe 
 keyphrase: bedrijfsprocessen automatiseren met ai
 eyebrow: "Processen automatiseren"
 lede: "Bedrijfsprocessen automatiseren met AI begint niet bij een tool, maar bij de vraag welk proces het waard is. Op deze pagina lees je welke processen zich ervoor lenen, hoe je er één kiest, hoe je het omzet in een werkende workflow en hoe je de besparing vooraf eerlijk inschat."
-primaryCta: { label: "Lees meer over AI Automatisering", href: /ai-automatisering }
-secondaryCta: { label: "Bekijk het AI Readiness Assessment", href: /diensten/ai-readiness-assessment }
+primaryCta: { label: "Lees meer over AI Automatisering", href: /nl/ai-automatisering }
+secondaryCta: { label: "Bekijk het AI Readiness Assessment", href: /nl/diensten/ai-readiness-assessment }
 summary:
   - "Geschikte processen: hoog volume, voorspelbare input, een bestaande controlestap."
   - "Kies één proces met een eigenaar en meet de huidige situatie voordat je begint."
@@ -34,7 +35,7 @@ faq:
 
 ## Welke bedrijfsprocessen kun je automatiseren met AI?
 
-Bedrijfsprocessen automatiseren met AI werkt het best bij processen waar veel tekst, documenten of vrije input in zit. Denk aan e-mails die gelezen moeten worden, pdf's waar gegevens uit moeten, of antwoorden die telkens net anders geformuleerd moeten zijn. Processen met nette velden en vaste regels automatiseer je meestal goedkoper en betrouwbaarder zonder AI; dat verschil staat uitgewerkt in [RPA versus AI-automatisering](/kennisbank/rpa-vs-ai-automatisering).
+Bedrijfsprocessen automatiseren met AI werkt het best bij processen waar veel tekst, documenten of vrije input in zit. Denk aan e-mails die gelezen moeten worden, pdf's waar gegevens uit moeten, of antwoorden die telkens net anders geformuleerd moeten zijn. Processen met nette velden en vaste regels automatiseer je meestal goedkoper en betrouwbaarder zonder AI; dat verschil staat uitgewerkt in [RPA versus AI-automatisering](/nl/kennisbank/rpa-vs-ai-automatisering).
 
 Welke processen kom je dan tegen? Hieronder vier gebieden waar de combinatie van volume en voorspelbare input vaak voorkomt, zowel bij grotere organisaties als in het mkb.
 
@@ -46,7 +47,7 @@ Een AI-stap leest binnenkomende vragen, bepaalt het onderwerp en de urgentie, en
 
 Bij offertes haalt AI de relevante gegevens uit de aanvraag (product, aantallen, leverdatum, bijzonderheden) en vult een concept in op basis van je standaardteksten en prijslijst. Een verkoper controleert en verstuurt. Bij inkomende facturen leest AI de factuurgegevens uit, vergelijkt ze met de inkooporder en legt alleen afwijkingen voor aan de crediteurenadministratie.
 
-Dit patroon, waarbij het systeem gegevens uit een document haalt en een mens het oordeel houdt, is ook de kern van de case over [KYC-documentanalyse bij een financiële dienstverlener](/cases/kyc-documentanalyse-financial-services). Daar werden extractie en oordeel bewust gescheiden.
+Dit patroon, waarbij het systeem gegevens uit een document haalt en een mens het oordeel houdt, is ook de kern van de case over [KYC-documentanalyse bij een financiële dienstverlener](/nl/cases/kyc-documentanalyse-financial-services). Daar werden extractie en oordeel bewust gescheiden.
 
 ### Leadopvolging
 
@@ -66,7 +67,7 @@ De meeste organisaties hebben geen gebrek aan ideeën, maar aan een manier om te
 4. **Controle:** is er al iemand die het resultaat bekijkt, of moet die stap erbij?
 5. **Eigenaar:** is er één persoon in de lijn die er beter van wordt en het wil trekken?
 
-Processen die laag scoren op controle of eigenaar vallen af, hoe aantrekkelijk ze ook klinken. De achtergrond bij deze criteria staat in [welke AI-use cases echt resultaat leveren](/inzichten/welke-ai-use-cases-leveren-resultaat).
+Processen die laag scoren op controle of eigenaar vallen af, hoe aantrekkelijk ze ook klinken. De achtergrond bij deze criteria staat in [welke AI-use cases echt resultaat leveren](/nl/inzichten/welke-ai-use-cases-leveren-resultaat).
 
 Stel daarnaast één vraag die vaak wordt overgeslagen: waarom bestaat deze stap eigenlijk? Soms blijkt een proces er alleen te zijn omdat twee systemen niet met elkaar praten. Dan los je dat op, in plaats van het handwerk sneller te maken.
 
@@ -99,9 +100,9 @@ Heb je een proces gekozen, dan zet je het in vijf stappen om naar een werkende w
 
 **AI-stap bepalen.** Kies zo min mogelijk stappen voor AI en laat de rest aan regels over. Leg vast wat de AI mag (voorstellen, voorbereiden) en wat niet (versturen, boeken, betalen), en wat er gebeurt als hij twijfelt.
 
-**Bouwen en testen.** Voor veel processen volstaat een workflowplatform; hoe zo'n stroom is opgebouwd, lees je bij [AI workflows](/ai-automatisering/ai-workflows). Welke platforms en assistenten er zijn en hoe je kiest, staat bij [AI tools](/ai-automatisering/ai-tools). Het bouwen doet je eigen team of een partner die je rechtstreeks contracteert. Test met een vaste set echte voorbeelden, inclusief de lastige gevallen.
+**Bouwen en testen.** Voor veel processen volstaat een workflowplatform; hoe zo'n stroom is opgebouwd, lees je bij [AI workflows](/nl/ai-automatisering/ai-workflows). Welke platforms en assistenten er zijn en hoe je kiest, staat bij [AI tools](/nl/ai-automatisering/ai-tools). Het bouwen doet je eigen team of een partner die je rechtstreeks contracteert. Test met een vaste set echte voorbeelden, inclusief de lastige gevallen.
 
-**Live en meten.** Laat de nieuwe werkwijze een paar weken naast de oude lopen en vergelijk. Pas als de correcties laag en stabiel zijn, schaal je op. Moet de automatisering zelf stappen kiezen in plaats van een vaste route te volgen, dan heb je het over [AI agents](/ai-agents), en gelden er strengere eisen aan controle.
+**Live en meten.** Laat de nieuwe werkwijze een paar weken naast de oude lopen en vergelijk. Pas als de correcties laag en stabiel zijn, schaal je op. Moet de automatisering zelf stappen kiezen in plaats van een vaste route te volgen, dan heb je het over [AI agents](/nl/ai-agents), en gelden er strengere eisen aan controle.
 
 ## Besparing berekenen
 
@@ -118,6 +119,6 @@ Een besparing die je vooraf niet kunt uitrekenen, kun je achteraf ook niet aanto
 
 Reken daarna twee scenario's door: een pessimistisch scenario (lagere adoptie, meer controletijd) en een scenario met het dubbele volume, omdat verbruikskosten meestal meegroeien met het gebruik. Zo krijg je een bandbreedte in plaats van één bedrag dat niemand gelooft.
 
-En de belangrijkste regel: 35 bespaarde uren zijn pas € 2.100 waard als die uren ergens anders aantoonbaar iets opleveren, bijvoorbeeld minder inhuur of meer offertes met dezelfde bezetting. Hoe je dat verdedigbaar maakt richting je CFO, lees je in [de business case voor AI](/inzichten/de-business-case-voor-ai).
+En de belangrijkste regel: 35 bespaarde uren zijn pas € 2.100 waard als die uren ergens anders aantoonbaar iets opleveren, bijvoorbeeld minder inhuur of meer offertes met dezelfde bezetting. Hoe je dat verdedigbaar maakt richting je CFO, lees je in [de business case voor AI](/nl/inzichten/de-business-case-voor-ai).
 
-Deze pagina hoort bij het overzicht over [AI automatisering](/ai-automatisering). Wil je weten welke processen in jouw organisatie het meeste opleveren, dan brengt het [AI Readiness Assessment](/diensten/ai-readiness-assessment) dat in {{timing:ai-readiness-assessment}} in kaart. Of [bespreek je situatie in een adviesgesprek](/contact) van dertig minuten.
+Deze pagina hoort bij het overzicht over [AI automatisering](/nl/ai-automatisering). Wil je weten welke processen in jouw organisatie het meeste opleveren, dan brengt het [AI Readiness Assessment](/nl/diensten/ai-readiness-assessment) dat in {{timing:ai-readiness-assessment}} in kaart. Of [bespreek je situatie in een adviesgesprek](/nl/contact) van dertig minuten.

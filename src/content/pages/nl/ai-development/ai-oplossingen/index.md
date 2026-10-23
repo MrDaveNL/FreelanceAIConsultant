@@ -1,6 +1,7 @@
 ---
 id: C5-03
-url: /ai-development/ai-oplossingen
+lang: nl
+url: /nl/ai-development/ai-oplossingen
 parent: C5-00
 cluster: "5. AI Development"
 pageType: Spoke
@@ -12,8 +13,8 @@ metaDescription: "AI oplossingen op maat die aansluiten op jouw processen en dat
 keyphrase: ai oplossingen
 eyebrow: "AI oplossingen"
 lede: "Goede AI oplossingen beginnen bij een concreet knelpunt in je werk, niet bij een technologie. Op deze pagina lees je welke soorten AI oplossingen er zijn, wanneer maatwerk loont en hoe je van idee tot livegang komt. En welke rol ik daarin speel: niet als bouwer, maar als onafhankelijk adviseur aan jouw kant."
-primaryCta: { label: "Plan een adviesgesprek", href: /contact }
-secondaryCta: { label: "Bekijk het AI Readiness Assessment", href: /diensten/ai-readiness-assessment }
+primaryCta: { label: "Plan een adviesgesprek", href: /nl/contact }
+secondaryCta: { label: "Bekijk het AI Readiness Assessment", href: /nl/diensten/ai-readiness-assessment }
 summary:
   - "Een AI oplossing is een werkproces met AI erin, niet alleen een stuk software."
   - "Begin standaard en laat alleen maatwerk bouwen waar jouw kennis het verschil maakt."
@@ -41,7 +42,7 @@ Een AI oplossing is een toepassing waarin kunstmatige intelligentie een concreet
 
 Dat verschil verklaart waarom veel AI-projecten technisch slagen en in de praktijk toch weinig opleveren. Het model werkt, maar niemand heeft bedacht wie de uitkomst controleert, wat er gebeurt bij twijfel, of hoe het in de dagelijkse routine past.
 
-Ik ben een [onafhankelijk AI-adviseur](/over) en bouw zelf geen AI oplossingen. Ik help je bepalen welke oplossing zinvol is, kies samen met jou een oplossing of bouwpartij en toets vanuit jouw kant of het resultaat werkt. Het bouwen zelf doet je eigen team of een partner die je rechtstreeks contracteert.
+Ik ben een [onafhankelijk AI-adviseur](/nl/over) en bouw zelf geen AI oplossingen. Ik help je bepalen welke oplossing zinvol is, kies samen met jou een oplossing of bouwpartij en toets vanuit jouw kant of het resultaat werkt. Het bouwen zelf doet je eigen team of een partner die je rechtstreeks contracteert.
 
 ## Voorbeelden van AI oplossingen
 
@@ -52,9 +53,9 @@ De meeste AI solutions die in organisaties echt worden gebruikt, vallen in een h
 - **Classificeren en routeren.** Binnenkomende e-mails, tickets of meldingen automatisch sorteren en bij de juiste persoon leggen.
 - **Samenvatten en opstellen.** Verslagen, offertes of rapportages voorbereiden op basis van bestaande informatie.
 - **Voorspellen.** Vraag, uitval of risico's inschatten op basis van historische data.
-- **AI agents.** Systemen die zelf stappen uitvoeren in je software, binnen afgesproken grenzen. Meer daarover bij [AI agents](/ai-agents).
+- **AI agents.** Systemen die zelf stappen uitvoeren in je software, binnen afgesproken grenzen. Meer daarover bij [AI agents](/nl/ai-agents).
 
-Twee cases laten zien hoe zo'n oplossing er in de praktijk uitziet. Bij [KYC-documentanalyse voor een financiële dienstverlener](/cases/kyc-documentanalyse-financial-services) zat de uitdaging vooral in het werkproces: het systeem doet voorstellen, de analist beslist. Bij de [interne AI-assistent voor kenniswerkers](/cases/interne-ai-assistent-kenniswerkers) was de techniek snel klaar en ging het meeste werk zitten in adoptie en een paar heldere werkscenario's. Meer herkenbare toepassingen per afdeling staan bij [AI voorbeelden](/kennisbank/ai-voorbeelden).
+Twee cases laten zien hoe zo'n oplossing er in de praktijk uitziet. Bij [KYC-documentanalyse voor een financiële dienstverlener](/nl/cases/kyc-documentanalyse-financial-services) zat de uitdaging vooral in het werkproces: het systeem doet voorstellen, de analist beslist. Bij de [interne AI-assistent voor kenniswerkers](/nl/cases/interne-ai-assistent-kenniswerkers) was de techniek snel klaar en ging het meeste werk zitten in adoptie en een paar heldere werkscenario's. Meer herkenbare toepassingen per afdeling staan bij [AI voorbeelden](/nl/kennisbank/ai-voorbeelden).
 
 <aside class="scenario" aria-label="Voorbeeldscenario">
 <p class="scenario-label">Voorbeeldscenario</p>
@@ -72,7 +73,7 @@ Niet elke vraag vraagt om AI oplossingen op maat. Vaak is een standaardoplossing
 - **Kies maatwerk** als de oplossing raakt aan waarom klanten voor jou kiezen, als je data of werkwijze bijzonder is, of als geen standaardpakket je de controle geeft die je nodig hebt.
 - **Kies een combinatie** in de meeste andere gevallen: standaard bouwstenen, met een op maat gebouwde laag voor jouw regels, data en koppelingen.
 
-Hoe je standaardsoftware beoordeelt en wat er komt kijken bij integratie, lees je op de pagina over [AI software kiezen, integreren of laten bouwen](/ai-development/ai-software).
+Hoe je standaardsoftware beoordeelt en wat er komt kijken bij integratie, lees je op de pagina over [AI software kiezen, integreren of laten bouwen](/nl/ai-development/ai-software).
 
 ## Van idee tot livegang
 
@@ -91,16 +92,16 @@ Een AI oplossing komt in vijf stappen van idee naar dagelijks gebruik. Bij elke 
 
 Wat je in dat traject van mij kunt verwachten, zijn concrete producten: een beoordeelde lijst van use cases, een specificatie met meetpunten, een onderbouwd selectieadvies en toetsing van wat er wordt opgeleverd. De bouwers komen uit je eigen organisatie of van een partij die je zelf kiest; als het helpt, stel ik ontwikkelaars voor die ik ken, zonder marge op hun tarief.
 
-De stap na de pilot, van werkend prototype naar gebruik in de hele organisatie, is vaak de lastigste. Daar gaat het om werkprocessen, adoptie en governance; meer daarover bij [AI implementatie](/ai-implementatie). Een breder overzicht van het ontwikkeltraject staat op de pagina over [AI development](/ai-development).
+De stap na de pilot, van werkend prototype naar gebruik in de hele organisatie, is vaak de lastigste. Daar gaat het om werkprocessen, adoptie en governance; meer daarover bij [AI implementatie](/nl/ai-implementatie). Een breder overzicht van het ontwikkeltraject staat op de pagina over [AI development](/nl/ai-development).
 
 ## AI oplossingen voor het MKB
 
 Voor het MKB gelden dezelfde principes, maar met minder ruimte voor experimenten. Een mislukt traject weegt in een kleinere organisatie zwaarder. Drie adviezen:
 
 - **Begin bij de software die je al hebt.** Veel pakketten bevatten AI-functies die met de juiste inrichting een flink deel van de vraag afdekken, zonder maatwerk.
-- **Kies één knelpunt met een duidelijke eigenaar.** Liever één proces goed dan vijf half. Welke toepassingen in de praktijk resultaat opleveren, beschreef ik in [welke AI use cases leveren resultaat](/inzichten/welke-ai-use-cases-leveren-resultaat).
+- **Kies één knelpunt met een duidelijke eigenaar.** Liever één proces goed dan vijf half. Welke toepassingen in de praktijk resultaat opleveren, beschreef ik in [welke AI use cases leveren resultaat](/nl/inzichten/welke-ai-use-cases-leveren-resultaat).
 - **Laat pas bouwen als standaard aantoonbaar tekortschiet.** Maatwerk brengt blijvende beheerkosten mee, en die moet je kunnen dragen.
 
-Meer over AI in kleinere organisaties staat op de pagina [AI voor het MKB](/ai-voor-bedrijven/mkb). Wil je eerst weten waar je staat? Het [AI Readiness Assessment](/diensten/ai-readiness-assessment) geeft in {{timing:ai-readiness-assessment}} een onderbouwd beeld, voor {{pricelc:ai-readiness-assessment}}. Voor één afdeling of procesdomein kan het ook kleiner, met een lagere investering.
+Meer over AI in kleinere organisaties staat op de pagina [AI voor het MKB](/nl/ai-voor-bedrijven/mkb). Wil je eerst weten waar je staat? Het [AI Readiness Assessment](/nl/diensten/ai-readiness-assessment) geeft in {{timing:ai-readiness-assessment}} een onderbouwd beeld, voor {{pricelc:ai-readiness-assessment}}. Voor één afdeling of procesdomein kan het ook kleiner, met een lagere investering.
 
-Zoek je vooral iemand met technische diepgang? Op de pagina over [de AI specialist](/ai-development/ai-specialist) lees je welke profielen er zijn en welk profiel bij jouw vraag past. En wil je sparren over een concreet knelpunt, [plan dan een adviesgesprek](/contact).
+Zoek je vooral iemand met technische diepgang? Op de pagina over [de AI specialist](/nl/ai-development/ai-specialist) lees je welke profielen er zijn en welk profiel bij jouw vraag past. En wil je sparren over een concreet knelpunt, [plan dan een adviesgesprek](/nl/contact).

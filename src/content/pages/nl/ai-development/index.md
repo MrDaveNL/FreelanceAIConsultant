@@ -1,6 +1,7 @@
 ---
 id: C5-00
-url: /ai-development
+lang: nl
+url: /nl/ai-development
 parent: null
 cluster: "5. AI Development"
 pageType: Hub
@@ -12,8 +13,8 @@ metaDescription: "AI development op maat: van prototype tot productie. Lees hoe 
 keyphrase: ai development
 eyebrow: "AI development"
 lede: "AI development gaat zelden mis op de techniek en vaak op de opdracht: een vage specificatie, de verkeerde bouwpartij of niemand die aan jouw kant van de tafel meekijkt. Ik bouw zelf geen software. Ik help je bepalen wat er gebouwd moet worden, door wie, en of het oplevert wat is afgesproken."
-primaryCta: { label: "Plan een adviesgesprek", href: /contact }
-secondaryCta: { label: "Bekijk het AI Readiness Assessment", href: /diensten/ai-readiness-assessment }
+primaryCta: { label: "Plan een adviesgesprek", href: /nl/contact }
+secondaryCta: { label: "Bekijk het AI Readiness Assessment", href: /nl/diensten/ai-readiness-assessment }
 summary:
   - "Het bouwen doet je eigen team of een ontwikkelpartij die je rechtstreeks contracteert."
   - "Mijn rol: specificatie, selectie van de bouwpartij, toetsing en governance vanuit jouw kant."
@@ -41,9 +42,9 @@ AI development is het ontwerpen, bouwen, testen en in gebruik nemen van software
 
 Daarom begint goed AI development niet bij de AI-developer, maar bij de vraag welk probleem je oplost en hoe je gaat meten of dat lukt. Pas als dat helder is, weet een ontwikkelaar wat hij moet bouwen.
 
-Ik ben daarin niet de bouwer. Ik werk als [onafhankelijk adviseur](/over) aan de kant van de opdrachtgever: ik help de vraag scherp te krijgen, de juiste bouwpartij te kiezen en te toetsen wat er wordt opgeleverd. Het bouwen zelf doet je eigen team of een ontwikkelpartij die je rechtstreeks contracteert. Ik verdien niets aan de bouw, dus ik heb geen belang bij een grotere scope.
+Ik ben daarin niet de bouwer. Ik werk als [onafhankelijk adviseur](/nl/over) aan de kant van de opdrachtgever: ik help de vraag scherp te krijgen, de juiste bouwpartij te kiezen en te toetsen wat er wordt opgeleverd. Het bouwen zelf doet je eigen team of een ontwikkelpartij die je rechtstreeks contracteert. Ik verdien niets aan de bouw, dus ik heb geen belang bij een grotere scope.
 
-Wil je eerst weten welk profiel je eigenlijk zoekt? Op [wat een AI specialist doet](/ai-development/ai-specialist) zet ik de verschillende rollen naast elkaar, van strateeg tot machine learning engineer. En in [wat doet een AI developer](/kennisbank/wat-doet-een-ai-developer) lees je hoe het werk van een AI ontwikkelaar er concreet uitziet.
+Wil je eerst weten welk profiel je eigenlijk zoekt? Op [wat een AI specialist doet](/nl/ai-development/ai-specialist) zet ik de verschillende rollen naast elkaar, van strateeg tot machine learning engineer. En in [wat doet een AI developer](/nl/kennisbank/wat-doet-een-ai-developer) lees je hoe het werk van een AI ontwikkelaar er concreet uitziet.
 
 ## Wat je kunt laten ontwikkelen
 
@@ -51,15 +52,15 @@ De meeste vragen over AI development vallen in drie categorieën. Ze overlappen,
 
 ### AI-applicaties
 
-Een AI-applicatie is een zelfstandige toepassing, vaak een AI webapplicatie, die een afgebakende taak ondersteunt: dossiers samenvatten, offertes voorbereiden, klantvragen classificeren. Wie AI applicaties laat ontwikkelen, koopt meestal het onderliggende taalmodel in en laat de laag eromheen bouwen: de gebruikersinterface, de regels, de koppeling met je data en de evaluatie. Welke soorten er zijn en wanneer maatwerk loont, lees je op de pagina over [AI software kiezen of laten bouwen](/ai-development/ai-software).
+Een AI-applicatie is een zelfstandige toepassing, vaak een AI webapplicatie, die een afgebakende taak ondersteunt: dossiers samenvatten, offertes voorbereiden, klantvragen classificeren. Wie AI applicaties laat ontwikkelen, koopt meestal het onderliggende taalmodel in en laat de laag eromheen bouwen: de gebruikersinterface, de regels, de koppeling met je data en de evaluatie. Welke soorten er zijn en wanneer maatwerk loont, lees je op de pagina over [AI software kiezen of laten bouwen](/nl/ai-development/ai-software).
 
 ### AI agents
 
-Een AI agent gaat een stap verder: die voert zelf acties uit in je systemen, zoals een ticket aanmaken of een e-mail opstellen en klaarzetten. Dat vraagt strakkere afspraken over bevoegdheden, logging en menselijke controle. Hoe je zo'n traject aanpakt, beschrijf ik apart bij [een AI agent laten maken](/ai-agents/laten-maken).
+Een AI agent gaat een stap verder: die voert zelf acties uit in je systemen, zoals een ticket aanmaken of een e-mail opstellen en klaarzetten. Dat vraagt strakkere afspraken over bevoegdheden, logging en menselijke controle. Hoe je zo'n traject aanpakt, beschrijf ik apart bij [een AI agent laten maken](/nl/ai-agents/laten-maken).
 
 ### Integraties met bestaande software
 
-Vaak is de waardevolste vorm van AI development geen nieuwe applicatie, maar AI in de software die je al gebruikt: je CRM, je documentmanagementsysteem, je ERP. De AI-component is dan klein; de koppeling, het rechtenmodel en de gegevensstromen zijn het echte werk. Een overzicht van toepassingen, van documentverwerking tot interne assistenten, staat bij [AI oplossingen op maat](/ai-development/ai-oplossingen).
+Vaak is de waardevolste vorm van AI development geen nieuwe applicatie, maar AI in de software die je al gebruikt: je CRM, je documentmanagementsysteem, je ERP. De AI-component is dan klein; de koppeling, het rechtenmodel en de gegevensstromen zijn het echte werk. Een overzicht van toepassingen, van documentverwerking tot interne assistenten, staat bij [AI oplossingen op maat](/nl/ai-development/ai-oplossingen).
 
 ## Ontwikkelproces
 
@@ -78,11 +79,11 @@ Een AI-traject loopt grofweg in vijf fasen. Per fase staat hieronder wie het wer
 
 Wat je concreet van mij krijgt, hangt af van de fase:
 
-- **Bij de start:** een specificatie in gewone taal, met het probleem, de meetpunten, de data die nodig is en de randvoorwaarden rond privacy en de AI-verordening. Heb je nog geen scherp beeld van waar je staat, dan is het [AI Readiness Assessment](/diensten/ai-readiness-assessment) een logische eerste stap.
-- **Bij de keuze van de bouwpartij:** een [Vendor Review](/diensten/vendor-review) met scorecards, een test op jouw data en een TCO-vergelijking over drie jaar. De investering is {{pricelc:vendor-review}}, bij een doorlooptijd van {{timing:vendor-review}}. De stappen daarachter beschreef ik in [vendorselectie in acht stappen](/inzichten/ai-vendorselectie-in-acht-stappen).
-- **Tijdens de bouw:** begeleiding vanuit klantzijde, bijvoorbeeld als [Fractional AI Lead](/diensten/fractional-ai-lead) ({{pricelc:fractional-ai-lead}}), met toetsing van opleveringen, bewaking van de business case en de governance die erbij hoort.
+- **Bij de start:** een specificatie in gewone taal, met het probleem, de meetpunten, de data die nodig is en de randvoorwaarden rond privacy en de AI-verordening. Heb je nog geen scherp beeld van waar je staat, dan is het [AI Readiness Assessment](/nl/diensten/ai-readiness-assessment) een logische eerste stap.
+- **Bij de keuze van de bouwpartij:** een [Vendor Review](/nl/diensten/vendor-review) met scorecards, een test op jouw data en een TCO-vergelijking over drie jaar. De investering is {{pricelc:vendor-review}}, bij een doorlooptijd van {{timing:vendor-review}}. De stappen daarachter beschreef ik in [vendorselectie in acht stappen](/nl/inzichten/ai-vendorselectie-in-acht-stappen).
+- **Tijdens de bouw:** begeleiding vanuit klantzijde, bijvoorbeeld als [Fractional AI Lead](/nl/diensten/fractional-ai-lead) ({{pricelc:fractional-ai-lead}}), met toetsing van opleveringen, bewaking van de business case en de governance die erbij hoort.
 
-Wat er daarna gebeurt, van pilot naar dagelijks gebruik, valt onder [AI implementatie](/ai-implementatie). Daar gaat het minder over code en meer over werkprocessen, adoptie en eigenaarschap.
+Wat er daarna gebeurt, van pilot naar dagelijks gebruik, valt onder [AI implementatie](/nl/ai-implementatie). Daar gaat het minder over code en meer over werkprocessen, adoptie en eigenaarschap.
 
 <aside class="scenario" aria-label="Voorbeeldscenario">
 <p class="scenario-label">Voorbeeldscenario</p>
@@ -92,11 +93,11 @@ Wat er daarna gebeurt, van pilot naar dagelijks gebruik, valt onder [AI implemen
 <p class="scenario-note">Fictief voorbeeld, samengesteld uit situaties die veel voorkomen. Organisatie en cijfers zijn illustratief.</p>
 </aside>
 
-Een voorbeeld van hoe dat eruit kan zien: in de case over [KYC-documentanalyse bij een financiële dienstverlener](/cases/kyc-documentanalyse-financial-services) lag de nadruk niet op het model, maar op het werkproces eromheen en op de begeleiding van leverancier en implementatieteam.
+Een voorbeeld van hoe dat eruit kan zien: in de case over [KYC-documentanalyse bij een financiële dienstverlener](/nl/cases/kyc-documentanalyse-financial-services) lag de nadruk niet op het model, maar op het werkproces eromheen en op de begeleiding van leverancier en implementatieteam.
 
 ## Build versus buy
 
-Voordat je iets laat ontwikkelen, hoort de vraag of je het überhaupt moet bouwen. Bouw alleen wat je onderscheidt in de markt, koop wat een commodity is en kies een partner als je de uitkomst wilt sturen zonder de techniek zelf te bezitten. De hybride vorm werkt vaak het best: bouwstenen inkopen, de laag met jouw kennis zelf laten bouwen en de implementatie bij een partner beleggen. Het volledige beslisraamwerk in vier vragen staat in [build, buy of partner](/inzichten/build-buy-of-partner).
+Voordat je iets laat ontwikkelen, hoort de vraag of je het überhaupt moet bouwen. Bouw alleen wat je onderscheidt in de markt, koop wat een commodity is en kies een partner als je de uitkomst wilt sturen zonder de techniek zelf te bezitten. De hybride vorm werkt vaak het best: bouwstenen inkopen, de laag met jouw kennis zelf laten bouwen en de implementatie bij een partner beleggen. Het volledige beslisraamwerk in vier vragen staat in [build, buy of partner](/nl/inzichten/build-buy-of-partner).
 
 ## Samenwerking met developers uit mijn netwerk
 
@@ -107,8 +108,8 @@ Omdat ik alleen werk en niet bouw, stel ik voor de uitvoering soms partijen voor
 - **Bekende relaties meld ik vooraf.** Als ik een partij eerder heb geadviseerd of ermee heb samengewerkt, hoor je dat voordat die partij in beeld komt.
 - **Een voorstel is geen voorkeur.** Een partij uit mijn netwerk doorloopt dezelfde selectie als ieder ander.
 
-Meer over hoe ik partners selecteer en wat je wel en niet van ze kunt verwachten, staat op de pagina over het [partnernetwerk](/partnernetwerk).
+Meer over hoe ik partners selecteer en wat je wel en niet van ze kunt verwachten, staat op de pagina over het [partnernetwerk](/nl/partnernetwerk).
 
-Voor werkgevers die overwegen om zelf AI-talent aan te nemen: in het overzicht van het [salaris van een AI specialist](/kennisbank/ai-specialist-salaris) zet ik de bekende salarisbronnen naast elkaar, inclusief de vergelijking tussen vast personeel en externe inhuur.
+Voor werkgevers die overwegen om zelf AI-talent aan te nemen: in het overzicht van het [salaris van een AI specialist](/nl/kennisbank/ai-specialist-salaris) zet ik de bekende salarisbronnen naast elkaar, inclusief de vergelijking tussen vast personeel en externe inhuur.
 
-Wil je sparren over een ontwikkeltraject dat op stapel staat, of over een bouwpartij die al een offerte heeft gestuurd? [Plan een adviesgesprek](/contact) van dertig minuten. Aan het eind hoor je wat ik zou doen, ook als het antwoord is dat je mij daarvoor niet nodig hebt.
+Wil je sparren over een ontwikkeltraject dat op stapel staat, of over een bouwpartij die al een offerte heeft gestuurd? [Plan een adviesgesprek](/nl/contact) van dertig minuten. Aan het eind hoor je wat ik zou doen, ook als het antwoord is dat je mij daarvoor niet nodig hebt.

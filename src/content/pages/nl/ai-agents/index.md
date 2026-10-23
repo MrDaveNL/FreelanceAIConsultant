@@ -1,6 +1,7 @@
 ---
 id: C6-00
-url: /ai-agents
+lang: nl
+url: /nl/ai-agents
 parent: null
 cluster: "6. AI Agents"
 pageType: Hub
@@ -12,8 +13,8 @@ metaDescription: "Ontdek hoe AI agents bedrijfsprocessen automatiseren. Bekijk t
 keyphrase: ai agents voor bedrijven
 eyebrow: "AI agents"
 lede: "AI agents voor bedrijven beloven werk dat zichzelf uitvoert: een systeem dat een doel krijgt en zelf de stappen zet. Dat kan veel opleveren, maar alleen als je vooraf bepaalt welke stappen je uit handen geeft en wie meekijkt. Op deze pagina lees je waar agents passen, wat ze kosten en hoe je ze verantwoord invoert."
-primaryCta: { label: "Plan een adviesgesprek", href: /contact }
-secondaryCta: { label: "Bekijk het AI Readiness Assessment", href: /diensten/ai-readiness-assessment }
+primaryCta: { label: "Plan een adviesgesprek", href: /nl/contact }
+secondaryCta: { label: "Bekijk het AI Readiness Assessment", href: /nl/diensten/ai-readiness-assessment }
 summary:
   - "Een AI agent voert zelf stappen uit richting een doel; dat vraagt andere afspraken dan een chatbot."
   - "Begin met voorbereiden en voorstellen, pas later met zelfstandig uitvoeren."
@@ -41,9 +42,9 @@ sources:
 
 ## Wat kunnen AI agents voor bedrijven betekenen?
 
-Een AI agent is software die een doel krijgt en zelf bepaalt welke stappen daarvoor nodig zijn: informatie opzoeken, een systeem raadplegen, een tussenresultaat beoordelen en een volgende stap kiezen. Waar een gewone AI-toepassing één antwoord geeft, voert een agent een reeks handelingen uit. Wie wil weten hoe dat technisch werkt, leest de uitleg over [wat een AI agent is en hoe hij werkt](/ai-agents/wat-is-een-ai-agent).
+Een AI agent is software die een doel krijgt en zelf bepaalt welke stappen daarvoor nodig zijn: informatie opzoeken, een systeem raadplegen, een tussenresultaat beoordelen en een volgende stap kiezen. Waar een gewone AI-toepassing één antwoord geeft, voert een agent een reeks handelingen uit. Wie wil weten hoe dat technisch werkt, leest de uitleg over [wat een AI agent is en hoe hij werkt](/nl/ai-agents/wat-is-een-ai-agent).
 
-Voor AI agents voor bedrijven is de kernvraag daarom niet welk model je gebruikt, maar welke stappen je uit handen geeft. Een agent die een dossier voorbereidt, is een heel ander risico dan een agent die zelfstandig een betaling in gang zet. Ik schreef eerder uitgebreid over [waar agents werken en waar ze stukgaan](/inzichten/ai-agents-wat-ze-wel-en-niet-kunnen). Kort samengevat: agents doen het goed bij voorbereidend werk, bij stappen die je kunt terugdraaien en bij taken met een harde eindtoets. Ze gaan stuk op processen waarin een fout stilletjes doorwerkt, op handelingen met externe gevolgen en op lange ketens zonder tussencontrole.
+Voor AI agents voor bedrijven is de kernvraag daarom niet welk model je gebruikt, maar welke stappen je uit handen geeft. Een agent die een dossier voorbereidt, is een heel ander risico dan een agent die zelfstandig een betaling in gang zet. Ik schreef eerder uitgebreid over [waar agents werken en waar ze stukgaan](/nl/inzichten/ai-agents-wat-ze-wel-en-niet-kunnen). Kort samengevat: agents doen het goed bij voorbereidend werk, bij stappen die je kunt terugdraaien en bij taken met een harde eindtoets. Ze gaan stuk op processen waarin een fout stilletjes doorwerkt, op handelingen met externe gevolgen en op lange ketens zonder tussencontrole.
 
 Binnen die grenzen zie je vier terreinen waar agents vaak als eerste worden overwogen.
 
@@ -61,11 +62,11 @@ Veel organisaties hebben kennis verspreid over handboeken, intranet, tickets en 
 
 ### Administratieve processen automatiseren
 
-Denk aan facturen controleren tegen inkooporders, gegevens uit documenten halen en klaarzetten, of een dossier compleet maken voordat iemand het beoordeelt. Hier grenst een agent aan klassieke automatisering. Voor vaste, voorspelbare stappen is een regelgebaseerde workflow vaak goedkoper en betrouwbaarder; de afweging tussen beide staat op de pagina over [AI automatisering](/ai-automatisering) en in de vergelijking van [RPA en AI-automatisering](/kennisbank/rpa-vs-ai-automatisering).
+Denk aan facturen controleren tegen inkooporders, gegevens uit documenten halen en klaarzetten, of een dossier compleet maken voordat iemand het beoordeelt. Hier grenst een agent aan klassieke automatisering. Voor vaste, voorspelbare stappen is een regelgebaseerde workflow vaak goedkoper en betrouwbaarder; de afweging tussen beide staat op de pagina over [AI automatisering](/nl/ai-automatisering) en in de vergelijking van [RPA en AI-automatisering](/nl/kennisbank/rpa-vs-ai-automatisering).
 
 ## Voorbeelden van AI agents in de praktijk
 
-Hieronder vier generieke voorbeelden. Ze laten zien hoe een agent in een proces past, niet wat hij bij een specifiek bedrijf heeft opgeleverd. Een uitgebreidere lijst met twaalf toepassingen per afdeling vind je bij de [voorbeelden van AI agents](/ai-agents/voorbeelden).
+Hieronder vier generieke voorbeelden. Ze laten zien hoe een agent in een proces past, niet wat hij bij een specifiek bedrijf heeft opgeleverd. Een uitgebreidere lijst met twaalf toepassingen per afdeling vind je bij de [voorbeelden van AI agents](/nl/ai-agents/voorbeelden).
 
 ### AI agent voor klantenservice
 
@@ -77,11 +78,11 @@ Na een klantgesprek zet de agent de gespreksnotities om in een samenvatting, wer
 
 ### AI agent voor HR
 
-Een agent kan medewerkers helpen met vragen over verlof, declaraties of regelingen, op basis van het personeelshandboek. Dat is iets anders dan een agent die sollicitaties filtert of prestaties beoordeelt. Die tweede categorie geldt onder de AI Act als hoog risico (bijlage III) en raakt aan de AVG-regels over geautomatiseerde besluitvorming. Wat dat betekent, lees je in het artikel over [AI agents en de AVG](/kennisbank/ai-agents-en-avg).
+Een agent kan medewerkers helpen met vragen over verlof, declaraties of regelingen, op basis van het personeelshandboek. Dat is iets anders dan een agent die sollicitaties filtert of prestaties beoordeelt. Die tweede categorie geldt onder de AI Act als hoog risico (bijlage III) en raakt aan de AVG-regels over geautomatiseerde besluitvorming. Wat dat betekent, lees je in het artikel over [AI agents en de AVG](/nl/kennisbank/ai-agents-en-avg).
 
 ### AI agent voor interne kennis
 
-Een agent die vragen van collega's beantwoordt op basis van interne documenten, met bronvermelding. Het lijkt op een zoekmachine, maar kan ook vervolgstappen zetten, zoals een ticket aanmaken als het antwoord ontbreekt. De bestaande case over een [interne AI-assistent voor kenniswerkers](/cases/interne-ai-assistent-kenniswerkers) laat zien dat adoptie hier meer werk kost dan de techniek.
+Een agent die vragen van collega's beantwoordt op basis van interne documenten, met bronvermelding. Het lijkt op een zoekmachine, maar kan ook vervolgstappen zetten, zoals een ticket aanmaken als het antwoord ontbreekt. De bestaande case over een [interne AI-assistent voor kenniswerkers](/nl/cases/interne-ai-assistent-kenniswerkers) laat zien dat adoptie hier meer werk kost dan de techniek.
 
 <aside class="scenario" aria-label="Voorbeeldscenario">
 <p class="scenario-label">Voorbeeldscenario</p>
@@ -112,15 +113,15 @@ Zoek taken met veel herhaling, veel zoekwerk en een uitkomst die een mens snel k
 
 ### Bepaal de benodigde data en systemen
 
-Maak een lijst van de bronnen die de agent moet raadplegen en de systemen waarin hij iets moet vastleggen. Per bron bepaal je of er persoonsgegevens in zitten, wie eigenaar is en of de informatie actueel is. Dit is vaak het moment waarop blijkt dat het [datafundament onder AI](/inzichten/het-datafundament-onder-ai) meer aandacht nodig heeft dan de agent zelf.
+Maak een lijst van de bronnen die de agent moet raadplegen en de systemen waarin hij iets moet vastleggen. Per bron bepaal je of er persoonsgegevens in zitten, wie eigenaar is en of de informatie actueel is. Dit is vaak het moment waarop blijkt dat het [datafundament onder AI](/nl/inzichten/het-datafundament-onder-ai) meer aandacht nodig heeft dan de agent zelf.
 
 ### Ontwikkel en test de AI agent
 
-Laat de agent eerst bouwen op een afgebakende taak en test met een vaste set praktijkgevallen waarvan je de juiste uitkomst kent. In de eerste weken beoordeelt een mens elke uitkomst. Zo leer je welke fouten er werkelijk optreden. Hoe je een bouwpartij daarvoor kiest en wat je vooraf vastlegt, staat op de pagina over [een AI agent laten maken](/ai-agents/laten-maken).
+Laat de agent eerst bouwen op een afgebakende taak en test met een vaste set praktijkgevallen waarvan je de juiste uitkomst kent. In de eerste weken beoordeelt een mens elke uitkomst. Zo leer je welke fouten er werkelijk optreden. Hoe je een bouwpartij daarvoor kiest en wat je vooraf vastlegt, staat op de pagina over [een AI agent laten maken](/nl/ai-agents/laten-maken).
 
 ### Integreer met bestaande systemen
 
-Koppel stap voor stap. Begin met leesrechten, voeg schrijfrechten pas toe als de agent voorspelbaar werkt, en houd een bevestigingsstap op elk onomkeerbaar moment. Een agent is in de praktijk vaak onderdeel van een grotere [AI-workflow](/ai-automatisering/ai-workflows) met vaste regels eromheen.
+Koppel stap voor stap. Begin met leesrechten, voeg schrijfrechten pas toe als de agent voorspelbaar werkt, en houd een bevestigingsstap op elk onomkeerbaar moment. Een agent is in de praktijk vaak onderdeel van een grotere [AI-workflow](/nl/ai-automatisering/ai-workflows) met vaste regels eromheen.
 
 ### Monitor en optimaliseer
 
@@ -140,17 +141,17 @@ Een eerlijk bedrag kan ik hier niet noemen, omdat de spreiding groot is: van een
 
 ### Ontwikkeling versus bestaande oplossingen
 
-Veel softwareleveranciers bieden inmiddels agentfuncties binnen hun eigen platform. Dat is sneller en vaak goedkoper om mee te beginnen, maar je bent gebonden aan wat dat platform kan en aan de prijsontwikkeling van de leverancier. Maatwerk geeft meer controle, maar je betaalt ook voor beheer en doorontwikkeling. De afweging tussen die routes beschreef ik in [build, buy of partner](/inzichten/build-buy-of-partner); voor maatwerk is de pagina over [AI development](/ai-development) een logisch vervolg.
+Veel softwareleveranciers bieden inmiddels agentfuncties binnen hun eigen platform. Dat is sneller en vaak goedkoper om mee te beginnen, maar je bent gebonden aan wat dat platform kan en aan de prijsontwikkeling van de leverancier. Maatwerk geeft meer controle, maar je betaalt ook voor beheer en doorontwikkeling. De afweging tussen die routes beschreef ik in [build, buy of partner](/nl/inzichten/build-buy-of-partner); voor maatwerk is de pagina over [AI development](/nl/ai-development) een logisch vervolg.
 
 ### Kosten voor beheer en optimalisatie
 
 De bouw is een eenmalige post, beheer loopt door. Reken op modelkosten per gebruik, monitoring, periodieke tests, aanpassingen als processen of systemen veranderen, en tijd van een interne eigenaar. Een offerte die alleen de bouw noemt, is onvolledig. Vraag altijd om een inschatting van de kosten over meerdere jaren, inclusief wat het kost om van leverancier te wisselen.
 
-Mijn eigen rol is daarbij advies, geen bouw. Wil je offertes van meerdere bouwpartijen onafhankelijk laten vergelijken, dan past een [Vendor Review](/diensten/vendor-review); die kost {{pricelc:vendor-review}}. De overige pakketten staan op de pagina met [tarieven](/tarieven).
+Mijn eigen rol is daarbij advies, geen bouw. Wil je offertes van meerdere bouwpartijen onafhankelijk laten vergelijken, dan past een [Vendor Review](/nl/diensten/vendor-review); die kost {{pricelc:vendor-review}}. De overige pakketten staan op de pagina met [tarieven](/nl/tarieven).
 
 ## AI agents voor het MKB
 
-Voor kleinere organisaties gelden dezelfde principes, maar de afweging is scherper: minder budget, vaak geen eigen IT-afdeling en minder ruimte om een mislukt traject op te vangen. Meer over de bredere aanpak voor kleinere bedrijven staat op de pagina [AI voor het MKB](/ai-voor-bedrijven/mkb).
+Voor kleinere organisaties gelden dezelfde principes, maar de afweging is scherper: minder budget, vaak geen eigen IT-afdeling en minder ruimte om een mislukt traject op te vangen. Meer over de bredere aanpak voor kleinere bedrijven staat op de pagina [AI voor het MKB](/nl/ai-voor-bedrijven/mkb).
 
 ### Geschikte toepassingen
 
@@ -158,6 +159,6 @@ Voor een AI agent in het MKB zijn toepassingen geschikt die binnen software draa
 
 ### Kosten en een veilige start
 
-Begin met een agentfunctie binnen een pakket dat je al hebt, op één afgebakende taak, met een testperiode waarin iemand alles controleert. Spreek vooraf af welke gegevens de agent mag gebruiken en controleer of er een verwerkersovereenkomst met de leverancier is. Wil je eerst weten of je organisatie er klaar voor is en welke taken in aanmerking komen, dan is het [AI Readiness Assessment](/diensten/ai-readiness-assessment) het logische startpunt.
+Begin met een agentfunctie binnen een pakket dat je al hebt, op één afgebakende taak, met een testperiode waarin iemand alles controleert. Spreek vooraf af welke gegevens de agent mag gebruiken en controleer of er een verwerkersovereenkomst met de leverancier is. Wil je eerst weten of je organisatie er klaar voor is en welke taken in aanmerking komen, dan is het [AI Readiness Assessment](/nl/diensten/ai-readiness-assessment) het logische startpunt.
 
-Ik bouw zelf geen agents. Wel help ik je bepalen welke taak geschikt is, wat je van een bouwpartij moet vragen en hoe je de uitvoering bewaakt. Heb je extra handen nodig, dan stel ik partijen uit mijn [partnernetwerk](/partnernetwerk) voor; die contracteer je rechtstreeks, zonder marge voor mij. Wil je sparren over een concreet idee? [Plan een gesprek van dertig minuten](/contact); aan het eind hoor je wat ik zou doen.
+Ik bouw zelf geen agents. Wel help ik je bepalen welke taak geschikt is, wat je van een bouwpartij moet vragen en hoe je de uitvoering bewaakt. Heb je extra handen nodig, dan stel ik partijen uit mijn [partnernetwerk](/nl/partnernetwerk) voor; die contracteer je rechtstreeks, zonder marge voor mij. Wil je sparren over een concreet idee? [Plan een gesprek van dertig minuten](/nl/contact); aan het eind hoor je wat ik zou doen.

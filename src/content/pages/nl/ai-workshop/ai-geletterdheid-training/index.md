@@ -1,6 +1,7 @@
 ---
 id: C9-05
-url: /ai-workshop/ai-geletterdheid-training
+lang: nl
+url: /nl/ai-workshop/ai-geletterdheid-training
 parent: C9-00
 cluster: "9. AI workshops & training"
 pageType: Spoke
@@ -12,8 +13,8 @@ metaDescription: "De AI Act vraagt organisaties om AI-geletterdheid te ondersteu
 keyphrase: ai geletterdheid training
 eyebrow: "AI-geletterdheid"
 lede: "Een AI geletterdheid training helpt je team begrijpen wat AI kan, waar het misgaat en welke afspraken er gelden. Dat is verstandig werkgeverschap, en het is ook wat de AI Act van organisaties vraagt. Op deze pagina lees je wat de wet sinds de wijziging van juli 2026 precies vraagt, wat een training oplevert en hoe je vastlegt wat je doet."
-primaryCta: { label: "Vraag een training aan", href: /contact }
-secondaryCta: { label: "Bekijk het AI Readiness Assessment", href: /diensten/ai-readiness-assessment }
+primaryCta: { label: "Vraag een training aan", href: /nl/contact }
+secondaryCta: { label: "Bekijk het AI Readiness Assessment", href: /nl/diensten/ai-readiness-assessment }
 summary:
   - "Artikel 4 van de AI Act geldt sinds 2 februari 2025 voor organisaties die AI ontwikkelen of gebruiken."
   - "Sinds de Digital Omnibus (juli 2026) is het een inspanningsverplichting: maatregelen nemen, geen vereist niveau."
@@ -70,7 +71,7 @@ De tekst van artikel 4 is in 2026 gewijzigd. Op 19 november 2025 stelde de Europ
 - **Commissie en lidstaten** krijgen een grotere rol in het stimuleren van AI-geletterdheid.
 - **Toezicht** ligt bij de nationale markttoezichthouders, die vanaf 2 augustus 2026 toezien en handhaven.
 
-De lat is dus verschoven van een resultaat naar een inspanning, maar niets doen voldoet niet. Hoe artikel 4 zich verhoudt tot de rest van de wet, lees je op de pagina over [de AI Act voor organisaties](/ai-beleid/ai-act).
+De lat is dus verschoven van een resultaat naar een inspanning, maar niets doen voldoet niet. Hoe artikel 4 zich verhoudt tot de rest van de wet, lees je op de pagina over [de AI Act voor organisaties](/nl/ai-beleid/ai-act).
 
 *Dit is geen juridisch advies. De uitleg van de wet ontwikkelt zich nog; laat de toepassing op jouw organisatie toetsen door een jurist of je compliance-afdeling.*
 
@@ -84,9 +85,9 @@ Er is geen voorgeschreven lesprogramma, en dat is maar goed ook. De AP beschrijf
 4. **Afspraken:** wat jullie interne regels zijn, wie aanspreekpunt is en hoe je een incident meldt.
 5. **Oefenen:** herkenbare taken uit het eigen werk, inclusief het controleren van een uitkomst.
 
-Voor teams die daarna echt met de tools aan de slag gaan, volgt verdieping. Dat kan in een [praktische Copilot training](/ai-workshop/copilot-training) voor organisaties met Microsoft 365, of een [hands-on ChatGPT training](/ai-workshop/chatgpt-training). Een overzicht van alle vormen staat op de pagina over [AI workshops en trainingen](/ai-workshop).
+Voor teams die daarna echt met de tools aan de slag gaan, volgt verdieping. Dat kan in een [praktische Copilot training](/nl/ai-workshop/copilot-training) voor organisaties met Microsoft 365, of een [hands-on ChatGPT training](/nl/ai-workshop/chatgpt-training). Een overzicht van alle vormen staat op de pagina over [AI workshops en trainingen](/nl/ai-workshop).
 
-Ontbreken interne afspraken nog, dan is het zinvol die tegelijk op te stellen. Een training over regels die niet bestaan, blijft vaag. Op de pagina over [AI-beleid opstellen](/ai-beleid) lees je wat daarin hoort.
+Ontbreken interne afspraken nog, dan is het zinvol die tegelijk op te stellen. Een training over regels die niet bestaan, blijft vaag. Op de pagina over [AI-beleid opstellen](/nl/ai-beleid) lees je wat daarin hoort.
 
 ## Aantonen dat je voldoet
 
@@ -122,4 +123,4 @@ Spreek bij een training vooraf af dat je de inhoud, de deelnemerslijst en de gem
 <p class="scenario-note">Fictief voorbeeld, samengesteld uit situaties die veel voorkomen. Organisatie en cijfers zijn illustratief.</p>
 </aside>
 
-Wil je weten wat voor jullie organisatie een passende aanpak is? [Vraag een training aan](/contact); in een eerste gesprek bespreken we welke rollen, systemen en afspraken er zijn, en wat er als eerste nodig is.
+Wil je weten wat voor jullie organisatie een passende aanpak is? [Vraag een training aan](/nl/contact); in een eerste gesprek bespreken we welke rollen, systemen en afspraken er zijn, en wat er als eerste nodig is.

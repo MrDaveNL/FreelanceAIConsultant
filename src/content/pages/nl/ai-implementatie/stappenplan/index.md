@@ -1,6 +1,7 @@
 ---
 id: C2-03
-url: /ai-implementatie/stappenplan
+lang: nl
+url: /nl/ai-implementatie/stappenplan
 parent: C2-00
 cluster: "2. AI Implementatie"
 pageType: Spoke
@@ -12,8 +13,8 @@ metaDescription: "Volg dit AI implementatie stappenplan: van doel en use case to
 keyphrase: ai implementatie stappenplan
 eyebrow: "Stappenplan"
 lede: "Dit AI implementatie stappenplan brengt je in zeven stappen van een doel naar een toepassing die in het dagelijkse werk draait en blijft draaien. Per stap lees je wat je moet beslissen, waar het vaak misgaat en wat je vastlegt voordat je doorgaat. De volledige checklist kun je onderaan downloaden."
-primaryCta: { label: "Lees meer over AI implementatie", href: /ai-implementatie }
-secondaryCta: { label: "Bekijk het AI Readiness Assessment", href: /diensten/ai-readiness-assessment }
+primaryCta: { label: "Lees meer over AI implementatie", href: /nl/ai-implementatie }
+secondaryCta: { label: "Bekijk het AI Readiness Assessment", href: /nl/diensten/ai-readiness-assessment }
 summary:
   - "Begin bij een meetbaar doel, niet bij een tool."
   - "Beslis vóór de pilot wanneer je opschaalt en wanneer je stopt."
@@ -44,7 +45,7 @@ Eerst het overzicht. Een AI implementatie stappenplan is geen projectplanning me
 <figcaption>De zeven stappen bouwen op elkaar voort. Stap 6 en 7 bereid je al voor in stap 1.</figcaption>
 </figure>
 
-Dit plan gaat uit van één toepassing. Heb je meerdere kandidaten en wil je eerst de volgorde bepalen, begin dan met een [AI-roadmap](/ai-consultancy/ai-roadmap). Hoe ik organisaties door deze stappen begeleid, lees je op de pagina over [AI implementatie](/ai-implementatie).
+Dit plan gaat uit van één toepassing. Heb je meerdere kandidaten en wil je eerst de volgorde bepalen, begin dan met een [AI-roadmap](/nl/ai-consultancy/ai-roadmap). Hoe ik organisaties door deze stappen begeleid, lees je op de pagina over [AI implementatie](/nl/ai-implementatie).
 
 Dan de eerste stap: begin bij het probleem, niet bij de technologie. "We willen iets met AI" of "we willen een chatbot" is geen doel. "De doorlooptijd van offerteaanvragen is te lang" of "onze medewerkers zoeken te lang naar informatie in eerdere dossiers" wel.
 
@@ -58,7 +59,7 @@ Spreek tot slot af hoeveel tijd en geld je bereid bent te investeren voordat je 
 
 Maak een lijst van kandidaten en beoordeel ze op dezelfde criteria: wat levert het op, hoe haalbaar is het, is de data er klaar voor, hoeveel verandering vraagt het en is er een eigenaar? Een goede eerste use case is afgebakend, draait op een beperkt aantal bronnen en kan binnen een paar maanden laten zien of hij werkt.
 
-Reken de businesscase door, inclusief de kosten die na de oplevering komen: beheer, licenties, monitoring en de tijd van je eigen mensen. Hoe je een businesscase opstelt die de toets van de CFO doorstaat, lees je in [de business case voor AI](/inzichten/de-business-case-voor-ai).
+Reken de businesscase door, inclusief de kosten die na de oplevering komen: beheer, licenties, monitoring en de tijd van je eigen mensen. Hoe je een businesscase opstelt die de toets van de CFO doorstaat, lees je in [de business case voor AI](/nl/inzichten/de-business-case-voor-ai).
 
 Leg ook vast welke kandidaten afvallen en waarom. Die afvallijst voorkomt dat dezelfde ideeën elk kwartaal opnieuw op tafel komen, en maakt zichtbaar welke randvoorwaarden eerst moeten worden ingevuld.
 
@@ -66,17 +67,17 @@ Leg ook vast welke kandidaten afvallen en waarom. Die afvallijst voorkomt dat de
 
 ## Stap 3: Breng data en systemen in kaart
 
-Zoek uit welke data de toepassing nodig heeft, waar die staat, hoe betrouwbaar die is en wie erover gaat. Kijk ook naar de systemen waarmee de toepassing moet samenwerken: waar komt de input vandaan en waar moet de output naartoe? Elke koppeling is werk, en koppelingen worden in de planning bijna altijd onderschat. Waarom dit fundament vaak de echte bottleneck is, beschreef ik in [het datafundament onder AI](/inzichten/het-datafundament-onder-ai).
+Zoek uit welke data de toepassing nodig heeft, waar die staat, hoe betrouwbaar die is en wie erover gaat. Kijk ook naar de systemen waarmee de toepassing moet samenwerken: waar komt de input vandaan en waar moet de output naartoe? Elke koppeling is werk, en koppelingen worden in de planning bijna altijd onderschat. Waarom dit fundament vaak de echte bottleneck is, beschreef ik in [het datafundament onder AI](/nl/inzichten/het-datafundament-onder-ai).
 
-Verwerk je persoonsgegevens, beoordeel dan nu of er een hoog privacyrisico is. In dat geval is een [DPIA verplicht](https://ondernemersplein.overheid.nl/wetten-en-regels/dpia-data-protection-impact-assessment-uitvoeren/), en die kost tijd. Kijk ook of de toepassing onder de AI-verordening als hoog risico kan gelden. Door het Digital Omnibus-pakket gelden de verplichtingen voor de meeste hoog-risicosystemen vanaf 2 december 2027, [aldus de Europese Commissie](https://digital-strategy.ec.europa.eu/en/news/ai-omnibus-enters-force). Meer daarover lees je bij [de AI Act](/ai-beleid/ai-act).
+Verwerk je persoonsgegevens, beoordeel dan nu of er een hoog privacyrisico is. In dat geval is een [DPIA verplicht](https://ondernemersplein.overheid.nl/wetten-en-regels/dpia-data-protection-impact-assessment-uitvoeren/), en die kost tijd. Kijk ook of de toepassing onder de AI-verordening als hoog risico kan gelden. Door het Digital Omnibus-pakket gelden de verplichtingen voor de meeste hoog-risicosystemen vanaf 2 december 2027, [aldus de Europese Commissie](https://digital-strategy.ec.europa.eu/en/news/ai-omnibus-enters-force). Meer daarover lees je bij [de AI Act](/nl/ai-beleid/ai-act).
 
 **Valkuil:** testen op een opgeschoonde proefdataset. De echte data is bijna altijd rommeliger, en dat merk je dan pas bij opschaling.
 
 ## Stap 4: Kies bouwen of kopen
 
-Voor bijna elke toepassing zijn er drie routes: zelf bouwen, een bestaand product kopen of een partner laten bouwen en beheren terwijl jij de uitkomst stuurt. De vuistregel: bouw alleen wat je onderscheidt, koop wat een commodity is. Twijfel je, dan is kopen vaak de goedkoopste manier om te leren wat je echt nodig hebt. Het volledige afwegingskader staat in [build, buy of partner](/inzichten/build-buy-of-partner).
+Voor bijna elke toepassing zijn er drie routes: zelf bouwen, een bestaand product kopen of een partner laten bouwen en beheren terwijl jij de uitkomst stuurt. De vuistregel: bouw alleen wat je onderscheidt, koop wat een commodity is. Twijfel je, dan is kopen vaak de goedkoopste manier om te leren wat je echt nodig hebt. Het volledige afwegingskader staat in [build, buy of partner](/nl/inzichten/build-buy-of-partner).
 
-Kies je een leverancier of bouwpartner, leg dan vóór de gesprekken vast waarop je beoordeelt, en test op je eigen data in plaats van op de demo van de leverancier. Hoe je dat gestructureerd aanpakt, lees je in [AI vendorselectie in acht stappen](/inzichten/ai-vendorselectie-in-acht-stappen). Leg in het contract vast wie eigenaar is van code, configuratie en data, en hoe een overdracht verloopt. Een partner contracteer je rechtstreeks; ik reken geen marge op partijen die ik voorstel, zie het [partnernetwerk](/partnernetwerk).
+Kies je een leverancier of bouwpartner, leg dan vóór de gesprekken vast waarop je beoordeelt, en test op je eigen data in plaats van op de demo van de leverancier. Hoe je dat gestructureerd aanpakt, lees je in [AI vendorselectie in acht stappen](/nl/inzichten/ai-vendorselectie-in-acht-stappen). Leg in het contract vast wie eigenaar is van code, configuratie en data, en hoe een overdracht verloopt. Een partner contracteer je rechtstreeks; ik reken geen marge op partijen die ik voorstel, zie het [partnernetwerk](/nl/partnernetwerk).
 
 **Valkuil:** alleen naar de kosten in het eerste jaar kijken. Onderhoud en exit bepalen de echte prijs.
 
@@ -84,7 +85,7 @@ Kies je een leverancier of bouwpartner, leg dan vóór de gesprekken vast waarop
 
 Laat de pilot draaien in het echte werkproces, met echte data en echte gebruikers, ook als dat de scope kleiner maakt. Een pilot in een aparte omgeving naast het werk bewijst alleen dat de techniek werkt, en dat is tegenwoordig bijna altijd zo.
 
-Leg vóór de start vast welke vraag de pilot beantwoordt, bij welke uitkomst hij geslaagd is, bij welke uitkomst je stopt en wie dat besluit. Stel een testset op met voorbeelden waarvan je het juiste antwoord kent, zodat je de kwaliteit objectief kunt beoordelen. Voer tijdens de pilot ook minstens één beheeractie uit, zoals een modelupdate of een aanpassing in de configuratie, zodat je weet wat beheer kost. Waarom pilots zo vaak blijven hangen, lees je in [waarom AI-pilots blijven steken](/inzichten/waarom-ai-pilots-blijven-steken).
+Leg vóór de start vast welke vraag de pilot beantwoordt, bij welke uitkomst hij geslaagd is, bij welke uitkomst je stopt en wie dat besluit. Stel een testset op met voorbeelden waarvan je het juiste antwoord kent, zodat je de kwaliteit objectief kunt beoordelen. Voer tijdens de pilot ook minstens één beheeractie uit, zoals een modelupdate of een aanpassing in de configuratie, zodat je weet wat beheer kost. Waarom pilots zo vaak blijven hangen, lees je in [waarom AI-pilots blijven steken](/nl/inzichten/waarom-ai-pilots-blijven-steken).
 
 **Valkuil:** een pilot zonder stopcriterium. Die eindigt nooit; hij verdampt.
 
@@ -92,7 +93,7 @@ Leg vóór de start vast welke vraag de pilot beantwoordt, bij welke uitkomst hi
 
 Een licentie en een training zijn geen adoptiestrategie. Mensen gaan een toepassing gebruiken als die hun eerstvolgende taak makkelijker maakt. Geef ze daarom concrete scenario's voor hun eigen werk in plaats van een leeg invoerveld, en maak duidelijk wat wel en niet mag: welke data erin mag, wie verantwoordelijk is voor de uitkomst en wat je doet als het antwoord fout is.
 
-Zoek per team een ambassadeur die hetzelfde werk doet, en zorg voor een plek waar mensen werkende voorbeelden delen. Bespreek ook openlijk wat er in het werk verandert en wie daarover beslist. Meer hierover in [AI-adoptie begint bij het werk](/inzichten/ai-adoptie-begint-bij-het-werk).
+Zoek per team een ambassadeur die hetzelfde werk doet, en zorg voor een plek waar mensen werkende voorbeelden delen. Bespreek ook openlijk wat er in het werk verandert en wie daarover beslist. Meer hierover in [AI-adoptie begint bij het werk](/nl/inzichten/ai-adoptie-begint-bij-het-werk).
 
 **Valkuil:** adoptie meten met één percentage voor de hele organisatie. Meet per rol of team, dan zie je waar het werkt en waar niet.
 
@@ -100,7 +101,7 @@ Zoek per team een ambassadeur die hetzelfde werk doet, en zorg voor een plek waa
 
 Vergelijk de resultaten met de nulmeting uit stap 1. Leg vast wie de toepassing beheert, hoe vaak de kwaliteit wordt gecontroleerd en wat er gebeurt als die zakt. AI-toepassingen kunnen stilletjes slechter worden als de werkelijkheid verschuift, dus monitoring is geen eenmalige actie.
 
-Richt lichte governance in: een overzicht van de AI-toepassingen die je gebruikt, een toets voordat iets live gaat, een periodieke evaluatie en een escalatiepad. Hoe dat werkt zonder bureaucratie, beschreef ik in [AI governance zonder bureaucratie](/inzichten/ai-governance-zonder-bureaucratie). Pas als de eerste toepassing stabiel draait en een eigenaar heeft, start je de volgende. Wat je van de eerste hebt geleerd over data, leveranciers en adoptie, maakt de tweede sneller.
+Richt lichte governance in: een overzicht van de AI-toepassingen die je gebruikt, een toets voordat iets live gaat, een periodieke evaluatie en een escalatiepad. Hoe dat werkt zonder bureaucratie, beschreef ik in [AI governance zonder bureaucratie](/nl/inzichten/ai-governance-zonder-bureaucratie). Pas als de eerste toepassing stabiel draait en een eigenaar heeft, start je de volgende. Wat je van de eerste hebt geleerd over data, leveranciers en adoptie, maakt de tweede sneller.
 
 Plan daarnaast een vast evaluatiemoment, bijvoorbeeld na drie maanden, waarop de eigenaar besluit: doorgaan, bijsturen of afbouwen.
 
@@ -126,4 +127,4 @@ Wil je dit stappenplan gebruiken in je eigen project? [Download de AI implementa
 - **Adoptie:** scenario's per rol, ambassadeurs, duidelijke regels en meting per team.
 - **Meten en opschalen:** vergelijking met de nulmeting, beheerplan, governance en een besluit over de volgende stap.
 
-Loop je bij een van de stappen vast, of wil je weten welke keuzes je vooraf moet maken? Lees wat [advies vóór de implementatie](/ai-implementatie/advies) oplevert. Weet je nog niet of je organisatie er klaar voor is, dan geeft het [AI Readiness Assessment](/diensten/ai-readiness-assessment) in {{timing:ai-readiness-assessment}} een onderbouwd antwoord. En wil je het gewoon even voorleggen, [plan dan een gesprek](/contact).
+Loop je bij een van de stappen vast, of wil je weten welke keuzes je vooraf moet maken? Lees wat [advies vóór de implementatie](/nl/ai-implementatie/advies) oplevert. Weet je nog niet of je organisatie er klaar voor is, dan geeft het [AI Readiness Assessment](/nl/diensten/ai-readiness-assessment) in {{timing:ai-readiness-assessment}} een onderbouwd antwoord. En wil je het gewoon even voorleggen, [plan dan een gesprek](/nl/contact).

@@ -1,6 +1,7 @@
 ---
 id: C3-07
-url: /kennisbank/notuleren-met-ai
+lang: nl
+url: /nl/kennisbank/notuleren-met-ai
 parent: C3-00
 cluster: "3. AI Automatisering"
 pageType: Kennisbank
@@ -12,8 +13,8 @@ metaDescription: "Notuleren met AI kan veel tijd schelen. Vergelijk tools zoals 
 keyphrase: notuleren met ai
 eyebrow: "Kennisbank"
 lede: "Notuleren met AI is een van de laagdrempeligste AI-toepassingen op kantoor: een tool luistert mee, maakt een transcript en stelt een verslag met actiepunten op. Het werkt goed, mits je de juiste tool kiest en de privacy vooraf regelt. Hier lees je hoe het werkt, welke tools er zijn en waar je op let."
-primaryCta: { label: "Lees meer over AI automatisering", href: /ai-automatisering }
-secondaryCta: { label: "Plan een adviesgesprek", href: /contact }
+primaryCta: { label: "Lees meer over AI automatisering", href: /nl/ai-automatisering }
+secondaryCta: { label: "Plan een adviesgesprek", href: /nl/contact }
 summary:
   - "Een AI-notulist neemt op, transcribeert en vat samen; een mens controleert en deelt."
   - "Kijk bij de toolkeuze vooral naar taalondersteuning, waar de data staat en hoe de tool meedoet aan het gesprek."
@@ -72,7 +73,7 @@ Er zijn grofweg drie manieren waarop een tool meeluistert:
 - **Via een bot** die als deelnemer aan de vergadering wordt toegevoegd, vaak automatisch via je agenda.
 - **Via een app op je computer** die het geluid lokaal opneemt, zonder dat er een bot inbelt.
 
-Die keuze bepaalt meer dan je zou denken: wie ziet dat er wordt opgenomen, waar de data terechtkomt en of het ook werkt bij externe vergaderingen. AI-notulen zijn daarmee een goed voorbeeld van hoe je een klein stuk [bedrijfsprocessen automatiseren met AI](/ai-automatisering/bedrijfsprocessen-automatiseren-met-ai) kunt aanpakken: een afgebakende taak, een duidelijke menselijke controlestap en meetbaar resultaat.
+Die keuze bepaalt meer dan je zou denken: wie ziet dat er wordt opgenomen, waar de data terechtkomt en of het ook werkt bij externe vergaderingen. AI-notulen zijn daarmee een goed voorbeeld van hoe je een klein stuk [bedrijfsprocessen automatiseren met AI](/nl/ai-automatisering/bedrijfsprocessen-automatiseren-met-ai) kunt aanpakken: een afgebakende taak, een duidelijke menselijke controlestap en meetbaar resultaat.
 
 ## De beste tools om te notuleren met AI
 
@@ -87,7 +88,7 @@ Er bestaat niet één beste tool. De juiste keuze hangt af van je vergaderplatfo
 
 **Notuleren met Copilot in Teams.** Werk je in Microsoft 365, dan is dit de meest voor de hand liggende route. Volgens [Microsoft Learn](https://learn.microsoft.com/en-us/microsoftteams/intelligent-recap-calls-meetings) levert intelligent recap onder meer AI-notities, voorgestelde taken en sprekers- en hoofdstukmarkeringen, maar alleen als transcriptie aanstaat; voor de volledige ervaring moet ook opnemen zijn toegestaan. Copilot kan tijdens en na de vergadering vragen beantwoorden over wat er besproken is. Er is een instelling waarbij Copilot alleen tijdens de vergadering werkt, zonder dat er een transcript blijft bestaan, en Copilot werkt niet in vergaderingen die door een andere organisatie worden gehost.
 
-**Externe tools** zoals Otter, Fireflies en tl;dv zijn handig als je veel buiten Teams vergadert. Let dan extra op de taalondersteuning voor Nederlands en op waar de opnames worden opgeslagen. Een bredere vergelijking van AI-tools en hoe je daartussen kiest, lees je in het overzicht van [AI tools voor organisaties](/ai-automatisering/ai-tools).
+**Externe tools** zoals Otter, Fireflies en tl;dv zijn handig als je veel buiten Teams vergadert. Let dan extra op de taalondersteuning voor Nederlands en op waar de opnames worden opgeslagen. Een bredere vergelijking van AI-tools en hoe je daartussen kiest, lees je in het overzicht van [AI tools voor organisaties](/nl/ai-automatisering/ai-tools).
 
 ## Privacy en AVG
 
@@ -101,7 +102,7 @@ Een vergadering opnemen is een verwerking van persoonsgegevens: stemmen, namen e
 
 **Waar staat de data en wie kan erbij?** Sluit een verwerkersovereenkomst met de leverancier, kijk waar opnames en transcripten worden opgeslagen, en spreek bewaartermijnen af. Wees extra voorzichtig met vergaderingen waarin gevoelige onderwerpen langskomen, zoals gezondheid in een verzuimgesprek of een reorganisatie. Daar zet je de AI-notulist beter uit.
 
-Deze afspraken horen niet in een losse notitie, maar in je [AI beleid](/ai-beleid), zodat iedereen dezelfde regels volgt.
+Deze afspraken horen niet in een losse notitie, maar in je [AI beleid](/nl/ai-beleid), zodat iedereen dezelfde regels volgt.
 
 ## Zo richt je het in
 
@@ -109,7 +110,7 @@ Deze afspraken horen niet in een losse notitie, maar in je [AI beleid](/ai-belei
 2. **Leg de spelregels vast**: bij welke vergaderingen de notulist aan mag, hoe je dat aankondigt, wie het verslag controleert en hoe lang opnames en transcripten worden bewaard.
 3. **Test met echte vergaderingen**, inclusief Nederlands vakjargon en externe deelnemers, en vergelijk het resultaat met een handmatig verslag.
 4. **Maak iemand eigenaar** van het verslag. De AI levert het concept; een mens stelt het vast.
-5. **Koppel pas daarna door.** Actiepunten automatisch in je takenlijst of CRM zetten is een logische volgende stap; hoe je zulke ketens bouwt en beheert, lees je bij [AI workflows](/ai-automatisering/ai-workflows).
+5. **Koppel pas daarna door.** Actiepunten automatisch in je takenlijst of CRM zetten is een logische volgende stap; hoe je zulke ketens bouwt en beheert, lees je bij [AI workflows](/nl/ai-automatisering/ai-workflows).
 
 <aside class="scenario" aria-label="Voorbeeldscenario">
 <p class="scenario-label">Voorbeeldscenario</p>
@@ -119,4 +120,4 @@ Deze afspraken horen niet in een losse notitie, maar in je [AI beleid](/ai-belei
 <p class="scenario-note">Fictief voorbeeld, samengesteld uit situaties die veel voorkomen. Organisatie en cijfers zijn illustratief.</p>
 </aside>
 
-Notuleren met AI is vaak een goede eerste stap, maar het levert het meeste op als het past in een bredere aanpak. Hoe je bepaalt welke taken je automatiseert en in welke volgorde, lees je op de pagina over [AI automatisering](/ai-automatisering). Wil je sparren over de juiste tool en de privacyafspraken voor jouw organisatie? [Plan een adviesgesprek](/contact).
+Notuleren met AI is vaak een goede eerste stap, maar het levert het meeste op als het past in een bredere aanpak. Hoe je bepaalt welke taken je automatiseert en in welke volgorde, lees je op de pagina over [AI automatisering](/nl/ai-automatisering). Wil je sparren over de juiste tool en de privacyafspraken voor jouw organisatie? [Plan een adviesgesprek](/nl/contact).

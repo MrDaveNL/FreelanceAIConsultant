@@ -1,6 +1,7 @@
 ---
 id: C1-03
-url: /ai-consultancy/ai-strategie
+lang: nl
+url: /nl/ai-consultancy/ai-strategie
 parent: C1-00
 cluster: "1. AI Consultancy & Advies"
 pageType: Spoke
@@ -12,8 +13,8 @@ metaDescription: "Een AI strategie die past bij je doelen, data en organisatie. 
 keyphrase: ai strategie
 eyebrow: "AI strategie"
 lede: "Een AI strategie legt vast wat je met AI wilt bereiken, waar je het wel en niet voor inzet en wat daarvoor nodig is. Geen visiedocument vol ambities, maar een korte set keuzes waar iemand zijn naam aan verbindt. Zo ontwikkel je er een die past bij je doelen, je data en je organisatie."
-primaryCta: { label: "Plan een adviesgesprek", href: /contact }
-secondaryCta: { label: "Bekijk het AI Readiness Assessment", href: /diensten/ai-readiness-assessment }
+primaryCta: { label: "Plan een adviesgesprek", href: /nl/contact }
+secondaryCta: { label: "Bekijk het AI Readiness Assessment", href: /nl/diensten/ai-readiness-assessment }
 summary:
   - "Een AI strategie begint bij business-uitkomsten, niet bij technologie."
   - "Vier onderdelen: doelen en businesscase, data en infrastructuur, mensen en vaardigheden, governance en risico's."
@@ -52,7 +53,7 @@ Een AI strategie lost drie praktische problemen op:
 - **Samenhang:** toepassingen gebruiken dezelfde data, dezelfde afspraken over beheer en dezelfde risicotoets, in plaats van dat elk team het wiel opnieuw uitvindt.
 - **Verantwoording:** directie, board en toezichthouders krijgen een onderbouwing waar ze op kunnen sturen, inclusief de risico's.
 
-Een strategie hoeft niet groot te zijn. Voor een middelgrote organisatie zijn een paar pagina's met doelen, een geprioriteerd portfolio en heldere randvoorwaarden vaak genoeg. Welke rol een strategie speelt binnen het bredere werk van [AI consultancy](/ai-consultancy), lees je op de overzichtspagina.
+Een strategie hoeft niet groot te zijn. Voor een middelgrote organisatie zijn een paar pagina's met doelen, een geprioriteerd portfolio en heldere randvoorwaarden vaak genoeg. Welke rol een strategie speelt binnen het bredere werk van [AI consultancy](/nl/ai-consultancy), lees je op de overzichtspagina.
 
 ## Onderdelen van een goede AI strategie
 
@@ -62,13 +63,13 @@ Een bruikbare AI strategie bestaat uit vier onderdelen. Ontbreekt er één, dan 
 
 Begin bij de uitkomst, niet bij de technologie. "Generatieve AI inzetten voor klantcontact" is een richting. "De afhandeltijd van eerstelijnsvragen omlaag, zonder dat de klanttevredenheid daalt" is een doel waar je op kunt sturen. Per doel hoort er een eigenaar in de lijn bij, een eerste waarde-inschatting met zichtbare aannames en een meetpunt.
 
-De businesscase hoeft in dit stadium niet op de euro nauwkeurig te zijn, maar wel eerlijk. Tijdsbesparing is pas een besparing als iemand die tijd anders besteedt. Hoe je een businesscase opstelt die de realisatiecheck overleeft, staat in [de business case voor AI](/inzichten/de-business-case-voor-ai).
+De businesscase hoeft in dit stadium niet op de euro nauwkeurig te zijn, maar wel eerlijk. Tijdsbesparing is pas een besparing als iemand die tijd anders besteedt. Hoe je een businesscase opstelt die de realisatiecheck overleeft, staat in [de business case voor AI](/nl/inzichten/de-business-case-voor-ai).
 
 ### Data en infrastructuur
 
 Een datastrategie voor AI hoeft niet te beginnen met een compleet datalandschap. De vraag is niet "is onze data op orde?", maar "is deze data goed genoeg voor dit besluit?". Definities zijn daarbij meestal belangrijker dan volume of infrastructuur: vier systemen met drie definities van "klant" is een groter probleem dan een ontbrekend datawarehouse.
 
-Het fundament bouw je langs de eerste use cases, niet ervoor. De redenering daarachter, en de situaties waarin "eerst de data" wel het juiste antwoord is, lees je in [het datafundament onder AI](/inzichten/het-datafundament-onder-ai).
+Het fundament bouw je langs de eerste use cases, niet ervoor. De redenering daarachter, en de situaties waarin "eerst de data" wel het juiste antwoord is, lees je in [het datafundament onder AI](/nl/inzichten/het-datafundament-onder-ai).
 
 ### Mensen en vaardigheden
 
@@ -78,13 +79,13 @@ Hier zit ook de vraag of je een eigen AI-lead nodig hebt, en zo ja wanneer. Voor
 
 ### Governance en risico's
 
-Governance bepaalt wie mag beslissen, hoe een toepassing in productie komt en wat er gebeurt als het misgaat. Houd het licht: een register van toepassingen, een poort voor productie, een periodieke toets en een escalatiepad. Onder risico's vallen privacy, afhankelijkheid van leveranciers en de verplichtingen uit de AI Act. Hoe je dit vertaalt naar afspraken en beleid voor je organisatie, lees je bij [AI beleid](/ai-beleid).
+Governance bepaalt wie mag beslissen, hoe een toepassing in productie komt en wat er gebeurt als het misgaat. Houd het licht: een register van toepassingen, een poort voor productie, een periodieke toets en een escalatiepad. Onder risico's vallen privacy, afhankelijkheid van leveranciers en de verplichtingen uit de AI Act. Hoe je dit vertaalt naar afspraken en beleid voor je organisatie, lees je bij [AI beleid](/nl/ai-beleid).
 
 ## AI maturity en AI readiness bepalen
 
 Voordat je keuzes maakt, moet je weten waar je staat. AI maturity en AI readiness worden vaak door elkaar gebruikt. In de praktijk gaat het om één vraag: wat is haalbaar met de organisatie, data en systemen die je nu hebt, en wat moet eerst?
 
-Dat beantwoord ik met het [AI Readiness Assessment](/diensten/ai-readiness-assessment). Ik licht je organisatie door op vijf dimensies: strategie, data, technologie, mensen en governance. In {{timing:ai-readiness-assessment}} doe ik een documentenanalyse, een datascan op de relevante bronnen en acht tot twaalf interviews dwars door de organisatie, van business en IT tot risk en de werkvloer. Daarna scoor ik de vijf dimensies tegen een referentiekader en toets ik een eerste kansenlijst bij de eigenaren van de processen.
+Dat beantwoord ik met het [AI Readiness Assessment](/nl/diensten/ai-readiness-assessment). Ik licht je organisatie door op vijf dimensies: strategie, data, technologie, mensen en governance. In {{timing:ai-readiness-assessment}} doe ik een documentenanalyse, een datascan op de relevante bronnen en acht tot twaalf interviews dwars door de organisatie, van business en IT tot risk en de werkvloer. Daarna scoor ik de vijf dimensies tegen een referentiekader en toets ik een eerste kansenlijst bij de eigenaren van de processen.
 
 <figure class="diagram" role="img" aria-label="Het AI Readiness Assessment in {{timing:ai-readiness-assessment}}: in week 1 documentenanalyse, datascan en interviews, in week 2 scoring op vijf dimensies en een eerste kansenlijst, in week 3 prioritering, 90-dagenplan en eindsessie">
 <ol class="flow">
@@ -101,11 +102,11 @@ Soms is de uitkomst dat je nog niet klaar bent. Dan krijg je een plan voor het f
 
 ## Van strategie naar roadmap
 
-Een AI strategie wordt pas echt op het moment dat iemand er een kwartaaldoel van maakt. De meeste strategieën stranden niet op de inhoud, maar op drie ontbrekende vertaalslagen: ambitie omzetten in meetbare uitkomsten, per use case één eigenaar aanwijzen met budget en mandaat, en meten op het niveau waarop je de waarde beloofde. Ik werkte die drie stappen uit in [van AI-strategie naar waarde](/inzichten/van-ai-strategie-naar-waarde).
+Een AI strategie wordt pas echt op het moment dat iemand er een kwartaaldoel van maakt. De meeste strategieën stranden niet op de inhoud, maar op drie ontbrekende vertaalslagen: ambitie omzetten in meetbare uitkomsten, per use case één eigenaar aanwijzen met budget en mandaat, en meten op het niveau waarop je de waarde beloofde. Ik werkte die drie stappen uit in [van AI-strategie naar waarde](/nl/inzichten/van-ai-strategie-naar-waarde).
 
-De roadmap is de plek waar die vertaling samenkomt: welke use cases eerst, welke randvoorwaarden daarvoor nodig zijn, wat het kost en wanneer je beslist om door te gaan of te stoppen. Hoe je die opstelt, lees je bij [een AI roadmap ontwikkelen](/ai-consultancy/ai-roadmap).
+De roadmap is de plek waar die vertaling samenkomt: welke use cases eerst, welke randvoorwaarden daarvoor nodig zijn, wat het kost en wanneer je beslist om door te gaan of te stoppen. Hoe je die opstelt, lees je bij [een AI roadmap ontwikkelen](/nl/ai-consultancy/ai-roadmap).
 
-Wil je strategie en roadmap in één keer vastleggen, met de beslissers zelf aan tafel? Daarvoor is de [AI Strategy Sprint](/diensten/ai-strategy-sprint): in {{timing:ai-strategy-sprint}} en vijf werksessies van diagnose naar een board-ready strategie, een prioriteitenmatrix en een use-case roadmap. Hoe dat in de praktijk gaat, zie je in de case over een [AI-strategie voor een investeringsmaatschappij](/cases/ai-strategie-investeringsmaatschappij).
+Wil je strategie en roadmap in één keer vastleggen, met de beslissers zelf aan tafel? Daarvoor is de [AI Strategy Sprint](/nl/diensten/ai-strategy-sprint): in {{timing:ai-strategy-sprint}} en vijf werksessies van diagnose naar een board-ready strategie, een prioriteitenmatrix en een use-case roadmap. Hoe dat in de praktijk gaat, zie je in de case over een [AI-strategie voor een investeringsmaatschappij](/nl/cases/ai-strategie-investeringsmaatschappij).
 
 <aside class="scenario" aria-label="Voorbeeldscenario">
 <p class="scenario-label">Voorbeeldscenario</p>
@@ -115,4 +116,4 @@ Wil je strategie en roadmap in één keer vastleggen, met de beslissers zelf aan
 <p class="scenario-note">Fictief voorbeeld, samengesteld uit situaties die veel voorkomen. Organisatie en cijfers zijn illustratief.</p>
 </aside>
 
-Heb je geen volledige strategie nodig, maar wel een onafhankelijke blik op één vraag? Dan past [afgebakend AI advies](/ai-consultancy/ai-advies) of een second opinion beter. En wil je eerst sparren over waar je staat? [Plan een adviesgesprek](/contact) van dertig minuten.
+Heb je geen volledige strategie nodig, maar wel een onafhankelijke blik op één vraag? Dan past [afgebakend AI advies](/nl/ai-consultancy/ai-advies) of een second opinion beter. En wil je eerst sparren over waar je staat? [Plan een adviesgesprek](/nl/contact) van dertig minuten.

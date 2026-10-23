@@ -1,6 +1,7 @@
 ---
 id: C4-05
-url: /kennisbank/wat-doet-een-bi-specialist
+lang: nl
+url: /nl/kennisbank/wat-doet-een-bi-specialist
 parent: C4-00
 cluster: "4. AI voor bedrijven"
 pageType: Kennisbank
@@ -12,8 +13,8 @@ metaDescription: "Wat doet een BI specialist en hoe verandert die rol door AI? L
 keyphrase: bi specialisten
 eyebrow: "Kennisbank"
 lede: "BI specialisten zorgen ervoor dat een organisatie op betrouwbare cijfers stuurt. Ze verzamelen data uit verschillende systemen, leggen vast wat begrippen betekenen en maken rapportages en dashboards. Hier lees je wat de rol inhoudt, welke vaardigheden erbij horen, hoe een BI specialist verschilt van een AI specialist en hoe AI het vak verandert."
-primaryCta: { label: "Lees meer over AI en BI", href: /ai-voor-bedrijven/ai-en-bi }
-secondaryCta: { label: "Plan een adviesgesprek", href: /contact }
+primaryCta: { label: "Lees meer over AI en BI", href: /nl/ai-voor-bedrijven/ai-en-bi }
+secondaryCta: { label: "Plan een adviesgesprek", href: /nl/contact }
 summary:
   - "Een BI specialist vertaalt bedrijfsvragen naar betrouwbare cijfers, rapportages en dashboards."
   - "Het verschil met een AI specialist: BI verklaart wat er gebeurde, AI voorspelt, classificeert of genereert."
@@ -75,11 +76,11 @@ BI specialisten en AI specialisten werken allebei met data, maar ze beantwoorden
 | Data | Vooral gestructureerd | Gestructureerd én tekst, documenten of beeld |
 | Uitkomst | Exact, als de data klopt | Een inschatting met een foutmarge |
 
-Wanneer schakel je wie in? Wil je betrouwbare stuurinformatie, eenduidige cijfers en goede rapportages, dan heb je een BI specialist nodig. Wil je vooruitkijken, tekst en documenten verwerken of taken automatiseren, dan zoek je een AI specialist. Wat die rol precies inhoudt en welke soorten er zijn, lees je bij [de AI specialist](/ai-development/ai-specialist). Hoe de twee disciplines elkaar versterken, staat uitgewerkt op [AI en BI](/ai-voor-bedrijven/ai-en-bi).
+Wanneer schakel je wie in? Wil je betrouwbare stuurinformatie, eenduidige cijfers en goede rapportages, dan heb je een BI specialist nodig. Wil je vooruitkijken, tekst en documenten verwerken of taken automatiseren, dan zoek je een AI specialist. Wat die rol precies inhoudt en welke soorten er zijn, lees je bij [de AI specialist](/nl/ai-development/ai-specialist). Hoe de twee disciplines elkaar versterken, staat uitgewerkt op [AI en BI](/nl/ai-voor-bedrijven/ai-en-bi).
 
 In de praktijk heb je ze vaak allebei nodig, en in die volgorde. Een AI-toepassing die op bedrijfscijfers draait, is zo betrouwbaar als de definities en de data eronder. Dat fundament is typisch het werk van een BI specialist.
 
-Ik ben zelf geen BI specialist en bouw geen dashboards of datamodellen. Als onafhankelijk AI-adviseur help ik organisaties bepalen welke AI-toepassingen op hun data zinvol zijn en welke rollen en partijen daarvoor nodig zijn. Voor het BI-werk zelf werk je met een eigen BI-team of met een partij uit mijn [partnernetwerk](/partnernetwerk), die je rechtstreeks contracteert.
+Ik ben zelf geen BI specialist en bouw geen dashboards of datamodellen. Als onafhankelijk AI-adviseur help ik organisaties bepalen welke AI-toepassingen op hun data zinvol zijn en welke rollen en partijen daarvoor nodig zijn. Voor het BI-werk zelf werk je met een eigen BI-team of met een partij uit mijn [partnernetwerk](/nl/partnernetwerk), die je rechtstreeks contracteert.
 
 ## Hoe AI de rol verandert
 
@@ -91,7 +92,7 @@ AI verandert het werk van BI specialisten op drie manieren.
 
 **De rol schuift op naar advies en kwaliteit.** Als AI-uitkomsten op bedrijfsdata gaan draaien, wordt de vraag waar een getal vandaan komt belangrijker. BI specialisten die kunnen uitleggen hoe data tot stand komt en waar de beperkingen zitten, worden waardevoller, niet minder.
 
-Voor organisaties betekent dit dat investeren in een goed BI-fundament geen alternatief is voor AI, maar vaak de beste voorbereiding erop. Hoe dat per type organisatie uitpakt, lees je bij [AI voor het mkb](/ai-voor-bedrijven/mkb) en [AI voor zakelijke dienstverleners](/ai-voor-bedrijven/zakelijke-dienstverleners). Het bredere overzicht staat op [AI voor bedrijven](/ai-voor-bedrijven).
+Voor organisaties betekent dit dat investeren in een goed BI-fundament geen alternatief is voor AI, maar vaak de beste voorbereiding erop. Hoe dat per type organisatie uitpakt, lees je bij [AI voor het mkb](/nl/ai-voor-bedrijven/mkb) en [AI voor zakelijke dienstverleners](/nl/ai-voor-bedrijven/zakelijke-dienstverleners). Het bredere overzicht staat op [AI voor bedrijven](/nl/ai-voor-bedrijven).
 
 <aside class="scenario" aria-label="Voorbeeldscenario">
 <p class="scenario-label">Voorbeeldscenario</p>
@@ -101,4 +102,4 @@ Voor organisaties betekent dit dat investeren in een goed BI-fundament geen alte
 <p class="scenario-note">Fictief voorbeeld, samengesteld uit situaties die veel voorkomen. Organisatie en cijfers zijn illustratief.</p>
 </aside>
 
-Twijfel je of je vraag bij een BI specialist, een AI specialist of een adviseur hoort? [Plan een kort gesprek](/contact), dan kijken we samen welke rol je nodig hebt.
+Twijfel je of je vraag bij een BI specialist, een AI specialist of een adviseur hoort? [Plan een kort gesprek](/nl/contact), dan kijken we samen welke rol je nodig hebt.

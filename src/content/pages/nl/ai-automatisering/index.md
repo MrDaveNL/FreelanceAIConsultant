@@ -1,6 +1,7 @@
 ---
 id: C3-00
-url: /ai-automatisering
+lang: nl
+url: /nl/ai-automatisering
 parent: null
 cluster: "3. AI Automatisering"
 pageType: Hub
@@ -12,8 +13,8 @@ metaDescription: "Met AI automatisering neem je repetitief werk uit handen, van 
 keyphrase: ai automatisering
 eyebrow: "AI automatisering"
 lede: "AI automatisering neemt werk over dat te rommelig is voor klassieke automatisering: e-mails lezen, documenten uitpluizen, een eerste antwoord opstellen. Het levert pas iets op als je het juiste proces kiest en de menselijke controle goed regelt. Op deze pagina lees je waar je begint, wat het kost en hoe je het veilig opschaalt."
-primaryCta: { label: "Plan een adviesgesprek", href: /contact }
-secondaryCta: { label: "Bekijk het AI Readiness Assessment", href: /diensten/ai-readiness-assessment }
+primaryCta: { label: "Plan een adviesgesprek", href: /nl/contact }
+secondaryCta: { label: "Bekijk het AI Readiness Assessment", href: /nl/diensten/ai-readiness-assessment }
 summary:
   - "AI automatisering is geschikt voor werk met ongestructureerde input: tekst, documenten, e-mail."
   - "Kies processen met hoog volume, lage variatie en een bestaande controlestap."
@@ -66,11 +67,11 @@ AI automatisering werkt met waarschijnlijkheden. Het model schat in wat een docu
 | Fouten | Voorspelbaar, meestal een foutmelding | Onvoorspelbaar, soms zonder foutmelding |
 | Controle | Steekproef volstaat vaak | Menselijke controle bij de start nodig |
 
-De sterkste oplossingen combineren beide: regels waar het kan, AI alleen voor de stap die regels niet aankunnen. Wanneer je voor welke aanpak kiest, lees je in de vergelijking van [RPA en AI-automatisering](/kennisbank/rpa-vs-ai-automatisering).
+De sterkste oplossingen combineren beide: regels waar het kan, AI alleen voor de stap die regels niet aankunnen. Wanneer je voor welke aanpak kiest, lees je in de vergelijking van [RPA en AI-automatisering](/nl/kennisbank/rpa-vs-ai-automatisering).
 
 ## Welke processen kun je automatiseren met AI?
 
-Goede kandidaten hebben drie dingen gemeen: ze komen vaak voor, ze lijken sterk op elkaar en er kijkt nu al iemand naar het resultaat. Hieronder de gebieden waar dat patroon het vaakst voorkomt. Een uitgebreide aanpak om processen te selecteren staat in [bedrijfsprocessen automatiseren met AI](/ai-automatisering/bedrijfsprocessen-automatiseren-met-ai).
+Goede kandidaten hebben drie dingen gemeen: ze komen vaak voor, ze lijken sterk op elkaar en er kijkt nu al iemand naar het resultaat. Hieronder de gebieden waar dat patroon het vaakst voorkomt. Een uitgebreide aanpak om processen te selecteren staat in [bedrijfsprocessen automatiseren met AI](/nl/ai-automatisering/bedrijfsprocessen-automatiseren-met-ai).
 
 ### Klantenservice
 
@@ -86,7 +87,7 @@ Leads verrijken met openbare informatie en een eerste inschatting van de fit. Of
 
 ### HR en interne kennis
 
-Vragen van medewerkers over regelingen beantwoorden op basis van het personeelshandboek. Vacatureteksten in concept opstellen. Notulen en actielijsten uit vergaderingen halen, zoals beschreven in [notuleren met AI](/kennisbank/notuleren-met-ai). Wees terughoudend met alles wat een beoordeling van personen raakt: dat is gevoelig onder de AVG, en AI voor werving, selectie en beoordeling van medewerkers staat in de [AI Act](/ai-beleid/ai-act) op de lijst van hoog-risicotoepassingen ([bijlage III](https://ai-act-service-desk.ec.europa.eu/en/ai-act/annex-3)).
+Vragen van medewerkers over regelingen beantwoorden op basis van het personeelshandboek. Vacatureteksten in concept opstellen. Notulen en actielijsten uit vergaderingen halen, zoals beschreven in [notuleren met AI](/nl/kennisbank/notuleren-met-ai). Wees terughoudend met alles wat een beoordeling van personen raakt: dat is gevoelig onder de AVG, en AI voor werving, selectie en beoordeling van medewerkers staat in de [AI Act](/nl/ai-beleid/ai-act) op de lijst van hoog-risicotoepassingen ([bijlage III](https://ai-act-service-desk.ec.europa.eu/en/ai-act/annex-3)).
 
 ## AI automatisering voorbeelden
 
@@ -97,7 +98,7 @@ Een paar voorbeelden om het concreet te maken, generiek beschreven:
 - **Een installatiebedrijf** laat werkbonnen van monteurs omzetten naar een nette rapportage voor de klant.
 - **Een zakelijke dienstverlener** geeft kenniswerkers een interne assistent voor een paar vaste taken, zoals dossiers doorzoeken en verslagen opstellen.
 
-Dat laatste voorbeeld sluit aan bij de case over een [interne AI-assistent voor kenniswerkers](/cases/interne-ai-assistent-kenniswerkers). De les daaruit is breder toepasbaar: de techniek stond snel, de adoptie kostte veel meer tijd, en het werkte pas toen de assistent werd ingezet voor een paar afgebakende taken in plaats van "voor alles". 25 voorbeelden per afdeling en sector vind je in het overzicht met [AI-voorbeelden uit de praktijk](/kennisbank/ai-voorbeelden).
+Dat laatste voorbeeld sluit aan bij de case over een [interne AI-assistent voor kenniswerkers](/nl/cases/interne-ai-assistent-kenniswerkers). De les daaruit is breder toepasbaar: de techniek stond snel, de adoptie kostte veel meer tijd, en het werkte pas toen de assistent werd ingezet voor een paar afgebakende taken in plaats van "voor alles". 25 voorbeelden per afdeling en sector vind je in het overzicht met [AI-voorbeelden uit de praktijk](/nl/kennisbank/ai-voorbeelden).
 
 <aside class="scenario" aria-label="Voorbeeldscenario">
 <p class="scenario-label">Voorbeeldscenario</p>
@@ -109,13 +110,13 @@ Dat laatste voorbeeld sluit aan bij de case over een [interne AI-assistent voor 
 
 ## Opschalen in grotere organisaties
 
-Bij AI automatisering voor bedrijven met meerdere afdelingen verschuift de vraag. De eerste automatisering is zelden het probleem. Het probleem is de tiende: wie beheert ze, hoe weet je dat ze nog werken en wat gebeurt er als het onderliggende model verandert? Pilots die technisch slagen maar nooit breder worden uitgerold, komen veel voor. De oorzaken zet ik op een rij in [waarom AI-pilots blijven steken](/inzichten/waarom-ai-pilots-blijven-steken).
+Bij AI automatisering voor bedrijven met meerdere afdelingen verschuift de vraag. De eerste automatisering is zelden het probleem. Het probleem is de tiende: wie beheert ze, hoe weet je dat ze nog werken en wat gebeurt er als het onderliggende model verandert? Pilots die technisch slagen maar nooit breder worden uitgerold, komen veel voor. De oorzaken zet ik op een rij in [waarom AI-pilots blijven steken](/nl/inzichten/waarom-ai-pilots-blijven-steken).
 
 ### Koppelen met bestaande systemen
 
 De koppeling met je ERP, CRM of documentsysteem kost vrijwel altijd meer tijd dan de AI-stap zelf. Stel daarom vroeg drie vragen: welke systemen moeten open, wie beheert die koppelingen, en welke rechten krijgt de automatisering? Een automatisering die met de rechten van een beheerder draait, kan meer schade doen dan nodig is. Geef haar alleen toegang tot wat ze voor die ene taak nodig heeft.
 
-Let ook op de data zelf. Een automatisering die klantgegevens opzoekt, is zo goed als de gegevens in je CRM. Wat daar komt kijken, lees je in [het datafundament onder AI](/inzichten/het-datafundament-onder-ai).
+Let ook op de data zelf. Een automatisering die klantgegevens opzoekt, is zo goed als de gegevens in je CRM. Wat daar komt kijken, lees je in [het datafundament onder AI](/nl/inzichten/het-datafundament-onder-ai).
 
 ### Governance bij opschalen
 
@@ -126,11 +127,11 @@ Met één automatisering kun je alles in je hoofd houden. Met twintig niet. Mini
 - **Monitoring** op kwaliteit, bijvoorbeeld een maandelijkse steekproef en een teller voor correcties.
 - **Een stopknop**: wie mag een automatisering uitzetten als er iets misgaat, en hoe val je terug op handwerk?
 
-Dat hoeft geen bureaucratie te worden. Hoe je dit licht en werkbaar inricht, staat op de pagina over [AI-beleid en governance](/ai-beleid).
+Dat hoeft geen bureaucratie te worden. Hoe je dit licht en werkbaar inricht, staat op de pagina over [AI-beleid en governance](/nl/ai-beleid).
 
 ## AI automatisering voor het MKB
 
-Voor AI automatisering in het mkb gelden dezelfde principes, met minder ruimte voor experimenten. Er is meestal geen apart IT-team en geen budget voor een traject dat een jaar duurt. Dat is geen nadeel: het dwingt je om klein en concreet te beginnen. Meer over de specifieke situatie van kleinere organisaties lees je bij [AI voor het mkb](/ai-voor-bedrijven/mkb).
+Voor AI automatisering in het mkb gelden dezelfde principes, met minder ruimte voor experimenten. Er is meestal geen apart IT-team en geen budget voor een traject dat een jaar duurt. Dat is geen nadeel: het dwingt je om klein en concreet te beginnen. Meer over de specifieke situatie van kleinere organisaties lees je bij [AI voor het mkb](/nl/ai-voor-bedrijven/mkb).
 
 ### De beste processen om mee te starten
 
@@ -142,7 +143,7 @@ Begin met een proces dat aan deze vijf voorwaarden voldoet:
 4. Een fout is zichtbaar en goedkoop te herstellen.
 5. Er is één persoon die er direct beter van wordt en eigenaar wil zijn.
 
-Inkomende e-mail sorteren, facturen uitlezen en offertes in concept opstellen voldoen daar vaak aan. Waarom juist de saaie processen winnen, beschreef ik in [welke AI-use cases resultaat leveren](/inzichten/welke-ai-use-cases-leveren-resultaat).
+Inkomende e-mail sorteren, facturen uitlezen en offertes in concept opstellen voldoen daar vaak aan. Waarom juist de saaie processen winnen, beschreef ik in [welke AI-use cases resultaat leveren](/nl/inzichten/welke-ai-use-cases-leveren-resultaat).
 
 ### Kosten en terugverdientijd
 
@@ -154,7 +155,7 @@ De kosten van AI automatisering bestaan uit vier posten: de eenmalige inrichting
 
 **Rekenvoorbeeld met fictieve, ronde getallen.** Een bedrijf verwerkt 400 facturen per maand. Handmatig kost dat 6 minuten per factuur, samen 40 uur. Na automatisering blijft er per factuur 2 minuten controle over, samen ongeveer 13 uur. Dat scheelt zo'n 27 uur per maand. Bij fictieve uurkosten van € 50 is dat € 1.350 bruto. Stel dat licenties, verbruik en beheer samen € 350 per maand kosten; dan blijft er € 1.000 netto over. Met eenmalige inrichtingskosten van € 10.000 verdien je de investering in tien maanden terug.
 
-De belangrijkste kanttekening: bespaarde uren zijn pas een besparing als die tijd aantoonbaar anders wordt ingezet of als er minder inhuur nodig is. Hoe je dat eerlijk doorrekent, lees je in [de business case voor AI](/inzichten/de-business-case-voor-ai).
+De belangrijkste kanttekening: bespaarde uren zijn pas een besparing als die tijd aantoonbaar anders wordt ingezet of als er minder inhuur nodig is. Hoe je dat eerlijk doorrekent, lees je in [de business case voor AI](/nl/inzichten/de-business-case-voor-ai).
 
 ## Zo pak ik AI automatisering aan
 
@@ -170,11 +171,11 @@ Ik ben een onafhankelijk adviseur. Ik bouw zelf geen automatiseringen en verkoop
 <figcaption>Van proces naar werkende automatisering. Ik adviseer en begeleid; bouwen doet je eigen team of een partner die je zelf contracteert.</figcaption>
 </figure>
 
-Concreet lever ik per stap iets op waar je een besluit mee kunt nemen: een procesbeschrijving met nulmeting, een geprioriteerde lijst met de afvallers erbij, een beslisdocument over bouwen, kopen of een partner inschakelen (de afweging staat in [build, buy of partner](/inzichten/build-buy-of-partner)) en een meetopzet voor na de livegang. Tijdens de bouw zit ik aan jouw kant van de tafel: ik toets de oplevering aan de afgesproken criteria en bewaak dat beheer en controle geregeld zijn.
+Concreet lever ik per stap iets op waar je een besluit mee kunt nemen: een procesbeschrijving met nulmeting, een geprioriteerde lijst met de afvallers erbij, een beslisdocument over bouwen, kopen of een partner inschakelen (de afweging staat in [build, buy of partner](/nl/inzichten/build-buy-of-partner)) en een meetopzet voor na de livegang. Tijdens de bouw zit ik aan jouw kant van de tafel: ik toets de oplevering aan de afgesproken criteria en bewaak dat beheer en controle geregeld zijn.
 
-Heb je hulp nodig bij het vinden van een bouwpartij, dan stel ik partijen voor uit mijn [partnernetwerk](/partnernetwerk). Je kiest en contracteert zelf. Wie ik ben en hoe ik werk, lees je op de pagina [over mij](/over). Voor de bredere route van besluit naar productie, ook buiten automatisering, zie [AI implementatie](/ai-implementatie).
+Heb je hulp nodig bij het vinden van een bouwpartij, dan stel ik partijen voor uit mijn [partnernetwerk](/nl/partnernetwerk). Je kiest en contracteert zelf. Wie ik ben en hoe ik werk, lees je op de pagina [over mij](/nl/over). Voor de bredere route van besluit naar productie, ook buiten automatisering, zie [AI implementatie](/nl/ai-implementatie).
 
-Weet je nog niet welk proces als eerste aan de beurt is? Dan is het [AI Readiness Assessment](/diensten/ai-readiness-assessment) het logische begin. In {{timing:ai-readiness-assessment}} krijg je een gevalideerde lijst met kansen en een 90-dagenplan, voor een vaste prijs van {{price:ai-readiness-assessment}} (exclusief btw en reiskosten).
+Weet je nog niet welk proces als eerste aan de beurt is? Dan is het [AI Readiness Assessment](/nl/diensten/ai-readiness-assessment) het logische begin. In {{timing:ai-readiness-assessment}} krijg je een gevalideerde lijst met kansen en een 90-dagenplan, voor een vaste prijs van {{price:ai-readiness-assessment}} (exclusief btw en reiskosten).
 
 ## Tools en workflows
 
@@ -185,6 +186,6 @@ Voor de meeste AI automatisering heb je geen maatwerk nodig. Een workflowplatfor
 - **n8n** kun je zelf hosten, bijvoorbeeld met Docker, naast een gehoste versie. Dat is relevant als je data binnen je eigen omgeving wilt houden.
 - **Microsoft Power Automate** kent cloud flows en desktop flows. Met die laatste automatiseer je ook taken in desktop- en webapplicaties, wat het een logische kandidaat maakt als je al in Microsoft 365 werkt.
 
-Prijzen en functies veranderen snel; controleer ze altijd bij de leverancier zelf. Hoe je zo'n stroom opbouwt, lees je bij [AI workflows](/ai-automatisering/ai-workflows). Een breder overzicht van assistenten, platforms en hoe je kiest staat bij [AI tools](/ai-automatisering/ai-tools). En als een automatisering zelfstandig stappen moet kiezen in plaats van een vaste route te volgen, kom je bij [AI agents](/ai-agents) uit.
+Prijzen en functies veranderen snel; controleer ze altijd bij de leverancier zelf. Hoe je zo'n stroom opbouwt, lees je bij [AI workflows](/nl/ai-automatisering/ai-workflows). Een breder overzicht van assistenten, platforms en hoe je kiest staat bij [AI tools](/nl/ai-automatisering/ai-tools). En als een automatisering zelfstandig stappen moet kiezen in plaats van een vaste route te volgen, kom je bij [AI agents](/nl/ai-agents) uit.
 
-Wil je weten welke processen in jouw organisatie het meest opleveren? [Plan een adviesgesprek](/contact) van dertig minuten. Aan het eind hoor je wat ik zou doen, ook als dat betekent dat je mij niet nodig hebt.
+Wil je weten welke processen in jouw organisatie het meest opleveren? [Plan een adviesgesprek](/nl/contact) van dertig minuten. Aan het eind hoor je wat ik zou doen, ook als dat betekent dat je mij niet nodig hebt.

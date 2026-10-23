@@ -1,6 +1,7 @@
 ---
 id: C10-02
-url: /kennisbank/claude-voor-bedrijven
+lang: nl
+url: /nl/kennisbank/claude-voor-bedrijven
 parent: C3-05
 cluster: "10. Kennisbank AI tools"
 pageType: Kennisbank
@@ -12,8 +13,8 @@ metaDescription: "Wat kan Claude van Anthropic voor jouw bedrijf? Lees over zake
 keyphrase: claude voor bedrijven
 eyebrow: "Kennisbank · AI tools"
 lede: "Claude voor bedrijven is de zakelijke variant van de AI-assistent van Anthropic. Op deze pagina lees je wat Claude is, welke zakelijke abonnementen er zijn, waar het in de praktijk goed voor werkt en hoe het zich verhoudt tot ChatGPT en Gemini. Alle productfeiten zijn stand september 2026."
-primaryCta: { label: "Lees meer over AI tools", href: /ai-automatisering/ai-tools }
-secondaryCta: { label: "Plan een adviesgesprek", href: /contact }
+primaryCta: { label: "Lees meer over AI tools", href: /nl/ai-automatisering/ai-tools }
+secondaryCta: { label: "Plan een adviesgesprek", href: /nl/contact }
 summary:
   - "Zakelijk kies je tussen Team (2 tot 150 gebruikers) en Enterprise."
   - "Bij Team en Enterprise traint Anthropic standaard niet op je content."
@@ -86,7 +87,7 @@ Claude is breed inzetbaar, net als andere assistenten. De toepassingen waar de k
 - **Taken delegeren.** Met Cowork laat je een taak over meerdere stappen uitvoeren, zoals informatie verzamelen, ordenen en in een document of spreadsheet zetten, om het resultaat daarna te beoordelen.
 - **Programmeren.** Met Claude Code kunnen ontwikkelaars code laten schrijven, uitleggen en aanpassen vanuit de terminal, de ontwikkelomgeving of de browser.
 
-Voor alle toepassingen geldt hetzelfde als bij andere AI-tools: de uitkomst is een concept. Hoe beter je de opdracht formuleert, hoe bruikbaarder het concept. De basis daarvan beschrijf ik bij [prompt engineering](/kennisbank/prompt-engineering). En hoe meer zelfstandigheid je een tool geeft, zoals bij Cowork, hoe belangrijker het is om vooraf vast te leggen wat hij wel en niet mag. Dat hoort in je [AI-beleid](/ai-beleid).
+Voor alle toepassingen geldt hetzelfde als bij andere AI-tools: de uitkomst is een concept. Hoe beter je de opdracht formuleert, hoe bruikbaarder het concept. De basis daarvan beschrijf ik bij [prompt engineering](/nl/kennisbank/prompt-engineering). En hoe meer zelfstandigheid je een tool geeft, zoals bij Cowork, hoe belangrijker het is om vooraf vast te leggen wat hij wel en niet mag. Dat hoort in je [AI-beleid](/nl/ai-beleid).
 
 <aside class="scenario" aria-label="Voorbeeldscenario">
 <p class="scenario-label">Voorbeeldscenario</p>
@@ -108,6 +109,6 @@ Ik heb geen commissie- of partnerrelatie met Anthropic, OpenAI, Google of andere
 | Europese dataopslag in de app | Nee, opslag in de VS | Ja, bij Enterprise | Dataregio VS of Europa instelbaar vanaf Business Standard |
 | Sterk als | Je met lange documenten werkt of taken wilt delegeren | Je een breed pakket functies en eigen GPT's zoekt | Je organisatie al in Gmail, Docs en Meet werkt |
 
-De assistenten liggen qua basisfuncties dicht bij elkaar, en de prijs van een standaardplek in Team en Business is gelijk. Het verschil zit in de omgeving. Werk je in Google Workspace, dan ligt [Gemini voor bedrijven](/kennisbank/gemini-voor-bedrijven) voor de hand, omdat het al in je apps zit; in Microsoft 365 geldt hetzelfde voor [Copilot](/kennisbank/microsoft-copilot-voor-bedrijven). Is Europese dataopslag in de app een harde eis, dan bieden ChatGPT Enterprise (zie [ChatGPT voor bedrijven](/kennisbank/chatgpt-voor-bedrijven)), Gemini via de dataregio's van Workspace en Copilot via de EU Data Boundary daar een route voor. Bij Claude kan dat op dit moment alleen via de cloudplatforms. Kies je voor Claude, dan is dat vaak vanwege lange documenten, schrijfwerk of het delegeren van taken.
+De assistenten liggen qua basisfuncties dicht bij elkaar, en de prijs van een standaardplek in Team en Business is gelijk. Het verschil zit in de omgeving. Werk je in Google Workspace, dan ligt [Gemini voor bedrijven](/nl/kennisbank/gemini-voor-bedrijven) voor de hand, omdat het al in je apps zit; in Microsoft 365 geldt hetzelfde voor [Copilot](/nl/kennisbank/microsoft-copilot-voor-bedrijven). Is Europese dataopslag in de app een harde eis, dan bieden ChatGPT Enterprise (zie [ChatGPT voor bedrijven](/nl/kennisbank/chatgpt-voor-bedrijven)), Gemini via de dataregio's van Workspace en Copilot via de EU Data Boundary daar een route voor. Bij Claude kan dat op dit moment alleen via de cloudplatforms. Kies je voor Claude, dan is dat vaak vanwege lange documenten, schrijfwerk of het delegeren van taken.
 
-De eerlijkste manier om te kiezen: laat twee kandidaten dezelfde drie taken uitvoeren met je eigen, geanonimiseerde voorbeelden, en laat de mensen die het werk doen de uitkomst beoordelen. Een breder overzicht van criteria en tools staat in mijn [vergelijking van AI tools voor bedrijven](/ai-automatisering/ai-tools). Wil je een second opinion op je keuze? [Plan een adviesgesprek](/contact) van dertig minuten.
+De eerlijkste manier om te kiezen: laat twee kandidaten dezelfde drie taken uitvoeren met je eigen, geanonimiseerde voorbeelden, en laat de mensen die het werk doen de uitkomst beoordelen. Een breder overzicht van criteria en tools staat in mijn [vergelijking van AI tools voor bedrijven](/nl/ai-automatisering/ai-tools). Wil je een second opinion op je keuze? [Plan een adviesgesprek](/nl/contact) van dertig minuten.

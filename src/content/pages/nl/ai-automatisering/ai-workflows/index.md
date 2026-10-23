@@ -1,6 +1,7 @@
 ---
 id: C3-04
-url: /ai-automatisering/ai-workflows
+lang: nl
+url: /nl/ai-automatisering/ai-workflows
 parent: C3-00
 cluster: "3. AI Automatisering"
 pageType: Spoke
@@ -12,8 +13,8 @@ metaDescription: "Wat is een AI workflow en hoe zet je er een op? Bekijk voorbee
 keyphrase: ai workflow
 eyebrow: "AI workflows"
 lede: "Een AI workflow is een vaste reeks stappen waarin één of meer stappen door een AI-model worden uitgevoerd: een e-mail lezen, een document uitpluizen, een concept schrijven. De rest van de keten bestaat uit gewone koppelingen en een mens die controleert. Hier lees je hoe zo'n workflow eruitziet, welke tools je nodig hebt en hoe je hem veilig invoert."
-primaryCta: { label: "Lees meer over AI Automatisering", href: /ai-automatisering }
-secondaryCta: { label: "Bekijk het AI Readiness Assessment", href: /diensten/ai-readiness-assessment }
+primaryCta: { label: "Lees meer over AI Automatisering", href: /nl/ai-automatisering }
+secondaryCta: { label: "Bekijk het AI Readiness Assessment", href: /nl/diensten/ai-readiness-assessment }
 summary:
   - "Een AI workflow volgt een vaste route; alleen enkele stappen gebruiken AI."
   - "Bouw de controlestap en de logging in vanaf de eerste versie."
@@ -68,7 +69,7 @@ Een AI workflow bestaat bijna altijd uit dezelfde bouwstenen:
 <figcaption>De bouwstenen van een AI workflow. De AI-stap is één schakel; de rest is gewone automatisering en menselijke controle.</figcaption>
 </figure>
 
-Het verschil met een losse AI-assistent: een assistent wacht op een vraag van een gebruiker, een AI workflow draait mee in je proces en doet telkens dezelfde stap. AI workflow automatisering is daarmee een onderdeel van [AI automatisering](/ai-automatisering) in bredere zin.
+Het verschil met een losse AI-assistent: een assistent wacht op een vraag van een gebruiker, een AI workflow draait mee in je proces en doet telkens dezelfde stap. AI workflow automatisering is daarmee een onderdeel van [AI automatisering](/nl/ai-automatisering) in bredere zin.
 
 ## AI workflow voorbeelden
 
@@ -80,13 +81,13 @@ Een e-mail komt binnen in de algemene inbox. De workflow haalt de afzender op in
 
 ### Content en marketing
 
-Een productmanager vult een kort formulier in met nieuwe productgegevens. De workflow haalt de specificaties op, laat de AI-stap een producttekst en een paar varianten voor social media schrijven in de huisstijl, en zet alles klaar in het contentsysteem als concept. Een redacteur keurt goed of past aan. Feitelijke gegevens zoals prijzen en maten komen uit het productsysteem, niet uit het taalmodel. Meer over AI in dit vakgebied lees je bij [AI voor marketing](/markten/marketing).
+Een productmanager vult een kort formulier in met nieuwe productgegevens. De workflow haalt de specificaties op, laat de AI-stap een producttekst en een paar varianten voor social media schrijven in de huisstijl, en zet alles klaar in het contentsysteem als concept. Een redacteur keurt goed of past aan. Feitelijke gegevens zoals prijzen en maten komen uit het productsysteem, niet uit het taalmodel. Meer over AI in dit vakgebied lees je bij [AI voor marketing](/nl/markten/marketing).
 
 ### Finance en administratie
 
 Een leverancier mailt een factuur als pdf. De workflow slaat de bijlage op, de AI-stap leest leverancier, bedrag, btw en ordernummer uit, en een regelstap vergelijkt die gegevens met de inkooporder. Klopt alles binnen de afgesproken marge, dan staat de factuur klaar ter goedkeuring. Wijkt iets af, dan krijgt de crediteurenadministratie een melding met het verschil. Betalen doet de workflow nooit zelf.
 
-Meer voorbeelden per proces en een methode om te kiezen welk proces je als eerste aanpakt, vind je bij [bedrijfsprocessen automatiseren met AI](/ai-automatisering/bedrijfsprocessen-automatiseren-met-ai).
+Meer voorbeelden per proces en een methode om te kiezen welk proces je als eerste aanpakt, vind je bij [bedrijfsprocessen automatiseren met AI](/nl/ai-automatisering/bedrijfsprocessen-automatiseren-met-ai).
 
 <aside class="scenario" aria-label="Voorbeeldscenario">
 <p class="scenario-label">Voorbeeldscenario</p>
@@ -107,7 +108,7 @@ Voor de meeste AI workflows heb je een workflowplatform nodig dat je systemen ko
 | [n8n](https://n8n.io/) | Zelf te hosten (onder meer met Docker) naast een gehoste versie; meer dan 500 koppelingen |
 | [Power Automate](https://learn.microsoft.com/en-us/power-automate/flow-types) | Cloud flows en desktop flows; AI-modellen via [AI Builder](https://learn.microsoft.com/en-us/ai-builder/overview), bijvoorbeeld voor documentverwerking |
 
-Welke past, hangt minder af van de functielijst dan van je situatie. Werk je al volledig in Microsoft 365, dan ligt Power Automate voor de hand. Wil je data binnen je eigen omgeving houden, dan is een zelf te hosten platform een optie, maar dan ben je ook zelf verantwoordelijk voor beheer en beveiliging. Prijzen en functies veranderen snel; controleer ze bij de leverancier. Een breder overzicht, inclusief assistenten en de vraag wanneer maatwerk nodig is, staat bij [AI tools](/ai-automatisering/ai-tools).
+Welke past, hangt minder af van de functielijst dan van je situatie. Werk je al volledig in Microsoft 365, dan ligt Power Automate voor de hand. Wil je data binnen je eigen omgeving houden, dan is een zelf te hosten platform een optie, maar dan ben je ook zelf verantwoordelijk voor beheer en beveiliging. Prijzen en functies veranderen snel; controleer ze bij de leverancier. Een breder overzicht, inclusief assistenten en de vraag wanneer maatwerk nodig is, staat bij [AI tools](/nl/ai-automatisering/ai-tools).
 
 Ik heb geen commerciële band met een van deze leveranciers en ontvang geen commissie. Daardoor kan ik ook adviseren om voorlopig bij je bestaande software te blijven.
 
@@ -125,7 +126,7 @@ Voor een AI workflow in het mkb is stap 3 vaak de lastigste: er is geen IT-afdel
 
 ## AI workflows versus AI agents
 
-Het verschil zit in wie de route bepaalt. Bij een AI workflow heb jij de route vooraf vastgelegd; de AI vult alleen een stap in. Bij een AI agent krijgt het model een doel en kiest het zelf welke stappen en tools het gebruikt. Wat dat precies betekent, lees je bij [wat een AI agent is](/ai-agents/wat-is-een-ai-agent).
+Het verschil zit in wie de route bepaalt. Bij een AI workflow heb jij de route vooraf vastgelegd; de AI vult alleen een stap in. Bij een AI agent krijgt het model een doel en kiest het zelf welke stappen en tools het gebruikt. Wat dat precies betekent, lees je bij [wat een AI agent is](/nl/ai-agents/wat-is-een-ai-agent).
 
 <figure class="diagram" role="img" aria-label="Vergelijking van AI workflows en AI agents: een workflow volgt een vaste route en is makkelijk te testen, een agent kiest zelf de route en is lastiger te controleren; kies een workflow bij vaste stappen en een agent als de stappen per geval echt verschillen">
 <div class="matrix">
@@ -137,6 +138,6 @@ Het verschil zit in wie de route bepaalt. Bij een AI workflow heb jij de route v
 <figcaption>Workflow of agent: het verschil zit in wie de route bepaalt.</figcaption>
 </figure>
 
-Mijn advies is bijna altijd om met een workflow te beginnen. Je leert welke fouten er optreden en waar een mens nodig blijft. Die kennis heb je nodig voordat je een model meer vrijheid geeft. Waar agents wel en niet goed werken, beschreef ik in [AI agents: wat ze wel en niet kunnen](/inzichten/ai-agents-wat-ze-wel-en-niet-kunnen); het volledige overzicht staat op de pagina over [AI agents](/ai-agents).
+Mijn advies is bijna altijd om met een workflow te beginnen. Je leert welke fouten er optreden en waar een mens nodig blijft. Die kennis heb je nodig voordat je een model meer vrijheid geeft. Waar agents wel en niet goed werken, beschreef ik in [AI agents: wat ze wel en niet kunnen](/nl/inzichten/ai-agents-wat-ze-wel-en-niet-kunnen); het volledige overzicht staat op de pagina over [AI agents](/nl/ai-agents).
 
-Twijfel je welk proces zich leent voor een eerste AI workflow, of wil je een voorstel van een bouwpartij laten toetsen? [Plan een adviesgesprek](/contact) van dertig minuten.
+Twijfel je welk proces zich leent voor een eerste AI workflow, of wil je een voorstel van een bouwpartij laten toetsen? [Plan een adviesgesprek](/nl/contact) van dertig minuten.

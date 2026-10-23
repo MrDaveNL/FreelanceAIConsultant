@@ -1,6 +1,7 @@
 ---
 id: C6-04
-url: /ai-agents/voorbeelden
+lang: nl
+url: /nl/ai-agents/voorbeelden
 parent: C6-00
 cluster: "6. AI Agents"
 pageType: Spoke
@@ -12,8 +13,8 @@ metaDescription: "Twaalf voorbeelden van AI agents voor bedrijven, van klantense
 keyphrase: ai agents voorbeelden
 eyebrow: "Voorbeelden"
 lede: "Zoek je AI agents voorbeelden die verder gaan dan de demo? Hieronder staan twaalf toepassingen voor klantenservice, sales, HR en finance. Per voorbeeld lees je hoe de agent werkt, welke koppelingen hij nodig heeft en waar de winst zit, plus op welk moment een mens moet meekijken."
-primaryCta: { label: "Lees meer over AI agents voor bedrijven", href: /ai-agents }
-secondaryCta: { label: "Bekijk het AI Readiness Assessment", href: /diensten/ai-readiness-assessment }
+primaryCta: { label: "Lees meer over AI agents voor bedrijven", href: /nl/ai-agents }
+secondaryCta: { label: "Bekijk het AI Readiness Assessment", href: /nl/diensten/ai-readiness-assessment }
 summary:
   - "Twaalf generieke voorbeelden, geordend per afdeling, met koppelingen en controlepunten."
   - "De meeste waarde zit in voorbereidend werk dat een mens daarna beoordeelt."
@@ -41,9 +42,9 @@ sources:
 
 ## AI agents in klantenservice
 
-Voordat de voorbeelden per afdeling volgen, eerst twee opmerkingen. Deze voorbeelden zijn bewust generiek beschreven. Ze laten zien hoe een agent in een proces past, niet wat hij bij een bepaald bedrijf heeft opgeleverd. Wat een agent in jouw situatie oplevert, hangt af van je volumes, je bronnen en hoeveel controle het proces vraagt. Wie eerst wil weten wat een agent precies is, leest de uitleg over [hoe een AI agent werkt](/ai-agents/wat-is-een-ai-agent).
+Voordat de voorbeelden per afdeling volgen, eerst twee opmerkingen. Deze voorbeelden zijn bewust generiek beschreven. Ze laten zien hoe een agent in een proces past, niet wat hij bij een bepaald bedrijf heeft opgeleverd. Wat een agent in jouw situatie oplevert, hangt af van je volumes, je bronnen en hoeveel controle het proces vraagt. Wie eerst wil weten wat een agent precies is, leest de uitleg over [hoe een AI agent werkt](/nl/ai-agents/wat-is-een-ai-agent).
 
-Bij elk voorbeeld geldt dezelfde vuistregel: begin met een agent die voorbereidt of voorstelt, en geef pas meer zelfstandigheid als je weet welke fouten hij maakt. Waarom dat zo is, staat in mijn artikel over [de grenzen van AI agents](/inzichten/ai-agents-wat-ze-wel-en-niet-kunnen).
+Bij elk voorbeeld geldt dezelfde vuistregel: begin met een agent die voorbereidt of voorstelt, en geef pas meer zelfstandigheid als je weet welke fouten hij maakt. Waarom dat zo is, staat in mijn artikel over [de grenzen van AI agents](/nl/inzichten/ai-agents-wat-ze-wel-en-niet-kunnen).
 
 <figure class="diagram" role="img" aria-label="Matrix die voorbeelden van AI agents indeelt naar omkeerbaarheid en naar interne of externe gevolgen, met het advies hoeveel zelfstandigheid per kwadrant past">
 <div class="matrix"><div><b>Intern en omkeerbaar</b>Kennisvragen, concepten, classificeren. Hier kan de agent het snelst zelfstandig werken.</div><div><b>Extern en omkeerbaar</b>Afspraken inplannen, statusupdates. Zelfstandig met steekproef achteraf.</div><div><b>Intern en onomkeerbaar</b>Boekingen, stamdata wijzigen. Voorstel door de agent, bevestiging door een mens.</div><div><b>Extern en onomkeerbaar</b>Betalingen, afwijzingen, besluiten over mensen. Agent bereidt voor, mens beslist.</div></div>
@@ -70,7 +71,7 @@ In klantenservice worden agents vaak als eerste overwogen, omdat er veel herhali
 - **Waar de winst zit:** eenvoudige verzoeken buiten kantoortijd afgehandeld.
 - **Menselijke controle:** vaste grenzen per handeling en een steekproef achteraf; alles daarbuiten gaat naar een medewerker.
 
-Let op: de Autoriteit Persoonsgegevens en de ACM vragen organisaties om duidelijk te maken dat klanten met een chatbot praten en een route naar een medewerker open te houden ([oproep van oktober 2025](https://www.autoriteitpersoonsgegevens.nl/documenten/oproep-acm-ap-over-ai-chatbots)). Meer daarover in het artikel over [AI agents en de AVG](/kennisbank/ai-agents-en-avg).
+Let op: de Autoriteit Persoonsgegevens en de ACM vragen organisaties om duidelijk te maken dat klanten met een chatbot praten en een route naar een medewerker open te houden ([oproep van oktober 2025](https://www.autoriteitpersoonsgegevens.nl/documenten/oproep-acm-ap-over-ai-chatbots)). Meer daarover in het artikel over [AI agents en de AVG](/nl/kennisbank/ai-agents-en-avg).
 
 ## AI agents in sales
 
@@ -144,7 +145,7 @@ Boekingen horen bij de categorie waar een fout stilletjes kan doorwerken. De age
 - **Waar de winst zit:** tijdiger opvolging zonder dat iemand lijsten hoeft bij te houden.
 - **Menselijke controle:** herinneringen gaan pas de deur uit na goedkeuring, zeker bij klanten met een lopend gesprek.
 
-Meer AI-toepassingen buiten agents, zoals analyse en documentverwerking, staan in de bredere verzameling [AI-voorbeelden voor bedrijven](/kennisbank/ai-voorbeelden).
+Meer AI-toepassingen buiten agents, zoals analyse en documentverwerking, staan in de bredere verzameling [AI-voorbeelden voor bedrijven](/nl/kennisbank/ai-voorbeelden).
 
 <aside class="scenario" aria-label="Voorbeeldscenario">
 <p class="scenario-label">Voorbeeldscenario</p>
@@ -176,4 +177,4 @@ Bij het kiezen tussen platforms kijk ik naar vijf vragen:
 
 Een actueel voorbeeld van hoe snel dit verandert: volgens de [documentatie van OpenAI](https://developers.openai.com/api/docs/guides/agent-builder) wordt de visuele Agent Builder uitgefaseerd en stopt die op 30 november 2026 (stand september 2026). Wie daarop bouwde, moet migreren. Dat onderstreept waarom je bij elke platformkeuze ook moet vastleggen hoe je er weer vanaf komt.
 
-Welke route past, platform of maatwerk, en hoe je een bouwpartij selecteert, lees je op de pagina over [een AI agent laten maken](/ai-agents/laten-maken). Voor toepassingen, kosten en implementatie op hoofdlijnen is er het overzicht van [AI agents voor bedrijven](/ai-agents). Wil je weten welk van deze voorbeelden bij jouw organisatie past? [Plan een vrijblijvend gesprek](/contact).
+Welke route past, platform of maatwerk, en hoe je een bouwpartij selecteert, lees je op de pagina over [een AI agent laten maken](/nl/ai-agents/laten-maken). Voor toepassingen, kosten en implementatie op hoofdlijnen is er het overzicht van [AI agents voor bedrijven](/nl/ai-agents). Wil je weten welk van deze voorbeelden bij jouw organisatie past? [Plan een vrijblijvend gesprek](/nl/contact).

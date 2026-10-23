@@ -1,6 +1,7 @@
 ---
 id: C10-05
-url: /kennisbank/prompt-engineering
+lang: nl
+url: /nl/kennisbank/prompt-engineering
 parent: C3-05
 cluster: "10. Kennisbank AI tools"
 pageType: Kennisbank
@@ -12,8 +13,8 @@ metaDescription: "Leer hoe je betere AI prompts schrijft. Met technieken, voorbe
 keyphrase: ai prompt
 eyebrow: "Kennisbank"
 lede: "Een AI prompt is de opdracht die je aan een taalmodel geeft, en de kwaliteit van die opdracht bepaalt voor een groot deel wat je terugkrijgt. Prompt engineering klinkt technisch, maar voor de meeste zakelijke gebruikers komt het neer op iets vertrouwds: een goede opdracht geven aan iemand die slim is maar je organisatie niet kent. Hieronder lees je welke technieken de makers van ChatGPT, Claude, Gemini en Copilot zelf aanraden, met templates die je direct kunt gebruiken."
-primaryCta: { label: "Bekijk de AI workshops", href: /ai-workshop }
-secondaryCta: { label: "Plan een adviesgesprek", href: /contact }
+primaryCta: { label: "Bekijk de AI workshops", href: /nl/ai-workshop }
+secondaryCta: { label: "Plan een adviesgesprek", href: /nl/contact }
 summary:
   - "Een goede prompt vertelt wat je wilt, waarom, voor wie en in welke vorm."
   - "Voorbeelden, context en een duidelijke structuur verbeteren het resultaat meer dan slimme formules."
@@ -41,11 +42,11 @@ sources:
 
 Een AI prompt is de tekst waarmee je een taalmodel aan het werk zet: een vraag, een opdracht, eventueel met documenten of voorbeelden erbij. Prompt engineering is het vak om die opdracht zo te formuleren dat het model doet wat je bedoelt, en dat het dat de volgende keer weer doet.
 
-Voor ontwikkelaars die AI in software inbouwen, is dat een echte discipline met tests en versiebeheer. Voor de meeste medewerkers is het eenvoudiger: je leert een paar gewoontes aan die het verschil maken tussen een generiek antwoord en een bruikbaar concept. Die gewoontes werken in elke assistent, of je nu met [ChatGPT in je organisatie](/kennisbank/chatgpt-voor-bedrijven), [Claude](/kennisbank/claude-voor-bedrijven), [Gemini in Google Workspace](/kennisbank/gemini-voor-bedrijven) of [Microsoft Copilot](/kennisbank/microsoft-copilot-voor-bedrijven) werkt.
+Voor ontwikkelaars die AI in software inbouwen, is dat een echte discipline met tests en versiebeheer. Voor de meeste medewerkers is het eenvoudiger: je leert een paar gewoontes aan die het verschil maken tussen een generiek antwoord en een bruikbaar concept. Die gewoontes werken in elke assistent, of je nu met [ChatGPT in je organisatie](/nl/kennisbank/chatgpt-voor-bedrijven), [Claude](/nl/kennisbank/claude-voor-bedrijven), [Gemini in Google Workspace](/nl/kennisbank/gemini-voor-bedrijven) of [Microsoft Copilot](/nl/kennisbank/microsoft-copilot-voor-bedrijven) werkt.
 
 Anthropic geeft in zijn [handleiding voor prompts](https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/claude-prompting-best-practices) een beeld dat goed blijft hangen: zie het model als een briljante maar nieuwe medewerker die je normen en werkwijze nog niet kent. Hoe preciezer je uitlegt wat je wilt, hoe beter het resultaat. Hun vuistregel: laat je prompt lezen door een collega die niets van de taak weet. Snapt die het niet, dan snapt het model het ook niet.
 
-Welke assistent bij je organisatie past, is een aparte vraag; daarvoor is het [overzicht van AI tools](/ai-automatisering/ai-tools) een beter startpunt.
+Welke assistent bij je organisatie past, is een aparte vraag; daarvoor is het [overzicht van AI tools](/nl/ai-automatisering/ai-tools) een beter startpunt.
 
 ## Technieken
 
@@ -156,6 +157,6 @@ Een losse template helpt een individu. Een team heeft meer aan een gedeelde verz
 
 **Stoppen na de eerste poging.** Een eerste antwoord is een concept. Vraag door, geef feedback ("korter", "formeler", "meer nadruk op kosten") en sla een prompt die goed werkt op voor de volgende keer.
 
-Prompten leer je het snelst met je eigen werk als oefenmateriaal. Wil je dat met je team doen, kijk dan naar de [ChatGPT training voor teams](/ai-workshop/chatgpt-training) of, als je met Microsoft 365 werkt, de [training voor Copilot](/ai-workshop/copilot-training). Een overzicht van alle vormen staat bij de [AI workshops en trainingen](/ai-workshop).
+Prompten leer je het snelst met je eigen werk als oefenmateriaal. Wil je dat met je team doen, kijk dan naar de [ChatGPT training voor teams](/nl/ai-workshop/chatgpt-training) of, als je met Microsoft 365 werkt, de [training voor Copilot](/nl/ai-workshop/copilot-training). Een overzicht van alle vormen staat bij de [AI workshops en trainingen](/nl/ai-workshop).
 
-Wil je weten waar prompt engineering in jouw organisatie het meeste oplevert, of hoe je een gedeelde promptbibliotheek opzet? [Plan een adviesgesprek](/contact) van dertig minuten.
+Wil je weten waar prompt engineering in jouw organisatie het meeste oplevert, of hoe je een gedeelde promptbibliotheek opzet? [Plan een adviesgesprek](/nl/contact) van dertig minuten.

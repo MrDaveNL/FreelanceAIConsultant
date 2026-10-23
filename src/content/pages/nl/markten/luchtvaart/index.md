@@ -1,6 +1,7 @@
 ---
 id: C7-06
-url: /markten/luchtvaart
+lang: nl
+url: /nl/markten/luchtvaart
 parent: C7-00
 cluster: "7. AI markten"
 pageType: Branche
@@ -12,8 +13,8 @@ metaDescription: "Hoe verandert AI de luchtvaart? Bekijk toepassingen voor lucht
 keyphrase: ai luchtvaart
 eyebrow: "AI in de luchtvaart"
 lede: "AI in de luchtvaart speelt op twee heel verschillende terreinen: in systemen die de veiligheid raken, en in de commerciële en operationele processen eromheen. Op deze pagina lees je welke toepassingen er zijn voor luchtvaartmaatschappijen en luchthavens, welke regels gelden en hoe je een AI-traject in deze sector aanpakt."
-primaryCta: { label: "Lees meer over Markten", href: /markten }
-secondaryCta: { label: "Plan een adviesgesprek", href: /contact }
+primaryCta: { label: "Lees meer over Markten", href: /nl/markten }
+secondaryCta: { label: "Plan een adviesgesprek", href: /nl/contact }
 summary:
   - "Maak eerst het onderscheid tussen veiligheidsgerelateerde AI en AI in commerciële en ondersteunende processen."
   - "Voor veiligheidsgerelateerde AI ontwikkelt EASA eigen regels, in lijn met de AI Act."
@@ -100,7 +101,7 @@ Een paar vragen helpen om te bepalen of een proces geschikt is voor automatiseri
 
 Hoe meer vragen je met ja beantwoordt, hoe kleiner het risico. Een nee bij de laatste vraag is reden om nog niet te beginnen.
 
-Juist op dat punt blijft AI-automatisering, in de luchtvaart net als elders, makkelijk steken in losse pilots: de techniek werkt, maar niemand is eigenaar van de fase erna. Waarom dat zo vaak gebeurt, beschrijf ik in [waarom AI-pilots blijven steken](/inzichten/waarom-ai-pilots-blijven-steken). Spreek daarom vóór de start af wie de toepassing na de pilot beheert en wanneer je stopt.
+Juist op dat punt blijft AI-automatisering, in de luchtvaart net als elders, makkelijk steken in losse pilots: de techniek werkt, maar niemand is eigenaar van de fase erna. Waarom dat zo vaak gebeurt, beschrijf ik in [waarom AI-pilots blijven steken](/nl/inzichten/waarom-ai-pilots-blijven-steken). Spreek daarom vóór de start af wie de toepassing na de pilot beheert en wanneer je stopt.
 
 <aside class="scenario" aria-label="Voorbeeldscenario">
 <p class="scenario-label">Voorbeeldscenario</p>
@@ -110,20 +111,20 @@ Juist op dat punt blijft AI-automatisering, in de luchtvaart net als elders, mak
 <p class="scenario-note">Fictief voorbeeld, samengesteld uit situaties die veel voorkomen. Organisatie en cijfers zijn illustratief.</p>
 </aside>
 
-Het loont om te kijken naar sectoren met vergelijkbare kenmerken. De zorg combineert net als de luchtvaart strenge veiligheidseisen met gevoelige gegevens; lees hoe [AI in de zorg](/markten/zorg) daarmee omgaat. En voor de commerciële kant van een luchtvaartmaatschappij, zoals campagnes en klantcommunicatie, is [AI voor marketing](/markten/marketing) relevant.
+Het loont om te kijken naar sectoren met vergelijkbare kenmerken. De zorg combineert net als de luchtvaart strenge veiligheidseisen met gevoelige gegevens; lees hoe [AI in de zorg](/nl/markten/zorg) daarmee omgaat. En voor de commerciële kant van een luchtvaartmaatschappij, zoals campagnes en klantcommunicatie, is [AI voor marketing](/nl/markten/marketing) relevant.
 
 ## AI implementeren in de luchtvaart
 
 Voor veiligheidsgerelateerde AI ontwikkelt EASA eigen regels. Het agentschap publiceerde in mei 2023 zijn [AI Roadmap 2.0](https://www.easa.europa.eu/en/light/topics/artificial-intelligence-and-aviation-0) en in maart 2024 een concept paper (Issue 2) met richtlijnen voor zogenoemde Level 1-toepassingen (AI die de mens ondersteunt) en Level 2-toepassingen (mens en AI die samenwerken). In november 2025 volgde het eerste regelgevingsvoorstel, [NPA 2025-07](https://www.easa.europa.eu/en/newsroom-and-events/news/easas-first-regulatory-proposal-artificial-intelligence-aviation-now-open), over de betrouwbaarheid van AI, in lijn met de eisen die de AI Act aan hoog-risicosystemen stelt. EASA kondigde daarbij een tweede voorstel aan voor 2026, om dat kader in de afzonderlijke luchtvaartdomeinen toe te passen.
 
-Voor luchtvaartproducten die onder de Europese luchtvaartregels vallen (de EASA-basisverordening en de regels voor beveiliging van de burgerluchtvaart, genoemd in bijlage I, afdeling B van de AI Act) laat de AI Act de eisen via die sectorregels lopen. De hoog-risicoregels voor AI in producten uit bijlage I gelden na de Digital Omnibus vanaf 2 augustus 2028, meldt de [Europese Commissie](https://digital-strategy.ec.europa.eu/en/news/ai-omnibus-enters-force). Voor commerciële en ondersteunende toepassingen gelden de algemene regels van de AI Act en de AVG; een overzicht daarvan staat op de pagina over [de AI Act](/ai-beleid/ai-act).
+Voor luchtvaartproducten die onder de Europese luchtvaartregels vallen (de EASA-basisverordening en de regels voor beveiliging van de burgerluchtvaart, genoemd in bijlage I, afdeling B van de AI Act) laat de AI Act de eisen via die sectorregels lopen. De hoog-risicoregels voor AI in producten uit bijlage I gelden na de Digital Omnibus vanaf 2 augustus 2028, meldt de [Europese Commissie](https://digital-strategy.ec.europa.eu/en/news/ai-omnibus-enters-force). Voor commerciële en ondersteunende toepassingen gelden de algemene regels van de AI Act en de AVG; een overzicht daarvan staat op de pagina over [de AI Act](/nl/ai-beleid/ai-act).
 
-Weet je nog niet waar je organisatie staat, dan brengt een [AI Readiness Assessment](/diensten/ai-readiness-assessment) in {{timing:ai-readiness-assessment}} strategie, data, technologie, mensen en governance in kaart. Daarna helpen deze stappen:
+Weet je nog niet waar je organisatie staat, dan brengt een [AI Readiness Assessment](/nl/diensten/ai-readiness-assessment) in {{timing:ai-readiness-assessment}} strategie, data, technologie, mensen en governance in kaart. Daarna helpen deze stappen:
 
 1. **Classificeer eerst.** Valt de toepassing in een veiligheidsgerelateerd domein, of niet? Dat bepaalt doorlooptijd, eisen en wie er aan tafel zit.
 2. **Begin buiten de veiligheidskritische systemen.** Daar leer je als organisatie het snelst, met de minste regeldruk.
 3. **Regel data en afspraken tussen partijen.** Op een luchthaven heb je meestal gegevens van anderen nodig.
-4. **Kies leveranciers op criteria, niet op demo's.** Leg vooraf vast hoe je beoordeelt, inclusief exitmogelijkheden. Zo werkt ook een [onafhankelijke Vendor Review](/diensten/vendor-review).
+4. **Kies leveranciers op criteria, niet op demo's.** Leg vooraf vast hoe je beoordeelt, inclusief exitmogelijkheden. Zo werkt ook een [onafhankelijke Vendor Review](/nl/diensten/vendor-review).
 5. **Borg menselijk toezicht.** Ook bij ondersteunende toepassingen moet duidelijk zijn wie beslist en wie ingrijpt.
 
-Wil je weten welke AI-toepassing in jouw organisatie het meeste oplevert en wat daarvoor nodig is? Bekijk het [overzicht van markten](/markten) voor andere sectoren, of [plan een gesprek van dertig minuten](/contact) om jouw situatie te bespreken.
+Wil je weten welke AI-toepassing in jouw organisatie het meeste oplevert en wat daarvoor nodig is? Bekijk het [overzicht van markten](/nl/markten) voor andere sectoren, of [plan een gesprek van dertig minuten](/nl/contact) om jouw situatie te bespreken.

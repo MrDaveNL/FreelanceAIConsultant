@@ -1,6 +1,7 @@
 ---
 id: C4-03
-url: /ai-voor-bedrijven/ai-en-bi
+lang: nl
+url: /nl/ai-voor-bedrijven/ai-en-bi
 parent: C4-00
 cluster: "4. AI voor bedrijven"
 pageType: Spoke
@@ -12,8 +13,8 @@ metaDescription: "Wat is het verschil tussen AI en BI, en hoe versterken ze elka
 keyphrase: ai bi
 eyebrow: "AI en BI"
 lede: "AI en BI worden vaak door elkaar gehaald, maar ze beantwoorden verschillende vragen. Business intelligence laat zien wat er is gebeurd; AI helpt voorspellen, verklaren en informatie ontsluiten die niet in een tabel past. Hier lees je het verschil, hoe AI BI versterkt en waarom een goed BI-fundament vaak de beste opstap naar AI is."
-primaryCta: { label: "Lees meer over AI voor bedrijven", href: /ai-voor-bedrijven }
-secondaryCta: { label: "Bekijk het AI Readiness Assessment", href: /diensten/ai-readiness-assessment }
+primaryCta: { label: "Lees meer over AI voor bedrijven", href: /nl/ai-voor-bedrijven }
+secondaryCta: { label: "Bekijk het AI Readiness Assessment", href: /nl/diensten/ai-readiness-assessment }
 summary:
   - "BI beschrijft en verklaart het verleden met gestructureerde data; AI voorspelt, classificeert en werkt ook met tekst."
   - "AI in BI-tools is zo goed als het datamodel eronder: eenduidige definities gaan voor slimme functies."
@@ -50,7 +51,7 @@ AI, kunstmatige intelligentie, is een verzamelnaam voor systemen die patronen le
 - **Voorspellende AI (machine learning):** modellen die op basis van historische data een uitkomst voorspellen of indelen, zoals de verwachte vraag volgende maand of de kans dat een klant opzegt.
 - **Generatieve AI:** taalmodellen die tekst begrijpen en maken. Ze kunnen documenten samenvatten, vragen in gewone taal beantwoorden en informatie halen uit e-mails, contracten of klantreacties.
 
-Waar BI vooral met tabellen werkt, kan AI ook overweg met ongestructureerde informatie. En waar BI terugkijkt, kijkt voorspellende AI vooruit. Wat AI voor organisaties in bredere zin kan betekenen, staat op de overzichtspagina [AI voor bedrijven](/ai-voor-bedrijven).
+Waar BI vooral met tabellen werkt, kan AI ook overweg met ongestructureerde informatie. En waar BI terugkijkt, kijkt voorspellende AI vooruit. Wat AI voor organisaties in bredere zin kan betekenen, staat op de overzichtspagina [AI voor bedrijven](/nl/ai-voor-bedrijven).
 
 ## Het verschil tussen AI en BI
 
@@ -84,7 +85,7 @@ AI gebruiken voor business intelligence kan op vier manieren, van eenvoudig naar
 
 De eerste twee zitten inmiddels in veel BI-platforms. Een voorbeeld: Copilot in Power BI laat gebruikers vragen stellen over rapporten, samenvattingen maken en helpt makers bij het bouwen van rapportpagina's en berekeningen. Microsoft zegt er zelf bij dat Copilot zonder voorbereiding van het datamodel de data verkeerd kan interpreteren en algemene of onjuiste antwoorden kan geven. Ook vraagt het een betaalde Fabric- of Premium-capaciteit; een Pro-licentie alleen is niet genoeg (stand september 2026, volgens [Microsoft Learn](https://learn.microsoft.com/en-us/power-bi/create-reports/copilot-introduction)).
 
-Dat illustreert het punt: AI in BI is zo goed als het fundament eronder. Onduidelijke kolomnamen, drie definities van "omzet" en ontbrekende beschrijvingen leiden tot antwoorden die overtuigend klinken maar niet kloppen. Hoe je dat fundament opbouwt langs concrete toepassingen, in plaats van eerst alles op orde te willen hebben, beschreef ik in [het datafundament onder AI](/inzichten/het-datafundament-onder-ai).
+Dat illustreert het punt: AI in BI is zo goed als het fundament eronder. Onduidelijke kolomnamen, drie definities van "omzet" en ontbrekende beschrijvingen leiden tot antwoorden die overtuigend klinken maar niet kloppen. Hoe je dat fundament opbouwt langs concrete toepassingen, in plaats van eerst alles op orde te willen hebben, beschreef ik in [het datafundament onder AI](/nl/inzichten/het-datafundament-onder-ai).
 
 ## Voorbeelden
 
@@ -96,7 +97,7 @@ Een paar herkenbare manieren waarop AI en BI samenkomen:
 - **Zelf vragen stellen.** Een salesmanager vraagt in gewone taal welke klanten minder bestellen dan vorig kwartaal, zonder te wachten op een nieuw rapport.
 - **Afwijkingen signaleren.** Ongebruikelijke boekingen of plotselinge veranderingen in een reeks worden gemarkeerd voor een menselijke controle.
 
-Voor kleinere bedrijven begint het meestal bij de AI-functies in het BI- of boekhoudpakket dat ze al gebruiken; zie ook [AI voor het mkb](/ai-voor-bedrijven/mkb). Bij [zakelijke dienstverleners](/ai-voor-bedrijven/zakelijke-dienstverleners) ligt het accent vaker op het ontsluiten van documenten dan op dashboards.
+Voor kleinere bedrijven begint het meestal bij de AI-functies in het BI- of boekhoudpakket dat ze al gebruiken; zie ook [AI voor het mkb](/nl/ai-voor-bedrijven/mkb). Bij [zakelijke dienstverleners](/nl/ai-voor-bedrijven/zakelijke-dienstverleners) ligt het accent vaker op het ontsluiten van documenten dan op dashboards.
 
 <aside class="scenario" aria-label="Voorbeeldscenario">
 <p class="scenario-label">Voorbeeldscenario</p>
@@ -106,6 +107,6 @@ Voor kleinere bedrijven begint het meestal bij de AI-functies in het BI- of boek
 <p class="scenario-note">Fictief voorbeeld, samengesteld uit situaties die veel voorkomen. Organisatie en cijfers zijn illustratief.</p>
 </aside>
 
-Waar sta ik in dit verhaal? Ik ben geen BI-bouwer. Ik maak geen dashboards en richt geen datawarehouses in. Mijn rol ligt ervoor en erboven: helpen bepalen welke AI-toepassingen op je data waarde opleveren, wat daarvoor aan het fundament moet gebeuren en welke partij het kan uitvoeren. Dat doe ik als onderdeel van mijn [AI consultancy](/ai-consultancy). Voor de uitvoering werkt je eigen BI-team of een partij uit mijn [partnernetwerk](/partnernetwerk), die je rechtstreeks contracteert.
+Waar sta ik in dit verhaal? Ik ben geen BI-bouwer. Ik maak geen dashboards en richt geen datawarehouses in. Mijn rol ligt ervoor en erboven: helpen bepalen welke AI-toepassingen op je data waarde opleveren, wat daarvoor aan het fundament moet gebeuren en welke partij het kan uitvoeren. Dat doe ik als onderdeel van mijn [AI consultancy](/nl/ai-consultancy). Voor de uitvoering werkt je eigen BI-team of een partij uit mijn [partnernetwerk](/nl/partnernetwerk), die je rechtstreeks contracteert.
 
-Wil je weten wat de BI-rol zelf inhoudt en hoe die verandert, lees dan [wat een BI-specialist doet](/kennisbank/wat-doet-een-bi-specialist). Twijfel je of je vraag bij BI, AI of allebei hoort, [neem dan contact op](/contact) voor een kort gesprek.
+Wil je weten wat de BI-rol zelf inhoudt en hoe die verandert, lees dan [wat een BI-specialist doet](/nl/kennisbank/wat-doet-een-bi-specialist). Twijfel je of je vraag bij BI, AI of allebei hoort, [neem dan contact op](/nl/contact) voor een kort gesprek.

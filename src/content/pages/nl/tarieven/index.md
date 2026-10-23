@@ -1,6 +1,7 @@
 ---
 id: P04
-url: /tarieven
+lang: nl
+url: /nl/tarieven
 parent: null
 cluster: "Kernpagina's"
 pageType: "Conversie / tarieven"
@@ -12,8 +13,8 @@ metaDescription: "Bekijk transparante vanaf-prijzen voor AI Readiness Assessment
 keyphrase: ai consult kosten
 eyebrow: Tarieven
 lede: "Wat AI consultancy kost, hangt af van de vraag die je wilt beantwoorden. Daarom werk ik met vaste pakketten en zichtbare vanaf-prijzen in plaats van een open uurtarief. Zo weet je vóór het eerste gesprek ongeveer of het in je budget past."
-primaryCta: { label: "Plan een adviesgesprek", href: /contact }
-secondaryCta: { label: "Bekijk het AI Readiness Assessment", href: /diensten/ai-readiness-assessment }
+primaryCta: { label: "Plan een adviesgesprek", href: /nl/contact }
+secondaryCta: { label: "Bekijk het AI Readiness Assessment", href: /nl/diensten/ai-readiness-assessment }
 summary:
   - "Vaste prijs, bandbreedte of maandbedrag per pakket, geen open urenstaat."
   - "Alle bedragen exclusief btw en reiskosten."
@@ -36,7 +37,7 @@ faq:
 
 ## Wat kost AI consultancy?
 
-Er bestaat geen standaardprijs voor AI consultancy, omdat de vragen zo verschillen. Een directie die in één middag een gedeeld beeld wil, heeft iets anders nodig dan een organisatie die een roadmap voor anderhalf jaar zoekt. Wat ik wel kan doen, is de meest voorkomende vragen vertalen naar vaste pakketten, elk met een heldere prijs of bandbreedte. Hoe die trajecten inhoudelijk verlopen, lees je op de pagina over mijn [werkwijze in vier stappen](/werkwijze).
+Er bestaat geen standaardprijs voor AI consultancy, omdat de vragen zo verschillen. Een directie die in één middag een gedeeld beeld wil, heeft iets anders nodig dan een organisatie die een roadmap voor anderhalf jaar zoekt. Wat ik wel kan doen, is de meest voorkomende vragen vertalen naar vaste pakketten, elk met een heldere prijs of bandbreedte. Hoe die trajecten inhoudelijk verlopen, lees je op de pagina over mijn [werkwijze in vier stappen](/nl/werkwijze).
 
 ### Factoren die de prijs bepalen
 
@@ -74,33 +75,33 @@ Alle bedragen op deze pagina zijn exclusief btw en reiskosten.
 
 ### AI Readiness Assessment
 
-Een nuchtere doorlichting op strategie, data, technologie, mensen en governance, in {{timing:ai-readiness-assessment}}. Je krijgt een readiness-score, een gap-analyse en een 90-dagenplan. De prijs is vast: {{price:ai-readiness-assessment}}, inclusief eindpresentatie aan MT of board. Dit is voor de meeste organisaties het logische startpunt; alle details staan op de pagina van het [AI Readiness Assessment](/diensten/ai-readiness-assessment).
+Een nuchtere doorlichting op strategie, data, technologie, mensen en governance, in {{timing:ai-readiness-assessment}}. Je krijgt een readiness-score, een gap-analyse en een 90-dagenplan. De prijs is vast: {{price:ai-readiness-assessment}}, inclusief eindpresentatie aan MT of board. Dit is voor de meeste organisaties het logische startpunt; alle details staan op de pagina van het [AI Readiness Assessment](/nl/diensten/ai-readiness-assessment).
 
 ### AI Strategy Sprint
 
-Voor organisaties die van losse ideeën naar een board-ready AI-strategie en roadmap willen. De sprint duurt {{timing:ai-strategy-sprint}} en kost {{price:ai-strategy-sprint}}: aan de onderkant als er al een Readiness Assessment ligt, aan de bovenkant bij meerdere bedrijfsonderdelen. Lees wat er in de [AI Strategy Sprint](/diensten/ai-strategy-sprint) wordt opgeleverd.
+Voor organisaties die van losse ideeën naar een board-ready AI-strategie en roadmap willen. De sprint duurt {{timing:ai-strategy-sprint}} en kost {{price:ai-strategy-sprint}}: aan de onderkant als er al een Readiness Assessment ligt, aan de bovenkant bij meerdere bedrijfsonderdelen. Lees wat er in de [AI Strategy Sprint](/nl/diensten/ai-strategy-sprint) wordt opgeleverd.
 
 ### Fractional AI Lead
 
-Als je geen fulltime Head of AI nodig hebt, maar wel iemand die de AI-agenda bewaakt en in stuurgroepen de juiste vragen stelt. De investering is {{pricelc:fractional-ai-lead}} voor de niveaus Advies, Lead en Lead+ (2, 4 of 8 dagen per maand). De minimale looptijd is 3 maanden, daarna is de rol maandelijks opzegbaar. Meer over deze [parttime AI-leiderschapsrol](/diensten/fractional-ai-lead).
+Als je geen fulltime Head of AI nodig hebt, maar wel iemand die de AI-agenda bewaakt en in stuurgroepen de juiste vragen stelt. De investering is {{pricelc:fractional-ai-lead}} voor de niveaus Advies, Lead en Lead+ (2, 4 of 8 dagen per maand). De minimale looptijd is 3 maanden, daarna is de rol maandelijks opzegbaar. Meer over deze [parttime AI-leiderschapsrol](/nl/diensten/fractional-ai-lead).
 
 ### Vendor Review
 
-Een gestructureerd selectieproces met scorecards en een TCO-vergelijking over drie jaar. Afhankelijk van het aantal leveranciers (2 tot 4) kost een [Vendor Review](/diensten/vendor-review) {{price:vendor-review}}, bij een doorlooptijd van {{timing:vendor-review}}.
+Een gestructureerd selectieproces met scorecards en een TCO-vergelijking over drie jaar. Afhankelijk van het aantal leveranciers (2 tot 4) kost een [Vendor Review](/nl/diensten/vendor-review) {{price:vendor-review}}, bij een doorlooptijd van {{timing:vendor-review}}.
 
 ### Executive Briefing
 
-Een sessie van drie uur waarin je directie of raad van commissarissen een gedeeld, realistisch beeld krijgt van AI. Inclusief voorbereiding op jouw sector kost de [Executive Briefing](/diensten/executive-briefing) {{price:executive-briefing}}. Dit is het kleinste pakket met een vaste prijs, en het wordt volledig verrekend als je binnen 60 dagen start met een AI Readiness Assessment.
+Een sessie van drie uur waarin je directie of raad van commissarissen een gedeeld, realistisch beeld krijgt van AI. Inclusief voorbereiding op jouw sector kost de [Executive Briefing](/nl/diensten/executive-briefing) {{price:executive-briefing}}. Dit is het kleinste pakket met een vaste prijs, en het wordt volledig verrekend als je binnen 60 dagen start met een AI Readiness Assessment.
 
 ### AI Due Diligence
 
-Voor investeerders en organisaties die een AI-propositie of -leverancier moeten beoordelen. Een [AI Due Diligence](/diensten/ai-due-diligence) duurt {{timing:ai-due-diligence}} en kost {{price:ai-due-diligence}}: één oplossing aan de onderkant, een heel bedrijf aan de bovenkant. Altijd onder NDA.
+Voor investeerders en organisaties die een AI-propositie of -leverancier moeten beoordelen. Een [AI Due Diligence](/nl/diensten/ai-due-diligence) duurt {{timing:ai-due-diligence}} en kost {{price:ai-due-diligence}}: één oplossing aan de onderkant, een heel bedrijf aan de bovenkant. Altijd onder NDA.
 
 ### AI workshop en training
 
-Workshops en trainingen krijgen een vaste prijs per opdracht. Voorbereiding, duur en groepsgrootte bepalen het bedrag, en dat krijg je vóór de start op papier. Wat een workshop kan opleveren, lees je bij [AI workshops en trainingen voor teams](/ai-workshop).
+Workshops en trainingen krijgen een vaste prijs per opdracht. Voorbereiding, duur en groepsgrootte bepalen het bedrag, en dat krijg je vóór de start op papier. Wat een workshop kan opleveren, lees je bij [AI workshops en trainingen voor teams](/nl/ai-workshop).
 
-Twijfel je welk pakket past? Op het [overzicht van alle diensten](/diensten) vergelijk je ze naast elkaar.
+Twijfel je welk pakket past? Op het [overzicht van alle diensten](/nl/diensten) vergelijk je ze naast elkaar.
 
 ## Waarom geen uurtarief?
 
@@ -112,6 +113,6 @@ Ook afgebakend advieswerk, workshops en second opinions krijgen een vaste prijs,
 
 Een bureau of groot adviesbureau heeft een organisatie om de adviseur heen, zoals accountmanagement en vaak een mix van senior en junior consultants, en die kosten zitten in het tarief. Bij mij werk je altijd met de senior die je gesproken hebt; er zitten geen juniors op je project. Daartegenover staat dat een eenmanspraktijk minder uitvoeringscapaciteit heeft; daarvoor stel ik partners voor die je rechtstreeks contracteert, zonder marge voor mij.
 
-Welke vorm het best past, hangt af van je vraag en niet alleen van de prijs. Ik zette de verschillen eerlijk op een rij in [freelance AI consultant, agency of Big 4](/inzichten/freelance-ai-consultant-vs-agency-vs-big4). En wie concreet overweegt om iemand in te schakelen, vindt praktische selectiecriteria op de pagina over [een AI consultant inhuren](/ai-consultancy/ai-consultant-inhuren).
+Welke vorm het best past, hangt af van je vraag en niet alleen van de prijs. Ik zette de verschillen eerlijk op een rij in [freelance AI consultant, agency of Big 4](/nl/inzichten/freelance-ai-consultant-vs-agency-vs-big4). En wie concreet overweegt om iemand in te schakelen, vindt praktische selectiecriteria op de pagina over [een AI consultant inhuren](/nl/ai-consultancy/ai-consultant-inhuren).
 
-Wil je weten welk pakket bij jouw situatie past? [Plan een vrijblijvend gesprek](/contact) van dertig minuten; aan het eind hoor je wat ik zou doen, ook als dat betekent dat je mij niet nodig hebt.
+Wil je weten welk pakket bij jouw situatie past? [Plan een vrijblijvend gesprek](/nl/contact) van dertig minuten; aan het eind hoor je wat ik zou doen, ook als dat betekent dat je mij niet nodig hebt.

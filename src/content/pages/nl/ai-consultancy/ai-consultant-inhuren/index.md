@@ -1,6 +1,7 @@
 ---
 id: C1-06
-url: /ai-consultancy/ai-consultant-inhuren
+lang: nl
+url: /nl/ai-consultancy/ai-consultant-inhuren
 parent: C1-00
 cluster: "1. AI Consultancy & Advies"
 pageType: Spoke
@@ -12,8 +13,8 @@ metaDescription: "Een AI consultant inhuren? Lees waar je op let bij selectie, w
 keyphrase: ai consultant inhuren
 eyebrow: "AI consultant inhuren"
 lede: "Een AI consultant inhuren is een investering in één persoon, dus die persoon moet kloppen. Op deze pagina lees je wanneer het loont, waar je op let bij de selectie, wat het kost en hoe een start eruitziet. Eerlijk, ook waar dat betekent dat je beter iemand anders kiest."
-primaryCta: { label: "Plan een adviesgesprek", href: /contact }
-secondaryCta: { label: "Bekijk het AI Readiness Assessment", href: /diensten/ai-readiness-assessment }
+primaryCta: { label: "Plan een adviesgesprek", href: /nl/contact }
+secondaryCta: { label: "Bekijk het AI Readiness Assessment", href: /nl/diensten/ai-readiness-assessment }
 summary:
   - "Huur een AI consultant in voor besluiten die duur of moeilijk terug te draaien zijn."
   - "Selecteer op aantoonbare ervaring, onafhankelijkheid en concrete deliverables."
@@ -44,13 +45,13 @@ Een AI consultant inhuren loont niet altijd. Als je vraag technisch en afgebaken
 - **Je doet dit voor het eerst en er is tijdsdruk.** Een eerste AI-selectie of governance-opzet kost zonder ervaring al snel meer tijd.
 - **Er lopen initiatieven zonder eigenaar.** Pilots die niet opschalen, en niemand die de AI-agenda bewaakt.
 
-Deze situaties werkte ik verder uit in [wanneer je echt een AI-strateeg nodig hebt](/inzichten/wanneer-heb-je-echt-een-ai-strateeg-nodig), inclusief de gevallen waarin ik zelf zou afraden om iemand in te huren. Wil je eerst weten wat zo'n rol precies inhoudt, lees dan [wat een AI consultant doet](/kennisbank/wat-doet-een-ai-consultant).
+Deze situaties werkte ik verder uit in [wanneer je echt een AI-strateeg nodig hebt](/nl/inzichten/wanneer-heb-je-echt-een-ai-strateeg-nodig), inclusief de gevallen waarin ik zelf zou afraden om iemand in te huren. Wil je eerst weten wat zo'n rol precies inhoudt, lees dan [wat een AI consultant doet](/nl/kennisbank/wat-doet-een-ai-consultant).
 
 ## Freelance AI consultant of bureau?
 
 Een freelance AI consultant is doorgaans flexibel en snel inzetbaar, en je werkt met de persoon die je in het eerste gesprek sprak, zonder lagen ertussen. Een bureau of groot adviesbureau brengt capaciteit, specialistische teams en institutionele dekking, wat telt bij grote transformaties, veel uitvoeringswerk of trajecten waar auditeerbaarheid leidend is. De keerzijde van een freelancer is beperkte schaal en afhankelijkheid van één persoon.
 
-Welke vorm past, hangt af van je doel, je tijdsdruk en hoeveel handen er nodig zijn. Ik zette de verschillen op een rij in [freelance AI consultant, agency of Big 4](/inzichten/freelance-ai-consultant-vs-agency-vs-big4). Heb je naast advies ook uitvoeringscapaciteit nodig, dan stel ik partijen uit mijn [partnernetwerk](/partnernetwerk) voor, die je rechtstreeks contracteert.
+Welke vorm past, hangt af van je doel, je tijdsdruk en hoeveel handen er nodig zijn. Ik zette de verschillen op een rij in [freelance AI consultant, agency of Big 4](/nl/inzichten/freelance-ai-consultant-vs-agency-vs-big4). Heb je naast advies ook uitvoeringscapaciteit nodig, dan stel ik partijen uit mijn [partnernetwerk](/nl/partnernetwerk) voor, die je rechtstreeks contracteert.
 
 ## Waar let je op bij selectie?
 
@@ -79,11 +80,11 @@ Let op antwoorden die vooral over tools en trends gaan. Ervaring blijkt uit hoe 
 
 Sommige AI-adviseurs zijn ook implementatiepartner of reseller van een platform. Dat is niet per se fout, maar je moet het weten. Vraag expliciet of iemand vergoedingen, korting of partnerstatus ontvangt van leveranciers die in beeld kunnen komen, en of er verdiend wordt aan de bouw. Vraag het ook op papier.
 
-Mijn eigen antwoord: ik bouw en verkoop geen software, ontvang geen commissies en reken geen marge op partners. Bestaande relaties met een leverancier meld ik voordat die partij in beeld komt. Meer over mijn achtergrond lees je op [over mij](/over).
+Mijn eigen antwoord: ik bouw en verkoop geen software, ontvang geen commissies en reken geen marge op partners. Bestaande relaties met een leverancier meld ik voordat die partij in beeld komt. Meer over mijn achtergrond lees je op [over mij](/nl/over).
 
 ### Werkwijze en deliverables
 
-Vraag vooraf wat je aan het eind in handen hebt en wanneer de opdracht klaar is. "Dat hangt ervan af" is geen antwoord. Goede deliverables zijn gemaakt om mee te besluiten: een geprioriteerde lijst use cases met eigenaren, een [AI strategie](/ai-consultancy/ai-strategie) met expliciete keuzes, een [AI roadmap](/ai-consultancy/ai-roadmap) met planning en budget, of een beslisdocument voor een leverancierskeuze. Vraag ook of je de kaders en scorecards daarna zelf mag hergebruiken.
+Vraag vooraf wat je aan het eind in handen hebt en wanneer de opdracht klaar is. "Dat hangt ervan af" is geen antwoord. Goede deliverables zijn gemaakt om mee te besluiten: een geprioriteerde lijst use cases met eigenaren, een [AI strategie](/nl/ai-consultancy/ai-strategie) met expliciete keuzes, een [AI roadmap](/nl/ai-consultancy/ai-roadmap) met planning en budget, of een beslisdocument voor een leverancierskeuze. Vraag ook of je de kaders en scorecards daarna zelf mag hergebruiken.
 
 ## Wat kost een AI consultant inhuren?
 
@@ -96,9 +97,9 @@ Ik werk niet met een open uurtarief, maar met vaste pakketten en zichtbare vanaf
 | Vast traject | AI Strategy Sprint | {{price:ai-strategy-sprint}} |
 | Doorlopende rol | Fractional AI Lead | {{price:fractional-ai-lead}} |
 
-Het kleinste pakket met een vaste prijs is de Executive Briefing van {{price:executive-briefing}}. Een [Fractional AI Lead](/diensten/fractional-ai-lead) is de vorm om een AI consultant voor langere tijd in te huren: {{timing:fractional-ai-lead}}, met een minimale looptijd van 3 maanden, daarna maandelijks opzegbaar, zonder dat je direct een fulltime Head of AI aanneemt.
+Het kleinste pakket met een vaste prijs is de Executive Briefing van {{price:executive-briefing}}. Een [Fractional AI Lead](/nl/diensten/fractional-ai-lead) is de vorm om een AI consultant voor langere tijd in te huren: {{timing:fractional-ai-lead}}, met een minimale looptijd van 3 maanden, daarna maandelijks opzegbaar, zonder dat je direct een fulltime Head of AI aanneemt.
 
-Alle bedragen zijn exclusief btw en reiskosten. Een volledig overzicht staat op de pagina met [tarieven en pakketten](/tarieven).
+Alle bedragen zijn exclusief btw en reiskosten. Een volledig overzicht staat op de pagina met [tarieven en pakketten](/nl/tarieven).
 
 ## Zo start je
 
@@ -114,6 +115,6 @@ Een start is bewust eenvoudig en verplicht je tot niets.
 <figcaption>Van eerste gesprek naar opdracht: je weet vooraf wat het kost en wat je krijgt.</figcaption>
 </figure>
 
-In het eerste gesprek vertel jij waar je tegenaan loopt, stel ik vragen en zeg ik aan het eind wat ik zou doen, ook als dat betekent dat je me niet nodig hebt. Past het, dan volgt een intake waarin we de scope bepalen. Daarna leg ik scope en prijs vast in een opdrachtbevestiging, zodat je vóór de start weet waar je aan toe bent. Hoe de trajecten daarna verlopen, lees je bij [AI consultancy](/ai-consultancy).
+In het eerste gesprek vertel jij waar je tegenaan loopt, stel ik vragen en zeg ik aan het eind wat ik zou doen, ook als dat betekent dat je me niet nodig hebt. Past het, dan volgt een intake waarin we de scope bepalen. Daarna leg ik scope en prijs vast in een opdrachtbevestiging, zodat je vóór de start weet waar je aan toe bent. Hoe de trajecten daarna verlopen, lees je bij [AI consultancy](/nl/ai-consultancy).
 
-Wil je een AI consultant inhuren voor jouw vraag? [Plan een adviesgesprek](/contact) van dertig minuten.
+Wil je een AI consultant inhuren voor jouw vraag? [Plan een adviesgesprek](/nl/contact) van dertig minuten.

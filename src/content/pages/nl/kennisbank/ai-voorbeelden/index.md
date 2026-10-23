@@ -1,6 +1,7 @@
 ---
 id: C3-06
-url: /kennisbank/ai-voorbeelden
+lang: nl
+url: /nl/kennisbank/ai-voorbeelden
 parent: C3-00
 cluster: "3. AI Automatisering"
 pageType: Kennisbank
@@ -12,8 +13,8 @@ metaDescription: "Bekijk 25 concrete AI voorbeelden uit de praktijk, per afdelin
 keyphrase: ai voorbeelden
 eyebrow: "Kennisbank"
 lede: "Wie AI voorbeelden zoekt, vindt vooral grote beloften. Deze lijst doet het omgekeerde: 25 concrete toepassingen, per afdeling, per sector en uit het dagelijks leven, met bij elk voorbeeld wat de AI doet en waar de mens blijft. Zo zie je sneller wat in jouw organisatie zou kunnen werken."
-primaryCta: { label: "Bekijk het AI Readiness Assessment", href: /diensten/ai-readiness-assessment }
-secondaryCta: { label: "Plan een adviesgesprek", href: /contact }
+primaryCta: { label: "Bekijk het AI Readiness Assessment", href: /nl/diensten/ai-readiness-assessment }
+secondaryCta: { label: "Plan een adviesgesprek", href: /nl/contact }
 summary:
   - "De meeste bruikbare AI-toepassingen zijn klein: lezen, sorteren, samenvatten, een concept schrijven."
   - "In bijna elk voorbeeld controleert een mens de uitkomst voordat die ertoe doet."
@@ -37,7 +38,7 @@ De AI voorbeelden op deze pagina zijn bewust generiek beschreven: "een groothand
 
 Die vier werkwoorden komen in bijna elk voorbeeld terug. **Lezen**: gegevens uit een e-mail, pdf of formulier halen. **Sorteren**: iets indelen in een categorie of een prioriteit geven. **Samenvatten**: een lang dossier, gesprek of document terugbrengen tot de kern. **Schrijven**: een concept maken dat een mens afmaakt. Herken je een van die vier in een taak die in jouw organisatie vaak voorkomt, dan heb je een kandidaat te pakken.
 
-Deze pagina is een brede voorbeeldlijst. Welke use cases in de praktijk ook echt resultaat opleveren, en welke vrijwel altijd stranden, lees je in [welke AI-use cases resultaat leveren](/inzichten/welke-ai-use-cases-leveren-resultaat).
+Deze pagina is een brede voorbeeldlijst. Welke use cases in de praktijk ook echt resultaat opleveren, en welke vrijwel altijd stranden, lees je in [welke AI-use cases resultaat leveren](/nl/inzichten/welke-ai-use-cases-leveren-resultaat).
 
 ### Klantenservice
 
@@ -55,7 +56,7 @@ Deze pagina is een brede voorbeeldlijst. Welke use cases in de praktijk ook echt
 
 7. **Productteksten schrijven.** Een webwinkel met duizenden artikelen kan uit productspecificaties conceptteksten laten schrijven in de eigen huisstijl. Een redacteur keurt goed; prijzen en maten komen uit het productsysteem.
 8. **Content hergebruiken.** Een adviesbureau kan van een webinar of presentatie een artikel, een nieuwsbrief en een paar social posts in concept laten maken, die de auteur daarna aanscherpt.
-9. **Klantreacties analyseren.** Een hotelketen kan honderden reviews laten indelen in thema's (schoonmaak, ontbijt, personeel) en zien welke klachten toenemen. Meer over AI in dit vakgebied staat bij [AI voor marketing](/markten/marketing).
+9. **Klantreacties analyseren.** Een hotelketen kan honderden reviews laten indelen in thema's (schoonmaak, ontbijt, personeel) en zien welke klachten toenemen. Meer over AI in dit vakgebied staat bij [AI voor marketing](/nl/markten/marketing).
 
 ### Finance
 
@@ -67,23 +68,23 @@ Deze pagina is een brede voorbeeldlijst. Welke use cases in de praktijk ook echt
 
 13. **Vragen over regelingen beantwoorden.** Een organisatie met een uitgebreid personeelshandboek kan medewerkers vragen over verlof, declaraties of thuiswerken laten stellen aan een interne assistent die antwoordt met een verwijzing naar de bron.
 14. **Vacatureteksten opstellen.** Een recruiter kan een vacaturetekst in concept laten schrijven op basis van het functieprofiel. Let op: AI die sollicitaties filtert of kandidaten beoordeelt, staat in de AI Act op de lijst van hoog-risicotoepassingen ([bijlage III](https://ai-act-service-desk.ec.europa.eu/en/ai-act/annex-3)). Dat is een ander soort toepassing dan tekst schrijven.
-15. **Inwerken en interne kennis.** Een nieuwe medewerker kan beleidsstukken, werkinstructies en eerdere projectdossiers doorzoeken met een assistent. Een verwante toepassing is [notuleren met AI](/kennisbank/notuleren-met-ai), waarbij verslagen en actiepunten uit vergaderingen worden gehaald. Hoe een interne assistent in de praktijk landt, beschrijft de case over een [AI-assistent voor kenniswerkers](/cases/interne-ai-assistent-kenniswerkers).
+15. **Inwerken en interne kennis.** Een nieuwe medewerker kan beleidsstukken, werkinstructies en eerdere projectdossiers doorzoeken met een assistent. Een verwante toepassing is [notuleren met AI](/nl/kennisbank/notuleren-met-ai), waarbij verslagen en actiepunten uit vergaderingen worden gehaald. Hoe een interne assistent in de praktijk landt, beschrijft de case over een [AI-assistent voor kenniswerkers](/nl/cases/interne-ai-assistent-kenniswerkers).
 
 ## AI voorbeelden per sector
 
-Elke sector heeft eigen regels en gevoeligheden. De voorbeelden hieronder blijven daarom bij ondersteunende taken; een uitgebreider beeld per branche staat op de pagina over [AI in verschillende markten](/markten).
+Elke sector heeft eigen regels en gevoeligheden. De voorbeelden hieronder blijven daarom bij ondersteunende taken; een uitgebreider beeld per branche staat op de pagina over [AI in verschillende markten](/nl/markten).
 
-16. **Zorg.** Een zorginstelling kan een conceptverslag laten maken van aantekeningen of een ingesproken samenvatting, dat de zorgverlener controleert en vastlegt. Het doel is minder administratietijd, niet een medisch oordeel. Zie ook [AI in de zorg](/markten/zorg).
-17. **Financiële dienstverlening.** Een financiële instelling kan bij klantacceptatie gegevens laten halen uit uittreksels, identiteitsbewijzen en jaarrekeningen, terwijl een analist het oordeel houdt. Dat patroon staat centraal in de case over [KYC-documentanalyse](/cases/kyc-documentanalyse-financial-services). Let op: AI die de kredietwaardigheid van personen beoordeelt, valt onder de hoog-risicotoepassingen van de AI Act. Meer bij [AI voor fintech](/markten/fintech).
-18. **Automotive.** Een autobedrijf of schadehersteller kan de beschrijving van een klant en de bevindingen van een monteur laten omzetten naar een conceptwerkorder of een klantvriendelijke uitleg van de reparatie. Zie [AI voor automotive](/markten/automotive).
-19. **Onderwijs.** Een docent kan lesmateriaal laten omzetten naar verschillende niveaus of oefenvragen in concept laten maken. Het beoordelen van leerresultaten of toelating met AI valt onder de hoog-risicotoepassingen van de AI Act. Meer bij [AI in het onderwijs](/markten/onderwijs).
-20. **Luchtvaart.** Een onderhoudsorganisatie kan technici omvangrijke handboeken en procedures laten doorzoeken met een assistent die altijd naar de bronpassage verwijst. De technicus blijft verantwoordelijk en werkt volgens de goedgekeurde documentatie. Zie [AI in de luchtvaart](/markten/luchtvaart).
-21. **Overheid.** Een gemeente kan binnenkomende meldingen en brieven laten categoriseren en naar de juiste afdeling laten doorzetten, zodat inwoners sneller bij de juiste behandelaar uitkomen. Meer bij [AI binnen de overheid](/markten/overheid).
+16. **Zorg.** Een zorginstelling kan een conceptverslag laten maken van aantekeningen of een ingesproken samenvatting, dat de zorgverlener controleert en vastlegt. Het doel is minder administratietijd, niet een medisch oordeel. Zie ook [AI in de zorg](/nl/markten/zorg).
+17. **Financiële dienstverlening.** Een financiële instelling kan bij klantacceptatie gegevens laten halen uit uittreksels, identiteitsbewijzen en jaarrekeningen, terwijl een analist het oordeel houdt. Dat patroon staat centraal in de case over [KYC-documentanalyse](/nl/cases/kyc-documentanalyse-financial-services). Let op: AI die de kredietwaardigheid van personen beoordeelt, valt onder de hoog-risicotoepassingen van de AI Act. Meer bij [AI voor fintech](/nl/markten/fintech).
+18. **Automotive.** Een autobedrijf of schadehersteller kan de beschrijving van een klant en de bevindingen van een monteur laten omzetten naar een conceptwerkorder of een klantvriendelijke uitleg van de reparatie. Zie [AI voor automotive](/nl/markten/automotive).
+19. **Onderwijs.** Een docent kan lesmateriaal laten omzetten naar verschillende niveaus of oefenvragen in concept laten maken. Het beoordelen van leerresultaten of toelating met AI valt onder de hoog-risicotoepassingen van de AI Act. Meer bij [AI in het onderwijs](/nl/markten/onderwijs).
+20. **Luchtvaart.** Een onderhoudsorganisatie kan technici omvangrijke handboeken en procedures laten doorzoeken met een assistent die altijd naar de bronpassage verwijst. De technicus blijft verantwoordelijk en werkt volgens de goedgekeurde documentatie. Zie [AI in de luchtvaart](/nl/markten/luchtvaart).
+21. **Overheid.** Een gemeente kan binnenkomende meldingen en brieven laten categoriseren en naar de juiste afdeling laten doorzetten, zodat inwoners sneller bij de juiste behandelaar uitkomen. Meer bij [AI binnen de overheid](/nl/markten/overheid).
 22. **Logistiek.** Een transportbedrijf kan vrachtbrieven en afleverbonnen laten uitlezen en afwijkingen tussen bestelde en geleverde aantallen automatisch laten signaleren.
 
 Wat opvalt: in sectoren met strenge regels zit de AI bijna altijd aan de voorbereidende kant van het werk. Dat is geen toeval. Zodra een toepassing zelf een besluit over een persoon neemt of een professioneel oordeel vervangt, gelden er zwaardere eisen vanuit de AVG, de AI Act en de eigen sectorregels. Door de AI te laten voorbereiden en de professional te laten beslissen, blijft een toepassing beter uitlegbaar en is ze sneller in te voeren.
 
-Veel van deze voorbeelden zijn ook haalbaar voor kleinere organisaties, mits je klein begint. Hoe je dat aanpakt als mkb'er, lees je bij [AI voor het mkb](/ai-voor-bedrijven/mkb).
+Veel van deze voorbeelden zijn ook haalbaar voor kleinere organisaties, mits je klein begint. Hoe je dat aanpakt als mkb'er, lees je bij [AI voor het mkb](/nl/ai-voor-bedrijven/mkb).
 
 ## AI voorbeelden in het dagelijks leven
 
@@ -122,7 +123,7 @@ Drie valkuilen zie je bij het kiezen steeds terug:
 
 Begin daarna klein: één toepassing, één team, echte gegevens en een nulmeting van hoe lang het werk nu duurt. Laat de nieuwe werkwijze een paar weken naast de oude lopen en tel hoe vaak een medewerker de AI moet corrigeren. Pas als dat structureel weinig is, breid je uit naar een volgend team of een volgende toepassing.
 
-Heb je een kandidaat gekozen, dan is de volgende stap om het proces uit te werken. Hoe je dat doet, staat bij [bedrijfsprocessen automatiseren met AI](/ai-automatisering/bedrijfsprocessen-automatiseren-met-ai). Hoe je er een werkende keten van maakt, lees je bij [AI workflows](/ai-automatisering/ai-workflows). Moet de toepassing zelf stappen kiezen, kijk dan naar de [voorbeelden van AI agents](/ai-agents/voorbeelden). En voor het complete overzicht van processen, kosten en aanpak is er de pagina over [AI automatisering](/ai-automatisering).
+Heb je een kandidaat gekozen, dan is de volgende stap om het proces uit te werken. Hoe je dat doet, staat bij [bedrijfsprocessen automatiseren met AI](/nl/ai-automatisering/bedrijfsprocessen-automatiseren-met-ai). Hoe je er een werkende keten van maakt, lees je bij [AI workflows](/nl/ai-automatisering/ai-workflows). Moet de toepassing zelf stappen kiezen, kijk dan naar de [voorbeelden van AI agents](/nl/ai-agents/voorbeelden). En voor het complete overzicht van processen, kosten en aanpak is er de pagina over [AI automatisering](/nl/ai-automatisering).
 
 <aside class="scenario" aria-label="Voorbeeldscenario">
 <p class="scenario-label">Voorbeeldscenario</p>
@@ -132,4 +133,4 @@ Heb je een kandidaat gekozen, dan is de volgende stap om het proces uit te werke
 <p class="scenario-note">Fictief voorbeeld, samengesteld uit situaties die veel voorkomen. Organisatie en cijfers zijn illustratief.</p>
 </aside>
 
-Wil je weten welke van deze toepassingen in jouw organisatie het meeste oplevert? Het [AI Readiness Assessment](/diensten/ai-readiness-assessment) geeft je in {{timing:ai-readiness-assessment}} een gevalideerde lijst met kansen en een 90-dagenplan. Liever eerst sparren? [Plan een adviesgesprek](/contact) van dertig minuten.
+Wil je weten welke van deze toepassingen in jouw organisatie het meeste oplevert? Het [AI Readiness Assessment](/nl/diensten/ai-readiness-assessment) geeft je in {{timing:ai-readiness-assessment}} een gevalideerde lijst met kansen en een 90-dagenplan. Liever eerst sparren? [Plan een adviesgesprek](/nl/contact) van dertig minuten.

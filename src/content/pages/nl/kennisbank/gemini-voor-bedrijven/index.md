@@ -1,6 +1,7 @@
 ---
 id: C10-03
-url: /kennisbank/gemini-voor-bedrijven
+lang: nl
+url: /nl/kennisbank/gemini-voor-bedrijven
 parent: C3-05
 cluster: "10. Kennisbank AI tools"
 pageType: Kennisbank
@@ -12,8 +13,8 @@ metaDescription: "Hoe gebruik je Google Gemini zakelijk? Lees over toepassingen 
 keyphrase: gemini voor bedrijven
 eyebrow: "Kennisbank"
 lede: "Werkt je organisatie al met Google Workspace, dan zit Gemini voor bedrijven waarschijnlijk al in je abonnement. De vraag is dus minder of je het koopt, en meer hoe je het inzet en welke afspraken je maakt over data. Hieronder lees je wat Gemini is, wat het in Gmail, Docs en Sheets doet, hoe Google met je gegevens omgaat en hoe het zich verhoudt tot Microsoft Copilot."
-primaryCta: { label: "Lees meer over AI tools", href: /ai-automatisering/ai-tools }
-secondaryCta: { label: "Plan een adviesgesprek", href: /contact }
+primaryCta: { label: "Lees meer over AI tools", href: /nl/ai-automatisering/ai-tools }
+secondaryCta: { label: "Plan een adviesgesprek", href: /nl/contact }
 summary:
   - "Gemini zit in de zakelijke Google Workspace-abonnementen; welke functies je krijgt, hangt af van je editie."
   - "Google gebruikt je Workspace-content volgens eigen zeggen niet zonder toestemming voor modeltraining."
@@ -46,7 +47,7 @@ Gemini is de verzamelnaam voor de generatieve AI van Google: de taalmodellen zel
 
 Dat tweede deel maakt het verschil met een losse chattool. Je hoeft geen tekst te kopiëren naar een apart venster; je vraagt in het document zelf om een samenvatting, een eerste versie of een analyse. Wie Google Gemini zakelijk wil inzetten, begint daarom meestal bij de Workspace-apps en niet bij de losse app.
 
-Gemini is een van de assistenten die je kunt overwegen. In het overzicht van [AI tools voor bedrijven](/ai-automatisering/ai-tools) zet ik de belangrijkste categorieën naast elkaar, en wie ook naar andere modellen kijkt, leest meer over [ChatGPT in zakelijk gebruik](/kennisbank/chatgpt-voor-bedrijven) en over [Claude van Anthropic](/kennisbank/claude-voor-bedrijven).
+Gemini is een van de assistenten die je kunt overwegen. In het overzicht van [AI tools voor bedrijven](/nl/ai-automatisering/ai-tools) zet ik de belangrijkste categorieën naast elkaar, en wie ook naar andere modellen kijkt, leest meer over [ChatGPT in zakelijk gebruik](/nl/kennisbank/chatgpt-voor-bedrijven) en over [Claude van Anthropic](/nl/kennisbank/claude-voor-bedrijven).
 
 ## Gemini in Google Workspace
 
@@ -82,7 +83,7 @@ De toepassingen zijn herkenbaar, want ze sluiten aan op werk dat al in Workspace
 <figcaption>Van licentie naar gebruik: de techniek staat meestal al klaar, het werk zit in afspraken en adoptie.</figcaption>
 </figure>
 
-De valkuil is bekend: de functies staan aan, een paar enthousiastelingen gebruiken ze, de rest niet. Dat heeft zelden met de tool te maken en bijna altijd met de vraag of het aansluit op het echte werk. Daarover schreef ik in [AI-adoptie begint bij het werk](/inzichten/ai-adoptie-begint-bij-het-werk). Het helpt ook als mensen weten hoe je een goede vraag stelt; de basis staat in de uitleg over [prompt engineering](/kennisbank/prompt-engineering).
+De valkuil is bekend: de functies staan aan, een paar enthousiastelingen gebruiken ze, de rest niet. Dat heeft zelden met de tool te maken en bijna altijd met de vraag of het aansluit op het echte werk. Daarover schreef ik in [AI-adoptie begint bij het werk](/nl/inzichten/ai-adoptie-begint-bij-het-werk). Het helpt ook als mensen weten hoe je een goede vraag stelt; de basis staat in de uitleg over [prompt engineering](/nl/kennisbank/prompt-engineering).
 
 <aside class="scenario" aria-label="Voorbeeldscenario">
 <p class="scenario-label">Voorbeeldscenario</p>
@@ -120,8 +121,8 @@ Waar ze wel verschillen, stand september 2026:
 | Toegang tot bedrijfsdata | Alleen wat de gebruiker mag zien | Alleen wat de gebruiker mag zien |
 | Modeltraining | Niet zonder toestemming van de klant | Prompts en antwoorden worden niet gebruikt voor training van de basismodellen |
 
-Het grootste praktische verschil zit in het prijsmodel. Bij Google betaal je de AI mee in het Workspace-abonnement. Bij Microsoft is de volledige Copilot een aparte licentie bovenop Microsoft 365; op de [Nederlandse prijspagina van Microsoft](https://www.microsoft.com/nl-nl/microsoft-365-copilot/pricing) kost Copilot Business stand september 2026 € 18,20 per gebruiker per maand bij jaarlijkse betaling, exclusief btw. Van 1 juli tot en met 31 december 2026 geldt een tijdelijke prijs van € 15,60 voor het eerste jaar. Hoe die licenties precies werken, lees je in [Microsoft Copilot voor bedrijven](/kennisbank/microsoft-copilot-voor-bedrijven).
+Het grootste praktische verschil zit in het prijsmodel. Bij Google betaal je de AI mee in het Workspace-abonnement. Bij Microsoft is de volledige Copilot een aparte licentie bovenop Microsoft 365; op de [Nederlandse prijspagina van Microsoft](https://www.microsoft.com/nl-nl/microsoft-365-copilot/pricing) kost Copilot Business stand september 2026 € 18,20 per gebruiker per maand bij jaarlijkse betaling, exclusief btw. Van 1 juli tot en met 31 december 2026 geldt een tijdelijke prijs van € 15,60 voor het eerste jaar. Hoe die licenties precies werken, lees je in [Microsoft Copilot voor bedrijven](/nl/kennisbank/microsoft-copilot-voor-bedrijven).
 
-Werk je met beide platforms, of overweeg je een overstap, dan wordt het een echte selectievraag. Kijk dan niet naar losse functies, die veranderen per kwartaal, maar naar waar je data staat, wat een overstap kost en welke afspraken je over beheer kunt maken. Een onafhankelijke [vergelijking van leveranciers](/diensten/vendor-review) helpt daarbij; ik heb geen partnerstatus bij Google of Microsoft en verdien niet aan de keuze.
+Werk je met beide platforms, of overweeg je een overstap, dan wordt het een echte selectievraag. Kijk dan niet naar losse functies, die veranderen per kwartaal, maar naar waar je data staat, wat een overstap kost en welke afspraken je over beheer kunt maken. Een onafhankelijke [vergelijking van leveranciers](/nl/diensten/vendor-review) helpt daarbij; ik heb geen partnerstatus bij Google of Microsoft en verdien niet aan de keuze.
 
-Wil je weten hoe je Gemini in jouw organisatie verantwoord inzet, of twijfel je tussen platforms? [Plan een adviesgesprek](/contact) van dertig minuten; aan het eind hoor je wat ik zou doen.
+Wil je weten hoe je Gemini in jouw organisatie verantwoord inzet, of twijfel je tussen platforms? [Plan een adviesgesprek](/nl/contact) van dertig minuten; aan het eind hoor je wat ik zou doen.

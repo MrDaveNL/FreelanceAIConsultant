@@ -1,6 +1,7 @@
 ---
 id: C8-01
-url: /ai-beleid/ai-act
+lang: nl
+url: /nl/ai-beleid/ai-act
 parent: C8-00
 cluster: "8. AI beleid & governance"
 pageType: Spoke
@@ -12,8 +13,8 @@ metaDescription: "Wat betekent de Europese AI Act voor jouw bedrijf? Lees over r
 keyphrase: ai act voor bedrijven
 eyebrow: "AI Act"
 lede: "De AI Act voor bedrijven komt neer op drie vragen: welke AI gebruik of maak je, in welke risicocategorie valt dat, en welke rol heb je? In 2026 is de wet bovendien aangepast via de Digital Omnibus. Hier lees je de actuele stand per september 2026 en wat je nu concreet doet."
-primaryCta: { label: "Lees meer over AI beleid", href: /ai-beleid }
-secondaryCta: { label: "Bekijk het AI Readiness Assessment", href: /diensten/ai-readiness-assessment }
+primaryCta: { label: "Lees meer over AI beleid", href: /nl/ai-beleid }
+secondaryCta: { label: "Bekijk het AI Readiness Assessment", href: /nl/diensten/ai-readiness-assessment }
 summary:
   - "De AI Act deelt AI in naar risico: verboden, hoog risico, transparantieverplichtingen en minimaal risico."
   - "Je verplichtingen hangen af van je rol: aanbieder of gebruiksverantwoordelijke."
@@ -111,7 +112,7 @@ Daarnaast kent de wet importeurs en distributeurs. De meeste bedrijven zijn gebr
 
 Voor gebruiksverantwoordelijken van hoog-risicosystemen noemt artikel 26 onder meer: het systeem gebruiken volgens de gebruiksaanwijzing, menselijk toezicht beleggen bij mensen met de juiste kennis en bevoegdheid, relevante invoerdata gebruiken, de werking monitoren en incidenten melden, automatisch gegenereerde logs minimaal zes maanden bewaren, en werknemers en hun vertegenwoordigers vooraf informeren als je zo'n systeem op de werkvloer inzet.
 
-Werk je met AI die zelfstandig taken uitvoert en daarbij persoonsgegevens verwerkt, dan speelt naast de AI Act ook de AVG. Hoe die twee samenkomen, lees je in [AI agents en de AVG](/kennisbank/ai-agents-en-avg).
+Werk je met AI die zelfstandig taken uitvoert en daarbij persoonsgegevens verwerkt, dan speelt naast de AI Act ook de AVG. Hoe die twee samenkomen, lees je in [AI agents en de AVG](/nl/kennisbank/ai-agents-en-avg).
 
 ## Tijdlijn
 
@@ -137,10 +138,10 @@ Je hoeft niet te wachten tot december 2027. De verplichtingen die nu al gelden z
 1. **Maak een overzicht van je AI-toepassingen.** Welke tools en systemen gebruik je, waarvoor, met welke data en van welke leverancier? Dit register is de basis voor alles wat volgt.
 2. **Bepaal per toepassing de risicocategorie en je rol.** Ben je aanbieder of gebruiksverantwoordelijke? Valt de toepassing in een bijlage III-gebied?
 3. **Toets op verboden praktijken.** Zeldzaam in het gewone bedrijfsleven, maar controleer het expliciet voor emotieherkenning of monitoring van medewerkers.
-4. **Regel AI-geletterdheid.** Neem passende maatregelen, afgestemd op wie wat met AI doet, en houd bij wat je hebt gedaan. Een [training AI-geletterdheid](/ai-workshop/ai-geletterdheid-training) is daarvoor een logische bouwsteen.
+4. **Regel AI-geletterdheid.** Neem passende maatregelen, afgestemd op wie wat met AI doet, en houd bij wat je hebt gedaan. Een [training AI-geletterdheid](/nl/ai-workshop/ai-geletterdheid-training) is daarvoor een logische bouwsteen.
 5. **Check je transparantie.** Weten klanten dat ze met een chatbot praten? Markeer je door AI gemaakte beelden of video's waar dat moet?
 6. **Bereid hoog-risicotoepassingen voor.** Vraag leveranciers welke documentatie en gebruiksinstructies ze leveren, beleg menselijk toezicht en informeer de ondernemingsraad tijdig.
-7. **Leg het vast in beleid en governance.** Maak de afspraken onderdeel van je [AI beleid](/ai-beleid) en richt een lichte beheersing in, zoals beschreven in [AI-governance zonder bureaucratie](/inzichten/ai-governance-zonder-bureaucratie).
+7. **Leg het vast in beleid en governance.** Maak de afspraken onderdeel van je [AI beleid](/nl/ai-beleid) en richt een lichte beheersing in, zoals beschreven in [AI-governance zonder bureaucratie](/nl/inzichten/ai-governance-zonder-bureaucratie).
 
 <aside class="scenario" aria-label="Voorbeeldscenario">
 <p class="scenario-label">Voorbeeldscenario</p>
@@ -150,4 +151,4 @@ Je hoeft niet te wachten tot december 2027. De verplichtingen die nu al gelden z
 <p class="scenario-note">Fictief voorbeeld, samengesteld uit situaties die veel voorkomen. Organisatie en cijfers zijn illustratief.</p>
 </aside>
 
-Wil je weten waar je staat? Het [AI Readiness Assessment](/diensten/ai-readiness-assessment) bevat een risico- en compliance-scan, inclusief de positionering van je toepassingen onder de AI-verordening. Moet je directie of raad van commissarissen eerst een gedeeld beeld krijgen, dan behandelt de [Executive Briefing](/diensten/executive-briefing) ook regelgeving en toezicht. En wil je eerst sparren over wat de AI Act voor jouw situatie betekent, [plan dan een kort gesprek](/contact).
+Wil je weten waar je staat? Het [AI Readiness Assessment](/nl/diensten/ai-readiness-assessment) bevat een risico- en compliance-scan, inclusief de positionering van je toepassingen onder de AI-verordening. Moet je directie of raad van commissarissen eerst een gedeeld beeld krijgen, dan behandelt de [Executive Briefing](/nl/diensten/executive-briefing) ook regelgeving en toezicht. En wil je eerst sparren over wat de AI Act voor jouw situatie betekent, [plan dan een kort gesprek](/nl/contact).
