@@ -36,7 +36,7 @@ const r = (
 
 export const routes: RouteEntry[] = [
   // Statische kernpagina's
-  r('home', 'static', '', '/', {}),
+  r('home', 'static', '', '/', { liveEn: true }),
   r('diensten', 'static', '/diensten', '/services', {}),
   r('cases', 'static', '/cases', '/cases', {}),
   r('werkwijze', 'static', '/werkwijze', '/approach', {}),

@@ -1,14 +1,16 @@
 ---
 import { site } from '../data/site.js';
-const { compact = false } = Astro.props;
+const { compact = false, locale = 'nl' } = Astro.props;
+const note = locale === 'en' ? 'trust,<br/>experience, impact ↓' : 'vertrouwen,<br/>ervaring, impact ↓';
+const s3 = locale === 'en' ? 'Senior only<br/>20+ years experience' : 'Senior only<br/>20+ jaar ervaring';
 ---
 <div class:list={['portrait-stage', compact && 'compact']}>
   <div class="blob"></div>
   <img src={site.portrait} alt={`${site.name}, ${site.role}`} width="500" height="620" loading="lazy" decoding="async" />
-  <div class="note hand">vertrouwen,<br/>ervaring, impact ↓</div>
+  <div class="note hand" set:html={note} />
   <span class="sticker sticker--yellow s1">Independent</span>
   <span class="sticker sticker--salmon s2">No vendor bias</span>
-  <span class="sticker sticker--aqua s3">Senior only<br/>20+ jaar ervaring</span>
+  <span class="sticker sticker--aqua s3" set:html={s3} />
 </div>
 <style>
 .portrait-stage{position:relative;min-height:500px;display:flex;align-items:flex-end;justify-content:center;isolation:isolate}.portrait-stage.compact{min-height:380px}.blob{position:absolute;inset:5% 2% 0 12%;background:var(--sand);opacity:.42;border-radius:43% 57% 45% 55% / 43% 45% 55% 57%;z-index:-2;transform:rotate(3deg)}img{position:relative;z-index:-1;width:min(86%,500px);height:auto;mix-blend-mode:multiply;filter:contrast(1.02) grayscale(1);clip-path:inset(0 0 0 8%);border-radius:0 0 32px 32px}.note{position:absolute;top:10%;left:5%;font-size:1.35rem;line-height:.9;transform:rotate(-4deg);color:var(--burgundy)}.s1{position:absolute;top:26%;right:-2%}.s2{position:absolute;top:40%;right:1%}.s3{position:absolute;top:54%;right:-3%;font-size:.85rem;line-height:1.05}

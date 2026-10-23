@@ -1,16 +1,22 @@
 ---
 import HeroPortrait from './HeroPortrait.astro';
+import { routeById } from '../data/routes';
+import { site } from '../data/site.js';
 const {
+  locale = 'nl',
   eyebrow,
   title,
   marked,
   body,
-  cta = 'Plan een gesprek',
-  ctaHref = '/nl/contact',
+  cta = locale === 'en' ? 'Book a call' : 'Plan een gesprek',
+  // EN-fallback: mailto zolang /contact nog niet live is; volgt automatisch /contact zodra dat wel zo is.
+  ctaHref = locale === 'en'
+    ? (routeById('contact')?.live.en ? routeById('contact')!.paths.en : `mailto:${site.email}`)
+    : '/nl/contact',
   secondary,
   secondaryHref = '#',
   compact = false,
-  note = '30 min., geen pitch deck',
+  note = locale === 'en' ? '30 min., no pitch deck' : '30 min., geen pitch deck',
 } = Astro.props;
 
 const index = marked ? title.indexOf(marked) : -1;
@@ -29,7 +35,7 @@ const after = index >= 0 ? title.slice(index + marked.length) : '';
         {note && <span class="hand micro">{note}</span>}
       </div>
     </div>
-    <HeroPortrait compact={compact} />
+    <HeroPortrait compact={compact} locale={locale} />
   </div>
 </section>
 <style>

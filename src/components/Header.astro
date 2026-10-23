@@ -19,10 +19,10 @@ const ctaHref = contactEntry?.live[locale] ? contactEntry.paths[locale] : null;
 const active = (href: string) =>
   href === homeHref ? currentPath.replace(/\/$/, '') === homeHref.replace(/\/$/, '') : currentPath.startsWith(href);
 const toLocale = otherLocale(locale);
-const homeEntry = routeById('home');
-// Geen fallback naar de homepage: die telt alleen als die zelf live is in de doeltaal.
-// Zonder live counterpart (en zonder live home) bestaat er geen geldige bestemming, dus geen schakelaar.
-const switchHref = counterpart(currentPath, locale, toLocale) ?? (homeEntry?.live[toLocale] ? homeEntry.paths[toLocale] : null);
+// Geen fallback naar de homepage: de homepage telt alleen mee via counterpart() wanneer de
+// huidige pagina zelf de homepage is. Elke andere pagina zonder eigen live counterpart krijgt
+// geen schakelaar, ook niet nu de homepage wel live is in de andere taal.
+const switchHref = counterpart(currentPath, locale, toLocale);
 ---
 <header class="site-header">
   <div class="container nav-wrap">

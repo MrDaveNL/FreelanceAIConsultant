@@ -1,7 +1,7 @@
 ---
 const { service, number, title, text, timing, price, tone = 'yellow', href = '#' } = Astro.props;
 const s = service ?? { number, title, cardText: text, timing, price, tone, slug: null };
-const link = service ? `/nl/diensten/${service.slug}` : href;
+const link = service ? (service.lang === 'en' ? `/services/${service.slug}` : `/nl/diensten/${service.slug}`) : href;
 ---
 <a class:list={['service-card', `tone-${s.tone}`]} href={link}>
   <span class="num">{s.number}</span>

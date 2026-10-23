@@ -1,5 +1,6 @@
 ---
-const rows = [
+const { locale = 'nl' } = Astro.props;
+const rowsNl = [
   ['Senior werkt zelf mee', 'Altijd', 'Soms', 'Zelden'],
   ['Snelheid', 'Hoog', 'Hoog', 'Lager'],
   ['Softwarebelang', 'Geen', 'Soms', 'Soms'],
@@ -7,17 +8,35 @@ const rows = [
   ['Kostenstructuur', 'Transparant', 'Projectafhankelijk', 'Hoog'],
   ['Procurement', 'Gemiddeld', 'Makkelijk', 'Makkelijk'],
 ];
+// Letterlijke vertaling van rowsNl hierboven, geen nieuwe claims.
+const rowsEn = [
+  ['Senior does the work', 'Always', 'Sometimes', 'Rarely'],
+  ['Speed', 'High', 'High', 'Lower'],
+  ['Software stake', 'None', 'Sometimes', 'Sometimes'],
+  ['Scale', 'Limited', 'High', 'Very high'],
+  ['Cost structure', 'Transparent', 'Project-dependent', 'High'],
+  ['Procurement', 'Average', 'Easy', 'Easy'],
+];
+const rows = locale === 'en' ? rowsEn : rowsNl;
 ---
 <section class="comparison dark-band section-sm">
   <div class="container comparison-grid">
-    <div>
-      <p class="eyebrow">Waarom onafhankelijk?</p>
-      <h2 class="h2">Agency,<br/>Big 4,<br/><span class="underline">of ik?</span></h2>
-      <div class="sticker sticker--salmon hand-note">Ik win niet elke rij.<br/>Dat is het punt.</div>
-      <a class="text-link compare-link" href="/nl/inzichten/freelance-ai-consultant-vs-agency-vs-big4">Lees de volledige vergelijking →</a>
-    </div>
+    {locale === 'en' ? (
+      <div>
+        <p class="eyebrow">Why independent?</p>
+        <h2 class="h2">Agency,<br/>Big 4,<br/><span class="underline">or me?</span></h2>
+        <div class="sticker sticker--salmon hand-note">I don't win every row.<br/>That's the point.</div>
+      </div>
+    ) : (
+      <div>
+        <p class="eyebrow">Waarom onafhankelijk?</p>
+        <h2 class="h2">Agency,<br/>Big 4,<br/><span class="underline">of ik?</span></h2>
+        <div class="sticker sticker--salmon hand-note">Ik win niet elke rij.<br/>Dat is het punt.</div>
+        <a class="text-link compare-link" href="/nl/inzichten/freelance-ai-consultant-vs-agency-vs-big4">Lees de volledige vergelijking →</a>
+      </div>
+    )}
     <div class="table-wrap">
-      <div class="thead"><span>Criterium</span><b>Onafhankelijk</b><b>Agency</b><b>Big 4</b></div>
+      <div class="thead"><span>{locale === 'en' ? 'Criteria' : 'Criterium'}</span><b>{locale === 'en' ? 'Independent' : 'Onafhankelijk'}</b><b>Agency</b><b>Big 4</b></div>
       {rows.map((row) => (
         <div class="trow"><span>{row[0]}</span><strong>{row[1]}</strong><span>{row[2]}</span><span>{row[3]}</span></div>
       ))}

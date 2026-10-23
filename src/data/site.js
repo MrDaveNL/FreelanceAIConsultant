@@ -52,6 +52,15 @@ export const metrics = [
   { icon: '%', value: '32%', label: 'gem. efficiencyverbetering' },
 ];
 
+// EN-equivalent van metrics/independence hierboven, zelfde feiten, Engelse notatie (punt i.p.v. komma
+// als decimaalteken). Los gehouden van de NL-exports zodat de NL-pagina's byte-identiek blijven.
+export const metricsEn = [
+  { icon: '✓', value: '10', label: 'strategic AI engagements in 12 months' },
+  { icon: '↗', value: '€2.1M+', label: 'value realized for clients' },
+  { icon: '◎', value: '8', label: 'leadership teams supported in AI decisions' },
+  { icon: '%', value: '32%', label: 'avg. efficiency improvement' },
+];
+
 export const principles = [
   ['Onafhankelijk', 'Jouw belang, altijd. Geen commissies, geen partnerdeals.'],
   ['Transparant', 'Helder over kansen én risico’s, ook als dat ongemakkelijk is.'],
@@ -65,4 +74,12 @@ export const independence = [
   'Geen vendor-kickbacks',
   'Geen marge op implementatiepartners',
   'Belangenconflicten vooraf gemeld',
+];
+
+export const independenceEn = [
+  'No software commissions',
+  'No affiliate deals',
+  'No vendor kickbacks',
+  'No margin on implementation partners',
+  'Conflicts of interest disclosed upfront',
 ];

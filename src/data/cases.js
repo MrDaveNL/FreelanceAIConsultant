@@ -293,3 +293,23 @@ export const testimonials = [
     author: 'CEO, industriebedrijf',
   },
 ];
+
+// Letterlijke vertaling van testimonials hierboven, geen nieuwe quotes. translated: true zodat de
+// rendering altijd "Translated from Dutch" toont bij het attributieblok, zoals bij elke EN-quote.
+export const testimonialsEn = [
+  {
+    text: 'Dave brings structure to AI chaos. He asks the right questions and comes up with concrete, workable choices.',
+    author: 'CFO, investment firm',
+    translated: true,
+  },
+  {
+    text: 'No thick reports, just a clear plan we could act on straight away.',
+    author: 'COO, retail organization',
+    translated: true,
+  },
+  {
+    text: 'Finally someone who translates AI into value, not technology.',
+    author: 'CEO, industrial company',
+    translated: true,
+  },
+];

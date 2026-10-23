@@ -1,5 +1,5 @@
 ---
-const { item, href = `/nl/cases/${item.slug}` } = Astro.props;
+const { item, href = item.lang === 'en' ? `/cases/${item.slug}` : `/nl/cases/${item.slug}` } = Astro.props;
 ---
 <a class="case-card card" href={href} data-sector={item.sector}>
   <div class="case-top"><span class="icon-dot">{item.icon}</span><span class="sector">{item.sector}</span></div>

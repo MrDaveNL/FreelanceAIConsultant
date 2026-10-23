@@ -5,6 +5,15 @@ export const steps = [
   ['04', 'Ship & govern', 'Hoe zorgen we dat het ook echt landt?', '↗'],
 ];
 
+// EN-equivalent van steps hierboven. Alleen de vier korte stappen (gebruikt op de homepage via
+// <Steps>); stepDetails/expectations/antiPatterns/engagementModels volgen bij de approach-pagina.
+export const stepsEn = [
+  ['01', 'Diagnose', 'What are we actually trying to solve?', '⌕'],
+  ['02', 'Prioritize', 'Which use cases earn money, time and attention?', '☑'],
+  ['03', 'Decide', 'Build, buy or partner, and why?', '↯'],
+  ['04', 'Ship & govern', 'How do we make sure it actually lands?', '↗'],
+];
+
 export const stepDetails = [
   {
     number: '01',

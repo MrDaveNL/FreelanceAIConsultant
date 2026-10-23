@@ -1,9 +1,10 @@
 ---
-import { steps } from '../data/process.js';
-const { compact = false } = Astro.props;
+import { steps, stepsEn } from '../data/process.js';
+const { compact = false, locale = 'nl' } = Astro.props;
+const items = locale === 'en' ? stepsEn : steps;
 ---
 <div class:list={['steps', compact && 'compact']}>
-  {steps.map(([n, t, d, i]) => (
+  {items.map(([n, t, d, i]) => (
     <div class="step">
       <span class="step-num">{n}</span>
       <div class="step-icon" aria-hidden="true">{i}</div>

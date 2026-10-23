@@ -1,7 +1,8 @@
 ---
 import { existsSync } from 'node:fs';
 import { join } from 'node:path';
-import brands from '../data/brands.json';
+import brandsNl from '../data/brands.json';
+import brandsEn from '../data/brands.en.json';
 import { routeById } from '../data/routes';
 import { localeFromPath } from '../i18n';
 
@@ -11,9 +12,14 @@ const VERSION = '2';
 const MONO = true;
 
 const path = Astro.url.pathname.replace(/\/$/, '') || '/';
+const locale = localeFromPath(path);
+const brands = locale === 'en' ? brandsEn : brandsNl;
 // Homepage-pad verschilt per taal (/ voor EN, /nl voor NL); bepaal "isHome" via de route-kaart,
 // niet via een lege string (die klopte alleen toen de NL-homepage nog op '/' stond).
-const isHome = path === (routeById('home')?.paths[localeFromPath(path)] ?? '/');
+const isHome = path === (routeById('home')?.paths[locale] ?? '/');
+const copy = locale === 'en'
+  ? { label: 'AI in Europe', title: 'European brands already running AI ', titleEm: 'in production', titleEnd: '.', sub: 'Not my clients. Examples of what happens once AI moves past the pilot stage.', pause: 'Pause' }
+  : { label: 'AI in Europa', title: 'Europese merken die AI al ', titleEm: 'in productie', titleEnd: ' hebben.', sub: 'Geen klanten van mij. Wel voorbeelden van wat er gebeurt als AI voorbij de pilot komt.', pause: 'Pauzeer' };
 // Homepage: h2. Overige pagina's: p met dezelfde opmaak, zodat de kop niet op elke pagina in de outline staat.
 const Title = isHome ? 'h2' : 'p';
 const titleId = `aimerken-titel-${isHome ? 'home' : path.slice(1).replace(/[^a-z0-9]+/gi, '-')}`;
@@ -34,11 +40,11 @@ const icon = (file) =>
 <section class="aimerken" aria-labelledby={titleId} data-mono={MONO ? 'true' : 'false'}>
   <div class="container aimerken__kop">
     <div>
-      <p class="aimerken__label">AI in Europa</p>
-      <Title class="aimerken__titel" id={titleId}>Europese merken die AI al <u>in productie</u> hebben.</Title>
-      <p class="aimerken__sub">Geen klanten van mij. Wel voorbeelden van wat er gebeurt als AI voorbij de pilot komt.</p>
+      <p class="aimerken__label">{copy.label}</p>
+      <Title class="aimerken__titel" id={titleId}>{copy.title}<u>{copy.titleEm}</u>{copy.titleEnd}</Title>
+      <p class="aimerken__sub">{copy.sub}</p>
     </div>
-    <button class="aimerken__pauze" type="button" aria-pressed="false">Pauzeer</button>
+    <button class="aimerken__pauze" type="button" aria-pressed="false">{copy.pause}</button>
   </div>
   <div class="aimerken__baan">
     <ul class="aimerken__lijst">
