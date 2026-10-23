@@ -1,0 +1,46 @@
+// EN interface strings. New copy (not a translation of protected NL text) for chrome
+// that renders on every page, including the EN 404 that already ships in Phase 1.
+export const en = {
+  skipLink: 'Skip to main content',
+  switcherAria: 'Language',
+  nav: {
+    diensten: 'Services',
+    cases: 'Cases',
+    werkwijze: 'Approach',
+    inzichten: 'Insights',
+    over: 'About',
+  },
+  header: {
+    navAria: 'Main navigation',
+    menuAria: 'Open menu',
+    cta: 'Book a call',
+  },
+  footer: {
+    servicesHeading: 'Services',
+    allServices: 'All services',
+    contentHeading: 'Content',
+    faq: 'FAQ',
+    about: 'About',
+    hubHeading: 'Knowledge & approach',
+    contactHeading: 'Contact',
+    linkedin: 'LinkedIn ↗',
+    cta: 'Book a call',
+    privacy: 'Privacy policy',
+    terms: 'Terms & conditions',
+  },
+  breadcrumbs: {
+    home: 'Home',
+    aria: 'Breadcrumb',
+  },
+  error404: {
+    title: 'Page not found | Freelance AI Consultant',
+    description: 'This page does not exist or has moved. Go back to the homepage, or email Dave directly with your question about AI strategy or advisory work.',
+    eyebrow: 'Oops',
+    heading: 'This page does not exist.',
+    body: 'Broken link, outdated bookmark, or a typo. Here is the way back.',
+    ctaHome: 'Go to the homepage →',
+    ctaContact: 'Or email your question directly →',
+    servicesEyebrow: 'Services',
+    articlesEyebrow: 'Recent articles',
+  },
+} as const;
