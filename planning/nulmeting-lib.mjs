@@ -88,6 +88,8 @@ export const urlVanBestand = (rel) => {
   const url = r.endsWith('index.html') ? `/${r.slice(0, -'index.html'.length).replace(/\/$/, '')}` : `/${r.slice(0, -'.html'.length)}`;
   return url || '/';
 };
+// Alleen de root-404 (src/pages/404.astro) is bij Astro een plat bestand (dist/404.html); een
+// genest 404.astro (zoals src/pages/nl/404.astro) bouwt als gewone route (dist/nl/404/index.html).
 export const bestandVanUrl = (url) => (url === '/' ? 'index.html' : url === '/404' ? '404.html' : `${url.slice(1)}/index.html`);
 export const naamVanUrl = (url) => (url === '/' ? 'home' : url.slice(1).replace(/\//g, '__'));
 

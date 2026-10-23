@@ -13,32 +13,43 @@ export const telZinnen = (tekst) => splitsZinnen(tekst).length;
 // Voor het vergelijken van koppen en zinnen: kleine letters, rechte apostrof, enkele spaties.
 export const normaliseer = (tekst) => tekst.replace(/\s+/g, ' ').replace(/[’‘]/g, "'").trim().toLowerCase();
 
-// Schrijfregels uit de briefing: geen em dash en nooit het woord "gids".
-export const schrijfregelFout = (tekst) =>
-  /—/.test(tekst) ? 'bevat een em dash' : /gids/i.test(tekst) ? 'bevat het woord "gids"' : null;
+// Schrijfregels uit de briefing: geen em dash (beide talen) en, alleen in het NL, nooit het woord "gids".
+// Fase 1: er bestaan nog geen EN-blokken; de zod-schema's roepen dit zonder taal aan (= nl, ongewijzigd gedrag).
+export const schrijfregelFout = (tekst, taal = 'nl') =>
+  /—/.test(tekst) ? 'bevat een em dash' : taal === 'nl' && /gids/i.test(tekst) ? 'bevat het woord "gids"' : null;
 
 // Een tabelcel mag niet leeg zijn en niet doorverwijzen of uitstellen.
 export const celFout = (tekst) =>
   !tekst.trim() ? 'is leeg' : /(^|[^\p{L}])(zie|n\.v\.t\.?|nvt|volgt)([^\p{L}]|$)/iu.test(tekst) ? 'bevat "zie", "n.v.t." of "volgt"' : null;
 
 const TELWOORDEN = ['één', 'twee', 'drie', 'vier', 'vijf', 'zes', 'zeven', 'acht', 'negen', 'tien', 'elf', 'twaalf', 'vijftien', 'twintig', 'dertig', 'veertig', 'vijftig', 'zestig', 'honderd', 'duizend'];
+// EN-equivalent, nog niet aangesloten op een EN-blok (fase 1 heeft er geen); klaar voor fase 2+.
+const NUMBER_WORDS_EN = ['one', 'two', 'three', 'four', 'five', 'six', 'seven', 'eight', 'nine', 'ten', 'eleven', 'twelve', 'fifteen', 'twenty', 'thirty', 'forty', 'fifty', 'sixty', 'hundred', 'thousand'];
 
 // Een antwoord op een vervolgvraag begint met het antwoord zelf: ja, nee, het getal, of de naam van de dienst
 // of het pakket waar de vraag naar vraagt. Een bedrag komt pas daarna, tenzij de vraag naar het bedrag vraagt.
 // In de databron mag het begin een token zijn ({{timing:slug}}, {{price:slug}}, {{dienst:slug}}).
-export const begintMetAntwoord = (tekst, namen = [], vraag = '') => {
+// taal-parameter: default 'nl' houdt het bestaande (NL) gedrag exact gelijk; 'en' is voorbereid voor fase 2+.
+export const begintMetAntwoord = (tekst, namen = [], vraag = '', taal = 'nl') => {
   const t = tekst.trim();
+  const openVraagwoorden = taal === 'nl'
+    ? /^(Wat|Welk|Welke|Wie|Hoe|Hoeveel|Waar|Waarom|Wanneer|Waardoor|Waarmee|Waarvoor)(?![\p{L}])/u
+    : /^(What|Which|Who|How|Where|Why|When)(?![\p{L}])/u;
+  const jaNee = taal === 'nl' ? /^(Ja|Nee)[.,:]/ : /^(Yes|No)[.,:]/;
+  const telwoorden = taal === 'nl' ? [...TELWOORDEN, 'Eén', 'Één'] : NUMBER_WORDS_EN;
+  const lidwoord = taal === 'nl' ? /^(De|Het|Een)\s+/ : /^(The|A|An)\s+/i;
   // Een open vraag vraagt om een naam of omschrijving; alleen een ja-neevraag eist ja of nee.
-  if (/^(Wat|Welk|Welke|Wie|Hoe|Hoeveel|Waar|Waarom|Wanneer|Waardoor|Waarmee|Waarvoor)(?![\p{L}])/u.test(vraag.trim())) return true;
-  if (/^(Ja|Nee)[.,:]/.test(t) || /^€?\s?\d/.test(t) || /^\{\{(timing|price|pricelc|dienst|title):/.test(t)) return true;
-  if (new RegExp(`^(${TELWOORDEN.join('|')}|Eén|Één)(?![\\p{L}])`, 'iu').test(t)) return true;
-  const zonderLidwoord = t.replace(/^(De|Het|Een)\s+/, '');
+  if (openVraagwoorden.test(vraag.trim())) return true;
+  if (jaNee.test(t) || /^€?\s?\d/.test(t) || /^\{\{(timing|price|pricelc|dienst|title):/.test(t)) return true;
+  if (new RegExp(`^(${telwoorden.join('|')})(?![\\p{L}])`, 'iu').test(t)) return true;
+  const zonderLidwoord = t.replace(lidwoord, '');
   return /^\{\{(dienst|title):/.test(zonderLidwoord) || namen.some((n) => zonderLidwoord.startsWith(n));
 };
-// Een kaal "Ja." of "Nee.": alleen toegestaan als de bron onvoorwaardelijk is.
-export const isKaalJaNee = (tekst) => /^(Ja|Nee)\.(\s|$)/.test(tekst.trim());
+// Een kaal "Ja."/"Nee." (of "Yes."/"No."): alleen toegestaan als de bron onvoorwaardelijk is.
+export const isKaalJaNee = (tekst, taal = 'nl') => (taal === 'nl' ? /^(Ja|Nee)\.(\s|$)/ : /^(Yes|No)\.(\s|$)/).test(tekst.trim());
 export const begintMetBedrag = (tekst) => /^€|^\{\{(price|pricelc):/.test(tekst.trim());
-export const vraagtNaarBedrag = (vraag) => /kost|prijs|tarie|bedrag|investering/i.test(vraag);
+export const vraagtNaarBedrag = (vraag, taal = 'nl') =>
+  (taal === 'nl' ? /kost|prijs|tarie|bedrag|investering/i : /\b(cost|price|pricing|fee|investment|budget)\b/i).test(vraag);
 
 // ---- Laag A: elk bedrag, elke doorlooptijd, elk aantal en elke termijn moet letterlijk in de bron staan. ----
 

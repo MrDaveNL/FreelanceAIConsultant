@@ -10,7 +10,9 @@ const walk = (dir) =>
   );
 const exists = (href) => {
   const p = path.join(dist, decodeURI(href));
-  return href === '/' || fs.existsSync(path.join(p, 'index.html')) || (fs.existsSync(p) && fs.statSync(p).isFile());
+  // Een root-404 (zoals /404) bouwt als plat <pad>.html, zonder eigen map; hosts en astro preview
+  // lossen het extensieloze pad daar ook naar op (zie src/pages/404.astro, src/pages/nl/404.astro).
+  return href === '/' || fs.existsSync(path.join(p, 'index.html')) || (fs.existsSync(p) && fs.statSync(p).isFile()) || fs.existsSync(`${p}.html`);
 };
 
 let problems = 0;
@@ -32,7 +34,8 @@ for (const file of walk(dist)) {
   if (/\{\{\w+:/.test(text)) report(file, 'onvervangen {{token}}');
   if (/\[PLACEHOLDER|LINK-TODO/.test(text)) report(file, 'zichtbare placeholder of LINK-TODO');
   const h1 = (html.match(/<h1[\s>]/g) || []).length;
-  if (h1 !== 1 && !file.endsWith('404.html')) report(file, `${h1} H1's`);
+  const is404 = file.endsWith('404.html') || path.basename(path.dirname(file)) === '404';
+  if (h1 !== 1 && !is404) report(file, `${h1} H1's`);
 
   // SEO: titel 30-60 tekens, beschrijving 120-160, uniek, geen oud merk, geen en/em dash.
   const decode = (s) => s.replace(/&amp;/g, '&').replace(/&quot;/g, '"').replace(/&#39;/g, "'").replace(/&lt;/g, '<').replace(/&gt;/g, '>');

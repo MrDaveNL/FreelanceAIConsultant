@@ -1,6 +1,6 @@
 // Hoe prijs en doorlooptijd van een dienst in een RAG-blok staan. Alles komt letterlijk uit src/data/prijzen.ts.
 // Gedeeld door de renderfunctie (src/lib/rag-blok.js) en de controle (planning/check-rag.mjs).
-import { prijzen, fractionalNiveaus, prijsvoorwaarden } from '../data/prijzen.ts';
+import { prijzen, fractionalNiveaus, prijsvoorwaarden, formatEur } from '../data/prijzen.ts';
 
 // Zelfde notatie als in prijzen.ts: €7.000, punt als duizendtalscheiding.
 const eur = (bedrag) => '€' + String(bedrag).replace(/\B(?=(\d{3})+(?!\d))/g, '.');
@@ -30,3 +30,12 @@ export const bronTekst = (slug) => {
   return [p.price, p.timing, p.priceNote, p.cardPrice ?? '', p.cardTiming ?? '', prijsTekst(slug), niveausTekst(slug) ?? '', duurTekst(slug), voorwaarden].join(' | ');
 };
 export const dienstSlugs = Object.keys(prijzen);
+
+// EN-equivalent van prijsTekst/duurTekst, nog niet aan EN-content gekoppeld (fase 1 heeft geen EN-diensten).
+// EN-getalnotatie via formatEur (komma als duizendtalscheiding); "from X" i.p.v. de NL-bandbreedtezin.
+export const prijsTekstEn = (slug) =>
+  niveaus[slug]
+    ? `${formatEur(prijzen[slug].minPrice, 'en')}-${formatEur(prijzen[slug].maxPrice, 'en')} per month, for ${opsomming(niveaus[slug].map((n) => String(n.dagen)), 'or')} days per month`
+    : `from ${formatEur(prijzen[slug].minPrice, 'en')}`;
+export const duurTekstEn = (slug) =>
+  niveaus[slug] ? `${opsomming(niveaus[slug].map((n) => String(n.dagen)), 'or')} days per month` : prijzen[slug].timing;

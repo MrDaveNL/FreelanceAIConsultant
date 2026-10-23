@@ -10,6 +10,7 @@ import { afzender } from '../src/lib/rag-blok.js';
 import { bronTekst, dienstSlugs } from '../src/lib/rag-prijzen.js';
 import { splitsZinnen, normaliseer, celFout, schrijfregelFout, begintMetAntwoord, begintMetBedrag, isKaalJaNee, vraagtNaarBedrag,
   normaliseerGetallen, getalUitdrukkingen, getalStaatIn } from '../src/lib/rag-tekst.js';
+import { localeFromPath } from '../src/data/routes.ts';
 
 // RAG_BLOKKEN: JSON-bestand met blokken in plaats van de databron, voor het controleren van concepten.
 const blokken = process.env.RAG_BLOKKEN
@@ -138,12 +139,12 @@ for (const { url, doc } of paginas) {
       // zin en op de pagina zelf; een kaal Ja of Nee mag alleen als het blok de bron als onvoorwaardelijk aanmerkt.
       const bronVraag = blok.vervolgvragen.find((v) => normaliseer(v.vraag) === normaliseer(vraag));
       const eersteZin = splitsZinnen(t)[0] ?? '';
-      if (isKaalJaNee(t) && !bronVraag?.onvoorwaardelijk) fout.push(`antwoord op "${vraag}" begint met een kaal Ja of Nee zonder dat de bron als onvoorwaardelijk is aangemerkt`);
+      if (isKaalJaNee(t, blok.taal) && !bronVraag?.onvoorwaardelijk) fout.push(`antwoord op "${vraag}" begint met een kaal Ja of Nee zonder dat de bron als onvoorwaardelijk is aangemerkt`);
       if (bronVraag?.voorbehoud) {
         if (!eersteZin.toLowerCase().includes(bronVraag.voorbehoud.toLowerCase())) fout.push(`antwoord op "${vraag}" neemt het voorbehoud "${bronVraag.voorbehoud}" niet over in de eerste zin`);
         if (!paginaTekst.includes(normaliseerGetallen(bronVraag.voorbehoud)) && !databron.includes(normaliseerGetallen(bronVraag.voorbehoud))) fout.push(`voorbehoud "${bronVraag.voorbehoud}" staat niet letterlijk op de eigen pagina of in prijzen.ts`);
-      } else if (!begintMetAntwoord(t, dienstnamen, vraag)) fout.push(`antwoord op "${vraag}" begint niet met het antwoord: ja of nee bij een ja-neevraag, anders het getal of de naam`);
-      if (begintMetBedrag(t) && !vraagtNaarBedrag(vraag)) fout.push(`antwoord op "${vraag}" begint met een bedrag, terwijl de vraag daar niet naar vraagt`);
+      } else if (!begintMetAntwoord(t, dienstnamen, vraag, blok.taal)) fout.push(`antwoord op "${vraag}" begint niet met het antwoord: ja of nee bij een ja-neevraag, anders het getal of de naam`);
+      if (begintMetBedrag(t) && !vraagtNaarBedrag(vraag, blok.taal)) fout.push(`antwoord op "${vraag}" begint met een bedrag, terwijl de vraag daar niet naar vraagt`);
       // In een vervolgvraag staat de afzender niet; de volledige dienstnaam of het onderwerp wel.
       if (t.replaceAll(`${afzender} adviseert`, '').includes(afzender)) fout.push(`antwoord op "${vraag}" noemt de afzender; die hoort alleen in de antwoordalinea en de bronregel`);
       if (!dienstnamen.some((n) => t.includes(n)) && !t.toLowerCase().includes(blok.onderwerp.toLowerCase())) fout.push(`antwoord op "${vraag}" noemt geen dienst of het onderwerp "${blok.onderwerp}" voluit`);
@@ -153,8 +154,9 @@ for (const { url, doc } of paginas) {
     // het doel daar staat, anders bij de eerste vermelding), en elke interne link bestaat.
     const ankers = alle('a');
     const hrefs = ankers.map((a) => a.getAttribute('href') ?? '');
+    const dienstenSegment = localeFromPath(url) === 'nl' ? 'diensten' : 'services';
     for (const s of services) {
-      const eigenUrl = `/diensten/${s.slug}`;
+      const eigenUrl = `${localeFromPath(url) === 'nl' ? '/nl' : ''}/${dienstenSegment}/${s.slug}`;
       if (tekst.includes(s.title) && eigenUrl !== url && !hrefs.includes(eigenUrl)) fout.push(`dienst "${s.title}" is genoemd maar niet gelinkt naar ${eigenUrl}`);
     }
     const alineas = alle('p');
@@ -194,7 +196,7 @@ for (const { url, doc } of paginas) {
     // Schrijfregels. Prijsniveaus staan voluit, zonder schuine strepen.
     // De bronregel telt hier niet mee voor het woord "gids": dat kan de eigennaam van een externe bron zijn.
     const eigenTekst = delen.map((d) => { const k = parseHtml(d.toString()); k.querySelectorAll('.rag-blok__bron').forEach((b) => b.remove()); return tekstVan(k, ' '); }).join(' ');
-    const schrijf = schrijfregelFout(eigenTekst) ?? (/—/.test(tekst) ? 'bevat een em dash' : null);
+    const schrijf = schrijfregelFout(eigenTekst, blok.taal) ?? (/—/.test(tekst) ? 'bevat een em dash' : null);
     if (schrijf) fout.push(`tekst ${schrijf}`);
     if (/€[\d.]+\s*\/|\/\s*(?:€|maand|mnd|jaar|week|dag|uur)/i.test(tekst)) fout.push('bedrag of omvang met een schuine streep; schrijf elk niveau voluit');
 
@@ -229,7 +231,7 @@ for (const { url, doc } of paginas) {
     }
 
     // Een bedrag van een dienst staat alleen in het blok als de pagina zelf dat bedrag noemt, of als de vraagkop over kosten gaat.
-    if (!vraagtNaarBedrag(kop ?? ''))
+    if (!vraagtNaarBedrag(kop ?? '', blok.taal))
       for (const b of new Set(bedragen(tekst))) if (alleBronBedragen.has(b) && !paginaTekst.includes(b.toLowerCase())) fout.push(`bedrag ${b} staat niet op de pagina zelf en de vraagkop gaat niet over kosten`);
 
     // Dubbele tekst: geen zin uit de bestaande tekst van de pagina woordelijk in het blok.

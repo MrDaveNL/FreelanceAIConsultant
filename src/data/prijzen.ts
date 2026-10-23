@@ -8,9 +8,15 @@ const fractionalDagtarief = 1300; // fractional, bij minimaal 3 maanden
 const project = (dagen: number) => dagen * projectDagtarief;
 const fractional = (dagen: number) => dagen * fractionalDagtarief;
 
-// €7.000: punt als duizendtalscheiding, geen spatie na €.
+// €7.000: punt als duizendtalscheiding, geen spatie na €. Gebruikt voor alle NL-bedragen hieronder;
+// die berekende strings blijven ongewijzigd (NL moet byte-identiek blijven).
 const eur = (bedrag: number) => '€' + String(bedrag).replace(/\B(?=(\d{3})+(?!\d))/g, '.');
 const bandbreedte = (min: number, max: number) => `${eur(min)} - ${eur(max)}`;
+
+// Locale-bewuste notatie, nog niet gekoppeld aan NL-strings hieronder: NL comma→punt (ongewijzigd),
+// EN komma als duizendtalscheiding. Voor fase 2+, zodra EN-dienstencontent bestaat.
+export const formatEur = (bedrag: number, locale: 'en' | 'nl' = 'nl') =>
+  locale === 'nl' ? eur(bedrag) : '€' + String(bedrag).replace(/\B(?=(\d{3})+(?!\d))/g, ',');
 
 // Geldt voor alle diensten. Blokken lezen de voorwaarde hier, zodat hij overal gelijk is.
 export const prijsvoorwaarden = 'exclusief btw en reiskosten';

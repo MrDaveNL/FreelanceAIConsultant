@@ -6,6 +6,30 @@ import fs from 'node:fs';
 import path from 'node:path';
 import { meetUrl, nulmetingDir, distPaginas, urlVanBestand, naamVanUrl } from './nulmeting-lib.mjs';
 
+// i18n fase 1: elke nulmeting is vóór de migratie vastgelegd met het oude, ongeprefixte NL-pad.
+// De pagina zelf staat nu onder /nl. Toegestane afwijking (zie i18n-opdracht): alleen de /nl-prefix
+// in URL, canonical en interne hrefs, plus de nieuw toegevoegde hreflang/taalwisselaar-tags.
+const metNl = (url) => (url === '/' ? '/nl' : `/nl${url}`);
+const zonderNl = (v) => {
+  if (typeof v !== 'string') return v;
+  const stripped = v.replace(/^(https?:\/\/[^/]+)?\/nl(?=\/|$)/, '$1');
+  return /^(https?:\/\/[^/]+)?$/.test(stripped) ? `${stripped}/` : stripped;
+};
+// Normaliseert structured data vóór vergelijking: URL's verliezen de /nl-prefix (toegestaan) en
+// inLanguage (nieuw, taalmetadata zoals hreflang) wordt genegeerd, net als hreflang hierboven.
+const normaliseerSd = (waarde) => {
+  if (Array.isArray(waarde)) return waarde.map(normaliseerSd);
+  if (waarde && typeof waarde === 'object') {
+    const kopie = {};
+    for (const [k, v] of Object.entries(waarde)) {
+      if (k === 'inLanguage') continue;
+      kopie[k] = normaliseerSd(v);
+    }
+    return kopie;
+  }
+  return zonderNl(waarde);
+};
+
 const args = process.argv.slice(2);
 const toonToevoegingen = args.includes('--toon-toevoegingen');
 const gevraagd = args.filter((a) => a.startsWith('/'));
@@ -52,19 +76,28 @@ const metingen = fs.readdirSync(nulmetingDir).filter((f) => f.endsWith('.json'))
 let fouten = 0;
 let gewijzigd = 0;
 for (const voor of metingen) {
-  const na = meetUrl(voor.url);
+  const na = meetUrl(metNl(voor.url));
   const fout = [];
   const info = [];
   if (!na) {
-    console.log(`✗ ${voor.url}\n  FOUT  pagina ontbreekt in dist/`);
+    console.log(`✗ ${voor.url}\n  FOUT  pagina ontbreekt in dist/ (verwacht onder ${metNl(voor.url)})`);
     fouten++;
     continue;
   }
 
-  for (const veld of ['title', 'meta_description', 'canonical', 'robots_meta', 'hreflang', 'h1'])
+  // canonical verschuift mee naar /nl: dat is toegestaan, dus vergelijken na het strippen van die prefix.
+  // hreflang bestond niet vóór de migratie; de nieuwe tags zijn een toegestane toevoeging, geen wijziging.
+  for (const veld of ['title', 'meta_description', 'robots_meta', 'h1'])
     if (!gelijk(voor.beschermd[veld], na.beschermd[veld])) fout.push(`${veld} gewijzigd\n        voor: ${kort(voor.beschermd[veld])}\n        na:   ${kort(na.beschermd[veld])}`);
-  for (const veld of Object.keys(voor.social))
-    if (voor.social[veld] !== na.social[veld]) fout.push(`${veld} gewijzigd\n        voor: ${kort(voor.social[veld])}\n        na:   ${kort(na.social[veld])}`);
+  if (zonderNl(voor.beschermd.canonical) !== zonderNl(na.beschermd.canonical))
+    fout.push(`canonical gewijzigd (los van de /nl-prefix)\n        voor: ${kort(voor.beschermd.canonical)}\n        na:   ${kort(na.beschermd.canonical)}`);
+  if (na.beschermd.hreflang.length) info.push(`hreflang toegevoegd: ${na.beschermd.hreflang.map((h) => h.hreflang).join(', ')}`);
+  for (const veld of Object.keys(voor.social)) {
+    if (veld === 'og:locale') continue; // og:locale blijft nl_NL; og:locale:alternate is nieuw en wordt hier niet gemeten.
+    const v = veld === 'og:url' ? zonderNl(voor.social[veld]) : voor.social[veld];
+    const n = veld === 'og:url' ? zonderNl(na.social[veld]) : na.social[veld];
+    if (v !== n) fout.push(`${veld} gewijzigd\n        voor: ${kort(voor.social[veld])}\n        na:   ${kort(na.social[veld])}`);
+  }
 
   const kop = (k) => `H${k.niveau}: ${k.tekst}`;
   const koppen = volgorde(voor.koppen.map(kop), na.koppen.map(kop));
@@ -80,14 +113,17 @@ for (const voor of metingen) {
     if (toonToevoegingen || tekst.ontbreekt.length) for (const b of tekst.toegevoegd) info.push(`  + "${kort(b)}"`);
   }
 
-  const link = (l) => `${l.regio} | ${l.href} | ${l.anker}`;
+  // De href van een intern NL-naar-NL-link verschuift mee naar /nl: toegestaan, dus genormaliseerd vergeleken.
+  const link = (l) => `${l.regio} | ${zonderNl(l.href)} | ${l.anker}`;
   const links = volgorde(voor.links.map(link), na.links.map(link));
   for (const l of links.ontbreekt.slice(0, 8)) fout.push(`bestaande link of ankertekst ontbreekt of is gewijzigd: ${kort(l)}`);
   if (links.toegevoegd.length) info.push(`${links.toegevoegd.length} link(s) toegevoegd${toonToevoegingen ? `: ${links.toegevoegd.map(kort).join(' ; ')}` : ''}`);
 
   // Structured data: elke bestaande knoop en elk bestaand FAQ-item komt identiek en in dezelfde volgorde terug.
-  // Toegevoegd mag alleen een FAQPage of een vraag daarin zijn (de vragen van een RAG-blok).
-  if (voor.structured_data.sha256 !== na.structured_data.sha256) {
+  // Toegevoegd mag alleen een FAQPage, een vraag daarin (RAG-blok) of taalmetadata zijn (zie normaliseerSd).
+  const sdVoor = normaliseerSd(voor.structured_data.items);
+  const sdNa = normaliseerSd(na.structured_data.items);
+  if (JSON.stringify(sdVoor) !== JSON.stringify(sdNa)) {
     const plat = (items) => items.flat().flatMap((item) => {
       const { '@graph': graph, ...omhulsel } = item;
       return [...(graph ? [`omhulsel ${JSON.stringify(omhulsel)}`] : []), ...(graph ?? [item]).flatMap((knoop) => {
@@ -96,7 +132,7 @@ for (const voor of metingen) {
         return [`FAQPage ${JSON.stringify(faq)}`, ...mainEntity.map((vraag) => `vraag ${JSON.stringify(vraag)}`)];
       })];
     });
-    const sd = volgorde(plat(voor.structured_data.items), plat(na.structured_data.items));
+    const sd = volgorde(plat(sdVoor), plat(sdNa));
     for (const s of sd.ontbreekt) fout.push(`structured data: bestaand deel ontbreekt, is gewijzigd of verplaatst: ${kort(s)}`);
     for (const s of sd.toegevoegd.filter((t) => !/^(FAQPage|vraag) /.test(t))) fout.push(`structured data: toevoeging die geen FAQ-vraag is: ${kort(s)}`);
     const vragen = sd.toegevoegd.filter((t) => t.startsWith('vraag '));
@@ -118,7 +154,7 @@ for (const voor of metingen) {
   }
 }
 
-const bekend = new Set(metingen.map((m) => m.url));
+const bekend = new Set(metingen.map((m) => metNl(m.url)));
 if (!gevraagd.length)
   for (const url of distPaginas().map(urlVanBestand))
     if (!bekend.has(url)) console.log(`  let op: ${url} heeft nog geen nulmeting (${naamVanUrl(url)}.json)`);
