@@ -19,7 +19,10 @@ const ctaHref = contactEntry?.live[locale] ? contactEntry.paths[locale] : null;
 const active = (href: string) =>
   href === homeHref ? currentPath.replace(/\/$/, '') === homeHref.replace(/\/$/, '') : currentPath.startsWith(href);
 const toLocale = otherLocale(locale);
-const switchHref = counterpart(currentPath, locale, toLocale) ?? routeById('home')?.paths[toLocale] ?? '/';
+const homeEntry = routeById('home');
+// Geen fallback naar de homepage: die telt alleen als die zelf live is in de doeltaal.
+// Zonder live counterpart (en zonder live home) bestaat er geen geldige bestemming, dus geen schakelaar.
+const switchHref = counterpart(currentPath, locale, toLocale) ?? (homeEntry?.live[toLocale] ? homeEntry.paths[toLocale] : null);
 ---
 <header class="site-header">
   <div class="container nav-wrap">
@@ -28,7 +31,7 @@ const switchHref = counterpart(currentPath, locale, toLocale) ?? routeById('home
     </a>
     <nav aria-label={dict.header.navAria}>
       {navItems.map(([href, label]) => <a class:list={['nav-link', active(href) && 'is-active']} href={href}>{label}</a>)}
-      <a class="lang-switch" href={switchHref} aria-label={dict.switcherAria}>{SWITCHER_LABEL[toLocale]}</a>
+      {switchHref && <a class="lang-switch" href={switchHref} aria-label={dict.switcherAria}>{SWITCHER_LABEL[toLocale]}</a>}
     </nav>
     {ctaHref && <a class="btn nav-cta" href={ctaHref}>{dict.header.cta} <span>→</span></a>}
     <button class="menu" aria-label={dict.header.menuAria} aria-expanded="false" onclick="const h=this.closest('header');h.classList.toggle('menu-open');this.setAttribute('aria-expanded',h.classList.contains('menu-open'))">☰</button>

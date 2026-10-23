@@ -12,6 +12,8 @@ export const GET: APIRoute = async () => {
   );
 
   const sitemaps = perLocale
+    // Een lege sitemap (nog geen live routes in die taal) wordt niet opgenomen in de index.
+    .filter(({ routes }) => routes.length > 0)
     .map(({ loc, routes }) => {
       const lastmod = routes.reduce((max, r) => (r.lastmod > max ? r.lastmod : max), '');
       return `  <sitemap>

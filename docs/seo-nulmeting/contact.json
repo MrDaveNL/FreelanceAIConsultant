@@ -2,7 +2,7 @@
   "url": "/contact",
   "build_bestand": "dist/contact/index.html",
   "html": {
-    "bytes": 27422,
+    "bytes": 27767,
     "lang": "nl"
   },
   "beschermd": {
@@ -495,7 +495,7 @@
       {
         "src": null,
         "type": "module",
-        "inline_bytes": 2419
+        "inline_bytes": 2469
       },
       {
         "src": "/logo-carousel/logo-carousel.js?v=2",
@@ -512,5 +512,6 @@
     "aantal_details": 4,
     "aantal_tabellen": 0
   },
-  "gemeten_op": "2026-10-06"
+  "gemeten_op": "2026-10-06",
+  "baseline_wijziging": "2026-10-23: scripts-diff geaccepteerd als nieuwe baseline (locale-veld + subject-tag in het intakeformulier-script), na akkoord."
 }
