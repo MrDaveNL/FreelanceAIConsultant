@@ -1,6 +1,6 @@
 // RAG-blok. Teksten geverifieerd (docs/rag-verificatie.md) en akkoord bevonden op 7 oktober 2026.
 export default {
-  "pagina": "/diensten/ai-strategy-sprint",
+  "pagina": "/nl/diensten/ai-strategy-sprint",
   "type": "dienst",
   "onderwerp": "AI Strategy Sprint",
   "vraagkop": "Wat levert de AI Strategy Sprint op en wat kost die?",
@@ -23,7 +23,7 @@ export default {
   ],
   "bron": {
     "tekst": "tarieven en doorlooptijden van {{afzender}}",
-    "href": "/tarieven"
+    "href": "/nl/tarieven"
   },
   "bijgewerkt": "2026-10",
   "markup": true

@@ -1,6 +1,6 @@
 // RAG-blok. Teksten geverifieerd (docs/rag-verificatie.md) en akkoord bevonden op 7 oktober 2026.
 export default {
-  "pagina": "/inzichten/ai-adoptie-begint-bij-het-werk",
+  "pagina": "/nl/inzichten/ai-adoptie-begint-bij-het-werk",
   "type": "kennisbank",
   "onderwerp": "AI-adoptie",
   "vraagkop": "Waarom blijft AI-adoptie laag na de uitrol van een tool en wat werkt wel?",

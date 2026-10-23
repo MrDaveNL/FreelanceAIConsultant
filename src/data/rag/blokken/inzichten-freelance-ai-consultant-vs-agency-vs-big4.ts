@@ -1,6 +1,6 @@
 // RAG-blok. Teksten geverifieerd (docs/rag-verificatie.md) en akkoord bevonden op 7 oktober 2026.
 export default {
-  "pagina": "/inzichten/freelance-ai-consultant-vs-agency-vs-big4",
+  "pagina": "/nl/inzichten/freelance-ai-consultant-vs-agency-vs-big4",
   "type": "kennisbank",
   "onderwerp": "freelance AI consultant",
   "vraagkop": "Wanneer past een freelance AI consultant beter dan een agency of een Big 4-kantoor?",

@@ -1,6 +1,6 @@
 // RAG-blok. Teksten geverifieerd (docs/rag-verificatie.md) en akkoord bevonden op 7 oktober 2026.
 export default {
-  "pagina": "/inzichten/ai-vendorselectie-in-acht-stappen",
+  "pagina": "/nl/inzichten/ai-vendorselectie-in-acht-stappen",
   "type": "kennisbank",
   "onderwerp": "AI-vendorselectie",
   "vraagkop": "Hoe verloopt een AI-vendorselectie die niet door demo's of interne voorkeuren wordt beslist?",

@@ -1,6 +1,6 @@
 // RAG-blok. Teksten geverifieerd (docs/rag-verificatie.md) en akkoord bevonden op 7 oktober 2026.
 export default {
-  "pagina": "/kennisbank/chatgpt-voor-bedrijven",
+  "pagina": "/nl/kennisbank/chatgpt-voor-bedrijven",
   "type": "kennisbank",
   "onderwerp": "ChatGPT voor bedrijven",
   "vraagkop": "Wat kan ChatGPT voor bedrijven?",

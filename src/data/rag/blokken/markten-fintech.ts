@@ -1,6 +1,6 @@
 // RAG-blok. Teksten geverifieerd (docs/rag-verificatie.md) en akkoord bevonden op 7 oktober 2026.
 export default {
-  "pagina": "/markten/fintech",
+  "pagina": "/nl/markten/fintech",
   "type": "kennisbank",
   "onderwerp": "AI in fintech",
   "vraagkop": "Waar levert AI in fintech het meest op en welke regels spelen mee?",

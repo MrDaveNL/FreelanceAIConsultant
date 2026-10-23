@@ -1,7 +1,7 @@
 // Geplaatst pilotblok. Teksten op basis van de bestaande paginatekst en prijzen.ts; herzien op 6 oktober 2026
 // na de verificatie (stelligheid van de bron, prijsvoorwaarden uit prijzen.ts). Akkoord bevonden op 8 oktober 2026.
 export default {
-  "pagina": "/ai-consultancy/ai-strategie",
+  "pagina": "/nl/ai-consultancy/ai-strategie",
   "type": "dienstenoverzicht",
   "onderwerp": "AI strategie",
   "vraagkop": "Wat kost het om een AI strategie te laten ontwikkelen en hoe lang duurt het?",
@@ -63,7 +63,7 @@ export default {
   ],
   "bron": {
     "tekst": "tarieven en doorlooptijden van {{afzender}}",
-    "href": "/tarieven"
+    "href": "/nl/tarieven"
   },
   "bijgewerkt": "2026-10",
   "markup": true

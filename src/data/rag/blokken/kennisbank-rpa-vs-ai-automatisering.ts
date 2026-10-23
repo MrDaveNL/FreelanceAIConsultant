@@ -1,6 +1,6 @@
 // RAG-blok. Teksten geverifieerd (docs/rag-verificatie.md) en akkoord bevonden op 7 oktober 2026.
 export default {
-  "pagina": "/kennisbank/rpa-vs-ai-automatisering",
+  "pagina": "/nl/kennisbank/rpa-vs-ai-automatisering",
   "type": "kennisbank",
   "onderwerp": "robotic process automation",
   "vraagkop": "Wat is robotic process automation (RPA)?",

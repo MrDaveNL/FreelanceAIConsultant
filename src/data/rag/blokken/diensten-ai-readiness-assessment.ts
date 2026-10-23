@@ -1,7 +1,7 @@
 // Geplaatst pilotblok. Teksten op basis van de bestaande paginatekst en prijzen.ts; herzien op 6 oktober 2026
 // na de verificatie (stelligheid van de bron, prijsvoorwaarden uit prijzen.ts). Akkoord bevonden op 8 oktober 2026.
 export default {
-  "pagina": "/diensten/ai-readiness-assessment",
+  "pagina": "/nl/diensten/ai-readiness-assessment",
   "type": "dienst",
   "onderwerp": "AI Readiness Assessment",
   "vraagkop": "Wat levert het AI Readiness Assessment op en wat kost het?",
@@ -22,7 +22,7 @@ export default {
   ],
   "bron": {
     "tekst": "tarieven en doorlooptijden van {{afzender}}",
-    "href": "/tarieven"
+    "href": "/nl/tarieven"
   },
   "bijgewerkt": "2026-10",
   "markup": true

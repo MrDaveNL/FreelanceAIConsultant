@@ -4,6 +4,7 @@
 import { services } from '../data/services.js';
 import { site } from '../data/site.js';
 import { prijsTekst, duurTekst, niveausTekst, voorwaarden } from './rag-prijzen.js';
+import { localeFromPath } from '../data/routes.ts';
 
 // De afzender. Eén plek, zodat de naam overal gelijk is.
 export const afzender = site.name;
@@ -17,7 +18,8 @@ const dienst = (slug) => {
   if (!service) throw new Error(`RAG-blok: onbekende dienst "${slug}"`);
   return service;
 };
-const dienstUrl = (slug) => `/diensten/${slug}`;
+// Diensten-leafslug is gelijk in beide talen; alleen het segment diensten/services wisselt per taal.
+const dienstUrl = (slug, pagina) => (localeFromPath(pagina) === 'nl' ? `/nl/diensten/${slug}` : `/services/${slug}`);
 
 // Maximaal één link per doel-URL binnen een blok en nooit een link naar de eigen pagina.
 // De tabel wordt als eerste gerenderd: staat een doel in een tabelrij, dan is dat de plek van de link.
@@ -46,7 +48,7 @@ const tekst = (ruw, pagina, link) => {
       if (veld === 'afzender' && !slug) return esc(afzender);
       if (veld === 'voorwaarden' && !slug) return esc(voorwaarden);
       if (!slug) throw new Error(`RAG-blok ${pagina}: onbekend token ${token}`);
-      if (veld === 'dienst') return link ? link(dienstUrl(slug), esc(dienst(slug).title)) : esc(dienst(slug).title);
+      if (veld === 'dienst') return link ? link(dienstUrl(slug, pagina), esc(dienst(slug).title)) : esc(dienst(slug).title);
       if (veld === 'title') return esc(dienst(slug).title);
       if (veld === 'timing') return esc(duurTekst(dienst(slug).slug));
       if (veld === 'niveaus' && niveausTekst(dienst(slug).slug)) return esc(niveausTekst(dienst(slug).slug));
@@ -62,7 +64,7 @@ const tekst = (ruw, pagina, link) => {
 const cel = (waarde, pagina, link) => {
   if (typeof waarde === 'string') return tekst(waarde, pagina, link);
   if ('href' in waarde) return link(waarde.href, tekst(waarde.tekst, pagina));
-  if (waarde.veld === 'naam') return link(dienstUrl(waarde.dienst), esc(dienst(waarde.dienst).title));
+  if (waarde.veld === 'naam') return link(dienstUrl(waarde.dienst, pagina), esc(dienst(waarde.dienst).title));
   if (waarde.veld === 'niveaus') return esc(niveausTekst(dienst(waarde.dienst).slug) ?? prijsTekst(dienst(waarde.dienst).slug));
   return esc(waarde.veld === 'prijs' ? prijsTekst(dienst(waarde.dienst).slug) : duurTekst(dienst(waarde.dienst).slug));
 };

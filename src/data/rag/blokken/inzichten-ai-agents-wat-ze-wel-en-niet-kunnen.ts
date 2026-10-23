@@ -1,6 +1,6 @@
 // RAG-blok. Teksten geverifieerd (docs/rag-verificatie.md) en akkoord bevonden op 7 oktober 2026.
 export default {
-  "pagina": "/inzichten/ai-agents-wat-ze-wel-en-niet-kunnen",
+  "pagina": "/nl/inzichten/ai-agents-wat-ze-wel-en-niet-kunnen",
   "type": "kennisbank",
   "onderwerp": "AI-agents",
   "vraagkop": "Voor welke taken zijn AI-agents geschikt en waar gaat het mis?",

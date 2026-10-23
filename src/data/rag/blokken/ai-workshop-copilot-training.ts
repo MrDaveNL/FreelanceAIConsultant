@@ -1,6 +1,6 @@
 // RAG-blok. Teksten geverifieerd (docs/rag-verificatie.md) en akkoord bevonden op 7 oktober 2026.
 export default {
-  "pagina": "/ai-workshop/copilot-training",
+  "pagina": "/nl/ai-workshop/copilot-training",
   "type": "dienstenoverzicht",
   "onderwerp": "Copilot training",
   "vraagkop": "Wat leer je in de Copilot training?",
@@ -20,7 +20,7 @@ export default {
     {
       "vraag": "Is de Copilot training te combineren met een training AI-geletterdheid?",
       "onvoorwaardelijk": true,
-      "antwoord": "Ja. De Copilot training en de [training AI-geletterdheid](/ai-workshop/ai-geletterdheid-training) zijn goed te combineren. De basis onder veilig werken met Copilot, begrijpen hoe AI werkt en waar de risico's zitten, is ook wat de training AI-geletterdheid behandelt."
+      "antwoord": "Ja. De Copilot training en de [training AI-geletterdheid](/nl/ai-workshop/ai-geletterdheid-training) zijn goed te combineren. De basis onder veilig werken met Copilot, begrijpen hoe AI werkt en waar de risico's zitten, is ook wat de training AI-geletterdheid behandelt."
     }
   ],
   "bron": {

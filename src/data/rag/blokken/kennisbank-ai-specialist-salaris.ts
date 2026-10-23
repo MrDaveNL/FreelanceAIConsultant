@@ -1,6 +1,6 @@
 // RAG-blok. Teksten geverifieerd (docs/rag-verificatie.md) en akkoord bevonden op 7 oktober 2026.
 export default {
-  "pagina": "/kennisbank/ai-specialist-salaris",
+  "pagina": "/nl/kennisbank/ai-specialist-salaris",
   "type": "kennisbank",
   "onderwerp": "AI specialist salaris",
   "vraagkop": "Wat zeggen de salarisbronnen over een AI specialist salaris in Nederland?",

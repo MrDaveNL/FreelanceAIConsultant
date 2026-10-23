@@ -1,6 +1,6 @@
 // RAG-blok. Teksten geverifieerd (docs/rag-verificatie.md) en akkoord bevonden op 7 oktober 2026.
 export default {
-  "pagina": "/markten/automotive",
+  "pagina": "/nl/markten/automotive",
   "type": "kennisbank",
   "onderwerp": "AI in automotive",
   "vraagkop": "Wat kan een autobedrijf met AI in automotive en hoe begint het daarmee?",

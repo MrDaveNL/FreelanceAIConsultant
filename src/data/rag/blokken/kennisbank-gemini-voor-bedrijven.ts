@@ -1,6 +1,6 @@
 // RAG-blok. Teksten geverifieerd (docs/rag-verificatie.md) en akkoord bevonden op 7 oktober 2026.
 export default {
-  "pagina": "/kennisbank/gemini-voor-bedrijven",
+  "pagina": "/nl/kennisbank/gemini-voor-bedrijven",
   "type": "kennisbank",
   "onderwerp": "Gemini voor bedrijven",
   "vraagkop": "Wat krijgt een organisatie met Gemini voor bedrijven in Google Workspace?",

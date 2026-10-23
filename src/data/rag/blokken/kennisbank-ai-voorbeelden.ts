@@ -1,6 +1,6 @@
 // RAG-blok. Teksten geverifieerd (docs/rag-verificatie.md) en akkoord bevonden op 7 oktober 2026.
 export default {
-  "pagina": "/kennisbank/ai-voorbeelden",
+  "pagina": "/nl/kennisbank/ai-voorbeelden",
   "type": "kennisbank",
   "onderwerp": "AI voorbeelden",
   "vraagkop": "Welke AI voorbeelden uit de praktijk zijn bruikbaar voor een organisatie?",

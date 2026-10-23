@@ -1,6 +1,6 @@
 // RAG-blok. Teksten geverifieerd (docs/rag-verificatie.md) en akkoord bevonden op 7 oktober 2026.
 export default {
-  "pagina": "/kennisbank/wat-doet-een-ai-consultant",
+  "pagina": "/nl/kennisbank/wat-doet-een-ai-consultant",
   "type": "kennisbank",
   "onderwerp": "AI consultant",
   "vraagkop": "Wat is een AI consultant?",

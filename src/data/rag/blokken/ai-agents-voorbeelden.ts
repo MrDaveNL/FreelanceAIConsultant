@@ -1,6 +1,6 @@
 // RAG-blok. Teksten geverifieerd (docs/rag-verificatie.md) en akkoord bevonden op 7 oktober 2026.
 export default {
-  "pagina": "/ai-agents/voorbeelden",
+  "pagina": "/nl/ai-agents/voorbeelden",
   "type": "kennisbank",
   "onderwerp": "AI agents voorbeelden",
   "vraagkop": "Welke AI agents voorbeelden passen bij klantenservice, sales, HR en finance?",

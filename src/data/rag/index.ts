@@ -84,4 +84,5 @@ for (const blok of blokken) {
     throw new Error(`RAG-blok ${blok.pagina}: dienstfeiten ontbreken in src/data/rag/diensten.ts`);
 }
 
-export const blokVoor = (pagina: string) => blokken.find((b) => b.pagina === pagina);
+// Blokken worden opgezocht op (url, taal); fase 1 heeft alleen taal: 'nl' blokken.
+export const blokVoor = (pagina: string, taal: 'en' | 'nl' = 'nl') => blokken.find((b) => b.pagina === pagina && b.taal === taal);

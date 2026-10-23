@@ -1,6 +1,6 @@
 // RAG-blok. Teksten geverifieerd (docs/rag-verificatie.md) en akkoord bevonden op 7 oktober 2026.
 export default {
-  "pagina": "/ai-voor-bedrijven",
+  "pagina": "/nl/ai-voor-bedrijven",
   "type": "kennisbank",
   "onderwerp": "AI voor bedrijven",
   "vraagkop": "Waar levert AI voor bedrijven in de praktijk het meest op?",

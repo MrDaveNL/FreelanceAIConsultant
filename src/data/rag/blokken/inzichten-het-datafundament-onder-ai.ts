@@ -1,6 +1,6 @@
 // RAG-blok. Teksten geverifieerd (docs/rag-verificatie.md) en akkoord bevonden op 7 oktober 2026.
 export default {
-  "pagina": "/inzichten/het-datafundament-onder-ai",
+  "pagina": "/nl/inzichten/het-datafundament-onder-ai",
   "type": "kennisbank",
   "onderwerp": "datafundament",
   "vraagkop": "Moet het datafundament eerst op orde zijn voordat een organisatie met AI begint?",

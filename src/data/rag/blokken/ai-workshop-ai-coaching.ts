@@ -1,6 +1,6 @@
 // RAG-blok. Teksten geverifieerd (docs/rag-verificatie.md) en akkoord bevonden op 7 oktober 2026.
 export default {
-  "pagina": "/ai-workshop/ai-coaching",
+  "pagina": "/nl/ai-workshop/ai-coaching",
   "type": "dienstenoverzicht",
   "onderwerp": "AI coaching",
   "vraagkop": "Wat is AI coaching?",

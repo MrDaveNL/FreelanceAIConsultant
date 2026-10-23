@@ -1,6 +1,6 @@
 // RAG-blok. Teksten geverifieerd (docs/rag-verificatie.md) en akkoord bevonden op 7 oktober 2026.
 export default {
-  "pagina": "/ai-development/ai-software",
+  "pagina": "/nl/ai-development/ai-software",
   "type": "kennisbank",
   "onderwerp": "AI software",
   "vraagkop": "Wanneer volstaat standaard AI software en wanneer loont maatwerk?",

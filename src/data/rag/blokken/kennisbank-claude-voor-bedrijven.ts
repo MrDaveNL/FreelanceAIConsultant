@@ -1,6 +1,6 @@
 // RAG-blok. Teksten geverifieerd (docs/rag-verificatie.md) en akkoord bevonden op 7 oktober 2026.
 export default {
-  "pagina": "/kennisbank/claude-voor-bedrijven",
+  "pagina": "/nl/kennisbank/claude-voor-bedrijven",
   "type": "kennisbank",
   "onderwerp": "Claude voor bedrijven",
   "vraagkop": "Welk abonnement hoort bij Claude voor bedrijven en waar staat de data?",

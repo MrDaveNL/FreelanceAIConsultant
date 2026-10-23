@@ -1,6 +1,6 @@
 // RAG-blok. Teksten geverifieerd (docs/rag-verificatie.md) en akkoord bevonden op 7 oktober 2026.
 export default {
-  "pagina": "/inzichten/de-business-case-voor-ai",
+  "pagina": "/nl/inzichten/de-business-case-voor-ai",
   "type": "kennisbank",
   "onderwerp": "business case voor AI",
   "vraagkop": "Wat hoort er in een business case voor AI die een jaar later nog standhoudt?",

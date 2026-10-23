@@ -1,6 +1,6 @@
 // RAG-blok. Teksten geverifieerd (docs/rag-verificatie.md) en akkoord bevonden op 7 oktober 2026.
 export default {
-  "pagina": "/ai-automatisering/ai-workflows",
+  "pagina": "/nl/ai-automatisering/ai-workflows",
   "type": "kennisbank",
   "onderwerp": "AI workflow",
   "vraagkop": "Wat is een AI workflow?",

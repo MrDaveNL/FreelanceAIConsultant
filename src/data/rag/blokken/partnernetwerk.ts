@@ -1,6 +1,6 @@
 // RAG-blok. Teksten geverifieerd (docs/rag-verificatie.md) en akkoord bevonden op 7 oktober 2026.
 export default {
-  "pagina": "/partnernetwerk",
+  "pagina": "/nl/partnernetwerk",
   "type": "dienstenoverzicht",
   "onderwerp": "AI bureau",
   "vraagkop": "Waarom geen traditioneel AI bureau?",
@@ -24,7 +24,7 @@ export default {
   ],
   "bron": {
     "tekst": "tarieven en doorlooptijden van {{afzender}}",
-    "href": "/tarieven"
+    "href": "/nl/tarieven"
   },
   "bijgewerkt": "2026-10",
   "markup": true

@@ -1,6 +1,6 @@
 // RAG-blok. Teksten geverifieerd (docs/rag-verificatie.md) en akkoord bevonden op 7 oktober 2026.
 export default {
-  "pagina": "/ai-voor-bedrijven/ai-en-bi",
+  "pagina": "/nl/ai-voor-bedrijven/ai-en-bi",
   "type": "kennisbank",
   "onderwerp": "AI en BI",
   "vraagkop": "Wat is het verschil tussen AI en BI en hoe vullen ze elkaar aan?",

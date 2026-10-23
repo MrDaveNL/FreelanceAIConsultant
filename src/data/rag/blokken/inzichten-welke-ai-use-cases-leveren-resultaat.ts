@@ -1,6 +1,6 @@
 // RAG-blok. Teksten geverifieerd (docs/rag-verificatie.md) en akkoord bevonden op 7 oktober 2026.
 export default {
-  "pagina": "/inzichten/welke-ai-use-cases-leveren-resultaat",
+  "pagina": "/nl/inzichten/welke-ai-use-cases-leveren-resultaat",
   "type": "kennisbank",
   "onderwerp": "AI-use cases",
   "vraagkop": "Waaraan zijn AI-use cases te herkennen die resultaat opleveren?",

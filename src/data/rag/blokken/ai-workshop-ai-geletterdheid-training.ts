@@ -1,6 +1,6 @@
 // RAG-blok. Teksten geverifieerd (docs/rag-verificatie.md) en akkoord bevonden op 7 oktober 2026.
 export default {
-  "pagina": "/ai-workshop/ai-geletterdheid-training",
+  "pagina": "/nl/ai-workshop/ai-geletterdheid-training",
   "type": "dienstenoverzicht",
   "onderwerp": "AI geletterdheid training",
   "vraagkop": "Voldoet een organisatie met een AI geletterdheid training aan de AI Act?",

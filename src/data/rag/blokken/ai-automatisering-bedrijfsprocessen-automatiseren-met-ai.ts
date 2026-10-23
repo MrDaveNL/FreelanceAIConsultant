@@ -1,6 +1,6 @@
 // RAG-blok. Teksten geverifieerd (docs/rag-verificatie.md) en akkoord bevonden op 7 oktober 2026.
 export default {
-  "pagina": "/ai-automatisering/bedrijfsprocessen-automatiseren-met-ai",
+  "pagina": "/nl/ai-automatisering/bedrijfsprocessen-automatiseren-met-ai",
   "type": "kennisbank",
   "onderwerp": "bedrijfsprocessen automatiseren",
   "vraagkop": "Hoe pakt een organisatie bedrijfsprocessen automatiseren met AI stap voor stap aan?",

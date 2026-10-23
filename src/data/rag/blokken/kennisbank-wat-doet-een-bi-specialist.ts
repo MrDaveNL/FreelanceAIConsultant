@@ -1,6 +1,6 @@
 // RAG-blok. Teksten geverifieerd (docs/rag-verificatie.md) en akkoord bevonden op 7 oktober 2026.
 export default {
-  "pagina": "/kennisbank/wat-doet-een-bi-specialist",
+  "pagina": "/nl/kennisbank/wat-doet-een-bi-specialist",
   "type": "kennisbank",
   "onderwerp": "BI specialist",
   "vraagkop": "Wat is een BI specialist?",

@@ -1,6 +1,6 @@
 // RAG-blok. Teksten geverifieerd (docs/rag-verificatie.md) en akkoord bevonden op 7 oktober 2026.
 export default {
-  "pagina": "/inzichten/wanneer-heb-je-echt-een-ai-strateeg-nodig",
+  "pagina": "/nl/inzichten/wanneer-heb-je-echt-een-ai-strateeg-nodig",
   "type": "kennisbank",
   "onderwerp": "AI-strateeg",
   "vraagkop": "In welke situaties loont het om een AI-strateeg in te huren?",

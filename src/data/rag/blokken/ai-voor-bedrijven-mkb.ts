@@ -1,6 +1,6 @@
 // RAG-blok. Teksten geverifieerd (docs/rag-verificatie.md) en akkoord bevonden op 7 oktober 2026.
 export default {
-  "pagina": "/ai-voor-bedrijven/mkb",
+  "pagina": "/nl/ai-voor-bedrijven/mkb",
   "type": "kennisbank",
   "onderwerp": "AI voor het mkb",
   "vraagkop": "Hoe begint een ondernemer met AI voor het mkb zonder groot budget?",

@@ -1,6 +1,6 @@
 // RAG-blok. Teksten geverifieerd (docs/rag-verificatie.md) en akkoord bevonden op 7 oktober 2026.
 export default {
-  "pagina": "/kennisbank/ai-agents-en-avg",
+  "pagina": "/nl/kennisbank/ai-agents-en-avg",
   "type": "kennisbank",
   "onderwerp": "AVG bij AI agents",
   "vraagkop": "Wat vraagt de AVG bij AI agents van een organisatie?",

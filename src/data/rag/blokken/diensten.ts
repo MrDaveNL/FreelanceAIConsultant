@@ -1,6 +1,6 @@
 // RAG-blok. Teksten geverifieerd (docs/rag-verificatie.md) en akkoord bevonden op 7 oktober 2026.
 export default {
-  "pagina": "/diensten",
+  "pagina": "/nl/diensten",
   "type": "dienstenoverzicht",
   "onderwerp": "AI-dienst",
   "vraagkop": "Welke AI-dienst past bij welke situatie?",
@@ -15,7 +15,7 @@ export default {
   ],
   "bron": {
     "tekst": "tarieven en doorlooptijden van {{afzender}}",
-    "href": "/tarieven"
+    "href": "/nl/tarieven"
   },
   "bijgewerkt": "2026-10",
   "markup": true

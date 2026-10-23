@@ -1,6 +1,6 @@
 // RAG-blok. Teksten geverifieerd (docs/rag-verificatie.md) en akkoord bevonden op 7 oktober 2026.
 export default {
-  "pagina": "/diensten/fractional-ai-lead",
+  "pagina": "/nl/diensten/fractional-ai-lead",
   "type": "dienst",
   "onderwerp": "Fractional AI Lead",
   "vraagkop": "Wat kost een Fractional AI Lead en voor wie is die rol bedoeld?",
@@ -20,7 +20,7 @@ export default {
   ],
   "bron": {
     "tekst": "tarieven en doorlooptijden van {{afzender}}",
-    "href": "/tarieven"
+    "href": "/nl/tarieven"
   },
   "bijgewerkt": "2026-10",
   "markup": true

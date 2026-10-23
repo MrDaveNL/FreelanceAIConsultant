@@ -1,6 +1,6 @@
 // RAG-blok. Teksten geverifieerd (docs/rag-verificatie.md) en akkoord bevonden op 7 oktober 2026.
 export default {
-  "pagina": "/kennisbank/microsoft-copilot-voor-bedrijven",
+  "pagina": "/nl/kennisbank/microsoft-copilot-voor-bedrijven",
   "type": "kennisbank",
   "onderwerp": "Microsoft Copilot",
   "vraagkop": "Wat is Microsoft Copilot?",

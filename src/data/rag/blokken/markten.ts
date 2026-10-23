@@ -1,6 +1,6 @@
 // RAG-blok. Teksten geverifieerd (docs/rag-verificatie.md) en akkoord bevonden op 7 oktober 2026.
 export default {
-  "pagina": "/markten",
+  "pagina": "/nl/markten",
   "type": "kennisbank",
   "onderwerp": "AI per branche",
   "vraagkop": "Wat verschilt er bij AI per branche en wat blijft in elke sector gelijk?",
@@ -9,12 +9,12 @@ export default {
   "vervolgvragen": [
     {
       "vraag": "Wanneer gelden de regels voor hoog-risicotoepassingen bij AI per branche?",
-      "antwoord": "Vanaf 2 december 2027 gelden sinds de Digital Omnibus de regels voor hoog-risicotoepassingen, en voor AI in producten als medische hulpmiddelen vanaf 2 augustus 2028; die regels zijn uitgesteld. Bij AI per branche legt de AI Act een laag over de sectorregels heen, met verplichtingen die per toepassing verschillen; de uitwerking staat op de pagina over [de AI Act](/ai-beleid/ai-act)."
+      "antwoord": "Vanaf 2 december 2027 gelden sinds de Digital Omnibus de regels voor hoog-risicotoepassingen, en voor AI in producten als medische hulpmiddelen vanaf 2 augustus 2028; die regels zijn uitgesteld. Bij AI per branche legt de AI Act een laag over de sectorregels heen, met verplichtingen die per toepassing verschillen; de uitwerking staat op de pagina over [de AI Act](/nl/ai-beleid/ai-act)."
     },
     {
       "vraag": "Staan er bij AI per branche voor elke sector cases op de site?",
       "onvoorwaardelijk": true,
-      "antwoord": "Nee. Er staan cases uit financiële dienstverlening, retail, industrie en zakelijke dienstverlening in het [overzicht van cases](/cases). Voor zorg, marketing, automotive, onderwijs, luchtvaart en overheid beschrijven de pagina's over AI per branche de vraagstukken en regels, geen eigen resultaten."
+      "antwoord": "Nee. Er staan cases uit financiële dienstverlening, retail, industrie en zakelijke dienstverlening in het [overzicht van cases](/nl/cases). Voor zorg, marketing, automotive, onderwijs, luchtvaart en overheid beschrijven de pagina's over AI per branche de vraagstukken en regels, geen eigen resultaten."
     },
     {
       "vraag": "Wat laat het AI Readiness Assessment zien, ongeacht de sector?",

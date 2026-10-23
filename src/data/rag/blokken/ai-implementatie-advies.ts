@@ -1,6 +1,6 @@
 // RAG-blok. Teksten geverifieerd (docs/rag-verificatie.md) en akkoord bevonden op 7 oktober 2026.
 export default {
-  "pagina": "/ai-implementatie/advies",
+  "pagina": "/nl/ai-implementatie/advies",
   "type": "dienstenoverzicht",
   "onderwerp": "AI implementatie advies",
   "vraagkop": "Wat levert AI implementatie advies vooraf op en welke dienst past erbij?",
@@ -23,7 +23,7 @@ export default {
     }
   ],
   "bron": {
-    "tekst": "[tarieven en doorlooptijden](/tarieven) van {{afzender}}; primaire bron: Verordening (EU) 2016/679 (AVG), EUR-Lex; Autoriteit Persoonsgegevens: Data protection impact assessment (DPIA) (peildatum 6 oktober 2026)"
+    "tekst": "[tarieven en doorlooptijden](/nl/tarieven) van {{afzender}}; primaire bron: Verordening (EU) 2016/679 (AVG), EUR-Lex; Autoriteit Persoonsgegevens: Data protection impact assessment (DPIA) (peildatum 6 oktober 2026)"
   },
   "externeFeiten": [
     {

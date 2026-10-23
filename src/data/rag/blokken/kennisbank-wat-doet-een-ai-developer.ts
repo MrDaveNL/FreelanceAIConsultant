@@ -1,6 +1,6 @@
 // RAG-blok. Teksten geverifieerd (docs/rag-verificatie.md) en akkoord bevonden op 7 oktober 2026.
 export default {
-  "pagina": "/kennisbank/wat-doet-een-ai-developer",
+  "pagina": "/nl/kennisbank/wat-doet-een-ai-developer",
   "type": "kennisbank",
   "onderwerp": "AI developer",
   "vraagkop": "Wat is een AI developer?",

@@ -1,6 +1,6 @@
 // RAG-blok. Teksten geverifieerd (docs/rag-verificatie.md) en akkoord bevonden op 7 oktober 2026.
 export default {
-  "pagina": "/inzichten/build-buy-of-partner",
+  "pagina": "/nl/inzichten/build-buy-of-partner",
   "type": "kennisbank",
   "onderwerp": "build, buy of partner",
   "vraagkop": "Wanneer kiest een organisatie bij AI voor build, buy of partner?",

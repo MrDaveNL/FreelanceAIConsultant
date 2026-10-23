@@ -1,6 +1,6 @@
 // RAG-blok. Teksten geverifieerd (docs/rag-verificatie.md) en akkoord bevonden op 7 oktober 2026.
 export default {
-  "pagina": "/kennisbank/prompt-engineering",
+  "pagina": "/nl/kennisbank/prompt-engineering",
   "type": "kennisbank",
   "onderwerp": "Prompt engineering",
   "vraagkop": "Wat is prompt engineering?",

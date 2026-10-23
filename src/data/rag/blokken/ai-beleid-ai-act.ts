@@ -1,6 +1,6 @@
 // RAG-blok. Teksten geverifieerd (docs/rag-verificatie.md) en akkoord bevonden op 7 oktober 2026.
 export default {
-  "pagina": "/ai-beleid/ai-act",
+  "pagina": "/nl/ai-beleid/ai-act",
   "type": "kennisbank",
   "onderwerp": "AI Act voor bedrijven",
   "vraagkop": "Wat vraagt de AI Act voor bedrijven nu al en wat geldt pas later?",

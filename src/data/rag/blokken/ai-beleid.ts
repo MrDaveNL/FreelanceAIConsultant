@@ -1,6 +1,6 @@
 // RAG-blok. Teksten geverifieerd (docs/rag-verificatie.md) en akkoord bevonden op 7 oktober 2026.
 export default {
-  "pagina": "/ai-beleid",
+  "pagina": "/nl/ai-beleid",
   "type": "dienstenoverzicht",
   "onderwerp": "AI beleid",
   "vraagkop": "Wat hoort er in een AI beleid en welke dienst past erbij?",
@@ -65,7 +65,7 @@ export default {
     }
   ],
   "bron": {
-    "tekst": "[tarieven en doorlooptijden](/tarieven) van {{afzender}}; primaire bron: Europese Commissie, \"AI Literacy - Questions & Answers\"; Verordening (EU) 2026/1744 (Digitale omnibus inzake AI), EUR-Lex; Europese Commissie, \"AI Omnibus enters into force\" (27 juli 2026) (peildatum 6 oktober 2026)"
+    "tekst": "[tarieven en doorlooptijden](/nl/tarieven) van {{afzender}}; primaire bron: Europese Commissie, \"AI Literacy - Questions & Answers\"; Verordening (EU) 2026/1744 (Digitale omnibus inzake AI), EUR-Lex; Europese Commissie, \"AI Omnibus enters into force\" (27 juli 2026) (peildatum 6 oktober 2026)"
   },
   "externeFeiten": [
     {

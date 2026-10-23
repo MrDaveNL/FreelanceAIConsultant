@@ -1,6 +1,6 @@
 // RAG-blok. Teksten geverifieerd (docs/rag-verificatie.md) en akkoord bevonden op 7 oktober 2026.
 export default {
-  "pagina": "/ai-development/ai-oplossingen",
+  "pagina": "/nl/ai-development/ai-oplossingen",
   "type": "dienstenoverzicht",
   "onderwerp": "AI oplossingen",
   "vraagkop": "Wie bouwt AI oplossingen op maat en welke rol heeft de onafhankelijk adviseur?",
@@ -25,7 +25,7 @@ export default {
   ],
   "bron": {
     "tekst": "tarieven en doorlooptijden van {{afzender}}",
-    "href": "/tarieven"
+    "href": "/nl/tarieven"
   },
   "bijgewerkt": "2026-10",
   "markup": true

@@ -1,6 +1,6 @@
 // RAG-blok. Teksten geverifieerd (docs/rag-verificatie.md) en akkoord bevonden op 7 oktober 2026.
 export default {
-  "pagina": "/ai-consultancy/ai-roadmap",
+  "pagina": "/nl/ai-consultancy/ai-roadmap",
   "type": "kennisbank",
   "onderwerp": "AI roadmap",
   "vraagkop": "Wat is een AI roadmap?",

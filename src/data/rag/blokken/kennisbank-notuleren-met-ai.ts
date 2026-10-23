@@ -1,6 +1,6 @@
 // RAG-blok. Teksten geverifieerd (docs/rag-verificatie.md) en akkoord bevonden op 7 oktober 2026.
 export default {
-  "pagina": "/kennisbank/notuleren-met-ai",
+  "pagina": "/nl/kennisbank/notuleren-met-ai",
   "type": "kennisbank",
   "onderwerp": "notuleren met AI",
   "vraagkop": "Hoe werkt notuleren met AI?",

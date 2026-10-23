@@ -1,6 +1,6 @@
 // RAG-blok. Teksten geverifieerd (docs/rag-verificatie.md) en akkoord bevonden op 7 oktober 2026.
 export default {
-  "pagina": "/ai-agents/wat-is-een-ai-agent",
+  "pagina": "/nl/ai-agents/wat-is-een-ai-agent",
   "type": "kennisbank",
   "onderwerp": "AI agent",
   "vraagkop": "Wat is een AI agent?",

@@ -1,6 +1,6 @@
 // RAG-blok. Teksten geverifieerd (docs/rag-verificatie.md) en akkoord bevonden op 7 oktober 2026.
 export default {
-  "pagina": "/ai-voor-bedrijven/zakelijke-dienstverleners",
+  "pagina": "/nl/ai-voor-bedrijven/zakelijke-dienstverleners",
   "type": "kennisbank",
   "onderwerp": "AI voor zakelijke dienstverleners",
   "vraagkop": "Waar zit de winst van AI voor zakelijke dienstverleners en wat vraagt het aan vertrouwelijkheid?",

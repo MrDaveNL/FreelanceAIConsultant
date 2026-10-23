@@ -1,6 +1,6 @@
 // RAG-blok. Teksten geverifieerd (docs/rag-verificatie.md) en akkoord bevonden op 7 oktober 2026.
 export default {
-  "pagina": "/ai-consultancy/ai-advies",
+  "pagina": "/nl/ai-consultancy/ai-advies",
   "type": "dienstenoverzicht",
   "onderwerp": "AI advies",
   "vraagkop": "Wat kost AI advies en welke vorm past bij welke vraag?",
@@ -19,7 +19,7 @@ export default {
         "Vaste prijs per opdracht",
         {
           "tekst": "Afgebakend advies, te starten met een adviesgesprek",
-          "href": "/contact"
+          "href": "/nl/contact"
         }
       ],
       [
@@ -75,7 +75,7 @@ export default {
     }
   ],
   "bron": {
-    "tekst": "[tarieven en doorlooptijden](/tarieven) van {{afzender}}; primaire bron: Verordening (EU) 2024/1689 (AI-verordening), EUR-Lex (peildatum 6 oktober 2026)"
+    "tekst": "[tarieven en doorlooptijden](/nl/tarieven) van {{afzender}}; primaire bron: Verordening (EU) 2024/1689 (AI-verordening), EUR-Lex (peildatum 6 oktober 2026)"
   },
   "externeFeiten": [
     {

@@ -87,8 +87,10 @@ export const vervolgvraagSchema = z
 
 export const blokSchema = z
   .object({
-    // URL van de pagina waarop het blok staat.
+    // URL van de pagina waarop het blok staat (inclusief /nl- of toekomstig EN-pad).
     pagina: pad,
+    // Taal van het blok. Fase 1: alle 68 bestaande blokken zijn nl; nieuwe EN-blokken zetten dit expliciet.
+    taal: z.enum(['en', 'nl']).default('nl'),
     type: z.enum(['dienst', 'dienstenoverzicht', 'case', 'kennisbank']),
     // De dienst of het onderwerp dat de vraagkop bij naam moet noemen.
     onderwerp: tekst,

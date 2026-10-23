@@ -1,6 +1,6 @@
 // RAG-blok. Teksten geverifieerd (docs/rag-verificatie.md) en akkoord bevonden op 7 oktober 2026.
 export default {
-  "pagina": "/inzichten/ai-governance-zonder-bureaucratie",
+  "pagina": "/nl/inzichten/ai-governance-zonder-bureaucratie",
   "type": "kennisbank",
   "onderwerp": "AI-governance",
   "vraagkop": "Hoe richt een organisatie AI-governance in zonder dat het bureaucratie wordt?",

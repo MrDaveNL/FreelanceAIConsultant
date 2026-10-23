@@ -1,6 +1,6 @@
 // RAG-blok. Teksten geverifieerd (docs/rag-verificatie.md) en akkoord bevonden op 7 oktober 2026.
 export default {
-  "pagina": "/inzichten/waarom-ai-pilots-blijven-steken",
+  "pagina": "/nl/inzichten/waarom-ai-pilots-blijven-steken",
   "type": "kennisbank",
   "onderwerp": "AI-pilots",
   "vraagkop": "Waardoor worden geslaagde AI-pilots zelden opgeschaald naar productie?",

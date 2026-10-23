@@ -1,6 +1,6 @@
 // RAG-blok. Teksten geverifieerd (docs/rag-verificatie.md) en akkoord bevonden op 7 oktober 2026.
 export default {
-  "pagina": "/inzichten/van-ai-strategie-naar-waarde",
+  "pagina": "/nl/inzichten/van-ai-strategie-naar-waarde",
   "type": "kennisbank",
   "onderwerp": "AI-strategie",
   "vraagkop": "Hoe wordt een AI-strategie omgezet in meetbaar resultaat?",

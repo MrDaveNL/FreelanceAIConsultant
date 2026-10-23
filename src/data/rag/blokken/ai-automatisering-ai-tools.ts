@@ -1,6 +1,6 @@
 // RAG-blok. Teksten geverifieerd (docs/rag-verificatie.md) en akkoord bevonden op 7 oktober 2026.
 export default {
-  "pagina": "/ai-automatisering/ai-tools",
+  "pagina": "/nl/ai-automatisering/ai-tools",
   "type": "kennisbank",
   "onderwerp": "beste AI tools",
   "vraagkop": "Wat zijn de beste AI tools voor een bedrijf en waar hangt de keuze van af?",

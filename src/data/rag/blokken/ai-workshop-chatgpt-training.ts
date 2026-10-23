@@ -1,6 +1,6 @@
 // RAG-blok. Teksten geverifieerd (docs/rag-verificatie.md) en akkoord bevonden op 7 oktober 2026.
 export default {
-  "pagina": "/ai-workshop/chatgpt-training",
+  "pagina": "/nl/ai-workshop/chatgpt-training",
   "type": "dienstenoverzicht",
   "onderwerp": "ChatGPT training",
   "vraagkop": "Wat leren deelnemers in een ChatGPT training en hoe is de prijs geregeld?",
@@ -14,7 +14,7 @@ export default {
     },
     {
       "vraag": "Kan de ChatGPT training worden gecombineerd met Copilot?",
-      "antwoord": "Ja, als teams beide gebruiken: de ChatGPT training en de [Copilot training](/ai-workshop/copilot-training) worden dan in één programma gecombineerd."
+      "antwoord": "Ja, als teams beide gebruiken: de ChatGPT training en de [Copilot training](/nl/ai-workshop/copilot-training) worden dan in één programma gecombineerd."
     },
     {
       "vraag": "Wordt de ChatGPT training ook in het Engels gegeven?",
