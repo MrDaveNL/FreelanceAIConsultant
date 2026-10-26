@@ -6,9 +6,10 @@ Updated as each page goes live (route map `live.en: true`).
 
 ## Home (`/`)
 
-- **Main EN keyword:** independent AI consultant
-- **Meta title:** Independent AI Consultant for Boards & Leaders
-- **Meta description:** Independent AI advisory for CIOs, CDOs and AI leads. I help decide where AI creates real value, which vendors fit, and how pilots turn into results.
+- **Main EN keyword:** freelance AI consultant
+- **Meta title:** Freelance AI Consultant | From AI Strategy to Results
+- **Meta description:** Freelance AI consultant helping CIOs, CDOs and AI leads decide where AI creates real value, which vendors fit, and how pilots turn into results.
+- **Audience:** kept aligned with the NL home, which already targets CIO's, CDO's en AI-leads and board-level decision-making ("de AI-beslissingen die je aan je board moet uitleggen") — so no audience-framing change was needed, only the keyword/title/description pivot from "independent AI consultant" to "freelance AI consultant" (`site.brand` in `src/data/site.js` is already "Freelance AI Consultant").
 - **Adaptation notes:**
   - Hero, hub-section headings and CTA copy are adapted to English B2B search intent, not literal translations of the NL home (e.g. "Maak de AI-beslissingen die je aan je board moet uitleggen" → "Make the AI decisions you have to defend to your board").
   - Metrics (`metricsEn` in `src/data/site.js`): same facts as NL, reformatted to English number notation (€2,1M+ → €2.1M+, decimal point instead of comma). No values changed.
