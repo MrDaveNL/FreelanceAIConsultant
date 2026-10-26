@@ -51,5 +51,10 @@ export const en = {
     asideCtaTitle: 'Want to know where you stand with AI?',
     asideCtaLink: 'See the AI Readiness Assessment →',
     ctaDefaultTitle: 'From AI ambition to real results.',
+    sources: 'Sources',
+    writtenBy: 'Written by',
+    writtenByRole: 'independent AI consultant',
+    published: 'published',
+    updated: 'updated',
   },
 } as const;

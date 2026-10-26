@@ -102,9 +102,9 @@ export const routes: RouteEntry[] = [
   r('C3-04', 'content', '/ai-automatisering/ai-workflows', '/ai-automation/ai-workflows', { cluster: 'ai-automatisering' }),
   r('C3-03', 'content', '/ai-automatisering/bedrijfsprocessen-automatiseren-met-ai', '/ai-automation/automate-business-processes-with-ai', { cluster: 'ai-automatisering' }),
 
-  r('C4-00', 'content', '/ai-voor-bedrijven', '/ai-for-business', { cluster: 'ai-voor-bedrijven' }),
+  r('C4-00', 'content', '/ai-voor-bedrijven', '/ai-for-business', { cluster: 'ai-voor-bedrijven', liveEn: true }),
   r('C4-03', 'content', '/ai-voor-bedrijven/ai-en-bi', '/ai-for-business/ai-and-bi', { cluster: 'ai-voor-bedrijven' }),
-  r('C4-01', 'content', '/ai-voor-bedrijven/mkb', '/ai-for-business/sme', { cluster: 'ai-voor-bedrijven' }),
+  r('C4-01', 'content', '/ai-voor-bedrijven/mkb', '/ai-for-business/sme', { cluster: 'ai-voor-bedrijven', liveEn: true }),
   r('C4-02', 'content', '/ai-voor-bedrijven/zakelijke-dienstverleners', '/ai-for-business/professional-services-firms', { cluster: 'ai-voor-bedrijven' }),
 
   r('C5-00', 'content', '/ai-development', '/ai-development', { cluster: 'ai-development' }),

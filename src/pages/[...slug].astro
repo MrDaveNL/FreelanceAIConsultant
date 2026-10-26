@@ -176,9 +176,9 @@ const schema = { '@context': 'https://schema.org', '@graph': graph };
           </div>
           {isArticle && (
             <p class="cp-meta">
-              Geschreven door <a href={overHref}>{site.name}</a>, onafhankelijk AI consultant ·
-              gepubliceerd <time datetime={page.published}>{formatDate(page.published)}</time>
-              {page.updated !== page.published && <> · bijgewerkt <time datetime={page.updated}>{formatDate(page.updated)}</time></>}
+              {dict.contentPage.writtenBy} <a href={overHref}>{site.name}</a>, {dict.contentPage.writtenByRole} ·
+              {dict.contentPage.published} <time datetime={page.published}>{formatDate(page.published)}</time>
+              {page.updated !== page.published && <> · {dict.contentPage.updated} <time datetime={page.updated}>{formatDate(page.updated)}</time></>}
             </p>
           )}
         </div>
@@ -253,7 +253,7 @@ const schema = { '@context': 'https://schema.org', '@graph': graph };
     {page.sources?.length > 0 && (
       <section class="section-sm cp-sources">
         <div class="container cp-narrow">
-          <h2 class="h3">Bronnen</h2>
+          <h2 class="h3">{dict.contentPage.sources}</h2>
           <ul>{page.sources.map((s) => <li><a href={s.url} rel="noopener" target="_blank">{s.title}</a></li>)}</ul>
         </div>
       </section>

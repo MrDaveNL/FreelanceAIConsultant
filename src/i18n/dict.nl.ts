@@ -51,5 +51,10 @@ export const nl = {
     asideCtaTitle: 'Weten waar je staat met AI?',
     asideCtaLink: 'Bekijk het AI Readiness Assessment →',
     ctaDefaultTitle: 'Van AI-ambitie naar concrete resultaten.',
+    sources: 'Bronnen',
+    writtenBy: 'Geschreven door',
+    writtenByRole: 'onafhankelijk AI consultant',
+    published: 'gepubliceerd',
+    updated: 'bijgewerkt',
   },
 } as const;
