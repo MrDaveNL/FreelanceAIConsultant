@@ -23,18 +23,12 @@ const nlHref = routeById('privacy')!.paths.nl;
 
   <section class="section-sm">
     <div class="container legal-prose">
-      <div class="legal-note">
-        <b>Still to be completed before going live</b>
-        The VAT identification number and place of business below are still placeholder values. Replace them in <code>src/data/site.js</code> and have this policy reviewed against your actual processing activities before the site goes public.
-      </div>
-
       <h2>1. Who is responsible?</h2>
       <p>The data controller for the processing of personal data via this website is:</p>
       <ul>
         <li>{site.legal.entity}, trading as {site.domain}</li>
         <li>Based in {site.legal.city}, the Netherlands</li>
         <li>Chamber of Commerce (KvK) number: {site.legal.kvk}</li>
-        <li>VAT identification number: {site.legal.btw}</li>
         <li>Email: <a href={`mailto:${site.email}`}>{site.email}</a></li>
       </ul>
 

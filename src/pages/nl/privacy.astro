@@ -20,18 +20,12 @@ const updated = '22 september 2026';
 
   <section class="section-sm">
     <div class="container legal-prose">
-      <div class="legal-note">
-        <b>Nog in te vullen vóór livegang</b>
-        Het btw-identificatienummer en de vestigingsplaats hieronder staan nog op voorbeeldwaarden. Vervang ze in <code>src/data/site.js</code> en laat deze verklaring toetsen aan je feitelijke verwerkingen voordat de site publiek gaat.
-      </div>
-
       <h2>1. Wie is verantwoordelijk?</h2>
       <p>Verwerkingsverantwoordelijke voor de verwerking van persoonsgegevens via deze website is:</p>
       <ul>
         <li>{site.legal.entity}, handelend onder de naam {site.domain}</li>
         <li>Gevestigd te {site.legal.city}, {site.legal.country}</li>
         <li>KvK-nummer: {site.legal.kvk}</li>
-        <li>Btw-identificatienummer: {site.legal.btw}</li>
         <li>E-mail: <a href={`mailto:${site.email}`}>{site.email}</a></li>
       </ul>
 

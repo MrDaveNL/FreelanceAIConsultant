@@ -2,15 +2,28 @@
   "url": "/privacy",
   "build_bestand": "dist/privacy/index.html",
   "html": {
-    "bytes": 22641,
+    "bytes": 22733,
     "lang": "nl"
   },
   "beschermd": {
     "title": "Privacyverklaring | Freelance AI Consultant",
     "meta_description": "Hoe freelanceaiconsultant.com omgaat met persoonsgegevens: welke gegevens worden verwerkt, waarom, hoe lang en welke rechten je hebt.",
-    "canonical": "https://freelanceaiconsultant.com/privacy",
+    "canonical": "https://freelanceaiconsultant.com/nl/privacy",
     "robots_meta": null,
-    "hreflang": [],
+    "hreflang": [
+      {
+        "hreflang": "en",
+        "href": "https://freelanceaiconsultant.com/privacy"
+      },
+      {
+        "hreflang": "nl",
+        "href": "https://freelanceaiconsultant.com/nl/privacy"
+      },
+      {
+        "hreflang": "x-default",
+        "href": "https://freelanceaiconsultant.com/privacy"
+      }
+    ],
     "h1": [
       "Privacyverklaring"
     ]
@@ -21,7 +34,7 @@
     "og:site_name": "freelanceaiconsultant.com",
     "og:title": "Privacyverklaring | Freelance AI Consultant",
     "og:description": "Hoe freelanceaiconsultant.com omgaat met persoonsgegevens: welke gegevens worden verwerkt, waarom, hoe lang en welke rechten je hebt.",
-    "og:url": "https://freelanceaiconsultant.com/privacy",
+    "og:url": "https://freelanceaiconsultant.com/nl/privacy",
     "og:image": "https://freelanceaiconsultant.com/images/dave-portrait.jpg",
     "twitter:card": "summary_large_image",
     "twitter:title": "Privacyverklaring | Freelance AI Consultant",
@@ -122,8 +135,8 @@
   ],
   "bodytekst": {
     "regio": "main",
-    "woorden": 731,
-    "sha256": "83c3e771bb2daf0c9a01f6ace301e3e961adcde053001224d96e08a1b5a1d9ec",
+    "woorden": 693,
+    "sha256": "f9e4631dd33f120f603dd8a62a588ea17f000f1b1f83e6f655df022b5e1e74ea",
     "blokken": [
       "← Terug naar home",
       "Juridisch",
@@ -188,13 +201,11 @@
       "Proces & productivity",
       "Zakelijke dienstverlener",
       "Interne AI-assistent voor kenniswerkers",
-      "Nog in te vullen vóór livegang Het btw-identificatienummer en de vestigingsplaats hieronder staan nog op voorbeeldwaarden. Vervang ze in src/data/site.js en laat deze verklaring toetsen aan je feitelijke verwerkingen voordat de site publiek gaat.",
       "1. Wie is verantwoordelijk?",
       "Verwerkingsverantwoordelijke voor de verwerking van persoonsgegevens via deze website is:",
       "4AP Digital, handelend onder de naam freelanceaiconsultant.com",
       "Gevestigd te Amsterdam, Nederland",
       "KvK-nummer: 86608789",
-      "Btw-identificatienummer: NL000000000B00",
       "E-mail: dave@freelanceaiconsultant.com",
       "2. Welke gegevens worden verwerkt?",
       "Contact- en intakeformulier",
@@ -250,56 +261,63 @@
     {
       "regio": "header",
       "soort": "intern",
-      "href": "/",
+      "href": "/nl",
       "anker": "",
       "rel": null
     },
     {
       "regio": "header",
       "soort": "intern",
-      "href": "/diensten",
+      "href": "/nl/diensten",
       "anker": "Diensten",
       "rel": null
     },
     {
       "regio": "header",
       "soort": "intern",
-      "href": "/cases",
+      "href": "/nl/cases",
       "anker": "Cases",
       "rel": null
     },
     {
       "regio": "header",
       "soort": "intern",
-      "href": "/werkwijze",
+      "href": "/nl/werkwijze",
       "anker": "Werkwijze",
       "rel": null
     },
     {
       "regio": "header",
       "soort": "intern",
-      "href": "/inzichten",
+      "href": "/nl/inzichten",
       "anker": "Inzichten",
       "rel": null
     },
     {
       "regio": "header",
       "soort": "intern",
-      "href": "/over",
+      "href": "/nl/over",
       "anker": "Over mij",
       "rel": null
     },
     {
       "regio": "header",
       "soort": "intern",
-      "href": "/contact",
+      "href": "/privacy",
+      "anker": "EN",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/nl/contact",
       "anker": "Plan een gesprek →",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/",
+      "href": "/nl",
       "anker": "← Terug naar home",
       "rel": null
     },
@@ -327,147 +345,147 @@
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/diensten/ai-readiness-assessment",
+      "href": "/nl/diensten/ai-readiness-assessment",
       "anker": "AI Readiness Assessment",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/diensten/ai-strategy-sprint",
+      "href": "/nl/diensten/ai-strategy-sprint",
       "anker": "AI Strategy Sprint",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/diensten/fractional-ai-lead",
+      "href": "/nl/diensten/fractional-ai-lead",
       "anker": "Fractional AI Lead",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/diensten",
+      "href": "/nl/diensten",
       "anker": "Alle diensten",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/cases",
+      "href": "/nl/cases",
       "anker": "Cases",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/werkwijze",
+      "href": "/nl/werkwijze",
       "anker": "Werkwijze",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/inzichten",
+      "href": "/nl/inzichten",
       "anker": "Inzichten",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/veelgestelde-vragen",
+      "href": "/nl/veelgestelde-vragen",
       "anker": "Veelgestelde vragen",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/over",
+      "href": "/nl/over",
       "anker": "Over mij",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-consultancy",
+      "href": "/nl/ai-consultancy",
       "anker": "AI consultancy",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-implementatie",
+      "href": "/nl/ai-implementatie",
       "anker": "AI implementatie",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-automatisering",
+      "href": "/nl/ai-automatisering",
       "anker": "AI automatisering",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-voor-bedrijven",
+      "href": "/nl/ai-voor-bedrijven",
       "anker": "AI voor bedrijven",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-development",
+      "href": "/nl/ai-development",
       "anker": "AI development",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-agents",
+      "href": "/nl/ai-agents",
       "anker": "AI agents",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-beleid",
+      "href": "/nl/ai-beleid",
       "anker": "AI beleid",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-workshop",
+      "href": "/nl/ai-workshop",
       "anker": "AI workshop",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/markten",
+      "href": "/nl/markten",
       "anker": "AI per branche",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/kennisbank",
+      "href": "/nl/kennisbank",
       "anker": "Kennisbank",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/tarieven",
+      "href": "/nl/tarieven",
       "anker": "Tarieven",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/partnernetwerk",
+      "href": "/nl/partnernetwerk",
       "anker": "Partnernetwerk",
       "rel": null
     },
@@ -488,27 +506,27 @@
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/contact",
+      "href": "/nl/contact",
       "anker": "Plan een gesprek",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/privacy",
+      "href": "/nl/privacy",
       "anker": "Privacyverklaring",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/algemene-voorwaarden",
+      "href": "/nl/algemene-voorwaarden",
       "anker": "Algemene voorwaarden",
       "rel": null
     }
   ],
   "structured_data": {
-    "sha256": "2dfb979a104281e60251fc924f2bcf5cf76cd68112aa5da8b02919cfff1e6edc",
+    "sha256": "9c062c4aa20c070945eec0dafcef7624731981be4161f83a9fbd374636e02997",
     "items": [
       {
         "@context": "https://schema.org",
@@ -518,6 +536,7 @@
         "image": "https://freelanceaiconsultant.com/images/dave-portrait.jpg",
         "email": "dave@freelanceaiconsultant.com",
         "description": "Hoe freelanceaiconsultant.com omgaat met persoonsgegevens: welke gegevens worden verwerkt, waarom, hoe lang en welke rechten je hebt.",
+        "inLanguage": "nl-NL",
         "areaServed": [
           "NL",
           "BE",
@@ -564,11 +583,11 @@
     ],
     "stylesheets": [
       "https://fonts.googleapis.com/css2?family=Caveat:wght@600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap",
-      "/_astro/_slug_.bq6BBoZ5.css",
+      "/_astro/_slug_.BzqUXH8l.css",
       "/logo-carousel/logo-carousel.css?v=2"
     ],
     "aantal_details": 0,
     "aantal_tabellen": 1
   },
-  "gemeten_op": "2026-10-06"
+  "gemeten_op": "2026-10-26"
 }

@@ -21,11 +21,9 @@ export const site = {
   formEndpoint: '',
   newsletterEndpoint: '',
   // Alleen gebruikt in de privacyverklaring, de algemene voorwaarden en de footer.
-  // TODO vóór livegang: btw-nummer en vestigingsplaats staan nog op voorbeeldwaarden.
   legal: {
     entity: '4AP Digital',
     kvk: '86608789',
-    btw: 'NL000000000B00',
     city: 'Amsterdam',
     country: 'Nederland',
   },
