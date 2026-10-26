@@ -42,7 +42,7 @@ export const routes: RouteEntry[] = [
   r('werkwijze', 'static', '/werkwijze', '/approach', { liveEn: true }),
   r('inzichten', 'static', '/inzichten', '/insights', {}),
   r('over', 'static', '/over', '/about', { liveEn: true }),
-  r('contact', 'static', '/contact', '/contact', {}),
+  r('contact', 'static', '/contact', '/contact', { liveEn: true }),
   r('veelgestelde-vragen', 'static', '/veelgestelde-vragen', '/faq', {}),
   r('privacy', 'static', '/privacy', '/privacy', {}),
   r('algemene-voorwaarden', 'static', '/algemene-voorwaarden', '/terms', {}),

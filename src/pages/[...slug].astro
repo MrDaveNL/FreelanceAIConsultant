@@ -5,7 +5,7 @@ import Accordion from '../components/Accordion.astro';
 import CTA from '../components/CTA.astro';
 import { site } from '../data/site.js';
 import { services } from '../data/services.js';
-import { resolveToken } from '../lib/service-tokens.js';
+import { resolveToken, resolveContactHref } from '../lib/service-tokens.js';
 import { protectedUrls } from '../data/protected-urls.js';
 import { routeById } from '../data/routes';
 import { t, localeFromPath, SCHEMA_LANG } from '../i18n';
@@ -36,6 +36,8 @@ const page = {
   lede: tokenize(entry.data.lede),
   summary: entry.data.summary?.map(tokenize),
   faq: entry.data.faq?.map(({ q, a }) => ({ q: tokenize(q), a: tokenize(a) })),
+  primaryCta: entry.data.primaryCta && { ...entry.data.primaryCta, href: resolveContactHref(entry.data.primaryCta.href, locale) },
+  secondaryCta: entry.data.secondaryCta && { ...entry.data.secondaryCta, href: resolveContactHref(entry.data.secondaryCta.href, locale) },
 };
 const { Content } = await render(entry);
 const byUrl = new Map(all.map((e) => [e.data.url, e.data]));

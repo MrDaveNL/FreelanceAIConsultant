@@ -1,0 +1,188 @@
+---
+// EN-only counterpart to ContactForm.astro. Kept as a separate file, not a locale branch inside
+// the shared component: the NL page's inline <script> bytes are checked byte-for-byte by
+// planning/check-nulmeting.mjs, so NL's form must never change when EN copy changes here.
+import { site } from '../data/site.js';
+const endpoint = site.formEndpoint || (site.formAccessKey ? 'https://api.web3forms.com/submit' : '');
+---
+<form class="contact-form" data-contact-form data-endpoint={endpoint} data-access-key={site.formAccessKey} data-site={site.domain} data-mailto={site.email} data-locale="en" novalidate>
+  <input type="hidden" name="locale" value="en" />
+  <div class="field">
+    <label for="name">Name <span aria-hidden="true">*</span></label>
+    <input id="name" name="name" autocomplete="name" required />
+    <small class="error" data-error-for="name" hidden>Please enter your name.</small>
+  </div>
+  <div class="field">
+    <label for="role">Role</label>
+    <input id="role" name="role" autocomplete="organization-title" placeholder="e.g. CIO, CFO, AI lead" />
+  </div>
+  <div class="field">
+    <label for="company">Organization</label>
+    <input id="company" name="company" autocomplete="organization" />
+  </div>
+  <div class="field">
+    <label for="email">Email address <span aria-hidden="true">*</span></label>
+    <input id="email" name="email" type="email" autocomplete="email" required />
+    <small class="error" data-error-for="email" hidden>Please enter a valid email address.</small>
+  </div>
+  <div class="field full">
+    <label for="challenge">What are you running into? <span aria-hidden="true">*</span></label>
+    <textarea id="challenge" name="challenge" rows="5" required placeholder="Briefly describe your challenge or question."></textarea>
+    <small class="error" data-error-for="challenge" hidden>Briefly describe your question.</small>
+  </div>
+  <div class="field">
+    <label for="timeline">Timeline</label>
+    <select id="timeline" name="timeline">
+      <option value="">Choose a timeframe</option>
+      <option>As soon as possible</option>
+      <option>0-3 months</option>
+      <option>3-6 months</option>
+      <option>6+ months</option>
+      <option>Still exploring</option>
+    </select>
+  </div>
+  <div class="field">
+    <label for="budget">Budget indication</label>
+    <select id="budget" name="budget">
+      <option value="">Choose a range</option>
+      <option>Up to €10k</option>
+      <option>€10-25k</option>
+      <option>€25-50k</option>
+      <option>€50k+</option>
+      <option>Not yet known</option>
+    </select>
+  </div>
+  <div class="field full hp" aria-hidden="true">
+    <label for="company-website">Leave this field empty</label>
+    <input id="company-website" name="company-website" tabindex="-1" autocomplete="off" />
+  </div>
+  <button class="btn" type="submit">Send request →</button>
+  <p class="form-note full">You will get a reply within one business day. Prefer to email directly? <a href={`mailto:${site.email}`}>{site.email}</a></p>
+  <p class="form-status full" data-form-status role="status" hidden></p>
+</form>
+<script>
+  document.querySelectorAll('[data-contact-form]').forEach((form) => {
+    const status = form.querySelector('[data-form-status]');
+    const endpoint = form.getAttribute('data-endpoint');
+    const accessKey = form.getAttribute('data-access-key');
+    const siteName = form.getAttribute('data-site');
+    const mailto = form.getAttribute('data-mailto');
+
+    const showError = (field, show) => {
+      const hint = form.querySelector(`[data-error-for="${field.name}"]`);
+      if (hint) hint.hidden = !show;
+      field.setAttribute('aria-invalid', show ? 'true' : 'false');
+    };
+
+    const validate = () => {
+      let firstInvalid = null;
+      form.querySelectorAll('[required]').forEach((field) => {
+        const invalid = !field.value.trim() || (field.type === 'email' && !field.checkValidity());
+        showError(field, invalid);
+        if (invalid && !firstInvalid) firstInvalid = field;
+      });
+      return firstInvalid;
+    };
+
+    form.querySelectorAll('[required]').forEach((field) => {
+      field.addEventListener('blur', () => {
+        const invalid = !field.value.trim() || (field.type === 'email' && !field.checkValidity());
+        showError(field, invalid);
+      });
+    });
+
+    form.addEventListener('submit', async (event) => {
+      event.preventDefault();
+      if (form.querySelector('[name="company-website"]').value) return; // honeypot
+
+      const firstInvalid = validate();
+      if (firstInvalid) {
+        firstInvalid.focus();
+        return;
+      }
+
+      const data = Object.fromEntries(new FormData(form).entries());
+      delete data['company-website'];
+      const button = form.querySelector('button[type="submit"]');
+      const localeTag = `[${(data.locale || 'en').toUpperCase()}]`;
+
+      if (endpoint) {
+        button.disabled = true;
+        const original = button.textContent;
+        button.textContent = 'Sending…';
+        // Field keys are the labels in the incoming email; kept in Dutch (Dave reads the inbox, not the visitor).
+        const payload = {
+          subject: `${localeTag} Aanvraag via ${siteName}: ${data.name}${data.company ? ` (${data.company})` : ''}`,
+          from_name: data.name,
+          name: data.name,
+          email: data.email,
+          Functie: data.role || '-',
+          Organisatie: data.company || '-',
+          Tijdlijn: data.timeline || '-',
+          Budgetindicatie: data.budget || '-',
+          Vraagstuk: data.challenge,
+        };
+        if (accessKey) payload.access_key = accessKey;
+        try {
+          const response = await fetch(endpoint, {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json', Accept: 'application/json' },
+            body: JSON.stringify(payload),
+          });
+          if (!response.ok) throw new Error(String(response.status));
+          const result = await response.json().catch(() => ({}));
+          if (result.success === false) throw new Error(result.message);
+          form.reset();
+          status.hidden = false;
+          status.className = 'form-status full is-ok';
+          status.textContent = 'Thank you. Your request has been sent. You will get a reply within one business day.';
+        } catch {
+          status.hidden = false;
+          status.className = 'form-status full is-error';
+          status.innerHTML = `Sending failed. Feel free to email your question directly to <a href="mailto:${mailto}">${mailto}</a>.`;
+        } finally {
+          button.disabled = false;
+          button.textContent = original;
+        }
+        return;
+      }
+
+      // No endpoint configured: open a pre-filled email instead.
+      const lines = [
+        `Name: ${data.name}`,
+        `Role: ${data.role || '-'}`,
+        `Organization: ${data.company || '-'}`,
+        `Email: ${data.email}`,
+        `Timeline: ${data.timeline || '-'}`,
+        `Budget indication: ${data.budget || '-'}`,
+        '',
+        'Question:',
+        data.challenge,
+      ].join('\n');
+      const href = `mailto:${mailto}?subject=${encodeURIComponent(`${localeTag} Request via ${siteName}`)}&body=${encodeURIComponent(lines)}`;
+      window.location.href = href;
+      status.hidden = false;
+      status.className = 'form-status full is-ok';
+      status.textContent = 'Your email program will open with a pre-filled message. Send it to complete your request.';
+    });
+  });
+</script>
+<style>
+.contact-form{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+.field{display:flex;flex-direction:column;gap:6px}
+.full{grid-column:1/-1}
+.field label{font-size:.78rem;font-weight:800;color:var(--burgundy)}
+.field label span{color:var(--salmon)}
+input,textarea,select{width:100%;border:1px solid rgba(74,31,42,.22);background:rgba(255,250,241,.72);padding:13px 14px;border-radius:7px;color:var(--ink);outline:none}
+input:focus,textarea:focus,select:focus{border-color:var(--burgundy);box-shadow:0 0 0 3px rgba(239,124,108,.18)}
+[aria-invalid='true']{border-color:#b3413a}
+.error{color:#b3413a;font-size:.74rem;font-weight:600}
+.hp{position:absolute;left:-9999px;width:1px;height:1px;overflow:hidden}
+button{width:max-content;margin-top:8px}
+.form-note{font-size:.78rem;color:var(--muted);margin:0}
+.form-note a{border-bottom:1px solid var(--line)}
+.form-status{margin:0;padding:14px 16px;border-radius:9px;font-size:.86rem;font-weight:600}
+.form-status.is-ok{background:var(--aqua);color:var(--burgundy-deep)}
+.form-status.is-error{background:var(--salmon);color:var(--burgundy-deep)}
+@media(max-width:600px){.contact-form{grid-template-columns:1fr}.full{grid-column:auto}}
+</style>

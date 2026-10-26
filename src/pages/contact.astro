@@ -1,0 +1,129 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import ContactForm from '../components/ContactFormEn.astro';
+import Accordion from '../components/Accordion.astro';
+import { site, availabilityEn } from '../data/site.js';
+import { routeById } from '../data/routes';
+
+const expectations = [
+  ['30 minutes', 'Online or on site. Short enough to fit in your calendar, long enough to actually get somewhere.'],
+  ['No pitch deck', 'I do not present anything. You describe what you are running into, I ask questions.'],
+  ['An honest answer', 'At the end I say what I would do, even if that means you do not need me.'],
+  ['No obligations', 'No proposal unless you ask for one, and no automatic follow-up.'],
+];
+
+const quickFaq = [
+  ['How quickly do I get a reply?', 'Within one business day. If it takes longer, I am on site with a client. Then you will hear from me the day after at the latest.'],
+  ['What do you need from me for a good conversation?', 'Nothing in advance. A few sentences about your situation are enough. You can send documents after the call, if that turns out to be useful.'],
+  ['Can I call instead?', 'Send an email with a few times that suit you, and I will call you. That way you do not have to guess when I pick up.'],
+  ['I do not know yet if this is for us.', 'That is exactly what this conversation is for. A good share of these calls do not lead to an engagement, and that is fine.'],
+];
+
+const faqEntry = routeById('veelgestelde-vragen');
+const faqHref = faqEntry?.live.en ? faqEntry.paths.en : null;
+const privacyEntry = routeById('privacy');
+const privacyHref = privacyEntry?.live.en ? privacyEntry.paths.en : null;
+
+const schema = {
+  '@context': 'https://schema.org',
+  '@type': 'ContactPage',
+  name: 'Contact',
+  url: `${site.url}/contact`,
+  mainEntity: {
+    '@type': 'Person',
+    name: site.name,
+    email: site.email,
+    jobTitle: site.role,
+    sameAs: [site.linkedin],
+  },
+};
+---
+<BaseLayout
+  title={`Contact a Freelance AI Consultant | ${site.brand}`}
+  description="Book a free, no-obligation 30-minute call about your AI question. No pitch, just sharp questions and an honest answer about what I would do next."
+  schema={schema}
+>
+  <section class="contact-hero section-sm">
+    <div class="container hero-grid">
+      <div>
+        <p class="eyebrow">Contact</p>
+        <h1 class="h1">Let's <span class="marker">talk.</span></h1>
+        <p class="lede">Tell me briefly what you are running into. You will get a reply within one business day, from me, not from an assistant or a scheduling tool.</p>
+        <div class="direct">
+          <a class="direct-item" href={`mailto:${site.email}`}>
+            <span class="icon-dot" aria-hidden="true">✉</span>
+            <div><b>Email</b><span>{site.email}</span></div>
+          </a>
+          <a class="direct-item" href={site.linkedin} rel="noopener">
+            <span class="icon-dot" aria-hidden="true">in</span>
+            <div><b>LinkedIn</b><span>Send a message ↗</span></div>
+          </a>
+        </div>
+        <p class="availability"><b>Availability:</b> {availabilityEn}</p>
+      </div>
+      <div class="expect card">
+        <p class="eyebrow">What you can expect</p>
+        {expectations.map(([title, text]) => (
+          <div class="expect-row"><span class="icon-dot" aria-hidden="true">✓</span><div><b>{title}</b><p>{text}</p></div></div>
+        ))}
+        <span class="sticker sticker--salmon">No sales pitch.<br/>Just a good conversation.</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="section-sm form-section">
+    <div class="container form-grid">
+      <div class="intro">
+        <p class="eyebrow">Intake form</p>
+        <h2 class="h2">Tell me briefly about<br/>your <span class="marker">challenge.</span></h2>
+        <p>The more concrete your question, the sharper my first response. Not sure yet exactly what it is? That is a fine starting point too. Just write that down.</p>
+        <ul class="checks">
+          <li>Only your name, email and question are required.</li>
+          <li>Timeline and budget help me judge what is realistic.</li>
+          {privacyHref
+            ? <li>Your details go nowhere else. See the <a href={privacyHref}>privacy policy</a>.</li>
+            : <li>Your details go nowhere else.</li>}
+        </ul>
+      </div>
+      <div class="form-card card">
+        <ContactForm />
+      </div>
+    </div>
+  </section>
+
+  <section class="section-sm faq-section">
+    <div class="container faq-inner">
+      <div>
+        <p class="eyebrow">Before you email</p>
+        <h2 class="h2">Four questions<br/>answered upfront.</h2>
+        {faqHref && <a class="text-link" href={faqHref}>All frequently asked questions →</a>}
+      </div>
+      <Accordion items={quickFaq} name="contact-faq" />
+    </div>
+  </section>
+</BaseLayout>
+<style>
+.contact-hero{padding-top:52px}
+.hero-grid{display:grid;grid-template-columns:1.1fr .9fr;gap:54px;align-items:start}
+.direct{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin:32px 0 22px}
+.direct-item{display:grid;grid-template-columns:auto 1fr;gap:14px;align-items:center;padding:18px;border:1px solid var(--line);border-radius:14px;background:rgba(255,250,241,.62);transition:transform .2s ease,background .2s}
+.direct-item:hover{transform:translateY(-3px);background:rgba(255,250,241,.95)}
+.direct-item b{display:block;color:var(--burgundy);font-size:.9rem}
+.direct-item span:last-child{font-size:.8rem;color:var(--muted)}
+.direct-item .icon-dot{font-size:.82rem}
+.availability{font-size:.86rem;color:var(--muted)}
+.expect{padding:34px;box-shadow:none;position:relative}
+.expect-row{display:grid;grid-template-columns:auto 1fr;gap:14px;padding:14px 0;border-bottom:1px solid var(--line)}
+.expect-row b{color:var(--burgundy);font-size:.95rem}
+.expect-row p{margin:4px 0 0;font-size:.82rem}
+.expect .sticker{display:inline-block;margin-top:26px;font-family:'Caveat',cursive;text-transform:none;font-size:1.18rem;line-height:1.1}
+.form-section{background:var(--cream-2)}
+.form-grid{display:grid;grid-template-columns:.8fr 1.2fr;gap:50px;align-items:start}
+.intro p{font-size:.94rem}
+.intro .checks{margin-top:22px}
+.intro a{border-bottom:1px solid var(--line)}
+.form-card{padding:34px;box-shadow:none;background:var(--paper)}
+.faq-inner{display:grid;grid-template-columns:.55fr 1.45fr;gap:48px;align-items:start}
+.faq-inner .text-link{display:inline-block;margin-top:22px}
+@media(max-width:900px){.hero-grid,.form-grid,.faq-inner{grid-template-columns:1fr}.direct{grid-template-columns:1fr}.form-card{padding:24px}}
+</style>

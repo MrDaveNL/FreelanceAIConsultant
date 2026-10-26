@@ -5,6 +5,8 @@
 // mirrors the style already used in src/data/services.js (fixed price, bandbreedte, or per-niveau list).
 import { services } from '../data/services.js';
 import { prijzen, fractionalNiveaus, formatEur, timingEn } from '../data/prijzen.ts';
+import { site } from '../data/site.js';
+import { routeById } from '../data/routes.ts';
 
 const priceEn = (slug) => {
   if (slug === 'fractional-ai-lead') return fractionalNiveaus.map((n) => formatEur(n.perMaand, 'en')).join(' / ') + ' per month';
@@ -22,4 +24,14 @@ export function resolveToken(field, slug, locale = 'nl') {
   if (field === 'title') return service.title;
   const value = locale === 'en' ? (field === 'timing' ? timingTextEn(slug) : priceEn(slug)) : service[field === 'pricelc' ? 'price' : field];
   return field === 'pricelc' ? value.charAt(0).toLowerCase() + value.slice(1) : value;
+}
+
+// Content-collection pages (src/content/pages) write their contact CTA as a literal
+// mailto: link in frontmatter/Markdown, authored before /contact existed per locale. Resolves it
+// to the live contact page once that locale's route goes live, same self-adjusting pattern already
+// used by CTA.astro/PageHero.astro. Any other href is returned unchanged.
+export function resolveContactHref(href, locale) {
+  if (href !== `mailto:${site.email}`) return href;
+  const contact = routeById('contact');
+  return contact?.live[locale] ? contact.paths[locale] : href;
 }
