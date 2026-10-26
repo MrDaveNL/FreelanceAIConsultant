@@ -8,6 +8,10 @@ export default {
   "antwoord": "{{dienst:executive-briefing}} from {{afzender}} gives an executive team or board the same realistic picture of what AI means for the organization, including what it asks of them as overseers. The result is a shared picture and a decision agenda, built on sector-specific preparation. The session takes {{timing:executive-briefing}} and costs {{pricelc:executive-briefing}}, {{voorwaarden}}.",
   "vervolgvragen": [
     {
+      "vraag": "When is the Executive Briefing price credited?",
+      "antwoord": "{{dienst:executive-briefing}} is fully credited if {{dienst:ai-readiness-assessment}} starts within 60 days."
+    },
+    {
       "vraag": "How many people attend an Executive Briefing?",
       "antwoord": "{{dienst:executive-briefing}} works best with five to twelve participants; more than twelve shifts the format from a conversation to a presentation."
     },
