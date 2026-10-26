@@ -85,13 +85,13 @@ export const routes: RouteEntry[] = [
   r('art-ai-adoptie-begint-bij-het-werk', 'article', '/inzichten/ai-adoptie-begint-bij-het-werk', '/insights/ai-adoption-starts-with-the-work'),
 
   // Content-collectie 'pages': 12 clusters, 55 pagina's
-  r('C1-00', 'content', '/ai-consultancy', '/ai-consulting', { cluster: 'ai-consultancy' }),
+  r('C1-00', 'content', '/ai-consultancy', '/ai-consulting', { cluster: 'ai-consultancy', liveEn: true }),
   r('C1-05', 'content', '/ai-consultancy/ai-advies', '/ai-consulting/ai-advice', { cluster: 'ai-consultancy' }),
   r('C1-06', 'content', '/ai-consultancy/ai-consultant-inhuren', '/ai-consulting/hire-an-ai-consultant', { cluster: 'ai-consultancy' }),
   // Geen EN-tegenhanger: "ai roadmap" betekent in het Engels een carrièrepad, niet dit onderwerp.
   // Inhoud wordt samengevoegd op C1-03 (/ai-consulting/ai-strategy) in plaats van een eigen EN-pagina.
   r('C1-04', 'content', '/ai-consultancy/ai-roadmap', '/ai-consulting/ai-roadmap', { cluster: 'ai-consultancy', noEn: true }),
-  r('C1-03', 'content', '/ai-consultancy/ai-strategie', '/ai-consulting/ai-strategy', { cluster: 'ai-consultancy' }),
+  r('C1-03', 'content', '/ai-consultancy/ai-strategie', '/ai-consulting/ai-strategy', { cluster: 'ai-consultancy', liveEn: true }),
 
   r('C2-00', 'content', '/ai-implementatie', '/ai-implementation', { cluster: 'ai-implementatie' }),
   r('C2-01', 'content', '/ai-implementatie/advies', '/ai-implementation/consulting', { cluster: 'ai-implementatie' }),
