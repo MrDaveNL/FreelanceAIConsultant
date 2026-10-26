@@ -1,0 +1,94 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { site } from '../data/site.js';
+
+const updated = '22 September 2026';
+---
+<BaseLayout
+  title={`Terms and Conditions | ${site.brand}`}
+  description="Terms and conditions for advisory engagements with freelanceaiconsultant.com: quotes, execution, rates, payment, liability and intellectual property."
+>
+  <section class="section-sm legal-hero">
+    <div class="container">
+      <a class="back" href="/">← Back to home</a>
+      <p class="eyebrow">Legal</p>
+      <h1 class="h1">Terms <span class="marker">and Conditions</span></h1>
+      <p class="lede">These terms apply to all quotes, engagements and agreements of {site.legal.entity}, trading as {site.domain}.</p>
+      <p class="updated">Version {updated}</p>
+    </div>
+  </section>
+
+  <section class="section-sm">
+    <div class="container legal-prose">
+      <h2>Article 1: Definitions</h2>
+      <ul>
+        <li><b>Contractor:</b> {site.legal.entity}, trading as {site.domain}, KvK {site.legal.kvk}.</li>
+        <li><b>Client:</b> the party entering into an agreement with the contractor.</li>
+        <li><b>Engagement:</b> the advisory, guidance or research work to be performed by the contractor.</li>
+        <li><b>Deliverables:</b> the written or verbal results that result from the engagement.</li>
+      </ul>
+
+      <h2>Article 2: Applicability</h2>
+      <p>These terms apply to all quotes, engagement confirmations and agreements between contractor and client. Deviations apply only if agreed in writing. The client's own purchasing terms are expressly rejected, unless the parties agree otherwise in writing.</p>
+
+      <h2>Article 3: Quotes and formation of the agreement</h2>
+      <p>Quotes are non-binding and valid for thirty days, unless stated otherwise. An agreement is formed the moment the client accepts the quote or engagement confirmation in writing or by email. Amounts stated are exclusive of VAT and travel and accommodation costs, unless expressly stated otherwise.</p>
+
+      <h2>Article 4: Performance of the engagement</h2>
+      <p>The contractor carries out the engagement to the best of their insight and ability, on a best-efforts basis. No specific result is guaranteed; the contractor does, however, record in advance which outcomes are being pursued and how they will be assessed.</p>
+      <p>The engagement is carried out personally. Third parties are engaged only after consultation with the client. The contractor charges no markup or margin on the rates of any third parties engaged.</p>
+      <p>The client provides, in good time, the information, access and availability of staff needed for the work. Any delay resulting from this is for the client's account.</p>
+
+      <h2>Article 5: Independence and conflicts of interest</h2>
+      <p>The contractor receives no commissions, discounts, affiliate fees or other benefits from suppliers of software or services that may be recommended within an engagement. Existing or recent relationships with suppliers that may come up within the engagement are disclosed in writing before any assessment takes place.</p>
+      <p>The contractor does not accept engagements for direct competitors of a client during the term of an ongoing engagement, unless the client agrees to this in writing.</p>
+
+      <h2>Article 6: Changes to the engagement</h2>
+      <p>Changes to the scope are recorded in writing, including the consequences for planning and price. Additional work is carried out only after prior approval from the client.</p>
+
+      <h2>Article 7: Rates and payment</h2>
+      <ul>
+        <li>Invoicing takes place monthly or per milestone, as recorded in the engagement confirmation.</li>
+        <li>For fixed-price engagements, fifty percent is due at the start and fifty percent on delivery, unless agreed otherwise.</li>
+        <li>The payment term is thirty days after the invoice date.</li>
+        <li>If this term is exceeded, the client owes the statutory commercial interest rate, as well as reasonable collection costs.</li>
+        <li>Rates may be indexed annually as of 1 January; for ongoing engagements this is announced at least two months in advance.</li>
+      </ul>
+
+      <h2>Article 8: Cancellation and termination</h2>
+      <p>Ongoing engagements, including a fractional role, can be terminated by either party with one calendar month's notice.</p>
+      <p>If an engagement with a fixed price is terminated early, the work carried out and the results delivered up to that point are settled on a pro-rata basis. Capacity already reserved that is cancelled within two weeks of the start date may be charged at fifty percent.</p>
+
+      <h2>Article 9: Confidentiality</h2>
+      <p>Both parties treat all information they receive from each other in connection with the engagement as confidential, and do not share it with third parties without prior written consent. This obligation remains in force after the engagement ends. Where the client applies its own non-disclosure agreement, that agreement prevails.</p>
+
+      <h2>Article 10: Personal data</h2>
+      <p>Parties process personal data in accordance with the General Data Protection Regulation (GDPR). Where the contractor processes personal data on the client's instructions, the parties enter into a data processing agreement. See also the <a href="/privacy">privacy policy</a>.</p>
+
+      <h2>Article 11: Intellectual property</h2>
+      <p>All deliverables created specifically for the client become the client's property after full payment. The client may use, adapt and reuse these freely within its own organization.</p>
+      <p>The contractor retains the right to continue using the underlying generic methodology, models and working methods in other engagements. In doing so, no data, figures, names or traceable situations of the client are ever used.</p>
+      <p>The contractor may name the engagement as a reference only with the client's written consent; without consent this is done only in anonymized form.</p>
+
+      <h2>Article 12: Liability</h2>
+      <p>The contractor's liability is limited to the amount paid out in the relevant case under the professional or business liability insurance, increased by the deductible. If the insurer does not pay out, liability is limited to the amount invoiced for the engagement over the last six months, with a maximum of the total engagement amount.</p>
+      <p>The contractor is not liable for indirect damage, including loss of profit, missed savings and consequential damage. Decisions the client makes based on the advice remain the client's own responsibility.</p>
+      <p>These limitations do not apply in the case of intent or deliberate recklessness on the part of the contractor.</p>
+
+      <h2>Article 13: Force majeure</h2>
+      <p>In the event of force majeure, obligations are suspended. If the force majeure situation lasts longer than sixty days, either party may dissolve the agreement without being liable for damages. Work already carried out is settled.</p>
+
+      <h2>Article 14: Complaints</h2>
+      <p>Complaints about the execution of the engagement must be reported in writing within fourteen days of discovery, with a clear description. The parties will consult with each other to reach a solution before any other steps are taken.</p>
+
+      <h2>Article 15: Governing law</h2>
+      <p>Dutch law applies to all agreements. Disputes are submitted to the competent court in the district of the contractor's place of business, unless the parties choose mediation.</p>
+    </div>
+  </section>
+</BaseLayout>
+<style>
+.legal-hero{padding-top:52px}
+.legal-hero .lede{margin-top:24px}
+.updated{font-size:.82rem;color:var(--muted);margin-top:16px}
+code{background:rgba(74,31,42,.1);padding:2px 6px;border-radius:4px;font-size:.88em}
+</style>
