@@ -144,7 +144,7 @@ export const routes: RouteEntry[] = [
   r('C7-01', 'content', '/markten/zorg', '/markets/healthcare', { cluster: 'markten', noindex: true }),
 
   r('P06', 'content', '/partnernetwerk', '/partner-network', { cluster: 'partnernetwerk' }),
-  r('P04', 'content', '/tarieven', '/pricing', { cluster: 'tarieven' }),
+  r('P04', 'content', '/tarieven', '/pricing', { cluster: 'tarieven', liveEn: true }),
 ];
 
 export function routeById(id: string): RouteEntry | undefined {

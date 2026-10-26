@@ -19,10 +19,10 @@ const servicesLinks = [
 // Volgorde moet exact overeenkomen met hubLinks in src/data/protected-urls.js.
 const hubRouteIds = ['C1-00', 'C2-00', 'C3-00', 'C4-00', 'C5-00', 'C6-00', 'C8-00', 'C9-00', 'C7-00', 'P08', 'P04', 'P06'];
 const hubLinksLocalized = hubLinks
-  .map(([, label], i) => {
+  .map(([, labelNl, labelEn], i) => {
     const entry = routeById(hubRouteIds[i]);
     const path = entry?.live[locale] ? entry.paths[locale] : null;
-    return path ? [path, label] : null;
+    return path ? [path, locale === 'en' ? labelEn : labelNl] : null;
   })
   .filter((item): item is [string, string] => item !== null);
 

@@ -43,4 +43,13 @@ export const nl = {
     servicesEyebrow: 'Diensten',
     articlesEyebrow: 'Gelezen artikelen',
   },
+  // Chrome van src/pages/[...slug].astro (content-pagina's: tarieven, diensten-overzicht, kennisbank, etc.).
+  contentPage: {
+    inShort: 'In het kort',
+    independence: 'Onafhankelijk: geen commissies, geen partnerdeals, geen marge op implementatiepartners.',
+    partnerNetworkLink: 'Mijn partnernetwerk',
+    asideCtaTitle: 'Weten waar je staat met AI?',
+    asideCtaLink: 'Bekijk het AI Readiness Assessment →',
+    ctaDefaultTitle: 'Van AI-ambitie naar concrete resultaten.',
+  },
 } as const;

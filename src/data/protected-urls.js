@@ -18,17 +18,18 @@ export const protectedUrls = [
 ];
 
 // Hubs voor de footer (volgorde = volgorde in de footer).
+// Derde element: EN-label, gebruikt door Footer.astro zodra de EN-tegenhanger live is.
 export const hubLinks = [
-  ['/ai-consultancy', 'AI consultancy'],
-  ['/ai-implementatie', 'AI implementatie'],
-  ['/ai-automatisering', 'AI automatisering'],
-  ['/ai-voor-bedrijven', 'AI voor bedrijven'],
-  ['/ai-development', 'AI development'],
-  ['/ai-agents', 'AI agents'],
-  ['/ai-beleid', 'AI beleid'],
-  ['/ai-workshop', 'AI workshop'],
-  ['/markten', 'AI per branche'],
-  ['/kennisbank', 'Kennisbank'],
-  ['/tarieven', 'Tarieven'],
-  ['/partnernetwerk', 'Partnernetwerk'],
+  ['/ai-consultancy', 'AI consultancy', 'AI consulting'],
+  ['/ai-implementatie', 'AI implementatie', 'AI implementation'],
+  ['/ai-automatisering', 'AI automatisering', 'AI automation'],
+  ['/ai-voor-bedrijven', 'AI voor bedrijven', 'AI for business'],
+  ['/ai-development', 'AI development', 'AI development'],
+  ['/ai-agents', 'AI agents', 'AI agents'],
+  ['/ai-beleid', 'AI beleid', 'AI policy'],
+  ['/ai-workshop', 'AI workshop', 'AI workshop'],
+  ['/markten', 'AI per branche', 'AI by industry'],
+  ['/kennisbank', 'Kennisbank', 'Knowledge base'],
+  ['/tarieven', 'Tarieven', 'Pricing'],
+  ['/partnernetwerk', 'Partnernetwerk', 'Partner network'],
 ];

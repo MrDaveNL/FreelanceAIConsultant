@@ -43,4 +43,13 @@ export const en = {
     servicesEyebrow: 'Services',
     articlesEyebrow: 'Recent articles',
   },
+  // Chrome of src/pages/[...slug].astro (content pages: pricing, services overview, knowledge base, etc.).
+  contentPage: {
+    inShort: 'In short',
+    independence: 'Independent: no commissions, no partner deals, no margin on implementation partners.',
+    partnerNetworkLink: 'My partner network',
+    asideCtaTitle: 'Want to know where you stand with AI?',
+    asideCtaLink: 'See the AI Readiness Assessment →',
+    ctaDefaultTitle: 'From AI ambition to real results.',
+  },
 } as const;

@@ -5,13 +5,14 @@
 import { blokVoor } from '../data/rag/index.ts';
 import { renderRagDelen } from './rag-blok.js';
 import { normaliseer } from './rag-tekst.js';
+import { localeFromPath } from '../data/routes.ts';
 
 const tekstVan = (node) => (node.value ?? '') + (node.children ?? []).map(tekstVan).join('');
 
 export function remarkRagBlok() {
   return (tree, file) => {
     const pagina = file.data?.astro?.frontmatter?.url;
-    const blok = pagina && blokVoor(pagina);
+    const blok = pagina && blokVoor(pagina, localeFromPath(pagina));
     if (!blok) return;
     const { antwoord, vervolg } = renderRagDelen(blok);
     if (!antwoord) return;
