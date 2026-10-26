@@ -83,3 +83,13 @@ export const independenceEn = [
   'No margin on implementation partners',
   'Conflicts of interest disclosed upfront',
 ];
+
+export const principlesEn = [
+  ['Independent', 'Your interest, always. No commissions, no partner deals.'],
+  ['Transparent', 'Clear about both opportunities and risks, even when it is uncomfortable.'],
+  ['Pragmatic', 'From strategy to measurable value within one quarter.'],
+  ['People-first', 'Technology only works once people actually want to work with it.'],
+];
+
+// EN-equivalent of site.availability, same fact. Kept separate so NL stays byte-identical.
+export const availabilityEn = 'Available for new engagements from Q4';
