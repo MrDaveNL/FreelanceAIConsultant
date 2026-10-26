@@ -1,8 +1,10 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
 import { site } from '../data/site.js';
+import { routeById } from '../data/routes';
 
 const updated = '22 September 2026';
+const nlHref = routeById('privacy')!.paths.nl;
 ---
 <BaseLayout
   title={`Privacy Policy | ${site.brand}`}
@@ -15,6 +17,7 @@ const updated = '22 September 2026';
       <h1 class="h1">Privacy<span class="marker">Policy</span></h1>
       <p class="lede">This policy describes how {site.legal.entity} ({site.domain}) handles the personal data of visitors, contacts and clients.</p>
       <p class="updated">Last updated: {updated}</p>
+      <p class="translation-notice">This is an English translation. In case of differences, the <a href={nlHref}>Dutch version</a> prevails.</p>
     </div>
   </section>
 
@@ -91,5 +94,6 @@ const updated = '22 September 2026';
 .legal-hero{padding-top:52px}
 .legal-hero .lede{margin-top:24px}
 .updated{font-size:.82rem;color:var(--muted);margin-top:16px}
+.translation-notice{font-size:.82rem;color:var(--muted);margin-top:6px}
 code{background:rgba(74,31,42,.1);padding:2px 6px;border-radius:4px;font-size:.88em}
 </style>

@@ -1,8 +1,10 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
 import { site } from '../data/site.js';
+import { routeById } from '../data/routes';
 
 const updated = '22 September 2026';
+const nlHref = routeById('algemene-voorwaarden')!.paths.nl;
 ---
 <BaseLayout
   title={`Terms and Conditions | ${site.brand}`}
@@ -15,6 +17,7 @@ const updated = '22 September 2026';
       <h1 class="h1">Terms <span class="marker">and Conditions</span></h1>
       <p class="lede">These terms apply to all quotes, engagements and agreements of {site.legal.entity}, trading as {site.domain}.</p>
       <p class="updated">Version {updated}</p>
+      <p class="translation-notice">This is an English translation. In case of differences, the <a href={nlHref}>Dutch version</a> prevails.</p>
     </div>
   </section>
 
@@ -90,5 +93,6 @@ const updated = '22 September 2026';
 .legal-hero{padding-top:52px}
 .legal-hero .lede{margin-top:24px}
 .updated{font-size:.82rem;color:var(--muted);margin-top:16px}
+.translation-notice{font-size:.82rem;color:var(--muted);margin-top:6px}
 code{background:rgba(74,31,42,.1);padding:2px 6px;border-radius:4px;font-size:.88em}
 </style>
