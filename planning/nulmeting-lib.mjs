@@ -93,6 +93,16 @@ export const urlVanBestand = (rel) => {
 export const bestandVanUrl = (url) => (url === '/' ? 'index.html' : url === '/404' ? '404.html' : `${url.slice(1)}/index.html`);
 export const naamVanUrl = (url) => (url === '/' ? 'home' : url.slice(1).replace(/\//g, '__'));
 
+// i18n fase 1: de nulmeting is vóór de /nl-migratie vastgelegd met het kale, ongeprefixte NL-pad
+// (bv. /privacy) en blijft die identiteit gebruiken voor bestandsnaam en het url-veld — maar de
+// bijbehorende pagina staat nu altijd onder /nl. Sinds de EN-pagina's live zijn, bestaat er ook
+// weer een dist-bestand op dat kale pad (de Engelse versie): `bestandVanUrl(url)` zonder deze
+// mapping resolvede dus naar de verkeerde taal. Beide scripts (vastleggen en vergelijken) moeten
+// daarom altijd via `naarNlPad` naar de huidige /nl-pagina wijzen, nooit naar het kale pad direct.
+// Idempotent: werkt zowel op een kaal pad als op een al-geprefixt /nl-pad.
+export const naarNlPad = (url) => (url === '/nl' || url.startsWith('/nl/') ? url : url === '/' ? '/nl' : `/nl${url}`);
+export const vanNlPad = (url) => (url === '/nl' ? '/' : url.startsWith('/nl/') ? url.slice(3) : url);
+
 export const distPaginas = () => {
   const loop = (dir) =>
     fs.readdirSync(dir, { withFileTypes: true }).flatMap((d) =>

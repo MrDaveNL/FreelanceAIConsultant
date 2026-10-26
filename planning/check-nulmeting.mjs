@@ -4,12 +4,17 @@
 // Gebruik: npm run build && node planning/check-nulmeting.mjs [--toon-toevoegingen] [/url ...]
 import fs from 'node:fs';
 import path from 'node:path';
-import { meetUrl, nulmetingDir, distPaginas, urlVanBestand, naamVanUrl } from './nulmeting-lib.mjs';
+import { meetUrl, nulmetingDir, distPaginas, urlVanBestand, naamVanUrl, naarNlPad } from './nulmeting-lib.mjs';
 
 // i18n fase 1: elke nulmeting is vóór de migratie vastgelegd met het oude, ongeprefixte NL-pad.
 // De pagina zelf staat nu onder /nl. Toegestane afwijking (zie i18n-opdracht): alleen de /nl-prefix
 // in URL, canonical en interne hrefs, plus de nieuw toegevoegde hreflang/taalwisselaar-tags.
-const metNl = (url) => (url === '/' ? '/nl' : `/nl${url}`);
+// metNl komt uit nulmeting-lib.mjs (naarNlPad): zelfde mapping die ook nulmeting.mjs gebruikt,
+// zodat vastleggen en vergelijken nooit uit de pas kunnen lopen.
+const metNl = naarNlPad;
+// zonderNl hieronder normaliseert tekst-ínhoud (hrefs, canonical, social-urls) binnen één gemeten
+// pagina, niet de top-level url-identiteit van de nulmeting zelf — vandaar een eigen, kleinere
+// implementatie die los staat van naarNlPad/vanNlPad.
 const zonderNl = (v) => {
   if (typeof v !== 'string') return v;
   const stripped = v.replace(/^(https?:\/\/[^/]+)?\/nl(?=\/|$)/, '$1');
@@ -81,6 +86,15 @@ for (const voor of metingen) {
   const info = [];
   if (!na) {
     console.log(`✗ ${voor.url}\n  FOUT  pagina ontbreekt in dist/ (verwacht onder ${metNl(voor.url)})`);
+    fouten++;
+    continue;
+  }
+  // Bewaking tegen precies de fout die eerder optrad: sinds EN-pagina's live zijn, bestaat er ook
+  // weer een dist-bestand op het kale, ongeprefixte pad (de Engelse versie) — als meetUrl daar ooit
+  // per ongeluk naar wijst in plaats van naar /nl, meet deze check de verkeerde taalversie zonder
+  // dat "pagina ontbreekt" dat ooit zou signaleren. Faal hard in plaats van door te meten.
+  if (na.html.lang !== 'nl') {
+    console.log(`✗ ${voor.url}\n  FOUT  nulmeting wijst naar ${metNl(voor.url)} maar die pagina heeft lang="${na.html.lang}" (verwacht "nl") — vergelijkt mogelijk met de verkeerde taalversie`);
     fouten++;
     continue;
   }
