@@ -96,3 +96,87 @@ export const engagementModels = [
   ['Vast traject', 'Heldere scope, mijlpalen en deliverables tegen een vaste prijs of bandbreedte. Snel naar resultaat.'],
   ['Retainer', 'Doorlopende sturing en beschikbaarheid bij een fractional rol. Vast maandbedrag, vast ritme.'],
 ];
+
+// EN-equivalent van stepDetails/expectations/antiPatterns/engagementModels hierboven, voor de approach-pagina.
+export const stepDetailsEn = [
+  {
+    number: '01',
+    title: 'Diagnose',
+    icon: '⌕',
+    lead: 'What are we actually trying to solve?',
+    body: 'Almost every AI request I get is a symptom of something else. "We want a chatbot" usually means first-line customer questions take too long to answer. So I never start with the requested solution, but with the outcome you want and the process that currently stands in the way of it.',
+    doing: [
+      'Interviews with business, IT, data and the people doing the work',
+      'Analysis of existing documents, pilots and vendor proposals',
+      'Data scan of the sources relevant to the question',
+      'Framing the outcomes in measurable terms',
+    ],
+    output: 'A problem statement the whole core group signs off on, with measurable outcomes.',
+  },
+  {
+    number: '02',
+    title: 'Prioritize',
+    icon: '☑',
+    lead: 'Which use cases earn money, time and attention?',
+    body: 'This is where the list gets shorter, not longer. Every candidate is assessed the same way: value, feasibility, data readiness, change burden, and whether there is an owner in the line who actually benefits. We score together, not in my spreadsheet.',
+    doing: [
+      'Uniform scoring on value, feasibility, data and change burden',
+      'First-pass value estimate with visible assumptions',
+      'Ownership assigned per use case',
+      'Explicit record of what drops out and why',
+    ],
+    output: 'A prioritized portfolio with owners, plus a documented drop list.',
+  },
+  {
+    number: '03',
+    title: 'Decide',
+    icon: '↯',
+    lead: 'Build, buy or partner, and why?',
+    body: 'A substantiated choice per theme. Build where it differentiates you, buy where it is a commodity, partner where you want to steer the outcome without owning the technology. Including the costs that only become visible in year three.',
+    doing: [
+      'Build/buy/partner assessment per theme',
+      'Order-of-magnitude TCO over three years',
+      'Architecture and dependency consequences',
+      'Risk classification and compliance implications',
+    ],
+    output: 'A decision document that clears procurement and the board without an extra round.',
+  },
+  {
+    number: '04',
+    title: 'Ship & govern',
+    icon: '↗',
+    lead: 'How do we make sure it actually lands?',
+    body: 'The phase where most initiatives stall. Who manages it, how do you measure whether it still works, what happens when it breaks, and who is allowed to stop it? We settle this before building, not after.',
+    doing: [
+      'Operating model, roles and cadence',
+      'Measurement setup with a baseline before the start',
+      'Governance: register, gate, periodic review, escalation path',
+      'Adoption approach per role instead of a single rollout',
+    ],
+    output: 'A working solution with management, measurement points and an owner who is accountable for it.',
+  },
+];
+
+export const expectationsEn = [
+  'Independent, vendor-neutral advice',
+  'Clear, decidable and without noise',
+  'Focus on value: time, money and risk',
+  'Pragmatic and executable within your organization',
+  'Transparent communication and a fixed cadence',
+  'Measurable results and an honest evaluation',
+];
+
+export const antiPatternsEn = [
+  'No endless pilots without direction',
+  'No tool-stacking without strategy',
+  'No selling of software or licenses',
+  'No vague stories without substantiation',
+  'No taking over your responsibility',
+  'No "AI for the show"',
+];
+
+export const engagementModelsEn = [
+  ['Defined assignment', 'For scoped advice, workshops and second opinions. Fixed price per assignment, set out in the proposal.'],
+  ['Fixed-scope project', 'Clear scope, milestones and deliverables for a fixed price or range. Fast to results.'],
+  ['Retainer', 'Ongoing steering and availability in a fractional role. Fixed monthly amount, fixed rhythm.'],
+];

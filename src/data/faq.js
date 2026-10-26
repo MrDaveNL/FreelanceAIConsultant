@@ -61,3 +61,11 @@ export const procurement = [
   ['▤', 'Contract & voorwaarden', 'Heldere overeenkomst, afspraken op maat en transparante IP-afspraken: het werk is van jou.'],
   ['✓', 'Compliance', 'Ervaring met governance, risico, audit en rapportage richting board en toezicht.'],
 ];
+
+// EN-equivalent van procurement hierboven, voor de approach-pagina.
+export const procurementEn = [
+  ['✓', 'Independence', '100% vendor-neutral. My advice is based solely on your interest, and any interests are disclosed upfront.'],
+  ['▣', 'Data & security', 'I work within your policies and process no data without a written agreement or data processing agreement.'],
+  ['▤', 'Contract & terms', 'Clear agreement, terms tailored to you, and transparent IP arrangements: the work is yours.'],
+  ['✓', 'Compliance', 'Experience with governance, risk, audit and reporting to the board and supervisory bodies.'],
+];
