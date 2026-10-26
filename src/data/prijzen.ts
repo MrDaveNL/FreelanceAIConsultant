@@ -85,3 +85,13 @@ export const prijzen: Record<string, Prijs> = {
     maxPrice: project(14),
   },
 };
+
+// EN-vertaling van de doorlooptijd-tekst hierboven. Zelfde feit, geen nieuwe claim; alleen de
+// 'timing'-string in `prijzen` is NL en niet locale-aware, dus hier apart.
+export const timingEn: Record<string, string> = {
+  'executive-briefing': 'one half-day session incl. preparation',
+  'ai-readiness-assessment': '2-3 weeks',
+  'ai-strategy-sprint': '4-6 weeks',
+  'vendor-review': '3-6 weeks',
+  'ai-due-diligence': '2-4 weeks',
+};

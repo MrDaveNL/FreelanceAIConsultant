@@ -740,5 +740,747 @@
       "vendor-review",
       "fractional-ai-lead"
     ]
+  },
+  {
+    "id": "en-ai-readiness-assessment",
+    "lang": "en",
+    "slug": "ai-readiness-assessment",
+    "meta": "A clear-eyed assessment across strategy, data, technology, people and governance. Know in 2-3 weeks what is realistic and what should happen first.",
+    "number": "01",
+    "featured": true,
+    "tone": "yellow",
+    "icon": "⌕",
+    "title": "AI Readiness Assessment",
+    "cardText": "Where does your organization actually stand with AI? We map the opportunities, risks and prerequisites before budget gets committed.",
+    "timing": "2-3 weeks",
+    "price": "€7,000",
+    "priceNote": "Fixed price, including a closing presentation to your leadership team or board.",
+    "eyebrow": "Know where you stand",
+    "heroTitle": "AI Readiness Assessment",
+    "marked": "Readiness",
+    "lede": "A clear-eyed assessment of your organization across five dimensions: strategy, data, technology, people and governance. Within two to three weeks you know what is realistic, what should happen first, and what you are better off not doing yet.",
+    "facts": [
+      {
+        "label": "Duration",
+        "value": "2-3 weeks",
+        "tone": "aqua"
+      },
+      {
+        "label": "Outcome",
+        "value": "Readiness report + 90-day plan",
+        "tone": "salmon"
+      },
+      {
+        "label": "Investment",
+        "value": "€7,000",
+        "tone": "yellow"
+      }
+    ],
+    "problemTitle": "Sound familiar?",
+    "problem": [
+      "Pilots are running, but nobody can explain what they add up to.",
+      "The question \"are we ready?\" gets four different answers, depending on who you ask.",
+      "A vendor gave an impressive demo and now a decision needs to be made fast.",
+      "The data foundation is named as a problem, but nobody knows how big that problem actually is."
+    ],
+    "approachIntro": "Two to three weeks, four fixed blocks. No weeks-long rounds of interviews.",
+    "approach": [
+      [
+        "Week 1",
+        "Document analysis, a data scan and 8-12 interviews across the organization: business, IT, data, risk and a few people on the floor."
+      ],
+      [
+        "Week 2",
+        "Scoring on five dimensions against a reference framework, plus a first opportunity list that we validate with the owners of those processes."
+      ],
+      [
+        "Week 3",
+        "Prioritization, a 90-day plan and the closing session where we have the conversation that actually matters: what will we do, and what will we not do?"
+      ]
+    ],
+    "deliverables": [
+      "Readiness score on strategy, data, technology, people and governance",
+      "Gap analysis with the three blockers that actually matter",
+      "Validated longlist of use cases with a first value estimate",
+      "90-day plan with owners, a budget order of magnitude and decision points",
+      "Risk and compliance scan, including positioning under the AI Act",
+      "Closing presentation you can reuse one-to-one for your board"
+    ],
+    "bestFor": [
+      "Organizations seriously considering AI but without a chosen direction yet",
+      "Leadership teams that need to substantiate an investment proposal",
+      "Teams stuck between enthusiastic pilots and a skeptical board",
+      "Situations where there is time pressure, but a wrong decision would be costly"
+    ],
+    "notFor": [
+      "If you already know what you are going to build and only need execution capacity",
+      "If the goal is a report that mostly confirms what has already been decided"
+    ],
+    "proof": {
+      "eyebrow": "Recent case",
+      "title": "Scale-up knew after three weeks what not to do.",
+      "body": "A growing SaaS organization was about to buy an AI platform. The assessment showed that the data foundation would make that platform fail within a year. The decision was postponed, the foundation tackled first.",
+      "stats": [
+        [
+          "5",
+          "dimensions scored"
+        ],
+        [
+          "14",
+          "use cases assessed"
+        ],
+        [
+          "90",
+          "days of concrete action plan"
+        ],
+        [
+          "€0",
+          "wasted on a premature license"
+        ]
+      ],
+      "caseSlug": "ai-readiness-scale-up"
+    },
+    "faq": [
+      [
+        "How much time will this take my team?",
+        "Budget 45-60 minutes per person interviewed, plus two 90-minute sessions with the core group. I will not ask for more than that. Most of the work I do myself, based on documents, systems and data."
+      ],
+      [
+        "Do I get a scorecard or an opinion?",
+        "Both, but the opinion is the product. A score without interpretation is a number without meaning. In the closing session I explain which score you can ignore and which one you should take seriously."
+      ],
+      [
+        "What if the outcome is that we are not ready yet?",
+        "Then that is the most valuable outcome you can get for this price. You get a foundation plan instead of a use-case plan, and you avoid a failed initiative."
+      ],
+      [
+        "Can this be done for one department instead of the whole organization?",
+        "Yes. For a single business unit or a specific process domain, the assessment typically takes two weeks and the investment is lower. We discuss that in the intake."
+      ]
+    ],
+    "related": [
+      "ai-strategy-sprint",
+      "executive-briefing"
+    ]
+  },
+  {
+    "id": "en-ai-strategy-sprint",
+    "lang": "en",
+    "slug": "ai-strategy-sprint",
+    "meta": "From AI ambition to board-ready strategy and roadmap in 4 to 6 weeks. Four concrete decision points, not a 200-slide deck.",
+    "number": "02",
+    "featured": true,
+    "tone": "aqua",
+    "icon": "↯",
+    "title": "AI Strategy Sprint",
+    "cardText": "From ambition to a realistic AI roadmap that fits your business, people and resources, board-ready in six weeks.",
+    "timing": "4-6 weeks",
+    "price": "€15,400 - €22,400",
+    "priceNote": "Lower end if a Readiness Assessment is already in place, higher end with multiple business units involved.",
+    "eyebrow": "From ambition to decision",
+    "heroTitle": "AI Strategy Sprint",
+    "marked": "Strategy Sprint",
+    "lede": "A fast, focused sprint to go from AI idea to a concrete, board-ready strategy and roadmap. Practical, focused and immediately actionable, without the two-hundred-slide deck.",
+    "facts": [
+      {
+        "label": "Duration",
+        "value": "4-6 weeks",
+        "tone": "aqua"
+      },
+      {
+        "label": "Outcome",
+        "value": "Board-ready roadmap",
+        "tone": "salmon"
+      },
+      {
+        "label": "Investment",
+        "value": "€15,400 - €22,400",
+        "tone": "yellow"
+      }
+    ],
+    "problemTitle": "Why sprints work and lengthy programs stall",
+    "problem": [
+      "Six-month strategy programs produce a document that is already outdated by the time it lands.",
+      "AI changes faster than your decision-making cycle. A sprint forces choices while they still matter.",
+      "The decision-makers sit in the sprint itself, not only in the closing presentation. That saves three rounds of alignment.",
+      "Everything we deliver is built to support decisions, not to impress."
+    ],
+    "approachIntro": "Four fixed decision points, spread across five working sessions.",
+    "approach": [
+      [
+        "Diagnose",
+        "What are we actually trying to solve? We break the ambition down into business outcomes you can measure. This usually already reveals that two of the five ambitions contradict each other."
+      ],
+      [
+        "Prioritize",
+        "Which use cases deserve money, time and attention? Scoring on value, feasibility, data readiness and change load. The list gets shorter, not longer."
+      ],
+      [
+        "Decide",
+        "Build, buy or partner, and why? A substantiated choice per theme, including a TCO order of magnitude and the consequences for your architecture."
+      ],
+      [
+        "Ship and govern",
+        "How do we make sure it lands? Operating model, roles, metrics and the governance the AI Act requires, in usable form."
+      ]
+    ],
+    "deliverables": [
+      "Board-ready AI strategy with explicit principles and scope",
+      "Priority matrix: impact versus feasibility, substantiated per use case",
+      "Use-case roadmap with quick wins, medium-term bets and deliberate no-gos",
+      "Business case outlines with value estimates and assumptions",
+      "Risks, dependencies and mitigations, including a risk classification",
+      "Governance, roles and operating-model advice",
+      "The final deck, which you present, not me"
+    ],
+    "bestFor": [
+      "Wanting to pursue AI seriously but not knowing where to start",
+      "Needing focus and direction for the next 12-18 months",
+      "Valuing fast, independent insight over exhaustive analysis",
+      "Wanting to connect strategy to execution and adoption"
+    ],
+    "notFor": [
+      "If there is no mandate yet to make choices: start with an Executive Briefing instead",
+      "If you are mainly looking for capacity to build"
+    ],
+    "proof": {
+      "eyebrow": "Recent case",
+      "title": "Investment firm accelerates its AI agenda with clear choices.",
+      "body": "For an investment firm we developed an AI roadmap in five weeks with eighteen assessed use cases, three strategic themes and a phased execution plan that was approved in a single board session.",
+      "stats": [
+        [
+          "18",
+          "use cases assessed"
+        ],
+        [
+          "3",
+          "strategic themes"
+        ],
+        [
+          "€1.2M",
+          "impact potential"
+        ],
+        [
+          "5",
+          "weeks to board approval"
+        ]
+      ],
+      "caseSlug": "ai-strategie-investeringsmaatschappij"
+    },
+    "faq": [
+      [
+        "What is the difference between the sprint and a longer program?",
+        "A sprint produces decisions, a program produces documentation. We make the scope explicit upfront and work toward four concrete decision points. Anything outside that scope gets named as a follow-up question rather than pulled in."
+      ],
+      [
+        "Which people from our organization need to be involved?",
+        "A sponsor with mandate, someone from the business who knows the P&L, someone from data or IT, and someone from risk or compliance. Four to six people in the core group. Bigger makes it slower, not better."
+      ],
+      [
+        "What if we do not have AI use cases yet?",
+        "That is the normal starting point. We start from business outcomes and work back to use cases. Ideas already floating around get folded in, but they are never the starting point."
+      ],
+      [
+        "How independent are you really?",
+        "I do not receive commissions, affiliate fees or margin on implementation partners. If I have advised a vendor before or have a relationship with one, I disclose that before we discuss that vendor. That is also stated in the agreement."
+      ],
+      [
+        "Will you present the result to our board?",
+        "If you want me there, I will be, for questions. But you present. A strategy your advisor has to explain is not yet yours."
+      ]
+    ],
+    "related": [
+      "ai-readiness-assessment",
+      "fractional-ai-lead"
+    ]
+  },
+  {
+    "id": "en-fractional-ai-lead",
+    "lang": "en",
+    "slug": "fractional-ai-lead",
+    "meta": "Senior AI leadership for 2, 4 or 8 days a month. I steer, safeguard and embed your AI agenda, and hand it over to your own lead.",
+    "number": "03",
+    "featured": true,
+    "tone": "salmon",
+    "icon": "◎",
+    "title": "Fractional AI Lead",
+    "cardText": "Experienced AI leadership on an interim basis. I steer, build alongside your team and embed AI initiatives, without you hiring a full-time executive right away.",
+    "timing": "2, 4 or 8 days per month",
+    "price": "€2,600 / €5,200 / €10,400 per month",
+    "cardPrice": "From €2,600 / mo",
+    "cardTiming": "2, 4 or 8 days",
+    "priceNote": "Advice (2 days), Lead (4 days) or Lead+ (8 days) per month, for 2, 4 or 8 days per month in total. Minimum 3 months, then cancellable monthly.",
+    "eyebrow": "Senior leadership, part-time",
+    "heroTitle": "Fractional AI Lead",
+    "marked": "Fractional",
+    "lede": "You do not need a full-time Head of AI. You need someone who safeguards the agenda, asks the right questions in steering committees, and keeps good initiatives from quietly dying in the daily grind.",
+    "facts": [
+      {
+        "label": "Rhythm",
+        "value": "2, 4 or 8 days per month",
+        "tone": "aqua"
+      },
+      {
+        "label": "Term",
+        "value": "Minimum 3 months",
+        "tone": "salmon"
+      },
+      {
+        "label": "Investment",
+        "value": "€2,600 / €5,200 / €10,400 per month",
+        "tone": "yellow"
+      }
+    ],
+    "problemTitle": "The gap this fills",
+    "problem": [
+      "A full-time Head of AI costs a heavy salary package and months of hiring, for a role whose scope is not even fixed yet.",
+      "Without an owner, the AI agenda disappears between IT priorities and quarterly targets.",
+      "Your internal candidate is good, but needs someone who has done this before.",
+      "Decisions have to be made that nobody in the organization has the mandate or experience for."
+    ],
+    "approachIntro": "Fixed rhythm, fixed role, shrinking dependency.",
+    "approach": [
+      [
+        "Month 1",
+        "Taking over the running agenda, a stakeholder round, and an honest picture of what is actually happening versus what is on the roadmap."
+      ],
+      [
+        "Month 2-3",
+        "Setting up governance and cadence: steering committee, metrics, decision framework. First initiatives let through the gate, or deliberately stopped."
+      ],
+      [
+        "Month 4-6",
+        "Safeguarding execution, testing business cases against delivery, and preparing your internal successor."
+      ],
+      [
+        "After that",
+        "Scaling down to one day a month as a sparring partner, or handing over to the permanent AI lead now in place."
+      ]
+    ],
+    "deliverables": [
+      "Ownership of the AI portfolio and the decision framework around it",
+      "Chairing or joining the steering committee and architecture board",
+      "Testing business cases before commitment, not after",
+      "Vendor conversations and contract review from your side of the table",
+      "Coaching of the internal AI lead, product owners and data team",
+      "Monthly reporting you forward one-to-one to the board",
+      "An explicit handover plan, from day one"
+    ],
+    "bestFor": [
+      "Organizations with running AI initiatives but no clear owner",
+      "Teams that need direction and capacity but cannot yet carry a full-time role",
+      "Situations where an internal candidate is growing into the role and needs guidance",
+      "Companies that just set a strategy and now need to safeguard execution"
+    ],
+    "notFor": [
+      "If you are looking for someone available five days a week",
+      "If the role is mainly operational project management"
+    ],
+    "proof": {
+      "eyebrow": "Recent case",
+      "title": "Manufacturer brought scattered pilots under one roadmap.",
+      "body": "At an international manufacturing organization, seven pilots were running across four countries with no connection between them. In nine months that became one approved roadmap, three applications scaled, and an internal lead who took it over.",
+      "stats": [
+        [
+          "7",
+          "separate pilots at the start"
+        ],
+        [
+          "3",
+          "applications scaled"
+        ],
+        [
+          "25%",
+          "productivity target set"
+        ],
+        [
+          "9",
+          "months to handover"
+        ]
+      ],
+      "caseSlug": "ai-roadmap-internationale-maakorganisatie"
+    },
+    "faq": [
+      [
+        "How many days do I need?",
+        "Two days a month works if a strategy is in place and execution mainly needs safeguarding. Four days is more realistic if governance still needs to be built, or if multiple business units are involved."
+      ],
+      [
+        "Are you available between the fixed days?",
+        "Yes, for escalations and short questions. That is included in the rate. What is not included is unlimited attendance at meetings: nobody benefits from that."
+      ],
+      [
+        "What happens if we hire someone internally?",
+        "Then my work has succeeded. I help with the job profile and selection, and scale down to a sparring role. We build the handover plan in month one, not month six."
+      ],
+      [
+        "Do you work with multiple clients at once?",
+        "Yes, a maximum of three fractional roles in parallel. Never two direct competitors, and I check that before accepting an assignment."
+      ]
+    ],
+    "related": [
+      "ai-strategy-sprint",
+      "ai-due-diligence"
+    ]
+  },
+  {
+    "id": "en-vendor-review",
+    "lang": "en",
+    "slug": "vendor-review",
+    "meta": "Independent selection of AI vendors: criteria set upfront, scorecards, testing on your own data, and three-year TCO including exit.",
+    "number": "04",
+    "featured": false,
+    "tone": "sand",
+    "icon": "◈",
+    "title": "Vendor Review",
+    "cardText": "Independent advice on tools, vendors and propositions, before you sign.",
+    "timing": "3-6 weeks",
+    "price": "€9,800 - €15,400",
+    "priceNote": "Depends on the number of vendors (2 to 4).",
+    "eyebrow": "Choosing on fit, not on demo",
+    "heroTitle": "Vendor Review & Selection",
+    "marked": "Vendor",
+    "lede": "A structured selection process with clear criteria, real scorecards and a TCO calculation that looks beyond the license fee. So your choice holds up, even two years from now.",
+    "facts": [
+      {
+        "label": "Duration",
+        "value": "3-6 weeks",
+        "tone": "aqua"
+      },
+      {
+        "label": "Outcome",
+        "value": "Substantiated selection advice",
+        "tone": "salmon"
+      },
+      {
+        "label": "Investment",
+        "value": "€9,800 - €15,400",
+        "tone": "yellow"
+      }
+    ],
+    "problemTitle": "Where selection processes go wrong",
+    "problem": [
+      "The criteria get written after the favorite is already known.",
+      "Demos get judged on presentation quality instead of fit with your data and processes.",
+      "The TCO comparison stops at license costs and ignores integration, management and exit.",
+      "References get called, but only the references the vendor hands you."
+    ],
+    "approachIntro": "Criteria first, vendors after. Never the other way around.",
+    "approach": [
+      [
+        "Criteria & longlist",
+        "Weighting factors set with business, IT and procurement before we look at the market. Longlist built on fit, not brand recognition."
+      ],
+      [
+        "Structured evaluation",
+        "Every vendor gets the same scenario with your data, the same questionnaire and the same time. Scorecards are filled in independently and discussed afterward."
+      ],
+      [
+        "Validation & TCO",
+        "Use-case validation on real data, reference checks outside the vendor-supplied list, and a three-year TCO including integration, management and exit costs."
+      ],
+      [
+        "Decision & negotiation",
+        "One substantiated recommendation, a decision document that clears procurement, and support at the negotiating table."
+      ]
+    ],
+    "deliverables": [
+      "Weighting framework and scorecards, filled in and traceable",
+      "Longlist, shortlist and final assessment with reasoning at each cut",
+      "Three-year TCO comparison, including integration, management and exit costs",
+      "Risk analysis: vendor lock-in, data processing, model dependency, continuity",
+      "Reference report based on independent research",
+      "Decision document procurement and the board can use directly"
+    ],
+    "bestFor": [
+      "Processes where multiple internal parties favor different options",
+      "Purchases where the choice needs to be explainable afterward",
+      "Organizations that bought the wrong tool before and do not want a repeat"
+    ],
+    "notFor": [
+      "If the vendor is effectively already chosen and you want a justification after the fact"
+    ],
+    "proof": {
+      "eyebrow": "Recent case",
+      "title": "Twelve vendors, six weeks, one substantiated decision.",
+      "body": "An enterprise retailer chose an AI partner for demand forecasting. The selection process saved €1.1M in three-year TCO, largely because the cheapest license turned out to have the most expensive integration.",
+      "stats": [
+        [
+          "12",
+          "vendors assessed"
+        ],
+        [
+          "€1.1M",
+          "saved on TCO"
+        ],
+        [
+          "6",
+          "weeks turnaround"
+        ],
+        [
+          "35%",
+          "higher expected value"
+        ]
+      ],
+      "caseSlug": "vendorselectie-enterprise-retail"
+    },
+    "faq": [
+      [
+        "Can I reuse your scorecards myself?",
+        "Yes. The framework is yours afterward, including the weightings and the completed assessments. I do not deliver a black box."
+      ],
+      [
+        "Do you have relationships with vendors?",
+        "I know the market, so I know the players. But I do not receive a fee from any vendor. If I have worked with a party in the past two years, I disclose that before that party makes the longlist."
+      ],
+      [
+        "What if no vendor fits?",
+        "Then that is the advice. It is not unusual for the conclusion to be that building it yourself, or waiting, is wiser than buying."
+      ]
+    ],
+    "related": [
+      "ai-due-diligence",
+      "ai-strategy-sprint"
+    ]
+  },
+  {
+    "id": "en-executive-briefing",
+    "lang": "en",
+    "slug": "executive-briefing",
+    "meta": "A three-hour session where your executive team or board gets the same realistic picture of AI, including what it asks of them as overseers.",
+    "number": "05",
+    "featured": false,
+    "tone": "aqua",
+    "icon": "◉",
+    "title": "Executive Briefing",
+    "cardText": "A compact session for executives or the board on AI opportunities, risks and what it asks of decision-makers.",
+    "timing": "one half-day session incl. preparation",
+    "price": "€2,800",
+    "priceNote": "Includes preparation on your sector and situation. Fully credited if you start an AI Readiness Assessment within 60 days.",
+    "eyebrow": "Everyone at the table, same picture",
+    "heroTitle": "Executive Briefing",
+    "marked": "Executive",
+    "lede": "A three-hour session in which your executive team or board gets the same, realistic picture of what AI means for your organization, including what it asks of them as overseers.",
+    "facts": [
+      {
+        "label": "Duration",
+        "value": "one half-day session incl. preparation",
+        "tone": "aqua"
+      },
+      {
+        "label": "Outcome",
+        "value": "Shared picture + decision agenda",
+        "tone": "salmon"
+      },
+      {
+        "label": "Investment",
+        "value": "€2,800",
+        "tone": "yellow"
+      }
+    ],
+    "problemTitle": "Why this is needed",
+    "problem": [
+      "One board member reads that AI changes everything, another that it is a bubble. Both are reading good sources.",
+      "Supervisory board members need to ask questions about AI risk, but do not know which questions those are.",
+      "Investment decisions get made based on anecdotes from other industries.",
+      "Without a shared starting point, every next AI decision costs twice the meeting time."
+    ],
+    "approachIntro": "Prepared for your sector. Not the standard slide deck.",
+    "approach": [
+      [
+        "Beforehand",
+        "A short intake with the chair or secretary, plus research on your sector, competitors and current regulation."
+      ],
+      [
+        "Block 1",
+        "What actually works right now, what does not, and why, with examples from your own sector and adjacent ones."
+      ],
+      [
+        "Block 2",
+        "What does this mean for your strategy, cost base and competitive position? Open conversation, no slides."
+      ],
+      [
+        "Block 3",
+        "Governance and oversight: regulation, liability, and the five questions you should be able to ask as a board member."
+      ]
+    ],
+    "deliverables": [
+      "Three-hour session, on-site or online",
+      "Sector-specific preparation and examples",
+      "Decision agenda: which AI decisions are coming your way, and when",
+      "Oversight questionnaire: what to ask management about AI initiatives",
+      "Concise summary for the minutes and for anyone absent"
+    ],
+    "bestFor": [
+      "Supervisory and advisory boards defining their oversight role on AI",
+      "Executive teams missing a shared starting point",
+      "Organizations on the verge of a major AI investment",
+      "Off-sites where AI is on the agenda but nobody can lead the conversation"
+    ],
+    "notFor": [
+      "If you are looking for an inspirational keynote: I am not the right speaker for that"
+    ],
+    "proof": {
+      "eyebrow": "Typical result",
+      "title": "From four opinions to one decision agenda.",
+      "body": "Most briefings end not in enthusiasm but in relief: the scope is smaller than feared, the risks more concrete than expected, and there is an agenda the next meeting can build on.",
+      "stats": [
+        [
+          "3",
+          "hours"
+        ],
+        [
+          "1",
+          "shared picture"
+        ],
+        [
+          "5",
+          "oversight questions"
+        ],
+        [
+          "0",
+          "hockey-stick charts"
+        ]
+      ],
+      "caseSlug": null
+    },
+    "faq": [
+      [
+        "Can this be done online?",
+        "Yes, but on-site works better. The conversation between board members themselves is half the value, and that comes about more slowly at a distance."
+      ],
+      [
+        "How many participants?",
+        "Five to twelve. Beyond twelve it turns into a presentation instead of a conversation, and it delivers less."
+      ],
+      [
+        "Is this a disguised sales pitch?",
+        "No. A good share of briefings lead to no follow-up assignment, and that is fine. If a follow-up makes sense, I name that in one minute at the end."
+      ]
+    ],
+    "related": [
+      "ai-readiness-assessment",
+      "ai-strategy-sprint"
+    ]
+  },
+  {
+    "id": "en-ai-due-diligence",
+    "lang": "en",
+    "slug": "ai-due-diligence",
+    "meta": "A technically grounded assessment of an AI proposition or vendor, in language an investment committee understands. Always under NDA.",
+    "number": "06",
+    "featured": false,
+    "tone": "yellow",
+    "icon": "☑",
+    "title": "AI Due Diligence",
+    "cardText": "Assess AI solutions or companies on value, risk, safety and feasibility.",
+    "timing": "2-4 weeks",
+    "price": "€12,600 - €19,600",
+    "priceNote": "One solution at the lower end, an entire company at the upper end. Always under NDA.",
+    "eyebrow": "What is really under the hood?",
+    "heroTitle": "AI Due Diligence",
+    "marked": "Diligence",
+    "lede": "For investors assessing an AI proposition, and for organizations who want to know whether the AI they are buying is actually AI. Technically grounded, in language an investment committee understands.",
+    "facts": [
+      {
+        "label": "Duration",
+        "value": "2-4 weeks",
+        "tone": "aqua"
+      },
+      {
+        "label": "Outcome",
+        "value": "DD report + red flags",
+        "tone": "salmon"
+      },
+      {
+        "label": "Investment",
+        "value": "€12,600 - €19,600",
+        "tone": "yellow"
+      }
+    ],
+    "problemTitle": "What we typically find",
+    "problem": [
+      "An \"AI platform\" that is at its core a rule set with a language-model layer on top: sometimes fine, but not worth the valuation.",
+      "Models trained on data whose provenance cannot be demonstrated.",
+      "Dependency on a single model vendor with no migration path and no hedge against price risk.",
+      "An evaluation setup that cannot reproduce its own results."
+    ],
+    "approachIntro": "Four tracks, run in parallel.",
+    "approach": [
+      [
+        "Proposition & value",
+        "What does it solve, for whom, and how differentiated is that really compared to what a generic model can already do?"
+      ],
+      [
+        "Technology & data",
+        "Architecture, model choices, data rights, evaluation methodology, reproducibility, and the scalability of cost per transaction."
+      ],
+      [
+        "Risk & compliance",
+        "Risk classification, privacy, IP on training data, liability, and whether the marketing claims hold up."
+      ],
+      [
+        "Team & execution",
+        "Can this team build and maintain this? Key-person dependency, engineering practice and technical debt."
+      ]
+    ],
+    "deliverables": [
+      "DD report with findings per track and an explicit verdict",
+      "Red-flag overview, separated into deal-breakers and negotiation points",
+      "Assessment of the AI claims against what is demonstrably working",
+      "Cost model: what this costs per transaction at ten times current volume",
+      "Question list for follow-up conversations with the target or vendor",
+      "Verbal briefing to the investment committee or executive team"
+    ],
+    "bestFor": [
+      "Investors and corporate-development teams on AI acquisitions",
+      "Organizations bringing in a strategic AI vendor",
+      "Boards who want to know if an internally built platform will hold up"
+    ],
+    "notFor": [
+      "If you need a formal audit with an accountant's statement"
+    ],
+    "proof": {
+      "eyebrow": "Typical result",
+      "title": "Not every red flag is a deal-breaker.",
+      "body": "The goal is not to block a deal, but to know what you are buying. In most engagements the outcome shifts toward different guarantees, an adjusted earn-out or a technical integration plan, not toward \"no\".",
+      "stats": [
+        [
+          "4",
+          "research tracks"
+        ],
+        [
+          "2-4",
+          "weeks"
+        ],
+        [
+          "1",
+          "explicit verdict"
+        ],
+        [
+          "100%",
+          "under NDA"
+        ]
+      ],
+      "caseSlug": null
+    },
+    "faq": [
+      [
+        "Do you work under NDA?",
+        "Always. Both toward the client and toward the target. I sign the counterparty's NDA before any substantive information is shared."
+      ],
+      [
+        "How fast can you start?",
+        "For deal processes, usually within a week. With a tight exclusivity period, I can narrow the scope to the two tracks that matter most."
+      ],
+      [
+        "Do you also do the technical code review?",
+        "I assess architecture, data flows, evaluation setup and engineering practice. For a full code audit I work with a specialist I propose, with no margin on their rate."
+      ]
+    ],
+    "related": [
+      "vendor-review",
+      "fractional-ai-lead"
+    ]
   }
 ]

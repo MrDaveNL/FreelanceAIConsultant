@@ -37,7 +37,7 @@ const r = (
 export const routes: RouteEntry[] = [
   // Statische kernpagina's
   r('home', 'static', '', '/', { liveEn: true }),
-  r('diensten', 'static', '/diensten', '/services', {}),
+  r('diensten', 'static', '/diensten', '/services', { liveEn: true }),
   r('cases', 'static', '/cases', '/cases', {}),
   r('werkwijze', 'static', '/werkwijze', '/approach', {}),
   r('inzichten', 'static', '/inzichten', '/insights', {}),
@@ -50,12 +50,12 @@ export const routes: RouteEntry[] = [
   r('404', 'static', '/404', '/404', { liveEn: true }),
 
   // Diensten (leaf-slug blijft gelijk, alleen het segment 'diensten' -> 'services')
-  r('svc-ai-readiness-assessment', 'service', '/diensten/ai-readiness-assessment', '/services/ai-readiness-assessment'),
-  r('svc-ai-strategy-sprint', 'service', '/diensten/ai-strategy-sprint', '/services/ai-strategy-sprint'),
-  r('svc-fractional-ai-lead', 'service', '/diensten/fractional-ai-lead', '/services/fractional-ai-lead'),
-  r('svc-vendor-review', 'service', '/diensten/vendor-review', '/services/vendor-review'),
-  r('svc-executive-briefing', 'service', '/diensten/executive-briefing', '/services/executive-briefing'),
-  r('svc-ai-due-diligence', 'service', '/diensten/ai-due-diligence', '/services/ai-due-diligence'),
+  r('svc-ai-readiness-assessment', 'service', '/diensten/ai-readiness-assessment', '/services/ai-readiness-assessment', { liveEn: true }),
+  r('svc-ai-strategy-sprint', 'service', '/diensten/ai-strategy-sprint', '/services/ai-strategy-sprint', { liveEn: true }),
+  r('svc-fractional-ai-lead', 'service', '/diensten/fractional-ai-lead', '/services/fractional-ai-lead', { liveEn: true }),
+  r('svc-vendor-review', 'service', '/diensten/vendor-review', '/services/vendor-review', { liveEn: true }),
+  r('svc-executive-briefing', 'service', '/diensten/executive-briefing', '/services/executive-briefing', { liveEn: true }),
+  r('svc-ai-due-diligence', 'service', '/diensten/ai-due-diligence', '/services/ai-due-diligence', { liveEn: true }),
 
   // Cases
   r('case-ai-strategie-investeringsmaatschappij', 'case', '/cases/ai-strategie-investeringsmaatschappij', '/cases/ai-strategy-investment-firm'),

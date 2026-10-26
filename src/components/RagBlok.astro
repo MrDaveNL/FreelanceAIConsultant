@@ -2,10 +2,11 @@
 import '../styles/rag-blok.css';
 import { blokVoor } from '../data/rag/index.ts';
 import { renderRagBlok } from '../lib/rag-blok.js';
+import { localeFromPath } from '../data/routes.ts';
 
 // RAG-ready contentblok voor de pagina met dit pad. Rendert niets als er geen blok voor de pagina is.
 const { pagina } = Astro.props;
-const blok = blokVoor(pagina);
+const blok = blokVoor(pagina, localeFromPath(pagina));
 const html = blok ? renderRagBlok(blok) : '';
 ---
 {html && (

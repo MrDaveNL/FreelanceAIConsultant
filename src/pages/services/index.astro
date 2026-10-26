@@ -1,0 +1,131 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import PageHero from '@/components/PageHero.astro';
+import ServiceCard from '@/components/ServiceCard.astro';
+import CTA from '@/components/CTA.astro';
+import RagBlok from '@/components/RagBlok.astro';
+import { formatEur } from '@/data/prijzen.ts';
+import { timingEn } from '@/data/prijzen.ts';
+
+const allServices = (await getCollection('services', ({ data }) => data.lang === 'en')).map((s) => s.data);
+const featuredServices = allServices.filter((s) => s.featured);
+const extraServices = allServices.filter((s) => !s.featured);
+
+// EN comparison table. Prices resolved via formatEur(..., 'en'); same facts as the NL comparison table.
+const serviceComparisonEn = {
+  head: ['AI Readiness Assessment', 'AI Strategy Sprint', 'Fractional AI Lead'],
+  rows: [
+    ['Goal', 'Gain insight and set priorities', 'Set strategy and roadmap', 'Deliver and embed execution'],
+    ['Duration', '2-3 weeks', '4-6 weeks', `Ongoing (2, 4 or 8 days / month)`],
+    ['Best for', 'Teams that want to start', 'Teams with ambition and focus questions', 'Teams that need direction and capacity'],
+    ['Outcome', 'Report & 90-day plan', 'Roadmap & business case', 'Results, adoption & improvement'],
+    ['Investment', `${formatEur(7000, 'en')}`, `${formatEur(15400, 'en')} - ${formatEur(22400, 'en')}`, `${formatEur(2600, 'en')} - ${formatEur(10400, 'en')} per month`],
+    ['Your time', 'Low', 'Medium', 'Medium to high'],
+  ],
+};
+---
+<BaseLayout
+  title="Services | Freelance AI Consultant"
+  description="From AI Readiness Assessment to Fractional AI Lead. Six services with clear scope, timeline and investment. Independent and vendor-neutral."
+>
+  <PageHero
+    locale="en"
+    compact
+    eyebrow="AI advice that helps you decide"
+    title="Services that make AI decisions clear."
+    marked="AI decisions"
+    body="From first AI steps to strategic follow-through. Practical advice your team understands, your board trusts, and your organization can act on. Every service has a fixed price or a clear range. Where you land within it is set in the proposal, before we start."
+    secondary="Compare the services"
+    secondaryHref="#comparison"
+  />
+
+  <section class="section-sm">
+    <div class="container">
+      <p class="eyebrow center">My core services</p>
+      <div class="grid-3">
+        {featuredServices.map((service) => <ServiceCard service={service} />)}
+      </div>
+    </div>
+  </section>
+
+  <section class="section-sm extras">
+    <div class="container">
+      <p class="eyebrow center">Additional services</p>
+      <div class="grid-3 mini-grid">
+        {extraServices.map((service) => (
+          <a class="mini card" href={`/services/${service.slug}`}>
+            <span class="icon-dot" aria-hidden="true">{service.icon}</span>
+            <div>
+              <h3>{service.title}</h3>
+              <p>{service.cardText}</p>
+              <small>{service.timing} · {service.price}</small>
+            </div>
+            <span aria-hidden="true">→</span>
+          </a>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <section class="section fit" id="comparison">
+    <div class="container">
+      <p class="eyebrow center">Which one fits when?</p>
+      <div class="compare card">
+        <div class="row head">
+          <span></span>
+          {serviceComparisonEn.head.map((h) => <b>{h}</b>)}
+        </div>
+        {serviceComparisonEn.rows.map((row) => (
+          <div class="row">
+            <strong>{row[0]}</strong><span>{row[1]}</span><span>{row[2]}</span><span>{row[3]}</span>
+          </div>
+        ))}
+      </div>
+      <p class="note center">All amounts exclude VAT and travel expenses. Where a range is shown, the proposal fixes the exact amount after the intake.</p>
+    </div>
+  </section>
+
+  <RagBlok pagina="/services" />
+
+  <section class="section-sm process-note">
+    <div class="container two">
+      <div>
+        <p class="eyebrow">How an engagement starts</p>
+        <h2 class="h2">Always the same<br/><span class="marker">starting point.</span></h2>
+      </div>
+      <ol class="start-steps">
+        <li><b>Intro call (30 min, free)</b><span>You describe what you are running into. I ask questions and tell you at the end what I would do, even if that means you do not need me.</span></li>
+        <li><b>Proposal within three working days</b><span>Scope, approach, timeline, price, and what to expect from me and from your own team. One page, no bundle of appendices.</span></li>
+        <li><b>Start within two to six weeks</b><span>Depending on the current schedule. Briefings and intakes are usually faster.</span></li>
+        <li><b>Review after three months</b><span>Standard, at no cost. We check whether the promised result actually landed.</span></li>
+      </ol>
+    </div>
+  </section>
+
+  <CTA locale="en" title="Not sure which service fits?" body="Just call. In thirty minutes you will know, and sometimes the answer is that you do not need anything." />
+</BaseLayout>
+<style>
+.extras{background:var(--cream-2)}
+.mini{padding:22px;display:grid;grid-template-columns:auto 1fr auto;gap:15px;align-items:center;box-shadow:none;transition:transform .2s ease,background .2s}
+.mini:hover{transform:translateY(-3px);background:rgba(255,250,241,.95)}
+.mini h3{margin:0;color:var(--burgundy);font-size:1.08rem}
+.mini p{margin:5px 0 0;font-size:.8rem}
+.mini small{display:block;margin-top:8px;font-size:.72rem;font-weight:700;color:var(--muted)}
+.compare{overflow:hidden;box-shadow:none}
+.row{display:grid;grid-template-columns:.55fr repeat(3,1fr);min-height:62px;border-bottom:1px solid var(--line);align-items:center}
+.row>*{padding:12px 18px;font-size:.87rem}
+.row.head{background:color-mix(in srgb,var(--sand) 35%,transparent);color:var(--burgundy)}
+.row.head b:nth-child(2){color:#986700}
+.row.head b:nth-child(3){color:#336c69}
+.row.head b:nth-child(4){color:#9a3e3a}
+.row:last-child{border:0}
+.note{margin-top:20px;font-size:.78rem;color:var(--muted)}
+.two{display:grid;grid-template-columns:.5fr 1.5fr;gap:44px;align-items:start}
+.start-steps{list-style:none;counter-reset:s;padding:0;margin:0}
+.start-steps li{counter-increment:s;display:grid;grid-template-columns:auto 1fr;gap:18px;padding:18px 0;border-bottom:1px solid var(--line)}
+.start-steps li::before{content:counter(s,decimal-leading-zero);display:grid;place-items:center;width:34px;height:34px;border-radius:50%;background:var(--burgundy);color:#fff;font-size:.74rem;font-weight:800}
+.start-steps b{grid-column:2;color:var(--burgundy)}
+.start-steps span{grid-column:2;font-size:.86rem;color:var(--muted)}
+@media(max-width:800px){.compare{overflow-x:auto}.row{min-width:900px}.two{grid-template-columns:1fr}}
+</style>

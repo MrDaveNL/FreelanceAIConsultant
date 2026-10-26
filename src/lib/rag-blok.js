@@ -3,13 +3,14 @@
 // zodat er één implementatie van het blok is.
 import { services } from '../data/services.js';
 import { site } from '../data/site.js';
-import { prijsTekst, duurTekst, niveausTekst, voorwaarden } from './rag-prijzen.js';
+import { prijsTekst, duurTekst, niveausTekst, voorwaarden, prijsTekstEn, duurTekstEn, niveausTekstEn, voorwaardenEn } from './rag-prijzen.js';
 import { localeFromPath } from '../data/routes.ts';
 
 // De afzender. Eén plek, zodat de naam overal gelijk is.
 export const afzender = site.name;
 
 const MAANDEN = ['januari', 'februari', 'maart', 'april', 'mei', 'juni', 'juli', 'augustus', 'september', 'oktober', 'november', 'december'];
+const MONTHS_EN = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
 const esc = (s) => String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
 const zonderTags = (html) => html.replace(/<[^>]+>/g, '').replace(/\s+/g, ' ').trim();
 
@@ -42,18 +43,19 @@ const maakLinker = (pagina) => {
 //   {{dienst:slug}}                  naam van de dienst; de renderfunctie bepaalt waar die gelinkt wordt (zie maakLinker)
 //   {{afzender}}                     naam van de afzender
 //   [ankertekst](/pad)               interne of externe link
-const tekst = (ruw, pagina, link) => {
+const tekst = (ruw, pagina, link, taal = 'nl') => {
+  const en = taal === 'en';
   const html = esc(ruw)
     .replace(/\{\{(\w+)(?::([a-z0-9-]+))?\}\}/g, (token, veld, slug) => {
       if (veld === 'afzender' && !slug) return esc(afzender);
-      if (veld === 'voorwaarden' && !slug) return esc(voorwaarden);
+      if (veld === 'voorwaarden' && !slug) return esc(en ? voorwaardenEn : voorwaarden);
       if (!slug) throw new Error(`RAG-blok ${pagina}: onbekend token ${token}`);
       if (veld === 'dienst') return link ? link(dienstUrl(slug, pagina), esc(dienst(slug).title)) : esc(dienst(slug).title);
       if (veld === 'title') return esc(dienst(slug).title);
-      if (veld === 'timing') return esc(duurTekst(dienst(slug).slug));
-      if (veld === 'niveaus' && niveausTekst(dienst(slug).slug)) return esc(niveausTekst(dienst(slug).slug));
-      if (veld === 'price') return esc(prijsTekst(dienst(slug).slug));
-      if (veld === 'pricelc') return esc(prijsTekst(dienst(slug).slug).replace(/^\p{Lu}/u, (c) => c.toLowerCase()));
+      if (veld === 'timing') return esc(en ? duurTekstEn(dienst(slug).slug) : duurTekst(dienst(slug).slug));
+      if (veld === 'niveaus' && (en ? niveausTekstEn : niveausTekst)(dienst(slug).slug)) return esc((en ? niveausTekstEn : niveausTekst)(dienst(slug).slug));
+      if (veld === 'price') return esc(en ? prijsTekstEn(dienst(slug).slug) : prijsTekst(dienst(slug).slug));
+      if (veld === 'pricelc') return esc((en ? prijsTekstEn(dienst(slug).slug) : prijsTekst(dienst(slug).slug)).replace(/^\p{Lu}/u, (c) => c.toLowerCase()));
       throw new Error(`RAG-blok ${pagina}: onbekend token ${token}`);
     })
     .replace(/\[([^\]]+)\]\(((?:\/|https?:\/\/)[^)\s]*)\)/g, (_, anker, href) => (link ? link(href, anker) : anker));
@@ -61,31 +63,32 @@ const tekst = (ruw, pagina, link) => {
   return html;
 };
 
-const cel = (waarde, pagina, link) => {
-  if (typeof waarde === 'string') return tekst(waarde, pagina, link);
-  if ('href' in waarde) return link(waarde.href, tekst(waarde.tekst, pagina));
+const cel = (waarde, pagina, link, taal = 'nl') => {
+  const en = taal === 'en';
+  if (typeof waarde === 'string') return tekst(waarde, pagina, link, taal);
+  if ('href' in waarde) return link(waarde.href, tekst(waarde.tekst, pagina, undefined, taal));
   if (waarde.veld === 'naam') return link(dienstUrl(waarde.dienst, pagina), esc(dienst(waarde.dienst).title));
-  if (waarde.veld === 'niveaus') return esc(niveausTekst(dienst(waarde.dienst).slug) ?? prijsTekst(dienst(waarde.dienst).slug));
-  return esc(waarde.veld === 'prijs' ? prijsTekst(dienst(waarde.dienst).slug) : duurTekst(dienst(waarde.dienst).slug));
+  if (waarde.veld === 'niveaus') return esc((en ? niveausTekstEn(dienst(waarde.dienst).slug) : niveausTekst(dienst(waarde.dienst).slug)) ?? (en ? prijsTekstEn : prijsTekst)(dienst(waarde.dienst).slug));
+  return esc(waarde.veld === 'prijs' ? (en ? prijsTekstEn : prijsTekst)(dienst(waarde.dienst).slug) : (en ? duurTekstEn : duurTekst)(dienst(waarde.dienst).slug));
 };
 
 // Geen tabel bij minder dan twee complete rijen. Een kolom met in elke rij dezelfde waarde is een fout.
-const tabel = (bron, pagina, link) => {
+const tabel = (bron, pagina, link, taal = 'nl') => {
   if (!bron) return '';
-  const compleet = bron.rijen.filter((rij) => rij.every((c) => zonderTags(cel(c, pagina, (_, inhoud) => inhoud))));
+  const compleet = bron.rijen.filter((rij) => rij.every((c) => zonderTags(cel(c, pagina, (_, inhoud) => inhoud, taal))));
   if (compleet.length < 2) return '';
-  const rijen = compleet.map((rij) => rij.map((c) => cel(c, pagina, link)));
+  const rijen = compleet.map((rij) => rij.map((c) => cel(c, pagina, link, taal)));
   bron.kolommen.forEach((kolom, i) => {
     if (new Set(rijen.map((rij) => zonderTags(rij[i]))).size === 1)
       throw new Error(`RAG-blok ${pagina}: kolom "${kolom}" heeft in elke rij dezelfde waarde`);
   });
-  const kop = bron.kolommen.map((k) => `<th scope="col">${tekst(k, pagina)}</th>`).join('');
+  const kop = bron.kolommen.map((k) => `<th scope="col">${tekst(k, pagina, undefined, taal)}</th>`).join('');
   const lijf = rijen
     .map((rij) => `<tr><th scope="row">${rij[0]}</th>${rij.slice(1).map((c) => `<td>${c}</td>`).join('')}</tr>`)
     .join('\n');
   return `<div class="rag-blok__tabel">
 <table>
-<caption>${tekst(bron.bijschrift, pagina)}</caption>
+<caption>${tekst(bron.bijschrift, pagina, undefined, taal)}</caption>
 <thead><tr>${kop}</tr></thead>
 <tbody>
 ${lijf}
@@ -101,17 +104,20 @@ ${lijf}
 export function renderRagDelen(blok) {
   // Zonder vraagkop, antwoordalinea en bron rendert het blok niets.
   if (!blok?.vraagkop || !blok.antwoord || !blok.bron?.tekst) return { antwoord: '', vervolg: '' };
-  const { pagina } = blok;
+  const { pagina, taal = 'nl' } = blok;
   // In de antwoordalinea staat de bandbreedte, niet de opsomming per niveau.
   if (/\{\{niveaus:/.test(blok.antwoord)) throw new Error(`RAG-blok ${pagina}: {{niveaus:...}} hoort niet in de antwoordalinea`);
   const [jaar, maand] = blok.bijgewerkt.split('-');
   const link = maakLinker(pagina);
   // Eerst de tabel, zodat een doel dat in een tabelrij staat daar zijn ene link krijgt.
-  const tabelHtml = tabel(blok.tabel, pagina, link);
-  const antwoord = `<p class="rag-blok__antwoord">${tekst(blok.antwoord, pagina, link)}</p>`;
-  const vervolg = blok.vervolgvragen.map((v) => `<h3>${tekst(v.vraag, pagina)}</h3>\n<p>${tekst(v.antwoord, pagina, link)}</p>`);
-  const bron = blok.bron.href ? link(blok.bron.href, tekst(blok.bron.tekst, pagina)) : tekst(blok.bron.tekst, pagina, link);
-  const bronregel = `<p class="rag-blok__bron">Bron: ${bron}. Bijgewerkt: <time datetime="${jaar}-${maand}">${MAANDEN[Number(maand) - 1]} ${jaar}</time>.</p>`;
+  const tabelHtml = tabel(blok.tabel, pagina, link, taal);
+  const antwoord = `<p class="rag-blok__antwoord">${tekst(blok.antwoord, pagina, link, taal)}</p>`;
+  const vervolg = blok.vervolgvragen.map((v) => `<h3>${tekst(v.vraag, pagina, undefined, taal)}</h3>\n<p>${tekst(v.antwoord, pagina, link, taal)}</p>`);
+  const bron = blok.bron.href ? link(blok.bron.href, tekst(blok.bron.tekst, pagina, undefined, taal)) : tekst(blok.bron.tekst, pagina, link, taal);
+  const maandNaam = taal === 'en' ? MONTHS_EN[Number(maand) - 1] : MAANDEN[Number(maand) - 1];
+  const bronregel = taal === 'en'
+    ? `<p class="rag-blok__bron">Source: ${bron}. Updated: <time datetime="${jaar}-${maand}">${maandNaam} ${jaar}</time>.</p>`
+    : `<p class="rag-blok__bron">Bron: ${bron}. Bijgewerkt: <time datetime="${jaar}-${maand}">${maandNaam} ${jaar}</time>.</p>`;
   const sectie = (klasse, delen) => [`<section class="${klasse}">`, ...delen.filter(Boolean), '</section>'].join('\n');
   if (blok.onderBestaandeKop)
     return {
@@ -123,13 +129,13 @@ export function renderRagDelen(blok) {
 
 // De vragen van het blok met hun antwoord als platte tekst: de vraagkop met de antwoordalinea, daarna elke
 // vervolgvraag. Zelfde bron en zelfde tokens als de zichtbare HTML, zodat structured data en pagina gelijk blijven.
-const platteTekst = (ruw, pagina) =>
-  tekst(ruw, pagina).replace(/&lt;/g, '<').replace(/&gt;/g, '>').replace(/&quot;/g, '"').replace(/&amp;/g, '&');
+const platteTekst = (ruw, pagina, taal) =>
+  tekst(ruw, pagina, undefined, taal).replace(/&lt;/g, '<').replace(/&gt;/g, '>').replace(/&quot;/g, '"').replace(/&amp;/g, '&');
 export function ragVragen(blok) {
   if (!renderRagDelen(blok).antwoord) return [];
   return [{ vraag: blok.vraagkop, antwoord: blok.antwoord }, ...blok.vervolgvragen].map((v) => ({
-    vraag: platteTekst(v.vraag, blok.pagina),
-    antwoord: platteTekst(v.antwoord, blok.pagina),
+    vraag: platteTekst(v.vraag, blok.pagina, blok.taal),
+    antwoord: platteTekst(v.antwoord, blok.pagina, blok.taal),
   }));
 }
 

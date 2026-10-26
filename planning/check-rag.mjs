@@ -17,7 +17,10 @@ const blokken = process.env.RAG_BLOKKEN
   ? valideer(blokSchema, JSON.parse(fs.readFileSync(process.env.RAG_BLOKKEN, 'utf8')), 'blok', 'pagina')
   : (await import('../src/data/rag/index.ts')).blokken;
 
-const bedragen = (t) => t.match(/€\s?\d[\d.]*\d|€\s?\d/g)?.map((b) => b.replace(/\s/g, '')) ?? [];
+const bedragen = (t) => t.match(/€\s?\d[\d.,]*\d|€\s?\d/g)?.map((b) => b.replace(/\s/g, '')) ?? [];
+// NL gebruikt de punt, EN de komma als duizendtalscheiding voor hetzelfde bedrag; voor de vergelijking
+// met de (NL) databron telt alleen de kale cijferreeks.
+const kaleBedrag = (b) => b.replace(/[.,]/g, '');
 const duren = (t) =>
   t.match(/(?<![\p{L}\d])(?:\d+(?:\s?-\s?\d+)?(?:,\s\d+)*(?:\sof\s\d+)?|één|een|twee|drie|vier|vijf|zes|acht)\s(?:weken|week|maanden|maand|dagen|dagdelen|dagdeel|uur)(?![\p{L}])/giu) ?? [];
 // Wat de databron per dienst over prijs en doorlooptijd zegt.
@@ -178,7 +181,7 @@ for (const { url, doc } of paginas) {
 
     // Bron en datum.
     const bronregel = alle('.rag-blok__bron')[0];
-    if (!bronregel || !/^Bron: \S/.test(tekstVan(bronregel))) fout.push('bronregel ontbreekt');
+    if (!bronregel || !(blok.taal === 'en' ? /^Source: \S/ : /^Bron: \S/).test(tekstVan(bronregel))) fout.push('bronregel ontbreekt');
     else if (!tekstVan(bronregel).includes(afzender)) fout.push(`bronregel noemt de afzender (${afzender}) niet`);
     if (!/^\d{4}-\d{2}(-\d{2})?$/.test(bronregel?.querySelector('time')?.getAttribute('datetime') ?? '')) fout.push('time met datetime ontbreekt in de bronregel');
 
@@ -213,7 +216,7 @@ for (const { url, doc } of paginas) {
         const inZin = genoemdIn(zin);
         const voorBedrag = inZin.length ? inZin : inDeel.length ? inDeel : eigen;
         const voorDuur = inZin.length ? inZin : eigen;
-        for (const b of new Set(bedragen(zin))) if (voorBedrag.length && !voorBedrag.some((s) => bron[s].bedragen.includes(b))) fout.push(`bedrag ${b} staat niet in de databron bij ${voorBedrag.join(' of ')}`);
+        for (const b of new Set(bedragen(zin))) if (voorBedrag.length && !voorBedrag.some((s) => bron[s].bedragen.some((x) => kaleBedrag(x) === kaleBedrag(b)))) fout.push(`bedrag ${b} staat niet in de databron bij ${voorBedrag.join(' of ')}`);
         for (const d of new Set(duren(zin).map((x) => x.toLowerCase().replace(/\s?-\s?/g, '-')))) if (voorDuur.length && !voorDuur.some((s) => bron[s].tekst.includes(d))) fout.push(`doorlooptijd "${d}" staat niet in de databron bij ${voorDuur.join(' of ')}`);
       }
     }

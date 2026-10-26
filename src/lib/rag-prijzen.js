@@ -1,6 +1,6 @@
 // Hoe prijs en doorlooptijd van een dienst in een RAG-blok staan. Alles komt letterlijk uit src/data/prijzen.ts.
 // Gedeeld door de renderfunctie (src/lib/rag-blok.js) en de controle (planning/check-rag.mjs).
-import { prijzen, fractionalNiveaus, prijsvoorwaarden, formatEur } from '../data/prijzen.ts';
+import { prijzen, fractionalNiveaus, prijsvoorwaarden, formatEur, timingEn } from '../data/prijzen.ts';
 
 // Zelfde notatie als in prijzen.ts: €7.000, punt als duizendtalscheiding.
 const eur = (bedrag) => '€' + String(bedrag).replace(/\B(?=(\d{3})+(?!\d))/g, '.');
@@ -31,11 +31,18 @@ export const bronTekst = (slug) => {
 };
 export const dienstSlugs = Object.keys(prijzen);
 
-// EN-equivalent van prijsTekst/duurTekst, nog niet aan EN-content gekoppeld (fase 1 heeft geen EN-diensten).
-// EN-getalnotatie via formatEur (komma als duizendtalscheiding); "from X" i.p.v. de NL-bandbreedtezin.
+// EN-equivalent van prijsTekst/duurTekst, zelfde opbouw als de NL-versie hierboven: bij niveaus de
+// bandbreedte met de omvang, anders de vaste prijs of bandbreedte uit min/maxPrice (nooit "from" bij
+// een vaste prijs: alleen fractional-ai-lead heeft niveaus en dus een echte bandbreedte).
 export const prijsTekstEn = (slug) =>
   niveaus[slug]
-    ? `${formatEur(prijzen[slug].minPrice, 'en')}-${formatEur(prijzen[slug].maxPrice, 'en')} per month, for ${opsomming(niveaus[slug].map((n) => String(n.dagen)), 'or')} days per month`
-    : `from ${formatEur(prijzen[slug].minPrice, 'en')}`;
+    ? `${formatEur(prijzen[slug].minPrice, 'en')} - ${formatEur(prijzen[slug].maxPrice, 'en')} per month, for ${opsomming(niveaus[slug].map((n) => String(n.dagen)), 'or')} days per month`
+    : prijzen[slug].minPrice === prijzen[slug].maxPrice
+      ? formatEur(prijzen[slug].minPrice, 'en')
+      : `${formatEur(prijzen[slug].minPrice, 'en')} - ${formatEur(prijzen[slug].maxPrice, 'en')}`;
 export const duurTekstEn = (slug) =>
-  niveaus[slug] ? `${opsomming(niveaus[slug].map((n) => String(n.dagen)), 'or')} days per month` : prijzen[slug].timing;
+  niveaus[slug] ? `${opsomming(niveaus[slug].map((n) => String(n.dagen)), 'or')} days per month` : timingEn[slug] ?? prijzen[slug].timing;
+export const niveausTekstEn = (slug) =>
+  niveaus[slug] ? opsomming(niveaus[slug].map((n) => `${formatEur(n.perMaand, 'en')} per month for ${n.naam} (${n.dagen} days per month)`), 'and') : null;
+// EN-equivalent van prijsvoorwaarden ("excluding VAT and travel expenses"), zelfde feit als NL.
+export const voorwaardenEn = 'excluding VAT and travel expenses';

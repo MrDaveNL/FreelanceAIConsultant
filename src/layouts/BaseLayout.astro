@@ -24,8 +24,7 @@ const locale = localeFromPath(cleanPath);
 const canonical = new URL(cleanPath, site.url).href;
 const ogImage = new URL(image, site.url).href;
 // De vragen van een RAG-blok komen ook in de structured data, als het blok daarvoor is aangezet (markup: true).
-// RAG-blokken bestaan in fase 1 alleen in het NL; voor EN levert dit altijd undefined op.
-const ragBlok = blokVoor(cleanPath);
+const ragBlok = blokVoor(cleanPath, locale);
 
 // Reciproque hreflang + x-default (wijst naar EN). Alleen talen die voor deze pagina
 // echt live zijn krijgen een alternate; geen counterpart betekent geen hreflang-regel.

@@ -126,7 +126,7 @@ export const blokSchema = z
     if (blok.type === 'kennisbank' && /\{\{afzender\}\}(?! adviseert)/.test(blok.antwoord))
       ctx.addIssue({ code: z.ZodIssueCode.custom, path: ['antwoord'], message: 'kennisbankblok noemt de afzender alleen in de bronregel' });
     for (const [i, v] of blok.vervolgvragen.entries())
-      if (begintMetBedrag(v.antwoord) && !vraagtNaarBedrag(v.vraag))
+      if (begintMetBedrag(v.antwoord) && !vraagtNaarBedrag(v.vraag, blok.taal))
         ctx.addIssue({ code: z.ZodIssueCode.custom, path: ['vervolgvragen', i, 'antwoord'], message: 'begint met een bedrag terwijl de vraag daar niet naar vraagt' });
     if (blok.externeFeiten?.length && /^tarieven en doorlooptijden van \{\{afzender\}\}$/.test(blok.bron.tekst.trim()))
       ctx.addIssue({ code: z.ZodIssueCode.custom, path: ['bron', 'tekst'], message: 'blok bevat een extern feit; tarieven en doorlooptijden mag dan niet de enige bron zijn' });
