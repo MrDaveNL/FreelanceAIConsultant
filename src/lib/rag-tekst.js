@@ -69,7 +69,9 @@ const FUNCTIEWOORDEN = new Set(['de', 'het', 'een', 'van', 'in', 'op', 'voor', '
 const ontsnap = (s) => s.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
 // "één" telt hier niet mee: het staat meestal als lidwoord of in een vaste uitdrukking ("in één keer").
 const TEL = TELWOORDEN.filter((w) => w !== 'één').join('|');
-const GETAL = `\\d+(?:, \\d+)+ (?:of|en) \\d+|(?<![\\p{L}])(?:${TEL}) tot (?:${TEL})(?![\\p{L}])|€?\\d[\\d.,]*\\d(?:-\\d[\\d.,]*\\d|-\\d)?%?|€?\\d(?:-\\d[\\d.,]*\\d|-\\d)?%?|(?<![\\p{L}])(?:${TELWOORDEN.filter((w) => w !== 'één').join('|')})(?![\\p{L}])`;
+// "of"/"en" zijn de NL-voegwoorden in een opsomming als "2, 4 of 8"; "or"/"and" het EN-equivalent
+// ("2, 4 or 8"), nodig zodra een dienst met zo'n opsomming (bv. fractional-ai-lead) op een EN-pagina staat.
+const GETAL = `\\d+(?:, \\d+)+ (?:of|en|or|and) \\d+|(?<![\\p{L}])(?:${TEL}) tot (?:${TEL})(?![\\p{L}])|€?\\d[\\d.,]*\\d(?:-\\d[\\d.,]*\\d|-\\d)?%?|€?\\d(?:-\\d[\\d.,]*\\d|-\\d)?%?|(?<![\\p{L}])(?:${TELWOORDEN.filter((w) => w !== 'één').join('|')})(?![\\p{L}])`;
 
 // Alle getalsuitdrukkingen in een tekst, elk met het woord ervoor en erna.
 export const getalUitdrukkingen = (tekst) => {
