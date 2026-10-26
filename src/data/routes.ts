@@ -17,6 +17,10 @@ export interface RouteEntry {
   live: Record<Locale, boolean>;
   // NL-pagina's die wel gebouwd zijn maar 'noindex, follow' (wacht op publicatie).
   noindex?: boolean;
+  // Geen EN-tegenhanger gepland (bv. NL-specifieke data, of inhoud samengevoegd op een andere
+  // EN-pagina). 'paths.en' blijft staan als documentatie van het oorspronkelijke voorstel, maar
+  // 'live.en' mag hiervoor nooit true worden.
+  noEn?: boolean;
 }
 
 const r = (
@@ -24,7 +28,7 @@ const r = (
   kind: RouteKind,
   nl: string,
   en: string,
-  opts: { cluster?: string; liveEn?: boolean; noindex?: boolean } = {}
+  opts: { cluster?: string; liveEn?: boolean; noindex?: boolean; noEn?: boolean } = {}
 ): RouteEntry => ({
   id,
   kind,
@@ -32,6 +36,7 @@ const r = (
   paths: { nl: `/nl${nl}`, en },
   live: { nl: true, en: Boolean(opts.liveEn) },
   noindex: opts.noindex,
+  noEn: opts.noEn,
 });
 
 export const routes: RouteEntry[] = [
@@ -83,7 +88,9 @@ export const routes: RouteEntry[] = [
   r('C1-00', 'content', '/ai-consultancy', '/ai-consulting', { cluster: 'ai-consultancy' }),
   r('C1-05', 'content', '/ai-consultancy/ai-advies', '/ai-consulting/ai-advice', { cluster: 'ai-consultancy' }),
   r('C1-06', 'content', '/ai-consultancy/ai-consultant-inhuren', '/ai-consulting/hire-an-ai-consultant', { cluster: 'ai-consultancy' }),
-  r('C1-04', 'content', '/ai-consultancy/ai-roadmap', '/ai-consulting/ai-roadmap', { cluster: 'ai-consultancy' }),
+  // Geen EN-tegenhanger: "ai roadmap" betekent in het Engels een carrièrepad, niet dit onderwerp.
+  // Inhoud wordt samengevoegd op C1-03 (/ai-consulting/ai-strategy) in plaats van een eigen EN-pagina.
+  r('C1-04', 'content', '/ai-consultancy/ai-roadmap', '/ai-consulting/ai-roadmap', { cluster: 'ai-consultancy', noEn: true }),
   r('C1-03', 'content', '/ai-consultancy/ai-strategie', '/ai-consulting/ai-strategy', { cluster: 'ai-consultancy' }),
 
   r('C2-00', 'content', '/ai-implementatie', '/ai-implementation', { cluster: 'ai-implementatie' }),
@@ -114,20 +121,23 @@ export const routes: RouteEntry[] = [
   r('C8-01', 'content', '/ai-beleid/ai-act', '/ai-policy/ai-act', { cluster: 'ai-beleid' }),
 
   r('C9-00', 'content', '/ai-workshop', '/ai-workshop', { cluster: 'ai-workshop' }),
-  r('C9-04', 'content', '/ai-workshop/ai-coaching', '/ai-workshop/ai-coaching', { cluster: 'ai-workshop' }),
+  // Geen EN-tegenhanger gepland voor deze batch.
+  r('C9-04', 'content', '/ai-workshop/ai-coaching', '/ai-workshop/ai-coaching', { cluster: 'ai-workshop', noEn: true }),
   r('C9-05', 'content', '/ai-workshop/ai-geletterdheid-training', '/ai-workshop/ai-literacy-training', { cluster: 'ai-workshop' }),
   r('C9-03', 'content', '/ai-workshop/chatgpt-training', '/ai-workshop/chatgpt-training', { cluster: 'ai-workshop' }),
   r('C9-02', 'content', '/ai-workshop/copilot-training', '/ai-workshop/copilot-training', { cluster: 'ai-workshop' }),
 
   r('P08', 'content', '/kennisbank', '/knowledge-base', { cluster: 'kennisbank' }),
   r('C6-05', 'content', '/kennisbank/ai-agents-en-avg', '/knowledge-base/ai-agents-and-gdpr', { cluster: 'kennisbank' }),
-  r('C5-05', 'content', '/kennisbank/ai-specialist-salaris', '/knowledge-base/ai-specialist-salary', { cluster: 'kennisbank' }),
+  // Geen EN-tegenhanger: NL-arbeidsmarktdata (salaris), zou misleidend zijn zonder eigen EN-cijfers.
+  r('C5-05', 'content', '/kennisbank/ai-specialist-salaris', '/knowledge-base/ai-specialist-salary', { cluster: 'kennisbank', noEn: true }),
   r('C3-06', 'content', '/kennisbank/ai-voorbeelden', '/knowledge-base/ai-examples', { cluster: 'kennisbank' }),
   r('C10-01', 'content', '/kennisbank/chatgpt-voor-bedrijven', '/knowledge-base/chatgpt-for-business', { cluster: 'kennisbank' }),
   r('C10-02', 'content', '/kennisbank/claude-voor-bedrijven', '/knowledge-base/claude-for-business', { cluster: 'kennisbank' }),
   r('C10-03', 'content', '/kennisbank/gemini-voor-bedrijven', '/knowledge-base/gemini-for-business', { cluster: 'kennisbank' }),
   r('C10-04', 'content', '/kennisbank/microsoft-copilot-voor-bedrijven', '/knowledge-base/microsoft-copilot-for-business', { cluster: 'kennisbank' }),
-  r('C3-07', 'content', '/kennisbank/notuleren-met-ai', '/knowledge-base/ai-meeting-notes', { cluster: 'kennisbank' }),
+  // Geen EN-tegenhanger gepland voor deze batch.
+  r('C3-07', 'content', '/kennisbank/notuleren-met-ai', '/knowledge-base/ai-meeting-notes', { cluster: 'kennisbank', noEn: true }),
   r('C10-05', 'content', '/kennisbank/prompt-engineering', '/knowledge-base/prompt-engineering', { cluster: 'kennisbank' }),
   r('C3-08', 'content', '/kennisbank/rpa-vs-ai-automatisering', '/knowledge-base/rpa-vs-ai-automation', { cluster: 'kennisbank' }),
   r('C1-07', 'content', '/kennisbank/wat-doet-een-ai-consultant', '/knowledge-base/what-does-an-ai-consultant-do', { cluster: 'kennisbank' }),
