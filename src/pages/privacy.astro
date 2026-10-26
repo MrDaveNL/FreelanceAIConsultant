@@ -1,0 +1,95 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { site } from '../data/site.js';
+
+const updated = '22 September 2026';
+---
+<BaseLayout
+  title={`Privacy Policy | ${site.brand}`}
+  description="How freelanceaiconsultant.com handles personal data: what data is processed, why, for how long, and what rights you have."
+>
+  <section class="section-sm legal-hero">
+    <div class="container">
+      <a class="back" href="/">← Back to home</a>
+      <p class="eyebrow">Legal</p>
+      <h1 class="h1">Privacy<span class="marker">Policy</span></h1>
+      <p class="lede">This policy describes how {site.legal.entity} ({site.domain}) handles the personal data of visitors, contacts and clients.</p>
+      <p class="updated">Last updated: {updated}</p>
+    </div>
+  </section>
+
+  <section class="section-sm">
+    <div class="container legal-prose">
+      <div class="legal-note">
+        <b>Still to be completed before going live</b>
+        The VAT identification number and place of business below are still placeholder values. Replace them in <code>src/data/site.js</code> and have this policy reviewed against your actual processing activities before the site goes public.
+      </div>
+
+      <h2>1. Who is responsible?</h2>
+      <p>The data controller for the processing of personal data via this website is:</p>
+      <ul>
+        <li>{site.legal.entity}, trading as {site.domain}</li>
+        <li>Based in {site.legal.city}, the Netherlands</li>
+        <li>Chamber of Commerce (KvK) number: {site.legal.kvk}</li>
+        <li>VAT identification number: {site.legal.btw}</li>
+        <li>Email: <a href={`mailto:${site.email}`}>{site.email}</a></li>
+      </ul>
+
+      <h2>2. What data is processed?</h2>
+      <h3>Contact and intake form</h3>
+      <p>If you fill in the contact form, the data you provide yourself is processed: name, email address, and optionally job title, organization, timeline, budget indication and the description of your question.</p>
+      <h3>Email and phone contact</h3>
+      <p>In the case of direct contact, your contact details and the content of the correspondence are processed, to the extent necessary to answer your question and carry out any resulting assignment.</p>
+      <h3>Newsletter</h3>
+      <p>When you sign up for the newsletter, your email address is processed, together with the date of sign-up. You can unsubscribe via the link in any issue, or by sending a message.</p>
+      <h3>Clients</h3>
+      <p>During an engagement, the business contact details of the people involved are processed, as well as the data needed for invoicing and administration.</p>
+
+      <h2>3. Why is this data processed?</h2>
+      <table>
+        <thead><tr><th>Purpose</th><th>Legal basis</th></tr></thead>
+        <tbody>
+          <tr><td>Answering questions and requests</td><td>Performance of a contract, or steps taken prior to it</td></tr>
+          <tr><td>Carrying out an engagement</td><td>Performance of a contract</td></tr>
+          <tr><td>Invoicing and administration</td><td>Legal obligation</td></tr>
+          <tr><td>Sending the newsletter</td><td>Consent</td></tr>
+          <tr><td>Security and abuse prevention</td><td>Legitimate interest</td></tr>
+        </tbody>
+      </table>
+
+      <h2>4. How long is data retained?</h2>
+      <ul>
+        <li><b>Requests that do not lead to an engagement:</b> a maximum of twelve months after the last contact.</li>
+        <li><b>Engagement data:</b> for the duration of the engagement and seven years thereafter, in accordance with the statutory retention obligation for administrative records.</li>
+        <li><b>Newsletter data:</b> until you unsubscribe.</li>
+      </ul>
+
+      <h2>5. Sharing with third parties</h2>
+      <p>Personal data is not sold and is not shared for third parties' commercial purposes. Data is only shared with service providers needed to run the business (think of an email service, a form service for the contact form, an accounting package and a hosting provider), and only to the extent necessary for their services. Data processing agreements are in place with these parties.</p>
+      <p>For engagements that require access to a client's business data, the arrangements from the engagement agreement additionally apply, as well as, where applicable, a data processing agreement with that client.</p>
+
+      <h2>6. Transfers outside the EEA</h2>
+      <p>Where service providers process data outside the European Economic Area, this takes place on the basis of an adequacy decision or standard contractual clauses of the European Commission.</p>
+
+      <h2>7. Cookies and statistics</h2>
+      <p>This website does not place tracking or advertising cookies and does not use profiling techniques. No cookies are placed that require consent. The website loads fonts from Google Fonts; in doing so, your IP address is passed to that service in order to deliver the font.</p>
+
+      <h2>8. Security</h2>
+      <p>Appropriate technical and organizational measures have been taken to protect personal data against loss and unlawful processing, including encrypted connections, access restrictions and periodic review of the services used.</p>
+
+      <h2>9. Your rights</h2>
+      <p>You have the right to access your data, and to have it corrected or deleted. You can also object to processing, request a restriction of processing, and request your data in a portable format. Consent (for example, for the newsletter) can be withdrawn at any time.</p>
+      <p>Send a request to <a href={`mailto:${site.email}`}>{site.email}</a>. You will receive a response within four weeks.</p>
+      <p>If you disagree with how your request was handled, you can file a complaint with the Dutch Data Protection Authority (Autoriteit Persoonsgegevens) via <a href="https://autoriteitpersoonsgegevens.nl" rel="noopener">autoriteitpersoonsgegevens.nl</a>.</p>
+
+      <h2>10. Changes</h2>
+      <p>This privacy policy may be amended when the services provided or legislation give cause to do so. The date at the top indicates when the last change was made.</p>
+    </div>
+  </section>
+</BaseLayout>
+<style>
+.legal-hero{padding-top:52px}
+.legal-hero .lede{margin-top:24px}
+.updated{font-size:.82rem;color:var(--muted);margin-top:16px}
+code{background:rgba(74,31,42,.1);padding:2px 6px;border-radius:4px;font-size:.88em}
+</style>
