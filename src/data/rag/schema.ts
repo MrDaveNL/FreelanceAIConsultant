@@ -81,8 +81,6 @@ export const vervolgvraagSchema = z
     const eersteZin = splitsZinnen(v.antwoord)[0] ?? '';
     if (v.voorbehoud && v.onvoorwaardelijk) fout('heeft een voorbehoud en is tegelijk als onvoorwaardelijk gemarkeerd');
     if (v.voorbehoud && !eersteZin.toLowerCase().includes(v.voorbehoud.toLowerCase())) fout(`eerste zin neemt het voorbehoud "${v.voorbehoud}" niet letterlijk over`);
-    if (isKaalJaNee(v.antwoord) && !v.onvoorwaardelijk) fout('begint met een kaal Ja of Nee; neem het voorbehoud van de bron over in de eerste zin, of zet onvoorwaardelijk: true als de bron geen voorbehoud maakt');
-    if (!v.voorbehoud && !begintMetAntwoord(v.antwoord, [], v.vraag)) fout('moet beginnen met het antwoord op de vraag: ja of nee bij een ja-neevraag, anders het getal of de naam');
   });
 
 export const blokSchema = z
@@ -125,9 +123,14 @@ export const blokSchema = z
       ctx.addIssue({ code: z.ZodIssueCode.custom, path: ['antwoord'], message: 'moet de afzender noemen ({{afzender}})' });
     if (blok.type === 'kennisbank' && /\{\{afzender\}\}(?! adviseert)/.test(blok.antwoord))
       ctx.addIssue({ code: z.ZodIssueCode.custom, path: ['antwoord'], message: 'kennisbankblok noemt de afzender alleen in de bronregel' });
-    for (const [i, v] of blok.vervolgvragen.entries())
+    for (const [i, v] of blok.vervolgvragen.entries()) {
       if (begintMetBedrag(v.antwoord) && !vraagtNaarBedrag(v.vraag, blok.taal))
         ctx.addIssue({ code: z.ZodIssueCode.custom, path: ['vervolgvragen', i, 'antwoord'], message: 'begint met een bedrag terwijl de vraag daar niet naar vraagt' });
+      if (isKaalJaNee(v.antwoord, blok.taal) && !v.onvoorwaardelijk)
+        ctx.addIssue({ code: z.ZodIssueCode.custom, path: ['vervolgvragen', i, 'antwoord'], message: 'begint met een kaal Ja of Nee; neem het voorbehoud van de bron over in de eerste zin, of zet onvoorwaardelijk: true als de bron geen voorbehoud maakt' });
+      if (!v.voorbehoud && !begintMetAntwoord(v.antwoord, [], v.vraag, blok.taal))
+        ctx.addIssue({ code: z.ZodIssueCode.custom, path: ['vervolgvragen', i, 'antwoord'], message: 'moet beginnen met het antwoord op de vraag: ja of nee bij een ja-neevraag, anders het getal of de naam' });
+    }
     if (blok.externeFeiten?.length && /^tarieven en doorlooptijden van \{\{afzender\}\}$/.test(blok.bron.tekst.trim()))
       ctx.addIssue({ code: z.ZodIssueCode.custom, path: ['bron', 'tekst'], message: 'blok bevat een extern feit; tarieven en doorlooptijden mag dan niet de enige bron zijn' });
     if (!blok.bron.tekst.includes('{{afzender}}'))

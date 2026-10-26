@@ -24,11 +24,6 @@ export const niveausTekst = (slug) =>
 export const duurTekst = (slug) =>
   niveaus[slug] ? `${opsomming(niveaus[slug].map((n) => String(n.dagen)), 'of')} dagen per maand` : prijzen[slug].timingVoluit ?? prijzen[slug].timing;
 
-// Alle tekst die de databron over één dienst bevat, voor de controle "staat dit letterlijk in prijzen.ts?".
-export const bronTekst = (slug) => {
-  const p = prijzen[slug];
-  return [p.price, p.timing, p.priceNote, p.cardPrice ?? '', p.cardTiming ?? '', prijsTekst(slug), niveausTekst(slug) ?? '', duurTekst(slug), voorwaarden].join(' | ');
-};
 export const dienstSlugs = Object.keys(prijzen);
 
 // EN-equivalent van prijsTekst/duurTekst, zelfde opbouw als de NL-versie hierboven: bij niveaus de
@@ -46,3 +41,16 @@ export const niveausTekstEn = (slug) =>
   niveaus[slug] ? opsomming(niveaus[slug].map((n) => `${formatEur(n.perMaand, 'en')} per month for ${n.naam} (${n.dagen} days per month)`), 'and') : null;
 // EN-equivalent van prijsvoorwaarden ("excluding VAT and travel expenses"), zelfde feit als NL.
 export const voorwaardenEn = 'excluding VAT and travel expenses';
+
+// Alle tekst die de databron over één dienst bevat, voor de controle "staat dit letterlijk in prijzen.ts?".
+// Bevat zowel de NL- als de EN-formulering: beide komen uit dezelfde prijzen.ts, en een EN RAG-blok mag zijn
+// bedragen/doorlooptijden net zo tegen deze databron toetsen als een NL-blok (anders matcht een EN-zin als
+// "takes 3-6 weeks" nooit tegen een Nederlandstalige bron).
+export const bronTekst = (slug) => {
+  const p = prijzen[slug];
+  return [
+    p.price, p.timing, p.priceNote, p.cardPrice ?? '', p.cardTiming ?? '',
+    prijsTekst(slug), niveausTekst(slug) ?? '', duurTekst(slug), voorwaarden,
+    prijsTekstEn(slug), niveausTekstEn(slug) ?? '', duurTekstEn(slug), voorwaardenEn,
+  ].join(' | ');
+};

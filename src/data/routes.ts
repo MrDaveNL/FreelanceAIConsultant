@@ -143,7 +143,7 @@ export const routes: RouteEntry[] = [
   r('C7-07', 'content', '/markten/overheid', '/markets/government', { cluster: 'markten', noindex: true }),
   r('C7-01', 'content', '/markten/zorg', '/markets/healthcare', { cluster: 'markten', noindex: true }),
 
-  r('P06', 'content', '/partnernetwerk', '/partner-network', { cluster: 'partnernetwerk' }),
+  r('P06', 'content', '/partnernetwerk', '/partner-network', { cluster: 'partnernetwerk', liveEn: true }),
   r('P04', 'content', '/tarieven', '/pricing', { cluster: 'tarieven', liveEn: true }),
 ];
 
