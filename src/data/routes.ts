@@ -43,7 +43,7 @@ export const routes: RouteEntry[] = [
   r('inzichten', 'static', '/inzichten', '/insights', {}),
   r('over', 'static', '/over', '/about', { liveEn: true }),
   r('contact', 'static', '/contact', '/contact', { liveEn: true }),
-  r('veelgestelde-vragen', 'static', '/veelgestelde-vragen', '/faq', {}),
+  r('veelgestelde-vragen', 'static', '/veelgestelde-vragen', '/faq', { liveEn: true }),
   r('privacy', 'static', '/privacy', '/privacy', {}),
   r('algemene-voorwaarden', 'static', '/algemene-voorwaarden', '/terms', {}),
   // 404 is infrastructuur, geen content: bestaat in elke taal vanaf fase 1.

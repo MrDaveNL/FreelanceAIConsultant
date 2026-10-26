@@ -55,6 +55,64 @@ export const faqGroups = [
   },
 ];
 
+// EN-equivalent of faqGroups above, native English phrasing for the /faq page.
+export const faqGroupsEn = [
+  {
+    title: 'Working together',
+    icon: '◎',
+    items: [
+      ['How does a first conversation work?', 'Thirty minutes, online or on-site. You describe what you are facing, I ask questions, and at the end I tell you what I would do, even if that means you do not need me. No slide deck, no on-the-spot quote.'],
+      ['Do you work alone or with a team?', 'I work alone. That is the core of the offer: you always get the senior person you spoke to. For execution that needs more hands, I introduce partners I know, with no markup on their rate.'],
+      ['Which sectors do you work in?', 'The focus is financial services, retail, industry and professional services. Sector knowledge helps, but the actual questions (prioritizing, choosing, safeguarding) look a lot alike.'],
+      ['Do you work internationally?', 'Yes, in the Netherlands, Belgium and Germany. Sessions can be in Dutch or English. For engagements with a lot of on-site presence, I factor travel time into the planning.'],
+      ['How fast can you start?', 'For an Executive Briefing or an intake, usually within two weeks. For a sprint or assessment it depends on the current schedule: typically three to six weeks out.'],
+    ],
+  },
+  {
+    title: 'Independence',
+    icon: '✓',
+    items: [
+      ['What does independent actually mean?', 'No software commissions, no affiliate fees, no partner status with vendors, and no markup on implementation partners. My income comes entirely from advisory hours you pay for.'],
+      ['Do you also sell implementation?', 'No. That is a deliberate choice: the moment I earn from the build, I have an interest in a bigger scope. I do guide implementations, but from your side of the table.'],
+      ['What if you already know a vendor?', 'I disclose that before that party comes into view, including the nature and period of that relationship. That is recorded as an agreement in the engagement letter, not just stated as intent.'],
+      ['Can I reuse your frameworks myself?', 'Yes. Scorecards, weighting frameworks, measurement setups and decision documents are yours once the engagement ends, including the underlying logic. I do not deliver a black box.'],
+    ],
+  },
+  {
+    title: 'Approach & results',
+    icon: '↯',
+    items: [
+      ['Do you deliver a report or a decision?', 'A decision, backed by documentation. Everything I deliver is built to help you make a choice. A report that is mainly thorough rarely helps at the moment a decision actually has to happen.'],
+      ['How much time does it cost my team?', 'For an assessment: 45-60 minutes per person interviewed, plus two sessions with the core group. For a sprint: five half-day working sessions with four to six people. For a fractional role: the regular meetings that would happen anyway.'],
+      ['What if the outcome is negative?', 'Then you get that outcome. For some engagements, the advice is not to buy, to postpone, or to stop. That is usually the advice that saves the most money.'],
+      ['Do you present to our board?', 'I am there for questions if you would like, but you present. A strategy your advisor has to explain for you is not really yours yet.'],
+      ['What happens afterward?', 'For scoped engagements: nothing, unless you ask for something. I do not work with automatic follow-up proposals. I do offer one evaluation conversation after three months as standard, at no cost.'],
+    ],
+  },
+  {
+    title: 'Pricing & terms',
+    icon: '€',
+    items: [
+      ['How is pricing structured?', 'A fixed price per engagement where the scope is clear (assessment, briefing), a range where the size varies (sprint, vendor review), and a monthly fee for a fractional role. All amounts exclude VAT and travel costs.'],
+      ['Why are prices published on the site?', 'Because otherwise you would need three conversations just to find out if this fits your budget. Every service has a fixed price or a clear range; where you land within it is set out in the proposal after the intake call.'],
+      ['Can I also book a single question or workshop?', 'Yes, for scoped advisory work, workshops and second opinions. You still get a fixed price upfront in the proposal, because that keeps the conversation about the outcome rather than the timesheet.'],
+      ['What are the payment terms?', 'Invoicing per month or per milestone, payment term thirty days. For fixed-price engagements: fifty percent upfront, fifty percent on delivery.'],
+      ['What about cancellation?', 'Engagements can be ended with one month notice for ongoing roles. For fixed-price engagements, the hours worked and the work delivered up to that point are settled.'],
+    ],
+  },
+  {
+    title: 'Procurement, data & compliance',
+    icon: '▣',
+    items: [
+      ['Do you meet our procurement requirements?', 'Usually, yes. I work with a standard agreement and can fit into your procurement process, including vendor registration, a certificate of good conduct and proof of insurance.'],
+      ['How do you handle our data?', 'I work within your policies and do not process company data without a written agreement. Where possible, I work with anonymized or aggregated data. We sign a data processing agreement whenever personal data is involved.'],
+      ['Do you use AI tools in your own work?', 'Yes, for analysis and writing. Never with confidential client data in tools that are not approved for that. If your policy sets requirements here, I follow that policy.'],
+      ['Who owns the delivered work?', 'You do. All deliverables, frameworks and analyses become your property after payment. I retain the right to reuse generic methodology, never your data, figures or situation.'],
+      ['Are you insured?', 'Yes, professional indemnity and business liability insurance. I share policy details on request during procurement.'],
+    ],
+  },
+];
+
 export const procurement = [
   ['✓', 'Onafhankelijkheid', '100% vendor-neutraal. Mijn advies is uitsluitend gebaseerd op jouw belang, en belangen meld ik vooraf.'],
   ['▣', 'Data & veiligheid', 'Ik werk volgens jullie policies en verwerk geen data zonder schriftelijke afspraak of verwerkersovereenkomst.'],
