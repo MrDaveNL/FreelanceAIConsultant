@@ -97,7 +97,7 @@ export const routes: RouteEntry[] = [
   r('C2-01', 'content', '/ai-implementatie/advies', '/ai-implementation/consulting', { cluster: 'ai-implementatie' }),
   r('C2-03', 'content', '/ai-implementatie/stappenplan', '/ai-implementation/step-by-step-plan', { cluster: 'ai-implementatie' }),
 
-  r('C3-00', 'content', '/ai-automatisering', '/ai-automation', { cluster: 'ai-automatisering' }),
+  r('C3-00', 'content', '/ai-automatisering', '/ai-automation', { cluster: 'ai-automatisering', liveEn: true }),
   r('C3-05', 'content', '/ai-automatisering/ai-tools', '/ai-automation/ai-tools', { cluster: 'ai-automatisering' }),
   r('C3-04', 'content', '/ai-automatisering/ai-workflows', '/ai-automation/ai-workflows', { cluster: 'ai-automatisering' }),
   r('C3-03', 'content', '/ai-automatisering/bedrijfsprocessen-automatiseren-met-ai', '/ai-automation/automate-business-processes-with-ai', { cluster: 'ai-automatisering' }),
