@@ -1,12 +1,13 @@
 ---
-const { filters = [], target, center = false } = Astro.props;
+const { filters = [], target, center = false, locale = 'nl' } = Astro.props;
+const emptyText = locale === 'en' ? 'No results in this category.' : 'Geen resultaten in deze categorie.';
 ---
 <div class:list={['filters', center && 'is-center']} data-filter-target={target}>
   {filters.map((f, i) => (
     <button type="button" class:list={['filter-btn', i === 0 && 'active']} data-filter={i === 0 ? '*' : f}>{f}</button>
   ))}
 </div>
-<p class="filter-empty" data-filter-empty={target} hidden>Geen resultaten in deze categorie.</p>
+<p class="filter-empty" data-filter-empty={target} hidden>{emptyText}</p>
 <script>
   document.querySelectorAll('[data-filter-target]').forEach((bar) => {
     const targetSel = bar.getAttribute('data-filter-target');

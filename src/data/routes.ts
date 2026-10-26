@@ -38,7 +38,7 @@ export const routes: RouteEntry[] = [
   // Statische kernpagina's
   r('home', 'static', '', '/', { liveEn: true }),
   r('diensten', 'static', '/diensten', '/services', { liveEn: true }),
-  r('cases', 'static', '/cases', '/cases', {}),
+  r('cases', 'static', '/cases', '/cases', { liveEn: true }),
   r('werkwijze', 'static', '/werkwijze', '/approach', { liveEn: true }),
   r('inzichten', 'static', '/inzichten', '/insights', {}),
   r('over', 'static', '/over', '/about', { liveEn: true }),
@@ -58,12 +58,12 @@ export const routes: RouteEntry[] = [
   r('svc-ai-due-diligence', 'service', '/diensten/ai-due-diligence', '/services/ai-due-diligence', { liveEn: true }),
 
   // Cases
-  r('case-ai-strategie-investeringsmaatschappij', 'case', '/cases/ai-strategie-investeringsmaatschappij', '/cases/ai-strategy-investment-firm'),
-  r('case-vendorselectie-enterprise-retail', 'case', '/cases/vendorselectie-enterprise-retail', '/cases/vendor-selection-enterprise-retail'),
-  r('case-ai-roadmap-internationale-maakorganisatie', 'case', '/cases/ai-roadmap-internationale-maakorganisatie', '/cases/ai-roadmap-global-manufacturer'),
-  r('case-kyc-documentanalyse-financial-services', 'case', '/cases/kyc-documentanalyse-financial-services', '/cases/kyc-document-analysis-financial-services'),
-  r('case-ai-readiness-scale-up', 'case', '/cases/ai-readiness-scale-up', '/cases/ai-readiness-scale-up'),
-  r('case-interne-ai-assistent-kenniswerkers', 'case', '/cases/interne-ai-assistent-kenniswerkers', '/cases/internal-ai-assistant-knowledge-workers'),
+  r('case-ai-strategie-investeringsmaatschappij', 'case', '/cases/ai-strategie-investeringsmaatschappij', '/cases/ai-strategy-investment-firm', { liveEn: true }),
+  r('case-vendorselectie-enterprise-retail', 'case', '/cases/vendorselectie-enterprise-retail', '/cases/vendor-selection-enterprise-retail', { liveEn: true }),
+  r('case-ai-roadmap-internationale-maakorganisatie', 'case', '/cases/ai-roadmap-internationale-maakorganisatie', '/cases/ai-roadmap-global-manufacturer', { liveEn: true }),
+  r('case-kyc-documentanalyse-financial-services', 'case', '/cases/kyc-documentanalyse-financial-services', '/cases/kyc-document-analysis-financial-services', { liveEn: true }),
+  r('case-ai-readiness-scale-up', 'case', '/cases/ai-readiness-scale-up', '/cases/ai-readiness-scale-up', { liveEn: true }),
+  r('case-interne-ai-assistent-kenniswerkers', 'case', '/cases/interne-ai-assistent-kenniswerkers', '/cases/internal-ai-assistant-knowledge-workers', { liveEn: true }),
 
   // Inzichten / insights (artikelen)
   r('art-ai-agents-wat-ze-wel-en-niet-kunnen', 'article', '/inzichten/ai-agents-wat-ze-wel-en-niet-kunnen', '/insights/what-ai-agents-can-and-cannot-do'),

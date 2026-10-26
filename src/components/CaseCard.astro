@@ -4,7 +4,7 @@ const { item, href = item.lang === 'en' ? `/cases/${item.slug}` : `/nl/cases/${i
 <a class="case-card card" href={href} data-sector={item.sector}>
   <div class="case-top"><span class="icon-dot">{item.icon}</span><span class="sector">{item.sector}</span></div>
   <h3>{item.cardTitle}</h3>
-  <p><b>Uitdaging:</b><br/>{item.challenge}</p>
+  <p><b>{item.lang === 'en' ? 'Challenge:' : 'Uitdaging:'}</b><br/>{item.challenge}</p>
   <div class:list={['result', `tone-${item.tone}`]}>{item.result}<span>→</span></div>
 </a>
 <style>

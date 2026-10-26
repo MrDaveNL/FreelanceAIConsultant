@@ -7,6 +7,17 @@ export const caseFilters = [
   'Proces & productivity',
 ];
 
+// EN filter labels, must match the sector strings used on the EN case entries exactly
+// (FilterBar matches filter label to card data-sector by exact string).
+export const caseFiltersEn = [
+  'All cases',
+  'Financial services',
+  'Retail',
+  'Industrial / B2B',
+  'Strategy & AI',
+  'Process & productivity',
+];
+
 export const cases = [
   {
     slug: 'ai-strategie-investeringsmaatschappij',

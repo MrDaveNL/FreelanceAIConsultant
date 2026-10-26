@@ -452,5 +452,469 @@
       "Meetopzet voor teruggewonnen tijd"
     ],
     "next": "ai-strategie-investeringsmaatschappij"
+  },
+  {
+    "id": "en-ai-strategy-investment-firm",
+    "lang": "en",
+    "slug": "ai-strategy-investment-firm",
+    "sector": "Financial services",
+    "tone": "yellow",
+    "icon": "◈",
+    "cardTitle": "AI strategy & use-case portfolio for an investment firm",
+    "title": "AI Strategy & Use-Case Portfolio",
+    "titleMarked": "AI Strategy",
+    "titleRest": "& Use-Case Portfolio",
+    "challenge": "No clear AI priorities, and fragmented ideas without business impact.",
+    "result": "8 priority use cases · €1.2M impact potential",
+    "metaTitle": "Case: AI Strategy for an Investment Firm",
+    "metaDescription": "Seven departments, forty ideas and no shared yardstick. In five weeks that became one portfolio with eight use cases and a board that said yes.",
+    "lede": "Seven departments, forty ideas and no shared yardstick for deciding what came first. In five weeks that became one portfolio with eight use cases, an investment logic and a board that said yes.",
+    "service": "AI Strategy Sprint",
+    "serviceSlug": "ai-strategy-sprint",
+    "duration": "5 weeks",
+    "year": "2025",
+    "proof": [
+      [
+        "40",
+        "ideas gathered from across the organization"
+      ],
+      [
+        "18",
+        "use cases seriously assessed"
+      ],
+      [
+        "8",
+        "use cases in the portfolio"
+      ],
+      [
+        "€1.2M",
+        "impact potential over 24 months"
+      ],
+      [
+        "1",
+        "board session to approval"
+      ]
+    ],
+    "story": [
+      [
+        "Situation",
+        "A mid-sized investment firm had named AI a strategic theme. Every team had taken that and run with it: due-diligence support, portfolio monitoring, report generation, deal sourcing. Separate initiatives, each with its own vendor in mind and its own definition of success."
+      ],
+      [
+        "Challenge",
+        "The CFO had to bring an investment proposal to the partners but could not explain why one initiative got budget and another did not. There was no shared yardstick, and without one every conversation became a question of who lobbied hardest."
+      ],
+      [
+        "Approach",
+        "In two weeks we gathered forty ideas and narrowed them to eighteen worth assessing seriously. Every use case got the same treatment: which business outcome, what data is needed, who owns it, what is the change burden, and what does it cost if it fails. Scoring happened in a joint session, not in my spreadsheet."
+      ],
+      [
+        "Decision",
+        "Eight use cases made the portfolio, split across three themes: deal preparation, portfolio insight and internal productivity. Ten were dropped, each with an explicit, documented reason. That last part turned out to be the most valuable thing in the months after: dropped ideas did not quietly resurface."
+      ],
+      [
+        "Result",
+        "The board approved the portfolio in a single session, including budget for the first four use cases. The €1.2M impact potential over 24 months was substantiated use case by use case, with the assumptions visible, so the board knew exactly where the uncertainty sat."
+      ]
+    ],
+    "quote": {
+      "text": "Dave brings structure to AI chaos. He asks the right questions and comes up with concrete, workable choices.",
+      "author": "CFO, investment firm",
+      "translated": true
+    },
+    "role": [
+      "Design and facilitation of the sprint",
+      "Use-case inventory and scoring",
+      "Value modeling and assumptions",
+      "Stakeholder alignment across seven departments",
+      "Board document and presentation support"
+    ],
+    "next": "vendor-selection-enterprise-retail"
+  },
+  {
+    "id": "en-vendor-selection-enterprise-retail",
+    "lang": "en",
+    "slug": "vendor-selection-enterprise-retail",
+    "sector": "Retail",
+    "tone": "aqua",
+    "icon": "◎",
+    "cardTitle": "AI-driven vendor selection in enterprise retail",
+    "title": "Vendor Selection for Enterprise Retail",
+    "titleMarked": "Vendor Selection",
+    "titleRest": "for Enterprise Retail",
+    "challenge": "Choosing AI solutions on gut feel instead of value and fit.",
+    "result": "12 vendors assessed · €1.1M saved on TCO",
+    "lede": "A structured selection process that led to the right AI partner, lower total cost, and a roadmap that delivers value immediately.",
+    "service": "Vendor Review",
+    "serviceSlug": "vendor-review",
+    "duration": "6 weeks",
+    "year": "2025",
+    "proof": [
+      [
+        "6",
+        "weeks from kick-off to decision"
+      ],
+      [
+        "€1.1M",
+        "saved on TCO over 3 years"
+      ],
+      [
+        "12",
+        "vendors assessed"
+      ],
+      [
+        "35%",
+        "higher expected business value"
+      ],
+      [
+        "3",
+        "departments behind one decision"
+      ]
+    ],
+    "story": [
+      [
+        "Situation",
+        "The organization wanted to use AI for demand forecasting and assortment optimization. There was plenty of supply, but no clear picture of which vendor actually fit the strategy, the data environment and the ambition to scale. Two suppliers had already presented, and both had an internal fan club."
+      ],
+      [
+        "Challenge",
+        "How do you choose the right AI partner in an opaque market, without getting lost in demos, promises and polished pitches? And how do you make sure the choice still holds up two years later, when the first setback arrives?"
+      ],
+      [
+        "Approach",
+        "Criteria first, vendors second. Business, IT and procurement agreed the weighting factors together before a single name was on the table. Twelve parties went through the same process: the same questionnaire, the same scenario on real data from their own environment, the same amount of time. Scorecards were filled in independently and discussed afterward."
+      ],
+      [
+        "Decision",
+        "The three-year TCO analysis flipped the picture. The party with the lowest license fee had by far the most expensive integration and the weakest exit path. The eventual winner ranked third after the demos, but won on data fit, integration cost and reference checks we ran ourselves, outside the list the vendor supplied."
+      ],
+      [
+        "Result",
+        "A future-proof partner choice with demonstrable value, €1.1M lower total cost over three years, and a roadmap with quick wins and scalable impact. More importantly: a decision document procurement signed off without additional questions."
+      ]
+    ],
+    "quote": {
+      "text": "Dave brought structure, critical questions and independence. That gave us the confidence to make the right choice.",
+      "author": "Director of Data & Analytics",
+      "translated": true
+    },
+    "role": [
+      "Process design & facilitation",
+      "Vendor evaluation & scorecards",
+      "Business case & TCO analysis",
+      "Stakeholder alignment",
+      "Final advice & negotiation support"
+    ],
+    "next": "ai-roadmap-global-manufacturer",
+    "metaTitle": "Case: AI Vendor Selection in Enterprise Retail"
+  },
+  {
+    "id": "en-ai-roadmap-global-manufacturer",
+    "lang": "en",
+    "slug": "ai-roadmap-global-manufacturer",
+    "sector": "Industrial / B2B",
+    "tone": "salmon",
+    "icon": "↗",
+    "cardTitle": "AI roadmap & leadership for a global manufacturer",
+    "title": "AI Roadmap & Leadership in Manufacturing",
+    "titleMarked": "AI Roadmap",
+    "titleRest": "& Leadership",
+    "challenge": "No coherent AI strategy, and scattered pilots that never scaled.",
+    "result": "Roadmap approved · 25% productivity target",
+    "metaTitle": "Case: AI Roadmap for a Global Manufacturer",
+    "lede": "Seven pilots in four countries, none of them scaled. Nine months later: one roadmap, three production applications and an internal lead who took over.",
+    "service": "Fractional AI Lead",
+    "serviceSlug": "fractional-ai-lead",
+    "duration": "9 months",
+    "year": "2025",
+    "proof": [
+      [
+        "7",
+        "standalone pilots at the start"
+      ],
+      [
+        "3",
+        "applications moved to production"
+      ],
+      [
+        "25%",
+        "productivity target set"
+      ],
+      [
+        "4",
+        "countries under one governance"
+      ],
+      [
+        "9",
+        "months to internal handover"
+      ]
+    ],
+    "story": [
+      [
+        "Situation",
+        "A global manufacturer with sites in four countries had something running with AI at every location. Quality inspection with image recognition in Germany, predictive maintenance in the Netherlands, a quoting assistant in Poland. All seven pilots worked technically. None had scaled."
+      ],
+      [
+        "Challenge",
+        "There was no owner. The CIO had inherited the portfolio, with no time and no AI background. Without someone guarding the agenda, every initiative faded the moment the local enthusiast got pulled onto something else. Hiring a full-time Head of AI was not realistic while the scope of that role was still unclear."
+      ],
+      [
+        "Approach",
+        "I started as fractional AI lead for three days a month. The first month went into an honest inventory: what is actually running, what does it cost, and who uses it. Two of the seven pilots turned out to have already quietly stopped. In months two and three we set up governance: one steering group, one decision framework, one set of metrics that all four countries reported against."
+      ],
+      [
+        "Decision",
+        "Three pilots got the green light to scale, two were deliberately ended, and two were parked until the data foundation was in order. The decision to stop cost the most discussion and freed up the most capacity."
+      ],
+      [
+        "Result",
+        "The roadmap was approved with a 25% productivity target on the processes involved. Three applications now run in production across multiple sites. After nine months an internally promoted lead took over the role; I scaled back to one day a month as a sounding board."
+      ]
+    ],
+    "quote": {
+      "text": "Finally someone who translates AI into value, not technology. And who dares to tell us what we needed to stop doing.",
+      "author": "CEO, industrial company",
+      "translated": true
+    },
+    "role": [
+      "Fractional AI lead, 3 days a month",
+      "Portfolio inventory and clean-up",
+      "Governance and decision framework across 4 countries",
+      "Chairing the steering group",
+      "Coaching and handover to the internal lead"
+    ],
+    "next": "kyc-document-analysis-financial-services"
+  },
+  {
+    "id": "en-kyc-document-analysis-financial-services",
+    "lang": "en",
+    "slug": "kyc-document-analysis-financial-services",
+    "sector": "Financial services",
+    "tone": "sand",
+    "icon": "☑",
+    "cardTitle": "KYC process accelerated with AI-assisted document analysis",
+    "title": "KYC Accelerated with AI-Assisted Document Analysis",
+    "titleMarked": "KYC Accelerated",
+    "titleRest": "with Document Analysis",
+    "challenge": "Manual document checks caused long turnaround times and errors.",
+    "result": "−60% turnaround time · +35% quality",
+    "metaDescription": "The model wasn't the hard part. The hard part was a workflow analysts can trust, can still overrule, and the regulator accepts.",
+    "lede": "The model was not the hard part. The hard part was designing a workflow where analysts can trust the output and can still overrule it, and that the regulator accepts.",
+    "service": "AI Strategy Sprint",
+    "serviceSlug": "ai-strategy-sprint",
+    "duration": "4 months",
+    "year": "2025",
+    "proof": [
+      [
+        "−60%",
+        "turnaround time per file"
+      ],
+      [
+        "+35%",
+        "quality score in sample audits"
+      ],
+      [
+        "100%",
+        "decisions with a human check"
+      ],
+      [
+        "4",
+        "months to production"
+      ],
+      [
+        "0",
+        "findings in the internal audit"
+      ]
+    ],
+    "story": [
+      [
+        "Situation",
+        "A financial services provider processed client onboarding largely by hand. Analysts read through extracts, financial statements, identity documents and UBO declarations to complete each file. Turnaround times kept growing, and quality varied by analyst and by week."
+      ],
+      [
+        "Challenge",
+        "AI support was the obvious answer, but KYC is a regulated process. Every automated step had to be explainable, reproducible and traceable to a human decision. A model that is right 95% of the time is not automatically usable in this domain: everything depends on what happens in the remaining 5%."
+      ],
+      [
+        "Approach",
+        "We started with the workflow, not the model. Which steps in handling a file are extraction (pulling facts out of a document) and which are judgment (weighing whether that fact represents a risk)? Only the extraction steps were in scope. For every extraction we set a confidence threshold: above it, the system proposes a value; below it, it goes to the analyst unfiltered."
+      ],
+      [
+        "Decision",
+        "The architecture was deliberately conservative: the system proposes, the analyst confirms. Every confirmation and every correction is logged, giving both an audit trail and a measurable quality loop. There is no step where a file is closed out without a human check."
+      ],
+      [
+        "Result",
+        "Turnaround time per file dropped 60%, mainly because analysts no longer had to search but only had to check. The quality score in sample audits rose 35%, because the system consistently surfaced every field instead of only the ones an analyst happened to think of. The internal audit raised no findings."
+      ]
+    ],
+    "quote": {
+      "text": "The gain wasn't in what the system decided, but in what our people no longer had to search for.",
+      "author": "Head of Operations, financial services firm",
+      "translated": true
+    },
+    "role": [
+      "Process analysis separating extraction from judgment",
+      "Design of the human-in-the-loop workflow",
+      "Principles for explainability and audit trail",
+      "Alignment with compliance and internal audit",
+      "Guidance for the vendor and implementation team"
+    ],
+    "next": "ai-readiness-scale-up",
+    "metaTitle": "Case: AI-Assisted KYC Document Analysis"
+  },
+  {
+    "id": "en-ai-readiness-scale-up",
+    "lang": "en",
+    "slug": "ai-readiness-scale-up",
+    "sector": "Strategy & AI",
+    "tone": "yellow",
+    "icon": "⌕",
+    "cardTitle": "AI readiness assessment for a growth-stage scale-up",
+    "title": "AI Readiness for a Growing Scale-Up",
+    "titleMarked": "AI Readiness",
+    "titleRest": "for a Scale-Up",
+    "challenge": "Uncertainty about where to start and what it actually takes to make AI land.",
+    "result": "Readiness score + 90-day action plan",
+    "lede": "The outcome was not what the client hoped for: not yet. It was the outcome that prevented a year of wasted implementation.",
+    "service": "AI Readiness Assessment",
+    "serviceSlug": "ai-readiness-assessment",
+    "duration": "3 weeks",
+    "year": "2025",
+    "proof": [
+      [
+        "5",
+        "dimensions scored"
+      ],
+      [
+        "14",
+        "use cases assessed"
+      ],
+      [
+        "3",
+        "blockers that actually mattered"
+      ],
+      [
+        "90",
+        "day concrete action plan"
+      ],
+      [
+        "1",
+        "premature purchase avoided"
+      ]
+    ],
+    "story": [
+      [
+        "Situation",
+        "A fast-growing SaaS organization of over two hundred employees wanted to use AI in the product and internally. A proposal for a multi-year AI platform commitment was on the table. The CTO wanted to sign, the CFO had doubts, and nobody could prove who was right."
+      ],
+      [
+        "Challenge",
+        "The question on the table was \"which platform?\" The question underneath it was \"are we actually ready?\" That one had never been asked. At a scale-up moving this fast, that is understandable: the data foundation grows with the product roadmap, not with an architecture plan."
+      ],
+      [
+        "Approach",
+        "Three weeks, five dimensions. Twelve interviews from business to engineering, a data scan of the key systems, and an assessment of fourteen use cases already floating around. The data scan was decisive: customer data sat spread across four systems with three different definitions of a customer."
+      ],
+      [
+        "Decision",
+        "The advice was to delay the platform decision by two quarters and first unify the customer definition and the data flows. Two of the fourteen use cases could proceed immediately, because they ran on a single source and needed no integration."
+      ],
+      [
+        "Result",
+        "The organization got a readiness score per dimension, three named blockers, and a 90-day plan with owners. The two immediate use cases went live within a month. The platform decision was made later, on a foundation that could carry it, and with a sharper scope that made the license cheaper."
+      ]
+    ],
+    "quote": {
+      "text": "We asked for a choice between vendors. We got the answer that we couldn't make that choice yet. In hindsight, that was the best advice we got that year.",
+      "author": "CFO, SaaS scale-up",
+      "translated": true
+    },
+    "role": [
+      "Readiness assessment across five dimensions",
+      "Data scan of the core systems",
+      "Assessment of 14 candidate use cases",
+      "90-day plan with owners and metrics",
+      "Advice to the CTO, CFO and investors"
+    ],
+    "next": "internal-ai-assistant-knowledge-workers",
+    "metaTitle": "Case: AI Readiness for a Scale-Up"
+  },
+  {
+    "id": "en-internal-ai-assistant-knowledge-workers",
+    "lang": "en",
+    "slug": "internal-ai-assistant-knowledge-workers",
+    "sector": "Process & productivity",
+    "tone": "aqua",
+    "icon": "◫",
+    "cardTitle": "Internal AI assistant for knowledge workers",
+    "title": "Internal AI Assistant for Knowledge Workers",
+    "titleMarked": "AI Assistant",
+    "titleRest": "for Knowledge Workers",
+    "challenge": "Significant time lost searching, summarizing and rewriting information.",
+    "result": "3 hours per person per week recovered",
+    "lede": "The technology was ready in three weeks. Adoption took five months. That ratio is where almost every business case falls apart.",
+    "service": "Fractional AI Lead",
+    "serviceSlug": "fractional-ai-lead",
+    "duration": "6 months",
+    "year": "2026",
+    "proof": [
+      [
+        "3 hrs",
+        "per person per week recovered"
+      ],
+      [
+        "68%",
+        "weekly active users"
+      ],
+      [
+        "4",
+        "core scenarios instead of open chat"
+      ],
+      [
+        "6",
+        "months to stable adoption"
+      ],
+      [
+        "2",
+        "features deliberately not built"
+      ]
+    ],
+    "story": [
+      [
+        "Situation",
+        "A professional services firm with around four hundred knowledge workers gave everyone access to an AI assistant. After three months, 11% used it weekly. License costs kept running, and the promised productivity gain was nowhere to be found in the numbers."
+      ],
+      [
+        "Challenge",
+        "The tool worked fine. The problem was that \"you can use it for anything\" means, for most people, that they do not know where to start. An empty input box is not a workflow. And the people who did use it did not share how, so no habit spread through the organization."
+      ],
+      [
+        "Approach",
+        "We moved away from \"assistant for everything.\" In working sessions with four teams we identified the tasks that actually consumed time: searching through files, drafting reports, rewriting quotes to a client’s context, and finding internal knowledge. For each of those four scenarios we built a ready-made starting point, embedded in the tool where the work already happened."
+      ],
+      [
+        "Decision",
+        "Two requested features were deliberately not built: automatic client correspondence and support for performance reviews in personnel files. The first because of reputational risk, the second because of employment-law sensitivity. That choice was documented along with the reasoning, so it would not resurface every quarter."
+      ],
+      [
+        "Result",
+        "Weekly active use grew from 11% to 68%. A time measurement across two representative teams showed an average of three hours per person per week recovered, concentrated in the four scenarios. That time was not cut but redirected to billable work, which is what finally made the business case add up."
+      ]
+    ],
+    "quote": {
+      "text": "We thought we needed a tool. We needed four good working agreements, with the tool alongside them.",
+      "author": "COO, professional services firm",
+      "translated": true
+    },
+    "role": [
+      "Analysis of actual time spent per task",
+      "Design of four scenarios instead of open chat",
+      "Adoption program with internal champions",
+      "Risk assessment and documentation of no-go features",
+      "Measurement setup for recovered time"
+    ],
+    "next": "ai-strategy-investment-firm",
+    "metaTitle": "Case: Internal AI Assistant for Knowledge Workers"
   }
 ]
