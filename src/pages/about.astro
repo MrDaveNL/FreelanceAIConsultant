@@ -35,16 +35,16 @@ const schema = {
 };
 ---
 <BaseLayout
-  title={`About ${site.firstName} | ${site.brand}`}
-  description={`${site.name} is a freelance AI consultant for boards and leadership teams. 20+ years in strategy, digital and innovation. No vendor interests.`}
+  title={`${site.name} | AI Consultant`}
+  description={`${site.name} is an independent AI consultant for boards and leadership teams. 20+ years in strategy, digital and innovation. No vendor interests.`}
   schema={schema}
 >
   <PageHero
     locale="en"
     compact
     eyebrow="About me"
-    title={`Hi, I'm ${site.firstName}. Freelance AI consultant for boards and leaders who want to move forward.`}
-    marked="Freelance AI consultant"
+    title={`Hi, I'm ${site.name}. Independent AI consultant for boards and leaders who want to move forward.`}
+    marked={site.name}
     body="I help organizations make AI decisions that create value, limit risk, and actually fit their strategy. No sales pitch. No tool preferences. Just clear advice, sharp choices, and guidance from people to process."
     secondary="Get in touch"
     secondaryHref={contactHref}

@@ -26,3 +26,12 @@ The home page self-adjusts as more EN content goes live (no manual edit needed l
 - "See my approach" links (How I work section, independence section): hidden until `werkwijze` is `live.en`.
 - Insights preview section: hidden until `inzichten` is `live.en` (out of scope for this phase entirely).
 - Hero "Book a call" / CTA "Book a call": falls back to `mailto:dave@freelanceaiconsultant.com` until `contact` is `live.en`, then automatically switches to the live `/contact` page.
+
+## About (`/about`)
+
+- **Main EN keyword:** Dave Willemstein AI consultant
+- **Meta title:** Dave Willemstein | AI Consultant
+- **Meta description:** Dave Willemstein is an independent AI consultant for boards and leadership teams. 20+ years in strategy, digital and innovation. No vendor interests.
+- **Keyword reservation note:** "freelance AI consultant" is reserved for the home page only. The About page previously used it (keyword "freelance AI consultant profile", H1 marker "Freelance AI consultant") — changed so title and H1 lead with the full name instead, and the generic descriptor switched from "freelance" to "independent" (matches NL's own `role`/H1 framing, "Onafhankelijk AI-adviseur", more closely than the original EN draft did).
+  - The sitewide "`Page title | Freelance AI Consultant`" brand suffix (`site.brand`, used verbatim on NL and EN alike — services, cases, approach, contact, 404, etc.) is a separate thing: a site-identity suffix, not a page's primary keyword, and is unchanged everywhere, including on this page's earlier draft. Only the About page's own keyword/H1 framing changed.
+- **Adaptation notes:** no RAG block (no NL block exists for `over` to mirror or verify).
