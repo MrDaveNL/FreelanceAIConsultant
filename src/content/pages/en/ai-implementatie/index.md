@@ -38,6 +38,10 @@ sources:
     url: "https://digital-strategy.ec.europa.eu/en/news/ai-omnibus-enters-force"
   - title: "ICO: Data protection impact assessments"
     url: "https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/accountability-and-governance/guides-to-the-uk-gdpr/accountability-and-governance/data-protection-impact-assessments/"
+  - title: "AI Act Service Desk (European Commission): Article 2, scope"
+    url: "https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-2"
+  - title: "UK Government: AI regulation, a pro-innovation approach"
+    url: "https://www.gov.uk/government/publications/ai-regulation-a-pro-innovation-approach"
 ---
 
 ## What does AI implementation involve?
@@ -113,7 +117,7 @@ A working application nobody uses delivers nothing. Adoption is something you de
 
 AI applications sometimes degrade quietly as reality shifts. That's why a measurement set-up belongs in from the start: what you measure, how often, who looks at it, and what happens if quality drops. Alongside that, we set up light governance: a register of applications, a gate before anything goes live, a periodic check and an escalation path.
 
-It's also worth checking whether the application would count as high-risk if you operate in the EU or the system is used in the EU market, since the obligations under the EU AI Act are being phased in for most high-risk systems from 2 December 2027 and for AI embedded in products from 2 August 2028, following the EU's Digital Omnibus package. The UK has not adopted an equivalent cross-cutting AI law; it regulates AI through existing sector regulators instead, so the relevant obligations depend on your sector and on whether you also operate in the EU.
+It's also worth checking whether the application would count as high-risk under the EU AI Act. The Act's scope isn't limited to EU-based organisations: under [Article 2 of the Act](https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-2), it also applies to UK organisations that place an AI system on the EU market, or whose AI system's output is used in the EU, regardless of where the organisation is established. For most high-risk systems these obligations are being phased in from 2 December 2027, and from 2 August 2028 for AI embedded in products, following the EU's Digital Omnibus package. The UK itself has no AI Act: it regulates AI through existing sector regulators instead, applying shared principles rather than one cross-cutting AI law, as set out in the UK government's [AI regulation: a pro-innovation approach](https://www.gov.uk/government/publications/ai-regulation-a-pro-innovation-approach). So the relevant obligations depend on your sector, and on whether your organisation places AI systems on the EU market or has EU users of their output.
 
 Want someone to keep watching this phase on an ongoing basis, without hiring a full-time Head of AI? That's exactly the role of the [Fractional AI Lead](/services/fractional-ai-lead).
 
