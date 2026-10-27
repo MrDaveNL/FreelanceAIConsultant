@@ -130,21 +130,21 @@ export const routes: RouteEntry[] = [
   r('C9-02', 'content', '/ai-workshop/copilot-training', '/ai-workshop/copilot-training', { cluster: 'ai-workshop', liveEn: true }),
 
   r('P08', 'content', '/kennisbank', '/knowledge-base', { cluster: 'kennisbank', liveEn: true }),
-  r('C6-05', 'content', '/kennisbank/ai-agents-en-avg', '/knowledge-base/ai-agents-and-gdpr', { cluster: 'kennisbank' }),
+  r('C6-05', 'content', '/kennisbank/ai-agents-en-avg', '/knowledge-base/ai-agents-and-gdpr', { cluster: 'kennisbank', liveEn: true }),
   // Geen EN-tegenhanger: NL-arbeidsmarktdata (salaris), zou misleidend zijn zonder eigen EN-cijfers.
   r('C5-05', 'content', '/kennisbank/ai-specialist-salaris', '/knowledge-base/ai-specialist-salary', { cluster: 'kennisbank', noEn: true }),
-  r('C3-06', 'content', '/kennisbank/ai-voorbeelden', '/knowledge-base/ai-examples', { cluster: 'kennisbank' }),
+  r('C3-06', 'content', '/kennisbank/ai-voorbeelden', '/knowledge-base/ai-examples', { cluster: 'kennisbank', liveEn: true }),
   r('C10-01', 'content', '/kennisbank/chatgpt-voor-bedrijven', '/knowledge-base/chatgpt-for-business', { cluster: 'kennisbank', liveEn: true }),
   r('C10-02', 'content', '/kennisbank/claude-voor-bedrijven', '/knowledge-base/claude-for-business', { cluster: 'kennisbank', liveEn: true }),
-  r('C10-03', 'content', '/kennisbank/gemini-voor-bedrijven', '/knowledge-base/gemini-for-business', { cluster: 'kennisbank' }),
+  r('C10-03', 'content', '/kennisbank/gemini-voor-bedrijven', '/knowledge-base/gemini-for-business', { cluster: 'kennisbank', liveEn: true }),
   r('C10-04', 'content', '/kennisbank/microsoft-copilot-voor-bedrijven', '/knowledge-base/microsoft-copilot-for-business', { cluster: 'kennisbank', liveEn: true }),
   // Geen EN-tegenhanger gepland voor deze batch.
   r('C3-07', 'content', '/kennisbank/notuleren-met-ai', '/knowledge-base/ai-meeting-notes', { cluster: 'kennisbank', noEn: true }),
-  r('C10-05', 'content', '/kennisbank/prompt-engineering', '/knowledge-base/prompt-engineering', { cluster: 'kennisbank' }),
-  r('C3-08', 'content', '/kennisbank/rpa-vs-ai-automatisering', '/knowledge-base/rpa-vs-ai-automation', { cluster: 'kennisbank' }),
+  r('C10-05', 'content', '/kennisbank/prompt-engineering', '/knowledge-base/prompt-engineering', { cluster: 'kennisbank', liveEn: true }),
+  r('C3-08', 'content', '/kennisbank/rpa-vs-ai-automatisering', '/knowledge-base/rpa-vs-ai-automation', { cluster: 'kennisbank', liveEn: true }),
   r('C1-07', 'content', '/kennisbank/wat-doet-een-ai-consultant', '/knowledge-base/what-does-an-ai-consultant-do', { cluster: 'kennisbank', liveEn: true }),
-  r('C5-04', 'content', '/kennisbank/wat-doet-een-ai-developer', '/knowledge-base/what-does-an-ai-developer-do', { cluster: 'kennisbank' }),
-  r('C4-05', 'content', '/kennisbank/wat-doet-een-bi-specialist', '/knowledge-base/what-does-a-bi-specialist-do', { cluster: 'kennisbank' }),
+  r('C5-04', 'content', '/kennisbank/wat-doet-een-ai-developer', '/knowledge-base/what-does-an-ai-developer-do', { cluster: 'kennisbank', liveEn: true }),
+  r('C4-05', 'content', '/kennisbank/wat-doet-een-bi-specialist', '/knowledge-base/what-does-a-bi-specialist-do', { cluster: 'kennisbank', liveEn: true }),
 
   r('C7-00', 'content', '/markten', '/markets', { cluster: 'markten', liveEn: true }),
   r('C7-04', 'content', '/markten/automotive', '/markets/automotive', { cluster: 'markten', liveEn: true }),

@@ -99,3 +99,56 @@ The home page self-adjusts as more EN content goes live (no manual edit needed l
 - **AI literacy training (`/ai-workshop/ai-literacy-training`, C9-05).** Main EN keyword: "AI literacy training". Uses the same independently re-verified Digital Omnibus/Article 4 facts as the AI Act page above, with the full ELI citation rather than a bare "Article 4" reference. The NL FAQ citing the Dutch DPA's domestic supervision split (AP/RDI) was rewritten for a UK audience, consistent with the AI Act page's framing. Added back-links from the already-live ChatGPT and Copilot training pages once this page went live.
 - Both pages' RAG blocks (`ai-beleid-ai-act-en.ts`, `ai-workshop-en.ts`, `ai-workshop-ai-geletterdheid-training-en.ts`) carry the same verified facts as their NL counterparts; nothing substantive left out.
 - **Cross-linking note:** none of the three pages link to `/ai-agents`, `/ai-for-business/professional-services-firms`, `/knowledge-base/gemini-for-business`, `/knowledge-base/prompt-engineering` (linked by product name only, no link) or `/knowledge-base/rpa-vs-ai-automation`, since those routes aren't `liveEn` yet — they point to the live parent hub instead until their own build lands.
+
+## Remaining kennisbank pages (7 pages, closes out the Phase 3 remaining-pages survey TRANSLATE list)
+
+## AI agents and GDPR (`/knowledge-base/ai-agents-and-gdpr`, route id C6-05)
+
+- **Main EN keyword:** AI agents and GDPR
+- **Meta title:** AI Agents and GDPR | Privacy and Compliance in Practice
+- **Meta description:** How do you deploy AI agents without GDPR risk? Read about processor agreements, data minimisation, logging and UK vs EU GDPR, with a practical checklist.
+- **Adaptation notes:** required by the user to cover UK GDPR alongside EU GDPR, not just EU GDPR. Added a dedicated section on where the two regimes now diverge: the Data (Use and Access) Act 2025 (in force 5 February 2026) replaced UK GDPR Article 22, letting UK organisations run solely automated decisions on any lawful basis (including legitimate interests) if safeguards are met, except for special category data; EU GDPR kept the stricter consent-or-contract-only rule. Both facts verified via WebSearch against secondary legal commentary (law firm/vendor analysis), with the primary legislative citation (`legislation.gov.uk/ukpga/2025/18`) used directly rather than the secondary sources. The NL page's Dutch DPA-specific sources (Autoriteit Persoonsgegevens DPIA list, chatbot guidance) were replaced with the general EU/UK regulatory sources; the Dutch data-breach anecdote was kept as an illustrative (unattributed-to-UK) example since it is a factual, dated incident, not a claim about UK/EU law.
+
+## AI examples for business (`/knowledge-base/ai-examples`, route id C3-06)
+
+- **Main EN keyword:** AI examples for business
+- **Meta title:** AI Examples | 25 Practical Business Applications
+- **Meta description:** See 25 concrete AI examples from practice, by department and sector. Find out which applications deliver real value first and how businesses get started.
+- **Adaptation notes:** the NL page's sector examples for markets not yet live in EN (healthcare, education, aviation, government, marketing) were kept as plain-text examples without a cross-link, rather than linking to a non-existent EN page or a NL one. Cross-links to the two `noEn: true` NL-only routes (AI specialist salary, AI-assisted meeting notes) were dropped entirely, not substituted.
+
+## Gemini for business (`/knowledge-base/gemini-for-business`, route id C10-03)
+
+- **Main EN keyword:** Gemini for business
+- **Meta title:** Gemini for Business | Applications in Google Workspace
+- **Meta description:** How do you use Google Gemini for business? Read about applications in Gmail, Docs and Sheets, business licensing, privacy, and how it compares to Copilot.
+- **Adaptation notes:** product/pricing currency check performed per the user's instruction (same discipline as the already-live ChatGPT/Claude/Copilot pages). EUR pricing from the NL source's Google Workspace pricing-page citation reused unchanged (Business Starter €6.80, Standard €13.60, Plus €21.10), cross-checked via WebSearch against independent third-party pricing trackers (consistent figures, same ratios in USD), dated "as of October 2026". Added one footnote not in the NL source: Google also sells "Gemini Enterprise," a separate standalone agent platform with its own per-seat pricing, distinct from Gemini bundled into Workspace — flagged during verification to avoid readers confusing the two products. The Microsoft Copilot comparison table reuses the exact figures already verified and published on the live `/knowledge-base/microsoft-copilot-for-business` page, not re-verified independently.
+
+## Prompt engineering (`/knowledge-base/prompt-engineering`, route id C10-05)
+
+- **Main EN keyword:** prompt engineering
+- **Meta title:** Prompt Engineering | How to Write Better AI Prompts
+- **Meta description:** Learn how to write better AI prompts, with techniques, examples and templates for business use in ChatGPT, Claude, Gemini and Microsoft Copilot.
+- **Adaptation notes:** straight translation, no Dutch-only data. No RAG content left out.
+
+## RPA vs AI automation (`/knowledge-base/rpa-vs-ai-automation`, route id C3-08)
+
+- **Main EN keyword:** RPA vs AI automation
+- **Meta title:** RPA versus AI Automation | Differences and How to Choose
+- **Meta description:** What is robotic process automation, and how does RPA differ from AI automation? Read the pros and cons, examples and when to smartly combine both.
+- **Adaptation notes:** straight translation, no Dutch-only data, no sources list on the NL page to carry over. No RAG content left out.
+
+## What does an AI developer do? (`/knowledge-base/what-does-an-ai-developer-do`, route id C5-04)
+
+- **Main EN keyword:** what does an AI developer do
+- **Meta title:** What Does an AI Developer Do? Tasks, Skills and Teamwork
+- **Meta description:** What does an AI developer do, and how does the role differ from an AI consultant? Read about tasks, skills, tools and working well with AI developers.
+- **Adaptation notes:** the NL page's cross-link to "AI specialist salary" (`/kennisbank/ai-specialist-salaris`, route id C5-05, `noEn: true`) was dropped entirely rather than translated or substituted with an invented UK figure, same precedent as the AI specialist page.
+
+## What does a BI specialist do? (`/knowledge-base/what-does-a-bi-specialist-do`, route id C4-05)
+
+- **Main EN keyword:** what does a BI specialist do
+- **Meta title:** What Does a BI Specialist Do? Tasks, Skills and Role
+- **Meta description:** What does a BI specialist do, and how is AI changing the role? Read about tasks, skills, tools, and when to choose a BI specialist over an AI specialist.
+- **Adaptation notes:** straight translation, no Dutch-only data. No RAG content left out.
+
+This completes the Phase 3 "remaining NL pages with no EN counterpart" TRANSLATE list (all 21 translate items plus the hire-an-ai-consultant merge). Still outstanding, per the user's explicit decision: `ai-advice` (skipped, wrong EN search intent) and 5 `markten` pages (skipped, `noindex` in NL itself).
