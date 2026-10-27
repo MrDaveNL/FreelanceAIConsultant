@@ -42,6 +42,10 @@ sources:
     url: "https://n8n.io/"
   - title: "AI Act Service Desk (European Commission): Annex III, high-risk AI systems"
     url: "https://ai-act-service-desk.ec.europa.eu/en/ai-act/annex-3"
+  - title: "AI Act Service Desk (European Commission): Article 2, scope"
+    url: "https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-2"
+  - title: "UK Government: AI regulation, a pro-innovation approach"
+    url: "https://www.gov.uk/government/publications/ai-regulation-a-pro-innovation-approach"
   - title: "Microsoft Learn: What is Power Automate?"
     url: "https://learn.microsoft.com/en-us/power-automate/flow-types"
 ---
@@ -87,7 +91,7 @@ Enriching leads with public information and a first estimate of fit. Drafting qu
 
 ### HR and internal knowledge
 
-Answering staff questions about policies based on the staff handbook. Drafting job adverts. Pulling minutes and action lists out of meetings, which deserves its own treatment elsewhere on this site. Be cautious with anything that touches an assessment of people: that's sensitive under data protection law, and AI used for recruitment, selection and staff assessment is listed as high-risk under the EU AI Act for organisations operating in the EU (Annex III).
+Answering staff questions about policies based on the staff handbook. Drafting job adverts. Pulling minutes and action lists out of meetings, which deserves its own treatment elsewhere on this site. Be cautious with anything that touches an assessment of people: that's sensitive under data protection law, and AI used for recruitment, selection and staff assessment is listed as high-risk under the EU AI Act (Annex III). That obligation isn't limited to EU-based organisations: under [Article 2 of the Act](https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-2), it also applies to UK organisations that place such a system on the EU market, or whose system's output is used in the EU. The UK has no AI Act of its own and regulates AI through existing sector regulators instead, as set out in the UK government's [AI regulation: a pro-innovation approach](https://www.gov.uk/government/publications/ai-regulation-a-pro-innovation-approach).
 
 ## AI automation examples
 
