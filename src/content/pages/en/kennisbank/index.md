@@ -7,10 +7,9 @@ cluster: "Core pages"
 pageType: "Knowledge base hub"
 schema: collection
 navLabel: Knowledge base
-title: "AI knowledge base: practical knowledge about AI for business"
-metaTitle: "AI Knowledge Base | Practical Guides for Business"
-metaDescription: "Practical articles on AI strategy, implementation, automation, AI agents, policy and tools, written by an independent AI consultant for business leaders."
-keyphrase: ai knowledge base
+title: "AI Knowledge Base for Business Leaders | Freelance AI Consultant"
+metaTitle: "AI Knowledge Base | Freelance AI Consultant"
+metaDescription: "Practical guides on ChatGPT, Claude, Microsoft Copilot, AI agents and AI consulting for business leaders: clear explanations to help you decide and act."
 eyebrow: Knowledge base
 lede: "This AI knowledge base covers practical explanations of AI for business: what a term means, how to approach something, and what to watch for. Written plainly, without hype, for anyone who needs to make a decision or run a project."
 primaryCta: { label: "See the AI Readiness Assessment", href: /services/ai-readiness-assessment }

@@ -35,3 +35,11 @@ The home page self-adjusts as more EN content goes live (no manual edit needed l
 - **Keyword reservation note:** "freelance AI consultant" is reserved for the home page only. The About page previously used it (keyword "freelance AI consultant profile", H1 marker "Freelance AI consultant") — changed so title and H1 lead with the full name instead, and the generic descriptor switched from "freelance" to "independent" (matches NL's own `role`/H1 framing, "Onafhankelijk AI-adviseur", more closely than the original EN draft did).
   - The sitewide "`Page title | Freelance AI Consultant`" brand suffix (`site.brand`, used verbatim on NL and EN alike — services, cases, approach, contact, 404, etc.) is a separate thing: a site-identity suffix, not a page's primary keyword, and is unchanged everywhere, including on this page's earlier draft. Only the About page's own keyword/H1 framing changed.
 - **Adaptation notes:** no RAG block (no NL block exists for `over` to mirror or verify).
+
+## Knowledge base index (`/knowledge-base`, route id P08)
+
+- **No target keyword — hub page.** This is a navigation/hub page listing the knowledge-base articles, not a page competing for search intent of its own. An earlier draft used "ai knowledge base" as the main keyword; that's the wrong search intent (it reads as a knowledge-base *software product* query, not this page's actual content) and has been removed. `keyphrase` is now optional in the content schema (`src/content.config.ts`) rather than forced to a placeholder value, since a hub page legitimately has none.
+- **Title (H1):** AI Knowledge Base for Business Leaders | Freelance AI Consultant
+- **Meta title:** AI Knowledge Base | Freelance AI Consultant
+- **Meta description:** describes what the hub contains rather than targeting a keyword — practical guides on ChatGPT, Claude, Microsoft Copilot, AI agents and AI consulting for business leaders.
+- **Adaptation notes:** no RAG block (no NL block exists for `kennisbank`/P08 to mirror or verify).

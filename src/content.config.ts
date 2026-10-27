@@ -24,7 +24,8 @@ const pages = defineCollection({
     title: z.string(),
     metaTitle: z.string().max(60),
     metaDescription: z.string().min(120).max(160),
-    keyphrase: z.string(),
+    // Optioneel: navigatie-/hubpagina's hebben soms geen primaire keyphrase om op te richten.
+    keyphrase: z.string().optional(),
     eyebrow: z.string(),
     lede: z.string(),
     primaryCta: cta,
