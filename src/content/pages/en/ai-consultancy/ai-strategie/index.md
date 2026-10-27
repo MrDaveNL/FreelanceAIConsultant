@@ -35,6 +35,10 @@ faq:
     a: "Yes, as a condition. Your strategy should make clear which applications you're considering, which risk category they're likely to fall into, and what that means for planning and management. Leave the legal judgement to a lawyer, but the trade-off belongs in the strategy."
   - q: "What is the difference between an AI roadmap and an AI strategy?"
     a: "The strategy decides what you want to achieve and which choices you make. The roadmap decides the order: which use cases when, under what conditions, with what budget and at which decision points. A roadmap without a strategy becomes a list of disconnected projects; a strategy without a roadmap stays an intention."
+  - q: "How many use cases should fit in an AI roadmap's first horizon for an SME?"
+    a: "Two or three use cases in the first horizon is the usual advice for an SME. More than that is difficult to manage well without dedicated AI capacity in-house."
+  - q: "Is there a service that delivers an AI roadmap as a fixed result?"
+    a: "Yes. A use-case roadmap with quick wins, medium-term investments and deliberate no-gos is one of the fixed deliverables of the AI Strategy Sprint. The AI Readiness Assessment delivers a first version of the roadmap through its 90-day plan."
 ---
 
 ## What is an AI strategy?
