@@ -50,6 +50,27 @@ The home page self-adjusts as more EN content goes live (no manual edit needed l
 - **Meta description:** describes what the hub contains rather than targeting a keyword — practical guides on ChatGPT, Claude, Microsoft Copilot, AI agents and AI consulting for business leaders.
 - **Adaptation notes:** no RAG block (no NL block exists for `kennisbank`/P08 to mirror or verify).
 
+## AI and BI (`/ai-for-business/ai-and-bi`, route id C4-03)
+
+- **Main EN keyword:** AI and BI
+- **Meta title:** AI and BI | The Difference and How to Combine Them
+- **Meta description:** What's the difference between AI and BI, and how do they strengthen each other? See how AI makes business intelligence smarter, with examples and a practical approach.
+- **Adaptation notes:** no Dutch-only data; the Microsoft Copilot for Power BI citation is a global, dated primary source, reused as-is from the NL block with the same URL. Cross-links to the (not yet live) BI-specialist kennisbank article are left as a plain mention rather than a dead link.
+
+## AI for professional services firms (`/ai-for-business/professional-services-firms`, route id C4-02)
+
+- **Main EN keyword:** AI for professional services firms
+- **Meta title:** AI for Professional Services Firms | Applications and Tools
+- **Meta description:** AI for professional services firms: faster reporting, analysis and advice. Applications for accountants, solicitors and consultants, plus what to watch for.
+- **Adaptation notes:** localized, not translated literally. NL sources replaced: Nederlandse orde van advocaten (Dutch Bar Association) recommendations → the Solicitors Regulation Authority's August 2026 warning notice on AI misuse (verified via a secondary summary, HSF Kramer, since the SRA's own page wasn't reachable via search — cited as such); NBA/NOREA accountancy guidance → ICAEW's Generative AI guide (ethics), a verified primary source; AVG/DPIA reference → UK GDPR Article 35 (as retained by the Data Protection Act 2018) and ICO guidance.
+
+## AI specialist (`/ai-development/ai-specialist`, route id C5-01)
+
+- **Main EN keyword:** hire an AI specialist
+- **Meta title:** AI Specialist | Senior AI Expertise for Your Organisation
+- **Meta description:** Looking to hire an AI specialist? See which kinds of expertise exist, how to work out which one you need, and what a freelance AI specialist adds to your organisation.
+- **Adaptation notes:** the NL page's cross-link to "AI specialist salary" (`/kennisbank/ai-specialist-salaris`, route id C5-05) was dropped rather than translated — that route is flagged `noEn: true` as NL-market compensation data that would mislead without real UK-market figures, and no UK salary benchmark was substituted or invented. The NL page's "hire an AI consultant" cross-link now points to the merged section on `/ai-consulting#hiring-an-ai-consultant` instead of a standalone page (see the ai-consulting merge, route id C1-06). Region/language FAQ answer reused verbatim from the already-live `/ai-consulting` page's own FAQ ("I work across the UK and Europe...") for consistency.
+
 ## AI automation cluster (`/ai-automation/*`)
 
 - **AI tools (`/ai-automation/ai-tools`, C3-05).** Main EN keyword: "best AI tools for business". Product names, plans and pricing checked at time of writing (October 2026): spot-verified Microsoft's official global Copilot pricing page directly (confirmed the Business-tier promotional discount — $21 → $18/user/month — is live now, not stale), and reused the NL page's own officially-cited vendor pages (OpenAI, Anthropic, Google) for the remaining figures. Page dated "as of October 2026". No RAG content left out.
