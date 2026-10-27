@@ -12,7 +12,7 @@ export default {
   "vervolgvragen": [
     {
       "vraag": "Are the AI Act's rules for high-risk applications delayed for AI for business?",
-      "antwoord": "Yes, if you operate in the EU. Under the Digital Omnibus on AI, which took effect on 27 July 2026, the rules for the high-risk areas in Annex III, such as recruitment and credit scoring, apply from 2 December 2027, and for AI embedded in regulated products from 2 August 2028. The UK has not adopted an equivalent cross-cutting AI law; it regulates AI through existing sector regulators instead, so for a UK-only business these specific deadlines don't apply directly. For AI for business, it still pays to know now which category an application falls into.",
+      "antwoord": "Yes, but not only for EU-based businesses. Under the Digital Omnibus on AI, which took effect on 27 July 2026, the rules for the high-risk areas in Annex III, such as recruitment and credit scoring, apply from 2 December 2027, and for AI embedded in regulated products from 2 August 2028. Under Article 2 of the AI Act, these rules also apply to a UK business that places an AI system on the EU market, or whose AI system's output is used in the EU. The UK itself has no AI Act and regulates AI through existing sector regulators instead, so a UK-only business with no EU market presence and no EU users of its AI output sits outside the Act's scope. For AI for business, it still pays to know now which category an application falls into.",
       "onvoorwaardelijk": true
     },
     {
@@ -21,19 +21,19 @@ export default {
     }
   ],
   "bron": {
-    "tekst": "article by {{afzender}}; primary source: Regulation (EU) 2026/1744 (Digital Omnibus on AI), Official Journal L of 24.7.2026, EUR-Lex; European Commission: AI Omnibus enters into force (27 July 2026); Regulation (EU) 2024/1689 (AI Act), EUR-Lex (as of 6 October 2026)"
+    "tekst": "article by {{afzender}}; primary source: Regulation (EU) 2026/1744 (Digital Omnibus on AI), Official Journal L of 24.7.2026, EUR-Lex; European Commission: AI Omnibus enters into force (27 July 2026); Regulation (EU) 2024/1689 (AI Act), EUR-Lex (as of 6 October 2026); AI Act Service Desk (European Commission), Article 2, scope; UK Government, 'AI regulation: a pro-innovation approach'"
   },
   "externeFeiten": [
-    {
-      "zin": "Yes, if you operate in the EU.",
-      "soort": "wetgeving"
-    },
     {
       "zin": "Under the Digital Omnibus on AI, which took effect on 27 July 2026, the rules for the high-risk areas in Annex III, such as recruitment and credit scoring, apply from 2 December 2027, and for AI embedded in regulated products from 2 August 2028.",
       "soort": "wetgeving"
     },
     {
-      "zin": "The UK has not adopted an equivalent cross-cutting AI law; it regulates AI through existing sector regulators instead, so for a UK-only business these specific deadlines don't apply directly.",
+      "zin": "Under Article 2 of the AI Act, these rules also apply to a UK business that places an AI system on the EU market, or whose AI system's output is used in the EU.",
+      "soort": "wetgeving"
+    },
+    {
+      "zin": "The UK itself has no AI Act and regulates AI through existing sector regulators instead, so a UK-only business with no EU market presence and no EU users of its AI output sits outside the Act's scope.",
       "soort": "wetgeving"
     }
   ],

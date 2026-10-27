@@ -36,6 +36,10 @@ faq:
 sources:
   - title: "European Commission: AI Omnibus enters into force (27 July 2026)"
     url: "https://digital-strategy.ec.europa.eu/en/news/ai-omnibus-enters-force"
+  - title: "AI Act Service Desk (European Commission): Article 2, scope"
+    url: "https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-2"
+  - title: "UK Government: AI regulation, a pro-innovation approach"
+    url: "https://www.gov.uk/government/publications/ai-regulation-a-pro-innovation-approach"
 ---
 
 ## What AI can mean for your business
@@ -100,7 +104,7 @@ The risks are rarely technical in nature:
 - **No owner.** A pilot that works but isn't picked up by anyone in the business evaporates. That's the most common reason AI pilots stall.
 - **No upkeep.** AI applications need ongoing maintenance. Whoever doesn't plan for that sees quality drift downward without noticing.
 - **Privacy and confidentiality.** Putting customer or staff data into a tool that isn't set up for it is a data protection risk and a trust risk.
-- **Regulation.** If you operate in the EU, the AI Act sets requirements that depend on an application's risk level. Under the Digital Omnibus on AI, which took effect on 27 July 2026, the rules for the high-risk areas in Annex III, such as recruitment and credit scoring, have been delayed until 2 December 2027, and for AI embedded in regulated products until 2 August 2028. The UK has not adopted an equivalent cross-cutting AI law; it regulates AI through existing sector regulators instead, so if you operate only in the UK, these specific deadlines don't apply directly, though it's still worth knowing which category your applications would fall into if you also operate in or sell into the EU. A delay isn't a cancellation; it pays to know now which category your applications fall into. How to arrange that without creating a paper exercise is covered under [AI policy and governance](/ai-policy).
+- **Regulation.** The AI Act sets requirements that depend on an application's risk level, and its reach isn't limited to EU-based organisations: under [Article 2 of the Act](https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-2), it also applies to UK organisations that place an AI system on the EU market, or whose AI system's output is used in the EU, regardless of where they're established. Under the Digital Omnibus on AI, which took effect on 27 July 2026, the rules for the high-risk areas in Annex III, such as recruitment and credit scoring, have been delayed until 2 December 2027, and for AI embedded in regulated products until 2 August 2028. The UK has no AI Act of its own: it regulates AI through existing sector regulators instead, applying shared principles rather than one cross-cutting AI law, as set out in the UK government's [AI regulation: a pro-innovation approach](https://www.gov.uk/government/publications/ai-regulation-a-pro-innovation-approach). A UK-only organisation with no EU market presence and no EU users of its AI output sits outside the Act's scope; everyone else should know which category their applications would fall into. A delay isn't a cancellation. How to arrange that without creating a paper exercise is covered under [AI policy and governance](/ai-policy).
 - **Shadow use.** If the organisation doesn't offer an approved tool, staff use their own. Then you carry the risk without any oversight or control.
 
 ## Getting started with AI
