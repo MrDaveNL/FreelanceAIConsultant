@@ -145,7 +145,7 @@ export const routes: RouteEntry[] = [
   r('C4-05', 'content', '/kennisbank/wat-doet-een-bi-specialist', '/knowledge-base/what-does-a-bi-specialist-do', { cluster: 'kennisbank' }),
 
   r('C7-00', 'content', '/markten', '/markets', { cluster: 'markten' }),
-  r('C7-04', 'content', '/markten/automotive', '/markets/automotive', { cluster: 'markten' }),
+  r('C7-04', 'content', '/markten/automotive', '/markets/automotive', { cluster: 'markten', liveEn: true }),
   r('C7-03', 'content', '/markten/fintech', '/markets/fintech', { cluster: 'markten', liveEn: true }),
   r('C7-06', 'content', '/markten/luchtvaart', '/markets/aviation', { cluster: 'markten', noindex: true }),
   r('C7-02', 'content', '/markten/marketing', '/markets/marketing', { cluster: 'markten', noindex: true }),
