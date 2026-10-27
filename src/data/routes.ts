@@ -140,7 +140,7 @@ export const routes: RouteEntry[] = [
   r('C3-07', 'content', '/kennisbank/notuleren-met-ai', '/knowledge-base/ai-meeting-notes', { cluster: 'kennisbank', noEn: true }),
   r('C10-05', 'content', '/kennisbank/prompt-engineering', '/knowledge-base/prompt-engineering', { cluster: 'kennisbank' }),
   r('C3-08', 'content', '/kennisbank/rpa-vs-ai-automatisering', '/knowledge-base/rpa-vs-ai-automation', { cluster: 'kennisbank' }),
-  r('C1-07', 'content', '/kennisbank/wat-doet-een-ai-consultant', '/knowledge-base/what-does-an-ai-consultant-do', { cluster: 'kennisbank' }),
+  r('C1-07', 'content', '/kennisbank/wat-doet-een-ai-consultant', '/knowledge-base/what-does-an-ai-consultant-do', { cluster: 'kennisbank', liveEn: true }),
   r('C5-04', 'content', '/kennisbank/wat-doet-een-ai-developer', '/knowledge-base/what-does-an-ai-developer-do', { cluster: 'kennisbank' }),
   r('C4-05', 'content', '/kennisbank/wat-doet-een-bi-specialist', '/knowledge-base/what-does-a-bi-specialist-do', { cluster: 'kennisbank' }),
 
