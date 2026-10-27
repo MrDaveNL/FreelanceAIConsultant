@@ -79,10 +79,10 @@ export const routes: RouteEntry[] = [
   r('art-het-datafundament-onder-ai', 'article', '/inzichten/het-datafundament-onder-ai', '/insights/the-data-foundation-under-ai', { liveEn: true }),
   r('art-ai-governance-zonder-bureaucratie', 'article', '/inzichten/ai-governance-zonder-bureaucratie', '/insights/ai-governance-without-bureaucracy', { liveEn: true }),
   r('art-waarom-ai-pilots-blijven-steken', 'article', '/inzichten/waarom-ai-pilots-blijven-steken', '/insights/why-ai-pilots-stall', { liveEn: true }),
-  r('art-de-business-case-voor-ai', 'article', '/inzichten/de-business-case-voor-ai', '/insights/the-business-case-for-ai'),
-  r('art-ai-vendorselectie-in-acht-stappen', 'article', '/inzichten/ai-vendorselectie-in-acht-stappen', '/insights/ai-vendor-selection-in-eight-steps'),
-  r('art-wanneer-heb-je-echt-een-ai-strateeg-nodig', 'article', '/inzichten/wanneer-heb-je-echt-een-ai-strateeg-nodig', '/insights/when-do-you-really-need-an-ai-strategist'),
-  r('art-ai-adoptie-begint-bij-het-werk', 'article', '/inzichten/ai-adoptie-begint-bij-het-werk', '/insights/ai-adoption-starts-with-the-work'),
+  r('art-de-business-case-voor-ai', 'article', '/inzichten/de-business-case-voor-ai', '/insights/the-business-case-for-ai', { liveEn: true }),
+  r('art-ai-vendorselectie-in-acht-stappen', 'article', '/inzichten/ai-vendorselectie-in-acht-stappen', '/insights/ai-vendor-selection-in-eight-steps', { liveEn: true }),
+  r('art-wanneer-heb-je-echt-een-ai-strateeg-nodig', 'article', '/inzichten/wanneer-heb-je-echt-een-ai-strateeg-nodig', '/insights/when-do-you-really-need-an-ai-strategist', { liveEn: true }),
+  r('art-ai-adoptie-begint-bij-het-werk', 'article', '/inzichten/ai-adoptie-begint-bij-het-werk', '/insights/ai-adoption-starts-with-the-work', { liveEn: true }),
 
   // Content-collectie 'pages': 12 clusters, 55 pagina's
   r('C1-00', 'content', '/ai-consultancy', '/ai-consulting', { cluster: 'ai-consultancy', liveEn: true }),
