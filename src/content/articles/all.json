@@ -518,5 +518,177 @@
       "de-business-case-voor-ai"
     ],
     "body": "\n<h2>Eerst: wanneer je het zelf beter kunt</h2>\n<p>Er zijn vier situaties waarin externe hulp weinig toevoegt, en waarin ik zelf doorverwijs of afhaak.</p>\n\n<h3>1. De vraag is technisch en afgebakend</h3>\n<p>\"Welk model werkt het beste voor onze documentclassificatie?\" is een vraag voor je eigen engineers of voor een gespecialiseerde bouwer. Een strateeg die daarop antwoord geeft, herhaalt wat je team al weet, tegen een hoger tarief.</p>\n\n<h3>2. Het besluit is klein en omkeerbaar</h3>\n<p>Een tool van honderd euro per maand voor één team, opzegbaar per maand? Probeer het gewoon. De tijd die je aan een afweging besteedt, kost meer dan het experiment. Bewaar analysekracht voor besluiten die je niet makkelijk terugdraait.</p>\n\n<h3>3. Je hebt al iemand die dit kan en het mandaat heeft</h3>\n<p>Als er een interne lead is met ervaring, budget en toegang tot de directie, dan is een externe adviseur meestal een extra laag in plaats van een versnelling. Geef die persoon ruimte in plaats van een sparringpartner die hij moet bijpraten.</p>\n\n<h3>4. Het besluit is al genomen</h3>\n<p>Dit is de vervelendste. Soms wordt advies ingekocht om een gekozen richting te bekrachtigen richting board of aandeelhouders. Dat is verspilling: voor de opdrachtgever, omdat er niets nieuws uit komt, en voor de adviseur, omdat elke afwijkende bevinding wordt weggemasseerd. Als ik dit patroon herken, benoem ik het. Soms blijkt er dan alsnog een echte vraag onder te zitten.</p>\n\n<h2>Wanneer externe hulp wél loont</h2>\n\n<h3>1. Het besluit is duur en moeilijk terug te draaien</h3>\n<p>Een meerjarig platformcontract, een architectuurkeuze waar tien toepassingen op gaan leunen, een make-or-buy-beslissing voor iets wat je kernproces raakt. De kosten van een verkeerde keuze zijn hier een veelvoud van de adviesinvestering.</p>\n<p>Een vuistregel: als de verkeerde keuze je meer dan tien keer het adviesbudget kost, en je bent er niet zeker van, dan is een second opinion een rationele verzekering.</p>\n\n<h3>2. Er is een interne patstelling</h3>\n<p>Twee afdelingen met een verschillende voorkeur, beide met goede argumenten, al maanden. Hier is de waarde van een buitenstaander niet primair zijn kennis, maar zijn afwezigheid van belang. Iemand die volgende maand weer weg is, kan een conclusie trekken die intern politiek beladen zou zijn.</p>\n<p>Dit werkt alleen als de opdracht en de criteria vooraf door beide partijen zijn geaccepteerd. Anders verplaats je het conflict naar de kwaliteit van het advies.</p>\n\n<h3>3. Je moet iets aan een board of toezichthouder uitleggen</h3>\n<p>Als je een investering moet verdedigen bij mensen die er niet dagelijks mee bezig zijn, helpt een onafhankelijke onderbouwing. Niet omdat jouw analyse slechter is, maar omdat een externe toets de discussie verplaatst van \"geloven we deze persoon\" naar \"klopt deze redenering\".</p>\n<p>Let op dat dit iets anders is dan legitimatie kopen. Het verschil: hier staat de uitkomst nog open.</p>\n\n<h3>4. Je hebt dit nog nooit gedaan en de tijdsdruk is hoog</h3>\n<p>De eerste keer dat een organisatie een AI-selectie doet, een AI-governancestructuur opzet of een AI-portfolio prioriteert, kost het twee tot drie keer zoveel tijd als de tweede keer. Iemand die het vaker heeft gedaan, koopt je die leercurve af. Dat is een legitieme reden, mits je de kennis daarna zelf houdt.</p>\n\n<h2>Wat je moet vragen voordat je iemand inhuurt</h2>\n<ul>\n  <li><b>Wat is de kleinste opdracht waarmee we kunnen beginnen?</b> Een goede adviseur biedt een instap van beperkte omvang aan. Wie meteen een traject van zes maanden voorstelt, verkoopt capaciteit.</li>\n  <li><b>Wanneer ben je klaar?</b> Er hoort een antwoord te zijn dat niet \"dat hangt ervan af\" luidt.</li>\n  <li><b>Wat houden wij over als je weg bent?</b> Documenten zijn het minimum. Kaders die je zelf kunt hergebruiken, zijn beter.</li>\n  <li><b>Welk deel van deze opdracht kunnen we zelf doen?</b> Het antwoord hierop zegt meer over iemands integriteit dan elke referentie.</li>\n  <li><b>Welke belangen heb je?</b> Partnerschappen, commissies, implementatiepraktijk. Vraag het expliciet en vraag om het op papier.</li>\n</ul>\n\n<h2>De omvang die meestal klopt</h2>\n<p>Voor de meeste organisaties geldt: een afgebakende opdracht van twee tot zes weken, of een deeltijdrol van een paar dagen per maand. Trajecten die langer duren zonder tussentijdse beslismomenten, zijn zelden in het belang van de opdrachtgever.</p>\n<p>En als je twijfelt of je het nodig hebt: probeer de vraag eerst zelf op één pagina te formuleren, met de opties en de criteria. Lukt dat, dan is de kans groot dat je hem zelf kunt beantwoorden. Lukt het niet, dan weet je precies waar een gesprek over zou moeten gaan. En dat is een goed begin, of je nu iemand inhuurt of niet.</p>\n"
+  },
+  {
+    "id": "en-what-ai-agents-can-and-cannot-do",
+    "lang": "en",
+    "slug": "what-ai-agents-can-and-cannot-do",
+    "category": "Use cases",
+    "tone": "salmon",
+    "icon": "↯",
+    "featured": false,
+    "title": "AI agents: what they can and cannot do in a business process",
+    "titleLine1": "AI agents: what they can",
+    "titleLine2": "and cannot do",
+    "excerpt": "Agents that carry out tasks independently are the promise of the moment. Where they work, where they break down, and the question you need to answer first.",
+    "metaTitle": "What AI Agents Can and Cannot Do",
+    "metaDescription": "Where AI agents work well, where they break down, and the one question you need to answer before handing a business process over to one.",
+    "lede": "An agent that takes its own steps and calls on systems is attractive and risky at the same time. The distinction lies in what happens when it gets it wrong.",
+    "readingTime": "4 min read",
+    "date": "2026-07-16",
+    "dateLabel": "16 July 2026",
+    "summary": [
+      "Agents work well on reversible steps with a clear final check.",
+      "They break down on processes where a mistake propagates silently.",
+      "Start with preparing and proposing, not with executing."
+    ],
+    "summaryClose": "Decide what a mistake costs first, then how much autonomy you give.",
+    "takeaways": [
+      [
+        "Reversibility as the test",
+        "Give autonomy on steps you can undo without damage."
+      ],
+      [
+        "An agent is a process, not a tool",
+        "The question isn't which model, but which steps you hand over."
+      ],
+      [
+        "Logging is not optional",
+        "Without a full record of the steps taken, you cannot reconstruct a mistake."
+      ]
+    ],
+    "remember": "Autonomy isn't a property of the model, it's a choice the organisation makes.",
+    "related": [
+      "which-ai-use-cases-deliver-results"
+    ],
+    "body": "\n<h2>What makes an agent different</h2>\n<p>A standard AI application receives an instruction and gives an answer. An agent receives a goal and decides for itself which steps are needed: retrieving information, consulting a system, assessing an intermediate result, choosing a next step. That makes it more powerful, and it changes the risk question fundamentally.</p>\n<p>With a standard answer, you assess one outcome. With an agent, you assess a chain in which a mistake in step two carries through to step five, possibly without the final output looking wrong. That is exactly where things go wrong in practice.</p>\n\n<h2>Where agents work well</h2>\n\n<h3>Preparatory work with a clear final check</h3>\n<p>Gathering and organising information that a person then makes a decision on. Putting together a file from five sources, building a market overview, preparing a tender response. The agent does the search work, the person does the assessment.</p>\n<p>This works because the mistake is visible at the moment it matters: the reviewer sees that something is missing or wrong, before anything irreversible happens.</p>\n\n<h3>Steps you can undo without damage</h3>\n<p>Drafting a concept, assigning a category that can be changed later, creating an internal note. If it goes wrong, you correct it and lose, at most, some time.</p>\n\n<h3>Routes with a hard, checkable outcome</h3>\n<p>If an objective test exists (a calculation that is right or wrong, a query that returns results or doesn't, a file that validates or doesn't), an agent can iterate independently until that test passes. The test is the safety valve.</p>\n\n<h2>Where agents break down</h2>\n\n<h3>Processes where a mistake propagates silently</h3>\n<p>This is the most important category to avoid. If a wrong intermediate step leads to a final result that looks plausible, nobody discovers the mistake: not in the review, and not in the reporting. Financial processing, risk assessment, and anything where a number flows through to another system falls into this category.</p>\n\n<h3>Actions with external consequences</h3>\n<p>Sending a message to a customer, placing an order, changing an appointment, initiating a payment. Not because an agent can't technically do this, but because the cost of a mistake lands outside your organisation and you cannot take it back. A confirmation step belongs here as standard.</p>\n\n<h3>Long chains without an intermediate check</h3>\n<p>The more steps without a checkpoint, the greater the chance that the agent makes a wrong assumption somewhere halfway through and keeps building on it consistently. Practical limit: if there are more than a handful of steps without any check, build in an intermediate review, automated or human.</p>\n\n<h3>Situations without a complete log</h3>\n<p>If you cannot reconstruct which steps the agent took, which sources it consulted and why it chose a particular route, you cannot investigate an incident. For regulated processes that is not an option, and for everything else it's unwise.</p>\n\n<h2>The autonomy level as a deliberate choice</h2>\n<p>Autonomy is not a property of the technology but a setting you choose. Four levels, in ascending order:</p>\n<ul>\n  <li><b>Preparing:</b> the agent gathers and organises, a person does everything after that. Lowest risk, often already the biggest time saving.</li>\n  <li><b>Proposing:</b> the agent makes a concrete proposal including reasoning, a person approves or amends it.</li>\n  <li><b>Executing with confirmation:</b> the agent takes the steps but asks for confirmation at the irreversible moments.</li>\n  <li><b>Acting independently:</b> the full chain without intervention, with monitoring afterwards. Only for reversible steps with a hard final check.</li>\n</ul>\n<p>My advice is almost always to start at level one or two, even if the model can handle more. Not out of caution, but because that's the phase in which you learn which mistakes actually occur. You need that knowledge to decide where you can safely increase autonomy, and you won't get that information anywhere else.</p>\n\n<h2>The question you need to answer first</h2>\n<p>For every step you hand over to an agent, one question: <b>if this step goes wrong, who notices, when, and what does it cost to fix?</b></p>\n<p>Three possible answers and what they mean:</p>\n<ul>\n  <li><b>Immediately visible, cheap to fix</b>: give autonomy.</li>\n  <li><b>Visible later, fixable</b>: autonomy with monitoring and a periodic sample check.</li>\n  <li><b>Not visible, or not fixable</b>: no autonomy, full stop.</li>\n</ul>\n\n<h2>What this means in practice</h2>\n<p>The applications I see working in production are rarely the spectacular ones. They are agents that prepare files, bring together information from different systems, or draft a first version that a person finishes. The time saving is real (often tens of per cent on the preparatory step), and the risk is manageable because someone always looks at it before it matters.</p>\n<p>The applications that fail are the chains that were given too much independence too soon. Not because the technology couldn't handle it, but because nobody had established what would happen if it got something wrong. That question takes half an hour, and determines whether your application is still running a year from now.</p>\n"
+  },
+  {
+    "id": "en-from-ai-strategy-to-value",
+    "lang": "en",
+    "slug": "from-ai-strategy-to-value",
+    "category": "Strategy",
+    "tone": "salmon",
+    "icon": "↗",
+    "featured": false,
+    "title": "From AI strategy to value: a 3-step plan",
+    "titleLine1": "From AI strategy",
+    "titleLine2": "to real value",
+    "excerpt": "Most AI strategies don't fail on the strategy itself, but on translating it. Three steps that force that translation.",
+    "metaTitle": "From AI Strategy to Value: A 3-Step Plan",
+    "metaDescription": "Why most AI strategies stall after the document is written, and the three translation steps that turn direction into measurable results.",
+    "lede": "A strategy nobody can execute is an expensive document. These are the three steps that turn direction into results, with the pitfall at each step.",
+    "readingTime": "4 min read",
+    "date": "2026-06-11",
+    "dateLabel": "11 June 2026",
+    "summary": [
+      "Translate ambition into measurable business outcomes, not technology.",
+      "Give each use case one owner with budget and a mandate.",
+      "Measure value at the same level you promised it."
+    ],
+    "summaryClose": "Without an owner and a measurement point, every strategy stays an intention.",
+    "takeaways": [
+      [
+        "Start with the outcome",
+        "\"We're cutting handling time by 30% without satisfaction dropping\" beats \"we're applying AI to customer contact.\""
+      ],
+      [
+        "One owner per use case",
+        "Shared ownership is, in practice, no ownership at all."
+      ],
+      [
+        "Measure what you promised",
+        "If the business case was about pounds, user numbers aren't proof."
+      ]
+    ],
+    "remember": "A strategy only becomes real the moment someone turns it into a quarterly target.",
+    "related": [],
+    "body": "\n<h2>Where it goes wrong between strategy and results</h2>\n<p>I rarely see a bad AI strategy. What I do often see: a perfectly good strategy that, nine months later, is still exactly the same document, with the same ambitions and not a single result delivered. Not through unwillingness, but because three translation steps are missing that nobody has explicitly assigned.</p>\n<p>Those three translation steps aren't a methodology. They're three questions you need to be able to answer before a strategy becomes executable.</p>\n\n<h2>Step 1: Translate ambition into business outcomes</h2>\n<p>Most AI strategies are written in technology language: \"we're deploying generative AI for customer contact\", \"we're building a data-driven decision culture\". Those are directions, not outcomes. You can't turn them into a quarterly target, and you can't steer by them.</p>\n<p>The translation that works looks like this:</p>\n<ul>\n  <li><b>From:</b> \"using AI for customer contact\", <b>to:</b> \"average handling time for first-line queries down from 8 to 5 minutes, with customer satisfaction unchanged.\"</li>\n  <li><b>From:</b> \"predictive maintenance\", <b>to:</b> \"unplanned downtime on lines 3 and 4 down 20% within twelve months.\"</li>\n  <li><b>From:</b> \"increasing knowledge-worker productivity\", <b>to:</b> \"two hours per consultant per week freed up, redeployed to billable work.\"</li>\n</ul>\n<p>The difference looks cosmetic. It isn't. The right-hand column forces you to decide who's accountable, what data you need to measure it, and when you'll conclude it isn't working. The left-hand column leaves all those questions open, and that is exactly why those strategies stall.</p>\n<p><b>The pitfall here:</b> formulating outcomes so ambitious that nobody dares to claim them. A goal nobody wants to attach their name to isn't a goal.</p>\n\n<h2>Step 2: Assign ownership with budget and a mandate</h2>\n<p>This is the step that gets skipped most often, usually with the best intentions. The use case gets \"assigned to a working group\" or \"picked up jointly by IT and the business\". In practice, that means: when it gets difficult, everyone looks at each other.</p>\n<p>Ownership that works has three characteristics:</p>\n<ul>\n  <li><b>One name.</b> Not a department, not a duo. One person who explains in the steering group why it is, or isn't, moving forward.</li>\n  <li><b>Budget in their own line.</b> If the owner has to go through someone else for every pound, that someone else is the real owner.</li>\n  <li><b>A mandate to stop.</b> This is almost always forgotten. An owner who is only allowed to continue is an executor.</li>\n</ul>\n<p>A practical test: can you name the owner of every use case on your roadmap within ten seconds? If not, that use case doesn't have one.</p>\n<p><b>The pitfall here:</b> placing ownership with the AI lead or the data team. They can build and advise, but they aren't the ones sitting on the P&L where the value has to land. The owner belongs in the business, even when that's uncomfortable because that person has no AI background.</p>\n\n<h2>Step 3: Measure at the level you promised</h2>\n<p>This is where most of the quiet disappointment happens. The business case promised £400,000 in savings. The reporting shows: 1,200 active users, 87% satisfaction, 40,000 documents processed. All true, all positive, and none of it an answer to the question that was asked.</p>\n<p>Usage statistics are useful as an early indicator. They are not proof of value. If your business case was formulated in pounds or hours, you ultimately need to report in pounds or hours too, even when that's harder to measure.</p>\n<p>Three measurement layers that work together:</p>\n<ul>\n  <li><b>Adoption</b> (weekly active users, usage per scenario): tells you whether people are using it.</li>\n  <li><b>Process performance</b> (lead time, error rate, rework): tells you whether it's working.</li>\n  <li><b>Business outcome</b> (cost, revenue, capacity): tells you whether it delivered anything.</li>\n</ul>\n<p>The third layer almost always requires a baseline measurement you should have taken before you started. Take that baseline measurement. It's two days' work, and without those two days you can't prove anything a year later.</p>\n<p><b>The pitfall here:</b> only measuring what happened to already be on a dashboard. That's how you end up with a report full of usage figures.</p>\n\n<h2>What this delivers in practice</h2>\n<p>These three steps aren't complicated. They're uncomfortable. They force you to shrink ambitions down to something someone is willing to put their name to, and to establish in advance when you would conclude that it hasn't worked.</p>\n<p>That's exactly why they work. A portfolio of four use cases with owners, measurement points and stop criteria delivers more than a roadmap with twenty initiatives everyone is enthusiastic about and nobody is accountable for.</p>\n"
+  },
+  {
+    "id": "en-build-buy-or-partner",
+    "lang": "en",
+    "slug": "build-buy-or-partner",
+    "category": "Organisation",
+    "tone": "aqua",
+    "icon": "⇄",
+    "featured": false,
+    "title": "Build, buy or partner: what fits your situation?",
+    "titleLine1": "Build, buy or partner:",
+    "titleLine2": "what fits your situation?",
+    "excerpt": "The question is rarely \"can we build this ourselves?\" but \"do we still want to be maintaining this in three years?\" A decision framework in four questions.",
+    "metaTitle": "Build, Buy or Partner for AI: A Decision Framework",
+    "metaDescription": "A four-question framework for choosing between building AI yourself, buying it, or partnering, with the maintenance costs most people skip.",
+    "lede": "Build it yourself, buy it, or partner with someone? The choice determines your cost structure, your agility and your dependency for years. Here's how to make it an informed one.",
+    "readingTime": "4 min read",
+    "date": "2026-05-28",
+    "dateLabel": "28 May 2026",
+    "summary": [
+      "Only build what sets you apart in the market.",
+      "Buy everything that's a commodity, even if you can build it yourself.",
+      "Partner where you want to steer the outcome but don't want to own the technology."
+    ],
+    "summaryClose": "The maintenance question matters more than the build question.",
+    "takeaways": [
+      [
+        "Distinctive or not?",
+        "If your competitor can buy it tomorrow, don't build it yourself."
+      ],
+      [
+        "Calculate to year five",
+        "Building is cheap in year one and expensive from year three."
+      ],
+      [
+        "Design the exit in",
+        "For every choice: how do you get out of it, and what does that cost?"
+      ]
+    ],
+    "remember": "You're not building software, you're adopting a maintenance obligation.",
+    "related": [],
+    "body": "\n<h2>Why this choice weighs heavier with AI</h2>\n<p>With classic software, build-or-buy was mainly a cost question. With AI, three extra factors make the trade-off structurally different.</p>\n<p>First, the underlying technology changes faster than your depreciation period. A model you fine-tune yourself today can be overtaken within eighteen months by a generic model that does it better out of the box, and more cheaply. Second, maintenance is fundamentally different: models quietly degrade as reality shifts, which calls for permanent monitoring rather than occasional patching. Third, the value often doesn't sit in the model but in your data and your working process, and you can't buy either of those anyway.</p>\n\n<h2>The four questions that decide the choice</h2>\n\n<h3>Question 1: Is this distinctive, or is it a commodity?</h3>\n<p>The only good reason to build it yourself is that it sets you apart in the market. Not that it's fun, not that your team can do it, and not that it looks cheaper.</p>\n<p>A hard test: can your main competitor buy the same result from a supplier tomorrow? If the answer is yes, it's a commodity, however technically interesting it is. Document extraction, speech recognition, summarising, standard classification: all commodities. The way you combine those building blocks with your own data and processes: that's where the distinction can lie.</p>\n<p>In practice, at most ten to twenty per cent of what organisations want to build is genuinely distinctive. The rest gets built because it can be.</p>\n\n<h3>Question 2: What does it cost in year five?</h3>\n<p>Building is cheap in year one. You have a team, it builds something, it works. The costs that come after are rarely counted in:</p>\n<ul>\n  <li>Model monitoring and retraining as the data shifts</li>\n  <li>Keeping up with the underlying models and API versions</li>\n  <li>Security, logging and audit trail</li>\n  <li>Documentation and knowledge transfer when people leave</li>\n  <li>The opportunity cost of engineers maintaining this instead of building something new</li>\n</ul>\n<p>A rule of thumb from practice: the annual maintenance of a self-built AI application runs between 20% and 40% of the original build cost. Run that through for five years and compare it to a licence. The conclusion often reverses.</p>\n\n<h3>Question 3: Who needs to be able to steer the outcome?</h3>\n<p>This is the question that justifies partnering. There are applications where you don't need to own the technology, but you do need influence over how the outcome comes about. Think of risk models, pricing, or anything that communicates towards customers on behalf of your brand.</p>\n<p>A standard product rarely gives you that influence. Building it yourself gives you full influence but also the full burden. A partnership arrangement (where a supplier builds and manages, but you set the rules, thresholds and evaluation criteria) sits in between. It works if you arrange it well contractually, and it goes wrong if you run it on trust.</p>\n\n<h3>Question 4: How do you get out of it again?</h3>\n<p>The exit question belongs in the design, not in the renewal discussion three years from now. For each of the three options, exit looks different:</p>\n<ul>\n  <li><b>Build:</b> exit means finding someone who understands your codebase. The risk sits in key-person dependency and missing documentation.</li>\n  <li><b>Buy:</b> exit means getting your data and your configured logic out. Establish the format and the timeframe before signing.</li>\n  <li><b>Partner:</b> exit means handover of both the build and the knowledge. Include a handover clause with a concrete deliverable, not an intention.</li>\n</ul>\n\n<h2>The hybrid form that works most often</h2>\n<p>In most projects I guide, the answer isn't one of the three in pure form. The setup that holds up most often:</p>\n<ul>\n  <li><b>Buy the building blocks.</b> Models, infrastructure, standard components. This is where suppliers have economies of scale you'll never match.</li>\n  <li><b>Build the layer that holds your knowledge.</b> The rules, the prompts, the evaluation sets, the link to your processes. This is small in scope and large in value.</li>\n  <li><b>Partner for implementation.</b> But keep ownership of the evaluation criteria yourself.</li>\n</ul>\n<p>Concretely: an organisation automating document processing buys the language model and the platform, builds its own field-extraction rules and a test set of two hundred assessed files, and has the integration done by a partner. The test set is the most valuable part and costs the least money.</p>\n\n<h2>Three situations where the choice is clear</h2>\n<p><b>Build</b> if it touches directly on why customers choose you, you have exclusive access to the data, and you have a team that can still maintain this in five years.</p>\n<p><b>Buy</b> if there are three or more serious suppliers, the functionality is stable, and your main concern is time to value.</p>\n<p><b>Partner</b> if the technology is mature but the application is sensitive, and you want to steer the outcome but not the codebase.</p>\n<p>Still unsure? Then buying is almost always the cheapest way to learn what you actually need. You can still build later, with a sharper specification and without losing a year.</p>\n"
+  },
+  {
+    "id": "en-which-ai-use-cases-deliver-results",
+    "lang": "en",
+    "slug": "which-ai-use-cases-deliver-results",
+    "category": "Use cases",
+    "tone": "yellow",
+    "icon": "⌕",
+    "featured": false,
+    "title": "Which AI use cases actually deliver results?",
+    "titleLine1": "Which AI use cases",
+    "titleLine2": "actually deliver results?",
+    "excerpt": "Not the most spectacular, but the most boring. Four traits the winners share, and four patterns that almost always stall.",
+    "metaTitle": "Which AI Use Cases Actually Deliver Results?",
+    "metaDescription": "Four traits that separate AI use cases that deliver results from the ones that stall, drawn from dozens of use-case inventories.",
+    "lede": "After dozens of use-case inventories, the same pattern stands out: the winners are rarely the ideas the board gets excited about. Here's what they do have in common.",
+    "readingTime": "4 min read",
+    "date": "2026-05-07",
+    "dateLabel": "7 May 2026",
+    "summary": [
+      "High volume, low variation, clear cost of error.",
+      "A human check already in the process, cheaper than the mistake.",
+      "Data that already exists and is already in use."
+    ],
+    "summaryClose": "Boring and frequent beats spectacular and rare.",
+    "takeaways": [
+      [
+        "Volume over complexity",
+        "Ten thousand small time savings beat one big insight."
+      ],
+      [
+        "The mistake has to be affordable",
+        "If a mistake is unrecoverable, the business case is much smaller than it looks."
+      ],
+      [
+        "Existing data wins",
+        "Every use case that requires new data collection pushes a year back."
+      ]
+    ],
+    "remember": "The best use case is usually the one nobody wants to give a presentation about.",
+    "related": [
+      "from-ai-strategy-to-value"
+    ],
+    "body": "\n<h2>The pattern behind the winners</h2>\n<p>In use-case sessions, the same kind of ideas always float to the top: a chatbot that knows everything, a system that predicts the market, an assistant that makes meetings unnecessary. They're appealing because they sound big. They stall because they're vague.</p>\n<p>The use cases that do make it share four traits. None of those traits is about technology.</p>\n\n<h3>1. High volume, low variation</h3>\n<p>A task that occurs a thousand times a month in roughly the same way is a better candidate than a task that occurs ten times a year and is different every time, even if that second task is more expensive per occurrence.</p>\n<p>The reason is practical: at high volume, a small improvement pays for itself quickly, you can measure quickly whether it works, and there's enough material to improve the system. At low frequency, it takes a year before you know whether you have anything.</p>\n<p>A concrete example: summarising customer calls (thousands a month, similar structure) is a better first use case than drafting the annual plan, however valuable that annual plan is.</p>\n\n<h3>2. The cost of a mistake is known and affordable</h3>\n<p>Every AI application makes mistakes. The question isn't whether, but what that mistake costs and who notices it. This question gets skipped too often, and it determines after the fact whether the use case is sustainable.</p>\n<p>Three categories:</p>\n<ul>\n  <li><b>Affordable and visible:</b> a wrongly suggested summary that the user sees and corrects immediately. Ideal candidate.</li>\n  <li><b>Affordable but invisible:</b> a slightly wrong stock forecast that only shows up in the quarterly figures. Usable, provided you set up monitoring.</li>\n  <li><b>Costly and invisible:</b> a wrongly rejected credit application. Only do this with a solid control structure, and rarely as a first use case.</li>\n</ul>\n\n<h3>3. There's already a human check in the process</h3>\n<p>This may be the strongest predictive trait. If someone in the current process already reviews, checks or signs off, you already have the most important safeguard in place. You're changing that person's role from doer to checker, and that's a much smaller change than it sounds.</p>\n<p>Conversely: if a process runs fully automatically with no human involvement, and you want to put AI into it, you'll need to add that check yourself. That costs time, money and buy-in, and it makes the business case smaller than the original calculation suggested.</p>\n\n<h3>4. The data already exists and is already in use</h3>\n<p>Not \"the data is available\", but \"the data is already used to make decisions\". That difference is significant. Data already in use has already been cleaned up, already defined, and already has an owner. Data that sits somewhere but isn't used for anything is almost always worse quality than everyone assumes.</p>\n<p>A use case that starts with \"first we need to collect data\" pushes back at least a year. Sometimes that's the right investment, but then call it a data project, not an AI use case.</p>\n\n<h2>Four patterns that almost always stall</h2>\n\n<h3>The assistant that can do everything</h3>\n<p>\"We're giving everyone an AI assistant\" isn't a use case, it's a licence. Without defined scenarios, usage stays stuck around ten per cent, and then the organisation concludes that AI \"doesn't work\". Pick three to five concrete tasks, build ready-made starting points for them, and only add freedom later.</p>\n\n<h3>The prediction model with no decision behind it</h3>\n<p>A prediction nobody acts on is an expensive dashboard. Before you start: who looks at this prediction, what does that person do differently at outcome A versus outcome B, and do they have the mandate to do it? If any one of those three answers is missing, stop.</p>\n\n<h3>The use case with no owner in the business</h3>\n<p>If the only enthusiast sits in the innovation team or the data team, and there's nobody in the business who benefits, the use case won't survive the first reorganisation. Find the person whose quarterly target becomes more achievable because of it. If you can't find them, it's a nice idea, not a priority.</p>\n\n<h3>The use case that automates a process you should scrap instead</h3>\n<p>This is the most painful one. On analysis, it regularly turns out that the process we want to speed up mainly exists because another system is poorly set up. AI then makes that process cheaper, which means nobody ever scraps it. Always ask first: why does this step exist, and what happens if it disappears?</p>\n\n<h2>A practical scoring question</h2>\n<p>When prioritising a list, there are usually five questions I score each use case against, from 1 to 5:</p>\n<ul>\n  <li>How often does this task occur? (volume)</li>\n  <li>How predictable is the shape of the task? (variation)</li>\n  <li>Does the data needed already exist, and is it in use? (data readiness)</li>\n  <li>Is there already a check in place, or do we need to add one? (safety)</li>\n  <li>Is there an owner in the business who benefits? (pull)</li>\n</ul>\n<p>Use cases that score below 15 points don't go first. Not because they're bad, but because your first two use cases need to succeed: the rest of your roadmap depends on it.</p>\n"
   }
 ]
