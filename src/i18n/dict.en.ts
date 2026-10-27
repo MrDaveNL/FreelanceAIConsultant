@@ -56,5 +56,8 @@ export const en = {
     writtenByRole: 'independent AI consultant',
     published: 'published',
     updated: 'updated',
+    kbFeatured: 'Featured articles',
+    kbTopics: 'Topics',
+    kbNewest: 'Newest articles',
   },
 } as const;

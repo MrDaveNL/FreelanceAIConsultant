@@ -56,5 +56,8 @@ export const nl = {
     writtenByRole: 'onafhankelijk AI consultant',
     published: 'gepubliceerd',
     updated: 'bijgewerkt',
+    kbFeatured: 'Uitgelichte artikelen',
+    kbTopics: 'Onderwerpen',
+    kbNewest: 'Nieuwste artikelen',
   },
 } as const;

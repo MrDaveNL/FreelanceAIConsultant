@@ -65,14 +65,23 @@ const formatDate = (iso) =>
   new Date(`${iso}T12:00:00`).toLocaleDateString(locale === 'nl' ? 'nl-NL' : 'en-US', { day: 'numeric', month: 'long', year: 'numeric' });
 
 // Kennisbank-overzicht (P08): artikelen gegroepeerd per onderwerp.
-const kbCategories = [
-  ['AI consultancy en strategie', ['C1', 'C4']],
-  ['AI implementatie', ['C2', 'C5']],
-  ['AI automatisering', ['C3']],
-  ['AI agents', ['C6']],
-  ['AI beleid en AI Act', ['C8']],
-  ['AI tools', ['C10']],
-];
+const kbCategories = locale === 'en'
+  ? [
+      ['AI consulting and strategy', ['C1', 'C4']],
+      ['AI implementation', ['C2', 'C5']],
+      ['AI automation', ['C3']],
+      ['AI agents', ['C6']],
+      ['AI policy and the AI Act', ['C8']],
+      ['AI tools', ['C10']],
+    ]
+  : [
+      ['AI consultancy en strategie', ['C1', 'C4']],
+      ['AI implementatie', ['C2', 'C5']],
+      ['AI automatisering', ['C3']],
+      ['AI agents', ['C6']],
+      ['AI beleid en AI Act', ['C8']],
+      ['AI tools', ['C10']],
+    ];
 const categoryOf = (p) => {
   if (p.id === 'C3-05') return 'AI tools';
   const prefix = p.id.split('-')[0];
@@ -198,13 +207,13 @@ const schema = { '@context': 'https://schema.org', '@graph': graph };
 
           {page.id === 'P08' && (
             <>
-              <h2 id="uitgelicht">Uitgelichte artikelen</h2>
+              <h2 id="uitgelicht">{dict.contentPage.kbFeatured}</h2>
               <div class="kb-grid">
                 {featured.map((p) => (
                   <a class="kb-card card" href={p.url}><span class="kb-cat">{categoryOf(p)}</span><b>{p.title}</b><span>{p.metaDescription}</span></a>
                 ))}
               </div>
-              <h2 id="onderwerpen">Onderwerpen</h2>
+              <h2 id="onderwerpen">{dict.contentPage.kbTopics}</h2>
               {kbCategories.map(([label]) => {
                 const items = articles.filter((p) => categoryOf(p) === label);
                 return items.length > 0 && (
@@ -214,7 +223,7 @@ const schema = { '@context': 'https://schema.org', '@graph': graph };
                   </>
                 );
               })}
-              <h2 id="nieuwste">Nieuwste artikelen</h2>
+              <h2 id="nieuwste">{dict.contentPage.kbNewest}</h2>
               <ul class="kb-list">
                 {newest.map((p) => <li><a href={p.url}>{p.title}</a> <span class="muted">· {formatDate(p.updated)}</span></li>)}
               </ul>
