@@ -132,10 +132,10 @@ export const routes: RouteEntry[] = [
   // Geen EN-tegenhanger: NL-arbeidsmarktdata (salaris), zou misleidend zijn zonder eigen EN-cijfers.
   r('C5-05', 'content', '/kennisbank/ai-specialist-salaris', '/knowledge-base/ai-specialist-salary', { cluster: 'kennisbank', noEn: true }),
   r('C3-06', 'content', '/kennisbank/ai-voorbeelden', '/knowledge-base/ai-examples', { cluster: 'kennisbank' }),
-  r('C10-01', 'content', '/kennisbank/chatgpt-voor-bedrijven', '/knowledge-base/chatgpt-for-business', { cluster: 'kennisbank' }),
-  r('C10-02', 'content', '/kennisbank/claude-voor-bedrijven', '/knowledge-base/claude-for-business', { cluster: 'kennisbank' }),
+  r('C10-01', 'content', '/kennisbank/chatgpt-voor-bedrijven', '/knowledge-base/chatgpt-for-business', { cluster: 'kennisbank', liveEn: true }),
+  r('C10-02', 'content', '/kennisbank/claude-voor-bedrijven', '/knowledge-base/claude-for-business', { cluster: 'kennisbank', liveEn: true }),
   r('C10-03', 'content', '/kennisbank/gemini-voor-bedrijven', '/knowledge-base/gemini-for-business', { cluster: 'kennisbank' }),
-  r('C10-04', 'content', '/kennisbank/microsoft-copilot-voor-bedrijven', '/knowledge-base/microsoft-copilot-for-business', { cluster: 'kennisbank' }),
+  r('C10-04', 'content', '/kennisbank/microsoft-copilot-voor-bedrijven', '/knowledge-base/microsoft-copilot-for-business', { cluster: 'kennisbank', liveEn: true }),
   // Geen EN-tegenhanger gepland voor deze batch.
   r('C3-07', 'content', '/kennisbank/notuleren-met-ai', '/knowledge-base/ai-meeting-notes', { cluster: 'kennisbank', noEn: true }),
   r('C10-05', 'content', '/kennisbank/prompt-engineering', '/knowledge-base/prompt-engineering', { cluster: 'kennisbank' }),
