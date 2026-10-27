@@ -50,6 +50,15 @@ The home page self-adjusts as more EN content goes live (no manual edit needed l
 - **Meta description:** describes what the hub contains rather than targeting a keyword — practical guides on ChatGPT, Claude, Microsoft Copilot, AI agents and AI consulting for business leaders.
 - **Adaptation notes:** no RAG block (no NL block exists for `kennisbank`/P08 to mirror or verify).
 
+## AI agents cluster (`/ai-agents`, `/ai-agents/build`, `/ai-agents/what-is-an-ai-agent`)
+
+- **Main EN keywords:** "AI agents for business" (hub, C6-00), "build an AI agent" (C6-03), "what is an AI agent" (C6-01). `/ai-agents/examples` (C6-04) was already live from an earlier batch.
+- **Adaptation notes:**
+  - Hub: the NL page's source for the chatbot-transparency point (a joint Dutch AP/ACM regulator call) is NL-specific and doesn't apply in English; replaced with the same EU AI Act Article 50 citation already verified and used on the live `/ai-agents/examples` page (transparency obligation reaches a UK business placing such a system on the EU market or whose output is used there).
+  - All three pages: forward references to not-yet-live kennisbank articles (AI agents and data protection/GDPR, RPA vs AI automation) are left as plain text, no link, same pattern used elsewhere in this project until those pages go live.
+  - "AVG" (Dutch GDPR) references translated to "UK GDPR" per the established convention for this phase.
+  - RAG blocks: `ai-agents-en.ts`, `ai-agents-build-en.ts` (dienstenoverzicht, same facts as the NL blocks) and `ai-agents-wat-is-een-ai-agent-en.ts` (kennisbank, same facts as the NL block). Nothing substantive left out.
+
 ## AI and BI (`/ai-for-business/ai-and-bi`, route id C4-03)
 
 - **Main EN keyword:** AI and BI

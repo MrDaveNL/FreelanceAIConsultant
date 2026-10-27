@@ -114,10 +114,10 @@ export const routes: RouteEntry[] = [
   r('C5-02', 'content', '/ai-development/ai-software', '/ai-development/ai-software', { cluster: 'ai-development', liveEn: true }),
   r('C5-03', 'content', '/ai-development/ai-oplossingen', '/ai-development/ai-solutions', { cluster: 'ai-development', liveEn: true }),
 
-  r('C6-00', 'content', '/ai-agents', '/ai-agents', { cluster: 'ai-agents' }),
-  r('C6-03', 'content', '/ai-agents/laten-maken', '/ai-agents/build', { cluster: 'ai-agents' }),
+  r('C6-00', 'content', '/ai-agents', '/ai-agents', { cluster: 'ai-agents', liveEn: true }),
+  r('C6-03', 'content', '/ai-agents/laten-maken', '/ai-agents/build', { cluster: 'ai-agents', liveEn: true }),
   r('C6-04', 'content', '/ai-agents/voorbeelden', '/ai-agents/examples', { cluster: 'ai-agents', liveEn: true }),
-  r('C6-01', 'content', '/ai-agents/wat-is-een-ai-agent', '/ai-agents/what-is-an-ai-agent', { cluster: 'ai-agents' }),
+  r('C6-01', 'content', '/ai-agents/wat-is-een-ai-agent', '/ai-agents/what-is-an-ai-agent', { cluster: 'ai-agents', liveEn: true }),
 
   r('C8-00', 'content', '/ai-beleid', '/ai-policy', { cluster: 'ai-beleid', liveEn: true }),
   r('C8-01', 'content', '/ai-beleid/ai-act', '/ai-policy/ai-act', { cluster: 'ai-beleid' }),
