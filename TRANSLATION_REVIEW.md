@@ -36,6 +36,12 @@ The home page self-adjusts as more EN content goes live (no manual edit needed l
   - The sitewide "`Page title | Freelance AI Consultant`" brand suffix (`site.brand`, used verbatim on NL and EN alike — services, cases, approach, contact, 404, etc.) is a separate thing: a site-identity suffix, not a page's primary keyword, and is unchanged everywhere, including on this page's earlier draft. Only the About page's own keyword/H1 framing changed.
 - **Adaptation notes:** no RAG block (no NL block exists for `over` to mirror or verify).
 
+## AI consulting (`/ai-consulting`, route id C1-00)
+
+- **Merged-in content:** route `C1-06` (`/ai-consultancy/ai-consultant-inhuren`) is flagged `noEn: true` and does not get its own EN page. Its content (when to hire, freelance vs agency, selection criteria, cost, deliverables) was merged into this page's existing "Hiring an AI consultant" subsection instead, expanded from a three-line teaser into the full argument.
+- **Secondary keyword:** "hire an ai consultant", on this subsection only. The page's primary keyword ("what is AI consultancy" / "ai consulting") is unchanged.
+- **Why merged, not a separate page:** per explicit user decision on the remaining-pages survey — a standalone `/ai-consulting/hire-an-ai-consultant` page was judged unnecessary scope; the content fits naturally as a subsection of the existing hub page.
+
 ## Knowledge base index (`/knowledge-base`, route id P08)
 
 - **No target keyword — hub page.** This is a navigation/hub page listing the knowledge-base articles, not a page competing for search intent of its own. An earlier draft used "ai knowledge base" as the main keyword; that's the wrong search intent (it reads as a knowledge-base *software product* query, not this page's actual content) and has been removed. `keyphrase` is now optional in the content schema (`src/content.config.ts`) rather than forced to a placeholder value, since a hub page legitimately has none.

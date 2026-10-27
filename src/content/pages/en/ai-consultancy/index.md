@@ -106,7 +106,17 @@ Not every question needs a full engagement. Sometimes you want a second opinion 
 
 ### Hiring an AI consultant
 
-If you're weighing up bringing someone in, you'll want to know what to look for: seniority, independence, and what you're left with once the adviser moves on. Those are the questions I'd ask myself before hiring one.
+Hiring an AI consultant is a bet on one person, so that person needs to be right. It's worth it in a few recognisable situations: the decision is expensive and hard to reverse, there's an internal stalemate between departments with no neutral tie-breaker, you need to defend an investment to the board, you're doing this for the first time under time pressure, or initiatives are running with no one keeping an eye on the overall AI agenda. A small, reversible choice, by contrast, is usually better tried than advised on.
+
+A freelance AI consultant is typically flexible and quick to start, and you work directly with the person you spoke to first, with no layers in between. An agency or large consultancy brings more capacity, specialist teams and institutional cover, which matters for large transformations, heavy delivery work, or engagements where auditability leads. The trade-off with a freelancer is limited scale and dependence on one person.
+
+Whichever you choose, the same three things separate the good candidates from the rest:
+
+- **Demonstrable experience with your type of question**, not just with AI in general. Ask what comparable assignments looked like, what the decision was, and whether you can pick your own reference rather than only the ones offered.
+- **Independence.** Some AI advisers are also an implementation partner or a platform reseller. That's not necessarily wrong, but you should know it. Ask explicitly whether they receive fees, discounts or partner status from vendors who might come into play, and ask for that in writing. My own answer: I don't build or sell software, take no commissions, and charge no margin on partners; any existing vendor relationship gets disclosed before that party comes into the picture.
+- **Clear deliverables.** Ask upfront what you'll have in hand at the end and when the assignment is considered done. Good deliverables are made to decide with: a prioritised list of use cases with owners, an AI strategy with explicit choices, an AI roadmap with planning and budget, or a decision document for a vendor choice.
+
+On cost: I work with fixed packages and visible starting prices rather than an open hourly rate, across three hiring formats: scoped advice at a fixed price per assignment, a fixed-price engagement such as the AI Readiness Assessment or AI Strategy Sprint, or an ongoing part-time role as [Fractional AI Lead](/services/fractional-ai-lead). The smallest fixed-price package is the Executive Briefing, at {{price:executive-briefing}}. All amounts are excluding VAT and travel expenses; the full breakdown is on the [pricing](/pricing) page.
 
 ## AI consulting for larger organisations
 
