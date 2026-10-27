@@ -1,0 +1,157 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import HeroPortrait from '@/components/HeroPortrait.astro';
+import ArticleCard from '@/components/ArticleCard.astro';
+import CTA from '@/components/CTA.astro';
+import { site, seoTitle } from '@/data/site.js';
+import '@/styles/rag-blok.css';
+import { blokVoor } from '@/data/rag/index.ts';
+import { renderRagBlok } from '@/lib/rag-blok.js';
+
+export async function getStaticPaths() {
+  const entries = await getCollection('articles', ({ data }) => data.lang === 'en');
+  return entries.map((entry) => ({ params: { slug: entry.data.slug }, props: { article: entry.data } }));
+}
+
+const { article } = Astro.props;
+const allEn = (await getCollection('articles', ({ data }) => data.lang === 'en')).map((a) => a.data);
+const related = (article.related ?? []).map((slug) => allEn.find((a) => a.slug === slug)).filter(Boolean);
+
+// RAG-ready contentblok: vóór de eerste H2 van de artikeltekst. Zonder blok blijft de tekst zoals hij is.
+const blok = blokVoor(`/insights/${article.slug}`, 'en');
+const eersteH2 = article.body.indexOf('<h2');
+if (blok && eersteH2 < 0) throw new Error(`RAG-blok /insights/${article.slug}: artikel heeft geen H2`);
+const body = blok ? `${article.body.slice(0, eersteH2)}${renderRagBlok(blok)}
+${article.body.slice(eersteH2)}` : article.body;
+
+const schema = {
+  '@context': 'https://schema.org',
+  '@type': 'BlogPosting',
+  headline: article.title,
+  description: article.excerpt,
+  datePublished: article.date,
+  inLanguage: 'en-GB',
+  articleSection: article.category,
+  author: { '@type': 'Person', name: site.name, url: site.url, jobTitle: site.role },
+  publisher: { '@type': 'Person', name: site.name },
+  mainEntityOfPage: `${site.url}/insights/${article.slug}`,
+};
+---
+<BaseLayout title={seoTitle(article.metaTitle ?? article.title)} description={article.metaDescription ?? article.excerpt} schema={schema}>
+  <article>
+    <header class="article-hero section-sm">
+      <div class="container hero-grid">
+        <div>
+          <a class="back" href="/insights">← Back to all insights</a>
+          <p class="eyebrow">{article.category}</p>
+          <h1 class="h1">{article.titleLine1}<br/><span class="marker">{article.titleLine2}</span></h1>
+          <p class="lede">{article.lede}</p>
+          <div class="meta">◷ {article.readingTime} <span>{article.dateLabel}</span></div>
+          <div class="author card">
+            <div class="avatar" aria-hidden="true">{site.initials}</div>
+            <div>
+              <b>By {site.name}</b>
+              <span>{site.role}, independent, no vendor interests</span>
+              <p>I help organisations make AI decisions that create value. No bloated decks, just clear choices and tangible results.</p>
+            </div>
+          </div>
+        </div>
+        <div class="side">
+          <HeroPortrait compact={true} locale="en" />
+          <div class="sticky-note">
+            <p class="hand">AT A GLANCE</p>
+            <ul>{article.summary.map((line) => <li>{line}</li>)}</ul>
+            <b>{article.summaryClose}</b>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <section class="section-sm">
+      <div class="container article-grid">
+        <div class="content" set:html={body} />
+        <aside>
+          <h3>Key takeaways</h3>
+          {article.takeaways.map(([title, text]) => (
+            <div class="take"><span class="icon-dot" aria-hidden="true">✓</span><div><b>{title}</b><p>{text}</p></div></div>
+          ))}
+          <div class="remember hand">REMEMBER<br/><br/>“{article.remember}”</div>
+          <a class="aside-cta card" href="/contact">
+            <b>Want to talk through your situation?</b>
+            <span>30 minutes, no obligation →</span>
+          </a>
+        </aside>
+      </div>
+    </section>
+
+    {related.length > 0 && (
+      <section class="section-sm related">
+        <div class="container">
+          <p class="eyebrow">Further reading</p>
+          <div class="grid-2 related-grid">
+            {related.map((item) => <ArticleCard item={item} locale="en" />)}
+          </div>
+        </div>
+      </section>
+    )}
+
+    <CTA locale="en" title="From AI ambition to concrete results." />
+  </article>
+</BaseLayout>
+<style>
+/* min-width:0 op elk grid-item: zonder dit weigert een item te krimpen onder de min-content-breedte
+   van zijn inhoud (lange tekst, tabel), wat de pagina horizontaal kan laten scrollen. */
+.hero-grid>*,.author>*,.take>*{min-width:0}
+.article-hero{padding-top:48px}
+.hero-grid{display:grid;grid-template-columns:1.15fr .85fr;gap:44px}
+.meta{display:flex;gap:22px;font-size:.8rem;margin:22px 0;color:var(--muted)}
+.author{padding:18px;display:grid;grid-template-columns:auto 1fr;gap:16px;box-shadow:none}
+.avatar{width:66px;height:66px;border-radius:50%;display:grid;place-items:center;background:var(--burgundy);color:white;font-weight:800}
+.author span{display:block;font-size:.78rem;color:var(--muted);margin-top:2px}
+.author p{font-size:.78rem;margin:10px 0 0}
+.side{position:relative}
+.sticky-note{background:var(--mustard);padding:24px 28px;transform:rotate(1deg);box-shadow:0 14px 25px rgba(74,31,42,.15)}
+.sticky-note .hand{font-size:1.5rem;margin:0 0 10px;color:var(--burgundy)}
+.sticky-note ul{padding-left:18px;margin:0}
+.sticky-note li{margin:12px 0;font-size:.83rem}
+.sticky-note b{display:block;border-top:2px solid rgba(74,31,42,.35);padding-top:13px;margin-top:16px;font-size:.88rem}
+.article-grid{display:grid;grid-template-columns:minmax(0,1.45fr) minmax(0,.55fr);gap:54px;align-items:start}
+/* min-width:0 op het grid-item zelf: de track mag krimpen, maar zonder dit weigert .content
+   te krimpen onder de min-content-breedte van zijn breedste kind (bv. .tr, min-width:760px). */
+.content{min-width:0}
+.take{display:grid;grid-template-columns:auto 1fr;gap:13px;padding:17px 0;border-bottom:1px solid var(--line)}
+.take b{color:var(--burgundy);font-size:.92rem}
+.take p{font-size:.78rem;margin:4px 0 0}
+aside h3{color:var(--burgundy);font-size:1.15rem;margin:0 0 6px}
+.remember{background:var(--salmon);padding:26px;margin-top:30px;font-size:1.22rem;transform:rotate(2deg);color:var(--burgundy)}
+.aside-cta{display:block;margin-top:38px;padding:22px;box-shadow:none;background:var(--aqua);transition:transform .2s ease}
+.aside-cta:hover{transform:translateY(-3px)}
+.aside-cta b{display:block;color:var(--burgundy);font-size:1rem}
+.aside-cta span{display:block;margin-top:8px;font-size:.8rem;font-weight:700}
+.related{background:var(--cream-2)}
+@media(max-width:900px){.hero-grid,.article-grid{grid-template-columns:1fr}.side{max-width:620px}}
+</style>
+<style is:global>
+/* Styles for the article body injected with set:html */
+.content h2{color:var(--burgundy);font-size:1.62rem;line-height:1.12;letter-spacing:-.025em;margin:40px 0 12px}
+.content h3{color:var(--burgundy);font-size:1.16rem;margin:28px 0 8px}
+.content p,.content li{font-size:.96rem;line-height:1.62}
+.content ul{padding-left:20px}
+.content li{margin:9px 0}
+.content blockquote{font-family:'Caveat',cursive;color:var(--burgundy);font-size:1.6rem;line-height:1.14;border-left:5px solid var(--salmon);padding-left:18px;margin:35px 0}
+.content .table{border:1px solid var(--line);overflow-x:auto;border-radius:10px;margin:22px 0}
+.content .tr{display:grid;grid-template-columns:.9fr repeat(3,1fr);min-width:760px;border-bottom:1px solid var(--line)}
+.content .tr:last-child{border-bottom:0}
+.content .tr>*{padding:11px 13px;font-size:.79rem}
+.content .tr.head b:nth-child(2){background:var(--mustard)}
+.content .tr.head b:nth-child(3){background:var(--aqua)}
+.content .tr.head b:nth-child(4){background:var(--salmon)}
+.content .option-grid{margin:24px 0}
+.content .option-grid>div{padding:20px;border-radius:12px}
+.content .option-grid .tone-yellow{background:var(--mustard)}
+.content .option-grid .tone-aqua{background:var(--aqua)}
+.content .option-grid .tone-salmon{background:var(--salmon)}
+.content .option-grid h3{color:var(--burgundy);font-size:1rem;margin:0 0 8px}
+.content .option-grid p{font-size:.82rem;margin:0}
+</style>
