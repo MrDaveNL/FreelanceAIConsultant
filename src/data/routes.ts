@@ -45,7 +45,7 @@ export const routes: RouteEntry[] = [
   r('diensten', 'static', '/diensten', '/services', { liveEn: true }),
   r('cases', 'static', '/cases', '/cases', { liveEn: true }),
   r('werkwijze', 'static', '/werkwijze', '/approach', { liveEn: true }),
-  r('inzichten', 'static', '/inzichten', '/insights', {}),
+  r('inzichten', 'static', '/inzichten', '/insights', { liveEn: true }),
   r('over', 'static', '/over', '/about', { liveEn: true }),
   r('contact', 'static', '/contact', '/contact', { liveEn: true }),
   r('veelgestelde-vragen', 'static', '/veelgestelde-vragen', '/faq', { liveEn: true }),
@@ -71,10 +71,10 @@ export const routes: RouteEntry[] = [
   r('case-interne-ai-assistent-kenniswerkers', 'case', '/cases/interne-ai-assistent-kenniswerkers', '/cases/internal-ai-assistant-knowledge-workers', { liveEn: true }),
 
   // Inzichten / insights (artikelen)
-  r('art-ai-agents-wat-ze-wel-en-niet-kunnen', 'article', '/inzichten/ai-agents-wat-ze-wel-en-niet-kunnen', '/insights/what-ai-agents-can-and-cannot-do'),
-  r('art-van-ai-strategie-naar-waarde', 'article', '/inzichten/van-ai-strategie-naar-waarde', '/insights/from-ai-strategy-to-value'),
-  r('art-build-buy-of-partner', 'article', '/inzichten/build-buy-of-partner', '/insights/build-buy-or-partner'),
-  r('art-welke-ai-use-cases-leveren-resultaat', 'article', '/inzichten/welke-ai-use-cases-leveren-resultaat', '/insights/which-ai-use-cases-deliver-results'),
+  r('art-ai-agents-wat-ze-wel-en-niet-kunnen', 'article', '/inzichten/ai-agents-wat-ze-wel-en-niet-kunnen', '/insights/what-ai-agents-can-and-cannot-do', { liveEn: true }),
+  r('art-van-ai-strategie-naar-waarde', 'article', '/inzichten/van-ai-strategie-naar-waarde', '/insights/from-ai-strategy-to-value', { liveEn: true }),
+  r('art-build-buy-of-partner', 'article', '/inzichten/build-buy-of-partner', '/insights/build-buy-or-partner', { liveEn: true }),
+  r('art-welke-ai-use-cases-leveren-resultaat', 'article', '/inzichten/welke-ai-use-cases-leveren-resultaat', '/insights/which-ai-use-cases-deliver-results', { liveEn: true }),
   r('art-freelance-ai-consultant-vs-agency-vs-big4', 'article', '/inzichten/freelance-ai-consultant-vs-agency-vs-big4', '/insights/independent-ai-consultant-vs-agency-vs-big4'),
   r('art-het-datafundament-onder-ai', 'article', '/inzichten/het-datafundament-onder-ai', '/insights/the-data-foundation-under-ai'),
   r('art-ai-governance-zonder-bureaucratie', 'article', '/inzichten/ai-governance-zonder-bureaucratie', '/insights/ai-governance-without-bureaucracy'),
