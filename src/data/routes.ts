@@ -86,8 +86,10 @@ export const routes: RouteEntry[] = [
 
   // Content-collectie 'pages': 12 clusters, 55 pagina's
   r('C1-00', 'content', '/ai-consultancy', '/ai-consulting', { cluster: 'ai-consultancy', liveEn: true }),
-  r('C1-05', 'content', '/ai-consultancy/ai-advies', '/ai-consulting/ai-advice', { cluster: 'ai-consultancy' }),
-  r('C1-06', 'content', '/ai-consultancy/ai-consultant-inhuren', '/ai-consulting/hire-an-ai-consultant', { cluster: 'ai-consultancy' }),
+  // Geen EN-tegenhanger: "ai advice" leest in het Engels als advies ván een AI, verkeerde intentie.
+  r('C1-05', 'content', '/ai-consultancy/ai-advies', '/ai-consulting/ai-advice', { cluster: 'ai-consultancy', noEn: true }),
+  // Geen eigen EN-pagina: inhoud wordt een sectie op C1-00 (/ai-consulting), secundair keyword "hire an ai consultant".
+  r('C1-06', 'content', '/ai-consultancy/ai-consultant-inhuren', '/ai-consulting/hire-an-ai-consultant', { cluster: 'ai-consultancy', noEn: true }),
   // Geen EN-tegenhanger: "ai roadmap" betekent in het Engels een carrièrepad, niet dit onderwerp.
   // Inhoud wordt samengevoegd op C1-03 (/ai-consulting/ai-strategy) in plaats van een eigen EN-pagina.
   r('C1-04', 'content', '/ai-consultancy/ai-roadmap', '/ai-consulting/ai-roadmap', { cluster: 'ai-consultancy', noEn: true }),
