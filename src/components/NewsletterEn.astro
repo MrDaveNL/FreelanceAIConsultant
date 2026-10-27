@@ -1,0 +1,80 @@
+---
+import { site } from '../data/site.js';
+---
+<section class="section newsletter">
+  <div class="container news-box">
+    <div>
+      <h2 class="h2">Stay sharp. Get practical AI insights.</h2>
+      <p>Once a month, a short, practical update with frameworks, experiences and examples you can apply straight away. Not a newsletter full of links, just one worked-through idea at a time.</p>
+      <form data-newsletter data-endpoint={site.newsletterEndpoint} data-mailto={site.email} novalidate>
+        <label class="sr-only" for="news-email">Your email address</label>
+        <input id="news-email" name="email" type="email" placeholder="Your email address" required />
+        <button class="btn" type="submit">Send →</button>
+      </form>
+      <p class="news-status" data-news-status role="status" hidden></p>
+      <p class="news-small">Unsubscribe with one click. Your address goes nowhere else. See the <a href="/privacy">privacy notice</a>.</p>
+    </div>
+    <div>
+      <span class="sticker sticker--yellow">No noise.<br/>Just insights.</span>
+      <span class="sticker sticker--salmon">Not another newsletter.<br/>Actual value.</span>
+    </div>
+  </div>
+</section>
+<script>
+  document.querySelectorAll('[data-newsletter]').forEach((form) => {
+    const status = form.parentElement.querySelector('[data-news-status]');
+    const endpoint = form.getAttribute('data-endpoint');
+    const mailto = form.getAttribute('data-mailto');
+    const input = form.querySelector('input[type="email"]');
+
+    const say = (message, ok) => {
+      status.hidden = false;
+      status.className = `news-status ${ok ? 'is-ok' : 'is-error'}`;
+      status.textContent = message;
+    };
+
+    form.addEventListener('submit', async (event) => {
+      event.preventDefault();
+      if (!input.value.trim() || !input.checkValidity()) {
+        say('Enter a valid email address.', false);
+        input.focus();
+        return;
+      }
+      if (!endpoint) {
+        window.location.href = `mailto:${mailto}?subject=${encodeURIComponent('Newsletter sign-up')}&body=${encodeURIComponent(`Please sign me up with: ${input.value}`)}`;
+        say('Your email programme is opening with a sign-up message. Send it to complete your sign-up.', true);
+        return;
+      }
+      try {
+        const response = await fetch(endpoint, {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json', Accept: 'application/json' },
+          body: JSON.stringify({ email: input.value }),
+        });
+        if (!response.ok) throw new Error(String(response.status));
+        form.reset();
+        say('Done. You will receive the next edition.', true);
+      } catch {
+        say('Sign-up did not work. Feel free to email your address directly.', false);
+      }
+    });
+  });
+</script>
+<style>
+.newsletter{padding-top:30px}
+.news-box{background:var(--salmon);padding:44px;border-radius:18px;display:grid;grid-template-columns:1.3fr .7fr;gap:30px}
+.news-box p{max-width:560px}
+.news-box form{display:flex;max-width:600px;margin-top:24px}
+.news-box input{flex:1;border:0;border-radius:999px 0 0 999px;padding:14px 18px;min-width:0}
+.news-box button{border-radius:0 999px 999px 0}
+.news-status{margin:14px 0 0;font-weight:700;font-size:.86rem}
+.news-status.is-error{color:#6d1b16}
+.news-small{font-size:.74rem;margin-top:14px;color:#6d2f28}
+.news-small a{border-bottom:1px solid rgba(74,31,42,.4)}
+.sr-only{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+.news-box>div:last-child{position:relative;min-height:170px}
+.news-box .sticker{position:absolute;left:15%;top:20%}
+.news-box .sticker:last-child{top:55%;left:30%}
+@media(max-width:850px){.news-box{grid-template-columns:1fr}}
+@media(max-width:560px){.news-box{padding:28px}.news-box form{flex-direction:column;gap:10px}.news-box input,.news-box button{border-radius:8px}}
+</style>
