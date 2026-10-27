@@ -108,7 +108,8 @@ for (const { url, doc } of paginas) {
       // Afzender: voluit in de antwoordalinea bij dienstachtige blokken, bij kennisbankblokken alleen in de bronregel.
       const metAfzender = tekstVan(eerste).includes(afzender);
       // Een advies dat uitdrukkelijk aan de afzender is toegeschreven mag overal staan.
-      const buitenAdvies = tekstVan(eerste).replaceAll(`${afzender} adviseert`, '').includes(afzender);
+      const afzenderAdviesWoord = blok.taal === 'en' ? 'advises' : 'adviseert';
+      const buitenAdvies = tekstVan(eerste).replaceAll(`${afzender} ${afzenderAdviesWoord}`, '').includes(afzender);
       if (blok.type !== 'kennisbank' && !metAfzender) fout.push(`antwoordalinea noemt de afzender (${afzender}) niet`);
       if (blok.type === 'kennisbank' && buitenAdvies) fout.push('antwoordalinea van een kennisbankblok noemt de afzender; die hoort daar alleen in de bronregel');
     }

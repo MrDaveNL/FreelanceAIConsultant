@@ -121,7 +121,7 @@ export const blokSchema = z
     // Afzender: bij dienstachtige blokken in de antwoordalinea en de bronregel, bij kennisbankblokken alleen in de bronregel.
     if (blok.type !== 'kennisbank' && !blok.antwoord.includes('{{afzender}}'))
       ctx.addIssue({ code: z.ZodIssueCode.custom, path: ['antwoord'], message: 'moet de afzender noemen ({{afzender}})' });
-    if (blok.type === 'kennisbank' && /\{\{afzender\}\}(?! adviseert)/.test(blok.antwoord))
+    if (blok.type === 'kennisbank' && new RegExp(`\\{\\{afzender\\}\\}(?! ${blok.taal === 'en' ? 'advises' : 'adviseert'})`).test(blok.antwoord))
       ctx.addIssue({ code: z.ZodIssueCode.custom, path: ['antwoord'], message: 'kennisbankblok noemt de afzender alleen in de bronregel' });
     for (const [i, v] of blok.vervolgvragen.entries()) {
       if (begintMetBedrag(v.antwoord) && !vraagtNaarBedrag(v.vraag, blok.taal))
