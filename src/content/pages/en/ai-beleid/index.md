@@ -18,7 +18,7 @@ secondaryCta: { label: "See the AI Readiness Assessment", href: /services/ai-rea
 summary:
   - "An AI policy sets out which tools and data are allowed, who's responsible, and how you manage risk."
   - "Start small: one page of workable agreements, and let it grow with your applications."
-  - "If you operate in the EU, the AI Act has required AI-literacy measures since February 2025; a policy is the natural place to record them."
+  - "The AI Act's AI-literacy duty has applied since February 2025, and reaches UK organisations too once they place an AI system on the EU market or its output is used there; a policy is the natural place to record it."
 published: "2026-10-26"
 updated: "2026-10-26"
 faqTitle: "Frequently asked questions"
@@ -42,6 +42,10 @@ sources:
     url: "https://digital-strategy.ec.europa.eu/en/faqs/ai-literacy-questions-answers"
   - title: "ICO: Lawful basis for processing personal data"
     url: "https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/lawful-basis/a-guide-to-lawful-basis/"
+  - title: "AI Act Service Desk (European Commission): Article 2, scope"
+    url: "https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-2"
+  - title: "UK Government: AI regulation, a pro-innovation approach"
+    url: "https://www.gov.uk/government/publications/ai-regulation-a-pro-innovation-approach"
 ---
 
 ## Why you need an AI policy
@@ -53,7 +57,7 @@ An AI policy solves that with a handful of clear agreements. It gives staff clar
 There are three concrete reasons to act on this now:
 
 - **Shadow use.** Without agreements, everyone picks their own tool, often with a personal account you have no control over as an organisation.
-- **Regulation.** Data protection law has applied for years to any processing of personal data, including when an AI tool carries it out. If you operate in the EU, the AI Act adds obligations on top of that, including around AI literacy and transparency.
+- **Regulation.** Data protection law has applied for years to any processing of personal data, including when an AI tool carries it out. The AI Act adds obligations on top of that, including around AI literacy and transparency, and it reaches UK organisations too once they place an AI system on the EU market or its output is used there.
 - **Strategy.** A policy forces you to choose where AI does and doesn't belong. That connects directly to your [AI strategy](/ai-consulting/ai-strategy): what you want to achieve determines which risks you accept.
 
 An AI policy, then, isn't a brake. It's the condition for using AI more widely with confidence.
@@ -121,9 +125,11 @@ If you don't have the capacity to drive this yourself, a [Fractional AI Lead](/s
 
 ## The AI Act and compliance
 
-The EU AI Act (Regulation (EU) 2024/1689) grades AI systems by risk, with prohibited practices, high-risk systems subject to strict requirements, transparency obligations, and a large group of systems with minimal risk. According to the [European Commission](https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai), the large majority of AI systems currently used in the EU fall into that last category. The UK has not adopted an equivalent cross-cutting AI law; AI there is regulated through existing sector regulators instead, so if you operate only in the UK, the obligations below don't apply directly, though they're still worth knowing if you have EU customers, staff or operations.
+The EU AI Act (Regulation (EU) 2024/1689) grades AI systems by risk, with prohibited practices, high-risk systems subject to strict requirements, transparency obligations, and a large group of systems with minimal risk. According to the [European Commission](https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai), the large majority of AI systems currently used in the EU fall into that last category.
 
-Two things are already relevant for your AI policy if you operate in the EU:
+The Act's reach isn't limited to organisations established in the EU. Under [Article 2 of the Act](https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-2), it also applies to UK organisations that place an AI system on the EU market, and to UK providers or deployers whose AI system's output is used in the EU, regardless of where the organisation itself is established. The UK has no AI Act of its own: it regulates AI through existing sector regulators, such as the ICO for data protection and the FCA for financial services, applying shared principles rather than one cross-cutting AI law, as set out in the UK government's [AI regulation: a pro-innovation approach](https://www.gov.uk/government/publications/ai-regulation-a-pro-innovation-approach). So a UK-only organisation with no EU market presence and no EU users of its AI output sits outside the Act's scope, but many UK organisations with EU customers, staff or users of their AI systems are in scope even though they're not established in the EU.
+
+Two things are already relevant for your AI policy if the Act applies to you (see above):
 
 - **AI literacy.** Since 2 February 2025, organisations that provide or use AI systems in the EU have had to pay attention to their staff's AI knowledge. With the Digital Omnibus, which took effect on 27 July 2026, that duty was adjusted: you must take measures to support AI literacy, without a specific level per person being prescribed. According to the [Commission](https://digital-strategy.ec.europa.eu/en/faqs/ai-literacy-questions-answers), no certificate is required; you can keep an internal record of the training and other initiatives you've run. Training in AI literacy is an obvious measure to include in your policy.
 - **Transparency.** If you deploy, for example, a chatbot towards customers, people need to know they're communicating with AI.
