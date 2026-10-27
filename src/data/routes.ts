@@ -127,7 +127,7 @@ export const routes: RouteEntry[] = [
   r('C9-03', 'content', '/ai-workshop/chatgpt-training', '/ai-workshop/chatgpt-training', { cluster: 'ai-workshop', liveEn: true }),
   r('C9-02', 'content', '/ai-workshop/copilot-training', '/ai-workshop/copilot-training', { cluster: 'ai-workshop', liveEn: true }),
 
-  r('P08', 'content', '/kennisbank', '/knowledge-base', { cluster: 'kennisbank' }),
+  r('P08', 'content', '/kennisbank', '/knowledge-base', { cluster: 'kennisbank', liveEn: true }),
   r('C6-05', 'content', '/kennisbank/ai-agents-en-avg', '/knowledge-base/ai-agents-and-gdpr', { cluster: 'kennisbank' }),
   // Geen EN-tegenhanger: NL-arbeidsmarktdata (salaris), zou misleidend zijn zonder eigen EN-cijfers.
   r('C5-05', 'content', '/kennisbank/ai-specialist-salaris', '/knowledge-base/ai-specialist-salary', { cluster: 'kennisbank', noEn: true }),
