@@ -120,12 +120,12 @@ export const routes: RouteEntry[] = [
   r('C6-01', 'content', '/ai-agents/wat-is-een-ai-agent', '/ai-agents/what-is-an-ai-agent', { cluster: 'ai-agents', liveEn: true }),
 
   r('C8-00', 'content', '/ai-beleid', '/ai-policy', { cluster: 'ai-beleid', liveEn: true }),
-  r('C8-01', 'content', '/ai-beleid/ai-act', '/ai-policy/ai-act', { cluster: 'ai-beleid' }),
+  r('C8-01', 'content', '/ai-beleid/ai-act', '/ai-policy/ai-act', { cluster: 'ai-beleid', liveEn: true }),
 
-  r('C9-00', 'content', '/ai-workshop', '/ai-workshop', { cluster: 'ai-workshop' }),
+  r('C9-00', 'content', '/ai-workshop', '/ai-workshop', { cluster: 'ai-workshop', liveEn: true }),
   // Geen EN-tegenhanger gepland voor deze batch.
   r('C9-04', 'content', '/ai-workshop/ai-coaching', '/ai-workshop/ai-coaching', { cluster: 'ai-workshop', noEn: true }),
-  r('C9-05', 'content', '/ai-workshop/ai-geletterdheid-training', '/ai-workshop/ai-literacy-training', { cluster: 'ai-workshop' }),
+  r('C9-05', 'content', '/ai-workshop/ai-geletterdheid-training', '/ai-workshop/ai-literacy-training', { cluster: 'ai-workshop', liveEn: true }),
   r('C9-03', 'content', '/ai-workshop/chatgpt-training', '/ai-workshop/chatgpt-training', { cluster: 'ai-workshop', liveEn: true }),
   r('C9-02', 'content', '/ai-workshop/copilot-training', '/ai-workshop/copilot-training', { cluster: 'ai-workshop', liveEn: true }),
 

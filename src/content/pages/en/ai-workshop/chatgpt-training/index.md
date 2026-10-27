@@ -68,7 +68,7 @@ The training is a good fit when:
 
 Does your organisation mainly run on Microsoft 365? Then a [Copilot training](/ai-workshop/copilot-training) makes more sense, since Copilot sits inside your existing apps and documents. If teams use both, we combine that into a single programme.
 
-Want everyone in the organisation to first share a common understanding of what AI is and what the risks are? Start with an AI literacy training. The ChatGPT training builds on that.
+Want everyone in the organisation to first share a common understanding of what AI is and what the risks are? Start with an [AI literacy training](/ai-workshop/ai-literacy-training). The ChatGPT training builds on that.
 
 ## Programme
 

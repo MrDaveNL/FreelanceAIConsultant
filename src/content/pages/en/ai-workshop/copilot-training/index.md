@@ -90,7 +90,7 @@ Microsoft also states (as of September 2026):
 - sensitivity labels and encryption from Microsoft Purview are respected;
 - generated answers aren't guaranteed to be accurate and need to be checked by the user.
 
-In the training, I translate that into behaviour: what you do and don't share, how to recognise an answer that leans on the wrong source, and what to do if Copilot surfaces something you weren't meant to see. The groundwork for that, understanding how AI works and where the risks sit, is also what an AI literacy training covers. The two combine well.
+In the training, I translate that into behaviour: what you do and don't share, how to recognise an answer that leans on the wrong source, and what to do if Copilot surfaces something you weren't meant to see. The groundwork for that, understanding how AI works and where the risks sit, is also what an [AI literacy training](/ai-workshop/ai-literacy-training) covers. The two combine well.
 
 ## Programme and investment
 
