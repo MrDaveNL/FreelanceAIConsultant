@@ -80,7 +80,7 @@ const categoryOf = (p) => {
 };
 const articles = all
   .map((e) => e.data)
-  .filter((p) => p.schema === 'article' && categoryOf(p))
+  .filter((p) => p.schema === 'article' && p.lang === locale && categoryOf(p))
   .sort((a, b) => (a.published < b.published ? 1 : a.published > b.published ? -1 : a.id.localeCompare(b.id)));
 const featuredIds = ['C2-03', 'C6-01', 'C3-06'];
 const featured = featuredIds.map((id) => articles.find((p) => p.id === id)).filter(Boolean);
