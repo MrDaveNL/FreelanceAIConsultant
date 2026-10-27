@@ -31,6 +31,11 @@ faq:
     a: "Only if the tool is set up for business use and you can justify that under data protection law. Don't use free or personal accounts for personal data or confidential information, check whether your data is used to train the model, and set out which data isn't allowed in."
   - q: "How quickly does AI pay off in a small business?"
     a: "With simple applications, such as draft copy, summaries and reading documents, you'll notice within a few weeks whether it saves time. Applications that connect systems together need more lead time. Measure how much time a task costs now beforehand, so you can actually see the difference."
+sources:
+  - title: "AI Act Service Desk (European Commission): Article 2, scope"
+    url: "https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-2"
+  - title: "UK Government: AI regulation, a pro-innovation approach"
+    url: "https://www.gov.uk/government/publications/ai-regulation-a-pro-innovation-approach"
 ---
 
 ## Why AI matters now for small businesses
@@ -90,7 +95,7 @@ AI brings different risks for a small business than for a large organisation. Fe
 - **Blind trust.** AI tools write persuasively, even when the content is wrong. A quote with a made-up discount, or an answer with the wrong terms, reaches the customer directly in a small business.
 - **Costs that creep up.** Separate subscriptions per person and per tool add up, without anyone keeping track of what they deliver.
 - **Vendor claims.** Plenty of software is marketed as "AI-powered" these days. Always ask what it actually does, with which data, and what happens if you want to switch.
-- **Regulation.** If you operate in the EU, the AI Act also applies to small businesses, though the obligations depend on how you use AI. For most small-business applications, such as text and summaries, the requirements are limited. Anyone using AI in decisions about people, such as recruitment, needs to pay closer attention. The UK has not adopted an equivalent cross-cutting AI law and regulates AI through existing sector regulators instead, so if you operate only in the UK, these specific EU obligations don't apply directly.
+- **Regulation.** The AI Act also applies to small businesses, though the obligations depend on how you use AI, and its reach isn't limited to EU-based businesses: under [Article 2 of the Act](https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-2), it also applies to a UK small business that places an AI system on the EU market, or whose AI system's output is used in the EU. For most small-business applications, such as text and summaries, the requirements are limited. Anyone using AI in decisions about people, such as recruitment, needs to pay closer attention. The UK itself has no AI Act and regulates AI through existing sector regulators instead, as set out in the UK government's [AI regulation: a pro-innovation approach](https://www.gov.uk/government/publications/ai-regulation-a-pro-innovation-approach), so a UK-only small business with no EU market presence and no EU users of its AI output sits outside the Act's scope.
 
 None of these risks is a reason not to start. They are a reason to agree a few ground rules before everyone finds their own way of working.
 
