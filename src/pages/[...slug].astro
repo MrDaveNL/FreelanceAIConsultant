@@ -118,7 +118,7 @@ const parsePrice = (price) => {
   return spec;
 };
 if (page.schema === 'service') {
-  graph.push({ '@type': 'Service', name: page.navLabel, serviceType: page.keyphrase, description: page.metaDescription, url: pageUrl, areaServed: 'NL', provider: person });
+  graph.push({ '@type': 'Service', name: page.navLabel, serviceType: page.keyphrase, description: page.metaDescription, url: pageUrl, areaServed: locale === 'en' ? 'GB' : 'NL', provider: person });
 } else if (page.schema === 'pricing') {
   graph.push({
     '@type': 'Service',
