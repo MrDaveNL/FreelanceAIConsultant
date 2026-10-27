@@ -36,13 +36,15 @@ sources:
     url: "https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-2"
   - title: "UK Government: AI regulation, a pro-innovation approach"
     url: "https://www.gov.uk/government/publications/ai-regulation-a-pro-innovation-approach"
+  - title: "DSIT: AI Adoption Research (IFF Research and Technopolis Group, fieldwork Feb-May 2025)"
+    url: "https://www.gov.uk/government/publications/ai-adoption-research/ai-adoption-research"
 ---
 
 ## Why AI matters now for small businesses
 
 AI for small business has moved from experiment to everyday tool over the past few years. You no longer need a data team or your own model to work with it: an AI assistant, or the AI features in your accounting, CRM or office software, is often enough to win the first bit of time back.
 
-At the same time, adoption among smaller businesses still lags behind larger ones: less in-house expertise, tighter budgets, and no dedicated team to drive it. From what I see in practice, the businesses that hold back usually aren't facing a technical barrier. It's more often a lack of familiarity with what's possible, plus unresolved questions about privacy and the legal side of things.
+At the same time, adoption among smaller businesses still lags behind larger ones. UK government research found that 16% of businesses overall were using AI, but only 14% of micro businesses (5 to 9 employees), against 23% of mid-sized businesses and 36% of large ones ([DSIT, AI Adoption Research](https://www.gov.uk/government/publications/ai-adoption-research/ai-adoption-research), fieldwork February to May 2025). Less in-house expertise, tighter budgets, and no dedicated team to drive it explain most of that gap. From what I see in practice, the businesses that hold back usually aren't facing a technical barrier. It's more often a lack of familiarity with what's possible, plus unresolved questions about privacy and the legal side of things.
 
 A small business does have one advantage larger organisations lack: short lines of communication. The owner who makes the call usually knows the work first-hand. There's no steering group needed to let one team try a new way of working. Starting with a clear focus means finding out faster whether something works.
 
@@ -141,8 +143,16 @@ From idea to an application that actually runs in the day-to-day work. I don't b
 
 Which processes are suitable for automation, and which should you simplify or drop first? Which processes to start with, and how to estimate payback time, is covered under [AI automation for small and medium-sized businesses](/ai-automation#ai-automation-for-small-and-medium-sized-businesses).
 
+### AI agents
+
+AI agents carry out tasks on their own, such as processing a request or moving data between systems. That's more powerful than an assistant, but it also needs tighter oversight. Getting this right starts with one well-defined task and a check step, before you let an agent take on more autonomy.
+
 ### AI policy
 
 An AI policy doesn't need to be a thick document for a small business. One or two pages with approved tools, rules for data and who decides what is a good start. There's an [example and template for an AI policy for small and medium-sized businesses](/ai-policy#ai-policy-for-small-and-medium-sized-businesses-example-and-template) you can use as a starting point.
+
+### Workshops and training
+
+The fastest way to help a team move forward is to practise together on their own tasks. A half-day or full-day workshop gives staff hands-on skills and gives you a view of where the opportunities lie.
 
 Working in an office with a lot of documents and confidential files, such as an accountancy, legal or advisory practice? That's covered separately under AI for professional services firms. Want to get more out of your numbers and reporting instead? That's a closer fit with AI and business intelligence. And if you're not sure where you stand, [book a no-obligation call](mailto:dave@freelanceaiconsultant.com) of thirty minutes.
