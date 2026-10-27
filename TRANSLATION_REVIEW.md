@@ -49,3 +49,10 @@ The home page self-adjusts as more EN content goes live (no manual edit needed l
 - **Meta title:** AI Knowledge Base | Freelance AI Consultant
 - **Meta description:** describes what the hub contains rather than targeting a keyword — practical guides on ChatGPT, Claude, Microsoft Copilot, AI agents and AI consulting for business leaders.
 - **Adaptation notes:** no RAG block (no NL block exists for `kennisbank`/P08 to mirror or verify).
+
+## AI automation cluster (`/ai-automation/*`)
+
+- **AI tools (`/ai-automation/ai-tools`, C3-05).** Main EN keyword: "best AI tools for business". Product names, plans and pricing checked at time of writing (October 2026): spot-verified Microsoft's official global Copilot pricing page directly (confirmed the Business-tier promotional discount — $21 → $18/user/month — is live now, not stale), and reused the NL page's own officially-cited vendor pages (OpenAI, Anthropic, Google) for the remaining figures. Page dated "as of October 2026". No RAG content left out.
+- **AI workflows (`/ai-automation/ai-workflows`, C3-04).** Main EN keyword: "AI workflows". Straight translation/localization, no pricing claims to re-verify beyond the platform feature claims already dated September/October 2026 on the vendors' own pages.
+- **Automate business processes with AI (`/ai-automation/automate-business-processes-with-ai`, C3-03).** Main EN keyword: "automate business processes with ai". The worked savings example was redenominated from EUR to GBP (£45/hour, consistent with the UK-primary-market convention used elsewhere), figures otherwise unchanged from the NL illustrative example.
+- **Cross-linking note:** none of the three pages link to `/ai-agents`, `/ai-for-business/professional-services-firms`, `/knowledge-base/gemini-for-business`, `/knowledge-base/prompt-engineering` (linked by product name only, no link) or `/knowledge-base/rpa-vs-ai-automation`, since those routes aren't `liveEn` yet — they point to the live parent hub instead until their own build lands.

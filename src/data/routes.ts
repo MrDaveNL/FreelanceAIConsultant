@@ -100,9 +100,9 @@ export const routes: RouteEntry[] = [
   r('C2-03', 'content', '/ai-implementatie/stappenplan', '/ai-implementation/step-by-step-plan', { cluster: 'ai-implementatie', liveEn: true }),
 
   r('C3-00', 'content', '/ai-automatisering', '/ai-automation', { cluster: 'ai-automatisering', liveEn: true }),
-  r('C3-05', 'content', '/ai-automatisering/ai-tools', '/ai-automation/ai-tools', { cluster: 'ai-automatisering' }),
-  r('C3-04', 'content', '/ai-automatisering/ai-workflows', '/ai-automation/ai-workflows', { cluster: 'ai-automatisering' }),
-  r('C3-03', 'content', '/ai-automatisering/bedrijfsprocessen-automatiseren-met-ai', '/ai-automation/automate-business-processes-with-ai', { cluster: 'ai-automatisering' }),
+  r('C3-05', 'content', '/ai-automatisering/ai-tools', '/ai-automation/ai-tools', { cluster: 'ai-automatisering', liveEn: true }),
+  r('C3-04', 'content', '/ai-automatisering/ai-workflows', '/ai-automation/ai-workflows', { cluster: 'ai-automatisering', liveEn: true }),
+  r('C3-03', 'content', '/ai-automatisering/bedrijfsprocessen-automatiseren-met-ai', '/ai-automation/automate-business-processes-with-ai', { cluster: 'ai-automatisering', liveEn: true }),
 
   r('C4-00', 'content', '/ai-voor-bedrijven', '/ai-for-business', { cluster: 'ai-voor-bedrijven', liveEn: true }),
   r('C4-03', 'content', '/ai-voor-bedrijven/ai-en-bi', '/ai-for-business/ai-and-bi', { cluster: 'ai-voor-bedrijven' }),
