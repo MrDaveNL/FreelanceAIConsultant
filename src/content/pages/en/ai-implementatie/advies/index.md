@@ -80,7 +80,7 @@ Every AI application that saves time changes someone's job. That conversation of
 
 An engagement starts with a thirty-minute conversation. You explain where things stand, I ask questions, and I say at the end what I'd do, even if that means you don't need me.
 
-After that, an intake scopes the question and sets it down in a confirmation of engagement. A concrete question about one application usually fits scoped advice. Want to know first whether your organisation is broadly ready? The [AI Readiness Assessment](/services/ai-readiness-assessment) is the better starting point: {{timing:ai-readiness-assessment}}, fixed price {{price:ai-readiness-assessment}}. All packages and prices are on the [pricing](/pricing) page.
+After that, an intake scopes the question and sets it down in a confirmation of engagement. A concrete question about one application usually fits scoped advice. Want to know first whether your organisation is broadly ready? The [AI Readiness Assessment](/services/ai-readiness-assessment) is the better starting point: {{timing:ai-readiness-assessment}}, fixed price. All packages are on the [pricing](/pricing) page.
 
 In the analysis, I speak to the people who do the work, the process owner, IT, and privacy or compliance where relevant. I look at the data, at any vendor proposals, and at what's already been tried.
 

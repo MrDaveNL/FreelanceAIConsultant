@@ -1,0 +1,37 @@
+---
+// Vervangt de prijsweergave op dienstpagina's zolang site.showPrices false staat (zie src/data/site.js).
+// Eén herbruikbare CTA in plaats van losse hardcoded knoppen per pagina.
+import { routeById } from '../data/routes';
+import { site } from '../data/site.js';
+
+const {
+  service,
+  locale = 'nl',
+  compact = false,
+} = Astro.props;
+
+const slug = service?.slug ?? '';
+const title = service?.title ?? '';
+const contact = routeById('contact');
+const base = locale === 'en'
+  ? (contact?.live.en ? contact.paths.en : `mailto:${site.email}`)
+  : '/nl/contact';
+const param = locale === 'en' ? 'service' : 'dienst';
+const href = base.startsWith('mailto:') || !slug ? base : `${base}?${param}=${encodeURIComponent(slug)}`;
+
+const label = locale === 'en' ? 'Request a proposal' : 'Vraag een voorstel aan';
+const subtext = locale === 'en' ? 'Tailored pricing based on scope' : 'Prijs op maat, afhankelijk van scope';
+const ariaLabel = title
+  ? (locale === 'en' ? `Request a proposal for ${title}` : `Vraag een voorstel aan voor ${title}`)
+  : label;
+---
+<div class:list={['service-cta', compact && 'compact']}>
+  <a class="btn" href={href} aria-label={ariaLabel} data-cta="service-proposal" data-service={slug}>{label} →</a>
+  <span class="service-cta-sub">{subtext}</span>
+</div>
+<style>
+.service-cta{display:flex;align-items:center;gap:16px;flex-wrap:wrap;margin-top:8px}
+.service-cta.compact{margin-top:0}
+.service-cta-sub{font-size:.82rem;color:var(--muted)}
+.btn:focus-visible{outline:3px solid var(--burgundy);outline-offset:2px}
+</style>

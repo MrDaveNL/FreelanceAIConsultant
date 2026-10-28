@@ -2,7 +2,7 @@
   "url": "/privacy",
   "build_bestand": "dist/privacy/index.html",
   "html": {
-    "bytes": 22733,
+    "bytes": 22708,
     "lang": "nl"
   },
   "beschermd": {
@@ -526,7 +526,7 @@
     }
   ],
   "structured_data": {
-    "sha256": "9c062c4aa20c070945eec0dafcef7624731981be4161f83a9fbd374636e02997",
+    "sha256": "ab8b535572d20d69b20e11a4fc0a3a77abc7a91417570116c2874cd4c5475637",
     "items": [
       {
         "@context": "https://schema.org",
@@ -542,7 +542,6 @@
           "BE",
           "DE"
         ],
-        "priceRange": "€€€",
         "founder": {
           "@type": "Person",
           "name": "Dave Willemstein",
@@ -589,5 +588,5 @@
     "aantal_details": 0,
     "aantal_tabellen": 1
   },
-  "gemeten_op": "2026-10-26"
+  "gemeten_op": "2026-10-28"
 }

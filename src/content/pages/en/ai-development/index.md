@@ -80,8 +80,8 @@ An AI project runs through roughly five phases. Below, for each phase, is who do
 What you get from me in concrete terms depends on the phase:
 
 - **At the start:** a specification in plain language, covering the problem, the success measures, the data needed, and the constraints around privacy and the AI Act. If you don't yet have a clear picture of where you stand, the [AI Readiness Assessment](/services/ai-readiness-assessment) is a logical first step.
-- **When choosing the build partner:** a [Vendor Review](/services/vendor-review) with scorecards, a test on your own data, and a three-year TCO comparison. The investment is {{pricelc:vendor-review}}, over {{timing:vendor-review}}.
-- **During the build:** guidance from your side, for example as a [Fractional AI Lead](/services/fractional-ai-lead) ({{pricelc:fractional-ai-lead}}), testing deliverables and safeguarding the business case and the governance around it.
+- **When choosing the build partner:** a [Vendor Review](/services/vendor-review) with scorecards, a test on your own data, and a three-year TCO comparison. The investment is a fixed price agreed upfront, over {{timing:vendor-review}}.
+- **During the build:** guidance from your side, for example as a [Fractional AI Lead](/services/fractional-ai-lead) (a fixed monthly fee, agreed upfront), testing deliverables and safeguarding the business case and the governance around it.
 
 What happens afterwards, from pilot to daily use, falls under [AI implementation](/ai-implementation). That's less about code and more about working processes, adoption and ownership.
 

@@ -2,15 +2,28 @@
   "url": "/diensten/ai-readiness-assessment",
   "build_bestand": "dist/diensten/ai-readiness-assessment/index.html",
   "html": {
-    "bytes": 37280,
+    "bytes": 40298,
     "lang": "nl"
   },
   "beschermd": {
     "title": "AI Readiness Assessment | Freelance AI Consultant",
-    "meta_description": "Nuchtere doorlichting op strategie, data, technologie, mensen en governance. In 2-3 weken weet je wat haalbaar is en wat eerst moet. Vaste prijs €7.000.",
-    "canonical": "https://freelanceaiconsultant.com/diensten/ai-readiness-assessment",
+    "meta_description": "Nuchtere doorlichting op strategie, data, technologie, mensen en governance. In 2-3 weken weet je wat haalbaar is en wat eerst moet.",
+    "canonical": "https://freelanceaiconsultant.com/nl/diensten/ai-readiness-assessment",
     "robots_meta": null,
-    "hreflang": [],
+    "hreflang": [
+      {
+        "hreflang": "en",
+        "href": "https://freelanceaiconsultant.com/services/ai-readiness-assessment"
+      },
+      {
+        "hreflang": "nl",
+        "href": "https://freelanceaiconsultant.com/nl/diensten/ai-readiness-assessment"
+      },
+      {
+        "hreflang": "x-default",
+        "href": "https://freelanceaiconsultant.com/services/ai-readiness-assessment"
+      }
+    ],
     "h1": [
       "AI Readiness Assessment"
     ]
@@ -20,12 +33,12 @@
     "og:locale": "nl_NL",
     "og:site_name": "freelanceaiconsultant.com",
     "og:title": "AI Readiness Assessment | Freelance AI Consultant",
-    "og:description": "Nuchtere doorlichting op strategie, data, technologie, mensen en governance. In 2-3 weken weet je wat haalbaar is en wat eerst moet. Vaste prijs €7.000.",
-    "og:url": "https://freelanceaiconsultant.com/diensten/ai-readiness-assessment",
+    "og:description": "Nuchtere doorlichting op strategie, data, technologie, mensen en governance. In 2-3 weken weet je wat haalbaar is en wat eerst moet.",
+    "og:url": "https://freelanceaiconsultant.com/nl/diensten/ai-readiness-assessment",
     "og:image": "https://freelanceaiconsultant.com/images/dave-portrait.jpg",
     "twitter:card": "summary_large_image",
     "twitter:title": "AI Readiness Assessment | Freelance AI Consultant",
-    "twitter:description": "Nuchtere doorlichting op strategie, data, technologie, mensen en governance. In 2-3 weken weet je wat haalbaar is en wat eerst moet. Vaste prijs €7.000.",
+    "twitter:description": "Nuchtere doorlichting op strategie, data, technologie, mensen en governance. In 2-3 weken weet je wat haalbaar is en wat eerst moet.",
     "twitter:image": "https://freelanceaiconsultant.com/images/dave-portrait.jpg"
   },
   "koppen": [
@@ -164,8 +177,8 @@
   ],
   "bodytekst": {
     "regio": "main",
-    "woorden": 1070,
-    "sha256": "3093fd3716eb3d183ff9e4baf6eb4ed57d51c043ec25ed9f4ae37a414acf14f5",
+    "woorden": 1104,
+    "sha256": "25822c862fd7b61dca9f539e274f0132b08b49ec391ab6884cd057c027a90ed1",
     "blokken": [
       "Weten waar je staat",
       "AI Readiness Assessment",
@@ -233,16 +246,17 @@
       "Interne AI-assistent voor kenniswerkers",
       "Duur2-3 weken",
       "ResultaatReadiness-rapport + 90-dagenplan",
-      "Investering€7.000",
-      "Vaste prijs, inclusief eindpresentatie aan MT of board. Bedragen zijn exclusief btw en reiskosten.",
+      "PrijsOp maat, vooraf vastgelegd",
+      "Vaste prijs, inclusief eindpresentatie aan MT of board. Alle voorstellen zijn exclusief btw.",
+      "Vraag een voorstel aan → Prijs op maat, afhankelijk van scope",
       "Wat levert het AI Readiness Assessment op en wat kost het?",
-      "Het AI Readiness Assessment van Dave Willemstein laat organisaties die AI overwegen maar nog geen richting hebben gekozen zien wat haalbaar is en wat eerst moet. Het resultaat is een readiness-score op strategie, data, technologie, mensen en governance, een gap-analyse en een 90-dagenplan. De doorlichting duurt 2-3 weken en kost €7.000, als vaste prijs exclusief btw en reiskosten.",
+      "Het AI Readiness Assessment van Dave Willemstein laat organisaties die AI overwegen maar nog geen richting hebben gekozen zien wat haalbaar is en wat eerst moet. Het resultaat is een readiness-score op strategie, data, technologie, mensen en governance, een gap-analyse en een 90-dagenplan. De doorlichting duurt 2-3 weken tegen een vaste prijs of vast maandbedrag, vastgelegd in het voorstel, exclusief btw en reiskosten.",
       "Hoe lang duurt het AI Readiness Assessment?",
       "2-3 weken. In die periode bestaat het AI Readiness Assessment uit een documentenanalyse, een datascan en 8 tot 12 interviews, gevolgd door de scoring, de prioritering en een eindsessie.",
       "Is de prijs van het AI Readiness Assessment een vaste prijs?",
-      "Ja, voor de hele organisatie: het AI Readiness Assessment kost €7.000 als vaste prijs, en de eindpresentatie aan MT of board zit daarbij in. Voor een enkele business unit of een specifiek procesdomein ligt de investering lager. Het bedrag is exclusief btw en reiskosten.",
+      "Ja, voor de hele organisatie: het AI Readiness Assessment kost een vaste prijs, vastgelegd in het voorstel, en de eindpresentatie aan MT of board zit daarbij in. Voor een enkele business unit of een specifiek procesdomein ligt de investering lager. Het bedrag is exclusief btw en reiskosten.",
       "Wordt een Executive Briefing verrekend met het AI Readiness Assessment?",
-      "Ja, als het AI Readiness Assessment binnen 60 dagen start: de Executive Briefing kost €2.800 en wordt dan volledig verrekend.",
+      "Ja, als het AI Readiness Assessment binnen 60 dagen start: de Executive Briefing kost een vaste prijs of vast maandbedrag, vastgelegd in het voorstel en wordt dan volledig verrekend.",
       "Bron: tarieven en doorlooptijden van Dave Willemstein. Bijgewerkt: oktober 2026.",
       "De aanleiding",
       "Herkenbaar?",
@@ -318,11 +332,11 @@
       "↯",
       "AI Strategy Sprint",
       "Van ambitie naar een realistische AI-roadmap die past bij business, mensen en middelen, board-ready in zes weken.",
-      "4-6 weken · €15.400 - €22.400",
+      "4-6 weken · Vraag een voorstel aan",
       "→ ◉",
       "Executive Briefing",
       "Compacte sessie voor directie of board over AI-kansen, risico’s en wat het van bestuurders vraagt.",
-      "1 dagdeel incl. voorbereiding · €2.800",
+      "1 dagdeel incl. voorbereiding · Vraag een voorstel aan",
       "→",
       "Klaar voor impact?",
       "Plan een gesprek.",
@@ -341,266 +355,280 @@
     {
       "regio": "header",
       "soort": "intern",
-      "href": "/",
+      "href": "/nl",
       "anker": "",
       "rel": null
     },
     {
       "regio": "header",
       "soort": "intern",
-      "href": "/diensten",
+      "href": "/nl/diensten",
       "anker": "Diensten",
       "rel": null
     },
     {
       "regio": "header",
       "soort": "intern",
-      "href": "/cases",
+      "href": "/nl/cases",
       "anker": "Cases",
       "rel": null
     },
     {
       "regio": "header",
       "soort": "intern",
-      "href": "/werkwijze",
+      "href": "/nl/werkwijze",
       "anker": "Werkwijze",
       "rel": null
     },
     {
       "regio": "header",
       "soort": "intern",
-      "href": "/inzichten",
+      "href": "/nl/inzichten",
       "anker": "Inzichten",
       "rel": null
     },
     {
       "regio": "header",
       "soort": "intern",
-      "href": "/over",
+      "href": "/nl/over",
       "anker": "Over mij",
       "rel": null
     },
     {
       "regio": "header",
       "soort": "intern",
-      "href": "/contact",
+      "href": "/services/ai-readiness-assessment",
+      "anker": "EN",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/nl/contact",
       "anker": "Plan een gesprek →",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/contact",
+      "href": "/nl/contact",
       "anker": "Plan een gesprek →",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/diensten",
+      "href": "/nl/diensten",
       "anker": "Alle diensten →",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/diensten/executive-briefing",
+      "href": "/nl/contact?dienst=ai-readiness-assessment",
+      "anker": "Vraag een voorstel aan →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/nl/diensten/executive-briefing",
       "anker": "Executive Briefing",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/tarieven",
+      "href": "/nl/tarieven",
       "anker": "tarieven en doorlooptijden van Dave Willemstein",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/werkwijze",
+      "href": "/nl/werkwijze",
       "anker": "Meer over mijn werkwijze →",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/cases/ai-readiness-scale-up",
+      "href": "/nl/cases/ai-readiness-scale-up",
       "anker": "Lees de volledige case →",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/veelgestelde-vragen",
+      "href": "/nl/veelgestelde-vragen",
       "anker": "Bekijk alle veelgestelde vragen →",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/diensten/ai-strategy-sprint",
-      "anker": "↯ AI Strategy Sprint Van ambitie naar een realistische AI-roadmap die past bij business, mensen en middelen, board-ready in zes weken. 4-6 weken · €15.400 - €22.400 →",
+      "href": "/nl/diensten/ai-strategy-sprint",
+      "anker": "↯ AI Strategy Sprint Van ambitie naar een realistische AI-roadmap die past bij business, mensen en middelen, board-ready in zes weken. 4-6 weken · Vraag een voorstel aan →",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/diensten/executive-briefing",
-      "anker": "◉ Executive Briefing Compacte sessie voor directie of board over AI-kansen, risico’s en wat het van bestuurders vraagt. 1 dagdeel incl. voorbereiding · €2.800 →",
+      "href": "/nl/diensten/executive-briefing",
+      "anker": "◉ Executive Briefing Compacte sessie voor directie of board over AI-kansen, risico’s en wat het van bestuurders vraagt. 1 dagdeel incl. voorbereiding · Vraag een voorstel aan →",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/contact",
+      "href": "/nl/contact",
       "anker": "Plan een gesprek →",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/diensten/ai-readiness-assessment",
+      "href": "/nl/diensten/ai-readiness-assessment",
       "anker": "AI Readiness Assessment",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/diensten/ai-strategy-sprint",
+      "href": "/nl/diensten/ai-strategy-sprint",
       "anker": "AI Strategy Sprint",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/diensten/fractional-ai-lead",
+      "href": "/nl/diensten/fractional-ai-lead",
       "anker": "Fractional AI Lead",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/diensten",
+      "href": "/nl/diensten",
       "anker": "Alle diensten",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/cases",
+      "href": "/nl/cases",
       "anker": "Cases",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/werkwijze",
+      "href": "/nl/werkwijze",
       "anker": "Werkwijze",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/inzichten",
+      "href": "/nl/inzichten",
       "anker": "Inzichten",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/veelgestelde-vragen",
+      "href": "/nl/veelgestelde-vragen",
       "anker": "Veelgestelde vragen",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/over",
+      "href": "/nl/over",
       "anker": "Over mij",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-consultancy",
+      "href": "/nl/ai-consultancy",
       "anker": "AI consultancy",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-implementatie",
+      "href": "/nl/ai-implementatie",
       "anker": "AI implementatie",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-automatisering",
+      "href": "/nl/ai-automatisering",
       "anker": "AI automatisering",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-voor-bedrijven",
+      "href": "/nl/ai-voor-bedrijven",
       "anker": "AI voor bedrijven",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-development",
+      "href": "/nl/ai-development",
       "anker": "AI development",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-agents",
+      "href": "/nl/ai-agents",
       "anker": "AI agents",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-beleid",
+      "href": "/nl/ai-beleid",
       "anker": "AI beleid",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-workshop",
+      "href": "/nl/ai-workshop",
       "anker": "AI workshop",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/markten",
+      "href": "/nl/markten",
       "anker": "AI per branche",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/kennisbank",
+      "href": "/nl/kennisbank",
       "anker": "Kennisbank",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/tarieven",
+      "href": "/nl/tarieven",
       "anker": "Tarieven",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/partnernetwerk",
+      "href": "/nl/partnernetwerk",
       "anker": "Partnernetwerk",
       "rel": null
     },
@@ -621,50 +649,85 @@
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/contact",
+      "href": "/nl/contact",
       "anker": "Plan een gesprek",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/privacy",
+      "href": "/nl/privacy",
       "anker": "Privacyverklaring",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/algemene-voorwaarden",
+      "href": "/nl/algemene-voorwaarden",
       "anker": "Algemene voorwaarden",
       "rel": null
     }
   ],
   "structured_data": {
-    "sha256": "6ad3bb84c9ab924db786f8817436a2075986f9a6e0612c881079c19dec598831",
+    "sha256": "047eb8db6505a152ed3e875797232477af261846876a2cca194a14a2095268b8",
     "items": [
-      {
-        "@context": "https://schema.org",
-        "@type": "Service",
-        "name": "AI Readiness Assessment",
-        "description": "Een nuchtere doorlichting van je organisatie op vijf dimensies: strategie, data, technologie, mensen en governance. Je weet binnen twee tot drie weken wat haalbaar is, wat eerst moet en wat je beter nog niet doet.",
-        "provider": {
-          "@type": "Person",
-          "name": "Dave Willemstein",
-          "url": "https://freelanceaiconsultant.com"
+      [
+        {
+          "@context": "https://schema.org",
+          "@type": "Service",
+          "name": "AI Readiness Assessment",
+          "description": "Een nuchtere doorlichting van je organisatie op vijf dimensies: strategie, data, technologie, mensen en governance. Je weet binnen twee tot drie weken wat haalbaar is, wat eerst moet en wat je beter nog niet doet.",
+          "provider": {
+            "@type": "Person",
+            "name": "Dave Willemstein",
+            "url": "https://freelanceaiconsultant.com"
+          },
+          "areaServed": [
+            "NL",
+            "BE",
+            "DE"
+          ],
+          "serviceType": "AI-advies"
         },
-        "areaServed": [
-          "NL",
-          "BE",
-          "DE"
-        ],
-        "serviceType": "AI-advies",
-        "offers": {
-          "@type": "Offer",
-          "priceCurrency": "EUR",
-          "description": "€7.000. Vaste prijs, inclusief eindpresentatie aan MT of board."
+        {
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "Wat levert het AI Readiness Assessment op en wat kost het?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Het AI Readiness Assessment van Dave Willemstein laat organisaties die AI overwegen maar nog geen richting hebben gekozen zien wat haalbaar is en wat eerst moet. Het resultaat is een readiness-score op strategie, data, technologie, mensen en governance, een gap-analyse en een 90-dagenplan. De doorlichting duurt 2-3 weken tegen een vaste prijs of vast maandbedrag, vastgelegd in het voorstel, exclusief btw en reiskosten."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Hoe lang duurt het AI Readiness Assessment?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "2-3 weken. In die periode bestaat het AI Readiness Assessment uit een documentenanalyse, een datascan en 8 tot 12 interviews, gevolgd door de scoring, de prioritering en een eindsessie."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Is de prijs van het AI Readiness Assessment een vaste prijs?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Ja, voor de hele organisatie: het AI Readiness Assessment kost een vaste prijs, vastgelegd in het voorstel, en de eindpresentatie aan MT of board zit daarbij in. Voor een enkele business unit of een specifiek procesdomein ligt de investering lager. Het bedrag is exclusief btw en reiskosten."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Wordt een Executive Briefing verrekend met het AI Readiness Assessment?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Ja, als het AI Readiness Assessment binnen 60 dagen start: de Executive Briefing kost een vaste prijs of vast maandbedrag, vastgelegd in het voorstel en wordt dan volledig verrekend."
+              }
+            }
+          ]
         }
-      }
+      ]
     ]
   },
   "afbeeldingen": [
@@ -703,12 +766,12 @@
     ],
     "stylesheets": [
       "https://fonts.googleapis.com/css2?family=Caveat:wght@600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap",
-      "/_astro/_slug_.bq6BBoZ5.css",
-      "/_astro/_slug_.BJ2d3JA4.css",
+      "/_astro/_slug_.BzqUXH8l.css",
+      "/_astro/_slug_.4j2fFZLq.css",
       "/logo-carousel/logo-carousel.css?v=2"
     ],
     "aantal_details": 4,
     "aantal_tabellen": 0
   },
-  "gemeten_op": "2026-10-06"
+  "gemeten_op": "2026-10-28"
 }

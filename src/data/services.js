@@ -3,7 +3,7 @@ import { prijzen } from './prijzen.ts';
 export const services = [
   {
     slug: 'ai-readiness-assessment',
-    meta: 'Nuchtere doorlichting op strategie, data, technologie, mensen en governance. In 2-3 weken weet je wat haalbaar is en wat eerst moet. Vaste prijs ' + prijzen['ai-readiness-assessment'].price + '.',
+    meta: 'Nuchtere doorlichting op strategie, data, technologie, mensen en governance. In 2-3 weken weet je wat haalbaar is en wat eerst moet.',
     number: '01',
     featured: true,
     tone: 'yellow',
@@ -20,7 +20,7 @@ export const services = [
     facts: [
       { label: 'Duur', value: prijzen['ai-readiness-assessment'].timing, tone: 'aqua' },
       { label: 'Resultaat', value: 'Readiness-rapport + 90-dagenplan', tone: 'salmon' },
-      { label: 'Investering', value: prijzen['ai-readiness-assessment'].price, tone: 'yellow' },
+      { label: 'Prijs', value: 'Op maat, vooraf vastgelegd', tone: 'yellow' },
     ],
     problemTitle: 'Herkenbaar?',
     problem: [
@@ -93,7 +93,7 @@ export const services = [
     facts: [
       { label: 'Duur', value: prijzen['ai-strategy-sprint'].timing, tone: 'aqua' },
       { label: 'Resultaat', value: 'Board-ready roadmap', tone: 'salmon' },
-      { label: 'Investering', value: prijzen['ai-strategy-sprint'].price, tone: 'yellow' },
+      { label: 'Prijs', value: 'Op maat, vooraf vastgelegd', tone: 'yellow' },
     ],
     problemTitle: 'Waarom sprints werken en trajecten stranden',
     problem: [
@@ -171,7 +171,7 @@ export const services = [
     facts: [
       { label: 'Ritme', value: '2, 4 of 8 dagen per maand', tone: 'aqua' },
       { label: 'Looptijd', value: 'Minimaal 3 maanden', tone: 'salmon' },
-      { label: 'Investering', value: prijzen['fractional-ai-lead'].price, tone: 'yellow' },
+      { label: 'Prijs', value: 'Op maat, vooraf vastgelegd', tone: 'yellow' },
     ],
     problemTitle: 'Het gat dat dit vult',
     problem: [
@@ -246,7 +246,7 @@ export const services = [
     facts: [
       { label: 'Duur', value: prijzen['vendor-review'].timing, tone: 'aqua' },
       { label: 'Resultaat', value: 'Onderbouwd selectieadvies', tone: 'salmon' },
-      { label: 'Investering', value: prijzen['vendor-review'].price, tone: 'yellow' },
+      { label: 'Prijs', value: 'Op maat, vooraf vastgelegd', tone: 'yellow' },
     ],
     problemTitle: 'Waar selectietrajecten misgaan',
     problem: [
@@ -317,7 +317,7 @@ export const services = [
     facts: [
       { label: 'Duur', value: prijzen['executive-briefing'].timing, tone: 'aqua' },
       { label: 'Resultaat', value: 'Gedeeld beeld + beslisagenda', tone: 'salmon' },
-      { label: 'Investering', value: prijzen['executive-briefing'].price, tone: 'yellow' },
+      { label: 'Prijs', value: 'Op maat, vooraf vastgelegd', tone: 'yellow' },
     ],
     problemTitle: 'Waarom dit nodig is',
     problem: [
@@ -388,7 +388,7 @@ export const services = [
     facts: [
       { label: 'Duur', value: prijzen['ai-due-diligence'].timing, tone: 'aqua' },
       { label: 'Resultaat', value: 'DD-rapport + red flags', tone: 'salmon' },
-      { label: 'Investering', value: prijzen['ai-due-diligence'].price, tone: 'yellow' },
+      { label: 'Prijs', value: 'Op maat, vooraf vastgelegd', tone: 'yellow' },
     ],
     problemTitle: 'Wat we doorgaans vinden',
     problem: [
@@ -452,7 +452,6 @@ export const serviceComparison = {
     ['Duur', prijzen['ai-readiness-assessment'].timing, prijzen['ai-strategy-sprint'].timing, `Doorlopend (${prijzen['fractional-ai-lead'].timing})`],
     ['Best voor', 'Teams die willen starten', 'Teams met ambitie en focusvragen', 'Teams die koers en capaciteit nodig hebben'],
     ['Resultaat', 'Rapport & 90-dagenplan', 'Roadmap & businesscase', 'Resultaten, adoptie & verbetering'],
-    ['Investering', prijzen['ai-readiness-assessment'].price, prijzen['ai-strategy-sprint'].price, prijzen['fractional-ai-lead'].price],
     ['Jouw tijdsbeslag', 'Laag', 'Middel', 'Middel tot hoog'],
   ],
 };

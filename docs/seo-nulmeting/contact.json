@@ -2,15 +2,28 @@
   "url": "/contact",
   "build_bestand": "dist/contact/index.html",
   "html": {
-    "bytes": 27767,
+    "bytes": 29256,
     "lang": "nl"
   },
   "beschermd": {
     "title": "Contact en kennismaking | Freelance AI Consultant",
     "meta_description": "Plan een vrijblijvend gesprek van 30 minuten over je AI-vraagstuk. Geen pitch, wel scherpe vragen en een eerlijk antwoord.",
-    "canonical": "https://freelanceaiconsultant.com/contact",
+    "canonical": "https://freelanceaiconsultant.com/nl/contact",
     "robots_meta": null,
-    "hreflang": [],
+    "hreflang": [
+      {
+        "hreflang": "en",
+        "href": "https://freelanceaiconsultant.com/contact"
+      },
+      {
+        "hreflang": "nl",
+        "href": "https://freelanceaiconsultant.com/nl/contact"
+      },
+      {
+        "hreflang": "x-default",
+        "href": "https://freelanceaiconsultant.com/contact"
+      }
+    ],
     "h1": [
       "Laten we kennismaken."
     ]
@@ -21,7 +34,7 @@
     "og:site_name": "freelanceaiconsultant.com",
     "og:title": "Contact en kennismaking | Freelance AI Consultant",
     "og:description": "Plan een vrijblijvend gesprek van 30 minuten over je AI-vraagstuk. Geen pitch, wel scherpe vragen en een eerlijk antwoord.",
-    "og:url": "https://freelanceaiconsultant.com/contact",
+    "og:url": "https://freelanceaiconsultant.com/nl/contact",
     "og:image": "https://freelanceaiconsultant.com/images/dave-portrait.jpg",
     "twitter:card": "summary_large_image",
     "twitter:title": "Contact en kennismaking | Freelance AI Consultant",
@@ -50,8 +63,8 @@
   ],
   "bodytekst": {
     "regio": "main",
-    "woorden": 514,
-    "sha256": "21951d0ac9f3d6299604e9e3b3f51a909543c7ce59d0a2293514bcab4e841a28",
+    "woorden": 540,
+    "sha256": "e0f4aaf40b5192bf03a9ca4578eeb0b61981ea97005265e6b17561b9ed8fbc3c",
     "blokken": [
       "Contact",
       "Laten we kennismaken.",
@@ -147,6 +160,15 @@
       "Vul een geldig e-mailadres in.",
       "Waar loop je tegenaan? *",
       "Beschrijf kort je vraagstuk.",
+      "Dienst",
+      "Kies een dienst (optioneel)",
+      "AI Readiness Assessment",
+      "AI Strategy Sprint",
+      "Fractional AI Lead",
+      "Vendor Review",
+      "Executive Briefing",
+      "AI Due Diligence",
+      "Anders / weet ik nog niet",
       "Tijdlijn",
       "Kies een termijn",
       "Zo snel mogelijk",
@@ -188,42 +210,42 @@
     {
       "regio": "header",
       "soort": "intern",
-      "href": "/",
+      "href": "/nl",
       "anker": "",
       "rel": null
     },
     {
       "regio": "header",
       "soort": "intern",
-      "href": "/diensten",
+      "href": "/nl/diensten",
       "anker": "Diensten",
       "rel": null
     },
     {
       "regio": "header",
       "soort": "intern",
-      "href": "/cases",
+      "href": "/nl/cases",
       "anker": "Cases",
       "rel": null
     },
     {
       "regio": "header",
       "soort": "intern",
-      "href": "/werkwijze",
+      "href": "/nl/werkwijze",
       "anker": "Werkwijze",
       "rel": null
     },
     {
       "regio": "header",
       "soort": "intern",
-      "href": "/inzichten",
+      "href": "/nl/inzichten",
       "anker": "Inzichten",
       "rel": null
     },
     {
       "regio": "header",
       "soort": "intern",
-      "href": "/over",
+      "href": "/nl/over",
       "anker": "Over mij",
       "rel": null
     },
@@ -231,6 +253,13 @@
       "regio": "header",
       "soort": "intern",
       "href": "/contact",
+      "anker": "EN",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/nl/contact",
       "anker": "Plan een gesprek →",
       "rel": null
     },
@@ -251,7 +280,7 @@
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/privacy",
+      "href": "/nl/privacy",
       "anker": "privacyverklaring",
       "rel": null
     },
@@ -265,154 +294,154 @@
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/veelgestelde-vragen",
+      "href": "/nl/veelgestelde-vragen",
       "anker": "Alle veelgestelde vragen →",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/diensten/ai-readiness-assessment",
+      "href": "/nl/diensten/ai-readiness-assessment",
       "anker": "AI Readiness Assessment",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/diensten/ai-strategy-sprint",
+      "href": "/nl/diensten/ai-strategy-sprint",
       "anker": "AI Strategy Sprint",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/diensten/fractional-ai-lead",
+      "href": "/nl/diensten/fractional-ai-lead",
       "anker": "Fractional AI Lead",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/diensten",
+      "href": "/nl/diensten",
       "anker": "Alle diensten",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/cases",
+      "href": "/nl/cases",
       "anker": "Cases",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/werkwijze",
+      "href": "/nl/werkwijze",
       "anker": "Werkwijze",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/inzichten",
+      "href": "/nl/inzichten",
       "anker": "Inzichten",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/veelgestelde-vragen",
+      "href": "/nl/veelgestelde-vragen",
       "anker": "Veelgestelde vragen",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/over",
+      "href": "/nl/over",
       "anker": "Over mij",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-consultancy",
+      "href": "/nl/ai-consultancy",
       "anker": "AI consultancy",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-implementatie",
+      "href": "/nl/ai-implementatie",
       "anker": "AI implementatie",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-automatisering",
+      "href": "/nl/ai-automatisering",
       "anker": "AI automatisering",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-voor-bedrijven",
+      "href": "/nl/ai-voor-bedrijven",
       "anker": "AI voor bedrijven",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-development",
+      "href": "/nl/ai-development",
       "anker": "AI development",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-agents",
+      "href": "/nl/ai-agents",
       "anker": "AI agents",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-beleid",
+      "href": "/nl/ai-beleid",
       "anker": "AI beleid",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-workshop",
+      "href": "/nl/ai-workshop",
       "anker": "AI workshop",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/markten",
+      "href": "/nl/markten",
       "anker": "AI per branche",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/kennisbank",
+      "href": "/nl/kennisbank",
       "anker": "Kennisbank",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/tarieven",
+      "href": "/nl/tarieven",
       "anker": "Tarieven",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/partnernetwerk",
+      "href": "/nl/partnernetwerk",
       "anker": "Partnernetwerk",
       "rel": null
     },
@@ -433,33 +462,33 @@
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/contact",
+      "href": "/nl/contact",
       "anker": "Plan een gesprek",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/privacy",
+      "href": "/nl/privacy",
       "anker": "Privacyverklaring",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/algemene-voorwaarden",
+      "href": "/nl/algemene-voorwaarden",
       "anker": "Algemene voorwaarden",
       "rel": null
     }
   ],
   "structured_data": {
-    "sha256": "e16d9f6549d269bd834d5101661de71ffab2223008241c74af1665b0b93452a2",
+    "sha256": "3712e4a699a87292cdf2f654431db03fa05b16a64e0efc8d0266ab665d4d6a23",
     "items": [
       {
         "@context": "https://schema.org",
         "@type": "ContactPage",
         "name": "Contact",
-        "url": "https://freelanceaiconsultant.com/contact",
+        "url": "https://freelanceaiconsultant.com/nl/contact",
         "mainEntity": {
           "@type": "Person",
           "name": "Dave Willemstein",
@@ -495,7 +524,7 @@
       {
         "src": null,
         "type": "module",
-        "inline_bytes": 2469
+        "inline_bytes": 2766
       },
       {
         "src": "/logo-carousel/logo-carousel.js?v=2",
@@ -505,13 +534,12 @@
     ],
     "stylesheets": [
       "https://fonts.googleapis.com/css2?family=Caveat:wght@600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap",
-      "/_astro/_slug_.bq6BBoZ5.css",
-      "/_astro/contact.92i2Fv_Z.css",
+      "/_astro/_slug_.BzqUXH8l.css",
+      "/_astro/contact.Bcae4Vyu.css",
       "/logo-carousel/logo-carousel.css?v=2"
     ],
     "aantal_details": 4,
     "aantal_tabellen": 0
   },
-  "gemeten_op": "2026-10-06",
-  "baseline_wijziging": "2026-10-23: scripts-diff geaccepteerd als nieuwe baseline (locale-veld + subject-tag in het intakeformulier-script), na akkoord."
+  "gemeten_op": "2026-10-28"
 }

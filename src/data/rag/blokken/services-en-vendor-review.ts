@@ -9,7 +9,7 @@ export default {
   "vervolgvragen": [
     {
       "vraag": "What determines the price of a Vendor Review?",
-      "antwoord": "{{price:vendor-review}} for {{dienst:vendor-review}} depends on the number of vendors assessed, typically 2 to 4."
+      "antwoord": "The price of {{dienst:vendor-review}} depends on the number of vendors assessed, typically 2 to 4."
     },
     {
       "vraag": "When is a Vendor Review less suitable?",

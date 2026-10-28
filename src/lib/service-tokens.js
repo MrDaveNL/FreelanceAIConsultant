@@ -22,6 +22,10 @@ export function resolveToken(field, slug, locale = 'nl') {
   const service = services.find((s) => s.slug === slug);
   if (!service) throw new Error(`Onbekende dienst in token: ${slug}`);
   if (field === 'title') return service.title;
+  // Prijzen staan niet meer op de site (site.showPrices: false). Content mag deze tokens niet meer
+  // gebruiken; laat de build hard falen in plaats van stilletjes een bedrag of lege plek te tonen.
+  if ((field === 'price' || field === 'pricelc') && !site.showPrices)
+    throw new Error(`Onbevoegd gebruik van {{${field}:${slug}}}: prijzen staan uit (site.showPrices: false). Verwijder dit token uit de content.`);
   const value = locale === 'en' ? (field === 'timing' ? timingTextEn(slug) : priceEn(slug)) : service[field === 'pricelc' ? 'price' : field];
   return field === 'pricelc' ? value.charAt(0).toLowerCase() + value.slice(1) : value;
 }

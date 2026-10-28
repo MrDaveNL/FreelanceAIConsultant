@@ -6,6 +6,7 @@ import Steps from '@/components/Steps.astro';
 import Accordion from '@/components/Accordion.astro';
 import CTA from '@/components/CTA.astro';
 import RagBlok from '@/components/RagBlok.astro';
+import ServiceContactCTA from '@/components/ServiceContactCTA.astro';
 import { getCase } from '@/data/cases.js';
 import { site } from '@/data/site.js';
 import { routeById } from '@/data/routes';
@@ -31,11 +32,6 @@ const schema = {
   provider: { '@type': 'Person', name: site.name, url: site.url },
   areaServed: ['NL', 'BE', 'DE'],
   serviceType: 'AI advisory',
-  offers: {
-    '@type': 'Offer',
-    priceCurrency: 'EUR',
-    description: `${service.price}. ${service.priceNote}`,
-  },
 };
 ---
 <BaseLayout
@@ -60,7 +56,10 @@ const schema = {
         <div class:list={['fact', `tone-${fact.tone}`]}><b>{fact.label}</b><strong>{fact.value}</strong></div>
       ))}
     </div>
-    <div class="container"><p class="price-note">{service.priceNote} Amounts exclude VAT and travel expenses.</p></div>
+    <div class="container">
+      <p class="price-note">{service.priceNote} All proposals exclude VAT.</p>
+      <ServiceContactCTA service={service} locale="en" />
+    </div>
   </section>
 
   <RagBlok pagina={`/services/${service.slug}`} />
@@ -149,7 +148,7 @@ const schema = {
           {related.map((item) => (
             <a class="related-card card" href={`/services/${item.slug}`}>
               <span class="icon-dot" aria-hidden="true">{item.icon}</span>
-              <div><h3>{item.title}</h3><p>{item.cardText}</p><small>{item.timing} · {item.price}</small></div>
+              <div><h3>{item.title}</h3><p>{item.cardText}</p><small>{item.timing} · Request a proposal</small></div>
               <span aria-hidden="true">→</span>
             </a>
           ))}

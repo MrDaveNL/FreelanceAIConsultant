@@ -1,6 +1,14 @@
 // Hoe prijs en doorlooptijd van een dienst in een RAG-blok staan. Alles komt letterlijk uit src/data/prijzen.ts.
 // Gedeeld door de renderfunctie (src/lib/rag-blok.js) en de controle (planning/check-rag.mjs).
 import { prijzen, fractionalNiveaus, prijsvoorwaarden, formatEur, timingEn } from '../data/prijzen.ts';
+import { site } from '../data/site.js';
+
+// Eén vaste prijsbelofte, overal hetzelfde (ook in de hero- en FAQ-tekst elders op de site), zodat
+// een lezer nooit twee verschillende formuleringen voor dezelfde belofte ziet. Alleen deze functie
+// buigt om naar de neutrale tekst zolang site.showPrices false is; prijzen.ts blijft intact.
+const prijsbeloftelc = 'een vaste prijs of vast maandbedrag, vastgelegd in het voorstel';
+const prijsbeloftelcEn = 'a fixed price or fixed monthly fee, agreed upfront in the proposal';
+const hoofdletter = (s) => s.charAt(0).toUpperCase() + s.slice(1);
 
 // Zelfde notatie als in prijzen.ts: €7.000, punt als duizendtalscheiding.
 const eur = (bedrag) => '€' + String(bedrag).replace(/\B(?=(\d{3})+(?!\d))/g, '.');
@@ -14,8 +22,11 @@ const niveaus = { 'fractional-ai-lead': fractionalNiveaus };
 export const voorwaarden = prijsvoorwaarden;
 
 // Prijs van een dienst. Bij een dienst met niveaus de bandbreedte met de omvang, zonder schuine strepen.
+// Zolang site.showPrices false is, geeft dit overal dezelfde neutrale prijsbelofte terug in plaats
+// van een bedrag; de tokens {{price:slug}}/{{pricelc:slug}} in de RAG-blokken hoeven daardoor niet
+// per bestand aangepast te worden. prijzen.ts zelf blijft ongewijzigd.
 export const prijsTekst = (slug) =>
-  niveaus[slug]
+  !site.showPrices ? hoofdletter(prijsbeloftelc) : niveaus[slug]
     ? `${eur(prijzen[slug].minPrice)} - ${eur(prijzen[slug].maxPrice)} per maand, voor ${opsomming(niveaus[slug].map((n) => String(n.dagen)), 'of')} dagen per maand`
     : prijzen[slug].price;
 // Elk niveau voluit: bedrag, periode, naam en omvang. Alleen voor een tabelrij of een vervolgvraag over de niveaus.
@@ -30,7 +41,7 @@ export const dienstSlugs = Object.keys(prijzen);
 // bandbreedte met de omvang, anders de vaste prijs of bandbreedte uit min/maxPrice (nooit "from" bij
 // een vaste prijs: alleen fractional-ai-lead heeft niveaus en dus een echte bandbreedte).
 export const prijsTekstEn = (slug) =>
-  niveaus[slug]
+  !site.showPrices ? hoofdletter(prijsbeloftelcEn) : niveaus[slug]
     ? `${formatEur(prijzen[slug].minPrice, 'en')} - ${formatEur(prijzen[slug].maxPrice, 'en')} per month, for ${opsomming(niveaus[slug].map((n) => String(n.dagen)), 'or')} days per month`
     : prijzen[slug].minPrice === prijzen[slug].maxPrice
       ? formatEur(prijzen[slug].minPrice, 'en')

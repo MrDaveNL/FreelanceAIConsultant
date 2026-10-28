@@ -139,6 +139,6 @@ Die laatste is misschien de belangrijkste. Een team dat bewust kiest waar AI nie
 
 Workshops en trainingen krijgen een vaste prijs per opdracht, omdat voorbereiding, duur en groepsgrootte sterk verschillen. Het bedrag bespreken we in de intake, en je krijgt het vooraf op papier. Op de pagina met [tarieven en pakketten](/nl/tarieven) zie je hoe dat zich verhoudt tot de vaste trajecten. Alle bedragen zijn exclusief btw en reiskosten.
 
-De Executive Briefing is de uitzondering: die heeft een vaste prijs van {{price:executive-briefing}}, inclusief voorbereiding op jullie sector.
+De Executive Briefing is de uitzondering: die heeft een vaste prijs, inclusief voorbereiding op jullie sector.
 
 Wil je eerst zien waar je als organisatie staat, dan is het [AI Readiness Assessment](/nl/diensten/ai-readiness-assessment) een logischer begin. Meer over mijn achtergrond lees je op de pagina [over mij](/nl/over). Weet je nog niet of een workshop de juiste eerste stap is? [Vraag dan een workshop aan](/nl/contact): in een gesprek van dertig minuten hoor je wat ik zou voorstellen, ook als dat iets anders is dan een workshop.

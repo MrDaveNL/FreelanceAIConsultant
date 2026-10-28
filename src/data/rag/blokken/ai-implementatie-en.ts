@@ -6,32 +6,28 @@ export default {
   "onderwerp": "AI implementation",
   "vraagkop": "What does guidance for AI implementation cost, and who builds the solution?",
   "onderBestaandeKop": false,
-  "antwoord": "With an AI implementation, your own team or a directly contracted partner builds the solution; {{afzender}} guides from the client's side of the table by helping choose, setting the framework, testing the delivery and making sure the application lands in the organisation. That guidance has published prices: {{dienst:ai-readiness-assessment}} takes {{timing:ai-readiness-assessment}} and costs {{pricelc:ai-readiness-assessment}}, and ongoing steering through {{dienst:fractional-ai-lead}} costs {{pricelc:fractional-ai-lead}}. The cost of the build or licence depends on the chosen solution and vendor and is budgeted separately, including management after go-live.",
+  "antwoord": "With an AI implementation, your own team or a directly contracted partner builds the solution; {{afzender}} guides from the client's side of the table by helping choose, setting the framework, testing the delivery and making sure the application lands in the organisation. That guidance works as follows: {{dienst:ai-readiness-assessment}} takes {{timing:ai-readiness-assessment}} for a fixed price, and ongoing steering through {{dienst:fractional-ai-lead}} is for a fixed monthly fee. The cost of the build or licence depends on the chosen solution and vendor and is budgeted separately, including management after go-live.",
   "tabel": {
     "bijschrift": "Guidance for AI implementation: the right service per situation",
     "kolommen": [
       "Situation",
       "Timeline",
-      "Price",
       "Suitable service"
     ],
     "rijen": [
       [
         "Unclear whether the organisation is ready for an implementation, or opinions differ on that",
         { "dienst": "ai-readiness-assessment", "veld": "doorlooptijd" },
-        { "dienst": "ai-readiness-assessment", "veld": "prijs" },
         { "dienst": "ai-readiness-assessment", "veld": "naam" }
       ],
       [
         "Selecting an external delivery partner against criteria agreed in advance, tested on your own data",
         { "dienst": "vendor-review", "veld": "doorlooptijd" },
-        { "dienst": "vendor-review", "veld": "prijs" },
         { "dienst": "vendor-review", "veld": "naam" }
       ],
       [
         "Ongoing oversight of measurement, management and governance, without a full-time Head of AI on staff",
         { "dienst": "fractional-ai-lead", "veld": "doorlooptijd" },
-        { "dienst": "fractional-ai-lead", "veld": "prijs" },
         { "dienst": "fractional-ai-lead", "veld": "naam" }
       ]
     ]

@@ -2,15 +2,28 @@
   "url": "/ai-automatisering",
   "build_bestand": "dist/ai-automatisering/index.html",
   "html": {
-    "bytes": 43717,
+    "bytes": 48742,
     "lang": "nl"
   },
   "beschermd": {
     "title": "AI automatisering | Processen slimmer en sneller laten lopen",
     "meta_description": "Met AI automatisering neem je repetitief werk uit handen, van klantenservice tot administratie. Ontdek welke processen je automatiseert en wat het oplevert.",
-    "canonical": "https://freelanceaiconsultant.com/ai-automatisering",
+    "canonical": "https://freelanceaiconsultant.com/nl/ai-automatisering",
     "robots_meta": null,
-    "hreflang": [],
+    "hreflang": [
+      {
+        "hreflang": "en",
+        "href": "https://freelanceaiconsultant.com/ai-automation"
+      },
+      {
+        "hreflang": "nl",
+        "href": "https://freelanceaiconsultant.com/nl/ai-automatisering"
+      },
+      {
+        "hreflang": "x-default",
+        "href": "https://freelanceaiconsultant.com/ai-automation"
+      }
+    ],
     "h1": [
       "AI automatisering: slimmer werken met minder handwerk"
     ]
@@ -21,7 +34,7 @@
     "og:site_name": "freelanceaiconsultant.com",
     "og:title": "AI automatisering | Processen slimmer en sneller laten lopen",
     "og:description": "Met AI automatisering neem je repetitief werk uit handen, van klantenservice tot administratie. Ontdek welke processen je automatiseert en wat het oplevert.",
-    "og:url": "https://freelanceaiconsultant.com/ai-automatisering",
+    "og:url": "https://freelanceaiconsultant.com/nl/ai-automatisering",
     "og:image": "https://freelanceaiconsultant.com/images/dave-portrait.jpg",
     "twitter:card": "summary_large_image",
     "twitter:title": "AI automatisering | Processen slimmer en sneller laten lopen",
@@ -32,6 +45,30 @@
     {
       "niveau": 1,
       "tekst": "AI automatisering: slimmer werken met minder handwerk",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "Waar begint een organisatie met AI automatisering en wat kost advies daarover?",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 3,
+      "tekst": "Wordt AI automatisering door de adviseur zelf gebouwd?",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 3,
+      "tekst": "Uit hoeveel kostenposten bestaat AI automatisering?",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 3,
+      "tekst": "Is voor AI automatisering maatwerk nodig?",
       "regio": "main",
       "id": null
     },
@@ -152,8 +189,8 @@
   ],
   "bodytekst": {
     "regio": "main",
-    "woorden": 2687,
-    "sha256": "0e1d20f776a192800cff7cb48a5ff31c7e88945006edf38a28989bec7a629063",
+    "woorden": 2967,
+    "sha256": "9c7e6be754fcee0546ce510246612a0b5dd9b92519f7f40a6765c9b4143a34bf",
     "blokken": [
       "Home",
       "AI Automatisering",
@@ -223,6 +260,15 @@
       "Proces & productivity",
       "Zakelijke dienstverlener",
       "Interne AI-assistent voor kenniswerkers",
+      "Waar begint een organisatie met AI automatisering en wat kost advies daarover?",
+      "AI automatisering past bij werk met ongestructureerde input, zoals e-mails, documenten en vrije tekst, en begint bij een proces met hoog volume, weinig variatie en een controlestap die al bestaat. Dave Willemstein bouwt zelf geen automatiseringen en verkoopt geen software of licenties, maar adviseert onafhankelijk over wat er geautomatiseerd wordt, wie het bouwt en hoe het blijft werken. Wie nog niet weet welk proces als eerste aan de beurt is, start met het AI Readiness Assessment: in 2-3 weken een gevalideerde lijst met kansen en een 90-dagenplan voor een vaste prijs of vast maandbedrag, vastgelegd in het voorstel, exclusief btw en reiskosten.",
+      "Wordt AI automatisering door de adviseur zelf gebouwd?",
+      "Nee. AI automatisering wordt gebouwd door het eigen team van de opdrachtgever of door een partner die de opdrachtgever rechtstreeks contracteert, zonder marge voor de adviseur. De adviseur levert een procesbeschrijving met nulmeting, een geprioriteerde lijst, een beslisdocument over bouwen, kopen of een partner inschakelen en een meetopzet, en toetst de oplevering aan de afgesproken criteria.",
+      "Uit hoeveel kostenposten bestaat AI automatisering?",
+      "Vier posten bepalen de kosten van AI automatisering: de eenmalige inrichting, licenties voor het platform, verbruikskosten van het AI-model per verwerkt document of bericht, en beheer. Verbruik en beheer worden het vaakst vergeten.",
+      "Is voor AI automatisering maatwerk nodig?",
+      "Voor de meeste AI automatisering is geen maatwerk nodig. Een workflowplatform verbindt bij AI automatisering de systemen van de organisatie en voegt een AI-stap toe waar dat nodig is. Prijzen en functies van zulke platforms veranderen snel en horen bij de leverancier zelf gecontroleerd te worden.",
+      "Bron: tarieven en doorlooptijden van Dave Willemstein. Bijgewerkt: oktober 2026.",
       "Wat is AI automatisering?",
       "AI automatisering is het automatiseren van werkstappen waarbij een AI-model iets doet wat eerder een mens moest doen: tekst begrijpen, informatie uit een document halen, een vraag indelen of een concept opstellen. Het verschil met gewone automatisering zit in de input. Klassieke software heeft nette velden en vaste regels nodig. Een AI-model kan omgaan met een e-mail in vrije tekst, een gescande pakbon of een klacht die half in het Engels is geschreven.",
       "In de praktijk is AI automatisering bijna nooit een los AI-model. Het is een keten: een trigger (er komt een e-mail binnen), een AI-stap (lees en classificeer), een actie in een systeem (maak een ticket aan) en ergens een mens die controleert. De AI-stap is vaak het kleinste deel van het werk. De koppelingen, de foutafhandeling en de afspraken over wie wat controleert bepalen of het blijft werken.",
@@ -305,7 +351,7 @@
       "Van proces naar werkende automatisering. Ik adviseer en begeleid; bouwen doet je eigen team of een partner die je zelf contracteert.",
       "Concreet lever ik per stap iets op waar je een besluit mee kunt nemen: een procesbeschrijving met nulmeting, een geprioriteerde lijst met de afvallers erbij, een beslisdocument over bouwen, kopen of een partner inschakelen (de afweging staat in build, buy of partner) en een meetopzet voor na de livegang. Tijdens de bouw zit ik aan jouw kant van de tafel: ik toets de oplevering aan de afgesproken criteria en bewaak dat beheer en controle geregeld zijn.",
       "Heb je hulp nodig bij het vinden van een bouwpartij, dan stel ik partijen voor uit mijn partnernetwerk. Je kiest en contracteert zelf. Wie ik ben en hoe ik werk, lees je op de pagina over mij. Voor de bredere route van besluit naar productie, ook buiten automatisering, zie AI implementatie.",
-      "Weet je nog niet welk proces als eerste aan de beurt is? Dan is het AI Readiness Assessment het logische begin. In 2-3 weken krijg je een gevalideerde lijst met kansen en een 90-dagenplan, voor een vaste prijs van €7.000 (exclusief btw en reiskosten).",
+      "Weet je nog niet welk proces als eerste aan de beurt is? Dan is het AI Readiness Assessment het logische begin. In 2-3 weken krijg je een gevalideerde lijst met kansen en een 90-dagenplan, voor een vaste prijs, vooraf afgesproken (het voorstel is exclusief btw).",
       "Tools en workflows",
       "Voor de meeste AI automatisering heb je geen maatwerk nodig. Een workflowplatform verbindt je systemen en voegt een AI-stap toe waar dat nodig is. Bekende platforms, elk met een eigenschap zoals de leverancier die op de eigen site noemt (stand september 2026):",
       "Zapier richt zich op het koppelen van veel verschillende apps; het noemt zelf meer dan 9.000 koppelingen en biedt ook AI-agents.",
@@ -352,98 +398,119 @@
     {
       "regio": "header",
       "soort": "intern",
-      "href": "/",
+      "href": "/nl",
       "anker": "",
       "rel": null
     },
     {
       "regio": "header",
       "soort": "intern",
-      "href": "/diensten",
+      "href": "/nl/diensten",
       "anker": "Diensten",
       "rel": null
     },
     {
       "regio": "header",
       "soort": "intern",
-      "href": "/cases",
+      "href": "/nl/cases",
       "anker": "Cases",
       "rel": null
     },
     {
       "regio": "header",
       "soort": "intern",
-      "href": "/werkwijze",
+      "href": "/nl/werkwijze",
       "anker": "Werkwijze",
       "rel": null
     },
     {
       "regio": "header",
       "soort": "intern",
-      "href": "/inzichten",
+      "href": "/nl/inzichten",
       "anker": "Inzichten",
       "rel": null
     },
     {
       "regio": "header",
       "soort": "intern",
-      "href": "/over",
+      "href": "/nl/over",
       "anker": "Over mij",
       "rel": null
     },
     {
       "regio": "header",
       "soort": "intern",
-      "href": "/contact",
+      "href": "/ai-automation",
+      "anker": "EN",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/nl/contact",
       "anker": "Plan een gesprek →",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/",
+      "href": "/nl",
       "anker": "Home",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/contact",
+      "href": "/nl/contact",
       "anker": "Plan een adviesgesprek →",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/diensten/ai-readiness-assessment",
+      "href": "/nl/diensten/ai-readiness-assessment",
       "anker": "Bekijk het AI Readiness Assessment →",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/kennisbank/rpa-vs-ai-automatisering",
+      "href": "/nl/diensten/ai-readiness-assessment",
+      "anker": "AI Readiness Assessment",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/nl/tarieven",
+      "anker": "tarieven en doorlooptijden van Dave Willemstein",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/nl/kennisbank/rpa-vs-ai-automatisering",
       "anker": "RPA en AI-automatisering",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/ai-automatisering/bedrijfsprocessen-automatiseren-met-ai",
+      "href": "/nl/ai-automatisering/bedrijfsprocessen-automatiseren-met-ai",
       "anker": "bedrijfsprocessen automatiseren met AI",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/kennisbank/notuleren-met-ai",
+      "href": "/nl/kennisbank/notuleren-met-ai",
       "anker": "notuleren met AI",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/ai-beleid/ai-act",
+      "href": "/nl/ai-beleid/ai-act",
       "anker": "AI Act",
       "rel": null
     },
@@ -457,140 +524,140 @@
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/cases/interne-ai-assistent-kenniswerkers",
+      "href": "/nl/cases/interne-ai-assistent-kenniswerkers",
       "anker": "interne AI-assistent voor kenniswerkers",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/kennisbank/ai-voorbeelden",
+      "href": "/nl/kennisbank/ai-voorbeelden",
       "anker": "AI-voorbeelden uit de praktijk",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/inzichten/waarom-ai-pilots-blijven-steken",
+      "href": "/nl/inzichten/waarom-ai-pilots-blijven-steken",
       "anker": "waarom AI-pilots blijven steken",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/inzichten/het-datafundament-onder-ai",
+      "href": "/nl/inzichten/het-datafundament-onder-ai",
       "anker": "het datafundament onder AI",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/ai-beleid",
+      "href": "/nl/ai-beleid",
       "anker": "AI-beleid en governance",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/ai-voor-bedrijven/mkb",
+      "href": "/nl/ai-voor-bedrijven/mkb",
       "anker": "AI voor het mkb",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/inzichten/welke-ai-use-cases-leveren-resultaat",
+      "href": "/nl/inzichten/welke-ai-use-cases-leveren-resultaat",
       "anker": "welke AI-use cases resultaat leveren",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/inzichten/de-business-case-voor-ai",
+      "href": "/nl/inzichten/de-business-case-voor-ai",
       "anker": "de business case voor AI",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/inzichten/build-buy-of-partner",
+      "href": "/nl/inzichten/build-buy-of-partner",
       "anker": "build, buy of partner",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/partnernetwerk",
+      "href": "/nl/partnernetwerk",
       "anker": "partnernetwerk",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/over",
+      "href": "/nl/over",
       "anker": "over mij",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/ai-implementatie",
+      "href": "/nl/ai-implementatie",
       "anker": "AI implementatie",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/diensten/ai-readiness-assessment",
+      "href": "/nl/diensten/ai-readiness-assessment",
       "anker": "AI Readiness Assessment",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/ai-automatisering/ai-workflows",
+      "href": "/nl/ai-automatisering/ai-workflows",
       "anker": "AI workflows",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/ai-automatisering/ai-tools",
+      "href": "/nl/ai-automatisering/ai-tools",
       "anker": "AI tools",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/ai-agents",
+      "href": "/nl/ai-agents",
       "anker": "AI agents",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/contact",
+      "href": "/nl/contact",
       "anker": "Plan een adviesgesprek",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/over",
+      "href": "/nl/over",
       "anker": "Over mij",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/partnernetwerk",
+      "href": "/nl/partnernetwerk",
       "anker": "Mijn partnernetwerk",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/diensten/ai-readiness-assessment",
+      "href": "/nl/diensten/ai-readiness-assessment",
       "anker": "Weten waar je staat met AI? Bekijk het AI Readiness Assessment →",
       "rel": null
     },
@@ -632,154 +699,154 @@
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/contact",
+      "href": "/nl/contact",
       "anker": "Plan een gesprek →",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/diensten/ai-readiness-assessment",
+      "href": "/nl/diensten/ai-readiness-assessment",
       "anker": "AI Readiness Assessment",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/diensten/ai-strategy-sprint",
+      "href": "/nl/diensten/ai-strategy-sprint",
       "anker": "AI Strategy Sprint",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/diensten/fractional-ai-lead",
+      "href": "/nl/diensten/fractional-ai-lead",
       "anker": "Fractional AI Lead",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/diensten",
+      "href": "/nl/diensten",
       "anker": "Alle diensten",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/cases",
+      "href": "/nl/cases",
       "anker": "Cases",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/werkwijze",
+      "href": "/nl/werkwijze",
       "anker": "Werkwijze",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/inzichten",
+      "href": "/nl/inzichten",
       "anker": "Inzichten",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/veelgestelde-vragen",
+      "href": "/nl/veelgestelde-vragen",
       "anker": "Veelgestelde vragen",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/over",
+      "href": "/nl/over",
       "anker": "Over mij",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-consultancy",
+      "href": "/nl/ai-consultancy",
       "anker": "AI consultancy",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-implementatie",
+      "href": "/nl/ai-implementatie",
       "anker": "AI implementatie",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-automatisering",
+      "href": "/nl/ai-automatisering",
       "anker": "AI automatisering",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-voor-bedrijven",
+      "href": "/nl/ai-voor-bedrijven",
       "anker": "AI voor bedrijven",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-development",
+      "href": "/nl/ai-development",
       "anker": "AI development",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-agents",
+      "href": "/nl/ai-agents",
       "anker": "AI agents",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-beleid",
+      "href": "/nl/ai-beleid",
       "anker": "AI beleid",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-workshop",
+      "href": "/nl/ai-workshop",
       "anker": "AI workshop",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/markten",
+      "href": "/nl/markten",
       "anker": "AI per branche",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/kennisbank",
+      "href": "/nl/kennisbank",
       "anker": "Kennisbank",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/tarieven",
+      "href": "/nl/tarieven",
       "anker": "Tarieven",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/partnernetwerk",
+      "href": "/nl/partnernetwerk",
       "anker": "Partnernetwerk",
       "rel": null
     },
@@ -800,27 +867,27 @@
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/contact",
+      "href": "/nl/contact",
       "anker": "Plan een gesprek",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/privacy",
+      "href": "/nl/privacy",
       "anker": "Privacyverklaring",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/algemene-voorwaarden",
+      "href": "/nl/algemene-voorwaarden",
       "anker": "Algemene voorwaarden",
       "rel": null
     }
   ],
   "structured_data": {
-    "sha256": "dbb33c3f38f773a65ae5fc03615e367a9d7ce6b1689cff21bad3de3c9d46416a",
+    "sha256": "d78e5c45533f10082aae9eaf12ac0e95fa4430ec7889cc26290140cddf0593c2",
     "items": [
       {
         "@context": "https://schema.org",
@@ -832,13 +899,13 @@
                 "@type": "ListItem",
                 "position": 1,
                 "name": "Home",
-                "item": "https://freelanceaiconsultant.com/"
+                "item": "https://freelanceaiconsultant.com/nl"
               },
               {
                 "@type": "ListItem",
                 "position": 2,
                 "name": "AI Automatisering",
-                "item": "https://freelanceaiconsultant.com/ai-automatisering"
+                "item": "https://freelanceaiconsultant.com/nl/ai-automatisering"
               }
             ]
           },
@@ -847,7 +914,7 @@
             "name": "AI Automatisering",
             "serviceType": "ai automatisering",
             "description": "Met AI automatisering neem je repetitief werk uit handen, van klantenservice tot administratie. Ontdek welke processen je automatiseert en wat het oplevert.",
-            "url": "https://freelanceaiconsultant.com/ai-automatisering",
+            "url": "https://freelanceaiconsultant.com/nl/ai-automatisering",
             "areaServed": "NL",
             "provider": {
               "@type": "Person",
@@ -901,6 +968,38 @@
                   "@type": "Answer",
                   "text": "Meestal verschuift hun rol van uitvoeren naar controleren en afhandelen van uitzonderingen. Bespreek vooraf wat er met de vrijgekomen tijd gebeurt. Zonder dat gesprek komt de besparing zelden in de cijfers terecht en groeit de weerstand."
                 }
+              },
+              {
+                "@type": "Question",
+                "name": "Waar begint een organisatie met AI automatisering en wat kost advies daarover?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "AI automatisering past bij werk met ongestructureerde input, zoals e-mails, documenten en vrije tekst, en begint bij een proces met hoog volume, weinig variatie en een controlestap die al bestaat. Dave Willemstein bouwt zelf geen automatiseringen en verkoopt geen software of licenties, maar adviseert onafhankelijk over wat er geautomatiseerd wordt, wie het bouwt en hoe het blijft werken. Wie nog niet weet welk proces als eerste aan de beurt is, start met het AI Readiness Assessment: in 2-3 weken een gevalideerde lijst met kansen en een 90-dagenplan voor een vaste prijs of vast maandbedrag, vastgelegd in het voorstel, exclusief btw en reiskosten."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Wordt AI automatisering door de adviseur zelf gebouwd?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Nee. AI automatisering wordt gebouwd door het eigen team van de opdrachtgever of door een partner die de opdrachtgever rechtstreeks contracteert, zonder marge voor de adviseur. De adviseur levert een procesbeschrijving met nulmeting, een geprioriteerde lijst, een beslisdocument over bouwen, kopen of een partner inschakelen en een meetopzet, en toetst de oplevering aan de afgesproken criteria."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Uit hoeveel kostenposten bestaat AI automatisering?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Vier posten bepalen de kosten van AI automatisering: de eenmalige inrichting, licenties voor het platform, verbruikskosten van het AI-model per verwerkt document of bericht, en beheer. Verbruik en beheer worden het vaakst vergeten."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Is voor AI automatisering maatwerk nodig?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Voor de meeste AI automatisering is geen maatwerk nodig. Een workflowplatform verbindt bij AI automatisering de systemen van de organisatie en voegt een AI-stap toe waar dat nodig is. Prijzen en functies van zulke platforms veranderen snel en horen bij de leverancier zelf gecontroleerd te worden."
+                }
               }
             ]
           }
@@ -944,12 +1043,12 @@
     ],
     "stylesheets": [
       "https://fonts.googleapis.com/css2?family=Caveat:wght@600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap",
-      "/_astro/_slug_.bq6BBoZ5.css",
-      "/_astro/_slug_.goiX3PVF.css",
+      "/_astro/_slug_.BzqUXH8l.css",
+      "/_astro/_slug_.Do5RJXa7.css",
       "/logo-carousel/logo-carousel.css?v=2"
     ],
     "aantal_details": 5,
     "aantal_tabellen": 1
   },
-  "gemeten_op": "2026-10-06"
+  "gemeten_op": "2026-10-28"
 }

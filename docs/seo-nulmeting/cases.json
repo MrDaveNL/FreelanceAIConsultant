@@ -2,15 +2,28 @@
   "url": "/cases",
   "build_bestand": "dist/cases/index.html",
   "html": {
-    "bytes": 29567,
+    "bytes": 30051,
     "lang": "nl"
   },
   "beschermd": {
     "title": "Cases | Freelance AI Consultant",
     "meta_description": "Zes AI-trajecten van strategie tot vendorselectie en fractional leiderschap. Echte uitdagingen, gemaakte keuzes en wat het opleverde.",
-    "canonical": "https://freelanceaiconsultant.com/cases",
+    "canonical": "https://freelanceaiconsultant.com/nl/cases",
     "robots_meta": null,
-    "hreflang": [],
+    "hreflang": [
+      {
+        "hreflang": "en",
+        "href": "https://freelanceaiconsultant.com/cases"
+      },
+      {
+        "hreflang": "nl",
+        "href": "https://freelanceaiconsultant.com/nl/cases"
+      },
+      {
+        "hreflang": "x-default",
+        "href": "https://freelanceaiconsultant.com/cases"
+      }
+    ],
     "h1": [
       "Cases die het verschil maken."
     ]
@@ -21,7 +34,7 @@
     "og:site_name": "freelanceaiconsultant.com",
     "og:title": "Cases | Freelance AI Consultant",
     "og:description": "Zes AI-trajecten van strategie tot vendorselectie en fractional leiderschap. Echte uitdagingen, gemaakte keuzes en wat het opleverde.",
-    "og:url": "https://freelanceaiconsultant.com/cases",
+    "og:url": "https://freelanceaiconsultant.com/nl/cases",
     "og:image": "https://freelanceaiconsultant.com/images/dave-portrait.jpg",
     "twitter:card": "summary_large_image",
     "twitter:title": "Cases | Freelance AI Consultant",
@@ -200,259 +213,266 @@
     {
       "regio": "header",
       "soort": "intern",
-      "href": "/",
+      "href": "/nl",
       "anker": "",
       "rel": null
     },
     {
       "regio": "header",
       "soort": "intern",
-      "href": "/diensten",
+      "href": "/nl/diensten",
       "anker": "Diensten",
       "rel": null
     },
     {
       "regio": "header",
       "soort": "intern",
-      "href": "/cases",
+      "href": "/nl/cases",
       "anker": "Cases",
       "rel": null
     },
     {
       "regio": "header",
       "soort": "intern",
-      "href": "/werkwijze",
+      "href": "/nl/werkwijze",
       "anker": "Werkwijze",
       "rel": null
     },
     {
       "regio": "header",
       "soort": "intern",
-      "href": "/inzichten",
+      "href": "/nl/inzichten",
       "anker": "Inzichten",
       "rel": null
     },
     {
       "regio": "header",
       "soort": "intern",
-      "href": "/over",
+      "href": "/nl/over",
       "anker": "Over mij",
       "rel": null
     },
     {
       "regio": "header",
       "soort": "intern",
-      "href": "/contact",
+      "href": "/cases",
+      "anker": "EN",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/nl/contact",
       "anker": "Plan een gesprek →",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/contact",
+      "href": "/nl/contact",
       "anker": "Plan een gesprek →",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/diensten",
+      "href": "/nl/diensten",
       "anker": "Bekijk de diensten →",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/cases/ai-strategie-investeringsmaatschappij",
+      "href": "/nl/cases/ai-strategie-investeringsmaatschappij",
       "anker": "◈ Financial services AI-strategie & use-case portfolio voor investeringsmaatschappij Uitdaging: Geen duidelijke AI-prioriteiten en versnipperde ideeën zonder business impact. 8 prioritaire use cases · €1,2M impactpotentieel →",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/cases/vendorselectie-enterprise-retail",
+      "href": "/nl/cases/vendorselectie-enterprise-retail",
       "anker": "◎ Retail AI-gedreven vendorselectie in enterprise retail Uitdaging: Keuze voor AI-oplossingen op basis van buikgevoel in plaats van waarde en fit. 12 vendors beoordeeld · €1,1M bespaard op TCO →",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/cases/ai-roadmap-internationale-maakorganisatie",
+      "href": "/nl/cases/ai-roadmap-internationale-maakorganisatie",
       "anker": "↗ Industrial / B2B AI-roadmap & leadership voor internationale maakorganisatie Uitdaging: Geen samenhangende AI-strategie en verspreide pilots zonder schaal. Roadmap goedgekeurd · 25% productiviteitsdoel →",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/cases/kyc-documentanalyse-financial-services",
+      "href": "/nl/cases/kyc-documentanalyse-financial-services",
       "anker": "☑ Financial services KYC-proces versneld met AI-assisted documentanalyse Uitdaging: Handmatige documentcontrole zorgde voor lange doorlooptijden en fouten. −60% doorlooptijd · +35% kwaliteit →",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/cases/ai-readiness-scale-up",
+      "href": "/nl/cases/ai-readiness-scale-up",
       "anker": "⌕ Strategy & AI AI-readiness assessment voor groeigerichte scale-up Uitdaging: Onzekerheid over waar te beginnen en wat nodig is om AI echt te laten landen. Readiness-score + 90-dagen actieplan →",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/cases/interne-ai-assistent-kenniswerkers",
+      "href": "/nl/cases/interne-ai-assistent-kenniswerkers",
       "anker": "◫ Proces & productivity Interne AI-assistent voor kenniswerkers Uitdaging: Veel tijd kwijt aan zoeken, samenvatten en herformuleren van informatie. 3 uur per persoon per week teruggewonnen →",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/contact",
+      "href": "/nl/contact",
       "anker": "Plan een gesprek →",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/diensten/ai-readiness-assessment",
+      "href": "/nl/diensten/ai-readiness-assessment",
       "anker": "AI Readiness Assessment",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/diensten/ai-strategy-sprint",
+      "href": "/nl/diensten/ai-strategy-sprint",
       "anker": "AI Strategy Sprint",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/diensten/fractional-ai-lead",
+      "href": "/nl/diensten/fractional-ai-lead",
       "anker": "Fractional AI Lead",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/diensten",
+      "href": "/nl/diensten",
       "anker": "Alle diensten",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/cases",
+      "href": "/nl/cases",
       "anker": "Cases",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/werkwijze",
+      "href": "/nl/werkwijze",
       "anker": "Werkwijze",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/inzichten",
+      "href": "/nl/inzichten",
       "anker": "Inzichten",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/veelgestelde-vragen",
+      "href": "/nl/veelgestelde-vragen",
       "anker": "Veelgestelde vragen",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/over",
+      "href": "/nl/over",
       "anker": "Over mij",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-consultancy",
+      "href": "/nl/ai-consultancy",
       "anker": "AI consultancy",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-implementatie",
+      "href": "/nl/ai-implementatie",
       "anker": "AI implementatie",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-automatisering",
+      "href": "/nl/ai-automatisering",
       "anker": "AI automatisering",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-voor-bedrijven",
+      "href": "/nl/ai-voor-bedrijven",
       "anker": "AI voor bedrijven",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-development",
+      "href": "/nl/ai-development",
       "anker": "AI development",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-agents",
+      "href": "/nl/ai-agents",
       "anker": "AI agents",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-beleid",
+      "href": "/nl/ai-beleid",
       "anker": "AI beleid",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-workshop",
+      "href": "/nl/ai-workshop",
       "anker": "AI workshop",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/markten",
+      "href": "/nl/markten",
       "anker": "AI per branche",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/kennisbank",
+      "href": "/nl/kennisbank",
       "anker": "Kennisbank",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/tarieven",
+      "href": "/nl/tarieven",
       "anker": "Tarieven",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/partnernetwerk",
+      "href": "/nl/partnernetwerk",
       "anker": "Partnernetwerk",
       "rel": null
     },
@@ -473,27 +493,27 @@
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/contact",
+      "href": "/nl/contact",
       "anker": "Plan een gesprek",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/privacy",
+      "href": "/nl/privacy",
       "anker": "Privacyverklaring",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/algemene-voorwaarden",
+      "href": "/nl/algemene-voorwaarden",
       "anker": "Algemene voorwaarden",
       "rel": null
     }
   ],
   "structured_data": {
-    "sha256": "22082b800655f5b082e52d00eceb4ed73b82f919d122f8d226b3291e0ff29df6",
+    "sha256": "cbec999e2412c00960b15c058915dea61fea241867b873d86af09e6bb2e4d0fc",
     "items": [
       {
         "@context": "https://schema.org",
@@ -503,12 +523,12 @@
         "image": "https://freelanceaiconsultant.com/images/dave-portrait.jpg",
         "email": "dave@freelanceaiconsultant.com",
         "description": "Zes AI-trajecten van strategie tot vendorselectie en fractional leiderschap. Echte uitdagingen, gemaakte keuzes en wat het opleverde.",
+        "inLanguage": "nl-NL",
         "areaServed": [
           "NL",
           "BE",
           "DE"
         ],
-        "priceRange": "€€€",
         "founder": {
           "@type": "Person",
           "name": "Dave Willemstein",
@@ -562,11 +582,11 @@
     ],
     "stylesheets": [
       "https://fonts.googleapis.com/css2?family=Caveat:wght@600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap",
-      "/_astro/_slug_.bq6BBoZ5.css",
+      "/_astro/_slug_.BzqUXH8l.css",
       "/logo-carousel/logo-carousel.css?v=2"
     ],
     "aantal_details": 0,
     "aantal_tabellen": 0
   },
-  "gemeten_op": "2026-10-06"
+  "gemeten_op": "2026-10-28"
 }

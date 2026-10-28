@@ -179,7 +179,7 @@ Concretely, at each step I deliver something you can make a decision with: a pro
 
 If you need help finding a delivery partner, I can suggest parties from my [partner network](/partner-network); you choose and contract them yourself. Who I am and how I work is on the [about](/about) page.
 
-Not sure yet which process should go first? The [AI Readiness Assessment](/services/ai-readiness-assessment) is the logical starting point. In {{timing:ai-readiness-assessment}} you get a validated list of opportunities and a 90-day plan, for a fixed price of {{price:ai-readiness-assessment}} (exclusive of VAT and travel costs).
+Not sure yet which process should go first? The [AI Readiness Assessment](/services/ai-readiness-assessment) is the logical starting point. In {{timing:ai-readiness-assessment}} you get a validated list of opportunities and a 90-day plan, for a fixed price agreed upfront (the proposal excludes VAT).
 
 ## Tools and workflows
 

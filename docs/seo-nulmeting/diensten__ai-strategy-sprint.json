@@ -2,15 +2,28 @@
   "url": "/diensten/ai-strategy-sprint",
   "build_bestand": "dist/diensten/ai-strategy-sprint/index.html",
   "html": {
-    "bytes": 35015,
+    "bytes": 41074,
     "lang": "nl"
   },
   "beschermd": {
     "title": "AI Strategy Sprint | Freelance AI Consultant",
     "meta_description": "Van AI-ambitie naar board-ready strategie en roadmap in 4 tot 6 weken. Vier concrete beslismomenten, geen deck van 200 slides.",
-    "canonical": "https://freelanceaiconsultant.com/diensten/ai-strategy-sprint",
+    "canonical": "https://freelanceaiconsultant.com/nl/diensten/ai-strategy-sprint",
     "robots_meta": null,
-    "hreflang": [],
+    "hreflang": [
+      {
+        "hreflang": "en",
+        "href": "https://freelanceaiconsultant.com/services/ai-strategy-sprint"
+      },
+      {
+        "hreflang": "nl",
+        "href": "https://freelanceaiconsultant.com/nl/diensten/ai-strategy-sprint"
+      },
+      {
+        "hreflang": "x-default",
+        "href": "https://freelanceaiconsultant.com/services/ai-strategy-sprint"
+      }
+    ],
     "h1": [
       "AI Strategy Sprint"
     ]
@@ -21,7 +34,7 @@
     "og:site_name": "freelanceaiconsultant.com",
     "og:title": "AI Strategy Sprint | Freelance AI Consultant",
     "og:description": "Van AI-ambitie naar board-ready strategie en roadmap in 4 tot 6 weken. Vier concrete beslismomenten, geen deck van 200 slides.",
-    "og:url": "https://freelanceaiconsultant.com/diensten/ai-strategy-sprint",
+    "og:url": "https://freelanceaiconsultant.com/nl/diensten/ai-strategy-sprint",
     "og:image": "https://freelanceaiconsultant.com/images/dave-portrait.jpg",
     "twitter:card": "summary_large_image",
     "twitter:title": "AI Strategy Sprint | Freelance AI Consultant",
@@ -32,6 +45,30 @@
     {
       "niveau": 1,
       "tekst": "AI Strategy Sprint",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "Wat levert de AI Strategy Sprint op en wat kost die?",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 3,
+      "tekst": "Valt de investering in de AI Strategy Sprint lager uit als er al een AI Readiness Assessment ligt?",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 3,
+      "tekst": "Wanneer is de AI Strategy Sprint minder geschikt?",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 3,
+      "tekst": "Hoeveel werksessies telt de AI Strategy Sprint?",
       "regio": "main",
       "id": null
     },
@@ -146,8 +183,8 @@
   ],
   "bodytekst": {
     "regio": "main",
-    "woorden": 941,
-    "sha256": "568c2d886b6d397e45fa1930b2830a8d023537f2794612b6f1b037bcc0e77b9f",
+    "woorden": 1163,
+    "sha256": "749ab30acef858dc5c25fffe009f51d8945f296fc2bd76ed19301147fbbf60b7",
     "blokken": [
       "Van ambitie naar besluit",
       "AI Strategy Sprint",
@@ -215,8 +252,18 @@
       "Interne AI-assistent voor kenniswerkers",
       "Duur4-6 weken",
       "ResultaatBoard-ready roadmap",
-      "Investering€15.400 - €22.400",
-      "Onderkant als er al een Readiness Assessment ligt, bovenkant bij meerdere bedrijfsonderdelen. Bedragen zijn exclusief btw en reiskosten.",
+      "PrijsOp maat, vooraf vastgelegd",
+      "Onderkant als er al een Readiness Assessment ligt, bovenkant bij meerdere bedrijfsonderdelen. Alle voorstellen zijn exclusief btw.",
+      "Vraag een voorstel aan → Prijs op maat, afhankelijk van scope",
+      "Wat levert de AI Strategy Sprint op en wat kost die?",
+      "De AI Strategy Sprint van Dave Willemstein brengt organisaties die AI serieus willen inzetten maar niet weten waar te beginnen in 4-6 weken van ambitie naar een board-ready AI-strategie en een use-case roadmap. De sprint werkt in vijf werksessies toe naar vier beslismomenten: diagnose, prioriteren, beslissen en ship & govern. De sprint kost een vaste prijs of vast maandbedrag, vastgelegd in het voorstel, exclusief btw en reiskosten.",
+      "Valt de investering in de AI Strategy Sprint lager uit als er al een AI Readiness Assessment ligt?",
+      "Ja: ligt er al een AI Readiness Assessment, dan valt de investering in de AI Strategy Sprint lager uit. Bij meerdere bedrijfsonderdelen valt die hoger uit. Het exacte bedrag staat in het voorstel.",
+      "Wanneer is de AI Strategy Sprint minder geschikt?",
+      "Minder geschikt als er nog geen mandaat is om keuzes te maken, want dan komt eerst een Executive Briefing. De AI Strategy Sprint is ook minder geschikt voor wie vooral capaciteit zoekt om te bouwen.",
+      "Hoeveel werksessies telt de AI Strategy Sprint?",
+      "Vijf werksessies. De AI Strategy Sprint verdeelt vier vaste beslismomenten over die sessies, met vier tot zes mensen in de kerngroep.",
+      "Bron: tarieven en doorlooptijden van Dave Willemstein. Bijgewerkt: oktober 2026.",
       "De aanleiding",
       "Waarom sprints werken en trajecten stranden",
       "Strategietrajecten van zes maanden leveren een document op dat bij oplevering al achterhaald is.",
@@ -297,11 +344,11 @@
       "⌕",
       "AI Readiness Assessment",
       "Waar sta je nu met AI? We brengen kansen, risico’s en randvoorwaarden scherp in kaart voordat budget wordt vastgezet.",
-      "2-3 weken · €7.000",
+      "2-3 weken · Vraag een voorstel aan",
       "→ ◎",
       "Fractional AI Lead",
       "Ervaren AI-leiderschap op interim-basis. Ik stuur, bouw mee en borg AI-initiatieven, zonder dat je direct een fulltime executive aanneemt.",
-      "2, 4 of 8 dagen / maand · €2.600 / €5.200 / €10.400 per maand",
+      "2, 4 of 8 dagen / maand · Vraag een voorstel aan",
       "→",
       "Klaar voor impact?",
       "Plan een gesprek.",
@@ -320,252 +367,287 @@
     {
       "regio": "header",
       "soort": "intern",
-      "href": "/",
+      "href": "/nl",
       "anker": "",
       "rel": null
     },
     {
       "regio": "header",
       "soort": "intern",
-      "href": "/diensten",
+      "href": "/nl/diensten",
       "anker": "Diensten",
       "rel": null
     },
     {
       "regio": "header",
       "soort": "intern",
-      "href": "/cases",
+      "href": "/nl/cases",
       "anker": "Cases",
       "rel": null
     },
     {
       "regio": "header",
       "soort": "intern",
-      "href": "/werkwijze",
+      "href": "/nl/werkwijze",
       "anker": "Werkwijze",
       "rel": null
     },
     {
       "regio": "header",
       "soort": "intern",
-      "href": "/inzichten",
+      "href": "/nl/inzichten",
       "anker": "Inzichten",
       "rel": null
     },
     {
       "regio": "header",
       "soort": "intern",
-      "href": "/over",
+      "href": "/nl/over",
       "anker": "Over mij",
       "rel": null
     },
     {
       "regio": "header",
       "soort": "intern",
-      "href": "/contact",
+      "href": "/services/ai-strategy-sprint",
+      "anker": "EN",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/nl/contact",
       "anker": "Plan een gesprek →",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/contact",
+      "href": "/nl/contact",
       "anker": "Plan een gesprek →",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/diensten",
+      "href": "/nl/diensten",
       "anker": "Alle diensten →",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/werkwijze",
+      "href": "/nl/contact?dienst=ai-strategy-sprint",
+      "anker": "Vraag een voorstel aan →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/nl/diensten/ai-readiness-assessment",
+      "anker": "AI Readiness Assessment",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/nl/diensten/executive-briefing",
+      "anker": "Executive Briefing",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/nl/tarieven",
+      "anker": "tarieven en doorlooptijden van Dave Willemstein",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/nl/werkwijze",
       "anker": "Meer over mijn werkwijze →",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/cases/ai-strategie-investeringsmaatschappij",
+      "href": "/nl/cases/ai-strategie-investeringsmaatschappij",
       "anker": "Lees de volledige case →",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/veelgestelde-vragen",
+      "href": "/nl/veelgestelde-vragen",
       "anker": "Bekijk alle veelgestelde vragen →",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/diensten/ai-readiness-assessment",
-      "anker": "⌕ AI Readiness Assessment Waar sta je nu met AI? We brengen kansen, risico’s en randvoorwaarden scherp in kaart voordat budget wordt vastgezet. 2-3 weken · €7.000 →",
+      "href": "/nl/diensten/ai-readiness-assessment",
+      "anker": "⌕ AI Readiness Assessment Waar sta je nu met AI? We brengen kansen, risico’s en randvoorwaarden scherp in kaart voordat budget wordt vastgezet. 2-3 weken · Vraag een voorstel aan →",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/diensten/fractional-ai-lead",
-      "anker": "◎ Fractional AI Lead Ervaren AI-leiderschap op interim-basis. Ik stuur, bouw mee en borg AI-initiatieven, zonder dat je direct een fulltime executive aanneemt. 2, 4 of 8 dagen / maand · €2.600 / €5.200 / €10.400 per maand →",
+      "href": "/nl/diensten/fractional-ai-lead",
+      "anker": "◎ Fractional AI Lead Ervaren AI-leiderschap op interim-basis. Ik stuur, bouw mee en borg AI-initiatieven, zonder dat je direct een fulltime executive aanneemt. 2, 4 of 8 dagen / maand · Vraag een voorstel aan →",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/contact",
+      "href": "/nl/contact",
       "anker": "Plan een gesprek →",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/diensten/ai-readiness-assessment",
+      "href": "/nl/diensten/ai-readiness-assessment",
       "anker": "AI Readiness Assessment",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/diensten/ai-strategy-sprint",
+      "href": "/nl/diensten/ai-strategy-sprint",
       "anker": "AI Strategy Sprint",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/diensten/fractional-ai-lead",
+      "href": "/nl/diensten/fractional-ai-lead",
       "anker": "Fractional AI Lead",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/diensten",
+      "href": "/nl/diensten",
       "anker": "Alle diensten",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/cases",
+      "href": "/nl/cases",
       "anker": "Cases",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/werkwijze",
+      "href": "/nl/werkwijze",
       "anker": "Werkwijze",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/inzichten",
+      "href": "/nl/inzichten",
       "anker": "Inzichten",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/veelgestelde-vragen",
+      "href": "/nl/veelgestelde-vragen",
       "anker": "Veelgestelde vragen",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/over",
+      "href": "/nl/over",
       "anker": "Over mij",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-consultancy",
+      "href": "/nl/ai-consultancy",
       "anker": "AI consultancy",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-implementatie",
+      "href": "/nl/ai-implementatie",
       "anker": "AI implementatie",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-automatisering",
+      "href": "/nl/ai-automatisering",
       "anker": "AI automatisering",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-voor-bedrijven",
+      "href": "/nl/ai-voor-bedrijven",
       "anker": "AI voor bedrijven",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-development",
+      "href": "/nl/ai-development",
       "anker": "AI development",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-agents",
+      "href": "/nl/ai-agents",
       "anker": "AI agents",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-beleid",
+      "href": "/nl/ai-beleid",
       "anker": "AI beleid",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-workshop",
+      "href": "/nl/ai-workshop",
       "anker": "AI workshop",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/markten",
+      "href": "/nl/markten",
       "anker": "AI per branche",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/kennisbank",
+      "href": "/nl/kennisbank",
       "anker": "Kennisbank",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/tarieven",
+      "href": "/nl/tarieven",
       "anker": "Tarieven",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/partnernetwerk",
+      "href": "/nl/partnernetwerk",
       "anker": "Partnernetwerk",
       "rel": null
     },
@@ -586,50 +668,85 @@
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/contact",
+      "href": "/nl/contact",
       "anker": "Plan een gesprek",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/privacy",
+      "href": "/nl/privacy",
       "anker": "Privacyverklaring",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/algemene-voorwaarden",
+      "href": "/nl/algemene-voorwaarden",
       "anker": "Algemene voorwaarden",
       "rel": null
     }
   ],
   "structured_data": {
-    "sha256": "2c7facac54bed4b3bf7a757f55f93432ecb3641f39071c5ce8947912eddb07df",
+    "sha256": "d58069d0a7b2ab889bf0b43222fe9c4fe0198215b88afb1e5fb1d09385b8fa22",
     "items": [
-      {
-        "@context": "https://schema.org",
-        "@type": "Service",
-        "name": "AI Strategy Sprint",
-        "description": "Een snelle, scherpe sprint om van AI-idee naar een concrete, board-ready strategie en roadmap te gaan. Praktisch, gefocust en direct toepasbaar, zonder het deck van tweehonderd slides.",
-        "provider": {
-          "@type": "Person",
-          "name": "Dave Willemstein",
-          "url": "https://freelanceaiconsultant.com"
+      [
+        {
+          "@context": "https://schema.org",
+          "@type": "Service",
+          "name": "AI Strategy Sprint",
+          "description": "Een snelle, scherpe sprint om van AI-idee naar een concrete, board-ready strategie en roadmap te gaan. Praktisch, gefocust en direct toepasbaar, zonder het deck van tweehonderd slides.",
+          "provider": {
+            "@type": "Person",
+            "name": "Dave Willemstein",
+            "url": "https://freelanceaiconsultant.com"
+          },
+          "areaServed": [
+            "NL",
+            "BE",
+            "DE"
+          ],
+          "serviceType": "AI-advies"
         },
-        "areaServed": [
-          "NL",
-          "BE",
-          "DE"
-        ],
-        "serviceType": "AI-advies",
-        "offers": {
-          "@type": "Offer",
-          "priceCurrency": "EUR",
-          "description": "€15.400 - €22.400. Onderkant als er al een Readiness Assessment ligt, bovenkant bij meerdere bedrijfsonderdelen."
+        {
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "Wat levert de AI Strategy Sprint op en wat kost die?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "De AI Strategy Sprint van Dave Willemstein brengt organisaties die AI serieus willen inzetten maar niet weten waar te beginnen in 4-6 weken van ambitie naar een board-ready AI-strategie en een use-case roadmap. De sprint werkt in vijf werksessies toe naar vier beslismomenten: diagnose, prioriteren, beslissen en ship & govern. De sprint kost een vaste prijs of vast maandbedrag, vastgelegd in het voorstel, exclusief btw en reiskosten."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Valt de investering in de AI Strategy Sprint lager uit als er al een AI Readiness Assessment ligt?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Ja: ligt er al een AI Readiness Assessment, dan valt de investering in de AI Strategy Sprint lager uit. Bij meerdere bedrijfsonderdelen valt die hoger uit. Het exacte bedrag staat in het voorstel."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Wanneer is de AI Strategy Sprint minder geschikt?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Minder geschikt als er nog geen mandaat is om keuzes te maken, want dan komt eerst een Executive Briefing. De AI Strategy Sprint is ook minder geschikt voor wie vooral capaciteit zoekt om te bouwen."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Hoeveel werksessies telt de AI Strategy Sprint?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Vijf werksessies. De AI Strategy Sprint verdeelt vier vaste beslismomenten over die sessies, met vier tot zes mensen in de kerngroep."
+              }
+            }
+          ]
         }
-      }
+      ]
     ]
   },
   "afbeeldingen": [
@@ -668,12 +785,12 @@
     ],
     "stylesheets": [
       "https://fonts.googleapis.com/css2?family=Caveat:wght@600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap",
-      "/_astro/_slug_.bq6BBoZ5.css",
-      "/_astro/_slug_.BJ2d3JA4.css",
+      "/_astro/_slug_.BzqUXH8l.css",
+      "/_astro/_slug_.4j2fFZLq.css",
       "/logo-carousel/logo-carousel.css?v=2"
     ],
     "aantal_details": 5,
     "aantal_tabellen": 0
   },
-  "gemeten_op": "2026-10-06"
+  "gemeten_op": "2026-10-28"
 }

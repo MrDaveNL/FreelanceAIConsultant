@@ -7,7 +7,7 @@ export default {
   "vraagkop": "What does AI consulting cost?",
   "onderBestaandeKop": true,
   "alleenAntwoord": true,
-  "antwoord": "AI consulting from {{afzender}} costs a fixed price, a range or a monthly fee, per package. The {{dienst:executive-briefing}} is the smallest package at {{pricelc:executive-briefing}}, an {{dienst:ai-readiness-assessment}} costs {{pricelc:ai-readiness-assessment}} and an {{dienst:ai-strategy-sprint}} costs {{pricelc:ai-strategy-sprint}}. The amounts are {{voorwaarden}}.",
+  "antwoord": "AI consulting from {{afzender}} costs, per package, a fixed price or a fixed monthly fee agreed upfront, never an open hourly rate. From small to large: the {{dienst:executive-briefing}}, then {{dienst:ai-readiness-assessment}} and {{dienst:ai-strategy-sprint}}. The exact amount is set out in the proposal before anything starts.",
   "vervolgvragen": [],
   "bron": {
     "tekst": "{{afzender}}'s rates and typical timelines",

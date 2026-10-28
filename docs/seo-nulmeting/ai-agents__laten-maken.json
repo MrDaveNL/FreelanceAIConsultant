@@ -2,15 +2,28 @@
   "url": "/ai-agents/laten-maken",
   "build_bestand": "dist/ai-agents/laten-maken/index.html",
   "html": {
-    "bytes": 35262,
+    "bytes": 39995,
     "lang": "nl"
   },
   "beschermd": {
     "title": "AI agent laten maken | Aanpak, kosten en doorlooptijd",
     "meta_description": "Een AI agent laten maken? Lees hoe het ontwikkeltraject verloopt, wat een AI agent kost, hoe lang het duurt en waar je op let bij beveiliging en beheer.",
-    "canonical": "https://freelanceaiconsultant.com/ai-agents/laten-maken",
+    "canonical": "https://freelanceaiconsultant.com/nl/ai-agents/laten-maken",
     "robots_meta": null,
-    "hreflang": [],
+    "hreflang": [
+      {
+        "hreflang": "en",
+        "href": "https://freelanceaiconsultant.com/ai-agents/build"
+      },
+      {
+        "hreflang": "nl",
+        "href": "https://freelanceaiconsultant.com/nl/ai-agents/laten-maken"
+      },
+      {
+        "hreflang": "x-default",
+        "href": "https://freelanceaiconsultant.com/ai-agents/build"
+      }
+    ],
     "h1": [
       "AI agent laten maken: aanpak, kosten en doorlooptijd"
     ]
@@ -21,7 +34,7 @@
     "og:site_name": "freelanceaiconsultant.com",
     "og:title": "AI agent laten maken | Aanpak, kosten en doorlooptijd",
     "og:description": "Een AI agent laten maken? Lees hoe het ontwikkeltraject verloopt, wat een AI agent kost, hoe lang het duurt en waar je op let bij beveiliging en beheer.",
-    "og:url": "https://freelanceaiconsultant.com/ai-agents/laten-maken",
+    "og:url": "https://freelanceaiconsultant.com/nl/ai-agents/laten-maken",
     "og:image": "https://freelanceaiconsultant.com/images/dave-portrait.jpg",
     "twitter:card": "summary_large_image",
     "twitter:title": "AI agent laten maken | Aanpak, kosten en doorlooptijd",
@@ -54,6 +67,24 @@
       "id": "wat-kost-een-ai-agent"
     },
     {
+      "niveau": 3,
+      "tekst": "Wie stelt de specificatie van een AI agent op?",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 3,
+      "tekst": "Hangt de prijs van de Vendor Review af van het aantal leveranciers?",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 3,
+      "tekst": "Waar let een organisatie op bij de beveiliging van een AI agent?",
+      "regio": "main",
+      "id": null
+    },
+    {
       "niveau": 2,
       "tekst": "Beveiliging, privacy en beheer",
       "regio": "main",
@@ -74,8 +105,8 @@
   ],
   "bodytekst": {
     "regio": "main",
-    "woorden": 1682,
-    "sha256": "52e71c5d41bbda03d44a61e4f937bc1aab08253d3e59736b119d7e379715d24e",
+    "woorden": 1957,
+    "sha256": "9dac79f9e763d484353c278b6f181bd9356dc3f20fc02489e66ed6682d624cc4",
     "blokken": [
       "Home",
       "AI Agents",
@@ -177,6 +208,7 @@
       "Na een testperiode van acht weken kost een dossier gemiddeld 20 minuten in plaats van 50. Bij 120 claims is dat ongeveer 60 uur per maand. Het besluit over uitkeren blijft bij de behandelaar.",
       "Fictief voorbeeld, samengesteld uit situaties die veel voorkomen. Organisatie en cijfers zijn illustratief.",
       "Wat kost een AI agent?",
+      "De prijs van een AI agent wordt bepaald door de route, de koppelingen, de schrijfrechten en controle, het gebruik en het beheer, en verschilt sterk per route, zodat een vast bedrag misleidend zou zijn. Dave Willemstein bouwt zelf geen agents en verkoopt geen implementaties, maar helpt de taak afbakenen, de specificatie opstellen, bouwpartijen vergelijken en de uitvoering bewaken. Offertes van meerdere bouwpartijen onafhankelijk laten beoordelen kan met de Vendor Review van 3-6 weken voor een vaste prijs of vast maandbedrag, vastgelegd in het voorstel, en doorlopende bewaking van het traject kan met de Fractional AI Lead.",
       "Wat een AI agent kost, verschilt sterk per route. Een vast bedrag noemen zou misleidend zijn. De factoren die de prijs bepalen, zijn wel goed te benoemen:",
       "Route: een agent binnen een bestaand platform kost vooral licenties en configuratie; maatwerk kost bouwuren en daarna beheer.",
       "Koppelingen: elk systeem waarmee de agent praat, vraagt bouw, testwerk en onderhoud.",
@@ -184,7 +216,14 @@
       "Gebruik: taalmodellen worden vaak per verwerkte hoeveelheid tekst afgerekend, dus volume en documentlengte bepalen de lopende kosten.",
       "Beheer: monitoring, periodieke tests, aanpassingen bij proceswijzigingen en de tijd van een interne eigenaar.",
       "De grootste risicofactoren zijn een te brede eerste scope, bronnen die niet op orde zijn en afhankelijkheid van één leverancier zonder exitafspraken. Vraag elke partij om een kostenraming over meerdere jaren, inclusief beheer en overstap.",
-      "Mijn eigen tarieven staan op de pagina met tarieven. Wil je offertes van meerdere bouwpartijen onafhankelijk laten beoordelen, dan past een Vendor Review van 3-6 weken; die kost €9.800 - €15.400. Heb je doorlopend iemand nodig die het traject namens jou bewaakt, dan kan dat als Fractional AI Lead.",
+      "Mijn eigen tarieven staan op de pagina met tarieven. Wil je offertes van meerdere bouwpartijen onafhankelijk laten beoordelen, dan past een Vendor Review van 3-6 weken; die heeft een vaste prijs, afhankelijk van het aantal leveranciers. Heb je doorlopend iemand nodig die het traject namens jou bewaakt, dan kan dat als Fractional AI Lead.",
+      "Wie stelt de specificatie van een AI agent op?",
+      "In een goed traject stelt de opdrachtgever de specificatie van een AI agent zelf op, niet de bouwpartij; dat kan ook met een onafhankelijke adviseur, en pas daarna komt een bouwpartij in beeld. Een specificatie die wordt overgelaten aan de partij die ook bouwt, past bij wat die partij het liefst maakt.",
+      "Hangt de prijs van de Vendor Review af van het aantal leveranciers?",
+      "Ja. De Vendor Review kost een vaste prijs of vast maandbedrag, vastgelegd in het voorstel, afhankelijk van het aantal leveranciers (2 tot 4). De bedragen zijn exclusief btw en reiskosten.",
+      "Waar let een organisatie op bij de beveiliging van een AI agent?",
+      "Een AI agent die systemen aanroept, is een nieuwe gebruiker in het IT-landschap. Het is zaak de AI agent niet meer rechten te geven dan nodig, hem te laten inloggen met een eigen account zodat zijn handelingen herleidbaar zijn, en een bevestigingsstap te houden op elk onomkeerbaar moment.",
+      "Bron: tarieven en doorlooptijden van Dave Willemstein. Bijgewerkt: oktober 2026.",
       "Beveiliging, privacy en beheer",
       "Een agent die systemen aanroept, is een nieuwe gebruiker in je IT-landschap, met de risico’s van dien. Geef hem niet meer rechten dan nodig, laat hem inloggen met een eigen account zodat zijn handelingen herleidbaar zijn, en houd een bevestigingsstap op elk onomkeerbaar moment.",
       "Verwerkt de agent persoonsgegevens, dan gelden de gewone AVG-regels: een doel en grondslag, niet meer gegevens dan nodig, een verwerkersovereenkomst met de leverancier en in veel gevallen een DPIA. Neemt de agent besluiten over mensen, dan komen daar strengere eisen bij. Dat werk ik uit in het artikel over AI agents en de AVG.",
@@ -222,336 +261,364 @@
     {
       "regio": "header",
       "soort": "intern",
-      "href": "/",
+      "href": "/nl",
       "anker": "",
       "rel": null
     },
     {
       "regio": "header",
       "soort": "intern",
-      "href": "/diensten",
+      "href": "/nl/diensten",
       "anker": "Diensten",
       "rel": null
     },
     {
       "regio": "header",
       "soort": "intern",
-      "href": "/cases",
+      "href": "/nl/cases",
       "anker": "Cases",
       "rel": null
     },
     {
       "regio": "header",
       "soort": "intern",
-      "href": "/werkwijze",
+      "href": "/nl/werkwijze",
       "anker": "Werkwijze",
       "rel": null
     },
     {
       "regio": "header",
       "soort": "intern",
-      "href": "/inzichten",
+      "href": "/nl/inzichten",
       "anker": "Inzichten",
       "rel": null
     },
     {
       "regio": "header",
       "soort": "intern",
-      "href": "/over",
+      "href": "/nl/over",
       "anker": "Over mij",
       "rel": null
     },
     {
       "regio": "header",
       "soort": "intern",
-      "href": "/contact",
+      "href": "/ai-agents/build",
+      "anker": "EN",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/nl/contact",
       "anker": "Plan een gesprek →",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/",
+      "href": "/nl",
       "anker": "Home",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/ai-agents",
+      "href": "/nl/ai-agents",
       "anker": "AI Agents",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/contact",
+      "href": "/nl/contact",
       "anker": "Plan een adviesgesprek →",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/diensten/ai-readiness-assessment",
+      "href": "/nl/diensten/ai-readiness-assessment",
       "anker": "Bekijk het AI Readiness Assessment →",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/ai-agents/wat-is-een-ai-agent",
+      "href": "/nl/ai-agents/wat-is-een-ai-agent",
       "anker": "wat een AI agent is",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/ai-agents/voorbeelden",
+      "href": "/nl/ai-agents/voorbeelden",
       "anker": "voorbeelden van AI agents",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/inzichten/build-buy-of-partner",
+      "href": "/nl/inzichten/build-buy-of-partner",
       "anker": "build, buy of partner",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/ai-development",
+      "href": "/nl/ai-development",
       "anker": "AI development",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/inzichten/ai-vendorselectie-in-acht-stappen",
+      "href": "/nl/inzichten/ai-vendorselectie-in-acht-stappen",
       "anker": "AI-vendorselectie in acht stappen",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/tarieven",
-      "anker": "tarieven",
-      "rel": null
-    },
-    {
-      "regio": "main",
-      "soort": "intern",
-      "href": "/diensten/vendor-review",
+      "href": "/nl/diensten/vendor-review",
       "anker": "Vendor Review",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/diensten/fractional-ai-lead",
+      "href": "/nl/diensten/fractional-ai-lead",
       "anker": "Fractional AI Lead",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/kennisbank/ai-agents-en-avg",
+      "href": "/nl/tarieven",
+      "anker": "tarieven",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/nl/diensten/vendor-review",
+      "anker": "Vendor Review",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/nl/diensten/fractional-ai-lead",
+      "anker": "Fractional AI Lead",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/nl/tarieven",
+      "anker": "tarieven en doorlooptijden van Dave Willemstein",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/nl/kennisbank/ai-agents-en-avg",
       "anker": "AI agents en de AVG",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/partnernetwerk",
+      "href": "/nl/partnernetwerk",
       "anker": "partnernetwerk",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/ai-agents",
+      "href": "/nl/ai-agents",
       "anker": "AI agents voor bedrijven",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/contact",
+      "href": "/nl/contact",
       "anker": "Plan een adviesgesprek",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/over",
+      "href": "/nl/over",
       "anker": "Over mij",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/partnernetwerk",
+      "href": "/nl/partnernetwerk",
       "anker": "Mijn partnernetwerk",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/diensten/ai-readiness-assessment",
+      "href": "/nl/diensten/ai-readiness-assessment",
       "anker": "Weten waar je staat met AI? Bekijk het AI Readiness Assessment →",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/contact",
+      "href": "/nl/contact",
       "anker": "Plan een gesprek →",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/diensten/ai-readiness-assessment",
+      "href": "/nl/diensten/ai-readiness-assessment",
       "anker": "AI Readiness Assessment",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/diensten/ai-strategy-sprint",
+      "href": "/nl/diensten/ai-strategy-sprint",
       "anker": "AI Strategy Sprint",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/diensten/fractional-ai-lead",
+      "href": "/nl/diensten/fractional-ai-lead",
       "anker": "Fractional AI Lead",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/diensten",
+      "href": "/nl/diensten",
       "anker": "Alle diensten",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/cases",
+      "href": "/nl/cases",
       "anker": "Cases",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/werkwijze",
+      "href": "/nl/werkwijze",
       "anker": "Werkwijze",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/inzichten",
+      "href": "/nl/inzichten",
       "anker": "Inzichten",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/veelgestelde-vragen",
+      "href": "/nl/veelgestelde-vragen",
       "anker": "Veelgestelde vragen",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/over",
+      "href": "/nl/over",
       "anker": "Over mij",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-consultancy",
+      "href": "/nl/ai-consultancy",
       "anker": "AI consultancy",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-implementatie",
+      "href": "/nl/ai-implementatie",
       "anker": "AI implementatie",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-automatisering",
+      "href": "/nl/ai-automatisering",
       "anker": "AI automatisering",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-voor-bedrijven",
+      "href": "/nl/ai-voor-bedrijven",
       "anker": "AI voor bedrijven",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-development",
+      "href": "/nl/ai-development",
       "anker": "AI development",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-agents",
+      "href": "/nl/ai-agents",
       "anker": "AI agents",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-beleid",
+      "href": "/nl/ai-beleid",
       "anker": "AI beleid",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-workshop",
+      "href": "/nl/ai-workshop",
       "anker": "AI workshop",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/markten",
+      "href": "/nl/markten",
       "anker": "AI per branche",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/kennisbank",
+      "href": "/nl/kennisbank",
       "anker": "Kennisbank",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/tarieven",
+      "href": "/nl/tarieven",
       "anker": "Tarieven",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/partnernetwerk",
+      "href": "/nl/partnernetwerk",
       "anker": "Partnernetwerk",
       "rel": null
     },
@@ -572,27 +639,27 @@
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/contact",
+      "href": "/nl/contact",
       "anker": "Plan een gesprek",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/privacy",
+      "href": "/nl/privacy",
       "anker": "Privacyverklaring",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/algemene-voorwaarden",
+      "href": "/nl/algemene-voorwaarden",
       "anker": "Algemene voorwaarden",
       "rel": null
     }
   ],
   "structured_data": {
-    "sha256": "9d2c95f9a50889314136a8ddabb3e2abed9edd453486660c62cd0d675a72a1a2",
+    "sha256": "e8cc9f90a2eadebee58971f6c1635f3f40f880f0b86ee7cfcff606b7054949fc",
     "items": [
       {
         "@context": "https://schema.org",
@@ -604,19 +671,19 @@
                 "@type": "ListItem",
                 "position": 1,
                 "name": "Home",
-                "item": "https://freelanceaiconsultant.com/"
+                "item": "https://freelanceaiconsultant.com/nl"
               },
               {
                 "@type": "ListItem",
                 "position": 2,
                 "name": "AI Agents",
-                "item": "https://freelanceaiconsultant.com/ai-agents"
+                "item": "https://freelanceaiconsultant.com/nl/ai-agents"
               },
               {
                 "@type": "ListItem",
                 "position": 3,
                 "name": "AI agent laten maken",
-                "item": "https://freelanceaiconsultant.com/ai-agents/laten-maken"
+                "item": "https://freelanceaiconsultant.com/nl/ai-agents/laten-maken"
               }
             ]
           },
@@ -625,7 +692,7 @@
             "name": "AI agent laten maken",
             "serviceType": "ai agent laten maken",
             "description": "Een AI agent laten maken? Lees hoe het ontwikkeltraject verloopt, wat een AI agent kost, hoe lang het duurt en waar je op let bij beveiliging en beheer.",
-            "url": "https://freelanceaiconsultant.com/ai-agents/laten-maken",
+            "url": "https://freelanceaiconsultant.com/nl/ai-agents/laten-maken",
             "areaServed": "NL",
             "provider": {
               "@type": "Person",
@@ -679,6 +746,38 @@
                   "@type": "Answer",
                   "text": "Dan hoor je dat. Voor voorspelbare stappen is een regelgebaseerde workflow vaak goedkoper en betrouwbaarder, en soms is het proces zelf het probleem. Een agent is een middel; als een eenvoudiger middel hetzelfde oplevert, is dat meestal de betere keuze."
                 }
+              },
+              {
+                "@type": "Question",
+                "name": "Wat kost een AI agent?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "De prijs van een AI agent wordt bepaald door de route, de koppelingen, de schrijfrechten en controle, het gebruik en het beheer, en verschilt sterk per route, zodat een vast bedrag misleidend zou zijn. Dave Willemstein bouwt zelf geen agents en verkoopt geen implementaties, maar helpt de taak afbakenen, de specificatie opstellen, bouwpartijen vergelijken en de uitvoering bewaken. Offertes van meerdere bouwpartijen onafhankelijk laten beoordelen kan met de Vendor Review van 3-6 weken voor een vaste prijs of vast maandbedrag, vastgelegd in het voorstel, en doorlopende bewaking van het traject kan met de Fractional AI Lead."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Wie stelt de specificatie van een AI agent op?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "In een goed traject stelt de opdrachtgever de specificatie van een AI agent zelf op, niet de bouwpartij; dat kan ook met een onafhankelijke adviseur, en pas daarna komt een bouwpartij in beeld. Een specificatie die wordt overgelaten aan de partij die ook bouwt, past bij wat die partij het liefst maakt."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Hangt de prijs van de Vendor Review af van het aantal leveranciers?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Ja. De Vendor Review kost een vaste prijs of vast maandbedrag, vastgelegd in het voorstel, afhankelijk van het aantal leveranciers (2 tot 4). De bedragen zijn exclusief btw en reiskosten."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Waar let een organisatie op bij de beveiliging van een AI agent?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Een AI agent die systemen aanroept, is een nieuwe gebruiker in het IT-landschap. Het is zaak de AI agent niet meer rechten te geven dan nodig, hem te laten inloggen met een eigen account zodat zijn handelingen herleidbaar zijn, en een bevestigingsstap te houden op elk onomkeerbaar moment."
+                }
               }
             ]
           }
@@ -722,12 +821,12 @@
     ],
     "stylesheets": [
       "https://fonts.googleapis.com/css2?family=Caveat:wght@600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap",
-      "/_astro/_slug_.bq6BBoZ5.css",
-      "/_astro/_slug_.goiX3PVF.css",
+      "/_astro/_slug_.BzqUXH8l.css",
+      "/_astro/_slug_.Do5RJXa7.css",
       "/logo-carousel/logo-carousel.css?v=2"
     ],
     "aantal_details": 5,
     "aantal_tabellen": 0
   },
-  "gemeten_op": "2026-10-06"
+  "gemeten_op": "2026-10-28"
 }

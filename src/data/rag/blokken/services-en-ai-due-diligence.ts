@@ -13,7 +13,7 @@ export default {
     },
     {
       "vraag": "What determines the price of an AI Due Diligence?",
-      "antwoord": "{{price:ai-due-diligence}} for {{dienst:ai-due-diligence}} depends on scope: one solution at the lower end, an entire company at the upper end."
+      "antwoord": "The price of {{dienst:ai-due-diligence}} depends on scope: one solution is a smaller engagement, an entire company a larger one. The exact amount is set out in the proposal."
     }
   ],
   "bron": {

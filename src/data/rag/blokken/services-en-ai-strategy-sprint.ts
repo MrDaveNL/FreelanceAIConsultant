@@ -13,7 +13,7 @@ export default {
     },
     {
       "vraag": "What does the AI Strategy Sprint cost?",
-      "antwoord": "{{price:ai-strategy-sprint}} for {{dienst:ai-strategy-sprint}}, {{voorwaarden}}. A Readiness Assessment already in place brings the price toward the lower end of that range."
+      "antwoord": "{{dienst:ai-strategy-sprint}} costs {{pricelc:ai-strategy-sprint}}, {{voorwaarden}}. A Readiness Assessment already in place brings the investment down; multiple business units bring it up."
     }
   ],
   "bron": {

@@ -6,7 +6,7 @@ export default {
   "vraagkop": "Wat kost AI consultancy?",
   "onderBestaandeKop": true,
   "alleenAntwoord": true,
-  "antwoord": "AI consultancy van {{afzender}} kost per pakket een vaste prijs, een bandbreedte of een maandbedrag. De {{dienst:executive-briefing}} is met {{pricelc:executive-briefing}} het kleinste pakket, een {{dienst:ai-readiness-assessment}} kost {{pricelc:ai-readiness-assessment}} en een {{dienst:ai-strategy-sprint}} {{pricelc:ai-strategy-sprint}}. De bedragen zijn {{voorwaarden}}.",
+  "antwoord": "AI consultancy van {{afzender}} kost per pakket vooraf een vaste prijs of vast maandbedrag, nooit een open uurtarief. Van klein naar groot: de {{dienst:executive-briefing}}, dan de {{dienst:ai-readiness-assessment}} en de {{dienst:ai-strategy-sprint}}. Het exacte bedrag staat voor de start op papier in het voorstel.",
   "vervolgvragen": [],
   "bron": {
     "tekst": "tarieven en doorlooptijden van {{afzender}}",

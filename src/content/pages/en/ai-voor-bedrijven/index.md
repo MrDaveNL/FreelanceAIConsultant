@@ -137,7 +137,7 @@ I'm an independent AI advisor. I advise, build strategy and roadmaps, select ven
 
 Concretely, I can help in these ways:
 
-- **Knowing where you stand.** With an [AI Readiness Assessment](/services/ai-readiness-assessment) I map strategy, data, technology, people and governance in {{timing:ai-readiness-assessment}}, with a 90-day plan as the result. Fixed price: {{price:ai-readiness-assessment}}.
+- **Knowing where you stand.** With an [AI Readiness Assessment](/services/ai-readiness-assessment) I map strategy, data, technology, people and governance in {{timing:ai-readiness-assessment}}, with a 90-day plan as the result. Fixed price, set out in the proposal.
 - **A shared picture at the top.** An [Executive Briefing](/services/executive-briefing) of one half-day gives your leadership team or board a realistic starting point.
 - **Strategy and roadmap.** From scattered ideas to choices, priorities and a plan. Everything about this form of advice is covered under [AI consulting](/ai-consulting).
 - **From plan to working application.** I guide the rollout, steer the delivery partner and make sure it lands in the day-to-day work. See [AI implementation](/ai-implementation).

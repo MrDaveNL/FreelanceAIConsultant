@@ -5,11 +5,11 @@ export default {
   "onderwerp": "AI consultancy",
   "vraagkop": "Wat kost AI consultancy?",
   "onderBestaandeKop": true,
-  "antwoord": "AI consultancy van {{afzender}} wordt geleverd in vaste pakketten met zichtbare vanaf-prijzen, niet tegen een open uurtarief. Het {{dienst:ai-readiness-assessment}} duurt {{timing:ai-readiness-assessment}} en kost {{pricelc:ai-readiness-assessment}}, de {{dienst:ai-strategy-sprint}} duurt {{timing:ai-strategy-sprint}} en kost {{pricelc:ai-strategy-sprint}}, en de {{dienst:fractional-ai-lead}} is een doorlopende rol voor {{pricelc:fractional-ai-lead}}. Afgebakend advies en second opinions krijgen een vaste prijs in het voorstel, en de bedragen zijn {{voorwaarden}}.",
+  "antwoord": "AI consultancy van {{afzender}} wordt geleverd in vaste pakketten met vooraf een vaste prijs of vast maandbedrag, niet tegen een open uurtarief. Het {{dienst:ai-readiness-assessment}} duurt {{timing:ai-readiness-assessment}}, de {{dienst:ai-strategy-sprint}} duurt {{timing:ai-strategy-sprint}}, en de {{dienst:fractional-ai-lead}} is een doorlopende rol. Afgebakend advies en second opinions krijgen een vaste prijs in het voorstel, en de bedragen zijn {{voorwaarden}}.",
   "vervolgvragen": [
     {
       "vraag": "Wat kost AI consultancy voor een directie of raad van commissarissen?",
-      "antwoord": "{{price:executive-briefing}} is de prijs van de {{dienst:executive-briefing}}, bedoeld voor directie en raad van commissarissen die hun toezichtrol op AI willen invullen. De {{dienst:executive-briefing}} is een {{timing:executive-briefing}}, en wordt voorbereid op de sector van de organisatie."
+      "antwoord": "De {{dienst:executive-briefing}} kost {{pricelc:executive-briefing}} en is bedoeld voor directie en raad van commissarissen die hun toezichtrol op AI willen invullen. De {{dienst:executive-briefing}} is een {{timing:executive-briefing}}, en wordt voorbereid op de sector van de organisatie."
     },
     {
       "vraag": "Kan het AI Readiness Assessment bij AI consultancy ook voor één afdeling?",

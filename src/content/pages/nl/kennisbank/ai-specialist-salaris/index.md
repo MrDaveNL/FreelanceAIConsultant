@@ -116,7 +116,7 @@ Een paar vuistregels:
 
 - **Neem vast aan** als er structureel werk ligt met een duidelijke scope: een team dat AI-toepassingen bouwt en beheert, of een platform dat dagelijks onderhoud vraagt.
 - **Huur extern in** als de vraag afgebakend is: een strategie, een leverancierskeuze, een second opinion. Waar je op let bij het selecteren van een externe adviseur, staat bij [een AI consultant inhuren](/nl/ai-consultancy/ai-consultant-inhuren).
-- **Kies een parttime rol** als je iemand nodig hebt die de AI-agenda stuurt, maar de scope voor een fulltime functie nog niet vaststaat. Een [Fractional AI Lead](/nl/diensten/fractional-ai-lead) doet dat voor een paar dagen per maand, {{pricelc:fractional-ai-lead}}, en helpt bij het functieprofiel en de werving van een vaste opvolger.
+- **Kies een parttime rol** als je iemand nodig hebt die de AI-agenda stuurt, maar de scope voor een fulltime functie nog niet vaststaat. Een [Fractional AI Lead](/nl/diensten/fractional-ai-lead) doet dat voor een paar dagen per maand, tegen een vast maandbedrag, en helpt bij het functieprofiel en de werving van een vaste opvolger.
 
 Wat ik als freelance adviseur reken, staat per pakket op de pagina met [tarieven](/nl/tarieven). Ik bouw zelf geen software; voor bouwcapaciteit heb je je eigen developers nodig of een ontwikkelpartij. Hoe je die selecteert en aanstuurt, lees je op de pagina over [AI development](/nl/ai-development), en hoe je kiest tussen standaardsoftware en maatwerk bij [AI software](/nl/ai-development/ai-software).
 

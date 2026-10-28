@@ -1,5 +1,6 @@
 ---
 import { site } from '../data/site.js';
+import { services } from '../data/services.js';
 
 const { locale = 'nl' } = Astro.props;
 const endpoint = site.formEndpoint || (site.formAccessKey ? 'https://api.web3forms.com/submit' : '');
@@ -28,6 +29,14 @@ const endpoint = site.formEndpoint || (site.formAccessKey ? 'https://api.web3for
     <label for="challenge">Waar loop je tegenaan? <span aria-hidden="true">*</span></label>
     <textarea id="challenge" name="challenge" rows="5" required placeholder="Beschrijf kort je uitdaging of vraagstuk."></textarea>
     <small class="error" data-error-for="challenge" hidden>Beschrijf kort je vraagstuk.</small>
+  </div>
+  <div class="field">
+    <label for="service">Dienst</label>
+    <select id="service" name="service" data-service-select>
+      <option value="">Kies een dienst (optioneel)</option>
+      {services.map((s) => <option value={s.slug}>{s.title}</option>)}
+      <option value="anders">Anders / weet ik nog niet</option>
+    </select>
   </div>
   <div class="field">
     <label for="timeline">Tijdlijn</label>
@@ -66,6 +75,14 @@ const endpoint = site.formEndpoint || (site.formAccessKey ? 'https://api.web3for
     const accessKey = form.getAttribute('data-access-key');
     const siteName = form.getAttribute('data-site');
     const mailto = form.getAttribute('data-mailto');
+
+    // Voorselectie via ?dienst=<slug> (NL) of ?service=<slug> (EN). Geen match = geen voorselectie, geen fout.
+    const serviceSelect = form.querySelector('[data-service-select]');
+    if (serviceSelect) {
+      const params = new URLSearchParams(window.location.search);
+      const gevraagd = params.get('dienst') || params.get('service');
+      if (gevraagd && [...serviceSelect.options].some((o) => o.value === gevraagd)) serviceSelect.value = gevraagd;
+    }
 
     const showError = (field, show) => {
       const hint = form.querySelector(`[data-error-for="${field.name}"]`);
@@ -110,11 +127,13 @@ const endpoint = site.formEndpoint || (site.formAccessKey ? 'https://api.web3for
         const original = button.textContent;
         button.textContent = 'Versturen…';
         // De sleutels zijn de labels in de e-mail die binnenkomt; name en email bepalen afzender en reply-to.
+        const dienstLabel = serviceSelect?.value ? serviceSelect.selectedOptions[0].text : '-';
         const payload = {
           subject: `${localeTag} Aanvraag via ${siteName}: ${data.name}${data.company ? ` (${data.company})` : ''}`,
           from_name: data.name,
           name: data.name,
           email: data.email,
+          Dienst: dienstLabel,
           Functie: data.role || '-',
           Organisatie: data.company || '-',
           Tijdlijn: data.timeline || '-',
@@ -149,6 +168,7 @@ const endpoint = site.formEndpoint || (site.formAccessKey ? 'https://api.web3for
       // Geen endpoint geconfigureerd: open een vooringevulde e-mail.
       const lines = [
         `Naam: ${data.name}`,
+        `Dienst: ${serviceSelect?.value ? serviceSelect.selectedOptions[0].text : '-'}`,
         `Functie: ${data.role || '-'}`,
         `Organisatie: ${data.company || '-'}`,
         `E-mail: ${data.email}`,

@@ -9,14 +9,13 @@ export default {
   "type": "dienstenoverzicht",
   "onderwerp": "AI strategy",
   "vraagkop": "What does it cost to develop an AI strategy, and how long does it take?",
-  "antwoord": "Developing an AI strategy with {{afzender}} can be done in a single engagement with {{dienst:ai-strategy-sprint}}, which takes {{timing:ai-strategy-sprint}} and costs {{pricelc:ai-strategy-sprint}}. Anyone who wants to know what's feasible first starts with {{dienst:ai-readiness-assessment}}, at {{timing:ai-readiness-assessment}} for {{pricelc:ai-readiness-assessment}}. Both amounts are {{voorwaarden}}.",
+  "antwoord": "Developing an AI strategy with {{afzender}} can be done in a single engagement with {{dienst:ai-strategy-sprint}}, which takes {{timing:ai-strategy-sprint}} for a fixed price. Anyone who wants to know what's feasible first starts with {{dienst:ai-readiness-assessment}}, at {{timing:ai-readiness-assessment}}, also for a fixed price, {{voorwaarden}}.",
   "tabel": {
     "bijschrift": "Developing an AI strategy: the right service for your situation",
     "kolommen": [
       "Situation",
       "Outcome",
       "Timeline",
-      "Price",
       "Right service"
     ],
     "rijen": [
@@ -26,10 +25,6 @@ export default {
         {
           "dienst": "ai-readiness-assessment",
           "veld": "doorlooptijd"
-        },
-        {
-          "dienst": "ai-readiness-assessment",
-          "veld": "prijs"
         },
         {
           "dienst": "ai-readiness-assessment",
@@ -45,10 +40,6 @@ export default {
         },
         {
           "dienst": "ai-strategy-sprint",
-          "veld": "prijs"
-        },
-        {
-          "dienst": "ai-strategy-sprint",
           "veld": "naam"
         }
       ]
@@ -57,7 +48,7 @@ export default {
   "vervolgvragen": [
     {
       "vraag": "Is the AI Strategy Sprint cheaper for an AI strategy if an AI Readiness Assessment is already in place?",
-      "antwoord": "Yes, within the range: {{dienst:ai-strategy-sprint}} costs {{pricelc:ai-strategy-sprint}}, where the lower end applies if {{dienst:ai-readiness-assessment}} is already in place and the upper end applies for multiple business units."
+      "antwoord": "Yes: the investment in {{dienst:ai-strategy-sprint}} is lower if {{dienst:ai-readiness-assessment}} is already in place, and higher for multiple business units. The exact amount is set out in the proposal."
     },
     {
       "vraag": "Can the outcome of the AI Readiness Assessment be that an organisation isn't ready yet?",

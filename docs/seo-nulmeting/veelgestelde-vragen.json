@@ -2,15 +2,28 @@
   "url": "/veelgestelde-vragen",
   "build_bestand": "dist/veelgestelde-vragen/index.html",
   "html": {
-    "bytes": 42499,
+    "bytes": 42984,
     "lang": "nl"
   },
   "beschermd": {
     "title": "Veelgestelde vragen | Freelance AI Consultant",
     "meta_description": "Antwoorden over samenwerking, onafhankelijkheid, aanpak, tarieven, inkoop en databeveiliging. Alles wat je normaal in een eerste gesprek zou vragen.",
-    "canonical": "https://freelanceaiconsultant.com/veelgestelde-vragen",
+    "canonical": "https://freelanceaiconsultant.com/nl/veelgestelde-vragen",
     "robots_meta": null,
-    "hreflang": [],
+    "hreflang": [
+      {
+        "hreflang": "en",
+        "href": "https://freelanceaiconsultant.com/faq"
+      },
+      {
+        "hreflang": "nl",
+        "href": "https://freelanceaiconsultant.com/nl/veelgestelde-vragen"
+      },
+      {
+        "hreflang": "x-default",
+        "href": "https://freelanceaiconsultant.com/faq"
+      }
+    ],
     "h1": [
       "Veelgestelde vragen."
     ]
@@ -21,7 +34,7 @@
     "og:site_name": "freelanceaiconsultant.com",
     "og:title": "Veelgestelde vragen | Freelance AI Consultant",
     "og:description": "Antwoorden over samenwerking, onafhankelijkheid, aanpak, tarieven, inkoop en databeveiliging. Alles wat je normaal in een eerste gesprek zou vragen.",
-    "og:url": "https://freelanceaiconsultant.com/veelgestelde-vragen",
+    "og:url": "https://freelanceaiconsultant.com/nl/veelgestelde-vragen",
     "og:image": "https://freelanceaiconsultant.com/images/dave-portrait.jpg",
     "twitter:card": "summary_large_image",
     "twitter:title": "Veelgestelde vragen | Freelance AI Consultant",
@@ -80,8 +93,8 @@
   ],
   "bodytekst": {
     "regio": "main",
-    "woorden": 1097,
-    "sha256": "49c39516bac7ad46a93808900b2012b3fa6942995317edd110b3b5788f9080e9",
+    "woorden": 1096,
+    "sha256": "771793eb53adc8a2f1822ef13d61e1e43d29acd81d43a848592fa8ff94c99650",
     "blokken": [
       "Alles wat je wilt weten",
       "Veelgestelde vragen.",
@@ -186,8 +199,8 @@
       "Tarieven & voorwaarden",
       "Hoe zijn de tarieven opgebouwd?+",
       "Vaste prijs per traject waar de scope helder is (assessment, briefing), een bandbreedte waar de omvang varieert (sprint, vendorselectie), en een maandbedrag bij een fractional rol. Alle bedragen zijn exclusief btw en reiskosten.",
-      "Waarom staan de prijzen op de site?+",
-      "Omdat je anders drie gesprekken nodig hebt om te weten of dit in je budget past. Elke dienst heeft een vaste prijs of een duidelijke bandbreedte; waar je daarbinnen uitkomt, legt het voorstel na de kennismaking vast.",
+      "Hoe kom ik aan een prijsindicatie?+",
+      "Vooraf een vaste prijs of vast maandbedrag, vastgelegd in het voorstel na een kennismaking van dertig minuten. Vul het contactformulier in en geef daarbij aan om welke dienst het gaat, dan krijg je een voorstel op maat.",
       "Kan ik ook een losse vraag of workshop afnemen?+",
       "Ja, voor afgebakend advieswerk, workshops en second opinions. Ook dan krijg je vooraf een vaste prijs in het voorstel, omdat dat het gesprek over de uitkomst laat gaan in plaats van over de urenstaat.",
       "Wat zijn de betalingsvoorwaarden?+",
@@ -226,63 +239,70 @@
     {
       "regio": "header",
       "soort": "intern",
-      "href": "/",
+      "href": "/nl",
       "anker": "",
       "rel": null
     },
     {
       "regio": "header",
       "soort": "intern",
-      "href": "/diensten",
+      "href": "/nl/diensten",
       "anker": "Diensten",
       "rel": null
     },
     {
       "regio": "header",
       "soort": "intern",
-      "href": "/cases",
+      "href": "/nl/cases",
       "anker": "Cases",
       "rel": null
     },
     {
       "regio": "header",
       "soort": "intern",
-      "href": "/werkwijze",
+      "href": "/nl/werkwijze",
       "anker": "Werkwijze",
       "rel": null
     },
     {
       "regio": "header",
       "soort": "intern",
-      "href": "/inzichten",
+      "href": "/nl/inzichten",
       "anker": "Inzichten",
       "rel": null
     },
     {
       "regio": "header",
       "soort": "intern",
-      "href": "/over",
+      "href": "/nl/over",
       "anker": "Over mij",
       "rel": null
     },
     {
       "regio": "header",
       "soort": "intern",
-      "href": "/contact",
+      "href": "/faq",
+      "anker": "EN",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/nl/contact",
       "anker": "Plan een gesprek →",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/contact",
+      "href": "/nl/contact",
       "anker": "Plan een gesprek →",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/diensten",
+      "href": "/nl/diensten",
       "anker": "Bekijk de diensten →",
       "rel": null
     },
@@ -324,161 +344,161 @@
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/contact",
+      "href": "/nl/contact",
       "anker": "Stel je vraag →",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/contact",
+      "href": "/nl/contact",
       "anker": "Plan een gesprek →",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/diensten/ai-readiness-assessment",
+      "href": "/nl/diensten/ai-readiness-assessment",
       "anker": "AI Readiness Assessment",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/diensten/ai-strategy-sprint",
+      "href": "/nl/diensten/ai-strategy-sprint",
       "anker": "AI Strategy Sprint",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/diensten/fractional-ai-lead",
+      "href": "/nl/diensten/fractional-ai-lead",
       "anker": "Fractional AI Lead",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/diensten",
+      "href": "/nl/diensten",
       "anker": "Alle diensten",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/cases",
+      "href": "/nl/cases",
       "anker": "Cases",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/werkwijze",
+      "href": "/nl/werkwijze",
       "anker": "Werkwijze",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/inzichten",
+      "href": "/nl/inzichten",
       "anker": "Inzichten",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/veelgestelde-vragen",
+      "href": "/nl/veelgestelde-vragen",
       "anker": "Veelgestelde vragen",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/over",
+      "href": "/nl/over",
       "anker": "Over mij",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-consultancy",
+      "href": "/nl/ai-consultancy",
       "anker": "AI consultancy",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-implementatie",
+      "href": "/nl/ai-implementatie",
       "anker": "AI implementatie",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-automatisering",
+      "href": "/nl/ai-automatisering",
       "anker": "AI automatisering",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-voor-bedrijven",
+      "href": "/nl/ai-voor-bedrijven",
       "anker": "AI voor bedrijven",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-development",
+      "href": "/nl/ai-development",
       "anker": "AI development",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-agents",
+      "href": "/nl/ai-agents",
       "anker": "AI agents",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-beleid",
+      "href": "/nl/ai-beleid",
       "anker": "AI beleid",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-workshop",
+      "href": "/nl/ai-workshop",
       "anker": "AI workshop",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/markten",
+      "href": "/nl/markten",
       "anker": "AI per branche",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/kennisbank",
+      "href": "/nl/kennisbank",
       "anker": "Kennisbank",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/tarieven",
+      "href": "/nl/tarieven",
       "anker": "Tarieven",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/partnernetwerk",
+      "href": "/nl/partnernetwerk",
       "anker": "Partnernetwerk",
       "rel": null
     },
@@ -499,27 +519,27 @@
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/contact",
+      "href": "/nl/contact",
       "anker": "Plan een gesprek",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/privacy",
+      "href": "/nl/privacy",
       "anker": "Privacyverklaring",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/algemene-voorwaarden",
+      "href": "/nl/algemene-voorwaarden",
       "anker": "Algemene voorwaarden",
       "rel": null
     }
   ],
   "structured_data": {
-    "sha256": "f80fdb480d170a279dc2df6ae337558eff5a6acfe365c461cfe8e7def687b826",
+    "sha256": "8b518aacb38d7e8cdb91e0d545be6ddfad8fb9d81e2f552cabf884cc7b7cb3cf",
     "items": [
       {
         "@context": "https://schema.org",
@@ -647,10 +667,10 @@
           },
           {
             "@type": "Question",
-            "name": "Waarom staan de prijzen op de site?",
+            "name": "Hoe kom ik aan een prijsindicatie?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "Omdat je anders drie gesprekken nodig hebt om te weten of dit in je budget past. Elke dienst heeft een vaste prijs of een duidelijke bandbreedte; waar je daarbinnen uitkomt, legt het voorstel na de kennismaking vast."
+              "text": "Vooraf een vaste prijs of vast maandbedrag, vastgelegd in het voorstel na een kennismaking van dertig minuten. Vul het contactformulier in en geef daarbij aan om welke dienst het gaat, dan krijg je een voorstel op maat."
             }
           },
           {
@@ -757,11 +777,11 @@
     ],
     "stylesheets": [
       "https://fonts.googleapis.com/css2?family=Caveat:wght@600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap",
-      "/_astro/_slug_.bq6BBoZ5.css",
+      "/_astro/_slug_.BzqUXH8l.css",
       "/logo-carousel/logo-carousel.css?v=2"
     ],
     "aantal_details": 24,
     "aantal_tabellen": 0
   },
-  "gemeten_op": "2026-10-06"
+  "gemeten_op": "2026-10-28"
 }

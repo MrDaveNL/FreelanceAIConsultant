@@ -2,15 +2,28 @@
   "url": "/ai-workshop",
   "build_bestand": "dist/ai-workshop/index.html",
   "html": {
-    "bytes": 37618,
+    "bytes": 42044,
     "lang": "nl"
   },
   "beschermd": {
     "title": "AI workshop en training voor bedrijven | Praktisch",
     "meta_description": "Een AI workshop of training voor je team: praktisch, op maat en direct toepasbaar. Van introductie tot hands-on met ChatGPT en Copilot. Bekijk de mogelijkheden.",
-    "canonical": "https://freelanceaiconsultant.com/ai-workshop",
+    "canonical": "https://freelanceaiconsultant.com/nl/ai-workshop",
     "robots_meta": null,
-    "hreflang": [],
+    "hreflang": [
+      {
+        "hreflang": "en",
+        "href": "https://freelanceaiconsultant.com/ai-workshop"
+      },
+      {
+        "hreflang": "nl",
+        "href": "https://freelanceaiconsultant.com/nl/ai-workshop"
+      },
+      {
+        "hreflang": "x-default",
+        "href": "https://freelanceaiconsultant.com/ai-workshop"
+      }
+    ],
     "h1": [
       "AI workshop en training voor bedrijven"
     ]
@@ -21,7 +34,7 @@
     "og:site_name": "freelanceaiconsultant.com",
     "og:title": "AI workshop en training voor bedrijven | Praktisch",
     "og:description": "Een AI workshop of training voor je team: praktisch, op maat en direct toepasbaar. Van introductie tot hands-on met ChatGPT en Copilot. Bekijk de mogelijkheden.",
-    "og:url": "https://freelanceaiconsultant.com/ai-workshop",
+    "og:url": "https://freelanceaiconsultant.com/nl/ai-workshop",
     "og:image": "https://freelanceaiconsultant.com/images/dave-portrait.jpg",
     "twitter:card": "summary_large_image",
     "twitter:title": "AI workshop en training voor bedrijven | Praktisch",
@@ -32,6 +45,30 @@
     {
       "niveau": 1,
       "tekst": "AI workshop en training voor bedrijven",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "Welke AI workshop past bij welk team en hoe wordt de prijs bepaald?",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 3,
+      "tekst": "Welke sessie past bij een directie of raad van commissarissen?",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 3,
+      "tekst": "Kan een AI workshop ook online worden gegeven?",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 3,
+      "tekst": "Leiden licenties en één trainingsmiddag tot structureel gebruik van AI?",
       "regio": "main",
       "id": null
     },
@@ -128,8 +165,8 @@
   ],
   "bodytekst": {
     "regio": "main",
-    "woorden": 2035,
-    "sha256": "51b5939ca1c944802ab86c020852cf8a36e073770f9d1e884b185ec9f8a41465",
+    "woorden": 2278,
+    "sha256": "e4244a4a9b6a4a38cc05a790c0f5b10a8ce55549b0b48e39c33d0be002c82e6d",
     "blokken": [
       "Home",
       "AI workshop",
@@ -199,6 +236,15 @@
       "Proces & productivity",
       "Zakelijke dienstverlener",
       "Interne AI-assistent voor kenniswerkers",
+      "Welke AI workshop past bij welk team en hoe wordt de prijs bepaald?",
+      "Dave Willemstein geeft workshops en trainingen incompany en op maat; een AI workshop is opgebouwd rond drie tot vijf concrete taken per rol, met materiaal uit de eigen praktijk van het team. De meest voorkomende vertrekpunten zijn een introductie voor management, hands-on werken met ChatGPT en Copilot, AI-geletterdheid en een workshop AI-strategie. Elke opdracht krijgt een vaste prijs, die in de intake wordt besproken en vooraf op papier staat.",
+      "Welke sessie past bij een directie of raad van commissarissen?",
+      "De Executive Briefing is voor directie of raad van commissarissen de passende vorm: een vaste sessie met een beslisagenda en toezichtvragen. De Executive Briefing heeft een vaste prijs, inclusief voorbereiding op de sector en vastgelegd in het voorstel. Breder inzetbaar is de managementworkshop, bijvoorbeeld voor lijnmanagers of een MT.",
+      "Kan een AI workshop ook online worden gegeven?",
+      "Ja, maar bij een online AI workshop komen hands-on werk en het onderlinge gesprek moeizamer op gang. Incompany werkt het best, omdat deelnemers dan met hun eigen apparatuur, toegang en materiaal kunnen oefenen.",
+      "Leiden licenties en één trainingsmiddag tot structureel gebruik van AI?",
+      "Zelden: licenties uitdelen en één trainingsmiddag organiseren leidt zelden tot structureel gebruik, en een AI workshop is geen adoptiestrategie. Daarom is een AI workshop opgebouwd rond drie tot vijf concrete taken per rol, zodat een deelnemer de volgende ochtend weet waar te beginnen.",
+      "Bron: tarieven en doorlooptijden van Dave Willemstein. Bijgewerkt: oktober 2026.",
       "Waarom een AI workshop?",
       "De meeste organisaties hebben inmiddels AI-tools beschikbaar, of medewerkers gebruiken ze op eigen houtje. Wat vaak ontbreekt, is een gedeeld begrip van wat die tools goed kunnen, waar ze onbetrouwbaar zijn en wat er binnen jullie organisatie wel en niet mag. Een workshop AI is een snelle manier om dat gat te dichten: in één of enkele sessies krijgt een team hetzelfde vertrekpunt.",
       "Een workshop is geen adoptiestrategie. Licenties uitdelen en één trainingsmiddag organiseren leidt zelden tot structureel gebruik; ik schreef eerder waarom adoptie begint bij het werk en niet bij de tool. Daarom bouw ik een workshop rond drie tot vijf concrete taken per rol, met materiaal uit jullie eigen praktijk. Dan weet iemand de volgende ochtend waar hij moet beginnen.",
@@ -257,7 +303,7 @@
       "Fictief voorbeeld, samengesteld uit situaties die veel voorkomen. Organisatie en cijfers zijn illustratief.",
       "Investering",
       "Workshops en trainingen krijgen een vaste prijs per opdracht, omdat voorbereiding, duur en groepsgrootte sterk verschillen. Het bedrag bespreken we in de intake, en je krijgt het vooraf op papier. Op de pagina met tarieven en pakketten zie je hoe dat zich verhoudt tot de vaste trajecten. Alle bedragen zijn exclusief btw en reiskosten.",
-      "De Executive Briefing is de uitzondering: die heeft een vaste prijs van €2.800, inclusief voorbereiding op jullie sector.",
+      "De Executive Briefing is de uitzondering: die heeft een vaste prijs, inclusief voorbereiding op jullie sector.",
       "Wil je eerst zien waar je als organisatie staat, dan is het AI Readiness Assessment een logischer begin. Meer over mijn achtergrond lees je op de pagina over mij. Weet je nog niet of een workshop de juiste eerste stap is? Vraag dan een workshop aan: in een gesprek van dertig minuten hoor je wat ik zou voorstellen, ook als dat iets anders is dan een workshop.",
       "Dave Willemstein Onafhankelijk AI-adviseur",
       "Onafhankelijk: geen commissies, geen partnerdeals, geen marge op implementatiepartners.",
@@ -293,182 +339,203 @@
     {
       "regio": "header",
       "soort": "intern",
-      "href": "/",
+      "href": "/nl",
       "anker": "",
       "rel": null
     },
     {
       "regio": "header",
       "soort": "intern",
-      "href": "/diensten",
+      "href": "/nl/diensten",
       "anker": "Diensten",
       "rel": null
     },
     {
       "regio": "header",
       "soort": "intern",
-      "href": "/cases",
+      "href": "/nl/cases",
       "anker": "Cases",
       "rel": null
     },
     {
       "regio": "header",
       "soort": "intern",
-      "href": "/werkwijze",
+      "href": "/nl/werkwijze",
       "anker": "Werkwijze",
       "rel": null
     },
     {
       "regio": "header",
       "soort": "intern",
-      "href": "/inzichten",
+      "href": "/nl/inzichten",
       "anker": "Inzichten",
       "rel": null
     },
     {
       "regio": "header",
       "soort": "intern",
-      "href": "/over",
+      "href": "/nl/over",
       "anker": "Over mij",
       "rel": null
     },
     {
       "regio": "header",
       "soort": "intern",
-      "href": "/contact",
+      "href": "/ai-workshop",
+      "anker": "EN",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/nl/contact",
       "anker": "Plan een gesprek →",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/",
+      "href": "/nl",
       "anker": "Home",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/contact",
+      "href": "/nl/contact",
       "anker": "Vraag een workshop aan →",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/diensten/ai-readiness-assessment",
+      "href": "/nl/diensten/ai-readiness-assessment",
       "anker": "Bekijk het AI Readiness Assessment →",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/inzichten/ai-adoptie-begint-bij-het-werk",
+      "href": "/nl/diensten/executive-briefing",
+      "anker": "Executive Briefing",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/nl/tarieven",
+      "anker": "tarieven en doorlooptijden van Dave Willemstein",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/nl/inzichten/ai-adoptie-begint-bij-het-werk",
       "anker": "adoptie begint bij het werk en niet bij de tool",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/diensten/executive-briefing",
+      "href": "/nl/diensten/executive-briefing",
       "anker": "Executive Briefing voor bestuurders",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/ai-workshop/copilot-training",
+      "href": "/nl/ai-workshop/copilot-training",
       "anker": "Copilot training voor teams",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/ai-workshop/chatgpt-training",
+      "href": "/nl/ai-workshop/chatgpt-training",
       "anker": "ChatGPT training voor bedrijven",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/ai-workshop/ai-geletterdheid-training",
+      "href": "/nl/ai-workshop/ai-geletterdheid-training",
       "anker": "training AI-geletterdheid",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/diensten/ai-strategy-sprint",
+      "href": "/nl/diensten/ai-strategy-sprint",
       "anker": "AI Strategy Sprint",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/ai-workshop/ai-coaching",
+      "href": "/nl/ai-workshop/ai-coaching",
       "anker": "AI coaching voor managers en teams",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/partnernetwerk",
+      "href": "/nl/partnernetwerk",
       "anker": "netwerk van partners",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/ai-beleid",
+      "href": "/nl/ai-beleid",
       "anker": "AI-beleid voor organisaties",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/tarieven",
+      "href": "/nl/tarieven",
       "anker": "tarieven en pakketten",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/diensten/ai-readiness-assessment",
+      "href": "/nl/diensten/ai-readiness-assessment",
       "anker": "AI Readiness Assessment",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/over",
+      "href": "/nl/over",
       "anker": "over mij",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/contact",
+      "href": "/nl/contact",
       "anker": "Vraag dan een workshop aan",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/over",
+      "href": "/nl/over",
       "anker": "Over mij",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/partnernetwerk",
+      "href": "/nl/partnernetwerk",
       "anker": "Mijn partnernetwerk",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/diensten/ai-readiness-assessment",
+      "href": "/nl/diensten/ai-readiness-assessment",
       "anker": "Weten waar je staat met AI? Bekijk het AI Readiness Assessment →",
       "rel": null
     },
@@ -482,154 +549,154 @@
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/contact",
+      "href": "/nl/contact",
       "anker": "Plan een gesprek →",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/diensten/ai-readiness-assessment",
+      "href": "/nl/diensten/ai-readiness-assessment",
       "anker": "AI Readiness Assessment",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/diensten/ai-strategy-sprint",
+      "href": "/nl/diensten/ai-strategy-sprint",
       "anker": "AI Strategy Sprint",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/diensten/fractional-ai-lead",
+      "href": "/nl/diensten/fractional-ai-lead",
       "anker": "Fractional AI Lead",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/diensten",
+      "href": "/nl/diensten",
       "anker": "Alle diensten",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/cases",
+      "href": "/nl/cases",
       "anker": "Cases",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/werkwijze",
+      "href": "/nl/werkwijze",
       "anker": "Werkwijze",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/inzichten",
+      "href": "/nl/inzichten",
       "anker": "Inzichten",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/veelgestelde-vragen",
+      "href": "/nl/veelgestelde-vragen",
       "anker": "Veelgestelde vragen",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/over",
+      "href": "/nl/over",
       "anker": "Over mij",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-consultancy",
+      "href": "/nl/ai-consultancy",
       "anker": "AI consultancy",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-implementatie",
+      "href": "/nl/ai-implementatie",
       "anker": "AI implementatie",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-automatisering",
+      "href": "/nl/ai-automatisering",
       "anker": "AI automatisering",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-voor-bedrijven",
+      "href": "/nl/ai-voor-bedrijven",
       "anker": "AI voor bedrijven",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-development",
+      "href": "/nl/ai-development",
       "anker": "AI development",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-agents",
+      "href": "/nl/ai-agents",
       "anker": "AI agents",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-beleid",
+      "href": "/nl/ai-beleid",
       "anker": "AI beleid",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-workshop",
+      "href": "/nl/ai-workshop",
       "anker": "AI workshop",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/markten",
+      "href": "/nl/markten",
       "anker": "AI per branche",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/kennisbank",
+      "href": "/nl/kennisbank",
       "anker": "Kennisbank",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/tarieven",
+      "href": "/nl/tarieven",
       "anker": "Tarieven",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/partnernetwerk",
+      "href": "/nl/partnernetwerk",
       "anker": "Partnernetwerk",
       "rel": null
     },
@@ -650,27 +717,27 @@
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/contact",
+      "href": "/nl/contact",
       "anker": "Plan een gesprek",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/privacy",
+      "href": "/nl/privacy",
       "anker": "Privacyverklaring",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/algemene-voorwaarden",
+      "href": "/nl/algemene-voorwaarden",
       "anker": "Algemene voorwaarden",
       "rel": null
     }
   ],
   "structured_data": {
-    "sha256": "29184d2fe9d7673b893f5931d12b925f29b43878cf53ec9c54d59669e498bd7f",
+    "sha256": "7664c4a1a2c1b4de0c44256dd7ff3dfa8548eca2e8fceb43d8764da3227b601f",
     "items": [
       {
         "@context": "https://schema.org",
@@ -682,13 +749,13 @@
                 "@type": "ListItem",
                 "position": 1,
                 "name": "Home",
-                "item": "https://freelanceaiconsultant.com/"
+                "item": "https://freelanceaiconsultant.com/nl"
               },
               {
                 "@type": "ListItem",
                 "position": 2,
                 "name": "AI workshop",
-                "item": "https://freelanceaiconsultant.com/ai-workshop"
+                "item": "https://freelanceaiconsultant.com/nl/ai-workshop"
               }
             ]
           },
@@ -697,7 +764,7 @@
             "name": "AI workshop",
             "serviceType": "workshop ai",
             "description": "Een AI workshop of training voor je team: praktisch, op maat en direct toepasbaar. Van introductie tot hands-on met ChatGPT en Copilot. Bekijk de mogelijkheden.",
-            "url": "https://freelanceaiconsultant.com/ai-workshop",
+            "url": "https://freelanceaiconsultant.com/nl/ai-workshop",
             "areaServed": "NL",
             "provider": {
               "@type": "Person",
@@ -751,6 +818,38 @@
                   "@type": "Answer",
                   "text": "Mensen moeten het de week erna in hun eigen werk kunnen toepassen, met duidelijke afspraken over wat mag. Daarom eindig ik met concrete vervolgstappen per rol en een eigenaar die het oppakt. Zonder dat blijft het bij een leuke middag."
                 }
+              },
+              {
+                "@type": "Question",
+                "name": "Welke AI workshop past bij welk team en hoe wordt de prijs bepaald?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Dave Willemstein geeft workshops en trainingen incompany en op maat; een AI workshop is opgebouwd rond drie tot vijf concrete taken per rol, met materiaal uit de eigen praktijk van het team. De meest voorkomende vertrekpunten zijn een introductie voor management, hands-on werken met ChatGPT en Copilot, AI-geletterdheid en een workshop AI-strategie. Elke opdracht krijgt een vaste prijs, die in de intake wordt besproken en vooraf op papier staat."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Welke sessie past bij een directie of raad van commissarissen?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "De Executive Briefing is voor directie of raad van commissarissen de passende vorm: een vaste sessie met een beslisagenda en toezichtvragen. De Executive Briefing heeft een vaste prijs, inclusief voorbereiding op de sector en vastgelegd in het voorstel. Breder inzetbaar is de managementworkshop, bijvoorbeeld voor lijnmanagers of een MT."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Kan een AI workshop ook online worden gegeven?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Ja, maar bij een online AI workshop komen hands-on werk en het onderlinge gesprek moeizamer op gang. Incompany werkt het best, omdat deelnemers dan met hun eigen apparatuur, toegang en materiaal kunnen oefenen."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Leiden licenties en één trainingsmiddag tot structureel gebruik van AI?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Zelden: licenties uitdelen en één trainingsmiddag organiseren leidt zelden tot structureel gebruik, en een AI workshop is geen adoptiestrategie. Daarom is een AI workshop opgebouwd rond drie tot vijf concrete taken per rol, zodat een deelnemer de volgende ochtend weet waar te beginnen."
+                }
               }
             ]
           }
@@ -794,12 +893,12 @@
     ],
     "stylesheets": [
       "https://fonts.googleapis.com/css2?family=Caveat:wght@600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap",
-      "/_astro/_slug_.bq6BBoZ5.css",
-      "/_astro/_slug_.goiX3PVF.css",
+      "/_astro/_slug_.BzqUXH8l.css",
+      "/_astro/_slug_.Do5RJXa7.css",
       "/logo-carousel/logo-carousel.css?v=2"
     ],
     "aantal_details": 5,
     "aantal_tabellen": 0
   },
-  "gemeten_op": "2026-10-06"
+  "gemeten_op": "2026-10-28"
 }

@@ -5,14 +5,13 @@ export default {
   "onderwerp": "AI beleid",
   "vraagkop": "Wat hoort er in een AI beleid en welke dienst past erbij?",
   "onderBestaandeKop": false,
-  "antwoord": "Een AI beleid legt vast welke tools zijn toegestaan, welke gegevens erin mogen, wie beslist en hoe risico's worden beheerst; voor de meeste organisaties volstaat een eerste versie van één tot drie pagina's. {{afzender}} begeleidt het opstellen en toetst het beleid tegen de praktijk; wie wil weten waar de organisatie staat voordat het beleid wordt geschreven, kan het {{dienst:ai-readiness-assessment}} inzetten, dat in {{timing:ai-readiness-assessment}} de uitgangspositie in kaart brengt voor {{pricelc:ai-readiness-assessment}}. Ontbreekt de capaciteit om de governance zelf te trekken, dan kan de {{dienst:fractional-ai-lead}} de governance en cadans opzetten en bewaken; de investering is {{pricelc:fractional-ai-lead}}.",
+  "antwoord": "Een AI beleid legt vast welke tools zijn toegestaan, welke gegevens erin mogen, wie beslist en hoe risico's worden beheerst; voor de meeste organisaties volstaat een eerste versie van één tot drie pagina's. {{afzender}} begeleidt het opstellen en toetst het beleid tegen de praktijk; wie wil weten waar de organisatie staat voordat het beleid wordt geschreven, kan het {{dienst:ai-readiness-assessment}} inzetten, dat in {{timing:ai-readiness-assessment}} de uitgangspositie in kaart brengt voor {{pricelc:ai-readiness-assessment}}. Ontbreekt de capaciteit om de governance zelf te trekken, dan kan de {{dienst:fractional-ai-lead}} de governance en cadans opzetten en bewaken; de investering is een vast maandbedrag, vooraf afgesproken.",
   "tabel": {
     "bijschrift": "AI beleid opstellen en borgen: passende dienst per situatie",
     "kolommen": [
       "Situatie",
       "Resultaat",
       "Doorlooptijd",
-      "Prijs",
       "Passende dienst"
     ],
     "rijen": [
@@ -25,10 +24,6 @@ export default {
         },
         {
           "dienst": "ai-readiness-assessment",
-          "veld": "prijs"
-        },
-        {
-          "dienst": "ai-readiness-assessment",
           "veld": "naam"
         }
       ],
@@ -38,10 +33,6 @@ export default {
         {
           "dienst": "fractional-ai-lead",
           "veld": "doorlooptijd"
-        },
-        {
-          "dienst": "fractional-ai-lead",
-          "veld": "prijs"
         },
         {
           "dienst": "fractional-ai-lead",

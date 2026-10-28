@@ -119,7 +119,7 @@ Waar het AI beleid vastlegt wat de afspraken zijn, gaat AI governance over hoe j
 
 In het artikel over governance beschrijf ik vier lichte mechanismen die je minimaal nodig hebt: een register van toepassingen, één beoordelingsmoment, een periodieke toets en een helder escalatiepad. Hier herhaal ik dat niet; het belangrijkste punt is dat je governance koppelt aan wat er al is. Voeg AI toe aan het risico-overleg of de stuurgroep die al bestaat, in plaats van een nieuwe commissie op te tuigen.
 
-Heb je geen capaciteit om dit zelf te trekken, dan kan een [Fractional AI Lead](/nl/diensten/fractional-ai-lead) de governance en cadans opzetten en bewaken; de investering is {{pricelc:fractional-ai-lead}}.
+Heb je geen capaciteit om dit zelf te trekken, dan kan een [Fractional AI Lead](/nl/diensten/fractional-ai-lead) de governance en cadans opzetten en bewaken; de investering is een vast maandbedrag, vooraf afgesproken.
 
 ## AI Act en compliance
 
@@ -171,7 +171,7 @@ Het [AI-beleid template (pdf)](/downloads/ai-beleid-template.pdf) volgt deze opz
 
 <!-- Het downloadbestand wordt gegenereerd uit planning/downloads/ai-beleid-template.md (python planning/build-downloads.py). -->
 
-Wil je weten waar je organisatie staat voordat je het beleid schrijft? Het [AI Readiness Assessment](/nl/diensten/ai-readiness-assessment) brengt in {{timing:ai-readiness-assessment}} je uitgangspositie in kaart, inclusief een risico- en compliance-scan en je positie onder de AI-verordening, voor {{pricelc:ai-readiness-assessment}}. Alle bedragen en pakketten staan op de pagina [tarieven](/nl/tarieven).
+Wil je weten waar je organisatie staat voordat je het beleid schrijft? Het [AI Readiness Assessment](/nl/diensten/ai-readiness-assessment) brengt in {{timing:ai-readiness-assessment}} je uitgangspositie in kaart, inclusief een risico- en compliance-scan en je positie onder de AI-verordening, tegen een vaste prijs. Alle pakketten staan op de pagina [tarieven](/nl/tarieven).
 
 Ik werk onafhankelijk: ik verkoop geen tools en ontvang geen commissies van leveranciers, dus het beleid gaat over wat bij jullie past. Meer over mijn achtergrond lees je op [over mij](/nl/over). Waar uitvoering nodig is, bijvoorbeeld bij technische inrichting, kan ik partijen uit mijn [partnernetwerk](/nl/partnernetwerk) voorstellen die je rechtstreeks contracteert.
 

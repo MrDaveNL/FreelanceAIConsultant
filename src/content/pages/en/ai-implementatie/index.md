@@ -142,7 +142,7 @@ Buying is often the cheapest way for a small or medium-sized business to learn w
 
 The cost of an AI implementation has two parts you need to budget separately: the build or licence from the vendor or partner, and the guidance on your side of the table. The first part depends entirely on the chosen solution and the party delivering it, so I deliberately don't put a figure on it, since a number without scope says nothing. Do budget for the running costs after go-live, because those are the ones most often forgotten.
 
-For the guidance, I work with fixed services and published prices. An AI Readiness Assessment costs {{price:ai-readiness-assessment}} and takes {{timing:ai-readiness-assessment}}. For ongoing steering during implementation, the Fractional AI Lead is available {{pricelc:fractional-ai-lead}}. Scoped advice and second opinions get a fixed price per assignment. All amounts are exclusive of VAT and travel costs; the full overview is on the [pricing](/pricing) page.
+For the guidance, I work with fixed services, each with a fixed price or fixed monthly fee agreed upfront. An AI Readiness Assessment has a fixed price and takes {{timing:ai-readiness-assessment}}. For ongoing steering during implementation, the Fractional AI Lead is available for a fixed monthly fee. Scoped advice and second opinions get a fixed price per assignment. All proposals exclude VAT; the full overview is on the [pricing](/pricing) page.
 
 The timeline of the implementation itself varies a lot by application. A standard product you configure moves faster than bespoke work with integrations into your core systems. Do budget extra time for adoption, which usually takes longer than the technology.
 

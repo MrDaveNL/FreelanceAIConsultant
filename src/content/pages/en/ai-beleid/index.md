@@ -121,7 +121,7 @@ Where the AI policy sets out what the agreements are, AI governance is about how
 
 The most useful approach ties governance to what already exists: add AI to the risk meeting or steering group that's already in place, rather than setting up a new committee. Four light mechanisms are usually enough at minimum: a register of applications, a single review gate, a periodic check, and a clear escalation path.
 
-If you don't have the capacity to drive this yourself, a [Fractional AI Lead](/services/fractional-ai-lead) can set up and oversee the governance and cadence; the investment is {{pricelc:fractional-ai-lead}}.
+If you don't have the capacity to drive this yourself, a [Fractional AI Lead](/services/fractional-ai-lead) can set up and oversee the governance and cadence; the investment is a fixed monthly fee, agreed upfront.
 
 ## The AI Act and compliance
 
@@ -173,7 +173,7 @@ A straightforward structure for your own document:
 7. **AI literacy:** what training or guidance staff receive and how you keep track of it.
 8. **Review:** when and by whom the policy is evaluated.
 
-Want to know where your organisation stands before you write the policy? The [AI Readiness Assessment](/services/ai-readiness-assessment) maps your starting position in {{timing:ai-readiness-assessment}}, including a risk and compliance scan and your position under the AI Act if it applies to you, for {{pricelc:ai-readiness-assessment}}. All amounts and packages are on the [pricing](/pricing) page.
+Want to know where your organisation stands before you write the policy? The [AI Readiness Assessment](/services/ai-readiness-assessment) maps your starting position in {{timing:ai-readiness-assessment}}, including a risk and compliance scan and your position under the AI Act if it applies to you, for a fixed price. All packages are on the [pricing](/pricing) page.
 
 I work independently: I don't sell tools and I don't receive commissions from vendors, so the policy is built around what fits your organisation. More about my background is on the [about](/about) page. Where delivery is needed, for example technical set-up, I can suggest parties from my [partner network](/partner-network) that you contract directly.
 

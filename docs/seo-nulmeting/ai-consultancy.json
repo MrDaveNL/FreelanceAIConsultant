@@ -2,15 +2,28 @@
   "url": "/ai-consultancy",
   "build_bestand": "dist/ai-consultancy/index.html",
   "html": {
-    "bytes": 43598,
+    "bytes": 47857,
     "lang": "nl"
   },
   "beschermd": {
     "title": "AI Consultancy | Strategie, advies en roadmap op maat",
     "meta_description": "AI consultancy voor bedrijven: van strategie en roadmap tot begeleiding bij implementatie. Onafhankelijk advies van een ervaren AI consultant. Plan een gesprek.",
-    "canonical": "https://freelanceaiconsultant.com/ai-consultancy",
+    "canonical": "https://freelanceaiconsultant.com/nl/ai-consultancy",
     "robots_meta": null,
-    "hreflang": [],
+    "hreflang": [
+      {
+        "hreflang": "en",
+        "href": "https://freelanceaiconsultant.com/ai-consulting"
+      },
+      {
+        "hreflang": "nl",
+        "href": "https://freelanceaiconsultant.com/nl/ai-consultancy"
+      },
+      {
+        "hreflang": "x-default",
+        "href": "https://freelanceaiconsultant.com/ai-consulting"
+      }
+    ],
     "h1": [
       "AI consultancy: strategisch advies dat tot resultaat leidt"
     ]
@@ -21,7 +34,7 @@
     "og:site_name": "freelanceaiconsultant.com",
     "og:title": "AI Consultancy | Strategie, advies en roadmap op maat",
     "og:description": "AI consultancy voor bedrijven: van strategie en roadmap tot begeleiding bij implementatie. Onafhankelijk advies van een ervaren AI consultant. Plan een gesprek.",
-    "og:url": "https://freelanceaiconsultant.com/ai-consultancy",
+    "og:url": "https://freelanceaiconsultant.com/nl/ai-consultancy",
     "og:image": "https://freelanceaiconsultant.com/images/dave-portrait.jpg",
     "twitter:card": "summary_large_image",
     "twitter:title": "AI Consultancy | Strategie, advies en roadmap op maat",
@@ -186,6 +199,24 @@
       "id": "wat-kost-ai-consultancy"
     },
     {
+      "niveau": 3,
+      "tekst": "Wat kost AI consultancy voor een directie of raad van commissarissen?",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 3,
+      "tekst": "Kan het AI Readiness Assessment bij AI consultancy ook voor één afdeling?",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 3,
+      "tekst": "Heeft de adviseur bij AI consultancy belang bij een leverancier of een grotere scope?",
+      "regio": "main",
+      "id": null
+    },
+    {
       "niveau": 2,
       "tekst": "Veelgestelde vragen over AI consultancy",
       "regio": "main",
@@ -206,8 +237,8 @@
   ],
   "bodytekst": {
     "regio": "main",
-    "woorden": 2847,
-    "sha256": "2dedf03edf90e41a1ec2557f1c1d99baaaa91c8d1d5296ef8cb05e67fe97dfde",
+    "woorden": 3059,
+    "sha256": "987a108d4750858e37cd4d2369632f70f992d1ef5349e5e93a517be484351670",
     "blokken": [
       "Home",
       "AI Consultancy",
@@ -343,27 +374,29 @@
       "Fictief voorbeeld, samengesteld uit situaties die veel voorkomen. Organisatie en cijfers zijn illustratief.",
       "Alle trajecten staan op de overzichtspagina met cases. Wie ik ben en waar mijn ervaring vandaan komt, lees je op de pagina over mij.",
       "Wat kost AI consultancy?",
-      "Ik werk met vaste pakketten en zichtbare vanaf-prijzen, niet met een open uurtarief. Zo weet je vooraf ongeveer of het in je budget past en gaat het gesprek over de uitkomst in plaats van over de urenstaat.",
+      "AI consultancy van Dave Willemstein wordt geleverd in vaste pakketten met vooraf een vaste prijs of vast maandbedrag, niet tegen een open uurtarief. Het AI Readiness Assessment duurt 2-3 weken, de AI Strategy Sprint duurt 4-6 weken, en de Fractional AI Lead is een doorlopende rol. Afgebakend advies en second opinions krijgen een vaste prijs in het voorstel, en de bedragen zijn exclusief btw en reiskosten.",
+      "Ik werk met vaste pakketten, elk met vooraf een vaste prijs of vast maandbedrag, niet met een open uurtarief. Zo gaat het gesprek over de uitkomst in plaats van over de urenstaat.",
       "Traject",
       "Doorlooptijd",
-      "Investering",
       "Executive Briefing",
       "1 dagdeel incl. voorbereiding",
-      "€2.800",
       "AI Readiness Assessment",
       "2-3 weken",
-      "€7.000",
       "AI Strategy Sprint",
       "4-6 weken",
-      "€15.400 - €22.400",
       "Fractional AI Lead",
       "2, 4 of 8 dagen / maand",
-      "€2.600 / €5.200 / €10.400 per maand",
       "Afgebakend advies en second opinions",
       "In overleg",
-      "Vaste prijs in het voorstel",
-      "Alle bedragen zijn exclusief btw en reiskosten. Binnen een pakket bewegen de kosten mee met de scope, het aantal betrokkenen en de tijdsinzet. Hoe dat werkt en wat er per pakket in zit, lees je op de pagina met tarieven en pakketten.",
+      "Alle voorstellen zijn exclusief btw. Binnen een pakket bewegen de kosten mee met de scope, het aantal betrokkenen en de tijdsinzet. Hoe dat werkt en wat er per pakket in zit, lees je op de pagina met tarieven en pakketten.",
       "Wil je weten welke aanpak bij jouw situatie past? Plan een adviesgesprek van dertig minuten. Aan het eind hoor je wat ik zou doen, ook als dat betekent dat je mij niet nodig hebt.",
+      "Wat kost AI consultancy voor een directie of raad van commissarissen?",
+      "De Executive Briefing kost een vaste prijs of vast maandbedrag, vastgelegd in het voorstel en is bedoeld voor directie en raad van commissarissen die hun toezichtrol op AI willen invullen. De Executive Briefing is een sessie van drie uur, samen met de voorbereiding één dagdeel, en wordt voorbereid op de sector van de organisatie.",
+      "Kan het AI Readiness Assessment bij AI consultancy ook voor één afdeling?",
+      "Ja. Het AI Readiness Assessment kan ook voor één afdeling of één procesdomein worden uitgevoerd. Die variant is korter en vraagt een lagere investering.",
+      "Heeft de adviseur bij AI consultancy belang bij een leverancier of een grotere scope?",
+      "Nee. De adviseur bouwt en verkoopt bij AI consultancy zelf geen software, AI-agents of implementaties en heeft daardoor geen belang bij een grotere scope of bij een bepaalde leverancier. Het bouwen doet het eigen team of een partner die de opdrachtgever rechtstreeks contracteert.",
+      "Bron: tarieven en doorlooptijden van Dave Willemstein. Bijgewerkt: oktober 2026.",
       "Dave Willemstein Onafhankelijk AI-adviseur",
       "Onafhankelijk: geen commissies, geen partnerdeals, geen marge op implementatiepartners.",
       "Over mij Mijn partnernetwerk",
@@ -398,91 +431,98 @@
     {
       "regio": "header",
       "soort": "intern",
-      "href": "/",
+      "href": "/nl",
       "anker": "",
       "rel": null
     },
     {
       "regio": "header",
       "soort": "intern",
-      "href": "/diensten",
+      "href": "/nl/diensten",
       "anker": "Diensten",
       "rel": null
     },
     {
       "regio": "header",
       "soort": "intern",
-      "href": "/cases",
+      "href": "/nl/cases",
       "anker": "Cases",
       "rel": null
     },
     {
       "regio": "header",
       "soort": "intern",
-      "href": "/werkwijze",
+      "href": "/nl/werkwijze",
       "anker": "Werkwijze",
       "rel": null
     },
     {
       "regio": "header",
       "soort": "intern",
-      "href": "/inzichten",
+      "href": "/nl/inzichten",
       "anker": "Inzichten",
       "rel": null
     },
     {
       "regio": "header",
       "soort": "intern",
-      "href": "/over",
+      "href": "/nl/over",
       "anker": "Over mij",
       "rel": null
     },
     {
       "regio": "header",
       "soort": "intern",
-      "href": "/contact",
+      "href": "/ai-consulting",
+      "anker": "EN",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/nl/contact",
       "anker": "Plan een gesprek →",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/",
+      "href": "/nl",
       "anker": "Home",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/contact",
+      "href": "/nl/contact",
       "anker": "Plan een adviesgesprek →",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/diensten/ai-readiness-assessment",
+      "href": "/nl/diensten/ai-readiness-assessment",
       "anker": "Bekijk het AI Readiness Assessment →",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/kennisbank/wat-doet-een-ai-consultant",
+      "href": "/nl/kennisbank/wat-doet-een-ai-consultant",
       "anker": "wat een AI consultant eigenlijk doet",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/diensten",
+      "href": "/nl/diensten",
       "anker": "alle diensten",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/inzichten/waarom-ai-pilots-blijven-steken",
+      "href": "/nl/inzichten/waarom-ai-pilots-blijven-steken",
       "anker": "waarom AI-pilots blijven steken",
       "rel": null
     },
@@ -496,196 +536,231 @@
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/ai-beleid/ai-act",
+      "href": "/nl/ai-beleid/ai-act",
       "anker": "de AI Act voor organisaties",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/werkwijze",
+      "href": "/nl/werkwijze",
       "anker": "werkwijze",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/diensten/ai-readiness-assessment",
+      "href": "/nl/diensten/ai-readiness-assessment",
       "anker": "AI Readiness Assessment",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/diensten/ai-strategy-sprint",
+      "href": "/nl/diensten/ai-strategy-sprint",
       "anker": "AI Strategy Sprint",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/diensten/fractional-ai-lead",
+      "href": "/nl/diensten/fractional-ai-lead",
       "anker": "Fractional AI Lead",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/ai-implementatie",
+      "href": "/nl/ai-implementatie",
       "anker": "AI implementatie",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/partnernetwerk",
+      "href": "/nl/partnernetwerk",
       "anker": "partnernetwerk",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/ai-consultancy/ai-strategie",
+      "href": "/nl/ai-consultancy/ai-strategie",
       "anker": "een AI strategie ontwikkelt",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/ai-consultancy/ai-roadmap",
+      "href": "/nl/ai-consultancy/ai-roadmap",
       "anker": "een AI roadmap opstellen",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/diensten/ai-due-diligence",
+      "href": "/nl/diensten/ai-due-diligence",
       "anker": "AI Due Diligence",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/ai-consultancy/ai-advies",
+      "href": "/nl/ai-consultancy/ai-advies",
       "anker": "onafhankelijk AI advies",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/ai-consultancy/ai-consultant-inhuren",
+      "href": "/nl/ai-consultancy/ai-consultant-inhuren",
       "anker": "een AI consultant inhuren",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/inzichten/build-buy-of-partner",
+      "href": "/nl/inzichten/build-buy-of-partner",
       "anker": "build, buy of partner",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/inzichten/ai-governance-zonder-bureaucratie",
+      "href": "/nl/inzichten/ai-governance-zonder-bureaucratie",
       "anker": "AI-governance zonder bureaucratie",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/diensten/executive-briefing",
+      "href": "/nl/diensten/executive-briefing",
       "anker": "Executive Briefing",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/ai-voor-bedrijven/mkb",
+      "href": "/nl/ai-voor-bedrijven/mkb",
       "anker": "AI voor het MKB",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/inzichten/ai-adoptie-begint-bij-het-werk",
+      "href": "/nl/inzichten/ai-adoptie-begint-bij-het-werk",
       "anker": "AI-adoptie begint bij het werk",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/inzichten/het-datafundament-onder-ai",
+      "href": "/nl/inzichten/het-datafundament-onder-ai",
       "anker": "het datafundament onder AI",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/cases/ai-strategie-investeringsmaatschappij",
+      "href": "/nl/cases/ai-strategie-investeringsmaatschappij",
       "anker": "AI-strategie en use-case portfolio",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/cases/ai-roadmap-internationale-maakorganisatie",
+      "href": "/nl/cases/ai-roadmap-internationale-maakorganisatie",
       "anker": "één roadmap onder een gedeelde governance",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/cases/ai-readiness-scale-up",
+      "href": "/nl/cases/ai-readiness-scale-up",
       "anker": "readiness-assessment",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/cases",
+      "href": "/nl/cases",
       "anker": "overzichtspagina met cases",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/over",
+      "href": "/nl/over",
       "anker": "over mij",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/tarieven",
+      "href": "/nl/diensten/ai-readiness-assessment",
+      "anker": "AI Readiness Assessment",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/nl/diensten/ai-strategy-sprint",
+      "anker": "AI Strategy Sprint",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/nl/diensten/fractional-ai-lead",
+      "anker": "Fractional AI Lead",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/nl/tarieven",
       "anker": "tarieven en pakketten",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/contact",
+      "href": "/nl/contact",
       "anker": "Plan een adviesgesprek",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/over",
+      "href": "/nl/diensten/executive-briefing",
+      "anker": "Executive Briefing",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/nl/tarieven",
+      "anker": "tarieven en doorlooptijden van Dave Willemstein",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/nl/over",
       "anker": "Over mij",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/partnernetwerk",
+      "href": "/nl/partnernetwerk",
       "anker": "Mijn partnernetwerk",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/diensten/ai-readiness-assessment",
+      "href": "/nl/diensten/ai-readiness-assessment",
       "anker": "Weten waar je staat met AI? Bekijk het AI Readiness Assessment →",
       "rel": null
     },
@@ -699,154 +774,154 @@
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/contact",
+      "href": "/nl/contact",
       "anker": "Plan een gesprek →",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/diensten/ai-readiness-assessment",
+      "href": "/nl/diensten/ai-readiness-assessment",
       "anker": "AI Readiness Assessment",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/diensten/ai-strategy-sprint",
+      "href": "/nl/diensten/ai-strategy-sprint",
       "anker": "AI Strategy Sprint",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/diensten/fractional-ai-lead",
+      "href": "/nl/diensten/fractional-ai-lead",
       "anker": "Fractional AI Lead",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/diensten",
+      "href": "/nl/diensten",
       "anker": "Alle diensten",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/cases",
+      "href": "/nl/cases",
       "anker": "Cases",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/werkwijze",
+      "href": "/nl/werkwijze",
       "anker": "Werkwijze",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/inzichten",
+      "href": "/nl/inzichten",
       "anker": "Inzichten",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/veelgestelde-vragen",
+      "href": "/nl/veelgestelde-vragen",
       "anker": "Veelgestelde vragen",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/over",
+      "href": "/nl/over",
       "anker": "Over mij",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-consultancy",
+      "href": "/nl/ai-consultancy",
       "anker": "AI consultancy",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-implementatie",
+      "href": "/nl/ai-implementatie",
       "anker": "AI implementatie",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-automatisering",
+      "href": "/nl/ai-automatisering",
       "anker": "AI automatisering",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-voor-bedrijven",
+      "href": "/nl/ai-voor-bedrijven",
       "anker": "AI voor bedrijven",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-development",
+      "href": "/nl/ai-development",
       "anker": "AI development",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-agents",
+      "href": "/nl/ai-agents",
       "anker": "AI agents",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-beleid",
+      "href": "/nl/ai-beleid",
       "anker": "AI beleid",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-workshop",
+      "href": "/nl/ai-workshop",
       "anker": "AI workshop",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/markten",
+      "href": "/nl/markten",
       "anker": "AI per branche",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/kennisbank",
+      "href": "/nl/kennisbank",
       "anker": "Kennisbank",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/tarieven",
+      "href": "/nl/tarieven",
       "anker": "Tarieven",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/partnernetwerk",
+      "href": "/nl/partnernetwerk",
       "anker": "Partnernetwerk",
       "rel": null
     },
@@ -867,27 +942,27 @@
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/contact",
+      "href": "/nl/contact",
       "anker": "Plan een gesprek",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/privacy",
+      "href": "/nl/privacy",
       "anker": "Privacyverklaring",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/algemene-voorwaarden",
+      "href": "/nl/algemene-voorwaarden",
       "anker": "Algemene voorwaarden",
       "rel": null
     }
   ],
   "structured_data": {
-    "sha256": "0a1415b5ad3c3e9f0ba5c87072e89e0e5e4cd06a27b91af57b7a5c538b4f3622",
+    "sha256": "2f171a24c44fc8b8b7cd374093cd0542842f144be5f746e1e4c3beb1a2ab84fa",
     "items": [
       {
         "@context": "https://schema.org",
@@ -899,13 +974,13 @@
                 "@type": "ListItem",
                 "position": 1,
                 "name": "Home",
-                "item": "https://freelanceaiconsultant.com/"
+                "item": "https://freelanceaiconsultant.com/nl"
               },
               {
                 "@type": "ListItem",
                 "position": 2,
                 "name": "AI Consultancy",
-                "item": "https://freelanceaiconsultant.com/ai-consultancy"
+                "item": "https://freelanceaiconsultant.com/nl/ai-consultancy"
               }
             ]
           },
@@ -914,7 +989,7 @@
             "name": "AI Consultancy",
             "serviceType": "ai consultancy",
             "description": "AI consultancy voor bedrijven: van strategie en roadmap tot begeleiding bij implementatie. Onafhankelijk advies van een ervaren AI consultant. Plan een gesprek.",
-            "url": "https://freelanceaiconsultant.com/ai-consultancy",
+            "url": "https://freelanceaiconsultant.com/nl/ai-consultancy",
             "areaServed": "NL",
             "provider": {
               "@type": "Person",
@@ -968,6 +1043,38 @@
                   "@type": "Answer",
                   "text": "Ja. Ik werk in Nederland, België en Duitsland, en sessies en documenten kunnen in het Nederlands of het Engels. Voor trajecten met veel aanwezigheid op locatie houden we in de planning rekening met reistijd."
                 }
+              },
+              {
+                "@type": "Question",
+                "name": "Wat kost AI consultancy?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "AI consultancy van Dave Willemstein wordt geleverd in vaste pakketten met vooraf een vaste prijs of vast maandbedrag, niet tegen een open uurtarief. Het AI Readiness Assessment duurt 2-3 weken, de AI Strategy Sprint duurt 4-6 weken, en de Fractional AI Lead is een doorlopende rol. Afgebakend advies en second opinions krijgen een vaste prijs in het voorstel, en de bedragen zijn exclusief btw en reiskosten."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Wat kost AI consultancy voor een directie of raad van commissarissen?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "De Executive Briefing kost een vaste prijs of vast maandbedrag, vastgelegd in het voorstel en is bedoeld voor directie en raad van commissarissen die hun toezichtrol op AI willen invullen. De Executive Briefing is een sessie van drie uur, samen met de voorbereiding één dagdeel, en wordt voorbereid op de sector van de organisatie."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Kan het AI Readiness Assessment bij AI consultancy ook voor één afdeling?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Ja. Het AI Readiness Assessment kan ook voor één afdeling of één procesdomein worden uitgevoerd. Die variant is korter en vraagt een lagere investering."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Heeft de adviseur bij AI consultancy belang bij een leverancier of een grotere scope?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Nee. De adviseur bouwt en verkoopt bij AI consultancy zelf geen software, AI-agents of implementaties en heeft daardoor geen belang bij een grotere scope of bij een bepaalde leverancier. Het bouwen doet het eigen team of een partner die de opdrachtgever rechtstreeks contracteert."
+                }
               }
             ]
           }
@@ -1011,12 +1118,12 @@
     ],
     "stylesheets": [
       "https://fonts.googleapis.com/css2?family=Caveat:wght@600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap",
-      "/_astro/_slug_.bq6BBoZ5.css",
-      "/_astro/_slug_.goiX3PVF.css",
+      "/_astro/_slug_.BzqUXH8l.css",
+      "/_astro/_slug_.Do5RJXa7.css",
       "/logo-carousel/logo-carousel.css?v=2"
     ],
     "aantal_details": 5,
     "aantal_tabellen": 1
   },
-  "gemeten_op": "2026-10-06"
+  "gemeten_op": "2026-10-28"
 }

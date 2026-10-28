@@ -88,18 +88,18 @@ Vraag vooraf wat je aan het eind in handen hebt en wanneer de opdracht klaar is.
 
 ## Wat kost een AI consultant inhuren?
 
-Ik werk niet met een open uurtarief, maar met vaste pakketten en zichtbare vanaf-prijzen. Er zijn drie inhuurvormen:
+Ik werk niet met een open uurtarief, maar met vaste pakketten, elk met vooraf een vaste prijs of vast maandbedrag. Er zijn drie inhuurvormen:
 
-| Inhuurvorm | Voorbeeld | Investering |
-|---|---|---|
-| Afgebakend advies | Second opinion, workshop, korte toets | Vaste prijs in het voorstel |
-| Vast traject | AI Readiness Assessment | {{price:ai-readiness-assessment}} |
-| Vast traject | AI Strategy Sprint | {{price:ai-strategy-sprint}} |
-| Doorlopende rol | Fractional AI Lead | {{price:fractional-ai-lead}} |
+| Inhuurvorm | Voorbeeld |
+|---|---|
+| Afgebakend advies | Second opinion, workshop, korte toets |
+| Vast traject | AI Readiness Assessment |
+| Vast traject | AI Strategy Sprint |
+| Doorlopende rol | Fractional AI Lead |
 
-Het kleinste pakket met een vaste prijs is de Executive Briefing van {{price:executive-briefing}}. Een [Fractional AI Lead](/nl/diensten/fractional-ai-lead) is de vorm om een AI consultant voor langere tijd in te huren: {{timing:fractional-ai-lead}}, met een minimale looptijd van 3 maanden, daarna maandelijks opzegbaar, zonder dat je direct een fulltime Head of AI aanneemt.
+Het kleinste pakket met een vaste prijs is de Executive Briefing. Een [Fractional AI Lead](/nl/diensten/fractional-ai-lead) is de vorm om een AI consultant voor langere tijd in te huren: {{timing:fractional-ai-lead}}, met een minimale looptijd van 3 maanden, daarna maandelijks opzegbaar, zonder dat je direct een fulltime Head of AI aanneemt.
 
-Alle bedragen zijn exclusief btw en reiskosten. Een volledig overzicht staat op de pagina met [tarieven en pakketten](/nl/tarieven).
+Alle voorstellen zijn exclusief btw. Een volledig overzicht staat op de pagina met [tarieven en pakketten](/nl/tarieven).
 
 ## Zo start je
 

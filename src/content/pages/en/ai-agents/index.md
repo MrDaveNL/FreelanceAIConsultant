@@ -147,7 +147,7 @@ Many software vendors now offer agent features within their own platform. That's
 
 The build is a one-off cost; management runs on. Budget for model costs per use, monitoring, periodic tests, changes as processes or systems change, and the time of an internal owner. A quote that mentions only the build is incomplete. Always ask for a multi-year cost estimate, including what it costs to switch vendor.
 
-My own role here is advisory, not building. If you want quotes from several delivery partners independently compared, a [Vendor Review](/services/vendor-review) fits that, costing {{pricelc:vendor-review}}. The other packages are on the [pricing](/pricing) page.
+My own role here is advisory, not building. If you want quotes from several delivery partners independently compared, a [Vendor Review](/services/vendor-review) fits that, with a fixed price depending on the number of vendors. The other packages are on the [pricing](/pricing) page.
 
 ## AI agents for SMEs
 

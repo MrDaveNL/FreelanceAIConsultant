@@ -116,7 +116,7 @@ Whichever you choose, the same three things separate the good candidates from th
 - **Independence.** Some AI advisers are also an implementation partner or a platform reseller. That's not necessarily wrong, but you should know it. Ask explicitly whether they receive fees, discounts or partner status from vendors who might come into play, and ask for that in writing. My own answer: I don't build or sell software, take no commissions, and charge no margin on partners; any existing vendor relationship gets disclosed before that party comes into the picture.
 - **Clear deliverables.** Ask upfront what you'll have in hand at the end and when the assignment is considered done. Good deliverables are made to decide with: a prioritised list of use cases with owners, an AI strategy with explicit choices, an AI roadmap with planning and budget, or a decision document for a vendor choice.
 
-On cost: I work with fixed packages and visible starting prices rather than an open hourly rate, across three hiring formats: scoped advice at a fixed price per assignment, a fixed-price engagement such as the AI Readiness Assessment or AI Strategy Sprint, or an ongoing part-time role as [Fractional AI Lead](/services/fractional-ai-lead). The smallest fixed-price package is the Executive Briefing, at {{price:executive-briefing}}. All amounts are excluding VAT and travel expenses; the full breakdown is on the [pricing](/pricing) page.
+On cost: I work with fixed packages and a fixed price or fixed monthly fee agreed upfront, rather than an open hourly rate, across three hiring formats: scoped advice at a fixed price per assignment, a fixed-price engagement such as the AI Readiness Assessment or AI Strategy Sprint, or an ongoing part-time role as [Fractional AI Lead](/services/fractional-ai-lead). The Executive Briefing is the smallest package. All proposals exclude VAT; the full breakdown is on the [pricing](/pricing) page.
 
 ## AI consulting for larger organisations
 
@@ -170,16 +170,16 @@ All engagements are listed on the [case studies overview](/cases). You can read 
 
 ## What does AI consulting cost?
 
-I work with fixed packages and visible starting prices, not an open hourly rate. That way you know roughly in advance whether it fits your budget, and the conversation is about the outcome rather than the timesheet.
+I work with fixed packages, each with a fixed price or fixed monthly fee agreed upfront, not an open hourly rate. That way the conversation is about the outcome rather than the timesheet.
 
-| Engagement | Timeline | Investment |
-|---|---|---|
-| Executive Briefing | {{timing:executive-briefing}} | {{price:executive-briefing}} |
-| AI Readiness Assessment | {{timing:ai-readiness-assessment}} | {{price:ai-readiness-assessment}} |
-| AI Strategy Sprint | {{timing:ai-strategy-sprint}} | {{price:ai-strategy-sprint}} |
-| Fractional AI Lead | {{timing:fractional-ai-lead}} | {{price:fractional-ai-lead}} |
-| Scoped advice and second opinions | By arrangement | Fixed price in the proposal |
+| Engagement | Timeline |
+|---|---|
+| Executive Briefing | {{timing:executive-briefing}} |
+| AI Readiness Assessment | {{timing:ai-readiness-assessment}} |
+| AI Strategy Sprint | {{timing:ai-strategy-sprint}} |
+| Fractional AI Lead | {{timing:fractional-ai-lead}} |
+| Scoped advice and second opinions | By arrangement |
 
-All amounts are excluding VAT and travel expenses. Within a package, costs move with the scope, the number of people involved and the time required. How that works, and what's included per package, is on the [pricing](/pricing) page.
+All proposals exclude VAT. Within a package, costs move with the scope, the number of people involved and the time required. How that works, and what's included per package, is on the [pricing](/pricing) page.
 
 Want to know which approach fits your situation? [Book a thirty-minute conversation](mailto:dave@freelanceaiconsultant.com). At the end you'll hear what I'd do, even if that means you don't need me.

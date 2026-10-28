@@ -2,15 +2,20 @@
   "url": "/kennisbank/ai-specialist-salaris",
   "build_bestand": "dist/kennisbank/ai-specialist-salaris/index.html",
   "html": {
-    "bytes": 36809,
+    "bytes": 41505,
     "lang": "nl"
   },
   "beschermd": {
     "title": "AI specialist salaris | Wat verdient een AI specialist?",
     "meta_description": "Wat verdient een AI specialist of AI engineer in Nederland? Bekijk salarisindicaties per niveau en vergelijk een vaste kracht met een freelance AI consultant.",
-    "canonical": "https://freelanceaiconsultant.com/kennisbank/ai-specialist-salaris",
+    "canonical": "https://freelanceaiconsultant.com/nl/kennisbank/ai-specialist-salaris",
     "robots_meta": null,
-    "hreflang": [],
+    "hreflang": [
+      {
+        "hreflang": "nl",
+        "href": "https://freelanceaiconsultant.com/nl/kennisbank/ai-specialist-salaris"
+      }
+    ],
     "h1": [
       "AI specialist salaris: wat verdient een AI specialist?"
     ]
@@ -21,7 +26,7 @@
     "og:site_name": "freelanceaiconsultant.com",
     "og:title": "AI specialist salaris | Wat verdient een AI specialist?",
     "og:description": "Wat verdient een AI specialist of AI engineer in Nederland? Bekijk salarisindicaties per niveau en vergelijk een vaste kracht met een freelance AI consultant.",
-    "og:url": "https://freelanceaiconsultant.com/kennisbank/ai-specialist-salaris",
+    "og:url": "https://freelanceaiconsultant.com/nl/kennisbank/ai-specialist-salaris",
     "og:image": "https://freelanceaiconsultant.com/images/dave-portrait.jpg",
     "twitter:card": "summary_large_image",
     "twitter:title": "AI specialist salaris | Wat verdient een AI specialist?",
@@ -32,6 +37,30 @@
     {
       "niveau": 1,
       "tekst": "AI specialist salaris: wat verdient een AI specialist?",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "Wat zeggen de salarisbronnen over een AI specialist salaris in Nederland?",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 3,
+      "tekst": "Publiceren de gecontroleerde salarisbronnen een AI specialist salaris onder die functietitel?",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 3,
+      "tekst": "Zijn de cijfers van Indeed en DataJobs bij een AI specialist salaris één-op-één te vergelijken?",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 3,
+      "tekst": "Wat doet de Fractional AI Lead als de scope voor een fulltime functie nog niet vaststaat?",
       "regio": "main",
       "id": null
     },
@@ -98,8 +127,8 @@
   ],
   "bodytekst": {
     "regio": "main",
-    "woorden": 1738,
-    "sha256": "cf3796840f3c22291d05931ad46ea23567b43cde44a234a7c43feb5d8b98c110",
+    "woorden": 2054,
+    "sha256": "87a240b46856f79bc4f5be9c8b86b419929dc1bad5b9983f979797b40d8dd31a",
     "blokken": [
       "Home",
       "Kennisbank",
@@ -171,6 +200,15 @@
       "Proces & productivity",
       "Zakelijke dienstverlener",
       "Interne AI-assistent voor kenniswerkers",
+      "Wat zeggen de salarisbronnen over een AI specialist salaris in Nederland?",
+      "Voor een AI specialist salaris publiceren de gecontroleerde salarisbronnen hun cijfers onder de titel AI engineer, niet onder AI specialist; ze verschillen onderling duidelijk en zijn te gebruiken als orde van grootte. DataJobs (bijgewerkt mei 2026) noemt bruto per maand € 3.000 tot € 4.000 voor junioren, € 4.000 tot € 5.500 voor medioren en € 5.500 tot € 7.000 voor senioren; Indeed meldt een gemiddelde van circa € 57.000 per jaar (peildatum 6 oktober 2026). Voor werkgevers past een vaste aanstelling bij structureel werk met een duidelijke scope; bij een onduidelijke scope is externe of parttime inzet vaak verstandiger.",
+      "Publiceren de gecontroleerde salarisbronnen een AI specialist salaris onder die functietitel?",
+      "Nee. De gecontroleerde salarisbronnen publiceren hun cijfers onder de titel AI engineer, niet onder AI specialist. Bij een AI specialist salaris gaat het daarom om bandbreedtes per niveau van twee bronnen, in brutobedragen per maand.",
+      "Zijn de cijfers van Indeed en DataJobs bij een AI specialist salaris één-op-één te vergelijken?",
+      "Lastig: de cijfers van Indeed en DataJobs zijn lastig één-op-één te vergelijken, want Indeed rekent in jaarbedragen op basis van salarissen uit vacatures op Indeed en DataJobs in brutomaandbedragen op basis van gegevens van het eigen platform. Bij een AI specialist salaris zijn beide daarom als orde van grootte te gebruiken.",
+      "Wat doet de Fractional AI Lead als de scope voor een fulltime functie nog niet vaststaat?",
+      "De Fractional AI Lead stuurt de AI-agenda in een parttime rol en helpt bij het functieprofiel en de werving van een vaste opvolger. De rol kost een vaste prijs of vast maandbedrag, vastgelegd in het voorstel.",
+      "Bron: artikel van Dave Willemstein; primaire bron: DataJobs, Werken als AI Engineer (bijgewerkt mei 2026); Nationale Beroepengids, Salaris Artificial Intelligence Engineer (bijgewerkt 26-11-2024); Indeed, Salaris van een AI engineer in Nederland (bijgewerkt 28 september 2026) (peildatum 6 oktober 2026). Bijgewerkt: oktober 2026.",
       "Salarisindicatie AI specialist",
       "Wie zoekt naar het salaris van een AI specialist, loopt tegen twee problemen aan. Ten eerste is “AI specialist” geen vaste functietitel: het kan gaan om een strateeg, een machine learning engineer of een ontwikkelaar die een AI-platform inricht. Op de pagina over wat een AI specialist doet zet ik die profielen naast elkaar. Ten tweede publiceren de salarisbronnen die ik kon controleren hun cijfers onder de titel AI engineer, niet onder AI specialist.",
       "Hieronder staan daarom de bandbreedtes per niveau van twee bronnen die hun cijfers indelen naar ervaring. Het zijn brutobedragen per maand, zoals de bronnen ze publiceren. Ik heb ze op 23 september 2026 gecontroleerd. De bronnen verschillen onderling duidelijk, en dat is precies de reden om ze naast elkaar te zetten in plaats van er één gemiddelde van te maken.",
@@ -220,7 +258,7 @@
       "Een paar vuistregels:",
       "Neem vast aan als er structureel werk ligt met een duidelijke scope: een team dat AI-toepassingen bouwt en beheert, of een platform dat dagelijks onderhoud vraagt.",
       "Huur extern in als de vraag afgebakend is: een strategie, een leverancierskeuze, een second opinion. Waar je op let bij het selecteren van een externe adviseur, staat bij een AI consultant inhuren.",
-      "Kies een parttime rol als je iemand nodig hebt die de AI-agenda stuurt, maar de scope voor een fulltime functie nog niet vaststaat. Een Fractional AI Lead doet dat voor een paar dagen per maand, €2.600 / €5.200 / €10.400 per maand, en helpt bij het functieprofiel en de werving van een vaste opvolger.",
+      "Kies een parttime rol als je iemand nodig hebt die de AI-agenda stuurt, maar de scope voor een fulltime functie nog niet vaststaat. Een Fractional AI Lead doet dat voor een paar dagen per maand, tegen een vast maandbedrag, en helpt bij het functieprofiel en de werving van een vaste opvolger.",
       "Wat ik als freelance adviseur reken, staat per pakket op de pagina met tarieven. Ik bouw zelf geen software; voor bouwcapaciteit heb je je eigen developers nodig of een ontwikkelpartij. Hoe je die selecteert en aanstuurt, lees je op de pagina over AI development, en hoe je kiest tussen standaardsoftware en maatwerk bij AI software.",
       "Twijfel je of je een AI specialist moet aannemen of beter tijdelijk inhuurt? Plan een adviesgesprek van dertig minuten; ook als het antwoord is dat je iemand moet aannemen, hoor je dat.",
       "Dave Willemstein Onafhankelijk AI-adviseur",
@@ -260,91 +298,98 @@
     {
       "regio": "header",
       "soort": "intern",
-      "href": "/",
+      "href": "/nl",
       "anker": "",
       "rel": null
     },
     {
       "regio": "header",
       "soort": "intern",
-      "href": "/diensten",
+      "href": "/nl/diensten",
       "anker": "Diensten",
       "rel": null
     },
     {
       "regio": "header",
       "soort": "intern",
-      "href": "/cases",
+      "href": "/nl/cases",
       "anker": "Cases",
       "rel": null
     },
     {
       "regio": "header",
       "soort": "intern",
-      "href": "/werkwijze",
+      "href": "/nl/werkwijze",
       "anker": "Werkwijze",
       "rel": null
     },
     {
       "regio": "header",
       "soort": "intern",
-      "href": "/inzichten",
+      "href": "/nl/inzichten",
       "anker": "Inzichten",
       "rel": null
     },
     {
       "regio": "header",
       "soort": "intern",
-      "href": "/over",
+      "href": "/nl/over",
       "anker": "Over mij",
       "rel": null
     },
     {
       "regio": "header",
       "soort": "intern",
-      "href": "/contact",
+      "href": "/nl/contact",
       "anker": "Plan een gesprek →",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/",
+      "href": "/nl",
       "anker": "Home",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/kennisbank",
+      "href": "/nl/kennisbank",
       "anker": "Kennisbank",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/tarieven",
+      "href": "/nl/tarieven",
       "anker": "Bekijk tarieven →",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/contact",
+      "href": "/nl/contact",
       "anker": "Plan een adviesgesprek →",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/over",
+      "href": "/nl/over",
       "anker": "Dave Willemstein",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/ai-development/ai-specialist",
+      "href": "/nl/diensten/fractional-ai-lead",
+      "anker": "Fractional AI Lead",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/nl/ai-development/ai-specialist",
       "anker": "wat een AI specialist doet",
       "rel": null
     },
@@ -372,7 +417,7 @@
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/kennisbank/wat-doet-een-ai-developer",
+      "href": "/nl/kennisbank/wat-doet-een-ai-developer",
       "anker": "wat doet een AI developer",
       "rel": null
     },
@@ -386,63 +431,63 @@
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/ai-consultancy/ai-consultant-inhuren",
+      "href": "/nl/ai-consultancy/ai-consultant-inhuren",
       "anker": "een AI consultant inhuren",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/diensten/fractional-ai-lead",
+      "href": "/nl/diensten/fractional-ai-lead",
       "anker": "Fractional AI Lead",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/tarieven",
+      "href": "/nl/tarieven",
       "anker": "tarieven",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/ai-development",
+      "href": "/nl/ai-development",
       "anker": "AI development",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/ai-development/ai-software",
+      "href": "/nl/ai-development/ai-software",
       "anker": "AI software",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/contact",
+      "href": "/nl/contact",
       "anker": "Plan een adviesgesprek",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/over",
+      "href": "/nl/over",
       "anker": "Over mij",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/partnernetwerk",
+      "href": "/nl/partnernetwerk",
       "anker": "Mijn partnernetwerk",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/diensten/ai-readiness-assessment",
+      "href": "/nl/diensten/ai-readiness-assessment",
       "anker": "Weten waar je staat met AI? Bekijk het AI Readiness Assessment →",
       "rel": null
     },
@@ -477,154 +522,154 @@
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/contact",
+      "href": "/nl/contact",
       "anker": "Plan een gesprek →",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/diensten/ai-readiness-assessment",
+      "href": "/nl/diensten/ai-readiness-assessment",
       "anker": "AI Readiness Assessment",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/diensten/ai-strategy-sprint",
+      "href": "/nl/diensten/ai-strategy-sprint",
       "anker": "AI Strategy Sprint",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/diensten/fractional-ai-lead",
+      "href": "/nl/diensten/fractional-ai-lead",
       "anker": "Fractional AI Lead",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/diensten",
+      "href": "/nl/diensten",
       "anker": "Alle diensten",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/cases",
+      "href": "/nl/cases",
       "anker": "Cases",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/werkwijze",
+      "href": "/nl/werkwijze",
       "anker": "Werkwijze",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/inzichten",
+      "href": "/nl/inzichten",
       "anker": "Inzichten",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/veelgestelde-vragen",
+      "href": "/nl/veelgestelde-vragen",
       "anker": "Veelgestelde vragen",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/over",
+      "href": "/nl/over",
       "anker": "Over mij",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-consultancy",
+      "href": "/nl/ai-consultancy",
       "anker": "AI consultancy",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-implementatie",
+      "href": "/nl/ai-implementatie",
       "anker": "AI implementatie",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-automatisering",
+      "href": "/nl/ai-automatisering",
       "anker": "AI automatisering",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-voor-bedrijven",
+      "href": "/nl/ai-voor-bedrijven",
       "anker": "AI voor bedrijven",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-development",
+      "href": "/nl/ai-development",
       "anker": "AI development",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-agents",
+      "href": "/nl/ai-agents",
       "anker": "AI agents",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-beleid",
+      "href": "/nl/ai-beleid",
       "anker": "AI beleid",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-workshop",
+      "href": "/nl/ai-workshop",
       "anker": "AI workshop",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/markten",
+      "href": "/nl/markten",
       "anker": "AI per branche",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/kennisbank",
+      "href": "/nl/kennisbank",
       "anker": "Kennisbank",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/tarieven",
+      "href": "/nl/tarieven",
       "anker": "Tarieven",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/partnernetwerk",
+      "href": "/nl/partnernetwerk",
       "anker": "Partnernetwerk",
       "rel": null
     },
@@ -645,27 +690,27 @@
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/contact",
+      "href": "/nl/contact",
       "anker": "Plan een gesprek",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/privacy",
+      "href": "/nl/privacy",
       "anker": "Privacyverklaring",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/algemene-voorwaarden",
+      "href": "/nl/algemene-voorwaarden",
       "anker": "Algemene voorwaarden",
       "rel": null
     }
   ],
   "structured_data": {
-    "sha256": "018be3fe2485f4811075bbe2709f4485206d1a35845f12609ba14692ae8a8f6e",
+    "sha256": "cc72a04a5efebacc609e0398b06fa14ac8e09e6ee0f883a2be9220f9bc34f391",
     "items": [
       {
         "@context": "https://schema.org",
@@ -677,19 +722,19 @@
                 "@type": "ListItem",
                 "position": 1,
                 "name": "Home",
-                "item": "https://freelanceaiconsultant.com/"
+                "item": "https://freelanceaiconsultant.com/nl"
               },
               {
                 "@type": "ListItem",
                 "position": 2,
                 "name": "Kennisbank",
-                "item": "https://freelanceaiconsultant.com/kennisbank"
+                "item": "https://freelanceaiconsultant.com/nl/kennisbank"
               },
               {
                 "@type": "ListItem",
                 "position": 3,
                 "name": "AI specialist salaris",
-                "item": "https://freelanceaiconsultant.com/kennisbank/ai-specialist-salaris"
+                "item": "https://freelanceaiconsultant.com/nl/kennisbank/ai-specialist-salaris"
               }
             ]
           },
@@ -713,7 +758,7 @@
               "@type": "Person",
               "name": "Dave Willemstein"
             },
-            "mainEntityOfPage": "https://freelanceaiconsultant.com/kennisbank/ai-specialist-salaris"
+            "mainEntityOfPage": "https://freelanceaiconsultant.com/nl/kennisbank/ai-specialist-salaris"
           },
           {
             "@type": "FAQPage",
@@ -756,6 +801,38 @@
                 "acceptedAnswer": {
                   "@type": "Answer",
                   "text": "Vergelijk niet het uurtarief met het brutosalaris, maar de totale kosten voor de inzet die je nodig hebt. Een vaste kracht kost ook geld als er even geen AI-werk is; een externe specialist betaal je alleen voor de afgesproken inzet."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Wat zeggen de salarisbronnen over een AI specialist salaris in Nederland?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Voor een AI specialist salaris publiceren de gecontroleerde salarisbronnen hun cijfers onder de titel AI engineer, niet onder AI specialist; ze verschillen onderling duidelijk en zijn te gebruiken als orde van grootte. DataJobs (bijgewerkt mei 2026) noemt bruto per maand € 3.000 tot € 4.000 voor junioren, € 4.000 tot € 5.500 voor medioren en € 5.500 tot € 7.000 voor senioren; Indeed meldt een gemiddelde van circa € 57.000 per jaar (peildatum 6 oktober 2026). Voor werkgevers past een vaste aanstelling bij structureel werk met een duidelijke scope; bij een onduidelijke scope is externe of parttime inzet vaak verstandiger."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Publiceren de gecontroleerde salarisbronnen een AI specialist salaris onder die functietitel?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Nee. De gecontroleerde salarisbronnen publiceren hun cijfers onder de titel AI engineer, niet onder AI specialist. Bij een AI specialist salaris gaat het daarom om bandbreedtes per niveau van twee bronnen, in brutobedragen per maand."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Zijn de cijfers van Indeed en DataJobs bij een AI specialist salaris één-op-één te vergelijken?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Lastig: de cijfers van Indeed en DataJobs zijn lastig één-op-één te vergelijken, want Indeed rekent in jaarbedragen op basis van salarissen uit vacatures op Indeed en DataJobs in brutomaandbedragen op basis van gegevens van het eigen platform. Bij een AI specialist salaris zijn beide daarom als orde van grootte te gebruiken."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Wat doet de Fractional AI Lead als de scope voor een fulltime functie nog niet vaststaat?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "De Fractional AI Lead stuurt de AI-agenda in een parttime rol en helpt bij het functieprofiel en de werving van een vaste opvolger. De rol kost een vaste prijs of vast maandbedrag, vastgelegd in het voorstel."
                 }
               }
             ]
@@ -800,12 +877,12 @@
     ],
     "stylesheets": [
       "https://fonts.googleapis.com/css2?family=Caveat:wght@600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap",
-      "/_astro/_slug_.bq6BBoZ5.css",
-      "/_astro/_slug_.goiX3PVF.css",
+      "/_astro/_slug_.BzqUXH8l.css",
+      "/_astro/_slug_.Do5RJXa7.css",
       "/logo-carousel/logo-carousel.css?v=2"
     ],
     "aantal_details": 5,
     "aantal_tabellen": 1
   },
-  "gemeten_op": "2026-10-06"
+  "gemeten_op": "2026-10-28"
 }
