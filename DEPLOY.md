@@ -10,6 +10,9 @@ full check suite against it, and only if everything passes copies that `dist/` i
 pointing at the previous good release, so the site in front of visitors never changes until a build
 has proven itself.
 
+**`main` is the deploy branch.** Feature work happens on other branches and merges into `main`;
+the VPS checkout only ever tracks `main`, and `deploy.sh` always pulls `main`.
+
 ## First-time setup
 
 1. **Node.** Install Node (the repo was built/tested on Node 24; any current LTS works):
@@ -21,7 +24,7 @@ has proven itself.
    ```
    sudo mkdir -p /var/www/freelanceaiconsultant/releases
    sudo chown -R "$USER" /var/www/freelanceaiconsultant
-   git clone <remote-url> /var/www/freelanceaiconsultant/repo
+   git clone -b main <remote-url> /var/www/freelanceaiconsultant/repo
    cd /var/www/freelanceaiconsultant/repo
    ```
 3. **Install dependencies**, including Playwright's browser (the check suite's overflow test drives a
@@ -62,7 +65,8 @@ Save this as `/var/www/freelanceaiconsultant/repo/deploy.sh` (`chmod +x`) and ru
 set -euo pipefail
 
 cd /var/www/freelanceaiconsultant/repo
-git pull
+git checkout main
+git pull origin main
 npm ci
 
 rm -rf dist
@@ -87,10 +91,14 @@ sees a half-updated symlink — it's either the old release or the new one, noth
 If `npm run build` or `npm run check` exits non-zero, `set -e` stops the script before `live` is
 touched — the site keeps serving the previous release untouched.
 
-**Rollback**: point `live` at any folder still in `releases/`:
+**Rollback** to the previous release (releases are named by timestamp, so the second-newest is the
+one `live` pointed at before the last deploy):
 ```
-sudo -u "$USER" bash -c 'ln -sfn /var/www/freelanceaiconsultant/releases/<timestamp> /var/www/freelanceaiconsultant/live.new && mv -T /var/www/freelanceaiconsultant/live.new /var/www/freelanceaiconsultant/live'
+cd /var/www/freelanceaiconsultant/releases && ln -sfn "$(pwd)/$(ls -1t | sed -n 2p)" /var/www/freelanceaiconsultant/live.new && mv -T /var/www/freelanceaiconsultant/live.new /var/www/freelanceaiconsultant/live
 ```
+
+To roll back further, swap `sed -n 2p` for `sed -n 3p` (third-newest), etc. — any folder still in
+`releases/` can be restored the same way.
 
 ## Contact form
 

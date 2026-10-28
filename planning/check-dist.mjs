@@ -66,5 +66,26 @@ for (const sitemapFile of ['sitemap.xml', 'sitemap-en.xml', 'nl/sitemap.xml']) {
   if (/\/404(["<]|\/)/.test(fs.readFileSync(p, 'utf8'))) report(p, '404 staat in de sitemap, maar mag daar niet in');
 }
 
+// Expliciete check op /nl/404: anders dan de root-404 (die als plat /404.html bouwt en alleen via
+// nginx's error_page bereikt wordt) bouwt nl/404.astro als een gewone route (/nl/404/index.html),
+// dus https://freelanceaiconsultant.com/nl/404 is ook rechtstreeks bereikbaar en geeft dan een
+// 200. Los van de generieke is404-matching hierboven (die hier ook op afvuurt) hardcoden we deze
+// URL expliciet, zodat een latere wijziging aan die matching dit niet stilletjes laat glippen.
+{
+  const nl404 = path.join(dist, 'nl/404/index.html');
+  if (!fs.existsSync(nl404)) {
+    report(nl404, 'ontbreekt: /nl/404 moet bestaan (nginx wijst de /nl/*-404-fallback hiernaar)');
+  } else {
+    const html = fs.readFileSync(nl404, 'utf8');
+    if (!/<meta name="robots" content="noindex">/.test(html)) report(nl404, '/nl/404 mist exact <meta name="robots" content="noindex">');
+    if (/<link rel="canonical"/.test(html)) report(nl404, '/nl/404 heeft een canonical, maar mag die niet hebben');
+    if (/<link rel="alternate"[^>]*hreflang=/.test(html)) report(nl404, '/nl/404 heeft een hreflang/x-default, maar mag die niet hebben');
+  }
+  for (const sitemapFile of ['sitemap.xml', 'sitemap-en.xml', 'nl/sitemap.xml']) {
+    const p = path.join(dist, sitemapFile);
+    if (fs.existsSync(p) && fs.readFileSync(p, 'utf8').includes('/nl/404')) report(p, '/nl/404 staat in de sitemap, maar mag daar niet in');
+  }
+}
+
 console.log(`${walk(dist).length} HTML-bestanden gecontroleerd, ${problems} probleem/problemen.`);
 process.exitCode = problems ? 1 : 0;
