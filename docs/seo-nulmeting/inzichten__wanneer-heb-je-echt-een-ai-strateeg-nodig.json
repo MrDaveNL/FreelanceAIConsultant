@@ -2,15 +2,28 @@
   "url": "/inzichten/wanneer-heb-je-echt-een-ai-strateeg-nodig",
   "build_bestand": "dist/inzichten/wanneer-heb-je-echt-een-ai-strateeg-nodig/index.html",
   "html": {
-    "bytes": 30121,
+    "bytes": 36419,
     "lang": "nl"
   },
   "beschermd": {
     "title": "Wanneer heb je echt een AI-strateeg nodig?",
     "meta_description": "In de helft van de gevallen is het antwoord: niet. Vier situaties waarin externe hulp loont, en vier waarin je het zelf beter kunt.",
-    "canonical": "https://freelanceaiconsultant.com/inzichten/wanneer-heb-je-echt-een-ai-strateeg-nodig",
+    "canonical": "https://freelanceaiconsultant.com/nl/inzichten/wanneer-heb-je-echt-een-ai-strateeg-nodig",
     "robots_meta": null,
-    "hreflang": [],
+    "hreflang": [
+      {
+        "hreflang": "en",
+        "href": "https://freelanceaiconsultant.com/insights/when-do-you-really-need-an-ai-strategist"
+      },
+      {
+        "hreflang": "nl",
+        "href": "https://freelanceaiconsultant.com/nl/inzichten/wanneer-heb-je-echt-een-ai-strateeg-nodig"
+      },
+      {
+        "hreflang": "x-default",
+        "href": "https://freelanceaiconsultant.com/insights/when-do-you-really-need-an-ai-strategist"
+      }
+    ],
     "h1": [
       "Wanneer heb je echt een AI-strateeg nodig?"
     ]
@@ -21,7 +34,7 @@
     "og:site_name": "freelanceaiconsultant.com",
     "og:title": "Wanneer heb je echt een AI-strateeg nodig?",
     "og:description": "In de helft van de gevallen is het antwoord: niet. Vier situaties waarin externe hulp loont, en vier waarin je het zelf beter kunt.",
-    "og:url": "https://freelanceaiconsultant.com/inzichten/wanneer-heb-je-echt-een-ai-strateeg-nodig",
+    "og:url": "https://freelanceaiconsultant.com/nl/inzichten/wanneer-heb-je-echt-een-ai-strateeg-nodig",
     "og:image": "https://freelanceaiconsultant.com/images/dave-portrait.jpg",
     "twitter:card": "summary_large_image",
     "twitter:title": "Wanneer heb je echt een AI-strateeg nodig?",
@@ -32,6 +45,30 @@
     {
       "niveau": 1,
       "tekst": "Wanneer heb je echt een AI-strateeg nodig?",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "In welke situaties loont het om een AI-strateeg in te huren?",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 3,
+      "tekst": "Wat voegt een AI-strateeg toe bij de keuze van een kleine, maandelijks opzegbare tool?",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 3,
+      "tekst": "Heeft het zin een AI-strateeg in te huren om een al genomen besluit te bekrachtigen?",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 3,
+      "tekst": "Welke omvang van een opdracht voor een AI-strateeg klopt meestal?",
       "regio": "main",
       "id": null
     },
@@ -134,8 +171,8 @@
   ],
   "bodytekst": {
     "regio": "main",
-    "woorden": 1161,
-    "sha256": "4c729f20f8d453d52b057a09427c741eb1b71ed6a31f2d858b1fa996d1164941",
+    "woorden": 1434,
+    "sha256": "4918b9ddd742c1e72d7b2d58875ffd1f944877b4c4c1108a6e80fdb3544ba243",
     "blokken": [
       "← Terug naar alle inzichten",
       "Strategie",
@@ -146,7 +183,7 @@
       "Door Dave Willemstein Independent AI Advisor, onafhankelijk, geen leveranciersbelangen",
       "Ik help organisaties AI-beslissingen nemen die waarde creëren. Geen dikke decks, wel duidelijke keuzes en tastbare resultaten.",
       "vertrouwen, ervaring, impact ↓",
-      "Independent No vendor bias Senior only 20+ jaar ervaring",
+      "Independent No vendor bias Senior only Sinds 2006",
       "IN HET KORT",
       "Externe hulp loont bij onomkeerbare besluiten en interne patstellingen.",
       "Bij afgebakende, technische vragen ben je intern vaak sneller.",
@@ -210,6 +247,15 @@
       "Proces & productivity",
       "Zakelijke dienstverlener",
       "Interne AI-assistent voor kenniswerkers",
+      "In welke situaties loont het om een AI-strateeg in te huren?",
+      "Een AI-strateeg inhuren loont in vier situaties: bij een duur besluit dat moeilijk terug te draaien is, bij een interne patstelling, bij een investering die aan een board of toezichthouder moet worden uitgelegd, en bij een eerste keer onder hoge tijdsdruk. Bij technische en afgebakende vragen, kleine omkeerbare besluiten, een interne lead met mandaat of een besluit dat al genomen is, voegt externe hulp weinig toe. Voor de meeste organisaties geldt een afgebakende opdracht of een deeltijdrol van een paar dagen per maand.",
+      "Wat voegt een AI-strateeg toe bij de keuze van een kleine, maandelijks opzegbare tool?",
+      "Weinig: bij een klein en omkeerbaar besluit is een AI-strateeg externe hulp die weinig toevoegt, omdat de tijd voor een afweging meer kost dan het experiment. Het advies is zo'n tool gewoon te proberen en analysekracht te bewaren voor besluiten die niet makkelijk terug te draaien zijn.",
+      "Heeft het zin een AI-strateeg in te huren om een al genomen besluit te bekrachtigen?",
+      "Nee. Een AI-strateeg inhuren om een gekozen richting te bekrachtigen is verspilling, omdat er niets nieuws uit komt en elke afwijkende bevinding wordt weggemasseerd. Een onafhankelijke onderbouwing voor een board of toezichthouder is iets anders dan legitimatie kopen, omdat de uitkomst daar nog open staat.",
+      "Welke omvang van een opdracht voor een AI-strateeg klopt meestal?",
+      "Voor de meeste organisaties geldt een afgebakende opdracht voor een AI-strateeg van twee tot zes weken, of een deeltijdrol van een paar dagen per maand. Een traject dat langer duurt zonder tussentijdse beslismomenten, is zelden in het belang van de opdrachtgever.",
+      "Bron: artikel van Dave Willemstein. Bijgewerkt: oktober 2026.",
       "Eerst: wanneer je het zelf beter kunt",
       "Er zijn vier situaties waarin externe hulp weinig toevoegt, en waarin ik zelf doorverwijs of afhaak.",
       "1. De vraag is technisch en afgebakend",
@@ -281,231 +327,238 @@
     {
       "regio": "header",
       "soort": "intern",
-      "href": "/",
+      "href": "/nl",
       "anker": "",
       "rel": null
     },
     {
       "regio": "header",
       "soort": "intern",
-      "href": "/diensten",
+      "href": "/nl/diensten",
       "anker": "Diensten",
       "rel": null
     },
     {
       "regio": "header",
       "soort": "intern",
-      "href": "/cases",
+      "href": "/nl/cases",
       "anker": "Cases",
       "rel": null
     },
     {
       "regio": "header",
       "soort": "intern",
-      "href": "/werkwijze",
+      "href": "/nl/werkwijze",
       "anker": "Werkwijze",
       "rel": null
     },
     {
       "regio": "header",
       "soort": "intern",
-      "href": "/inzichten",
+      "href": "/nl/inzichten",
       "anker": "Inzichten",
       "rel": null
     },
     {
       "regio": "header",
       "soort": "intern",
-      "href": "/over",
+      "href": "/nl/over",
       "anker": "Over mij",
       "rel": null
     },
     {
       "regio": "header",
       "soort": "intern",
-      "href": "/contact",
+      "href": "/insights/when-do-you-really-need-an-ai-strategist",
+      "anker": "EN",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/nl/contact",
       "anker": "Plan een gesprek →",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/inzichten",
+      "href": "/nl/inzichten",
       "anker": "← Terug naar alle inzichten",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/contact",
+      "href": "/nl/contact",
       "anker": "Sparren over jouw situatie? 30 minuten, vrijblijvend →",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/inzichten/freelance-ai-consultant-vs-agency-vs-big4",
+      "href": "/nl/inzichten/freelance-ai-consultant-vs-agency-vs-big4",
       "anker": "⇄ Strategie Freelance AI consultant vs agency vs Big 4 Een eerlijke vergelijking op onafhankelijkheid, snelheid, diepgang, kosten en uitvoeringskracht. Zodat jij de juiste partner kiest, ook als dat niet ik ben. ◷ 4 min leestijd Lees artikel →",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/inzichten/de-business-case-voor-ai",
+      "href": "/nl/inzichten/de-business-case-voor-ai",
       "anker": "€ Strategie De business case voor AI: hoe je hem eerlijk berekent Tijdbesparing is geen besparing tot iemand die tijd anders besteedt. Een rekenmodel dat de toets van de CFO doorstaat. ◷ 5 min leestijd Lees artikel →",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/contact",
+      "href": "/nl/contact",
       "anker": "Plan een gesprek →",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/diensten/ai-readiness-assessment",
+      "href": "/nl/diensten/ai-readiness-assessment",
       "anker": "AI Readiness Assessment",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/diensten/ai-strategy-sprint",
+      "href": "/nl/diensten/ai-strategy-sprint",
       "anker": "AI Strategy Sprint",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/diensten/fractional-ai-lead",
+      "href": "/nl/diensten/fractional-ai-lead",
       "anker": "Fractional AI Lead",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/diensten",
+      "href": "/nl/diensten",
       "anker": "Alle diensten",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/cases",
+      "href": "/nl/cases",
       "anker": "Cases",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/werkwijze",
+      "href": "/nl/werkwijze",
       "anker": "Werkwijze",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/inzichten",
+      "href": "/nl/inzichten",
       "anker": "Inzichten",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/veelgestelde-vragen",
+      "href": "/nl/veelgestelde-vragen",
       "anker": "Veelgestelde vragen",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/over",
+      "href": "/nl/over",
       "anker": "Over mij",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-consultancy",
+      "href": "/nl/ai-consultancy",
       "anker": "AI consultancy",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-implementatie",
+      "href": "/nl/ai-implementatie",
       "anker": "AI implementatie",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-automatisering",
+      "href": "/nl/ai-automatisering",
       "anker": "AI automatisering",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-voor-bedrijven",
+      "href": "/nl/ai-voor-bedrijven",
       "anker": "AI voor bedrijven",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-development",
+      "href": "/nl/ai-development",
       "anker": "AI development",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-agents",
+      "href": "/nl/ai-agents",
       "anker": "AI agents",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-beleid",
+      "href": "/nl/ai-beleid",
       "anker": "AI beleid",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-workshop",
+      "href": "/nl/ai-workshop",
       "anker": "AI workshop",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/markten",
+      "href": "/nl/markten",
       "anker": "AI per branche",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/kennisbank",
+      "href": "/nl/kennisbank",
       "anker": "Kennisbank",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/tarieven",
+      "href": "/nl/tarieven",
       "anker": "Tarieven",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/partnernetwerk",
+      "href": "/nl/partnernetwerk",
       "anker": "Partnernetwerk",
       "rel": null
     },
@@ -526,48 +579,88 @@
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/contact",
+      "href": "/nl/contact",
       "anker": "Plan een gesprek",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/privacy",
+      "href": "/nl/privacy",
       "anker": "Privacyverklaring",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/algemene-voorwaarden",
+      "href": "/nl/algemene-voorwaarden",
       "anker": "Algemene voorwaarden",
       "rel": null
     }
   ],
   "structured_data": {
-    "sha256": "0f02f775a279e43e84cc06db0f4f2c5560fabf8d7bb094e90ad0a5f863ef0074",
+    "sha256": "3cfa44e7c72823250146aab18461b5183b617d187c5000afb7ee021d72ad763a",
     "items": [
-      {
-        "@context": "https://schema.org",
-        "@type": "BlogPosting",
-        "headline": "Wanneer heb je echt een AI-strateeg nodig?",
-        "description": "In de helft van de gevallen is het antwoord: niet. Vier situaties waarin externe hulp loont, en vier waarin je het zelf beter kunt.",
-        "datePublished": "2025-10-15",
-        "inLanguage": "nl-NL",
-        "articleSection": "Strategie",
-        "author": {
-          "@type": "Person",
-          "name": "Dave Willemstein",
-          "url": "https://freelanceaiconsultant.com",
-          "jobTitle": "Onafhankelijk AI-adviseur"
+      [
+        {
+          "@context": "https://schema.org",
+          "@type": "BlogPosting",
+          "headline": "Wanneer heb je echt een AI-strateeg nodig?",
+          "description": "In de helft van de gevallen is het antwoord: niet. Vier situaties waarin externe hulp loont, en vier waarin je het zelf beter kunt.",
+          "datePublished": "2025-10-15",
+          "inLanguage": "nl-NL",
+          "articleSection": "Strategie",
+          "author": {
+            "@type": "Person",
+            "name": "Dave Willemstein",
+            "url": "https://freelanceaiconsultant.com",
+            "jobTitle": "Onafhankelijk AI-adviseur"
+          },
+          "publisher": {
+            "@type": "Person",
+            "name": "Dave Willemstein"
+          },
+          "mainEntityOfPage": "https://freelanceaiconsultant.com/nl/inzichten/wanneer-heb-je-echt-een-ai-strateeg-nodig"
         },
-        "publisher": {
-          "@type": "Person",
-          "name": "Dave Willemstein"
-        },
-        "mainEntityOfPage": "https://freelanceaiconsultant.com/inzichten/wanneer-heb-je-echt-een-ai-strateeg-nodig"
-      }
+        {
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "In welke situaties loont het om een AI-strateeg in te huren?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Een AI-strateeg inhuren loont in vier situaties: bij een duur besluit dat moeilijk terug te draaien is, bij een interne patstelling, bij een investering die aan een board of toezichthouder moet worden uitgelegd, en bij een eerste keer onder hoge tijdsdruk. Bij technische en afgebakende vragen, kleine omkeerbare besluiten, een interne lead met mandaat of een besluit dat al genomen is, voegt externe hulp weinig toe. Voor de meeste organisaties geldt een afgebakende opdracht of een deeltijdrol van een paar dagen per maand."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Wat voegt een AI-strateeg toe bij de keuze van een kleine, maandelijks opzegbare tool?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Weinig: bij een klein en omkeerbaar besluit is een AI-strateeg externe hulp die weinig toevoegt, omdat de tijd voor een afweging meer kost dan het experiment. Het advies is zo'n tool gewoon te proberen en analysekracht te bewaren voor besluiten die niet makkelijk terug te draaien zijn."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Heeft het zin een AI-strateeg in te huren om een al genomen besluit te bekrachtigen?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Nee. Een AI-strateeg inhuren om een gekozen richting te bekrachtigen is verspilling, omdat er niets nieuws uit komt en elke afwijkende bevinding wordt weggemasseerd. Een onafhankelijke onderbouwing voor een board of toezichthouder is iets anders dan legitimatie kopen, omdat de uitkomst daar nog open staat."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Welke omvang van een opdracht voor een AI-strateeg klopt meestal?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Voor de meeste organisaties geldt een afgebakende opdracht voor een AI-strateeg van twee tot zes weken, of een deeltijdrol van een paar dagen per maand. Een traject dat langer duurt zonder tussentijdse beslismomenten, is zelden in het belang van de opdrachtgever."
+              }
+            }
+          ]
+        }
+      ]
     ]
   },
   "afbeeldingen": [
@@ -606,12 +699,12 @@
     ],
     "stylesheets": [
       "https://fonts.googleapis.com/css2?family=Caveat:wght@600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap",
-      "/_astro/_slug_.bq6BBoZ5.css",
-      "/_astro/_slug_.CyUYGuAp.css",
+      "/_astro/_slug_.BzqUXH8l.css",
+      "/_astro/_slug_.CwnNFvzF.css",
       "/logo-carousel/logo-carousel.css?v=2"
     ],
     "aantal_details": 0,
     "aantal_tabellen": 0
   },
-  "gemeten_op": "2026-10-06"
+  "gemeten_op": "2026-10-28"
 }

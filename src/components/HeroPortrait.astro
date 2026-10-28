@@ -2,7 +2,7 @@
 import { site } from '../data/site.js';
 const { compact = false, locale = 'nl' } = Astro.props;
 const note = locale === 'en' ? 'trust,<br/>experience, impact ↓' : 'vertrouwen,<br/>ervaring, impact ↓';
-const s3 = locale === 'en' ? 'Senior only<br/>20+ years experience' : 'Senior only<br/>20+ jaar ervaring';
+const s3 = locale === 'en' ? 'Senior only<br/>Since 2006' : 'Senior only<br/>Sinds 2006';
 ---
 <div class:list={['portrait-stage', compact && 'compact']}>
   <div class="blob"></div>

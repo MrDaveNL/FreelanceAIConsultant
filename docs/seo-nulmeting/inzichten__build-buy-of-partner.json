@@ -2,15 +2,28 @@
   "url": "/inzichten/build-buy-of-partner",
   "build_bestand": "dist/inzichten/build-buy-of-partner/index.html",
   "html": {
-    "bytes": 30742,
+    "bytes": 35814,
     "lang": "nl"
   },
   "beschermd": {
     "title": "Build, buy of partner: wat past bij jouw situatie?",
     "meta_description": "De vraag is zelden \"kunnen we dit zelf bouwen?\" maar \"willen we dit over drie jaar nog steeds onderhouden?\". Een beslisraamwerk in vier vragen.",
-    "canonical": "https://freelanceaiconsultant.com/inzichten/build-buy-of-partner",
+    "canonical": "https://freelanceaiconsultant.com/nl/inzichten/build-buy-of-partner",
     "robots_meta": null,
-    "hreflang": [],
+    "hreflang": [
+      {
+        "hreflang": "en",
+        "href": "https://freelanceaiconsultant.com/insights/build-buy-or-partner"
+      },
+      {
+        "hreflang": "nl",
+        "href": "https://freelanceaiconsultant.com/nl/inzichten/build-buy-of-partner"
+      },
+      {
+        "hreflang": "x-default",
+        "href": "https://freelanceaiconsultant.com/insights/build-buy-or-partner"
+      }
+    ],
     "h1": [
       "Build, buy of partner: wat past bij jouw situatie?"
     ]
@@ -21,7 +34,7 @@
     "og:site_name": "freelanceaiconsultant.com",
     "og:title": "Build, buy of partner: wat past bij jouw situatie?",
     "og:description": "De vraag is zelden \"kunnen we dit zelf bouwen?\" maar \"willen we dit over drie jaar nog steeds onderhouden?\". Een beslisraamwerk in vier vragen.",
-    "og:url": "https://freelanceaiconsultant.com/inzichten/build-buy-of-partner",
+    "og:url": "https://freelanceaiconsultant.com/nl/inzichten/build-buy-of-partner",
     "og:image": "https://freelanceaiconsultant.com/images/dave-portrait.jpg",
     "twitter:card": "summary_large_image",
     "twitter:title": "Build, buy of partner: wat past bij jouw situatie?",
@@ -32,6 +45,24 @@
     {
       "niveau": 1,
       "tekst": "Build, buy of partner: wat past bij jouw situatie?",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "Wanneer kiest een organisatie bij AI voor build, buy of partner?",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 3,
+      "tekst": "Blijft zelf bouwen bij build, buy of partner goedkoop na jaar één?",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 3,
+      "tekst": "Is kopen bij twijfel tussen build, buy of partner de goedkoopste manier om te leren wat nodig is?",
       "regio": "main",
       "id": null
     },
@@ -110,8 +141,8 @@
   ],
   "bodytekst": {
     "regio": "main",
-    "woorden": 1212,
-    "sha256": "410aa1b86d73a9c22fb045c5e149db62bf432361cb52f32e1832876aef34ec80",
+    "woorden": 1416,
+    "sha256": "ae74324db468934598a58547fa280f34f80ca7cf78c77cc2355db969d5c71cf1",
     "blokken": [
       "← Terug naar alle inzichten",
       "Organisatie",
@@ -122,7 +153,7 @@
       "Door Dave Willemstein Independent AI Advisor, onafhankelijk, geen leveranciersbelangen",
       "Ik help organisaties AI-beslissingen nemen die waarde creëren. Geen dikke decks, wel duidelijke keuzes en tastbare resultaten.",
       "vertrouwen, ervaring, impact ↓",
-      "Independent No vendor bias Senior only 20+ jaar ervaring",
+      "Independent No vendor bias Senior only Sinds 2006",
       "IN HET KORT",
       "Bouw alleen wat je onderscheidt in de markt.",
       "Koop alles wat een commodity is, ook als je het zelf kunt.",
@@ -186,6 +217,13 @@
       "Proces & productivity",
       "Zakelijke dienstverlener",
       "Interne AI-assistent voor kenniswerkers",
+      "Wanneer kiest een organisatie bij AI voor build, buy of partner?",
+      "De keuze tussen build, buy of partner bij AI hangt af van vier vragen: is de toepassing onderscheidend, wat kost ze in jaar vijf, wie moet de uitkomst kunnen sturen en hoe verloopt de exit. Zelf bouwen past alleen bij wat een organisatie in de markt onderscheidt, kopen bij alles wat een commodity is, en een partner bij toepassingen waar sturing op de uitkomst nodig is zonder de techniek te bezitten. De opzet die het vaakst standhoudt is een mengvorm: de bouwstenen kopen, de laag met eigen kennis zelf bouwen en voor de implementatie een partner inschakelen.",
+      "Blijft zelf bouwen bij build, buy of partner goedkoop na jaar één?",
+      "Vaak keert de conclusie om wanneer het onderhoud vijf jaar wordt doorgerekend en met een licentie vergeleken: bij build, buy of partner is bouwen goedkoop in jaar één.",
+      "Is kopen bij twijfel tussen build, buy of partner de goedkoopste manier om te leren wat nodig is?",
+      "Bijna altijd: bij twijfel tussen build, buy of partner is kopen bijna altijd de goedkoopste manier om te leren wat werkelijk nodig is. Later bouwen kan alsnog, met een scherpere specificatie.",
+      "Bron: artikel van Dave Willemstein. Bijgewerkt: oktober 2026.",
       "Waarom deze keuze zwaarder weegt bij AI",
       "Bij klassieke software was build-or-buy vooral een kostenvraag. Bij AI komen er drie factoren bij die de afweging structureel anders maken.",
       "Ten eerste verandert de onderliggende technologie sneller dan je afschrijvingstermijn. Een model dat je vandaag zelf fijnafstemt, kan over achttien maanden worden ingehaald door een generiek model dat het out-of-the-box beter doet en goedkoper is. Ten tweede is het onderhoud fundamenteel anders: modellen verslechteren stilletjes als de werkelijkheid verschuift, en dat vraagt permanente monitoring in plaats van incidenteel patchen. Ten derde zit de waarde vaak niet in het model maar in je data en je werkproces, en die twee koop je sowieso niet.",
@@ -261,231 +299,238 @@
     {
       "regio": "header",
       "soort": "intern",
-      "href": "/",
+      "href": "/nl",
       "anker": "",
       "rel": null
     },
     {
       "regio": "header",
       "soort": "intern",
-      "href": "/diensten",
+      "href": "/nl/diensten",
       "anker": "Diensten",
       "rel": null
     },
     {
       "regio": "header",
       "soort": "intern",
-      "href": "/cases",
+      "href": "/nl/cases",
       "anker": "Cases",
       "rel": null
     },
     {
       "regio": "header",
       "soort": "intern",
-      "href": "/werkwijze",
+      "href": "/nl/werkwijze",
       "anker": "Werkwijze",
       "rel": null
     },
     {
       "regio": "header",
       "soort": "intern",
-      "href": "/inzichten",
+      "href": "/nl/inzichten",
       "anker": "Inzichten",
       "rel": null
     },
     {
       "regio": "header",
       "soort": "intern",
-      "href": "/over",
+      "href": "/nl/over",
       "anker": "Over mij",
       "rel": null
     },
     {
       "regio": "header",
       "soort": "intern",
-      "href": "/contact",
+      "href": "/insights/build-buy-or-partner",
+      "anker": "EN",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/nl/contact",
       "anker": "Plan een gesprek →",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/inzichten",
+      "href": "/nl/inzichten",
       "anker": "← Terug naar alle inzichten",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/contact",
+      "href": "/nl/contact",
       "anker": "Sparren over jouw situatie? 30 minuten, vrijblijvend →",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/inzichten/ai-vendorselectie-in-acht-stappen",
+      "href": "/nl/inzichten/ai-vendorselectie-in-acht-stappen",
       "anker": "◈ Tools & data AI-vendorselectie in acht stappen Criteria eerst, leveranciers daarna. Een selectieproces dat bestand is tegen goede demo’s en interne voorkeuren. ◷ 5 min leestijd Lees artikel →",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/inzichten/het-datafundament-onder-ai",
+      "href": "/nl/inzichten/het-datafundament-onder-ai",
       "anker": "◫ Tools & data De rol van het datafundament in succesvolle AI-initiatieven \"Eerst de data op orde\" is net zo vaak een excuus als een noodzaak. Hoe je bepaalt welke van de twee bij jou speelt. ◷ 4 min leestijd Lees artikel →",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/contact",
+      "href": "/nl/contact",
       "anker": "Plan een gesprek →",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/diensten/ai-readiness-assessment",
+      "href": "/nl/diensten/ai-readiness-assessment",
       "anker": "AI Readiness Assessment",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/diensten/ai-strategy-sprint",
+      "href": "/nl/diensten/ai-strategy-sprint",
       "anker": "AI Strategy Sprint",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/diensten/fractional-ai-lead",
+      "href": "/nl/diensten/fractional-ai-lead",
       "anker": "Fractional AI Lead",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/diensten",
+      "href": "/nl/diensten",
       "anker": "Alle diensten",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/cases",
+      "href": "/nl/cases",
       "anker": "Cases",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/werkwijze",
+      "href": "/nl/werkwijze",
       "anker": "Werkwijze",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/inzichten",
+      "href": "/nl/inzichten",
       "anker": "Inzichten",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/veelgestelde-vragen",
+      "href": "/nl/veelgestelde-vragen",
       "anker": "Veelgestelde vragen",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/over",
+      "href": "/nl/over",
       "anker": "Over mij",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-consultancy",
+      "href": "/nl/ai-consultancy",
       "anker": "AI consultancy",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-implementatie",
+      "href": "/nl/ai-implementatie",
       "anker": "AI implementatie",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-automatisering",
+      "href": "/nl/ai-automatisering",
       "anker": "AI automatisering",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-voor-bedrijven",
+      "href": "/nl/ai-voor-bedrijven",
       "anker": "AI voor bedrijven",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-development",
+      "href": "/nl/ai-development",
       "anker": "AI development",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-agents",
+      "href": "/nl/ai-agents",
       "anker": "AI agents",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-beleid",
+      "href": "/nl/ai-beleid",
       "anker": "AI beleid",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-workshop",
+      "href": "/nl/ai-workshop",
       "anker": "AI workshop",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/markten",
+      "href": "/nl/markten",
       "anker": "AI per branche",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/kennisbank",
+      "href": "/nl/kennisbank",
       "anker": "Kennisbank",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/tarieven",
+      "href": "/nl/tarieven",
       "anker": "Tarieven",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/partnernetwerk",
+      "href": "/nl/partnernetwerk",
       "anker": "Partnernetwerk",
       "rel": null
     },
@@ -506,48 +551,80 @@
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/contact",
+      "href": "/nl/contact",
       "anker": "Plan een gesprek",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/privacy",
+      "href": "/nl/privacy",
       "anker": "Privacyverklaring",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/algemene-voorwaarden",
+      "href": "/nl/algemene-voorwaarden",
       "anker": "Algemene voorwaarden",
       "rel": null
     }
   ],
   "structured_data": {
-    "sha256": "8f565de86f44c6a8db85e51f9d10a4861d5e78d581f34265164b16cda2b6677c",
+    "sha256": "1e66f8f3e53b83530cf076fb78c2543f70b3559cb9e5f38b9ed9478692984510",
     "items": [
-      {
-        "@context": "https://schema.org",
-        "@type": "BlogPosting",
-        "headline": "Build, buy of partner: wat past bij jouw situatie?",
-        "description": "De vraag is zelden \"kunnen we dit zelf bouwen?\" maar \"willen we dit over drie jaar nog steeds onderhouden?\". Een beslisraamwerk in vier vragen.",
-        "datePublished": "2026-05-28",
-        "inLanguage": "nl-NL",
-        "articleSection": "Organisatie",
-        "author": {
-          "@type": "Person",
-          "name": "Dave Willemstein",
-          "url": "https://freelanceaiconsultant.com",
-          "jobTitle": "Onafhankelijk AI-adviseur"
+      [
+        {
+          "@context": "https://schema.org",
+          "@type": "BlogPosting",
+          "headline": "Build, buy of partner: wat past bij jouw situatie?",
+          "description": "De vraag is zelden \"kunnen we dit zelf bouwen?\" maar \"willen we dit over drie jaar nog steeds onderhouden?\". Een beslisraamwerk in vier vragen.",
+          "datePublished": "2026-05-28",
+          "inLanguage": "nl-NL",
+          "articleSection": "Organisatie",
+          "author": {
+            "@type": "Person",
+            "name": "Dave Willemstein",
+            "url": "https://freelanceaiconsultant.com",
+            "jobTitle": "Onafhankelijk AI-adviseur"
+          },
+          "publisher": {
+            "@type": "Person",
+            "name": "Dave Willemstein"
+          },
+          "mainEntityOfPage": "https://freelanceaiconsultant.com/nl/inzichten/build-buy-of-partner"
         },
-        "publisher": {
-          "@type": "Person",
-          "name": "Dave Willemstein"
-        },
-        "mainEntityOfPage": "https://freelanceaiconsultant.com/inzichten/build-buy-of-partner"
-      }
+        {
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "Wanneer kiest een organisatie bij AI voor build, buy of partner?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "De keuze tussen build, buy of partner bij AI hangt af van vier vragen: is de toepassing onderscheidend, wat kost ze in jaar vijf, wie moet de uitkomst kunnen sturen en hoe verloopt de exit. Zelf bouwen past alleen bij wat een organisatie in de markt onderscheidt, kopen bij alles wat een commodity is, en een partner bij toepassingen waar sturing op de uitkomst nodig is zonder de techniek te bezitten. De opzet die het vaakst standhoudt is een mengvorm: de bouwstenen kopen, de laag met eigen kennis zelf bouwen en voor de implementatie een partner inschakelen."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Blijft zelf bouwen bij build, buy of partner goedkoop na jaar één?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Vaak keert de conclusie om wanneer het onderhoud vijf jaar wordt doorgerekend en met een licentie vergeleken: bij build, buy of partner is bouwen goedkoop in jaar één."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Is kopen bij twijfel tussen build, buy of partner de goedkoopste manier om te leren wat nodig is?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Bijna altijd: bij twijfel tussen build, buy of partner is kopen bijna altijd de goedkoopste manier om te leren wat werkelijk nodig is. Later bouwen kan alsnog, met een scherpere specificatie."
+              }
+            }
+          ]
+        }
+      ]
     ]
   },
   "afbeeldingen": [
@@ -586,12 +663,12 @@
     ],
     "stylesheets": [
       "https://fonts.googleapis.com/css2?family=Caveat:wght@600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap",
-      "/_astro/_slug_.bq6BBoZ5.css",
-      "/_astro/_slug_.CyUYGuAp.css",
+      "/_astro/_slug_.BzqUXH8l.css",
+      "/_astro/_slug_.CwnNFvzF.css",
       "/logo-carousel/logo-carousel.css?v=2"
     ],
     "aantal_details": 0,
     "aantal_tabellen": 0
   },
-  "gemeten_op": "2026-10-06"
+  "gemeten_op": "2026-10-28"
 }

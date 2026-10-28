@@ -2,15 +2,28 @@
   "url": "/over",
   "build_bestand": "dist/over/index.html",
   "html": {
-    "bytes": 30297,
+    "bytes": 30758,
     "lang": "nl"
   },
   "beschermd": {
     "title": "Over Dave | Freelance AI Consultant",
-    "meta_description": "Dave Willemstein is onafhankelijk AI-adviseur voor boards en leiders. 20+ jaar ervaring in strategie, digital en innovatie. Geen vendorbelangen.",
-    "canonical": "https://freelanceaiconsultant.com/over",
+    "meta_description": "Dave Willemstein is onafhankelijk AI-adviseur. Sinds 2006 in search, sinds 2021 bouw ik AI-tools en automatiseringen. Geen vendorbelangen.",
+    "canonical": "https://freelanceaiconsultant.com/nl/over",
     "robots_meta": null,
-    "hreflang": [],
+    "hreflang": [
+      {
+        "hreflang": "en",
+        "href": "https://freelanceaiconsultant.com/about"
+      },
+      {
+        "hreflang": "nl",
+        "href": "https://freelanceaiconsultant.com/nl/over"
+      },
+      {
+        "hreflang": "x-default",
+        "href": "https://freelanceaiconsultant.com/about"
+      }
+    ],
     "h1": [
       "Hi, ik ben Dave. Onafhankelijk AI-adviseur voor boards en leiders die vooruit willen."
     ]
@@ -20,12 +33,12 @@
     "og:locale": "nl_NL",
     "og:site_name": "freelanceaiconsultant.com",
     "og:title": "Over Dave | Freelance AI Consultant",
-    "og:description": "Dave Willemstein is onafhankelijk AI-adviseur voor boards en leiders. 20+ jaar ervaring in strategie, digital en innovatie. Geen vendorbelangen.",
-    "og:url": "https://freelanceaiconsultant.com/over",
+    "og:description": "Dave Willemstein is onafhankelijk AI-adviseur. Sinds 2006 in search, sinds 2021 bouw ik AI-tools en automatiseringen. Geen vendorbelangen.",
+    "og:url": "https://freelanceaiconsultant.com/nl/over",
     "og:image": "https://freelanceaiconsultant.com/images/dave-portrait.jpg",
     "twitter:card": "summary_large_image",
     "twitter:title": "Over Dave | Freelance AI Consultant",
-    "twitter:description": "Dave Willemstein is onafhankelijk AI-adviseur voor boards en leiders. 20+ jaar ervaring in strategie, digital en innovatie. Geen vendorbelangen.",
+    "twitter:description": "Dave Willemstein is onafhankelijk AI-adviseur. Sinds 2006 in search, sinds 2021 bouw ik AI-tools en automatiseringen. Geen vendorbelangen.",
     "twitter:image": "https://freelanceaiconsultant.com/images/dave-portrait.jpg"
   },
   "koppen": [
@@ -62,15 +75,15 @@
   ],
   "bodytekst": {
     "regio": "main",
-    "woorden": 646,
-    "sha256": "39e5e17d670d638f1a376c717401bd4fbc0f44d51ecd20d760b244628cf0881a",
+    "woorden": 647,
+    "sha256": "7845aff586ba37bc5cce1e4886be0d4a4d883475c1f9c6a339bda102fcd81a0f",
     "blokken": [
       "Over mij",
       "Hi, ik ben Dave. Onafhankelijk AI-adviseur voor boards en leiders die vooruit willen.",
       "Ik help organisaties AI-beslissingen nemen die waarde creëren, risico’s beperken en écht passen bij hun strategie. Geen verkooppraat. Geen tool-voorkeuren. Wel helder advies, scherpe keuzes en begeleiding van mens tot proces.",
       "Plan een gesprek → Neem contact op → 30 min., geen pitch deck",
       "vertrouwen, ervaring, impact ↓",
-      "Independent No vendor bias Senior only 20+ jaar ervaring",
+      "Independent No vendor bias Senior only Sinds 2006",
       "AI in Europa",
       "Europese merken die AI al in productie hebben.",
       "Geen klanten van mij. Wel voorbeelden van wat er gebeurt als AI voorbij de pilot komt.",
@@ -131,12 +144,12 @@
       "Interne AI-assistent voor kenniswerkers",
       "Mijn verhaal",
       "Van strategie naar uitvoering. Met impact.",
-      "Na twintig jaar in strategie, digital en innovatie aan klant- én leverancierszijde, zag ik steeds hetzelfde patroon: goede intenties, maar vage keuzes. Tools vóór strategie. Hype vóór waarde. En adviseurs die meeverdienden aan de oplossing die ze aanraadden.",
+      "Sinds 2006 werk ik in strategie, digital en innovatie aan klant- én leverancierszijde, en zag ik steeds hetzelfde patroon: goede intenties, maar vage keuzes. Tools vóór strategie. Hype vóór waarde. En adviseurs die meeverdienden aan de oplossing die ze aanraadden.",
       "Ik startte freelanceaiconsultant.com om daar verandering in te brengen. Ik werk zelfstandig, onafhankelijk en altijd in jouw belang. Eén senior adviseur. Geen juniors op je project. Geen ruis.",
       "Dat betekent ook dat ik niet alles kan. Grote implementatieprogramma’s, teams van tien ontwikkelaars, wereldwijde uitrol: daar ben ik de verkeerde partij voor, en dat zeg ik dan ook.",
       "Ervaring in het kort",
       "✓",
-      "20+ jaar Strategie, digital en innovatie, aan klant- én leverancierszijde",
+      "Sinds 2006 Strategie, digital en innovatie, aan klant- én leverancierszijde",
       "✓",
       "100+ trajecten Van AI-strategie en vendorselectie tot implementatiebegeleiding",
       "✓",
@@ -198,70 +211,77 @@
     {
       "regio": "header",
       "soort": "intern",
-      "href": "/",
+      "href": "/nl",
       "anker": "",
       "rel": null
     },
     {
       "regio": "header",
       "soort": "intern",
-      "href": "/diensten",
+      "href": "/nl/diensten",
       "anker": "Diensten",
       "rel": null
     },
     {
       "regio": "header",
       "soort": "intern",
-      "href": "/cases",
+      "href": "/nl/cases",
       "anker": "Cases",
       "rel": null
     },
     {
       "regio": "header",
       "soort": "intern",
-      "href": "/werkwijze",
+      "href": "/nl/werkwijze",
       "anker": "Werkwijze",
       "rel": null
     },
     {
       "regio": "header",
       "soort": "intern",
-      "href": "/inzichten",
+      "href": "/nl/inzichten",
       "anker": "Inzichten",
       "rel": null
     },
     {
       "regio": "header",
       "soort": "intern",
-      "href": "/over",
+      "href": "/nl/over",
       "anker": "Over mij",
       "rel": null
     },
     {
       "regio": "header",
       "soort": "intern",
-      "href": "/contact",
+      "href": "/about",
+      "anker": "EN",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/nl/contact",
       "anker": "Plan een gesprek →",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/contact",
+      "href": "/nl/contact",
       "anker": "Plan een gesprek →",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/contact",
+      "href": "/nl/contact",
       "anker": "Neem contact op →",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/contact",
+      "href": "/nl/contact",
       "anker": "Vraag naar beschikbaarheid →",
       "rel": null
     },
@@ -282,161 +302,161 @@
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/contact",
+      "href": "/nl/contact",
       "anker": "Naar het contactformulier →",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/contact",
+      "href": "/nl/contact",
       "anker": "Plan een gesprek →",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/diensten/ai-readiness-assessment",
+      "href": "/nl/diensten/ai-readiness-assessment",
       "anker": "AI Readiness Assessment",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/diensten/ai-strategy-sprint",
+      "href": "/nl/diensten/ai-strategy-sprint",
       "anker": "AI Strategy Sprint",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/diensten/fractional-ai-lead",
+      "href": "/nl/diensten/fractional-ai-lead",
       "anker": "Fractional AI Lead",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/diensten",
+      "href": "/nl/diensten",
       "anker": "Alle diensten",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/cases",
+      "href": "/nl/cases",
       "anker": "Cases",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/werkwijze",
+      "href": "/nl/werkwijze",
       "anker": "Werkwijze",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/inzichten",
+      "href": "/nl/inzichten",
       "anker": "Inzichten",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/veelgestelde-vragen",
+      "href": "/nl/veelgestelde-vragen",
       "anker": "Veelgestelde vragen",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/over",
+      "href": "/nl/over",
       "anker": "Over mij",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-consultancy",
+      "href": "/nl/ai-consultancy",
       "anker": "AI consultancy",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-implementatie",
+      "href": "/nl/ai-implementatie",
       "anker": "AI implementatie",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-automatisering",
+      "href": "/nl/ai-automatisering",
       "anker": "AI automatisering",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-voor-bedrijven",
+      "href": "/nl/ai-voor-bedrijven",
       "anker": "AI voor bedrijven",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-development",
+      "href": "/nl/ai-development",
       "anker": "AI development",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-agents",
+      "href": "/nl/ai-agents",
       "anker": "AI agents",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-beleid",
+      "href": "/nl/ai-beleid",
       "anker": "AI beleid",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-workshop",
+      "href": "/nl/ai-workshop",
       "anker": "AI workshop",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/markten",
+      "href": "/nl/markten",
       "anker": "AI per branche",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/kennisbank",
+      "href": "/nl/kennisbank",
       "anker": "Kennisbank",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/tarieven",
+      "href": "/nl/tarieven",
       "anker": "Tarieven",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/partnernetwerk",
+      "href": "/nl/partnernetwerk",
       "anker": "Partnernetwerk",
       "rel": null
     },
@@ -457,34 +477,34 @@
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/contact",
+      "href": "/nl/contact",
       "anker": "Plan een gesprek",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/privacy",
+      "href": "/nl/privacy",
       "anker": "Privacyverklaring",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/algemene-voorwaarden",
+      "href": "/nl/algemene-voorwaarden",
       "anker": "Algemene voorwaarden",
       "rel": null
     }
   ],
   "structured_data": {
-    "sha256": "152b9dc1614c586bc9e8a876dd6c8ea3ca968abbcf207dd10ef33fc7b0fb825b",
+    "sha256": "fd9b29e71d0bb0af2c4ae0eec1e580bda3c18125fef04f47afd82d68a7d9a9b7",
     "items": [
       {
         "@context": "https://schema.org",
         "@type": "Person",
         "name": "Dave Willemstein",
         "jobTitle": "Onafhankelijk AI-adviseur",
-        "url": "https://freelanceaiconsultant.com/over",
+        "url": "https://freelanceaiconsultant.com/nl/over",
         "email": "dave@freelanceaiconsultant.com",
         "image": "https://freelanceaiconsultant.com/images/dave-portrait.jpg",
         "sameAs": [
@@ -536,11 +556,11 @@
     ],
     "stylesheets": [
       "https://fonts.googleapis.com/css2?family=Caveat:wght@600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap",
-      "/_astro/_slug_.bq6BBoZ5.css",
+      "/_astro/_slug_.BzqUXH8l.css",
       "/logo-carousel/logo-carousel.css?v=2"
     ],
     "aantal_details": 0,
     "aantal_tabellen": 0
   },
-  "gemeten_op": "2026-10-06"
+  "gemeten_op": "2026-10-28"
 }

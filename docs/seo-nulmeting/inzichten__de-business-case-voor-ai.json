@@ -2,15 +2,28 @@
   "url": "/inzichten/de-business-case-voor-ai",
   "build_bestand": "dist/inzichten/de-business-case-voor-ai/index.html",
   "html": {
-    "bytes": 31318,
+    "bytes": 35333,
     "lang": "nl"
   },
   "beschermd": {
     "title": "De business case voor AI: hoe je hem eerlijk berekent",
     "meta_description": "Tijdbesparing is geen besparing tot iemand die tijd anders besteedt. Een rekenmodel voor de AI business case dat de toets van de CFO doorstaat.",
-    "canonical": "https://freelanceaiconsultant.com/inzichten/de-business-case-voor-ai",
+    "canonical": "https://freelanceaiconsultant.com/nl/inzichten/de-business-case-voor-ai",
     "robots_meta": null,
-    "hreflang": [],
+    "hreflang": [
+      {
+        "hreflang": "en",
+        "href": "https://freelanceaiconsultant.com/insights/the-business-case-for-ai"
+      },
+      {
+        "hreflang": "nl",
+        "href": "https://freelanceaiconsultant.com/nl/inzichten/de-business-case-voor-ai"
+      },
+      {
+        "hreflang": "x-default",
+        "href": "https://freelanceaiconsultant.com/insights/the-business-case-for-ai"
+      }
+    ],
     "h1": [
       "De business case voor AI, eerlijk berekend"
     ]
@@ -21,7 +34,7 @@
     "og:site_name": "freelanceaiconsultant.com",
     "og:title": "De business case voor AI: hoe je hem eerlijk berekent",
     "og:description": "Tijdbesparing is geen besparing tot iemand die tijd anders besteedt. Een rekenmodel voor de AI business case dat de toets van de CFO doorstaat.",
-    "og:url": "https://freelanceaiconsultant.com/inzichten/de-business-case-voor-ai",
+    "og:url": "https://freelanceaiconsultant.com/nl/inzichten/de-business-case-voor-ai",
     "og:image": "https://freelanceaiconsultant.com/images/dave-portrait.jpg",
     "twitter:card": "summary_large_image",
     "twitter:title": "De business case voor AI: hoe je hem eerlijk berekent",
@@ -32,6 +45,18 @@
     {
       "niveau": 1,
       "tekst": "De business case voor AI, eerlijk berekend",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "Wat hoort er in een business case voor AI die een jaar later nog standhoudt?",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 3,
+      "tekst": "Telt extra tijd voor waardevol werk mee als besparing in een business case voor AI?",
       "regio": "main",
       "id": null
     },
@@ -146,8 +171,8 @@
   ],
   "bodytekst": {
     "regio": "main",
-    "woorden": 1289,
-    "sha256": "2b622ce7d5c871e9c639596293298a7bdf2f60d59763a98036215251d1937de5",
+    "woorden": 1407,
+    "sha256": "c61adc77fe5ce37b27d9059bf51ca84e4ab1d7ca27f06a1c117bd9956e9fed89",
     "blokken": [
       "← Terug naar alle inzichten",
       "Strategie",
@@ -158,7 +183,7 @@
       "Door Dave Willemstein Independent AI Advisor, onafhankelijk, geen leveranciersbelangen",
       "Ik help organisaties AI-beslissingen nemen die waarde creëren. Geen dikke decks, wel duidelijke keuzes en tastbare resultaten.",
       "vertrouwen, ervaring, impact ↓",
-      "Independent No vendor bias Senior only 20+ jaar ervaring",
+      "Independent No vendor bias Senior only Sinds 2006",
       "IN HET KORT",
       "Bespaarde uren tellen pas als besparing als de kosten echt dalen.",
       "Reken de volledige kostenkant mee: bouw, beheer, verbruik, verandering.",
@@ -222,6 +247,11 @@
       "Proces & productivity",
       "Zakelijke dienstverlener",
       "Interne AI-assistent voor kenniswerkers",
+      "Wat hoort er in een business case voor AI die een jaar later nog standhoudt?",
+      "In een business case voor AI tellen bespaarde uren pas als besparing wanneer de kosten echt dalen, en hoort de volledige kostenkant: verbruik, beheer, integratie, verandering en governance. De uitkomst staat er als bandbreedte in, met de aannames over adoptie, volume en het omzetten van tijdwinst in geld zichtbaar bovenaan.",
+      "Telt extra tijd voor waardevol werk mee als besparing in een business case voor AI?",
+      "Nee. Meer tijd voor waardevol werk is echte waarde, maar geen financiële besparing. In een business case voor AI hoort die post bij de kwalitatieve baten en niet in de rekensom.",
+      "Bron: artikel van Dave Willemstein. Bijgewerkt: oktober 2026.",
       "Waar AI-businesscases sneuvelen",
       "Niet bij de goedkeuring, want daar doen ze het meestal prima. Ze sneuvelen een jaar later, bij de vraag of het beloofde resultaat is gehaald. Op dat moment blijkt de belofte niet meetbaar, de kostenkant incompleet, en de besparing niet terug te vinden in enige begroting.",
       "Dat is jammer, want het beschadigt het vertrouwen in de volgende businesscase, ook als die beter is.",
@@ -301,231 +331,238 @@
     {
       "regio": "header",
       "soort": "intern",
-      "href": "/",
+      "href": "/nl",
       "anker": "",
       "rel": null
     },
     {
       "regio": "header",
       "soort": "intern",
-      "href": "/diensten",
+      "href": "/nl/diensten",
       "anker": "Diensten",
       "rel": null
     },
     {
       "regio": "header",
       "soort": "intern",
-      "href": "/cases",
+      "href": "/nl/cases",
       "anker": "Cases",
       "rel": null
     },
     {
       "regio": "header",
       "soort": "intern",
-      "href": "/werkwijze",
+      "href": "/nl/werkwijze",
       "anker": "Werkwijze",
       "rel": null
     },
     {
       "regio": "header",
       "soort": "intern",
-      "href": "/inzichten",
+      "href": "/nl/inzichten",
       "anker": "Inzichten",
       "rel": null
     },
     {
       "regio": "header",
       "soort": "intern",
-      "href": "/over",
+      "href": "/nl/over",
       "anker": "Over mij",
       "rel": null
     },
     {
       "regio": "header",
       "soort": "intern",
-      "href": "/contact",
+      "href": "/insights/the-business-case-for-ai",
+      "anker": "EN",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/nl/contact",
       "anker": "Plan een gesprek →",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/inzichten",
+      "href": "/nl/inzichten",
       "anker": "← Terug naar alle inzichten",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/contact",
+      "href": "/nl/contact",
       "anker": "Sparren over jouw situatie? 30 minuten, vrijblijvend →",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/inzichten/van-ai-strategie-naar-waarde",
+      "href": "/nl/inzichten/van-ai-strategie-naar-waarde",
       "anker": "↗ Strategie Van AI-strategie naar waarde: een 3-stappenplan De meeste AI-strategieën stranden niet op de strategie, maar op de vertaling ervan. Drie stappen die die vertaling afdwingen. ◷ 4 min leestijd Lees artikel →",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/inzichten/welke-ai-use-cases-leveren-resultaat",
+      "href": "/nl/inzichten/welke-ai-use-cases-leveren-resultaat",
       "anker": "⌕ Use cases Welke AI-use cases leveren écht resultaat op? Niet de spectaculairste, maar de saaiste. Vier kenmerken die de winnaars delen, en vier patronen die vrijwel altijd stranden. ◷ 4 min leestijd Lees artikel →",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/contact",
+      "href": "/nl/contact",
       "anker": "Plan een gesprek →",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/diensten/ai-readiness-assessment",
+      "href": "/nl/diensten/ai-readiness-assessment",
       "anker": "AI Readiness Assessment",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/diensten/ai-strategy-sprint",
+      "href": "/nl/diensten/ai-strategy-sprint",
       "anker": "AI Strategy Sprint",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/diensten/fractional-ai-lead",
+      "href": "/nl/diensten/fractional-ai-lead",
       "anker": "Fractional AI Lead",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/diensten",
+      "href": "/nl/diensten",
       "anker": "Alle diensten",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/cases",
+      "href": "/nl/cases",
       "anker": "Cases",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/werkwijze",
+      "href": "/nl/werkwijze",
       "anker": "Werkwijze",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/inzichten",
+      "href": "/nl/inzichten",
       "anker": "Inzichten",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/veelgestelde-vragen",
+      "href": "/nl/veelgestelde-vragen",
       "anker": "Veelgestelde vragen",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/over",
+      "href": "/nl/over",
       "anker": "Over mij",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-consultancy",
+      "href": "/nl/ai-consultancy",
       "anker": "AI consultancy",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-implementatie",
+      "href": "/nl/ai-implementatie",
       "anker": "AI implementatie",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-automatisering",
+      "href": "/nl/ai-automatisering",
       "anker": "AI automatisering",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-voor-bedrijven",
+      "href": "/nl/ai-voor-bedrijven",
       "anker": "AI voor bedrijven",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-development",
+      "href": "/nl/ai-development",
       "anker": "AI development",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-agents",
+      "href": "/nl/ai-agents",
       "anker": "AI agents",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-beleid",
+      "href": "/nl/ai-beleid",
       "anker": "AI beleid",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-workshop",
+      "href": "/nl/ai-workshop",
       "anker": "AI workshop",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/markten",
+      "href": "/nl/markten",
       "anker": "AI per branche",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/kennisbank",
+      "href": "/nl/kennisbank",
       "anker": "Kennisbank",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/tarieven",
+      "href": "/nl/tarieven",
       "anker": "Tarieven",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/partnernetwerk",
+      "href": "/nl/partnernetwerk",
       "anker": "Partnernetwerk",
       "rel": null
     },
@@ -546,48 +583,72 @@
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/contact",
+      "href": "/nl/contact",
       "anker": "Plan een gesprek",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/privacy",
+      "href": "/nl/privacy",
       "anker": "Privacyverklaring",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/algemene-voorwaarden",
+      "href": "/nl/algemene-voorwaarden",
       "anker": "Algemene voorwaarden",
       "rel": null
     }
   ],
   "structured_data": {
-    "sha256": "c973f87d32155f83bff84cfb8230344c41741c10039d8cedae45e28df3f9b342",
+    "sha256": "67649247f6d1d58adc544197701914a5505a6dd388d18593cb2fb86c3a77edb0",
     "items": [
-      {
-        "@context": "https://schema.org",
-        "@type": "BlogPosting",
-        "headline": "De business case voor AI: hoe je hem eerlijk berekent",
-        "description": "Tijdbesparing is geen besparing tot iemand die tijd anders besteedt. Een rekenmodel dat de toets van de CFO doorstaat.",
-        "datePublished": "2026-01-29",
-        "inLanguage": "nl-NL",
-        "articleSection": "Strategie",
-        "author": {
-          "@type": "Person",
-          "name": "Dave Willemstein",
-          "url": "https://freelanceaiconsultant.com",
-          "jobTitle": "Onafhankelijk AI-adviseur"
+      [
+        {
+          "@context": "https://schema.org",
+          "@type": "BlogPosting",
+          "headline": "De business case voor AI: hoe je hem eerlijk berekent",
+          "description": "Tijdbesparing is geen besparing tot iemand die tijd anders besteedt. Een rekenmodel dat de toets van de CFO doorstaat.",
+          "datePublished": "2026-01-29",
+          "inLanguage": "nl-NL",
+          "articleSection": "Strategie",
+          "author": {
+            "@type": "Person",
+            "name": "Dave Willemstein",
+            "url": "https://freelanceaiconsultant.com",
+            "jobTitle": "Onafhankelijk AI-adviseur"
+          },
+          "publisher": {
+            "@type": "Person",
+            "name": "Dave Willemstein"
+          },
+          "mainEntityOfPage": "https://freelanceaiconsultant.com/nl/inzichten/de-business-case-voor-ai"
         },
-        "publisher": {
-          "@type": "Person",
-          "name": "Dave Willemstein"
-        },
-        "mainEntityOfPage": "https://freelanceaiconsultant.com/inzichten/de-business-case-voor-ai"
-      }
+        {
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "Wat hoort er in een business case voor AI die een jaar later nog standhoudt?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "In een business case voor AI tellen bespaarde uren pas als besparing wanneer de kosten echt dalen, en hoort de volledige kostenkant: verbruik, beheer, integratie, verandering en governance. De uitkomst staat er als bandbreedte in, met de aannames over adoptie, volume en het omzetten van tijdwinst in geld zichtbaar bovenaan."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Telt extra tijd voor waardevol werk mee als besparing in een business case voor AI?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Nee. Meer tijd voor waardevol werk is echte waarde, maar geen financiële besparing. In een business case voor AI hoort die post bij de kwalitatieve baten en niet in de rekensom."
+              }
+            }
+          ]
+        }
+      ]
     ]
   },
   "afbeeldingen": [
@@ -626,12 +687,12 @@
     ],
     "stylesheets": [
       "https://fonts.googleapis.com/css2?family=Caveat:wght@600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap",
-      "/_astro/_slug_.bq6BBoZ5.css",
-      "/_astro/_slug_.CyUYGuAp.css",
+      "/_astro/_slug_.BzqUXH8l.css",
+      "/_astro/_slug_.CwnNFvzF.css",
       "/logo-carousel/logo-carousel.css?v=2"
     ],
     "aantal_details": 0,
     "aantal_tabellen": 0
   },
-  "gemeten_op": "2026-10-06"
+  "gemeten_op": "2026-10-28"
 }

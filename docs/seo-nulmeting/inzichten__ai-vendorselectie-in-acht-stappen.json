@@ -2,15 +2,28 @@
   "url": "/inzichten/ai-vendorselectie-in-acht-stappen",
   "build_bestand": "dist/inzichten/ai-vendorselectie-in-acht-stappen/index.html",
   "html": {
-    "bytes": 31948,
+    "bytes": 37934,
     "lang": "nl"
   },
   "beschermd": {
     "title": "AI-vendorselectie in acht stappen | Freelance AI Consultant",
     "meta_description": "Criteria eerst, leveranciers daarna. Een selectieproces voor AI-leveranciers in acht stappen dat bestand is tegen goede demo's en interne voorkeuren.",
-    "canonical": "https://freelanceaiconsultant.com/inzichten/ai-vendorselectie-in-acht-stappen",
+    "canonical": "https://freelanceaiconsultant.com/nl/inzichten/ai-vendorselectie-in-acht-stappen",
     "robots_meta": null,
-    "hreflang": [],
+    "hreflang": [
+      {
+        "hreflang": "en",
+        "href": "https://freelanceaiconsultant.com/insights/ai-vendor-selection-in-eight-steps"
+      },
+      {
+        "hreflang": "nl",
+        "href": "https://freelanceaiconsultant.com/nl/inzichten/ai-vendorselectie-in-acht-stappen"
+      },
+      {
+        "hreflang": "x-default",
+        "href": "https://freelanceaiconsultant.com/insights/ai-vendor-selection-in-eight-steps"
+      }
+    ],
     "h1": [
       "AI-vendorselectie in acht stappen"
     ]
@@ -21,7 +34,7 @@
     "og:site_name": "freelanceaiconsultant.com",
     "og:title": "AI-vendorselectie in acht stappen | Freelance AI Consultant",
     "og:description": "Criteria eerst, leveranciers daarna. Een selectieproces voor AI-leveranciers in acht stappen dat bestand is tegen goede demo's en interne voorkeuren.",
-    "og:url": "https://freelanceaiconsultant.com/inzichten/ai-vendorselectie-in-acht-stappen",
+    "og:url": "https://freelanceaiconsultant.com/nl/inzichten/ai-vendorselectie-in-acht-stappen",
     "og:image": "https://freelanceaiconsultant.com/images/dave-portrait.jpg",
     "twitter:card": "summary_large_image",
     "twitter:title": "AI-vendorselectie in acht stappen | Freelance AI Consultant",
@@ -32,6 +45,30 @@
     {
       "niveau": 1,
       "tekst": "AI-vendorselectie in acht stappen",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "Hoe verloopt een AI-vendorselectie die niet door demo's of interne voorkeuren wordt beslist?",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 3,
+      "tekst": "Is de prijs het belangrijkste onderhandelpunt bij een AI-vendorselectie?",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 3,
+      "tekst": "Hoort een optie zonder aankoop in de vergelijking van een AI-vendorselectie?",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 3,
+      "tekst": "Over hoeveel jaar worden de kosten berekend in een AI-vendorselectie?",
       "regio": "main",
       "id": null
     },
@@ -122,8 +159,8 @@
   ],
   "bodytekst": {
     "regio": "main",
-    "woorden": 1341,
-    "sha256": "562cb7763bb558fa9b3c11f6b22263a717232360fc4d7be5c8ebb671e7a5acb8",
+    "woorden": 1563,
+    "sha256": "e658df5ef9769a44997e22ab72e686a8dabec4003a3515e6efbe7be349231939",
     "blokken": [
       "← Terug naar alle inzichten",
       "Tools & data",
@@ -134,7 +171,7 @@
       "Door Dave Willemstein Independent AI Advisor, onafhankelijk, geen leveranciersbelangen",
       "Ik help organisaties AI-beslissingen nemen die waarde creëren. Geen dikke decks, wel duidelijke keuzes en tastbare resultaten.",
       "vertrouwen, ervaring, impact ↓",
-      "Independent No vendor bias Senior only 20+ jaar ervaring",
+      "Independent No vendor bias Senior only Sinds 2006",
       "IN HET KORT",
       "Stel criteria en wegingen vast vóórdat je leveranciers ziet.",
       "Test met jouw data, niet met hun demo.",
@@ -198,6 +235,15 @@
       "Proces & productivity",
       "Zakelijke dienstverlener",
       "Interne AI-assistent voor kenniswerkers",
+      "Hoe verloopt een AI-vendorselectie die niet door demo's of interne voorkeuren wordt beslist?",
+      "Een AI-vendorselectie in acht stappen begint met de gewenste uitkomst en met criteria en wegingen die vastliggen voordat er een leveranciersnaam op tafel komt. Daarna krijgen alle leveranciers hetzelfde scenario op representatieve eigen data, vullen beoordelaars hun scorecard afzonderlijk in en volgt een kostenberekening over drie jaar, inclusief integratie, beheer en exit. De selectie sluit af met onderhandelen over voorwaarden en met het vastleggen van de redenen waarom de andere partijen afvielen.",
+      "Is de prijs het belangrijkste onderhandelpunt bij een AI-vendorselectie?",
+      "Nee. Bij een AI-vendorselectie wegen een prijsafspraak voor verbruik bij groei, vastgelegde exitvoorwaarden, een prestatieafspraak op het eigen scenario en het recht op een eigen kwaliteitsmeting zwaarder. Ook hoort vast te liggen wat er gebeurt als de leverancier het onderliggende model vervangt.",
+      "Hoort een optie zonder aankoop in de vergelijking van een AI-vendorselectie?",
+      "Ja. In een AI-vendorselectie hoort minimaal één optie zonder aankoop in de vergelijking. Die optie geeft een referentiepunt voor wat de aankoop werkelijk toevoegt.",
+      "Over hoeveel jaar worden de kosten berekend in een AI-vendorselectie?",
+      "Drie jaar is de periode waarover de totale kosten in een AI-vendorselectie worden berekend. De berekening bevat minimaal de licentie, verbruikskosten bij verwacht en dubbel volume, eenmalige integratie, doorlopend beheer, opleiding en geschatte exitkosten.",
+      "Bron: artikel van Dave Willemstein. Bijgewerkt: oktober 2026.",
       "Waarom AI-selectie anders is",
       "Bij gewone software kun je functionaliteit afvinken. Bij AI-toepassingen is de kernvraag niet \"kan het systeem dit?\" maar \"hoe goed doet het dit op mijn data, en wat gebeurt er als het ernaast zit?\". Dat is een fundamenteel andere vraag, en de standaard-RFP is er niet op ingericht.",
       "Daarbij komt dat demo’s in dit domein misleidend goed zijn. Een presentatie op zorgvuldig gekozen voorbeelden zegt weinig over prestaties op jouw rommelige werkelijkheid. Dit proces is ontworpen om dat verschil zichtbaar te maken.",
@@ -288,231 +334,238 @@
     {
       "regio": "header",
       "soort": "intern",
-      "href": "/",
+      "href": "/nl",
       "anker": "",
       "rel": null
     },
     {
       "regio": "header",
       "soort": "intern",
-      "href": "/diensten",
+      "href": "/nl/diensten",
       "anker": "Diensten",
       "rel": null
     },
     {
       "regio": "header",
       "soort": "intern",
-      "href": "/cases",
+      "href": "/nl/cases",
       "anker": "Cases",
       "rel": null
     },
     {
       "regio": "header",
       "soort": "intern",
-      "href": "/werkwijze",
+      "href": "/nl/werkwijze",
       "anker": "Werkwijze",
       "rel": null
     },
     {
       "regio": "header",
       "soort": "intern",
-      "href": "/inzichten",
+      "href": "/nl/inzichten",
       "anker": "Inzichten",
       "rel": null
     },
     {
       "regio": "header",
       "soort": "intern",
-      "href": "/over",
+      "href": "/nl/over",
       "anker": "Over mij",
       "rel": null
     },
     {
       "regio": "header",
       "soort": "intern",
-      "href": "/contact",
+      "href": "/insights/ai-vendor-selection-in-eight-steps",
+      "anker": "EN",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/nl/contact",
       "anker": "Plan een gesprek →",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/inzichten",
+      "href": "/nl/inzichten",
       "anker": "← Terug naar alle inzichten",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/contact",
+      "href": "/nl/contact",
       "anker": "Sparren over jouw situatie? 30 minuten, vrijblijvend →",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/inzichten/build-buy-of-partner",
+      "href": "/nl/inzichten/build-buy-of-partner",
       "anker": "⇄ Organisatie Build, buy of partner: wat past bij jouw situatie? De vraag is zelden \"kunnen we dit zelf bouwen?\" maar \"willen we dit over drie jaar nog steeds onderhouden?\". Een beslisraamwerk in vier vragen. ◷ 4 min leestijd Lees artikel →",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/inzichten/freelance-ai-consultant-vs-agency-vs-big4",
+      "href": "/nl/inzichten/freelance-ai-consultant-vs-agency-vs-big4",
       "anker": "⇄ Strategie Freelance AI consultant vs agency vs Big 4 Een eerlijke vergelijking op onafhankelijkheid, snelheid, diepgang, kosten en uitvoeringskracht. Zodat jij de juiste partner kiest, ook als dat niet ik ben. ◷ 4 min leestijd Lees artikel →",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/contact",
+      "href": "/nl/contact",
       "anker": "Plan een gesprek →",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/diensten/ai-readiness-assessment",
+      "href": "/nl/diensten/ai-readiness-assessment",
       "anker": "AI Readiness Assessment",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/diensten/ai-strategy-sprint",
+      "href": "/nl/diensten/ai-strategy-sprint",
       "anker": "AI Strategy Sprint",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/diensten/fractional-ai-lead",
+      "href": "/nl/diensten/fractional-ai-lead",
       "anker": "Fractional AI Lead",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/diensten",
+      "href": "/nl/diensten",
       "anker": "Alle diensten",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/cases",
+      "href": "/nl/cases",
       "anker": "Cases",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/werkwijze",
+      "href": "/nl/werkwijze",
       "anker": "Werkwijze",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/inzichten",
+      "href": "/nl/inzichten",
       "anker": "Inzichten",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/veelgestelde-vragen",
+      "href": "/nl/veelgestelde-vragen",
       "anker": "Veelgestelde vragen",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/over",
+      "href": "/nl/over",
       "anker": "Over mij",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-consultancy",
+      "href": "/nl/ai-consultancy",
       "anker": "AI consultancy",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-implementatie",
+      "href": "/nl/ai-implementatie",
       "anker": "AI implementatie",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-automatisering",
+      "href": "/nl/ai-automatisering",
       "anker": "AI automatisering",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-voor-bedrijven",
+      "href": "/nl/ai-voor-bedrijven",
       "anker": "AI voor bedrijven",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-development",
+      "href": "/nl/ai-development",
       "anker": "AI development",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-agents",
+      "href": "/nl/ai-agents",
       "anker": "AI agents",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-beleid",
+      "href": "/nl/ai-beleid",
       "anker": "AI beleid",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-workshop",
+      "href": "/nl/ai-workshop",
       "anker": "AI workshop",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/markten",
+      "href": "/nl/markten",
       "anker": "AI per branche",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/kennisbank",
+      "href": "/nl/kennisbank",
       "anker": "Kennisbank",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/tarieven",
+      "href": "/nl/tarieven",
       "anker": "Tarieven",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/partnernetwerk",
+      "href": "/nl/partnernetwerk",
       "anker": "Partnernetwerk",
       "rel": null
     },
@@ -533,48 +586,88 @@
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/contact",
+      "href": "/nl/contact",
       "anker": "Plan een gesprek",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/privacy",
+      "href": "/nl/privacy",
       "anker": "Privacyverklaring",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/algemene-voorwaarden",
+      "href": "/nl/algemene-voorwaarden",
       "anker": "Algemene voorwaarden",
       "rel": null
     }
   ],
   "structured_data": {
-    "sha256": "be9d1f3f14e9e0ee77adee903daf99e816b2df872b99cc93893bb357c3a131a7",
+    "sha256": "be9f83f39a9d19b6c3fd493b06d513ce3ce4cf865c3251c130d04cd918659215",
     "items": [
-      {
-        "@context": "https://schema.org",
-        "@type": "BlogPosting",
-        "headline": "AI-vendorselectie in acht stappen",
-        "description": "Criteria eerst, leveranciers daarna. Een selectieproces dat bestand is tegen goede demo’s en interne voorkeuren.",
-        "datePublished": "2025-11-20",
-        "inLanguage": "nl-NL",
-        "articleSection": "Tools & data",
-        "author": {
-          "@type": "Person",
-          "name": "Dave Willemstein",
-          "url": "https://freelanceaiconsultant.com",
-          "jobTitle": "Onafhankelijk AI-adviseur"
+      [
+        {
+          "@context": "https://schema.org",
+          "@type": "BlogPosting",
+          "headline": "AI-vendorselectie in acht stappen",
+          "description": "Criteria eerst, leveranciers daarna. Een selectieproces dat bestand is tegen goede demo’s en interne voorkeuren.",
+          "datePublished": "2025-11-20",
+          "inLanguage": "nl-NL",
+          "articleSection": "Tools & data",
+          "author": {
+            "@type": "Person",
+            "name": "Dave Willemstein",
+            "url": "https://freelanceaiconsultant.com",
+            "jobTitle": "Onafhankelijk AI-adviseur"
+          },
+          "publisher": {
+            "@type": "Person",
+            "name": "Dave Willemstein"
+          },
+          "mainEntityOfPage": "https://freelanceaiconsultant.com/nl/inzichten/ai-vendorselectie-in-acht-stappen"
         },
-        "publisher": {
-          "@type": "Person",
-          "name": "Dave Willemstein"
-        },
-        "mainEntityOfPage": "https://freelanceaiconsultant.com/inzichten/ai-vendorselectie-in-acht-stappen"
-      }
+        {
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "Hoe verloopt een AI-vendorselectie die niet door demo's of interne voorkeuren wordt beslist?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Een AI-vendorselectie in acht stappen begint met de gewenste uitkomst en met criteria en wegingen die vastliggen voordat er een leveranciersnaam op tafel komt. Daarna krijgen alle leveranciers hetzelfde scenario op representatieve eigen data, vullen beoordelaars hun scorecard afzonderlijk in en volgt een kostenberekening over drie jaar, inclusief integratie, beheer en exit. De selectie sluit af met onderhandelen over voorwaarden en met het vastleggen van de redenen waarom de andere partijen afvielen."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Is de prijs het belangrijkste onderhandelpunt bij een AI-vendorselectie?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Nee. Bij een AI-vendorselectie wegen een prijsafspraak voor verbruik bij groei, vastgelegde exitvoorwaarden, een prestatieafspraak op het eigen scenario en het recht op een eigen kwaliteitsmeting zwaarder. Ook hoort vast te liggen wat er gebeurt als de leverancier het onderliggende model vervangt."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Hoort een optie zonder aankoop in de vergelijking van een AI-vendorselectie?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Ja. In een AI-vendorselectie hoort minimaal één optie zonder aankoop in de vergelijking. Die optie geeft een referentiepunt voor wat de aankoop werkelijk toevoegt."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Over hoeveel jaar worden de kosten berekend in een AI-vendorselectie?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Drie jaar is de periode waarover de totale kosten in een AI-vendorselectie worden berekend. De berekening bevat minimaal de licentie, verbruikskosten bij verwacht en dubbel volume, eenmalige integratie, doorlopend beheer, opleiding en geschatte exitkosten."
+              }
+            }
+          ]
+        }
+      ]
     ]
   },
   "afbeeldingen": [
@@ -613,12 +706,12 @@
     ],
     "stylesheets": [
       "https://fonts.googleapis.com/css2?family=Caveat:wght@600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap",
-      "/_astro/_slug_.bq6BBoZ5.css",
-      "/_astro/_slug_.CyUYGuAp.css",
+      "/_astro/_slug_.BzqUXH8l.css",
+      "/_astro/_slug_.CwnNFvzF.css",
       "/logo-carousel/logo-carousel.css?v=2"
     ],
     "aantal_details": 0,
     "aantal_tabellen": 0
   },
-  "gemeten_op": "2026-10-06"
+  "gemeten_op": "2026-10-28"
 }
