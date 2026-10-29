@@ -2,7 +2,7 @@
   "url": "/contact",
   "build_bestand": "dist/contact/index.html",
   "html": {
-    "bytes": 29229,
+    "bytes": 28662,
     "lang": "nl"
   },
   "beschermd": {
@@ -63,8 +63,8 @@
   ],
   "bodytekst": {
     "regio": "main",
-    "woorden": 544,
-    "sha256": "bfb0b458ad0ceef898abd8b59458a40bcab161e9e56dd7ae53e25f6265751ec6",
+    "woorden": 524,
+    "sha256": "cdd9031b9f56b8183230382613b07d6e2368bc30b08a43bd51db2784908c65c0",
     "blokken": [
       "Contact",
       "Laten we kennismaken.",
@@ -150,7 +150,7 @@
       "Vertel me kort over jouw uitdaging.",
       "Hoe concreter je vraag, hoe scherper mijn eerste reactie. Weet je het nog niet precies? Dan is dat ook een prima startpunt. Schrijf dat dan gewoon op.",
       "Alleen naam, e-mail en je vraag zijn verplicht.",
-      "Tijdlijn en gewenst startmoment helpen mij inschatten wat realistisch is.",
+      "Tijdlijn helpt mij inschatten wat realistisch is.",
       "Je gegevens gaan nergens anders heen. Zie de privacyverklaring.",
       "Naam *",
       "Vul je naam in.",
@@ -176,12 +176,6 @@
       "3–6 maanden",
       "6+ maanden",
       "Nog oriënterend",
-      "Wanneer wil je starten?",
-      "Kies een moment",
-      "Zo snel mogelijk",
-      "Binnen 1-3 maanden",
-      "Later dit jaar",
-      "Oriënterend",
       "Laat dit veld leeg",
       "Verstuur aanvraag →",
       "Je krijgt binnen één werkdag antwoord. Liever direct mailen? dave@freelanceaiconsultant.com",
@@ -523,7 +517,7 @@
       {
         "src": null,
         "type": "module",
-        "inline_bytes": 2756
+        "inline_bytes": 2700
       },
       {
         "src": "/logo-carousel/logo-carousel.js?v=2",

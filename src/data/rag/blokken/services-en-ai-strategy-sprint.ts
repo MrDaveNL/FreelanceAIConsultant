@@ -12,8 +12,8 @@ export default {
       "antwoord": "{{timing:ai-strategy-sprint}} for {{dienst:ai-strategy-sprint}}. The program runs across five working sessions built around four fixed decision points: diagnose, prioritize, decide, and ship and govern."
     },
     {
-      "vraag": "What does the AI Strategy Sprint cost?",
-      "antwoord": "{{dienst:ai-strategy-sprint}} is priced as {{pricelc:ai-strategy-sprint}}. The amount depends on the number of business units and whether a Readiness Assessment is already in place; you receive the amount upfront in the proposal."
+      "vraag": "Does the investment in the AI Strategy Sprint come out lower if an AI Readiness Assessment is already in place?",
+      "antwoord": "Yes: if {{dienst:ai-readiness-assessment}} is already in place, the fixed project fee for {{dienst:ai-strategy-sprint}} is lower, because the analysis has already been done."
     }
   ],
   "bron": {

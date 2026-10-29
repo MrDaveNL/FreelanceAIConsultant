@@ -9,7 +9,7 @@ export default {
   "vervolgvragen": [
     {
       "vraag": "Valt de investering in de AI Strategy Sprint lager uit als er al een AI Readiness Assessment ligt?",
-      "antwoord": "Ja, de {{dienst:ai-strategy-sprint}} kost {{pricelc:ai-strategy-sprint}}. De hoogte hangt af van het aantal bedrijfsonderdelen en of er al een {{dienst:ai-readiness-assessment}} ligt; je ontvangt het bedrag vooraf in het voorstel."
+      "antwoord": "Ja: ligt er al een {{dienst:ai-readiness-assessment}}, dan valt de vaste projectprijs van de {{dienst:ai-strategy-sprint}} lager uit, omdat de analyse al gedaan is."
     },
     {
       "vraag": "Wanneer is de AI Strategy Sprint minder geschikt?",

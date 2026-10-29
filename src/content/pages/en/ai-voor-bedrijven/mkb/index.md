@@ -125,7 +125,7 @@ A few tips to go with it:
 
 ## How I help small businesses
 
-First, honestly, about money. My fixed packages are built for organisations considering a serious AI investment, each with a fixed project fee agreed upfront. An [AI Readiness Assessment](/services/ai-readiness-assessment) and an AI Strategy Sprint suit a mid-sized business with several departments and a concrete investment question, but not every small-business budget. For a ten-person company, they're often too much.
+First, honestly, about money. My fixed packages are built for organisations considering a serious AI investment, each with a fixed price or fixed monthly fee agreed upfront. An [AI Readiness Assessment](/services/ai-readiness-assessment) and an AI Strategy Sprint suit a mid-sized business with several departments and a concrete investment question, but not every small-business budget. For a ten-person company, they're often too much.
 
 For smaller businesses, the Executive Briefing is one of two lighter entry points: a three-hour session, with preparation one half-day, for a fixed project fee. That gives you and your management team a shared, realistic picture of what AI means for you. And for a well-defined question, such as a second opinion on a supplier's proposal or choosing a first application, I work on a fixed price per engagement. Sometimes the most honest outcome of a first conversation is that you don't need me and can simply get started.
 

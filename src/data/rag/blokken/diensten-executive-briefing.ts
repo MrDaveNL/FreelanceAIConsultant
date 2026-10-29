@@ -5,7 +5,7 @@ export default {
   "onderwerp": "Executive Briefing",
   "vraagkop": "Wat levert een Executive Briefing op en wat kost die?",
   "onderBestaandeKop": false,
-  "antwoord": "De {{dienst:executive-briefing}} van {{afzender}} geeft een directie, RvC of RvT een gedeeld en realistisch beeld van wat AI voor de organisatie betekent. Deelnemers krijgen een beslisagenda, een vragenlijst voor toezicht en een beknopte samenvatting. De {{dienst:executive-briefing}} is een {{timing:executive-briefing}} en kost {{pricelc:executive-briefing}}, vastgelegd in het voorstel, {{voorwaarden}}.",
+  "antwoord": "De {{dienst:executive-briefing}} van {{afzender}} geeft een directie, RvC of RvT een gedeeld en realistisch beeld van wat AI voor de organisatie betekent. Deelnemers krijgen een beslisagenda, een vragenlijst voor toezicht en een beknopte samenvatting. De {{dienst:executive-briefing}} is een sessie van drie uur, met voorbereiding één dagdeel, en kost {{pricelc:executive-briefing}}, vastgelegd in het voorstel, {{voorwaarden}}.",
   "vervolgvragen": [
     {
       "vraag": "Wanneer wordt de prijs van de Executive Briefing verrekend?",

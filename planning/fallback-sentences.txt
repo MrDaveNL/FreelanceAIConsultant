@@ -9,7 +9,7 @@ dist/ai-automation/index.html
   "Anyone who doesn't yet know which process should come first can start with AI Readiness Assessment: in 2-3 weeks a validated list of opportunities and a 90-day plan for a fixed project fee, excluding VAT and travel expenses."
 
 dist/ai-consulting/ai-strategy/index.html
-  "The price is a fixed project fee."
+  "The engagement has a fixed project fee."
 
 dist/ai-consulting/index.html
   "","acceptedAnswer":{"@type":"Answer","text":"AI consulting from Dave Willemstein is delivered in fixed packages, not against an open hourly rate: a fixed project fee for a scoped engagement, or a fixed monthly fee for Fractional AI Lead."
@@ -37,7 +37,7 @@ dist/ai-for-business/index.html
 
 dist/ai-for-business/sme/index.html
   "For smaller businesses, Executive Briefing offers a lighter entry point: one half-day in total, including the three-hour session, for a fixed project fee."
-  "My fixed packages are built for organisations considering a serious AI investment, each with a fixed project fee agreed upfront."
+  "My fixed packages are built for organisations considering a serious AI investment, each with a fixed price or fixed monthly fee agreed upfront."
   "For smaller businesses, the Executive Briefing is one of two lighter entry points: a three-hour session, with preparation one half-day, for a fixed project fee."
 
 dist/ai-implementation/consulting/index.html
@@ -83,7 +83,7 @@ dist/nl/ai-consultancy/ai-consultant-inhuren/index.html
   "Ik werk niet met een open uurtarief, maar met vaste pakketten: een vaste projectprijs voor een afgebakend traject, of een vast maandbedrag bij een doorlopende rol."
 
 dist/nl/ai-consultancy/ai-strategie/index.html
-  "De prijs is een vaste projectprijs."
+  "Het traject heeft een vaste projectprijs."
 
 dist/nl/ai-consultancy/index.html
   "","acceptedAnswer":{"@type":"Answer","text":"AI consultancy van Dave Willemstein wordt geleverd in vaste pakketten, niet tegen een open uurtarief: een vaste projectprijs voor een afgebakend traject, of een vast maandbedrag voor de Fractional AI Lead."
@@ -117,15 +117,16 @@ dist/nl/ai-voor-bedrijven/index.html
 
 dist/nl/ai-voor-bedrijven/mkb/index.html
   "Voor kleinere bedrijven biedt de Executive Briefing een lichtere instap: in één dagdeel, inclusief de sessie van drie uur, tegen een vaste projectprijs."
-  "Mijn vaste pakketten zijn gemaakt voor organisaties die een serieuze AI-investering overwegen, elk met vooraf een vaste projectprijs."
+  "Mijn vaste pakketten zijn gemaakt voor organisaties die een serieuze AI-investering overwegen, elk met vooraf een vaste prijs of vast maandbedrag."
   "Voor kleinere bedrijven is de Executive Briefing een van de twee lichtere instappen: een sessie van drie uur, met voorbereiding één dagdeel, tegen een vaste projectprijs."
 
 dist/nl/ai-workshop/index.html
   "De Executive Briefing heeft een vaste projectprijs, inclusief voorbereiding op de sector."
 
 dist/nl/diensten/ai-due-diligence/index.html
-  "Het onderzoek duurt 2-4 weken en kost een vaste projectprijs, altijd onder NDA en vastgelegd in het voorstel, exclusief btw en reiskosten."
-  "De AI Due Diligence kost een vaste projectprijs: één oplossing zit aan de onderkant, een heel bedrijf aan de bovenkant."
+  "Het onderzoek duurt 2-4 weken en kost een vaste projectprijs, vastgelegd in het voorstel, exclusief btw en reiskosten; het onderzoek gebeurt altijd onder NDA."
+  "","acceptedAnswer":{"@type":"Answer","text":"De AI Due Diligence kost een vaste projectprijs, afhankelijk van de omvang: één oplossing doorlichten vraagt minder dan een heel bedrijf."
+  "De AI Due Diligence kost een vaste projectprijs, afhankelijk van de omvang: één oplossing doorlichten vraagt minder dan een heel bedrijf."
 
 dist/nl/diensten/ai-readiness-assessment/index.html
   "De doorlichting duurt 2-3 weken tegen een vaste projectprijs, vastgelegd in het voorstel, exclusief btw en reiskosten."
@@ -136,11 +137,9 @@ dist/nl/diensten/ai-readiness-assessment/index.html
 
 dist/nl/diensten/ai-strategy-sprint/index.html
   "De sprint kost een vaste projectprijs, vastgelegd in het voorstel, exclusief btw en reiskosten."
-  "","acceptedAnswer":{"@type":"Answer","text":"Ja, de AI Strategy Sprint kost een vaste projectprijs."
-  "Ja, de AI Strategy Sprint kost een vaste projectprijs."
 
 dist/nl/diensten/executive-briefing/index.html
-  "De Executive Briefing is een sessie van drie uur, samen met de voorbereiding één dagdeel en kost een vaste projectprijs, vastgelegd in het voorstel, exclusief btw en reiskosten."
+  "De Executive Briefing is een sessie van drie uur, met voorbereiding één dagdeel, en kost een vaste projectprijs, vastgelegd in het voorstel, exclusief btw en reiskosten."
 
 dist/nl/diensten/fractional-ai-lead/index.html
   "De rol kost een vast maandbedrag, afhankelijk van het niveau: Advies, Lead of Lead+."
@@ -189,7 +188,9 @@ dist/pricing/index.html
   "+ With me you pay per package: a fixed price or fixed monthly fee agreed upfront, never an open hourly rate."
 
 dist/services/ai-due-diligence/index.html
-  "The engagement takes 2-4 weeks and is priced as a fixed project fee, set out in the proposal, always under NDA and excluding VAT and travel expenses."
+  "The engagement takes 2-4 weeks and is priced as a fixed project fee, set out in the proposal, excluding VAT and travel expenses; the engagement always happens under NDA."
+  "","acceptedAnswer":{"@type":"Answer","text":"AI Due Diligence is priced as a fixed project fee, depending on scope: assessing one solution asks less than an entire company."
+  "AI Due Diligence is priced as a fixed project fee, depending on scope: assessing one solution asks less than an entire company."
 
 dist/services/ai-readiness-assessment/index.html
   "The assessment takes 2-3 weeks for a fixed project fee, set out in the proposal, excluding VAT and travel expenses."
@@ -198,8 +199,6 @@ dist/services/ai-readiness-assessment/index.html
 
 dist/services/ai-strategy-sprint/index.html
   "The sprint takes 4-6 weeks and is priced as a fixed project fee, set out in the proposal, excluding VAT and travel expenses."
-  "","acceptedAnswer":{"@type":"Answer","text":"AI Strategy Sprint is priced as a fixed project fee."
-  "AI Strategy Sprint is priced as a fixed project fee."
 
 dist/services/executive-briefing/index.html
   "preparation and is priced as a fixed project fee, set out in the proposal, excluding VAT and travel expenses."
