@@ -2,7 +2,7 @@
   "url": "/ai-workshop/chatgpt-training",
   "build_bestand": "dist/ai-workshop/chatgpt-training/index.html",
   "html": {
-    "bytes": 35797,
+    "bytes": 39434,
     "lang": "nl"
   },
   "beschermd": {
@@ -798,14 +798,33 @@
   "laadprestaties": {
     "scripts": [
       {
+        "src": "/_astro/CookieConsent.astro_astro_type_script_index_0_lang.COcxE8NY.js",
+        "type": "module",
+        "inline_bytes": 0
+      },
+      {
+        "src": null,
+        "type": null,
+        "inline_bytes": 989
+      },
+      {
+        "src": null,
+        "type": null,
+        "inline_bytes": 493
+      },
+      {
         "src": "/logo-carousel/logo-carousel.js?v=2",
         "type": null,
         "inline_bytes": 0
+      },
+      {
+        "src": null,
+        "type": null,
+        "inline_bytes": 725
       }
     ],
     "stylesheets": [
-      "https://fonts.googleapis.com/css2?family=Caveat:wght@600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap",
-      "/_astro/_slug_.BzqUXH8l.css",
+      "/_astro/_slug_.CzLXI3HH.css",
       "/_astro/_slug_.Do5RJXa7.css",
       "/logo-carousel/logo-carousel.css?v=2"
     ],
