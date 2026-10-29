@@ -69,7 +69,18 @@ const nlHref = routeById('privacy')!.paths.nl;
       <p>Where service providers process data outside the European Economic Area, this takes place on the basis of an adequacy decision or standard contractual clauses of the European Commission.</p>
 
       <h2>7. Cookies and statistics</h2>
-      <p>This website does not place tracking or advertising cookies and does not use profiling techniques. No cookies are placed that require consent. The website loads fonts from Google Fonts; in doing so, your IP address is passed to that service in order to deliver the font.</p>
+      <p>This website uses cookies. Necessary cookies keep the site working and do not require consent. Google Analytics (GA4) is configured through Google Tag Manager and only places analytics cookies once you give consent; without consent, Google Tag Manager still loads but places no analytics cookies. You can change or withdraw your choice at any time via "Cookie settings" in the footer.</p>
+      <div class="table-scroll">
+        <table>
+          <thead><tr><th>Cookie</th><th>Provider</th><th>Purpose</th><th>Category</th><th>Retention</th></tr></thead>
+          <tbody>
+            <tr><td>cc_cookie</td><td>freelanceaiconsultant.com</td><td>Stores your cookie choice</td><td>Necessary</td><td>12 months</td></tr>
+            <tr><td>_ga</td><td>Google Analytics</td><td>Distinguishes visitors</td><td>Analytics</td><td>13 months</td></tr>
+            <tr><td>_ga_&lt;container-id&gt;</td><td>Google Analytics</td><td>Remembers session state</td><td>Analytics</td><td>13 months</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p>Fonts are loaded locally from this website's own server, not from Google Fonts, so no data is shared with Google for that purpose.</p>
 
       <h2>8. Security</h2>
       <p>Appropriate technical and organizational measures have been taken to protect personal data against loss and unlawful processing, including encrypted connections, access restrictions and periodic review of the services used.</p>
@@ -90,4 +101,6 @@ const nlHref = routeById('privacy')!.paths.nl;
 .updated{font-size:.82rem;color:var(--muted);margin-top:16px}
 .translation-notice{font-size:.82rem;color:var(--muted);margin-top:6px}
 code{background:rgba(74,31,42,.1);padding:2px 6px;border-radius:4px;font-size:.88em}
+.table-scroll{overflow-x:auto}
+.table-scroll table{min-width:540px}
 </style>

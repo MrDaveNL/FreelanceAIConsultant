@@ -142,6 +142,8 @@ const endpoint = site.formEndpoint || (site.formAccessKey ? 'https://api.web3for
           status.hidden = false;
           status.className = 'form-status full is-ok';
           status.textContent = 'Dank je. Je aanvraag is verstuurd. Je krijgt binnen één werkdag antwoord.';
+          window.dataLayer = window.dataLayer || [];
+          window.dataLayer.push({ event: 'generate_lead', service: data.service || '', language: data.locale || 'nl' });
         } catch {
           status.hidden = false;
           status.className = 'form-status full is-error';
@@ -170,6 +172,8 @@ const endpoint = site.formEndpoint || (site.formAccessKey ? 'https://api.web3for
       status.hidden = false;
       status.className = 'form-status full is-ok';
       status.textContent = 'Je e-mailprogramma opent met een vooringevuld bericht. Verstuur het om je aanvraag af te ronden.';
+      window.dataLayer = window.dataLayer || [];
+      window.dataLayer.push({ event: 'generate_lead', service: data.service || '', language: data.locale || 'nl' });
     });
   });
 </script>
