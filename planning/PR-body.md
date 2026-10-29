@@ -1,6 +1,6 @@
 ## Summary
 - Removed visible prices from service pages (service cards, detail pages, comparison tables) behind the new `site.showPrices` flag (default `false`); price data stays intact in `prijzen.ts`/`services.js`. CTAs now point to the contact form instead of showing an amount.
-- Replaced the "20+ years of experience" claim site-wide with a dated "since 2006 in search, since 2021 building AI tools and automation" framing (HeroPortrait sticker, about/over timeline, meta descriptions, running text).
+- Replaced the "20+ years of experience" claim site-wide with a dated "since 2006, in strategy, digital and innovation" framing (HeroPortrait sticker, about/over timeline, meta descriptions, running text).
 - Removed `offers`/`priceCurrency`/`priceSpecification` from Service structured data (JSON-LD); FAQPage schema is regenerated from `faq.js`.
 - Contact form (NL+EN): removed the price-range budget dropdown; added an optional Dienst/Service select, pre-filled via `?dienst=`/`?service=`, included in the submission payload.
 - Rewrote the per-service pricing-FAQ answers, RAG fallback sentences, and `/tarieven`/`/pricing` copy to describe pricing structure (fixed price or fixed monthly fee, set out in the proposal) instead of stating amounts.
