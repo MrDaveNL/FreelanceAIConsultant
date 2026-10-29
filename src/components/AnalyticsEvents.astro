@@ -1,0 +1,28 @@
+---
+// Pusht interactie-events naar de dataLayer, altijd, los van consent (zie
+// planning/analytics-events.md). GTM beslist in Consent Mode of er cookies bij geplaatst worden,
+// niet dit script. Geen gtag('event'): alles gaat via de dataLayer, GTM zet het door naar GA4.
+---
+<script is:inline>
+  window.dataLayer = window.dataLayer || [];
+
+  document.addEventListener('click', (event) => {
+    const target = event.target instanceof Element ? event.target : null;
+    if (!target) return;
+
+    const cta = target.closest('[data-cta]');
+    if (cta) {
+      window.dataLayer.push({
+        event: 'cta_click',
+        cta: cta.getAttribute('data-cta'),
+        service: cta.getAttribute('data-service') || '',
+      });
+    }
+
+    const mailLink = target.closest('a[href^="mailto:"]');
+    if (mailLink) window.dataLayer.push({ event: 'contact_click', method: 'email' });
+
+    const telLink = target.closest('a[href^="tel:"]');
+    if (telLink) window.dataLayer.push({ event: 'contact_click', method: 'phone' });
+  });
+</script>

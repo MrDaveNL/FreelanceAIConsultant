@@ -143,6 +143,8 @@ const endpoint = site.formEndpoint || (site.formAccessKey ? 'https://api.web3for
           status.hidden = false;
           status.className = 'form-status full is-ok';
           status.textContent = 'Thank you. Your request has been sent. You will get a reply within one business day.';
+          window.dataLayer = window.dataLayer || [];
+          window.dataLayer.push({ event: 'generate_lead', service: data.service || '', language: data.locale || 'en' });
         } catch {
           status.hidden = false;
           status.className = 'form-status full is-error';
@@ -171,6 +173,8 @@ const endpoint = site.formEndpoint || (site.formAccessKey ? 'https://api.web3for
       status.hidden = false;
       status.className = 'form-status full is-ok';
       status.textContent = 'Your email program will open with a pre-filled message. Send it to complete your request.';
+      window.dataLayer = window.dataLayer || [];
+      window.dataLayer.push({ event: 'generate_lead', service: data.service || '', language: data.locale || 'en' });
     });
   });
 </script>
