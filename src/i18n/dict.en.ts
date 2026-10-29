@@ -27,6 +27,7 @@ export const en = {
     cta: 'Book a call',
     privacy: 'Privacy policy',
     terms: 'Terms & conditions',
+    cookieSettings: 'Cookie settings',
   },
   breadcrumbs: {
     home: 'Home',

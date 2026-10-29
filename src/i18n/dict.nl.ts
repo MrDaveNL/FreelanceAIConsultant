@@ -27,6 +27,7 @@ export const nl = {
     cta: 'Plan een gesprek',
     privacy: 'Privacyverklaring',
     terms: 'Algemene voorwaarden',
+    cookieSettings: 'Cookie-instellingen',
   },
   breadcrumbs: {
     home: 'Home',
