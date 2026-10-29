@@ -20,6 +20,10 @@ export const site = {
   // Alleen invullen om een andere formulierdienst of CRM te gebruiken dan Web3Forms.
   formEndpoint: '',
   newsletterEndpoint: '',
+  // Prijzen blijven in de databron (src/data/prijzen.ts), maar worden nergens op de site getoond
+  // zolang dit false is: op true gezet, komen de bedragen weer terug op kaarten, fact-tegels,
+  // vergelijkingstabellen en in de RAG-blokken.
+  showPrices: false,
   // Alleen gebruikt in de privacyverklaring, de algemene voorwaarden en de footer.
   legal: {
     entity: '4AP Digital',

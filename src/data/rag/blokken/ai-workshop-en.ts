@@ -10,7 +10,7 @@ export default {
   "vervolgvragen": [
     {
       "vraag": "Which session suits a board or supervisory board?",
-      "antwoord": "The {{dienst:executive-briefing}} is the suitable format for a board or supervisory board: a fixed session with a decision agenda and oversight questions. The Executive Briefing has a fixed price of {{pricelc:executive-briefing}}, including preparation for the sector. The management workshop is more broadly usable, for example for line managers or a management team."
+      "antwoord": "The {{dienst:executive-briefing}} is the suitable format for a board or supervisory board: a fixed session with a decision agenda and oversight questions. The Executive Briefing has a fixed price, including preparation for the sector and set out in the proposal. The management workshop is more broadly usable, for example for line managers or a management team."
     },
     {
       "vraag": "Can an AI workshop also be delivered online?",

@@ -5,6 +5,7 @@ import PageHero from '@/components/PageHero.astro';
 import ServiceCard from '@/components/ServiceCard.astro';
 import CTA from '@/components/CTA.astro';
 import RagBlok from '@/components/RagBlok.astro';
+import ServiceContactCTA from '@/components/ServiceContactCTA.astro';
 import { serviceComparison } from '@/data/services.js';
 
 const allServices = (await getCollection('services', ({ data }) => data.lang === 'nl')).map((s) => s.data);
@@ -20,7 +21,7 @@ const extraServices = allServices.filter((s) => !s.featured);
     eyebrow="AI-advies dat je helpt beslissen"
     title="Diensten die AI-beslissingen helder maken."
     marked="AI-beslissingen"
-    body="Van eerste AI-stappen tot strategische verankering. Praktisch advies dat je team begrijpt, je board vertrouwt en je organisatie vooruithelpt. Elke dienst heeft een vaste prijs of een duidelijke bandbreedte. Waar je daarbinnen uitkomt, staat in het voorstel, voordat we starten."
+    body="Van eerste AI-stappen tot strategische verankering. Praktisch advies dat je team begrijpt, je board vertrouwt en je organisatie vooruithelpt. Vooraf een vaste prijs of vast maandbedrag, vastgelegd in het voorstel na een korte intake."
     secondary="Vergelijk de diensten"
     secondaryHref="#vergelijking"
   />
@@ -44,7 +45,7 @@ const extraServices = allServices.filter((s) => !s.featured);
             <div>
               <h3>{service.title}</h3>
               <p>{service.cardText}</p>
-              <small>{service.timing} · {service.price}</small>
+              <small>{service.timing} · Vraag een voorstel aan</small>
             </div>
             <span aria-hidden="true">→</span>
           </a>
@@ -67,7 +68,8 @@ const extraServices = allServices.filter((s) => !s.featured);
           </div>
         ))}
       </div>
-      <p class="note center">Alle bedragen zijn exclusief btw en reiskosten. Waar een bandbreedte staat, legt het voorstel na de kennismaking het exacte bedrag vast.</p>
+      <p class="note center">Alle voorstellen zijn exclusief btw. Het exacte bedrag legt het voorstel na de kennismaking vast.</p>
+      <ServiceContactCTA locale="nl" />
     </div>
   </section>
 

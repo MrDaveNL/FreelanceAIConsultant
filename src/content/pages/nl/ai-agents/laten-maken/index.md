@@ -95,7 +95,7 @@ Wat een AI agent kost, verschilt sterk per route. Een vast bedrag noemen zou mis
 
 De grootste risicofactoren zijn een te brede eerste scope, bronnen die niet op orde zijn en afhankelijkheid van één leverancier zonder exitafspraken. Vraag elke partij om een kostenraming over meerdere jaren, inclusief beheer en overstap.
 
-Mijn eigen tarieven staan op de pagina met [tarieven](/nl/tarieven). Wil je offertes van meerdere bouwpartijen onafhankelijk laten beoordelen, dan past een [Vendor Review](/nl/diensten/vendor-review) van {{timing:vendor-review}}; die kost {{pricelc:vendor-review}}. Heb je doorlopend iemand nodig die het traject namens jou bewaakt, dan kan dat als [Fractional AI Lead](/nl/diensten/fractional-ai-lead).
+Mijn eigen tarieven staan op de pagina met [tarieven](/nl/tarieven). Wil je offertes van meerdere bouwpartijen onafhankelijk laten beoordelen, dan past een [Vendor Review](/nl/diensten/vendor-review) van {{timing:vendor-review}}; die heeft een vaste prijs, afhankelijk van het aantal leveranciers. Heb je doorlopend iemand nodig die het traject namens jou bewaakt, dan kan dat als [Fractional AI Lead](/nl/diensten/fractional-ai-lead).
 
 ## Beveiliging, privacy en beheer
 

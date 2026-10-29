@@ -2,15 +2,28 @@
   "url": "/inzichten/ai-governance-zonder-bureaucratie",
   "build_bestand": "dist/inzichten/ai-governance-zonder-bureaucratie/index.html",
   "html": {
-    "bytes": 31576,
+    "bytes": 37533,
     "lang": "nl"
   },
   "beschermd": {
     "title": "AI-governance zonder bureaucratie: wat je echt nodig hebt",
     "meta_description": "Governance die niemand gebruikt, beschermt niemand. Vier mechanismen die het verschil maken, en wat je gerust kunt overslaan.",
-    "canonical": "https://freelanceaiconsultant.com/inzichten/ai-governance-zonder-bureaucratie",
+    "canonical": "https://freelanceaiconsultant.com/nl/inzichten/ai-governance-zonder-bureaucratie",
     "robots_meta": null,
-    "hreflang": [],
+    "hreflang": [
+      {
+        "hreflang": "en",
+        "href": "https://freelanceaiconsultant.com/insights/ai-governance-without-bureaucracy"
+      },
+      {
+        "hreflang": "nl",
+        "href": "https://freelanceaiconsultant.com/nl/inzichten/ai-governance-zonder-bureaucratie"
+      },
+      {
+        "hreflang": "x-default",
+        "href": "https://freelanceaiconsultant.com/insights/ai-governance-without-bureaucracy"
+      }
+    ],
     "h1": [
       "AI-governance zonder bureaucratie"
     ]
@@ -21,7 +34,7 @@
     "og:site_name": "freelanceaiconsultant.com",
     "og:title": "AI-governance zonder bureaucratie: wat je echt nodig hebt",
     "og:description": "Governance die niemand gebruikt, beschermt niemand. Vier mechanismen die het verschil maken, en wat je gerust kunt overslaan.",
-    "og:url": "https://freelanceaiconsultant.com/inzichten/ai-governance-zonder-bureaucratie",
+    "og:url": "https://freelanceaiconsultant.com/nl/inzichten/ai-governance-zonder-bureaucratie",
     "og:image": "https://freelanceaiconsultant.com/images/dave-portrait.jpg",
     "twitter:card": "summary_large_image",
     "twitter:title": "AI-governance zonder bureaucratie: wat je echt nodig hebt",
@@ -32,6 +45,30 @@
     {
       "niveau": 1,
       "tekst": "AI-governance zonder bureaucratie",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "Hoe richt een organisatie AI-governance in zonder dat het bureaucratie wordt?",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 3,
+      "tekst": "Is een aparte AI-ethiekcommissie nodig voor AI-governance?",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 3,
+      "tekst": "Kan het register voor AI-governance een spreadsheet zijn?",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 3,
+      "tekst": "Is de risico-indeling voor AI-governance in drie niveaus ook een juridisch oordeel onder de Europese AI-verordening?",
       "regio": "main",
       "id": null
     },
@@ -116,8 +153,8 @@
   ],
   "bodytekst": {
     "regio": "main",
-    "woorden": 1282,
-    "sha256": "4ce2e04cb37d8a1dc46be96becd761f44ced7873a22d352a407733657b4cc2e2",
+    "woorden": 1522,
+    "sha256": "e8cda2901c6136652947ac8c95949bb8a4c3a19d77d3b362409f50f90985a776",
     "blokken": [
       "← Terug naar alle inzichten",
       "Governance",
@@ -128,7 +165,7 @@
       "Door Dave Willemstein Independent AI Advisor, onafhankelijk, geen leveranciersbelangen",
       "Ik help organisaties AI-beslissingen nemen die waarde creëren. Geen dikke decks, wel duidelijke keuzes en tastbare resultaten.",
       "vertrouwen, ervaring, impact ↓",
-      "Independent No vendor bias Senior only 20+ jaar ervaring",
+      "Independent No vendor bias Senior only Sinds 2006",
       "IN HET KORT",
       "Classificeer je toepassingen naar risico, niet naar techniek.",
       "Eén register, één poort, één periodieke toets, één escalatiepad.",
@@ -192,6 +229,15 @@
       "Proces & productivity",
       "Zakelijke dienstverlener",
       "Interne AI-assistent voor kenniswerkers",
+      "Hoe richt een organisatie AI-governance in zonder dat het bureaucratie wordt?",
+      "Daarnaast heeft een organisatie minimaal vier mechanismen nodig: één register van alle AI-toepassingen, één poort voor beoordeling vooraf, één periodieke toets en één escalatiepad. Het risico van te veel regelen is dat mensen eromheen gaan werken en er een schaduwpraktijk ontstaat met tools die niemand kent, terwijl de organisatie denkt in controle te zijn.",
+      "Is een aparte AI-ethiekcommissie nodig voor AI-governance?",
+      "Meestal niet: voor AI-governance is het meestal beter om AI als onderwerp toe te voegen aan het gremium dat er binnen de bestaande risicostructuur al is. Dat gremium heeft mandaat en vergadert al.",
+      "Kan het register voor AI-governance een spreadsheet zijn?",
+      "Ja, als de spreadsheet klopt: voor AI-governance verslaat een spreadsheet die klopt een GRC-module die half gevuld is. Het register bevat per toepassing de eigenaar, het doel, het risiconiveau, de gebruikte data, de leverancier en het moment van de laatste beoordeling.",
+      "Is de risico-indeling voor AI-governance in drie niveaus ook een juridisch oordeel onder de Europese AI-verordening?",
+      "Nee. De indeling in drie niveaus is een werkmodel om binnen AI-governance het interne gesprek te structureren. De Europese AI-verordening hanteert een eigen classificatie, en het advies is de juridische afdeling of een gespecialiseerde adviseur te laten vaststellen waar toepassingen exact onder vallen.",
+      "Bron: artikel van Dave Willemstein; primaire bron: Verordening (EU) 2024/1689 (AI Act), EUR-Lex; Europese Commissie, \"AI Act\" (regulatory framework AI) (peildatum 6 oktober 2026). Bijgewerkt: oktober 2026.",
       "Het echte risico van AI-governance",
       "Het risico is niet dat je te weinig regelt. Het risico is dat je zoveel regelt dat mensen eromheen gaan werken, en dat je vervolgens denkt dat je in controle bent terwijl er een schaduwpraktijk ontstaat met tools die niemand kent.",
       "Dat gebeurt sneller dan bij klassieke IT, omdat AI-tools laagdrempelig zijn. Een medewerker die een goedkeuringstraject van zes weken tegenkomt, kan het alternatief in twee minuten zelf regelen met een creditcard. Goede governance houdt daar rekening mee.",
@@ -266,231 +312,238 @@
     {
       "regio": "header",
       "soort": "intern",
-      "href": "/",
+      "href": "/nl",
       "anker": "",
       "rel": null
     },
     {
       "regio": "header",
       "soort": "intern",
-      "href": "/diensten",
+      "href": "/nl/diensten",
       "anker": "Diensten",
       "rel": null
     },
     {
       "regio": "header",
       "soort": "intern",
-      "href": "/cases",
+      "href": "/nl/cases",
       "anker": "Cases",
       "rel": null
     },
     {
       "regio": "header",
       "soort": "intern",
-      "href": "/werkwijze",
+      "href": "/nl/werkwijze",
       "anker": "Werkwijze",
       "rel": null
     },
     {
       "regio": "header",
       "soort": "intern",
-      "href": "/inzichten",
+      "href": "/nl/inzichten",
       "anker": "Inzichten",
       "rel": null
     },
     {
       "regio": "header",
       "soort": "intern",
-      "href": "/over",
+      "href": "/nl/over",
       "anker": "Over mij",
       "rel": null
     },
     {
       "regio": "header",
       "soort": "intern",
-      "href": "/contact",
+      "href": "/insights/ai-governance-without-bureaucracy",
+      "anker": "EN",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/nl/contact",
       "anker": "Plan een gesprek →",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/inzichten",
+      "href": "/nl/inzichten",
       "anker": "← Terug naar alle inzichten",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/contact",
+      "href": "/nl/contact",
       "anker": "Sparren over jouw situatie? 30 minuten, vrijblijvend →",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/inzichten/het-datafundament-onder-ai",
+      "href": "/nl/inzichten/het-datafundament-onder-ai",
       "anker": "◫ Tools & data De rol van het datafundament in succesvolle AI-initiatieven \"Eerst de data op orde\" is net zo vaak een excuus als een noodzaak. Hoe je bepaalt welke van de twee bij jou speelt. ◷ 4 min leestijd Lees artikel →",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/inzichten/ai-adoptie-begint-bij-het-werk",
+      "href": "/nl/inzichten/ai-adoptie-begint-bij-het-werk",
       "anker": "◉ Organisatie AI-adoptie begint bij het werk, niet bij de tool Iedereen een licentie geven is geen adoptiestrategie. Waarom een leeg invoerveld de grootste drempel is, en wat er wel werkt. ◷ 4 min leestijd Lees artikel →",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/contact",
+      "href": "/nl/contact",
       "anker": "Plan een gesprek →",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/diensten/ai-readiness-assessment",
+      "href": "/nl/diensten/ai-readiness-assessment",
       "anker": "AI Readiness Assessment",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/diensten/ai-strategy-sprint",
+      "href": "/nl/diensten/ai-strategy-sprint",
       "anker": "AI Strategy Sprint",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/diensten/fractional-ai-lead",
+      "href": "/nl/diensten/fractional-ai-lead",
       "anker": "Fractional AI Lead",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/diensten",
+      "href": "/nl/diensten",
       "anker": "Alle diensten",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/cases",
+      "href": "/nl/cases",
       "anker": "Cases",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/werkwijze",
+      "href": "/nl/werkwijze",
       "anker": "Werkwijze",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/inzichten",
+      "href": "/nl/inzichten",
       "anker": "Inzichten",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/veelgestelde-vragen",
+      "href": "/nl/veelgestelde-vragen",
       "anker": "Veelgestelde vragen",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/over",
+      "href": "/nl/over",
       "anker": "Over mij",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-consultancy",
+      "href": "/nl/ai-consultancy",
       "anker": "AI consultancy",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-implementatie",
+      "href": "/nl/ai-implementatie",
       "anker": "AI implementatie",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-automatisering",
+      "href": "/nl/ai-automatisering",
       "anker": "AI automatisering",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-voor-bedrijven",
+      "href": "/nl/ai-voor-bedrijven",
       "anker": "AI voor bedrijven",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-development",
+      "href": "/nl/ai-development",
       "anker": "AI development",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-agents",
+      "href": "/nl/ai-agents",
       "anker": "AI agents",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-beleid",
+      "href": "/nl/ai-beleid",
       "anker": "AI beleid",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-workshop",
+      "href": "/nl/ai-workshop",
       "anker": "AI workshop",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/markten",
+      "href": "/nl/markten",
       "anker": "AI per branche",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/kennisbank",
+      "href": "/nl/kennisbank",
       "anker": "Kennisbank",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/tarieven",
+      "href": "/nl/tarieven",
       "anker": "Tarieven",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/partnernetwerk",
+      "href": "/nl/partnernetwerk",
       "anker": "Partnernetwerk",
       "rel": null
     },
@@ -511,48 +564,88 @@
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/contact",
+      "href": "/nl/contact",
       "anker": "Plan een gesprek",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/privacy",
+      "href": "/nl/privacy",
       "anker": "Privacyverklaring",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/algemene-voorwaarden",
+      "href": "/nl/algemene-voorwaarden",
       "anker": "Algemene voorwaarden",
       "rel": null
     }
   ],
   "structured_data": {
-    "sha256": "c43346363f98d7bd839bb528c5aa6c8da7882f736f056a86d910e1232932d95a",
+    "sha256": "1bd013ee862847ece65287cdc20cb4e67645b6ea0c65f0d19256db74c2c9779f",
     "items": [
-      {
-        "@context": "https://schema.org",
-        "@type": "BlogPosting",
-        "headline": "AI-governance zonder bureaucratie: wat je minimaal nodig hebt",
-        "description": "Governance die niemand gebruikt, beschermt niemand. Vier mechanismen die het verschil maken, en wat je gerust kunt overslaan.",
-        "datePublished": "2026-03-19",
-        "inLanguage": "nl-NL",
-        "articleSection": "Governance",
-        "author": {
-          "@type": "Person",
-          "name": "Dave Willemstein",
-          "url": "https://freelanceaiconsultant.com",
-          "jobTitle": "Onafhankelijk AI-adviseur"
+      [
+        {
+          "@context": "https://schema.org",
+          "@type": "BlogPosting",
+          "headline": "AI-governance zonder bureaucratie: wat je minimaal nodig hebt",
+          "description": "Governance die niemand gebruikt, beschermt niemand. Vier mechanismen die het verschil maken, en wat je gerust kunt overslaan.",
+          "datePublished": "2026-03-19",
+          "inLanguage": "nl-NL",
+          "articleSection": "Governance",
+          "author": {
+            "@type": "Person",
+            "name": "Dave Willemstein",
+            "url": "https://freelanceaiconsultant.com",
+            "jobTitle": "Onafhankelijk AI-adviseur"
+          },
+          "publisher": {
+            "@type": "Person",
+            "name": "Dave Willemstein"
+          },
+          "mainEntityOfPage": "https://freelanceaiconsultant.com/nl/inzichten/ai-governance-zonder-bureaucratie"
         },
-        "publisher": {
-          "@type": "Person",
-          "name": "Dave Willemstein"
-        },
-        "mainEntityOfPage": "https://freelanceaiconsultant.com/inzichten/ai-governance-zonder-bureaucratie"
-      }
+        {
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "Hoe richt een organisatie AI-governance in zonder dat het bureaucratie wordt?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Daarnaast heeft een organisatie minimaal vier mechanismen nodig: één register van alle AI-toepassingen, één poort voor beoordeling vooraf, één periodieke toets en één escalatiepad. Het risico van te veel regelen is dat mensen eromheen gaan werken en er een schaduwpraktijk ontstaat met tools die niemand kent, terwijl de organisatie denkt in controle te zijn."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Is een aparte AI-ethiekcommissie nodig voor AI-governance?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Meestal niet: voor AI-governance is het meestal beter om AI als onderwerp toe te voegen aan het gremium dat er binnen de bestaande risicostructuur al is. Dat gremium heeft mandaat en vergadert al."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Kan het register voor AI-governance een spreadsheet zijn?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Ja, als de spreadsheet klopt: voor AI-governance verslaat een spreadsheet die klopt een GRC-module die half gevuld is. Het register bevat per toepassing de eigenaar, het doel, het risiconiveau, de gebruikte data, de leverancier en het moment van de laatste beoordeling."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Is de risico-indeling voor AI-governance in drie niveaus ook een juridisch oordeel onder de Europese AI-verordening?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Nee. De indeling in drie niveaus is een werkmodel om binnen AI-governance het interne gesprek te structureren. De Europese AI-verordening hanteert een eigen classificatie, en het advies is de juridische afdeling of een gespecialiseerde adviseur te laten vaststellen waar toepassingen exact onder vallen."
+              }
+            }
+          ]
+        }
+      ]
     ]
   },
   "afbeeldingen": [
@@ -591,12 +684,12 @@
     ],
     "stylesheets": [
       "https://fonts.googleapis.com/css2?family=Caveat:wght@600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap",
-      "/_astro/_slug_.bq6BBoZ5.css",
-      "/_astro/_slug_.CyUYGuAp.css",
+      "/_astro/_slug_.BzqUXH8l.css",
+      "/_astro/_slug_.CwnNFvzF.css",
       "/logo-carousel/logo-carousel.css?v=2"
     ],
     "aantal_details": 0,
     "aantal_tabellen": 0
   },
-  "gemeten_op": "2026-10-06"
+  "gemeten_op": "2026-10-28"
 }

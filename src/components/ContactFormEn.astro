@@ -3,6 +3,7 @@
 // the shared component: the NL page's inline <script> bytes are checked byte-for-byte by
 // planning/check-nulmeting.mjs, so NL's form must never change when EN copy changes here.
 import { site } from '../data/site.js';
+import { services } from '../data/services.js';
 const endpoint = site.formEndpoint || (site.formAccessKey ? 'https://api.web3forms.com/submit' : '');
 ---
 <form class="contact-form" data-contact-form data-endpoint={endpoint} data-access-key={site.formAccessKey} data-site={site.domain} data-mailto={site.email} data-locale="en" novalidate>
@@ -29,6 +30,14 @@ const endpoint = site.formEndpoint || (site.formAccessKey ? 'https://api.web3for
     <label for="challenge">What are you running into? <span aria-hidden="true">*</span></label>
     <textarea id="challenge" name="challenge" rows="5" required placeholder="Briefly describe your challenge or question."></textarea>
     <small class="error" data-error-for="challenge" hidden>Briefly describe your question.</small>
+  </div>
+  <div class="field">
+    <label for="service">Service</label>
+    <select id="service" name="service" data-service-select>
+      <option value="">Choose a service (optional)</option>
+      {services.map((s) => <option value={s.slug}>{s.title}</option>)}
+      <option value="other">Other / not sure yet</option>
+    </select>
   </div>
   <div class="field">
     <label for="timeline">Timeline</label>
@@ -67,6 +76,14 @@ const endpoint = site.formEndpoint || (site.formAccessKey ? 'https://api.web3for
     const accessKey = form.getAttribute('data-access-key');
     const siteName = form.getAttribute('data-site');
     const mailto = form.getAttribute('data-mailto');
+
+    // Pre-fill via ?service=<slug> (EN) or ?dienst=<slug> (NL). No match = no preselection, no error.
+    const serviceSelect = form.querySelector('[data-service-select]');
+    if (serviceSelect) {
+      const params = new URLSearchParams(window.location.search);
+      const requested = params.get('service') || params.get('dienst');
+      if (requested && [...serviceSelect.options].some((o) => o.value === requested)) serviceSelect.value = requested;
+    }
 
     const showError = (field, show) => {
       const hint = form.querySelector(`[data-error-for="${field.name}"]`);
@@ -111,11 +128,13 @@ const endpoint = site.formEndpoint || (site.formAccessKey ? 'https://api.web3for
         const original = button.textContent;
         button.textContent = 'Sending…';
         // Field keys are the labels in the incoming email; kept in Dutch (Dave reads the inbox, not the visitor).
+        const dienstLabel = serviceSelect?.value ? serviceSelect.selectedOptions[0].text : '-';
         const payload = {
           subject: `${localeTag} Aanvraag via ${siteName}: ${data.name}${data.company ? ` (${data.company})` : ''}`,
           from_name: data.name,
           name: data.name,
           email: data.email,
+          Dienst: dienstLabel,
           Functie: data.role || '-',
           Organisatie: data.company || '-',
           Tijdlijn: data.timeline || '-',
@@ -150,6 +169,7 @@ const endpoint = site.formEndpoint || (site.formAccessKey ? 'https://api.web3for
       // No endpoint configured: open a pre-filled email instead.
       const lines = [
         `Name: ${data.name}`,
+        `Service: ${serviceSelect?.value ? serviceSelect.selectedOptions[0].text : '-'}`,
         `Role: ${data.role || '-'}`,
         `Organization: ${data.company || '-'}`,
         `Email: ${data.email}`,

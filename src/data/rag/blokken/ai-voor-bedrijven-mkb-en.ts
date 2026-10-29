@@ -12,7 +12,7 @@ export default {
   "vervolgvragen": [
     {
       "vraag": "Do the AI Readiness Assessment and the AI Strategy Sprint suit every budget for AI for small business?",
-      "antwoord": "No. The {{dienst:ai-readiness-assessment}} costs {{pricelc:ai-readiness-assessment}} and the {{dienst:ai-strategy-sprint}} {{pricelc:ai-strategy-sprint}}: that suits a mid-sized business with several departments and a concrete investment question. For a ten-person company, those packages are often too much.",
+      "antwoord": "No. The {{dienst:ai-readiness-assessment}} and the {{dienst:ai-strategy-sprint}} both have a fixed price agreed upfront: that suits a mid-sized business with several departments and a concrete investment question. For a ten-person company, those packages are often too much.",
       "onvoorwaardelijk": true
     },
     {

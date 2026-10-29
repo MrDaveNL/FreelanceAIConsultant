@@ -5,14 +5,13 @@ import PageHero from '@/components/PageHero.astro';
 import ServiceCard from '@/components/ServiceCard.astro';
 import CTA from '@/components/CTA.astro';
 import RagBlok from '@/components/RagBlok.astro';
-import { formatEur } from '@/data/prijzen.ts';
-import { timingEn } from '@/data/prijzen.ts';
+import ServiceContactCTA from '@/components/ServiceContactCTA.astro';
 
 const allServices = (await getCollection('services', ({ data }) => data.lang === 'en')).map((s) => s.data);
 const featuredServices = allServices.filter((s) => s.featured);
 const extraServices = allServices.filter((s) => !s.featured);
 
-// EN comparison table. Prices resolved via formatEur(..., 'en'); same facts as the NL comparison table.
+// EN comparison table, same facts as the NL comparison table.
 const serviceComparisonEn = {
   head: ['AI Readiness Assessment', 'AI Strategy Sprint', 'Fractional AI Lead'],
   rows: [
@@ -20,7 +19,6 @@ const serviceComparisonEn = {
     ['Duration', '2-3 weeks', '4-6 weeks', `Ongoing (2, 4 or 8 days / month)`],
     ['Best for', 'Teams that want to start', 'Teams with ambition and focus questions', 'Teams that need direction and capacity'],
     ['Outcome', 'Report & 90-day plan', 'Roadmap & business case', 'Results, adoption & improvement'],
-    ['Investment', `${formatEur(7000, 'en')}`, `${formatEur(15400, 'en')} - ${formatEur(22400, 'en')}`, `${formatEur(2600, 'en')} - ${formatEur(10400, 'en')} per month`],
     ['Your time', 'Low', 'Medium', 'Medium to high'],
   ],
 };
@@ -35,7 +33,7 @@ const serviceComparisonEn = {
     eyebrow="AI advice that helps you decide"
     title="Services that make AI decisions clear."
     marked="AI decisions"
-    body="From first AI steps to strategic follow-through. Practical advice your team understands, your board trusts, and your organization can act on. Every service has a fixed price or a clear range. Where you land within it is set in the proposal, before we start."
+    body="From first AI steps to strategic follow-through. Practical advice your team understands, your board trusts, and your organization can act on. A fixed price or fixed monthly fee, agreed upfront in the proposal after a short intake."
     secondary="Compare the services"
     secondaryHref="#comparison"
   />
@@ -59,7 +57,7 @@ const serviceComparisonEn = {
             <div>
               <h3>{service.title}</h3>
               <p>{service.cardText}</p>
-              <small>{service.timing} · {service.price}</small>
+              <small>{service.timing} · Request a proposal</small>
             </div>
             <span aria-hidden="true">→</span>
           </a>
@@ -82,7 +80,8 @@ const serviceComparisonEn = {
           </div>
         ))}
       </div>
-      <p class="note center">All amounts exclude VAT and travel expenses. Where a range is shown, the proposal fixes the exact amount after the intake.</p>
+      <p class="note center">All proposals exclude VAT. The proposal fixes the exact amount after the intake.</p>
+      <ServiceContactCTA locale="en" />
     </div>
   </section>
 

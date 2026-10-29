@@ -2,15 +2,28 @@
   "url": "/diensten",
   "build_bestand": "dist/diensten/index.html",
   "html": {
-    "bytes": 31554,
+    "bytes": 36185,
     "lang": "nl"
   },
   "beschermd": {
     "title": "Diensten | Freelance AI Consultant",
     "meta_description": "Van AI Readiness Assessment tot Fractional AI Lead. Zes diensten met heldere scope, doorlooptijd en investering. Onafhankelijk en vendor-neutraal.",
-    "canonical": "https://freelanceaiconsultant.com/diensten",
+    "canonical": "https://freelanceaiconsultant.com/nl/diensten",
     "robots_meta": null,
-    "hreflang": [],
+    "hreflang": [
+      {
+        "hreflang": "en",
+        "href": "https://freelanceaiconsultant.com/services"
+      },
+      {
+        "hreflang": "nl",
+        "href": "https://freelanceaiconsultant.com/nl/diensten"
+      },
+      {
+        "hreflang": "x-default",
+        "href": "https://freelanceaiconsultant.com/services"
+      }
+    ],
     "h1": [
       "Diensten die AI-beslissingen helder maken."
     ]
@@ -21,7 +34,7 @@
     "og:site_name": "freelanceaiconsultant.com",
     "og:title": "Diensten | Freelance AI Consultant",
     "og:description": "Van AI Readiness Assessment tot Fractional AI Lead. Zes diensten met heldere scope, doorlooptijd en investering. Onafhankelijk en vendor-neutraal.",
-    "og:url": "https://freelanceaiconsultant.com/diensten",
+    "og:url": "https://freelanceaiconsultant.com/nl/diensten",
     "og:image": "https://freelanceaiconsultant.com/images/dave-portrait.jpg",
     "twitter:card": "summary_large_image",
     "twitter:title": "Diensten | Freelance AI Consultant",
@@ -73,6 +86,18 @@
     },
     {
       "niveau": 2,
+      "tekst": "Welke AI-dienst past bij welke situatie?",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 3,
+      "tekst": "Is de kennismaking voor een AI-dienst kosteloos?",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
       "tekst": "Altijd hetzelfde startpunt.",
       "regio": "main",
       "id": null
@@ -86,15 +111,15 @@
   ],
   "bodytekst": {
     "regio": "main",
-    "woorden": 562,
-    "sha256": "0a225cff67d0c30995f265c69ef5c92ac9603da3ed754f0ac07f9adfb708c5bf",
+    "woorden": 677,
+    "sha256": "2257e91147323e106b11aaf1eb48e6f488101ed2a0306cccb2c07e3cfd29c0c6",
     "blokken": [
       "AI-advies dat je helpt beslissen",
       "Diensten die AI-beslissingen helder maken.",
-      "Van eerste AI-stappen tot strategische verankering. Praktisch advies dat je team begrijpt, je board vertrouwt en je organisatie vooruithelpt. Elke dienst heeft een vaste prijs of een duidelijke bandbreedte. Waar je daarbinnen uitkomt, staat in het voorstel, voordat we starten.",
+      "Van eerste AI-stappen tot strategische verankering. Praktisch advies dat je team begrijpt, je board vertrouwt en je organisatie vooruithelpt. Vooraf een vaste prijs of vast maandbedrag, vastgelegd in het voorstel na een korte intake.",
       "Plan een gesprek → Vergelijk de diensten → 30 min., geen pitch deck",
       "vertrouwen, ervaring, impact ↓",
-      "Independent No vendor bias Senior only 20+ jaar ervaring",
+      "Independent No vendor bias Senior only Sinds 2006",
       "AI in Europa",
       "Europese merken die AI al in productie hebben.",
       "Geen klanten van mij. Wel voorbeelden van wat er gebeurt als AI voorbij de pilot komt.",
@@ -157,28 +182,28 @@
       "01",
       "AI Readiness Assessment",
       "Waar sta je nu met AI? We brengen kansen, risico’s en randvoorwaarden scherp in kaart voordat budget wordt vastgezet.",
-      "2-3 weken€7.000→",
+      "2-3 wekenVraag een voorstel aan→",
       "02",
       "AI Strategy Sprint",
       "Van ambitie naar een realistische AI-roadmap die past bij business, mensen en middelen, board-ready in zes weken.",
-      "4-6 weken€15.400 - €22.400→",
+      "4-6 wekenVraag een voorstel aan→",
       "03",
       "Fractional AI Lead",
       "Ervaren AI-leiderschap op interim-basis. Ik stuur, bouw mee en borg AI-initiatieven, zonder dat je direct een fulltime executive aanneemt.",
-      "2, 4 of 8 dagenVanaf €2.600 / mnd→",
+      "2, 4 of 8 dagenVraag een voorstel aan→",
       "Aanvullende diensten",
       "◈",
       "Vendor Review",
       "Onafhankelijk advies over tools, leveranciers en proposities, voordat je tekent.",
-      "3-6 weken · €9.800 - €15.400",
+      "3-6 weken · Vraag een voorstel aan",
       "→ ◉",
       "Executive Briefing",
       "Compacte sessie voor directie of board over AI-kansen, risico’s en wat het van bestuurders vraagt.",
-      "1 dagdeel incl. voorbereiding · €2.800",
+      "1 dagdeel incl. voorbereiding · Vraag een voorstel aan",
       "→ ☑",
       "AI Due Diligence",
       "Beoordeel AI-oplossingen of -bedrijven op waarde, risico, veiligheid en haalbaarheid.",
-      "2-4 weken · €12.600 - €19.600",
+      "2-4 weken · Vraag een voorstel aan",
       "→",
       "Welke past wanneer?",
       "AI Readiness AssessmentAI Strategy SprintFractional AI Lead",
@@ -186,9 +211,14 @@
       "Duur2-3 weken4-6 wekenDoorlopend (2, 4 of 8 dagen / maand)",
       "Best voorTeams die willen startenTeams met ambitie en focusvragenTeams die koers en capaciteit nodig hebben",
       "ResultaatRapport & 90-dagenplanRoadmap & businesscaseResultaten, adoptie & verbetering",
-      "Investering€7.000€15.400 - €22.400€2.600 / €5.200 / €10.400 per maand",
       "Jouw tijdsbeslagLaagMiddelMiddel tot hoog",
-      "Alle bedragen zijn exclusief btw en reiskosten. Waar een bandbreedte staat, legt het voorstel na de kennismaking het exacte bedrag vast.",
+      "Alle voorstellen zijn exclusief btw. Het exacte bedrag legt het voorstel na de kennismaking vast.",
+      "Vraag een voorstel aan → Prijs op maat, afhankelijk van scope",
+      "Welke AI-dienst past bij welke situatie?",
+      "Dave Willemstein biedt AI-adviesdiensten van het AI Readiness Assessment tot de Fractional AI Lead, elk met vooraf een vaste prijs of vast maandbedrag, vastgelegd in het voorstel. Van de hoofddiensten heeft het AI Readiness Assessment als doel inzicht en prioriteiten te bepalen, de AI Strategy Sprint strategie en roadmap vast te leggen en de Fractional AI Lead uitvoering en borging te realiseren. De bedragen zijn exclusief btw en reiskosten.",
+      "Is de kennismaking voor een AI-dienst kosteloos?",
+      "Ja. Elke AI-dienst begint met een kennismaking van dertig minuten zonder kosten, gevolgd door een voorstel binnen drie werkdagen.",
+      "Bron: tarieven en doorlooptijden van Dave Willemstein. Bijgewerkt: oktober 2026.",
       "Hoe een opdracht begint",
       "Altijd hetzelfde startpunt.",
       "Kennismaking (30 min, kosteloos)Je vertelt waar je tegenaan loopt. Ik stel vragen en zeg aan het eind wat ik zou doen, ook als dat betekent dat je me niet nodig hebt.",
@@ -212,56 +242,63 @@
     {
       "regio": "header",
       "soort": "intern",
-      "href": "/",
+      "href": "/nl",
       "anker": "",
       "rel": null
     },
     {
       "regio": "header",
       "soort": "intern",
-      "href": "/diensten",
+      "href": "/nl/diensten",
       "anker": "Diensten",
       "rel": null
     },
     {
       "regio": "header",
       "soort": "intern",
-      "href": "/cases",
+      "href": "/nl/cases",
       "anker": "Cases",
       "rel": null
     },
     {
       "regio": "header",
       "soort": "intern",
-      "href": "/werkwijze",
+      "href": "/nl/werkwijze",
       "anker": "Werkwijze",
       "rel": null
     },
     {
       "regio": "header",
       "soort": "intern",
-      "href": "/inzichten",
+      "href": "/nl/inzichten",
       "anker": "Inzichten",
       "rel": null
     },
     {
       "regio": "header",
       "soort": "intern",
-      "href": "/over",
+      "href": "/nl/over",
       "anker": "Over mij",
       "rel": null
     },
     {
       "regio": "header",
       "soort": "intern",
-      "href": "/contact",
+      "href": "/services",
+      "anker": "EN",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/nl/contact",
       "anker": "Plan een gesprek →",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/contact",
+      "href": "/nl/contact",
       "anker": "Plan een gesprek →",
       "rel": null
     },
@@ -275,196 +312,231 @@
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/diensten/ai-readiness-assessment",
-      "anker": "01 AI Readiness Assessment Waar sta je nu met AI? We brengen kansen, risico’s en randvoorwaarden scherp in kaart voordat budget wordt vastgezet. 2-3 weken €7.000 →",
+      "href": "/nl/diensten/ai-readiness-assessment",
+      "anker": "01 AI Readiness Assessment Waar sta je nu met AI? We brengen kansen, risico’s en randvoorwaarden scherp in kaart voordat budget wordt vastgezet. 2-3 weken Vraag een voorstel aan →",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/diensten/ai-strategy-sprint",
-      "anker": "02 AI Strategy Sprint Van ambitie naar een realistische AI-roadmap die past bij business, mensen en middelen, board-ready in zes weken. 4-6 weken €15.400 - €22.400 →",
+      "href": "/nl/diensten/ai-strategy-sprint",
+      "anker": "02 AI Strategy Sprint Van ambitie naar een realistische AI-roadmap die past bij business, mensen en middelen, board-ready in zes weken. 4-6 weken Vraag een voorstel aan →",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/diensten/fractional-ai-lead",
-      "anker": "03 Fractional AI Lead Ervaren AI-leiderschap op interim-basis. Ik stuur, bouw mee en borg AI-initiatieven, zonder dat je direct een fulltime executive aanneemt. 2, 4 of 8 dagen Vanaf €2.600 / mnd →",
+      "href": "/nl/diensten/fractional-ai-lead",
+      "anker": "03 Fractional AI Lead Ervaren AI-leiderschap op interim-basis. Ik stuur, bouw mee en borg AI-initiatieven, zonder dat je direct een fulltime executive aanneemt. 2, 4 of 8 dagen Vraag een voorstel aan →",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/diensten/vendor-review",
-      "anker": "◈ Vendor Review Onafhankelijk advies over tools, leveranciers en proposities, voordat je tekent. 3-6 weken · €9.800 - €15.400 →",
+      "href": "/nl/diensten/vendor-review",
+      "anker": "◈ Vendor Review Onafhankelijk advies over tools, leveranciers en proposities, voordat je tekent. 3-6 weken · Vraag een voorstel aan →",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/diensten/executive-briefing",
-      "anker": "◉ Executive Briefing Compacte sessie voor directie of board over AI-kansen, risico’s en wat het van bestuurders vraagt. 1 dagdeel incl. voorbereiding · €2.800 →",
+      "href": "/nl/diensten/executive-briefing",
+      "anker": "◉ Executive Briefing Compacte sessie voor directie of board over AI-kansen, risico’s en wat het van bestuurders vraagt. 1 dagdeel incl. voorbereiding · Vraag een voorstel aan →",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/diensten/ai-due-diligence",
-      "anker": "☑ AI Due Diligence Beoordeel AI-oplossingen of -bedrijven op waarde, risico, veiligheid en haalbaarheid. 2-4 weken · €12.600 - €19.600 →",
+      "href": "/nl/diensten/ai-due-diligence",
+      "anker": "☑ AI Due Diligence Beoordeel AI-oplossingen of -bedrijven op waarde, risico, veiligheid en haalbaarheid. 2-4 weken · Vraag een voorstel aan →",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/contact",
+      "href": "/nl/contact",
+      "anker": "Vraag een voorstel aan →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/nl/diensten/ai-readiness-assessment",
+      "anker": "AI Readiness Assessment",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/nl/diensten/fractional-ai-lead",
+      "anker": "Fractional AI Lead",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/nl/diensten/ai-strategy-sprint",
+      "anker": "AI Strategy Sprint",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/nl/tarieven",
+      "anker": "tarieven en doorlooptijden van Dave Willemstein",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/nl/contact",
       "anker": "Plan een gesprek →",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/diensten/ai-readiness-assessment",
+      "href": "/nl/diensten/ai-readiness-assessment",
       "anker": "AI Readiness Assessment",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/diensten/ai-strategy-sprint",
+      "href": "/nl/diensten/ai-strategy-sprint",
       "anker": "AI Strategy Sprint",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/diensten/fractional-ai-lead",
+      "href": "/nl/diensten/fractional-ai-lead",
       "anker": "Fractional AI Lead",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/diensten",
+      "href": "/nl/diensten",
       "anker": "Alle diensten",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/cases",
+      "href": "/nl/cases",
       "anker": "Cases",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/werkwijze",
+      "href": "/nl/werkwijze",
       "anker": "Werkwijze",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/inzichten",
+      "href": "/nl/inzichten",
       "anker": "Inzichten",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/veelgestelde-vragen",
+      "href": "/nl/veelgestelde-vragen",
       "anker": "Veelgestelde vragen",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/over",
+      "href": "/nl/over",
       "anker": "Over mij",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-consultancy",
+      "href": "/nl/ai-consultancy",
       "anker": "AI consultancy",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-implementatie",
+      "href": "/nl/ai-implementatie",
       "anker": "AI implementatie",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-automatisering",
+      "href": "/nl/ai-automatisering",
       "anker": "AI automatisering",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-voor-bedrijven",
+      "href": "/nl/ai-voor-bedrijven",
       "anker": "AI voor bedrijven",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-development",
+      "href": "/nl/ai-development",
       "anker": "AI development",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-agents",
+      "href": "/nl/ai-agents",
       "anker": "AI agents",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-beleid",
+      "href": "/nl/ai-beleid",
       "anker": "AI beleid",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-workshop",
+      "href": "/nl/ai-workshop",
       "anker": "AI workshop",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/markten",
+      "href": "/nl/markten",
       "anker": "AI per branche",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/kennisbank",
+      "href": "/nl/kennisbank",
       "anker": "Kennisbank",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/tarieven",
+      "href": "/nl/tarieven",
       "anker": "Tarieven",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/partnernetwerk",
+      "href": "/nl/partnernetwerk",
       "anker": "Partnernetwerk",
       "rel": null
     },
@@ -485,52 +557,76 @@
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/contact",
+      "href": "/nl/contact",
       "anker": "Plan een gesprek",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/privacy",
+      "href": "/nl/privacy",
       "anker": "Privacyverklaring",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/algemene-voorwaarden",
+      "href": "/nl/algemene-voorwaarden",
       "anker": "Algemene voorwaarden",
       "rel": null
     }
   ],
   "structured_data": {
-    "sha256": "ad0b32a5c9fc7e598f3f6f061b83fd5cf04322d57fb37ea3e59a0dbe094bb568",
+    "sha256": "f132854cd2b5b8ef60a746c1820411b2717e1628527cd7c3cdaa3658fe4986dc",
     "items": [
-      {
-        "@context": "https://schema.org",
-        "@type": "ProfessionalService",
-        "name": "Dave Willemstein, Independent AI Advisor",
-        "url": "https://freelanceaiconsultant.com",
-        "image": "https://freelanceaiconsultant.com/images/dave-portrait.jpg",
-        "email": "dave@freelanceaiconsultant.com",
-        "description": "Van AI Readiness Assessment tot Fractional AI Lead. Zes diensten met heldere scope, doorlooptijd en investering. Onafhankelijk en vendor-neutraal.",
-        "areaServed": [
-          "NL",
-          "BE",
-          "DE"
-        ],
-        "priceRange": "€€€",
-        "founder": {
-          "@type": "Person",
-          "name": "Dave Willemstein",
-          "jobTitle": "Onafhankelijk AI-adviseur",
+      [
+        {
+          "@context": "https://schema.org",
+          "@type": "ProfessionalService",
+          "name": "Dave Willemstein, Independent AI Advisor",
           "url": "https://freelanceaiconsultant.com",
-          "sameAs": [
-            "https://www.linkedin.com/in/davewillemstein"
+          "image": "https://freelanceaiconsultant.com/images/dave-portrait.jpg",
+          "email": "dave@freelanceaiconsultant.com",
+          "description": "Van AI Readiness Assessment tot Fractional AI Lead. Zes diensten met heldere scope, doorlooptijd en investering. Onafhankelijk en vendor-neutraal.",
+          "inLanguage": "nl-NL",
+          "areaServed": [
+            "NL",
+            "BE",
+            "DE"
+          ],
+          "founder": {
+            "@type": "Person",
+            "name": "Dave Willemstein",
+            "jobTitle": "Onafhankelijk AI-adviseur",
+            "url": "https://freelanceaiconsultant.com",
+            "sameAs": [
+              "https://www.linkedin.com/in/davewillemstein"
+            ]
+          }
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "Welke AI-dienst past bij welke situatie?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Dave Willemstein biedt AI-adviesdiensten van het AI Readiness Assessment tot de Fractional AI Lead, elk met vooraf een vaste prijs of vast maandbedrag, vastgelegd in het voorstel. Van de hoofddiensten heeft het AI Readiness Assessment als doel inzicht en prioriteiten te bepalen, de AI Strategy Sprint strategie en roadmap vast te leggen en de Fractional AI Lead uitvoering en borging te realiseren. De bedragen zijn exclusief btw en reiskosten."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Is de kennismaking voor een AI-dienst kosteloos?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Ja. Elke AI-dienst begint met een kennismaking van dertig minuten zonder kosten, gevolgd door een voorstel binnen drie werkdagen."
+              }
+            }
           ]
         }
-      }
+      ]
     ]
   },
   "afbeeldingen": [
@@ -569,11 +665,11 @@
     ],
     "stylesheets": [
       "https://fonts.googleapis.com/css2?family=Caveat:wght@600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap",
-      "/_astro/_slug_.bq6BBoZ5.css",
+      "/_astro/_slug_.BzqUXH8l.css",
       "/logo-carousel/logo-carousel.css?v=2"
     ],
     "aantal_details": 0,
     "aantal_tabellen": 0
   },
-  "gemeten_op": "2026-10-06"
+  "gemeten_op": "2026-10-28"
 }

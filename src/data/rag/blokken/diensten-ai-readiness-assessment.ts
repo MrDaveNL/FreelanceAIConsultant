@@ -5,7 +5,7 @@ export default {
   "type": "dienst",
   "onderwerp": "AI Readiness Assessment",
   "vraagkop": "Wat levert het AI Readiness Assessment op en wat kost het?",
-  "antwoord": "Het {{dienst:ai-readiness-assessment}} van {{afzender}} laat organisaties die AI overwegen maar nog geen richting hebben gekozen zien wat haalbaar is en wat eerst moet. Het resultaat is een readiness-score op strategie, data, technologie, mensen en governance, een gap-analyse en een 90-dagenplan. De doorlichting duurt {{timing:ai-readiness-assessment}} en kost {{pricelc:ai-readiness-assessment}}, als vaste prijs {{voorwaarden}}.",
+  "antwoord": "Het {{dienst:ai-readiness-assessment}} van {{afzender}} laat organisaties die AI overwegen maar nog geen richting hebben gekozen zien wat haalbaar is en wat eerst moet. Het resultaat is een readiness-score op strategie, data, technologie, mensen en governance, een gap-analyse en een 90-dagenplan. De doorlichting duurt {{timing:ai-readiness-assessment}} tegen {{pricelc:ai-readiness-assessment}}, {{voorwaarden}}.",
   "vervolgvragen": [
     {
       "vraag": "Hoe lang duurt het AI Readiness Assessment?",
@@ -13,7 +13,7 @@ export default {
     },
     {
       "vraag": "Is de prijs van het AI Readiness Assessment een vaste prijs?",
-      "antwoord": "Ja, voor de hele organisatie: het {{dienst:ai-readiness-assessment}} kost {{pricelc:ai-readiness-assessment}} als vaste prijs, en de eindpresentatie aan MT of board zit daarbij in. Voor een enkele business unit of een specifiek procesdomein ligt de investering lager. Het bedrag is {{voorwaarden}}."
+      "antwoord": "Ja, voor de hele organisatie: het {{dienst:ai-readiness-assessment}} kost een vaste prijs, vastgelegd in het voorstel, en de eindpresentatie aan MT of board zit daarbij in. Voor een enkele business unit of een specifiek procesdomein ligt de investering lager. Het bedrag is {{voorwaarden}}."
     },
     {
       "vraag": "Wordt een Executive Briefing verrekend met het AI Readiness Assessment?",

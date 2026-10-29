@@ -102,6 +102,6 @@ Voor het MKB gelden dezelfde principes, maar met minder ruimte voor experimenten
 - **Kies één knelpunt met een duidelijke eigenaar.** Liever één proces goed dan vijf half. Welke toepassingen in de praktijk resultaat opleveren, beschreef ik in [welke AI use cases leveren resultaat](/nl/inzichten/welke-ai-use-cases-leveren-resultaat).
 - **Laat pas bouwen als standaard aantoonbaar tekortschiet.** Maatwerk brengt blijvende beheerkosten mee, en die moet je kunnen dragen.
 
-Meer over AI in kleinere organisaties staat op de pagina [AI voor het MKB](/nl/ai-voor-bedrijven/mkb). Wil je eerst weten waar je staat? Het [AI Readiness Assessment](/nl/diensten/ai-readiness-assessment) geeft in {{timing:ai-readiness-assessment}} een onderbouwd beeld, voor {{pricelc:ai-readiness-assessment}}. Voor één afdeling of procesdomein kan het ook kleiner, met een lagere investering.
+Meer over AI in kleinere organisaties staat op de pagina [AI voor het MKB](/nl/ai-voor-bedrijven/mkb). Wil je eerst weten waar je staat? Het [AI Readiness Assessment](/nl/diensten/ai-readiness-assessment) geeft in {{timing:ai-readiness-assessment}} een onderbouwd beeld, voor een vaste prijs, vooraf afgesproken. Voor één afdeling of procesdomein kan het ook kleiner, met een lagere investering.
 
 Zoek je vooral iemand met technische diepgang? Op de pagina over [de AI specialist](/nl/ai-development/ai-specialist) lees je welke profielen er zijn en welk profiel bij jouw vraag past. En wil je sparren over een concreet knelpunt, [plan dan een adviesgesprek](/nl/contact).

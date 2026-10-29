@@ -5,14 +5,13 @@ export default {
   "onderwerp": "AI development",
   "vraagkop": "Wat kost onafhankelijke begeleiding bij AI development en wie bouwt er?",
   "onderBestaandeKop": false,
-  "antwoord": "{{afzender}} bouwt zelf geen software, maar begeleidt AI development vanuit de kant van de opdrachtgever: specificatie, selectie van de bouwpartij, toetsing van opleveringen en governance. Voor de keuze van de bouwpartij is er de {{dienst:vendor-review}} van {{timing:vendor-review}} voor {{pricelc:vendor-review}}, en tijdens de bouw is er begeleiding vanuit klantzijde, bijvoorbeeld als {{dienst:fractional-ai-lead}} voor {{pricelc:fractional-ai-lead}}. De bouw zelf ligt bij het eigen team of bij een ontwikkelpartij met wie de opdrachtgever rechtstreeks een contract sluit.",
+  "antwoord": "{{afzender}} bouwt zelf geen software, maar begeleidt AI development vanuit de kant van de opdrachtgever: specificatie, selectie van de bouwpartij, toetsing van opleveringen en governance. Voor de keuze van de bouwpartij is er de {{dienst:vendor-review}} van {{timing:vendor-review}}, tegen een vaste prijs, en tijdens de bouw is er begeleiding vanuit klantzijde, bijvoorbeeld als {{dienst:fractional-ai-lead}} tegen een vast maandbedrag. De bouw zelf ligt bij het eigen team of bij een ontwikkelpartij met wie de opdrachtgever rechtstreeks een contract sluit.",
   "tabel": {
     "bijschrift": "AI development: passende dienst per fase van het traject",
     "kolommen": [
       "Fase in het traject",
       "Wat de opdrachtgever krijgt",
       "Doorlooptijd",
-      "Prijs",
       "Passende dienst"
     ],
     "rijen": [
@@ -22,10 +21,6 @@ export default {
         {
           "dienst": "ai-readiness-assessment",
           "veld": "doorlooptijd"
-        },
-        {
-          "dienst": "ai-readiness-assessment",
-          "veld": "prijs"
         },
         {
           "dienst": "ai-readiness-assessment",
@@ -41,10 +36,6 @@ export default {
         },
         {
           "dienst": "vendor-review",
-          "veld": "prijs"
-        },
-        {
-          "dienst": "vendor-review",
           "veld": "naam"
         }
       ],
@@ -54,10 +45,6 @@ export default {
         {
           "dienst": "fractional-ai-lead",
           "veld": "doorlooptijd"
-        },
-        {
-          "dienst": "fractional-ai-lead",
-          "veld": "prijs"
         },
         {
           "dienst": "fractional-ai-lead",

@@ -175,7 +175,7 @@ Concreet lever ik per stap iets op waar je een besluit mee kunt nemen: een proce
 
 Heb je hulp nodig bij het vinden van een bouwpartij, dan stel ik partijen voor uit mijn [partnernetwerk](/nl/partnernetwerk). Je kiest en contracteert zelf. Wie ik ben en hoe ik werk, lees je op de pagina [over mij](/nl/over). Voor de bredere route van besluit naar productie, ook buiten automatisering, zie [AI implementatie](/nl/ai-implementatie).
 
-Weet je nog niet welk proces als eerste aan de beurt is? Dan is het [AI Readiness Assessment](/nl/diensten/ai-readiness-assessment) het logische begin. In {{timing:ai-readiness-assessment}} krijg je een gevalideerde lijst met kansen en een 90-dagenplan, voor een vaste prijs van {{price:ai-readiness-assessment}} (exclusief btw en reiskosten).
+Weet je nog niet welk proces als eerste aan de beurt is? Dan is het [AI Readiness Assessment](/nl/diensten/ai-readiness-assessment) het logische begin. In {{timing:ai-readiness-assessment}} krijg je een gevalideerde lijst met kansen en een 90-dagenplan, voor een vaste prijs, vooraf afgesproken (het voorstel is exclusief btw).
 
 ## Tools en workflows
 

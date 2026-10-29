@@ -91,7 +91,7 @@ I'm a freelance AI consultant, an AI specialist on the strategic side: an [indep
 Where I am specialised:
 
 - **AI strategy and prioritisation.** From scattered ideas to a portfolio with well-founded choices and a roadmap.
-- **Readiness.** An assessment across strategy, data, technology, people and governance. The [AI Readiness Assessment](/services/ai-readiness-assessment) costs {{price:ai-readiness-assessment}} and takes {{timing:ai-readiness-assessment}}.
+- **Readiness.** An assessment across strategy, data, technology, people and governance. The [AI Readiness Assessment](/services/ai-readiness-assessment) has a fixed price and takes {{timing:ai-readiness-assessment}}.
 - **Vendor selection.** Criteria set upfront, the same scenario tested on your data, and a three-year TCO comparison. One example is the case study on [vendor selection in enterprise retail](/cases/vendor-selection-enterprise-retail).
 - **Assessment and due diligence.** Assessing business cases and AI propositions for value, risk and feasibility.
 - **Governance.** Roles, decision frameworks and the requirements of the AI Act, made workable.

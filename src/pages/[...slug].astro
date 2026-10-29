@@ -108,15 +108,6 @@ const graph = [
     })),
   },
 ];
-const parsePrice = (price) => {
-  const nums = price.match(/[\d.]+/g).map((n) => Number(n.replace(/\./g, '')));
-  const spec = { '@type': 'PriceSpecification', priceCurrency: 'EUR', valueAddedTaxIncluded: false };
-  if (/vanaf/i.test(price)) Object.assign(spec, { minPrice: nums[0] });
-  else if (nums.length > 1) Object.assign(spec, { minPrice: nums[0], maxPrice: nums[nums.length - 1] });
-  else Object.assign(spec, { price: nums[0] });
-  if (/maand/i.test(price)) spec.unitText = 'MONTH';
-  return spec;
-};
 if (page.schema === 'service') {
   graph.push({ '@type': 'Service', name: page.navLabel, serviceType: page.keyphrase, description: page.metaDescription, url: pageUrl, areaServed: locale === 'en' ? 'GB' : 'NL', provider: person });
 } else if (page.schema === 'pricing') {
@@ -128,11 +119,10 @@ if (page.schema === 'service') {
     provider: person,
     hasOfferCatalog: {
       '@type': 'OfferCatalog',
-      name: 'Pakketten en vanaf-prijzen',
+      name: 'Pakketten',
       itemListElement: services.map((s) => ({
         '@type': 'Offer',
         itemOffered: { '@type': 'Service', name: s.title, url: `${site.url}${serviceHref(s.slug)}` },
-        priceSpecification: parsePrice(s.price),
       })),
     },
   });

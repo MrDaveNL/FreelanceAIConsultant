@@ -2,15 +2,28 @@
   "url": "/inzichten/waarom-ai-pilots-blijven-steken",
   "build_bestand": "dist/inzichten/waarom-ai-pilots-blijven-steken/index.html",
   "html": {
-    "bytes": 30886,
+    "bytes": 36815,
     "lang": "nl"
   },
   "beschermd": {
     "title": "Waarom AI-pilots blijven steken (en wat je eraan doet)",
     "meta_description": "De pilot werkte. Iedereen was enthousiast. En toch is er een jaar later niets opgeschaald. Vijf oorzaken, vijf tegenmaatregelen.",
-    "canonical": "https://freelanceaiconsultant.com/inzichten/waarom-ai-pilots-blijven-steken",
+    "canonical": "https://freelanceaiconsultant.com/nl/inzichten/waarom-ai-pilots-blijven-steken",
     "robots_meta": null,
-    "hreflang": [],
+    "hreflang": [
+      {
+        "hreflang": "en",
+        "href": "https://freelanceaiconsultant.com/insights/why-ai-pilots-stall"
+      },
+      {
+        "hreflang": "nl",
+        "href": "https://freelanceaiconsultant.com/nl/inzichten/waarom-ai-pilots-blijven-steken"
+      },
+      {
+        "hreflang": "x-default",
+        "href": "https://freelanceaiconsultant.com/insights/why-ai-pilots-stall"
+      }
+    ],
     "h1": [
       "Waarom AI-pilots blijven steken"
     ]
@@ -21,7 +34,7 @@
     "og:site_name": "freelanceaiconsultant.com",
     "og:title": "Waarom AI-pilots blijven steken (en wat je eraan doet)",
     "og:description": "De pilot werkte. Iedereen was enthousiast. En toch is er een jaar later niets opgeschaald. Vijf oorzaken, vijf tegenmaatregelen.",
-    "og:url": "https://freelanceaiconsultant.com/inzichten/waarom-ai-pilots-blijven-steken",
+    "og:url": "https://freelanceaiconsultant.com/nl/inzichten/waarom-ai-pilots-blijven-steken",
     "og:image": "https://freelanceaiconsultant.com/images/dave-portrait.jpg",
     "twitter:card": "summary_large_image",
     "twitter:title": "Waarom AI-pilots blijven steken (en wat je eraan doet)",
@@ -32,6 +45,30 @@
     {
       "niveau": 1,
       "tekst": "Waarom AI-pilots blijven steken",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "Waardoor worden geslaagde AI-pilots zelden opgeschaald naar productie?",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 3,
+      "tekst": "Kunnen AI-pilots beter in de echte werkomgeving draaien dan in een aparte omgeving?",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 3,
+      "tekst": "Moet de opschaaleigenaar van AI-pilots al voor de start bekend zijn?",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 3,
+      "tekst": "Kunnen AI-pilots doorgaan als er in de organisatie niets mag veranderen?",
       "regio": "main",
       "id": null
     },
@@ -104,8 +141,8 @@
   ],
   "bodytekst": {
     "regio": "main",
-    "woorden": 1246,
-    "sha256": "f3d3141104ce220bdc5826af9ef067923460fee2229258702716b8524ca1bd9e",
+    "woorden": 1493,
+    "sha256": "f9c1dd7d609209ce5cd0e5033dac0a4d0fba9b131c6d65cf40aaf49527e6972b",
     "blokken": [
       "← Terug naar alle inzichten",
       "Organisatie",
@@ -116,7 +153,7 @@
       "Door Dave Willemstein Independent AI Advisor, onafhankelijk, geen leveranciersbelangen",
       "Ik help organisaties AI-beslissingen nemen die waarde creëren. Geen dikke decks, wel duidelijke keuzes en tastbare resultaten.",
       "vertrouwen, ervaring, impact ↓",
-      "Independent No vendor bias Senior only 20+ jaar ervaring",
+      "Independent No vendor bias Senior only Sinds 2006",
       "IN HET KORT",
       "Een pilot bewijst haalbaarheid, geen waarde.",
       "Opschalen faalt op eigenaarschap, beheer en werkproces, zelden op techniek.",
@@ -180,6 +217,15 @@
       "Proces & productivity",
       "Zakelijke dienstverlener",
       "Interne AI-assistent voor kenniswerkers",
+      "Waardoor worden geslaagde AI-pilots zelden opgeschaald naar productie?",
+      "AI-pilots blijven steken door oorzaken die geen van alle technisch zijn: de pilot beantwoordt alleen of iets technisch kan, draait buiten het echte werkproces, heeft geen eigenaar voor de fase erna, rekent het beheer niet mee en vermijdt de organisatorische verandering. Een pilot toont haalbaarheid aan en geen waarde. Wat in de praktijk goed werkt, is vóór de start de te beantwoorden vraag, de stopcriteria, de opschaaleigenaar, de beheerraming en de benodigde verandering op één pagina vast te leggen.",
+      "Kunnen AI-pilots beter in de echte werkomgeving draaien dan in een aparte omgeving?",
+      "Ja, voor AI-pilots geldt als tegenmaatregel: liever een kleinere scope in de echte omgeving dan een grotere scope ernaast, met één team, echte data, het echte proces en echte koppelingen. Die opzet is trager in week één en aanzienlijk sneller in maand zes.",
+      "Moet de opschaaleigenaar van AI-pilots al voor de start bekend zijn?",
+      "Ja. De opschaaleigenaar van AI-pilots wordt aangewezen voordat de pilot begint: iemand uit de lijn, met budget en een plek in de pilotstuurgroep. Is die persoon niet te vinden, dan is dat zelf een belangrijke uitkomst.",
+      "Kunnen AI-pilots doorgaan als er in de organisatie niets mag veranderen?",
+      "Ja, maar de businesscase van AI-pilots wordt dan doorgerekend zonder de besparing die verandering vereist. Vaak blijft er dan een reële, kleinere waarde over, en dat is een eerlijker startpunt dan een belofte die later niet waargemaakt kan worden.",
+      "Bron: artikel van Dave Willemstein. Bijgewerkt: oktober 2026.",
       "De pilotparadox",
       "Pilots zijn ontworpen om risico te verlagen. Klein beginnen, leren, dan opschalen. In de praktijk doen ze vaak het tegenovergestelde: ze creëren de illusie van vooruitgang zonder dat er iets verandert. Een organisatie met zeven geslaagde pilots en nul productietoepassingen is verder van haar doel dan een organisatie met één toepassing die draait.",
       "De oorzaken zijn opvallend consistent. Vijf stuks, en geen ervan is technisch.",
@@ -251,231 +297,238 @@
     {
       "regio": "header",
       "soort": "intern",
-      "href": "/",
+      "href": "/nl",
       "anker": "",
       "rel": null
     },
     {
       "regio": "header",
       "soort": "intern",
-      "href": "/diensten",
+      "href": "/nl/diensten",
       "anker": "Diensten",
       "rel": null
     },
     {
       "regio": "header",
       "soort": "intern",
-      "href": "/cases",
+      "href": "/nl/cases",
       "anker": "Cases",
       "rel": null
     },
     {
       "regio": "header",
       "soort": "intern",
-      "href": "/werkwijze",
+      "href": "/nl/werkwijze",
       "anker": "Werkwijze",
       "rel": null
     },
     {
       "regio": "header",
       "soort": "intern",
-      "href": "/inzichten",
+      "href": "/nl/inzichten",
       "anker": "Inzichten",
       "rel": null
     },
     {
       "regio": "header",
       "soort": "intern",
-      "href": "/over",
+      "href": "/nl/over",
       "anker": "Over mij",
       "rel": null
     },
     {
       "regio": "header",
       "soort": "intern",
-      "href": "/contact",
+      "href": "/insights/why-ai-pilots-stall",
+      "anker": "EN",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/nl/contact",
       "anker": "Plan een gesprek →",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/inzichten",
+      "href": "/nl/inzichten",
       "anker": "← Terug naar alle inzichten",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/contact",
+      "href": "/nl/contact",
       "anker": "Sparren over jouw situatie? 30 minuten, vrijblijvend →",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/inzichten/welke-ai-use-cases-leveren-resultaat",
+      "href": "/nl/inzichten/welke-ai-use-cases-leveren-resultaat",
       "anker": "⌕ Use cases Welke AI-use cases leveren écht resultaat op? Niet de spectaculairste, maar de saaiste. Vier kenmerken die de winnaars delen, en vier patronen die vrijwel altijd stranden. ◷ 4 min leestijd Lees artikel →",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/inzichten/ai-adoptie-begint-bij-het-werk",
+      "href": "/nl/inzichten/ai-adoptie-begint-bij-het-werk",
       "anker": "◉ Organisatie AI-adoptie begint bij het werk, niet bij de tool Iedereen een licentie geven is geen adoptiestrategie. Waarom een leeg invoerveld de grootste drempel is, en wat er wel werkt. ◷ 4 min leestijd Lees artikel →",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/contact",
+      "href": "/nl/contact",
       "anker": "Plan een gesprek →",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/diensten/ai-readiness-assessment",
+      "href": "/nl/diensten/ai-readiness-assessment",
       "anker": "AI Readiness Assessment",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/diensten/ai-strategy-sprint",
+      "href": "/nl/diensten/ai-strategy-sprint",
       "anker": "AI Strategy Sprint",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/diensten/fractional-ai-lead",
+      "href": "/nl/diensten/fractional-ai-lead",
       "anker": "Fractional AI Lead",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/diensten",
+      "href": "/nl/diensten",
       "anker": "Alle diensten",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/cases",
+      "href": "/nl/cases",
       "anker": "Cases",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/werkwijze",
+      "href": "/nl/werkwijze",
       "anker": "Werkwijze",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/inzichten",
+      "href": "/nl/inzichten",
       "anker": "Inzichten",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/veelgestelde-vragen",
+      "href": "/nl/veelgestelde-vragen",
       "anker": "Veelgestelde vragen",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/over",
+      "href": "/nl/over",
       "anker": "Over mij",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-consultancy",
+      "href": "/nl/ai-consultancy",
       "anker": "AI consultancy",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-implementatie",
+      "href": "/nl/ai-implementatie",
       "anker": "AI implementatie",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-automatisering",
+      "href": "/nl/ai-automatisering",
       "anker": "AI automatisering",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-voor-bedrijven",
+      "href": "/nl/ai-voor-bedrijven",
       "anker": "AI voor bedrijven",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-development",
+      "href": "/nl/ai-development",
       "anker": "AI development",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-agents",
+      "href": "/nl/ai-agents",
       "anker": "AI agents",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-beleid",
+      "href": "/nl/ai-beleid",
       "anker": "AI beleid",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-workshop",
+      "href": "/nl/ai-workshop",
       "anker": "AI workshop",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/markten",
+      "href": "/nl/markten",
       "anker": "AI per branche",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/kennisbank",
+      "href": "/nl/kennisbank",
       "anker": "Kennisbank",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/tarieven",
+      "href": "/nl/tarieven",
       "anker": "Tarieven",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/partnernetwerk",
+      "href": "/nl/partnernetwerk",
       "anker": "Partnernetwerk",
       "rel": null
     },
@@ -496,48 +549,88 @@
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/contact",
+      "href": "/nl/contact",
       "anker": "Plan een gesprek",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/privacy",
+      "href": "/nl/privacy",
       "anker": "Privacyverklaring",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/algemene-voorwaarden",
+      "href": "/nl/algemene-voorwaarden",
       "anker": "Algemene voorwaarden",
       "rel": null
     }
   ],
   "structured_data": {
-    "sha256": "188b8bb1fa1ca4f91bb82ff4f4e4653a68ecf5b3d5658937794fa59ea1883ffd",
+    "sha256": "3851d2d899b3c1ac492a889f78104246e57986548ce5d819819a41a3d7ae719f",
     "items": [
-      {
-        "@context": "https://schema.org",
-        "@type": "BlogPosting",
-        "headline": "Waarom AI-pilots blijven steken (en wat je eraan doet)",
-        "description": "De pilot werkte. Iedereen was enthousiast. En toch is er een jaar later niets opgeschaald. Vijf oorzaken, vijf tegenmaatregelen.",
-        "datePublished": "2026-02-26",
-        "inLanguage": "nl-NL",
-        "articleSection": "Organisatie",
-        "author": {
-          "@type": "Person",
-          "name": "Dave Willemstein",
-          "url": "https://freelanceaiconsultant.com",
-          "jobTitle": "Onafhankelijk AI-adviseur"
+      [
+        {
+          "@context": "https://schema.org",
+          "@type": "BlogPosting",
+          "headline": "Waarom AI-pilots blijven steken (en wat je eraan doet)",
+          "description": "De pilot werkte. Iedereen was enthousiast. En toch is er een jaar later niets opgeschaald. Vijf oorzaken, vijf tegenmaatregelen.",
+          "datePublished": "2026-02-26",
+          "inLanguage": "nl-NL",
+          "articleSection": "Organisatie",
+          "author": {
+            "@type": "Person",
+            "name": "Dave Willemstein",
+            "url": "https://freelanceaiconsultant.com",
+            "jobTitle": "Onafhankelijk AI-adviseur"
+          },
+          "publisher": {
+            "@type": "Person",
+            "name": "Dave Willemstein"
+          },
+          "mainEntityOfPage": "https://freelanceaiconsultant.com/nl/inzichten/waarom-ai-pilots-blijven-steken"
         },
-        "publisher": {
-          "@type": "Person",
-          "name": "Dave Willemstein"
-        },
-        "mainEntityOfPage": "https://freelanceaiconsultant.com/inzichten/waarom-ai-pilots-blijven-steken"
-      }
+        {
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "Waardoor worden geslaagde AI-pilots zelden opgeschaald naar productie?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "AI-pilots blijven steken door oorzaken die geen van alle technisch zijn: de pilot beantwoordt alleen of iets technisch kan, draait buiten het echte werkproces, heeft geen eigenaar voor de fase erna, rekent het beheer niet mee en vermijdt de organisatorische verandering. Een pilot toont haalbaarheid aan en geen waarde. Wat in de praktijk goed werkt, is vóór de start de te beantwoorden vraag, de stopcriteria, de opschaaleigenaar, de beheerraming en de benodigde verandering op één pagina vast te leggen."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Kunnen AI-pilots beter in de echte werkomgeving draaien dan in een aparte omgeving?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Ja, voor AI-pilots geldt als tegenmaatregel: liever een kleinere scope in de echte omgeving dan een grotere scope ernaast, met één team, echte data, het echte proces en echte koppelingen. Die opzet is trager in week één en aanzienlijk sneller in maand zes."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Moet de opschaaleigenaar van AI-pilots al voor de start bekend zijn?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Ja. De opschaaleigenaar van AI-pilots wordt aangewezen voordat de pilot begint: iemand uit de lijn, met budget en een plek in de pilotstuurgroep. Is die persoon niet te vinden, dan is dat zelf een belangrijke uitkomst."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Kunnen AI-pilots doorgaan als er in de organisatie niets mag veranderen?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Ja, maar de businesscase van AI-pilots wordt dan doorgerekend zonder de besparing die verandering vereist. Vaak blijft er dan een reële, kleinere waarde over, en dat is een eerlijker startpunt dan een belofte die later niet waargemaakt kan worden."
+              }
+            }
+          ]
+        }
+      ]
     ]
   },
   "afbeeldingen": [
@@ -576,12 +669,12 @@
     ],
     "stylesheets": [
       "https://fonts.googleapis.com/css2?family=Caveat:wght@600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap",
-      "/_astro/_slug_.bq6BBoZ5.css",
-      "/_astro/_slug_.CyUYGuAp.css",
+      "/_astro/_slug_.BzqUXH8l.css",
+      "/_astro/_slug_.CwnNFvzF.css",
       "/logo-carousel/logo-carousel.css?v=2"
     ],
     "aantal_details": 0,
     "aantal_tabellen": 0
   },
-  "gemeten_op": "2026-10-06"
+  "gemeten_op": "2026-10-28"
 }

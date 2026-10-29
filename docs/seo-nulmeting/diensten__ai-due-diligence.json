@@ -2,15 +2,28 @@
   "url": "/diensten/ai-due-diligence",
   "build_bestand": "dist/diensten/ai-due-diligence/index.html",
   "html": {
-    "bytes": 33315,
+    "bytes": 38642,
     "lang": "nl"
   },
   "beschermd": {
     "title": "AI Due Diligence | Freelance AI Consultant",
     "meta_description": "Technisch onderbouwde beoordeling van een AI-propositie of -leverancier, in taal die een investment committee begrijpt. Altijd onder NDA.",
-    "canonical": "https://freelanceaiconsultant.com/diensten/ai-due-diligence",
+    "canonical": "https://freelanceaiconsultant.com/nl/diensten/ai-due-diligence",
     "robots_meta": null,
-    "hreflang": [],
+    "hreflang": [
+      {
+        "hreflang": "en",
+        "href": "https://freelanceaiconsultant.com/services/ai-due-diligence"
+      },
+      {
+        "hreflang": "nl",
+        "href": "https://freelanceaiconsultant.com/nl/diensten/ai-due-diligence"
+      },
+      {
+        "hreflang": "x-default",
+        "href": "https://freelanceaiconsultant.com/services/ai-due-diligence"
+      }
+    ],
     "h1": [
       "AI Due Diligence"
     ]
@@ -21,7 +34,7 @@
     "og:site_name": "freelanceaiconsultant.com",
     "og:title": "AI Due Diligence | Freelance AI Consultant",
     "og:description": "Technisch onderbouwde beoordeling van een AI-propositie of -leverancier, in taal die een investment committee begrijpt. Altijd onder NDA.",
-    "og:url": "https://freelanceaiconsultant.com/diensten/ai-due-diligence",
+    "og:url": "https://freelanceaiconsultant.com/nl/diensten/ai-due-diligence",
     "og:image": "https://freelanceaiconsultant.com/images/dave-portrait.jpg",
     "twitter:card": "summary_large_image",
     "twitter:title": "AI Due Diligence | Freelance AI Consultant",
@@ -32,6 +45,24 @@
     {
       "niveau": 1,
       "tekst": "AI Due Diligence",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "Wat levert een AI Due Diligence op en wat kost die?",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 3,
+      "tekst": "Kost een AI Due Diligence van een heel bedrijf meer dan die van één oplossing?",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 3,
+      "tekst": "Is de AI Due Diligence geschikt voor wie een formele audit met accountantsverklaring nodig heeft?",
       "regio": "main",
       "id": null
     },
@@ -146,15 +177,15 @@
   ],
   "bodytekst": {
     "regio": "main",
-    "woorden": 763,
-    "sha256": "9cd29a189c2f3d85ed02b67b24fef8dbd07a648ef84ac8a043c8f49073689ac9",
+    "woorden": 933,
+    "sha256": "0a5122c0a107c30de415825c997ac7bbcc801f5a13026be33c745bf2102833b6",
     "blokken": [
       "Wat zit er echt onder de motorkap?",
       "AI Due Diligence",
       "Voor investeerders die een AI-propositie beoordelen, en voor organisaties die willen weten of de AI die ze kopen ook echt AI is. Technisch onderbouwd, in taal die een investment committee begrijpt.",
       "Plan een gesprek → Alle diensten → 30 min., geen pitch deck",
       "vertrouwen, ervaring, impact ↓",
-      "Independent No vendor bias Senior only 20+ jaar ervaring",
+      "Independent No vendor bias Senior only Sinds 2006",
       "AI in Europa",
       "Europese merken die AI al in productie hebben.",
       "Geen klanten van mij. Wel voorbeelden van wat er gebeurt als AI voorbij de pilot komt.",
@@ -215,8 +246,16 @@
       "Interne AI-assistent voor kenniswerkers",
       "Duur2-4 weken",
       "ResultaatDD-rapport + red flags",
-      "Investering€12.600 - €19.600",
-      "Eén oplossing aan de onderkant, een heel bedrijf aan de bovenkant. Altijd onder NDA. Bedragen zijn exclusief btw en reiskosten.",
+      "PrijsOp maat, vooraf vastgelegd",
+      "Eén oplossing aan de onderkant, een heel bedrijf aan de bovenkant. Altijd onder NDA. Alle voorstellen zijn exclusief btw.",
+      "Vraag een voorstel aan → Prijs op maat, afhankelijk van scope",
+      "Wat levert een AI Due Diligence op en wat kost die?",
+      "De AI Due Diligence van Dave Willemstein beoordeelt een AI-propositie of AI-leverancier voor investeerders en voor organisaties die een strategische AI-leverancier binnenhalen. Het resultaat is een DD-rapport met een expliciet oordeel en een overzicht van red flags, gescheiden in deal-breakers en onderhandelpunten. Het onderzoek duurt 2-4 weken en kost een vaste prijs of vast maandbedrag, vastgelegd in het voorstel, exclusief btw en reiskosten.",
+      "Kost een AI Due Diligence van een heel bedrijf meer dan die van één oplossing?",
+      "Ja. De AI Due Diligence kost een vaste prijs of vast maandbedrag, vastgelegd in het voorstel: één oplossing zit aan de onderkant, een heel bedrijf aan de bovenkant.",
+      "Is de AI Due Diligence geschikt voor wie een formele audit met accountantsverklaring nodig heeft?",
+      "Minder geschikt: de AI Due Diligence is minder geschikt als een formele audit met accountantsverklaring nodig is.",
+      "Bron: tarieven en doorlooptijden van Dave Willemstein. Bijgewerkt: oktober 2026.",
       "De aanleiding",
       "Wat we doorgaans vinden",
       "Een “AI-platform” dat in de kern een regelset met een taalmodel-laagje is: soms prima, maar niet de waardering waard.",
@@ -289,11 +328,11 @@
       "◈",
       "Vendor Review",
       "Onafhankelijk advies over tools, leveranciers en proposities, voordat je tekent.",
-      "3-6 weken · €9.800 - €15.400",
+      "3-6 weken · Vraag een voorstel aan",
       "→ ◎",
       "Fractional AI Lead",
       "Ervaren AI-leiderschap op interim-basis. Ik stuur, bouw mee en borg AI-initiatieven, zonder dat je direct een fulltime executive aanneemt.",
-      "2, 4 of 8 dagen / maand · €2.600 / €5.200 / €10.400 per maand",
+      "2, 4 of 8 dagen / maand · Vraag een voorstel aan",
       "→",
       "Klaar voor impact?",
       "Plan een gesprek.",
@@ -312,245 +351,266 @@
     {
       "regio": "header",
       "soort": "intern",
-      "href": "/",
+      "href": "/nl",
       "anker": "",
       "rel": null
     },
     {
       "regio": "header",
       "soort": "intern",
-      "href": "/diensten",
+      "href": "/nl/diensten",
       "anker": "Diensten",
       "rel": null
     },
     {
       "regio": "header",
       "soort": "intern",
-      "href": "/cases",
+      "href": "/nl/cases",
       "anker": "Cases",
       "rel": null
     },
     {
       "regio": "header",
       "soort": "intern",
-      "href": "/werkwijze",
+      "href": "/nl/werkwijze",
       "anker": "Werkwijze",
       "rel": null
     },
     {
       "regio": "header",
       "soort": "intern",
-      "href": "/inzichten",
+      "href": "/nl/inzichten",
       "anker": "Inzichten",
       "rel": null
     },
     {
       "regio": "header",
       "soort": "intern",
-      "href": "/over",
+      "href": "/nl/over",
       "anker": "Over mij",
       "rel": null
     },
     {
       "regio": "header",
       "soort": "intern",
-      "href": "/contact",
+      "href": "/services/ai-due-diligence",
+      "anker": "EN",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/nl/contact",
       "anker": "Plan een gesprek →",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/contact",
+      "href": "/nl/contact",
       "anker": "Plan een gesprek →",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/diensten",
+      "href": "/nl/diensten",
       "anker": "Alle diensten →",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/werkwijze",
+      "href": "/nl/contact?dienst=ai-due-diligence",
+      "anker": "Vraag een voorstel aan →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/nl/tarieven",
+      "anker": "tarieven en doorlooptijden van Dave Willemstein",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/nl/werkwijze",
       "anker": "Meer over mijn werkwijze →",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/veelgestelde-vragen",
+      "href": "/nl/veelgestelde-vragen",
       "anker": "Bekijk alle veelgestelde vragen →",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/diensten/vendor-review",
-      "anker": "◈ Vendor Review Onafhankelijk advies over tools, leveranciers en proposities, voordat je tekent. 3-6 weken · €9.800 - €15.400 →",
+      "href": "/nl/diensten/vendor-review",
+      "anker": "◈ Vendor Review Onafhankelijk advies over tools, leveranciers en proposities, voordat je tekent. 3-6 weken · Vraag een voorstel aan →",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/diensten/fractional-ai-lead",
-      "anker": "◎ Fractional AI Lead Ervaren AI-leiderschap op interim-basis. Ik stuur, bouw mee en borg AI-initiatieven, zonder dat je direct een fulltime executive aanneemt. 2, 4 of 8 dagen / maand · €2.600 / €5.200 / €10.400 per maand →",
+      "href": "/nl/diensten/fractional-ai-lead",
+      "anker": "◎ Fractional AI Lead Ervaren AI-leiderschap op interim-basis. Ik stuur, bouw mee en borg AI-initiatieven, zonder dat je direct een fulltime executive aanneemt. 2, 4 of 8 dagen / maand · Vraag een voorstel aan →",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/contact",
+      "href": "/nl/contact",
       "anker": "Plan een gesprek →",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/diensten/ai-readiness-assessment",
+      "href": "/nl/diensten/ai-readiness-assessment",
       "anker": "AI Readiness Assessment",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/diensten/ai-strategy-sprint",
+      "href": "/nl/diensten/ai-strategy-sprint",
       "anker": "AI Strategy Sprint",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/diensten/fractional-ai-lead",
+      "href": "/nl/diensten/fractional-ai-lead",
       "anker": "Fractional AI Lead",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/diensten",
+      "href": "/nl/diensten",
       "anker": "Alle diensten",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/cases",
+      "href": "/nl/cases",
       "anker": "Cases",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/werkwijze",
+      "href": "/nl/werkwijze",
       "anker": "Werkwijze",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/inzichten",
+      "href": "/nl/inzichten",
       "anker": "Inzichten",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/veelgestelde-vragen",
+      "href": "/nl/veelgestelde-vragen",
       "anker": "Veelgestelde vragen",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/over",
+      "href": "/nl/over",
       "anker": "Over mij",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-consultancy",
+      "href": "/nl/ai-consultancy",
       "anker": "AI consultancy",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-implementatie",
+      "href": "/nl/ai-implementatie",
       "anker": "AI implementatie",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-automatisering",
+      "href": "/nl/ai-automatisering",
       "anker": "AI automatisering",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-voor-bedrijven",
+      "href": "/nl/ai-voor-bedrijven",
       "anker": "AI voor bedrijven",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-development",
+      "href": "/nl/ai-development",
       "anker": "AI development",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-agents",
+      "href": "/nl/ai-agents",
       "anker": "AI agents",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-beleid",
+      "href": "/nl/ai-beleid",
       "anker": "AI beleid",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-workshop",
+      "href": "/nl/ai-workshop",
       "anker": "AI workshop",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/markten",
+      "href": "/nl/markten",
       "anker": "AI per branche",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/kennisbank",
+      "href": "/nl/kennisbank",
       "anker": "Kennisbank",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/tarieven",
+      "href": "/nl/tarieven",
       "anker": "Tarieven",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/partnernetwerk",
+      "href": "/nl/partnernetwerk",
       "anker": "Partnernetwerk",
       "rel": null
     },
@@ -571,50 +631,77 @@
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/contact",
+      "href": "/nl/contact",
       "anker": "Plan een gesprek",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/privacy",
+      "href": "/nl/privacy",
       "anker": "Privacyverklaring",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/algemene-voorwaarden",
+      "href": "/nl/algemene-voorwaarden",
       "anker": "Algemene voorwaarden",
       "rel": null
     }
   ],
   "structured_data": {
-    "sha256": "c27544a2f329c41989ca4d2d163dfd0b5c7c40e310fc010cb939d2210a99c7c4",
+    "sha256": "c249d93f6af2e1a0e12337763cbd4e07415c072aff0121627fc4047caaaa3799",
     "items": [
-      {
-        "@context": "https://schema.org",
-        "@type": "Service",
-        "name": "AI Due Diligence",
-        "description": "Voor investeerders die een AI-propositie beoordelen, en voor organisaties die willen weten of de AI die ze kopen ook echt AI is. Technisch onderbouwd, in taal die een investment committee begrijpt.",
-        "provider": {
-          "@type": "Person",
-          "name": "Dave Willemstein",
-          "url": "https://freelanceaiconsultant.com"
+      [
+        {
+          "@context": "https://schema.org",
+          "@type": "Service",
+          "name": "AI Due Diligence",
+          "description": "Voor investeerders die een AI-propositie beoordelen, en voor organisaties die willen weten of de AI die ze kopen ook echt AI is. Technisch onderbouwd, in taal die een investment committee begrijpt.",
+          "provider": {
+            "@type": "Person",
+            "name": "Dave Willemstein",
+            "url": "https://freelanceaiconsultant.com"
+          },
+          "areaServed": [
+            "NL",
+            "BE",
+            "DE"
+          ],
+          "serviceType": "AI-advies"
         },
-        "areaServed": [
-          "NL",
-          "BE",
-          "DE"
-        ],
-        "serviceType": "AI-advies",
-        "offers": {
-          "@type": "Offer",
-          "priceCurrency": "EUR",
-          "description": "€12.600 - €19.600. Eén oplossing aan de onderkant, een heel bedrijf aan de bovenkant. Altijd onder NDA."
+        {
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "Wat levert een AI Due Diligence op en wat kost die?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "De AI Due Diligence van Dave Willemstein beoordeelt een AI-propositie of AI-leverancier voor investeerders en voor organisaties die een strategische AI-leverancier binnenhalen. Het resultaat is een DD-rapport met een expliciet oordeel en een overzicht van red flags, gescheiden in deal-breakers en onderhandelpunten. Het onderzoek duurt 2-4 weken en kost een vaste prijs of vast maandbedrag, vastgelegd in het voorstel, exclusief btw en reiskosten."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Kost een AI Due Diligence van een heel bedrijf meer dan die van één oplossing?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Ja. De AI Due Diligence kost een vaste prijs of vast maandbedrag, vastgelegd in het voorstel: één oplossing zit aan de onderkant, een heel bedrijf aan de bovenkant."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Is de AI Due Diligence geschikt voor wie een formele audit met accountantsverklaring nodig heeft?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Minder geschikt: de AI Due Diligence is minder geschikt als een formele audit met accountantsverklaring nodig is."
+              }
+            }
+          ]
         }
-      }
+      ]
     ]
   },
   "afbeeldingen": [
@@ -653,12 +740,12 @@
     ],
     "stylesheets": [
       "https://fonts.googleapis.com/css2?family=Caveat:wght@600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap",
-      "/_astro/_slug_.bq6BBoZ5.css",
-      "/_astro/_slug_.BJ2d3JA4.css",
+      "/_astro/_slug_.BzqUXH8l.css",
+      "/_astro/_slug_.4j2fFZLq.css",
       "/logo-carousel/logo-carousel.css?v=2"
     ],
     "aantal_details": 3,
     "aantal_tabellen": 0
   },
-  "gemeten_op": "2026-10-06"
+  "gemeten_op": "2026-10-28"
 }

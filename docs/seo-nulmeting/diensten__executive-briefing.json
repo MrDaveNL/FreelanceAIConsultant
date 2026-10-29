@@ -2,15 +2,28 @@
   "url": "/diensten/executive-briefing",
   "build_bestand": "dist/diensten/executive-briefing/index.html",
   "html": {
-    "bytes": 33178,
+    "bytes": 38607,
     "lang": "nl"
   },
   "beschermd": {
     "title": "Executive Briefing | Freelance AI Consultant",
     "meta_description": "Sessie van drie uur waarin directie of RvC hetzelfde realistische beeld krijgt van AI, inclusief wat het van toezichthouders vraagt.",
-    "canonical": "https://freelanceaiconsultant.com/diensten/executive-briefing",
+    "canonical": "https://freelanceaiconsultant.com/nl/diensten/executive-briefing",
     "robots_meta": null,
-    "hreflang": [],
+    "hreflang": [
+      {
+        "hreflang": "en",
+        "href": "https://freelanceaiconsultant.com/services/executive-briefing"
+      },
+      {
+        "hreflang": "nl",
+        "href": "https://freelanceaiconsultant.com/nl/diensten/executive-briefing"
+      },
+      {
+        "hreflang": "x-default",
+        "href": "https://freelanceaiconsultant.com/services/executive-briefing"
+      }
+    ],
     "h1": [
       "Executive Briefing"
     ]
@@ -21,7 +34,7 @@
     "og:site_name": "freelanceaiconsultant.com",
     "og:title": "Executive Briefing | Freelance AI Consultant",
     "og:description": "Sessie van drie uur waarin directie of RvC hetzelfde realistische beeld krijgt van AI, inclusief wat het van toezichthouders vraagt.",
-    "og:url": "https://freelanceaiconsultant.com/diensten/executive-briefing",
+    "og:url": "https://freelanceaiconsultant.com/nl/diensten/executive-briefing",
     "og:image": "https://freelanceaiconsultant.com/images/dave-portrait.jpg",
     "twitter:card": "summary_large_image",
     "twitter:title": "Executive Briefing | Freelance AI Consultant",
@@ -32,6 +45,24 @@
     {
       "niveau": 1,
       "tekst": "Executive Briefing",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "Wat levert een Executive Briefing op en wat kost die?",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 3,
+      "tekst": "Wanneer wordt de prijs van de Executive Briefing verrekend?",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 3,
+      "tekst": "Past de Executive Briefing bij wie een inspirerende keynote zoekt?",
       "regio": "main",
       "id": null
     },
@@ -146,15 +177,15 @@
   ],
   "bodytekst": {
     "regio": "main",
-    "woorden": 771,
-    "sha256": "f39cb8462b39160b5e6ed201177eee1ee459e9fe9ced017ed08498a4eb479288",
+    "woorden": 948,
+    "sha256": "d4bd91ca4db581db25f229dc693f7f086c9ff76981a2da739b1dae187a30fbff",
     "blokken": [
       "Iedereen aan tafel hetzelfde beeld",
       "Executive Briefing",
       "Een sessie van drie uur waarin je directie of RvC hetzelfde, realistische beeld krijgt van wat AI voor jullie organisatie betekent, inclusief wat het van hen als toezichthouders vraagt.",
       "Plan een gesprek → Alle diensten → 30 min., geen pitch deck",
       "vertrouwen, ervaring, impact ↓",
-      "Independent No vendor bias Senior only 20+ jaar ervaring",
+      "Independent No vendor bias Senior only Sinds 2006",
       "AI in Europa",
       "Europese merken die AI al in productie hebben.",
       "Geen klanten van mij. Wel voorbeelden van wat er gebeurt als AI voorbij de pilot komt.",
@@ -215,8 +246,16 @@
       "Interne AI-assistent voor kenniswerkers",
       "Duur1 dagdeel incl. voorbereiding",
       "ResultaatGedeeld beeld + beslisagenda",
-      "Investering€2.800",
-      "Inclusief voorbereiding op jouw sector en situatie. Volledig verrekend als je binnen 60 dagen start met een AI Readiness Assessment. Bedragen zijn exclusief btw en reiskosten.",
+      "PrijsOp maat, vooraf vastgelegd",
+      "Inclusief voorbereiding op jouw sector en situatie. Volledig verrekend als je binnen 60 dagen start met een AI Readiness Assessment. Alle voorstellen zijn exclusief btw.",
+      "Vraag een voorstel aan → Prijs op maat, afhankelijk van scope",
+      "Wat levert een Executive Briefing op en wat kost die?",
+      "De Executive Briefing van Dave Willemstein geeft een directie, RvC of RvT een gedeeld en realistisch beeld van wat AI voor de organisatie betekent. Deelnemers krijgen een beslisagenda, een vragenlijst voor toezicht en een beknopte samenvatting. De Executive Briefing is een sessie van drie uur, samen met de voorbereiding één dagdeel, en kost een vaste prijs of vast maandbedrag, vastgelegd in het voorstel, exclusief btw en reiskosten.",
+      "Wanneer wordt de prijs van de Executive Briefing verrekend?",
+      "De Executive Briefing wordt volledig verrekend als binnen 60 dagen een AI Readiness Assessment start.",
+      "Past de Executive Briefing bij wie een inspirerende keynote zoekt?",
+      "Minder geschikt: de Executive Briefing is minder geschikt als een organisatie een inspirerende keynote zoekt. De Executive Briefing is een compacte sessie voor directie of board over de kansen en risico's van AI en over wat het van bestuurders vraagt.",
+      "Bron: tarieven en doorlooptijden van Dave Willemstein. Bijgewerkt: oktober 2026.",
       "De aanleiding",
       "Waarom dit nodig is",
       "De ene bestuurder leest dat AI alles verandert, de ander dat het een zeepbel is. Beiden lezen goede bronnen.",
@@ -289,11 +328,11 @@
       "⌕",
       "AI Readiness Assessment",
       "Waar sta je nu met AI? We brengen kansen, risico’s en randvoorwaarden scherp in kaart voordat budget wordt vastgezet.",
-      "2-3 weken · €7.000",
+      "2-3 weken · Vraag een voorstel aan",
       "→ ↯",
       "AI Strategy Sprint",
       "Van ambitie naar een realistische AI-roadmap die past bij business, mensen en middelen, board-ready in zes weken.",
-      "4-6 weken · €15.400 - €22.400",
+      "4-6 weken · Vraag een voorstel aan",
       "→",
       "Klaar voor impact?",
       "Plan een gesprek.",
@@ -312,245 +351,273 @@
     {
       "regio": "header",
       "soort": "intern",
-      "href": "/",
+      "href": "/nl",
       "anker": "",
       "rel": null
     },
     {
       "regio": "header",
       "soort": "intern",
-      "href": "/diensten",
+      "href": "/nl/diensten",
       "anker": "Diensten",
       "rel": null
     },
     {
       "regio": "header",
       "soort": "intern",
-      "href": "/cases",
+      "href": "/nl/cases",
       "anker": "Cases",
       "rel": null
     },
     {
       "regio": "header",
       "soort": "intern",
-      "href": "/werkwijze",
+      "href": "/nl/werkwijze",
       "anker": "Werkwijze",
       "rel": null
     },
     {
       "regio": "header",
       "soort": "intern",
-      "href": "/inzichten",
+      "href": "/nl/inzichten",
       "anker": "Inzichten",
       "rel": null
     },
     {
       "regio": "header",
       "soort": "intern",
-      "href": "/over",
+      "href": "/nl/over",
       "anker": "Over mij",
       "rel": null
     },
     {
       "regio": "header",
       "soort": "intern",
-      "href": "/contact",
+      "href": "/services/executive-briefing",
+      "anker": "EN",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/nl/contact",
       "anker": "Plan een gesprek →",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/contact",
+      "href": "/nl/contact",
       "anker": "Plan een gesprek →",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/diensten",
+      "href": "/nl/diensten",
       "anker": "Alle diensten →",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/werkwijze",
+      "href": "/nl/contact?dienst=executive-briefing",
+      "anker": "Vraag een voorstel aan →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/nl/diensten/ai-readiness-assessment",
+      "anker": "AI Readiness Assessment",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/nl/tarieven",
+      "anker": "tarieven en doorlooptijden van Dave Willemstein",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/nl/werkwijze",
       "anker": "Meer over mijn werkwijze →",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/veelgestelde-vragen",
+      "href": "/nl/veelgestelde-vragen",
       "anker": "Bekijk alle veelgestelde vragen →",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/diensten/ai-readiness-assessment",
-      "anker": "⌕ AI Readiness Assessment Waar sta je nu met AI? We brengen kansen, risico’s en randvoorwaarden scherp in kaart voordat budget wordt vastgezet. 2-3 weken · €7.000 →",
+      "href": "/nl/diensten/ai-readiness-assessment",
+      "anker": "⌕ AI Readiness Assessment Waar sta je nu met AI? We brengen kansen, risico’s en randvoorwaarden scherp in kaart voordat budget wordt vastgezet. 2-3 weken · Vraag een voorstel aan →",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/diensten/ai-strategy-sprint",
-      "anker": "↯ AI Strategy Sprint Van ambitie naar een realistische AI-roadmap die past bij business, mensen en middelen, board-ready in zes weken. 4-6 weken · €15.400 - €22.400 →",
+      "href": "/nl/diensten/ai-strategy-sprint",
+      "anker": "↯ AI Strategy Sprint Van ambitie naar een realistische AI-roadmap die past bij business, mensen en middelen, board-ready in zes weken. 4-6 weken · Vraag een voorstel aan →",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/contact",
+      "href": "/nl/contact",
       "anker": "Plan een gesprek →",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/diensten/ai-readiness-assessment",
+      "href": "/nl/diensten/ai-readiness-assessment",
       "anker": "AI Readiness Assessment",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/diensten/ai-strategy-sprint",
+      "href": "/nl/diensten/ai-strategy-sprint",
       "anker": "AI Strategy Sprint",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/diensten/fractional-ai-lead",
+      "href": "/nl/diensten/fractional-ai-lead",
       "anker": "Fractional AI Lead",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/diensten",
+      "href": "/nl/diensten",
       "anker": "Alle diensten",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/cases",
+      "href": "/nl/cases",
       "anker": "Cases",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/werkwijze",
+      "href": "/nl/werkwijze",
       "anker": "Werkwijze",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/inzichten",
+      "href": "/nl/inzichten",
       "anker": "Inzichten",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/veelgestelde-vragen",
+      "href": "/nl/veelgestelde-vragen",
       "anker": "Veelgestelde vragen",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/over",
+      "href": "/nl/over",
       "anker": "Over mij",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-consultancy",
+      "href": "/nl/ai-consultancy",
       "anker": "AI consultancy",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-implementatie",
+      "href": "/nl/ai-implementatie",
       "anker": "AI implementatie",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-automatisering",
+      "href": "/nl/ai-automatisering",
       "anker": "AI automatisering",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-voor-bedrijven",
+      "href": "/nl/ai-voor-bedrijven",
       "anker": "AI voor bedrijven",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-development",
+      "href": "/nl/ai-development",
       "anker": "AI development",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-agents",
+      "href": "/nl/ai-agents",
       "anker": "AI agents",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-beleid",
+      "href": "/nl/ai-beleid",
       "anker": "AI beleid",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-workshop",
+      "href": "/nl/ai-workshop",
       "anker": "AI workshop",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/markten",
+      "href": "/nl/markten",
       "anker": "AI per branche",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/kennisbank",
+      "href": "/nl/kennisbank",
       "anker": "Kennisbank",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/tarieven",
+      "href": "/nl/tarieven",
       "anker": "Tarieven",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/partnernetwerk",
+      "href": "/nl/partnernetwerk",
       "anker": "Partnernetwerk",
       "rel": null
     },
@@ -571,50 +638,77 @@
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/contact",
+      "href": "/nl/contact",
       "anker": "Plan een gesprek",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/privacy",
+      "href": "/nl/privacy",
       "anker": "Privacyverklaring",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/algemene-voorwaarden",
+      "href": "/nl/algemene-voorwaarden",
       "anker": "Algemene voorwaarden",
       "rel": null
     }
   ],
   "structured_data": {
-    "sha256": "b640f79f55aceb556b56c5657281d7c282873908441bf953acd6ee9e384c4455",
+    "sha256": "120448980cc5b4aa28cdbaba455f193df1eb9453894f17c43ed4b4e798a14ecd",
     "items": [
-      {
-        "@context": "https://schema.org",
-        "@type": "Service",
-        "name": "Executive Briefing",
-        "description": "Een sessie van drie uur waarin je directie of RvC hetzelfde, realistische beeld krijgt van wat AI voor jullie organisatie betekent, inclusief wat het van hen als toezichthouders vraagt.",
-        "provider": {
-          "@type": "Person",
-          "name": "Dave Willemstein",
-          "url": "https://freelanceaiconsultant.com"
+      [
+        {
+          "@context": "https://schema.org",
+          "@type": "Service",
+          "name": "Executive Briefing",
+          "description": "Een sessie van drie uur waarin je directie of RvC hetzelfde, realistische beeld krijgt van wat AI voor jullie organisatie betekent, inclusief wat het van hen als toezichthouders vraagt.",
+          "provider": {
+            "@type": "Person",
+            "name": "Dave Willemstein",
+            "url": "https://freelanceaiconsultant.com"
+          },
+          "areaServed": [
+            "NL",
+            "BE",
+            "DE"
+          ],
+          "serviceType": "AI-advies"
         },
-        "areaServed": [
-          "NL",
-          "BE",
-          "DE"
-        ],
-        "serviceType": "AI-advies",
-        "offers": {
-          "@type": "Offer",
-          "priceCurrency": "EUR",
-          "description": "€2.800. Inclusief voorbereiding op jouw sector en situatie. Volledig verrekend als je binnen 60 dagen start met een AI Readiness Assessment."
+        {
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "Wat levert een Executive Briefing op en wat kost die?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "De Executive Briefing van Dave Willemstein geeft een directie, RvC of RvT een gedeeld en realistisch beeld van wat AI voor de organisatie betekent. Deelnemers krijgen een beslisagenda, een vragenlijst voor toezicht en een beknopte samenvatting. De Executive Briefing is een sessie van drie uur, samen met de voorbereiding één dagdeel, en kost een vaste prijs of vast maandbedrag, vastgelegd in het voorstel, exclusief btw en reiskosten."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Wanneer wordt de prijs van de Executive Briefing verrekend?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "De Executive Briefing wordt volledig verrekend als binnen 60 dagen een AI Readiness Assessment start."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Past de Executive Briefing bij wie een inspirerende keynote zoekt?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Minder geschikt: de Executive Briefing is minder geschikt als een organisatie een inspirerende keynote zoekt. De Executive Briefing is een compacte sessie voor directie of board over de kansen en risico's van AI en over wat het van bestuurders vraagt."
+              }
+            }
+          ]
         }
-      }
+      ]
     ]
   },
   "afbeeldingen": [
@@ -653,12 +747,12 @@
     ],
     "stylesheets": [
       "https://fonts.googleapis.com/css2?family=Caveat:wght@600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap",
-      "/_astro/_slug_.bq6BBoZ5.css",
-      "/_astro/_slug_.BJ2d3JA4.css",
+      "/_astro/_slug_.BzqUXH8l.css",
+      "/_astro/_slug_.4j2fFZLq.css",
       "/logo-carousel/logo-carousel.css?v=2"
     ],
     "aantal_details": 3,
     "aantal_tabellen": 0
   },
-  "gemeten_op": "2026-10-06"
+  "gemeten_op": "2026-10-28"
 }

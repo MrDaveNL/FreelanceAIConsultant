@@ -9,6 +9,7 @@ import RagBlok from '@/components/RagBlok.astro';
 import { getService } from '@/data/services.js';
 import { getCase } from '@/data/cases.js';
 import { site } from '@/data/site.js';
+import ServiceContactCTA from '@/components/ServiceContactCTA.astro';
 
 export async function getStaticPaths() {
   const entries = await getCollection('services', ({ data }) => data.lang === 'nl');
@@ -27,11 +28,6 @@ const schema = {
   provider: { '@type': 'Person', name: site.name, url: site.url },
   areaServed: ['NL', 'BE', 'DE'],
   serviceType: 'AI-advies',
-  offers: {
-    '@type': 'Offer',
-    priceCurrency: 'EUR',
-    description: `${service.price}. ${service.priceNote}`,
-  },
 };
 ---
 <BaseLayout
@@ -55,7 +51,10 @@ const schema = {
         <div class:list={['fact', `tone-${fact.tone}`]}><b>{fact.label}</b><strong>{fact.value}</strong></div>
       ))}
     </div>
-    <div class="container"><p class="price-note">{service.priceNote} Bedragen zijn exclusief btw en reiskosten.</p></div>
+    <div class="container">
+      <p class="price-note">{service.priceNote} Alle voorstellen zijn exclusief btw.</p>
+      <ServiceContactCTA service={service} locale="nl" />
+    </div>
   </section>
 
   <RagBlok pagina={`/nl/diensten/${service.slug}`} />
@@ -144,7 +143,7 @@ const schema = {
           {related.map((item) => (
             <a class="related-card card" href={`/nl/diensten/${item.slug}`}>
               <span class="icon-dot" aria-hidden="true">{item.icon}</span>
-              <div><h3>{item.title}</h3><p>{item.cardText}</p><small>{item.timing} · {item.price}</small></div>
+              <div><h3>{item.title}</h3><p>{item.cardText}</p><small>{item.timing} · Vraag een voorstel aan</small></div>
               <span aria-hidden="true">→</span>
             </a>
           ))}

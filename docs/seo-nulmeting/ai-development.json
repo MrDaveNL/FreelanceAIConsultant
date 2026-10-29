@@ -2,15 +2,28 @@
   "url": "/ai-development",
   "build_bestand": "dist/ai-development/index.html",
   "html": {
-    "bytes": 35523,
+    "bytes": 40877,
     "lang": "nl"
   },
   "beschermd": {
     "title": "AI development | AI-oplossingen en applicaties op maat",
     "meta_description": "AI development op maat: van prototype tot productie. Lees hoe AI-applicaties worden ontwikkeld, gekoppeld aan je systemen en veilig in gebruik genomen.",
-    "canonical": "https://freelanceaiconsultant.com/ai-development",
+    "canonical": "https://freelanceaiconsultant.com/nl/ai-development",
     "robots_meta": null,
-    "hreflang": [],
+    "hreflang": [
+      {
+        "hreflang": "en",
+        "href": "https://freelanceaiconsultant.com/ai-development"
+      },
+      {
+        "hreflang": "nl",
+        "href": "https://freelanceaiconsultant.com/nl/ai-development"
+      },
+      {
+        "hreflang": "x-default",
+        "href": "https://freelanceaiconsultant.com/ai-development"
+      }
+    ],
     "h1": [
       "AI development: AI-oplossingen op maat laten ontwikkelen"
     ]
@@ -21,7 +34,7 @@
     "og:site_name": "freelanceaiconsultant.com",
     "og:title": "AI development | AI-oplossingen en applicaties op maat",
     "og:description": "AI development op maat: van prototype tot productie. Lees hoe AI-applicaties worden ontwikkeld, gekoppeld aan je systemen en veilig in gebruik genomen.",
-    "og:url": "https://freelanceaiconsultant.com/ai-development",
+    "og:url": "https://freelanceaiconsultant.com/nl/ai-development",
     "og:image": "https://freelanceaiconsultant.com/images/dave-portrait.jpg",
     "twitter:card": "summary_large_image",
     "twitter:title": "AI development | AI-oplossingen en applicaties op maat",
@@ -32,6 +45,30 @@
     {
       "niveau": 1,
       "tekst": "AI development: AI-oplossingen op maat laten ontwikkelen",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "Wat kost onafhankelijke begeleiding bij AI development en wie bouwt er?",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 3,
+      "tekst": "Zit er een marge op ontwikkelaars uit het netwerk bij AI development?",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 3,
+      "tekst": "Waar hangt de prijs van de Vendor Review bij AI development van af?",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 3,
+      "tekst": "Wat werkt bij AI development het best: bouwen, kopen of partneren?",
       "regio": "main",
       "id": null
     },
@@ -98,8 +135,8 @@
   ],
   "bodytekst": {
     "regio": "main",
-    "woorden": 1815,
-    "sha256": "41d7cf80a6eb5d8fe6d139cf5c7031b453a057275d9c7d3c4ada0b6ae583fda3",
+    "woorden": 2155,
+    "sha256": "829527fe9653e9675f4415a2e860e055ecd6de0329ba37f55e298a5eb58f2055",
     "blokken": [
       "Home",
       "AI Development",
@@ -169,6 +206,32 @@
       "Proces & productivity",
       "Zakelijke dienstverlener",
       "Interne AI-assistent voor kenniswerkers",
+      "Wat kost onafhankelijke begeleiding bij AI development en wie bouwt er?",
+      "Dave Willemstein bouwt zelf geen software, maar begeleidt AI development vanuit de kant van de opdrachtgever: specificatie, selectie van de bouwpartij, toetsing van opleveringen en governance. Voor de keuze van de bouwpartij is er de Vendor Review van 3-6 weken, tegen een vaste prijs, en tijdens de bouw is er begeleiding vanuit klantzijde, bijvoorbeeld als Fractional AI Lead tegen een vast maandbedrag. De bouw zelf ligt bij het eigen team of bij een ontwikkelpartij met wie de opdrachtgever rechtstreeks een contract sluit.",
+      "AI development: passende dienst per fase van het traject",
+      "Fase in het traject",
+      "Wat de opdrachtgever krijgt",
+      "Doorlooptijd",
+      "Passende dienst",
+      "Bij de start, als er nog geen scherp beeld is van waar de organisatie staat",
+      "Een logische eerste stap, inclusief eindpresentatie aan MT of board",
+      "2-3 weken",
+      "AI Readiness Assessment",
+      "Bij de keuze van de bouwpartij",
+      "Scorecards, een test op eigen data en een TCO-vergelijking over drie jaar",
+      "3-6 weken",
+      "Vendor Review",
+      "Tijdens de bouw",
+      "Begeleiding vanuit klantzijde: toetsing van opleveringen, bewaking van de business case en governance",
+      "2, 4 of 8 dagen per maand",
+      "Fractional AI Lead",
+      "Zit er een marge op ontwikkelaars uit het netwerk bij AI development?",
+      "Nee. Bij AI development contracteert de opdrachtgever de bouwpartij rechtstreeks, zonder tussenlaag, marge of commissie. Een partij uit het netwerk doorloopt dezelfde selectie als iedere andere partij.",
+      "Waar hangt de prijs van de Vendor Review bij AI development van af?",
+      "De Vendor Review kost een vaste prijs of vast maandbedrag, vastgelegd in het voorstel, afhankelijk van het aantal leveranciers (2 tot 4).",
+      "Wat werkt bij AI development het best: bouwen, kopen of partneren?",
+      "De hybride vorm werkt bij AI development vaak het best: bouwstenen inkopen, de laag met de eigen kennis laten bouwen en de implementatie bij een partner beleggen. Daaraan vooraf gaat de vraag of bouwen überhaupt nodig is: bouwen alleen voor wat de organisatie onderscheidt in de markt en kopen wat een commodity is.",
+      "Bron: tarieven en doorlooptijden van Dave Willemstein. Bijgewerkt: oktober 2026.",
       "Wat is AI development?",
       "AI development is het ontwerpen, bouwen, testen en in gebruik nemen van software waarin AI een kernrol speelt. Denk aan een applicatie die documenten leest en velden invult, een assistent die interne kennis doorzoekt of een agent die taken in je systemen uitvoert. Het verschil met gewone softwareontwikkeling zit in drie dingen: de uitkomst is niet altijd voorspelbaar, de kwaliteit hangt sterk af van je data, en het systeem moet na livegang blijven worden gemeten.",
       "Daarom begint goed AI development niet bij de AI-developer, maar bij de vraag welk probleem je oplost en hoe je gaat meten of dat lukt. Pas als dat helder is, weet een ontwikkelaar wat hij moet bouwen.",
@@ -192,8 +255,8 @@
       "Het bouwen gebeurt door je eigen team of een partner die je zelf contracteert. De adviseur zit aan jouw kant van de tafel en verdient niet aan de bouw.",
       "Wat je concreet van mij krijgt, hangt af van de fase:",
       "Bij de start: een specificatie in gewone taal, met het probleem, de meetpunten, de data die nodig is en de randvoorwaarden rond privacy en de AI-verordening. Heb je nog geen scherp beeld van waar je staat, dan is het AI Readiness Assessment een logische eerste stap.",
-      "Bij de keuze van de bouwpartij: een Vendor Review met scorecards, een test op jouw data en een TCO-vergelijking over drie jaar. De investering is €9.800 - €15.400, bij een doorlooptijd van 3-6 weken. De stappen daarachter beschreef ik in vendorselectie in acht stappen.",
-      "Tijdens de bouw: begeleiding vanuit klantzijde, bijvoorbeeld als Fractional AI Lead (€2.600 / €5.200 / €10.400 per maand), met toetsing van opleveringen, bewaking van de business case en de governance die erbij hoort.",
+      "Bij de keuze van de bouwpartij: een Vendor Review met scorecards, een test op jouw data en een TCO-vergelijking over drie jaar. De investering is vooraf een vaste prijs, bij een doorlooptijd van 3-6 weken. De stappen daarachter beschreef ik in vendorselectie in acht stappen.",
+      "Tijdens de bouw: begeleiding vanuit klantzijde, bijvoorbeeld als Fractional AI Lead (vast maandbedrag, vooraf afgesproken), met toetsing van opleveringen, bewaking van de business case en de governance die erbij hoort.",
       "Wat er daarna gebeurt, van pilot naar dagelijks gebruik, valt onder AI implementatie. Daar gaat het minder over code en meer over werkprocessen, adoptie en eigenaarschap.",
       "Voorbeeldscenario",
       "Een financiële dienstverlener met 250 medewerkers laat door een externe ontwikkelpartij een applicatie bouwen die inkomende aanvraagdossiers controleert op volledigheid. De organisatie contracteert die partij zelf; de adviseur is als Fractional AI Lead twee dagen per maand betrokken vanuit klantzijde.",
@@ -244,357 +307,392 @@
     {
       "regio": "header",
       "soort": "intern",
-      "href": "/",
+      "href": "/nl",
       "anker": "",
       "rel": null
     },
     {
       "regio": "header",
       "soort": "intern",
-      "href": "/diensten",
+      "href": "/nl/diensten",
       "anker": "Diensten",
       "rel": null
     },
     {
       "regio": "header",
       "soort": "intern",
-      "href": "/cases",
+      "href": "/nl/cases",
       "anker": "Cases",
       "rel": null
     },
     {
       "regio": "header",
       "soort": "intern",
-      "href": "/werkwijze",
+      "href": "/nl/werkwijze",
       "anker": "Werkwijze",
       "rel": null
     },
     {
       "regio": "header",
       "soort": "intern",
-      "href": "/inzichten",
+      "href": "/nl/inzichten",
       "anker": "Inzichten",
       "rel": null
     },
     {
       "regio": "header",
       "soort": "intern",
-      "href": "/over",
+      "href": "/nl/over",
       "anker": "Over mij",
       "rel": null
     },
     {
       "regio": "header",
       "soort": "intern",
-      "href": "/contact",
+      "href": "/ai-development",
+      "anker": "EN",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/nl/contact",
       "anker": "Plan een gesprek →",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/",
+      "href": "/nl",
       "anker": "Home",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/contact",
+      "href": "/nl/contact",
       "anker": "Plan een adviesgesprek →",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/diensten/ai-readiness-assessment",
+      "href": "/nl/diensten/ai-readiness-assessment",
       "anker": "Bekijk het AI Readiness Assessment →",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/over",
-      "anker": "onafhankelijk adviseur",
-      "rel": null
-    },
-    {
-      "regio": "main",
-      "soort": "intern",
-      "href": "/ai-development/ai-specialist",
-      "anker": "wat een AI specialist doet",
-      "rel": null
-    },
-    {
-      "regio": "main",
-      "soort": "intern",
-      "href": "/kennisbank/wat-doet-een-ai-developer",
-      "anker": "wat doet een AI developer",
-      "rel": null
-    },
-    {
-      "regio": "main",
-      "soort": "intern",
-      "href": "/ai-development/ai-software",
-      "anker": "AI software kiezen of laten bouwen",
-      "rel": null
-    },
-    {
-      "regio": "main",
-      "soort": "intern",
-      "href": "/ai-agents/laten-maken",
-      "anker": "een AI agent laten maken",
-      "rel": null
-    },
-    {
-      "regio": "main",
-      "soort": "intern",
-      "href": "/ai-development/ai-oplossingen",
-      "anker": "AI oplossingen op maat",
-      "rel": null
-    },
-    {
-      "regio": "main",
-      "soort": "intern",
-      "href": "/diensten/ai-readiness-assessment",
+      "href": "/nl/diensten/ai-readiness-assessment",
       "anker": "AI Readiness Assessment",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/diensten/vendor-review",
+      "href": "/nl/diensten/vendor-review",
       "anker": "Vendor Review",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/inzichten/ai-vendorselectie-in-acht-stappen",
+      "href": "/nl/diensten/fractional-ai-lead",
+      "anker": "Fractional AI Lead",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/nl/tarieven",
+      "anker": "tarieven en doorlooptijden van Dave Willemstein",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/nl/over",
+      "anker": "onafhankelijk adviseur",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/nl/ai-development/ai-specialist",
+      "anker": "wat een AI specialist doet",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/nl/kennisbank/wat-doet-een-ai-developer",
+      "anker": "wat doet een AI developer",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/nl/ai-development/ai-software",
+      "anker": "AI software kiezen of laten bouwen",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/nl/ai-agents/laten-maken",
+      "anker": "een AI agent laten maken",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/nl/ai-development/ai-oplossingen",
+      "anker": "AI oplossingen op maat",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/nl/diensten/ai-readiness-assessment",
+      "anker": "AI Readiness Assessment",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/nl/diensten/vendor-review",
+      "anker": "Vendor Review",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/nl/inzichten/ai-vendorselectie-in-acht-stappen",
       "anker": "vendorselectie in acht stappen",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/diensten/fractional-ai-lead",
+      "href": "/nl/diensten/fractional-ai-lead",
       "anker": "Fractional AI Lead",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/ai-implementatie",
+      "href": "/nl/ai-implementatie",
       "anker": "AI implementatie",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/cases/kyc-documentanalyse-financial-services",
+      "href": "/nl/cases/kyc-documentanalyse-financial-services",
       "anker": "KYC-documentanalyse bij een financiële dienstverlener",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/inzichten/build-buy-of-partner",
+      "href": "/nl/inzichten/build-buy-of-partner",
       "anker": "build, buy of partner",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/partnernetwerk",
+      "href": "/nl/partnernetwerk",
       "anker": "partnernetwerk",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/kennisbank/ai-specialist-salaris",
+      "href": "/nl/kennisbank/ai-specialist-salaris",
       "anker": "salaris van een AI specialist",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/contact",
+      "href": "/nl/contact",
       "anker": "Plan een adviesgesprek",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/over",
+      "href": "/nl/over",
       "anker": "Over mij",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/partnernetwerk",
+      "href": "/nl/partnernetwerk",
       "anker": "Mijn partnernetwerk",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/diensten/ai-readiness-assessment",
+      "href": "/nl/diensten/ai-readiness-assessment",
       "anker": "Weten waar je staat met AI? Bekijk het AI Readiness Assessment →",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/contact",
+      "href": "/nl/contact",
       "anker": "Plan een gesprek →",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/diensten/ai-readiness-assessment",
+      "href": "/nl/diensten/ai-readiness-assessment",
       "anker": "AI Readiness Assessment",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/diensten/ai-strategy-sprint",
+      "href": "/nl/diensten/ai-strategy-sprint",
       "anker": "AI Strategy Sprint",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/diensten/fractional-ai-lead",
+      "href": "/nl/diensten/fractional-ai-lead",
       "anker": "Fractional AI Lead",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/diensten",
+      "href": "/nl/diensten",
       "anker": "Alle diensten",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/cases",
+      "href": "/nl/cases",
       "anker": "Cases",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/werkwijze",
+      "href": "/nl/werkwijze",
       "anker": "Werkwijze",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/inzichten",
+      "href": "/nl/inzichten",
       "anker": "Inzichten",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/veelgestelde-vragen",
+      "href": "/nl/veelgestelde-vragen",
       "anker": "Veelgestelde vragen",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/over",
+      "href": "/nl/over",
       "anker": "Over mij",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-consultancy",
+      "href": "/nl/ai-consultancy",
       "anker": "AI consultancy",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-implementatie",
+      "href": "/nl/ai-implementatie",
       "anker": "AI implementatie",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-automatisering",
+      "href": "/nl/ai-automatisering",
       "anker": "AI automatisering",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-voor-bedrijven",
+      "href": "/nl/ai-voor-bedrijven",
       "anker": "AI voor bedrijven",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-development",
+      "href": "/nl/ai-development",
       "anker": "AI development",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-agents",
+      "href": "/nl/ai-agents",
       "anker": "AI agents",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-beleid",
+      "href": "/nl/ai-beleid",
       "anker": "AI beleid",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-workshop",
+      "href": "/nl/ai-workshop",
       "anker": "AI workshop",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/markten",
+      "href": "/nl/markten",
       "anker": "AI per branche",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/kennisbank",
+      "href": "/nl/kennisbank",
       "anker": "Kennisbank",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/tarieven",
+      "href": "/nl/tarieven",
       "anker": "Tarieven",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/partnernetwerk",
+      "href": "/nl/partnernetwerk",
       "anker": "Partnernetwerk",
       "rel": null
     },
@@ -615,27 +713,27 @@
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/contact",
+      "href": "/nl/contact",
       "anker": "Plan een gesprek",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/privacy",
+      "href": "/nl/privacy",
       "anker": "Privacyverklaring",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/algemene-voorwaarden",
+      "href": "/nl/algemene-voorwaarden",
       "anker": "Algemene voorwaarden",
       "rel": null
     }
   ],
   "structured_data": {
-    "sha256": "7b98e2203cb01f2c6aa501e85b11a548e69dc95866c70000db00bc64ff797fd9",
+    "sha256": "f36234a69be361521514297ce297973f61a59083cca7f0d6e142ff11d4930dfb",
     "items": [
       {
         "@context": "https://schema.org",
@@ -647,13 +745,13 @@
                 "@type": "ListItem",
                 "position": 1,
                 "name": "Home",
-                "item": "https://freelanceaiconsultant.com/"
+                "item": "https://freelanceaiconsultant.com/nl"
               },
               {
                 "@type": "ListItem",
                 "position": 2,
                 "name": "AI Development",
-                "item": "https://freelanceaiconsultant.com/ai-development"
+                "item": "https://freelanceaiconsultant.com/nl/ai-development"
               }
             ]
           },
@@ -662,7 +760,7 @@
             "name": "AI Development",
             "serviceType": "ai development",
             "description": "AI development op maat: van prototype tot productie. Lees hoe AI-applicaties worden ontwikkeld, gekoppeld aan je systemen en veilig in gebruik genomen.",
-            "url": "https://freelanceaiconsultant.com/ai-development",
+            "url": "https://freelanceaiconsultant.com/nl/ai-development",
             "areaServed": "NL",
             "provider": {
               "@type": "Person",
@@ -716,6 +814,38 @@
                   "@type": "Answer",
                   "text": "Dat regel je in het contract met de bouwpartij, niet achteraf. Leg vast wie eigenaar is van de code, de configuratie, de testsets en de data, en hoe je die bij een overstap meeneemt. Bij een Vendor Review of begeleiding neem ik die punten mee in de beoordeling van het contract."
                 }
+              },
+              {
+                "@type": "Question",
+                "name": "Wat kost onafhankelijke begeleiding bij AI development en wie bouwt er?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Dave Willemstein bouwt zelf geen software, maar begeleidt AI development vanuit de kant van de opdrachtgever: specificatie, selectie van de bouwpartij, toetsing van opleveringen en governance. Voor de keuze van de bouwpartij is er de Vendor Review van 3-6 weken, tegen een vaste prijs, en tijdens de bouw is er begeleiding vanuit klantzijde, bijvoorbeeld als Fractional AI Lead tegen een vast maandbedrag. De bouw zelf ligt bij het eigen team of bij een ontwikkelpartij met wie de opdrachtgever rechtstreeks een contract sluit."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Zit er een marge op ontwikkelaars uit het netwerk bij AI development?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Nee. Bij AI development contracteert de opdrachtgever de bouwpartij rechtstreeks, zonder tussenlaag, marge of commissie. Een partij uit het netwerk doorloopt dezelfde selectie als iedere andere partij."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Waar hangt de prijs van de Vendor Review bij AI development van af?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "De Vendor Review kost een vaste prijs of vast maandbedrag, vastgelegd in het voorstel, afhankelijk van het aantal leveranciers (2 tot 4)."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Wat werkt bij AI development het best: bouwen, kopen of partneren?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "De hybride vorm werkt bij AI development vaak het best: bouwstenen inkopen, de laag met de eigen kennis laten bouwen en de implementatie bij een partner beleggen. Daaraan vooraf gaat de vraag of bouwen überhaupt nodig is: bouwen alleen voor wat de organisatie onderscheidt in de markt en kopen wat een commodity is."
+                }
               }
             ]
           }
@@ -759,12 +889,12 @@
     ],
     "stylesheets": [
       "https://fonts.googleapis.com/css2?family=Caveat:wght@600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap",
-      "/_astro/_slug_.bq6BBoZ5.css",
-      "/_astro/_slug_.goiX3PVF.css",
+      "/_astro/_slug_.BzqUXH8l.css",
+      "/_astro/_slug_.Do5RJXa7.css",
       "/logo-carousel/logo-carousel.css?v=2"
     ],
     "aantal_details": 5,
-    "aantal_tabellen": 0
+    "aantal_tabellen": 1
   },
-  "gemeten_op": "2026-10-06"
+  "gemeten_op": "2026-10-28"
 }

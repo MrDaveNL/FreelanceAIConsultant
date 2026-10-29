@@ -5,13 +5,12 @@ export default {
   "onderwerp": "AI implementatie",
   "vraagkop": "Wat kost begeleiding bij AI implementatie en wie bouwt de oplossing?",
   "onderBestaandeKop": false,
-  "antwoord": "Bij een AI implementatie bouwt het eigen team of een rechtstreeks gecontracteerde partner de oplossing; {{afzender}} begeleidt vanuit de kant van de opdrachtgever door te helpen kiezen, kaders te stellen, de oplevering te toetsen en te zorgen dat de toepassing in de organisatie landt. Voor die begeleiding gelden gepubliceerde prijzen: het {{dienst:ai-readiness-assessment}} duurt {{timing:ai-readiness-assessment}} en kost {{pricelc:ai-readiness-assessment}}, en doorlopende sturing door de {{dienst:fractional-ai-lead}} kost {{pricelc:fractional-ai-lead}}. De kosten van bouw of licentie hangen af van de gekozen oplossing en leverancier en worden apart begroot, inclusief het beheer na oplevering.",
+  "antwoord": "Bij een AI implementatie bouwt het eigen team of een rechtstreeks gecontracteerde partner de oplossing; {{afzender}} begeleidt vanuit de kant van de opdrachtgever door te helpen kiezen, kaders te stellen, de oplevering te toetsen en te zorgen dat de toepassing in de organisatie landt. Voor die begeleiding geldt: het {{dienst:ai-readiness-assessment}} duurt {{timing:ai-readiness-assessment}} tegen een vaste prijs, en doorlopende sturing door de {{dienst:fractional-ai-lead}} is tegen een vast maandbedrag. De kosten van bouw of licentie hangen af van de gekozen oplossing en leverancier en worden apart begroot, inclusief het beheer na oplevering.",
   "tabel": {
     "bijschrift": "Begeleiding bij AI implementatie: passende dienst per situatie",
     "kolommen": [
       "Situatie",
       "Doorlooptijd",
-      "Prijs",
       "Passende dienst"
     ],
     "rijen": [
@@ -20,10 +19,6 @@ export default {
         {
           "dienst": "ai-readiness-assessment",
           "veld": "doorlooptijd"
-        },
-        {
-          "dienst": "ai-readiness-assessment",
-          "veld": "prijs"
         },
         {
           "dienst": "ai-readiness-assessment",
@@ -38,10 +33,6 @@ export default {
         },
         {
           "dienst": "vendor-review",
-          "veld": "prijs"
-        },
-        {
-          "dienst": "vendor-review",
           "veld": "naam"
         }
       ],
@@ -50,10 +41,6 @@ export default {
         {
           "dienst": "fractional-ai-lead",
           "veld": "doorlooptijd"
-        },
-        {
-          "dienst": "fractional-ai-lead",
-          "veld": "prijs"
         },
         {
           "dienst": "fractional-ai-lead",

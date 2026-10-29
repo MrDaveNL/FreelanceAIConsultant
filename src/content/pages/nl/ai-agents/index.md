@@ -147,7 +147,7 @@ Veel softwareleveranciers bieden inmiddels agentfuncties binnen hun eigen platfo
 
 De bouw is een eenmalige post, beheer loopt door. Reken op modelkosten per gebruik, monitoring, periodieke tests, aanpassingen als processen of systemen veranderen, en tijd van een interne eigenaar. Een offerte die alleen de bouw noemt, is onvolledig. Vraag altijd om een inschatting van de kosten over meerdere jaren, inclusief wat het kost om van leverancier te wisselen.
 
-Mijn eigen rol is daarbij advies, geen bouw. Wil je offertes van meerdere bouwpartijen onafhankelijk laten vergelijken, dan past een [Vendor Review](/nl/diensten/vendor-review); die kost {{pricelc:vendor-review}}. De overige pakketten staan op de pagina met [tarieven](/nl/tarieven).
+Mijn eigen rol is daarbij advies, geen bouw. Wil je offertes van meerdere bouwpartijen onafhankelijk laten vergelijken, dan past een [Vendor Review](/nl/diensten/vendor-review); die heeft een vaste prijs, afhankelijk van het aantal leveranciers. De overige pakketten staan op de pagina met [tarieven](/nl/tarieven).
 
 ## AI agents voor het MKB
 

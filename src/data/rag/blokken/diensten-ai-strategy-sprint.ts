@@ -5,11 +5,11 @@ export default {
   "onderwerp": "AI Strategy Sprint",
   "vraagkop": "Wat levert de AI Strategy Sprint op en wat kost die?",
   "onderBestaandeKop": false,
-  "antwoord": "De {{dienst:ai-strategy-sprint}} van {{afzender}} brengt organisaties die AI serieus willen inzetten maar niet weten waar te beginnen in {{timing:ai-strategy-sprint}} van ambitie naar een board-ready AI-strategie en een use-case roadmap. De sprint werkt in vijf werksessies toe naar vier beslismomenten: diagnose, prioriteren, beslissen en ship & govern. De prijs is {{pricelc:ai-strategy-sprint}}, {{voorwaarden}}.",
+  "antwoord": "De {{dienst:ai-strategy-sprint}} van {{afzender}} brengt organisaties die AI serieus willen inzetten maar niet weten waar te beginnen in {{timing:ai-strategy-sprint}} van ambitie naar een board-ready AI-strategie en een use-case roadmap. De sprint werkt in vijf werksessies toe naar vier beslismomenten: diagnose, prioriteren, beslissen en ship & govern. De sprint kost {{pricelc:ai-strategy-sprint}}, {{voorwaarden}}.",
   "vervolgvragen": [
     {
-      "vraag": "Waar in de prijsbandbreedte komt de AI Strategy Sprint uit als er al een AI Readiness Assessment ligt?",
-      "antwoord": "Aan de onderkant: ligt er al een {{dienst:ai-readiness-assessment}}, dan komt de {{dienst:ai-strategy-sprint}} aan de onderkant van {{pricelc:ai-strategy-sprint}} uit. Bij meerdere bedrijfsonderdelen komt de sprint aan de bovenkant uit."
+      "vraag": "Valt de investering in de AI Strategy Sprint lager uit als er al een AI Readiness Assessment ligt?",
+      "antwoord": "Ja: ligt er al een {{dienst:ai-readiness-assessment}}, dan valt de investering in de {{dienst:ai-strategy-sprint}} lager uit. Bij meerdere bedrijfsonderdelen valt die hoger uit. Het exacte bedrag staat in het voorstel."
     },
     {
       "vraag": "Wanneer is de AI Strategy Sprint minder geschikt?",

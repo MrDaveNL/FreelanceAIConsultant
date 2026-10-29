@@ -102,6 +102,6 @@ The same principles apply for smaller businesses, but with less room for experim
 - **Pick one bottleneck with a clear owner.** One process done well beats five done half well.
 - **Only have something custom built once standard demonstrably falls short.** Custom work brings ongoing support costs, and you need to be able to carry those.
 
-More on AI for smaller organisations is on the [AI for small business](/ai-for-business/sme) page. Want to know where you stand first? The [AI Readiness Assessment](/services/ai-readiness-assessment) gives you a reasoned picture in {{timing:ai-readiness-assessment}}, for {{pricelc:ai-readiness-assessment}}. For a single department or process area, it can also be run smaller, at a lower investment.
+More on AI for smaller organisations is on the [AI for small business](/ai-for-business/sme) page. Want to know where you stand first? The [AI Readiness Assessment](/services/ai-readiness-assessment) gives you a reasoned picture in {{timing:ai-readiness-assessment}}, for a fixed price agreed upfront. For a single department or process area, it can also be run smaller, at a lower investment.
 
 Looking mainly for someone with technical depth? A separate article on this site sets out the different AI-development profiles and which one fits your question. And if you'd like to talk through a concrete bottleneck, [book a strategy call](/contact).

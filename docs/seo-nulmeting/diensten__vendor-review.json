@@ -2,15 +2,28 @@
   "url": "/diensten/vendor-review",
   "build_bestand": "dist/diensten/vendor-review/index.html",
   "html": {
-    "bytes": 33408,
+    "bytes": 38585,
     "lang": "nl"
   },
   "beschermd": {
     "title": "Vendor Review | Freelance AI Consultant",
     "meta_description": "Onafhankelijke selectie van AI-leveranciers: criteria vooraf, scorecards, test op eigen data en TCO over drie jaar inclusief exit.",
-    "canonical": "https://freelanceaiconsultant.com/diensten/vendor-review",
+    "canonical": "https://freelanceaiconsultant.com/nl/diensten/vendor-review",
     "robots_meta": null,
-    "hreflang": [],
+    "hreflang": [
+      {
+        "hreflang": "en",
+        "href": "https://freelanceaiconsultant.com/services/vendor-review"
+      },
+      {
+        "hreflang": "nl",
+        "href": "https://freelanceaiconsultant.com/nl/diensten/vendor-review"
+      },
+      {
+        "hreflang": "x-default",
+        "href": "https://freelanceaiconsultant.com/services/vendor-review"
+      }
+    ],
     "h1": [
       "Vendor Review & selectie"
     ]
@@ -21,7 +34,7 @@
     "og:site_name": "freelanceaiconsultant.com",
     "og:title": "Vendor Review | Freelance AI Consultant",
     "og:description": "Onafhankelijke selectie van AI-leveranciers: criteria vooraf, scorecards, test op eigen data en TCO over drie jaar inclusief exit.",
-    "og:url": "https://freelanceaiconsultant.com/diensten/vendor-review",
+    "og:url": "https://freelanceaiconsultant.com/nl/diensten/vendor-review",
     "og:image": "https://freelanceaiconsultant.com/images/dave-portrait.jpg",
     "twitter:card": "summary_large_image",
     "twitter:title": "Vendor Review | Freelance AI Consultant",
@@ -32,6 +45,24 @@
     {
       "niveau": 1,
       "tekst": "Vendor Review & selectie",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "Wat levert een Vendor Review op en wat kost die?",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 3,
+      "tekst": "Wat bepaalt de prijs van een Vendor Review?",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 3,
+      "tekst": "Wanneer is een Vendor Review minder geschikt?",
       "regio": "main",
       "id": null
     },
@@ -146,15 +177,15 @@
   ],
   "bodytekst": {
     "regio": "main",
-    "woorden": 767,
-    "sha256": "bb52d9979e718a4f406f0be328b8b663d32be9211cc5308097c9903f38fa2271",
+    "woorden": 925,
+    "sha256": "d76d08f3facd725380238b89815769094d1cf8876d2d1ebbfcf065f8053745a7",
     "blokken": [
       "Kiezen op fit, niet op demo",
       "Vendor Review & selectie",
       "Een gestructureerd selectieproces met heldere criteria, echte scorecards en een TCO-berekening die verder kijkt dan het licentietarief. Zodat je keuze uit te leggen is, ook over twee jaar.",
       "Plan een gesprek → Alle diensten → 30 min., geen pitch deck",
       "vertrouwen, ervaring, impact ↓",
-      "Independent No vendor bias Senior only 20+ jaar ervaring",
+      "Independent No vendor bias Senior only Sinds 2006",
       "AI in Europa",
       "Europese merken die AI al in productie hebben.",
       "Geen klanten van mij. Wel voorbeelden van wat er gebeurt als AI voorbij de pilot komt.",
@@ -215,8 +246,16 @@
       "Interne AI-assistent voor kenniswerkers",
       "Duur3-6 weken",
       "ResultaatOnderbouwd selectieadvies",
-      "Investering€9.800 - €15.400",
-      "Afhankelijk van het aantal leveranciers (2 tot 4). Bedragen zijn exclusief btw en reiskosten.",
+      "PrijsOp maat, vooraf vastgelegd",
+      "Afhankelijk van het aantal leveranciers (2 tot 4). Alle voorstellen zijn exclusief btw.",
+      "Vraag een voorstel aan → Prijs op maat, afhankelijk van scope",
+      "Wat levert een Vendor Review op en wat kost die?",
+      "De Vendor Review van Dave Willemstein is een onafhankelijk selectietraject voor organisaties die een AI-leverancier kiezen en die keuze achteraf moeten kunnen uitleggen. Het resultaat is een onderbouwd selectieadvies met scorecards, een TCO-vergelijking over drie jaar en een beslisdocument voor procurement en board. Het traject duurt 3-6 weken en kost een vaste prijs of vast maandbedrag, vastgelegd in het voorstel, exclusief btw en reiskosten.",
+      "Wat bepaalt de prijs van een Vendor Review?",
+      "De prijs van de Vendor Review, een vaste prijs of vast maandbedrag, vastgelegd in het voorstel, is afhankelijk van het aantal leveranciers (2 tot 4).",
+      "Wanneer is een Vendor Review minder geschikt?",
+      "De Vendor Review is minder geschikt als de leverancier feitelijk al gekozen is en de organisatie een onderbouwing achteraf zoekt.",
+      "Bron: tarieven en doorlooptijden van Dave Willemstein. Bijgewerkt: oktober 2026.",
       "De aanleiding",
       "Waar selectietrajecten misgaan",
       "De criteria worden opgesteld nadat de favoriet al bekend is.",
@@ -290,11 +329,11 @@
       "☑",
       "AI Due Diligence",
       "Beoordeel AI-oplossingen of -bedrijven op waarde, risico, veiligheid en haalbaarheid.",
-      "2-4 weken · €12.600 - €19.600",
+      "2-4 weken · Vraag een voorstel aan",
       "→ ↯",
       "AI Strategy Sprint",
       "Van ambitie naar een realistische AI-roadmap die past bij business, mensen en middelen, board-ready in zes weken.",
-      "4-6 weken · €15.400 - €22.400",
+      "4-6 weken · Vraag een voorstel aan",
       "→",
       "Klaar voor impact?",
       "Plan een gesprek.",
@@ -313,252 +352,273 @@
     {
       "regio": "header",
       "soort": "intern",
-      "href": "/",
+      "href": "/nl",
       "anker": "",
       "rel": null
     },
     {
       "regio": "header",
       "soort": "intern",
-      "href": "/diensten",
+      "href": "/nl/diensten",
       "anker": "Diensten",
       "rel": null
     },
     {
       "regio": "header",
       "soort": "intern",
-      "href": "/cases",
+      "href": "/nl/cases",
       "anker": "Cases",
       "rel": null
     },
     {
       "regio": "header",
       "soort": "intern",
-      "href": "/werkwijze",
+      "href": "/nl/werkwijze",
       "anker": "Werkwijze",
       "rel": null
     },
     {
       "regio": "header",
       "soort": "intern",
-      "href": "/inzichten",
+      "href": "/nl/inzichten",
       "anker": "Inzichten",
       "rel": null
     },
     {
       "regio": "header",
       "soort": "intern",
-      "href": "/over",
+      "href": "/nl/over",
       "anker": "Over mij",
       "rel": null
     },
     {
       "regio": "header",
       "soort": "intern",
-      "href": "/contact",
+      "href": "/services/vendor-review",
+      "anker": "EN",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/nl/contact",
       "anker": "Plan een gesprek →",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/contact",
+      "href": "/nl/contact",
       "anker": "Plan een gesprek →",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/diensten",
+      "href": "/nl/diensten",
       "anker": "Alle diensten →",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/werkwijze",
+      "href": "/nl/contact?dienst=vendor-review",
+      "anker": "Vraag een voorstel aan →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/nl/tarieven",
+      "anker": "tarieven en doorlooptijden van Dave Willemstein",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/nl/werkwijze",
       "anker": "Meer over mijn werkwijze →",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/cases/vendorselectie-enterprise-retail",
+      "href": "/nl/cases/vendorselectie-enterprise-retail",
       "anker": "Lees de volledige case →",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/veelgestelde-vragen",
+      "href": "/nl/veelgestelde-vragen",
       "anker": "Bekijk alle veelgestelde vragen →",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/diensten/ai-due-diligence",
-      "anker": "☑ AI Due Diligence Beoordeel AI-oplossingen of -bedrijven op waarde, risico, veiligheid en haalbaarheid. 2-4 weken · €12.600 - €19.600 →",
+      "href": "/nl/diensten/ai-due-diligence",
+      "anker": "☑ AI Due Diligence Beoordeel AI-oplossingen of -bedrijven op waarde, risico, veiligheid en haalbaarheid. 2-4 weken · Vraag een voorstel aan →",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/diensten/ai-strategy-sprint",
-      "anker": "↯ AI Strategy Sprint Van ambitie naar een realistische AI-roadmap die past bij business, mensen en middelen, board-ready in zes weken. 4-6 weken · €15.400 - €22.400 →",
+      "href": "/nl/diensten/ai-strategy-sprint",
+      "anker": "↯ AI Strategy Sprint Van ambitie naar een realistische AI-roadmap die past bij business, mensen en middelen, board-ready in zes weken. 4-6 weken · Vraag een voorstel aan →",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/contact",
+      "href": "/nl/contact",
       "anker": "Plan een gesprek →",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/diensten/ai-readiness-assessment",
+      "href": "/nl/diensten/ai-readiness-assessment",
       "anker": "AI Readiness Assessment",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/diensten/ai-strategy-sprint",
+      "href": "/nl/diensten/ai-strategy-sprint",
       "anker": "AI Strategy Sprint",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/diensten/fractional-ai-lead",
+      "href": "/nl/diensten/fractional-ai-lead",
       "anker": "Fractional AI Lead",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/diensten",
+      "href": "/nl/diensten",
       "anker": "Alle diensten",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/cases",
+      "href": "/nl/cases",
       "anker": "Cases",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/werkwijze",
+      "href": "/nl/werkwijze",
       "anker": "Werkwijze",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/inzichten",
+      "href": "/nl/inzichten",
       "anker": "Inzichten",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/veelgestelde-vragen",
+      "href": "/nl/veelgestelde-vragen",
       "anker": "Veelgestelde vragen",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/over",
+      "href": "/nl/over",
       "anker": "Over mij",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-consultancy",
+      "href": "/nl/ai-consultancy",
       "anker": "AI consultancy",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-implementatie",
+      "href": "/nl/ai-implementatie",
       "anker": "AI implementatie",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-automatisering",
+      "href": "/nl/ai-automatisering",
       "anker": "AI automatisering",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-voor-bedrijven",
+      "href": "/nl/ai-voor-bedrijven",
       "anker": "AI voor bedrijven",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-development",
+      "href": "/nl/ai-development",
       "anker": "AI development",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-agents",
+      "href": "/nl/ai-agents",
       "anker": "AI agents",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-beleid",
+      "href": "/nl/ai-beleid",
       "anker": "AI beleid",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-workshop",
+      "href": "/nl/ai-workshop",
       "anker": "AI workshop",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/markten",
+      "href": "/nl/markten",
       "anker": "AI per branche",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/kennisbank",
+      "href": "/nl/kennisbank",
       "anker": "Kennisbank",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/tarieven",
+      "href": "/nl/tarieven",
       "anker": "Tarieven",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/partnernetwerk",
+      "href": "/nl/partnernetwerk",
       "anker": "Partnernetwerk",
       "rel": null
     },
@@ -579,50 +639,77 @@
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/contact",
+      "href": "/nl/contact",
       "anker": "Plan een gesprek",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/privacy",
+      "href": "/nl/privacy",
       "anker": "Privacyverklaring",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/algemene-voorwaarden",
+      "href": "/nl/algemene-voorwaarden",
       "anker": "Algemene voorwaarden",
       "rel": null
     }
   ],
   "structured_data": {
-    "sha256": "eb250197c0aae1959fa8ad7bd3db8a3f18374f50d286fe979f51663ae6d0a167",
+    "sha256": "24fa19b34ac71d28b4889d7a94449ba6f848800ca3efe325c0b842d662f28b94",
     "items": [
-      {
-        "@context": "https://schema.org",
-        "@type": "Service",
-        "name": "Vendor Review",
-        "description": "Een gestructureerd selectieproces met heldere criteria, echte scorecards en een TCO-berekening die verder kijkt dan het licentietarief. Zodat je keuze uit te leggen is, ook over twee jaar.",
-        "provider": {
-          "@type": "Person",
-          "name": "Dave Willemstein",
-          "url": "https://freelanceaiconsultant.com"
+      [
+        {
+          "@context": "https://schema.org",
+          "@type": "Service",
+          "name": "Vendor Review",
+          "description": "Een gestructureerd selectieproces met heldere criteria, echte scorecards en een TCO-berekening die verder kijkt dan het licentietarief. Zodat je keuze uit te leggen is, ook over twee jaar.",
+          "provider": {
+            "@type": "Person",
+            "name": "Dave Willemstein",
+            "url": "https://freelanceaiconsultant.com"
+          },
+          "areaServed": [
+            "NL",
+            "BE",
+            "DE"
+          ],
+          "serviceType": "AI-advies"
         },
-        "areaServed": [
-          "NL",
-          "BE",
-          "DE"
-        ],
-        "serviceType": "AI-advies",
-        "offers": {
-          "@type": "Offer",
-          "priceCurrency": "EUR",
-          "description": "€9.800 - €15.400. Afhankelijk van het aantal leveranciers (2 tot 4)."
+        {
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "Wat levert een Vendor Review op en wat kost die?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "De Vendor Review van Dave Willemstein is een onafhankelijk selectietraject voor organisaties die een AI-leverancier kiezen en die keuze achteraf moeten kunnen uitleggen. Het resultaat is een onderbouwd selectieadvies met scorecards, een TCO-vergelijking over drie jaar en een beslisdocument voor procurement en board. Het traject duurt 3-6 weken en kost een vaste prijs of vast maandbedrag, vastgelegd in het voorstel, exclusief btw en reiskosten."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Wat bepaalt de prijs van een Vendor Review?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "De prijs van de Vendor Review, een vaste prijs of vast maandbedrag, vastgelegd in het voorstel, is afhankelijk van het aantal leveranciers (2 tot 4)."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Wanneer is een Vendor Review minder geschikt?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "De Vendor Review is minder geschikt als de leverancier feitelijk al gekozen is en de organisatie een onderbouwing achteraf zoekt."
+              }
+            }
+          ]
         }
-      }
+      ]
     ]
   },
   "afbeeldingen": [
@@ -661,12 +748,12 @@
     ],
     "stylesheets": [
       "https://fonts.googleapis.com/css2?family=Caveat:wght@600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap",
-      "/_astro/_slug_.bq6BBoZ5.css",
-      "/_astro/_slug_.BJ2d3JA4.css",
+      "/_astro/_slug_.BzqUXH8l.css",
+      "/_astro/_slug_.4j2fFZLq.css",
       "/logo-carousel/logo-carousel.css?v=2"
     ],
     "aantal_details": 3,
     "aantal_tabellen": 0
   },
-  "gemeten_op": "2026-10-06"
+  "gemeten_op": "2026-10-28"
 }

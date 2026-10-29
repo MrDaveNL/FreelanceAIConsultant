@@ -139,6 +139,6 @@ That last one may be the most important. A team that deliberately chooses where 
 
 Workshops and training get a fixed price per assignment, because preparation, duration and group size vary widely. The amount is discussed in the intake, and you get it in writing beforehand. The [pricing](/pricing) page shows how that compares to the fixed-scope engagements. All amounts exclude VAT and travel costs.
 
-The Executive Briefing is the exception: it has a fixed price of {{price:executive-briefing}}, including preparation for your sector.
+The Executive Briefing is the exception: it has a fixed price, including preparation for your sector.
 
 Want to see where your organisation stands first? The [AI Readiness Assessment](/services/ai-readiness-assessment) is the more logical place to start. More about my background is on the [about](/about) page. Not sure yet whether a workshop is the right first step? [Ask about a workshop](/contact): in a thirty-minute conversation, you'll hear what I'd suggest, even if that's something other than a workshop.

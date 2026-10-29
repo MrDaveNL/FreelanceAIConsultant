@@ -2,15 +2,28 @@
   "url": "/ai-development/ai-oplossingen",
   "build_bestand": "dist/ai-development/ai-oplossingen/index.html",
   "html": {
-    "bytes": 34247,
+    "bytes": 38588,
     "lang": "nl"
   },
   "beschermd": {
     "title": "AI oplossingen op maat | Van vraagstuk naar werkende AI",
     "meta_description": "AI oplossingen op maat die aansluiten op jouw processen en data. Bekijk voorbeelden, de aanpak van idee tot livegang en wat een AI oplossing oplevert.",
-    "canonical": "https://freelanceaiconsultant.com/ai-development/ai-oplossingen",
+    "canonical": "https://freelanceaiconsultant.com/nl/ai-development/ai-oplossingen",
     "robots_meta": null,
-    "hreflang": [],
+    "hreflang": [
+      {
+        "hreflang": "en",
+        "href": "https://freelanceaiconsultant.com/ai-development/ai-solutions"
+      },
+      {
+        "hreflang": "nl",
+        "href": "https://freelanceaiconsultant.com/nl/ai-development/ai-oplossingen"
+      },
+      {
+        "hreflang": "x-default",
+        "href": "https://freelanceaiconsultant.com/ai-development/ai-solutions"
+      }
+    ],
     "h1": [
       "AI oplossingen op maat voor jouw bedrijf"
     ]
@@ -21,7 +34,7 @@
     "og:site_name": "freelanceaiconsultant.com",
     "og:title": "AI oplossingen op maat | Van vraagstuk naar werkende AI",
     "og:description": "AI oplossingen op maat die aansluiten op jouw processen en data. Bekijk voorbeelden, de aanpak van idee tot livegang en wat een AI oplossing oplevert.",
-    "og:url": "https://freelanceaiconsultant.com/ai-development/ai-oplossingen",
+    "og:url": "https://freelanceaiconsultant.com/nl/ai-development/ai-oplossingen",
     "og:image": "https://freelanceaiconsultant.com/images/dave-portrait.jpg",
     "twitter:card": "summary_large_image",
     "twitter:title": "AI oplossingen op maat | Van vraagstuk naar werkende AI",
@@ -32,6 +45,30 @@
     {
       "niveau": 1,
       "tekst": "AI oplossingen op maat voor jouw bedrijf",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "Wie bouwt AI oplossingen op maat en welke rol heeft de onafhankelijk adviseur?",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 3,
+      "tekst": "Is maatwerk altijd nodig voor AI oplossingen?",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 3,
+      "tekst": "Kan het AI Readiness Assessment ook voor één afdeling worden uitgevoerd?",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 3,
+      "tekst": "Zit er een marge op ontwikkelaars die worden voorgesteld voor AI oplossingen?",
       "regio": "main",
       "id": null
     },
@@ -80,8 +117,8 @@
   ],
   "bodytekst": {
     "regio": "main",
-    "woorden": 1580,
-    "sha256": "16bda82bd80cc0785a3474c1018a02bd6ecf61f7e86a4698e1fcfed6007136bd",
+    "woorden": 1822,
+    "sha256": "b507dfc64d209e9bf24b78eaa4f2750ede631eaeb689cce66b3a42df32ad6868",
     "blokken": [
       "Home",
       "AI Development",
@@ -152,6 +189,15 @@
       "Proces & productivity",
       "Zakelijke dienstverlener",
       "Interne AI-assistent voor kenniswerkers",
+      "Wie bouwt AI oplossingen op maat en welke rol heeft de onafhankelijk adviseur?",
+      "Dave Willemstein bouwt of levert zelf geen AI oplossingen, maar helpt bepalen welke oplossing zinvol is, begeleidt de keuze van een oplossing of bouwpartij en toetst vanuit de kant van de opdrachtgever of het resultaat werkt. Wie eerst wil weten waar de organisatie staat, krijgt met het AI Readiness Assessment in 2-3 weken een onderbouwd beeld, voor een vaste prijs of vast maandbedrag, vastgelegd in het voorstel. De bouw ligt bij het eigen team of bij een partner met wie de opdrachtgever zelf een contract sluit.",
+      "Is maatwerk altijd nodig voor AI oplossingen?",
+      "Nee. Voor AI oplossingen is een goed ingerichte standaardoplossing vaak de snelste en goedkoopste route. Volgens de vuistregels past maatwerk als de oplossing raakt aan waarom klanten voor de organisatie kiezen, als data of werkwijze bijzonder is of als geen standaardpakket de benodigde controle geeft.",
+      "Kan het AI Readiness Assessment ook voor één afdeling worden uitgevoerd?",
+      "Ja. Het AI Readiness Assessment kan voor één afdeling of procesdomein kleiner worden uitgevoerd, met een lagere investering.",
+      "Zit er een marge op ontwikkelaars die worden voorgesteld voor AI oplossingen?",
+      "Nee. Als het helpt, stelt de adviseur voor AI oplossingen ontwikkelaars voor die hij kent, zonder marge op hun tarief. De bouwers komen uit de eigen organisatie of van een partij die de opdrachtgever zelf kiest.",
+      "Bron: tarieven en doorlooptijden van Dave Willemstein. Bijgewerkt: oktober 2026.",
       "Wat zijn AI oplossingen?",
       "Een AI oplossing is een toepassing waarin kunstmatige intelligentie een concreet probleem in je werk oplost: informatie uit documenten halen, vragen beantwoorden op basis van interne kennis, verzoeken sorteren of voorspellingen doen. Het woord “oplossing” is daarbij belangrijk. Een AI-oplossing is niet alleen de software, maar het geheel van model, data, koppelingen, werkproces en de mensen die ermee werken.",
       "Dat verschil verklaart waarom veel AI-projecten technisch slagen en in de praktijk toch weinig opleveren. Het model werkt, maar niemand heeft bedacht wie de uitkomst controleert, wat er gebeurt bij twijfel, of hoe het in de dagelijkse routine past.",
@@ -191,7 +237,7 @@
       "Begin bij de software die je al hebt. Veel pakketten bevatten AI-functies die met de juiste inrichting een flink deel van de vraag afdekken, zonder maatwerk.",
       "Kies één knelpunt met een duidelijke eigenaar. Liever één proces goed dan vijf half. Welke toepassingen in de praktijk resultaat opleveren, beschreef ik in welke AI use cases leveren resultaat.",
       "Laat pas bouwen als standaard aantoonbaar tekortschiet. Maatwerk brengt blijvende beheerkosten mee, en die moet je kunnen dragen.",
-      "Meer over AI in kleinere organisaties staat op de pagina AI voor het MKB. Wil je eerst weten waar je staat? Het AI Readiness Assessment geeft in 2-3 weken een onderbouwd beeld, voor €7.000. Voor één afdeling of procesdomein kan het ook kleiner, met een lagere investering.",
+      "Meer over AI in kleinere organisaties staat op de pagina AI voor het MKB. Wil je eerst weten waar je staat? Het AI Readiness Assessment geeft in 2-3 weken een onderbouwd beeld, voor een vaste prijs, vooraf afgesproken. Voor één afdeling of procesdomein kan het ook kleiner, met een lagere investering.",
       "Zoek je vooral iemand met technische diepgang? Op de pagina over de AI specialist lees je welke profielen er zijn en welk profiel bij jouw vraag past. En wil je sparren over een concreet knelpunt, plan dan een adviesgesprek.",
       "Dave Willemstein Onafhankelijk AI-adviseur",
       "Onafhankelijk: geen commissies, geen partnerdeals, geen marge op implementatiepartners.",
@@ -225,343 +271,364 @@
     {
       "regio": "header",
       "soort": "intern",
-      "href": "/",
+      "href": "/nl",
       "anker": "",
       "rel": null
     },
     {
       "regio": "header",
       "soort": "intern",
-      "href": "/diensten",
+      "href": "/nl/diensten",
       "anker": "Diensten",
       "rel": null
     },
     {
       "regio": "header",
       "soort": "intern",
-      "href": "/cases",
+      "href": "/nl/cases",
       "anker": "Cases",
       "rel": null
     },
     {
       "regio": "header",
       "soort": "intern",
-      "href": "/werkwijze",
+      "href": "/nl/werkwijze",
       "anker": "Werkwijze",
       "rel": null
     },
     {
       "regio": "header",
       "soort": "intern",
-      "href": "/inzichten",
+      "href": "/nl/inzichten",
       "anker": "Inzichten",
       "rel": null
     },
     {
       "regio": "header",
       "soort": "intern",
-      "href": "/over",
+      "href": "/nl/over",
       "anker": "Over mij",
       "rel": null
     },
     {
       "regio": "header",
       "soort": "intern",
-      "href": "/contact",
+      "href": "/ai-development/ai-solutions",
+      "anker": "EN",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/nl/contact",
       "anker": "Plan een gesprek →",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/",
+      "href": "/nl",
       "anker": "Home",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/ai-development",
+      "href": "/nl/ai-development",
       "anker": "AI Development",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/contact",
+      "href": "/nl/contact",
       "anker": "Plan een adviesgesprek →",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/diensten/ai-readiness-assessment",
+      "href": "/nl/diensten/ai-readiness-assessment",
       "anker": "Bekijk het AI Readiness Assessment →",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/over",
+      "href": "/nl/diensten/ai-readiness-assessment",
+      "anker": "AI Readiness Assessment",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/nl/tarieven",
+      "anker": "tarieven en doorlooptijden van Dave Willemstein",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/nl/over",
       "anker": "onafhankelijk AI-adviseur",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/ai-agents",
+      "href": "/nl/ai-agents",
       "anker": "AI agents",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/cases/kyc-documentanalyse-financial-services",
+      "href": "/nl/cases/kyc-documentanalyse-financial-services",
       "anker": "KYC-documentanalyse voor een financiële dienstverlener",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/cases/interne-ai-assistent-kenniswerkers",
+      "href": "/nl/cases/interne-ai-assistent-kenniswerkers",
       "anker": "interne AI-assistent voor kenniswerkers",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/kennisbank/ai-voorbeelden",
+      "href": "/nl/kennisbank/ai-voorbeelden",
       "anker": "AI voorbeelden",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/ai-development/ai-software",
+      "href": "/nl/ai-development/ai-software",
       "anker": "AI software kiezen, integreren of laten bouwen",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/ai-implementatie",
+      "href": "/nl/ai-implementatie",
       "anker": "AI implementatie",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/ai-development",
+      "href": "/nl/ai-development",
       "anker": "AI development",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/inzichten/welke-ai-use-cases-leveren-resultaat",
+      "href": "/nl/inzichten/welke-ai-use-cases-leveren-resultaat",
       "anker": "welke AI use cases leveren resultaat",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/ai-voor-bedrijven/mkb",
+      "href": "/nl/ai-voor-bedrijven/mkb",
       "anker": "AI voor het MKB",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/diensten/ai-readiness-assessment",
+      "href": "/nl/diensten/ai-readiness-assessment",
       "anker": "AI Readiness Assessment",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/ai-development/ai-specialist",
+      "href": "/nl/ai-development/ai-specialist",
       "anker": "de AI specialist",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/contact",
+      "href": "/nl/contact",
       "anker": "plan dan een adviesgesprek",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/over",
+      "href": "/nl/over",
       "anker": "Over mij",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/partnernetwerk",
+      "href": "/nl/partnernetwerk",
       "anker": "Mijn partnernetwerk",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/diensten/ai-readiness-assessment",
+      "href": "/nl/diensten/ai-readiness-assessment",
       "anker": "Weten waar je staat met AI? Bekijk het AI Readiness Assessment →",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/contact",
+      "href": "/nl/contact",
       "anker": "Plan een gesprek →",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/diensten/ai-readiness-assessment",
+      "href": "/nl/diensten/ai-readiness-assessment",
       "anker": "AI Readiness Assessment",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/diensten/ai-strategy-sprint",
+      "href": "/nl/diensten/ai-strategy-sprint",
       "anker": "AI Strategy Sprint",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/diensten/fractional-ai-lead",
+      "href": "/nl/diensten/fractional-ai-lead",
       "anker": "Fractional AI Lead",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/diensten",
+      "href": "/nl/diensten",
       "anker": "Alle diensten",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/cases",
+      "href": "/nl/cases",
       "anker": "Cases",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/werkwijze",
+      "href": "/nl/werkwijze",
       "anker": "Werkwijze",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/inzichten",
+      "href": "/nl/inzichten",
       "anker": "Inzichten",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/veelgestelde-vragen",
+      "href": "/nl/veelgestelde-vragen",
       "anker": "Veelgestelde vragen",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/over",
+      "href": "/nl/over",
       "anker": "Over mij",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-consultancy",
+      "href": "/nl/ai-consultancy",
       "anker": "AI consultancy",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-implementatie",
+      "href": "/nl/ai-implementatie",
       "anker": "AI implementatie",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-automatisering",
+      "href": "/nl/ai-automatisering",
       "anker": "AI automatisering",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-voor-bedrijven",
+      "href": "/nl/ai-voor-bedrijven",
       "anker": "AI voor bedrijven",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-development",
+      "href": "/nl/ai-development",
       "anker": "AI development",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-agents",
+      "href": "/nl/ai-agents",
       "anker": "AI agents",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-beleid",
+      "href": "/nl/ai-beleid",
       "anker": "AI beleid",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-workshop",
+      "href": "/nl/ai-workshop",
       "anker": "AI workshop",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/markten",
+      "href": "/nl/markten",
       "anker": "AI per branche",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/kennisbank",
+      "href": "/nl/kennisbank",
       "anker": "Kennisbank",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/tarieven",
+      "href": "/nl/tarieven",
       "anker": "Tarieven",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/partnernetwerk",
+      "href": "/nl/partnernetwerk",
       "anker": "Partnernetwerk",
       "rel": null
     },
@@ -582,27 +649,27 @@
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/contact",
+      "href": "/nl/contact",
       "anker": "Plan een gesprek",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/privacy",
+      "href": "/nl/privacy",
       "anker": "Privacyverklaring",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/algemene-voorwaarden",
+      "href": "/nl/algemene-voorwaarden",
       "anker": "Algemene voorwaarden",
       "rel": null
     }
   ],
   "structured_data": {
-    "sha256": "42670fa85688c129cddff51b2eaf1d70f57d8715d436943b9de4a1f2e374c8ff",
+    "sha256": "6b11d0dbead9bebcd1df0ac471c2f344318e5e8f14ab4d274087b61e32b77263",
     "items": [
       {
         "@context": "https://schema.org",
@@ -614,19 +681,19 @@
                 "@type": "ListItem",
                 "position": 1,
                 "name": "Home",
-                "item": "https://freelanceaiconsultant.com/"
+                "item": "https://freelanceaiconsultant.com/nl"
               },
               {
                 "@type": "ListItem",
                 "position": 2,
                 "name": "AI Development",
-                "item": "https://freelanceaiconsultant.com/ai-development"
+                "item": "https://freelanceaiconsultant.com/nl/ai-development"
               },
               {
                 "@type": "ListItem",
                 "position": 3,
                 "name": "AI oplossingen",
-                "item": "https://freelanceaiconsultant.com/ai-development/ai-oplossingen"
+                "item": "https://freelanceaiconsultant.com/nl/ai-development/ai-oplossingen"
               }
             ]
           },
@@ -635,7 +702,7 @@
             "name": "AI oplossingen",
             "serviceType": "ai oplossingen",
             "description": "AI oplossingen op maat die aansluiten op jouw processen en data. Bekijk voorbeelden, de aanpak van idee tot livegang en wat een AI oplossing oplevert.",
-            "url": "https://freelanceaiconsultant.com/ai-development/ai-oplossingen",
+            "url": "https://freelanceaiconsultant.com/nl/ai-development/ai-oplossingen",
             "areaServed": "NL",
             "provider": {
               "@type": "Person",
@@ -689,6 +756,38 @@
                   "@type": "Answer",
                   "text": "Vaak wel. Veel pakketten die je al gebruikt, hebben AI-functies die met de juiste inrichting een groot deel van de vraag oplossen. Dat is meestal de goedkoopste eerste stap en leert je wat je werkelijk nodig hebt."
                 }
+              },
+              {
+                "@type": "Question",
+                "name": "Wie bouwt AI oplossingen op maat en welke rol heeft de onafhankelijk adviseur?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Dave Willemstein bouwt of levert zelf geen AI oplossingen, maar helpt bepalen welke oplossing zinvol is, begeleidt de keuze van een oplossing of bouwpartij en toetst vanuit de kant van de opdrachtgever of het resultaat werkt. Wie eerst wil weten waar de organisatie staat, krijgt met het AI Readiness Assessment in 2-3 weken een onderbouwd beeld, voor een vaste prijs of vast maandbedrag, vastgelegd in het voorstel. De bouw ligt bij het eigen team of bij een partner met wie de opdrachtgever zelf een contract sluit."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Is maatwerk altijd nodig voor AI oplossingen?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Nee. Voor AI oplossingen is een goed ingerichte standaardoplossing vaak de snelste en goedkoopste route. Volgens de vuistregels past maatwerk als de oplossing raakt aan waarom klanten voor de organisatie kiezen, als data of werkwijze bijzonder is of als geen standaardpakket de benodigde controle geeft."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Kan het AI Readiness Assessment ook voor één afdeling worden uitgevoerd?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Ja. Het AI Readiness Assessment kan voor één afdeling of procesdomein kleiner worden uitgevoerd, met een lagere investering."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Zit er een marge op ontwikkelaars die worden voorgesteld voor AI oplossingen?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Nee. Als het helpt, stelt de adviseur voor AI oplossingen ontwikkelaars voor die hij kent, zonder marge op hun tarief. De bouwers komen uit de eigen organisatie of van een partij die de opdrachtgever zelf kiest."
+                }
               }
             ]
           }
@@ -732,12 +831,12 @@
     ],
     "stylesheets": [
       "https://fonts.googleapis.com/css2?family=Caveat:wght@600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap",
-      "/_astro/_slug_.bq6BBoZ5.css",
-      "/_astro/_slug_.goiX3PVF.css",
+      "/_astro/_slug_.BzqUXH8l.css",
+      "/_astro/_slug_.Do5RJXa7.css",
       "/logo-carousel/logo-carousel.css?v=2"
     ],
     "aantal_details": 5,
     "aantal_tabellen": 0
   },
-  "gemeten_op": "2026-10-06"
+  "gemeten_op": "2026-10-28"
 }

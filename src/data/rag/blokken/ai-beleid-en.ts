@@ -6,14 +6,13 @@ export default {
   "onderwerp": "AI policy",
   "vraagkop": "What belongs in an AI policy, and which service fits it?",
   "onderBestaandeKop": false,
-  "antwoord": "An AI policy sets out which tools are approved, what data can go into them, who decides, and how risks are managed; for most organisations, a first version of one to three pages is enough. {{afzender}} guides the drafting and tests the policy against practice; anyone who wants to know where the organisation stands before writing the policy can use {{dienst:ai-readiness-assessment}}, which maps the starting position in {{timing:ai-readiness-assessment}} for {{pricelc:ai-readiness-assessment}}. If the capacity to drive governance itself is missing, {{dienst:fractional-ai-lead}} can set up and oversee governance and cadence; the investment is {{pricelc:fractional-ai-lead}}.",
+  "antwoord": "An AI policy sets out which tools are approved, what data can go into them, who decides, and how risks are managed; for most organisations, a first version of one to three pages is enough. {{afzender}} guides the drafting and tests the policy against practice; anyone who wants to know where the organisation stands before writing the policy can use {{dienst:ai-readiness-assessment}}, which maps the starting position in {{timing:ai-readiness-assessment}} for {{pricelc:ai-readiness-assessment}}. If the capacity to drive governance itself is missing, {{dienst:fractional-ai-lead}} can set up and oversee governance and cadence; the investment is a fixed monthly fee, agreed upfront.",
   "tabel": {
     "bijschrift": "Setting and embedding an AI policy: the right service per situation",
     "kolommen": [
       "Situation",
       "Outcome",
       "Timeline",
-      "Price",
       "Suitable service"
     ],
     "rijen": [
@@ -21,14 +20,12 @@ export default {
         "Starting position not yet known before writing the AI policy",
         "Starting position mapped, with a risk and compliance scan and your position under the AI Act if it applies to you",
         { "dienst": "ai-readiness-assessment", "veld": "doorlooptijd" },
-        { "dienst": "ai-readiness-assessment", "veld": "prijs" },
         { "dienst": "ai-readiness-assessment", "veld": "naam" }
       ],
       [
         "No in-house capacity to drive AI governance",
         "Governance and cadence set up and overseen",
         { "dienst": "fractional-ai-lead", "veld": "doorlooptijd" },
-        { "dienst": "fractional-ai-lead", "veld": "prijs" },
         { "dienst": "fractional-ai-lead", "veld": "naam" }
       ]
     ]

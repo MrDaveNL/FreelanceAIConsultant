@@ -10,13 +10,11 @@ export default {
     "bijschrift": "AI advies: passende vorm per vraag",
     "kolommen": [
       "Vraag",
-      "Prijs",
       "Passende vorm"
     ],
     "rijen": [
       [
         "Eén leveranciersvoorstel of business case laten toetsen",
-        "Vaste prijs per opdracht",
         {
           "tekst": "Afgebakend advies, te starten met een adviesgesprek",
           "href": "/nl/contact"
@@ -26,10 +24,6 @@ export default {
         "Directie of raad van commissarissen een gedeeld beeld geven",
         {
           "dienst": "executive-briefing",
-          "veld": "prijs"
-        },
-        {
-          "dienst": "executive-briefing",
           "veld": "naam"
         }
       ],
@@ -37,19 +31,11 @@ export default {
         "Meerdere leveranciers systematisch vergelijken",
         {
           "dienst": "vendor-review",
-          "veld": "prijs"
-        },
-        {
-          "dienst": "vendor-review",
           "veld": "naam"
         }
       ],
       [
         "Eerst weten waar de organisatie staat",
-        {
-          "dienst": "ai-readiness-assessment",
-          "veld": "prijs"
-        },
         {
           "dienst": "ai-readiness-assessment",
           "veld": "naam"

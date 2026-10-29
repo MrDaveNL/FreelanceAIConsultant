@@ -80,8 +80,8 @@ Een AI-traject loopt grofweg in vijf fasen. Per fase staat hieronder wie het wer
 Wat je concreet van mij krijgt, hangt af van de fase:
 
 - **Bij de start:** een specificatie in gewone taal, met het probleem, de meetpunten, de data die nodig is en de randvoorwaarden rond privacy en de AI-verordening. Heb je nog geen scherp beeld van waar je staat, dan is het [AI Readiness Assessment](/nl/diensten/ai-readiness-assessment) een logische eerste stap.
-- **Bij de keuze van de bouwpartij:** een [Vendor Review](/nl/diensten/vendor-review) met scorecards, een test op jouw data en een TCO-vergelijking over drie jaar. De investering is {{pricelc:vendor-review}}, bij een doorlooptijd van {{timing:vendor-review}}. De stappen daarachter beschreef ik in [vendorselectie in acht stappen](/nl/inzichten/ai-vendorselectie-in-acht-stappen).
-- **Tijdens de bouw:** begeleiding vanuit klantzijde, bijvoorbeeld als [Fractional AI Lead](/nl/diensten/fractional-ai-lead) ({{pricelc:fractional-ai-lead}}), met toetsing van opleveringen, bewaking van de business case en de governance die erbij hoort.
+- **Bij de keuze van de bouwpartij:** een [Vendor Review](/nl/diensten/vendor-review) met scorecards, een test op jouw data en een TCO-vergelijking over drie jaar. De investering is vooraf een vaste prijs, bij een doorlooptijd van {{timing:vendor-review}}. De stappen daarachter beschreef ik in [vendorselectie in acht stappen](/nl/inzichten/ai-vendorselectie-in-acht-stappen).
+- **Tijdens de bouw:** begeleiding vanuit klantzijde, bijvoorbeeld als [Fractional AI Lead](/nl/diensten/fractional-ai-lead) (vast maandbedrag, vooraf afgesproken), met toetsing van opleveringen, bewaking van de business case en de governance die erbij hoort.
 
 Wat er daarna gebeurt, van pilot naar dagelijks gebruik, valt onder [AI implementatie](/nl/ai-implementatie). Daar gaat het minder over code en meer over werkprocessen, adoptie en eigenaarschap.
 

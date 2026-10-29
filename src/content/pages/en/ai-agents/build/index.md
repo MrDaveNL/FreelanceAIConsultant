@@ -96,7 +96,7 @@ What an AI agent costs varies sharply by route. Naming a fixed figure here would
 
 The biggest risk factors are too broad a first scope, sources that aren't in order, and dependence on a single vendor with no exit terms agreed. Ask every party for a multi-year cost estimate, including management and switching.
 
-My own rates are on the [pricing](/pricing) page. If you want quotes from several delivery partners independently assessed, a [Vendor Review](/services/vendor-review) of {{timing:vendor-review}} fits, costing {{pricelc:vendor-review}}. If you need someone to oversee the project on an ongoing basis, that's available as [Fractional AI Lead](/services/fractional-ai-lead).
+My own rates are on the [pricing](/pricing) page. If you want quotes from several delivery partners independently assessed, a [Vendor Review](/services/vendor-review) of {{timing:vendor-review}} fits, with a fixed price depending on the number of vendors. If you need someone to oversee the project on an ongoing basis, that's available as [Fractional AI Lead](/services/fractional-ai-lead).
 
 ## Security, privacy and management
 

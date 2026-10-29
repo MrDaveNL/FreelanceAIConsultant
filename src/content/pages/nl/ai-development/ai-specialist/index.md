@@ -91,7 +91,7 @@ Ik ben een freelance AI consultant, een AI specialist aan de strategische kant: 
 Waar ik wel in gespecialiseerd ben:
 
 - **AI-strategie en prioritering.** Van losse ideeën naar een portfolio met onderbouwde keuzes en een roadmap.
-- **Readiness.** Een doorlichting op strategie, data, technologie, mensen en governance. Het [AI Readiness Assessment](/nl/diensten/ai-readiness-assessment) kost {{pricelc:ai-readiness-assessment}} en duurt {{timing:ai-readiness-assessment}}.
+- **Readiness.** Een doorlichting op strategie, data, technologie, mensen en governance. Het [AI Readiness Assessment](/nl/diensten/ai-readiness-assessment) heeft een vaste prijs en duurt {{timing:ai-readiness-assessment}}.
 - **Leveranciersselectie.** Criteria vooraf, een gelijk scenario op jouw data en een TCO-vergelijking over drie jaar. Een voorbeeld is de case over [vendorselectie in enterprise retail](/nl/cases/vendorselectie-enterprise-retail).
 - **Toetsing en due diligence.** Business cases en AI-proposities beoordelen op waarde, risico en haalbaarheid.
 - **Governance.** Rollen, besliskaders en de eisen uit de AI-verordening in een werkbare vorm.

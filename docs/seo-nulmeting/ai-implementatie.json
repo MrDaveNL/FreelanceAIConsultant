@@ -2,15 +2,28 @@
   "url": "/ai-implementatie",
   "build_bestand": "dist/ai-implementatie/index.html",
   "html": {
-    "bytes": 42548,
+    "bytes": 48062,
     "lang": "nl"
   },
   "beschermd": {
     "title": "AI implementatie | Van plan naar werkende AI-oplossing",
     "meta_description": "AI implementatie die werkt: van use case en data tot integratie, adoptie en borging. Lees mijn aanpak, de veelgemaakte fouten en hoe je ze voorkomt.",
-    "canonical": "https://freelanceaiconsultant.com/ai-implementatie",
+    "canonical": "https://freelanceaiconsultant.com/nl/ai-implementatie",
     "robots_meta": null,
-    "hreflang": [],
+    "hreflang": [
+      {
+        "hreflang": "en",
+        "href": "https://freelanceaiconsultant.com/ai-implementation"
+      },
+      {
+        "hreflang": "nl",
+        "href": "https://freelanceaiconsultant.com/nl/ai-implementatie"
+      },
+      {
+        "hreflang": "x-default",
+        "href": "https://freelanceaiconsultant.com/ai-implementation"
+      }
+    ],
     "h1": [
       "AI implementatie: van plan naar werkende oplossing"
     ]
@@ -21,7 +34,7 @@
     "og:site_name": "freelanceaiconsultant.com",
     "og:title": "AI implementatie | Van plan naar werkende AI-oplossing",
     "og:description": "AI implementatie die werkt: van use case en data tot integratie, adoptie en borging. Lees mijn aanpak, de veelgemaakte fouten en hoe je ze voorkomt.",
-    "og:url": "https://freelanceaiconsultant.com/ai-implementatie",
+    "og:url": "https://freelanceaiconsultant.com/nl/ai-implementatie",
     "og:image": "https://freelanceaiconsultant.com/images/dave-portrait.jpg",
     "twitter:card": "summary_large_image",
     "twitter:title": "AI implementatie | Van plan naar werkende AI-oplossing",
@@ -32,6 +45,30 @@
     {
       "niveau": 1,
       "tekst": "AI implementatie: van plan naar werkende oplossing",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "Wat kost begeleiding bij AI implementatie en wie bouwt de oplossing?",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 3,
+      "tekst": "Wordt er een marge gerekend op partners die de AI implementatie bouwen?",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 3,
+      "tekst": "Moet er eerst een roadmap liggen voordat een AI implementatie kan starten?",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 3,
+      "tekst": "Wat kost bij een AI implementatie vaak meer tijd dan de techniek?",
       "regio": "main",
       "id": null
     },
@@ -134,8 +171,8 @@
   ],
   "bodytekst": {
     "regio": "main",
-    "woorden": 2663,
-    "sha256": "1cee282213c133f266a2ff18cd72cba3087bdc3289d6142b31b1d6eca27ad439",
+    "woorden": 3002,
+    "sha256": "b9fce5f02b13273de4735b08acfc388d0fb98c4f55f15f5ed696544df3375b97",
     "blokken": [
       "Home",
       "AI Implementatie",
@@ -205,6 +242,28 @@
       "Proces & productivity",
       "Zakelijke dienstverlener",
       "Interne AI-assistent voor kenniswerkers",
+      "Wat kost begeleiding bij AI implementatie en wie bouwt de oplossing?",
+      "Bij een AI implementatie bouwt het eigen team of een rechtstreeks gecontracteerde partner de oplossing; Dave Willemstein begeleidt vanuit de kant van de opdrachtgever door te helpen kiezen, kaders te stellen, de oplevering te toetsen en te zorgen dat de toepassing in de organisatie landt. Voor die begeleiding geldt: het AI Readiness Assessment duurt 2-3 weken tegen een vaste prijs, en doorlopende sturing door de Fractional AI Lead is tegen een vast maandbedrag. De kosten van bouw of licentie hangen af van de gekozen oplossing en leverancier en worden apart begroot, inclusief het beheer na oplevering.",
+      "Begeleiding bij AI implementatie: passende dienst per situatie",
+      "Situatie",
+      "Doorlooptijd",
+      "Passende dienst",
+      "Onduidelijk of de organisatie klaar is voor een implementatie, of de meningen daarover lopen uiteen",
+      "2-3 weken",
+      "AI Readiness Assessment",
+      "Een externe bouwpartij selecteren op vooraf vastgelegde criteria, getest op eigen data",
+      "3-6 weken",
+      "Vendor Review",
+      "Doorlopende bewaking van meting, beheer en governance zonder fulltime Head of AI",
+      "2, 4 of 8 dagen per maand",
+      "Fractional AI Lead",
+      "Wordt er een marge gerekend op partners die de AI implementatie bouwen?",
+      "Nee. Bij een AI implementatie bouwt het eigen team of een partij die de opdrachtgever rechtstreeks contracteert. Er wordt geen marge op partners gerekend en er zijn geen commissies of partnerstatus bij leveranciers.",
+      "Moet er eerst een roadmap liggen voordat een AI implementatie kan starten?",
+      "Nee. Een ontbrekende roadmap is geen reden om met een AI implementatie te wachten. Het is wel een reden om het eerste traject klein en goed afgebakend te houden, zodat duidelijk wordt wat de organisatie aankan voordat de tweede en derde toepassing starten.",
+      "Wat kost bij een AI implementatie vaak meer tijd dan de techniek?",
+      "Adoptie kost bij een AI implementatie vaak meer tijd dan de techniek. De doorlooptijd van de implementatie zelf verschilt sterk per toepassing: een standaardproduct dat wordt geconfigureerd staat sneller dan maatwerk met koppelingen aan kernsystemen.",
+      "Bron: tarieven en doorlooptijden van Dave Willemstein. Bijgewerkt: oktober 2026.",
       "Wat houdt AI implementatie in?",
       "AI implementatie is het traject waarin een AI-toepassing van idee of pilot naar dagelijks gebruik gaat. Dat klinkt als een technische klus, maar het technische deel is vaak het kleinste. De modellen zijn goed en breed beschikbaar. Wat een implementatie laat slagen of mislukken, is of de toepassing past in het werk, of de data het aankan en of iemand er na de oplevering verantwoordelijk voor blijft.",
       "Een implementatie omvat daarom meer dan bouwen:",
@@ -260,7 +319,7 @@
       "Kopen is voor kleine en middelgrote bedrijven vaak de goedkoopste manier om te leren wat je echt nodig hebt. Je kunt later altijd nog bouwen, met een scherpere specificatie. Wat je wel nodig hebt, is iemand die de keuzes onafhankelijk toetst, zeker als een leverancier met een aantrekkelijke demo en een meerjarig contract op tafel ligt. Een stap-voor-stap route om zelf mee te starten vind je in het stappenplan voor AI implementatie.",
       "Kosten en doorlooptijd",
       "De kosten van een AI implementatie bestaan uit twee delen die je apart moet begroten: de bouw of licentie bij de leverancier of partner, en de begeleiding aan jouw kant. Het eerste deel hangt volledig af van de gekozen oplossing en de partij die hem levert; daar noem ik bewust geen bedrag voor, want een getal zonder scope zegt niets. Reken wel de beheerkosten na oplevering mee, want die worden het vaakst vergeten.",
-      "Voor de begeleiding werk ik met vaste diensten en gepubliceerde prijzen. Een AI Readiness Assessment kost €7.000 en duurt 2-3 weken. Voor doorlopende sturing tijdens de implementatie is de Fractional AI Lead er €2.600 / €5.200 / €10.400 per maand. Afgebakend advies en second opinions krijgen een vaste prijs per opdracht. Alle bedragen zijn exclusief btw en reiskosten; het complete overzicht staat op de pagina met tarieven en pakketten.",
+      "Voor de begeleiding werk ik met vaste diensten, elk met vooraf een vaste prijs of vast maandbedrag. Een AI Readiness Assessment heeft een vaste prijs en duurt 2-3 weken. Voor doorlopende sturing tijdens de implementatie is de Fractional AI Lead er tegen een vast maandbedrag. Afgebakend advies en second opinions krijgen een vaste prijs per opdracht. Alle voorstellen zijn exclusief btw; het complete overzicht staat op de pagina met tarieven en pakketten.",
       "De doorlooptijd van de implementatie zelf verschilt sterk per toepassing. Een standaardproduct dat je configureert, staat sneller dan maatwerk met koppelingen aan je kernsystemen. Reken er wel op dat adoptie vaak meer tijd kost dan de techniek, en plan daar ruimte voor.",
       "Veelgemaakte fouten bij AI implementatie",
       "De meeste fouten zijn niet technisch. Ze gaan over eigenaarschap, beheer en verandering. Dit zijn de patronen die steeds terugkomen:",
@@ -314,98 +373,133 @@
     {
       "regio": "header",
       "soort": "intern",
-      "href": "/",
+      "href": "/nl",
       "anker": "",
       "rel": null
     },
     {
       "regio": "header",
       "soort": "intern",
-      "href": "/diensten",
+      "href": "/nl/diensten",
       "anker": "Diensten",
       "rel": null
     },
     {
       "regio": "header",
       "soort": "intern",
-      "href": "/cases",
+      "href": "/nl/cases",
       "anker": "Cases",
       "rel": null
     },
     {
       "regio": "header",
       "soort": "intern",
-      "href": "/werkwijze",
+      "href": "/nl/werkwijze",
       "anker": "Werkwijze",
       "rel": null
     },
     {
       "regio": "header",
       "soort": "intern",
-      "href": "/inzichten",
+      "href": "/nl/inzichten",
       "anker": "Inzichten",
       "rel": null
     },
     {
       "regio": "header",
       "soort": "intern",
-      "href": "/over",
+      "href": "/nl/over",
       "anker": "Over mij",
       "rel": null
     },
     {
       "regio": "header",
       "soort": "intern",
-      "href": "/contact",
+      "href": "/ai-implementation",
+      "anker": "EN",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/nl/contact",
       "anker": "Plan een gesprek →",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/",
+      "href": "/nl",
       "anker": "Home",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/contact",
+      "href": "/nl/contact",
       "anker": "Plan een adviesgesprek →",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/diensten/ai-readiness-assessment",
+      "href": "/nl/diensten/ai-readiness-assessment",
       "anker": "Bekijk het AI Readiness Assessment →",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/ai-automatisering",
-      "anker": "AI automatisering van processen en workflows",
-      "rel": null
-    },
-    {
-      "regio": "main",
-      "soort": "intern",
-      "href": "/ai-consultancy/ai-roadmap",
-      "anker": "AI-roadmap",
-      "rel": null
-    },
-    {
-      "regio": "main",
-      "soort": "intern",
-      "href": "/diensten/ai-readiness-assessment",
+      "href": "/nl/diensten/ai-readiness-assessment",
       "anker": "AI Readiness Assessment",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/werkwijze",
+      "href": "/nl/diensten/vendor-review",
+      "anker": "Vendor Review",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/nl/diensten/fractional-ai-lead",
+      "anker": "Fractional AI Lead",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/nl/tarieven",
+      "anker": "tarieven en doorlooptijden van Dave Willemstein",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/nl/ai-automatisering",
+      "anker": "AI automatisering van processen en workflows",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/nl/ai-consultancy/ai-roadmap",
+      "anker": "AI-roadmap",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/nl/diensten/ai-readiness-assessment",
+      "anker": "AI Readiness Assessment",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/nl/werkwijze",
       "anker": "werkwijze in vier stappen",
       "rel": null
     },
@@ -419,35 +513,35 @@
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/inzichten/het-datafundament-onder-ai",
+      "href": "/nl/inzichten/het-datafundament-onder-ai",
       "anker": "het datafundament onder AI",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/partnernetwerk",
+      "href": "/nl/partnernetwerk",
       "anker": "partnernetwerk",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/diensten/vendor-review",
+      "href": "/nl/diensten/vendor-review",
       "anker": "Vendor Review",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/inzichten/ai-adoptie-begint-bij-het-werk",
+      "href": "/nl/inzichten/ai-adoptie-begint-bij-het-werk",
       "anker": "AI-adoptie begint bij het werk, niet bij de tool",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/inzichten/ai-governance-zonder-bureaucratie",
+      "href": "/nl/inzichten/ai-governance-zonder-bureaucratie",
       "anker": "AI governance zonder bureaucratie",
       "rel": null
     },
@@ -461,91 +555,91 @@
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/ai-beleid/ai-act",
+      "href": "/nl/ai-beleid/ai-act",
       "anker": "de AI Act in de praktijk",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/diensten/fractional-ai-lead",
+      "href": "/nl/diensten/fractional-ai-lead",
       "anker": "Fractional AI Lead",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/ai-implementatie/stappenplan",
+      "href": "/nl/ai-implementatie/stappenplan",
       "anker": "stappenplan voor AI implementatie",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/tarieven",
+      "href": "/nl/tarieven",
       "anker": "tarieven en pakketten",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/inzichten/waarom-ai-pilots-blijven-steken",
+      "href": "/nl/inzichten/waarom-ai-pilots-blijven-steken",
       "anker": "waarom AI-pilots blijven steken",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/ai-implementatie/advies",
+      "href": "/nl/ai-implementatie/advies",
       "anker": "advies over AI implementatie",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/cases/kyc-documentanalyse-financial-services",
+      "href": "/nl/cases/kyc-documentanalyse-financial-services",
       "anker": "AI-ondersteunde documentanalyse in het KYC-proces",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/cases/interne-ai-assistent-kenniswerkers",
+      "href": "/nl/cases/interne-ai-assistent-kenniswerkers",
       "anker": "interne AI-assistent voor kenniswerkers",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/over",
+      "href": "/nl/over",
       "anker": "over mij",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/contact",
+      "href": "/nl/contact",
       "anker": "Plan een adviesgesprek",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/over",
+      "href": "/nl/over",
       "anker": "Over mij",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/partnernetwerk",
+      "href": "/nl/partnernetwerk",
       "anker": "Mijn partnernetwerk",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/diensten/ai-readiness-assessment",
+      "href": "/nl/diensten/ai-readiness-assessment",
       "anker": "Weten waar je staat met AI? Bekijk het AI Readiness Assessment →",
       "rel": null
     },
@@ -566,154 +660,154 @@
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/contact",
+      "href": "/nl/contact",
       "anker": "Plan een gesprek →",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/diensten/ai-readiness-assessment",
+      "href": "/nl/diensten/ai-readiness-assessment",
       "anker": "AI Readiness Assessment",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/diensten/ai-strategy-sprint",
+      "href": "/nl/diensten/ai-strategy-sprint",
       "anker": "AI Strategy Sprint",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/diensten/fractional-ai-lead",
+      "href": "/nl/diensten/fractional-ai-lead",
       "anker": "Fractional AI Lead",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/diensten",
+      "href": "/nl/diensten",
       "anker": "Alle diensten",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/cases",
+      "href": "/nl/cases",
       "anker": "Cases",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/werkwijze",
+      "href": "/nl/werkwijze",
       "anker": "Werkwijze",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/inzichten",
+      "href": "/nl/inzichten",
       "anker": "Inzichten",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/veelgestelde-vragen",
+      "href": "/nl/veelgestelde-vragen",
       "anker": "Veelgestelde vragen",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/over",
+      "href": "/nl/over",
       "anker": "Over mij",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-consultancy",
+      "href": "/nl/ai-consultancy",
       "anker": "AI consultancy",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-implementatie",
+      "href": "/nl/ai-implementatie",
       "anker": "AI implementatie",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-automatisering",
+      "href": "/nl/ai-automatisering",
       "anker": "AI automatisering",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-voor-bedrijven",
+      "href": "/nl/ai-voor-bedrijven",
       "anker": "AI voor bedrijven",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-development",
+      "href": "/nl/ai-development",
       "anker": "AI development",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-agents",
+      "href": "/nl/ai-agents",
       "anker": "AI agents",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-beleid",
+      "href": "/nl/ai-beleid",
       "anker": "AI beleid",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-workshop",
+      "href": "/nl/ai-workshop",
       "anker": "AI workshop",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/markten",
+      "href": "/nl/markten",
       "anker": "AI per branche",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/kennisbank",
+      "href": "/nl/kennisbank",
       "anker": "Kennisbank",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/tarieven",
+      "href": "/nl/tarieven",
       "anker": "Tarieven",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/partnernetwerk",
+      "href": "/nl/partnernetwerk",
       "anker": "Partnernetwerk",
       "rel": null
     },
@@ -734,27 +828,27 @@
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/contact",
+      "href": "/nl/contact",
       "anker": "Plan een gesprek",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/privacy",
+      "href": "/nl/privacy",
       "anker": "Privacyverklaring",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/algemene-voorwaarden",
+      "href": "/nl/algemene-voorwaarden",
       "anker": "Algemene voorwaarden",
       "rel": null
     }
   ],
   "structured_data": {
-    "sha256": "6f246f82de755f0d5a5b4dc6582077ed708f4854fbf8e6a674e3a0b464ea2513",
+    "sha256": "6f91a46ddf63de3d44cbae8456f2516c15ef7f6978ea974ea3e3560d208c236d",
     "items": [
       {
         "@context": "https://schema.org",
@@ -766,13 +860,13 @@
                 "@type": "ListItem",
                 "position": 1,
                 "name": "Home",
-                "item": "https://freelanceaiconsultant.com/"
+                "item": "https://freelanceaiconsultant.com/nl"
               },
               {
                 "@type": "ListItem",
                 "position": 2,
                 "name": "AI Implementatie",
-                "item": "https://freelanceaiconsultant.com/ai-implementatie"
+                "item": "https://freelanceaiconsultant.com/nl/ai-implementatie"
               }
             ]
           },
@@ -781,7 +875,7 @@
             "name": "AI Implementatie",
             "serviceType": "ai implementatie",
             "description": "AI implementatie die werkt: van use case en data tot integratie, adoptie en borging. Lees mijn aanpak, de veelgemaakte fouten en hoe je ze voorkomt.",
-            "url": "https://freelanceaiconsultant.com/ai-implementatie",
+            "url": "https://freelanceaiconsultant.com/nl/ai-implementatie",
             "areaServed": "NL",
             "provider": {
               "@type": "Person",
@@ -835,6 +929,38 @@
                   "@type": "Answer",
                   "text": "Soms. Een chatbot is zichtbaar en snel te demonstreren, maar de waarde hangt af van de kwaliteit van de kennis erachter en van de vraag of klanten of medewerkers er echt iets mee opschieten. Vaak levert een minder zichtbare toepassing in een intern proces sneller en meetbaarder resultaat op. Welke eerst komt, hoort uit de prioritering te volgen, niet uit de demo."
                 }
+              },
+              {
+                "@type": "Question",
+                "name": "Wat kost begeleiding bij AI implementatie en wie bouwt de oplossing?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Bij een AI implementatie bouwt het eigen team of een rechtstreeks gecontracteerde partner de oplossing; Dave Willemstein begeleidt vanuit de kant van de opdrachtgever door te helpen kiezen, kaders te stellen, de oplevering te toetsen en te zorgen dat de toepassing in de organisatie landt. Voor die begeleiding geldt: het AI Readiness Assessment duurt 2-3 weken tegen een vaste prijs, en doorlopende sturing door de Fractional AI Lead is tegen een vast maandbedrag. De kosten van bouw of licentie hangen af van de gekozen oplossing en leverancier en worden apart begroot, inclusief het beheer na oplevering."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Wordt er een marge gerekend op partners die de AI implementatie bouwen?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Nee. Bij een AI implementatie bouwt het eigen team of een partij die de opdrachtgever rechtstreeks contracteert. Er wordt geen marge op partners gerekend en er zijn geen commissies of partnerstatus bij leveranciers."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Moet er eerst een roadmap liggen voordat een AI implementatie kan starten?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Nee. Een ontbrekende roadmap is geen reden om met een AI implementatie te wachten. Het is wel een reden om het eerste traject klein en goed afgebakend te houden, zodat duidelijk wordt wat de organisatie aankan voordat de tweede en derde toepassing starten."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Wat kost bij een AI implementatie vaak meer tijd dan de techniek?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Adoptie kost bij een AI implementatie vaak meer tijd dan de techniek. De doorlooptijd van de implementatie zelf verschilt sterk per toepassing: een standaardproduct dat wordt geconfigureerd staat sneller dan maatwerk met koppelingen aan kernsystemen."
+                }
               }
             ]
           }
@@ -878,12 +1004,12 @@
     ],
     "stylesheets": [
       "https://fonts.googleapis.com/css2?family=Caveat:wght@600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap",
-      "/_astro/_slug_.bq6BBoZ5.css",
-      "/_astro/_slug_.goiX3PVF.css",
+      "/_astro/_slug_.BzqUXH8l.css",
+      "/_astro/_slug_.Do5RJXa7.css",
       "/logo-carousel/logo-carousel.css?v=2"
     ],
     "aantal_details": 5,
-    "aantal_tabellen": 0
+    "aantal_tabellen": 1
   },
-  "gemeten_op": "2026-10-06"
+  "gemeten_op": "2026-10-28"
 }

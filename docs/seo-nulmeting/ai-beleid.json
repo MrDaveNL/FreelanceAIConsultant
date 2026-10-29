@@ -2,15 +2,28 @@
   "url": "/ai-beleid",
   "build_bestand": "dist/ai-beleid/index.html",
   "html": {
-    "bytes": 42875,
+    "bytes": 49945,
     "lang": "nl"
   },
   "beschermd": {
     "title": "AI beleid en governance | Verantwoord werken met AI",
     "meta_description": "Stel een AI beleid op dat werkt: heldere afspraken over tools, data, risico's en verantwoordelijkheden. Inclusief AI governance, AI Act en responsible AI.",
-    "canonical": "https://freelanceaiconsultant.com/ai-beleid",
+    "canonical": "https://freelanceaiconsultant.com/nl/ai-beleid",
     "robots_meta": null,
-    "hreflang": [],
+    "hreflang": [
+      {
+        "hreflang": "en",
+        "href": "https://freelanceaiconsultant.com/ai-policy"
+      },
+      {
+        "hreflang": "nl",
+        "href": "https://freelanceaiconsultant.com/nl/ai-beleid"
+      },
+      {
+        "hreflang": "x-default",
+        "href": "https://freelanceaiconsultant.com/ai-policy"
+      }
+    ],
     "h1": [
       "AI beleid en governance voor organisaties"
     ]
@@ -21,7 +34,7 @@
     "og:site_name": "freelanceaiconsultant.com",
     "og:title": "AI beleid en governance | Verantwoord werken met AI",
     "og:description": "Stel een AI beleid op dat werkt: heldere afspraken over tools, data, risico's en verantwoordelijkheden. Inclusief AI governance, AI Act en responsible AI.",
-    "og:url": "https://freelanceaiconsultant.com/ai-beleid",
+    "og:url": "https://freelanceaiconsultant.com/nl/ai-beleid",
     "og:image": "https://freelanceaiconsultant.com/images/dave-portrait.jpg",
     "twitter:card": "summary_large_image",
     "twitter:title": "AI beleid en governance | Verantwoord werken met AI",
@@ -32,6 +45,30 @@
     {
       "niveau": 1,
       "tekst": "AI beleid en governance voor organisaties",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "Wat hoort er in een AI beleid en welke dienst past erbij?",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 3,
+      "tekst": "Wat heeft een mkb-bedrijf nodig aan AI beleid?",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 3,
+      "tekst": "Is voor AI-geletterdheid onder de AI Act een certificaat nodig?",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 3,
+      "tekst": "Vraagt AI governance bij een AI beleid om een nieuwe commissie?",
       "regio": "main",
       "id": null
     },
@@ -128,8 +165,8 @@
   ],
   "bodytekst": {
     "regio": "main",
-    "woorden": 2566,
-    "sha256": "21644e0b03e3ca78755d2cde95c9e5c9183c67a156e32752caf724da2ef807e2",
+    "woorden": 3052,
+    "sha256": "d6cd324dc53c7047f4eab21f245266bce7c128327203bd9731b787ddcf9d2f2f",
     "blokken": [
       "Home",
       "AI beleid",
@@ -199,6 +236,28 @@
       "Proces & productivity",
       "Zakelijke dienstverlener",
       "Interne AI-assistent voor kenniswerkers",
+      "Wat hoort er in een AI beleid en welke dienst past erbij?",
+      "Een AI beleid legt vast welke tools zijn toegestaan, welke gegevens erin mogen, wie beslist en hoe risico's worden beheerst; voor de meeste organisaties volstaat een eerste versie van één tot drie pagina's. Dave Willemstein begeleidt het opstellen en toetst het beleid tegen de praktijk; wie wil weten waar de organisatie staat voordat het beleid wordt geschreven, kan het AI Readiness Assessment inzetten, dat in 2-3 weken de uitgangspositie in kaart brengt voor een vaste prijs of vast maandbedrag, vastgelegd in het voorstel. Ontbreekt de capaciteit om de governance zelf te trekken, dan kan de Fractional AI Lead de governance en cadans opzetten en bewaken; de investering is een vast maandbedrag, vooraf afgesproken.",
+      "AI beleid opstellen en borgen: passende dienst per situatie",
+      "Situatie",
+      "Resultaat",
+      "Doorlooptijd",
+      "Passende dienst",
+      "Uitgangspositie nog onbekend voordat het AI beleid wordt geschreven",
+      "Uitgangspositie in kaart, met een risico- en compliance-scan en de positie onder de AI-verordening",
+      "2-3 weken",
+      "AI Readiness Assessment",
+      "Geen eigen capaciteit om de AI governance te trekken",
+      "Governance en cadans opgezet en bewaakt",
+      "2, 4 of 8 dagen per maand",
+      "Fractional AI Lead",
+      "Wat heeft een mkb-bedrijf nodig aan AI beleid?",
+      "Een mkb-bedrijf hoeft geen AI beleid van twintig pagina's te hebben; wat wel nodig is, is een AI-beleid dat iedereen in tien minuten kan lezen en dat antwoord geeft op de vragen die medewerkers echt hebben. Het stappenplan loopt van inventariseren wat er al gebruikt wordt tot evalueren na drie maanden, met als stap het schrijven van de eerste versie op één tot drie pagina's. Het AI-beleid template (pdf) heeft in te vullen velden, tabellen voor tools en gegevenscategorieën en een checklist om af te ronden.",
+      "Is voor AI-geletterdheid onder de AI Act een certificaat nodig?",
+      "Nee, volgens de Europese Commissie is een certificaat niet nodig: een organisatie kan intern bijhouden welke trainingen en andere initiatieven zijn ingezet. De plicht rond AI-geletterdheid geldt sinds 2 februari 2025 en is met de Digital Omnibus, die op 27 juli 2026 in werking trad, aangepast: een organisatie moet maatregelen nemen om AI-geletterdheid te ondersteunen, zonder dat een bepaald niveau per persoon wordt voorgeschreven. Een AI beleid is de logische plek om die maatregelen vast te leggen.",
+      "Vraagt AI governance bij een AI beleid om een nieuwe commissie?",
+      "Nee, het advies is AI toe te voegen aan het risico-overleg of de stuurgroep die al bestaat, in plaats van een nieuwe commissie op te tuigen: het belangrijkste punt is dat governance wordt gekoppeld aan wat er al is. Het uitgangspunt voor de governance rond een AI beleid is licht waar het kan en zwaar alleen waar het risico dat rechtvaardigt.",
+      "Bron: tarieven en doorlooptijden van Dave Willemstein; primaire bron: Europese Commissie, \"AI Literacy - Questions & Answers\"; Verordening (EU) 2026/1744 (Digitale omnibus inzake AI), EUR-Lex; Europese Commissie, \"AI Omnibus enters into force\" (27 juli 2026) (peildatum 6 oktober 2026). Bijgewerkt: oktober 2026.",
       "Waarom een AI beleid nodig is",
       "Medewerkers gebruiken AI al, of er nu een AI beleid is of niet. Ze vatten documenten samen met een chatbot, laten conceptmails schrijven of zetten een vergadertool aan die automatisch notuleert. Dat is meestal goedbedoeld en vaak nuttig. Het probleem is dat niemand overzicht heeft: welke tools draaien er, welke klantgegevens gaan erin, en wie is aanspreekbaar als het misgaat?",
       "Een AI beleid lost dat op met een paar heldere afspraken. Het geeft medewerkers duidelijkheid over wat wel mag, zodat ze niet uit onzekerheid stoppen of uit gemak eromheen werken. Het geeft de directie zicht op risico’s. En het maakt aantoonbaar dat je nadenkt over verantwoord gebruik, wat steeds vaker wordt gevraagd door klanten, toezichthouders en accountants.",
@@ -240,7 +299,7 @@
       "AI governance inrichten",
       "Waar het AI beleid vastlegt wat de afspraken zijn, gaat AI governance over hoe je die afspraken in de praktijk laat werken. Het grootste risico is niet te weinig regelen, maar zoveel regelen dat mensen eromheen gaan werken. Mijn uitgangspunt: licht waar het kan, zwaar alleen waar het risico dat rechtvaardigt.",
       "In het artikel over governance beschrijf ik vier lichte mechanismen die je minimaal nodig hebt: een register van toepassingen, één beoordelingsmoment, een periodieke toets en een helder escalatiepad. Hier herhaal ik dat niet; het belangrijkste punt is dat je governance koppelt aan wat er al is. Voeg AI toe aan het risico-overleg of de stuurgroep die al bestaat, in plaats van een nieuwe commissie op te tuigen.",
-      "Heb je geen capaciteit om dit zelf te trekken, dan kan een Fractional AI Lead de governance en cadans opzetten en bewaken; de investering is €2.600 / €5.200 / €10.400 per maand.",
+      "Heb je geen capaciteit om dit zelf te trekken, dan kan een Fractional AI Lead de governance en cadans opzetten en bewaken; de investering is een vast maandbedrag, vooraf afgesproken.",
       "AI Act en compliance",
       "De AI Act (Verordening (EU) 2024/1689) deelt AI-systemen in naar risico, met verboden praktijken, hoog-risicosystemen met strenge eisen, transparantieverplichtingen en een grote groep systemen met minimaal risico. Volgens de Europese Commissie valt het overgrote deel van de AI-systemen die nu in de EU worden gebruikt in die laatste categorie.",
       "Voor je AI beleid zijn twee dingen nu al relevant:",
@@ -272,7 +331,7 @@
       "Risico’s en meldingen: hoe nieuwe toepassingen worden beoordeeld en waar je een incident of twijfel meldt.",
       "AI-geletterdheid: welke training of instructie medewerkers krijgen en hoe je dat bijhoudt.",
       "Herziening: wanneer en door wie het beleid wordt geëvalueerd.",
-      "Wil je weten waar je organisatie staat voordat je het beleid schrijft? Het AI Readiness Assessment brengt in 2-3 weken je uitgangspositie in kaart, inclusief een risico- en compliance-scan en je positie onder de AI-verordening, voor €7.000. Alle bedragen en pakketten staan op de pagina tarieven.",
+      "Wil je weten waar je organisatie staat voordat je het beleid schrijft? Het AI Readiness Assessment brengt in 2-3 weken je uitgangspositie in kaart, inclusief een risico- en compliance-scan en je positie onder de AI-verordening, tegen een vaste prijs. Alle pakketten staan op de pagina tarieven.",
       "Ik werk onafhankelijk: ik verkoop geen tools en ontvang geen commissies van leveranciers, dus het beleid gaat over wat bij jullie past. Meer over mijn achtergrond lees je op over mij. Waar uitvoering nodig is, bijvoorbeeld bij technische inrichting, kan ik partijen uit mijn partnernetwerk voorstellen die je rechtstreeks contracteert.",
       "Wil je sparren over een eerste versie van jullie AI beleid? Plan een gesprek van dertig minuten; aan het eind weet je wat ik als eerste zou regelen.",
       "Dave Willemstein Onafhankelijk AI-adviseur",
@@ -313,84 +372,119 @@
     {
       "regio": "header",
       "soort": "intern",
-      "href": "/",
+      "href": "/nl",
       "anker": "",
       "rel": null
     },
     {
       "regio": "header",
       "soort": "intern",
-      "href": "/diensten",
+      "href": "/nl/diensten",
       "anker": "Diensten",
       "rel": null
     },
     {
       "regio": "header",
       "soort": "intern",
-      "href": "/cases",
+      "href": "/nl/cases",
       "anker": "Cases",
       "rel": null
     },
     {
       "regio": "header",
       "soort": "intern",
-      "href": "/werkwijze",
+      "href": "/nl/werkwijze",
       "anker": "Werkwijze",
       "rel": null
     },
     {
       "regio": "header",
       "soort": "intern",
-      "href": "/inzichten",
+      "href": "/nl/inzichten",
       "anker": "Inzichten",
       "rel": null
     },
     {
       "regio": "header",
       "soort": "intern",
-      "href": "/over",
+      "href": "/nl/over",
       "anker": "Over mij",
       "rel": null
     },
     {
       "regio": "header",
       "soort": "intern",
-      "href": "/contact",
+      "href": "/ai-policy",
+      "anker": "EN",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/nl/contact",
       "anker": "Plan een gesprek →",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/",
+      "href": "/nl",
       "anker": "Home",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/contact",
+      "href": "/nl/contact",
       "anker": "Plan een adviesgesprek →",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/diensten/ai-readiness-assessment",
+      "href": "/nl/diensten/ai-readiness-assessment",
       "anker": "Bekijk het AI Readiness Assessment →",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/ai-consultancy/ai-strategie",
+      "href": "/nl/diensten/ai-readiness-assessment",
+      "anker": "AI Readiness Assessment",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/nl/diensten/fractional-ai-lead",
+      "anker": "Fractional AI Lead",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/downloads/ai-beleid-template.pdf",
+      "anker": "AI-beleid template (pdf)",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/nl/tarieven",
+      "anker": "tarieven en doorlooptijden",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/nl/ai-consultancy/ai-strategie",
       "anker": "AI strategie",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/kennisbank/notuleren-met-ai",
+      "href": "/nl/kennisbank/notuleren-met-ai",
       "anker": "notuleren met AI",
       "rel": null
     },
@@ -404,21 +498,21 @@
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/kennisbank/ai-agents-en-avg",
+      "href": "/nl/kennisbank/ai-agents-en-avg",
       "anker": "AI agents en de AVG",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/inzichten/ai-governance-zonder-bureaucratie",
+      "href": "/nl/inzichten/ai-governance-zonder-bureaucratie",
       "anker": "AI-governance zonder bureaucratie",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/diensten/fractional-ai-lead",
+      "href": "/nl/diensten/fractional-ai-lead",
       "anker": "Fractional AI Lead",
       "rel": null
     },
@@ -439,21 +533,21 @@
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/ai-workshop/ai-geletterdheid-training",
+      "href": "/nl/ai-workshop/ai-geletterdheid-training",
       "anker": "training in AI-geletterdheid",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/ai-beleid/ai-act",
+      "href": "/nl/ai-beleid/ai-act",
       "anker": "de AI Act voor bedrijven",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/inzichten/ai-adoptie-begint-bij-het-werk",
+      "href": "/nl/inzichten/ai-adoptie-begint-bij-het-werk",
       "anker": "AI-adoptie begint bij het werk",
       "rel": null
     },
@@ -467,56 +561,56 @@
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/diensten/ai-readiness-assessment",
+      "href": "/nl/diensten/ai-readiness-assessment",
       "anker": "AI Readiness Assessment",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/tarieven",
+      "href": "/nl/tarieven",
       "anker": "tarieven",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/over",
+      "href": "/nl/over",
       "anker": "over mij",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/partnernetwerk",
+      "href": "/nl/partnernetwerk",
       "anker": "partnernetwerk",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/contact",
+      "href": "/nl/contact",
       "anker": "Plan een gesprek van dertig minuten",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/over",
+      "href": "/nl/over",
       "anker": "Over mij",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/partnernetwerk",
+      "href": "/nl/partnernetwerk",
       "anker": "Mijn partnernetwerk",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/diensten/ai-readiness-assessment",
+      "href": "/nl/diensten/ai-readiness-assessment",
       "anker": "Weten waar je staat met AI? Bekijk het AI Readiness Assessment →",
       "rel": null
     },
@@ -558,154 +652,154 @@
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/contact",
+      "href": "/nl/contact",
       "anker": "Plan een gesprek →",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/diensten/ai-readiness-assessment",
+      "href": "/nl/diensten/ai-readiness-assessment",
       "anker": "AI Readiness Assessment",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/diensten/ai-strategy-sprint",
+      "href": "/nl/diensten/ai-strategy-sprint",
       "anker": "AI Strategy Sprint",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/diensten/fractional-ai-lead",
+      "href": "/nl/diensten/fractional-ai-lead",
       "anker": "Fractional AI Lead",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/diensten",
+      "href": "/nl/diensten",
       "anker": "Alle diensten",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/cases",
+      "href": "/nl/cases",
       "anker": "Cases",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/werkwijze",
+      "href": "/nl/werkwijze",
       "anker": "Werkwijze",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/inzichten",
+      "href": "/nl/inzichten",
       "anker": "Inzichten",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/veelgestelde-vragen",
+      "href": "/nl/veelgestelde-vragen",
       "anker": "Veelgestelde vragen",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/over",
+      "href": "/nl/over",
       "anker": "Over mij",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-consultancy",
+      "href": "/nl/ai-consultancy",
       "anker": "AI consultancy",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-implementatie",
+      "href": "/nl/ai-implementatie",
       "anker": "AI implementatie",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-automatisering",
+      "href": "/nl/ai-automatisering",
       "anker": "AI automatisering",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-voor-bedrijven",
+      "href": "/nl/ai-voor-bedrijven",
       "anker": "AI voor bedrijven",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-development",
+      "href": "/nl/ai-development",
       "anker": "AI development",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-agents",
+      "href": "/nl/ai-agents",
       "anker": "AI agents",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-beleid",
+      "href": "/nl/ai-beleid",
       "anker": "AI beleid",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-workshop",
+      "href": "/nl/ai-workshop",
       "anker": "AI workshop",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/markten",
+      "href": "/nl/markten",
       "anker": "AI per branche",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/kennisbank",
+      "href": "/nl/kennisbank",
       "anker": "Kennisbank",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/tarieven",
+      "href": "/nl/tarieven",
       "anker": "Tarieven",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/partnernetwerk",
+      "href": "/nl/partnernetwerk",
       "anker": "Partnernetwerk",
       "rel": null
     },
@@ -726,27 +820,27 @@
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/contact",
+      "href": "/nl/contact",
       "anker": "Plan een gesprek",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/privacy",
+      "href": "/nl/privacy",
       "anker": "Privacyverklaring",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/algemene-voorwaarden",
+      "href": "/nl/algemene-voorwaarden",
       "anker": "Algemene voorwaarden",
       "rel": null
     }
   ],
   "structured_data": {
-    "sha256": "064fe95f44c0802bd73d64c59fd04b2048b94fc0e2407fdc2e030ca6c59e130f",
+    "sha256": "d01060c731d305a7b9943f57088e34ceb89c2facb8e1ec9b677000918f5f9478",
     "items": [
       {
         "@context": "https://schema.org",
@@ -758,13 +852,13 @@
                 "@type": "ListItem",
                 "position": 1,
                 "name": "Home",
-                "item": "https://freelanceaiconsultant.com/"
+                "item": "https://freelanceaiconsultant.com/nl"
               },
               {
                 "@type": "ListItem",
                 "position": 2,
                 "name": "AI beleid",
-                "item": "https://freelanceaiconsultant.com/ai-beleid"
+                "item": "https://freelanceaiconsultant.com/nl/ai-beleid"
               }
             ]
           },
@@ -773,7 +867,7 @@
             "name": "AI beleid",
             "serviceType": "ai beleid",
             "description": "Stel een AI beleid op dat werkt: heldere afspraken over tools, data, risico's en verantwoordelijkheden. Inclusief AI governance, AI Act en responsible AI.",
-            "url": "https://freelanceaiconsultant.com/ai-beleid",
+            "url": "https://freelanceaiconsultant.com/nl/ai-beleid",
             "areaServed": "NL",
             "provider": {
               "@type": "Person",
@@ -827,6 +921,38 @@
                   "@type": "Answer",
                   "text": "Ik begeleid het opstellen en toets het tegen jullie praktijk, maar het beleid moet van jullie zijn: afspraken die medewerkers niet herkennen, worden niet nageleefd. Voor de juridische toets van specifieke toepassingen onder de AI Act of de AVG adviseer ik om daarnaast een jurist of je functionaris gegevensbescherming te betrekken."
                 }
+              },
+              {
+                "@type": "Question",
+                "name": "Wat hoort er in een AI beleid en welke dienst past erbij?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Een AI beleid legt vast welke tools zijn toegestaan, welke gegevens erin mogen, wie beslist en hoe risico's worden beheerst; voor de meeste organisaties volstaat een eerste versie van één tot drie pagina's. Dave Willemstein begeleidt het opstellen en toetst het beleid tegen de praktijk; wie wil weten waar de organisatie staat voordat het beleid wordt geschreven, kan het AI Readiness Assessment inzetten, dat in 2-3 weken de uitgangspositie in kaart brengt voor een vaste prijs of vast maandbedrag, vastgelegd in het voorstel. Ontbreekt de capaciteit om de governance zelf te trekken, dan kan de Fractional AI Lead de governance en cadans opzetten en bewaken; de investering is een vast maandbedrag, vooraf afgesproken."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Wat heeft een mkb-bedrijf nodig aan AI beleid?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Een mkb-bedrijf hoeft geen AI beleid van twintig pagina's te hebben; wat wel nodig is, is een AI-beleid dat iedereen in tien minuten kan lezen en dat antwoord geeft op de vragen die medewerkers echt hebben. Het stappenplan loopt van inventariseren wat er al gebruikt wordt tot evalueren na drie maanden, met als stap het schrijven van de eerste versie op één tot drie pagina's. Het AI-beleid template (pdf) heeft in te vullen velden, tabellen voor tools en gegevenscategorieën en een checklist om af te ronden."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Is voor AI-geletterdheid onder de AI Act een certificaat nodig?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Nee, volgens de Europese Commissie is een certificaat niet nodig: een organisatie kan intern bijhouden welke trainingen en andere initiatieven zijn ingezet. De plicht rond AI-geletterdheid geldt sinds 2 februari 2025 en is met de Digital Omnibus, die op 27 juli 2026 in werking trad, aangepast: een organisatie moet maatregelen nemen om AI-geletterdheid te ondersteunen, zonder dat een bepaald niveau per persoon wordt voorgeschreven. Een AI beleid is de logische plek om die maatregelen vast te leggen."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Vraagt AI governance bij een AI beleid om een nieuwe commissie?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Nee, het advies is AI toe te voegen aan het risico-overleg of de stuurgroep die al bestaat, in plaats van een nieuwe commissie op te tuigen: het belangrijkste punt is dat governance wordt gekoppeld aan wat er al is. Het uitgangspunt voor de governance rond een AI beleid is licht waar het kan en zwaar alleen waar het risico dat rechtvaardigt."
+                }
               }
             ]
           }
@@ -870,12 +996,12 @@
     ],
     "stylesheets": [
       "https://fonts.googleapis.com/css2?family=Caveat:wght@600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap",
-      "/_astro/_slug_.bq6BBoZ5.css",
-      "/_astro/_slug_.goiX3PVF.css",
+      "/_astro/_slug_.BzqUXH8l.css",
+      "/_astro/_slug_.Do5RJXa7.css",
       "/logo-carousel/logo-carousel.css?v=2"
     ],
     "aantal_details": 5,
-    "aantal_tabellen": 0
+    "aantal_tabellen": 1
   },
-  "gemeten_op": "2026-10-06"
+  "gemeten_op": "2026-10-28"
 }

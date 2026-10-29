@@ -6,14 +6,13 @@ export default {
   "onderwerp": "AI development",
   "vraagkop": "What does independent guidance for AI development cost, and who does the building?",
   "onderBestaandeKop": false,
-  "antwoord": "{{afzender}} doesn't build software, but guides AI development from the client's side: specification, build-partner selection, testing deliverables and governance. For choosing the build partner there's the {{dienst:vendor-review}} over {{timing:vendor-review}} for {{pricelc:vendor-review}}, and during the build there's guidance from the client's side, for example as a {{dienst:fractional-ai-lead}} for {{pricelc:fractional-ai-lead}}. The build itself sits with the client's own team or with a development partner the client contracts directly.",
+  "antwoord": "{{afzender}} doesn't build software, but guides AI development from the client's side: specification, build-partner selection, testing deliverables and governance. For choosing the build partner there's the {{dienst:vendor-review}} over {{timing:vendor-review}}, for a fixed price, and during the build there's guidance from the client's side, for example as a {{dienst:fractional-ai-lead}} for a fixed monthly fee. The build itself sits with the client's own team or with a development partner the client contracts directly.",
   "tabel": {
     "bijschrift": "AI development: the right service for each phase of the project",
     "kolommen": [
       "Phase of the project",
       "What the client gets",
       "Timeline",
-      "Price",
       "Suitable service"
     ],
     "rijen": [
@@ -21,21 +20,18 @@ export default {
         "At the start, when there's no clear picture yet of where the organisation stands",
         "A logical first step, including a closing presentation to the leadership team or board",
         { "dienst": "ai-readiness-assessment", "veld": "doorlooptijd" },
-        { "dienst": "ai-readiness-assessment", "veld": "prijs" },
         { "dienst": "ai-readiness-assessment", "veld": "naam" }
       ],
       [
         "When choosing the build partner",
         "Scorecards, a test on your own data and a three-year TCO comparison",
         { "dienst": "vendor-review", "veld": "doorlooptijd" },
-        { "dienst": "vendor-review", "veld": "prijs" },
         { "dienst": "vendor-review", "veld": "naam" }
       ],
       [
         "During the build",
         "Guidance from the client's side: testing deliverables, safeguarding the business case and governance",
         { "dienst": "fractional-ai-lead", "veld": "doorlooptijd" },
-        { "dienst": "fractional-ai-lead", "veld": "prijs" },
         { "dienst": "fractional-ai-lead", "veld": "naam" }
       ]
     ]

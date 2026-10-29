@@ -2,15 +2,28 @@
   "url": "/diensten/fractional-ai-lead",
   "build_bestand": "dist/diensten/fractional-ai-lead/index.html",
   "html": {
-    "bytes": 34302,
+    "bytes": 39344,
     "lang": "nl"
   },
   "beschermd": {
     "title": "Fractional AI Lead | Freelance AI Consultant",
     "meta_description": "Senior AI-leiderschap voor 2, 4 of 8 dagen per maand. Ik stuur, bewaak en borg je AI-agenda, en draag over aan je eigen lead.",
-    "canonical": "https://freelanceaiconsultant.com/diensten/fractional-ai-lead",
+    "canonical": "https://freelanceaiconsultant.com/nl/diensten/fractional-ai-lead",
     "robots_meta": null,
-    "hreflang": [],
+    "hreflang": [
+      {
+        "hreflang": "en",
+        "href": "https://freelanceaiconsultant.com/services/fractional-ai-lead"
+      },
+      {
+        "hreflang": "nl",
+        "href": "https://freelanceaiconsultant.com/nl/diensten/fractional-ai-lead"
+      },
+      {
+        "hreflang": "x-default",
+        "href": "https://freelanceaiconsultant.com/services/fractional-ai-lead"
+      }
+    ],
     "h1": [
       "Fractional AI Lead"
     ]
@@ -21,7 +34,7 @@
     "og:site_name": "freelanceaiconsultant.com",
     "og:title": "Fractional AI Lead | Freelance AI Consultant",
     "og:description": "Senior AI-leiderschap voor 2, 4 of 8 dagen per maand. Ik stuur, bewaak en borg je AI-agenda, en draag over aan je eigen lead.",
-    "og:url": "https://freelanceaiconsultant.com/diensten/fractional-ai-lead",
+    "og:url": "https://freelanceaiconsultant.com/nl/diensten/fractional-ai-lead",
     "og:image": "https://freelanceaiconsultant.com/images/dave-portrait.jpg",
     "twitter:card": "summary_large_image",
     "twitter:title": "Fractional AI Lead | Freelance AI Consultant",
@@ -32,6 +45,24 @@
     {
       "niveau": 1,
       "tekst": "Fractional AI Lead",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "Wat kost een Fractional AI Lead en voor wie is die rol bedoeld?",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 3,
+      "tekst": "Wanneer is de Fractional AI Lead opzegbaar?",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 3,
+      "tekst": "Is de Fractional AI Lead een fulltime rol?",
       "regio": "main",
       "id": null
     },
@@ -146,15 +177,15 @@
   ],
   "bodytekst": {
     "regio": "main",
-    "woorden": 869,
-    "sha256": "d8852bd518f840230769f4ce8f643dd3d1dfc81ff083a3574efc1b1613b9ee8e",
+    "woorden": 1028,
+    "sha256": "a0343a21d7ec916b1413d5e5c1c6e149c4b0134b4c86801de260e892f24c10eb",
     "blokken": [
       "Senior leiderschap, deeltijd",
       "Fractional AI Lead",
       "Je hebt geen fulltime Head of AI nodig. Je hebt iemand nodig die de agenda bewaakt, de juiste vragen stelt in stuurgroepen en voorkomt dat goede initiatieven doodbloeden in de waan van de dag.",
       "Plan een gesprek → Alle diensten → 30 min., geen pitch deck",
       "vertrouwen, ervaring, impact ↓",
-      "Independent No vendor bias Senior only 20+ jaar ervaring",
+      "Independent No vendor bias Senior only Sinds 2006",
       "AI in Europa",
       "Europese merken die AI al in productie hebben.",
       "Geen klanten van mij. Wel voorbeelden van wat er gebeurt als AI voorbij de pilot komt.",
@@ -215,8 +246,16 @@
       "Interne AI-assistent voor kenniswerkers",
       "Ritme2, 4 of 8 dagen per maand",
       "LooptijdMinimaal 3 maanden",
-      "Investering€2.600 / €5.200 / €10.400 per maand",
-      "Advies (2 dagen), Lead (4 dagen) of Lead+ (8 dagen) per maand. Minimaal 3 maanden, daarna maandelijks opzegbaar. Bedragen zijn exclusief btw en reiskosten.",
+      "PrijsOp maat, vooraf vastgelegd",
+      "Advies (2 dagen), Lead (4 dagen) of Lead+ (8 dagen) per maand. Minimaal 3 maanden, daarna maandelijks opzegbaar. Alle voorstellen zijn exclusief btw.",
+      "Vraag een voorstel aan → Prijs op maat, afhankelijk van scope",
+      "Wat kost een Fractional AI Lead en voor wie is die rol bedoeld?",
+      "De Fractional AI Lead van Dave Willemstein geeft organisaties met lopende AI-initiatieven zonder duidelijke eigenaar senior AI-leiderschap in deeltijd. De rol kost een vaste prijs of vast maandbedrag, vastgelegd in het voorstel, op het niveau Advies, Lead of Lead+. De looptijd is minimaal 3 maanden en daarna is de rol maandelijks opzegbaar; de bedragen zijn exclusief btw en reiskosten.",
+      "Wanneer is de Fractional AI Lead opzegbaar?",
+      "De Fractional AI Lead loopt minimaal 3 maanden en is daarna maandelijks opzegbaar.",
+      "Is de Fractional AI Lead een fulltime rol?",
+      "Nee. De Fractional AI Lead is senior leiderschap in deeltijd, voor 2, 4 of 8 dagen per maand. De Fractional AI Lead past bij teams die koers en capaciteit nodig hebben, maar nog geen fulltime rol kunnen dragen.",
+      "Bron: tarieven en doorlooptijden van Dave Willemstein. Bijgewerkt: oktober 2026.",
       "De aanleiding",
       "Het gat dat dit vult",
       "Een fulltime Head of AI kost je een zwaar salarispakket en maanden werving, voor een rol waarvan de scope nog niet vaststaat.",
@@ -295,11 +334,11 @@
       "↯",
       "AI Strategy Sprint",
       "Van ambitie naar een realistische AI-roadmap die past bij business, mensen en middelen, board-ready in zes weken.",
-      "4-6 weken · €15.400 - €22.400",
+      "4-6 weken · Vraag een voorstel aan",
       "→ ☑",
       "AI Due Diligence",
       "Beoordeel AI-oplossingen of -bedrijven op waarde, risico, veiligheid en haalbaarheid.",
-      "2-4 weken · €12.600 - €19.600",
+      "2-4 weken · Vraag een voorstel aan",
       "→",
       "Klaar voor impact?",
       "Plan een gesprek.",
@@ -318,252 +357,273 @@
     {
       "regio": "header",
       "soort": "intern",
-      "href": "/",
+      "href": "/nl",
       "anker": "",
       "rel": null
     },
     {
       "regio": "header",
       "soort": "intern",
-      "href": "/diensten",
+      "href": "/nl/diensten",
       "anker": "Diensten",
       "rel": null
     },
     {
       "regio": "header",
       "soort": "intern",
-      "href": "/cases",
+      "href": "/nl/cases",
       "anker": "Cases",
       "rel": null
     },
     {
       "regio": "header",
       "soort": "intern",
-      "href": "/werkwijze",
+      "href": "/nl/werkwijze",
       "anker": "Werkwijze",
       "rel": null
     },
     {
       "regio": "header",
       "soort": "intern",
-      "href": "/inzichten",
+      "href": "/nl/inzichten",
       "anker": "Inzichten",
       "rel": null
     },
     {
       "regio": "header",
       "soort": "intern",
-      "href": "/over",
+      "href": "/nl/over",
       "anker": "Over mij",
       "rel": null
     },
     {
       "regio": "header",
       "soort": "intern",
-      "href": "/contact",
+      "href": "/services/fractional-ai-lead",
+      "anker": "EN",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/nl/contact",
       "anker": "Plan een gesprek →",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/contact",
+      "href": "/nl/contact",
       "anker": "Plan een gesprek →",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/diensten",
+      "href": "/nl/diensten",
       "anker": "Alle diensten →",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/werkwijze",
+      "href": "/nl/contact?dienst=fractional-ai-lead",
+      "anker": "Vraag een voorstel aan →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/nl/tarieven",
+      "anker": "tarieven en doorlooptijden van Dave Willemstein",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/nl/werkwijze",
       "anker": "Meer over mijn werkwijze →",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/cases/ai-roadmap-internationale-maakorganisatie",
+      "href": "/nl/cases/ai-roadmap-internationale-maakorganisatie",
       "anker": "Lees de volledige case →",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/veelgestelde-vragen",
+      "href": "/nl/veelgestelde-vragen",
       "anker": "Bekijk alle veelgestelde vragen →",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/diensten/ai-strategy-sprint",
-      "anker": "↯ AI Strategy Sprint Van ambitie naar een realistische AI-roadmap die past bij business, mensen en middelen, board-ready in zes weken. 4-6 weken · €15.400 - €22.400 →",
+      "href": "/nl/diensten/ai-strategy-sprint",
+      "anker": "↯ AI Strategy Sprint Van ambitie naar een realistische AI-roadmap die past bij business, mensen en middelen, board-ready in zes weken. 4-6 weken · Vraag een voorstel aan →",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/diensten/ai-due-diligence",
-      "anker": "☑ AI Due Diligence Beoordeel AI-oplossingen of -bedrijven op waarde, risico, veiligheid en haalbaarheid. 2-4 weken · €12.600 - €19.600 →",
+      "href": "/nl/diensten/ai-due-diligence",
+      "anker": "☑ AI Due Diligence Beoordeel AI-oplossingen of -bedrijven op waarde, risico, veiligheid en haalbaarheid. 2-4 weken · Vraag een voorstel aan →",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/contact",
+      "href": "/nl/contact",
       "anker": "Plan een gesprek →",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/diensten/ai-readiness-assessment",
+      "href": "/nl/diensten/ai-readiness-assessment",
       "anker": "AI Readiness Assessment",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/diensten/ai-strategy-sprint",
+      "href": "/nl/diensten/ai-strategy-sprint",
       "anker": "AI Strategy Sprint",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/diensten/fractional-ai-lead",
+      "href": "/nl/diensten/fractional-ai-lead",
       "anker": "Fractional AI Lead",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/diensten",
+      "href": "/nl/diensten",
       "anker": "Alle diensten",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/cases",
+      "href": "/nl/cases",
       "anker": "Cases",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/werkwijze",
+      "href": "/nl/werkwijze",
       "anker": "Werkwijze",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/inzichten",
+      "href": "/nl/inzichten",
       "anker": "Inzichten",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/veelgestelde-vragen",
+      "href": "/nl/veelgestelde-vragen",
       "anker": "Veelgestelde vragen",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/over",
+      "href": "/nl/over",
       "anker": "Over mij",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-consultancy",
+      "href": "/nl/ai-consultancy",
       "anker": "AI consultancy",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-implementatie",
+      "href": "/nl/ai-implementatie",
       "anker": "AI implementatie",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-automatisering",
+      "href": "/nl/ai-automatisering",
       "anker": "AI automatisering",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-voor-bedrijven",
+      "href": "/nl/ai-voor-bedrijven",
       "anker": "AI voor bedrijven",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-development",
+      "href": "/nl/ai-development",
       "anker": "AI development",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-agents",
+      "href": "/nl/ai-agents",
       "anker": "AI agents",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-beleid",
+      "href": "/nl/ai-beleid",
       "anker": "AI beleid",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-workshop",
+      "href": "/nl/ai-workshop",
       "anker": "AI workshop",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/markten",
+      "href": "/nl/markten",
       "anker": "AI per branche",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/kennisbank",
+      "href": "/nl/kennisbank",
       "anker": "Kennisbank",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/tarieven",
+      "href": "/nl/tarieven",
       "anker": "Tarieven",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/partnernetwerk",
+      "href": "/nl/partnernetwerk",
       "anker": "Partnernetwerk",
       "rel": null
     },
@@ -584,50 +644,77 @@
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/contact",
+      "href": "/nl/contact",
       "anker": "Plan een gesprek",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/privacy",
+      "href": "/nl/privacy",
       "anker": "Privacyverklaring",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/algemene-voorwaarden",
+      "href": "/nl/algemene-voorwaarden",
       "anker": "Algemene voorwaarden",
       "rel": null
     }
   ],
   "structured_data": {
-    "sha256": "d7ead82e914debf55b29bcdd943c826c3ac1e13bb3ce162195e51126ed426bd6",
+    "sha256": "0fb36f587cbcdd1aa0b3e07d3260e4efd3531890db0d8129d6d05fd52d833ea2",
     "items": [
-      {
-        "@context": "https://schema.org",
-        "@type": "Service",
-        "name": "Fractional AI Lead",
-        "description": "Je hebt geen fulltime Head of AI nodig. Je hebt iemand nodig die de agenda bewaakt, de juiste vragen stelt in stuurgroepen en voorkomt dat goede initiatieven doodbloeden in de waan van de dag.",
-        "provider": {
-          "@type": "Person",
-          "name": "Dave Willemstein",
-          "url": "https://freelanceaiconsultant.com"
+      [
+        {
+          "@context": "https://schema.org",
+          "@type": "Service",
+          "name": "Fractional AI Lead",
+          "description": "Je hebt geen fulltime Head of AI nodig. Je hebt iemand nodig die de agenda bewaakt, de juiste vragen stelt in stuurgroepen en voorkomt dat goede initiatieven doodbloeden in de waan van de dag.",
+          "provider": {
+            "@type": "Person",
+            "name": "Dave Willemstein",
+            "url": "https://freelanceaiconsultant.com"
+          },
+          "areaServed": [
+            "NL",
+            "BE",
+            "DE"
+          ],
+          "serviceType": "AI-advies"
         },
-        "areaServed": [
-          "NL",
-          "BE",
-          "DE"
-        ],
-        "serviceType": "AI-advies",
-        "offers": {
-          "@type": "Offer",
-          "priceCurrency": "EUR",
-          "description": "€2.600 / €5.200 / €10.400 per maand. Advies (2 dagen), Lead (4 dagen) of Lead+ (8 dagen) per maand. Minimaal 3 maanden, daarna maandelijks opzegbaar."
+        {
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "Wat kost een Fractional AI Lead en voor wie is die rol bedoeld?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "De Fractional AI Lead van Dave Willemstein geeft organisaties met lopende AI-initiatieven zonder duidelijke eigenaar senior AI-leiderschap in deeltijd. De rol kost een vaste prijs of vast maandbedrag, vastgelegd in het voorstel, op het niveau Advies, Lead of Lead+. De looptijd is minimaal 3 maanden en daarna is de rol maandelijks opzegbaar; de bedragen zijn exclusief btw en reiskosten."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Wanneer is de Fractional AI Lead opzegbaar?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "De Fractional AI Lead loopt minimaal 3 maanden en is daarna maandelijks opzegbaar."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Is de Fractional AI Lead een fulltime rol?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Nee. De Fractional AI Lead is senior leiderschap in deeltijd, voor 2, 4 of 8 dagen per maand. De Fractional AI Lead past bij teams die koers en capaciteit nodig hebben, maar nog geen fulltime rol kunnen dragen."
+              }
+            }
+          ]
         }
-      }
+      ]
     ]
   },
   "afbeeldingen": [
@@ -666,12 +753,12 @@
     ],
     "stylesheets": [
       "https://fonts.googleapis.com/css2?family=Caveat:wght@600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap",
-      "/_astro/_slug_.bq6BBoZ5.css",
-      "/_astro/_slug_.BJ2d3JA4.css",
+      "/_astro/_slug_.BzqUXH8l.css",
+      "/_astro/_slug_.4j2fFZLq.css",
       "/logo-carousel/logo-carousel.css?v=2"
     ],
     "aantal_details": 4,
     "aantal_tabellen": 0
   },
-  "gemeten_op": "2026-10-06"
+  "gemeten_op": "2026-10-28"
 }

@@ -80,7 +80,7 @@ Elke AI-toepassing die tijd bespaart, verandert het werk van iemand. Dat gesprek
 
 Een traject begint met een gesprek van dertig minuten. Je vertelt waar je staat, ik stel vragen en zeg aan het eind wat ik zou doen, ook als dat betekent dat je mij niet nodig hebt.
 
-Daarna bakenen we in een intake de vraag af en leggen we die vast in een opdrachtbevestiging. Een concrete vraag over één toepassing past meestal bij afgebakend advies. Wil je eerst weten of je organisatie er breed klaar voor is, dan is het [AI Readiness Assessment](/nl/diensten/ai-readiness-assessment) de betere start: {{timing:ai-readiness-assessment}}, vaste prijs {{price:ai-readiness-assessment}}. Alle pakketten en prijzen staan op de pagina met [tarieven](/nl/tarieven).
+Daarna bakenen we in een intake de vraag af en leggen we die vast in een opdrachtbevestiging. Een concrete vraag over één toepassing past meestal bij afgebakend advies. Wil je eerst weten of je organisatie er breed klaar voor is, dan is het [AI Readiness Assessment](/nl/diensten/ai-readiness-assessment) de betere start: {{timing:ai-readiness-assessment}}, vaste prijs. Alle pakketten staan op de pagina met [tarieven](/nl/tarieven).
 
 In de analyse spreek ik de mensen die het werk doen, de eigenaar van het proces, IT en waar nodig privacy of compliance. Ik kijk naar de data, naar eventuele leveranciersvoorstellen en naar wat er al is geprobeerd.
 
