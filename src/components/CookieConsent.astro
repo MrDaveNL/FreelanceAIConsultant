@@ -1,0 +1,51 @@
+---
+// GTM + Consent Mode v2. Eén plek, in BaseLayout, dus actief op elke EN- en NL-pagina inclusief
+// beide 404's. Alleen actief in productie en alleen als PUBLIC_GTM_ID gezet is (zie .env.example)
+// - zie planning/decisions-analytics-consent.md voor de afweging. Zonder GTM-ID is er niets om
+// toestemming voor te vragen.
+const gtmId = import.meta.env.PUBLIC_GTM_ID;
+const enabled = import.meta.env.PROD && Boolean(gtmId);
+---
+{enabled && (
+  <>
+    {/* 1. Consent-default, vóór GTM. Leest een eerder opgeslagen keuze (cookie "cc_cookie") en
+        stuurt die meteen door, zodat een terugkerende bezoeker niet op wait_for_update wacht. */}
+    <script is:inline define:vars={{ gtmId }}>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() { dataLayer.push(arguments); }
+      gtag('consent', 'default', {
+        ad_storage: 'denied',
+        ad_user_data: 'denied',
+        ad_personalization: 'denied',
+        analytics_storage: 'denied',
+        functionality_storage: 'granted',
+        security_storage: 'granted',
+        wait_for_update: 500,
+      });
+      (function () {
+        try {
+          var match = document.cookie.match('(^|; )cc_cookie=([^;]*)');
+          if (!match) return;
+          var stored = JSON.parse(decodeURIComponent(match[2]));
+          var categories = (stored && stored.categories) || [];
+          var granted = categories.indexOf('analytics') !== -1;
+          gtag('consent', 'update', { analytics_storage: granted ? 'granted' : 'denied' });
+        } catch (e) {
+          // Geen of onleesbare cookie: default-status (denied) blijft staan.
+        }
+      })();
+    </script>
+    {/* 2. Het officiele GTM-snippet (met gtm.start-event). Geen noscript-iframe: die laadt zonder
+        consent-check. */}
+    <script is:inline define:vars={{ gtmId }}>
+      (function (w, d, s, l, i) {
+        w[l] = w[l] || [];
+        w[l].push({ 'gtm.start': new Date().getTime(), event: 'gtm.js' });
+        var f = d.getElementsByTagName(s)[0], j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : '';
+        j.async = true;
+        j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+        f.parentNode.insertBefore(j, f);
+      })(window, document, 'script', 'dataLayer', gtmId);
+    </script>
+  </>
+)}
