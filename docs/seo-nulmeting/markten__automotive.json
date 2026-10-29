@@ -2,15 +2,28 @@
   "url": "/markten/automotive",
   "build_bestand": "dist/markten/automotive/index.html",
   "html": {
-    "bytes": 36578,
+    "bytes": 40492,
     "lang": "nl"
   },
   "beschermd": {
     "title": "AI in automotive | Toepassingen voor autobedrijven",
     "meta_description": "Hoe gebruiken autobedrijven AI? Bekijk toepassingen in verkoop, werkplaats en klantcontact, AI assistenten voor dealers en automatisering in automotive.",
-    "canonical": "https://freelanceaiconsultant.com/markten/automotive",
+    "canonical": "https://freelanceaiconsultant.com/nl/markten/automotive",
     "robots_meta": null,
-    "hreflang": [],
+    "hreflang": [
+      {
+        "hreflang": "en",
+        "href": "https://freelanceaiconsultant.com/markets/automotive"
+      },
+      {
+        "hreflang": "nl",
+        "href": "https://freelanceaiconsultant.com/nl/markten/automotive"
+      },
+      {
+        "hreflang": "x-default",
+        "href": "https://freelanceaiconsultant.com/markets/automotive"
+      }
+    ],
     "h1": [
       "AI in automotive: toepassingen voor autobedrijven"
     ]
@@ -21,7 +34,7 @@
     "og:site_name": "freelanceaiconsultant.com",
     "og:title": "AI in automotive | Toepassingen voor autobedrijven",
     "og:description": "Hoe gebruiken autobedrijven AI? Bekijk toepassingen in verkoop, werkplaats en klantcontact, AI assistenten voor dealers en automatisering in automotive.",
-    "og:url": "https://freelanceaiconsultant.com/markten/automotive",
+    "og:url": "https://freelanceaiconsultant.com/nl/markten/automotive",
     "og:image": "https://freelanceaiconsultant.com/images/dave-portrait.jpg",
     "twitter:card": "summary_large_image",
     "twitter:title": "AI in automotive | Toepassingen voor autobedrijven",
@@ -32,6 +45,24 @@
     {
       "niveau": 1,
       "tekst": "AI in automotive: toepassingen voor autobedrijven",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "Wat kan een autobedrijf met AI in automotive en hoe begint het daarmee?",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 3,
+      "tekst": "Hoe kan een dealer bij AI in automotive toetsen of de belofte van een leverancier van assistenten klopt?",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 3,
+      "tekst": "Waarvoor werkt een klantgerichte assistent met AI in automotive goed?",
       "regio": "main",
       "id": null
     },
@@ -92,8 +123,8 @@
   ],
   "bodytekst": {
     "regio": "main",
-    "woorden": 1831,
-    "sha256": "4f0a193255070d4fa9544c4e5d1dced277028e28e21d0292640e94dbda6903d7",
+    "woorden": 2058,
+    "sha256": "b1183bc84c0da91713da2836ff796b037c8a6d1aae08edd856012b253df03e24",
     "blokken": [
       "Home",
       "Markten",
@@ -165,6 +196,13 @@
       "Proces & productivity",
       "Zakelijke dienstverlener",
       "Interne AI-assistent voor kenniswerkers",
+      "Wat kan een autobedrijf met AI in automotive en hoe begint het daarmee?",
+      "Bij AI in automotive zit voor een autobedrijf of dealer de meeste winst in verkoopopvolging, werkplaats en klantcontact, niet in de auto zelf. De aanpak is één proces met een meetbaar knelpunt kiezen, een eigenaar in de lijn aanwijzen en vooraf afspreken wanneer er wordt gestopt. Voor wie nog niet weet welk proces dat is, is het AI Readiness Assessment van 2-3 weken een logisch startpunt.",
+      "Hoe kan een dealer bij AI in automotive toetsen of de belofte van een leverancier van assistenten klopt?",
+      "Dat kan bijvoorbeeld met de Vendor Review, met dezelfde vragen en hetzelfde scenario voor elke leverancier. Bij assistenten gaat het bij AI in automotive om de keuze tussen wat de DMS-leverancier, het merk of een gespecialiseerde partij aanbiedt.",
+      "Waarvoor werkt een klantgerichte assistent met AI in automotive goed?",
+      "Klantgerichte assistenten, die vragen beantwoorden en bijvoorbeeld een onderhoudsafspraak inplannen, werken bij AI in automotive goed voor voorspelbare vragen, niet voor klachten of onderhandelingen. Het advies is vooraf af te spreken wanneer de assistent overdraagt aan een mens, en dat met echte gesprekken te testen.",
+      "Bron: artikel van Dave Willemstein; primaire bron: Verordening (EU) 2024/1689 (AI Act), EUR-Lex; Europese Commissie, \"AI Act\" (regulatory framework AI); Verordening (EU) 2026/1744 (Digitale omnibus inzake AI), EUR-Lex (peildatum 6 oktober 2026). Bijgewerkt: oktober 2026.",
       "AI toepassingen in automotive",
       "Wie aan AI in automotive denkt, ziet al snel zelfrijdende auto’s en slimme fabrieken. Voor een autobedrijf of dealer ligt de waarde dichterbij: in de stappen tussen de eerste aanvraag en de volgende onderhoudsbeurt.",
       "De knelpunten zijn in veel autobedrijven herkenbaar:",
@@ -245,126 +283,147 @@
     {
       "regio": "header",
       "soort": "intern",
-      "href": "/",
+      "href": "/nl",
       "anker": "",
       "rel": null
     },
     {
       "regio": "header",
       "soort": "intern",
-      "href": "/diensten",
+      "href": "/nl/diensten",
       "anker": "Diensten",
       "rel": null
     },
     {
       "regio": "header",
       "soort": "intern",
-      "href": "/cases",
+      "href": "/nl/cases",
       "anker": "Cases",
       "rel": null
     },
     {
       "regio": "header",
       "soort": "intern",
-      "href": "/werkwijze",
+      "href": "/nl/werkwijze",
       "anker": "Werkwijze",
       "rel": null
     },
     {
       "regio": "header",
       "soort": "intern",
-      "href": "/inzichten",
+      "href": "/nl/inzichten",
       "anker": "Inzichten",
       "rel": null
     },
     {
       "regio": "header",
       "soort": "intern",
-      "href": "/over",
+      "href": "/nl/over",
       "anker": "Over mij",
       "rel": null
     },
     {
       "regio": "header",
       "soort": "intern",
-      "href": "/contact",
+      "href": "/markets/automotive",
+      "anker": "EN",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/nl/contact",
       "anker": "Plan een gesprek →",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/",
+      "href": "/nl",
       "anker": "Home",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/markten",
+      "href": "/nl/markten",
       "anker": "Markten",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/markten",
+      "href": "/nl/markten",
       "anker": "Lees meer over Markten →",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/contact",
+      "href": "/nl/contact",
       "anker": "Plan een adviesgesprek →",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/over",
+      "href": "/nl/over",
       "anker": "Dave Willemstein",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/inzichten/welke-ai-use-cases-leveren-resultaat",
+      "href": "/nl/diensten/ai-readiness-assessment",
+      "anker": "AI Readiness Assessment",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/nl/diensten/vendor-review",
+      "anker": "Vendor Review",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/nl/inzichten/welke-ai-use-cases-leveren-resultaat",
       "anker": "welke AI use cases resultaat leveren",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/cases/ai-roadmap-internationale-maakorganisatie",
+      "href": "/nl/cases/ai-roadmap-internationale-maakorganisatie",
       "anker": "AI-roadmap voor een internationale maakorganisatie",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/ai-agents/voorbeelden",
+      "href": "/nl/ai-agents/voorbeelden",
       "anker": "voorbeelden van AI-agents in de praktijk",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/diensten/vendor-review",
+      "href": "/nl/diensten/vendor-review",
       "anker": "onafhankelijke Vendor Review",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/inzichten/ai-adoptie-begint-bij-het-werk",
+      "href": "/nl/inzichten/ai-adoptie-begint-bij-het-werk",
       "anker": "AI-adoptie begint bij het werk",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/ai-automatisering",
+      "href": "/nl/ai-automatisering",
       "anker": "AI automatisering",
       "rel": null
     },
@@ -378,63 +437,63 @@
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/ai-beleid/ai-act",
+      "href": "/nl/ai-beleid/ai-act",
       "anker": "de AI Act",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/diensten/ai-readiness-assessment",
+      "href": "/nl/diensten/ai-readiness-assessment",
       "anker": "AI Readiness Assessment",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/markten/zorg",
+      "href": "/nl/markten/zorg",
       "anker": "AI in de zorg",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/markten/marketing",
+      "href": "/nl/markten/marketing",
       "anker": "AI voor marketing",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/markten",
+      "href": "/nl/markten",
       "anker": "overzicht van markten",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/contact",
+      "href": "/nl/contact",
       "anker": "Plan een gesprek van dertig minuten",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/over",
+      "href": "/nl/over",
       "anker": "Over mij",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/partnernetwerk",
+      "href": "/nl/partnernetwerk",
       "anker": "Mijn partnernetwerk",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/diensten/ai-readiness-assessment",
+      "href": "/nl/diensten/ai-readiness-assessment",
       "anker": "Weten waar je staat met AI? Bekijk het AI Readiness Assessment →",
       "rel": null
     },
@@ -476,154 +535,154 @@
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/contact",
+      "href": "/nl/contact",
       "anker": "Plan een gesprek →",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/diensten/ai-readiness-assessment",
+      "href": "/nl/diensten/ai-readiness-assessment",
       "anker": "AI Readiness Assessment",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/diensten/ai-strategy-sprint",
+      "href": "/nl/diensten/ai-strategy-sprint",
       "anker": "AI Strategy Sprint",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/diensten/fractional-ai-lead",
+      "href": "/nl/diensten/fractional-ai-lead",
       "anker": "Fractional AI Lead",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/diensten",
+      "href": "/nl/diensten",
       "anker": "Alle diensten",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/cases",
+      "href": "/nl/cases",
       "anker": "Cases",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/werkwijze",
+      "href": "/nl/werkwijze",
       "anker": "Werkwijze",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/inzichten",
+      "href": "/nl/inzichten",
       "anker": "Inzichten",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/veelgestelde-vragen",
+      "href": "/nl/veelgestelde-vragen",
       "anker": "Veelgestelde vragen",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/over",
+      "href": "/nl/over",
       "anker": "Over mij",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-consultancy",
+      "href": "/nl/ai-consultancy",
       "anker": "AI consultancy",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-implementatie",
+      "href": "/nl/ai-implementatie",
       "anker": "AI implementatie",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-automatisering",
+      "href": "/nl/ai-automatisering",
       "anker": "AI automatisering",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-voor-bedrijven",
+      "href": "/nl/ai-voor-bedrijven",
       "anker": "AI voor bedrijven",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-development",
+      "href": "/nl/ai-development",
       "anker": "AI development",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-agents",
+      "href": "/nl/ai-agents",
       "anker": "AI agents",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-beleid",
+      "href": "/nl/ai-beleid",
       "anker": "AI beleid",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-workshop",
+      "href": "/nl/ai-workshop",
       "anker": "AI workshop",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/markten",
+      "href": "/nl/markten",
       "anker": "AI per branche",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/kennisbank",
+      "href": "/nl/kennisbank",
       "anker": "Kennisbank",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/tarieven",
+      "href": "/nl/tarieven",
       "anker": "Tarieven",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/partnernetwerk",
+      "href": "/nl/partnernetwerk",
       "anker": "Partnernetwerk",
       "rel": null
     },
@@ -644,27 +703,27 @@
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/contact",
+      "href": "/nl/contact",
       "anker": "Plan een gesprek",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/privacy",
+      "href": "/nl/privacy",
       "anker": "Privacyverklaring",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/algemene-voorwaarden",
+      "href": "/nl/algemene-voorwaarden",
       "anker": "Algemene voorwaarden",
       "rel": null
     }
   ],
   "structured_data": {
-    "sha256": "f56076f3d031e7d68fbbaad2ad9c60ce494d9853037e4c96b9c89418e07db43d",
+    "sha256": "b638b518b781c8081ab9e35f7ac781761e6c2bea2a1d28d45e2d25c00100f149",
     "items": [
       {
         "@context": "https://schema.org",
@@ -676,19 +735,19 @@
                 "@type": "ListItem",
                 "position": 1,
                 "name": "Home",
-                "item": "https://freelanceaiconsultant.com/"
+                "item": "https://freelanceaiconsultant.com/nl"
               },
               {
                 "@type": "ListItem",
                 "position": 2,
                 "name": "Markten",
-                "item": "https://freelanceaiconsultant.com/markten"
+                "item": "https://freelanceaiconsultant.com/nl/markten"
               },
               {
                 "@type": "ListItem",
                 "position": 3,
                 "name": "AI voor automotive",
-                "item": "https://freelanceaiconsultant.com/markten/automotive"
+                "item": "https://freelanceaiconsultant.com/nl/markten/automotive"
               }
             ]
           },
@@ -712,7 +771,7 @@
               "@type": "Person",
               "name": "Dave Willemstein"
             },
-            "mainEntityOfPage": "https://freelanceaiconsultant.com/markten/automotive"
+            "mainEntityOfPage": "https://freelanceaiconsultant.com/nl/markten/automotive"
           },
           {
             "@type": "FAQPage",
@@ -747,6 +806,30 @@
                 "acceptedAnswer": {
                   "@type": "Answer",
                   "text": "Nauwelijks. Eisen aan AI in het voertuig zelf lopen via de Europese typegoedkeuring en richten zich op de fabrikant. Voor een dealer tellen vooral de regels voor de systemen die je zelf inzet: in verkoop, werving, financiering en klantcontact."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Wat kan een autobedrijf met AI in automotive en hoe begint het daarmee?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Bij AI in automotive zit voor een autobedrijf of dealer de meeste winst in verkoopopvolging, werkplaats en klantcontact, niet in de auto zelf. De aanpak is één proces met een meetbaar knelpunt kiezen, een eigenaar in de lijn aanwijzen en vooraf afspreken wanneer er wordt gestopt. Voor wie nog niet weet welk proces dat is, is het AI Readiness Assessment van 2-3 weken een logisch startpunt."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Hoe kan een dealer bij AI in automotive toetsen of de belofte van een leverancier van assistenten klopt?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Dat kan bijvoorbeeld met de Vendor Review, met dezelfde vragen en hetzelfde scenario voor elke leverancier. Bij assistenten gaat het bij AI in automotive om de keuze tussen wat de DMS-leverancier, het merk of een gespecialiseerde partij aanbiedt."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Waarvoor werkt een klantgerichte assistent met AI in automotive goed?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Klantgerichte assistenten, die vragen beantwoorden en bijvoorbeeld een onderhoudsafspraak inplannen, werken bij AI in automotive goed voor voorspelbare vragen, niet voor klachten of onderhandelingen. Het advies is vooraf af te spreken wanneer de assistent overdraagt aan een mens, en dat met echte gesprekken te testen."
                 }
               }
             ]
@@ -791,12 +874,12 @@
     ],
     "stylesheets": [
       "https://fonts.googleapis.com/css2?family=Caveat:wght@600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap",
-      "/_astro/_slug_.bq6BBoZ5.css",
-      "/_astro/_slug_.goiX3PVF.css",
+      "/_astro/_slug_.BzqUXH8l.css",
+      "/_astro/_slug_.Do5RJXa7.css",
       "/logo-carousel/logo-carousel.css?v=2"
     ],
     "aantal_details": 4,
     "aantal_tabellen": 0
   },
-  "gemeten_op": "2026-10-06"
+  "gemeten_op": "2026-10-29"
 }

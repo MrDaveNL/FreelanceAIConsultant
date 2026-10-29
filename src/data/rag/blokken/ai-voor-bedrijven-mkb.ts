@@ -5,7 +5,7 @@ export default {
   "onderwerp": "AI voor het mkb",
   "vraagkop": "Hoe begint een ondernemer met AI voor het mkb zonder groot budget?",
   "onderBestaandeKop": false,
-  "antwoord": "AI voor het mkb begint bij één taak die vaak terugkomt, veel tijd kost en al een vaste controle kent, zoals offertes of het sorteren van e-mail, met software die het bedrijf al heeft of een zakelijke licentie op een AI-assistent. Na een nulmeting en een paar spelregels over tools en gegevens volgt een test van vier weken in het echte werk, waarna de meting bepaalt of het bedrijf doorgaat, bijstuurt of stopt. Voor kleinere bedrijven is de {{dienst:executive-briefing}}, een {{timing:executive-briefing}} tegen een vaste prijs, een van de twee lichtere instappen.",
+  "antwoord": "AI voor het mkb begint bij één taak die vaak terugkomt, veel tijd kost en al een vaste controle kent, zoals offertes of het sorteren van e-mail, met software die het bedrijf al heeft of een zakelijke licentie op een AI-assistent. Na een nulmeting en een paar spelregels over tools en gegevens volgt een test van vier weken in het echte werk, waarna de meting bepaalt of het bedrijf doorgaat, bijstuurt of stopt. Voor kleinere bedrijven biedt de {{dienst:executive-briefing}} een lichtere instap: in één dagdeel, inclusief de sessie van drie uur, tegen {{pricelc:executive-briefing}}.",
   "vervolgvragen": [
     {
       "vraag": "Passen het AI Readiness Assessment en de AI Strategy Sprint bij elk budget voor AI voor het mkb?",

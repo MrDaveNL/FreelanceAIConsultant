@@ -2,7 +2,7 @@
   "url": "/diensten",
   "build_bestand": "dist/diensten/index.html",
   "html": {
-    "bytes": 36185,
+    "bytes": 36195,
     "lang": "nl"
   },
   "beschermd": {
@@ -112,7 +112,7 @@
   "bodytekst": {
     "regio": "main",
     "woorden": 677,
-    "sha256": "2257e91147323e106b11aaf1eb48e6f488101ed2a0306cccb2c07e3cfd29c0c6",
+    "sha256": "e080ef87c2f9b1501485093dc606615c00a2e2acfd5f35d70fbeffa48430dfd1",
     "blokken": [
       "AI-advies dat je helpt beslissen",
       "Diensten die AI-beslissingen helder maken.",
@@ -215,7 +215,7 @@
       "Alle voorstellen zijn exclusief btw. Het exacte bedrag legt het voorstel na de kennismaking vast.",
       "Vraag een voorstel aan → Prijs op maat, afhankelijk van scope",
       "Welke AI-dienst past bij welke situatie?",
-      "Dave Willemstein biedt AI-adviesdiensten van het AI Readiness Assessment tot de Fractional AI Lead, elk met vooraf een vaste prijs of vast maandbedrag, vastgelegd in het voorstel. Van de hoofddiensten heeft het AI Readiness Assessment als doel inzicht en prioriteiten te bepalen, de AI Strategy Sprint strategie en roadmap vast te leggen en de Fractional AI Lead uitvoering en borging te realiseren. De bedragen zijn exclusief btw en reiskosten.",
+      "Dave Willemstein biedt AI-adviesdiensten van het AI Readiness Assessment tot de Fractional AI Lead, elk met vooraf een vaste prijs of vast maandbedrag, vastgelegd in het voorstel. Van de hoofddiensten heeft het AI Readiness Assessment als doel inzicht en prioriteiten te bepalen, de AI Strategy Sprint strategie en roadmap vast te leggen en de Fractional AI Lead uitvoering en borging te realiseren. Alle voorstellen zijn exclusief btw en reiskosten.",
       "Is de kennismaking voor een AI-dienst kosteloos?",
       "Ja. Elke AI-dienst begint met een kennismaking van dertig minuten zonder kosten, gevolgd door een voorstel binnen drie werkdagen.",
       "Bron: tarieven en doorlooptijden van Dave Willemstein. Bijgewerkt: oktober 2026.",
@@ -577,7 +577,7 @@
     }
   ],
   "structured_data": {
-    "sha256": "f132854cd2b5b8ef60a746c1820411b2717e1628527cd7c3cdaa3658fe4986dc",
+    "sha256": "aafe733b0a2f30e53871ce9e9fbed5395c31e0c52a8a4b0cd06e96c416187032",
     "items": [
       [
         {
@@ -613,7 +613,7 @@
               "name": "Welke AI-dienst past bij welke situatie?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "Dave Willemstein biedt AI-adviesdiensten van het AI Readiness Assessment tot de Fractional AI Lead, elk met vooraf een vaste prijs of vast maandbedrag, vastgelegd in het voorstel. Van de hoofddiensten heeft het AI Readiness Assessment als doel inzicht en prioriteiten te bepalen, de AI Strategy Sprint strategie en roadmap vast te leggen en de Fractional AI Lead uitvoering en borging te realiseren. De bedragen zijn exclusief btw en reiskosten."
+                "text": "Dave Willemstein biedt AI-adviesdiensten van het AI Readiness Assessment tot de Fractional AI Lead, elk met vooraf een vaste prijs of vast maandbedrag, vastgelegd in het voorstel. Van de hoofddiensten heeft het AI Readiness Assessment als doel inzicht en prioriteiten te bepalen, de AI Strategy Sprint strategie en roadmap vast te leggen en de Fractional AI Lead uitvoering en borging te realiseren. Alle voorstellen zijn exclusief btw en reiskosten."
               }
             },
             {
@@ -671,5 +671,5 @@
     "aantal_details": 0,
     "aantal_tabellen": 0
   },
-  "gemeten_op": "2026-10-28"
+  "gemeten_op": "2026-10-29"
 }

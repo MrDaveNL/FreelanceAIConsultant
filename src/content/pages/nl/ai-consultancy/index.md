@@ -168,7 +168,7 @@ Alle trajecten staan op de [overzichtspagina met cases](/nl/cases). Wie ik ben e
 
 ## Wat kost AI consultancy?
 
-Ik werk met vaste pakketten, elk met vooraf een vaste prijs of vast maandbedrag, niet met een open uurtarief. Zo gaat het gesprek over de uitkomst in plaats van over de urenstaat.
+Ik werk met vaste pakketten, niet met een open uurtarief: een vaste projectprijs voor een afgebakend traject, of een vast maandbedrag voor de Fractional AI Lead. Zo gaat het gesprek over de uitkomst in plaats van over de urenstaat.
 
 | Traject | Doorlooptijd |
 |---|---|
@@ -178,6 +178,6 @@ Ik werk met vaste pakketten, elk met vooraf een vaste prijs of vast maandbedrag,
 | Fractional AI Lead | {{timing:fractional-ai-lead}} |
 | Afgebakend advies en second opinions | In overleg |
 
-Alle voorstellen zijn exclusief btw. Binnen een pakket bewegen de kosten mee met de scope, het aantal betrokkenen en de tijdsinzet. Hoe dat werkt en wat er per pakket in zit, lees je op de pagina met [tarieven en pakketten](/nl/tarieven).
+Alle voorstellen zijn exclusief btw en reiskosten. Binnen een pakket bewegen de kosten mee met de scope, het aantal betrokkenen en de tijdsinzet. Hoe dat werkt en wat er per pakket in zit, lees je op de pagina met [tarieven en pakketten](/nl/tarieven).
 
 Wil je weten welke aanpak bij jouw situatie past? [Plan een adviesgesprek](/nl/contact) van dertig minuten. Aan het eind hoor je wat ik zou doen, ook als dat betekent dat je mij niet nodig hebt.

@@ -2,7 +2,7 @@
   "url": "/ai-voor-bedrijven",
   "build_bestand": "dist/ai-voor-bedrijven/index.html",
   "html": {
-    "bytes": 44954,
+    "bytes": 44851,
     "lang": "nl"
   },
   "beschermd": {
@@ -123,8 +123,8 @@
   ],
   "bodytekst": {
     "regio": "main",
-    "woorden": 2547,
-    "sha256": "774e9681e69aa6e7e77637c05b3e2be66c35538d17354e26dbd07b7b7600f75f",
+    "woorden": 2536,
+    "sha256": "b5350074002e5cb23aa4e90ff0d5d90632c1f56bd119ceb7750b79286fd6b975",
     "blokken": [
       "Home",
       "AI voor bedrijven",
@@ -196,7 +196,7 @@
       "Zakelijke dienstverlener",
       "Interne AI-assistent voor kenniswerkers",
       "Waar levert AI voor bedrijven in de praktijk het meest op?",
-      "AI voor bedrijven levert het meest op bij werk dat frequent en voorspelbaar is, met bestaande data en een menselijke controlestap. De risico's zijn zelden technisch van aard: het gaat om een ontbrekende eigenaar, ontbrekend beheer, privacy en vertrouwelijkheid, wet- en regelgeving en schaduwgebruik. Wie eerst wil weten waar de organisatie staat, kan starten met het AI Readiness Assessment van 2-3 weken voor een vaste prijs of vast maandbedrag, vastgelegd in het voorstel.",
+      "AI voor bedrijven levert het meest op bij werk dat frequent en voorspelbaar is, met bestaande data en een menselijke controlestap. De risico's zijn zelden technisch van aard: het gaat om een ontbrekende eigenaar, ontbrekend beheer, privacy en vertrouwelijkheid, wet- en regelgeving en schaduwgebruik. Wie eerst wil weten waar de organisatie staat, kan starten met het AI Readiness Assessment van 2-3 weken voor een vaste projectprijs.",
       "Zijn de regels uit de AI Act voor hoog-risicotoepassingen bij AI voor bedrijven uitgesteld?",
       "Ja. Via de Digital Omnibus on AI, die op 27 juli 2026 in werking trad, gelden de regels voor de hoog-risicogebieden uit bijlage III, zoals werving en kredietverlening, vanaf 2 december 2027 en voor AI in gereguleerde producten vanaf 2 augustus 2028. Bij AI voor bedrijven loont het om nu al te weten in welke categorie een toepassing valt.",
       "Begint AI voor bedrijven met gebruiken of met bouwen?",
@@ -259,7 +259,7 @@
       "Hoe ik je kan helpen",
       "Ik ben een onafhankelijk AI-adviseur. Ik adviseer, maak strategie en roadmaps, selecteer leveranciers, toets business cases, richt governance in en begeleid implementaties vanuit jouw kant van de tafel. Ik bouw en verkoop zelf geen software, en ik verdien niet aan de tools of partijen die ik adviseer.",
       "Concreet kan ik op deze manieren helpen:",
-      "Weten waar je staat. Met een AI Readiness Assessment breng ik in 2-3 weken strategie, data, technologie, mensen en governance in kaart, met een 90-dagenplan als uitkomst. Vaste prijs, vastgelegd in het voorstel.",
+      "Weten waar je staat. Met een AI Readiness Assessment breng ik in 2-3 weken strategie, data, technologie, mensen en governance in kaart, met een 90-dagenplan als uitkomst. Vaste projectprijs.",
       "Een gedeeld beeld in de top. Een Executive Briefing van één dagdeel geeft directie of raad van commissarissen een realistisch vertrekpunt.",
       "Strategie en roadmap. Van losse ideeën naar keuzes, prioriteiten en een plan. Alles over deze vorm van advies vind je bij AI consultancy.",
       "Van plan naar werkende toepassing. Ik begeleid de invoering, stuur de bouwpartij aan en bewaak dat het in het werk landt. Zie AI implementatie. Voor AI-agents, die zelfstandig taken uitvoeren, is er een aparte pagina over AI agents.",
@@ -776,7 +776,7 @@
     }
   ],
   "structured_data": {
-    "sha256": "3b5558faaf8cca9c1671458a30ab1f3b0030c9c878cd50e283c61ffa14d08a64",
+    "sha256": "df1b3cf01e6a910ef3ff706a6396f75149161547556b506bcb88f75937add543",
     "items": [
       {
         "@context": "https://schema.org",
@@ -868,7 +868,7 @@
                 "name": "Waar levert AI voor bedrijven in de praktijk het meest op?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "AI voor bedrijven levert het meest op bij werk dat frequent en voorspelbaar is, met bestaande data en een menselijke controlestap. De risico's zijn zelden technisch van aard: het gaat om een ontbrekende eigenaar, ontbrekend beheer, privacy en vertrouwelijkheid, wet- en regelgeving en schaduwgebruik. Wie eerst wil weten waar de organisatie staat, kan starten met het AI Readiness Assessment van 2-3 weken voor een vaste prijs of vast maandbedrag, vastgelegd in het voorstel."
+                  "text": "AI voor bedrijven levert het meest op bij werk dat frequent en voorspelbaar is, met bestaande data en een menselijke controlestap. De risico's zijn zelden technisch van aard: het gaat om een ontbrekende eigenaar, ontbrekend beheer, privacy en vertrouwelijkheid, wet- en regelgeving en schaduwgebruik. Wie eerst wil weten waar de organisatie staat, kan starten met het AI Readiness Assessment van 2-3 weken voor een vaste projectprijs."
                 }
               },
               {
@@ -936,5 +936,5 @@
     "aantal_details": 5,
     "aantal_tabellen": 0
   },
-  "gemeten_op": "2026-10-28"
+  "gemeten_op": "2026-10-29"
 }

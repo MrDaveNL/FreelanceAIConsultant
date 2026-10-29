@@ -5,7 +5,7 @@ export default {
   "onderwerp": "AI Due Diligence",
   "vraagkop": "Wat levert een AI Due Diligence op en wat kost die?",
   "onderBestaandeKop": false,
-  "antwoord": "De {{dienst:ai-due-diligence}} van {{afzender}} beoordeelt een AI-propositie of AI-leverancier voor investeerders en voor organisaties die een strategische AI-leverancier binnenhalen. Het resultaat is een DD-rapport met een expliciet oordeel en een overzicht van red flags, gescheiden in deal-breakers en onderhandelpunten. Het onderzoek duurt {{timing:ai-due-diligence}} en kost {{pricelc:ai-due-diligence}}, {{voorwaarden}}.",
+  "antwoord": "De {{dienst:ai-due-diligence}} van {{afzender}} beoordeelt een AI-propositie of AI-leverancier voor investeerders en voor organisaties die een strategische AI-leverancier binnenhalen. Het resultaat is een DD-rapport met een expliciet oordeel en een overzicht van red flags, gescheiden in deal-breakers en onderhandelpunten. Het onderzoek duurt {{timing:ai-due-diligence}} en kost {{pricelc:ai-due-diligence}}, altijd onder NDA en vastgelegd in het voorstel, {{voorwaarden}}.",
   "vervolgvragen": [
     {
       "vraag": "Kost een AI Due Diligence van een heel bedrijf meer dan die van één oplossing?",

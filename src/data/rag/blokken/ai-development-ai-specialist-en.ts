@@ -18,7 +18,7 @@ export default {
     },
     {
       "vraag": "Can the Fractional AI Lead keep steering if a delivery partner carries out the work?",
-      "antwoord": "Yes, from the client side: the {{dienst:fractional-ai-lead}} helps steer delivery by the client's own team or a delivery partner. The {{dienst:fractional-ai-lead}} costs {{pricelc:fractional-ai-lead}}."
+      "antwoord": "Yes, from the client side: the {{dienst:fractional-ai-lead}} helps steer delivery by the client's own team or a delivery partner. The {{dienst:fractional-ai-lead}} is priced as {{pricelc:fractional-ai-lead}}."
     }
   ],
   "bron": {

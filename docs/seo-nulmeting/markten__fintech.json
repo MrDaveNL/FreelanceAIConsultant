@@ -2,15 +2,28 @@
   "url": "/markten/fintech",
   "build_bestand": "dist/markten/fintech/index.html",
   "html": {
-    "bytes": 38616,
+    "bytes": 44285,
     "lang": "nl"
   },
   "beschermd": {
     "title": "AI in fintech | Toepassingen voor financiële dienstverlening",
     "meta_description": "Hoe zetten banken en fintechs AI in? Lees over toepassingen, automatisering, governance en compliance, en hoe je AI verantwoord implementeert in finance.",
-    "canonical": "https://freelanceaiconsultant.com/markten/fintech",
+    "canonical": "https://freelanceaiconsultant.com/nl/markten/fintech",
     "robots_meta": null,
-    "hreflang": [],
+    "hreflang": [
+      {
+        "hreflang": "en",
+        "href": "https://freelanceaiconsultant.com/markets/fintech"
+      },
+      {
+        "hreflang": "nl",
+        "href": "https://freelanceaiconsultant.com/nl/markten/fintech"
+      },
+      {
+        "hreflang": "x-default",
+        "href": "https://freelanceaiconsultant.com/markets/fintech"
+      }
+    ],
     "h1": [
       "AI in fintech en financiële dienstverlening"
     ]
@@ -21,7 +34,7 @@
     "og:site_name": "freelanceaiconsultant.com",
     "og:title": "AI in fintech | Toepassingen voor financiële dienstverlening",
     "og:description": "Hoe zetten banken en fintechs AI in? Lees over toepassingen, automatisering, governance en compliance, en hoe je AI verantwoord implementeert in finance.",
-    "og:url": "https://freelanceaiconsultant.com/markten/fintech",
+    "og:url": "https://freelanceaiconsultant.com/nl/markten/fintech",
     "og:image": "https://freelanceaiconsultant.com/images/dave-portrait.jpg",
     "twitter:card": "summary_large_image",
     "twitter:title": "AI in fintech | Toepassingen voor financiële dienstverlening",
@@ -32,6 +45,30 @@
     {
       "niveau": 1,
       "tekst": "AI in fintech en financiële dienstverlening",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "Waar levert AI in fintech het meest op en welke regels spelen mee?",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 3,
+      "tekst": "Blijft bij AI in fintech het oordeel bij een mens?",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 3,
+      "tekst": "Is het uitstel van de AI Act een reden om met eisen aan AI in fintech te wachten?",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 3,
+      "tekst": "Hoe verhoudt een AI-dienst van een externe leverancier bij AI in fintech zich tot DORA?",
       "regio": "main",
       "id": null
     },
@@ -80,8 +117,8 @@
   ],
   "bodytekst": {
     "regio": "main",
-    "woorden": 1834,
-    "sha256": "a7166776058598ed3270e93bbeb0d21828fb7e709b162d6aeb4b86235e2237ff",
+    "woorden": 2195,
+    "sha256": "ee7b690d4c3323da4bb76c602a467ddefb3bb480d018325f9346b1b3e26c34df",
     "blokken": [
       "Home",
       "Markten",
@@ -153,6 +190,15 @@
       "Proces & productivity",
       "Zakelijke dienstverlener",
       "Interne AI-assistent voor kenniswerkers",
+      "Waar levert AI in fintech het meest op en welke regels spelen mee?",
+      "Bij AI in fintech leveren documentverwerking en signalering vaak de snelste winst: AI is goed in het halen van gegevens uit documenten, terwijl het oordeel in de meeste processen bij een mens hoort. Kredietbeoordeling van personen en de risicobeoordeling en prijsstelling bij levens- en ziektekostenverzekeringen zijn hoog risico onder de AI Act, met regels vanaf 2 december 2027 (stand september 2026). Voor financiële instellingen zijn er het AI Readiness Assessment om te prioriteren, de Vendor Review om te kiezen, de AI Due Diligence om te beoordelen en de Fractional AI Lead om te borgen.",
+      "Blijft bij AI in fintech het oordeel bij een mens?",
+      "Bij AI in fintech hoort het oordeel in de meeste processen bij een mens, die de voorstellen van het systeem bevestigt of corrigeert. Dat levert met elke bevestiging en correctie een auditspoor en een meetbare kwaliteitsloop op.",
+      "Is het uitstel van de AI Act een reden om met eisen aan AI in fintech te wachten?",
+      "Nee. Een kredietmodel dat nu wordt ingekocht of gebouwd, is waarschijnlijk nog in gebruik als de hoog-risicoregels vanaf 2 december 2027 gelden, dus bij AI in fintech horen die eisen nu al in ontwerp en selectie. Met de Vendor Review wordt de keuze voor een leverancier of bouwpartij vastgelegd op een manier waar inkoop, compliance en audit mee verder kunnen.",
+      "Hoe verhoudt een AI-dienst van een externe leverancier bij AI in fintech zich tot DORA?",
+      "Een AI-dienst die een financiële instelling afneemt, hoort bij AI in fintech in de praktijk bij de ICT-diensten van derden waarvan DORA een informatieregister vraagt, inclusief onderuitbesteding. DORA geldt sinds 17 januari 2025 en richt zich op de financiële instelling; de precieze kwalificatie is iets om te laten toetsen door de compliance- of juridische afdeling. Exitpad, afhankelijkheid en incidentafspraken horen bij een externe AI-dienst in de selectie.",
+      "Bron: artikel van Dave Willemstein; primaire bron: Verordening (EU) 2024/1689 (AI-verordening), EUR-Lex; Verordening (EU) 2026/1744 (Digitale omnibus inzake AI), Publicatieblad L van 24.7.2026, EUR-Lex; Verordening (EU) 2022/2554 (DORA), EUR-Lex; Uitvoeringsverordening (EU) 2024/2956 (standaardmodellen informatieregister DORA), EUR-Lex (peildatum 6 oktober 2026). Bijgewerkt: oktober 2026.",
       "AI toepassingen in fintech",
       "In fintech en de bredere financiële sector komen AI-toepassingen grofweg in vier soorten voor:",
       "Documentverwerking: gegevens halen uit identiteitsbewijzen, uittreksels, jaarrekeningen, loonstroken of polissen. Dit is het klassieke terrein van onboarding, KYC en acceptatie.",
@@ -231,105 +277,140 @@
     {
       "regio": "header",
       "soort": "intern",
-      "href": "/",
+      "href": "/nl",
       "anker": "",
       "rel": null
     },
     {
       "regio": "header",
       "soort": "intern",
-      "href": "/diensten",
+      "href": "/nl/diensten",
       "anker": "Diensten",
       "rel": null
     },
     {
       "regio": "header",
       "soort": "intern",
-      "href": "/cases",
+      "href": "/nl/cases",
       "anker": "Cases",
       "rel": null
     },
     {
       "regio": "header",
       "soort": "intern",
-      "href": "/werkwijze",
+      "href": "/nl/werkwijze",
       "anker": "Werkwijze",
       "rel": null
     },
     {
       "regio": "header",
       "soort": "intern",
-      "href": "/inzichten",
+      "href": "/nl/inzichten",
       "anker": "Inzichten",
       "rel": null
     },
     {
       "regio": "header",
       "soort": "intern",
-      "href": "/over",
+      "href": "/nl/over",
       "anker": "Over mij",
       "rel": null
     },
     {
       "regio": "header",
       "soort": "intern",
-      "href": "/contact",
+      "href": "/markets/fintech",
+      "anker": "EN",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/nl/contact",
       "anker": "Plan een gesprek →",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/",
+      "href": "/nl",
       "anker": "Home",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/markten",
+      "href": "/nl/markten",
       "anker": "Markten",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/markten",
+      "href": "/nl/markten",
       "anker": "Lees meer over Markten →",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/contact",
+      "href": "/nl/contact",
       "anker": "Plan een adviesgesprek →",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/over",
+      "href": "/nl/over",
       "anker": "Dave Willemstein",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/cases/ai-strategie-investeringsmaatschappij",
+      "href": "/nl/diensten/ai-readiness-assessment",
+      "anker": "AI Readiness Assessment",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/nl/diensten/vendor-review",
+      "anker": "Vendor Review",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/nl/diensten/ai-due-diligence",
+      "anker": "AI Due Diligence",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/nl/diensten/fractional-ai-lead",
+      "anker": "Fractional AI Lead",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/nl/cases/ai-strategie-investeringsmaatschappij",
       "anker": "use-case portfolio voor een investeringsmaatschappij",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/cases/kyc-documentanalyse-financial-services",
+      "href": "/nl/cases/kyc-documentanalyse-financial-services",
       "anker": "KYC-documentanalyse bij een financiële dienstverlener",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/inzichten/ai-agents-wat-ze-wel-en-niet-kunnen",
+      "href": "/nl/inzichten/ai-agents-wat-ze-wel-en-niet-kunnen",
       "anker": "AI-agents in een bedrijfsproces",
       "rel": null
     },
@@ -385,98 +466,98 @@
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/ai-beleid/ai-act",
+      "href": "/nl/ai-beleid/ai-act",
       "anker": "de AI Act",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/ai-beleid",
+      "href": "/nl/ai-beleid",
       "anker": "AI-beleid",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/inzichten/ai-governance-zonder-bureaucratie",
+      "href": "/nl/inzichten/ai-governance-zonder-bureaucratie",
       "anker": "AI-governance zonder bureaucratie",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/diensten/ai-readiness-assessment",
+      "href": "/nl/diensten/ai-readiness-assessment",
       "anker": "AI Readiness Assessment",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/diensten/vendor-review",
+      "href": "/nl/diensten/vendor-review",
       "anker": "Vendor Review",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/diensten/ai-due-diligence",
+      "href": "/nl/diensten/ai-due-diligence",
       "anker": "AI Due Diligence",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/diensten/fractional-ai-lead",
+      "href": "/nl/diensten/fractional-ai-lead",
       "anker": "Fractional AI Lead",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/markten/zorg",
+      "href": "/nl/markten/zorg",
       "anker": "AI in de zorg",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/markten/marketing",
+      "href": "/nl/markten/marketing",
       "anker": "AI voor marketing",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/markten",
+      "href": "/nl/markten",
       "anker": "AI per branche",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/contact",
+      "href": "/nl/contact",
       "anker": "Plan een adviesgesprek",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/over",
+      "href": "/nl/over",
       "anker": "Over mij",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/partnernetwerk",
+      "href": "/nl/partnernetwerk",
       "anker": "Mijn partnernetwerk",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/diensten/ai-readiness-assessment",
+      "href": "/nl/diensten/ai-readiness-assessment",
       "anker": "Weten waar je staat met AI? Bekijk het AI Readiness Assessment →",
       "rel": null
     },
@@ -539,154 +620,154 @@
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/contact",
+      "href": "/nl/contact",
       "anker": "Plan een gesprek →",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/diensten/ai-readiness-assessment",
+      "href": "/nl/diensten/ai-readiness-assessment",
       "anker": "AI Readiness Assessment",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/diensten/ai-strategy-sprint",
+      "href": "/nl/diensten/ai-strategy-sprint",
       "anker": "AI Strategy Sprint",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/diensten/fractional-ai-lead",
+      "href": "/nl/diensten/fractional-ai-lead",
       "anker": "Fractional AI Lead",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/diensten",
+      "href": "/nl/diensten",
       "anker": "Alle diensten",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/cases",
+      "href": "/nl/cases",
       "anker": "Cases",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/werkwijze",
+      "href": "/nl/werkwijze",
       "anker": "Werkwijze",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/inzichten",
+      "href": "/nl/inzichten",
       "anker": "Inzichten",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/veelgestelde-vragen",
+      "href": "/nl/veelgestelde-vragen",
       "anker": "Veelgestelde vragen",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/over",
+      "href": "/nl/over",
       "anker": "Over mij",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-consultancy",
+      "href": "/nl/ai-consultancy",
       "anker": "AI consultancy",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-implementatie",
+      "href": "/nl/ai-implementatie",
       "anker": "AI implementatie",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-automatisering",
+      "href": "/nl/ai-automatisering",
       "anker": "AI automatisering",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-voor-bedrijven",
+      "href": "/nl/ai-voor-bedrijven",
       "anker": "AI voor bedrijven",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-development",
+      "href": "/nl/ai-development",
       "anker": "AI development",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-agents",
+      "href": "/nl/ai-agents",
       "anker": "AI agents",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-beleid",
+      "href": "/nl/ai-beleid",
       "anker": "AI beleid",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-workshop",
+      "href": "/nl/ai-workshop",
       "anker": "AI workshop",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/markten",
+      "href": "/nl/markten",
       "anker": "AI per branche",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/kennisbank",
+      "href": "/nl/kennisbank",
       "anker": "Kennisbank",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/tarieven",
+      "href": "/nl/tarieven",
       "anker": "Tarieven",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/partnernetwerk",
+      "href": "/nl/partnernetwerk",
       "anker": "Partnernetwerk",
       "rel": null
     },
@@ -707,27 +788,27 @@
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/contact",
+      "href": "/nl/contact",
       "anker": "Plan een gesprek",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/privacy",
+      "href": "/nl/privacy",
       "anker": "Privacyverklaring",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/algemene-voorwaarden",
+      "href": "/nl/algemene-voorwaarden",
       "anker": "Algemene voorwaarden",
       "rel": null
     }
   ],
   "structured_data": {
-    "sha256": "6f4d48e7a825a45bb41ae1ae005d29f035c26add5e7feda9a77f8868d4915e54",
+    "sha256": "4cce28bd038ca808f450adf6e10e6e4c483a95857d7def3d434bf600b586035c",
     "items": [
       {
         "@context": "https://schema.org",
@@ -739,19 +820,19 @@
                 "@type": "ListItem",
                 "position": 1,
                 "name": "Home",
-                "item": "https://freelanceaiconsultant.com/"
+                "item": "https://freelanceaiconsultant.com/nl"
               },
               {
                 "@type": "ListItem",
                 "position": 2,
                 "name": "Markten",
-                "item": "https://freelanceaiconsultant.com/markten"
+                "item": "https://freelanceaiconsultant.com/nl/markten"
               },
               {
                 "@type": "ListItem",
                 "position": 3,
                 "name": "AI voor fintech",
-                "item": "https://freelanceaiconsultant.com/markten/fintech"
+                "item": "https://freelanceaiconsultant.com/nl/markten/fintech"
               }
             ]
           },
@@ -775,7 +856,7 @@
               "@type": "Person",
               "name": "Dave Willemstein"
             },
-            "mainEntityOfPage": "https://freelanceaiconsultant.com/markten/fintech"
+            "mainEntityOfPage": "https://freelanceaiconsultant.com/nl/markten/fintech"
           },
           {
             "@type": "FAQPage",
@@ -810,6 +891,38 @@
                 "acceptedAnswer": {
                   "@type": "Answer",
                   "text": "Met één proces waar veel handwerk zit en waar een fout te herstellen is, zoals het voorbereiden van dossiers of het beantwoorden van standaardvragen. Leg vanaf de start vast wat het systeem doet, wie controleert en hoe je dat aantoont. Dat is goedkoper dan het achteraf reconstrueren voor een toezichthouder."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Waar levert AI in fintech het meest op en welke regels spelen mee?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Bij AI in fintech leveren documentverwerking en signalering vaak de snelste winst: AI is goed in het halen van gegevens uit documenten, terwijl het oordeel in de meeste processen bij een mens hoort. Kredietbeoordeling van personen en de risicobeoordeling en prijsstelling bij levens- en ziektekostenverzekeringen zijn hoog risico onder de AI Act, met regels vanaf 2 december 2027 (stand september 2026). Voor financiële instellingen zijn er het AI Readiness Assessment om te prioriteren, de Vendor Review om te kiezen, de AI Due Diligence om te beoordelen en de Fractional AI Lead om te borgen."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Blijft bij AI in fintech het oordeel bij een mens?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Bij AI in fintech hoort het oordeel in de meeste processen bij een mens, die de voorstellen van het systeem bevestigt of corrigeert. Dat levert met elke bevestiging en correctie een auditspoor en een meetbare kwaliteitsloop op."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Is het uitstel van de AI Act een reden om met eisen aan AI in fintech te wachten?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Nee. Een kredietmodel dat nu wordt ingekocht of gebouwd, is waarschijnlijk nog in gebruik als de hoog-risicoregels vanaf 2 december 2027 gelden, dus bij AI in fintech horen die eisen nu al in ontwerp en selectie. Met de Vendor Review wordt de keuze voor een leverancier of bouwpartij vastgelegd op een manier waar inkoop, compliance en audit mee verder kunnen."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Hoe verhoudt een AI-dienst van een externe leverancier bij AI in fintech zich tot DORA?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Een AI-dienst die een financiële instelling afneemt, hoort bij AI in fintech in de praktijk bij de ICT-diensten van derden waarvan DORA een informatieregister vraagt, inclusief onderuitbesteding. DORA geldt sinds 17 januari 2025 en richt zich op de financiële instelling; de precieze kwalificatie is iets om te laten toetsen door de compliance- of juridische afdeling. Exitpad, afhankelijkheid en incidentafspraken horen bij een externe AI-dienst in de selectie."
                 }
               }
             ]
@@ -854,12 +967,12 @@
     ],
     "stylesheets": [
       "https://fonts.googleapis.com/css2?family=Caveat:wght@600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap",
-      "/_astro/_slug_.bq6BBoZ5.css",
-      "/_astro/_slug_.goiX3PVF.css",
+      "/_astro/_slug_.BzqUXH8l.css",
+      "/_astro/_slug_.Do5RJXa7.css",
       "/logo-carousel/logo-carousel.css?v=2"
     ],
     "aantal_details": 4,
     "aantal_tabellen": 0
   },
-  "gemeten_op": "2026-10-06"
+  "gemeten_op": "2026-10-29"
 }

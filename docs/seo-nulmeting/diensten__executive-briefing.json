@@ -2,7 +2,7 @@
   "url": "/diensten/executive-briefing",
   "build_bestand": "dist/diensten/executive-briefing/index.html",
   "html": {
-    "bytes": 38607,
+    "bytes": 38579,
     "lang": "nl"
   },
   "beschermd": {
@@ -177,8 +177,8 @@
   ],
   "bodytekst": {
     "regio": "main",
-    "woorden": 948,
-    "sha256": "d4bd91ca4db581db25f229dc693f7f086c9ff76981a2da739b1dae187a30fbff",
+    "woorden": 945,
+    "sha256": "c9876ad7477a6038aa582f71027e9e69db7c23a3d767f27232deb3e7b39c44cf",
     "blokken": [
       "Iedereen aan tafel hetzelfde beeld",
       "Executive Briefing",
@@ -250,7 +250,7 @@
       "Inclusief voorbereiding op jouw sector en situatie. Volledig verrekend als je binnen 60 dagen start met een AI Readiness Assessment. Alle voorstellen zijn exclusief btw.",
       "Vraag een voorstel aan → Prijs op maat, afhankelijk van scope",
       "Wat levert een Executive Briefing op en wat kost die?",
-      "De Executive Briefing van Dave Willemstein geeft een directie, RvC of RvT een gedeeld en realistisch beeld van wat AI voor de organisatie betekent. Deelnemers krijgen een beslisagenda, een vragenlijst voor toezicht en een beknopte samenvatting. De Executive Briefing is een sessie van drie uur, samen met de voorbereiding één dagdeel, en kost een vaste prijs of vast maandbedrag, vastgelegd in het voorstel, exclusief btw en reiskosten.",
+      "De Executive Briefing van Dave Willemstein geeft een directie, RvC of RvT een gedeeld en realistisch beeld van wat AI voor de organisatie betekent. Deelnemers krijgen een beslisagenda, een vragenlijst voor toezicht en een beknopte samenvatting. De Executive Briefing is een sessie van drie uur, samen met de voorbereiding één dagdeel en kost een vaste projectprijs, vastgelegd in het voorstel, exclusief btw en reiskosten.",
       "Wanneer wordt de prijs van de Executive Briefing verrekend?",
       "De Executive Briefing wordt volledig verrekend als binnen 60 dagen een AI Readiness Assessment start.",
       "Past de Executive Briefing bij wie een inspirerende keynote zoekt?",
@@ -658,7 +658,7 @@
     }
   ],
   "structured_data": {
-    "sha256": "120448980cc5b4aa28cdbaba455f193df1eb9453894f17c43ed4b4e798a14ecd",
+    "sha256": "a72051f1f311dd761074a474d80e14b7a12b405079f962c221268e5dd66efd2f",
     "items": [
       [
         {
@@ -687,7 +687,7 @@
               "name": "Wat levert een Executive Briefing op en wat kost die?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "De Executive Briefing van Dave Willemstein geeft een directie, RvC of RvT een gedeeld en realistisch beeld van wat AI voor de organisatie betekent. Deelnemers krijgen een beslisagenda, een vragenlijst voor toezicht en een beknopte samenvatting. De Executive Briefing is een sessie van drie uur, samen met de voorbereiding één dagdeel, en kost een vaste prijs of vast maandbedrag, vastgelegd in het voorstel, exclusief btw en reiskosten."
+                "text": "De Executive Briefing van Dave Willemstein geeft een directie, RvC of RvT een gedeeld en realistisch beeld van wat AI voor de organisatie betekent. Deelnemers krijgen een beslisagenda, een vragenlijst voor toezicht en een beknopte samenvatting. De Executive Briefing is een sessie van drie uur, samen met de voorbereiding één dagdeel en kost een vaste projectprijs, vastgelegd in het voorstel, exclusief btw en reiskosten."
               }
             },
             {
@@ -754,5 +754,5 @@
     "aantal_details": 3,
     "aantal_tabellen": 0
   },
-  "gemeten_op": "2026-10-28"
+  "gemeten_op": "2026-10-29"
 }

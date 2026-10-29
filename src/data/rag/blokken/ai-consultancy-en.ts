@@ -6,11 +6,11 @@ export default {
   "onderwerp": "AI consulting",
   "vraagkop": "What does AI consulting cost?",
   "onderBestaandeKop": true,
-  "antwoord": "AI consulting from {{afzender}} is delivered in fixed packages with a fixed price or fixed monthly fee agreed upfront, not against an open hourly rate. {{dienst:ai-readiness-assessment}} takes {{timing:ai-readiness-assessment}}, {{dienst:ai-strategy-sprint}} takes {{timing:ai-strategy-sprint}}, and {{dienst:fractional-ai-lead}} is an ongoing role. Scoped advice and second opinions get a fixed price in the proposal, and the amounts are {{voorwaarden}}.",
+  "antwoord": "AI consulting from {{afzender}} is delivered in fixed packages, not against an open hourly rate: a fixed project fee for a scoped engagement, or a fixed monthly fee for {{dienst:fractional-ai-lead}}. {{dienst:ai-readiness-assessment}} takes {{timing:ai-readiness-assessment}}, {{dienst:ai-strategy-sprint}} takes {{timing:ai-strategy-sprint}}, and {{dienst:fractional-ai-lead}} is an ongoing role. Scoped advice and second opinions get a fixed price in the proposal; all proposals are {{voorwaarden}}.",
   "vervolgvragen": [
     {
       "vraag": "What does AI consulting cost for a leadership team or board?",
-      "antwoord": "{{dienst:executive-briefing}} costs {{pricelc:executive-briefing}} and is aimed at leadership teams and boards that want to fulfil their oversight role on AI. {{dienst:executive-briefing}} takes {{timing:executive-briefing}} and is prepared for the organisation's sector."
+      "antwoord": "{{dienst:executive-briefing}} is priced as {{pricelc:executive-briefing}} and is aimed at leadership teams and boards that want to fulfil their oversight role on AI. {{dienst:executive-briefing}} takes {{timing:executive-briefing}} and is prepared for the organisation's sector."
     },
     {
       "vraag": "Can the AI Readiness Assessment within AI consulting also be scoped to one department?",

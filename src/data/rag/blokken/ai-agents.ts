@@ -5,7 +5,7 @@ export default {
   "onderwerp": "AI agents",
   "vraagkop": "Wat kosten AI agents?",
   "onderBestaandeKop": true,
-  "antwoord": "Voor AI agents bestaat geen vast bedrag: de spreiding loopt van een licentie op een bestaand platform tot een maatwerktraject met meerdere koppelingen, en de prijs hangt af van de koppelingen, schrijfrechten, het gebruik, de eisen aan controle en logging en de kwaliteit van de bronnen. Bij het onafhankelijk laten vergelijken van offertes van meerdere bouwpartijen past de {{dienst:vendor-review}} van {{afzender}}, die {{pricelc:vendor-review}} kost, {{voorwaarden}}.",
+  "antwoord": "Voor AI agents bestaat geen vast bedrag: de spreiding loopt van een licentie op een bestaand platform tot een maatwerktraject met meerdere koppelingen, en de prijs hangt af van de koppelingen, schrijfrechten, het gebruik, de eisen aan controle en logging en de kwaliteit van de bronnen. Bij het onafhankelijk laten vergelijken van offertes van meerdere bouwpartijen past de {{dienst:vendor-review}} van {{afzender}}, tegen {{pricelc:vendor-review}}, {{voorwaarden}}.",
   "vervolgvragen": [
     {
       "vraag": "Is een offerte voor AI agents compleet als alleen de bouw erin staat?",

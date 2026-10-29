@@ -15,7 +15,7 @@ export default {
     {
       "vraag": "Hangt de prijs van de Vendor Review af van het aantal leveranciers?",
       "onvoorwaardelijk": true,
-      "antwoord": "Ja. De {{dienst:vendor-review}} kost {{pricelc:vendor-review}}, afhankelijk van het aantal leveranciers (2 tot 4). De bedragen zijn {{voorwaarden}}."
+      "antwoord": "Ja. De {{dienst:vendor-review}} kost {{pricelc:vendor-review}}, afhankelijk van het aantal leveranciers (2 tot 4). Alle voorstellen zijn {{voorwaarden}}."
     },
     {
       "vraag": "Waar let een organisatie op bij de beveiliging van een AI agent?",

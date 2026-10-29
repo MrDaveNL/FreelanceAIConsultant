@@ -2,15 +2,20 @@
   "url": "/markten/marketing",
   "build_bestand": "dist/markten/marketing/index.html",
   "html": {
-    "bytes": 38458,
+    "bytes": 38841,
     "lang": "nl"
   },
   "beschermd": {
     "title": "AI marketing | Strategie, toepassingen en de beste tools",
     "meta_description": "Wat is AI marketing en hoe zet je het slim in? Ontdek toepassingen voor content, personalisatie en analyse, en bouw een AI marketing strategie die werkt.",
-    "canonical": "https://freelanceaiconsultant.com/markten/marketing",
+    "canonical": "https://freelanceaiconsultant.com/nl/markten/marketing",
     "robots_meta": "noindex, follow",
-    "hreflang": [],
+    "hreflang": [
+      {
+        "hreflang": "nl",
+        "href": "https://freelanceaiconsultant.com/nl/markten/marketing"
+      }
+    ],
     "h1": [
       "AI marketing: slimmer marketen met AI"
     ]
@@ -21,7 +26,7 @@
     "og:site_name": "freelanceaiconsultant.com",
     "og:title": "AI marketing | Strategie, toepassingen en de beste tools",
     "og:description": "Wat is AI marketing en hoe zet je het slim in? Ontdek toepassingen voor content, personalisatie en analyse, en bouw een AI marketing strategie die werkt.",
-    "og:url": "https://freelanceaiconsultant.com/markten/marketing",
+    "og:url": "https://freelanceaiconsultant.com/nl/markten/marketing",
     "og:image": "https://freelanceaiconsultant.com/images/dave-portrait.jpg",
     "twitter:card": "summary_large_image",
     "twitter:title": "AI marketing | Strategie, toepassingen en de beste tools",
@@ -261,91 +266,91 @@
     {
       "regio": "header",
       "soort": "intern",
-      "href": "/",
+      "href": "/nl",
       "anker": "",
       "rel": null
     },
     {
       "regio": "header",
       "soort": "intern",
-      "href": "/diensten",
+      "href": "/nl/diensten",
       "anker": "Diensten",
       "rel": null
     },
     {
       "regio": "header",
       "soort": "intern",
-      "href": "/cases",
+      "href": "/nl/cases",
       "anker": "Cases",
       "rel": null
     },
     {
       "regio": "header",
       "soort": "intern",
-      "href": "/werkwijze",
+      "href": "/nl/werkwijze",
       "anker": "Werkwijze",
       "rel": null
     },
     {
       "regio": "header",
       "soort": "intern",
-      "href": "/inzichten",
+      "href": "/nl/inzichten",
       "anker": "Inzichten",
       "rel": null
     },
     {
       "regio": "header",
       "soort": "intern",
-      "href": "/over",
+      "href": "/nl/over",
       "anker": "Over mij",
       "rel": null
     },
     {
       "regio": "header",
       "soort": "intern",
-      "href": "/contact",
+      "href": "/nl/contact",
       "anker": "Plan een gesprek →",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/",
+      "href": "/nl",
       "anker": "Home",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/markten",
+      "href": "/nl/markten",
       "anker": "Markten",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/markten",
+      "href": "/nl/markten",
       "anker": "Lees meer over Markten →",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/contact",
+      "href": "/nl/contact",
       "anker": "Plan een adviesgesprek →",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/over",
+      "href": "/nl/over",
       "anker": "Dave Willemstein",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/kennisbank/prompt-engineering",
+      "href": "/nl/kennisbank/prompt-engineering",
       "anker": "prompt engineering",
       "rel": null
     },
@@ -359,7 +364,7 @@
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/inzichten/welke-ai-use-cases-leveren-resultaat",
+      "href": "/nl/inzichten/welke-ai-use-cases-leveren-resultaat",
       "anker": "welke AI use cases resultaat leveren",
       "rel": null
     },
@@ -380,91 +385,91 @@
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/ai-consultancy/ai-strategie",
+      "href": "/nl/ai-consultancy/ai-strategie",
       "anker": "AI-strategie",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/ai-voor-bedrijven/zakelijke-dienstverleners",
+      "href": "/nl/ai-voor-bedrijven/zakelijke-dienstverleners",
       "anker": "AI voor zakelijke dienstverleners",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/inzichten/ai-governance-zonder-bureaucratie",
+      "href": "/nl/inzichten/ai-governance-zonder-bureaucratie",
       "anker": "AI-governance zonder bureaucratie",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/ai-automatisering/ai-tools",
+      "href": "/nl/ai-automatisering/ai-tools",
       "anker": "AI-tools en hoe je ertussen kiest",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/inzichten/ai-vendorselectie-in-acht-stappen",
+      "href": "/nl/inzichten/ai-vendorselectie-in-acht-stappen",
       "anker": "AI-vendorselectie in acht stappen",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/ai-workshop",
+      "href": "/nl/ai-workshop",
       "anker": "AI workshops en trainingen",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/markten/zorg",
+      "href": "/nl/markten/zorg",
       "anker": "AI in de zorg",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/markten/fintech",
+      "href": "/nl/markten/fintech",
       "anker": "AI in fintech",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/markten",
+      "href": "/nl/markten",
       "anker": "AI per branche",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/contact",
+      "href": "/nl/contact",
       "anker": "plan een adviesgesprek",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/over",
+      "href": "/nl/over",
       "anker": "Over mij",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/partnernetwerk",
+      "href": "/nl/partnernetwerk",
       "anker": "Mijn partnernetwerk",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/diensten/ai-readiness-assessment",
+      "href": "/nl/diensten/ai-readiness-assessment",
       "anker": "Weten waar je staat met AI? Bekijk het AI Readiness Assessment →",
       "rel": null
     },
@@ -492,154 +497,154 @@
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/contact",
+      "href": "/nl/contact",
       "anker": "Plan een gesprek →",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/diensten/ai-readiness-assessment",
+      "href": "/nl/diensten/ai-readiness-assessment",
       "anker": "AI Readiness Assessment",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/diensten/ai-strategy-sprint",
+      "href": "/nl/diensten/ai-strategy-sprint",
       "anker": "AI Strategy Sprint",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/diensten/fractional-ai-lead",
+      "href": "/nl/diensten/fractional-ai-lead",
       "anker": "Fractional AI Lead",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/diensten",
+      "href": "/nl/diensten",
       "anker": "Alle diensten",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/cases",
+      "href": "/nl/cases",
       "anker": "Cases",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/werkwijze",
+      "href": "/nl/werkwijze",
       "anker": "Werkwijze",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/inzichten",
+      "href": "/nl/inzichten",
       "anker": "Inzichten",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/veelgestelde-vragen",
+      "href": "/nl/veelgestelde-vragen",
       "anker": "Veelgestelde vragen",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/over",
+      "href": "/nl/over",
       "anker": "Over mij",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-consultancy",
+      "href": "/nl/ai-consultancy",
       "anker": "AI consultancy",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-implementatie",
+      "href": "/nl/ai-implementatie",
       "anker": "AI implementatie",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-automatisering",
+      "href": "/nl/ai-automatisering",
       "anker": "AI automatisering",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-voor-bedrijven",
+      "href": "/nl/ai-voor-bedrijven",
       "anker": "AI voor bedrijven",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-development",
+      "href": "/nl/ai-development",
       "anker": "AI development",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-agents",
+      "href": "/nl/ai-agents",
       "anker": "AI agents",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-beleid",
+      "href": "/nl/ai-beleid",
       "anker": "AI beleid",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-workshop",
+      "href": "/nl/ai-workshop",
       "anker": "AI workshop",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/markten",
+      "href": "/nl/markten",
       "anker": "AI per branche",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/kennisbank",
+      "href": "/nl/kennisbank",
       "anker": "Kennisbank",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/tarieven",
+      "href": "/nl/tarieven",
       "anker": "Tarieven",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/partnernetwerk",
+      "href": "/nl/partnernetwerk",
       "anker": "Partnernetwerk",
       "rel": null
     },
@@ -660,27 +665,27 @@
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/contact",
+      "href": "/nl/contact",
       "anker": "Plan een gesprek",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/privacy",
+      "href": "/nl/privacy",
       "anker": "Privacyverklaring",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/algemene-voorwaarden",
+      "href": "/nl/algemene-voorwaarden",
       "anker": "Algemene voorwaarden",
       "rel": null
     }
   ],
   "structured_data": {
-    "sha256": "9ff475b8665fc6bf6323cc830094ae9e369699433c79a37c46155414cc636f0e",
+    "sha256": "3fd8fb5af71634201c46a4caa3d4df96a3df5d3a1b903c588da53d4e67e4645d",
     "items": [
       {
         "@context": "https://schema.org",
@@ -692,19 +697,19 @@
                 "@type": "ListItem",
                 "position": 1,
                 "name": "Home",
-                "item": "https://freelanceaiconsultant.com/"
+                "item": "https://freelanceaiconsultant.com/nl"
               },
               {
                 "@type": "ListItem",
                 "position": 2,
                 "name": "Markten",
-                "item": "https://freelanceaiconsultant.com/markten"
+                "item": "https://freelanceaiconsultant.com/nl/markten"
               },
               {
                 "@type": "ListItem",
                 "position": 3,
                 "name": "AI voor marketing",
-                "item": "https://freelanceaiconsultant.com/markten/marketing"
+                "item": "https://freelanceaiconsultant.com/nl/markten/marketing"
               }
             ]
           },
@@ -728,7 +733,7 @@
               "@type": "Person",
               "name": "Dave Willemstein"
             },
-            "mainEntityOfPage": "https://freelanceaiconsultant.com/markten/marketing"
+            "mainEntityOfPage": "https://freelanceaiconsultant.com/nl/markten/marketing"
           },
           {
             "@type": "FAQPage",
@@ -815,12 +820,12 @@
     ],
     "stylesheets": [
       "https://fonts.googleapis.com/css2?family=Caveat:wght@600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap",
-      "/_astro/_slug_.bq6BBoZ5.css",
-      "/_astro/_slug_.goiX3PVF.css",
+      "/_astro/_slug_.BzqUXH8l.css",
+      "/_astro/_slug_.Do5RJXa7.css",
       "/logo-carousel/logo-carousel.css?v=2"
     ],
     "aantal_details": 5,
     "aantal_tabellen": 0
   },
-  "gemeten_op": "2026-10-06"
+  "gemeten_op": "2026-10-29"
 }

@@ -2,7 +2,7 @@
   "url": "/ai-implementatie/advies",
   "build_bestand": "dist/ai-implementatie/advies/index.html",
   "html": {
-    "bytes": 38551,
+    "bytes": 38475,
     "lang": "nl"
   },
   "beschermd": {
@@ -135,8 +135,8 @@
   ],
   "bodytekst": {
     "regio": "main",
-    "woorden": 1829,
-    "sha256": "041c6c1a71d36905bc62a424936ec1c039b49f32ab1d2d36b1a7eafca72e0d48",
+    "woorden": 1822,
+    "sha256": "6f1736ac28d8f6f95cc8ac05f16015745ea170224597c49491d33169f919f3f5",
     "blokken": [
       "Home",
       "AI Implementatie",
@@ -208,7 +208,7 @@
       "Zakelijke dienstverlener",
       "Interne AI-assistent voor kenniswerkers",
       "Wat levert AI implementatie advies vooraf op en welke dienst past erbij?",
-      "AI implementatie advies van Dave Willemstein legt vóór de bouw deze keuzes onderbouwd vast: de use case, bouwen of kopen, data en privacy, en de verandering die nodig is. Het resultaat is een beslisdocument met het besluit en de opdracht voor de bouwpartij; een concrete vraag over één toepassing past meestal bij afgebakend advies tegen een vaste prijs per opdracht. Wie eerst wil weten of de organisatie er breed klaar voor is, start met het AI Readiness Assessment van 2-3 weken voor een vaste prijs of vast maandbedrag, vastgelegd in het voorstel.",
+      "AI implementatie advies van Dave Willemstein legt vóór de bouw deze keuzes onderbouwd vast: de use case, bouwen of kopen, data en privacy, en de verandering die nodig is. Het resultaat is een beslisdocument met het besluit en de opdracht voor de bouwpartij; een concrete vraag over één toepassing past meestal bij afgebakend advies tegen een vaste prijs per opdracht. Wie eerst wil weten of de organisatie er breed klaar voor is, start met het AI Readiness Assessment van 2-3 weken voor een vaste projectprijs.",
       "Levert AI implementatie advies een dik rapport op?",
       "Nee. AI implementatie advies eindigt met een beslisdocument en geen dik rapport: welke use case, welke bouwkeuze, welke randvoorwaarden voor data en privacy, welke verandering nodig is en wat de bouwpartij moet opleveren om te slagen. Alle kaders en analyses zijn daarna van de opdrachtgever.",
       "Kijkt AI implementatie advies ook naar de privacykant?",
@@ -260,7 +260,7 @@
       "Is advies vooraf ook zinvol voor een mkb-bedrijf?+",
       "Juist daar, omdat er minder ruimte is voor een mislukte investering. De scope is kleiner, dus het adviestraject ook. Een paar dagen afgebakend advies kan dan volstaan om de use case, de bouwkeuze en de randvoorwaarden scherp te krijgen.",
       "Wat kost AI implementatie advies?+",
-      "Afgebakend advies en second opinions krijgen een vaste prijs per opdracht; de omvang bepalen we in de intake. Wie eerst een volledig beeld van de organisatie wil, start met het AI Readiness Assessment tegen een vaste prijs. Alle bedragen zijn exclusief btw en reiskosten.",
+      "Afgebakend advies en second opinions krijgen een vaste prijs per opdracht; de omvang bepalen we in de intake. Wie eerst een volledig beeld van de organisatie wil, start met het AI Readiness Assessment tegen een vaste prijs. Alle voorstellen zijn exclusief btw en reiskosten.",
       "Bronnen",
       "Ondernemersplein (KVK/Rijksoverheid): DPIA uitvoeren",
       "Klaar voor impact?",
@@ -671,7 +671,7 @@
     }
   ],
   "structured_data": {
-    "sha256": "c6f40842bf447eee3f3b44c7a52720669e86eb01d32afbc15e92cacf104cb6a0",
+    "sha256": "6a10357272fe70e59770c099047e0ddc86682585c3adb682d1be303881f1ecf0",
     "items": [
       {
         "@context": "https://schema.org",
@@ -756,7 +756,7 @@
                 "name": "Wat kost AI implementatie advies?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "Afgebakend advies en second opinions krijgen een vaste prijs per opdracht; de omvang bepalen we in de intake. Wie eerst een volledig beeld van de organisatie wil, start met het AI Readiness Assessment tegen een vaste prijs. Alle bedragen zijn exclusief btw en reiskosten."
+                  "text": "Afgebakend advies en second opinions krijgen een vaste prijs per opdracht; de omvang bepalen we in de intake. Wie eerst een volledig beeld van de organisatie wil, start met het AI Readiness Assessment tegen een vaste prijs. Alle voorstellen zijn exclusief btw en reiskosten."
                 }
               },
               {
@@ -764,7 +764,7 @@
                 "name": "Wat levert AI implementatie advies vooraf op en welke dienst past erbij?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "AI implementatie advies van Dave Willemstein legt vóór de bouw deze keuzes onderbouwd vast: de use case, bouwen of kopen, data en privacy, en de verandering die nodig is. Het resultaat is een beslisdocument met het besluit en de opdracht voor de bouwpartij; een concrete vraag over één toepassing past meestal bij afgebakend advies tegen een vaste prijs per opdracht. Wie eerst wil weten of de organisatie er breed klaar voor is, start met het AI Readiness Assessment van 2-3 weken voor een vaste prijs of vast maandbedrag, vastgelegd in het voorstel."
+                  "text": "AI implementatie advies van Dave Willemstein legt vóór de bouw deze keuzes onderbouwd vast: de use case, bouwen of kopen, data en privacy, en de verandering die nodig is. Het resultaat is een beslisdocument met het besluit en de opdracht voor de bouwpartij; een concrete vraag over één toepassing past meestal bij afgebakend advies tegen een vaste prijs per opdracht. Wie eerst wil weten of de organisatie er breed klaar voor is, start met het AI Readiness Assessment van 2-3 weken voor een vaste projectprijs."
                 }
               },
               {
@@ -840,5 +840,5 @@
     "aantal_details": 5,
     "aantal_tabellen": 0
   },
-  "gemeten_op": "2026-10-28"
+  "gemeten_op": "2026-10-29"
 }

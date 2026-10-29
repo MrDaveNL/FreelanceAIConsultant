@@ -2,7 +2,7 @@
   "url": "/ai-consultancy/ai-advies",
   "build_bestand": "dist/ai-consultancy/ai-advies/index.html",
   "html": {
-    "bytes": 40503,
+    "bytes": 40430,
     "lang": "nl"
   },
   "beschermd": {
@@ -133,8 +133,8 @@
   ],
   "bodytekst": {
     "regio": "main",
-    "woorden": 2068,
-    "sha256": "e67caa48cced3252691d900b8f5d282ced9917bc5db33d773852187fb5d3f9c2",
+    "woorden": 2061,
+    "sha256": "d46567b09cd5552b5962554eabd9e8d0b1148acec69e641c163a1b834dd2f8cb",
     "blokken": [
       "Home",
       "AI Consultancy",
@@ -206,7 +206,7 @@
       "Zakelijke dienstverlener",
       "Interne AI-assistent voor kenniswerkers",
       "Wat kost AI advies en welke vorm past bij welke vraag?",
-      "AI advies van Dave Willemstein beantwoordt één afgebakende vraag of besluit, zoals een leverancierskeuze, een toets van een business case of een second opinion, meestal in dagen. Voor afgebakend advies en second opinions geldt een vaste prijs per opdracht; de Executive Briefing voor directie of raad van commissarissen kost een vaste prijs of vast maandbedrag, vastgelegd in het voorstel. Het advies is onafhankelijk, zonder partnerstatus of commissies bij leveranciers.",
+      "AI advies van Dave Willemstein beantwoordt één afgebakende vraag of besluit, zoals een leverancierskeuze, een toets van een business case of een second opinion, meestal in dagen. Voor afgebakend advies en second opinions geldt een vaste prijs per opdracht; de Executive Briefing voor directie of raad van commissarissen kost een vaste projectprijs. Het advies is onafhankelijk, zonder partnerstatus of commissies bij leveranciers.",
       "AI advies: passende vorm per vraag",
       "Vraag",
       "Passende vorm",
@@ -263,7 +263,7 @@
       "AdviesEen onderbouwd antwoord dat je kunt gebruiken om te besluiten, mondeling toegelicht.",
       "Van vraag naar besluit: een adviestraject is zo kort als de vraag toelaat.",
       "Het eerste gesprek is vrijblijvend en zonder pitch. Blijkt je vraag groter dan een adviesvraag, dan zeg ik dat en stel ik voor wat wel past. Soms is dat een AI Readiness Assessment om eerst te weten waar je staat. Staat er een implementatie op het punt van beginnen, dan gaat het vaak om advies voorafgaand aan AI implementatie: keuze van use case, build of buy, en de voorbereiding van je organisatie.",
-      "Wil je directie of raad van commissarissen eerst een gedeeld beeld geven? Dan is de Executive Briefing de laagdrempeligste vorm van advies: een sessie van drie uur, voorbereid op jouw sector, tegen een vaste prijs. Afgebakend advies en second opinions krijgen een vaste prijs per opdracht. Alle pakketten staan op de pagina met tarieven en pakketten.",
+      "Wil je directie of raad van commissarissen eerst een gedeeld beeld geven? Dan is de Executive Briefing de laagdrempeligste vorm van advies: een sessie van drie uur, voorbereid op jouw sector. Afgebakend advies, second opinions en de Executive Briefing krijgen allemaal een vaste prijs per opdracht. Alle pakketten staan op de pagina met tarieven en pakketten.",
       "Heb je extra capaciteit nodig om het advies uit te voeren, dan stel ik partijen uit mijn partnernetwerk voor. Die contracteer je rechtstreeks, zonder marge voor mij.",
       "Heb je een concrete vraag? Plan een adviesgesprek en vertel waar je tegenaan loopt.",
       "Dave Willemstein Onafhankelijk AI-adviseur",
@@ -755,7 +755,7 @@
     }
   ],
   "structured_data": {
-    "sha256": "13963bab3f708ba650b785ca193ecc7db0b858b52dc95eb095dc98bd388dfce2",
+    "sha256": "2ca97cf5d9a327b3772b38fb1b45f8212c8abb297cae3a9c518d10e2ae0cbb86",
     "items": [
       {
         "@context": "https://schema.org",
@@ -848,7 +848,7 @@
                 "name": "Wat kost AI advies en welke vorm past bij welke vraag?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "AI advies van Dave Willemstein beantwoordt één afgebakende vraag of besluit, zoals een leverancierskeuze, een toets van een business case of een second opinion, meestal in dagen. Voor afgebakend advies en second opinions geldt een vaste prijs per opdracht; de Executive Briefing voor directie of raad van commissarissen kost een vaste prijs of vast maandbedrag, vastgelegd in het voorstel. Het advies is onafhankelijk, zonder partnerstatus of commissies bij leveranciers."
+                  "text": "AI advies van Dave Willemstein beantwoordt één afgebakende vraag of besluit, zoals een leverancierskeuze, een toets van een business case of een second opinion, meestal in dagen. Voor afgebakend advies en second opinions geldt een vaste prijs per opdracht; de Executive Briefing voor directie of raad van commissarissen kost een vaste projectprijs. Het advies is onafhankelijk, zonder partnerstatus of commissies bij leveranciers."
                 }
               },
               {
@@ -924,5 +924,5 @@
     "aantal_details": 5,
     "aantal_tabellen": 1
   },
-  "gemeten_op": "2026-10-28"
+  "gemeten_op": "2026-10-29"
 }

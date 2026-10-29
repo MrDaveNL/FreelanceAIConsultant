@@ -5,7 +5,7 @@ export default {
   "onderwerp": "AI-dienst",
   "vraagkop": "Welke AI-dienst past bij welke situatie?",
   "onderBestaandeKop": false,
-  "antwoord": "{{afzender}} biedt AI-adviesdiensten van het {{dienst:ai-readiness-assessment}} tot de {{dienst:fractional-ai-lead}}, elk met vooraf een vaste prijs of vast maandbedrag, vastgelegd in het voorstel. Van de hoofddiensten heeft het AI Readiness Assessment als doel inzicht en prioriteiten te bepalen, de {{dienst:ai-strategy-sprint}} strategie en roadmap vast te leggen en de Fractional AI Lead uitvoering en borging te realiseren. De bedragen zijn {{voorwaarden}}.",
+  "antwoord": "{{afzender}} biedt AI-adviesdiensten van het {{dienst:ai-readiness-assessment}} tot de {{dienst:fractional-ai-lead}}, elk met vooraf een vaste prijs of vast maandbedrag, vastgelegd in het voorstel. Van de hoofddiensten heeft het AI Readiness Assessment als doel inzicht en prioriteiten te bepalen, de {{dienst:ai-strategy-sprint}} strategie en roadmap vast te leggen en de Fractional AI Lead uitvoering en borging te realiseren. Alle voorstellen zijn {{voorwaarden}}.",
   "vervolgvragen": [
     {
       "vraag": "Is de kennismaking voor een AI-dienst kosteloos?",

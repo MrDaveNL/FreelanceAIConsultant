@@ -5,7 +5,7 @@ export default {
   "type": "dienst",
   "onderwerp": "Fractional AI Lead",
   "vraagkop": "What does a Fractional AI Lead cost and who is the role for?",
-  "antwoord": "{{dienst:fractional-ai-lead}} from {{afzender}} gives organizations with running AI initiatives but no clear owner senior AI leadership on a part-time basis. The role costs {{pricelc:fractional-ai-lead}}, at the Advice, Lead or Lead+ level. The minimum term is 3 months and the role is cancellable monthly after that; the amounts are {{voorwaarden}}.",
+  "antwoord": "{{dienst:fractional-ai-lead}} from {{afzender}} gives organizations with running AI initiatives but no clear owner senior AI leadership on a part-time basis. The role is priced as {{pricelc:fractional-ai-lead}}, depending on the level: Advice, Lead or Lead+. The minimum term is 3 months and the role is cancellable monthly after that; all proposals are {{voorwaarden}}.",
   "vervolgvragen": [
     {
       "vraag": "When can a Fractional AI Lead be cancelled?",

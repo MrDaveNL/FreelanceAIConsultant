@@ -2,15 +2,28 @@
   "url": "/kennisbank/chatgpt-voor-bedrijven",
   "build_bestand": "dist/kennisbank/chatgpt-voor-bedrijven/index.html",
   "html": {
-    "bytes": 32527,
+    "bytes": 36047,
     "lang": "nl"
   },
   "beschermd": {
     "title": "ChatGPT voor bedrijven | Toepassingen en veilig gebruik",
     "meta_description": "Hoe zet je ChatGPT verantwoord in binnen je bedrijf? Lees over zakelijke abonnementen, toepassingen per afdeling, privacy-instellingen en je AI-beleid.",
-    "canonical": "https://freelanceaiconsultant.com/kennisbank/chatgpt-voor-bedrijven",
+    "canonical": "https://freelanceaiconsultant.com/nl/kennisbank/chatgpt-voor-bedrijven",
     "robots_meta": null,
-    "hreflang": [],
+    "hreflang": [
+      {
+        "hreflang": "en",
+        "href": "https://freelanceaiconsultant.com/knowledge-base/chatgpt-for-business"
+      },
+      {
+        "hreflang": "nl",
+        "href": "https://freelanceaiconsultant.com/nl/kennisbank/chatgpt-voor-bedrijven"
+      },
+      {
+        "hreflang": "x-default",
+        "href": "https://freelanceaiconsultant.com/knowledge-base/chatgpt-for-business"
+      }
+    ],
     "h1": [
       "ChatGPT voor bedrijven: toepassingen en veilig gebruik"
     ]
@@ -21,7 +34,7 @@
     "og:site_name": "freelanceaiconsultant.com",
     "og:title": "ChatGPT voor bedrijven | Toepassingen en veilig gebruik",
     "og:description": "Hoe zet je ChatGPT verantwoord in binnen je bedrijf? Lees over zakelijke abonnementen, toepassingen per afdeling, privacy-instellingen en je AI-beleid.",
-    "og:url": "https://freelanceaiconsultant.com/kennisbank/chatgpt-voor-bedrijven",
+    "og:url": "https://freelanceaiconsultant.com/nl/kennisbank/chatgpt-voor-bedrijven",
     "og:image": "https://freelanceaiconsultant.com/images/dave-portrait.jpg",
     "twitter:card": "summary_large_image",
     "twitter:title": "ChatGPT voor bedrijven | Toepassingen en veilig gebruik",
@@ -40,6 +53,18 @@
       "tekst": "Wat kan ChatGPT voor bedrijven?",
       "regio": "main",
       "id": "wat-kan-chatgpt-voor-bedrijven"
+    },
+    {
+      "niveau": 3,
+      "tekst": "Welk abonnement van ChatGPT voor bedrijven biedt Europese dataopslag?",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 3,
+      "tekst": "Is een persoonlijk account geschikt voor bedrijfsdata bij ChatGPT voor bedrijven?",
+      "regio": "main",
+      "id": null
     },
     {
       "niveau": 2,
@@ -74,8 +99,8 @@
   ],
   "bodytekst": {
     "regio": "main",
-    "woorden": 1514,
-    "sha256": "3a60f26dc67f8ab8984a9e1979df889a8cb5b8222f663df12988ca7158fe379a",
+    "woorden": 1667,
+    "sha256": "ffc133343a4b42d82f19e0bf40ed5788ede1f6bcacf55b6595d7b3838642101a",
     "blokken": [
       "Home",
       "Kennisbank",
@@ -148,6 +173,7 @@
       "Zakelijke dienstverlener",
       "Interne AI-assistent voor kenniswerkers",
       "Wat kan ChatGPT voor bedrijven?",
+      "Bij de abonnementen Business en Enterprise blijft training op invoer en uitvoer volgens OpenAI standaard uit (stand september 2026); Dave Willemstein adviseert voor bedrijfsdata Business of Enterprise en geen persoonlijke accounts. ChatGPT kan zelfverzekerd een fout antwoord geven; Dave Willemstein adviseert dat een mens verantwoordelijk blijft voor de controle van alles wat naar een klant, toezichthouder of directie gaat.",
       "ChatGPT is de AI-assistent van OpenAI. Voor bedrijven is het in de kern een schrijf-, denk- en analysepartner die in gewone taal werkt: je stelt een vraag of geeft een opdracht, en je krijgt een tekst, een samenvatting, een analyse of een opzet terug.",
       "In de zakelijke abonnementen zit meer dan het chatvenster. Volgens de prijspagina van OpenAI (stand september 2026) horen bij ChatGPT Business onder meer:",
       "Projecten en gedeelde projecten, om documenten en gesprekken per onderwerp bij elkaar te houden.",
@@ -157,6 +183,11 @@
       "Koppelingen met onder meer Google Workspace, Slack, GitHub en Microsoft 365, en “company knowledge” om antwoorden op je eigen bronnen te baseren.",
       "ChatGPT Work, Codex en workspace agents voor taken die over meerdere stappen lopen.",
       "Wat ChatGPT niet is: een systeem dat vanzelf de waarheid spreekt. Het kan zelfverzekerd een fout antwoord geven, zeker bij feiten, cijfers en bronverwijzingen. Voor alles wat naar een klant, een toezichthouder of de directie gaat, blijft een mens verantwoordelijk voor de controle. Hoe ChatGPT zich verhoudt tot andere tools, zie je in mijn vergelijking van AI tools voor bedrijven.",
+      "Welk abonnement van ChatGPT voor bedrijven biedt Europese dataopslag?",
+      "ChatGPT Enterprise, voor nieuwe werkruimtes (EER en Zwitserland); bij ChatGPT Business is er geen Europese dataopslag (stand september 2026). Bij ChatGPT voor bedrijven vallen gegevens die via koppelingen of webzoekopdrachten naar externe diensten gaan daar volgens OpenAI niet onder.",
+      "Is een persoonlijk account geschikt voor bedrijfsdata bij ChatGPT voor bedrijven?",
+      "Nee, voor bedrijfsdata geldt bij ChatGPT voor bedrijven: Business of Enterprise, geen persoonlijke accounts. Voor Business en Enterprise is bovendien een verwerkersovereenkomst met OpenAI af te sluiten.",
+      "Bron: artikel van Dave Willemstein. Bijgewerkt: oktober 2026.",
       "Zakelijke abonnementen",
       "OpenAI biedt persoonlijke abonnementen (Free, Go, Plus en Pro) en zakelijke abonnementen (Business en Enterprise). ChatGPT Business heette tot 29 augustus 2025 ChatGPT Team; wie nog van “ChatGPT Team” spreekt, bedoelt dus hetzelfde abonnement. Het overzicht, stand september 2026:",
       "ChatGPT Business",
@@ -235,168 +266,175 @@
     {
       "regio": "header",
       "soort": "intern",
-      "href": "/",
+      "href": "/nl",
       "anker": "",
       "rel": null
     },
     {
       "regio": "header",
       "soort": "intern",
-      "href": "/diensten",
+      "href": "/nl/diensten",
       "anker": "Diensten",
       "rel": null
     },
     {
       "regio": "header",
       "soort": "intern",
-      "href": "/cases",
+      "href": "/nl/cases",
       "anker": "Cases",
       "rel": null
     },
     {
       "regio": "header",
       "soort": "intern",
-      "href": "/werkwijze",
+      "href": "/nl/werkwijze",
       "anker": "Werkwijze",
       "rel": null
     },
     {
       "regio": "header",
       "soort": "intern",
-      "href": "/inzichten",
+      "href": "/nl/inzichten",
       "anker": "Inzichten",
       "rel": null
     },
     {
       "regio": "header",
       "soort": "intern",
-      "href": "/over",
+      "href": "/nl/over",
       "anker": "Over mij",
       "rel": null
     },
     {
       "regio": "header",
       "soort": "intern",
-      "href": "/contact",
+      "href": "/knowledge-base/chatgpt-for-business",
+      "anker": "EN",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/nl/contact",
       "anker": "Plan een gesprek →",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/",
+      "href": "/nl",
       "anker": "Home",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/kennisbank",
+      "href": "/nl/kennisbank",
       "anker": "Kennisbank",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/ai-automatisering/ai-tools",
+      "href": "/nl/ai-automatisering/ai-tools",
       "anker": "Lees meer over AI tools →",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/contact",
+      "href": "/nl/contact",
       "anker": "Plan een adviesgesprek →",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/over",
+      "href": "/nl/over",
       "anker": "Dave Willemstein",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/ai-automatisering/ai-tools",
+      "href": "/nl/ai-automatisering/ai-tools",
       "anker": "vergelijking van AI tools voor bedrijven",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/kennisbank/microsoft-copilot-voor-bedrijven",
+      "href": "/nl/kennisbank/microsoft-copilot-voor-bedrijven",
       "anker": "Microsoft Copilot",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/kennisbank/gemini-voor-bedrijven",
+      "href": "/nl/kennisbank/gemini-voor-bedrijven",
       "anker": "Gemini voor bedrijven",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/kennisbank/claude-voor-bedrijven",
+      "href": "/nl/kennisbank/claude-voor-bedrijven",
       "anker": "Claude voor bedrijven",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/ai-workshop/chatgpt-training",
+      "href": "/nl/ai-workshop/chatgpt-training",
       "anker": "ChatGPT-training voor je team",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/kennisbank/prompt-engineering",
+      "href": "/nl/kennisbank/prompt-engineering",
       "anker": "prompt engineering",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/ai-beleid",
+      "href": "/nl/ai-beleid",
       "anker": "AI-beleid voor organisaties",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/kennisbank/ai-agents-en-avg",
+      "href": "/nl/kennisbank/ai-agents-en-avg",
       "anker": "AI agents en de AVG",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/contact",
+      "href": "/nl/contact",
       "anker": "Plan een adviesgesprek",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/over",
+      "href": "/nl/over",
       "anker": "Over mij",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/partnernetwerk",
+      "href": "/nl/partnernetwerk",
       "anker": "Mijn partnernetwerk",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/diensten/ai-readiness-assessment",
+      "href": "/nl/diensten/ai-readiness-assessment",
       "anker": "Weten waar je staat met AI? Bekijk het AI Readiness Assessment →",
       "rel": null
     },
@@ -438,154 +476,154 @@
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/contact",
+      "href": "/nl/contact",
       "anker": "Plan een gesprek →",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/diensten/ai-readiness-assessment",
+      "href": "/nl/diensten/ai-readiness-assessment",
       "anker": "AI Readiness Assessment",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/diensten/ai-strategy-sprint",
+      "href": "/nl/diensten/ai-strategy-sprint",
       "anker": "AI Strategy Sprint",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/diensten/fractional-ai-lead",
+      "href": "/nl/diensten/fractional-ai-lead",
       "anker": "Fractional AI Lead",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/diensten",
+      "href": "/nl/diensten",
       "anker": "Alle diensten",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/cases",
+      "href": "/nl/cases",
       "anker": "Cases",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/werkwijze",
+      "href": "/nl/werkwijze",
       "anker": "Werkwijze",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/inzichten",
+      "href": "/nl/inzichten",
       "anker": "Inzichten",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/veelgestelde-vragen",
+      "href": "/nl/veelgestelde-vragen",
       "anker": "Veelgestelde vragen",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/over",
+      "href": "/nl/over",
       "anker": "Over mij",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-consultancy",
+      "href": "/nl/ai-consultancy",
       "anker": "AI consultancy",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-implementatie",
+      "href": "/nl/ai-implementatie",
       "anker": "AI implementatie",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-automatisering",
+      "href": "/nl/ai-automatisering",
       "anker": "AI automatisering",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-voor-bedrijven",
+      "href": "/nl/ai-voor-bedrijven",
       "anker": "AI voor bedrijven",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-development",
+      "href": "/nl/ai-development",
       "anker": "AI development",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-agents",
+      "href": "/nl/ai-agents",
       "anker": "AI agents",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-beleid",
+      "href": "/nl/ai-beleid",
       "anker": "AI beleid",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-workshop",
+      "href": "/nl/ai-workshop",
       "anker": "AI workshop",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/markten",
+      "href": "/nl/markten",
       "anker": "AI per branche",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/kennisbank",
+      "href": "/nl/kennisbank",
       "anker": "Kennisbank",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/tarieven",
+      "href": "/nl/tarieven",
       "anker": "Tarieven",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/partnernetwerk",
+      "href": "/nl/partnernetwerk",
       "anker": "Partnernetwerk",
       "rel": null
     },
@@ -606,27 +644,27 @@
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/contact",
+      "href": "/nl/contact",
       "anker": "Plan een gesprek",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/privacy",
+      "href": "/nl/privacy",
       "anker": "Privacyverklaring",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/algemene-voorwaarden",
+      "href": "/nl/algemene-voorwaarden",
       "anker": "Algemene voorwaarden",
       "rel": null
     }
   ],
   "structured_data": {
-    "sha256": "16350e484695edea74fc5c4ec7ecb84e635e9fef3b702d518805a1876e7ac915",
+    "sha256": "b73d2b72c7a7c37bb4d6b07cd708721ce6e2d36e1f37c9134e0d6dd941ddbd34",
     "items": [
       {
         "@context": "https://schema.org",
@@ -638,19 +676,19 @@
                 "@type": "ListItem",
                 "position": 1,
                 "name": "Home",
-                "item": "https://freelanceaiconsultant.com/"
+                "item": "https://freelanceaiconsultant.com/nl"
               },
               {
                 "@type": "ListItem",
                 "position": 2,
                 "name": "Kennisbank",
-                "item": "https://freelanceaiconsultant.com/kennisbank"
+                "item": "https://freelanceaiconsultant.com/nl/kennisbank"
               },
               {
                 "@type": "ListItem",
                 "position": 3,
                 "name": "ChatGPT voor bedrijven",
-                "item": "https://freelanceaiconsultant.com/kennisbank/chatgpt-voor-bedrijven"
+                "item": "https://freelanceaiconsultant.com/nl/kennisbank/chatgpt-voor-bedrijven"
               }
             ]
           },
@@ -674,7 +712,36 @@
               "@type": "Person",
               "name": "Dave Willemstein"
             },
-            "mainEntityOfPage": "https://freelanceaiconsultant.com/kennisbank/chatgpt-voor-bedrijven"
+            "mainEntityOfPage": "https://freelanceaiconsultant.com/nl/kennisbank/chatgpt-voor-bedrijven"
+          },
+          {
+            "@type": "FAQPage",
+            "mainEntity": [
+              {
+                "@type": "Question",
+                "name": "Wat kan ChatGPT voor bedrijven?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Bij de abonnementen Business en Enterprise blijft training op invoer en uitvoer volgens OpenAI standaard uit (stand september 2026); Dave Willemstein adviseert voor bedrijfsdata Business of Enterprise en geen persoonlijke accounts. ChatGPT kan zelfverzekerd een fout antwoord geven; Dave Willemstein adviseert dat een mens verantwoordelijk blijft voor de controle van alles wat naar een klant, toezichthouder of directie gaat."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Welk abonnement van ChatGPT voor bedrijven biedt Europese dataopslag?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "ChatGPT Enterprise, voor nieuwe werkruimtes (EER en Zwitserland); bij ChatGPT Business is er geen Europese dataopslag (stand september 2026). Bij ChatGPT voor bedrijven vallen gegevens die via koppelingen of webzoekopdrachten naar externe diensten gaan daar volgens OpenAI niet onder."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Is een persoonlijk account geschikt voor bedrijfsdata bij ChatGPT voor bedrijven?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Nee, voor bedrijfsdata geldt bij ChatGPT voor bedrijven: Business of Enterprise, geen persoonlijke accounts. Voor Business en Enterprise is bovendien een verwerkersovereenkomst met OpenAI af te sluiten."
+                }
+              }
+            ]
           }
         ]
       }
@@ -716,12 +783,12 @@
     ],
     "stylesheets": [
       "https://fonts.googleapis.com/css2?family=Caveat:wght@600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap",
-      "/_astro/_slug_.bq6BBoZ5.css",
-      "/_astro/_slug_.goiX3PVF.css",
+      "/_astro/_slug_.BzqUXH8l.css",
+      "/_astro/_slug_.Do5RJXa7.css",
       "/logo-carousel/logo-carousel.css?v=2"
     ],
     "aantal_details": 0,
     "aantal_tabellen": 1
   },
-  "gemeten_op": "2026-10-06"
+  "gemeten_op": "2026-10-29"
 }

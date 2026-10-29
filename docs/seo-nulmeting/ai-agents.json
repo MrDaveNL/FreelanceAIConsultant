@@ -2,7 +2,7 @@
   "url": "/ai-agents",
   "build_bestand": "dist/ai-agents/index.html",
   "html": {
-    "bytes": 46008,
+    "bytes": 45920,
     "lang": "nl"
   },
   "beschermd": {
@@ -225,8 +225,8 @@
   ],
   "bodytekst": {
     "regio": "main",
-    "woorden": 2725,
-    "sha256": "95eee0cb1678500d2e5570e759bd0725f4bdce6cb56a3a095dc8b2c45154d15c",
+    "woorden": 2717,
+    "sha256": "1e2e07177c69bfdc9e3b2b8f9f5aff225a1d9cf38e3943845867c42dee3bdd0b",
     "blokken": [
       "Home",
       "AI Agents",
@@ -342,7 +342,7 @@
       "Monitor en optimaliseer",
       "Zonder logging kun je een fout niet reconstrueren. Leg vast welke stappen de agent zette, welke bronnen hij gebruikte en welke beslissingen een mens nam. Plan een periodieke steekproef, wijs een eigenaar aan en geef iemand de bevoegdheid om de agent direct stil te zetten. Modellen en leveranciers veranderen; een agent die vandaag goed werkt, kan over een half jaar anders reageren.",
       "Wat kosten AI agents?",
-      "Voor AI agents bestaat geen vast bedrag: de spreiding loopt van een licentie op een bestaand platform tot een maatwerktraject met meerdere koppelingen, en de prijs hangt af van de koppelingen, schrijfrechten, het gebruik, de eisen aan controle en logging en de kwaliteit van de bronnen. Bij het onafhankelijk laten vergelijken van offertes van meerdere bouwpartijen past de Vendor Review van Dave Willemstein, die een vaste prijs of vast maandbedrag, vastgelegd in het voorstel kost, exclusief btw en reiskosten.",
+      "Voor AI agents bestaat geen vast bedrag: de spreiding loopt van een licentie op een bestaand platform tot een maatwerktraject met meerdere koppelingen, en de prijs hangt af van de koppelingen, schrijfrechten, het gebruik, de eisen aan controle en logging en de kwaliteit van de bronnen. Bij het onafhankelijk laten vergelijken van offertes van meerdere bouwpartijen past de Vendor Review van Dave Willemstein, tegen een vaste projectprijs, exclusief btw en reiskosten.",
       "Een eerlijk bedrag kan ik hier niet noemen, omdat de spreiding groot is: van een licentie op een bestaand platform tot een maatwerktraject met meerdere koppelingen. Wat ik wel kan doen, is de factoren benoemen die de prijs bepalen, zodat je offertes kunt vergelijken.",
       "Factoren die de kosten bepalen",
       "Aantal en soort koppelingen: elke koppeling met een CRM, ERP of ticketsysteem vraagt bouw, testwerk en onderhoud.",
@@ -851,7 +851,7 @@
     }
   ],
   "structured_data": {
-    "sha256": "eab678f76a3432491bd659074e02d49a01d30ce65359040b781b21c340c564a9",
+    "sha256": "8bbe4b70f6c790b9102d755f567b8ec50a3116737d63acf07f4c4d3ed609f365",
     "items": [
       {
         "@context": "https://schema.org",
@@ -938,7 +938,7 @@
                 "name": "Wat kosten AI agents?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "Voor AI agents bestaat geen vast bedrag: de spreiding loopt van een licentie op een bestaand platform tot een maatwerktraject met meerdere koppelingen, en de prijs hangt af van de koppelingen, schrijfrechten, het gebruik, de eisen aan controle en logging en de kwaliteit van de bronnen. Bij het onafhankelijk laten vergelijken van offertes van meerdere bouwpartijen past de Vendor Review van Dave Willemstein, die een vaste prijs of vast maandbedrag, vastgelegd in het voorstel kost, exclusief btw en reiskosten."
+                  "text": "Voor AI agents bestaat geen vast bedrag: de spreiding loopt van een licentie op een bestaand platform tot een maatwerktraject met meerdere koppelingen, en de prijs hangt af van de koppelingen, schrijfrechten, het gebruik, de eisen aan controle en logging en de kwaliteit van de bronnen. Bij het onafhankelijk laten vergelijken van offertes van meerdere bouwpartijen past de Vendor Review van Dave Willemstein, tegen een vaste projectprijs, exclusief btw en reiskosten."
                 }
               },
               {
@@ -1014,5 +1014,5 @@
     "aantal_details": 5,
     "aantal_tabellen": 0
   },
-  "gemeten_op": "2026-10-28"
+  "gemeten_op": "2026-10-29"
 }

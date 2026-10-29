@@ -9,7 +9,7 @@ export default {
   "vervolgvragen": [
     {
       "vraag": "Welke sessie past bij een directie of raad van commissarissen?",
-      "antwoord": "De {{dienst:executive-briefing}} is voor directie of raad van commissarissen de passende vorm: een vaste sessie met een beslisagenda en toezichtvragen. De Executive Briefing heeft een vaste prijs, inclusief voorbereiding op de sector en vastgelegd in het voorstel. Breder inzetbaar is de managementworkshop, bijvoorbeeld voor lijnmanagers of een MT."
+      "antwoord": "De {{dienst:executive-briefing}} is voor directie of raad van commissarissen de passende vorm: een vaste sessie met een beslisagenda en toezichtvragen. De Executive Briefing heeft een vaste projectprijs, inclusief voorbereiding op de sector. Breder inzetbaar is de managementworkshop, bijvoorbeeld voor lijnmanagers of een MT."
     },
     {
       "vraag": "Kan een AI workshop ook online worden gegeven?",

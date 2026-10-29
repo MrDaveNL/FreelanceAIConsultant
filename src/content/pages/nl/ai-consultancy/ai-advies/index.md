@@ -114,7 +114,7 @@ Een adviestraject is kort en heeft een duidelijk eindpunt. Het verloopt in vier 
 
 Het eerste gesprek is vrijblijvend en zonder pitch. Blijkt je vraag groter dan een adviesvraag, dan zeg ik dat en stel ik voor wat wel past. Soms is dat een [AI Readiness Assessment](/nl/diensten/ai-readiness-assessment) om eerst te weten waar je staat. Staat er een implementatie op het punt van beginnen, dan gaat het vaak om [advies voorafgaand aan AI implementatie](/nl/ai-implementatie/advies): keuze van use case, build of buy, en de voorbereiding van je organisatie.
 
-Wil je directie of raad van commissarissen eerst een gedeeld beeld geven? Dan is de [Executive Briefing](/nl/diensten/executive-briefing) de laagdrempeligste vorm van advies: een sessie van drie uur, voorbereid op jouw sector, tegen een vaste prijs. Afgebakend advies en second opinions krijgen een vaste prijs per opdracht. Alle pakketten staan op de pagina met [tarieven en pakketten](/nl/tarieven).
+Wil je directie of raad van commissarissen eerst een gedeeld beeld geven? Dan is de [Executive Briefing](/nl/diensten/executive-briefing) de laagdrempeligste vorm van advies: een sessie van drie uur, voorbereid op jouw sector. Afgebakend advies, second opinions en de Executive Briefing krijgen allemaal een vaste prijs per opdracht. Alle pakketten staan op de pagina met [tarieven en pakketten](/nl/tarieven).
 
 Heb je extra capaciteit nodig om het advies uit te voeren, dan stel ik partijen uit mijn [partnernetwerk](/nl/partnernetwerk) voor. Die contracteer je rechtstreeks, zonder marge voor mij.
 

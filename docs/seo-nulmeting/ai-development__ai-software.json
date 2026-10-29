@@ -2,15 +2,28 @@
   "url": "/ai-development/ai-software",
   "build_bestand": "dist/ai-development/ai-software/index.html",
   "html": {
-    "bytes": 33243,
+    "bytes": 37382,
     "lang": "nl"
   },
   "beschermd": {
     "title": "AI software | Kiezen, integreren of op maat laten bouwen",
     "meta_description": "Welke AI software past bij je organisatie? Lees hoe je kiest tussen standaardsoftware en maatwerk, en hoe je AI software veilig integreert met je systemen.",
-    "canonical": "https://freelanceaiconsultant.com/ai-development/ai-software",
+    "canonical": "https://freelanceaiconsultant.com/nl/ai-development/ai-software",
     "robots_meta": null,
-    "hreflang": [],
+    "hreflang": [
+      {
+        "hreflang": "en",
+        "href": "https://freelanceaiconsultant.com/ai-development/ai-software"
+      },
+      {
+        "hreflang": "nl",
+        "href": "https://freelanceaiconsultant.com/nl/ai-development/ai-software"
+      },
+      {
+        "hreflang": "x-default",
+        "href": "https://freelanceaiconsultant.com/ai-development/ai-software"
+      }
+    ],
     "h1": [
       "AI software: kiezen, integreren of op maat laten bouwen"
     ]
@@ -21,7 +34,7 @@
     "og:site_name": "freelanceaiconsultant.com",
     "og:title": "AI software | Kiezen, integreren of op maat laten bouwen",
     "og:description": "Welke AI software past bij je organisatie? Lees hoe je kiest tussen standaardsoftware en maatwerk, en hoe je AI software veilig integreert met je systemen.",
-    "og:url": "https://freelanceaiconsultant.com/ai-development/ai-software",
+    "og:url": "https://freelanceaiconsultant.com/nl/ai-development/ai-software",
     "og:image": "https://freelanceaiconsultant.com/images/dave-portrait.jpg",
     "twitter:card": "summary_large_image",
     "twitter:title": "AI software | Kiezen, integreren of op maat laten bouwen",
@@ -32,6 +45,30 @@
     {
       "niveau": 1,
       "tekst": "AI software: kiezen, integreren of op maat laten bouwen",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "Wanneer volstaat standaard AI software en wanneer loont maatwerk?",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 3,
+      "tekst": "Wat bepaalt de echte kosten van AI software?",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 3,
+      "tekst": "Wanneer worden de selectiecriteria voor AI software vastgesteld?",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 3,
+      "tekst": "Ontvangt de adviseur bij een Vendor Review voor AI software een vergoeding van leveranciers?",
       "regio": "main",
       "id": null
     },
@@ -74,8 +111,8 @@
   ],
   "bodytekst": {
     "regio": "main",
-    "woorden": 1484,
-    "sha256": "b911e7268d683f691833821da47fd34dd2be750e08fcc51f71541db91f4862f3",
+    "woorden": 1712,
+    "sha256": "a5b7bf202d926f84e6236e1630062ae0b4275bfe441671fbb4bef3c9630c9a4c",
     "blokken": [
       "Home",
       "AI Development",
@@ -147,6 +184,15 @@
       "Proces & productivity",
       "Zakelijke dienstverlener",
       "Interne AI-assistent voor kenniswerkers",
+      "Wanneer volstaat standaard AI software en wanneer loont maatwerk?",
+      "Standaard AI software volstaat voor alles wat een concurrent ook bij een leverancier kan kopen; maatwerk loont alleen voor de laag waarin de eigen kennis zit, zoals regels, prompts, testsets en koppelingen. In veel gevallen is de uitkomst een combinatie: model en platform inkopen, de kennislaag op maat laten bouwen en de implementatie bij een partner beleggen. Wie de selectie niet zelf wil trekken, kan die laten begeleiden met de Vendor Review, die 3-6 weken duurt.",
+      "Wat bepaalt de echte kosten van AI software?",
+      "Integratie, data en exit bepalen bij AI software de echte kosten, niet de licentie. Het criterium Kosten in de werkbare set selectiecriteria omvat licentie, verbruik bij groei, integratie, beheer en exit over drie jaar.",
+      "Wanneer worden de selectiecriteria voor AI software vastgesteld?",
+      "Voordat de leveranciers in beeld komen: het advies is de selectiecriteria voor AI software en hun weging dan vast te stellen, omdat criteria die na de eerste demo worden opgesteld die demo beschrijven. Daarna is het advies iedere leverancier hetzelfde scenario op eigen data te geven.",
+      "Ontvangt de adviseur bij een Vendor Review voor AI software een vergoeding van leveranciers?",
+      "Nee. Bij de Vendor Review voor AI software ontvangt de adviseur geen vergoeding van leveranciers, zodat het advies ook kan zijn om niets te kopen.",
+      "Bron: artikel van Dave Willemstein. Bijgewerkt: oktober 2026.",
       "Soorten AI software",
       "AI software is software waarin een model een deel van het werk doet: tekst begrijpen of genereren, beelden herkennen, voorspellingen maken of taken uitvoeren. In de praktijk kom je vier vormen tegen, van licht naar zwaar:",
       "AI-functies in software die je al hebt. Je kantoorpakket, CRM of servicedesk krijgt een assistent of een slimme functie erbij. Weinig integratiewerk, maar ook weinig invloed op hoe het werkt.",
@@ -226,336 +272,350 @@
     {
       "regio": "header",
       "soort": "intern",
-      "href": "/",
+      "href": "/nl",
       "anker": "",
       "rel": null
     },
     {
       "regio": "header",
       "soort": "intern",
-      "href": "/diensten",
+      "href": "/nl/diensten",
       "anker": "Diensten",
       "rel": null
     },
     {
       "regio": "header",
       "soort": "intern",
-      "href": "/cases",
+      "href": "/nl/cases",
       "anker": "Cases",
       "rel": null
     },
     {
       "regio": "header",
       "soort": "intern",
-      "href": "/werkwijze",
+      "href": "/nl/werkwijze",
       "anker": "Werkwijze",
       "rel": null
     },
     {
       "regio": "header",
       "soort": "intern",
-      "href": "/inzichten",
+      "href": "/nl/inzichten",
       "anker": "Inzichten",
       "rel": null
     },
     {
       "regio": "header",
       "soort": "intern",
-      "href": "/over",
+      "href": "/nl/over",
       "anker": "Over mij",
       "rel": null
     },
     {
       "regio": "header",
       "soort": "intern",
-      "href": "/contact",
+      "href": "/ai-development/ai-software",
+      "anker": "EN",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/nl/contact",
       "anker": "Plan een gesprek →",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/",
+      "href": "/nl",
       "anker": "Home",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/ai-development",
+      "href": "/nl/ai-development",
       "anker": "AI Development",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/ai-development",
+      "href": "/nl/ai-development",
       "anker": "Lees meer over AI Development →",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/diensten/ai-readiness-assessment",
+      "href": "/nl/diensten/ai-readiness-assessment",
       "anker": "Bekijk het AI Readiness Assessment →",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/over",
+      "href": "/nl/over",
       "anker": "Dave Willemstein",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/ai-automatisering/ai-tools",
-      "anker": "AI tools voor bedrijven",
-      "rel": null
-    },
-    {
-      "regio": "main",
-      "soort": "intern",
-      "href": "/ai-development/ai-oplossingen",
-      "anker": "AI oplossingen op maat",
-      "rel": null
-    },
-    {
-      "regio": "main",
-      "soort": "intern",
-      "href": "/inzichten/build-buy-of-partner",
-      "anker": "build, buy of partner",
-      "rel": null
-    },
-    {
-      "regio": "main",
-      "soort": "intern",
-      "href": "/inzichten/de-business-case-voor-ai",
-      "anker": "de business case voor AI",
-      "rel": null
-    },
-    {
-      "regio": "main",
-      "soort": "intern",
-      "href": "/inzichten/het-datafundament-onder-ai",
-      "anker": "het datafundament onder AI",
-      "rel": null
-    },
-    {
-      "regio": "main",
-      "soort": "intern",
-      "href": "/ai-development",
-      "anker": "AI development",
-      "rel": null
-    },
-    {
-      "regio": "main",
-      "soort": "intern",
-      "href": "/inzichten/ai-vendorselectie-in-acht-stappen",
-      "anker": "AI-vendorselectie in acht stappen",
-      "rel": null
-    },
-    {
-      "regio": "main",
-      "soort": "intern",
-      "href": "/diensten/vendor-review",
+      "href": "/nl/diensten/vendor-review",
       "anker": "Vendor Review",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/cases/vendorselectie-enterprise-retail",
+      "href": "/nl/ai-automatisering/ai-tools",
+      "anker": "AI tools voor bedrijven",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/nl/ai-development/ai-oplossingen",
+      "anker": "AI oplossingen op maat",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/nl/inzichten/build-buy-of-partner",
+      "anker": "build, buy of partner",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/nl/inzichten/de-business-case-voor-ai",
+      "anker": "de business case voor AI",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/nl/inzichten/het-datafundament-onder-ai",
+      "anker": "het datafundament onder AI",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/nl/ai-development",
+      "anker": "AI development",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/nl/inzichten/ai-vendorselectie-in-acht-stappen",
+      "anker": "AI-vendorselectie in acht stappen",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/nl/diensten/vendor-review",
+      "anker": "Vendor Review",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/nl/cases/vendorselectie-enterprise-retail",
       "anker": "vendorselectie bij een enterprise retailer",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/ai-development/ai-specialist",
+      "href": "/nl/ai-development/ai-specialist",
       "anker": "de AI specialist",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/contact",
+      "href": "/nl/contact",
       "anker": "plan dan een adviesgesprek",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/over",
+      "href": "/nl/over",
       "anker": "Over mij",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/partnernetwerk",
+      "href": "/nl/partnernetwerk",
       "anker": "Mijn partnernetwerk",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/diensten/ai-readiness-assessment",
+      "href": "/nl/diensten/ai-readiness-assessment",
       "anker": "Weten waar je staat met AI? Bekijk het AI Readiness Assessment →",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/contact",
+      "href": "/nl/contact",
       "anker": "Plan een gesprek →",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/diensten/ai-readiness-assessment",
+      "href": "/nl/diensten/ai-readiness-assessment",
       "anker": "AI Readiness Assessment",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/diensten/ai-strategy-sprint",
+      "href": "/nl/diensten/ai-strategy-sprint",
       "anker": "AI Strategy Sprint",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/diensten/fractional-ai-lead",
+      "href": "/nl/diensten/fractional-ai-lead",
       "anker": "Fractional AI Lead",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/diensten",
+      "href": "/nl/diensten",
       "anker": "Alle diensten",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/cases",
+      "href": "/nl/cases",
       "anker": "Cases",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/werkwijze",
+      "href": "/nl/werkwijze",
       "anker": "Werkwijze",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/inzichten",
+      "href": "/nl/inzichten",
       "anker": "Inzichten",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/veelgestelde-vragen",
+      "href": "/nl/veelgestelde-vragen",
       "anker": "Veelgestelde vragen",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/over",
+      "href": "/nl/over",
       "anker": "Over mij",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-consultancy",
+      "href": "/nl/ai-consultancy",
       "anker": "AI consultancy",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-implementatie",
+      "href": "/nl/ai-implementatie",
       "anker": "AI implementatie",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-automatisering",
+      "href": "/nl/ai-automatisering",
       "anker": "AI automatisering",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-voor-bedrijven",
+      "href": "/nl/ai-voor-bedrijven",
       "anker": "AI voor bedrijven",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-development",
+      "href": "/nl/ai-development",
       "anker": "AI development",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-agents",
+      "href": "/nl/ai-agents",
       "anker": "AI agents",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-beleid",
+      "href": "/nl/ai-beleid",
       "anker": "AI beleid",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-workshop",
+      "href": "/nl/ai-workshop",
       "anker": "AI workshop",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/markten",
+      "href": "/nl/markten",
       "anker": "AI per branche",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/kennisbank",
+      "href": "/nl/kennisbank",
       "anker": "Kennisbank",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/tarieven",
+      "href": "/nl/tarieven",
       "anker": "Tarieven",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/partnernetwerk",
+      "href": "/nl/partnernetwerk",
       "anker": "Partnernetwerk",
       "rel": null
     },
@@ -576,27 +636,27 @@
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/contact",
+      "href": "/nl/contact",
       "anker": "Plan een gesprek",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/privacy",
+      "href": "/nl/privacy",
       "anker": "Privacyverklaring",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/algemene-voorwaarden",
+      "href": "/nl/algemene-voorwaarden",
       "anker": "Algemene voorwaarden",
       "rel": null
     }
   ],
   "structured_data": {
-    "sha256": "6c5f79f2b9fe85cc3e986e2f91f901699d245cb348ae37da0916f311bfe07a50",
+    "sha256": "cda6112838199f6bc2abb3fda629c24fa958149354cb297876049ef0ec471b66",
     "items": [
       {
         "@context": "https://schema.org",
@@ -608,19 +668,19 @@
                 "@type": "ListItem",
                 "position": 1,
                 "name": "Home",
-                "item": "https://freelanceaiconsultant.com/"
+                "item": "https://freelanceaiconsultant.com/nl"
               },
               {
                 "@type": "ListItem",
                 "position": 2,
                 "name": "AI Development",
-                "item": "https://freelanceaiconsultant.com/ai-development"
+                "item": "https://freelanceaiconsultant.com/nl/ai-development"
               },
               {
                 "@type": "ListItem",
                 "position": 3,
                 "name": "AI software",
-                "item": "https://freelanceaiconsultant.com/ai-development/ai-software"
+                "item": "https://freelanceaiconsultant.com/nl/ai-development/ai-software"
               }
             ]
           },
@@ -644,7 +704,7 @@
               "@type": "Person",
               "name": "Dave Willemstein"
             },
-            "mainEntityOfPage": "https://freelanceaiconsultant.com/ai-development/ai-software"
+            "mainEntityOfPage": "https://freelanceaiconsultant.com/nl/ai-development/ai-software"
           },
           {
             "@type": "FAQPage",
@@ -679,6 +739,38 @@
                 "acceptedAnswer": {
                   "@type": "Answer",
                   "text": "Dat hangt af van je contract en van hoe je de software inzet. Leg vast wat de leverancier garandeert, hoe fouten worden gemeld en wie wat herstelt. Richt je proces zo in dat een mens de uitkomst controleert waar de gevolgen groot zijn."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Wanneer volstaat standaard AI software en wanneer loont maatwerk?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Standaard AI software volstaat voor alles wat een concurrent ook bij een leverancier kan kopen; maatwerk loont alleen voor de laag waarin de eigen kennis zit, zoals regels, prompts, testsets en koppelingen. In veel gevallen is de uitkomst een combinatie: model en platform inkopen, de kennislaag op maat laten bouwen en de implementatie bij een partner beleggen. Wie de selectie niet zelf wil trekken, kan die laten begeleiden met de Vendor Review, die 3-6 weken duurt."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Wat bepaalt de echte kosten van AI software?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Integratie, data en exit bepalen bij AI software de echte kosten, niet de licentie. Het criterium Kosten in de werkbare set selectiecriteria omvat licentie, verbruik bij groei, integratie, beheer en exit over drie jaar."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Wanneer worden de selectiecriteria voor AI software vastgesteld?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Voordat de leveranciers in beeld komen: het advies is de selectiecriteria voor AI software en hun weging dan vast te stellen, omdat criteria die na de eerste demo worden opgesteld die demo beschrijven. Daarna is het advies iedere leverancier hetzelfde scenario op eigen data te geven."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Ontvangt de adviseur bij een Vendor Review voor AI software een vergoeding van leveranciers?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Nee. Bij de Vendor Review voor AI software ontvangt de adviseur geen vergoeding van leveranciers, zodat het advies ook kan zijn om niets te kopen."
                 }
               }
             ]
@@ -723,12 +815,12 @@
     ],
     "stylesheets": [
       "https://fonts.googleapis.com/css2?family=Caveat:wght@600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap",
-      "/_astro/_slug_.bq6BBoZ5.css",
-      "/_astro/_slug_.goiX3PVF.css",
+      "/_astro/_slug_.BzqUXH8l.css",
+      "/_astro/_slug_.Do5RJXa7.css",
       "/logo-carousel/logo-carousel.css?v=2"
     ],
     "aantal_details": 4,
     "aantal_tabellen": 1
   },
-  "gemeten_op": "2026-10-06"
+  "gemeten_op": "2026-10-29"
 }

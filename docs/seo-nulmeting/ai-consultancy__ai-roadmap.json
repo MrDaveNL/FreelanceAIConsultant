@@ -2,15 +2,20 @@
   "url": "/ai-consultancy/ai-roadmap",
   "build_bestand": "dist/ai-consultancy/ai-roadmap/index.html",
   "html": {
-    "bytes": 38038,
+    "bytes": 42003,
     "lang": "nl"
   },
   "beschermd": {
     "title": "AI roadmap ontwikkelen | Prioriteiten, planning en budget",
     "meta_description": "Ontwikkel een AI roadmap met heldere prioriteiten, planning en budget. Lees welke stappen erin horen en welke deliverables je ervan mag verwachten.",
-    "canonical": "https://freelanceaiconsultant.com/ai-consultancy/ai-roadmap",
+    "canonical": "https://freelanceaiconsultant.com/nl/ai-consultancy/ai-roadmap",
     "robots_meta": null,
-    "hreflang": [],
+    "hreflang": [
+      {
+        "hreflang": "nl",
+        "href": "https://freelanceaiconsultant.com/nl/ai-consultancy/ai-roadmap"
+      }
+    ],
     "h1": [
       "AI roadmap ontwikkelen: van prioriteiten naar planning"
     ]
@@ -21,7 +26,7 @@
     "og:site_name": "freelanceaiconsultant.com",
     "og:title": "AI roadmap ontwikkelen | Prioriteiten, planning en budget",
     "og:description": "Ontwikkel een AI roadmap met heldere prioriteiten, planning en budget. Lees welke stappen erin horen en welke deliverables je ervan mag verwachten.",
-    "og:url": "https://freelanceaiconsultant.com/ai-consultancy/ai-roadmap",
+    "og:url": "https://freelanceaiconsultant.com/nl/ai-consultancy/ai-roadmap",
     "og:image": "https://freelanceaiconsultant.com/images/dave-portrait.jpg",
     "twitter:card": "summary_large_image",
     "twitter:title": "AI roadmap ontwikkelen | Prioriteiten, planning en budget",
@@ -40,6 +45,24 @@
       "tekst": "Wat is een AI roadmap?",
       "regio": "main",
       "id": "wat-is-een-ai-roadmap"
+    },
+    {
+      "niveau": 3,
+      "tekst": "Is een AI roadmap hetzelfde als een projectplanning?",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 3,
+      "tekst": "Hoeveel use cases passen in de eerste horizon van een AI roadmap voor het MKB?",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 3,
+      "tekst": "Is er een dienst die een AI roadmap als vast resultaat oplevert?",
+      "regio": "main",
+      "id": null
     },
     {
       "niveau": 2,
@@ -104,8 +127,8 @@
   ],
   "bodytekst": {
     "regio": "main",
-    "woorden": 2041,
-    "sha256": "f975249034dd7e64677ba19b4b911aea19b765c5a0edaddfe536346e6e8919b7",
+    "woorden": 2279,
+    "sha256": "2a1d32ee287436500f6a06947d28e8522c1150f39485c27e54ada7b719540a7c",
     "blokken": [
       "Home",
       "AI Consultancy",
@@ -178,9 +201,17 @@
       "Zakelijke dienstverlener",
       "Interne AI-assistent voor kenniswerkers",
       "Wat is een AI roadmap?",
+      "Een AI roadmap legt vast welke AI-toepassingen een organisatie in welke volgorde oppakt, wat daarvoor nodig is en op welke momenten wordt besloten over doorgaan of stoppen. De roadmap volgt op de AI strategie; een goede AI roadmap is kort en bestaat uit een handvol use cases met elk een eigenaar, randvoorwaarden, een budget-orde-van-grootte en een beslismoment, aangevuld met een afvallijst van wat bewust niet gebeurt. De planning werkt in horizonnen: de eerste drie maanden zijn concreet ingevuld, de periode daarna in grotere blokken.",
       "Een AI roadmap is het plan dat bepaalt in welke volgorde je AI-toepassingen oppakt, wat daarvoor nodig is en wanneer je beslist of je doorgaat. Waar een AI strategie de keuzes vastlegt, maakt de roadmap ze uitvoerbaar: met eigenaren, randvoorwaarden, budget en beslismomenten.",
       "Een goede AI roadmap is kort. Geen lijst van twintig initiatieven waar iedereen enthousiast over is en niemand over gaat, maar een handvol use cases met een naam erbij. Daarnaast staat een lijst met wat bewust niet gebeurt, en waarom. Die afvallijst voorkomt dat afgewezen ideeën via een omweg terugkomen.",
       "Een roadmap is ook geen projectplanning. Hij werkt in horizonnen: de eerste drie maanden concreet, daarna grover. Op vaste momenten kijk je of de aannames nog kloppen. Een AI roadmap volgt op de strategie; heb je die nog niet, begin dan bij een AI strategie ontwikkelen.",
+      "Is een AI roadmap hetzelfde als een projectplanning?",
+      "Nee. Een AI roadmap is geen projectplanning: de eerste drie maanden zijn concreet gepland, de periode daarna grover, en op vaste momenten wordt bekeken of de aannames nog kloppen. Het gedetailleerde implementatieplan per toepassing volgt pas als een use case groen licht krijgt.",
+      "Hoeveel use cases passen in de eerste horizon van een AI roadmap voor het MKB?",
+      "Twee of drie use cases in de eerste horizon is het advies voor een AI roadmap in het MKB. Meer use cases zijn zonder eigen AI-capaciteit lastig goed te begeleiden.",
+      "Is er een dienst die een AI roadmap als vast resultaat oplevert?",
+      "Ja. Een use-case roadmap met quick wins, middellange investeringen en bewuste no-go's is een van de vaste deliverables van de AI Strategy Sprint. Het AI Readiness Assessment levert met het 90-dagenplan een eerste versie van de AI roadmap.",
+      "Bron: artikel van Dave Willemstein. Bijgewerkt: oktober 2026.",
       "Stappen om een AI roadmap te ontwikkelen",
       "Een AI roadmap ontwikkelen doe je in vier stappen. Ze sluiten aan op de werkwijze die ik bij alle AI consultancy hanteer: eerst begrijpen, dan kiezen, dan pas plannen.",
       "InventarisatieWat loopt er al, welke ideeën liggen er, en wat is de uitgangssituatie?",
@@ -292,126 +323,140 @@
     {
       "regio": "header",
       "soort": "intern",
-      "href": "/",
+      "href": "/nl",
       "anker": "",
       "rel": null
     },
     {
       "regio": "header",
       "soort": "intern",
-      "href": "/diensten",
+      "href": "/nl/diensten",
       "anker": "Diensten",
       "rel": null
     },
     {
       "regio": "header",
       "soort": "intern",
-      "href": "/cases",
+      "href": "/nl/cases",
       "anker": "Cases",
       "rel": null
     },
     {
       "regio": "header",
       "soort": "intern",
-      "href": "/werkwijze",
+      "href": "/nl/werkwijze",
       "anker": "Werkwijze",
       "rel": null
     },
     {
       "regio": "header",
       "soort": "intern",
-      "href": "/inzichten",
+      "href": "/nl/inzichten",
       "anker": "Inzichten",
       "rel": null
     },
     {
       "regio": "header",
       "soort": "intern",
-      "href": "/over",
+      "href": "/nl/over",
       "anker": "Over mij",
       "rel": null
     },
     {
       "regio": "header",
       "soort": "intern",
-      "href": "/contact",
+      "href": "/nl/contact",
       "anker": "Plan een gesprek →",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/",
+      "href": "/nl",
       "anker": "Home",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/ai-consultancy",
+      "href": "/nl/ai-consultancy",
       "anker": "AI Consultancy",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/ai-consultancy",
+      "href": "/nl/ai-consultancy",
       "anker": "Lees meer over AI Consultancy →",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/diensten/ai-readiness-assessment",
+      "href": "/nl/diensten/ai-readiness-assessment",
       "anker": "Bekijk het AI Readiness Assessment →",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/over",
+      "href": "/nl/over",
       "anker": "Dave Willemstein",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/ai-consultancy/ai-strategie",
+      "href": "/nl/ai-consultancy/ai-strategie",
       "anker": "een AI strategie ontwikkelen",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/ai-consultancy",
-      "anker": "AI consultancy",
+      "href": "/nl/diensten/ai-strategy-sprint",
+      "anker": "AI Strategy Sprint",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/diensten/ai-readiness-assessment",
+      "href": "/nl/diensten/ai-readiness-assessment",
       "anker": "AI Readiness Assessment",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/inzichten/welke-ai-use-cases-leveren-resultaat",
+      "href": "/nl/ai-consultancy",
+      "anker": "AI consultancy",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/nl/diensten/ai-readiness-assessment",
+      "anker": "AI Readiness Assessment",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/nl/inzichten/welke-ai-use-cases-leveren-resultaat",
       "anker": "welke AI use cases resultaat leveren",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/inzichten/build-buy-of-partner",
+      "href": "/nl/inzichten/build-buy-of-partner",
       "anker": "build, buy of partner",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/inzichten/de-business-case-voor-ai",
+      "href": "/nl/inzichten/de-business-case-voor-ai",
       "anker": "de business case voor AI",
       "rel": null
     },
@@ -425,210 +470,210 @@
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/diensten/ai-strategy-sprint",
+      "href": "/nl/diensten/ai-strategy-sprint",
       "anker": "AI Strategy Sprint",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/ai-implementatie/stappenplan",
+      "href": "/nl/ai-implementatie/stappenplan",
       "anker": "stappenplan voor AI implementatie",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/ai-consultancy/ai-advies",
+      "href": "/nl/ai-consultancy/ai-advies",
       "anker": "AI advies",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/cases/ai-roadmap-internationale-maakorganisatie",
+      "href": "/nl/cases/ai-roadmap-internationale-maakorganisatie",
       "anker": "AI roadmap voor een internationale maakorganisatie",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/contact",
+      "href": "/nl/contact",
       "anker": "Plan een adviesgesprek",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/over",
+      "href": "/nl/over",
       "anker": "Over mij",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/partnernetwerk",
+      "href": "/nl/partnernetwerk",
       "anker": "Mijn partnernetwerk",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/diensten/ai-readiness-assessment",
+      "href": "/nl/diensten/ai-readiness-assessment",
       "anker": "Weten waar je staat met AI? Bekijk het AI Readiness Assessment →",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/contact",
+      "href": "/nl/contact",
       "anker": "Plan een gesprek →",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/diensten/ai-readiness-assessment",
+      "href": "/nl/diensten/ai-readiness-assessment",
       "anker": "AI Readiness Assessment",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/diensten/ai-strategy-sprint",
+      "href": "/nl/diensten/ai-strategy-sprint",
       "anker": "AI Strategy Sprint",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/diensten/fractional-ai-lead",
+      "href": "/nl/diensten/fractional-ai-lead",
       "anker": "Fractional AI Lead",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/diensten",
+      "href": "/nl/diensten",
       "anker": "Alle diensten",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/cases",
+      "href": "/nl/cases",
       "anker": "Cases",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/werkwijze",
+      "href": "/nl/werkwijze",
       "anker": "Werkwijze",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/inzichten",
+      "href": "/nl/inzichten",
       "anker": "Inzichten",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/veelgestelde-vragen",
+      "href": "/nl/veelgestelde-vragen",
       "anker": "Veelgestelde vragen",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/over",
+      "href": "/nl/over",
       "anker": "Over mij",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-consultancy",
+      "href": "/nl/ai-consultancy",
       "anker": "AI consultancy",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-implementatie",
+      "href": "/nl/ai-implementatie",
       "anker": "AI implementatie",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-automatisering",
+      "href": "/nl/ai-automatisering",
       "anker": "AI automatisering",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-voor-bedrijven",
+      "href": "/nl/ai-voor-bedrijven",
       "anker": "AI voor bedrijven",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-development",
+      "href": "/nl/ai-development",
       "anker": "AI development",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-agents",
+      "href": "/nl/ai-agents",
       "anker": "AI agents",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-beleid",
+      "href": "/nl/ai-beleid",
       "anker": "AI beleid",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-workshop",
+      "href": "/nl/ai-workshop",
       "anker": "AI workshop",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/markten",
+      "href": "/nl/markten",
       "anker": "AI per branche",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/kennisbank",
+      "href": "/nl/kennisbank",
       "anker": "Kennisbank",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/tarieven",
+      "href": "/nl/tarieven",
       "anker": "Tarieven",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/partnernetwerk",
+      "href": "/nl/partnernetwerk",
       "anker": "Partnernetwerk",
       "rel": null
     },
@@ -649,27 +694,27 @@
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/contact",
+      "href": "/nl/contact",
       "anker": "Plan een gesprek",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/privacy",
+      "href": "/nl/privacy",
       "anker": "Privacyverklaring",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/algemene-voorwaarden",
+      "href": "/nl/algemene-voorwaarden",
       "anker": "Algemene voorwaarden",
       "rel": null
     }
   ],
   "structured_data": {
-    "sha256": "9ae099174f553186b2192b673564d00c895359d328ffb37398697f8932e0c7cb",
+    "sha256": "c289f1b991dacaeccc31262400ccdf6739a2401203aa7a6982d47260149e0ba8",
     "items": [
       {
         "@context": "https://schema.org",
@@ -681,19 +726,19 @@
                 "@type": "ListItem",
                 "position": 1,
                 "name": "Home",
-                "item": "https://freelanceaiconsultant.com/"
+                "item": "https://freelanceaiconsultant.com/nl"
               },
               {
                 "@type": "ListItem",
                 "position": 2,
                 "name": "AI Consultancy",
-                "item": "https://freelanceaiconsultant.com/ai-consultancy"
+                "item": "https://freelanceaiconsultant.com/nl/ai-consultancy"
               },
               {
                 "@type": "ListItem",
                 "position": 3,
                 "name": "AI roadmap",
-                "item": "https://freelanceaiconsultant.com/ai-consultancy/ai-roadmap"
+                "item": "https://freelanceaiconsultant.com/nl/ai-consultancy/ai-roadmap"
               }
             ]
           },
@@ -717,7 +762,7 @@
               "@type": "Person",
               "name": "Dave Willemstein"
             },
-            "mainEntityOfPage": "https://freelanceaiconsultant.com/ai-consultancy/ai-roadmap"
+            "mainEntityOfPage": "https://freelanceaiconsultant.com/nl/ai-consultancy/ai-roadmap"
           },
           {
             "@type": "FAQPage",
@@ -760,6 +805,38 @@
                 "acceptedAnswer": {
                   "@type": "Answer",
                   "text": "Deels. De roadmap bevat per use case de randvoorwaarden, de volgorde en de beslismomenten. Het gedetailleerde implementatieplan per toepassing, met taken, sprints en testmomenten, maak je pas als een use case groen licht krijgt, samen met het team of de partij die het bouwt."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Wat is een AI roadmap?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Een AI roadmap legt vast welke AI-toepassingen een organisatie in welke volgorde oppakt, wat daarvoor nodig is en op welke momenten wordt besloten over doorgaan of stoppen. De roadmap volgt op de AI strategie; een goede AI roadmap is kort en bestaat uit een handvol use cases met elk een eigenaar, randvoorwaarden, een budget-orde-van-grootte en een beslismoment, aangevuld met een afvallijst van wat bewust niet gebeurt. De planning werkt in horizonnen: de eerste drie maanden zijn concreet ingevuld, de periode daarna in grotere blokken."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Is een AI roadmap hetzelfde als een projectplanning?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Nee. Een AI roadmap is geen projectplanning: de eerste drie maanden zijn concreet gepland, de periode daarna grover, en op vaste momenten wordt bekeken of de aannames nog kloppen. Het gedetailleerde implementatieplan per toepassing volgt pas als een use case groen licht krijgt."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Hoeveel use cases passen in de eerste horizon van een AI roadmap voor het MKB?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Twee of drie use cases in de eerste horizon is het advies voor een AI roadmap in het MKB. Meer use cases zijn zonder eigen AI-capaciteit lastig goed te begeleiden."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Is er een dienst die een AI roadmap als vast resultaat oplevert?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Ja. Een use-case roadmap met quick wins, middellange investeringen en bewuste no-go's is een van de vaste deliverables van de AI Strategy Sprint. Het AI Readiness Assessment levert met het 90-dagenplan een eerste versie van de AI roadmap."
                 }
               }
             ]
@@ -804,12 +881,12 @@
     ],
     "stylesheets": [
       "https://fonts.googleapis.com/css2?family=Caveat:wght@600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap",
-      "/_astro/_slug_.bq6BBoZ5.css",
-      "/_astro/_slug_.goiX3PVF.css",
+      "/_astro/_slug_.BzqUXH8l.css",
+      "/_astro/_slug_.Do5RJXa7.css",
       "/logo-carousel/logo-carousel.css?v=2"
     ],
     "aantal_details": 5,
     "aantal_tabellen": 1
   },
-  "gemeten_op": "2026-10-06"
+  "gemeten_op": "2026-10-29"
 }

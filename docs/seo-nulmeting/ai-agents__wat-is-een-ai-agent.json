@@ -2,15 +2,28 @@
   "url": "/ai-agents/wat-is-een-ai-agent",
   "build_bestand": "dist/ai-agents/wat-is-een-ai-agent/index.html",
   "html": {
-    "bytes": 35599,
+    "bytes": 39427,
     "lang": "nl"
   },
   "beschermd": {
     "title": "Wat is een AI agent? Uitleg, werking en voorbeelden",
     "meta_description": "Wat is een AI agent en hoe werkt het? Heldere uitleg over AI agents, het verschil met een chatbot, soorten agents en praktische voorbeelden voor bedrijven.",
-    "canonical": "https://freelanceaiconsultant.com/ai-agents/wat-is-een-ai-agent",
+    "canonical": "https://freelanceaiconsultant.com/nl/ai-agents/wat-is-een-ai-agent",
     "robots_meta": null,
-    "hreflang": [],
+    "hreflang": [
+      {
+        "hreflang": "en",
+        "href": "https://freelanceaiconsultant.com/ai-agents/what-is-an-ai-agent"
+      },
+      {
+        "hreflang": "nl",
+        "href": "https://freelanceaiconsultant.com/nl/ai-agents/wat-is-een-ai-agent"
+      },
+      {
+        "hreflang": "x-default",
+        "href": "https://freelanceaiconsultant.com/ai-agents/what-is-an-ai-agent"
+      }
+    ],
     "h1": [
       "Wat is een AI agent? Uitleg, werking en voorbeelden"
     ]
@@ -21,7 +34,7 @@
     "og:site_name": "freelanceaiconsultant.com",
     "og:title": "Wat is een AI agent? Uitleg, werking en voorbeelden",
     "og:description": "Wat is een AI agent en hoe werkt het? Heldere uitleg over AI agents, het verschil met een chatbot, soorten agents en praktische voorbeelden voor bedrijven.",
-    "og:url": "https://freelanceaiconsultant.com/ai-agents/wat-is-een-ai-agent",
+    "og:url": "https://freelanceaiconsultant.com/nl/ai-agents/wat-is-een-ai-agent",
     "og:image": "https://freelanceaiconsultant.com/images/dave-portrait.jpg",
     "twitter:card": "summary_large_image",
     "twitter:title": "Wat is een AI agent? Uitleg, werking en voorbeelden",
@@ -40,6 +53,18 @@
       "tekst": "Wat is een AI agent?",
       "regio": "main",
       "id": "wat-is-een-ai-agent"
+    },
+    {
+      "niveau": 3,
+      "tekst": "Kan een fout van een AI agent doorwerken zonder dat het eindresultaat er verkeerd uitziet?",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 3,
+      "tekst": "Welke vormen van opbouw komen bij een AI agent voor?",
+      "regio": "main",
+      "id": null
     },
     {
       "niveau": 2,
@@ -80,8 +105,8 @@
   ],
   "bodytekst": {
     "regio": "main",
-    "woorden": 1787,
-    "sha256": "96985df46f99b61ceafb9a2318fbea6620b579e4229778a37a440e1d80748238",
+    "woorden": 1991,
+    "sha256": "4ab24fd656fd6af53dd184f202a74dc3c3edfe3d08db9c855431f4de4089f85c",
     "blokken": [
       "Home",
       "AI Agents",
@@ -154,10 +179,16 @@
       "Zakelijke dienstverlener",
       "Interne AI-assistent voor kenniswerkers",
       "Wat is een AI agent?",
+      "Een AI agent is software die van een mens een doel meekrijgt en daarna grotendeels zelf de route kiest: informatie verzamelen, andere systemen gebruiken, tussenresultaten beoordelen en de volgende stap bepalen. Anders dan een chatbot, die een vraag in een gesprek beantwoordt, voert een AI agent een taak uit in meerdere stappen en kan hij systemen raadplegen en soms wijzigen. De mate van zelfstandigheid is een instelling die de organisatie kiest, van alleen voorbereiden tot volledig zelfstandig werken met controle achteraf.",
       "Een AI agent is een softwaresysteem dat een doel krijgt en zelf bepaalt welke stappen nodig zijn om dat doel te bereiken. Het verzamelt informatie, gebruikt andere systemen, beoordeelt tussenresultaten en kiest op basis daarvan een volgende stap. Het doel komt van een mens; de route bepaalt de agent grotendeels zelf.",
       "Dat is het wezenlijke verschil met de meeste AI-toepassingen die je kent. Een tool die een tekst samenvat of een vraag beantwoordt, levert één uitkomst op één opdracht. Een agent werkt aan een taak die uit meerdere stappen bestaat, zoals “maak dit klantdossier compleet” of “bereid de offerte voor deze aanvraag voor”.",
       "De meeste agents die je nu tegenkomt, draaien op een groot taalmodel. Dat model zorgt voor het begrijpen van de opdracht en het redeneren over de volgende stap. Daaromheen zitten de onderdelen die van een taalmodel een agent maken: toegang tot tools en systemen, een geheugen voor de lopende taak en instructies over wat wel en niet mag.",
       "Wie vooral wil weten wat dit voor een organisatie betekent, vindt de toepassingen, kosten en aanpak op de pagina over AI agents voor bedrijven.",
+      "Kan een fout van een AI agent doorwerken zonder dat het eindresultaat er verkeerd uitziet?",
+      "Ja, dat kan: een AI agent zet meerdere stappen achter elkaar, waardoor een fout uit een vroege stap kan doorwerken tot in het eindresultaat zonder dat het er verkeerd uitziet. Logging en tussencontroles zijn bij een AI agent daarom belangrijker dan bij een gewone AI-toepassing.",
+      "Welke vormen van opbouw komen bij een AI agent voor?",
+      "Grofweg drie vormen: een enkelvoudige AI agent voor één afgebakende taak, een AI agent binnen een AI-workflow met een vaste procesflow, en samenwerkende agents waarbij een coördinerende agent het werk verdeelt. Voor de meeste organisaties is de AI agent binnen een workflow het verstandigste startpunt.",
+      "Bron: artikel van Dave Willemstein. Bijgewerkt: oktober 2026.",
       "Hoe werkt een AI agent?",
       "De werking van een AI agent komt neer op een lus die zich herhaalt tot het doel bereikt is of de agent vastloopt.",
       "DoelEen mens of systeem geeft een opdracht",
@@ -246,308 +277,315 @@
     {
       "regio": "header",
       "soort": "intern",
-      "href": "/",
+      "href": "/nl",
       "anker": "",
       "rel": null
     },
     {
       "regio": "header",
       "soort": "intern",
-      "href": "/diensten",
+      "href": "/nl/diensten",
       "anker": "Diensten",
       "rel": null
     },
     {
       "regio": "header",
       "soort": "intern",
-      "href": "/cases",
+      "href": "/nl/cases",
       "anker": "Cases",
       "rel": null
     },
     {
       "regio": "header",
       "soort": "intern",
-      "href": "/werkwijze",
+      "href": "/nl/werkwijze",
       "anker": "Werkwijze",
       "rel": null
     },
     {
       "regio": "header",
       "soort": "intern",
-      "href": "/inzichten",
+      "href": "/nl/inzichten",
       "anker": "Inzichten",
       "rel": null
     },
     {
       "regio": "header",
       "soort": "intern",
-      "href": "/over",
+      "href": "/nl/over",
       "anker": "Over mij",
       "rel": null
     },
     {
       "regio": "header",
       "soort": "intern",
-      "href": "/contact",
+      "href": "/ai-agents/what-is-an-ai-agent",
+      "anker": "EN",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/nl/contact",
       "anker": "Plan een gesprek →",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/",
+      "href": "/nl",
       "anker": "Home",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/ai-agents",
+      "href": "/nl/ai-agents",
       "anker": "AI Agents",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/ai-agents",
+      "href": "/nl/ai-agents",
       "anker": "Lees meer over AI agents voor bedrijven →",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/diensten/ai-readiness-assessment",
+      "href": "/nl/diensten/ai-readiness-assessment",
       "anker": "Bekijk het AI Readiness Assessment →",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/over",
+      "href": "/nl/over",
       "anker": "Dave Willemstein",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/ai-agents",
+      "href": "/nl/ai-agents",
       "anker": "AI agents voor bedrijven",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/kennisbank/ai-agents-en-avg",
+      "href": "/nl/kennisbank/ai-agents-en-avg",
       "anker": "AI agents en privacy",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/inzichten/ai-agents-wat-ze-wel-en-niet-kunnen",
+      "href": "/nl/inzichten/ai-agents-wat-ze-wel-en-niet-kunnen",
       "anker": "wat agents wel en niet kunnen",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/ai-automatisering/ai-workflows",
+      "href": "/nl/ai-automatisering/ai-workflows",
       "anker": "AI-workflow",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/ai-agents/voorbeelden",
+      "href": "/nl/ai-agents/voorbeelden",
       "anker": "twaalf voorbeelden van AI agents",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/ai-agents/laten-maken",
+      "href": "/nl/ai-agents/laten-maken",
       "anker": "een AI agent laten maken",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/contact",
+      "href": "/nl/contact",
       "anker": "Neem contact op",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/over",
+      "href": "/nl/over",
       "anker": "Over mij",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/partnernetwerk",
+      "href": "/nl/partnernetwerk",
       "anker": "Mijn partnernetwerk",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/diensten/ai-readiness-assessment",
+      "href": "/nl/diensten/ai-readiness-assessment",
       "anker": "Weten waar je staat met AI? Bekijk het AI Readiness Assessment →",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/contact",
+      "href": "/nl/contact",
       "anker": "Plan een gesprek →",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/diensten/ai-readiness-assessment",
+      "href": "/nl/diensten/ai-readiness-assessment",
       "anker": "AI Readiness Assessment",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/diensten/ai-strategy-sprint",
+      "href": "/nl/diensten/ai-strategy-sprint",
       "anker": "AI Strategy Sprint",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/diensten/fractional-ai-lead",
+      "href": "/nl/diensten/fractional-ai-lead",
       "anker": "Fractional AI Lead",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/diensten",
+      "href": "/nl/diensten",
       "anker": "Alle diensten",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/cases",
+      "href": "/nl/cases",
       "anker": "Cases",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/werkwijze",
+      "href": "/nl/werkwijze",
       "anker": "Werkwijze",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/inzichten",
+      "href": "/nl/inzichten",
       "anker": "Inzichten",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/veelgestelde-vragen",
+      "href": "/nl/veelgestelde-vragen",
       "anker": "Veelgestelde vragen",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/over",
+      "href": "/nl/over",
       "anker": "Over mij",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-consultancy",
+      "href": "/nl/ai-consultancy",
       "anker": "AI consultancy",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-implementatie",
+      "href": "/nl/ai-implementatie",
       "anker": "AI implementatie",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-automatisering",
+      "href": "/nl/ai-automatisering",
       "anker": "AI automatisering",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-voor-bedrijven",
+      "href": "/nl/ai-voor-bedrijven",
       "anker": "AI voor bedrijven",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-development",
+      "href": "/nl/ai-development",
       "anker": "AI development",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-agents",
+      "href": "/nl/ai-agents",
       "anker": "AI agents",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-beleid",
+      "href": "/nl/ai-beleid",
       "anker": "AI beleid",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-workshop",
+      "href": "/nl/ai-workshop",
       "anker": "AI workshop",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/markten",
+      "href": "/nl/markten",
       "anker": "AI per branche",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/kennisbank",
+      "href": "/nl/kennisbank",
       "anker": "Kennisbank",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/tarieven",
+      "href": "/nl/tarieven",
       "anker": "Tarieven",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/partnernetwerk",
+      "href": "/nl/partnernetwerk",
       "anker": "Partnernetwerk",
       "rel": null
     },
@@ -568,27 +606,27 @@
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/contact",
+      "href": "/nl/contact",
       "anker": "Plan een gesprek",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/privacy",
+      "href": "/nl/privacy",
       "anker": "Privacyverklaring",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/algemene-voorwaarden",
+      "href": "/nl/algemene-voorwaarden",
       "anker": "Algemene voorwaarden",
       "rel": null
     }
   ],
   "structured_data": {
-    "sha256": "ed57628e68b1f0ec5bebfbc8c26a41e711dc3a43476db1055404b8702559db11",
+    "sha256": "c08035a59b5391b3f5f32151066cd0e0560e43a038a997d5c2fe2f748a1b5521",
     "items": [
       {
         "@context": "https://schema.org",
@@ -600,19 +638,19 @@
                 "@type": "ListItem",
                 "position": 1,
                 "name": "Home",
-                "item": "https://freelanceaiconsultant.com/"
+                "item": "https://freelanceaiconsultant.com/nl"
               },
               {
                 "@type": "ListItem",
                 "position": 2,
                 "name": "AI Agents",
-                "item": "https://freelanceaiconsultant.com/ai-agents"
+                "item": "https://freelanceaiconsultant.com/nl/ai-agents"
               },
               {
                 "@type": "ListItem",
                 "position": 3,
                 "name": "Wat is een AI agent?",
-                "item": "https://freelanceaiconsultant.com/ai-agents/wat-is-een-ai-agent"
+                "item": "https://freelanceaiconsultant.com/nl/ai-agents/wat-is-een-ai-agent"
               }
             ]
           },
@@ -636,7 +674,7 @@
               "@type": "Person",
               "name": "Dave Willemstein"
             },
-            "mainEntityOfPage": "https://freelanceaiconsultant.com/ai-agents/wat-is-een-ai-agent"
+            "mainEntityOfPage": "https://freelanceaiconsultant.com/nl/ai-agents/wat-is-een-ai-agent"
           },
           {
             "@type": "FAQPage",
@@ -679,6 +717,30 @@
                 "acceptedAnswer": {
                   "@type": "Answer",
                   "text": "Een concrete taak met veel herhaling, bronnen die op orde zijn, een eigenaar die de uitkomsten beoordeelt en afspraken over welke gegevens de agent mag gebruiken. De technologie is zelden het eerste knelpunt; de proceskeuze wel."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Wat is een AI agent?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Een AI agent is software die van een mens een doel meekrijgt en daarna grotendeels zelf de route kiest: informatie verzamelen, andere systemen gebruiken, tussenresultaten beoordelen en de volgende stap bepalen. Anders dan een chatbot, die een vraag in een gesprek beantwoordt, voert een AI agent een taak uit in meerdere stappen en kan hij systemen raadplegen en soms wijzigen. De mate van zelfstandigheid is een instelling die de organisatie kiest, van alleen voorbereiden tot volledig zelfstandig werken met controle achteraf."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Kan een fout van een AI agent doorwerken zonder dat het eindresultaat er verkeerd uitziet?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Ja, dat kan: een AI agent zet meerdere stappen achter elkaar, waardoor een fout uit een vroege stap kan doorwerken tot in het eindresultaat zonder dat het er verkeerd uitziet. Logging en tussencontroles zijn bij een AI agent daarom belangrijker dan bij een gewone AI-toepassing."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Welke vormen van opbouw komen bij een AI agent voor?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Grofweg drie vormen: een enkelvoudige AI agent voor één afgebakende taak, een AI agent binnen een AI-workflow met een vaste procesflow, en samenwerkende agents waarbij een coördinerende agent het werk verdeelt. Voor de meeste organisaties is de AI agent binnen een workflow het verstandigste startpunt."
                 }
               }
             ]
@@ -723,12 +785,12 @@
     ],
     "stylesheets": [
       "https://fonts.googleapis.com/css2?family=Caveat:wght@600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap",
-      "/_astro/_slug_.bq6BBoZ5.css",
-      "/_astro/_slug_.goiX3PVF.css",
+      "/_astro/_slug_.BzqUXH8l.css",
+      "/_astro/_slug_.Do5RJXa7.css",
       "/logo-carousel/logo-carousel.css?v=2"
     ],
     "aantal_details": 5,
     "aantal_tabellen": 1
   },
-  "gemeten_op": "2026-10-06"
+  "gemeten_op": "2026-10-29"
 }

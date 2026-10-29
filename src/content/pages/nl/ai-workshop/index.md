@@ -137,7 +137,7 @@ Die laatste is misschien de belangrijkste. Een team dat bewust kiest waar AI nie
 
 ## Investering
 
-Workshops en trainingen krijgen een vaste prijs per opdracht, omdat voorbereiding, duur en groepsgrootte sterk verschillen. Het bedrag bespreken we in de intake, en je krijgt het vooraf op papier. Op de pagina met [tarieven en pakketten](/nl/tarieven) zie je hoe dat zich verhoudt tot de vaste trajecten. Alle bedragen zijn exclusief btw en reiskosten.
+Workshops en trainingen krijgen een vaste prijs per opdracht, omdat voorbereiding, duur en groepsgrootte sterk verschillen. Het bedrag bespreken we in de intake, en je krijgt het vooraf op papier. Op de pagina met [tarieven en pakketten](/nl/tarieven) zie je hoe dat zich verhoudt tot de vaste trajecten. Alle voorstellen zijn exclusief btw en reiskosten.
 
 De Executive Briefing is de uitzondering: die heeft een vaste prijs, inclusief voorbereiding op jullie sector.
 

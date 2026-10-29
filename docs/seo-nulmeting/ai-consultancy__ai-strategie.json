@@ -2,7 +2,7 @@
   "url": "/ai-consultancy/ai-strategie",
   "build_bestand": "dist/ai-consultancy/ai-strategie/index.html",
   "html": {
-    "bytes": 39756,
+    "bytes": 39746,
     "lang": "nl"
   },
   "beschermd": {
@@ -135,8 +135,8 @@
   ],
   "bodytekst": {
     "regio": "main",
-    "woorden": 2075,
-    "sha256": "1e3606cf1212656c4a151f8d2ca1da3d35aa19a49fa9a299981a3cc3c6d875dd",
+    "woorden": 2073,
+    "sha256": "fb908e0c82343ab89152d3cd94eff940a65f616a02d63b3e8b4445bea0af7d18",
     "blokken": [
       "Home",
       "AI Consultancy",
@@ -258,7 +258,7 @@
       "Week 2: scorenVijf dimensies tegen een referentiekader, eerste kansenlijst getoetst bij proceseigenaren",
       "Week 3: kiezenPrioritering, 90-dagenplan en de eindsessie: wat doen we wel en niet?",
       "Zo bepaal je in het AI Readiness Assessment waar je staat voordat je een AI strategie vastlegt.",
-      "Je krijgt een readiness-score per dimensie, een gap-analyse met de drie blokkades die er werkelijk toe doen, een gevalideerde longlist van use cases met een eerste waarde-inschatting, een risico- en compliance-scan inclusief positionering onder de AI-verordening, en een 90-dagenplan met eigenaren en beslismomenten. De prijs is vast, vastgelegd in het voorstel.",
+      "Je krijgt een readiness-score per dimensie, een gap-analyse met de drie blokkades die er werkelijk toe doen, een gevalideerde longlist van use cases met een eerste waarde-inschatting, een risico- en compliance-scan inclusief positionering onder de AI-verordening, en een 90-dagenplan met eigenaren en beslismomenten. De prijs is een vaste projectprijs.",
       "Soms is de uitkomst dat je nog niet klaar bent. Dan krijg je een plan voor het fundament in plaats van een plan voor use cases, en dat is ook een strategische keuze.",
       "Van strategie naar roadmap",
       "Een AI strategie wordt pas echt op het moment dat iemand er een kwartaaldoel van maakt. De meeste strategieën stranden niet op de inhoud, maar op drie ontbrekende vertaalslagen: ambitie omzetten in meetbare uitkomsten, per use case één eigenaar aanwijzen met budget en mandaat, en meten op het niveau waarop je de waarde beloofde. Ik werkte die drie stappen uit in van AI-strategie naar waarde.",
@@ -854,5 +854,5 @@
     "aantal_details": 5,
     "aantal_tabellen": 1
   },
-  "gemeten_op": "2026-10-28"
+  "gemeten_op": "2026-10-29"
 }

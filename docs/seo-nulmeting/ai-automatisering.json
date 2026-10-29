@@ -2,7 +2,7 @@
   "url": "/ai-automatisering",
   "build_bestand": "dist/ai-automatisering/index.html",
   "html": {
-    "bytes": 48742,
+    "bytes": 48660,
     "lang": "nl"
   },
   "beschermd": {
@@ -189,8 +189,8 @@
   ],
   "bodytekst": {
     "regio": "main",
-    "woorden": 2967,
-    "sha256": "9c7e6be754fcee0546ce510246612a0b5dd9b92519f7f40a6765c9b4143a34bf",
+    "woorden": 2960,
+    "sha256": "fe95f493672323aa8420408cb8bb26d2ca3c4c7061d9cdc0c1c04c9e5b180cb7",
     "blokken": [
       "Home",
       "AI Automatisering",
@@ -261,7 +261,7 @@
       "Zakelijke dienstverlener",
       "Interne AI-assistent voor kenniswerkers",
       "Waar begint een organisatie met AI automatisering en wat kost advies daarover?",
-      "AI automatisering past bij werk met ongestructureerde input, zoals e-mails, documenten en vrije tekst, en begint bij een proces met hoog volume, weinig variatie en een controlestap die al bestaat. Dave Willemstein bouwt zelf geen automatiseringen en verkoopt geen software of licenties, maar adviseert onafhankelijk over wat er geautomatiseerd wordt, wie het bouwt en hoe het blijft werken. Wie nog niet weet welk proces als eerste aan de beurt is, start met het AI Readiness Assessment: in 2-3 weken een gevalideerde lijst met kansen en een 90-dagenplan voor een vaste prijs of vast maandbedrag, vastgelegd in het voorstel, exclusief btw en reiskosten.",
+      "AI automatisering past bij werk met ongestructureerde input, zoals e-mails, documenten en vrije tekst, en begint bij een proces met hoog volume, weinig variatie en een controlestap die al bestaat. Dave Willemstein bouwt zelf geen automatiseringen en verkoopt geen software of licenties, maar adviseert onafhankelijk over wat er geautomatiseerd wordt, wie het bouwt en hoe het blijft werken. Wie nog niet weet welk proces als eerste aan de beurt is, start met het AI Readiness Assessment: in 2-3 weken een gevalideerde lijst met kansen en een 90-dagenplan voor een vaste projectprijs, exclusief btw en reiskosten.",
       "Wordt AI automatisering door de adviseur zelf gebouwd?",
       "Nee. AI automatisering wordt gebouwd door het eigen team van de opdrachtgever of door een partner die de opdrachtgever rechtstreeks contracteert, zonder marge voor de adviseur. De adviseur levert een procesbeschrijving met nulmeting, een geprioriteerde lijst, een beslisdocument over bouwen, kopen of een partner inschakelen en een meetopzet, en toetst de oplevering aan de afgesproken criteria.",
       "Uit hoeveel kostenposten bestaat AI automatisering?",
@@ -887,7 +887,7 @@
     }
   ],
   "structured_data": {
-    "sha256": "d78e5c45533f10082aae9eaf12ac0e95fa4430ec7889cc26290140cddf0593c2",
+    "sha256": "53ce75985edac04d6e56cabe3aca312616cf9722bf02f04a8503383ba83ffbb3",
     "items": [
       {
         "@context": "https://schema.org",
@@ -974,7 +974,7 @@
                 "name": "Waar begint een organisatie met AI automatisering en wat kost advies daarover?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "AI automatisering past bij werk met ongestructureerde input, zoals e-mails, documenten en vrije tekst, en begint bij een proces met hoog volume, weinig variatie en een controlestap die al bestaat. Dave Willemstein bouwt zelf geen automatiseringen en verkoopt geen software of licenties, maar adviseert onafhankelijk over wat er geautomatiseerd wordt, wie het bouwt en hoe het blijft werken. Wie nog niet weet welk proces als eerste aan de beurt is, start met het AI Readiness Assessment: in 2-3 weken een gevalideerde lijst met kansen en een 90-dagenplan voor een vaste prijs of vast maandbedrag, vastgelegd in het voorstel, exclusief btw en reiskosten."
+                  "text": "AI automatisering past bij werk met ongestructureerde input, zoals e-mails, documenten en vrije tekst, en begint bij een proces met hoog volume, weinig variatie en een controlestap die al bestaat. Dave Willemstein bouwt zelf geen automatiseringen en verkoopt geen software of licenties, maar adviseert onafhankelijk over wat er geautomatiseerd wordt, wie het bouwt en hoe het blijft werken. Wie nog niet weet welk proces als eerste aan de beurt is, start met het AI Readiness Assessment: in 2-3 weken een gevalideerde lijst met kansen en een 90-dagenplan voor een vaste projectprijs, exclusief btw en reiskosten."
                 }
               },
               {
@@ -1050,5 +1050,5 @@
     "aantal_details": 5,
     "aantal_tabellen": 1
   },
-  "gemeten_op": "2026-10-28"
+  "gemeten_op": "2026-10-29"
 }

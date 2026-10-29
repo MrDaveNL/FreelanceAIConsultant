@@ -2,15 +2,28 @@
   "url": "/ai-workshop/ai-geletterdheid-training",
   "build_bestand": "dist/ai-workshop/ai-geletterdheid-training/index.html",
   "html": {
-    "bytes": 35716,
+    "bytes": 39970,
     "lang": "nl"
   },
   "beschermd": {
     "title": "AI geletterdheid training | Zo voldoe je aan de AI Act",
     "meta_description": "De AI Act vraagt organisaties om AI-geletterdheid te ondersteunen. Met deze training weet je team wat AI kan, waar de risico's liggen en hoe je veilig werkt.",
-    "canonical": "https://freelanceaiconsultant.com/ai-workshop/ai-geletterdheid-training",
+    "canonical": "https://freelanceaiconsultant.com/nl/ai-workshop/ai-geletterdheid-training",
     "robots_meta": null,
-    "hreflang": [],
+    "hreflang": [
+      {
+        "hreflang": "en",
+        "href": "https://freelanceaiconsultant.com/ai-workshop/ai-literacy-training"
+      },
+      {
+        "hreflang": "nl",
+        "href": "https://freelanceaiconsultant.com/nl/ai-workshop/ai-geletterdheid-training"
+      },
+      {
+        "hreflang": "x-default",
+        "href": "https://freelanceaiconsultant.com/ai-workshop/ai-literacy-training"
+      }
+    ],
     "h1": [
       "AI geletterdheid training: voldoen aan de AI Act"
     ]
@@ -21,7 +34,7 @@
     "og:site_name": "freelanceaiconsultant.com",
     "og:title": "AI geletterdheid training | Zo voldoe je aan de AI Act",
     "og:description": "De AI Act vraagt organisaties om AI-geletterdheid te ondersteunen. Met deze training weet je team wat AI kan, waar de risico's liggen en hoe je veilig werkt.",
-    "og:url": "https://freelanceaiconsultant.com/ai-workshop/ai-geletterdheid-training",
+    "og:url": "https://freelanceaiconsultant.com/nl/ai-workshop/ai-geletterdheid-training",
     "og:image": "https://freelanceaiconsultant.com/images/dave-portrait.jpg",
     "twitter:card": "summary_large_image",
     "twitter:title": "AI geletterdheid training | Zo voldoe je aan de AI Act",
@@ -32,6 +45,24 @@
     {
       "niveau": 1,
       "tekst": "AI geletterdheid training: voldoen aan de AI Act",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "Voldoet een organisatie met een AI geletterdheid training aan de AI Act?",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 3,
+      "tekst": "Is de verplichting achter een AI geletterdheid training in 2026 vervallen?",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 3,
+      "tekst": "Bestaat er een voorgeschreven lesprogramma voor een AI geletterdheid training?",
       "regio": "main",
       "id": null
     },
@@ -80,8 +111,8 @@
   ],
   "bodytekst": {
     "regio": "main",
-    "woorden": 1651,
-    "sha256": "dc990041dc4c7d1eeb714f467cc27f97a54326f4b10af815d80f525d9a30896c",
+    "woorden": 1910,
+    "sha256": "6fe33f3c0e72e685343ec65bbc00bccece8d15c572ce882112826c1e288d3fff",
     "blokken": [
       "Home",
       "AI workshop",
@@ -152,6 +183,13 @@
       "Proces & productivity",
       "Zakelijke dienstverlener",
       "Interne AI-assistent voor kenniswerkers",
+      "Voldoet een organisatie met een AI geletterdheid training aan de AI Act?",
+      "Artikel 4 van de AI Act geldt sinds 2 februari 2025 voor organisaties die AI ontwikkelen of gebruiken; sinds de wijziging van juli 2026 is het een inspanningsverplichting om maatregelen te nemen voor de AI-geletterdheid van personeel, zonder voorgeschreven niveau. Een AI geletterdheid training van Dave Willemstein is een manier om die maatregelen in te vullen, maar niet de enige, en een training alleen is niet genoeg. Een certificaat is volgens de Europese Commissie niet nodig, terwijl het wel verstandig is intern vast te leggen welke maatregelen zijn genomen en waarom die passen.",
+      "Is de verplichting achter een AI geletterdheid training in 2026 vervallen?",
+      "Nee. De verplichting uit artikel 4 van de AI Act, waar een AI geletterdheid training bij helpt, blijft bestaan voor aanbieders en gebruiksverantwoordelijken van AI-systemen. Sinds 27 juli 2026 is het een inspanningsverplichting, en niets doen voldoet niet (stand september 2026).",
+      "Bestaat er een voorgeschreven lesprogramma voor een AI geletterdheid training?",
+      "Nee. Voor een AI geletterdheid training bestaat geen voorgeschreven lesprogramma: volgens de Autoriteit Persoonsgegevens hangt wat nodig is af van de risico's, de rollen en de context.",
+      "Bron: Dave Willemstein, onafhankelijk AI-adviseur; primaire bron: Verordening (EU) 2026/1744 (Digitale omnibus inzake AI), Publicatieblad L van 24.7.2026, EUR-Lex; Verordening (EU) 2024/1689 (AI Act), artikel 113, EUR-Lex; Europese Commissie, AI Literacy - Questions & Answers (bijgewerkt 27 juli 2026); Europese Commissie, AI Omnibus enters into force (27 juli 2026); Autoriteit Persoonsgegevens, Aan de slag met AI-geletterdheid (februari 2025) (peildatum 6 oktober 2026). Bijgewerkt: oktober 2026.",
       "Wat is AI geletterdheid?",
       "AI-geletterdheid betekent dat mensen die met AI-systemen werken de kennis, vaardigheden en het begrip hebben om dat verantwoord te doen. De Autoriteit Persoonsgegevens benadrukt in Aan de slag met AI-geletterdheid dat het niet alleen over de technische werking gaat, maar ook over de sociale, ethische en praktische kant. Bijvoorbeeld: begrijpen hoe je de uitkomst van een AI-systeem interpreteert, en wat een beslissing met hulp van AI betekent voor de mensen over wie wordt beslist.",
       "In de praktijk komt het neer op vier vragen die een medewerker moet kunnen beantwoorden:",
@@ -238,77 +276,84 @@
     {
       "regio": "header",
       "soort": "intern",
-      "href": "/",
+      "href": "/nl",
       "anker": "",
       "rel": null
     },
     {
       "regio": "header",
       "soort": "intern",
-      "href": "/diensten",
+      "href": "/nl/diensten",
       "anker": "Diensten",
       "rel": null
     },
     {
       "regio": "header",
       "soort": "intern",
-      "href": "/cases",
+      "href": "/nl/cases",
       "anker": "Cases",
       "rel": null
     },
     {
       "regio": "header",
       "soort": "intern",
-      "href": "/werkwijze",
+      "href": "/nl/werkwijze",
       "anker": "Werkwijze",
       "rel": null
     },
     {
       "regio": "header",
       "soort": "intern",
-      "href": "/inzichten",
+      "href": "/nl/inzichten",
       "anker": "Inzichten",
       "rel": null
     },
     {
       "regio": "header",
       "soort": "intern",
-      "href": "/over",
+      "href": "/nl/over",
       "anker": "Over mij",
       "rel": null
     },
     {
       "regio": "header",
       "soort": "intern",
-      "href": "/contact",
+      "href": "/ai-workshop/ai-literacy-training",
+      "anker": "EN",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/nl/contact",
       "anker": "Plan een gesprek →",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/",
+      "href": "/nl",
       "anker": "Home",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/ai-workshop",
+      "href": "/nl/ai-workshop",
       "anker": "AI workshop",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/contact",
+      "href": "/nl/contact",
       "anker": "Vraag een training aan →",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/diensten/ai-readiness-assessment",
+      "href": "/nl/diensten/ai-readiness-assessment",
       "anker": "Bekijk het AI Readiness Assessment →",
       "rel": null
     },
@@ -336,63 +381,63 @@
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/ai-beleid/ai-act",
+      "href": "/nl/ai-beleid/ai-act",
       "anker": "de AI Act voor organisaties",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/ai-workshop/copilot-training",
+      "href": "/nl/ai-workshop/copilot-training",
       "anker": "praktische Copilot training",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/ai-workshop/chatgpt-training",
+      "href": "/nl/ai-workshop/chatgpt-training",
       "anker": "hands-on ChatGPT training",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/ai-workshop",
+      "href": "/nl/ai-workshop",
       "anker": "AI workshops en trainingen",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/ai-beleid",
+      "href": "/nl/ai-beleid",
       "anker": "AI-beleid opstellen",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/contact",
+      "href": "/nl/contact",
       "anker": "Vraag een training aan",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/over",
+      "href": "/nl/over",
       "anker": "Over mij",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/partnernetwerk",
+      "href": "/nl/partnernetwerk",
       "anker": "Mijn partnernetwerk",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/diensten/ai-readiness-assessment",
+      "href": "/nl/diensten/ai-readiness-assessment",
       "anker": "Weten waar je staat met AI? Bekijk het AI Readiness Assessment →",
       "rel": null
     },
@@ -434,154 +479,154 @@
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/contact",
+      "href": "/nl/contact",
       "anker": "Plan een gesprek →",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/diensten/ai-readiness-assessment",
+      "href": "/nl/diensten/ai-readiness-assessment",
       "anker": "AI Readiness Assessment",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/diensten/ai-strategy-sprint",
+      "href": "/nl/diensten/ai-strategy-sprint",
       "anker": "AI Strategy Sprint",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/diensten/fractional-ai-lead",
+      "href": "/nl/diensten/fractional-ai-lead",
       "anker": "Fractional AI Lead",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/diensten",
+      "href": "/nl/diensten",
       "anker": "Alle diensten",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/cases",
+      "href": "/nl/cases",
       "anker": "Cases",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/werkwijze",
+      "href": "/nl/werkwijze",
       "anker": "Werkwijze",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/inzichten",
+      "href": "/nl/inzichten",
       "anker": "Inzichten",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/veelgestelde-vragen",
+      "href": "/nl/veelgestelde-vragen",
       "anker": "Veelgestelde vragen",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/over",
+      "href": "/nl/over",
       "anker": "Over mij",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-consultancy",
+      "href": "/nl/ai-consultancy",
       "anker": "AI consultancy",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-implementatie",
+      "href": "/nl/ai-implementatie",
       "anker": "AI implementatie",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-automatisering",
+      "href": "/nl/ai-automatisering",
       "anker": "AI automatisering",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-voor-bedrijven",
+      "href": "/nl/ai-voor-bedrijven",
       "anker": "AI voor bedrijven",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-development",
+      "href": "/nl/ai-development",
       "anker": "AI development",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-agents",
+      "href": "/nl/ai-agents",
       "anker": "AI agents",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-beleid",
+      "href": "/nl/ai-beleid",
       "anker": "AI beleid",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-workshop",
+      "href": "/nl/ai-workshop",
       "anker": "AI workshop",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/markten",
+      "href": "/nl/markten",
       "anker": "AI per branche",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/kennisbank",
+      "href": "/nl/kennisbank",
       "anker": "Kennisbank",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/tarieven",
+      "href": "/nl/tarieven",
       "anker": "Tarieven",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/partnernetwerk",
+      "href": "/nl/partnernetwerk",
       "anker": "Partnernetwerk",
       "rel": null
     },
@@ -602,27 +647,27 @@
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/contact",
+      "href": "/nl/contact",
       "anker": "Plan een gesprek",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/privacy",
+      "href": "/nl/privacy",
       "anker": "Privacyverklaring",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/algemene-voorwaarden",
+      "href": "/nl/algemene-voorwaarden",
       "anker": "Algemene voorwaarden",
       "rel": null
     }
   ],
   "structured_data": {
-    "sha256": "63ecf01712d2dc977bc32793173ab4f9491145f367028ab72a0525ecb761f1a5",
+    "sha256": "e1f05860a57c11232848e2146e89ca5e2f9c34f5af9071c93c7464bd44d3256a",
     "items": [
       {
         "@context": "https://schema.org",
@@ -634,19 +679,19 @@
                 "@type": "ListItem",
                 "position": 1,
                 "name": "Home",
-                "item": "https://freelanceaiconsultant.com/"
+                "item": "https://freelanceaiconsultant.com/nl"
               },
               {
                 "@type": "ListItem",
                 "position": 2,
                 "name": "AI workshop",
-                "item": "https://freelanceaiconsultant.com/ai-workshop"
+                "item": "https://freelanceaiconsultant.com/nl/ai-workshop"
               },
               {
                 "@type": "ListItem",
                 "position": 3,
                 "name": "AI geletterdheid",
-                "item": "https://freelanceaiconsultant.com/ai-workshop/ai-geletterdheid-training"
+                "item": "https://freelanceaiconsultant.com/nl/ai-workshop/ai-geletterdheid-training"
               }
             ]
           },
@@ -655,7 +700,7 @@
             "name": "AI geletterdheid",
             "serviceType": "ai geletterdheid training",
             "description": "De AI Act vraagt organisaties om AI-geletterdheid te ondersteunen. Met deze training weet je team wat AI kan, waar de risico's liggen en hoe je veilig werkt.",
-            "url": "https://freelanceaiconsultant.com/ai-workshop/ai-geletterdheid-training",
+            "url": "https://freelanceaiconsultant.com/nl/ai-workshop/ai-geletterdheid-training",
             "areaServed": "NL",
             "provider": {
               "@type": "Person",
@@ -709,6 +754,30 @@
                   "@type": "Answer",
                   "text": "Volgens de Europese Commissie ligt het toezicht bij de nationale markttoezichthouders, niet bij het Europese AI Office. Welke Nederlandse toezichthouder dit oppakt, staat nog niet vast: de Uitvoeringswet AI-verordening, die de verdeling van het toezicht regelt, is nog een wetsvoorstel."
                 }
+              },
+              {
+                "@type": "Question",
+                "name": "Voldoet een organisatie met een AI geletterdheid training aan de AI Act?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Artikel 4 van de AI Act geldt sinds 2 februari 2025 voor organisaties die AI ontwikkelen of gebruiken; sinds de wijziging van juli 2026 is het een inspanningsverplichting om maatregelen te nemen voor de AI-geletterdheid van personeel, zonder voorgeschreven niveau. Een AI geletterdheid training van Dave Willemstein is een manier om die maatregelen in te vullen, maar niet de enige, en een training alleen is niet genoeg. Een certificaat is volgens de Europese Commissie niet nodig, terwijl het wel verstandig is intern vast te leggen welke maatregelen zijn genomen en waarom die passen."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Is de verplichting achter een AI geletterdheid training in 2026 vervallen?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Nee. De verplichting uit artikel 4 van de AI Act, waar een AI geletterdheid training bij helpt, blijft bestaan voor aanbieders en gebruiksverantwoordelijken van AI-systemen. Sinds 27 juli 2026 is het een inspanningsverplichting, en niets doen voldoet niet (stand september 2026)."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Bestaat er een voorgeschreven lesprogramma voor een AI geletterdheid training?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Nee. Voor een AI geletterdheid training bestaat geen voorgeschreven lesprogramma: volgens de Autoriteit Persoonsgegevens hangt wat nodig is af van de risico's, de rollen en de context."
+                }
               }
             ]
           }
@@ -752,12 +821,12 @@
     ],
     "stylesheets": [
       "https://fonts.googleapis.com/css2?family=Caveat:wght@600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap",
-      "/_astro/_slug_.bq6BBoZ5.css",
-      "/_astro/_slug_.goiX3PVF.css",
+      "/_astro/_slug_.BzqUXH8l.css",
+      "/_astro/_slug_.Do5RJXa7.css",
       "/logo-carousel/logo-carousel.css?v=2"
     ],
     "aantal_details": 5,
     "aantal_tabellen": 0
   },
-  "gemeten_op": "2026-10-06"
+  "gemeten_op": "2026-10-29"
 }

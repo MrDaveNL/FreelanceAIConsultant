@@ -2,7 +2,7 @@
   "url": "/diensten/ai-due-diligence",
   "build_bestand": "dist/diensten/ai-due-diligence/index.html",
   "html": {
-    "bytes": 38642,
+    "bytes": 38574,
     "lang": "nl"
   },
   "beschermd": {
@@ -177,8 +177,8 @@
   ],
   "bodytekst": {
     "regio": "main",
-    "woorden": 933,
-    "sha256": "0a5122c0a107c30de415825c997ac7bbcc801f5a13026be33c745bf2102833b6",
+    "woorden": 927,
+    "sha256": "4c53dd28a5dd9478cbfcd1cf6bcbbd7c578fd42aa495be3c16e2d9a443866379",
     "blokken": [
       "Wat zit er echt onder de motorkap?",
       "AI Due Diligence",
@@ -250,9 +250,9 @@
       "Eén oplossing aan de onderkant, een heel bedrijf aan de bovenkant. Altijd onder NDA. Alle voorstellen zijn exclusief btw.",
       "Vraag een voorstel aan → Prijs op maat, afhankelijk van scope",
       "Wat levert een AI Due Diligence op en wat kost die?",
-      "De AI Due Diligence van Dave Willemstein beoordeelt een AI-propositie of AI-leverancier voor investeerders en voor organisaties die een strategische AI-leverancier binnenhalen. Het resultaat is een DD-rapport met een expliciet oordeel en een overzicht van red flags, gescheiden in deal-breakers en onderhandelpunten. Het onderzoek duurt 2-4 weken en kost een vaste prijs of vast maandbedrag, vastgelegd in het voorstel, exclusief btw en reiskosten.",
+      "De AI Due Diligence van Dave Willemstein beoordeelt een AI-propositie of AI-leverancier voor investeerders en voor organisaties die een strategische AI-leverancier binnenhalen. Het resultaat is een DD-rapport met een expliciet oordeel en een overzicht van red flags, gescheiden in deal-breakers en onderhandelpunten. Het onderzoek duurt 2-4 weken en kost een vaste projectprijs, altijd onder NDA en vastgelegd in het voorstel, exclusief btw en reiskosten.",
       "Kost een AI Due Diligence van een heel bedrijf meer dan die van één oplossing?",
-      "Ja. De AI Due Diligence kost een vaste prijs of vast maandbedrag, vastgelegd in het voorstel: één oplossing zit aan de onderkant, een heel bedrijf aan de bovenkant.",
+      "Ja. De AI Due Diligence kost een vaste projectprijs: één oplossing zit aan de onderkant, een heel bedrijf aan de bovenkant.",
       "Is de AI Due Diligence geschikt voor wie een formele audit met accountantsverklaring nodig heeft?",
       "Minder geschikt: de AI Due Diligence is minder geschikt als een formele audit met accountantsverklaring nodig is.",
       "Bron: tarieven en doorlooptijden van Dave Willemstein. Bijgewerkt: oktober 2026.",
@@ -651,7 +651,7 @@
     }
   ],
   "structured_data": {
-    "sha256": "c249d93f6af2e1a0e12337763cbd4e07415c072aff0121627fc4047caaaa3799",
+    "sha256": "7127c148560d830355e52c908cf62f3642f556330984020e1b5172087ead3a00",
     "items": [
       [
         {
@@ -680,7 +680,7 @@
               "name": "Wat levert een AI Due Diligence op en wat kost die?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "De AI Due Diligence van Dave Willemstein beoordeelt een AI-propositie of AI-leverancier voor investeerders en voor organisaties die een strategische AI-leverancier binnenhalen. Het resultaat is een DD-rapport met een expliciet oordeel en een overzicht van red flags, gescheiden in deal-breakers en onderhandelpunten. Het onderzoek duurt 2-4 weken en kost een vaste prijs of vast maandbedrag, vastgelegd in het voorstel, exclusief btw en reiskosten."
+                "text": "De AI Due Diligence van Dave Willemstein beoordeelt een AI-propositie of AI-leverancier voor investeerders en voor organisaties die een strategische AI-leverancier binnenhalen. Het resultaat is een DD-rapport met een expliciet oordeel en een overzicht van red flags, gescheiden in deal-breakers en onderhandelpunten. Het onderzoek duurt 2-4 weken en kost een vaste projectprijs, altijd onder NDA en vastgelegd in het voorstel, exclusief btw en reiskosten."
               }
             },
             {
@@ -688,7 +688,7 @@
               "name": "Kost een AI Due Diligence van een heel bedrijf meer dan die van één oplossing?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "Ja. De AI Due Diligence kost een vaste prijs of vast maandbedrag, vastgelegd in het voorstel: één oplossing zit aan de onderkant, een heel bedrijf aan de bovenkant."
+                "text": "Ja. De AI Due Diligence kost een vaste projectprijs: één oplossing zit aan de onderkant, een heel bedrijf aan de bovenkant."
               }
             },
             {
@@ -747,5 +747,5 @@
     "aantal_details": 3,
     "aantal_tabellen": 0
   },
-  "gemeten_op": "2026-10-28"
+  "gemeten_op": "2026-10-29"
 }

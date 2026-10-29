@@ -2,7 +2,7 @@
   "url": "/diensten/vendor-review",
   "build_bestand": "dist/diensten/vendor-review/index.html",
   "html": {
-    "bytes": 38585,
+    "bytes": 38477,
     "lang": "nl"
   },
   "beschermd": {
@@ -177,8 +177,8 @@
   ],
   "bodytekst": {
     "regio": "main",
-    "woorden": 925,
-    "sha256": "d76d08f3facd725380238b89815769094d1cf8876d2d1ebbfcf065f8053745a7",
+    "woorden": 915,
+    "sha256": "fe1cd930dce5076d5cf4abd80f13e125286d67910c35317bb51fa62118ebfcfb",
     "blokken": [
       "Kiezen op fit, niet op demo",
       "Vendor Review & selectie",
@@ -250,9 +250,9 @@
       "Afhankelijk van het aantal leveranciers (2 tot 4). Alle voorstellen zijn exclusief btw.",
       "Vraag een voorstel aan → Prijs op maat, afhankelijk van scope",
       "Wat levert een Vendor Review op en wat kost die?",
-      "De Vendor Review van Dave Willemstein is een onafhankelijk selectietraject voor organisaties die een AI-leverancier kiezen en die keuze achteraf moeten kunnen uitleggen. Het resultaat is een onderbouwd selectieadvies met scorecards, een TCO-vergelijking over drie jaar en een beslisdocument voor procurement en board. Het traject duurt 3-6 weken en kost een vaste prijs of vast maandbedrag, vastgelegd in het voorstel, exclusief btw en reiskosten.",
+      "De Vendor Review van Dave Willemstein is een onafhankelijk selectietraject voor organisaties die een AI-leverancier kiezen en die keuze achteraf moeten kunnen uitleggen. Het resultaat is een onderbouwd selectieadvies met scorecards, een TCO-vergelijking over drie jaar en een beslisdocument voor procurement en board. Het traject duurt 3-6 weken en kost een vaste projectprijs, vastgelegd in het voorstel, exclusief btw en reiskosten.",
       "Wat bepaalt de prijs van een Vendor Review?",
-      "De prijs van de Vendor Review, een vaste prijs of vast maandbedrag, vastgelegd in het voorstel, is afhankelijk van het aantal leveranciers (2 tot 4).",
+      "De prijs van de Vendor Review, een vaste projectprijs, is afhankelijk van het aantal leveranciers (2 tot 4).",
       "Wanneer is een Vendor Review minder geschikt?",
       "De Vendor Review is minder geschikt als de leverancier feitelijk al gekozen is en de organisatie een onderbouwing achteraf zoekt.",
       "Bron: tarieven en doorlooptijden van Dave Willemstein. Bijgewerkt: oktober 2026.",
@@ -659,7 +659,7 @@
     }
   ],
   "structured_data": {
-    "sha256": "24fa19b34ac71d28b4889d7a94449ba6f848800ca3efe325c0b842d662f28b94",
+    "sha256": "a497dd08f9fa81604766b127e3600a2932cb0d22910973af572e7bdf0fcf6999",
     "items": [
       [
         {
@@ -688,7 +688,7 @@
               "name": "Wat levert een Vendor Review op en wat kost die?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "De Vendor Review van Dave Willemstein is een onafhankelijk selectietraject voor organisaties die een AI-leverancier kiezen en die keuze achteraf moeten kunnen uitleggen. Het resultaat is een onderbouwd selectieadvies met scorecards, een TCO-vergelijking over drie jaar en een beslisdocument voor procurement en board. Het traject duurt 3-6 weken en kost een vaste prijs of vast maandbedrag, vastgelegd in het voorstel, exclusief btw en reiskosten."
+                "text": "De Vendor Review van Dave Willemstein is een onafhankelijk selectietraject voor organisaties die een AI-leverancier kiezen en die keuze achteraf moeten kunnen uitleggen. Het resultaat is een onderbouwd selectieadvies met scorecards, een TCO-vergelijking over drie jaar en een beslisdocument voor procurement en board. Het traject duurt 3-6 weken en kost een vaste projectprijs, vastgelegd in het voorstel, exclusief btw en reiskosten."
               }
             },
             {
@@ -696,7 +696,7 @@
               "name": "Wat bepaalt de prijs van een Vendor Review?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "De prijs van de Vendor Review, een vaste prijs of vast maandbedrag, vastgelegd in het voorstel, is afhankelijk van het aantal leveranciers (2 tot 4)."
+                "text": "De prijs van de Vendor Review, een vaste projectprijs, is afhankelijk van het aantal leveranciers (2 tot 4)."
               }
             },
             {
@@ -755,5 +755,5 @@
     "aantal_details": 3,
     "aantal_tabellen": 0
   },
-  "gemeten_op": "2026-10-28"
+  "gemeten_op": "2026-10-29"
 }

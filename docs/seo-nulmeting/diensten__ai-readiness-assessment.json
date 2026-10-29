@@ -2,7 +2,7 @@
   "url": "/diensten/ai-readiness-assessment",
   "build_bestand": "dist/diensten/ai-readiness-assessment/index.html",
   "html": {
-    "bytes": 40291,
+    "bytes": 40157,
     "lang": "nl"
   },
   "beschermd": {
@@ -177,8 +177,8 @@
   ],
   "bodytekst": {
     "regio": "main",
-    "woorden": 1103,
-    "sha256": "6406ee2698eb0d5c9bb96815465c4359c0899542ef2e78c25b9e4b1a8d892e09",
+    "woorden": 1089,
+    "sha256": "1182c883e3fd51d1d0263ea61b30b38700a19898298549953652afabef4815c7",
     "blokken": [
       "Weten waar je staat",
       "AI Readiness Assessment",
@@ -250,13 +250,13 @@
       "Vaste prijs, inclusief eindpresentatie aan MT of board. Alle voorstellen zijn exclusief btw.",
       "Vraag een voorstel aan → Prijs op maat, afhankelijk van scope",
       "Wat levert het AI Readiness Assessment op en wat kost het?",
-      "Het AI Readiness Assessment van Dave Willemstein laat organisaties die AI overwegen maar nog geen richting hebben gekozen zien wat haalbaar is en wat eerst moet. Het resultaat is een readiness-score op strategie, data, technologie, mensen en governance, een gap-analyse en een 90-dagenplan. De doorlichting duurt 2-3 weken tegen een vaste prijs of vast maandbedrag, vastgelegd in het voorstel, exclusief btw en reiskosten.",
+      "Het AI Readiness Assessment van Dave Willemstein laat organisaties die AI overwegen maar nog geen richting hebben gekozen zien wat haalbaar is en wat eerst moet. Het resultaat is een readiness-score op strategie, data, technologie, mensen en governance, een gap-analyse en een 90-dagenplan. De doorlichting duurt 2-3 weken tegen een vaste projectprijs, vastgelegd in het voorstel, exclusief btw en reiskosten.",
       "Hoe lang duurt het AI Readiness Assessment?",
       "2-3 weken. In die periode bestaat het AI Readiness Assessment uit een documentenanalyse, een datascan en 8 tot 12 interviews, gevolgd door de scoring, de prioritering en een eindsessie.",
       "Is de prijs van het AI Readiness Assessment een vaste prijs?",
-      "Ja, voor de hele organisatie: het AI Readiness Assessment kost een vaste prijs, vastgelegd in het voorstel, en de eindpresentatie aan MT of board zit daarbij in. Voor een enkele business unit of een specifiek procesdomein ligt de investering lager. Het bedrag is exclusief btw en reiskosten.",
+      "Ja, voor de hele organisatie: het AI Readiness Assessment kost een vaste projectprijs, en de eindpresentatie aan MT of board zit daarbij in. Voor een enkele business unit of een specifiek procesdomein ligt de investering lager. Alle voorstellen zijn exclusief btw en reiskosten.",
       "Wordt een Executive Briefing verrekend met het AI Readiness Assessment?",
-      "Ja, als het AI Readiness Assessment binnen 60 dagen start: de Executive Briefing kost een vaste prijs of vast maandbedrag, vastgelegd in het voorstel en wordt dan volledig verrekend.",
+      "Ja, als het AI Readiness Assessment binnen 60 dagen start: de Executive Briefing kost een vaste projectprijs en wordt dan volledig verrekend.",
       "Bron: tarieven en doorlooptijden van Dave Willemstein. Bijgewerkt: oktober 2026.",
       "De aanleiding",
       "Herkenbaar?",
@@ -669,7 +669,7 @@
     }
   ],
   "structured_data": {
-    "sha256": "047eb8db6505a152ed3e875797232477af261846876a2cca194a14a2095268b8",
+    "sha256": "e6e88c2680baac30fb8910d8785821b515ce98bc142b48093856f19cfe3d3ca9",
     "items": [
       [
         {
@@ -698,7 +698,7 @@
               "name": "Wat levert het AI Readiness Assessment op en wat kost het?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "Het AI Readiness Assessment van Dave Willemstein laat organisaties die AI overwegen maar nog geen richting hebben gekozen zien wat haalbaar is en wat eerst moet. Het resultaat is een readiness-score op strategie, data, technologie, mensen en governance, een gap-analyse en een 90-dagenplan. De doorlichting duurt 2-3 weken tegen een vaste prijs of vast maandbedrag, vastgelegd in het voorstel, exclusief btw en reiskosten."
+                "text": "Het AI Readiness Assessment van Dave Willemstein laat organisaties die AI overwegen maar nog geen richting hebben gekozen zien wat haalbaar is en wat eerst moet. Het resultaat is een readiness-score op strategie, data, technologie, mensen en governance, een gap-analyse en een 90-dagenplan. De doorlichting duurt 2-3 weken tegen een vaste projectprijs, vastgelegd in het voorstel, exclusief btw en reiskosten."
               }
             },
             {
@@ -714,7 +714,7 @@
               "name": "Is de prijs van het AI Readiness Assessment een vaste prijs?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "Ja, voor de hele organisatie: het AI Readiness Assessment kost een vaste prijs, vastgelegd in het voorstel, en de eindpresentatie aan MT of board zit daarbij in. Voor een enkele business unit of een specifiek procesdomein ligt de investering lager. Het bedrag is exclusief btw en reiskosten."
+                "text": "Ja, voor de hele organisatie: het AI Readiness Assessment kost een vaste projectprijs, en de eindpresentatie aan MT of board zit daarbij in. Voor een enkele business unit of een specifiek procesdomein ligt de investering lager. Alle voorstellen zijn exclusief btw en reiskosten."
               }
             },
             {
@@ -722,7 +722,7 @@
               "name": "Wordt een Executive Briefing verrekend met het AI Readiness Assessment?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "Ja, als het AI Readiness Assessment binnen 60 dagen start: de Executive Briefing kost een vaste prijs of vast maandbedrag, vastgelegd in het voorstel en wordt dan volledig verrekend."
+                "text": "Ja, als het AI Readiness Assessment binnen 60 dagen start: de Executive Briefing kost een vaste projectprijs en wordt dan volledig verrekend."
               }
             }
           ]
@@ -773,5 +773,5 @@
     "aantal_details": 4,
     "aantal_tabellen": 0
   },
-  "gemeten_op": "2026-10-28"
+  "gemeten_op": "2026-10-29"
 }

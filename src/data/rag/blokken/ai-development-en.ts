@@ -6,7 +6,7 @@ export default {
   "onderwerp": "AI development",
   "vraagkop": "What does independent guidance for AI development cost, and who does the building?",
   "onderBestaandeKop": false,
-  "antwoord": "{{afzender}} doesn't build software, but guides AI development from the client's side: specification, build-partner selection, testing deliverables and governance. For choosing the build partner there's the {{dienst:vendor-review}} over {{timing:vendor-review}}, for a fixed price, and during the build there's guidance from the client's side, for example as a {{dienst:fractional-ai-lead}} for a fixed monthly fee. The build itself sits with the client's own team or with a development partner the client contracts directly.",
+  "antwoord": "{{afzender}} doesn't build software, but guides AI development from the client's side: specification, build-partner selection, testing deliverables and governance. For choosing the build partner there's the {{dienst:vendor-review}} over {{timing:vendor-review}}, for a fixed project fee, and during the build there's guidance from the client's side, for example as a {{dienst:fractional-ai-lead}} for a fixed monthly fee. The build itself sits with the client's own team or with a development partner the client contracts directly.",
   "tabel": {
     "bijschrift": "AI development: the right service for each phase of the project",
     "kolommen": [
@@ -44,7 +44,7 @@ export default {
     },
     {
       "vraag": "What determines the price of the Vendor Review for AI development?",
-      "antwoord": "The {{dienst:vendor-review}} costs {{pricelc:vendor-review}}, depending on the number of vendors being compared."
+      "antwoord": "The {{dienst:vendor-review}} is priced as {{pricelc:vendor-review}}, depending on the number of vendors being compared."
     },
     {
       "vraag": "What works best for AI development: build, buy or partner?",

@@ -2,7 +2,7 @@
   "url": "/ai-consultancy",
   "build_bestand": "dist/ai-consultancy/index.html",
   "html": {
-    "bytes": 47857,
+    "bytes": 47959,
     "lang": "nl"
   },
   "beschermd": {
@@ -237,8 +237,8 @@
   ],
   "bodytekst": {
     "regio": "main",
-    "woorden": 3059,
-    "sha256": "987a108d4750858e37cd4d2369632f70f992d1ef5349e5e93a517be484351670",
+    "woorden": 3068,
+    "sha256": "71e0985562f1e2934cc0f1fd430c99a1270be9657bb9998d649ed8f0bb128ee9",
     "blokken": [
       "Home",
       "AI Consultancy",
@@ -374,8 +374,8 @@
       "Fictief voorbeeld, samengesteld uit situaties die veel voorkomen. Organisatie en cijfers zijn illustratief.",
       "Alle trajecten staan op de overzichtspagina met cases. Wie ik ben en waar mijn ervaring vandaan komt, lees je op de pagina over mij.",
       "Wat kost AI consultancy?",
-      "AI consultancy van Dave Willemstein wordt geleverd in vaste pakketten met vooraf een vaste prijs of vast maandbedrag, niet tegen een open uurtarief. Het AI Readiness Assessment duurt 2-3 weken, de AI Strategy Sprint duurt 4-6 weken, en de Fractional AI Lead is een doorlopende rol. Afgebakend advies en second opinions krijgen een vaste prijs in het voorstel, en de bedragen zijn exclusief btw en reiskosten.",
-      "Ik werk met vaste pakketten, elk met vooraf een vaste prijs of vast maandbedrag, niet met een open uurtarief. Zo gaat het gesprek over de uitkomst in plaats van over de urenstaat.",
+      "AI consultancy van Dave Willemstein wordt geleverd in vaste pakketten, niet tegen een open uurtarief: een vaste projectprijs voor een afgebakend traject, of een vast maandbedrag voor de Fractional AI Lead. Het AI Readiness Assessment duurt 2-3 weken, de AI Strategy Sprint duurt 4-6 weken, en de Fractional AI Lead is een doorlopende rol. Afgebakend advies en second opinions krijgen een vaste prijs in het voorstel; alle voorstellen zijn exclusief btw en reiskosten.",
+      "Ik werk met vaste pakketten, niet met een open uurtarief: een vaste projectprijs voor een afgebakend traject, of een vast maandbedrag voor de Fractional AI Lead. Zo gaat het gesprek over de uitkomst in plaats van over de urenstaat.",
       "Traject",
       "Doorlooptijd",
       "Executive Briefing",
@@ -388,10 +388,10 @@
       "2, 4 of 8 dagen / maand",
       "Afgebakend advies en second opinions",
       "In overleg",
-      "Alle voorstellen zijn exclusief btw. Binnen een pakket bewegen de kosten mee met de scope, het aantal betrokkenen en de tijdsinzet. Hoe dat werkt en wat er per pakket in zit, lees je op de pagina met tarieven en pakketten.",
+      "Alle voorstellen zijn exclusief btw en reiskosten. Binnen een pakket bewegen de kosten mee met de scope, het aantal betrokkenen en de tijdsinzet. Hoe dat werkt en wat er per pakket in zit, lees je op de pagina met tarieven en pakketten.",
       "Wil je weten welke aanpak bij jouw situatie past? Plan een adviesgesprek van dertig minuten. Aan het eind hoor je wat ik zou doen, ook als dat betekent dat je mij niet nodig hebt.",
       "Wat kost AI consultancy voor een directie of raad van commissarissen?",
-      "De Executive Briefing kost een vaste prijs of vast maandbedrag, vastgelegd in het voorstel en is bedoeld voor directie en raad van commissarissen die hun toezichtrol op AI willen invullen. De Executive Briefing is een sessie van drie uur, samen met de voorbereiding één dagdeel, en wordt voorbereid op de sector van de organisatie.",
+      "De Executive Briefing kost een vaste projectprijs en is bedoeld voor directie en raad van commissarissen die hun toezichtrol op AI willen invullen. De Executive Briefing is een sessie van drie uur, samen met de voorbereiding één dagdeel, en wordt voorbereid op de sector van de organisatie.",
       "Kan het AI Readiness Assessment bij AI consultancy ook voor één afdeling?",
       "Ja. Het AI Readiness Assessment kan ook voor één afdeling of één procesdomein worden uitgevoerd. Die variant is korter en vraagt een lagere investering.",
       "Heeft de adviseur bij AI consultancy belang bij een leverancier of een grotere scope?",
@@ -697,6 +697,13 @@
     {
       "regio": "main",
       "soort": "intern",
+      "href": "/nl/diensten/fractional-ai-lead",
+      "anker": "Fractional AI Lead",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
       "href": "/nl/diensten/ai-readiness-assessment",
       "anker": "AI Readiness Assessment",
       "rel": null
@@ -706,13 +713,6 @@
       "soort": "intern",
       "href": "/nl/diensten/ai-strategy-sprint",
       "anker": "AI Strategy Sprint",
-      "rel": null
-    },
-    {
-      "regio": "main",
-      "soort": "intern",
-      "href": "/nl/diensten/fractional-ai-lead",
-      "anker": "Fractional AI Lead",
       "rel": null
     },
     {
@@ -962,7 +962,7 @@
     }
   ],
   "structured_data": {
-    "sha256": "2f171a24c44fc8b8b7cd374093cd0542842f144be5f746e1e4c3beb1a2ab84fa",
+    "sha256": "0deb59002c842b3687ef2a618c655311d9418db5613c7145e27a87a3e6a72732",
     "items": [
       {
         "@context": "https://schema.org",
@@ -1049,7 +1049,7 @@
                 "name": "Wat kost AI consultancy?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "AI consultancy van Dave Willemstein wordt geleverd in vaste pakketten met vooraf een vaste prijs of vast maandbedrag, niet tegen een open uurtarief. Het AI Readiness Assessment duurt 2-3 weken, de AI Strategy Sprint duurt 4-6 weken, en de Fractional AI Lead is een doorlopende rol. Afgebakend advies en second opinions krijgen een vaste prijs in het voorstel, en de bedragen zijn exclusief btw en reiskosten."
+                  "text": "AI consultancy van Dave Willemstein wordt geleverd in vaste pakketten, niet tegen een open uurtarief: een vaste projectprijs voor een afgebakend traject, of een vast maandbedrag voor de Fractional AI Lead. Het AI Readiness Assessment duurt 2-3 weken, de AI Strategy Sprint duurt 4-6 weken, en de Fractional AI Lead is een doorlopende rol. Afgebakend advies en second opinions krijgen een vaste prijs in het voorstel; alle voorstellen zijn exclusief btw en reiskosten."
                 }
               },
               {
@@ -1057,7 +1057,7 @@
                 "name": "Wat kost AI consultancy voor een directie of raad van commissarissen?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "De Executive Briefing kost een vaste prijs of vast maandbedrag, vastgelegd in het voorstel en is bedoeld voor directie en raad van commissarissen die hun toezichtrol op AI willen invullen. De Executive Briefing is een sessie van drie uur, samen met de voorbereiding één dagdeel, en wordt voorbereid op de sector van de organisatie."
+                  "text": "De Executive Briefing kost een vaste projectprijs en is bedoeld voor directie en raad van commissarissen die hun toezichtrol op AI willen invullen. De Executive Briefing is een sessie van drie uur, samen met de voorbereiding één dagdeel, en wordt voorbereid op de sector van de organisatie."
                 }
               },
               {
@@ -1125,5 +1125,5 @@
     "aantal_details": 5,
     "aantal_tabellen": 1
   },
-  "gemeten_op": "2026-10-28"
+  "gemeten_op": "2026-10-29"
 }

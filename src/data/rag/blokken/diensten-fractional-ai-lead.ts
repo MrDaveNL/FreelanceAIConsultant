@@ -5,7 +5,7 @@ export default {
   "onderwerp": "Fractional AI Lead",
   "vraagkop": "Wat kost een Fractional AI Lead en voor wie is die rol bedoeld?",
   "onderBestaandeKop": false,
-  "antwoord": "De {{dienst:fractional-ai-lead}} van {{afzender}} geeft organisaties met lopende AI-initiatieven zonder duidelijke eigenaar senior AI-leiderschap in deeltijd. De rol kost {{pricelc:fractional-ai-lead}}, op het niveau Advies, Lead of Lead+. De looptijd is minimaal 3 maanden en daarna is de rol maandelijks opzegbaar; de bedragen zijn {{voorwaarden}}.",
+  "antwoord": "De {{dienst:fractional-ai-lead}} van {{afzender}} geeft organisaties met lopende AI-initiatieven zonder duidelijke eigenaar senior AI-leiderschap in deeltijd. De rol kost {{pricelc:fractional-ai-lead}}, afhankelijk van het niveau: Advies, Lead of Lead+. De looptijd is minimaal 3 maanden en daarna is de rol maandelijks opzegbaar; alle voorstellen zijn {{voorwaarden}}.",
   "vervolgvragen": [
     {
       "vraag": "Wanneer is de Fractional AI Lead opzegbaar?",

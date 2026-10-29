@@ -137,7 +137,7 @@ Ik ben een onafhankelijk AI-adviseur. Ik adviseer, maak strategie en roadmaps, s
 
 Concreet kan ik op deze manieren helpen:
 
-- **Weten waar je staat.** Met een [AI Readiness Assessment](/nl/diensten/ai-readiness-assessment) breng ik in {{timing:ai-readiness-assessment}} strategie, data, technologie, mensen en governance in kaart, met een 90-dagenplan als uitkomst. Vaste prijs, vastgelegd in het voorstel.
+- **Weten waar je staat.** Met een [AI Readiness Assessment](/nl/diensten/ai-readiness-assessment) breng ik in {{timing:ai-readiness-assessment}} strategie, data, technologie, mensen en governance in kaart, met een 90-dagenplan als uitkomst. Vaste projectprijs.
 - **Een gedeeld beeld in de top.** Een [Executive Briefing](/nl/diensten/executive-briefing) van één dagdeel geeft directie of raad van commissarissen een realistisch vertrekpunt.
 - **Strategie en roadmap.** Van losse ideeën naar keuzes, prioriteiten en een plan. Alles over deze vorm van advies vind je bij [AI consultancy](/nl/ai-consultancy).
 - **Van plan naar werkende toepassing.** Ik begeleid de invoering, stuur de bouwpartij aan en bewaak dat het in het werk landt. Zie [AI implementatie](/nl/ai-implementatie). Voor AI-agents, die zelfstandig taken uitvoeren, is er een aparte pagina over [AI agents](/nl/ai-agents).

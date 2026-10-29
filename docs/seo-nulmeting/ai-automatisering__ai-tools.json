@@ -2,15 +2,28 @@
   "url": "/ai-automatisering/ai-tools",
   "build_bestand": "dist/ai-automatisering/ai-tools/index.html",
   "html": {
-    "bytes": 46704,
+    "bytes": 50330,
     "lang": "nl"
   },
   "beschermd": {
     "title": "Beste AI tools voor bedrijven | Vergeleken per toepassing",
     "meta_description": "De beste AI tools voor bedrijven: voor tekst, klantenservice, notuleren, data en automatisering. Met voordelen, prijsindicatie en advies per situatie.",
-    "canonical": "https://freelanceaiconsultant.com/ai-automatisering/ai-tools",
+    "canonical": "https://freelanceaiconsultant.com/nl/ai-automatisering/ai-tools",
     "robots_meta": null,
-    "hreflang": [],
+    "hreflang": [
+      {
+        "hreflang": "en",
+        "href": "https://freelanceaiconsultant.com/ai-automation/ai-tools"
+      },
+      {
+        "hreflang": "nl",
+        "href": "https://freelanceaiconsultant.com/nl/ai-automatisering/ai-tools"
+      },
+      {
+        "hreflang": "x-default",
+        "href": "https://freelanceaiconsultant.com/ai-automation/ai-tools"
+      }
+    ],
     "h1": [
       "Beste AI tools voor bedrijven"
     ]
@@ -21,7 +34,7 @@
     "og:site_name": "freelanceaiconsultant.com",
     "og:title": "Beste AI tools voor bedrijven | Vergeleken per toepassing",
     "og:description": "De beste AI tools voor bedrijven: voor tekst, klantenservice, notuleren, data en automatisering. Met voordelen, prijsindicatie en advies per situatie.",
-    "og:url": "https://freelanceaiconsultant.com/ai-automatisering/ai-tools",
+    "og:url": "https://freelanceaiconsultant.com/nl/ai-automatisering/ai-tools",
     "og:image": "https://freelanceaiconsultant.com/images/dave-portrait.jpg",
     "twitter:card": "summary_large_image",
     "twitter:title": "Beste AI tools voor bedrijven | Vergeleken per toepassing",
@@ -32,6 +45,24 @@
     {
       "niveau": 1,
       "tekst": "Beste AI tools voor bedrijven",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "Wat zijn de beste AI tools voor een bedrijf en waar hangt de keuze van af?",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 3,
+      "tekst": "Betalen leveranciers voor een plek in de vergelijking van de beste AI tools?",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 3,
+      "tekst": "Hoe wordt een nieuwe AI-tool uitgeprobeerd bij het kiezen van de beste AI tools?",
       "regio": "main",
       "id": null
     },
@@ -116,8 +147,8 @@
   ],
   "bodytekst": {
     "regio": "main",
-    "woorden": 2746,
-    "sha256": "175ecc1a601a7de05eca02a318c6d0af3d0cad155886822040b2e585ad1edfed",
+    "woorden": 2959,
+    "sha256": "42700b45f48f90f8c94682017d5e29eac3dfb3b47b29078e44485ac9de3c4192",
     "blokken": [
       "Home",
       "AI Automatisering",
@@ -189,6 +220,13 @@
       "Proces & productivity",
       "Zakelijke dienstverlener",
       "Interne AI-assistent voor kenniswerkers",
+      "Wat zijn de beste AI tools voor een bedrijf en waar hangt de keuze van af?",
+      "De beste AI tools verschillen per situatie: de keuze volgt eerst uit de taak, de software die er al is, data en privacy, beheer, kosten en exit, en pas als laatste uit het merk. Bij een keuze die meer dan een paar licenties raakt, helpt de Vendor Review om tot een onderbouwd besluit te komen.",
+      "Betalen leveranciers voor een plek in de vergelijking van de beste AI tools?",
+      "Nee. De vergelijking van de beste AI tools is gebaseerd op de officiële product-, prijs- en privacypagina's van de leveranciers, stand september 2026. Er zijn geen affiliate-, commissie- of partnerrelaties met de genoemde partijen en er staan geen eigen benchmarkcijfers in.",
+      "Hoe wordt een nieuwe AI-tool uitgeprobeerd bij het kiezen van de beste AI tools?",
+      "Het advies bij elke nieuwe AI-tool is om één team die een paar weken op echt werk te laten gebruiken, met een vooraf afgesproken vraag die de proef moet beantwoorden, niet met iedereen tegelijk en niet op basis van een demo. Voor een keuze uit de beste AI tools die meer dan een paar licenties raakt, worden de kandidaten getest op dezelfde taak met eigen voorbeelden.",
+      "Bron: artikel van Dave Willemstein. Bijgewerkt: oktober 2026.",
       "Hoe kies je een AI tool?",
       "De vraag “wat zijn de beste AI tools?” is begrijpelijk, maar het eerlijke antwoord is dat het niet om het merk gaat. De beste AI tool voor een advocatenkantoor dat volledig op Microsoft draait, is een andere dan die voor een marketingbureau dat in Google Workspace werkt. Daarom vergelijk ik hier op criteria in plaats van een ranglijst te maken.",
       "Eerst een eerlijke kanttekening: deze vergelijking is gebaseerd op de officiële product-, prijs- en privacypagina’s van de leveranciers, stand september 2026. Ik publiceer hier geen eigen benchmarkcijfers. En ik heb geen affiliate-, commissie- of partnerrelaties met een van de genoemde partijen; niemand betaalt voor een vermelding.",
@@ -343,238 +381,252 @@
     {
       "regio": "header",
       "soort": "intern",
-      "href": "/",
+      "href": "/nl",
       "anker": "",
       "rel": null
     },
     {
       "regio": "header",
       "soort": "intern",
-      "href": "/diensten",
+      "href": "/nl/diensten",
       "anker": "Diensten",
       "rel": null
     },
     {
       "regio": "header",
       "soort": "intern",
-      "href": "/cases",
+      "href": "/nl/cases",
       "anker": "Cases",
       "rel": null
     },
     {
       "regio": "header",
       "soort": "intern",
-      "href": "/werkwijze",
+      "href": "/nl/werkwijze",
       "anker": "Werkwijze",
       "rel": null
     },
     {
       "regio": "header",
       "soort": "intern",
-      "href": "/inzichten",
+      "href": "/nl/inzichten",
       "anker": "Inzichten",
       "rel": null
     },
     {
       "regio": "header",
       "soort": "intern",
-      "href": "/over",
+      "href": "/nl/over",
       "anker": "Over mij",
       "rel": null
     },
     {
       "regio": "header",
       "soort": "intern",
-      "href": "/contact",
+      "href": "/ai-automation/ai-tools",
+      "anker": "EN",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/nl/contact",
       "anker": "Plan een gesprek →",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/",
+      "href": "/nl",
       "anker": "Home",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/ai-automatisering",
+      "href": "/nl/ai-automatisering",
       "anker": "AI Automatisering",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/ai-automatisering",
+      "href": "/nl/ai-automatisering",
       "anker": "Lees meer over AI automatisering →",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/diensten/ai-readiness-assessment",
+      "href": "/nl/diensten/ai-readiness-assessment",
       "anker": "Bekijk het AI Readiness Assessment →",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/over",
+      "href": "/nl/over",
       "anker": "Dave Willemstein",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/inzichten/ai-vendorselectie-in-acht-stappen",
-      "anker": "AI-vendorselectie in acht stappen",
-      "rel": null
-    },
-    {
-      "regio": "main",
-      "soort": "intern",
-      "href": "/kennisbank/chatgpt-voor-bedrijven",
-      "anker": "ChatGPT voor bedrijven",
-      "rel": null
-    },
-    {
-      "regio": "main",
-      "soort": "intern",
-      "href": "/kennisbank/claude-voor-bedrijven",
-      "anker": "Claude voor bedrijven",
-      "rel": null
-    },
-    {
-      "regio": "main",
-      "soort": "intern",
-      "href": "/kennisbank/gemini-voor-bedrijven",
-      "anker": "Gemini voor bedrijven",
-      "rel": null
-    },
-    {
-      "regio": "main",
-      "soort": "intern",
-      "href": "/kennisbank/microsoft-copilot-voor-bedrijven",
-      "anker": "Copilot voor bedrijven",
-      "rel": null
-    },
-    {
-      "regio": "main",
-      "soort": "intern",
-      "href": "/kennisbank/prompt-engineering",
-      "anker": "prompt engineering",
-      "rel": null
-    },
-    {
-      "regio": "main",
-      "soort": "intern",
-      "href": "/kennisbank/notuleren-met-ai",
-      "anker": "notuleren met AI",
-      "rel": null
-    },
-    {
-      "regio": "main",
-      "soort": "intern",
-      "href": "/inzichten/het-datafundament-onder-ai",
-      "anker": "het datafundament onder AI",
-      "rel": null
-    },
-    {
-      "regio": "main",
-      "soort": "intern",
-      "href": "/ai-automatisering/bedrijfsprocessen-automatiseren-met-ai",
-      "anker": "bedrijfsprocessen automatiseren met AI",
-      "rel": null
-    },
-    {
-      "regio": "main",
-      "soort": "intern",
-      "href": "/ai-automatisering/ai-workflows",
-      "anker": "AI workflows",
-      "rel": null
-    },
-    {
-      "regio": "main",
-      "soort": "intern",
-      "href": "/kennisbank/rpa-vs-ai-automatisering",
-      "anker": "RPA versus AI-automatisering",
-      "rel": null
-    },
-    {
-      "regio": "main",
-      "soort": "intern",
-      "href": "/ai-agents",
-      "anker": "uitleg over AI agents",
-      "rel": null
-    },
-    {
-      "regio": "main",
-      "soort": "intern",
-      "href": "/ai-voor-bedrijven/zakelijke-dienstverleners",
-      "anker": "AI voor zakelijke dienstverleners",
-      "rel": null
-    },
-    {
-      "regio": "main",
-      "soort": "intern",
-      "href": "/ai-beleid",
-      "anker": "AI-beleid",
-      "rel": null
-    },
-    {
-      "regio": "main",
-      "soort": "intern",
-      "href": "/diensten/vendor-review",
+      "href": "/nl/diensten/vendor-review",
       "anker": "Vendor Review",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/diensten/ai-readiness-assessment",
+      "href": "/nl/inzichten/ai-vendorselectie-in-acht-stappen",
+      "anker": "AI-vendorselectie in acht stappen",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/nl/kennisbank/chatgpt-voor-bedrijven",
+      "anker": "ChatGPT voor bedrijven",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/nl/kennisbank/claude-voor-bedrijven",
+      "anker": "Claude voor bedrijven",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/nl/kennisbank/gemini-voor-bedrijven",
+      "anker": "Gemini voor bedrijven",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/nl/kennisbank/microsoft-copilot-voor-bedrijven",
+      "anker": "Copilot voor bedrijven",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/nl/kennisbank/prompt-engineering",
+      "anker": "prompt engineering",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/nl/kennisbank/notuleren-met-ai",
+      "anker": "notuleren met AI",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/nl/inzichten/het-datafundament-onder-ai",
+      "anker": "het datafundament onder AI",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/nl/ai-automatisering/bedrijfsprocessen-automatiseren-met-ai",
+      "anker": "bedrijfsprocessen automatiseren met AI",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/nl/ai-automatisering/ai-workflows",
+      "anker": "AI workflows",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/nl/kennisbank/rpa-vs-ai-automatisering",
+      "anker": "RPA versus AI-automatisering",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/nl/ai-agents",
+      "anker": "uitleg over AI agents",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/nl/ai-voor-bedrijven/zakelijke-dienstverleners",
+      "anker": "AI voor zakelijke dienstverleners",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/nl/ai-beleid",
+      "anker": "AI-beleid",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/nl/diensten/vendor-review",
+      "anker": "Vendor Review",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/nl/diensten/ai-readiness-assessment",
       "anker": "AI Readiness Assessment",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/inzichten/ai-adoptie-begint-bij-het-werk",
+      "href": "/nl/inzichten/ai-adoptie-begint-bij-het-werk",
       "anker": "AI-adoptie begint bij het werk",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/ai-automatisering",
+      "href": "/nl/ai-automatisering",
       "anker": "hub AI automatisering",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/contact",
+      "href": "/nl/contact",
       "anker": "Plan een gesprek van dertig minuten",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/over",
+      "href": "/nl/over",
       "anker": "Over mij",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/partnernetwerk",
+      "href": "/nl/partnernetwerk",
       "anker": "Mijn partnernetwerk",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/diensten/ai-readiness-assessment",
+      "href": "/nl/diensten/ai-readiness-assessment",
       "anker": "Weten waar je staat met AI? Bekijk het AI Readiness Assessment →",
       "rel": null
     },
@@ -714,154 +766,154 @@
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/contact",
+      "href": "/nl/contact",
       "anker": "Plan een gesprek →",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/diensten/ai-readiness-assessment",
+      "href": "/nl/diensten/ai-readiness-assessment",
       "anker": "AI Readiness Assessment",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/diensten/ai-strategy-sprint",
+      "href": "/nl/diensten/ai-strategy-sprint",
       "anker": "AI Strategy Sprint",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/diensten/fractional-ai-lead",
+      "href": "/nl/diensten/fractional-ai-lead",
       "anker": "Fractional AI Lead",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/diensten",
+      "href": "/nl/diensten",
       "anker": "Alle diensten",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/cases",
+      "href": "/nl/cases",
       "anker": "Cases",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/werkwijze",
+      "href": "/nl/werkwijze",
       "anker": "Werkwijze",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/inzichten",
+      "href": "/nl/inzichten",
       "anker": "Inzichten",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/veelgestelde-vragen",
+      "href": "/nl/veelgestelde-vragen",
       "anker": "Veelgestelde vragen",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/over",
+      "href": "/nl/over",
       "anker": "Over mij",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-consultancy",
+      "href": "/nl/ai-consultancy",
       "anker": "AI consultancy",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-implementatie",
+      "href": "/nl/ai-implementatie",
       "anker": "AI implementatie",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-automatisering",
+      "href": "/nl/ai-automatisering",
       "anker": "AI automatisering",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-voor-bedrijven",
+      "href": "/nl/ai-voor-bedrijven",
       "anker": "AI voor bedrijven",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-development",
+      "href": "/nl/ai-development",
       "anker": "AI development",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-agents",
+      "href": "/nl/ai-agents",
       "anker": "AI agents",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-beleid",
+      "href": "/nl/ai-beleid",
       "anker": "AI beleid",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-workshop",
+      "href": "/nl/ai-workshop",
       "anker": "AI workshop",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/markten",
+      "href": "/nl/markten",
       "anker": "AI per branche",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/kennisbank",
+      "href": "/nl/kennisbank",
       "anker": "Kennisbank",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/tarieven",
+      "href": "/nl/tarieven",
       "anker": "Tarieven",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/partnernetwerk",
+      "href": "/nl/partnernetwerk",
       "anker": "Partnernetwerk",
       "rel": null
     },
@@ -882,27 +934,27 @@
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/contact",
+      "href": "/nl/contact",
       "anker": "Plan een gesprek",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/privacy",
+      "href": "/nl/privacy",
       "anker": "Privacyverklaring",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/algemene-voorwaarden",
+      "href": "/nl/algemene-voorwaarden",
       "anker": "Algemene voorwaarden",
       "rel": null
     }
   ],
   "structured_data": {
-    "sha256": "35d559384a3fbfd1c092353b794f0eea0cf8c5c36f1749d440dc1a1ea9a84613",
+    "sha256": "ba390dc64752f5fd3e1154ae95b7abde74f91f728dfb527af1ec1d46d1f1e3e3",
     "items": [
       {
         "@context": "https://schema.org",
@@ -914,19 +966,19 @@
                 "@type": "ListItem",
                 "position": 1,
                 "name": "Home",
-                "item": "https://freelanceaiconsultant.com/"
+                "item": "https://freelanceaiconsultant.com/nl"
               },
               {
                 "@type": "ListItem",
                 "position": 2,
                 "name": "AI Automatisering",
-                "item": "https://freelanceaiconsultant.com/ai-automatisering"
+                "item": "https://freelanceaiconsultant.com/nl/ai-automatisering"
               },
               {
                 "@type": "ListItem",
                 "position": 3,
                 "name": "AI tools",
-                "item": "https://freelanceaiconsultant.com/ai-automatisering/ai-tools"
+                "item": "https://freelanceaiconsultant.com/nl/ai-automatisering/ai-tools"
               }
             ]
           },
@@ -950,7 +1002,7 @@
               "@type": "Person",
               "name": "Dave Willemstein"
             },
-            "mainEntityOfPage": "https://freelanceaiconsultant.com/ai-automatisering/ai-tools"
+            "mainEntityOfPage": "https://freelanceaiconsultant.com/nl/ai-automatisering/ai-tools"
           },
           {
             "@type": "FAQPage",
@@ -993,6 +1045,30 @@
                 "acceptedAnswer": {
                   "@type": "Answer",
                   "text": "Alleen als je organisatie dat vooraf heeft geregeld: een zakelijk abonnement, een verwerkersovereenkomst met de leverancier, duidelijke afspraken over opslag en bewaartermijn en een intern beleid dat zegt welke gegevens wel en niet mogen. Zonder die basis is het antwoord nee, ook als de tool technisch prima werkt."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Wat zijn de beste AI tools voor een bedrijf en waar hangt de keuze van af?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "De beste AI tools verschillen per situatie: de keuze volgt eerst uit de taak, de software die er al is, data en privacy, beheer, kosten en exit, en pas als laatste uit het merk. Bij een keuze die meer dan een paar licenties raakt, helpt de Vendor Review om tot een onderbouwd besluit te komen."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Betalen leveranciers voor een plek in de vergelijking van de beste AI tools?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Nee. De vergelijking van de beste AI tools is gebaseerd op de officiële product-, prijs- en privacypagina's van de leveranciers, stand september 2026. Er zijn geen affiliate-, commissie- of partnerrelaties met de genoemde partijen en er staan geen eigen benchmarkcijfers in."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Hoe wordt een nieuwe AI-tool uitgeprobeerd bij het kiezen van de beste AI tools?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Het advies bij elke nieuwe AI-tool is om één team die een paar weken op echt werk te laten gebruiken, met een vooraf afgesproken vraag die de proef moet beantwoorden, niet met iedereen tegelijk en niet op basis van een demo. Voor een keuze uit de beste AI tools die meer dan een paar licenties raakt, worden de kandidaten getest op dezelfde taak met eigen voorbeelden."
                 }
               }
             ]
@@ -1037,12 +1113,12 @@
     ],
     "stylesheets": [
       "https://fonts.googleapis.com/css2?family=Caveat:wght@600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap",
-      "/_astro/_slug_.bq6BBoZ5.css",
-      "/_astro/_slug_.goiX3PVF.css",
+      "/_astro/_slug_.BzqUXH8l.css",
+      "/_astro/_slug_.Do5RJXa7.css",
       "/logo-carousel/logo-carousel.css?v=2"
     ],
     "aantal_details": 5,
     "aantal_tabellen": 1
   },
-  "gemeten_op": "2026-10-06"
+  "gemeten_op": "2026-10-29"
 }

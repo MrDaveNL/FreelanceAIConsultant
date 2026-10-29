@@ -8,7 +8,7 @@ export default {
   "onderwerp": "AI for small business",
   "vraagkop": "How do you start with AI for small business without a big budget?",
   "onderBestaandeKop": false,
-  "antwoord": "AI for small business starts with one task that comes up often, costs a lot of time and already has a fixed check step, such as quotes or sorting email, using software the business already has or a business licence on an AI assistant. After setting a baseline and agreeing a few ground rules on tools and data, a four-week test follows in the real work, after which the measurement decides whether the business carries on, adjusts or stops. For smaller businesses, the {{dienst:executive-briefing}}, a {{timing:executive-briefing}}, for {{pricelc:executive-briefing}}, is one of two lighter entry points.",
+  "antwoord": "AI for small business starts with one task that comes up often, costs a lot of time and already has a fixed check step, such as quotes or sorting email, using software the business already has or a business licence on an AI assistant. After setting a baseline and agreeing a few ground rules on tools and data, a four-week test follows in the real work, after which the measurement decides whether the business carries on, adjusts or stops. For smaller businesses, {{dienst:executive-briefing}} offers a lighter entry point: one half-day in total, including the three-hour session, for {{pricelc:executive-briefing}}.",
   "vervolgvragen": [
     {
       "vraag": "Do the AI Readiness Assessment and the AI Strategy Sprint suit every budget for AI for small business?",

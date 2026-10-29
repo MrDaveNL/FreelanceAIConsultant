@@ -2,15 +2,28 @@
   "url": "/kennisbank/ai-agents-en-avg",
   "build_bestand": "dist/kennisbank/ai-agents-en-avg/index.html",
   "html": {
-    "bytes": 35677,
+    "bytes": 39785,
     "lang": "nl"
   },
   "beschermd": {
     "title": "AI agents en de AVG | Privacy en compliance in de praktijk",
     "meta_description": "Hoe zet je AI agents in zonder AVG-risico's? Lees over verwerkersovereenkomsten, dataminimalisatie, logging en de AI Act. Inclusief praktische checklist.",
-    "canonical": "https://freelanceaiconsultant.com/kennisbank/ai-agents-en-avg",
+    "canonical": "https://freelanceaiconsultant.com/nl/kennisbank/ai-agents-en-avg",
     "robots_meta": null,
-    "hreflang": [],
+    "hreflang": [
+      {
+        "hreflang": "en",
+        "href": "https://freelanceaiconsultant.com/knowledge-base/ai-agents-and-gdpr"
+      },
+      {
+        "hreflang": "nl",
+        "href": "https://freelanceaiconsultant.com/nl/kennisbank/ai-agents-en-avg"
+      },
+      {
+        "hreflang": "x-default",
+        "href": "https://freelanceaiconsultant.com/knowledge-base/ai-agents-and-gdpr"
+      }
+    ],
     "h1": [
       "AI agents en de AVG: waar moet je op letten?"
     ]
@@ -21,7 +34,7 @@
     "og:site_name": "freelanceaiconsultant.com",
     "og:title": "AI agents en de AVG | Privacy en compliance in de praktijk",
     "og:description": "Hoe zet je AI agents in zonder AVG-risico's? Lees over verwerkersovereenkomsten, dataminimalisatie, logging en de AI Act. Inclusief praktische checklist.",
-    "og:url": "https://freelanceaiconsultant.com/kennisbank/ai-agents-en-avg",
+    "og:url": "https://freelanceaiconsultant.com/nl/kennisbank/ai-agents-en-avg",
     "og:image": "https://freelanceaiconsultant.com/images/dave-portrait.jpg",
     "twitter:card": "summary_large_image",
     "twitter:title": "AI agents en de AVG | Privacy en compliance in de praktijk",
@@ -32,6 +45,24 @@
     {
       "niveau": 1,
       "tekst": "AI agents en de AVG: waar moet je op letten?",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "Wat vraagt de AVG bij AI agents van een organisatie?",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 3,
+      "tekst": "Heeft de AVG een apart hoofdstuk voor AI agents?",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 3,
+      "tekst": "Kan de AI Act naast de AVG bij AI agents gelden?",
       "regio": "main",
       "id": null
     },
@@ -74,8 +105,8 @@
   ],
   "bodytekst": {
     "regio": "main",
-    "woorden": 1829,
-    "sha256": "2d0313eae43de429376840bcd9be6899ccb4b6ed56cf9de32f961e7d4a8dfe11",
+    "woorden": 2078,
+    "sha256": "303fa2c1159afa6132dcb74a9b34ab59e046c29e37be57bd358248663f87cf7b",
     "blokken": [
       "Home",
       "Kennisbank",
@@ -147,6 +178,13 @@
       "Proces & productivity",
       "Zakelijke dienstverlener",
       "Interne AI-assistent voor kenniswerkers",
+      "Wat vraagt de AVG bij AI agents van een organisatie?",
+      "De AVG bij AI agents geldt volledig: de organisatie die de agent inzet, blijft verwerkingsverantwoordelijke, ook als de agent zelf gegevens opzoekt, vastlegt of verstuurt. De basis bestaat uit een vastgelegd doel met grondslag, toegang die per bron is afgebakend, een verwerkersovereenkomst met de leverancier, logging van elke stap en vaak een DPIA. Neemt de agent besluiten over mensen, dan komen de regels over geautomatiseerde besluitvorming erbij, en daarnaast kan de AI Act gelden.",
+      "Heeft de AVG een apart hoofdstuk voor AI agents?",
+      "Nee. De AVG bij AI agents bestaat uit de bestaande regels, die direct van toepassing zijn; een apart hoofdstuk voor AI agents heeft de AVG niet. Wat verandert is het risicoprofiel, door brede toegang, meerdere stappen zonder zicht, gegevens naar derden en handelen in plaats van adviseren.",
+      "Kan de AI Act naast de AVG bij AI agents gelden?",
+      "Voor een agent kunnen de AVG en de AI Act tegelijk gelden: de AVG bij AI agents gaat over persoonsgegevens, de AI Act over het AI-systeem zelf. Voor agents die onder bijlage III vallen, bijvoorbeeld doordat ze sollicitaties filteren of kandidaten beoordelen, gelden de hoog-risicoverplichtingen door de Digital Omnibus vanaf 2 december 2027 in plaats van 2 augustus 2026.",
+      "Bron: artikel van Dave Willemstein; primaire bron: Verordening (EU) 2016/679 (AVG), EUR-Lex; Verordening (EU) 2024/1689 (AI-verordening), EUR-Lex; Verordening (EU) 2026/1744 (Digitale omnibus inzake AI), Publicatieblad L van 24.7.2026, EUR-Lex (peildatum 6 oktober 2026). Bijgewerkt: oktober 2026.",
       "Waarom AI agents privacyrisico’s geven",
       "Een AI agent krijgt een doel en zet zelf stappen: gegevens opzoeken, systemen raadplegen, iets vastleggen of versturen. Voor de AVG maakt het niet uit of een mens of een agent die stappen zet. De organisatie die de agent inzet, blijft verwerkingsverantwoordelijke. Wat wel verandert, is het risicoprofiel.",
       "Vier kenmerken maken agents gevoeliger dan een gewone AI-toepassing:",
@@ -230,91 +268,98 @@
     {
       "regio": "header",
       "soort": "intern",
-      "href": "/",
+      "href": "/nl",
       "anker": "",
       "rel": null
     },
     {
       "regio": "header",
       "soort": "intern",
-      "href": "/diensten",
+      "href": "/nl/diensten",
       "anker": "Diensten",
       "rel": null
     },
     {
       "regio": "header",
       "soort": "intern",
-      "href": "/cases",
+      "href": "/nl/cases",
       "anker": "Cases",
       "rel": null
     },
     {
       "regio": "header",
       "soort": "intern",
-      "href": "/werkwijze",
+      "href": "/nl/werkwijze",
       "anker": "Werkwijze",
       "rel": null
     },
     {
       "regio": "header",
       "soort": "intern",
-      "href": "/inzichten",
+      "href": "/nl/inzichten",
       "anker": "Inzichten",
       "rel": null
     },
     {
       "regio": "header",
       "soort": "intern",
-      "href": "/over",
+      "href": "/nl/over",
       "anker": "Over mij",
       "rel": null
     },
     {
       "regio": "header",
       "soort": "intern",
-      "href": "/contact",
+      "href": "/knowledge-base/ai-agents-and-gdpr",
+      "anker": "EN",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/nl/contact",
       "anker": "Plan een gesprek →",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/",
+      "href": "/nl",
       "anker": "Home",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/kennisbank",
+      "href": "/nl/kennisbank",
       "anker": "Kennisbank",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/ai-beleid",
+      "href": "/nl/ai-beleid",
       "anker": "Lees meer over AI beleid →",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/contact",
+      "href": "/nl/contact",
       "anker": "Plan een adviesgesprek →",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/over",
+      "href": "/nl/over",
       "anker": "Dave Willemstein",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/ai-agents/wat-is-een-ai-agent",
+      "href": "/nl/ai-agents/wat-is-een-ai-agent",
       "anker": "AI agent",
       "rel": null
     },
@@ -335,7 +380,7 @@
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/ai-agents/laten-maken",
+      "href": "/nl/ai-agents/laten-maken",
       "anker": "een AI agent laat maken",
       "rel": null
     },
@@ -391,56 +436,56 @@
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/ai-beleid/ai-act",
+      "href": "/nl/ai-beleid/ai-act",
       "anker": "de AI Act",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/inzichten/ai-governance-zonder-bureaucratie",
+      "href": "/nl/inzichten/ai-governance-zonder-bureaucratie",
       "anker": "AI-governance zonder bureaucratie",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/ai-beleid",
+      "href": "/nl/ai-beleid",
       "anker": "AI beleid",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/ai-agents",
+      "href": "/nl/ai-agents",
       "anker": "AI agents voor bedrijven",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/contact",
+      "href": "/nl/contact",
       "anker": "Plan een adviesgesprek",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/over",
+      "href": "/nl/over",
       "anker": "Over mij",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/partnernetwerk",
+      "href": "/nl/partnernetwerk",
       "anker": "Mijn partnernetwerk",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/diensten/ai-readiness-assessment",
+      "href": "/nl/diensten/ai-readiness-assessment",
       "anker": "Weten waar je staat met AI? Bekijk het AI Readiness Assessment →",
       "rel": null
     },
@@ -517,154 +562,154 @@
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/contact",
+      "href": "/nl/contact",
       "anker": "Plan een gesprek →",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/diensten/ai-readiness-assessment",
+      "href": "/nl/diensten/ai-readiness-assessment",
       "anker": "AI Readiness Assessment",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/diensten/ai-strategy-sprint",
+      "href": "/nl/diensten/ai-strategy-sprint",
       "anker": "AI Strategy Sprint",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/diensten/fractional-ai-lead",
+      "href": "/nl/diensten/fractional-ai-lead",
       "anker": "Fractional AI Lead",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/diensten",
+      "href": "/nl/diensten",
       "anker": "Alle diensten",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/cases",
+      "href": "/nl/cases",
       "anker": "Cases",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/werkwijze",
+      "href": "/nl/werkwijze",
       "anker": "Werkwijze",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/inzichten",
+      "href": "/nl/inzichten",
       "anker": "Inzichten",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/veelgestelde-vragen",
+      "href": "/nl/veelgestelde-vragen",
       "anker": "Veelgestelde vragen",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/over",
+      "href": "/nl/over",
       "anker": "Over mij",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-consultancy",
+      "href": "/nl/ai-consultancy",
       "anker": "AI consultancy",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-implementatie",
+      "href": "/nl/ai-implementatie",
       "anker": "AI implementatie",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-automatisering",
+      "href": "/nl/ai-automatisering",
       "anker": "AI automatisering",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-voor-bedrijven",
+      "href": "/nl/ai-voor-bedrijven",
       "anker": "AI voor bedrijven",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-development",
+      "href": "/nl/ai-development",
       "anker": "AI development",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-agents",
+      "href": "/nl/ai-agents",
       "anker": "AI agents",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-beleid",
+      "href": "/nl/ai-beleid",
       "anker": "AI beleid",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-workshop",
+      "href": "/nl/ai-workshop",
       "anker": "AI workshop",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/markten",
+      "href": "/nl/markten",
       "anker": "AI per branche",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/kennisbank",
+      "href": "/nl/kennisbank",
       "anker": "Kennisbank",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/tarieven",
+      "href": "/nl/tarieven",
       "anker": "Tarieven",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/partnernetwerk",
+      "href": "/nl/partnernetwerk",
       "anker": "Partnernetwerk",
       "rel": null
     },
@@ -685,27 +730,27 @@
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/contact",
+      "href": "/nl/contact",
       "anker": "Plan een gesprek",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/privacy",
+      "href": "/nl/privacy",
       "anker": "Privacyverklaring",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/algemene-voorwaarden",
+      "href": "/nl/algemene-voorwaarden",
       "anker": "Algemene voorwaarden",
       "rel": null
     }
   ],
   "structured_data": {
-    "sha256": "d3ccd7b03ab5edb65bc25ae5e153e474e78cdc9d531e3605c933cd7bf88508f4",
+    "sha256": "c3e7ba4cef3a21eb8d0b2e661f4a98d1020f961545b6522976872b81391ae572",
     "items": [
       {
         "@context": "https://schema.org",
@@ -717,19 +762,19 @@
                 "@type": "ListItem",
                 "position": 1,
                 "name": "Home",
-                "item": "https://freelanceaiconsultant.com/"
+                "item": "https://freelanceaiconsultant.com/nl"
               },
               {
                 "@type": "ListItem",
                 "position": 2,
                 "name": "Kennisbank",
-                "item": "https://freelanceaiconsultant.com/kennisbank"
+                "item": "https://freelanceaiconsultant.com/nl/kennisbank"
               },
               {
                 "@type": "ListItem",
                 "position": 3,
                 "name": "AI agents en AVG",
-                "item": "https://freelanceaiconsultant.com/kennisbank/ai-agents-en-avg"
+                "item": "https://freelanceaiconsultant.com/nl/kennisbank/ai-agents-en-avg"
               }
             ]
           },
@@ -753,7 +798,36 @@
               "@type": "Person",
               "name": "Dave Willemstein"
             },
-            "mainEntityOfPage": "https://freelanceaiconsultant.com/kennisbank/ai-agents-en-avg"
+            "mainEntityOfPage": "https://freelanceaiconsultant.com/nl/kennisbank/ai-agents-en-avg"
+          },
+          {
+            "@type": "FAQPage",
+            "mainEntity": [
+              {
+                "@type": "Question",
+                "name": "Wat vraagt de AVG bij AI agents van een organisatie?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "De AVG bij AI agents geldt volledig: de organisatie die de agent inzet, blijft verwerkingsverantwoordelijke, ook als de agent zelf gegevens opzoekt, vastlegt of verstuurt. De basis bestaat uit een vastgelegd doel met grondslag, toegang die per bron is afgebakend, een verwerkersovereenkomst met de leverancier, logging van elke stap en vaak een DPIA. Neemt de agent besluiten over mensen, dan komen de regels over geautomatiseerde besluitvorming erbij, en daarnaast kan de AI Act gelden."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Heeft de AVG een apart hoofdstuk voor AI agents?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Nee. De AVG bij AI agents bestaat uit de bestaande regels, die direct van toepassing zijn; een apart hoofdstuk voor AI agents heeft de AVG niet. Wat verandert is het risicoprofiel, door brede toegang, meerdere stappen zonder zicht, gegevens naar derden en handelen in plaats van adviseren."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Kan de AI Act naast de AVG bij AI agents gelden?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Voor een agent kunnen de AVG en de AI Act tegelijk gelden: de AVG bij AI agents gaat over persoonsgegevens, de AI Act over het AI-systeem zelf. Voor agents die onder bijlage III vallen, bijvoorbeeld doordat ze sollicitaties filteren of kandidaten beoordelen, gelden de hoog-risicoverplichtingen door de Digital Omnibus vanaf 2 december 2027 in plaats van 2 augustus 2026."
+                }
+              }
+            ]
           }
         ]
       }
@@ -795,12 +869,12 @@
     ],
     "stylesheets": [
       "https://fonts.googleapis.com/css2?family=Caveat:wght@600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap",
-      "/_astro/_slug_.bq6BBoZ5.css",
-      "/_astro/_slug_.goiX3PVF.css",
+      "/_astro/_slug_.BzqUXH8l.css",
+      "/_astro/_slug_.Do5RJXa7.css",
       "/logo-carousel/logo-carousel.css?v=2"
     ],
     "aantal_details": 0,
     "aantal_tabellen": 0
   },
-  "gemeten_op": "2026-10-06"
+  "gemeten_op": "2026-10-29"
 }

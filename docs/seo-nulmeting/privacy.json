@@ -2,7 +2,7 @@
   "url": "/privacy",
   "build_bestand": "dist/privacy/index.html",
   "html": {
-    "bytes": 22708,
+    "bytes": 22712,
     "lang": "nl"
   },
   "beschermd": {
@@ -135,8 +135,8 @@
   ],
   "bodytekst": {
     "regio": "main",
-    "woorden": 693,
-    "sha256": "f9e4631dd33f120f603dd8a62a588ea17f000f1b1f83e6f655df022b5e1e74ea",
+    "woorden": 694,
+    "sha256": "0fa89c48cd96c6784b7e49e19a70b701dc1f9acef892aa71ebdb74bdbd27b974",
     "blokken": [
       "← Terug naar home",
       "Juridisch",
@@ -209,7 +209,7 @@
       "E-mail: dave@freelanceaiconsultant.com",
       "2. Welke gegevens worden verwerkt?",
       "Contact- en intakeformulier",
-      "Als je het contactformulier invult, worden de gegevens verwerkt die je zelf opgeeft: naam, e-mailadres, en optioneel functie, organisatie, tijdlijn, budgetindicatie en de omschrijving van je vraagstuk.",
+      "Als je het contactformulier invult, worden de gegevens verwerkt die je zelf opgeeft: naam, e-mailadres, en optioneel functie, organisatie, tijdlijn, gewenst startmoment en de omschrijving van je vraagstuk.",
       "E-mail en telefonisch contact",
       "Bij rechtstreeks contact worden je contactgegevens en de inhoud van de correspondentie verwerkt, voor zover nodig om je vraag te beantwoorden en een eventuele opdracht uit te voeren.",
       "Nieuwsbrief",
@@ -588,5 +588,5 @@
     "aantal_details": 0,
     "aantal_tabellen": 1
   },
-  "gemeten_op": "2026-10-28"
+  "gemeten_op": "2026-10-29"
 }

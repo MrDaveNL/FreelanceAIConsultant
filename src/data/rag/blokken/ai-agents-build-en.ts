@@ -16,7 +16,7 @@ export default {
     {
       "vraag": "Does the price of the Vendor Review depend on the number of vendors?",
       "onvoorwaardelijk": true,
-      "antwoord": "Yes. The {{dienst:vendor-review}} costs {{pricelc:vendor-review}}, depending on the number of vendors compared. The amounts are {{voorwaarden}}."
+      "antwoord": "Yes. The {{dienst:vendor-review}} is priced as {{pricelc:vendor-review}}, depending on the number of vendors compared. All proposals are {{voorwaarden}}."
     },
     {
       "vraag": "What should an organisation check on the security of an AI agent?",

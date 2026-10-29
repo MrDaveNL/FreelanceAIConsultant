@@ -96,7 +96,7 @@ Dat beantwoord ik met het [AI Readiness Assessment](/nl/diensten/ai-readiness-as
 <figcaption>Zo bepaal je in het AI Readiness Assessment waar je staat voordat je een AI strategie vastlegt.</figcaption>
 </figure>
 
-Je krijgt een readiness-score per dimensie, een gap-analyse met de drie blokkades die er werkelijk toe doen, een gevalideerde longlist van use cases met een eerste waarde-inschatting, een risico- en compliance-scan inclusief positionering onder de AI-verordening, en een 90-dagenplan met eigenaren en beslismomenten. De prijs is vast, vastgelegd in het voorstel.
+Je krijgt een readiness-score per dimensie, een gap-analyse met de drie blokkades die er werkelijk toe doen, een gevalideerde longlist van use cases met een eerste waarde-inschatting, een risico- en compliance-scan inclusief positionering onder de AI-verordening, en een 90-dagenplan met eigenaren en beslismomenten. De prijs is een vaste projectprijs.
 
 Soms is de uitkomst dat je nog niet klaar bent. Dan krijg je een plan voor het fundament in plaats van een plan voor use cases, en dat is ook een strategische keuze.
 

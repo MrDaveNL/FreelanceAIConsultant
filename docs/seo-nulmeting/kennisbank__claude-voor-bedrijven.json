@@ -2,15 +2,28 @@
   "url": "/kennisbank/claude-voor-bedrijven",
   "build_bestand": "dist/kennisbank/claude-voor-bedrijven/index.html",
   "html": {
-    "bytes": 33581,
+    "bytes": 36966,
     "lang": "nl"
   },
   "beschermd": {
     "title": "Claude voor bedrijven | Mogelijkheden en toepassingen",
     "meta_description": "Wat kan Claude van Anthropic voor jouw bedrijf? Lees over zakelijke plannen, sterke punten, toepassingen en hoe Claude zich verhoudt tot ChatGPT en Gemini.",
-    "canonical": "https://freelanceaiconsultant.com/kennisbank/claude-voor-bedrijven",
+    "canonical": "https://freelanceaiconsultant.com/nl/kennisbank/claude-voor-bedrijven",
     "robots_meta": null,
-    "hreflang": [],
+    "hreflang": [
+      {
+        "hreflang": "en",
+        "href": "https://freelanceaiconsultant.com/knowledge-base/claude-for-business"
+      },
+      {
+        "hreflang": "nl",
+        "href": "https://freelanceaiconsultant.com/nl/kennisbank/claude-voor-bedrijven"
+      },
+      {
+        "hreflang": "x-default",
+        "href": "https://freelanceaiconsultant.com/knowledge-base/claude-for-business"
+      }
+    ],
     "h1": [
       "Claude voor bedrijven: mogelijkheden en toepassingen"
     ]
@@ -21,7 +34,7 @@
     "og:site_name": "freelanceaiconsultant.com",
     "og:title": "Claude voor bedrijven | Mogelijkheden en toepassingen",
     "og:description": "Wat kan Claude van Anthropic voor jouw bedrijf? Lees over zakelijke plannen, sterke punten, toepassingen en hoe Claude zich verhoudt tot ChatGPT en Gemini.",
-    "og:url": "https://freelanceaiconsultant.com/kennisbank/claude-voor-bedrijven",
+    "og:url": "https://freelanceaiconsultant.com/nl/kennisbank/claude-voor-bedrijven",
     "og:image": "https://freelanceaiconsultant.com/images/dave-portrait.jpg",
     "twitter:card": "summary_large_image",
     "twitter:title": "Claude voor bedrijven | Mogelijkheden en toepassingen",
@@ -32,6 +45,18 @@
     {
       "niveau": 1,
       "tekst": "Claude voor bedrijven: mogelijkheden en toepassingen",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "Welk abonnement hoort bij Claude voor bedrijven en waar staat de data?",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 3,
+      "tekst": "Kan de data van Claude voor bedrijven in de app in Europa worden opgeslagen?",
       "regio": "main",
       "id": null
     },
@@ -74,8 +99,8 @@
   ],
   "bodytekst": {
     "regio": "main",
-    "woorden": 1611,
-    "sha256": "d8e05633edde14eb89734c0cc3b044bdcd7f260d9ab9818bfa7f0a4ab4ee4c55",
+    "woorden": 1789,
+    "sha256": "aedd5b11cbc747cf790cbe119d8402054e9403dd26a4fe656411d27366940e9c",
     "blokken": [
       "Home",
       "Kennisbank",
@@ -147,6 +172,11 @@
       "Proces & productivity",
       "Zakelijke dienstverlener",
       "Interne AI-assistent voor kenniswerkers",
+      "Welk abonnement hoort bij Claude voor bedrijven en waar staat de data?",
+      "Claude voor bedrijven is de AI-assistent van Anthropic in een zakelijk abonnement: Team voor 2 tot 150 gebruikers, of Enterprise met daarnaast onder meer SCIM, rolgebaseerde toegang en auditlogs. Bij Team en Enterprise traint Anthropic standaard niet op de content, en de data wordt volgens Anthropic in de VS opgeslagen (stand september 2026); Dave Willemstein adviseert voor gebruik met bedrijfsgegevens alleen de zakelijke abonnementen. Wie voor Claude kiest, doet dat vaak vanwege lange documenten, schrijfwerk of het delegeren van taken.",
+      "Kan de data van Claude voor bedrijven in de app in Europa worden opgeslagen?",
+      "Op dit moment kan Europese dataopslag bij Claude voor bedrijven alleen via de cloudplatforms, niet in de app (stand september 2026). In de zakelijke abonnementen wordt de data volgens Anthropic opgeslagen in de VS. Voor Europese dataopslag en verwerking wijst Anthropic naar de regionale endpoints van AWS Bedrock en Google Vertex, een route voor eigen toepassingen via de API en niet voor de claude.ai-app.",
+      "Bron: artikel van Dave Willemstein. Bijgewerkt: oktober 2026.",
       "Wat is Claude?",
       "Claude is een AI-assistent van het Amerikaanse bedrijf Anthropic. Net als ChatGPT werkt Claude in gewone taal: je geeft een opdracht, deelt eventueel documenten, en krijgt een tekst, analyse, samenvatting of stuk code terug. Je gebruikt Claude via de website claude.ai, de desktop-apps en de mobiele apps. Organisaties die zelf toepassingen bouwen, kunnen de modellen ook via de API gebruiken of via de cloudplatforms van Amazon (AWS Bedrock), Google (Vertex) en Microsoft (Foundry).",
       "In de abonnementsvergelijking op de prijspagina van Anthropic staan stand september 2026 de modellen Fable, Opus, Sonnet en Haiku. Welke je kunt gebruiken en hoeveel, hangt af van je abonnement. Het contextvenster, de hoeveelheid tekst die Claude in één keer kan meenemen, loopt volgens Anthropic op tot 1 miljoen tokens, afhankelijk van het model. Dat maakt Claude geschikt voor werk met lange documenten.",
@@ -236,84 +266,91 @@
     {
       "regio": "header",
       "soort": "intern",
-      "href": "/",
+      "href": "/nl",
       "anker": "",
       "rel": null
     },
     {
       "regio": "header",
       "soort": "intern",
-      "href": "/diensten",
+      "href": "/nl/diensten",
       "anker": "Diensten",
       "rel": null
     },
     {
       "regio": "header",
       "soort": "intern",
-      "href": "/cases",
+      "href": "/nl/cases",
       "anker": "Cases",
       "rel": null
     },
     {
       "regio": "header",
       "soort": "intern",
-      "href": "/werkwijze",
+      "href": "/nl/werkwijze",
       "anker": "Werkwijze",
       "rel": null
     },
     {
       "regio": "header",
       "soort": "intern",
-      "href": "/inzichten",
+      "href": "/nl/inzichten",
       "anker": "Inzichten",
       "rel": null
     },
     {
       "regio": "header",
       "soort": "intern",
-      "href": "/over",
+      "href": "/nl/over",
       "anker": "Over mij",
       "rel": null
     },
     {
       "regio": "header",
       "soort": "intern",
-      "href": "/contact",
+      "href": "/knowledge-base/claude-for-business",
+      "anker": "EN",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/nl/contact",
       "anker": "Plan een gesprek →",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/",
+      "href": "/nl",
       "anker": "Home",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/kennisbank",
+      "href": "/nl/kennisbank",
       "anker": "Kennisbank",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/ai-automatisering/ai-tools",
+      "href": "/nl/ai-automatisering/ai-tools",
       "anker": "Lees meer over AI tools →",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/contact",
+      "href": "/nl/contact",
       "anker": "Plan een adviesgesprek →",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/over",
+      "href": "/nl/over",
       "anker": "Dave Willemstein",
       "rel": null
     },
@@ -327,70 +364,70 @@
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/kennisbank/prompt-engineering",
+      "href": "/nl/kennisbank/prompt-engineering",
       "anker": "prompt engineering",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/ai-beleid",
+      "href": "/nl/ai-beleid",
       "anker": "AI-beleid",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/kennisbank/gemini-voor-bedrijven",
+      "href": "/nl/kennisbank/gemini-voor-bedrijven",
       "anker": "Gemini voor bedrijven",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/kennisbank/microsoft-copilot-voor-bedrijven",
+      "href": "/nl/kennisbank/microsoft-copilot-voor-bedrijven",
       "anker": "Copilot",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/kennisbank/chatgpt-voor-bedrijven",
+      "href": "/nl/kennisbank/chatgpt-voor-bedrijven",
       "anker": "ChatGPT voor bedrijven",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/ai-automatisering/ai-tools",
+      "href": "/nl/ai-automatisering/ai-tools",
       "anker": "vergelijking van AI tools voor bedrijven",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/contact",
+      "href": "/nl/contact",
       "anker": "Plan een adviesgesprek",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/over",
+      "href": "/nl/over",
       "anker": "Over mij",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/partnernetwerk",
+      "href": "/nl/partnernetwerk",
       "anker": "Mijn partnernetwerk",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/diensten/ai-readiness-assessment",
+      "href": "/nl/diensten/ai-readiness-assessment",
       "anker": "Weten waar je staat met AI? Bekijk het AI Readiness Assessment →",
       "rel": null
     },
@@ -474,154 +511,154 @@
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/contact",
+      "href": "/nl/contact",
       "anker": "Plan een gesprek →",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/diensten/ai-readiness-assessment",
+      "href": "/nl/diensten/ai-readiness-assessment",
       "anker": "AI Readiness Assessment",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/diensten/ai-strategy-sprint",
+      "href": "/nl/diensten/ai-strategy-sprint",
       "anker": "AI Strategy Sprint",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/diensten/fractional-ai-lead",
+      "href": "/nl/diensten/fractional-ai-lead",
       "anker": "Fractional AI Lead",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/diensten",
+      "href": "/nl/diensten",
       "anker": "Alle diensten",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/cases",
+      "href": "/nl/cases",
       "anker": "Cases",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/werkwijze",
+      "href": "/nl/werkwijze",
       "anker": "Werkwijze",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/inzichten",
+      "href": "/nl/inzichten",
       "anker": "Inzichten",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/veelgestelde-vragen",
+      "href": "/nl/veelgestelde-vragen",
       "anker": "Veelgestelde vragen",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/over",
+      "href": "/nl/over",
       "anker": "Over mij",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-consultancy",
+      "href": "/nl/ai-consultancy",
       "anker": "AI consultancy",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-implementatie",
+      "href": "/nl/ai-implementatie",
       "anker": "AI implementatie",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-automatisering",
+      "href": "/nl/ai-automatisering",
       "anker": "AI automatisering",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-voor-bedrijven",
+      "href": "/nl/ai-voor-bedrijven",
       "anker": "AI voor bedrijven",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-development",
+      "href": "/nl/ai-development",
       "anker": "AI development",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-agents",
+      "href": "/nl/ai-agents",
       "anker": "AI agents",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-beleid",
+      "href": "/nl/ai-beleid",
       "anker": "AI beleid",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-workshop",
+      "href": "/nl/ai-workshop",
       "anker": "AI workshop",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/markten",
+      "href": "/nl/markten",
       "anker": "AI per branche",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/kennisbank",
+      "href": "/nl/kennisbank",
       "anker": "Kennisbank",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/tarieven",
+      "href": "/nl/tarieven",
       "anker": "Tarieven",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/partnernetwerk",
+      "href": "/nl/partnernetwerk",
       "anker": "Partnernetwerk",
       "rel": null
     },
@@ -642,27 +679,27 @@
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/contact",
+      "href": "/nl/contact",
       "anker": "Plan een gesprek",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/privacy",
+      "href": "/nl/privacy",
       "anker": "Privacyverklaring",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/algemene-voorwaarden",
+      "href": "/nl/algemene-voorwaarden",
       "anker": "Algemene voorwaarden",
       "rel": null
     }
   ],
   "structured_data": {
-    "sha256": "705ed157d1dfb48e120a18a88b85cb27cfde2a97c43ff4b8dfad758916a54fe1",
+    "sha256": "23a4396e00d939615715a93718fbf332564f370681d4b871cb21b254f0b96890",
     "items": [
       {
         "@context": "https://schema.org",
@@ -674,19 +711,19 @@
                 "@type": "ListItem",
                 "position": 1,
                 "name": "Home",
-                "item": "https://freelanceaiconsultant.com/"
+                "item": "https://freelanceaiconsultant.com/nl"
               },
               {
                 "@type": "ListItem",
                 "position": 2,
                 "name": "Kennisbank",
-                "item": "https://freelanceaiconsultant.com/kennisbank"
+                "item": "https://freelanceaiconsultant.com/nl/kennisbank"
               },
               {
                 "@type": "ListItem",
                 "position": 3,
                 "name": "Claude voor bedrijven",
-                "item": "https://freelanceaiconsultant.com/kennisbank/claude-voor-bedrijven"
+                "item": "https://freelanceaiconsultant.com/nl/kennisbank/claude-voor-bedrijven"
               }
             ]
           },
@@ -710,7 +747,28 @@
               "@type": "Person",
               "name": "Dave Willemstein"
             },
-            "mainEntityOfPage": "https://freelanceaiconsultant.com/kennisbank/claude-voor-bedrijven"
+            "mainEntityOfPage": "https://freelanceaiconsultant.com/nl/kennisbank/claude-voor-bedrijven"
+          },
+          {
+            "@type": "FAQPage",
+            "mainEntity": [
+              {
+                "@type": "Question",
+                "name": "Welk abonnement hoort bij Claude voor bedrijven en waar staat de data?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Claude voor bedrijven is de AI-assistent van Anthropic in een zakelijk abonnement: Team voor 2 tot 150 gebruikers, of Enterprise met daarnaast onder meer SCIM, rolgebaseerde toegang en auditlogs. Bij Team en Enterprise traint Anthropic standaard niet op de content, en de data wordt volgens Anthropic in de VS opgeslagen (stand september 2026); Dave Willemstein adviseert voor gebruik met bedrijfsgegevens alleen de zakelijke abonnementen. Wie voor Claude kiest, doet dat vaak vanwege lange documenten, schrijfwerk of het delegeren van taken."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Kan de data van Claude voor bedrijven in de app in Europa worden opgeslagen?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Op dit moment kan Europese dataopslag bij Claude voor bedrijven alleen via de cloudplatforms, niet in de app (stand september 2026). In de zakelijke abonnementen wordt de data volgens Anthropic opgeslagen in de VS. Voor Europese dataopslag en verwerking wijst Anthropic naar de regionale endpoints van AWS Bedrock en Google Vertex, een route voor eigen toepassingen via de API en niet voor de claude.ai-app."
+                }
+              }
+            ]
           }
         ]
       }
@@ -752,12 +810,12 @@
     ],
     "stylesheets": [
       "https://fonts.googleapis.com/css2?family=Caveat:wght@600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap",
-      "/_astro/_slug_.bq6BBoZ5.css",
-      "/_astro/_slug_.goiX3PVF.css",
+      "/_astro/_slug_.BzqUXH8l.css",
+      "/_astro/_slug_.Do5RJXa7.css",
       "/logo-carousel/logo-carousel.css?v=2"
     ],
     "aantal_details": 0,
     "aantal_tabellen": 1
   },
-  "gemeten_op": "2026-10-06"
+  "gemeten_op": "2026-10-29"
 }

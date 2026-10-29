@@ -2,7 +2,7 @@
   "url": "/ai-voor-bedrijven/mkb",
   "build_bestand": "dist/ai-voor-bedrijven/mkb/index.html",
   "html": {
-    "bytes": 46062,
+    "bytes": 46074,
     "lang": "nl"
   },
   "beschermd": {
@@ -183,8 +183,8 @@
   ],
   "bodytekst": {
     "regio": "main",
-    "woorden": 2694,
-    "sha256": "0c7ab1e1d22f3ca4d0202feb73b956af599fdc10ec328e1c4262ea0f151d6aa8",
+    "woorden": 2697,
+    "sha256": "c2eaf5f15290f1da8f82e3a4b90587c96293ad52bef496508a6ca60a22e419b6",
     "blokken": [
       "Home",
       "AI voor bedrijven",
@@ -257,7 +257,7 @@
       "Zakelijke dienstverlener",
       "Interne AI-assistent voor kenniswerkers",
       "Hoe begint een ondernemer met AI voor het mkb zonder groot budget?",
-      "AI voor het mkb begint bij één taak die vaak terugkomt, veel tijd kost en al een vaste controle kent, zoals offertes of het sorteren van e-mail, met software die het bedrijf al heeft of een zakelijke licentie op een AI-assistent. Na een nulmeting en een paar spelregels over tools en gegevens volgt een test van vier weken in het echte werk, waarna de meting bepaalt of het bedrijf doorgaat, bijstuurt of stopt. Voor kleinere bedrijven is de Executive Briefing, een sessie van drie uur, samen met de voorbereiding één dagdeel tegen een vaste prijs, een van de twee lichtere instappen.",
+      "AI voor het mkb begint bij één taak die vaak terugkomt, veel tijd kost en al een vaste controle kent, zoals offertes of het sorteren van e-mail, met software die het bedrijf al heeft of een zakelijke licentie op een AI-assistent. Na een nulmeting en een paar spelregels over tools en gegevens volgt een test van vier weken in het echte werk, waarna de meting bepaalt of het bedrijf doorgaat, bijstuurt of stopt. Voor kleinere bedrijven biedt de Executive Briefing een lichtere instap: in één dagdeel, inclusief de sessie van drie uur, tegen een vaste projectprijs.",
       "Passen het AI Readiness Assessment en de AI Strategy Sprint bij elk budget voor AI voor het mkb?",
       "Nee. Het AI Readiness Assessment en de AI Strategy Sprint hebben allebei vooraf een vaste prijs: dat past bij een middelgroot bedrijf met meerdere afdelingen en een concrete investeringsvraag. Voor een bedrijf van tien mensen zijn die pakketten vaak te veel.",
       "Is een chatbot die zelfstandig klanten te woord staat een goed startpunt bij AI voor het mkb?",
@@ -314,8 +314,8 @@
       "Houd de rekensom eerlijk. Tel de tijd van je eigen mensen mee, niet alleen de licentie.",
       "Over subsidies nog dit: regelingen als de MIT (voor innovatie) en SLIM (voor leren en ontwikkelen in het mkb) kunnen interessant zijn, maar de openstellingen zijn kort en wisselen per jaar. Stand september 2026 zijn de MIT R&D-samenwerkingsprojecten volgens RVO tijdelijk gesloten, en zijn beide tijdvakken van SLIM-mkb voor 2026 verstreken; het laatste sloot op 7 september (Rijksoverheid). Bouw je plan dus niet op een subsidie, en controleer de actuele status voordat je erop rekent.",
       "Hoe ik MKB-bedrijven help",
-      "Eerst eerlijk over geld. Mijn vaste pakketten zijn gemaakt voor organisaties die een serieuze AI-investering overwegen, elk met vooraf een vaste prijs of vast maandbedrag. Een AI Readiness Assessment en een AI Strategy Sprint passen bij een middelgroot bedrijf met meerdere afdelingen en een concrete investeringsvraag, maar niet bij elk mkb-budget. Voor een bedrijf van tien mensen is het vaak te veel.",
-      "Voor kleinere bedrijven zijn er twee lichtere instappen. Een Executive Briefing van één dagdeel (vaste prijs) geeft jou en je managementteam een gedeeld, realistisch beeld van wat AI voor jullie betekent. En voor een afgebakende vraag, zoals een second opinion op een offerte van een leverancier of het kiezen van een eerste toepassing, werk ik met een vaste prijs per opdracht. Soms is de eerlijkste uitkomst van een eerste gesprek dat je mij niet nodig hebt en gewoon kunt beginnen.",
+      "Eerst eerlijk over geld. Mijn vaste pakketten zijn gemaakt voor organisaties die een serieuze AI-investering overwegen, elk met vooraf een vaste projectprijs. Een AI Readiness Assessment en een AI Strategy Sprint passen bij een middelgroot bedrijf met meerdere afdelingen en een concrete investeringsvraag, maar niet bij elk mkb-budget. Voor een bedrijf van tien mensen is het vaak te veel.",
+      "Voor kleinere bedrijven is de Executive Briefing een van de twee lichtere instappen: een sessie van drie uur, met voorbereiding één dagdeel, tegen een vaste projectprijs. Dat geeft jou en je managementteam een gedeeld, realistisch beeld van wat AI voor jullie betekent. En voor een afgebakende vraag, zoals een second opinion op een offerte van een leverancier of het kiezen van een eerste toepassing, werk ik met een vaste prijs per opdracht. Soms is de eerlijkste uitkomst van een eerste gesprek dat je mij niet nodig hebt en gewoon kunt beginnen.",
       "Hieronder per onderwerp waar je terechtkunt. De meeste van die pagina’s hebben een eigen deel over het mkb.",
       "AI consultancy",
       "Advies over waar je begint, wat je prioriteert en wat je beter laat liggen. Voor het mkb betekent dat vooral: praktisch, binnen budget en gericht op een snel eerste resultaat. Lees meer over AI consultancy voor het mkb.",
@@ -821,7 +821,7 @@
     }
   ],
   "structured_data": {
-    "sha256": "6504eaeda51d8ab5f0fdc0d4a6f5ea4e5213d9efa0d3aafb6960c37dc9f01568",
+    "sha256": "fdb3bf7564247d08a6a31a41a446cb9b36a34164b4397647f8c420cd8c0f619b",
     "items": [
       {
         "@context": "https://schema.org",
@@ -919,7 +919,7 @@
                 "name": "Hoe begint een ondernemer met AI voor het mkb zonder groot budget?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "AI voor het mkb begint bij één taak die vaak terugkomt, veel tijd kost en al een vaste controle kent, zoals offertes of het sorteren van e-mail, met software die het bedrijf al heeft of een zakelijke licentie op een AI-assistent. Na een nulmeting en een paar spelregels over tools en gegevens volgt een test van vier weken in het echte werk, waarna de meting bepaalt of het bedrijf doorgaat, bijstuurt of stopt. Voor kleinere bedrijven is de Executive Briefing, een sessie van drie uur, samen met de voorbereiding één dagdeel tegen een vaste prijs, een van de twee lichtere instappen."
+                  "text": "AI voor het mkb begint bij één taak die vaak terugkomt, veel tijd kost en al een vaste controle kent, zoals offertes of het sorteren van e-mail, met software die het bedrijf al heeft of een zakelijke licentie op een AI-assistent. Na een nulmeting en een paar spelregels over tools en gegevens volgt een test van vier weken in het echte werk, waarna de meting bepaalt of het bedrijf doorgaat, bijstuurt of stopt. Voor kleinere bedrijven biedt de Executive Briefing een lichtere instap: in één dagdeel, inclusief de sessie van drie uur, tegen een vaste projectprijs."
                 }
               },
               {
@@ -987,5 +987,5 @@
     "aantal_details": 5,
     "aantal_tabellen": 0
   },
-  "gemeten_op": "2026-10-28"
+  "gemeten_op": "2026-10-29"
 }

@@ -35,8 +35,8 @@ export const faqGroups = [
     title: 'Tarieven & voorwaarden',
     icon: '€',
     items: [
-      ['Hoe zijn de tarieven opgebouwd?', 'Vaste prijs per traject waar de scope helder is (assessment, briefing), een bandbreedte waar de omvang varieert (sprint, vendorselectie), en een maandbedrag bij een fractional rol. Alle bedragen zijn exclusief btw en reiskosten.'],
-      ['Hoe kom ik aan een prijsindicatie?', 'Vooraf een vaste prijs of vast maandbedrag, vastgelegd in het voorstel na een kennismaking van dertig minuten. Vul het contactformulier in en geef daarbij aan om welke dienst het gaat, dan krijg je een voorstel op maat.'],
+      ['Hoe zijn de tarieven opgebouwd?', 'Vaste prijs per traject waar de scope helder is (assessment, briefing), een bandbreedte waar de omvang varieert (sprint, vendorselectie), en een maandbedrag bij een fractional rol. Alle voorstellen zijn exclusief btw en reiskosten.'],
+      ['Hoe kom ik aan een prijsindicatie?', 'Via het contactformulier of een kennismakingsgesprek. Daarin bespreken we je vraag en situatie, en daarna ontvang je een voorstel met een vaste projectprijs of vast maandbedrag, voordat er iets start.'],
       ['Kan ik ook een losse vraag of workshop afnemen?', 'Ja, voor afgebakend advieswerk, workshops en second opinions. Ook dan krijg je vooraf een vaste prijs in het voorstel, omdat dat het gesprek over de uitkomst laat gaan in plaats van over de urenstaat.'],
       ['Wat zijn de betalingsvoorwaarden?', 'Facturatie per maand of per mijlpaal, betaaltermijn dertig dagen. Bij trajecten met een vaste prijs: vijftig procent bij aanvang, vijftig procent bij oplevering.'],
       ['Hoe zit het met annulering?', 'Opdrachten zijn opzegbaar met een termijn van een maand bij doorlopende rollen. Bij vaste trajecten worden de tot dan toe gemaakte uren en het opgeleverde werk afgerekend.'],
@@ -93,8 +93,8 @@ export const faqGroupsEn = [
     title: 'Pricing & terms',
     icon: '€',
     items: [
-      ['How is pricing structured?', 'A fixed price per engagement where the scope is clear (assessment, briefing), a range where the size varies (sprint, vendor review), and a monthly fee for a fractional role. All amounts exclude VAT and travel costs.'],
-      ['How do I get a price indication?', 'A fixed price or fixed monthly fee, agreed upfront in the proposal after a thirty-minute intake call. Fill in the contact form and mention which service it concerns, and you will get a tailored proposal.'],
+      ['How is pricing structured?', 'A fixed price per engagement where the scope is clear (assessment, briefing), a range where the size varies (sprint, vendor review), and a monthly fee for a fractional role. All proposals exclude VAT and travel expenses.'],
+      ['How do I get a price indication?', 'Through the contact form or an introductory call. We discuss your question and situation there, and afterwards you receive a proposal with a fixed project fee or fixed monthly fee, before anything starts.'],
       ['Can I also book a single question or workshop?', 'Yes, for scoped advisory work, workshops and second opinions. You still get a fixed price upfront in the proposal, because that keeps the conversation about the outcome rather than the timesheet.'],
       ['What are the payment terms?', 'Invoicing per month or per milestone, payment term thirty days. For fixed-price engagements: fifty percent upfront, fifty percent on delivery.'],
       ['What about cancellation?', 'Engagements can be ended with one month notice for ongoing roles. For fixed-price engagements, the hours worked and the work delivered up to that point are settled.'],

@@ -2,15 +2,28 @@
   "url": "/kennisbank/microsoft-copilot-voor-bedrijven",
   "build_bestand": "dist/kennisbank/microsoft-copilot-voor-bedrijven/index.html",
   "html": {
-    "bytes": 34542,
+    "bytes": 38571,
     "lang": "nl"
   },
   "beschermd": {
     "title": "Microsoft Copilot voor bedrijven | Toepassingen en licenties",
     "meta_description": "Wat kan Microsoft Copilot voor jouw bedrijf? Lees over licenties, toepassingen in Outlook, Teams en Excel, voorwaarden voor je data en de eerste stappen.",
-    "canonical": "https://freelanceaiconsultant.com/kennisbank/microsoft-copilot-voor-bedrijven",
+    "canonical": "https://freelanceaiconsultant.com/nl/kennisbank/microsoft-copilot-voor-bedrijven",
     "robots_meta": null,
-    "hreflang": [],
+    "hreflang": [
+      {
+        "hreflang": "en",
+        "href": "https://freelanceaiconsultant.com/knowledge-base/microsoft-copilot-for-business"
+      },
+      {
+        "hreflang": "nl",
+        "href": "https://freelanceaiconsultant.com/nl/kennisbank/microsoft-copilot-voor-bedrijven"
+      },
+      {
+        "hreflang": "x-default",
+        "href": "https://freelanceaiconsultant.com/knowledge-base/microsoft-copilot-for-business"
+      }
+    ],
     "h1": [
       "Microsoft Copilot voor bedrijven: wat kun je ermee?"
     ]
@@ -21,7 +34,7 @@
     "og:site_name": "freelanceaiconsultant.com",
     "og:title": "Microsoft Copilot voor bedrijven | Toepassingen en licenties",
     "og:description": "Wat kan Microsoft Copilot voor jouw bedrijf? Lees over licenties, toepassingen in Outlook, Teams en Excel, voorwaarden voor je data en de eerste stappen.",
-    "og:url": "https://freelanceaiconsultant.com/kennisbank/microsoft-copilot-voor-bedrijven",
+    "og:url": "https://freelanceaiconsultant.com/nl/kennisbank/microsoft-copilot-voor-bedrijven",
     "og:image": "https://freelanceaiconsultant.com/images/dave-portrait.jpg",
     "twitter:card": "summary_large_image",
     "twitter:title": "Microsoft Copilot voor bedrijven | Toepassingen en licenties",
@@ -40,6 +53,18 @@
       "tekst": "Wat is Microsoft Copilot?",
       "regio": "main",
       "id": "wat-is-microsoft-copilot"
+    },
+    {
+      "niveau": 3,
+      "tekst": "Worden prompts en antwoorden gebruikt om de basismodellen achter Microsoft Copilot te trainen?",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 3,
+      "tekst": "Welke data gebruikt Copilot Chat en welke de betaalde licentie van Microsoft Copilot?",
+      "regio": "main",
+      "id": null
     },
     {
       "niveau": 2,
@@ -80,8 +105,8 @@
   ],
   "bodytekst": {
     "regio": "main",
-    "woorden": 1701,
-    "sha256": "21f8b322d2a372a6023e1200766ebe4c09fb2eb376873db0a7af2e80bfa3e4b2",
+    "woorden": 1900,
+    "sha256": "4856e3418c010c79f153e5fb9ccb926d7d5476d0766bb1926509e13fbc8dd1cf",
     "blokken": [
       "Home",
       "Kennisbank",
@@ -154,9 +179,15 @@
       "Zakelijke dienstverlener",
       "Interne AI-assistent voor kenniswerkers",
       "Wat is Microsoft Copilot?",
+      "Microsoft Copilot is de AI-assistent van Microsoft voor werk, die taalmodellen koppelt aan apps zoals Outlook, Teams, Word, Excel en PowerPoint en aan de mail, agenda, chats, vergaderingen en documenten daarin. Volgens Microsoft laat Copilot een gebruiker alleen gegevens van de organisatie zien waarvoor die gebruiker minstens leesrechten heeft; Dave Willemstein adviseert daarom toegangsrechten op te ruimen voordat de betaalde licentie breed aangaat.",
       "Copilot is de AI-assistent van Microsoft voor werk. Microsoft Copilot voor bedrijven verbindt taalmodellen met de apps die je al gebruikt, zoals Outlook, Teams, Word, Excel en PowerPoint, en met de gegevens die je daarin hebt: mail, agenda, chats, vergaderingen en documenten.",
       "Een punt dat verwarring geeft: de naam verandert. Microsoft meldt op zijn documentatie over data en privacy dat Microsoft 365 Copilot nu Microsoft Copilot heet en Microsoft 365 Copilot Chat nu Microsoft Copilot Chat. Tijdens de overgang kom je beide namen tegen, ook op prijspagina’s en in het beheercentrum. Stand september 2026 gaat het om hetzelfde product.",
       "Copilot is een van de zakelijke assistenten waaruit je kunt kiezen. Het overzicht van AI tools zet de categorieën naast elkaar. Werkt je organisatie met Google Workspace, lees dan over Gemini in Workspace; zoek je een losse assistent naast Microsoft 365, dan zijn ChatGPT voor bedrijven en Claude voor zakelijk gebruik de gangbare alternatieven.",
+      "Worden prompts en antwoorden gebruikt om de basismodellen achter Microsoft Copilot te trainen?",
+      "Nee, volgens wat Microsoft toezegt in de privacydocumentatie van Microsoft Copilot (stand september 2026): prompts, antwoorden en gegevens die via Microsoft Graph worden opgehaald, worden niet gebruikt om de basismodellen te trainen.",
+      "Welke data gebruikt Copilot Chat en welke de betaalde licentie van Microsoft Copilot?",
+      "Copilot Chat is vooral een chat die antwoordt op basis van het web en van wat de gebruiker zelf aanlevert, en kan in Outlook ook met mailbox, agenda en vergaderingen werken. Pas met de betaalde licentie werkt Microsoft Copilot breed met de eigen bedrijfsinformatie: Copilot kan dan redeneren over de volle breedte van de werkdata, zoals mail, chats, vergaderingen, documenten en sites, voor zover de gebruiker daar toegang toe heeft.",
+      "Bron: artikel van Dave Willemstein. Bijgewerkt: oktober 2026.",
       "Licenties",
       "De belangrijkste vraag bij een Copilot licentie is welke variant je bedoelt. Stand september 2026 onderscheidt Microsoft grofweg twee niveaus:",
       "Copilot Chat. Volgens Microsoft zonder extra kosten beschikbaar voor organisaties met een geschikt Microsoft 365-abonnement. Het is vooral een chat die antwoordt op basis van het web en van wat je zelf aanlevert, zoals een geüpload bestand of geplakte tekst. In Outlook kan Copilot Chat ook met je mailbox, agenda en vergaderingen werken. Afhankelijk van je abonnement heb je daarnaast beperkte toegang tot Copilot in Word, Excel en PowerPoint, zonder voorrang als het druk is.",
@@ -236,84 +267,91 @@
     {
       "regio": "header",
       "soort": "intern",
-      "href": "/",
+      "href": "/nl",
       "anker": "",
       "rel": null
     },
     {
       "regio": "header",
       "soort": "intern",
-      "href": "/diensten",
+      "href": "/nl/diensten",
       "anker": "Diensten",
       "rel": null
     },
     {
       "regio": "header",
       "soort": "intern",
-      "href": "/cases",
+      "href": "/nl/cases",
       "anker": "Cases",
       "rel": null
     },
     {
       "regio": "header",
       "soort": "intern",
-      "href": "/werkwijze",
+      "href": "/nl/werkwijze",
       "anker": "Werkwijze",
       "rel": null
     },
     {
       "regio": "header",
       "soort": "intern",
-      "href": "/inzichten",
+      "href": "/nl/inzichten",
       "anker": "Inzichten",
       "rel": null
     },
     {
       "regio": "header",
       "soort": "intern",
-      "href": "/over",
+      "href": "/nl/over",
       "anker": "Over mij",
       "rel": null
     },
     {
       "regio": "header",
       "soort": "intern",
-      "href": "/contact",
+      "href": "/knowledge-base/microsoft-copilot-for-business",
+      "anker": "EN",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/nl/contact",
       "anker": "Plan een gesprek →",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/",
+      "href": "/nl",
       "anker": "Home",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/kennisbank",
+      "href": "/nl/kennisbank",
       "anker": "Kennisbank",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/ai-workshop/copilot-training",
+      "href": "/nl/ai-workshop/copilot-training",
       "anker": "Bekijk de Copilot training →",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/contact",
+      "href": "/nl/contact",
       "anker": "Plan een adviesgesprek →",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/over",
+      "href": "/nl/over",
       "anker": "Dave Willemstein",
       "rel": null
     },
@@ -327,28 +365,28 @@
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/ai-automatisering/ai-tools",
+      "href": "/nl/ai-automatisering/ai-tools",
       "anker": "overzicht van AI tools",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/kennisbank/gemini-voor-bedrijven",
+      "href": "/nl/kennisbank/gemini-voor-bedrijven",
       "anker": "Gemini in Workspace",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/kennisbank/chatgpt-voor-bedrijven",
+      "href": "/nl/kennisbank/chatgpt-voor-bedrijven",
       "anker": "ChatGPT voor bedrijven",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/kennisbank/claude-voor-bedrijven",
+      "href": "/nl/kennisbank/claude-voor-bedrijven",
       "anker": "Claude voor zakelijk gebruik",
       "rel": null
     },
@@ -369,7 +407,7 @@
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/inzichten/de-business-case-voor-ai",
+      "href": "/nl/inzichten/de-business-case-voor-ai",
       "anker": "de business case voor AI",
       "rel": null
     },
@@ -383,7 +421,7 @@
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/kennisbank/prompt-engineering",
+      "href": "/nl/kennisbank/prompt-engineering",
       "anker": "prompt engineering",
       "rel": null
     },
@@ -404,49 +442,49 @@
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/inzichten/waarom-ai-pilots-blijven-steken",
+      "href": "/nl/inzichten/waarom-ai-pilots-blijven-steken",
       "anker": "waarom AI-pilots blijven steken",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/ai-workshop/copilot-training",
+      "href": "/nl/ai-workshop/copilot-training",
       "anker": "Copilot training voor teams",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/cases/interne-ai-assistent-kenniswerkers",
+      "href": "/nl/cases/interne-ai-assistent-kenniswerkers",
       "anker": "interne AI-assistent voor kenniswerkers",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/contact",
+      "href": "/nl/contact",
       "anker": "Plan een adviesgesprek",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/over",
+      "href": "/nl/over",
       "anker": "Over mij",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/partnernetwerk",
+      "href": "/nl/partnernetwerk",
       "anker": "Mijn partnernetwerk",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/diensten/ai-readiness-assessment",
+      "href": "/nl/diensten/ai-readiness-assessment",
       "anker": "Weten waar je staat met AI? Bekijk het AI Readiness Assessment →",
       "rel": null
     },
@@ -502,154 +540,154 @@
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/contact",
+      "href": "/nl/contact",
       "anker": "Plan een gesprek →",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/diensten/ai-readiness-assessment",
+      "href": "/nl/diensten/ai-readiness-assessment",
       "anker": "AI Readiness Assessment",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/diensten/ai-strategy-sprint",
+      "href": "/nl/diensten/ai-strategy-sprint",
       "anker": "AI Strategy Sprint",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/diensten/fractional-ai-lead",
+      "href": "/nl/diensten/fractional-ai-lead",
       "anker": "Fractional AI Lead",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/diensten",
+      "href": "/nl/diensten",
       "anker": "Alle diensten",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/cases",
+      "href": "/nl/cases",
       "anker": "Cases",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/werkwijze",
+      "href": "/nl/werkwijze",
       "anker": "Werkwijze",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/inzichten",
+      "href": "/nl/inzichten",
       "anker": "Inzichten",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/veelgestelde-vragen",
+      "href": "/nl/veelgestelde-vragen",
       "anker": "Veelgestelde vragen",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/over",
+      "href": "/nl/over",
       "anker": "Over mij",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-consultancy",
+      "href": "/nl/ai-consultancy",
       "anker": "AI consultancy",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-implementatie",
+      "href": "/nl/ai-implementatie",
       "anker": "AI implementatie",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-automatisering",
+      "href": "/nl/ai-automatisering",
       "anker": "AI automatisering",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-voor-bedrijven",
+      "href": "/nl/ai-voor-bedrijven",
       "anker": "AI voor bedrijven",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-development",
+      "href": "/nl/ai-development",
       "anker": "AI development",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-agents",
+      "href": "/nl/ai-agents",
       "anker": "AI agents",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-beleid",
+      "href": "/nl/ai-beleid",
       "anker": "AI beleid",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-workshop",
+      "href": "/nl/ai-workshop",
       "anker": "AI workshop",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/markten",
+      "href": "/nl/markten",
       "anker": "AI per branche",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/kennisbank",
+      "href": "/nl/kennisbank",
       "anker": "Kennisbank",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/tarieven",
+      "href": "/nl/tarieven",
       "anker": "Tarieven",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/partnernetwerk",
+      "href": "/nl/partnernetwerk",
       "anker": "Partnernetwerk",
       "rel": null
     },
@@ -670,27 +708,27 @@
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/contact",
+      "href": "/nl/contact",
       "anker": "Plan een gesprek",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/privacy",
+      "href": "/nl/privacy",
       "anker": "Privacyverklaring",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/algemene-voorwaarden",
+      "href": "/nl/algemene-voorwaarden",
       "anker": "Algemene voorwaarden",
       "rel": null
     }
   ],
   "structured_data": {
-    "sha256": "8bdf6016774420852db532a1c492e776eff994e348b87afa2d0379f32b1ba458",
+    "sha256": "5869f502129f0500c19f48c499f89ae3690f8c7f1a74fcfa8775c8a9e3ee6a3d",
     "items": [
       {
         "@context": "https://schema.org",
@@ -702,19 +740,19 @@
                 "@type": "ListItem",
                 "position": 1,
                 "name": "Home",
-                "item": "https://freelanceaiconsultant.com/"
+                "item": "https://freelanceaiconsultant.com/nl"
               },
               {
                 "@type": "ListItem",
                 "position": 2,
                 "name": "Kennisbank",
-                "item": "https://freelanceaiconsultant.com/kennisbank"
+                "item": "https://freelanceaiconsultant.com/nl/kennisbank"
               },
               {
                 "@type": "ListItem",
                 "position": 3,
                 "name": "Copilot voor bedrijven",
-                "item": "https://freelanceaiconsultant.com/kennisbank/microsoft-copilot-voor-bedrijven"
+                "item": "https://freelanceaiconsultant.com/nl/kennisbank/microsoft-copilot-voor-bedrijven"
               }
             ]
           },
@@ -738,7 +776,36 @@
               "@type": "Person",
               "name": "Dave Willemstein"
             },
-            "mainEntityOfPage": "https://freelanceaiconsultant.com/kennisbank/microsoft-copilot-voor-bedrijven"
+            "mainEntityOfPage": "https://freelanceaiconsultant.com/nl/kennisbank/microsoft-copilot-voor-bedrijven"
+          },
+          {
+            "@type": "FAQPage",
+            "mainEntity": [
+              {
+                "@type": "Question",
+                "name": "Wat is Microsoft Copilot?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Microsoft Copilot is de AI-assistent van Microsoft voor werk, die taalmodellen koppelt aan apps zoals Outlook, Teams, Word, Excel en PowerPoint en aan de mail, agenda, chats, vergaderingen en documenten daarin. Volgens Microsoft laat Copilot een gebruiker alleen gegevens van de organisatie zien waarvoor die gebruiker minstens leesrechten heeft; Dave Willemstein adviseert daarom toegangsrechten op te ruimen voordat de betaalde licentie breed aangaat."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Worden prompts en antwoorden gebruikt om de basismodellen achter Microsoft Copilot te trainen?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Nee, volgens wat Microsoft toezegt in de privacydocumentatie van Microsoft Copilot (stand september 2026): prompts, antwoorden en gegevens die via Microsoft Graph worden opgehaald, worden niet gebruikt om de basismodellen te trainen."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Welke data gebruikt Copilot Chat en welke de betaalde licentie van Microsoft Copilot?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Copilot Chat is vooral een chat die antwoordt op basis van het web en van wat de gebruiker zelf aanlevert, en kan in Outlook ook met mailbox, agenda en vergaderingen werken. Pas met de betaalde licentie werkt Microsoft Copilot breed met de eigen bedrijfsinformatie: Copilot kan dan redeneren over de volle breedte van de werkdata, zoals mail, chats, vergaderingen, documenten en sites, voor zover de gebruiker daar toegang toe heeft."
+                }
+              }
+            ]
           }
         ]
       }
@@ -780,12 +847,12 @@
     ],
     "stylesheets": [
       "https://fonts.googleapis.com/css2?family=Caveat:wght@600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap",
-      "/_astro/_slug_.bq6BBoZ5.css",
-      "/_astro/_slug_.goiX3PVF.css",
+      "/_astro/_slug_.BzqUXH8l.css",
+      "/_astro/_slug_.Do5RJXa7.css",
       "/logo-carousel/logo-carousel.css?v=2"
     ],
     "aantal_details": 0,
     "aantal_tabellen": 1
   },
-  "gemeten_op": "2026-10-06"
+  "gemeten_op": "2026-10-29"
 }

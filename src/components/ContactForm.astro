@@ -50,14 +50,13 @@ const endpoint = site.formEndpoint || (site.formAccessKey ? 'https://api.web3for
     </select>
   </div>
   <div class="field">
-    <label for="budget">Budgetindicatie</label>
-    <select id="budget" name="budget">
-      <option value="">Kies een range</option>
-      <option>Tot €10k</option>
-      <option>€10–25k</option>
-      <option>€25–50k</option>
-      <option>€50k+</option>
-      <option>Nog niet bekend</option>
+    <label for="start">Wanneer wil je starten?</label>
+    <select id="start" name="start">
+      <option value="">Kies een moment</option>
+      <option>Zo snel mogelijk</option>
+      <option>Binnen 1-3 maanden</option>
+      <option>Later dit jaar</option>
+      <option>Oriënterend</option>
     </select>
   </div>
   <div class="field full hp" aria-hidden="true">
@@ -137,7 +136,7 @@ const endpoint = site.formEndpoint || (site.formAccessKey ? 'https://api.web3for
           Functie: data.role || '-',
           Organisatie: data.company || '-',
           Tijdlijn: data.timeline || '-',
-          Budgetindicatie: data.budget || '-',
+          Startmoment: data.start || '-',
           Vraagstuk: data.challenge,
         };
         if (accessKey) payload.access_key = accessKey;
@@ -173,7 +172,7 @@ const endpoint = site.formEndpoint || (site.formAccessKey ? 'https://api.web3for
         `Organisatie: ${data.company || '-'}`,
         `E-mail: ${data.email}`,
         `Tijdlijn: ${data.timeline || '-'}`,
-        `Budgetindicatie: ${data.budget || '-'}`,
+        `Startmoment: ${data.start || '-'}`,
         '',
         'Vraagstuk:',
         data.challenge,

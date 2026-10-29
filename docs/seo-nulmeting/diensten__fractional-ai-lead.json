@@ -2,7 +2,7 @@
   "url": "/diensten/fractional-ai-lead",
   "build_bestand": "dist/diensten/fractional-ai-lead/index.html",
   "html": {
-    "bytes": 39344,
+    "bytes": 39296,
     "lang": "nl"
   },
   "beschermd": {
@@ -177,8 +177,8 @@
   ],
   "bodytekst": {
     "regio": "main",
-    "woorden": 1028,
-    "sha256": "a0343a21d7ec916b1413d5e5c1c6e149c4b0134b4c86801de260e892f24c10eb",
+    "woorden": 1022,
+    "sha256": "72754713ae2269c03101ba94c6d891869750307458cc66e1300cbdaa0ae80573",
     "blokken": [
       "Senior leiderschap, deeltijd",
       "Fractional AI Lead",
@@ -250,7 +250,7 @@
       "Advies (2 dagen), Lead (4 dagen) of Lead+ (8 dagen) per maand. Minimaal 3 maanden, daarna maandelijks opzegbaar. Alle voorstellen zijn exclusief btw.",
       "Vraag een voorstel aan → Prijs op maat, afhankelijk van scope",
       "Wat kost een Fractional AI Lead en voor wie is die rol bedoeld?",
-      "De Fractional AI Lead van Dave Willemstein geeft organisaties met lopende AI-initiatieven zonder duidelijke eigenaar senior AI-leiderschap in deeltijd. De rol kost een vaste prijs of vast maandbedrag, vastgelegd in het voorstel, op het niveau Advies, Lead of Lead+. De looptijd is minimaal 3 maanden en daarna is de rol maandelijks opzegbaar; de bedragen zijn exclusief btw en reiskosten.",
+      "De Fractional AI Lead van Dave Willemstein geeft organisaties met lopende AI-initiatieven zonder duidelijke eigenaar senior AI-leiderschap in deeltijd. De rol kost een vast maandbedrag, afhankelijk van het niveau: Advies, Lead of Lead+. De looptijd is minimaal 3 maanden en daarna is de rol maandelijks opzegbaar; alle voorstellen zijn exclusief btw en reiskosten.",
       "Wanneer is de Fractional AI Lead opzegbaar?",
       "De Fractional AI Lead loopt minimaal 3 maanden en is daarna maandelijks opzegbaar.",
       "Is de Fractional AI Lead een fulltime rol?",
@@ -664,7 +664,7 @@
     }
   ],
   "structured_data": {
-    "sha256": "0fb36f587cbcdd1aa0b3e07d3260e4efd3531890db0d8129d6d05fd52d833ea2",
+    "sha256": "4359dc712deda20836f2d2a1b3eb95d4142bf36043056069d6d1dbcb37f1c15a",
     "items": [
       [
         {
@@ -693,7 +693,7 @@
               "name": "Wat kost een Fractional AI Lead en voor wie is die rol bedoeld?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "De Fractional AI Lead van Dave Willemstein geeft organisaties met lopende AI-initiatieven zonder duidelijke eigenaar senior AI-leiderschap in deeltijd. De rol kost een vaste prijs of vast maandbedrag, vastgelegd in het voorstel, op het niveau Advies, Lead of Lead+. De looptijd is minimaal 3 maanden en daarna is de rol maandelijks opzegbaar; de bedragen zijn exclusief btw en reiskosten."
+                "text": "De Fractional AI Lead van Dave Willemstein geeft organisaties met lopende AI-initiatieven zonder duidelijke eigenaar senior AI-leiderschap in deeltijd. De rol kost een vast maandbedrag, afhankelijk van het niveau: Advies, Lead of Lead+. De looptijd is minimaal 3 maanden en daarna is de rol maandelijks opzegbaar; alle voorstellen zijn exclusief btw en reiskosten."
               }
             },
             {
@@ -760,5 +760,5 @@
     "aantal_details": 4,
     "aantal_tabellen": 0
   },
-  "gemeten_op": "2026-10-28"
+  "gemeten_op": "2026-10-29"
 }

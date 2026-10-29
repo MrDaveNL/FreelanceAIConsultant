@@ -88,7 +88,7 @@ Vraag vooraf wat je aan het eind in handen hebt en wanneer de opdracht klaar is.
 
 ## Wat kost een AI consultant inhuren?
 
-Ik werk niet met een open uurtarief, maar met vaste pakketten, elk met vooraf een vaste prijs of vast maandbedrag. Er zijn drie inhuurvormen:
+Ik werk niet met een open uurtarief, maar met vaste pakketten: een vaste projectprijs voor een afgebakend traject, of een vast maandbedrag bij een doorlopende rol. Er zijn drie inhuurvormen:
 
 | Inhuurvorm | Voorbeeld |
 |---|---|
