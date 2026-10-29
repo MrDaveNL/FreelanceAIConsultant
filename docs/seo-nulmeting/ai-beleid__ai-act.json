@@ -2,15 +2,28 @@
   "url": "/ai-beleid/ai-act",
   "build_bestand": "dist/ai-beleid/ai-act/index.html",
   "html": {
-    "bytes": 43434,
+    "bytes": 49302,
     "lang": "nl"
   },
   "beschermd": {
     "title": "AI Act voor bedrijven | Verplichtingen en tijdlijn uitgelegd",
     "meta_description": "Wat betekent de Europese AI Act voor jouw bedrijf? Lees over risicocategorieën, verplichtingen, tijdlijn en de eerste stappen om compliant met AI te werken.",
-    "canonical": "https://freelanceaiconsultant.com/ai-beleid/ai-act",
+    "canonical": "https://freelanceaiconsultant.com/nl/ai-beleid/ai-act",
     "robots_meta": null,
-    "hreflang": [],
+    "hreflang": [
+      {
+        "hreflang": "en",
+        "href": "https://freelanceaiconsultant.com/ai-policy/ai-act"
+      },
+      {
+        "hreflang": "nl",
+        "href": "https://freelanceaiconsultant.com/nl/ai-beleid/ai-act"
+      },
+      {
+        "hreflang": "x-default",
+        "href": "https://freelanceaiconsultant.com/ai-policy/ai-act"
+      }
+    ],
     "h1": [
       "De AI Act voor bedrijven: wat moet je doen?"
     ]
@@ -21,7 +34,7 @@
     "og:site_name": "freelanceaiconsultant.com",
     "og:title": "AI Act voor bedrijven | Verplichtingen en tijdlijn uitgelegd",
     "og:description": "Wat betekent de Europese AI Act voor jouw bedrijf? Lees over risicocategorieën, verplichtingen, tijdlijn en de eerste stappen om compliant met AI te werken.",
-    "og:url": "https://freelanceaiconsultant.com/ai-beleid/ai-act",
+    "og:url": "https://freelanceaiconsultant.com/nl/ai-beleid/ai-act",
     "og:image": "https://freelanceaiconsultant.com/images/dave-portrait.jpg",
     "twitter:card": "summary_large_image",
     "twitter:title": "AI Act voor bedrijven | Verplichtingen en tijdlijn uitgelegd",
@@ -32,6 +45,30 @@
     {
       "niveau": 1,
       "tekst": "De AI Act voor bedrijven: wat moet je doen?",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "Wat vraagt de AI Act voor bedrijven nu al en wat geldt pas later?",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 3,
+      "tekst": "Kan een organisatie onder de AI Act voor bedrijven ongemerkt aanbieder worden?",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 3,
+      "tekst": "Hoe lang bewaart een gebruiksverantwoordelijke van een hoog-risicosysteem de logs onder de AI Act voor bedrijven?",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 3,
+      "tekst": "Komt de AI Act voor bedrijven aan bod in het AI Readiness Assessment?",
       "regio": "main",
       "id": null
     },
@@ -86,8 +123,8 @@
   ],
   "bodytekst": {
     "regio": "main",
-    "woorden": 2383,
-    "sha256": "a096b42f620e6f9776f285dad98d4c15652d56945bf89e2c231b3427cb03bb37",
+    "woorden": 2752,
+    "sha256": "1d11ad68c18676da04992161e02cecc777206c99d314f9bdb0b0ad9be46cbffc",
     "blokken": [
       "Home",
       "AI beleid",
@@ -159,6 +196,15 @@
       "Proces & productivity",
       "Zakelijke dienstverlener",
       "Interne AI-assistent voor kenniswerkers",
+      "Wat vraagt de AI Act voor bedrijven nu al en wat geldt pas later?",
+      "De AI Act voor bedrijven hangt af van het volgende: welke AI een organisatie gebruikt of maakt, in welke van de vier risicocategorieën die valt en of de organisatie aanbieder of gebruiksverantwoordelijke is. De verboden praktijken en de plicht rond AI-geletterdheid gelden sinds 2 februari 2025 en de transparantieverplichtingen sinds 2 augustus 2026; het negende verbod geldt pas vanaf 2 december 2026 en voor de machineleesbare markering van content uit systemen die al vóór 2 augustus 2026 op de markt waren geldt een overgangstermijn tot 2 december 2026. De hoog-risicoregels gelden sinds de Digital Omnibus vanaf 2 december 2027 voor toepassingen uit bijlage III en vanaf 2 augustus 2028 voor AI in producten uit bijlage I (stand 23 september 2026).",
+      "Kan een organisatie onder de AI Act voor bedrijven ongemerkt aanbieder worden?",
+      "Ja. Volgens artikel 25 gebeurt dat bij een hoog-risicosysteem wanneer een organisatie er de eigen naam of het eigen merk op zet, het ingrijpend wijzigt of een systeem zo inzet dat het een hoog-risicotoepassing wordt. Onder de AI Act voor bedrijven speelt die vraag bijvoorbeeld bij een algemene AI-tool die sollicitanten gaat rangschikken.",
+      "Hoe lang bewaart een gebruiksverantwoordelijke van een hoog-risicosysteem de logs onder de AI Act voor bedrijven?",
+      "Minimaal zes maanden bewaart een gebruiksverantwoordelijke van een hoog-risicosysteem de automatisch gegenereerde logs, volgens artikel 26. Onder de AI Act voor bedrijven noemt hetzelfde artikel voor die gebruiksverantwoordelijken onder meer ook menselijk toezicht, het melden van incidenten en het vooraf informeren van werknemers en hun vertegenwoordigers bij inzet van zo'n systeem op de werkvloer.",
+      "Komt de AI Act voor bedrijven aan bod in het AI Readiness Assessment?",
+      "Ja. Het AI Readiness Assessment bevat een risico- en compliance-scan, inclusief de positionering van toepassingen onder de AI-verordening. Voor een directie of raad van commissarissen die eerst een gedeeld beeld nodig heeft, behandelt de Executive Briefing ook regelgeving en toezicht.",
+      "Bron: artikel van Dave Willemstein; primaire bron: Europese Commissie, \"AI Act\" (regulatory framework AI); Verordening (EU) 2024/1689 (AI Act), EUR-Lex; Verordening (EU) 2026/1744 (Digitale omnibus inzake AI), EUR-Lex; Europese Commissie, \"AI Omnibus enters into force\" (27 juli 2026) (peildatum 6 oktober 2026). Bijgewerkt: oktober 2026.",
       "Wat is de AI Act?",
       "De AI Act, officieel Verordening (EU) 2024/1689 en in het Nederlands de AI-verordening, is de Europese wet die regels stelt aan het ontwikkelen en gebruiken van AI. De wet trad op 1 augustus 2024 in werking en wordt stapsgewijs van toepassing. Omdat het een verordening is, geldt ze direct in alle lidstaten, zonder dat Nederland haar eerst in een eigen wet hoeft om te zetten.",
       "Het uitgangspunt is eenvoudig: hoe groter het risico van een AI-toepassing voor gezondheid, veiligheid of grondrechten, hoe strenger de regels. Voor de AI Act voor bedrijven betekent dat: de meeste toepassingen die je vandaag gebruikt, zoals tekstassistenten, samenvattingstools of een zoekfunctie in interne documenten, vallen in de lichtste categorie. Maar een paar verplichtingen gelden voor vrijwel iedereen.",
@@ -284,85 +330,106 @@
     {
       "regio": "header",
       "soort": "intern",
-      "href": "/",
+      "href": "/nl",
       "anker": "",
       "rel": null
     },
     {
       "regio": "header",
       "soort": "intern",
-      "href": "/diensten",
+      "href": "/nl/diensten",
       "anker": "Diensten",
       "rel": null
     },
     {
       "regio": "header",
       "soort": "intern",
-      "href": "/cases",
+      "href": "/nl/cases",
       "anker": "Cases",
       "rel": null
     },
     {
       "regio": "header",
       "soort": "intern",
-      "href": "/werkwijze",
+      "href": "/nl/werkwijze",
       "anker": "Werkwijze",
       "rel": null
     },
     {
       "regio": "header",
       "soort": "intern",
-      "href": "/inzichten",
+      "href": "/nl/inzichten",
       "anker": "Inzichten",
       "rel": null
     },
     {
       "regio": "header",
       "soort": "intern",
-      "href": "/over",
+      "href": "/nl/over",
       "anker": "Over mij",
       "rel": null
     },
     {
       "regio": "header",
       "soort": "intern",
-      "href": "/contact",
+      "href": "/ai-policy/ai-act",
+      "anker": "EN",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/nl/contact",
       "anker": "Plan een gesprek →",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/",
+      "href": "/nl",
       "anker": "Home",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/ai-beleid",
+      "href": "/nl/ai-beleid",
       "anker": "AI beleid",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/ai-beleid",
+      "href": "/nl/ai-beleid",
       "anker": "Lees meer over AI beleid →",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/diensten/ai-readiness-assessment",
+      "href": "/nl/diensten/ai-readiness-assessment",
       "anker": "Bekijk het AI Readiness Assessment →",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/over",
+      "href": "/nl/over",
       "anker": "Dave Willemstein",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/nl/diensten/ai-readiness-assessment",
+      "anker": "AI Readiness Assessment",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/nl/diensten/executive-briefing",
+      "anker": "Executive Briefing",
       "rel": null
     },
     {
@@ -382,7 +449,7 @@
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/kennisbank/ai-agents-en-avg",
+      "href": "/nl/kennisbank/ai-agents-en-avg",
       "anker": "AI agents en de AVG",
       "rel": null
     },
@@ -396,63 +463,63 @@
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/ai-workshop/ai-geletterdheid-training",
+      "href": "/nl/ai-workshop/ai-geletterdheid-training",
       "anker": "training AI-geletterdheid",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/ai-beleid",
+      "href": "/nl/ai-beleid",
       "anker": "AI beleid",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/inzichten/ai-governance-zonder-bureaucratie",
+      "href": "/nl/inzichten/ai-governance-zonder-bureaucratie",
       "anker": "AI-governance zonder bureaucratie",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/diensten/ai-readiness-assessment",
+      "href": "/nl/diensten/ai-readiness-assessment",
       "anker": "AI Readiness Assessment",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/diensten/executive-briefing",
+      "href": "/nl/diensten/executive-briefing",
       "anker": "Executive Briefing",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/contact",
+      "href": "/nl/contact",
       "anker": "plan dan een kort gesprek",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/over",
+      "href": "/nl/over",
       "anker": "Over mij",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/partnernetwerk",
+      "href": "/nl/partnernetwerk",
       "anker": "Mijn partnernetwerk",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/diensten/ai-readiness-assessment",
+      "href": "/nl/diensten/ai-readiness-assessment",
       "anker": "Weten waar je staat met AI? Bekijk het AI Readiness Assessment →",
       "rel": null
     },
@@ -508,154 +575,154 @@
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/contact",
+      "href": "/nl/contact",
       "anker": "Plan een gesprek →",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/diensten/ai-readiness-assessment",
+      "href": "/nl/diensten/ai-readiness-assessment",
       "anker": "AI Readiness Assessment",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/diensten/ai-strategy-sprint",
+      "href": "/nl/diensten/ai-strategy-sprint",
       "anker": "AI Strategy Sprint",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/diensten/fractional-ai-lead",
+      "href": "/nl/diensten/fractional-ai-lead",
       "anker": "Fractional AI Lead",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/diensten",
+      "href": "/nl/diensten",
       "anker": "Alle diensten",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/cases",
+      "href": "/nl/cases",
       "anker": "Cases",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/werkwijze",
+      "href": "/nl/werkwijze",
       "anker": "Werkwijze",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/inzichten",
+      "href": "/nl/inzichten",
       "anker": "Inzichten",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/veelgestelde-vragen",
+      "href": "/nl/veelgestelde-vragen",
       "anker": "Veelgestelde vragen",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/over",
+      "href": "/nl/over",
       "anker": "Over mij",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-consultancy",
+      "href": "/nl/ai-consultancy",
       "anker": "AI consultancy",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-implementatie",
+      "href": "/nl/ai-implementatie",
       "anker": "AI implementatie",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-automatisering",
+      "href": "/nl/ai-automatisering",
       "anker": "AI automatisering",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-voor-bedrijven",
+      "href": "/nl/ai-voor-bedrijven",
       "anker": "AI voor bedrijven",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-development",
+      "href": "/nl/ai-development",
       "anker": "AI development",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-agents",
+      "href": "/nl/ai-agents",
       "anker": "AI agents",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-beleid",
+      "href": "/nl/ai-beleid",
       "anker": "AI beleid",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-workshop",
+      "href": "/nl/ai-workshop",
       "anker": "AI workshop",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/markten",
+      "href": "/nl/markten",
       "anker": "AI per branche",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/kennisbank",
+      "href": "/nl/kennisbank",
       "anker": "Kennisbank",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/tarieven",
+      "href": "/nl/tarieven",
       "anker": "Tarieven",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/partnernetwerk",
+      "href": "/nl/partnernetwerk",
       "anker": "Partnernetwerk",
       "rel": null
     },
@@ -676,27 +743,27 @@
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/contact",
+      "href": "/nl/contact",
       "anker": "Plan een gesprek",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/privacy",
+      "href": "/nl/privacy",
       "anker": "Privacyverklaring",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/algemene-voorwaarden",
+      "href": "/nl/algemene-voorwaarden",
       "anker": "Algemene voorwaarden",
       "rel": null
     }
   ],
   "structured_data": {
-    "sha256": "0bb105d0b653134d4119393e6cf4112b170ea65c738d589e67add906e2ffc198",
+    "sha256": "bb74d800cadb2f18954448cd745f9bc57e3fe9f5224f2158c53cf11aeb289ba8",
     "items": [
       {
         "@context": "https://schema.org",
@@ -708,19 +775,19 @@
                 "@type": "ListItem",
                 "position": 1,
                 "name": "Home",
-                "item": "https://freelanceaiconsultant.com/"
+                "item": "https://freelanceaiconsultant.com/nl"
               },
               {
                 "@type": "ListItem",
                 "position": 2,
                 "name": "AI beleid",
-                "item": "https://freelanceaiconsultant.com/ai-beleid"
+                "item": "https://freelanceaiconsultant.com/nl/ai-beleid"
               },
               {
                 "@type": "ListItem",
                 "position": 3,
                 "name": "AI Act",
-                "item": "https://freelanceaiconsultant.com/ai-beleid/ai-act"
+                "item": "https://freelanceaiconsultant.com/nl/ai-beleid/ai-act"
               }
             ]
           },
@@ -744,7 +811,7 @@
               "@type": "Person",
               "name": "Dave Willemstein"
             },
-            "mainEntityOfPage": "https://freelanceaiconsultant.com/ai-beleid/ai-act"
+            "mainEntityOfPage": "https://freelanceaiconsultant.com/nl/ai-beleid/ai-act"
           },
           {
             "@type": "FAQPage",
@@ -787,6 +854,38 @@
                 "acceptedAnswer": {
                   "@type": "Answer",
                   "text": "Nee. Volgens de Europese Commissie is een certificaat niet nodig. Je kunt intern bijhouden welke trainingen en instructies medewerkers hebben gekregen. Na de Omnibus is de plicht een inspanningsverplichting: je neemt passende maatregelen, afgestemd op kennis, ervaring en de context waarin de AI wordt gebruikt."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Wat vraagt de AI Act voor bedrijven nu al en wat geldt pas later?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "De AI Act voor bedrijven hangt af van het volgende: welke AI een organisatie gebruikt of maakt, in welke van de vier risicocategorieën die valt en of de organisatie aanbieder of gebruiksverantwoordelijke is. De verboden praktijken en de plicht rond AI-geletterdheid gelden sinds 2 februari 2025 en de transparantieverplichtingen sinds 2 augustus 2026; het negende verbod geldt pas vanaf 2 december 2026 en voor de machineleesbare markering van content uit systemen die al vóór 2 augustus 2026 op de markt waren geldt een overgangstermijn tot 2 december 2026. De hoog-risicoregels gelden sinds de Digital Omnibus vanaf 2 december 2027 voor toepassingen uit bijlage III en vanaf 2 augustus 2028 voor AI in producten uit bijlage I (stand 23 september 2026)."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Kan een organisatie onder de AI Act voor bedrijven ongemerkt aanbieder worden?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Ja. Volgens artikel 25 gebeurt dat bij een hoog-risicosysteem wanneer een organisatie er de eigen naam of het eigen merk op zet, het ingrijpend wijzigt of een systeem zo inzet dat het een hoog-risicotoepassing wordt. Onder de AI Act voor bedrijven speelt die vraag bijvoorbeeld bij een algemene AI-tool die sollicitanten gaat rangschikken."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Hoe lang bewaart een gebruiksverantwoordelijke van een hoog-risicosysteem de logs onder de AI Act voor bedrijven?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Minimaal zes maanden bewaart een gebruiksverantwoordelijke van een hoog-risicosysteem de automatisch gegenereerde logs, volgens artikel 26. Onder de AI Act voor bedrijven noemt hetzelfde artikel voor die gebruiksverantwoordelijken onder meer ook menselijk toezicht, het melden van incidenten en het vooraf informeren van werknemers en hun vertegenwoordigers bij inzet van zo'n systeem op de werkvloer."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Komt de AI Act voor bedrijven aan bod in het AI Readiness Assessment?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Ja. Het AI Readiness Assessment bevat een risico- en compliance-scan, inclusief de positionering van toepassingen onder de AI-verordening. Voor een directie of raad van commissarissen die eerst een gedeeld beeld nodig heeft, behandelt de Executive Briefing ook regelgeving en toezicht."
                 }
               }
             ]
@@ -831,12 +930,12 @@
     ],
     "stylesheets": [
       "https://fonts.googleapis.com/css2?family=Caveat:wght@600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap",
-      "/_astro/_slug_.bq6BBoZ5.css",
-      "/_astro/_slug_.goiX3PVF.css",
+      "/_astro/_slug_.BzqUXH8l.css",
+      "/_astro/_slug_.Do5RJXa7.css",
       "/logo-carousel/logo-carousel.css?v=2"
     ],
     "aantal_details": 5,
     "aantal_tabellen": 2
   },
-  "gemeten_op": "2026-10-06"
+  "gemeten_op": "2026-10-29"
 }

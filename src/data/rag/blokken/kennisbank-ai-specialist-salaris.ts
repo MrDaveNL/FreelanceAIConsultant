@@ -19,7 +19,7 @@ export default {
     },
     {
       "vraag": "Wat doet de Fractional AI Lead als de scope voor een fulltime functie nog niet vaststaat?",
-      "antwoord": "De {{dienst:fractional-ai-lead}} stuurt de AI-agenda in een parttime rol en helpt bij het functieprofiel en de werving van een vaste opvolger. De rol kost {{pricelc:fractional-ai-lead}}."
+      "antwoord": "De {{dienst:fractional-ai-lead}} stuurt de AI-agenda in een parttime rol en helpt bij het functieprofiel en de werving van een vaste opvolger. De rol kost {{pricelc:fractional-ai-lead}}, afhankelijk van het niveau: Advies, Lead of Lead+."
     }
   ],
   "bron": {

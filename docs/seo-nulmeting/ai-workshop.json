@@ -2,7 +2,7 @@
   "url": "/ai-workshop",
   "build_bestand": "dist/ai-workshop/index.html",
   "html": {
-    "bytes": 42044,
+    "bytes": 42001,
     "lang": "nl"
   },
   "beschermd": {
@@ -165,8 +165,8 @@
   ],
   "bodytekst": {
     "regio": "main",
-    "woorden": 2278,
-    "sha256": "e4244a4a9b6a4a38cc05a790c0f5b10a8ce55549b0b48e39c33d0be002c82e6d",
+    "woorden": 2273,
+    "sha256": "303e308d86eaf84d2b4272d4df030d690b7033727241079c7ca27dca00fac0f4",
     "blokken": [
       "Home",
       "AI workshop",
@@ -239,7 +239,7 @@
       "Welke AI workshop past bij welk team en hoe wordt de prijs bepaald?",
       "Dave Willemstein geeft workshops en trainingen incompany en op maat; een AI workshop is opgebouwd rond drie tot vijf concrete taken per rol, met materiaal uit de eigen praktijk van het team. De meest voorkomende vertrekpunten zijn een introductie voor management, hands-on werken met ChatGPT en Copilot, AI-geletterdheid en een workshop AI-strategie. Elke opdracht krijgt een vaste prijs, die in de intake wordt besproken en vooraf op papier staat.",
       "Welke sessie past bij een directie of raad van commissarissen?",
-      "De Executive Briefing is voor directie of raad van commissarissen de passende vorm: een vaste sessie met een beslisagenda en toezichtvragen. De Executive Briefing heeft een vaste prijs, inclusief voorbereiding op de sector en vastgelegd in het voorstel. Breder inzetbaar is de managementworkshop, bijvoorbeeld voor lijnmanagers of een MT.",
+      "De Executive Briefing is voor directie of raad van commissarissen de passende vorm: een vaste sessie met een beslisagenda en toezichtvragen. De Executive Briefing heeft een vaste projectprijs, inclusief voorbereiding op de sector. Breder inzetbaar is de managementworkshop, bijvoorbeeld voor lijnmanagers of een MT.",
       "Kan een AI workshop ook online worden gegeven?",
       "Ja, maar bij een online AI workshop komen hands-on werk en het onderlinge gesprek moeizamer op gang. Incompany werkt het best, omdat deelnemers dan met hun eigen apparatuur, toegang en materiaal kunnen oefenen.",
       "Leiden licenties en één trainingsmiddag tot structureel gebruik van AI?",
@@ -302,7 +302,7 @@
       "Zes weken later gebruiken 22 van de 30 licentiehouders Copilot wekelijks, volgens de gebruiksrapportage van Microsoft 365. Drie medewerkers zijn aanspreekpunt en delen werkende voorbeelden. Bewust niet gedaan: extra licenties kopen. Eerst moet het gebruik bij de huidige groep stabiel blijven.",
       "Fictief voorbeeld, samengesteld uit situaties die veel voorkomen. Organisatie en cijfers zijn illustratief.",
       "Investering",
-      "Workshops en trainingen krijgen een vaste prijs per opdracht, omdat voorbereiding, duur en groepsgrootte sterk verschillen. Het bedrag bespreken we in de intake, en je krijgt het vooraf op papier. Op de pagina met tarieven en pakketten zie je hoe dat zich verhoudt tot de vaste trajecten. Alle bedragen zijn exclusief btw en reiskosten.",
+      "Workshops en trainingen krijgen een vaste prijs per opdracht, omdat voorbereiding, duur en groepsgrootte sterk verschillen. Het bedrag bespreken we in de intake, en je krijgt het vooraf op papier. Op de pagina met tarieven en pakketten zie je hoe dat zich verhoudt tot de vaste trajecten. Alle voorstellen zijn exclusief btw en reiskosten.",
       "De Executive Briefing is de uitzondering: die heeft een vaste prijs, inclusief voorbereiding op jullie sector.",
       "Wil je eerst zien waar je als organisatie staat, dan is het AI Readiness Assessment een logischer begin. Meer over mijn achtergrond lees je op de pagina over mij. Weet je nog niet of een workshop de juiste eerste stap is? Vraag dan een workshop aan: in een gesprek van dertig minuten hoor je wat ik zou voorstellen, ook als dat iets anders is dan een workshop.",
       "Dave Willemstein Onafhankelijk AI-adviseur",
@@ -737,7 +737,7 @@
     }
   ],
   "structured_data": {
-    "sha256": "7664c4a1a2c1b4de0c44256dd7ff3dfa8548eca2e8fceb43d8764da3227b601f",
+    "sha256": "da23882d69257be541db6f9f1cb2b2a41bd3fe0069be92fcf74b77fbb044bf11",
     "items": [
       {
         "@context": "https://schema.org",
@@ -832,7 +832,7 @@
                 "name": "Welke sessie past bij een directie of raad van commissarissen?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "De Executive Briefing is voor directie of raad van commissarissen de passende vorm: een vaste sessie met een beslisagenda en toezichtvragen. De Executive Briefing heeft een vaste prijs, inclusief voorbereiding op de sector en vastgelegd in het voorstel. Breder inzetbaar is de managementworkshop, bijvoorbeeld voor lijnmanagers of een MT."
+                  "text": "De Executive Briefing is voor directie of raad van commissarissen de passende vorm: een vaste sessie met een beslisagenda en toezichtvragen. De Executive Briefing heeft een vaste projectprijs, inclusief voorbereiding op de sector. Breder inzetbaar is de managementworkshop, bijvoorbeeld voor lijnmanagers of een MT."
                 }
               },
               {
@@ -900,5 +900,5 @@
     "aantal_details": 5,
     "aantal_tabellen": 0
   },
-  "gemeten_op": "2026-10-28"
+  "gemeten_op": "2026-10-29"
 }

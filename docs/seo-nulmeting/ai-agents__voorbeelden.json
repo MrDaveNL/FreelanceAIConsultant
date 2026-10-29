@@ -2,15 +2,28 @@
   "url": "/ai-agents/voorbeelden",
   "build_bestand": "dist/ai-agents/voorbeelden/index.html",
   "html": {
-    "bytes": 37297,
+    "bytes": 41006,
     "lang": "nl"
   },
   "beschermd": {
     "title": "AI agents voorbeelden | 12 toepassingen voor bedrijven",
     "meta_description": "Twaalf voorbeelden van AI agents voor bedrijven, van klantenservice en sales tot HR en finance. Per voorbeeld de werking, benodigde tools en verwachte impact.",
-    "canonical": "https://freelanceaiconsultant.com/ai-agents/voorbeelden",
+    "canonical": "https://freelanceaiconsultant.com/nl/ai-agents/voorbeelden",
     "robots_meta": null,
-    "hreflang": [],
+    "hreflang": [
+      {
+        "hreflang": "en",
+        "href": "https://freelanceaiconsultant.com/ai-agents/examples"
+      },
+      {
+        "hreflang": "nl",
+        "href": "https://freelanceaiconsultant.com/nl/ai-agents/voorbeelden"
+      },
+      {
+        "hreflang": "x-default",
+        "href": "https://freelanceaiconsultant.com/ai-agents/examples"
+      }
+    ],
     "h1": [
       "AI agents voorbeelden: 12 toepassingen voor bedrijven"
     ]
@@ -21,7 +34,7 @@
     "og:site_name": "freelanceaiconsultant.com",
     "og:title": "AI agents voorbeelden | 12 toepassingen voor bedrijven",
     "og:description": "Twaalf voorbeelden van AI agents voor bedrijven, van klantenservice en sales tot HR en finance. Per voorbeeld de werking, benodigde tools en verwachte impact.",
-    "og:url": "https://freelanceaiconsultant.com/ai-agents/voorbeelden",
+    "og:url": "https://freelanceaiconsultant.com/nl/ai-agents/voorbeelden",
     "og:image": "https://freelanceaiconsultant.com/images/dave-portrait.jpg",
     "twitter:card": "summary_large_image",
     "twitter:title": "AI agents voorbeelden | 12 toepassingen voor bedrijven",
@@ -32,6 +45,24 @@
     {
       "niveau": 1,
       "tekst": "AI agents voorbeelden: 12 toepassingen voor bedrijven",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "Welke AI agents voorbeelden passen bij klantenservice, sales, HR en finance?",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 3,
+      "tekst": "Laten de AI agents voorbeelden zien wat een agent bij een bepaald bedrijf heeft opgeleverd?",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 3,
+      "tekst": "Is er één beste platform voor de AI agents voorbeelden?",
       "regio": "main",
       "id": null
     },
@@ -80,8 +111,8 @@
   ],
   "bodytekst": {
     "regio": "main",
-    "woorden": 1913,
-    "sha256": "04676f89a4de0af7f4bedc92ba4efb48f5c135b24609f71a4b7d282261c206aa",
+    "woorden": 2113,
+    "sha256": "051d655248820dab409bc0f89ed2d3ae10a70f4c8611b5acff4a4f917cbd92d4",
     "blokken": [
       "Home",
       "AI Agents",
@@ -153,6 +184,13 @@
       "Proces & productivity",
       "Zakelijke dienstverlener",
       "Interne AI-assistent voor kenniswerkers",
+      "Welke AI agents voorbeelden passen bij klantenservice, sales, HR en finance?",
+      "De AI agents voorbeelden bestaan uit twaalf generieke toepassingen voor klantenservice, sales, HR en finance, zoals mail- en ticketvoorbereiding, leadonderzoek, onboarding en factuurcontrole, elk met de benodigde koppelingen en het moment van menselijke controle. Voorbereidend werk dat een mens daarna beoordeelt, levert de meeste waarde op. Hoeveel zelfstandigheid een agent kan krijgen, hangt af van de vraag of een handeling omkeerbaar is en of de gevolgen intern of extern zijn.",
+      "Laten de AI agents voorbeelden zien wat een agent bij een bepaald bedrijf heeft opgeleverd?",
+      "Nee. De AI agents voorbeelden zijn bewust generiek beschreven en tonen hoe een agent in een proces past. Wat een agent oplevert, hangt af van de volumes, de bronnen en de hoeveelheid controle die het proces vraagt.",
+      "Is er één beste platform voor de AI agents voorbeelden?",
+      "Niet in het algemeen: welk platform bij de AI agents voorbeelden past, hangt af van de software die een organisatie al gebruikt, de eisen aan controle en de eigen technische capaciteit. Het platformoverzicht geeft de stand van september 2026 weer, zonder commissies of andere vergoedingen van de genoemde leveranciers.",
+      "Bron: artikel van Dave Willemstein. Bijgewerkt: oktober 2026.",
       "AI agents in klantenservice",
       "Voordat de voorbeelden per afdeling volgen, eerst twee opmerkingen. Deze voorbeelden zijn bewust generiek beschreven. Ze laten zien hoe een agent in een proces past, niet wat hij bij een bepaald bedrijf heeft opgeleverd. Wat een agent in jouw situatie oplevert, hangt af van je volumes, je bronnen en hoeveel controle het proces vraagt. Wie eerst wil weten wat een agent precies is, leest de uitleg over hoe een AI agent werkt.",
       "Bij elk voorbeeld geldt dezelfde vuistregel: begin met een agent die voorbereidt of voorstelt, en geef pas meer zelfstandigheid als je weet welke fouten hij maakt. Waarom dat zo is, staat in mijn artikel over de grenzen van AI agents.",
@@ -284,98 +322,105 @@
     {
       "regio": "header",
       "soort": "intern",
-      "href": "/",
+      "href": "/nl",
       "anker": "",
       "rel": null
     },
     {
       "regio": "header",
       "soort": "intern",
-      "href": "/diensten",
+      "href": "/nl/diensten",
       "anker": "Diensten",
       "rel": null
     },
     {
       "regio": "header",
       "soort": "intern",
-      "href": "/cases",
+      "href": "/nl/cases",
       "anker": "Cases",
       "rel": null
     },
     {
       "regio": "header",
       "soort": "intern",
-      "href": "/werkwijze",
+      "href": "/nl/werkwijze",
       "anker": "Werkwijze",
       "rel": null
     },
     {
       "regio": "header",
       "soort": "intern",
-      "href": "/inzichten",
+      "href": "/nl/inzichten",
       "anker": "Inzichten",
       "rel": null
     },
     {
       "regio": "header",
       "soort": "intern",
-      "href": "/over",
+      "href": "/nl/over",
       "anker": "Over mij",
       "rel": null
     },
     {
       "regio": "header",
       "soort": "intern",
-      "href": "/contact",
+      "href": "/ai-agents/examples",
+      "anker": "EN",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/nl/contact",
       "anker": "Plan een gesprek →",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/",
+      "href": "/nl",
       "anker": "Home",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/ai-agents",
+      "href": "/nl/ai-agents",
       "anker": "AI Agents",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/ai-agents",
+      "href": "/nl/ai-agents",
       "anker": "Lees meer over AI agents voor bedrijven →",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/diensten/ai-readiness-assessment",
+      "href": "/nl/diensten/ai-readiness-assessment",
       "anker": "Bekijk het AI Readiness Assessment →",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/over",
+      "href": "/nl/over",
       "anker": "Dave Willemstein",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/ai-agents/wat-is-een-ai-agent",
+      "href": "/nl/ai-agents/wat-is-een-ai-agent",
       "anker": "hoe een AI agent werkt",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/inzichten/ai-agents-wat-ze-wel-en-niet-kunnen",
+      "href": "/nl/inzichten/ai-agents-wat-ze-wel-en-niet-kunnen",
       "anker": "de grenzen van AI agents",
       "rel": null
     },
@@ -389,14 +434,14 @@
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/kennisbank/ai-agents-en-avg",
+      "href": "/nl/kennisbank/ai-agents-en-avg",
       "anker": "AI agents en de AVG",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/kennisbank/ai-voorbeelden",
+      "href": "/nl/kennisbank/ai-voorbeelden",
       "anker": "AI-voorbeelden voor bedrijven",
       "rel": null
     },
@@ -445,42 +490,42 @@
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/ai-agents/laten-maken",
+      "href": "/nl/ai-agents/laten-maken",
       "anker": "een AI agent laten maken",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/ai-agents",
+      "href": "/nl/ai-agents",
       "anker": "AI agents voor bedrijven",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/contact",
+      "href": "/nl/contact",
       "anker": "Plan een vrijblijvend gesprek",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/over",
+      "href": "/nl/over",
       "anker": "Over mij",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/partnernetwerk",
+      "href": "/nl/partnernetwerk",
       "anker": "Mijn partnernetwerk",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/diensten/ai-readiness-assessment",
+      "href": "/nl/diensten/ai-readiness-assessment",
       "anker": "Weten waar je staat met AI? Bekijk het AI Readiness Assessment →",
       "rel": null
     },
@@ -543,154 +588,154 @@
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/contact",
+      "href": "/nl/contact",
       "anker": "Plan een gesprek →",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/diensten/ai-readiness-assessment",
+      "href": "/nl/diensten/ai-readiness-assessment",
       "anker": "AI Readiness Assessment",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/diensten/ai-strategy-sprint",
+      "href": "/nl/diensten/ai-strategy-sprint",
       "anker": "AI Strategy Sprint",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/diensten/fractional-ai-lead",
+      "href": "/nl/diensten/fractional-ai-lead",
       "anker": "Fractional AI Lead",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/diensten",
+      "href": "/nl/diensten",
       "anker": "Alle diensten",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/cases",
+      "href": "/nl/cases",
       "anker": "Cases",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/werkwijze",
+      "href": "/nl/werkwijze",
       "anker": "Werkwijze",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/inzichten",
+      "href": "/nl/inzichten",
       "anker": "Inzichten",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/veelgestelde-vragen",
+      "href": "/nl/veelgestelde-vragen",
       "anker": "Veelgestelde vragen",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/over",
+      "href": "/nl/over",
       "anker": "Over mij",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-consultancy",
+      "href": "/nl/ai-consultancy",
       "anker": "AI consultancy",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-implementatie",
+      "href": "/nl/ai-implementatie",
       "anker": "AI implementatie",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-automatisering",
+      "href": "/nl/ai-automatisering",
       "anker": "AI automatisering",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-voor-bedrijven",
+      "href": "/nl/ai-voor-bedrijven",
       "anker": "AI voor bedrijven",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-development",
+      "href": "/nl/ai-development",
       "anker": "AI development",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-agents",
+      "href": "/nl/ai-agents",
       "anker": "AI agents",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-beleid",
+      "href": "/nl/ai-beleid",
       "anker": "AI beleid",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-workshop",
+      "href": "/nl/ai-workshop",
       "anker": "AI workshop",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/markten",
+      "href": "/nl/markten",
       "anker": "AI per branche",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/kennisbank",
+      "href": "/nl/kennisbank",
       "anker": "Kennisbank",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/tarieven",
+      "href": "/nl/tarieven",
       "anker": "Tarieven",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/partnernetwerk",
+      "href": "/nl/partnernetwerk",
       "anker": "Partnernetwerk",
       "rel": null
     },
@@ -711,27 +756,27 @@
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/contact",
+      "href": "/nl/contact",
       "anker": "Plan een gesprek",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/privacy",
+      "href": "/nl/privacy",
       "anker": "Privacyverklaring",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/algemene-voorwaarden",
+      "href": "/nl/algemene-voorwaarden",
       "anker": "Algemene voorwaarden",
       "rel": null
     }
   ],
   "structured_data": {
-    "sha256": "e7407674ba9e7e14944df73d06b475ba5312656c6d57a829f88606ad0f53e7a8",
+    "sha256": "fc166de4128fe74a79dfc7779f5ce24572f37a195906edb2594fae7989f11740",
     "items": [
       {
         "@context": "https://schema.org",
@@ -743,19 +788,19 @@
                 "@type": "ListItem",
                 "position": 1,
                 "name": "Home",
-                "item": "https://freelanceaiconsultant.com/"
+                "item": "https://freelanceaiconsultant.com/nl"
               },
               {
                 "@type": "ListItem",
                 "position": 2,
                 "name": "AI Agents",
-                "item": "https://freelanceaiconsultant.com/ai-agents"
+                "item": "https://freelanceaiconsultant.com/nl/ai-agents"
               },
               {
                 "@type": "ListItem",
                 "position": 3,
                 "name": "AI agents voorbeelden",
-                "item": "https://freelanceaiconsultant.com/ai-agents/voorbeelden"
+                "item": "https://freelanceaiconsultant.com/nl/ai-agents/voorbeelden"
               }
             ]
           },
@@ -779,7 +824,36 @@
               "@type": "Person",
               "name": "Dave Willemstein"
             },
-            "mainEntityOfPage": "https://freelanceaiconsultant.com/ai-agents/voorbeelden"
+            "mainEntityOfPage": "https://freelanceaiconsultant.com/nl/ai-agents/voorbeelden"
+          },
+          {
+            "@type": "FAQPage",
+            "mainEntity": [
+              {
+                "@type": "Question",
+                "name": "Welke AI agents voorbeelden passen bij klantenservice, sales, HR en finance?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "De AI agents voorbeelden bestaan uit twaalf generieke toepassingen voor klantenservice, sales, HR en finance, zoals mail- en ticketvoorbereiding, leadonderzoek, onboarding en factuurcontrole, elk met de benodigde koppelingen en het moment van menselijke controle. Voorbereidend werk dat een mens daarna beoordeelt, levert de meeste waarde op. Hoeveel zelfstandigheid een agent kan krijgen, hangt af van de vraag of een handeling omkeerbaar is en of de gevolgen intern of extern zijn."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Laten de AI agents voorbeelden zien wat een agent bij een bepaald bedrijf heeft opgeleverd?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Nee. De AI agents voorbeelden zijn bewust generiek beschreven en tonen hoe een agent in een proces past. Wat een agent oplevert, hangt af van de volumes, de bronnen en de hoeveelheid controle die het proces vraagt."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Is er één beste platform voor de AI agents voorbeelden?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Niet in het algemeen: welk platform bij de AI agents voorbeelden past, hangt af van de software die een organisatie al gebruikt, de eisen aan controle en de eigen technische capaciteit. Het platformoverzicht geeft de stand van september 2026 weer, zonder commissies of andere vergoedingen van de genoemde leveranciers."
+                }
+              }
+            ]
           }
         ]
       }
@@ -821,12 +895,12 @@
     ],
     "stylesheets": [
       "https://fonts.googleapis.com/css2?family=Caveat:wght@600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap",
-      "/_astro/_slug_.bq6BBoZ5.css",
-      "/_astro/_slug_.goiX3PVF.css",
+      "/_astro/_slug_.BzqUXH8l.css",
+      "/_astro/_slug_.Do5RJXa7.css",
       "/logo-carousel/logo-carousel.css?v=2"
     ],
     "aantal_details": 0,
     "aantal_tabellen": 1
   },
-  "gemeten_op": "2026-10-06"
+  "gemeten_op": "2026-10-29"
 }

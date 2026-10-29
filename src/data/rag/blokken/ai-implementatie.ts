@@ -5,7 +5,7 @@ export default {
   "onderwerp": "AI implementatie",
   "vraagkop": "Wat kost begeleiding bij AI implementatie en wie bouwt de oplossing?",
   "onderBestaandeKop": false,
-  "antwoord": "Bij een AI implementatie bouwt het eigen team of een rechtstreeks gecontracteerde partner de oplossing; {{afzender}} begeleidt vanuit de kant van de opdrachtgever door te helpen kiezen, kaders te stellen, de oplevering te toetsen en te zorgen dat de toepassing in de organisatie landt. Voor die begeleiding geldt: het {{dienst:ai-readiness-assessment}} duurt {{timing:ai-readiness-assessment}} tegen een vaste prijs, en doorlopende sturing door de {{dienst:fractional-ai-lead}} is tegen een vast maandbedrag. De kosten van bouw of licentie hangen af van de gekozen oplossing en leverancier en worden apart begroot, inclusief het beheer na oplevering.",
+  "antwoord": "Bij een AI implementatie bouwt het eigen team of een rechtstreeks gecontracteerde partner de oplossing; {{afzender}} begeleidt vanuit de kant van de opdrachtgever door te helpen kiezen, kaders te stellen, de oplevering te toetsen en te zorgen dat de toepassing in de organisatie landt. Voor die begeleiding geldt: het {{dienst:ai-readiness-assessment}} duurt {{timing:ai-readiness-assessment}} tegen een vaste projectprijs, en doorlopende sturing door de {{dienst:fractional-ai-lead}} is tegen een vast maandbedrag. De kosten van bouw of licentie hangen af van de gekozen oplossing en leverancier en worden apart begroot, inclusief het beheer na oplevering.",
   "tabel": {
     "bijschrift": "Begeleiding bij AI implementatie: passende dienst per situatie",
     "kolommen": [

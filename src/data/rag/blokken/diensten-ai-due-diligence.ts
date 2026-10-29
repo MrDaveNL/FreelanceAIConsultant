@@ -5,12 +5,11 @@ export default {
   "onderwerp": "AI Due Diligence",
   "vraagkop": "Wat levert een AI Due Diligence op en wat kost die?",
   "onderBestaandeKop": false,
-  "antwoord": "De {{dienst:ai-due-diligence}} van {{afzender}} beoordeelt een AI-propositie of AI-leverancier voor investeerders en voor organisaties die een strategische AI-leverancier binnenhalen. Het resultaat is een DD-rapport met een expliciet oordeel en een overzicht van red flags, gescheiden in deal-breakers en onderhandelpunten. Het onderzoek duurt {{timing:ai-due-diligence}} en kost {{pricelc:ai-due-diligence}}, {{voorwaarden}}.",
+  "antwoord": "De {{dienst:ai-due-diligence}} van {{afzender}} beoordeelt een AI-propositie of AI-leverancier voor investeerders en voor organisaties die een strategische AI-leverancier binnenhalen. Het resultaat is een DD-rapport met een expliciet oordeel en een overzicht van red flags, gescheiden in deal-breakers en onderhandelpunten. Het onderzoek duurt {{timing:ai-due-diligence}} en kost {{pricelc:ai-due-diligence}}, vastgelegd in het voorstel, {{voorwaarden}}; het onderzoek gebeurt altijd onder NDA.",
   "vervolgvragen": [
     {
       "vraag": "Kost een AI Due Diligence van een heel bedrijf meer dan die van één oplossing?",
-      "antwoord": "Ja. De {{dienst:ai-due-diligence}} kost {{pricelc:ai-due-diligence}}: één oplossing zit aan de onderkant, een heel bedrijf aan de bovenkant.",
-      "onvoorwaardelijk": true
+      "antwoord": "De {{dienst:ai-due-diligence}} kost {{pricelc:ai-due-diligence}}, afhankelijk van de omvang: één oplossing doorlichten vraagt minder dan een heel bedrijf."
     },
     {
       "vraag": "Is de AI Due Diligence geschikt voor wie een formele audit met accountantsverklaring nodig heeft?",

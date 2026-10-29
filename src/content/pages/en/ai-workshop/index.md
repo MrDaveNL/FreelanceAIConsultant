@@ -137,7 +137,7 @@ That last one may be the most important. A team that deliberately chooses where 
 
 ## Investment
 
-Workshops and training get a fixed price per assignment, because preparation, duration and group size vary widely. The amount is discussed in the intake, and you get it in writing beforehand. The [pricing](/pricing) page shows how that compares to the fixed-scope engagements. All amounts exclude VAT and travel costs.
+Workshops and training get a fixed price per assignment, because preparation, duration and group size vary widely. The amount is discussed in the intake, and you get it in writing beforehand. The [pricing](/pricing) page shows how that compares to the fixed-scope engagements. All proposals exclude VAT and travel expenses.
 
 The Executive Briefing is the exception: it has a fixed price, including preparation for your sector.
 

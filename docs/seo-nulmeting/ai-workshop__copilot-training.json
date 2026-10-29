@@ -2,15 +2,28 @@
   "url": "/ai-workshop/copilot-training",
   "build_bestand": "dist/ai-workshop/copilot-training/index.html",
   "html": {
-    "bytes": 34417,
+    "bytes": 39047,
     "lang": "nl"
   },
   "beschermd": {
     "title": "Copilot training | Microsoft Copilot slim inzetten",
     "meta_description": "Haal meer uit Microsoft Copilot met een praktische training voor je team. Leer prompts, toepassingen in Outlook, Teams en Excel en veilig werken met data.",
-    "canonical": "https://freelanceaiconsultant.com/ai-workshop/copilot-training",
+    "canonical": "https://freelanceaiconsultant.com/nl/ai-workshop/copilot-training",
     "robots_meta": null,
-    "hreflang": [],
+    "hreflang": [
+      {
+        "hreflang": "en",
+        "href": "https://freelanceaiconsultant.com/ai-workshop/copilot-training"
+      },
+      {
+        "hreflang": "nl",
+        "href": "https://freelanceaiconsultant.com/nl/ai-workshop/copilot-training"
+      },
+      {
+        "hreflang": "x-default",
+        "href": "https://freelanceaiconsultant.com/ai-workshop/copilot-training"
+      }
+    ],
     "h1": [
       "Microsoft Copilot training voor teams"
     ]
@@ -21,7 +34,7 @@
     "og:site_name": "freelanceaiconsultant.com",
     "og:title": "Copilot training | Microsoft Copilot slim inzetten",
     "og:description": "Haal meer uit Microsoft Copilot met een praktische training voor je team. Leer prompts, toepassingen in Outlook, Teams en Excel en veilig werken met data.",
-    "og:url": "https://freelanceaiconsultant.com/ai-workshop/copilot-training",
+    "og:url": "https://freelanceaiconsultant.com/nl/ai-workshop/copilot-training",
     "og:image": "https://freelanceaiconsultant.com/images/dave-portrait.jpg",
     "twitter:card": "summary_large_image",
     "twitter:title": "Copilot training | Microsoft Copilot slim inzetten",
@@ -40,6 +53,24 @@
       "tekst": "Wat leer je in de Copilot training?",
       "regio": "main",
       "id": "wat-leer-je-in-de-copilot-training"
+    },
+    {
+      "niveau": 3,
+      "tekst": "Hoe ziet het programma van de Copilot training eruit?",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 3,
+      "tekst": "Komt veilig werken met bedrijfsdata aan bod in de Copilot training?",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 3,
+      "tekst": "Is de Copilot training te combineren met een training AI-geletterdheid?",
+      "regio": "main",
+      "id": null
     },
     {
       "niveau": 2,
@@ -80,8 +111,8 @@
   ],
   "bodytekst": {
     "regio": "main",
-    "woorden": 1479,
-    "sha256": "68d390f15de6866eff1ae1c746c2362faada9d603f6015495cf3880fb2743015",
+    "woorden": 1741,
+    "sha256": "ba2c5f503cb787766585d6039030891895c0df97d4f24f70a22de44b1996f8dd",
     "blokken": [
       "Home",
       "AI workshop",
@@ -153,6 +184,7 @@
       "Zakelijke dienstverlener",
       "Interne AI-assistent voor kenniswerkers",
       "Wat leer je in de Copilot training?",
+      "In de Copilot training van Dave Willemstein oefent een team met drie tot vijf herkenbare taken per rol uit het eigen werk, in Outlook, Teams, Word, Excel en PowerPoint. Deelnemers leren goede opdrachten geven, kiezen tussen Copilot in een app en Copilot Chat, uitkomsten controleren en herkennen welke taken en gegevens niet bij Copilot horen. De training is maatwerk, wordt incompany gegeven en heeft een vaste prijs die in de intake wordt besproken en vooraf schriftelijk wordt bevestigd.",
       "Een training Copilot draait bij mij niet om een rondleiding langs alle knoppen. Die vinden mensen zelf wel. Het draait om de vraag welke taken van jouw team sneller of beter gaan met Copilot, en hoe je de uitkomst controleert voordat je hem gebruikt. Daarom werk ik met drie tot vijf herkenbare taken per rol, uit jullie eigen werk. Waarom die aanpak meer oplevert dan een algemene demo, beschreef ik in AI-adoptie begint bij het werk.",
       "Deelnemers leren:",
       "Goede opdrachten geven: doel, context, bron en gewenst format meegeven, en doorvragen in plaats van opnieuw beginnen.",
@@ -160,6 +192,13 @@
       "Controleren: bronnen nalopen, cijfers narekenen en herkennen wanneer een samenvatting iets weglaat.",
       "Grenzen kennen: welke taken je beter niet aan Copilot overlaat, en welke gegevens er niet in horen.",
       "Microsoft heeft het product inmiddels hernoemd: Microsoft 365 Copilot heet nu Microsoft Copilot, en Microsoft 365 Copilot Chat heet Microsoft Copilot Chat (stand september 2026). In licenties en schermen kom je de oude namen soms nog tegen. Wil je eerst een overzicht van wat Copilot is en welke varianten er zijn, lees dan Microsoft Copilot voor bedrijven in de kennisbank.",
+      "Hoe ziet het programma van de Copilot training eruit?",
+      "De Copilot training is maatwerk en een programma kan er bijvoorbeeld uitzien als intake, voorbereiding, sessie en toepassen. In dat voorbeeld komen in de intake doel, doelgroep, licenties en interne afspraken aan bod en worden in de voorbereiding drie tot vijf taken per rol uitgewerkt tot oefeningen. Duur en invulling van de Copilot training hangen af van de groep en het doel.",
+      "Komt veilig werken met bedrijfsdata aan bod in de Copilot training?",
+      "Ja. De Copilot training vertaalt wat Microsoft over data, privacy en beveiliging stelt naar gedrag: wat wel en niet wordt gedeeld, hoe een antwoord te herkennen is dat op een verkeerde bron leunt, en wat te doen als Copilot iets laat zien dat de gebruiker niet had mogen zien.",
+      "Is de Copilot training te combineren met een training AI-geletterdheid?",
+      "Ja. De Copilot training en de training AI-geletterdheid zijn goed te combineren. De basis onder veilig werken met Copilot, begrijpen hoe AI werkt en waar de risico's zitten, is ook wat de training AI-geletterdheid behandelt.",
+      "Bron: Dave Willemstein, onafhankelijk AI-adviseur. Bijgewerkt: oktober 2026.",
       "Toepassingen in Microsoft 365",
       "Wat Copilot kan, hangt af van je licentie. Volgens de licentie-uitleg van Microsoft en de uitleg over Copilot Chat met en zonder licentie (stand september 2026) zit het verschil vooral hier:",
       "Copilot Chat (inbegrepen)",
@@ -245,92 +284,106 @@
     {
       "regio": "header",
       "soort": "intern",
-      "href": "/",
+      "href": "/nl",
       "anker": "",
       "rel": null
     },
     {
       "regio": "header",
       "soort": "intern",
-      "href": "/diensten",
+      "href": "/nl/diensten",
       "anker": "Diensten",
       "rel": null
     },
     {
       "regio": "header",
       "soort": "intern",
-      "href": "/cases",
+      "href": "/nl/cases",
       "anker": "Cases",
       "rel": null
     },
     {
       "regio": "header",
       "soort": "intern",
-      "href": "/werkwijze",
+      "href": "/nl/werkwijze",
       "anker": "Werkwijze",
       "rel": null
     },
     {
       "regio": "header",
       "soort": "intern",
-      "href": "/inzichten",
+      "href": "/nl/inzichten",
       "anker": "Inzichten",
       "rel": null
     },
     {
       "regio": "header",
       "soort": "intern",
-      "href": "/over",
+      "href": "/nl/over",
       "anker": "Over mij",
       "rel": null
     },
     {
       "regio": "header",
       "soort": "intern",
-      "href": "/contact",
+      "href": "/ai-workshop/copilot-training",
+      "anker": "EN",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/nl/contact",
       "anker": "Plan een gesprek →",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/",
+      "href": "/nl",
       "anker": "Home",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/ai-workshop",
+      "href": "/nl/ai-workshop",
       "anker": "AI workshop",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/contact",
+      "href": "/nl/contact",
       "anker": "Vraag een training aan →",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/diensten/ai-readiness-assessment",
+      "href": "/nl/diensten/ai-readiness-assessment",
       "anker": "Bekijk het AI Readiness Assessment →",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/inzichten/ai-adoptie-begint-bij-het-werk",
+      "href": "/nl/inzichten/ai-adoptie-begint-bij-het-werk",
       "anker": "AI-adoptie begint bij het werk",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/kennisbank/microsoft-copilot-voor-bedrijven",
+      "href": "/nl/kennisbank/microsoft-copilot-voor-bedrijven",
       "anker": "Microsoft Copilot voor bedrijven",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/nl/ai-workshop/ai-geletterdheid-training",
+      "anker": "training AI-geletterdheid",
       "rel": null
     },
     {
@@ -357,56 +410,56 @@
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/ai-workshop/ai-geletterdheid-training",
+      "href": "/nl/ai-workshop/ai-geletterdheid-training",
       "anker": "training AI-geletterdheid",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/tarieven",
+      "href": "/nl/tarieven",
       "anker": "tarieven",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/ai-workshop/chatgpt-training",
+      "href": "/nl/ai-workshop/chatgpt-training",
       "anker": "ChatGPT training voor bedrijven",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/ai-workshop",
+      "href": "/nl/ai-workshop",
       "anker": "AI workshops en trainingen",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/contact",
+      "href": "/nl/contact",
       "anker": "Neem contact op",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/over",
+      "href": "/nl/over",
       "anker": "Over mij",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/partnernetwerk",
+      "href": "/nl/partnernetwerk",
       "anker": "Mijn partnernetwerk",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/diensten/ai-readiness-assessment",
+      "href": "/nl/diensten/ai-readiness-assessment",
       "anker": "Weten waar je staat met AI? Bekijk het AI Readiness Assessment →",
       "rel": null
     },
@@ -448,154 +501,154 @@
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/contact",
+      "href": "/nl/contact",
       "anker": "Plan een gesprek →",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/diensten/ai-readiness-assessment",
+      "href": "/nl/diensten/ai-readiness-assessment",
       "anker": "AI Readiness Assessment",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/diensten/ai-strategy-sprint",
+      "href": "/nl/diensten/ai-strategy-sprint",
       "anker": "AI Strategy Sprint",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/diensten/fractional-ai-lead",
+      "href": "/nl/diensten/fractional-ai-lead",
       "anker": "Fractional AI Lead",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/diensten",
+      "href": "/nl/diensten",
       "anker": "Alle diensten",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/cases",
+      "href": "/nl/cases",
       "anker": "Cases",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/werkwijze",
+      "href": "/nl/werkwijze",
       "anker": "Werkwijze",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/inzichten",
+      "href": "/nl/inzichten",
       "anker": "Inzichten",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/veelgestelde-vragen",
+      "href": "/nl/veelgestelde-vragen",
       "anker": "Veelgestelde vragen",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/over",
+      "href": "/nl/over",
       "anker": "Over mij",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-consultancy",
+      "href": "/nl/ai-consultancy",
       "anker": "AI consultancy",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-implementatie",
+      "href": "/nl/ai-implementatie",
       "anker": "AI implementatie",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-automatisering",
+      "href": "/nl/ai-automatisering",
       "anker": "AI automatisering",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-voor-bedrijven",
+      "href": "/nl/ai-voor-bedrijven",
       "anker": "AI voor bedrijven",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-development",
+      "href": "/nl/ai-development",
       "anker": "AI development",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-agents",
+      "href": "/nl/ai-agents",
       "anker": "AI agents",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-beleid",
+      "href": "/nl/ai-beleid",
       "anker": "AI beleid",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-workshop",
+      "href": "/nl/ai-workshop",
       "anker": "AI workshop",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/markten",
+      "href": "/nl/markten",
       "anker": "AI per branche",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/kennisbank",
+      "href": "/nl/kennisbank",
       "anker": "Kennisbank",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/tarieven",
+      "href": "/nl/tarieven",
       "anker": "Tarieven",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/partnernetwerk",
+      "href": "/nl/partnernetwerk",
       "anker": "Partnernetwerk",
       "rel": null
     },
@@ -616,27 +669,27 @@
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/contact",
+      "href": "/nl/contact",
       "anker": "Plan een gesprek",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/privacy",
+      "href": "/nl/privacy",
       "anker": "Privacyverklaring",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/algemene-voorwaarden",
+      "href": "/nl/algemene-voorwaarden",
       "anker": "Algemene voorwaarden",
       "rel": null
     }
   ],
   "structured_data": {
-    "sha256": "47e86638be8b2ded572b1d2056f89eab3da8996b631693bcb2ed4de661c13cc2",
+    "sha256": "ee3e7e74341cfdab79fc37b4561780cbed4fa93003bfa76fe5541c70c3045dcb",
     "items": [
       {
         "@context": "https://schema.org",
@@ -648,19 +701,19 @@
                 "@type": "ListItem",
                 "position": 1,
                 "name": "Home",
-                "item": "https://freelanceaiconsultant.com/"
+                "item": "https://freelanceaiconsultant.com/nl"
               },
               {
                 "@type": "ListItem",
                 "position": 2,
                 "name": "AI workshop",
-                "item": "https://freelanceaiconsultant.com/ai-workshop"
+                "item": "https://freelanceaiconsultant.com/nl/ai-workshop"
               },
               {
                 "@type": "ListItem",
                 "position": 3,
                 "name": "Copilot training",
-                "item": "https://freelanceaiconsultant.com/ai-workshop/copilot-training"
+                "item": "https://freelanceaiconsultant.com/nl/ai-workshop/copilot-training"
               }
             ]
           },
@@ -669,7 +722,7 @@
             "name": "Copilot training",
             "serviceType": "training copilot",
             "description": "Haal meer uit Microsoft Copilot met een praktische training voor je team. Leer prompts, toepassingen in Outlook, Teams en Excel en veilig werken met data.",
-            "url": "https://freelanceaiconsultant.com/ai-workshop/copilot-training",
+            "url": "https://freelanceaiconsultant.com/nl/ai-workshop/copilot-training",
             "areaServed": "NL",
             "provider": {
               "@type": "Person",
@@ -715,6 +768,38 @@
                   "@type": "Answer",
                   "text": "Mijn trainingen richten zich op gebruikers en hun leidinggevenden. Voor technische inrichting en beheer van de Microsoft-omgeving stel ik indien nodig een gespecialiseerde partij voor, die je rechtstreeks contracteert."
                 }
+              },
+              {
+                "@type": "Question",
+                "name": "Wat leer je in de Copilot training?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "In de Copilot training van Dave Willemstein oefent een team met drie tot vijf herkenbare taken per rol uit het eigen werk, in Outlook, Teams, Word, Excel en PowerPoint. Deelnemers leren goede opdrachten geven, kiezen tussen Copilot in een app en Copilot Chat, uitkomsten controleren en herkennen welke taken en gegevens niet bij Copilot horen. De training is maatwerk, wordt incompany gegeven en heeft een vaste prijs die in de intake wordt besproken en vooraf schriftelijk wordt bevestigd."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Hoe ziet het programma van de Copilot training eruit?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "De Copilot training is maatwerk en een programma kan er bijvoorbeeld uitzien als intake, voorbereiding, sessie en toepassen. In dat voorbeeld komen in de intake doel, doelgroep, licenties en interne afspraken aan bod en worden in de voorbereiding drie tot vijf taken per rol uitgewerkt tot oefeningen. Duur en invulling van de Copilot training hangen af van de groep en het doel."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Komt veilig werken met bedrijfsdata aan bod in de Copilot training?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Ja. De Copilot training vertaalt wat Microsoft over data, privacy en beveiliging stelt naar gedrag: wat wel en niet wordt gedeeld, hoe een antwoord te herkennen is dat op een verkeerde bron leunt, en wat te doen als Copilot iets laat zien dat de gebruiker niet had mogen zien."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Is de Copilot training te combineren met een training AI-geletterdheid?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Ja. De Copilot training en de training AI-geletterdheid zijn goed te combineren. De basis onder veilig werken met Copilot, begrijpen hoe AI werkt en waar de risico's zitten, is ook wat de training AI-geletterdheid behandelt."
+                }
               }
             ]
           }
@@ -758,12 +843,12 @@
     ],
     "stylesheets": [
       "https://fonts.googleapis.com/css2?family=Caveat:wght@600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap",
-      "/_astro/_slug_.bq6BBoZ5.css",
-      "/_astro/_slug_.goiX3PVF.css",
+      "/_astro/_slug_.BzqUXH8l.css",
+      "/_astro/_slug_.Do5RJXa7.css",
       "/logo-carousel/logo-carousel.css?v=2"
     ],
     "aantal_details": 4,
     "aantal_tabellen": 1
   },
-  "gemeten_op": "2026-10-06"
+  "gemeten_op": "2026-10-29"
 }

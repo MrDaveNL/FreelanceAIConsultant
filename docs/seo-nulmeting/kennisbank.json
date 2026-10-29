@@ -2,15 +2,28 @@
   "url": "/kennisbank",
   "build_bestand": "dist/kennisbank/index.html",
   "html": {
-    "bytes": 31903,
+    "bytes": 32764,
     "lang": "nl"
   },
   "beschermd": {
     "title": "AI kennisbank | Praktische kennis over AI voor bedrijven",
     "meta_description": "In de AI kennisbank vind je praktische artikelen over AI-strategie, implementatie, automatisering, AI agents, beleid en tools, van een AI consultant.",
-    "canonical": "https://freelanceaiconsultant.com/kennisbank",
+    "canonical": "https://freelanceaiconsultant.com/nl/kennisbank",
     "robots_meta": null,
-    "hreflang": [],
+    "hreflang": [
+      {
+        "hreflang": "en",
+        "href": "https://freelanceaiconsultant.com/knowledge-base"
+      },
+      {
+        "hreflang": "nl",
+        "href": "https://freelanceaiconsultant.com/nl/kennisbank"
+      },
+      {
+        "hreflang": "x-default",
+        "href": "https://freelanceaiconsultant.com/knowledge-base"
+      }
+    ],
     "h1": [
       "AI kennisbank: praktische kennis over AI voor bedrijven"
     ]
@@ -21,7 +34,7 @@
     "og:site_name": "freelanceaiconsultant.com",
     "og:title": "AI kennisbank | Praktische kennis over AI voor bedrijven",
     "og:description": "In de AI kennisbank vind je praktische artikelen over AI-strategie, implementatie, automatisering, AI agents, beleid en tools, van een AI consultant.",
-    "og:url": "https://freelanceaiconsultant.com/kennisbank",
+    "og:url": "https://freelanceaiconsultant.com/nl/kennisbank",
     "og:image": "https://freelanceaiconsultant.com/images/dave-portrait.jpg",
     "twitter:card": "summary_large_image",
     "twitter:title": "AI kennisbank | Praktische kennis over AI voor bedrijven",
@@ -243,511 +256,518 @@
     {
       "regio": "header",
       "soort": "intern",
-      "href": "/",
+      "href": "/nl",
       "anker": "",
       "rel": null
     },
     {
       "regio": "header",
       "soort": "intern",
-      "href": "/diensten",
+      "href": "/nl/diensten",
       "anker": "Diensten",
       "rel": null
     },
     {
       "regio": "header",
       "soort": "intern",
-      "href": "/cases",
+      "href": "/nl/cases",
       "anker": "Cases",
       "rel": null
     },
     {
       "regio": "header",
       "soort": "intern",
-      "href": "/werkwijze",
+      "href": "/nl/werkwijze",
       "anker": "Werkwijze",
       "rel": null
     },
     {
       "regio": "header",
       "soort": "intern",
-      "href": "/inzichten",
+      "href": "/nl/inzichten",
       "anker": "Inzichten",
       "rel": null
     },
     {
       "regio": "header",
       "soort": "intern",
-      "href": "/over",
+      "href": "/nl/over",
       "anker": "Over mij",
       "rel": null
     },
     {
       "regio": "header",
       "soort": "intern",
-      "href": "/contact",
+      "href": "/knowledge-base",
+      "anker": "EN",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/nl/contact",
       "anker": "Plan een gesprek →",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/",
+      "href": "/nl",
       "anker": "Home",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/diensten/ai-readiness-assessment",
+      "href": "/nl/diensten/ai-readiness-assessment",
       "anker": "Bekijk het AI Readiness Assessment →",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/contact",
+      "href": "/nl/contact",
       "anker": "Plan een adviesgesprek →",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/over",
+      "href": "/nl/over",
       "anker": "Dave Willemstein",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/inzichten",
+      "href": "/nl/inzichten",
       "anker": "inzichten en opiniestukken",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/contact",
+      "href": "/nl/contact",
       "anker": "Stel je vraag",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/ai-implementatie/stappenplan",
+      "href": "/nl/ai-implementatie/stappenplan",
       "anker": "AI implementatie AI implementatie stappenplan in 7 stappen Volg dit AI implementatie stappenplan: van doel en use case tot data, bouw, adoptie en optimalisatie. Met checklist per stap en veelgemaakte valkuilen.",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/ai-agents/wat-is-een-ai-agent",
+      "href": "/nl/ai-agents/wat-is-een-ai-agent",
       "anker": "AI agents Wat is een AI agent? Uitleg, werking en voorbeelden Wat is een AI agent en hoe werkt het? Heldere uitleg over AI agents, het verschil met een chatbot, soorten agents en praktische voorbeelden voor bedrijven.",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/kennisbank/ai-voorbeelden",
+      "href": "/nl/kennisbank/ai-voorbeelden",
       "anker": "AI automatisering AI voorbeelden: 25 toepassingen uit de praktijk Bekijk 25 concrete AI voorbeelden uit de praktijk, per afdeling en sector. Ontdek welke toepassingen direct waarde opleveren en hoe bedrijven ermee beginnen.",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/ai-consultancy/ai-roadmap",
+      "href": "/nl/ai-consultancy/ai-roadmap",
       "anker": "AI roadmap ontwikkelen: van prioriteiten naar planning",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/kennisbank/wat-doet-een-ai-consultant",
+      "href": "/nl/kennisbank/wat-doet-een-ai-consultant",
       "anker": "Wat doet een AI consultant?",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/ai-voor-bedrijven",
+      "href": "/nl/ai-voor-bedrijven",
       "anker": "AI voor bedrijven: wat kan AI voor jouw organisatie betekenen?",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/ai-voor-bedrijven/mkb",
+      "href": "/nl/ai-voor-bedrijven/mkb",
       "anker": "AI voor het MKB: waar begin je en wat levert het op?",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/ai-voor-bedrijven/zakelijke-dienstverleners",
+      "href": "/nl/ai-voor-bedrijven/zakelijke-dienstverleners",
       "anker": "AI voor zakelijke dienstverleners",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/ai-voor-bedrijven/ai-en-bi",
+      "href": "/nl/ai-voor-bedrijven/ai-en-bi",
       "anker": "AI en BI: het verschil en hoe ze elkaar versterken",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/kennisbank/wat-doet-een-bi-specialist",
+      "href": "/nl/kennisbank/wat-doet-een-bi-specialist",
       "anker": "Wat doet een BI specialist?",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/ai-implementatie/stappenplan",
+      "href": "/nl/ai-implementatie/stappenplan",
       "anker": "AI implementatie stappenplan in 7 stappen",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/ai-development/ai-software",
+      "href": "/nl/ai-development/ai-software",
       "anker": "AI software: kiezen, integreren of op maat laten bouwen",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/kennisbank/wat-doet-een-ai-developer",
+      "href": "/nl/kennisbank/wat-doet-een-ai-developer",
       "anker": "Wat doet een AI developer?",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/kennisbank/ai-specialist-salaris",
+      "href": "/nl/kennisbank/ai-specialist-salaris",
       "anker": "AI specialist salaris: wat verdient een AI specialist?",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/ai-automatisering/bedrijfsprocessen-automatiseren-met-ai",
+      "href": "/nl/ai-automatisering/bedrijfsprocessen-automatiseren-met-ai",
       "anker": "Bedrijfsprocessen automatiseren met AI",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/ai-automatisering/ai-workflows",
+      "href": "/nl/ai-automatisering/ai-workflows",
       "anker": "AI workflows: zo automatiseer je werk van begin tot eind",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/kennisbank/ai-voorbeelden",
+      "href": "/nl/kennisbank/ai-voorbeelden",
       "anker": "AI voorbeelden: 25 toepassingen uit de praktijk",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/kennisbank/notuleren-met-ai",
+      "href": "/nl/kennisbank/notuleren-met-ai",
       "anker": "Notuleren met AI: tools, werkwijze en privacy",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/kennisbank/rpa-vs-ai-automatisering",
+      "href": "/nl/kennisbank/rpa-vs-ai-automatisering",
       "anker": "RPA versus AI automatisering: wat past bij jou?",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/ai-agents/wat-is-een-ai-agent",
+      "href": "/nl/ai-agents/wat-is-een-ai-agent",
       "anker": "Wat is een AI agent? Uitleg, werking en voorbeelden",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/ai-agents/voorbeelden",
+      "href": "/nl/ai-agents/voorbeelden",
       "anker": "AI agents voorbeelden: 12 toepassingen voor bedrijven",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/kennisbank/ai-agents-en-avg",
+      "href": "/nl/kennisbank/ai-agents-en-avg",
       "anker": "AI agents en de AVG: waar moet je op letten?",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/ai-beleid/ai-act",
+      "href": "/nl/ai-beleid/ai-act",
       "anker": "De AI Act voor bedrijven: wat moet je doen?",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/kennisbank/chatgpt-voor-bedrijven",
+      "href": "/nl/kennisbank/chatgpt-voor-bedrijven",
       "anker": "ChatGPT voor bedrijven: toepassingen en veilig gebruik",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/kennisbank/claude-voor-bedrijven",
+      "href": "/nl/kennisbank/claude-voor-bedrijven",
       "anker": "Claude voor bedrijven: mogelijkheden en toepassingen",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/kennisbank/gemini-voor-bedrijven",
+      "href": "/nl/kennisbank/gemini-voor-bedrijven",
       "anker": "Gemini voor bedrijven: toepassingen in Google Workspace",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/kennisbank/microsoft-copilot-voor-bedrijven",
+      "href": "/nl/kennisbank/microsoft-copilot-voor-bedrijven",
       "anker": "Microsoft Copilot voor bedrijven: wat kun je ermee?",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/kennisbank/prompt-engineering",
+      "href": "/nl/kennisbank/prompt-engineering",
       "anker": "Prompt engineering: betere resultaten uit AI",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/ai-automatisering/ai-tools",
+      "href": "/nl/ai-automatisering/ai-tools",
       "anker": "Beste AI tools voor bedrijven",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/ai-beleid/ai-act",
+      "href": "/nl/ai-beleid/ai-act",
       "anker": "De AI Act voor bedrijven: wat moet je doen?",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/kennisbank/ai-agents-en-avg",
+      "href": "/nl/kennisbank/ai-agents-en-avg",
       "anker": "AI agents en de AVG: waar moet je op letten?",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/ai-agents/voorbeelden",
+      "href": "/nl/ai-agents/voorbeelden",
       "anker": "AI agents voorbeelden: 12 toepassingen voor bedrijven",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/ai-agents/wat-is-een-ai-agent",
+      "href": "/nl/ai-agents/wat-is-een-ai-agent",
       "anker": "Wat is een AI agent? Uitleg, werking en voorbeelden",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/kennisbank/ai-specialist-salaris",
+      "href": "/nl/kennisbank/ai-specialist-salaris",
       "anker": "AI specialist salaris: wat verdient een AI specialist?",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/kennisbank/wat-doet-een-ai-developer",
+      "href": "/nl/kennisbank/wat-doet-een-ai-developer",
       "anker": "Wat doet een AI developer?",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/over",
+      "href": "/nl/over",
       "anker": "Over mij",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/partnernetwerk",
+      "href": "/nl/partnernetwerk",
       "anker": "Mijn partnernetwerk",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/diensten/ai-readiness-assessment",
+      "href": "/nl/diensten/ai-readiness-assessment",
       "anker": "Weten waar je staat met AI? Bekijk het AI Readiness Assessment →",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/contact",
+      "href": "/nl/contact",
       "anker": "Plan een gesprek →",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/diensten/ai-readiness-assessment",
+      "href": "/nl/diensten/ai-readiness-assessment",
       "anker": "AI Readiness Assessment",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/diensten/ai-strategy-sprint",
+      "href": "/nl/diensten/ai-strategy-sprint",
       "anker": "AI Strategy Sprint",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/diensten/fractional-ai-lead",
+      "href": "/nl/diensten/fractional-ai-lead",
       "anker": "Fractional AI Lead",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/diensten",
+      "href": "/nl/diensten",
       "anker": "Alle diensten",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/cases",
+      "href": "/nl/cases",
       "anker": "Cases",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/werkwijze",
+      "href": "/nl/werkwijze",
       "anker": "Werkwijze",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/inzichten",
+      "href": "/nl/inzichten",
       "anker": "Inzichten",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/veelgestelde-vragen",
+      "href": "/nl/veelgestelde-vragen",
       "anker": "Veelgestelde vragen",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/over",
+      "href": "/nl/over",
       "anker": "Over mij",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-consultancy",
+      "href": "/nl/ai-consultancy",
       "anker": "AI consultancy",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-implementatie",
+      "href": "/nl/ai-implementatie",
       "anker": "AI implementatie",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-automatisering",
+      "href": "/nl/ai-automatisering",
       "anker": "AI automatisering",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-voor-bedrijven",
+      "href": "/nl/ai-voor-bedrijven",
       "anker": "AI voor bedrijven",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-development",
+      "href": "/nl/ai-development",
       "anker": "AI development",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-agents",
+      "href": "/nl/ai-agents",
       "anker": "AI agents",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-beleid",
+      "href": "/nl/ai-beleid",
       "anker": "AI beleid",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-workshop",
+      "href": "/nl/ai-workshop",
       "anker": "AI workshop",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/markten",
+      "href": "/nl/markten",
       "anker": "AI per branche",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/kennisbank",
+      "href": "/nl/kennisbank",
       "anker": "Kennisbank",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/tarieven",
+      "href": "/nl/tarieven",
       "anker": "Tarieven",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/partnernetwerk",
+      "href": "/nl/partnernetwerk",
       "anker": "Partnernetwerk",
       "rel": null
     },
@@ -768,27 +788,27 @@
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/contact",
+      "href": "/nl/contact",
       "anker": "Plan een gesprek",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/privacy",
+      "href": "/nl/privacy",
       "anker": "Privacyverklaring",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/algemene-voorwaarden",
+      "href": "/nl/algemene-voorwaarden",
       "anker": "Algemene voorwaarden",
       "rel": null
     }
   ],
   "structured_data": {
-    "sha256": "e2acab77e3c11e13392ac9894d57f1b04d0b698dfa9aa06e7c3d7c22f122ed04",
+    "sha256": "3bb7eb6d1c3655d348b198d78b0a982f3e6abc0916cce9b2de0a302202d6c619",
     "items": [
       {
         "@context": "https://schema.org",
@@ -800,13 +820,13 @@
                 "@type": "ListItem",
                 "position": 1,
                 "name": "Home",
-                "item": "https://freelanceaiconsultant.com/"
+                "item": "https://freelanceaiconsultant.com/nl"
               },
               {
                 "@type": "ListItem",
                 "position": 2,
                 "name": "Kennisbank",
-                "item": "https://freelanceaiconsultant.com/kennisbank"
+                "item": "https://freelanceaiconsultant.com/nl/kennisbank"
               }
             ]
           },
@@ -814,137 +834,137 @@
             "@type": "CollectionPage",
             "name": "AI kennisbank: praktische kennis over AI voor bedrijven",
             "description": "In de AI kennisbank vind je praktische artikelen over AI-strategie, implementatie, automatisering, AI agents, beleid en tools, van een AI consultant.",
-            "url": "https://freelanceaiconsultant.com/kennisbank",
+            "url": "https://freelanceaiconsultant.com/nl/kennisbank",
             "hasPart": [
               {
                 "@type": "Article",
                 "headline": "AI roadmap ontwikkelen: van prioriteiten naar planning",
-                "url": "https://freelanceaiconsultant.com/ai-consultancy/ai-roadmap"
+                "url": "https://freelanceaiconsultant.com/nl/ai-consultancy/ai-roadmap"
               },
               {
                 "@type": "Article",
                 "headline": "Wat doet een AI consultant?",
-                "url": "https://freelanceaiconsultant.com/kennisbank/wat-doet-een-ai-consultant"
+                "url": "https://freelanceaiconsultant.com/nl/kennisbank/wat-doet-een-ai-consultant"
               },
               {
                 "@type": "Article",
                 "headline": "ChatGPT voor bedrijven: toepassingen en veilig gebruik",
-                "url": "https://freelanceaiconsultant.com/kennisbank/chatgpt-voor-bedrijven"
+                "url": "https://freelanceaiconsultant.com/nl/kennisbank/chatgpt-voor-bedrijven"
               },
               {
                 "@type": "Article",
                 "headline": "Claude voor bedrijven: mogelijkheden en toepassingen",
-                "url": "https://freelanceaiconsultant.com/kennisbank/claude-voor-bedrijven"
+                "url": "https://freelanceaiconsultant.com/nl/kennisbank/claude-voor-bedrijven"
               },
               {
                 "@type": "Article",
                 "headline": "Gemini voor bedrijven: toepassingen in Google Workspace",
-                "url": "https://freelanceaiconsultant.com/kennisbank/gemini-voor-bedrijven"
+                "url": "https://freelanceaiconsultant.com/nl/kennisbank/gemini-voor-bedrijven"
               },
               {
                 "@type": "Article",
                 "headline": "Microsoft Copilot voor bedrijven: wat kun je ermee?",
-                "url": "https://freelanceaiconsultant.com/kennisbank/microsoft-copilot-voor-bedrijven"
+                "url": "https://freelanceaiconsultant.com/nl/kennisbank/microsoft-copilot-voor-bedrijven"
               },
               {
                 "@type": "Article",
                 "headline": "Prompt engineering: betere resultaten uit AI",
-                "url": "https://freelanceaiconsultant.com/kennisbank/prompt-engineering"
+                "url": "https://freelanceaiconsultant.com/nl/kennisbank/prompt-engineering"
               },
               {
                 "@type": "Article",
                 "headline": "AI implementatie stappenplan in 7 stappen",
-                "url": "https://freelanceaiconsultant.com/ai-implementatie/stappenplan"
+                "url": "https://freelanceaiconsultant.com/nl/ai-implementatie/stappenplan"
               },
               {
                 "@type": "Article",
                 "headline": "Bedrijfsprocessen automatiseren met AI",
-                "url": "https://freelanceaiconsultant.com/ai-automatisering/bedrijfsprocessen-automatiseren-met-ai"
+                "url": "https://freelanceaiconsultant.com/nl/ai-automatisering/bedrijfsprocessen-automatiseren-met-ai"
               },
               {
                 "@type": "Article",
                 "headline": "AI workflows: zo automatiseer je werk van begin tot eind",
-                "url": "https://freelanceaiconsultant.com/ai-automatisering/ai-workflows"
+                "url": "https://freelanceaiconsultant.com/nl/ai-automatisering/ai-workflows"
               },
               {
                 "@type": "Article",
                 "headline": "Beste AI tools voor bedrijven",
-                "url": "https://freelanceaiconsultant.com/ai-automatisering/ai-tools"
+                "url": "https://freelanceaiconsultant.com/nl/ai-automatisering/ai-tools"
               },
               {
                 "@type": "Article",
                 "headline": "AI voorbeelden: 25 toepassingen uit de praktijk",
-                "url": "https://freelanceaiconsultant.com/kennisbank/ai-voorbeelden"
+                "url": "https://freelanceaiconsultant.com/nl/kennisbank/ai-voorbeelden"
               },
               {
                 "@type": "Article",
                 "headline": "Notuleren met AI: tools, werkwijze en privacy",
-                "url": "https://freelanceaiconsultant.com/kennisbank/notuleren-met-ai"
+                "url": "https://freelanceaiconsultant.com/nl/kennisbank/notuleren-met-ai"
               },
               {
                 "@type": "Article",
                 "headline": "RPA versus AI automatisering: wat past bij jou?",
-                "url": "https://freelanceaiconsultant.com/kennisbank/rpa-vs-ai-automatisering"
+                "url": "https://freelanceaiconsultant.com/nl/kennisbank/rpa-vs-ai-automatisering"
               },
               {
                 "@type": "Article",
                 "headline": "AI voor bedrijven: wat kan AI voor jouw organisatie betekenen?",
-                "url": "https://freelanceaiconsultant.com/ai-voor-bedrijven"
+                "url": "https://freelanceaiconsultant.com/nl/ai-voor-bedrijven"
               },
               {
                 "@type": "Article",
                 "headline": "AI voor het MKB: waar begin je en wat levert het op?",
-                "url": "https://freelanceaiconsultant.com/ai-voor-bedrijven/mkb"
+                "url": "https://freelanceaiconsultant.com/nl/ai-voor-bedrijven/mkb"
               },
               {
                 "@type": "Article",
                 "headline": "AI voor zakelijke dienstverleners",
-                "url": "https://freelanceaiconsultant.com/ai-voor-bedrijven/zakelijke-dienstverleners"
+                "url": "https://freelanceaiconsultant.com/nl/ai-voor-bedrijven/zakelijke-dienstverleners"
               },
               {
                 "@type": "Article",
                 "headline": "AI en BI: het verschil en hoe ze elkaar versterken",
-                "url": "https://freelanceaiconsultant.com/ai-voor-bedrijven/ai-en-bi"
+                "url": "https://freelanceaiconsultant.com/nl/ai-voor-bedrijven/ai-en-bi"
               },
               {
                 "@type": "Article",
                 "headline": "Wat doet een BI specialist?",
-                "url": "https://freelanceaiconsultant.com/kennisbank/wat-doet-een-bi-specialist"
+                "url": "https://freelanceaiconsultant.com/nl/kennisbank/wat-doet-een-bi-specialist"
               },
               {
                 "@type": "Article",
                 "headline": "AI software: kiezen, integreren of op maat laten bouwen",
-                "url": "https://freelanceaiconsultant.com/ai-development/ai-software"
+                "url": "https://freelanceaiconsultant.com/nl/ai-development/ai-software"
               },
               {
                 "@type": "Article",
                 "headline": "Wat doet een AI developer?",
-                "url": "https://freelanceaiconsultant.com/kennisbank/wat-doet-een-ai-developer"
+                "url": "https://freelanceaiconsultant.com/nl/kennisbank/wat-doet-een-ai-developer"
               },
               {
                 "@type": "Article",
                 "headline": "AI specialist salaris: wat verdient een AI specialist?",
-                "url": "https://freelanceaiconsultant.com/kennisbank/ai-specialist-salaris"
+                "url": "https://freelanceaiconsultant.com/nl/kennisbank/ai-specialist-salaris"
               },
               {
                 "@type": "Article",
                 "headline": "Wat is een AI agent? Uitleg, werking en voorbeelden",
-                "url": "https://freelanceaiconsultant.com/ai-agents/wat-is-een-ai-agent"
+                "url": "https://freelanceaiconsultant.com/nl/ai-agents/wat-is-een-ai-agent"
               },
               {
                 "@type": "Article",
                 "headline": "AI agents voorbeelden: 12 toepassingen voor bedrijven",
-                "url": "https://freelanceaiconsultant.com/ai-agents/voorbeelden"
+                "url": "https://freelanceaiconsultant.com/nl/ai-agents/voorbeelden"
               },
               {
                 "@type": "Article",
                 "headline": "AI agents en de AVG: waar moet je op letten?",
-                "url": "https://freelanceaiconsultant.com/kennisbank/ai-agents-en-avg"
+                "url": "https://freelanceaiconsultant.com/nl/kennisbank/ai-agents-en-avg"
               },
               {
                 "@type": "Article",
                 "headline": "De AI Act voor bedrijven: wat moet je doen?",
-                "url": "https://freelanceaiconsultant.com/ai-beleid/ai-act"
+                "url": "https://freelanceaiconsultant.com/nl/ai-beleid/ai-act"
               }
             ]
           }
@@ -988,12 +1008,12 @@
     ],
     "stylesheets": [
       "https://fonts.googleapis.com/css2?family=Caveat:wght@600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap",
-      "/_astro/_slug_.bq6BBoZ5.css",
-      "/_astro/_slug_.goiX3PVF.css",
+      "/_astro/_slug_.BzqUXH8l.css",
+      "/_astro/_slug_.Do5RJXa7.css",
       "/logo-carousel/logo-carousel.css?v=2"
     ],
     "aantal_details": 0,
     "aantal_tabellen": 0
   },
-  "gemeten_op": "2026-10-06"
+  "gemeten_op": "2026-10-29"
 }

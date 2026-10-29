@@ -2,7 +2,7 @@
   "url": "/ai-development/ai-oplossingen",
   "build_bestand": "dist/ai-development/ai-oplossingen/index.html",
   "html": {
-    "bytes": 38588,
+    "bytes": 38506,
     "lang": "nl"
   },
   "beschermd": {
@@ -117,8 +117,8 @@
   ],
   "bodytekst": {
     "regio": "main",
-    "woorden": 1822,
-    "sha256": "b507dfc64d209e9bf24b78eaa4f2750ede631eaeb689cce66b3a42df32ad6868",
+    "woorden": 1815,
+    "sha256": "0ebf4fd5522d1f8389e2de87abed584950628c967e787fac384c5443dc849f1f",
     "blokken": [
       "Home",
       "AI Development",
@@ -190,7 +190,7 @@
       "Zakelijke dienstverlener",
       "Interne AI-assistent voor kenniswerkers",
       "Wie bouwt AI oplossingen op maat en welke rol heeft de onafhankelijk adviseur?",
-      "Dave Willemstein bouwt of levert zelf geen AI oplossingen, maar helpt bepalen welke oplossing zinvol is, begeleidt de keuze van een oplossing of bouwpartij en toetst vanuit de kant van de opdrachtgever of het resultaat werkt. Wie eerst wil weten waar de organisatie staat, krijgt met het AI Readiness Assessment in 2-3 weken een onderbouwd beeld, voor een vaste prijs of vast maandbedrag, vastgelegd in het voorstel. De bouw ligt bij het eigen team of bij een partner met wie de opdrachtgever zelf een contract sluit.",
+      "Dave Willemstein bouwt of levert zelf geen AI oplossingen, maar helpt bepalen welke oplossing zinvol is, begeleidt de keuze van een oplossing of bouwpartij en toetst vanuit de kant van de opdrachtgever of het resultaat werkt. Wie eerst wil weten waar de organisatie staat, krijgt met het AI Readiness Assessment in 2-3 weken een onderbouwd beeld, voor een vaste projectprijs. De bouw ligt bij het eigen team of bij een partner met wie de opdrachtgever zelf een contract sluit.",
       "Is maatwerk altijd nodig voor AI oplossingen?",
       "Nee. Voor AI oplossingen is een goed ingerichte standaardoplossing vaak de snelste en goedkoopste route. Volgens de vuistregels past maatwerk als de oplossing raakt aan waarom klanten voor de organisatie kiezen, als data of werkwijze bijzonder is of als geen standaardpakket de benodigde controle geeft.",
       "Kan het AI Readiness Assessment ook voor één afdeling worden uitgevoerd?",
@@ -669,7 +669,7 @@
     }
   ],
   "structured_data": {
-    "sha256": "6b11d0dbead9bebcd1df0ac471c2f344318e5e8f14ab4d274087b61e32b77263",
+    "sha256": "c2ab32987af9f3588214fd544bf7a9a02292ac005cdcae4a81601ffda25b407b",
     "items": [
       {
         "@context": "https://schema.org",
@@ -762,7 +762,7 @@
                 "name": "Wie bouwt AI oplossingen op maat en welke rol heeft de onafhankelijk adviseur?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "Dave Willemstein bouwt of levert zelf geen AI oplossingen, maar helpt bepalen welke oplossing zinvol is, begeleidt de keuze van een oplossing of bouwpartij en toetst vanuit de kant van de opdrachtgever of het resultaat werkt. Wie eerst wil weten waar de organisatie staat, krijgt met het AI Readiness Assessment in 2-3 weken een onderbouwd beeld, voor een vaste prijs of vast maandbedrag, vastgelegd in het voorstel. De bouw ligt bij het eigen team of bij een partner met wie de opdrachtgever zelf een contract sluit."
+                  "text": "Dave Willemstein bouwt of levert zelf geen AI oplossingen, maar helpt bepalen welke oplossing zinvol is, begeleidt de keuze van een oplossing of bouwpartij en toetst vanuit de kant van de opdrachtgever of het resultaat werkt. Wie eerst wil weten waar de organisatie staat, krijgt met het AI Readiness Assessment in 2-3 weken een onderbouwd beeld, voor een vaste projectprijs. De bouw ligt bij het eigen team of bij een partner met wie de opdrachtgever zelf een contract sluit."
                 }
               },
               {
@@ -838,5 +838,5 @@
     "aantal_details": 5,
     "aantal_tabellen": 0
   },
-  "gemeten_op": "2026-10-28"
+  "gemeten_op": "2026-10-29"
 }

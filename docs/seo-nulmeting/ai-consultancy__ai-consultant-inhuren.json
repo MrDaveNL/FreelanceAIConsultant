@@ -2,7 +2,7 @@
   "url": "/ai-consultancy/ai-consultant-inhuren",
   "build_bestand": "dist/ai-consultancy/ai-consultant-inhuren/index.html",
   "html": {
-    "bytes": 36820,
+    "bytes": 36973,
     "lang": "nl"
   },
   "beschermd": {
@@ -115,8 +115,8 @@
   ],
   "bodytekst": {
     "regio": "main",
-    "woorden": 1706,
-    "sha256": "5b8f51ab1737c851b4d96158da0d6d94f0abe95b51616571e5f4e781359a56b7",
+    "woorden": 1714,
+    "sha256": "51de8d6a45e7e5858ce8f8e3b33557cedbd6ee11aaa3a5310a14139680cf05f0",
     "blokken": [
       "Home",
       "AI Consultancy",
@@ -218,8 +218,8 @@
       "Werkwijze en deliverables",
       "Vraag vooraf wat je aan het eind in handen hebt en wanneer de opdracht klaar is. “Dat hangt ervan af” is geen antwoord. Goede deliverables zijn gemaakt om mee te besluiten: een geprioriteerde lijst use cases met eigenaren, een AI strategie met expliciete keuzes, een AI roadmap met planning en budget, of een beslisdocument voor een leverancierskeuze. Vraag ook of je de kaders en scorecards daarna zelf mag hergebruiken.",
       "Wat kost een AI consultant inhuren?",
-      "Een AI consultant inhuren bij Dave Willemstein gaat via vaste pakketten, elk met vooraf een vaste prijs of vast maandbedrag. Het AI Readiness Assessment, de AI Strategy Sprint en de Fractional AI Lead zijn de hoofdpakketten. Het exacte bedrag staat voor de start op papier in het voorstel, exclusief btw en reiskosten.",
-      "Ik werk niet met een open uurtarief, maar met vaste pakketten, elk met vooraf een vaste prijs of vast maandbedrag. Er zijn drie inhuurvormen:",
+      "Een AI consultant inhuren bij Dave Willemstein gaat via vaste pakketten: een vaste projectprijs voor een afgebakend traject, of een vast maandbedrag bij doorlopende betrokkenheid. Het AI Readiness Assessment en de AI Strategy Sprint zijn vaste projectprijzen; de Fractional AI Lead is een vast maandbedrag. Het exacte bedrag staat voor de start op papier in het voorstel, exclusief btw en reiskosten.",
+      "Ik werk niet met een open uurtarief, maar met vaste pakketten: een vaste projectprijs voor een afgebakend traject, of een vast maandbedrag bij een doorlopende rol. Er zijn drie inhuurvormen:",
       "Inhuurvorm",
       "Voorbeeld",
       "Afgebakend advies",
@@ -233,9 +233,9 @@
       "Het kleinste pakket met een vaste prijs is de Executive Briefing. Een Fractional AI Lead is de vorm om een AI consultant voor langere tijd in te huren: 2, 4 of 8 dagen / maand, met een minimale looptijd van 3 maanden, daarna maandelijks opzegbaar, zonder dat je direct een fulltime Head of AI aanneemt.",
       "Alle voorstellen zijn exclusief btw. Een volledig overzicht staat op de pagina met tarieven en pakketten.",
       "Wat is het kleinste pakket met een vaste prijs om een AI consultant in te huren?",
-      "De Executive Briefing. Dat pakket kost een vaste prijs, vastgelegd in het voorstel.",
+      "De Executive Briefing. Dat pakket kost een vaste projectprijs.",
       "Kan een AI consultant inhuren ook voor afgebakend advies?",
-      "Ja. AI consultant inhuren kan ook voor afgebakend advies, zoals een second opinion, een workshop of een korte toets, tegen een vaste prijs in het voorstel.",
+      "Ja. AI consultant inhuren kan ook voor afgebakend advies, zoals een second opinion, een workshop of een korte toets, tegen een vaste projectprijs.",
       "Bron: tarieven en doorlooptijden van Dave Willemstein. Bijgewerkt: oktober 2026.",
       "Zo start je",
       "Een start is bewust eenvoudig en verplicht je tot niets.",
@@ -676,7 +676,7 @@
     }
   ],
   "structured_data": {
-    "sha256": "c13b684332860b3fc69e7f22d904c33302425c6bbf0f646898a7fd187ac2a22a",
+    "sha256": "a768ef265909a723f98c37ccf4742ddc6d2f9cd911e2842fa3ff69b5cea14291",
     "items": [
       {
         "@context": "https://schema.org",
@@ -769,7 +769,7 @@
                 "name": "Wat kost een AI consultant inhuren?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "Een AI consultant inhuren bij Dave Willemstein gaat via vaste pakketten, elk met vooraf een vaste prijs of vast maandbedrag. Het AI Readiness Assessment, de AI Strategy Sprint en de Fractional AI Lead zijn de hoofdpakketten. Het exacte bedrag staat voor de start op papier in het voorstel, exclusief btw en reiskosten."
+                  "text": "Een AI consultant inhuren bij Dave Willemstein gaat via vaste pakketten: een vaste projectprijs voor een afgebakend traject, of een vast maandbedrag bij doorlopende betrokkenheid. Het AI Readiness Assessment en de AI Strategy Sprint zijn vaste projectprijzen; de Fractional AI Lead is een vast maandbedrag. Het exacte bedrag staat voor de start op papier in het voorstel, exclusief btw en reiskosten."
                 }
               },
               {
@@ -777,7 +777,7 @@
                 "name": "Wat is het kleinste pakket met een vaste prijs om een AI consultant in te huren?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "De Executive Briefing. Dat pakket kost een vaste prijs, vastgelegd in het voorstel."
+                  "text": "De Executive Briefing. Dat pakket kost een vaste projectprijs."
                 }
               },
               {
@@ -785,7 +785,7 @@
                 "name": "Kan een AI consultant inhuren ook voor afgebakend advies?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "Ja. AI consultant inhuren kan ook voor afgebakend advies, zoals een second opinion, een workshop of een korte toets, tegen een vaste prijs in het voorstel."
+                  "text": "Ja. AI consultant inhuren kan ook voor afgebakend advies, zoals een second opinion, een workshop of een korte toets, tegen een vaste projectprijs."
                 }
               }
             ]
@@ -837,5 +837,5 @@
     "aantal_details": 5,
     "aantal_tabellen": 1
   },
-  "gemeten_op": "2026-10-28"
+  "gemeten_op": "2026-10-29"
 }

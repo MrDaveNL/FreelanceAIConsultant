@@ -2,7 +2,7 @@
   "url": "/veelgestelde-vragen",
   "build_bestand": "dist/veelgestelde-vragen/index.html",
   "html": {
-    "bytes": 42977,
+    "bytes": 42945,
     "lang": "nl"
   },
   "beschermd": {
@@ -93,8 +93,8 @@
   ],
   "bodytekst": {
     "regio": "main",
-    "woorden": 1095,
-    "sha256": "38c96c394ee221eb88514b5d97587f52dbb9199219b59c36351cb9590ceeb3f7",
+    "woorden": 1088,
+    "sha256": "952e12012e781718100461e7d9278df6738d9bdaa69c66a05b40bb27f6224175",
     "blokken": [
       "Alles wat je wilt weten",
       "Veelgestelde vragen.",
@@ -198,9 +198,9 @@
       "€",
       "Tarieven & voorwaarden",
       "Hoe zijn de tarieven opgebouwd?+",
-      "Vaste prijs per traject waar de scope helder is (assessment, briefing), een bandbreedte waar de omvang varieert (sprint, vendorselectie), en een maandbedrag bij een fractional rol. Alle bedragen zijn exclusief btw en reiskosten.",
+      "Vaste prijs per traject waar de scope helder is (assessment, briefing), een bandbreedte waar de omvang varieert (sprint, vendorselectie), en een maandbedrag bij een fractional rol. Alle voorstellen zijn exclusief btw en reiskosten.",
       "Hoe kom ik aan een prijsindicatie?+",
-      "Vooraf een vaste prijs of vast maandbedrag, vastgelegd in het voorstel na een kennismaking van dertig minuten. Vul het contactformulier in en geef daarbij aan om welke dienst het gaat, dan krijg je een voorstel op maat.",
+      "Via het contactformulier of een kennismakingsgesprek. Daarin bespreken we je vraag en situatie, en daarna ontvang je een voorstel met een vaste projectprijs of vast maandbedrag, voordat er iets start.",
       "Kan ik ook een losse vraag of workshop afnemen?+",
       "Ja, voor afgebakend advieswerk, workshops en second opinions. Ook dan krijg je vooraf een vaste prijs in het voorstel, omdat dat het gesprek over de uitkomst laat gaan in plaats van over de urenstaat.",
       "Wat zijn de betalingsvoorwaarden?+",
@@ -539,7 +539,7 @@
     }
   ],
   "structured_data": {
-    "sha256": "8b518aacb38d7e8cdb91e0d545be6ddfad8fb9d81e2f552cabf884cc7b7cb3cf",
+    "sha256": "a646b251e8c6a83a375960b9de69566811299bdec42019fafeea78a43effe98a",
     "items": [
       {
         "@context": "https://schema.org",
@@ -662,7 +662,7 @@
             "name": "Hoe zijn de tarieven opgebouwd?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "Vaste prijs per traject waar de scope helder is (assessment, briefing), een bandbreedte waar de omvang varieert (sprint, vendorselectie), en een maandbedrag bij een fractional rol. Alle bedragen zijn exclusief btw en reiskosten."
+              "text": "Vaste prijs per traject waar de scope helder is (assessment, briefing), een bandbreedte waar de omvang varieert (sprint, vendorselectie), en een maandbedrag bij een fractional rol. Alle voorstellen zijn exclusief btw en reiskosten."
             }
           },
           {
@@ -670,7 +670,7 @@
             "name": "Hoe kom ik aan een prijsindicatie?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "Vooraf een vaste prijs of vast maandbedrag, vastgelegd in het voorstel na een kennismaking van dertig minuten. Vul het contactformulier in en geef daarbij aan om welke dienst het gaat, dan krijg je een voorstel op maat."
+              "text": "Via het contactformulier of een kennismakingsgesprek. Daarin bespreken we je vraag en situatie, en daarna ontvang je een voorstel met een vaste projectprijs of vast maandbedrag, voordat er iets start."
             }
           },
           {
@@ -783,5 +783,5 @@
     "aantal_details": 24,
     "aantal_tabellen": 0
   },
-  "gemeten_op": "2026-10-28"
+  "gemeten_op": "2026-10-29"
 }

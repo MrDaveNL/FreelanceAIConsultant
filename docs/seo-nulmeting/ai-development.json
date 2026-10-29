@@ -2,7 +2,7 @@
   "url": "/ai-development",
   "build_bestand": "dist/ai-development/index.html",
   "html": {
-    "bytes": 40877,
+    "bytes": 40809,
     "lang": "nl"
   },
   "beschermd": {
@@ -135,8 +135,8 @@
   ],
   "bodytekst": {
     "regio": "main",
-    "woorden": 2155,
-    "sha256": "829527fe9653e9675f4415a2e860e055ecd6de0329ba37f55e298a5eb58f2055",
+    "woorden": 2148,
+    "sha256": "30cf68316f2a5f45f1fd1f291acd16012310a9d4a4207feedd80fe387f19684a",
     "blokken": [
       "Home",
       "AI Development",
@@ -207,7 +207,7 @@
       "Zakelijke dienstverlener",
       "Interne AI-assistent voor kenniswerkers",
       "Wat kost onafhankelijke begeleiding bij AI development en wie bouwt er?",
-      "Dave Willemstein bouwt zelf geen software, maar begeleidt AI development vanuit de kant van de opdrachtgever: specificatie, selectie van de bouwpartij, toetsing van opleveringen en governance. Voor de keuze van de bouwpartij is er de Vendor Review van 3-6 weken, tegen een vaste prijs, en tijdens de bouw is er begeleiding vanuit klantzijde, bijvoorbeeld als Fractional AI Lead tegen een vast maandbedrag. De bouw zelf ligt bij het eigen team of bij een ontwikkelpartij met wie de opdrachtgever rechtstreeks een contract sluit.",
+      "Dave Willemstein bouwt zelf geen software, maar begeleidt AI development vanuit de kant van de opdrachtgever: specificatie, selectie van de bouwpartij, toetsing van opleveringen en governance. Voor de keuze van de bouwpartij is er de Vendor Review van 3-6 weken, tegen een vaste projectprijs, en tijdens de bouw is er begeleiding vanuit klantzijde, bijvoorbeeld als Fractional AI Lead tegen een vast maandbedrag. De bouw zelf ligt bij het eigen team of bij een ontwikkelpartij met wie de opdrachtgever rechtstreeks een contract sluit.",
       "AI development: passende dienst per fase van het traject",
       "Fase in het traject",
       "Wat de opdrachtgever krijgt",
@@ -228,7 +228,7 @@
       "Zit er een marge op ontwikkelaars uit het netwerk bij AI development?",
       "Nee. Bij AI development contracteert de opdrachtgever de bouwpartij rechtstreeks, zonder tussenlaag, marge of commissie. Een partij uit het netwerk doorloopt dezelfde selectie als iedere andere partij.",
       "Waar hangt de prijs van de Vendor Review bij AI development van af?",
-      "De Vendor Review kost een vaste prijs of vast maandbedrag, vastgelegd in het voorstel, afhankelijk van het aantal leveranciers (2 tot 4).",
+      "De Vendor Review kost een vaste projectprijs, afhankelijk van het aantal leveranciers (2 tot 4).",
       "Wat werkt bij AI development het best: bouwen, kopen of partneren?",
       "De hybride vorm werkt bij AI development vaak het best: bouwstenen inkopen, de laag met de eigen kennis laten bouwen en de implementatie bij een partner beleggen. Daaraan vooraf gaat de vraag of bouwen überhaupt nodig is: bouwen alleen voor wat de organisatie onderscheidt in de markt en kopen wat een commodity is.",
       "Bron: tarieven en doorlooptijden van Dave Willemstein. Bijgewerkt: oktober 2026.",
@@ -733,7 +733,7 @@
     }
   ],
   "structured_data": {
-    "sha256": "f36234a69be361521514297ce297973f61a59083cca7f0d6e142ff11d4930dfb",
+    "sha256": "41feb32f663b59498abf0125a5f884f75be5e72ae27a4ec5454ffbba3aa61dd0",
     "items": [
       {
         "@context": "https://schema.org",
@@ -820,7 +820,7 @@
                 "name": "Wat kost onafhankelijke begeleiding bij AI development en wie bouwt er?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "Dave Willemstein bouwt zelf geen software, maar begeleidt AI development vanuit de kant van de opdrachtgever: specificatie, selectie van de bouwpartij, toetsing van opleveringen en governance. Voor de keuze van de bouwpartij is er de Vendor Review van 3-6 weken, tegen een vaste prijs, en tijdens de bouw is er begeleiding vanuit klantzijde, bijvoorbeeld als Fractional AI Lead tegen een vast maandbedrag. De bouw zelf ligt bij het eigen team of bij een ontwikkelpartij met wie de opdrachtgever rechtstreeks een contract sluit."
+                  "text": "Dave Willemstein bouwt zelf geen software, maar begeleidt AI development vanuit de kant van de opdrachtgever: specificatie, selectie van de bouwpartij, toetsing van opleveringen en governance. Voor de keuze van de bouwpartij is er de Vendor Review van 3-6 weken, tegen een vaste projectprijs, en tijdens de bouw is er begeleiding vanuit klantzijde, bijvoorbeeld als Fractional AI Lead tegen een vast maandbedrag. De bouw zelf ligt bij het eigen team of bij een ontwikkelpartij met wie de opdrachtgever rechtstreeks een contract sluit."
                 }
               },
               {
@@ -836,7 +836,7 @@
                 "name": "Waar hangt de prijs van de Vendor Review bij AI development van af?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "De Vendor Review kost een vaste prijs of vast maandbedrag, vastgelegd in het voorstel, afhankelijk van het aantal leveranciers (2 tot 4)."
+                  "text": "De Vendor Review kost een vaste projectprijs, afhankelijk van het aantal leveranciers (2 tot 4)."
                 }
               },
               {
@@ -896,5 +896,5 @@
     "aantal_details": 5,
     "aantal_tabellen": 1
   },
-  "gemeten_op": "2026-10-28"
+  "gemeten_op": "2026-10-29"
 }

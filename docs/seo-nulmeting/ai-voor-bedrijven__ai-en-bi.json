@@ -2,15 +2,28 @@
   "url": "/ai-voor-bedrijven/ai-en-bi",
   "build_bestand": "dist/ai-voor-bedrijven/ai-en-bi/index.html",
   "html": {
-    "bytes": 35058,
+    "bytes": 38455,
     "lang": "nl"
   },
   "beschermd": {
     "title": "AI en BI | Het verschil en hoe je ze slim combineert",
     "meta_description": "Wat is het verschil tussen AI en BI, en hoe versterken ze elkaar? Lees hoe AI business intelligence slimmer maakt, met voorbeelden en een praktische aanpak.",
-    "canonical": "https://freelanceaiconsultant.com/ai-voor-bedrijven/ai-en-bi",
+    "canonical": "https://freelanceaiconsultant.com/nl/ai-voor-bedrijven/ai-en-bi",
     "robots_meta": null,
-    "hreflang": [],
+    "hreflang": [
+      {
+        "hreflang": "en",
+        "href": "https://freelanceaiconsultant.com/ai-for-business/ai-and-bi"
+      },
+      {
+        "hreflang": "nl",
+        "href": "https://freelanceaiconsultant.com/nl/ai-voor-bedrijven/ai-en-bi"
+      },
+      {
+        "hreflang": "x-default",
+        "href": "https://freelanceaiconsultant.com/ai-for-business/ai-and-bi"
+      }
+    ],
     "h1": [
       "AI en BI: het verschil en hoe ze elkaar versterken"
     ]
@@ -21,7 +34,7 @@
     "og:site_name": "freelanceaiconsultant.com",
     "og:title": "AI en BI | Het verschil en hoe je ze slim combineert",
     "og:description": "Wat is het verschil tussen AI en BI, en hoe versterken ze elkaar? Lees hoe AI business intelligence slimmer maakt, met voorbeelden en een praktische aanpak.",
-    "og:url": "https://freelanceaiconsultant.com/ai-voor-bedrijven/ai-en-bi",
+    "og:url": "https://freelanceaiconsultant.com/nl/ai-voor-bedrijven/ai-en-bi",
     "og:image": "https://freelanceaiconsultant.com/images/dave-portrait.jpg",
     "twitter:card": "summary_large_image",
     "twitter:title": "AI en BI | Het verschil en hoe je ze slim combineert",
@@ -32,6 +45,24 @@
     {
       "niveau": 1,
       "tekst": "AI en BI: het verschil en hoe ze elkaar versterken",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "Wat is het verschil tussen AI en BI en hoe vullen ze elkaar aan?",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 3,
+      "tekst": "Op hoeveel manieren is AI te gebruiken voor business intelligence?",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 3,
+      "tekst": "Is de uitkomst van AI even exact als die van BI?",
       "regio": "main",
       "id": null
     },
@@ -86,8 +117,8 @@
   ],
   "bodytekst": {
     "regio": "main",
-    "woorden": 1611,
-    "sha256": "cd6d0b7cfdd5f83816f633b405c3acc142e439630774c6e62b4eed76439b0360",
+    "woorden": 1797,
+    "sha256": "fa52e8598946a9d09758feb11ff1721812961aaf4346b1cf6d1c9b28f0f7c2fc",
     "blokken": [
       "Home",
       "AI voor bedrijven",
@@ -159,6 +190,13 @@
       "Proces & productivity",
       "Zakelijke dienstverlener",
       "Interne AI-assistent voor kenniswerkers",
+      "Wat is het verschil tussen AI en BI en hoe vullen ze elkaar aan?",
+      "BI werkt vooral met gestructureerde data en laat zien wat er is gebeurd en waarom; AI voorspelt, classificeert en verwerkt ook tekst en documenten, met een foutmarge die bekend moet zijn. AI en BI zijn geen concurrenten: AI bouwt voort op de betrouwbare cijfers en definities die BI levert. Vaak is een werkende BI-omgeving met vertrouwde cijfers daarom het beste startpunt voor AI.",
+      "Op hoeveel manieren is AI te gebruiken voor business intelligence?",
+      "Vier manieren, van eenvoudig naar ingrijpend: vragen stellen in gewone taal, automatische toelichting bij cijfers en afwijkingen, voorspellingen naast de terugblik, en tekst uit e-mails, klantreacties en documenten omzetten in analyseerbare gegevens. Bij AI en BI rusten alle vier op een betrouwbaar datamodel.",
+      "Is de uitkomst van AI even exact als die van BI?",
+      "Nee, de uitkomst van BI is exact, mits de data klopt, terwijl een AI-model inschat en daarbij fouten maakt. Bij AI en BI vraagt dat om een andere manier van controleren en een ander gesprek over verantwoordelijkheid.",
+      "Bron: artikel van Dave Willemstein. Bijgewerkt: oktober 2026.",
       "Wat is business intelligence?",
       "Business intelligence, kortweg BI, is het verzamelen, ordenen en zichtbaar maken van bedrijfsgegevens zodat je er beslissingen op kunt nemen. Denk aan dashboards met omzet per regio, rapportages over voorraad en marge, of een maandoverzicht voor het managementteam.",
       "Onder de dashboards zit het echte werk: gegevens uit verschillende systemen samenbrengen, opschonen en vastleggen wat een begrip betekent. Wat is een klant, wanneer telt een order als omzet, hoe bereken je marge? BI draait om gestructureerde data in tabellen, en om vaste, herhaalbare vragen: wat is er gebeurd, en waarom?",
@@ -245,91 +283,98 @@
     {
       "regio": "header",
       "soort": "intern",
-      "href": "/",
+      "href": "/nl",
       "anker": "",
       "rel": null
     },
     {
       "regio": "header",
       "soort": "intern",
-      "href": "/diensten",
+      "href": "/nl/diensten",
       "anker": "Diensten",
       "rel": null
     },
     {
       "regio": "header",
       "soort": "intern",
-      "href": "/cases",
+      "href": "/nl/cases",
       "anker": "Cases",
       "rel": null
     },
     {
       "regio": "header",
       "soort": "intern",
-      "href": "/werkwijze",
+      "href": "/nl/werkwijze",
       "anker": "Werkwijze",
       "rel": null
     },
     {
       "regio": "header",
       "soort": "intern",
-      "href": "/inzichten",
+      "href": "/nl/inzichten",
       "anker": "Inzichten",
       "rel": null
     },
     {
       "regio": "header",
       "soort": "intern",
-      "href": "/over",
+      "href": "/nl/over",
       "anker": "Over mij",
       "rel": null
     },
     {
       "regio": "header",
       "soort": "intern",
-      "href": "/contact",
+      "href": "/ai-for-business/ai-and-bi",
+      "anker": "EN",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/nl/contact",
       "anker": "Plan een gesprek →",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/",
+      "href": "/nl",
       "anker": "Home",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/ai-voor-bedrijven",
+      "href": "/nl/ai-voor-bedrijven",
       "anker": "AI voor bedrijven",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/ai-voor-bedrijven",
+      "href": "/nl/ai-voor-bedrijven",
       "anker": "Lees meer over AI voor bedrijven →",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/diensten/ai-readiness-assessment",
+      "href": "/nl/diensten/ai-readiness-assessment",
       "anker": "Bekijk het AI Readiness Assessment →",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/over",
+      "href": "/nl/over",
       "anker": "Dave Willemstein",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/ai-voor-bedrijven",
+      "href": "/nl/ai-voor-bedrijven",
       "anker": "AI voor bedrijven",
       "rel": null
     },
@@ -343,70 +388,70 @@
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/inzichten/het-datafundament-onder-ai",
+      "href": "/nl/inzichten/het-datafundament-onder-ai",
       "anker": "het datafundament onder AI",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/ai-voor-bedrijven/mkb",
+      "href": "/nl/ai-voor-bedrijven/mkb",
       "anker": "AI voor het mkb",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/ai-voor-bedrijven/zakelijke-dienstverleners",
+      "href": "/nl/ai-voor-bedrijven/zakelijke-dienstverleners",
       "anker": "zakelijke dienstverleners",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/ai-consultancy",
+      "href": "/nl/ai-consultancy",
       "anker": "AI consultancy",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/partnernetwerk",
+      "href": "/nl/partnernetwerk",
       "anker": "partnernetwerk",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/kennisbank/wat-doet-een-bi-specialist",
+      "href": "/nl/kennisbank/wat-doet-een-bi-specialist",
       "anker": "wat een BI-specialist doet",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/contact",
+      "href": "/nl/contact",
       "anker": "neem dan contact op",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/over",
+      "href": "/nl/over",
       "anker": "Over mij",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/partnernetwerk",
+      "href": "/nl/partnernetwerk",
       "anker": "Mijn partnernetwerk",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/diensten/ai-readiness-assessment",
+      "href": "/nl/diensten/ai-readiness-assessment",
       "anker": "Weten waar je staat met AI? Bekijk het AI Readiness Assessment →",
       "rel": null
     },
@@ -420,154 +465,154 @@
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/contact",
+      "href": "/nl/contact",
       "anker": "Plan een gesprek →",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/diensten/ai-readiness-assessment",
+      "href": "/nl/diensten/ai-readiness-assessment",
       "anker": "AI Readiness Assessment",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/diensten/ai-strategy-sprint",
+      "href": "/nl/diensten/ai-strategy-sprint",
       "anker": "AI Strategy Sprint",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/diensten/fractional-ai-lead",
+      "href": "/nl/diensten/fractional-ai-lead",
       "anker": "Fractional AI Lead",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/diensten",
+      "href": "/nl/diensten",
       "anker": "Alle diensten",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/cases",
+      "href": "/nl/cases",
       "anker": "Cases",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/werkwijze",
+      "href": "/nl/werkwijze",
       "anker": "Werkwijze",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/inzichten",
+      "href": "/nl/inzichten",
       "anker": "Inzichten",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/veelgestelde-vragen",
+      "href": "/nl/veelgestelde-vragen",
       "anker": "Veelgestelde vragen",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/over",
+      "href": "/nl/over",
       "anker": "Over mij",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-consultancy",
+      "href": "/nl/ai-consultancy",
       "anker": "AI consultancy",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-implementatie",
+      "href": "/nl/ai-implementatie",
       "anker": "AI implementatie",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-automatisering",
+      "href": "/nl/ai-automatisering",
       "anker": "AI automatisering",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-voor-bedrijven",
+      "href": "/nl/ai-voor-bedrijven",
       "anker": "AI voor bedrijven",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-development",
+      "href": "/nl/ai-development",
       "anker": "AI development",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-agents",
+      "href": "/nl/ai-agents",
       "anker": "AI agents",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-beleid",
+      "href": "/nl/ai-beleid",
       "anker": "AI beleid",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-workshop",
+      "href": "/nl/ai-workshop",
       "anker": "AI workshop",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/markten",
+      "href": "/nl/markten",
       "anker": "AI per branche",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/kennisbank",
+      "href": "/nl/kennisbank",
       "anker": "Kennisbank",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/tarieven",
+      "href": "/nl/tarieven",
       "anker": "Tarieven",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/partnernetwerk",
+      "href": "/nl/partnernetwerk",
       "anker": "Partnernetwerk",
       "rel": null
     },
@@ -588,27 +633,27 @@
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/contact",
+      "href": "/nl/contact",
       "anker": "Plan een gesprek",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/privacy",
+      "href": "/nl/privacy",
       "anker": "Privacyverklaring",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/algemene-voorwaarden",
+      "href": "/nl/algemene-voorwaarden",
       "anker": "Algemene voorwaarden",
       "rel": null
     }
   ],
   "structured_data": {
-    "sha256": "400a9723740905e9871da2752215fdbe035140547b8d504b6f7126f4a23c85a6",
+    "sha256": "579e959d64b3ab84ca3d360185a359ea1fea2337e2ec7999ecce96219bcc6930",
     "items": [
       {
         "@context": "https://schema.org",
@@ -620,19 +665,19 @@
                 "@type": "ListItem",
                 "position": 1,
                 "name": "Home",
-                "item": "https://freelanceaiconsultant.com/"
+                "item": "https://freelanceaiconsultant.com/nl"
               },
               {
                 "@type": "ListItem",
                 "position": 2,
                 "name": "AI voor bedrijven",
-                "item": "https://freelanceaiconsultant.com/ai-voor-bedrijven"
+                "item": "https://freelanceaiconsultant.com/nl/ai-voor-bedrijven"
               },
               {
                 "@type": "ListItem",
                 "position": 3,
                 "name": "AI en BI",
-                "item": "https://freelanceaiconsultant.com/ai-voor-bedrijven/ai-en-bi"
+                "item": "https://freelanceaiconsultant.com/nl/ai-voor-bedrijven/ai-en-bi"
               }
             ]
           },
@@ -656,7 +701,7 @@
               "@type": "Person",
               "name": "Dave Willemstein"
             },
-            "mainEntityOfPage": "https://freelanceaiconsultant.com/ai-voor-bedrijven/ai-en-bi"
+            "mainEntityOfPage": "https://freelanceaiconsultant.com/nl/ai-voor-bedrijven/ai-en-bi"
           },
           {
             "@type": "FAQPage",
@@ -691,6 +736,30 @@
                 "acceptedAnswer": {
                   "@type": "Answer",
                   "text": "Dat hangt af van de vraag. Een BI-specialist bouwt en beheert rapportages en datamodellen. Een data scientist ontwikkelt voorspellende modellen. Een AI-adviseur helpt bepalen welke toepassingen waarde opleveren, welke rol en partij daarbij past en hoe je het borgt. In kleinere organisaties combineer je vaak een interne BI-kracht met externe ondersteuning."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Wat is het verschil tussen AI en BI en hoe vullen ze elkaar aan?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "BI werkt vooral met gestructureerde data en laat zien wat er is gebeurd en waarom; AI voorspelt, classificeert en verwerkt ook tekst en documenten, met een foutmarge die bekend moet zijn. AI en BI zijn geen concurrenten: AI bouwt voort op de betrouwbare cijfers en definities die BI levert. Vaak is een werkende BI-omgeving met vertrouwde cijfers daarom het beste startpunt voor AI."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Op hoeveel manieren is AI te gebruiken voor business intelligence?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Vier manieren, van eenvoudig naar ingrijpend: vragen stellen in gewone taal, automatische toelichting bij cijfers en afwijkingen, voorspellingen naast de terugblik, en tekst uit e-mails, klantreacties en documenten omzetten in analyseerbare gegevens. Bij AI en BI rusten alle vier op een betrouwbaar datamodel."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Is de uitkomst van AI even exact als die van BI?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Nee, de uitkomst van BI is exact, mits de data klopt, terwijl een AI-model inschat en daarbij fouten maakt. Bij AI en BI vraagt dat om een andere manier van controleren en een ander gesprek over verantwoordelijkheid."
                 }
               }
             ]
@@ -735,12 +804,12 @@
     ],
     "stylesheets": [
       "https://fonts.googleapis.com/css2?family=Caveat:wght@600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap",
-      "/_astro/_slug_.bq6BBoZ5.css",
-      "/_astro/_slug_.goiX3PVF.css",
+      "/_astro/_slug_.BzqUXH8l.css",
+      "/_astro/_slug_.Do5RJXa7.css",
       "/logo-carousel/logo-carousel.css?v=2"
     ],
     "aantal_details": 4,
     "aantal_tabellen": 1
   },
-  "gemeten_op": "2026-10-06"
+  "gemeten_op": "2026-10-29"
 }

@@ -2,7 +2,7 @@
   "url": "/ai-beleid",
   "build_bestand": "dist/ai-beleid/index.html",
   "html": {
-    "bytes": 49945,
+    "bytes": 49863,
     "lang": "nl"
   },
   "beschermd": {
@@ -165,8 +165,8 @@
   ],
   "bodytekst": {
     "regio": "main",
-    "woorden": 3052,
-    "sha256": "d6cd324dc53c7047f4eab21f245266bce7c128327203bd9731b787ddcf9d2f2f",
+    "woorden": 3045,
+    "sha256": "2f41c54b147f2a4455d67379c1e57f574b72f5fd03ff920577117eb8241e5135",
     "blokken": [
       "Home",
       "AI beleid",
@@ -237,7 +237,7 @@
       "Zakelijke dienstverlener",
       "Interne AI-assistent voor kenniswerkers",
       "Wat hoort er in een AI beleid en welke dienst past erbij?",
-      "Een AI beleid legt vast welke tools zijn toegestaan, welke gegevens erin mogen, wie beslist en hoe risico's worden beheerst; voor de meeste organisaties volstaat een eerste versie van één tot drie pagina's. Dave Willemstein begeleidt het opstellen en toetst het beleid tegen de praktijk; wie wil weten waar de organisatie staat voordat het beleid wordt geschreven, kan het AI Readiness Assessment inzetten, dat in 2-3 weken de uitgangspositie in kaart brengt voor een vaste prijs of vast maandbedrag, vastgelegd in het voorstel. Ontbreekt de capaciteit om de governance zelf te trekken, dan kan de Fractional AI Lead de governance en cadans opzetten en bewaken; de investering is een vast maandbedrag, vooraf afgesproken.",
+      "Een AI beleid legt vast welke tools zijn toegestaan, welke gegevens erin mogen, wie beslist en hoe risico's worden beheerst; voor de meeste organisaties volstaat een eerste versie van één tot drie pagina's. Dave Willemstein begeleidt het opstellen en toetst het beleid tegen de praktijk; wie wil weten waar de organisatie staat voordat het beleid wordt geschreven, kan het AI Readiness Assessment inzetten, dat in 2-3 weken de uitgangspositie in kaart brengt voor een vaste projectprijs. Ontbreekt de capaciteit om de governance zelf te trekken, dan kan de Fractional AI Lead de governance en cadans opzetten en bewaken; de investering is een vast maandbedrag, vooraf afgesproken.",
       "AI beleid opstellen en borgen: passende dienst per situatie",
       "Situatie",
       "Resultaat",
@@ -840,7 +840,7 @@
     }
   ],
   "structured_data": {
-    "sha256": "d01060c731d305a7b9943f57088e34ceb89c2facb8e1ec9b677000918f5f9478",
+    "sha256": "a81e7446cb41cc2935cf3d488f13c6ba8ebc5b4fb7b4d248c633c18034950a58",
     "items": [
       {
         "@context": "https://schema.org",
@@ -927,7 +927,7 @@
                 "name": "Wat hoort er in een AI beleid en welke dienst past erbij?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "Een AI beleid legt vast welke tools zijn toegestaan, welke gegevens erin mogen, wie beslist en hoe risico's worden beheerst; voor de meeste organisaties volstaat een eerste versie van één tot drie pagina's. Dave Willemstein begeleidt het opstellen en toetst het beleid tegen de praktijk; wie wil weten waar de organisatie staat voordat het beleid wordt geschreven, kan het AI Readiness Assessment inzetten, dat in 2-3 weken de uitgangspositie in kaart brengt voor een vaste prijs of vast maandbedrag, vastgelegd in het voorstel. Ontbreekt de capaciteit om de governance zelf te trekken, dan kan de Fractional AI Lead de governance en cadans opzetten en bewaken; de investering is een vast maandbedrag, vooraf afgesproken."
+                  "text": "Een AI beleid legt vast welke tools zijn toegestaan, welke gegevens erin mogen, wie beslist en hoe risico's worden beheerst; voor de meeste organisaties volstaat een eerste versie van één tot drie pagina's. Dave Willemstein begeleidt het opstellen en toetst het beleid tegen de praktijk; wie wil weten waar de organisatie staat voordat het beleid wordt geschreven, kan het AI Readiness Assessment inzetten, dat in 2-3 weken de uitgangspositie in kaart brengt voor een vaste projectprijs. Ontbreekt de capaciteit om de governance zelf te trekken, dan kan de Fractional AI Lead de governance en cadans opzetten en bewaken; de investering is een vast maandbedrag, vooraf afgesproken."
                 }
               },
               {
@@ -1003,5 +1003,5 @@
     "aantal_details": 5,
     "aantal_tabellen": 1
   },
-  "gemeten_op": "2026-10-28"
+  "gemeten_op": "2026-10-29"
 }

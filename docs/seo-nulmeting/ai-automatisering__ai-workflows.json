@@ -2,15 +2,28 @@
   "url": "/ai-automatisering/ai-workflows",
   "build_bestand": "dist/ai-automatisering/ai-workflows/index.html",
   "html": {
-    "bytes": 37227,
+    "bytes": 41628,
     "lang": "nl"
   },
   "beschermd": {
     "title": "AI workflows | Voorbeelden en aanpak voor bedrijven",
     "meta_description": "Wat is een AI workflow en hoe zet je er een op? Bekijk voorbeelden van AI workflows voor bedrijven, de benodigde tools en een veilige aanpak voor je team.",
-    "canonical": "https://freelanceaiconsultant.com/ai-automatisering/ai-workflows",
+    "canonical": "https://freelanceaiconsultant.com/nl/ai-automatisering/ai-workflows",
     "robots_meta": null,
-    "hreflang": [],
+    "hreflang": [
+      {
+        "hreflang": "en",
+        "href": "https://freelanceaiconsultant.com/ai-automation/ai-workflows"
+      },
+      {
+        "hreflang": "nl",
+        "href": "https://freelanceaiconsultant.com/nl/ai-automatisering/ai-workflows"
+      },
+      {
+        "hreflang": "x-default",
+        "href": "https://freelanceaiconsultant.com/ai-automation/ai-workflows"
+      }
+    ],
     "h1": [
       "AI workflows: zo automatiseer je werk van begin tot eind"
     ]
@@ -21,7 +34,7 @@
     "og:site_name": "freelanceaiconsultant.com",
     "og:title": "AI workflows | Voorbeelden en aanpak voor bedrijven",
     "og:description": "Wat is een AI workflow en hoe zet je er een op? Bekijk voorbeelden van AI workflows voor bedrijven, de benodigde tools en een veilige aanpak voor je team.",
-    "og:url": "https://freelanceaiconsultant.com/ai-automatisering/ai-workflows",
+    "og:url": "https://freelanceaiconsultant.com/nl/ai-automatisering/ai-workflows",
     "og:image": "https://freelanceaiconsultant.com/images/dave-portrait.jpg",
     "twitter:card": "summary_large_image",
     "twitter:title": "AI workflows | Voorbeelden en aanpak voor bedrijven",
@@ -40,6 +53,24 @@
       "tekst": "Wat is een AI workflow?",
       "regio": "main",
       "id": "wat-is-een-ai-workflow"
+    },
+    {
+      "niveau": 3,
+      "tekst": "Bepaalt het AI-model in een AI workflow zelf welke stappen het zet?",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 3,
+      "tekst": "Wie bouwt een AI workflow?",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 3,
+      "tekst": "Hoeveel stappen telt het implementeren van een AI workflow?",
+      "regio": "main",
+      "id": null
     },
     {
       "niveau": 2,
@@ -104,8 +135,8 @@
   ],
   "bodytekst": {
     "regio": "main",
-    "woorden": 1860,
-    "sha256": "d23adeb671d3fc4978bf24a2068a6d72ea7b4b8fd4744b4f4fe0a57049f1a0de",
+    "woorden": 2116,
+    "sha256": "79413306e488e914316f551799ab68338587f8312bbddcc1bef256d2c23da956",
     "blokken": [
       "Home",
       "AI Automatisering",
@@ -178,6 +209,7 @@
       "Zakelijke dienstverlener",
       "Interne AI-assistent voor kenniswerkers",
       "Wat is een AI workflow?",
+      "Een AI workflow is een geautomatiseerde keten met een vooraf vastgelegde route, waarin een AI-model alleen de stappen doet die gewone regels niet aankunnen, zoals vrije tekst in een e-mail begrijpen of gegevens uit een pdf halen. De keten bestaat bijna altijd uit dezelfde bouwstenen: trigger, ophalen, AI-stap, controle, actie en logging. Een AI workflow past bij een proces dat steeds dezelfde stappen kent en waarvan elke uitkomst te verklaren moet zijn; pas als de stappen per geval echt verschillen en een fout omkeerbaar is, komt een AI agent in beeld.",
       "Een AI workflow is een geautomatiseerde reeks stappen waarin minstens één stap door een AI-model wordt gedaan. De route ligt vast: eerst dit, dan dat, bij uitkomst A naar links, bij uitkomst B naar rechts. De AI doet alleen het deel waar gewone regels tekortschieten, zoals een e-mail in vrije tekst begrijpen of gegevens uit een pdf halen.",
       "Een AI workflow bestaat bijna altijd uit dezelfde bouwstenen:",
       "Trigger: iets start de workflow, zoals een nieuwe e-mail, een formulier of een tijdstip.",
@@ -194,6 +226,13 @@
       "LoggingElke stap vastgelegd voor controle en verbetering",
       "De bouwstenen van een AI workflow. De AI-stap is één schakel; de rest is gewone automatisering en menselijke controle.",
       "Het verschil met een losse AI-assistent: een assistent wacht op een vraag van een gebruiker, een AI workflow draait mee in je proces en doet telkens dezelfde stap. AI workflow automatisering is daarmee een onderdeel van AI automatisering in bredere zin.",
+      "Bepaalt het AI-model in een AI workflow zelf welke stappen het zet?",
+      "Nee. In een AI workflow ligt de route vooraf vast en vult het AI-model alleen een stap in. Een AI agent krijgt daarentegen een doel en kiest zelf welke stappen en tools hij gebruikt.",
+      "Wie bouwt een AI workflow?",
+      "Een eenvoudige stroom van een AI workflow kan een handige collega in een no-code-platform bouwen. Zodra er koppelingen met kernsystemen of gevoelige gegevens bij komen, is een IT-team of partner nodig, en die partner contracteert de opdrachtgever rechtstreeks.",
+      "Hoeveel stappen telt het implementeren van een AI workflow?",
+      "In de praktijk gaat het implementeren van een AI workflow in vijf stappen: één proces kiezen en vooraf meten, de route uittekenen met de mensen die het werk nu doen, bepalen wie bouwt, testen met echte voorbeelden en het beheer regelen vóór livegang. Bij het testen hoort dat de AI workflow een paar weken naast het huidige proces loopt.",
+      "Bron: artikel van Dave Willemstein. Bijgewerkt: oktober 2026.",
       "AI workflow voorbeelden",
       "Drie voorbeelden van AI workflows voor bedrijven, generiek beschreven. Ze zijn bewust klein: één proces, een duidelijke controlestap, een meetbaar resultaat.",
       "Inbox en klantvragen",
@@ -275,105 +314,112 @@
     {
       "regio": "header",
       "soort": "intern",
-      "href": "/",
+      "href": "/nl",
       "anker": "",
       "rel": null
     },
     {
       "regio": "header",
       "soort": "intern",
-      "href": "/diensten",
+      "href": "/nl/diensten",
       "anker": "Diensten",
       "rel": null
     },
     {
       "regio": "header",
       "soort": "intern",
-      "href": "/cases",
+      "href": "/nl/cases",
       "anker": "Cases",
       "rel": null
     },
     {
       "regio": "header",
       "soort": "intern",
-      "href": "/werkwijze",
+      "href": "/nl/werkwijze",
       "anker": "Werkwijze",
       "rel": null
     },
     {
       "regio": "header",
       "soort": "intern",
-      "href": "/inzichten",
+      "href": "/nl/inzichten",
       "anker": "Inzichten",
       "rel": null
     },
     {
       "regio": "header",
       "soort": "intern",
-      "href": "/over",
+      "href": "/nl/over",
       "anker": "Over mij",
       "rel": null
     },
     {
       "regio": "header",
       "soort": "intern",
-      "href": "/contact",
+      "href": "/ai-automation/ai-workflows",
+      "anker": "EN",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/nl/contact",
       "anker": "Plan een gesprek →",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/",
+      "href": "/nl",
       "anker": "Home",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/ai-automatisering",
+      "href": "/nl/ai-automatisering",
       "anker": "AI Automatisering",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/ai-automatisering",
+      "href": "/nl/ai-automatisering",
       "anker": "Lees meer over AI Automatisering →",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/diensten/ai-readiness-assessment",
+      "href": "/nl/diensten/ai-readiness-assessment",
       "anker": "Bekijk het AI Readiness Assessment →",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/over",
+      "href": "/nl/over",
       "anker": "Dave Willemstein",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/ai-automatisering",
+      "href": "/nl/ai-automatisering",
       "anker": "AI automatisering",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/markten/marketing",
+      "href": "/nl/markten/marketing",
       "anker": "AI voor marketing",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/ai-automatisering/bedrijfsprocessen-automatiseren-met-ai",
+      "href": "/nl/ai-automatisering/bedrijfsprocessen-automatiseren-met-ai",
       "anker": "bedrijfsprocessen automatiseren met AI",
       "rel": null
     },
@@ -415,56 +461,56 @@
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/ai-automatisering/ai-tools",
+      "href": "/nl/ai-automatisering/ai-tools",
       "anker": "AI tools",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/ai-agents/wat-is-een-ai-agent",
+      "href": "/nl/ai-agents/wat-is-een-ai-agent",
       "anker": "wat een AI agent is",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/inzichten/ai-agents-wat-ze-wel-en-niet-kunnen",
+      "href": "/nl/inzichten/ai-agents-wat-ze-wel-en-niet-kunnen",
       "anker": "AI agents: wat ze wel en niet kunnen",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/ai-agents",
+      "href": "/nl/ai-agents",
       "anker": "AI agents",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/contact",
+      "href": "/nl/contact",
       "anker": "Plan een adviesgesprek",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/over",
+      "href": "/nl/over",
       "anker": "Over mij",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/partnernetwerk",
+      "href": "/nl/partnernetwerk",
       "anker": "Mijn partnernetwerk",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/diensten/ai-readiness-assessment",
+      "href": "/nl/diensten/ai-readiness-assessment",
       "anker": "Weten waar je staat met AI? Bekijk het AI Readiness Assessment →",
       "rel": null
     },
@@ -506,154 +552,154 @@
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/contact",
+      "href": "/nl/contact",
       "anker": "Plan een gesprek →",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/diensten/ai-readiness-assessment",
+      "href": "/nl/diensten/ai-readiness-assessment",
       "anker": "AI Readiness Assessment",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/diensten/ai-strategy-sprint",
+      "href": "/nl/diensten/ai-strategy-sprint",
       "anker": "AI Strategy Sprint",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/diensten/fractional-ai-lead",
+      "href": "/nl/diensten/fractional-ai-lead",
       "anker": "Fractional AI Lead",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/diensten",
+      "href": "/nl/diensten",
       "anker": "Alle diensten",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/cases",
+      "href": "/nl/cases",
       "anker": "Cases",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/werkwijze",
+      "href": "/nl/werkwijze",
       "anker": "Werkwijze",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/inzichten",
+      "href": "/nl/inzichten",
       "anker": "Inzichten",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/veelgestelde-vragen",
+      "href": "/nl/veelgestelde-vragen",
       "anker": "Veelgestelde vragen",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/over",
+      "href": "/nl/over",
       "anker": "Over mij",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-consultancy",
+      "href": "/nl/ai-consultancy",
       "anker": "AI consultancy",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-implementatie",
+      "href": "/nl/ai-implementatie",
       "anker": "AI implementatie",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-automatisering",
+      "href": "/nl/ai-automatisering",
       "anker": "AI automatisering",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-voor-bedrijven",
+      "href": "/nl/ai-voor-bedrijven",
       "anker": "AI voor bedrijven",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-development",
+      "href": "/nl/ai-development",
       "anker": "AI development",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-agents",
+      "href": "/nl/ai-agents",
       "anker": "AI agents",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-beleid",
+      "href": "/nl/ai-beleid",
       "anker": "AI beleid",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-workshop",
+      "href": "/nl/ai-workshop",
       "anker": "AI workshop",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/markten",
+      "href": "/nl/markten",
       "anker": "AI per branche",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/kennisbank",
+      "href": "/nl/kennisbank",
       "anker": "Kennisbank",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/tarieven",
+      "href": "/nl/tarieven",
       "anker": "Tarieven",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/partnernetwerk",
+      "href": "/nl/partnernetwerk",
       "anker": "Partnernetwerk",
       "rel": null
     },
@@ -674,27 +720,27 @@
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/contact",
+      "href": "/nl/contact",
       "anker": "Plan een gesprek",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/privacy",
+      "href": "/nl/privacy",
       "anker": "Privacyverklaring",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/algemene-voorwaarden",
+      "href": "/nl/algemene-voorwaarden",
       "anker": "Algemene voorwaarden",
       "rel": null
     }
   ],
   "structured_data": {
-    "sha256": "e5b50e98aa1175585776c49b8f0013f9782be59e4d5e9b869c98c5b382081fb5",
+    "sha256": "c0c0ca8e80a8e309f7e401622a266400e8821b922aca427b3d367212938562a3",
     "items": [
       {
         "@context": "https://schema.org",
@@ -706,19 +752,19 @@
                 "@type": "ListItem",
                 "position": 1,
                 "name": "Home",
-                "item": "https://freelanceaiconsultant.com/"
+                "item": "https://freelanceaiconsultant.com/nl"
               },
               {
                 "@type": "ListItem",
                 "position": 2,
                 "name": "AI Automatisering",
-                "item": "https://freelanceaiconsultant.com/ai-automatisering"
+                "item": "https://freelanceaiconsultant.com/nl/ai-automatisering"
               },
               {
                 "@type": "ListItem",
                 "position": 3,
                 "name": "AI workflows",
-                "item": "https://freelanceaiconsultant.com/ai-automatisering/ai-workflows"
+                "item": "https://freelanceaiconsultant.com/nl/ai-automatisering/ai-workflows"
               }
             ]
           },
@@ -742,7 +788,7 @@
               "@type": "Person",
               "name": "Dave Willemstein"
             },
-            "mainEntityOfPage": "https://freelanceaiconsultant.com/ai-automatisering/ai-workflows"
+            "mainEntityOfPage": "https://freelanceaiconsultant.com/nl/ai-automatisering/ai-workflows"
           },
           {
             "@type": "FAQPage",
@@ -777,6 +823,38 @@
                 "acceptedAnswer": {
                   "@type": "Answer",
                   "text": "Leveranciers vervangen modellen regelmatig door nieuwe versies. Houd daarom een vaste testset bij met echte voorbeelden en de gewenste uitkomst. Draai die set opnieuw bij elke modelwissel en vergelijk de resultaten voordat je de nieuwe versie in productie neemt."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Wat is een AI workflow?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Een AI workflow is een geautomatiseerde keten met een vooraf vastgelegde route, waarin een AI-model alleen de stappen doet die gewone regels niet aankunnen, zoals vrije tekst in een e-mail begrijpen of gegevens uit een pdf halen. De keten bestaat bijna altijd uit dezelfde bouwstenen: trigger, ophalen, AI-stap, controle, actie en logging. Een AI workflow past bij een proces dat steeds dezelfde stappen kent en waarvan elke uitkomst te verklaren moet zijn; pas als de stappen per geval echt verschillen en een fout omkeerbaar is, komt een AI agent in beeld."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Bepaalt het AI-model in een AI workflow zelf welke stappen het zet?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Nee. In een AI workflow ligt de route vooraf vast en vult het AI-model alleen een stap in. Een AI agent krijgt daarentegen een doel en kiest zelf welke stappen en tools hij gebruikt."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Wie bouwt een AI workflow?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Een eenvoudige stroom van een AI workflow kan een handige collega in een no-code-platform bouwen. Zodra er koppelingen met kernsystemen of gevoelige gegevens bij komen, is een IT-team of partner nodig, en die partner contracteert de opdrachtgever rechtstreeks."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Hoeveel stappen telt het implementeren van een AI workflow?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "In de praktijk gaat het implementeren van een AI workflow in vijf stappen: één proces kiezen en vooraf meten, de route uittekenen met de mensen die het werk nu doen, bepalen wie bouwt, testen met echte voorbeelden en het beheer regelen vóór livegang. Bij het testen hoort dat de AI workflow een paar weken naast het huidige proces loopt."
                 }
               }
             ]
@@ -821,12 +899,12 @@
     ],
     "stylesheets": [
       "https://fonts.googleapis.com/css2?family=Caveat:wght@600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap",
-      "/_astro/_slug_.bq6BBoZ5.css",
-      "/_astro/_slug_.goiX3PVF.css",
+      "/_astro/_slug_.BzqUXH8l.css",
+      "/_astro/_slug_.Do5RJXa7.css",
       "/logo-carousel/logo-carousel.css?v=2"
     ],
     "aantal_details": 4,
     "aantal_tabellen": 1
   },
-  "gemeten_op": "2026-10-06"
+  "gemeten_op": "2026-10-29"
 }

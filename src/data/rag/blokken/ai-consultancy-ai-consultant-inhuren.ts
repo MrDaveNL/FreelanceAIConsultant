@@ -6,16 +6,16 @@ export default {
   "onderwerp": "AI consultant inhuren",
   "vraagkop": "Wat kost een AI consultant inhuren?",
   "onderBestaandeKop": true,
-  "antwoord": "Een AI consultant inhuren bij {{afzender}} gaat via vaste pakketten, elk met vooraf een vaste prijs of vast maandbedrag. Het {{dienst:ai-readiness-assessment}}, de {{dienst:ai-strategy-sprint}} en de {{dienst:fractional-ai-lead}} zijn de hoofdpakketten. Het exacte bedrag staat voor de start op papier in het voorstel, {{voorwaarden}}.",
+  "antwoord": "Een AI consultant inhuren bij {{afzender}} gaat via vaste pakketten: een vaste projectprijs voor een afgebakend traject, of een vast maandbedrag bij doorlopende betrokkenheid. Het {{dienst:ai-readiness-assessment}} en de {{dienst:ai-strategy-sprint}} zijn vaste projectprijzen; de {{dienst:fractional-ai-lead}} is een vast maandbedrag. Het exacte bedrag staat voor de start op papier in het voorstel, {{voorwaarden}}.",
   "vervolgvragen": [
     {
       "vraag": "Wat is het kleinste pakket met een vaste prijs om een AI consultant in te huren?",
-      "antwoord": "De {{dienst:executive-briefing}}. Dat pakket kost een vaste prijs, vastgelegd in het voorstel."
+      "antwoord": "De {{dienst:executive-briefing}}. Dat pakket kost een vaste projectprijs."
     },
     {
       "vraag": "Kan een AI consultant inhuren ook voor afgebakend advies?",
       "onvoorwaardelijk": true,
-      "antwoord": "Ja. AI consultant inhuren kan ook voor afgebakend advies, zoals een second opinion, een workshop of een korte toets, tegen een vaste prijs in het voorstel."
+      "antwoord": "Ja. AI consultant inhuren kan ook voor afgebakend advies, zoals een second opinion, een workshop of een korte toets, tegen een vaste projectprijs."
     }
   ],
   "bron": {

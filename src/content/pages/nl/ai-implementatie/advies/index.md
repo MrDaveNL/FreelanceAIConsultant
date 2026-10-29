@@ -32,7 +32,7 @@ faq:
   - q: "Is advies vooraf ook zinvol voor een mkb-bedrijf?"
     a: "Juist daar, omdat er minder ruimte is voor een mislukte investering. De scope is kleiner, dus het adviestraject ook. Een paar dagen afgebakend advies kan dan volstaan om de use case, de bouwkeuze en de randvoorwaarden scherp te krijgen."
   - q: "Wat kost AI implementatie advies?"
-    a: "Afgebakend advies en second opinions krijgen een vaste prijs per opdracht; de omvang bepalen we in de intake. Wie eerst een volledig beeld van de organisatie wil, start met het AI Readiness Assessment tegen een vaste prijs. Alle bedragen zijn exclusief btw en reiskosten."
+    a: "Afgebakend advies en second opinions krijgen een vaste prijs per opdracht; de omvang bepalen we in de intake. Wie eerst een volledig beeld van de organisatie wil, start met het AI Readiness Assessment tegen een vaste prijs. Alle voorstellen zijn exclusief btw en reiskosten."
 sources:
   - title: "Ondernemersplein (KVK/Rijksoverheid): DPIA uitvoeren"
     url: "https://ondernemersplein.overheid.nl/wetten-en-regels/dpia-data-protection-impact-assessment-uitvoeren/"

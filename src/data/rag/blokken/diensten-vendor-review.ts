@@ -5,7 +5,7 @@ export default {
   "onderwerp": "Vendor Review",
   "vraagkop": "Wat levert een Vendor Review op en wat kost die?",
   "onderBestaandeKop": false,
-  "antwoord": "De {{dienst:vendor-review}} van {{afzender}} is een onafhankelijk selectietraject voor organisaties die een AI-leverancier kiezen en die keuze achteraf moeten kunnen uitleggen. Het resultaat is een onderbouwd selectieadvies met scorecards, een TCO-vergelijking over drie jaar en een beslisdocument voor procurement en board. Het traject duurt {{timing:vendor-review}} en kost {{pricelc:vendor-review}}, {{voorwaarden}}.",
+  "antwoord": "De {{dienst:vendor-review}} van {{afzender}} is een onafhankelijk selectietraject voor organisaties die een AI-leverancier kiezen en die keuze achteraf moeten kunnen uitleggen. Het resultaat is een onderbouwd selectieadvies met scorecards, een TCO-vergelijking over drie jaar en een beslisdocument voor procurement en board. Het traject duurt {{timing:vendor-review}} en kost {{pricelc:vendor-review}}, vastgelegd in het voorstel, {{voorwaarden}}.",
   "vervolgvragen": [
     {
       "vraag": "Wat bepaalt de prijs van een Vendor Review?",

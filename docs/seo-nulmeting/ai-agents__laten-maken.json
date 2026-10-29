@@ -2,7 +2,7 @@
   "url": "/ai-agents/laten-maken",
   "build_bestand": "dist/ai-agents/laten-maken/index.html",
   "html": {
-    "bytes": 39995,
+    "bytes": 39841,
     "lang": "nl"
   },
   "beschermd": {
@@ -105,8 +105,8 @@
   ],
   "bodytekst": {
     "regio": "main",
-    "woorden": 1957,
-    "sha256": "9dac79f9e763d484353c278b6f181bd9356dc3f20fc02489e66ed6682d624cc4",
+    "woorden": 1943,
+    "sha256": "a443926f246b33b3009c13d1faa0bbc515cf19278e4bbd789168f0b41e56cb02",
     "blokken": [
       "Home",
       "AI Agents",
@@ -208,7 +208,7 @@
       "Na een testperiode van acht weken kost een dossier gemiddeld 20 minuten in plaats van 50. Bij 120 claims is dat ongeveer 60 uur per maand. Het besluit over uitkeren blijft bij de behandelaar.",
       "Fictief voorbeeld, samengesteld uit situaties die veel voorkomen. Organisatie en cijfers zijn illustratief.",
       "Wat kost een AI agent?",
-      "De prijs van een AI agent wordt bepaald door de route, de koppelingen, de schrijfrechten en controle, het gebruik en het beheer, en verschilt sterk per route, zodat een vast bedrag misleidend zou zijn. Dave Willemstein bouwt zelf geen agents en verkoopt geen implementaties, maar helpt de taak afbakenen, de specificatie opstellen, bouwpartijen vergelijken en de uitvoering bewaken. Offertes van meerdere bouwpartijen onafhankelijk laten beoordelen kan met de Vendor Review van 3-6 weken voor een vaste prijs of vast maandbedrag, vastgelegd in het voorstel, en doorlopende bewaking van het traject kan met de Fractional AI Lead.",
+      "De prijs van een AI agent wordt bepaald door de route, de koppelingen, de schrijfrechten en controle, het gebruik en het beheer, en verschilt sterk per route, zodat een vast bedrag misleidend zou zijn. Dave Willemstein bouwt zelf geen agents en verkoopt geen implementaties, maar helpt de taak afbakenen, de specificatie opstellen, bouwpartijen vergelijken en de uitvoering bewaken. Offertes van meerdere bouwpartijen onafhankelijk laten beoordelen kan met de Vendor Review van 3-6 weken voor een vaste projectprijs, en doorlopende bewaking van het traject kan met de Fractional AI Lead.",
       "Wat een AI agent kost, verschilt sterk per route. Een vast bedrag noemen zou misleidend zijn. De factoren die de prijs bepalen, zijn wel goed te benoemen:",
       "Route: een agent binnen een bestaand platform kost vooral licenties en configuratie; maatwerk kost bouwuren en daarna beheer.",
       "Koppelingen: elk systeem waarmee de agent praat, vraagt bouw, testwerk en onderhoud.",
@@ -220,7 +220,7 @@
       "Wie stelt de specificatie van een AI agent op?",
       "In een goed traject stelt de opdrachtgever de specificatie van een AI agent zelf op, niet de bouwpartij; dat kan ook met een onafhankelijke adviseur, en pas daarna komt een bouwpartij in beeld. Een specificatie die wordt overgelaten aan de partij die ook bouwt, past bij wat die partij het liefst maakt.",
       "Hangt de prijs van de Vendor Review af van het aantal leveranciers?",
-      "Ja. De Vendor Review kost een vaste prijs of vast maandbedrag, vastgelegd in het voorstel, afhankelijk van het aantal leveranciers (2 tot 4). De bedragen zijn exclusief btw en reiskosten.",
+      "Ja. De Vendor Review kost een vaste projectprijs, afhankelijk van het aantal leveranciers (2 tot 4). Alle voorstellen zijn exclusief btw en reiskosten.",
       "Waar let een organisatie op bij de beveiliging van een AI agent?",
       "Een AI agent die systemen aanroept, is een nieuwe gebruiker in het IT-landschap. Het is zaak de AI agent niet meer rechten te geven dan nodig, hem te laten inloggen met een eigen account zodat zijn handelingen herleidbaar zijn, en een bevestigingsstap te houden op elk onomkeerbaar moment.",
       "Bron: tarieven en doorlooptijden van Dave Willemstein. Bijgewerkt: oktober 2026.",
@@ -659,7 +659,7 @@
     }
   ],
   "structured_data": {
-    "sha256": "e8cc9f90a2eadebee58971f6c1635f3f40f880f0b86ee7cfcff606b7054949fc",
+    "sha256": "b703dc20dd1ea225c28e96c91b8da3464867dd06711d3a96b73058e4dde4a27b",
     "items": [
       {
         "@context": "https://schema.org",
@@ -752,7 +752,7 @@
                 "name": "Wat kost een AI agent?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "De prijs van een AI agent wordt bepaald door de route, de koppelingen, de schrijfrechten en controle, het gebruik en het beheer, en verschilt sterk per route, zodat een vast bedrag misleidend zou zijn. Dave Willemstein bouwt zelf geen agents en verkoopt geen implementaties, maar helpt de taak afbakenen, de specificatie opstellen, bouwpartijen vergelijken en de uitvoering bewaken. Offertes van meerdere bouwpartijen onafhankelijk laten beoordelen kan met de Vendor Review van 3-6 weken voor een vaste prijs of vast maandbedrag, vastgelegd in het voorstel, en doorlopende bewaking van het traject kan met de Fractional AI Lead."
+                  "text": "De prijs van een AI agent wordt bepaald door de route, de koppelingen, de schrijfrechten en controle, het gebruik en het beheer, en verschilt sterk per route, zodat een vast bedrag misleidend zou zijn. Dave Willemstein bouwt zelf geen agents en verkoopt geen implementaties, maar helpt de taak afbakenen, de specificatie opstellen, bouwpartijen vergelijken en de uitvoering bewaken. Offertes van meerdere bouwpartijen onafhankelijk laten beoordelen kan met de Vendor Review van 3-6 weken voor een vaste projectprijs, en doorlopende bewaking van het traject kan met de Fractional AI Lead."
                 }
               },
               {
@@ -768,7 +768,7 @@
                 "name": "Hangt de prijs van de Vendor Review af van het aantal leveranciers?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "Ja. De Vendor Review kost een vaste prijs of vast maandbedrag, vastgelegd in het voorstel, afhankelijk van het aantal leveranciers (2 tot 4). De bedragen zijn exclusief btw en reiskosten."
+                  "text": "Ja. De Vendor Review kost een vaste projectprijs, afhankelijk van het aantal leveranciers (2 tot 4). Alle voorstellen zijn exclusief btw en reiskosten."
                 }
               },
               {
@@ -828,5 +828,5 @@
     "aantal_details": 5,
     "aantal_tabellen": 0
   },
-  "gemeten_op": "2026-10-28"
+  "gemeten_op": "2026-10-29"
 }

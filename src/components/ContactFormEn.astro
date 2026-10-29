@@ -50,17 +50,6 @@ const endpoint = site.formEndpoint || (site.formAccessKey ? 'https://api.web3for
       <option>Still exploring</option>
     </select>
   </div>
-  <div class="field">
-    <label for="budget">Budget indication</label>
-    <select id="budget" name="budget">
-      <option value="">Choose a range</option>
-      <option>Up to €10k</option>
-      <option>€10-25k</option>
-      <option>€25-50k</option>
-      <option>€50k+</option>
-      <option>Not yet known</option>
-    </select>
-  </div>
   <div class="field full hp" aria-hidden="true">
     <label for="company-website">Leave this field empty</label>
     <input id="company-website" name="company-website" tabindex="-1" autocomplete="off" />
@@ -138,7 +127,6 @@ const endpoint = site.formEndpoint || (site.formAccessKey ? 'https://api.web3for
           Functie: data.role || '-',
           Organisatie: data.company || '-',
           Tijdlijn: data.timeline || '-',
-          Budgetindicatie: data.budget || '-',
           Vraagstuk: data.challenge,
         };
         if (accessKey) payload.access_key = accessKey;
@@ -174,7 +162,6 @@ const endpoint = site.formEndpoint || (site.formAccessKey ? 'https://api.web3for
         `Organization: ${data.company || '-'}`,
         `Email: ${data.email}`,
         `Timeline: ${data.timeline || '-'}`,
-        `Budget indication: ${data.budget || '-'}`,
         '',
         'Question:',
         data.challenge,

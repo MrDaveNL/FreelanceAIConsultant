@@ -5,7 +5,7 @@ export default {
   "type": "dienst",
   "onderwerp": "Executive Briefing",
   "vraagkop": "What does the Executive Briefing cover and what does it cost?",
-  "antwoord": "{{dienst:executive-briefing}} from {{afzender}} gives an executive team or board the same realistic picture of what AI means for the organization, including what it asks of them as overseers. The result is a shared picture and a decision agenda, built on sector-specific preparation. The session takes {{timing:executive-briefing}} and costs {{pricelc:executive-briefing}}, {{voorwaarden}}.",
+  "antwoord": "{{dienst:executive-briefing}} from {{afzender}} gives an executive team or board the same realistic picture of what AI means for the organization, including what it asks of them as overseers. The result is a shared picture and a decision agenda, built on sector-specific preparation. The session takes {{timing:executive-briefing}} and is priced as {{pricelc:executive-briefing}}, set out in the proposal, {{voorwaarden}}.",
   "vervolgvragen": [
     {
       "vraag": "When is the Executive Briefing price credited?",

@@ -2,7 +2,7 @@
   "url": "/kennisbank/ai-specialist-salaris",
   "build_bestand": "dist/kennisbank/ai-specialist-salaris/index.html",
   "html": {
-    "bytes": 41505,
+    "bytes": 41521,
     "lang": "nl"
   },
   "beschermd": {
@@ -127,8 +127,8 @@
   ],
   "bodytekst": {
     "regio": "main",
-    "woorden": 2054,
-    "sha256": "87a240b46856f79bc4f5be9c8b86b419929dc1bad5b9983f979797b40d8dd31a",
+    "woorden": 2055,
+    "sha256": "ca2847b92e3eaf3fd021313ca220f1763cddf8d5f6d85aa18f0dc9e55d21b52a",
     "blokken": [
       "Home",
       "Kennisbank",
@@ -207,7 +207,7 @@
       "Zijn de cijfers van Indeed en DataJobs bij een AI specialist salaris één-op-één te vergelijken?",
       "Lastig: de cijfers van Indeed en DataJobs zijn lastig één-op-één te vergelijken, want Indeed rekent in jaarbedragen op basis van salarissen uit vacatures op Indeed en DataJobs in brutomaandbedragen op basis van gegevens van het eigen platform. Bij een AI specialist salaris zijn beide daarom als orde van grootte te gebruiken.",
       "Wat doet de Fractional AI Lead als de scope voor een fulltime functie nog niet vaststaat?",
-      "De Fractional AI Lead stuurt de AI-agenda in een parttime rol en helpt bij het functieprofiel en de werving van een vaste opvolger. De rol kost een vaste prijs of vast maandbedrag, vastgelegd in het voorstel.",
+      "De Fractional AI Lead stuurt de AI-agenda in een parttime rol en helpt bij het functieprofiel en de werving van een vaste opvolger. De rol kost een vast maandbedrag, afhankelijk van het niveau: Advies, Lead of Lead+.",
       "Bron: artikel van Dave Willemstein; primaire bron: DataJobs, Werken als AI Engineer (bijgewerkt mei 2026); Nationale Beroepengids, Salaris Artificial Intelligence Engineer (bijgewerkt 26-11-2024); Indeed, Salaris van een AI engineer in Nederland (bijgewerkt 28 september 2026) (peildatum 6 oktober 2026). Bijgewerkt: oktober 2026.",
       "Salarisindicatie AI specialist",
       "Wie zoekt naar het salaris van een AI specialist, loopt tegen twee problemen aan. Ten eerste is “AI specialist” geen vaste functietitel: het kan gaan om een strateeg, een machine learning engineer of een ontwikkelaar die een AI-platform inricht. Op de pagina over wat een AI specialist doet zet ik die profielen naast elkaar. Ten tweede publiceren de salarisbronnen die ik kon controleren hun cijfers onder de titel AI engineer, niet onder AI specialist.",
@@ -710,7 +710,7 @@
     }
   ],
   "structured_data": {
-    "sha256": "cc72a04a5efebacc609e0398b06fa14ac8e09e6ee0f883a2be9220f9bc34f391",
+    "sha256": "1fdf6b5972f01cd527bf4211d631f877d37517fcc201bdde374da6df5ac2ef49",
     "items": [
       {
         "@context": "https://schema.org",
@@ -832,7 +832,7 @@
                 "name": "Wat doet de Fractional AI Lead als de scope voor een fulltime functie nog niet vaststaat?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "De Fractional AI Lead stuurt de AI-agenda in een parttime rol en helpt bij het functieprofiel en de werving van een vaste opvolger. De rol kost een vaste prijs of vast maandbedrag, vastgelegd in het voorstel."
+                  "text": "De Fractional AI Lead stuurt de AI-agenda in een parttime rol en helpt bij het functieprofiel en de werving van een vaste opvolger. De rol kost een vast maandbedrag, afhankelijk van het niveau: Advies, Lead of Lead+."
                 }
               }
             ]
@@ -884,5 +884,5 @@
     "aantal_details": 5,
     "aantal_tabellen": 1
   },
-  "gemeten_op": "2026-10-28"
+  "gemeten_op": "2026-10-29"
 }

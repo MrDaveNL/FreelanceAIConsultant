@@ -5,15 +5,15 @@ export default {
   "type": "dienst",
   "onderwerp": "AI Strategy Sprint",
   "vraagkop": "What does the AI Strategy Sprint deliver and what does it cost?",
-  "antwoord": "{{dienst:ai-strategy-sprint}} from {{afzender}} takes organizations from AI ambition to a board-ready strategy and roadmap. The result is a prioritized use-case roadmap, business case outlines and a governance and operating-model plan, built around four fixed decision points. The sprint takes {{timing:ai-strategy-sprint}} and costs {{pricelc:ai-strategy-sprint}}, {{voorwaarden}}.",
+  "antwoord": "{{dienst:ai-strategy-sprint}} from {{afzender}} takes organizations from AI ambition to a board-ready strategy and roadmap. The result is a prioritized use-case roadmap, business case outlines and a governance and operating-model plan, built around four fixed decision points. The sprint takes {{timing:ai-strategy-sprint}} and is priced as {{pricelc:ai-strategy-sprint}}, set out in the proposal, {{voorwaarden}}.",
   "vervolgvragen": [
     {
       "vraag": "How long does the AI Strategy Sprint take?",
       "antwoord": "{{timing:ai-strategy-sprint}} for {{dienst:ai-strategy-sprint}}. The program runs across five working sessions built around four fixed decision points: diagnose, prioritize, decide, and ship and govern."
     },
     {
-      "vraag": "What does the AI Strategy Sprint cost?",
-      "antwoord": "{{dienst:ai-strategy-sprint}} costs {{pricelc:ai-strategy-sprint}}, {{voorwaarden}}. A Readiness Assessment already in place brings the investment down; multiple business units bring it up."
+      "vraag": "Does the investment in the AI Strategy Sprint come out lower if an AI Readiness Assessment is already in place?",
+      "antwoord": "Yes: if {{dienst:ai-readiness-assessment}} is already in place, the fixed project fee for {{dienst:ai-strategy-sprint}} is lower, because the analysis has already been done."
     }
   ],
   "bron": {

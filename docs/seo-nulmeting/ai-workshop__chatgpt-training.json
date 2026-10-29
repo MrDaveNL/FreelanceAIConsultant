@@ -2,15 +2,28 @@
   "url": "/ai-workshop/chatgpt-training",
   "build_bestand": "dist/ai-workshop/chatgpt-training/index.html",
   "html": {
-    "bytes": 32142,
+    "bytes": 35797,
     "lang": "nl"
   },
   "beschermd": {
     "title": "ChatGPT training voor bedrijven | Praktisch en veilig",
     "meta_description": "Een ChatGPT training voor je team: leer betere prompts, eigen GPT's en veilige toepassingen in je dagelijkse werk. Incompany, praktisch en op maat.",
-    "canonical": "https://freelanceaiconsultant.com/ai-workshop/chatgpt-training",
+    "canonical": "https://freelanceaiconsultant.com/nl/ai-workshop/chatgpt-training",
     "robots_meta": null,
-    "hreflang": [],
+    "hreflang": [
+      {
+        "hreflang": "en",
+        "href": "https://freelanceaiconsultant.com/ai-workshop/chatgpt-training"
+      },
+      {
+        "hreflang": "nl",
+        "href": "https://freelanceaiconsultant.com/nl/ai-workshop/chatgpt-training"
+      },
+      {
+        "hreflang": "x-default",
+        "href": "https://freelanceaiconsultant.com/ai-workshop/chatgpt-training"
+      }
+    ],
     "h1": [
       "ChatGPT training voor bedrijven"
     ]
@@ -21,7 +34,7 @@
     "og:site_name": "freelanceaiconsultant.com",
     "og:title": "ChatGPT training voor bedrijven | Praktisch en veilig",
     "og:description": "Een ChatGPT training voor je team: leer betere prompts, eigen GPT's en veilige toepassingen in je dagelijkse werk. Incompany, praktisch en op maat.",
-    "og:url": "https://freelanceaiconsultant.com/ai-workshop/chatgpt-training",
+    "og:url": "https://freelanceaiconsultant.com/nl/ai-workshop/chatgpt-training",
     "og:image": "https://freelanceaiconsultant.com/images/dave-portrait.jpg",
     "twitter:card": "summary_large_image",
     "twitter:title": "ChatGPT training voor bedrijven | Praktisch en veilig",
@@ -32,6 +45,30 @@
     {
       "niveau": 1,
       "tekst": "ChatGPT training voor bedrijven",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "Wat leren deelnemers in een ChatGPT training en hoe is de prijs geregeld?",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 3,
+      "tekst": "Is technische voorkennis nodig voor de ChatGPT training?",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 3,
+      "tekst": "Kan de ChatGPT training worden gecombineerd met Copilot?",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 3,
+      "tekst": "Wordt de ChatGPT training ook in het Engels gegeven?",
       "regio": "main",
       "id": null
     },
@@ -74,8 +111,8 @@
   ],
   "bodytekst": {
     "regio": "main",
-    "woorden": 1279,
-    "sha256": "d67ce9db5f08edbe8ceec6cc984f7dfe2c4ad72f92c24064754f4539b3880f1d",
+    "woorden": 1460,
+    "sha256": "5538c5ba602c0f9c37a458ece8ad8d4121356da4c2a52e9dde543f5fd4ac53ed",
     "blokken": [
       "Home",
       "AI workshop",
@@ -146,6 +183,15 @@
       "Proces & productivity",
       "Zakelijke dienstverlener",
       "Interne AI-assistent voor kenniswerkers",
+      "Wat leren deelnemers in een ChatGPT training en hoe is de prijs geregeld?",
+      "Een ChatGPT training van Dave Willemstein is een incompany training voor teams en professionals die veel met tekst, informatie en communicatie werken, met drie tot vijf taken per rol uit het eigen werk als oefenmateriaal. Deelnemers leren betere prompts schrijven, terugkerend werk vastleggen in eigen GPT's en projecten, uitkomsten controleren en veilig omgaan met gegevens. Het programma wordt in een korte intake afgestemd en de training heeft een vaste prijs die vooraf schriftelijk wordt bevestigd.",
+      "Is technische voorkennis nodig voor de ChatGPT training?",
+      "Nee. De ChatGPT training is bedoeld voor teams en professionals die veel met tekst, informatie en communicatie werken, en technische voorkennis is daarvoor niet nodig.",
+      "Kan de ChatGPT training worden gecombineerd met Copilot?",
+      "Ja, als teams beide gebruiken: de ChatGPT training en de Copilot training worden dan in één programma gecombineerd.",
+      "Wordt de ChatGPT training ook in het Engels gegeven?",
+      "Ja. De ChatGPT training wordt op locatie bij de opdrachtgever gegeven, in het Nederlands of het Engels.",
+      "Bron: Dave Willemstein, onafhankelijk AI-adviseur. Bijgewerkt: oktober 2026.",
       "Wat leer je?",
       "Een ChatGPT training bij mij gaat niet over trucjes of lijstjes met honderd prompts. Het gaat om de vaardigheden die blijven werken, ook als de tool volgend kwartaal weer verandert. En het gaat om jullie eigen werk: ik verzamel vooraf drie tot vijf taken per rol, en die worden het oefenmateriaal.",
       "Deelnemers leren:",
@@ -214,84 +260,98 @@
     {
       "regio": "header",
       "soort": "intern",
-      "href": "/",
+      "href": "/nl",
       "anker": "",
       "rel": null
     },
     {
       "regio": "header",
       "soort": "intern",
-      "href": "/diensten",
+      "href": "/nl/diensten",
       "anker": "Diensten",
       "rel": null
     },
     {
       "regio": "header",
       "soort": "intern",
-      "href": "/cases",
+      "href": "/nl/cases",
       "anker": "Cases",
       "rel": null
     },
     {
       "regio": "header",
       "soort": "intern",
-      "href": "/werkwijze",
+      "href": "/nl/werkwijze",
       "anker": "Werkwijze",
       "rel": null
     },
     {
       "regio": "header",
       "soort": "intern",
-      "href": "/inzichten",
+      "href": "/nl/inzichten",
       "anker": "Inzichten",
       "rel": null
     },
     {
       "regio": "header",
       "soort": "intern",
-      "href": "/over",
+      "href": "/nl/over",
       "anker": "Over mij",
       "rel": null
     },
     {
       "regio": "header",
       "soort": "intern",
-      "href": "/contact",
+      "href": "/ai-workshop/chatgpt-training",
+      "anker": "EN",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/nl/contact",
       "anker": "Plan een gesprek →",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/",
+      "href": "/nl",
       "anker": "Home",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/ai-workshop",
+      "href": "/nl/ai-workshop",
       "anker": "AI workshop",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/contact",
+      "href": "/nl/contact",
       "anker": "Vraag een training aan →",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/diensten/ai-readiness-assessment",
+      "href": "/nl/diensten/ai-readiness-assessment",
       "anker": "Bekijk het AI Readiness Assessment →",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/kennisbank/prompt-engineering",
+      "href": "/nl/ai-workshop/copilot-training",
+      "anker": "Copilot training",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/nl/kennisbank/prompt-engineering",
       "anker": "prompt engineering",
       "rel": null
     },
@@ -312,63 +372,63 @@
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/kennisbank/chatgpt-voor-bedrijven",
+      "href": "/nl/kennisbank/chatgpt-voor-bedrijven",
       "anker": "ChatGPT voor bedrijven",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/ai-workshop/copilot-training",
+      "href": "/nl/ai-workshop/copilot-training",
       "anker": "Copilot training",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/ai-workshop/ai-geletterdheid-training",
+      "href": "/nl/ai-workshop/ai-geletterdheid-training",
       "anker": "training in AI-geletterdheid",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/tarieven",
+      "href": "/nl/tarieven",
       "anker": "tarieven",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/ai-workshop",
+      "href": "/nl/ai-workshop",
       "anker": "AI workshops en trainingen",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/contact",
+      "href": "/nl/contact",
       "anker": "Plan een kort gesprek",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/over",
+      "href": "/nl/over",
       "anker": "Over mij",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/partnernetwerk",
+      "href": "/nl/partnernetwerk",
       "anker": "Mijn partnernetwerk",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/diensten/ai-readiness-assessment",
+      "href": "/nl/diensten/ai-readiness-assessment",
       "anker": "Weten waar je staat met AI? Bekijk het AI Readiness Assessment →",
       "rel": null
     },
@@ -403,154 +463,154 @@
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/contact",
+      "href": "/nl/contact",
       "anker": "Plan een gesprek →",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/diensten/ai-readiness-assessment",
+      "href": "/nl/diensten/ai-readiness-assessment",
       "anker": "AI Readiness Assessment",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/diensten/ai-strategy-sprint",
+      "href": "/nl/diensten/ai-strategy-sprint",
       "anker": "AI Strategy Sprint",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/diensten/fractional-ai-lead",
+      "href": "/nl/diensten/fractional-ai-lead",
       "anker": "Fractional AI Lead",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/diensten",
+      "href": "/nl/diensten",
       "anker": "Alle diensten",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/cases",
+      "href": "/nl/cases",
       "anker": "Cases",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/werkwijze",
+      "href": "/nl/werkwijze",
       "anker": "Werkwijze",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/inzichten",
+      "href": "/nl/inzichten",
       "anker": "Inzichten",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/veelgestelde-vragen",
+      "href": "/nl/veelgestelde-vragen",
       "anker": "Veelgestelde vragen",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/over",
+      "href": "/nl/over",
       "anker": "Over mij",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-consultancy",
+      "href": "/nl/ai-consultancy",
       "anker": "AI consultancy",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-implementatie",
+      "href": "/nl/ai-implementatie",
       "anker": "AI implementatie",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-automatisering",
+      "href": "/nl/ai-automatisering",
       "anker": "AI automatisering",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-voor-bedrijven",
+      "href": "/nl/ai-voor-bedrijven",
       "anker": "AI voor bedrijven",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-development",
+      "href": "/nl/ai-development",
       "anker": "AI development",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-agents",
+      "href": "/nl/ai-agents",
       "anker": "AI agents",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-beleid",
+      "href": "/nl/ai-beleid",
       "anker": "AI beleid",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-workshop",
+      "href": "/nl/ai-workshop",
       "anker": "AI workshop",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/markten",
+      "href": "/nl/markten",
       "anker": "AI per branche",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/kennisbank",
+      "href": "/nl/kennisbank",
       "anker": "Kennisbank",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/tarieven",
+      "href": "/nl/tarieven",
       "anker": "Tarieven",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/partnernetwerk",
+      "href": "/nl/partnernetwerk",
       "anker": "Partnernetwerk",
       "rel": null
     },
@@ -571,27 +631,27 @@
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/contact",
+      "href": "/nl/contact",
       "anker": "Plan een gesprek",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/privacy",
+      "href": "/nl/privacy",
       "anker": "Privacyverklaring",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/algemene-voorwaarden",
+      "href": "/nl/algemene-voorwaarden",
       "anker": "Algemene voorwaarden",
       "rel": null
     }
   ],
   "structured_data": {
-    "sha256": "0c181f77d9218d09fd20ef0fbe3f377983972ea83ec0c62f8097b899cc7d6166",
+    "sha256": "376e3ff7e7e6e3bbd357864e62c9394784a16c95629dfd46eb02a82a32eb9fd9",
     "items": [
       {
         "@context": "https://schema.org",
@@ -603,19 +663,19 @@
                 "@type": "ListItem",
                 "position": 1,
                 "name": "Home",
-                "item": "https://freelanceaiconsultant.com/"
+                "item": "https://freelanceaiconsultant.com/nl"
               },
               {
                 "@type": "ListItem",
                 "position": 2,
                 "name": "AI workshop",
-                "item": "https://freelanceaiconsultant.com/ai-workshop"
+                "item": "https://freelanceaiconsultant.com/nl/ai-workshop"
               },
               {
                 "@type": "ListItem",
                 "position": 3,
                 "name": "ChatGPT training",
-                "item": "https://freelanceaiconsultant.com/ai-workshop/chatgpt-training"
+                "item": "https://freelanceaiconsultant.com/nl/ai-workshop/chatgpt-training"
               }
             ]
           },
@@ -624,7 +684,7 @@
             "name": "ChatGPT training",
             "serviceType": "chatgpt training",
             "description": "Een ChatGPT training voor je team: leer betere prompts, eigen GPT's en veilige toepassingen in je dagelijkse werk. Incompany, praktisch en op maat.",
-            "url": "https://freelanceaiconsultant.com/ai-workshop/chatgpt-training",
+            "url": "https://freelanceaiconsultant.com/nl/ai-workshop/chatgpt-training",
             "areaServed": "NL",
             "provider": {
               "@type": "Person",
@@ -670,6 +730,38 @@
                   "@type": "Answer",
                   "text": "Grotendeels wel. Goede opdrachten geven, uitkomsten controleren en weten welke gegevens je niet deelt, geldt voor elke AI-assistent. Alleen de specifieke functies en instellingen verschillen per tool."
                 }
+              },
+              {
+                "@type": "Question",
+                "name": "Wat leren deelnemers in een ChatGPT training en hoe is de prijs geregeld?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Een ChatGPT training van Dave Willemstein is een incompany training voor teams en professionals die veel met tekst, informatie en communicatie werken, met drie tot vijf taken per rol uit het eigen werk als oefenmateriaal. Deelnemers leren betere prompts schrijven, terugkerend werk vastleggen in eigen GPT's en projecten, uitkomsten controleren en veilig omgaan met gegevens. Het programma wordt in een korte intake afgestemd en de training heeft een vaste prijs die vooraf schriftelijk wordt bevestigd."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Is technische voorkennis nodig voor de ChatGPT training?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Nee. De ChatGPT training is bedoeld voor teams en professionals die veel met tekst, informatie en communicatie werken, en technische voorkennis is daarvoor niet nodig."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Kan de ChatGPT training worden gecombineerd met Copilot?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Ja, als teams beide gebruiken: de ChatGPT training en de Copilot training worden dan in één programma gecombineerd."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Wordt de ChatGPT training ook in het Engels gegeven?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Ja. De ChatGPT training wordt op locatie bij de opdrachtgever gegeven, in het Nederlands of het Engels."
+                }
               }
             ]
           }
@@ -713,12 +805,12 @@
     ],
     "stylesheets": [
       "https://fonts.googleapis.com/css2?family=Caveat:wght@600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap",
-      "/_astro/_slug_.bq6BBoZ5.css",
-      "/_astro/_slug_.goiX3PVF.css",
+      "/_astro/_slug_.BzqUXH8l.css",
+      "/_astro/_slug_.Do5RJXa7.css",
       "/logo-carousel/logo-carousel.css?v=2"
     ],
     "aantal_details": 4,
     "aantal_tabellen": 0
   },
-  "gemeten_op": "2026-10-06"
+  "gemeten_op": "2026-10-29"
 }

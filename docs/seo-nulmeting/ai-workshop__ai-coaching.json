@@ -2,15 +2,20 @@
   "url": "/ai-workshop/ai-coaching",
   "build_bestand": "dist/ai-workshop/ai-coaching/index.html",
   "html": {
-    "bytes": 30624,
+    "bytes": 33943,
     "lang": "nl"
   },
   "beschermd": {
     "title": "AI coaching | Persoonlijke begeleiding bij AI-adoptie",
     "meta_description": "Met AI coaching krijgen managers en teams persoonlijke begeleiding bij het toepassen van AI. Van eerste stappen tot structurele verandering in het team.",
-    "canonical": "https://freelanceaiconsultant.com/ai-workshop/ai-coaching",
+    "canonical": "https://freelanceaiconsultant.com/nl/ai-workshop/ai-coaching",
     "robots_meta": null,
-    "hreflang": [],
+    "hreflang": [
+      {
+        "hreflang": "nl",
+        "href": "https://freelanceaiconsultant.com/nl/ai-workshop/ai-coaching"
+      }
+    ],
     "h1": [
       "AI coaching voor managers en teams"
     ]
@@ -21,7 +26,7 @@
     "og:site_name": "freelanceaiconsultant.com",
     "og:title": "AI coaching | Persoonlijke begeleiding bij AI-adoptie",
     "og:description": "Met AI coaching krijgen managers en teams persoonlijke begeleiding bij het toepassen van AI. Van eerste stappen tot structurele verandering in het team.",
-    "og:url": "https://freelanceaiconsultant.com/ai-workshop/ai-coaching",
+    "og:url": "https://freelanceaiconsultant.com/nl/ai-workshop/ai-coaching",
     "og:image": "https://freelanceaiconsultant.com/images/dave-portrait.jpg",
     "twitter:card": "summary_large_image",
     "twitter:title": "AI coaching | Persoonlijke begeleiding bij AI-adoptie",
@@ -40,6 +45,24 @@
       "tekst": "Wat is AI coaching?",
       "regio": "main",
       "id": "wat-is-ai-coaching"
+    },
+    {
+      "niveau": 3,
+      "tekst": "Is AI coaching een doorlopend traject zonder eindpunt?",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 3,
+      "tekst": "Neemt de coach bij AI coaching de besluiten over?",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 3,
+      "tekst": "Past AI coaching bij een organisatiebrede vraag?",
+      "regio": "main",
+      "id": null
     },
     {
       "niveau": 2,
@@ -68,8 +91,8 @@
   ],
   "bodytekst": {
     "regio": "main",
-    "woorden": 1273,
-    "sha256": "c60bcbada83d67d7c417fb2a2e5ac23409d6ebb7d8f9a9804eb48649cd102a6e",
+    "woorden": 1466,
+    "sha256": "9a104eb4656d2d3dda9009c611c6e1a42284ebb901bd8a57965c29e5e1ca7725",
     "blokken": [
       "Home",
       "AI workshop",
@@ -141,6 +164,7 @@
       "Zakelijke dienstverlener",
       "Interne AI-assistent voor kenniswerkers",
       "Wat is AI coaching?",
+      "AI coaching van Dave Willemstein is persoonlijke begeleiding voor managers en teamleads die AI in het dagelijkse werk van hun team willen laten landen, in de vorm van gesprekken en werksessies rond de vragen van dat moment. Een traject is afgebakend: het doel, het aantal sessies bij benadering en het eindpunt worden vooraf afgesproken. Voor AI coaching geldt een vaste prijs per opdracht; het valt onder afgebakend advies.",
       "AI coaching is persoonlijke begeleiding bij het toepassen van AI in het dagelijkse werk. Geen cursus met een vast programma, maar een reeks gesprekken en werksessies rond de vragen die een manager of team op dat moment heeft. Bijvoorbeeld:",
       "Welke taken in mijn team lenen zich voor AI, en welke niet?",
       "Hoe krijg ik de mensen mee die afwachten, zonder de enthousiastelingen af te remmen?",
@@ -148,6 +172,13 @@
       "Hoe zie ik of het iets oplevert, zonder een meetsysteem op te tuigen?",
       "Het verschil met een workshop zit in de tijd. Een workshop legt een basis, maar de meeste vragen ontstaan pas weken later, als iemand een tool in zijn eigen werk probeert. Adoptie verspreidt zich via collega’s en leidinggevenden, niet via trainingen alleen; dat beschreef ik uitgebreider in AI-adoptie begint bij het werk. AI coaching richt zich precies op die mensen die het voorbeeld moeten geven.",
       "Ik ben daarbij een onafhankelijke AI-coach: ik verkoop geen software of licenties, en adviseer dus ook geen tool omdat ik er iets aan verdien.",
+      "Is AI coaching een doorlopend traject zonder eindpunt?",
+      "Nee. Elk traject AI coaching is afgebakend en afbouwen is het doel: aan het eind moet het team zonder de coach verder kunnen, met iemand uit het team die de rol van aanspreekpunt overneemt.",
+      "Neemt de coach bij AI coaching de besluiten over?",
+      "Nee. Bij AI coaching blijven besluit en uitvoering bij de manager en het team. De coach stelt vragen, deelt wat in vergelijkbare situaties vaak werkt en helpt keuzes scherp te krijgen.",
+      "Past AI coaching bij een organisatiebrede vraag?",
+      "AI coaching past minder als de vraag organisatiebreed is: moet er iemand de AI-agenda van de hele organisatie sturen, dan is de Fractional AI Lead de betere vorm.",
+      "Bron: Dave Willemstein, onafhankelijk AI-adviseur. Bijgewerkt: oktober 2026.",
       "Voor wie is AI coaching?",
       "AI coaching is bedoeld voor management en teamleads die verantwoordelijk zijn voor hoe hun team werkt. Het past als:",
       "je team toegang heeft tot AI-tools, maar het gebruik blijft hangen bij een paar mensen;",
@@ -205,301 +236,308 @@
     {
       "regio": "header",
       "soort": "intern",
-      "href": "/",
+      "href": "/nl",
       "anker": "",
       "rel": null
     },
     {
       "regio": "header",
       "soort": "intern",
-      "href": "/diensten",
+      "href": "/nl/diensten",
       "anker": "Diensten",
       "rel": null
     },
     {
       "regio": "header",
       "soort": "intern",
-      "href": "/cases",
+      "href": "/nl/cases",
       "anker": "Cases",
       "rel": null
     },
     {
       "regio": "header",
       "soort": "intern",
-      "href": "/werkwijze",
+      "href": "/nl/werkwijze",
       "anker": "Werkwijze",
       "rel": null
     },
     {
       "regio": "header",
       "soort": "intern",
-      "href": "/inzichten",
+      "href": "/nl/inzichten",
       "anker": "Inzichten",
       "rel": null
     },
     {
       "regio": "header",
       "soort": "intern",
-      "href": "/over",
+      "href": "/nl/over",
       "anker": "Over mij",
       "rel": null
     },
     {
       "regio": "header",
       "soort": "intern",
-      "href": "/contact",
+      "href": "/nl/contact",
       "anker": "Plan een gesprek →",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/",
+      "href": "/nl",
       "anker": "Home",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/ai-workshop",
+      "href": "/nl/ai-workshop",
       "anker": "AI workshop",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/contact",
+      "href": "/nl/contact",
       "anker": "Plan een adviesgesprek →",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/diensten/ai-readiness-assessment",
+      "href": "/nl/diensten/ai-readiness-assessment",
       "anker": "Bekijk het AI Readiness Assessment →",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/inzichten/ai-adoptie-begint-bij-het-werk",
+      "href": "/nl/inzichten/ai-adoptie-begint-bij-het-werk",
       "anker": "AI-adoptie begint bij het werk",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/diensten/fractional-ai-lead",
+      "href": "/nl/diensten/fractional-ai-lead",
       "anker": "Fractional AI Lead",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/ai-workshop/ai-geletterdheid-training",
+      "href": "/nl/diensten/fractional-ai-lead",
+      "anker": "Fractional AI Lead",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/nl/ai-workshop/ai-geletterdheid-training",
       "anker": "training AI-geletterdheid",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/ai-workshop/copilot-training",
+      "href": "/nl/ai-workshop/copilot-training",
       "anker": "Copilot training",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/tarieven",
+      "href": "/nl/tarieven",
       "anker": "tarieven",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/ai-workshop",
+      "href": "/nl/ai-workshop",
       "anker": "AI workshops en trainingen voor bedrijven",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/contact",
+      "href": "/nl/contact",
       "anker": "Plan een adviesgesprek",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/over",
+      "href": "/nl/over",
       "anker": "Over mij",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/partnernetwerk",
+      "href": "/nl/partnernetwerk",
       "anker": "Mijn partnernetwerk",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/diensten/ai-readiness-assessment",
+      "href": "/nl/diensten/ai-readiness-assessment",
       "anker": "Weten waar je staat met AI? Bekijk het AI Readiness Assessment →",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/contact",
+      "href": "/nl/contact",
       "anker": "Plan een gesprek →",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/diensten/ai-readiness-assessment",
+      "href": "/nl/diensten/ai-readiness-assessment",
       "anker": "AI Readiness Assessment",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/diensten/ai-strategy-sprint",
+      "href": "/nl/diensten/ai-strategy-sprint",
       "anker": "AI Strategy Sprint",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/diensten/fractional-ai-lead",
+      "href": "/nl/diensten/fractional-ai-lead",
       "anker": "Fractional AI Lead",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/diensten",
+      "href": "/nl/diensten",
       "anker": "Alle diensten",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/cases",
+      "href": "/nl/cases",
       "anker": "Cases",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/werkwijze",
+      "href": "/nl/werkwijze",
       "anker": "Werkwijze",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/inzichten",
+      "href": "/nl/inzichten",
       "anker": "Inzichten",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/veelgestelde-vragen",
+      "href": "/nl/veelgestelde-vragen",
       "anker": "Veelgestelde vragen",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/over",
+      "href": "/nl/over",
       "anker": "Over mij",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-consultancy",
+      "href": "/nl/ai-consultancy",
       "anker": "AI consultancy",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-implementatie",
+      "href": "/nl/ai-implementatie",
       "anker": "AI implementatie",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-automatisering",
+      "href": "/nl/ai-automatisering",
       "anker": "AI automatisering",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-voor-bedrijven",
+      "href": "/nl/ai-voor-bedrijven",
       "anker": "AI voor bedrijven",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-development",
+      "href": "/nl/ai-development",
       "anker": "AI development",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-agents",
+      "href": "/nl/ai-agents",
       "anker": "AI agents",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-beleid",
+      "href": "/nl/ai-beleid",
       "anker": "AI beleid",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-workshop",
+      "href": "/nl/ai-workshop",
       "anker": "AI workshop",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/markten",
+      "href": "/nl/markten",
       "anker": "AI per branche",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/kennisbank",
+      "href": "/nl/kennisbank",
       "anker": "Kennisbank",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/tarieven",
+      "href": "/nl/tarieven",
       "anker": "Tarieven",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/partnernetwerk",
+      "href": "/nl/partnernetwerk",
       "anker": "Partnernetwerk",
       "rel": null
     },
@@ -520,27 +558,27 @@
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/contact",
+      "href": "/nl/contact",
       "anker": "Plan een gesprek",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/privacy",
+      "href": "/nl/privacy",
       "anker": "Privacyverklaring",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/algemene-voorwaarden",
+      "href": "/nl/algemene-voorwaarden",
       "anker": "Algemene voorwaarden",
       "rel": null
     }
   ],
   "structured_data": {
-    "sha256": "df8a76033b91a7d45daaa4ae813ff6a8b9f9e80f02bf5e455167e2f0188c461b",
+    "sha256": "ae0ce9d3f9d12c76b7ad73510b8d704d9300f3fc03f42929f5fa88889eae8e8d",
     "items": [
       {
         "@context": "https://schema.org",
@@ -552,19 +590,19 @@
                 "@type": "ListItem",
                 "position": 1,
                 "name": "Home",
-                "item": "https://freelanceaiconsultant.com/"
+                "item": "https://freelanceaiconsultant.com/nl"
               },
               {
                 "@type": "ListItem",
                 "position": 2,
                 "name": "AI workshop",
-                "item": "https://freelanceaiconsultant.com/ai-workshop"
+                "item": "https://freelanceaiconsultant.com/nl/ai-workshop"
               },
               {
                 "@type": "ListItem",
                 "position": 3,
                 "name": "AI coaching",
-                "item": "https://freelanceaiconsultant.com/ai-workshop/ai-coaching"
+                "item": "https://freelanceaiconsultant.com/nl/ai-workshop/ai-coaching"
               }
             ]
           },
@@ -573,7 +611,7 @@
             "name": "AI coaching",
             "serviceType": "ai coaching",
             "description": "Met AI coaching krijgen managers en teams persoonlijke begeleiding bij het toepassen van AI. Van eerste stappen tot structurele verandering in het team.",
-            "url": "https://freelanceaiconsultant.com/ai-workshop/ai-coaching",
+            "url": "https://freelanceaiconsultant.com/nl/ai-workshop/ai-coaching",
             "areaServed": "NL",
             "provider": {
               "@type": "Person",
@@ -619,6 +657,38 @@
                   "@type": "Answer",
                   "text": "Dan zeg ik dat. Soms blijkt dat de echte belemmering in beleid, licenties of data zit, en niet in het team. Dan is een breder traject zinvoller dan doorgaan met coaching, en bespreken we welke vorm past."
                 }
+              },
+              {
+                "@type": "Question",
+                "name": "Wat is AI coaching?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "AI coaching van Dave Willemstein is persoonlijke begeleiding voor managers en teamleads die AI in het dagelijkse werk van hun team willen laten landen, in de vorm van gesprekken en werksessies rond de vragen van dat moment. Een traject is afgebakend: het doel, het aantal sessies bij benadering en het eindpunt worden vooraf afgesproken. Voor AI coaching geldt een vaste prijs per opdracht; het valt onder afgebakend advies."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Is AI coaching een doorlopend traject zonder eindpunt?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Nee. Elk traject AI coaching is afgebakend en afbouwen is het doel: aan het eind moet het team zonder de coach verder kunnen, met iemand uit het team die de rol van aanspreekpunt overneemt."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Neemt de coach bij AI coaching de besluiten over?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Nee. Bij AI coaching blijven besluit en uitvoering bij de manager en het team. De coach stelt vragen, deelt wat in vergelijkbare situaties vaak werkt en helpt keuzes scherp te krijgen."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Past AI coaching bij een organisatiebrede vraag?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "AI coaching past minder als de vraag organisatiebreed is: moet er iemand de AI-agenda van de hele organisatie sturen, dan is de Fractional AI Lead de betere vorm."
+                }
               }
             ]
           }
@@ -662,12 +732,12 @@
     ],
     "stylesheets": [
       "https://fonts.googleapis.com/css2?family=Caveat:wght@600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap",
-      "/_astro/_slug_.bq6BBoZ5.css",
-      "/_astro/_slug_.goiX3PVF.css",
+      "/_astro/_slug_.BzqUXH8l.css",
+      "/_astro/_slug_.Do5RJXa7.css",
       "/logo-carousel/logo-carousel.css?v=2"
     ],
     "aantal_details": 4,
     "aantal_tabellen": 0
   },
-  "gemeten_op": "2026-10-06"
+  "gemeten_op": "2026-10-29"
 }

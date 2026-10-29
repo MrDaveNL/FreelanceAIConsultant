@@ -2,7 +2,7 @@
   "url": "/ai-development/ai-specialist",
   "build_bestand": "dist/ai-development/ai-specialist/index.html",
   "html": {
-    "bytes": 39154,
+    "bytes": 38986,
     "lang": "nl"
   },
   "beschermd": {
@@ -111,8 +111,8 @@
   ],
   "bodytekst": {
     "regio": "main",
-    "woorden": 1841,
-    "sha256": "14f7c057e01647ccd8773ed0165b79e0634afbe221091730b08c7ff600a56ed4",
+    "woorden": 1827,
+    "sha256": "60584d5cd6173aef47c18186910058cfb47403962e17fa275efb8e0d4de0fbb2",
     "blokken": [
       "Home",
       "AI Development",
@@ -184,13 +184,13 @@
       "Zakelijke dienstverlener",
       "Interne AI-assistent voor kenniswerkers",
       "Welke AI specialist past bij welke vraag en wat kost strategische inzet?",
-      "AI specialist is een verzamelnaam voor strategische specialisten, die vooral besluiten voorbereiden en sturen, en technische specialisten, die vooral bouwen; het benodigde profiel volgt uit het besluit of het product dat een organisatie nodig heeft. Dave Willemstein is een AI specialist aan de strategische kant, die adviseert en begeleidt maar niet bouwt. Voor een doorlichting is er het AI Readiness Assessment van 2-3 weken voor een vaste prijs of vast maandbedrag, vastgelegd in het voorstel, voor begeleiding vanuit klantzijde de Fractional AI Lead.",
+      "AI specialist is een verzamelnaam voor strategische specialisten, die vooral besluiten voorbereiden en sturen, en technische specialisten, die vooral bouwen; het benodigde profiel volgt uit het besluit of het product dat een organisatie nodig heeft. Dave Willemstein is een AI specialist aan de strategische kant, die adviseert en begeleidt maar niet bouwt. Voor een doorlichting is er het AI Readiness Assessment van 2-3 weken voor een vaste projectprijs, voor begeleiding vanuit klantzijde de Fractional AI Lead.",
       "Wat levert een strategische AI specialist op?",
       "Een strategische AI specialist levert een onderbouwde keuze op: een roadmap, een selectieadvies of een beoordeelde business case. Werkende software is het product van technische AI specialisten, zoals een machine learning expert, een AI-developer of een platformspecialist.",
       "Welke AI specialist is nodig als nog onduidelijk is waar AI waarde toevoegt?",
       "Een strategische AI specialist: wie nog niet weet waar AI waarde toevoegt, heeft strategische AI-expertise nodig, iemand die kansen, risico's en randvoorwaarden in kaart brengt voordat er budget wordt vastgezet. Wie weet wat er moet komen en bouwcapaciteit zoekt, heeft technische specialisten nodig: het eigen team, een ontwikkelpartij of freelance ontwikkelaars.",
       "Kan de Fractional AI Lead meesturen als een bouwpartij het werk uitvoert?",
-      "Ja, vanuit klantzijde: de Fractional AI Lead stuurt mee op uitvoering door het eigen team of een bouwpartij. De Fractional AI Lead kost een vaste prijs of vast maandbedrag, vastgelegd in het voorstel.",
+      "Ja, vanuit klantzijde: de Fractional AI Lead stuurt mee op uitvoering door het eigen team of een bouwpartij. De Fractional AI Lead kost een vast maandbedrag.",
       "Bron: tarieven en doorlooptijden van Dave Willemstein. Bijgewerkt: oktober 2026.",
       "Wat doet een AI specialist?",
       "Een AI specialist helpt een organisatie om kunstmatige intelligentie zinvol in te zetten. Dat klinkt eenduidig, maar de titel dekt heel verschillend werk. De ene AI specialist traint en test modellen, de andere koppelt een taalmodel aan je documentsysteem, en een derde helpt de directie bepalen welke AI-investeringen het waard zijn en welke niet.",
@@ -666,7 +666,7 @@
     }
   ],
   "structured_data": {
-    "sha256": "2059a08156307305ceb86328c94794ea208b5c2d48558bcd5c6d069fe2a39819",
+    "sha256": "1784aafc231e572274aaa1cf4f57c9015c564137357748bdce9790cdcddcb931",
     "items": [
       {
         "@context": "https://schema.org",
@@ -759,7 +759,7 @@
                 "name": "Welke AI specialist past bij welke vraag en wat kost strategische inzet?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "AI specialist is een verzamelnaam voor strategische specialisten, die vooral besluiten voorbereiden en sturen, en technische specialisten, die vooral bouwen; het benodigde profiel volgt uit het besluit of het product dat een organisatie nodig heeft. Dave Willemstein is een AI specialist aan de strategische kant, die adviseert en begeleidt maar niet bouwt. Voor een doorlichting is er het AI Readiness Assessment van 2-3 weken voor een vaste prijs of vast maandbedrag, vastgelegd in het voorstel, voor begeleiding vanuit klantzijde de Fractional AI Lead."
+                  "text": "AI specialist is een verzamelnaam voor strategische specialisten, die vooral besluiten voorbereiden en sturen, en technische specialisten, die vooral bouwen; het benodigde profiel volgt uit het besluit of het product dat een organisatie nodig heeft. Dave Willemstein is een AI specialist aan de strategische kant, die adviseert en begeleidt maar niet bouwt. Voor een doorlichting is er het AI Readiness Assessment van 2-3 weken voor een vaste projectprijs, voor begeleiding vanuit klantzijde de Fractional AI Lead."
                 }
               },
               {
@@ -783,7 +783,7 @@
                 "name": "Kan de Fractional AI Lead meesturen als een bouwpartij het werk uitvoert?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "Ja, vanuit klantzijde: de Fractional AI Lead stuurt mee op uitvoering door het eigen team of een bouwpartij. De Fractional AI Lead kost een vaste prijs of vast maandbedrag, vastgelegd in het voorstel."
+                  "text": "Ja, vanuit klantzijde: de Fractional AI Lead stuurt mee op uitvoering door het eigen team of een bouwpartij. De Fractional AI Lead kost een vast maandbedrag."
                 }
               }
             ]
@@ -835,5 +835,5 @@
     "aantal_details": 5,
     "aantal_tabellen": 0
   },
-  "gemeten_op": "2026-10-28"
+  "gemeten_op": "2026-10-29"
 }

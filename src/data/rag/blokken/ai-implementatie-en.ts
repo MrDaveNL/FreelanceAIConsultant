@@ -6,7 +6,7 @@ export default {
   "onderwerp": "AI implementation",
   "vraagkop": "What does guidance for AI implementation cost, and who builds the solution?",
   "onderBestaandeKop": false,
-  "antwoord": "With an AI implementation, your own team or a directly contracted partner builds the solution; {{afzender}} guides from the client's side of the table by helping choose, setting the framework, testing the delivery and making sure the application lands in the organisation. That guidance works as follows: {{dienst:ai-readiness-assessment}} takes {{timing:ai-readiness-assessment}} for a fixed price, and ongoing steering through {{dienst:fractional-ai-lead}} is for a fixed monthly fee. The cost of the build or licence depends on the chosen solution and vendor and is budgeted separately, including management after go-live.",
+  "antwoord": "With an AI implementation, your own team or a directly contracted partner builds the solution; {{afzender}} guides from the client's side of the table by helping choose, setting the framework, testing the delivery and making sure the application lands in the organisation. That guidance works as follows: {{dienst:ai-readiness-assessment}} takes {{timing:ai-readiness-assessment}} for a fixed project fee, and ongoing steering through {{dienst:fractional-ai-lead}} is for a fixed monthly fee. The cost of the build or licence depends on the chosen solution and vendor and is budgeted separately, including management after go-live.",
   "tabel": {
     "bijschrift": "Guidance for AI implementation: the right service per situation",
     "kolommen": [

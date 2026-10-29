@@ -2,15 +2,28 @@
   "url": "/kennisbank/wat-doet-een-bi-specialist",
   "build_bestand": "dist/kennisbank/wat-doet-een-bi-specialist/index.html",
   "html": {
-    "bytes": 30495,
+    "bytes": 34584,
     "lang": "nl"
   },
   "beschermd": {
     "title": "Wat doet een BI specialist? Taken, skills en rol naast AI",
     "meta_description": "Wat doet een BI specialist en hoe verandert die rol door AI? Lees over taken, vaardigheden, tools en wanneer je een BI specialist of AI specialist inschakelt.",
-    "canonical": "https://freelanceaiconsultant.com/kennisbank/wat-doet-een-bi-specialist",
+    "canonical": "https://freelanceaiconsultant.com/nl/kennisbank/wat-doet-een-bi-specialist",
     "robots_meta": null,
-    "hreflang": [],
+    "hreflang": [
+      {
+        "hreflang": "en",
+        "href": "https://freelanceaiconsultant.com/knowledge-base/what-does-a-bi-specialist-do"
+      },
+      {
+        "hreflang": "nl",
+        "href": "https://freelanceaiconsultant.com/nl/kennisbank/wat-doet-een-bi-specialist"
+      },
+      {
+        "hreflang": "x-default",
+        "href": "https://freelanceaiconsultant.com/knowledge-base/what-does-a-bi-specialist-do"
+      }
+    ],
     "h1": [
       "Wat doet een BI specialist?"
     ]
@@ -21,7 +34,7 @@
     "og:site_name": "freelanceaiconsultant.com",
     "og:title": "Wat doet een BI specialist? Taken, skills en rol naast AI",
     "og:description": "Wat doet een BI specialist en hoe verandert die rol door AI? Lees over taken, vaardigheden, tools en wanneer je een BI specialist of AI specialist inschakelt.",
-    "og:url": "https://freelanceaiconsultant.com/kennisbank/wat-doet-een-bi-specialist",
+    "og:url": "https://freelanceaiconsultant.com/nl/kennisbank/wat-doet-een-bi-specialist",
     "og:image": "https://freelanceaiconsultant.com/images/dave-portrait.jpg",
     "twitter:card": "summary_large_image",
     "twitter:title": "Wat doet een BI specialist? Taken, skills en rol naast AI",
@@ -40,6 +53,24 @@
       "tekst": "Wat is een BI specialist?",
       "regio": "main",
       "id": "wat-is-een-bi-specialist"
+    },
+    {
+      "niveau": 3,
+      "tekst": "Hoe verandert AI het werk van een BI specialist?",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 3,
+      "tekst": "Is een BI specialist eerder nodig dan een AI specialist?",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 3,
+      "tekst": "Welke namen heeft de functie van BI specialist?",
+      "regio": "main",
+      "id": null
     },
     {
       "niveau": 2,
@@ -68,8 +99,8 @@
   ],
   "bodytekst": {
     "regio": "main",
-    "woorden": 1400,
-    "sha256": "6bf81dde1cac4d69e172dd2e34858d1faf2994d889a1576c6877766cad5cb8fc",
+    "woorden": 1614,
+    "sha256": "7883d83df63c2194a0c52f840b82c43d8a64b2402b3d1651050fb92b34aad410",
     "blokken": [
       "Home",
       "Kennisbank",
@@ -142,9 +173,17 @@
       "Zakelijke dienstverlener",
       "Interne AI-assistent voor kenniswerkers",
       "Wat is een BI specialist?",
+      "Een BI specialist zorgt dat een organisatie stuurt op cijfers die kloppen, overal hetzelfde betekenen en op tijd beschikbaar zijn. Het werk bestaat uit vragen ophalen bij de business, data uit bronsystemen samenbrengen, een datamodel met definities inrichten en rapportages en dashboards maken en uitleggen. Waar een BI specialist verklaart wat er is gebeurd, richt een AI specialist zich op voorspellen en op het automatiseren van taken met AI.",
       "Een BI specialist, voluit business intelligence specialist, is verantwoordelijk voor de informatievoorziening waarop een organisatie stuurt. BI specialisten zorgen ervoor dat de omzet, marge, voorraad of klanttevredenheid die het managementteam ziet, klopt, overal hetzelfde betekent en op tijd beschikbaar is.",
       "De functie heeft in de praktijk veel namen: BI consultant, BI developer, data analist of reporting specialist. De accenten verschillen. De een zit dichter bij de techniek en bouwt datapijplijnen en datamodellen; de ander zit dichter bij de business en vertaalt vragen van managers naar rapportages. Wat ze delen, is de brugfunctie tussen de mensen die beslissingen nemen en de systemen waarin de gegevens staan.",
       "Een BI specialist werkt vaak in een datateam, bij de afdeling finance of control, of als externe consultant bij een BI-partij. In kleinere organisaties is het regelmatig iemand die de rol naast een andere functie vervult.",
+      "Hoe verandert AI het werk van een BI specialist?",
+      "Doordat AI routinewerk van de BI specialist overneemt, worden datamodellering, definities en advies belangrijker. Een BI specialist die kan uitleggen hoe data tot stand komt en waar de beperkingen zitten, wordt waardevoller.",
+      "Is een BI specialist eerder nodig dan een AI specialist?",
+      "In de praktijk zijn een BI specialist en een AI specialist vaak allebei nodig, en in die volgorde. Een AI-toepassing op bedrijfscijfers is zo betrouwbaar als de definities en de data eronder; dat fundament is typisch het werk van een BI specialist.",
+      "Welke namen heeft de functie van BI specialist?",
+      "In de praktijk heeft de functie van BI specialist veel namen: BI consultant, BI developer, data analist of reporting specialist. De accenten verschillen: de een zit dichter bij de techniek, de ander dichter bij de business.",
+      "Bron: artikel van Dave Willemstein. Bijgewerkt: oktober 2026.",
       "Taken en vaardigheden",
       "Wat doet een business intelligence specialist op een gemiddelde werkdag? De taken laten zich in vier groepen verdelen:",
       "Vraag ophalenMet managers en teams bepalen welke vraag een rapport moet beantwoorden en welke beslissing ervan afhangt.",
@@ -217,308 +256,315 @@
     {
       "regio": "header",
       "soort": "intern",
-      "href": "/",
+      "href": "/nl",
       "anker": "",
       "rel": null
     },
     {
       "regio": "header",
       "soort": "intern",
-      "href": "/diensten",
+      "href": "/nl/diensten",
       "anker": "Diensten",
       "rel": null
     },
     {
       "regio": "header",
       "soort": "intern",
-      "href": "/cases",
+      "href": "/nl/cases",
       "anker": "Cases",
       "rel": null
     },
     {
       "regio": "header",
       "soort": "intern",
-      "href": "/werkwijze",
+      "href": "/nl/werkwijze",
       "anker": "Werkwijze",
       "rel": null
     },
     {
       "regio": "header",
       "soort": "intern",
-      "href": "/inzichten",
+      "href": "/nl/inzichten",
       "anker": "Inzichten",
       "rel": null
     },
     {
       "regio": "header",
       "soort": "intern",
-      "href": "/over",
+      "href": "/nl/over",
       "anker": "Over mij",
       "rel": null
     },
     {
       "regio": "header",
       "soort": "intern",
-      "href": "/contact",
+      "href": "/knowledge-base/what-does-a-bi-specialist-do",
+      "anker": "EN",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/nl/contact",
       "anker": "Plan een gesprek →",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/",
+      "href": "/nl",
       "anker": "Home",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/kennisbank",
+      "href": "/nl/kennisbank",
       "anker": "Kennisbank",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/ai-voor-bedrijven/ai-en-bi",
+      "href": "/nl/ai-voor-bedrijven/ai-en-bi",
       "anker": "Lees meer over AI en BI →",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/contact",
+      "href": "/nl/contact",
       "anker": "Plan een adviesgesprek →",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/over",
+      "href": "/nl/over",
       "anker": "Dave Willemstein",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/ai-development/ai-specialist",
+      "href": "/nl/ai-development/ai-specialist",
       "anker": "de AI specialist",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/ai-voor-bedrijven/ai-en-bi",
+      "href": "/nl/ai-voor-bedrijven/ai-en-bi",
       "anker": "AI en BI",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/partnernetwerk",
+      "href": "/nl/partnernetwerk",
       "anker": "partnernetwerk",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/ai-voor-bedrijven/mkb",
+      "href": "/nl/ai-voor-bedrijven/mkb",
       "anker": "AI voor het mkb",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/ai-voor-bedrijven/zakelijke-dienstverleners",
+      "href": "/nl/ai-voor-bedrijven/zakelijke-dienstverleners",
       "anker": "AI voor zakelijke dienstverleners",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/ai-voor-bedrijven",
+      "href": "/nl/ai-voor-bedrijven",
       "anker": "AI voor bedrijven",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/contact",
+      "href": "/nl/contact",
       "anker": "Plan een kort gesprek",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/over",
+      "href": "/nl/over",
       "anker": "Over mij",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/partnernetwerk",
+      "href": "/nl/partnernetwerk",
       "anker": "Mijn partnernetwerk",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/diensten/ai-readiness-assessment",
+      "href": "/nl/diensten/ai-readiness-assessment",
       "anker": "Weten waar je staat met AI? Bekijk het AI Readiness Assessment →",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/contact",
+      "href": "/nl/contact",
       "anker": "Plan een gesprek →",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/diensten/ai-readiness-assessment",
+      "href": "/nl/diensten/ai-readiness-assessment",
       "anker": "AI Readiness Assessment",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/diensten/ai-strategy-sprint",
+      "href": "/nl/diensten/ai-strategy-sprint",
       "anker": "AI Strategy Sprint",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/diensten/fractional-ai-lead",
+      "href": "/nl/diensten/fractional-ai-lead",
       "anker": "Fractional AI Lead",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/diensten",
+      "href": "/nl/diensten",
       "anker": "Alle diensten",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/cases",
+      "href": "/nl/cases",
       "anker": "Cases",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/werkwijze",
+      "href": "/nl/werkwijze",
       "anker": "Werkwijze",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/inzichten",
+      "href": "/nl/inzichten",
       "anker": "Inzichten",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/veelgestelde-vragen",
+      "href": "/nl/veelgestelde-vragen",
       "anker": "Veelgestelde vragen",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/over",
+      "href": "/nl/over",
       "anker": "Over mij",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-consultancy",
+      "href": "/nl/ai-consultancy",
       "anker": "AI consultancy",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-implementatie",
+      "href": "/nl/ai-implementatie",
       "anker": "AI implementatie",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-automatisering",
+      "href": "/nl/ai-automatisering",
       "anker": "AI automatisering",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-voor-bedrijven",
+      "href": "/nl/ai-voor-bedrijven",
       "anker": "AI voor bedrijven",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-development",
+      "href": "/nl/ai-development",
       "anker": "AI development",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-agents",
+      "href": "/nl/ai-agents",
       "anker": "AI agents",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-beleid",
+      "href": "/nl/ai-beleid",
       "anker": "AI beleid",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-workshop",
+      "href": "/nl/ai-workshop",
       "anker": "AI workshop",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/markten",
+      "href": "/nl/markten",
       "anker": "AI per branche",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/kennisbank",
+      "href": "/nl/kennisbank",
       "anker": "Kennisbank",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/tarieven",
+      "href": "/nl/tarieven",
       "anker": "Tarieven",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/partnernetwerk",
+      "href": "/nl/partnernetwerk",
       "anker": "Partnernetwerk",
       "rel": null
     },
@@ -539,27 +585,27 @@
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/contact",
+      "href": "/nl/contact",
       "anker": "Plan een gesprek",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/privacy",
+      "href": "/nl/privacy",
       "anker": "Privacyverklaring",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/algemene-voorwaarden",
+      "href": "/nl/algemene-voorwaarden",
       "anker": "Algemene voorwaarden",
       "rel": null
     }
   ],
   "structured_data": {
-    "sha256": "28071f75d2cfbe57d190f118f811fc3ecef51b4b36038ec78da7cb41cedcec6a",
+    "sha256": "4c3b18fe657df9c7bd11f8a716f8c79f543ab976e1f65d2c981a9c48aedd0f0c",
     "items": [
       {
         "@context": "https://schema.org",
@@ -571,19 +617,19 @@
                 "@type": "ListItem",
                 "position": 1,
                 "name": "Home",
-                "item": "https://freelanceaiconsultant.com/"
+                "item": "https://freelanceaiconsultant.com/nl"
               },
               {
                 "@type": "ListItem",
                 "position": 2,
                 "name": "Kennisbank",
-                "item": "https://freelanceaiconsultant.com/kennisbank"
+                "item": "https://freelanceaiconsultant.com/nl/kennisbank"
               },
               {
                 "@type": "ListItem",
                 "position": 3,
                 "name": "Wat doet een BI specialist?",
-                "item": "https://freelanceaiconsultant.com/kennisbank/wat-doet-een-bi-specialist"
+                "item": "https://freelanceaiconsultant.com/nl/kennisbank/wat-doet-een-bi-specialist"
               }
             ]
           },
@@ -607,7 +653,44 @@
               "@type": "Person",
               "name": "Dave Willemstein"
             },
-            "mainEntityOfPage": "https://freelanceaiconsultant.com/kennisbank/wat-doet-een-bi-specialist"
+            "mainEntityOfPage": "https://freelanceaiconsultant.com/nl/kennisbank/wat-doet-een-bi-specialist"
+          },
+          {
+            "@type": "FAQPage",
+            "mainEntity": [
+              {
+                "@type": "Question",
+                "name": "Wat is een BI specialist?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Een BI specialist zorgt dat een organisatie stuurt op cijfers die kloppen, overal hetzelfde betekenen en op tijd beschikbaar zijn. Het werk bestaat uit vragen ophalen bij de business, data uit bronsystemen samenbrengen, een datamodel met definities inrichten en rapportages en dashboards maken en uitleggen. Waar een BI specialist verklaart wat er is gebeurd, richt een AI specialist zich op voorspellen en op het automatiseren van taken met AI."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Hoe verandert AI het werk van een BI specialist?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Doordat AI routinewerk van de BI specialist overneemt, worden datamodellering, definities en advies belangrijker. Een BI specialist die kan uitleggen hoe data tot stand komt en waar de beperkingen zitten, wordt waardevoller."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Is een BI specialist eerder nodig dan een AI specialist?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "In de praktijk zijn een BI specialist en een AI specialist vaak allebei nodig, en in die volgorde. Een AI-toepassing op bedrijfscijfers is zo betrouwbaar als de definities en de data eronder; dat fundament is typisch het werk van een BI specialist."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Welke namen heeft de functie van BI specialist?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "In de praktijk heeft de functie van BI specialist veel namen: BI consultant, BI developer, data analist of reporting specialist. De accenten verschillen: de een zit dichter bij de techniek, de ander dichter bij de business."
+                }
+              }
+            ]
           }
         ]
       }
@@ -649,12 +732,12 @@
     ],
     "stylesheets": [
       "https://fonts.googleapis.com/css2?family=Caveat:wght@600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap",
-      "/_astro/_slug_.bq6BBoZ5.css",
-      "/_astro/_slug_.goiX3PVF.css",
+      "/_astro/_slug_.BzqUXH8l.css",
+      "/_astro/_slug_.Do5RJXa7.css",
       "/logo-carousel/logo-carousel.css?v=2"
     ],
     "aantal_details": 0,
     "aantal_tabellen": 1
   },
-  "gemeten_op": "2026-10-06"
+  "gemeten_op": "2026-10-29"
 }

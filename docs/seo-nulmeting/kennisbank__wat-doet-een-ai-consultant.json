@@ -2,15 +2,28 @@
   "url": "/kennisbank/wat-doet-een-ai-consultant",
   "build_bestand": "dist/kennisbank/wat-doet-een-ai-consultant/index.html",
   "html": {
-    "bytes": 35741,
+    "bytes": 39934,
     "lang": "nl"
   },
   "beschermd": {
     "title": "Wat doet een AI consultant? Taken, rol en meerwaarde",
     "meta_description": "Wat doet een AI consultant precies? Lees welke taken een AI consultant heeft, welke vaardigheden belangrijk zijn en wanneer inhuren voor jouw bedrijf loont.",
-    "canonical": "https://freelanceaiconsultant.com/kennisbank/wat-doet-een-ai-consultant",
+    "canonical": "https://freelanceaiconsultant.com/nl/kennisbank/wat-doet-een-ai-consultant",
     "robots_meta": null,
-    "hreflang": [],
+    "hreflang": [
+      {
+        "hreflang": "en",
+        "href": "https://freelanceaiconsultant.com/knowledge-base/what-does-an-ai-consultant-do"
+      },
+      {
+        "hreflang": "nl",
+        "href": "https://freelanceaiconsultant.com/nl/kennisbank/wat-doet-een-ai-consultant"
+      },
+      {
+        "hreflang": "x-default",
+        "href": "https://freelanceaiconsultant.com/knowledge-base/what-does-an-ai-consultant-do"
+      }
+    ],
     "h1": [
       "Wat doet een AI consultant?"
     ]
@@ -21,7 +34,7 @@
     "og:site_name": "freelanceaiconsultant.com",
     "og:title": "Wat doet een AI consultant? Taken, rol en meerwaarde",
     "og:description": "Wat doet een AI consultant precies? Lees welke taken een AI consultant heeft, welke vaardigheden belangrijk zijn en wanneer inhuren voor jouw bedrijf loont.",
-    "og:url": "https://freelanceaiconsultant.com/kennisbank/wat-doet-een-ai-consultant",
+    "og:url": "https://freelanceaiconsultant.com/nl/kennisbank/wat-doet-een-ai-consultant",
     "og:image": "https://freelanceaiconsultant.com/images/dave-portrait.jpg",
     "twitter:card": "summary_large_image",
     "twitter:title": "Wat doet een AI consultant? Taken, rol en meerwaarde",
@@ -40,6 +53,24 @@
       "tekst": "Wat is een AI consultant?",
       "regio": "main",
       "id": "wat-is-een-ai-consultant"
+    },
+    {
+      "niveau": 3,
+      "tekst": "Is elke AI consultant onafhankelijk van leveranciers?",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 3,
+      "tekst": "Wat is het risico als één partij zowel AI consultant als AI developer is?",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 3,
+      "tekst": "Wanneer loont een AI consultant?",
+      "regio": "main",
+      "id": null
     },
     {
       "niveau": 2,
@@ -104,8 +135,8 @@
   ],
   "bodytekst": {
     "regio": "main",
-    "woorden": 1711,
-    "sha256": "1aef8ebd867c8b43f96c27c67d255bba8d2fef2f4bd6c3406f38d0f4049f77a2",
+    "woorden": 1931,
+    "sha256": "a6b254ce715cdd7e0e719ed789e39e570000b23d767bcbd107f05404fc56fe10",
     "blokken": [
       "Home",
       "Kennisbank",
@@ -178,9 +209,17 @@
       "Zakelijke dienstverlener",
       "Interne AI-assistent voor kenniswerkers",
       "Wat is een AI consultant?",
+      "Een AI consultant adviseert organisaties over de keuzes rond kunstmatige intelligentie: welke problemen AI oplost en welke niet, wat het kost, welke risico's meespelen en wie waarvoor verantwoordelijk is. De kerntaken zijn strategie bepalen, use cases selecteren, de implementatie begeleiden en governance inrichten. Code schrijven en modellen trainen hoort meestal niet bij de rol: dat is het werk van een AI developer.",
       "Een AI consultant is een adviseur die organisaties helpt om kunstmatige intelligentie zinvol in te zetten. Wat doet een AI consultant dan precies? Hij of zij vertaalt de mogelijkheden van AI naar keuzes voor jouw organisatie: welke problemen je ermee oplost, welke niet, wat het kost, welke risico’s erbij horen en wie waarvoor verantwoordelijk is.",
       "Het werk zit dus vooral aan de besliskant. Een AI consultant schrijft meestal zelf geen code en traint geen modellen. De meerwaarde zit in overzicht, ervaring met vergelijkbare vraagstukken en de vrijheid om te zeggen wat intern lastig te zeggen is.",
       "Er zijn grofweg twee soorten AI consultants: onafhankelijke adviseurs, die alleen aan advies verdienen, en consultants die ook implementatiepartner of reseller zijn van bepaalde platforms. Beide kunnen goed werk leveren, maar het verschil bepaalt hoe vrij het advies is. Ik ben zelf een onafhankelijke AI-adviseur en bouw of verkoop geen software.",
+      "Is elke AI consultant onafhankelijk van leveranciers?",
+      "Dat verschilt per AI consultant: er zijn grofweg twee soorten, namelijk onafhankelijke adviseurs die alleen aan advies verdienen en consultants die ook implementatiepartner of reseller van bepaalde platforms zijn. Beide soorten kunnen goed werk leveren, maar het verschil bepaalt hoe vrij het advies van de AI consultant is.",
+      "Wat is het risico als één partij zowel AI consultant als AI developer is?",
+      "Het wordt riskant als één partij de rol van AI consultant en die van AI developer heeft en aan de bouw verdient. Het advies heeft dan belang bij een grotere scope.",
+      "Wanneer loont een AI consultant?",
+      "Kort gezegd loont een AI consultant bij besluiten die duur of moeilijk terug te draaien zijn, bij interne patstellingen, als een investering verantwoord moet worden of als iets voor het eerst onder tijdsdruk gebeurt. Er zijn ook gevallen waarin een organisatie het beter zelf doet.",
+      "Bron: artikel van Dave Willemstein. Bijgewerkt: oktober 2026.",
       "Taken van een AI consultant",
       "De taken van een AI consultant volgen grofweg de levenscyclus van een AI-besluit: van richting bepalen tot borgen dat het werkt.",
       "StrategieBepalen wat AI moet bijdragen aan de doelen van de organisatie.",
@@ -263,350 +302,357 @@
     {
       "regio": "header",
       "soort": "intern",
-      "href": "/",
+      "href": "/nl",
       "anker": "",
       "rel": null
     },
     {
       "regio": "header",
       "soort": "intern",
-      "href": "/diensten",
+      "href": "/nl/diensten",
       "anker": "Diensten",
       "rel": null
     },
     {
       "regio": "header",
       "soort": "intern",
-      "href": "/cases",
+      "href": "/nl/cases",
       "anker": "Cases",
       "rel": null
     },
     {
       "regio": "header",
       "soort": "intern",
-      "href": "/werkwijze",
+      "href": "/nl/werkwijze",
       "anker": "Werkwijze",
       "rel": null
     },
     {
       "regio": "header",
       "soort": "intern",
-      "href": "/inzichten",
+      "href": "/nl/inzichten",
       "anker": "Inzichten",
       "rel": null
     },
     {
       "regio": "header",
       "soort": "intern",
-      "href": "/over",
+      "href": "/nl/over",
       "anker": "Over mij",
       "rel": null
     },
     {
       "regio": "header",
       "soort": "intern",
-      "href": "/contact",
+      "href": "/knowledge-base/what-does-an-ai-consultant-do",
+      "anker": "EN",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/nl/contact",
       "anker": "Plan een gesprek →",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/",
+      "href": "/nl",
       "anker": "Home",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/kennisbank",
+      "href": "/nl/kennisbank",
       "anker": "Kennisbank",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/ai-consultancy",
+      "href": "/nl/ai-consultancy",
       "anker": "Lees meer over AI consultancy →",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/contact",
+      "href": "/nl/contact",
       "anker": "Plan een adviesgesprek →",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/over",
+      "href": "/nl/over",
       "anker": "Dave Willemstein",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/over",
+      "href": "/nl/over",
       "anker": "onafhankelijke AI-adviseur",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/ai-consultancy/ai-strategie",
+      "href": "/nl/ai-consultancy/ai-strategie",
       "anker": "AI strategie",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/ai-consultancy/ai-roadmap",
+      "href": "/nl/ai-consultancy/ai-roadmap",
       "anker": "AI roadmap",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/inzichten/welke-ai-use-cases-leveren-resultaat",
+      "href": "/nl/inzichten/welke-ai-use-cases-leveren-resultaat",
       "anker": "welke AI use cases resultaat leveren",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/inzichten/build-buy-of-partner",
+      "href": "/nl/inzichten/build-buy-of-partner",
       "anker": "build, buy of partner",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/inzichten/waarom-ai-pilots-blijven-steken",
+      "href": "/nl/inzichten/waarom-ai-pilots-blijven-steken",
       "anker": "waarom AI-pilots blijven steken",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/inzichten/ai-governance-zonder-bureaucratie",
+      "href": "/nl/inzichten/ai-governance-zonder-bureaucratie",
       "anker": "AI governance zonder bureaucratie",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/inzichten/ai-adoptie-begint-bij-het-werk",
+      "href": "/nl/inzichten/ai-adoptie-begint-bij-het-werk",
       "anker": "AI-adoptie begint bij het werk",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/kennisbank/wat-doet-een-ai-developer",
+      "href": "/nl/kennisbank/wat-doet-een-ai-developer",
       "anker": "wat een AI developer doet",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/inzichten/wanneer-heb-je-echt-een-ai-strateeg-nodig",
+      "href": "/nl/inzichten/wanneer-heb-je-echt-een-ai-strateeg-nodig",
       "anker": "wanneer je echt een AI-strateeg nodig hebt",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/ai-consultancy/ai-consultant-inhuren",
+      "href": "/nl/ai-consultancy/ai-consultant-inhuren",
       "anker": "een AI consultant inhuren",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/ai-consultancy",
+      "href": "/nl/ai-consultancy",
       "anker": "AI consultancy",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/contact",
+      "href": "/nl/contact",
       "anker": "plan dan een gesprek",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/over",
+      "href": "/nl/over",
       "anker": "Over mij",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/partnernetwerk",
+      "href": "/nl/partnernetwerk",
       "anker": "Mijn partnernetwerk",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/diensten/ai-readiness-assessment",
+      "href": "/nl/diensten/ai-readiness-assessment",
       "anker": "Weten waar je staat met AI? Bekijk het AI Readiness Assessment →",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/contact",
+      "href": "/nl/contact",
       "anker": "Plan een gesprek →",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/diensten/ai-readiness-assessment",
+      "href": "/nl/diensten/ai-readiness-assessment",
       "anker": "AI Readiness Assessment",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/diensten/ai-strategy-sprint",
+      "href": "/nl/diensten/ai-strategy-sprint",
       "anker": "AI Strategy Sprint",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/diensten/fractional-ai-lead",
+      "href": "/nl/diensten/fractional-ai-lead",
       "anker": "Fractional AI Lead",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/diensten",
+      "href": "/nl/diensten",
       "anker": "Alle diensten",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/cases",
+      "href": "/nl/cases",
       "anker": "Cases",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/werkwijze",
+      "href": "/nl/werkwijze",
       "anker": "Werkwijze",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/inzichten",
+      "href": "/nl/inzichten",
       "anker": "Inzichten",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/veelgestelde-vragen",
+      "href": "/nl/veelgestelde-vragen",
       "anker": "Veelgestelde vragen",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/over",
+      "href": "/nl/over",
       "anker": "Over mij",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-consultancy",
+      "href": "/nl/ai-consultancy",
       "anker": "AI consultancy",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-implementatie",
+      "href": "/nl/ai-implementatie",
       "anker": "AI implementatie",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-automatisering",
+      "href": "/nl/ai-automatisering",
       "anker": "AI automatisering",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-voor-bedrijven",
+      "href": "/nl/ai-voor-bedrijven",
       "anker": "AI voor bedrijven",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-development",
+      "href": "/nl/ai-development",
       "anker": "AI development",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-agents",
+      "href": "/nl/ai-agents",
       "anker": "AI agents",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-beleid",
+      "href": "/nl/ai-beleid",
       "anker": "AI beleid",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-workshop",
+      "href": "/nl/ai-workshop",
       "anker": "AI workshop",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/markten",
+      "href": "/nl/markten",
       "anker": "AI per branche",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/kennisbank",
+      "href": "/nl/kennisbank",
       "anker": "Kennisbank",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/tarieven",
+      "href": "/nl/tarieven",
       "anker": "Tarieven",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/partnernetwerk",
+      "href": "/nl/partnernetwerk",
       "anker": "Partnernetwerk",
       "rel": null
     },
@@ -627,27 +673,27 @@
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/contact",
+      "href": "/nl/contact",
       "anker": "Plan een gesprek",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/privacy",
+      "href": "/nl/privacy",
       "anker": "Privacyverklaring",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/algemene-voorwaarden",
+      "href": "/nl/algemene-voorwaarden",
       "anker": "Algemene voorwaarden",
       "rel": null
     }
   ],
   "structured_data": {
-    "sha256": "2b3a5cc51697955403f3ff5cbe0943110740358c5650d84dfc926e9cdb5c38ce",
+    "sha256": "837fa88267e5f7cdfe2c11ff17a82afd431237a7832c009efff126144962b0ef",
     "items": [
       {
         "@context": "https://schema.org",
@@ -659,19 +705,19 @@
                 "@type": "ListItem",
                 "position": 1,
                 "name": "Home",
-                "item": "https://freelanceaiconsultant.com/"
+                "item": "https://freelanceaiconsultant.com/nl"
               },
               {
                 "@type": "ListItem",
                 "position": 2,
                 "name": "Kennisbank",
-                "item": "https://freelanceaiconsultant.com/kennisbank"
+                "item": "https://freelanceaiconsultant.com/nl/kennisbank"
               },
               {
                 "@type": "ListItem",
                 "position": 3,
                 "name": "Wat doet een AI consultant?",
-                "item": "https://freelanceaiconsultant.com/kennisbank/wat-doet-een-ai-consultant"
+                "item": "https://freelanceaiconsultant.com/nl/kennisbank/wat-doet-een-ai-consultant"
               }
             ]
           },
@@ -695,7 +741,7 @@
               "@type": "Person",
               "name": "Dave Willemstein"
             },
-            "mainEntityOfPage": "https://freelanceaiconsultant.com/kennisbank/wat-doet-een-ai-consultant"
+            "mainEntityOfPage": "https://freelanceaiconsultant.com/nl/kennisbank/wat-doet-een-ai-consultant"
           },
           {
             "@type": "FAQPage",
@@ -738,6 +784,38 @@
                 "acceptedAnswer": {
                   "@type": "Answer",
                   "text": "Nee. De omvang van de opdracht past zich aan. Voor een kleinere organisatie kan een korte toets of een afgebakende adviesvraag al genoeg zijn, terwijl een grote organisatie eerder een volledige strategie en doorlopende begeleiding nodig heeft."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Wat is een AI consultant?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Een AI consultant adviseert organisaties over de keuzes rond kunstmatige intelligentie: welke problemen AI oplost en welke niet, wat het kost, welke risico's meespelen en wie waarvoor verantwoordelijk is. De kerntaken zijn strategie bepalen, use cases selecteren, de implementatie begeleiden en governance inrichten. Code schrijven en modellen trainen hoort meestal niet bij de rol: dat is het werk van een AI developer."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Is elke AI consultant onafhankelijk van leveranciers?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Dat verschilt per AI consultant: er zijn grofweg twee soorten, namelijk onafhankelijke adviseurs die alleen aan advies verdienen en consultants die ook implementatiepartner of reseller van bepaalde platforms zijn. Beide soorten kunnen goed werk leveren, maar het verschil bepaalt hoe vrij het advies van de AI consultant is."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Wat is het risico als één partij zowel AI consultant als AI developer is?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Het wordt riskant als één partij de rol van AI consultant en die van AI developer heeft en aan de bouw verdient. Het advies heeft dan belang bij een grotere scope."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Wanneer loont een AI consultant?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Kort gezegd loont een AI consultant bij besluiten die duur of moeilijk terug te draaien zijn, bij interne patstellingen, als een investering verantwoord moet worden of als iets voor het eerst onder tijdsdruk gebeurt. Er zijn ook gevallen waarin een organisatie het beter zelf doet."
                 }
               }
             ]
@@ -782,12 +860,12 @@
     ],
     "stylesheets": [
       "https://fonts.googleapis.com/css2?family=Caveat:wght@600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap",
-      "/_astro/_slug_.bq6BBoZ5.css",
-      "/_astro/_slug_.goiX3PVF.css",
+      "/_astro/_slug_.BzqUXH8l.css",
+      "/_astro/_slug_.Do5RJXa7.css",
       "/logo-carousel/logo-carousel.css?v=2"
     ],
     "aantal_details": 5,
     "aantal_tabellen": 1
   },
-  "gemeten_op": "2026-10-06"
+  "gemeten_op": "2026-10-29"
 }

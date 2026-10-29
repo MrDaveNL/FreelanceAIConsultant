@@ -2,7 +2,7 @@
   "url": "/diensten/ai-strategy-sprint",
   "build_bestand": "dist/diensten/ai-strategy-sprint/index.html",
   "html": {
-    "bytes": 41067,
+    "bytes": 40933,
     "lang": "nl"
   },
   "beschermd": {
@@ -183,8 +183,8 @@
   ],
   "bodytekst": {
     "regio": "main",
-    "woorden": 1162,
-    "sha256": "213624f1e9eb3203bb84516c75479a6525c9740f4296812f296d4c42029c3600",
+    "woorden": 1152,
+    "sha256": "0d2b9c2d49fcbcc701449a3a742af97ed606ac4a9cdd8b4a17b66f45da34495b",
     "blokken": [
       "Van ambitie naar besluit",
       "AI Strategy Sprint",
@@ -256,9 +256,9 @@
       "Onderkant als er al een Readiness Assessment ligt, bovenkant bij meerdere bedrijfsonderdelen. Alle voorstellen zijn exclusief btw.",
       "Vraag een voorstel aan → Prijs op maat, afhankelijk van scope",
       "Wat levert de AI Strategy Sprint op en wat kost die?",
-      "De AI Strategy Sprint van Dave Willemstein brengt organisaties die AI serieus willen inzetten maar niet weten waar te beginnen in 4-6 weken van ambitie naar een board-ready AI-strategie en een use-case roadmap. De sprint werkt in vijf werksessies toe naar vier beslismomenten: diagnose, prioriteren, beslissen en ship & govern. De sprint kost een vaste prijs of vast maandbedrag, vastgelegd in het voorstel, exclusief btw en reiskosten.",
+      "De AI Strategy Sprint van Dave Willemstein brengt organisaties die AI serieus willen inzetten maar niet weten waar te beginnen in 4-6 weken van ambitie naar een board-ready AI-strategie en een use-case roadmap. De sprint werkt in vijf werksessies toe naar vier beslismomenten: diagnose, prioriteren, beslissen en ship & govern. De sprint kost een vaste projectprijs, vastgelegd in het voorstel, exclusief btw en reiskosten.",
       "Valt de investering in de AI Strategy Sprint lager uit als er al een AI Readiness Assessment ligt?",
-      "Ja: ligt er al een AI Readiness Assessment, dan valt de investering in de AI Strategy Sprint lager uit. Bij meerdere bedrijfsonderdelen valt die hoger uit. Het exacte bedrag staat in het voorstel.",
+      "Ja: ligt er al een AI Readiness Assessment, dan valt de vaste projectprijs van de AI Strategy Sprint lager uit, omdat de analyse al gedaan is.",
       "Wanneer is de AI Strategy Sprint minder geschikt?",
       "Minder geschikt als er nog geen mandaat is om keuzes te maken, want dan komt eerst een Executive Briefing. De AI Strategy Sprint is ook minder geschikt voor wie vooral capaciteit zoekt om te bouwen.",
       "Hoeveel werksessies telt de AI Strategy Sprint?",
@@ -688,7 +688,7 @@
     }
   ],
   "structured_data": {
-    "sha256": "d58069d0a7b2ab889bf0b43222fe9c4fe0198215b88afb1e5fb1d09385b8fa22",
+    "sha256": "e2a73b5b39627fd833acb05bb3dafb329a9d0df1c195dcb74bbb97fc2adb84ed",
     "items": [
       [
         {
@@ -717,7 +717,7 @@
               "name": "Wat levert de AI Strategy Sprint op en wat kost die?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "De AI Strategy Sprint van Dave Willemstein brengt organisaties die AI serieus willen inzetten maar niet weten waar te beginnen in 4-6 weken van ambitie naar een board-ready AI-strategie en een use-case roadmap. De sprint werkt in vijf werksessies toe naar vier beslismomenten: diagnose, prioriteren, beslissen en ship & govern. De sprint kost een vaste prijs of vast maandbedrag, vastgelegd in het voorstel, exclusief btw en reiskosten."
+                "text": "De AI Strategy Sprint van Dave Willemstein brengt organisaties die AI serieus willen inzetten maar niet weten waar te beginnen in 4-6 weken van ambitie naar een board-ready AI-strategie en een use-case roadmap. De sprint werkt in vijf werksessies toe naar vier beslismomenten: diagnose, prioriteren, beslissen en ship & govern. De sprint kost een vaste projectprijs, vastgelegd in het voorstel, exclusief btw en reiskosten."
               }
             },
             {
@@ -725,7 +725,7 @@
               "name": "Valt de investering in de AI Strategy Sprint lager uit als er al een AI Readiness Assessment ligt?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "Ja: ligt er al een AI Readiness Assessment, dan valt de investering in de AI Strategy Sprint lager uit. Bij meerdere bedrijfsonderdelen valt die hoger uit. Het exacte bedrag staat in het voorstel."
+                "text": "Ja: ligt er al een AI Readiness Assessment, dan valt de vaste projectprijs van de AI Strategy Sprint lager uit, omdat de analyse al gedaan is."
               }
             },
             {
@@ -792,5 +792,5 @@
     "aantal_details": 5,
     "aantal_tabellen": 0
   },
-  "gemeten_op": "2026-10-28"
+  "gemeten_op": "2026-10-29"
 }

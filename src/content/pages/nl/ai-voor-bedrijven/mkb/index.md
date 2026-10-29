@@ -135,7 +135,7 @@ Over subsidies nog dit: regelingen als de MIT (voor innovatie) en SLIM (voor ler
 
 Eerst eerlijk over geld. Mijn vaste pakketten zijn gemaakt voor organisaties die een serieuze AI-investering overwegen, elk met vooraf een vaste prijs of vast maandbedrag. Een [AI Readiness Assessment](/nl/diensten/ai-readiness-assessment) en een AI Strategy Sprint passen bij een middelgroot bedrijf met meerdere afdelingen en een concrete investeringsvraag, maar niet bij elk mkb-budget. Voor een bedrijf van tien mensen is het vaak te veel.
 
-Voor kleinere bedrijven zijn er twee lichtere instappen. Een Executive Briefing van één dagdeel (vaste prijs) geeft jou en je managementteam een gedeeld, realistisch beeld van wat AI voor jullie betekent. En voor een afgebakende vraag, zoals een second opinion op een offerte van een leverancier of het kiezen van een eerste toepassing, werk ik met een vaste prijs per opdracht. Soms is de eerlijkste uitkomst van een eerste gesprek dat je mij niet nodig hebt en gewoon kunt beginnen.
+Voor kleinere bedrijven is de Executive Briefing een van de twee lichtere instappen: een sessie van drie uur, met voorbereiding één dagdeel, tegen een vaste projectprijs. Dat geeft jou en je managementteam een gedeeld, realistisch beeld van wat AI voor jullie betekent. En voor een afgebakende vraag, zoals een second opinion op een offerte van een leverancier of het kiezen van een eerste toepassing, werk ik met een vaste prijs per opdracht. Soms is de eerlijkste uitkomst van een eerste gesprek dat je mij niet nodig hebt en gewoon kunt beginnen.
 
 Hieronder per onderwerp waar je terechtkunt. De meeste van die pagina's hebben een eigen deel over het mkb.
 

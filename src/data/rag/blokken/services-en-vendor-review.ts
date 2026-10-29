@@ -5,11 +5,11 @@ export default {
   "type": "dienst",
   "onderwerp": "Vendor Review",
   "vraagkop": "What does a Vendor Review deliver and what does it cost?",
-  "antwoord": "{{dienst:vendor-review}} from {{afzender}} is an independent selection process for organizations choosing an AI vendor and needing to explain that choice afterward. The result is a substantiated selection advice with scorecards, a three-year TCO comparison and a decision document for procurement and the board. The process takes {{timing:vendor-review}} and costs {{pricelc:vendor-review}}, {{voorwaarden}}.",
+  "antwoord": "{{dienst:vendor-review}} from {{afzender}} is an independent selection process for organizations choosing an AI vendor and needing to explain that choice afterward. The result is a substantiated selection advice with scorecards, a three-year TCO comparison and a decision document for procurement and the board. The process takes {{timing:vendor-review}} and is priced as {{pricelc:vendor-review}}, set out in the proposal, {{voorwaarden}}.",
   "vervolgvragen": [
     {
       "vraag": "What determines the price of a Vendor Review?",
-      "antwoord": "The price of {{dienst:vendor-review}} depends on the number of vendors assessed, typically 2 to 4."
+      "antwoord": "{{dienst:vendor-review}} is priced as {{pricelc:vendor-review}}; the exact amount depends on the number of vendors assessed, typically 2 to 4."
     },
     {
       "vraag": "When is a Vendor Review less suitable?",

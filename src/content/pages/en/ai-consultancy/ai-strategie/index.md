@@ -102,7 +102,7 @@ I answer that with the [AI Readiness Assessment](/services/ai-readiness-assessme
 <figcaption>How the AI Readiness Assessment establishes where you stand before you set an AI strategy.</figcaption>
 </figure>
 
-You get a readiness score per dimension, a gap analysis with the three blockers that actually matter, a validated longlist of use cases with an initial value estimate, a risk and compliance scan including positioning under the AI Act, and a 90-day plan with owners and decision points. The price is fixed, set out in the proposal.
+You get a readiness score per dimension, a gap analysis with the three blockers that actually matter, a validated longlist of use cases with an initial value estimate, a risk and compliance scan including positioning under the AI Act, and a 90-day plan with owners and decision points. The engagement has a fixed project fee.
 
 Sometimes the outcome is that you're not ready yet. In that case you get a plan for the foundation instead of a plan for use cases, and that is also a strategic choice.
 

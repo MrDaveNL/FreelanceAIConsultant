@@ -5,7 +5,7 @@ export default {
   "onderwerp": "AI consultancy",
   "vraagkop": "Wat kost AI consultancy?",
   "onderBestaandeKop": true,
-  "antwoord": "AI consultancy van {{afzender}} wordt geleverd in vaste pakketten met vooraf een vaste prijs of vast maandbedrag, niet tegen een open uurtarief. Het {{dienst:ai-readiness-assessment}} duurt {{timing:ai-readiness-assessment}}, de {{dienst:ai-strategy-sprint}} duurt {{timing:ai-strategy-sprint}}, en de {{dienst:fractional-ai-lead}} is een doorlopende rol. Afgebakend advies en second opinions krijgen een vaste prijs in het voorstel, en de bedragen zijn {{voorwaarden}}.",
+  "antwoord": "AI consultancy van {{afzender}} wordt geleverd in vaste pakketten, niet tegen een open uurtarief: een vaste projectprijs voor een afgebakend traject, of een vast maandbedrag voor de {{dienst:fractional-ai-lead}}. Het {{dienst:ai-readiness-assessment}} duurt {{timing:ai-readiness-assessment}}, de {{dienst:ai-strategy-sprint}} duurt {{timing:ai-strategy-sprint}}, en de {{dienst:fractional-ai-lead}} is een doorlopende rol. Afgebakend advies en second opinions krijgen een vaste prijs in het voorstel; alle voorstellen zijn {{voorwaarden}}.",
   "vervolgvragen": [
     {
       "vraag": "Wat kost AI consultancy voor een directie of raad van commissarissen?",

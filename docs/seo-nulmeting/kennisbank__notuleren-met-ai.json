@@ -2,15 +2,20 @@
   "url": "/kennisbank/notuleren-met-ai",
   "build_bestand": "dist/kennisbank/notuleren-met-ai/index.html",
   "html": {
-    "bytes": 37624,
+    "bytes": 42190,
     "lang": "nl"
   },
   "beschermd": {
     "title": "Notuleren met AI | Tools, werkwijze en privacy op een rij",
     "meta_description": "Notuleren met AI kan veel tijd schelen. Vergelijk tools zoals Copilot en Fireflies, lees hoe je veilig werkt met privacygevoelige data en start direct.",
-    "canonical": "https://freelanceaiconsultant.com/kennisbank/notuleren-met-ai",
+    "canonical": "https://freelanceaiconsultant.com/nl/kennisbank/notuleren-met-ai",
     "robots_meta": null,
-    "hreflang": [],
+    "hreflang": [
+      {
+        "hreflang": "nl",
+        "href": "https://freelanceaiconsultant.com/nl/kennisbank/notuleren-met-ai"
+      }
+    ],
     "h1": [
       "Notuleren met AI: tools, werkwijze en privacy"
     ]
@@ -21,7 +26,7 @@
     "og:site_name": "freelanceaiconsultant.com",
     "og:title": "Notuleren met AI | Tools, werkwijze en privacy op een rij",
     "og:description": "Notuleren met AI kan veel tijd schelen. Vergelijk tools zoals Copilot en Fireflies, lees hoe je veilig werkt met privacygevoelige data en start direct.",
-    "og:url": "https://freelanceaiconsultant.com/kennisbank/notuleren-met-ai",
+    "og:url": "https://freelanceaiconsultant.com/nl/kennisbank/notuleren-met-ai",
     "og:image": "https://freelanceaiconsultant.com/images/dave-portrait.jpg",
     "twitter:card": "summary_large_image",
     "twitter:title": "Notuleren met AI | Tools, werkwijze en privacy op een rij",
@@ -40,6 +45,24 @@
       "tekst": "Hoe werkt notuleren met AI?",
       "regio": "main",
       "id": "hoe-werkt-notuleren-met-ai"
+    },
+    {
+      "niveau": 3,
+      "tekst": "Op welke manieren kan een tool meeluisteren bij notuleren met AI?",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 3,
+      "tekst": "Welke vergaderingen vragen extra voorzichtigheid bij notuleren met AI?",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 3,
+      "tekst": "Waarmee begint het inrichten van notuleren met AI?",
+      "regio": "main",
+      "id": null
     },
     {
       "niveau": 2,
@@ -80,8 +103,8 @@
   ],
   "bodytekst": {
     "regio": "main",
-    "woorden": 1802,
-    "sha256": "7f1c3282c1c9807496c00b332b11a7544cad97be0a6667774848f9d5eb8590ee",
+    "woorden": 2096,
+    "sha256": "35954c8496503053e21e632f026d103b0caf3dc3edd65795a287f14144b61d99",
     "blokken": [
       "Home",
       "Kennisbank",
@@ -154,6 +177,7 @@
       "Zakelijke dienstverlener",
       "Interne AI-assistent voor kenniswerkers",
       "Hoe werkt notuleren met AI?",
+      "Bij vrijwel alle tools verloopt notuleren met AI in dezelfde stappen: de tool neemt het gesprek op, zet spraak om in tekst en herkent wie er spreekt, waarna een taalmodel van het transcript een samenvatting met besluiten en actiepunten maakt. De uitkomst is een concept dat een mens nog moet controleren: de voorzitter of eigenaar corrigeert het verslag en stelt het vast. Omdat een vergadering opnemen een verwerking van persoonsgegevens is, luidt het advies deelnemers vooraf te informeren en vast te leggen wat er wordt bewaard.",
       "Notuleren met AI verloopt bij vrijwel alle tools in dezelfde stappen. De tool neemt het gesprek op, zet spraak om in tekst en herkent wie er spreekt. Daarna maakt een taalmodel van dat transcript een samenvatting, met besluiten en actiepunten. Het resultaat is een concept dat een mens nog moet controleren.",
       "OpnemenDe tool luistert mee via het vergaderplatform, een bot of een app",
       "TranscriberenSpraak wordt tekst, met herkenning van sprekers",
@@ -166,6 +190,13 @@
       "Via een bot die als deelnemer aan de vergadering wordt toegevoegd, vaak automatisch via je agenda.",
       "Via een app op je computer die het geluid lokaal opneemt, zonder dat er een bot inbelt.",
       "Die keuze bepaalt meer dan je zou denken: wie ziet dat er wordt opgenomen, waar de data terechtkomt en of het ook werkt bij externe vergaderingen. AI-notulen zijn daarmee een goed voorbeeld van hoe je een klein stuk bedrijfsprocessen automatiseren met AI kunt aanpakken: een afgebakende taak, een duidelijke menselijke controlestap en meetbaar resultaat.",
+      "Op welke manieren kan een tool meeluisteren bij notuleren met AI?",
+      "Er zijn bij notuleren met AI grofweg drie manieren: ingebouwd in het vergaderplatform, via een bot die als deelnemer aan de vergadering wordt toegevoegd, of via een app op de computer die het geluid lokaal opneemt. Die keuze bepaalt wie ziet dat er wordt opgenomen, waar de data terechtkomt en of het ook werkt bij externe vergaderingen.",
+      "Welke vergaderingen vragen extra voorzichtigheid bij notuleren met AI?",
+      "Vergaderingen waarin gevoelige onderwerpen langskomen, zoals gezondheid in een verzuimgesprek of een reorganisatie: daar is het advies bij notuleren met AI extra voorzichtig te zijn. Bij zulke vergaderingen staat de AI-notulist beter uit.",
+      "Waarmee begint het inrichten van notuleren met AI?",
+      "Met de keuze voor één tool die past bij het vergaderplatform en de taal en die zakelijk te contracteren is; het advies is medewerkers niet elk een eigen gratis tool te laten gebruiken. Daarna worden bij notuleren met AI de spelregels vastgelegd: bij welke vergaderingen de notulist aan mag, hoe dat wordt aangekondigd, wie het verslag controleert en hoe lang opnames en transcripten worden bewaard.",
+      "Bron: artikel van Dave Willemstein; primaire bron: Verordening (EU) 2016/679 (AVG), EUR-Lex; Autoriteit Persoonsgegevens: Controle van communicatiemiddelen (peildatum 6 oktober 2026). Bijgewerkt: oktober 2026.",
       "De beste tools om te notuleren met AI",
       "Er bestaat niet één beste tool. De juiste keuze hangt af van je vergaderplatform, je taal en je eisen aan dataopslag. Hieronder een overzicht van veelgebruikte tools, op basis van de officiële productinformatie (stand september 2026). Functies en prijzen veranderen snel, dus controleer ze voordat je kiest.",
       "Tool",
@@ -244,91 +275,91 @@
     {
       "regio": "header",
       "soort": "intern",
-      "href": "/",
+      "href": "/nl",
       "anker": "",
       "rel": null
     },
     {
       "regio": "header",
       "soort": "intern",
-      "href": "/diensten",
+      "href": "/nl/diensten",
       "anker": "Diensten",
       "rel": null
     },
     {
       "regio": "header",
       "soort": "intern",
-      "href": "/cases",
+      "href": "/nl/cases",
       "anker": "Cases",
       "rel": null
     },
     {
       "regio": "header",
       "soort": "intern",
-      "href": "/werkwijze",
+      "href": "/nl/werkwijze",
       "anker": "Werkwijze",
       "rel": null
     },
     {
       "regio": "header",
       "soort": "intern",
-      "href": "/inzichten",
+      "href": "/nl/inzichten",
       "anker": "Inzichten",
       "rel": null
     },
     {
       "regio": "header",
       "soort": "intern",
-      "href": "/over",
+      "href": "/nl/over",
       "anker": "Over mij",
       "rel": null
     },
     {
       "regio": "header",
       "soort": "intern",
-      "href": "/contact",
+      "href": "/nl/contact",
       "anker": "Plan een gesprek →",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/",
+      "href": "/nl",
       "anker": "Home",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/kennisbank",
+      "href": "/nl/kennisbank",
       "anker": "Kennisbank",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/ai-automatisering",
+      "href": "/nl/ai-automatisering",
       "anker": "Lees meer over AI automatisering →",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/contact",
+      "href": "/nl/contact",
       "anker": "Plan een adviesgesprek →",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/over",
+      "href": "/nl/over",
       "anker": "Dave Willemstein",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/ai-automatisering/bedrijfsprocessen-automatiseren-met-ai",
+      "href": "/nl/ai-automatisering/bedrijfsprocessen-automatiseren-met-ai",
       "anker": "bedrijfsprocessen automatiseren met AI",
       "rel": null
     },
@@ -342,7 +373,7 @@
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/ai-automatisering/ai-tools",
+      "href": "/nl/ai-automatisering/ai-tools",
       "anker": "AI tools voor organisaties",
       "rel": null
     },
@@ -370,49 +401,49 @@
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/ai-beleid",
+      "href": "/nl/ai-beleid",
       "anker": "AI beleid",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/ai-automatisering/ai-workflows",
+      "href": "/nl/ai-automatisering/ai-workflows",
       "anker": "AI workflows",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/ai-automatisering",
+      "href": "/nl/ai-automatisering",
       "anker": "AI automatisering",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/contact",
+      "href": "/nl/contact",
       "anker": "Plan een adviesgesprek",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/over",
+      "href": "/nl/over",
       "anker": "Over mij",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/partnernetwerk",
+      "href": "/nl/partnernetwerk",
       "anker": "Mijn partnernetwerk",
       "rel": null
     },
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/diensten/ai-readiness-assessment",
+      "href": "/nl/diensten/ai-readiness-assessment",
       "anker": "Weten waar je staat met AI? Bekijk het AI Readiness Assessment →",
       "rel": null
     },
@@ -482,154 +513,154 @@
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/contact",
+      "href": "/nl/contact",
       "anker": "Plan een gesprek →",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/diensten/ai-readiness-assessment",
+      "href": "/nl/diensten/ai-readiness-assessment",
       "anker": "AI Readiness Assessment",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/diensten/ai-strategy-sprint",
+      "href": "/nl/diensten/ai-strategy-sprint",
       "anker": "AI Strategy Sprint",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/diensten/fractional-ai-lead",
+      "href": "/nl/diensten/fractional-ai-lead",
       "anker": "Fractional AI Lead",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/diensten",
+      "href": "/nl/diensten",
       "anker": "Alle diensten",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/cases",
+      "href": "/nl/cases",
       "anker": "Cases",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/werkwijze",
+      "href": "/nl/werkwijze",
       "anker": "Werkwijze",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/inzichten",
+      "href": "/nl/inzichten",
       "anker": "Inzichten",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/veelgestelde-vragen",
+      "href": "/nl/veelgestelde-vragen",
       "anker": "Veelgestelde vragen",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/over",
+      "href": "/nl/over",
       "anker": "Over mij",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-consultancy",
+      "href": "/nl/ai-consultancy",
       "anker": "AI consultancy",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-implementatie",
+      "href": "/nl/ai-implementatie",
       "anker": "AI implementatie",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-automatisering",
+      "href": "/nl/ai-automatisering",
       "anker": "AI automatisering",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-voor-bedrijven",
+      "href": "/nl/ai-voor-bedrijven",
       "anker": "AI voor bedrijven",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-development",
+      "href": "/nl/ai-development",
       "anker": "AI development",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-agents",
+      "href": "/nl/ai-agents",
       "anker": "AI agents",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-beleid",
+      "href": "/nl/ai-beleid",
       "anker": "AI beleid",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/ai-workshop",
+      "href": "/nl/ai-workshop",
       "anker": "AI workshop",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/markten",
+      "href": "/nl/markten",
       "anker": "AI per branche",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/kennisbank",
+      "href": "/nl/kennisbank",
       "anker": "Kennisbank",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/tarieven",
+      "href": "/nl/tarieven",
       "anker": "Tarieven",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/partnernetwerk",
+      "href": "/nl/partnernetwerk",
       "anker": "Partnernetwerk",
       "rel": null
     },
@@ -650,27 +681,27 @@
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/contact",
+      "href": "/nl/contact",
       "anker": "Plan een gesprek",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/privacy",
+      "href": "/nl/privacy",
       "anker": "Privacyverklaring",
       "rel": null
     },
     {
       "regio": "footer",
       "soort": "intern",
-      "href": "/algemene-voorwaarden",
+      "href": "/nl/algemene-voorwaarden",
       "anker": "Algemene voorwaarden",
       "rel": null
     }
   ],
   "structured_data": {
-    "sha256": "5d898fda0f1f473bd5d19cf51fddf5160de4ba07a32f7197b80edff8a6c9136b",
+    "sha256": "29abab187ece4f8851036801d6bcc93f4591c3bb5165693c517a5580cabd8b75",
     "items": [
       {
         "@context": "https://schema.org",
@@ -682,19 +713,19 @@
                 "@type": "ListItem",
                 "position": 1,
                 "name": "Home",
-                "item": "https://freelanceaiconsultant.com/"
+                "item": "https://freelanceaiconsultant.com/nl"
               },
               {
                 "@type": "ListItem",
                 "position": 2,
                 "name": "Kennisbank",
-                "item": "https://freelanceaiconsultant.com/kennisbank"
+                "item": "https://freelanceaiconsultant.com/nl/kennisbank"
               },
               {
                 "@type": "ListItem",
                 "position": 3,
                 "name": "Notuleren met AI",
-                "item": "https://freelanceaiconsultant.com/kennisbank/notuleren-met-ai"
+                "item": "https://freelanceaiconsultant.com/nl/kennisbank/notuleren-met-ai"
               }
             ]
           },
@@ -718,7 +749,7 @@
               "@type": "Person",
               "name": "Dave Willemstein"
             },
-            "mainEntityOfPage": "https://freelanceaiconsultant.com/kennisbank/notuleren-met-ai"
+            "mainEntityOfPage": "https://freelanceaiconsultant.com/nl/kennisbank/notuleren-met-ai"
           },
           {
             "@type": "FAQPage",
@@ -753,6 +784,38 @@
                 "acceptedAnswer": {
                   "@type": "Answer",
                   "text": "Voor het vastleggen van wat er gezegd is vaak wel, voor het vaststellen van besluiten niet. Een samenvatting kan nuances missen of een voorstel als besluit weergeven. Laat de voorzitter of een vaste eigenaar het verslag altijd controleren voordat het wordt gedeeld."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Hoe werkt notuleren met AI?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Bij vrijwel alle tools verloopt notuleren met AI in dezelfde stappen: de tool neemt het gesprek op, zet spraak om in tekst en herkent wie er spreekt, waarna een taalmodel van het transcript een samenvatting met besluiten en actiepunten maakt. De uitkomst is een concept dat een mens nog moet controleren: de voorzitter of eigenaar corrigeert het verslag en stelt het vast. Omdat een vergadering opnemen een verwerking van persoonsgegevens is, luidt het advies deelnemers vooraf te informeren en vast te leggen wat er wordt bewaard."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Op welke manieren kan een tool meeluisteren bij notuleren met AI?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Er zijn bij notuleren met AI grofweg drie manieren: ingebouwd in het vergaderplatform, via een bot die als deelnemer aan de vergadering wordt toegevoegd, of via een app op de computer die het geluid lokaal opneemt. Die keuze bepaalt wie ziet dat er wordt opgenomen, waar de data terechtkomt en of het ook werkt bij externe vergaderingen."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Welke vergaderingen vragen extra voorzichtigheid bij notuleren met AI?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Vergaderingen waarin gevoelige onderwerpen langskomen, zoals gezondheid in een verzuimgesprek of een reorganisatie: daar is het advies bij notuleren met AI extra voorzichtig te zijn. Bij zulke vergaderingen staat de AI-notulist beter uit."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Waarmee begint het inrichten van notuleren met AI?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Met de keuze voor één tool die past bij het vergaderplatform en de taal en die zakelijk te contracteren is; het advies is medewerkers niet elk een eigen gratis tool te laten gebruiken. Daarna worden bij notuleren met AI de spelregels vastgelegd: bij welke vergaderingen de notulist aan mag, hoe dat wordt aangekondigd, wie het verslag controleert en hoe lang opnames en transcripten worden bewaard."
                 }
               }
             ]
@@ -797,12 +860,12 @@
     ],
     "stylesheets": [
       "https://fonts.googleapis.com/css2?family=Caveat:wght@600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap",
-      "/_astro/_slug_.bq6BBoZ5.css",
-      "/_astro/_slug_.goiX3PVF.css",
+      "/_astro/_slug_.BzqUXH8l.css",
+      "/_astro/_slug_.Do5RJXa7.css",
       "/logo-carousel/logo-carousel.css?v=2"
     ],
     "aantal_details": 4,
     "aantal_tabellen": 1
   },
-  "gemeten_op": "2026-10-06"
+  "gemeten_op": "2026-10-29"
 }
