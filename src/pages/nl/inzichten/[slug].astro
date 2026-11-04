@@ -42,8 +42,12 @@ const crumbs = [
 // zonder 'updated' hebben nog geen wijziging gehad, dus dateModified valt terug op datePublished.
 const dateModified = article.updated ?? article.date;
 const faqSchema = buildFaqPageSchema(article.faq);
+// Eén @id voor de auteur, zodat author en publisher naar hetzelfde Person-entiteit verwijzen
+// in plaats van er elk een eigen kopie van te zijn.
+const daveId = `${site.url}/#dave`;
 const graph = [
   buildBreadcrumbList(crumbs, site.url),
+  { '@type': 'Person', '@id': daveId, name: site.name, url: `${site.url}/nl/over`, jobTitle: site.roleNl },
   {
     '@type': 'BlogPosting',
     headline: article.title,
@@ -52,8 +56,8 @@ const graph = [
     dateModified,
     inLanguage: 'nl-NL',
     articleSection: article.category,
-    author: { '@type': 'Person', name: site.name, url: site.url, jobTitle: site.roleNl },
-    publisher: { '@type': 'Person', name: site.name },
+    author: { '@id': daveId },
+    publisher: { '@id': daveId },
     mainEntityOfPage: `${site.url}/nl/inzichten/${article.slug}`,
   },
 ];
