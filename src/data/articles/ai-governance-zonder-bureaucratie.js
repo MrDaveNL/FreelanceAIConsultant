@@ -11,8 +11,8 @@ export default {
   metaTitle: 'AI-governance zonder bureaucratie: wat je echt nodig hebt',
   lede: 'Europese regelgeving dwingt organisaties om AI aantoonbaar te beheersen. Dat kan uitmonden in een commissie die alles vertraagt, of in vier lichte mechanismen die het werk beter maken.',
   readingTime: '5 min leestijd',
-  date: '2026-10-22',
-  dateLabel: '22 oktober 2026',
+  date: '2026-10-28',
+  dateLabel: '28 oktober 2026',
   order: 7,
   summary: [
     'Classificeer je toepassingen naar risico, niet naar techniek.',

@@ -11,8 +11,8 @@ export default {
   metaDescription: "Criteria eerst, leveranciers daarna. Een selectieproces voor AI-leveranciers in acht stappen dat bestand is tegen goede demo's en interne voorkeuren.",
   lede: 'De meeste selecties worden beslist voordat het proces begint. Acht stappen die voorkomen dat je achteraf een onderbouwing zoekt bij een keuze die al vaststond.',
   readingTime: '5 min leestijd',
-  date: '2026-10-18',
-  dateLabel: '18 oktober 2026',
+  date: '2026-10-28',
+  dateLabel: '28 oktober 2026',
   order: 11,
   summary: [
     'Stel criteria en wegingen vast vóórdat je leveranciers ziet.',

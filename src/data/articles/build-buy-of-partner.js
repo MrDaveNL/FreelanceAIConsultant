@@ -10,8 +10,8 @@ export default {
   excerpt: 'De vraag is zelden "kunnen we dit zelf bouwen?" maar "willen we dit over drie jaar nog steeds onderhouden?". Een beslisraamwerk in vier vragen.',
   lede: 'Zelf bouwen, kopen of samen met een partner? De keuze bepaalt je kostenstructuur, je wendbaarheid en je afhankelijkheid voor jaren. Zo maak je hem onderbouwd.',
   readingTime: '4 min leestijd',
-  date: '2026-10-26',
-  dateLabel: '26 oktober 2026',
+  date: '2026-10-28',
+  dateLabel: '28 oktober 2026',
   order: 3,
   summary: [
     'Bouw alleen wat je onderscheidt in de markt.',

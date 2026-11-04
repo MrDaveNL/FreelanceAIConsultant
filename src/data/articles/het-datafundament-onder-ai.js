@@ -11,8 +11,8 @@ export default {
   metaDescription: '"Eerst de data op orde" is net zo vaak een excuus als een noodzaak. Zo bepaal je welke van de twee speelt bij jouw AI-initiatief, en wat je dan doet.',
   lede: 'Het meest gegeven advies in AI-land is ook het gevaarlijkste: eerst je data op orde brengen. Soms klopt dat. Vaak is het een manier om nog twee jaar niets te doen.',
   readingTime: '4 min leestijd',
-  date: '2026-10-23',
-  dateLabel: '23 oktober 2026',
+  date: '2026-10-28',
+  dateLabel: '28 oktober 2026',
   order: 6,
   summary: [
     'Je hebt geen perfect datafundament nodig, je hebt genoeg fundament voor één use case nodig.',
