@@ -2,7 +2,7 @@
   "url": "/inzichten/van-ai-strategie-naar-waarde",
   "build_bestand": "dist/inzichten/van-ai-strategie-naar-waarde/index.html",
   "html": {
-    "bytes": 39676,
+    "bytes": 41578,
     "lang": "nl"
   },
   "beschermd": {
@@ -129,14 +129,17 @@
   ],
   "bodytekst": {
     "regio": "main",
-    "woorden": 1380,
-    "sha256": "dd38a5596d05108e57303191bbda778c925a85d9d70066294ec02a8ac5c44144",
+    "woorden": 1388,
+    "sha256": "76f895a961014efd7461043ad926eabd91439aa56b0c036fa01ea3f936194916",
     "blokken": [
+      "Home",
+      "Inzichten",
+      "Van AI-strategie naar waarde: een 3-stappenplan",
       "← Terug naar alle inzichten",
       "Strategie",
       "Van AI-strategie naar echte waarde",
       "Een strategie die niemand kan uitvoeren is een duur document. Dit zijn de drie stappen die van richting resultaat maken, met de valkuil bij elke stap.",
-      "◷ 4 min leestijd 11 juni 2026",
+      "◷ 4 min leestijd 27 oktober 2026",
       "DW",
       "Door Dave Willemstein Independent AI Advisor, onafhankelijk, geen leveranciersbelangen",
       "Ik help organisaties AI-beslissingen nemen die waarde creëren. Geen dikke decks, wel duidelijke keuzes en tastbare resultaten.",
@@ -336,6 +339,20 @@
       "soort": "intern",
       "href": "/nl/contact",
       "anker": "Plan een gesprek →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/nl",
+      "anker": "Home",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/nl/inzichten",
+      "anker": "Inzichten",
       "rel": null
     },
     {
@@ -557,68 +574,96 @@
     }
   ],
   "structured_data": {
-    "sha256": "b9637729792a4a64445801e67d6dfecd7c4357fa6106051fb75b52cb98b9e593",
+    "sha256": "cac04be56a39ddf3d02778b841d80fc74254216f270d5f607a3b06bd41711a32",
     "items": [
-      [
-        {
-          "@context": "https://schema.org",
-          "@type": "BlogPosting",
-          "headline": "Van AI-strategie naar waarde: een 3-stappenplan",
-          "description": "De meeste AI-strategieën stranden niet op de strategie, maar op de vertaling ervan. Drie stappen die die vertaling afdwingen.",
-          "datePublished": "2026-06-11",
-          "inLanguage": "nl-NL",
-          "articleSection": "Strategie",
-          "author": {
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://freelanceaiconsultant.com/nl"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Inzichten",
+                "item": "https://freelanceaiconsultant.com/nl/inzichten"
+              },
+              {
+                "@type": "ListItem",
+                "position": 3,
+                "name": "Van AI-strategie naar waarde: een 3-stappenplan",
+                "item": "https://freelanceaiconsultant.com/nl/inzichten/van-ai-strategie-naar-waarde"
+              }
+            ]
+          },
+          {
             "@type": "Person",
+            "@id": "https://freelanceaiconsultant.com/#dave",
             "name": "Dave Willemstein",
-            "url": "https://freelanceaiconsultant.com",
+            "url": "https://freelanceaiconsultant.com/nl/over",
             "jobTitle": "Onafhankelijk AI-adviseur"
           },
-          "publisher": {
-            "@type": "Person",
-            "name": "Dave Willemstein"
+          {
+            "@type": "BlogPosting",
+            "headline": "Van AI-strategie naar waarde: een 3-stappenplan",
+            "description": "De meeste AI-strategieën stranden niet op de strategie, maar op de vertaling ervan. Drie stappen die die vertaling afdwingen.",
+            "datePublished": "2026-10-27",
+            "dateModified": "2026-10-27",
+            "inLanguage": "nl-NL",
+            "articleSection": "Strategie",
+            "author": {
+              "@id": "https://freelanceaiconsultant.com/#dave"
+            },
+            "publisher": {
+              "@id": "https://freelanceaiconsultant.com/#dave"
+            },
+            "mainEntityOfPage": "https://freelanceaiconsultant.com/nl/inzichten/van-ai-strategie-naar-waarde"
           },
-          "mainEntityOfPage": "https://freelanceaiconsultant.com/nl/inzichten/van-ai-strategie-naar-waarde"
-        },
-        {
-          "@context": "https://schema.org",
-          "@type": "FAQPage",
-          "mainEntity": [
-            {
-              "@type": "Question",
-              "name": "Hoe wordt een AI-strategie omgezet in meetbaar resultaat?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Een AI-strategie wordt uitvoerbaar met drie vertaalslagen: ambitie vertalen naar meetbare business-uitkomsten, per use case één eigenaar kiezen met budget en mandaat, en waarde meten op het niveau waarop die is beloofd. De meeste AI-strategieën stranden niet op de strategie zelf, maar op de vertaling ervan. Een portfolio van vier use cases met eigenaren, meetpunten en stopcriteria levert meer op dan een roadmap met twintig initiatieven waar niemand over gaat."
+          {
+            "@type": "FAQPage",
+            "mainEntity": [
+              {
+                "@type": "Question",
+                "name": "Hoe wordt een AI-strategie omgezet in meetbaar resultaat?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Een AI-strategie wordt uitvoerbaar met drie vertaalslagen: ambitie vertalen naar meetbare business-uitkomsten, per use case één eigenaar kiezen met budget en mandaat, en waarde meten op het niveau waarop die is beloofd. De meeste AI-strategieën stranden niet op de strategie zelf, maar op de vertaling ervan. Een portfolio van vier use cases met eigenaren, meetpunten en stopcriteria levert meer op dan een roadmap met twintig initiatieven waar niemand over gaat."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Hoort het eigenaarschap van een use case uit de AI-strategie bij de AI-lead of het datateam?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Nee. Het eigenaarschap bij de AI-lead of het datateam leggen is een valkuil: die kunnen bouwen en adviseren, maar zitten niet op de P&L waar de waarde moet landen. De eigenaar van een use case uit de AI-strategie hoort in de business te zitten."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Bewijzen gebruikscijfers dat een AI-strategie waarde oplevert?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Nee. Gebruiksstatistieken zijn nuttig als vroege indicator, maar geen bewijs van waarde bij een AI-strategie. Een businesscase die in euro's of uren is geformuleerd, vraagt uiteindelijk om rapportage in euro's of uren, ook als dat lastiger meetbaar is."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Is een nulmeting nodig om het resultaat van een AI-strategie aan te tonen?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Bijna altijd: het meten van het businessresultaat van een AI-strategie vraagt bijna altijd om een nulmeting vóór de start. Die nulmeting is twee dagen werk, en zonder is een jaar later niets hard te maken."
+                }
               }
-            },
-            {
-              "@type": "Question",
-              "name": "Hoort het eigenaarschap van een use case uit de AI-strategie bij de AI-lead of het datateam?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Nee. Het eigenaarschap bij de AI-lead of het datateam leggen is een valkuil: die kunnen bouwen en adviseren, maar zitten niet op de P&L waar de waarde moet landen. De eigenaar van een use case uit de AI-strategie hoort in de business te zitten."
-              }
-            },
-            {
-              "@type": "Question",
-              "name": "Bewijzen gebruikscijfers dat een AI-strategie waarde oplevert?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Nee. Gebruiksstatistieken zijn nuttig als vroege indicator, maar geen bewijs van waarde bij een AI-strategie. Een businesscase die in euro's of uren is geformuleerd, vraagt uiteindelijk om rapportage in euro's of uren, ook als dat lastiger meetbaar is."
-              }
-            },
-            {
-              "@type": "Question",
-              "name": "Is een nulmeting nodig om het resultaat van een AI-strategie aan te tonen?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Bijna altijd: het meten van het businessresultaat van een AI-strategie vraagt bijna altijd om een nulmeting vóór de start. Die nulmeting is twee dagen werk, en zonder is een jaar later niets hard te maken."
-              }
-            }
-          ]
-        }
-      ]
+            ]
+          }
+        ]
+      }
     ]
   },
   "afbeeldingen": [
@@ -677,11 +722,11 @@
     ],
     "stylesheets": [
       "/_astro/_slug_.CzLXI3HH.css",
-      "/_astro/_slug_.CwnNFvzF.css",
+      "/_astro/_slug_.BpipRbQZ.css",
       "/logo-carousel/logo-carousel.css?v=2"
     ],
     "aantal_details": 0,
     "aantal_tabellen": 0
   },
-  "gemeten_op": "2026-10-29"
+  "gemeten_op": "2026-11-04"
 }

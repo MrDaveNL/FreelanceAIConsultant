@@ -2,7 +2,7 @@
   "url": "/inzichten/de-business-case-voor-ai",
   "build_bestand": "dist/inzichten/de-business-case-voor-ai/index.html",
   "html": {
-    "bytes": 38970,
+    "bytes": 40877,
     "lang": "nl"
   },
   "beschermd": {
@@ -171,14 +171,17 @@
   ],
   "bodytekst": {
     "regio": "main",
-    "woorden": 1407,
-    "sha256": "c61adc77fe5ce37b27d9059bf51ca84e4ab1d7ca27f06a1c117bd9956e9fed89",
+    "woorden": 1419,
+    "sha256": "d7bd51b0e6f1d330073465ef859505f24e620bf1c00573dc5729fd023178d281",
     "blokken": [
+      "Home",
+      "Inzichten",
+      "De business case voor AI: hoe je hem eerlijk berekent",
       "← Terug naar alle inzichten",
       "Strategie",
       "De business case voor AI, eerlijk berekend",
       "De meeste AI-businesscases sneuvelen niet bij de board, maar een jaar later bij de realisatiecheck. Dit is hoe je er een maakt die dat moment overleeft.",
-      "◷ 5 min leestijd 29 januari 2026",
+      "◷ 5 min leestijd 20 oktober 2026",
       "DW",
       "Door Dave Willemstein Independent AI Advisor, onafhankelijk, geen leveranciersbelangen",
       "Ik help organisaties AI-beslissingen nemen die waarde creëren. Geen dikke decks, wel duidelijke keuzes en tastbare resultaten.",
@@ -382,6 +385,20 @@
       "soort": "intern",
       "href": "/nl/contact",
       "anker": "Plan een gesprek →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/nl",
+      "anker": "Home",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/nl/inzichten",
+      "anker": "Inzichten",
       "rel": null
     },
     {
@@ -603,52 +620,80 @@
     }
   ],
   "structured_data": {
-    "sha256": "67649247f6d1d58adc544197701914a5505a6dd388d18593cb2fb86c3a77edb0",
+    "sha256": "6b07e868e94b7d0358d355e981922b3f5f94f889963a808f71d32b93ea5e8e15",
     "items": [
-      [
-        {
-          "@context": "https://schema.org",
-          "@type": "BlogPosting",
-          "headline": "De business case voor AI: hoe je hem eerlijk berekent",
-          "description": "Tijdbesparing is geen besparing tot iemand die tijd anders besteedt. Een rekenmodel dat de toets van de CFO doorstaat.",
-          "datePublished": "2026-01-29",
-          "inLanguage": "nl-NL",
-          "articleSection": "Strategie",
-          "author": {
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://freelanceaiconsultant.com/nl"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Inzichten",
+                "item": "https://freelanceaiconsultant.com/nl/inzichten"
+              },
+              {
+                "@type": "ListItem",
+                "position": 3,
+                "name": "De business case voor AI: hoe je hem eerlijk berekent",
+                "item": "https://freelanceaiconsultant.com/nl/inzichten/de-business-case-voor-ai"
+              }
+            ]
+          },
+          {
             "@type": "Person",
+            "@id": "https://freelanceaiconsultant.com/#dave",
             "name": "Dave Willemstein",
-            "url": "https://freelanceaiconsultant.com",
+            "url": "https://freelanceaiconsultant.com/nl/over",
             "jobTitle": "Onafhankelijk AI-adviseur"
           },
-          "publisher": {
-            "@type": "Person",
-            "name": "Dave Willemstein"
-          },
-          "mainEntityOfPage": "https://freelanceaiconsultant.com/nl/inzichten/de-business-case-voor-ai"
-        },
-        {
-          "@context": "https://schema.org",
-          "@type": "FAQPage",
-          "mainEntity": [
-            {
-              "@type": "Question",
-              "name": "Wat hoort er in een business case voor AI die een jaar later nog standhoudt?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "In een business case voor AI tellen bespaarde uren pas als besparing wanneer de kosten echt dalen, en hoort de volledige kostenkant: verbruik, beheer, integratie, verandering en governance. De uitkomst staat er als bandbreedte in, met de aannames over adoptie, volume en het omzetten van tijdwinst in geld zichtbaar bovenaan."
-              }
+          {
+            "@type": "BlogPosting",
+            "headline": "De business case voor AI: hoe je hem eerlijk berekent",
+            "description": "Tijdbesparing is geen besparing tot iemand die tijd anders besteedt. Een rekenmodel dat de toets van de CFO doorstaat.",
+            "datePublished": "2026-10-20",
+            "dateModified": "2026-10-20",
+            "inLanguage": "nl-NL",
+            "articleSection": "Strategie",
+            "author": {
+              "@id": "https://freelanceaiconsultant.com/#dave"
             },
-            {
-              "@type": "Question",
-              "name": "Telt extra tijd voor waardevol werk mee als besparing in een business case voor AI?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Nee. Meer tijd voor waardevol werk is echte waarde, maar geen financiële besparing. In een business case voor AI hoort die post bij de kwalitatieve baten en niet in de rekensom."
+            "publisher": {
+              "@id": "https://freelanceaiconsultant.com/#dave"
+            },
+            "mainEntityOfPage": "https://freelanceaiconsultant.com/nl/inzichten/de-business-case-voor-ai"
+          },
+          {
+            "@type": "FAQPage",
+            "mainEntity": [
+              {
+                "@type": "Question",
+                "name": "Wat hoort er in een business case voor AI die een jaar later nog standhoudt?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "In een business case voor AI tellen bespaarde uren pas als besparing wanneer de kosten echt dalen, en hoort de volledige kostenkant: verbruik, beheer, integratie, verandering en governance. De uitkomst staat er als bandbreedte in, met de aannames over adoptie, volume en het omzetten van tijdwinst in geld zichtbaar bovenaan."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Telt extra tijd voor waardevol werk mee als besparing in een business case voor AI?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Nee. Meer tijd voor waardevol werk is echte waarde, maar geen financiële besparing. In een business case voor AI hoort die post bij de kwalitatieve baten en niet in de rekensom."
+                }
               }
-            }
-          ]
-        }
-      ]
+            ]
+          }
+        ]
+      }
     ]
   },
   "afbeeldingen": [
@@ -707,11 +752,11 @@
     ],
     "stylesheets": [
       "/_astro/_slug_.CzLXI3HH.css",
-      "/_astro/_slug_.CwnNFvzF.css",
+      "/_astro/_slug_.BpipRbQZ.css",
       "/logo-carousel/logo-carousel.css?v=2"
     ],
     "aantal_details": 0,
     "aantal_tabellen": 0
   },
-  "gemeten_op": "2026-10-29"
+  "gemeten_op": "2026-11-04"
 }

@@ -2,7 +2,7 @@
   "url": "/inzichten/ai-vendorselectie-in-acht-stappen",
   "build_bestand": "dist/inzichten/ai-vendorselectie-in-acht-stappen/index.html",
   "html": {
-    "bytes": 41571,
+    "bytes": 43446,
     "lang": "nl"
   },
   "beschermd": {
@@ -159,14 +159,17 @@
   ],
   "bodytekst": {
     "regio": "main",
-    "woorden": 1563,
-    "sha256": "e658df5ef9769a44997e22ab72e686a8dabec4003a3515e6efbe7be349231939",
+    "woorden": 1569,
+    "sha256": "97f1ad4eb4b663c7d184194bc24a5a2ac6c4bee830d772b03aa64536caae64e5",
     "blokken": [
+      "Home",
+      "Inzichten",
+      "AI-vendorselectie in acht stappen",
       "← Terug naar alle inzichten",
       "Tools & data",
       "AI-vendorselectie in acht stappen",
       "De meeste selecties worden beslist voordat het proces begint. Acht stappen die voorkomen dat je achteraf een onderbouwing zoekt bij een keuze die al vaststond.",
-      "◷ 5 min leestijd 20 november 2025",
+      "◷ 5 min leestijd 18 oktober 2026",
       "DW",
       "Door Dave Willemstein Independent AI Advisor, onafhankelijk, geen leveranciersbelangen",
       "Ik help organisaties AI-beslissingen nemen die waarde creëren. Geen dikke decks, wel duidelijke keuzes en tastbare resultaten.",
@@ -390,6 +393,20 @@
     {
       "regio": "main",
       "soort": "intern",
+      "href": "/nl",
+      "anker": "Home",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/nl/inzichten",
+      "anker": "Inzichten",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
       "href": "/nl/inzichten",
       "anker": "← Terug naar alle inzichten",
       "rel": null
@@ -606,68 +623,96 @@
     }
   ],
   "structured_data": {
-    "sha256": "be9f83f39a9d19b6c3fd493b06d513ce3ce4cf865c3251c130d04cd918659215",
+    "sha256": "6437e61d2dc0fec6df82d92ba72004363251b8904f51233598bdd302ceb4f433",
     "items": [
-      [
-        {
-          "@context": "https://schema.org",
-          "@type": "BlogPosting",
-          "headline": "AI-vendorselectie in acht stappen",
-          "description": "Criteria eerst, leveranciers daarna. Een selectieproces dat bestand is tegen goede demo’s en interne voorkeuren.",
-          "datePublished": "2025-11-20",
-          "inLanguage": "nl-NL",
-          "articleSection": "Tools & data",
-          "author": {
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://freelanceaiconsultant.com/nl"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Inzichten",
+                "item": "https://freelanceaiconsultant.com/nl/inzichten"
+              },
+              {
+                "@type": "ListItem",
+                "position": 3,
+                "name": "AI-vendorselectie in acht stappen",
+                "item": "https://freelanceaiconsultant.com/nl/inzichten/ai-vendorselectie-in-acht-stappen"
+              }
+            ]
+          },
+          {
             "@type": "Person",
+            "@id": "https://freelanceaiconsultant.com/#dave",
             "name": "Dave Willemstein",
-            "url": "https://freelanceaiconsultant.com",
+            "url": "https://freelanceaiconsultant.com/nl/over",
             "jobTitle": "Onafhankelijk AI-adviseur"
           },
-          "publisher": {
-            "@type": "Person",
-            "name": "Dave Willemstein"
+          {
+            "@type": "BlogPosting",
+            "headline": "AI-vendorselectie in acht stappen",
+            "description": "Criteria eerst, leveranciers daarna. Een selectieproces dat bestand is tegen goede demo’s en interne voorkeuren.",
+            "datePublished": "2026-10-18",
+            "dateModified": "2026-10-18",
+            "inLanguage": "nl-NL",
+            "articleSection": "Tools & data",
+            "author": {
+              "@id": "https://freelanceaiconsultant.com/#dave"
+            },
+            "publisher": {
+              "@id": "https://freelanceaiconsultant.com/#dave"
+            },
+            "mainEntityOfPage": "https://freelanceaiconsultant.com/nl/inzichten/ai-vendorselectie-in-acht-stappen"
           },
-          "mainEntityOfPage": "https://freelanceaiconsultant.com/nl/inzichten/ai-vendorselectie-in-acht-stappen"
-        },
-        {
-          "@context": "https://schema.org",
-          "@type": "FAQPage",
-          "mainEntity": [
-            {
-              "@type": "Question",
-              "name": "Hoe verloopt een AI-vendorselectie die niet door demo's of interne voorkeuren wordt beslist?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Een AI-vendorselectie in acht stappen begint met de gewenste uitkomst en met criteria en wegingen die vastliggen voordat er een leveranciersnaam op tafel komt. Daarna krijgen alle leveranciers hetzelfde scenario op representatieve eigen data, vullen beoordelaars hun scorecard afzonderlijk in en volgt een kostenberekening over drie jaar, inclusief integratie, beheer en exit. De selectie sluit af met onderhandelen over voorwaarden en met het vastleggen van de redenen waarom de andere partijen afvielen."
+          {
+            "@type": "FAQPage",
+            "mainEntity": [
+              {
+                "@type": "Question",
+                "name": "Hoe verloopt een AI-vendorselectie die niet door demo's of interne voorkeuren wordt beslist?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Een AI-vendorselectie in acht stappen begint met de gewenste uitkomst en met criteria en wegingen die vastliggen voordat er een leveranciersnaam op tafel komt. Daarna krijgen alle leveranciers hetzelfde scenario op representatieve eigen data, vullen beoordelaars hun scorecard afzonderlijk in en volgt een kostenberekening over drie jaar, inclusief integratie, beheer en exit. De selectie sluit af met onderhandelen over voorwaarden en met het vastleggen van de redenen waarom de andere partijen afvielen."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Is de prijs het belangrijkste onderhandelpunt bij een AI-vendorselectie?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Nee. Bij een AI-vendorselectie wegen een prijsafspraak voor verbruik bij groei, vastgelegde exitvoorwaarden, een prestatieafspraak op het eigen scenario en het recht op een eigen kwaliteitsmeting zwaarder. Ook hoort vast te liggen wat er gebeurt als de leverancier het onderliggende model vervangt."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Hoort een optie zonder aankoop in de vergelijking van een AI-vendorselectie?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Ja. In een AI-vendorselectie hoort minimaal één optie zonder aankoop in de vergelijking. Die optie geeft een referentiepunt voor wat de aankoop werkelijk toevoegt."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Over hoeveel jaar worden de kosten berekend in een AI-vendorselectie?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Drie jaar is de periode waarover de totale kosten in een AI-vendorselectie worden berekend. De berekening bevat minimaal de licentie, verbruikskosten bij verwacht en dubbel volume, eenmalige integratie, doorlopend beheer, opleiding en geschatte exitkosten."
+                }
               }
-            },
-            {
-              "@type": "Question",
-              "name": "Is de prijs het belangrijkste onderhandelpunt bij een AI-vendorselectie?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Nee. Bij een AI-vendorselectie wegen een prijsafspraak voor verbruik bij groei, vastgelegde exitvoorwaarden, een prestatieafspraak op het eigen scenario en het recht op een eigen kwaliteitsmeting zwaarder. Ook hoort vast te liggen wat er gebeurt als de leverancier het onderliggende model vervangt."
-              }
-            },
-            {
-              "@type": "Question",
-              "name": "Hoort een optie zonder aankoop in de vergelijking van een AI-vendorselectie?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Ja. In een AI-vendorselectie hoort minimaal één optie zonder aankoop in de vergelijking. Die optie geeft een referentiepunt voor wat de aankoop werkelijk toevoegt."
-              }
-            },
-            {
-              "@type": "Question",
-              "name": "Over hoeveel jaar worden de kosten berekend in een AI-vendorselectie?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Drie jaar is de periode waarover de totale kosten in een AI-vendorselectie worden berekend. De berekening bevat minimaal de licentie, verbruikskosten bij verwacht en dubbel volume, eenmalige integratie, doorlopend beheer, opleiding en geschatte exitkosten."
-              }
-            }
-          ]
-        }
-      ]
+            ]
+          }
+        ]
+      }
     ]
   },
   "afbeeldingen": [
@@ -726,11 +771,11 @@
     ],
     "stylesheets": [
       "/_astro/_slug_.CzLXI3HH.css",
-      "/_astro/_slug_.CwnNFvzF.css",
+      "/_astro/_slug_.BpipRbQZ.css",
       "/logo-carousel/logo-carousel.css?v=2"
     ],
     "aantal_details": 0,
     "aantal_tabellen": 0
   },
-  "gemeten_op": "2026-10-29"
+  "gemeten_op": "2026-11-04"
 }

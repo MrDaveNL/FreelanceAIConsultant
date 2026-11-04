@@ -2,7 +2,7 @@
   "url": "/inzichten/ai-agents-wat-ze-wel-en-niet-kunnen",
   "build_bestand": "dist/inzichten/ai-agents-wat-ze-wel-en-niet-kunnen/index.html",
   "html": {
-    "bytes": 40735,
+    "bytes": 42666,
     "lang": "nl"
   },
   "beschermd": {
@@ -177,14 +177,17 @@
   ],
   "bodytekst": {
     "regio": "main",
-    "woorden": 1479,
-    "sha256": "d0ca7c89bd9ebab799f6ecddf93dc2c3bec07ea9569c258e8cf20f69c0e3223a",
+    "woorden": 1491,
+    "sha256": "ab0605403e267ce0e4f19e187aebb3d6247123c658195a8c51d6ab04a5629cdd",
     "blokken": [
+      "Home",
+      "Inzichten",
+      "AI-agents: wat ze wel en niet kunnen in een bedrijfsproces",
       "← Terug naar alle inzichten",
       "Use cases",
       "AI-agents: wat ze wel en niet kunnen",
       "Een agent die zelf stappen zet en systemen aanroept, is aantrekkelijk en risicovol tegelijk. Het onderscheid zit in wat er gebeurt als hij ernaast zit.",
-      "◷ 4 min leestijd 16 juli 2026",
+      "◷ 4 min leestijd 28 oktober 2026",
       "DW",
       "Door Dave Willemstein Independent AI Advisor, onafhankelijk, geen leveranciersbelangen",
       "Ik help organisaties AI-beslissingen nemen die waarde creëren. Geen dikke decks, wel duidelijke keuzes en tastbare resultaten.",
@@ -389,6 +392,20 @@
       "soort": "intern",
       "href": "/nl/contact",
       "anker": "Plan een gesprek →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/nl",
+      "anker": "Home",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/nl/inzichten",
+      "anker": "Inzichten",
       "rel": null
     },
     {
@@ -610,68 +627,96 @@
     }
   ],
   "structured_data": {
-    "sha256": "5c526f188b02d147ed2990c4503e09f1fb754cc7ee83d3d7962de4877b802d00",
+    "sha256": "ecd002e95e9f3d8ac694eaf9908301818a6971e9e3215cae24677626bddae585",
     "items": [
-      [
-        {
-          "@context": "https://schema.org",
-          "@type": "BlogPosting",
-          "headline": "AI-agents: wat ze wel en niet kunnen in een bedrijfsproces",
-          "description": "Agents die zelfstandig taken uitvoeren zijn de belofte van dit moment. Waar ze werken, waar ze stukgaan, en welke vraag je vooraf moet beantwoorden.",
-          "datePublished": "2026-07-16",
-          "inLanguage": "nl-NL",
-          "articleSection": "Use cases",
-          "author": {
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://freelanceaiconsultant.com/nl"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Inzichten",
+                "item": "https://freelanceaiconsultant.com/nl/inzichten"
+              },
+              {
+                "@type": "ListItem",
+                "position": 3,
+                "name": "AI-agents: wat ze wel en niet kunnen in een bedrijfsproces",
+                "item": "https://freelanceaiconsultant.com/nl/inzichten/ai-agents-wat-ze-wel-en-niet-kunnen"
+              }
+            ]
+          },
+          {
             "@type": "Person",
+            "@id": "https://freelanceaiconsultant.com/#dave",
             "name": "Dave Willemstein",
-            "url": "https://freelanceaiconsultant.com",
+            "url": "https://freelanceaiconsultant.com/nl/over",
             "jobTitle": "Onafhankelijk AI-adviseur"
           },
-          "publisher": {
-            "@type": "Person",
-            "name": "Dave Willemstein"
+          {
+            "@type": "BlogPosting",
+            "headline": "AI-agents: wat ze wel en niet kunnen in een bedrijfsproces",
+            "description": "Agents die zelfstandig taken uitvoeren zijn de belofte van dit moment. Waar ze werken, waar ze stukgaan, en welke vraag je vooraf moet beantwoorden.",
+            "datePublished": "2026-10-28",
+            "dateModified": "2026-10-28",
+            "inLanguage": "nl-NL",
+            "articleSection": "Use cases",
+            "author": {
+              "@id": "https://freelanceaiconsultant.com/#dave"
+            },
+            "publisher": {
+              "@id": "https://freelanceaiconsultant.com/#dave"
+            },
+            "mainEntityOfPage": "https://freelanceaiconsultant.com/nl/inzichten/ai-agents-wat-ze-wel-en-niet-kunnen"
           },
-          "mainEntityOfPage": "https://freelanceaiconsultant.com/nl/inzichten/ai-agents-wat-ze-wel-en-niet-kunnen"
-        },
-        {
-          "@context": "https://schema.org",
-          "@type": "FAQPage",
-          "mainEntity": [
-            {
-              "@type": "Question",
-              "name": "Voor welke taken zijn AI-agents geschikt en waar gaat het mis?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "AI-agents zijn geschikt voor voorbereidend werk waar een mens daarna over beslist, voor stappen die zonder schade terug te draaien zijn en voor taken met een harde, controleerbare eindtoets. Het gaat mis bij processen waarin een fout onopgemerkt doorwerkt, bij handelingen met externe gevolgen, bij lange ketens zonder tussentoets en bij situaties zonder volledig logboek. Hoeveel autonomie een agent krijgt, is een keuze van de organisatie die afhangt van wat een fout kost en wie die fout opmerkt."
+          {
+            "@type": "FAQPage",
+            "mainEntity": [
+              {
+                "@type": "Question",
+                "name": "Voor welke taken zijn AI-agents geschikt en waar gaat het mis?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "AI-agents zijn geschikt voor voorbereidend werk waar een mens daarna over beslist, voor stappen die zonder schade terug te draaien zijn en voor taken met een harde, controleerbare eindtoets. Het gaat mis bij processen waarin een fout onopgemerkt doorwerkt, bij handelingen met externe gevolgen, bij lange ketens zonder tussentoets en bij situaties zonder volledig logboek. Hoeveel autonomie een agent krijgt, is een keuze van de organisatie die afhangt van wat een fout kost en wie die fout opmerkt."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Met welk autonomieniveau beginnen AI-agents volgens het advies?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Het advies is vrijwel altijd om AI-agents op niveau één of twee te laten beginnen, dus bij voorbereiden of voorstellen, ook als het model meer aankan. In die fase wordt duidelijk welke fouten werkelijk optreden, en die kennis is nodig om te bepalen waar de autonomie veilig omhoog kan."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Is een bevestigingsstap nodig als AI-agents berichten naar klanten sturen of betalingen starten?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Ja, standaard: bij handelingen van AI-agents met externe gevolgen, zoals een bericht naar een klant, een bestelling of een betaling, hoort een bevestigingsstap. De kosten van een fout landen dan buiten de organisatie en zijn niet terug te nemen."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Is een volledig logboek nodig bij het inzetten van AI-agents?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Ja, logging is niet optioneel: zonder volledig spoor van de stappen van AI-agents is een fout niet te reconstrueren. Zonder logboek van de gezette stappen, de geraadpleegde bronnen en de reden voor een gekozen route is een incident niet te onderzoeken; voor gereguleerde processen is dat geen optie en voor de rest is het onverstandig."
+                }
               }
-            },
-            {
-              "@type": "Question",
-              "name": "Met welk autonomieniveau beginnen AI-agents volgens het advies?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Het advies is vrijwel altijd om AI-agents op niveau één of twee te laten beginnen, dus bij voorbereiden of voorstellen, ook als het model meer aankan. In die fase wordt duidelijk welke fouten werkelijk optreden, en die kennis is nodig om te bepalen waar de autonomie veilig omhoog kan."
-              }
-            },
-            {
-              "@type": "Question",
-              "name": "Is een bevestigingsstap nodig als AI-agents berichten naar klanten sturen of betalingen starten?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Ja, standaard: bij handelingen van AI-agents met externe gevolgen, zoals een bericht naar een klant, een bestelling of een betaling, hoort een bevestigingsstap. De kosten van een fout landen dan buiten de organisatie en zijn niet terug te nemen."
-              }
-            },
-            {
-              "@type": "Question",
-              "name": "Is een volledig logboek nodig bij het inzetten van AI-agents?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Ja, logging is niet optioneel: zonder volledig spoor van de stappen van AI-agents is een fout niet te reconstrueren. Zonder logboek van de gezette stappen, de geraadpleegde bronnen en de reden voor een gekozen route is een incident niet te onderzoeken; voor gereguleerde processen is dat geen optie en voor de rest is het onverstandig."
-              }
-            }
-          ]
-        }
-      ]
+            ]
+          }
+        ]
+      }
     ]
   },
   "afbeeldingen": [
@@ -730,11 +775,11 @@
     ],
     "stylesheets": [
       "/_astro/_slug_.CzLXI3HH.css",
-      "/_astro/_slug_.CwnNFvzF.css",
+      "/_astro/_slug_.BpipRbQZ.css",
       "/logo-carousel/logo-carousel.css?v=2"
     ],
     "aantal_details": 0,
     "aantal_tabellen": 0
   },
-  "gemeten_op": "2026-10-29"
+  "gemeten_op": "2026-11-04"
 }
