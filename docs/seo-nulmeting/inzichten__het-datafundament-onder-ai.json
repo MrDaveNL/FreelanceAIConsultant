@@ -154,7 +154,7 @@
   "bodytekst": {
     "regio": "main",
     "woorden": 1556,
-    "sha256": "a719d977082e86b8fb1c91fddbef102712af4013256f95f572257242930b1ff4",
+    "sha256": "e1506cb2ce1f13245fcb3ecb9fae481c4c14dfa9376a1565f872423371c152c0",
     "blokken": [
       "Home",
       "Inzichten",
@@ -163,7 +163,7 @@
       "Tools & data",
       "Het datafundament onder je AI-initiatieven",
       "Het meest gegeven advies in AI-land is ook het gevaarlijkste: eerst je data op orde brengen. Soms klopt dat. Vaak is het een manier om nog twee jaar niets te doen.",
-      "◷ 4 min leestijd 23 oktober 2026",
+      "◷ 4 min leestijd 28 oktober 2026",
       "DW",
       "Door Dave Willemstein Independent AI Advisor, onafhankelijk, geen leveranciersbelangen",
       "Ik help organisaties AI-beslissingen nemen die waarde creëren. Geen dikke decks, wel duidelijke keuzes en tastbare resultaten.",
@@ -602,7 +602,7 @@
     }
   ],
   "structured_data": {
-    "sha256": "260756b579b14063a50a5edf8bcd5927cbd561fad321795ddf05d61a7ce3d18e",
+    "sha256": "96acf301ae27a46b4a6a5d5d387e01e117b6a63147a1696887187359a69d7828",
     "items": [
       {
         "@context": "https://schema.org",
@@ -641,8 +641,8 @@
             "@type": "BlogPosting",
             "headline": "De rol van het datafundament in succesvolle AI-initiatieven",
             "description": "\"Eerst de data op orde\" is net zo vaak een excuus als een noodzaak. Hoe je bepaalt welke van de twee bij jou speelt.",
-            "datePublished": "2026-10-23",
-            "dateModified": "2026-10-23",
+            "datePublished": "2026-10-28",
+            "dateModified": "2026-10-28",
             "inLanguage": "nl-NL",
             "articleSection": "Tools & data",
             "author": {

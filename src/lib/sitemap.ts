@@ -54,7 +54,9 @@ export async function sitemapRoutes(loc: Locale): Promise<SitemapRoute[]> {
       const path = entry.paths[loc];
       let lastmod: string;
       if (entry.kind === 'content') lastmod = updatedByUrl.get(path) ?? gitLastModified('src/content/pages');
-      else if (entry.kind === 'article') lastmod = dateBySlug.get(entry.id.replace(/^art-/, '')) ?? gitLastModified('src/data/articles');
+      // dateBySlug is per-locale; de sleutel moet dus de slug van déze taalversie zijn (de laatste
+      // padsegment), niet entry.id (dat altijd de NL-slug is, ook voor EN-routes).
+      else if (entry.kind === 'article') lastmod = dateBySlug.get(path.split('/').pop()!) ?? gitLastModified('src/data/articles');
       else if (entry.kind === 'service') lastmod = gitLastModified(servicesFile);
       else if (entry.kind === 'case') lastmod = gitLastModified(casesFile);
       else lastmod = gitLastModified(STATIC_SOURCE[entry.id]?.[loc] ?? 'src/pages');

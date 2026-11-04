@@ -142,7 +142,7 @@
   "bodytekst": {
     "regio": "main",
     "woorden": 1430,
-    "sha256": "10303ce3e72c9924d5f597ad3b5039b3504809f656b02b025c98afce49b5d750",
+    "sha256": "74fc6c3ecd5d0e05a7ce545605538237bc8ad5077269c2da76e168a94bf32944",
     "blokken": [
       "Home",
       "Inzichten",
@@ -151,7 +151,7 @@
       "Organisatie",
       "AI-adoptie begint bij het werk",
       "Organisaties die AI-tools uitrollen zien doorgaans tien tot vijftien procent wekelijks gebruik. Dat is geen weerstand tegen verandering, maar een ontwerpprobleem.",
-      "◷ 4 min leestijd 19 oktober 2026",
+      "◷ 4 min leestijd 28 oktober 2026",
       "DW",
       "Door Dave Willemstein Independent AI Advisor, onafhankelijk, geen leveranciersbelangen",
       "Ik help organisaties AI-beslissingen nemen die waarde creëren. Geen dikke decks, wel duidelijke keuzes en tastbare resultaten.",
@@ -587,7 +587,7 @@
     }
   ],
   "structured_data": {
-    "sha256": "3387a4839f8852ce65a83d1dc1c29978a437229d2324c2f01431177ff4fc85f2",
+    "sha256": "3c37fc9a0b8895a1d37ee68626dac35d0283c8ffc62a3a3197548f6e52cfa9ef",
     "items": [
       {
         "@context": "https://schema.org",
@@ -626,8 +626,8 @@
             "@type": "BlogPosting",
             "headline": "AI-adoptie begint bij het werk, niet bij de tool",
             "description": "Iedereen een licentie geven is geen adoptiestrategie. Waarom een leeg invoerveld de grootste drempel is, en wat er wel werkt.",
-            "datePublished": "2026-10-19",
-            "dateModified": "2026-10-19",
+            "datePublished": "2026-10-28",
+            "dateModified": "2026-10-28",
             "inLanguage": "nl-NL",
             "articleSection": "Organisatie",
             "author": {

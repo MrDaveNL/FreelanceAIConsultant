@@ -160,7 +160,7 @@
   "bodytekst": {
     "regio": "main",
     "woorden": 1569,
-    "sha256": "97f1ad4eb4b663c7d184194bc24a5a2ac6c4bee830d772b03aa64536caae64e5",
+    "sha256": "54a0eb0af0aec5ca8bf5d084a3eb530a3d4a2533e1789869d92662b6753bffa1",
     "blokken": [
       "Home",
       "Inzichten",
@@ -169,7 +169,7 @@
       "Tools & data",
       "AI-vendorselectie in acht stappen",
       "De meeste selecties worden beslist voordat het proces begint. Acht stappen die voorkomen dat je achteraf een onderbouwing zoekt bij een keuze die al vaststond.",
-      "◷ 5 min leestijd 18 oktober 2026",
+      "◷ 5 min leestijd 28 oktober 2026",
       "DW",
       "Door Dave Willemstein Independent AI Advisor, onafhankelijk, geen leveranciersbelangen",
       "Ik help organisaties AI-beslissingen nemen die waarde creëren. Geen dikke decks, wel duidelijke keuzes en tastbare resultaten.",
@@ -623,7 +623,7 @@
     }
   ],
   "structured_data": {
-    "sha256": "6437e61d2dc0fec6df82d92ba72004363251b8904f51233598bdd302ceb4f433",
+    "sha256": "370df112fd01c486a0f19c5bc7717a4ad9cf0d4fcca882162021a735e659f814",
     "items": [
       {
         "@context": "https://schema.org",
@@ -662,8 +662,8 @@
             "@type": "BlogPosting",
             "headline": "AI-vendorselectie in acht stappen",
             "description": "Criteria eerst, leveranciers daarna. Een selectieproces dat bestand is tegen goede demo’s en interne voorkeuren.",
-            "datePublished": "2026-10-18",
-            "dateModified": "2026-10-18",
+            "datePublished": "2026-10-28",
+            "dateModified": "2026-10-28",
             "inLanguage": "nl-NL",
             "articleSection": "Tools & data",
             "author": {

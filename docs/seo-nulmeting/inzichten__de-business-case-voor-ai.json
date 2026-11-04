@@ -172,7 +172,7 @@
   "bodytekst": {
     "regio": "main",
     "woorden": 1419,
-    "sha256": "d7bd51b0e6f1d330073465ef859505f24e620bf1c00573dc5729fd023178d281",
+    "sha256": "7a6011d30ddfeb06b050d1c03f1e3f478ea9eeb884b2e52ee4a962d31c439f97",
     "blokken": [
       "Home",
       "Inzichten",
@@ -181,7 +181,7 @@
       "Strategie",
       "De business case voor AI, eerlijk berekend",
       "De meeste AI-businesscases sneuvelen niet bij de board, maar een jaar later bij de realisatiecheck. Dit is hoe je er een maakt die dat moment overleeft.",
-      "◷ 5 min leestijd 20 oktober 2026",
+      "◷ 5 min leestijd 28 oktober 2026",
       "DW",
       "Door Dave Willemstein Independent AI Advisor, onafhankelijk, geen leveranciersbelangen",
       "Ik help organisaties AI-beslissingen nemen die waarde creëren. Geen dikke decks, wel duidelijke keuzes en tastbare resultaten.",
@@ -620,7 +620,7 @@
     }
   ],
   "structured_data": {
-    "sha256": "6b07e868e94b7d0358d355e981922b3f5f94f889963a808f71d32b93ea5e8e15",
+    "sha256": "9aa03964562947d40d3d0fba7147c9a579998c1014f673df45f2320fbec6a2d0",
     "items": [
       {
         "@context": "https://schema.org",
@@ -659,8 +659,8 @@
             "@type": "BlogPosting",
             "headline": "De business case voor AI: hoe je hem eerlijk berekent",
             "description": "Tijdbesparing is geen besparing tot iemand die tijd anders besteedt. Een rekenmodel dat de toets van de CFO doorstaat.",
-            "datePublished": "2026-10-20",
-            "dateModified": "2026-10-20",
+            "datePublished": "2026-10-28",
+            "dateModified": "2026-10-28",
             "inLanguage": "nl-NL",
             "articleSection": "Strategie",
             "author": {
