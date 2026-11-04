@@ -141,6 +141,9 @@ const articles = defineCollection({
     // Optioneel: datum van de laatste inhoudelijke wijziging, voor dateModified in de schema.
     // Zonder dit veld valt dateModified terug op 'date' (nooit op de builddatum).
     updated: z.string().optional(),
+    // Optioneel: vaste tweede sorteersleutel (laag = nieuwer/boven), zodat de volgorde op de
+    // inzichten-hub en in de RSS-feed niet verandert als twee artikelen dezelfde 'date' krijgen.
+    order: z.number().optional(),
     summary: z.array(z.string()),
     summaryClose: z.string(),
     takeaways: z.array(z.tuple([z.string(), z.string()])),

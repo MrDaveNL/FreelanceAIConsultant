@@ -11,8 +11,9 @@ export default {
   metaDescription: 'Tijdbesparing is geen besparing tot iemand die tijd anders besteedt. Een rekenmodel voor de AI business case dat de toets van de CFO doorstaat.',
   lede: 'De meeste AI-businesscases sneuvelen niet bij de board, maar een jaar later bij de realisatiecheck. Dit is hoe je er een maakt die dat moment overleeft.',
   readingTime: '5 min leestijd',
-  date: '2026-01-29',
-  dateLabel: '29 januari 2026',
+  date: '2026-10-20',
+  dateLabel: '20 oktober 2026',
+  order: 9,
   summary: [
     'Bespaarde uren tellen pas als besparing als de kosten echt dalen.',
     'Reken de volledige kostenkant mee: bouw, beheer, verbruik, verandering.',
