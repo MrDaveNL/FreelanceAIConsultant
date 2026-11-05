@@ -2,7 +2,7 @@
   "url": "/inzichten/ai-governance-zonder-bureaucratie",
   "build_bestand": "dist/inzichten/ai-governance-zonder-bureaucratie/index.html",
   "html": {
-    "bytes": 41170,
+    "bytes": 43104,
     "lang": "nl"
   },
   "beschermd": {
@@ -153,14 +153,17 @@
   ],
   "bodytekst": {
     "regio": "main",
-    "woorden": 1522,
-    "sha256": "e8cda2901c6136652947ac8c95949bb8a4c3a19d77d3b362409f50f90985a776",
+    "woorden": 1532,
+    "sha256": "71257e0604f61e71ce7543a70ba1fd268ae6e56dd3d73fc8f969bcd1d0454d0a",
     "blokken": [
+      "Home",
+      "Inzichten",
+      "AI-governance zonder bureaucratie: wat je minimaal nodig hebt",
       "← Terug naar alle inzichten",
       "Governance",
       "AI-governance zonder bureaucratie",
       "Europese regelgeving dwingt organisaties om AI aantoonbaar te beheersen. Dat kan uitmonden in een commissie die alles vertraagt, of in vier lichte mechanismen die het werk beter maken.",
-      "◷ 5 min leestijd 19 maart 2026",
+      "◷ 5 min leestijd 28 oktober 2026",
       "DW",
       "Door Dave Willemstein Independent AI Advisor, onafhankelijk, geen leveranciersbelangen",
       "Ik help organisaties AI-beslissingen nemen die waarde creëren. Geen dikke decks, wel duidelijke keuzes en tastbare resultaten.",
@@ -363,6 +366,20 @@
       "soort": "intern",
       "href": "/nl/contact",
       "anker": "Plan een gesprek →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/nl",
+      "anker": "Home",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/nl/inzichten",
+      "anker": "Inzichten",
       "rel": null
     },
     {
@@ -584,68 +601,96 @@
     }
   ],
   "structured_data": {
-    "sha256": "1bd013ee862847ece65287cdc20cb4e67645b6ea0c65f0d19256db74c2c9779f",
+    "sha256": "fef0ceed1f3cfce0ed42f13fdecb9b0fdd25181ac1a557ac1a95033bf667beda",
     "items": [
-      [
-        {
-          "@context": "https://schema.org",
-          "@type": "BlogPosting",
-          "headline": "AI-governance zonder bureaucratie: wat je minimaal nodig hebt",
-          "description": "Governance die niemand gebruikt, beschermt niemand. Vier mechanismen die het verschil maken, en wat je gerust kunt overslaan.",
-          "datePublished": "2026-03-19",
-          "inLanguage": "nl-NL",
-          "articleSection": "Governance",
-          "author": {
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://freelanceaiconsultant.com/nl"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Inzichten",
+                "item": "https://freelanceaiconsultant.com/nl/inzichten"
+              },
+              {
+                "@type": "ListItem",
+                "position": 3,
+                "name": "AI-governance zonder bureaucratie: wat je minimaal nodig hebt",
+                "item": "https://freelanceaiconsultant.com/nl/inzichten/ai-governance-zonder-bureaucratie"
+              }
+            ]
+          },
+          {
             "@type": "Person",
+            "@id": "https://freelanceaiconsultant.com/#dave",
             "name": "Dave Willemstein",
-            "url": "https://freelanceaiconsultant.com",
+            "url": "https://freelanceaiconsultant.com/nl/over",
             "jobTitle": "Onafhankelijk AI-adviseur"
           },
-          "publisher": {
-            "@type": "Person",
-            "name": "Dave Willemstein"
+          {
+            "@type": "BlogPosting",
+            "headline": "AI-governance zonder bureaucratie: wat je minimaal nodig hebt",
+            "description": "Governance die niemand gebruikt, beschermt niemand. Vier mechanismen die het verschil maken, en wat je gerust kunt overslaan.",
+            "datePublished": "2026-10-28",
+            "dateModified": "2026-10-28",
+            "inLanguage": "nl-NL",
+            "articleSection": "Governance",
+            "author": {
+              "@id": "https://freelanceaiconsultant.com/#dave"
+            },
+            "publisher": {
+              "@id": "https://freelanceaiconsultant.com/#dave"
+            },
+            "mainEntityOfPage": "https://freelanceaiconsultant.com/nl/inzichten/ai-governance-zonder-bureaucratie"
           },
-          "mainEntityOfPage": "https://freelanceaiconsultant.com/nl/inzichten/ai-governance-zonder-bureaucratie"
-        },
-        {
-          "@context": "https://schema.org",
-          "@type": "FAQPage",
-          "mainEntity": [
-            {
-              "@type": "Question",
-              "name": "Hoe richt een organisatie AI-governance in zonder dat het bureaucratie wordt?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Daarnaast heeft een organisatie minimaal vier mechanismen nodig: één register van alle AI-toepassingen, één poort voor beoordeling vooraf, één periodieke toets en één escalatiepad. Het risico van te veel regelen is dat mensen eromheen gaan werken en er een schaduwpraktijk ontstaat met tools die niemand kent, terwijl de organisatie denkt in controle te zijn."
+          {
+            "@type": "FAQPage",
+            "mainEntity": [
+              {
+                "@type": "Question",
+                "name": "Hoe richt een organisatie AI-governance in zonder dat het bureaucratie wordt?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Daarnaast heeft een organisatie minimaal vier mechanismen nodig: één register van alle AI-toepassingen, één poort voor beoordeling vooraf, één periodieke toets en één escalatiepad. Het risico van te veel regelen is dat mensen eromheen gaan werken en er een schaduwpraktijk ontstaat met tools die niemand kent, terwijl de organisatie denkt in controle te zijn."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Is een aparte AI-ethiekcommissie nodig voor AI-governance?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Meestal niet: voor AI-governance is het meestal beter om AI als onderwerp toe te voegen aan het gremium dat er binnen de bestaande risicostructuur al is. Dat gremium heeft mandaat en vergadert al."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Kan het register voor AI-governance een spreadsheet zijn?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Ja, als de spreadsheet klopt: voor AI-governance verslaat een spreadsheet die klopt een GRC-module die half gevuld is. Het register bevat per toepassing de eigenaar, het doel, het risiconiveau, de gebruikte data, de leverancier en het moment van de laatste beoordeling."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Is de risico-indeling voor AI-governance in drie niveaus ook een juridisch oordeel onder de Europese AI-verordening?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Nee. De indeling in drie niveaus is een werkmodel om binnen AI-governance het interne gesprek te structureren. De Europese AI-verordening hanteert een eigen classificatie, en het advies is de juridische afdeling of een gespecialiseerde adviseur te laten vaststellen waar toepassingen exact onder vallen."
+                }
               }
-            },
-            {
-              "@type": "Question",
-              "name": "Is een aparte AI-ethiekcommissie nodig voor AI-governance?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Meestal niet: voor AI-governance is het meestal beter om AI als onderwerp toe te voegen aan het gremium dat er binnen de bestaande risicostructuur al is. Dat gremium heeft mandaat en vergadert al."
-              }
-            },
-            {
-              "@type": "Question",
-              "name": "Kan het register voor AI-governance een spreadsheet zijn?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Ja, als de spreadsheet klopt: voor AI-governance verslaat een spreadsheet die klopt een GRC-module die half gevuld is. Het register bevat per toepassing de eigenaar, het doel, het risiconiveau, de gebruikte data, de leverancier en het moment van de laatste beoordeling."
-              }
-            },
-            {
-              "@type": "Question",
-              "name": "Is de risico-indeling voor AI-governance in drie niveaus ook een juridisch oordeel onder de Europese AI-verordening?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Nee. De indeling in drie niveaus is een werkmodel om binnen AI-governance het interne gesprek te structureren. De Europese AI-verordening hanteert een eigen classificatie, en het advies is de juridische afdeling of een gespecialiseerde adviseur te laten vaststellen waar toepassingen exact onder vallen."
-              }
-            }
-          ]
-        }
-      ]
+            ]
+          }
+        ]
+      }
     ]
   },
   "afbeeldingen": [
@@ -704,11 +749,11 @@
     ],
     "stylesheets": [
       "/_astro/_slug_.CzLXI3HH.css",
-      "/_astro/_slug_.CwnNFvzF.css",
+      "/_astro/_slug_.BpipRbQZ.css",
       "/logo-carousel/logo-carousel.css?v=2"
     ],
     "aantal_details": 0,
     "aantal_tabellen": 0
   },
-  "gemeten_op": "2026-10-29"
+  "gemeten_op": "2026-11-04"
 }

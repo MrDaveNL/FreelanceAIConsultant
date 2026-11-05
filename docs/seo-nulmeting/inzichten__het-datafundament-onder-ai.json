@@ -2,7 +2,7 @@
   "url": "/inzichten/het-datafundament-onder-ai",
   "build_bestand": "dist/inzichten/het-datafundament-onder-ai/index.html",
   "html": {
-    "bytes": 40773,
+    "bytes": 42697,
     "lang": "nl"
   },
   "beschermd": {
@@ -153,14 +153,17 @@
   ],
   "bodytekst": {
     "regio": "main",
-    "woorden": 1546,
-    "sha256": "c4748490edce97113022aec3bf3627854567d95f81730d5452e57db37fc8f032",
+    "woorden": 1556,
+    "sha256": "e1506cb2ce1f13245fcb3ecb9fae481c4c14dfa9376a1565f872423371c152c0",
     "blokken": [
+      "Home",
+      "Inzichten",
+      "De rol van het datafundament in succesvolle AI-initiatieven",
       "← Terug naar alle inzichten",
       "Tools & data",
       "Het datafundament onder je AI-initiatieven",
       "Het meest gegeven advies in AI-land is ook het gevaarlijkste: eerst je data op orde brengen. Soms klopt dat. Vaak is het een manier om nog twee jaar niets te doen.",
-      "◷ 4 min leestijd 9 april 2026",
+      "◷ 4 min leestijd 28 oktober 2026",
       "DW",
       "Door Dave Willemstein Independent AI Advisor, onafhankelijk, geen leveranciersbelangen",
       "Ik help organisaties AI-beslissingen nemen die waarde creëren. Geen dikke decks, wel duidelijke keuzes en tastbare resultaten.",
@@ -364,6 +367,20 @@
       "soort": "intern",
       "href": "/nl/contact",
       "anker": "Plan een gesprek →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/nl",
+      "anker": "Home",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/nl/inzichten",
+      "anker": "Inzichten",
       "rel": null
     },
     {
@@ -585,68 +602,96 @@
     }
   ],
   "structured_data": {
-    "sha256": "a7a3056e3adbaea2d701f13e77f2fd997396757672769b62b36acaf56a2bfe17",
+    "sha256": "96acf301ae27a46b4a6a5d5d387e01e117b6a63147a1696887187359a69d7828",
     "items": [
-      [
-        {
-          "@context": "https://schema.org",
-          "@type": "BlogPosting",
-          "headline": "De rol van het datafundament in succesvolle AI-initiatieven",
-          "description": "\"Eerst de data op orde\" is net zo vaak een excuus als een noodzaak. Hoe je bepaalt welke van de twee bij jou speelt.",
-          "datePublished": "2026-04-09",
-          "inLanguage": "nl-NL",
-          "articleSection": "Tools & data",
-          "author": {
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://freelanceaiconsultant.com/nl"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Inzichten",
+                "item": "https://freelanceaiconsultant.com/nl/inzichten"
+              },
+              {
+                "@type": "ListItem",
+                "position": 3,
+                "name": "De rol van het datafundament in succesvolle AI-initiatieven",
+                "item": "https://freelanceaiconsultant.com/nl/inzichten/het-datafundament-onder-ai"
+              }
+            ]
+          },
+          {
             "@type": "Person",
+            "@id": "https://freelanceaiconsultant.com/#dave",
             "name": "Dave Willemstein",
-            "url": "https://freelanceaiconsultant.com",
+            "url": "https://freelanceaiconsultant.com/nl/over",
             "jobTitle": "Onafhankelijk AI-adviseur"
           },
-          "publisher": {
-            "@type": "Person",
-            "name": "Dave Willemstein"
+          {
+            "@type": "BlogPosting",
+            "headline": "De rol van het datafundament in succesvolle AI-initiatieven",
+            "description": "\"Eerst de data op orde\" is net zo vaak een excuus als een noodzaak. Hoe je bepaalt welke van de twee bij jou speelt.",
+            "datePublished": "2026-10-28",
+            "dateModified": "2026-10-28",
+            "inLanguage": "nl-NL",
+            "articleSection": "Tools & data",
+            "author": {
+              "@id": "https://freelanceaiconsultant.com/#dave"
+            },
+            "publisher": {
+              "@id": "https://freelanceaiconsultant.com/#dave"
+            },
+            "mainEntityOfPage": "https://freelanceaiconsultant.com/nl/inzichten/het-datafundament-onder-ai"
           },
-          "mainEntityOfPage": "https://freelanceaiconsultant.com/nl/inzichten/het-datafundament-onder-ai"
-        },
-        {
-          "@context": "https://schema.org",
-          "@type": "FAQPage",
-          "mainEntity": [
-            {
-              "@type": "Question",
-              "name": "Moet het datafundament eerst op orde zijn voordat een organisatie met AI begint?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Een perfect datafundament is niet nodig om met AI te beginnen: genoeg fundament voor één use case volstaat. De aanpak die in de praktijk werkt, kiest eerst één use case met duidelijke waarde en een eigenaar in de lijn, en lost alleen voor de bronnen van die use case de definities, de herkomst en de kwaliteit op. Na drie of vier use cases is er zo een fundament ontstaan uit gebruik, kleiner dan het ideaalplaatje en aanzienlijk betrouwbaarder."
+          {
+            "@type": "FAQPage",
+            "mainEntity": [
+              {
+                "@type": "Question",
+                "name": "Moet het datafundament eerst op orde zijn voordat een organisatie met AI begint?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Een perfect datafundament is niet nodig om met AI te beginnen: genoeg fundament voor één use case volstaat. De aanpak die in de praktijk werkt, kiest eerst één use case met duidelijke waarde en een eigenaar in de lijn, en lost alleen voor de bronnen van die use case de definities, de herkomst en de kwaliteit op. Na drie of vier use cases is er zo een fundament ontstaan uit gebruik, kleiner dan het ideaalplaatje en aanzienlijk betrouwbaarder."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Is een centraal datawarehouse nodig voor het datafundament onder een eerste AI-use case?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Vaak niet: voor het datafundament onder een eerste use case is een dagelijkse export vaak genoeg. Toegankelijkheid en infrastructuur zijn meestal het minst urgente dataprobleem en in de praktijk vaak het makkelijkst op te lossen, zeker voor één use case."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Zijn er situaties waarin eerst het datafundament aanpakken wel het juiste antwoord is?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Ja. Uitstellen is verstandig bij drie signalen rond het datafundament: de kernentiteit is niet eenduidig, de benodigde data wordt niet vastgelegd of de bron heeft geen eigenaar. Die signalen gaan over betekenis en eigenaarschap, niet over technologie."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Hoeveel begrippen worden gedefinieerd om het definitieprobleem in het datafundament aan te pakken?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Vijf tot tien: de aanpak voor het definitieprobleem in het datafundament is alleen de begrippen te definiëren die de use case raakt, niet het hele bedrijfsdatamodel. Volgens het artikel is dat twee weken werk in plaats van twee jaar."
+                }
               }
-            },
-            {
-              "@type": "Question",
-              "name": "Is een centraal datawarehouse nodig voor het datafundament onder een eerste AI-use case?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Vaak niet: voor het datafundament onder een eerste use case is een dagelijkse export vaak genoeg. Toegankelijkheid en infrastructuur zijn meestal het minst urgente dataprobleem en in de praktijk vaak het makkelijkst op te lossen, zeker voor één use case."
-              }
-            },
-            {
-              "@type": "Question",
-              "name": "Zijn er situaties waarin eerst het datafundament aanpakken wel het juiste antwoord is?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Ja. Uitstellen is verstandig bij drie signalen rond het datafundament: de kernentiteit is niet eenduidig, de benodigde data wordt niet vastgelegd of de bron heeft geen eigenaar. Die signalen gaan over betekenis en eigenaarschap, niet over technologie."
-              }
-            },
-            {
-              "@type": "Question",
-              "name": "Hoeveel begrippen worden gedefinieerd om het definitieprobleem in het datafundament aan te pakken?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Vijf tot tien: de aanpak voor het definitieprobleem in het datafundament is alleen de begrippen te definiëren die de use case raakt, niet het hele bedrijfsdatamodel. Volgens het artikel is dat twee weken werk in plaats van twee jaar."
-              }
-            }
-          ]
-        }
-      ]
+            ]
+          }
+        ]
+      }
     ]
   },
   "afbeeldingen": [
@@ -705,11 +750,11 @@
     ],
     "stylesheets": [
       "/_astro/_slug_.CzLXI3HH.css",
-      "/_astro/_slug_.CwnNFvzF.css",
+      "/_astro/_slug_.BpipRbQZ.css",
       "/logo-carousel/logo-carousel.css?v=2"
     ],
     "aantal_details": 0,
     "aantal_tabellen": 0
   },
-  "gemeten_op": "2026-10-29"
+  "gemeten_op": "2026-11-04"
 }

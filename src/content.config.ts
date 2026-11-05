@@ -138,12 +138,21 @@ const articles = defineCollection({
     readingTime: z.string(),
     date: z.string(),
     dateLabel: z.string(),
+    // Optioneel: datum van de laatste inhoudelijke wijziging, voor dateModified in de schema.
+    // Zonder dit veld valt dateModified terug op 'date' (nooit op de builddatum).
+    updated: z.string().optional(),
+    // Optioneel: vaste tweede sorteersleutel (laag = nieuwer/boven), zodat de volgorde op de
+    // inzichten-hub en in de RSS-feed niet verandert als twee artikelen dezelfde 'date' krijgen.
+    order: z.number().optional(),
     summary: z.array(z.string()),
     summaryClose: z.string(),
     takeaways: z.array(z.tuple([z.string(), z.string()])),
     remember: z.string(),
     related: z.array(z.string()),
     body: z.string(),
+    // Optioneel: artikelen hadden tot nu toe geen FAQ. Alleen gevuld -> FAQPage in de schema
+    // en een zichtbare 'Veelgestelde vragen'-sectie met het bestaande Accordion-component.
+    faq: z.array(z.object({ q: z.string(), a: z.string() })).optional(),
   }),
 });
 

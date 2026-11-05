@@ -2,7 +2,7 @@
   "url": "/inzichten/welke-ai-use-cases-leveren-resultaat",
   "build_bestand": "dist/inzichten/welke-ai-use-cases-leveren-resultaat/index.html",
   "html": {
-    "bytes": 39348,
+    "bytes": 41258,
     "lang": "nl"
   },
   "beschermd": {
@@ -159,14 +159,17 @@
   ],
   "bodytekst": {
     "regio": "main",
-    "woorden": 1422,
-    "sha256": "cb150f0b2864fd208122f80a502792459317b92fb0dd09dd5338cd84ecd566b7",
+    "woorden": 1431,
+    "sha256": "7b50a9b48aef1c879f33300e057ee13e995a7502dfddf4255cf2f21ef3a7e8eb",
     "blokken": [
+      "Home",
+      "Inzichten",
+      "Welke AI-use cases leveren écht resultaat op?",
       "← Terug naar alle inzichten",
       "Use cases",
       "Welke AI-use cases leveren écht resultaat op?",
       "Na tientallen use-case-inventarisaties valt hetzelfde patroon op: de winnaars zijn zelden de ideeën waar de directie enthousiast van wordt. Dit is waar ze wél aan voldoen.",
-      "◷ 4 min leestijd 7 mei 2026",
+      "◷ 4 min leestijd 28 oktober 2026",
       "DW",
       "Door Dave Willemstein Independent AI Advisor, onafhankelijk, geen leveranciersbelangen",
       "Ik help organisaties AI-beslissingen nemen die waarde creëren. Geen dikke decks, wel duidelijke keuzes en tastbare resultaten.",
@@ -369,6 +372,20 @@
       "soort": "intern",
       "href": "/nl/contact",
       "anker": "Plan een gesprek →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/nl",
+      "anker": "Home",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/nl/inzichten",
+      "anker": "Inzichten",
       "rel": null
     },
     {
@@ -590,60 +607,88 @@
     }
   ],
   "structured_data": {
-    "sha256": "83fdd1aced75e09db97e086edb823bf58af03ea633561a7650043ea2f762856f",
+    "sha256": "d1de136545f106a4d68ccd8950a0e33ae4656aa492804af3e30b78c370cf355c",
     "items": [
-      [
-        {
-          "@context": "https://schema.org",
-          "@type": "BlogPosting",
-          "headline": "Welke AI-use cases leveren écht resultaat op?",
-          "description": "Niet de spectaculairste, maar de saaiste. Vier kenmerken die de winnaars delen, en vier patronen die vrijwel altijd stranden.",
-          "datePublished": "2026-05-07",
-          "inLanguage": "nl-NL",
-          "articleSection": "Use cases",
-          "author": {
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://freelanceaiconsultant.com/nl"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Inzichten",
+                "item": "https://freelanceaiconsultant.com/nl/inzichten"
+              },
+              {
+                "@type": "ListItem",
+                "position": 3,
+                "name": "Welke AI-use cases leveren écht resultaat op?",
+                "item": "https://freelanceaiconsultant.com/nl/inzichten/welke-ai-use-cases-leveren-resultaat"
+              }
+            ]
+          },
+          {
             "@type": "Person",
+            "@id": "https://freelanceaiconsultant.com/#dave",
             "name": "Dave Willemstein",
-            "url": "https://freelanceaiconsultant.com",
+            "url": "https://freelanceaiconsultant.com/nl/over",
             "jobTitle": "Onafhankelijk AI-adviseur"
           },
-          "publisher": {
-            "@type": "Person",
-            "name": "Dave Willemstein"
+          {
+            "@type": "BlogPosting",
+            "headline": "Welke AI-use cases leveren écht resultaat op?",
+            "description": "Niet de spectaculairste, maar de saaiste. Vier kenmerken die de winnaars delen, en vier patronen die vrijwel altijd stranden.",
+            "datePublished": "2026-10-28",
+            "dateModified": "2026-10-28",
+            "inLanguage": "nl-NL",
+            "articleSection": "Use cases",
+            "author": {
+              "@id": "https://freelanceaiconsultant.com/#dave"
+            },
+            "publisher": {
+              "@id": "https://freelanceaiconsultant.com/#dave"
+            },
+            "mainEntityOfPage": "https://freelanceaiconsultant.com/nl/inzichten/welke-ai-use-cases-leveren-resultaat"
           },
-          "mainEntityOfPage": "https://freelanceaiconsultant.com/nl/inzichten/welke-ai-use-cases-leveren-resultaat"
-        },
-        {
-          "@context": "https://schema.org",
-          "@type": "FAQPage",
-          "mainEntity": [
-            {
-              "@type": "Question",
-              "name": "Waaraan zijn AI-use cases te herkennen die resultaat opleveren?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "AI-use cases die resultaat opleveren, delen vier kenmerken: een hoog volume met weinig variatie, fouten waarvan de kosten bekend en betaalbaar zijn, een menselijke controlestap die al in het proces zit en data die al bestaat en al voor beslissingen wordt gebruikt. Technologie komt in geen van die vier kenmerken voor. Vrijwel altijd stranden de assistent die alles kan, het voorspelmodel zonder besluit erachter, de use case zonder eigenaar in de lijn en de automatisering van een proces dat beter afgeschaft kan worden."
+          {
+            "@type": "FAQPage",
+            "mainEntity": [
+              {
+                "@type": "Question",
+                "name": "Waaraan zijn AI-use cases te herkennen die resultaat opleveren?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "AI-use cases die resultaat opleveren, delen vier kenmerken: een hoog volume met weinig variatie, fouten waarvan de kosten bekend en betaalbaar zijn, een menselijke controlestap die al in het proces zit en data die al bestaat en al voor beslissingen wordt gebruikt. Technologie komt in geen van die vier kenmerken voor. Vrijwel altijd stranden de assistent die alles kan, het voorspelmodel zonder besluit erachter, de use case zonder eigenaar in de lijn en de automatisering van een proces dat beter afgeschaft kan worden."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Wat gebeurt er met AI-use cases die beginnen met het verzamelen van data?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "AI-use cases die beginnen met eerst data verzamelen, schuiven minstens een jaar op. Soms is dat de juiste investering, maar dan heet het een datatraject en geen AI-use case."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Welke AI-use cases gaan bij het prioriteren niet eerst?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "AI-use cases die onder de 15 punten scoren, gaan niet eerst; bij het prioriteren worden meestal vijf vragen gebruikt, elk met een score van 1 tot 5. De vijf vragen gaan over volume, variatie, datagereedheid, veiligheid en trekkracht."
+                }
               }
-            },
-            {
-              "@type": "Question",
-              "name": "Wat gebeurt er met AI-use cases die beginnen met het verzamelen van data?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "AI-use cases die beginnen met eerst data verzamelen, schuiven minstens een jaar op. Soms is dat de juiste investering, maar dan heet het een datatraject en geen AI-use case."
-              }
-            },
-            {
-              "@type": "Question",
-              "name": "Welke AI-use cases gaan bij het prioriteren niet eerst?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "AI-use cases die onder de 15 punten scoren, gaan niet eerst; bij het prioriteren worden meestal vijf vragen gebruikt, elk met een score van 1 tot 5. De vijf vragen gaan over volume, variatie, datagereedheid, veiligheid en trekkracht."
-              }
-            }
-          ]
-        }
-      ]
+            ]
+          }
+        ]
+      }
     ]
   },
   "afbeeldingen": [
@@ -702,11 +747,11 @@
     ],
     "stylesheets": [
       "/_astro/_slug_.CzLXI3HH.css",
-      "/_astro/_slug_.CwnNFvzF.css",
+      "/_astro/_slug_.BpipRbQZ.css",
       "/logo-carousel/logo-carousel.css?v=2"
     ],
     "aantal_details": 0,
     "aantal_tabellen": 0
   },
-  "gemeten_op": "2026-10-29"
+  "gemeten_op": "2026-11-04"
 }

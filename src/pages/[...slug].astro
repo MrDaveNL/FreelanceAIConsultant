@@ -9,6 +9,7 @@ import { resolveToken, resolveContactHref } from '../lib/service-tokens.js';
 import { protectedUrls } from '../data/protected-urls.js';
 import { routeById } from '../data/routes';
 import { t, localeFromPath, SCHEMA_LANG } from '../i18n';
+import { buildFaqPageSchema, buildBreadcrumbList } from '../lib/schema.js';
 import '../styles/content-pages.css';
 import '../styles/rag-blok.css';
 
@@ -97,17 +98,7 @@ const newest = [...articles].sort((a, b) => (a.updated < b.updated ? 1 : -1)).sl
 
 // Structured data.
 const person = { '@type': 'Person', name: site.name, jobTitle: site.roleNl, url: `${site.url}/over`, sameAs: [site.linkedin] };
-const graph = [
-  {
-    '@type': 'BreadcrumbList',
-    itemListElement: [...crumbs, { href: page.url, label: page.navLabel }].map((c, i) => ({
-      '@type': 'ListItem',
-      position: i + 1,
-      name: c.label,
-      item: `${site.url}${c.href === '/' ? '/' : c.href}`,
-    })),
-  },
-];
+const graph = [buildBreadcrumbList([...crumbs, { href: page.url, label: page.navLabel }], site.url)];
 if (page.schema === 'service') {
   graph.push({ '@type': 'Service', name: page.navLabel, serviceType: page.keyphrase, description: page.metaDescription, url: pageUrl, areaServed: locale === 'en' ? 'GB' : 'NL', provider: person });
 } else if (page.schema === 'pricing') {
@@ -147,12 +138,8 @@ if (page.schema === 'service') {
     mainEntityOfPage: pageUrl,
   });
 }
-if (page.faq?.length) {
-  graph.push({
-    '@type': 'FAQPage',
-    mainEntity: page.faq.map(({ q, a }) => ({ '@type': 'Question', name: q, acceptedAnswer: { '@type': 'Answer', text: a } })),
-  });
-}
+const faqSchema = buildFaqPageSchema(page.faq);
+if (faqSchema) graph.push(faqSchema);
 const schema = { '@context': 'https://schema.org', '@graph': graph };
 ---
 <BaseLayout title={page.metaTitle} description={page.metaDescription} schema={schema} noindex={page.noindex ? 'noindex, follow' : false}>

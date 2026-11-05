@@ -10,8 +10,9 @@ export default {
   excerpt: 'De pilot werkte. Iedereen was enthousiast. En toch is er een jaar later niets opgeschaald. Vijf oorzaken, vijf tegenmaatregelen.',
   lede: 'Bijna elke organisatie die ik spreek heeft geslaagde AI-pilots. Bijna geen enkele heeft er meer dan twee opgeschaald. Dat is geen technologieprobleem.',
   readingTime: '4 min leestijd',
-  date: '2026-02-26',
-  dateLabel: '26 februari 2026',
+  date: '2026-10-28',
+  dateLabel: '28 oktober 2026',
+  order: 8,
   summary: [
     'Een pilot bewijst haalbaarheid, geen waarde.',
     'Opschalen faalt op eigenaarschap, beheer en werkproces, zelden op techniek.',

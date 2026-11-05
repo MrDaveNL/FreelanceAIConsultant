@@ -10,8 +10,9 @@ export default {
   excerpt: 'De meeste AI-strategieën stranden niet op de strategie, maar op de vertaling ervan. Drie stappen die die vertaling afdwingen.',
   lede: 'Een strategie die niemand kan uitvoeren is een duur document. Dit zijn de drie stappen die van richting resultaat maken, met de valkuil bij elke stap.',
   readingTime: '4 min leestijd',
-  date: '2026-06-11',
-  dateLabel: '11 juni 2026',
+  date: '2026-10-28',
+  dateLabel: '28 oktober 2026',
+  order: 2,
   summary: [
     'Vertaal ambitie naar meetbare business-uitkomsten, niet naar technologie.',
     'Kies per use case één eigenaar met budget en mandaat.',

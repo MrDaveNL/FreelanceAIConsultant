@@ -10,8 +10,9 @@ export default {
   excerpt: 'In de helft van de gevallen is het antwoord: niet. Vier situaties waarin externe hulp loont, en vier waarin je het zelf beter kunt.',
   lede: 'Ik verdien mijn geld met AI-advies, dus lees dit met die wetenschap. Juist daarom staat er eerst in wanneer je me níét nodig hebt.',
   readingTime: '4 min leestijd',
-  date: '2025-10-15',
-  dateLabel: '15 oktober 2025',
+  date: '2026-10-28',
+  dateLabel: '28 oktober 2026',
+  order: 12,
   summary: [
     'Externe hulp loont bij onomkeerbare besluiten en interne patstellingen.',
     'Bij afgebakende, technische vragen ben je intern vaak sneller.',

@@ -2,7 +2,7 @@
   "url": "/inzichten/waarom-ai-pilots-blijven-steken",
   "build_bestand": "dist/inzichten/waarom-ai-pilots-blijven-steken/index.html",
   "html": {
-    "bytes": 40452,
+    "bytes": 42367,
     "lang": "nl"
   },
   "beschermd": {
@@ -141,14 +141,17 @@
   ],
   "bodytekst": {
     "regio": "main",
-    "woorden": 1493,
-    "sha256": "f9c1dd7d609209ce5cd0e5033dac0a4d0fba9b131c6d65cf40aaf49527e6972b",
+    "woorden": 1504,
+    "sha256": "8e7527719d5a5cf1ad401f7c5a223346bdc87798c90843da0a390f6631ce545f",
     "blokken": [
+      "Home",
+      "Inzichten",
+      "Waarom AI-pilots blijven steken (en wat je eraan doet)",
       "← Terug naar alle inzichten",
       "Organisatie",
       "Waarom AI-pilots blijven steken",
       "Bijna elke organisatie die ik spreek heeft geslaagde AI-pilots. Bijna geen enkele heeft er meer dan twee opgeschaald. Dat is geen technologieprobleem.",
-      "◷ 4 min leestijd 26 februari 2026",
+      "◷ 4 min leestijd 28 oktober 2026",
       "DW",
       "Door Dave Willemstein Independent AI Advisor, onafhankelijk, geen leveranciersbelangen",
       "Ik help organisaties AI-beslissingen nemen die waarde creëren. Geen dikke decks, wel duidelijke keuzes en tastbare resultaten.",
@@ -348,6 +351,20 @@
       "soort": "intern",
       "href": "/nl/contact",
       "anker": "Plan een gesprek →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/nl",
+      "anker": "Home",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/nl/inzichten",
+      "anker": "Inzichten",
       "rel": null
     },
     {
@@ -569,68 +586,96 @@
     }
   ],
   "structured_data": {
-    "sha256": "3851d2d899b3c1ac492a889f78104246e57986548ce5d819819a41a3d7ae719f",
+    "sha256": "0ac4839b383f0c90029c4d1cb5a136c8c2cf35b8427cf8bdec367a38bb791ff4",
     "items": [
-      [
-        {
-          "@context": "https://schema.org",
-          "@type": "BlogPosting",
-          "headline": "Waarom AI-pilots blijven steken (en wat je eraan doet)",
-          "description": "De pilot werkte. Iedereen was enthousiast. En toch is er een jaar later niets opgeschaald. Vijf oorzaken, vijf tegenmaatregelen.",
-          "datePublished": "2026-02-26",
-          "inLanguage": "nl-NL",
-          "articleSection": "Organisatie",
-          "author": {
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://freelanceaiconsultant.com/nl"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Inzichten",
+                "item": "https://freelanceaiconsultant.com/nl/inzichten"
+              },
+              {
+                "@type": "ListItem",
+                "position": 3,
+                "name": "Waarom AI-pilots blijven steken (en wat je eraan doet)",
+                "item": "https://freelanceaiconsultant.com/nl/inzichten/waarom-ai-pilots-blijven-steken"
+              }
+            ]
+          },
+          {
             "@type": "Person",
+            "@id": "https://freelanceaiconsultant.com/#dave",
             "name": "Dave Willemstein",
-            "url": "https://freelanceaiconsultant.com",
+            "url": "https://freelanceaiconsultant.com/nl/over",
             "jobTitle": "Onafhankelijk AI-adviseur"
           },
-          "publisher": {
-            "@type": "Person",
-            "name": "Dave Willemstein"
+          {
+            "@type": "BlogPosting",
+            "headline": "Waarom AI-pilots blijven steken (en wat je eraan doet)",
+            "description": "De pilot werkte. Iedereen was enthousiast. En toch is er een jaar later niets opgeschaald. Vijf oorzaken, vijf tegenmaatregelen.",
+            "datePublished": "2026-10-28",
+            "dateModified": "2026-10-28",
+            "inLanguage": "nl-NL",
+            "articleSection": "Organisatie",
+            "author": {
+              "@id": "https://freelanceaiconsultant.com/#dave"
+            },
+            "publisher": {
+              "@id": "https://freelanceaiconsultant.com/#dave"
+            },
+            "mainEntityOfPage": "https://freelanceaiconsultant.com/nl/inzichten/waarom-ai-pilots-blijven-steken"
           },
-          "mainEntityOfPage": "https://freelanceaiconsultant.com/nl/inzichten/waarom-ai-pilots-blijven-steken"
-        },
-        {
-          "@context": "https://schema.org",
-          "@type": "FAQPage",
-          "mainEntity": [
-            {
-              "@type": "Question",
-              "name": "Waardoor worden geslaagde AI-pilots zelden opgeschaald naar productie?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "AI-pilots blijven steken door oorzaken die geen van alle technisch zijn: de pilot beantwoordt alleen of iets technisch kan, draait buiten het echte werkproces, heeft geen eigenaar voor de fase erna, rekent het beheer niet mee en vermijdt de organisatorische verandering. Een pilot toont haalbaarheid aan en geen waarde. Wat in de praktijk goed werkt, is vóór de start de te beantwoorden vraag, de stopcriteria, de opschaaleigenaar, de beheerraming en de benodigde verandering op één pagina vast te leggen."
+          {
+            "@type": "FAQPage",
+            "mainEntity": [
+              {
+                "@type": "Question",
+                "name": "Waardoor worden geslaagde AI-pilots zelden opgeschaald naar productie?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "AI-pilots blijven steken door oorzaken die geen van alle technisch zijn: de pilot beantwoordt alleen of iets technisch kan, draait buiten het echte werkproces, heeft geen eigenaar voor de fase erna, rekent het beheer niet mee en vermijdt de organisatorische verandering. Een pilot toont haalbaarheid aan en geen waarde. Wat in de praktijk goed werkt, is vóór de start de te beantwoorden vraag, de stopcriteria, de opschaaleigenaar, de beheerraming en de benodigde verandering op één pagina vast te leggen."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Kunnen AI-pilots beter in de echte werkomgeving draaien dan in een aparte omgeving?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Ja, voor AI-pilots geldt als tegenmaatregel: liever een kleinere scope in de echte omgeving dan een grotere scope ernaast, met één team, echte data, het echte proces en echte koppelingen. Die opzet is trager in week één en aanzienlijk sneller in maand zes."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Moet de opschaaleigenaar van AI-pilots al voor de start bekend zijn?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Ja. De opschaaleigenaar van AI-pilots wordt aangewezen voordat de pilot begint: iemand uit de lijn, met budget en een plek in de pilotstuurgroep. Is die persoon niet te vinden, dan is dat zelf een belangrijke uitkomst."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Kunnen AI-pilots doorgaan als er in de organisatie niets mag veranderen?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Ja, maar de businesscase van AI-pilots wordt dan doorgerekend zonder de besparing die verandering vereist. Vaak blijft er dan een reële, kleinere waarde over, en dat is een eerlijker startpunt dan een belofte die later niet waargemaakt kan worden."
+                }
               }
-            },
-            {
-              "@type": "Question",
-              "name": "Kunnen AI-pilots beter in de echte werkomgeving draaien dan in een aparte omgeving?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Ja, voor AI-pilots geldt als tegenmaatregel: liever een kleinere scope in de echte omgeving dan een grotere scope ernaast, met één team, echte data, het echte proces en echte koppelingen. Die opzet is trager in week één en aanzienlijk sneller in maand zes."
-              }
-            },
-            {
-              "@type": "Question",
-              "name": "Moet de opschaaleigenaar van AI-pilots al voor de start bekend zijn?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Ja. De opschaaleigenaar van AI-pilots wordt aangewezen voordat de pilot begint: iemand uit de lijn, met budget en een plek in de pilotstuurgroep. Is die persoon niet te vinden, dan is dat zelf een belangrijke uitkomst."
-              }
-            },
-            {
-              "@type": "Question",
-              "name": "Kunnen AI-pilots doorgaan als er in de organisatie niets mag veranderen?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Ja, maar de businesscase van AI-pilots wordt dan doorgerekend zonder de besparing die verandering vereist. Vaak blijft er dan een reële, kleinere waarde over, en dat is een eerlijker startpunt dan een belofte die later niet waargemaakt kan worden."
-              }
-            }
-          ]
-        }
-      ]
+            ]
+          }
+        ]
+      }
     ]
   },
   "afbeeldingen": [
@@ -689,11 +734,11 @@
     ],
     "stylesheets": [
       "/_astro/_slug_.CzLXI3HH.css",
-      "/_astro/_slug_.CwnNFvzF.css",
+      "/_astro/_slug_.BpipRbQZ.css",
       "/logo-carousel/logo-carousel.css?v=2"
     ],
     "aantal_details": 0,
     "aantal_tabellen": 0
   },
-  "gemeten_op": "2026-10-29"
+  "gemeten_op": "2026-11-04"
 }

@@ -10,8 +10,9 @@ export default {
   excerpt: 'Iedereen een licentie geven is geen adoptiestrategie. Waarom een leeg invoerveld de grootste drempel is, en wat er wel werkt.',
   lede: 'Organisaties die AI-tools uitrollen zien doorgaans tien tot vijftien procent wekelijks gebruik. Dat is geen weerstand tegen verandering, maar een ontwerpprobleem.',
   readingTime: '4 min leestijd',
-  date: '2025-12-11',
-  dateLabel: '11 december 2025',
+  date: '2026-10-28',
+  dateLabel: '28 oktober 2026',
+  order: 10,
   summary: [
     'Een leeg invoerveld is geen werkproces.',
     'Begin met drie tot vijf concrete scenario’s per rol.',

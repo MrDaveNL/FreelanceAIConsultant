@@ -10,8 +10,9 @@ export default {
   excerpt: 'Een eerlijke vergelijking op onafhankelijkheid, snelheid, diepgang, kosten en uitvoeringskracht. Zodat jij de juiste partner kiest, ook als dat niet ik ben.',
   lede: 'Welke partij past het beste bij jouw AI-vraagstuk? Een vergelijking op senioriteit, flexibiliteit, focus, kosten en uitvoeringskracht.',
   readingTime: '4 min leestijd',
-  date: '2026-04-23',
-  dateLabel: '23 april 2026',
+  date: '2026-10-28',
+  dateLabel: '28 oktober 2026',
+  order: 5,
   summary: [
     'Freelancer = senior, flexibel en direct inzetbaar.',
     'Agency = specialistische diepte en leveringscapaciteit.',

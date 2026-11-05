@@ -2,7 +2,7 @@
   "url": "/inzichten",
   "build_bestand": "dist/inzichten/index.html",
   "html": {
-    "bytes": 42374,
+    "bytes": 42376,
     "lang": "nl"
   },
   "beschermd": {
@@ -142,7 +142,7 @@
   "bodytekst": {
     "regio": "main",
     "woorden": 740,
-    "sha256": "7160b595d07e56af9d7e81f38542b4c8311ff5fd787f85ac77be6dc2b83076b5",
+    "sha256": "563f0de996f35b65d366c3f4d15b052a4de06dc5cb3e11e9a668b4b5fd421002",
     "blokken": [
       "AI-advies dat je helpt beslissen",
       "Praktische inzichten voor betere AI-beslissingen.",
@@ -212,7 +212,7 @@
       "Uitgelicht artikel",
       "Freelance AI consultant vs agency vs Big 4",
       "Een eerlijke vergelijking op onafhankelijkheid, snelheid, diepgang, kosten en uitvoeringskracht. Zodat jij de juiste partner kiest, ook als dat niet ik ben.",
-      "◷ 4 min leestijd 23 april 2026",
+      "◷ 4 min leestijd 28 oktober 2026",
       "Lees artikel →",
       "Alle inzichten",
       "Use cases",
@@ -757,5 +757,5 @@
     "aantal_details": 0,
     "aantal_tabellen": 0
   },
-  "gemeten_op": "2026-10-29"
+  "gemeten_op": "2026-11-04"
 }
