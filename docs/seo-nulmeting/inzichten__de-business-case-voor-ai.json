@@ -2,7 +2,7 @@
   "url": "/inzichten/de-business-case-voor-ai",
   "build_bestand": "dist/inzichten/de-business-case-voor-ai/index.html",
   "html": {
-    "bytes": 40877,
+    "bytes": 40932,
     "lang": "nl"
   },
   "beschermd": {
@@ -620,7 +620,7 @@
     }
   ],
   "structured_data": {
-    "sha256": "9aa03964562947d40d3d0fba7147c9a579998c1014f673df45f2320fbec6a2d0",
+    "sha256": "e931e81340f0d28fe6dd540b6723bfabf6d28ec3ae576a3e5be3f5654e3efc6d",
     "items": [
       {
         "@context": "https://schema.org",
@@ -652,7 +652,10 @@
             "@type": "Person",
             "@id": "https://freelanceaiconsultant.com/#dave",
             "name": "Dave Willemstein",
-            "url": "https://freelanceaiconsultant.com/nl/over",
+            "url": "https://freelanceaiconsultant.com/about",
+            "sameAs": [
+              "https://www.linkedin.com/in/davewillemstein"
+            ],
             "jobTitle": "Onafhankelijk AI-adviseur"
           },
           {
@@ -758,5 +761,5 @@
     "aantal_details": 0,
     "aantal_tabellen": 0
   },
-  "gemeten_op": "2026-11-04"
+  "gemeten_op": "2026-11-05"
 }

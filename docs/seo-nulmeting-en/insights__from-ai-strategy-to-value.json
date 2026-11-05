@@ -2,7 +2,7 @@
   "url": "/insights/from-ai-strategy-to-value",
   "build_bestand": "dist/insights/from-ai-strategy-to-value/index.html",
   "html": {
-    "bytes": 40170,
+    "bytes": 40227,
     "lang": "en"
   },
   "beschermd": {
@@ -574,7 +574,7 @@
     }
   ],
   "structured_data": {
-    "sha256": "02187298e4c55c947e5991951c10ff85d3ee9bb651b45db944db1a5f3947dfc5",
+    "sha256": "ac219b1d930b615276b34ea077f94e2a55c9059142ba4604ab3e18049fc2d8b9",
     "items": [
       {
         "@context": "https://schema.org",
@@ -607,6 +607,9 @@
             "@id": "https://freelanceaiconsultant.com/#dave",
             "name": "Dave Willemstein",
             "url": "https://freelanceaiconsultant.com/about",
+            "sameAs": [
+              "https://www.linkedin.com/in/davewillemstein"
+            ],
             "jobTitle": "Independent AI Advisor"
           },
           {

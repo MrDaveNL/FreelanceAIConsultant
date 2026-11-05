@@ -2,7 +2,7 @@
   "url": "/insights/the-business-case-for-ai",
   "build_bestand": "dist/insights/the-business-case-for-ai/index.html",
   "html": {
-    "bytes": 39406,
+    "bytes": 39463,
     "lang": "en"
   },
   "beschermd": {
@@ -620,7 +620,7 @@
     }
   ],
   "structured_data": {
-    "sha256": "981b57950adf0f4c87cb2e167266cbd4c5b19532270abcc805f4f6f9e48515d1",
+    "sha256": "6dd2a3197254ec5c12ba1167f332a8b3eafea63b5373a3200e646c82b995e047",
     "items": [
       {
         "@context": "https://schema.org",
@@ -653,6 +653,9 @@
             "@id": "https://freelanceaiconsultant.com/#dave",
             "name": "Dave Willemstein",
             "url": "https://freelanceaiconsultant.com/about",
+            "sameAs": [
+              "https://www.linkedin.com/in/davewillemstein"
+            ],
             "jobTitle": "Independent AI Advisor"
           },
           {

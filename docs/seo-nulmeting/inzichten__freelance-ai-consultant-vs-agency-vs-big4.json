@@ -2,7 +2,7 @@
   "url": "/inzichten/freelance-ai-consultant-vs-agency-vs-big4",
   "build_bestand": "dist/inzichten/freelance-ai-consultant-vs-agency-vs-big4/index.html",
   "html": {
-    "bytes": 44484,
+    "bytes": 44539,
     "lang": "nl"
   },
   "beschermd": {
@@ -638,7 +638,7 @@
     }
   ],
   "structured_data": {
-    "sha256": "2210d09efd7d572c2d02ae33e144982fdc738dd92b14a0166b47564fdfd31a88",
+    "sha256": "a3b5098aaf89069942bd211326448ff542cab3622ea7277b8378ebc26343b233",
     "items": [
       {
         "@context": "https://schema.org",
@@ -670,7 +670,10 @@
             "@type": "Person",
             "@id": "https://freelanceaiconsultant.com/#dave",
             "name": "Dave Willemstein",
-            "url": "https://freelanceaiconsultant.com/nl/over",
+            "url": "https://freelanceaiconsultant.com/about",
+            "sameAs": [
+              "https://www.linkedin.com/in/davewillemstein"
+            ],
             "jobTitle": "Onafhankelijk AI-adviseur"
           },
           {
@@ -792,5 +795,5 @@
     "aantal_details": 0,
     "aantal_tabellen": 0
   },
-  "gemeten_op": "2026-11-04"
+  "gemeten_op": "2026-11-05"
 }

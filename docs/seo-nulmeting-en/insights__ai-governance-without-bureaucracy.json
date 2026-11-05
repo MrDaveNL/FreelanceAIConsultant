@@ -2,7 +2,7 @@
   "url": "/insights/ai-governance-without-bureaucracy",
   "build_bestand": "dist/insights/ai-governance-without-bureaucracy/index.html",
   "html": {
-    "bytes": 41951,
+    "bytes": 42008,
     "lang": "en"
   },
   "beschermd": {
@@ -615,7 +615,7 @@
     }
   ],
   "structured_data": {
-    "sha256": "e2b194b9ea7dfd8dbcd82e34e4f9ab03c9200ebef64c552146c2d7a2380fda99",
+    "sha256": "daab4fae5ade77f0e6280ffe1e48a71b097a22ac320fcb20aac7f949b06dea3c",
     "items": [
       {
         "@context": "https://schema.org",
@@ -648,6 +648,9 @@
             "@id": "https://freelanceaiconsultant.com/#dave",
             "name": "Dave Willemstein",
             "url": "https://freelanceaiconsultant.com/about",
+            "sameAs": [
+              "https://www.linkedin.com/in/davewillemstein"
+            ],
             "jobTitle": "Independent AI Advisor"
           },
           {

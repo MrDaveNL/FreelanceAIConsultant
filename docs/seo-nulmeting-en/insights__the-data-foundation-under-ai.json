@@ -2,7 +2,7 @@
   "url": "/insights/the-data-foundation-under-ai",
   "build_bestand": "dist/insights/the-data-foundation-under-ai/index.html",
   "html": {
-    "bytes": 41197,
+    "bytes": 41254,
     "lang": "en"
   },
   "beschermd": {
@@ -602,7 +602,7 @@
     }
   ],
   "structured_data": {
-    "sha256": "34586e6dd1c16f41c68907adf666732c23549f8ba44ab8b16fb12547412309ad",
+    "sha256": "5e7ac6b2a9a08c8648e77c519570d818d773f3432f216fa6f56db8b1331aa9f7",
     "items": [
       {
         "@context": "https://schema.org",
@@ -635,6 +635,9 @@
             "@id": "https://freelanceaiconsultant.com/#dave",
             "name": "Dave Willemstein",
             "url": "https://freelanceaiconsultant.com/about",
+            "sameAs": [
+              "https://www.linkedin.com/in/davewillemstein"
+            ],
             "jobTitle": "Independent AI Advisor"
           },
           {

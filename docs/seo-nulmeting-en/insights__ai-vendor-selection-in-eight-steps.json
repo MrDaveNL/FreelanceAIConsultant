@@ -2,7 +2,7 @@
   "url": "/insights/ai-vendor-selection-in-eight-steps",
   "build_bestand": "dist/insights/ai-vendor-selection-in-eight-steps/index.html",
   "html": {
-    "bytes": 41909,
+    "bytes": 41966,
     "lang": "en"
   },
   "beschermd": {
@@ -623,7 +623,7 @@
     }
   ],
   "structured_data": {
-    "sha256": "fa41302cfc749d1f8733d0c9724989a16689b87c308fcd8f48e17b26e2cae223",
+    "sha256": "f551ed2d02de66090309a240f2cf76aa7287532cc50952fc593961294ace79ec",
     "items": [
       {
         "@context": "https://schema.org",
@@ -656,6 +656,9 @@
             "@id": "https://freelanceaiconsultant.com/#dave",
             "name": "Dave Willemstein",
             "url": "https://freelanceaiconsultant.com/about",
+            "sameAs": [
+              "https://www.linkedin.com/in/davewillemstein"
+            ],
             "jobTitle": "Independent AI Advisor"
           },
           {

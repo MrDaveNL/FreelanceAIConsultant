@@ -2,7 +2,7 @@
   "url": "/insights/when-do-you-really-need-an-ai-strategist",
   "build_bestand": "dist/insights/when-do-you-really-need-an-ai-strategist/index.html",
   "html": {
-    "bytes": 40454,
+    "bytes": 40511,
     "lang": "en"
   },
   "beschermd": {
@@ -616,7 +616,7 @@
     }
   ],
   "structured_data": {
-    "sha256": "c0e0db510c0921d4791878f07b970844c64bed7df74888267e903ed81ef37f1d",
+    "sha256": "ad7b1de9f48707725c2149e24d62d26fd427d1f2e3201d2f3008682fbc3770f2",
     "items": [
       {
         "@context": "https://schema.org",
@@ -649,6 +649,9 @@
             "@id": "https://freelanceaiconsultant.com/#dave",
             "name": "Dave Willemstein",
             "url": "https://freelanceaiconsultant.com/about",
+            "sameAs": [
+              "https://www.linkedin.com/in/davewillemstein"
+            ],
             "jobTitle": "Independent AI Advisor"
           },
           {

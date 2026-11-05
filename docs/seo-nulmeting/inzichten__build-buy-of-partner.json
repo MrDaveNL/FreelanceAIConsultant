@@ -2,7 +2,7 @@
   "url": "/inzichten/build-buy-of-partner",
   "build_bestand": "dist/inzichten/build-buy-of-partner/index.html",
   "html": {
-    "bytes": 41352,
+    "bytes": 41407,
     "lang": "nl"
   },
   "beschermd": {
@@ -588,7 +588,7 @@
     }
   ],
   "structured_data": {
-    "sha256": "dff5c4a08d0ea7e6a8209a0e2e0ad2868de074072cdc897945042e4b8ad106b6",
+    "sha256": "1d92e5d7b1458ae2a695945d97e616a209dc5c4087eb7d947fbe4cbf0ebe61db",
     "items": [
       {
         "@context": "https://schema.org",
@@ -620,7 +620,10 @@
             "@type": "Person",
             "@id": "https://freelanceaiconsultant.com/#dave",
             "name": "Dave Willemstein",
-            "url": "https://freelanceaiconsultant.com/nl/over",
+            "url": "https://freelanceaiconsultant.com/about",
+            "sameAs": [
+              "https://www.linkedin.com/in/davewillemstein"
+            ],
             "jobTitle": "Onafhankelijk AI-adviseur"
           },
           {
@@ -734,5 +737,5 @@
     "aantal_details": 0,
     "aantal_tabellen": 0
   },
-  "gemeten_op": "2026-11-04"
+  "gemeten_op": "2026-11-05"
 }

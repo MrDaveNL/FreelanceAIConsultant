@@ -2,7 +2,7 @@
   "url": "/insights/which-ai-use-cases-deliver-results",
   "build_bestand": "dist/insights/which-ai-use-cases-deliver-results/index.html",
   "html": {
-    "bytes": 39732,
+    "bytes": 39789,
     "lang": "en"
   },
   "beschermd": {
@@ -607,7 +607,7 @@
     }
   ],
   "structured_data": {
-    "sha256": "f9881b162714239aa1dcf5ade2c57c1e67eb6afe9c7880fde10f22c6e6e89b42",
+    "sha256": "8a886c2fe4e49b48b72930b779169cac5da21c4418027a6fb5b145f55c47eef2",
     "items": [
       {
         "@context": "https://schema.org",
@@ -640,6 +640,9 @@
             "@id": "https://freelanceaiconsultant.com/#dave",
             "name": "Dave Willemstein",
             "url": "https://freelanceaiconsultant.com/about",
+            "sameAs": [
+              "https://www.linkedin.com/in/davewillemstein"
+            ],
             "jobTitle": "Independent AI Advisor"
           },
           {

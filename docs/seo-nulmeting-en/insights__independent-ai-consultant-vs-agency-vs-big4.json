@@ -2,7 +2,7 @@
   "url": "/insights/independent-ai-consultant-vs-agency-vs-big4",
   "build_bestand": "dist/insights/independent-ai-consultant-vs-agency-vs-big4/index.html",
   "html": {
-    "bytes": 43362,
+    "bytes": 43419,
     "lang": "en"
   },
   "beschermd": {
@@ -638,7 +638,7 @@
     }
   ],
   "structured_data": {
-    "sha256": "e3e39e779b3c44e833a6a165c934440e944e12e55065506d60a998e204ad11f7",
+    "sha256": "658112acac67731c921b190adb44fb0ea4744b5b8e46a7d2249a07a7653dd3ee",
     "items": [
       {
         "@context": "https://schema.org",
@@ -671,6 +671,9 @@
             "@id": "https://freelanceaiconsultant.com/#dave",
             "name": "Dave Willemstein",
             "url": "https://freelanceaiconsultant.com/about",
+            "sameAs": [
+              "https://www.linkedin.com/in/davewillemstein"
+            ],
             "jobTitle": "Independent AI Advisor"
           },
           {

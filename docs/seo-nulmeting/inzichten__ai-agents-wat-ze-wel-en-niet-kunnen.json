@@ -2,7 +2,7 @@
   "url": "/inzichten/ai-agents-wat-ze-wel-en-niet-kunnen",
   "build_bestand": "dist/inzichten/ai-agents-wat-ze-wel-en-niet-kunnen/index.html",
   "html": {
-    "bytes": 42666,
+    "bytes": 42721,
     "lang": "nl"
   },
   "beschermd": {
@@ -627,7 +627,7 @@
     }
   ],
   "structured_data": {
-    "sha256": "ecd002e95e9f3d8ac694eaf9908301818a6971e9e3215cae24677626bddae585",
+    "sha256": "83f3980c1f64221deee200eaa28ac966babc9de1f53bfd6de57da9c34047917d",
     "items": [
       {
         "@context": "https://schema.org",
@@ -659,7 +659,10 @@
             "@type": "Person",
             "@id": "https://freelanceaiconsultant.com/#dave",
             "name": "Dave Willemstein",
-            "url": "https://freelanceaiconsultant.com/nl/over",
+            "url": "https://freelanceaiconsultant.com/about",
+            "sameAs": [
+              "https://www.linkedin.com/in/davewillemstein"
+            ],
             "jobTitle": "Onafhankelijk AI-adviseur"
           },
           {
@@ -781,5 +784,5 @@
     "aantal_details": 0,
     "aantal_tabellen": 0
   },
-  "gemeten_op": "2026-11-04"
+  "gemeten_op": "2026-11-05"
 }

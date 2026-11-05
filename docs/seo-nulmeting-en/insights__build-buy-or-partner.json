@@ -2,7 +2,7 @@
   "url": "/insights/build-buy-or-partner",
   "build_bestand": "dist/insights/build-buy-or-partner/index.html",
   "html": {
-    "bytes": 40099,
+    "bytes": 40156,
     "lang": "en"
   },
   "beschermd": {
@@ -588,7 +588,7 @@
     }
   ],
   "structured_data": {
-    "sha256": "d71b05d6f2dad72c53611fab54818d6817b12d283db2cea7387dd349c811f69c",
+    "sha256": "5a2025faa2c1ae381a3ade343ca6c9f38d850aeaeb857f9ad777d173d01a5c4d",
     "items": [
       {
         "@context": "https://schema.org",
@@ -621,6 +621,9 @@
             "@id": "https://freelanceaiconsultant.com/#dave",
             "name": "Dave Willemstein",
             "url": "https://freelanceaiconsultant.com/about",
+            "sameAs": [
+              "https://www.linkedin.com/in/davewillemstein"
+            ],
             "jobTitle": "Independent AI Advisor"
           },
           {

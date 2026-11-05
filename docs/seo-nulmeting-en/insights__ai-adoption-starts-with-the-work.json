@@ -2,7 +2,7 @@
   "url": "/insights/ai-adoption-starts-with-the-work",
   "build_bestand": "dist/insights/ai-adoption-starts-with-the-work/index.html",
   "html": {
-    "bytes": 40100,
+    "bytes": 40157,
     "lang": "en"
   },
   "beschermd": {
@@ -587,7 +587,7 @@
     }
   ],
   "structured_data": {
-    "sha256": "e30281707c7d69d0abb8290766c0bac59c97415570878483bbd230e073897300",
+    "sha256": "c4f97e5f5a63a52ee43b93cf3194d0332d5f8f4548dd0f94eaef6ee8181a01b6",
     "items": [
       {
         "@context": "https://schema.org",
@@ -620,6 +620,9 @@
             "@id": "https://freelanceaiconsultant.com/#dave",
             "name": "Dave Willemstein",
             "url": "https://freelanceaiconsultant.com/about",
+            "sameAs": [
+              "https://www.linkedin.com/in/davewillemstein"
+            ],
             "jobTitle": "Independent AI Advisor"
           },
           {

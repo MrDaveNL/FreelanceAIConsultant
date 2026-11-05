@@ -2,7 +2,7 @@
   "url": "/insights/why-ai-pilots-stall",
   "build_bestand": "dist/insights/why-ai-pilots-stall/index.html",
   "html": {
-    "bytes": 40901,
+    "bytes": 40958,
     "lang": "en"
   },
   "beschermd": {
@@ -586,7 +586,7 @@
     }
   ],
   "structured_data": {
-    "sha256": "d813cf0cd602de625aba1306d5146a0352cd3d18ad0754c67b5952a784196d67",
+    "sha256": "238e4c75077ef441ad6358e7597155b20687016a86a394e5c5f88d9c83d9407f",
     "items": [
       {
         "@context": "https://schema.org",
@@ -619,6 +619,9 @@
             "@id": "https://freelanceaiconsultant.com/#dave",
             "name": "Dave Willemstein",
             "url": "https://freelanceaiconsultant.com/about",
+            "sameAs": [
+              "https://www.linkedin.com/in/davewillemstein"
+            ],
             "jobTitle": "Independent AI Advisor"
           },
           {

@@ -2,7 +2,7 @@
   "url": "/insights/what-ai-agents-can-and-cannot-do",
   "build_bestand": "dist/insights/what-ai-agents-can-and-cannot-do/index.html",
   "html": {
-    "bytes": 41104,
+    "bytes": 41161,
     "lang": "en"
   },
   "beschermd": {
@@ -627,7 +627,7 @@
     }
   ],
   "structured_data": {
-    "sha256": "9da16cfda2cf98b6ad02c38e0c66e7192a75a212fd13777059b3482d26173c23",
+    "sha256": "7d7a012f703bac729d1b8e2c68adf35f7723cfbe5210165637cbf2cba311daa9",
     "items": [
       {
         "@context": "https://schema.org",
@@ -660,6 +660,9 @@
             "@id": "https://freelanceaiconsultant.com/#dave",
             "name": "Dave Willemstein",
             "url": "https://freelanceaiconsultant.com/about",
+            "sameAs": [
+              "https://www.linkedin.com/in/davewillemstein"
+            ],
             "jobTitle": "Independent AI Advisor"
           },
           {
