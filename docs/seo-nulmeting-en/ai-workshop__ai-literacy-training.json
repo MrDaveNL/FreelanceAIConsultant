@@ -1,0 +1,845 @@
+{
+  "url": "/ai-workshop/ai-literacy-training",
+  "build_bestand": "dist/ai-workshop/ai-literacy-training/index.html",
+  "html": {
+    "bytes": 42701,
+    "lang": "en"
+  },
+  "beschermd": {
+    "title": "AI Literacy Training | Meet the AI Act's Duty",
+    "meta_description": "The AI Act requires organisations to support AI literacy. This training covers what AI can do, where the risks are, and how to work with it safely.",
+    "canonical": "https://freelanceaiconsultant.com/ai-workshop/ai-literacy-training",
+    "robots_meta": null,
+    "hreflang": [
+      {
+        "hreflang": "en",
+        "href": "https://freelanceaiconsultant.com/ai-workshop/ai-literacy-training"
+      },
+      {
+        "hreflang": "nl",
+        "href": "https://freelanceaiconsultant.com/nl/ai-workshop/ai-geletterdheid-training"
+      },
+      {
+        "hreflang": "x-default",
+        "href": "https://freelanceaiconsultant.com/ai-workshop/ai-literacy-training"
+      }
+    ],
+    "h1": [
+      "AI literacy training: meeting the AI Act's duty"
+    ]
+  },
+  "social": {
+    "og:type": "website",
+    "og:locale": "en_US",
+    "og:site_name": "freelanceaiconsultant.com",
+    "og:title": "AI Literacy Training | Meet the AI Act's Duty",
+    "og:description": "The AI Act requires organisations to support AI literacy. This training covers what AI can do, where the risks are, and how to work with it safely.",
+    "og:url": "https://freelanceaiconsultant.com/ai-workshop/ai-literacy-training",
+    "og:image": "https://freelanceaiconsultant.com/images/dave-portrait.jpg",
+    "twitter:card": "summary_large_image",
+    "twitter:title": "AI Literacy Training | Meet the AI Act's Duty",
+    "twitter:description": "The AI Act requires organisations to support AI literacy. This training covers what AI can do, where the risks are, and how to work with it safely.",
+    "twitter:image": "https://freelanceaiconsultant.com/images/dave-portrait.jpg"
+  },
+  "koppen": [
+    {
+      "niveau": 1,
+      "tekst": "AI literacy training: meeting the AI Act's duty",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "Does an AI literacy training make an organisation compliant with the AI Act?",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 3,
+      "tekst": "Has the duty behind an AI literacy training lapsed in 2026?",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 3,
+      "tekst": "Is there a prescribed curriculum for an AI literacy training?",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "What is AI literacy?",
+      "regio": "main",
+      "id": "what-is-ai-literacy"
+    },
+    {
+      "niveau": 2,
+      "tekst": "What the AI Act asks",
+      "regio": "main",
+      "id": "what-the-ai-act-asks"
+    },
+    {
+      "niveau": 2,
+      "tekst": "What the training covers",
+      "regio": "main",
+      "id": "what-the-training-covers"
+    },
+    {
+      "niveau": 2,
+      "tekst": "Demonstrating that you comply",
+      "regio": "main",
+      "id": "demonstrating-that-you-comply"
+    },
+    {
+      "niveau": 2,
+      "tekst": "Frequently asked questions",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "Sources",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "From AI ambition to real results.",
+      "regio": "main",
+      "id": null
+    }
+  ],
+  "bodytekst": {
+    "regio": "main",
+    "woorden": 2033,
+    "sha256": "7abeabeeaa812e198f200b31276170d416f8cac0cd2cecf9474b0e76c6f1e30f",
+    "blokken": [
+      "Home",
+      "AI Workshop",
+      "AI Literacy",
+      "AI literacy",
+      "AI literacy training: meeting the AI Act's duty",
+      "An AI literacy training helps your team understand what AI can do, where it goes wrong, and which agreements apply. That's sound management practice, and it's also what the AI Act asks of organisations. This page covers what the law has asked since the July 2026 amendment, what a training delivers, and how to record what you've done.",
+      "Ask about a training → See the AI Readiness Assessment →",
+      "IN SHORT",
+      "Article 4 of the AI Act has applied since 2 February 2025 to organisations that develop or use AI.",
+      "Since the Digital Omnibus (July 2026), it's a duty of effort: take measures, with no prescribed level.",
+      "No certificate is required; an internal record of what you've done is sensible nonetheless.",
+      "AI in Europe",
+      "European brands already running AI in production.",
+      "Not my clients. Examples of what happens once AI moves past the pilot stage.",
+      "Pause",
+      "Klarna",
+      "Sweden",
+      "AI customer service assistant",
+      "Zalando",
+      "Germany",
+      "Fashion assistant for product advice",
+      "Financial services",
+      "Investment firm",
+      "AI strategy and use-case portfolio",
+      "Booking.com",
+      "Netherlands",
+      "AI Trip Planner for travel planning",
+      "Siemens",
+      "Germany",
+      "Industrial Copilot for engineering",
+      "Retail",
+      "Enterprise retailer",
+      "AI-driven vendor selection",
+      "Spotify",
+      "Sweden",
+      "AI DJ and personalized playlists",
+      "Mercedes-Benz",
+      "Germany",
+      "Generative voice assistant in the car",
+      "Industrial / B2B",
+      "International manufacturer",
+      "AI roadmap and leadership",
+      "ING",
+      "Netherlands",
+      "Generative chatbot for customer queries",
+      "L'Oréal",
+      "France",
+      "Beauty Genius: personalized advice",
+      "Financial services",
+      "Financial services firm",
+      "KYC accelerated with AI document analysis",
+      "SAP",
+      "Germany",
+      "Joule: copilot in business software",
+      "Carrefour",
+      "France",
+      "Hopla: grocery shopping assistant",
+      "Strategy & AI",
+      "SaaS scale-up",
+      "AI readiness assessment",
+      "Adyen",
+      "Netherlands",
+      "AI-driven payment optimization",
+      "Philips",
+      "Netherlands",
+      "AI in medical imaging",
+      "Proces & productivity",
+      "Professional services firm",
+      "Internal AI assistant for knowledge workers",
+      "Does an AI literacy training make an organisation compliant with the AI Act?",
+      "Article 4 of the AI Act has applied since 2 February 2025 to organisations that develop or use AI; since the amendment of July 2026, it's a duty of effort to take measures that support staff's AI literacy, without a prescribed level. An AI literacy training from Dave Willemstein is one way to fill in those measures, but not the only one, and a training on its own isn't enough. According to the European Commission, no certificate is required, while it's still sensible to keep an internal record of which measures were taken and why they fit.",
+      "Has the duty behind an AI literacy training lapsed in 2026?",
+      "No. The duty from Article 4 of the AI Act, which an AI literacy training helps meet, remains in place for providers and deployers of AI systems. Since 27 July 2026 it's a duty of effort, and doing nothing doesn't meet it (as of October 2026).",
+      "Is there a prescribed curriculum for an AI literacy training?",
+      "No. There's no prescribed curriculum for an AI literacy training: what's needed depends on the risks, the roles and the context, according to the European Commission's own guidance.",
+      "Source: Dave Willemstein, independent AI consultant; primary source: Regulation (EU) 2026/1744 (Digital Omnibus on AI), Official Journal L, 24.7.2026, EUR-Lex; Regulation (EU) 2024/1689 (AI Act), Article 4, EUR-Lex; European Commission, AI Literacy - Questions & Answers (updated 27 July 2026); European Commission, AI Omnibus enters into force (27 July 2026) (as of 6 October 2026). Updated: October 2026.",
+      "What is AI literacy?",
+      "AI literacy means that people who work with AI systems have the knowledge, skills and understanding to do so responsibly. The European Commission’s own guidance stresses that it isn’t only about the technical workings, but also the social, ethical and practical side: understanding how to interpret an AI system’s output, for example, and what a decision made with AI’s help means for the people it affects.",
+      "In practice, it comes down to four questions a staff member should be able to answer:",
+      "What does this system do, and where is it unreliable?",
+      "Which data can and can’t go into it?",
+      "How do I check the output before I use it?",
+      "Who do I report it to if something goes wrong?",
+      "An AI literacy training is one way to answer those questions across your whole organisation. It isn’t the only way, and a training on its own isn’t enough either.",
+      "What the AI Act asks",
+      "Article 4 of the AI Act has applied since 2 February 2025 to providers and deployers of AI systems. You become a deployer quickly: an organisation that uses AI tools in its work falls under it.",
+      "The text of Article 4 was amended in 2026. On 19 November 2025, the European Commission proposed, in the Digital Omnibus package, replacing the obligation for organisations with a task for the Commission and member states to promote AI literacy. That proposal wasn’t adopted unchanged. The eventual amendment took effect on 27 July 2026, as Regulation (EU) 2026/1744. The state of play as of October 2026, according to the European Commission’s own explanation:",
+      "The duty remains in place for providers and deployers of AI systems.",
+      "It has become a duty of effort: organisations take measures that support the development of their staff’s and other affected people’s AI literacy. There’s no longer a specific or “sufficient” level prescribed.",
+      "Context counts: people’s technical knowledge, experience, education and training, and the context in which the systems are used.",
+      "The Commission and member states get a bigger role in promoting AI literacy.",
+      "Supervision sits with national market surveillance authorities, who supervise and enforce from 2 August 2026.",
+      "For UK organisations, this duty only applies once the AI Act itself applies to them, for example once they place an AI system on the EU market or its output is used there; the UK has no equivalent literacy duty of its own, as the UK government’s own approach relies on existing sector regulators rather than a cross-cutting AI law.",
+      "The bar has shifted from a result to an effort, but doing nothing doesn’t meet it. How Article 4 relates to the rest of the Act is covered on the EU AI Act for businesses page.",
+      "This isn’t legal advice. Interpretation of the law is still developing; have its application to your organisation reviewed by a lawyer or your compliance function.",
+      "What the training covers",
+      "There’s no prescribed curriculum, and that’s just as well. The European Commission describes it as an approach with no “one size fits all”: what’s needed depends on the risks, the roles and the context. That’s why I tailor the content to your organisation. An AI literacy training might look like this:",
+      "How AI works: what generative AI does, why it makes mistakes that sound convincing, and what that means for oversight.",
+      "Your own systems: which AI tools are in use across the organisation, what they’re meant for, and what they’re not.",
+      "Risks and rules: personal data and GDPR, confidential information, bias, and the outline of the AI Act.",
+      "Agreements: what your internal rules are, who’s the point of contact, and how to report an incident.",
+      "Practice: recognisable tasks from your own work, including checking an outcome.",
+      "For teams that then genuinely start using the tools, a deeper dive follows. That can take the shape of a practical Copilot training for organisations with Microsoft 365, or a hands-on ChatGPT training. An overview of all formats is on the AI workshops and training page.",
+      "If internal agreements don’t exist yet, it’s worth drafting them at the same time. A training about rules that don’t exist stays vague. The AI policy page covers what belongs in one.",
+      "Demonstrating that you comply",
+      "According to the European Commission, no certificate is required. You can keep an internal record of the training and other initiatives you’ve run. What matters is being able to show which measures you’ve taken and why they fit your situation.",
+      "A useful four-step structure, which I use as a basis:",
+      "IdentifyWhich AI systems do we use, who works with them, and what are the risks?",
+      "Set the goalWhat does each role need to know, depending on risk and context?",
+      "Carry outTraining, agreements, a point of contact and repetition.",
+      "EvaluateIs it working, and what's changed about the tools or the risks?",
+      "An ongoing cycle, built on the four steps common in regulatory guidance on AI literacy.",
+      "What you record at a minimum:",
+      "an overview of the AI systems in use and who works with them;",
+      "per role, what someone needs to know and which measure matches it;",
+      "who has taken which training or instruction, and when;",
+      "the internal agreements on AI use and where staff can find them;",
+      "a point in time when you review the whole thing again.",
+      "Agree beforehand, as part of a training, that you receive the content, the participant list and the agreements made in a form you can add straight to that file. Then the record-keeping isn’t a separate job afterwards.",
+      "Example scenario",
+      "A logistics company with 260 staff uses an AI assistant in the office, a planning module with forecasts, and a tool that reads freight documents. A screening tool for recruitment is ready to go live. The consultant works through the four steps with HR and the data protection officer: 140 people turn out to work with at least one system, across five roles.",
+      "Everyone takes a ninety-minute foundation session, run across six groups. Twelve planners also get a half-day deeper dive on checking forecasts. The screening tool doesn't go live for now, because AI in recruitment can fall under the high-risk rules and is reviewed separately first.",
+      "After three months, there's a file with the overview of systems, the measure per role, the internal agreements and the attendance lists: 132 of the 140 people completed the foundation session. A review follows in six months.",
+      "Fictional example, built from situations that come up often. The organisation and figures are illustrative.",
+      "Want to know what approach fits your organisation? Ask about a training; in a first conversation, we discuss which roles, systems and agreements exist, and what’s needed first.",
+      "Dave Willemstein Independent AI Advisor",
+      "Independent: no commissions, no partner deals, no margin on implementation partners.",
+      "About My partner network",
+      "Want to know where you stand with AI? See the AI Readiness Assessment →",
+      "Frequently asked questions",
+      "Does the duty apply if we only use ChatGPT or Copilot?+",
+      "Yes. The duty applies to organisations that deploy AI systems, including widely available tools. According to the European Commission, staff then need to be aware, at minimum, of the specific risks, such as outcomes that sound convincing but are wrong.",
+      "Do all staff need to take the same training?+",
+      "No. What someone needs to know depends on their role, their existing knowledge, and the risks of the systems they work with. Someone using AI in decisions about customers or job applicants needs more than someone who occasionally has a text summarised.",
+      "Are contractors and temporary staff covered too?+",
+      "The duty covers your staff and other people who work with AI systems on your organisation's behalf. According to the European Commission's guidance, that can include contractors and service providers too. So include them in your approach.",
+      "Is e-learning enough?+",
+      "It can be one component, especially for foundational knowledge across large groups. But knowledge of your own tools, agreements and risks rarely comes from a generic module. A combination of a broad foundation and a deeper dive for higher-risk roles is usually the better fit.",
+      "Who supervises AI literacy?+",
+      "According to the European Commission, supervision sits with national market surveillance authorities, not with the European AI Office. For a UK organisation in scope of the AI Act, that means the market surveillance authority in the EU member state where the AI system is placed on the market or used; the UK has no AI Act regulator of its own, since the Act isn't UK law.",
+      "Sources",
+      "European Commission: AI Literacy - Questions & Answers (updated 27 July 2026)",
+      "European Commission: AI Omnibus enters into force (27 July 2026)",
+      "Regulation (EU) 2026/1744 (Digital Omnibus on AI), Official Journal L, 24.7.2026, EUR-Lex",
+      "Regulation (EU) 2024/1689 (AI Act), Article 4, EUR-Lex",
+      "UK Government: AI regulation, a pro-innovation approach",
+      "Ready for impact?",
+      "From AI ambition to real results.",
+      "Book a no-obligation call. No pitch. Just sharp questions.",
+      "30 min., no pitch deckBook a call →"
+    ]
+  },
+  "links": [
+    {
+      "regio": "overig",
+      "soort": "intern",
+      "href": "#main",
+      "anker": "Skip to main content",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/",
+      "anker": "",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/services",
+      "anker": "Services",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/cases",
+      "anker": "Cases",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/approach",
+      "anker": "Approach",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/insights",
+      "anker": "Insights",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/about",
+      "anker": "About",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/nl/ai-workshop/ai-geletterdheid-training",
+      "anker": "NL",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/contact",
+      "anker": "Book a call →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/",
+      "anker": "Home",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/ai-workshop",
+      "anker": "AI Workshop",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/contact",
+      "anker": "Ask about a training →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/services/ai-readiness-assessment",
+      "anker": "See the AI Readiness Assessment →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "extern",
+      "href": "https://digital-strategy.ec.europa.eu/en/news/ai-omnibus-enters-force",
+      "anker": "took effect on 27 July 2026",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "extern",
+      "href": "https://digital-strategy.ec.europa.eu/en/faqs/ai-literacy-questions-answers",
+      "anker": "European Commission’s own explanation",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/ai-policy/ai-act",
+      "anker": "EU AI Act for businesses",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/ai-workshop/copilot-training",
+      "anker": "Copilot training",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/ai-workshop/chatgpt-training",
+      "anker": "ChatGPT training",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/ai-workshop",
+      "anker": "AI workshops and training",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/ai-policy",
+      "anker": "AI policy",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/contact",
+      "anker": "Ask about a training",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/about",
+      "anker": "About",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/partner-network",
+      "anker": "My partner network",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/services/ai-readiness-assessment",
+      "anker": "Want to know where you stand with AI? See the AI Readiness Assessment →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "extern",
+      "href": "https://digital-strategy.ec.europa.eu/en/faqs/ai-literacy-questions-answers",
+      "anker": "European Commission: AI Literacy - Questions & Answers (updated 27 July 2026)",
+      "rel": "noopener"
+    },
+    {
+      "regio": "main",
+      "soort": "extern",
+      "href": "https://digital-strategy.ec.europa.eu/en/news/ai-omnibus-enters-force",
+      "anker": "European Commission: AI Omnibus enters into force (27 July 2026)",
+      "rel": "noopener"
+    },
+    {
+      "regio": "main",
+      "soort": "extern",
+      "href": "http://data.europa.eu/eli/reg/2026/1744/oj",
+      "anker": "Regulation (EU) 2026/1744 (Digital Omnibus on AI), Official Journal L, 24.7.2026, EUR-Lex",
+      "rel": "noopener"
+    },
+    {
+      "regio": "main",
+      "soort": "extern",
+      "href": "https://eur-lex.europa.eu/eli/reg/2024/1689",
+      "anker": "Regulation (EU) 2024/1689 (AI Act), Article 4, EUR-Lex",
+      "rel": "noopener"
+    },
+    {
+      "regio": "main",
+      "soort": "extern",
+      "href": "https://www.gov.uk/government/publications/ai-regulation-a-pro-innovation-approach",
+      "anker": "UK Government: AI regulation, a pro-innovation approach",
+      "rel": "noopener"
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/contact",
+      "anker": "Book a call →",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/services/ai-readiness-assessment",
+      "anker": "AI Readiness Assessment",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/services/ai-strategy-sprint",
+      "anker": "AI Strategy Sprint",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/services/fractional-ai-lead",
+      "anker": "Fractional AI Lead",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/services",
+      "anker": "All services",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/cases",
+      "anker": "Cases",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/approach",
+      "anker": "Approach",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/insights",
+      "anker": "Insights",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/faq",
+      "anker": "FAQ",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/about",
+      "anker": "About",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-consulting",
+      "anker": "AI consulting",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-implementation",
+      "anker": "AI implementation",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-automation",
+      "anker": "AI automation",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-for-business",
+      "anker": "AI for business",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-development",
+      "anker": "AI development",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-agents",
+      "anker": "AI agents",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-policy",
+      "anker": "AI policy",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-workshop",
+      "anker": "AI workshop",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/markets",
+      "anker": "AI by industry",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/knowledge-base",
+      "anker": "Knowledge base",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/pricing",
+      "anker": "Pricing",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/partner-network",
+      "anker": "Partner network",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "overig",
+      "href": "mailto:dave@freelanceaiconsultant.com",
+      "anker": "dave@freelanceaiconsultant.com",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "extern",
+      "href": "https://www.linkedin.com/in/davewillemstein",
+      "anker": "LinkedIn ↗",
+      "rel": "noopener"
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/contact",
+      "anker": "Book a call",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/privacy",
+      "anker": "Privacy policy",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/terms",
+      "anker": "Terms & conditions",
+      "rel": null
+    }
+  ],
+  "structured_data": {
+    "sha256": "9f6aa7a3427cca43ed88db23194c9af57bd854297ba7a52e81b68395c4d072c2",
+    "items": [
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://freelanceaiconsultant.com/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "AI Workshop",
+                "item": "https://freelanceaiconsultant.com/ai-workshop"
+              },
+              {
+                "@type": "ListItem",
+                "position": 3,
+                "name": "AI Literacy",
+                "item": "https://freelanceaiconsultant.com/ai-workshop/ai-literacy-training"
+              }
+            ]
+          },
+          {
+            "@type": "Service",
+            "name": "AI Literacy",
+            "serviceType": "ai literacy training",
+            "description": "The AI Act requires organisations to support AI literacy. This training covers what AI can do, where the risks are, and how to work with it safely.",
+            "url": "https://freelanceaiconsultant.com/ai-workshop/ai-literacy-training",
+            "areaServed": "GB",
+            "provider": {
+              "@type": "Person",
+              "name": "Dave Willemstein",
+              "jobTitle": "Onafhankelijk AI-adviseur",
+              "url": "https://freelanceaiconsultant.com/over",
+              "sameAs": [
+                "https://www.linkedin.com/in/davewillemstein"
+              ]
+            }
+          },
+          {
+            "@type": "FAQPage",
+            "mainEntity": [
+              {
+                "@type": "Question",
+                "name": "Does the duty apply if we only use ChatGPT or Copilot?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Yes. The duty applies to organisations that deploy AI systems, including widely available tools. According to the European Commission, staff then need to be aware, at minimum, of the specific risks, such as outcomes that sound convincing but are wrong."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Do all staff need to take the same training?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "No. What someone needs to know depends on their role, their existing knowledge, and the risks of the systems they work with. Someone using AI in decisions about customers or job applicants needs more than someone who occasionally has a text summarised."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Are contractors and temporary staff covered too?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "The duty covers your staff and other people who work with AI systems on your organisation's behalf. According to the European Commission's guidance, that can include contractors and service providers too. So include them in your approach."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Is e-learning enough?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "It can be one component, especially for foundational knowledge across large groups. But knowledge of your own tools, agreements and risks rarely comes from a generic module. A combination of a broad foundation and a deeper dive for higher-risk roles is usually the better fit."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Who supervises AI literacy?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "According to the European Commission, supervision sits with national market surveillance authorities, not with the European AI Office. For a UK organisation in scope of the AI Act, that means the market surveillance authority in the EU member state where the AI system is placed on the market or used; the UK has no AI Act regulator of its own, since the Act isn't UK law."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Does an AI literacy training make an organisation compliant with the AI Act?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Article 4 of the AI Act has applied since 2 February 2025 to organisations that develop or use AI; since the amendment of July 2026, it's a duty of effort to take measures that support staff's AI literacy, without a prescribed level. An AI literacy training from Dave Willemstein is one way to fill in those measures, but not the only one, and a training on its own isn't enough. According to the European Commission, no certificate is required, while it's still sensible to keep an internal record of which measures were taken and why they fit."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Has the duty behind an AI literacy training lapsed in 2026?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "No. The duty from Article 4 of the AI Act, which an AI literacy training helps meet, remains in place for providers and deployers of AI systems. Since 27 July 2026 it's a duty of effort, and doing nothing doesn't meet it (as of October 2026)."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Is there a prescribed curriculum for an AI literacy training?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "No. There's no prescribed curriculum for an AI literacy training: what's needed depends on the risks, the roles and the context, according to the European Commission's own guidance."
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "afbeeldingen": [
+    {
+      "regio": "header",
+      "src": "/images/freelance-ai-consultant-logo-header.png",
+      "alt": "freelanceaiconsultant.com logo",
+      "width": "600",
+      "height": "287",
+      "loading": null
+    },
+    {
+      "regio": "main",
+      "src": "/images/dave-portrait.jpg",
+      "alt": "Portrait of Dave Willemstein",
+      "width": "88",
+      "height": "88",
+      "loading": "lazy"
+    },
+    {
+      "regio": "footer",
+      "src": "/images/freelance-ai-consultant-icon-footer.png",
+      "alt": "",
+      "width": "192",
+      "height": "192",
+      "loading": "lazy"
+    }
+  ],
+  "laadprestaties": {
+    "scripts": [
+      {
+        "src": "/_astro/CookieConsent.astro_astro_type_script_index_0_lang.COcxE8NY.js",
+        "type": "module",
+        "inline_bytes": 0
+      },
+      {
+        "src": null,
+        "type": null,
+        "inline_bytes": 989
+      },
+      {
+        "src": null,
+        "type": null,
+        "inline_bytes": 493
+      },
+      {
+        "src": "/logo-carousel/logo-carousel.js?v=2",
+        "type": null,
+        "inline_bytes": 0
+      },
+      {
+        "src": null,
+        "type": null,
+        "inline_bytes": 725
+      }
+    ],
+    "stylesheets": [
+      "/_astro/_slug_.CzLXI3HH.css",
+      "/_astro/_slug_.Do5RJXa7.css",
+      "/logo-carousel/logo-carousel.css?v=2"
+    ],
+    "aantal_details": 5,
+    "aantal_tabellen": 0
+  },
+  "gemeten_op": "2026-11-05"
+}

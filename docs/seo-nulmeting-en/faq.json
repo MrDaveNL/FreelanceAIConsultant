@@ -1,0 +1,806 @@
+{
+  "url": "/faq",
+  "build_bestand": "dist/faq/index.html",
+  "html": {
+    "bytes": 46186,
+    "lang": "en"
+  },
+  "beschermd": {
+    "title": "AI Consultant FAQ | Freelance AI Consultant",
+    "meta_description": "Answers about working together, independence, approach, pricing, procurement and data security. Everything you would normally ask in a first conversation.",
+    "canonical": "https://freelanceaiconsultant.com/faq",
+    "robots_meta": null,
+    "hreflang": [
+      {
+        "hreflang": "en",
+        "href": "https://freelanceaiconsultant.com/faq"
+      },
+      {
+        "hreflang": "nl",
+        "href": "https://freelanceaiconsultant.com/nl/veelgestelde-vragen"
+      },
+      {
+        "hreflang": "x-default",
+        "href": "https://freelanceaiconsultant.com/faq"
+      }
+    ],
+    "h1": [
+      "Frequently asked questions."
+    ]
+  },
+  "social": {
+    "og:type": "website",
+    "og:locale": "en_US",
+    "og:site_name": "freelanceaiconsultant.com",
+    "og:title": "AI Consultant FAQ | Freelance AI Consultant",
+    "og:description": "Answers about working together, independence, approach, pricing, procurement and data security. Everything you would normally ask in a first conversation.",
+    "og:url": "https://freelanceaiconsultant.com/faq",
+    "og:image": "https://freelanceaiconsultant.com/images/dave-portrait.jpg",
+    "twitter:card": "summary_large_image",
+    "twitter:title": "AI Consultant FAQ | Freelance AI Consultant",
+    "twitter:description": "Answers about working together, independence, approach, pricing, procurement and data security. Everything you would normally ask in a first conversation.",
+    "twitter:image": "https://freelanceaiconsultant.com/images/dave-portrait.jpg"
+  },
+  "koppen": [
+    {
+      "niveau": 1,
+      "tekst": "Frequently asked questions.",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "Working together",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "Independence",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "Approach & results",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "Pricing & terms",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "Procurement, data & compliance",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "Just ask it. Even if you're not sure yet whether you need something.",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "Ready to make your AI decisions clear?",
+      "regio": "main",
+      "id": null
+    }
+  ],
+  "bodytekst": {
+    "regio": "main",
+    "woorden": 1137,
+    "sha256": "a758fa6c64195fc54d8cf037d76c379edd252784b00d8124934e4ce86d8e4f2e",
+    "blokken": [
+      "Everything you want to know",
+      "Frequently asked questions.",
+      "24 questions about working together, independence, approach, pricing and procurement. Don't see your question? Just ask it. You'll get an answer within one business day.",
+      "Book a call → View services → 30 min., no pitch deck",
+      "trust, experience, impact ↓",
+      "Independent No vendor bias Senior only Since 2006",
+      "AI in Europe",
+      "European brands already running AI in production.",
+      "Not my clients. Examples of what happens once AI moves past the pilot stage.",
+      "Pause",
+      "Klarna",
+      "Sweden",
+      "AI customer service assistant",
+      "Zalando",
+      "Germany",
+      "Fashion assistant for product advice",
+      "Financial services",
+      "Investment firm",
+      "AI strategy and use-case portfolio",
+      "Booking.com",
+      "Netherlands",
+      "AI Trip Planner for travel planning",
+      "Siemens",
+      "Germany",
+      "Industrial Copilot for engineering",
+      "Retail",
+      "Enterprise retailer",
+      "AI-driven vendor selection",
+      "Spotify",
+      "Sweden",
+      "AI DJ and personalized playlists",
+      "Mercedes-Benz",
+      "Germany",
+      "Generative voice assistant in the car",
+      "Industrial / B2B",
+      "International manufacturer",
+      "AI roadmap and leadership",
+      "ING",
+      "Netherlands",
+      "Generative chatbot for customer queries",
+      "L'Oréal",
+      "France",
+      "Beauty Genius: personalized advice",
+      "Financial services",
+      "Financial services firm",
+      "KYC accelerated with AI document analysis",
+      "SAP",
+      "Germany",
+      "Joule: copilot in business software",
+      "Carrefour",
+      "France",
+      "Hopla: grocery shopping assistant",
+      "Strategy & AI",
+      "SaaS scale-up",
+      "AI readiness assessment",
+      "Adyen",
+      "Netherlands",
+      "AI-driven payment optimization",
+      "Philips",
+      "Netherlands",
+      "AI in medical imaging",
+      "Proces & productivity",
+      "Professional services firm",
+      "Internal AI assistant for knowledge workers",
+      "◎ Working together 5 questions ✓ Independence 4 questions ↯ Approach & results 5 questions € Pricing & terms 5 questions ▣ Procurement, data & compliance 5 questions",
+      "◎",
+      "Working together",
+      "How does a first conversation work?+",
+      "Thirty minutes, online or on-site. You describe what you are facing, I ask questions, and at the end I tell you what I would do, even if that means you do not need me. No slide deck, no on-the-spot quote.",
+      "Do you work alone or with a team?+",
+      "I work alone. That is the core of the offer: you always get the senior person you spoke to. For execution that needs more hands, I introduce partners I know, with no markup on their rate.",
+      "Which sectors do you work in?+",
+      "The focus is financial services, retail, industry and professional services. Sector knowledge helps, but the actual questions (prioritizing, choosing, safeguarding) look a lot alike.",
+      "Do you work internationally?+",
+      "Yes, in the Netherlands, Belgium and Germany. Sessions can be in Dutch or English. For engagements with a lot of on-site presence, I factor travel time into the planning.",
+      "How fast can you start?+",
+      "For an Executive Briefing or an intake, usually within two weeks. For a sprint or assessment it depends on the current schedule: typically three to six weeks out.",
+      "✓",
+      "Independence",
+      "What does independent actually mean?+",
+      "No software commissions, no affiliate fees, no partner status with vendors, and no markup on implementation partners. My income comes entirely from advisory hours you pay for.",
+      "Do you also sell implementation?+",
+      "No. That is a deliberate choice: the moment I earn from the build, I have an interest in a bigger scope. I do guide implementations, but from your side of the table.",
+      "What if you already know a vendor?+",
+      "I disclose that before that party comes into view, including the nature and period of that relationship. That is recorded as an agreement in the engagement letter, not just stated as intent.",
+      "Can I reuse your frameworks myself?+",
+      "Yes. Scorecards, weighting frameworks, measurement setups and decision documents are yours once the engagement ends, including the underlying logic. I do not deliver a black box.",
+      "↯",
+      "Approach & results",
+      "Do you deliver a report or a decision?+",
+      "A decision, backed by documentation. Everything I deliver is built to help you make a choice. A report that is mainly thorough rarely helps at the moment a decision actually has to happen.",
+      "How much time does it cost my team?+",
+      "For an assessment: 45-60 minutes per person interviewed, plus two sessions with the core group. For a sprint: five half-day working sessions with four to six people. For a fractional role: the regular meetings that would happen anyway.",
+      "What if the outcome is negative?+",
+      "Then you get that outcome. For some engagements, the advice is not to buy, to postpone, or to stop. That is usually the advice that saves the most money.",
+      "Do you present to our board?+",
+      "I am there for questions if you would like, but you present. A strategy your advisor has to explain for you is not really yours yet.",
+      "What happens afterward?+",
+      "For scoped engagements: nothing, unless you ask for something. I do not work with automatic follow-up proposals. I do offer one evaluation conversation after three months as standard, at no cost.",
+      "€",
+      "Pricing & terms",
+      "How is pricing structured?+",
+      "A fixed price per engagement where the scope is clear (assessment, briefing), a range where the size varies (sprint, vendor review), and a monthly fee for a fractional role. All proposals exclude VAT and travel expenses.",
+      "How do I get a price indication?+",
+      "Through the contact form or an introductory call. We discuss your question and situation there, and afterwards you receive a proposal with a fixed project fee or fixed monthly fee, before anything starts.",
+      "Can I also book a single question or workshop?+",
+      "Yes, for scoped advisory work, workshops and second opinions. You still get a fixed price upfront in the proposal, because that keeps the conversation about the outcome rather than the timesheet.",
+      "What are the payment terms?+",
+      "Invoicing per month or per milestone, payment term thirty days. For fixed-price engagements: fifty percent upfront, fifty percent on delivery.",
+      "What about cancellation?+",
+      "Engagements can be ended with one month notice for ongoing roles. For fixed-price engagements, the hours worked and the work delivered up to that point are settled.",
+      "▣",
+      "Procurement, data & compliance",
+      "Do you meet our procurement requirements?+",
+      "Usually, yes. I work with a standard agreement and can fit into your procurement process, including vendor registration, a certificate of good conduct and proof of insurance.",
+      "How do you handle our data?+",
+      "I work within your policies and do not process company data without a written agreement. Where possible, I work with anonymized or aggregated data. We sign a data processing agreement whenever personal data is involved.",
+      "Do you use AI tools in your own work?+",
+      "Yes, for analysis and writing. Never with confidential client data in tools that are not approved for that. If your policy sets requirements here, I follow that policy.",
+      "Who owns the delivered work?+",
+      "You do. All deliverables, frameworks and analyses become your property after payment. I retain the right to reuse generic methodology, never your data, figures or situation.",
+      "Are you insured?+",
+      "Yes, professional indemnity and business liability insurance. I share policy details on request during procurement.",
+      "Don't see your question?",
+      "Just ask it. Even if you're not sure yet whether you need something.",
+      "Ask your question →",
+      "Ready for impact?",
+      "Ready to make your AI decisions clear?",
+      "Book a no-obligation call. No pitch. Just sharp questions.",
+      "30 min., no pitch deckBook a call →"
+    ]
+  },
+  "links": [
+    {
+      "regio": "overig",
+      "soort": "intern",
+      "href": "#main",
+      "anker": "Skip to main content",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/",
+      "anker": "",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/services",
+      "anker": "Services",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/cases",
+      "anker": "Cases",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/approach",
+      "anker": "Approach",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/insights",
+      "anker": "Insights",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/about",
+      "anker": "About",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/nl/veelgestelde-vragen",
+      "anker": "NL",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/contact",
+      "anker": "Book a call →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/contact",
+      "anker": "Book a call →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/services",
+      "anker": "View services →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "#working-together",
+      "anker": "◎ Working together 5 questions",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "#independence",
+      "anker": "✓ Independence 4 questions",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "#approach-results",
+      "anker": "↯ Approach & results 5 questions",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "#pricing-terms",
+      "anker": "€ Pricing & terms 5 questions",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "#procurement-data-compliance",
+      "anker": "▣ Procurement, data & compliance 5 questions",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/contact",
+      "anker": "Ask your question →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/contact",
+      "anker": "Book a call →",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/services/ai-readiness-assessment",
+      "anker": "AI Readiness Assessment",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/services/ai-strategy-sprint",
+      "anker": "AI Strategy Sprint",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/services/fractional-ai-lead",
+      "anker": "Fractional AI Lead",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/services",
+      "anker": "All services",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/cases",
+      "anker": "Cases",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/approach",
+      "anker": "Approach",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/insights",
+      "anker": "Insights",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/faq",
+      "anker": "FAQ",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/about",
+      "anker": "About",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-consulting",
+      "anker": "AI consulting",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-implementation",
+      "anker": "AI implementation",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-automation",
+      "anker": "AI automation",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-for-business",
+      "anker": "AI for business",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-development",
+      "anker": "AI development",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-agents",
+      "anker": "AI agents",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-policy",
+      "anker": "AI policy",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-workshop",
+      "anker": "AI workshop",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/markets",
+      "anker": "AI by industry",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/knowledge-base",
+      "anker": "Knowledge base",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/pricing",
+      "anker": "Pricing",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/partner-network",
+      "anker": "Partner network",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "overig",
+      "href": "mailto:dave@freelanceaiconsultant.com",
+      "anker": "dave@freelanceaiconsultant.com",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "extern",
+      "href": "https://www.linkedin.com/in/davewillemstein",
+      "anker": "LinkedIn ↗",
+      "rel": "noopener"
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/contact",
+      "anker": "Book a call",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/privacy",
+      "anker": "Privacy policy",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/terms",
+      "anker": "Terms & conditions",
+      "rel": null
+    }
+  ],
+  "structured_data": {
+    "sha256": "826a735d7a42e09b5c817595c5873f81e53216862263bb5d4384e3e03b38fb6d",
+    "items": [
+      {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "How does a first conversation work?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Thirty minutes, online or on-site. You describe what you are facing, I ask questions, and at the end I tell you what I would do, even if that means you do not need me. No slide deck, no on-the-spot quote."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Do you work alone or with a team?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "I work alone. That is the core of the offer: you always get the senior person you spoke to. For execution that needs more hands, I introduce partners I know, with no markup on their rate."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Which sectors do you work in?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "The focus is financial services, retail, industry and professional services. Sector knowledge helps, but the actual questions (prioritizing, choosing, safeguarding) look a lot alike."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Do you work internationally?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes, in the Netherlands, Belgium and Germany. Sessions can be in Dutch or English. For engagements with a lot of on-site presence, I factor travel time into the planning."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How fast can you start?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "For an Executive Briefing or an intake, usually within two weeks. For a sprint or assessment it depends on the current schedule: typically three to six weeks out."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What does independent actually mean?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "No software commissions, no affiliate fees, no partner status with vendors, and no markup on implementation partners. My income comes entirely from advisory hours you pay for."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Do you also sell implementation?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "No. That is a deliberate choice: the moment I earn from the build, I have an interest in a bigger scope. I do guide implementations, but from your side of the table."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What if you already know a vendor?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "I disclose that before that party comes into view, including the nature and period of that relationship. That is recorded as an agreement in the engagement letter, not just stated as intent."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Can I reuse your frameworks myself?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. Scorecards, weighting frameworks, measurement setups and decision documents are yours once the engagement ends, including the underlying logic. I do not deliver a black box."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Do you deliver a report or a decision?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "A decision, backed by documentation. Everything I deliver is built to help you make a choice. A report that is mainly thorough rarely helps at the moment a decision actually has to happen."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How much time does it cost my team?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "For an assessment: 45-60 minutes per person interviewed, plus two sessions with the core group. For a sprint: five half-day working sessions with four to six people. For a fractional role: the regular meetings that would happen anyway."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What if the outcome is negative?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Then you get that outcome. For some engagements, the advice is not to buy, to postpone, or to stop. That is usually the advice that saves the most money."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Do you present to our board?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "I am there for questions if you would like, but you present. A strategy your advisor has to explain for you is not really yours yet."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What happens afterward?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "For scoped engagements: nothing, unless you ask for something. I do not work with automatic follow-up proposals. I do offer one evaluation conversation after three months as standard, at no cost."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How is pricing structured?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "A fixed price per engagement where the scope is clear (assessment, briefing), a range where the size varies (sprint, vendor review), and a monthly fee for a fractional role. All proposals exclude VAT and travel expenses."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How do I get a price indication?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Through the contact form or an introductory call. We discuss your question and situation there, and afterwards you receive a proposal with a fixed project fee or fixed monthly fee, before anything starts."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Can I also book a single question or workshop?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes, for scoped advisory work, workshops and second opinions. You still get a fixed price upfront in the proposal, because that keeps the conversation about the outcome rather than the timesheet."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What are the payment terms?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Invoicing per month or per milestone, payment term thirty days. For fixed-price engagements: fifty percent upfront, fifty percent on delivery."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What about cancellation?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Engagements can be ended with one month notice for ongoing roles. For fixed-price engagements, the hours worked and the work delivered up to that point are settled."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Do you meet our procurement requirements?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Usually, yes. I work with a standard agreement and can fit into your procurement process, including vendor registration, a certificate of good conduct and proof of insurance."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How do you handle our data?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "I work within your policies and do not process company data without a written agreement. Where possible, I work with anonymized or aggregated data. We sign a data processing agreement whenever personal data is involved."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Do you use AI tools in your own work?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes, for analysis and writing. Never with confidential client data in tools that are not approved for that. If your policy sets requirements here, I follow that policy."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Who owns the delivered work?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "You do. All deliverables, frameworks and analyses become your property after payment. I retain the right to reuse generic methodology, never your data, figures or situation."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Are you insured?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes, professional indemnity and business liability insurance. I share policy details on request during procurement."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "afbeeldingen": [
+    {
+      "regio": "header",
+      "src": "/images/freelance-ai-consultant-logo-header.png",
+      "alt": "freelanceaiconsultant.com logo",
+      "width": "600",
+      "height": "287",
+      "loading": null
+    },
+    {
+      "regio": "main",
+      "src": "/images/dave-portrait.jpg",
+      "alt": "Dave Willemstein, Independent AI Advisor",
+      "width": "500",
+      "height": "620",
+      "loading": "lazy"
+    },
+    {
+      "regio": "footer",
+      "src": "/images/freelance-ai-consultant-icon-footer.png",
+      "alt": "",
+      "width": "192",
+      "height": "192",
+      "loading": "lazy"
+    }
+  ],
+  "laadprestaties": {
+    "scripts": [
+      {
+        "src": "/_astro/CookieConsent.astro_astro_type_script_index_0_lang.COcxE8NY.js",
+        "type": "module",
+        "inline_bytes": 0
+      },
+      {
+        "src": null,
+        "type": null,
+        "inline_bytes": 989
+      },
+      {
+        "src": null,
+        "type": null,
+        "inline_bytes": 493
+      },
+      {
+        "src": "/logo-carousel/logo-carousel.js?v=2",
+        "type": null,
+        "inline_bytes": 0
+      },
+      {
+        "src": null,
+        "type": null,
+        "inline_bytes": 725
+      }
+    ],
+    "stylesheets": [
+      "/_astro/_slug_.CzLXI3HH.css",
+      "/logo-carousel/logo-carousel.css?v=2"
+    ],
+    "aantal_details": 24,
+    "aantal_tabellen": 0
+  },
+  "gemeten_op": "2026-11-05"
+}

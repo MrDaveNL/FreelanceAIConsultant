@@ -2,7 +2,7 @@
   "url": "/inzichten/wanneer-heb-je-echt-een-ai-strateeg-nodig",
   "build_bestand": "dist/inzichten/wanneer-heb-je-echt-een-ai-strateeg-nodig/index.html",
   "html": {
-    "bytes": 41958,
+    "bytes": 42013,
     "lang": "nl"
   },
   "beschermd": {
@@ -616,7 +616,7 @@
     }
   ],
   "structured_data": {
-    "sha256": "f621f219f422f8edbf583a0b34f6cb70d1591ff55384beb752cdb14c2759aad4",
+    "sha256": "f20564d573b59c7390533505b81583e1cbd523c8d833ccdb186abed404638d32",
     "items": [
       {
         "@context": "https://schema.org",
@@ -648,7 +648,10 @@
             "@type": "Person",
             "@id": "https://freelanceaiconsultant.com/#dave",
             "name": "Dave Willemstein",
-            "url": "https://freelanceaiconsultant.com/nl/over",
+            "url": "https://freelanceaiconsultant.com/about",
+            "sameAs": [
+              "https://www.linkedin.com/in/davewillemstein"
+            ],
             "jobTitle": "Onafhankelijk AI-adviseur"
           },
           {
@@ -770,5 +773,5 @@
     "aantal_details": 0,
     "aantal_tabellen": 0
   },
-  "gemeten_op": "2026-11-04"
+  "gemeten_op": "2026-11-05"
 }

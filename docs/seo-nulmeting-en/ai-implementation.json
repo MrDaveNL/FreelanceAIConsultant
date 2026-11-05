@@ -1,0 +1,987 @@
+{
+  "url": "/ai-implementation",
+  "build_bestand": "dist/ai-implementation/index.html",
+  "html": {
+    "bytes": 51315,
+    "lang": "en"
+  },
+  "beschermd": {
+    "title": "How to Implement AI in Business | Step-by-Step",
+    "meta_description": "A practical guide to how to implement AI in business: use case, data, build choice, adoption and governance, plus the mistakes to avoid along the way.",
+    "canonical": "https://freelanceaiconsultant.com/ai-implementation",
+    "robots_meta": null,
+    "hreflang": [
+      {
+        "hreflang": "en",
+        "href": "https://freelanceaiconsultant.com/ai-implementation"
+      },
+      {
+        "hreflang": "nl",
+        "href": "https://freelanceaiconsultant.com/nl/ai-implementatie"
+      },
+      {
+        "hreflang": "x-default",
+        "href": "https://freelanceaiconsultant.com/ai-implementation"
+      }
+    ],
+    "h1": [
+      "AI implementation: from plan to working solution"
+    ]
+  },
+  "social": {
+    "og:type": "website",
+    "og:locale": "en_US",
+    "og:site_name": "freelanceaiconsultant.com",
+    "og:title": "How to Implement AI in Business | Step-by-Step",
+    "og:description": "A practical guide to how to implement AI in business: use case, data, build choice, adoption and governance, plus the mistakes to avoid along the way.",
+    "og:url": "https://freelanceaiconsultant.com/ai-implementation",
+    "og:image": "https://freelanceaiconsultant.com/images/dave-portrait.jpg",
+    "twitter:card": "summary_large_image",
+    "twitter:title": "How to Implement AI in Business | Step-by-Step",
+    "twitter:description": "A practical guide to how to implement AI in business: use case, data, build choice, adoption and governance, plus the mistakes to avoid along the way.",
+    "twitter:image": "https://freelanceaiconsultant.com/images/dave-portrait.jpg"
+  },
+  "koppen": [
+    {
+      "niveau": 1,
+      "tekst": "AI implementation: from plan to working solution",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "What does guidance for AI implementation cost, and who builds the solution?",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 3,
+      "tekst": "Is a margin charged on partners who build the AI implementation?",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 3,
+      "tekst": "Does a roadmap need to be in place before an AI implementation can start?",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 3,
+      "tekst": "What often costs more time than the technology in an AI implementation?",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "What does AI implementation involve?",
+      "regio": "main",
+      "id": "what-does-ai-implementation-involve"
+    },
+    {
+      "niveau": 2,
+      "tekst": "From AI strategy to practical implementation",
+      "regio": "main",
+      "id": "from-ai-strategy-to-practical-implementation"
+    },
+    {
+      "niveau": 2,
+      "tekst": "My implementation approach",
+      "regio": "main",
+      "id": "my-implementation-approach"
+    },
+    {
+      "niveau": 3,
+      "tekst": "Use case and business case",
+      "regio": "main",
+      "id": "use-case-and-business-case"
+    },
+    {
+      "niveau": 3,
+      "tekst": "Data and systems",
+      "regio": "main",
+      "id": "data-and-systems"
+    },
+    {
+      "niveau": 3,
+      "tekst": "Building and testing",
+      "regio": "main",
+      "id": "building-and-testing"
+    },
+    {
+      "niveau": 3,
+      "tekst": "Adoption and training",
+      "regio": "main",
+      "id": "adoption-and-training"
+    },
+    {
+      "niveau": 3,
+      "tekst": "Monitoring and optimising",
+      "regio": "main",
+      "id": "monitoring-and-optimising"
+    },
+    {
+      "niveau": 2,
+      "tekst": "AI implementation for SMEs",
+      "regio": "main",
+      "id": "ai-implementation-for-smes"
+    },
+    {
+      "niveau": 3,
+      "tekst": "Where do you start without a big IT team?",
+      "regio": "main",
+      "id": "where-do-you-start-without-a-big-it-team"
+    },
+    {
+      "niveau": 3,
+      "tekst": "Costs and timeline",
+      "regio": "main",
+      "id": "costs-and-timeline"
+    },
+    {
+      "niveau": 2,
+      "tekst": "Common mistakes in AI implementation",
+      "regio": "main",
+      "id": "common-mistakes-in-ai-implementation"
+    },
+    {
+      "niveau": 2,
+      "tekst": "Results and case studies",
+      "regio": "main",
+      "id": "results-and-case-studies"
+    },
+    {
+      "niveau": 2,
+      "tekst": "Frequently asked questions",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "Sources",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "From AI ambition to real results.",
+      "regio": "main",
+      "id": null
+    }
+  ],
+  "bodytekst": {
+    "regio": "main",
+    "woorden": 3108,
+    "sha256": "b4641b4c4ca4ac1d2658b7dbeb441e0e1a137fc4f83113eb940506ebf4121d4e",
+    "blokken": [
+      "Home",
+      "AI Implementation",
+      "AI implementation",
+      "AI implementation: from plan to working solution",
+      "A successful AI implementation depends less on the model than on everything around it: the right use case, usable data, a delivery partner who delivers what you need, and people who will actually use it. I guide that process from your side of the table, independent of vendors and without earning anything from the build.",
+      "Book a strategy call → See the AI Readiness Assessment →",
+      "IN SHORT",
+      "AI implementation is a change process with technology in it, not an IT project with a bit of change bolted on.",
+      "Your own team, or a partner you contract directly, does the building; I test, steer and safeguard the outcome.",
+      "Governance, measurement and adoption get arranged before the build, not after it.",
+      "AI in Europe",
+      "European brands already running AI in production.",
+      "Not my clients. Examples of what happens once AI moves past the pilot stage.",
+      "Pause",
+      "Klarna",
+      "Sweden",
+      "AI customer service assistant",
+      "Zalando",
+      "Germany",
+      "Fashion assistant for product advice",
+      "Financial services",
+      "Investment firm",
+      "AI strategy and use-case portfolio",
+      "Booking.com",
+      "Netherlands",
+      "AI Trip Planner for travel planning",
+      "Siemens",
+      "Germany",
+      "Industrial Copilot for engineering",
+      "Retail",
+      "Enterprise retailer",
+      "AI-driven vendor selection",
+      "Spotify",
+      "Sweden",
+      "AI DJ and personalized playlists",
+      "Mercedes-Benz",
+      "Germany",
+      "Generative voice assistant in the car",
+      "Industrial / B2B",
+      "International manufacturer",
+      "AI roadmap and leadership",
+      "ING",
+      "Netherlands",
+      "Generative chatbot for customer queries",
+      "L'Oréal",
+      "France",
+      "Beauty Genius: personalized advice",
+      "Financial services",
+      "Financial services firm",
+      "KYC accelerated with AI document analysis",
+      "SAP",
+      "Germany",
+      "Joule: copilot in business software",
+      "Carrefour",
+      "France",
+      "Hopla: grocery shopping assistant",
+      "Strategy & AI",
+      "SaaS scale-up",
+      "AI readiness assessment",
+      "Adyen",
+      "Netherlands",
+      "AI-driven payment optimization",
+      "Philips",
+      "Netherlands",
+      "AI in medical imaging",
+      "Proces & productivity",
+      "Professional services firm",
+      "Internal AI assistant for knowledge workers",
+      "What does guidance for AI implementation cost, and who builds the solution?",
+      "With an AI implementation, your own team or a directly contracted partner builds the solution; Dave Willemstein guides from the client's side of the table by helping choose, setting the framework, testing the delivery and making sure the application lands in the organisation. That guidance works as follows: AI Readiness Assessment takes 2-3 weeks for a fixed project fee, and ongoing steering through Fractional AI Lead is for a fixed monthly fee. The cost of the build or licence depends on the chosen solution and vendor and is budgeted separately, including management after go-live.",
+      "Guidance for AI implementation: the right service per situation",
+      "Situation",
+      "Timeline",
+      "Suitable service",
+      "Unclear whether the organisation is ready for an implementation, or opinions differ on that",
+      "2-3 weeks",
+      "AI Readiness Assessment",
+      "Selecting an external delivery partner against criteria agreed in advance, tested on your own data",
+      "3-6 weeks",
+      "Vendor Review",
+      "Ongoing oversight of measurement, management and governance, without a full-time Head of AI on staff",
+      "2, 4 or 8 days per month",
+      "Fractional AI Lead",
+      "Is a margin charged on partners who build the AI implementation?",
+      "No. With an AI implementation, the build is done by your own team or a party you contract directly. No margin is charged on partners, and there are no commissions or partner status with vendors.",
+      "Does a roadmap need to be in place before an AI implementation can start?",
+      "No. A missing roadmap isn't a reason to wait on an AI implementation. It is a reason to keep the first project small and well defined, so it becomes clear what the organisation can handle before the second and third application start.",
+      "What often costs more time than the technology in an AI implementation?",
+      "Adoption often costs more time than the technology in an AI implementation. The timeline of the implementation itself varies a lot by application: a standard product that gets configured moves faster than bespoke work with integrations into core systems.",
+      "Source: Dave Willemstein's rates and typical timelines. Updated: October 2026.",
+      "What does AI implementation involve?",
+      "AI implementation is the process that takes an AI application from idea or pilot to daily use. That sounds like a technical job, but the technical part is often the smallest piece. The models themselves are good and widely available. What makes an implementation succeed or fail is whether the application fits the work, whether the data can support it, and whether someone stays responsible for it after go-live.",
+      "An implementation therefore covers more than building:",
+      "A sharp use case with a measurable goal and an owner in the business.",
+      "Data and systems that feed the application, including the integrations.",
+      "A choice between building, buying or a partner, followed by a delivery partner who delivers what was agreed.",
+      "Adoption: people changing how they work, not just being handed a licence.",
+      "Management, measurement and governance, so the application still does its job a year from now.",
+      "It matters little whether this is an internal assistant, document processing, a customer-service chatbot or a predictive model. The building blocks stay the same; only the emphasis shifts. Where the focus is mainly on automating repetitive steps in a process, you’ll find the specific points to watch under AI automation.",
+      "From AI strategy to practical implementation",
+      "Between an AI strategy and a working application sits a gap where many organisations get stuck. The strategy names opportunities and priorities. The implementation has to turn that into concrete choices: which process, which data, which vendor, which budget, which owner, and at what point you stop if it isn’t working.",
+      "A good AI roadmap does half of that translation already: it sequences use cases and ties them to owners and decision points. If there’s no roadmap yet, that’s not a reason to wait. It is a reason to keep the first project small and well defined, so you learn what your organisation can handle before starting the second and third application.",
+      "Not sure whether you’re ready, or do opinions differ on that? Then the AI Readiness Assessment is the logical starting point. In 2-3 weeks you’ll know where you stand on strategy, data, technology, people and governance, and which blockers need clearing first.",
+      "My implementation approach",
+      "I don’t build or sell software myself. That’s a deliberate choice: whoever earns from the build has an interest in a bigger scope. My role is that of an independent guide on your side of the table: I help you choose, I set the framework the build happens within, I test what gets delivered, and I make sure the application actually lands in the organisation. The approach follows the same logic as my four-step way of working, applied specifically to the implementation phase.",
+      "Use case and business caseGoal, owner, success threshold and stop criteria",
+      "Data and systemsSources, quality, integrations, privacy",
+      "Building and testingYour own team or a partner builds; I test and steer",
+      "Adoption and trainingScenarios per role, champions, working agreements",
+      "Monitoring and optimisingMeasurement set-up, management, governance, course-correcting",
+      "Five phases of AI implementation. Management and measurement are designed in phase 1, not bolted on in phase 5.",
+      "Use case and business case",
+      "Every implementation starts with the question of what you genuinely want to improve. “We want a chatbot” is a solution; “first-line customer queries take too long to resolve” is a problem you can work with. Together we define the goal in measurable terms, name an owner in the business, and work through the business case, including the running costs after go-live. We also agree in advance at what outcome we stop.",
+      "Delivered: a scoped use case with a goal, owner, baseline measurement, success threshold and stop criteria.",
+      "Data and systems",
+      "Most implementations get stuck on data, not on the model. I map out which sources the application needs, how reliable they are, which integrations are required and who manages the data. Where personal data is involved, the question of whether a data protection impact assessment is needed belongs at the start, not just before go-live.",
+      "Delivered: a data picture that flags the gaps to close first, plus a privacy and risk assessment.",
+      "Building and testing",
+      "The build is done by your own team, or by a party you contract directly. I charge no margin on partners and hold no commissions or partner status with vendors. My work during this phase:",
+      "building the case for building, buying or using a partner, piece by piece;",
+      "for an external party: a selection against criteria agreed in advance, tested on your own data (that’s essentially a Vendor Review);",
+      "setting the acceptance criteria and test set the delivery will be judged against;",
+      "holding the steering group’s attention on scope, timeline and quality, and raising it with the delivery partner where needed;",
+      "making sure ownership, management and exit terms are written into the contract.",
+      "The pilot runs in the real workflow, with real data, not in a separate test environment alongside the work.",
+      "Delivered: a reasoned build choice, a test set with acceptance criteria, and a delivery checked against them.",
+      "Adoption and training",
+      "A working application nobody uses delivers nothing. Adoption is something you design: with concrete scenarios per role rather than a blank input field, with champions inside the teams themselves, and with clear rules about what is and isn’t allowed. Where needed, I run workshops and training myself for the teams who will be using it.",
+      "Delivered: an adoption approach per role, with scenarios, champions and working agreements.",
+      "Monitoring and optimising",
+      "AI applications sometimes degrade quietly as reality shifts. That’s why a measurement set-up belongs in from the start: what you measure, how often, who looks at it, and what happens if quality drops. Alongside that, we set up light governance: a register of applications, a gate before anything goes live, a periodic check and an escalation path.",
+      "It’s also worth checking whether the application would count as high-risk under the EU AI Act. The Act’s scope isn’t limited to EU-based organisations: under Article 2 of the Act, it also applies to UK organisations that place an AI system on the EU market, or whose AI system’s output is used in the EU, regardless of where the organisation is established. For most high-risk systems these obligations are being phased in from 2 December 2027, and from 2 August 2028 for AI embedded in products, following the EU’s Digital Omnibus package. The UK itself has no AI Act: it regulates AI through existing sector regulators instead, applying shared principles rather than one cross-cutting AI law, as set out in the UK government’s AI regulation: a pro-innovation approach. So the relevant obligations depend on your sector, and on whether your organisation places AI systems on the EU market or has EU users of their output.",
+      "Want someone to keep watching this phase on an ongoing basis, without hiring a full-time Head of AI? That’s exactly the role of the Fractional AI Lead.",
+      "Delivered: a measurement set-up with a baseline, a management plan with an owner, and a governance framework that matches the size of your organisation.",
+      "AI implementation for SMEs",
+      "In smaller businesses the principles are the same, but the circumstances differ. There’s less budget for experiments, often no dedicated data team, and the owner-manager is client, budget holder and sometimes user all at once. That’s not purely a disadvantage: decisions move faster and the distance between an idea and the shop floor is short. Implementing AI in an SME is mostly about focus: one application that lands well is worth more than five half-finished ones.",
+      "Where do you start without a big IT team?",
+      "Start with the work, not the technology. Ask every team which task from last week cost more time than it was worth. That produces a usable list within an hour per team. From it, choose an application that:",
+      "runs on a single data source and doesn’t need heavy integrations;",
+      "can be filled by an existing product or platform, so you don’t have to build;",
+      "has a clear owner who directly benefits from it;",
+      "can show measurable results within a few months.",
+      "Buying is often the cheapest way for a small or medium-sized business to learn what it actually needs. You can always build later, with a sharper specification. What you do need is someone who checks the choices independently, especially when a vendor puts an attractive demo and a multi-year contract on the table.",
+      "Costs and timeline",
+      "The cost of an AI implementation has two parts you need to budget separately: the build or licence from the vendor or partner, and the guidance on your side of the table. The first part depends entirely on the chosen solution and the party delivering it, so I deliberately don’t put a figure on it, since a number without scope says nothing. Do budget for the running costs after go-live, because those are the ones most often forgotten.",
+      "For the guidance, I work with fixed services: a fixed project fee for a scoped engagement, or a fixed monthly fee for ongoing steering. An AI Readiness Assessment has a fixed price and takes 2-3 weeks. For ongoing steering during implementation, the Fractional AI Lead is available for a fixed monthly fee. Scoped advice and second opinions get a fixed price per assignment. All proposals exclude VAT and travel expenses; the full overview is on the pricing page.",
+      "The timeline of the implementation itself varies a lot by application. A standard product you configure moves faster than bespoke work with integrations into your core systems. Do budget extra time for adoption, which usually takes longer than the technology.",
+      "Common mistakes in AI implementation",
+      "Most mistakes aren’t technical. They’re about ownership, management and change. These are the patterns that keep coming back:",
+      "The pilot answered the wrong question. “Can it work technically?” is almost always yes. The real question is whether it delivers value at the volume, and in the process, it needs to run in.",
+      "The pilot ran outside the real work. A separate environment with enthusiastic testers says little about scaling up.",
+      "Nobody owns the next phase. The project lead is done at delivery, and the business has no capacity or budget set aside.",
+      "Management wasn’t in the business case. Monitoring, model updates and an up-to-date test set cost time on an ongoing basis.",
+      "The organisation wasn’t allowed to change. The saving only exists if the work is genuinely reorganised around it.",
+      "Many of these mistakes can be avoided with good preparation.",
+      "Results and case studies",
+      "Two case studies show what implementation guidance looks like in practice. At a financial services firm, the work was AI-assisted document analysis in the KYC process. There, the hardest part was designing the workflow itself: which steps are extraction and which are judgement, and how you keep every decision traceable to a person. My role was in the process analysis, the human-in-the-loop design, alignment with compliance, and guiding the vendor and the implementation team.",
+      "At a professional services firm, the work was an internal AI assistant for knowledge workers. The tool itself worked fine; the problem was adoption. The fix was a handful of concrete scenarios instead of open-ended chat, internal champions, and a deliberate choice not to build certain features at all.",
+      "Example scenario",
+      "A technical wholesaler with 120 staff no longer wants to retype incoming order confirmations from suppliers into its ERP system. Three back-office staff spend around 30 hours a week on this between them: roughly 900 documents at two minutes each.",
+      "The adviser works with the procurement manager to set acceptance criteria and a test set of 200 real documents, runs two document-processing vendors against that test set, and keeps scope and timeline on track in the steering group. The chosen vendor builds the integration and is contracted directly by the wholesaler. The pilot runs for eight weeks in the real process; a staff member checks every document the system flags as uncertain.",
+      "After eight weeks, 78 percent of documents go through without correction, and manual work drops from 30 to around 11 hours a week. Deliberately not automated: the non-standard formats used by two large suppliers, since that integration would cost more than it would save.",
+      "Fictional example, built from situations that come up often. The organisation and figures are illustrative.",
+      "Who I am and why I fill this role independently is on the about page. Want to know how this would work for your situation? Book a thirty-minute strategy call; by the end you’ll know what I’d do, even if that means you don’t need me.",
+      "Dave Willemstein Independent AI Advisor",
+      "Independent: no commissions, no partner deals, no margin on implementation partners.",
+      "About My partner network",
+      "Want to know where you stand with AI? See the AI Readiness Assessment →",
+      "Frequently asked questions",
+      "What's the difference between an AI pilot and an AI implementation?+",
+      "A pilot answers the question of whether something works and whether it has value. An implementation makes sure it runs in the real workflow, with an owner, management, integrations with your systems and a measurement set-up. Many organisations have the first and not the second, so design a pilot with the implementation already in mind.",
+      "Do I need my own IT team to implement AI?+",
+      "Not necessarily. For standard applications you take as a service, you mainly need someone to handle set-up and management. For bespoke work or integrations with your core systems, you need development capacity, either in-house or through a partner. Either way, someone in your organisation must always own the application and the choices within it.",
+      "Who owns the solution after implementation?+",
+      "You do. Agree that before anything is built: who manages the application, who owns the code, the configuration, the test set and the data, and how a handover works if you switch partners. Those agreements belong in the contract with the delivery partner, not in a later renewal discussion.",
+      "Can you join a project once implementation is already under way?+",
+      "Yes. Common triggers are a timeline slipping, scope creeping, or a delivery nobody can quite explain any more. I start with a short review of what's in place and what was agreed, and then we decide together whether to course-correct, narrow the scope or stop.",
+      "Is a chatbot implementation a good first step?+",
+      "Sometimes. A chatbot is visible and quick to demonstrate, but its value depends on the quality of the knowledge behind it and on whether customers or staff genuinely benefit from it. A less visible application in an internal process often delivers faster, more measurable results. Which one comes first should follow from prioritisation, not from what makes a good demo.",
+      "Sources",
+      "European Commission: AI Omnibus enters into force",
+      "ICO: Data protection impact assessments",
+      "AI Act Service Desk (European Commission): Article 2, scope",
+      "UK Government: AI regulation, a pro-innovation approach",
+      "Ready for impact?",
+      "From AI ambition to real results.",
+      "Book a no-obligation call. No pitch. Just sharp questions.",
+      "30 min., no pitch deckBook a call →"
+    ]
+  },
+  "links": [
+    {
+      "regio": "overig",
+      "soort": "intern",
+      "href": "#main",
+      "anker": "Skip to main content",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/",
+      "anker": "",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/services",
+      "anker": "Services",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/cases",
+      "anker": "Cases",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/approach",
+      "anker": "Approach",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/insights",
+      "anker": "Insights",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/about",
+      "anker": "About",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/nl/ai-implementatie",
+      "anker": "NL",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/contact",
+      "anker": "Book a call →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/",
+      "anker": "Home",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/contact",
+      "anker": "Book a strategy call →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/services/ai-readiness-assessment",
+      "anker": "See the AI Readiness Assessment →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/services/ai-readiness-assessment",
+      "anker": "AI Readiness Assessment",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/services/vendor-review",
+      "anker": "Vendor Review",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/services/fractional-ai-lead",
+      "anker": "Fractional AI Lead",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/pricing",
+      "anker": "Dave Willemstein's rates and typical timelines",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/ai-consulting/ai-strategy",
+      "anker": "AI roadmap",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/services/ai-readiness-assessment",
+      "anker": "AI Readiness Assessment",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/approach",
+      "anker": "four-step way of working",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/services/vendor-review",
+      "anker": "Vendor Review",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "extern",
+      "href": "https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-2",
+      "anker": "Article 2 of the Act",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "extern",
+      "href": "https://www.gov.uk/government/publications/ai-regulation-a-pro-innovation-approach",
+      "anker": "AI regulation: a pro-innovation approach",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/services/fractional-ai-lead",
+      "anker": "Fractional AI Lead",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/pricing",
+      "anker": "pricing",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/cases/kyc-document-analysis-financial-services",
+      "anker": "AI-assisted document analysis in the KYC process",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/cases/internal-ai-assistant-knowledge-workers",
+      "anker": "internal AI assistant for knowledge workers",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/about",
+      "anker": "about",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/contact",
+      "anker": "Book a thirty-minute strategy call",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/about",
+      "anker": "About",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/partner-network",
+      "anker": "My partner network",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/services/ai-readiness-assessment",
+      "anker": "Want to know where you stand with AI? See the AI Readiness Assessment →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "extern",
+      "href": "https://digital-strategy.ec.europa.eu/en/news/ai-omnibus-enters-force",
+      "anker": "European Commission: AI Omnibus enters into force",
+      "rel": "noopener"
+    },
+    {
+      "regio": "main",
+      "soort": "extern",
+      "href": "https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/accountability-and-governance/guides-to-the-uk-gdpr/accountability-and-governance/data-protection-impact-assessments/",
+      "anker": "ICO: Data protection impact assessments",
+      "rel": "noopener"
+    },
+    {
+      "regio": "main",
+      "soort": "extern",
+      "href": "https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-2",
+      "anker": "AI Act Service Desk (European Commission): Article 2, scope",
+      "rel": "noopener"
+    },
+    {
+      "regio": "main",
+      "soort": "extern",
+      "href": "https://www.gov.uk/government/publications/ai-regulation-a-pro-innovation-approach",
+      "anker": "UK Government: AI regulation, a pro-innovation approach",
+      "rel": "noopener"
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/contact",
+      "anker": "Book a call →",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/services/ai-readiness-assessment",
+      "anker": "AI Readiness Assessment",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/services/ai-strategy-sprint",
+      "anker": "AI Strategy Sprint",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/services/fractional-ai-lead",
+      "anker": "Fractional AI Lead",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/services",
+      "anker": "All services",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/cases",
+      "anker": "Cases",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/approach",
+      "anker": "Approach",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/insights",
+      "anker": "Insights",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/faq",
+      "anker": "FAQ",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/about",
+      "anker": "About",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-consulting",
+      "anker": "AI consulting",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-implementation",
+      "anker": "AI implementation",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-automation",
+      "anker": "AI automation",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-for-business",
+      "anker": "AI for business",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-development",
+      "anker": "AI development",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-agents",
+      "anker": "AI agents",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-policy",
+      "anker": "AI policy",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-workshop",
+      "anker": "AI workshop",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/markets",
+      "anker": "AI by industry",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/knowledge-base",
+      "anker": "Knowledge base",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/pricing",
+      "anker": "Pricing",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/partner-network",
+      "anker": "Partner network",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "overig",
+      "href": "mailto:dave@freelanceaiconsultant.com",
+      "anker": "dave@freelanceaiconsultant.com",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "extern",
+      "href": "https://www.linkedin.com/in/davewillemstein",
+      "anker": "LinkedIn ↗",
+      "rel": "noopener"
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/contact",
+      "anker": "Book a call",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/privacy",
+      "anker": "Privacy policy",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/terms",
+      "anker": "Terms & conditions",
+      "rel": null
+    }
+  ],
+  "structured_data": {
+    "sha256": "47e687b545442d2ed552bc827ef72ebf1625bb31fbd3cf2ee6cc99008cf019d1",
+    "items": [
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://freelanceaiconsultant.com/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "AI Implementation",
+                "item": "https://freelanceaiconsultant.com/ai-implementation"
+              }
+            ]
+          },
+          {
+            "@type": "Service",
+            "name": "AI Implementation",
+            "serviceType": "how to implement ai in business",
+            "description": "A practical guide to how to implement AI in business: use case, data, build choice, adoption and governance, plus the mistakes to avoid along the way.",
+            "url": "https://freelanceaiconsultant.com/ai-implementation",
+            "areaServed": "GB",
+            "provider": {
+              "@type": "Person",
+              "name": "Dave Willemstein",
+              "jobTitle": "Onafhankelijk AI-adviseur",
+              "url": "https://freelanceaiconsultant.com/over",
+              "sameAs": [
+                "https://www.linkedin.com/in/davewillemstein"
+              ]
+            }
+          },
+          {
+            "@type": "FAQPage",
+            "mainEntity": [
+              {
+                "@type": "Question",
+                "name": "What's the difference between an AI pilot and an AI implementation?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "A pilot answers the question of whether something works and whether it has value. An implementation makes sure it runs in the real workflow, with an owner, management, integrations with your systems and a measurement set-up. Many organisations have the first and not the second, so design a pilot with the implementation already in mind."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Do I need my own IT team to implement AI?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Not necessarily. For standard applications you take as a service, you mainly need someone to handle set-up and management. For bespoke work or integrations with your core systems, you need development capacity, either in-house or through a partner. Either way, someone in your organisation must always own the application and the choices within it."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Who owns the solution after implementation?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "You do. Agree that before anything is built: who manages the application, who owns the code, the configuration, the test set and the data, and how a handover works if you switch partners. Those agreements belong in the contract with the delivery partner, not in a later renewal discussion."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Can you join a project once implementation is already under way?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Yes. Common triggers are a timeline slipping, scope creeping, or a delivery nobody can quite explain any more. I start with a short review of what's in place and what was agreed, and then we decide together whether to course-correct, narrow the scope or stop."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Is a chatbot implementation a good first step?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Sometimes. A chatbot is visible and quick to demonstrate, but its value depends on the quality of the knowledge behind it and on whether customers or staff genuinely benefit from it. A less visible application in an internal process often delivers faster, more measurable results. Which one comes first should follow from prioritisation, not from what makes a good demo."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "What does guidance for AI implementation cost, and who builds the solution?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "With an AI implementation, your own team or a directly contracted partner builds the solution; Dave Willemstein guides from the client's side of the table by helping choose, setting the framework, testing the delivery and making sure the application lands in the organisation. That guidance works as follows: AI Readiness Assessment takes 2-3 weeks for a fixed project fee, and ongoing steering through Fractional AI Lead is for a fixed monthly fee. The cost of the build or licence depends on the chosen solution and vendor and is budgeted separately, including management after go-live."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Is a margin charged on partners who build the AI implementation?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "No. With an AI implementation, the build is done by your own team or a party you contract directly. No margin is charged on partners, and there are no commissions or partner status with vendors."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Does a roadmap need to be in place before an AI implementation can start?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "No. A missing roadmap isn't a reason to wait on an AI implementation. It is a reason to keep the first project small and well defined, so it becomes clear what the organisation can handle before the second and third application start."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "What often costs more time than the technology in an AI implementation?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Adoption often costs more time than the technology in an AI implementation. The timeline of the implementation itself varies a lot by application: a standard product that gets configured moves faster than bespoke work with integrations into core systems."
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "afbeeldingen": [
+    {
+      "regio": "header",
+      "src": "/images/freelance-ai-consultant-logo-header.png",
+      "alt": "freelanceaiconsultant.com logo",
+      "width": "600",
+      "height": "287",
+      "loading": null
+    },
+    {
+      "regio": "main",
+      "src": "/images/dave-portrait.jpg",
+      "alt": "Portrait of Dave Willemstein",
+      "width": "88",
+      "height": "88",
+      "loading": "lazy"
+    },
+    {
+      "regio": "footer",
+      "src": "/images/freelance-ai-consultant-icon-footer.png",
+      "alt": "",
+      "width": "192",
+      "height": "192",
+      "loading": "lazy"
+    }
+  ],
+  "laadprestaties": {
+    "scripts": [
+      {
+        "src": "/_astro/CookieConsent.astro_astro_type_script_index_0_lang.COcxE8NY.js",
+        "type": "module",
+        "inline_bytes": 0
+      },
+      {
+        "src": null,
+        "type": null,
+        "inline_bytes": 989
+      },
+      {
+        "src": null,
+        "type": null,
+        "inline_bytes": 493
+      },
+      {
+        "src": "/logo-carousel/logo-carousel.js?v=2",
+        "type": null,
+        "inline_bytes": 0
+      },
+      {
+        "src": null,
+        "type": null,
+        "inline_bytes": 725
+      }
+    ],
+    "stylesheets": [
+      "/_astro/_slug_.CzLXI3HH.css",
+      "/_astro/_slug_.Do5RJXa7.css",
+      "/logo-carousel/logo-carousel.css?v=2"
+    ],
+    "aantal_details": 5,
+    "aantal_tabellen": 1
+  },
+  "gemeten_op": "2026-11-05"
+}

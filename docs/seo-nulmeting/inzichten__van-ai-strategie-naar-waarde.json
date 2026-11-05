@@ -2,7 +2,7 @@
   "url": "/inzichten/van-ai-strategie-naar-waarde",
   "build_bestand": "dist/inzichten/van-ai-strategie-naar-waarde/index.html",
   "html": {
-    "bytes": 41578,
+    "bytes": 41633,
     "lang": "nl"
   },
   "beschermd": {
@@ -574,7 +574,7 @@
     }
   ],
   "structured_data": {
-    "sha256": "70cae967750a65120845722be5fa591df955ec3a06623702b665456237be0a78",
+    "sha256": "a52c27720409bcc482e4ebfbf7cf242141a867e223df4b16dd41d9dbc7c265c0",
     "items": [
       {
         "@context": "https://schema.org",
@@ -606,7 +606,10 @@
             "@type": "Person",
             "@id": "https://freelanceaiconsultant.com/#dave",
             "name": "Dave Willemstein",
-            "url": "https://freelanceaiconsultant.com/nl/over",
+            "url": "https://freelanceaiconsultant.com/about",
+            "sameAs": [
+              "https://www.linkedin.com/in/davewillemstein"
+            ],
             "jobTitle": "Onafhankelijk AI-adviseur"
           },
           {
@@ -728,5 +731,5 @@
     "aantal_details": 0,
     "aantal_tabellen": 0
   },
-  "gemeten_op": "2026-11-04"
+  "gemeten_op": "2026-11-05"
 }

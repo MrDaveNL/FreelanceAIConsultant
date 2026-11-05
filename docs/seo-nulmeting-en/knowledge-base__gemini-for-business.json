@@ -1,0 +1,846 @@
+{
+  "url": "/knowledge-base/gemini-for-business",
+  "build_bestand": "dist/knowledge-base/gemini-for-business/index.html",
+  "html": {
+    "bytes": 41291,
+    "lang": "en"
+  },
+  "beschermd": {
+    "title": "Gemini for Business | Applications in Google Workspace",
+    "meta_description": "How do you use Google Gemini for business? Read about applications in Gmail, Docs and Sheets, business licensing, privacy, and how it compares to Copilot.",
+    "canonical": "https://freelanceaiconsultant.com/knowledge-base/gemini-for-business",
+    "robots_meta": null,
+    "hreflang": [
+      {
+        "hreflang": "en",
+        "href": "https://freelanceaiconsultant.com/knowledge-base/gemini-for-business"
+      },
+      {
+        "hreflang": "nl",
+        "href": "https://freelanceaiconsultant.com/nl/kennisbank/gemini-voor-bedrijven"
+      },
+      {
+        "hreflang": "x-default",
+        "href": "https://freelanceaiconsultant.com/knowledge-base/gemini-for-business"
+      }
+    ],
+    "h1": [
+      "Gemini for business: applications in Google Workspace"
+    ]
+  },
+  "social": {
+    "og:type": "website",
+    "og:locale": "en_US",
+    "og:site_name": "freelanceaiconsultant.com",
+    "og:title": "Gemini for Business | Applications in Google Workspace",
+    "og:description": "How do you use Google Gemini for business? Read about applications in Gmail, Docs and Sheets, business licensing, privacy, and how it compares to Copilot.",
+    "og:url": "https://freelanceaiconsultant.com/knowledge-base/gemini-for-business",
+    "og:image": "https://freelanceaiconsultant.com/images/dave-portrait.jpg",
+    "twitter:card": "summary_large_image",
+    "twitter:title": "Gemini for Business | Applications in Google Workspace",
+    "twitter:description": "How do you use Google Gemini for business? Read about applications in Gmail, Docs and Sheets, business licensing, privacy, and how it compares to Copilot.",
+    "twitter:image": "https://freelanceaiconsultant.com/images/dave-portrait.jpg"
+  },
+  "koppen": [
+    {
+      "niveau": 1,
+      "tekst": "Gemini for business: applications in Google Workspace",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "What does an organisation get with Gemini for business in Google Workspace?",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 3,
+      "tekst": "Does Gemini for business work in Docs and Sheets on the Business Starter edition?",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 3,
+      "tekst": "Can Gemini for business retrieve data a staff member doesn't have access to?",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "What is Gemini?",
+      "regio": "main",
+      "id": "what-is-gemini"
+    },
+    {
+      "niveau": 2,
+      "tekst": "Gemini in Google Workspace",
+      "regio": "main",
+      "id": "gemini-in-google-workspace"
+    },
+    {
+      "niveau": 3,
+      "tekst": "What do you actually do with it?",
+      "regio": "main",
+      "id": "what-do-you-actually-do-with-it"
+    },
+    {
+      "niveau": 2,
+      "tekst": "Privacy and data",
+      "regio": "main",
+      "id": "privacy-and-data"
+    },
+    {
+      "niveau": 2,
+      "tekst": "Gemini versus Copilot",
+      "regio": "main",
+      "id": "gemini-versus-copilot"
+    },
+    {
+      "niveau": 2,
+      "tekst": "Sources",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "From AI ambition to real results.",
+      "regio": "main",
+      "id": null
+    }
+  ],
+  "bodytekst": {
+    "regio": "main",
+    "woorden": 2070,
+    "sha256": "5913fb3412ec72894ec9b1a7c71032f7913bd8bd779b172f6b3728242e88e753",
+    "blokken": [
+      "Home",
+      "Knowledge base",
+      "Gemini for business",
+      "Knowledge base",
+      "Gemini for business: applications in Google Workspace",
+      "If your organisation already runs Google Workspace, Gemini for business is probably already part of your subscription. The question is less whether you buy it, and more how you deploy it and what you agree about your data. Below: what Gemini is, what it does in Gmail, Docs and Sheets, how Google handles your data, and how it compares to Microsoft Copilot.",
+      "Read more on AI tools → Book a strategy call →",
+      "Written by Dave Willemstein, independent AI consultant · published October 27, 2026",
+      "IN SHORT",
+      "Gemini is included in the business editions of Google Workspace; which features you get depends on your edition.",
+      "Google states it doesn't use your Workspace content to train models without your permission.",
+      "Choose between Gemini and Copilot mainly on the platform where your work already sits, not on individual features.",
+      "AI in Europe",
+      "European brands already running AI in production.",
+      "Not my clients. Examples of what happens once AI moves past the pilot stage.",
+      "Pause",
+      "Klarna",
+      "Sweden",
+      "AI customer service assistant",
+      "Zalando",
+      "Germany",
+      "Fashion assistant for product advice",
+      "Financial services",
+      "Investment firm",
+      "AI strategy and use-case portfolio",
+      "Booking.com",
+      "Netherlands",
+      "AI Trip Planner for travel planning",
+      "Siemens",
+      "Germany",
+      "Industrial Copilot for engineering",
+      "Retail",
+      "Enterprise retailer",
+      "AI-driven vendor selection",
+      "Spotify",
+      "Sweden",
+      "AI DJ and personalized playlists",
+      "Mercedes-Benz",
+      "Germany",
+      "Generative voice assistant in the car",
+      "Industrial / B2B",
+      "International manufacturer",
+      "AI roadmap and leadership",
+      "ING",
+      "Netherlands",
+      "Generative chatbot for customer queries",
+      "L'Oréal",
+      "France",
+      "Beauty Genius: personalized advice",
+      "Financial services",
+      "Financial services firm",
+      "KYC accelerated with AI document analysis",
+      "SAP",
+      "Germany",
+      "Joule: copilot in business software",
+      "Carrefour",
+      "France",
+      "Hopla: grocery shopping assistant",
+      "Strategy & AI",
+      "SaaS scale-up",
+      "AI readiness assessment",
+      "Adyen",
+      "Netherlands",
+      "AI-driven payment optimization",
+      "Philips",
+      "Netherlands",
+      "AI in medical imaging",
+      "Proces & productivity",
+      "Professional services firm",
+      "Internal AI assistant for knowledge workers",
+      "What does an organisation get with Gemini for business in Google Workspace?",
+      "Gemini for business is Google's generative AI, included since January 2025 in the Business and Enterprise editions of Google Workspace without a separate AI licence; which features are available differs per edition. For organisations already running Google Workspace, Gemini is probably already part of the subscription; Dave Willemstein advises focusing less on whether to buy it and more on how it's deployed and what's agreed about data. According to Google, customer data from Workspace isn't used as training material for models without the customer's permission or instruction (as of October 2026).",
+      "Does Gemini for business work in Docs and Sheets on the Business Starter edition?",
+      "On Business Starter, Gemini for business isn't included in Docs and Sheets per Google, only in Gmail and the Gemini app (as of October 2026).",
+      "Can Gemini for business retrieve data a staff member doesn't have access to?",
+      "Gemini for business only retrieves data the user already has access to, per Google. Over-shared Drive folders do surface more quickly as a result, so cleaning up access rights belongs before a broad rollout.",
+      "Source: article by Dave Willemstein. Updated: October 2026.",
+      "What is Gemini?",
+      "Gemini is Google’s umbrella name for its generative AI: the language models themselves, and the assistant you use to work with them. Two forms matter for Gemini for business.",
+      "The Gemini app. A chat environment at gemini.google.com and in the mobile apps, comparable to ChatGPT or Claude. You ask questions, have text written or summarised, and upload files. According to Google, the Gemini app is a core Workspace service that’s on by default; an admin can turn it off.",
+      "Gemini in Workspace apps. The assistant in the side panel of Gmail, Docs, Sheets, Slides, Drive and Chat, plus meeting notes in Meet. Here, Gemini works directly with the mail, documents and spreadsheets you’re already in.",
+      "That second part is what makes the difference compared with a standalone chat tool. You don’t need to copy text into a separate window; you ask for a summary, a first draft or an analysis right inside the document. Anyone deploying Google Gemini for business usually starts with the Workspace apps, not the standalone app.",
+      "Gemini is one of several assistants worth considering. The overview of AI tools for business sets the main categories side by side, and anyone also weighing up other models should read about ChatGPT for business and Claude for business.",
+      "Gemini in Google Workspace",
+      "Since January 2025, Google has added AI features to the Business and Enterprise editions of Workspace without a separate AI licence. Which features you get does depend on your edition. As of October 2026, Google’s pricing page shows this for the UK and Europe:",
+      "Edition",
+      "Price per user per month (annual contract, exclusive of tax)",
+      "Gemini, per Google",
+      "Business Starter",
+      "€6.80",
+      "Gemini in Gmail and the Gemini app; Gemini in Docs and Sheets isn’t included",
+      "Business Standard",
+      "€13.60",
+      "Gemini in, among others, Gmail, Docs and Meet, with broader access to models and features in the Gemini app",
+      "Business Plus",
+      "€21.10",
+      "Everything in Standard, plus Vault, eDiscovery and more extensive security options",
+      "Enterprise",
+      "On request",
+      "Gemini across the Workspace apps, plus DLP and Enterprise data regions, among other things",
+      "The Business plans are available, per Google, for up to 300 users. Google regularly offers new customers temporary discounts; budget on the standard price. One point worth flagging: Google also sells “Gemini Enterprise,” a separate standalone AI agent platform priced per seat with its own consumption-based charges. That’s a different product from Gemini bundled into Workspace editions covered here; check which one a quote refers to before comparing prices.",
+      "What do you actually do with it?",
+      "The applications are recognisable, since they tie into work that already happens in Workspace:",
+      "Gmail: summarising long email threads, drafting a reply in the tone you specify, finding what was agreed more quickly.",
+      "Docs: a first version of a memo, policy document or quote text, or shortening and rewriting an existing text.",
+      "Sheets: visualising data and getting a quicker read on what’s in a spreadsheet.",
+      "Meet: notes and summaries of a meeting, so nobody has to take minutes.",
+      "Drive: asking questions about documents you already have, without opening them all first.",
+      "Check your editionWhich Gemini features are included in your current Workspace plan?",
+      "Agree the ground rulesWhat data may and may not go into prompts, and who manages the settings?",
+      "Clean up access rightsGemini sees what a user is allowed to see; over-shared folders become visible.",
+      "Start with one teamConcrete tasks, a short training session, a fixed place for questions.",
+      "EvaluateWhat's actually being used, what does it deliver, what needs to change?",
+      "From licence to use: the technology is usually already in place; the work is in agreements and adoption.",
+      "The pitfall is a familiar one: the features are switched on, a handful of enthusiasts use them, the rest don’t. That rarely has to do with the tool, and almost always with whether it fits the real work. That’s covered separately in AI adoption starts with the work. It also helps if people know how to ask a good question; the basics are in the explainer on prompt engineering.",
+      "Example scenario",
+      "A consultancy with 70 staff has used Google Workspace Business Standard for a year. Gemini is switched on, but a short internal survey shows only 11 staff use it weekly.",
+      "The adviser evaluates with team leads, from the client's side, where the work actually sits. Two tasks surface: notes from project meetings in Meet, and summarising long email threads with clients. Ahead of the wider rollout, the in-house IT team cleans up more than 300 Drive folders that had been shared with the entire domain, including one containing salary overviews. Each team gets a ninety-minute training session built around those two tasks.",
+      "After three months, 38 of the 70 staff use Gemini weekly. No extra tool or higher edition was bought: the features were already in the subscription.",
+      "Fictional example, built from situations that come up often. The organisation and figures are illustrative.",
+      "Privacy and data",
+      "For most organisations, this is the part that matters most. What Google itself says in its Privacy Hub for generative AI in Workspace, as of October 2026:",
+      "No model training without permission. Workspace doesn’t use customer data to train models without the customer’s prior permission or instruction. Your content also isn’t reviewed by humans for model training outside your domain.",
+      "Existing protections carry over to Gemini. The security and admin settings you already have in Workspace apply automatically to Gemini.",
+      "Gemini follows access rights. According to Google, Gemini can only retrieve data the user themselves already has access to.",
+      "Processing within the UK or EU is possible. Customers can restrict the processing of Gemini data in Workspace to the US or the EU. Prompts and responses fall under the data regions settings; which region options you have depends on your edition. According to Google, data regions are available from Business Standard upward; the broader Enterprise data regions sit under Enterprise Plus, among others. Note: Google’s data regions don’t currently offer a UK-only option, only US or EU; a UK organisation wanting data kept in the UK specifically needs to check this directly with Google before committing.",
+      "Those are the vendor’s own commitments. They don’t replace your own homework. Three points deserve attention:",
+      "Access rights become visible. Because Gemini can use anything a staff member is allowed to see, over-shared Drive folders surface more quickly. Clean those up before a broad rollout.",
+      "Record what is and isn’t allowed. Think of customers’ personal data, medical or financial information, and confidential documents. A short usage guideline works better than a long policy document.",
+      "Check the GDPR side. If you process personal data with Gemini, that belongs in your record of processing activities and potentially in a DPIA; see AI agents and GDPR for the detail on automated processing, UK GDPR and EU GDPR.",
+      "Gemini versus Copilot",
+      "Anyone using Google Workspace soon wonders whether Microsoft Copilot wouldn’t be better. That question is usually the wrong one. An AI assistant is most valuable in the environment where your mail, documents and calendar already sit. If you’re in Google Workspace, Gemini is the obvious choice; if you’re in Microsoft 365, it’s Copilot.",
+      "Where they do differ, as of October 2026:",
+      "Gemini in Google Workspace",
+      "Microsoft Copilot",
+      "Licence",
+      "Part of the Business and Enterprise editions",
+      "Copilot Chat at no extra cost with an eligible Microsoft 365 plan; the full Copilot licence is a paid add-on",
+      "Works with",
+      "Gmail, Docs, Sheets, Slides, Drive, Chat, Meet",
+      "Outlook, Teams, Word, Excel, PowerPoint",
+      "Access to company data",
+      "Only what the user is allowed to see",
+      "Only what the user is allowed to see",
+      "Model training",
+      "Not without the customer’s permission",
+      "Prompts and responses aren’t used to train the underlying models",
+      "The biggest practical difference is in the pricing model. With Google, you pay for the AI as part of the Workspace subscription. With Microsoft, the full Copilot is a separate licence on top of Microsoft 365; as of October 2026, Microsoft Copilot Business costs €18.20 per user per month on annual billing, with a temporary €15.60 for the first year for anyone signing up between 1 July and 31 December 2026. How those licences work in detail is covered in Microsoft Copilot for business.",
+      "If you work with both platforms, or you’re considering a switch, it becomes a genuine selection question. Look not at individual features, which change every quarter, but at where your data sits, what a switch costs, and what agreements you can make about management. An independent Vendor Review helps with that; I have no partner status with Google or Microsoft and don’t earn anything from the choice.",
+      "Want to know how to deploy Gemini responsibly in your organisation, or torn between platforms? Book a thirty-minute call; you’ll hear what I’d do by the end of it.",
+      "Dave Willemstein Independent AI Advisor",
+      "Independent: no commissions, no partner deals, no margin on implementation partners.",
+      "About My partner network",
+      "Want to know where you stand with AI? See the AI Readiness Assessment →",
+      "Sources",
+      "Google Workspace: plans and pricing",
+      "Google Workspace Admin Help: Gemini AI features now included in Google Workspace subscriptions",
+      "Google Workspace Admin Help: Generative AI in Google Workspace Privacy Hub",
+      "Google Workspace: Generative AI security, compliance and privacy",
+      "Google Workspace Admin Help: Data covered by data regions",
+      "Microsoft 365 Copilot: business pricing and plans",
+      "Ready for impact?",
+      "From AI ambition to real results.",
+      "Book a no-obligation call. No pitch. Just sharp questions.",
+      "30 min., no pitch deckBook a call →"
+    ]
+  },
+  "links": [
+    {
+      "regio": "overig",
+      "soort": "intern",
+      "href": "#main",
+      "anker": "Skip to main content",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/",
+      "anker": "",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/services",
+      "anker": "Services",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/cases",
+      "anker": "Cases",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/approach",
+      "anker": "Approach",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/insights",
+      "anker": "Insights",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/about",
+      "anker": "About",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/nl/kennisbank/gemini-voor-bedrijven",
+      "anker": "NL",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/contact",
+      "anker": "Book a call →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/",
+      "anker": "Home",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/knowledge-base",
+      "anker": "Knowledge base",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/ai-automation/ai-tools",
+      "anker": "Read more on AI tools →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/contact",
+      "anker": "Book a strategy call →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/about",
+      "anker": "Dave Willemstein",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/ai-automation/ai-tools",
+      "anker": "AI tools for business",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/knowledge-base/chatgpt-for-business",
+      "anker": "ChatGPT for business",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/knowledge-base/claude-for-business",
+      "anker": "Claude for business",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/insights/ai-adoption-starts-with-the-work",
+      "anker": "AI adoption starts with the work",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/knowledge-base/prompt-engineering",
+      "anker": "prompt engineering",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/knowledge-base/ai-agents-and-gdpr",
+      "anker": "AI agents and GDPR",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/knowledge-base/microsoft-copilot-for-business",
+      "anker": "Microsoft Copilot for business",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/services/vendor-review",
+      "anker": "Vendor Review",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/contact",
+      "anker": "Book a thirty-minute call",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/about",
+      "anker": "About",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/partner-network",
+      "anker": "My partner network",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/services/ai-readiness-assessment",
+      "anker": "Want to know where you stand with AI? See the AI Readiness Assessment →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "extern",
+      "href": "https://workspace.google.com/pricing.html",
+      "anker": "Google Workspace: plans and pricing",
+      "rel": "noopener"
+    },
+    {
+      "regio": "main",
+      "soort": "extern",
+      "href": "https://knowledge.workspace.google.com/admin/gemini/gemini-ai-features-now-included-in-google-workspace-subscriptions",
+      "anker": "Google Workspace Admin Help: Gemini AI features now included in Google Workspace subscriptions",
+      "rel": "noopener"
+    },
+    {
+      "regio": "main",
+      "soort": "extern",
+      "href": "https://knowledge.workspace.google.com/admin/gemini/generative-ai-in-google-workspace-privacy-hub",
+      "anker": "Google Workspace Admin Help: Generative AI in Google Workspace Privacy Hub",
+      "rel": "noopener"
+    },
+    {
+      "regio": "main",
+      "soort": "extern",
+      "href": "https://workspace.google.com/security/ai-privacy/",
+      "anker": "Google Workspace: Generative AI security, compliance and privacy",
+      "rel": "noopener"
+    },
+    {
+      "regio": "main",
+      "soort": "extern",
+      "href": "https://knowledge.workspace.google.com/admin/compliance/data-covered-by-data-regions",
+      "anker": "Google Workspace Admin Help: Data covered by data regions",
+      "rel": "noopener"
+    },
+    {
+      "regio": "main",
+      "soort": "extern",
+      "href": "https://www.microsoft.com/en-us/microsoft-365-copilot/pricing",
+      "anker": "Microsoft 365 Copilot: business pricing and plans",
+      "rel": "noopener"
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/contact",
+      "anker": "Book a call →",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/services/ai-readiness-assessment",
+      "anker": "AI Readiness Assessment",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/services/ai-strategy-sprint",
+      "anker": "AI Strategy Sprint",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/services/fractional-ai-lead",
+      "anker": "Fractional AI Lead",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/services",
+      "anker": "All services",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/cases",
+      "anker": "Cases",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/approach",
+      "anker": "Approach",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/insights",
+      "anker": "Insights",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/faq",
+      "anker": "FAQ",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/about",
+      "anker": "About",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-consulting",
+      "anker": "AI consulting",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-implementation",
+      "anker": "AI implementation",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-automation",
+      "anker": "AI automation",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-for-business",
+      "anker": "AI for business",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-development",
+      "anker": "AI development",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-agents",
+      "anker": "AI agents",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-policy",
+      "anker": "AI policy",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-workshop",
+      "anker": "AI workshop",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/markets",
+      "anker": "AI by industry",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/knowledge-base",
+      "anker": "Knowledge base",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/pricing",
+      "anker": "Pricing",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/partner-network",
+      "anker": "Partner network",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "overig",
+      "href": "mailto:dave@freelanceaiconsultant.com",
+      "anker": "dave@freelanceaiconsultant.com",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "extern",
+      "href": "https://www.linkedin.com/in/davewillemstein",
+      "anker": "LinkedIn ↗",
+      "rel": "noopener"
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/contact",
+      "anker": "Book a call",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/privacy",
+      "anker": "Privacy policy",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/terms",
+      "anker": "Terms & conditions",
+      "rel": null
+    }
+  ],
+  "structured_data": {
+    "sha256": "84be2ee3abf30066ec3333a752173fcec114dcaaba6b8d384af3ed1633ebee73",
+    "items": [
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://freelanceaiconsultant.com/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Knowledge base",
+                "item": "https://freelanceaiconsultant.com/knowledge-base"
+              },
+              {
+                "@type": "ListItem",
+                "position": 3,
+                "name": "Gemini for business",
+                "item": "https://freelanceaiconsultant.com/knowledge-base/gemini-for-business"
+              }
+            ]
+          },
+          {
+            "@type": "Article",
+            "headline": "Gemini for business: applications in Google Workspace",
+            "description": "How do you use Google Gemini for business? Read about applications in Gmail, Docs and Sheets, business licensing, privacy, and how it compares to Copilot.",
+            "inLanguage": "en-US",
+            "datePublished": "2026-10-27",
+            "dateModified": "2026-10-27",
+            "author": {
+              "@type": "Person",
+              "name": "Dave Willemstein",
+              "jobTitle": "Onafhankelijk AI-adviseur",
+              "url": "https://freelanceaiconsultant.com/over",
+              "sameAs": [
+                "https://www.linkedin.com/in/davewillemstein"
+              ]
+            },
+            "publisher": {
+              "@type": "Person",
+              "name": "Dave Willemstein"
+            },
+            "mainEntityOfPage": "https://freelanceaiconsultant.com/knowledge-base/gemini-for-business"
+          },
+          {
+            "@type": "FAQPage",
+            "mainEntity": [
+              {
+                "@type": "Question",
+                "name": "What does an organisation get with Gemini for business in Google Workspace?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Gemini for business is Google's generative AI, included since January 2025 in the Business and Enterprise editions of Google Workspace without a separate AI licence; which features are available differs per edition. For organisations already running Google Workspace, Gemini is probably already part of the subscription; Dave Willemstein advises focusing less on whether to buy it and more on how it's deployed and what's agreed about data. According to Google, customer data from Workspace isn't used as training material for models without the customer's permission or instruction (as of October 2026)."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Does Gemini for business work in Docs and Sheets on the Business Starter edition?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "On Business Starter, Gemini for business isn't included in Docs and Sheets per Google, only in Gmail and the Gemini app (as of October 2026)."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Can Gemini for business retrieve data a staff member doesn't have access to?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Gemini for business only retrieves data the user already has access to, per Google. Over-shared Drive folders do surface more quickly as a result, so cleaning up access rights belongs before a broad rollout."
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "afbeeldingen": [
+    {
+      "regio": "header",
+      "src": "/images/freelance-ai-consultant-logo-header.png",
+      "alt": "freelanceaiconsultant.com logo",
+      "width": "600",
+      "height": "287",
+      "loading": null
+    },
+    {
+      "regio": "main",
+      "src": "/images/dave-portrait.jpg",
+      "alt": "Portrait of Dave Willemstein",
+      "width": "88",
+      "height": "88",
+      "loading": "lazy"
+    },
+    {
+      "regio": "footer",
+      "src": "/images/freelance-ai-consultant-icon-footer.png",
+      "alt": "",
+      "width": "192",
+      "height": "192",
+      "loading": "lazy"
+    }
+  ],
+  "laadprestaties": {
+    "scripts": [
+      {
+        "src": "/_astro/CookieConsent.astro_astro_type_script_index_0_lang.COcxE8NY.js",
+        "type": "module",
+        "inline_bytes": 0
+      },
+      {
+        "src": null,
+        "type": null,
+        "inline_bytes": 989
+      },
+      {
+        "src": null,
+        "type": null,
+        "inline_bytes": 493
+      },
+      {
+        "src": "/logo-carousel/logo-carousel.js?v=2",
+        "type": null,
+        "inline_bytes": 0
+      },
+      {
+        "src": null,
+        "type": null,
+        "inline_bytes": 725
+      }
+    ],
+    "stylesheets": [
+      "/_astro/_slug_.CzLXI3HH.css",
+      "/_astro/_slug_.Do5RJXa7.css",
+      "/logo-carousel/logo-carousel.css?v=2"
+    ],
+    "aantal_details": 0,
+    "aantal_tabellen": 2
+  },
+  "gemeten_op": "2026-11-05"
+}

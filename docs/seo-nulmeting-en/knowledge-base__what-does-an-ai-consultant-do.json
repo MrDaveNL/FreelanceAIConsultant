@@ -1,0 +1,827 @@
+{
+  "url": "/knowledge-base/what-does-an-ai-consultant-do",
+  "build_bestand": "dist/knowledge-base/what-does-an-ai-consultant-do/index.html",
+  "html": {
+    "bytes": 42400,
+    "lang": "en"
+  },
+  "beschermd": {
+    "title": "What Does an AI Consultant Do? Tasks, Role and Value",
+    "meta_description": "What does an AI consultant actually do? See the core tasks, the skills that matter, and when hiring one pays off for your organisation.",
+    "canonical": "https://freelanceaiconsultant.com/knowledge-base/what-does-an-ai-consultant-do",
+    "robots_meta": null,
+    "hreflang": [
+      {
+        "hreflang": "en",
+        "href": "https://freelanceaiconsultant.com/knowledge-base/what-does-an-ai-consultant-do"
+      },
+      {
+        "hreflang": "nl",
+        "href": "https://freelanceaiconsultant.com/nl/kennisbank/wat-doet-een-ai-consultant"
+      },
+      {
+        "hreflang": "x-default",
+        "href": "https://freelanceaiconsultant.com/knowledge-base/what-does-an-ai-consultant-do"
+      }
+    ],
+    "h1": [
+      "What does an AI consultant do?"
+    ]
+  },
+  "social": {
+    "og:type": "website",
+    "og:locale": "en_US",
+    "og:site_name": "freelanceaiconsultant.com",
+    "og:title": "What Does an AI Consultant Do? Tasks, Role and Value",
+    "og:description": "What does an AI consultant actually do? See the core tasks, the skills that matter, and when hiring one pays off for your organisation.",
+    "og:url": "https://freelanceaiconsultant.com/knowledge-base/what-does-an-ai-consultant-do",
+    "og:image": "https://freelanceaiconsultant.com/images/dave-portrait.jpg",
+    "twitter:card": "summary_large_image",
+    "twitter:title": "What Does an AI Consultant Do? Tasks, Role and Value",
+    "twitter:description": "What does an AI consultant actually do? See the core tasks, the skills that matter, and when hiring one pays off for your organisation.",
+    "twitter:image": "https://freelanceaiconsultant.com/images/dave-portrait.jpg"
+  },
+  "koppen": [
+    {
+      "niveau": 1,
+      "tekst": "What does an AI consultant do?",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "What is an AI consultant?",
+      "regio": "main",
+      "id": "what-is-an-ai-consultant"
+    },
+    {
+      "niveau": 3,
+      "tekst": "Is every AI consultant independent of vendors?",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 3,
+      "tekst": "What's the risk if one party is both the AI consultant and the AI developer?",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 3,
+      "tekst": "When does an AI consultant pay off?",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "Tasks of an AI consultant",
+      "regio": "main",
+      "id": "tasks-of-an-ai-consultant"
+    },
+    {
+      "niveau": 3,
+      "tekst": "Strategy",
+      "regio": "main",
+      "id": "strategy"
+    },
+    {
+      "niveau": 3,
+      "tekst": "Selecting use cases",
+      "regio": "main",
+      "id": "selecting-use-cases"
+    },
+    {
+      "niveau": 3,
+      "tekst": "Guiding implementation",
+      "regio": "main",
+      "id": "guiding-implementation"
+    },
+    {
+      "niveau": 3,
+      "tekst": "Governance",
+      "regio": "main",
+      "id": "governance"
+    },
+    {
+      "niveau": 2,
+      "tekst": "What skills does a good AI consultant need?",
+      "regio": "main",
+      "id": "what-skills-does-a-good-ai-consultant-need"
+    },
+    {
+      "niveau": 2,
+      "tekst": "AI consultant versus AI developer",
+      "regio": "main",
+      "id": "ai-consultant-versus-ai-developer"
+    },
+    {
+      "niveau": 2,
+      "tekst": "When should you bring in an AI consultant?",
+      "regio": "main",
+      "id": "when-should-you-bring-in-an-ai-consultant"
+    },
+    {
+      "niveau": 2,
+      "tekst": "Frequently asked questions",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "From AI ambition to real results.",
+      "regio": "main",
+      "id": null
+    }
+  ],
+  "bodytekst": {
+    "regio": "main",
+    "woorden": 1973,
+    "sha256": "b2b880ec3c7158f21ea1d6b39b0337aff39e3729503f42db6124cbee6f02ac70",
+    "blokken": [
+      "Home",
+      "Knowledge base",
+      "What does an AI consultant do?",
+      "Knowledge base",
+      "What does an AI consultant do?",
+      "What does an AI consultant actually do, beyond talking about AI? In short: an AI consultant helps an organisation decide what to do with AI, in what order, with which parties and under what conditions. Below are the tasks that involves, the skills that matter, and where the role stops.",
+      "Read more on AI consulting → Book a strategy call →",
+      "Written by Dave Willemstein, independent AI consultant · published October 27, 2026",
+      "IN SHORT",
+      "An AI consultant helps decide: what you do with AI, in what order and with whom.",
+      "Core tasks: strategy, selecting use cases, guiding implementation and governance.",
+      "An AI developer builds; an AI consultant decides what gets built and checks that it lands.",
+      "AI in Europe",
+      "European brands already running AI in production.",
+      "Not my clients. Examples of what happens once AI moves past the pilot stage.",
+      "Pause",
+      "Klarna",
+      "Sweden",
+      "AI customer service assistant",
+      "Zalando",
+      "Germany",
+      "Fashion assistant for product advice",
+      "Financial services",
+      "Investment firm",
+      "AI strategy and use-case portfolio",
+      "Booking.com",
+      "Netherlands",
+      "AI Trip Planner for travel planning",
+      "Siemens",
+      "Germany",
+      "Industrial Copilot for engineering",
+      "Retail",
+      "Enterprise retailer",
+      "AI-driven vendor selection",
+      "Spotify",
+      "Sweden",
+      "AI DJ and personalized playlists",
+      "Mercedes-Benz",
+      "Germany",
+      "Generative voice assistant in the car",
+      "Industrial / B2B",
+      "International manufacturer",
+      "AI roadmap and leadership",
+      "ING",
+      "Netherlands",
+      "Generative chatbot for customer queries",
+      "L'Oréal",
+      "France",
+      "Beauty Genius: personalized advice",
+      "Financial services",
+      "Financial services firm",
+      "KYC accelerated with AI document analysis",
+      "SAP",
+      "Germany",
+      "Joule: copilot in business software",
+      "Carrefour",
+      "France",
+      "Hopla: grocery shopping assistant",
+      "Strategy & AI",
+      "SaaS scale-up",
+      "AI readiness assessment",
+      "Adyen",
+      "Netherlands",
+      "AI-driven payment optimization",
+      "Philips",
+      "Netherlands",
+      "AI in medical imaging",
+      "Proces & productivity",
+      "Professional services firm",
+      "Internal AI assistant for knowledge workers",
+      "What is an AI consultant?",
+      "An AI consultant advises organisations on the choices around artificial intelligence: which problems AI solves and which it doesn't, what it costs, which risks are involved, and who's responsible for what. The core tasks are setting strategy, selecting use cases, guiding implementation and setting up governance. Writing code and training models usually isn't part of the role: that's the work of an AI developer.",
+      "An AI consultant is an adviser who helps organisations put artificial intelligence to meaningful use. So what does an AI consultant actually do? They translate what AI can do into choices for your organisation: which problems you solve with it, which you don’t, what it costs, which risks come with it, and who’s responsible for what.",
+      "The work sits mainly on the decision side. An AI consultant usually doesn’t write code or train models themselves. The value lies in overview, experience with similar questions, and the freedom to say what’s hard to say internally.",
+      "There are broadly two kinds of AI consultants: independent advisers, who only earn from advice, and consultants who are also an implementation partner or reseller for certain platforms. Both can do good work, but the difference determines how free the advice really is. I’m an independent AI consultant myself, and I don’t build or sell software. More on my background is on the about page.",
+      "Is every AI consultant independent of vendors?",
+      "That varies by AI consultant: there are broadly two kinds, namely independent advisers who only earn from advice, and consultants who are also an implementation partner or reseller for certain platforms. Both kinds can do good work, but the difference determines how free an AI consultant's advice really is.",
+      "What's the risk if one party is both the AI consultant and the AI developer?",
+      "It gets risky when one party plays both the AI consultant and the AI developer role and earns from the build. The advice then has an interest in a bigger scope.",
+      "When does an AI consultant pay off?",
+      "In short, an AI consultant pays off for decisions that are expensive or hard to reverse, in the case of an internal stalemate, when an investment needs to be justified, or when something happens for the first time under time pressure. There are also cases where an organisation is better off doing it themselves.",
+      "Source: article by Dave Willemstein. Updated: October 2026.",
+      "Tasks of an AI consultant",
+      "The tasks of an AI consultant broadly follow the lifecycle of an AI decision: from setting direction to making sure it actually works.",
+      "StrategyDecide what AI should contribute to the organisation's goals.",
+      "Selecting use casesNarrow a long list of ideas down to a short list with owners.",
+      "Guiding implementationChoose between building, buying or a partner, and oversee delivery.",
+      "GovernanceRules, roles and control, so AI stays safe and manageable.",
+      "An AI consultant's core tasks follow the path from ambition to an application that keeps working.",
+      "Strategy",
+      "An AI consultant helps leadership decide what AI should deliver and where the limits are. That doesn’t start with technology, but with the organisation’s goals: where are the bottlenecks, what’s the ambition, and what’s realistic given the current data and people? The result is an AI strategy with explicit choices, including what you deliberately don’t do. Those choices are then translated into an AI roadmap with sequencing, planning and budget.",
+      "Selecting use cases",
+      "In many organisations there are more AI ideas than capacity. An AI consultant assesses them the same way each time: how much value does it deliver, is it feasible, is the data ready for it, how much change does it require, and is there someone in the business who wants to own it? The list gets shorter this way, not longer. Which types of use cases typically deliver results is a topic covered separately on this site.",
+      "Guiding implementation",
+      "After the choice comes delivery, and that’s where many initiatives stall. An AI consultant helps decide whether you build it yourself, buy it, or work with a partner. The consultant then guides delivery: selecting vendors, checking the business case against what’s actually being realised, and making sure management, ownership and adoption aren’t forgotten.",
+      "An important distinction: guiding isn’t the same as building. I guide implementations from the client’s side, while the building itself is done by the client’s own team or by a party the client contracts directly.",
+      "Example scenario",
+      "A financial services firm with 220 staff has 34 AI ideas after a series of brainstorms, but capacity for at most two.",
+      "The adviser assesses the ideas with leadership on value, feasibility, data, required change and ownership. Twelve ideas are dropped immediately because nobody in the business wants to own them. Of the five that make it through further analysis, two go ahead: summarising case files and sorting incoming mail to the right department. The in-house IT team builds the mail application. The adviser guides the work from the client's side and agrees a stop criterion upfront: at least 85 percent correct on a test set of 500 real emails.",
+      "After ten weeks the application reaches 88 percent. It goes live with human review for borderline cases. The other three ideas stay deliberately on the list for next year.",
+      "Fictional example, built from situations that come up often. The organisation and figures are illustrative.",
+      "Governance",
+      "AI needs agreements: who’s allowed to use which tools, with which data, who reviews new applications, and who’s allowed to stop them? An AI consultant helps set up that governance, so risk stays manageable without every initiative getting stuck in procedure. That also includes translating regulation, such as the AI Act and data protection law, into concrete rules for your organisation. Keeping that light rather than heavy is a topic covered separately on this site.",
+      "What skills does a good AI consultant need?",
+      "Technical knowledge is a requirement, but rarely the deciding factor. The skills that matter in practice:",
+      "Translating. Turning technical possibilities into consequences for cost, risk and working processes, in language leadership understands.",
+      "Prioritising. Being willing to say which ideas don’t make the cut, and why.",
+      "Critical review. Being able to see through a demo or vendor proposal: what’s demonstrably working, and what’s marketing?",
+      "Knowledge of data and architecture. Enough to see whether an idea will stall on data quality or existing systems.",
+      "Knowledge of regulation. Knowing what the AI Act and data protection law ask for, and when a lawyer is needed.",
+      "Change management. Understanding that AI only delivers value once people actually work differently.",
+      "Independence. Having no stake in a specific vendor or in a bigger scope.",
+      "AI consultant versus AI developer",
+      "The two roles are often confused, but they complement each other. An AI consultant decides what should happen and why. An AI developer builds it: models, integrations, connections to existing systems and the software around them, including testing and maintenance.",
+      "AI consultant",
+      "AI developer",
+      "Core question",
+      "What do we do, why, and with whom?",
+      "How do we build it, and how do we make sure it works?",
+      "Output",
+      "Strategy, priorities, choices, governance",
+      "Working software, models and integrations",
+      "Works mainly with",
+      "Leadership, the business, IT, procurement, risk",
+      "Engineers, data, existing systems",
+      "Timing",
+      "Before and during delivery",
+      "During build and maintenance",
+      "A good project needs both. The consultant makes sure the developer is working on the right problem, with clear requirements and an owner in the organisation. The developer makes sure it actually works. It gets risky when one party plays both roles and earns from the build: then the advice has an interest in a bigger scope.",
+      "When should you bring in an AI consultant?",
+      "This article covers what an AI consultant does. The question of when you need one is a separate one. In short, it pays off for decisions that are expensive or hard to reverse, in the case of an internal stalemate, when you need to justify an investment, or when you’re doing something for the first time under time pressure. Those situations, and the cases where you’re better off doing it yourself, are covered in more detail on this site’s insights section.",
+      "Actively considering hiring someone? The AI consulting page covers the full range of guidance, from advice to ongoing direction, and what it costs. And if you’d like to talk through your own situation, book a thirty-minute call.",
+      "Dave Willemstein Independent AI Advisor",
+      "Independent: no commissions, no partner deals, no margin on implementation partners.",
+      "About My partner network",
+      "Want to know where you stand with AI? See the AI Readiness Assessment →",
+      "Frequently asked questions",
+      "Does an AI consultant need a technical background?+",
+      "Enough to understand technical choices and ask sharp questions of vendors and developers. Building models themselves isn't part of the role. What matters more is being able to translate technology into consequences for cost, risk and working processes.",
+      "What's the difference between an AI consultant and an AI strategist?+",
+      "The terms overlap heavily. An AI strategist focuses mainly on direction and priorities. An AI consultant does that too, but often also guides selection, implementation and governance. In practice it's the same question: which AI decisions you make and how you make them stick.",
+      "Can an AI consultant also implement AI tools themselves?+",
+      "That varies by consultant. Some are also an implementation partner or reseller for a platform. I'm not: I don't build or sell software. Ask any consultant whether they earn from delivery, since that shapes the advice.",
+      "What does an AI consultant actually deliver?+",
+      "Documents you can decide with: a prioritised list of use cases, a strategy with explicit choices, a roadmap, a vendor comparison, or a governance set-up. The real result is the decision you make with it, and that it then actually gets carried out.",
+      "Does an AI consultant only work for large organisations?+",
+      "No. The scale of the engagement adjusts. A smaller organisation might only need a short review or a well-defined advisory question, while a large organisation is more likely to need a full strategy and ongoing guidance.",
+      "Ready for impact?",
+      "From AI ambition to real results.",
+      "Book a no-obligation call. No pitch. Just sharp questions.",
+      "30 min., no pitch deckBook a call →"
+    ]
+  },
+  "links": [
+    {
+      "regio": "overig",
+      "soort": "intern",
+      "href": "#main",
+      "anker": "Skip to main content",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/",
+      "anker": "",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/services",
+      "anker": "Services",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/cases",
+      "anker": "Cases",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/approach",
+      "anker": "Approach",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/insights",
+      "anker": "Insights",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/about",
+      "anker": "About",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/nl/kennisbank/wat-doet-een-ai-consultant",
+      "anker": "NL",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/contact",
+      "anker": "Book a call →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/",
+      "anker": "Home",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/knowledge-base",
+      "anker": "Knowledge base",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/ai-consulting",
+      "anker": "Read more on AI consulting →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/contact",
+      "anker": "Book a strategy call →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/about",
+      "anker": "Dave Willemstein",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/about",
+      "anker": "about",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/ai-consulting/ai-strategy",
+      "anker": "AI strategy",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/ai-consulting",
+      "anker": "AI consulting",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/contact",
+      "anker": "book a thirty-minute call",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/about",
+      "anker": "About",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/partner-network",
+      "anker": "My partner network",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/services/ai-readiness-assessment",
+      "anker": "Want to know where you stand with AI? See the AI Readiness Assessment →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/contact",
+      "anker": "Book a call →",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/services/ai-readiness-assessment",
+      "anker": "AI Readiness Assessment",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/services/ai-strategy-sprint",
+      "anker": "AI Strategy Sprint",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/services/fractional-ai-lead",
+      "anker": "Fractional AI Lead",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/services",
+      "anker": "All services",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/cases",
+      "anker": "Cases",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/approach",
+      "anker": "Approach",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/insights",
+      "anker": "Insights",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/faq",
+      "anker": "FAQ",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/about",
+      "anker": "About",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-consulting",
+      "anker": "AI consulting",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-implementation",
+      "anker": "AI implementation",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-automation",
+      "anker": "AI automation",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-for-business",
+      "anker": "AI for business",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-development",
+      "anker": "AI development",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-agents",
+      "anker": "AI agents",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-policy",
+      "anker": "AI policy",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-workshop",
+      "anker": "AI workshop",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/markets",
+      "anker": "AI by industry",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/knowledge-base",
+      "anker": "Knowledge base",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/pricing",
+      "anker": "Pricing",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/partner-network",
+      "anker": "Partner network",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "overig",
+      "href": "mailto:dave@freelanceaiconsultant.com",
+      "anker": "dave@freelanceaiconsultant.com",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "extern",
+      "href": "https://www.linkedin.com/in/davewillemstein",
+      "anker": "LinkedIn ↗",
+      "rel": "noopener"
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/contact",
+      "anker": "Book a call",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/privacy",
+      "anker": "Privacy policy",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/terms",
+      "anker": "Terms & conditions",
+      "rel": null
+    }
+  ],
+  "structured_data": {
+    "sha256": "df155fa25a3f2dbb960a141c87f2fac5dc50acb0b55e0d092236eacd923bd0a8",
+    "items": [
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://freelanceaiconsultant.com/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Knowledge base",
+                "item": "https://freelanceaiconsultant.com/knowledge-base"
+              },
+              {
+                "@type": "ListItem",
+                "position": 3,
+                "name": "What does an AI consultant do?",
+                "item": "https://freelanceaiconsultant.com/knowledge-base/what-does-an-ai-consultant-do"
+              }
+            ]
+          },
+          {
+            "@type": "Article",
+            "headline": "What does an AI consultant do?",
+            "description": "What does an AI consultant actually do? See the core tasks, the skills that matter, and when hiring one pays off for your organisation.",
+            "inLanguage": "en-US",
+            "datePublished": "2026-10-27",
+            "dateModified": "2026-10-27",
+            "author": {
+              "@type": "Person",
+              "name": "Dave Willemstein",
+              "jobTitle": "Onafhankelijk AI-adviseur",
+              "url": "https://freelanceaiconsultant.com/over",
+              "sameAs": [
+                "https://www.linkedin.com/in/davewillemstein"
+              ]
+            },
+            "publisher": {
+              "@type": "Person",
+              "name": "Dave Willemstein"
+            },
+            "mainEntityOfPage": "https://freelanceaiconsultant.com/knowledge-base/what-does-an-ai-consultant-do"
+          },
+          {
+            "@type": "FAQPage",
+            "mainEntity": [
+              {
+                "@type": "Question",
+                "name": "Does an AI consultant need a technical background?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Enough to understand technical choices and ask sharp questions of vendors and developers. Building models themselves isn't part of the role. What matters more is being able to translate technology into consequences for cost, risk and working processes."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "What's the difference between an AI consultant and an AI strategist?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "The terms overlap heavily. An AI strategist focuses mainly on direction and priorities. An AI consultant does that too, but often also guides selection, implementation and governance. In practice it's the same question: which AI decisions you make and how you make them stick."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Can an AI consultant also implement AI tools themselves?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "That varies by consultant. Some are also an implementation partner or reseller for a platform. I'm not: I don't build or sell software. Ask any consultant whether they earn from delivery, since that shapes the advice."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "What does an AI consultant actually deliver?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Documents you can decide with: a prioritised list of use cases, a strategy with explicit choices, a roadmap, a vendor comparison, or a governance set-up. The real result is the decision you make with it, and that it then actually gets carried out."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Does an AI consultant only work for large organisations?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "No. The scale of the engagement adjusts. A smaller organisation might only need a short review or a well-defined advisory question, while a large organisation is more likely to need a full strategy and ongoing guidance."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "What is an AI consultant?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "An AI consultant advises organisations on the choices around artificial intelligence: which problems AI solves and which it doesn't, what it costs, which risks are involved, and who's responsible for what. The core tasks are setting strategy, selecting use cases, guiding implementation and setting up governance. Writing code and training models usually isn't part of the role: that's the work of an AI developer."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Is every AI consultant independent of vendors?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "That varies by AI consultant: there are broadly two kinds, namely independent advisers who only earn from advice, and consultants who are also an implementation partner or reseller for certain platforms. Both kinds can do good work, but the difference determines how free an AI consultant's advice really is."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "What's the risk if one party is both the AI consultant and the AI developer?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "It gets risky when one party plays both the AI consultant and the AI developer role and earns from the build. The advice then has an interest in a bigger scope."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "When does an AI consultant pay off?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "In short, an AI consultant pays off for decisions that are expensive or hard to reverse, in the case of an internal stalemate, when an investment needs to be justified, or when something happens for the first time under time pressure. There are also cases where an organisation is better off doing it themselves."
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "afbeeldingen": [
+    {
+      "regio": "header",
+      "src": "/images/freelance-ai-consultant-logo-header.png",
+      "alt": "freelanceaiconsultant.com logo",
+      "width": "600",
+      "height": "287",
+      "loading": null
+    },
+    {
+      "regio": "main",
+      "src": "/images/dave-portrait.jpg",
+      "alt": "Portrait of Dave Willemstein",
+      "width": "88",
+      "height": "88",
+      "loading": "lazy"
+    },
+    {
+      "regio": "footer",
+      "src": "/images/freelance-ai-consultant-icon-footer.png",
+      "alt": "",
+      "width": "192",
+      "height": "192",
+      "loading": "lazy"
+    }
+  ],
+  "laadprestaties": {
+    "scripts": [
+      {
+        "src": "/_astro/CookieConsent.astro_astro_type_script_index_0_lang.COcxE8NY.js",
+        "type": "module",
+        "inline_bytes": 0
+      },
+      {
+        "src": null,
+        "type": null,
+        "inline_bytes": 989
+      },
+      {
+        "src": null,
+        "type": null,
+        "inline_bytes": 493
+      },
+      {
+        "src": "/logo-carousel/logo-carousel.js?v=2",
+        "type": null,
+        "inline_bytes": 0
+      },
+      {
+        "src": null,
+        "type": null,
+        "inline_bytes": 725
+      }
+    ],
+    "stylesheets": [
+      "/_astro/_slug_.CzLXI3HH.css",
+      "/_astro/_slug_.Do5RJXa7.css",
+      "/logo-carousel/logo-carousel.css?v=2"
+    ],
+    "aantal_details": 5,
+    "aantal_tabellen": 1
+  },
+  "gemeten_op": "2026-11-05"
+}

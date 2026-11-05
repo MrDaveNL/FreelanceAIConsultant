@@ -1,0 +1,844 @@
+{
+  "url": "/ai-agents/build",
+  "build_bestand": "dist/ai-agents/build/index.html",
+  "html": {
+    "bytes": 42946,
+    "lang": "en"
+  },
+  "beschermd": {
+    "title": "Build an AI Agent | Approach, Cost & Timeline",
+    "meta_description": "Want an AI agent built for your business? See how the development process works, what it costs, how long it takes, and what to check on security and governance.",
+    "canonical": "https://freelanceaiconsultant.com/ai-agents/build",
+    "robots_meta": null,
+    "hreflang": [
+      {
+        "hreflang": "en",
+        "href": "https://freelanceaiconsultant.com/ai-agents/build"
+      },
+      {
+        "hreflang": "nl",
+        "href": "https://freelanceaiconsultant.com/nl/ai-agents/laten-maken"
+      },
+      {
+        "hreflang": "x-default",
+        "href": "https://freelanceaiconsultant.com/ai-agents/build"
+      }
+    ],
+    "h1": [
+      "Having an AI agent built: approach, cost and timeline"
+    ]
+  },
+  "social": {
+    "og:type": "website",
+    "og:locale": "en_US",
+    "og:site_name": "freelanceaiconsultant.com",
+    "og:title": "Build an AI Agent | Approach, Cost & Timeline",
+    "og:description": "Want an AI agent built for your business? See how the development process works, what it costs, how long it takes, and what to check on security and governance.",
+    "og:url": "https://freelanceaiconsultant.com/ai-agents/build",
+    "og:image": "https://freelanceaiconsultant.com/images/dave-portrait.jpg",
+    "twitter:card": "summary_large_image",
+    "twitter:title": "Build an AI Agent | Approach, Cost & Timeline",
+    "twitter:description": "Want an AI agent built for your business? See how the development process works, what it costs, how long it takes, and what to check on security and governance.",
+    "twitter:image": "https://freelanceaiconsultant.com/images/dave-portrait.jpg"
+  },
+  "koppen": [
+    {
+      "niveau": 1,
+      "tekst": "Having an AI agent built: approach, cost and timeline",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "When should you have an AI agent built?",
+      "regio": "main",
+      "id": "when-should-you-have-an-ai-agent-built"
+    },
+    {
+      "niveau": 2,
+      "tekst": "The development process",
+      "regio": "main",
+      "id": "the-development-process"
+    },
+    {
+      "niveau": 2,
+      "tekst": "What does an AI agent cost?",
+      "regio": "main",
+      "id": "what-does-an-ai-agent-cost"
+    },
+    {
+      "niveau": 3,
+      "tekst": "Who draws up the specification for an AI agent?",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 3,
+      "tekst": "Does the price of the Vendor Review depend on the number of vendors?",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 3,
+      "tekst": "What should an organisation check on the security of an AI agent?",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "Security, privacy and management",
+      "regio": "main",
+      "id": "security-privacy-and-management"
+    },
+    {
+      "niveau": 2,
+      "tekst": "Frequently asked questions",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "From AI ambition to real results.",
+      "regio": "main",
+      "id": null
+    }
+  ],
+  "bodytekst": {
+    "regio": "main",
+    "woorden": 2052,
+    "sha256": "d08d77b3be1501a73229464267e76f7025103d4130734c4609553476458073bb",
+    "blokken": [
+      "Home",
+      "AI Agents",
+      "Build an AI agent",
+      "Build an AI agent",
+      "Having an AI agent built: approach, cost and timeline",
+      "Having an AI agent built means buying a piece of process that acts on its own, not a product off a shelf. Success is largely decided before a single line of code is written: which task, which boundaries, which human checks, and which delivery partner. This page covers how to approach that, and where I come in.",
+      "Book a consultation → See the AI Readiness Assessment →",
+      "IN SHORT",
+      "Choose first between building it yourself, using a platform, or bringing in a partner.",
+      "Set out the tasks, boundaries and human checks before you ask for quotes.",
+      "I don't build agents myself; I guide you independently, from your side of the table.",
+      "AI in Europe",
+      "European brands already running AI in production.",
+      "Not my clients. Examples of what happens once AI moves past the pilot stage.",
+      "Pause",
+      "Klarna",
+      "Sweden",
+      "AI customer service assistant",
+      "Zalando",
+      "Germany",
+      "Fashion assistant for product advice",
+      "Financial services",
+      "Investment firm",
+      "AI strategy and use-case portfolio",
+      "Booking.com",
+      "Netherlands",
+      "AI Trip Planner for travel planning",
+      "Siemens",
+      "Germany",
+      "Industrial Copilot for engineering",
+      "Retail",
+      "Enterprise retailer",
+      "AI-driven vendor selection",
+      "Spotify",
+      "Sweden",
+      "AI DJ and personalized playlists",
+      "Mercedes-Benz",
+      "Germany",
+      "Generative voice assistant in the car",
+      "Industrial / B2B",
+      "International manufacturer",
+      "AI roadmap and leadership",
+      "ING",
+      "Netherlands",
+      "Generative chatbot for customer queries",
+      "L'Oréal",
+      "France",
+      "Beauty Genius: personalized advice",
+      "Financial services",
+      "Financial services firm",
+      "KYC accelerated with AI document analysis",
+      "SAP",
+      "Germany",
+      "Joule: copilot in business software",
+      "Carrefour",
+      "France",
+      "Hopla: grocery shopping assistant",
+      "Strategy & AI",
+      "SaaS scale-up",
+      "AI readiness assessment",
+      "Adyen",
+      "Netherlands",
+      "AI-driven payment optimization",
+      "Philips",
+      "Netherlands",
+      "AI in medical imaging",
+      "Proces & productivity",
+      "Professional services firm",
+      "Internal AI assistant for knowledge workers",
+      "When should you have an AI agent built?",
+      "Having an AI agent built makes sense when a task has a lot of repetition, needs information from several sources, and produces an outcome a human can assess quickly. If the task is entirely predictable, an ordinary workflow or classic automation is often better. If you’re not yet sure what sets an agent apart from other AI applications, read what an AI agent is first. For inspiration by department, see the AI agent examples.",
+      "Once it’s clear that an agent is the right route, the first choice isn’t which vendor, but which form.",
+      "Build it yourselfYour own team builds the agent. Maximum control, but only realistic if you have development capacity and in-house knowledge of language models, integrations and upkeep.",
+      "Use a platformYou configure an agent inside software you already have or buy. Fast and relatively cheap to start, but you're tied to that platform's capabilities and pricing.",
+      "Bring in a partnerAn outside delivery partner builds the agent to spec. More freedom than a platform, but you also pay for upkeep and need to manage the partner well.",
+      "CombinationOften the reality: a platform as the base, a partner for the integrations, and an internal owner for upkeep and control.",
+      "Which route fits depends on your own capacity, the control you want, and how dependent on one vendor you're willing to be.",
+      "I set out that trade-off between routes, including the multi-year costs and how you get off a platform again, in build, buy or partner. For bespoke work, the page on AI development is also relevant.",
+      "The development process",
+      "A good project starts with a specification you draw up yourself, not the delivery partner. Leave that to the party that’s also building, and you get a specification that suits what that party would rather build.",
+      "ScopeOne task, one owner, one measure of success",
+      "SpecifyTasks, boundaries, human checks",
+      "SelectSame scenario for every party",
+      "Build and testA fixed test set, a human reviews everything",
+      "ManageLogging, sampling, a kill switch",
+      "The first two steps you do yourself, or with an independent adviser; only then does a delivery partner come into the picture.",
+      "Specify the agent. At minimum, set out:",
+      "Tasks: which steps the agent carries out and what result it delivers.",
+      "Boundaries: which systems and data it may read, what it may change, and what it never may.",
+      "Human checks: at which points a human approves, who that is, and what happens if there’s doubt.",
+      "A quality measure: a test set of real cases with the known correct outcome, so you can judge objectively.",
+      "Logging and ownership: what’s recorded, who manages the agent, and who can shut it down.",
+      "Select a delivery partner. Send every candidate the same scenario, built on your own data, and judge the outcomes separately from the pitch. Ask about experience with similar integrations, their approach to testing and logging, ownership of code and instructions, and the terms on ending the contract. The full approach is covered in AI vendor selection in eight steps.",
+      "Build and test. Have the party build a limited version first that only prepares or proposes. During the test period, a human reviews every outcome. Only once it’s clear which mistakes occur do you increase its independence.",
+      "Example scenario",
+      "A logistics provider with 220 staff handles around 120 damage claims a month. A claims handler spends an average of 50 minutes per file gathering consignment notes, photos and delivery scans from three systems.",
+      "The adviser draws up the specification together with the claims team: the agent completes the file and writes a summary, but doesn't assess liability and doesn't email customers. Three delivery partners get the same scenario with twenty anonymised files. The choice falls on the party with the clearest logging and exit terms, not the lowest price.",
+      "After an eight-week test period, a file takes an average of 20 minutes instead of 50. Across 120 claims, that's around 60 hours a month. The payout decision stays with the handler.",
+      "Illustrative example, built from situations that come up often. The organisation and figures are for illustration.",
+      "What does an AI agent cost?",
+      "The price of an AI agent is set by the route, the integrations, the write access and control, the usage and the management, and it varies sharply by route, so a fixed figure here would be misleading. Dave Willemstein doesn't build agents or sell implementations, but helps scope the task, draw up the specification, compare delivery partners and oversee delivery. Having quotes from several delivery partners independently assessed is available as the Vendor Review of 3-6 weeks for a fixed project fee, and ongoing oversight of the project is available as the Fractional AI Lead.",
+      "What an AI agent costs varies sharply by route. Naming a fixed figure here would be misleading. The factors that determine the price are easy enough to name:",
+      "Route: an agent inside an existing platform costs mainly licences and configuration; bespoke work costs build hours and then management.",
+      "Integrations: every system the agent talks to takes build work, testing and upkeep.",
+      "Write access and control: the more the agent may change, the more testing, logging and checkpoints are needed.",
+      "Usage: language models are often billed per volume of text processed, so volume and document length drive the running cost.",
+      "Management: monitoring, periodic tests, changes as processes shift, and the time of an internal owner.",
+      "The biggest risk factors are too broad a first scope, sources that aren’t in order, and dependence on a single vendor with no exit terms agreed. Ask every party for a multi-year cost estimate, including management and switching.",
+      "My own rates are on the pricing page. If you want quotes from several delivery partners independently assessed, a Vendor Review of 3-6 weeks fits, with a fixed price depending on the number of vendors. If you need someone to oversee the project on an ongoing basis, that’s available as Fractional AI Lead.",
+      "Who draws up the specification for an AI agent?",
+      "In a good project, the client draws up the specification for an AI agent themselves, not the delivery partner; that can also be done with an independent adviser, and only then does a delivery partner come into the picture. A specification left to the party that's also building tends to suit what that party would rather build.",
+      "Does the price of the Vendor Review depend on the number of vendors?",
+      "Yes. The Vendor Review is priced as a fixed project fee, depending on the number of vendors compared. All proposals are excluding VAT and travel expenses.",
+      "What should an organisation check on the security of an AI agent?",
+      "An AI agent that calls systems is a new user in the IT landscape. It's worth giving the AI agent no more access than it needs, having it log in with its own account so its actions can be traced, and keeping a confirmation step at every irreversible moment.",
+      "Source: pricing and timelines from Dave Willemstein. Updated: October 2026.",
+      "Security, privacy and management",
+      "An agent that calls systems is a new user in your IT landscape, with the risks that come with it. Don’t give it more access than it needs, have it log in with its own account so its actions can be traced, and keep a confirmation step at every irreversible moment.",
+      "If the agent processes personal data, the ordinary UK GDPR rules apply: a purpose and a lawful basis, no more data than needed, a data processing agreement with the vendor, and in many cases a data protection impact assessment. If the agent makes decisions about people, stricter requirements come into play. That’s covered separately on this site.",
+      "Management isn’t an afterthought. Models and platforms change, and an agent that works well today can respond differently after an update. Agree with the delivery partner who monitors, how often the test set gets rerun, and who picks up an incident.",
+      "My role. I don’t build agents myself and I don’t sell implementations. I help you scope the task, draw up the specification, compare delivery partners, and oversee delivery, from your side of the table. If you don’t yet have a delivery partner, I can suggest parties from my partner network; you contract them directly, with no margin for me. More on agents in general is on the page about AI agents for business. Have a concrete idea? Book a consultation and you’ll hear what I’d do by the end of the call.",
+      "Dave Willemstein Independent AI Advisor",
+      "Independent: no commissions, no partner deals, no margin on implementation partners.",
+      "About My partner network",
+      "Want to know where you stand with AI? See the AI Readiness Assessment →",
+      "Frequently asked questions",
+      "How long does it take to have an AI agent built?+",
+      "That depends mainly on the number of integrations, the quality of the sources, and the requirements for control. An agent that only does preparatory work within an existing platform goes into use faster than a bespoke agent that writes into several systems. Ask every delivery partner for a phase-by-phase plan, including a test period, and compare them side by side.",
+      "Can I build an AI agent myself without developers?+",
+      "For simple tasks within software you already use, often yes: many platforms now offer low-code building blocks for agents. Once the agent needs to write into several systems, handle personal data, or operate within a regulated process, you need technical knowledge of integrations, access rights and logging.",
+      "Who owns the agent if a partner builds it?+",
+      "That's settled in the contract with the delivery partner, and it's worth getting sharp upfront. Think about ownership of the code and the instructions, access to the logging, and what happens if you want to move to another party. Without those agreements, you're more dependent than you think.",
+      "What role do you play if I have an AI agent built?+",
+      "I help you scope the task, draw up the specification, compare delivery partners, and oversee delivery. The building itself is done by your own team or by a party you contract directly. I earn nothing from the build, so my advice doesn't depend on the size of the project.",
+      "What if it turns out an AI agent isn't the best solution?+",
+      "Then you'll hear that. For predictable steps, a rule-based workflow is often cheaper and more reliable, and sometimes the process itself is the problem. An agent is a means; if a simpler means delivers the same result, that's usually the better choice.",
+      "Ready for impact?",
+      "From AI ambition to real results.",
+      "Book a no-obligation call. No pitch. Just sharp questions.",
+      "30 min., no pitch deckBook a call →"
+    ]
+  },
+  "links": [
+    {
+      "regio": "overig",
+      "soort": "intern",
+      "href": "#main",
+      "anker": "Skip to main content",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/",
+      "anker": "",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/services",
+      "anker": "Services",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/cases",
+      "anker": "Cases",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/approach",
+      "anker": "Approach",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/insights",
+      "anker": "Insights",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/about",
+      "anker": "About",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/nl/ai-agents/laten-maken",
+      "anker": "NL",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/contact",
+      "anker": "Book a call →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/",
+      "anker": "Home",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/ai-agents",
+      "anker": "AI Agents",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/contact",
+      "anker": "Book a consultation →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/services/ai-readiness-assessment",
+      "anker": "See the AI Readiness Assessment →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/ai-agents/what-is-an-ai-agent",
+      "anker": "what an AI agent is",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/ai-agents/examples",
+      "anker": "AI agent examples",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/insights/build-buy-or-partner",
+      "anker": "build, buy or partner",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/ai-development",
+      "anker": "AI development",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/insights/ai-vendor-selection-in-eight-steps",
+      "anker": "AI vendor selection in eight steps",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/services/vendor-review",
+      "anker": "Vendor Review",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/services/fractional-ai-lead",
+      "anker": "Fractional AI Lead",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/pricing",
+      "anker": "pricing",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/services/vendor-review",
+      "anker": "Vendor Review",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/services/fractional-ai-lead",
+      "anker": "Fractional AI Lead",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/pricing",
+      "anker": "pricing and timelines from Dave Willemstein",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/partner-network",
+      "anker": "partner network",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/ai-agents",
+      "anker": "AI agents for business",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/contact",
+      "anker": "Book a consultation",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/about",
+      "anker": "About",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/partner-network",
+      "anker": "My partner network",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/services/ai-readiness-assessment",
+      "anker": "Want to know where you stand with AI? See the AI Readiness Assessment →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/contact",
+      "anker": "Book a call →",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/services/ai-readiness-assessment",
+      "anker": "AI Readiness Assessment",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/services/ai-strategy-sprint",
+      "anker": "AI Strategy Sprint",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/services/fractional-ai-lead",
+      "anker": "Fractional AI Lead",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/services",
+      "anker": "All services",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/cases",
+      "anker": "Cases",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/approach",
+      "anker": "Approach",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/insights",
+      "anker": "Insights",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/faq",
+      "anker": "FAQ",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/about",
+      "anker": "About",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-consulting",
+      "anker": "AI consulting",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-implementation",
+      "anker": "AI implementation",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-automation",
+      "anker": "AI automation",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-for-business",
+      "anker": "AI for business",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-development",
+      "anker": "AI development",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-agents",
+      "anker": "AI agents",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-policy",
+      "anker": "AI policy",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-workshop",
+      "anker": "AI workshop",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/markets",
+      "anker": "AI by industry",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/knowledge-base",
+      "anker": "Knowledge base",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/pricing",
+      "anker": "Pricing",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/partner-network",
+      "anker": "Partner network",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "overig",
+      "href": "mailto:dave@freelanceaiconsultant.com",
+      "anker": "dave@freelanceaiconsultant.com",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "extern",
+      "href": "https://www.linkedin.com/in/davewillemstein",
+      "anker": "LinkedIn ↗",
+      "rel": "noopener"
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/contact",
+      "anker": "Book a call",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/privacy",
+      "anker": "Privacy policy",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/terms",
+      "anker": "Terms & conditions",
+      "rel": null
+    }
+  ],
+  "structured_data": {
+    "sha256": "b9819bebd44fa6a9331a62573cf859a383bac29602176247c4890e247400cc81",
+    "items": [
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://freelanceaiconsultant.com/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "AI Agents",
+                "item": "https://freelanceaiconsultant.com/ai-agents"
+              },
+              {
+                "@type": "ListItem",
+                "position": 3,
+                "name": "Build an AI agent",
+                "item": "https://freelanceaiconsultant.com/ai-agents/build"
+              }
+            ]
+          },
+          {
+            "@type": "Service",
+            "name": "Build an AI agent",
+            "serviceType": "build an ai agent",
+            "description": "Want an AI agent built for your business? See how the development process works, what it costs, how long it takes, and what to check on security and governance.",
+            "url": "https://freelanceaiconsultant.com/ai-agents/build",
+            "areaServed": "GB",
+            "provider": {
+              "@type": "Person",
+              "name": "Dave Willemstein",
+              "jobTitle": "Onafhankelijk AI-adviseur",
+              "url": "https://freelanceaiconsultant.com/over",
+              "sameAs": [
+                "https://www.linkedin.com/in/davewillemstein"
+              ]
+            }
+          },
+          {
+            "@type": "FAQPage",
+            "mainEntity": [
+              {
+                "@type": "Question",
+                "name": "How long does it take to have an AI agent built?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "That depends mainly on the number of integrations, the quality of the sources, and the requirements for control. An agent that only does preparatory work within an existing platform goes into use faster than a bespoke agent that writes into several systems. Ask every delivery partner for a phase-by-phase plan, including a test period, and compare them side by side."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Can I build an AI agent myself without developers?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "For simple tasks within software you already use, often yes: many platforms now offer low-code building blocks for agents. Once the agent needs to write into several systems, handle personal data, or operate within a regulated process, you need technical knowledge of integrations, access rights and logging."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Who owns the agent if a partner builds it?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "That's settled in the contract with the delivery partner, and it's worth getting sharp upfront. Think about ownership of the code and the instructions, access to the logging, and what happens if you want to move to another party. Without those agreements, you're more dependent than you think."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "What role do you play if I have an AI agent built?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "I help you scope the task, draw up the specification, compare delivery partners, and oversee delivery. The building itself is done by your own team or by a party you contract directly. I earn nothing from the build, so my advice doesn't depend on the size of the project."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "What if it turns out an AI agent isn't the best solution?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Then you'll hear that. For predictable steps, a rule-based workflow is often cheaper and more reliable, and sometimes the process itself is the problem. An agent is a means; if a simpler means delivers the same result, that's usually the better choice."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "What does an AI agent cost?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "The price of an AI agent is set by the route, the integrations, the write access and control, the usage and the management, and it varies sharply by route, so a fixed figure here would be misleading. Dave Willemstein doesn't build agents or sell implementations, but helps scope the task, draw up the specification, compare delivery partners and oversee delivery. Having quotes from several delivery partners independently assessed is available as the Vendor Review of 3-6 weeks for a fixed project fee, and ongoing oversight of the project is available as the Fractional AI Lead."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Who draws up the specification for an AI agent?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "In a good project, the client draws up the specification for an AI agent themselves, not the delivery partner; that can also be done with an independent adviser, and only then does a delivery partner come into the picture. A specification left to the party that's also building tends to suit what that party would rather build."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Does the price of the Vendor Review depend on the number of vendors?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Yes. The Vendor Review is priced as a fixed project fee, depending on the number of vendors compared. All proposals are excluding VAT and travel expenses."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "What should an organisation check on the security of an AI agent?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "An AI agent that calls systems is a new user in the IT landscape. It's worth giving the AI agent no more access than it needs, having it log in with its own account so its actions can be traced, and keeping a confirmation step at every irreversible moment."
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "afbeeldingen": [
+    {
+      "regio": "header",
+      "src": "/images/freelance-ai-consultant-logo-header.png",
+      "alt": "freelanceaiconsultant.com logo",
+      "width": "600",
+      "height": "287",
+      "loading": null
+    },
+    {
+      "regio": "main",
+      "src": "/images/dave-portrait.jpg",
+      "alt": "Portrait of Dave Willemstein",
+      "width": "88",
+      "height": "88",
+      "loading": "lazy"
+    },
+    {
+      "regio": "footer",
+      "src": "/images/freelance-ai-consultant-icon-footer.png",
+      "alt": "",
+      "width": "192",
+      "height": "192",
+      "loading": "lazy"
+    }
+  ],
+  "laadprestaties": {
+    "scripts": [
+      {
+        "src": "/_astro/CookieConsent.astro_astro_type_script_index_0_lang.COcxE8NY.js",
+        "type": "module",
+        "inline_bytes": 0
+      },
+      {
+        "src": null,
+        "type": null,
+        "inline_bytes": 989
+      },
+      {
+        "src": null,
+        "type": null,
+        "inline_bytes": 493
+      },
+      {
+        "src": "/logo-carousel/logo-carousel.js?v=2",
+        "type": null,
+        "inline_bytes": 0
+      },
+      {
+        "src": null,
+        "type": null,
+        "inline_bytes": 725
+      }
+    ],
+    "stylesheets": [
+      "/_astro/_slug_.CzLXI3HH.css",
+      "/_astro/_slug_.Do5RJXa7.css",
+      "/logo-carousel/logo-carousel.css?v=2"
+    ],
+    "aantal_details": 5,
+    "aantal_tabellen": 0
+  },
+  "gemeten_op": "2026-11-05"
+}

@@ -1,0 +1,833 @@
+{
+  "url": "/ai-development/ai-solutions",
+  "build_bestand": "dist/ai-development/ai-solutions/index.html",
+  "html": {
+    "bytes": 41531,
+    "lang": "en"
+  },
+  "beschermd": {
+    "title": "AI Solutions | Custom Applications Built Around Your Data",
+    "meta_description": "Custom AI solutions that fit your processes and data. See examples, the approach from idea to go-live, and what an AI solution actually delivers.",
+    "canonical": "https://freelanceaiconsultant.com/ai-development/ai-solutions",
+    "robots_meta": null,
+    "hreflang": [
+      {
+        "hreflang": "en",
+        "href": "https://freelanceaiconsultant.com/ai-development/ai-solutions"
+      },
+      {
+        "hreflang": "nl",
+        "href": "https://freelanceaiconsultant.com/nl/ai-development/ai-oplossingen"
+      },
+      {
+        "hreflang": "x-default",
+        "href": "https://freelanceaiconsultant.com/ai-development/ai-solutions"
+      }
+    ],
+    "h1": [
+      "Custom AI solutions for your business"
+    ]
+  },
+  "social": {
+    "og:type": "website",
+    "og:locale": "en_US",
+    "og:site_name": "freelanceaiconsultant.com",
+    "og:title": "AI Solutions | Custom Applications Built Around Your Data",
+    "og:description": "Custom AI solutions that fit your processes and data. See examples, the approach from idea to go-live, and what an AI solution actually delivers.",
+    "og:url": "https://freelanceaiconsultant.com/ai-development/ai-solutions",
+    "og:image": "https://freelanceaiconsultant.com/images/dave-portrait.jpg",
+    "twitter:card": "summary_large_image",
+    "twitter:title": "AI Solutions | Custom Applications Built Around Your Data",
+    "twitter:description": "Custom AI solutions that fit your processes and data. See examples, the approach from idea to go-live, and what an AI solution actually delivers.",
+    "twitter:image": "https://freelanceaiconsultant.com/images/dave-portrait.jpg"
+  },
+  "koppen": [
+    {
+      "niveau": 1,
+      "tekst": "Custom AI solutions for your business",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "Who builds custom AI solutions, and what's the independent consultant's role?",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 3,
+      "tekst": "Is custom development always necessary for AI solutions?",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 3,
+      "tekst": "Can the AI Readiness Assessment also be run for a single department?",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 3,
+      "tekst": "Is there a margin on developers suggested for AI solutions?",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "What are AI solutions?",
+      "regio": "main",
+      "id": "what-are-ai-solutions"
+    },
+    {
+      "niveau": 2,
+      "tekst": "Examples of AI solutions",
+      "regio": "main",
+      "id": "examples-of-ai-solutions"
+    },
+    {
+      "niveau": 2,
+      "tekst": "Custom AI solutions versus standard",
+      "regio": "main",
+      "id": "custom-ai-solutions-versus-standard"
+    },
+    {
+      "niveau": 2,
+      "tekst": "From idea to go-live",
+      "regio": "main",
+      "id": "from-idea-to-go-live"
+    },
+    {
+      "niveau": 2,
+      "tekst": "AI solutions for small and medium-sized businesses",
+      "regio": "main",
+      "id": "ai-solutions-for-small-and-medium-sized-businesses"
+    },
+    {
+      "niveau": 2,
+      "tekst": "Frequently asked questions",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "From AI ambition to real results.",
+      "regio": "main",
+      "id": null
+    }
+  ],
+  "bodytekst": {
+    "regio": "main",
+    "woorden": 1899,
+    "sha256": "9127e6f4981d4cb78f8a28b63632bfa7c1a76e2da648b66cfbb6a9231ebccda0",
+    "blokken": [
+      "Home",
+      "AI Development",
+      "AI Solutions",
+      "AI solutions",
+      "Custom AI solutions for your business",
+      "Good AI solutions start with a concrete bottleneck in your work, not with a technology. This page sets out which kinds of AI solutions exist, when custom development pays off, and how you get from idea to go-live. And the role I play in that: not as the builder, but as an independent consultant on your side.",
+      "Book a strategy call → See the AI Readiness Assessment →",
+      "IN SHORT",
+      "An AI solution is a working process with AI in it, not just a piece of software.",
+      "Start with standard, and only have custom work built where your own knowledge makes the difference.",
+      "Your own team, or a partner you contract directly, does the building; I guide from your side.",
+      "AI in Europe",
+      "European brands already running AI in production.",
+      "Not my clients. Examples of what happens once AI moves past the pilot stage.",
+      "Pause",
+      "Klarna",
+      "Sweden",
+      "AI customer service assistant",
+      "Zalando",
+      "Germany",
+      "Fashion assistant for product advice",
+      "Financial services",
+      "Investment firm",
+      "AI strategy and use-case portfolio",
+      "Booking.com",
+      "Netherlands",
+      "AI Trip Planner for travel planning",
+      "Siemens",
+      "Germany",
+      "Industrial Copilot for engineering",
+      "Retail",
+      "Enterprise retailer",
+      "AI-driven vendor selection",
+      "Spotify",
+      "Sweden",
+      "AI DJ and personalized playlists",
+      "Mercedes-Benz",
+      "Germany",
+      "Generative voice assistant in the car",
+      "Industrial / B2B",
+      "International manufacturer",
+      "AI roadmap and leadership",
+      "ING",
+      "Netherlands",
+      "Generative chatbot for customer queries",
+      "L'Oréal",
+      "France",
+      "Beauty Genius: personalized advice",
+      "Financial services",
+      "Financial services firm",
+      "KYC accelerated with AI document analysis",
+      "SAP",
+      "Germany",
+      "Joule: copilot in business software",
+      "Carrefour",
+      "France",
+      "Hopla: grocery shopping assistant",
+      "Strategy & AI",
+      "SaaS scale-up",
+      "AI readiness assessment",
+      "Adyen",
+      "Netherlands",
+      "AI-driven payment optimization",
+      "Philips",
+      "Netherlands",
+      "AI in medical imaging",
+      "Proces & productivity",
+      "Professional services firm",
+      "Internal AI assistant for knowledge workers",
+      "Who builds custom AI solutions, and what's the independent consultant's role?",
+      "Dave Willemstein doesn't build or deliver AI solutions, but helps decide which solution makes sense, guides the choice of a solution or build partner, and tests from the client's side whether the result works. Anyone who wants to know where the organisation stands first gets a reasoned picture from the AI Readiness Assessment in 2-3 weeks, for a fixed project fee. The build sits with the client's own team or with a partner the client contracts directly.",
+      "Is custom development always necessary for AI solutions?",
+      "No. For AI solutions, a well-configured standard solution is often the fastest and cheapest route. Under the rules of thumb, custom development fits when the solution touches on why customers choose the organisation, when the data or way of working is distinctive, or when no standard package gives the control that's needed.",
+      "Can the AI Readiness Assessment also be run for a single department?",
+      "Yes. The AI Readiness Assessment can be run smaller, for a single department or process area, at a lower investment.",
+      "Is there a margin on developers suggested for AI solutions?",
+      "No. Where it helps, the consultant suggests developers for AI solutions that he knows, with no margin on their rate. The builders come from the client's own organisation or from a party the client chooses themselves.",
+      "Source: rates and typical timelines from Dave Willemstein. Updated: October 2026.",
+      "What are AI solutions?",
+      "An AI solution is an application in which artificial intelligence solves a concrete problem in your work: pulling information out of documents, answering questions based on internal knowledge, sorting requests, or making predictions. The word “solution” matters here. An AI solution isn’t just the software; it’s the whole of the model, the data, the integrations, the working process, and the people who use it.",
+      "That distinction explains why many AI projects succeed technically and still deliver little in practice. The model works, but nobody has thought through who checks the outcome, what happens when it’s unsure, or how it fits into the daily routine.",
+      "I’m an independent AI consultant and I don’t build AI solutions myself. I help you decide which solution makes sense, help choose a solution or build partner with you, and test from your side whether the result works. The building itself is done by your own team or a partner you contract directly.",
+      "Examples of AI solutions",
+      "Most AI solutions that are actually used inside organisations fall into a handful of categories:",
+      "Document processing. Pulling data from invoices, contracts, applications or case files and preparing it for review.",
+      "Knowledge assistants. Staff find answers in policies, handbooks and past cases without searching themselves.",
+      "Classifying and routing. Automatically sorting incoming emails, tickets or reports and routing them to the right person.",
+      "Summarising and drafting. Preparing reports, quotes or write-ups based on existing information.",
+      "Forecasting. Estimating demand, churn or risk based on historical data.",
+      "AI agents. Systems that carry out steps in your software themselves, within agreed limits.",
+      "Two cases show what a solution like this looks like in practice. In KYC document analysis for a financial services firm, the challenge was mostly in the working process: the system proposes, the analyst decides. In the internal AI assistant for knowledge workers, the technology was ready quickly, and most of the work went into adoption and a handful of clear working scenarios. More recognisable applications by department are covered in a separate knowledge-base article on AI examples for business.",
+      "Example scenario",
+      "A technical installation company with 120 staff receives around 300 emails a day on its general service address: faults, quote requests, invoices and scheduling questions. Two staff together spend roughly three hours a day sorting and forwarding them.",
+      "The consultant first helps determine the route. The service-desk software the company already uses has a classification feature, and that gets preference over a custom build. Together with the team leader, he agrees the categories upfront, what error margin is acceptable, and that a person checks every fault report. The software vendor sets up the feature; the consultant tests the pilot on a sample of 600 messages.",
+      "After eight weeks, 85% of emails are sorted correctly straight away, and sorting time drops from three hours to just over one hour a day. Custom work for the remaining 15% is deliberately not built: the extra gain doesn't outweigh the upkeep.",
+      "Fictional example, built from situations that come up often. The organisation and figures are illustrative.",
+      "Custom AI solutions versus standard",
+      "Not every question calls for custom AI solutions. Often a well-configured standard solution is the fastest and cheapest route. A few rules of thumb:",
+      "Choose standard when several vendors offer the same thing, the task isn’t unique to your organisation, and you mainly want value fast.",
+      "Choose custom when the solution touches on why customers choose you, your data or way of working is distinctive, or no standard package gives you the control you need.",
+      "Choose a combination in most other cases: standard building blocks, with a custom-built layer for your rules, data and integrations.",
+      "How you assess standard software and what integration involves is covered on the page about choosing, integrating or building AI software.",
+      "From idea to go-live",
+      "An AI solution moves through five steps from idea to daily use. At each step, it’s clear who does the work.",
+      "1. Choose the bottleneckWhich problem, for whom, and how do we measure success? You and me together",
+      "2. Decide the routeStandard, custom or a combination; set requirements for data, privacy and the AI Act",
+      "3. Choose a solution or build partnerCriteria upfront, tested on your own data; you contract directly",
+      "4. Pilot on real dataBuild partner or your own team builds; I check against the agreed measures",
+      "5. Go-live and supportWorking process, adoption and ownership sit in your organisation; measure, adjust or stop",
+      "The building is done by your own team or a partner you contract yourself. The consultant guides from your side and earns nothing from the build.",
+      "What you can expect from me over that project are concrete outputs: an assessed list of use cases, a specification with success measures, a reasoned selection recommendation, and testing of what’s delivered. The builders come from your own organisation or from a party you choose yourself; where it helps, I suggest developers I know, without any margin on their rate.",
+      "The step after the pilot, from a working prototype to use across the whole organisation, is often the hardest. That’s about working processes, adoption and governance; more on that under AI implementation. A broader overview of the development journey is on the AI development page.",
+      "AI solutions for small and medium-sized businesses",
+      "The same principles apply for smaller businesses, but with less room for experiments. A failed project weighs more heavily in a smaller organisation. Three pieces of advice:",
+      "Start with the software you already have. Many packages include AI features that, with the right setup, cover a good part of the need without custom work.",
+      "Pick one bottleneck with a clear owner. One process done well beats five done half well.",
+      "Only have something custom built once standard demonstrably falls short. Custom work brings ongoing support costs, and you need to be able to carry those.",
+      "More on AI for smaller organisations is on the AI for small business page. Want to know where you stand first? The AI Readiness Assessment gives you a reasoned picture in 2-3 weeks, for a fixed price agreed upfront. For a single department or process area, it can also be run smaller, at a lower investment.",
+      "Looking mainly for someone with technical depth? A separate article on this site sets out the different AI-development profiles and which one fits your question. And if you’d like to talk through a concrete bottleneck, book a strategy call.",
+      "Dave Willemstein Independent AI Advisor",
+      "Independent: no commissions, no partner deals, no margin on implementation partners.",
+      "About My partner network",
+      "Want to know where you stand with AI? See the AI Readiness Assessment →",
+      "Frequently asked questions",
+      "Do you deliver AI solutions?+",
+      "No. I design the approach, help choose a solution or build partner, and test from your side whether what's delivered actually works. The solution itself is built or delivered by your own team or by a party you contract directly.",
+      "What does an AI solution deliver?+",
+      "That varies a great deal by application and can only be estimated as a range upfront. Typical returns are shorter turnaround times, less time spent searching, and more consistent quality. Agree at the start which figures you'll measure after a year and what the baseline is, otherwise the return can't be established afterwards.",
+      "How do I know if an AI solution is reliable enough?+",
+      "Test it on a representative set of your own data, including the messy cases, and agree upfront what quality is needed. Also decide what happens when the system is unsure or gets it wrong. For sensitive processes, a human check belongs in the process.",
+      "Do I need to account for the AI Act?+",
+      "Yes, though how much weight it carries depends on the application. For every AI solution, work out which risk category it falls into and which obligations come with that. That belongs in the specification, not just before go-live.",
+      "Can an AI solution also use existing software?+",
+      "Often, yes. Many packages you already use have AI features that, with the right setup, cover a large part of the need. That's usually the cheapest first step, and it teaches you what you actually need.",
+      "Ready for impact?",
+      "From AI ambition to real results.",
+      "Book a no-obligation call. No pitch. Just sharp questions.",
+      "30 min., no pitch deckBook a call →"
+    ]
+  },
+  "links": [
+    {
+      "regio": "overig",
+      "soort": "intern",
+      "href": "#main",
+      "anker": "Skip to main content",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/",
+      "anker": "",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/services",
+      "anker": "Services",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/cases",
+      "anker": "Cases",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/approach",
+      "anker": "Approach",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/insights",
+      "anker": "Insights",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/about",
+      "anker": "About",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/nl/ai-development/ai-oplossingen",
+      "anker": "NL",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/contact",
+      "anker": "Book a call →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/",
+      "anker": "Home",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/ai-development",
+      "anker": "AI Development",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/contact",
+      "anker": "Book a strategy call →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/services/ai-readiness-assessment",
+      "anker": "See the AI Readiness Assessment →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/services/ai-readiness-assessment",
+      "anker": "AI Readiness Assessment",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/pricing",
+      "anker": "rates and typical timelines from Dave Willemstein",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/about",
+      "anker": "independent AI consultant",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/cases/kyc-document-analysis-financial-services",
+      "anker": "KYC document analysis for a financial services firm",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/cases/internal-ai-assistant-knowledge-workers",
+      "anker": "internal AI assistant for knowledge workers",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/ai-development/ai-software",
+      "anker": "choosing, integrating or building AI software",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/ai-implementation",
+      "anker": "AI implementation",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/ai-development",
+      "anker": "AI development",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/ai-for-business/sme",
+      "anker": "AI for small business",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/services/ai-readiness-assessment",
+      "anker": "AI Readiness Assessment",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/contact",
+      "anker": "book a strategy call",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/about",
+      "anker": "About",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/partner-network",
+      "anker": "My partner network",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/services/ai-readiness-assessment",
+      "anker": "Want to know where you stand with AI? See the AI Readiness Assessment →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/contact",
+      "anker": "Book a call →",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/services/ai-readiness-assessment",
+      "anker": "AI Readiness Assessment",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/services/ai-strategy-sprint",
+      "anker": "AI Strategy Sprint",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/services/fractional-ai-lead",
+      "anker": "Fractional AI Lead",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/services",
+      "anker": "All services",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/cases",
+      "anker": "Cases",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/approach",
+      "anker": "Approach",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/insights",
+      "anker": "Insights",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/faq",
+      "anker": "FAQ",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/about",
+      "anker": "About",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-consulting",
+      "anker": "AI consulting",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-implementation",
+      "anker": "AI implementation",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-automation",
+      "anker": "AI automation",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-for-business",
+      "anker": "AI for business",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-development",
+      "anker": "AI development",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-agents",
+      "anker": "AI agents",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-policy",
+      "anker": "AI policy",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-workshop",
+      "anker": "AI workshop",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/markets",
+      "anker": "AI by industry",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/knowledge-base",
+      "anker": "Knowledge base",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/pricing",
+      "anker": "Pricing",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/partner-network",
+      "anker": "Partner network",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "overig",
+      "href": "mailto:dave@freelanceaiconsultant.com",
+      "anker": "dave@freelanceaiconsultant.com",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "extern",
+      "href": "https://www.linkedin.com/in/davewillemstein",
+      "anker": "LinkedIn ↗",
+      "rel": "noopener"
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/contact",
+      "anker": "Book a call",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/privacy",
+      "anker": "Privacy policy",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/terms",
+      "anker": "Terms & conditions",
+      "rel": null
+    }
+  ],
+  "structured_data": {
+    "sha256": "b766b2af0f9323f50ce6db5e5441653989576c21f969c71a3536bd7ca1989f43",
+    "items": [
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://freelanceaiconsultant.com/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "AI Development",
+                "item": "https://freelanceaiconsultant.com/ai-development"
+              },
+              {
+                "@type": "ListItem",
+                "position": 3,
+                "name": "AI Solutions",
+                "item": "https://freelanceaiconsultant.com/ai-development/ai-solutions"
+              }
+            ]
+          },
+          {
+            "@type": "Service",
+            "name": "AI Solutions",
+            "serviceType": "ai solutions",
+            "description": "Custom AI solutions that fit your processes and data. See examples, the approach from idea to go-live, and what an AI solution actually delivers.",
+            "url": "https://freelanceaiconsultant.com/ai-development/ai-solutions",
+            "areaServed": "GB",
+            "provider": {
+              "@type": "Person",
+              "name": "Dave Willemstein",
+              "jobTitle": "Onafhankelijk AI-adviseur",
+              "url": "https://freelanceaiconsultant.com/over",
+              "sameAs": [
+                "https://www.linkedin.com/in/davewillemstein"
+              ]
+            }
+          },
+          {
+            "@type": "FAQPage",
+            "mainEntity": [
+              {
+                "@type": "Question",
+                "name": "Do you deliver AI solutions?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "No. I design the approach, help choose a solution or build partner, and test from your side whether what's delivered actually works. The solution itself is built or delivered by your own team or by a party you contract directly."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "What does an AI solution deliver?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "That varies a great deal by application and can only be estimated as a range upfront. Typical returns are shorter turnaround times, less time spent searching, and more consistent quality. Agree at the start which figures you'll measure after a year and what the baseline is, otherwise the return can't be established afterwards."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "How do I know if an AI solution is reliable enough?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Test it on a representative set of your own data, including the messy cases, and agree upfront what quality is needed. Also decide what happens when the system is unsure or gets it wrong. For sensitive processes, a human check belongs in the process."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Do I need to account for the AI Act?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Yes, though how much weight it carries depends on the application. For every AI solution, work out which risk category it falls into and which obligations come with that. That belongs in the specification, not just before go-live."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Can an AI solution also use existing software?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Often, yes. Many packages you already use have AI features that, with the right setup, cover a large part of the need. That's usually the cheapest first step, and it teaches you what you actually need."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Who builds custom AI solutions, and what's the independent consultant's role?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Dave Willemstein doesn't build or deliver AI solutions, but helps decide which solution makes sense, guides the choice of a solution or build partner, and tests from the client's side whether the result works. Anyone who wants to know where the organisation stands first gets a reasoned picture from the AI Readiness Assessment in 2-3 weeks, for a fixed project fee. The build sits with the client's own team or with a partner the client contracts directly."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Is custom development always necessary for AI solutions?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "No. For AI solutions, a well-configured standard solution is often the fastest and cheapest route. Under the rules of thumb, custom development fits when the solution touches on why customers choose the organisation, when the data or way of working is distinctive, or when no standard package gives the control that's needed."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Can the AI Readiness Assessment also be run for a single department?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Yes. The AI Readiness Assessment can be run smaller, for a single department or process area, at a lower investment."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Is there a margin on developers suggested for AI solutions?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "No. Where it helps, the consultant suggests developers for AI solutions that he knows, with no margin on their rate. The builders come from the client's own organisation or from a party the client chooses themselves."
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "afbeeldingen": [
+    {
+      "regio": "header",
+      "src": "/images/freelance-ai-consultant-logo-header.png",
+      "alt": "freelanceaiconsultant.com logo",
+      "width": "600",
+      "height": "287",
+      "loading": null
+    },
+    {
+      "regio": "main",
+      "src": "/images/dave-portrait.jpg",
+      "alt": "Portrait of Dave Willemstein",
+      "width": "88",
+      "height": "88",
+      "loading": "lazy"
+    },
+    {
+      "regio": "footer",
+      "src": "/images/freelance-ai-consultant-icon-footer.png",
+      "alt": "",
+      "width": "192",
+      "height": "192",
+      "loading": "lazy"
+    }
+  ],
+  "laadprestaties": {
+    "scripts": [
+      {
+        "src": "/_astro/CookieConsent.astro_astro_type_script_index_0_lang.COcxE8NY.js",
+        "type": "module",
+        "inline_bytes": 0
+      },
+      {
+        "src": null,
+        "type": null,
+        "inline_bytes": 989
+      },
+      {
+        "src": null,
+        "type": null,
+        "inline_bytes": 493
+      },
+      {
+        "src": "/logo-carousel/logo-carousel.js?v=2",
+        "type": null,
+        "inline_bytes": 0
+      },
+      {
+        "src": null,
+        "type": null,
+        "inline_bytes": 725
+      }
+    ],
+    "stylesheets": [
+      "/_astro/_slug_.CzLXI3HH.css",
+      "/_astro/_slug_.Do5RJXa7.css",
+      "/logo-carousel/logo-carousel.css?v=2"
+    ],
+    "aantal_details": 5,
+    "aantal_tabellen": 0
+  },
+  "gemeten_op": "2026-11-05"
+}

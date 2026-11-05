@@ -1,0 +1,883 @@
+{
+  "url": "/ai-development",
+  "build_bestand": "dist/ai-development/index.html",
+  "html": {
+    "bytes": 43548,
+    "lang": "en"
+  },
+  "beschermd": {
+    "title": "AI Development | Specification, Build Partner, Governance",
+    "meta_description": "Independent guidance on AI development: get the specification right, choose the right build partner, and check what gets delivered actually works.",
+    "canonical": "https://freelanceaiconsultant.com/ai-development",
+    "robots_meta": null,
+    "hreflang": [
+      {
+        "hreflang": "en",
+        "href": "https://freelanceaiconsultant.com/ai-development"
+      },
+      {
+        "hreflang": "nl",
+        "href": "https://freelanceaiconsultant.com/nl/ai-development"
+      },
+      {
+        "hreflang": "x-default",
+        "href": "https://freelanceaiconsultant.com/ai-development"
+      }
+    ],
+    "h1": [
+      "AI development: having AI applications built the right way"
+    ]
+  },
+  "social": {
+    "og:type": "website",
+    "og:locale": "en_US",
+    "og:site_name": "freelanceaiconsultant.com",
+    "og:title": "AI Development | Specification, Build Partner, Governance",
+    "og:description": "Independent guidance on AI development: get the specification right, choose the right build partner, and check what gets delivered actually works.",
+    "og:url": "https://freelanceaiconsultant.com/ai-development",
+    "og:image": "https://freelanceaiconsultant.com/images/dave-portrait.jpg",
+    "twitter:card": "summary_large_image",
+    "twitter:title": "AI Development | Specification, Build Partner, Governance",
+    "twitter:description": "Independent guidance on AI development: get the specification right, choose the right build partner, and check what gets delivered actually works.",
+    "twitter:image": "https://freelanceaiconsultant.com/images/dave-portrait.jpg"
+  },
+  "koppen": [
+    {
+      "niveau": 1,
+      "tekst": "AI development: having AI applications built the right way",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "What does independent guidance for AI development cost, and who does the building?",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 3,
+      "tekst": "Is there a margin on developers from the network for AI development?",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 3,
+      "tekst": "What determines the price of the Vendor Review for AI development?",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 3,
+      "tekst": "What works best for AI development: build, buy or partner?",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "What is AI development?",
+      "regio": "main",
+      "id": "what-is-ai-development"
+    },
+    {
+      "niveau": 2,
+      "tekst": "What you can have developed",
+      "regio": "main",
+      "id": "what-you-can-have-developed"
+    },
+    {
+      "niveau": 3,
+      "tekst": "AI applications",
+      "regio": "main",
+      "id": "ai-applications"
+    },
+    {
+      "niveau": 3,
+      "tekst": "AI agents",
+      "regio": "main",
+      "id": "ai-agents"
+    },
+    {
+      "niveau": 3,
+      "tekst": "Integrations with existing software",
+      "regio": "main",
+      "id": "integrations-with-existing-software"
+    },
+    {
+      "niveau": 2,
+      "tekst": "Development process",
+      "regio": "main",
+      "id": "development-process"
+    },
+    {
+      "niveau": 2,
+      "tekst": "Build versus buy",
+      "regio": "main",
+      "id": "build-versus-buy"
+    },
+    {
+      "niveau": 2,
+      "tekst": "Working with developers from my network",
+      "regio": "main",
+      "id": "working-with-developers-from-my-network"
+    },
+    {
+      "niveau": 2,
+      "tekst": "Frequently asked questions",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "From AI ambition to real results.",
+      "regio": "main",
+      "id": null
+    }
+  ],
+  "bodytekst": {
+    "regio": "main",
+    "woorden": 2161,
+    "sha256": "53374c78ed983ca5867bf528d9ca5fbd67ca4ec1c0bcea4d87c8d1d407747027",
+    "blokken": [
+      "Home",
+      "AI Development",
+      "AI development",
+      "AI development: having AI applications built the right way",
+      "AI development rarely goes wrong on the technology and often goes wrong on the brief: a vague specification, the wrong build partner, or nobody on your side checking the work. I don't build software myself. I help you decide what should be built, by whom, and whether it delivers what was agreed.",
+      "Book a strategy call → See the AI Readiness Assessment →",
+      "IN SHORT",
+      "Your own team, or a development partner you contract directly, does the building.",
+      "My role: specification, build-partner selection, testing and governance from your side.",
+      "Decide whether to build, buy or partner first; only then how.",
+      "AI in Europe",
+      "European brands already running AI in production.",
+      "Not my clients. Examples of what happens once AI moves past the pilot stage.",
+      "Pause",
+      "Klarna",
+      "Sweden",
+      "AI customer service assistant",
+      "Zalando",
+      "Germany",
+      "Fashion assistant for product advice",
+      "Financial services",
+      "Investment firm",
+      "AI strategy and use-case portfolio",
+      "Booking.com",
+      "Netherlands",
+      "AI Trip Planner for travel planning",
+      "Siemens",
+      "Germany",
+      "Industrial Copilot for engineering",
+      "Retail",
+      "Enterprise retailer",
+      "AI-driven vendor selection",
+      "Spotify",
+      "Sweden",
+      "AI DJ and personalized playlists",
+      "Mercedes-Benz",
+      "Germany",
+      "Generative voice assistant in the car",
+      "Industrial / B2B",
+      "International manufacturer",
+      "AI roadmap and leadership",
+      "ING",
+      "Netherlands",
+      "Generative chatbot for customer queries",
+      "L'Oréal",
+      "France",
+      "Beauty Genius: personalized advice",
+      "Financial services",
+      "Financial services firm",
+      "KYC accelerated with AI document analysis",
+      "SAP",
+      "Germany",
+      "Joule: copilot in business software",
+      "Carrefour",
+      "France",
+      "Hopla: grocery shopping assistant",
+      "Strategy & AI",
+      "SaaS scale-up",
+      "AI readiness assessment",
+      "Adyen",
+      "Netherlands",
+      "AI-driven payment optimization",
+      "Philips",
+      "Netherlands",
+      "AI in medical imaging",
+      "Proces & productivity",
+      "Professional services firm",
+      "Internal AI assistant for knowledge workers",
+      "What does independent guidance for AI development cost, and who does the building?",
+      "Dave Willemstein doesn't build software, but guides AI development from the client's side: specification, build-partner selection, testing deliverables and governance. For choosing the build partner there's the Vendor Review over 3-6 weeks, for a fixed project fee, and during the build there's guidance from the client's side, for example as a Fractional AI Lead for a fixed monthly fee. The build itself sits with the client's own team or with a development partner the client contracts directly.",
+      "AI development: the right service for each phase of the project",
+      "Phase of the project",
+      "What the client gets",
+      "Timeline",
+      "Suitable service",
+      "At the start, when there's no clear picture yet of where the organisation stands",
+      "A logical first step, including a closing presentation to the leadership team or board",
+      "2-3 weeks",
+      "AI Readiness Assessment",
+      "When choosing the build partner",
+      "Scorecards, a test on your own data and a three-year TCO comparison",
+      "3-6 weeks",
+      "Vendor Review",
+      "During the build",
+      "Guidance from the client's side: testing deliverables, safeguarding the business case and governance",
+      "2, 4 or 8 days per month",
+      "Fractional AI Lead",
+      "Is there a margin on developers from the network for AI development?",
+      "No. For AI development, the client contracts the build partner directly, with no intermediary layer, margin or commission. A party from the network goes through the same selection as any other party.",
+      "What determines the price of the Vendor Review for AI development?",
+      "The Vendor Review is priced as a fixed project fee, depending on the number of vendors being compared.",
+      "What works best for AI development: build, buy or partner?",
+      "The hybrid form often works best for AI development: buying in building blocks, having the layer with your own knowledge built, and placing the implementation with a partner. Before that comes the question of whether building is needed at all: only build what sets the organisation apart in the market, and buy what's a commodity.",
+      "Source: rates and typical timelines from Dave Willemstein. Updated: October 2026.",
+      "What is AI development?",
+      "AI development is the design, building, testing and deployment of software in which AI plays a core role. Think of an application that reads documents and fills in fields, an assistant that searches internal knowledge, or an agent that carries out tasks in your systems. Three things set it apart from ordinary software development: the output isn’t always predictable, quality depends heavily on your data, and the system needs to keep being measured after it goes live.",
+      "That’s why good AI development doesn’t start with the developer, but with the question of which problem you’re solving and how you’ll measure whether it’s working. Only once that’s clear does a developer know what to build.",
+      "I’m not the builder in that picture. I work as an independent consultant on your side of the table: helping sharpen the brief, choosing the right build partner, and testing what gets delivered. The building itself is done by your own team or a development partner you contract directly. I don’t earn anything from the build, so I have no interest in a bigger scope.",
+      "Want to know which profile you actually need first? A separate article on what an AI developer actually does, day to day, sets out the different roles, from strategist to machine learning engineer.",
+      "What you can have developed",
+      "Most AI development questions fall into three categories. They overlap, but each calls for a different specification and often a different kind of build partner.",
+      "AI applications",
+      "An AI application is a standalone tool, often an AI web application, that supports a defined task: summarising case files, preparing quotes, classifying customer queries. Anyone having AI applications built usually buys in the underlying language model and has the layer around it built: the user interface, the rules, the connection to your data, and the evaluation. Which types exist and when custom development pays off is covered on the page about choosing, integrating or building AI software.",
+      "AI agents",
+      "An AI agent goes a step further: it carries out actions in your systems itself, such as raising a ticket or drafting and queuing an email. That calls for tighter agreements on permissions, logging and human oversight. AI agent examples sets out a dozen applications across customer service, sales, HR and finance.",
+      "Integrations with existing software",
+      "Often the most valuable form of AI development isn’t a new application, but AI inside the software you already use: your CRM, your document management system, your ERP. The AI component is then small; the integration, the permissions model and the data flows are the real work. An overview of applications, from document processing to internal assistants, is on custom AI solutions.",
+      "Development process",
+      "An AI project runs through roughly five phases. Below, for each phase, is who does the work and where I’m involved from your side.",
+      "1. Brief and specificationYou and me: problem, success measures, constraints and a first build-buy-partner choice",
+      "2. Build-partner selectionYou decide, I guide: criteria upfront, a level playing field, contract and exit terms",
+      "3. Prototype on your own dataBuild partner builds, your team tests, I check against the agreed measures",
+      "4. Into productionBuild partner and IT: integrations, security, logging and support; I watch scope and risk",
+      "5. Support and measurementYour organisation owns it; periodic evaluation, adjust or stop",
+      "The building is done by your own team or a partner you contract yourself. The consultant sits on your side of the table and earns nothing from the build.",
+      "What you get from me in concrete terms depends on the phase:",
+      "At the start: a specification in plain language, covering the problem, the success measures, the data needed, and the constraints around privacy and the AI Act. If you don’t yet have a clear picture of where you stand, the AI Readiness Assessment is a logical first step.",
+      "When choosing the build partner: a Vendor Review with scorecards, a test on your own data, and a three-year TCO comparison. The investment is a fixed price agreed upfront, over 3-6 weeks.",
+      "During the build: guidance from your side, for example as a Fractional AI Lead (a fixed monthly fee, agreed upfront), testing deliverables and safeguarding the business case and the governance around it.",
+      "What happens afterwards, from pilot to daily use, falls under AI implementation. That’s less about code and more about working processes, adoption and ownership.",
+      "Example scenario",
+      "A financial services firm with 250 staff has an external development partner build an application that checks incoming application files for completeness. The organisation contracts that partner directly; the consultant is involved as a Fractional AI Lead for two days a month, from the client's side.",
+      "Before the start, he agrees what success looks like with the team: of the files the application marks as complete, at most 3% may still turn out incomplete on manual review. On the prototype, that figure is 11%. Rather than carrying on building, the organisation first has the 40 worst-handled files analysed. The cause is an outdated application form still in circulation.",
+      "After a fix and a second test, the figure comes out at 2.5%. Go-live slips by five weeks as a result. Agreements on ownership of the code and the test set are in the contract from day one.",
+      "Fictional example, built from situations that come up often. The organisation and figures are illustrative.",
+      "An example of how that can look in practice: in the case on KYC document analysis for a financial services firm, the emphasis wasn’t on the model but on the working process around it and on guiding the vendor and implementation team.",
+      "Build versus buy",
+      "Before you have anything developed, the question of whether you should build it at all comes first. Only build what sets you apart in the market, buy what’s a commodity, and choose a partner if you want to steer the outcome without owning the technology yourself. The hybrid form often works best: buying in building blocks, having the layer with your own knowledge built, and placing the implementation with a partner. A full four-question decision framework for this choice is covered elsewhere on this site, in an insights piece on building, buying or partnering.",
+      "Working with developers from my network",
+      "Because I work alone and don’t build, I sometimes suggest parties I know for delivery: developers, data engineers or specialists in a particular platform. How that works is kept deliberately simple:",
+      "You contract directly. There’s no layer through me. Agreements on scope, price, ownership and liability are made directly with the build partner.",
+      "No margin, no commission. I earn nothing on their rate and hold no partner status with vendors.",
+      "Known relationships are disclosed upfront. If I’ve advised a party before or worked with them, you hear that before they’re put forward.",
+      "A suggestion isn’t a preference. A party from my network goes through the same selection as anyone else.",
+      "More on how I select partners, and what you can and can’t expect from them, is on the partner network page.",
+      "Want to talk through a development project that’s coming up, or a build partner who’s already sent a quote? Book a thirty-minute strategy call. At the end you’ll know what I’d do, even if the answer is that you don’t need me for it.",
+      "Dave Willemstein Independent AI Advisor",
+      "Independent: no commissions, no partner deals, no margin on implementation partners.",
+      "About My partner network",
+      "Want to know where you stand with AI? See the AI Readiness Assessment →",
+      "Frequently asked questions",
+      "Do you build AI applications yourself?+",
+      "No. I don't write code or deliver software. The building is done by your own team or a development partner you contract yourself. I help with the specification, choosing that partner, testing what's delivered, and the governance around it.",
+      "What's the difference between an AI developer and an AI consultant?+",
+      "An AI developer builds: models, integrations, applications. A consultant like me decides with you what should be built, why, with which partner, and how you check that it works. You need both roles for a good result, but they shouldn't sit with the same party if you want independent advice.",
+      "How long does it take to have an AI application developed?+",
+      "That depends mostly on the integrations with your existing systems and the quality of your data, less on the model itself. A first working prototype is often quick to build; the road to production, with security, logging and support, takes the most time. You only get a realistic plan after a specification and a conversation with the build partner.",
+      "Can an AI web application also be built with standard components?+",
+      "Usually, yes, and it's often the sensible choice. Most AI web applications combine a bought-in language model or platform with a layer of your own rules, data and working process. Training your own model from scratch is rarely needed.",
+      "Who owns the code and the data?+",
+      "You settle that in the contract with the build partner, not afterwards. Record who owns the code, the configuration, the test sets and the data, and how you take them with you if you switch partners. In a Vendor Review or guided delivery, I include those points in the contract assessment.",
+      "Ready for impact?",
+      "From AI ambition to real results.",
+      "Book a no-obligation call. No pitch. Just sharp questions.",
+      "30 min., no pitch deckBook a call →"
+    ]
+  },
+  "links": [
+    {
+      "regio": "overig",
+      "soort": "intern",
+      "href": "#main",
+      "anker": "Skip to main content",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/",
+      "anker": "",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/services",
+      "anker": "Services",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/cases",
+      "anker": "Cases",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/approach",
+      "anker": "Approach",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/insights",
+      "anker": "Insights",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/about",
+      "anker": "About",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/nl/ai-development",
+      "anker": "NL",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/contact",
+      "anker": "Book a call →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/",
+      "anker": "Home",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/contact",
+      "anker": "Book a strategy call →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/services/ai-readiness-assessment",
+      "anker": "See the AI Readiness Assessment →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/services/ai-readiness-assessment",
+      "anker": "AI Readiness Assessment",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/services/vendor-review",
+      "anker": "Vendor Review",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/services/fractional-ai-lead",
+      "anker": "Fractional AI Lead",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/pricing",
+      "anker": "rates and typical timelines from Dave Willemstein",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/about",
+      "anker": "independent consultant",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/ai-development/ai-software",
+      "anker": "choosing, integrating or building AI software",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/ai-agents/examples",
+      "anker": "AI agent examples",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/ai-development/ai-solutions",
+      "anker": "custom AI solutions",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/services/ai-readiness-assessment",
+      "anker": "AI Readiness Assessment",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/services/vendor-review",
+      "anker": "Vendor Review",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/services/fractional-ai-lead",
+      "anker": "Fractional AI Lead",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/ai-implementation",
+      "anker": "AI implementation",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/cases/kyc-document-analysis-financial-services",
+      "anker": "KYC document analysis for a financial services firm",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/partner-network",
+      "anker": "partner network",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/contact",
+      "anker": "Book a thirty-minute strategy call",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/about",
+      "anker": "About",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/partner-network",
+      "anker": "My partner network",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/services/ai-readiness-assessment",
+      "anker": "Want to know where you stand with AI? See the AI Readiness Assessment →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/contact",
+      "anker": "Book a call →",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/services/ai-readiness-assessment",
+      "anker": "AI Readiness Assessment",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/services/ai-strategy-sprint",
+      "anker": "AI Strategy Sprint",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/services/fractional-ai-lead",
+      "anker": "Fractional AI Lead",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/services",
+      "anker": "All services",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/cases",
+      "anker": "Cases",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/approach",
+      "anker": "Approach",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/insights",
+      "anker": "Insights",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/faq",
+      "anker": "FAQ",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/about",
+      "anker": "About",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-consulting",
+      "anker": "AI consulting",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-implementation",
+      "anker": "AI implementation",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-automation",
+      "anker": "AI automation",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-for-business",
+      "anker": "AI for business",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-development",
+      "anker": "AI development",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-agents",
+      "anker": "AI agents",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-policy",
+      "anker": "AI policy",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-workshop",
+      "anker": "AI workshop",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/markets",
+      "anker": "AI by industry",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/knowledge-base",
+      "anker": "Knowledge base",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/pricing",
+      "anker": "Pricing",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/partner-network",
+      "anker": "Partner network",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "overig",
+      "href": "mailto:dave@freelanceaiconsultant.com",
+      "anker": "dave@freelanceaiconsultant.com",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "extern",
+      "href": "https://www.linkedin.com/in/davewillemstein",
+      "anker": "LinkedIn ↗",
+      "rel": "noopener"
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/contact",
+      "anker": "Book a call",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/privacy",
+      "anker": "Privacy policy",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/terms",
+      "anker": "Terms & conditions",
+      "rel": null
+    }
+  ],
+  "structured_data": {
+    "sha256": "9cb78a5005c27fb00a629331fff95360ccdfad996f86a1a3a30636079298f2a8",
+    "items": [
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://freelanceaiconsultant.com/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "AI Development",
+                "item": "https://freelanceaiconsultant.com/ai-development"
+              }
+            ]
+          },
+          {
+            "@type": "Service",
+            "name": "AI Development",
+            "serviceType": "ai development",
+            "description": "Independent guidance on AI development: get the specification right, choose the right build partner, and check what gets delivered actually works.",
+            "url": "https://freelanceaiconsultant.com/ai-development",
+            "areaServed": "GB",
+            "provider": {
+              "@type": "Person",
+              "name": "Dave Willemstein",
+              "jobTitle": "Onafhankelijk AI-adviseur",
+              "url": "https://freelanceaiconsultant.com/over",
+              "sameAs": [
+                "https://www.linkedin.com/in/davewillemstein"
+              ]
+            }
+          },
+          {
+            "@type": "FAQPage",
+            "mainEntity": [
+              {
+                "@type": "Question",
+                "name": "Do you build AI applications yourself?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "No. I don't write code or deliver software. The building is done by your own team or a development partner you contract yourself. I help with the specification, choosing that partner, testing what's delivered, and the governance around it."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "What's the difference between an AI developer and an AI consultant?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "An AI developer builds: models, integrations, applications. A consultant like me decides with you what should be built, why, with which partner, and how you check that it works. You need both roles for a good result, but they shouldn't sit with the same party if you want independent advice."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "How long does it take to have an AI application developed?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "That depends mostly on the integrations with your existing systems and the quality of your data, less on the model itself. A first working prototype is often quick to build; the road to production, with security, logging and support, takes the most time. You only get a realistic plan after a specification and a conversation with the build partner."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Can an AI web application also be built with standard components?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Usually, yes, and it's often the sensible choice. Most AI web applications combine a bought-in language model or platform with a layer of your own rules, data and working process. Training your own model from scratch is rarely needed."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Who owns the code and the data?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "You settle that in the contract with the build partner, not afterwards. Record who owns the code, the configuration, the test sets and the data, and how you take them with you if you switch partners. In a Vendor Review or guided delivery, I include those points in the contract assessment."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "What does independent guidance for AI development cost, and who does the building?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Dave Willemstein doesn't build software, but guides AI development from the client's side: specification, build-partner selection, testing deliverables and governance. For choosing the build partner there's the Vendor Review over 3-6 weeks, for a fixed project fee, and during the build there's guidance from the client's side, for example as a Fractional AI Lead for a fixed monthly fee. The build itself sits with the client's own team or with a development partner the client contracts directly."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Is there a margin on developers from the network for AI development?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "No. For AI development, the client contracts the build partner directly, with no intermediary layer, margin or commission. A party from the network goes through the same selection as any other party."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "What determines the price of the Vendor Review for AI development?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "The Vendor Review is priced as a fixed project fee, depending on the number of vendors being compared."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "What works best for AI development: build, buy or partner?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "The hybrid form often works best for AI development: buying in building blocks, having the layer with your own knowledge built, and placing the implementation with a partner. Before that comes the question of whether building is needed at all: only build what sets the organisation apart in the market, and buy what's a commodity."
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "afbeeldingen": [
+    {
+      "regio": "header",
+      "src": "/images/freelance-ai-consultant-logo-header.png",
+      "alt": "freelanceaiconsultant.com logo",
+      "width": "600",
+      "height": "287",
+      "loading": null
+    },
+    {
+      "regio": "main",
+      "src": "/images/dave-portrait.jpg",
+      "alt": "Portrait of Dave Willemstein",
+      "width": "88",
+      "height": "88",
+      "loading": "lazy"
+    },
+    {
+      "regio": "footer",
+      "src": "/images/freelance-ai-consultant-icon-footer.png",
+      "alt": "",
+      "width": "192",
+      "height": "192",
+      "loading": "lazy"
+    }
+  ],
+  "laadprestaties": {
+    "scripts": [
+      {
+        "src": "/_astro/CookieConsent.astro_astro_type_script_index_0_lang.COcxE8NY.js",
+        "type": "module",
+        "inline_bytes": 0
+      },
+      {
+        "src": null,
+        "type": null,
+        "inline_bytes": 989
+      },
+      {
+        "src": null,
+        "type": null,
+        "inline_bytes": 493
+      },
+      {
+        "src": "/logo-carousel/logo-carousel.js?v=2",
+        "type": null,
+        "inline_bytes": 0
+      },
+      {
+        "src": null,
+        "type": null,
+        "inline_bytes": 725
+      }
+    ],
+    "stylesheets": [
+      "/_astro/_slug_.CzLXI3HH.css",
+      "/_astro/_slug_.Do5RJXa7.css",
+      "/logo-carousel/logo-carousel.css?v=2"
+    ],
+    "aantal_details": 5,
+    "aantal_tabellen": 1
+  },
+  "gemeten_op": "2026-11-05"
+}

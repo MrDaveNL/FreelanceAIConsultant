@@ -1,0 +1,899 @@
+{
+  "url": "/markets/automotive",
+  "build_bestand": "dist/markets/automotive/index.html",
+  "html": {
+    "bytes": 44082,
+    "lang": "en"
+  },
+  "beschermd": {
+    "title": "AI in Automotive | Applications for Motor Retailers",
+    "meta_description": "How do motor retailers use AI? Applications in sales, the workshop and customer contact, AI assistants for dealers, and automation in automotive.",
+    "canonical": "https://freelanceaiconsultant.com/markets/automotive",
+    "robots_meta": null,
+    "hreflang": [
+      {
+        "hreflang": "en",
+        "href": "https://freelanceaiconsultant.com/markets/automotive"
+      },
+      {
+        "hreflang": "nl",
+        "href": "https://freelanceaiconsultant.com/nl/markten/automotive"
+      },
+      {
+        "hreflang": "x-default",
+        "href": "https://freelanceaiconsultant.com/markets/automotive"
+      }
+    ],
+    "h1": [
+      "AI in automotive: applications for motor retailers"
+    ]
+  },
+  "social": {
+    "og:type": "website",
+    "og:locale": "en_US",
+    "og:site_name": "freelanceaiconsultant.com",
+    "og:title": "AI in Automotive | Applications for Motor Retailers",
+    "og:description": "How do motor retailers use AI? Applications in sales, the workshop and customer contact, AI assistants for dealers, and automation in automotive.",
+    "og:url": "https://freelanceaiconsultant.com/markets/automotive",
+    "og:image": "https://freelanceaiconsultant.com/images/dave-portrait.jpg",
+    "twitter:card": "summary_large_image",
+    "twitter:title": "AI in Automotive | Applications for Motor Retailers",
+    "twitter:description": "How do motor retailers use AI? Applications in sales, the workshop and customer contact, AI assistants for dealers, and automation in automotive.",
+    "twitter:image": "https://freelanceaiconsultant.com/images/dave-portrait.jpg"
+  },
+  "koppen": [
+    {
+      "niveau": 1,
+      "tekst": "AI in automotive: applications for motor retailers",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "What can a motor retailer do with AI in automotive, and how do you start?",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 3,
+      "tekst": "How can a dealer check whether an assistant vendor's promise in AI in automotive holds up?",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 3,
+      "tekst": "What does a customer-facing assistant work well for in AI in automotive?",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "AI applications in automotive",
+      "regio": "main",
+      "id": "ai-applications-in-automotive"
+    },
+    {
+      "niveau": 2,
+      "tekst": "AI for motor retailers and dealers",
+      "regio": "main",
+      "id": "ai-for-motor-retailers-and-dealers"
+    },
+    {
+      "niveau": 2,
+      "tekst": "AI assistants",
+      "regio": "main",
+      "id": "ai-assistants"
+    },
+    {
+      "niveau": 2,
+      "tekst": "AI automation in automotive",
+      "regio": "main",
+      "id": "ai-automation-in-automotive"
+    },
+    {
+      "niveau": 3,
+      "tekst": "Which rules apply?",
+      "regio": "main",
+      "id": "which-rules-apply"
+    },
+    {
+      "niveau": 3,
+      "tekst": "How to start",
+      "regio": "main",
+      "id": "how-to-start"
+    },
+    {
+      "niveau": 2,
+      "tekst": "Frequently asked questions",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "Sources",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "From AI ambition to real results.",
+      "regio": "main",
+      "id": null
+    }
+  ],
+  "bodytekst": {
+    "regio": "main",
+    "woorden": 2150,
+    "sha256": "6d92b88393325547366972b79d6114d5dee6eb8ca364d66cfe8a364850c9f57b",
+    "blokken": [
+      "Home",
+      "Markets",
+      "AI for automotive",
+      "AI in automotive",
+      "AI in automotive: applications for motor retailers",
+      "For most motor retailers, AI in automotive isn't about self-driving cars. It's about leads that go cold, a workshop schedule that's always full, and customer questions that come in outside opening hours. This page covers where AI actually helps a dealer or motor retailer, what it takes to get there, and which rules come into play.",
+      "Book a strategy call → See the AI Readiness Assessment →",
+      "Written by Dave Willemstein, independent AI consultant · published October 27, 2026",
+      "IN SHORT",
+      "Most of the gain sits in sales follow-up, the workshop and customer contact, not the car itself.",
+      "Start with one process that has a measurable bottleneck and an owner in the business.",
+      "Dealer applications are rarely high-risk under the AI Act, but recruitment and credit scoring are.",
+      "AI in Europe",
+      "European brands already running AI in production.",
+      "Not my clients. Examples of what happens once AI moves past the pilot stage.",
+      "Pause",
+      "Klarna",
+      "Sweden",
+      "AI customer service assistant",
+      "Zalando",
+      "Germany",
+      "Fashion assistant for product advice",
+      "Financial services",
+      "Investment firm",
+      "AI strategy and use-case portfolio",
+      "Booking.com",
+      "Netherlands",
+      "AI Trip Planner for travel planning",
+      "Siemens",
+      "Germany",
+      "Industrial Copilot for engineering",
+      "Retail",
+      "Enterprise retailer",
+      "AI-driven vendor selection",
+      "Spotify",
+      "Sweden",
+      "AI DJ and personalized playlists",
+      "Mercedes-Benz",
+      "Germany",
+      "Generative voice assistant in the car",
+      "Industrial / B2B",
+      "International manufacturer",
+      "AI roadmap and leadership",
+      "ING",
+      "Netherlands",
+      "Generative chatbot for customer queries",
+      "L'Oréal",
+      "France",
+      "Beauty Genius: personalized advice",
+      "Financial services",
+      "Financial services firm",
+      "KYC accelerated with AI document analysis",
+      "SAP",
+      "Germany",
+      "Joule: copilot in business software",
+      "Carrefour",
+      "France",
+      "Hopla: grocery shopping assistant",
+      "Strategy & AI",
+      "SaaS scale-up",
+      "AI readiness assessment",
+      "Adyen",
+      "Netherlands",
+      "AI-driven payment optimization",
+      "Philips",
+      "Netherlands",
+      "AI in medical imaging",
+      "Proces & productivity",
+      "Professional services firm",
+      "Internal AI assistant for knowledge workers",
+      "What can a motor retailer do with AI in automotive, and how do you start?",
+      "In AI in automotive, most of the gain for a motor retailer or dealer sits in sales follow-up, the workshop and customer contact, not the car itself. The approach is to pick one process with a measurable bottleneck, name an owner in the business, and agree in advance when to stop. For anyone who doesn't yet know which process that is, AI Readiness Assessment in 2-3 weeks is a logical starting point.",
+      "How can a dealer check whether an assistant vendor's promise in AI in automotive holds up?",
+      "Vendor Review can test that, using the same questions and the same scenario for every vendor. With assistants, AI in automotive comes down to choosing between what the DMS vendor, the manufacturer or a specialist provider offers.",
+      "What does a customer-facing assistant work well for in AI in automotive?",
+      "Customer-facing assistants, which answer questions and can, for example, book a service appointment, work well in AI in automotive for predictable questions, not for complaints or negotiation. The advice is to agree in advance when the assistant hands over to a person, and to test that with real conversations.",
+      "Source: article by Dave Willemstein; primary source: Regulation (EU) 2024/1689 (AI Act), EUR-Lex; European Commission, \"AI Act\" (regulatory framework); Regulation (EU) 2026/1744 (Digital Omnibus on AI), EUR-Lex; Vehicle Certification Agency, GB type approval - cyber security and software updates (as of 6 October 2026). Updated: October 2026.",
+      "AI applications in automotive",
+      "Think of AI in automotive and self-driving cars or smart factories come to mind quickly. For a motor retailer or dealer, the value sits closer to home: in the steps between the first enquiry and the next service visit.",
+      "The bottlenecks are familiar across most motor retailers:",
+      "Leads from many channels: enquiries through your own site, advertising platforms, the manufacturer and the phone, not all followed up equally fast.",
+      "Used cars: buying in, pricing and writing listings take time per car, while the margin depends on how quickly a car sells again.",
+      "The workshop: scheduling is tight, technicians piece together technical information, and job cards get filled in after the fact.",
+      "Customer contact: questions about appointments, repair status or a quote also come in during evenings and weekends.",
+      "Scattered data: the dealer management system, the CRM and the manufacturer’s own systems don’t always talk to each other.",
+      "AI can help on each of these points, but not all at once. The question isn’t which application is possible, but which delivers the most for your business.",
+      "LeadMerge and qualify enquiries, send a fast first response",
+      "Quote and test drivePrepare draft quotes and appointments for the salesperson",
+      "DeliveryPrepare documents and explanations, answer post-delivery questions",
+      "ServiceSchedule appointments, summarise job cards, search technical information",
+      "Trade-inValue a used car, justify the price and draft the listing",
+      "Where AI can help across a motor retailer's customer journey. Pick one step with a measurable bottleneck, not all five at once.",
+      "AI for motor retailers and dealers",
+      "A dealer is a retailer, a service business and a link in a manufacturer’s chain, all at once. Those three roles decide where AI fits.",
+      "As a retailer, it’s about speed and follow-up. An AI application can merge incoming enquiries, pull out the key details (model, trade-in, financing preference), and give a salesperson a draft first response. The salesperson stays the point of contact; the AI makes sure nothing is left unanswered.",
+      "As a service business, the gain sits in the workshop: summarising complaints when booking an appointment, preparing a job card, and searching technical documentation. That last one only works if the documentation is digital and current, which isn’t always the case.",
+      "As a link in the chain, you’re working within the manufacturer’s systems and agreements. Some functionality arrives automatically through the importer. It pays to find out what’s already in the pipeline before buying something yourself.",
+      "My own focus sits with manufacturing, retail, financial services and professional services, not automotive specifically, but a motor retailer touches all of those worlds. The questions are the same: what do you tackle first, which vendor do you choose, and how do you keep it working. What that looks like in a manufacturing setting is covered in the case on an AI roadmap for a global manufacturer: bringing scattered pilots together into one roadmap, with a clear decision on what stops.",
+      "Example scenario",
+      "A dealer group with two sites and 60 staff receives around 650 leads a month across five channels. A baseline measurement shows an enquiry gets its first response after five working hours on average, and 12% get no response at all within two working days.",
+      "The adviser helps choose the first process and compares two vendors against the same test scenario: the DMS vendor's own module, and a specialist provider. The choice falls on the DMS module, since the data already sits there. The dealer group contracts the vendor directly, and the sales manager becomes the owner.",
+      "After ten weeks, average response time sits under an hour, and only 3% of leads miss a timely response: around 20 a month instead of 78. The salesperson sends every reply themselves. A customer-facing chatbot is deliberately not yet on the roadmap.",
+      "Fictional example, built from situations that come up often. The organisation and figures are illustrative.",
+      "AI assistants",
+      "An AI assistant for motor retailers can face two ways: towards the customer, or towards your own people.",
+      "Customer-facing assistants answer questions on the website, via WhatsApp or by phone, and can, for example, book a service appointment. They work well for predictable questions, not for complaints or negotiation. Agree in advance when the assistant hands over to a person, and test that with real conversations.",
+      "Internal assistants help salespeople and technicians: ask a question about a model, a warranty condition or a work instruction, and get an answer with the source attached. Here, the quality of your own documentation is what decides the outcome. An assistant searching messy files gives messy answers.",
+      "A step further are AI agents, which carry out tasks in your systems on their own, such as booking an appointment and sending the confirmation. What’s realistic there right now is covered in AI agent examples.",
+      "I don’t build or sell assistants myself. I do help you choose between what your DMS vendor, the manufacturer or a specialist provider offers, and test whether the promise holds up. A Vendor Review can do that, with the same questions and the same scenario for every vendor.",
+      "AI automation in automotive",
+      "AI automation works best on tasks that happen often, have a clear start and end, and currently involve a lot of retyping. In a motor retailer, that typically means:",
+      "transferring data from purchase invoices, registration documents and damage reports into your systems;",
+      "drafting listing copy for used cars from the specifications;",
+      "preparing warranty and goodwill claims so a staff member only needs to check them.",
+      "Two caveats. First, the technology is rarely the problem. Where it stalls is when nobody owns the process after the pilot, or the workflow isn’t allowed to change. Second, time saved on paper is only a real gain once someone actually spends that time differently.",
+      "Which rules apply?",
+      "For most dealer applications, the AI Act is straightforward. A chatbot or a text generator isn’t a high-risk application, but a transparency duty has applied since August 2026: people need to know they’re dealing with AI. It’s different if you use AI to screen job applicants or assess an individual’s creditworthiness. Those applications sit on the AI Act’s high-risk list. Under the Digital Omnibus, the requirements for them now apply from 2 December 2027, according to the European Commission. The Act also reaches UK dealer groups with EU operations or EU customers for their AI output, under the same Article 2 scope used across this site; the UK has no AI Act of its own and regulates AI through existing sector regulators instead, per the government’s pro-innovation approach.",
+      "AI built into the vehicle itself, such as driver-assistance systems, is a manufacturer question, governed through vehicle type approval rather than the AI Act. The UK runs its own GB type approval scheme rather than the EU’s, but it directly incorporates the same UN vehicle regulations for cyber security (UN R155) and software updates (UN R156) through GB-specific legislation, phased in from 1 June 2026 for new vehicle types (Vehicle Certification Agency; GOV.UK). That’s primarily a matter for the manufacturer and importer. UK GDPR, of course, continues to apply to all customer and staff data.",
+      "How to start",
+      "Pick one process with a measurable bottleneck, name an owner in the business, and agree in advance when you’ll stop if it isn’t working. If you don’t yet know which process that is, the AI Readiness Assessment is a logical starting point: in 2-3 weeks you’ll know where you stand and what the first step is.",
+      "Want to talk through your own situation? Book a thirty-minute call.",
+      "Dave Willemstein Independent AI Advisor",
+      "Independent: no commissions, no partner deals, no margin on implementation partners.",
+      "About My partner network",
+      "Want to know where you stand with AI? See the AI Readiness Assessment →",
+      "Frequently asked questions",
+      "Which AI application tends to pay off fastest for a motor retailer?+",
+      "Often lead and enquiry follow-up, because the bottleneck is easy to measure: how fast you respond, and how many enquiries go unanswered. But that's a rule of thumb. If your workshop is the real bottleneck, start there. Measure first where time and revenue are leaking, then pick the application.",
+      "Does an AI chatbot on our website fall under the AI Act?+",
+      "A customer-service chatbot isn't a high-risk application. Transparency rules do apply: people need to know they're talking to an AI system, unless that's obvious on its own. UK GDPR also continues to apply to all customer data the chatbot processes.",
+      "Can I put customer data from our dealer system into an AI tool?+",
+      "Only if you have a lawful basis for it, the vendor processes the data under a data processing agreement, and you know where the data is held. Free consumer versions of AI tools are usually unsuitable for this. Sort this out before the pilot, not after.",
+      "Do UK vehicle AI rules apply to me as a dealer?+",
+      "Barely. Requirements for AI built into the vehicle itself run through UK vehicle type approval and target the manufacturer. As a dealer, what counts for you are the rules for the systems you deploy yourself, in sales, recruitment, financing and customer contact.",
+      "Sources",
+      "European Commission: AI Act, regulatory framework and timeline",
+      "European Commission: AI Omnibus enters into force (27 July 2026)",
+      "Regulation (EU) 2024/1689 (AI Act), official text on EUR-Lex",
+      "AI Act Service Desk (European Commission): Article 2, scope",
+      "UK Government: AI regulation, a pro-innovation approach",
+      "Vehicle Certification Agency: new GB type approval legislation on cyber security and software updates",
+      "GOV.UK: GB type approval scheme, cyber security and software update requirements (consultation outcome)",
+      "Ready for impact?",
+      "From AI ambition to real results.",
+      "Book a no-obligation call. No pitch. Just sharp questions.",
+      "30 min., no pitch deckBook a call →"
+    ]
+  },
+  "links": [
+    {
+      "regio": "overig",
+      "soort": "intern",
+      "href": "#main",
+      "anker": "Skip to main content",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/",
+      "anker": "",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/services",
+      "anker": "Services",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/cases",
+      "anker": "Cases",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/approach",
+      "anker": "Approach",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/insights",
+      "anker": "Insights",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/about",
+      "anker": "About",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/nl/markten/automotive",
+      "anker": "NL",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/contact",
+      "anker": "Book a call →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/",
+      "anker": "Home",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/markets",
+      "anker": "Markets",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/contact",
+      "anker": "Book a strategy call →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/services/ai-readiness-assessment",
+      "anker": "See the AI Readiness Assessment →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/about",
+      "anker": "Dave Willemstein",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/services/ai-readiness-assessment",
+      "anker": "AI Readiness Assessment",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/services/vendor-review",
+      "anker": "Vendor Review",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/cases/ai-roadmap-global-manufacturer",
+      "anker": "AI roadmap for a global manufacturer",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/ai-agents/examples",
+      "anker": "AI agent examples",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/services/vendor-review",
+      "anker": "Vendor Review",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "extern",
+      "href": "https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai",
+      "anker": "European Commission",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "extern",
+      "href": "https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-2",
+      "anker": "Article 2",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "extern",
+      "href": "https://www.gov.uk/government/publications/ai-regulation-a-pro-innovation-approach",
+      "anker": "pro-innovation approach",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "extern",
+      "href": "https://www.vehicle-certification-agency.gov.uk/blog/new-gb-type-approval-legislation-cyber-security-software-updates-introduced",
+      "anker": "Vehicle Certification Agency",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "extern",
+      "href": "https://www.gov.uk/government/consultations/gb-type-approval-scheme-cyber-security-and-software-update-requirements",
+      "anker": "GOV.UK",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/services/ai-readiness-assessment",
+      "anker": "AI Readiness Assessment",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/contact",
+      "anker": "Book a thirty-minute call",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/about",
+      "anker": "About",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/partner-network",
+      "anker": "My partner network",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/services/ai-readiness-assessment",
+      "anker": "Want to know where you stand with AI? See the AI Readiness Assessment →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "extern",
+      "href": "https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai",
+      "anker": "European Commission: AI Act, regulatory framework and timeline",
+      "rel": "noopener"
+    },
+    {
+      "regio": "main",
+      "soort": "extern",
+      "href": "https://digital-strategy.ec.europa.eu/en/news/ai-omnibus-enters-force",
+      "anker": "European Commission: AI Omnibus enters into force (27 July 2026)",
+      "rel": "noopener"
+    },
+    {
+      "regio": "main",
+      "soort": "extern",
+      "href": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj",
+      "anker": "Regulation (EU) 2024/1689 (AI Act), official text on EUR-Lex",
+      "rel": "noopener"
+    },
+    {
+      "regio": "main",
+      "soort": "extern",
+      "href": "https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-2",
+      "anker": "AI Act Service Desk (European Commission): Article 2, scope",
+      "rel": "noopener"
+    },
+    {
+      "regio": "main",
+      "soort": "extern",
+      "href": "https://www.gov.uk/government/publications/ai-regulation-a-pro-innovation-approach",
+      "anker": "UK Government: AI regulation, a pro-innovation approach",
+      "rel": "noopener"
+    },
+    {
+      "regio": "main",
+      "soort": "extern",
+      "href": "https://www.vehicle-certification-agency.gov.uk/blog/new-gb-type-approval-legislation-cyber-security-software-updates-introduced",
+      "anker": "Vehicle Certification Agency: new GB type approval legislation on cyber security and software updates",
+      "rel": "noopener"
+    },
+    {
+      "regio": "main",
+      "soort": "extern",
+      "href": "https://www.gov.uk/government/consultations/gb-type-approval-scheme-cyber-security-and-software-update-requirements",
+      "anker": "GOV.UK: GB type approval scheme, cyber security and software update requirements (consultation outcome)",
+      "rel": "noopener"
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/contact",
+      "anker": "Book a call →",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/services/ai-readiness-assessment",
+      "anker": "AI Readiness Assessment",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/services/ai-strategy-sprint",
+      "anker": "AI Strategy Sprint",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/services/fractional-ai-lead",
+      "anker": "Fractional AI Lead",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/services",
+      "anker": "All services",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/cases",
+      "anker": "Cases",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/approach",
+      "anker": "Approach",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/insights",
+      "anker": "Insights",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/faq",
+      "anker": "FAQ",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/about",
+      "anker": "About",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-consulting",
+      "anker": "AI consulting",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-implementation",
+      "anker": "AI implementation",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-automation",
+      "anker": "AI automation",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-for-business",
+      "anker": "AI for business",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-development",
+      "anker": "AI development",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-agents",
+      "anker": "AI agents",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-policy",
+      "anker": "AI policy",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-workshop",
+      "anker": "AI workshop",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/markets",
+      "anker": "AI by industry",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/knowledge-base",
+      "anker": "Knowledge base",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/pricing",
+      "anker": "Pricing",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/partner-network",
+      "anker": "Partner network",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "overig",
+      "href": "mailto:dave@freelanceaiconsultant.com",
+      "anker": "dave@freelanceaiconsultant.com",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "extern",
+      "href": "https://www.linkedin.com/in/davewillemstein",
+      "anker": "LinkedIn ↗",
+      "rel": "noopener"
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/contact",
+      "anker": "Book a call",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/privacy",
+      "anker": "Privacy policy",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/terms",
+      "anker": "Terms & conditions",
+      "rel": null
+    }
+  ],
+  "structured_data": {
+    "sha256": "5ff14460ff8068b8769f9bd3701646106e5394fcfb5f939485f9ed22a1ab3ced",
+    "items": [
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://freelanceaiconsultant.com/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Markets",
+                "item": "https://freelanceaiconsultant.com/markets"
+              },
+              {
+                "@type": "ListItem",
+                "position": 3,
+                "name": "AI for automotive",
+                "item": "https://freelanceaiconsultant.com/markets/automotive"
+              }
+            ]
+          },
+          {
+            "@type": "Article",
+            "headline": "AI in automotive: applications for motor retailers",
+            "description": "How do motor retailers use AI? Applications in sales, the workshop and customer contact, AI assistants for dealers, and automation in automotive.",
+            "inLanguage": "en-US",
+            "datePublished": "2026-10-27",
+            "dateModified": "2026-10-27",
+            "author": {
+              "@type": "Person",
+              "name": "Dave Willemstein",
+              "jobTitle": "Onafhankelijk AI-adviseur",
+              "url": "https://freelanceaiconsultant.com/over",
+              "sameAs": [
+                "https://www.linkedin.com/in/davewillemstein"
+              ]
+            },
+            "publisher": {
+              "@type": "Person",
+              "name": "Dave Willemstein"
+            },
+            "mainEntityOfPage": "https://freelanceaiconsultant.com/markets/automotive"
+          },
+          {
+            "@type": "FAQPage",
+            "mainEntity": [
+              {
+                "@type": "Question",
+                "name": "Which AI application tends to pay off fastest for a motor retailer?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Often lead and enquiry follow-up, because the bottleneck is easy to measure: how fast you respond, and how many enquiries go unanswered. But that's a rule of thumb. If your workshop is the real bottleneck, start there. Measure first where time and revenue are leaking, then pick the application."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Does an AI chatbot on our website fall under the AI Act?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "A customer-service chatbot isn't a high-risk application. Transparency rules do apply: people need to know they're talking to an AI system, unless that's obvious on its own. UK GDPR also continues to apply to all customer data the chatbot processes."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Can I put customer data from our dealer system into an AI tool?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Only if you have a lawful basis for it, the vendor processes the data under a data processing agreement, and you know where the data is held. Free consumer versions of AI tools are usually unsuitable for this. Sort this out before the pilot, not after."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Do UK vehicle AI rules apply to me as a dealer?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Barely. Requirements for AI built into the vehicle itself run through UK vehicle type approval and target the manufacturer. As a dealer, what counts for you are the rules for the systems you deploy yourself, in sales, recruitment, financing and customer contact."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "What can a motor retailer do with AI in automotive, and how do you start?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "In AI in automotive, most of the gain for a motor retailer or dealer sits in sales follow-up, the workshop and customer contact, not the car itself. The approach is to pick one process with a measurable bottleneck, name an owner in the business, and agree in advance when to stop. For anyone who doesn't yet know which process that is, AI Readiness Assessment in 2-3 weeks is a logical starting point."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "How can a dealer check whether an assistant vendor's promise in AI in automotive holds up?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Vendor Review can test that, using the same questions and the same scenario for every vendor. With assistants, AI in automotive comes down to choosing between what the DMS vendor, the manufacturer or a specialist provider offers."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "What does a customer-facing assistant work well for in AI in automotive?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Customer-facing assistants, which answer questions and can, for example, book a service appointment, work well in AI in automotive for predictable questions, not for complaints or negotiation. The advice is to agree in advance when the assistant hands over to a person, and to test that with real conversations."
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "afbeeldingen": [
+    {
+      "regio": "header",
+      "src": "/images/freelance-ai-consultant-logo-header.png",
+      "alt": "freelanceaiconsultant.com logo",
+      "width": "600",
+      "height": "287",
+      "loading": null
+    },
+    {
+      "regio": "main",
+      "src": "/images/dave-portrait.jpg",
+      "alt": "Portrait of Dave Willemstein",
+      "width": "88",
+      "height": "88",
+      "loading": "lazy"
+    },
+    {
+      "regio": "footer",
+      "src": "/images/freelance-ai-consultant-icon-footer.png",
+      "alt": "",
+      "width": "192",
+      "height": "192",
+      "loading": "lazy"
+    }
+  ],
+  "laadprestaties": {
+    "scripts": [
+      {
+        "src": "/_astro/CookieConsent.astro_astro_type_script_index_0_lang.COcxE8NY.js",
+        "type": "module",
+        "inline_bytes": 0
+      },
+      {
+        "src": null,
+        "type": null,
+        "inline_bytes": 989
+      },
+      {
+        "src": null,
+        "type": null,
+        "inline_bytes": 493
+      },
+      {
+        "src": "/logo-carousel/logo-carousel.js?v=2",
+        "type": null,
+        "inline_bytes": 0
+      },
+      {
+        "src": null,
+        "type": null,
+        "inline_bytes": 725
+      }
+    ],
+    "stylesheets": [
+      "/_astro/_slug_.CzLXI3HH.css",
+      "/_astro/_slug_.Do5RJXa7.css",
+      "/logo-carousel/logo-carousel.css?v=2"
+    ],
+    "aantal_details": 4,
+    "aantal_tabellen": 0
+  },
+  "gemeten_op": "2026-11-05"
+}

@@ -1,0 +1,984 @@
+{
+  "url": "/ai-automation",
+  "build_bestand": "dist/ai-automation/index.html",
+  "html": {
+    "bytes": 50320,
+    "lang": "en"
+  },
+  "beschermd": {
+    "title": "AI Automation for Business | Where to Start",
+    "meta_description": "AI automation takes repetitive work off your plate, from customer service to admin. See which processes to automate, what it costs, and how to scale it.",
+    "canonical": "https://freelanceaiconsultant.com/ai-automation",
+    "robots_meta": null,
+    "hreflang": [
+      {
+        "hreflang": "en",
+        "href": "https://freelanceaiconsultant.com/ai-automation"
+      },
+      {
+        "hreflang": "nl",
+        "href": "https://freelanceaiconsultant.com/nl/ai-automatisering"
+      },
+      {
+        "hreflang": "x-default",
+        "href": "https://freelanceaiconsultant.com/ai-automation"
+      }
+    ],
+    "h1": [
+      "AI automation: work smarter with less manual effort"
+    ]
+  },
+  "social": {
+    "og:type": "website",
+    "og:locale": "en_US",
+    "og:site_name": "freelanceaiconsultant.com",
+    "og:title": "AI Automation for Business | Where to Start",
+    "og:description": "AI automation takes repetitive work off your plate, from customer service to admin. See which processes to automate, what it costs, and how to scale it.",
+    "og:url": "https://freelanceaiconsultant.com/ai-automation",
+    "og:image": "https://freelanceaiconsultant.com/images/dave-portrait.jpg",
+    "twitter:card": "summary_large_image",
+    "twitter:title": "AI Automation for Business | Where to Start",
+    "twitter:description": "AI automation takes repetitive work off your plate, from customer service to admin. See which processes to automate, what it costs, and how to scale it.",
+    "twitter:image": "https://freelanceaiconsultant.com/images/dave-portrait.jpg"
+  },
+  "koppen": [
+    {
+      "niveau": 1,
+      "tekst": "AI automation: work smarter with less manual effort",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "Where does an organisation start with AI automation, and what does advice on it cost?",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 3,
+      "tekst": "Is AI automation built by the adviser personally?",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 3,
+      "tekst": "How many cost components does AI automation have?",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 3,
+      "tekst": "Is bespoke development needed for AI automation?",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "What is AI automation?",
+      "regio": "main",
+      "id": "what-is-ai-automation"
+    },
+    {
+      "niveau": 2,
+      "tekst": "AI automation versus classic automation",
+      "regio": "main",
+      "id": "ai-automation-versus-classic-automation"
+    },
+    {
+      "niveau": 2,
+      "tekst": "Which processes can you automate with AI?",
+      "regio": "main",
+      "id": "which-processes-can-you-automate-with-ai"
+    },
+    {
+      "niveau": 3,
+      "tekst": "Customer service",
+      "regio": "main",
+      "id": "customer-service"
+    },
+    {
+      "niveau": 3,
+      "tekst": "Admin and finance",
+      "regio": "main",
+      "id": "admin-and-finance"
+    },
+    {
+      "niveau": 3,
+      "tekst": "Sales and marketing",
+      "regio": "main",
+      "id": "sales-and-marketing"
+    },
+    {
+      "niveau": 3,
+      "tekst": "HR and internal knowledge",
+      "regio": "main",
+      "id": "hr-and-internal-knowledge"
+    },
+    {
+      "niveau": 2,
+      "tekst": "AI automation examples",
+      "regio": "main",
+      "id": "ai-automation-examples"
+    },
+    {
+      "niveau": 2,
+      "tekst": "Scaling up in larger organisations",
+      "regio": "main",
+      "id": "scaling-up-in-larger-organisations"
+    },
+    {
+      "niveau": 3,
+      "tekst": "Connecting with existing systems",
+      "regio": "main",
+      "id": "connecting-with-existing-systems"
+    },
+    {
+      "niveau": 3,
+      "tekst": "Governance when scaling up",
+      "regio": "main",
+      "id": "governance-when-scaling-up"
+    },
+    {
+      "niveau": 2,
+      "tekst": "AI automation for small and medium-sized businesses",
+      "regio": "main",
+      "id": "ai-automation-for-small-and-medium-sized-businesses"
+    },
+    {
+      "niveau": 3,
+      "tekst": "The best processes to start with",
+      "regio": "main",
+      "id": "the-best-processes-to-start-with"
+    },
+    {
+      "niveau": 3,
+      "tekst": "Costs and payback period",
+      "regio": "main",
+      "id": "costs-and-payback-period"
+    },
+    {
+      "niveau": 2,
+      "tekst": "How I approach AI automation",
+      "regio": "main",
+      "id": "how-i-approach-ai-automation"
+    },
+    {
+      "niveau": 2,
+      "tekst": "Tools and workflows",
+      "regio": "main",
+      "id": "tools-and-workflows"
+    },
+    {
+      "niveau": 2,
+      "tekst": "Frequently asked questions",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "Sources",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "From AI ambition to real results.",
+      "regio": "main",
+      "id": null
+    }
+  ],
+  "bodytekst": {
+    "regio": "main",
+    "woorden": 3038,
+    "sha256": "ad18ffcf5b21a2be29e7e84b3f9862179a795b731c299bdec2ab4f6317f9a20b",
+    "blokken": [
+      "Home",
+      "AI Automation",
+      "AI automation",
+      "AI automation: work smarter with less manual effort",
+      "AI automation takes on work that's too messy for classic automation: reading emails, working through documents, drafting a first reply. It only pays off if you choose the right process and get the human check right. This page covers where to start, what it costs, and how to scale it safely.",
+      "Book a strategy call → See the AI Readiness Assessment →",
+      "IN SHORT",
+      "AI automation suits work with unstructured input: text, documents, email.",
+      "Choose processes with high volume, low variation and an existing check step.",
+      "Calculate the saving honestly, including management, usage costs and the checking time that remains.",
+      "AI in Europe",
+      "European brands already running AI in production.",
+      "Not my clients. Examples of what happens once AI moves past the pilot stage.",
+      "Pause",
+      "Klarna",
+      "Sweden",
+      "AI customer service assistant",
+      "Zalando",
+      "Germany",
+      "Fashion assistant for product advice",
+      "Financial services",
+      "Investment firm",
+      "AI strategy and use-case portfolio",
+      "Booking.com",
+      "Netherlands",
+      "AI Trip Planner for travel planning",
+      "Siemens",
+      "Germany",
+      "Industrial Copilot for engineering",
+      "Retail",
+      "Enterprise retailer",
+      "AI-driven vendor selection",
+      "Spotify",
+      "Sweden",
+      "AI DJ and personalized playlists",
+      "Mercedes-Benz",
+      "Germany",
+      "Generative voice assistant in the car",
+      "Industrial / B2B",
+      "International manufacturer",
+      "AI roadmap and leadership",
+      "ING",
+      "Netherlands",
+      "Generative chatbot for customer queries",
+      "L'Oréal",
+      "France",
+      "Beauty Genius: personalized advice",
+      "Financial services",
+      "Financial services firm",
+      "KYC accelerated with AI document analysis",
+      "SAP",
+      "Germany",
+      "Joule: copilot in business software",
+      "Carrefour",
+      "France",
+      "Hopla: grocery shopping assistant",
+      "Strategy & AI",
+      "SaaS scale-up",
+      "AI readiness assessment",
+      "Adyen",
+      "Netherlands",
+      "AI-driven payment optimization",
+      "Philips",
+      "Netherlands",
+      "AI in medical imaging",
+      "Proces & productivity",
+      "Professional services firm",
+      "Internal AI assistant for knowledge workers",
+      "Where does an organisation start with AI automation, and what does advice on it cost?",
+      "AI automation suits work with unstructured input, such as emails, documents and free text, and starts with a process that has high volume, low variation and a check step that already exists. Dave Willemstein doesn't build automations or sell software or licences, but advises independently on what gets automated, who builds it and how it keeps working. Anyone who doesn't yet know which process should come first can start with AI Readiness Assessment: in 2-3 weeks a validated list of opportunities and a 90-day plan for a fixed project fee, excluding VAT and travel expenses.",
+      "Is AI automation built by the adviser personally?",
+      "No. AI automation is built by the client's own team or by a partner the client contracts directly, with no margin for the adviser. The adviser delivers a process description with a baseline measurement, a prioritised list, a decision document on building, buying or bringing in a partner, and a measurement set-up, and tests the delivery against the agreed criteria.",
+      "How many cost components does AI automation have?",
+      "Four components determine the cost of AI automation: the one-off set-up, licences for the platform, usage costs for the AI model per document or message processed, and management. Usage and management are the ones most often forgotten.",
+      "Is bespoke development needed for AI automation?",
+      "For most AI automation, no bespoke development is needed. A workflow platform connects an organisation's systems for AI automation and adds an AI step wherever needed. Prices and features for such platforms change quickly and should be checked with the vendor directly.",
+      "Source: Dave Willemstein's rates and typical timelines. Updated: October 2026.",
+      "What is AI automation?",
+      "AI automation is the automation of work steps where an AI model does something a person used to have to do: understand text, pull information from a document, categorise a query, or draft a first version. The difference from ordinary automation is in the input. Classic software needs tidy fields and fixed rules. An AI model can work with an email in free text, a scanned delivery note, or a complaint written half in another language.",
+      "In practice, AI automation is almost never a single AI model working alone. It’s a chain: a trigger (an email arrives), an AI step (read and classify), an action in a system (create a ticket), and, somewhere, a person who checks. The AI step is often the smallest part of the work. The integrations, the error handling, and the agreements on who checks what decide whether it keeps working.",
+      "Automating with AI is therefore mostly a process question. Which step takes a lot of time, comes up often, and is predictable enough to hand over? And what happens when the AI gets it wrong?",
+      "AI automation versus classic automation",
+      "Classic automation, including RPA (robotic process automation), follows rules. If field A is filled in, copy it to system B. That’s reliable and easy to check, but it breaks as soon as the input deviates from what the rule expects.",
+      "AI automation works with probabilities. The model estimates what a document is or what a customer means. That makes it more flexible and, at the same time, less predictable: it usually gives a good answer, and occasionally a wrong one that looks convincing.",
+      "Classic automation",
+      "AI automation",
+      "Input",
+      "Structured: fields, forms, fixed files",
+      "Unstructured: text, email, PDFs, speech",
+      "How it works",
+      "Fixed rules",
+      "Estimation by a model",
+      "Errors",
+      "Predictable, usually an error message",
+      "Unpredictable, sometimes without any error message",
+      "Checking",
+      "A spot check is often enough",
+      "Human checking needed at the start",
+      "The strongest solutions combine both: rules wherever possible, AI only for the step rules can’t handle. Comparing RPA with AI automation in more depth is a topic for a future article on this site.",
+      "Which processes can you automate with AI?",
+      "Good candidates share three things: they come up often, they closely resemble each other, and someone is already looking at the result today. Below are the areas where that pattern shows up most often. A fuller approach to selecting processes will follow in a future article on automating business processes with AI.",
+      "Customer service",
+      "Reading incoming queries, categorising them and routing them to the right team. Preparing a draft reply based on previous answers and the knowledge base, which a staff member checks and sends. Summarising long customer files before someone calls back. The gain sits mainly in the searching and typing, not in removing the person.",
+      "Admin and finance",
+      "Reading invoices and receipts and preparing the data for booking. Comparing purchase orders against delivery notes and invoices, and only flagging the discrepancies. Preparing payment reminders in the tone that fits the customer. Here especially, an error in a figure can propagate silently, so the check step stays important.",
+      "Sales and marketing",
+      "Enriching leads with public information and a first estimate of fit. Drafting quotes based on standard text and the customer’s request. Drafting product copy or social posts for an editor. Marketing automation for small and medium-sized businesses gets an extra layer this way: it’s not just the send times that are fixed, the first draft of the content gets prepared too.",
+      "HR and internal knowledge",
+      "Answering staff questions about policies based on the staff handbook. Drafting job adverts. Pulling minutes and action lists out of meetings, which deserves its own treatment elsewhere on this site. Be cautious with anything that touches an assessment of people: that’s sensitive under data protection law, and AI used for recruitment, selection and staff assessment is listed as high-risk under the EU AI Act (Annex III). That obligation isn’t limited to EU-based organisations: under Article 2 of the Act, it also applies to UK organisations that place such a system on the EU market, or whose system’s output is used in the EU. The UK has no AI Act of its own and regulates AI through existing sector regulators instead, as set out in the UK government’s AI regulation: a pro-innovation approach.",
+      "AI automation examples",
+      "A few examples to make it concrete, described generically:",
+      "A wholesaler has incoming email orders read and set up as a draft in the order system. The order desk checks and confirms.",
+      "An accountancy firm has incoming client documents sorted and checked for completeness before a staff member picks up the file.",
+      "An installation company has engineers’ job sheets converted into a tidy report for the customer.",
+      "A professional services firm gives knowledge workers an internal assistant for a few fixed tasks, such as searching files and drafting reports.",
+      "That last example matches the case study on an internal AI assistant for knowledge workers. The lesson is broader: the technology was ready quickly, adoption took far more time, and it only worked once the assistant was deployed for a few well-defined tasks instead of “everything.”",
+      "Example scenario",
+      "A packaging wholesaler with 60 staff receives around 1,100 orders a month by email, as a PDF or in the body of the message. Three order-desk staff retype them into the order system, averaging 5 minutes per order.",
+      "The adviser runs a baseline measurement, sets the requirements, and guides the selection of a partner the wholesaler contracts directly. The AI step reads customer, items and quantities, and prepares a draft order; the order desk confirms it. Orders with non-standard pricing or unrecognised item numbers go straight to a staff member without a draft.",
+      "After three months, around 80 percent of orders go through the new route, with 1.5 minutes of checking per order. That saves roughly 51 hours a month. The share of input errors drops from just over 2 percent to under 1 percent.",
+      "Fictional example, built from situations that come up often. The organisation and figures are illustrative.",
+      "Scaling up in larger organisations",
+      "In AI automation for businesses with multiple departments, the question shifts. The first automation is rarely the problem. The problem is the tenth: who manages them, how do you know they’re still working, and what happens when the underlying model changes? Pilots that succeed technically but never get rolled out more broadly are common.",
+      "Connecting with existing systems",
+      "Connecting to your ERP, CRM or document system almost always takes more time than the AI step itself. So ask three questions early: which systems need to open up, who manages those integrations, and what permissions does the automation get? An automation running with admin-level permissions can do more damage than necessary. Give it access only to what it needs for that one task.",
+      "Pay attention to the data itself too. An automation that looks up customer data is only as good as the data in your CRM.",
+      "Governance when scaling up",
+      "With one automation you can keep everything in your head. With twenty, you can’t. At minimum, you need:",
+      "A register of every automation with an AI step: what it does, what data it uses, who owns it.",
+      "A risk assessment per application, including whether the EU AI Act or data protection law places extra requirements on it.",
+      "Monitoring of quality, for example a monthly sample and a tally of corrections.",
+      "A kill switch: who is allowed to turn an automation off if something goes wrong, and how do you fall back to manual work?",
+      "That doesn’t have to turn into bureaucracy. A future page on this site covers how to set this up lightly and workably.",
+      "AI automation for small and medium-sized businesses",
+      "For AI automation in smaller businesses, the same principles apply, with less room for experiments. There’s usually no separate IT team and no budget for a project that runs for a year. That’s not a disadvantage: it forces you to start small and concrete.",
+      "The best processes to start with",
+      "Start with a process that meets these five conditions:",
+      "It comes up at least dozens of times a week.",
+      "The input looks similar each time (the same kind of email, the same type of document).",
+      "Someone is already looking at the result, so you have a check step.",
+      "A mistake is visible and cheap to fix.",
+      "There’s one person who directly benefits and wants to own it.",
+      "Sorting incoming email, reading invoices and drafting quotes often meet this bar.",
+      "Costs and payback period",
+      "The cost of AI automation has four components: the one-off set-up (by an in-house staff member or a partner), licences for the platform, usage costs for the AI model per document or message processed, and management. The last two are the ones most often forgotten. The calculation is simple:",
+      "Gross saving per month = (time per action now minus time per action after automation, including checking) × number of actions × hourly cost.",
+      "Net saving per month = gross saving minus licences minus usage minus management.",
+      "Payback period in months = one-off cost divided by net saving per month.",
+      "Worked example with fictional, rounded figures. A business processes 400 invoices a month. By hand that takes 6 minutes per invoice, 40 hours in total. After automation, 2 minutes of checking remains per invoice, around 13 hours in total. That saves roughly 27 hours a month. At a fictional hourly cost of £45, that’s about £1,215 gross. Say licences, usage and management together cost £320 a month; that leaves roughly £895 net. With a one-off set-up cost of £9,000, you pay back the investment in about ten months.",
+      "The key caveat: hours saved are only a saving once that time is demonstrably used differently, or less contracted help is needed. How to work that out honestly will be covered elsewhere on this site.",
+      "How I approach AI automation",
+      "I’m an independent adviser. I don’t build automations myself and I don’t sell software or licences. What I do: work with you to decide what to automate, how to get it built, and how to keep it working. The build is done by your own team or a partner you contract directly, with no margin for me.",
+      "ReviewMap the process, with a baseline measurement of time, volume and errors",
+      "PrioritiseScore candidates on volume, variation, data, checking and ownership",
+      "ChooseStandard tool, your own team or a partner, with requirements and a cost estimate",
+      "GuideAcceptance criteria, test set, check step and management before go-live",
+      "From process to working automation. I advise and guide; the build is done by your own team or a partner you contract yourself.",
+      "Concretely, at each step I deliver something you can make a decision with: a process description with a baseline measurement, a prioritised list with the rejected candidates noted, a decision document on building, buying or bringing in a partner, and a measurement set-up for after go-live. During the build, I sit on your side of the table: I test the delivery against the agreed criteria and make sure management and checking are arranged.",
+      "If you need help finding a delivery partner, I can suggest parties from my partner network; you choose and contract them yourself. Who I am and how I work is on the about page.",
+      "Not sure yet which process should go first? The AI Readiness Assessment is the logical starting point. In 2-3 weeks you get a validated list of opportunities and a 90-day plan, for a fixed price agreed upfront (the proposal excludes VAT).",
+      "Tools and workflows",
+      "For most AI automation, you don’t need bespoke development. A workflow platform connects your systems and adds an AI step wherever needed. Well-known platforms, each with a feature the vendor highlights on its own site (as of September 2026):",
+      "Zapier focuses on connecting a wide range of apps; it states more than 9,000 integrations and also offers AI agents.",
+      "Make is a visual platform where you build flows as a diagram; it reports more than 3,000 ready-made app integrations.",
+      "n8n can be self-hosted, for example with Docker, alongside a hosted version, relevant if you want to keep data inside your own environment.",
+      "Microsoft Power Automate has cloud flows and desktop flows. The latter also automates tasks in desktop and web applications, a natural fit if you already work in Microsoft 365.",
+      "Prices and features change quickly; always check them with the vendor directly.",
+      "Want to know which processes in your organisation would pay off the most? Book a thirty-minute strategy call. By the end you’ll know what I’d do, even if that means you don’t need me.",
+      "Dave Willemstein Independent AI Advisor",
+      "Independent: no commissions, no partner deals, no margin on implementation partners.",
+      "About My partner network",
+      "Want to know where you stand with AI? See the AI Readiness Assessment →",
+      "Frequently asked questions",
+      "What's the difference between AI automation and an AI assistant like a chatbot?+",
+      "An AI assistant waits until someone asks a question. AI automation sits inside a process and repeats a fixed step every time, for example reading every incoming invoice or categorising every customer query. The first helps a person; the second changes a workflow.",
+      "Do I need to sort out my data before I can automate?+",
+      "Not everywhere. For reading emails or documents, you mainly need good examples and clear rules. Once an automation needs to look up or write data in your systems, the quality of that data starts to matter, and messy master data gets messy faster and at greater scale.",
+      "Can I set up AI automation myself without developers?+",
+      "Simple flows, yes, with no-code platforms. Once integrations with your own systems, sensitive data or high volume come into play, you need someone who can set up management, logging and error-handling. That can be an in-house IT person or a partner.",
+      "How do I stop an AI automation making mistakes that reach customers?+",
+      "At the start, let the AI only prepare and suggest, and have a staff member check everything that goes out. Measure for a few weeks how often that person has to correct it. Only once that's reliably low can you let steps run without a check, and then only ones you can undo.",
+      "What happens to staff when a process gets automated?+",
+      "Usually their role shifts from doing to checking and handling exceptions. Discuss beforehand what happens with the freed-up time. Without that conversation, the saving rarely shows up in the numbers, and resistance grows.",
+      "Sources",
+      "Zapier: AI automation and integrations (as of September 2026)",
+      "Make: visual automation platform (as of September 2026)",
+      "n8n: workflow automation, self-hostable (as of September 2026)",
+      "AI Act Service Desk (European Commission): Annex III, high-risk AI systems",
+      "AI Act Service Desk (European Commission): Article 2, scope",
+      "UK Government: AI regulation, a pro-innovation approach",
+      "Microsoft Learn: What is Power Automate?",
+      "Ready for impact?",
+      "From AI ambition to real results.",
+      "Book a no-obligation call. No pitch. Just sharp questions.",
+      "30 min., no pitch deckBook a call →"
+    ]
+  },
+  "links": [
+    {
+      "regio": "overig",
+      "soort": "intern",
+      "href": "#main",
+      "anker": "Skip to main content",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/",
+      "anker": "",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/services",
+      "anker": "Services",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/cases",
+      "anker": "Cases",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/approach",
+      "anker": "Approach",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/insights",
+      "anker": "Insights",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/about",
+      "anker": "About",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/nl/ai-automatisering",
+      "anker": "NL",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/contact",
+      "anker": "Book a call →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/",
+      "anker": "Home",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/contact",
+      "anker": "Book a strategy call →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/services/ai-readiness-assessment",
+      "anker": "See the AI Readiness Assessment →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/services/ai-readiness-assessment",
+      "anker": "AI Readiness Assessment",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/pricing",
+      "anker": "Dave Willemstein's rates and typical timelines",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "extern",
+      "href": "https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-2",
+      "anker": "Article 2 of the Act",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "extern",
+      "href": "https://www.gov.uk/government/publications/ai-regulation-a-pro-innovation-approach",
+      "anker": "AI regulation: a pro-innovation approach",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/cases/internal-ai-assistant-knowledge-workers",
+      "anker": "internal AI assistant for knowledge workers",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/partner-network",
+      "anker": "partner network",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/about",
+      "anker": "about",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/services/ai-readiness-assessment",
+      "anker": "AI Readiness Assessment",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/contact",
+      "anker": "Book a thirty-minute strategy call",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/about",
+      "anker": "About",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/partner-network",
+      "anker": "My partner network",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/services/ai-readiness-assessment",
+      "anker": "Want to know where you stand with AI? See the AI Readiness Assessment →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "extern",
+      "href": "https://zapier.com/",
+      "anker": "Zapier: AI automation and integrations (as of September 2026)",
+      "rel": "noopener"
+    },
+    {
+      "regio": "main",
+      "soort": "extern",
+      "href": "https://www.make.com/en",
+      "anker": "Make: visual automation platform (as of September 2026)",
+      "rel": "noopener"
+    },
+    {
+      "regio": "main",
+      "soort": "extern",
+      "href": "https://n8n.io/",
+      "anker": "n8n: workflow automation, self-hostable (as of September 2026)",
+      "rel": "noopener"
+    },
+    {
+      "regio": "main",
+      "soort": "extern",
+      "href": "https://ai-act-service-desk.ec.europa.eu/en/ai-act/annex-3",
+      "anker": "AI Act Service Desk (European Commission): Annex III, high-risk AI systems",
+      "rel": "noopener"
+    },
+    {
+      "regio": "main",
+      "soort": "extern",
+      "href": "https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-2",
+      "anker": "AI Act Service Desk (European Commission): Article 2, scope",
+      "rel": "noopener"
+    },
+    {
+      "regio": "main",
+      "soort": "extern",
+      "href": "https://www.gov.uk/government/publications/ai-regulation-a-pro-innovation-approach",
+      "anker": "UK Government: AI regulation, a pro-innovation approach",
+      "rel": "noopener"
+    },
+    {
+      "regio": "main",
+      "soort": "extern",
+      "href": "https://learn.microsoft.com/en-us/power-automate/flow-types",
+      "anker": "Microsoft Learn: What is Power Automate?",
+      "rel": "noopener"
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/contact",
+      "anker": "Book a call →",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/services/ai-readiness-assessment",
+      "anker": "AI Readiness Assessment",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/services/ai-strategy-sprint",
+      "anker": "AI Strategy Sprint",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/services/fractional-ai-lead",
+      "anker": "Fractional AI Lead",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/services",
+      "anker": "All services",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/cases",
+      "anker": "Cases",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/approach",
+      "anker": "Approach",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/insights",
+      "anker": "Insights",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/faq",
+      "anker": "FAQ",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/about",
+      "anker": "About",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-consulting",
+      "anker": "AI consulting",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-implementation",
+      "anker": "AI implementation",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-automation",
+      "anker": "AI automation",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-for-business",
+      "anker": "AI for business",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-development",
+      "anker": "AI development",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-agents",
+      "anker": "AI agents",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-policy",
+      "anker": "AI policy",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-workshop",
+      "anker": "AI workshop",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/markets",
+      "anker": "AI by industry",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/knowledge-base",
+      "anker": "Knowledge base",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/pricing",
+      "anker": "Pricing",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/partner-network",
+      "anker": "Partner network",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "overig",
+      "href": "mailto:dave@freelanceaiconsultant.com",
+      "anker": "dave@freelanceaiconsultant.com",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "extern",
+      "href": "https://www.linkedin.com/in/davewillemstein",
+      "anker": "LinkedIn ↗",
+      "rel": "noopener"
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/contact",
+      "anker": "Book a call",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/privacy",
+      "anker": "Privacy policy",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/terms",
+      "anker": "Terms & conditions",
+      "rel": null
+    }
+  ],
+  "structured_data": {
+    "sha256": "97b238ad2b0cd76c963aedb483a90dce341a69a45e09c4c758803ea0a7210f2f",
+    "items": [
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://freelanceaiconsultant.com/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "AI Automation",
+                "item": "https://freelanceaiconsultant.com/ai-automation"
+              }
+            ]
+          },
+          {
+            "@type": "Service",
+            "name": "AI Automation",
+            "serviceType": "ai automation",
+            "description": "AI automation takes repetitive work off your plate, from customer service to admin. See which processes to automate, what it costs, and how to scale it.",
+            "url": "https://freelanceaiconsultant.com/ai-automation",
+            "areaServed": "GB",
+            "provider": {
+              "@type": "Person",
+              "name": "Dave Willemstein",
+              "jobTitle": "Onafhankelijk AI-adviseur",
+              "url": "https://freelanceaiconsultant.com/over",
+              "sameAs": [
+                "https://www.linkedin.com/in/davewillemstein"
+              ]
+            }
+          },
+          {
+            "@type": "FAQPage",
+            "mainEntity": [
+              {
+                "@type": "Question",
+                "name": "What's the difference between AI automation and an AI assistant like a chatbot?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "An AI assistant waits until someone asks a question. AI automation sits inside a process and repeats a fixed step every time, for example reading every incoming invoice or categorising every customer query. The first helps a person; the second changes a workflow."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Do I need to sort out my data before I can automate?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Not everywhere. For reading emails or documents, you mainly need good examples and clear rules. Once an automation needs to look up or write data in your systems, the quality of that data starts to matter, and messy master data gets messy faster and at greater scale."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Can I set up AI automation myself without developers?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Simple flows, yes, with no-code platforms. Once integrations with your own systems, sensitive data or high volume come into play, you need someone who can set up management, logging and error-handling. That can be an in-house IT person or a partner."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "How do I stop an AI automation making mistakes that reach customers?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "At the start, let the AI only prepare and suggest, and have a staff member check everything that goes out. Measure for a few weeks how often that person has to correct it. Only once that's reliably low can you let steps run without a check, and then only ones you can undo."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "What happens to staff when a process gets automated?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Usually their role shifts from doing to checking and handling exceptions. Discuss beforehand what happens with the freed-up time. Without that conversation, the saving rarely shows up in the numbers, and resistance grows."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Where does an organisation start with AI automation, and what does advice on it cost?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "AI automation suits work with unstructured input, such as emails, documents and free text, and starts with a process that has high volume, low variation and a check step that already exists. Dave Willemstein doesn't build automations or sell software or licences, but advises independently on what gets automated, who builds it and how it keeps working. Anyone who doesn't yet know which process should come first can start with AI Readiness Assessment: in 2-3 weeks a validated list of opportunities and a 90-day plan for a fixed project fee, excluding VAT and travel expenses."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Is AI automation built by the adviser personally?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "No. AI automation is built by the client's own team or by a partner the client contracts directly, with no margin for the adviser. The adviser delivers a process description with a baseline measurement, a prioritised list, a decision document on building, buying or bringing in a partner, and a measurement set-up, and tests the delivery against the agreed criteria."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "How many cost components does AI automation have?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Four components determine the cost of AI automation: the one-off set-up, licences for the platform, usage costs for the AI model per document or message processed, and management. Usage and management are the ones most often forgotten."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Is bespoke development needed for AI automation?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "For most AI automation, no bespoke development is needed. A workflow platform connects an organisation's systems for AI automation and adds an AI step wherever needed. Prices and features for such platforms change quickly and should be checked with the vendor directly."
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "afbeeldingen": [
+    {
+      "regio": "header",
+      "src": "/images/freelance-ai-consultant-logo-header.png",
+      "alt": "freelanceaiconsultant.com logo",
+      "width": "600",
+      "height": "287",
+      "loading": null
+    },
+    {
+      "regio": "main",
+      "src": "/images/dave-portrait.jpg",
+      "alt": "Portrait of Dave Willemstein",
+      "width": "88",
+      "height": "88",
+      "loading": "lazy"
+    },
+    {
+      "regio": "footer",
+      "src": "/images/freelance-ai-consultant-icon-footer.png",
+      "alt": "",
+      "width": "192",
+      "height": "192",
+      "loading": "lazy"
+    }
+  ],
+  "laadprestaties": {
+    "scripts": [
+      {
+        "src": "/_astro/CookieConsent.astro_astro_type_script_index_0_lang.COcxE8NY.js",
+        "type": "module",
+        "inline_bytes": 0
+      },
+      {
+        "src": null,
+        "type": null,
+        "inline_bytes": 989
+      },
+      {
+        "src": null,
+        "type": null,
+        "inline_bytes": 493
+      },
+      {
+        "src": "/logo-carousel/logo-carousel.js?v=2",
+        "type": null,
+        "inline_bytes": 0
+      },
+      {
+        "src": null,
+        "type": null,
+        "inline_bytes": 725
+      }
+    ],
+    "stylesheets": [
+      "/_astro/_slug_.CzLXI3HH.css",
+      "/_astro/_slug_.Do5RJXa7.css",
+      "/logo-carousel/logo-carousel.css?v=2"
+    ],
+    "aantal_details": 5,
+    "aantal_tabellen": 1
+  },
+  "gemeten_op": "2026-11-05"
+}

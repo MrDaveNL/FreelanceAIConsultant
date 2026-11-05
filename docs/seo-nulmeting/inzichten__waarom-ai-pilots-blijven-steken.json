@@ -2,7 +2,7 @@
   "url": "/inzichten/waarom-ai-pilots-blijven-steken",
   "build_bestand": "dist/inzichten/waarom-ai-pilots-blijven-steken/index.html",
   "html": {
-    "bytes": 42367,
+    "bytes": 42422,
     "lang": "nl"
   },
   "beschermd": {
@@ -586,7 +586,7 @@
     }
   ],
   "structured_data": {
-    "sha256": "0ac4839b383f0c90029c4d1cb5a136c8c2cf35b8427cf8bdec367a38bb791ff4",
+    "sha256": "2b58fd74449a5650c343c2b7fa42a0d28c4a313176017e3cc1170fc71c557670",
     "items": [
       {
         "@context": "https://schema.org",
@@ -618,7 +618,10 @@
             "@type": "Person",
             "@id": "https://freelanceaiconsultant.com/#dave",
             "name": "Dave Willemstein",
-            "url": "https://freelanceaiconsultant.com/nl/over",
+            "url": "https://freelanceaiconsultant.com/about",
+            "sameAs": [
+              "https://www.linkedin.com/in/davewillemstein"
+            ],
             "jobTitle": "Onafhankelijk AI-adviseur"
           },
           {
@@ -740,5 +743,5 @@
     "aantal_details": 0,
     "aantal_tabellen": 0
   },
-  "gemeten_op": "2026-11-04"
+  "gemeten_op": "2026-11-05"
 }

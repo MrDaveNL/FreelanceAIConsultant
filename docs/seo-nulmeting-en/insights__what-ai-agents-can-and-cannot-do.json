@@ -1,0 +1,788 @@
+{
+  "url": "/insights/what-ai-agents-can-and-cannot-do",
+  "build_bestand": "dist/insights/what-ai-agents-can-and-cannot-do/index.html",
+  "html": {
+    "bytes": 41161,
+    "lang": "en"
+  },
+  "beschermd": {
+    "title": "What AI Agents Can and Cannot Do | Freelance AI Consultant",
+    "meta_description": "Where AI agents work well, where they break down, and the one question you need to answer before handing a business process over to one.",
+    "canonical": "https://freelanceaiconsultant.com/insights/what-ai-agents-can-and-cannot-do",
+    "robots_meta": null,
+    "hreflang": [
+      {
+        "hreflang": "en",
+        "href": "https://freelanceaiconsultant.com/insights/what-ai-agents-can-and-cannot-do"
+      },
+      {
+        "hreflang": "nl",
+        "href": "https://freelanceaiconsultant.com/nl/inzichten/ai-agents-wat-ze-wel-en-niet-kunnen"
+      },
+      {
+        "hreflang": "x-default",
+        "href": "https://freelanceaiconsultant.com/insights/what-ai-agents-can-and-cannot-do"
+      }
+    ],
+    "h1": [
+      "AI agents: what they can and cannot do"
+    ]
+  },
+  "social": {
+    "og:type": "website",
+    "og:locale": "en_US",
+    "og:site_name": "freelanceaiconsultant.com",
+    "og:title": "What AI Agents Can and Cannot Do | Freelance AI Consultant",
+    "og:description": "Where AI agents work well, where they break down, and the one question you need to answer before handing a business process over to one.",
+    "og:url": "https://freelanceaiconsultant.com/insights/what-ai-agents-can-and-cannot-do",
+    "og:image": "https://freelanceaiconsultant.com/images/dave-portrait.jpg",
+    "twitter:card": "summary_large_image",
+    "twitter:title": "What AI Agents Can and Cannot Do | Freelance AI Consultant",
+    "twitter:description": "Where AI agents work well, where they break down, and the one question you need to answer before handing a business process over to one.",
+    "twitter:image": "https://freelanceaiconsultant.com/images/dave-portrait.jpg"
+  },
+  "koppen": [
+    {
+      "niveau": 1,
+      "tekst": "AI agents: what they can and cannot do",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "What tasks are AI agents suited to, and where does it go wrong?",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 3,
+      "tekst": "What autonomy level does the advice say AI agents should start at?",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 3,
+      "tekst": "Is a confirmation step needed when AI agents send messages to customers or initiate payments?",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 3,
+      "tekst": "Is a complete log needed when deploying AI agents?",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "What makes an agent different",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "Where agents work well",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 3,
+      "tekst": "Preparatory work with a clear final check",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 3,
+      "tekst": "Steps you can undo without damage",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 3,
+      "tekst": "Routes with a hard, checkable outcome",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "Where agents break down",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 3,
+      "tekst": "Processes where a mistake propagates silently",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 3,
+      "tekst": "Actions with external consequences",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 3,
+      "tekst": "Long chains without an intermediate check",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 3,
+      "tekst": "Situations without a complete log",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "The autonomy level as a deliberate choice",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "The question you need to answer first",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "What this means in practice",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 3,
+      "tekst": "Key takeaways",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 3,
+      "tekst": "Which AI use cases actually deliver results?",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 3,
+      "tekst": "AI governance without bureaucracy: what you need at minimum",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "From AI ambition to concrete results.",
+      "regio": "main",
+      "id": null
+    }
+  ],
+  "bodytekst": {
+    "regio": "main",
+    "woorden": 1554,
+    "sha256": "f46a5ff0fee1e9faba87ba62b5a0316327dcb82fc62906e33b51da35bef7ae46",
+    "blokken": [
+      "Home",
+      "Insights",
+      "AI agents: what they can and cannot do in a business process",
+      "← Back to all insights",
+      "Use cases",
+      "AI agents: what they can and cannot do",
+      "An agent that takes its own steps and calls on systems is attractive and risky at the same time. The distinction lies in what happens when it gets it wrong.",
+      "◷ 4 min read 28 October 2026",
+      "DW",
+      "By Dave Willemstein Independent AI Advisor, independent, no vendor interests",
+      "I help organisations make AI decisions that create value. No bloated decks, just clear choices and tangible results.",
+      "trust, experience, impact ↓",
+      "Independent No vendor bias Senior only Since 2006",
+      "AT A GLANCE",
+      "Agents work well on reversible steps with a clear final check.",
+      "They break down on processes where a mistake propagates silently.",
+      "Start with preparing and proposing, not with executing.",
+      "Decide what a mistake costs first, then how much autonomy you give.",
+      "AI in Europe",
+      "European brands already running AI in production.",
+      "Not my clients. Examples of what happens once AI moves past the pilot stage.",
+      "Pause",
+      "Klarna",
+      "Sweden",
+      "AI customer service assistant",
+      "Zalando",
+      "Germany",
+      "Fashion assistant for product advice",
+      "Financial services",
+      "Investment firm",
+      "AI strategy and use-case portfolio",
+      "Booking.com",
+      "Netherlands",
+      "AI Trip Planner for travel planning",
+      "Siemens",
+      "Germany",
+      "Industrial Copilot for engineering",
+      "Retail",
+      "Enterprise retailer",
+      "AI-driven vendor selection",
+      "Spotify",
+      "Sweden",
+      "AI DJ and personalized playlists",
+      "Mercedes-Benz",
+      "Germany",
+      "Generative voice assistant in the car",
+      "Industrial / B2B",
+      "International manufacturer",
+      "AI roadmap and leadership",
+      "ING",
+      "Netherlands",
+      "Generative chatbot for customer queries",
+      "L'Oréal",
+      "France",
+      "Beauty Genius: personalized advice",
+      "Financial services",
+      "Financial services firm",
+      "KYC accelerated with AI document analysis",
+      "SAP",
+      "Germany",
+      "Joule: copilot in business software",
+      "Carrefour",
+      "France",
+      "Hopla: grocery shopping assistant",
+      "Strategy & AI",
+      "SaaS scale-up",
+      "AI readiness assessment",
+      "Adyen",
+      "Netherlands",
+      "AI-driven payment optimization",
+      "Philips",
+      "Netherlands",
+      "AI in medical imaging",
+      "Proces & productivity",
+      "Professional services firm",
+      "Internal AI assistant for knowledge workers",
+      "What tasks are AI agents suited to, and where does it go wrong?",
+      "AI agents are suited to preparatory work that a person decides on afterwards, to steps that can be undone without damage, and to tasks with a hard, checkable final test. It goes wrong in processes where a mistake propagates unnoticed, in actions with external consequences, in long chains without an intermediate check, and in situations without a complete log. How much autonomy an agent gets is a choice the organisation makes, depending on what a mistake costs and who notices it.",
+      "What autonomy level does the advice say AI agents should start at?",
+      "The advice is almost always to let AI agents start at level one or two, that is, preparing or proposing, even if the model can handle more. That phase makes clear which mistakes actually occur, and that knowledge is needed to determine where autonomy can safely increase.",
+      "Is a confirmation step needed when AI agents send messages to customers or initiate payments?",
+      "Yes, as standard: actions by AI agents with external consequences, such as a message to a customer, an order or a payment, need a confirmation step. The cost of a mistake then lands outside the organisation and cannot be taken back.",
+      "Is a complete log needed when deploying AI agents?",
+      "Yes, logging is not optional: without a complete trail of the steps AI agents took, a mistake cannot be reconstructed. Without a log of the steps taken, the sources consulted and the reason for a chosen route, an incident cannot be investigated; for regulated processes that is not an option, and for everything else it is unwise.",
+      "Source: article by Dave Willemstein. Updated: October 2026.",
+      "What makes an agent different",
+      "A standard AI application receives an instruction and gives an answer. An agent receives a goal and decides for itself which steps are needed: retrieving information, consulting a system, assessing an intermediate result, choosing a next step. That makes it more powerful, and it changes the risk question fundamentally.",
+      "With a standard answer, you assess one outcome. With an agent, you assess a chain in which a mistake in step two carries through to step five, possibly without the final output looking wrong. That is exactly where things go wrong in practice.",
+      "Where agents work well",
+      "Preparatory work with a clear final check",
+      "Gathering and organising information that a person then makes a decision on. Putting together a file from five sources, building a market overview, preparing a tender response. The agent does the search work, the person does the assessment.",
+      "This works because the mistake is visible at the moment it matters: the reviewer sees that something is missing or wrong, before anything irreversible happens.",
+      "Steps you can undo without damage",
+      "Drafting a concept, assigning a category that can be changed later, creating an internal note. If it goes wrong, you correct it and lose, at most, some time.",
+      "Routes with a hard, checkable outcome",
+      "If an objective test exists (a calculation that is right or wrong, a query that returns results or doesn't, a file that validates or doesn't), an agent can iterate independently until that test passes. The test is the safety valve.",
+      "Where agents break down",
+      "Processes where a mistake propagates silently",
+      "This is the most important category to avoid. If a wrong intermediate step leads to a final result that looks plausible, nobody discovers the mistake: not in the review, and not in the reporting. Financial processing, risk assessment, and anything where a number flows through to another system falls into this category.",
+      "Actions with external consequences",
+      "Sending a message to a customer, placing an order, changing an appointment, initiating a payment. Not because an agent can't technically do this, but because the cost of a mistake lands outside your organisation and you cannot take it back. A confirmation step belongs here as standard.",
+      "Long chains without an intermediate check",
+      "The more steps without a checkpoint, the greater the chance that the agent makes a wrong assumption somewhere halfway through and keeps building on it consistently. Practical limit: if there are more than a handful of steps without any check, build in an intermediate review, automated or human.",
+      "Situations without a complete log",
+      "If you cannot reconstruct which steps the agent took, which sources it consulted and why it chose a particular route, you cannot investigate an incident. For regulated processes that is not an option, and for everything else it's unwise.",
+      "The autonomy level as a deliberate choice",
+      "Autonomy is not a property of the technology but a setting you choose. Four levels, in ascending order:",
+      "Preparing: the agent gathers and organises, a person does everything after that. Lowest risk, often already the biggest time saving.",
+      "Proposing: the agent makes a concrete proposal including reasoning, a person approves or amends it.",
+      "Executing with confirmation: the agent takes the steps but asks for confirmation at the irreversible moments.",
+      "Acting independently: the full chain without intervention, with monitoring afterwards. Only for reversible steps with a hard final check.",
+      "My advice is almost always to start at level one or two, even if the model can handle more. Not out of caution, but because that's the phase in which you learn which mistakes actually occur. You need that knowledge to decide where you can safely increase autonomy, and you won't get that information anywhere else.",
+      "The question you need to answer first",
+      "For every step you hand over to an agent, one question: if this step goes wrong, who notices, when, and what does it cost to fix?",
+      "Three possible answers and what they mean:",
+      "Immediately visible, cheap to fix: give autonomy.",
+      "Visible later, fixable: autonomy with monitoring and a periodic sample check.",
+      "Not visible, or not fixable: no autonomy, full stop.",
+      "What this means in practice",
+      "The applications I see working in production are rarely the spectacular ones. They are agents that prepare files, bring together information from different systems, or draft a first version that a person finishes. The time saving is real (often tens of per cent on the preparatory step), and the risk is manageable because someone always looks at it before it matters.",
+      "The applications that fail are the chains that were given too much independence too soon. Not because the technology couldn't handle it, but because nobody had established what would happen if it got something wrong. That question takes half an hour, and determines whether your application is still running a year from now.",
+      "Key takeaways",
+      "✓",
+      "Reversibility as the test",
+      "Give autonomy on steps you can undo without damage.",
+      "✓",
+      "An agent is a process, not a tool",
+      "The question isn't which model, but which steps you hand over.",
+      "✓",
+      "Logging is not optional",
+      "Without a full record of the steps taken, you cannot reconstruct a mistake.",
+      "REMEMBER “Autonomy isn't a property of the model, it's a choice the organisation makes.”",
+      "Want to talk through your situation? 30 minutes, no obligation →",
+      "Further reading",
+      "⌕",
+      "Use cases",
+      "Which AI use cases actually deliver results?",
+      "Not the most spectacular, but the most boring. Four traits the winners share, and four patterns that almost always stall.",
+      "◷ 4 min read Read article →",
+      "▣",
+      "Governance",
+      "AI governance without bureaucracy: what you need at minimum",
+      "Governance nobody uses protects nobody. Four mechanisms that make the difference, and what you can safely skip.",
+      "◷ 5 min read Read article →",
+      "Ready for impact?",
+      "From AI ambition to concrete results.",
+      "Book a no-obligation call. No pitch. Just sharp questions.",
+      "30 min., no pitch deckBook a call →"
+    ]
+  },
+  "links": [
+    {
+      "regio": "overig",
+      "soort": "intern",
+      "href": "#main",
+      "anker": "Skip to main content",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/",
+      "anker": "",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/services",
+      "anker": "Services",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/cases",
+      "anker": "Cases",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/approach",
+      "anker": "Approach",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/insights",
+      "anker": "Insights",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/about",
+      "anker": "About",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/nl/inzichten/ai-agents-wat-ze-wel-en-niet-kunnen",
+      "anker": "NL",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/contact",
+      "anker": "Book a call →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/",
+      "anker": "Home",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/insights",
+      "anker": "Insights",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/insights",
+      "anker": "← Back to all insights",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/contact",
+      "anker": "Want to talk through your situation? 30 minutes, no obligation →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/insights/which-ai-use-cases-deliver-results",
+      "anker": "⌕ Use cases Which AI use cases actually deliver results? Not the most spectacular, but the most boring. Four traits the winners share, and four patterns that almost always stall. ◷ 4 min read Read article →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/insights/ai-governance-without-bureaucracy",
+      "anker": "▣ Governance AI governance without bureaucracy: what you need at minimum Governance nobody uses protects nobody. Four mechanisms that make the difference, and what you can safely skip. ◷ 5 min read Read article →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/contact",
+      "anker": "Book a call →",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/services/ai-readiness-assessment",
+      "anker": "AI Readiness Assessment",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/services/ai-strategy-sprint",
+      "anker": "AI Strategy Sprint",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/services/fractional-ai-lead",
+      "anker": "Fractional AI Lead",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/services",
+      "anker": "All services",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/cases",
+      "anker": "Cases",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/approach",
+      "anker": "Approach",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/insights",
+      "anker": "Insights",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/faq",
+      "anker": "FAQ",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/about",
+      "anker": "About",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-consulting",
+      "anker": "AI consulting",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-implementation",
+      "anker": "AI implementation",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-automation",
+      "anker": "AI automation",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-for-business",
+      "anker": "AI for business",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-development",
+      "anker": "AI development",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-agents",
+      "anker": "AI agents",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-policy",
+      "anker": "AI policy",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-workshop",
+      "anker": "AI workshop",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/markets",
+      "anker": "AI by industry",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/knowledge-base",
+      "anker": "Knowledge base",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/pricing",
+      "anker": "Pricing",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/partner-network",
+      "anker": "Partner network",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "overig",
+      "href": "mailto:dave@freelanceaiconsultant.com",
+      "anker": "dave@freelanceaiconsultant.com",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "extern",
+      "href": "https://www.linkedin.com/in/davewillemstein",
+      "anker": "LinkedIn ↗",
+      "rel": "noopener"
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/contact",
+      "anker": "Book a call",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/privacy",
+      "anker": "Privacy policy",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/terms",
+      "anker": "Terms & conditions",
+      "rel": null
+    }
+  ],
+  "structured_data": {
+    "sha256": "7d7a012f703bac729d1b8e2c68adf35f7723cfbe5210165637cbf2cba311daa9",
+    "items": [
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://freelanceaiconsultant.com/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Insights",
+                "item": "https://freelanceaiconsultant.com/insights"
+              },
+              {
+                "@type": "ListItem",
+                "position": 3,
+                "name": "AI agents: what they can and cannot do in a business process",
+                "item": "https://freelanceaiconsultant.com/insights/what-ai-agents-can-and-cannot-do"
+              }
+            ]
+          },
+          {
+            "@type": "Person",
+            "@id": "https://freelanceaiconsultant.com/#dave",
+            "name": "Dave Willemstein",
+            "url": "https://freelanceaiconsultant.com/about",
+            "sameAs": [
+              "https://www.linkedin.com/in/davewillemstein"
+            ],
+            "jobTitle": "Independent AI Advisor"
+          },
+          {
+            "@type": "BlogPosting",
+            "headline": "AI agents: what they can and cannot do in a business process",
+            "description": "Agents that carry out tasks independently are the promise of the moment. Where they work, where they break down, and the question you need to answer first.",
+            "datePublished": "2026-10-28",
+            "dateModified": "2026-10-28",
+            "inLanguage": "en-GB",
+            "articleSection": "Use cases",
+            "author": {
+              "@id": "https://freelanceaiconsultant.com/#dave"
+            },
+            "publisher": {
+              "@id": "https://freelanceaiconsultant.com/#dave"
+            },
+            "mainEntityOfPage": "https://freelanceaiconsultant.com/insights/what-ai-agents-can-and-cannot-do"
+          },
+          {
+            "@type": "FAQPage",
+            "mainEntity": [
+              {
+                "@type": "Question",
+                "name": "What tasks are AI agents suited to, and where does it go wrong?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "AI agents are suited to preparatory work that a person decides on afterwards, to steps that can be undone without damage, and to tasks with a hard, checkable final test. It goes wrong in processes where a mistake propagates unnoticed, in actions with external consequences, in long chains without an intermediate check, and in situations without a complete log. How much autonomy an agent gets is a choice the organisation makes, depending on what a mistake costs and who notices it."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "What autonomy level does the advice say AI agents should start at?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "The advice is almost always to let AI agents start at level one or two, that is, preparing or proposing, even if the model can handle more. That phase makes clear which mistakes actually occur, and that knowledge is needed to determine where autonomy can safely increase."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Is a confirmation step needed when AI agents send messages to customers or initiate payments?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Yes, as standard: actions by AI agents with external consequences, such as a message to a customer, an order or a payment, need a confirmation step. The cost of a mistake then lands outside the organisation and cannot be taken back."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Is a complete log needed when deploying AI agents?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Yes, logging is not optional: without a complete trail of the steps AI agents took, a mistake cannot be reconstructed. Without a log of the steps taken, the sources consulted and the reason for a chosen route, an incident cannot be investigated; for regulated processes that is not an option, and for everything else it is unwise."
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "afbeeldingen": [
+    {
+      "regio": "header",
+      "src": "/images/freelance-ai-consultant-logo-header.png",
+      "alt": "freelanceaiconsultant.com logo",
+      "width": "600",
+      "height": "287",
+      "loading": null
+    },
+    {
+      "regio": "main",
+      "src": "/images/dave-portrait.jpg",
+      "alt": "Dave Willemstein, Independent AI Advisor",
+      "width": "500",
+      "height": "620",
+      "loading": "lazy"
+    },
+    {
+      "regio": "footer",
+      "src": "/images/freelance-ai-consultant-icon-footer.png",
+      "alt": "",
+      "width": "192",
+      "height": "192",
+      "loading": "lazy"
+    }
+  ],
+  "laadprestaties": {
+    "scripts": [
+      {
+        "src": "/_astro/CookieConsent.astro_astro_type_script_index_0_lang.COcxE8NY.js",
+        "type": "module",
+        "inline_bytes": 0
+      },
+      {
+        "src": null,
+        "type": null,
+        "inline_bytes": 989
+      },
+      {
+        "src": null,
+        "type": null,
+        "inline_bytes": 493
+      },
+      {
+        "src": "/logo-carousel/logo-carousel.js?v=2",
+        "type": null,
+        "inline_bytes": 0
+      },
+      {
+        "src": null,
+        "type": null,
+        "inline_bytes": 725
+      }
+    ],
+    "stylesheets": [
+      "/_astro/_slug_.CzLXI3HH.css",
+      "/_astro/_slug_.C1c5Do37.css",
+      "/logo-carousel/logo-carousel.css?v=2"
+    ],
+    "aantal_details": 0,
+    "aantal_tabellen": 0
+  },
+  "gemeten_op": "2026-11-05"
+}

@@ -1,0 +1,741 @@
+{
+  "url": "/insights/build-buy-or-partner",
+  "build_bestand": "dist/insights/build-buy-or-partner/index.html",
+  "html": {
+    "bytes": 40156,
+    "lang": "en"
+  },
+  "beschermd": {
+    "title": "Build, Buy or Partner for AI: A Decision Framework",
+    "meta_description": "A four-question framework for choosing between building AI yourself, buying it, or partnering, with the maintenance costs most people skip.",
+    "canonical": "https://freelanceaiconsultant.com/insights/build-buy-or-partner",
+    "robots_meta": null,
+    "hreflang": [
+      {
+        "hreflang": "en",
+        "href": "https://freelanceaiconsultant.com/insights/build-buy-or-partner"
+      },
+      {
+        "hreflang": "nl",
+        "href": "https://freelanceaiconsultant.com/nl/inzichten/build-buy-of-partner"
+      },
+      {
+        "hreflang": "x-default",
+        "href": "https://freelanceaiconsultant.com/insights/build-buy-or-partner"
+      }
+    ],
+    "h1": [
+      "Build, buy or partner: what fits your situation?"
+    ]
+  },
+  "social": {
+    "og:type": "website",
+    "og:locale": "en_US",
+    "og:site_name": "freelanceaiconsultant.com",
+    "og:title": "Build, Buy or Partner for AI: A Decision Framework",
+    "og:description": "A four-question framework for choosing between building AI yourself, buying it, or partnering, with the maintenance costs most people skip.",
+    "og:url": "https://freelanceaiconsultant.com/insights/build-buy-or-partner",
+    "og:image": "https://freelanceaiconsultant.com/images/dave-portrait.jpg",
+    "twitter:card": "summary_large_image",
+    "twitter:title": "Build, Buy or Partner for AI: A Decision Framework",
+    "twitter:description": "A four-question framework for choosing between building AI yourself, buying it, or partnering, with the maintenance costs most people skip.",
+    "twitter:image": "https://freelanceaiconsultant.com/images/dave-portrait.jpg"
+  },
+  "koppen": [
+    {
+      "niveau": 1,
+      "tekst": "Build, buy or partner: what fits your situation?",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "When does an organisation choose build, buy or partner for AI?",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 3,
+      "tekst": "Does building it yourself stay cheap after year one, when choosing between build, buy or partner?",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 3,
+      "tekst": "When in doubt between build, buy or partner, is buying the cheapest way to learn what's needed?",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "Why this choice weighs heavier with AI",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "The four questions that decide the choice",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 3,
+      "tekst": "Question 1: Is this distinctive, or is it a commodity?",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 3,
+      "tekst": "Question 2: What does it cost in year five?",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 3,
+      "tekst": "Question 3: Who needs to be able to steer the outcome?",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 3,
+      "tekst": "Question 4: How do you get out of it again?",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "The hybrid form that works most often",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "Three situations where the choice is clear",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 3,
+      "tekst": "Key takeaways",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 3,
+      "tekst": "The role of the data foundation in successful AI initiatives",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 3,
+      "tekst": "AI vendor selection in eight steps",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "From AI ambition to concrete results.",
+      "regio": "main",
+      "id": null
+    }
+  ],
+  "bodytekst": {
+    "regio": "main",
+    "woorden": 1492,
+    "sha256": "71e7a225582e47168a346202427e4d22c6a0b34b01e30ff4f97d2e6594818725",
+    "blokken": [
+      "Home",
+      "Insights",
+      "Build, buy or partner: what fits your situation?",
+      "← Back to all insights",
+      "Organisation",
+      "Build, buy or partner: what fits your situation?",
+      "Build it yourself, buy it, or partner with someone? The choice determines your cost structure, your agility and your dependency for years. Here's how to make it an informed one.",
+      "◷ 4 min read 28 October 2026",
+      "DW",
+      "By Dave Willemstein Independent AI Advisor, independent, no vendor interests",
+      "I help organisations make AI decisions that create value. No bloated decks, just clear choices and tangible results.",
+      "trust, experience, impact ↓",
+      "Independent No vendor bias Senior only Since 2006",
+      "AT A GLANCE",
+      "Only build what sets you apart in the market.",
+      "Buy everything that's a commodity, even if you can build it yourself.",
+      "Partner where you want to steer the outcome but don't want to own the technology.",
+      "The maintenance question matters more than the build question.",
+      "AI in Europe",
+      "European brands already running AI in production.",
+      "Not my clients. Examples of what happens once AI moves past the pilot stage.",
+      "Pause",
+      "Klarna",
+      "Sweden",
+      "AI customer service assistant",
+      "Zalando",
+      "Germany",
+      "Fashion assistant for product advice",
+      "Financial services",
+      "Investment firm",
+      "AI strategy and use-case portfolio",
+      "Booking.com",
+      "Netherlands",
+      "AI Trip Planner for travel planning",
+      "Siemens",
+      "Germany",
+      "Industrial Copilot for engineering",
+      "Retail",
+      "Enterprise retailer",
+      "AI-driven vendor selection",
+      "Spotify",
+      "Sweden",
+      "AI DJ and personalized playlists",
+      "Mercedes-Benz",
+      "Germany",
+      "Generative voice assistant in the car",
+      "Industrial / B2B",
+      "International manufacturer",
+      "AI roadmap and leadership",
+      "ING",
+      "Netherlands",
+      "Generative chatbot for customer queries",
+      "L'Oréal",
+      "France",
+      "Beauty Genius: personalized advice",
+      "Financial services",
+      "Financial services firm",
+      "KYC accelerated with AI document analysis",
+      "SAP",
+      "Germany",
+      "Joule: copilot in business software",
+      "Carrefour",
+      "France",
+      "Hopla: grocery shopping assistant",
+      "Strategy & AI",
+      "SaaS scale-up",
+      "AI readiness assessment",
+      "Adyen",
+      "Netherlands",
+      "AI-driven payment optimization",
+      "Philips",
+      "Netherlands",
+      "AI in medical imaging",
+      "Proces & productivity",
+      "Professional services firm",
+      "Internal AI assistant for knowledge workers",
+      "When does an organisation choose build, buy or partner for AI?",
+      "The choice between build, buy or partner for AI depends on four questions: is the application distinctive, what does it cost in year five, who needs to be able to steer the outcome, and how does the exit work. Building yourself only fits what sets an organisation apart in the market, buying fits everything that's a commodity, and a partner fits applications that need steering on the outcome without owning the technology. The setup that holds up most often is a mix: buy the building blocks, build the layer that holds your own knowledge, and bring in a partner for the implementation.",
+      "Does building it yourself stay cheap after year one, when choosing between build, buy or partner?",
+      "The conclusion often reverses once the maintenance is calculated over five years and compared with a licence: for build, buy or partner, building is cheap in year one.",
+      "When in doubt between build, buy or partner, is buying the cheapest way to learn what's needed?",
+      "Almost always: when in doubt between build, buy or partner, buying is almost always the cheapest way to learn what's actually needed. Building later is still possible, with a sharper specification.",
+      "Source: article by Dave Willemstein. Updated: October 2026.",
+      "Why this choice weighs heavier with AI",
+      "With classic software, build-or-buy was mainly a cost question. With AI, three extra factors make the trade-off structurally different.",
+      "First, the underlying technology changes faster than your depreciation period. A model you fine-tune yourself today can be overtaken within eighteen months by a generic model that does it better out of the box, and more cheaply. Second, maintenance is fundamentally different: models quietly degrade as reality shifts, which calls for permanent monitoring rather than occasional patching. Third, the value often doesn't sit in the model but in your data and your working process, and you can't buy either of those anyway.",
+      "The four questions that decide the choice",
+      "Question 1: Is this distinctive, or is it a commodity?",
+      "The only good reason to build it yourself is that it sets you apart in the market. Not that it's fun, not that your team can do it, and not that it looks cheaper.",
+      "A hard test: can your main competitor buy the same result from a supplier tomorrow? If the answer is yes, it's a commodity, however technically interesting it is. Document extraction, speech recognition, summarising, standard classification: all commodities. The way you combine those building blocks with your own data and processes: that's where the distinction can lie.",
+      "In practice, at most ten to twenty per cent of what organisations want to build is genuinely distinctive. The rest gets built because it can be.",
+      "Question 2: What does it cost in year five?",
+      "Building is cheap in year one. You have a team, it builds something, it works. The costs that come after are rarely counted in:",
+      "Model monitoring and retraining as the data shifts",
+      "Keeping up with the underlying models and API versions",
+      "Security, logging and audit trail",
+      "Documentation and knowledge transfer when people leave",
+      "The opportunity cost of engineers maintaining this instead of building something new",
+      "A rule of thumb from practice: the annual maintenance of a self-built AI application runs between 20% and 40% of the original build cost. Run that through for five years and compare it to a licence. The conclusion often reverses.",
+      "Question 3: Who needs to be able to steer the outcome?",
+      "This is the question that justifies partnering. There are applications where you don't need to own the technology, but you do need influence over how the outcome comes about. Think of risk models, pricing, or anything that communicates towards customers on behalf of your brand.",
+      "A standard product rarely gives you that influence. Building it yourself gives you full influence but also the full burden. A partnership arrangement (where a supplier builds and manages, but you set the rules, thresholds and evaluation criteria) sits in between. It works if you arrange it well contractually, and it goes wrong if you run it on trust.",
+      "Question 4: How do you get out of it again?",
+      "The exit question belongs in the design, not in the renewal discussion three years from now. For each of the three options, exit looks different:",
+      "Build: exit means finding someone who understands your codebase. The risk sits in key-person dependency and missing documentation.",
+      "Buy: exit means getting your data and your configured logic out. Establish the format and the timeframe before signing.",
+      "Partner: exit means handover of both the build and the knowledge. Include a handover clause with a concrete deliverable, not an intention.",
+      "The hybrid form that works most often",
+      "In most projects I guide, the answer isn't one of the three in pure form. The setup that holds up most often:",
+      "Buy the building blocks. Models, infrastructure, standard components. This is where suppliers have economies of scale you'll never match.",
+      "Build the layer that holds your knowledge. The rules, the prompts, the evaluation sets, the link to your processes. This is small in scope and large in value.",
+      "Partner for implementation. But keep ownership of the evaluation criteria yourself.",
+      "Concretely: an organisation automating document processing buys the language model and the platform, builds its own field-extraction rules and a test set of two hundred assessed files, and has the integration done by a partner. The test set is the most valuable part and costs the least money.",
+      "Three situations where the choice is clear",
+      "Build if it touches directly on why customers choose you, you have exclusive access to the data, and you have a team that can still maintain this in five years.",
+      "Buy if there are three or more serious suppliers, the functionality is stable, and your main concern is time to value.",
+      "Partner if the technology is mature but the application is sensitive, and you want to steer the outcome but not the codebase.",
+      "Still unsure? Then buying is almost always the cheapest way to learn what you actually need. You can still build later, with a sharper specification and without losing a year.",
+      "Key takeaways",
+      "✓",
+      "Distinctive or not?",
+      "If your competitor can buy it tomorrow, don't build it yourself.",
+      "✓",
+      "Calculate to year five",
+      "Building is cheap in year one and expensive from year three.",
+      "✓",
+      "Design the exit in",
+      "For every choice: how do you get out of it, and what does that cost?",
+      "REMEMBER “You're not building software, you're adopting a maintenance obligation.”",
+      "Want to talk through your situation? 30 minutes, no obligation →",
+      "Further reading",
+      "◫",
+      "Tools & data",
+      "The role of the data foundation in successful AI initiatives",
+      "\"Get your data in order first\" is as often an excuse as it is a necessity. How to work out which one applies to you.",
+      "◷ 4 min read Read article →",
+      "◈",
+      "Tools & data",
+      "AI vendor selection in eight steps",
+      "Criteria first, vendors second. A selection process built to withstand good demos and internal preferences.",
+      "◷ 5 min read Read article →",
+      "Ready for impact?",
+      "From AI ambition to concrete results.",
+      "Book a no-obligation call. No pitch. Just sharp questions.",
+      "30 min., no pitch deckBook a call →"
+    ]
+  },
+  "links": [
+    {
+      "regio": "overig",
+      "soort": "intern",
+      "href": "#main",
+      "anker": "Skip to main content",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/",
+      "anker": "",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/services",
+      "anker": "Services",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/cases",
+      "anker": "Cases",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/approach",
+      "anker": "Approach",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/insights",
+      "anker": "Insights",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/about",
+      "anker": "About",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/nl/inzichten/build-buy-of-partner",
+      "anker": "NL",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/contact",
+      "anker": "Book a call →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/",
+      "anker": "Home",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/insights",
+      "anker": "Insights",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/insights",
+      "anker": "← Back to all insights",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/contact",
+      "anker": "Want to talk through your situation? 30 minutes, no obligation →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/insights/the-data-foundation-under-ai",
+      "anker": "◫ Tools & data The role of the data foundation in successful AI initiatives \"Get your data in order first\" is as often an excuse as it is a necessity. How to work out which one applies to you. ◷ 4 min read Read article →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/insights/ai-vendor-selection-in-eight-steps",
+      "anker": "◈ Tools & data AI vendor selection in eight steps Criteria first, vendors second. A selection process built to withstand good demos and internal preferences. ◷ 5 min read Read article →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/contact",
+      "anker": "Book a call →",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/services/ai-readiness-assessment",
+      "anker": "AI Readiness Assessment",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/services/ai-strategy-sprint",
+      "anker": "AI Strategy Sprint",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/services/fractional-ai-lead",
+      "anker": "Fractional AI Lead",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/services",
+      "anker": "All services",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/cases",
+      "anker": "Cases",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/approach",
+      "anker": "Approach",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/insights",
+      "anker": "Insights",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/faq",
+      "anker": "FAQ",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/about",
+      "anker": "About",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-consulting",
+      "anker": "AI consulting",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-implementation",
+      "anker": "AI implementation",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-automation",
+      "anker": "AI automation",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-for-business",
+      "anker": "AI for business",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-development",
+      "anker": "AI development",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-agents",
+      "anker": "AI agents",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-policy",
+      "anker": "AI policy",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-workshop",
+      "anker": "AI workshop",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/markets",
+      "anker": "AI by industry",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/knowledge-base",
+      "anker": "Knowledge base",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/pricing",
+      "anker": "Pricing",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/partner-network",
+      "anker": "Partner network",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "overig",
+      "href": "mailto:dave@freelanceaiconsultant.com",
+      "anker": "dave@freelanceaiconsultant.com",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "extern",
+      "href": "https://www.linkedin.com/in/davewillemstein",
+      "anker": "LinkedIn ↗",
+      "rel": "noopener"
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/contact",
+      "anker": "Book a call",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/privacy",
+      "anker": "Privacy policy",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/terms",
+      "anker": "Terms & conditions",
+      "rel": null
+    }
+  ],
+  "structured_data": {
+    "sha256": "5a2025faa2c1ae381a3ade343ca6c9f38d850aeaeb857f9ad777d173d01a5c4d",
+    "items": [
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://freelanceaiconsultant.com/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Insights",
+                "item": "https://freelanceaiconsultant.com/insights"
+              },
+              {
+                "@type": "ListItem",
+                "position": 3,
+                "name": "Build, buy or partner: what fits your situation?",
+                "item": "https://freelanceaiconsultant.com/insights/build-buy-or-partner"
+              }
+            ]
+          },
+          {
+            "@type": "Person",
+            "@id": "https://freelanceaiconsultant.com/#dave",
+            "name": "Dave Willemstein",
+            "url": "https://freelanceaiconsultant.com/about",
+            "sameAs": [
+              "https://www.linkedin.com/in/davewillemstein"
+            ],
+            "jobTitle": "Independent AI Advisor"
+          },
+          {
+            "@type": "BlogPosting",
+            "headline": "Build, buy or partner: what fits your situation?",
+            "description": "The question is rarely \"can we build this ourselves?\" but \"do we still want to be maintaining this in three years?\" A decision framework in four questions.",
+            "datePublished": "2026-10-28",
+            "dateModified": "2026-10-28",
+            "inLanguage": "en-GB",
+            "articleSection": "Organisation",
+            "author": {
+              "@id": "https://freelanceaiconsultant.com/#dave"
+            },
+            "publisher": {
+              "@id": "https://freelanceaiconsultant.com/#dave"
+            },
+            "mainEntityOfPage": "https://freelanceaiconsultant.com/insights/build-buy-or-partner"
+          },
+          {
+            "@type": "FAQPage",
+            "mainEntity": [
+              {
+                "@type": "Question",
+                "name": "When does an organisation choose build, buy or partner for AI?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "The choice between build, buy or partner for AI depends on four questions: is the application distinctive, what does it cost in year five, who needs to be able to steer the outcome, and how does the exit work. Building yourself only fits what sets an organisation apart in the market, buying fits everything that's a commodity, and a partner fits applications that need steering on the outcome without owning the technology. The setup that holds up most often is a mix: buy the building blocks, build the layer that holds your own knowledge, and bring in a partner for the implementation."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Does building it yourself stay cheap after year one, when choosing between build, buy or partner?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "The conclusion often reverses once the maintenance is calculated over five years and compared with a licence: for build, buy or partner, building is cheap in year one."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "When in doubt between build, buy or partner, is buying the cheapest way to learn what's needed?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Almost always: when in doubt between build, buy or partner, buying is almost always the cheapest way to learn what's actually needed. Building later is still possible, with a sharper specification."
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "afbeeldingen": [
+    {
+      "regio": "header",
+      "src": "/images/freelance-ai-consultant-logo-header.png",
+      "alt": "freelanceaiconsultant.com logo",
+      "width": "600",
+      "height": "287",
+      "loading": null
+    },
+    {
+      "regio": "main",
+      "src": "/images/dave-portrait.jpg",
+      "alt": "Dave Willemstein, Independent AI Advisor",
+      "width": "500",
+      "height": "620",
+      "loading": "lazy"
+    },
+    {
+      "regio": "footer",
+      "src": "/images/freelance-ai-consultant-icon-footer.png",
+      "alt": "",
+      "width": "192",
+      "height": "192",
+      "loading": "lazy"
+    }
+  ],
+  "laadprestaties": {
+    "scripts": [
+      {
+        "src": "/_astro/CookieConsent.astro_astro_type_script_index_0_lang.COcxE8NY.js",
+        "type": "module",
+        "inline_bytes": 0
+      },
+      {
+        "src": null,
+        "type": null,
+        "inline_bytes": 989
+      },
+      {
+        "src": null,
+        "type": null,
+        "inline_bytes": 493
+      },
+      {
+        "src": "/logo-carousel/logo-carousel.js?v=2",
+        "type": null,
+        "inline_bytes": 0
+      },
+      {
+        "src": null,
+        "type": null,
+        "inline_bytes": 725
+      }
+    ],
+    "stylesheets": [
+      "/_astro/_slug_.CzLXI3HH.css",
+      "/_astro/_slug_.C1c5Do37.css",
+      "/logo-carousel/logo-carousel.css?v=2"
+    ],
+    "aantal_details": 0,
+    "aantal_tabellen": 0
+  },
+  "gemeten_op": "2026-11-05"
+}

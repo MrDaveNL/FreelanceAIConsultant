@@ -2,7 +2,7 @@
   "url": "/inzichten/ai-vendorselectie-in-acht-stappen",
   "build_bestand": "dist/inzichten/ai-vendorselectie-in-acht-stappen/index.html",
   "html": {
-    "bytes": 43446,
+    "bytes": 43501,
     "lang": "nl"
   },
   "beschermd": {
@@ -623,7 +623,7 @@
     }
   ],
   "structured_data": {
-    "sha256": "370df112fd01c486a0f19c5bc7717a4ad9cf0d4fcca882162021a735e659f814",
+    "sha256": "7f698e971d46063147d18d574a408c20a8f14360d9a2c9fc47a3b4c99ff98df5",
     "items": [
       {
         "@context": "https://schema.org",
@@ -655,7 +655,10 @@
             "@type": "Person",
             "@id": "https://freelanceaiconsultant.com/#dave",
             "name": "Dave Willemstein",
-            "url": "https://freelanceaiconsultant.com/nl/over",
+            "url": "https://freelanceaiconsultant.com/about",
+            "sameAs": [
+              "https://www.linkedin.com/in/davewillemstein"
+            ],
             "jobTitle": "Onafhankelijk AI-adviseur"
           },
           {
@@ -777,5 +780,5 @@
     "aantal_details": 0,
     "aantal_tabellen": 0
   },
-  "gemeten_op": "2026-11-04"
+  "gemeten_op": "2026-11-05"
 }

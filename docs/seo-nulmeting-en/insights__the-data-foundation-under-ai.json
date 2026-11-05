@@ -1,0 +1,763 @@
+{
+  "url": "/insights/the-data-foundation-under-ai",
+  "build_bestand": "dist/insights/the-data-foundation-under-ai/index.html",
+  "html": {
+    "bytes": 41254,
+    "lang": "en"
+  },
+  "beschermd": {
+    "title": "The Data Foundation Under Successful AI Initiatives",
+    "meta_description": "\"Get your data in order first\" is as often an excuse as a necessity. How to work out which applies to your AI initiative, and what to do about it.",
+    "canonical": "https://freelanceaiconsultant.com/insights/the-data-foundation-under-ai",
+    "robots_meta": null,
+    "hreflang": [
+      {
+        "hreflang": "en",
+        "href": "https://freelanceaiconsultant.com/insights/the-data-foundation-under-ai"
+      },
+      {
+        "hreflang": "nl",
+        "href": "https://freelanceaiconsultant.com/nl/inzichten/het-datafundament-onder-ai"
+      },
+      {
+        "hreflang": "x-default",
+        "href": "https://freelanceaiconsultant.com/insights/the-data-foundation-under-ai"
+      }
+    ],
+    "h1": [
+      "The data foundation under your AI initiatives"
+    ]
+  },
+  "social": {
+    "og:type": "website",
+    "og:locale": "en_US",
+    "og:site_name": "freelanceaiconsultant.com",
+    "og:title": "The Data Foundation Under Successful AI Initiatives",
+    "og:description": "\"Get your data in order first\" is as often an excuse as a necessity. How to work out which applies to your AI initiative, and what to do about it.",
+    "og:url": "https://freelanceaiconsultant.com/insights/the-data-foundation-under-ai",
+    "og:image": "https://freelanceaiconsultant.com/images/dave-portrait.jpg",
+    "twitter:card": "summary_large_image",
+    "twitter:title": "The Data Foundation Under Successful AI Initiatives",
+    "twitter:description": "\"Get your data in order first\" is as often an excuse as a necessity. How to work out which applies to your AI initiative, and what to do about it.",
+    "twitter:image": "https://freelanceaiconsultant.com/images/dave-portrait.jpg"
+  },
+  "koppen": [
+    {
+      "niveau": 1,
+      "tekst": "The data foundation under your AI initiatives",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "Does the data foundation need to be in order before an organisation starts with AI?",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 3,
+      "tekst": "Is a central data warehouse needed for the data foundation under a first AI use case?",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 3,
+      "tekst": "Are there situations where tackling the data foundation first is the right answer?",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 3,
+      "tekst": "How many terms are defined to tackle the definitions problem in the data foundation?",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "Two truths that contradict each other",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "What actually matters",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 3,
+      "tekst": "Problem 1: Definitions (serious, often underestimated)",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 3,
+      "tekst": "Problem 2: Lineage and traceability (serious for regulated work)",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 3,
+      "tekst": "Problem 3: Quality and completeness (manageable)",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 3,
+      "tekst": "Problem 4: Accessibility and infrastructure (usually the least urgent)",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "The use-case-led order",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "When \"data first\" is the right answer",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "A half-day test",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 3,
+      "tekst": "Key takeaways",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 3,
+      "tekst": "Build, buy or partner: what fits your situation?",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 3,
+      "tekst": "AI governance without bureaucracy: what you need at minimum",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "From AI ambition to concrete results.",
+      "regio": "main",
+      "id": null
+    }
+  ],
+  "bodytekst": {
+    "regio": "main",
+    "woorden": 1599,
+    "sha256": "e381db779f57b062d00cff64a34e35af00092826e2640abc2fa7989a6b3d69b1",
+    "blokken": [
+      "Home",
+      "Insights",
+      "The role of the data foundation in successful AI initiatives",
+      "← Back to all insights",
+      "Tools & data",
+      "The data foundation under your AI initiatives",
+      "The most common advice in AI is also the most dangerous: get your data in order first. Sometimes that's right. Often it's a way to do nothing for another two years.",
+      "◷ 4 min read 28 October 2026",
+      "DW",
+      "By Dave Willemstein Independent AI Advisor, independent, no vendor interests",
+      "I help organisations make AI decisions that create value. No bloated decks, just clear choices and tangible results.",
+      "trust, experience, impact ↓",
+      "Independent No vendor bias Senior only Since 2006",
+      "AT A GLANCE",
+      "You don't need a perfect data foundation, you need enough foundation for one use case.",
+      "Definitions matter more than volume or infrastructure.",
+      "Build the foundation alongside a use case, not ahead of it.",
+      "Getting data in order with no application attached is a project with no end.",
+      "AI in Europe",
+      "European brands already running AI in production.",
+      "Not my clients. Examples of what happens once AI moves past the pilot stage.",
+      "Pause",
+      "Klarna",
+      "Sweden",
+      "AI customer service assistant",
+      "Zalando",
+      "Germany",
+      "Fashion assistant for product advice",
+      "Financial services",
+      "Investment firm",
+      "AI strategy and use-case portfolio",
+      "Booking.com",
+      "Netherlands",
+      "AI Trip Planner for travel planning",
+      "Siemens",
+      "Germany",
+      "Industrial Copilot for engineering",
+      "Retail",
+      "Enterprise retailer",
+      "AI-driven vendor selection",
+      "Spotify",
+      "Sweden",
+      "AI DJ and personalized playlists",
+      "Mercedes-Benz",
+      "Germany",
+      "Generative voice assistant in the car",
+      "Industrial / B2B",
+      "International manufacturer",
+      "AI roadmap and leadership",
+      "ING",
+      "Netherlands",
+      "Generative chatbot for customer queries",
+      "L'Oréal",
+      "France",
+      "Beauty Genius: personalized advice",
+      "Financial services",
+      "Financial services firm",
+      "KYC accelerated with AI document analysis",
+      "SAP",
+      "Germany",
+      "Joule: copilot in business software",
+      "Carrefour",
+      "France",
+      "Hopla: grocery shopping assistant",
+      "Strategy & AI",
+      "SaaS scale-up",
+      "AI readiness assessment",
+      "Adyen",
+      "Netherlands",
+      "AI-driven payment optimization",
+      "Philips",
+      "Netherlands",
+      "AI in medical imaging",
+      "Proces & productivity",
+      "Professional services firm",
+      "Internal AI assistant for knowledge workers",
+      "Does the data foundation need to be in order before an organisation starts with AI?",
+      "A perfect data foundation isn't needed to start with AI: enough of a foundation for one use case is sufficient. The approach that works in practice starts with one use case that has clear value and an owner in the business, and fixes the definitions, lineage and quality only for that use case's own data sources. After three or four use cases, a foundation emerges that has grown from real use, smaller than the ideal picture and considerably more reliable.",
+      "Is a central data warehouse needed for the data foundation under a first AI use case?",
+      "Often not: for the data foundation under a first use case, a daily export is often enough. Accessibility and infrastructure are usually the least urgent data problem, and in practice often the easiest to solve, especially for one use case.",
+      "Are there situations where tackling the data foundation first is the right answer?",
+      "Yes. Delaying is wise with three signals around the data foundation: the core entity isn't clearly defined, the data you need isn't being captured, or the source has no owner. Those signals are about meaning and ownership, not technology.",
+      "How many terms are defined to tackle the definitions problem in the data foundation?",
+      "Five to ten: the approach to the definitions problem in the data foundation is to define only the terms that the use case touches, not the whole company data model. According to the article, that's two weeks of work instead of two years.",
+      "Source: article by Dave Willemstein. Updated: October 2026.",
+      "Two truths that contradict each other",
+      "The first: without reliable data, AI delivers unreliable outcomes. That's not in dispute.",
+      "The second: organisations that want their entire data landscape in order before they start with AI rarely get to AI at all. The data foundation is never finished, after all, and there's always another layer that should come first.",
+      "Both are true. The way out is in how you phrase the question. \"Is our data in order?\" is a question you can't answer. \"Is this data good enough to base this specific decision on?\" you can answer, within a week.",
+      "What actually matters",
+      "When I run data scans ahead of AI projects, I come across four problems. They're not equally serious and they don't need the same fix.",
+      "Problem 1: Definitions (serious, often underestimated)",
+      "Four systems, three definitions of \"customer\". Two departments that calculate \"revenue\" differently. A product code that's a variant in one system and a separate product in another. This is by far the most common problem, and the most underestimated.",
+      "It's serious because no amount of technology fixes it. A model trained on inconsistently defined data learns that inconsistency too. And it's underestimated because everyone works consistently within their own department. The problem is only visible once you look across departments.",
+      "Approach: define only the five to ten terms that your use case touches. Not the whole company data model. That's two weeks of work instead of two years.",
+      "Problem 2: Lineage and traceability (serious for regulated work)",
+      "Can you trace a number in a report back to where it came from and what's been done to it? For AI applications that influence decisions, this isn't a luxury. Regulators, auditors and eventually your own board will ask that question.",
+      "Approach: map the lineage for the data flows your use case actually uses. Document the transformations. That doesn't need an expensive tool: a readable document that's accurate is worth more than a lineage tool nobody maintains.",
+      "Problem 3: Quality and completeness (manageable)",
+      "Missing fields, inconsistent entry, historical data that changed format halfway through. Annoying, but this is the type of problem technology actually helps with, and one you can quantify.",
+      "Approach: measure it. What percentage of records has the field you need? If it's 94%, you can get moving, and the question becomes what to do with the remaining 6%. If it's 40%, you're having a different conversation.",
+      "Problem 4: Accessibility and infrastructure (usually the least urgent)",
+      "No central data warehouse, data spread across systems, no APIs. This feels like the biggest problem because it's the most visible, and because suppliers are happy to sell you a platform for it. In practice, it's often the easiest to solve, especially for one use case.",
+      "Approach: for a first use case, a daily export is often enough. Don't build a platform to test a hypothesis.",
+      "The use-case-led order",
+      "The approach that works in practice reverses the order. You don't build the foundation upfront, you pull it along with your first applications.",
+      "Step 1: Choose one use case with clear value and an owner in the business.",
+      "Step 2: Map which data that use case actually needs: usually three to seven sources, not thirty.",
+      "Step 3: Fix the definitions, lineage and quality for those sources only. Do this properly, because it becomes your reference.",
+      "Step 4: Build the use case and measure whether it works.",
+      "Step 5: Choose the next use case that reuses as many of the same sources as possible.",
+      "After three or four use cases, you have a foundation that's grown out of real use. It's smaller than the ideal picture, and considerably more reliable, because every component is tested in production.",
+      "When \"data first\" is the right answer",
+      "There are situations where delaying really is wise. Three signals:",
+      "The core entity isn't clearly defined. If you can't pin down who counts as a customer, or what counts as one order, that affects every use case. Fixing this first saves you rework on everything that follows.",
+      "The data you need isn't being captured. No amount of clever technology creates data that doesn't exist. The first step then is a change to how you record things, and that takes time.",
+      "There's no owner for the source. If nobody is responsible for a dataset, it won't be maintained either, and your application will quietly degrade within six months.",
+      "Notice that none of these three is about technology or a missing platform. All three are about meaning and ownership. That's what the data foundation is really about. The rest is infrastructure, and infrastructure you can buy.",
+      "A half-day test",
+      "Want to know where you stand? Take one concrete decision you want AI to support, and try to reconstruct it by hand for ten past cases. If that takes an afternoon, your foundation is good enough. If it takes two weeks and you have to call three departments, you know exactly which part to fix first. And it's almost never the part the platform proposal was about.",
+      "Key takeaways",
+      "✓",
+      "Foundation per use case",
+      "Don't ask \"is our data in order?\" Ask \"is this data good enough for this decision?\"",
+      "✓",
+      "Definitions first",
+      "Four systems with three definitions of \"customer\" is a bigger problem than a missing data warehouse.",
+      "✓",
+      "Lineage counts",
+      "With AI, you need to be able to explain where a number came from. That's a governance question, not a technical one.",
+      "REMEMBER “A data foundation that isn't pulled forward by a concrete application never gets finished.”",
+      "Want to talk through your situation? 30 minutes, no obligation →",
+      "Further reading",
+      "⇄",
+      "Organisation",
+      "Build, buy or partner: what fits your situation?",
+      "The question is rarely \"can we build this ourselves?\" but \"do we still want to be maintaining this in three years?\" A decision framework in four questions.",
+      "◷ 4 min read Read article →",
+      "▣",
+      "Governance",
+      "AI governance without bureaucracy: what you need at minimum",
+      "Governance nobody uses protects nobody. Four mechanisms that make the difference, and what you can safely skip.",
+      "◷ 5 min read Read article →",
+      "Ready for impact?",
+      "From AI ambition to concrete results.",
+      "Book a no-obligation call. No pitch. Just sharp questions.",
+      "30 min., no pitch deckBook a call →"
+    ]
+  },
+  "links": [
+    {
+      "regio": "overig",
+      "soort": "intern",
+      "href": "#main",
+      "anker": "Skip to main content",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/",
+      "anker": "",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/services",
+      "anker": "Services",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/cases",
+      "anker": "Cases",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/approach",
+      "anker": "Approach",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/insights",
+      "anker": "Insights",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/about",
+      "anker": "About",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/nl/inzichten/het-datafundament-onder-ai",
+      "anker": "NL",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/contact",
+      "anker": "Book a call →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/",
+      "anker": "Home",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/insights",
+      "anker": "Insights",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/insights",
+      "anker": "← Back to all insights",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/contact",
+      "anker": "Want to talk through your situation? 30 minutes, no obligation →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/insights/build-buy-or-partner",
+      "anker": "⇄ Organisation Build, buy or partner: what fits your situation? The question is rarely \"can we build this ourselves?\" but \"do we still want to be maintaining this in three years?\" A decision framework in four questions. ◷ 4 min read Read article →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/insights/ai-governance-without-bureaucracy",
+      "anker": "▣ Governance AI governance without bureaucracy: what you need at minimum Governance nobody uses protects nobody. Four mechanisms that make the difference, and what you can safely skip. ◷ 5 min read Read article →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/contact",
+      "anker": "Book a call →",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/services/ai-readiness-assessment",
+      "anker": "AI Readiness Assessment",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/services/ai-strategy-sprint",
+      "anker": "AI Strategy Sprint",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/services/fractional-ai-lead",
+      "anker": "Fractional AI Lead",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/services",
+      "anker": "All services",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/cases",
+      "anker": "Cases",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/approach",
+      "anker": "Approach",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/insights",
+      "anker": "Insights",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/faq",
+      "anker": "FAQ",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/about",
+      "anker": "About",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-consulting",
+      "anker": "AI consulting",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-implementation",
+      "anker": "AI implementation",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-automation",
+      "anker": "AI automation",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-for-business",
+      "anker": "AI for business",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-development",
+      "anker": "AI development",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-agents",
+      "anker": "AI agents",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-policy",
+      "anker": "AI policy",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-workshop",
+      "anker": "AI workshop",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/markets",
+      "anker": "AI by industry",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/knowledge-base",
+      "anker": "Knowledge base",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/pricing",
+      "anker": "Pricing",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/partner-network",
+      "anker": "Partner network",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "overig",
+      "href": "mailto:dave@freelanceaiconsultant.com",
+      "anker": "dave@freelanceaiconsultant.com",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "extern",
+      "href": "https://www.linkedin.com/in/davewillemstein",
+      "anker": "LinkedIn ↗",
+      "rel": "noopener"
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/contact",
+      "anker": "Book a call",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/privacy",
+      "anker": "Privacy policy",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/terms",
+      "anker": "Terms & conditions",
+      "rel": null
+    }
+  ],
+  "structured_data": {
+    "sha256": "5e7ac6b2a9a08c8648e77c519570d818d773f3432f216fa6f56db8b1331aa9f7",
+    "items": [
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://freelanceaiconsultant.com/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Insights",
+                "item": "https://freelanceaiconsultant.com/insights"
+              },
+              {
+                "@type": "ListItem",
+                "position": 3,
+                "name": "The role of the data foundation in successful AI initiatives",
+                "item": "https://freelanceaiconsultant.com/insights/the-data-foundation-under-ai"
+              }
+            ]
+          },
+          {
+            "@type": "Person",
+            "@id": "https://freelanceaiconsultant.com/#dave",
+            "name": "Dave Willemstein",
+            "url": "https://freelanceaiconsultant.com/about",
+            "sameAs": [
+              "https://www.linkedin.com/in/davewillemstein"
+            ],
+            "jobTitle": "Independent AI Advisor"
+          },
+          {
+            "@type": "BlogPosting",
+            "headline": "The role of the data foundation in successful AI initiatives",
+            "description": "\"Get your data in order first\" is as often an excuse as it is a necessity. How to work out which one applies to you.",
+            "datePublished": "2026-10-28",
+            "dateModified": "2026-10-28",
+            "inLanguage": "en-GB",
+            "articleSection": "Tools & data",
+            "author": {
+              "@id": "https://freelanceaiconsultant.com/#dave"
+            },
+            "publisher": {
+              "@id": "https://freelanceaiconsultant.com/#dave"
+            },
+            "mainEntityOfPage": "https://freelanceaiconsultant.com/insights/the-data-foundation-under-ai"
+          },
+          {
+            "@type": "FAQPage",
+            "mainEntity": [
+              {
+                "@type": "Question",
+                "name": "Does the data foundation need to be in order before an organisation starts with AI?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "A perfect data foundation isn't needed to start with AI: enough of a foundation for one use case is sufficient. The approach that works in practice starts with one use case that has clear value and an owner in the business, and fixes the definitions, lineage and quality only for that use case's own data sources. After three or four use cases, a foundation emerges that has grown from real use, smaller than the ideal picture and considerably more reliable."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Is a central data warehouse needed for the data foundation under a first AI use case?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Often not: for the data foundation under a first use case, a daily export is often enough. Accessibility and infrastructure are usually the least urgent data problem, and in practice often the easiest to solve, especially for one use case."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Are there situations where tackling the data foundation first is the right answer?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Yes. Delaying is wise with three signals around the data foundation: the core entity isn't clearly defined, the data you need isn't being captured, or the source has no owner. Those signals are about meaning and ownership, not technology."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "How many terms are defined to tackle the definitions problem in the data foundation?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Five to ten: the approach to the definitions problem in the data foundation is to define only the terms that the use case touches, not the whole company data model. According to the article, that's two weeks of work instead of two years."
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "afbeeldingen": [
+    {
+      "regio": "header",
+      "src": "/images/freelance-ai-consultant-logo-header.png",
+      "alt": "freelanceaiconsultant.com logo",
+      "width": "600",
+      "height": "287",
+      "loading": null
+    },
+    {
+      "regio": "main",
+      "src": "/images/dave-portrait.jpg",
+      "alt": "Dave Willemstein, Independent AI Advisor",
+      "width": "500",
+      "height": "620",
+      "loading": "lazy"
+    },
+    {
+      "regio": "footer",
+      "src": "/images/freelance-ai-consultant-icon-footer.png",
+      "alt": "",
+      "width": "192",
+      "height": "192",
+      "loading": "lazy"
+    }
+  ],
+  "laadprestaties": {
+    "scripts": [
+      {
+        "src": "/_astro/CookieConsent.astro_astro_type_script_index_0_lang.COcxE8NY.js",
+        "type": "module",
+        "inline_bytes": 0
+      },
+      {
+        "src": null,
+        "type": null,
+        "inline_bytes": 989
+      },
+      {
+        "src": null,
+        "type": null,
+        "inline_bytes": 493
+      },
+      {
+        "src": "/logo-carousel/logo-carousel.js?v=2",
+        "type": null,
+        "inline_bytes": 0
+      },
+      {
+        "src": null,
+        "type": null,
+        "inline_bytes": 725
+      }
+    ],
+    "stylesheets": [
+      "/_astro/_slug_.CzLXI3HH.css",
+      "/_astro/_slug_.C1c5Do37.css",
+      "/logo-carousel/logo-carousel.css?v=2"
+    ],
+    "aantal_details": 0,
+    "aantal_tabellen": 0
+  },
+  "gemeten_op": "2026-11-05"
+}

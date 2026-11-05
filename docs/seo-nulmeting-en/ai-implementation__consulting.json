@@ -1,0 +1,863 @@
+{
+  "url": "/ai-implementation/consulting",
+  "build_bestand": "dist/ai-implementation/consulting/index.html",
+  "html": {
+    "bytes": 42411,
+    "lang": "en"
+  },
+  "beschermd": {
+    "title": "AI Implementation Consulting | Avoid Costly Mistakes",
+    "meta_description": "AI implementation consulting from an independent adviser: get the use case, build-or-buy choice, data and change right before you commit budget to a build.",
+    "canonical": "https://freelanceaiconsultant.com/ai-implementation/consulting",
+    "robots_meta": null,
+    "hreflang": [
+      {
+        "hreflang": "en",
+        "href": "https://freelanceaiconsultant.com/ai-implementation/consulting"
+      },
+      {
+        "hreflang": "nl",
+        "href": "https://freelanceaiconsultant.com/nl/ai-implementatie/advies"
+      },
+      {
+        "hreflang": "x-default",
+        "href": "https://freelanceaiconsultant.com/ai-implementation/consulting"
+      }
+    ],
+    "h1": [
+      "AI implementation consulting: get it right before you build"
+    ]
+  },
+  "social": {
+    "og:type": "website",
+    "og:locale": "en_US",
+    "og:site_name": "freelanceaiconsultant.com",
+    "og:title": "AI Implementation Consulting | Avoid Costly Mistakes",
+    "og:description": "AI implementation consulting from an independent adviser: get the use case, build-or-buy choice, data and change right before you commit budget to a build.",
+    "og:url": "https://freelanceaiconsultant.com/ai-implementation/consulting",
+    "og:image": "https://freelanceaiconsultant.com/images/dave-portrait.jpg",
+    "twitter:card": "summary_large_image",
+    "twitter:title": "AI Implementation Consulting | Avoid Costly Mistakes",
+    "twitter:description": "AI implementation consulting from an independent adviser: get the use case, build-or-buy choice, data and change right before you commit budget to a build.",
+    "twitter:image": "https://freelanceaiconsultant.com/images/dave-portrait.jpg"
+  },
+  "koppen": [
+    {
+      "niveau": 1,
+      "tekst": "AI implementation consulting: get it right before you build",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "What does upfront AI implementation consulting deliver, and which service fits?",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 3,
+      "tekst": "Does AI implementation consulting produce a thick report?",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 3,
+      "tekst": "Does AI implementation consulting also look at the privacy side?",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 3,
+      "tekst": "How long does the first conversation about AI implementation consulting take?",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "Why upfront advice pays off",
+      "regio": "main",
+      "id": "why-upfront-advice-pays-off"
+    },
+    {
+      "niveau": 2,
+      "tekst": "What I advise on",
+      "regio": "main",
+      "id": "what-i-advise-on"
+    },
+    {
+      "niveau": 3,
+      "tekst": "Choosing the use case",
+      "regio": "main",
+      "id": "choosing-the-use-case"
+    },
+    {
+      "niveau": 3,
+      "tekst": "Build versus buy",
+      "regio": "main",
+      "id": "build-versus-buy"
+    },
+    {
+      "niveau": 3,
+      "tekst": "Data and privacy",
+      "regio": "main",
+      "id": "data-and-privacy"
+    },
+    {
+      "niveau": 3,
+      "tekst": "Change management",
+      "regio": "main",
+      "id": "change-management"
+    },
+    {
+      "niveau": 2,
+      "tekst": "How an advisory engagement works",
+      "regio": "main",
+      "id": "how-an-advisory-engagement-works"
+    },
+    {
+      "niveau": 2,
+      "tekst": "Frequently asked questions",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "Sources",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "From AI ambition to real results.",
+      "regio": "main",
+      "id": null
+    }
+  ],
+  "bodytekst": {
+    "regio": "main",
+    "woorden": 1923,
+    "sha256": "dcca73d44518768cef5d0be6b7388fdc02e5898408c8ef9149d59b550fbcf808",
+    "blokken": [
+      "Home",
+      "AI Implementation",
+      "AI Implementation Consulting",
+      "Consulting before the build",
+      "AI implementation consulting: get it right before you build",
+      "The most expensive mistakes in an AI project happen before a single line of code is written: the wrong use case, a vendor picked too quickly, data that turns out not to hold up. AI implementation consulting fixes those choices upfront, in writing, so your delivery partner knows what to build and you know what to steer by.",
+      "Book a strategy call → See the AI Readiness Assessment →",
+      "IN SHORT",
+      "Advice upfront is cheaper than correcting course mid-build.",
+      "Four topics decide the outcome: use case, build or buy, data and privacy, and change.",
+      "Independent: I earn nothing from the solution you choose.",
+      "AI in Europe",
+      "European brands already running AI in production.",
+      "Not my clients. Examples of what happens once AI moves past the pilot stage.",
+      "Pause",
+      "Klarna",
+      "Sweden",
+      "AI customer service assistant",
+      "Zalando",
+      "Germany",
+      "Fashion assistant for product advice",
+      "Financial services",
+      "Investment firm",
+      "AI strategy and use-case portfolio",
+      "Booking.com",
+      "Netherlands",
+      "AI Trip Planner for travel planning",
+      "Siemens",
+      "Germany",
+      "Industrial Copilot for engineering",
+      "Retail",
+      "Enterprise retailer",
+      "AI-driven vendor selection",
+      "Spotify",
+      "Sweden",
+      "AI DJ and personalized playlists",
+      "Mercedes-Benz",
+      "Germany",
+      "Generative voice assistant in the car",
+      "Industrial / B2B",
+      "International manufacturer",
+      "AI roadmap and leadership",
+      "ING",
+      "Netherlands",
+      "Generative chatbot for customer queries",
+      "L'Oréal",
+      "France",
+      "Beauty Genius: personalized advice",
+      "Financial services",
+      "Financial services firm",
+      "KYC accelerated with AI document analysis",
+      "SAP",
+      "Germany",
+      "Joule: copilot in business software",
+      "Carrefour",
+      "France",
+      "Hopla: grocery shopping assistant",
+      "Strategy & AI",
+      "SaaS scale-up",
+      "AI readiness assessment",
+      "Adyen",
+      "Netherlands",
+      "AI-driven payment optimization",
+      "Philips",
+      "Netherlands",
+      "AI in medical imaging",
+      "Proces & productivity",
+      "Professional services firm",
+      "Internal AI assistant for knowledge workers",
+      "What does upfront AI implementation consulting deliver, and which service fits?",
+      "AI implementation consulting from Dave Willemstein settles these choices in writing before the build starts: the use case, build or buy, data and privacy, and the change that's needed. The result is a decision document with the decision and the brief for the delivery partner; a concrete question about one application usually fits scoped advice at a fixed price per assignment. Anyone who wants to know first whether the organisation is broadly ready starts with AI Readiness Assessment, which takes 2-3 weeks, for a fixed project fee.",
+      "Does AI implementation consulting produce a thick report?",
+      "No. AI implementation consulting ends with a decision document, not a thick report: which use case, which build choice, which conditions for data and privacy, what change is needed, and what the delivery partner needs to deliver to succeed. All the frameworks and analysis are then the client's to keep.",
+      "Does AI implementation consulting also look at the privacy side?",
+      "Yes. AI implementation consulting maps out what data the application needs and also looks at the privacy side. A data protection impact assessment is required under UK GDPR if the application processes personal data with a significant likelihood of high privacy risk, and that question belongs at the start, not just before go-live.",
+      "How long does the first conversation about AI implementation consulting take?",
+      "Thirty minutes is the length of the introduction call for AI implementation consulting. The client explains where the organisation stands and hears at the end what the adviser would do, even if that means the client doesn't need this adviser.",
+      "Source: Dave Willemstein's rates and timelines; primary source: UK GDPR; Information Commissioner's Office: Data protection impact assessments (as of 6 October 2026). Updated: October 2026.",
+      "Why upfront advice pays off",
+      "An AI project gets expensive the moment you discover an earlier choice was wrong. A use case with no owner, a vendor contract with no exit clause, or a dataset that’s messier than expected: during the build, each of those discoveries costs weeks and budget. Catch the same thing upfront, and it costs a few conversations.",
+      "AI implementation consulting isn’t a luxury reserved for large organisations, then. It’s the cheapest phase of the whole project, and the one where you have the most influence over the outcome. For project leads and IT, it means a clear brief for the delivery partner. For leadership, it means a decision that’s backed by evidence rather than resting on a convincing demo alone.",
+      "This consulting is one part of the broader guidance through AI implementation, from use case to management. Looking for advice on AI in a broader sense, such as strategy or prioritisation across the whole organisation? See AI consulting.",
+      "What I advise on",
+      "Four topics decide whether an implementation succeeds. They belong on the table together, because they affect each other: a different use case calls for different data, and different data can flip the build-or-buy choice.",
+      "Choosing the use case",
+      "The first question isn’t “what can AI do?” but “which problem is costing us too much time, money or quality right now?”. I help assess candidate applications the same way: on value, feasibility, data readiness, change load, and whether there’s an owner in the business who genuinely benefits. The result is a short list, with a reasoned list of what didn’t make the cut. For the kinds of applications that typically deliver results, see which AI use cases deliver results.",
+      "Build versus buy",
+      "Building it yourself, buying a product, or working with a partner: that choice shapes your costs, your dependency and your agility for years. Build only what sets you apart, buy what’s a commodity, and choose a partner when you want to steer the outcome without owning the technology. Factor in the running costs over several years, and agree upfront how you get out if it doesn’t work. The full decision framework is in build, buy or partner. Choose a partner, and you contract them directly; how I work with that is covered on the partner network page.",
+      "Data and privacy",
+      "I map out what data the application needs, where it comes from, how reliable it is, and who’s responsible for it. Alongside that, I look at the privacy side. If the application processes personal data with a significant likelihood of high privacy risk, a data protection impact assessment is required under UK GDPR, as set out by the ICO. That question belongs at the start, not just before go-live. I also look at what data you’re allowed to send to an external service, and what agreements with the vendor that requires.",
+      "Change management",
+      "Every AI application that saves time changes someone’s job. That conversation often gets postponed until after delivery, and then the business case only holds up if something changes that nobody’s bought into. I help name upfront what needs to change, who decides on it, and how you bring along the people who’ll actually use it, with concrete scenarios per role rather than one blanket rollout.",
+      "How an advisory engagement works",
+      "IntroductionThirty minutes: what's going on, and what would I do?",
+      "ScopingIntake: pin down the question, scope and format in a confirmation of engagement",
+      "Analysis and adviceUse case, build choice, data and privacy, change",
+      "Decision documentA reasoned decision plus the brief for the delivery partner",
+      "From first conversation to a decision your delivery partner can act on.",
+      "An engagement starts with a thirty-minute conversation. You explain where things stand, I ask questions, and I say at the end what I’d do, even if that means you don’t need me.",
+      "After that, an intake scopes the question and sets it down in a confirmation of engagement. A concrete question about one application usually fits scoped advice. Want to know first whether your organisation is broadly ready? The AI Readiness Assessment is the better starting point: 2-3 weeks, fixed price. All packages are on the pricing page.",
+      "In the analysis, I speak to the people who do the work, the process owner, IT, and privacy or compliance where relevant. I look at the data, at any vendor proposals, and at what’s already been tried.",
+      "You get a decision document, not a thick report: which use case, which build choice, which conditions for data and privacy, what change is needed, and what the delivery partner needs to deliver to succeed. All the frameworks and analysis are then yours to keep. Want to carry on yourself? The AI implementation step-by-step plan helps with the phases that follow.",
+      "Example scenario",
+      "A building services firm with 60 staff has a proposal on the table for an AI scheduling module: £42,000 a year, on a three-year contract. The managing director wants to know whether this is the right first step before signing.",
+      "Over four days of advisory work, the adviser speaks to the schedulers, the service manager and IT, and holds the proposal up against the firm's own data. The proposal assumes job tickets with a reliable duration and location. In practice, that information is missing from 35 percent of job tickets.",
+      "The advice: don't sign yet. First spend three months getting job-ticket records in order, and in the meantime start a smaller application using the AI assistant the firm already has: summarising job sheets for the back office. The decision document sets out the requirements for a later selection, including a test on the firm's own data and an exit clause. The £126,000 three-year commitment stays off the table for now.",
+      "Fictional example, built from situations that come up often. The organisation and figures are illustrative.",
+      "More on my background, and why I deliberately don’t sell implementation work myself, is on the about page. Want to start your AI project well prepared? Book an advisory conversation.",
+      "Dave Willemstein Independent AI Advisor",
+      "Independent: no commissions, no partner deals, no margin on implementation partners.",
+      "About My partner network",
+      "Want to know where you stand with AI? See the AI Readiness Assessment →",
+      "Frequently asked questions",
+      "When's the best time to get AI implementation consulting?+",
+      "Before you choose a vendor or sign a contract. At that point the choices are still open and correcting course only costs some thinking. If a proposal is already on the table or the project is already under way, consulting is still worth it, but it mainly becomes a check on what's already been decided.",
+      "Can you review a vendor proposal that's already on the table?+",
+      "Yes, as a second opinion. I look at whether the proposal solves the right problem, whether the assumptions about data and management hold up, what it costs over several years, and how you get out of it. Where several vendors are in the running, a structured Vendor Review is usually the better format.",
+      "Do you also advise on which AI tools we should use?+",
+      "Yes, but only once it's clear what problem the tool needs to solve. I hold no partner status or commissions with vendors, so my advice doesn't depend on a brand. Sometimes a tool you already have turns out to be enough, provided it's set up properly.",
+      "Is upfront consulting worthwhile for an SME?+",
+      "Especially there, because there's less room for a failed investment. The scope is smaller, so the advisory engagement is too. A few days of scoped advice can be enough to sharpen the use case, the build choice and the conditions around it.",
+      "What does AI implementation consulting cost?+",
+      "Scoped advice and second opinions get a fixed price per assignment; we agree the scope in the intake. Anyone who wants a full picture of the organisation first starts with the AI Readiness Assessment at a fixed price. All amounts are excluding VAT and travel expenses.",
+      "Sources",
+      "ICO: Data protection impact assessments",
+      "Ready for impact?",
+      "From AI ambition to real results.",
+      "Book a no-obligation call. No pitch. Just sharp questions.",
+      "30 min., no pitch deckBook a call →"
+    ]
+  },
+  "links": [
+    {
+      "regio": "overig",
+      "soort": "intern",
+      "href": "#main",
+      "anker": "Skip to main content",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/",
+      "anker": "",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/services",
+      "anker": "Services",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/cases",
+      "anker": "Cases",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/approach",
+      "anker": "Approach",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/insights",
+      "anker": "Insights",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/about",
+      "anker": "About",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/nl/ai-implementatie/advies",
+      "anker": "NL",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/contact",
+      "anker": "Book a call →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/",
+      "anker": "Home",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/ai-implementation",
+      "anker": "AI Implementation",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/contact",
+      "anker": "Book a strategy call →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/services/ai-readiness-assessment",
+      "anker": "See the AI Readiness Assessment →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/services/ai-readiness-assessment",
+      "anker": "AI Readiness Assessment",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/pricing",
+      "anker": "Dave Willemstein's rates and timelines; primary source: UK GDPR; Information Commissioner's Office: Data protection impact assessments (as of 6 October 2026)",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/ai-implementation",
+      "anker": "guidance through AI implementation",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/ai-consulting",
+      "anker": "AI consulting",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/insights/which-ai-use-cases-deliver-results",
+      "anker": "which AI use cases deliver results",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/insights/build-buy-or-partner",
+      "anker": "build, buy or partner",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/partner-network",
+      "anker": "partner network",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "extern",
+      "href": "https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/accountability-and-governance/guides-to-the-uk-gdpr/accountability-and-governance/data-protection-impact-assessments/",
+      "anker": "as set out by the ICO",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/services/ai-readiness-assessment",
+      "anker": "AI Readiness Assessment",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/pricing",
+      "anker": "pricing",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/ai-implementation/step-by-step-plan",
+      "anker": "AI implementation step-by-step plan",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/about",
+      "anker": "about",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/contact",
+      "anker": "Book an advisory conversation",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/about",
+      "anker": "About",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/partner-network",
+      "anker": "My partner network",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/services/ai-readiness-assessment",
+      "anker": "Want to know where you stand with AI? See the AI Readiness Assessment →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "extern",
+      "href": "https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/accountability-and-governance/guides-to-the-uk-gdpr/accountability-and-governance/data-protection-impact-assessments/",
+      "anker": "ICO: Data protection impact assessments",
+      "rel": "noopener"
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/contact",
+      "anker": "Book a call →",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/services/ai-readiness-assessment",
+      "anker": "AI Readiness Assessment",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/services/ai-strategy-sprint",
+      "anker": "AI Strategy Sprint",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/services/fractional-ai-lead",
+      "anker": "Fractional AI Lead",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/services",
+      "anker": "All services",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/cases",
+      "anker": "Cases",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/approach",
+      "anker": "Approach",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/insights",
+      "anker": "Insights",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/faq",
+      "anker": "FAQ",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/about",
+      "anker": "About",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-consulting",
+      "anker": "AI consulting",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-implementation",
+      "anker": "AI implementation",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-automation",
+      "anker": "AI automation",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-for-business",
+      "anker": "AI for business",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-development",
+      "anker": "AI development",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-agents",
+      "anker": "AI agents",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-policy",
+      "anker": "AI policy",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-workshop",
+      "anker": "AI workshop",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/markets",
+      "anker": "AI by industry",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/knowledge-base",
+      "anker": "Knowledge base",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/pricing",
+      "anker": "Pricing",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/partner-network",
+      "anker": "Partner network",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "overig",
+      "href": "mailto:dave@freelanceaiconsultant.com",
+      "anker": "dave@freelanceaiconsultant.com",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "extern",
+      "href": "https://www.linkedin.com/in/davewillemstein",
+      "anker": "LinkedIn ↗",
+      "rel": "noopener"
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/contact",
+      "anker": "Book a call",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/privacy",
+      "anker": "Privacy policy",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/terms",
+      "anker": "Terms & conditions",
+      "rel": null
+    }
+  ],
+  "structured_data": {
+    "sha256": "9f88666a8960cce164ab393ecbf196ffc4a7b9cca097c25b54be75804cc7b3fc",
+    "items": [
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://freelanceaiconsultant.com/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "AI Implementation",
+                "item": "https://freelanceaiconsultant.com/ai-implementation"
+              },
+              {
+                "@type": "ListItem",
+                "position": 3,
+                "name": "AI Implementation Consulting",
+                "item": "https://freelanceaiconsultant.com/ai-implementation/consulting"
+              }
+            ]
+          },
+          {
+            "@type": "Service",
+            "name": "AI Implementation Consulting",
+            "serviceType": "ai implementation consulting",
+            "description": "AI implementation consulting from an independent adviser: get the use case, build-or-buy choice, data and change right before you commit budget to a build.",
+            "url": "https://freelanceaiconsultant.com/ai-implementation/consulting",
+            "areaServed": "GB",
+            "provider": {
+              "@type": "Person",
+              "name": "Dave Willemstein",
+              "jobTitle": "Onafhankelijk AI-adviseur",
+              "url": "https://freelanceaiconsultant.com/over",
+              "sameAs": [
+                "https://www.linkedin.com/in/davewillemstein"
+              ]
+            }
+          },
+          {
+            "@type": "FAQPage",
+            "mainEntity": [
+              {
+                "@type": "Question",
+                "name": "When's the best time to get AI implementation consulting?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Before you choose a vendor or sign a contract. At that point the choices are still open and correcting course only costs some thinking. If a proposal is already on the table or the project is already under way, consulting is still worth it, but it mainly becomes a check on what's already been decided."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Can you review a vendor proposal that's already on the table?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Yes, as a second opinion. I look at whether the proposal solves the right problem, whether the assumptions about data and management hold up, what it costs over several years, and how you get out of it. Where several vendors are in the running, a structured Vendor Review is usually the better format."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Do you also advise on which AI tools we should use?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Yes, but only once it's clear what problem the tool needs to solve. I hold no partner status or commissions with vendors, so my advice doesn't depend on a brand. Sometimes a tool you already have turns out to be enough, provided it's set up properly."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Is upfront consulting worthwhile for an SME?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Especially there, because there's less room for a failed investment. The scope is smaller, so the advisory engagement is too. A few days of scoped advice can be enough to sharpen the use case, the build choice and the conditions around it."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "What does AI implementation consulting cost?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Scoped advice and second opinions get a fixed price per assignment; we agree the scope in the intake. Anyone who wants a full picture of the organisation first starts with the AI Readiness Assessment at a fixed price. All amounts are excluding VAT and travel expenses."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "What does upfront AI implementation consulting deliver, and which service fits?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "AI implementation consulting from Dave Willemstein settles these choices in writing before the build starts: the use case, build or buy, data and privacy, and the change that's needed. The result is a decision document with the decision and the brief for the delivery partner; a concrete question about one application usually fits scoped advice at a fixed price per assignment. Anyone who wants to know first whether the organisation is broadly ready starts with AI Readiness Assessment, which takes 2-3 weeks, for a fixed project fee."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Does AI implementation consulting produce a thick report?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "No. AI implementation consulting ends with a decision document, not a thick report: which use case, which build choice, which conditions for data and privacy, what change is needed, and what the delivery partner needs to deliver to succeed. All the frameworks and analysis are then the client's to keep."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Does AI implementation consulting also look at the privacy side?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Yes. AI implementation consulting maps out what data the application needs and also looks at the privacy side. A data protection impact assessment is required under UK GDPR if the application processes personal data with a significant likelihood of high privacy risk, and that question belongs at the start, not just before go-live."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "How long does the first conversation about AI implementation consulting take?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Thirty minutes is the length of the introduction call for AI implementation consulting. The client explains where the organisation stands and hears at the end what the adviser would do, even if that means the client doesn't need this adviser."
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "afbeeldingen": [
+    {
+      "regio": "header",
+      "src": "/images/freelance-ai-consultant-logo-header.png",
+      "alt": "freelanceaiconsultant.com logo",
+      "width": "600",
+      "height": "287",
+      "loading": null
+    },
+    {
+      "regio": "main",
+      "src": "/images/dave-portrait.jpg",
+      "alt": "Portrait of Dave Willemstein",
+      "width": "88",
+      "height": "88",
+      "loading": "lazy"
+    },
+    {
+      "regio": "footer",
+      "src": "/images/freelance-ai-consultant-icon-footer.png",
+      "alt": "",
+      "width": "192",
+      "height": "192",
+      "loading": "lazy"
+    }
+  ],
+  "laadprestaties": {
+    "scripts": [
+      {
+        "src": "/_astro/CookieConsent.astro_astro_type_script_index_0_lang.COcxE8NY.js",
+        "type": "module",
+        "inline_bytes": 0
+      },
+      {
+        "src": null,
+        "type": null,
+        "inline_bytes": 989
+      },
+      {
+        "src": null,
+        "type": null,
+        "inline_bytes": 493
+      },
+      {
+        "src": "/logo-carousel/logo-carousel.js?v=2",
+        "type": null,
+        "inline_bytes": 0
+      },
+      {
+        "src": null,
+        "type": null,
+        "inline_bytes": 725
+      }
+    ],
+    "stylesheets": [
+      "/_astro/_slug_.CzLXI3HH.css",
+      "/_astro/_slug_.Do5RJXa7.css",
+      "/logo-carousel/logo-carousel.css?v=2"
+    ],
+    "aantal_details": 5,
+    "aantal_tabellen": 0
+  },
+  "gemeten_op": "2026-11-05"
+}

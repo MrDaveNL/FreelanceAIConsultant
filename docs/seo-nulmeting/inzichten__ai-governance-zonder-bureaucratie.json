@@ -2,7 +2,7 @@
   "url": "/inzichten/ai-governance-zonder-bureaucratie",
   "build_bestand": "dist/inzichten/ai-governance-zonder-bureaucratie/index.html",
   "html": {
-    "bytes": 43104,
+    "bytes": 43159,
     "lang": "nl"
   },
   "beschermd": {
@@ -601,7 +601,7 @@
     }
   ],
   "structured_data": {
-    "sha256": "fef0ceed1f3cfce0ed42f13fdecb9b0fdd25181ac1a557ac1a95033bf667beda",
+    "sha256": "aa7f1336069a053a22ffce1421872c7ecc88115a8552cf765659acbb30a92a16",
     "items": [
       {
         "@context": "https://schema.org",
@@ -633,7 +633,10 @@
             "@type": "Person",
             "@id": "https://freelanceaiconsultant.com/#dave",
             "name": "Dave Willemstein",
-            "url": "https://freelanceaiconsultant.com/nl/over",
+            "url": "https://freelanceaiconsultant.com/about",
+            "sameAs": [
+              "https://www.linkedin.com/in/davewillemstein"
+            ],
             "jobTitle": "Onafhankelijk AI-adviseur"
           },
           {
@@ -755,5 +758,5 @@
     "aantal_details": 0,
     "aantal_tabellen": 0
   },
-  "gemeten_op": "2026-11-04"
+  "gemeten_op": "2026-11-05"
 }

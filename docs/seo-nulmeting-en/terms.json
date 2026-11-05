@@ -1,0 +1,609 @@
+{
+  "url": "/terms",
+  "build_bestand": "dist/terms/index.html",
+  "html": {
+    "bytes": 27842,
+    "lang": "en"
+  },
+  "beschermd": {
+    "title": "Terms and Conditions | Freelance AI Consultant",
+    "meta_description": "Terms and conditions for advisory engagements with freelanceaiconsultant.com: quotes, execution, rates, payment, liability and intellectual property.",
+    "canonical": "https://freelanceaiconsultant.com/terms",
+    "robots_meta": null,
+    "hreflang": [
+      {
+        "hreflang": "en",
+        "href": "https://freelanceaiconsultant.com/terms"
+      },
+      {
+        "hreflang": "nl",
+        "href": "https://freelanceaiconsultant.com/nl/algemene-voorwaarden"
+      },
+      {
+        "hreflang": "x-default",
+        "href": "https://freelanceaiconsultant.com/terms"
+      }
+    ],
+    "h1": [
+      "Terms and Conditions"
+    ]
+  },
+  "social": {
+    "og:type": "website",
+    "og:locale": "en_US",
+    "og:site_name": "freelanceaiconsultant.com",
+    "og:title": "Terms and Conditions | Freelance AI Consultant",
+    "og:description": "Terms and conditions for advisory engagements with freelanceaiconsultant.com: quotes, execution, rates, payment, liability and intellectual property.",
+    "og:url": "https://freelanceaiconsultant.com/terms",
+    "og:image": "https://freelanceaiconsultant.com/images/dave-portrait.jpg",
+    "twitter:card": "summary_large_image",
+    "twitter:title": "Terms and Conditions | Freelance AI Consultant",
+    "twitter:description": "Terms and conditions for advisory engagements with freelanceaiconsultant.com: quotes, execution, rates, payment, liability and intellectual property.",
+    "twitter:image": "https://freelanceaiconsultant.com/images/dave-portrait.jpg"
+  },
+  "koppen": [
+    {
+      "niveau": 1,
+      "tekst": "Terms and Conditions",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "Article 1: Definitions",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "Article 2: Applicability",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "Article 3: Quotes and formation of the agreement",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "Article 4: Performance of the engagement",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "Article 5: Independence and conflicts of interest",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "Article 6: Changes to the engagement",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "Article 7: Rates and payment",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "Article 8: Cancellation and termination",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "Article 9: Confidentiality",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "Article 10: Personal data",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "Article 11: Intellectual property",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "Article 12: Liability",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "Article 13: Force majeure",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "Article 14: Complaints",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "Article 15: Governing law",
+      "regio": "main",
+      "id": null
+    }
+  ],
+  "bodytekst": {
+    "regio": "main",
+    "woorden": 1106,
+    "sha256": "612d3db167f504ccc941c24d510e5ae69f8e4b267f23a6028c9f99ad0f751836",
+    "blokken": [
+      "← Back to home",
+      "Legal",
+      "Terms and Conditions",
+      "These terms apply to all quotes, engagements and agreements of 4AP Digital, trading as freelanceaiconsultant.com.",
+      "Version 22 September 2026",
+      "This is an English translation. In case of differences, the Dutch version prevails.",
+      "AI in Europe",
+      "European brands already running AI in production.",
+      "Not my clients. Examples of what happens once AI moves past the pilot stage.",
+      "Pause",
+      "Klarna",
+      "Sweden",
+      "AI customer service assistant",
+      "Zalando",
+      "Germany",
+      "Fashion assistant for product advice",
+      "Financial services",
+      "Investment firm",
+      "AI strategy and use-case portfolio",
+      "Booking.com",
+      "Netherlands",
+      "AI Trip Planner for travel planning",
+      "Siemens",
+      "Germany",
+      "Industrial Copilot for engineering",
+      "Retail",
+      "Enterprise retailer",
+      "AI-driven vendor selection",
+      "Spotify",
+      "Sweden",
+      "AI DJ and personalized playlists",
+      "Mercedes-Benz",
+      "Germany",
+      "Generative voice assistant in the car",
+      "Industrial / B2B",
+      "International manufacturer",
+      "AI roadmap and leadership",
+      "ING",
+      "Netherlands",
+      "Generative chatbot for customer queries",
+      "L'Oréal",
+      "France",
+      "Beauty Genius: personalized advice",
+      "Financial services",
+      "Financial services firm",
+      "KYC accelerated with AI document analysis",
+      "SAP",
+      "Germany",
+      "Joule: copilot in business software",
+      "Carrefour",
+      "France",
+      "Hopla: grocery shopping assistant",
+      "Strategy & AI",
+      "SaaS scale-up",
+      "AI readiness assessment",
+      "Adyen",
+      "Netherlands",
+      "AI-driven payment optimization",
+      "Philips",
+      "Netherlands",
+      "AI in medical imaging",
+      "Proces & productivity",
+      "Professional services firm",
+      "Internal AI assistant for knowledge workers",
+      "Article 1: Definitions",
+      "Contractor: 4AP Digital, trading as freelanceaiconsultant.com, KvK 86608789.",
+      "Client: the party entering into an agreement with the contractor.",
+      "Engagement: the advisory, guidance or research work to be performed by the contractor.",
+      "Deliverables: the written or verbal results that result from the engagement.",
+      "Article 2: Applicability",
+      "These terms apply to all quotes, engagement confirmations and agreements between contractor and client. Deviations apply only if agreed in writing. The client's own purchasing terms are expressly rejected, unless the parties agree otherwise in writing.",
+      "Article 3: Quotes and formation of the agreement",
+      "Quotes are non-binding and valid for thirty days, unless stated otherwise. An agreement is formed the moment the client accepts the quote or engagement confirmation in writing or by email. Amounts stated are exclusive of VAT and travel and accommodation costs, unless expressly stated otherwise.",
+      "Article 4: Performance of the engagement",
+      "The contractor carries out the engagement to the best of their insight and ability, on a best-efforts basis. No specific result is guaranteed; the contractor does, however, record in advance which outcomes are being pursued and how they will be assessed.",
+      "The engagement is carried out personally. Third parties are engaged only after consultation with the client. The contractor charges no markup or margin on the rates of any third parties engaged.",
+      "The client provides, in good time, the information, access and availability of staff needed for the work. Any delay resulting from this is for the client's account.",
+      "Article 5: Independence and conflicts of interest",
+      "The contractor receives no commissions, discounts, affiliate fees or other benefits from suppliers of software or services that may be recommended within an engagement. Existing or recent relationships with suppliers that may come up within the engagement are disclosed in writing before any assessment takes place.",
+      "The contractor does not accept engagements for direct competitors of a client during the term of an ongoing engagement, unless the client agrees to this in writing.",
+      "Article 6: Changes to the engagement",
+      "Changes to the scope are recorded in writing, including the consequences for planning and price. Additional work is carried out only after prior approval from the client.",
+      "Article 7: Rates and payment",
+      "Invoicing takes place monthly or per milestone, as recorded in the engagement confirmation.",
+      "For fixed-price engagements, fifty percent is due at the start and fifty percent on delivery, unless agreed otherwise.",
+      "The payment term is thirty days after the invoice date.",
+      "If this term is exceeded, the client owes the statutory commercial interest rate, as well as reasonable collection costs.",
+      "Rates may be indexed annually as of 1 January; for ongoing engagements this is announced at least two months in advance.",
+      "Article 8: Cancellation and termination",
+      "Ongoing engagements, including a fractional role, can be terminated by either party with one calendar month's notice.",
+      "If an engagement with a fixed price is terminated early, the work carried out and the results delivered up to that point are settled on a pro-rata basis. Capacity already reserved that is cancelled within two weeks of the start date may be charged at fifty percent.",
+      "Article 9: Confidentiality",
+      "Both parties treat all information they receive from each other in connection with the engagement as confidential, and do not share it with third parties without prior written consent. This obligation remains in force after the engagement ends. Where the client applies its own non-disclosure agreement, that agreement prevails.",
+      "Article 10: Personal data",
+      "Parties process personal data in accordance with the General Data Protection Regulation (GDPR). Where the contractor processes personal data on the client's instructions, the parties enter into a data processing agreement. See also the privacy policy.",
+      "Article 11: Intellectual property",
+      "All deliverables created specifically for the client become the client's property after full payment. The client may use, adapt and reuse these freely within its own organization.",
+      "The contractor retains the right to continue using the underlying generic methodology, models and working methods in other engagements. In doing so, no data, figures, names or traceable situations of the client are ever used.",
+      "The contractor may name the engagement as a reference only with the client's written consent; without consent this is done only in anonymized form.",
+      "Article 12: Liability",
+      "The contractor's liability is limited to the amount paid out in the relevant case under the professional or business liability insurance, increased by the deductible. If the insurer does not pay out, liability is limited to the amount invoiced for the engagement over the last six months, with a maximum of the total engagement amount.",
+      "The contractor is not liable for indirect damage, including loss of profit, missed savings and consequential damage. Decisions the client makes based on the advice remain the client's own responsibility.",
+      "These limitations do not apply in the case of intent or deliberate recklessness on the part of the contractor.",
+      "Article 13: Force majeure",
+      "In the event of force majeure, obligations are suspended. If the force majeure situation lasts longer than sixty days, either party may dissolve the agreement without being liable for damages. Work already carried out is settled.",
+      "Article 14: Complaints",
+      "Complaints about the execution of the engagement must be reported in writing within fourteen days of discovery, with a clear description. The parties will consult with each other to reach a solution before any other steps are taken.",
+      "Article 15: Governing law",
+      "Dutch law applies to all agreements. Disputes are submitted to the competent court in the district of the contractor's place of business, unless the parties choose mediation."
+    ]
+  },
+  "links": [
+    {
+      "regio": "overig",
+      "soort": "intern",
+      "href": "#main",
+      "anker": "Skip to main content",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/",
+      "anker": "",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/services",
+      "anker": "Services",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/cases",
+      "anker": "Cases",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/approach",
+      "anker": "Approach",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/insights",
+      "anker": "Insights",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/about",
+      "anker": "About",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/nl/algemene-voorwaarden",
+      "anker": "NL",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/contact",
+      "anker": "Book a call →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/",
+      "anker": "← Back to home",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/nl/algemene-voorwaarden",
+      "anker": "Dutch version",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/privacy",
+      "anker": "privacy policy",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/services/ai-readiness-assessment",
+      "anker": "AI Readiness Assessment",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/services/ai-strategy-sprint",
+      "anker": "AI Strategy Sprint",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/services/fractional-ai-lead",
+      "anker": "Fractional AI Lead",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/services",
+      "anker": "All services",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/cases",
+      "anker": "Cases",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/approach",
+      "anker": "Approach",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/insights",
+      "anker": "Insights",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/faq",
+      "anker": "FAQ",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/about",
+      "anker": "About",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-consulting",
+      "anker": "AI consulting",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-implementation",
+      "anker": "AI implementation",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-automation",
+      "anker": "AI automation",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-for-business",
+      "anker": "AI for business",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-development",
+      "anker": "AI development",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-agents",
+      "anker": "AI agents",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-policy",
+      "anker": "AI policy",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-workshop",
+      "anker": "AI workshop",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/markets",
+      "anker": "AI by industry",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/knowledge-base",
+      "anker": "Knowledge base",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/pricing",
+      "anker": "Pricing",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/partner-network",
+      "anker": "Partner network",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "overig",
+      "href": "mailto:dave@freelanceaiconsultant.com",
+      "anker": "dave@freelanceaiconsultant.com",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "extern",
+      "href": "https://www.linkedin.com/in/davewillemstein",
+      "anker": "LinkedIn ↗",
+      "rel": "noopener"
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/contact",
+      "anker": "Book a call",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/privacy",
+      "anker": "Privacy policy",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/terms",
+      "anker": "Terms & conditions",
+      "rel": null
+    }
+  ],
+  "structured_data": {
+    "sha256": "9694951670fd66fb263b9bd60f8c25755bcaada4ae3ee7d9a458ce6f220348b5",
+    "items": [
+      {
+        "@context": "https://schema.org",
+        "@type": "ProfessionalService",
+        "name": "Dave Willemstein, Independent AI Advisor",
+        "url": "https://freelanceaiconsultant.com",
+        "image": "https://freelanceaiconsultant.com/images/dave-portrait.jpg",
+        "email": "dave@freelanceaiconsultant.com",
+        "description": "Terms and conditions for advisory engagements with freelanceaiconsultant.com: quotes, execution, rates, payment, liability and intellectual property.",
+        "inLanguage": "en-US",
+        "areaServed": [
+          "NL",
+          "BE",
+          "DE"
+        ],
+        "founder": {
+          "@type": "Person",
+          "name": "Dave Willemstein",
+          "jobTitle": "Onafhankelijk AI-adviseur",
+          "url": "https://freelanceaiconsultant.com",
+          "sameAs": [
+            "https://www.linkedin.com/in/davewillemstein"
+          ]
+        }
+      }
+    ]
+  },
+  "afbeeldingen": [
+    {
+      "regio": "header",
+      "src": "/images/freelance-ai-consultant-logo-header.png",
+      "alt": "freelanceaiconsultant.com logo",
+      "width": "600",
+      "height": "287",
+      "loading": null
+    },
+    {
+      "regio": "footer",
+      "src": "/images/freelance-ai-consultant-icon-footer.png",
+      "alt": "",
+      "width": "192",
+      "height": "192",
+      "loading": "lazy"
+    }
+  ],
+  "laadprestaties": {
+    "scripts": [
+      {
+        "src": "/_astro/CookieConsent.astro_astro_type_script_index_0_lang.COcxE8NY.js",
+        "type": "module",
+        "inline_bytes": 0
+      },
+      {
+        "src": null,
+        "type": null,
+        "inline_bytes": 989
+      },
+      {
+        "src": null,
+        "type": null,
+        "inline_bytes": 493
+      },
+      {
+        "src": "/logo-carousel/logo-carousel.js?v=2",
+        "type": null,
+        "inline_bytes": 0
+      },
+      {
+        "src": null,
+        "type": null,
+        "inline_bytes": 725
+      }
+    ],
+    "stylesheets": [
+      "/_astro/_slug_.CzLXI3HH.css",
+      "/logo-carousel/logo-carousel.css?v=2"
+    ],
+    "aantal_details": 0,
+    "aantal_tabellen": 0
+  },
+  "gemeten_op": "2026-11-05"
+}

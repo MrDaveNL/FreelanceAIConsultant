@@ -1,0 +1,809 @@
+{
+  "url": "/markets",
+  "build_bestand": "dist/markets/index.html",
+  "html": {
+    "bytes": 35683,
+    "lang": "en"
+  },
+  "beschermd": {
+    "title": "AI by Industry | Applications per Sector",
+    "meta_description": "How is AI used in fintech, automotive and other sectors? Per sector, the key opportunities, rules and pitfalls, from an independent AI consultant.",
+    "canonical": "https://freelanceaiconsultant.com/markets",
+    "robots_meta": null,
+    "hreflang": [
+      {
+        "hreflang": "en",
+        "href": "https://freelanceaiconsultant.com/markets"
+      },
+      {
+        "hreflang": "nl",
+        "href": "https://freelanceaiconsultant.com/nl/markten"
+      },
+      {
+        "hreflang": "x-default",
+        "href": "https://freelanceaiconsultant.com/markets"
+      }
+    ],
+    "h1": [
+      "AI by industry: applications per sector"
+    ]
+  },
+  "social": {
+    "og:type": "website",
+    "og:locale": "en_US",
+    "og:site_name": "freelanceaiconsultant.com",
+    "og:title": "AI by Industry | Applications per Sector",
+    "og:description": "How is AI used in fintech, automotive and other sectors? Per sector, the key opportunities, rules and pitfalls, from an independent AI consultant.",
+    "og:url": "https://freelanceaiconsultant.com/markets",
+    "og:image": "https://freelanceaiconsultant.com/images/dave-portrait.jpg",
+    "twitter:card": "summary_large_image",
+    "twitter:title": "AI by Industry | Applications per Sector",
+    "twitter:description": "How is AI used in fintech, automotive and other sectors? Per sector, the key opportunities, rules and pitfalls, from an independent AI consultant.",
+    "twitter:image": "https://freelanceaiconsultant.com/images/dave-portrait.jpg"
+  },
+  "koppen": [
+    {
+      "niveau": 1,
+      "tekst": "AI by industry: applications per sector",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "What differs in AI by industry, and what stays the same in every sector?",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 3,
+      "tekst": "When do the rules for high-risk applications apply in AI by industry?",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 3,
+      "tekst": "Are there case studies for every sector in AI by industry?",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 3,
+      "tekst": "What does the AI Readiness Assessment show, regardless of sector?",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "Why sector knowledge matters",
+      "regio": "main",
+      "id": "why-sector-knowledge-matters"
+    },
+    {
+      "niveau": 2,
+      "tekst": "Sectors",
+      "regio": "main",
+      "id": "sectors"
+    },
+    {
+      "niveau": 3,
+      "tekst": "Fintech",
+      "regio": "main",
+      "id": "fintech"
+    },
+    {
+      "niveau": 3,
+      "tekst": "Automotive",
+      "regio": "main",
+      "id": "automotive"
+    },
+    {
+      "niveau": 2,
+      "tekst": "Cases by sector",
+      "regio": "main",
+      "id": "cases-by-sector"
+    },
+    {
+      "niveau": 2,
+      "tekst": "Sources",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "From AI ambition to real results.",
+      "regio": "main",
+      "id": null
+    }
+  ],
+  "bodytekst": {
+    "regio": "main",
+    "woorden": 1393,
+    "sha256": "c2957d3adb9293f4255af1a21ce6ce36e10f81ff76cdcfc46c850903280c9f40",
+    "blokken": [
+      "Home",
+      "Markets",
+      "AI by sector",
+      "AI by industry: applications per sector",
+      "AI by industry differs less than you'd expect, and at the same time more than vendors tell you. The questions are the same everywhere: what do you tackle first, what do you buy, and how do you stay in control. The difference sits in the rules, the data and the cost of getting it wrong.",
+      "Book a strategy call → See the AI Readiness Assessment →",
+      "Written by Dave Willemstein, independent AI consultant · published October 27, 2026",
+      "IN SHORT",
+      "Prioritise, choose and embed: those questions are the same in every sector.",
+      "Rules, data sensitivity and the cost of error differ sharply by industry.",
+      "My own focus sits with financial services, retail, manufacturing and professional services.",
+      "AI in Europe",
+      "European brands already running AI in production.",
+      "Not my clients. Examples of what happens once AI moves past the pilot stage.",
+      "Pause",
+      "Klarna",
+      "Sweden",
+      "AI customer service assistant",
+      "Zalando",
+      "Germany",
+      "Fashion assistant for product advice",
+      "Financial services",
+      "Investment firm",
+      "AI strategy and use-case portfolio",
+      "Booking.com",
+      "Netherlands",
+      "AI Trip Planner for travel planning",
+      "Siemens",
+      "Germany",
+      "Industrial Copilot for engineering",
+      "Retail",
+      "Enterprise retailer",
+      "AI-driven vendor selection",
+      "Spotify",
+      "Sweden",
+      "AI DJ and personalized playlists",
+      "Mercedes-Benz",
+      "Germany",
+      "Generative voice assistant in the car",
+      "Industrial / B2B",
+      "International manufacturer",
+      "AI roadmap and leadership",
+      "ING",
+      "Netherlands",
+      "Generative chatbot for customer queries",
+      "L'Oréal",
+      "France",
+      "Beauty Genius: personalized advice",
+      "Financial services",
+      "Financial services firm",
+      "KYC accelerated with AI document analysis",
+      "SAP",
+      "Germany",
+      "Joule: copilot in business software",
+      "Carrefour",
+      "France",
+      "Hopla: grocery shopping assistant",
+      "Strategy & AI",
+      "SaaS scale-up",
+      "AI readiness assessment",
+      "Adyen",
+      "Netherlands",
+      "AI-driven payment optimization",
+      "Philips",
+      "Netherlands",
+      "AI in medical imaging",
+      "Proces & productivity",
+      "Professional services firm",
+      "Internal AI assistant for knowledge workers",
+      "What differs in AI by industry, and what stays the same in every sector?",
+      "In AI by industry, the questions are the same in every sector: deciding which applications get priority, choosing a vendor or build partner, and keeping the application in hand after go-live. The differences sit in the rules, the sensitivity of the data, and the cost of error, and those decide how heavily each step gets weighted.",
+      "When do the rules for high-risk applications apply in AI by industry?",
+      "From 2 December 2027, the rules for high-risk applications apply following the Digital Omnibus, and from 2 August 2028 for AI in products such as medical devices; those rules have been postponed. In AI by industry, the AI Act lays a layer over sector rules, with obligations that vary by application.",
+      "Are there case studies for every sector in AI by industry?",
+      "No. There are case studies from financial services, retail, manufacturing and professional services in the cases overview. For healthcare, marketing, automotive, education, aviation and the public sector, the AI by industry pages describe the questions and rules, not results of their own.",
+      "What does the AI Readiness Assessment show, regardless of sector?",
+      "AI Readiness Assessment gives a clear-eyed picture of where an organisation stands in short order, regardless of sector.",
+      "Source: article by Dave Willemstein; primary source: Regulation (EU) 2026/1744 (Digital Omnibus on AI), amended Article 113 AI Act, EUR-Lex; Regulation (EU) 2024/1689 (AI Act), Annex I, EUR-Lex; European Commission, AI Omnibus enters into force (27 July 2026) (as of 6 October 2026). Updated: October 2026.",
+      "Why sector knowledge matters",
+      "Look at AI by industry and the differences stand out first: a hospital has different processes to a bank, a marketing team works with different data to a local authority. Even so, the underlying questions look remarkably alike. Someone has to decide which applications get priority, which vendor or build partner fits, and how you stay in control once it’s live. Prioritise, choose, embed: that’s the work, in every sector.",
+      "Sector knowledge matters in three places:",
+      "Rules. Healthcare has medical-device regulation, financial services has its own regulators, the public sector has rules on decisions that affect citizens. The AI Act lays a further layer on top, with obligations that vary by application.",
+      "Data. Health data, financial transactions and customer profiles each demand different handling. What’s an ordinary dataset in one sector is a special category of personal data in another.",
+      "Cost of error. A badly generated product description is annoying. A wrong credit decision or triage call is a different order of problem. How much human oversight you build in depends on that.",
+      "PrioritiseWhich applications pay off and are achievable? The same in every sector.",
+      "ChooseBuy, build or partner: the same trade-off, different requirements.",
+      "EmbedOwnership, measurement and adjustment after go-live.",
+      "Sector layerRules, data sensitivity and the cost of error set how strict each step needs to be.",
+      "The approach is the same everywhere; the sector decides how heavily you weight each step.",
+      "A note on my own background: my work leans most heavily on financial services, retail, manufacturing and professional services. For other sectors I bring the approach; sector-specific questions also need someone who knows the domain from the inside.",
+      "Example scenario",
+      "A leasing company with 140 staff wants to use AI to process private-lease applications faster. The original plan: a model that pre-assesses every application and gives an approval recommendation.",
+      "The adviser tests the plan from the client's side. Advice on an individual's creditworthiness falls into the AI Act's high-risk category, with requirements from 2 December 2027. The team splits the question accordingly: AI extracts data from payslips and bank statements, the underwriter keeps making the assessment. The extraction comes from a vendor the leasing company contracts directly.",
+      "Outcome: across roughly 1,100 applications a month, retyping falls from 20 to 8 minutes per application, around 220 hours a month combined. An automatic approval recommendation deliberately isn't introduced, as long as there's no plan for the high-risk requirements.",
+      "Fictional example, built from situations that come up often. The organisation and figures are illustrative.",
+      "Sectors",
+      "For financial services and automotive, I’ve built a dedicated page with the key applications, the rules that come into play and the pitfalls that tend to recur.",
+      "Fintech",
+      "Banks, insurers and fintechs work under heavy supervision. Credit scoring of individuals, and risk assessment and pricing for life and health insurance, count as high-risk under the AI Act. How to handle that responsibly is covered in AI in fintech and financial services.",
+      "Automotive",
+      "In the automotive chain, AI touches everything from sales and the workshop to customer contact. Many of the questions overlap with the broader manufacturing sector. More on the page about AI in automotive.",
+      "Other sectors, including healthcare, marketing, education, aviation and the public sector, each carry their own rules and data sensitivities, and more sector pages are planned. If your sector isn’t covered yet, AI for business is a better starting point, and what the AI Act asks per application is covered on the AI policy page. Note that the rules for high-risk applications have been postponed: since the Digital Omnibus they apply from 2 December 2027, and for AI in products such as medical devices from 2 August 2028 (European Commission).",
+      "Cases by sector",
+      "Most of the case studies on this site come from the sectors my work leans on most heavily. They show how the same approach plays out in a different context:",
+      "Financial services: a KYC process with AI-supported document analysis, where the analyst always keeps the final check, and a use-case portfolio for an investment firm.",
+      "Retail: a structured vendor selection in enterprise retail, where the criteria were fixed before any vendor came to the table.",
+      "Manufacturing: an AI roadmap for a global manufacturer, bringing scattered pilots under one governance structure.",
+      "Professional services: an internal AI assistant for knowledge workers, where adoption took more work than the technology.",
+      "For healthcare, marketing, automotive, education, aviation and the public sector, there are no case studies on the site yet. All case studies are in the cases overview.",
+      "Want to know where your organisation stands, regardless of sector? The AI Readiness Assessment gives a clear-eyed picture in short order. Or book a thirty-minute call, and you’ll know by the end what I’d do first.",
+      "Dave Willemstein Independent AI Advisor",
+      "Independent: no commissions, no partner deals, no margin on implementation partners.",
+      "About My partner network",
+      "Want to know where you stand with AI? See the AI Readiness Assessment →",
+      "Sources",
+      "European Commission: AI Omnibus enters into force",
+      "Ready for impact?",
+      "From AI ambition to real results.",
+      "Book a no-obligation call. No pitch. Just sharp questions.",
+      "30 min., no pitch deckBook a call →"
+    ]
+  },
+  "links": [
+    {
+      "regio": "overig",
+      "soort": "intern",
+      "href": "#main",
+      "anker": "Skip to main content",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/",
+      "anker": "",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/services",
+      "anker": "Services",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/cases",
+      "anker": "Cases",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/approach",
+      "anker": "Approach",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/insights",
+      "anker": "Insights",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/about",
+      "anker": "About",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/nl/markten",
+      "anker": "NL",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/contact",
+      "anker": "Book a call →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/",
+      "anker": "Home",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/contact",
+      "anker": "Book a strategy call →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/services/ai-readiness-assessment",
+      "anker": "See the AI Readiness Assessment →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/about",
+      "anker": "Dave Willemstein",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/cases",
+      "anker": "cases overview",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/services/ai-readiness-assessment",
+      "anker": "AI Readiness Assessment",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/markets/fintech",
+      "anker": "AI in fintech and financial services",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/markets/automotive",
+      "anker": "AI in automotive",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/ai-for-business",
+      "anker": "AI for business",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/ai-policy",
+      "anker": "AI policy",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "extern",
+      "href": "https://digital-strategy.ec.europa.eu/en/news/ai-omnibus-enters-force",
+      "anker": "European Commission",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/cases/kyc-document-analysis-financial-services",
+      "anker": "KYC process with AI-supported document analysis",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/cases/ai-strategy-investment-firm",
+      "anker": "use-case portfolio for an investment firm",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/cases/vendor-selection-enterprise-retail",
+      "anker": "structured vendor selection in enterprise retail",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/cases/ai-roadmap-global-manufacturer",
+      "anker": "AI roadmap for a global manufacturer",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/cases/internal-ai-assistant-knowledge-workers",
+      "anker": "internal AI assistant for knowledge workers",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/cases",
+      "anker": "cases overview",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/services/ai-readiness-assessment",
+      "anker": "AI Readiness Assessment",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/contact",
+      "anker": "book a thirty-minute call",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/about",
+      "anker": "About",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/partner-network",
+      "anker": "My partner network",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/services/ai-readiness-assessment",
+      "anker": "Want to know where you stand with AI? See the AI Readiness Assessment →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "extern",
+      "href": "https://digital-strategy.ec.europa.eu/en/news/ai-omnibus-enters-force",
+      "anker": "European Commission: AI Omnibus enters into force",
+      "rel": "noopener"
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/contact",
+      "anker": "Book a call →",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/services/ai-readiness-assessment",
+      "anker": "AI Readiness Assessment",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/services/ai-strategy-sprint",
+      "anker": "AI Strategy Sprint",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/services/fractional-ai-lead",
+      "anker": "Fractional AI Lead",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/services",
+      "anker": "All services",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/cases",
+      "anker": "Cases",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/approach",
+      "anker": "Approach",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/insights",
+      "anker": "Insights",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/faq",
+      "anker": "FAQ",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/about",
+      "anker": "About",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-consulting",
+      "anker": "AI consulting",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-implementation",
+      "anker": "AI implementation",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-automation",
+      "anker": "AI automation",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-for-business",
+      "anker": "AI for business",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-development",
+      "anker": "AI development",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-agents",
+      "anker": "AI agents",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-policy",
+      "anker": "AI policy",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-workshop",
+      "anker": "AI workshop",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/markets",
+      "anker": "AI by industry",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/knowledge-base",
+      "anker": "Knowledge base",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/pricing",
+      "anker": "Pricing",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/partner-network",
+      "anker": "Partner network",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "overig",
+      "href": "mailto:dave@freelanceaiconsultant.com",
+      "anker": "dave@freelanceaiconsultant.com",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "extern",
+      "href": "https://www.linkedin.com/in/davewillemstein",
+      "anker": "LinkedIn ↗",
+      "rel": "noopener"
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/contact",
+      "anker": "Book a call",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/privacy",
+      "anker": "Privacy policy",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/terms",
+      "anker": "Terms & conditions",
+      "rel": null
+    }
+  ],
+  "structured_data": {
+    "sha256": "1e2b98ccda539b004983635e967af52e3c7ab11e0c62fae3fa9ce6e2acf7d355",
+    "items": [
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://freelanceaiconsultant.com/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Markets",
+                "item": "https://freelanceaiconsultant.com/markets"
+              }
+            ]
+          },
+          {
+            "@type": "Article",
+            "headline": "AI by industry: applications per sector",
+            "description": "How is AI used in fintech, automotive and other sectors? Per sector, the key opportunities, rules and pitfalls, from an independent AI consultant.",
+            "inLanguage": "en-US",
+            "datePublished": "2026-10-27",
+            "dateModified": "2026-10-27",
+            "author": {
+              "@type": "Person",
+              "name": "Dave Willemstein",
+              "jobTitle": "Onafhankelijk AI-adviseur",
+              "url": "https://freelanceaiconsultant.com/over",
+              "sameAs": [
+                "https://www.linkedin.com/in/davewillemstein"
+              ]
+            },
+            "publisher": {
+              "@type": "Person",
+              "name": "Dave Willemstein"
+            },
+            "mainEntityOfPage": "https://freelanceaiconsultant.com/markets"
+          },
+          {
+            "@type": "FAQPage",
+            "mainEntity": [
+              {
+                "@type": "Question",
+                "name": "What differs in AI by industry, and what stays the same in every sector?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "In AI by industry, the questions are the same in every sector: deciding which applications get priority, choosing a vendor or build partner, and keeping the application in hand after go-live. The differences sit in the rules, the sensitivity of the data, and the cost of error, and those decide how heavily each step gets weighted."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "When do the rules for high-risk applications apply in AI by industry?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "From 2 December 2027, the rules for high-risk applications apply following the Digital Omnibus, and from 2 August 2028 for AI in products such as medical devices; those rules have been postponed. In AI by industry, the AI Act lays a layer over sector rules, with obligations that vary by application."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Are there case studies for every sector in AI by industry?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "No. There are case studies from financial services, retail, manufacturing and professional services in the cases overview. For healthcare, marketing, automotive, education, aviation and the public sector, the AI by industry pages describe the questions and rules, not results of their own."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "What does the AI Readiness Assessment show, regardless of sector?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "AI Readiness Assessment gives a clear-eyed picture of where an organisation stands in short order, regardless of sector."
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "afbeeldingen": [
+    {
+      "regio": "header",
+      "src": "/images/freelance-ai-consultant-logo-header.png",
+      "alt": "freelanceaiconsultant.com logo",
+      "width": "600",
+      "height": "287",
+      "loading": null
+    },
+    {
+      "regio": "main",
+      "src": "/images/dave-portrait.jpg",
+      "alt": "Portrait of Dave Willemstein",
+      "width": "88",
+      "height": "88",
+      "loading": "lazy"
+    },
+    {
+      "regio": "footer",
+      "src": "/images/freelance-ai-consultant-icon-footer.png",
+      "alt": "",
+      "width": "192",
+      "height": "192",
+      "loading": "lazy"
+    }
+  ],
+  "laadprestaties": {
+    "scripts": [
+      {
+        "src": "/_astro/CookieConsent.astro_astro_type_script_index_0_lang.COcxE8NY.js",
+        "type": "module",
+        "inline_bytes": 0
+      },
+      {
+        "src": null,
+        "type": null,
+        "inline_bytes": 989
+      },
+      {
+        "src": null,
+        "type": null,
+        "inline_bytes": 493
+      },
+      {
+        "src": "/logo-carousel/logo-carousel.js?v=2",
+        "type": null,
+        "inline_bytes": 0
+      },
+      {
+        "src": null,
+        "type": null,
+        "inline_bytes": 725
+      }
+    ],
+    "stylesheets": [
+      "/_astro/_slug_.CzLXI3HH.css",
+      "/_astro/_slug_.Do5RJXa7.css",
+      "/logo-carousel/logo-carousel.css?v=2"
+    ],
+    "aantal_details": 0,
+    "aantal_tabellen": 0
+  },
+  "gemeten_op": "2026-11-05"
+}

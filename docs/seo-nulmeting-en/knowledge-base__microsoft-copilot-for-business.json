@@ -1,0 +1,772 @@
+{
+  "url": "/knowledge-base/microsoft-copilot-for-business",
+  "build_bestand": "dist/knowledge-base/microsoft-copilot-for-business/index.html",
+  "html": {
+    "bytes": 40184,
+    "lang": "en"
+  },
+  "beschermd": {
+    "title": "Microsoft Copilot for Business | Applications and Licensing",
+    "meta_description": "What can Microsoft Copilot do for your business? Read about licensing, applications in Outlook, Teams and Excel, data conditions and first steps.",
+    "canonical": "https://freelanceaiconsultant.com/knowledge-base/microsoft-copilot-for-business",
+    "robots_meta": null,
+    "hreflang": [
+      {
+        "hreflang": "en",
+        "href": "https://freelanceaiconsultant.com/knowledge-base/microsoft-copilot-for-business"
+      },
+      {
+        "hreflang": "nl",
+        "href": "https://freelanceaiconsultant.com/nl/kennisbank/microsoft-copilot-voor-bedrijven"
+      },
+      {
+        "hreflang": "x-default",
+        "href": "https://freelanceaiconsultant.com/knowledge-base/microsoft-copilot-for-business"
+      }
+    ],
+    "h1": [
+      "Microsoft Copilot for business: what can you do with it?"
+    ]
+  },
+  "social": {
+    "og:type": "website",
+    "og:locale": "en_US",
+    "og:site_name": "freelanceaiconsultant.com",
+    "og:title": "Microsoft Copilot for Business | Applications and Licensing",
+    "og:description": "What can Microsoft Copilot do for your business? Read about licensing, applications in Outlook, Teams and Excel, data conditions and first steps.",
+    "og:url": "https://freelanceaiconsultant.com/knowledge-base/microsoft-copilot-for-business",
+    "og:image": "https://freelanceaiconsultant.com/images/dave-portrait.jpg",
+    "twitter:card": "summary_large_image",
+    "twitter:title": "Microsoft Copilot for Business | Applications and Licensing",
+    "twitter:description": "What can Microsoft Copilot do for your business? Read about licensing, applications in Outlook, Teams and Excel, data conditions and first steps.",
+    "twitter:image": "https://freelanceaiconsultant.com/images/dave-portrait.jpg"
+  },
+  "koppen": [
+    {
+      "niveau": 1,
+      "tekst": "Microsoft Copilot for business: what can you do with it?",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "What is Microsoft Copilot?",
+      "regio": "main",
+      "id": "what-is-microsoft-copilot"
+    },
+    {
+      "niveau": 3,
+      "tekst": "Are prompts and responses used to train the models behind Microsoft Copilot?",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 3,
+      "tekst": "Which data does Copilot Chat use, and which does the paid Microsoft Copilot licence use?",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "Licensing",
+      "regio": "main",
+      "id": "licensing"
+    },
+    {
+      "niveau": 2,
+      "tekst": "Applications in Microsoft 365",
+      "regio": "main",
+      "id": "applications-in-microsoft-365"
+    },
+    {
+      "niveau": 2,
+      "tekst": "Conditions for your data",
+      "regio": "main",
+      "id": "conditions-for-your-data"
+    },
+    {
+      "niveau": 2,
+      "tekst": "First steps",
+      "regio": "main",
+      "id": "first-steps"
+    },
+    {
+      "niveau": 2,
+      "tekst": "Sources",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "From AI ambition to real results.",
+      "regio": "main",
+      "id": null
+    }
+  ],
+  "bodytekst": {
+    "regio": "main",
+    "woorden": 1940,
+    "sha256": "82076ab530ef432db0182a3d2862068c020b99c3b083793d809713220688ee5c",
+    "blokken": [
+      "Home",
+      "Knowledge base",
+      "Copilot for business",
+      "Knowledge base",
+      "Microsoft Copilot for business: what can you do with it?",
+      "Microsoft Copilot for business isn't one single product but a family: a chat included at no extra cost for eligible Microsoft 365 users, and a paid licence that works in Outlook, Teams, Word and Excel with your own company data. The difference between the two determines what you can expect and what you need to set up. Below: how the licences work, where Copilot helps in practice, and what conditions apply to your data.",
+      "See the Copilot training → Book a strategy call →",
+      "Written by Dave Willemstein, independent AI consultant · published October 27, 2026",
+      "IN SHORT",
+      "Copilot Chat is available at no extra cost for eligible Microsoft 365 users; the full Copilot licence is a paid add-on.",
+      "Copilot only shows what a user can already open, so files shared too broadly become visible.",
+      "Start with a small group, concrete tasks and cleaned-up access rights, and only scale up after evaluating.",
+      "AI in Europe",
+      "European brands already running AI in production.",
+      "Not my clients. Examples of what happens once AI moves past the pilot stage.",
+      "Pause",
+      "Klarna",
+      "Sweden",
+      "AI customer service assistant",
+      "Zalando",
+      "Germany",
+      "Fashion assistant for product advice",
+      "Financial services",
+      "Investment firm",
+      "AI strategy and use-case portfolio",
+      "Booking.com",
+      "Netherlands",
+      "AI Trip Planner for travel planning",
+      "Siemens",
+      "Germany",
+      "Industrial Copilot for engineering",
+      "Retail",
+      "Enterprise retailer",
+      "AI-driven vendor selection",
+      "Spotify",
+      "Sweden",
+      "AI DJ and personalized playlists",
+      "Mercedes-Benz",
+      "Germany",
+      "Generative voice assistant in the car",
+      "Industrial / B2B",
+      "International manufacturer",
+      "AI roadmap and leadership",
+      "ING",
+      "Netherlands",
+      "Generative chatbot for customer queries",
+      "L'Oréal",
+      "France",
+      "Beauty Genius: personalized advice",
+      "Financial services",
+      "Financial services firm",
+      "KYC accelerated with AI document analysis",
+      "SAP",
+      "Germany",
+      "Joule: copilot in business software",
+      "Carrefour",
+      "France",
+      "Hopla: grocery shopping assistant",
+      "Strategy & AI",
+      "SaaS scale-up",
+      "AI readiness assessment",
+      "Adyen",
+      "Netherlands",
+      "AI-driven payment optimization",
+      "Philips",
+      "Netherlands",
+      "AI in medical imaging",
+      "Proces & productivity",
+      "Professional services firm",
+      "Internal AI assistant for knowledge workers",
+      "What is Microsoft Copilot?",
+      "Microsoft Copilot is Microsoft's AI assistant for work, connecting language models to apps such as Outlook, Teams, Word, Excel and PowerPoint and to the mail, calendar, chats, meetings and documents in them. According to Microsoft, Copilot only shows a user organisational data they have at least read access to; Dave Willemstein advises cleaning up access rights before the paid licence goes out broadly.",
+      "Copilot is Microsoft’s AI assistant for work. Microsoft Copilot for business connects language models to the apps you already use, such as Outlook, Teams, Word, Excel and PowerPoint, and to the data you have in them: mail, calendar, chats, meetings and documents.",
+      "One point that causes confusion: the name has changed. As of October 2026, Microsoft’s own licensing documentation uses “Microsoft Copilot” and “Microsoft Copilot Chat” throughout, having moved on from the earlier “Microsoft 365 Copilot” and “Microsoft 365 Copilot Chat” names. Some pricing pages and the admin centre may still carry the older names during the changeover, but it’s the same product either way.",
+      "Copilot is one of several business assistants you can choose between. See a separate overview of AI tools on this site for how the categories compare. If your organisation works with Google Workspace, read about Gemini in Workspace instead; looking for a standalone assistant alongside Microsoft 365, ChatGPT for business and Claude for business are the common alternatives.",
+      "Are prompts and responses used to train the models behind Microsoft Copilot?",
+      "No, according to what Microsoft commits to in Microsoft Copilot's privacy documentation (as of October 2026): prompts, responses and data retrieved through Microsoft Graph aren't used to train the underlying models.",
+      "Which data does Copilot Chat use, and which does the paid Microsoft Copilot licence use?",
+      "Copilot Chat is mainly a chat that answers based on the web and on what the user provides themselves, and in Outlook can also work with mailbox, calendar and meetings. Only with the paid licence does Microsoft Copilot work broadly with a company's own information: Copilot can then reason across the full breadth of work data, such as mail, chats, meetings, documents and sites, as far as the user has access to them.",
+      "Source: article by Dave Willemstein. Updated: October 2026.",
+      "Licensing",
+      "The key question with a Copilot licence is which variant you mean. As of October 2026, Microsoft broadly distinguishes two tiers:",
+      "Copilot Chat. According to Microsoft, available at no extra cost for organisations with an eligible Microsoft 365 plan. It’s mainly a chat that answers based on the web and on what you provide yourself, such as an uploaded file or pasted text. In Outlook, Copilot Chat can also work with your mailbox, calendar and meetings. Depending on your plan, you also get limited access to Copilot in Word, Excel and PowerPoint, without priority access at busy times.",
+      "Microsoft Copilot (the paid licence). An add-on on top of your Microsoft 365 plan. Copilot can then reason across the full breadth of your work data, such as mail, chats, meetings, documents and sites, as far as the user has access to them. You also get priority capacity, the full Copilot experience in Word, Excel, PowerPoint and OneNote, and agents that work with your work data.",
+      "Copilot Chat: costNo extra cost with an eligible Microsoft 365 plan.",
+      "Paid Copilot: costA separate licence per user, on top of Microsoft 365.",
+      "Copilot Chat: dataThe web, what you provide yourself, and in Outlook part of your mail and calendar.",
+      "Paid Copilot: dataMail, chats, meetings, documents and sites the user has access to.",
+      "The difference is mainly in the data sources: only the paid licence lets Copilot work broadly with your own company information.",
+      "What the paid licence costs is on Microsoft’s pricing page. As of October 2026, per user per month, exclusive of VAT:",
+      "Licence",
+      "For whom",
+      "Price (annual billing)",
+      "Microsoft Copilot Business",
+      "Organisations with an eligible Microsoft 365 Business plan, up to 300 users",
+      "€18.20; anyone signing up between 1 July and 31 December 2026 pays a temporary €15.60 for the first year",
+      "Microsoft Copilot for enterprise",
+      "Organisations with, among others, Microsoft 365 E3 or E5",
+      "€26.00",
+      "Microsoft Copilot Business is also available on monthly billing, at €21.84 per user per month. Microsoft also sells bundles of Microsoft 365 Business Standard or Premium with Copilot included. Which base plans qualify is listed in Microsoft’s licensing overview; for Copilot Business that includes Business Basic, Standard and Premium among others. Microsoft 365 E7 already includes Copilot, per the same overview.",
+      "Don’t budget for the licence alone. The biggest costs are often in preparing your data and in adoption. How to account for that honestly is covered separately on this site.",
+      "Applications in Microsoft 365",
+      "Copilot is strongest at work that already happens in Microsoft 365 and involves a lot of reading, searching or rewriting. A few examples by app, as Microsoft describes them in its own overview of Copilot:",
+      "Outlook: drafting emails, summarising long email threads and getting tips on tone and clarity.",
+      "Teams: transcribing and summarising meetings, including action items.",
+      "Excel: analysing data, surfacing insights and help with formulas and charts.",
+      "Word: drafting, rewriting and summarising documents.",
+      "PowerPoint: building a presentation from an instruction or an existing document.",
+      "What these examples have in common: the output is a draft. Microsoft itself states that answers from generative AI aren’t guaranteed to be factually correct and that users need to check them. That takes skill. It helps if people know how to phrase an instruction; the basics are covered separately on this site under prompt engineering.",
+      "Example scenario",
+      "A professional services firm with 140 staff is unsure whether everyone should get the paid Copilot licence. All staff already have Copilot Chat.",
+      "Ahead of the pilot, the IT team reviews shared sites and finds two open to everyone, one of which includes an HR folder. Those are locked down first. Twenty staff across three teams then get a licence for eight weeks. The adviser sets the question the pilot needs to answer upfront: does Copilot save at least an hour a week per person on email, reports and documents? He also guides the evaluation.",
+      "The front office and account managers save an average of ninety minutes a week. In project control, which is mostly Excel work in bespoke models, the difference is barely measurable. The organisation buys 45 licences for roles with a lot of email and meetings. The rest continue with Copilot Chat for now.",
+      "Fictional example, built from situations that come up often. The organisation and figures are illustrative.",
+      "Conditions for your data",
+      "What Microsoft commits to, as of October 2026, according to Microsoft Copilot’s privacy documentation:",
+      "No training on your data. Prompts, responses and data retrieved through Microsoft Graph aren’t used to train the underlying models.",
+      "Only what the user can already see. Copilot only shows organisational data the user has at least read access to.",
+      "EU Data Boundary. For users in the EU, traffic stays within the EU Data Boundary. Note: Anthropic’s models, which Microsoft offers within Copilot, currently fall outside that boundary according to the same page. As an admin, you decide yourself whether to allow those models.",
+      "Storage and retention. Prompts and responses are stored under the same contractual terms as your other Microsoft 365 content. Admins can apply retention policies with Microsoft Purview.",
+      "The second point matters most in practice. Copilot doesn’t create new permissions, but it does make existing ones visible. A SharePoint site once opened to “everyone,” or a folder with salary data shared too broadly, suddenly surfaces in answers. Microsoft’s own setup guidance recommends reviewing where things are over-shared before rollout, using sensitivity labels, and checking the most-used sites first.",
+      "On top of that, your own groundwork still applies: record which data is and isn’t allowed in prompts, add Copilot to your data-processing register if personal data is involved, and assess whether a DPIA is needed.",
+      "First steps",
+      "Microsoft itself recommends a three-phase rollout: a pilot with a small group, then a broader rollout, then monitoring usage and adjusting. That’s a sensible order. Concretely:",
+      "See what you already have. Does everyone already have Copilot Chat? Then you can practise with that before buying licences.",
+      "Clean up access rights. Review shared sites and folders before the paid licence goes out broadly.",
+      "Choose a pilot group with real tasks. Not a casual trial, but a team with recognisable work and an agreed question the pilot needs to answer. Why that matters is covered separately on this site.",
+      "Train on the actual work. A generic demo helps little. A Copilot training session for teams that works with their own mail, documents and meetings delivers more.",
+      "Measure and decide. Microsoft offers usage reports in the admin centre. Use them to decide whether, and for whom, you expand licences.",
+      "That adoption takes more time than the technology is also visible in the case on an internal AI assistant for knowledge workers. I have no partner status with Microsoft and don’t earn anything from licences. Not sure whether Copilot fits your organisation, or how to approach the rollout? Book a thirty-minute call.",
+      "Dave Willemstein Independent AI Advisor",
+      "Independent: no commissions, no partner deals, no margin on implementation partners.",
+      "About My partner network",
+      "Want to know where you stand with AI? See the AI Readiness Assessment →",
+      "Sources",
+      "Microsoft 365 Copilot: business pricing and plans",
+      "Microsoft 365 Copilot: enterprise pricing",
+      "Microsoft Learn: License options for Microsoft Copilot",
+      "Microsoft Learn: What is Microsoft Copilot?",
+      "Microsoft Learn: Overview of Microsoft Copilot Chat",
+      "Microsoft Learn: Data, privacy, and security for Microsoft Copilot",
+      "Microsoft Learn: Set up Microsoft Copilot and assign licenses",
+      "Ready for impact?",
+      "From AI ambition to real results.",
+      "Book a no-obligation call. No pitch. Just sharp questions.",
+      "30 min., no pitch deckBook a call →"
+    ]
+  },
+  "links": [
+    {
+      "regio": "overig",
+      "soort": "intern",
+      "href": "#main",
+      "anker": "Skip to main content",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/",
+      "anker": "",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/services",
+      "anker": "Services",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/cases",
+      "anker": "Cases",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/approach",
+      "anker": "Approach",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/insights",
+      "anker": "Insights",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/about",
+      "anker": "About",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/nl/kennisbank/microsoft-copilot-voor-bedrijven",
+      "anker": "NL",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/contact",
+      "anker": "Book a call →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/",
+      "anker": "Home",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/knowledge-base",
+      "anker": "Knowledge base",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/ai-workshop/copilot-training",
+      "anker": "See the Copilot training →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/contact",
+      "anker": "Book a strategy call →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/about",
+      "anker": "Dave Willemstein",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/contact",
+      "anker": "Book a thirty-minute call",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/about",
+      "anker": "About",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/partner-network",
+      "anker": "My partner network",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/services/ai-readiness-assessment",
+      "anker": "Want to know where you stand with AI? See the AI Readiness Assessment →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "extern",
+      "href": "https://www.microsoft.com/en-us/microsoft-365-copilot/pricing",
+      "anker": "Microsoft 365 Copilot: business pricing and plans",
+      "rel": "noopener"
+    },
+    {
+      "regio": "main",
+      "soort": "extern",
+      "href": "https://www.microsoft.com/en-us/microsoft-365-copilot/pricing/enterprise",
+      "anker": "Microsoft 365 Copilot: enterprise pricing",
+      "rel": "noopener"
+    },
+    {
+      "regio": "main",
+      "soort": "extern",
+      "href": "https://learn.microsoft.com/en-us/microsoft-365/copilot/copilot-license-options",
+      "anker": "Microsoft Learn: License options for Microsoft Copilot",
+      "rel": "noopener"
+    },
+    {
+      "regio": "main",
+      "soort": "extern",
+      "href": "https://learn.microsoft.com/en-us/microsoft-365/copilot/microsoft-365-copilot-overview",
+      "anker": "Microsoft Learn: What is Microsoft Copilot?",
+      "rel": "noopener"
+    },
+    {
+      "regio": "main",
+      "soort": "extern",
+      "href": "https://learn.microsoft.com/en-us/copilot/overview",
+      "anker": "Microsoft Learn: Overview of Microsoft Copilot Chat",
+      "rel": "noopener"
+    },
+    {
+      "regio": "main",
+      "soort": "extern",
+      "href": "https://learn.microsoft.com/en-us/microsoft-365/copilot/microsoft-365-copilot-privacy",
+      "anker": "Microsoft Learn: Data, privacy, and security for Microsoft Copilot",
+      "rel": "noopener"
+    },
+    {
+      "regio": "main",
+      "soort": "extern",
+      "href": "https://learn.microsoft.com/en-us/microsoft-365/copilot/microsoft-365-copilot-setup",
+      "anker": "Microsoft Learn: Set up Microsoft Copilot and assign licenses",
+      "rel": "noopener"
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/contact",
+      "anker": "Book a call →",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/services/ai-readiness-assessment",
+      "anker": "AI Readiness Assessment",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/services/ai-strategy-sprint",
+      "anker": "AI Strategy Sprint",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/services/fractional-ai-lead",
+      "anker": "Fractional AI Lead",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/services",
+      "anker": "All services",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/cases",
+      "anker": "Cases",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/approach",
+      "anker": "Approach",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/insights",
+      "anker": "Insights",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/faq",
+      "anker": "FAQ",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/about",
+      "anker": "About",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-consulting",
+      "anker": "AI consulting",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-implementation",
+      "anker": "AI implementation",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-automation",
+      "anker": "AI automation",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-for-business",
+      "anker": "AI for business",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-development",
+      "anker": "AI development",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-agents",
+      "anker": "AI agents",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-policy",
+      "anker": "AI policy",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-workshop",
+      "anker": "AI workshop",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/markets",
+      "anker": "AI by industry",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/knowledge-base",
+      "anker": "Knowledge base",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/pricing",
+      "anker": "Pricing",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/partner-network",
+      "anker": "Partner network",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "overig",
+      "href": "mailto:dave@freelanceaiconsultant.com",
+      "anker": "dave@freelanceaiconsultant.com",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "extern",
+      "href": "https://www.linkedin.com/in/davewillemstein",
+      "anker": "LinkedIn ↗",
+      "rel": "noopener"
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/contact",
+      "anker": "Book a call",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/privacy",
+      "anker": "Privacy policy",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/terms",
+      "anker": "Terms & conditions",
+      "rel": null
+    }
+  ],
+  "structured_data": {
+    "sha256": "e063c2bc2a6da5442ac448ba2a13e3e7a032f6e125ae641ea861ae2282f118e1",
+    "items": [
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://freelanceaiconsultant.com/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Knowledge base",
+                "item": "https://freelanceaiconsultant.com/knowledge-base"
+              },
+              {
+                "@type": "ListItem",
+                "position": 3,
+                "name": "Copilot for business",
+                "item": "https://freelanceaiconsultant.com/knowledge-base/microsoft-copilot-for-business"
+              }
+            ]
+          },
+          {
+            "@type": "Article",
+            "headline": "Microsoft Copilot for business: what can you do with it?",
+            "description": "What can Microsoft Copilot do for your business? Read about licensing, applications in Outlook, Teams and Excel, data conditions and first steps.",
+            "inLanguage": "en-US",
+            "datePublished": "2026-10-27",
+            "dateModified": "2026-10-27",
+            "author": {
+              "@type": "Person",
+              "name": "Dave Willemstein",
+              "jobTitle": "Onafhankelijk AI-adviseur",
+              "url": "https://freelanceaiconsultant.com/over",
+              "sameAs": [
+                "https://www.linkedin.com/in/davewillemstein"
+              ]
+            },
+            "publisher": {
+              "@type": "Person",
+              "name": "Dave Willemstein"
+            },
+            "mainEntityOfPage": "https://freelanceaiconsultant.com/knowledge-base/microsoft-copilot-for-business"
+          },
+          {
+            "@type": "FAQPage",
+            "mainEntity": [
+              {
+                "@type": "Question",
+                "name": "What is Microsoft Copilot?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Microsoft Copilot is Microsoft's AI assistant for work, connecting language models to apps such as Outlook, Teams, Word, Excel and PowerPoint and to the mail, calendar, chats, meetings and documents in them. According to Microsoft, Copilot only shows a user organisational data they have at least read access to; Dave Willemstein advises cleaning up access rights before the paid licence goes out broadly."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Are prompts and responses used to train the models behind Microsoft Copilot?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "No, according to what Microsoft commits to in Microsoft Copilot's privacy documentation (as of October 2026): prompts, responses and data retrieved through Microsoft Graph aren't used to train the underlying models."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Which data does Copilot Chat use, and which does the paid Microsoft Copilot licence use?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Copilot Chat is mainly a chat that answers based on the web and on what the user provides themselves, and in Outlook can also work with mailbox, calendar and meetings. Only with the paid licence does Microsoft Copilot work broadly with a company's own information: Copilot can then reason across the full breadth of work data, such as mail, chats, meetings, documents and sites, as far as the user has access to them."
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "afbeeldingen": [
+    {
+      "regio": "header",
+      "src": "/images/freelance-ai-consultant-logo-header.png",
+      "alt": "freelanceaiconsultant.com logo",
+      "width": "600",
+      "height": "287",
+      "loading": null
+    },
+    {
+      "regio": "main",
+      "src": "/images/dave-portrait.jpg",
+      "alt": "Portrait of Dave Willemstein",
+      "width": "88",
+      "height": "88",
+      "loading": "lazy"
+    },
+    {
+      "regio": "footer",
+      "src": "/images/freelance-ai-consultant-icon-footer.png",
+      "alt": "",
+      "width": "192",
+      "height": "192",
+      "loading": "lazy"
+    }
+  ],
+  "laadprestaties": {
+    "scripts": [
+      {
+        "src": "/_astro/CookieConsent.astro_astro_type_script_index_0_lang.COcxE8NY.js",
+        "type": "module",
+        "inline_bytes": 0
+      },
+      {
+        "src": null,
+        "type": null,
+        "inline_bytes": 989
+      },
+      {
+        "src": null,
+        "type": null,
+        "inline_bytes": 493
+      },
+      {
+        "src": "/logo-carousel/logo-carousel.js?v=2",
+        "type": null,
+        "inline_bytes": 0
+      },
+      {
+        "src": null,
+        "type": null,
+        "inline_bytes": 725
+      }
+    ],
+    "stylesheets": [
+      "/_astro/_slug_.CzLXI3HH.css",
+      "/_astro/_slug_.Do5RJXa7.css",
+      "/logo-carousel/logo-carousel.css?v=2"
+    ],
+    "aantal_details": 0,
+    "aantal_tabellen": 1
+  },
+  "gemeten_op": "2026-11-05"
+}

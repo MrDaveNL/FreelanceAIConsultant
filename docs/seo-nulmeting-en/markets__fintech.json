@@ -1,0 +1,955 @@
+{
+  "url": "/markets/fintech",
+  "build_bestand": "dist/markets/fintech/index.html",
+  "html": {
+    "bytes": 47606,
+    "lang": "en"
+  },
+  "beschermd": {
+    "title": "AI in Fintech | Applications for Financial Services",
+    "meta_description": "How do banks and fintechs use AI? Applications, automation, governance and compliance, and how to implement AI responsibly in financial services.",
+    "canonical": "https://freelanceaiconsultant.com/markets/fintech",
+    "robots_meta": null,
+    "hreflang": [
+      {
+        "hreflang": "en",
+        "href": "https://freelanceaiconsultant.com/markets/fintech"
+      },
+      {
+        "hreflang": "nl",
+        "href": "https://freelanceaiconsultant.com/nl/markten/fintech"
+      },
+      {
+        "hreflang": "x-default",
+        "href": "https://freelanceaiconsultant.com/markets/fintech"
+      }
+    ],
+    "h1": [
+      "AI in fintech and financial services"
+    ]
+  },
+  "social": {
+    "og:type": "website",
+    "og:locale": "en_US",
+    "og:site_name": "freelanceaiconsultant.com",
+    "og:title": "AI in Fintech | Applications for Financial Services",
+    "og:description": "How do banks and fintechs use AI? Applications, automation, governance and compliance, and how to implement AI responsibly in financial services.",
+    "og:url": "https://freelanceaiconsultant.com/markets/fintech",
+    "og:image": "https://freelanceaiconsultant.com/images/dave-portrait.jpg",
+    "twitter:card": "summary_large_image",
+    "twitter:title": "AI in Fintech | Applications for Financial Services",
+    "twitter:description": "How do banks and fintechs use AI? Applications, automation, governance and compliance, and how to implement AI responsibly in financial services.",
+    "twitter:image": "https://freelanceaiconsultant.com/images/dave-portrait.jpg"
+  },
+  "koppen": [
+    {
+      "niveau": 1,
+      "tekst": "AI in fintech and financial services",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "Where does AI in fintech pay off most, and which rules come into play?",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 3,
+      "tekst": "Does the judgement in AI in fintech stay with a person?",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 3,
+      "tekst": "Is the AI Act's delay a reason to wait on requirements for AI in fintech?",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 3,
+      "tekst": "How does an AI service from an external vendor relate to DORA in AI in fintech?",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "AI applications in fintech",
+      "regio": "main",
+      "id": "ai-applications-in-fintech"
+    },
+    {
+      "niveau": 2,
+      "tekst": "AI automation in financial services",
+      "regio": "main",
+      "id": "ai-automation-in-financial-services"
+    },
+    {
+      "niveau": 2,
+      "tekst": "AI governance and compliance",
+      "regio": "main",
+      "id": "ai-governance-and-compliance"
+    },
+    {
+      "niveau": 2,
+      "tekst": "AI consultancy for financial institutions",
+      "regio": "main",
+      "id": "ai-consultancy-for-financial-institutions"
+    },
+    {
+      "niveau": 2,
+      "tekst": "Frequently asked questions",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "Sources",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "From AI ambition to real results.",
+      "regio": "main",
+      "id": null
+    }
+  ],
+  "bodytekst": {
+    "regio": "main",
+    "woorden": 2419,
+    "sha256": "c8f96e9567ca6192f1a8a7a289defe7eac5957f01da6f937a208ac98084d6135",
+    "blokken": [
+      "Home",
+      "Markets",
+      "AI for fintech",
+      "AI for fintech",
+      "AI in fintech and financial services",
+      "AI in fintech and at banks and insurers comes down to one tension: a lot of repetitive document work that suits AI well, in a sector where every decision has to be explainable and traceable. Financial services is one of the sectors my work leans on most heavily. Here's where the opportunities sit and which rules come into play.",
+      "Book a strategy call → See the AI Readiness Assessment →",
+      "Written by Dave Willemstein, independent AI consultant · published October 27, 2026",
+      "IN SHORT",
+      "Most of the gain sits in extraction and preparation; the judgement stays with a person.",
+      "Credit scoring and risk assessment or pricing for life and health insurance are high-risk under the AI Act, with rules from 2 December 2027.",
+      "DORA has applied to EU financial entities since 17 January 2025, and reaches the ICT services behind your AI applications where DORA applies to you.",
+      "AI in Europe",
+      "European brands already running AI in production.",
+      "Not my clients. Examples of what happens once AI moves past the pilot stage.",
+      "Pause",
+      "Klarna",
+      "Sweden",
+      "AI customer service assistant",
+      "Zalando",
+      "Germany",
+      "Fashion assistant for product advice",
+      "Financial services",
+      "Investment firm",
+      "AI strategy and use-case portfolio",
+      "Booking.com",
+      "Netherlands",
+      "AI Trip Planner for travel planning",
+      "Siemens",
+      "Germany",
+      "Industrial Copilot for engineering",
+      "Retail",
+      "Enterprise retailer",
+      "AI-driven vendor selection",
+      "Spotify",
+      "Sweden",
+      "AI DJ and personalized playlists",
+      "Mercedes-Benz",
+      "Germany",
+      "Generative voice assistant in the car",
+      "Industrial / B2B",
+      "International manufacturer",
+      "AI roadmap and leadership",
+      "ING",
+      "Netherlands",
+      "Generative chatbot for customer queries",
+      "L'Oréal",
+      "France",
+      "Beauty Genius: personalized advice",
+      "Financial services",
+      "Financial services firm",
+      "KYC accelerated with AI document analysis",
+      "SAP",
+      "Germany",
+      "Joule: copilot in business software",
+      "Carrefour",
+      "France",
+      "Hopla: grocery shopping assistant",
+      "Strategy & AI",
+      "SaaS scale-up",
+      "AI readiness assessment",
+      "Adyen",
+      "Netherlands",
+      "AI-driven payment optimization",
+      "Philips",
+      "Netherlands",
+      "AI in medical imaging",
+      "Proces & productivity",
+      "Professional services firm",
+      "Internal AI assistant for knowledge workers",
+      "Where does AI in fintech pay off most, and which rules come into play?",
+      "In AI in fintech, document processing and flagging tend to deliver the fastest wins: AI is good at pulling data out of documents, while in most processes the judgement belongs with a person. Credit scoring of individuals and risk assessment or pricing for life and health insurance are high-risk under the AI Act, with rules from 2 December 2027 (as of September 2026). Financial institutions have AI Readiness Assessment to prioritise, Vendor Review to choose, AI Due Diligence to assess and Fractional AI Lead to embed it.",
+      "Does the judgement in AI in fintech stay with a person?",
+      "In AI in fintech, the judgement belongs with a person in most processes, who confirms or corrects the system's proposals. Every confirmation and correction produces an audit trail and a measurable quality loop.",
+      "Is the AI Act's delay a reason to wait on requirements for AI in fintech?",
+      "No. A credit model bought or built now will likely still be in use once the high-risk rules take effect on 2 December 2027, so those requirements belong in AI in fintech's design and selection now. Vendor Review records the choice of vendor or build partner in a way procurement, compliance and audit can work with.",
+      "How does an AI service from an external vendor relate to DORA in AI in fintech?",
+      "Where DORA applies, an AI service a financial institution buys in AI in fintech counts in practice among the third-party ICT services DORA requires in the information register, including sub-outsourcing. DORA has applied since 17 January 2025 and targets the financial institution; the precise classification is something to have checked by the compliance or legal function. Exit path, dependency and incident arrangements belong in the selection of an external AI service.",
+      "Source: article by Dave Willemstein; primary source: Regulation (EU) 2024/1689 (AI Act), EUR-Lex; Regulation (EU) 2026/1744 (Digital Omnibus on AI), Official Journal L of 24.7.2026, EUR-Lex; Regulation (EU) 2022/2554 (DORA), EUR-Lex; FCA, PS21/3 (Building operational resilience); Bank of England/PRA, SS1/21 (as of 6 October 2026). Updated: October 2026.",
+      "AI applications in fintech",
+      "In fintech and the broader financial sector, AI applications fall roughly into four types:",
+      "Document processing: pulling data from identity documents, company extracts, annual accounts, payslips or policies. This is the classic territory of onboarding, KYC and underwriting.",
+      "Flagging: transaction monitoring, fraud detection and surfacing unusual patterns for an analyst.",
+      "Assessment and pricing: credit scoring, risk selection and premium pricing. Here AI touches customers’ interests directly.",
+      "Customer contact and knowledge: answering standard questions, preparing for advice calls, and searching internal policy and procedure.",
+      "The first two types tend to deliver the fastest wins. The third can carry a lot of value but falls partly under the AI Act’s heaviest regime. The fourth looks harmless, but a chatbot that misinforms customers is not a small problem in a regulated sector.",
+      "Which application to tackle first depends on where the work sits and how much risk you can carry. One example of how that trade-off plays out in practice is the case on a use-case portfolio for an investment firm.",
+      "AI automation in financial services",
+      "The key distinction for automation in financial services is between extraction and judgement. Extraction means pulling facts out of a document: what’s the name, the amount, the date, the ultimate beneficial owner. Judgement means weighing what those facts mean: does this represent a risk, does this customer fit our policy?",
+      "AI is good at extraction and can take a lot of search work off people’s hands. In most processes, judgement belongs with a person, who confirms or corrects the system’s proposals. That’s not just cautious, it’s also practical: every confirmation and correction produces an audit trail and a measurable quality loop.",
+      "Document inIdentity document, extract, annual accounts or policy.",
+      "ExtractionAI pulls out the data, with a confidence score per field.",
+      "ThresholdAbove the threshold, a proposal; below it, the case goes to the analyst unfiltered.",
+      "JudgementThe analyst confirms, corrects and decides.",
+      "LoggingEvery confirmation and correction enters the audit trail and feeds the quality measurement.",
+      "AI prepares, the person decides, and everything is traceable. That's how an automated process stays explainable to audit and supervisors.",
+      "This exact pattern is central to the case on KYC document analysis at a financial services firm. The hard part there wasn’t the model, but designing a workflow analysts could trust, and overrule.",
+      "One note of caution on the current interest in agents that take steps on their own: in a financial process you want to know exactly what happens when such an agent is involved, and what it can and can’t do well.",
+      "Example scenario",
+      "An insurer with 250 staff processes around 4,000 claims a month. A vendor offers an agent that reads claims, routes them, and pays out small claims on its own.",
+      "The adviser guides the selection from the client's side. Three vendors each receive the same set of 200 anonymised claims, and the audit trail, exit path and position in the DORA information register all weigh into the decision. The scope goes back to preparation: the agent extracts data from the form and proposes a route, the claims handler decides. The insurer contracts the chosen vendor directly.",
+      "After eight weeks, registration time falls from 11 to 6 minutes per claim, over 330 hours a month combined. Handlers accept 94% of routing proposals unchanged, and every correction is logged. Paying out automatically was deliberately not introduced.",
+      "Fictional example, built from situations that come up often. The organisation and figures are illustrative.",
+      "AI governance and compliance",
+      "AI governance in financial services isn’t a new structure next to existing risk management. In their joint report from April 2024, the Dutch regulators DNB and AFM already stated that financial institutions are expected to use AI responsibly, and that existing regulation applies in full once AI is involved; the same expectation holds for UK institutions under the FCA and PRA. Data quality, data protection, explainability and the risk of discrimination and exclusion are called out explicitly.",
+      "On top of that come three regimes worth knowing (as of September 2026):",
+      "The AI Act. AI used to assess an individual’s creditworthiness or establish a credit score is high-risk, with an explicit carve-out for systems that detect financial fraud. The same applies to AI for risk assessment and pricing in life and health insurance (AI Act, Annex III). Under the Digital Omnibus, the high-risk rules for these applications now apply from 2 December 2027 rather than August 2026 (European Commission). The transparency rules, for example that a chatbot must disclose that the customer is talking to AI, have applied since 2 August 2026 (European Commission). The Act’s reach isn’t limited to the EU: under Article 2, it also applies to UK institutions that place an AI system on the EU market, or whose AI system’s output is used in the EU, regardless of where the institution itself is established. The UK has no AI Act of its own; it regulates AI through existing sector regulators instead, as set out in the government’s pro-innovation approach.",
+      "DORA. The Digital Operational Resilience Act has applied since 17 January 2025 and covers ICT risk management, incident reporting, digital resilience testing and the oversight of ICT providers for EU financial entities, which must keep a register of every ICT service bought from third parties, including sub-outsourcing. DORA itself is an EU regulation: a UK firm falls under it where it runs EU-regulated entities or provides ICT services to EU financial entities, but a UK-only firm instead sits under the FCA’s operational resilience rules (PS21/3) and the PRA’s SS1/21, which cover similar ground: mapping important business services and staying within impact tolerances. Either way, an AI service from an external vendor is an operational-resilience question: exit path, dependency and incident arrangements belong in your selection.",
+      "Supervision. For UK institutions, the FCA and PRA continue to apply as normal. For an EU financial institution, which regulator leads on AI Act supervision is still settling: the Netherlands, for instance, was still finalising its implementing legislation for the AI Act in mid-2026, with its market regulator AFM pushing for a clearer split of duties with the central bank DNB on high-risk applications such as credit scoring and insurance pricing.",
+      "A delay in the AI Act’s rules is no reason to wait. A credit model you buy or build now will likely still be in use once the requirements take effect in December 2027, so build them into your design and selection now. How to build a broader AI policy around that, and keep governance proportionate with heavy requirements only where the risk justifies them, is covered on the AI policy overview page. This isn’t legal advice: have the classification of a specific application reviewed by your compliance or legal function.",
+      "AI consultancy for financial institutions",
+      "What I do for banks, insurers, fintechs and investors is the same as in other sectors, but with the bar raised for explainability and traceability:",
+      "Prioritise: which applications pay off and fit your risk appetite? A logical starting point is a baseline with the AI Readiness Assessment.",
+      "Choose: select a vendor or build partner against criteria for explainability, audit trail, data rights and exit path. A Vendor Review records that choice in a way procurement, compliance and audit can work with afterwards.",
+      "Assess: for investors and corporate development teams who want to vet an AI proposition or vendor, there’s AI Due Diligence, always under NDA.",
+      "Embed: if you don’t have a full-time head of AI, a Fractional AI Lead can own the AI agenda and coordinate with risk, compliance and audit.",
+      "I don’t build or sell software myself, and I don’t take commissions or hold partner status with vendors. I guide implementations from your side of the table. That matters most in a sector where you’ll later need to explain why you chose a particular party.",
+      "Other sectors have their own rulebook, from healthcare’s medical-device legislation to retail and customer-data rules in marketing. Want to talk through a specific question? Book a strategy call.",
+      "Dave Willemstein Independent AI Advisor",
+      "Independent: no commissions, no partner deals, no margin on implementation partners.",
+      "About My partner network",
+      "Want to know where you stand with AI? See the AI Readiness Assessment →",
+      "Frequently asked questions",
+      "Does fraud detection count as high-risk AI?+",
+      "Not on the credit-scoring ground: the AI Act expressly carves systems for detecting financial fraud out of that high-risk category. That doesn't mean no requirements apply. UK GDPR, existing financial supervision and your own risk management still apply in full.",
+      "Who supervises AI at financial institutions?+",
+      "For AI used within existing processes, that's already the job of your normal financial regulators: in the UK, the FCA for conduct and the PRA for the prudential soundness of banks, insurers and larger investment firms, applying existing rules in full as soon as AI is involved. For the EU AI Act itself, a UK institution that falls in scope (see below) answers to the EU's own enforcement mechanisms for that law, not to the FCA or PRA, which have no role in enforcing EU legislation.",
+      "Does DORA apply to UK firms and their AI suppliers?+",
+      "Only through an EU connection: DORA is an EU regulation, so a UK firm is in scope where it runs EU-regulated entities or provides ICT services to EU financial entities, including as a sub-provider. A UK-only firm with no EU operations instead sits under the FCA's operational resilience rules (PS21/3, FCA Handbook SYSC 15A) and the PRA's SS1/21, which cover broadly the same ground: mapping important business services and staying within impact tolerances.",
+      "How does a small fintech start with AI?+",
+      "With one process that involves a lot of manual work and where a mistake is recoverable, such as preparing case files or answering standard questions. Record from the start what the system does, who checks it, and how you can demonstrate that. That's cheaper than reconstructing it after the fact for a regulator.",
+      "Sources",
+      "AI Act, Annex III (text version, artificialintelligenceact.eu)",
+      "Regulation (EU) 2024/1689 (AI Act), EUR-Lex",
+      "European Commission: AI Omnibus enters into force",
+      "European Commission: Commission starts enforcing AI Act rules and new transparency requirements on 2 August",
+      "AI Act Service Desk (European Commission): Article 2, scope",
+      "UK Government: AI regulation, a pro-innovation approach",
+      "FCA: PS21/3, Building operational resilience",
+      "Bank of England / PRA: SS1/21, Operational resilience - impact tolerances for important business services",
+      "Ready for impact?",
+      "From AI ambition to real results.",
+      "Book a no-obligation call. No pitch. Just sharp questions.",
+      "30 min., no pitch deckBook a call →"
+    ]
+  },
+  "links": [
+    {
+      "regio": "overig",
+      "soort": "intern",
+      "href": "#main",
+      "anker": "Skip to main content",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/",
+      "anker": "",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/services",
+      "anker": "Services",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/cases",
+      "anker": "Cases",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/approach",
+      "anker": "Approach",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/insights",
+      "anker": "Insights",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/about",
+      "anker": "About",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/nl/markten/fintech",
+      "anker": "NL",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/contact",
+      "anker": "Book a call →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/",
+      "anker": "Home",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/markets",
+      "anker": "Markets",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/contact",
+      "anker": "Book a strategy call →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/services/ai-readiness-assessment",
+      "anker": "See the AI Readiness Assessment →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/about",
+      "anker": "Dave Willemstein",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/services/ai-readiness-assessment",
+      "anker": "AI Readiness Assessment",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/services/vendor-review",
+      "anker": "Vendor Review",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/services/ai-due-diligence",
+      "anker": "AI Due Diligence",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/services/fractional-ai-lead",
+      "anker": "Fractional AI Lead",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/cases/ai-strategy-investment-firm",
+      "anker": "use-case portfolio for an investment firm",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/cases/kyc-document-analysis-financial-services",
+      "anker": "KYC document analysis at a financial services firm",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "extern",
+      "href": "https://artificialintelligenceact.eu/annex/3/",
+      "anker": "AI Act, Annex III",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "extern",
+      "href": "https://digital-strategy.ec.europa.eu/en/news/ai-omnibus-enters-force",
+      "anker": "European Commission",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "extern",
+      "href": "https://cyprus.representation.ec.europa.eu/news/commission-starts-enforcing-ai-act-rules-and-new-transparency-requirements-2-august-2026-07-31_en",
+      "anker": "European Commission",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "extern",
+      "href": "https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-2",
+      "anker": "Article 2",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "extern",
+      "href": "https://www.gov.uk/government/publications/ai-regulation-a-pro-innovation-approach",
+      "anker": "pro-innovation approach",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "extern",
+      "href": "https://www.fca.org.uk/publications/policy-statements/ps21-3-building-operational-resilience",
+      "anker": "PS21/3",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "extern",
+      "href": "https://www.bankofengland.co.uk/prudential-regulation/publication/2021/march/operational-resilience-impact-tolerances-for-important-business-services-ss",
+      "anker": "SS1/21",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/ai-policy",
+      "anker": "AI policy",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/services/ai-readiness-assessment",
+      "anker": "AI Readiness Assessment",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/services/vendor-review",
+      "anker": "Vendor Review",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/services/ai-due-diligence",
+      "anker": "AI Due Diligence",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/services/fractional-ai-lead",
+      "anker": "Fractional AI Lead",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/contact",
+      "anker": "Book a strategy call",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/about",
+      "anker": "About",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/partner-network",
+      "anker": "My partner network",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/services/ai-readiness-assessment",
+      "anker": "Want to know where you stand with AI? See the AI Readiness Assessment →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "extern",
+      "href": "https://artificialintelligenceact.eu/annex/3/",
+      "anker": "AI Act, Annex III (text version, artificialintelligenceact.eu)",
+      "rel": "noopener"
+    },
+    {
+      "regio": "main",
+      "soort": "extern",
+      "href": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj",
+      "anker": "Regulation (EU) 2024/1689 (AI Act), EUR-Lex",
+      "rel": "noopener"
+    },
+    {
+      "regio": "main",
+      "soort": "extern",
+      "href": "https://digital-strategy.ec.europa.eu/en/news/ai-omnibus-enters-force",
+      "anker": "European Commission: AI Omnibus enters into force",
+      "rel": "noopener"
+    },
+    {
+      "regio": "main",
+      "soort": "extern",
+      "href": "https://cyprus.representation.ec.europa.eu/news/commission-starts-enforcing-ai-act-rules-and-new-transparency-requirements-2-august-2026-07-31_en",
+      "anker": "European Commission: Commission starts enforcing AI Act rules and new transparency requirements on 2 August",
+      "rel": "noopener"
+    },
+    {
+      "regio": "main",
+      "soort": "extern",
+      "href": "https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-2",
+      "anker": "AI Act Service Desk (European Commission): Article 2, scope",
+      "rel": "noopener"
+    },
+    {
+      "regio": "main",
+      "soort": "extern",
+      "href": "https://www.gov.uk/government/publications/ai-regulation-a-pro-innovation-approach",
+      "anker": "UK Government: AI regulation, a pro-innovation approach",
+      "rel": "noopener"
+    },
+    {
+      "regio": "main",
+      "soort": "extern",
+      "href": "https://www.fca.org.uk/publications/policy-statements/ps21-3-building-operational-resilience",
+      "anker": "FCA: PS21/3, Building operational resilience",
+      "rel": "noopener"
+    },
+    {
+      "regio": "main",
+      "soort": "extern",
+      "href": "https://www.bankofengland.co.uk/prudential-regulation/publication/2021/march/operational-resilience-impact-tolerances-for-important-business-services-ss",
+      "anker": "Bank of England / PRA: SS1/21, Operational resilience - impact tolerances for important business services",
+      "rel": "noopener"
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/contact",
+      "anker": "Book a call →",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/services/ai-readiness-assessment",
+      "anker": "AI Readiness Assessment",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/services/ai-strategy-sprint",
+      "anker": "AI Strategy Sprint",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/services/fractional-ai-lead",
+      "anker": "Fractional AI Lead",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/services",
+      "anker": "All services",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/cases",
+      "anker": "Cases",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/approach",
+      "anker": "Approach",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/insights",
+      "anker": "Insights",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/faq",
+      "anker": "FAQ",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/about",
+      "anker": "About",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-consulting",
+      "anker": "AI consulting",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-implementation",
+      "anker": "AI implementation",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-automation",
+      "anker": "AI automation",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-for-business",
+      "anker": "AI for business",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-development",
+      "anker": "AI development",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-agents",
+      "anker": "AI agents",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-policy",
+      "anker": "AI policy",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-workshop",
+      "anker": "AI workshop",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/markets",
+      "anker": "AI by industry",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/knowledge-base",
+      "anker": "Knowledge base",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/pricing",
+      "anker": "Pricing",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/partner-network",
+      "anker": "Partner network",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "overig",
+      "href": "mailto:dave@freelanceaiconsultant.com",
+      "anker": "dave@freelanceaiconsultant.com",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "extern",
+      "href": "https://www.linkedin.com/in/davewillemstein",
+      "anker": "LinkedIn ↗",
+      "rel": "noopener"
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/contact",
+      "anker": "Book a call",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/privacy",
+      "anker": "Privacy policy",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/terms",
+      "anker": "Terms & conditions",
+      "rel": null
+    }
+  ],
+  "structured_data": {
+    "sha256": "17d1ca0df007fadf312939360e2311867bc7dbfd47665991f2c5732a31342499",
+    "items": [
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://freelanceaiconsultant.com/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Markets",
+                "item": "https://freelanceaiconsultant.com/markets"
+              },
+              {
+                "@type": "ListItem",
+                "position": 3,
+                "name": "AI for fintech",
+                "item": "https://freelanceaiconsultant.com/markets/fintech"
+              }
+            ]
+          },
+          {
+            "@type": "Article",
+            "headline": "AI in fintech and financial services",
+            "description": "How do banks and fintechs use AI? Applications, automation, governance and compliance, and how to implement AI responsibly in financial services.",
+            "inLanguage": "en-US",
+            "datePublished": "2026-10-27",
+            "dateModified": "2026-10-27",
+            "author": {
+              "@type": "Person",
+              "name": "Dave Willemstein",
+              "jobTitle": "Onafhankelijk AI-adviseur",
+              "url": "https://freelanceaiconsultant.com/over",
+              "sameAs": [
+                "https://www.linkedin.com/in/davewillemstein"
+              ]
+            },
+            "publisher": {
+              "@type": "Person",
+              "name": "Dave Willemstein"
+            },
+            "mainEntityOfPage": "https://freelanceaiconsultant.com/markets/fintech"
+          },
+          {
+            "@type": "FAQPage",
+            "mainEntity": [
+              {
+                "@type": "Question",
+                "name": "Does fraud detection count as high-risk AI?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Not on the credit-scoring ground: the AI Act expressly carves systems for detecting financial fraud out of that high-risk category. That doesn't mean no requirements apply. UK GDPR, existing financial supervision and your own risk management still apply in full."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Who supervises AI at financial institutions?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "For AI used within existing processes, that's already the job of your normal financial regulators: in the UK, the FCA for conduct and the PRA for the prudential soundness of banks, insurers and larger investment firms, applying existing rules in full as soon as AI is involved. For the EU AI Act itself, a UK institution that falls in scope (see below) answers to the EU's own enforcement mechanisms for that law, not to the FCA or PRA, which have no role in enforcing EU legislation."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Does DORA apply to UK firms and their AI suppliers?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Only through an EU connection: DORA is an EU regulation, so a UK firm is in scope where it runs EU-regulated entities or provides ICT services to EU financial entities, including as a sub-provider. A UK-only firm with no EU operations instead sits under the FCA's operational resilience rules (PS21/3, FCA Handbook SYSC 15A) and the PRA's SS1/21, which cover broadly the same ground: mapping important business services and staying within impact tolerances."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "How does a small fintech start with AI?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "With one process that involves a lot of manual work and where a mistake is recoverable, such as preparing case files or answering standard questions. Record from the start what the system does, who checks it, and how you can demonstrate that. That's cheaper than reconstructing it after the fact for a regulator."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Where does AI in fintech pay off most, and which rules come into play?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "In AI in fintech, document processing and flagging tend to deliver the fastest wins: AI is good at pulling data out of documents, while in most processes the judgement belongs with a person. Credit scoring of individuals and risk assessment or pricing for life and health insurance are high-risk under the AI Act, with rules from 2 December 2027 (as of September 2026). Financial institutions have AI Readiness Assessment to prioritise, Vendor Review to choose, AI Due Diligence to assess and Fractional AI Lead to embed it."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Does the judgement in AI in fintech stay with a person?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "In AI in fintech, the judgement belongs with a person in most processes, who confirms or corrects the system's proposals. Every confirmation and correction produces an audit trail and a measurable quality loop."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Is the AI Act's delay a reason to wait on requirements for AI in fintech?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "No. A credit model bought or built now will likely still be in use once the high-risk rules take effect on 2 December 2027, so those requirements belong in AI in fintech's design and selection now. Vendor Review records the choice of vendor or build partner in a way procurement, compliance and audit can work with."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "How does an AI service from an external vendor relate to DORA in AI in fintech?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Where DORA applies, an AI service a financial institution buys in AI in fintech counts in practice among the third-party ICT services DORA requires in the information register, including sub-outsourcing. DORA has applied since 17 January 2025 and targets the financial institution; the precise classification is something to have checked by the compliance or legal function. Exit path, dependency and incident arrangements belong in the selection of an external AI service."
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "afbeeldingen": [
+    {
+      "regio": "header",
+      "src": "/images/freelance-ai-consultant-logo-header.png",
+      "alt": "freelanceaiconsultant.com logo",
+      "width": "600",
+      "height": "287",
+      "loading": null
+    },
+    {
+      "regio": "main",
+      "src": "/images/dave-portrait.jpg",
+      "alt": "Portrait of Dave Willemstein",
+      "width": "88",
+      "height": "88",
+      "loading": "lazy"
+    },
+    {
+      "regio": "footer",
+      "src": "/images/freelance-ai-consultant-icon-footer.png",
+      "alt": "",
+      "width": "192",
+      "height": "192",
+      "loading": "lazy"
+    }
+  ],
+  "laadprestaties": {
+    "scripts": [
+      {
+        "src": "/_astro/CookieConsent.astro_astro_type_script_index_0_lang.COcxE8NY.js",
+        "type": "module",
+        "inline_bytes": 0
+      },
+      {
+        "src": null,
+        "type": null,
+        "inline_bytes": 989
+      },
+      {
+        "src": null,
+        "type": null,
+        "inline_bytes": 493
+      },
+      {
+        "src": "/logo-carousel/logo-carousel.js?v=2",
+        "type": null,
+        "inline_bytes": 0
+      },
+      {
+        "src": null,
+        "type": null,
+        "inline_bytes": 725
+      }
+    ],
+    "stylesheets": [
+      "/_astro/_slug_.CzLXI3HH.css",
+      "/_astro/_slug_.Do5RJXa7.css",
+      "/logo-carousel/logo-carousel.css?v=2"
+    ],
+    "aantal_details": 4,
+    "aantal_tabellen": 0
+  },
+  "gemeten_op": "2026-11-05"
+}

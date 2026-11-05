@@ -2,7 +2,7 @@
   "url": "/inzichten/ai-adoptie-begint-bij-het-werk",
   "build_bestand": "dist/inzichten/ai-adoptie-begint-bij-het-werk/index.html",
   "html": {
-    "bytes": 41702,
+    "bytes": 41757,
     "lang": "nl"
   },
   "beschermd": {
@@ -587,7 +587,7 @@
     }
   ],
   "structured_data": {
-    "sha256": "3c37fc9a0b8895a1d37ee68626dac35d0283c8ffc62a3a3197548f6e52cfa9ef",
+    "sha256": "1f96f62553252f32963ffde0493183fa1f89bbba8774bed23c683d39107c4529",
     "items": [
       {
         "@context": "https://schema.org",
@@ -619,7 +619,10 @@
             "@type": "Person",
             "@id": "https://freelanceaiconsultant.com/#dave",
             "name": "Dave Willemstein",
-            "url": "https://freelanceaiconsultant.com/nl/over",
+            "url": "https://freelanceaiconsultant.com/about",
+            "sameAs": [
+              "https://www.linkedin.com/in/davewillemstein"
+            ],
             "jobTitle": "Onafhankelijk AI-adviseur"
           },
           {
@@ -741,5 +744,5 @@
     "aantal_details": 0,
     "aantal_tabellen": 0
   },
-  "gemeten_op": "2026-11-04"
+  "gemeten_op": "2026-11-05"
 }

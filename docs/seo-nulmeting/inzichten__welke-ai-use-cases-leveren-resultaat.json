@@ -2,7 +2,7 @@
   "url": "/inzichten/welke-ai-use-cases-leveren-resultaat",
   "build_bestand": "dist/inzichten/welke-ai-use-cases-leveren-resultaat/index.html",
   "html": {
-    "bytes": 41258,
+    "bytes": 41313,
     "lang": "nl"
   },
   "beschermd": {
@@ -607,7 +607,7 @@
     }
   ],
   "structured_data": {
-    "sha256": "d1de136545f106a4d68ccd8950a0e33ae4656aa492804af3e30b78c370cf355c",
+    "sha256": "6b3e5c4c11b2564a59ead199c067050ef725ac9c319a8c626e1505b156c1824c",
     "items": [
       {
         "@context": "https://schema.org",
@@ -639,7 +639,10 @@
             "@type": "Person",
             "@id": "https://freelanceaiconsultant.com/#dave",
             "name": "Dave Willemstein",
-            "url": "https://freelanceaiconsultant.com/nl/over",
+            "url": "https://freelanceaiconsultant.com/about",
+            "sameAs": [
+              "https://www.linkedin.com/in/davewillemstein"
+            ],
             "jobTitle": "Onafhankelijk AI-adviseur"
           },
           {
@@ -753,5 +756,5 @@
     "aantal_details": 0,
     "aantal_tabellen": 0
   },
-  "gemeten_op": "2026-11-04"
+  "gemeten_op": "2026-11-05"
 }

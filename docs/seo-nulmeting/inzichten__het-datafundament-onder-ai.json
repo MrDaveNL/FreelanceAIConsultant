@@ -2,7 +2,7 @@
   "url": "/inzichten/het-datafundament-onder-ai",
   "build_bestand": "dist/inzichten/het-datafundament-onder-ai/index.html",
   "html": {
-    "bytes": 42697,
+    "bytes": 42752,
     "lang": "nl"
   },
   "beschermd": {
@@ -602,7 +602,7 @@
     }
   ],
   "structured_data": {
-    "sha256": "96acf301ae27a46b4a6a5d5d387e01e117b6a63147a1696887187359a69d7828",
+    "sha256": "52f0c8eeddf5c65cd5ce3cf74c6ffd4ef80f5094ce676bdfd7911949d754273d",
     "items": [
       {
         "@context": "https://schema.org",
@@ -634,7 +634,10 @@
             "@type": "Person",
             "@id": "https://freelanceaiconsultant.com/#dave",
             "name": "Dave Willemstein",
-            "url": "https://freelanceaiconsultant.com/nl/over",
+            "url": "https://freelanceaiconsultant.com/about",
+            "sameAs": [
+              "https://www.linkedin.com/in/davewillemstein"
+            ],
             "jobTitle": "Onafhankelijk AI-adviseur"
           },
           {
@@ -756,5 +759,5 @@
     "aantal_details": 0,
     "aantal_tabellen": 0
   },
-  "gemeten_op": "2026-11-04"
+  "gemeten_op": "2026-11-05"
 }

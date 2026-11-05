@@ -1,0 +1,784 @@
+{
+  "url": "/insights/ai-vendor-selection-in-eight-steps",
+  "build_bestand": "dist/insights/ai-vendor-selection-in-eight-steps/index.html",
+  "html": {
+    "bytes": 41966,
+    "lang": "en"
+  },
+  "beschermd": {
+    "title": "AI Vendor Selection in Eight Steps | Freelance AI Consultant",
+    "meta_description": "Criteria first, vendors second. An eight-step AI vendor selection process built to withstand good demos and internal preferences.",
+    "canonical": "https://freelanceaiconsultant.com/insights/ai-vendor-selection-in-eight-steps",
+    "robots_meta": null,
+    "hreflang": [
+      {
+        "hreflang": "en",
+        "href": "https://freelanceaiconsultant.com/insights/ai-vendor-selection-in-eight-steps"
+      },
+      {
+        "hreflang": "nl",
+        "href": "https://freelanceaiconsultant.com/nl/inzichten/ai-vendorselectie-in-acht-stappen"
+      },
+      {
+        "hreflang": "x-default",
+        "href": "https://freelanceaiconsultant.com/insights/ai-vendor-selection-in-eight-steps"
+      }
+    ],
+    "h1": [
+      "AI vendor selection in eight steps"
+    ]
+  },
+  "social": {
+    "og:type": "website",
+    "og:locale": "en_US",
+    "og:site_name": "freelanceaiconsultant.com",
+    "og:title": "AI Vendor Selection in Eight Steps | Freelance AI Consultant",
+    "og:description": "Criteria first, vendors second. An eight-step AI vendor selection process built to withstand good demos and internal preferences.",
+    "og:url": "https://freelanceaiconsultant.com/insights/ai-vendor-selection-in-eight-steps",
+    "og:image": "https://freelanceaiconsultant.com/images/dave-portrait.jpg",
+    "twitter:card": "summary_large_image",
+    "twitter:title": "AI Vendor Selection in Eight Steps | Freelance AI Consultant",
+    "twitter:description": "Criteria first, vendors second. An eight-step AI vendor selection process built to withstand good demos and internal preferences.",
+    "twitter:image": "https://freelanceaiconsultant.com/images/dave-portrait.jpg"
+  },
+  "koppen": [
+    {
+      "niveau": 1,
+      "tekst": "AI vendor selection in eight steps",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "How does an AI vendor selection process avoid being decided by demos or internal preferences?",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 3,
+      "tekst": "Is price the most important point to negotiate in an AI vendor selection?",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 3,
+      "tekst": "Does a no-purchase option belong in an AI vendor selection comparison?",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 3,
+      "tekst": "Over how many years are the costs calculated in an AI vendor selection?",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "Why AI selection is different",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "Step 1: Define the decision, not the need",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "Step 2: Set criteria and weightings before you explore the market",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "Step 3: Build a longlist on fit, not familiarity",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "Step 4: Send everyone the same scenario",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "Step 5: Score independently, then discuss",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "Step 6: Ask the questions that make the difference",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "Step 7: Work out the real costs",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "Step 8: Negotiate on what you actually need",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "Finally: document why the others were rejected",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 3,
+      "tekst": "Key takeaways",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 3,
+      "tekst": "Build, buy or partner: what fits your situation?",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 3,
+      "tekst": "Independent AI consultant vs agency vs Big 4",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "From AI ambition to concrete results.",
+      "regio": "main",
+      "id": null
+    }
+  ],
+  "bodytekst": {
+    "regio": "main",
+    "woorden": 1664,
+    "sha256": "cd2bf010d0045a995041d52ce47186cdd3c6472ca114d4c8a9de36d67055de46",
+    "blokken": [
+      "Home",
+      "Insights",
+      "AI vendor selection in eight steps",
+      "← Back to all insights",
+      "Tools & data",
+      "AI vendor selection in eight steps",
+      "Most selections are decided before the process even starts. Eight steps that stop you hunting for a justification after the fact, for a choice that was already made.",
+      "◷ 5 min read 28 October 2026",
+      "DW",
+      "By Dave Willemstein Independent AI Advisor, independent, no vendor interests",
+      "I help organisations make AI decisions that create value. No bloated decks, just clear choices and tangible results.",
+      "trust, experience, impact ↓",
+      "Independent No vendor bias Senior only Since 2006",
+      "AT A GLANCE",
+      "Set criteria and weightings before you see any vendors.",
+      "Test with your own data, not their demo.",
+      "Calculate TCO over three years, including integration and exit.",
+      "The cheapest licence is rarely the cheapest choice.",
+      "AI in Europe",
+      "European brands already running AI in production.",
+      "Not my clients. Examples of what happens once AI moves past the pilot stage.",
+      "Pause",
+      "Klarna",
+      "Sweden",
+      "AI customer service assistant",
+      "Zalando",
+      "Germany",
+      "Fashion assistant for product advice",
+      "Financial services",
+      "Investment firm",
+      "AI strategy and use-case portfolio",
+      "Booking.com",
+      "Netherlands",
+      "AI Trip Planner for travel planning",
+      "Siemens",
+      "Germany",
+      "Industrial Copilot for engineering",
+      "Retail",
+      "Enterprise retailer",
+      "AI-driven vendor selection",
+      "Spotify",
+      "Sweden",
+      "AI DJ and personalized playlists",
+      "Mercedes-Benz",
+      "Germany",
+      "Generative voice assistant in the car",
+      "Industrial / B2B",
+      "International manufacturer",
+      "AI roadmap and leadership",
+      "ING",
+      "Netherlands",
+      "Generative chatbot for customer queries",
+      "L'Oréal",
+      "France",
+      "Beauty Genius: personalized advice",
+      "Financial services",
+      "Financial services firm",
+      "KYC accelerated with AI document analysis",
+      "SAP",
+      "Germany",
+      "Joule: copilot in business software",
+      "Carrefour",
+      "France",
+      "Hopla: grocery shopping assistant",
+      "Strategy & AI",
+      "SaaS scale-up",
+      "AI readiness assessment",
+      "Adyen",
+      "Netherlands",
+      "AI-driven payment optimization",
+      "Philips",
+      "Netherlands",
+      "AI in medical imaging",
+      "Proces & productivity",
+      "Professional services firm",
+      "Internal AI assistant for knowledge workers",
+      "How does an AI vendor selection process avoid being decided by demos or internal preferences?",
+      "An AI vendor selection in eight steps starts with the desired outcome and with criteria and weightings set in writing before a single vendor name is on the table. Every vendor then gets the same scenario on representative data of your own, assessors score independently before discussing, and a three-year cost calculation follows that includes integration, upkeep and exit. The selection closes with negotiating on real terms and recording why the other vendors were rejected.",
+      "Is price the most important point to negotiate in an AI vendor selection?",
+      "No. In an AI vendor selection, a pricing agreement for consumption at growth, recorded exit terms, a performance commitment on your own scenario, and the right to your own quality measurement weigh more heavily. It should also be recorded what happens if the vendor replaces the underlying model.",
+      "Does a no-purchase option belong in an AI vendor selection comparison?",
+      "Yes. An AI vendor selection should include at least one no-purchase option in the comparison. That option gives a reference point for what the purchase actually adds.",
+      "Over how many years are the costs calculated in an AI vendor selection?",
+      "Three years is the period over which the total costs are calculated in an AI vendor selection. The calculation includes at least the licence, consumption costs at expected and double volume, one-off integration, ongoing upkeep, training and estimated exit costs.",
+      "Source: article by Dave Willemstein. Updated: October 2026.",
+      "Why AI selection is different",
+      "With ordinary software you can tick off functionality. With AI applications, the core question isn't \"can the system do this?\" but \"how well does it do this on my data, and what happens when it gets it wrong?\" That's a fundamentally different question, and the standard RFP isn't built for it.",
+      "On top of that, demos in this field are deceptively good. A presentation on carefully chosen examples says little about performance on your messy reality. This process is designed to make that difference visible.",
+      "Step 1: Define the decision, not the need",
+      "Start with the outcome you want to achieve, expressed in your own process. Not \"we're looking for a document-processing platform\" but \"we want 80% of incoming files complete within a day, with less manual checking than now.\"",
+      "This framing keeps the door open to solutions you don't yet know about, including the possibility that no purchase is needed at all.",
+      "Step 2: Set criteria and weightings before you explore the market",
+      "This is the most important step, and the one most often skipped. Business, IT, security and procurement decide together which criteria matter and how heavily, before a single vendor name is on the table.",
+      "A workable set of categories:",
+      "Functional fit: does it cover your scenarios?",
+      "Performance on your own data: how well does it work on your material?",
+      "Integration: how much work is connecting it to your systems?",
+      "Data and privacy: where does the data sit, what happens to it, is it used for training?",
+      "Manageability: can you adjust thresholds, rules and exceptions yourself?",
+      "Cost: licence, consumption, integration, upkeep, exit.",
+      "Vendor: continuity, roadmap, support in your language and time zone.",
+      "Record the weightings in writing and have them signed off. Criteria adjusted after the first demo describe that demo.",
+      "Step 3: Build a longlist on fit, not familiarity",
+      "Look wider than the three names everyone knows. Look at specialist players in your sector, at what's already built into your existing software landscape (often more than you think), and at the option of assembling it yourself from standard components.",
+      "Include at least one \"no purchase\" option in the comparison. That's not a formality: it gives you a reference point for what the purchase actually adds.",
+      "Step 4: Send everyone the same scenario",
+      "No open RFP with two hundred questions. Send a concrete scenario: here's a representative set of our data (anonymised), this is the task, this is what we want to see. Same set, same questions, same amount of time for everyone.",
+      "The set needs to be representative, not polished. Include the messy cases: incomplete documents, inconsistent formats, edge cases. That's exactly where the difference between vendors shows up, and exactly what every demo leaves out.",
+      "Step 5: Score independently, then discuss",
+      "Have assessors fill in their scorecard individually before discussing it as a group. Otherwise the senior person's or the enthusiast's opinion dominates, and the information in the dissenting scores disappears.",
+      "Focus the discussion on the differences. If two assessors score the same answer very differently, that usually means the criterion isn't sharp enough. You want to know that before you decide.",
+      "Step 6: Ask the questions that make the difference",
+      "A selection of questions that deliver the most in practice:",
+      "Is our data used to train your models? If so, can we opt out, and what does that cost?",
+      "Which underlying models do you use, and what happens if that provider changes its terms or pricing?",
+      "How do you measure quality, and can we see and reproduce that measurement method?",
+      "What happens when the system gets it wrong? How do we find out, and what's your liability?",
+      "Can we adjust thresholds and rules ourselves, or does that have to go through you?",
+      "How do we get our data and configuration out if we stop, in what format and within what timeframe?",
+      "Which customer you lost last year can we call?",
+      "That last question rarely produces a name, but the reaction to it says a lot.",
+      "Step 7: Work out the real costs",
+      "A three-year TCO, with at least these items: licence, consumption costs at expected and double volume, one-off integration, ongoing upkeep on your side, training, and estimated exit costs.",
+      "In practice, this calculation regularly reshuffles the ranking. The vendor with the lowest licence fee often has the most expensive integration, and consumption costs that exceed the licence at full rollout.",
+      "Build the calculation the same way for every shortlisted vendor and have procurement check it. A TCO that only the consultant understands won't survive the first critical question.",
+      "Step 8: Negotiate on what you actually need",
+      "Price isn't the most important point to negotiate. More important are:",
+      "A pricing agreement for consumption at growth, so success doesn't unexpectedly turn out to be expensive.",
+      "Exit terms recorded in writing, including the format and timeframe of data transfer.",
+      "A performance commitment on your scenario, not a generic SLA on uptime.",
+      "The right to run your own quality measurement and use the results internally.",
+      "Clarity on what happens if the vendor replaces the underlying model.",
+      "That last point is new compared with classic software and is almost always forgotten. Vendors swap out their underlying models, sometimes without notice, and that can noticeably change performance on your specific task, in either direction. Record that you'll be informed about this and that you can revalidate afterwards.",
+      "Finally: document why the others were rejected",
+      "Not just why the winner won. The reasons for rejection are most valuable when, a year later, something disappoints and someone asks why vendor B wasn't chosen. Without a record, that becomes a conversation about gut feeling. With one, it's a conversation about criteria you agreed together at the time.",
+      "Key takeaways",
+      "✓",
+      "Weightings set in advance",
+      "Criteria drawn up after the demo describe the demo.",
+      "✓",
+      "Your own scenario",
+      "Every vendor gets the same scenario on your data, with the same amount of time.",
+      "✓",
+      "Your own references",
+      "Call customers who aren't on the list they gave you, too.",
+      "REMEMBER “You're not buying functionality, you're buying a three-year relationship with an organisation that will change.”",
+      "Want to talk through your situation? 30 minutes, no obligation →",
+      "Further reading",
+      "⇄",
+      "Organisation",
+      "Build, buy or partner: what fits your situation?",
+      "The question is rarely \"can we build this ourselves?\" but \"do we still want to be maintaining this in three years?\" A decision framework in four questions.",
+      "◷ 4 min read Read article →",
+      "⇄",
+      "Strategy",
+      "Independent AI consultant vs agency vs Big 4",
+      "A fair comparison on independence, speed, depth, cost and delivery power, so you choose the right partner, even when that isn't me.",
+      "◷ 4 min read Read article →",
+      "Ready for impact?",
+      "From AI ambition to concrete results.",
+      "Book a no-obligation call. No pitch. Just sharp questions.",
+      "30 min., no pitch deckBook a call →"
+    ]
+  },
+  "links": [
+    {
+      "regio": "overig",
+      "soort": "intern",
+      "href": "#main",
+      "anker": "Skip to main content",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/",
+      "anker": "",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/services",
+      "anker": "Services",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/cases",
+      "anker": "Cases",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/approach",
+      "anker": "Approach",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/insights",
+      "anker": "Insights",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/about",
+      "anker": "About",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/nl/inzichten/ai-vendorselectie-in-acht-stappen",
+      "anker": "NL",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/contact",
+      "anker": "Book a call →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/",
+      "anker": "Home",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/insights",
+      "anker": "Insights",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/insights",
+      "anker": "← Back to all insights",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/contact",
+      "anker": "Want to talk through your situation? 30 minutes, no obligation →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/insights/build-buy-or-partner",
+      "anker": "⇄ Organisation Build, buy or partner: what fits your situation? The question is rarely \"can we build this ourselves?\" but \"do we still want to be maintaining this in three years?\" A decision framework in four questions. ◷ 4 min read Read article →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/insights/independent-ai-consultant-vs-agency-vs-big4",
+      "anker": "⇄ Strategy Independent AI consultant vs agency vs Big 4 A fair comparison on independence, speed, depth, cost and delivery power, so you choose the right partner, even when that isn't me. ◷ 4 min read Read article →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/contact",
+      "anker": "Book a call →",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/services/ai-readiness-assessment",
+      "anker": "AI Readiness Assessment",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/services/ai-strategy-sprint",
+      "anker": "AI Strategy Sprint",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/services/fractional-ai-lead",
+      "anker": "Fractional AI Lead",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/services",
+      "anker": "All services",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/cases",
+      "anker": "Cases",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/approach",
+      "anker": "Approach",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/insights",
+      "anker": "Insights",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/faq",
+      "anker": "FAQ",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/about",
+      "anker": "About",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-consulting",
+      "anker": "AI consulting",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-implementation",
+      "anker": "AI implementation",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-automation",
+      "anker": "AI automation",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-for-business",
+      "anker": "AI for business",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-development",
+      "anker": "AI development",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-agents",
+      "anker": "AI agents",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-policy",
+      "anker": "AI policy",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-workshop",
+      "anker": "AI workshop",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/markets",
+      "anker": "AI by industry",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/knowledge-base",
+      "anker": "Knowledge base",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/pricing",
+      "anker": "Pricing",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/partner-network",
+      "anker": "Partner network",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "overig",
+      "href": "mailto:dave@freelanceaiconsultant.com",
+      "anker": "dave@freelanceaiconsultant.com",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "extern",
+      "href": "https://www.linkedin.com/in/davewillemstein",
+      "anker": "LinkedIn ↗",
+      "rel": "noopener"
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/contact",
+      "anker": "Book a call",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/privacy",
+      "anker": "Privacy policy",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/terms",
+      "anker": "Terms & conditions",
+      "rel": null
+    }
+  ],
+  "structured_data": {
+    "sha256": "f551ed2d02de66090309a240f2cf76aa7287532cc50952fc593961294ace79ec",
+    "items": [
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://freelanceaiconsultant.com/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Insights",
+                "item": "https://freelanceaiconsultant.com/insights"
+              },
+              {
+                "@type": "ListItem",
+                "position": 3,
+                "name": "AI vendor selection in eight steps",
+                "item": "https://freelanceaiconsultant.com/insights/ai-vendor-selection-in-eight-steps"
+              }
+            ]
+          },
+          {
+            "@type": "Person",
+            "@id": "https://freelanceaiconsultant.com/#dave",
+            "name": "Dave Willemstein",
+            "url": "https://freelanceaiconsultant.com/about",
+            "sameAs": [
+              "https://www.linkedin.com/in/davewillemstein"
+            ],
+            "jobTitle": "Independent AI Advisor"
+          },
+          {
+            "@type": "BlogPosting",
+            "headline": "AI vendor selection in eight steps",
+            "description": "Criteria first, vendors second. A selection process built to withstand good demos and internal preferences.",
+            "datePublished": "2026-10-28",
+            "dateModified": "2026-10-28",
+            "inLanguage": "en-GB",
+            "articleSection": "Tools & data",
+            "author": {
+              "@id": "https://freelanceaiconsultant.com/#dave"
+            },
+            "publisher": {
+              "@id": "https://freelanceaiconsultant.com/#dave"
+            },
+            "mainEntityOfPage": "https://freelanceaiconsultant.com/insights/ai-vendor-selection-in-eight-steps"
+          },
+          {
+            "@type": "FAQPage",
+            "mainEntity": [
+              {
+                "@type": "Question",
+                "name": "How does an AI vendor selection process avoid being decided by demos or internal preferences?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "An AI vendor selection in eight steps starts with the desired outcome and with criteria and weightings set in writing before a single vendor name is on the table. Every vendor then gets the same scenario on representative data of your own, assessors score independently before discussing, and a three-year cost calculation follows that includes integration, upkeep and exit. The selection closes with negotiating on real terms and recording why the other vendors were rejected."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Is price the most important point to negotiate in an AI vendor selection?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "No. In an AI vendor selection, a pricing agreement for consumption at growth, recorded exit terms, a performance commitment on your own scenario, and the right to your own quality measurement weigh more heavily. It should also be recorded what happens if the vendor replaces the underlying model."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Does a no-purchase option belong in an AI vendor selection comparison?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Yes. An AI vendor selection should include at least one no-purchase option in the comparison. That option gives a reference point for what the purchase actually adds."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Over how many years are the costs calculated in an AI vendor selection?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Three years is the period over which the total costs are calculated in an AI vendor selection. The calculation includes at least the licence, consumption costs at expected and double volume, one-off integration, ongoing upkeep, training and estimated exit costs."
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "afbeeldingen": [
+    {
+      "regio": "header",
+      "src": "/images/freelance-ai-consultant-logo-header.png",
+      "alt": "freelanceaiconsultant.com logo",
+      "width": "600",
+      "height": "287",
+      "loading": null
+    },
+    {
+      "regio": "main",
+      "src": "/images/dave-portrait.jpg",
+      "alt": "Dave Willemstein, Independent AI Advisor",
+      "width": "500",
+      "height": "620",
+      "loading": "lazy"
+    },
+    {
+      "regio": "footer",
+      "src": "/images/freelance-ai-consultant-icon-footer.png",
+      "alt": "",
+      "width": "192",
+      "height": "192",
+      "loading": "lazy"
+    }
+  ],
+  "laadprestaties": {
+    "scripts": [
+      {
+        "src": "/_astro/CookieConsent.astro_astro_type_script_index_0_lang.COcxE8NY.js",
+        "type": "module",
+        "inline_bytes": 0
+      },
+      {
+        "src": null,
+        "type": null,
+        "inline_bytes": 989
+      },
+      {
+        "src": null,
+        "type": null,
+        "inline_bytes": 493
+      },
+      {
+        "src": "/logo-carousel/logo-carousel.js?v=2",
+        "type": null,
+        "inline_bytes": 0
+      },
+      {
+        "src": null,
+        "type": null,
+        "inline_bytes": 725
+      }
+    ],
+    "stylesheets": [
+      "/_astro/_slug_.CzLXI3HH.css",
+      "/_astro/_slug_.C1c5Do37.css",
+      "/logo-carousel/logo-carousel.css?v=2"
+    ],
+    "aantal_details": 0,
+    "aantal_tabellen": 0
+  },
+  "gemeten_op": "2026-11-05"
+}

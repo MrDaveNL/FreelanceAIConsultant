@@ -1,0 +1,844 @@
+{
+  "url": "/ai-development/ai-specialist",
+  "build_bestand": "dist/ai-development/ai-specialist/index.html",
+  "html": {
+    "bytes": 42350,
+    "lang": "en"
+  },
+  "beschermd": {
+    "title": "AI Specialist | Senior AI Expertise for Your Organisation",
+    "meta_description": "Looking to hire an AI specialist? See the kinds of expertise that exist, how to work out which one you need, and what a freelance AI specialist adds.",
+    "canonical": "https://freelanceaiconsultant.com/ai-development/ai-specialist",
+    "robots_meta": null,
+    "hreflang": [
+      {
+        "hreflang": "en",
+        "href": "https://freelanceaiconsultant.com/ai-development/ai-specialist"
+      },
+      {
+        "hreflang": "nl",
+        "href": "https://freelanceaiconsultant.com/nl/ai-development/ai-specialist"
+      },
+      {
+        "hreflang": "x-default",
+        "href": "https://freelanceaiconsultant.com/ai-development/ai-specialist"
+      }
+    ],
+    "h1": [
+      "AI specialist: expertise for strategy and delivery"
+    ]
+  },
+  "social": {
+    "og:type": "website",
+    "og:locale": "en_US",
+    "og:site_name": "freelanceaiconsultant.com",
+    "og:title": "AI Specialist | Senior AI Expertise for Your Organisation",
+    "og:description": "Looking to hire an AI specialist? See the kinds of expertise that exist, how to work out which one you need, and what a freelance AI specialist adds.",
+    "og:url": "https://freelanceaiconsultant.com/ai-development/ai-specialist",
+    "og:image": "https://freelanceaiconsultant.com/images/dave-portrait.jpg",
+    "twitter:card": "summary_large_image",
+    "twitter:title": "AI Specialist | Senior AI Expertise for Your Organisation",
+    "twitter:description": "Looking to hire an AI specialist? See the kinds of expertise that exist, how to work out which one you need, and what a freelance AI specialist adds.",
+    "twitter:image": "https://freelanceaiconsultant.com/images/dave-portrait.jpg"
+  },
+  "koppen": [
+    {
+      "niveau": 1,
+      "tekst": "AI specialist: expertise for strategy and delivery",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "Which AI specialist fits which question, and what does strategic involvement cost?",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 3,
+      "tekst": "What does a strategic AI specialist deliver?",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 3,
+      "tekst": "Which AI specialist is needed when it's still unclear where AI adds value?",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 3,
+      "tekst": "Can the Fractional AI Lead keep steering if a delivery partner carries out the work?",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "What does an AI specialist do?",
+      "regio": "main",
+      "id": "what-does-an-ai-specialist-do"
+    },
+    {
+      "niveau": 2,
+      "tekst": "Kinds of AI specialists",
+      "regio": "main",
+      "id": "kinds-of-ai-specialists"
+    },
+    {
+      "niveau": 2,
+      "tekst": "Which expertise do you need?",
+      "regio": "main",
+      "id": "which-expertise-do-you-need"
+    },
+    {
+      "niveau": 2,
+      "tekst": "My specialisations",
+      "regio": "main",
+      "id": "my-specialisations"
+    },
+    {
+      "niveau": 2,
+      "tekst": "Frequently asked questions",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "From AI ambition to real results.",
+      "regio": "main",
+      "id": null
+    }
+  ],
+  "bodytekst": {
+    "regio": "main",
+    "woorden": 1934,
+    "sha256": "84d81f5a7ed5bc4476d72c7599ce6a5b9ef281e4634e66f914eacd3e36e68f33",
+    "blokken": [
+      "Home",
+      "AI Development",
+      "AI Specialist",
+      "AI specialist",
+      "AI specialist: expertise for strategy and delivery",
+      "An AI specialist could be a strategist, a machine learning engineer, or someone who sets up an AI platform. Anyone searching for an AI specialist is really searching for a specific kind of expertise. Here's what the different kinds are, how to work out which one you need, and what role I play as a freelance AI specialist.",
+      "Book a consultation → See the AI Readiness Assessment →",
+      "IN SHORT",
+      "'AI specialist' is an umbrella term: strategic and technical specialists do very different work.",
+      "Work out first which decision or product you need; the profile follows from that.",
+      "I'm a strategic AI specialist: I advise and guide, but I don't build.",
+      "AI in Europe",
+      "European brands already running AI in production.",
+      "Not my clients. Examples of what happens once AI moves past the pilot stage.",
+      "Pause",
+      "Klarna",
+      "Sweden",
+      "AI customer service assistant",
+      "Zalando",
+      "Germany",
+      "Fashion assistant for product advice",
+      "Financial services",
+      "Investment firm",
+      "AI strategy and use-case portfolio",
+      "Booking.com",
+      "Netherlands",
+      "AI Trip Planner for travel planning",
+      "Siemens",
+      "Germany",
+      "Industrial Copilot for engineering",
+      "Retail",
+      "Enterprise retailer",
+      "AI-driven vendor selection",
+      "Spotify",
+      "Sweden",
+      "AI DJ and personalized playlists",
+      "Mercedes-Benz",
+      "Germany",
+      "Generative voice assistant in the car",
+      "Industrial / B2B",
+      "International manufacturer",
+      "AI roadmap and leadership",
+      "ING",
+      "Netherlands",
+      "Generative chatbot for customer queries",
+      "L'Oréal",
+      "France",
+      "Beauty Genius: personalized advice",
+      "Financial services",
+      "Financial services firm",
+      "KYC accelerated with AI document analysis",
+      "SAP",
+      "Germany",
+      "Joule: copilot in business software",
+      "Carrefour",
+      "France",
+      "Hopla: grocery shopping assistant",
+      "Strategy & AI",
+      "SaaS scale-up",
+      "AI readiness assessment",
+      "Adyen",
+      "Netherlands",
+      "AI-driven payment optimization",
+      "Philips",
+      "Netherlands",
+      "AI in medical imaging",
+      "Proces & productivity",
+      "Professional services firm",
+      "Internal AI assistant for knowledge workers",
+      "Which AI specialist fits which question, and what does strategic involvement cost?",
+      "AI specialist is an umbrella term for strategic specialists, who mainly prepare and steer decisions, and technical specialists, who mainly build; the profile needed follows from the decision or the product an organisation needs. Dave Willemstein is an AI specialist on the strategic side, advising and guiding but not building. For an assessment there's the AI Readiness Assessment, taking 2-3 weeks for a fixed project fee, and for guidance from the client side the Fractional AI Lead.",
+      "What does a strategic AI specialist deliver?",
+      "A strategic AI specialist delivers a well-founded choice: a roadmap, a selection recommendation, or an assessed business case. Working software is the output of technical AI specialists, such as a machine learning expert, an AI developer or a platform specialist.",
+      "Which AI specialist is needed when it's still unclear where AI adds value?",
+      "A strategic AI specialist: anyone who doesn't yet know where AI adds value needs strategic AI expertise, someone who maps opportunities, risks and conditions before any budget is committed. Anyone who knows what needs to be built and needs build capacity needs technical specialists: their own team, a development partner or freelance developers.",
+      "Can the Fractional AI Lead keep steering if a delivery partner carries out the work?",
+      "Yes, from the client side: the Fractional AI Lead helps steer delivery by the client's own team or a delivery partner. The Fractional AI Lead is priced as a fixed monthly fee.",
+      "Source: pricing and timelines from Dave Willemstein. Updated: October 2026.",
+      "What does an AI specialist do?",
+      "An AI specialist helps an organisation put artificial intelligence to meaningful use. That sounds straightforward, but the title covers very different kinds of work. One AI specialist trains and tests models, another connects a language model to your document system, and a third helps leadership decide which AI investments are worth making and which aren’t.",
+      "What they have in common is that they bridge what’s technically possible and what’s genuinely useful for your organisation. A good AI specialist therefore doesn’t start with the technology, but with the question: which problem are we solving, how do we measure whether it worked, and what happens when the system gets it wrong?",
+      "Depending on the profile, an AI specialist concretely does one or more of these things:",
+      "assesses use cases for value, feasibility and risk;",
+      "designs, builds, tests or configures AI applications;",
+      "compares and selects vendors and solutions;",
+      "measures and monitors the quality of AI systems;",
+      "sets up governance, including what the AI Act and UK GDPR require;",
+      "guides teams on adoption and day-to-day use.",
+      "No single AI specialist is equally strong at all of these. That’s why the first step in looking for AI expertise isn’t a name, but a sharp description of what you actually need.",
+      "Kinds of AI specialists",
+      "Broadly, there are two families: strategic and technical AI specialists. Each family has its own specialisations within it.",
+      "Strategic advisorWorks with leadership to decide what's worth doing: priorities, business case, vendor choice, governance.",
+      "AI lead or AI architectTranslates strategy into architecture and portfolio; steers teams and vendors.",
+      "Machine learning engineerTrains, evaluates and maintains models; works with data, experiments and measurement.",
+      "AI developer or platform specialistBuilds applications and integrations around existing models, or configures a specific AI platform.",
+      "Top: roles that mainly prepare and steer decisions. Bottom: roles that mainly build.",
+      "Strategic AI specialists work at the level of decisions. They help determine where AI adds value, which use cases should come first, whether to build, buy or partner, and which risks that carries. Their output is a well-founded choice: a roadmap, a selection recommendation, an assessed business case.",
+      "Technical AI specialists work at the level of systems. A machine learning expert trains and evaluates models. An AI developer builds applications around existing models, often a large language model from a vendor. A platform specialist configures one specific environment, such as an AI assistant inside your office software. Their output is working software. What an AI developer’s day-to-day work actually looks like is covered in a separate article on this site.",
+      "Both families are needed in a mature AI programme. The risk comes from hiring one when you need the other: a technically strong builder who’s also making the strategic calls, or a strategist from whom you expect a working system.",
+      "Which expertise do you need?",
+      "Start with the question on the table, not the job title. Four situations that come up often:",
+      "You don’t yet know where AI adds value. Then you need strategic AI expertise: someone who maps opportunities, risks and conditions before any budget is committed.",
+      "You need to choose between vendors or solutions. Also strategic, but with enough technical depth to see through demos and set up a test on your own data. How to weigh standard software against custom development is covered under choosing or building AI software.",
+      "You know what you want and need build capacity. Then you need technical specialists: your own team, a development partner, or freelance developers. Examples of what can be built are on custom AI solutions.",
+      "Initiatives are running with no owner. Then you’re looking for an AI lead to steer and keep oversight, possibly part-time.",
+      "If you’re weighing hiring against bringing someone onto permanent staff, the cost comparison matters too, though published salary benchmarks for this role are still thin and vary widely by region and seniority, so I haven’t included a figure here rather than guess at one. Practical criteria for selecting an outside advisor are covered on hiring an AI consultant.",
+      "My specialisations",
+      "I’m a freelance AI consultant, an AI specialist on the strategic side: an independent AI consultant who works alone. I don’t write code and I don’t sell software or implementations. That’s a deliberate choice: the moment I earn from the build, I have an incentive to grow the scope.",
+      "Where I am specialised:",
+      "AI strategy and prioritisation. From scattered ideas to a portfolio with well-founded choices and a roadmap.",
+      "Readiness. An assessment across strategy, data, technology, people and governance. The AI Readiness Assessment has a fixed price and takes 2-3 weeks.",
+      "Vendor selection. Criteria set upfront, the same scenario tested on your data, and a three-year TCO comparison. One example is the case study on vendor selection in enterprise retail.",
+      "Assessment and due diligence. Assessing business cases and AI propositions for value, risk and feasibility.",
+      "Governance. Roles, decision frameworks and the requirements of the AI Act, made workable.",
+      "Guidance from the client side. As Fractional AI Lead, I help steer delivery by your own team or a development partner.",
+      "For the build itself, you work with your own team or with parties you contract directly. Where that helps, I introduce developers I know, with no margin on their rate; how that works is covered under the partner network. An overview of the whole development journey, from specification to upkeep, is on the AI development page.",
+      "Example scenario",
+      "An industrial company with 200 staff wants to hire a machine learning engineer to predict maintenance needs on its production lines. The job advert is ready, but the director isn't sure the profile is right.",
+      "Over three advisory days, the consultant maps out what's actually needed. Sensor data from the lines has only been stored for four months, and faults aren't logged consistently. Training a model isn't yet worthwhile on that basis. The machine vendor also offers a maintenance module that covers part of the need.",
+      "The advice: first bring in a data engineer for one day a week to get fault logging in order, and trial the vendor's module for six months. After a year, the company reassesses whether it needs its own machine learning engineer. The full-time vacancy stays on hold for now.",
+      "Illustrative example, built from situations that come up often. The organisation and figures are for illustration.",
+      "Want to know which AI expertise your question actually needs? Book a thirty-minute consultation. If the answer is that you need a builder and not an advisor, you’ll hear that too.",
+      "Dave Willemstein Independent AI Advisor",
+      "Independent: no commissions, no partner deals, no margin on implementation partners.",
+      "About My partner network",
+      "Want to know where you stand with AI? See the AI Readiness Assessment →",
+      "Frequently asked questions",
+      "Is an AI specialist the same as an AI expert?+",
+      "In practice the terms are used interchangeably. Both say little without a qualifier. Always ask: an expert in what? Strategy and governance, building models, or setting up a specific platform are three different fields.",
+      "How do I check whether someone is genuinely an AI specialist?+",
+      "Ask about specific engagements and what went wrong, not only what went well. Have a technical specialist explain how they measure the quality of a solution. Have a strategic specialist explain which piece of advice they once gave to not invest, and why.",
+      "Do I need an AI specialist on permanent staff?+",
+      "Not always. As long as the scope of the role isn't yet settled, bringing someone in externally or part-time is often wiser than a permanent hire. Once there's structural, ongoing work, it pays to bring that knowledge in-house. A part-time AI lead can help with the job profile and the hiring itself.",
+      "Can one AI specialist handle both strategy and building?+",
+      "Sometimes, for small and well-defined applications. For larger engagements, these are two disciplines, each with its own depth. There's also a conflict-of-interest question: whoever advises on what should be built and also profits from building it has an incentive to grow the scope.",
+      "What language and region do you work in as an AI specialist?+",
+      "I work across the UK and Europe, and sessions and documents can be in English or Dutch. For engagements with a lot of on-site presence, we factor travel time into the planning.",
+      "Ready for impact?",
+      "From AI ambition to real results.",
+      "Book a no-obligation call. No pitch. Just sharp questions.",
+      "30 min., no pitch deckBook a call →"
+    ]
+  },
+  "links": [
+    {
+      "regio": "overig",
+      "soort": "intern",
+      "href": "#main",
+      "anker": "Skip to main content",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/",
+      "anker": "",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/services",
+      "anker": "Services",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/cases",
+      "anker": "Cases",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/approach",
+      "anker": "Approach",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/insights",
+      "anker": "Insights",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/about",
+      "anker": "About",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/nl/ai-development/ai-specialist",
+      "anker": "NL",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/contact",
+      "anker": "Book a call →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/",
+      "anker": "Home",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/ai-development",
+      "anker": "AI Development",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/contact",
+      "anker": "Book a consultation →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/services/ai-readiness-assessment",
+      "anker": "See the AI Readiness Assessment →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/services/ai-readiness-assessment",
+      "anker": "AI Readiness Assessment",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/services/fractional-ai-lead",
+      "anker": "Fractional AI Lead",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/pricing",
+      "anker": "pricing and timelines from Dave Willemstein",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/ai-development/ai-software",
+      "anker": "choosing or building AI software",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/ai-development/ai-solutions",
+      "anker": "custom AI solutions",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/ai-consulting#hiring-an-ai-consultant",
+      "anker": "hiring an AI consultant",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/about",
+      "anker": "independent AI consultant",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/services/ai-readiness-assessment",
+      "anker": "AI Readiness Assessment",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/cases/vendor-selection-enterprise-retail",
+      "anker": "vendor selection in enterprise retail",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/services/fractional-ai-lead",
+      "anker": "Fractional AI Lead",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/partner-network",
+      "anker": "partner network",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/ai-development",
+      "anker": "AI development",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/contact",
+      "anker": "Book a thirty-minute consultation",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/about",
+      "anker": "About",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/partner-network",
+      "anker": "My partner network",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/services/ai-readiness-assessment",
+      "anker": "Want to know where you stand with AI? See the AI Readiness Assessment →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/contact",
+      "anker": "Book a call →",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/services/ai-readiness-assessment",
+      "anker": "AI Readiness Assessment",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/services/ai-strategy-sprint",
+      "anker": "AI Strategy Sprint",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/services/fractional-ai-lead",
+      "anker": "Fractional AI Lead",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/services",
+      "anker": "All services",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/cases",
+      "anker": "Cases",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/approach",
+      "anker": "Approach",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/insights",
+      "anker": "Insights",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/faq",
+      "anker": "FAQ",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/about",
+      "anker": "About",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-consulting",
+      "anker": "AI consulting",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-implementation",
+      "anker": "AI implementation",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-automation",
+      "anker": "AI automation",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-for-business",
+      "anker": "AI for business",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-development",
+      "anker": "AI development",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-agents",
+      "anker": "AI agents",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-policy",
+      "anker": "AI policy",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-workshop",
+      "anker": "AI workshop",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/markets",
+      "anker": "AI by industry",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/knowledge-base",
+      "anker": "Knowledge base",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/pricing",
+      "anker": "Pricing",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/partner-network",
+      "anker": "Partner network",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "overig",
+      "href": "mailto:dave@freelanceaiconsultant.com",
+      "anker": "dave@freelanceaiconsultant.com",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "extern",
+      "href": "https://www.linkedin.com/in/davewillemstein",
+      "anker": "LinkedIn ↗",
+      "rel": "noopener"
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/contact",
+      "anker": "Book a call",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/privacy",
+      "anker": "Privacy policy",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/terms",
+      "anker": "Terms & conditions",
+      "rel": null
+    }
+  ],
+  "structured_data": {
+    "sha256": "9e7b655bc8d4b26a27e0cd4d3b01dae688be1a926935e798341f1008b2ef5a5d",
+    "items": [
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://freelanceaiconsultant.com/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "AI Development",
+                "item": "https://freelanceaiconsultant.com/ai-development"
+              },
+              {
+                "@type": "ListItem",
+                "position": 3,
+                "name": "AI Specialist",
+                "item": "https://freelanceaiconsultant.com/ai-development/ai-specialist"
+              }
+            ]
+          },
+          {
+            "@type": "Service",
+            "name": "AI Specialist",
+            "serviceType": "hire an ai specialist",
+            "description": "Looking to hire an AI specialist? See the kinds of expertise that exist, how to work out which one you need, and what a freelance AI specialist adds.",
+            "url": "https://freelanceaiconsultant.com/ai-development/ai-specialist",
+            "areaServed": "GB",
+            "provider": {
+              "@type": "Person",
+              "name": "Dave Willemstein",
+              "jobTitle": "Onafhankelijk AI-adviseur",
+              "url": "https://freelanceaiconsultant.com/over",
+              "sameAs": [
+                "https://www.linkedin.com/in/davewillemstein"
+              ]
+            }
+          },
+          {
+            "@type": "FAQPage",
+            "mainEntity": [
+              {
+                "@type": "Question",
+                "name": "Is an AI specialist the same as an AI expert?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "In practice the terms are used interchangeably. Both say little without a qualifier. Always ask: an expert in what? Strategy and governance, building models, or setting up a specific platform are three different fields."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "How do I check whether someone is genuinely an AI specialist?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Ask about specific engagements and what went wrong, not only what went well. Have a technical specialist explain how they measure the quality of a solution. Have a strategic specialist explain which piece of advice they once gave to not invest, and why."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Do I need an AI specialist on permanent staff?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Not always. As long as the scope of the role isn't yet settled, bringing someone in externally or part-time is often wiser than a permanent hire. Once there's structural, ongoing work, it pays to bring that knowledge in-house. A part-time AI lead can help with the job profile and the hiring itself."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Can one AI specialist handle both strategy and building?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Sometimes, for small and well-defined applications. For larger engagements, these are two disciplines, each with its own depth. There's also a conflict-of-interest question: whoever advises on what should be built and also profits from building it has an incentive to grow the scope."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "What language and region do you work in as an AI specialist?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "I work across the UK and Europe, and sessions and documents can be in English or Dutch. For engagements with a lot of on-site presence, we factor travel time into the planning."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Which AI specialist fits which question, and what does strategic involvement cost?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "AI specialist is an umbrella term for strategic specialists, who mainly prepare and steer decisions, and technical specialists, who mainly build; the profile needed follows from the decision or the product an organisation needs. Dave Willemstein is an AI specialist on the strategic side, advising and guiding but not building. For an assessment there's the AI Readiness Assessment, taking 2-3 weeks for a fixed project fee, and for guidance from the client side the Fractional AI Lead."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "What does a strategic AI specialist deliver?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "A strategic AI specialist delivers a well-founded choice: a roadmap, a selection recommendation, or an assessed business case. Working software is the output of technical AI specialists, such as a machine learning expert, an AI developer or a platform specialist."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Which AI specialist is needed when it's still unclear where AI adds value?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "A strategic AI specialist: anyone who doesn't yet know where AI adds value needs strategic AI expertise, someone who maps opportunities, risks and conditions before any budget is committed. Anyone who knows what needs to be built and needs build capacity needs technical specialists: their own team, a development partner or freelance developers."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Can the Fractional AI Lead keep steering if a delivery partner carries out the work?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Yes, from the client side: the Fractional AI Lead helps steer delivery by the client's own team or a delivery partner. The Fractional AI Lead is priced as a fixed monthly fee."
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "afbeeldingen": [
+    {
+      "regio": "header",
+      "src": "/images/freelance-ai-consultant-logo-header.png",
+      "alt": "freelanceaiconsultant.com logo",
+      "width": "600",
+      "height": "287",
+      "loading": null
+    },
+    {
+      "regio": "main",
+      "src": "/images/dave-portrait.jpg",
+      "alt": "Portrait of Dave Willemstein",
+      "width": "88",
+      "height": "88",
+      "loading": "lazy"
+    },
+    {
+      "regio": "footer",
+      "src": "/images/freelance-ai-consultant-icon-footer.png",
+      "alt": "",
+      "width": "192",
+      "height": "192",
+      "loading": "lazy"
+    }
+  ],
+  "laadprestaties": {
+    "scripts": [
+      {
+        "src": "/_astro/CookieConsent.astro_astro_type_script_index_0_lang.COcxE8NY.js",
+        "type": "module",
+        "inline_bytes": 0
+      },
+      {
+        "src": null,
+        "type": null,
+        "inline_bytes": 989
+      },
+      {
+        "src": null,
+        "type": null,
+        "inline_bytes": 493
+      },
+      {
+        "src": "/logo-carousel/logo-carousel.js?v=2",
+        "type": null,
+        "inline_bytes": 0
+      },
+      {
+        "src": null,
+        "type": null,
+        "inline_bytes": 725
+      }
+    ],
+    "stylesheets": [
+      "/_astro/_slug_.CzLXI3HH.css",
+      "/_astro/_slug_.Do5RJXa7.css",
+      "/logo-carousel/logo-carousel.css?v=2"
+    ],
+    "aantal_details": 5,
+    "aantal_tabellen": 0
+  },
+  "gemeten_op": "2026-11-05"
+}
