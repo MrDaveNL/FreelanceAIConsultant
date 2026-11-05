@@ -1,0 +1,744 @@
+{
+  "url": "/insights/why-ai-pilots-stall",
+  "build_bestand": "dist/insights/why-ai-pilots-stall/index.html",
+  "html": {
+    "bytes": 40901,
+    "lang": "en"
+  },
+  "beschermd": {
+    "title": "Why AI Pilots Stall (and What to Do About It)",
+    "meta_description": "Almost every organisation I speak to has successful AI pilots. Almost none have scaled up more than two. That's not a technology problem.",
+    "canonical": "https://freelanceaiconsultant.com/insights/why-ai-pilots-stall",
+    "robots_meta": null,
+    "hreflang": [
+      {
+        "hreflang": "en",
+        "href": "https://freelanceaiconsultant.com/insights/why-ai-pilots-stall"
+      },
+      {
+        "hreflang": "nl",
+        "href": "https://freelanceaiconsultant.com/nl/inzichten/waarom-ai-pilots-blijven-steken"
+      },
+      {
+        "hreflang": "x-default",
+        "href": "https://freelanceaiconsultant.com/insights/why-ai-pilots-stall"
+      }
+    ],
+    "h1": [
+      "Why AI pilots stall"
+    ]
+  },
+  "social": {
+    "og:type": "website",
+    "og:locale": "en_US",
+    "og:site_name": "freelanceaiconsultant.com",
+    "og:title": "Why AI Pilots Stall (and What to Do About It)",
+    "og:description": "Almost every organisation I speak to has successful AI pilots. Almost none have scaled up more than two. That's not a technology problem.",
+    "og:url": "https://freelanceaiconsultant.com/insights/why-ai-pilots-stall",
+    "og:image": "https://freelanceaiconsultant.com/images/dave-portrait.jpg",
+    "twitter:card": "summary_large_image",
+    "twitter:title": "Why AI Pilots Stall (and What to Do About It)",
+    "twitter:description": "Almost every organisation I speak to has successful AI pilots. Almost none have scaled up more than two. That's not a technology problem.",
+    "twitter:image": "https://freelanceaiconsultant.com/images/dave-portrait.jpg"
+  },
+  "koppen": [
+    {
+      "niveau": 1,
+      "tekst": "Why AI pilots stall",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "Why are successful AI pilots rarely scaled up to production?",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 3,
+      "tekst": "Can AI pilots run better in the real working environment than in a separate one?",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 3,
+      "tekst": "Does the scale-up owner for AI pilots need to be known before the pilot starts?",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 3,
+      "tekst": "Can AI pilots go ahead if nothing in the organisation is allowed to change?",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "The pilot paradox",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "Cause 1: The pilot proved the wrong question",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "Cause 2: The pilot ran outside the real work",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "Cause 3: Nobody owns the next phase",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "Cause 4: Upkeep wasn't factored in",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "Cause 5: The organisation wasn't allowed to change",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "A one-page pilot contract",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 3,
+      "tekst": "Key takeaways",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 3,
+      "tekst": "Which AI use cases actually deliver results?",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 3,
+      "tekst": "AI adoption starts with the work, not the tool",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "From AI ambition to concrete results.",
+      "regio": "main",
+      "id": null
+    }
+  ],
+  "bodytekst": {
+    "regio": "main",
+    "woorden": 1576,
+    "sha256": "91da72f21bcafec35692b66678d5f01098b19afea8de0fd5cf95c6f43160e4a9",
+    "blokken": [
+      "Home",
+      "Insights",
+      "Why AI pilots stall (and what to do about it)",
+      "← Back to all insights",
+      "Organisation",
+      "Why AI pilots stall",
+      "Almost every organisation I speak to has successful AI pilots. Almost none have scaled up more than two. That's not a technology problem.",
+      "◷ 4 min read 28 October 2026",
+      "DW",
+      "By Dave Willemstein Independent AI Advisor, independent, no vendor interests",
+      "I help organisations make AI decisions that create value. No bloated decks, just clear choices and tangible results.",
+      "trust, experience, impact ↓",
+      "Independent No vendor bias Senior only Since 2006",
+      "AT A GLANCE",
+      "A pilot proves feasibility, not value.",
+      "Scaling up fails on ownership, upkeep and work process, rarely on technology.",
+      "Agree the scale-up criteria before the pilot starts.",
+      "Whoever designs the pilot without exit criteria designs a dead end.",
+      "AI in Europe",
+      "European brands already running AI in production.",
+      "Not my clients. Examples of what happens once AI moves past the pilot stage.",
+      "Pause",
+      "Klarna",
+      "Sweden",
+      "AI customer service assistant",
+      "Zalando",
+      "Germany",
+      "Fashion assistant for product advice",
+      "Financial services",
+      "Investment firm",
+      "AI strategy and use-case portfolio",
+      "Booking.com",
+      "Netherlands",
+      "AI Trip Planner for travel planning",
+      "Siemens",
+      "Germany",
+      "Industrial Copilot for engineering",
+      "Retail",
+      "Enterprise retailer",
+      "AI-driven vendor selection",
+      "Spotify",
+      "Sweden",
+      "AI DJ and personalized playlists",
+      "Mercedes-Benz",
+      "Germany",
+      "Generative voice assistant in the car",
+      "Industrial / B2B",
+      "International manufacturer",
+      "AI roadmap and leadership",
+      "ING",
+      "Netherlands",
+      "Generative chatbot for customer queries",
+      "L'Oréal",
+      "France",
+      "Beauty Genius: personalized advice",
+      "Financial services",
+      "Financial services firm",
+      "KYC accelerated with AI document analysis",
+      "SAP",
+      "Germany",
+      "Joule: copilot in business software",
+      "Carrefour",
+      "France",
+      "Hopla: grocery shopping assistant",
+      "Strategy & AI",
+      "SaaS scale-up",
+      "AI readiness assessment",
+      "Adyen",
+      "Netherlands",
+      "AI-driven payment optimization",
+      "Philips",
+      "Netherlands",
+      "AI in medical imaging",
+      "Proces & productivity",
+      "Professional services firm",
+      "Internal AI assistant for knowledge workers",
+      "Why are successful AI pilots rarely scaled up to production?",
+      "AI pilots stall for causes that are never technical: the pilot only answers whether something is technically possible, it runs outside the real work process, it has no owner for the phase after, it leaves out the cost of upkeep, and it avoids the organisational change needed. A pilot demonstrates that something is feasible, not that it's worth doing. What works well in practice is recording, before the pilot starts, the question it needs to answer, the stop criteria, the scale-up owner, the upkeep estimate and the change required, all on one page.",
+      "Can AI pilots run better in the real working environment than in a separate one?",
+      "Yes, for AI pilots the countermeasure is: a smaller scope in the real environment beats a larger scope alongside it, with one team, real data, the real process and real integrations. That setup is slower in week one and considerably faster by month six.",
+      "Does the scale-up owner for AI pilots need to be known before the pilot starts?",
+      "Yes. The scale-up owner for AI pilots is appointed before the pilot begins: someone from the business, with budget and a seat on the pilot steering group. If that person can't be found, that's itself an important finding.",
+      "Can AI pilots go ahead if nothing in the organisation is allowed to change?",
+      "Yes, but the business case for AI pilots is then calculated without the savings that change would require. Often a real, smaller value remains, and that's a more honest starting point than a promise that can't be delivered later.",
+      "Source: article by Dave Willemstein. Updated: October 2026.",
+      "The pilot paradox",
+      "Pilots are designed to reduce risk. Start small, learn, then scale up. In practice, they often do the opposite: they create the illusion of progress without anything actually changing. An organisation with seven successful pilots and zero applications in production is further from its goal than an organisation with one application that's actually running.",
+      "The causes are strikingly consistent. Five of them, and none are technical.",
+      "Cause 1: The pilot proved the wrong question",
+      "Most pilots answer the question \"can this work technically?\" These days, that answer is almost always yes, which means the pilot is neither informative nor decision-useful.",
+      "The questions that actually matter: does this cost less than it delivers at a hundred times this volume? Do the people who have to work with it actually want to use it when nobody's watching? Can we maintain it with the capacity we have?",
+      "Countermeasure: before you start, write down the one question the pilot needs to answer, and phrase it so that \"no\" is a possible answer. If you can't picture what a negative outcome looks like beforehand, you're not designing a pilot, you're putting on a demonstration.",
+      "Cause 2: The pilot ran outside the real work",
+      "To move fast, a pilot often gets set up alongside the existing process: a separate environment, a hand-picked group of enthusiastic users, a standalone dataset. That gets you a result quickly and tells you nothing about scalability.",
+      "What then goes wrong at scale-up: integration with the source system turns out to be three months of work, the average user doesn't have the context the pilot group had, and the real data is messier than the test dataset.",
+      "Countermeasure: a smaller scope in the real environment beats a larger scope alongside it. One team, real data, the real process, real integrations. That's slower in week one and considerably faster by month six.",
+      "Cause 3: Nobody owns the next phase",
+      "The pilot has a project lead. Their job is done at delivery. The business hasn't planned any capacity, reserved any budget, or set any target that this application fits into.",
+      "What happens then: the application keeps running in pilot form, unmaintained, until it breaks or the licence expires. Nobody decides anything. It just evaporates.",
+      "Countermeasure: name the scale-up owner before the pilot starts, not after. That person sits in the business, has budget, and sits on the pilot steering group. If you can't find that person, that's itself an important finding: apparently there's no place in the organisation where this value lands.",
+      "Cause 4: Upkeep wasn't factored in",
+      "AI applications need ongoing maintenance: quality monitoring, retraining or recalibration, tracking model versions, a test set that stays current. During the pilot phase, the project team does this implicitly. After delivery, nobody does.",
+      "This is why applications that worked fine in month one are quietly performing worse by month eight, without anyone noticing.",
+      "Countermeasure: include the upkeep cost in the business case, expressed in hours per month and assigned to a team. And during the pilot, run at least one real maintenance action (a retraining, a model update), so you know what it actually costs.",
+      "Cause 5: The organisation wasn't allowed to change",
+      "This is the deepest cause, and the one talked about least. An AI application that saves time means people do their work differently. Sometimes a role shifts. Sometimes a check moves from one department to another.",
+      "Pilots are often deliberately designed so these questions don't come up, because that makes things move faster. At scale-up, they all surface at once, and it turns out the business case only adds up if staffing or the division of work actually changes. That conversation was never prepared for.",
+      "Countermeasure: name at the start which organisational change is needed to realise the value, and check whether there's support for it. If the answer is that nothing is allowed to change, you can still run the pilot, but calculate the business case without the saving that change would require. Often a real, smaller value remains. That's a more honest starting point than a promise you can't keep later.",
+      "A one-page pilot contract",
+      "What works well in practice: before you start, write down five things on one page, signed by the sponsor and the scale-up owner.",
+      "The question this pilot answers, with a measurable threshold for \"successful\".",
+      "The stop criteria: at what outcome do we stop, and who decides that.",
+      "The scale-up owner: name, and the department where the value lands.",
+      "The upkeep estimate: how many hours a month does this cost after delivery, and who supplies them.",
+      "The change required: what has to be different in the work for the value to be realised.",
+      "This page takes an hour to write and prevents the scenario where, a year later, you have seven successful pilots and nothing in production. The biggest effect isn't in the document itself, but in the conversations you have to have to fill it in. That's exactly where the blockers become visible, while there's still time to fix them.",
+      "Key takeaways",
+      "✓",
+      "Define success upfront",
+      "Without an agreed threshold set in advance, every outcome gets read as positive after the fact.",
+      "✓",
+      "Upkeep belongs in the pilot",
+      "If nobody maintains it after delivery, scaling up is impossible by definition.",
+      "✓",
+      "Pilot in the real environment",
+      "A pilot run outside the real work process only proves the technology works.",
+      "REMEMBER “A pilot with no agreed stop criterion never really ends, it just evaporates.”",
+      "Want to talk through your situation? 30 minutes, no obligation →",
+      "Further reading",
+      "⌕",
+      "Use cases",
+      "Which AI use cases actually deliver results?",
+      "Not the most spectacular, but the most boring. Four traits the winners share, and four patterns that almost always stall.",
+      "◷ 4 min read Read article →",
+      "◉",
+      "Organisation",
+      "AI adoption starts with the work, not the tool",
+      "Giving everyone a licence isn't an adoption strategy. Why an empty input box is the biggest barrier, and what actually works.",
+      "◷ 4 min read Read article →",
+      "Ready for impact?",
+      "From AI ambition to concrete results.",
+      "Book a no-obligation call. No pitch. Just sharp questions.",
+      "30 min., no pitch deckBook a call →"
+    ]
+  },
+  "links": [
+    {
+      "regio": "overig",
+      "soort": "intern",
+      "href": "#main",
+      "anker": "Skip to main content",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/",
+      "anker": "",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/services",
+      "anker": "Services",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/cases",
+      "anker": "Cases",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/approach",
+      "anker": "Approach",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/insights",
+      "anker": "Insights",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/about",
+      "anker": "About",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/nl/inzichten/waarom-ai-pilots-blijven-steken",
+      "anker": "NL",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/contact",
+      "anker": "Book a call →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/",
+      "anker": "Home",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/insights",
+      "anker": "Insights",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/insights",
+      "anker": "← Back to all insights",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/contact",
+      "anker": "Want to talk through your situation? 30 minutes, no obligation →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/insights/which-ai-use-cases-deliver-results",
+      "anker": "⌕ Use cases Which AI use cases actually deliver results? Not the most spectacular, but the most boring. Four traits the winners share, and four patterns that almost always stall. ◷ 4 min read Read article →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/insights/ai-adoption-starts-with-the-work",
+      "anker": "◉ Organisation AI adoption starts with the work, not the tool Giving everyone a licence isn't an adoption strategy. Why an empty input box is the biggest barrier, and what actually works. ◷ 4 min read Read article →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/contact",
+      "anker": "Book a call →",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/services/ai-readiness-assessment",
+      "anker": "AI Readiness Assessment",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/services/ai-strategy-sprint",
+      "anker": "AI Strategy Sprint",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/services/fractional-ai-lead",
+      "anker": "Fractional AI Lead",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/services",
+      "anker": "All services",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/cases",
+      "anker": "Cases",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/approach",
+      "anker": "Approach",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/insights",
+      "anker": "Insights",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/faq",
+      "anker": "FAQ",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/about",
+      "anker": "About",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-consulting",
+      "anker": "AI consulting",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-implementation",
+      "anker": "AI implementation",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-automation",
+      "anker": "AI automation",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-for-business",
+      "anker": "AI for business",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-development",
+      "anker": "AI development",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-agents",
+      "anker": "AI agents",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-policy",
+      "anker": "AI policy",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-workshop",
+      "anker": "AI workshop",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/markets",
+      "anker": "AI by industry",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/knowledge-base",
+      "anker": "Knowledge base",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/pricing",
+      "anker": "Pricing",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/partner-network",
+      "anker": "Partner network",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "overig",
+      "href": "mailto:dave@freelanceaiconsultant.com",
+      "anker": "dave@freelanceaiconsultant.com",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "extern",
+      "href": "https://www.linkedin.com/in/davewillemstein",
+      "anker": "LinkedIn ↗",
+      "rel": "noopener"
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/contact",
+      "anker": "Book a call",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/privacy",
+      "anker": "Privacy policy",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/terms",
+      "anker": "Terms & conditions",
+      "rel": null
+    }
+  ],
+  "structured_data": {
+    "sha256": "d813cf0cd602de625aba1306d5146a0352cd3d18ad0754c67b5952a784196d67",
+    "items": [
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://freelanceaiconsultant.com/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Insights",
+                "item": "https://freelanceaiconsultant.com/insights"
+              },
+              {
+                "@type": "ListItem",
+                "position": 3,
+                "name": "Why AI pilots stall (and what to do about it)",
+                "item": "https://freelanceaiconsultant.com/insights/why-ai-pilots-stall"
+              }
+            ]
+          },
+          {
+            "@type": "Person",
+            "@id": "https://freelanceaiconsultant.com/#dave",
+            "name": "Dave Willemstein",
+            "url": "https://freelanceaiconsultant.com/about",
+            "jobTitle": "Independent AI Advisor"
+          },
+          {
+            "@type": "BlogPosting",
+            "headline": "Why AI pilots stall (and what to do about it)",
+            "description": "The pilot worked. Everyone was excited. And a year later, nothing has scaled up. Five causes, five countermeasures.",
+            "datePublished": "2026-10-28",
+            "dateModified": "2026-10-28",
+            "inLanguage": "en-GB",
+            "articleSection": "Organisation",
+            "author": {
+              "@id": "https://freelanceaiconsultant.com/#dave"
+            },
+            "publisher": {
+              "@id": "https://freelanceaiconsultant.com/#dave"
+            },
+            "mainEntityOfPage": "https://freelanceaiconsultant.com/insights/why-ai-pilots-stall"
+          },
+          {
+            "@type": "FAQPage",
+            "mainEntity": [
+              {
+                "@type": "Question",
+                "name": "Why are successful AI pilots rarely scaled up to production?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "AI pilots stall for causes that are never technical: the pilot only answers whether something is technically possible, it runs outside the real work process, it has no owner for the phase after, it leaves out the cost of upkeep, and it avoids the organisational change needed. A pilot demonstrates that something is feasible, not that it's worth doing. What works well in practice is recording, before the pilot starts, the question it needs to answer, the stop criteria, the scale-up owner, the upkeep estimate and the change required, all on one page."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Can AI pilots run better in the real working environment than in a separate one?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Yes, for AI pilots the countermeasure is: a smaller scope in the real environment beats a larger scope alongside it, with one team, real data, the real process and real integrations. That setup is slower in week one and considerably faster by month six."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Does the scale-up owner for AI pilots need to be known before the pilot starts?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Yes. The scale-up owner for AI pilots is appointed before the pilot begins: someone from the business, with budget and a seat on the pilot steering group. If that person can't be found, that's itself an important finding."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Can AI pilots go ahead if nothing in the organisation is allowed to change?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Yes, but the business case for AI pilots is then calculated without the savings that change would require. Often a real, smaller value remains, and that's a more honest starting point than a promise that can't be delivered later."
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "afbeeldingen": [
+    {
+      "regio": "header",
+      "src": "/images/freelance-ai-consultant-logo-header.png",
+      "alt": "freelanceaiconsultant.com logo",
+      "width": "600",
+      "height": "287",
+      "loading": null
+    },
+    {
+      "regio": "main",
+      "src": "/images/dave-portrait.jpg",
+      "alt": "Dave Willemstein, Independent AI Advisor",
+      "width": "500",
+      "height": "620",
+      "loading": "lazy"
+    },
+    {
+      "regio": "footer",
+      "src": "/images/freelance-ai-consultant-icon-footer.png",
+      "alt": "",
+      "width": "192",
+      "height": "192",
+      "loading": "lazy"
+    }
+  ],
+  "laadprestaties": {
+    "scripts": [
+      {
+        "src": "/_astro/CookieConsent.astro_astro_type_script_index_0_lang.COcxE8NY.js",
+        "type": "module",
+        "inline_bytes": 0
+      },
+      {
+        "src": null,
+        "type": null,
+        "inline_bytes": 989
+      },
+      {
+        "src": null,
+        "type": null,
+        "inline_bytes": 493
+      },
+      {
+        "src": "/logo-carousel/logo-carousel.js?v=2",
+        "type": null,
+        "inline_bytes": 0
+      },
+      {
+        "src": null,
+        "type": null,
+        "inline_bytes": 725
+      }
+    ],
+    "stylesheets": [
+      "/_astro/_slug_.CzLXI3HH.css",
+      "/_astro/_slug_.C1c5Do37.css",
+      "/logo-carousel/logo-carousel.css?v=2"
+    ],
+    "aantal_details": 0,
+    "aantal_tabellen": 0
+  },
+  "gemeten_op": "2026-11-05"
+}

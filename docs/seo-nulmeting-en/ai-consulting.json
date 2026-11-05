@@ -1,0 +1,1075 @@
+{
+  "url": "/ai-consulting",
+  "build_bestand": "dist/ai-consulting/index.html",
+  "html": {
+    "bytes": 51670,
+    "lang": "en"
+  },
+  "beschermd": {
+    "title": "AI Consulting | Strategy, Roadmaps and Governance",
+    "meta_description": "AI consulting for organisations: from strategy and roadmap to guidance during implementation. Independent advice from an experienced AI consultant. Book a call.",
+    "canonical": "https://freelanceaiconsultant.com/ai-consulting",
+    "robots_meta": null,
+    "hreflang": [
+      {
+        "hreflang": "en",
+        "href": "https://freelanceaiconsultant.com/ai-consulting"
+      },
+      {
+        "hreflang": "nl",
+        "href": "https://freelanceaiconsultant.com/nl/ai-consultancy"
+      },
+      {
+        "hreflang": "x-default",
+        "href": "https://freelanceaiconsultant.com/ai-consulting"
+      }
+    ],
+    "h1": [
+      "AI consulting: strategic advice that leads to results"
+    ]
+  },
+  "social": {
+    "og:type": "website",
+    "og:locale": "en_US",
+    "og:site_name": "freelanceaiconsultant.com",
+    "og:title": "AI Consulting | Strategy, Roadmaps and Governance",
+    "og:description": "AI consulting for organisations: from strategy and roadmap to guidance during implementation. Independent advice from an experienced AI consultant. Book a call.",
+    "og:url": "https://freelanceaiconsultant.com/ai-consulting",
+    "og:image": "https://freelanceaiconsultant.com/images/dave-portrait.jpg",
+    "twitter:card": "summary_large_image",
+    "twitter:title": "AI Consulting | Strategy, Roadmaps and Governance",
+    "twitter:description": "AI consulting for organisations: from strategy and roadmap to guidance during implementation. Independent advice from an experienced AI consultant. Book a call.",
+    "twitter:image": "https://freelanceaiconsultant.com/images/dave-portrait.jpg"
+  },
+  "koppen": [
+    {
+      "niveau": 1,
+      "tekst": "AI consulting: strategic advice that leads to results",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "What is AI consulting?",
+      "regio": "main",
+      "id": "what-is-ai-consulting"
+    },
+    {
+      "niveau": 2,
+      "tekst": "When do you need AI consulting?",
+      "regio": "main",
+      "id": "when-do-you-need-ai-consulting"
+    },
+    {
+      "niveau": 3,
+      "tekst": "You want to start with AI but lack direction",
+      "regio": "main",
+      "id": "you-want-to-start-with-ai-but-lack-direction"
+    },
+    {
+      "niveau": 3,
+      "tekst": "Pilots aren’t delivering results",
+      "regio": "main",
+      "id": "pilots-arent-delivering-results"
+    },
+    {
+      "niveau": 3,
+      "tekst": "You need to comply with the AI Act",
+      "regio": "main",
+      "id": "you-need-to-comply-with-the-ai-act"
+    },
+    {
+      "niveau": 2,
+      "tekst": "My approach",
+      "regio": "main",
+      "id": "my-approach"
+    },
+    {
+      "niveau": 3,
+      "tekst": "AI Readiness Assessment",
+      "regio": "main",
+      "id": "ai-readiness-assessment"
+    },
+    {
+      "niveau": 3,
+      "tekst": "AI strategy",
+      "regio": "main",
+      "id": "ai-strategy"
+    },
+    {
+      "niveau": 3,
+      "tekst": "Implementation support",
+      "regio": "main",
+      "id": "implementation-support"
+    },
+    {
+      "niveau": 2,
+      "tekst": "Services within AI consulting",
+      "regio": "main",
+      "id": "services-within-ai-consulting"
+    },
+    {
+      "niveau": 3,
+      "tekst": "AI strategy and roadmap",
+      "regio": "main",
+      "id": "ai-strategy-and-roadmap"
+    },
+    {
+      "niveau": 3,
+      "tekst": "AI advice",
+      "regio": "main",
+      "id": "ai-advice"
+    },
+    {
+      "niveau": 3,
+      "tekst": "Hiring an AI consultant",
+      "regio": "main",
+      "id": "hiring-an-ai-consultant"
+    },
+    {
+      "niveau": 2,
+      "tekst": "AI consulting for larger organisations",
+      "regio": "main",
+      "id": "ai-consulting-for-larger-organisations"
+    },
+    {
+      "niveau": 3,
+      "tekst": "Bringing fragmented AI initiatives together",
+      "regio": "main",
+      "id": "bringing-fragmented-ai-initiatives-together"
+    },
+    {
+      "niveau": 3,
+      "tekst": "Working with IT and internal teams",
+      "regio": "main",
+      "id": "working-with-it-and-internal-teams"
+    },
+    {
+      "niveau": 3,
+      "tekst": "Governance and compliance",
+      "regio": "main",
+      "id": "governance-and-compliance"
+    },
+    {
+      "niveau": 2,
+      "tekst": "AI consulting for small and medium-sized businesses",
+      "regio": "main",
+      "id": "ai-consulting-for-small-and-medium-sized-businesses"
+    },
+    {
+      "niveau": 3,
+      "tekst": "Practical and within budget",
+      "regio": "main",
+      "id": "practical-and-within-budget"
+    },
+    {
+      "niveau": 3,
+      "tekst": "Fast first results",
+      "regio": "main",
+      "id": "fast-first-results"
+    },
+    {
+      "niveau": 2,
+      "tekst": "Data and AI consulting",
+      "regio": "main",
+      "id": "data-and-ai-consulting"
+    },
+    {
+      "niveau": 2,
+      "tekst": "Results and case studies",
+      "regio": "main",
+      "id": "results-and-case-studies"
+    },
+    {
+      "niveau": 2,
+      "tekst": "What does AI consulting cost?",
+      "regio": "main",
+      "id": "what-does-ai-consulting-cost"
+    },
+    {
+      "niveau": 3,
+      "tekst": "What does AI consulting cost for a leadership team or board?",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 3,
+      "tekst": "Can the AI Readiness Assessment within AI consulting also be scoped to one department?",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 3,
+      "tekst": "Does the adviser have a stake in a vendor or a bigger scope within AI consulting?",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "Frequently asked questions about AI consulting",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "Sources",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "From AI ambition to real results.",
+      "regio": "main",
+      "id": null
+    }
+  ],
+  "bodytekst": {
+    "regio": "main",
+    "woorden": 3322,
+    "sha256": "4867db05e9f3087327f3905463507259e8080f69621d9a0108863003fc5e9395",
+    "blokken": [
+      "Home",
+      "AI Consulting",
+      "AI consulting",
+      "AI consulting: strategic advice that leads to results",
+      "AI consulting helps you decide where AI genuinely adds value in your organisation, what that takes, and in what order you tackle it. I advise independently: from readiness and strategy through to roadmap and implementation support, with no stake in a vendor or in a bigger scope.",
+      "Book a strategy call → See the AI Readiness Assessment →",
+      "IN SHORT",
+      "AI consulting produces decisions: what you do, what you don't, and in what order.",
+      "Four fixed steps: diagnose, prioritise, decide, and ship and govern.",
+      "I don't build or sell software; I guide delivery from your side of the table.",
+      "AI in Europe",
+      "European brands already running AI in production.",
+      "Not my clients. Examples of what happens once AI moves past the pilot stage.",
+      "Pause",
+      "Klarna",
+      "Sweden",
+      "AI customer service assistant",
+      "Zalando",
+      "Germany",
+      "Fashion assistant for product advice",
+      "Financial services",
+      "Investment firm",
+      "AI strategy and use-case portfolio",
+      "Booking.com",
+      "Netherlands",
+      "AI Trip Planner for travel planning",
+      "Siemens",
+      "Germany",
+      "Industrial Copilot for engineering",
+      "Retail",
+      "Enterprise retailer",
+      "AI-driven vendor selection",
+      "Spotify",
+      "Sweden",
+      "AI DJ and personalized playlists",
+      "Mercedes-Benz",
+      "Germany",
+      "Generative voice assistant in the car",
+      "Industrial / B2B",
+      "International manufacturer",
+      "AI roadmap and leadership",
+      "ING",
+      "Netherlands",
+      "Generative chatbot for customer queries",
+      "L'Oréal",
+      "France",
+      "Beauty Genius: personalized advice",
+      "Financial services",
+      "Financial services firm",
+      "KYC accelerated with AI document analysis",
+      "SAP",
+      "Germany",
+      "Joule: copilot in business software",
+      "Carrefour",
+      "France",
+      "Hopla: grocery shopping assistant",
+      "Strategy & AI",
+      "SaaS scale-up",
+      "AI readiness assessment",
+      "Adyen",
+      "Netherlands",
+      "AI-driven payment optimization",
+      "Philips",
+      "Netherlands",
+      "AI in medical imaging",
+      "Proces & productivity",
+      "Professional services firm",
+      "Internal AI assistant for knowledge workers",
+      "What is AI consulting?",
+      "AI consulting is advice on where AI adds value in your organisation, what that takes, and in what order you tackle it. It’s less about technology than the name suggests, and mostly about choices: which use cases first, build or buy, which vendor, who becomes the owner, and how you keep it manageable.",
+      "The AI consulting label covers everything from strategic advice to agencies that build models and resell licences. I deliberately sit on the advisory side. I help you decide and guide delivery from your side of the table, but I don’t build or sell software, AI agents or implementations myself. That means I have no stake in a bigger scope or in a particular vendor. For a closer look at what that work involves day to day, and how it differs from a developer’s role, see the services overview.",
+      "What you have in hand at the end are decisions, backed by documents you can reuse yourself: a readiness picture, a prioritised portfolio of use cases, a strategy and roadmap, a selection recommendation, or a governance framework. A full overview of the engagements is on the services page.",
+      "When do you need AI consulting?",
+      "Not always. A small, reversible choice, such as a tool for one team that you can cancel monthly, is usually better tried than advised on. Outside help pays off when a decision is expensive, hard to reverse, or when there’s no shared internal view. Three situations tend to be recognisable.",
+      "You want to start with AI but lack direction",
+      "There’s no shortage of ideas, and often colleagues already working with AI tools on their own initiative. What’s missing is a shared yardstick for deciding what comes first. Without it, the idea that wins is whichever one is lobbied hardest, or whichever vendor gave the best demo. The first step is then a sober view of where you stand, followed by a short list of priorities the leadership team stands behind.",
+      "Pilots aren’t delivering results",
+      "The pilot worked technically, everyone was pleased, and a year later nothing has scaled. That’s rarely down to the technology. The usual causes: the pilot answered the wrong question, ran alongside the real work rather than inside it, had no owner for the next phase, and no agreement on upkeep. In a consulting engagement I make those points explicit before any more budget goes into a pilot.",
+      "You need to comply with the AI Act",
+      "The European AI Act is being phased in. According to the European Commission, the prohibited AI practices have applied since 2 February 2025, the rules for general-purpose AI models since 2 August 2025, and the transparency rules since 2 August 2026. Under the Digital Omnibus, which took effect on 27 July 2026, the obligations for high-risk systems have been postponed: to 2 December 2027 for applications in areas including employment, education, biometrics and critical infrastructure, and to 2 August 2028 for AI embedded in regulated products (as of September 2026).",
+      "A postponement doesn’t mean you can wait. You need to know which AI applications you use or buy and which risk category they fall into, and that takes time. That’s why the AI Readiness Assessment includes a risk and compliance scan, and the AI Strategy Sprint includes a risk classification. That’s a working tool to structure the conversation, not a legal judgement; involve your lawyer or privacy officer where needed. What the law asks of you is a question of AI policy, covered separately.",
+      "My approach",
+      "Every engagement follows the same four steps as my approach: diagnose, prioritise, decide, and ship and govern. The services are the concrete expression of that. You don’t have to start at step one if you’re already past it.",
+      "DiagnoseAI Readiness Assessment: where do you stand, and what comes first?",
+      "PrioritiseAI strategy: which use cases are worth the money, time and attention?",
+      "DecideAI roadmap: build, buy or partner, and in what order",
+      "Ship & governImplementation support: owner, metrics and governance",
+      "The four steps from my approach, mapped onto the parts of an AI consulting engagement.",
+      "AI Readiness Assessment",
+      "The diagnosis. I review your organisation across five dimensions: strategy, data, technology, people and governance, through document analysis, a data scan and interviews across the business, from the business side and IT through to risk and the front line. You get a readiness score per dimension, a gap analysis with the blockers that actually matter, a validated longlist of use cases, a risk and compliance scan, and a 90-day plan with owners. The AI Readiness Assessment takes 2-3 weeks and is the logical starting point for most organisations.",
+      "AI strategy",
+      "Prioritising and deciding. Every candidate use case is assessed the same way: value, feasibility, data readiness, change load, and whether there’s an owner in the business who genuinely benefits. The list gets shorter, not longer. A reasoned choice follows per theme between building it yourself, buying, or partnering, including an order-of-magnitude cost over three years. Strategy and roadmap, including this build-buy-partner decision, are covered together on the AI strategy page.",
+      "Implementation support",
+      "Ship and govern. This is the phase where most engagements stall. The build is done by your own team or by a partner you contract directly. I stay on your side of the table: I stress-test business cases before anything is signed, run vendor conversations in your interest, set up a measurement baseline, and put governance and upkeep in place. If you need someone for this on an ongoing basis, I do that as a Fractional AI Lead, a few fixed days a month.",
+      "If more hands are needed, I suggest parties I know. How that works, and why I charge no margin on their rate, is covered on the partner network page.",
+      "Services within AI consulting",
+      "AI consulting covers a few distinct types of question.",
+      "AI strategy and roadmap",
+      "For organisations that want to move from scattered ideas to focused choices, and from choices to an executable plan. A strategy sets out your goals, the conditions around data, people and governance, and the use cases that contribute most to them; the roadmap turns that into an owned, budgeted sequence. Read how to develop an AI strategy and roadmap that doesn’t end up in a drawer.",
+      "AI advice",
+      "Not every question needs a full engagement. Sometimes you want a second opinion on a vendor proposal, a sanity check on a business case, or an assessment of an AI company you’re considering acquiring. For the latter there’s AI Due Diligence; other scoped advisory questions and second opinions get a fixed price per assignment, the same way.",
+      "Hiring an AI consultant",
+      "Hiring an AI consultant is a bet on one person, so that person needs to be right. It’s worth it in a few recognisable situations: the decision is expensive and hard to reverse, there’s an internal stalemate between departments with no neutral tie-breaker, you need to defend an investment to the board, you’re doing this for the first time under time pressure, or initiatives are running with no one keeping an eye on the overall AI agenda. A small, reversible choice, by contrast, is usually better tried than advised on.",
+      "A freelance AI consultant is typically flexible and quick to start, and you work directly with the person you spoke to first, with no layers in between. An agency or large consultancy brings more capacity, specialist teams and institutional cover, which matters for large transformations, heavy delivery work, or engagements where auditability leads. The trade-off with a freelancer is limited scale and dependence on one person.",
+      "Whichever you choose, the same three things separate the good candidates from the rest:",
+      "Demonstrable experience with your type of question, not just with AI in general. Ask what comparable assignments looked like, what the decision was, and whether you can pick your own reference rather than only the ones offered.",
+      "Independence. Some AI advisers are also an implementation partner or a platform reseller. That’s not necessarily wrong, but you should know it. Ask explicitly whether they receive fees, discounts or partner status from vendors who might come into play, and ask for that in writing. My own answer: I don’t build or sell software, take no commissions, and charge no margin on partners; any existing vendor relationship gets disclosed before that party comes into the picture.",
+      "Clear deliverables. Ask upfront what you’ll have in hand at the end and when the assignment is considered done. Good deliverables are made to decide with: a prioritised list of use cases with owners, an AI strategy with explicit choices, an AI roadmap with planning and budget, or a decision document for a vendor choice.",
+      "On cost: I work with fixed packages, rather than an open hourly rate, across three hiring formats: scoped advice at a fixed price per assignment, a fixed-price engagement such as the AI Readiness Assessment or AI Strategy Sprint, or an ongoing part-time role at a fixed monthly fee as Fractional AI Lead. The Executive Briefing is the smallest package. All proposals exclude VAT and travel expenses; the full breakdown is on the pricing page.",
+      "AI consulting for larger organisations",
+      "In larger organisations, the problem is rarely a shortage of AI initiatives. It’s the lack of coherence between them.",
+      "Bringing fragmented AI initiatives together",
+      "Every department or site has set something up, each with its own vendor and its own definition of success. I start with an honest inventory: what’s actually running, what it costs, and who uses it. All initiatives then move under one decision framework and one set of metrics. Some continue, some are deliberately stopped. The latter causes discussion, but it also frees up capacity.",
+      "Working with IT and internal teams",
+      "I work alongside your IT department, data team and architects, not around them. They know the systems; I bring the decision frameworks, the comparison between options, and the translation into business terms. Whether you build it yourself, buy it, or bring in a partner is a decision you make together, with the costs and dependencies of the following years factored in.",
+      "Governance and compliance",
+      "Governance should make the work better, not slower. I keep it as light as possible: a register of AI applications, a gate before anything goes into production, a periodic review and an escalation path. For leadership teams and boards that want to fulfil their oversight role on AI, there’s the Executive Briefing: one half-day session incl. preparation, prepared for your sector.",
+      "AI consulting for small and medium-sized businesses",
+      "In SMEs the questions are often the same, but the scale is different. There’s usually no dedicated AI team, the budget is limited, and the owner or managing director decides directly. That makes things simpler in several ways.",
+      "Practical and within budget",
+      "You don’t need a months-long engagement. An AI Readiness Assessment can also be scoped to one department or one process area, which is quicker and costs less. A defined question or a second opinion gets a fixed price per assignment. And the outcome can also be that you shouldn’t buy anything yet. More on the choices that matter for smaller businesses is covered elsewhere on this site.",
+      "Fast first results",
+      "Quick results usually come not from the most spectacular application, but from a dull task that takes a lot of time and whose data already sits in one system. The 90-day plan from the assessment names what you’ll tackle in the first three months, with owners and decision points. Ideally that includes an application that can start straight away, with an owner and a metric. Whether that result sticks depends mostly on how well the application fits daily work.",
+      "Data and AI consulting",
+      "AI is only as good as the data it runs on. Even so, “get the data in order first” is just as often an excuse as a genuine necessity. A complete data landscape is never finished; the question you can actually answer is whether the data is good enough for one specific application.",
+      "In data and AI consulting, I therefore look at four things per use case: clear definitions, provenance and traceability, quality and completeness, and accessibility. Definitions are usually the biggest and most underestimated problem; infrastructure the least urgent. You build the foundation alongside the first applications, not ahead of them.",
+      "Machine learning consultants and data scientists focus on building and training models. My role sits one step earlier and one step above: deciding which model you need, whether to build it yourself, and how you manage upkeep and risk.",
+      "Results and case studies",
+      "What AI consulting delivers shows best in real engagements. At an investment firm, it meant turning scattered ideas into a single AI strategy and use-case portfolio the board could get behind. At a global manufacturer, it meant bringing scattered pilots together into one roadmap under shared governance. And at a scale-up, a readiness assessment led to advice to delay a platform purchase and fix the foundation first.",
+      "Example scenario",
+      "A professional services firm with 140 staff has seen seven AI initiatives emerge over eighteen months, spread across four departments and three vendors. Leadership wants to know what's actually delivering value before next year's budget is locked in.",
+      "In an AI Readiness Assessment, the adviser works with department heads to map what's running, who uses it, and what it costs. Of 60 paid licences, 22 turn out to be used weekly. Two initiatives have an owner and a measurable effect: in the back office, summarising customer files saves four staff roughly five hours a week between them.",
+      "Those two continue, with a baseline measurement and a decision point after three months. Three initiatives stop, two are parked until there's an owner. Leadership deliberately decides not to buy a new platform this year.",
+      "Fictional example, built from situations that come up often. The organisation and figures are illustrative.",
+      "All engagements are listed on the case studies overview. You can read who I am and where my experience comes from on the about page.",
+      "What does AI consulting cost?",
+      "AI consulting from Dave Willemstein is delivered in fixed packages, not against an open hourly rate: a fixed project fee for a scoped engagement, or a fixed monthly fee for Fractional AI Lead. AI Readiness Assessment takes 2-3 weeks, AI Strategy Sprint takes 4-6 weeks, and Fractional AI Lead is an ongoing role. Scoped advice and second opinions get a fixed price in the proposal; all proposals are excluding VAT and travel expenses.",
+      "I work with fixed packages, not an open hourly rate: a fixed project fee for a scoped engagement, or a fixed monthly fee for the Fractional AI Lead. That way the conversation is about the outcome rather than the timesheet.",
+      "Engagement",
+      "Timeline",
+      "Executive Briefing",
+      "one half-day session incl. preparation",
+      "AI Readiness Assessment",
+      "2-3 weeks",
+      "AI Strategy Sprint",
+      "4-6 weeks",
+      "Fractional AI Lead",
+      "2, 4 or 8 days per month",
+      "Scoped advice and second opinions",
+      "By arrangement",
+      "All proposals exclude VAT and travel expenses. Within a package, costs move with the scope, the number of people involved and the time required. How that works, and what’s included per package, is on the pricing page.",
+      "Want to know which approach fits your situation? Book a thirty-minute conversation. At the end you’ll hear what I’d do, even if that means you don’t need me.",
+      "What does AI consulting cost for a leadership team or board?",
+      "Executive Briefing is priced as a fixed project fee and is aimed at leadership teams and boards that want to fulfil their oversight role on AI. Executive Briefing takes one half-day session incl. preparation and is prepared for the organisation's sector.",
+      "Can the AI Readiness Assessment within AI consulting also be scoped to one department?",
+      "Yes. AI Readiness Assessment can also be carried out for a single department or process area. That variant is shorter and needs a smaller investment.",
+      "Does the adviser have a stake in a vendor or a bigger scope within AI consulting?",
+      "No. The adviser doesn't build or sell software, AI agents or implementations within AI consulting, and therefore has no stake in a bigger scope or a particular vendor. The build is done by the client's own team or by a partner the client contracts directly.",
+      "Source: Dave Willemstein's rates and typical timelines. Updated: October 2026.",
+      "Dave Willemstein Independent AI Advisor",
+      "Independent: no commissions, no partner deals, no margin on implementation partners.",
+      "About My partner network",
+      "Want to know where you stand with AI? See the AI Readiness Assessment →",
+      "Frequently asked questions about AI consulting",
+      "What is the difference between AI consulting and an AI implementation partner?+",
+      "An implementation partner builds, integrates and manages the solution, and earns from delivering it. AI consulting, as I practise it, is about the choices beforehand and the direction during delivery: what you build, who builds it, how you measure whether it works. I don't build anything myself, so my advice never depends on the size of the build.",
+      "Does our data need to be in order before we start AI consulting?+",
+      "No. Part of the work is precisely establishing whether your data is good enough for the use cases you're considering. A first application usually needs only a limited set of sources with clear definitions; the rest grows alongside it.",
+      "How long does an AI consulting engagement take?+",
+      "That depends on the question. An AI Readiness Assessment takes 2-3 weeks, an AI Strategy Sprint 4-6 weeks. A Fractional AI Lead is an ongoing role of 2, 4 or 8 days per month. Scoped advisory questions and second opinions get a fixed price per assignment.",
+      "Is AI consulting worthwhile if we already use AI tools?+",
+      "Yes, often especially then. If staff are already working with AI tools, the questions about use, data, risk and value are already there. Consulting then helps bundle separate initiatives, agree ground rules, and decide which applications to build on and which to stop.",
+      "Can AI consulting also be done in other countries or languages?+",
+      "Yes. I work across the UK and Europe, and sessions and documents can be in English or Dutch. For engagements with a lot of on-site presence, we factor travel time into the planning.",
+      "Sources",
+      "European Commission: AI Act, regulatory framework and timeline (as of September 2026)",
+      "Ready for impact?",
+      "From AI ambition to real results.",
+      "Book a no-obligation call. No pitch. Just sharp questions.",
+      "30 min., no pitch deckBook a call →"
+    ]
+  },
+  "links": [
+    {
+      "regio": "overig",
+      "soort": "intern",
+      "href": "#main",
+      "anker": "Skip to main content",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/",
+      "anker": "",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/services",
+      "anker": "Services",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/cases",
+      "anker": "Cases",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/approach",
+      "anker": "Approach",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/insights",
+      "anker": "Insights",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/about",
+      "anker": "About",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/nl/ai-consultancy",
+      "anker": "NL",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/contact",
+      "anker": "Book a call →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/",
+      "anker": "Home",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/contact",
+      "anker": "Book a strategy call →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/services/ai-readiness-assessment",
+      "anker": "See the AI Readiness Assessment →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/services",
+      "anker": "services overview",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/services",
+      "anker": "services",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "extern",
+      "href": "https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai",
+      "anker": "European Commission",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/approach",
+      "anker": "approach",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/services/ai-readiness-assessment",
+      "anker": "AI Readiness Assessment",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/ai-consulting/ai-strategy",
+      "anker": "AI strategy",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/services/fractional-ai-lead",
+      "anker": "Fractional AI Lead",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/partner-network",
+      "anker": "partner network",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/ai-consulting/ai-strategy",
+      "anker": "develop an AI strategy and roadmap",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/services/ai-due-diligence",
+      "anker": "AI Due Diligence",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/services/fractional-ai-lead",
+      "anker": "Fractional AI Lead",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/pricing",
+      "anker": "pricing",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/services/executive-briefing",
+      "anker": "Executive Briefing",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/cases/ai-strategy-investment-firm",
+      "anker": "AI strategy and use-case portfolio",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/cases/ai-roadmap-global-manufacturer",
+      "anker": "one roadmap under shared governance",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/cases/ai-readiness-scale-up",
+      "anker": "readiness assessment",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/cases",
+      "anker": "case studies overview",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/about",
+      "anker": "about",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/services/fractional-ai-lead",
+      "anker": "Fractional AI Lead",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/services/ai-readiness-assessment",
+      "anker": "AI Readiness Assessment",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/services/ai-strategy-sprint",
+      "anker": "AI Strategy Sprint",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/pricing",
+      "anker": "pricing",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/contact",
+      "anker": "Book a thirty-minute conversation",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/services/executive-briefing",
+      "anker": "Executive Briefing",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/pricing",
+      "anker": "Dave Willemstein's rates and typical timelines",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/about",
+      "anker": "About",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/partner-network",
+      "anker": "My partner network",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/services/ai-readiness-assessment",
+      "anker": "Want to know where you stand with AI? See the AI Readiness Assessment →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "extern",
+      "href": "https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai",
+      "anker": "European Commission: AI Act, regulatory framework and timeline (as of September 2026)",
+      "rel": "noopener"
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/contact",
+      "anker": "Book a call →",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/services/ai-readiness-assessment",
+      "anker": "AI Readiness Assessment",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/services/ai-strategy-sprint",
+      "anker": "AI Strategy Sprint",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/services/fractional-ai-lead",
+      "anker": "Fractional AI Lead",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/services",
+      "anker": "All services",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/cases",
+      "anker": "Cases",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/approach",
+      "anker": "Approach",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/insights",
+      "anker": "Insights",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/faq",
+      "anker": "FAQ",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/about",
+      "anker": "About",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-consulting",
+      "anker": "AI consulting",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-implementation",
+      "anker": "AI implementation",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-automation",
+      "anker": "AI automation",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-for-business",
+      "anker": "AI for business",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-development",
+      "anker": "AI development",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-agents",
+      "anker": "AI agents",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-policy",
+      "anker": "AI policy",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-workshop",
+      "anker": "AI workshop",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/markets",
+      "anker": "AI by industry",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/knowledge-base",
+      "anker": "Knowledge base",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/pricing",
+      "anker": "Pricing",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/partner-network",
+      "anker": "Partner network",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "overig",
+      "href": "mailto:dave@freelanceaiconsultant.com",
+      "anker": "dave@freelanceaiconsultant.com",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "extern",
+      "href": "https://www.linkedin.com/in/davewillemstein",
+      "anker": "LinkedIn ↗",
+      "rel": "noopener"
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/contact",
+      "anker": "Book a call",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/privacy",
+      "anker": "Privacy policy",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/terms",
+      "anker": "Terms & conditions",
+      "rel": null
+    }
+  ],
+  "structured_data": {
+    "sha256": "1c845dd8afb37d9b61efc4f898fbcba91b6fa27ce847ab214c8b42cc4f6007b4",
+    "items": [
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://freelanceaiconsultant.com/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "AI Consulting",
+                "item": "https://freelanceaiconsultant.com/ai-consulting"
+              }
+            ]
+          },
+          {
+            "@type": "Service",
+            "name": "AI Consulting",
+            "serviceType": "ai consulting",
+            "description": "AI consulting for organisations: from strategy and roadmap to guidance during implementation. Independent advice from an experienced AI consultant. Book a call.",
+            "url": "https://freelanceaiconsultant.com/ai-consulting",
+            "areaServed": "GB",
+            "provider": {
+              "@type": "Person",
+              "name": "Dave Willemstein",
+              "jobTitle": "Onafhankelijk AI-adviseur",
+              "url": "https://freelanceaiconsultant.com/over",
+              "sameAs": [
+                "https://www.linkedin.com/in/davewillemstein"
+              ]
+            }
+          },
+          {
+            "@type": "FAQPage",
+            "mainEntity": [
+              {
+                "@type": "Question",
+                "name": "What is the difference between AI consulting and an AI implementation partner?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "An implementation partner builds, integrates and manages the solution, and earns from delivering it. AI consulting, as I practise it, is about the choices beforehand and the direction during delivery: what you build, who builds it, how you measure whether it works. I don't build anything myself, so my advice never depends on the size of the build."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Does our data need to be in order before we start AI consulting?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "No. Part of the work is precisely establishing whether your data is good enough for the use cases you're considering. A first application usually needs only a limited set of sources with clear definitions; the rest grows alongside it."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "How long does an AI consulting engagement take?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "That depends on the question. An AI Readiness Assessment takes 2-3 weeks, an AI Strategy Sprint 4-6 weeks. A Fractional AI Lead is an ongoing role of 2, 4 or 8 days per month. Scoped advisory questions and second opinions get a fixed price per assignment."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Is AI consulting worthwhile if we already use AI tools?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Yes, often especially then. If staff are already working with AI tools, the questions about use, data, risk and value are already there. Consulting then helps bundle separate initiatives, agree ground rules, and decide which applications to build on and which to stop."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Can AI consulting also be done in other countries or languages?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Yes. I work across the UK and Europe, and sessions and documents can be in English or Dutch. For engagements with a lot of on-site presence, we factor travel time into the planning."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "What does AI consulting cost?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "AI consulting from Dave Willemstein is delivered in fixed packages, not against an open hourly rate: a fixed project fee for a scoped engagement, or a fixed monthly fee for Fractional AI Lead. AI Readiness Assessment takes 2-3 weeks, AI Strategy Sprint takes 4-6 weeks, and Fractional AI Lead is an ongoing role. Scoped advice and second opinions get a fixed price in the proposal; all proposals are excluding VAT and travel expenses."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "What does AI consulting cost for a leadership team or board?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Executive Briefing is priced as a fixed project fee and is aimed at leadership teams and boards that want to fulfil their oversight role on AI. Executive Briefing takes one half-day session incl. preparation and is prepared for the organisation's sector."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Can the AI Readiness Assessment within AI consulting also be scoped to one department?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Yes. AI Readiness Assessment can also be carried out for a single department or process area. That variant is shorter and needs a smaller investment."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Does the adviser have a stake in a vendor or a bigger scope within AI consulting?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "No. The adviser doesn't build or sell software, AI agents or implementations within AI consulting, and therefore has no stake in a bigger scope or a particular vendor. The build is done by the client's own team or by a partner the client contracts directly."
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "afbeeldingen": [
+    {
+      "regio": "header",
+      "src": "/images/freelance-ai-consultant-logo-header.png",
+      "alt": "freelanceaiconsultant.com logo",
+      "width": "600",
+      "height": "287",
+      "loading": null
+    },
+    {
+      "regio": "main",
+      "src": "/images/dave-portrait.jpg",
+      "alt": "Portrait of Dave Willemstein",
+      "width": "88",
+      "height": "88",
+      "loading": "lazy"
+    },
+    {
+      "regio": "footer",
+      "src": "/images/freelance-ai-consultant-icon-footer.png",
+      "alt": "",
+      "width": "192",
+      "height": "192",
+      "loading": "lazy"
+    }
+  ],
+  "laadprestaties": {
+    "scripts": [
+      {
+        "src": "/_astro/CookieConsent.astro_astro_type_script_index_0_lang.COcxE8NY.js",
+        "type": "module",
+        "inline_bytes": 0
+      },
+      {
+        "src": null,
+        "type": null,
+        "inline_bytes": 989
+      },
+      {
+        "src": null,
+        "type": null,
+        "inline_bytes": 493
+      },
+      {
+        "src": "/logo-carousel/logo-carousel.js?v=2",
+        "type": null,
+        "inline_bytes": 0
+      },
+      {
+        "src": null,
+        "type": null,
+        "inline_bytes": 725
+      }
+    ],
+    "stylesheets": [
+      "/_astro/_slug_.CzLXI3HH.css",
+      "/_astro/_slug_.Do5RJXa7.css",
+      "/logo-carousel/logo-carousel.css?v=2"
+    ],
+    "aantal_details": 5,
+    "aantal_tabellen": 1
+  },
+  "gemeten_op": "2026-11-05"
+}

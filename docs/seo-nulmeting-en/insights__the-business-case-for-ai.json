@@ -1,0 +1,762 @@
+{
+  "url": "/insights/the-business-case-for-ai",
+  "build_bestand": "dist/insights/the-business-case-for-ai/index.html",
+  "html": {
+    "bytes": 39406,
+    "lang": "en"
+  },
+  "beschermd": {
+    "title": "The Business Case for AI: How to Calculate It Honestly",
+    "meta_description": "Time saved isn't a saving until someone spends that time differently. A costing model for the AI business case that survives the CFO's scrutiny.",
+    "canonical": "https://freelanceaiconsultant.com/insights/the-business-case-for-ai",
+    "robots_meta": null,
+    "hreflang": [
+      {
+        "hreflang": "en",
+        "href": "https://freelanceaiconsultant.com/insights/the-business-case-for-ai"
+      },
+      {
+        "hreflang": "nl",
+        "href": "https://freelanceaiconsultant.com/nl/inzichten/de-business-case-voor-ai"
+      },
+      {
+        "hreflang": "x-default",
+        "href": "https://freelanceaiconsultant.com/insights/the-business-case-for-ai"
+      }
+    ],
+    "h1": [
+      "The business case for AI, calculated honestly"
+    ]
+  },
+  "social": {
+    "og:type": "website",
+    "og:locale": "en_US",
+    "og:site_name": "freelanceaiconsultant.com",
+    "og:title": "The Business Case for AI: How to Calculate It Honestly",
+    "og:description": "Time saved isn't a saving until someone spends that time differently. A costing model for the AI business case that survives the CFO's scrutiny.",
+    "og:url": "https://freelanceaiconsultant.com/insights/the-business-case-for-ai",
+    "og:image": "https://freelanceaiconsultant.com/images/dave-portrait.jpg",
+    "twitter:card": "summary_large_image",
+    "twitter:title": "The Business Case for AI: How to Calculate It Honestly",
+    "twitter:description": "Time saved isn't a saving until someone spends that time differently. A costing model for the AI business case that survives the CFO's scrutiny.",
+    "twitter:image": "https://freelanceaiconsultant.com/images/dave-portrait.jpg"
+  },
+  "koppen": [
+    {
+      "niveau": 1,
+      "tekst": "The business case for AI, calculated honestly",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "What belongs in the business case for AI that still holds up a year later?",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 3,
+      "tekst": "Does extra time for valuable work count as a saving in an AI business case?",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "Where AI business cases fail",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "The benefit side: three kinds of value, three ways of counting",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 3,
+      "tekst": "1. Cost reduction (hard, provided you follow it through)",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 3,
+      "tekst": "2. Revenue effect (softer, but often bigger)",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 3,
+      "tekst": "3. Risk reduction (hard to quantify, but can be substantiated)",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "The cost side: where it usually goes wrong",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 3,
+      "tekst": "Consumption costs that scale with use",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 3,
+      "tekst": "Upkeep and monitoring",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 3,
+      "tekst": "Integration and connections",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 3,
+      "tekst": "Change and training",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 3,
+      "tekst": "Governance and compliance",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "Work with ranges, not point estimates",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "Agree what you'll measure in a year",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "One final test",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 3,
+      "tekst": "Key takeaways",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 3,
+      "tekst": "From AI strategy to value: a 3-step plan",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 3,
+      "tekst": "Which AI use cases actually deliver results?",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "From AI ambition to concrete results.",
+      "regio": "main",
+      "id": null
+    }
+  ],
+  "bodytekst": {
+    "regio": "main",
+    "woorden": 1491,
+    "sha256": "5ada9ec1a6883bdd35f91756a4f5eb36520b079bfcd43f5efaaef2d07b6e718c",
+    "blokken": [
+      "Home",
+      "Insights",
+      "The business case for AI: how to calculate it honestly",
+      "← Back to all insights",
+      "Strategy",
+      "The business case for AI, calculated honestly",
+      "Most AI business cases don't fail at the board. They fail a year later, at the reality check. Here's how to build one that survives that moment.",
+      "◷ 5 min read 28 October 2026",
+      "DW",
+      "By Dave Willemstein Independent AI Advisor, independent, no vendor interests",
+      "I help organisations make AI decisions that create value. No bloated decks, just clear choices and tangible results.",
+      "trust, experience, impact ↓",
+      "Independent No vendor bias Senior only Since 2006",
+      "AT A GLANCE",
+      "Hours saved only count as a saving once the costs actually fall.",
+      "Count the full cost side: build, upkeep, consumption, change.",
+      "Make assumptions visible and testable, as a range.",
+      "An honest business case is smaller, and it holds up.",
+      "AI in Europe",
+      "European brands already running AI in production.",
+      "Not my clients. Examples of what happens once AI moves past the pilot stage.",
+      "Pause",
+      "Klarna",
+      "Sweden",
+      "AI customer service assistant",
+      "Zalando",
+      "Germany",
+      "Fashion assistant for product advice",
+      "Financial services",
+      "Investment firm",
+      "AI strategy and use-case portfolio",
+      "Booking.com",
+      "Netherlands",
+      "AI Trip Planner for travel planning",
+      "Siemens",
+      "Germany",
+      "Industrial Copilot for engineering",
+      "Retail",
+      "Enterprise retailer",
+      "AI-driven vendor selection",
+      "Spotify",
+      "Sweden",
+      "AI DJ and personalized playlists",
+      "Mercedes-Benz",
+      "Germany",
+      "Generative voice assistant in the car",
+      "Industrial / B2B",
+      "International manufacturer",
+      "AI roadmap and leadership",
+      "ING",
+      "Netherlands",
+      "Generative chatbot for customer queries",
+      "L'Oréal",
+      "France",
+      "Beauty Genius: personalized advice",
+      "Financial services",
+      "Financial services firm",
+      "KYC accelerated with AI document analysis",
+      "SAP",
+      "Germany",
+      "Joule: copilot in business software",
+      "Carrefour",
+      "France",
+      "Hopla: grocery shopping assistant",
+      "Strategy & AI",
+      "SaaS scale-up",
+      "AI readiness assessment",
+      "Adyen",
+      "Netherlands",
+      "AI-driven payment optimization",
+      "Philips",
+      "Netherlands",
+      "AI in medical imaging",
+      "Proces & productivity",
+      "Professional services firm",
+      "Internal AI assistant for knowledge workers",
+      "What belongs in the business case for AI that still holds up a year later?",
+      "An AI business case only counts hours saved as a saving once the costs actually fall, and it includes the full cost side: consumption, upkeep, integration, change and governance. The outcome is stated as a range, with the assumptions about adoption, volume and converting time saved into money made visible at the top.",
+      "Does extra time for valuable work count as a saving in an AI business case?",
+      "No. More time for valuable work is real value, but not a financial saving. In the business case for AI, that item belongs under qualitative benefits, not in the sum.",
+      "Source: article by Dave Willemstein. Updated: October 2026.",
+      "Where AI business cases fail",
+      "Not at approval, because that's usually where they do fine. They fail a year later, at the question of whether the promised result was actually achieved. At that point, the promise turns out not to be measurable, the cost side incomplete, and the saving nowhere to be found in any budget.",
+      "That's a shame, because it damages trust in the next business case too, even if that one is better.",
+      "The benefit side: three kinds of value, three ways of counting",
+      "1. Cost reduction (hard, provided you follow it through)",
+      "The classic: we save hours, so we save money. That's only true if those hours actually disappear from the cost base. Three ways that happens:",
+      "Less outside hire or temporary staff: directly visible in the figures, so hard.",
+      "Absorbing growth without an extra hire: real, but only if the growth is actually there. Record what the baseline scenario was.",
+      "Fewer of your own FTEs: hard, but requires a decision that goes beyond an AI project. Only include this if leadership genuinely intends to make that decision.",
+      "What doesn't count: \"our people have more time for valuable work.\" That's real value, but not a financial saving. Put it under qualitative benefits in the business case, not in the sum. Otherwise it gets held against you a year later.",
+      "2. Revenue effect (softer, but often bigger)",
+      "Faster quotes, higher conversion, less customer churn, more capacity for billable work. This is often where the biggest value sits, and at the same time the hardest to attribute.",
+      "An approach that holds up: pick one measurable intermediate step instead of the end revenue figure. For example, not \"more revenue\" but \"turnaround time from quote request to sending, from 4 days to 1 day.\" Then show historically what the relationship is between that turnaround time and conversion. That makes the reasoning traceable, even for someone sceptical.",
+      "3. Risk reduction (hard to quantify, but can be substantiated)",
+      "Fewer errors, better compliance, less rework. Here, work with the costs of past incidents: how many files had to be redone last year, what did that cost in hours, fines or claims? That's a defensible basis. A percentage from a research report isn't.",
+      "The cost side: where it usually goes wrong",
+      "The benefit side gets the attention, the cost side gets underestimated. Five items that are almost always too low or missing entirely.",
+      "Consumption costs that scale with use",
+      "This is fundamentally different from classic software. Where a licence is a fixed amount per user, with AI you often pay per document processed, per conversation or per volume of text processed. In a pilot with fifty users, that's negligible. At five hundred users and ten times the volume, it's a serious item.",
+      "Do this: in the pilot, measure the cost per transaction and multiply by the expected volume at full rollout. Also run a scenario at double that volume, because successful applications get used more intensively than planned.",
+      "Upkeep and monitoring",
+      "Budget for ongoing hours for quality monitoring, keeping test sets current, model updates and incident handling. For a medium-sized application, half a day to a full day a month is realistic, more for high-risk applications with formal review requirements.",
+      "Integration and connections",
+      "Usually the biggest surprise. The application itself is ready in weeks; connecting it to the source system, the permissions model and logging takes months. Ask explicitly for every business case: which systems need to open up for this, and who manages them?",
+      "Change and training",
+      "Instruction, guidance, temporary double work during the transition, and the productivity dip in the first few weeks. That dip is real and usually lasts four to eight weeks. Include it: it makes your case more credible, not weaker.",
+      "Governance and compliance",
+      "For medium- and high-risk applications: documentation, assessment, periodic review, possibly external validation. For regulated processes, this is not a marginal item.",
+      "Work with ranges, not point estimates",
+      "A case that says \"€412,000 saving in year two\" is less credible than a case that says \"€250,000 to €500,000, depending on whether we get adoption above 60%.\" The second shows you know where the uncertainty sits.",
+      "Make explicit which assumptions most strongly determine the outcome. In most AI business cases, there are three: the adoption rate, the volume, and whether the time saved converts into something that generates money. Put those three at the top, with the value you've assumed and its source.",
+      "Agree what you'll measure in a year",
+      "The part that's most often missing, and that makes the biggest difference. At approval, record:",
+      "Which three figures you'll report on after twelve months, and where they come from.",
+      "What the baseline measurement is, taken before the start, not reconstructed afterwards.",
+      "At what outcome you'll adjust course, and at what outcome you'll stop.",
+      "That last point turns a business case into an agreement rather than a pitch. It also lowers the bar for approval: a CFO says yes more easily to a proposal with an explicit stop point than to one that can only succeed.",
+      "One final test",
+      "Have someone with no stake in the project read the case, with one instruction: find the assumption the whole outcome rests on. If they find it within five minutes, your case is transparent. If they can't find it, it's buried too deep. And that will surface a year later anyway, at a less convenient moment.",
+      "Key takeaways",
+      "✓",
+      "Hours aren't pounds",
+      "Unless those hours convert into revenue or less outside hire, it isn't a financial saving.",
+      "✓",
+      "Consumption costs scale with use",
+      "With AI, variable costs rise with usage. Run the numbers at ten times the volume.",
+      "✓",
+      "Range beats precision",
+      "A well-reasoned range is more credible than an exact figure with three decimal places.",
+      "REMEMBER “A business case isn't a sales document, it's an agreement about what you'll measure in a year's time.”",
+      "Want to talk through your situation? 30 minutes, no obligation →",
+      "Further reading",
+      "↗",
+      "Strategy",
+      "From AI strategy to value: a 3-step plan",
+      "Most AI strategies don't fail on the strategy itself, but on translating it. Three steps that force that translation.",
+      "◷ 4 min read Read article →",
+      "⌕",
+      "Use cases",
+      "Which AI use cases actually deliver results?",
+      "Not the most spectacular, but the most boring. Four traits the winners share, and four patterns that almost always stall.",
+      "◷ 4 min read Read article →",
+      "Ready for impact?",
+      "From AI ambition to concrete results.",
+      "Book a no-obligation call. No pitch. Just sharp questions.",
+      "30 min., no pitch deckBook a call →"
+    ]
+  },
+  "links": [
+    {
+      "regio": "overig",
+      "soort": "intern",
+      "href": "#main",
+      "anker": "Skip to main content",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/",
+      "anker": "",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/services",
+      "anker": "Services",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/cases",
+      "anker": "Cases",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/approach",
+      "anker": "Approach",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/insights",
+      "anker": "Insights",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/about",
+      "anker": "About",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/nl/inzichten/de-business-case-voor-ai",
+      "anker": "NL",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/contact",
+      "anker": "Book a call →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/",
+      "anker": "Home",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/insights",
+      "anker": "Insights",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/insights",
+      "anker": "← Back to all insights",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/contact",
+      "anker": "Want to talk through your situation? 30 minutes, no obligation →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/insights/from-ai-strategy-to-value",
+      "anker": "↗ Strategy From AI strategy to value: a 3-step plan Most AI strategies don't fail on the strategy itself, but on translating it. Three steps that force that translation. ◷ 4 min read Read article →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/insights/which-ai-use-cases-deliver-results",
+      "anker": "⌕ Use cases Which AI use cases actually deliver results? Not the most spectacular, but the most boring. Four traits the winners share, and four patterns that almost always stall. ◷ 4 min read Read article →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/contact",
+      "anker": "Book a call →",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/services/ai-readiness-assessment",
+      "anker": "AI Readiness Assessment",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/services/ai-strategy-sprint",
+      "anker": "AI Strategy Sprint",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/services/fractional-ai-lead",
+      "anker": "Fractional AI Lead",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/services",
+      "anker": "All services",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/cases",
+      "anker": "Cases",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/approach",
+      "anker": "Approach",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/insights",
+      "anker": "Insights",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/faq",
+      "anker": "FAQ",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/about",
+      "anker": "About",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-consulting",
+      "anker": "AI consulting",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-implementation",
+      "anker": "AI implementation",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-automation",
+      "anker": "AI automation",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-for-business",
+      "anker": "AI for business",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-development",
+      "anker": "AI development",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-agents",
+      "anker": "AI agents",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-policy",
+      "anker": "AI policy",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-workshop",
+      "anker": "AI workshop",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/markets",
+      "anker": "AI by industry",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/knowledge-base",
+      "anker": "Knowledge base",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/pricing",
+      "anker": "Pricing",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/partner-network",
+      "anker": "Partner network",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "overig",
+      "href": "mailto:dave@freelanceaiconsultant.com",
+      "anker": "dave@freelanceaiconsultant.com",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "extern",
+      "href": "https://www.linkedin.com/in/davewillemstein",
+      "anker": "LinkedIn ↗",
+      "rel": "noopener"
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/contact",
+      "anker": "Book a call",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/privacy",
+      "anker": "Privacy policy",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/terms",
+      "anker": "Terms & conditions",
+      "rel": null
+    }
+  ],
+  "structured_data": {
+    "sha256": "981b57950adf0f4c87cb2e167266cbd4c5b19532270abcc805f4f6f9e48515d1",
+    "items": [
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://freelanceaiconsultant.com/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Insights",
+                "item": "https://freelanceaiconsultant.com/insights"
+              },
+              {
+                "@type": "ListItem",
+                "position": 3,
+                "name": "The business case for AI: how to calculate it honestly",
+                "item": "https://freelanceaiconsultant.com/insights/the-business-case-for-ai"
+              }
+            ]
+          },
+          {
+            "@type": "Person",
+            "@id": "https://freelanceaiconsultant.com/#dave",
+            "name": "Dave Willemstein",
+            "url": "https://freelanceaiconsultant.com/about",
+            "jobTitle": "Independent AI Advisor"
+          },
+          {
+            "@type": "BlogPosting",
+            "headline": "The business case for AI: how to calculate it honestly",
+            "description": "Time saved isn't a saving until someone spends that time differently. A costing model that survives the CFO's scrutiny.",
+            "datePublished": "2026-10-28",
+            "dateModified": "2026-10-28",
+            "inLanguage": "en-GB",
+            "articleSection": "Strategy",
+            "author": {
+              "@id": "https://freelanceaiconsultant.com/#dave"
+            },
+            "publisher": {
+              "@id": "https://freelanceaiconsultant.com/#dave"
+            },
+            "mainEntityOfPage": "https://freelanceaiconsultant.com/insights/the-business-case-for-ai"
+          },
+          {
+            "@type": "FAQPage",
+            "mainEntity": [
+              {
+                "@type": "Question",
+                "name": "What belongs in the business case for AI that still holds up a year later?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "An AI business case only counts hours saved as a saving once the costs actually fall, and it includes the full cost side: consumption, upkeep, integration, change and governance. The outcome is stated as a range, with the assumptions about adoption, volume and converting time saved into money made visible at the top."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Does extra time for valuable work count as a saving in an AI business case?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "No. More time for valuable work is real value, but not a financial saving. In the business case for AI, that item belongs under qualitative benefits, not in the sum."
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "afbeeldingen": [
+    {
+      "regio": "header",
+      "src": "/images/freelance-ai-consultant-logo-header.png",
+      "alt": "freelanceaiconsultant.com logo",
+      "width": "600",
+      "height": "287",
+      "loading": null
+    },
+    {
+      "regio": "main",
+      "src": "/images/dave-portrait.jpg",
+      "alt": "Dave Willemstein, Independent AI Advisor",
+      "width": "500",
+      "height": "620",
+      "loading": "lazy"
+    },
+    {
+      "regio": "footer",
+      "src": "/images/freelance-ai-consultant-icon-footer.png",
+      "alt": "",
+      "width": "192",
+      "height": "192",
+      "loading": "lazy"
+    }
+  ],
+  "laadprestaties": {
+    "scripts": [
+      {
+        "src": "/_astro/CookieConsent.astro_astro_type_script_index_0_lang.COcxE8NY.js",
+        "type": "module",
+        "inline_bytes": 0
+      },
+      {
+        "src": null,
+        "type": null,
+        "inline_bytes": 989
+      },
+      {
+        "src": null,
+        "type": null,
+        "inline_bytes": 493
+      },
+      {
+        "src": "/logo-carousel/logo-carousel.js?v=2",
+        "type": null,
+        "inline_bytes": 0
+      },
+      {
+        "src": null,
+        "type": null,
+        "inline_bytes": 725
+      }
+    ],
+    "stylesheets": [
+      "/_astro/_slug_.CzLXI3HH.css",
+      "/_astro/_slug_.C1c5Do37.css",
+      "/logo-carousel/logo-carousel.css?v=2"
+    ],
+    "aantal_details": 0,
+    "aantal_tabellen": 0
+  },
+  "gemeten_op": "2026-11-05"
+}

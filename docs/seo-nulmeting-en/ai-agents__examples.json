@@ -1,0 +1,883 @@
+{
+  "url": "/ai-agents/examples",
+  "build_bestand": "dist/ai-agents/examples/index.html",
+  "html": {
+    "bytes": 43410,
+    "lang": "en"
+  },
+  "beschermd": {
+    "title": "AI Agent Examples | 12 Applications for Business",
+    "meta_description": "Twelve AI agent examples for business, from customer service and sales to HR and finance, with how each works and the integrations it needs.",
+    "canonical": "https://freelanceaiconsultant.com/ai-agents/examples",
+    "robots_meta": null,
+    "hreflang": [
+      {
+        "hreflang": "en",
+        "href": "https://freelanceaiconsultant.com/ai-agents/examples"
+      },
+      {
+        "hreflang": "nl",
+        "href": "https://freelanceaiconsultant.com/nl/ai-agents/voorbeelden"
+      },
+      {
+        "hreflang": "x-default",
+        "href": "https://freelanceaiconsultant.com/ai-agents/examples"
+      }
+    ],
+    "h1": [
+      "AI agent examples: 12 applications for business"
+    ]
+  },
+  "social": {
+    "og:type": "website",
+    "og:locale": "en_US",
+    "og:site_name": "freelanceaiconsultant.com",
+    "og:title": "AI Agent Examples | 12 Applications for Business",
+    "og:description": "Twelve AI agent examples for business, from customer service and sales to HR and finance, with how each works and the integrations it needs.",
+    "og:url": "https://freelanceaiconsultant.com/ai-agents/examples",
+    "og:image": "https://freelanceaiconsultant.com/images/dave-portrait.jpg",
+    "twitter:card": "summary_large_image",
+    "twitter:title": "AI Agent Examples | 12 Applications for Business",
+    "twitter:description": "Twelve AI agent examples for business, from customer service and sales to HR and finance, with how each works and the integrations it needs.",
+    "twitter:image": "https://freelanceaiconsultant.com/images/dave-portrait.jpg"
+  },
+  "koppen": [
+    {
+      "niveau": 1,
+      "tekst": "AI agent examples: 12 applications for business",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "Which AI agent examples fit customer service, sales, HR and finance?",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 3,
+      "tekst": "Do the AI agent examples show what an agent delivered for a specific company?",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 3,
+      "tekst": "Is there one best platform for the AI agent examples?",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "AI agents in customer service",
+      "regio": "main",
+      "id": "ai-agents-in-customer-service"
+    },
+    {
+      "niveau": 2,
+      "tekst": "AI agents in sales",
+      "regio": "main",
+      "id": "ai-agents-in-sales"
+    },
+    {
+      "niveau": 2,
+      "tekst": "AI agents in HR",
+      "regio": "main",
+      "id": "ai-agents-in-hr"
+    },
+    {
+      "niveau": 2,
+      "tekst": "AI agents in finance",
+      "regio": "main",
+      "id": "ai-agents-in-finance"
+    },
+    {
+      "niveau": 2,
+      "tekst": "Best AI agent platforms",
+      "regio": "main",
+      "id": "best-ai-agent-platforms"
+    },
+    {
+      "niveau": 2,
+      "tekst": "Sources",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "From AI ambition to real results.",
+      "regio": "main",
+      "id": null
+    }
+  ],
+  "bodytekst": {
+    "regio": "main",
+    "woorden": 2219,
+    "sha256": "130b420c9dd3f8249cde89dc682855ac6b0e6d3788be9ea8f1977b827c5bd71e",
+    "blokken": [
+      "Home",
+      "AI Agents",
+      "AI agent examples",
+      "Examples",
+      "AI agent examples: 12 applications for business",
+      "Looking for AI agent examples that go beyond the demo? Below are twelve applications for customer service, sales, HR and finance. Each one covers how the agent works, which integrations it needs, where the gain is, and at what point a human needs to check in.",
+      "Read more on AI agents for business → See the AI Readiness Assessment →",
+      "Written by Dave Willemstein, independent AI consultant · published October 27, 2026",
+      "IN SHORT",
+      "Twelve generic examples, grouped by department, with integrations and checkpoints.",
+      "Most of the value sits in preparatory work that a human then reviews.",
+      "Platforms change quickly; this overview reflects October 2026.",
+      "AI in Europe",
+      "European brands already running AI in production.",
+      "Not my clients. Examples of what happens once AI moves past the pilot stage.",
+      "Pause",
+      "Klarna",
+      "Sweden",
+      "AI customer service assistant",
+      "Zalando",
+      "Germany",
+      "Fashion assistant for product advice",
+      "Financial services",
+      "Investment firm",
+      "AI strategy and use-case portfolio",
+      "Booking.com",
+      "Netherlands",
+      "AI Trip Planner for travel planning",
+      "Siemens",
+      "Germany",
+      "Industrial Copilot for engineering",
+      "Retail",
+      "Enterprise retailer",
+      "AI-driven vendor selection",
+      "Spotify",
+      "Sweden",
+      "AI DJ and personalized playlists",
+      "Mercedes-Benz",
+      "Germany",
+      "Generative voice assistant in the car",
+      "Industrial / B2B",
+      "International manufacturer",
+      "AI roadmap and leadership",
+      "ING",
+      "Netherlands",
+      "Generative chatbot for customer queries",
+      "L'Oréal",
+      "France",
+      "Beauty Genius: personalized advice",
+      "Financial services",
+      "Financial services firm",
+      "KYC accelerated with AI document analysis",
+      "SAP",
+      "Germany",
+      "Joule: copilot in business software",
+      "Carrefour",
+      "France",
+      "Hopla: grocery shopping assistant",
+      "Strategy & AI",
+      "SaaS scale-up",
+      "AI readiness assessment",
+      "Adyen",
+      "Netherlands",
+      "AI-driven payment optimization",
+      "Philips",
+      "Netherlands",
+      "AI in medical imaging",
+      "Proces & productivity",
+      "Professional services firm",
+      "Internal AI assistant for knowledge workers",
+      "Which AI agent examples fit customer service, sales, HR and finance?",
+      "The AI agent examples consist of twelve generic applications for customer service, sales, HR and finance, such as mail and ticket preparation, lead research, onboarding and invoice checking, each with the integrations it needs and the point of human review. Preparatory work that a human then reviews delivers the most value. How much autonomy an agent can get depends on whether an action is reversible and whether the consequences are internal or external.",
+      "Do the AI agent examples show what an agent delivered for a specific company?",
+      "No. The AI agent examples are deliberately described in generic terms and show how an agent fits into a process. What an agent delivers depends on the volumes, the sources, and how much control the process needs.",
+      "Is there one best platform for the AI agent examples?",
+      "Not in general: which platform fits the AI agent examples depends on the software an organisation already uses, its requirements for control, and its own technical capacity. The platform overview reflects October 2026, with no commissions or other payments from the vendors named.",
+      "Source: article by Dave Willemstein. Updated: October 2026.",
+      "AI agents in customer service",
+      "Before the examples by department, two notes. These examples are deliberately described in generic terms. They show how an agent fits into a process, not what it delivered for a specific company. What an agent delivers in your situation depends on your volumes, your sources, and how much control the process needs. Anyone who wants to know what an agent actually is first should read how an AI agent works, covered separately on this site.",
+      "The same rule of thumb applies to every example: start with an agent that prepares or proposes, and only give it more autonomy once you know what mistakes it makes. Why that matters is covered in a separate article on the limits of AI agents.",
+      "Internal and reversibleKnowledge questions, drafts, classification. This is where an agent can work independently fastest.",
+      "External and reversibleScheduling, status updates. Independent, with a sample check afterwards.",
+      "Internal and irreversibleBookings, changing master data. Agent proposes, a human confirms.",
+      "External and irreversiblePayments, rejections, decisions about people. Agent prepares, a human decides.",
+      "Where an example falls in this matrix determines how much autonomy the agent can get, more than the technology does.",
+      "Customer service is often where agents are considered first, because there’s a lot of repetition and the information is spread across several systems.",
+      "1. Mail and ticket preparation. The agent reads an incoming query, identifies the subject, looks up customer and order details, and drafts a reply. A staff member checks and sends it.",
+      "Integrations: mailbox or ticketing system, CRM, order administration.",
+      "Where the gain is: less searching per query, more consistent replies.",
+      "Human check: every outgoing email, until it’s clear which categories consistently go well.",
+      "2. Routing and prioritising. The agent assesses incoming tickets for urgency and topic and routes them to the right team, with a short summary.",
+      "Integrations: ticketing system, team structure.",
+      "Where the gain is: faster first response on urgent matters, less manual sorting.",
+      "Human check: a daily sample of incorrectly routed tickets.",
+      "3. Self-service with real actions. A customer asks via chat for an address change or a return status, and the agent carries it out within pre-set limits.",
+      "Integrations: customer portal, CRM, logistics system.",
+      "Where the gain is: simple requests handled outside office hours.",
+      "Human check: fixed limits per action and a sample check afterwards; anything outside those limits goes to a staff member.",
+      "Worth noting: under the EU AI Act, providers of AI systems that interact directly with people, including chatbots, must make sure users are informed they’re interacting with AI, unless that’s already obvious from the context (Article 50). That obligation isn’t limited to EU-based organisations either: it also reaches a UK business that places such a system on the EU market, or whose output is used in the EU.",
+      "AI agents in sales",
+      "In sales, a lot of time goes into preparation and admin around the actual conversation. An agent can help there, as long as customer contact stays with the salesperson.",
+      "4. Lead research. The agent gathers public information about a prospect and combines it with previous CRM contact history into a short briefing.",
+      "Integrations: CRM, web search.",
+      "Where the gain is: better preparation in less time.",
+      "Human check: the salesperson reviews the briefing; the agent doesn’t contact the prospect itself.",
+      "5. Call notes and follow-up. After a call, the agent turns the notes into a summary, updates the opportunity, and drafts a follow-up email. The salesperson approves it.",
+      "Integrations: calendar, notes or transcription tool, CRM, email.",
+      "Where the gain is: less admin after every call, a more current CRM.",
+      "Human check: approval of the summary and the email before anything is saved or sent.",
+      "6. Quote preparation. The agent pulls the right products, pricing agreements and standard text, and drafts a quote.",
+      "Integrations: product catalogue, price lists, CRM, document templates.",
+      "Where the gain is: faster turnaround from request to quote.",
+      "Human check: the salesperson checks prices and terms.",
+      "An agent that sends quotes on its own hits your margin and reputation directly; there should always be a confirmation step here.",
+      "AI agents in HR",
+      "HR combines a lot of recurring questions with sensitive data and decisions about people. That makes it an area where the line between supporting and deciding needs to be drawn especially sharply.",
+      "7. Staff questions. The agent answers questions about leave, expenses and policies based on the staff handbook, and points to the source.",
+      "Integrations: intranet, HR policy documents.",
+      "Where the gain is: fewer recurring questions reaching HR.",
+      "Human check: periodic review of whether the sources are current; personal situations go to an HR staff member.",
+      "8. Onboarding. The agent sets up the standard tasks for a new starter: requesting accounts, scheduling introduction meetings, collecting documents.",
+      "Integrations: HR system, IT service desk, calendar.",
+      "Where the gain is: fewer forgotten steps, a predictable first week.",
+      "Human check: HR confirms the requests before accounts are created.",
+      "9. Job adverts and scheduling. The agent drafts job adverts and schedules interviews in coordination with the team’s calendars.",
+      "Integrations: recruitment system, calendar.",
+      "Where the gain is: less coordination work.",
+      "Human check: the recruiter approves the text and the invitations.",
+      "One limit: AI systems that screen applications or assess candidates are listed as high-risk under Annex III of the AI Act. Keep the agent to supporting work here and leave the assessment to people.",
+      "AI agents in finance",
+      "Finance is mostly about checking, reconciling and following up. Agents can do that preparatory work well, but a mistake in a booking carries through into reporting and filings. That’s why a human stays the final step here.",
+      "10. Invoice checking. The agent compares incoming invoices against purchase orders and goods receipts and flags discrepancies for accounts payable.",
+      "Integrations: accounting package or ERP, procurement system.",
+      "Where the gain is: attention goes to the exceptions, not the routine.",
+      "Human check: discrepancies and payment decisions stay with accounts payable.",
+      "11. Month-end close preparation. The agent gathers outstanding items, proposes draft bookings, and lists missing documents.",
+      "Integrations: ERP, bank, reporting tool.",
+      "Where the gain is: a faster, better-prepared close.",
+      "Human check: every booking is confirmed by a staff member.",
+      "Bookings fall into the category where a mistake can carry through quietly. The agent proposes, a human books.",
+      "12. Accounts receivable follow-up. The agent flags overdue invoices, looks up the contact history, and drafts a suitable reminder.",
+      "Integrations: accounting package, CRM, email.",
+      "Where the gain is: more timely follow-up without anyone having to maintain lists.",
+      "Human check: reminders only go out after approval, especially for customers with an ongoing conversation.",
+      "More AI applications beyond agents, such as analysis and document processing, are covered separately on this site.",
+      "Example scenario",
+      "A manufacturing company with 180 staff receives around 2,500 purchase invoices a month. Two accounts-payable staff match them manually against purchase orders and goods receipts, averaging 4 minutes per invoice.",
+      "The adviser sets the requirements from the client's side and tests two vendors' proposals on the same set of 300 invoices from the previous quarter. The agent compares amounts, quantities and order numbers and flags discrepancies. Booking, paying and contacting suppliers deliberately stay with the administration team.",
+      "After three months, around 75 percent of invoices go through to approval without a discrepancy. Those still take half a minute of checking. That saves roughly 110 hours a month, time that now goes into resolving the exceptions instead.",
+      "Fictional example, built from situations that come up often. The organisation and figures are illustrative.",
+      "Best AI agent platforms",
+      "There’s no single best platform in general, only one that fits the software you already use, your requirements for control, and your own technical capacity. I don’t receive commissions or any other payment from any of these vendors. This overview reflects October 2026, based on the vendors’ own product information. Features and names change quickly, so check the current situation before you choose.",
+      "Platform",
+      "What it is",
+      "Fits best for",
+      "Microsoft Copilot Studio",
+      "Environment for building agents with natural language or a graphical editor, publishable into Teams and SharePoint among others",
+      "Organisations running on Microsoft 365",
+      "Salesforce Agentforce 360",
+      "Agent platform within Salesforce, covering service, sales and HR among others, built on CRM data",
+      "Organisations with Salesforce as their CRM",
+      "Google Gemini Enterprise Agent Platform",
+      "Google Cloud’s development platform (formerly Vertex AI) for building, scaling and managing agents",
+      "Teams with development capacity on Google Cloud",
+      "n8n",
+      "Visual workflow builder with agent features and many integrations, also self-hostable",
+      "Organisations that want agents built into broader workflows",
+      "OpenAI Agents SDK",
+      "Development kit (Python or TypeScript) for building agents in code, running in your own application",
+      "Development teams building bespoke work",
+      "When choosing between platforms, I look at five questions:",
+      "Fit: does the platform work with the systems the agent needs to read and write, without heavy custom integrations?",
+      "Control: can you require human confirmation per action, and can every step the agent takes be traced back?",
+      "Data: where is data processed and stored, is there a data processing agreement, and is your input used to train models?",
+      "Cost: how is it billed, per user, per conversation or per volume of text processed, and what does that mean at your volumes?",
+      "Exit: can you take your instructions, data and logs with you if you switch?",
+      "A current example of how fast this changes: according to OpenAI’s own documentation, the visual Agent Builder is being phased out and shuts down on 30 November 2026 (as of October 2026). Anyone who built on it needs to migrate. That’s a reminder to agree how you’d get off a platform before you choose it, not after.",
+      "Which route fits, platform or bespoke work, and how to select a delivery partner, is covered separately on this site. For applications, costs and implementation at a glance, see AI agents for business. Want to know which of these examples fits your organisation? Book a no-obligation call.",
+      "Dave Willemstein Independent AI Advisor",
+      "Independent: no commissions, no partner deals, no margin on implementation partners.",
+      "About My partner network",
+      "Want to know where you stand with AI? See the AI Readiness Assessment →",
+      "Sources",
+      "Microsoft Copilot Studio (product page)",
+      "Salesforce Agentforce 360 (product page)",
+      "Google Cloud: Gemini Enterprise Agent Platform (product page)",
+      "n8n: AI agents (product page)",
+      "OpenAI: Agents SDK documentation",
+      "OpenAI: deprecations page (Agent Builder shutdown, 30 November 2026)",
+      "AI Act Service Desk (European Commission): Article 50, transparency obligations",
+      "Regulation (EU) 2024/1689 (AI Act), Annex III, via EUR-Lex",
+      "Ready for impact?",
+      "From AI ambition to real results.",
+      "Book a no-obligation call. No pitch. Just sharp questions.",
+      "30 min., no pitch deckBook a call →"
+    ]
+  },
+  "links": [
+    {
+      "regio": "overig",
+      "soort": "intern",
+      "href": "#main",
+      "anker": "Skip to main content",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/",
+      "anker": "",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/services",
+      "anker": "Services",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/cases",
+      "anker": "Cases",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/approach",
+      "anker": "Approach",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/insights",
+      "anker": "Insights",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/about",
+      "anker": "About",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/nl/ai-agents/voorbeelden",
+      "anker": "NL",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/contact",
+      "anker": "Book a call →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/",
+      "anker": "Home",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/ai-agents",
+      "anker": "AI Agents",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/contact",
+      "anker": "Read more on AI agents for business →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/services/ai-readiness-assessment",
+      "anker": "See the AI Readiness Assessment →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/about",
+      "anker": "Dave Willemstein",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "extern",
+      "href": "https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-50",
+      "anker": "Article 50",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "extern",
+      "href": "https://www.microsoft.com/en-us/microsoft-365-copilot/microsoft-copilot-studio",
+      "anker": "Microsoft Copilot Studio",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "extern",
+      "href": "https://www.salesforce.com/agentforce/",
+      "anker": "Salesforce Agentforce 360",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "extern",
+      "href": "https://cloud.google.com/products/gemini-enterprise-agent-platform",
+      "anker": "Google Gemini Enterprise Agent Platform",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "extern",
+      "href": "https://n8n.io/ai-agents/",
+      "anker": "n8n",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "extern",
+      "href": "https://developers.openai.com/api/docs/guides/agents/sdk",
+      "anker": "OpenAI Agents SDK",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "extern",
+      "href": "https://developers.openai.com/api/docs/deprecations",
+      "anker": "OpenAI’s own documentation",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/contact",
+      "anker": "Book a no-obligation call",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/about",
+      "anker": "About",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/partner-network",
+      "anker": "My partner network",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/services/ai-readiness-assessment",
+      "anker": "Want to know where you stand with AI? See the AI Readiness Assessment →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "extern",
+      "href": "https://www.microsoft.com/en-us/microsoft-365-copilot/microsoft-copilot-studio",
+      "anker": "Microsoft Copilot Studio (product page)",
+      "rel": "noopener"
+    },
+    {
+      "regio": "main",
+      "soort": "extern",
+      "href": "https://www.salesforce.com/agentforce/",
+      "anker": "Salesforce Agentforce 360 (product page)",
+      "rel": "noopener"
+    },
+    {
+      "regio": "main",
+      "soort": "extern",
+      "href": "https://cloud.google.com/products/gemini-enterprise-agent-platform",
+      "anker": "Google Cloud: Gemini Enterprise Agent Platform (product page)",
+      "rel": "noopener"
+    },
+    {
+      "regio": "main",
+      "soort": "extern",
+      "href": "https://n8n.io/ai-agents/",
+      "anker": "n8n: AI agents (product page)",
+      "rel": "noopener"
+    },
+    {
+      "regio": "main",
+      "soort": "extern",
+      "href": "https://developers.openai.com/api/docs/guides/agents/sdk",
+      "anker": "OpenAI: Agents SDK documentation",
+      "rel": "noopener"
+    },
+    {
+      "regio": "main",
+      "soort": "extern",
+      "href": "https://developers.openai.com/api/docs/deprecations",
+      "anker": "OpenAI: deprecations page (Agent Builder shutdown, 30 November 2026)",
+      "rel": "noopener"
+    },
+    {
+      "regio": "main",
+      "soort": "extern",
+      "href": "https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-50",
+      "anker": "AI Act Service Desk (European Commission): Article 50, transparency obligations",
+      "rel": "noopener"
+    },
+    {
+      "regio": "main",
+      "soort": "extern",
+      "href": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj/eng",
+      "anker": "Regulation (EU) 2024/1689 (AI Act), Annex III, via EUR-Lex",
+      "rel": "noopener"
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/contact",
+      "anker": "Book a call →",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/services/ai-readiness-assessment",
+      "anker": "AI Readiness Assessment",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/services/ai-strategy-sprint",
+      "anker": "AI Strategy Sprint",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/services/fractional-ai-lead",
+      "anker": "Fractional AI Lead",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/services",
+      "anker": "All services",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/cases",
+      "anker": "Cases",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/approach",
+      "anker": "Approach",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/insights",
+      "anker": "Insights",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/faq",
+      "anker": "FAQ",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/about",
+      "anker": "About",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-consulting",
+      "anker": "AI consulting",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-implementation",
+      "anker": "AI implementation",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-automation",
+      "anker": "AI automation",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-for-business",
+      "anker": "AI for business",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-development",
+      "anker": "AI development",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-agents",
+      "anker": "AI agents",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-policy",
+      "anker": "AI policy",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-workshop",
+      "anker": "AI workshop",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/markets",
+      "anker": "AI by industry",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/knowledge-base",
+      "anker": "Knowledge base",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/pricing",
+      "anker": "Pricing",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/partner-network",
+      "anker": "Partner network",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "overig",
+      "href": "mailto:dave@freelanceaiconsultant.com",
+      "anker": "dave@freelanceaiconsultant.com",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "extern",
+      "href": "https://www.linkedin.com/in/davewillemstein",
+      "anker": "LinkedIn ↗",
+      "rel": "noopener"
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/contact",
+      "anker": "Book a call",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/privacy",
+      "anker": "Privacy policy",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/terms",
+      "anker": "Terms & conditions",
+      "rel": null
+    }
+  ],
+  "structured_data": {
+    "sha256": "64b1c9dd0e5a2f97bd2ed7e30d934bb8b5d3f0e08416a1084ef3d099e30838e0",
+    "items": [
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://freelanceaiconsultant.com/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "AI Agents",
+                "item": "https://freelanceaiconsultant.com/ai-agents"
+              },
+              {
+                "@type": "ListItem",
+                "position": 3,
+                "name": "AI agent examples",
+                "item": "https://freelanceaiconsultant.com/ai-agents/examples"
+              }
+            ]
+          },
+          {
+            "@type": "Article",
+            "headline": "AI agent examples: 12 applications for business",
+            "description": "Twelve AI agent examples for business, from customer service and sales to HR and finance, with how each works and the integrations it needs.",
+            "inLanguage": "en-US",
+            "datePublished": "2026-10-27",
+            "dateModified": "2026-10-27",
+            "author": {
+              "@type": "Person",
+              "name": "Dave Willemstein",
+              "jobTitle": "Onafhankelijk AI-adviseur",
+              "url": "https://freelanceaiconsultant.com/over",
+              "sameAs": [
+                "https://www.linkedin.com/in/davewillemstein"
+              ]
+            },
+            "publisher": {
+              "@type": "Person",
+              "name": "Dave Willemstein"
+            },
+            "mainEntityOfPage": "https://freelanceaiconsultant.com/ai-agents/examples"
+          },
+          {
+            "@type": "FAQPage",
+            "mainEntity": [
+              {
+                "@type": "Question",
+                "name": "Which AI agent examples fit customer service, sales, HR and finance?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "The AI agent examples consist of twelve generic applications for customer service, sales, HR and finance, such as mail and ticket preparation, lead research, onboarding and invoice checking, each with the integrations it needs and the point of human review. Preparatory work that a human then reviews delivers the most value. How much autonomy an agent can get depends on whether an action is reversible and whether the consequences are internal or external."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Do the AI agent examples show what an agent delivered for a specific company?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "No. The AI agent examples are deliberately described in generic terms and show how an agent fits into a process. What an agent delivers depends on the volumes, the sources, and how much control the process needs."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Is there one best platform for the AI agent examples?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Not in general: which platform fits the AI agent examples depends on the software an organisation already uses, its requirements for control, and its own technical capacity. The platform overview reflects October 2026, with no commissions or other payments from the vendors named."
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "afbeeldingen": [
+    {
+      "regio": "header",
+      "src": "/images/freelance-ai-consultant-logo-header.png",
+      "alt": "freelanceaiconsultant.com logo",
+      "width": "600",
+      "height": "287",
+      "loading": null
+    },
+    {
+      "regio": "main",
+      "src": "/images/dave-portrait.jpg",
+      "alt": "Portrait of Dave Willemstein",
+      "width": "88",
+      "height": "88",
+      "loading": "lazy"
+    },
+    {
+      "regio": "footer",
+      "src": "/images/freelance-ai-consultant-icon-footer.png",
+      "alt": "",
+      "width": "192",
+      "height": "192",
+      "loading": "lazy"
+    }
+  ],
+  "laadprestaties": {
+    "scripts": [
+      {
+        "src": "/_astro/CookieConsent.astro_astro_type_script_index_0_lang.COcxE8NY.js",
+        "type": "module",
+        "inline_bytes": 0
+      },
+      {
+        "src": null,
+        "type": null,
+        "inline_bytes": 989
+      },
+      {
+        "src": null,
+        "type": null,
+        "inline_bytes": 493
+      },
+      {
+        "src": "/logo-carousel/logo-carousel.js?v=2",
+        "type": null,
+        "inline_bytes": 0
+      },
+      {
+        "src": null,
+        "type": null,
+        "inline_bytes": 725
+      }
+    ],
+    "stylesheets": [
+      "/_astro/_slug_.CzLXI3HH.css",
+      "/_astro/_slug_.Do5RJXa7.css",
+      "/logo-carousel/logo-carousel.css?v=2"
+    ],
+    "aantal_details": 0,
+    "aantal_tabellen": 1
+  },
+  "gemeten_op": "2026-11-05"
+}

@@ -1,0 +1,933 @@
+{
+  "url": "/ai-consulting/ai-strategy",
+  "build_bestand": "dist/ai-consulting/ai-strategy/index.html",
+  "html": {
+    "bytes": 50896,
+    "lang": "en"
+  },
+  "beschermd": {
+    "title": "AI Strategy | From Vision to a Funded Roadmap",
+    "meta_description": "An AI strategy and roadmap that fit your goals, data and organisation. See how to move from scattered AI experiments to focused choices and a funded plan.",
+    "canonical": "https://freelanceaiconsultant.com/ai-consulting/ai-strategy",
+    "robots_meta": null,
+    "hreflang": [
+      {
+        "hreflang": "en",
+        "href": "https://freelanceaiconsultant.com/ai-consulting/ai-strategy"
+      },
+      {
+        "hreflang": "nl",
+        "href": "https://freelanceaiconsultant.com/nl/ai-consultancy/ai-strategie"
+      },
+      {
+        "hreflang": "x-default",
+        "href": "https://freelanceaiconsultant.com/ai-consulting/ai-strategy"
+      }
+    ],
+    "h1": [
+      "Developing an AI strategy and roadmap for your organisation"
+    ]
+  },
+  "social": {
+    "og:type": "website",
+    "og:locale": "en_US",
+    "og:site_name": "freelanceaiconsultant.com",
+    "og:title": "AI Strategy | From Vision to a Funded Roadmap",
+    "og:description": "An AI strategy and roadmap that fit your goals, data and organisation. See how to move from scattered AI experiments to focused choices and a funded plan.",
+    "og:url": "https://freelanceaiconsultant.com/ai-consulting/ai-strategy",
+    "og:image": "https://freelanceaiconsultant.com/images/dave-portrait.jpg",
+    "twitter:card": "summary_large_image",
+    "twitter:title": "AI Strategy | From Vision to a Funded Roadmap",
+    "twitter:description": "An AI strategy and roadmap that fit your goals, data and organisation. See how to move from scattered AI experiments to focused choices and a funded plan.",
+    "twitter:image": "https://freelanceaiconsultant.com/images/dave-portrait.jpg"
+  },
+  "koppen": [
+    {
+      "niveau": 1,
+      "tekst": "Developing an AI strategy and roadmap for your organisation",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "What does it cost to develop an AI strategy, and how long does it take?",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 3,
+      "tekst": "Is the AI Strategy Sprint cheaper for an AI strategy if an AI Readiness Assessment is already in place?",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 3,
+      "tekst": "Can the outcome of the AI Readiness Assessment be that an organisation isn't ready yet?",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 3,
+      "tekst": "Is an AI roadmap the same as an AI strategy?",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "What is an AI strategy?",
+      "regio": "main",
+      "id": "what-is-an-ai-strategy"
+    },
+    {
+      "niveau": 2,
+      "tekst": "Why you need an AI strategy",
+      "regio": "main",
+      "id": "why-you-need-an-ai-strategy"
+    },
+    {
+      "niveau": 2,
+      "tekst": "Parts of a good AI strategy",
+      "regio": "main",
+      "id": "parts-of-a-good-ai-strategy"
+    },
+    {
+      "niveau": 3,
+      "tekst": "Goals and business case",
+      "regio": "main",
+      "id": "goals-and-business-case"
+    },
+    {
+      "niveau": 3,
+      "tekst": "Data and infrastructure",
+      "regio": "main",
+      "id": "data-and-infrastructure"
+    },
+    {
+      "niveau": 3,
+      "tekst": "People and skills",
+      "regio": "main",
+      "id": "people-and-skills"
+    },
+    {
+      "niveau": 3,
+      "tekst": "Governance and risk",
+      "regio": "main",
+      "id": "governance-and-risk"
+    },
+    {
+      "niveau": 2,
+      "tekst": "Determining AI maturity and AI readiness",
+      "regio": "main",
+      "id": "determining-ai-maturity-and-ai-readiness"
+    },
+    {
+      "niveau": 2,
+      "tekst": "From strategy to roadmap",
+      "regio": "main",
+      "id": "from-strategy-to-roadmap"
+    },
+    {
+      "niveau": 3,
+      "tekst": "Building the roadmap in four steps",
+      "regio": "main",
+      "id": "building-the-roadmap-in-four-steps"
+    },
+    {
+      "niveau": 3,
+      "tekst": "What a roadmap delivers",
+      "regio": "main",
+      "id": "what-a-roadmap-delivers"
+    },
+    {
+      "niveau": 3,
+      "tekst": "AI strategy and roadmap for smaller organisations",
+      "regio": "main",
+      "id": "ai-strategy-and-roadmap-for-smaller-organisations"
+    },
+    {
+      "niveau": 2,
+      "tekst": "Frequently asked questions",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "From AI ambition to real results.",
+      "regio": "main",
+      "id": null
+    }
+  ],
+  "bodytekst": {
+    "regio": "main",
+    "woorden": 3034,
+    "sha256": "37f3b61919dd6b89f9abe03cd09c04327476a7872e1f490eb1856c959918df1d",
+    "blokken": [
+      "Home",
+      "AI Consulting",
+      "AI strategy",
+      "AI strategy",
+      "Developing an AI strategy and roadmap for your organisation",
+      "An AI strategy sets out what you want to achieve with AI, where you will and won't use it, and what that requires. Not a vision document full of ambition, but a short set of choices someone puts their name to. The roadmap then makes those choices executable: who owns what, by when, and with what budget.",
+      "Book a strategy call → See the AI Readiness Assessment →",
+      "IN SHORT",
+      "An AI strategy starts from business outcomes, not technology.",
+      "Four parts: goals and business case, data and infrastructure, people and skills, governance and risk.",
+      "The roadmap turns the strategy into an owned, budgeted sequence, working in three-month horizons.",
+      "AI in Europe",
+      "European brands already running AI in production.",
+      "Not my clients. Examples of what happens once AI moves past the pilot stage.",
+      "Pause",
+      "Klarna",
+      "Sweden",
+      "AI customer service assistant",
+      "Zalando",
+      "Germany",
+      "Fashion assistant for product advice",
+      "Financial services",
+      "Investment firm",
+      "AI strategy and use-case portfolio",
+      "Booking.com",
+      "Netherlands",
+      "AI Trip Planner for travel planning",
+      "Siemens",
+      "Germany",
+      "Industrial Copilot for engineering",
+      "Retail",
+      "Enterprise retailer",
+      "AI-driven vendor selection",
+      "Spotify",
+      "Sweden",
+      "AI DJ and personalized playlists",
+      "Mercedes-Benz",
+      "Germany",
+      "Generative voice assistant in the car",
+      "Industrial / B2B",
+      "International manufacturer",
+      "AI roadmap and leadership",
+      "ING",
+      "Netherlands",
+      "Generative chatbot for customer queries",
+      "L'Oréal",
+      "France",
+      "Beauty Genius: personalized advice",
+      "Financial services",
+      "Financial services firm",
+      "KYC accelerated with AI document analysis",
+      "SAP",
+      "Germany",
+      "Joule: copilot in business software",
+      "Carrefour",
+      "France",
+      "Hopla: grocery shopping assistant",
+      "Strategy & AI",
+      "SaaS scale-up",
+      "AI readiness assessment",
+      "Adyen",
+      "Netherlands",
+      "AI-driven payment optimization",
+      "Philips",
+      "Netherlands",
+      "AI in medical imaging",
+      "Proces & productivity",
+      "Professional services firm",
+      "Internal AI assistant for knowledge workers",
+      "What does it cost to develop an AI strategy, and how long does it take?",
+      "Developing an AI strategy with Dave Willemstein can be done in a single engagement with AI Strategy Sprint, which takes 4-6 weeks for a fixed price. Anyone who wants to know what's feasible first starts with AI Readiness Assessment, at 2-3 weeks, also for a fixed price, excluding VAT and travel expenses.",
+      "Developing an AI strategy: the right service for your situation",
+      "Situation",
+      "Outcome",
+      "Timeline",
+      "Right service",
+      "Unclear what's feasible with the current organisation, data and systems",
+      "Readiness score per dimension, gap analysis and a 90-day plan",
+      "2-3 weeks",
+      "AI Readiness Assessment",
+      "Strategy and roadmap in one go, with the decision-makers in the room",
+      "Board-ready strategy, priority matrix and use-case roadmap",
+      "4-6 weeks",
+      "AI Strategy Sprint",
+      "Is the AI Strategy Sprint cheaper for an AI strategy if an AI Readiness Assessment is already in place?",
+      "Yes: the investment in AI Strategy Sprint is lower if AI Readiness Assessment is already in place, and higher for multiple business units. The exact amount is set out in the proposal.",
+      "Can the outcome of the AI Readiness Assessment be that an organisation isn't ready yet?",
+      "Sometimes, yes: the outcome of AI Readiness Assessment is sometimes that an organisation isn't ready yet. The organisation then gets a plan for the foundation instead of a plan for use cases.",
+      "Is an AI roadmap the same as an AI strategy?",
+      "No. The AI strategy decides what you want to achieve and which choices you make; the roadmap decides the order, with an owner, conditions, budget and a decision point per use case.",
+      "Source: Dave Willemstein's rates and typical timelines. Updated: October 2026.",
+      "What is an AI strategy?",
+      "An AI strategy is the set of choices that determines what your organisation uses AI for, why, and what needs to change to make that happen. A good AI strategy answers four questions: which business outcomes you want to achieve, which applications contribute most to them, what that requires in terms of data, people and governance, and what you deliberately choose not to do.",
+      "That last point is often forgotten. A strategy that keeps every option open helps no one decide. The value sits precisely in the short list, and in the reasoned list of what didn’t make the cut.",
+      "An AI vision is something different. A vision describes a direction (“we want to handle customer questions faster and better”); the strategy turns that into choices you can measure and steer by. The difference between an AI strategy that sits on a shelf and one that works usually comes down to that translation.",
+      "Why you need an AI strategy",
+      "Without a strategy, AI use still happens, just uncoordinated. Teams buy tools, departments start pilots, vendors turn up with demos. Each initiative can be sensible on its own, but together they deliver little. There’s no shared yardstick for deciding what gets budget, so whoever lobbies hardest wins.",
+      "An AI strategy solves three practical problems:",
+      "Priority: you can explain why one initiative gets budget and another doesn’t.",
+      "Coherence: applications share the same data, the same upkeep arrangements and the same risk check, instead of every team reinventing the wheel.",
+      "Accountability: leadership, the board and regulators get a rationale they can steer by, including the risks.",
+      "A strategy doesn’t need to be large. For a mid-sized organisation, a few pages with goals, a prioritised portfolio and clear conditions are often enough. How a strategy fits within the broader work of AI consulting is covered on the overview page.",
+      "Parts of a good AI strategy",
+      "A usable AI strategy has four parts. Miss one, and delivery runs into it sooner or later.",
+      "Goals and business case",
+      "Start from the outcome, not the technology. “Use generative AI for customer contact” is a direction. “Lower the handling time for first-line questions without customer satisfaction dropping” is a goal you can steer by. Each goal needs an owner in the business, an initial value estimate with visible assumptions, and a metric.",
+      "The business case doesn’t need to be precise to the pound at this stage, but it does need to be honest. Time saved is only a saving once someone actually spends that time differently.",
+      "Data and infrastructure",
+      "A data strategy for AI doesn’t need to start with a complete data landscape. The question isn’t “is our data in order?” but “is this data good enough for this decision?”. Definitions usually matter more than volume or infrastructure: four systems with three definitions of “customer” is a bigger problem than a missing data warehouse.",
+      "You build the foundation alongside the first use cases, not ahead of them.",
+      "People and skills",
+      "AI changes how people work. A strategy should therefore name who will work differently, which skills that requires, and who manages the applications once delivered. Think of owners in the business, a point of contact for AI, and training tied to specific tasks rather than general explanations of tools.",
+      "This is also where the question sits of whether you need your own AI lead, and if so, when. For many organisations that isn’t a full-time role at the start.",
+      "Governance and risk",
+      "Governance determines who can decide, how an application reaches production, and what happens if something goes wrong. Keep it light: a register of applications, a gate before production, a periodic review and an escalation path. Risk covers privacy, dependence on vendors, and the obligations under the AI Act.",
+      "Determining AI maturity and AI readiness",
+      "Before you make choices, you need to know where you stand. AI maturity and AI readiness are often used interchangeably. In practice it comes down to one question: what’s achievable with the organisation, data and systems you have now, and what needs to happen first?",
+      "I answer that with the AI Readiness Assessment. I review your organisation across five dimensions: strategy, data, technology, people and governance. In 2-3 weeks I carry out a document analysis, a data scan of the relevant sources, and eight to twelve interviews across the business, from the business side and IT through to risk and the front line. I then score the five dimensions against a reference framework and validate an initial list of opportunities with the owners of the relevant processes.",
+      "Week 1: gatheringDocument analysis, data scan and 8 to 12 interviews",
+      "Week 2: scoringFive dimensions against a reference framework, initial opportunity list validated with process owners",
+      "Week 3: choosingPrioritisation, 90-day plan and the closing session: what do we do, and what don't we",
+      "How the AI Readiness Assessment establishes where you stand before you set an AI strategy.",
+      "You get a readiness score per dimension, a gap analysis with the three blockers that actually matter, a validated longlist of use cases with an initial value estimate, a risk and compliance scan including positioning under the AI Act, and a 90-day plan with owners and decision points. The engagement has a fixed project fee.",
+      "Sometimes the outcome is that you’re not ready yet. In that case you get a plan for the foundation instead of a plan for use cases, and that is also a strategic choice.",
+      "From strategy to roadmap",
+      "A strategy only becomes real once someone turns it into a quarterly goal. Most strategies stall not on the content, but on three missing translations: turning ambition into measurable outcomes, assigning one owner with budget and a mandate per use case, and measuring at the level where the value was promised.",
+      "The roadmap is where that translation comes together: which use cases come first, what conditions they need, what they cost, and when you decide whether to continue or stop. A good roadmap is short, not a list of twenty initiatives everyone is enthusiastic about and no one owns, but a handful of use cases each with a name attached. Alongside it sits a list of what deliberately doesn’t happen, and why; that rejected list stops declined ideas quietly coming back.",
+      "A roadmap is not a project plan either. It works in horizons: the first three months set out concretely, the period after that in broader blocks. At fixed points you check whether the assumptions still hold.",
+      "Building the roadmap in four steps",
+      "StocktakeWhat's already running, which ideas exist, and what's the starting position?",
+      "Prioritise use casesUniform scoring on value, feasibility, data and change load",
+      "ConditionsData, people, governance and the build, buy or partner choice",
+      "Planning and budgetHorizons, owners, order-of-magnitude budget and decision points",
+      "The four steps of an AI roadmap: the list gets shorter and more concrete at each step.",
+      "Start with what already exists: which AI applications and pilots are running, what do they cost, and who actually uses them? Some of what’s running on paper may already have quietly stopped in practice. Alongside that, capture the starting position of data, systems, skills and governance; you’ll need that baseline later to say whether the roadmap delivered anything. The AI Readiness Assessment covers this step and, with its 90-day plan, delivers a first version of the roadmap.",
+      "Next, assess every candidate the same way: which business outcome, how much value, how feasible, how ready is the data, how large is the change load, and is there an owner in the business who genuinely benefits? Score this together with the people who know the processes, not alone in a spreadsheet.",
+      "Per selected use case, settle what needs to be true before it can start: which data sources and definitions need to be in order, who will work differently, who manages the application once delivered, and which risk check is needed, including under the AI Act. This is also where the build, buy or partner choice sits; it shapes your costs and dependencies for years, so make that choice per theme rather than per tool.",
+      "Finally, place the use cases in horizons. Horizon 1, the first three months, is planned concretely, with owners and a start date. Horizons 2 and 3 are described in broader blocks. Many roadmaps combine quick wins with a few medium-term investments, so you learn early while the foundation grows alongside it. Give each use case an order-of-magnitude budget, including upkeep after delivery, which is easily forgotten even though an application without upkeep can quietly perform worse over time. Set a decision point per use case with an agreed criterion for continuing or stopping.",
+      "What a roadmap delivers",
+      "Prioritised portfolio: the use cases going ahead, with scoring and reasoning per use case.",
+      "Rejected list: what deliberately doesn’t happen, with the reason attached.",
+      "Horizon plan: what happens in which period, with dependencies between use cases visible.",
+      "Owner per use case: one name, in the business, with budget and the mandate to stop.",
+      "Conditions: the data, people, governance and build-buy-partner choice needed per use case.",
+      "Order-of-magnitude budget: per use case, including upkeep after delivery.",
+      "Decision points and metrics: when you decide to continue or stop, and on what basis.",
+      "Governance of the roadmap itself: who owns the whole, and how often it gets revisited.",
+      "Want to develop the strategy and roadmap together with your core group, with the decision-makers in the room? That’s what the AI Strategy Sprint is for: in 4-6 weeks and five working sessions, from diagnosis to a board-ready strategy, a priority matrix and a use-case roadmap. You can see how that works in practice in the case study on an AI strategy for an investment firm, and how a roadmap holds up in a more complex setting, with pilots in multiple countries brought under one governance model, in the case on an AI roadmap for a global manufacturer.",
+      "AI strategy and roadmap for smaller organisations",
+      "The same four roadmap steps apply in a smaller organisation, just at a smaller scale. There’s usually no dedicated AI team, budget is limited, and the lines are short, which makes a few things simpler: the owner or managing director is often the roadmap owner directly, and the core group can be two or three people.",
+      "A few points worth watching for smaller organisations:",
+      "Limit yourself to two or three use cases in the first horizon; more is hard to guide properly without dedicated AI capacity.",
+      "Choose applications that fit existing software first and run on a single data source, so you don’t need anything built just to learn.",
+      "Plan upkeep explicitly: who checks that it still works if there’s no IT department?",
+      "Factor in data protection as soon as personal data enters an application.",
+      "Example scenario",
+      "A retail chain with 400 staff has three departments each running their own AI plan: marketing, customer service and purchasing. Together they're asking for twice the budget leadership is willing to free up.",
+      "In an AI Strategy Sprint, the adviser brings a core group of five people, including two board members, back to a single set of goals across five working sessions. All eleven proposed use cases are scored the same way on value, feasibility, data readiness and change load.",
+      "The result is a seven-page strategy with three use cases instead of eleven. Customer service goes first, because the data already sits in one system and the team lead wants to be the owner. The goal: cut average handling time from nine to seven minutes, with customer satisfaction unchanged. Demand forecasting for purchasing is deliberately postponed until the product data is in order.",
+      "Fictional example, built from situations that come up often. The organisation and figures are illustrative.",
+      "Don’t need a full strategy, but do want an independent view on one question? Scoped AI advice or a second opinion, at a fixed price per assignment, is a better fit then. Want to talk through where you stand first? Book a thirty-minute conversation.",
+      "Dave Willemstein Independent AI Advisor",
+      "Independent: no commissions, no partner deals, no margin on implementation partners.",
+      "About My partner network",
+      "Want to know where you stand with AI? See the AI Readiness Assessment →",
+      "Frequently asked questions",
+      "What is the difference between an AI strategy and a data strategy?+",
+      "A data strategy covers how you collect, manage and make data available across the organisation. An AI strategy covers the choices about which problems you solve with AI and what that requires. The two meet where the AI strategy determines which part of the data foundation needs to be in order first.",
+      "How long does an AI strategy remain valid?+",
+      "The principles and goals usually last longer than the use cases. I advise setting the direction for the next twelve to eighteen months and revisiting the portfolio at fixed points, for example every quarter. AI changes faster than most planning cycles.",
+      "Who should be involved in developing an AI strategy?+",
+      "A sponsor with a mandate, someone from the business who knows the outcomes, someone from data or IT, and someone from risk or compliance. Four to six people in the core group is enough; a larger group makes it slower, not better.",
+      "Can we write an AI strategy ourselves?+",
+      "Yes, especially if you already have someone with experience and a mandate. Outside help pays off mainly when there's an internal stalemate, when you need to explain the decision to a board, or when it's the first time and time pressure is high.",
+      "Does the AI Act belong in an AI strategy?+",
+      "Yes, as a condition. Your strategy should make clear which applications you're considering, which risk category they're likely to fall into, and what that means for planning and management. Leave the legal judgement to a lawyer, but the trade-off belongs in the strategy.",
+      "What is the difference between an AI roadmap and an AI strategy?+",
+      "The strategy decides what you want to achieve and which choices you make. The roadmap decides the order: which use cases when, under what conditions, with what budget and at which decision points. A roadmap without a strategy becomes a list of disconnected projects; a strategy without a roadmap stays an intention.",
+      "How many use cases should fit in an AI roadmap's first horizon for an SME?+",
+      "Two or three use cases in the first horizon is the usual advice for an SME. More than that is difficult to manage well without dedicated AI capacity in-house.",
+      "Is there a service that delivers an AI roadmap as a fixed result?+",
+      "Yes. A use-case roadmap with quick wins, medium-term investments and deliberate no-gos is one of the fixed deliverables of the AI Strategy Sprint. The AI Readiness Assessment delivers a first version of the roadmap through its 90-day plan.",
+      "Ready for impact?",
+      "From AI ambition to real results.",
+      "Book a no-obligation call. No pitch. Just sharp questions.",
+      "30 min., no pitch deckBook a call →"
+    ]
+  },
+  "links": [
+    {
+      "regio": "overig",
+      "soort": "intern",
+      "href": "#main",
+      "anker": "Skip to main content",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/",
+      "anker": "",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/services",
+      "anker": "Services",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/cases",
+      "anker": "Cases",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/approach",
+      "anker": "Approach",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/insights",
+      "anker": "Insights",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/about",
+      "anker": "About",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/nl/ai-consultancy/ai-strategie",
+      "anker": "NL",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/contact",
+      "anker": "Book a call →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/",
+      "anker": "Home",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/ai-consulting",
+      "anker": "AI Consulting",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/contact",
+      "anker": "Book a strategy call →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/services/ai-readiness-assessment",
+      "anker": "See the AI Readiness Assessment →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/services/ai-readiness-assessment",
+      "anker": "AI Readiness Assessment",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/services/ai-strategy-sprint",
+      "anker": "AI Strategy Sprint",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/pricing",
+      "anker": "Dave Willemstein's rates and typical timelines",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/ai-consulting",
+      "anker": "AI consulting",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/services/ai-readiness-assessment",
+      "anker": "AI Readiness Assessment",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/services/ai-strategy-sprint",
+      "anker": "AI Strategy Sprint",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/cases/ai-strategy-investment-firm",
+      "anker": "AI strategy for an investment firm",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/cases/ai-roadmap-global-manufacturer",
+      "anker": "AI roadmap for a global manufacturer",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/contact",
+      "anker": "Book a thirty-minute conversation",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/about",
+      "anker": "About",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/partner-network",
+      "anker": "My partner network",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/services/ai-readiness-assessment",
+      "anker": "Want to know where you stand with AI? See the AI Readiness Assessment →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/contact",
+      "anker": "Book a call →",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/services/ai-readiness-assessment",
+      "anker": "AI Readiness Assessment",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/services/ai-strategy-sprint",
+      "anker": "AI Strategy Sprint",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/services/fractional-ai-lead",
+      "anker": "Fractional AI Lead",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/services",
+      "anker": "All services",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/cases",
+      "anker": "Cases",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/approach",
+      "anker": "Approach",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/insights",
+      "anker": "Insights",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/faq",
+      "anker": "FAQ",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/about",
+      "anker": "About",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-consulting",
+      "anker": "AI consulting",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-implementation",
+      "anker": "AI implementation",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-automation",
+      "anker": "AI automation",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-for-business",
+      "anker": "AI for business",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-development",
+      "anker": "AI development",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-agents",
+      "anker": "AI agents",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-policy",
+      "anker": "AI policy",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-workshop",
+      "anker": "AI workshop",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/markets",
+      "anker": "AI by industry",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/knowledge-base",
+      "anker": "Knowledge base",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/pricing",
+      "anker": "Pricing",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/partner-network",
+      "anker": "Partner network",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "overig",
+      "href": "mailto:dave@freelanceaiconsultant.com",
+      "anker": "dave@freelanceaiconsultant.com",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "extern",
+      "href": "https://www.linkedin.com/in/davewillemstein",
+      "anker": "LinkedIn ↗",
+      "rel": "noopener"
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/contact",
+      "anker": "Book a call",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/privacy",
+      "anker": "Privacy policy",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/terms",
+      "anker": "Terms & conditions",
+      "rel": null
+    }
+  ],
+  "structured_data": {
+    "sha256": "a1c46257128ef8feb5e7512e72ffa1cfbea41406b27e955660d92af9daeb3fed",
+    "items": [
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://freelanceaiconsultant.com/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "AI Consulting",
+                "item": "https://freelanceaiconsultant.com/ai-consulting"
+              },
+              {
+                "@type": "ListItem",
+                "position": 3,
+                "name": "AI strategy",
+                "item": "https://freelanceaiconsultant.com/ai-consulting/ai-strategy"
+              }
+            ]
+          },
+          {
+            "@type": "Service",
+            "name": "AI strategy",
+            "serviceType": "ai strategy",
+            "description": "An AI strategy and roadmap that fit your goals, data and organisation. See how to move from scattered AI experiments to focused choices and a funded plan.",
+            "url": "https://freelanceaiconsultant.com/ai-consulting/ai-strategy",
+            "areaServed": "GB",
+            "provider": {
+              "@type": "Person",
+              "name": "Dave Willemstein",
+              "jobTitle": "Onafhankelijk AI-adviseur",
+              "url": "https://freelanceaiconsultant.com/over",
+              "sameAs": [
+                "https://www.linkedin.com/in/davewillemstein"
+              ]
+            }
+          },
+          {
+            "@type": "FAQPage",
+            "mainEntity": [
+              {
+                "@type": "Question",
+                "name": "What is the difference between an AI strategy and a data strategy?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "A data strategy covers how you collect, manage and make data available across the organisation. An AI strategy covers the choices about which problems you solve with AI and what that requires. The two meet where the AI strategy determines which part of the data foundation needs to be in order first."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "How long does an AI strategy remain valid?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "The principles and goals usually last longer than the use cases. I advise setting the direction for the next twelve to eighteen months and revisiting the portfolio at fixed points, for example every quarter. AI changes faster than most planning cycles."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Who should be involved in developing an AI strategy?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "A sponsor with a mandate, someone from the business who knows the outcomes, someone from data or IT, and someone from risk or compliance. Four to six people in the core group is enough; a larger group makes it slower, not better."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Can we write an AI strategy ourselves?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Yes, especially if you already have someone with experience and a mandate. Outside help pays off mainly when there's an internal stalemate, when you need to explain the decision to a board, or when it's the first time and time pressure is high."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Does the AI Act belong in an AI strategy?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Yes, as a condition. Your strategy should make clear which applications you're considering, which risk category they're likely to fall into, and what that means for planning and management. Leave the legal judgement to a lawyer, but the trade-off belongs in the strategy."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "What is the difference between an AI roadmap and an AI strategy?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "The strategy decides what you want to achieve and which choices you make. The roadmap decides the order: which use cases when, under what conditions, with what budget and at which decision points. A roadmap without a strategy becomes a list of disconnected projects; a strategy without a roadmap stays an intention."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "How many use cases should fit in an AI roadmap's first horizon for an SME?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Two or three use cases in the first horizon is the usual advice for an SME. More than that is difficult to manage well without dedicated AI capacity in-house."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Is there a service that delivers an AI roadmap as a fixed result?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Yes. A use-case roadmap with quick wins, medium-term investments and deliberate no-gos is one of the fixed deliverables of the AI Strategy Sprint. The AI Readiness Assessment delivers a first version of the roadmap through its 90-day plan."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "What does it cost to develop an AI strategy, and how long does it take?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Developing an AI strategy with Dave Willemstein can be done in a single engagement with AI Strategy Sprint, which takes 4-6 weeks for a fixed price. Anyone who wants to know what's feasible first starts with AI Readiness Assessment, at 2-3 weeks, also for a fixed price, excluding VAT and travel expenses."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Is the AI Strategy Sprint cheaper for an AI strategy if an AI Readiness Assessment is already in place?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Yes: the investment in AI Strategy Sprint is lower if AI Readiness Assessment is already in place, and higher for multiple business units. The exact amount is set out in the proposal."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Can the outcome of the AI Readiness Assessment be that an organisation isn't ready yet?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Sometimes, yes: the outcome of AI Readiness Assessment is sometimes that an organisation isn't ready yet. The organisation then gets a plan for the foundation instead of a plan for use cases."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Is an AI roadmap the same as an AI strategy?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "No. The AI strategy decides what you want to achieve and which choices you make; the roadmap decides the order, with an owner, conditions, budget and a decision point per use case."
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "afbeeldingen": [
+    {
+      "regio": "header",
+      "src": "/images/freelance-ai-consultant-logo-header.png",
+      "alt": "freelanceaiconsultant.com logo",
+      "width": "600",
+      "height": "287",
+      "loading": null
+    },
+    {
+      "regio": "main",
+      "src": "/images/dave-portrait.jpg",
+      "alt": "Portrait of Dave Willemstein",
+      "width": "88",
+      "height": "88",
+      "loading": "lazy"
+    },
+    {
+      "regio": "footer",
+      "src": "/images/freelance-ai-consultant-icon-footer.png",
+      "alt": "",
+      "width": "192",
+      "height": "192",
+      "loading": "lazy"
+    }
+  ],
+  "laadprestaties": {
+    "scripts": [
+      {
+        "src": "/_astro/CookieConsent.astro_astro_type_script_index_0_lang.COcxE8NY.js",
+        "type": "module",
+        "inline_bytes": 0
+      },
+      {
+        "src": null,
+        "type": null,
+        "inline_bytes": 989
+      },
+      {
+        "src": null,
+        "type": null,
+        "inline_bytes": 493
+      },
+      {
+        "src": "/logo-carousel/logo-carousel.js?v=2",
+        "type": null,
+        "inline_bytes": 0
+      },
+      {
+        "src": null,
+        "type": null,
+        "inline_bytes": 725
+      }
+    ],
+    "stylesheets": [
+      "/_astro/_slug_.CzLXI3HH.css",
+      "/_astro/_slug_.Do5RJXa7.css",
+      "/logo-carousel/logo-carousel.css?v=2"
+    ],
+    "aantal_details": 8,
+    "aantal_tabellen": 1
+  },
+  "gemeten_op": "2026-11-05"
+}

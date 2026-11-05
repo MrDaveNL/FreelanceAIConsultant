@@ -1,0 +1,803 @@
+{
+  "url": "/ai-development/ai-software",
+  "build_bestand": "dist/ai-development/ai-software/index.html",
+  "html": {
+    "bytes": 40537,
+    "lang": "en"
+  },
+  "beschermd": {
+    "title": "AI Software Development | Build, Buy or Integrate",
+    "meta_description": "AI software development, explained: when standard software is enough, when custom development pays off, and how to integrate AI software safely.",
+    "canonical": "https://freelanceaiconsultant.com/ai-development/ai-software",
+    "robots_meta": null,
+    "hreflang": [
+      {
+        "hreflang": "en",
+        "href": "https://freelanceaiconsultant.com/ai-development/ai-software"
+      },
+      {
+        "hreflang": "nl",
+        "href": "https://freelanceaiconsultant.com/nl/ai-development/ai-software"
+      },
+      {
+        "hreflang": "x-default",
+        "href": "https://freelanceaiconsultant.com/ai-development/ai-software"
+      }
+    ],
+    "h1": [
+      "AI software development: choose, integrate or build"
+    ]
+  },
+  "social": {
+    "og:type": "website",
+    "og:locale": "en_US",
+    "og:site_name": "freelanceaiconsultant.com",
+    "og:title": "AI Software Development | Build, Buy or Integrate",
+    "og:description": "AI software development, explained: when standard software is enough, when custom development pays off, and how to integrate AI software safely.",
+    "og:url": "https://freelanceaiconsultant.com/ai-development/ai-software",
+    "og:image": "https://freelanceaiconsultant.com/images/dave-portrait.jpg",
+    "twitter:card": "summary_large_image",
+    "twitter:title": "AI Software Development | Build, Buy or Integrate",
+    "twitter:description": "AI software development, explained: when standard software is enough, when custom development pays off, and how to integrate AI software safely.",
+    "twitter:image": "https://freelanceaiconsultant.com/images/dave-portrait.jpg"
+  },
+  "koppen": [
+    {
+      "niveau": 1,
+      "tekst": "AI software development: choose, integrate or build",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "When is standard AI software enough, and when does custom development pay off?",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 3,
+      "tekst": "What determines the real cost of AI software?",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 3,
+      "tekst": "When should the selection criteria for AI software be set?",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 3,
+      "tekst": "Does the consultant receive a payment from vendors for a Vendor Review on AI software?",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "Types of AI software",
+      "regio": "main",
+      "id": "types-of-ai-software"
+    },
+    {
+      "niveau": 2,
+      "tekst": "Standard or custom AI software development?",
+      "regio": "main",
+      "id": "standard-or-custom-ai-software-development"
+    },
+    {
+      "niveau": 2,
+      "tekst": "Integrating AI software",
+      "regio": "main",
+      "id": "integrating-ai-software"
+    },
+    {
+      "niveau": 2,
+      "tekst": "Selection criteria",
+      "regio": "main",
+      "id": "selection-criteria"
+    },
+    {
+      "niveau": 2,
+      "tekst": "Frequently asked questions",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "From AI ambition to real results.",
+      "regio": "main",
+      "id": null
+    }
+  ],
+  "bodytekst": {
+    "regio": "main",
+    "woorden": 1820,
+    "sha256": "926d2fde437c5466edf8f371d2a19fa69489111fe612fa979a69bf1e68790851",
+    "blokken": [
+      "Home",
+      "AI Development",
+      "AI Software",
+      "AI software",
+      "AI software development: choose, integrate or build",
+      "Almost every software vendor now calls its product AI software. That makes choosing harder, not easier. This page sets out which kinds of AI software exist, when standard is enough and when AI software development pays off, and what to watch for with integration and selection.",
+      "Read more on AI Development → See the AI Readiness Assessment →",
+      "Written by Dave Willemstein, independent AI consultant · published October 27, 2026",
+      "IN SHORT",
+      "AI software runs from a feature inside existing software to full custom development.",
+      "Choose standard where you can; have custom AI software development built only for the layer with your own knowledge.",
+      "Integration, data and exit determine the real cost, not the licence.",
+      "AI in Europe",
+      "European brands already running AI in production.",
+      "Not my clients. Examples of what happens once AI moves past the pilot stage.",
+      "Pause",
+      "Klarna",
+      "Sweden",
+      "AI customer service assistant",
+      "Zalando",
+      "Germany",
+      "Fashion assistant for product advice",
+      "Financial services",
+      "Investment firm",
+      "AI strategy and use-case portfolio",
+      "Booking.com",
+      "Netherlands",
+      "AI Trip Planner for travel planning",
+      "Siemens",
+      "Germany",
+      "Industrial Copilot for engineering",
+      "Retail",
+      "Enterprise retailer",
+      "AI-driven vendor selection",
+      "Spotify",
+      "Sweden",
+      "AI DJ and personalized playlists",
+      "Mercedes-Benz",
+      "Germany",
+      "Generative voice assistant in the car",
+      "Industrial / B2B",
+      "International manufacturer",
+      "AI roadmap and leadership",
+      "ING",
+      "Netherlands",
+      "Generative chatbot for customer queries",
+      "L'Oréal",
+      "France",
+      "Beauty Genius: personalized advice",
+      "Financial services",
+      "Financial services firm",
+      "KYC accelerated with AI document analysis",
+      "SAP",
+      "Germany",
+      "Joule: copilot in business software",
+      "Carrefour",
+      "France",
+      "Hopla: grocery shopping assistant",
+      "Strategy & AI",
+      "SaaS scale-up",
+      "AI readiness assessment",
+      "Adyen",
+      "Netherlands",
+      "AI-driven payment optimization",
+      "Philips",
+      "Netherlands",
+      "AI in medical imaging",
+      "Proces & productivity",
+      "Professional services firm",
+      "Internal AI assistant for knowledge workers",
+      "When is standard AI software enough, and when does custom development pay off?",
+      "Standard AI software is enough for anything a competitor could also buy from a vendor; custom development only pays off for the layer that holds your own knowledge, such as rules, prompts, test sets and integrations. In many cases, the outcome is a combination: buying the model and platform, having the knowledge layer built to your specification, and placing the implementation with a partner. Anyone who doesn't want to run the selection themselves can have it guided with the Vendor Review, which takes 3-6 weeks.",
+      "What determines the real cost of AI software?",
+      "Integration, data and exit determine the real cost of AI software, not the licence. The Cost criterion in the workable set of selection criteria covers the licence, usage at scale, integration, support and exit over three years.",
+      "When should the selection criteria for AI software be set?",
+      "Before vendors come into view: the advice is to set the selection criteria for AI software and their weighting at that point, because criteria written after the first demo describe that demo. After that, the advice is to give every vendor the same scenario on their own data.",
+      "Does the consultant receive a payment from vendors for a Vendor Review on AI software?",
+      "No. For a Vendor Review on AI software, the consultant receives no payment from vendors, so the advice can also be to buy nothing.",
+      "Source: article by Dave Willemstein. Updated: October 2026.",
+      "Types of AI software",
+      "AI software is software in which a model does part of the work: understanding or generating text, recognising images, making predictions, or carrying out tasks. In practice, you’ll run into four forms, from light to heavy:",
+      "AI features inside software you already have. Your office suite, CRM or service desk gains an assistant or a smart feature. Little integration work, but also little influence over how it works.",
+      "Standalone AI tools. Chat assistants, writing and analysis tools, transcription. Quick to adopt, usually licensed per user. A separate article on this site covers common categories of AI tools for business.",
+      "Specialised AI platforms. Software for a single domain, such as document processing, demand forecasting or customer service, that you configure and connect to your own systems.",
+      "Custom AI software development. An application built for your specific process, usually around a bought-in language model, with your own rules, integrations and evaluation. Examples of what that can deliver are covered on the page about custom AI solutions.",
+      "The further down this list you go, the more influence you get over the outcome, and the more you have to manage yourself.",
+      "Standard or custom AI software development?",
+      "The core question isn’t whether you can have something built, but whether you’ll still want to maintain it in a few years. Only build what sets you apart in the market. If your competitor can buy the same result from a vendor tomorrow, it’s a commodity, and you buy it too.",
+      "Buy the building blocksLanguage models, infrastructure, standard components: vendors have the scale advantage here",
+      "Configure the platformSet thresholds, rules and workflows within standard software",
+      "Have the knowledge layer builtYour rules, prompts, test sets and integrations: small in size, large in value",
+      "Keep the evaluation yourselfThe criteria you judge the outcome by always stay yours",
+      "The hybrid form: standard where you can, custom AI software development only for the layer that holds your own knowledge.",
+      "In many cases, the answer is a combination. You buy the model and the platform, have the layer with your own knowledge built, and place the implementation with a partner. Choosing between standard and custom also calls for an honest cost comparison between the two.",
+      "Integrating AI software",
+      "The software itself is often the smallest part of the work. Integrating AI software with your existing systems takes the most time and produces the most surprises. Five points to settle upfront:",
+      "Data sources and quality. Which systems need to be opened up, how current and complete is the data, and who manages those sources? If your data foundation is shaky, the AI software is the first thing to show it.",
+      "Permissions and access. The AI shouldn’t see more than the user calling it can see. Check how your source systems’ permissions model is passed through.",
+      "Privacy and data protection. Where is the data processed and stored, is it used for training, and is there a data processing agreement? With personal data, that’s not a detail.",
+      "Logging and oversight. Record which input led to which outcome, and who confirmed it. Without an audit trail, you can’t trace errors back.",
+      "Support after go-live. Who measures quality, who keeps test sets current, and what happens if the vendor replaces the underlying model?",
+      "The building and integrating is done by your own IT team or an implementation partner you contract directly. I don’t build alongside them, but I help draw up the requirements and test whether the delivery meets them. How that fits into the whole development journey is covered on the AI development page.",
+      "Example scenario",
+      "A builders' merchant with 85 staff buys an AI tool that reads orders from email and PDF and enters them into the ERP system. The licence is sorted within a week; the vendor estimates the integration at three weeks.",
+      "The consultant works with the IT manager and the head of internal sales to set the requirements upfront: which fields the tool may fill in, that a staff member confirms every order, and that every change is logged. During testing, it turns out that 30% of the item codes in the orders differ from the ERP, because customers use their own codes. A translation table is needed, along with someone to keep it up to date.",
+      "The integration takes nine weeks instead of three. After that, processing time drops from six to three minutes per order, across roughly 150 orders a day: more than seven hours a day. The merchant deliberately doesn't yet let orders through without a check.",
+      "Fictional example, built from situations that come up often. The organisation and figures are illustrative.",
+      "Selection criteria",
+      "Set your criteria and their weighting before you see vendors. Criteria written after the first demo describe that demo. A workable set:",
+      "Criterion",
+      "Key question",
+      "Functional fit",
+      "Does it cover your scenarios, including the awkward ones?",
+      "Performance on your own data",
+      "How well does it perform on your material, not the demo material?",
+      "Integration",
+      "How much work is connecting it to your systems, and who does that?",
+      "Data and privacy",
+      "Where does the data sit, what happens to it, and is it used for training?",
+      "Manageability",
+      "Can you adjust thresholds, rules and exceptions yourself?",
+      "Cost",
+      "Licence, usage at scale, integration, support and exit over three years",
+      "Vendor",
+      "Continuity, roadmap and support in your language and time zone",
+      "Give every vendor the same scenario on your own data, have assessors score it individually first, and calculate the total cost. A full eight-step approach to this process is covered elsewhere on this site, in an insights piece on AI vendor selection.",
+      "Don’t want to run that process yourself? I can guide it with a Vendor Review: criteria upfront, scorecards, validation on real data and a TCO comparison including exit costs. The case on vendor selection for an enterprise retailer shows how that plays out in practice. I don’t receive any payment from vendors, so the advice can also be that you buy nothing.",
+      "Looking instead for someone who assesses or builds the technical side? A separate article on this site sets out the different AI-development profiles. And if you’re unsure which route fits, book a strategy call.",
+      "Dave Willemstein Independent AI Advisor",
+      "Independent: no commissions, no partner deals, no margin on implementation partners.",
+      "About My partner network",
+      "Want to know where you stand with AI? See the AI Readiness Assessment →",
+      "Frequently asked questions",
+      "What's the difference between AI software and ordinary software?+",
+      "Ordinary software does what you programme it to do. AI software makes a prediction or generates an answer based on a model, and can get it wrong while doing so. That's why, with AI software, you need to ask not only what it can do, but also how well it performs on your data and what happens when it's off.",
+      "Is my data used to train the AI software?+",
+      "That differs by vendor and often by subscription tier. Ask explicitly, have it put in the contract, and check whether you can turn it off. Never assume the default setting matches your own policy.",
+      "Can custom AI software development be cheaper than a licence?+",
+      "Sometimes in year one, rarely over several years. Custom development brings ongoing costs for support, monitoring and keeping the underlying models up to date. Always calculate over several years, and include the exit costs too.",
+      "Who's liable if AI software gets something wrong?+",
+      "That depends on your contract and on how you deploy the software. Record what the vendor guarantees, how errors get reported, and who fixes what. Set up your process so a person checks the outcome wherever the consequences are significant.",
+      "Ready for impact?",
+      "From AI ambition to real results.",
+      "Book a no-obligation call. No pitch. Just sharp questions.",
+      "30 min., no pitch deckBook a call →"
+    ]
+  },
+  "links": [
+    {
+      "regio": "overig",
+      "soort": "intern",
+      "href": "#main",
+      "anker": "Skip to main content",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/",
+      "anker": "",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/services",
+      "anker": "Services",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/cases",
+      "anker": "Cases",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/approach",
+      "anker": "Approach",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/insights",
+      "anker": "Insights",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/about",
+      "anker": "About",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/nl/ai-development/ai-software",
+      "anker": "NL",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/contact",
+      "anker": "Book a call →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/",
+      "anker": "Home",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/ai-development",
+      "anker": "AI Development",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/ai-development",
+      "anker": "Read more on AI Development →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/services/ai-readiness-assessment",
+      "anker": "See the AI Readiness Assessment →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/about",
+      "anker": "Dave Willemstein",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/services/vendor-review",
+      "anker": "Vendor Review",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/ai-development/ai-solutions",
+      "anker": "custom AI solutions",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/ai-development",
+      "anker": "AI development",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/services/vendor-review",
+      "anker": "Vendor Review",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/cases/vendor-selection-enterprise-retail",
+      "anker": "vendor selection for an enterprise retailer",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/contact",
+      "anker": "book a strategy call",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/about",
+      "anker": "About",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/partner-network",
+      "anker": "My partner network",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/services/ai-readiness-assessment",
+      "anker": "Want to know where you stand with AI? See the AI Readiness Assessment →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/contact",
+      "anker": "Book a call →",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/services/ai-readiness-assessment",
+      "anker": "AI Readiness Assessment",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/services/ai-strategy-sprint",
+      "anker": "AI Strategy Sprint",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/services/fractional-ai-lead",
+      "anker": "Fractional AI Lead",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/services",
+      "anker": "All services",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/cases",
+      "anker": "Cases",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/approach",
+      "anker": "Approach",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/insights",
+      "anker": "Insights",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/faq",
+      "anker": "FAQ",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/about",
+      "anker": "About",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-consulting",
+      "anker": "AI consulting",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-implementation",
+      "anker": "AI implementation",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-automation",
+      "anker": "AI automation",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-for-business",
+      "anker": "AI for business",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-development",
+      "anker": "AI development",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-agents",
+      "anker": "AI agents",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-policy",
+      "anker": "AI policy",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-workshop",
+      "anker": "AI workshop",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/markets",
+      "anker": "AI by industry",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/knowledge-base",
+      "anker": "Knowledge base",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/pricing",
+      "anker": "Pricing",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/partner-network",
+      "anker": "Partner network",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "overig",
+      "href": "mailto:dave@freelanceaiconsultant.com",
+      "anker": "dave@freelanceaiconsultant.com",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "extern",
+      "href": "https://www.linkedin.com/in/davewillemstein",
+      "anker": "LinkedIn ↗",
+      "rel": "noopener"
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/contact",
+      "anker": "Book a call",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/privacy",
+      "anker": "Privacy policy",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/terms",
+      "anker": "Terms & conditions",
+      "rel": null
+    }
+  ],
+  "structured_data": {
+    "sha256": "b25d3632b8ad44a1cc127e20b406f8afdafc454af8121ca793515fccc636b7c1",
+    "items": [
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://freelanceaiconsultant.com/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "AI Development",
+                "item": "https://freelanceaiconsultant.com/ai-development"
+              },
+              {
+                "@type": "ListItem",
+                "position": 3,
+                "name": "AI Software",
+                "item": "https://freelanceaiconsultant.com/ai-development/ai-software"
+              }
+            ]
+          },
+          {
+            "@type": "Article",
+            "headline": "AI software development: choose, integrate or build",
+            "description": "AI software development, explained: when standard software is enough, when custom development pays off, and how to integrate AI software safely.",
+            "inLanguage": "en-US",
+            "datePublished": "2026-10-27",
+            "dateModified": "2026-10-27",
+            "author": {
+              "@type": "Person",
+              "name": "Dave Willemstein",
+              "jobTitle": "Onafhankelijk AI-adviseur",
+              "url": "https://freelanceaiconsultant.com/over",
+              "sameAs": [
+                "https://www.linkedin.com/in/davewillemstein"
+              ]
+            },
+            "publisher": {
+              "@type": "Person",
+              "name": "Dave Willemstein"
+            },
+            "mainEntityOfPage": "https://freelanceaiconsultant.com/ai-development/ai-software"
+          },
+          {
+            "@type": "FAQPage",
+            "mainEntity": [
+              {
+                "@type": "Question",
+                "name": "What's the difference between AI software and ordinary software?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Ordinary software does what you programme it to do. AI software makes a prediction or generates an answer based on a model, and can get it wrong while doing so. That's why, with AI software, you need to ask not only what it can do, but also how well it performs on your data and what happens when it's off."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Is my data used to train the AI software?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "That differs by vendor and often by subscription tier. Ask explicitly, have it put in the contract, and check whether you can turn it off. Never assume the default setting matches your own policy."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Can custom AI software development be cheaper than a licence?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Sometimes in year one, rarely over several years. Custom development brings ongoing costs for support, monitoring and keeping the underlying models up to date. Always calculate over several years, and include the exit costs too."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Who's liable if AI software gets something wrong?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "That depends on your contract and on how you deploy the software. Record what the vendor guarantees, how errors get reported, and who fixes what. Set up your process so a person checks the outcome wherever the consequences are significant."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "When is standard AI software enough, and when does custom development pay off?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Standard AI software is enough for anything a competitor could also buy from a vendor; custom development only pays off for the layer that holds your own knowledge, such as rules, prompts, test sets and integrations. In many cases, the outcome is a combination: buying the model and platform, having the knowledge layer built to your specification, and placing the implementation with a partner. Anyone who doesn't want to run the selection themselves can have it guided with the Vendor Review, which takes 3-6 weeks."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "What determines the real cost of AI software?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Integration, data and exit determine the real cost of AI software, not the licence. The Cost criterion in the workable set of selection criteria covers the licence, usage at scale, integration, support and exit over three years."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "When should the selection criteria for AI software be set?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Before vendors come into view: the advice is to set the selection criteria for AI software and their weighting at that point, because criteria written after the first demo describe that demo. After that, the advice is to give every vendor the same scenario on their own data."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Does the consultant receive a payment from vendors for a Vendor Review on AI software?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "No. For a Vendor Review on AI software, the consultant receives no payment from vendors, so the advice can also be to buy nothing."
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "afbeeldingen": [
+    {
+      "regio": "header",
+      "src": "/images/freelance-ai-consultant-logo-header.png",
+      "alt": "freelanceaiconsultant.com logo",
+      "width": "600",
+      "height": "287",
+      "loading": null
+    },
+    {
+      "regio": "main",
+      "src": "/images/dave-portrait.jpg",
+      "alt": "Portrait of Dave Willemstein",
+      "width": "88",
+      "height": "88",
+      "loading": "lazy"
+    },
+    {
+      "regio": "footer",
+      "src": "/images/freelance-ai-consultant-icon-footer.png",
+      "alt": "",
+      "width": "192",
+      "height": "192",
+      "loading": "lazy"
+    }
+  ],
+  "laadprestaties": {
+    "scripts": [
+      {
+        "src": "/_astro/CookieConsent.astro_astro_type_script_index_0_lang.COcxE8NY.js",
+        "type": "module",
+        "inline_bytes": 0
+      },
+      {
+        "src": null,
+        "type": null,
+        "inline_bytes": 989
+      },
+      {
+        "src": null,
+        "type": null,
+        "inline_bytes": 493
+      },
+      {
+        "src": "/logo-carousel/logo-carousel.js?v=2",
+        "type": null,
+        "inline_bytes": 0
+      },
+      {
+        "src": null,
+        "type": null,
+        "inline_bytes": 725
+      }
+    ],
+    "stylesheets": [
+      "/_astro/_slug_.CzLXI3HH.css",
+      "/_astro/_slug_.Do5RJXa7.css",
+      "/logo-carousel/logo-carousel.css?v=2"
+    ],
+    "aantal_details": 4,
+    "aantal_tabellen": 1
+  },
+  "gemeten_op": "2026-11-05"
+}

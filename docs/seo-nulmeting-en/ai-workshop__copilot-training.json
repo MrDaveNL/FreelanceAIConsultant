@@ -1,0 +1,845 @@
+{
+  "url": "/ai-workshop/copilot-training",
+  "build_bestand": "dist/ai-workshop/copilot-training/index.html",
+  "html": {
+    "bytes": 41564,
+    "lang": "en"
+  },
+  "beschermd": {
+    "title": "Copilot Training | Microsoft Copilot for Teams",
+    "meta_description": "Get more from Microsoft Copilot with hands-on training for your team. Learn prompts, uses in Outlook, Teams and Excel, and how to work safely with data.",
+    "canonical": "https://freelanceaiconsultant.com/ai-workshop/copilot-training",
+    "robots_meta": null,
+    "hreflang": [
+      {
+        "hreflang": "en",
+        "href": "https://freelanceaiconsultant.com/ai-workshop/copilot-training"
+      },
+      {
+        "hreflang": "nl",
+        "href": "https://freelanceaiconsultant.com/nl/ai-workshop/copilot-training"
+      },
+      {
+        "hreflang": "x-default",
+        "href": "https://freelanceaiconsultant.com/ai-workshop/copilot-training"
+      }
+    ],
+    "h1": [
+      "Microsoft Copilot training for teams"
+    ]
+  },
+  "social": {
+    "og:type": "website",
+    "og:locale": "en_US",
+    "og:site_name": "freelanceaiconsultant.com",
+    "og:title": "Copilot Training | Microsoft Copilot for Teams",
+    "og:description": "Get more from Microsoft Copilot with hands-on training for your team. Learn prompts, uses in Outlook, Teams and Excel, and how to work safely with data.",
+    "og:url": "https://freelanceaiconsultant.com/ai-workshop/copilot-training",
+    "og:image": "https://freelanceaiconsultant.com/images/dave-portrait.jpg",
+    "twitter:card": "summary_large_image",
+    "twitter:title": "Copilot Training | Microsoft Copilot for Teams",
+    "twitter:description": "Get more from Microsoft Copilot with hands-on training for your team. Learn prompts, uses in Outlook, Teams and Excel, and how to work safely with data.",
+    "twitter:image": "https://freelanceaiconsultant.com/images/dave-portrait.jpg"
+  },
+  "koppen": [
+    {
+      "niveau": 1,
+      "tekst": "Microsoft Copilot training for teams",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "What does the Copilot training cover?",
+      "regio": "main",
+      "id": "what-does-the-copilot-training-cover"
+    },
+    {
+      "niveau": 3,
+      "tekst": "What does the Copilot training programme look like?",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 3,
+      "tekst": "Does working safely with company data feature in the Copilot training?",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 3,
+      "tekst": "Can the Copilot training be combined with an AI literacy training?",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "Uses across Microsoft 365",
+      "regio": "main",
+      "id": "uses-across-microsoft-365"
+    },
+    {
+      "niveau": 2,
+      "tekst": "Working safely with company data",
+      "regio": "main",
+      "id": "working-safely-with-company-data"
+    },
+    {
+      "niveau": 2,
+      "tekst": "Programme and investment",
+      "regio": "main",
+      "id": "programme-and-investment"
+    },
+    {
+      "niveau": 2,
+      "tekst": "Frequently asked questions",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "Sources",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "From AI ambition to real results.",
+      "regio": "main",
+      "id": null
+    }
+  ],
+  "bodytekst": {
+    "regio": "main",
+    "woorden": 1777,
+    "sha256": "0a70866ea65da64f4defbf3f76175dc3b927454f7543434f2c85af005749a473",
+    "blokken": [
+      "Home",
+      "AI Workshop",
+      "Copilot Training",
+      "Copilot training",
+      "Microsoft Copilot training for teams",
+      "Microsoft Copilot licences get handed out fast; daily use doesn't follow on its own. A Copilot training shows your team what it genuinely delivers in Outlook, Teams, Word and Excel, where it falls short, and how to work safely with company data. Practical, using your own tasks as the material.",
+      "Ask about a training → See the AI Readiness Assessment →",
+      "IN SHORT",
+      "Practise with your own tasks in Outlook, Teams, Word, Excel and PowerPoint.",
+      "Attention to permissions, sensitive data and checking outcomes.",
+      "Bespoke programme, for a fixed price.",
+      "AI in Europe",
+      "European brands already running AI in production.",
+      "Not my clients. Examples of what happens once AI moves past the pilot stage.",
+      "Pause",
+      "Klarna",
+      "Sweden",
+      "AI customer service assistant",
+      "Zalando",
+      "Germany",
+      "Fashion assistant for product advice",
+      "Financial services",
+      "Investment firm",
+      "AI strategy and use-case portfolio",
+      "Booking.com",
+      "Netherlands",
+      "AI Trip Planner for travel planning",
+      "Siemens",
+      "Germany",
+      "Industrial Copilot for engineering",
+      "Retail",
+      "Enterprise retailer",
+      "AI-driven vendor selection",
+      "Spotify",
+      "Sweden",
+      "AI DJ and personalized playlists",
+      "Mercedes-Benz",
+      "Germany",
+      "Generative voice assistant in the car",
+      "Industrial / B2B",
+      "International manufacturer",
+      "AI roadmap and leadership",
+      "ING",
+      "Netherlands",
+      "Generative chatbot for customer queries",
+      "L'Oréal",
+      "France",
+      "Beauty Genius: personalized advice",
+      "Financial services",
+      "Financial services firm",
+      "KYC accelerated with AI document analysis",
+      "SAP",
+      "Germany",
+      "Joule: copilot in business software",
+      "Carrefour",
+      "France",
+      "Hopla: grocery shopping assistant",
+      "Strategy & AI",
+      "SaaS scale-up",
+      "AI readiness assessment",
+      "Adyen",
+      "Netherlands",
+      "AI-driven payment optimization",
+      "Philips",
+      "Netherlands",
+      "AI in medical imaging",
+      "Proces & productivity",
+      "Professional services firm",
+      "Internal AI assistant for knowledge workers",
+      "What does the Copilot training cover?",
+      "In Dave Willemstein's Copilot training, a team practises with three to five recognisable tasks per role from their own work, in Outlook, Teams, Word, Excel and PowerPoint. Participants learn to give good instructions, choose between Copilot in an app and Copilot Chat, check outcomes, and recognise which tasks and data don't belong with Copilot. The training is bespoke, delivered in-company, and priced as a fixed fee agreed in the intake and confirmed in writing beforehand.",
+      "A Copilot training with me isn’t a guided tour of every button. People find those themselves. It’s about which of your team’s tasks get faster or better with Copilot, and how you check the result before you use it. That’s why I work with three to five recognisable tasks per role, drawn from your own work.",
+      "Participants learn to:",
+      "Give good instructions: supply goal, context, source and the format you want, and probe further rather than starting again.",
+      "Choose the right place: when to use Copilot inside an app, and when to use Copilot Chat.",
+      "Check the output: follow up sources, re-check figures, and recognise when a summary leaves something out.",
+      "Know the limits: which tasks are better kept away from Copilot, and which data shouldn’t go anywhere near it.",
+      "Microsoft has since renamed the product: Microsoft 365 Copilot is now Microsoft Copilot, and Microsoft 365 Copilot Chat is now Microsoft Copilot Chat (as of September 2026). You’ll still see the old names in licences and on-screen in places. For an overview of what Copilot is and which variants exist, see “Microsoft Copilot for business” in the knowledge base.",
+      "What does the Copilot training programme look like?",
+      "The Copilot training is bespoke, and a programme might look like intake, preparation, session and applying it. In that example, the intake covers the goal, audience, licences and internal agreements, and the preparation turns three to five tasks per role into exercises. The duration and content of the Copilot training depend on the group and the goal.",
+      "Does working safely with company data feature in the Copilot training?",
+      "Yes. The Copilot training translates what Microsoft states about data, privacy and security into behaviour: what is and isn't shared, how to recognise an answer that leans on the wrong source, and what to do if Copilot surfaces something the user wasn't meant to see.",
+      "Can the Copilot training be combined with an AI literacy training?",
+      "Yes. The Copilot training and an AI literacy training combine well. The groundwork for working safely with Copilot, understanding how AI works and where the risks sit, is also what an AI literacy training covers.",
+      "Source: Dave Willemstein, independent AI consultant. Updated: October 2026.",
+      "Uses across Microsoft 365",
+      "What Copilot can do depends on your licence. According to Microsoft’s licensing explainer and its explanation of Copilot Chat with and without a licence (as of September 2026), the difference mainly comes down to this:",
+      "Copilot Chat (included)",
+      "Microsoft Copilot (paid licence)",
+      "Availability",
+      "At no extra cost with a suitable Microsoft 365 plan",
+      "Add-on on top of a suitable plan",
+      "Working with web information",
+      "Yes",
+      "Yes",
+      "Working with your own mail, files, chats and meetings",
+      "Limited: files you add yourself; in Outlook also your mail, calendar and meetings",
+      "Yes, within your own access rights",
+      "Copilot in Word, Excel and PowerPoint",
+      "Depends on your plan: standard access or not available",
+      "Full functionality, with priority",
+      "Advanced agents such as Researcher and Analyst",
+      "No; simple agents based on instructions and public websites are available",
+      "Yes",
+      "In its overview of Microsoft Copilot, Microsoft lists these capabilities per app, among others (as of September 2026). In a training, we translate them into your own tasks:",
+      "Outlook: summarise a long email thread, draft a reply, and get tips on clarity and tone.",
+      "Teams: have a meeting summarised and the action points listed.",
+      "Word: produce a first draft based on existing documents, or boil a long piece down to its essentials.",
+      "Excel: analyse data, have formulas and charts suggested, and then check them yourself.",
+      "PowerPoint: build a presentation from an existing document.",
+      "Which uses are relevant for your team is something we establish during the intake. A finance team needs different examples than a project organisation.",
+      "Working safely with company data",
+      "Copilot works with the data a user already has access to. Microsoft states in its explanation of data, privacy and security that Copilot only surfaces organisational data for which a user has at least read access. That’s reassuring, and a risk at the same time: if documents in Teams or SharePoint are shared too widely, Copilot can bring that content to the surface too.",
+      "Microsoft also states (as of September 2026):",
+      "prompts, responses and data accessed via Microsoft Graph aren’t used to train the underlying language models;",
+      "for users in the EU, traffic stays within the EU Data Boundary, with the exception of Anthropic’s models, which an administrator can switch on or off;",
+      "sensitivity labels and encryption from Microsoft Purview are respected;",
+      "generated answers aren’t guaranteed to be accurate and need to be checked by the user.",
+      "In the training, I translate that into behaviour: what you do and don’t share, how to recognise an answer that leans on the wrong source, and what to do if Copilot surfaces something you weren’t meant to see. The groundwork for that, understanding how AI works and where the risks sit, is also what an AI literacy training covers. The two combine well.",
+      "Programme and investment",
+      "A Copilot training is bespoke. A programme might look like this, for example:",
+      "IntakeDiscuss the goal, audience, licences and internal agreements.",
+      "PreparationGather three to five tasks per role and turn them into exercises.",
+      "SessionExplanation, practice in your own environment, and agreements on safe use.",
+      "Applying itParticipants apply it in their work; afterwards, we evaluate what worked.",
+      "An example of the set-up; duration and content depend on the group and the goal.",
+      "I deliver the training in-company, at your office, so participants practise with their own account and files. The training is priced as a fixed fee; we agree the amount in the intake and you get it confirmed in writing beforehand. The pricing page explains how I build up prices.",
+      "Does part of your organisation work with ChatGPT instead of, or alongside, Copilot? Then ChatGPT training for business is a better fit. Other formats, from a management workshop to coaching, cover the rest of what I offer under AI workshops and training.",
+      "Example scenario",
+      "The finance team at a construction company with 300 staff gets twelve Microsoft Copilot licences. Ahead of the training, the consultant asks IT to check which SharePoint sites are shared too widely. Two folders with salary data turn out to be readable by the whole organisation and are locked down first.",
+      "Training day centres on four tasks: explaining the monthly report, analysing variances in Excel, summarising discussions with project leads in Teams, and handling invoice correspondence in Outlook. The team agrees that every figure from Copilot gets checked against the source.",
+      "After two months, explaining the monthly report takes 5 hours on average instead of 8. Deliberately not done: using Copilot for the year-end close, because every error there is too costly.",
+      "Fictional example, built from situations that come up often. The organisation and figures are illustrative.",
+      "Want to know what a Copilot training could do for your team? Get in touch for an initial thirty-minute conversation.",
+      "Dave Willemstein Independent AI Advisor",
+      "Independent: no commissions, no partner deals, no margin on implementation partners.",
+      "About My partner network",
+      "Want to know where you stand with AI? See the AI Readiness Assessment →",
+      "Frequently asked questions",
+      "Does every participant need a paid Copilot licence?+",
+      "For the parts that work with your own mail, documents and meetings, yes. Copilot Chat with web results is included at no extra cost with a suitable Microsoft 365 plan. If part of the group has no licence, I design the programme around that, so nobody just watches.",
+      "Can we run the training before buying licences?+",
+      "Yes, and that can even be sensible. A session with a small group shows which tasks and roles get value from Copilot. That helps decide how many licences you need, and for whom.",
+      "What does IT need to arrange beforehand?+",
+      "That licences are assigned, participants can log in, and the apps are up to date. It's also worth checking beforehand that documents in Teams and SharePoint aren't shared too widely, since Copilot can surface anything a user already has access to.",
+      "Do you also train administrators or IT staff?+",
+      "My trainings are aimed at users and their managers. For technical setup and management of the Microsoft environment, I suggest a specialised partner where needed, contracted directly by you.",
+      "Sources",
+      "Microsoft Learn: License options for Microsoft Copilot (updated 17 September 2026)",
+      "Microsoft Learn: Data, privacy, and security for Microsoft Copilot",
+      "Microsoft Learn: What is Microsoft Copilot? (updated 17 September 2026)",
+      "Microsoft Support: How Copilot Chat works with and without a Microsoft Copilot license",
+      "Microsoft Learn: Overview of Microsoft Copilot Chat",
+      "Ready for impact?",
+      "From AI ambition to real results.",
+      "Book a no-obligation call. No pitch. Just sharp questions.",
+      "30 min., no pitch deckBook a call →"
+    ]
+  },
+  "links": [
+    {
+      "regio": "overig",
+      "soort": "intern",
+      "href": "#main",
+      "anker": "Skip to main content",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/",
+      "anker": "",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/services",
+      "anker": "Services",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/cases",
+      "anker": "Cases",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/approach",
+      "anker": "Approach",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/insights",
+      "anker": "Insights",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/about",
+      "anker": "About",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/nl/ai-workshop/copilot-training",
+      "anker": "NL",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/contact",
+      "anker": "Book a call →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/",
+      "anker": "Home",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/ai-workshop",
+      "anker": "AI Workshop",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/contact",
+      "anker": "Ask about a training →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/services/ai-readiness-assessment",
+      "anker": "See the AI Readiness Assessment →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "extern",
+      "href": "https://learn.microsoft.com/en-us/microsoft-365/copilot/microsoft-365-copilot-licensing",
+      "anker": "Microsoft’s licensing explainer",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "extern",
+      "href": "https://learn.microsoft.com/en-us/microsoft-365/copilot/microsoft-365-copilot-overview",
+      "anker": "overview of Microsoft Copilot",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "extern",
+      "href": "https://learn.microsoft.com/en-us/microsoft-365/copilot/microsoft-365-copilot-privacy",
+      "anker": "explanation of data, privacy and security",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/ai-workshop/ai-literacy-training",
+      "anker": "AI literacy training",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/pricing",
+      "anker": "pricing",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/ai-workshop/chatgpt-training",
+      "anker": "ChatGPT training for business",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/contact",
+      "anker": "Get in touch",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/about",
+      "anker": "About",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/partner-network",
+      "anker": "My partner network",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/services/ai-readiness-assessment",
+      "anker": "Want to know where you stand with AI? See the AI Readiness Assessment →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "extern",
+      "href": "https://learn.microsoft.com/en-us/microsoft-365/copilot/microsoft-365-copilot-licensing",
+      "anker": "Microsoft Learn: License options for Microsoft Copilot (updated 17 September 2026)",
+      "rel": "noopener"
+    },
+    {
+      "regio": "main",
+      "soort": "extern",
+      "href": "https://learn.microsoft.com/en-us/microsoft-365/copilot/microsoft-365-copilot-privacy",
+      "anker": "Microsoft Learn: Data, privacy, and security for Microsoft Copilot",
+      "rel": "noopener"
+    },
+    {
+      "regio": "main",
+      "soort": "extern",
+      "href": "https://learn.microsoft.com/en-us/microsoft-365/copilot/microsoft-365-copilot-overview",
+      "anker": "Microsoft Learn: What is Microsoft Copilot? (updated 17 September 2026)",
+      "rel": "noopener"
+    },
+    {
+      "regio": "main",
+      "soort": "extern",
+      "href": "https://support.microsoft.com/en-us/topic/how-copilot-chat-works-with-and-without-a-microsoft-365-copilot-license-5810b659-fbe0-48ee-9fe6-d731fe86cdeb",
+      "anker": "Microsoft Support: How Copilot Chat works with and without a Microsoft Copilot license",
+      "rel": "noopener"
+    },
+    {
+      "regio": "main",
+      "soort": "extern",
+      "href": "https://learn.microsoft.com/en-us/copilot/overview",
+      "anker": "Microsoft Learn: Overview of Microsoft Copilot Chat",
+      "rel": "noopener"
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/contact",
+      "anker": "Book a call →",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/services/ai-readiness-assessment",
+      "anker": "AI Readiness Assessment",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/services/ai-strategy-sprint",
+      "anker": "AI Strategy Sprint",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/services/fractional-ai-lead",
+      "anker": "Fractional AI Lead",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/services",
+      "anker": "All services",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/cases",
+      "anker": "Cases",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/approach",
+      "anker": "Approach",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/insights",
+      "anker": "Insights",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/faq",
+      "anker": "FAQ",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/about",
+      "anker": "About",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-consulting",
+      "anker": "AI consulting",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-implementation",
+      "anker": "AI implementation",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-automation",
+      "anker": "AI automation",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-for-business",
+      "anker": "AI for business",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-development",
+      "anker": "AI development",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-agents",
+      "anker": "AI agents",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-policy",
+      "anker": "AI policy",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-workshop",
+      "anker": "AI workshop",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/markets",
+      "anker": "AI by industry",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/knowledge-base",
+      "anker": "Knowledge base",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/pricing",
+      "anker": "Pricing",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/partner-network",
+      "anker": "Partner network",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "overig",
+      "href": "mailto:dave@freelanceaiconsultant.com",
+      "anker": "dave@freelanceaiconsultant.com",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "extern",
+      "href": "https://www.linkedin.com/in/davewillemstein",
+      "anker": "LinkedIn ↗",
+      "rel": "noopener"
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/contact",
+      "anker": "Book a call",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/privacy",
+      "anker": "Privacy policy",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/terms",
+      "anker": "Terms & conditions",
+      "rel": null
+    }
+  ],
+  "structured_data": {
+    "sha256": "a2f179fdb856fbae15cedd3408e5c3eea39b82478a8027ea9080261855e8a9fa",
+    "items": [
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://freelanceaiconsultant.com/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "AI Workshop",
+                "item": "https://freelanceaiconsultant.com/ai-workshop"
+              },
+              {
+                "@type": "ListItem",
+                "position": 3,
+                "name": "Copilot Training",
+                "item": "https://freelanceaiconsultant.com/ai-workshop/copilot-training"
+              }
+            ]
+          },
+          {
+            "@type": "Service",
+            "name": "Copilot Training",
+            "serviceType": "copilot training",
+            "description": "Get more from Microsoft Copilot with hands-on training for your team. Learn prompts, uses in Outlook, Teams and Excel, and how to work safely with data.",
+            "url": "https://freelanceaiconsultant.com/ai-workshop/copilot-training",
+            "areaServed": "GB",
+            "provider": {
+              "@type": "Person",
+              "name": "Dave Willemstein",
+              "jobTitle": "Onafhankelijk AI-adviseur",
+              "url": "https://freelanceaiconsultant.com/over",
+              "sameAs": [
+                "https://www.linkedin.com/in/davewillemstein"
+              ]
+            }
+          },
+          {
+            "@type": "FAQPage",
+            "mainEntity": [
+              {
+                "@type": "Question",
+                "name": "Does every participant need a paid Copilot licence?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "For the parts that work with your own mail, documents and meetings, yes. Copilot Chat with web results is included at no extra cost with a suitable Microsoft 365 plan. If part of the group has no licence, I design the programme around that, so nobody just watches."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Can we run the training before buying licences?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Yes, and that can even be sensible. A session with a small group shows which tasks and roles get value from Copilot. That helps decide how many licences you need, and for whom."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "What does IT need to arrange beforehand?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "That licences are assigned, participants can log in, and the apps are up to date. It's also worth checking beforehand that documents in Teams and SharePoint aren't shared too widely, since Copilot can surface anything a user already has access to."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Do you also train administrators or IT staff?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "My trainings are aimed at users and their managers. For technical setup and management of the Microsoft environment, I suggest a specialised partner where needed, contracted directly by you."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "What does the Copilot training cover?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "In Dave Willemstein's Copilot training, a team practises with three to five recognisable tasks per role from their own work, in Outlook, Teams, Word, Excel and PowerPoint. Participants learn to give good instructions, choose between Copilot in an app and Copilot Chat, check outcomes, and recognise which tasks and data don't belong with Copilot. The training is bespoke, delivered in-company, and priced as a fixed fee agreed in the intake and confirmed in writing beforehand."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "What does the Copilot training programme look like?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "The Copilot training is bespoke, and a programme might look like intake, preparation, session and applying it. In that example, the intake covers the goal, audience, licences and internal agreements, and the preparation turns three to five tasks per role into exercises. The duration and content of the Copilot training depend on the group and the goal."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Does working safely with company data feature in the Copilot training?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Yes. The Copilot training translates what Microsoft states about data, privacy and security into behaviour: what is and isn't shared, how to recognise an answer that leans on the wrong source, and what to do if Copilot surfaces something the user wasn't meant to see."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Can the Copilot training be combined with an AI literacy training?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Yes. The Copilot training and an AI literacy training combine well. The groundwork for working safely with Copilot, understanding how AI works and where the risks sit, is also what an AI literacy training covers."
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "afbeeldingen": [
+    {
+      "regio": "header",
+      "src": "/images/freelance-ai-consultant-logo-header.png",
+      "alt": "freelanceaiconsultant.com logo",
+      "width": "600",
+      "height": "287",
+      "loading": null
+    },
+    {
+      "regio": "main",
+      "src": "/images/dave-portrait.jpg",
+      "alt": "Portrait of Dave Willemstein",
+      "width": "88",
+      "height": "88",
+      "loading": "lazy"
+    },
+    {
+      "regio": "footer",
+      "src": "/images/freelance-ai-consultant-icon-footer.png",
+      "alt": "",
+      "width": "192",
+      "height": "192",
+      "loading": "lazy"
+    }
+  ],
+  "laadprestaties": {
+    "scripts": [
+      {
+        "src": "/_astro/CookieConsent.astro_astro_type_script_index_0_lang.COcxE8NY.js",
+        "type": "module",
+        "inline_bytes": 0
+      },
+      {
+        "src": null,
+        "type": null,
+        "inline_bytes": 989
+      },
+      {
+        "src": null,
+        "type": null,
+        "inline_bytes": 493
+      },
+      {
+        "src": "/logo-carousel/logo-carousel.js?v=2",
+        "type": null,
+        "inline_bytes": 0
+      },
+      {
+        "src": null,
+        "type": null,
+        "inline_bytes": 725
+      }
+    ],
+    "stylesheets": [
+      "/_astro/_slug_.CzLXI3HH.css",
+      "/_astro/_slug_.Do5RJXa7.css",
+      "/logo-carousel/logo-carousel.css?v=2"
+    ],
+    "aantal_details": 4,
+    "aantal_tabellen": 1
+  },
+  "gemeten_op": "2026-11-05"
+}

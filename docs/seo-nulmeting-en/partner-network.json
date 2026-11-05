@@ -1,0 +1,813 @@
+{
+  "url": "/partner-network",
+  "build_bestand": "dist/partner-network/index.html",
+  "html": {
+    "bytes": 39386,
+    "lang": "en"
+  },
+  "beschermd": {
+    "title": "AI Consulting Partner Network | Freelance AI Consultant",
+    "meta_description": "Need AI agency capacity without the overhead? Work directly with an independent AI consultant, backed by a vetted network for development, data and training.",
+    "canonical": "https://freelanceaiconsultant.com/partner-network",
+    "robots_meta": null,
+    "hreflang": [
+      {
+        "hreflang": "en",
+        "href": "https://freelanceaiconsultant.com/partner-network"
+      },
+      {
+        "hreflang": "nl",
+        "href": "https://freelanceaiconsultant.com/nl/partnernetwerk"
+      },
+      {
+        "hreflang": "x-default",
+        "href": "https://freelanceaiconsultant.com/partner-network"
+      }
+    ],
+    "h1": [
+      "No agency, but agency-level capacity: my partner network"
+    ]
+  },
+  "social": {
+    "og:type": "website",
+    "og:locale": "en_US",
+    "og:site_name": "freelanceaiconsultant.com",
+    "og:title": "AI Consulting Partner Network | Freelance AI Consultant",
+    "og:description": "Need AI agency capacity without the overhead? Work directly with an independent AI consultant, backed by a vetted network for development, data and training.",
+    "og:url": "https://freelanceaiconsultant.com/partner-network",
+    "og:image": "https://freelanceaiconsultant.com/images/dave-portrait.jpg",
+    "twitter:card": "summary_large_image",
+    "twitter:title": "AI Consulting Partner Network | Freelance AI Consultant",
+    "twitter:description": "Need AI agency capacity without the overhead? Work directly with an independent AI consultant, backed by a vetted network for development, data and training.",
+    "twitter:image": "https://freelanceaiconsultant.com/images/dave-portrait.jpg"
+  },
+  "koppen": [
+    {
+      "niveau": 1,
+      "tekst": "No agency, but agency-level capacity: my partner network",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "Why not a traditional AI agency?",
+      "regio": "main",
+      "id": "why-not-a-traditional-ai-agency"
+    },
+    {
+      "niveau": 3,
+      "tekst": "What types of expertise does the partner network of an advisor who is not an AI agency cover?",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 3,
+      "tekst": "Does the advisor hold partner status with Microsoft, OpenAI or other vendors?",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 3,
+      "tekst": "Can the guidance during execution also be ongoing?",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "My vetted partner network",
+      "regio": "main",
+      "id": "my-vetted-partner-network"
+    },
+    {
+      "niveau": 3,
+      "tekst": "Development",
+      "regio": "main",
+      "id": "development"
+    },
+    {
+      "niveau": 3,
+      "tekst": "Data and BI",
+      "regio": "main",
+      "id": "data-and-bi"
+    },
+    {
+      "niveau": 3,
+      "tekst": "Training and change management",
+      "regio": "main",
+      "id": "training-and-change-management"
+    },
+    {
+      "niveau": 3,
+      "tekst": "Platforms and technology",
+      "regio": "main",
+      "id": "platforms-and-technology"
+    },
+    {
+      "niveau": 2,
+      "tekst": "How I select partners",
+      "regio": "main",
+      "id": "how-i-select-partners"
+    },
+    {
+      "niveau": 2,
+      "tekst": "One point of contact, scalable capacity",
+      "regio": "main",
+      "id": "one-point-of-contact-scalable-capacity"
+    },
+    {
+      "niveau": 2,
+      "tekst": "Frequently asked questions",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "From AI ambition to real results.",
+      "regio": "main",
+      "id": null
+    }
+  ],
+  "bodytekst": {
+    "regio": "main",
+    "woorden": 1621,
+    "sha256": "4a047b6a5b2bdb1fbf5e68a11cbff06684683da4efcd613ad39716337e36fded",
+    "blokken": [
+      "Home",
+      "Partner network",
+      "Partner network",
+      "No agency, but agency-level capacity: my partner network",
+      "Looking for an AI agency? I should be upfront: that is not what I am. I am an independent AI advisor who works alone. When you need more hands, I suggest parties I know, and you contract them directly, with no margin for me.",
+      "Book a strategy call → See the AI Readiness Assessment →",
+      "IN SHORT",
+      "I'm not an AI agency and I don't build anything myself; I advise and guide from your side of the table.",
+      "Partners for development, data and BI, and training are contracted directly by you.",
+      "No margin, no commissions, and any existing relationships are disclosed upfront.",
+      "AI in Europe",
+      "European brands already running AI in production.",
+      "Not my clients. Examples of what happens once AI moves past the pilot stage.",
+      "Pause",
+      "Klarna",
+      "Sweden",
+      "AI customer service assistant",
+      "Zalando",
+      "Germany",
+      "Fashion assistant for product advice",
+      "Financial services",
+      "Investment firm",
+      "AI strategy and use-case portfolio",
+      "Booking.com",
+      "Netherlands",
+      "AI Trip Planner for travel planning",
+      "Siemens",
+      "Germany",
+      "Industrial Copilot for engineering",
+      "Retail",
+      "Enterprise retailer",
+      "AI-driven vendor selection",
+      "Spotify",
+      "Sweden",
+      "AI DJ and personalized playlists",
+      "Mercedes-Benz",
+      "Germany",
+      "Generative voice assistant in the car",
+      "Industrial / B2B",
+      "International manufacturer",
+      "AI roadmap and leadership",
+      "ING",
+      "Netherlands",
+      "Generative chatbot for customer queries",
+      "L'Oréal",
+      "France",
+      "Beauty Genius: personalized advice",
+      "Financial services",
+      "Financial services firm",
+      "KYC accelerated with AI document analysis",
+      "SAP",
+      "Germany",
+      "Joule: copilot in business software",
+      "Carrefour",
+      "France",
+      "Hopla: grocery shopping assistant",
+      "Strategy & AI",
+      "SaaS scale-up",
+      "AI readiness assessment",
+      "Adyen",
+      "Netherlands",
+      "AI-driven payment optimization",
+      "Philips",
+      "Netherlands",
+      "AI in medical imaging",
+      "Proces & productivity",
+      "Professional services firm",
+      "Internal AI assistant for knowledge workers",
+      "Why not a traditional AI agency?",
+      "A traditional AI agency ultimately sells capacity, and whoever earns from the build has an interest in a larger scope, while Dave Willemstein works alone as an independent AI advisor who advises and guides execution without building or selling anything himself. When more capacity is needed for development, data and BI, or training, he suggests parties he knows that the client contracts directly, with no margin or commission. For comparing several parties there is the Vendor Review, which takes 3-6 weeks.",
+      "A traditional AI agency ultimately sells capacity: a team that builds, implements and manages. That’s valuable if you already know what you want to build. But whoever earns from the build has an interest in a larger scope. That’s why I’ve deliberately chosen a different role: I advise, help make decisions decidable, and guide execution, but I don’t build or sell anything myself. My income comes from the advisory work you pay for; you can see what that work looks like in my offering as an independent advisor.",
+      "That also means I’m not an AI company with developers, and I don’t claim to be. Whether an agency, a Big Four firm or a freelancer is the better fit depends on your situation, not on which one I happen to be.",
+      "What types of expertise does the partner network of an advisor who is not an AI agency cover?",
+      "Usually it comes down to one of three types of expertise: development, data and BI, and training and change management. Which party fits depends on the question, and first it is determined whether building it yourself, buying, or partnering is the right choice. The advisor is not an AI agency himself and only suggests parties he knows.",
+      "Does the advisor hold partner status with Microsoft, OpenAI or other vendors?",
+      "No. The advisor, who is not an AI agency himself, holds no partner status, reseller agreement or commission arrangement with Microsoft, OpenAI, Anthropic, Google, Amazon Web Services, Mistral AI or Meta. That means he can compare the platforms honestly and say when a cheaper or simpler option is enough.",
+      "Can the guidance during execution also be ongoing?",
+      "Yes, for ongoing engagements the guidance can take the form of a Fractional AI Lead, for 2, 4 or 8 days per month. The client keeps one point of contact for advice and direction, while the partner delivers the capacity.",
+      "Source: Dave Willemstein's rates and typical timelines. Updated: October 2026.",
+      "My vetted partner network",
+      "For work that needs more hands, I suggest parties I know. Which party fits depends on your question. Usually it comes down to one of three types of expertise, and underneath all three sit the platforms of the major AI and tech vendors.",
+      "Development",
+      "Partners who build AI applications, integrate them with your existing systems and bring them into production. Think of connections to language models, document processing or an internal assistant.",
+      "Data and BI",
+      "Specialists in data quality, data models, dashboards, and the link between reporting and AI. This is often the work that needs to happen before an AI application can deliver value.",
+      "Training and change management",
+      "Trainers and change guides who help teams actually use new ways of working. I deliver workshops and training myself. If an adoption program needs more capacity than one advisor can provide, I suggest partners.",
+      "Platforms and technology",
+      "What a partner builds or trains almost always runs on technology from one of the major players. I know these platforms from the inside: their business plans, the terms around data, and where they fall short. These are the platforms I work with most often (as of September 2026):",
+      "Vendor",
+      "Platforms",
+      "What it’s usually about",
+      "Microsoft",
+      "Microsoft Copilot, Azure AI services",
+      "Organizations already working on Microsoft 365.",
+      "OpenAI",
+      "ChatGPT Business and Enterprise, OpenAI API",
+      "Broad use of an AI assistant and custom work through the API.",
+      "Anthropic",
+      "Claude, Claude API",
+      "Long documents, analysis and writing work.",
+      "Google",
+      "Gemini in Google Workspace, Google Cloud",
+      "Organizations working on Google Workspace.",
+      "Amazon Web Services",
+      "Amazon Bedrock",
+      "Access to several language models within an existing AWS environment.",
+      "Mistral AI and Meta",
+      "Mistral models, Llama",
+      "Open models you can host yourself, for example when data needs to stay within the EU or your own environment.",
+      "To be clear: these are not partnerships. I hold no partner status, reseller agreement or commission arrangement with any of these companies. That means I can compare them honestly and tell you when a cheaper or simpler option is enough.",
+      "How I select partners",
+      "Suggesting a partner is advice too, and the same rules apply to it as to the rest of my work. My approach:",
+      "No financial interest. I receive no commission, fee or margin from partners, and I hold no partner status with vendors.",
+      "Relationships disclosed upfront. If I know a party, you’ll hear the nature and duration of that relationship before the introduction.",
+      "Fit the question, not the network. First we determine whether building it yourself, buying, or partnering is the right choice. Only after that comes the question of who does it.",
+      "Only parties I actually know. I don’t suggest parties I have no real picture of.",
+      "You choose. I suggest, you decide and contract. If you want to compare several parties side by side, we can do that with a Vendor Review.",
+      "One point of contact, scalable capacity",
+      "For advice and direction, you have one point of contact: me. The capacity around it scales with the stage of your project, without me reselling that capacity.",
+      "Question and goalWe determine what you want to achieve and what it takes",
+      "Build, buy or partnerA substantiated choice per topic",
+      "ProposalSuitable parties, with any relationships disclosed upfront",
+      "Direct contractYou contract the partner, with no margin for me",
+      "GuidanceI stay on your side of the table during execution",
+      "The partner delivers the capacity; I deliver the independent judgment.",
+      "In practice that means: I help sharpen the brief, review proposals and planning, and check whether what’s being built still matches the goal. For ongoing engagements, that can take the form of a Fractional AI Lead. How I work step by step, from diagnosis to follow-through, is on the approach page.",
+      "Want to know whether you need a partner, and if so what type? Book a thirty-minute conversation. At the end you’ll hear what I’d do, even if the answer is that your internal team can handle it fine on its own.",
+      "Dave Willemstein Independent AI Advisor",
+      "Independent: no commissions, no partner deals, no margin on implementation partners.",
+      "About",
+      "Want to know where you stand with AI? See the AI Readiness Assessment →",
+      "Frequently asked questions",
+      "Are you an AI agency?+",
+      "No. I work alone, as an independent AI advisor. I don't build or sell software, AI agents or implementations. If you need execution capacity, I suggest parties that you contract yourself.",
+      "Do I have to work with a partner from your network?+",
+      "No. If you already have a development partner or an internal team, we work with that. A suggestion from my network is an option, not a condition. If you want to compare several parties, that can be done through a structured selection.",
+      "Who do I sign the execution contract with?+",
+      "Directly with the partner. I don't stand between you and the partner: no subcontracting, no markup and no margin on their rate. The agreements on scope, price, delivery and liability are made with that party directly.",
+      "What do you do while a partner builds?+",
+      "If you want that, I guide the implementation from your side of the table. I review proposals and planning, check whether the scope still matches the goal, and help with the decisions that come up along the way. The partner does the actual work.",
+      "What if a suggested partner doesn't work out?+",
+      "Then you say so, and we look for an alternative. Because I don't earn anything from a partner, I have no interest in keeping a collaboration going that isn't working.",
+      "Ready for impact?",
+      "From AI ambition to real results.",
+      "Book a no-obligation call. No pitch. Just sharp questions.",
+      "30 min., no pitch deckBook a call →"
+    ]
+  },
+  "links": [
+    {
+      "regio": "overig",
+      "soort": "intern",
+      "href": "#main",
+      "anker": "Skip to main content",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/",
+      "anker": "",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/services",
+      "anker": "Services",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/cases",
+      "anker": "Cases",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/approach",
+      "anker": "Approach",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/insights",
+      "anker": "Insights",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/about",
+      "anker": "About",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/nl/partnernetwerk",
+      "anker": "NL",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/contact",
+      "anker": "Book a call →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/",
+      "anker": "Home",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/contact",
+      "anker": "Book a strategy call →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/services/ai-readiness-assessment",
+      "anker": "See the AI Readiness Assessment →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/services/vendor-review",
+      "anker": "Vendor Review",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/",
+      "anker": "my offering as an independent advisor",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/services/fractional-ai-lead",
+      "anker": "Fractional AI Lead",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/pricing",
+      "anker": "Dave Willemstein's rates and typical timelines",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/services/vendor-review",
+      "anker": "Vendor Review",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/services/fractional-ai-lead",
+      "anker": "Fractional AI Lead",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/approach",
+      "anker": "approach",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/contact",
+      "anker": "Book a thirty-minute conversation",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/about",
+      "anker": "About",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/services/ai-readiness-assessment",
+      "anker": "Want to know where you stand with AI? See the AI Readiness Assessment →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/contact",
+      "anker": "Book a call →",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/services/ai-readiness-assessment",
+      "anker": "AI Readiness Assessment",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/services/ai-strategy-sprint",
+      "anker": "AI Strategy Sprint",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/services/fractional-ai-lead",
+      "anker": "Fractional AI Lead",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/services",
+      "anker": "All services",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/cases",
+      "anker": "Cases",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/approach",
+      "anker": "Approach",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/insights",
+      "anker": "Insights",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/faq",
+      "anker": "FAQ",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/about",
+      "anker": "About",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-consulting",
+      "anker": "AI consulting",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-implementation",
+      "anker": "AI implementation",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-automation",
+      "anker": "AI automation",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-for-business",
+      "anker": "AI for business",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-development",
+      "anker": "AI development",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-agents",
+      "anker": "AI agents",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-policy",
+      "anker": "AI policy",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-workshop",
+      "anker": "AI workshop",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/markets",
+      "anker": "AI by industry",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/knowledge-base",
+      "anker": "Knowledge base",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/pricing",
+      "anker": "Pricing",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/partner-network",
+      "anker": "Partner network",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "overig",
+      "href": "mailto:dave@freelanceaiconsultant.com",
+      "anker": "dave@freelanceaiconsultant.com",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "extern",
+      "href": "https://www.linkedin.com/in/davewillemstein",
+      "anker": "LinkedIn ↗",
+      "rel": "noopener"
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/contact",
+      "anker": "Book a call",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/privacy",
+      "anker": "Privacy policy",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/terms",
+      "anker": "Terms & conditions",
+      "rel": null
+    }
+  ],
+  "structured_data": {
+    "sha256": "6b1686638b2952e0a8cbf9eea431c0dda23373596d8da198077dacc6850d615c",
+    "items": [
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://freelanceaiconsultant.com/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Partner network",
+                "item": "https://freelanceaiconsultant.com/partner-network"
+              }
+            ]
+          },
+          {
+            "@type": "Service",
+            "name": "Partner network",
+            "serviceType": "ai consulting partner network",
+            "description": "Need AI agency capacity without the overhead? Work directly with an independent AI consultant, backed by a vetted network for development, data and training.",
+            "url": "https://freelanceaiconsultant.com/partner-network",
+            "areaServed": "GB",
+            "provider": {
+              "@type": "Person",
+              "name": "Dave Willemstein",
+              "jobTitle": "Onafhankelijk AI-adviseur",
+              "url": "https://freelanceaiconsultant.com/over",
+              "sameAs": [
+                "https://www.linkedin.com/in/davewillemstein"
+              ]
+            }
+          },
+          {
+            "@type": "FAQPage",
+            "mainEntity": [
+              {
+                "@type": "Question",
+                "name": "Are you an AI agency?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "No. I work alone, as an independent AI advisor. I don't build or sell software, AI agents or implementations. If you need execution capacity, I suggest parties that you contract yourself."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Do I have to work with a partner from your network?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "No. If you already have a development partner or an internal team, we work with that. A suggestion from my network is an option, not a condition. If you want to compare several parties, that can be done through a structured selection."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Who do I sign the execution contract with?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Directly with the partner. I don't stand between you and the partner: no subcontracting, no markup and no margin on their rate. The agreements on scope, price, delivery and liability are made with that party directly."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "What do you do while a partner builds?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "If you want that, I guide the implementation from your side of the table. I review proposals and planning, check whether the scope still matches the goal, and help with the decisions that come up along the way. The partner does the actual work."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "What if a suggested partner doesn't work out?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Then you say so, and we look for an alternative. Because I don't earn anything from a partner, I have no interest in keeping a collaboration going that isn't working."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Why not a traditional AI agency?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "A traditional AI agency ultimately sells capacity, and whoever earns from the build has an interest in a larger scope, while Dave Willemstein works alone as an independent AI advisor who advises and guides execution without building or selling anything himself. When more capacity is needed for development, data and BI, or training, he suggests parties he knows that the client contracts directly, with no margin or commission. For comparing several parties there is the Vendor Review, which takes 3-6 weeks."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "What types of expertise does the partner network of an advisor who is not an AI agency cover?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Usually it comes down to one of three types of expertise: development, data and BI, and training and change management. Which party fits depends on the question, and first it is determined whether building it yourself, buying, or partnering is the right choice. The advisor is not an AI agency himself and only suggests parties he knows."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Does the advisor hold partner status with Microsoft, OpenAI or other vendors?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "No. The advisor, who is not an AI agency himself, holds no partner status, reseller agreement or commission arrangement with Microsoft, OpenAI, Anthropic, Google, Amazon Web Services, Mistral AI or Meta. That means he can compare the platforms honestly and say when a cheaper or simpler option is enough."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Can the guidance during execution also be ongoing?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Yes, for ongoing engagements the guidance can take the form of a Fractional AI Lead, for 2, 4 or 8 days per month. The client keeps one point of contact for advice and direction, while the partner delivers the capacity."
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "afbeeldingen": [
+    {
+      "regio": "header",
+      "src": "/images/freelance-ai-consultant-logo-header.png",
+      "alt": "freelanceaiconsultant.com logo",
+      "width": "600",
+      "height": "287",
+      "loading": null
+    },
+    {
+      "regio": "main",
+      "src": "/images/dave-portrait.jpg",
+      "alt": "Portrait of Dave Willemstein",
+      "width": "88",
+      "height": "88",
+      "loading": "lazy"
+    },
+    {
+      "regio": "footer",
+      "src": "/images/freelance-ai-consultant-icon-footer.png",
+      "alt": "",
+      "width": "192",
+      "height": "192",
+      "loading": "lazy"
+    }
+  ],
+  "laadprestaties": {
+    "scripts": [
+      {
+        "src": "/_astro/CookieConsent.astro_astro_type_script_index_0_lang.COcxE8NY.js",
+        "type": "module",
+        "inline_bytes": 0
+      },
+      {
+        "src": null,
+        "type": null,
+        "inline_bytes": 989
+      },
+      {
+        "src": null,
+        "type": null,
+        "inline_bytes": 493
+      },
+      {
+        "src": "/logo-carousel/logo-carousel.js?v=2",
+        "type": null,
+        "inline_bytes": 0
+      },
+      {
+        "src": null,
+        "type": null,
+        "inline_bytes": 725
+      }
+    ],
+    "stylesheets": [
+      "/_astro/_slug_.CzLXI3HH.css",
+      "/_astro/_slug_.Do5RJXa7.css",
+      "/logo-carousel/logo-carousel.css?v=2"
+    ],
+    "aantal_details": 5,
+    "aantal_tabellen": 1
+  },
+  "gemeten_op": "2026-11-05"
+}

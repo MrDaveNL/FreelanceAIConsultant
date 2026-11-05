@@ -1,0 +1,808 @@
+{
+  "url": "/ai-agents/what-is-an-ai-agent",
+  "build_bestand": "dist/ai-agents/what-is-an-ai-agent/index.html",
+  "html": {
+    "bytes": 42225,
+    "lang": "en"
+  },
+  "beschermd": {
+    "title": "What Is an AI Agent? How It Works & Examples",
+    "meta_description": "What is an AI agent, and how does it differ from a chatbot? A clear explanation of how AI agents work, the types that exist, and practical business examples.",
+    "canonical": "https://freelanceaiconsultant.com/ai-agents/what-is-an-ai-agent",
+    "robots_meta": null,
+    "hreflang": [
+      {
+        "hreflang": "en",
+        "href": "https://freelanceaiconsultant.com/ai-agents/what-is-an-ai-agent"
+      },
+      {
+        "hreflang": "nl",
+        "href": "https://freelanceaiconsultant.com/nl/ai-agents/wat-is-een-ai-agent"
+      },
+      {
+        "hreflang": "x-default",
+        "href": "https://freelanceaiconsultant.com/ai-agents/what-is-an-ai-agent"
+      }
+    ],
+    "h1": [
+      "What is an AI agent? How it works, with examples"
+    ]
+  },
+  "social": {
+    "og:type": "website",
+    "og:locale": "en_US",
+    "og:site_name": "freelanceaiconsultant.com",
+    "og:title": "What Is an AI Agent? How It Works & Examples",
+    "og:description": "What is an AI agent, and how does it differ from a chatbot? A clear explanation of how AI agents work, the types that exist, and practical business examples.",
+    "og:url": "https://freelanceaiconsultant.com/ai-agents/what-is-an-ai-agent",
+    "og:image": "https://freelanceaiconsultant.com/images/dave-portrait.jpg",
+    "twitter:card": "summary_large_image",
+    "twitter:title": "What Is an AI Agent? How It Works & Examples",
+    "twitter:description": "What is an AI agent, and how does it differ from a chatbot? A clear explanation of how AI agents work, the types that exist, and practical business examples.",
+    "twitter:image": "https://freelanceaiconsultant.com/images/dave-portrait.jpg"
+  },
+  "koppen": [
+    {
+      "niveau": 1,
+      "tekst": "What is an AI agent? How it works, with examples",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "What is an AI agent?",
+      "regio": "main",
+      "id": "what-is-an-ai-agent"
+    },
+    {
+      "niveau": 3,
+      "tekst": "Can a mistake by an AI agent carry through without the final result looking wrong?",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 3,
+      "tekst": "What forms of structure occur in an AI agent?",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "How does an AI agent work?",
+      "regio": "main",
+      "id": "how-does-an-ai-agent-work"
+    },
+    {
+      "niveau": 2,
+      "tekst": "AI agent versus chatbot",
+      "regio": "main",
+      "id": "ai-agent-versus-chatbot"
+    },
+    {
+      "niveau": 2,
+      "tekst": "Types of AI agents",
+      "regio": "main",
+      "id": "types-of-ai-agents"
+    },
+    {
+      "niveau": 2,
+      "tekst": "Examples",
+      "regio": "main",
+      "id": "examples"
+    },
+    {
+      "niveau": 2,
+      "tekst": "Frequently asked questions",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "From AI ambition to real results.",
+      "regio": "main",
+      "id": null
+    }
+  ],
+  "bodytekst": {
+    "regio": "main",
+    "woorden": 2063,
+    "sha256": "f41f49b4b3c956b104b70d7e2df4f471eeda6ecd4bed7134520bd4bd67896e97",
+    "blokken": [
+      "Home",
+      "AI Agents",
+      "What is an AI agent?",
+      "Explained",
+      "What is an AI agent? How it works, with examples",
+      "What is an AI agent, and why is everyone suddenly talking about them? In short: software that doesn't just answer, but takes steps itself to reach a goal. This article explains how that works, how an agent differs from a chatbot, and which types you'll come across.",
+      "Read more on AI agents for business → See the AI Readiness Assessment →",
+      "Written by Dave Willemstein, independent AI consultant · published October 27, 2026",
+      "IN SHORT",
+      "An AI agent is given a goal and chooses the steps itself, including the use of other systems.",
+      "The difference from a chatbot is in acting: an agent can do things, not just say them.",
+      "How much independence an agent gets is a choice the organisation makes, not a property of the technology.",
+      "AI in Europe",
+      "European brands already running AI in production.",
+      "Not my clients. Examples of what happens once AI moves past the pilot stage.",
+      "Pause",
+      "Klarna",
+      "Sweden",
+      "AI customer service assistant",
+      "Zalando",
+      "Germany",
+      "Fashion assistant for product advice",
+      "Financial services",
+      "Investment firm",
+      "AI strategy and use-case portfolio",
+      "Booking.com",
+      "Netherlands",
+      "AI Trip Planner for travel planning",
+      "Siemens",
+      "Germany",
+      "Industrial Copilot for engineering",
+      "Retail",
+      "Enterprise retailer",
+      "AI-driven vendor selection",
+      "Spotify",
+      "Sweden",
+      "AI DJ and personalized playlists",
+      "Mercedes-Benz",
+      "Germany",
+      "Generative voice assistant in the car",
+      "Industrial / B2B",
+      "International manufacturer",
+      "AI roadmap and leadership",
+      "ING",
+      "Netherlands",
+      "Generative chatbot for customer queries",
+      "L'Oréal",
+      "France",
+      "Beauty Genius: personalized advice",
+      "Financial services",
+      "Financial services firm",
+      "KYC accelerated with AI document analysis",
+      "SAP",
+      "Germany",
+      "Joule: copilot in business software",
+      "Carrefour",
+      "France",
+      "Hopla: grocery shopping assistant",
+      "Strategy & AI",
+      "SaaS scale-up",
+      "AI readiness assessment",
+      "Adyen",
+      "Netherlands",
+      "AI-driven payment optimization",
+      "Philips",
+      "Netherlands",
+      "AI in medical imaging",
+      "Proces & productivity",
+      "Professional services firm",
+      "Internal AI assistant for knowledge workers",
+      "What is an AI agent?",
+      "An AI agent is software that's given a goal by a human and then largely chooses its own route: gathering information, using other systems, assessing intermediate results and deciding the next step. Unlike a chatbot, which answers a question within a conversation, an AI agent carries out a task in several steps and can consult systems and sometimes change them. How much independence it gets is a setting the organisation chooses, from only preparing to working fully independently with checks after the fact.",
+      "An AI agent is a software system that’s given a goal and works out for itself which steps are needed to reach it. It gathers information, uses other systems, assesses intermediate results, and chooses the next step based on those. The goal comes from a human; the agent largely decides the route itself.",
+      "That’s the essential difference from most AI applications you already know. A tool that summarises a text or answers a question delivers a single outcome for a single request. An agent works on a task made up of several steps, such as “complete this customer file” or “prepare the quote for this request”.",
+      "Most agents you come across today run on a large language model. That model handles understanding the instruction and reasoning about the next step. Around it sit the parts that turn a language model into an agent: access to tools and systems, a memory for the task at hand, and instructions on what is and isn’t allowed.",
+      "Anyone who mainly wants to know what this means for an organisation will find the applications, costs and approach on the page about AI agents for business.",
+      "Can a mistake by an AI agent carry through without the final result looking wrong?",
+      "Yes, that can happen: an AI agent takes several steps in sequence, so a mistake from an early step can carry through to the final result without it looking wrong. Logging and checkpoints matter more for an AI agent than for an ordinary AI application because of this.",
+      "What forms of structure occur in an AI agent?",
+      "Three forms exist, broadly: a single-purpose AI agent for one tightly scoped task, an AI agent within an AI workflow with a fixed process flow, and collaborating agents where a coordinating agent divides the work. For most organisations, the AI agent within a workflow is the sensible starting point.",
+      "Source: article by Dave Willemstein. Updated: October 2026.",
+      "How does an AI agent work?",
+      "An AI agent’s operation comes down to a loop that repeats until the goal is reached or the agent gets stuck.",
+      "GoalA human or system gives an instruction",
+      "PlanThe agent decides the next step",
+      "ActCall a tool or system",
+      "AssessIs the result right, is the goal reached?",
+      "Finish or continueDeliver, or back to planning",
+      "An agent runs this cycle several times. Each round is a point where things can go right or wrong.",
+      "What happens at each step:",
+      "Goal and instructions. The agent gets an instruction plus fixed rules: which sources it may use, which actions are forbidden, and when it must bring in a human.",
+      "Planning. The language model works out what the logical next step is. For a simple task that’s one action; for a complex one, a sequence.",
+      "Acting through tools. A tool is anything the agent can call: a search function, a database, a CRM, a calendar, a calculation module, or another AI model. This is where the agent moves from talking to doing.",
+      "Assessing. The agent looks at the result of its action. Did the search return anything useful? Does the answer fit the question? If not, it tries a different route.",
+      "Memory. During the task, the agent remembers what it’s already done. Some agents also keep information between tasks, which is useful but also raises questions about what data you’re retaining. Those questions are covered separately on this site, in an article on AI agents and data protection.",
+      "Because an agent takes several steps in sequence, a mistake in an early step can carry through to the final result without that result looking wrong. That’s why logging and checkpoints matter more for agents than for an ordinary AI application. I covered this in the article on what AI agents can and cannot do: agents do well on reversible steps with a clear final check, and break down on long chains where a mistake carries through quietly.",
+      "AI agent versus chatbot",
+      "The difference between an AI agent and a chatbot is one of the most common questions, because they can look alike from the outside. You can ask both something in plain language. The difference is in what happens next.",
+      "Chatbot",
+      "AI agent",
+      "What it does",
+      "Answers a question within a conversation",
+      "Carries out a task in several steps",
+      "Access to systems",
+      "Usually limited to a knowledge base",
+      "Can consult systems, and sometimes change them",
+      "Who decides the route",
+      "The conversation, question by question",
+      "The agent, based on the goal",
+      "Consequence of a mistake",
+      "A wrong answer",
+      "A wrong action, possibly with knock-on effects",
+      "What you need to arrange",
+      "Accuracy of answers",
+      "Access rights, checkpoints, logging and ownership",
+      "A chatbot that tells a customer how to change their address is a chatbot. A system that actually changes the address, sends the confirmation, and updates the file is an agent. In practice, the line isn’t always sharp: many chatbots are gradually gaining agent features, and many agents have a chat window as their front end.",
+      "Types of AI agents",
+      "Several ways of classifying agents exist. For an organisation, two are the most useful: by degree of independence, and by structure.",
+      "By independence. How much an agent is allowed to do on its own is a setting you choose. An agent can only prepare (gathering information for a human), propose actions that a human approves, act with confirmation at irreversible moments, or work fully independently with checks after the fact. My advice is almost always to start low and only increase autonomy once you know what mistakes occur.",
+      "By structure. Broadly, three forms exist:",
+      "Single-purpose agents that carry out one tightly scoped task, such as preparing a reply to a customer email.",
+      "Agents within an AI workflow, where a fixed process flow sets the main line and the agent only handles the steps that need interpretation, such as reading a document or classifying a request.",
+      "Collaborating agents, where several agents each handle part of a task and a coordinating agent divides the work. That’s more powerful, but also harder to test and control.",
+      "For most organisations, the second form is the sensible starting point: fixed rules where you can, an agent where you must.",
+      "Examples",
+      "A few generic examples to make it concrete:",
+      "Customer service: an agent reads an incoming email, looks up the order, drafts a reply, and puts it to a staff member.",
+      "Sales: after a client call, an agent turns the notes into a summary, updates the CRM, and drafts a follow-up email for approval.",
+      "Finance: an agent compares incoming invoices against purchase orders and flags discrepancies for accounts payable.",
+      "Internal knowledge: an agent answers colleagues’ questions based on handbooks and policy documents, with the source cited.",
+      "A fuller list, worked out by department with how it works and the integrations needed, is on the twelve AI agent examples page.",
+      "Example scenario",
+      "A housing association with 300 staff is considering an agent that handles tenants' repair requests independently: reading the report, scheduling a contractor, and sending the tenant a confirmation. That covers around 1,400 reports a month.",
+      "The adviser reviews the plan from the client's side and splits the task into steps, each with its own level of independence. The agent categorises reports and proposes a schedule; a planner confirms it. Reports that point to danger, such as a leak or a power cut, always go straight to a human.",
+      "In an eight-week trial, the agent categorises 85 percent of reports correctly. The planner spends an average of 3 minutes per report instead of 6, around 70 hours a month in total. Sending confirmations itself is something the agent doesn't yet do.",
+      "Illustrative example, built from situations that come up often. The organisation and figures are for illustration.",
+      "Considering an agent yourself? The next question is how to have one built: what to set out upfront, how to choose a delivery partner, and what it costs. That’s covered on the page about having an AI agent built. Want to talk through whether an agent is the right fix for your process first? Get in touch for a no-obligation conversation.",
+      "Dave Willemstein Independent AI Advisor",
+      "Independent: no commissions, no partner deals, no margin on implementation partners.",
+      "About My partner network",
+      "Want to know where you stand with AI? See the AI Readiness Assessment →",
+      "Frequently asked questions",
+      "Is an AI agent the same as an AI assistant?+",
+      "Not quite. An AI assistant helps you while you do the work: you ask a question and get an answer or a draft. An AI agent carries out a sequence of steps towards a goal itself, often in other systems. In practice the terms blur, and many assistants now also offer agent features.",
+      "Does an AI agent have access to all my systems?+",
+      "Only to the systems and data you give it access to. That's exactly the design choice you need to make deliberately. A sensible start is an agent with read access only, adding write access once you know how it behaves.",
+      "Does an AI agent learn from its own mistakes?+",
+      "Usually not in the way people expect. An agent running on a language model doesn't automatically adjust its behaviour after a mistake. Improvement comes from people adjusting the instructions, sources or checks based on what they see in the logging.",
+      "Can an AI agent make decisions on its own?+",
+      "Technically, yes, but whether that's wise depends on the consequences of a mistake. For reversible steps with a clear final check, it can. For decisions about people, money or external communication, a human check belongs in the loop, and for some decisions UK GDPR and the AI Act set requirements of their own.",
+      "What do I need to get started with AI agents?+",
+      "A concrete task with a lot of repetition, sources that are in order, an owner who reviews the outcomes, and agreements on which data the agent may use. The technology is rarely the first bottleneck; the choice of process is.",
+      "Ready for impact?",
+      "From AI ambition to real results.",
+      "Book a no-obligation call. No pitch. Just sharp questions.",
+      "30 min., no pitch deckBook a call →"
+    ]
+  },
+  "links": [
+    {
+      "regio": "overig",
+      "soort": "intern",
+      "href": "#main",
+      "anker": "Skip to main content",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/",
+      "anker": "",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/services",
+      "anker": "Services",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/cases",
+      "anker": "Cases",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/approach",
+      "anker": "Approach",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/insights",
+      "anker": "Insights",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/about",
+      "anker": "About",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/nl/ai-agents/wat-is-een-ai-agent",
+      "anker": "NL",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/contact",
+      "anker": "Book a call →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/",
+      "anker": "Home",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/ai-agents",
+      "anker": "AI Agents",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/ai-agents",
+      "anker": "Read more on AI agents for business →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/services/ai-readiness-assessment",
+      "anker": "See the AI Readiness Assessment →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/about",
+      "anker": "Dave Willemstein",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/ai-agents",
+      "anker": "AI agents for business",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/insights/what-ai-agents-can-and-cannot-do",
+      "anker": "what AI agents can and cannot do",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/ai-automation/ai-workflows",
+      "anker": "AI workflow",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/ai-agents/examples",
+      "anker": "twelve AI agent examples",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/ai-agents/build",
+      "anker": "having an AI agent built",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/contact",
+      "anker": "Get in touch",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/about",
+      "anker": "About",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/partner-network",
+      "anker": "My partner network",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/services/ai-readiness-assessment",
+      "anker": "Want to know where you stand with AI? See the AI Readiness Assessment →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/contact",
+      "anker": "Book a call →",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/services/ai-readiness-assessment",
+      "anker": "AI Readiness Assessment",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/services/ai-strategy-sprint",
+      "anker": "AI Strategy Sprint",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/services/fractional-ai-lead",
+      "anker": "Fractional AI Lead",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/services",
+      "anker": "All services",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/cases",
+      "anker": "Cases",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/approach",
+      "anker": "Approach",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/insights",
+      "anker": "Insights",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/faq",
+      "anker": "FAQ",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/about",
+      "anker": "About",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-consulting",
+      "anker": "AI consulting",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-implementation",
+      "anker": "AI implementation",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-automation",
+      "anker": "AI automation",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-for-business",
+      "anker": "AI for business",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-development",
+      "anker": "AI development",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-agents",
+      "anker": "AI agents",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-policy",
+      "anker": "AI policy",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-workshop",
+      "anker": "AI workshop",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/markets",
+      "anker": "AI by industry",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/knowledge-base",
+      "anker": "Knowledge base",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/pricing",
+      "anker": "Pricing",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/partner-network",
+      "anker": "Partner network",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "overig",
+      "href": "mailto:dave@freelanceaiconsultant.com",
+      "anker": "dave@freelanceaiconsultant.com",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "extern",
+      "href": "https://www.linkedin.com/in/davewillemstein",
+      "anker": "LinkedIn ↗",
+      "rel": "noopener"
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/contact",
+      "anker": "Book a call",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/privacy",
+      "anker": "Privacy policy",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/terms",
+      "anker": "Terms & conditions",
+      "rel": null
+    }
+  ],
+  "structured_data": {
+    "sha256": "46ce9d35e22b8702ac258c52fdeea42d8cd47bd971dddf2b03f35cc62c075e4c",
+    "items": [
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://freelanceaiconsultant.com/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "AI Agents",
+                "item": "https://freelanceaiconsultant.com/ai-agents"
+              },
+              {
+                "@type": "ListItem",
+                "position": 3,
+                "name": "What is an AI agent?",
+                "item": "https://freelanceaiconsultant.com/ai-agents/what-is-an-ai-agent"
+              }
+            ]
+          },
+          {
+            "@type": "Article",
+            "headline": "What is an AI agent? How it works, with examples",
+            "description": "What is an AI agent, and how does it differ from a chatbot? A clear explanation of how AI agents work, the types that exist, and practical business examples.",
+            "inLanguage": "en-US",
+            "datePublished": "2026-10-27",
+            "dateModified": "2026-10-27",
+            "author": {
+              "@type": "Person",
+              "name": "Dave Willemstein",
+              "jobTitle": "Onafhankelijk AI-adviseur",
+              "url": "https://freelanceaiconsultant.com/over",
+              "sameAs": [
+                "https://www.linkedin.com/in/davewillemstein"
+              ]
+            },
+            "publisher": {
+              "@type": "Person",
+              "name": "Dave Willemstein"
+            },
+            "mainEntityOfPage": "https://freelanceaiconsultant.com/ai-agents/what-is-an-ai-agent"
+          },
+          {
+            "@type": "FAQPage",
+            "mainEntity": [
+              {
+                "@type": "Question",
+                "name": "Is an AI agent the same as an AI assistant?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Not quite. An AI assistant helps you while you do the work: you ask a question and get an answer or a draft. An AI agent carries out a sequence of steps towards a goal itself, often in other systems. In practice the terms blur, and many assistants now also offer agent features."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Does an AI agent have access to all my systems?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Only to the systems and data you give it access to. That's exactly the design choice you need to make deliberately. A sensible start is an agent with read access only, adding write access once you know how it behaves."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Does an AI agent learn from its own mistakes?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Usually not in the way people expect. An agent running on a language model doesn't automatically adjust its behaviour after a mistake. Improvement comes from people adjusting the instructions, sources or checks based on what they see in the logging."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Can an AI agent make decisions on its own?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Technically, yes, but whether that's wise depends on the consequences of a mistake. For reversible steps with a clear final check, it can. For decisions about people, money or external communication, a human check belongs in the loop, and for some decisions UK GDPR and the AI Act set requirements of their own."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "What do I need to get started with AI agents?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "A concrete task with a lot of repetition, sources that are in order, an owner who reviews the outcomes, and agreements on which data the agent may use. The technology is rarely the first bottleneck; the choice of process is."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "What is an AI agent?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "An AI agent is software that's given a goal by a human and then largely chooses its own route: gathering information, using other systems, assessing intermediate results and deciding the next step. Unlike a chatbot, which answers a question within a conversation, an AI agent carries out a task in several steps and can consult systems and sometimes change them. How much independence it gets is a setting the organisation chooses, from only preparing to working fully independently with checks after the fact."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Can a mistake by an AI agent carry through without the final result looking wrong?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Yes, that can happen: an AI agent takes several steps in sequence, so a mistake from an early step can carry through to the final result without it looking wrong. Logging and checkpoints matter more for an AI agent than for an ordinary AI application because of this."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "What forms of structure occur in an AI agent?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Three forms exist, broadly: a single-purpose AI agent for one tightly scoped task, an AI agent within an AI workflow with a fixed process flow, and collaborating agents where a coordinating agent divides the work. For most organisations, the AI agent within a workflow is the sensible starting point."
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "afbeeldingen": [
+    {
+      "regio": "header",
+      "src": "/images/freelance-ai-consultant-logo-header.png",
+      "alt": "freelanceaiconsultant.com logo",
+      "width": "600",
+      "height": "287",
+      "loading": null
+    },
+    {
+      "regio": "main",
+      "src": "/images/dave-portrait.jpg",
+      "alt": "Portrait of Dave Willemstein",
+      "width": "88",
+      "height": "88",
+      "loading": "lazy"
+    },
+    {
+      "regio": "footer",
+      "src": "/images/freelance-ai-consultant-icon-footer.png",
+      "alt": "",
+      "width": "192",
+      "height": "192",
+      "loading": "lazy"
+    }
+  ],
+  "laadprestaties": {
+    "scripts": [
+      {
+        "src": "/_astro/CookieConsent.astro_astro_type_script_index_0_lang.COcxE8NY.js",
+        "type": "module",
+        "inline_bytes": 0
+      },
+      {
+        "src": null,
+        "type": null,
+        "inline_bytes": 989
+      },
+      {
+        "src": null,
+        "type": null,
+        "inline_bytes": 493
+      },
+      {
+        "src": "/logo-carousel/logo-carousel.js?v=2",
+        "type": null,
+        "inline_bytes": 0
+      },
+      {
+        "src": null,
+        "type": null,
+        "inline_bytes": 725
+      }
+    ],
+    "stylesheets": [
+      "/_astro/_slug_.CzLXI3HH.css",
+      "/_astro/_slug_.Do5RJXa7.css",
+      "/logo-carousel/logo-carousel.css?v=2"
+    ],
+    "aantal_details": 5,
+    "aantal_tabellen": 1
+  },
+  "gemeten_op": "2026-11-05"
+}

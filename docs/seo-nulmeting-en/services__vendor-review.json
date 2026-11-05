@@ -1,0 +1,771 @@
+{
+  "url": "/services/vendor-review",
+  "build_bestand": "dist/services/vendor-review/index.html",
+  "html": {
+    "bytes": 41737,
+    "lang": "en"
+  },
+  "beschermd": {
+    "title": "Vendor Review | Freelance AI Consultant Services",
+    "meta_description": "Independent selection of AI vendors: criteria set upfront, scorecards, testing on your own data, and three-year TCO including exit.",
+    "canonical": "https://freelanceaiconsultant.com/services/vendor-review",
+    "robots_meta": null,
+    "hreflang": [
+      {
+        "hreflang": "en",
+        "href": "https://freelanceaiconsultant.com/services/vendor-review"
+      },
+      {
+        "hreflang": "nl",
+        "href": "https://freelanceaiconsultant.com/nl/diensten/vendor-review"
+      },
+      {
+        "hreflang": "x-default",
+        "href": "https://freelanceaiconsultant.com/services/vendor-review"
+      }
+    ],
+    "h1": [
+      "Vendor Review & Selection"
+    ]
+  },
+  "social": {
+    "og:type": "website",
+    "og:locale": "en_US",
+    "og:site_name": "freelanceaiconsultant.com",
+    "og:title": "Vendor Review | Freelance AI Consultant Services",
+    "og:description": "Independent selection of AI vendors: criteria set upfront, scorecards, testing on your own data, and three-year TCO including exit.",
+    "og:url": "https://freelanceaiconsultant.com/services/vendor-review",
+    "og:image": "https://freelanceaiconsultant.com/images/dave-portrait.jpg",
+    "twitter:card": "summary_large_image",
+    "twitter:title": "Vendor Review | Freelance AI Consultant Services",
+    "twitter:description": "Independent selection of AI vendors: criteria set upfront, scorecards, testing on your own data, and three-year TCO including exit.",
+    "twitter:image": "https://freelanceaiconsultant.com/images/dave-portrait.jpg"
+  },
+  "koppen": [
+    {
+      "niveau": 1,
+      "tekst": "Vendor Review & Selection",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "What does a Vendor Review deliver and what does it cost?",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 3,
+      "tekst": "What determines the price of a Vendor Review?",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 3,
+      "tekst": "When is a Vendor Review less suitable?",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "Where selection processes go wrong",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "Criteria first, vendors after. Never the other way around.",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 3,
+      "tekst": "Criteria & longlist",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 3,
+      "tekst": "Structured evaluation",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 3,
+      "tekst": "Validation & TCO",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 3,
+      "tekst": "Decision & negotiation",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "Concrete. Clear. Immediately usable.",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 3,
+      "tekst": "Organizations that:",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "From insight to impact.",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 3,
+      "tekst": "Diagnose",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 3,
+      "tekst": "Prioritize",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 3,
+      "tekst": "Decide",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 3,
+      "tekst": "Ship & govern",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "Twelve vendors, six weeks, one substantiated decision.",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "Answers to what you are thinking now.",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 3,
+      "tekst": "AI Due Diligence",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 3,
+      "tekst": "AI Strategy Sprint",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "Book a call.",
+      "regio": "main",
+      "id": null
+    }
+  ],
+  "bodytekst": {
+    "regio": "main",
+    "woorden": 977,
+    "sha256": "094c162fc897e6cf28d5e4d184299f52a4625cabe0863521037e3546d2fa5e80",
+    "blokken": [
+      "Choosing on fit, not on demo",
+      "Vendor Review & Selection",
+      "A structured selection process with clear criteria, real scorecards and a TCO calculation that looks beyond the license fee. So your choice holds up, even two years from now.",
+      "Book a call → All services → 30 min., no pitch deck",
+      "trust, experience, impact ↓",
+      "Independent No vendor bias Senior only Since 2006",
+      "AI in Europe",
+      "European brands already running AI in production.",
+      "Not my clients. Examples of what happens once AI moves past the pilot stage.",
+      "Pause",
+      "Klarna",
+      "Sweden",
+      "AI customer service assistant",
+      "Zalando",
+      "Germany",
+      "Fashion assistant for product advice",
+      "Financial services",
+      "Investment firm",
+      "AI strategy and use-case portfolio",
+      "Booking.com",
+      "Netherlands",
+      "AI Trip Planner for travel planning",
+      "Siemens",
+      "Germany",
+      "Industrial Copilot for engineering",
+      "Retail",
+      "Enterprise retailer",
+      "AI-driven vendor selection",
+      "Spotify",
+      "Sweden",
+      "AI DJ and personalized playlists",
+      "Mercedes-Benz",
+      "Germany",
+      "Generative voice assistant in the car",
+      "Industrial / B2B",
+      "International manufacturer",
+      "AI roadmap and leadership",
+      "ING",
+      "Netherlands",
+      "Generative chatbot for customer queries",
+      "L'Oréal",
+      "France",
+      "Beauty Genius: personalized advice",
+      "Financial services",
+      "Financial services firm",
+      "KYC accelerated with AI document analysis",
+      "SAP",
+      "Germany",
+      "Joule: copilot in business software",
+      "Carrefour",
+      "France",
+      "Hopla: grocery shopping assistant",
+      "Strategy & AI",
+      "SaaS scale-up",
+      "AI readiness assessment",
+      "Adyen",
+      "Netherlands",
+      "AI-driven payment optimization",
+      "Philips",
+      "Netherlands",
+      "AI in medical imaging",
+      "Proces & productivity",
+      "Professional services firm",
+      "Internal AI assistant for knowledge workers",
+      "Duration3-6 weeks",
+      "OutcomeSubstantiated selection advice",
+      "PricingTailored, agreed upfront",
+      "Depends on the number of vendors (2 to 4). All proposals exclude VAT.",
+      "Request a proposal → Tailored pricing based on scope",
+      "What does a Vendor Review deliver and what does it cost?",
+      "Vendor Review from Dave Willemstein is an independent selection process for organizations choosing an AI vendor and needing to explain that choice afterward. The result is a substantiated selection advice with scorecards, a three-year TCO comparison and a decision document for procurement and the board. The process takes 3-6 weeks and is priced as a fixed project fee, set out in the proposal, excluding VAT and travel expenses.",
+      "What determines the price of a Vendor Review?",
+      "Vendor Review is priced as a fixed project fee; the exact amount depends on the number of vendors assessed, typically 2 to 4.",
+      "When is a Vendor Review less suitable?",
+      "Vendor Review is less suitable if the vendor is effectively already chosen and the organization wants a justification after the fact.",
+      "Source: Dave Willemstein's rates and typical timelines. Updated: October 2026.",
+      "Why this comes up",
+      "Where selection processes go wrong",
+      "The criteria get written after the favorite is already known.",
+      "Demos get judged on presentation quality instead of fit with your data and processes.",
+      "The TCO comparison stops at license costs and ignores integration, management and exit.",
+      "References get called, but only the references the vendor hands you.",
+      "How it works",
+      "Criteria first, vendors after. Never the other way around.",
+      "01",
+      "Criteria & longlist",
+      "Weighting factors set with business, IT and procurement before we look at the market. Longlist built on fit, not brand recognition.",
+      "02",
+      "Structured evaluation",
+      "Every vendor gets the same scenario with your data, the same questionnaire and the same time. Scorecards are filled in independently and discussed afterward.",
+      "03",
+      "Validation & TCO",
+      "Use-case validation on real data, reference checks outside the vendor-supplied list, and a three-year TCO including integration, management and exit costs.",
+      "04",
+      "Decision & negotiation",
+      "One substantiated recommendation, a decision document that clears procurement, and support at the negotiating table.",
+      "What you get",
+      "Concrete. Clear. Immediately usable.",
+      "Weighting framework and scorecards, filled in and traceable",
+      "Longlist, shortlist and final assessment with reasoning at each cut",
+      "Three-year TCO comparison, including integration, management and exit costs",
+      "Risk analysis: vendor lock-in, data processing, model dependency, continuity",
+      "Reference report based on independent research",
+      "Decision document procurement and the board can use directly",
+      "Best fit for",
+      "Organizations that:",
+      "Processes where multiple internal parties favor different options",
+      "Purchases where the choice needs to be explainable afterward",
+      "Organizations that bought the wrong tool before and do not want a repeat",
+      "Less suitable if",
+      "If the vendor is effectively already chosen and you want a justification after the fact",
+      "The rhythm underneath",
+      "From insight to impact.",
+      "Every engagement runs through the same four decision points. Only the depth per step differs.",
+      "More on my approach →",
+      "01",
+      "⌕",
+      "Diagnose",
+      "What are we actually trying to solve?",
+      "02",
+      "☑",
+      "Prioritize",
+      "Which use cases earn money, time and attention?",
+      "03",
+      "↯",
+      "Decide",
+      "Build, buy or partner, and why?",
+      "04",
+      "↗",
+      "Ship & govern",
+      "How do we make sure it actually lands?",
+      "Recent case",
+      "Twelve vendors, six weeks, one substantiated decision.",
+      "Read the full case →",
+      "An enterprise retailer chose an AI partner for demand forecasting. The selection process saved €1.1M in three-year TCO, largely because the cheapest license turned out to have the most expensive integration.",
+      "12vendors assessed€1.1Msaved on TCO6weeks turnaround35%higher expected value",
+      "Frequently asked questions",
+      "Answers to what you are thinking now.",
+      "Can I reuse your scorecards myself?+",
+      "Yes. The framework is yours afterward, including the weightings and the completed assessments. I do not deliver a black box.",
+      "Do you have relationships with vendors?+",
+      "I know the market, so I know the players. But I do not receive a fee from any vendor. If I have worked with a party in the past two years, I disclose that before that party makes the longlist.",
+      "What if no vendor fits?+",
+      "Then that is the advice. It is not unusual for the conclusion to be that building it yourself, or waiting, is wiser than buying.",
+      "More questions about working together, rates or procurement? See all frequently asked questions →",
+      "Also relevant",
+      "☑",
+      "AI Due Diligence",
+      "Assess AI solutions or companies on value, risk, safety and feasibility.",
+      "2-4 weeks · Request a proposal",
+      "→ ↯",
+      "AI Strategy Sprint",
+      "From ambition to a realistic AI roadmap that fits your business, people and resources, board-ready in six weeks.",
+      "4-6 weeks · Request a proposal",
+      "→",
+      "Ready for impact?",
+      "Book a call.",
+      "30 minutes. No pitch deck. Just a good conversation about your situation.",
+      "30 min., no pitch deckBook a call →"
+    ]
+  },
+  "links": [
+    {
+      "regio": "overig",
+      "soort": "intern",
+      "href": "#main",
+      "anker": "Skip to main content",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/",
+      "anker": "",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/services",
+      "anker": "Services",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/cases",
+      "anker": "Cases",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/approach",
+      "anker": "Approach",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/insights",
+      "anker": "Insights",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/about",
+      "anker": "About",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/nl/diensten/vendor-review",
+      "anker": "NL",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/contact",
+      "anker": "Book a call →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/contact",
+      "anker": "Book a call →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/services",
+      "anker": "All services →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/contact?service=vendor-review",
+      "anker": "Request a proposal →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/approach",
+      "anker": "More on my approach →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/cases/vendor-selection-enterprise-retail",
+      "anker": "Read the full case →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/faq",
+      "anker": "See all frequently asked questions →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/services/ai-due-diligence",
+      "anker": "☑ AI Due Diligence Assess AI solutions or companies on value, risk, safety and feasibility. 2-4 weeks · Request a proposal →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/services/ai-strategy-sprint",
+      "anker": "↯ AI Strategy Sprint From ambition to a realistic AI roadmap that fits your business, people and resources, board-ready in six weeks. 4-6 weeks · Request a proposal →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/contact",
+      "anker": "Book a call →",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/services/ai-readiness-assessment",
+      "anker": "AI Readiness Assessment",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/services/ai-strategy-sprint",
+      "anker": "AI Strategy Sprint",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/services/fractional-ai-lead",
+      "anker": "Fractional AI Lead",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/services",
+      "anker": "All services",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/cases",
+      "anker": "Cases",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/approach",
+      "anker": "Approach",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/insights",
+      "anker": "Insights",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/faq",
+      "anker": "FAQ",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/about",
+      "anker": "About",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-consulting",
+      "anker": "AI consulting",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-implementation",
+      "anker": "AI implementation",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-automation",
+      "anker": "AI automation",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-for-business",
+      "anker": "AI for business",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-development",
+      "anker": "AI development",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-agents",
+      "anker": "AI agents",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-policy",
+      "anker": "AI policy",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-workshop",
+      "anker": "AI workshop",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/markets",
+      "anker": "AI by industry",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/knowledge-base",
+      "anker": "Knowledge base",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/pricing",
+      "anker": "Pricing",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/partner-network",
+      "anker": "Partner network",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "overig",
+      "href": "mailto:dave@freelanceaiconsultant.com",
+      "anker": "dave@freelanceaiconsultant.com",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "extern",
+      "href": "https://www.linkedin.com/in/davewillemstein",
+      "anker": "LinkedIn ↗",
+      "rel": "noopener"
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/contact",
+      "anker": "Book a call",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/privacy",
+      "anker": "Privacy policy",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/terms",
+      "anker": "Terms & conditions",
+      "rel": null
+    }
+  ],
+  "structured_data": {
+    "sha256": "6024a38d6a6088aedf33f52cc9590a3efdaa71637bcd146d496efb0023d49648",
+    "items": [
+      [
+        {
+          "@context": "https://schema.org",
+          "@type": "Service",
+          "name": "Vendor Review",
+          "description": "A structured selection process with clear criteria, real scorecards and a TCO calculation that looks beyond the license fee. So your choice holds up, even two years from now.",
+          "provider": {
+            "@type": "Person",
+            "name": "Dave Willemstein",
+            "url": "https://freelanceaiconsultant.com"
+          },
+          "areaServed": [
+            "NL",
+            "BE",
+            "DE"
+          ],
+          "serviceType": "AI advisory"
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "What does a Vendor Review deliver and what does it cost?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Vendor Review from Dave Willemstein is an independent selection process for organizations choosing an AI vendor and needing to explain that choice afterward. The result is a substantiated selection advice with scorecards, a three-year TCO comparison and a decision document for procurement and the board. The process takes 3-6 weeks and is priced as a fixed project fee, set out in the proposal, excluding VAT and travel expenses."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "What determines the price of a Vendor Review?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Vendor Review is priced as a fixed project fee; the exact amount depends on the number of vendors assessed, typically 2 to 4."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "When is a Vendor Review less suitable?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Vendor Review is less suitable if the vendor is effectively already chosen and the organization wants a justification after the fact."
+              }
+            }
+          ]
+        }
+      ]
+    ]
+  },
+  "afbeeldingen": [
+    {
+      "regio": "header",
+      "src": "/images/freelance-ai-consultant-logo-header.png",
+      "alt": "freelanceaiconsultant.com logo",
+      "width": "600",
+      "height": "287",
+      "loading": null
+    },
+    {
+      "regio": "main",
+      "src": "/images/dave-portrait.jpg",
+      "alt": "Dave Willemstein, Independent AI Advisor",
+      "width": "500",
+      "height": "620",
+      "loading": "lazy"
+    },
+    {
+      "regio": "footer",
+      "src": "/images/freelance-ai-consultant-icon-footer.png",
+      "alt": "",
+      "width": "192",
+      "height": "192",
+      "loading": "lazy"
+    }
+  ],
+  "laadprestaties": {
+    "scripts": [
+      {
+        "src": "/_astro/CookieConsent.astro_astro_type_script_index_0_lang.COcxE8NY.js",
+        "type": "module",
+        "inline_bytes": 0
+      },
+      {
+        "src": null,
+        "type": null,
+        "inline_bytes": 989
+      },
+      {
+        "src": null,
+        "type": null,
+        "inline_bytes": 493
+      },
+      {
+        "src": "/logo-carousel/logo-carousel.js?v=2",
+        "type": null,
+        "inline_bytes": 0
+      },
+      {
+        "src": null,
+        "type": null,
+        "inline_bytes": 725
+      }
+    ],
+    "stylesheets": [
+      "/_astro/_slug_.CzLXI3HH.css",
+      "/_astro/_slug_.DItckRQe.css",
+      "/logo-carousel/logo-carousel.css?v=2"
+    ],
+    "aantal_details": 3,
+    "aantal_tabellen": 0
+  },
+  "gemeten_op": "2026-11-05"
+}

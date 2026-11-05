@@ -1,0 +1,908 @@
+{
+  "url": "/ai-automation/ai-workflows",
+  "build_bestand": "dist/ai-automation/ai-workflows/index.html",
+  "html": {
+    "bytes": 44228,
+    "lang": "en"
+  },
+  "beschermd": {
+    "title": "AI Workflows | Examples and Approach for Business",
+    "meta_description": "What is an AI workflow and how do you set one up? See examples of AI workflows for business, the tools you need and a safe approach for your team.",
+    "canonical": "https://freelanceaiconsultant.com/ai-automation/ai-workflows",
+    "robots_meta": null,
+    "hreflang": [
+      {
+        "hreflang": "en",
+        "href": "https://freelanceaiconsultant.com/ai-automation/ai-workflows"
+      },
+      {
+        "hreflang": "nl",
+        "href": "https://freelanceaiconsultant.com/nl/ai-automatisering/ai-workflows"
+      },
+      {
+        "hreflang": "x-default",
+        "href": "https://freelanceaiconsultant.com/ai-automation/ai-workflows"
+      }
+    ],
+    "h1": [
+      "AI workflows: automating work from start to finish"
+    ]
+  },
+  "social": {
+    "og:type": "website",
+    "og:locale": "en_US",
+    "og:site_name": "freelanceaiconsultant.com",
+    "og:title": "AI Workflows | Examples and Approach for Business",
+    "og:description": "What is an AI workflow and how do you set one up? See examples of AI workflows for business, the tools you need and a safe approach for your team.",
+    "og:url": "https://freelanceaiconsultant.com/ai-automation/ai-workflows",
+    "og:image": "https://freelanceaiconsultant.com/images/dave-portrait.jpg",
+    "twitter:card": "summary_large_image",
+    "twitter:title": "AI Workflows | Examples and Approach for Business",
+    "twitter:description": "What is an AI workflow and how do you set one up? See examples of AI workflows for business, the tools you need and a safe approach for your team.",
+    "twitter:image": "https://freelanceaiconsultant.com/images/dave-portrait.jpg"
+  },
+  "koppen": [
+    {
+      "niveau": 1,
+      "tekst": "AI workflows: automating work from start to finish",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "What is an AI workflow?",
+      "regio": "main",
+      "id": "what-is-an-ai-workflow"
+    },
+    {
+      "niveau": 3,
+      "tekst": "Does the AI model in an AI workflow decide for itself which steps to take?",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 3,
+      "tekst": "Who builds an AI workflow?",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 3,
+      "tekst": "How many steps does implementing an AI workflow involve?",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "AI workflow examples",
+      "regio": "main",
+      "id": "ai-workflow-examples"
+    },
+    {
+      "niveau": 3,
+      "tekst": "Inbox and customer queries",
+      "regio": "main",
+      "id": "inbox-and-customer-queries"
+    },
+    {
+      "niveau": 3,
+      "tekst": "Content and marketing",
+      "regio": "main",
+      "id": "content-and-marketing"
+    },
+    {
+      "niveau": 3,
+      "tekst": "Finance and admin",
+      "regio": "main",
+      "id": "finance-and-admin"
+    },
+    {
+      "niveau": 2,
+      "tekst": "Tools for AI workflows",
+      "regio": "main",
+      "id": "tools-for-ai-workflows"
+    },
+    {
+      "niveau": 2,
+      "tekst": "Implementing an AI workflow",
+      "regio": "main",
+      "id": "implementing-an-ai-workflow"
+    },
+    {
+      "niveau": 2,
+      "tekst": "AI workflows versus AI agents",
+      "regio": "main",
+      "id": "ai-workflows-versus-ai-agents"
+    },
+    {
+      "niveau": 2,
+      "tekst": "Frequently asked questions",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "Sources",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "From AI ambition to real results.",
+      "regio": "main",
+      "id": null
+    }
+  ],
+  "bodytekst": {
+    "regio": "main",
+    "woorden": 2183,
+    "sha256": "858c581367b4e475f6cd9ad9444895b19cc4fa17ef96e13e3aa3d01f4d01cf81",
+    "blokken": [
+      "Home",
+      "AI Automation",
+      "AI Workflows",
+      "AI workflows",
+      "AI workflows: automating work from start to finish",
+      "An AI workflow is a fixed sequence of steps in which one or more steps are carried out by an AI model: reading an email, working through a document, drafting a reply. The rest of the chain is ordinary integrations and a person who checks. Here's what such a workflow looks like, which tools you need and how to roll it out safely.",
+      "Read more about AI automation → See the AI Readiness Assessment →",
+      "Written by Dave Willemstein, independent AI consultant · published October 27, 2026",
+      "IN SHORT",
+      "An AI workflow follows a fixed route; only some steps use AI.",
+      "Build in the check step and the logging from the first version.",
+      "Choose a workflow when the route is predictable, an agent only when it isn't.",
+      "AI in Europe",
+      "European brands already running AI in production.",
+      "Not my clients. Examples of what happens once AI moves past the pilot stage.",
+      "Pause",
+      "Klarna",
+      "Sweden",
+      "AI customer service assistant",
+      "Zalando",
+      "Germany",
+      "Fashion assistant for product advice",
+      "Financial services",
+      "Investment firm",
+      "AI strategy and use-case portfolio",
+      "Booking.com",
+      "Netherlands",
+      "AI Trip Planner for travel planning",
+      "Siemens",
+      "Germany",
+      "Industrial Copilot for engineering",
+      "Retail",
+      "Enterprise retailer",
+      "AI-driven vendor selection",
+      "Spotify",
+      "Sweden",
+      "AI DJ and personalized playlists",
+      "Mercedes-Benz",
+      "Germany",
+      "Generative voice assistant in the car",
+      "Industrial / B2B",
+      "International manufacturer",
+      "AI roadmap and leadership",
+      "ING",
+      "Netherlands",
+      "Generative chatbot for customer queries",
+      "L'Oréal",
+      "France",
+      "Beauty Genius: personalized advice",
+      "Financial services",
+      "Financial services firm",
+      "KYC accelerated with AI document analysis",
+      "SAP",
+      "Germany",
+      "Joule: copilot in business software",
+      "Carrefour",
+      "France",
+      "Hopla: grocery shopping assistant",
+      "Strategy & AI",
+      "SaaS scale-up",
+      "AI readiness assessment",
+      "Adyen",
+      "Netherlands",
+      "AI-driven payment optimization",
+      "Philips",
+      "Netherlands",
+      "AI in medical imaging",
+      "Proces & productivity",
+      "Professional services firm",
+      "Internal AI assistant for knowledge workers",
+      "What is an AI workflow?",
+      "An AI workflow is an automated chain with a route fixed in advance, in which an AI model only does the steps ordinary rules can't handle, such as understanding free text in an email or pulling data out of a PDF. The chain almost always consists of the same building blocks: trigger, retrieve, AI step, check, action and logging. An AI workflow suits a process that always follows the same steps and where every outcome needs to be explainable; only once the steps genuinely differ case by case and a mistake is reversible does an AI agent come into play.",
+      "An AI workflow is an automated sequence of steps in which at least one step is done by an AI model. The route is fixed: this first, then that, outcome A goes left, outcome B goes right. The AI only handles the part where ordinary rules fall short, such as understanding an email written in free text or pulling data out of a PDF.",
+      "An AI workflow almost always consists of the same building blocks:",
+      "Trigger: something starts the workflow, such as a new email, a form or a scheduled time.",
+      "Retrieve: the workflow gathers what it needs from your systems.",
+      "AI step: the model reads, classifies, summarises or drafts a reply.",
+      "Check: rules check the output and a person reviews what matters.",
+      "Action: the workflow writes something back, creates a task or queues a message.",
+      "Logging: every step is recorded, so you can see afterwards what happened.",
+      "TriggerNew email, form or scheduled time",
+      "RetrieveCustomer data, order history, documents",
+      "AI stepReading, classifying, summarising or drafting a reply",
+      "CheckRule check plus review by a staff member",
+      "ActionWriting back, creating a task or queuing a message",
+      "LoggingEvery step recorded for review and improvement",
+      "The building blocks of an AI workflow. The AI step is one link; the rest is ordinary automation and human checking.",
+      "The difference from a standalone AI assistant: an assistant waits for a user’s question, an AI workflow runs inside your process and repeats the same step every time. AI workflow automation is therefore a part of AI automation in the broader sense.",
+      "Does the AI model in an AI workflow decide for itself which steps to take?",
+      "No. In an AI workflow the route is fixed in advance and the AI model only fills in a step. An AI agent, by contrast, gets a goal and chooses for itself which steps and tools to use.",
+      "Who builds an AI workflow?",
+      "A simple AI workflow flow can be built by a capable colleague on a no-code platform. As soon as integrations with core systems or sensitive data are involved, an IT team or partner is needed, and the client contracts that partner directly.",
+      "How many steps does implementing an AI workflow involve?",
+      "In practice, implementing an AI workflow comes down to five steps: choosing one process and measuring it beforehand, mapping the route with the people who do the work today, deciding who builds it, testing with real examples, and arranging management before go-live. Testing includes running the AI workflow alongside the current process for a few weeks.",
+      "Source: article by Dave Willemstein. Updated: October 2026.",
+      "AI workflow examples",
+      "Three examples of AI workflows for business, described generically. They’re deliberately small: one process, a clear check step, a measurable result.",
+      "Inbox and customer queries",
+      "An email arrives in the shared inbox. The workflow looks up the sender in the CRM and hands the email to an AI step, which determines the topic (order, complaint, invoice query, other) and estimates urgency. For a familiar topic, the AI drafts a reply from the knowledge base. The draft arrives as a task for the right staff member, who checks it and sends it. If the model is unsure, the email goes to a person with no draft attached.",
+      "Content and marketing",
+      "A product manager fills in a short form with new product details. The workflow retrieves the specifications, has the AI step write product copy and a few social media variants in-house style, and queues everything in the content system as a draft. An editor approves or adjusts it. Factual details such as prices and dimensions come from the product system, not the language model.",
+      "Finance and admin",
+      "A supplier emails an invoice as a PDF. The workflow saves the attachment, the AI step reads out supplier, amount, VAT and order number, and a rule step compares those details against the purchase order. If everything matches within the agreed margin, the invoice is queued for approval. If something’s off, accounts payable gets a flag with the discrepancy. The workflow never makes a payment itself.",
+      "More examples by process, and a method for choosing which process to tackle first, are covered under automate business processes with AI.",
+      "Example scenario",
+      "A maintenance company with 70 staff gets around 600 emails a week in the shared inbox: fault reports, appointment requests, invoice queries and other post. Two planners sort all of it by hand, spending roughly 10 hours a week on it between them.",
+      "The adviser maps the route with the planners and sets the requirements for a workflow in Power Automate, which the company's own IT administrator builds. The AI step determines topic and urgency; if it's unsure, the email goes unsorted to a planner. For the first six weeks, a planner checks a daily sample of twenty emails.",
+      "After six weeks, 92 percent of emails are correctly routed and sorting time drops from 10 to around 3 hours a week. The workflow never sends anything to customers itself.",
+      "Fictional example, built from situations that come up often. The organisation and figures are illustrative.",
+      "Tools for AI workflows",
+      "For most AI workflows you need a workflow platform that connects your systems and can call an AI step. Four well-known platforms, each with a feature the vendor itself highlights (as of October 2026):",
+      "Platform",
+      "Relevant feature according to the vendor",
+      "Zapier",
+      "Focuses on connecting a wide range of apps; states more than 9,000 integrations and offers AI agents",
+      "Make",
+      "Visual platform where you build flows as a diagram; reports more than 3,000 ready-made app integrations",
+      "n8n",
+      "Self-hostable (including with Docker) alongside a hosted version; more than 500 integrations",
+      "Power Automate",
+      "Cloud flows and desktop flows; AI models via AI Builder, for example for document processing",
+      "Which one fits depends less on the feature list than on your situation. If you already work entirely in Microsoft 365, Power Automate is the obvious choice. If you want to keep data inside your own environment, a self-hostable platform is an option, but then you’re also responsible for management and security yourself. Prices and features change quickly; check them with the vendor. A broader overview, including assistants and when custom development is needed, is covered under AI tools.",
+      "I have no commercial relationship with any of these vendors and receive no commission. That means I can also advise you to stick with your existing software for now.",
+      "Implementing an AI workflow",
+      "Implementing an AI workflow comes down to five steps in practice:",
+      "Choose one process with high volume, predictable input and an owner who benefits from it. Measure time, volume and errors beforehand.",
+      "Map the route with the people who do the work today. Decide which step becomes AI and what happens when the model is unsure.",
+      "Decide who builds it. A simple flow can be built by a capable colleague on a no-code platform. As soon as integrations with core systems or sensitive data are involved, you need an IT team or partner. You contract that partner directly; I help set the requirements and assess the delivery.",
+      "Test with real examples, including the difficult cases, and run the workflow alongside the current process for a few weeks.",
+      "Arrange management before go-live: who looks at error messages, who reviews samples, who’s allowed to switch the workflow off?",
+      "For an AI workflow in a small or medium-sized business, step 3 is often the hardest: there’s no IT department, and choosing an external party without technical knowledge is difficult. That’s exactly when it helps to have the requirements on paper beforehand, so you can compare quotes on the same points.",
+      "AI workflows versus AI agents",
+      "The difference is in who decides the route. With an AI workflow, you’ve fixed the route in advance; the AI only fills in a step. With an AI agent, the model gets a goal and chooses for itself which steps and tools to use.",
+      "AI workflowFixed route, predictable behaviour, easy to test and check.",
+      "AI agentFlexible route, can handle unexpected situations, harder to test and check.",
+      "Choose a workflow whenthe process always follows the same steps and you need to be able to explain every outcome.",
+      "Choose an agent whenthe steps genuinely differ case by case and a mistake is reversible.",
+      "Workflow or agent: the difference is in who decides the route.",
+      "My advice is almost always to start with a workflow. You learn which errors occur and where a person is still needed. You need that knowledge before giving a model more freedom. Where agents do and don’t work well is covered in what AI agents can and cannot do.",
+      "Not sure which process lends itself to a first AI workflow, or want a build partner’s proposal checked over? Book a thirty-minute advice call.",
+      "Dave Willemstein Independent AI Advisor",
+      "Independent: no commissions, no partner deals, no margin on implementation partners.",
+      "About My partner network",
+      "Want to know where you stand with AI? See the AI Readiness Assessment →",
+      "Frequently asked questions",
+      "What does an AI workflow cost per month?+",
+      "That's made up of three parts: the subscription to the workflow platform, the usage cost of the AI model per task processed, and the time spent on management. The first two depend heavily on volume. Have the vendor or build partner work out the cost per task processed, and multiply that by your expected volume, and by double that.",
+      "What data am I allowed to put through an AI workflow?+",
+      "First establish whether the stream contains personal data or confidential business information. If so, check where the AI model and the platform process and store that data, whether it's used to train models, and whether a data processing agreement is in place. Only send the fields the AI step actually needs.",
+      "Who on my team should manage an AI workflow?+",
+      "Someone who knows the process and someone who knows the platform. That's often a process owner from the business plus a functional administrator or IT staff member. The process owner judges the quality of the output; the administrator keeps an eye on integrations, permissions and error messages.",
+      "What do I do when the AI model behind my workflow changes?+",
+      "Vendors regularly replace models with newer versions. So keep a fixed test set of real examples and the desired outcome. Re-run that set at every model change and compare the results before putting the new version into production.",
+      "Sources",
+      "Zapier: AI automation and integrations (as of October 2026)",
+      "Make: visual automation platform (as of October 2026)",
+      "n8n: workflow automation, self-hostable (as of October 2026)",
+      "Microsoft Learn: What is Power Automate?",
+      "Microsoft Learn: Overview of AI Builder",
+      "Ready for impact?",
+      "From AI ambition to real results.",
+      "Book a no-obligation call. No pitch. Just sharp questions.",
+      "30 min., no pitch deckBook a call →"
+    ]
+  },
+  "links": [
+    {
+      "regio": "overig",
+      "soort": "intern",
+      "href": "#main",
+      "anker": "Skip to main content",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/",
+      "anker": "",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/services",
+      "anker": "Services",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/cases",
+      "anker": "Cases",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/approach",
+      "anker": "Approach",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/insights",
+      "anker": "Insights",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/about",
+      "anker": "About",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/nl/ai-automatisering/ai-workflows",
+      "anker": "NL",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/contact",
+      "anker": "Book a call →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/",
+      "anker": "Home",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/ai-automation",
+      "anker": "AI Automation",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/ai-automation",
+      "anker": "Read more about AI automation →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/services/ai-readiness-assessment",
+      "anker": "See the AI Readiness Assessment →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/about",
+      "anker": "Dave Willemstein",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/ai-automation",
+      "anker": "AI automation",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/ai-automation/automate-business-processes-with-ai",
+      "anker": "automate business processes with AI",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "extern",
+      "href": "https://zapier.com/",
+      "anker": "Zapier",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "extern",
+      "href": "https://www.make.com/en",
+      "anker": "Make",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "extern",
+      "href": "https://n8n.io/",
+      "anker": "n8n",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "extern",
+      "href": "https://learn.microsoft.com/en-us/power-automate/flow-types",
+      "anker": "Power Automate",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "extern",
+      "href": "https://learn.microsoft.com/en-us/ai-builder/overview",
+      "anker": "AI Builder",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/ai-automation/ai-tools",
+      "anker": "AI tools",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/insights/what-ai-agents-can-and-cannot-do",
+      "anker": "what AI agents can and cannot do",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/contact",
+      "anker": "Book a thirty-minute advice call",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/about",
+      "anker": "About",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/partner-network",
+      "anker": "My partner network",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/services/ai-readiness-assessment",
+      "anker": "Want to know where you stand with AI? See the AI Readiness Assessment →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "extern",
+      "href": "https://zapier.com/",
+      "anker": "Zapier: AI automation and integrations (as of October 2026)",
+      "rel": "noopener"
+    },
+    {
+      "regio": "main",
+      "soort": "extern",
+      "href": "https://www.make.com/en",
+      "anker": "Make: visual automation platform (as of October 2026)",
+      "rel": "noopener"
+    },
+    {
+      "regio": "main",
+      "soort": "extern",
+      "href": "https://n8n.io/",
+      "anker": "n8n: workflow automation, self-hostable (as of October 2026)",
+      "rel": "noopener"
+    },
+    {
+      "regio": "main",
+      "soort": "extern",
+      "href": "https://learn.microsoft.com/en-us/power-automate/flow-types",
+      "anker": "Microsoft Learn: What is Power Automate?",
+      "rel": "noopener"
+    },
+    {
+      "regio": "main",
+      "soort": "extern",
+      "href": "https://learn.microsoft.com/en-us/ai-builder/overview",
+      "anker": "Microsoft Learn: Overview of AI Builder",
+      "rel": "noopener"
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/contact",
+      "anker": "Book a call →",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/services/ai-readiness-assessment",
+      "anker": "AI Readiness Assessment",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/services/ai-strategy-sprint",
+      "anker": "AI Strategy Sprint",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/services/fractional-ai-lead",
+      "anker": "Fractional AI Lead",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/services",
+      "anker": "All services",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/cases",
+      "anker": "Cases",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/approach",
+      "anker": "Approach",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/insights",
+      "anker": "Insights",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/faq",
+      "anker": "FAQ",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/about",
+      "anker": "About",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-consulting",
+      "anker": "AI consulting",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-implementation",
+      "anker": "AI implementation",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-automation",
+      "anker": "AI automation",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-for-business",
+      "anker": "AI for business",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-development",
+      "anker": "AI development",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-agents",
+      "anker": "AI agents",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-policy",
+      "anker": "AI policy",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-workshop",
+      "anker": "AI workshop",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/markets",
+      "anker": "AI by industry",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/knowledge-base",
+      "anker": "Knowledge base",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/pricing",
+      "anker": "Pricing",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/partner-network",
+      "anker": "Partner network",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "overig",
+      "href": "mailto:dave@freelanceaiconsultant.com",
+      "anker": "dave@freelanceaiconsultant.com",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "extern",
+      "href": "https://www.linkedin.com/in/davewillemstein",
+      "anker": "LinkedIn ↗",
+      "rel": "noopener"
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/contact",
+      "anker": "Book a call",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/privacy",
+      "anker": "Privacy policy",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/terms",
+      "anker": "Terms & conditions",
+      "rel": null
+    }
+  ],
+  "structured_data": {
+    "sha256": "a404ed72991beb7d8f0f3e7f4d407b59adcb9d5db1ac1f03c5b393ccf8b817f4",
+    "items": [
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://freelanceaiconsultant.com/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "AI Automation",
+                "item": "https://freelanceaiconsultant.com/ai-automation"
+              },
+              {
+                "@type": "ListItem",
+                "position": 3,
+                "name": "AI Workflows",
+                "item": "https://freelanceaiconsultant.com/ai-automation/ai-workflows"
+              }
+            ]
+          },
+          {
+            "@type": "Article",
+            "headline": "AI workflows: automating work from start to finish",
+            "description": "What is an AI workflow and how do you set one up? See examples of AI workflows for business, the tools you need and a safe approach for your team.",
+            "inLanguage": "en-US",
+            "datePublished": "2026-10-27",
+            "dateModified": "2026-10-27",
+            "author": {
+              "@type": "Person",
+              "name": "Dave Willemstein",
+              "jobTitle": "Onafhankelijk AI-adviseur",
+              "url": "https://freelanceaiconsultant.com/over",
+              "sameAs": [
+                "https://www.linkedin.com/in/davewillemstein"
+              ]
+            },
+            "publisher": {
+              "@type": "Person",
+              "name": "Dave Willemstein"
+            },
+            "mainEntityOfPage": "https://freelanceaiconsultant.com/ai-automation/ai-workflows"
+          },
+          {
+            "@type": "FAQPage",
+            "mainEntity": [
+              {
+                "@type": "Question",
+                "name": "What does an AI workflow cost per month?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "That's made up of three parts: the subscription to the workflow platform, the usage cost of the AI model per task processed, and the time spent on management. The first two depend heavily on volume. Have the vendor or build partner work out the cost per task processed, and multiply that by your expected volume, and by double that."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "What data am I allowed to put through an AI workflow?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "First establish whether the stream contains personal data or confidential business information. If so, check where the AI model and the platform process and store that data, whether it's used to train models, and whether a data processing agreement is in place. Only send the fields the AI step actually needs."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Who on my team should manage an AI workflow?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Someone who knows the process and someone who knows the platform. That's often a process owner from the business plus a functional administrator or IT staff member. The process owner judges the quality of the output; the administrator keeps an eye on integrations, permissions and error messages."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "What do I do when the AI model behind my workflow changes?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Vendors regularly replace models with newer versions. So keep a fixed test set of real examples and the desired outcome. Re-run that set at every model change and compare the results before putting the new version into production."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "What is an AI workflow?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "An AI workflow is an automated chain with a route fixed in advance, in which an AI model only does the steps ordinary rules can't handle, such as understanding free text in an email or pulling data out of a PDF. The chain almost always consists of the same building blocks: trigger, retrieve, AI step, check, action and logging. An AI workflow suits a process that always follows the same steps and where every outcome needs to be explainable; only once the steps genuinely differ case by case and a mistake is reversible does an AI agent come into play."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Does the AI model in an AI workflow decide for itself which steps to take?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "No. In an AI workflow the route is fixed in advance and the AI model only fills in a step. An AI agent, by contrast, gets a goal and chooses for itself which steps and tools to use."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Who builds an AI workflow?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "A simple AI workflow flow can be built by a capable colleague on a no-code platform. As soon as integrations with core systems or sensitive data are involved, an IT team or partner is needed, and the client contracts that partner directly."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "How many steps does implementing an AI workflow involve?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "In practice, implementing an AI workflow comes down to five steps: choosing one process and measuring it beforehand, mapping the route with the people who do the work today, deciding who builds it, testing with real examples, and arranging management before go-live. Testing includes running the AI workflow alongside the current process for a few weeks."
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "afbeeldingen": [
+    {
+      "regio": "header",
+      "src": "/images/freelance-ai-consultant-logo-header.png",
+      "alt": "freelanceaiconsultant.com logo",
+      "width": "600",
+      "height": "287",
+      "loading": null
+    },
+    {
+      "regio": "main",
+      "src": "/images/dave-portrait.jpg",
+      "alt": "Portrait of Dave Willemstein",
+      "width": "88",
+      "height": "88",
+      "loading": "lazy"
+    },
+    {
+      "regio": "footer",
+      "src": "/images/freelance-ai-consultant-icon-footer.png",
+      "alt": "",
+      "width": "192",
+      "height": "192",
+      "loading": "lazy"
+    }
+  ],
+  "laadprestaties": {
+    "scripts": [
+      {
+        "src": "/_astro/CookieConsent.astro_astro_type_script_index_0_lang.COcxE8NY.js",
+        "type": "module",
+        "inline_bytes": 0
+      },
+      {
+        "src": null,
+        "type": null,
+        "inline_bytes": 989
+      },
+      {
+        "src": null,
+        "type": null,
+        "inline_bytes": 493
+      },
+      {
+        "src": "/logo-carousel/logo-carousel.js?v=2",
+        "type": null,
+        "inline_bytes": 0
+      },
+      {
+        "src": null,
+        "type": null,
+        "inline_bytes": 725
+      }
+    ],
+    "stylesheets": [
+      "/_astro/_slug_.CzLXI3HH.css",
+      "/_astro/_slug_.Do5RJXa7.css",
+      "/logo-carousel/logo-carousel.css?v=2"
+    ],
+    "aantal_details": 4,
+    "aantal_tabellen": 1
+  },
+  "gemeten_op": "2026-11-05"
+}

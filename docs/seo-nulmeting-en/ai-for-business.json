@@ -1,0 +1,876 @@
+{
+  "url": "/ai-for-business",
+  "build_bestand": "dist/ai-for-business/index.html",
+  "html": {
+    "bytes": 47444,
+    "lang": "en"
+  },
+  "beschermd": {
+    "title": "AI for Business | Opportunities and First Steps",
+    "meta_description": "What can AI for business mean for you? See applications by department and sector, the opportunities and risks, and how to get started responsibly.",
+    "canonical": "https://freelanceaiconsultant.com/ai-for-business",
+    "robots_meta": null,
+    "hreflang": [
+      {
+        "hreflang": "en",
+        "href": "https://freelanceaiconsultant.com/ai-for-business"
+      },
+      {
+        "hreflang": "nl",
+        "href": "https://freelanceaiconsultant.com/nl/ai-voor-bedrijven"
+      },
+      {
+        "hreflang": "x-default",
+        "href": "https://freelanceaiconsultant.com/ai-for-business"
+      }
+    ],
+    "h1": [
+      "AI for business: what can AI mean for your organisation?"
+    ]
+  },
+  "social": {
+    "og:type": "website",
+    "og:locale": "en_US",
+    "og:site_name": "freelanceaiconsultant.com",
+    "og:title": "AI for Business | Opportunities and First Steps",
+    "og:description": "What can AI for business mean for you? See applications by department and sector, the opportunities and risks, and how to get started responsibly.",
+    "og:url": "https://freelanceaiconsultant.com/ai-for-business",
+    "og:image": "https://freelanceaiconsultant.com/images/dave-portrait.jpg",
+    "twitter:card": "summary_large_image",
+    "twitter:title": "AI for Business | Opportunities and First Steps",
+    "twitter:description": "What can AI for business mean for you? See applications by department and sector, the opportunities and risks, and how to get started responsibly.",
+    "twitter:image": "https://freelanceaiconsultant.com/images/dave-portrait.jpg"
+  },
+  "koppen": [
+    {
+      "niveau": 1,
+      "tekst": "AI for business: what can AI mean for your organisation?",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "Where does AI for business pay off most in practice?",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 3,
+      "tekst": "Are the AI Act's rules for high-risk applications delayed for AI for business?",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 3,
+      "tekst": "How does AI for business usually start: with using or with building?",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "What AI can mean for your business",
+      "regio": "main",
+      "id": "what-ai-can-mean-for-your-business"
+    },
+    {
+      "niveau": 2,
+      "tekst": "Applications by department",
+      "regio": "main",
+      "id": "applications-by-department"
+    },
+    {
+      "niveau": 2,
+      "tekst": "AI by industry",
+      "regio": "main",
+      "id": "ai-by-industry"
+    },
+    {
+      "niveau": 2,
+      "tekst": "Opportunities and risks",
+      "regio": "main",
+      "id": "opportunities-and-risks"
+    },
+    {
+      "niveau": 2,
+      "tekst": "Getting started with AI",
+      "regio": "main",
+      "id": "getting-started-with-ai"
+    },
+    {
+      "niveau": 2,
+      "tekst": "How I can help",
+      "regio": "main",
+      "id": "how-i-can-help"
+    },
+    {
+      "niveau": 2,
+      "tekst": "Frequently asked questions",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "Sources",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "From AI ambition to real results.",
+      "regio": "main",
+      "id": null
+    }
+  ],
+  "bodytekst": {
+    "regio": "main",
+    "woorden": 2702,
+    "sha256": "58db63f0015329c2776088387eee9079a26f5564e35571944f92d0d5347b70d2",
+    "blokken": [
+      "Home",
+      "AI for Business",
+      "AI for business",
+      "AI for business: what can AI mean for your organisation?",
+      "AI for business isn't about buying one tool. It's about which work in your organisation could be better, faster or cheaper, and what that takes. This page covers where AI pays off in practice, by department and by industry, the risks that come with it, and how to get started responsibly.",
+      "See the AI Readiness Assessment → Book a strategy call →",
+      "IN SHORT",
+      "AI pays off most on frequent, predictable work with existing data and a human check step.",
+      "The biggest risks are rarely technical: ownership, upkeep, privacy and adoption decide whether it works.",
+      "Start with one well-defined application in the real workflow, not with a platform or a broad rollout.",
+      "AI in Europe",
+      "European brands already running AI in production.",
+      "Not my clients. Examples of what happens once AI moves past the pilot stage.",
+      "Pause",
+      "Klarna",
+      "Sweden",
+      "AI customer service assistant",
+      "Zalando",
+      "Germany",
+      "Fashion assistant for product advice",
+      "Financial services",
+      "Investment firm",
+      "AI strategy and use-case portfolio",
+      "Booking.com",
+      "Netherlands",
+      "AI Trip Planner for travel planning",
+      "Siemens",
+      "Germany",
+      "Industrial Copilot for engineering",
+      "Retail",
+      "Enterprise retailer",
+      "AI-driven vendor selection",
+      "Spotify",
+      "Sweden",
+      "AI DJ and personalized playlists",
+      "Mercedes-Benz",
+      "Germany",
+      "Generative voice assistant in the car",
+      "Industrial / B2B",
+      "International manufacturer",
+      "AI roadmap and leadership",
+      "ING",
+      "Netherlands",
+      "Generative chatbot for customer queries",
+      "L'Oréal",
+      "France",
+      "Beauty Genius: personalized advice",
+      "Financial services",
+      "Financial services firm",
+      "KYC accelerated with AI document analysis",
+      "SAP",
+      "Germany",
+      "Joule: copilot in business software",
+      "Carrefour",
+      "France",
+      "Hopla: grocery shopping assistant",
+      "Strategy & AI",
+      "SaaS scale-up",
+      "AI readiness assessment",
+      "Adyen",
+      "Netherlands",
+      "AI-driven payment optimization",
+      "Philips",
+      "Netherlands",
+      "AI in medical imaging",
+      "Proces & productivity",
+      "Professional services firm",
+      "Internal AI assistant for knowledge workers",
+      "Where does AI for business pay off most in practice?",
+      "AI for business pays off most on work that's frequent and predictable, with existing data and a human check step. The risks are rarely technical in nature: it comes down to a missing owner, missing upkeep, privacy and confidentiality, regulation, and shadow use. Anyone who wants to know where the organisation stands first can start with the AI Readiness Assessment of 2-3 weeks for a fixed project fee.",
+      "Are the AI Act's rules for high-risk applications delayed for AI for business?",
+      "Yes, but not only for EU-based businesses. Under the Digital Omnibus on AI, which took effect on 27 July 2026, the rules for the high-risk areas in Annex III, such as recruitment and credit scoring, apply from 2 December 2027, and for AI embedded in regulated products from 2 August 2028. Under Article 2 of the AI Act, these rules also apply to a UK business that places an AI system on the EU market, or whose AI system's output is used in the EU. The UK itself has no AI Act and regulates AI through existing sector regulators instead, so a UK-only business with no EU market presence and no EU users of its AI output sits outside the Act's scope. For AI for business, it still pays to know now which category an application falls into.",
+      "How does AI for business usually start: with using or with building?",
+      "Using: in AI for business, a lot of value sits in tools and AI features that already exist or are easy to buy. Custom work only becomes worthwhile once standard tools clearly fall short.",
+      "Source: article by Dave Willemstein; primary source: Regulation (EU) 2026/1744 (Digital Omnibus on AI), Official Journal L of 24.7.2026, EUR-Lex; European Commission: AI Omnibus enters into force (27 July 2026); Regulation (EU) 2024/1689 (AI Act), EUR-Lex (as of 6 October 2026); AI Act Service Desk (European Commission), Article 2, scope; UK Government, 'AI regulation: a pro-innovation approach'. Updated: October 2026.",
+      "What AI can mean for your business",
+      "AI for business sounds big, but the value is usually in small, repeated tasks. A quote that’s ready in fifteen minutes instead of an hour. A customer query that lands with the right colleague straight away. A contract that’s already been checked for unusual clauses. A few minutes at a time, but a thousand times a month.",
+      "What AI is genuinely good at in 2026 is working with language and unstructured information: summarising text, searching documents, drafting copy, pulling data out of emails and PDFs, and spotting patterns in large volumes of data. What it can’t do is carry responsibility. An AI application makes mistakes, and the question is always whether you catch those mistakes in time and what they cost.",
+      "That’s why I start with the work, not the technology. The question isn’t “what can we do with AI?”, but “which work is costing us too much time, money or quality right now, and does AI help with that?”. That distinction sounds small. In practice, it decides whether you end up with a working application after a year, or a pile of pilot projects. Why adoption starts with the work, not the tool, is a theme I come back to across this site.",
+      "Across sectors, the first wins tend to come from similar places: marketing and sales content, and admin or back-office work. The businesses that hold back most often cite a lack of experience with AI, rather than cost or technology, as the main reason. That’s exactly where the right approach makes the difference.",
+      "Applications by department",
+      "The opportunities sit in different places per department. A few recognisable examples, all based on work that comes up often and has a similar shape:",
+      "Customer service: categorising and routing queries, suggesting draft replies that a staff member checks, and answering frequently asked questions from your own knowledge base.",
+      "Sales: drafting quotes and proposals based on earlier documents, summarising call notes, and preparing customer information ahead of a meeting.",
+      "Marketing: producing variants of copy, rewriting content for other channels, and analysing customer feedback for recurring themes.",
+      "Finance and admin: reading invoices and receipts, flagging anomalies, and adding plain-language commentary to reports.",
+      "HR: drafting job adverts, answering internal questions about policies, and keeping onboarding materials up to date. Be cautious with anything that touches decisions about people.",
+      "Operations and IT: summarising incident reports, making documentation searchable, and supporting planning with forecasts.",
+      "Management: pulling information from different sources together and interpreting reports faster. This is where AI overlaps with business intelligence.",
+      "Many of these applications come down to automating recurring steps in a process. How you decide which processes are suitable for that, and how to do it without automating a process you’d be better off dropping, is covered on the AI automation page.",
+      "AI by industry",
+      "The departments look similar across sectors; the rules of the game don’t. In financial services, oversight and explainability set the boundaries. In healthcare, privacy and patient safety weigh heavily. In government, transparency and equal treatment play a bigger role. In education, it’s also about what students are and aren’t allowed to use AI for.",
+      "For two groups in particular, the questions are similar enough that they deserve their own treatment:",
+      "Small and medium-sized businesses. Less volume, no in-house data team and a tighter budget, but short lines of communication. Which applications work there, and how to start without a big budget, is covered on AI for small business.",
+      "Professional services firms. Accountants, lawyers, advisers and agencies work almost entirely with documents and knowledge. That makes AI especially useful there, but confidentiality and professional rules need extra care.",
+      "Example scenario",
+      "A metalworking company with 150 staff receives around 2,400 quote requests a year, each with technical drawings. Two estimators spend an average of 45 minutes per request working out materials, operations and comparable past orders.",
+      "The adviser helps leadership choose: not a custom build, but an existing search function over past orders and drawings, set up by their own IT partner. The agreed target beforehand: the application needs to save at least 15 minutes per request, measured over 200 requests.",
+      "After three months, a request takes 30 minutes on average. That saves roughly 600 hours a year. The estimator still sets the price. Deliberately not done: letting quotes be generated and sent automatically, because one wrong price costs more than the extra time saved.",
+      "Illustrative example, built from situations that come up often. The organisation and figures are for illustration.",
+      "Opportunities and risks",
+      "AI offers three kinds of opportunity. Time: less manual work on recurring tasks. Quality: fewer errors and more consistent output, provided there’s a check step. And new possibilities: information that used to be out of reach, such as thousands of documents or customer messages, suddenly becomes usable.",
+      "Not every opportunity is equally valuable. The applications that succeed tend to share a few traits: high volume, low variation, data that already exists, and an error that’s visible and affordable.",
+      "High volume, error visible and affordableBest starting point. Think summarising, categorising and draft copy with a check step.",
+      "High volume, error costly or invisibleValuable, but only with monitoring and a solid human check.",
+      "Low volume, error affordableFine to experiment with using a standard tool, but not a business case.",
+      "Low volume, error costlyNot a good first application. The investment in control doesn't outweigh the gain.",
+      "The more often a task comes up and the better you can catch an error, the faster AI pays for itself.",
+      "The risks are rarely technical in nature:",
+      "No owner. A pilot that works but isn’t picked up by anyone in the business evaporates. That’s the most common reason AI pilots stall.",
+      "No upkeep. AI applications need ongoing maintenance. Whoever doesn’t plan for that sees quality drift downward without noticing.",
+      "Privacy and confidentiality. Putting customer or staff data into a tool that isn’t set up for it is a data protection risk and a trust risk.",
+      "Regulation. The AI Act sets requirements that depend on an application’s risk level, and its reach isn’t limited to EU-based organisations: under Article 2 of the Act, it also applies to UK organisations that place an AI system on the EU market, or whose AI system’s output is used in the EU, regardless of where they’re established. Under the Digital Omnibus on AI, which took effect on 27 July 2026, the rules for the high-risk areas in Annex III, such as recruitment and credit scoring, have been delayed until 2 December 2027, and for AI embedded in regulated products until 2 August 2028. The UK has no AI Act of its own: it regulates AI through existing sector regulators instead, applying shared principles rather than one cross-cutting AI law, as set out in the UK government’s AI regulation: a pro-innovation approach. A UK-only organisation with no EU market presence and no EU users of its AI output sits outside the Act’s scope; everyone else should know which category their applications would fall into. A delay isn’t a cancellation. How to arrange that without creating a paper exercise is covered under AI policy and governance.",
+      "Shadow use. If the organisation doesn’t offer an approved tool, staff use their own. Then you carry the risk without any oversight or control.",
+      "Getting started with AI",
+      "You don’t need to start with a fifty-page strategy. You do need a few deliberate choices, in this order:",
+      "Choose the workWhich task comes up often, costs a lot of time, and has an owner in the business?",
+      "Check the dataDoes the information you need already exist, and is it already in use?",
+      "Test small, but realOne team, real data, the real workflow and a human check step.",
+      "Measure and decideAn agreed threshold up front: carry on, adjust or stop.",
+      "Scale and embedSet up upkeep, policy and training before you roll out more broadly.",
+      "From first application to everyday use: every step produces a decision, not just a document.",
+      "A few practical points to go with it:",
+      "Start with using, not building. A lot of value sits in tools and AI features you already have or can easily buy. Custom development only makes sense once standard tools clearly fall short.",
+      "Set a few ground rules. Which tools are allowed, which data can’t go into them, and who decides. One page is enough to start.",
+      "Invest in skills. Staff who know what AI can and can’t do get more out of it and make fewer mistakes. A workshop or training session built around their own tasks works better than a generic demo.",
+      "Look beyond the licence. Integration, upkeep and your own people’s time are often bigger than the cost of the tool itself.",
+      "Anyone who wants more clarity before committing budget can start with an assessment. More on that in the next section.",
+      "How I can help",
+      "I’m an independent AI advisor. I advise, build strategy and roadmaps, select vendors, test business cases, set up governance, and guide implementations from your side of the table. I don’t build or sell software myself, and I don’t earn anything from the tools or parties I advise on.",
+      "Concretely, I can help in these ways:",
+      "Knowing where you stand. With an AI Readiness Assessment I map strategy, data, technology, people and governance in 2-3 weeks, with a 90-day plan as the result. Fixed project fee.",
+      "A shared picture at the top. An Executive Briefing of one half-day gives your leadership team or board a realistic starting point.",
+      "Strategy and roadmap. From scattered ideas to choices, priorities and a plan. Everything about this form of advice is covered under AI consulting.",
+      "From plan to working application. I guide the rollout, steer the delivery partner and make sure it lands in the day-to-day work. See AI implementation.",
+      "Choosing and testing. A Vendor Review, an AI Due Diligence, or a second opinion on a proposal that’s already on the table.",
+      "The building itself is done by your own team or a party you contract directly. Where that’s useful, I introduce partners from my partner network, with no margin on their rate. What the different forms cost is set out clearly on the pricing page.",
+      "If you have a specific question, book a thirty-minute call. By the end you’ll know what I’d do, even if that means you don’t need me.",
+      "Dave Willemstein Independent AI Advisor",
+      "Independent: no commissions, no partner deals, no margin on implementation partners.",
+      "About My partner network",
+      "Want to know where you stand with AI? See the AI Readiness Assessment →",
+      "Frequently asked questions",
+      "Is AI only worth it for large companies?+",
+      "No. Larger organisations have more volume and often more data, but smaller businesses can move faster. Many applications, such as summarising, drafting and finding information, don't need a dedicated data team. The real difference is how much guidance and customisation makes sense for your size.",
+      "Do we need our data in order first?+",
+      "Usually not. You need enough of a data foundation for one concrete application, not a perfect data landscape. For that one application, check that definitions are consistent, where the data comes from, and whether its quality is good enough.",
+      "What's the difference between using AI and having AI built?+",
+      "Using means working with existing tools, such as an AI assistant or AI features in software you already have. Having AI built means custom work, such as a connection to your own systems or an AI agent. Start with using where you can, and move to custom work only once standard tools clearly fall short.",
+      "How do we stop staff from picking their own AI tools?+",
+      "Banning it rarely works. It's better to offer an approved tool, set out in a short policy which data can and can't go into it, and let people practise on their own tasks. Then nobody has a reason to reach for a free tool instead.",
+      "How do I measure whether AI delivers anything?+",
+      "Set a baseline before you start for the task you want to improve, such as turnaround time, error rate or time per case. Measure again after a fixed period with the same group. Also look at usage: an application nobody uses delivers nothing, however well it works technically.",
+      "Sources",
+      "European Commission: AI Omnibus enters into force (27 July 2026)",
+      "AI Act Service Desk (European Commission): Article 2, scope",
+      "UK Government: AI regulation, a pro-innovation approach",
+      "Ready for impact?",
+      "From AI ambition to real results.",
+      "Book a no-obligation call. No pitch. Just sharp questions.",
+      "30 min., no pitch deckBook a call →"
+    ]
+  },
+  "links": [
+    {
+      "regio": "overig",
+      "soort": "intern",
+      "href": "#main",
+      "anker": "Skip to main content",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/",
+      "anker": "",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/services",
+      "anker": "Services",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/cases",
+      "anker": "Cases",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/approach",
+      "anker": "Approach",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/insights",
+      "anker": "Insights",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/about",
+      "anker": "About",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/nl/ai-voor-bedrijven",
+      "anker": "NL",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/contact",
+      "anker": "Book a call →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/",
+      "anker": "Home",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/services/ai-readiness-assessment",
+      "anker": "See the AI Readiness Assessment →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/contact",
+      "anker": "Book a strategy call →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/services/ai-readiness-assessment",
+      "anker": "AI Readiness Assessment",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/ai-automation",
+      "anker": "AI automation",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/ai-for-business/sme",
+      "anker": "AI for small business",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "extern",
+      "href": "https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-2",
+      "anker": "Article 2 of the Act",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "extern",
+      "href": "https://www.gov.uk/government/publications/ai-regulation-a-pro-innovation-approach",
+      "anker": "AI regulation: a pro-innovation approach",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/ai-policy",
+      "anker": "AI policy and governance",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/services/ai-readiness-assessment",
+      "anker": "AI Readiness Assessment",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/services/executive-briefing",
+      "anker": "Executive Briefing",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/ai-consulting",
+      "anker": "AI consulting",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/ai-implementation",
+      "anker": "AI implementation",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/partner-network",
+      "anker": "partner network",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/pricing",
+      "anker": "pricing",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/contact",
+      "anker": "book a thirty-minute call",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/about",
+      "anker": "About",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/partner-network",
+      "anker": "My partner network",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/services/ai-readiness-assessment",
+      "anker": "Want to know where you stand with AI? See the AI Readiness Assessment →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "extern",
+      "href": "https://digital-strategy.ec.europa.eu/en/news/ai-omnibus-enters-force",
+      "anker": "European Commission: AI Omnibus enters into force (27 July 2026)",
+      "rel": "noopener"
+    },
+    {
+      "regio": "main",
+      "soort": "extern",
+      "href": "https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-2",
+      "anker": "AI Act Service Desk (European Commission): Article 2, scope",
+      "rel": "noopener"
+    },
+    {
+      "regio": "main",
+      "soort": "extern",
+      "href": "https://www.gov.uk/government/publications/ai-regulation-a-pro-innovation-approach",
+      "anker": "UK Government: AI regulation, a pro-innovation approach",
+      "rel": "noopener"
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/contact",
+      "anker": "Book a call →",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/services/ai-readiness-assessment",
+      "anker": "AI Readiness Assessment",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/services/ai-strategy-sprint",
+      "anker": "AI Strategy Sprint",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/services/fractional-ai-lead",
+      "anker": "Fractional AI Lead",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/services",
+      "anker": "All services",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/cases",
+      "anker": "Cases",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/approach",
+      "anker": "Approach",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/insights",
+      "anker": "Insights",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/faq",
+      "anker": "FAQ",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/about",
+      "anker": "About",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-consulting",
+      "anker": "AI consulting",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-implementation",
+      "anker": "AI implementation",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-automation",
+      "anker": "AI automation",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-for-business",
+      "anker": "AI for business",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-development",
+      "anker": "AI development",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-agents",
+      "anker": "AI agents",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-policy",
+      "anker": "AI policy",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-workshop",
+      "anker": "AI workshop",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/markets",
+      "anker": "AI by industry",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/knowledge-base",
+      "anker": "Knowledge base",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/pricing",
+      "anker": "Pricing",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/partner-network",
+      "anker": "Partner network",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "overig",
+      "href": "mailto:dave@freelanceaiconsultant.com",
+      "anker": "dave@freelanceaiconsultant.com",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "extern",
+      "href": "https://www.linkedin.com/in/davewillemstein",
+      "anker": "LinkedIn ↗",
+      "rel": "noopener"
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/contact",
+      "anker": "Book a call",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/privacy",
+      "anker": "Privacy policy",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/terms",
+      "anker": "Terms & conditions",
+      "rel": null
+    }
+  ],
+  "structured_data": {
+    "sha256": "4a0443418669da9154838226d9be7bf547cd20c65ebcd4f7d261981dd1ed8e21",
+    "items": [
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://freelanceaiconsultant.com/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "AI for Business",
+                "item": "https://freelanceaiconsultant.com/ai-for-business"
+              }
+            ]
+          },
+          {
+            "@type": "Service",
+            "name": "AI for Business",
+            "serviceType": "ai for business",
+            "description": "What can AI for business mean for you? See applications by department and sector, the opportunities and risks, and how to get started responsibly.",
+            "url": "https://freelanceaiconsultant.com/ai-for-business",
+            "areaServed": "GB",
+            "provider": {
+              "@type": "Person",
+              "name": "Dave Willemstein",
+              "jobTitle": "Onafhankelijk AI-adviseur",
+              "url": "https://freelanceaiconsultant.com/over",
+              "sameAs": [
+                "https://www.linkedin.com/in/davewillemstein"
+              ]
+            }
+          },
+          {
+            "@type": "FAQPage",
+            "mainEntity": [
+              {
+                "@type": "Question",
+                "name": "Is AI only worth it for large companies?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "No. Larger organisations have more volume and often more data, but smaller businesses can move faster. Many applications, such as summarising, drafting and finding information, don't need a dedicated data team. The real difference is how much guidance and customisation makes sense for your size."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Do we need our data in order first?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Usually not. You need enough of a data foundation for one concrete application, not a perfect data landscape. For that one application, check that definitions are consistent, where the data comes from, and whether its quality is good enough."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "What's the difference between using AI and having AI built?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Using means working with existing tools, such as an AI assistant or AI features in software you already have. Having AI built means custom work, such as a connection to your own systems or an AI agent. Start with using where you can, and move to custom work only once standard tools clearly fall short."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "How do we stop staff from picking their own AI tools?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Banning it rarely works. It's better to offer an approved tool, set out in a short policy which data can and can't go into it, and let people practise on their own tasks. Then nobody has a reason to reach for a free tool instead."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "How do I measure whether AI delivers anything?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Set a baseline before you start for the task you want to improve, such as turnaround time, error rate or time per case. Measure again after a fixed period with the same group. Also look at usage: an application nobody uses delivers nothing, however well it works technically."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Where does AI for business pay off most in practice?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "AI for business pays off most on work that's frequent and predictable, with existing data and a human check step. The risks are rarely technical in nature: it comes down to a missing owner, missing upkeep, privacy and confidentiality, regulation, and shadow use. Anyone who wants to know where the organisation stands first can start with the AI Readiness Assessment of 2-3 weeks for a fixed project fee."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Are the AI Act's rules for high-risk applications delayed for AI for business?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Yes, but not only for EU-based businesses. Under the Digital Omnibus on AI, which took effect on 27 July 2026, the rules for the high-risk areas in Annex III, such as recruitment and credit scoring, apply from 2 December 2027, and for AI embedded in regulated products from 2 August 2028. Under Article 2 of the AI Act, these rules also apply to a UK business that places an AI system on the EU market, or whose AI system's output is used in the EU. The UK itself has no AI Act and regulates AI through existing sector regulators instead, so a UK-only business with no EU market presence and no EU users of its AI output sits outside the Act's scope. For AI for business, it still pays to know now which category an application falls into."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "How does AI for business usually start: with using or with building?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Using: in AI for business, a lot of value sits in tools and AI features that already exist or are easy to buy. Custom work only becomes worthwhile once standard tools clearly fall short."
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "afbeeldingen": [
+    {
+      "regio": "header",
+      "src": "/images/freelance-ai-consultant-logo-header.png",
+      "alt": "freelanceaiconsultant.com logo",
+      "width": "600",
+      "height": "287",
+      "loading": null
+    },
+    {
+      "regio": "main",
+      "src": "/images/dave-portrait.jpg",
+      "alt": "Portrait of Dave Willemstein",
+      "width": "88",
+      "height": "88",
+      "loading": "lazy"
+    },
+    {
+      "regio": "footer",
+      "src": "/images/freelance-ai-consultant-icon-footer.png",
+      "alt": "",
+      "width": "192",
+      "height": "192",
+      "loading": "lazy"
+    }
+  ],
+  "laadprestaties": {
+    "scripts": [
+      {
+        "src": "/_astro/CookieConsent.astro_astro_type_script_index_0_lang.COcxE8NY.js",
+        "type": "module",
+        "inline_bytes": 0
+      },
+      {
+        "src": null,
+        "type": null,
+        "inline_bytes": 989
+      },
+      {
+        "src": null,
+        "type": null,
+        "inline_bytes": 493
+      },
+      {
+        "src": "/logo-carousel/logo-carousel.js?v=2",
+        "type": null,
+        "inline_bytes": 0
+      },
+      {
+        "src": null,
+        "type": null,
+        "inline_bytes": 725
+      }
+    ],
+    "stylesheets": [
+      "/_astro/_slug_.CzLXI3HH.css",
+      "/_astro/_slug_.Do5RJXa7.css",
+      "/logo-carousel/logo-carousel.css?v=2"
+    ],
+    "aantal_details": 5,
+    "aantal_tabellen": 0
+  },
+  "gemeten_op": "2026-11-05"
+}

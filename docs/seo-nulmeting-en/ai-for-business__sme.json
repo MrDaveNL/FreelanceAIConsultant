@@ -1,0 +1,956 @@
+{
+  "url": "/ai-for-business/sme",
+  "build_bestand": "dist/ai-for-business/sme/index.html",
+  "html": {
+    "bytes": 47278,
+    "lang": "en"
+  },
+  "beschermd": {
+    "title": "AI for Small Business | Applications, Risks and First Steps",
+    "meta_description": "AI for small business and SMEs: concrete applications, risks and first steps. See where you win time fastest and how to start without a big budget.",
+    "canonical": "https://freelanceaiconsultant.com/ai-for-business/sme",
+    "robots_meta": null,
+    "hreflang": [
+      {
+        "hreflang": "en",
+        "href": "https://freelanceaiconsultant.com/ai-for-business/sme"
+      },
+      {
+        "hreflang": "nl",
+        "href": "https://freelanceaiconsultant.com/nl/ai-voor-bedrijven/mkb"
+      },
+      {
+        "hreflang": "x-default",
+        "href": "https://freelanceaiconsultant.com/ai-for-business/sme"
+      }
+    ],
+    "h1": [
+      "AI for small business: where do you start, and what does it deliver?"
+    ]
+  },
+  "social": {
+    "og:type": "website",
+    "og:locale": "en_US",
+    "og:site_name": "freelanceaiconsultant.com",
+    "og:title": "AI for Small Business | Applications, Risks and First Steps",
+    "og:description": "AI for small business and SMEs: concrete applications, risks and first steps. See where you win time fastest and how to start without a big budget.",
+    "og:url": "https://freelanceaiconsultant.com/ai-for-business/sme",
+    "og:image": "https://freelanceaiconsultant.com/images/dave-portrait.jpg",
+    "twitter:card": "summary_large_image",
+    "twitter:title": "AI for Small Business | Applications, Risks and First Steps",
+    "twitter:description": "AI for small business and SMEs: concrete applications, risks and first steps. See where you win time fastest and how to start without a big budget.",
+    "twitter:image": "https://freelanceaiconsultant.com/images/dave-portrait.jpg"
+  },
+  "koppen": [
+    {
+      "niveau": 1,
+      "tekst": "AI for small business: where do you start, and what does it deliver?",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "How do you start with AI for small business without a big budget?",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 3,
+      "tekst": "Do the AI Readiness Assessment and the AI Strategy Sprint suit every budget for AI for small business?",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 3,
+      "tekst": "Is a chatbot that handles customers on its own a good starting point for AI for small business?",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "Why AI matters now for small businesses",
+      "regio": "main",
+      "id": "why-ai-matters-now-for-small-businesses"
+    },
+    {
+      "niveau": 2,
+      "tekst": "Examples of AI applications in small businesses",
+      "regio": "main",
+      "id": "examples-of-ai-applications-in-small-businesses"
+    },
+    {
+      "niveau": 3,
+      "tekst": "Customer service",
+      "regio": "main",
+      "id": "customer-service"
+    },
+    {
+      "niveau": 3,
+      "tekst": "Sales and quotes",
+      "regio": "main",
+      "id": "sales-and-quotes"
+    },
+    {
+      "niveau": 3,
+      "tekst": "Marketing",
+      "regio": "main",
+      "id": "marketing"
+    },
+    {
+      "niveau": 3,
+      "tekst": "Admin",
+      "regio": "main",
+      "id": "admin"
+    },
+    {
+      "niveau": 3,
+      "tekst": "Internal knowledge",
+      "regio": "main",
+      "id": "internal-knowledge"
+    },
+    {
+      "niveau": 2,
+      "tekst": "Risks and threats",
+      "regio": "main",
+      "id": "risks-and-threats"
+    },
+    {
+      "niveau": 2,
+      "tekst": "First steps",
+      "regio": "main",
+      "id": "first-steps"
+    },
+    {
+      "niveau": 2,
+      "tekst": "How I help small businesses",
+      "regio": "main",
+      "id": "how-i-help-small-businesses"
+    },
+    {
+      "niveau": 3,
+      "tekst": "AI consulting",
+      "regio": "main",
+      "id": "ai-consulting"
+    },
+    {
+      "niveau": 3,
+      "tekst": "AI implementation",
+      "regio": "main",
+      "id": "ai-implementation"
+    },
+    {
+      "niveau": 3,
+      "tekst": "AI automation",
+      "regio": "main",
+      "id": "ai-automation"
+    },
+    {
+      "niveau": 3,
+      "tekst": "AI agents",
+      "regio": "main",
+      "id": "ai-agents"
+    },
+    {
+      "niveau": 3,
+      "tekst": "AI policy",
+      "regio": "main",
+      "id": "ai-policy"
+    },
+    {
+      "niveau": 3,
+      "tekst": "Workshops and training",
+      "regio": "main",
+      "id": "workshops-and-training"
+    },
+    {
+      "niveau": 2,
+      "tekst": "Frequently asked questions",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "Sources",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "From AI ambition to real results.",
+      "regio": "main",
+      "id": null
+    }
+  ],
+  "bodytekst": {
+    "regio": "main",
+    "woorden": 2780,
+    "sha256": "fb1713e7223a9580e0d6757a86fea29bd459571828349d6e26627135399a6427",
+    "blokken": [
+      "Home",
+      "AI for Business",
+      "AI for SMEs",
+      "AI for small business",
+      "AI for small business: where do you start, and what does it deliver?",
+      "AI for small business isn't about big platforms or building your own models. It's about the tasks that come back every day in your business: quotes, customer queries, admin and finding information. Here's where small businesses and SMEs win time, which risks to know about, and how to start without a big budget.",
+      "Read more on AI for business → See the AI Readiness Assessment →",
+      "IN SHORT",
+      "Start with one frequent, time-consuming task, using tools you already have or can easily buy.",
+      "The main risks for a small business are customer data in the wrong tool, and relying on one enthusiastic staff member.",
+      "Not every small business needs a full advisory engagement; sometimes a short session or a single day of advice is enough.",
+      "AI in Europe",
+      "European brands already running AI in production.",
+      "Not my clients. Examples of what happens once AI moves past the pilot stage.",
+      "Pause",
+      "Klarna",
+      "Sweden",
+      "AI customer service assistant",
+      "Zalando",
+      "Germany",
+      "Fashion assistant for product advice",
+      "Financial services",
+      "Investment firm",
+      "AI strategy and use-case portfolio",
+      "Booking.com",
+      "Netherlands",
+      "AI Trip Planner for travel planning",
+      "Siemens",
+      "Germany",
+      "Industrial Copilot for engineering",
+      "Retail",
+      "Enterprise retailer",
+      "AI-driven vendor selection",
+      "Spotify",
+      "Sweden",
+      "AI DJ and personalized playlists",
+      "Mercedes-Benz",
+      "Germany",
+      "Generative voice assistant in the car",
+      "Industrial / B2B",
+      "International manufacturer",
+      "AI roadmap and leadership",
+      "ING",
+      "Netherlands",
+      "Generative chatbot for customer queries",
+      "L'Oréal",
+      "France",
+      "Beauty Genius: personalized advice",
+      "Financial services",
+      "Financial services firm",
+      "KYC accelerated with AI document analysis",
+      "SAP",
+      "Germany",
+      "Joule: copilot in business software",
+      "Carrefour",
+      "France",
+      "Hopla: grocery shopping assistant",
+      "Strategy & AI",
+      "SaaS scale-up",
+      "AI readiness assessment",
+      "Adyen",
+      "Netherlands",
+      "AI-driven payment optimization",
+      "Philips",
+      "Netherlands",
+      "AI in medical imaging",
+      "Proces & productivity",
+      "Professional services firm",
+      "Internal AI assistant for knowledge workers",
+      "How do you start with AI for small business without a big budget?",
+      "AI for small business starts with one task that comes up often, costs a lot of time and already has a fixed check step, such as quotes or sorting email, using software the business already has or a business licence on an AI assistant. After setting a baseline and agreeing a few ground rules on tools and data, a four-week test follows in the real work, after which the measurement decides whether the business carries on, adjusts or stops. For smaller businesses, Executive Briefing offers a lighter entry point: one half-day in total, including the three-hour session, for a fixed project fee.",
+      "Do the AI Readiness Assessment and the AI Strategy Sprint suit every budget for AI for small business?",
+      "No. The AI Readiness Assessment and the AI Strategy Sprint both have a fixed price agreed upfront: that suits a mid-sized business with several departments and a concrete investment question. For a ten-person company, those packages are often too much.",
+      "Is a chatbot that handles customers on its own a good starting point for AI for small business?",
+      "No. The advice for AI for small business in customer service is not to start with that kind of chatbot, but behind the scenes: sorting emails, draft replies a staff member checks, and summarising customer histories. A customer-facing assistant for simple questions is a logical next step only once that's running well.",
+      "Source: article by Dave Willemstein. Updated: October 2026.",
+      "Why AI matters now for small businesses",
+      "AI for small business has moved from experiment to everyday tool over the past few years. You no longer need a data team or your own model to work with it: an AI assistant, or the AI features in your accounting, CRM or office software, is often enough to win the first bit of time back.",
+      "At the same time, adoption among smaller businesses still lags behind larger ones. UK government research found that 16% of businesses overall were using AI, but only 14% of micro businesses (5 to 9 employees), against 23% of mid-sized businesses and 36% of large ones (DSIT, AI Adoption Research, fieldwork February to May 2025). Less in-house expertise, tighter budgets, and no dedicated team to drive it explain most of that gap. From what I see in practice, the businesses that hold back usually aren’t facing a technical barrier. It’s more often a lack of familiarity with what’s possible, plus unresolved questions about privacy and the legal side of things.",
+      "A small business does have one advantage larger organisations lack: short lines of communication. The owner who makes the call usually knows the work first-hand. There’s no steering group needed to let one team try a new way of working. Starting with a clear focus means finding out faster whether something works.",
+      "The flip side is real too. Lower volume means an application pays for itself more slowly. And without an IT department, everything lands on a handful of people doing it alongside their day job. That’s exactly why choosing well matters more here than in a large company. The broader picture of what AI means for organisations is covered on the AI for business overview page.",
+      "Examples of AI applications in small businesses",
+      "The applications that work best in a small business have a few things in common: the task comes up often, has roughly the same shape each time, and someone already checks the result before it goes out the door. A few examples by area.",
+      "Customer service",
+      "How do you use AI for customer service in a small business? Don’t start with a chatbot that handles customers on its own. Start behind the scenes:",
+      "automatically sorting incoming emails by topic and urgency;",
+      "having draft replies suggested based on earlier answers and your terms, which a staff member checks and sends;",
+      "summarising long customer histories before someone calls back.",
+      "That way a person stays in control, and you learn which questions are suitable for further automation. Only once that’s running well does a customer-facing assistant for simple questions become a logical next step.",
+      "Sales and quotes",
+      "Quotes and proposals are manual work in many small businesses that’s nearly the same every time. AI can draft a first version based on earlier quotes, the customer’s request and your price list. Summarising a sales call and preparing for a meeting with information from your CRM also saves time. You always check the price and any commitments yourself.",
+      "Marketing",
+      "Marketing is many owners’ first encounter with AI: website copy, newsletters and social media. It pays off most on variants and rewrites, such as turning one article into three posts, or adapting a piece for a different audience. Strategy and your own tone of voice still need your own judgement; without steering, everything starts to sound the same.",
+      "Admin",
+      "Reading invoices, receipts and delivery notes, entering data into your books, flagging anomalies: this is dull, frequent work with a clear check step, which makes it one of the best starting points. Many accounting packages already have their own features for this. Check there first before buying something separate.",
+      "Internal knowledge",
+      "In a small business, a lot of knowledge sits in a handful of people’s heads and in folders nobody searches any more. An AI assistant that answers based on your own manuals, procedures and past projects helps new staff get up to speed faster, and makes you less dependent on the one colleague who knows everything. The condition: the documents need to be current. An assistant trained on outdated procedures gives outdated answers.",
+      "Example scenario",
+      "A garden furniture webshop with 14 staff gets around 600 customer emails a week in season. Two staff members spend an average of 4 minutes per email, about 40 hours a week between them.",
+      "In a single advisory day, the owner and the adviser pick one task: draft replies based on earlier answers and the delivery terms, using the AI feature already built into the customer service package the business uses. After setting a baseline, both staff members test it for four weeks in the real work. No reply goes out without a check.",
+      "Time per email drops to an average of 2.5 minutes, around 15 hours a week in season. The extra cost is limited to upgrading the existing subscription. Deliberately not done: a chatbot on the website, because questions about damage and delivery always need a person.",
+      "Illustrative example, built from situations that come up often. The organisation and figures are for illustration.",
+      "Risks and threats",
+      "AI brings different risks for a small business than for a large organisation. Fewer rules and fewer specialists mean mistakes go unnoticed for longer. The main threats:",
+      "Customer data in the wrong tool. A staff member who pastes a customer record into a free AI tool may be sharing personal data with a party you have no agreement with. That’s a data protection risk and a trust risk.",
+      "Relying on one person. Often there’s one enthusiastic staff member who set everything up. If they leave, nobody else knows how it works.",
+      "Blind trust. AI tools write persuasively, even when the content is wrong. A quote with a made-up discount, or an answer with the wrong terms, reaches the customer directly in a small business.",
+      "Costs that creep up. Separate subscriptions per person and per tool add up, without anyone keeping track of what they deliver.",
+      "Vendor claims. Plenty of software is marketed as “AI-powered” these days. Always ask what it actually does, with which data, and what happens if you want to switch.",
+      "Regulation. The AI Act also applies to small businesses, though the obligations depend on how you use AI, and its reach isn’t limited to EU-based businesses: under Article 2 of the Act, it also applies to a UK small business that places an AI system on the EU market, or whose AI system’s output is used in the EU. For most small-business applications, such as text and summaries, the requirements are limited. Anyone using AI in decisions about people, such as recruitment, needs to pay closer attention. The UK itself has no AI Act and regulates AI through existing sector regulators instead, as set out in the UK government’s AI regulation: a pro-innovation approach, so a UK-only small business with no EU market presence and no EU users of its AI output sits outside the Act’s scope.",
+      "None of these risks is a reason not to start. They are a reason to agree a few ground rules before everyone finds their own way of working.",
+      "First steps",
+      "Start with AI in your small business with as little upfront work as possible, but with a few deliberate choices:",
+      "Choose one taskFrequent, time-consuming and already checked, such as quotes or sorting email.",
+      "Measure it nowHow much time does the task cost per week, and how often does something go wrong?",
+      "Set ground rulesWhich tool, which data can't go in, and who checks the result.",
+      "Test for four weeksWith two or three colleagues, in the real work, with real customer queries.",
+      "DecideCarry on, adjust or stop, based on the measurement, not the feeling.",
+      "A first AI application in a small business: start small, measure, and only then expand.",
+      "A few tips to go with it:",
+      "Look at what you already have first. Plenty of office, accounting and CRM software has AI features you’re already paying for but not using.",
+      "Choose a business licence. That gives you agreements on what happens to your data. Free accounts are no place for customer data.",
+      "Make the work visible. Let the colleagues using it share their approach. One good way of working that the whole team uses delivers more than ten separate experiments.",
+      "Keep the sums honest. Count your own people’s time, not just the licence.",
+      "How I help small businesses",
+      "First, honestly, about money. My fixed packages are built for organisations considering a serious AI investment, each with a fixed price or fixed monthly fee agreed upfront. An AI Readiness Assessment and an AI Strategy Sprint suit a mid-sized business with several departments and a concrete investment question, but not every small-business budget. For a ten-person company, they’re often too much.",
+      "For smaller businesses, the Executive Briefing is one of two lighter entry points: a three-hour session, with preparation one half-day, for a fixed project fee. That gives you and your management team a shared, realistic picture of what AI means for you. And for a well-defined question, such as a second opinion on a supplier’s proposal or choosing a first application, I work on a fixed price per engagement. Sometimes the most honest outcome of a first conversation is that you don’t need me and can simply get started.",
+      "Here’s where to go by topic. Most of these pages have their own section on small businesses.",
+      "AI consulting",
+      "Advice on where to start, what to prioritise and what to leave alone. For a small business, that mainly means: practical, within budget and aimed at a quick first result. Read more on AI consulting for small and medium-sized businesses.",
+      "AI implementation",
+      "From idea to an application that actually runs in the day-to-day work. I don’t build it myself, but help you choose between a standard tool and custom work, find a suitable party and steer them. How that works without a large IT team is covered under AI implementation for SMEs.",
+      "AI automation",
+      "Which processes are suitable for automation, and which should you simplify or drop first? Which processes to start with, and how to estimate payback time, is covered under AI automation for small and medium-sized businesses.",
+      "AI agents",
+      "AI agents carry out tasks on their own, such as processing a request or moving data between systems. That’s more powerful than an assistant, but it also needs tighter oversight. Getting this right starts with one well-defined task and a check step, before you let an agent take on more autonomy.",
+      "AI policy",
+      "An AI policy doesn’t need to be a thick document for a small business. One or two pages with approved tools, rules for data and who decides what is a good start. There’s an example and template for an AI policy for small and medium-sized businesses you can use as a starting point.",
+      "Workshops and training",
+      "The fastest way to help a team move forward is to practise together on their own tasks. A half-day or full-day workshop gives staff hands-on skills and gives you a view of where the opportunities lie.",
+      "Working in an office with a lot of documents and confidential files, such as an accountancy, legal or advisory practice? That’s covered separately under AI for professional services firms. Want to get more out of your numbers and reporting instead? That’s a closer fit with AI and business intelligence. And if you’re not sure where you stand, book a no-obligation call of thirty minutes.",
+      "Dave Willemstein Independent AI Advisor",
+      "Independent: no commissions, no partner deals, no margin on implementation partners.",
+      "About My partner network",
+      "Want to know where you stand with AI? See the AI Readiness Assessment →",
+      "Frequently asked questions",
+      "What does it cost for a small business to get started with AI?+",
+      "The entry point can be small. Many small businesses start with a business licence on an AI assistant, or with AI features in software they already use. The biggest cost is usually not the tool, but your own people's time to redesign tasks and learn to work with the results.",
+      "Do I need an IT department to use AI?+",
+      "Not for the first steps. You can use an AI assistant, or AI features in your accounting, CRM or office software, without an in-house IT team. Once you want to connect systems together or have something custom built, you'll need technical help, either your own or an outside party.",
+      "Can I put customer data into ChatGPT or a similar tool?+",
+      "Only if the tool is set up for business use and you can justify that under data protection law. Don't use free or personal accounts for personal data or confidential information, check whether your data is used to train the model, and set out which data isn't allowed in.",
+      "How quickly does AI pay off in a small business?+",
+      "With simple applications, such as draft copy, summaries and reading documents, you'll notice within a few weeks whether it saves time. Applications that connect systems together need more lead time. Measure how much time a task costs now beforehand, so you can actually see the difference.",
+      "Sources",
+      "AI Act Service Desk (European Commission): Article 2, scope",
+      "UK Government: AI regulation, a pro-innovation approach",
+      "DSIT: AI Adoption Research (IFF Research and Technopolis Group, fieldwork Feb-May 2025)",
+      "Ready for impact?",
+      "From AI ambition to real results.",
+      "Book a no-obligation call. No pitch. Just sharp questions.",
+      "30 min., no pitch deckBook a call →"
+    ]
+  },
+  "links": [
+    {
+      "regio": "overig",
+      "soort": "intern",
+      "href": "#main",
+      "anker": "Skip to main content",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/",
+      "anker": "",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/services",
+      "anker": "Services",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/cases",
+      "anker": "Cases",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/approach",
+      "anker": "Approach",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/insights",
+      "anker": "Insights",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/about",
+      "anker": "About",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/nl/ai-voor-bedrijven/mkb",
+      "anker": "NL",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/contact",
+      "anker": "Book a call →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/",
+      "anker": "Home",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/ai-for-business",
+      "anker": "AI for Business",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/ai-for-business",
+      "anker": "Read more on AI for business →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/services/ai-readiness-assessment",
+      "anker": "See the AI Readiness Assessment →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/services/executive-briefing",
+      "anker": "Executive Briefing",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/services/ai-readiness-assessment",
+      "anker": "AI Readiness Assessment",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/services/ai-strategy-sprint",
+      "anker": "AI Strategy Sprint",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "extern",
+      "href": "https://www.gov.uk/government/publications/ai-adoption-research/ai-adoption-research",
+      "anker": "DSIT, AI Adoption Research",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/ai-for-business",
+      "anker": "AI for business",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "extern",
+      "href": "https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-2",
+      "anker": "Article 2 of the Act",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "extern",
+      "href": "https://www.gov.uk/government/publications/ai-regulation-a-pro-innovation-approach",
+      "anker": "AI regulation: a pro-innovation approach",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/services/ai-readiness-assessment",
+      "anker": "AI Readiness Assessment",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/ai-consulting#ai-consulting-for-small-and-medium-sized-businesses",
+      "anker": "AI consulting for small and medium-sized businesses",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/ai-implementation#ai-implementation-for-smes",
+      "anker": "AI implementation for SMEs",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/ai-automation#ai-automation-for-small-and-medium-sized-businesses",
+      "anker": "AI automation for small and medium-sized businesses",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/ai-policy#ai-policy-for-small-and-medium-sized-businesses-example-and-template",
+      "anker": "example and template for an AI policy for small and medium-sized businesses",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/ai-for-business/professional-services-firms",
+      "anker": "AI for professional services firms",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/ai-for-business/ai-and-bi",
+      "anker": "AI and business intelligence",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/contact",
+      "anker": "book a no-obligation call",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/about",
+      "anker": "About",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/partner-network",
+      "anker": "My partner network",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/services/ai-readiness-assessment",
+      "anker": "Want to know where you stand with AI? See the AI Readiness Assessment →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "extern",
+      "href": "https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-2",
+      "anker": "AI Act Service Desk (European Commission): Article 2, scope",
+      "rel": "noopener"
+    },
+    {
+      "regio": "main",
+      "soort": "extern",
+      "href": "https://www.gov.uk/government/publications/ai-regulation-a-pro-innovation-approach",
+      "anker": "UK Government: AI regulation, a pro-innovation approach",
+      "rel": "noopener"
+    },
+    {
+      "regio": "main",
+      "soort": "extern",
+      "href": "https://www.gov.uk/government/publications/ai-adoption-research/ai-adoption-research",
+      "anker": "DSIT: AI Adoption Research (IFF Research and Technopolis Group, fieldwork Feb-May 2025)",
+      "rel": "noopener"
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/contact",
+      "anker": "Book a call →",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/services/ai-readiness-assessment",
+      "anker": "AI Readiness Assessment",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/services/ai-strategy-sprint",
+      "anker": "AI Strategy Sprint",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/services/fractional-ai-lead",
+      "anker": "Fractional AI Lead",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/services",
+      "anker": "All services",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/cases",
+      "anker": "Cases",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/approach",
+      "anker": "Approach",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/insights",
+      "anker": "Insights",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/faq",
+      "anker": "FAQ",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/about",
+      "anker": "About",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-consulting",
+      "anker": "AI consulting",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-implementation",
+      "anker": "AI implementation",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-automation",
+      "anker": "AI automation",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-for-business",
+      "anker": "AI for business",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-development",
+      "anker": "AI development",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-agents",
+      "anker": "AI agents",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-policy",
+      "anker": "AI policy",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-workshop",
+      "anker": "AI workshop",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/markets",
+      "anker": "AI by industry",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/knowledge-base",
+      "anker": "Knowledge base",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/pricing",
+      "anker": "Pricing",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/partner-network",
+      "anker": "Partner network",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "overig",
+      "href": "mailto:dave@freelanceaiconsultant.com",
+      "anker": "dave@freelanceaiconsultant.com",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "extern",
+      "href": "https://www.linkedin.com/in/davewillemstein",
+      "anker": "LinkedIn ↗",
+      "rel": "noopener"
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/contact",
+      "anker": "Book a call",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/privacy",
+      "anker": "Privacy policy",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/terms",
+      "anker": "Terms & conditions",
+      "rel": null
+    }
+  ],
+  "structured_data": {
+    "sha256": "7b70482aca48ce311562dd450d503a66935f9fbb7e93ec242964b2161cc1b8de",
+    "items": [
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://freelanceaiconsultant.com/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "AI for Business",
+                "item": "https://freelanceaiconsultant.com/ai-for-business"
+              },
+              {
+                "@type": "ListItem",
+                "position": 3,
+                "name": "AI for SMEs",
+                "item": "https://freelanceaiconsultant.com/ai-for-business/sme"
+              }
+            ]
+          },
+          {
+            "@type": "Service",
+            "name": "AI for SMEs",
+            "serviceType": "ai for small business",
+            "description": "AI for small business and SMEs: concrete applications, risks and first steps. See where you win time fastest and how to start without a big budget.",
+            "url": "https://freelanceaiconsultant.com/ai-for-business/sme",
+            "areaServed": "GB",
+            "provider": {
+              "@type": "Person",
+              "name": "Dave Willemstein",
+              "jobTitle": "Onafhankelijk AI-adviseur",
+              "url": "https://freelanceaiconsultant.com/over",
+              "sameAs": [
+                "https://www.linkedin.com/in/davewillemstein"
+              ]
+            }
+          },
+          {
+            "@type": "FAQPage",
+            "mainEntity": [
+              {
+                "@type": "Question",
+                "name": "What does it cost for a small business to get started with AI?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "The entry point can be small. Many small businesses start with a business licence on an AI assistant, or with AI features in software they already use. The biggest cost is usually not the tool, but your own people's time to redesign tasks and learn to work with the results."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Do I need an IT department to use AI?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Not for the first steps. You can use an AI assistant, or AI features in your accounting, CRM or office software, without an in-house IT team. Once you want to connect systems together or have something custom built, you'll need technical help, either your own or an outside party."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Can I put customer data into ChatGPT or a similar tool?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Only if the tool is set up for business use and you can justify that under data protection law. Don't use free or personal accounts for personal data or confidential information, check whether your data is used to train the model, and set out which data isn't allowed in."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "How quickly does AI pay off in a small business?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "With simple applications, such as draft copy, summaries and reading documents, you'll notice within a few weeks whether it saves time. Applications that connect systems together need more lead time. Measure how much time a task costs now beforehand, so you can actually see the difference."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "How do you start with AI for small business without a big budget?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "AI for small business starts with one task that comes up often, costs a lot of time and already has a fixed check step, such as quotes or sorting email, using software the business already has or a business licence on an AI assistant. After setting a baseline and agreeing a few ground rules on tools and data, a four-week test follows in the real work, after which the measurement decides whether the business carries on, adjusts or stops. For smaller businesses, Executive Briefing offers a lighter entry point: one half-day in total, including the three-hour session, for a fixed project fee."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Do the AI Readiness Assessment and the AI Strategy Sprint suit every budget for AI for small business?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "No. The AI Readiness Assessment and the AI Strategy Sprint both have a fixed price agreed upfront: that suits a mid-sized business with several departments and a concrete investment question. For a ten-person company, those packages are often too much."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Is a chatbot that handles customers on its own a good starting point for AI for small business?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "No. The advice for AI for small business in customer service is not to start with that kind of chatbot, but behind the scenes: sorting emails, draft replies a staff member checks, and summarising customer histories. A customer-facing assistant for simple questions is a logical next step only once that's running well."
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "afbeeldingen": [
+    {
+      "regio": "header",
+      "src": "/images/freelance-ai-consultant-logo-header.png",
+      "alt": "freelanceaiconsultant.com logo",
+      "width": "600",
+      "height": "287",
+      "loading": null
+    },
+    {
+      "regio": "main",
+      "src": "/images/dave-portrait.jpg",
+      "alt": "Portrait of Dave Willemstein",
+      "width": "88",
+      "height": "88",
+      "loading": "lazy"
+    },
+    {
+      "regio": "footer",
+      "src": "/images/freelance-ai-consultant-icon-footer.png",
+      "alt": "",
+      "width": "192",
+      "height": "192",
+      "loading": "lazy"
+    }
+  ],
+  "laadprestaties": {
+    "scripts": [
+      {
+        "src": "/_astro/CookieConsent.astro_astro_type_script_index_0_lang.COcxE8NY.js",
+        "type": "module",
+        "inline_bytes": 0
+      },
+      {
+        "src": null,
+        "type": null,
+        "inline_bytes": 989
+      },
+      {
+        "src": null,
+        "type": null,
+        "inline_bytes": 493
+      },
+      {
+        "src": "/logo-carousel/logo-carousel.js?v=2",
+        "type": null,
+        "inline_bytes": 0
+      },
+      {
+        "src": null,
+        "type": null,
+        "inline_bytes": 725
+      }
+    ],
+    "stylesheets": [
+      "/_astro/_slug_.CzLXI3HH.css",
+      "/_astro/_slug_.Do5RJXa7.css",
+      "/logo-carousel/logo-carousel.css?v=2"
+    ],
+    "aantal_details": 4,
+    "aantal_tabellen": 0
+  },
+  "gemeten_op": "2026-11-05"
+}

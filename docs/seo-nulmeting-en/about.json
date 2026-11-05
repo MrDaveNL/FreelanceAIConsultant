@@ -1,0 +1,585 @@
+{
+  "url": "/about",
+  "build_bestand": "dist/about/index.html",
+  "html": {
+    "bytes": 34031,
+    "lang": "en"
+  },
+  "beschermd": {
+    "title": "Dave Willemstein | AI Consultant",
+    "meta_description": "Dave Willemstein is an independent AI consultant for boards and leaders. In strategy, digital and innovation since 2006. No vendor interests.",
+    "canonical": "https://freelanceaiconsultant.com/about",
+    "robots_meta": null,
+    "hreflang": [
+      {
+        "hreflang": "en",
+        "href": "https://freelanceaiconsultant.com/about"
+      },
+      {
+        "hreflang": "nl",
+        "href": "https://freelanceaiconsultant.com/nl/over"
+      },
+      {
+        "hreflang": "x-default",
+        "href": "https://freelanceaiconsultant.com/about"
+      }
+    ],
+    "h1": [
+      "Hi, I'm Dave Willemstein. Independent AI consultant for boards and leaders who want to move forward."
+    ]
+  },
+  "social": {
+    "og:type": "website",
+    "og:locale": "en_US",
+    "og:site_name": "freelanceaiconsultant.com",
+    "og:title": "Dave Willemstein | AI Consultant",
+    "og:description": "Dave Willemstein is an independent AI consultant for boards and leaders. In strategy, digital and innovation since 2006. No vendor interests.",
+    "og:url": "https://freelanceaiconsultant.com/about",
+    "og:image": "https://freelanceaiconsultant.com/images/dave-portrait.jpg",
+    "twitter:card": "summary_large_image",
+    "twitter:title": "Dave Willemstein | AI Consultant",
+    "twitter:description": "Dave Willemstein is an independent AI consultant for boards and leaders. In strategy, digital and innovation since 2006. No vendor interests.",
+    "twitter:image": "https://freelanceaiconsultant.com/images/dave-portrait.jpg"
+  },
+  "koppen": [
+    {
+      "niveau": 1,
+      "tekst": "Hi, I'm Dave Willemstein. Independent AI consultant for boards and leaders who want to move forward.",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "From strategy to execution. With impact.",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "Where this experience comes from.",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "Let's get acquainted.",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "Book a no-obligation call.",
+      "regio": "main",
+      "id": null
+    }
+  ],
+  "bodytekst": {
+    "regio": "main",
+    "woorden": 686,
+    "sha256": "ad48517255c9dce04343f65df9d6019feaa9f0ac4e2ea945ccf7d3cf0f833b68",
+    "blokken": [
+      "About me",
+      "Hi, I'm Dave Willemstein. Independent AI consultant for boards and leaders who want to move forward.",
+      "I help organizations make AI decisions that create value, limit risk, and actually fit their strategy. No sales pitch. No tool preferences. Just clear advice, sharp choices, and guidance from people to process.",
+      "Book a call → Get in touch → 30 min., no pitch deck",
+      "trust, experience, impact ↓",
+      "Independent No vendor bias Senior only Since 2006",
+      "AI in Europe",
+      "European brands already running AI in production.",
+      "Not my clients. Examples of what happens once AI moves past the pilot stage.",
+      "Pause",
+      "Klarna",
+      "Sweden",
+      "AI customer service assistant",
+      "Zalando",
+      "Germany",
+      "Fashion assistant for product advice",
+      "Financial services",
+      "Investment firm",
+      "AI strategy and use-case portfolio",
+      "Booking.com",
+      "Netherlands",
+      "AI Trip Planner for travel planning",
+      "Siemens",
+      "Germany",
+      "Industrial Copilot for engineering",
+      "Retail",
+      "Enterprise retailer",
+      "AI-driven vendor selection",
+      "Spotify",
+      "Sweden",
+      "AI DJ and personalized playlists",
+      "Mercedes-Benz",
+      "Germany",
+      "Generative voice assistant in the car",
+      "Industrial / B2B",
+      "International manufacturer",
+      "AI roadmap and leadership",
+      "ING",
+      "Netherlands",
+      "Generative chatbot for customer queries",
+      "L'Oréal",
+      "France",
+      "Beauty Genius: personalized advice",
+      "Financial services",
+      "Financial services firm",
+      "KYC accelerated with AI document analysis",
+      "SAP",
+      "Germany",
+      "Joule: copilot in business software",
+      "Carrefour",
+      "France",
+      "Hopla: grocery shopping assistant",
+      "Strategy & AI",
+      "SaaS scale-up",
+      "AI readiness assessment",
+      "Adyen",
+      "Netherlands",
+      "AI-driven payment optimization",
+      "Philips",
+      "Netherlands",
+      "AI in medical imaging",
+      "Proces & productivity",
+      "Professional services firm",
+      "Internal AI assistant for knowledge workers",
+      "My story",
+      "From strategy to execution. With impact.",
+      "After twenty years in strategy, digital and innovation, on both the client and vendor side, I kept seeing the same pattern: good intentions, vague choices. Tools before strategy. Hype before value. And advisors who profited from the very solution they recommended.",
+      "I started freelanceaiconsultant.com to change that. I work independently, on my own, always in your interest. One senior advisor. No juniors on your project. No noise.",
+      "That also means I can't do everything. Large implementation programs, teams of ten developers, global rollouts: that's not what I'm the right partner for, and I'll say so.",
+      "Experience at a glance",
+      "✓",
+      "Since 2006 Strategy, digital and innovation, on both the client and vendor side",
+      "✓",
+      "100+ engagements From AI strategy and vendor selection to implementation guidance",
+      "✓",
+      "Executive sparring partner For CIOs, CFOs, CEOs and supervisory boards",
+      "✓",
+      "Published & speaker On AI, leadership and change management",
+      "What I believe",
+      "✓",
+      "Independent",
+      "Your interest, always. No commissions, no partner deals.",
+      "✓",
+      "Transparent",
+      "Clear about both opportunities and risks, even when it is uncomfortable.",
+      "✓",
+      "Pragmatic",
+      "From strategy to measurable value within one quarter.",
+      "✓",
+      "People-first",
+      "Technology only works once people actually want to work with it.",
+      "Background",
+      "Where this experience comes from.",
+      "Now",
+      "Independent AI advisor",
+      "Strategy, vendor selection, governance and fractional AI leadership for organizations in the Netherlands, Belgium and Germany.",
+      "Before that",
+      "Leadership roles in digital & data",
+      "Responsible for data-driven programs in larger organizations. This is where I learned how many good plans fail on ownership and management, not on technology.",
+      "Before that",
+      "Consulting and vendor side",
+      "Sat on the other side of the table. That is exactly why I now accept no commissions or partner deals: I know how those steer the advice.",
+      "How I work in practice",
+      "I'll tell you when I think you don't need me.",
+      "I write everything myself. Whatever you get from me, I made it and can defend it.",
+      "I work on a maximum of three engagements at a time, so attention never becomes scarce.",
+      "I never take on two direct competitors at the same time.",
+      "After three months I come back to check the promised result is actually there.",
+      "Outside of work",
+      "I read a lot about decision-making and risk, fields AI has surprisingly little to learn from. Beyond that: running, cooking, and the occasional DIY project gone wrong.",
+      "I also speak: about AI decision-making, governance, and why most pilots stall. I'd rather have a sharp conversation with twenty people than give a keynote to five hundred.",
+      "Ask about availability →",
+      "Contact",
+      "Let's get acquainted.",
+      "Available for new engagements from Q4",
+      "dave@freelanceaiconsultant.com LinkedIn ↗ Go to the contact form →",
+      "Ready for impact?",
+      "Book a no-obligation call.",
+      "30 minutes. Online. No pitch deck. Just value.",
+      "30 min., no pitch deckBook a call →"
+    ]
+  },
+  "links": [
+    {
+      "regio": "overig",
+      "soort": "intern",
+      "href": "#main",
+      "anker": "Skip to main content",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/",
+      "anker": "",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/services",
+      "anker": "Services",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/cases",
+      "anker": "Cases",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/approach",
+      "anker": "Approach",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/insights",
+      "anker": "Insights",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/about",
+      "anker": "About",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/nl/over",
+      "anker": "NL",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/contact",
+      "anker": "Book a call →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/contact",
+      "anker": "Book a call →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/contact",
+      "anker": "Get in touch →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/contact",
+      "anker": "Ask about availability →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "overig",
+      "href": "mailto:dave@freelanceaiconsultant.com",
+      "anker": "dave@freelanceaiconsultant.com",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "extern",
+      "href": "https://www.linkedin.com/in/davewillemstein",
+      "anker": "LinkedIn ↗",
+      "rel": "noopener"
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/contact",
+      "anker": "Go to the contact form →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/contact",
+      "anker": "Book a call →",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/services/ai-readiness-assessment",
+      "anker": "AI Readiness Assessment",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/services/ai-strategy-sprint",
+      "anker": "AI Strategy Sprint",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/services/fractional-ai-lead",
+      "anker": "Fractional AI Lead",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/services",
+      "anker": "All services",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/cases",
+      "anker": "Cases",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/approach",
+      "anker": "Approach",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/insights",
+      "anker": "Insights",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/faq",
+      "anker": "FAQ",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/about",
+      "anker": "About",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-consulting",
+      "anker": "AI consulting",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-implementation",
+      "anker": "AI implementation",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-automation",
+      "anker": "AI automation",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-for-business",
+      "anker": "AI for business",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-development",
+      "anker": "AI development",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-agents",
+      "anker": "AI agents",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-policy",
+      "anker": "AI policy",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-workshop",
+      "anker": "AI workshop",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/markets",
+      "anker": "AI by industry",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/knowledge-base",
+      "anker": "Knowledge base",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/pricing",
+      "anker": "Pricing",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/partner-network",
+      "anker": "Partner network",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "overig",
+      "href": "mailto:dave@freelanceaiconsultant.com",
+      "anker": "dave@freelanceaiconsultant.com",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "extern",
+      "href": "https://www.linkedin.com/in/davewillemstein",
+      "anker": "LinkedIn ↗",
+      "rel": "noopener"
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/contact",
+      "anker": "Book a call",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/privacy",
+      "anker": "Privacy policy",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/terms",
+      "anker": "Terms & conditions",
+      "rel": null
+    }
+  ],
+  "structured_data": {
+    "sha256": "424da93118351d78c24fadbfbb8939b6629edb5815e1b6940359066bf81c327c",
+    "items": [
+      {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Dave Willemstein",
+        "jobTitle": "Independent AI Advisor",
+        "url": "https://freelanceaiconsultant.com/about",
+        "email": "dave@freelanceaiconsultant.com",
+        "image": "https://freelanceaiconsultant.com/images/dave-portrait.jpg",
+        "sameAs": [
+          "https://www.linkedin.com/in/davewillemstein"
+        ],
+        "knowsAbout": [
+          "AI strategy",
+          "AI governance",
+          "Vendor selection",
+          "Data-driven operations",
+          "Digital transformation"
+        ]
+      }
+    ]
+  },
+  "afbeeldingen": [
+    {
+      "regio": "header",
+      "src": "/images/freelance-ai-consultant-logo-header.png",
+      "alt": "freelanceaiconsultant.com logo",
+      "width": "600",
+      "height": "287",
+      "loading": null
+    },
+    {
+      "regio": "main",
+      "src": "/images/dave-portrait.jpg",
+      "alt": "Dave Willemstein, Independent AI Advisor",
+      "width": "500",
+      "height": "620",
+      "loading": "lazy"
+    },
+    {
+      "regio": "footer",
+      "src": "/images/freelance-ai-consultant-icon-footer.png",
+      "alt": "",
+      "width": "192",
+      "height": "192",
+      "loading": "lazy"
+    }
+  ],
+  "laadprestaties": {
+    "scripts": [
+      {
+        "src": "/_astro/CookieConsent.astro_astro_type_script_index_0_lang.COcxE8NY.js",
+        "type": "module",
+        "inline_bytes": 0
+      },
+      {
+        "src": null,
+        "type": null,
+        "inline_bytes": 989
+      },
+      {
+        "src": null,
+        "type": null,
+        "inline_bytes": 493
+      },
+      {
+        "src": "/logo-carousel/logo-carousel.js?v=2",
+        "type": null,
+        "inline_bytes": 0
+      },
+      {
+        "src": null,
+        "type": null,
+        "inline_bytes": 725
+      }
+    ],
+    "stylesheets": [
+      "/_astro/_slug_.CzLXI3HH.css",
+      "/logo-carousel/logo-carousel.css?v=2"
+    ],
+    "aantal_details": 0,
+    "aantal_tabellen": 0
+  },
+  "gemeten_op": "2026-11-05"
+}

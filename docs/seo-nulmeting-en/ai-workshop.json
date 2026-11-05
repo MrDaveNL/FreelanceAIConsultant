@@ -1,0 +1,909 @@
+{
+  "url": "/ai-workshop",
+  "build_bestand": "dist/ai-workshop/index.html",
+  "html": {
+    "bytes": 45094,
+    "lang": "en"
+  },
+  "beschermd": {
+    "title": "AI Workshop & Training for Business | Practical",
+    "meta_description": "An AI workshop or training for your team: practical, tailored and immediately applicable. From a management introduction to hands-on with ChatGPT and Copilot.",
+    "canonical": "https://freelanceaiconsultant.com/ai-workshop",
+    "robots_meta": null,
+    "hreflang": [
+      {
+        "hreflang": "en",
+        "href": "https://freelanceaiconsultant.com/ai-workshop"
+      },
+      {
+        "hreflang": "nl",
+        "href": "https://freelanceaiconsultant.com/nl/ai-workshop"
+      },
+      {
+        "hreflang": "x-default",
+        "href": "https://freelanceaiconsultant.com/ai-workshop"
+      }
+    ],
+    "h1": [
+      "AI workshop and training for business"
+    ]
+  },
+  "social": {
+    "og:type": "website",
+    "og:locale": "en_US",
+    "og:site_name": "freelanceaiconsultant.com",
+    "og:title": "AI Workshop & Training for Business | Practical",
+    "og:description": "An AI workshop or training for your team: practical, tailored and immediately applicable. From a management introduction to hands-on with ChatGPT and Copilot.",
+    "og:url": "https://freelanceaiconsultant.com/ai-workshop",
+    "og:image": "https://freelanceaiconsultant.com/images/dave-portrait.jpg",
+    "twitter:card": "summary_large_image",
+    "twitter:title": "AI Workshop & Training for Business | Practical",
+    "twitter:description": "An AI workshop or training for your team: practical, tailored and immediately applicable. From a management introduction to hands-on with ChatGPT and Copilot.",
+    "twitter:image": "https://freelanceaiconsultant.com/images/dave-portrait.jpg"
+  },
+  "koppen": [
+    {
+      "niveau": 1,
+      "tekst": "AI workshop and training for business",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "Which AI workshop suits which team, and how is the price set?",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 3,
+      "tekst": "Which session suits a board or supervisory board?",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 3,
+      "tekst": "Can an AI workshop also be delivered online?",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 3,
+      "tekst": "Do licences and a single training afternoon lead to structural AI use?",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "Why an AI workshop?",
+      "regio": "main",
+      "id": "why-an-ai-workshop"
+    },
+    {
+      "niveau": 2,
+      "tekst": "Types of workshop",
+      "regio": "main",
+      "id": "types-of-workshop"
+    },
+    {
+      "niveau": 3,
+      "tekst": "Introduction to AI for management",
+      "regio": "main",
+      "id": "introduction-to-ai-for-management"
+    },
+    {
+      "niveau": 3,
+      "tekst": "Hands-on with ChatGPT and Copilot",
+      "regio": "main",
+      "id": "hands-on-with-chatgpt-and-copilot"
+    },
+    {
+      "niveau": 3,
+      "tekst": "AI literacy",
+      "regio": "main",
+      "id": "ai-literacy"
+    },
+    {
+      "niveau": 3,
+      "tekst": "AI strategy workshop",
+      "regio": "main",
+      "id": "ai-strategy-workshop"
+    },
+    {
+      "niveau": 2,
+      "tekst": "AI training: from foundation to deeper skills",
+      "regio": "main",
+      "id": "ai-training-from-foundation-to-deeper-skills"
+    },
+    {
+      "niveau": 3,
+      "tekst": "Training formats",
+      "regio": "main",
+      "id": "training-formats"
+    },
+    {
+      "niveau": 3,
+      "tekst": "Tailored programme",
+      "regio": "main",
+      "id": "tailored-programme"
+    },
+    {
+      "niveau": 2,
+      "tekst": "In-company or on location",
+      "regio": "main",
+      "id": "in-company-or-on-location"
+    },
+    {
+      "niveau": 2,
+      "tekst": "What participants learn",
+      "regio": "main",
+      "id": "what-participants-learn"
+    },
+    {
+      "niveau": 2,
+      "tekst": "Investment",
+      "regio": "main",
+      "id": "investment"
+    },
+    {
+      "niveau": 2,
+      "tekst": "Frequently asked questions",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "Sources",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "From AI ambition to real results.",
+      "regio": "main",
+      "id": null
+    }
+  ],
+  "bodytekst": {
+    "regio": "main",
+    "woorden": 2367,
+    "sha256": "9f5d778b90a27ce1c219dae10e9d976da4aa9839c633e05516e9544a0d7e277e",
+    "blokken": [
+      "Home",
+      "AI Workshop",
+      "AI workshop and training",
+      "AI workshop and training for business",
+      "A good AI workshop doesn't start with the tool, it starts with the work your team finds back on their desk tomorrow. I run workshops and training built around your team's own tasks, your own tools, and the agreements that apply in your organisation. Practical, tailored, and with no sales pitch for software.",
+      "Ask about a workshop → See the AI Readiness Assessment →",
+      "IN SHORT",
+      "Tailored workshops and training, built around your own team's tasks.",
+      "From a management introduction to hands-on with ChatGPT and Copilot.",
+      "Fixed price per workshop; the programme is agreed in the intake.",
+      "AI in Europe",
+      "European brands already running AI in production.",
+      "Not my clients. Examples of what happens once AI moves past the pilot stage.",
+      "Pause",
+      "Klarna",
+      "Sweden",
+      "AI customer service assistant",
+      "Zalando",
+      "Germany",
+      "Fashion assistant for product advice",
+      "Financial services",
+      "Investment firm",
+      "AI strategy and use-case portfolio",
+      "Booking.com",
+      "Netherlands",
+      "AI Trip Planner for travel planning",
+      "Siemens",
+      "Germany",
+      "Industrial Copilot for engineering",
+      "Retail",
+      "Enterprise retailer",
+      "AI-driven vendor selection",
+      "Spotify",
+      "Sweden",
+      "AI DJ and personalized playlists",
+      "Mercedes-Benz",
+      "Germany",
+      "Generative voice assistant in the car",
+      "Industrial / B2B",
+      "International manufacturer",
+      "AI roadmap and leadership",
+      "ING",
+      "Netherlands",
+      "Generative chatbot for customer queries",
+      "L'Oréal",
+      "France",
+      "Beauty Genius: personalized advice",
+      "Financial services",
+      "Financial services firm",
+      "KYC accelerated with AI document analysis",
+      "SAP",
+      "Germany",
+      "Joule: copilot in business software",
+      "Carrefour",
+      "France",
+      "Hopla: grocery shopping assistant",
+      "Strategy & AI",
+      "SaaS scale-up",
+      "AI readiness assessment",
+      "Adyen",
+      "Netherlands",
+      "AI-driven payment optimization",
+      "Philips",
+      "Netherlands",
+      "AI in medical imaging",
+      "Proces & productivity",
+      "Professional services firm",
+      "Internal AI assistant for knowledge workers",
+      "Which AI workshop suits which team, and how is the price set?",
+      "Dave Willemstein delivers workshops and training in-company and tailored to the team; an AI workshop is built around three to five concrete tasks per role, using material from the team's own practice. The most common starting points are a management introduction, hands-on work with ChatGPT and Copilot, AI literacy, and an AI strategy workshop. Each assignment gets a fixed price, agreed during the intake and confirmed in writing beforehand.",
+      "Which session suits a board or supervisory board?",
+      "The Executive Briefing is the suitable format for a board or supervisory board: a fixed session with a decision agenda and oversight questions. The Executive Briefing has a fixed price, including preparation for the sector and set out in the proposal. The management workshop is more broadly usable, for example for line managers or a management team.",
+      "Can an AI workshop also be delivered online?",
+      "Yes, but hands-on work and discussion get off to a slower start in an online AI workshop. In-company works best, because participants can then practise with their own equipment, access and material.",
+      "Do licences and a single training afternoon lead to structural AI use?",
+      "Rarely: handing out licences and organising a single training afternoon rarely leads to structural use, and an AI workshop isn't an adoption strategy. That's why an AI workshop is built around three to five concrete tasks per role, so a participant knows where to start the next morning.",
+      "Source: rates and typical timelines from Dave Willemstein. Updated: October 2026.",
+      "Why an AI workshop?",
+      "Most organisations already have AI tools available, or staff are using them on their own initiative. What’s often missing is a shared understanding of what those tools are good at, where they’re unreliable, and what is and isn’t allowed within your organisation. An AI workshop is a fast way to close that gap: in one or a few sessions, a team gets the same starting point.",
+      "A workshop isn’t an adoption strategy. Handing out licences and running a single training afternoon rarely leads to structural use. Why adoption starts with the work and not the tool is covered elsewhere on this site. That’s why I build a workshop around three to five concrete tasks per role, with material from your own practice. Then someone knows where to start the next morning.",
+      "An AI workshop for business makes sense if you:",
+      "have staff already using AI without clear agreements in place;",
+      "have bought, or are considering, licences, and want them actually used;",
+      "want management to understand what AI means for your work before investing;",
+      "want to take measures for the AI literacy the AI Act asks of your organisation.",
+      "Types of workshop",
+      "Every workshop is put together around your own question. The four variants below are the most common starting points, not fixed packages.",
+      "Introduction to AI for managementFor leadership and the board. Outcome: a shared view of opportunities, risks and choices.",
+      "Hands-on with ChatGPT and CopilotFor teams using the tools. Outcome: working applications in their own tasks.",
+      "AI literacyFor anyone working with AI. Outcome: foundational knowledge, risk awareness and recorded agreements.",
+      "AI strategy workshopFor a core group with a mandate. Outcome: prioritised use cases and a next step.",
+      "Four starting points for an AI workshop, grouped by audience and what the session needs to deliver.",
+      "Introduction to AI for management",
+      "For management teams who want to understand what AI can and can’t do, without hype and without technical jargon. We discuss what’s working in your sector, where the risks lie, and which decisions are coming up. For a board or supervisory board, the Executive Briefing is the better fit: a fixed three-hour session with a decision agenda and oversight questions. The management workshop is more broadly applicable, for example for line managers or a leadership team preparing to talk to its own teams.",
+      "Hands-on with ChatGPT and Copilot",
+      "For teams that already have the tools or will get them soon. Participants work with their own tasks: summarising a report, rewriting a quotation, cutting a long email down to three decision points. They learn to write better prompts, check outcomes, and judge when AI isn’t the right choice. For organisations with Microsoft 365, there’s a separate Copilot training for teams; anyone working with ChatGPT finds the approach in the ChatGPT training for business.",
+      "AI literacy",
+      "For everyone in the organisation who works with AI systems. The AI Act requires organisations that deploy AI to take measures that support their staff’s AI literacy. A training helps with that, but isn’t the only measure. What the law precisely asks, and how you show what you’re doing, is covered on the AI literacy training page.",
+      "AI strategy workshop",
+      "For a small core group with a mandate who want to move from loose ideas to priorities. In one or two half-days, we map out opportunities, score them on value and feasibility, and name what falls away. If more turns out to be needed, the AI Strategy Sprint is the logical next step: five working sessions towards a board-ready strategy and roadmap.",
+      "AI training: from foundation to deeper skills",
+      "A workshop sets something in motion. An AI training for business goes a step further: people practise, apply it in their own work, and come back with what did and didn’t work. That takes more than one session.",
+      "Training formats",
+      "Which format fits depends on the goal and the group:",
+      "One-off workshop: a half-day or full day to establish a shared starting point.",
+      "Series of sessions: several shorter sessions with gaps in between, so participants can practise in their own work.",
+      "Foundation and deeper dive: a broad foundation session for everyone, followed by a deeper dive for the roles that use it most.",
+      "Personal coaching: for managers and team leads who want to guide their team through the change. That’s covered under AI coaching for managers and teams.",
+      "Tailored programme",
+      "I don’t work from a standard slide deck. A tailored programme is built in a short intake, where we discuss the goal, the audience, the tools available and any internal agreements. I then gather examples from your own work, so the exercises are recognisable.",
+      "An in-company AI training for a team might look like this, for example:",
+      "Knowledge: what a language model does, why it sometimes produces convincing nonsense, and what that means for oversight.",
+      "Agreements: what’s allowed in which tool, which data stays out of it, and who decides when in doubt.",
+      "Practice: three to five tasks from your own work, turned into reusable exercises.",
+      "Follow-up: recording per role what people will try over the coming weeks, and who tracks usage.",
+      "That’s an example, not a fixed format. The shape looks different for a legal team than for a sales department.",
+      "What I need from you beforehand is limited: a sponsor who can name the goal, a sense of the level in the group, information on which tools and licences exist, and the internal agreements on AI use, where they already exist. If those agreements don’t exist yet, that’s no reason to wait. It is a topic that comes up in the workshop anyway, since participants ask about it regardless.",
+      "In-company or on location",
+      "I deliver workshops and training in-company: at your office or a location you arrange, for example during an away day. That works best, because people can then practise with their own equipment, access and material. Online is possible too, but hands-on work and discussion get off to a slower start remotely.",
+      "I work across the UK and Europe, in English or Dutch. I work alone: the person you speak to in the intake also delivers the session. For organisations that want to roll out training and change management at larger scale, for example across hundreds of staff at once, I can suggest parties from my partner network. You contract them directly, with no margin for me.",
+      "What participants learn",
+      "What participants take away exactly depends on the programme. For a typical hands-on workshop, these are the learning goals I work towards:",
+      "Understanding how it works: enough knowledge of generative AI to understand why an outcome sounds right but can be wrong.",
+      "Giving better instructions: supplying context, role, an example and the format you want, and iterating rather than starting over.",
+      "Checking: verifying sources, checking figures, and knowing which tasks always need a final human check.",
+      "Working safely: recognising which data doesn’t belong in a tool, and knowing the internal agreements about it.",
+      "Choosing: judging which tasks suit AI and which are better left as they are.",
+      "That last one may be the most important. A team that deliberately chooses where AI doesn’t help uses it elsewhere with more confidence. If you don’t yet have internal agreements on AI use, it’s sensible to draft those in parallel; the AI policy page covers what belongs in them.",
+      "Example scenario",
+      "An insurance intermediary with 70 staff has Microsoft Copilot licences for 30 people. After three months, nine of them use it weekly.",
+      "The consultant runs two half-day workshops, for the back office and for claims handling. The exercises come from their own work: summarising a claim, explaining a policy comparison to a customer, cutting a long email down to decision points, and preparing for a customer conversation. Beforehand, leadership records which customer data may and may not go into Copilot.",
+      "Six weeks later, 22 of the 30 licence holders use Copilot weekly, according to Microsoft 365's usage reporting. Three staff act as points of contact and share working examples. Deliberately not done: buying extra licences. Usage among the current group has to stabilise first.",
+      "Fictional example, built from situations that come up often. The organisation and figures are illustrative.",
+      "Investment",
+      "Workshops and training get a fixed price per assignment, because preparation, duration and group size vary widely. The amount is discussed in the intake, and you get it in writing beforehand. The pricing page shows how that compares to the fixed-scope engagements. All proposals exclude VAT and travel expenses.",
+      "The Executive Briefing is the exception: it has a fixed price, including preparation for your sector.",
+      "Want to see where your organisation stands first? The AI Readiness Assessment is the more logical place to start. More about my background is on the about page. Not sure yet whether a workshop is the right first step? Ask about a workshop: in a thirty-minute conversation, you’ll hear what I’d suggest, even if that’s something other than a workshop.",
+      "Dave Willemstein Independent AI Advisor",
+      "Independent: no commissions, no partner deals, no margin on implementation partners.",
+      "About My partner network",
+      "Want to know where you stand with AI? See the AI Readiness Assessment →",
+      "Frequently asked questions",
+      "What's the difference between an AI workshop and an AI training?+",
+      "A workshop is usually a single session with a clear question: building understanding, reaching a shared view, or choosing a first set of applications. A training more often runs over several sessions and focuses on skills people then apply themselves afterwards. In practice the two overlap; the goal determines the format.",
+      "Do participants need prior experience with AI?+",
+      "No. I do ask beforehand what people already use and where they run into trouble, so the group isn't bored by what it already knows or overwhelmed by what goes too far. With large gaps in level, it can make sense to split into a foundation group and a deeper-dive group.",
+      "Which tools do we use during the workshop?+",
+      "Preferably the tools your organisation already has or is considering, within whatever internal agreements apply. If you don't yet have business licences, we work with examples and practice material containing no confidential data. I don't recommend a tool because I earn something from it, because I don't.",
+      "Can a workshop also be part of an AI team-building day or an away day?+",
+      "Yes, if there's a genuine question underneath it. A half-day in which a team works out together which tasks suit AI and which don't works well on an away day. I don't deliver a purely entertaining programme with no follow-up; others are better at that.",
+      "What needs to happen after the workshop for it to stick?+",
+      "People need to be able to apply it in their own work the following week, with clear agreements on what's allowed. That's why I close with concrete follow-up steps per role and an owner who picks it up. Without that, it stays a pleasant afternoon and nothing more.",
+      "Sources",
+      "European Commission: AI Literacy - Questions & Answers",
+      "Ready for impact?",
+      "From AI ambition to real results.",
+      "Book a no-obligation call. No pitch. Just sharp questions.",
+      "30 min., no pitch deckBook a call →"
+    ]
+  },
+  "links": [
+    {
+      "regio": "overig",
+      "soort": "intern",
+      "href": "#main",
+      "anker": "Skip to main content",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/",
+      "anker": "",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/services",
+      "anker": "Services",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/cases",
+      "anker": "Cases",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/approach",
+      "anker": "Approach",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/insights",
+      "anker": "Insights",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/about",
+      "anker": "About",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/nl/ai-workshop",
+      "anker": "NL",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/contact",
+      "anker": "Book a call →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/",
+      "anker": "Home",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/contact",
+      "anker": "Ask about a workshop →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/services/ai-readiness-assessment",
+      "anker": "See the AI Readiness Assessment →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/services/executive-briefing",
+      "anker": "Executive Briefing",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/pricing",
+      "anker": "rates and typical timelines from Dave Willemstein",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/services/executive-briefing",
+      "anker": "Executive Briefing",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/ai-workshop/copilot-training",
+      "anker": "Copilot training for teams",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/ai-workshop/chatgpt-training",
+      "anker": "ChatGPT training for business",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/ai-workshop/ai-literacy-training",
+      "anker": "AI literacy training",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/services/ai-strategy-sprint",
+      "anker": "AI Strategy Sprint",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/partner-network",
+      "anker": "partner network",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/ai-policy",
+      "anker": "AI policy",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/pricing",
+      "anker": "pricing",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/services/ai-readiness-assessment",
+      "anker": "AI Readiness Assessment",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/about",
+      "anker": "about",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/contact",
+      "anker": "Ask about a workshop",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/about",
+      "anker": "About",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/partner-network",
+      "anker": "My partner network",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/services/ai-readiness-assessment",
+      "anker": "Want to know where you stand with AI? See the AI Readiness Assessment →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "extern",
+      "href": "https://digital-strategy.ec.europa.eu/en/faqs/ai-literacy-questions-answers",
+      "anker": "European Commission: AI Literacy - Questions & Answers",
+      "rel": "noopener"
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/contact",
+      "anker": "Book a call →",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/services/ai-readiness-assessment",
+      "anker": "AI Readiness Assessment",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/services/ai-strategy-sprint",
+      "anker": "AI Strategy Sprint",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/services/fractional-ai-lead",
+      "anker": "Fractional AI Lead",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/services",
+      "anker": "All services",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/cases",
+      "anker": "Cases",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/approach",
+      "anker": "Approach",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/insights",
+      "anker": "Insights",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/faq",
+      "anker": "FAQ",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/about",
+      "anker": "About",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-consulting",
+      "anker": "AI consulting",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-implementation",
+      "anker": "AI implementation",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-automation",
+      "anker": "AI automation",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-for-business",
+      "anker": "AI for business",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-development",
+      "anker": "AI development",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-agents",
+      "anker": "AI agents",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-policy",
+      "anker": "AI policy",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-workshop",
+      "anker": "AI workshop",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/markets",
+      "anker": "AI by industry",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/knowledge-base",
+      "anker": "Knowledge base",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/pricing",
+      "anker": "Pricing",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/partner-network",
+      "anker": "Partner network",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "overig",
+      "href": "mailto:dave@freelanceaiconsultant.com",
+      "anker": "dave@freelanceaiconsultant.com",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "extern",
+      "href": "https://www.linkedin.com/in/davewillemstein",
+      "anker": "LinkedIn ↗",
+      "rel": "noopener"
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/contact",
+      "anker": "Book a call",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/privacy",
+      "anker": "Privacy policy",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/terms",
+      "anker": "Terms & conditions",
+      "rel": null
+    }
+  ],
+  "structured_data": {
+    "sha256": "7844f1b0fecd9b7e9affed88114fbb4845efcb0d3d1897620339ec9671b2ad4d",
+    "items": [
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://freelanceaiconsultant.com/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "AI Workshop",
+                "item": "https://freelanceaiconsultant.com/ai-workshop"
+              }
+            ]
+          },
+          {
+            "@type": "Service",
+            "name": "AI Workshop",
+            "serviceType": "ai workshop",
+            "description": "An AI workshop or training for your team: practical, tailored and immediately applicable. From a management introduction to hands-on with ChatGPT and Copilot.",
+            "url": "https://freelanceaiconsultant.com/ai-workshop",
+            "areaServed": "GB",
+            "provider": {
+              "@type": "Person",
+              "name": "Dave Willemstein",
+              "jobTitle": "Onafhankelijk AI-adviseur",
+              "url": "https://freelanceaiconsultant.com/over",
+              "sameAs": [
+                "https://www.linkedin.com/in/davewillemstein"
+              ]
+            }
+          },
+          {
+            "@type": "FAQPage",
+            "mainEntity": [
+              {
+                "@type": "Question",
+                "name": "What's the difference between an AI workshop and an AI training?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "A workshop is usually a single session with a clear question: building understanding, reaching a shared view, or choosing a first set of applications. A training more often runs over several sessions and focuses on skills people then apply themselves afterwards. In practice the two overlap; the goal determines the format."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Do participants need prior experience with AI?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "No. I do ask beforehand what people already use and where they run into trouble, so the group isn't bored by what it already knows or overwhelmed by what goes too far. With large gaps in level, it can make sense to split into a foundation group and a deeper-dive group."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Which tools do we use during the workshop?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Preferably the tools your organisation already has or is considering, within whatever internal agreements apply. If you don't yet have business licences, we work with examples and practice material containing no confidential data. I don't recommend a tool because I earn something from it, because I don't."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Can a workshop also be part of an AI team-building day or an away day?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Yes, if there's a genuine question underneath it. A half-day in which a team works out together which tasks suit AI and which don't works well on an away day. I don't deliver a purely entertaining programme with no follow-up; others are better at that."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "What needs to happen after the workshop for it to stick?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "People need to be able to apply it in their own work the following week, with clear agreements on what's allowed. That's why I close with concrete follow-up steps per role and an owner who picks it up. Without that, it stays a pleasant afternoon and nothing more."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Which AI workshop suits which team, and how is the price set?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Dave Willemstein delivers workshops and training in-company and tailored to the team; an AI workshop is built around three to five concrete tasks per role, using material from the team's own practice. The most common starting points are a management introduction, hands-on work with ChatGPT and Copilot, AI literacy, and an AI strategy workshop. Each assignment gets a fixed price, agreed during the intake and confirmed in writing beforehand."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Which session suits a board or supervisory board?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "The Executive Briefing is the suitable format for a board or supervisory board: a fixed session with a decision agenda and oversight questions. The Executive Briefing has a fixed price, including preparation for the sector and set out in the proposal. The management workshop is more broadly usable, for example for line managers or a management team."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Can an AI workshop also be delivered online?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Yes, but hands-on work and discussion get off to a slower start in an online AI workshop. In-company works best, because participants can then practise with their own equipment, access and material."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Do licences and a single training afternoon lead to structural AI use?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Rarely: handing out licences and organising a single training afternoon rarely leads to structural use, and an AI workshop isn't an adoption strategy. That's why an AI workshop is built around three to five concrete tasks per role, so a participant knows where to start the next morning."
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "afbeeldingen": [
+    {
+      "regio": "header",
+      "src": "/images/freelance-ai-consultant-logo-header.png",
+      "alt": "freelanceaiconsultant.com logo",
+      "width": "600",
+      "height": "287",
+      "loading": null
+    },
+    {
+      "regio": "main",
+      "src": "/images/dave-portrait.jpg",
+      "alt": "Portrait of Dave Willemstein",
+      "width": "88",
+      "height": "88",
+      "loading": "lazy"
+    },
+    {
+      "regio": "footer",
+      "src": "/images/freelance-ai-consultant-icon-footer.png",
+      "alt": "",
+      "width": "192",
+      "height": "192",
+      "loading": "lazy"
+    }
+  ],
+  "laadprestaties": {
+    "scripts": [
+      {
+        "src": "/_astro/CookieConsent.astro_astro_type_script_index_0_lang.COcxE8NY.js",
+        "type": "module",
+        "inline_bytes": 0
+      },
+      {
+        "src": null,
+        "type": null,
+        "inline_bytes": 989
+      },
+      {
+        "src": null,
+        "type": null,
+        "inline_bytes": 493
+      },
+      {
+        "src": "/logo-carousel/logo-carousel.js?v=2",
+        "type": null,
+        "inline_bytes": 0
+      },
+      {
+        "src": null,
+        "type": null,
+        "inline_bytes": 725
+      }
+    ],
+    "stylesheets": [
+      "/_astro/_slug_.CzLXI3HH.css",
+      "/_astro/_slug_.Do5RJXa7.css",
+      "/logo-carousel/logo-carousel.css?v=2"
+    ],
+    "aantal_details": 5,
+    "aantal_tabellen": 0
+  },
+  "gemeten_op": "2026-11-05"
+}

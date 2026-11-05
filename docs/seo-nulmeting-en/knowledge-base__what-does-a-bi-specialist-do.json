@@ -1,0 +1,755 @@
+{
+  "url": "/knowledge-base/what-does-a-bi-specialist-do",
+  "build_bestand": "dist/knowledge-base/what-does-a-bi-specialist-do/index.html",
+  "html": {
+    "bytes": 37691,
+    "lang": "en"
+  },
+  "beschermd": {
+    "title": "What Does a BI Specialist Do? Tasks, Skills and Role",
+    "meta_description": "What does a BI specialist do, and how is AI changing the role? Read about tasks, skills, tools, and when to choose a BI specialist over an AI specialist.",
+    "canonical": "https://freelanceaiconsultant.com/knowledge-base/what-does-a-bi-specialist-do",
+    "robots_meta": null,
+    "hreflang": [
+      {
+        "hreflang": "en",
+        "href": "https://freelanceaiconsultant.com/knowledge-base/what-does-a-bi-specialist-do"
+      },
+      {
+        "hreflang": "nl",
+        "href": "https://freelanceaiconsultant.com/nl/kennisbank/wat-doet-een-bi-specialist"
+      },
+      {
+        "hreflang": "x-default",
+        "href": "https://freelanceaiconsultant.com/knowledge-base/what-does-a-bi-specialist-do"
+      }
+    ],
+    "h1": [
+      "What does a BI specialist do?"
+    ]
+  },
+  "social": {
+    "og:type": "website",
+    "og:locale": "en_US",
+    "og:site_name": "freelanceaiconsultant.com",
+    "og:title": "What Does a BI Specialist Do? Tasks, Skills and Role",
+    "og:description": "What does a BI specialist do, and how is AI changing the role? Read about tasks, skills, tools, and when to choose a BI specialist over an AI specialist.",
+    "og:url": "https://freelanceaiconsultant.com/knowledge-base/what-does-a-bi-specialist-do",
+    "og:image": "https://freelanceaiconsultant.com/images/dave-portrait.jpg",
+    "twitter:card": "summary_large_image",
+    "twitter:title": "What Does a BI Specialist Do? Tasks, Skills and Role",
+    "twitter:description": "What does a BI specialist do, and how is AI changing the role? Read about tasks, skills, tools, and when to choose a BI specialist over an AI specialist.",
+    "twitter:image": "https://freelanceaiconsultant.com/images/dave-portrait.jpg"
+  },
+  "koppen": [
+    {
+      "niveau": 1,
+      "tekst": "What does a BI specialist do?",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "What is a BI specialist?",
+      "regio": "main",
+      "id": "what-is-a-bi-specialist"
+    },
+    {
+      "niveau": 3,
+      "tekst": "How is AI changing a BI specialist's work?",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 3,
+      "tekst": "Is a BI specialist needed before an AI specialist?",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 3,
+      "tekst": "What names does the BI specialist role go by?",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "Tasks and skills",
+      "regio": "main",
+      "id": "tasks-and-skills"
+    },
+    {
+      "niveau": 2,
+      "tekst": "BI specialist versus AI specialist",
+      "regio": "main",
+      "id": "bi-specialist-versus-ai-specialist"
+    },
+    {
+      "niveau": 2,
+      "tekst": "How AI is changing the role",
+      "regio": "main",
+      "id": "how-ai-is-changing-the-role"
+    },
+    {
+      "niveau": 2,
+      "tekst": "From AI ambition to real results.",
+      "regio": "main",
+      "id": null
+    }
+  ],
+  "bodytekst": {
+    "regio": "main",
+    "woorden": 1716,
+    "sha256": "197360f58e1968bf4b916825d7638abff3ab556c9ba27bdb66bde78f5d804858",
+    "blokken": [
+      "Home",
+      "Knowledge base",
+      "What does a BI specialist do?",
+      "Knowledge base",
+      "What does a BI specialist do?",
+      "BI specialists make sure an organisation steers on numbers it can trust. They gather data from different systems, record what terms actually mean, and build reports and dashboards. Here's what the role involves, which skills go with it, how a BI specialist differs from an AI specialist, and how AI is changing the job.",
+      "Read more on AI and BI → Book a strategy call →",
+      "Written by Dave Willemstein, independent AI consultant · published October 27, 2026",
+      "IN SHORT",
+      "A BI specialist translates business questions into reliable numbers, reports and dashboards.",
+      "The difference from an AI specialist: BI explains what happened, AI predicts, classifies or generates.",
+      "AI is taking over routine work, which makes data modelling, definitions and advice more important.",
+      "AI in Europe",
+      "European brands already running AI in production.",
+      "Not my clients. Examples of what happens once AI moves past the pilot stage.",
+      "Pause",
+      "Klarna",
+      "Sweden",
+      "AI customer service assistant",
+      "Zalando",
+      "Germany",
+      "Fashion assistant for product advice",
+      "Financial services",
+      "Investment firm",
+      "AI strategy and use-case portfolio",
+      "Booking.com",
+      "Netherlands",
+      "AI Trip Planner for travel planning",
+      "Siemens",
+      "Germany",
+      "Industrial Copilot for engineering",
+      "Retail",
+      "Enterprise retailer",
+      "AI-driven vendor selection",
+      "Spotify",
+      "Sweden",
+      "AI DJ and personalized playlists",
+      "Mercedes-Benz",
+      "Germany",
+      "Generative voice assistant in the car",
+      "Industrial / B2B",
+      "International manufacturer",
+      "AI roadmap and leadership",
+      "ING",
+      "Netherlands",
+      "Generative chatbot for customer queries",
+      "L'Oréal",
+      "France",
+      "Beauty Genius: personalized advice",
+      "Financial services",
+      "Financial services firm",
+      "KYC accelerated with AI document analysis",
+      "SAP",
+      "Germany",
+      "Joule: copilot in business software",
+      "Carrefour",
+      "France",
+      "Hopla: grocery shopping assistant",
+      "Strategy & AI",
+      "SaaS scale-up",
+      "AI readiness assessment",
+      "Adyen",
+      "Netherlands",
+      "AI-driven payment optimization",
+      "Philips",
+      "Netherlands",
+      "AI in medical imaging",
+      "Proces & productivity",
+      "Professional services firm",
+      "Internal AI assistant for knowledge workers",
+      "What is a BI specialist?",
+      "A BI specialist makes sure an organisation steers on numbers that are correct, mean the same thing everywhere, and are available on time. The work consists of gathering questions from the business, bringing together data from source systems, setting up a data model with definitions, and building and explaining reports and dashboards. Where a BI specialist explains what happened, an AI specialist focuses on predicting and on automating tasks with AI.",
+      "A BI specialist, short for business intelligence specialist, is responsible for the information an organisation steers by. BI specialists make sure the revenue, margin, stock levels or customer satisfaction figures the leadership team sees are correct, mean the same thing everywhere, and are available on time.",
+      "In practice, the role goes by many names: BI consultant, BI developer, data analyst or reporting specialist. The emphasis varies. Some sit closer to the technical side and build data pipelines and data models; others sit closer to the business and translate managers’ questions into reports. What they share is the bridging function between the people making decisions and the systems holding the data.",
+      "A BI specialist often works in a data team, in finance or control, or as an external consultant at a BI firm. In smaller organisations, it’s regularly someone who covers the role alongside another job.",
+      "How is AI changing a BI specialist's work?",
+      "Because AI is taking over a BI specialist's routine work, data modelling, definitions and advice become more important. A BI specialist who can explain how data comes about and where its limitations lie becomes more valuable.",
+      "Is a BI specialist needed before an AI specialist?",
+      "Both a BI specialist and an AI specialist are often needed, and usually in that order. An AI application running on business figures is only as reliable as the definitions and the data beneath it; that foundation is typically a BI specialist's work.",
+      "What names does the BI specialist role go by?",
+      "In practice, the BI specialist role goes by many names: BI consultant, BI developer, data analyst or reporting specialist. The emphasis varies: some sit closer to the technical side, others closer to the business.",
+      "Source: article by Dave Willemstein. Updated: October 2026.",
+      "Tasks and skills",
+      "What does a business intelligence specialist actually do on an average working day? The tasks fall into four groups:",
+      "Gather the questionWork with managers and teams to establish which question a report should answer, and which decision depends on it.",
+      "Bring data togetherPull data from ERP, CRM, accounting and other sources, clean it and link it.",
+      "Model and defineSet up a data model and record what terms such as customer, order and margin mean.",
+      "Report and explainBuild dashboards and reports, and help users read the numbers correctly.",
+      "The visible part of the work is the dashboard; most of the effort sits in the steps before it.",
+      "A BI specialist also safeguards data quality, maintains existing reports, and makes sure the right people have access to the right data.",
+      "The skills that go with it:",
+      "Technical: SQL, data modelling, experience with one or more BI platforms (well-known names include Power BI, Tableau and Qlik), and often knowledge of data warehouses and ETL processes, pulling and transforming data from source systems.",
+      "Analytical: spotting anomalies, being critical of your own numbers, and knowing when a figure can’t be right.",
+      "Business sense: understanding how the business makes money, so a report answers the right question.",
+      "Communication: explaining clearly what a number does and doesn’t say, including to people without a data background.",
+      "The last two are often underrated. A technically perfect dashboard nobody uses delivers nothing.",
+      "Signs an organisation needs BI capacity, whether in-house or external:",
+      "Two departments report different numbers for the same term, and nobody knows which one is right.",
+      "The monthly report is assembled by hand from exports and spreadsheets, and takes days every month.",
+      "Managers ask for information that exists but that nobody can surface quickly.",
+      "There are plans for AI on business figures, but nobody can say where the data comes from or how reliable it is.",
+      "Recognise more than one of these, and it’s usually not a tool problem but a question of ownership and definitions.",
+      "BI specialist versus AI specialist",
+      "BI specialists and AI specialists both work with data, but they answer a different kind of question.",
+      "BI specialist",
+      "AI specialist",
+      "Core question",
+      "What happened, and why?",
+      "What’s going to happen, or how do you automate a task with AI?",
+      "Typical output",
+      "Data models, reports, dashboards",
+      "Predictive models, AI applications, integrations with language models",
+      "Data",
+      "Mainly structured",
+      "Structured as well as text, documents or images",
+      "Outcome",
+      "Exact, if the data is right",
+      "An estimate, with a margin of error",
+      "So who do you bring in? If you want reliable management information, consistent numbers and good reporting, you need a BI specialist. If you want to look ahead, process text and documents, or automate tasks, you’re looking for an AI specialist. What that role involves and which kinds exist is covered in the AI specialist. How the two disciplines reinforce each other is set out in AI and BI.",
+      "In practice, both a BI specialist and an AI specialist are often needed, in that order. An AI application running on business figures is only as reliable as the definitions and the data beneath it. That foundation is typically a BI specialist’s work.",
+      "I’m not a BI specialist myself, and I don’t build dashboards or data models. As an independent AI adviser, I help organisations decide which AI applications on their data are worthwhile, and which roles and parties are needed for that. For the BI work itself, you work with your own BI team or a party from my partner network, contracted directly by you.",
+      "How AI is changing the role",
+      "AI is changing BI specialists’ work in three ways.",
+      "Routine work gets faster. BI platforms are gaining more AI features that help write calculations and queries, set up a first report page, and add descriptions to a data model. What used to take hours is finished faster. The BI specialist checks and refines.",
+      "Users ask their own questions. With features that let managers ask questions in plain language, they no longer need a new report for every question. That sounds like less work for the BI specialist, but it shifts the work instead: those questions only get good answers if the data model is clearly set up, with clear names, descriptions and recorded definitions. The BI specialist becomes less of a report builder and more of an architect of meaning.",
+      "The role shifts towards advice and quality. As AI outcomes start running on business data, the question of where a number comes from becomes more important. BI specialists who can explain how data comes about and where its limitations lie become more valuable, not less.",
+      "For organisations, this means investing in a solid BI foundation isn’t an alternative to AI, but often the best preparation for it. How that plays out by organisation type is covered in AI for small business and AI for professional services firms. The broader overview is on AI for business.",
+      "Example scenario",
+      "A retail organisation with 400 staff and a four-person BI team wants managers to be able to ask questions about sales figures themselves, in plain language, through their BI platform's AI feature.",
+      "The adviser first runs a test with 40 questions managers actually ask. 26 get a correct answer. The errors mostly trace back to the data model: \"margin\" is defined three different ways, and many columns have names only the BI team understands. His advice: lock down the definitions first, then roll it out.",
+      "The BI team spends six weeks on descriptions and definitions for the sixty most-used terms. On the retest, 35 of 40 answers are correct. The feature goes live for 25 managers, with the agreement that figures used for decisions are checked against the standard report first.",
+      "Fictional example, built from situations that come up often. The organisation and figures are illustrative.",
+      "Not sure whether your question belongs with a BI specialist, an AI specialist or an adviser? Book a short call, and we’ll work out together which role you need.",
+      "Dave Willemstein Independent AI Advisor",
+      "Independent: no commissions, no partner deals, no margin on implementation partners.",
+      "About My partner network",
+      "Want to know where you stand with AI? See the AI Readiness Assessment →",
+      "Ready for impact?",
+      "From AI ambition to real results.",
+      "Book a no-obligation call. No pitch. Just sharp questions.",
+      "30 min., no pitch deckBook a call →"
+    ]
+  },
+  "links": [
+    {
+      "regio": "overig",
+      "soort": "intern",
+      "href": "#main",
+      "anker": "Skip to main content",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/",
+      "anker": "",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/services",
+      "anker": "Services",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/cases",
+      "anker": "Cases",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/approach",
+      "anker": "Approach",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/insights",
+      "anker": "Insights",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/about",
+      "anker": "About",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/nl/kennisbank/wat-doet-een-bi-specialist",
+      "anker": "NL",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/contact",
+      "anker": "Book a call →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/",
+      "anker": "Home",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/knowledge-base",
+      "anker": "Knowledge base",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/ai-for-business/ai-and-bi",
+      "anker": "Read more on AI and BI →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/contact",
+      "anker": "Book a strategy call →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/about",
+      "anker": "Dave Willemstein",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/ai-development/ai-specialist",
+      "anker": "the AI specialist",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/ai-for-business/ai-and-bi",
+      "anker": "AI and BI",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/ai-for-business/sme",
+      "anker": "AI for small business",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/ai-for-business/professional-services-firms",
+      "anker": "AI for professional services firms",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/ai-for-business",
+      "anker": "AI for business",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/contact",
+      "anker": "Book a short call",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/about",
+      "anker": "About",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/partner-network",
+      "anker": "My partner network",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/services/ai-readiness-assessment",
+      "anker": "Want to know where you stand with AI? See the AI Readiness Assessment →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/contact",
+      "anker": "Book a call →",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/services/ai-readiness-assessment",
+      "anker": "AI Readiness Assessment",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/services/ai-strategy-sprint",
+      "anker": "AI Strategy Sprint",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/services/fractional-ai-lead",
+      "anker": "Fractional AI Lead",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/services",
+      "anker": "All services",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/cases",
+      "anker": "Cases",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/approach",
+      "anker": "Approach",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/insights",
+      "anker": "Insights",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/faq",
+      "anker": "FAQ",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/about",
+      "anker": "About",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-consulting",
+      "anker": "AI consulting",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-implementation",
+      "anker": "AI implementation",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-automation",
+      "anker": "AI automation",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-for-business",
+      "anker": "AI for business",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-development",
+      "anker": "AI development",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-agents",
+      "anker": "AI agents",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-policy",
+      "anker": "AI policy",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-workshop",
+      "anker": "AI workshop",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/markets",
+      "anker": "AI by industry",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/knowledge-base",
+      "anker": "Knowledge base",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/pricing",
+      "anker": "Pricing",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/partner-network",
+      "anker": "Partner network",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "overig",
+      "href": "mailto:dave@freelanceaiconsultant.com",
+      "anker": "dave@freelanceaiconsultant.com",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "extern",
+      "href": "https://www.linkedin.com/in/davewillemstein",
+      "anker": "LinkedIn ↗",
+      "rel": "noopener"
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/contact",
+      "anker": "Book a call",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/privacy",
+      "anker": "Privacy policy",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/terms",
+      "anker": "Terms & conditions",
+      "rel": null
+    }
+  ],
+  "structured_data": {
+    "sha256": "dd7ef01b2fda4a9d70d6f0a50db06918e712fd3d0d65f582efb49504bfe773f5",
+    "items": [
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://freelanceaiconsultant.com/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Knowledge base",
+                "item": "https://freelanceaiconsultant.com/knowledge-base"
+              },
+              {
+                "@type": "ListItem",
+                "position": 3,
+                "name": "What does a BI specialist do?",
+                "item": "https://freelanceaiconsultant.com/knowledge-base/what-does-a-bi-specialist-do"
+              }
+            ]
+          },
+          {
+            "@type": "Article",
+            "headline": "What does a BI specialist do?",
+            "description": "What does a BI specialist do, and how is AI changing the role? Read about tasks, skills, tools, and when to choose a BI specialist over an AI specialist.",
+            "inLanguage": "en-US",
+            "datePublished": "2026-10-27",
+            "dateModified": "2026-10-27",
+            "author": {
+              "@type": "Person",
+              "name": "Dave Willemstein",
+              "jobTitle": "Onafhankelijk AI-adviseur",
+              "url": "https://freelanceaiconsultant.com/over",
+              "sameAs": [
+                "https://www.linkedin.com/in/davewillemstein"
+              ]
+            },
+            "publisher": {
+              "@type": "Person",
+              "name": "Dave Willemstein"
+            },
+            "mainEntityOfPage": "https://freelanceaiconsultant.com/knowledge-base/what-does-a-bi-specialist-do"
+          },
+          {
+            "@type": "FAQPage",
+            "mainEntity": [
+              {
+                "@type": "Question",
+                "name": "What is a BI specialist?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "A BI specialist makes sure an organisation steers on numbers that are correct, mean the same thing everywhere, and are available on time. The work consists of gathering questions from the business, bringing together data from source systems, setting up a data model with definitions, and building and explaining reports and dashboards. Where a BI specialist explains what happened, an AI specialist focuses on predicting and on automating tasks with AI."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "How is AI changing a BI specialist's work?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Because AI is taking over a BI specialist's routine work, data modelling, definitions and advice become more important. A BI specialist who can explain how data comes about and where its limitations lie becomes more valuable."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Is a BI specialist needed before an AI specialist?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Both a BI specialist and an AI specialist are often needed, and usually in that order. An AI application running on business figures is only as reliable as the definitions and the data beneath it; that foundation is typically a BI specialist's work."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "What names does the BI specialist role go by?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "In practice, the BI specialist role goes by many names: BI consultant, BI developer, data analyst or reporting specialist. The emphasis varies: some sit closer to the technical side, others closer to the business."
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "afbeeldingen": [
+    {
+      "regio": "header",
+      "src": "/images/freelance-ai-consultant-logo-header.png",
+      "alt": "freelanceaiconsultant.com logo",
+      "width": "600",
+      "height": "287",
+      "loading": null
+    },
+    {
+      "regio": "main",
+      "src": "/images/dave-portrait.jpg",
+      "alt": "Portrait of Dave Willemstein",
+      "width": "88",
+      "height": "88",
+      "loading": "lazy"
+    },
+    {
+      "regio": "footer",
+      "src": "/images/freelance-ai-consultant-icon-footer.png",
+      "alt": "",
+      "width": "192",
+      "height": "192",
+      "loading": "lazy"
+    }
+  ],
+  "laadprestaties": {
+    "scripts": [
+      {
+        "src": "/_astro/CookieConsent.astro_astro_type_script_index_0_lang.COcxE8NY.js",
+        "type": "module",
+        "inline_bytes": 0
+      },
+      {
+        "src": null,
+        "type": null,
+        "inline_bytes": 989
+      },
+      {
+        "src": null,
+        "type": null,
+        "inline_bytes": 493
+      },
+      {
+        "src": "/logo-carousel/logo-carousel.js?v=2",
+        "type": null,
+        "inline_bytes": 0
+      },
+      {
+        "src": null,
+        "type": null,
+        "inline_bytes": 725
+      }
+    ],
+    "stylesheets": [
+      "/_astro/_slug_.CzLXI3HH.css",
+      "/_astro/_slug_.Do5RJXa7.css",
+      "/logo-carousel/logo-carousel.css?v=2"
+    ],
+    "aantal_details": 0,
+    "aantal_tabellen": 1
+  },
+  "gemeten_op": "2026-11-05"
+}

@@ -1,0 +1,765 @@
+{
+  "url": "/knowledge-base/chatgpt-for-business",
+  "build_bestand": "dist/knowledge-base/chatgpt-for-business/index.html",
+  "html": {
+    "bytes": 38502,
+    "lang": "en"
+  },
+  "beschermd": {
+    "title": "ChatGPT for Business | Applications and Safe Use",
+    "meta_description": "How do you use ChatGPT responsibly in your business? Read about business plans, applications by department, privacy settings and your AI policy.",
+    "canonical": "https://freelanceaiconsultant.com/knowledge-base/chatgpt-for-business",
+    "robots_meta": null,
+    "hreflang": [
+      {
+        "hreflang": "en",
+        "href": "https://freelanceaiconsultant.com/knowledge-base/chatgpt-for-business"
+      },
+      {
+        "hreflang": "nl",
+        "href": "https://freelanceaiconsultant.com/nl/kennisbank/chatgpt-voor-bedrijven"
+      },
+      {
+        "hreflang": "x-default",
+        "href": "https://freelanceaiconsultant.com/knowledge-base/chatgpt-for-business"
+      }
+    ],
+    "h1": [
+      "ChatGPT for business: applications and safe use"
+    ]
+  },
+  "social": {
+    "og:type": "website",
+    "og:locale": "en_US",
+    "og:site_name": "freelanceaiconsultant.com",
+    "og:title": "ChatGPT for Business | Applications and Safe Use",
+    "og:description": "How do you use ChatGPT responsibly in your business? Read about business plans, applications by department, privacy settings and your AI policy.",
+    "og:url": "https://freelanceaiconsultant.com/knowledge-base/chatgpt-for-business",
+    "og:image": "https://freelanceaiconsultant.com/images/dave-portrait.jpg",
+    "twitter:card": "summary_large_image",
+    "twitter:title": "ChatGPT for Business | Applications and Safe Use",
+    "twitter:description": "How do you use ChatGPT responsibly in your business? Read about business plans, applications by department, privacy settings and your AI policy.",
+    "twitter:image": "https://freelanceaiconsultant.com/images/dave-portrait.jpg"
+  },
+  "koppen": [
+    {
+      "niveau": 1,
+      "tekst": "ChatGPT for business: applications and safe use",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "What can ChatGPT for business do?",
+      "regio": "main",
+      "id": "what-can-chatgpt-for-business-do"
+    },
+    {
+      "niveau": 3,
+      "tekst": "Which ChatGPT for business plan offers European data residency?",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 3,
+      "tekst": "Is a personal account suitable for company data on ChatGPT for business?",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "Business plans",
+      "regio": "main",
+      "id": "business-plans"
+    },
+    {
+      "niveau": 2,
+      "tekst": "Applications by department",
+      "regio": "main",
+      "id": "applications-by-department"
+    },
+    {
+      "niveau": 2,
+      "tekst": "Privacy and security",
+      "regio": "main",
+      "id": "privacy-and-security"
+    },
+    {
+      "niveau": 2,
+      "tekst": "Sources",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "From AI ambition to real results.",
+      "regio": "main",
+      "id": null
+    }
+  ],
+  "bodytekst": {
+    "regio": "main",
+    "woorden": 1761,
+    "sha256": "b122d96105bb466842ec0847c9a75b9f7116e3e798ff00c3600f108a068e10f9",
+    "blokken": [
+      "Home",
+      "Knowledge base",
+      "ChatGPT for business",
+      "Knowledge base · AI tools",
+      "ChatGPT for business: applications and safe use",
+      "ChatGPT for business is different from staff setting up their own accounts. A business plan gives you admin control, central billing and agreements about your data. This page covers the available plans, where ChatGPT helps by department, and how to set it up safely.",
+      "Read more on AI automation → Book a strategy call →",
+      "Written by Dave Willemstein, independent AI consultant · published October 27, 2026",
+      "IN SHORT",
+      "For business data: ChatGPT Business or Enterprise, not personal accounts.",
+      "On Business and Enterprise, OpenAI doesn't train on your workspace data by default.",
+      "European data residency is available on Enterprise, not on Business (as of October 2026).",
+      "AI in Europe",
+      "European brands already running AI in production.",
+      "Not my clients. Examples of what happens once AI moves past the pilot stage.",
+      "Pause",
+      "Klarna",
+      "Sweden",
+      "AI customer service assistant",
+      "Zalando",
+      "Germany",
+      "Fashion assistant for product advice",
+      "Financial services",
+      "Investment firm",
+      "AI strategy and use-case portfolio",
+      "Booking.com",
+      "Netherlands",
+      "AI Trip Planner for travel planning",
+      "Siemens",
+      "Germany",
+      "Industrial Copilot for engineering",
+      "Retail",
+      "Enterprise retailer",
+      "AI-driven vendor selection",
+      "Spotify",
+      "Sweden",
+      "AI DJ and personalized playlists",
+      "Mercedes-Benz",
+      "Germany",
+      "Generative voice assistant in the car",
+      "Industrial / B2B",
+      "International manufacturer",
+      "AI roadmap and leadership",
+      "ING",
+      "Netherlands",
+      "Generative chatbot for customer queries",
+      "L'Oréal",
+      "France",
+      "Beauty Genius: personalized advice",
+      "Financial services",
+      "Financial services firm",
+      "KYC accelerated with AI document analysis",
+      "SAP",
+      "Germany",
+      "Joule: copilot in business software",
+      "Carrefour",
+      "France",
+      "Hopla: grocery shopping assistant",
+      "Strategy & AI",
+      "SaaS scale-up",
+      "AI readiness assessment",
+      "Adyen",
+      "Netherlands",
+      "AI-driven payment optimization",
+      "Philips",
+      "Netherlands",
+      "AI in medical imaging",
+      "Proces & productivity",
+      "Professional services firm",
+      "Internal AI assistant for knowledge workers",
+      "What can ChatGPT for business do?",
+      "On the Business and Enterprise plans, OpenAI states that training on input and output stays off by default (as of October 2026); Dave Willemstein advises Business or Enterprise for company data, not personal accounts. ChatGPT can confidently give a wrong answer; Dave Willemstein advises that a human stays responsible for checking anything that goes to a customer, a regulator or leadership.",
+      "ChatGPT is OpenAI’s AI assistant. For business, at its core it’s a writing, thinking and analysis partner that works in plain language: you ask a question or give an instruction, and you get back a piece of text, a summary, an analysis or a draft.",
+      "The business plans include more than the chat window. According to OpenAI’s pricing page (as of October 2026), ChatGPT Business includes, among other things:",
+      "Projects and shared projects, to keep documents and conversations together by topic.",
+      "Custom GPTs you share within your workspace, such as an assistant that drafts quotes in your house style.",
+      "Deep research, for more extensive research with sources.",
+      "Data analysis on files you upload, such as an Excel export.",
+      "Connectors with Google Workspace, Slack, GitHub and Microsoft 365 among others, and “company knowledge” to base answers on your own sources.",
+      "Codex and workspace agents for tasks that span several steps.",
+      "What ChatGPT isn’t: a system that automatically speaks the truth. It can confidently give a wrong answer, especially on facts, figures and citations. For anything that goes to a customer, a regulator or leadership, a human stays responsible for checking it. How ChatGPT compares to other tools is covered separately on this site.",
+      "Which ChatGPT for business plan offers European data residency?",
+      "ChatGPT Enterprise, for new workspaces (EEA and Switzerland); ChatGPT Business has no European data residency (as of October 2026). On ChatGPT for business, data that goes to external services through connectors or web searches isn't covered by that, according to OpenAI.",
+      "Is a personal account suitable for company data on ChatGPT for business?",
+      "No, for company data on ChatGPT for business the rule is: Business or Enterprise, not personal accounts. For Business and Enterprise, a data processing agreement with OpenAI can also be signed.",
+      "Source: article by Dave Willemstein. Updated: October 2026.",
+      "Business plans",
+      "OpenAI offers personal plans (Free, Go, Plus and Pro) and business plans (Business and Enterprise). ChatGPT Business was called ChatGPT Team until 29 August 2025; anyone still referring to “ChatGPT Team” means the same plan. The overview, as of October 2026:",
+      "ChatGPT Business",
+      "ChatGPT Enterprise",
+      "For whom",
+      "Teams from 2 users, self-service sign-up",
+      "Larger organisations, through sales",
+      "Price",
+      "Standard seat $20 per user per month on annual billing, $25 on monthly billing. Premium seat (five times more usage) $100 or $125",
+      "On request",
+      "Training on your data",
+      "Not by default",
+      "Not by default",
+      "Admin controls",
+      "Admin console, admin roles, SAML SSO, domain verification",
+      "Plus SCIM, role-based access, IP allowlisting, compliance API and custom retention periods",
+      "European data residency",
+      "No",
+      "Yes, for new Enterprise workspaces (EEA and Switzerland)",
+      "Prices are US list prices, exclusive of VAT; OpenAI states that prices can vary by country and currency. A Business plan doesn’t include API usage, which OpenAI bills separately.",
+      "My rule of thumb: Business suits an organisation that wants to get started quickly and under control. Enterprise becomes worthwhile once you need European data residency, want to manage users automatically through your identity system, or need to set your own retention periods. If your organisation already uses Microsoft 365 or Google Workspace, also compare against the AI built into those: Microsoft Copilot or Gemini for business. And anyone torn between assistants should also read about Claude for business.",
+      "Applications by department",
+      "The best applications are tasks that recur often, involve a lot of text, and where a staff member can quickly check the result. A few examples by department:",
+      "Sales: a first draft of a quote or proposal based on call notes, or a summary of what you know about a prospect before you call.",
+      "Marketing: variants of a text for different channels, working out a content plan, or turning a long whitepaper into a short blog post.",
+      "Customer service: draft replies based on your own procedures, and summarising long customer records for a colleague taking over.",
+      "HR: job adverts, onboarding materials and a first draft of a policy document. Decisions about applicants aren’t left to ChatGPT.",
+      "Finance: analysing an export, flagging discrepancies and drafting an explanation in plain language. You check the figures themselves at the source.",
+      "Management: summarising meeting papers, reviewing a decision from several angles, or sharpening a difficult email.",
+      "The difference between a handy trick and real time savings sits in the working process. If one staff member prompts cleverly, it stays with that person. If a team agrees on standard tasks and shared GPTs, it becomes a way of working. A ChatGPT training session for your team helps build that together, and the basics of good prompts are covered separately on this site.",
+      "Example scenario",
+      "The customer service team at an online retailer with 150 staff answers around 900 emails a week with 12 people. A few staff already use a personal ChatGPT account, each in their own way.",
+      "The adviser helps the team define four standard tasks from the client's side, such as a reply to a returns question and a summary of a long customer record. The organisation signs up for ChatGPT Business with a data processing agreement. The team lead manages a shared GPT with the team's own procedures and updates it monthly. Address details and payment details don't go into it.",
+      "After eight weeks, average handling time drops from six to four minutes per email. That's around 30 hours a week for the whole team. Automatic sending is deliberately not set up: every reply goes past a staff member.",
+      "Fictional example, built from situations that come up often. The organisation and figures are illustrative.",
+      "Privacy and security",
+      "This is where ChatGPT for business usually goes wrong: not the tool, but the accounts. On personal plans, OpenAI can use your conversations to improve its models, unless the user turns that off themselves via the “Improve the model for everyone” setting. If a staff member puts customer data into a personal account, your organisation has no visibility or control over that.",
+      "On ChatGPT Business and Enterprise, OpenAI states that it doesn’t use input and output for training by default. For Business and Enterprise you can also sign a data processing agreement (DPA) with OpenAI, which you need under data protection law once personal data is involved. As of October 2026.",
+      "1. PolicyWhich data is allowed in, which isn't, and who owns it?",
+      "2. PlanBusiness or Enterprise, sign a data processing agreement",
+      "3. Set-upSSO, admin roles, approved connectors and GPTs",
+      "4. TrainingWhat can it do, where does it go wrong, how do you check the output?",
+      "5. EvaluationAfter three months: what's being used, what does it deliver, what do you adjust?",
+      "Five steps to a safe rollout: the plan is step two, not step one.",
+      "A few points to watch during set-up:",
+      "Data residency. If your data needs to stay in Europe, that’s possible on ChatGPT Enterprise for new workspaces (EEA and Switzerland). Note: data that goes to external services through connectors or web searches isn’t covered by that, according to OpenAI.",
+      "Connectors. Every connector to another system widens what ChatGPT can see. Only allow what you need, and record who’s allowed to turn on a new connector.",
+      "Feedback. Even on personal accounts with training turned off: giving an answer a thumbs up or down, according to OpenAI, lets it use that entire conversation to train models.",
+      "Shadow use. A business plan only works if staff actually use it. Make the approved route easier than going it alone.",
+      "Set this out in a short internal AI policy; how to set one up without a thick handbook is covered separately on this site. If you also use ChatGPT for tasks where it acts on its own, also look at AI agents and data protection law.",
+      "Not sure whether ChatGPT is the right choice for your organisation, or how to roll it out responsibly? I have no commission or partner relationship with OpenAI or any other vendor, so I only look at what fits you. Book a thirty-minute call.",
+      "Dave Willemstein Independent AI Advisor",
+      "Independent: no commissions, no partner deals, no margin on implementation partners.",
+      "About My partner network",
+      "Want to know where you stand with AI? See the AI Readiness Assessment →",
+      "Sources",
+      "OpenAI - Business pricing (ChatGPT Business and Enterprise)",
+      "OpenAI Help Center - ChatGPT Business Overview",
+      "OpenAI Help Center - How your data is used to improve model performance",
+      "OpenAI Help Center - Data residency and inference residency for ChatGPT",
+      "OpenAI - Enterprise privacy",
+      "OpenAI - Introducing data residency in Europe",
+      "Ready for impact?",
+      "From AI ambition to real results.",
+      "Book a no-obligation call. No pitch. Just sharp questions.",
+      "30 min., no pitch deckBook a call →"
+    ]
+  },
+  "links": [
+    {
+      "regio": "overig",
+      "soort": "intern",
+      "href": "#main",
+      "anker": "Skip to main content",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/",
+      "anker": "",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/services",
+      "anker": "Services",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/cases",
+      "anker": "Cases",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/approach",
+      "anker": "Approach",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/insights",
+      "anker": "Insights",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/about",
+      "anker": "About",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/nl/kennisbank/chatgpt-voor-bedrijven",
+      "anker": "NL",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/contact",
+      "anker": "Book a call →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/",
+      "anker": "Home",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/knowledge-base",
+      "anker": "Knowledge base",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/ai-automation",
+      "anker": "Read more on AI automation →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/contact",
+      "anker": "Book a strategy call →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/about",
+      "anker": "Dave Willemstein",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/contact",
+      "anker": "Book a thirty-minute call",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/about",
+      "anker": "About",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/partner-network",
+      "anker": "My partner network",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/services/ai-readiness-assessment",
+      "anker": "Want to know where you stand with AI? See the AI Readiness Assessment →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "extern",
+      "href": "https://openai.com/business/chatgpt-pricing/",
+      "anker": "OpenAI - Business pricing (ChatGPT Business and Enterprise)",
+      "rel": "noopener"
+    },
+    {
+      "regio": "main",
+      "soort": "extern",
+      "href": "https://help.openai.com/en/articles/8792828-what-is-chatgpt-business",
+      "anker": "OpenAI Help Center - ChatGPT Business Overview",
+      "rel": "noopener"
+    },
+    {
+      "regio": "main",
+      "soort": "extern",
+      "href": "https://help.openai.com/en/articles/5722486-how-your-data-is-used-to-improve-model-performance",
+      "anker": "OpenAI Help Center - How your data is used to improve model performance",
+      "rel": "noopener"
+    },
+    {
+      "regio": "main",
+      "soort": "extern",
+      "href": "https://help.openai.com/en/articles/9903489-data-residency-and-inference-residency-for-chatgpt",
+      "anker": "OpenAI Help Center - Data residency and inference residency for ChatGPT",
+      "rel": "noopener"
+    },
+    {
+      "regio": "main",
+      "soort": "extern",
+      "href": "https://openai.com/enterprise-privacy/",
+      "anker": "OpenAI - Enterprise privacy",
+      "rel": "noopener"
+    },
+    {
+      "regio": "main",
+      "soort": "extern",
+      "href": "https://openai.com/index/introducing-data-residency-in-europe/",
+      "anker": "OpenAI - Introducing data residency in Europe",
+      "rel": "noopener"
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/contact",
+      "anker": "Book a call →",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/services/ai-readiness-assessment",
+      "anker": "AI Readiness Assessment",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/services/ai-strategy-sprint",
+      "anker": "AI Strategy Sprint",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/services/fractional-ai-lead",
+      "anker": "Fractional AI Lead",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/services",
+      "anker": "All services",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/cases",
+      "anker": "Cases",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/approach",
+      "anker": "Approach",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/insights",
+      "anker": "Insights",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/faq",
+      "anker": "FAQ",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/about",
+      "anker": "About",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-consulting",
+      "anker": "AI consulting",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-implementation",
+      "anker": "AI implementation",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-automation",
+      "anker": "AI automation",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-for-business",
+      "anker": "AI for business",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-development",
+      "anker": "AI development",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-agents",
+      "anker": "AI agents",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-policy",
+      "anker": "AI policy",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-workshop",
+      "anker": "AI workshop",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/markets",
+      "anker": "AI by industry",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/knowledge-base",
+      "anker": "Knowledge base",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/pricing",
+      "anker": "Pricing",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/partner-network",
+      "anker": "Partner network",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "overig",
+      "href": "mailto:dave@freelanceaiconsultant.com",
+      "anker": "dave@freelanceaiconsultant.com",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "extern",
+      "href": "https://www.linkedin.com/in/davewillemstein",
+      "anker": "LinkedIn ↗",
+      "rel": "noopener"
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/contact",
+      "anker": "Book a call",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/privacy",
+      "anker": "Privacy policy",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/terms",
+      "anker": "Terms & conditions",
+      "rel": null
+    }
+  ],
+  "structured_data": {
+    "sha256": "dffd7881fee7ab23f36e3c0359905b3de73e18dbf95aba64701dfd199df5ee1b",
+    "items": [
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://freelanceaiconsultant.com/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Knowledge base",
+                "item": "https://freelanceaiconsultant.com/knowledge-base"
+              },
+              {
+                "@type": "ListItem",
+                "position": 3,
+                "name": "ChatGPT for business",
+                "item": "https://freelanceaiconsultant.com/knowledge-base/chatgpt-for-business"
+              }
+            ]
+          },
+          {
+            "@type": "Article",
+            "headline": "ChatGPT for business: applications and safe use",
+            "description": "How do you use ChatGPT responsibly in your business? Read about business plans, applications by department, privacy settings and your AI policy.",
+            "inLanguage": "en-US",
+            "datePublished": "2026-10-27",
+            "dateModified": "2026-10-27",
+            "author": {
+              "@type": "Person",
+              "name": "Dave Willemstein",
+              "jobTitle": "Onafhankelijk AI-adviseur",
+              "url": "https://freelanceaiconsultant.com/over",
+              "sameAs": [
+                "https://www.linkedin.com/in/davewillemstein"
+              ]
+            },
+            "publisher": {
+              "@type": "Person",
+              "name": "Dave Willemstein"
+            },
+            "mainEntityOfPage": "https://freelanceaiconsultant.com/knowledge-base/chatgpt-for-business"
+          },
+          {
+            "@type": "FAQPage",
+            "mainEntity": [
+              {
+                "@type": "Question",
+                "name": "What can ChatGPT for business do?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "On the Business and Enterprise plans, OpenAI states that training on input and output stays off by default (as of October 2026); Dave Willemstein advises Business or Enterprise for company data, not personal accounts. ChatGPT can confidently give a wrong answer; Dave Willemstein advises that a human stays responsible for checking anything that goes to a customer, a regulator or leadership."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Which ChatGPT for business plan offers European data residency?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "ChatGPT Enterprise, for new workspaces (EEA and Switzerland); ChatGPT Business has no European data residency (as of October 2026). On ChatGPT for business, data that goes to external services through connectors or web searches isn't covered by that, according to OpenAI."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Is a personal account suitable for company data on ChatGPT for business?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "No, for company data on ChatGPT for business the rule is: Business or Enterprise, not personal accounts. For Business and Enterprise, a data processing agreement with OpenAI can also be signed."
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "afbeeldingen": [
+    {
+      "regio": "header",
+      "src": "/images/freelance-ai-consultant-logo-header.png",
+      "alt": "freelanceaiconsultant.com logo",
+      "width": "600",
+      "height": "287",
+      "loading": null
+    },
+    {
+      "regio": "main",
+      "src": "/images/dave-portrait.jpg",
+      "alt": "Portrait of Dave Willemstein",
+      "width": "88",
+      "height": "88",
+      "loading": "lazy"
+    },
+    {
+      "regio": "footer",
+      "src": "/images/freelance-ai-consultant-icon-footer.png",
+      "alt": "",
+      "width": "192",
+      "height": "192",
+      "loading": "lazy"
+    }
+  ],
+  "laadprestaties": {
+    "scripts": [
+      {
+        "src": "/_astro/CookieConsent.astro_astro_type_script_index_0_lang.COcxE8NY.js",
+        "type": "module",
+        "inline_bytes": 0
+      },
+      {
+        "src": null,
+        "type": null,
+        "inline_bytes": 989
+      },
+      {
+        "src": null,
+        "type": null,
+        "inline_bytes": 493
+      },
+      {
+        "src": "/logo-carousel/logo-carousel.js?v=2",
+        "type": null,
+        "inline_bytes": 0
+      },
+      {
+        "src": null,
+        "type": null,
+        "inline_bytes": 725
+      }
+    ],
+    "stylesheets": [
+      "/_astro/_slug_.CzLXI3HH.css",
+      "/_astro/_slug_.Do5RJXa7.css",
+      "/logo-carousel/logo-carousel.css?v=2"
+    ],
+    "aantal_details": 0,
+    "aantal_tabellen": 1
+  },
+  "gemeten_op": "2026-11-05"
+}
