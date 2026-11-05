@@ -7,7 +7,7 @@ import CTA from '@/components/CTA.astro';
 import { site, seoTitle } from '@/data/site.js';
 import { routeById } from '@/data/routes';
 import { t } from '@/i18n';
-import { buildFaqPageSchema, buildBreadcrumbList } from '@/lib/schema.js';
+import { buildFaqPageSchema, buildBreadcrumbList, buildPersonNode } from '@/lib/schema.js';
 import '@/styles/rag-blok.css';
 import { blokVoor } from '@/data/rag/index.ts';
 import { renderRagBlok } from '@/lib/rag-blok.js';
@@ -42,13 +42,13 @@ const crumbs = [
 // geen wijziging gehad, dus dateModified valt terug op datePublished.
 const dateModified = article.updated ?? article.date;
 const faqSchema = buildFaqPageSchema(article.faq);
-// Zelfde @id als de NL-pagina's (https://freelanceaiconsultant.com/#dave): één Person-entiteit voor
-// beide talen. url en jobTitle zijn hier de EN-waarden; elke pagina embedt zijn eigen kopie van het
-// node, net als bij NL, omdat JSON-LD niet over paginagrenzen heen samenvoegt.
-const daveId = `${site.url}/#dave`;
+// Zelfde Person-node (helper, zelfde @id en url) als de NL-pagina's: één entiteit voor beide
+// talen. Elke pagina embedt zijn eigen kopie van het node, net als bij NL, omdat JSON-LD niet
+// over paginagrenzen heen samenvoegt. Alleen jobTitle is hier de EN-waarde.
+const person = buildPersonNode(site, site.role);
 const graph = [
   buildBreadcrumbList(crumbs, site.url),
-  { '@type': 'Person', '@id': daveId, name: site.name, url: `${site.url}/about`, jobTitle: site.role },
+  person,
   {
     '@type': 'BlogPosting',
     headline: article.title,
@@ -57,8 +57,8 @@ const graph = [
     dateModified,
     inLanguage: 'en-GB',
     articleSection: article.category,
-    author: { '@id': daveId },
-    publisher: { '@id': daveId },
+    author: { '@id': person['@id'] },
+    publisher: { '@id': person['@id'] },
     mainEntityOfPage: `${site.url}/insights/${article.slug}`,
   },
 ];

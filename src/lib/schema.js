@@ -22,3 +22,18 @@ export function buildBreadcrumbList(crumbs, siteUrl) {
     })),
   };
 }
+
+// Eén Person-node voor zowel de NL- als de EN-inzichten-artikelen: zelfde @id en zelfde url (de
+// EN /about-pagina, voor beide talen -- er is geen apart NL Person-record), zodat author/publisher
+// op elke artikelpagina naar dezelfde entiteit verwijzen. Alleen jobTitle is taalafhankelijk; geef
+// 'site.roleNl' of 'site.role' door.
+export function buildPersonNode(site, jobTitle) {
+  return {
+    '@type': 'Person',
+    '@id': `${site.url}/#dave`,
+    name: site.name,
+    url: `${site.url}/about`,
+    sameAs: [site.linkedin],
+    jobTitle,
+  };
+}
