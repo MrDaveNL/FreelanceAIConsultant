@@ -30,7 +30,7 @@ export default {
   body: `
 <h2>Wat is shadow AI?</h2>
 <p>Shadow AI is AI-gebruik dat buiten het zicht en de goedkeuring van IT en management plaatsvindt. Dat is breder dan "iemand gebruikt ChatGPT in de browser". Het gaat ook om AI-functies die stilletjes aanstaan in bestaande software, browserextensies die meekijken met alles wat iemand typt, een los abonnement dat een team zelf afsluit buiten de inkoop om, en persoonlijke accounts die voor werk worden gebruikt omdat er geen zakelijk alternatief is.</p>
-<p>Hoeveel dat precies voorkomt, hangt sterk af van de definitie en het land, maar de bandbreedte in recent onderzoek ligt ruwweg tussen de helft en driekwart van de kantoormedewerkers. Microsoft onderzocht in 2025 onder ruim tweeduizend Britse kantoormedewerkers dat 71% weleens een niet-goedgekeurde AI-tool voor het werk had gebruikt (Censuswide voor Microsoft, oktober 2025). Dat soort cijfers verschilt per onderzoek, maar de richting is overal hetzelfde: het gebruik is al wijdverspreid voordat een organisatie er beleid op heeft.</p>
+<p>Hoeveel dat precies voorkomt, hangt sterk af van de definitie en het land, maar de bandbreedte in recent onderzoek ligt ruwweg tussen de helft en driekwart van de kantoormedewerkers. Onderzoek van Censuswide voor Microsoft (oktober 2025, ruim tweeduizend Britse medewerkers) vond dat 71% weleens een niet-goedgekeurde AI-tool voor werk had gebruikt. Dat soort cijfers verschilt per onderzoek, maar de richting is overal hetzelfde: het gebruik is al wijdverspreid voordat een organisatie er beleid op heeft.</p>
 <p>Het verschil met klassieke shadow IT is de snelheid. Een niet-goedgekeurde applicatie aanschaffen kostte vroeger een creditcard en een goedkeuring van een manager. Een AI-tool gebruiken kost een browsertab.</p>
 
 <h2>Waarom medewerkers het doen</h2>
@@ -45,7 +45,7 @@ export default {
   <li><b>AVG:</b> zet een medewerker persoonsgegevens van klanten, patiënten of sollicitanten in een publieke tool, dan gelden gewoon de AVG-eisen: grondslag, dataminimalisatie en vaak een verwerkersovereenkomst met de aanbieder. Die laatste ontbreekt bij een privéaccount per definitie. De manier waarop dat juridisch in elkaar zit, overlapt met wat ik beschrijf in <a href="/nl/kennisbank/ai-agents-en-avg">AI agents en de AVG</a>, al gaat het daar specifiek over agents die zelf gegevens verwerken.</li>
   <li><b>Kwaliteit:</b> output die niemand controleert, omdat het gebruik zelf al verborgen is. Een onjuist antwoord in een conceptmail is vervelend; een onjuist antwoord dat ongezien de klant bereikt, is iets anders.</li>
 </ul>
-<p>IBM's jaarlijkse onderzoek naar datalekken concludeerde in 2025 dat bij ongeveer één op de vijf organisaties met een AI-gerelateerd datalek, schaduw-AI daarbij een rol speelde, en dat 63% van die getroffen organisaties geen AI-governancebeleid heeft of daar nog aan werkt (IBM, Cost of a Data Breach Report, 2025). Dat is niet omdat schaduw-AI per se gevaarlijker is dan goedgekeurde AI, maar omdat er geen enkele beheersmaatregel op staat: geen afspraken, geen zicht, geen log.</p>
+<p>IBM's jaarlijkse onderzoek naar datalekken concludeerde in 2025 dat 20% van de onderzochte organisaties een datalek meldde waarbij shadow AI een rol speelde, en dat 63% van die getroffen organisaties geen AI-governancebeleid heeft of daar nog aan werkt (IBM, Cost of a Data Breach Report, 2025). Dat is niet omdat shadow AI per se gevaarlijker is dan goedgekeurde AI, maar omdat er geen enkele beheersmaatregel op staat: geen afspraken, geen zicht, geen log.</p>
 <!-- LINK-TODO BLOG-09 (AI-security): hier dieper ingaan op data-exfiltratie via browserextensies en persoonlijke AI-accounts, zodra dat artikel bestaat -->
 
 <h2>Zo ontdek je wat er al gebruikt wordt</h2>
@@ -59,7 +59,7 @@ export default {
 <p>Komt er een beeld uit dat groter is dan je zelf kunt duiden, of wil je het in één keer grondig laten doen inclusief de risico- en compliance-kant, dan is dat precies waar een <a href="/nl/diensten/ai-readiness-assessment">AI Readiness Assessment</a> voor bedoeld is.</p>
 
 <h2>Van verbieden naar faciliteren</h2>
-<p>De reflex is vaak: verbieden, en een mail sturen dat het niet meer mag. Dat is geen onredelijke eerste gedachte, want de risico's zijn echt. Maar een verbod zonder alternatief verandert het gedrag niet, het verandert alleen de zichtbaarheid. Onderzoek van IntoTheMinds (2026) onder Franse medewerkers die aan een verbod waren onderworpen, vond dat ruim zeven op de tien daarvan toch een persoonlijk account bleef gebruiken. Met een verbod weet je dus minder dan ervoor, niet meer. Verbieden is daarmee het slechtste van twee werelden: je houdt het gebruik niet tegen, je maakt het alleen onzichtbaar.</p>
+<p>De reflex is vaak: verbieden, en een mail sturen dat het niet meer mag. Dat is geen onredelijke eerste gedachte, want de risico's zijn echt. Maar een verbod zonder alternatief verandert het gedrag niet, het verandert alleen de zichtbaarheid. Onderzoek van IntoTheMinds (2026) onder Franse medewerkers die aan een verbod waren onderworpen, vond dat bijna zeven op de tien (69,2%) daarvan toch een persoonlijk account bleef gebruiken. Met een verbod weet je dus minder dan ervoor, niet meer. Verbieden is daarmee het slechtste van twee werelden: je houdt het gebruik niet tegen, je maakt het alleen onzichtbaar.</p>
 <p>Mijn lijn is daarom omgekeerd. Geef medewerkers binnen een paar weken een zakelijk alternatief dat minstens zo makkelijk werkt als wat ze nu al gebruiken, en zet daar drie afspraken naast, in plaats van een beleidsdocument:</p>
 <ul>
   <li><b>Welke data er nooit in mag.</b> Denk aan persoonsgegevens van klanten, patiënten of sollicitanten, ongepubliceerde cijfers en conceptcontracten.</li>
@@ -69,7 +69,8 @@ export default {
 <p>Dat beleid past op één A4. Hoe dat eruitziet, staat op <a href="/nl/ai-beleid">AI-beleid</a>, inclusief een startpunt om zelf mee te beginnen. Wat ik wel hard zou verbieden: klant- en persoonsgegevens in gratis tools zonder verwerkersovereenkomst. Die grens is uitlegbaar, en alles daarbuiten is een kwestie van faciliteren en bijsturen.</p>
 
 <h2>Shadow AI en AI-geletterdheid (AI Act)</h2>
-<p>Sinds 2 februari 2025 geldt onder de Europese AI-verordening de verplichting om maatregelen te nemen voor de AI-geletterdheid van iedereen die binnen je organisatie met AI werkt. Die verplichting is er voor elke vorm van AI-gebruik, dus ook voor het gebruik dat je nu nog niet in beeld hebt, en is niet meegenomen in het uitstel dat de Digital Omnibus eind juli 2026 voor de hoog-risicoregels regelde.</p>
+<p>Sinds 2 februari 2025 geldt onder de Europese AI-verordening de verplichting om maatregelen te nemen voor de AI-geletterdheid van iedereen die binnen je organisatie met AI werkt. Die verplichting is er voor elke vorm van AI-gebruik, dus ook voor het gebruik dat je nu nog niet in beeld hebt, en is niet uitgesteld door de Digital Omnibus.</p>
+<!-- LINK-TODO BLOG-02 (Digital Omnibus): hier doorverwijzen zodra dat artikel bestaat -->
 <p>Shadow AI is in de praktijk precies het scenario waar die verplichting op is gericht: mensen die met AI werken zonder instructie over wat verantwoord gebruik is. Een korte, praktische instructie bij het zakelijke alternatief is dus niet alleen verstandig, het is ook de eenvoudigste manier om aan deze eis te voldoen. Hoe je dat samen met een register, een goedkeuringsmoment en een escalatiepad in een lichte structuur zet, zonder dat het een nieuwe bureaucratie wordt, beschrijf ik in <a href="/nl/inzichten/ai-governance-zonder-bureaucratie">AI-governance zonder bureaucratie</a>.</p>
 
 <h2>Aanpak voor de eerste 30 dagen</h2>
@@ -80,7 +81,7 @@ export default {
   <li><b>Week 3, instrueren:</b> een korte, concrete instructie over wat wel en niet mag, gericht op de teams waar je het meeste gebruik zag. Dit is ook het moment om de AI-geletterdheid aantoonbaar te maken.</li>
   <li><b>Week 4, vastleggen en evalueren:</b> schrijf de afspraken op één pagina, wijs aan wie twijfelgevallen beoordeelt, en plan over drie maanden een korte herhaling van de ontdekkingsronde.</li>
 </ul>
-<p>Shadow AI verdwijnt niet door een verbod, en dat is eigenlijk goed nieuws: het is een duidelijk signaal dat er ergens een behoefte is die je officiële aanbod nu niet invult. Behandel het zo, en je los niet alleen een risico op, je ziet ook meteen waar in de organisatie AI het meeste werk zou kunnen verlichten.</p>
+<p>Shadow AI verdwijnt niet door een verbod, en dat is eigenlijk goed nieuws: het is een duidelijk signaal dat er ergens een behoefte is die je officiële aanbod nu niet invult. Behandel het zo, en je lost niet alleen een risico op, je ziet ook meteen waar in de organisatie AI het meeste werk zou kunnen verlichten.</p>
 `,
   faq: [
     {
