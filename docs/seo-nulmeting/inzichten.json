@@ -2,7 +2,7 @@
   "url": "/inzichten",
   "build_bestand": "dist/inzichten/index.html",
   "html": {
-    "bytes": 42376,
+    "bytes": 43104,
     "lang": "nl"
   },
   "beschermd": {
@@ -57,6 +57,12 @@
     {
       "niveau": 2,
       "tekst": "Alle artikelen",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 3,
+      "tekst": "Shadow AI: medewerkers gebruiken AI toch al, wat nu?",
       "regio": "main",
       "id": null
     },
@@ -141,12 +147,12 @@
   ],
   "bodytekst": {
     "regio": "main",
-    "woorden": 740,
-    "sha256": "563f0de996f35b65d366c3f4d15b052a4de06dc5cb3e11e9a668b4b5fd421002",
+    "woorden": 780,
+    "sha256": "2f3959183b2aa4256fe53322673e8f8a75d786a44d0709906d82aa516f57424f",
     "blokken": [
       "AI-advies dat je helpt beslissen",
       "Praktische inzichten voor betere AI-beslissingen.",
-      "Ervaringen uit de praktijk, frameworks en no-nonsense advies voor senior leiders die AI willen inzetten met impact. 12 artikelen, geen enkele geschreven om iets te verkopen.",
+      "Ervaringen uit de praktijk, frameworks en no-nonsense advies voor senior leiders die AI willen inzetten met impact. 13 artikelen, geen enkele geschreven om iets te verkopen.",
       "Plan een gesprek → Bekijk cases → 30 min., geen pitch deck",
       "vertrouwen, ervaring, impact ↓",
       "Independent No vendor bias Senior only Sinds 2006",
@@ -215,14 +221,19 @@
       "◷ 4 min leestijd 28 oktober 2026",
       "Lees artikel →",
       "Alle inzichten",
+      "Governance",
       "Use cases",
       "Strategie",
       "Organisatie",
       "Tools & data",
-      "Governance",
       "Geen resultaten in deze categorie.",
       "Alle artikelen",
-      "12 artikelen · RSS",
+      "13 artikelen · RSS",
+      "◐",
+      "Governance",
+      "Shadow AI: medewerkers gebruiken AI toch al, wat nu?",
+      "Verbieden werkt niet: medewerkers gebruiken AI al. Hoe je het zichtbaar maakt, het risico serieus neemt en veilige alternatieven biedt zonder alles dicht te timmeren.",
+      "◷ 6 min leestijd Lees artikel →",
       "↯",
       "Use cases",
       "AI-agents: wat ze wel en niet kunnen in een bedrijfsproces",
@@ -381,6 +392,13 @@
       "soort": "intern",
       "href": "/nl/rss.xml",
       "anker": "RSS",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/nl/inzichten/shadow-ai",
+      "anker": "◐ Governance Shadow AI: medewerkers gebruiken AI toch al, wat nu? Verbieden werkt niet: medewerkers gebruiken AI al. Hoe je het zichtbaar maakt, het risico serieus neemt en veilige alternatieven biedt zonder alles dicht te timmeren. ◷ 6 min leestijd Lees artikel →",
       "rel": null
     },
     {
@@ -757,5 +775,5 @@
     "aantal_details": 0,
     "aantal_tabellen": 0
   },
-  "gemeten_op": "2026-11-04"
+  "gemeten_op": "2026-11-06"
 }
