@@ -1,0 +1,768 @@
+{
+  "url": "/inzichten/shadow-ai",
+  "build_bestand": "dist/inzichten/shadow-ai/index.html",
+  "html": {
+    "bytes": 47713,
+    "lang": "nl"
+  },
+  "beschermd": {
+    "title": "Shadow AI: risico's en aanpak voor organisaties",
+    "meta_description": "Shadow AI is AI-gebruik buiten het zicht van IT en management. Wat de risico's zijn en hoe je het in goede banen leidt zonder alles te verbieden.",
+    "canonical": "https://freelanceaiconsultant.com/nl/inzichten/shadow-ai",
+    "robots_meta": null,
+    "hreflang": [],
+    "h1": [
+      "Shadow AI: medewerkers gebruiken het al"
+    ]
+  },
+  "social": {
+    "og:type": "website",
+    "og:locale": "nl_NL",
+    "og:site_name": "freelanceaiconsultant.com",
+    "og:title": "Shadow AI: risico's en aanpak voor organisaties",
+    "og:description": "Shadow AI is AI-gebruik buiten het zicht van IT en management. Wat de risico's zijn en hoe je het in goede banen leidt zonder alles te verbieden.",
+    "og:url": "https://freelanceaiconsultant.com/nl/inzichten/shadow-ai",
+    "og:image": "https://freelanceaiconsultant.com/images/dave-portrait.jpg",
+    "twitter:card": "summary_large_image",
+    "twitter:title": "Shadow AI: risico's en aanpak voor organisaties",
+    "twitter:description": "Shadow AI is AI-gebruik buiten het zicht van IT en management. Wat de risico's zijn en hoe je het in goede banen leidt zonder alles te verbieden.",
+    "twitter:image": "https://freelanceaiconsultant.com/images/dave-portrait.jpg"
+  },
+  "koppen": [
+    {
+      "niveau": 1,
+      "tekst": "Shadow AI: medewerkers gebruiken het al",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "Wat is shadow AI?",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "Waarom medewerkers het doen",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "De risico's: data, AVG, IP en kwaliteit",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "Zo ontdek je wat er al gebruikt wordt",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "Van verbieden naar faciliteren",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "Shadow AI en AI-geletterdheid (AI Act)",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "Aanpak voor de eerste 30 dagen",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 3,
+      "tekst": "Key takeaways",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 3,
+      "tekst": "AI-governance zonder bureaucratie: wat je minimaal nodig hebt",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 3,
+      "tekst": "AI-adoptie begint bij het werk, niet bij de tool",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "Veelgestelde vragen",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "Van AI-ambitie naar concrete resultaten.",
+      "regio": "main",
+      "id": null
+    }
+  ],
+  "bodytekst": {
+    "regio": "main",
+    "woorden": 2107,
+    "sha256": "35edb262eccef380f767619ca4ddbfe45b48e98d41a052c4a142a996371a2c40",
+    "blokken": [
+      "Home",
+      "Inzichten",
+      "Shadow AI: medewerkers gebruiken AI toch al, wat nu?",
+      "← Terug naar alle inzichten",
+      "Governance",
+      "Shadow AI: medewerkers gebruiken het al",
+      "Verbieden werkt niet, want medewerkers gebruiken AI al. Breng in kaart wat er gebruikt wordt, bied een veilig alternatief en leg een paar minimale afspraken vast. Shadow AI is een signaal van behoefte, geen tuchtzaak.",
+      "◷ 6 min leestijd 6 november 2026",
+      "DW",
+      "Door Dave Willemstein Independent AI Advisor, onafhankelijk, geen leveranciersbelangen",
+      "Ik help organisaties AI-beslissingen nemen die waarde creëren. Geen dikke decks, wel duidelijke keuzes en tastbare resultaten.",
+      "vertrouwen, ervaring, impact ↓",
+      "Independent No vendor bias Senior only Sinds 2006",
+      "IN HET KORT",
+      "Verbieden duwt het gebruik onder de radar, het stopt het niet.",
+      "Eerst zicht krijgen op wat er al gebruikt wordt, dan pas regelen.",
+      "Een zakelijk alternatief en een kort beleid werken beter dan een verbod.",
+      "Shadow AI is een signaal van behoefte, geen tuchtzaak.",
+      "AI in Europa",
+      "Europese merken die AI al in productie hebben.",
+      "Geen klanten van mij. Wel voorbeelden van wat er gebeurt als AI voorbij de pilot komt.",
+      "Pauzeer",
+      "Klarna",
+      "Zweden",
+      "AI-assistent in de klantenservice",
+      "Zalando",
+      "Duitsland",
+      "Mode-assistent voor productadvies",
+      "Financial services",
+      "Investeringsmaatschappij",
+      "AI-strategie en use-case portfolio",
+      "Booking.com",
+      "Nederland",
+      "AI Trip Planner voor reisplanning",
+      "Siemens",
+      "Duitsland",
+      "Industrial Copilot voor engineering",
+      "Retail",
+      "Enterprise retailer",
+      "AI-gedreven vendorselectie",
+      "Spotify",
+      "Zweden",
+      "AI DJ en gepersonaliseerde playlists",
+      "Mercedes-Benz",
+      "Duitsland",
+      "Generatieve spraakassistent in de auto",
+      "Industrial / B2B",
+      "Internationale maakorganisatie",
+      "AI-roadmap en leadership",
+      "ING",
+      "Nederland",
+      "Generatieve chatbot voor klantvragen",
+      "L'Oréal",
+      "Frankrijk",
+      "Beauty Genius: persoonlijk advies",
+      "Financial services",
+      "Financiële dienstverlener",
+      "KYC versneld met AI-documentanalyse",
+      "SAP",
+      "Duitsland",
+      "Joule: copilot in bedrijfssoftware",
+      "Carrefour",
+      "Frankrijk",
+      "Hopla: boodschappenassistent",
+      "Strategy & AI",
+      "SaaS scale-up",
+      "AI-readiness assessment",
+      "Adyen",
+      "Nederland",
+      "AI-optimalisatie van betalingen",
+      "Philips",
+      "Nederland",
+      "AI in medische beeldvorming",
+      "Proces & productivity",
+      "Zakelijke dienstverlener",
+      "Interne AI-assistent voor kenniswerkers",
+      "Wat is shadow AI?",
+      "Shadow AI is AI-gebruik dat buiten het zicht en de goedkeuring van IT en management plaatsvindt. Dat is breder dan \"iemand gebruikt ChatGPT in de browser\". Het gaat ook om AI-functies die stilletjes aanstaan in bestaande software, browserextensies die meekijken met alles wat iemand typt, een los abonnement dat een team zelf afsluit buiten de inkoop om, en persoonlijke accounts die voor werk worden gebruikt omdat er geen zakelijk alternatief is.",
+      "Hoeveel dat precies voorkomt, hangt sterk af van de definitie en het land, maar de bandbreedte in recent onderzoek ligt ruwweg tussen de helft en driekwart van de kantoormedewerkers. Onderzoek van Censuswide voor Microsoft (oktober 2025, ruim tweeduizend Britse medewerkers) vond dat 71% weleens een niet-goedgekeurde AI-tool voor werk had gebruikt. Dat soort cijfers verschilt per onderzoek, maar de richting is overal hetzelfde: het gebruik is al wijdverspreid voordat een organisatie er beleid op heeft.",
+      "Het verschil met klassieke shadow IT is de snelheid. Een niet-goedgekeurde applicatie aanschaffen kostte vroeger een creditcard en een goedkeuring van een manager. Een AI-tool gebruiken kost een browsertab.",
+      "Waarom medewerkers het doen",
+      "Bijna niemand doet dit om de regels te ontduiken. Mensen willen hun werk sneller of beter doen, en het officiële alternatief is er niet, is te traag, of is onbekend.",
+      "Ik zie het vrijwel elke keer als ik bij een nieuwe klant een AI- of contentworkflow doorlicht: marketing- en salesmedewerkers die klantmails, offerteteksten of productcontent door een gratis chatbot halen op een privéaccount. Niet stiekem uit kwade wil, maar omdat het werkt en er geen zakelijk alternatief klaarstaat. De directie denkt op dat moment vaak nog na over \"of we iets met AI moeten\". Het antwoord is dan al maanden ja, alleen zonder afspraken, zonder logging en met bedrijfsdata in tools waar niemand een verwerkersovereenkomst mee heeft.",
+      "Dat patroon is het hele probleem in miniatuur: terwijl de directie nog aan het nadenken is over de vraag of AI iets voor de organisatie is, is het antwoord op de werkvloer al maanden ja, alleen zonder dat er iemand naar heeft gekeken. Diezelfde dynamiek, maar dan bij de inrichting van goedkeuringstrajecten in het algemeen, beschrijf ik uitgebreider in AI-governance zonder bureaucratie.",
+      "De risico's: data, AVG, IP en kwaliteit",
+      "Het risico van shadow AI is niet dat medewerkers AI gebruiken. Het risico is dat niemand weet welke data waar terechtkomt, en dat er geen afspraak ligt over wat daar wel en niet in mag.",
+      "Data en IP: broncode, strategische stukken, ongepubliceerde cijfers of conceptcontracten die in een publieke chatbot worden geplakt, kunnen bij sommige gratis diensten gebruikt worden om het onderliggende model te verbeteren, en staan in elk geval op servers waar je geen afspraken over hebt gemaakt.",
+      "AVG: zet een medewerker persoonsgegevens van klanten, patiënten of sollicitanten in een publieke tool, dan gelden gewoon de AVG-eisen: grondslag, dataminimalisatie en vaak een verwerkersovereenkomst met de aanbieder. Die laatste ontbreekt bij een privéaccount per definitie. De manier waarop dat juridisch in elkaar zit, overlapt met wat ik beschrijf in AI agents en de AVG, al gaat het daar specifiek over agents die zelf gegevens verwerken.",
+      "Kwaliteit: output die niemand controleert, omdat het gebruik zelf al verborgen is. Een onjuist antwoord in een conceptmail is vervelend; een onjuist antwoord dat ongezien de klant bereikt, is iets anders.",
+      "IBM's jaarlijkse onderzoek naar datalekken concludeerde in 2025 dat 20% van de onderzochte organisaties een datalek meldde waarbij shadow AI een rol speelde, en dat 63% van die getroffen organisaties geen AI-governancebeleid heeft of daar nog aan werkt (IBM, Cost of a Data Breach Report, 2025). Dat is niet omdat shadow AI per se gevaarlijker is dan goedgekeurde AI, maar omdat er geen enkele beheersmaatregel op staat: geen afspraken, geen zicht, geen log.",
+      "Zo ontdek je wat er al gebruikt wordt",
+      "Je kunt geen risico beheersen dat je niet kent. Voordat je iets regelt, moet je dus eerst zicht krijgen, en dat werkt beter met vragen dan met verboden.",
+      "Voer korte, niet-bestraffende gesprekken per team: welke AI-tools gebruiken jullie nu al, waarvoor, en wat zou je willen dat er kon? Benoem vooraf dat dit geen tuchtonderzoek is.",
+      "Kijk in de creditcard- en abonnementenoverzichten naar kleine, terugkerende softwarekosten. Veel schaduw-AI wordt betaald met een persoonlijke of afdelingskaart, niet via inkoop.",
+      "Vraag IT of er al zicht is op netwerkverkeer naar bekende AI-domeinen. Dat geeft geen volledig beeld (persoonlijke telefoons en thuiswerk vallen erbuiten), maar wel een eerste indicatie.",
+      "Let op signalen in het werk zelf: tekst die plotseling anders klinkt, een team dat ineens sneller levert zonder dat de bezetting is veranderd.",
+      "Komt er een beeld uit dat groter is dan je zelf kunt duiden, of wil je het in één keer grondig laten doen inclusief de risico- en compliance-kant, dan is dat precies waar een AI Readiness Assessment voor bedoeld is.",
+      "Van verbieden naar faciliteren",
+      "De reflex is vaak: verbieden, en een mail sturen dat het niet meer mag. Dat is geen onredelijke eerste gedachte, want de risico's zijn echt. Maar een verbod zonder alternatief verandert het gedrag niet, het verandert alleen de zichtbaarheid. Onderzoek van IntoTheMinds (2026) onder Franse medewerkers die aan een verbod waren onderworpen, vond dat bijna zeven op de tien (69,2%) daarvan toch een persoonlijk account bleef gebruiken. Met een verbod weet je dus minder dan ervoor, niet meer. Verbieden is daarmee het slechtste van twee werelden: je houdt het gebruik niet tegen, je maakt het alleen onzichtbaar.",
+      "Mijn lijn is daarom omgekeerd. Geef medewerkers binnen een paar weken een zakelijk alternatief dat minstens zo makkelijk werkt als wat ze nu al gebruiken, en zet daar drie afspraken naast, in plaats van een beleidsdocument:",
+      "Welke data er nooit in mag. Denk aan persoonsgegevens van klanten, patiënten of sollicitanten, ongepubliceerde cijfers en conceptcontracten.",
+      "Welke tools zijn goedgekeurd. Eén zakelijk abonnement met duidelijke afspraken over wat er met de invoer gebeurt, is al een enorme verbetering ten opzichte van een privéaccount. Wat daarbij komt kijken, lees je in ChatGPT voor bedrijven.",
+      "Bij wie je terechtkunt met een nieuwe toepassing. Eén vast aanspreekpunt voor twijfelgevallen, zodat een nieuwe behoefte niet opnieuw ondergronds gaat.",
+      "Dat beleid past op één A4. Hoe dat eruitziet, staat op AI-beleid, inclusief een startpunt om zelf mee te beginnen. Wat ik wel hard zou verbieden: klant- en persoonsgegevens in gratis tools zonder verwerkersovereenkomst. Die grens is uitlegbaar, en alles daarbuiten is een kwestie van faciliteren en bijsturen.",
+      "Shadow AI en AI-geletterdheid (AI Act)",
+      "Sinds 2 februari 2025 geldt onder de Europese AI-verordening de verplichting om maatregelen te nemen voor de AI-geletterdheid van iedereen die binnen je organisatie met AI werkt. Die verplichting is er voor elke vorm van AI-gebruik, dus ook voor het gebruik dat je nu nog niet in beeld hebt, en is niet uitgesteld door de Digital Omnibus.",
+      "Shadow AI is in de praktijk precies het scenario waar die verplichting op is gericht: mensen die met AI werken zonder instructie over wat verantwoord gebruik is. Een korte, praktische instructie bij het zakelijke alternatief is dus niet alleen verstandig, het is ook de eenvoudigste manier om aan deze eis te voldoen. Hoe je dat samen met een register, een goedkeuringsmoment en een escalatiepad in een lichte structuur zet, zonder dat het een nieuwe bureaucratie wordt, beschrijf ik in AI-governance zonder bureaucratie.",
+      "Aanpak voor de eerste 30 dagen",
+      "Je hoeft dit niet in één keer volledig te regelen. Een haalbare volgorde over vier weken:",
+      "Week 1, ontdekken: gesprekken per team, een blik in de abonnementenkosten, en een vraag aan IT over wat er al zichtbaar is. Doel is een eerste beeld, geen volledige inventarisatie.",
+      "Week 2, een alternatief regelen: zet op basis van wat je ziet minimaal één zakelijk abonnement neer voor het meest gebruikte doel, met afspraken over de invoer.",
+      "Week 3, instrueren: een korte, concrete instructie over wat wel en niet mag, gericht op de teams waar je het meeste gebruik zag. Dit is ook het moment om de AI-geletterdheid aantoonbaar te maken.",
+      "Week 4, vastleggen en evalueren: schrijf de afspraken op één pagina, wijs aan wie twijfelgevallen beoordeelt, en plan over drie maanden een korte herhaling van de ontdekkingsronde.",
+      "Shadow AI verdwijnt niet door een verbod, en dat is eigenlijk goed nieuws: het is een duidelijk signaal dat er ergens een behoefte is die je officiële aanbod nu niet invult. Behandel het zo, en je lost niet alleen een risico op, je ziet ook meteen waar in de organisatie AI het meeste werk zou kunnen verlichten.",
+      "Key takeaways",
+      "✓",
+      "Verbieden werkt averechts",
+      "Een verbod maakt het gebruik onzichtbaar, niet kleiner.",
+      "✓",
+      "Zicht boven controle",
+      "Je kunt geen risico beheersen dat je niet kent, begin met ontdekken, niet met regels.",
+      "✓",
+      "Faciliteren is sneller dan handhaven",
+      "Een goedgekeurd alternatief binnen een week wint het van een verbod dat niemand controleert.",
+      "ONTHOUD “Wie AI verbiedt zonder alternatief te bieden, organiseert vooral dat hij het niet meer ziet.”",
+      "Sparren over jouw situatie? 30 minuten, vrijblijvend →",
+      "Verder lezen",
+      "▣",
+      "Governance",
+      "AI-governance zonder bureaucratie: wat je minimaal nodig hebt",
+      "Governance die niemand gebruikt, beschermt niemand. Vier mechanismen die het verschil maken, en wat je gerust kunt overslaan.",
+      "◷ 5 min leestijd Lees artikel →",
+      "◉",
+      "Organisatie",
+      "AI-adoptie begint bij het werk, niet bij de tool",
+      "Iedereen een licentie geven is geen adoptiestrategie. Waarom een leeg invoerveld de grootste drempel is, en wat er wel werkt.",
+      "◷ 4 min leestijd Lees artikel →",
+      "Veelgestelde vragen",
+      "Is shadow AI verboden onder de AI Act?+",
+      "Nee, niet als zodanig. De AI-verordening verbiedt een beperkt aantal specifieke praktijken, zoals social scoring en emotieherkenning op de werkvloer, maar gewoon AI-gebruik door medewerkers staat daar niet in. Wel geldt voor elk AI-gebruik, dus ook ongeziene varianten, de verplichting om passende maatregelen te nemen voor AI-geletterdheid.",
+      "Moeten we AI-gebruik via privéaccounts meteen helemaal verbieden?+",
+      "Een verbod alleen werkt averechts: het gebruik verdwijnt niet, het wordt onzichtbaarder. Effectiever is een zakelijk alternatief bieden met duidelijke grenzen, zodat je weer zicht hebt op wat er gebeurt en kunt bijstellen waar het misgaat.",
+      "Hoe ontdek ik welke AI-tools medewerkers nu al gebruiken?+",
+      "Begin met open, niet-bestraffende gesprekken per team, kijk in de creditcard- en abonnementenkosten naar kleine terugkerende softwareposten, en vraag IT wat er al zichtbaar is in het netwerkverkeer. Een volledig beeld krijg je zo niet, maar wel een werkbaar startpunt.",
+      "Is een gratis AI-chatbot risicovoller dan een zakelijk abonnement?+",
+      "Over het algemeen wel. Zakelijke abonnementen bevatten meestal afspraken over wat er met je invoer gebeurt en soms een verwerkersovereenkomst, terwijl een persoonlijk gratis account die waarborgen vaak niet heeft. Controleer dit altijd per aanbieder en abonnementsvorm, want de voorwaarden verschillen.",
+      "Wat zet ik minimaal in een AI-beleid tegen shadow AI?+",
+      "Drie dingen volstaan om te beginnen: welk zakelijk alternatief beschikbaar is, wat daar nooit in mag (zoals persoonsgegevens van klanten of ongepubliceerde cijfers zonder afweging), en bij wie een medewerker twijfelgevallen meldt. Bouw dat pas later uit als de praktijk daar aanleiding voor geeft.",
+      "Klaar voor impact?",
+      "Van AI-ambitie naar concrete resultaten.",
+      "Plan een vrijblijvend gesprek. Geen pitch. Wel scherpe vragen.",
+      "30 min., geen pitch deckPlan een gesprek →"
+    ]
+  },
+  "links": [
+    {
+      "regio": "overig",
+      "soort": "intern",
+      "href": "#main",
+      "anker": "Naar hoofdinhoud",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/nl",
+      "anker": "",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/nl/diensten",
+      "anker": "Diensten",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/nl/cases",
+      "anker": "Cases",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/nl/werkwijze",
+      "anker": "Werkwijze",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/nl/inzichten",
+      "anker": "Inzichten",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/nl/over",
+      "anker": "Over mij",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/nl/contact",
+      "anker": "Plan een gesprek →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/nl",
+      "anker": "Home",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/nl/inzichten",
+      "anker": "Inzichten",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/nl/inzichten",
+      "anker": "← Terug naar alle inzichten",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/nl/inzichten/ai-governance-zonder-bureaucratie",
+      "anker": "AI-governance zonder bureaucratie",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/nl/kennisbank/ai-agents-en-avg",
+      "anker": "AI agents en de AVG",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/nl/diensten/ai-readiness-assessment",
+      "anker": "AI Readiness Assessment",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/nl/kennisbank/chatgpt-voor-bedrijven",
+      "anker": "ChatGPT voor bedrijven",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/nl/ai-beleid",
+      "anker": "AI-beleid",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/nl/inzichten/ai-governance-zonder-bureaucratie",
+      "anker": "AI-governance zonder bureaucratie",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/nl/contact",
+      "anker": "Sparren over jouw situatie? 30 minuten, vrijblijvend →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/nl/inzichten/ai-governance-zonder-bureaucratie",
+      "anker": "▣ Governance AI-governance zonder bureaucratie: wat je minimaal nodig hebt Governance die niemand gebruikt, beschermt niemand. Vier mechanismen die het verschil maken, en wat je gerust kunt overslaan. ◷ 5 min leestijd Lees artikel →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/nl/inzichten/ai-adoptie-begint-bij-het-werk",
+      "anker": "◉ Organisatie AI-adoptie begint bij het werk, niet bij de tool Iedereen een licentie geven is geen adoptiestrategie. Waarom een leeg invoerveld de grootste drempel is, en wat er wel werkt. ◷ 4 min leestijd Lees artikel →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/nl/contact",
+      "anker": "Plan een gesprek →",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/nl/diensten/ai-readiness-assessment",
+      "anker": "AI Readiness Assessment",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/nl/diensten/ai-strategy-sprint",
+      "anker": "AI Strategy Sprint",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/nl/diensten/fractional-ai-lead",
+      "anker": "Fractional AI Lead",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/nl/diensten",
+      "anker": "Alle diensten",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/nl/cases",
+      "anker": "Cases",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/nl/werkwijze",
+      "anker": "Werkwijze",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/nl/inzichten",
+      "anker": "Inzichten",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/nl/veelgestelde-vragen",
+      "anker": "Veelgestelde vragen",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/nl/over",
+      "anker": "Over mij",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/nl/ai-consultancy",
+      "anker": "AI consultancy",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/nl/ai-implementatie",
+      "anker": "AI implementatie",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/nl/ai-automatisering",
+      "anker": "AI automatisering",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/nl/ai-voor-bedrijven",
+      "anker": "AI voor bedrijven",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/nl/ai-development",
+      "anker": "AI development",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/nl/ai-agents",
+      "anker": "AI agents",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/nl/ai-beleid",
+      "anker": "AI beleid",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/nl/ai-workshop",
+      "anker": "AI workshop",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/nl/markten",
+      "anker": "AI per branche",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/nl/kennisbank",
+      "anker": "Kennisbank",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/nl/tarieven",
+      "anker": "Tarieven",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/nl/partnernetwerk",
+      "anker": "Partnernetwerk",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "overig",
+      "href": "mailto:dave@freelanceaiconsultant.com",
+      "anker": "dave@freelanceaiconsultant.com",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "extern",
+      "href": "https://www.linkedin.com/in/davewillemstein",
+      "anker": "LinkedIn ↗",
+      "rel": "noopener"
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/nl/contact",
+      "anker": "Plan een gesprek",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/nl/privacy",
+      "anker": "Privacyverklaring",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/nl/algemene-voorwaarden",
+      "anker": "Algemene voorwaarden",
+      "rel": null
+    }
+  ],
+  "structured_data": {
+    "sha256": "99e3d3bc1af644fdd589003d717b97830b8a11bd4e774cde2a5fd5b72c28a452",
+    "items": [
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://freelanceaiconsultant.com/nl"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Inzichten",
+                "item": "https://freelanceaiconsultant.com/nl/inzichten"
+              },
+              {
+                "@type": "ListItem",
+                "position": 3,
+                "name": "Shadow AI: medewerkers gebruiken AI toch al, wat nu?",
+                "item": "https://freelanceaiconsultant.com/nl/inzichten/shadow-ai"
+              }
+            ]
+          },
+          {
+            "@type": "Person",
+            "@id": "https://freelanceaiconsultant.com/#dave",
+            "name": "Dave Willemstein",
+            "url": "https://freelanceaiconsultant.com/about",
+            "sameAs": [
+              "https://www.linkedin.com/in/davewillemstein"
+            ],
+            "jobTitle": "Onafhankelijk AI-adviseur"
+          },
+          {
+            "@type": "BlogPosting",
+            "headline": "Shadow AI: medewerkers gebruiken AI toch al, wat nu?",
+            "description": "Verbieden werkt niet: medewerkers gebruiken AI al. Hoe je het zichtbaar maakt, het risico serieus neemt en veilige alternatieven biedt zonder alles dicht te timmeren.",
+            "datePublished": "2026-11-06",
+            "dateModified": "2026-11-06",
+            "inLanguage": "nl-NL",
+            "articleSection": "Governance",
+            "author": {
+              "@id": "https://freelanceaiconsultant.com/#dave"
+            },
+            "publisher": {
+              "@id": "https://freelanceaiconsultant.com/#dave"
+            },
+            "mainEntityOfPage": "https://freelanceaiconsultant.com/nl/inzichten/shadow-ai"
+          },
+          {
+            "@type": "FAQPage",
+            "mainEntity": [
+              {
+                "@type": "Question",
+                "name": "Is shadow AI verboden onder de AI Act?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Nee, niet als zodanig. De AI-verordening verbiedt een beperkt aantal specifieke praktijken, zoals social scoring en emotieherkenning op de werkvloer, maar gewoon AI-gebruik door medewerkers staat daar niet in. Wel geldt voor elk AI-gebruik, dus ook ongeziene varianten, de verplichting om passende maatregelen te nemen voor AI-geletterdheid."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Moeten we AI-gebruik via privéaccounts meteen helemaal verbieden?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Een verbod alleen werkt averechts: het gebruik verdwijnt niet, het wordt onzichtbaarder. Effectiever is een zakelijk alternatief bieden met duidelijke grenzen, zodat je weer zicht hebt op wat er gebeurt en kunt bijstellen waar het misgaat."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Hoe ontdek ik welke AI-tools medewerkers nu al gebruiken?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Begin met open, niet-bestraffende gesprekken per team, kijk in de creditcard- en abonnementenkosten naar kleine terugkerende softwareposten, en vraag IT wat er al zichtbaar is in het netwerkverkeer. Een volledig beeld krijg je zo niet, maar wel een werkbaar startpunt."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Is een gratis AI-chatbot risicovoller dan een zakelijk abonnement?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Over het algemeen wel. Zakelijke abonnementen bevatten meestal afspraken over wat er met je invoer gebeurt en soms een verwerkersovereenkomst, terwijl een persoonlijk gratis account die waarborgen vaak niet heeft. Controleer dit altijd per aanbieder en abonnementsvorm, want de voorwaarden verschillen."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Wat zet ik minimaal in een AI-beleid tegen shadow AI?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Drie dingen volstaan om te beginnen: welk zakelijk alternatief beschikbaar is, wat daar nooit in mag (zoals persoonsgegevens van klanten of ongepubliceerde cijfers zonder afweging), en bij wie een medewerker twijfelgevallen meldt. Bouw dat pas later uit als de praktijk daar aanleiding voor geeft."
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "afbeeldingen": [
+    {
+      "regio": "header",
+      "src": "/images/freelance-ai-consultant-logo-header.png",
+      "alt": "freelanceaiconsultant.com logo",
+      "width": "600",
+      "height": "287",
+      "loading": null
+    },
+    {
+      "regio": "main",
+      "src": "/images/dave-portrait.jpg",
+      "alt": "Dave Willemstein, Independent AI Advisor",
+      "width": "500",
+      "height": "620",
+      "loading": "lazy"
+    },
+    {
+      "regio": "footer",
+      "src": "/images/freelance-ai-consultant-icon-footer.png",
+      "alt": "",
+      "width": "192",
+      "height": "192",
+      "loading": "lazy"
+    }
+  ],
+  "laadprestaties": {
+    "scripts": [
+      {
+        "src": "/_astro/CookieConsent.astro_astro_type_script_index_0_lang.COcxE8NY.js",
+        "type": "module",
+        "inline_bytes": 0
+      },
+      {
+        "src": null,
+        "type": null,
+        "inline_bytes": 989
+      },
+      {
+        "src": null,
+        "type": null,
+        "inline_bytes": 493
+      },
+      {
+        "src": "/logo-carousel/logo-carousel.js?v=2",
+        "type": null,
+        "inline_bytes": 0
+      },
+      {
+        "src": null,
+        "type": null,
+        "inline_bytes": 725
+      }
+    ],
+    "stylesheets": [
+      "/_astro/_slug_.CzLXI3HH.css",
+      "/_astro/_slug_.BpipRbQZ.css",
+      "/logo-carousel/logo-carousel.css?v=2"
+    ],
+    "aantal_details": 5,
+    "aantal_tabellen": 0
+  },
+  "gemeten_op": "2026-11-06"
+}

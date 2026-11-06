@@ -2,7 +2,7 @@
   "url": "/",
   "build_bestand": "dist/index.html",
   "html": {
-    "bytes": 49582,
+    "bytes": 49604,
     "lang": "nl"
   },
   "beschermd": {
@@ -152,6 +152,12 @@
     },
     {
       "niveau": 3,
+      "tekst": "Shadow AI: medewerkers gebruiken AI toch al, wat nu?",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 3,
       "tekst": "AI-agents: wat ze wel en niet kunnen in een bedrijfsproces",
       "regio": "main",
       "id": null
@@ -169,12 +175,6 @@
       "id": null
     },
     {
-      "niveau": 3,
-      "tekst": "Welke AI-use cases leveren écht resultaat op?",
-      "regio": "main",
-      "id": null
-    },
-    {
       "niveau": 2,
       "tekst": "Klaar om AI-beslissingen helder te maken?",
       "regio": "main",
@@ -183,8 +183,8 @@
   ],
   "bodytekst": {
     "regio": "main",
-    "woorden": 765,
-    "sha256": "c2d94fb9c11e75a1f85c98482e10683606dc04df628e6deac32df867c9cf1f15",
+    "woorden": 772,
+    "sha256": "f7c9875ee54a72484d27ed1ccc866c7dac8a1594a9a9160bcfd5bd18042a4173",
     "blokken": [
       "AI-advies dat je helpt beslissen",
       "Maak de AI-beslissingen die je aan je board moet uitleggen.",
@@ -335,6 +335,11 @@
       "Inzichten",
       "Lezen voordat je beslist.",
       "Alle inzichten →",
+      "◐",
+      "Governance",
+      "Shadow AI: medewerkers gebruiken AI toch al, wat nu?",
+      "Verbieden werkt niet: medewerkers gebruiken AI al. Hoe je het zichtbaar maakt, het risico serieus neemt en veilige alternatieven biedt zonder alles dicht te timmeren.",
+      "◷ 6 min leestijd Lees artikel →",
       "↯",
       "Use cases",
       "AI-agents: wat ze wel en niet kunnen in een bedrijfsproces",
@@ -349,11 +354,6 @@
       "Organisatie",
       "Build, buy of partner: wat past bij jouw situatie?",
       "De vraag is zelden \"kunnen we dit zelf bouwen?\" maar \"willen we dit over drie jaar nog steeds onderhouden?\". Een beslisraamwerk in vier vragen.",
-      "◷ 4 min leestijd Lees artikel →",
-      "⌕",
-      "Use cases",
-      "Welke AI-use cases leveren écht resultaat op?",
-      "Niet de spectaculairste, maar de saaiste. Vier kenmerken die de winnaars delen, en vier patronen die vrijwel altijd stranden.",
       "◷ 4 min leestijd Lees artikel →",
       "Klaar voor impact?",
       "Klaar om AI-beslissingen helder te maken?",
@@ -526,6 +526,13 @@
     {
       "regio": "main",
       "soort": "intern",
+      "href": "/nl/inzichten/shadow-ai",
+      "anker": "◐ Governance Shadow AI: medewerkers gebruiken AI toch al, wat nu? Verbieden werkt niet: medewerkers gebruiken AI al. Hoe je het zichtbaar maakt, het risico serieus neemt en veilige alternatieven biedt zonder alles dicht te timmeren. ◷ 6 min leestijd Lees artikel →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
       "href": "/nl/inzichten/ai-agents-wat-ze-wel-en-niet-kunnen",
       "anker": "↯ Use cases AI-agents: wat ze wel en niet kunnen in een bedrijfsproces Agents die zelfstandig taken uitvoeren zijn de belofte van dit moment. Waar ze werken, waar ze stukgaan, en welke vraag je vooraf moet beantwoorden. ◷ 4 min leestijd Lees artikel →",
       "rel": null
@@ -542,13 +549,6 @@
       "soort": "intern",
       "href": "/nl/inzichten/build-buy-of-partner",
       "anker": "⇄ Organisatie Build, buy of partner: wat past bij jouw situatie? De vraag is zelden \"kunnen we dit zelf bouwen?\" maar \"willen we dit over drie jaar nog steeds onderhouden?\". Een beslisraamwerk in vier vragen. ◷ 4 min leestijd Lees artikel →",
-      "rel": null
-    },
-    {
-      "regio": "main",
-      "soort": "intern",
-      "href": "/nl/inzichten/welke-ai-use-cases-leveren-resultaat",
-      "anker": "⌕ Use cases Welke AI-use cases leveren écht resultaat op? Niet de spectaculairste, maar de saaiste. Vier kenmerken die de winnaars delen, en vier patronen die vrijwel altijd stranden. ◷ 4 min leestijd Lees artikel →",
       "rel": null
     },
     {
@@ -831,5 +831,5 @@
     "aantal_details": 0,
     "aantal_tabellen": 0
   },
-  "gemeten_op": "2026-10-29"
+  "gemeten_op": "2026-11-06"
 }

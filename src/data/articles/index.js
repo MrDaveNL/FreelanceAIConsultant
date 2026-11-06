@@ -10,10 +10,11 @@ import a09 from './ai-adoptie-begint-bij-het-werk.js';
 import a10 from './ai-vendorselectie-in-acht-stappen.js';
 import a11 from './wanneer-heb-je-echt-een-ai-strateeg-nodig.js';
 import a12 from './ai-agents-wat-ze-wel-en-niet-kunnen.js';
+import a13 from './shadow-ai.js';
 
 // Nieuwste eerst. 'order' is de tiebreaker bij gelijke 'date' (laag = nieuwer/boven), zodat de
 // volgorde op de hub en in de RSS-feed niet verschuift als twee artikelen dezelfde datum krijgen.
-export const articles = [a01, a02, a03, a04, a05, a06, a07, a08, a09, a10, a11, a12]
+export const articles = [a01, a02, a03, a04, a05, a06, a07, a08, a09, a10, a11, a12, a13]
   .sort((x, y) => (x.date !== y.date ? (x.date < y.date ? 1 : -1) : (x.order ?? 0) - (y.order ?? 0)));
 
 export const featuredArticle = articles.find((a) => a.featured) ?? articles[0];
