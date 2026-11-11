@@ -2,7 +2,7 @@
   "url": "/404",
   "build_bestand": "dist/404.html",
   "html": {
-    "bytes": 13242,
+    "bytes": 13260,
     "lang": "nl"
   },
   "beschermd": {
@@ -38,8 +38,8 @@
   ],
   "bodytekst": {
     "regio": "main",
-    "woorden": 67,
-    "sha256": "511347553d9d0d1d41b93f26015e54ca139adb66f8e83cb9f57e551736e99365",
+    "woorden": 68,
+    "sha256": "c8066965c18df8f02810151fb54d69caded72d3cce2743114946cc270dea994c",
     "blokken": [
       "Foutje",
       "Deze pagina bestaat niet.",
@@ -48,7 +48,7 @@
       "Diensten",
       "AI Readiness Assessment →AI Strategy Sprint →Fractional AI Lead →",
       "Gelezen artikelen",
-      "Shadow AI: medewerkers gebruiken AI toch al, wat nu? →AI-agents: wat ze wel en niet kunnen in een bedrijfsproces →Van AI-strategie naar waarde: een 3-stappenplan →"
+      "Wat kost AI-implementatie? Kostenposten en realistische bandbreedtes →Shadow AI: medewerkers gebruiken AI toch al, wat nu? →AI-agents: wat ze wel en niet kunnen in een bedrijfsproces →"
     ]
   },
   "links": [
@@ -153,6 +153,13 @@
     {
       "regio": "main",
       "soort": "intern",
+      "href": "/nl/inzichten/wat-kost-ai-implementatie",
+      "anker": "Wat kost AI-implementatie? Kostenposten en realistische bandbreedtes →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
       "href": "/nl/inzichten/shadow-ai",
       "anker": "Shadow AI: medewerkers gebruiken AI toch al, wat nu? →",
       "rel": null
@@ -162,13 +169,6 @@
       "soort": "intern",
       "href": "/nl/inzichten/ai-agents-wat-ze-wel-en-niet-kunnen",
       "anker": "AI-agents: wat ze wel en niet kunnen in een bedrijfsproces →",
-      "rel": null
-    },
-    {
-      "regio": "main",
-      "soort": "intern",
-      "href": "/nl/inzichten/van-ai-strategie-naar-waarde",
-      "anker": "Van AI-strategie naar waarde: een 3-stappenplan →",
       "rel": null
     },
     {
@@ -430,5 +430,5 @@
     "aantal_details": 0,
     "aantal_tabellen": 0
   },
-  "gemeten_op": "2026-11-06"
+  "gemeten_op": "2026-11-11"
 }
