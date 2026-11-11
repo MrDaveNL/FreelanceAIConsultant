@@ -10,8 +10,8 @@ export default {
   excerpt: 'Niet de spectaculairste, maar de saaiste. Vier kenmerken die de winnaars delen, en vier patronen die vrijwel altijd stranden.',
   lede: 'Na tientallen use-case-inventarisaties valt hetzelfde patroon op: de winnaars zijn zelden de ideeën waar de directie enthousiast van wordt. Dit is waar ze wél aan voldoen.',
   readingTime: '4 min leestijd',
-  date: '2026-10-28',
-  dateLabel: '28 oktober 2026',
+  date: '2026-11-02',
+  dateLabel: '2 november 2026',
   order: 4,
   summary: [
     'Hoog volume, lage variatie, duidelijke fout-kosten.',

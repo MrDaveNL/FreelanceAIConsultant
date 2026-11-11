@@ -142,7 +142,7 @@
   "bodytekst": {
     "regio": "main",
     "woorden": 1464,
-    "sha256": "58eb3d694204d787a45be0c96714d1570e828e3e4b8be833d5763664b035d990",
+    "sha256": "bf8e9653ba424103f7d152d79408b468a2d9c9054ffe9790d36305056cf602d1",
     "blokken": [
       "Home",
       "Insights",
@@ -151,7 +151,7 @@
       "Organisation",
       "AI adoption starts with the work",
       "Organisations rolling out AI tools typically see ten to fifteen per cent weekly use. That is not resistance to change, it is a design problem.",
-      "◷ 4 min read 28 October 2026",
+      "◷ 4 min read 29 October 2026",
       "DW",
       "By Dave Willemstein Independent AI Advisor, independent, no vendor interests",
       "I help organisations make AI decisions that create value. No bloated decks, just clear choices and tangible results.",
@@ -587,7 +587,7 @@
     }
   ],
   "structured_data": {
-    "sha256": "c4f97e5f5a63a52ee43b93cf3194d0332d5f8f4548dd0f94eaef6ee8181a01b6",
+    "sha256": "7a42f96f1dc5511fac4e86d44e4e7160a79c357f3e17d4cd2a62fa8693a7c3e9",
     "items": [
       {
         "@context": "https://schema.org",
@@ -629,8 +629,8 @@
             "@type": "BlogPosting",
             "headline": "AI adoption starts with the work, not the tool",
             "description": "Giving everyone a licence isn't an adoption strategy. Why an empty input box is the biggest barrier, and what actually works.",
-            "datePublished": "2026-10-28",
-            "dateModified": "2026-10-28",
+            "datePublished": "2026-10-29",
+            "dateModified": "2026-10-29",
             "inLanguage": "en-GB",
             "articleSection": "Organisation",
             "author": {
@@ -744,5 +744,5 @@
     "aantal_details": 0,
     "aantal_tabellen": 0
   },
-  "gemeten_op": "2026-11-05"
+  "gemeten_op": "2026-11-11"
 }

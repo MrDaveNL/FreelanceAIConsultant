@@ -178,7 +178,7 @@
   "bodytekst": {
     "regio": "main",
     "woorden": 1491,
-    "sha256": "ab0605403e267ce0e4f19e187aebb3d6247123c658195a8c51d6ab04a5629cdd",
+    "sha256": "f5688fa65f568455eddae03aeac8a2db5b6fb811c6b4e39c89fdf2555ee19efd",
     "blokken": [
       "Home",
       "Inzichten",
@@ -187,7 +187,7 @@
       "Use cases",
       "AI-agents: wat ze wel en niet kunnen",
       "Een agent die zelf stappen zet en systemen aanroept, is aantrekkelijk en risicovol tegelijk. Het onderscheid zit in wat er gebeurt als hij ernaast zit.",
-      "◷ 4 min leestijd 28 oktober 2026",
+      "◷ 4 min leestijd 5 november 2026",
       "DW",
       "Door Dave Willemstein Independent AI Advisor, onafhankelijk, geen leveranciersbelangen",
       "Ik help organisaties AI-beslissingen nemen die waarde creëren. Geen dikke decks, wel duidelijke keuzes en tastbare resultaten.",
@@ -627,7 +627,7 @@
     }
   ],
   "structured_data": {
-    "sha256": "83f3980c1f64221deee200eaa28ac966babc9de1f53bfd6de57da9c34047917d",
+    "sha256": "efab16a35da0d25838bd4477d880fd11331dd0d6f2dfbb7cd4a73f648fa44a6f",
     "items": [
       {
         "@context": "https://schema.org",
@@ -669,8 +669,8 @@
             "@type": "BlogPosting",
             "headline": "AI-agents: wat ze wel en niet kunnen in een bedrijfsproces",
             "description": "Agents die zelfstandig taken uitvoeren zijn de belofte van dit moment. Waar ze werken, waar ze stukgaan, en welke vraag je vooraf moet beantwoorden.",
-            "datePublished": "2026-10-28",
-            "dateModified": "2026-10-28",
+            "datePublished": "2026-11-05",
+            "dateModified": "2026-11-05",
             "inLanguage": "nl-NL",
             "articleSection": "Use cases",
             "author": {
@@ -784,5 +784,5 @@
     "aantal_details": 0,
     "aantal_tabellen": 0
   },
-  "gemeten_op": "2026-11-05"
+  "gemeten_op": "2026-11-11"
 }

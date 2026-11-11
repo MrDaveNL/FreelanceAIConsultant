@@ -142,7 +142,7 @@
   "bodytekst": {
     "regio": "main",
     "woorden": 1576,
-    "sha256": "91da72f21bcafec35692b66678d5f01098b19afea8de0fd5cf95c6f43160e4a9",
+    "sha256": "95ed55f7ae9731410d64fb6a4aa539d3b8b8e2875e952ae5f14855b1faa71aa4",
     "blokken": [
       "Home",
       "Insights",
@@ -151,7 +151,7 @@
       "Organisation",
       "Why AI pilots stall",
       "Almost every organisation I speak to has successful AI pilots. Almost none have scaled up more than two. That's not a technology problem.",
-      "◷ 4 min read 28 October 2026",
+      "◷ 4 min read 30 October 2026",
       "DW",
       "By Dave Willemstein Independent AI Advisor, independent, no vendor interests",
       "I help organisations make AI decisions that create value. No bloated decks, just clear choices and tangible results.",
@@ -586,7 +586,7 @@
     }
   ],
   "structured_data": {
-    "sha256": "238e4c75077ef441ad6358e7597155b20687016a86a394e5c5f88d9c83d9407f",
+    "sha256": "ce97be957dd4df65f2eee9052ef093541902aab668b613bb655fbb7dc2a75ecd",
     "items": [
       {
         "@context": "https://schema.org",
@@ -628,8 +628,8 @@
             "@type": "BlogPosting",
             "headline": "Why AI pilots stall (and what to do about it)",
             "description": "The pilot worked. Everyone was excited. And a year later, nothing has scaled up. Five causes, five countermeasures.",
-            "datePublished": "2026-10-28",
-            "dateModified": "2026-10-28",
+            "datePublished": "2026-10-30",
+            "dateModified": "2026-10-30",
             "inLanguage": "en-GB",
             "articleSection": "Organisation",
             "author": {
@@ -743,5 +743,5 @@
     "aantal_details": 0,
     "aantal_tabellen": 0
   },
-  "gemeten_op": "2026-11-05"
+  "gemeten_op": "2026-11-11"
 }

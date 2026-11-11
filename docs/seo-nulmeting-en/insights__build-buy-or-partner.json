@@ -142,7 +142,7 @@
   "bodytekst": {
     "regio": "main",
     "woorden": 1492,
-    "sha256": "71e7a225582e47168a346202427e4d22c6a0b34b01e30ff4f97d2e6594818725",
+    "sha256": "8b9ff38ba776831cc5eda1b1c87e9287a6d979b24be6121f48f941171ad7ad68",
     "blokken": [
       "Home",
       "Insights",
@@ -151,7 +151,7 @@
       "Organisation",
       "Build, buy or partner: what fits your situation?",
       "Build it yourself, buy it, or partner with someone? The choice determines your cost structure, your agility and your dependency for years. Here's how to make it an informed one.",
-      "◷ 4 min read 28 October 2026",
+      "◷ 4 min read 3 November 2026",
       "DW",
       "By Dave Willemstein Independent AI Advisor, independent, no vendor interests",
       "I help organisations make AI decisions that create value. No bloated decks, just clear choices and tangible results.",
@@ -588,7 +588,7 @@
     }
   ],
   "structured_data": {
-    "sha256": "5a2025faa2c1ae381a3ade343ca6c9f38d850aeaeb857f9ad777d173d01a5c4d",
+    "sha256": "9c54684d34f5abe1cfefb55314d8859fc9583edb8be0cec983e5f12d9a31d05c",
     "items": [
       {
         "@context": "https://schema.org",
@@ -630,8 +630,8 @@
             "@type": "BlogPosting",
             "headline": "Build, buy or partner: what fits your situation?",
             "description": "The question is rarely \"can we build this ourselves?\" but \"do we still want to be maintaining this in three years?\" A decision framework in four questions.",
-            "datePublished": "2026-10-28",
-            "dateModified": "2026-10-28",
+            "datePublished": "2026-11-03",
+            "dateModified": "2026-11-03",
             "inLanguage": "en-GB",
             "articleSection": "Organisation",
             "author": {
@@ -737,5 +737,5 @@
     "aantal_details": 0,
     "aantal_tabellen": 0
   },
-  "gemeten_op": "2026-11-05"
+  "gemeten_op": "2026-11-11"
 }

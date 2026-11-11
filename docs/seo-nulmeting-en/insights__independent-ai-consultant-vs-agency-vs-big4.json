@@ -178,7 +178,7 @@
   "bodytekst": {
     "regio": "main",
     "woorden": 1663,
-    "sha256": "32f71b11d6d50498b5d7a27e382ef9814a26d83f7c3c98ef97e85b010da934db",
+    "sha256": "d87274d6ef5b65eea0e325779e23676d2d198f395271c921ff92e469e62bd8d4",
     "blokken": [
       "Home",
       "Insights",
@@ -187,7 +187,7 @@
       "Strategy",
       "Independent AI consultant vs agency vs Big 4",
       "Which option fits your AI question best? A comparison on seniority, flexibility, focus, cost and delivery power.",
-      "◷ 4 min read 28 October 2026",
+      "◷ 4 min read 1 November 2026",
       "DW",
       "By Dave Willemstein Independent AI Advisor, independent, no vendor interests",
       "I help organisations make AI decisions that create value. No bloated decks, just clear choices and tangible results.",
@@ -638,7 +638,7 @@
     }
   ],
   "structured_data": {
-    "sha256": "658112acac67731c921b190adb44fb0ea4744b5b8e46a7d2249a07a7653dd3ee",
+    "sha256": "7eebcd49e0e1e851d829c54b20ccbe6bafdfcce2dea43afa9fe463c051c55275",
     "items": [
       {
         "@context": "https://schema.org",
@@ -680,8 +680,8 @@
             "@type": "BlogPosting",
             "headline": "Independent AI consultant vs agency vs Big 4",
             "description": "A fair comparison on independence, speed, depth, cost and delivery power, so you choose the right partner, even when that isn't me.",
-            "datePublished": "2026-10-28",
-            "dateModified": "2026-10-28",
+            "datePublished": "2026-11-01",
+            "dateModified": "2026-11-01",
             "inLanguage": "en-GB",
             "articleSection": "Strategy",
             "author": {
@@ -795,5 +795,5 @@
     "aantal_details": 0,
     "aantal_tabellen": 0
   },
-  "gemeten_op": "2026-11-05"
+  "gemeten_op": "2026-11-11"
 }

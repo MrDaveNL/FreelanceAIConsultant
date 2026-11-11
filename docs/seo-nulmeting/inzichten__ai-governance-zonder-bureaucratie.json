@@ -154,7 +154,7 @@
   "bodytekst": {
     "regio": "main",
     "woorden": 1532,
-    "sha256": "71257e0604f61e71ce7543a70ba1fd268ae6e56dd3d73fc8f969bcd1d0454d0a",
+    "sha256": "72f1d6fac6c817a9fdeaabb661c6cc256210d45d723f06ab721f6b412f12dc7c",
     "blokken": [
       "Home",
       "Inzichten",
@@ -163,7 +163,7 @@
       "Governance",
       "AI-governance zonder bureaucratie",
       "Europese regelgeving dwingt organisaties om AI aantoonbaar te beheersen. Dat kan uitmonden in een commissie die alles vertraagt, of in vier lichte mechanismen die het werk beter maken.",
-      "◷ 5 min leestijd 28 oktober 2026",
+      "◷ 5 min leestijd 30 oktober 2026",
       "DW",
       "Door Dave Willemstein Independent AI Advisor, onafhankelijk, geen leveranciersbelangen",
       "Ik help organisaties AI-beslissingen nemen die waarde creëren. Geen dikke decks, wel duidelijke keuzes en tastbare resultaten.",
@@ -601,7 +601,7 @@
     }
   ],
   "structured_data": {
-    "sha256": "aa7f1336069a053a22ffce1421872c7ecc88115a8552cf765659acbb30a92a16",
+    "sha256": "5862b8bf0d88e41aa31966b21ddf90c78130f6a0d0911634ec5f7d6a7742639f",
     "items": [
       {
         "@context": "https://schema.org",
@@ -643,8 +643,8 @@
             "@type": "BlogPosting",
             "headline": "AI-governance zonder bureaucratie: wat je minimaal nodig hebt",
             "description": "Governance die niemand gebruikt, beschermt niemand. Vier mechanismen die het verschil maken, en wat je gerust kunt overslaan.",
-            "datePublished": "2026-10-28",
-            "dateModified": "2026-10-28",
+            "datePublished": "2026-10-30",
+            "dateModified": "2026-10-30",
             "inLanguage": "nl-NL",
             "articleSection": "Governance",
             "author": {
@@ -758,5 +758,5 @@
     "aantal_details": 0,
     "aantal_tabellen": 0
   },
-  "gemeten_op": "2026-11-05"
+  "gemeten_op": "2026-11-11"
 }

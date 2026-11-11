@@ -160,7 +160,7 @@
   "bodytekst": {
     "regio": "main",
     "woorden": 1492,
-    "sha256": "688969ad2bd9f0be5bc60ef049616301692fb9bc5a9f33263c1143361be73bff",
+    "sha256": "cf4bfa8e4afc4f2589268f2a8bb2ac58684978e66aed75214f348f5f2ae54613",
     "blokken": [
       "Home",
       "Insights",
@@ -169,7 +169,7 @@
       "Use cases",
       "Which AI use cases actually deliver results?",
       "After dozens of use-case inventories, the same pattern stands out: the winners are rarely the ideas the board gets excited about. Here's what they do have in common.",
-      "◷ 4 min read 28 October 2026",
+      "◷ 4 min read 2 November 2026",
       "DW",
       "By Dave Willemstein Independent AI Advisor, independent, no vendor interests",
       "I help organisations make AI decisions that create value. No bloated decks, just clear choices and tangible results.",
@@ -607,7 +607,7 @@
     }
   ],
   "structured_data": {
-    "sha256": "8a886c2fe4e49b48b72930b779169cac5da21c4418027a6fb5b145f55c47eef2",
+    "sha256": "ee4c07f32985814b7cfbf61b832e8013c53097b53f79f26a7a657130e92d708d",
     "items": [
       {
         "@context": "https://schema.org",
@@ -649,8 +649,8 @@
             "@type": "BlogPosting",
             "headline": "Which AI use cases actually deliver results?",
             "description": "Not the most spectacular, but the most boring. Four traits the winners share, and four patterns that almost always stall.",
-            "datePublished": "2026-10-28",
-            "dateModified": "2026-10-28",
+            "datePublished": "2026-11-02",
+            "dateModified": "2026-11-02",
             "inLanguage": "en-GB",
             "articleSection": "Use cases",
             "author": {
@@ -756,5 +756,5 @@
     "aantal_details": 0,
     "aantal_tabellen": 0
   },
-  "gemeten_op": "2026-11-05"
+  "gemeten_op": "2026-11-11"
 }

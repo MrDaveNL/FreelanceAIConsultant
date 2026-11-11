@@ -116,6 +116,12 @@
     },
     {
       "niveau": 3,
+      "tekst": "AI adoption starts with the work, not the tool",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 3,
       "tekst": "AI vendor selection in eight steps",
       "regio": "main",
       "id": null
@@ -123,12 +129,6 @@
     {
       "niveau": 3,
       "tekst": "When do you really need an AI strategist?",
-      "regio": "main",
-      "id": null
-    },
-    {
-      "niveau": 3,
-      "tekst": "AI adoption starts with the work, not the tool",
       "regio": "main",
       "id": null
     },
@@ -142,7 +142,7 @@
   "bodytekst": {
     "regio": "main",
     "woorden": 782,
-    "sha256": "068d98e2fa0d5ed086de0ef8cff8a031a0c8ef2e448d79951a8cd6f0153d21cb",
+    "sha256": "c33d05ecab9c5e2b87b5e3632376a86221b0add4421a542f13fa4bdd1c1a1df2",
     "blokken": [
       "AI advice that helps you decide",
       "Practical insights for better AI decisions.",
@@ -212,7 +212,7 @@
       "Featured article",
       "Independent AI consultant vs agency vs Big 4",
       "A fair comparison on independence, speed, depth, cost and delivery power, so you choose the right partner, even when that isn't me.",
-      "◷ 4 min read 28 October 2026",
+      "◷ 4 min read 1 November 2026",
       "Read article →",
       "All insights",
       "Use cases",
@@ -268,6 +268,11 @@
       "The business case for AI: how to calculate it honestly",
       "Time saved isn't a saving until someone spends that time differently. A costing model that survives the CFO's scrutiny.",
       "◷ 5 min read Read article →",
+      "◉",
+      "Organisation",
+      "AI adoption starts with the work, not the tool",
+      "Giving everyone a licence isn't an adoption strategy. Why an empty input box is the biggest barrier, and what actually works.",
+      "◷ 4 min read Read article →",
       "◈",
       "Tools & data",
       "AI vendor selection in eight steps",
@@ -277,11 +282,6 @@
       "Strategy",
       "When do you really need an AI strategist?",
       "Half the time, the answer is: you don't. Four situations where outside help pays off, and four where you're better off doing it yourself.",
-      "◷ 4 min read Read article →",
-      "◉",
-      "Organisation",
-      "AI adoption starts with the work, not the tool",
-      "Giving everyone a licence isn't an adoption strategy. Why an empty input box is the biggest barrier, and what actually works.",
       "◷ 4 min read Read article →",
       "Stay sharp. Get practical AI insights.",
       "Once a month, a short, practical update with frameworks, experiences and examples you can apply straight away. Not a newsletter full of links, just one worked-through idea at a time.",
@@ -449,6 +449,13 @@
     {
       "regio": "main",
       "soort": "intern",
+      "href": "/insights/ai-adoption-starts-with-the-work",
+      "anker": "◉ Organisation AI adoption starts with the work, not the tool Giving everyone a licence isn't an adoption strategy. Why an empty input box is the biggest barrier, and what actually works. ◷ 4 min read Read article →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
       "href": "/insights/ai-vendor-selection-in-eight-steps",
       "anker": "◈ Tools & data AI vendor selection in eight steps Criteria first, vendors second. A selection process built to withstand good demos and internal preferences. ◷ 5 min read Read article →",
       "rel": null
@@ -458,13 +465,6 @@
       "soort": "intern",
       "href": "/insights/when-do-you-really-need-an-ai-strategist",
       "anker": "◎ Strategy When do you really need an AI strategist? Half the time, the answer is: you don't. Four situations where outside help pays off, and four where you're better off doing it yourself. ◷ 4 min read Read article →",
-      "rel": null
-    },
-    {
-      "regio": "main",
-      "soort": "intern",
-      "href": "/insights/ai-adoption-starts-with-the-work",
-      "anker": "◉ Organisation AI adoption starts with the work, not the tool Giving everyone a licence isn't an adoption strategy. Why an empty input box is the biggest barrier, and what actually works. ◷ 4 min read Read article →",
       "rel": null
     },
     {
@@ -757,5 +757,5 @@
     "aantal_details": 0,
     "aantal_tabellen": 0
   },
-  "gemeten_op": "2026-11-05"
+  "gemeten_op": "2026-11-11"
 }

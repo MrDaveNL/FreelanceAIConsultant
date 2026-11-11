@@ -154,7 +154,7 @@
   "bodytekst": {
     "regio": "main",
     "woorden": 1691,
-    "sha256": "da662c595332a4c7c1ac8fc0d420ab0cd8d045c3858cad573d2d0771895451b7",
+    "sha256": "4d3e5cefad60b31b364fe1bf825497078cef1c399030e5e780ce51d5616cb4a1",
     "blokken": [
       "Home",
       "Insights",
@@ -163,7 +163,7 @@
       "Governance",
       "AI governance without bureaucracy",
       "EU regulation requires organisations to demonstrably manage AI. That can end up as a committee that slows everything down, or as four light mechanisms that make the work better.",
-      "◷ 5 min read 28 October 2026",
+      "◷ 5 min read 30 October 2026",
       "DW",
       "By Dave Willemstein Independent AI Advisor, independent, no vendor interests",
       "I help organisations make AI decisions that create value. No bloated decks, just clear choices and tangible results.",
@@ -615,7 +615,7 @@
     }
   ],
   "structured_data": {
-    "sha256": "daab4fae5ade77f0e6280ffe1e48a71b097a22ac320fcb20aac7f949b06dea3c",
+    "sha256": "e5bbab0e87089ca536bf8b5d5d0ed8fce69c4228a40f82ddb5a53164240d686e",
     "items": [
       {
         "@context": "https://schema.org",
@@ -657,8 +657,8 @@
             "@type": "BlogPosting",
             "headline": "AI governance without bureaucracy: what you need at minimum",
             "description": "Governance nobody uses protects nobody. Four mechanisms that make the difference, and what you can safely skip.",
-            "datePublished": "2026-10-28",
-            "dateModified": "2026-10-28",
+            "datePublished": "2026-10-30",
+            "dateModified": "2026-10-30",
             "inLanguage": "en-GB",
             "articleSection": "Governance",
             "author": {
@@ -772,5 +772,5 @@
     "aantal_details": 0,
     "aantal_tabellen": 0
   },
-  "gemeten_op": "2026-11-05"
+  "gemeten_op": "2026-11-11"
 }

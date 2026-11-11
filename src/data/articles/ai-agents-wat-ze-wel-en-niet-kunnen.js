@@ -10,8 +10,8 @@ export default {
   excerpt: 'Agents die zelfstandig taken uitvoeren zijn de belofte van dit moment. Waar ze werken, waar ze stukgaan, en welke vraag je vooraf moet beantwoorden.',
   lede: 'Een agent die zelf stappen zet en systemen aanroept, is aantrekkelijk en risicovol tegelijk. Het onderscheid zit in wat er gebeurt als hij ernaast zit.',
   readingTime: '4 min leestijd',
-  date: '2026-10-28',
-  dateLabel: '28 oktober 2026',
+  date: '2026-11-05',
+  dateLabel: '5 november 2026',
   order: 1,
   summary: [
     'Agents werken goed bij omkeerbare stappen met een duidelijke eindtoets.',
