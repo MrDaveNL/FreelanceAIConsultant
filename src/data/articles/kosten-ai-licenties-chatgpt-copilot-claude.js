@@ -10,7 +10,7 @@ export default {
   excerpt: 'De licentieprijs is de minst interessante vraag. Bepalend zijn databeheer, koppeling met je omgeving en wat medewerkers echt gaan gebruiken.',
   metaTitle: 'Kosten AI-licenties: ChatGPT, Copilot en Claude vergeleken',
   metaDescription: 'Wat kosten ChatGPT Business, Microsoft Copilot en Claude voor je organisatie? Licentievormen, wat je per abonnement krijgt en hoe je kiest.',
-  lede: 'Wie "ChatGPT business kosten" of "copilot licentie" intikt, zoekt meestal een los bedrag per gebruiker per maand. Dat bedrag krijg je hieronder, met bron en datum. Maar de licentieprijs is in de praktijk de minst interessante vraag: bepalend voor wat een abonnement je oplevert zijn databeheer, de koppeling met je bestaande omgeving en wat je medewerkers er echt mee gaan doen. Prijzen zijn een momentopname; controleer ze opnieuw vlak voor publicatie.',
+  lede: 'Wie "ChatGPT business kosten" of "copilot licentie" intikt, zoekt meestal een los bedrag per gebruiker per maand. Dat bedrag krijg je hieronder, met bron en datum. Maar de licentieprijs is in de praktijk de minst interessante vraag: bepalend voor wat een abonnement je oplevert zijn databeheer, de koppeling met je bestaande omgeving en wat je medewerkers er echt mee gaan doen. Prijzen gecontroleerd op 11 november 2026; controleer ze opnieuw voordat je ze voor een begroting of contract gebruikt.',
   readingTime: '8 min leestijd',
   date: '2026-12-22',
   dateLabel: '22 december 2026',
@@ -93,7 +93,7 @@ export default {
   <div class="tr"><span>Google</span><span>Gemini via Workspace Business Starter</span><span>€ 6,80 (editieprijs, Gemini zit erin)</span><span>Workspace Enterprise, op aanvraag</span></div>
 </div>
 <p>Twee dingen vallen op als je dit zo naast elkaar zet. Eén: de instapprijzen van ChatGPT Business en Claude Team zijn, in hun eigen valuta, identiek. Twee: Gemini is lastig één op één te vergelijken, omdat je niet alleen AI koopt maar een hele Workspace-editie; de €6,80 van Business Starter geeft bijvoorbeeld geen toegang tot Gemini in Docs en Sheets, terwijl dat bij Business Standard wel zo is.</p>
-<p><!-- FACTCHECK BLOG-07: prijzen (ChatGPT Business/Enterprise, Microsoft 365 Copilot, Claude Team/Enterprise, Gemini Workspace) opnieuw live verifiëren tegen de officiële prijspagina's op de daadwerkelijke publicatiedatum (22 december 2026) vóór livegang; dateModified bijwerken. Herzien elk kwartaal. -->Bovenstaande bedragen zijn een momentopname op het moment van schrijven, niet op de publicatiedatum van dit artikel. Controleer ze opnieuw vlak voordat je ze in een begroting of contract gebruikt.</p>
+<p><!-- FACTCHECK BLOG-07: prijzen (ChatGPT Business/Enterprise, Microsoft 365 Copilot, Claude Team/Enterprise, Gemini Workspace) opnieuw live verifiëren tegen de officiële prijspagina's op de daadwerkelijke publicatiedatum (22 december 2026) vóór livegang; dateModified bijwerken. Herzien elk kwartaal. -->Bovenstaande bedragen zijn gecontroleerd op 11 november 2026. Controleer ze opnieuw voordat je ze voor een begroting of contract gebruikt.</p>
 
 <h2>Wat licenties niet dekken</h2>
 <p>De prijs per plek vertelt niet wat een abonnement je daadwerkelijk oplevert. Een paar kostenposten die in geen van de bovenstaande prijslijsten staan, maar die in de praktijk net zo zwaar wegen:</p>
@@ -121,7 +121,7 @@ export default {
       a: 'Een standaardplek kost $20 per gebruiker per maand bij jaarlijkse betaling, of $25 bij maandelijkse betaling, met een minimum van 2 en een maximum van 200 standaard- en premiumplekken samen. Een premiumplek met vijf keer zoveel gebruik kost $100 of $125. Dit zijn Amerikaanse lijstprijzen exclusief btw, stand 11 november 2026.',
     },
     {
-      q: 'Wat kost Microsoft Copilot licentie?',
+      q: 'Wat kost een Microsoft Copilot-licentie?',
       a: 'De Copilot-licentie voor Microsoft 365 Business kost € 18,20 per gebruiker per maand bij jaarbetaling, exclusief btw; tot en met 31 december 2026 geldt tijdelijk € 15,60 voor het eerste jaar. Bij maandbetaling is het € 21,84. Voor grotere organisaties met een geschikt enterprise Microsoft 365-plan is het € 26,00 per gebruiker per maand bij jaarbetaling. Stand 11 november 2026.',
     },
     {
