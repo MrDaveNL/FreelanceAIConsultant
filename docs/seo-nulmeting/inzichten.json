@@ -2,7 +2,7 @@
   "url": "/inzichten",
   "build_bestand": "dist/inzichten/index.html",
   "html": {
-    "bytes": 43104,
+    "bytes": 43875,
     "lang": "nl"
   },
   "beschermd": {
@@ -57,6 +57,12 @@
     {
       "niveau": 2,
       "tekst": "Alle artikelen",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 3,
+      "tekst": "ChatGPT Business, Copilot of Claude: wat kosten AI-licenties voor bedrijven?",
       "regio": "main",
       "id": null
     },
@@ -147,12 +153,12 @@
   ],
   "bodytekst": {
     "regio": "main",
-    "woorden": 780,
-    "sha256": "9a905ac93ad71e23eeacc79e5da0f6bc5ee33e3c40e3ff7c7e5b93d06ed5a6d1",
+    "woorden": 817,
+    "sha256": "31e39d464216ee5a31e7dc4a1ea01750d5f993159622069960d31654a15e0f85",
     "blokken": [
       "AI-advies dat je helpt beslissen",
       "Praktische inzichten voor betere AI-beslissingen.",
-      "Ervaringen uit de praktijk, frameworks en no-nonsense advies voor senior leiders die AI willen inzetten met impact. 13 artikelen, geen enkele geschreven om iets te verkopen.",
+      "Ervaringen uit de praktijk, frameworks en no-nonsense advies voor senior leiders die AI willen inzetten met impact. 14 artikelen, geen enkele geschreven om iets te verkopen.",
       "Plan een gesprek → Bekijk cases → 30 min., geen pitch deck",
       "vertrouwen, ervaring, impact ↓",
       "Independent No vendor bias Senior only Sinds 2006",
@@ -221,14 +227,19 @@
       "◷ 4 min leestijd 1 november 2026",
       "Lees artikel →",
       "Alle inzichten",
+      "Tools & data",
       "Governance",
       "Use cases",
       "Strategie",
       "Organisatie",
-      "Tools & data",
       "Geen resultaten in deze categorie.",
       "Alle artikelen",
-      "13 artikelen · RSS",
+      "14 artikelen · RSS",
+      "▦",
+      "Tools & data",
+      "ChatGPT Business, Copilot of Claude: wat kosten AI-licenties voor bedrijven?",
+      "De licentieprijs is de minst interessante vraag. Bepalend zijn databeheer, koppeling met je omgeving en wat medewerkers echt gaan gebruiken.",
+      "◷ 8 min leestijd Lees artikel →",
       "◐",
       "Governance",
       "Shadow AI: medewerkers gebruiken AI toch al, wat nu?",
@@ -392,6 +403,13 @@
       "soort": "intern",
       "href": "/nl/rss.xml",
       "anker": "RSS",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/nl/inzichten/kosten-ai-licenties-chatgpt-copilot-claude",
+      "anker": "▦ Tools & data ChatGPT Business, Copilot of Claude: wat kosten AI-licenties voor bedrijven? De licentieprijs is de minst interessante vraag. Bepalend zijn databeheer, koppeling met je omgeving en wat medewerkers echt gaan gebruiken. ◷ 8 min leestijd Lees artikel →",
       "rel": null
     },
     {

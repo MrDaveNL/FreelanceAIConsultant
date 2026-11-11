@@ -2,7 +2,7 @@
   "url": "/404",
   "build_bestand": "dist/404.html",
   "html": {
-    "bytes": 13242,
+    "bytes": 13285,
     "lang": "nl"
   },
   "beschermd": {
@@ -38,8 +38,8 @@
   ],
   "bodytekst": {
     "regio": "main",
-    "woorden": 67,
-    "sha256": "511347553d9d0d1d41b93f26015e54ca139adb66f8e83cb9f57e551736e99365",
+    "woorden": 71,
+    "sha256": "d6b6a32813e8b6f0f0bafc11ae535e8f87019571ded8a5184866484c9ca5d11f",
     "blokken": [
       "Foutje",
       "Deze pagina bestaat niet.",
@@ -48,7 +48,7 @@
       "Diensten",
       "AI Readiness Assessment →AI Strategy Sprint →Fractional AI Lead →",
       "Gelezen artikelen",
-      "Shadow AI: medewerkers gebruiken AI toch al, wat nu? →AI-agents: wat ze wel en niet kunnen in een bedrijfsproces →Van AI-strategie naar waarde: een 3-stappenplan →"
+      "ChatGPT Business, Copilot of Claude: wat kosten AI-licenties voor bedrijven? →Shadow AI: medewerkers gebruiken AI toch al, wat nu? →AI-agents: wat ze wel en niet kunnen in een bedrijfsproces →"
     ]
   },
   "links": [
@@ -153,6 +153,13 @@
     {
       "regio": "main",
       "soort": "intern",
+      "href": "/nl/inzichten/kosten-ai-licenties-chatgpt-copilot-claude",
+      "anker": "ChatGPT Business, Copilot of Claude: wat kosten AI-licenties voor bedrijven? →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
       "href": "/nl/inzichten/shadow-ai",
       "anker": "Shadow AI: medewerkers gebruiken AI toch al, wat nu? →",
       "rel": null
@@ -162,13 +169,6 @@
       "soort": "intern",
       "href": "/nl/inzichten/ai-agents-wat-ze-wel-en-niet-kunnen",
       "anker": "AI-agents: wat ze wel en niet kunnen in een bedrijfsproces →",
-      "rel": null
-    },
-    {
-      "regio": "main",
-      "soort": "intern",
-      "href": "/nl/inzichten/van-ai-strategie-naar-waarde",
-      "anker": "Van AI-strategie naar waarde: een 3-stappenplan →",
       "rel": null
     },
     {
@@ -430,5 +430,5 @@
     "aantal_details": 0,
     "aantal_tabellen": 0
   },
-  "gemeten_op": "2026-11-06"
+  "gemeten_op": "2026-11-11"
 }
