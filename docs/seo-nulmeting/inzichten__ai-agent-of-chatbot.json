@@ -2,7 +2,7 @@
   "url": "/inzichten/ai-agent-of-chatbot",
   "build_bestand": "dist/inzichten/ai-agent-of-chatbot/index.html",
   "html": {
-    "bytes": 42351,
+    "bytes": 45877,
     "lang": "nl"
   },
   "beschermd": {
@@ -693,6 +693,21 @@
   ],
   "laadprestaties": {
     "scripts": [
+      {
+        "src": "/_astro/CookieConsent.astro_astro_type_script_index_0_lang.COcxE8NY.js",
+        "type": "module",
+        "inline_bytes": 0
+      },
+      {
+        "src": null,
+        "type": null,
+        "inline_bytes": 989
+      },
+      {
+        "src": null,
+        "type": null,
+        "inline_bytes": 493
+      },
       {
         "src": "/logo-carousel/logo-carousel.js?v=2",
         "type": null,
