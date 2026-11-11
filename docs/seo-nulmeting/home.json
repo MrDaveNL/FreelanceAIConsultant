@@ -2,7 +2,7 @@
   "url": "/",
   "build_bestand": "dist/index.html",
   "html": {
-    "bytes": 49604,
+    "bytes": 49626,
     "lang": "nl"
   },
   "beschermd": {
@@ -152,6 +152,12 @@
     },
     {
       "niveau": 3,
+      "tekst": "Europese AI en datasoevereiniteit: wanneer kies je een Europees alternatief?",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 3,
       "tekst": "Shadow AI: medewerkers gebruiken AI toch al, wat nu?",
       "regio": "main",
       "id": null
@@ -169,12 +175,6 @@
       "id": null
     },
     {
-      "niveau": 3,
-      "tekst": "Build, buy of partner: wat past bij jouw situatie?",
-      "regio": "main",
-      "id": null
-    },
-    {
       "niveau": 2,
       "tekst": "Klaar om AI-beslissingen helder te maken?",
       "regio": "main",
@@ -183,8 +183,8 @@
   ],
   "bodytekst": {
     "regio": "main",
-    "woorden": 772,
-    "sha256": "f7c9875ee54a72484d27ed1ccc866c7dac8a1594a9a9160bcfd5bd18042a4173",
+    "woorden": 770,
+    "sha256": "a9859c0e2639964244bca0baf51090750304b666da489ba5cd6f40f5cdbbc555",
     "blokken": [
       "AI-advies dat je helpt beslissen",
       "Maak de AI-beslissingen die je aan je board moet uitleggen.",
@@ -335,6 +335,11 @@
       "Inzichten",
       "Lezen voordat je beslist.",
       "Alle inzichten →",
+      "⬡",
+      "Tools & data",
+      "Europese AI en datasoevereiniteit: wanneer kies je een Europees alternatief?",
+      "Datasoevereiniteit is een afweging, geen keurmerk. Wanneer EU-hosting volstaat, en wanneer een Europees of lokaal model de betere keuze is.",
+      "◷ 7 min leestijd Lees artikel →",
       "◐",
       "Governance",
       "Shadow AI: medewerkers gebruiken AI toch al, wat nu?",
@@ -349,11 +354,6 @@
       "Strategie",
       "Van AI-strategie naar waarde: een 3-stappenplan",
       "De meeste AI-strategieën stranden niet op de strategie, maar op de vertaling ervan. Drie stappen die die vertaling afdwingen.",
-      "◷ 4 min leestijd Lees artikel →",
-      "⇄",
-      "Organisatie",
-      "Build, buy of partner: wat past bij jouw situatie?",
-      "De vraag is zelden \"kunnen we dit zelf bouwen?\" maar \"willen we dit over drie jaar nog steeds onderhouden?\". Een beslisraamwerk in vier vragen.",
       "◷ 4 min leestijd Lees artikel →",
       "Klaar voor impact?",
       "Klaar om AI-beslissingen helder te maken?",
@@ -526,6 +526,13 @@
     {
       "regio": "main",
       "soort": "intern",
+      "href": "/nl/inzichten/europese-ai-datasoevereiniteit",
+      "anker": "⬡ Tools & data Europese AI en datasoevereiniteit: wanneer kies je een Europees alternatief? Datasoevereiniteit is een afweging, geen keurmerk. Wanneer EU-hosting volstaat, en wanneer een Europees of lokaal model de betere keuze is. ◷ 7 min leestijd Lees artikel →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
       "href": "/nl/inzichten/shadow-ai",
       "anker": "◐ Governance Shadow AI: medewerkers gebruiken AI toch al, wat nu? Verbieden werkt niet: medewerkers gebruiken AI al. Hoe je het zichtbaar maakt, het risico serieus neemt en veilige alternatieven biedt zonder alles dicht te timmeren. ◷ 6 min leestijd Lees artikel →",
       "rel": null
@@ -542,13 +549,6 @@
       "soort": "intern",
       "href": "/nl/inzichten/van-ai-strategie-naar-waarde",
       "anker": "↗ Strategie Van AI-strategie naar waarde: een 3-stappenplan De meeste AI-strategieën stranden niet op de strategie, maar op de vertaling ervan. Drie stappen die die vertaling afdwingen. ◷ 4 min leestijd Lees artikel →",
-      "rel": null
-    },
-    {
-      "regio": "main",
-      "soort": "intern",
-      "href": "/nl/inzichten/build-buy-of-partner",
-      "anker": "⇄ Organisatie Build, buy of partner: wat past bij jouw situatie? De vraag is zelden \"kunnen we dit zelf bouwen?\" maar \"willen we dit over drie jaar nog steeds onderhouden?\". Een beslisraamwerk in vier vragen. ◷ 4 min leestijd Lees artikel →",
       "rel": null
     },
     {
@@ -831,5 +831,5 @@
     "aantal_details": 0,
     "aantal_tabellen": 0
   },
-  "gemeten_op": "2026-11-06"
+  "gemeten_op": "2026-11-11"
 }
