@@ -62,3 +62,33 @@ herschrijft of nieuw schrijft, zoek eerst of er al een ander artikel (gepublicee
 branch) over hetzelfde onderwerp bestaat, en gebruik de daar al geverifieerde stand als basis.
 Wijkt je eigen onderzoek daarvan af, meld dat expliciet in plaats van stilzwijgend een andere
 versie van de feiten te publiceren.
+
+## Live link of LINK-TODO: de publicatievolgorde bepaalt het, niet of het doel al bestaat als bestand
+
+Of een interne link naar een andere blog een gewone, werkende link is of een `LINK-TODO [ID]`,
+hangt af van de **publicatiedatum** van het doelartikel, niet van of dat artikel op dit moment al
+op main staat of al gemerged is.
+
+- **Publiceert het doelartikel vóór dit artikel** (eerdere datum in de planning), dan mag je een
+  gewone link gebruiken. Op de publicatiedag van dit artikel bestaat die pagina namelijk al live,
+  ook als de doelblog op het moment van schrijven nog op een eigen, niet-gemergede branch staat.
+  Voorbeeld: BLOG-11 (19 januari 2027) mag gewoon linken naar BLOG-02 (17 november 2026), want
+  BLOG-02 publiceert ruim daarvoor.
+- **Publiceert het doelartikel ná dit artikel**, of bestaat het nog niet in de planning, dan wordt
+  het een `LINK-TODO [ID]`. Die pagina bestaat op de publicatiedag van dit artikel nog niet, dus
+  een werkende link zou op dat moment een dode link zijn.
+
+**Op elke publicatiedag, als onderdeel van stap 2 hierboven, twee kanten tegelijk afhandelen:**
+
+1. **Inkomend:** de openstaande `LINK-TODO`'s die ándere, al live blogs naar déze blog hebben
+   staan, omzetten naar een werkende link.
+2. **Uitgaand:** de `LINK-TODO`'s in déze blog zelf nalopen, en elke `LINK-TODO` waarvan het doel
+   inmiddels live staat, omzetten naar een werkende link. Dit is het spiegelbeeld van stap 1 en
+   werd voorheen over het hoofd gezien: een blog kan zelf ook verwijzingen naar eerder gepubliceerd
+   werk hebben openstaan als `LINK-TODO`, simpelweg omdat die blog eerder is geschreven dan de
+   publicatiedatum van het doel.
+
+**Why:** bij de correctieronde na batch 3 bleek de regel "nog niet bestaand = LINK-TODO" te grof:
+BLOG-11 linkte live naar BLOG-02, dat op het moment van schrijven nog niet gemerged was, maar wél
+weken vóór BLOG-11 publiceert. Die link was dus terecht een gewone link, geen LINK-TODO, en is
+ook niet aangepast.
