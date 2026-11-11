@@ -93,7 +93,7 @@ export default {
       a: 'Beheer en bijsturing na de livegang, verbruikskosten die meeschalen met het gebruik, de tijd die medewerkers kwijt zijn aan wennen aan een nieuwe werkwijze, en data die achteraf rommeliger blijkt dan vooraf gedacht.',
     },
     {
-      q: 'Rekent u een uurtarief voor begeleiding bij AI-implementatie?',
+      q: 'Reken je een uurtarief voor begeleiding bij AI-implementatie?',
       a: 'Nee. Afgebakend werk krijgt een vaste projectprijs, een doorlopende rol zoals een Fractional AI Lead krijgt een vast maandbedrag. Beide staan vooraf vast, zodat het gesprek over het resultaat gaat en niet over de urenstaat.',
     },
     {
