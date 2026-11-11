@@ -142,7 +142,7 @@
   "bodytekst": {
     "regio": "main",
     "woorden": 1427,
-    "sha256": "553953c11fba7e166bd06e4c6a1465e41af6b4acc249d5f82fea4c76e63e6a01",
+    "sha256": "59c82975f13375dcadf1d98ee20bbe9f023d8f21858ed8f77b360d925e40cfe2",
     "blokken": [
       "Home",
       "Inzichten",
@@ -151,7 +151,7 @@
       "Organisatie",
       "Build, buy of partner: wat past bij jouw situatie?",
       "Zelf bouwen, kopen of samen met een partner? De keuze bepaalt je kostenstructuur, je wendbaarheid en je afhankelijkheid voor jaren. Zo maak je hem onderbouwd.",
-      "◷ 4 min leestijd 28 oktober 2026",
+      "◷ 4 min leestijd 3 november 2026",
       "DW",
       "Door Dave Willemstein Independent AI Advisor, onafhankelijk, geen leveranciersbelangen",
       "Ik help organisaties AI-beslissingen nemen die waarde creëren. Geen dikke decks, wel duidelijke keuzes en tastbare resultaten.",
@@ -588,7 +588,7 @@
     }
   ],
   "structured_data": {
-    "sha256": "1d92e5d7b1458ae2a695945d97e616a209dc5c4087eb7d947fbe4cbf0ebe61db",
+    "sha256": "9b8bf4be51333bbb6e596f77c7673251c8885c193f38899dfc0bcf693f411bc8",
     "items": [
       {
         "@context": "https://schema.org",
@@ -630,8 +630,8 @@
             "@type": "BlogPosting",
             "headline": "Build, buy of partner: wat past bij jouw situatie?",
             "description": "De vraag is zelden \"kunnen we dit zelf bouwen?\" maar \"willen we dit over drie jaar nog steeds onderhouden?\". Een beslisraamwerk in vier vragen.",
-            "datePublished": "2026-10-28",
-            "dateModified": "2026-10-28",
+            "datePublished": "2026-11-03",
+            "dateModified": "2026-11-03",
             "inLanguage": "nl-NL",
             "articleSection": "Organisatie",
             "author": {
@@ -737,5 +737,5 @@
     "aantal_details": 0,
     "aantal_tabellen": 0
   },
-  "gemeten_op": "2026-11-05"
+  "gemeten_op": "2026-11-11"
 }

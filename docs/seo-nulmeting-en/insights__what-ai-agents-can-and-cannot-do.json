@@ -178,7 +178,7 @@
   "bodytekst": {
     "regio": "main",
     "woorden": 1554,
-    "sha256": "f46a5ff0fee1e9faba87ba62b5a0316327dcb82fc62906e33b51da35bef7ae46",
+    "sha256": "f22539bfc9119669f27172908d1318a2488acd9b753e4f890ab10787f012d603",
     "blokken": [
       "Home",
       "Insights",
@@ -187,7 +187,7 @@
       "Use cases",
       "AI agents: what they can and cannot do",
       "An agent that takes its own steps and calls on systems is attractive and risky at the same time. The distinction lies in what happens when it gets it wrong.",
-      "◷ 4 min read 28 October 2026",
+      "◷ 4 min read 5 November 2026",
       "DW",
       "By Dave Willemstein Independent AI Advisor, independent, no vendor interests",
       "I help organisations make AI decisions that create value. No bloated decks, just clear choices and tangible results.",
@@ -627,7 +627,7 @@
     }
   ],
   "structured_data": {
-    "sha256": "7d7a012f703bac729d1b8e2c68adf35f7723cfbe5210165637cbf2cba311daa9",
+    "sha256": "30a1ca1a8646ead26ab2788ca5d579367fb49db69e45675960f8059ac7016394",
     "items": [
       {
         "@context": "https://schema.org",
@@ -669,8 +669,8 @@
             "@type": "BlogPosting",
             "headline": "AI agents: what they can and cannot do in a business process",
             "description": "Agents that carry out tasks independently are the promise of the moment. Where they work, where they break down, and the question you need to answer first.",
-            "datePublished": "2026-10-28",
-            "dateModified": "2026-10-28",
+            "datePublished": "2026-11-05",
+            "dateModified": "2026-11-05",
             "inLanguage": "en-GB",
             "articleSection": "Use cases",
             "author": {
@@ -784,5 +784,5 @@
     "aantal_details": 0,
     "aantal_tabellen": 0
   },
-  "gemeten_op": "2026-11-05"
+  "gemeten_op": "2026-11-11"
 }

@@ -130,7 +130,7 @@
   "bodytekst": {
     "regio": "main",
     "woorden": 1458,
-    "sha256": "846a11a58001c9b0ef5c245ec2c5ebe480c126969db4d6115c927c9a04a690e4",
+    "sha256": "b52f496be1cdcf50fd93907167c89b73e3b04d3ef13a20cab3be2c94c97433d9",
     "blokken": [
       "Home",
       "Insights",
@@ -139,7 +139,7 @@
       "Strategy",
       "From AI strategy to real value",
       "A strategy nobody can execute is an expensive document. These are the three steps that turn direction into results, with the pitfall at each step.",
-      "◷ 4 min read 28 October 2026",
+      "◷ 4 min read 4 November 2026",
       "DW",
       "By Dave Willemstein Independent AI Advisor, independent, no vendor interests",
       "I help organisations make AI decisions that create value. No bloated decks, just clear choices and tangible results.",
@@ -574,7 +574,7 @@
     }
   ],
   "structured_data": {
-    "sha256": "ac219b1d930b615276b34ea077f94e2a55c9059142ba4604ab3e18049fc2d8b9",
+    "sha256": "7da74be8700a51b5030941f0f18226d8d3d7ad42407e169cc5b451dca35c1797",
     "items": [
       {
         "@context": "https://schema.org",
@@ -616,8 +616,8 @@
             "@type": "BlogPosting",
             "headline": "From AI strategy to value: a 3-step plan",
             "description": "Most AI strategies don't fail on the strategy itself, but on translating it. Three steps that force that translation.",
-            "datePublished": "2026-10-28",
-            "dateModified": "2026-10-28",
+            "datePublished": "2026-11-04",
+            "dateModified": "2026-11-04",
             "inLanguage": "en-GB",
             "articleSection": "Strategy",
             "author": {
@@ -731,5 +731,5 @@
     "aantal_details": 0,
     "aantal_tabellen": 0
   },
-  "gemeten_op": "2026-11-05"
+  "gemeten_op": "2026-11-11"
 }

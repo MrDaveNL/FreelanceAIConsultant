@@ -130,7 +130,7 @@
   "bodytekst": {
     "regio": "main",
     "woorden": 1388,
-    "sha256": "d6aaf8fdd128ab706a6be88c39876e3ebb47da077117d05acc6d4344088c0198",
+    "sha256": "e93a285ba6e8e8a8cb9e806898938e8d00397a91d680b016e8426474c96d9021",
     "blokken": [
       "Home",
       "Inzichten",
@@ -139,7 +139,7 @@
       "Strategie",
       "Van AI-strategie naar echte waarde",
       "Een strategie die niemand kan uitvoeren is een duur document. Dit zijn de drie stappen die van richting resultaat maken, met de valkuil bij elke stap.",
-      "◷ 4 min leestijd 28 oktober 2026",
+      "◷ 4 min leestijd 4 november 2026",
       "DW",
       "Door Dave Willemstein Independent AI Advisor, onafhankelijk, geen leveranciersbelangen",
       "Ik help organisaties AI-beslissingen nemen die waarde creëren. Geen dikke decks, wel duidelijke keuzes en tastbare resultaten.",
@@ -574,7 +574,7 @@
     }
   ],
   "structured_data": {
-    "sha256": "a52c27720409bcc482e4ebfbf7cf242141a867e223df4b16dd41d9dbc7c265c0",
+    "sha256": "c97b4cf9002b12d5d633c6c52ca4dc2285db027529ee2b05ee41da1a44f6042c",
     "items": [
       {
         "@context": "https://schema.org",
@@ -616,8 +616,8 @@
             "@type": "BlogPosting",
             "headline": "Van AI-strategie naar waarde: een 3-stappenplan",
             "description": "De meeste AI-strategieën stranden niet op de strategie, maar op de vertaling ervan. Drie stappen die die vertaling afdwingen.",
-            "datePublished": "2026-10-28",
-            "dateModified": "2026-10-28",
+            "datePublished": "2026-11-04",
+            "dateModified": "2026-11-04",
             "inLanguage": "nl-NL",
             "articleSection": "Strategie",
             "author": {
@@ -731,5 +731,5 @@
     "aantal_details": 0,
     "aantal_tabellen": 0
   },
-  "gemeten_op": "2026-11-05"
+  "gemeten_op": "2026-11-11"
 }

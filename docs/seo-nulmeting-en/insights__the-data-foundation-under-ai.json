@@ -154,7 +154,7 @@
   "bodytekst": {
     "regio": "main",
     "woorden": 1599,
-    "sha256": "e381db779f57b062d00cff64a34e35af00092826e2640abc2fa7989a6b3d69b1",
+    "sha256": "84332f163cc4f425a4562a0d88a9f52a280112773d77c7831e7f4dc541522b5f",
     "blokken": [
       "Home",
       "Insights",
@@ -163,7 +163,7 @@
       "Tools & data",
       "The data foundation under your AI initiatives",
       "The most common advice in AI is also the most dangerous: get your data in order first. Sometimes that's right. Often it's a way to do nothing for another two years.",
-      "◷ 4 min read 28 October 2026",
+      "◷ 4 min read 31 October 2026",
       "DW",
       "By Dave Willemstein Independent AI Advisor, independent, no vendor interests",
       "I help organisations make AI decisions that create value. No bloated decks, just clear choices and tangible results.",
@@ -602,7 +602,7 @@
     }
   ],
   "structured_data": {
-    "sha256": "5e7ac6b2a9a08c8648e77c519570d818d773f3432f216fa6f56db8b1331aa9f7",
+    "sha256": "e82d68eb122fa036625f731f880ff23b55106f9ec1fde7648fd2fdcc60078bf4",
     "items": [
       {
         "@context": "https://schema.org",
@@ -644,8 +644,8 @@
             "@type": "BlogPosting",
             "headline": "The role of the data foundation in successful AI initiatives",
             "description": "\"Get your data in order first\" is as often an excuse as it is a necessity. How to work out which one applies to you.",
-            "datePublished": "2026-10-28",
-            "dateModified": "2026-10-28",
+            "datePublished": "2026-10-31",
+            "dateModified": "2026-10-31",
             "inLanguage": "en-GB",
             "articleSection": "Tools & data",
             "author": {
@@ -759,5 +759,5 @@
     "aantal_details": 0,
     "aantal_tabellen": 0
   },
-  "gemeten_op": "2026-11-05"
+  "gemeten_op": "2026-11-11"
 }

@@ -172,7 +172,7 @@
   "bodytekst": {
     "regio": "main",
     "woorden": 1491,
-    "sha256": "5ada9ec1a6883bdd35f91756a4f5eb36520b079bfcd43f5efaaef2d07b6e718c",
+    "sha256": "24d6b9478966b14f4eaac84de327cfb13b73af75a2a58532ae79f34d14695467",
     "blokken": [
       "Home",
       "Insights",
@@ -181,7 +181,7 @@
       "Strategy",
       "The business case for AI, calculated honestly",
       "Most AI business cases don't fail at the board. They fail a year later, at the reality check. Here's how to build one that survives that moment.",
-      "◷ 5 min read 28 October 2026",
+      "◷ 5 min read 29 October 2026",
       "DW",
       "By Dave Willemstein Independent AI Advisor, independent, no vendor interests",
       "I help organisations make AI decisions that create value. No bloated decks, just clear choices and tangible results.",
@@ -620,7 +620,7 @@
     }
   ],
   "structured_data": {
-    "sha256": "6dd2a3197254ec5c12ba1167f332a8b3eafea63b5373a3200e646c82b995e047",
+    "sha256": "5c68cb31e64ee8652c516ae70c7bb9e89fcb587e30883e81844d87cf8b2fcf80",
     "items": [
       {
         "@context": "https://schema.org",
@@ -662,8 +662,8 @@
             "@type": "BlogPosting",
             "headline": "The business case for AI: how to calculate it honestly",
             "description": "Time saved isn't a saving until someone spends that time differently. A costing model that survives the CFO's scrutiny.",
-            "datePublished": "2026-10-28",
-            "dateModified": "2026-10-28",
+            "datePublished": "2026-10-29",
+            "dateModified": "2026-10-29",
             "inLanguage": "en-GB",
             "articleSection": "Strategy",
             "author": {
@@ -761,5 +761,5 @@
     "aantal_details": 0,
     "aantal_tabellen": 0
   },
-  "gemeten_op": "2026-11-05"
+  "gemeten_op": "2026-11-11"
 }

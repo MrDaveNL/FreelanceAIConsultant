@@ -142,7 +142,7 @@
   "bodytekst": {
     "regio": "main",
     "woorden": 1504,
-    "sha256": "8e7527719d5a5cf1ad401f7c5a223346bdc87798c90843da0a390f6631ce545f",
+    "sha256": "a718db02c461a698933263ca303a82f91eb310333b600d000db7f4a31a625801",
     "blokken": [
       "Home",
       "Inzichten",
@@ -151,7 +151,7 @@
       "Organisatie",
       "Waarom AI-pilots blijven steken",
       "Bijna elke organisatie die ik spreek heeft geslaagde AI-pilots. Bijna geen enkele heeft er meer dan twee opgeschaald. Dat is geen technologieprobleem.",
-      "◷ 4 min leestijd 28 oktober 2026",
+      "◷ 4 min leestijd 30 oktober 2026",
       "DW",
       "Door Dave Willemstein Independent AI Advisor, onafhankelijk, geen leveranciersbelangen",
       "Ik help organisaties AI-beslissingen nemen die waarde creëren. Geen dikke decks, wel duidelijke keuzes en tastbare resultaten.",
@@ -586,7 +586,7 @@
     }
   ],
   "structured_data": {
-    "sha256": "2b58fd74449a5650c343c2b7fa42a0d28c4a313176017e3cc1170fc71c557670",
+    "sha256": "1e20d6d3e3fccbdc534507a7444cef66a1b505a65e3b684c777c1b9dd61e3d33",
     "items": [
       {
         "@context": "https://schema.org",
@@ -628,8 +628,8 @@
             "@type": "BlogPosting",
             "headline": "Waarom AI-pilots blijven steken (en wat je eraan doet)",
             "description": "De pilot werkte. Iedereen was enthousiast. En toch is er een jaar later niets opgeschaald. Vijf oorzaken, vijf tegenmaatregelen.",
-            "datePublished": "2026-10-28",
-            "dateModified": "2026-10-28",
+            "datePublished": "2026-10-30",
+            "dateModified": "2026-10-30",
             "inLanguage": "nl-NL",
             "articleSection": "Organisatie",
             "author": {
@@ -743,5 +743,5 @@
     "aantal_details": 0,
     "aantal_tabellen": 0
   },
-  "gemeten_op": "2026-11-05"
+  "gemeten_op": "2026-11-11"
 }

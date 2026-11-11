@@ -160,7 +160,7 @@
   "bodytekst": {
     "regio": "main",
     "woorden": 1431,
-    "sha256": "7b50a9b48aef1c879f33300e057ee13e995a7502dfddf4255cf2f21ef3a7e8eb",
+    "sha256": "3251bb4ef49d1abab364d52a9f01e3a9a7d23a2e24cbd169f9ba2fc6f481d6ee",
     "blokken": [
       "Home",
       "Inzichten",
@@ -169,7 +169,7 @@
       "Use cases",
       "Welke AI-use cases leveren écht resultaat op?",
       "Na tientallen use-case-inventarisaties valt hetzelfde patroon op: de winnaars zijn zelden de ideeën waar de directie enthousiast van wordt. Dit is waar ze wél aan voldoen.",
-      "◷ 4 min leestijd 28 oktober 2026",
+      "◷ 4 min leestijd 2 november 2026",
       "DW",
       "Door Dave Willemstein Independent AI Advisor, onafhankelijk, geen leveranciersbelangen",
       "Ik help organisaties AI-beslissingen nemen die waarde creëren. Geen dikke decks, wel duidelijke keuzes en tastbare resultaten.",
@@ -607,7 +607,7 @@
     }
   ],
   "structured_data": {
-    "sha256": "6b3e5c4c11b2564a59ead199c067050ef725ac9c319a8c626e1505b156c1824c",
+    "sha256": "189052138d11b6d2ae4b3a7631be9d6923801de5781d17d83e680c4773fdf4ba",
     "items": [
       {
         "@context": "https://schema.org",
@@ -649,8 +649,8 @@
             "@type": "BlogPosting",
             "headline": "Welke AI-use cases leveren écht resultaat op?",
             "description": "Niet de spectaculairste, maar de saaiste. Vier kenmerken die de winnaars delen, en vier patronen die vrijwel altijd stranden.",
-            "datePublished": "2026-10-28",
-            "dateModified": "2026-10-28",
+            "datePublished": "2026-11-02",
+            "dateModified": "2026-11-02",
             "inLanguage": "nl-NL",
             "articleSection": "Use cases",
             "author": {
@@ -756,5 +756,5 @@
     "aantal_details": 0,
     "aantal_tabellen": 0
   },
-  "gemeten_op": "2026-11-05"
+  "gemeten_op": "2026-11-11"
 }
