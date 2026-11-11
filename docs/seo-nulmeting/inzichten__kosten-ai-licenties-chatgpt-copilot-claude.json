@@ -1,0 +1,801 @@
+{
+  "url": "/inzichten/kosten-ai-licenties-chatgpt-copilot-claude",
+  "build_bestand": "dist/inzichten/kosten-ai-licenties-chatgpt-copilot-claude/index.html",
+  "html": {
+    "bytes": 51336,
+    "lang": "nl"
+  },
+  "beschermd": {
+    "title": "Kosten AI-licenties: ChatGPT, Copilot en Claude vergeleken",
+    "meta_description": "Wat kosten ChatGPT Business, Microsoft Copilot en Claude voor je organisatie? Licentievormen, wat je per abonnement krijgt en hoe je kiest.",
+    "canonical": "https://freelanceaiconsultant.com/nl/inzichten/kosten-ai-licenties-chatgpt-copilot-claude",
+    "robots_meta": null,
+    "hreflang": [],
+    "h1": [
+      "ChatGPT Business, Copilot of Claude: wat kosten AI-licenties?"
+    ]
+  },
+  "social": {
+    "og:type": "website",
+    "og:locale": "nl_NL",
+    "og:site_name": "freelanceaiconsultant.com",
+    "og:title": "Kosten AI-licenties: ChatGPT, Copilot en Claude vergeleken",
+    "og:description": "Wat kosten ChatGPT Business, Microsoft Copilot en Claude voor je organisatie? Licentievormen, wat je per abonnement krijgt en hoe je kiest.",
+    "og:url": "https://freelanceaiconsultant.com/nl/inzichten/kosten-ai-licenties-chatgpt-copilot-claude",
+    "og:image": "https://freelanceaiconsultant.com/images/dave-portrait.jpg",
+    "twitter:card": "summary_large_image",
+    "twitter:title": "Kosten AI-licenties: ChatGPT, Copilot en Claude vergeleken",
+    "twitter:description": "Wat kosten ChatGPT Business, Microsoft Copilot en Claude voor je organisatie? Licentievormen, wat je per abonnement krijgt en hoe je kiest.",
+    "twitter:image": "https://freelanceaiconsultant.com/images/dave-portrait.jpg"
+  },
+  "koppen": [
+    {
+      "niveau": 1,
+      "tekst": "ChatGPT Business, Copilot of Claude: wat kosten AI-licenties?",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "Licentievormen in het kort",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "ChatGPT Business en Enterprise",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "Microsoft 365 Copilot",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "Claude Team en Enterprise",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "Gemini in Google Workspace (kort)",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "Vergelijkingstabel",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "Wat licenties niet dekken",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "Zo kies je",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 3,
+      "tekst": "Key takeaways",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 3,
+      "tekst": "AI-vendorselectie in acht stappen",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 3,
+      "tekst": "De business case voor AI: hoe je hem eerlijk berekent",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "Veelgestelde vragen",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "Van AI-ambitie naar concrete resultaten.",
+      "regio": "main",
+      "id": null
+    }
+  ],
+  "bodytekst": {
+    "regio": "main",
+    "woorden": 2522,
+    "sha256": "aef2b30794b903cfc1d600c22c78004ab957fcba96a4b89beea7be382e438c19",
+    "blokken": [
+      "Home",
+      "Inzichten",
+      "ChatGPT Business, Copilot of Claude: wat kosten AI-licenties voor bedrijven?",
+      "← Terug naar alle inzichten",
+      "Tools & data",
+      "ChatGPT Business, Copilot of Claude: wat kosten AI-licenties?",
+      "Wie \"ChatGPT business kosten\" of \"copilot licentie\" intikt, zoekt meestal een los bedrag per gebruiker per maand. Dat bedrag krijg je hieronder, met bron en datum. Maar de licentieprijs is in de praktijk de minst interessante vraag: bepalend voor wat een abonnement je oplevert zijn databeheer, de koppeling met je bestaande omgeving en wat je medewerkers er echt mee gaan doen. Prijzen zijn een momentopname; controleer ze opnieuw vlak voor publicatie.",
+      "◷ 8 min leestijd 22 december 2026",
+      "DW",
+      "Door Dave Willemstein Independent AI Advisor, onafhankelijk, geen leveranciersbelangen",
+      "Ik help organisaties AI-beslissingen nemen die waarde creëren. Geen dikke decks, wel duidelijke keuzes en tastbare resultaten.",
+      "vertrouwen, ervaring, impact ↓",
+      "Independent No vendor bias Senior only Sinds 2006",
+      "IN HET KORT",
+      "ChatGPT Business, Microsoft Copilot en Claude Team kosten voor een standaardplek ieder rond de 20 dollar of euro per gebruiker per maand bij jaarbetaling.",
+      "De Enterprise-varianten van ChatGPT en vaak ook de volledige prijsopbouw van Claude Enterprise zijn niet openbaar; Microsoft Copilot voor enterprise en Gemini in Workspace zijn dat wel.",
+      "De grootste kostenverschillen tussen leveranciers zitten niet in de licentie, maar in databeheer, koppelingen en wat je eraan overhoudt na adoptie.",
+      "Vergelijk daarom niet alleen de prijslijst, maar ook wat elk abonnement wel en niet regelt.",
+      "AI in Europa",
+      "Europese merken die AI al in productie hebben.",
+      "Geen klanten van mij. Wel voorbeelden van wat er gebeurt als AI voorbij de pilot komt.",
+      "Pauzeer",
+      "Klarna",
+      "Zweden",
+      "AI-assistent in de klantenservice",
+      "Zalando",
+      "Duitsland",
+      "Mode-assistent voor productadvies",
+      "Financial services",
+      "Investeringsmaatschappij",
+      "AI-strategie en use-case portfolio",
+      "Booking.com",
+      "Nederland",
+      "AI Trip Planner voor reisplanning",
+      "Siemens",
+      "Duitsland",
+      "Industrial Copilot voor engineering",
+      "Retail",
+      "Enterprise retailer",
+      "AI-gedreven vendorselectie",
+      "Spotify",
+      "Zweden",
+      "AI DJ en gepersonaliseerde playlists",
+      "Mercedes-Benz",
+      "Duitsland",
+      "Generatieve spraakassistent in de auto",
+      "Industrial / B2B",
+      "Internationale maakorganisatie",
+      "AI-roadmap en leadership",
+      "ING",
+      "Nederland",
+      "Generatieve chatbot voor klantvragen",
+      "L'Oréal",
+      "Frankrijk",
+      "Beauty Genius: persoonlijk advies",
+      "Financial services",
+      "Financiële dienstverlener",
+      "KYC versneld met AI-documentanalyse",
+      "SAP",
+      "Duitsland",
+      "Joule: copilot in bedrijfssoftware",
+      "Carrefour",
+      "Frankrijk",
+      "Hopla: boodschappenassistent",
+      "Strategy & AI",
+      "SaaS scale-up",
+      "AI-readiness assessment",
+      "Adyen",
+      "Nederland",
+      "AI-optimalisatie van betalingen",
+      "Philips",
+      "Nederland",
+      "AI in medische beeldvorming",
+      "Proces & productivity",
+      "Zakelijke dienstverlener",
+      "Interne AI-assistent voor kenniswerkers",
+      "Licentievormen in het kort",
+      "Voordat je prijzen naast elkaar legt, helpt het om te zien dat \"een AI-licentie\" vier verschillende dingen kan betekenen:",
+      "Losse zakelijke chatbot, per gebruiker. ChatGPT Business en Claude Team werken zo: je koopt plekken, los van je overige software, met een eigen beheerconsole.",
+      "Add-on op je bestaande platform. Microsoft Copilot is een aparte licentie die je bovenop een geschikt Microsoft 365-abonnement afneemt en die met je mail, agenda en documenten werkt.",
+      "Inbegrepen in een hogere editie. Gemini zit in de Business- en Enterprise-edities van Google Workspace zonder apart AI-tarief; je betaalt feitelijk mee via de editie die je al kiest.",
+      "Enterprise op maat. Bij grotere volumes en zwaardere eisen aan beheer, dataresidentie en compliance verschuift de prijs van een vaste lijstprijs naar een offerte, en soms naar verbruik tegen API-tarieven.",
+      "Ik gebruik zelf meerdere modellen naast elkaar en heb geen commerciële band met een leverancier. Deze vergelijking is dus geen voorkeur voor ChatGPT, Copilot, Claude of Gemini, maar een overzicht om je eigen afweging te maken.",
+      "Prijzen in dit artikel zijn gecontroleerd tegen de officiële prijspagina's op 11 november 2026. AI-abonnementen wijzigen regelmatig van prijs en voorwaarden; controleer de bedragen opnieuw vlak voor je een besluit neemt.",
+      "ChatGPT Business en Enterprise",
+      "OpenAI onderscheidt zakelijk twee niveaus: Business voor teams die zelf afsluiten, en Enterprise voor grotere organisaties via een salestraject. ChatGPT Business heette tot augustus 2025 nog ChatGPT Team.",
+      "AbonnementPrijs per gebruiker per maandSeatsTraining op je data",
+      "Business, standaardplek$20 bij jaarbetaling, $25 bij maandbetalingMinimaal 2, maximaal 200 standaard- en premiumplekken samenStandaard niet",
+      "Business, premiumplek (5x gebruik)$100 bij jaarbetaling, $125 bij maandbetalingTe combineren met standaardplekkenStandaard niet",
+      "EnterpriseGeen openbare prijs; offerte via sales, verbruik mogelijk tegen API-tarievenOp aanvraagStandaard niet",
+      "Dit zijn Amerikaanse lijstprijzen, exclusief btw; OpenAI geeft aan dat prijzen per land en valuta kunnen verschillen. Bij Business zit geen API-gebruik in de prijs; dat rekent OpenAI apart af. Voor Enterprise circuleren bij derde partijen schattingen van zo'n 45 tot 75 dollar per gebruiker per maand bij een minimum van 150 plekken, maar OpenAI bevestigt die bedragen zelf niet. Neem onofficiële cijfers dus als richting voor een onderhandeling, niet als citeerbare prijs.",
+      "Wat je bij Business en Enterprise aan beheer en techniek krijgt naast het chatvenster, inclusief projecten, eigen GPT's, koppelingen en dataresidentie, lees je uitgebreider in ChatGPT voor bedrijven.",
+      "Microsoft 365 Copilot",
+      "Microsoft Copilot is geen zelfstandig abonnement maar een licentie die je toevoegt aan een geschikt Microsoft 365-abonnement. Daarnaast is er Copilot Chat, die bij veel Microsoft 365-abonnementen zonder extra kosten beschikbaar is maar minder diep met je bedrijfsdata werkt.",
+      "LicentiePrijs per gebruiker per maandVoor wie",
+      "Copilot Business (add-on)€ 18,20 bij jaarbetaling; tijdelijk € 15,60 voor het eerste jaar bij afsluiten tussen 1 juli en 31 december 2026. € 21,84 bij maandbetalingOrganisaties met een geschikt Microsoft 365 Business-abonnement",
+      "Business Standard + Copilot (bundel)€ 20,36 bij jaarbetaling, € 24,43 bij maandbetalingNieuwe klanten die basislicentie en Copilot samen afnemen",
+      "Business Premium + Copilot (bundel)€ 27,73 bij jaarbetaling, € 33,28 bij maandbetalingIdem, met de uitgebreidere Business Premium-laag",
+      "Copilot voor enterprise€ 26,00 bij jaarbetalingOrganisaties met een geschikt enterprise Microsoft 365-plan (bijvoorbeeld E3 of E5)",
+      "Alle bedragen zijn exclusief btw, volgens de Nederlandse prijspagina van Microsoft. Microsoft meldt zelf dat getoonde prijzen voor marketingdoeleinden zijn en dat het daadwerkelijke tarief bij het afrekenen kan afwijken. De tijdelijke korting op Copilot Business geldt alleen voor het eerste jaar en is niet te combineren met andere aanbiedingen; Microsoft kan de actie op elk moment wijzigen of stopzetten.",
+      "Welke databronnen de betaalde licentie wel en Copilot Chat niet ontsluit, en waar in de praktijk de meeste tijd wordt bespaard, staat uitgewerkt in Microsoft Copilot voor bedrijven.",
+      "Claude Team en Enterprise",
+      "Anthropic noemt zijn zakelijke abonnementen Team en Enterprise; in sommige helpartikelen heet dit ook \"Claude for Work\". De prijsstructuur van Team ligt dicht bij die van ChatGPT Business.",
+      "AbonnementPrijs per plek per maandSeatsBijzonderheden",
+      "Team, standaardplek$20 bij jaarbetaling, $25 bij maandbetaling2 tot 150Inclusief tot $500 per maand aan gepoolde API-credits, SSO en centraal beheer",
+      "Team, premiumplek (5x gebruik)$100 bij jaarbetaling, $125 bij maandbetalingTe combineren met standaardplekkenVerwijdert de gebruikslimiet van 5 uur",
+      "EnterprisePlekprijs $20 per plek per maand bij jaarbetaling, plus verbruik tegen API-tarievenMinimaal 20SCIM, rolgebaseerde toegang, auditlogs, compliance-API, eigen bewaartermijnen",
+      "Ook dit zijn Amerikaanse lijstprijzen, exclusief btw. Bij Team en Enterprise traint Anthropic standaard niet op je content. Het verschil met Business en Team qua kosten per plek is op dit moment nihil; het verschil zit in wat erbij zit (bijvoorbeeld de gepoolde API-credits bij Claude Team) en in waar en hoe de data van de zakelijke producten wordt verwerkt. Meer over de abonnementsopbouw en typische toepassingen staat in Claude voor bedrijven.",
+      "Gemini in Google Workspace (kort)",
+      "Gemini wijkt af van de andere drie: het is geen los abonnement maar zit, sinds begin 2025, in de Business- en Enterprise-edities van Google Workspace. Je betaalt dus niet een los AI-tarief, maar een Workspace-editie waar de AI-functies in verschillende mate bij horen.",
+      "EditiePrijs per gebruiker per maandGemini erbij",
+      "Business Starter€ 6,80 (jaarcontract, maandelijks gefactureerd)Gemini in Gmail en de losse Gemini-app; niet in Docs en Sheets",
+      "Business Standard€ 13,60 (jaarcontract, maandelijks gefactureerd)Gemini in Gmail, Docs, Sheets, Meet en meer, met ruimere toegang tot modellen",
+      "Business Plus€ 21,10 (jaarcontract, maandelijks gefactureerd)Zelfde Gemini-functies als Standard, plus onder meer Vault en eDiscovery",
+      "EnterpriseOp aanvraagGemini in de Workspace-apps, plus onder meer DLP en enterprise-dataregio's",
+      "Beide Business-edities zijn volgens Google te koop voor maximaal 300 gebruikers; daarboven is Enterprise de route. Wie al in Google Workspace werkt, vergelijkt dus vooral edities, niet een los AI-abonnement. Toepassingen per app en de privacyvoorwaarden staan in Gemini voor bedrijven.",
+      "Vergelijkingstabel",
+      "Op een rij, prijzen per 11 november 2026, telkens de meest gangbare zakelijke instapplek:",
+      "LeverancierInstapabonnementPrijs per gebruiker per maand (jaarbetaling)Hoger niveau",
+      "OpenAIChatGPT Business$20ChatGPT Enterprise, op aanvraag",
+      "MicrosoftCopilot Business (add-on op Microsoft 365)€ 18,20 (tijdelijk € 15,60 eerste jaar)Copilot voor enterprise, € 26,00",
+      "AnthropicClaude Team$20Claude Enterprise, plekprijs $20 plus verbruik, minimaal 20 plekken",
+      "GoogleGemini via Workspace Business Starter€ 6,80 (editieprijs, Gemini zit erin)Workspace Enterprise, op aanvraag",
+      "Twee dingen vallen op als je dit zo naast elkaar zet. Eén: de instapprijzen van ChatGPT Business en Claude Team zijn, in hun eigen valuta, identiek. Twee: Gemini is lastig één op één te vergelijken, omdat je niet alleen AI koopt maar een hele Workspace-editie; de €6,80 van Business Starter geeft bijvoorbeeld geen toegang tot Gemini in Docs en Sheets, terwijl dat bij Business Standard wel zo is.",
+      "Bovenstaande bedragen zijn een momentopname op het moment van schrijven, niet op de publicatiedatum van dit artikel. Controleer ze opnieuw vlak voordat je ze in een begroting of contract gebruikt.",
+      "Wat licenties niet dekken",
+      "De prijs per plek vertelt niet wat een abonnement je daadwerkelijk oplevert. Een paar kostenposten die in geen van de bovenstaande prijslijsten staan, maar die in de praktijk net zo zwaar wegen:",
+      "Opschonen van toegangsrechten. Copilot en Gemini tonen alleen wat een gebruiker al mag zien, maar maken daarmee ook te ruim gedeelde mappen en sites ineens zichtbaar. Dat opschonen gebeurt niet automatisch en kost tijd vóór je breed uitrolt.",
+      "Koppelingen en integratie. Een licentie activeert de tool, niet de koppeling met je eigen systemen, procedures of kennisbank. Bij ChatGPT en Claude komt dat bovenop de plekprijs; bij Copilot en Gemini hangt het af van hoe schoon je Microsoft 365- of Workspace-omgeving al is.",
+      "Training en adoptie. Een abonnement dat niemand gebruikt, is geld dat blijft liggen. Uitleg over wat een goede opdracht is, hoort hierbij; de basis staat in prompt engineering.",
+      "Verbruik boven de licentie. Bij Enterprise-varianten van zowel OpenAI als Anthropic komt gebruik soms tegen API-tarieven boven op de plekprijs. Dat kan bij intensief gebruik meer gaan kosten dan de licentie zelf.",
+      "Wat er gebeurt bij opschalen of stoppen. Wat kost het om van 20 naar 200 plekken te gaan, en wat kost het om terug te schalen of over te stappen? Dat staat niet op een prijspagina en moet je navragen of laten vastleggen.",
+      "Hoeveel dat er in totaal bij komt, hangt sterk af van je startsituatie. Een bredere doorrekening van implementatiekosten, los van de licentie, splits ik uit in een apart artikel over wat AI-implementatie kost.",
+      "Zo kies je",
+      "Begin niet bij de prijslijst, maar bij drie vragen die meer over je uiteindelijke kosten zeggen dan het bedrag per plek:",
+      "Waar werkt je team al? Zit je in Microsoft 365, dan is Copilot het kortste pad omdat het al in je mail en documenten zit; zit je in Google Workspace, dan geldt dat voor Gemini. Een losse tool zoals ChatGPT of Claude voeg je daar vaak naast toe, niet in plaats van.",
+      "Wat moet er met je data gebeuren? Vraag per leverancier na of er standaard op je content wordt getraind, waar de data wordt opgeslagen en verwerkt, en of je een verwerkersovereenkomst kunt afsluiten. Dat verschilt per abonnement en verandert regelmatig, dus vraag het rechtstreeks aan de leverancier in plaats van op een ouder artikel te vertrouwen.",
+      "Wat ga je er echt mee doen? Een abonnement dat op drie concrete taken is gericht, met mensen die het resultaat controleren, levert meer op dan de duurste licentie die \"voor alles\" wordt gekocht.",
+      "Twijfel je tussen leveranciers, of wil je een onafhankelijke doorrekening van wat een licentie je organisatie werkelijk gaat kosten? Ik heb geen commissie- of partnerrelatie met OpenAI, Microsoft, Anthropic of Google, dus ik kijk alleen naar wat bij jouw situatie past. Een Vendor Review zet de kandidaten op basis van jouw criteria naast elkaar, inclusief een eerlijke TCO. Hoe zo'n selectieproces eruitziet, lees je ook in AI-vendorselectie in acht stappen.",
+      "Key takeaways",
+      "✓",
+      "Licentie is maar één kostenpost",
+      "Implementatie, koppelingen, opschonen van toegangsrechten en training tellen vaak zwaarder dan het abonnement.",
+      "✓",
+      "Vergelijk gelijksoortige plekken",
+      "Een standaardplek bij de een naast een premiumplek bij de ander geeft een vertekend beeld.",
+      "✓",
+      "Check voorwaarden, niet alleen prijs",
+      "Trainen leveranciers op je data, waar staat die data, en wat kost opschalen als je succesvol bent?",
+      "ONTHOUD “Een AI-licentie is geen eenmalige aankoop maar een doorlopende kostenpost die meegroeit met gebruik; begroot daarom op TCO, niet op de prijs per plek.”",
+      "Sparren over jouw situatie? 30 minuten, vrijblijvend →",
+      "Verder lezen",
+      "◈",
+      "Tools & data",
+      "AI-vendorselectie in acht stappen",
+      "Criteria eerst, leveranciers daarna. Een selectieproces dat bestand is tegen goede demo’s en interne voorkeuren.",
+      "◷ 5 min leestijd Lees artikel →",
+      "€",
+      "Strategie",
+      "De business case voor AI: hoe je hem eerlijk berekent",
+      "Tijdbesparing is geen besparing tot iemand die tijd anders besteedt. Een rekenmodel dat de toets van de CFO doorstaat.",
+      "◷ 5 min leestijd Lees artikel →",
+      "Veelgestelde vragen",
+      "Wat kost ChatGPT Business per maand?+",
+      "Een standaardplek kost $20 per gebruiker per maand bij jaarlijkse betaling, of $25 bij maandelijkse betaling, met een minimum van 2 en een maximum van 200 standaard- en premiumplekken samen. Een premiumplek met vijf keer zoveel gebruik kost $100 of $125. Dit zijn Amerikaanse lijstprijzen exclusief btw, stand 11 november 2026.",
+      "Wat kost Microsoft Copilot licentie?+",
+      "De Copilot-licentie voor Microsoft 365 Business kost € 18,20 per gebruiker per maand bij jaarbetaling, exclusief btw; tot en met 31 december 2026 geldt tijdelijk € 15,60 voor het eerste jaar. Bij maandbetaling is het € 21,84. Voor grotere organisaties met een geschikt enterprise Microsoft 365-plan is het € 26,00 per gebruiker per maand bij jaarbetaling. Stand 11 november 2026.",
+      "Wat kost Claude AI voor bedrijven?+",
+      "Claude Team kost $20 per plek per maand bij jaarbetaling, of $25 bij maandbetaling, voor 2 tot 150 plekken. Claude Enterprise rekent een plekprijs van $20 per plek per maand bij jaarbetaling met een minimum van 20 plekken, plus verbruik tegen API-tarieven. Stand 11 november 2026.",
+      "Is ChatGPT Enterprise duurder dan ChatGPT Business?+",
+      "Waarschijnlijk wel, maar OpenAI publiceert geen vaste prijs voor Enterprise; dat loopt via een offerte van het salesteam. Derde partijen noemen bedragen tussen ongeveer $45 en $75 per gebruiker per maand bij een minimum van 150 plekken, maar OpenAI bevestigt die cijfers zelf niet. Vraag voor een actuele offerte rechtstreeks bij OpenAI.",
+      "Is Gemini gratis als ik Google Workspace al gebruik?+",
+      "Gemini is geen apart betaald abonnement meer, maar zit sinds begin 2025 in de Business- en Enterprise-edities van Google Workspace. Je betaalt dus niet apart voor Gemini, maar de editie die je afneemt bepaalt welke Gemini-functies je krijgt: Business Starter geeft bijvoorbeeld geen toegang tot Gemini in Docs en Sheets, Business Standard en Plus wel.",
+      "Welke licentie is het goedkoopst voor een klein team?+",
+      "Op de kale instapprijs liggen ChatGPT Business, Claude Team en Microsoft Copilot Business in dezelfde orde van grootte per gebruiker per maand, en is Gemini via Google Workspace Business Starter het laagst, zij het met minder AI-functies. Welke optie voor jouw team het goedkoopst uitpakt, hangt vooral af van wat je al in huis hebt (Microsoft 365 of Google Workspace) en van kosten voor koppelingen en adoptie die buiten de licentieprijs vallen.",
+      "Klaar voor impact?",
+      "Van AI-ambitie naar concrete resultaten.",
+      "Plan een vrijblijvend gesprek. Geen pitch. Wel scherpe vragen.",
+      "30 min., geen pitch deckPlan een gesprek →"
+    ]
+  },
+  "links": [
+    {
+      "regio": "overig",
+      "soort": "intern",
+      "href": "#main",
+      "anker": "Naar hoofdinhoud",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/nl",
+      "anker": "",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/nl/diensten",
+      "anker": "Diensten",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/nl/cases",
+      "anker": "Cases",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/nl/werkwijze",
+      "anker": "Werkwijze",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/nl/inzichten",
+      "anker": "Inzichten",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/nl/over",
+      "anker": "Over mij",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/nl/contact",
+      "anker": "Plan een gesprek →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/nl",
+      "anker": "Home",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/nl/inzichten",
+      "anker": "Inzichten",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/nl/inzichten",
+      "anker": "← Terug naar alle inzichten",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/nl/kennisbank/chatgpt-voor-bedrijven",
+      "anker": "ChatGPT voor bedrijven",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/nl/kennisbank/microsoft-copilot-voor-bedrijven",
+      "anker": "Microsoft Copilot voor bedrijven",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/nl/kennisbank/claude-voor-bedrijven",
+      "anker": "Claude voor bedrijven",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/nl/kennisbank/gemini-voor-bedrijven",
+      "anker": "Gemini voor bedrijven",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/nl/kennisbank/prompt-engineering",
+      "anker": "prompt engineering",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/nl/diensten/vendor-review",
+      "anker": "Vendor Review",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/nl/inzichten/ai-vendorselectie-in-acht-stappen",
+      "anker": "AI-vendorselectie in acht stappen",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/nl/contact",
+      "anker": "Sparren over jouw situatie? 30 minuten, vrijblijvend →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/nl/inzichten/ai-vendorselectie-in-acht-stappen",
+      "anker": "◈ Tools & data AI-vendorselectie in acht stappen Criteria eerst, leveranciers daarna. Een selectieproces dat bestand is tegen goede demo’s en interne voorkeuren. ◷ 5 min leestijd Lees artikel →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/nl/inzichten/de-business-case-voor-ai",
+      "anker": "€ Strategie De business case voor AI: hoe je hem eerlijk berekent Tijdbesparing is geen besparing tot iemand die tijd anders besteedt. Een rekenmodel dat de toets van de CFO doorstaat. ◷ 5 min leestijd Lees artikel →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/nl/contact",
+      "anker": "Plan een gesprek →",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/nl/diensten/ai-readiness-assessment",
+      "anker": "AI Readiness Assessment",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/nl/diensten/ai-strategy-sprint",
+      "anker": "AI Strategy Sprint",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/nl/diensten/fractional-ai-lead",
+      "anker": "Fractional AI Lead",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/nl/diensten",
+      "anker": "Alle diensten",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/nl/cases",
+      "anker": "Cases",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/nl/werkwijze",
+      "anker": "Werkwijze",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/nl/inzichten",
+      "anker": "Inzichten",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/nl/veelgestelde-vragen",
+      "anker": "Veelgestelde vragen",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/nl/over",
+      "anker": "Over mij",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/nl/ai-consultancy",
+      "anker": "AI consultancy",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/nl/ai-implementatie",
+      "anker": "AI implementatie",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/nl/ai-automatisering",
+      "anker": "AI automatisering",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/nl/ai-voor-bedrijven",
+      "anker": "AI voor bedrijven",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/nl/ai-development",
+      "anker": "AI development",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/nl/ai-agents",
+      "anker": "AI agents",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/nl/ai-beleid",
+      "anker": "AI beleid",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/nl/ai-workshop",
+      "anker": "AI workshop",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/nl/markten",
+      "anker": "AI per branche",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/nl/kennisbank",
+      "anker": "Kennisbank",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/nl/tarieven",
+      "anker": "Tarieven",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/nl/partnernetwerk",
+      "anker": "Partnernetwerk",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "overig",
+      "href": "mailto:dave@freelanceaiconsultant.com",
+      "anker": "dave@freelanceaiconsultant.com",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "extern",
+      "href": "https://www.linkedin.com/in/davewillemstein",
+      "anker": "LinkedIn ↗",
+      "rel": "noopener"
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/nl/contact",
+      "anker": "Plan een gesprek",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/nl/privacy",
+      "anker": "Privacyverklaring",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/nl/algemene-voorwaarden",
+      "anker": "Algemene voorwaarden",
+      "rel": null
+    }
+  ],
+  "structured_data": {
+    "sha256": "d56f3ed73fc66c6dcca23f72adbf4bf435674dc6222558ba8c481abf0f21472d",
+    "items": [
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://freelanceaiconsultant.com/nl"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Inzichten",
+                "item": "https://freelanceaiconsultant.com/nl/inzichten"
+              },
+              {
+                "@type": "ListItem",
+                "position": 3,
+                "name": "ChatGPT Business, Copilot of Claude: wat kosten AI-licenties voor bedrijven?",
+                "item": "https://freelanceaiconsultant.com/nl/inzichten/kosten-ai-licenties-chatgpt-copilot-claude"
+              }
+            ]
+          },
+          {
+            "@type": "Person",
+            "@id": "https://freelanceaiconsultant.com/#dave",
+            "name": "Dave Willemstein",
+            "url": "https://freelanceaiconsultant.com/about",
+            "sameAs": [
+              "https://www.linkedin.com/in/davewillemstein"
+            ],
+            "jobTitle": "Onafhankelijk AI-adviseur"
+          },
+          {
+            "@type": "BlogPosting",
+            "headline": "ChatGPT Business, Copilot of Claude: wat kosten AI-licenties voor bedrijven?",
+            "description": "De licentieprijs is de minst interessante vraag. Bepalend zijn databeheer, koppeling met je omgeving en wat medewerkers echt gaan gebruiken.",
+            "datePublished": "2026-12-22",
+            "dateModified": "2026-12-22",
+            "inLanguage": "nl-NL",
+            "articleSection": "Tools & data",
+            "author": {
+              "@id": "https://freelanceaiconsultant.com/#dave"
+            },
+            "publisher": {
+              "@id": "https://freelanceaiconsultant.com/#dave"
+            },
+            "mainEntityOfPage": "https://freelanceaiconsultant.com/nl/inzichten/kosten-ai-licenties-chatgpt-copilot-claude"
+          },
+          {
+            "@type": "FAQPage",
+            "mainEntity": [
+              {
+                "@type": "Question",
+                "name": "Wat kost ChatGPT Business per maand?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Een standaardplek kost $20 per gebruiker per maand bij jaarlijkse betaling, of $25 bij maandelijkse betaling, met een minimum van 2 en een maximum van 200 standaard- en premiumplekken samen. Een premiumplek met vijf keer zoveel gebruik kost $100 of $125. Dit zijn Amerikaanse lijstprijzen exclusief btw, stand 11 november 2026."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Wat kost Microsoft Copilot licentie?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "De Copilot-licentie voor Microsoft 365 Business kost € 18,20 per gebruiker per maand bij jaarbetaling, exclusief btw; tot en met 31 december 2026 geldt tijdelijk € 15,60 voor het eerste jaar. Bij maandbetaling is het € 21,84. Voor grotere organisaties met een geschikt enterprise Microsoft 365-plan is het € 26,00 per gebruiker per maand bij jaarbetaling. Stand 11 november 2026."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Wat kost Claude AI voor bedrijven?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Claude Team kost $20 per plek per maand bij jaarbetaling, of $25 bij maandbetaling, voor 2 tot 150 plekken. Claude Enterprise rekent een plekprijs van $20 per plek per maand bij jaarbetaling met een minimum van 20 plekken, plus verbruik tegen API-tarieven. Stand 11 november 2026."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Is ChatGPT Enterprise duurder dan ChatGPT Business?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Waarschijnlijk wel, maar OpenAI publiceert geen vaste prijs voor Enterprise; dat loopt via een offerte van het salesteam. Derde partijen noemen bedragen tussen ongeveer $45 en $75 per gebruiker per maand bij een minimum van 150 plekken, maar OpenAI bevestigt die cijfers zelf niet. Vraag voor een actuele offerte rechtstreeks bij OpenAI."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Is Gemini gratis als ik Google Workspace al gebruik?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Gemini is geen apart betaald abonnement meer, maar zit sinds begin 2025 in de Business- en Enterprise-edities van Google Workspace. Je betaalt dus niet apart voor Gemini, maar de editie die je afneemt bepaalt welke Gemini-functies je krijgt: Business Starter geeft bijvoorbeeld geen toegang tot Gemini in Docs en Sheets, Business Standard en Plus wel."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Welke licentie is het goedkoopst voor een klein team?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Op de kale instapprijs liggen ChatGPT Business, Claude Team en Microsoft Copilot Business in dezelfde orde van grootte per gebruiker per maand, en is Gemini via Google Workspace Business Starter het laagst, zij het met minder AI-functies. Welke optie voor jouw team het goedkoopst uitpakt, hangt vooral af van wat je al in huis hebt (Microsoft 365 of Google Workspace) en van kosten voor koppelingen en adoptie die buiten de licentieprijs vallen."
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "afbeeldingen": [
+    {
+      "regio": "header",
+      "src": "/images/freelance-ai-consultant-logo-header.png",
+      "alt": "freelanceaiconsultant.com logo",
+      "width": "600",
+      "height": "287",
+      "loading": null
+    },
+    {
+      "regio": "main",
+      "src": "/images/dave-portrait.jpg",
+      "alt": "Dave Willemstein, Independent AI Advisor",
+      "width": "500",
+      "height": "620",
+      "loading": "lazy"
+    },
+    {
+      "regio": "footer",
+      "src": "/images/freelance-ai-consultant-icon-footer.png",
+      "alt": "",
+      "width": "192",
+      "height": "192",
+      "loading": "lazy"
+    }
+  ],
+  "laadprestaties": {
+    "scripts": [
+      {
+        "src": "/logo-carousel/logo-carousel.js?v=2",
+        "type": null,
+        "inline_bytes": 0
+      },
+      {
+        "src": null,
+        "type": null,
+        "inline_bytes": 725
+      }
+    ],
+    "stylesheets": [
+      "/_astro/_slug_.CzLXI3HH.css",
+      "/_astro/_slug_.BpipRbQZ.css",
+      "/logo-carousel/logo-carousel.css?v=2"
+    ],
+    "aantal_details": 6,
+    "aantal_tabellen": 0
+  },
+  "gemeten_op": "2026-11-11"
+}
