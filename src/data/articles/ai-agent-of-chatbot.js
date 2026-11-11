@@ -69,6 +69,7 @@ export default {
 <p>In de praktijk stopt het merendeel van de organisaties bij vraag drie. Dat is geen compromis, dat is meestal gewoon de juiste uitkomst.</p>
 <!-- LINK-TODO BLOG-09 (AI-security: prompt injection en andere risico's van AI in je bedrijf): link naar /nl/inzichten/ai-security-prompt-injection zodra dat artikel live is. Logische plek: bij de eisen aan logging en controle hierboven, of bij de risico's van een AI agent die zelf acties uitvoert. -->
 <!-- LINK-TODO BLOG-10 (MCP uitgelegd: wat het Model Context Protocol betekent voor je AI-plannen): link naar /nl/inzichten/mcp-model-context-protocol zodra dat artikel live is. Logische plek: bij "koppelingen" in de vergelijkingstabel of bij de sectie over een AI agent die zelf stappen zet op basis van koppelingen met andere systemen. -->
+<p>Weet je na de beslisboom nog niet zeker welke vorm bij jouw proces past, of wil je dat iemand meekijkt voordat je laat bouwen? Op de pagina <a href="/nl/ai-agents/laten-maken">een AI agent laten maken</a> lees je hoe dat traject eruitziet. <a href="/nl/contact">Plan een gesprek</a> en we bepalen samen of je een chatbot, een assistent met acties of een volledige agent nodig hebt.</p>
 `,
   faq: [
     {
