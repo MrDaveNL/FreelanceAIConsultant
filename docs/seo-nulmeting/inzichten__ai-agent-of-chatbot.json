@@ -1,0 +1,716 @@
+{
+  "url": "/inzichten/ai-agent-of-chatbot",
+  "build_bestand": "dist/inzichten/ai-agent-of-chatbot/index.html",
+  "html": {
+    "bytes": 42351,
+    "lang": "nl"
+  },
+  "beschermd": {
+    "title": "AI agent of chatbot? Het verschil en wanneer je wat kiest",
+    "meta_description": "Een chatbot beantwoordt vragen, een AI agent voert taken uit. Het verschil in werking, risico en kosten, en hoe je bepaalt wat jouw proces nodig heeft.",
+    "canonical": "https://freelanceaiconsultant.com/nl/inzichten/ai-agent-of-chatbot",
+    "robots_meta": null,
+    "hreflang": [],
+    "h1": [
+      "AI agent of chatbot: wat heb je nodig?"
+    ]
+  },
+  "social": {
+    "og:type": "website",
+    "og:locale": "nl_NL",
+    "og:site_name": "freelanceaiconsultant.com",
+    "og:title": "AI agent of chatbot? Het verschil en wanneer je wat kiest",
+    "og:description": "Een chatbot beantwoordt vragen, een AI agent voert taken uit. Het verschil in werking, risico en kosten, en hoe je bepaalt wat jouw proces nodig heeft.",
+    "og:url": "https://freelanceaiconsultant.com/nl/inzichten/ai-agent-of-chatbot",
+    "og:image": "https://freelanceaiconsultant.com/images/dave-portrait.jpg",
+    "twitter:card": "summary_large_image",
+    "twitter:title": "AI agent of chatbot? Het verschil en wanneer je wat kiest",
+    "twitter:description": "Een chatbot beantwoordt vragen, een AI agent voert taken uit. Het verschil in werking, risico en kosten, en hoe je bepaalt wat jouw proces nodig heeft.",
+    "twitter:image": "https://freelanceaiconsultant.com/images/dave-portrait.jpg"
+  },
+  "koppen": [
+    {
+      "niveau": 1,
+      "tekst": "AI agent of chatbot: wat heb je nodig?",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "Het verschil in één alinea",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "Vergelijkingstabel: taak, zelfstandigheid, koppelingen, risico, kosten, beheer",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "Wanneer een chatbot genoeg is",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "Wanneer een AI agent loont",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "De tussenvorm: een assistent met acties",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "Beslisboom",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 3,
+      "tekst": "Key takeaways",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 3,
+      "tekst": "AI-agents: wat ze wel en niet kunnen in een bedrijfsproces",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 3,
+      "tekst": "Welke AI-use cases leveren écht resultaat op?",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "Veelgestelde vragen",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "Van AI-ambitie naar concrete resultaten.",
+      "regio": "main",
+      "id": null
+    }
+  ],
+  "bodytekst": {
+    "regio": "main",
+    "woorden": 1740,
+    "sha256": "087f64ec0ade0ea0a2cd0d0982da2963ed78449417a4ee30d0efdb373e86360a",
+    "blokken": [
+      "Home",
+      "Inzichten",
+      "AI agent of chatbot: wat is het verschil en wat heb je nodig?",
+      "← Terug naar alle inzichten",
+      "Use cases",
+      "AI agent of chatbot: wat heb je nodig?",
+      "Kies op basis van het proces, niet van de hype. Vaak is een assistent met een paar acties genoeg, en is een volledige agent duurder en riskanter dan nodig.",
+      "◷ 5 min leestijd 15 december 2026",
+      "DW",
+      "Door Dave Willemstein Independent AI Advisor, onafhankelijk, geen leveranciersbelangen",
+      "Ik help organisaties AI-beslissingen nemen die waarde creëren. Geen dikke decks, wel duidelijke keuzes en tastbare resultaten.",
+      "vertrouwen, ervaring, impact ↓",
+      "Independent No vendor bias Senior only Sinds 2006",
+      "IN HET KORT",
+      "Een chatbot beantwoordt vragen, een agent voert een taak uit in meerdere stappen, en een assistent met acties zit daartussenin.",
+      "De keuze hangt af van hoe vast het proces ligt, niet van hoeveel autonomie technisch mogelijk is.",
+      "Een volledige agent is vaak duurder en riskanter dan nodig, terwijl een assistent met een paar acties al het grootste deel van de tijdwinst oplevert.",
+      "Begin bij het proces, niet bij de technologie, dan voorkom je dat je voor een vast stappenplan een zelfstandig beslissend systeem bouwt.",
+      "AI in Europa",
+      "Europese merken die AI al in productie hebben.",
+      "Geen klanten van mij. Wel voorbeelden van wat er gebeurt als AI voorbij de pilot komt.",
+      "Pauzeer",
+      "Klarna",
+      "Zweden",
+      "AI-assistent in de klantenservice",
+      "Zalando",
+      "Duitsland",
+      "Mode-assistent voor productadvies",
+      "Financial services",
+      "Investeringsmaatschappij",
+      "AI-strategie en use-case portfolio",
+      "Booking.com",
+      "Nederland",
+      "AI Trip Planner voor reisplanning",
+      "Siemens",
+      "Duitsland",
+      "Industrial Copilot voor engineering",
+      "Retail",
+      "Enterprise retailer",
+      "AI-gedreven vendorselectie",
+      "Spotify",
+      "Zweden",
+      "AI DJ en gepersonaliseerde playlists",
+      "Mercedes-Benz",
+      "Duitsland",
+      "Generatieve spraakassistent in de auto",
+      "Industrial / B2B",
+      "Internationale maakorganisatie",
+      "AI-roadmap en leadership",
+      "ING",
+      "Nederland",
+      "Generatieve chatbot voor klantvragen",
+      "L'Oréal",
+      "Frankrijk",
+      "Beauty Genius: persoonlijk advies",
+      "Financial services",
+      "Financiële dienstverlener",
+      "KYC versneld met AI-documentanalyse",
+      "SAP",
+      "Duitsland",
+      "Joule: copilot in bedrijfssoftware",
+      "Carrefour",
+      "Frankrijk",
+      "Hopla: boodschappenassistent",
+      "Strategy & AI",
+      "SaaS scale-up",
+      "AI-readiness assessment",
+      "Adyen",
+      "Nederland",
+      "AI-optimalisatie van betalingen",
+      "Philips",
+      "Nederland",
+      "AI in medische beeldvorming",
+      "Proces & productivity",
+      "Zakelijke dienstverlener",
+      "Interne AI-assistent voor kenniswerkers",
+      "Het verschil in één alinea",
+      "Een chatbot beantwoordt een vraag binnen een gesprek: je stelt iets, het model geeft een antwoord, en daar stopt de interactie. Een AI agent krijgt een doel en bepaalt zelf welke stappen nodig zijn om dat te bereiken, inclusief het raadplegen en soms wijzigen van andere systemen. Hoe dat werkt en waar een agent wel en niet voor geschikt is, leg ik uit in het artikel over wat AI-agents wel en niet kunnen en op de pagina wat is een AI agent. Dit artikel gaat niet over die basis, maar over de keuze die je als organisatie moet maken: chatbot, agent, of iets daartussenin.",
+      "Die keuze wordt in de praktijk vaak verkeerd gesteld. Niet \"kunnen we een agent bouwen\", maar \"heeft dit proces een systeem nodig dat zelf beslist welke stap volgt, of ligt die volgorde eigenlijk al vast\". Dat laatste komt vaker voor dan de term agentic ai, de bredere aanduiding voor AI die zelfstandig taken uitvoert, doet vermoeden.",
+      "Vergelijkingstabel: taak, zelfstandigheid, koppelingen, risico, kosten, beheer",
+      "Zes dimensies waarop een chatbot, een assistent met acties en een AI agent structureel verschillen. Geen van de drie is beter, ze passen bij een ander soort proces.",
+      "DimensieChatbotAssistent met actiesAI agent",
+      "TaakEen vraag beantwoorden binnen een gesprekEen vraag beantwoorden plus een paar vaste acties uitvoerenEen doel bereiken via zelf gekozen stappen",
+      "ZelfstandigheidGeen, het antwoord is het eindpuntBeperkt, tot vooraf gedefinieerde actiesHoog, de route naar het doel ligt niet vast",
+      "KoppelingenMeestal geen, of alleen lezen uit een kennisbronEen of enkele vaste koppelingen, vaak met schrijfrechten op één afgebakende plekVaak meerdere systemen, met lees- en schrijfrechten",
+      "RisicoBeperkt: een onjuist antwoord is het grootste risicoBeperkt tot de acties die vooraf zijn toegestaanGroter: een fout in een vroege stap kan onopgemerkt doorwerken in latere stappen",
+      "KostenRelatief laag, vooral de opzet en het onderhoud van de kennisbronGemiddeld, afhankelijk van het aantal koppelingenHoger: meer koppelingen, meer testen, meer doorlopend beheer",
+      "BeheerEenvoudig: antwoorden en bronnen actueel houdenOverzichtelijk: een vaste, beperkte set acties monitorenIntensief: logging, tussencontroles en een helder escalatiepad nodig",
+      "Wanneer een chatbot genoeg is",
+      "Een chatbot is genoeg zodra het echte werk zit in het geven van een antwoord, niet in het uitvoeren van een actie. Veelgestelde vragen over een product of dienst, informatie opzoeken in een kennisbron, een eerste uitleg geven voordat een medewerker het overneemt: dat zijn taken waar een agent niets aan toevoegt, terwijl een chatbot het risico en de kosten laag houdt.",
+      "Veel klantenservicetoepassingen vallen in deze categorie: een status opzoeken, een vraag beantwoorden, doorverwijzen zodra het ingewikkelder wordt. Hoe je dat specifiek voor klantenservice aanpakt, en waar het daar misgaat, lees je in het artikel over AI-klantenservice.",
+      "Wil je dat de chatbot antwoordt op basis van jouw eigen documenten in plaats van alleen op wat het model al wist, dan is dat een eigen vraagstuk. Hoe dat werkt en waar het misgaat, lees je in het artikel over RAG, AI op je eigen bedrijfsdata.",
+      "Wanneer een AI agent loont",
+      "Een agent loont zodra de route naar de uitkomst niet vooraf vastligt: het proces vraagt op meerdere punten een beoordeling, en welke stap volgt hangt af van wat een vorige stap opleverde. Denk aan een dossier samenstellen uit verschillende bronnen waarbij de volgende zoekstap afhangt van wat de vorige oplevert, of een proces waarin tussentijds moet worden bijgestuurd op basis van een tussenresultaat.",
+      "Concrete voorbeelden van waar dat in de praktijk goed uitpakt, staan op de pagina voorbeelden van AI agents. Zelfstandigheid is daarbij een keuze met gevolgen voor risico en beheer, geen eigenschap die je er gratis bij krijgt.",
+      "De tussenvorm: een assistent met acties",
+      "Ik zie dit patroon vrijwel elke keer terug. De vraag begint vaak bij \"we willen een agent\". Bij doorvragen blijkt het proces vast te liggen: altijd dezelfde stappen, in dezelfde volgorde. Dan heb je geen agent nodig die zelf beslist, maar een workflow met een model op een of twee plekken. Dat is goedkoper, voorspelbaarder en makkelijker te controleren.",
+      "Die tussenvorm, een assistent met een paar acties binnen een vaste workflow, is in de praktijk waar het grootste deel van de tijdwinst zit. Het model doet het taalwerk (lezen, samenvatten, een eerste tekst opstellen, een classificatie voorstellen) op de plek waar dat nodig is, en de rest van het proces blijft een vaste volgorde van stappen die je kunt testen en herhalen.",
+      "Beslisboom",
+      "Een paar vragen om snel te bepalen welke vorm bij jouw proces past.",
+      "Ligt de volgorde van de stappen vooraf vast, los van de uitkomst van elke afzonderlijke stap? Ja: ga naar vraag 2, je hebt geen agent nodig. Nee, de volgende stap hangt af van wat een eerdere stap oplevert: overweeg een AI agent, en lees eerst het artikel over wat AI-agents wel en niet kunnen voor de risicokant, hierboven al gelinkt.",
+      "Is het enige dat ontbreekt een antwoord, zonder dat er daarna iets moet gebeuren in een ander systeem? Ja: een chatbot is genoeg. Nee, er moet ook iets gebeuren, zoals een veld invullen, een status wijzigen of een concept klaarzetten: ga naar vraag 3.",
+      "Gaat het om een klein, vast aantal acties dat je vooraf kunt opsommen? Ja: een assistent met acties binnen een bestaande workflow past het best. Nee, het aantal mogelijke acties en volgordes is te groot om vooraf op te sommen: dan kom je toch bij een AI agent terecht, met de bijbehorende eisen aan logging en controle.",
+      "In de praktijk stopt het merendeel van de organisaties bij vraag drie. Dat is geen compromis, dat is meestal gewoon de juiste uitkomst.",
+      "Key takeaways",
+      "✓",
+      "Het proces bepaalt de keuze, niet de hype",
+      "Ligt de volgorde van de stappen al vast, dan heb je geen systeem nodig dat zelf beslist welke stap volgt.",
+      "✓",
+      "De tussenvorm wordt vaak overgeslagen",
+      "Een assistent met een paar acties is goedkoper, voorspelbaarder en makkelijker te controleren dan een volledige agent, en vaak ruim voldoende.",
+      "✓",
+      "Meer zelfstandigheid is meer beheer",
+      "Elke stap die je aan een systeem overlaat, is een stap die je moet kunnen volgen, corrigeren en onderhouden.",
+      "ONTHOUD “Vraag niet wat een agent allemaal kan, vraag eerst of het proces dat eigenlijk nodig heeft.”",
+      "Sparren over jouw situatie? 30 minuten, vrijblijvend →",
+      "Verder lezen",
+      "↯",
+      "Use cases",
+      "AI-agents: wat ze wel en niet kunnen in een bedrijfsproces",
+      "Agents die zelfstandig taken uitvoeren zijn de belofte van dit moment. Waar ze werken, waar ze stukgaan, en welke vraag je vooraf moet beantwoorden.",
+      "◷ 4 min leestijd Lees artikel →",
+      "⌕",
+      "Use cases",
+      "Welke AI-use cases leveren écht resultaat op?",
+      "Niet de spectaculairste, maar de saaiste. Vier kenmerken die de winnaars delen, en vier patronen die vrijwel altijd stranden.",
+      "◷ 4 min leestijd Lees artikel →",
+      "Veelgestelde vragen",
+      "Wat is het verschil tussen een AI agent en een chatbot?+",
+      "Een chatbot beantwoordt een vraag binnen een gesprek en stopt daar. Een AI agent krijgt een doel en bepaalt zelf welke stappen nodig zijn om dat te bereiken, inclusief het raadplegen en soms wijzigen van andere systemen. Welke vorm past, hangt af van hoe vast het proces al ligt, niet van wat er technisch mogelijk is.",
+      "Wat is een AI chatbot precies?+",
+      "Een AI chatbot is een toepassing die vragen beantwoordt in een gesprek, op basis van een taalmodel en vaak een eigen kennisbron. Het verschil met een AI agent is dat de chatbot niet zelf besluit welke actie daarna nodig is: het antwoord is het eindpunt, niet het begin van een reeks stappen.",
+      "Is agentic ai hetzelfde als een AI agent?+",
+      "Agentic ai is de bredere term voor AI die zelfstandig doelen nastreeft via meerdere stappen; een AI agent is de concrete toepassing daarvan binnen een proces. De term op zich zegt niets over of jouw proces die zelfstandigheid ook nodig heeft.",
+      "Wat kost het om een AI chatbot te laten maken?+",
+      "Dat hangt vooral af van de kennisbron en het onderhoud daarvan, niet alleen van het model. Een uurtarief is daarbij niet de juiste maatstaf: vraag een bouwpartij liever om een vast bedrag voor de opzet en een vast bedrag voor onderhoud, zodat je vooraf weet waar je aan toe bent.",
+      "Kan een chatbot later uitgebreid worden tot een agent?+",
+      "Soms, maar niet vanzelf. Het toevoegen van acties en koppelingen is een eigen beslissing met gevolgen voor risico en beheer, geen simpele uitbreiding van de chatbot. Behandel elke uitbreiding als een nieuwe doorgang van de beslisboom hierboven, niet als een update op de bestaande toepassing.",
+      "Klaar voor impact?",
+      "Van AI-ambitie naar concrete resultaten.",
+      "Plan een vrijblijvend gesprek. Geen pitch. Wel scherpe vragen.",
+      "30 min., geen pitch deckPlan een gesprek →"
+    ]
+  },
+  "links": [
+    {
+      "regio": "overig",
+      "soort": "intern",
+      "href": "#main",
+      "anker": "Naar hoofdinhoud",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/nl",
+      "anker": "",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/nl/diensten",
+      "anker": "Diensten",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/nl/cases",
+      "anker": "Cases",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/nl/werkwijze",
+      "anker": "Werkwijze",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/nl/inzichten",
+      "anker": "Inzichten",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/nl/over",
+      "anker": "Over mij",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/nl/contact",
+      "anker": "Plan een gesprek →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/nl",
+      "anker": "Home",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/nl/inzichten",
+      "anker": "Inzichten",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/nl/inzichten",
+      "anker": "← Terug naar alle inzichten",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/nl/inzichten/ai-agents-wat-ze-wel-en-niet-kunnen",
+      "anker": "wat AI-agents wel en niet kunnen",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/nl/ai-agents/wat-is-een-ai-agent",
+      "anker": "wat is een AI agent",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/nl/ai-agents/voorbeelden",
+      "anker": "voorbeelden van AI agents",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/nl/contact",
+      "anker": "Sparren over jouw situatie? 30 minuten, vrijblijvend →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/nl/inzichten/ai-agents-wat-ze-wel-en-niet-kunnen",
+      "anker": "↯ Use cases AI-agents: wat ze wel en niet kunnen in een bedrijfsproces Agents die zelfstandig taken uitvoeren zijn de belofte van dit moment. Waar ze werken, waar ze stukgaan, en welke vraag je vooraf moet beantwoorden. ◷ 4 min leestijd Lees artikel →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/nl/inzichten/welke-ai-use-cases-leveren-resultaat",
+      "anker": "⌕ Use cases Welke AI-use cases leveren écht resultaat op? Niet de spectaculairste, maar de saaiste. Vier kenmerken die de winnaars delen, en vier patronen die vrijwel altijd stranden. ◷ 4 min leestijd Lees artikel →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/nl/contact",
+      "anker": "Plan een gesprek →",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/nl/diensten/ai-readiness-assessment",
+      "anker": "AI Readiness Assessment",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/nl/diensten/ai-strategy-sprint",
+      "anker": "AI Strategy Sprint",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/nl/diensten/fractional-ai-lead",
+      "anker": "Fractional AI Lead",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/nl/diensten",
+      "anker": "Alle diensten",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/nl/cases",
+      "anker": "Cases",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/nl/werkwijze",
+      "anker": "Werkwijze",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/nl/inzichten",
+      "anker": "Inzichten",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/nl/veelgestelde-vragen",
+      "anker": "Veelgestelde vragen",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/nl/over",
+      "anker": "Over mij",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/nl/ai-consultancy",
+      "anker": "AI consultancy",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/nl/ai-implementatie",
+      "anker": "AI implementatie",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/nl/ai-automatisering",
+      "anker": "AI automatisering",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/nl/ai-voor-bedrijven",
+      "anker": "AI voor bedrijven",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/nl/ai-development",
+      "anker": "AI development",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/nl/ai-agents",
+      "anker": "AI agents",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/nl/ai-beleid",
+      "anker": "AI beleid",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/nl/ai-workshop",
+      "anker": "AI workshop",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/nl/markten",
+      "anker": "AI per branche",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/nl/kennisbank",
+      "anker": "Kennisbank",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/nl/tarieven",
+      "anker": "Tarieven",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/nl/partnernetwerk",
+      "anker": "Partnernetwerk",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "overig",
+      "href": "mailto:dave@freelanceaiconsultant.com",
+      "anker": "dave@freelanceaiconsultant.com",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "extern",
+      "href": "https://www.linkedin.com/in/davewillemstein",
+      "anker": "LinkedIn ↗",
+      "rel": "noopener"
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/nl/contact",
+      "anker": "Plan een gesprek",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/nl/privacy",
+      "anker": "Privacyverklaring",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/nl/algemene-voorwaarden",
+      "anker": "Algemene voorwaarden",
+      "rel": null
+    }
+  ],
+  "structured_data": {
+    "sha256": "dd9f6d78c789caafcb6df3feceebc914592b53d805b1a9a0fb0273e6cd98d7cb",
+    "items": [
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://freelanceaiconsultant.com/nl"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Inzichten",
+                "item": "https://freelanceaiconsultant.com/nl/inzichten"
+              },
+              {
+                "@type": "ListItem",
+                "position": 3,
+                "name": "AI agent of chatbot: wat is het verschil en wat heb je nodig?",
+                "item": "https://freelanceaiconsultant.com/nl/inzichten/ai-agent-of-chatbot"
+              }
+            ]
+          },
+          {
+            "@type": "Person",
+            "@id": "https://freelanceaiconsultant.com/#dave",
+            "name": "Dave Willemstein",
+            "url": "https://freelanceaiconsultant.com/about",
+            "sameAs": [
+              "https://www.linkedin.com/in/davewillemstein"
+            ],
+            "jobTitle": "Onafhankelijk AI-adviseur"
+          },
+          {
+            "@type": "BlogPosting",
+            "headline": "AI agent of chatbot: wat is het verschil en wat heb je nodig?",
+            "description": "Een chatbot beantwoordt vragen, een AI agent voert taken uit. Het verschil in werking, risico en kosten, en hoe je bepaalt wat jouw proces nodig heeft.",
+            "datePublished": "2026-12-15",
+            "dateModified": "2026-12-15",
+            "inLanguage": "nl-NL",
+            "articleSection": "Use cases",
+            "author": {
+              "@id": "https://freelanceaiconsultant.com/#dave"
+            },
+            "publisher": {
+              "@id": "https://freelanceaiconsultant.com/#dave"
+            },
+            "mainEntityOfPage": "https://freelanceaiconsultant.com/nl/inzichten/ai-agent-of-chatbot"
+          },
+          {
+            "@type": "FAQPage",
+            "mainEntity": [
+              {
+                "@type": "Question",
+                "name": "Wat is het verschil tussen een AI agent en een chatbot?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Een chatbot beantwoordt een vraag binnen een gesprek en stopt daar. Een AI agent krijgt een doel en bepaalt zelf welke stappen nodig zijn om dat te bereiken, inclusief het raadplegen en soms wijzigen van andere systemen. Welke vorm past, hangt af van hoe vast het proces al ligt, niet van wat er technisch mogelijk is."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Wat is een AI chatbot precies?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Een AI chatbot is een toepassing die vragen beantwoordt in een gesprek, op basis van een taalmodel en vaak een eigen kennisbron. Het verschil met een AI agent is dat de chatbot niet zelf besluit welke actie daarna nodig is: het antwoord is het eindpunt, niet het begin van een reeks stappen."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Is agentic ai hetzelfde als een AI agent?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Agentic ai is de bredere term voor AI die zelfstandig doelen nastreeft via meerdere stappen; een AI agent is de concrete toepassing daarvan binnen een proces. De term op zich zegt niets over of jouw proces die zelfstandigheid ook nodig heeft."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Wat kost het om een AI chatbot te laten maken?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Dat hangt vooral af van de kennisbron en het onderhoud daarvan, niet alleen van het model. Een uurtarief is daarbij niet de juiste maatstaf: vraag een bouwpartij liever om een vast bedrag voor de opzet en een vast bedrag voor onderhoud, zodat je vooraf weet waar je aan toe bent."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Kan een chatbot later uitgebreid worden tot een agent?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Soms, maar niet vanzelf. Het toevoegen van acties en koppelingen is een eigen beslissing met gevolgen voor risico en beheer, geen simpele uitbreiding van de chatbot. Behandel elke uitbreiding als een nieuwe doorgang van de beslisboom hierboven, niet als een update op de bestaande toepassing."
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "afbeeldingen": [
+    {
+      "regio": "header",
+      "src": "/images/freelance-ai-consultant-logo-header.png",
+      "alt": "freelanceaiconsultant.com logo",
+      "width": "600",
+      "height": "287",
+      "loading": null
+    },
+    {
+      "regio": "main",
+      "src": "/images/dave-portrait.jpg",
+      "alt": "Dave Willemstein, Independent AI Advisor",
+      "width": "500",
+      "height": "620",
+      "loading": "lazy"
+    },
+    {
+      "regio": "footer",
+      "src": "/images/freelance-ai-consultant-icon-footer.png",
+      "alt": "",
+      "width": "192",
+      "height": "192",
+      "loading": "lazy"
+    }
+  ],
+  "laadprestaties": {
+    "scripts": [
+      {
+        "src": "/logo-carousel/logo-carousel.js?v=2",
+        "type": null,
+        "inline_bytes": 0
+      },
+      {
+        "src": null,
+        "type": null,
+        "inline_bytes": 725
+      }
+    ],
+    "stylesheets": [
+      "/_astro/_slug_.CzLXI3HH.css",
+      "/_astro/_slug_.BpipRbQZ.css",
+      "/logo-carousel/logo-carousel.css?v=2"
+    ],
+    "aantal_details": 5,
+    "aantal_tabellen": 0
+  },
+  "gemeten_op": "2026-11-11"
+}

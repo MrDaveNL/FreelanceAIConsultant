@@ -2,7 +2,7 @@
   "url": "/inzichten",
   "build_bestand": "dist/inzichten/index.html",
   "html": {
-    "bytes": 43104,
+    "bytes": 40795,
     "lang": "nl"
   },
   "beschermd": {
@@ -57,6 +57,12 @@
     {
       "niveau": 2,
       "tekst": "Alle artikelen",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 3,
+      "tekst": "AI agent of chatbot: wat is het verschil en wat heb je nodig?",
       "regio": "main",
       "id": null
     },
@@ -147,12 +153,12 @@
   ],
   "bodytekst": {
     "regio": "main",
-    "woorden": 780,
-    "sha256": "9a905ac93ad71e23eeacc79e5da0f6bc5ee33e3c40e3ff7c7e5b93d06ed5a6d1",
+    "woorden": 826,
+    "sha256": "14f8d0093064247a85dd2f19a398b04479a8a2073bb9d6ed87bd99bc1ba4ec82",
     "blokken": [
       "AI-advies dat je helpt beslissen",
       "Praktische inzichten voor betere AI-beslissingen.",
-      "Ervaringen uit de praktijk, frameworks en no-nonsense advies voor senior leiders die AI willen inzetten met impact. 13 artikelen, geen enkele geschreven om iets te verkopen.",
+      "Ervaringen uit de praktijk, frameworks en no-nonsense advies voor senior leiders die AI willen inzetten met impact. 14 artikelen, geen enkele geschreven om iets te verkopen.",
       "Plan een gesprek → Bekijk cases → 30 min., geen pitch deck",
       "vertrouwen, ervaring, impact ↓",
       "Independent No vendor bias Senior only Sinds 2006",
@@ -221,14 +227,19 @@
       "◷ 4 min leestijd 1 november 2026",
       "Lees artikel →",
       "Alle inzichten",
-      "Governance",
       "Use cases",
+      "Governance",
       "Strategie",
       "Organisatie",
       "Tools & data",
       "Geen resultaten in deze categorie.",
       "Alle artikelen",
-      "13 artikelen · RSS",
+      "14 artikelen · RSS",
+      "⚙",
+      "Use cases",
+      "AI agent of chatbot: wat is het verschil en wat heb je nodig?",
+      "Een chatbot beantwoordt vragen, een AI agent voert taken uit. Het verschil in werking, risico en kosten, en hoe je bepaalt wat jouw proces nodig heeft.",
+      "◷ 5 min leestijd Lees artikel →",
       "◐",
       "Governance",
       "Shadow AI: medewerkers gebruiken AI toch al, wat nu?",
@@ -392,6 +403,13 @@
       "soort": "intern",
       "href": "/nl/rss.xml",
       "anker": "RSS",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/nl/inzichten/ai-agent-of-chatbot",
+      "anker": "⚙ Use cases AI agent of chatbot: wat is het verschil en wat heb je nodig? Een chatbot beantwoordt vragen, een AI agent voert taken uit. Het verschil in werking, risico en kosten, en hoe je bepaalt wat jouw proces nodig heeft. ◷ 5 min leestijd Lees artikel →",
       "rel": null
     },
     {
@@ -732,21 +750,6 @@
   ],
   "laadprestaties": {
     "scripts": [
-      {
-        "src": "/_astro/CookieConsent.astro_astro_type_script_index_0_lang.COcxE8NY.js",
-        "type": "module",
-        "inline_bytes": 0
-      },
-      {
-        "src": null,
-        "type": null,
-        "inline_bytes": 989
-      },
-      {
-        "src": null,
-        "type": null,
-        "inline_bytes": 493
-      },
       {
         "src": null,
         "type": "module",
