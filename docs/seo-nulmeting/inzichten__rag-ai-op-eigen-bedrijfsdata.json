@@ -1,0 +1,774 @@
+{
+  "url": "/inzichten/rag-ai-op-eigen-bedrijfsdata",
+  "build_bestand": "dist/inzichten/rag-ai-op-eigen-bedrijfsdata/index.html",
+  "html": {
+    "bytes": 49072,
+    "lang": "nl"
+  },
+  "beschermd": {
+    "title": "Wat is RAG? AI op je eigen bedrijfsdata uitgelegd",
+    "meta_description": "RAG (retrieval augmented generation) laat AI antwoorden op basis van je eigen documenten. Hoe het werkt, wanneer je het inzet en waar het misgaat.",
+    "canonical": "https://freelanceaiconsultant.com/nl/inzichten/rag-ai-op-eigen-bedrijfsdata",
+    "robots_meta": null,
+    "hreflang": [],
+    "h1": [
+      "RAG uitgelegd: AI op je eigen bedrijfsdata"
+    ]
+  },
+  "social": {
+    "og:type": "website",
+    "og:locale": "nl_NL",
+    "og:site_name": "freelanceaiconsultant.com",
+    "og:title": "Wat is RAG? AI op je eigen bedrijfsdata uitgelegd",
+    "og:description": "RAG (retrieval augmented generation) laat AI antwoorden op basis van je eigen documenten. Hoe het werkt, wanneer je het inzet en waar het misgaat.",
+    "og:url": "https://freelanceaiconsultant.com/nl/inzichten/rag-ai-op-eigen-bedrijfsdata",
+    "og:image": "https://freelanceaiconsultant.com/images/dave-portrait.jpg",
+    "twitter:card": "summary_large_image",
+    "twitter:title": "Wat is RAG? AI op je eigen bedrijfsdata uitgelegd",
+    "twitter:description": "RAG (retrieval augmented generation) laat AI antwoorden op basis van je eigen documenten. Hoe het werkt, wanneer je het inzet en waar het misgaat.",
+    "twitter:image": "https://freelanceaiconsultant.com/images/dave-portrait.jpg"
+  },
+  "koppen": [
+    {
+      "niveau": 1,
+      "tekst": "RAG uitgelegd: AI op je eigen bedrijfsdata",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "Wat is RAG?",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "Hoe RAG werkt in vier stappen",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "RAG, fine-tuning of een groter contextvenster",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "Toepassingen: kennisassistent, klantenservice, beleid",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "Wat je datafundament moet kunnen",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "Privacy en toegangsrechten",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "Hoe je de kwaliteit meet",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "Wat het kost (indicatie)",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 3,
+      "tekst": "Key takeaways",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 3,
+      "tekst": "De rol van het datafundament in succesvolle AI-initiatieven",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 3,
+      "tekst": "AI-governance zonder bureaucratie: wat je minimaal nodig hebt",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "Veelgestelde vragen",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "Van AI-ambitie naar concrete resultaten.",
+      "regio": "main",
+      "id": null
+    }
+  ],
+  "bodytekst": {
+    "regio": "main",
+    "woorden": 1813,
+    "sha256": "875e759edca75c44e67355f727f3f0bd49b170b91ba38045502d00c038be8c0f",
+    "blokken": [
+      "Home",
+      "Inzichten",
+      "RAG uitgelegd: AI laten antwoorden op je eigen bedrijfsdata",
+      "← Terug naar alle inzichten",
+      "Tools & data",
+      "RAG uitgelegd: AI op je eigen bedrijfsdata",
+      "RAG is geen techniekkeuze maar een datavraag. De kwaliteit van de antwoorden hangt af van je documenten, je toegangsrechten en het onderhoud daarvan, niet van welk model je kiest.",
+      "◷ 5 min leestijd 8 december 2026",
+      "DW",
+      "Door Dave Willemstein Independent AI Advisor, onafhankelijk, geen leveranciersbelangen",
+      "Ik help organisaties AI-beslissingen nemen die waarde creëren. Geen dikke decks, wel duidelijke keuzes en tastbare resultaten.",
+      "vertrouwen, ervaring, impact ↓",
+      "Independent No vendor bias Senior only Sinds 2006",
+      "IN HET KORT",
+      "RAG laat een model antwoorden op basis van jouw documenten, niet alleen op wat het al wist.",
+      "De kwaliteit hangt af van je bronnen en toegangsrechten, niet van het model.",
+      "Fine-tuning en een groter contextvenster zijn geen vervanging, maar andere knoppen.",
+      "Zonder goed opgebouwde bronnen zoekt ook het beste model naar iets dat er niet is.",
+      "AI in Europa",
+      "Europese merken die AI al in productie hebben.",
+      "Geen klanten van mij. Wel voorbeelden van wat er gebeurt als AI voorbij de pilot komt.",
+      "Pauzeer",
+      "Klarna",
+      "Zweden",
+      "AI-assistent in de klantenservice",
+      "Zalando",
+      "Duitsland",
+      "Mode-assistent voor productadvies",
+      "Financial services",
+      "Investeringsmaatschappij",
+      "AI-strategie en use-case portfolio",
+      "Booking.com",
+      "Nederland",
+      "AI Trip Planner voor reisplanning",
+      "Siemens",
+      "Duitsland",
+      "Industrial Copilot voor engineering",
+      "Retail",
+      "Enterprise retailer",
+      "AI-gedreven vendorselectie",
+      "Spotify",
+      "Zweden",
+      "AI DJ en gepersonaliseerde playlists",
+      "Mercedes-Benz",
+      "Duitsland",
+      "Generatieve spraakassistent in de auto",
+      "Industrial / B2B",
+      "Internationale maakorganisatie",
+      "AI-roadmap en leadership",
+      "ING",
+      "Nederland",
+      "Generatieve chatbot voor klantvragen",
+      "L'Oréal",
+      "Frankrijk",
+      "Beauty Genius: persoonlijk advies",
+      "Financial services",
+      "Financiële dienstverlener",
+      "KYC versneld met AI-documentanalyse",
+      "SAP",
+      "Duitsland",
+      "Joule: copilot in bedrijfssoftware",
+      "Carrefour",
+      "Frankrijk",
+      "Hopla: boodschappenassistent",
+      "Strategy & AI",
+      "SaaS scale-up",
+      "AI-readiness assessment",
+      "Adyen",
+      "Nederland",
+      "AI-optimalisatie van betalingen",
+      "Philips",
+      "Nederland",
+      "AI in medische beeldvorming",
+      "Proces & productivity",
+      "Zakelijke dienstverlener",
+      "Interne AI-assistent voor kenniswerkers",
+      "Wat is RAG?",
+      "RAG staat voor retrieval augmented generation: een model dat eerst relevante informatie opzoekt in een eigen bronverzameling, en pas daarna een antwoord formuleert op basis van wat het heeft gevonden. Zonder RAG antwoordt een model uit wat er tijdens de training is meegegeven, met een afkapdatum en zonder kennis van jouw organisatie. Met RAG krijgt het model er bij elke vraag een stukje actuele, eigen data bij, zonder dat je het model zelf opnieuw moet trainen.",
+      "Het verschil is vergelijkbaar met een collega die alles uit het hoofd moet weten, tegenover een collega die erbij mag opzoeken in het eigen archief voordat hij antwoordt. De tweede collega is zelden slimmer, maar wel beter geïnformeerd, en kan bovendien laten zien waar het antwoord vandaan komt.",
+      "Het RAG-proces: van vraag tot antwoord, via je eigen bronnen, met een verwijzing naar de bron erbij.",
+      "Hoe RAG werkt in vier stappen",
+      "Onder de motorkap zijn het telkens dezelfde vier bewegingen:",
+      "1. Zoeken in eigen bronnen. De vraag wordt gebruikt om je documenten, wiki, tickets of andere bronnen te doorzoeken op relevantie, niet op exacte woorden alleen.",
+      "2. De beste passages selecteren. Van alles wat erin zou kunnen passen, selecteert het systeem de stukken tekst die het meest relevant zijn voor deze specifieke vraag.",
+      "3. Die passages aan het model meegeven. De gevonden stukken gaan samen met de oorspronkelijke vraag naar het model, als context erbij, niet als vervanging van de vraag.",
+      "4. Een antwoord genereren met bronvermelding. Het model formuleert het antwoord op basis van wat het heeft meegekregen, en een goed ingericht systeem laat zien uit welk document of welke passage dat antwoord komt.",
+      "Dat laatste punt is geen bijzaak. Een antwoord zonder bronvermelding vraagt om blind vertrouwen; een antwoord met bronvermelding kun je controleren, en dat verschil is precies waarom RAG in een zakelijke context meestal de voorkeur heeft boven een model dat alleen uit zijn training antwoordt.",
+      "RAG, fine-tuning of een groter contextvenster",
+      "Drie manieren om een model iets te laten weten dat het nog niet wist, en ze lossen niet hetzelfde probleem op.",
+      "AanpakWat het doetWanneer het past",
+      "RAGHaalt actuele, specifieke informatie erbij op het moment van de vraagDocumenten die vaak wijzigen; antwoorden moeten herleidbaar zijn tot een bron",
+      "Fine-tuningPast het model zelf aan op een stijl, taak of domeinEen vaste manier van formuleren of structureren aanleren, geen actuele feiten",
+      "Groter contextvensterGeeft meer tekst in één keer mee aan het modelEén document volledig doorlezen; geen selectie uit duizenden bronnen nodig",
+      "In de praktijk sluiten deze elkaar niet uit. De meest voorkomende combinatie is RAG voor de actuele, bedrijfsspecifieke kennis, met eventueel een lichte aanpassing van het model voor toon en structuur. Een AI-agent die zelf stappen zet op basis van wat hij heeft opgehaald, is een volgende laag boven RAG, geen vervanging ervan; wat dat precies inhoudt, leg ik uit in wat een AI-agent is.",
+      "Toepassingen: kennisassistent, klantenservice, beleid",
+      "De drie toepassingen waar ik RAG in de praktijk het vaakst terugzie:",
+      "Een interne kennisassistent die medewerkers antwoord geeft op basis van handboeken, procedures en eerdere besluiten, met een verwijzing naar het onderliggende document.",
+      "Klantenservice, waar RAG ervoor zorgt dat een chatbot antwoordt op basis van de actuele productinformatie en voorwaarden, in plaats van op een verouderde of verzonnen versie daarvan.",
+      "Beleid en compliance, waar medewerkers of auditors snel willen weten wat een actueel beleidsdocument precies voorschrijft, met het document als bron erbij in plaats van een samenvatting uit het geheugen van het model.",
+      "Een van de zes anonieme praktijkvoorbeelden op mijn cases-pagina, de interne AI-assistent voor kenniswerkers, is precies dit type toepassing.",
+      "Wat je datafundament moet kunnen",
+      "RAG verplaatst het probleem niet, het legt het juist bloot: als je bronnen tegenstrijdig, verouderd of slecht gestructureerd zijn, krijg je zelfverzekerd geformuleerde antwoorden op basis van slechte input. Welke vragen daarbij precies spelen (definities, herkomst, kwaliteit, toegankelijkheid) en hoe je dat aanpakt zonder een jaar aan databeheer vooraf, beschrijf ik uitgebreider in het datafundament onder AI. Voor RAG specifiek geldt een versnelde versie van diezelfde les: begin met de bronnen van één duidelijke use case, niet met je hele documentenarchief.",
+      "Privacy en toegangsrechten",
+      "Een RAG-systeem doorzoekt wat je erin stopt, en dat is precies het risico: als het alles doorzoekt zonder onderscheid, geeft het ook antwoord op basis van documenten die een gebruiker niet had mogen zien. Toegangsrechten horen daarom in het ontwerp, niet als correctie achteraf: een vraag van een medewerker mag alleen treffers opleveren uit bronnen waartoe die medewerker al toegang heeft.",
+      "Verwerkt het systeem daarbij persoonsgegevens, bijvoorbeeld in klantdossiers of personeelsdocumenten, dan gelden de gewone AVG-eisen onverkort. Zodra zo'n systeem ook zelfstandig stappen zet op basis van wat het heeft opgehaald, komt daar de agent-component bij; hoe die twee samenkomen, staat in AI agents en de AVG.",
+      "Hoe je de kwaliteit meet",
+      "Zonder meting merk je een slecht functionerend RAG-systeem pas als een gebruiker een duidelijk fout antwoord meldt, en dan is het al een keer misgegaan. Drie dingen die wel te meten zijn:",
+      "Haalt het de juiste passages op? Steekproef van vragen waarvan je het juiste antwoord al kent, en controleren of de opgehaalde bron klopt.",
+      "Blijft het antwoord bij de bron? Een model dat iets toevoegt wat niet in de opgehaalde passage stond, is aan het verzinnen, ook al klinkt het antwoord goed.",
+      "Wat doen gebruikers ermee? Een duidelijke manier om een antwoord als onjuist te markeren levert meer op dan een enquête achteraf.",
+      "Ophalen werkt alleen als de bron goed is opgebouwd. Dat merk ik ook bij het schrijven van content voor AI-zoekmachines: heldere vraag, direct antwoord, bron en datum erbij. Dezelfde discipline die een RAG-systeem nodig heeft om goed te kunnen ophalen, is ook precies wat een AI-zoekmachine nodig heeft om jouw content te kunnen citeren.",
+      "Wat het kost (indicatie)",
+      "Een harde prijs voor \"een RAG-systeem\" bestaat niet: de kosten hangen vooral af van hoeveel bronnen je erin ontsluit, hoe ingewikkeld de toegangsrechten zijn, en hoeveel onderhoud die bronnen nodig hebben zodra ze veranderen. Dat zijn precies de kostenposten (licenties, integratie, data, beheer) die ik uitsplits in een apart artikel over wat AI-implementatie kost, met realistische bandbreedtes per scenario. Wil je dat voor jouw situatie laten doorrekenen in plaats van zelf inschatten, dan is dat onderdeel van een AI Readiness Assessment.",
+      "RAG is geen techniekkeuze maar een datavraag. Begin bij één duidelijke use case, ontsluit daarvoor de bronnen die er echt toe doen, en bouw pas daarna verder. Dat levert sneller een werkend systeem op dan wachten tot je hele documentenarchief op orde is, en voorkomt tegelijk dat je een slim model op een slechte bron loslaat.",
+      "Key takeaways",
+      "✓",
+      "Een datavraag, geen techniekvraag",
+      "Het model is zelden het probleem. De structuur en kwaliteit van je bronnen wel.",
+      "✓",
+      "Toegangsrechten zijn onderdeel van het ontwerp",
+      "Een RAG-systeem dat alles doorzoekt, geeft ook antwoord uit documenten die iemand niet had mogen zien.",
+      "✓",
+      "Meten is verplicht, niet optioneel",
+      "Zonder een manier om de kwaliteit van antwoorden te volgen, merk je een afwijking pas als een gebruiker klaagt.",
+      "ONTHOUD “RAG is zo goed als de bron die het doorzoekt, nooit beter.”",
+      "Sparren over jouw situatie? 30 minuten, vrijblijvend →",
+      "Verder lezen",
+      "◫",
+      "Tools & data",
+      "De rol van het datafundament in succesvolle AI-initiatieven",
+      "\"Eerst de data op orde\" is net zo vaak een excuus als een noodzaak. Hoe je bepaalt welke van de twee bij jou speelt.",
+      "◷ 4 min leestijd Lees artikel →",
+      "▣",
+      "Governance",
+      "AI-governance zonder bureaucratie: wat je minimaal nodig hebt",
+      "Governance die niemand gebruikt, beschermt niemand. Vier mechanismen die het verschil maken, en wat je gerust kunt overslaan.",
+      "◷ 5 min leestijd Lees artikel →",
+      "Veelgestelde vragen",
+      "Is RAG hetzelfde als fine-tuning?+",
+      "Nee. RAG haalt bij elke vraag actuele informatie op uit je eigen bronnen en geeft die aan het model mee; fine-tuning past het model zelf aan op een stijl, taak of domein, zonder dat er per vraag iets wordt opgezocht. Ze kunnen worden gecombineerd, maar lossen niet dezelfde behoefte op.",
+      "Heb ik een vectordatabase nodig voor RAG?+",
+      "In de meeste implementaties wordt gezocht op basis van betekenis, en daarvoor is inderdaad een vorm van doorzoekbare opslag van je bronnen nodig. Welke technische vorm dat precies krijgt, hangt af van je situatie en is een implementatiekeuze, geen principekeuze die je vooraf moet maken.",
+      "Kan een RAG-systeem nog steeds dingen verzinnen?+",
+      "Ja, als het model afwijkt van wat er in de opgehaalde passages staat, of als de opgehaalde passages zelf niet relevant waren. Daarom is meten of een antwoord bij de bron blijft geen overbodige stap, maar een vaste controle.",
+      "Werkt RAG ook met slecht gestructureerde documenten?+",
+      "Het werkt, maar de kwaliteit van de antwoorden daalt met de kwaliteit van de bron. Tegenstrijdige, verouderde of ongestructureerde documenten leveren precies zo’n antwoord op: zelfverzekerd geformuleerd en inhoudelijk onbetrouwbaar.",
+      "Hoe begin ik met RAG zonder meteen het hele documentenarchief te ontsluiten?+",
+      "Kies één concrete use case met een duidelijke eigenaar, bijvoorbeeld een kennisassistent voor één team, en ontsluit alleen de bronnen die die use case nodig heeft. Breid daarna pas uit naar de volgende use case.",
+      "Klaar voor impact?",
+      "Van AI-ambitie naar concrete resultaten.",
+      "Plan een vrijblijvend gesprek. Geen pitch. Wel scherpe vragen.",
+      "30 min., geen pitch deckPlan een gesprek →"
+    ]
+  },
+  "links": [
+    {
+      "regio": "overig",
+      "soort": "intern",
+      "href": "#main",
+      "anker": "Naar hoofdinhoud",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/nl",
+      "anker": "",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/nl/diensten",
+      "anker": "Diensten",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/nl/cases",
+      "anker": "Cases",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/nl/werkwijze",
+      "anker": "Werkwijze",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/nl/inzichten",
+      "anker": "Inzichten",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/nl/over",
+      "anker": "Over mij",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/nl/contact",
+      "anker": "Plan een gesprek →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/nl",
+      "anker": "Home",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/nl/inzichten",
+      "anker": "Inzichten",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/nl/inzichten",
+      "anker": "← Terug naar alle inzichten",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/nl/ai-agents/wat-is-een-ai-agent",
+      "anker": "wat een AI-agent is",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/nl/cases",
+      "anker": "mijn cases-pagina",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/nl/cases/interne-ai-assistent-kenniswerkers",
+      "anker": "interne AI-assistent voor kenniswerkers",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/nl/inzichten/het-datafundament-onder-ai",
+      "anker": "het datafundament onder AI",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/nl/kennisbank/ai-agents-en-avg",
+      "anker": "AI agents en de AVG",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/nl/diensten/ai-readiness-assessment",
+      "anker": "AI Readiness Assessment",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/nl/contact",
+      "anker": "Sparren over jouw situatie? 30 minuten, vrijblijvend →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/nl/inzichten/het-datafundament-onder-ai",
+      "anker": "◫ Tools & data De rol van het datafundament in succesvolle AI-initiatieven \"Eerst de data op orde\" is net zo vaak een excuus als een noodzaak. Hoe je bepaalt welke van de twee bij jou speelt. ◷ 4 min leestijd Lees artikel →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/nl/inzichten/ai-governance-zonder-bureaucratie",
+      "anker": "▣ Governance AI-governance zonder bureaucratie: wat je minimaal nodig hebt Governance die niemand gebruikt, beschermt niemand. Vier mechanismen die het verschil maken, en wat je gerust kunt overslaan. ◷ 5 min leestijd Lees artikel →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/nl/contact",
+      "anker": "Plan een gesprek →",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/nl/diensten/ai-readiness-assessment",
+      "anker": "AI Readiness Assessment",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/nl/diensten/ai-strategy-sprint",
+      "anker": "AI Strategy Sprint",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/nl/diensten/fractional-ai-lead",
+      "anker": "Fractional AI Lead",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/nl/diensten",
+      "anker": "Alle diensten",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/nl/cases",
+      "anker": "Cases",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/nl/werkwijze",
+      "anker": "Werkwijze",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/nl/inzichten",
+      "anker": "Inzichten",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/nl/veelgestelde-vragen",
+      "anker": "Veelgestelde vragen",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/nl/over",
+      "anker": "Over mij",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/nl/ai-consultancy",
+      "anker": "AI consultancy",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/nl/ai-implementatie",
+      "anker": "AI implementatie",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/nl/ai-automatisering",
+      "anker": "AI automatisering",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/nl/ai-voor-bedrijven",
+      "anker": "AI voor bedrijven",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/nl/ai-development",
+      "anker": "AI development",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/nl/ai-agents",
+      "anker": "AI agents",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/nl/ai-beleid",
+      "anker": "AI beleid",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/nl/ai-workshop",
+      "anker": "AI workshop",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/nl/markten",
+      "anker": "AI per branche",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/nl/kennisbank",
+      "anker": "Kennisbank",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/nl/tarieven",
+      "anker": "Tarieven",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/nl/partnernetwerk",
+      "anker": "Partnernetwerk",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "overig",
+      "href": "mailto:dave@freelanceaiconsultant.com",
+      "anker": "dave@freelanceaiconsultant.com",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "extern",
+      "href": "https://www.linkedin.com/in/davewillemstein",
+      "anker": "LinkedIn ↗",
+      "rel": "noopener"
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/nl/contact",
+      "anker": "Plan een gesprek",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/nl/privacy",
+      "anker": "Privacyverklaring",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/nl/algemene-voorwaarden",
+      "anker": "Algemene voorwaarden",
+      "rel": null
+    }
+  ],
+  "structured_data": {
+    "sha256": "f6a99a4977943fd539e66ab9b89b7f180a5a6e51e0d1d9f81b16636d3cde44d9",
+    "items": [
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://freelanceaiconsultant.com/nl"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Inzichten",
+                "item": "https://freelanceaiconsultant.com/nl/inzichten"
+              },
+              {
+                "@type": "ListItem",
+                "position": 3,
+                "name": "RAG uitgelegd: AI laten antwoorden op je eigen bedrijfsdata",
+                "item": "https://freelanceaiconsultant.com/nl/inzichten/rag-ai-op-eigen-bedrijfsdata"
+              }
+            ]
+          },
+          {
+            "@type": "Person",
+            "@id": "https://freelanceaiconsultant.com/#dave",
+            "name": "Dave Willemstein",
+            "url": "https://freelanceaiconsultant.com/about",
+            "sameAs": [
+              "https://www.linkedin.com/in/davewillemstein"
+            ],
+            "jobTitle": "Onafhankelijk AI-adviseur"
+          },
+          {
+            "@type": "BlogPosting",
+            "headline": "RAG uitgelegd: AI laten antwoorden op je eigen bedrijfsdata",
+            "description": "RAG laat AI antwoorden op basis van je eigen documenten in plaats van alleen wat het model al wist. Hoe het werkt, wanneer je het inzet en waar het misgaat.",
+            "datePublished": "2026-12-08",
+            "dateModified": "2026-12-08",
+            "inLanguage": "nl-NL",
+            "articleSection": "Tools & data",
+            "author": {
+              "@id": "https://freelanceaiconsultant.com/#dave"
+            },
+            "publisher": {
+              "@id": "https://freelanceaiconsultant.com/#dave"
+            },
+            "mainEntityOfPage": "https://freelanceaiconsultant.com/nl/inzichten/rag-ai-op-eigen-bedrijfsdata"
+          },
+          {
+            "@type": "FAQPage",
+            "mainEntity": [
+              {
+                "@type": "Question",
+                "name": "Is RAG hetzelfde als fine-tuning?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Nee. RAG haalt bij elke vraag actuele informatie op uit je eigen bronnen en geeft die aan het model mee; fine-tuning past het model zelf aan op een stijl, taak of domein, zonder dat er per vraag iets wordt opgezocht. Ze kunnen worden gecombineerd, maar lossen niet dezelfde behoefte op."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Heb ik een vectordatabase nodig voor RAG?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "In de meeste implementaties wordt gezocht op basis van betekenis, en daarvoor is inderdaad een vorm van doorzoekbare opslag van je bronnen nodig. Welke technische vorm dat precies krijgt, hangt af van je situatie en is een implementatiekeuze, geen principekeuze die je vooraf moet maken."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Kan een RAG-systeem nog steeds dingen verzinnen?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Ja, als het model afwijkt van wat er in de opgehaalde passages staat, of als de opgehaalde passages zelf niet relevant waren. Daarom is meten of een antwoord bij de bron blijft geen overbodige stap, maar een vaste controle."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Werkt RAG ook met slecht gestructureerde documenten?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Het werkt, maar de kwaliteit van de antwoorden daalt met de kwaliteit van de bron. Tegenstrijdige, verouderde of ongestructureerde documenten leveren precies zo’n antwoord op: zelfverzekerd geformuleerd en inhoudelijk onbetrouwbaar."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Hoe begin ik met RAG zonder meteen het hele documentenarchief te ontsluiten?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Kies één concrete use case met een duidelijke eigenaar, bijvoorbeeld een kennisassistent voor één team, en ontsluit alleen de bronnen die die use case nodig heeft. Breid daarna pas uit naar de volgende use case."
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "afbeeldingen": [
+    {
+      "regio": "header",
+      "src": "/images/freelance-ai-consultant-logo-header.png",
+      "alt": "freelanceaiconsultant.com logo",
+      "width": "600",
+      "height": "287",
+      "loading": null
+    },
+    {
+      "regio": "main",
+      "src": "/images/dave-portrait.jpg",
+      "alt": "Dave Willemstein, Independent AI Advisor",
+      "width": "500",
+      "height": "620",
+      "loading": "lazy"
+    },
+    {
+      "regio": "footer",
+      "src": "/images/freelance-ai-consultant-icon-footer.png",
+      "alt": "",
+      "width": "192",
+      "height": "192",
+      "loading": "lazy"
+    }
+  ],
+  "laadprestaties": {
+    "scripts": [
+      {
+        "src": "/_astro/CookieConsent.astro_astro_type_script_index_0_lang.COcxE8NY.js",
+        "type": "module",
+        "inline_bytes": 0
+      },
+      {
+        "src": null,
+        "type": null,
+        "inline_bytes": 989
+      },
+      {
+        "src": null,
+        "type": null,
+        "inline_bytes": 493
+      },
+      {
+        "src": "/logo-carousel/logo-carousel.js?v=2",
+        "type": null,
+        "inline_bytes": 0
+      },
+      {
+        "src": null,
+        "type": null,
+        "inline_bytes": 725
+      }
+    ],
+    "stylesheets": [
+      "/_astro/_slug_.CzLXI3HH.css",
+      "/_astro/_slug_.BpipRbQZ.css",
+      "/logo-carousel/logo-carousel.css?v=2"
+    ],
+    "aantal_details": 5,
+    "aantal_tabellen": 0
+  },
+  "gemeten_op": "2026-11-11"
+}
