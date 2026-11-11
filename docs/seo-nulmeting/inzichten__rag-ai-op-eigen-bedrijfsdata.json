@@ -2,7 +2,7 @@
   "url": "/inzichten/rag-ai-op-eigen-bedrijfsdata",
   "build_bestand": "dist/inzichten/rag-ai-op-eigen-bedrijfsdata/index.html",
   "html": {
-    "bytes": 49072,
+    "bytes": 49391,
     "lang": "nl"
   },
   "beschermd": {
@@ -116,8 +116,8 @@
   ],
   "bodytekst": {
     "regio": "main",
-    "woorden": 1813,
-    "sha256": "875e759edca75c44e67355f727f3f0bd49b170b91ba38045502d00c038be8c0f",
+    "woorden": 1846,
+    "sha256": "06751478e883789f48c895972cf91b5939d76316a132d995a4483e9217f1a612",
     "blokken": [
       "Home",
       "Inzichten",
@@ -212,7 +212,7 @@
       "RAGHaalt actuele, specifieke informatie erbij op het moment van de vraagDocumenten die vaak wijzigen; antwoorden moeten herleidbaar zijn tot een bron",
       "Fine-tuningPast het model zelf aan op een stijl, taak of domeinEen vaste manier van formuleren of structureren aanleren, geen actuele feiten",
       "Groter contextvensterGeeft meer tekst in één keer mee aan het modelEén document volledig doorlezen; geen selectie uit duizenden bronnen nodig",
-      "In de praktijk sluiten deze elkaar niet uit. De meest voorkomende combinatie is RAG voor de actuele, bedrijfsspecifieke kennis, met eventueel een lichte aanpassing van het model voor toon en structuur. Een AI-agent die zelf stappen zet op basis van wat hij heeft opgehaald, is een volgende laag boven RAG, geen vervanging ervan; wat dat precies inhoudt, leg ik uit in wat een AI-agent is.",
+      "In de praktijk sluiten deze elkaar niet uit. De meest voorkomende combinatie is RAG voor de actuele, bedrijfsspecifieke kennis, met eventueel een lichte aanpassing van het model voor toon en structuur. Een AI-agent die zelf stappen zet op basis van wat hij heeft opgehaald, is een volgende laag boven RAG, geen vervanging ervan; wat dat precies inhoudt, leg ik uit in wat een AI-agent is. Het bouwen en integreren van zo'n systeem valt onder AI development: of je dat zelf laat bouwen, inkoopt als standaardtool of als maatwerk AI-oplossing optuigt, hangt af van hoe specifiek jouw situatie is.",
       "Toepassingen: kennisassistent, klantenservice, beleid",
       "De drie toepassingen waar ik RAG in de praktijk het vaakst terugzie:",
       "Een interne kennisassistent die medewerkers antwoord geeft op basis van handboeken, procedures en eerdere besluiten, met een verwijzing naar het onderliggende document.",
@@ -356,6 +356,20 @@
       "soort": "intern",
       "href": "/nl/ai-agents/wat-is-een-ai-agent",
       "anker": "wat een AI-agent is",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/nl/ai-development",
+      "anker": "AI development",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/nl/ai-development/ai-oplossingen",
+      "anker": "AI-oplossing",
       "rel": null
     },
     {
