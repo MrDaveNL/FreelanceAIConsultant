@@ -105,7 +105,7 @@
   "bodytekst": {
     "regio": "main",
     "woorden": 1702,
-    "sha256": "7044dca7c598f38ce885308494b92d028f73f6c67e961926f9a7e084e836b2d1",
+    "sha256": "1732728567e7a0441213f8c660335cbd87cf95cd8498fd4f893e33773c14a5cc",
     "blokken": [
       "Home",
       "Inzichten",
@@ -250,7 +250,7 @@
       "Een licentie kost doorgaans een paar tientjes tot een paar honderd euro per gebruiker per maand. Integratie met je eigen systemen, het ordenen van data en het begeleiden van adoptie kosten vrijwel altijd een veelvoud daarvan, zeker bij de eerste serieuze toepassing.",
       "Welke verborgen kosten worden het vaakst vergeten?+",
       "Beheer en bijsturing na de livegang, verbruikskosten die meeschalen met het gebruik, de tijd die medewerkers kwijt zijn aan wennen aan een nieuwe werkwijze, en data die achteraf rommeliger blijkt dan vooraf gedacht.",
-      "Rekent u een uurtarief voor begeleiding bij AI-implementatie?+",
+      "Reken je een uurtarief voor begeleiding bij AI-implementatie?+",
       "Nee. Afgebakend werk krijgt een vaste projectprijs, een doorlopende rol zoals een Fractional AI Lead krijgt een vast maandbedrag. Beide staan vooraf vast, zodat het gesprek over het resultaat gaat en niet over de urenstaat.",
       "Hoe weet ik in welk scenario mijn organisatie valt?+",
       "Kijk naar drie dingen: het aantal koppelingen met bestaande systemen, het aantal teams of afdelingen dat meedoet, en hoe rommelig je startdata is. Meer van alle drie duwt je richting de bovenkant van de bandbreedte of naar het volgende scenario.",
@@ -613,7 +613,7 @@
     }
   ],
   "structured_data": {
-    "sha256": "2a2f7e14300ae5a635d7c3a53aa2eb3c9d6c5d2fdad9969d4eb8df6c59ada823",
+    "sha256": "6d66681844fc30f9fa1cb8783f9e447c3d32996396faa6001294f2d6cccd0359",
     "items": [
       {
         "@context": "https://schema.org",
@@ -696,7 +696,7 @@
               },
               {
                 "@type": "Question",
-                "name": "Rekent u een uurtarief voor begeleiding bij AI-implementatie?",
+                "name": "Reken je een uurtarief voor begeleiding bij AI-implementatie?",
                 "acceptedAnswer": {
                   "@type": "Answer",
                   "text": "Nee. Afgebakend werk krijgt een vaste projectprijs, een doorlopende rol zoals een Fractional AI Lead krijgt een vast maandbedrag. Beide staan vooraf vast, zodat het gesprek over het resultaat gaat en niet over de urenstaat."
