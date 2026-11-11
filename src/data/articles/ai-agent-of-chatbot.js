@@ -67,8 +67,8 @@ export default {
   <li><b>Gaat het om een klein, vast aantal acties dat je vooraf kunt opsommen?</b> Ja: een assistent met acties binnen een bestaande workflow past het best. Nee, het aantal mogelijke acties en volgordes is te groot om vooraf op te sommen: dan kom je toch bij een AI agent terecht, met de bijbehorende eisen aan logging en controle.</li>
 </ol>
 <p>In de praktijk stopt het merendeel van de organisaties bij vraag drie. Dat is geen compromis, dat is meestal gewoon de juiste uitkomst.</p>
-<!-- LINK-TODO BLOG-09: link toevoegen zodra onderwerp en slug bekend zijn -->
-<!-- LINK-TODO BLOG-10: link toevoegen zodra onderwerp en slug bekend zijn -->
+<!-- LINK-TODO BLOG-09 (AI-security: prompt injection en andere risico's van AI in je bedrijf): link naar /nl/inzichten/ai-security-prompt-injection zodra dat artikel live is. Logische plek: bij de eisen aan logging en controle hierboven, of bij de risico's van een AI agent die zelf acties uitvoert. -->
+<!-- LINK-TODO BLOG-10 (MCP uitgelegd: wat het Model Context Protocol betekent voor je AI-plannen): link naar /nl/inzichten/mcp-model-context-protocol zodra dat artikel live is. Logische plek: bij "koppelingen" in de vergelijkingstabel of bij de sectie over een AI agent die zelf stappen zet op basis van koppelingen met andere systemen. -->
 `,
   faq: [
     {
