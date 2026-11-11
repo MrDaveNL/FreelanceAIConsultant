@@ -32,8 +32,8 @@ export default {
 <p>RAG staat voor retrieval augmented generation: een model dat eerst relevante informatie opzoekt in een eigen bronverzameling, en pas daarna een antwoord formuleert op basis van wat het heeft gevonden. Zonder RAG antwoordt een model uit wat er tijdens de training is meegegeven, met een afkapdatum en zonder kennis van jouw organisatie. Met RAG krijgt het model er bij elke vraag een stukje actuele, eigen data bij, zonder dat je het model zelf opnieuw moet trainen.</p>
 <p>Het verschil is vergelijkbaar met een collega die alles uit het hoofd moet weten, tegenover een collega die erbij mag opzoeken in het eigen archief voordat hij antwoordt. De tweede collega is zelden slimmer, maar wel beter geïnformeerd, en kan bovendien laten zien waar het antwoord vandaan komt.</p>
 
-<figure style="margin:30px 0;padding:22px;border:1px solid var(--line);border-radius:16px;background:rgba(255,250,241,.6)">
-<svg viewBox="0 0 1000 180" role="img" aria-label="Het RAG-proces in vijf stappen: vraag, zoeken in eigen bronnen, relevante passages, model, antwoord met bronvermelding" style="width:100%;height:auto;max-width:780px;display:block;margin:0 auto">
+<figure style="margin:30px 0;padding:22px;border:1px solid var(--line);border-radius:16px;background:rgba(255,250,241,.6);overflow-x:auto">
+<svg viewBox="0 0 1000 180" role="img" aria-label="Het RAG-proces in vijf stappen: vraag, zoeken in eigen bronnen, relevante passages, model, antwoord met bronvermelding" style="width:100%;height:auto;max-width:780px;min-width:640px;display:block;margin:0 auto">
   <g font-family="inherit">
     <rect x="10" y="30" width="165" height="110" rx="14" fill="var(--mustard)" />
     <text x="92" y="78" text-anchor="middle" font-size="15" font-weight="700" fill="var(--burgundy)">Vraag</text>
@@ -92,7 +92,7 @@ export default {
   <div class="tr"><span>Fine-tuning</span><span>Past het model zelf aan op een stijl, taak of domein</span><span>Een vaste manier van formuleren of structureren aanleren, geen actuele feiten</span></div>
   <div class="tr"><span>Groter contextvenster</span><span>Geeft meer tekst in één keer mee aan het model</span><span>Eén document volledig doorlezen; geen selectie uit duizenden bronnen nodig</span></div>
 </div>
-<p>In de praktijk sluiten deze elkaar niet uit. De meest voorkomende combinatie is RAG voor de actuele, bedrijfsspecifieke kennis, met eventueel een lichte aanpassing van het model voor toon en structuur. Een AI-agent die zelf stappen zet op basis van wat hij heeft opgehaald, is een volgende laag boven RAG, geen vervanging ervan; wat dat precies inhoudt, leg ik uit in <a href="/nl/ai-agents/wat-is-een-ai-agent">wat een AI-agent is</a>.</p>
+<p>In de praktijk sluiten deze elkaar niet uit. De meest voorkomende combinatie is RAG voor de actuele, bedrijfsspecifieke kennis, met eventueel een lichte aanpassing van het model voor toon en structuur. Een AI-agent die zelf stappen zet op basis van wat hij heeft opgehaald, is een volgende laag boven RAG, geen vervanging ervan; wat dat precies inhoudt, leg ik uit in <a href="/nl/ai-agents/wat-is-een-ai-agent">wat een AI-agent is</a>. Het bouwen en integreren van zo'n systeem valt onder <a href="/nl/ai-development">AI development</a>: of je dat zelf laat bouwen, inkoopt als standaardtool of als maatwerk <a href="/nl/ai-development/ai-oplossingen">AI-oplossing</a> optuigt, hangt af van hoe specifiek jouw situatie is.</p>
 
 <h2>Toepassingen: kennisassistent, klantenservice, beleid</h2>
 <p>De drie toepassingen waar ik RAG in de praktijk het vaakst terugzie:</p>
