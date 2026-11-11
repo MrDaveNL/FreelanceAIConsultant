@@ -69,8 +69,7 @@ export default {
 <p>Dat beleid past op één A4. Hoe dat eruitziet, staat op <a href="/nl/ai-beleid">AI-beleid</a>, inclusief een startpunt om zelf mee te beginnen. Wat ik wel hard zou verbieden: klant- en persoonsgegevens in gratis tools zonder verwerkersovereenkomst. Die grens is uitlegbaar, en alles daarbuiten is een kwestie van faciliteren en bijsturen.</p>
 
 <h2>Shadow AI en AI-geletterdheid (AI Act)</h2>
-<p>Sinds 2 februari 2025 geldt onder de Europese AI-verordening de verplichting om maatregelen te nemen voor de AI-geletterdheid van iedereen die binnen je organisatie met AI werkt. Die verplichting is er voor elke vorm van AI-gebruik, dus ook voor het gebruik dat je nu nog niet in beeld hebt, en is niet uitgesteld door de Digital Omnibus.</p>
-<!-- LINK-TODO BLOG-02 (Digital Omnibus): hier doorverwijzen zodra dat artikel bestaat -->
+<p>Sinds 2 februari 2025 geldt onder de Europese AI-verordening de verplichting om maatregelen te nemen voor de AI-geletterdheid van iedereen die binnen je organisatie met AI werkt. Die verplichting is er voor elke vorm van AI-gebruik, dus ook voor het gebruik dat je nu nog niet in beeld hebt, en is niet uitgesteld door de <a href="/nl/inzichten/ai-act-digital-omnibus">Digital Omnibus</a>: alleen de hoog-risicoregels zijn opgeschoven, niet deze verplichting.</p>
 <p>Shadow AI is in de praktijk precies het scenario waar die verplichting op is gericht: mensen die met AI werken zonder instructie over wat verantwoord gebruik is. Een korte, praktische instructie bij het zakelijke alternatief is dus niet alleen verstandig, het is ook de eenvoudigste manier om aan deze eis te voldoen. Hoe je dat samen met een register, een goedkeuringsmoment en een escalatiepad in een lichte structuur zet, zonder dat het een nieuwe bureaucratie wordt, beschrijf ik in <a href="/nl/inzichten/ai-governance-zonder-bureaucratie">AI-governance zonder bureaucratie</a>.</p>
 
 <h2>Aanpak voor de eerste 30 dagen</h2>

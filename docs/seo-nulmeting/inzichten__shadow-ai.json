@@ -2,7 +2,7 @@
   "url": "/inzichten/shadow-ai",
   "build_bestand": "dist/inzichten/shadow-ai/index.html",
   "html": {
-    "bytes": 47713,
+    "bytes": 47743,
     "lang": "nl"
   },
   "beschermd": {
@@ -110,8 +110,8 @@
   ],
   "bodytekst": {
     "regio": "main",
-    "woorden": 2107,
-    "sha256": "35edb262eccef380f767619ca4ddbfe45b48e98d41a052c4a142a996371a2c40",
+    "woorden": 2115,
+    "sha256": "20d9e9f25ef4a62d7a697da40afc8e7a76e126204c5a9b83037fd140804c319a",
     "blokken": [
       "Home",
       "Inzichten",
@@ -218,7 +218,7 @@
       "Bij wie je terechtkunt met een nieuwe toepassing. Eén vast aanspreekpunt voor twijfelgevallen, zodat een nieuwe behoefte niet opnieuw ondergronds gaat.",
       "Dat beleid past op één A4. Hoe dat eruitziet, staat op AI-beleid, inclusief een startpunt om zelf mee te beginnen. Wat ik wel hard zou verbieden: klant- en persoonsgegevens in gratis tools zonder verwerkersovereenkomst. Die grens is uitlegbaar, en alles daarbuiten is een kwestie van faciliteren en bijsturen.",
       "Shadow AI en AI-geletterdheid (AI Act)",
-      "Sinds 2 februari 2025 geldt onder de Europese AI-verordening de verplichting om maatregelen te nemen voor de AI-geletterdheid van iedereen die binnen je organisatie met AI werkt. Die verplichting is er voor elke vorm van AI-gebruik, dus ook voor het gebruik dat je nu nog niet in beeld hebt, en is niet uitgesteld door de Digital Omnibus.",
+      "Sinds 2 februari 2025 geldt onder de Europese AI-verordening de verplichting om maatregelen te nemen voor de AI-geletterdheid van iedereen die binnen je organisatie met AI werkt. Die verplichting is er voor elke vorm van AI-gebruik, dus ook voor het gebruik dat je nu nog niet in beeld hebt, en is niet uitgesteld door de Digital Omnibus: alleen de hoog-risicoregels zijn opgeschoven, niet deze verplichting.",
       "Shadow AI is in de praktijk precies het scenario waar die verplichting op is gericht: mensen die met AI werken zonder instructie over wat verantwoord gebruik is. Een korte, praktische instructie bij het zakelijke alternatief is dus niet alleen verstandig, het is ook de eenvoudigste manier om aan deze eis te voldoen. Hoe je dat samen met een register, een goedkeuringsmoment en een escalatiepad in een lichte structuur zet, zonder dat het een nieuwe bureaucratie wordt, beschrijf ik in AI-governance zonder bureaucratie.",
       "Aanpak voor de eerste 30 dagen",
       "Je hoeft dit niet in één keer volledig te regelen. Een haalbare volgorde over vier weken:",
@@ -378,6 +378,13 @@
       "soort": "intern",
       "href": "/nl/ai-beleid",
       "anker": "AI-beleid",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/nl/inzichten/ai-act-digital-omnibus",
+      "anker": "Digital Omnibus",
       "rel": null
     },
     {
@@ -764,5 +771,5 @@
     "aantal_details": 5,
     "aantal_tabellen": 0
   },
-  "gemeten_op": "2026-11-06"
+  "gemeten_op": "2026-11-11"
 }
