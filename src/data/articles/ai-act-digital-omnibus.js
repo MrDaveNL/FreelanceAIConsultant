@@ -29,7 +29,7 @@ export default {
   related: ['ai-governance-zonder-bureaucratie', 'shadow-ai'],
   body: `
 <h2>Wat is de Digital Omnibus?</h2>
-<p>De Digital Omnibus op AI is geen nieuw wetsvoorstel, maar een wijziging van de bestaande AI Act (Verordening (EU) 2024/1689). De Europese Commissie stelde de wijziging op 19 november 2025 voor om de regels te vereenvoudigen en een deel van de hoog-risicoverplichtingen uit te stellen. Het Europees Parlement en de Raad bereikten daarover op 7 mei 2026 een akkoord, en op 24 juli 2026 is de wijziging gepubliceerd als <a href="https://digital-strategy.ec.europa.eu/en/news/ai-omnibus-enters-force">Verordening (EU) 2026/1744</a>, met inwerkingtreding op 27 juli 2026. Dat is dus geen voorstel meer, maar geldend recht.</p>
+<p>De Digital Omnibus op AI is geen nieuw wetsvoorstel, maar een wijziging van de bestaande AI Act (Verordening (EU) 2024/1689). De Europese Commissie stelde de wijziging op 19 november 2025 voor om de regels te vereenvoudigen en een deel van de hoog-risicoverplichtingen uit te stellen. Het Europees Parlement en de Raad bereikten daarover in het voorjaar van 2026 een akkoord, en op 24 juli 2026 is de wijziging gepubliceerd als <a href="https://digital-strategy.ec.europa.eu/en/news/ai-omnibus-enters-force">Verordening (EU) 2026/1744</a>, met inwerkingtreding op 27 juli 2026. Dat is dus geen voorstel meer, maar geldend recht.</p>
 <p>Voor wie de basis van de AI Act, de risicocategorieën en de rolverdeling nog niet scherp heeft: die basis staat op <a href="/nl/ai-beleid/ai-act">AI Act voor bedrijven</a>. Dit artikel herhaalt die basis niet, maar gaat specifiek over wat de Omnibus verandert.</p>
 
 <h2>Wat schuift op</h2>
@@ -62,8 +62,8 @@ export default {
 <p>De verleiding is groot om het uitstel te lezen als "dan hebben we nog even tijd". Drie redenen waarom dat een vergissing is:</p>
 <ul>
   <li><b>Het werk verdwijnt niet, alleen de deadline verschuift.</b> Een inventarisatie van je AI-toepassingen, de classificatie per toepassing en het beleggen van menselijk toezicht kosten net zoveel tijd als vóór de Omnibus. Alleen het moment waarop je klaar moet zijn, is later.</li>
-  <li><b>Een deel van de regels is juist eerder gaan gelden, niet later.</b> Het nieuwe verbod op niet-consensuele intieme beelden geldt al vanaf 2 december 2026, binnen een jaar na publicatie van dit artikel. Wie alleen naar "2027 en 2028" kijkt, mist dat.</li>
-  <li><b>De verplichtingen die nooit zijn uitgesteld, lopen gewoon door.</b> AI-geletterdheid en transparantie zijn geen compliance-oefening voor later; ze gelden nu, en toezichthouders kunnen daar nu al op handhaven.</li>
+  <li><b>Een deel van de regels is juist eerder gaan gelden, niet later.</b> Het nieuwe verbod op niet-consensuele intieme beelden geldt al vanaf 2 december 2026, nog geen maand na publicatie van dit artikel. Wie alleen naar "2027 en 2028" kijkt, mist dat.</li>
+  <li><b>De verplichtingen die nooit zijn uitgesteld, lopen gewoon door.</b> AI-geletterdheid en transparantie zijn geen compliance-oefening voor later; ze vallen niet onder het uitstel van de Omnibus. Dat de Nederlandse toezichtsinrichting (de uitvoeringswet) nog niet rond is, maakt ze niet vrijblijvend.</li>
 </ul>
 <p>Moet je bestuur of raad van commissarissen hetzelfde beeld krijgen van wat er wel en niet is uitgesteld, dan behandelt de <a href="/nl/diensten/executive-briefing">Executive Briefing</a> dat samen met de rest van de regelgeving in één sessie.</p>
 
@@ -74,7 +74,7 @@ export default {
   <li><b>Herclassificeer je bijlage III-toepassingen op de nieuwe datum.</b> Een toepassing die je voor 2 augustus 2026 nog op stel en sprong wilde regelen, kun je nu planmatig aanpakken richting 2 december 2027, zonder de voorbereiding uit te stellen.</li>
   <li><b>Check of je al voldoet aan wat niet is uitgesteld.</b> AI-geletterdheid, transparantie en de verboden praktijken zijn geen toekomstige verplichting. Een <a href="/nl/ai-workshop/ai-geletterdheid-training">training AI-geletterdheid</a> is een directe, aantoonbare manier om aan die eerste eis te voldoen.</li>
   <li><b>Zet het nieuwe verbod van 2 december 2026 op de kalender.</b> Vooral relevant als je AI-systemen aanbiedt of inzet die beeldmateriaal genereren of bewerken.</li>
-  <li><b>Leg de actuele tijdlijn vast in je AI-beleid.</b> Een beleid dat nog de oude datum van augustus 2026 noemt, is na vandaag verouderend. Hoe je dat opzet, staat op <a href="/nl/ai-beleid">AI-beleid</a>.</li>
+  <li><b>Leg de actuele tijdlijn vast in je AI-beleid.</b> Een beleid dat nog de oude datum van augustus 2026 noemt, loopt vanaf vandaag achter. Hoe je dat opzet, staat op <a href="/nl/ai-beleid">AI-beleid</a>.</li>
   <li><b>Laat het geheel objectief doorlichten als je het zelf niet kunt overzien.</b> Het <a href="/nl/diensten/ai-readiness-assessment">AI Readiness Assessment</a> brengt de classificatie en de compliance-status van al je toepassingen in kaart, inclusief de actuele data uit dit artikel.</li>
 </ul>
 <p>Voor de doorlopende bewaking van die roadmap, zonder dat je er een fulltime functie voor aanstelt, is een <a href="/nl/diensten/fractional-ai-lead">Fractional AI Lead</a> de rol die de agenda bewaakt en bijstuurt zodra de regelgeving opnieuw verschuift. Hoe je die bewaking organiseert zonder er een bureaucratie van te maken, beschrijf ik in <a href="/nl/inzichten/ai-governance-zonder-bureaucratie">AI-governance zonder bureaucratie</a>.</p>
