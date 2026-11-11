@@ -19,10 +19,10 @@ const ctaHref = contactEntry?.live[locale] ? contactEntry.paths[locale] : null;
 const active = (href: string) =>
   href === homeHref ? currentPath.replace(/\/$/, '') === homeHref.replace(/\/$/, '') : currentPath.startsWith(href);
 const toLocale = otherLocale(locale);
-// Geen fallback naar de homepage: de homepage telt alleen mee via counterpart() wanneer de
-// huidige pagina zelf de homepage is. Elke andere pagina zonder eigen live counterpart krijgt
-// geen schakelaar, ook niet nu de homepage wel live is in de andere taal.
-const switchHref = counterpart(currentPath, locale, toLocale);
+// Geen live counterpart (bv. een NL-only artikel zoals shadow-ai, of een content-pagina met
+// noEn/noindex)? Dan verdwijnt de schakelaar niet, maar wijst hij naar de Inzichten/Insights-hub
+// in de andere taal — die is in beide talen altijd live. Geen fallback naar de homepage.
+const switchHref = counterpart(currentPath, locale, toLocale) ?? routeById('inzichten')?.paths[toLocale] ?? null;
 ---
 <header class="site-header">
   <div class="container nav-wrap">

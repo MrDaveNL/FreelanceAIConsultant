@@ -2,7 +2,7 @@
   "url": "/ai-consultancy/ai-consultant-inhuren",
   "build_bestand": "dist/ai-consultancy/ai-consultant-inhuren/index.html",
   "html": {
-    "bytes": 40610,
+    "bytes": 40698,
     "lang": "nl"
   },
   "beschermd": {
@@ -315,6 +315,13 @@
       "soort": "intern",
       "href": "/nl/over",
       "anker": "Over mij",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/insights",
+      "anker": "EN",
       "rel": null
     },
     {
@@ -856,5 +863,5 @@
     "aantal_details": 5,
     "aantal_tabellen": 1
   },
-  "gemeten_op": "2026-10-29"
+  "gemeten_op": "2026-11-11"
 }
