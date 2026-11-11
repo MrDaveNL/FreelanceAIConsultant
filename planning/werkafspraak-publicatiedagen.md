@@ -42,3 +42,23 @@ steeds opnieuw ter discussie staat.
 Geen vervanging van de content-checks zelf en geen nieuwe tool. Alleen de vaste volgorde van
 vier stappen die bij elke publicatiedag terugkomt: main in de branch, `LINK-TODO`'s in live
 blogs, nulmeting-baseline opnieuw genereren tegen die samengevoegde staat, dan build/check/deploy.
+
+## Consistentie bij wetgeving en actualiteit (sinds correctieronde batch 3)
+
+Een agent die een blog over wetgeving of een ander snel veranderend onderwerp schrijft of
+corrigeert, leest **eerst** de al geschreven blogs over hetzelfde onderwerp, ook als die nog op
+een eigen, niet-gemergede branch staan. Zoek daarop expliciet, niet er impliciet van uit dat een
+eerder artikel er nog niet is.
+
+**Waarom:** bij de correctieronde van BLOG-11 (AI in HR) stond in het artikel nog "voorlopig
+politiek akkoord" over het uitstel van de hoog-risicoverplichtingen uit bijlage III van de AI Act,
+terwijl BLOG-02 (AI Act na de Digital Omnibus, branch `blog/blog-02-ai-act-omnibus`) die stand al
+had geactualiseerd naar de definitieve publicatie: Verordening (EU) 2026/1744, gepubliceerd
+24 juli 2026, in werking 27 juli 2026. Zonder die blog eerst te lezen, sprak BLOG-11 een eerdere,
+al geverifieerde stand tegen in plaats van hem te volgen.
+
+**Hoe toe te passen:** voordat je een paragraaf over wetgeving, een deadline of een cijfer
+herschrijft of nieuw schrijft, zoek eerst of er al een ander artikel (gepubliceerd of op een eigen
+branch) over hetzelfde onderwerp bestaat, en gebruik de daar al geverifieerde stand als basis.
+Wijkt je eigen onderzoek daarvan af, meld dat expliciet in plaats van stilzwijgend een andere
+versie van de feiten te publiceren.
