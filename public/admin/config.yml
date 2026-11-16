@@ -1,0 +1,164 @@
+# Sveltia CMS configuratie voor freelanceaiconsultant.com.
+#
+# Scope: alleen de kennisbank (src/content/pages/{en,nl}/kennisbank). Geen dienstenpagina's,
+# home, over, werkwijze, cases, inzichten, RAG-blokken, data-bestanden, routes, componenten,
+# layouts of schema/JSON-LD. Zie docs/cms.md en docs/beslissingen.md voor de redenen.
+#
+# Geen Sveltia-i18n (geen top-level "i18n:"-blok): EN en NL zijn twee losse collecties. De
+# "id"-waarde in de front matter koppelt een EN- en NL-pagina inhoudelijk, maar is voor het CMS
+# puur informatief, Sveltia schrijft er niets in terug. Reden: de url/mapnaam per taal is niet
+# hetzelfde (bijv. "ai-examples" vs "ai-voorbeelden"), terwijl Sveltia's i18n-structuren
+# (multiple_files/multiple_folders) een identieke slug per taal verwachten.
+#
+# create/delete staan uit op allebei de collecties: dit CMS is voor kleine tekstaanpassingen aan
+# bestaande kennisbankpagina's, niet voor nieuwe pagina's. Nieuwe kennisbankpagina's (met een
+# nieuw id, cluster, interne links en RAG-afstemming) blijven via Claude Code lopen.
+
+backend:
+  name: github
+  repo: MrDaveNL/FreelanceAIConsultant
+  branch: cms
+
+# Niet gebruikt: geen afbeelding staat in content-bestanden (zie fase 1, punt 7). Verplicht veld
+# voor Sveltia, vandaar een map die in de praktijk leeg blijft.
+media_folder: "public/admin/uploads"
+public_folder: "/admin/uploads"
+
+collections:
+  - name: kennisbank_en
+    label: "Knowledge base (EN)"
+    folder: src/content/pages/en/kennisbank
+    path: "{{slug}}/index"
+    format: frontmatter
+    extension: md
+    create: false
+    delete: false
+    fields:
+      - { label: "ID (koppelt aan de NL-versie, niet aanpassen)", name: id, widget: string, pattern: ["^[A-Za-z0-9-]+$", "Alleen letters, cijfers en -"] }
+      - { label: Taal, name: lang, widget: hidden, default: en }
+      - { label: URL, name: url, widget: string, pattern: ["^/", "Moet beginnen met /"] }
+      - { label: "Parent ID", name: parent, widget: string, required: false }
+      - { label: Cluster, name: cluster, widget: string }
+      - { label: "Page type", name: pageType, widget: string }
+      - { label: Schema, name: schema, widget: select, options: [service, article, collection, pricing] }
+      - { label: "Navigatielabel", name: navLabel, widget: string }
+      - { label: "Titel (H1)", name: title, widget: string }
+      - { label: "Meta title (max 60 tekens)", name: metaTitle, widget: string, pattern: ["^.{1,60}$", "Max 60 tekens"] }
+      - { label: "Meta description (120-160 tekens)", name: metaDescription, widget: text, pattern: ["^.{120,160}$", "120-160 tekens"] }
+      - { label: Keyphrase, name: keyphrase, widget: string, required: false }
+      - { label: Eyebrow, name: eyebrow, widget: string }
+      - { label: Lede, name: lede, widget: text }
+      - name: primaryCta
+        label: "Primaire CTA"
+        widget: object
+        fields:
+          - { label: Label, name: label, widget: string }
+          - { label: Href, name: href, widget: string }
+      - name: secondaryCta
+        label: "Secundaire CTA"
+        widget: object
+        required: false
+        fields:
+          - { label: Label, name: label, widget: string }
+          - { label: Href, name: href, widget: string }
+      - name: summary
+        label: Summary
+        widget: list
+        required: false
+        max: 4
+        field: { label: Punt, name: item, widget: string }
+      - { label: Published, name: published, widget: string }
+      - { label: Updated, name: updated, widget: string }
+      - { label: "FAQ titel", name: faqTitle, widget: string, required: false }
+      - name: faq
+        label: FAQ
+        widget: list
+        required: false
+        fields:
+          - { label: Vraag, name: q, widget: string }
+          - { label: Antwoord, name: a, widget: text }
+      - { label: Noindex, name: noindex, widget: boolean, required: false }
+      - name: sources
+        label: Bronnen
+        widget: list
+        required: false
+        fields:
+          - { label: Titel, name: title, widget: string }
+          - { label: URL, name: url, widget: string }
+      - label: "Inhoud (body)"
+        name: body
+        widget: text
+        hint: >-
+          Gewoon tekstveld, geen markdown-editor, zodat de opmaak niet verandert.
+          Laat {{price:...}}, {{pricelc:...}}, {{timing:...}} en {{title:...}} altijd
+          ongewijzigd staan: deze tokens worden bij het bouwen automatisch vervangen
+          door de actuele prijzen en doorlooptijden. Verwijderen of aanpassen breekt de publicatie.
+
+  - name: kennisbank_nl
+    label: "Kennisbank (NL)"
+    folder: src/content/pages/nl/kennisbank
+    path: "{{slug}}/index"
+    format: frontmatter
+    extension: md
+    create: false
+    delete: false
+    fields:
+      - { label: "ID (koppelt aan de EN-versie, niet aanpassen)", name: id, widget: string, pattern: ["^[A-Za-z0-9-]+$", "Alleen letters, cijfers en -"] }
+      - { label: Taal, name: lang, widget: hidden, default: nl }
+      - { label: URL, name: url, widget: string, pattern: ["^/", "Moet beginnen met /"] }
+      - { label: "Parent ID", name: parent, widget: string, required: false }
+      - { label: Cluster, name: cluster, widget: string }
+      - { label: "Page type", name: pageType, widget: string }
+      - { label: Schema, name: schema, widget: select, options: [service, article, collection, pricing] }
+      - { label: "Navigatielabel", name: navLabel, widget: string }
+      - { label: "Titel (H1)", name: title, widget: string }
+      - { label: "Meta title (max 60 tekens)", name: metaTitle, widget: string, pattern: ["^.{1,60}$", "Max 60 tekens"] }
+      - { label: "Meta description (120-160 tekens)", name: metaDescription, widget: text, pattern: ["^.{120,160}$", "120-160 tekens"] }
+      - { label: Keyphrase, name: keyphrase, widget: string, required: false }
+      - { label: Eyebrow, name: eyebrow, widget: string }
+      - { label: Lede, name: lede, widget: text }
+      - name: primaryCta
+        label: "Primaire CTA"
+        widget: object
+        fields:
+          - { label: Label, name: label, widget: string }
+          - { label: Href, name: href, widget: string }
+      - name: secondaryCta
+        label: "Secundaire CTA"
+        widget: object
+        required: false
+        fields:
+          - { label: Label, name: label, widget: string }
+          - { label: Href, name: href, widget: string }
+      - name: summary
+        label: Summary
+        widget: list
+        required: false
+        max: 4
+        field: { label: Punt, name: item, widget: string }
+      - { label: Published, name: published, widget: string }
+      - { label: Updated, name: updated, widget: string }
+      - { label: "FAQ titel", name: faqTitle, widget: string, required: false }
+      - name: faq
+        label: FAQ
+        widget: list
+        required: false
+        fields:
+          - { label: Vraag, name: q, widget: string }
+          - { label: Antwoord, name: a, widget: text }
+      - { label: Noindex, name: noindex, widget: boolean, required: false }
+      - name: sources
+        label: Bronnen
+        widget: list
+        required: false
+        fields:
+          - { label: Titel, name: title, widget: string }
+          - { label: URL, name: url, widget: string }
+      - label: "Inhoud (body)"
+        name: body
+        widget: text
+        hint: >-
+          Gewoon tekstveld, geen markdown-editor, zodat de opmaak niet verandert.
+          Laat {{price:...}}, {{pricelc:...}}, {{timing:...}} en {{title:...}} altijd
+          ongewijzigd staan: deze tokens worden bij het bouwen automatisch vervangen
+          door de actuele prijzen en doorlooptijden. Verwijderen of aanpassen breekt de publicatie.

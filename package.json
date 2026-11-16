@@ -11,6 +11,7 @@
     "postbuild": "node planning/check-dist.mjs && node planning/check-nulmeting.mjs && node planning/check-rag.mjs",
     "nulmeting": "node planning/nulmeting.mjs",
     "check": "node planning/check-dist.mjs && node planning/check-nulmeting.mjs && node planning/check-nulmeting-en.mjs && node planning/check-rag.mjs && node planning/check-overflow.mjs",
+    "test": "node --test scripts/*.test.mjs",
     "preview": "astro preview"
   },
   "dependencies": {
