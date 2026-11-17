@@ -7,6 +7,7 @@
 import { readdirSync, readFileSync, existsSync } from 'node:fs';
 import { join } from 'node:path';
 import type { Locale } from '../i18n/locales';
+import { assertKennisbankUrl, assertUniqueKennisbankIds } from '../../scripts/kennisbank-routes.mjs';
 export type { Locale };
 
 export type RouteKind = 'static' | 'content' | 'service' | 'case' | 'article';
@@ -54,6 +55,8 @@ interface KennisbankPage {
   id: string;
   url: string;
   noindex: boolean;
+  lang: Locale;
+  file: string;
 }
 
 // Relatief t.o.v. de huidige working directory (zoals 'src/content/pages' elders in dit project,
@@ -66,20 +69,29 @@ function kennisbankPages(lang: Locale): KennisbankPage[] {
   const dir = join(PAGES_ROOT, lang, 'kennisbank');
   if (!existsSync(dir)) return [];
   const out: KennisbankPage[] = [];
-  const walk = (current: string) => {
+  // 'segments' is het pad van submappen tussen de taal-kennisbankmap en index.md, bijv.
+  // ['ai-voorbeelden']. Leeg voor de hub-pagina (index.md direct in kennisbank/).
+  const walk = (current: string, segments: string[]) => {
     for (const entry of readdirSync(current, { withFileTypes: true })) {
       const full = join(current, entry.name);
-      if (entry.isDirectory()) walk(full);
+      if (entry.isDirectory()) walk(full, [...segments, entry.name]);
       else if (entry.name === 'index.md') {
         const raw = readFileSync(full, 'utf8');
         const id = frontmatterField(raw, 'id');
         const url = frontmatterField(raw, 'url');
         if (!id || !url) throw new Error(`Kennisbankpagina zonder geldige 'id' of 'url' in front matter: ${full}`);
-        out.push({ id, url, noindex: frontmatterField(raw, 'noindex') === 'true' });
+        const folderName = segments.join('/');
+        // Voorkomt dat een url wordt opgeslagen die niet bij de map past (bijv. map
+        // 'ai-specialisten' met url '/nl/kennisbank/test'): laat de build hard falen.
+        assertKennisbankUrl({ lang, folderName, url, id, file: full });
+        out.push({ id, url, noindex: frontmatterField(raw, 'noindex') === 'true', lang, file: full });
       }
     }
   };
-  walk(dir);
+  walk(dir, []);
+  // Voorkomt een dubbel id binnen dezelfde taal (hetzelfde id in NL én EN is juist bedoeld:
+  // zo worden de taalversies van een pagina gekoppeld, zie buildKennisbankRoutes()).
+  assertUniqueKennisbankIds(out);
   return out;
 }
 

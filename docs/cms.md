@@ -16,6 +16,17 @@ create en delete staan AAN. Een nieuwe of verwijderde pagina werkt zonder handwe
   een contentpagina — kennisbank of niet — toch geen `live` route heeft. Dit is het vangnet: een
   nieuwe pagina kan nooit stil uit de sitemap/hreflang verdwijnen omdat iemand een routes.ts-regel
   vergat.
+- `buildKennisbankRoutes()` leidt de verwachte url van elke kennisbankpagina af van de mapnaam
+  (`src/content/pages/{nl,en}/kennisbank/<mapnaam>/index.md`): NL moet `/nl/kennisbank/<mapnaam>`
+  zijn, EN `/knowledge-base/<mapnaam>` (geen taalprefix, ander segment dan "kennisbank" — bestaande
+  EN-conventie voor deze sectie). De hub-pagina (`index.md` direct in `kennisbank/`, geen submap)
+  moet respectievelijk `/nl/kennisbank` en `/knowledge-base` zijn. Komt de url in de front matter
+  hier niet mee overeen (bijv. map `ai-specialisten` met url `/nl/kennisbank/test`), dan faalt de
+  build met een Nederlandse melding die pagina-id, gevonden url en verwachte url noemt. Dezelfde
+  functie controleert ook dat elk `id` uniek is binnen één taal (hetzelfde id in NL én EN is juist
+  bedoeld, zie hieronder); een dubbel id binnen één taal faalt de build met een Nederlandse
+  melding die beide bestanden en de taal noemt. Beide controles zitten in
+  `scripts/kennisbank-routes.mjs` (los van `node:fs` getest, zie `npm test`).
 - `identifier_field: navLabel` in `config.yml` zorgt dat de mapnaam van een nieuwe pagina op het
   korte navigatielabel wordt gebaseerd (bijv. "ai-tools"), niet op de lange titelzin.
 - `cms-publish.ps1` waarschuwt (blokkeert niet) als een nieuwe kennisbankpagina geen tegenhanger
@@ -152,3 +163,12 @@ eentalige pagina's geven dus geen waarschuwing.
 
 Unit tests: `npm test`. `cms-publish.ps1` roept `check-cms-content.mjs` en
 `check-cms-counterpart.mjs` aan voor elke publicatie.
+
+## Bekende valkuilen in `cms-publish.ps1` zelf
+
+- Elke `git diff`/`git log` die rechtstreeks naar het scherm schrijft (stap 2 en 3) gebruikt
+  `--no-pager`. Zonder die vlag opent git de pager (`less`) en blijft het script hangen op
+  `(END)` zodra de output niet in één scherm past.
+- Het script zet bovenin `[Console]::OutputEncoding = [System.Text.Encoding]::UTF8`. Zonder dat
+  tonen aanhalingstekens in commitberichten (bijv. uit Sveltia) als `ΓÇ£`/`ΓÇ¥` in plaats van
+  `"`/`"`.
