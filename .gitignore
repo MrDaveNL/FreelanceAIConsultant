@@ -7,3 +7,4 @@ dist/
 !.env.example
 .DS_Store
 cms-publish.ps1
+.claude/worktrees/
