@@ -13,11 +13,14 @@ import yaml from 'js-yaml';
 
 const root = process.cwd();
 
-// Eén EN- en één NL-kennisbankpagina, allebei met {{price:...}}/{{timing:...}}-tokens in de body,
-// zodat de test ook meteen bewijst dat een YAML-herdump die tokens niet aanraakt.
+// Eén pagina per CMS-collectie (public/admin/config.yml): kennisbank_en/kennisbank_nl (fase 2) en
+// overige_pagina_en/overige_pagina_nl (fase 3). tarieven heeft {{price:...}}/{{timing:...}}-tokens
+// in de body, zodat de test ook meteen bewijst dat een YAML-herdump die tokens niet aanraakt.
 const TARGETS = [
   { file: 'src/content/pages/en/kennisbank/ai-examples/index.md', out: 'knowledge-base/ai-examples/index.html' },
   { file: 'src/content/pages/nl/kennisbank/ai-voorbeelden/index.md', out: 'nl/kennisbank/ai-voorbeelden/index.html' },
+  { file: 'src/content/pages/en/tarieven/index.md', out: 'pricing/index.html' },
+  { file: 'src/content/pages/nl/tarieven/index.md', out: 'nl/tarieven/index.html' },
 ];
 const EXCLUDE_DIRS = ['node_modules', '.git', 'dist', '.astro', 'releases', '.claude'];
 
