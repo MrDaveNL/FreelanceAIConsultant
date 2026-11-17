@@ -1,18 +1,32 @@
 # Sveltia CMS configuratie voor freelanceaiconsultant.com.
 #
-# Scope: alleen de kennisbank (src/content/pages/{en,nl}/kennisbank). Geen dienstenpagina's,
-# home, over, werkwijze, cases, inzichten, RAG-blokken, data-bestanden, routes, componenten,
-# layouts of schema/JSON-LD. Zie docs/cms.md en docs/beslissingen.md voor de redenen.
+# Scope: markdown-content onder src/content/pages/{en,nl}. Geen dienstenpagina's, cases,
+# inzichten, RAG-blokken, data-bestanden, routes, componenten, layouts of schema/JSON-LD. Zie
+# docs/cms.md voor de redenen; voor home/over/werkwijze (geen markdown, maar hardcoded
+# .astro-pagina's + src/data/*.js) zie docs/cms.md en planning/migratieplan-kernpaginas-cms.md.
 #
-# Geen Sveltia-i18n (geen top-level "i18n:"-blok): EN en NL zijn twee losse collecties. De
+# Geen Sveltia-i18n (geen top-level "i18n:"-blok): EN en NL zijn losse collecties per taal. De
 # "id"-waarde in de front matter koppelt een EN- en NL-pagina inhoudelijk, maar is voor het CMS
 # puur informatief, Sveltia schrijft er niets in terug. Reden: de url/mapnaam per taal is niet
 # hetzelfde (bijv. "ai-examples" vs "ai-voorbeelden"), terwijl Sveltia's i18n-structuren
 # (multiple_files/multiple_folders) een identieke slug per taal verwachten.
 #
-# create/delete staan uit op allebei de collecties: dit CMS is voor kleine tekstaanpassingen aan
-# bestaande kennisbankpagina's, niet voor nieuwe pagina's. Nieuwe kennisbankpagina's (met een
-# nieuw id, cluster, interne links en RAG-afstemming) blijven via Claude Code lopen.
+# Twee soorten collecties:
+# - kennisbank_en/kennisbank_nl: create en delete staan AAN. Een nieuwe of verwijderde pagina
+#   werkt zonder handwerk in routes.ts: src/data/routes.ts leidt de kennisbank-routes (sitemap,
+#   hreflang, taalwisselaar) automatisch af uit de front matter van deze bestanden, en de build
+#   faalt met een duidelijke melding (src/pages/[...slug].astro) als een contentpagina toch geen
+#   'live' route heeft. 'identifier_field: navLabel' zorgt dat de mapnaam van een nieuwe pagina
+#   op het korte navigatielabel wordt gebaseerd, niet op de lange titel.
+# - overige_pagina_en/overige_pagina_nl: alle andere markdown-pagina's onder src/content/pages
+#   (de 12 clusters, elk een hoofdpagina + eventuele subpagina's), als "files"-collecties: een
+#   vaste lijst van bestaande bestanden, zodat er hier GEEN create/delete-knop kan verschijnen.
+#   Nieuwe pagina's in deze clusters (nieuw id, interne links, RAG-afstemming) blijven via
+#   Claude Code lopen, met de volledige verificatie.
+#
+# Beide typen delen hetzelfde front-matter-schema (content.config.ts); de velden staan daarom
+# maar twee keer voluit (pagesFieldsEn/pagesFieldsNl, als YAML-anchor), één keer per taal, en
+# worden door elke collectie in die taal hergebruikt.
 
 backend:
   name: github
@@ -29,18 +43,64 @@ collections:
     label: "Knowledge base (EN)"
     folder: src/content/pages/en/kennisbank
     path: "{{slug}}/index"
+    identifier_field: navLabel
     format: frontmatter
     extension: md
-    create: false
-    delete: false
-    fields:
-      - { label: "ID (koppelt aan de NL-versie, niet aanpassen)", name: id, widget: string, pattern: ["^[A-Za-z0-9-]+$", "Alleen letters, cijfers en -"] }
+    create: true
+    delete: true
+    fields: &pagesFieldsEn
+      - label: "ID"
+        name: id
+        widget: string
+        pattern: ["^[A-Za-z0-9-]+$", "Alleen letters, cijfers en -"]
+        hint: >-
+          Koppelt de EN- en NL-versie van deze pagina; moet uniek zijn op de hele site.
+          Voorbeeld: C10-06, of een nieuw P-nummer voor een hoofdpagina. Controleer de IDs van de
+          andere pagina's in deze lijst (en de NL-lijst) voordat je kiest, om een dubbele ID te
+          voorkomen.
       - { label: Taal, name: lang, widget: hidden, default: en }
-      - { label: URL, name: url, widget: string, pattern: ["^/", "Moet beginnen met /"] }
-      - { label: "Parent ID", name: parent, widget: string, required: false }
-      - { label: Cluster, name: cluster, widget: string }
-      - { label: "Page type", name: pageType, widget: string }
-      - { label: Schema, name: schema, widget: select, options: [service, article, collection, pricing] }
+      - label: URL
+        name: url
+        widget: string
+        pattern: ["^/", "Moet beginnen met /"]
+        hint: "Bijvoorbeeld /knowledge-base/my-new-page. Moet overeenkomen met de mapnaam van dit bestand."
+      - label: "Parent ID"
+        name: parent
+        widget: string
+        required: false
+        hint: >-
+          ID van de bovenliggende pagina (bijv. C3-05), of leeg laten voor een hoofdpagina
+          (hub). Dit is een vrij tekstveld, geen dropdown: 'parent' kan ook naar een pagina
+          buiten de kennisbank verwijzen.
+      - label: Cluster
+        name: cluster
+        widget: select
+        options:
+          - "1. AI Consulting & Advice"
+          - "2. AI Implementation"
+          - "3. AI Automation"
+          - "4. AI for business"
+          - "5. AI Development"
+          - "6. AI Agents"
+          - "7. AI markets"
+          - "8. AI policy & governance"
+          - "9. AI workshops & training"
+          - "10. Knowledge base AI tools"
+          - "Core pages"
+        default: "10. Knowledge base AI tools"
+        hint: "Welke sectie van de site. Voor een nieuwe kennisbankpagina meestal '10. Knowledge base AI tools'."
+      - label: "Page type"
+        name: pageType
+        widget: select
+        options: [Hub, Spoke, Sector, "Knowledge base", "Knowledge base hub", "Conversion / pricing", "Trust / partner network"]
+        default: "Knowledge base"
+        hint: "Meestal 'Knowledge base' voor een gewone kennisbankpagina."
+      - label: Schema
+        name: schema
+        widget: select
+        options: [service, article, collection, pricing]
+        default: article
+        hint: "'article' voor een gewone kennisbankpagina, 'collection' alleen voor de kennisbank-hub."
       - { label: "Navigatielabel", name: navLabel, widget: string }
       - { label: "Titel (H1)", name: title, widget: string }
       - { label: "Meta title (max 60 tekens)", name: metaTitle, widget: string, pattern: ["^.{1,60}$", "Max 60 tekens"] }
@@ -98,18 +158,64 @@ collections:
     label: "Kennisbank (NL)"
     folder: src/content/pages/nl/kennisbank
     path: "{{slug}}/index"
+    identifier_field: navLabel
     format: frontmatter
     extension: md
-    create: false
-    delete: false
-    fields:
-      - { label: "ID (koppelt aan de EN-versie, niet aanpassen)", name: id, widget: string, pattern: ["^[A-Za-z0-9-]+$", "Alleen letters, cijfers en -"] }
+    create: true
+    delete: true
+    fields: &pagesFieldsNl
+      - label: "ID"
+        name: id
+        widget: string
+        pattern: ["^[A-Za-z0-9-]+$", "Alleen letters, cijfers en -"]
+        hint: >-
+          Koppelt de EN- en NL-versie van deze pagina; moet uniek zijn op de hele site.
+          Voorbeeld: C10-06, of een nieuw P-nummer voor een hoofdpagina. Controleer de IDs van de
+          andere pagina's in deze lijst (en de EN-lijst) voordat je kiest, om een dubbele ID te
+          voorkomen.
       - { label: Taal, name: lang, widget: hidden, default: nl }
-      - { label: URL, name: url, widget: string, pattern: ["^/", "Moet beginnen met /"] }
-      - { label: "Parent ID", name: parent, widget: string, required: false }
-      - { label: Cluster, name: cluster, widget: string }
-      - { label: "Page type", name: pageType, widget: string }
-      - { label: Schema, name: schema, widget: select, options: [service, article, collection, pricing] }
+      - label: URL
+        name: url
+        widget: string
+        pattern: ["^/", "Moet beginnen met /"]
+        hint: "Bijvoorbeeld /nl/kennisbank/mijn-nieuwe-pagina. Moet overeenkomen met de mapnaam van dit bestand."
+      - label: "Parent ID"
+        name: parent
+        widget: string
+        required: false
+        hint: >-
+          ID van de bovenliggende pagina (bijv. C3-05), of leeg laten voor een hoofdpagina
+          (hub). Dit is een vrij tekstveld, geen dropdown: 'parent' kan ook naar een pagina
+          buiten de kennisbank verwijzen.
+      - label: Cluster
+        name: cluster
+        widget: select
+        options:
+          - "1. AI Consultancy & Advies"
+          - "2. AI Implementatie"
+          - "3. AI Automatisering"
+          - "4. AI voor bedrijven"
+          - "5. AI Development"
+          - "6. AI Agents"
+          - "7. AI markten"
+          - "8. AI beleid & governance"
+          - "9. AI workshops & training"
+          - "10. Kennisbank AI tools"
+          - "Kernpagina's"
+        default: "10. Kennisbank AI tools"
+        hint: "Welke sectie van de site. Voor een nieuwe kennisbankpagina meestal '10. Kennisbank AI tools'."
+      - label: "Page type"
+        name: pageType
+        widget: select
+        options: [Hub, Spoke, Branche, Kennisbank, "Kennisbank hub", "Conversie / tarieven", "Trust / partnernetwerk"]
+        default: "Kennisbank"
+        hint: "Meestal 'Kennisbank' voor een gewone kennisbankpagina."
+      - label: Schema
+        name: schema
+        widget: select
+        options: [service, article, collection, pricing]
+        default: article
+        hint: "'article' voor een gewone kennisbankpagina, 'collection' alleen voor de kennisbank-hub."
       - { label: "Navigatielabel", name: navLabel, widget: string }
       - { label: "Titel (H1)", name: title, widget: string }
       - { label: "Meta title (max 60 tekens)", name: metaTitle, widget: string, pattern: ["^.{1,60}$", "Max 60 tekens"] }
@@ -162,3 +268,86 @@ collections:
           Laat {{price:...}}, {{pricelc:...}}, {{timing:...}} en {{title:...}} altijd
           ongewijzigd staan: deze tokens worden bij het bouwen automatisch vervangen
           door de actuele prijzen en doorlooptijden. Verwijderen of aanpassen breekt de publicatie.
+
+  # Vaste lijst van bestaande bestanden (geen 'folder'): er is hierdoor geen create/delete
+  # mogelijk, ook niet per ongeluk. Nieuwe pagina's in deze clusters blijven via Claude Code lopen.
+  - name: overige_pagina_en
+    label: "Other pages (EN)"
+    files:
+      - { name: "C6-03", label: "Build an AI agent", file: "src/content/pages/en/ai-agents/build/index.md", fields: *pagesFieldsEn }
+      - { name: "C6-04", label: "AI agent examples", file: "src/content/pages/en/ai-agents/examples/index.md", fields: *pagesFieldsEn }
+      - { name: "C6-00", label: "AI Agents", file: "src/content/pages/en/ai-agents/index.md", fields: *pagesFieldsEn }
+      - { name: "C6-01", label: "What is an AI agent?", file: "src/content/pages/en/ai-agents/what-is-an-ai-agent/index.md", fields: *pagesFieldsEn }
+      - { name: "C3-05", label: "AI Tools", file: "src/content/pages/en/ai-automatisering/ai-tools/index.md", fields: *pagesFieldsEn }
+      - { name: "C3-04", label: "AI Workflows", file: "src/content/pages/en/ai-automatisering/ai-workflows/index.md", fields: *pagesFieldsEn }
+      - { name: "C3-03", label: "Automate Business Processes", file: "src/content/pages/en/ai-automatisering/bedrijfsprocessen-automatiseren-met-ai/index.md", fields: *pagesFieldsEn }
+      - { name: "C3-00", label: "AI Automation", file: "src/content/pages/en/ai-automatisering/index.md", fields: *pagesFieldsEn }
+      - { name: "C8-01", label: "AI Act", file: "src/content/pages/en/ai-beleid/ai-act/index.md", fields: *pagesFieldsEn }
+      - { name: "C8-00", label: "AI Policy", file: "src/content/pages/en/ai-beleid/index.md", fields: *pagesFieldsEn }
+      - { name: "C1-03", label: "AI strategy", file: "src/content/pages/en/ai-consultancy/ai-strategie/index.md", fields: *pagesFieldsEn }
+      - { name: "C1-00", label: "AI Consulting", file: "src/content/pages/en/ai-consultancy/index.md", fields: *pagesFieldsEn }
+      - { name: "C5-03", label: "AI Solutions", file: "src/content/pages/en/ai-development/ai-oplossingen/index.md", fields: *pagesFieldsEn }
+      - { name: "C5-02", label: "AI Software", file: "src/content/pages/en/ai-development/ai-software/index.md", fields: *pagesFieldsEn }
+      - { name: "C5-01", label: "AI Specialist", file: "src/content/pages/en/ai-development/ai-specialist/index.md", fields: *pagesFieldsEn }
+      - { name: "C5-00", label: "AI Development", file: "src/content/pages/en/ai-development/index.md", fields: *pagesFieldsEn }
+      - { name: "C2-01", label: "AI Implementation Consulting", file: "src/content/pages/en/ai-implementatie/advies/index.md", fields: *pagesFieldsEn }
+      - { name: "C2-00", label: "AI Implementation", file: "src/content/pages/en/ai-implementatie/index.md", fields: *pagesFieldsEn }
+      - { name: "C2-03", label: "AI Implementation Step-by-Step Plan", file: "src/content/pages/en/ai-implementatie/stappenplan/index.md", fields: *pagesFieldsEn }
+      - { name: "C4-03", label: "AI and BI", file: "src/content/pages/en/ai-voor-bedrijven/ai-en-bi/index.md", fields: *pagesFieldsEn }
+      - { name: "C4-00", label: "AI for Business", file: "src/content/pages/en/ai-voor-bedrijven/index.md", fields: *pagesFieldsEn }
+      - { name: "C4-01", label: "AI for SMEs", file: "src/content/pages/en/ai-voor-bedrijven/mkb/index.md", fields: *pagesFieldsEn }
+      - { name: "C4-02", label: "AI for Professional Services", file: "src/content/pages/en/ai-voor-bedrijven/zakelijke-dienstverleners/index.md", fields: *pagesFieldsEn }
+      - { name: "C9-05", label: "AI Literacy", file: "src/content/pages/en/ai-workshop/ai-geletterdheid-training/index.md", fields: *pagesFieldsEn }
+      - { name: "C9-03", label: "ChatGPT Training", file: "src/content/pages/en/ai-workshop/chatgpt-training/index.md", fields: *pagesFieldsEn }
+      - { name: "C9-02", label: "Copilot Training", file: "src/content/pages/en/ai-workshop/copilot-training/index.md", fields: *pagesFieldsEn }
+      - { name: "C9-00", label: "AI Workshop", file: "src/content/pages/en/ai-workshop/index.md", fields: *pagesFieldsEn }
+      - { name: "C7-04", label: "AI for automotive", file: "src/content/pages/en/markten/automotive/index.md", fields: *pagesFieldsEn }
+      - { name: "C7-03", label: "AI for fintech", file: "src/content/pages/en/markten/fintech/index.md", fields: *pagesFieldsEn }
+      - { name: "C7-00", label: "Markets", file: "src/content/pages/en/markten/index.md", fields: *pagesFieldsEn }
+      - { name: "P06", label: "Partner network", file: "src/content/pages/en/partnernetwerk/index.md", fields: *pagesFieldsEn }
+      - { name: "P04", label: "Pricing", file: "src/content/pages/en/tarieven/index.md", fields: *pagesFieldsEn }
+
+  - name: overige_pagina_nl
+    label: "Overige pagina's (NL)"
+    files:
+      - { name: "C6-00", label: "AI Agents", file: "src/content/pages/nl/ai-agents/index.md", fields: *pagesFieldsNl }
+      - { name: "C6-03", label: "AI agent laten maken", file: "src/content/pages/nl/ai-agents/laten-maken/index.md", fields: *pagesFieldsNl }
+      - { name: "C6-04", label: "AI agents voorbeelden", file: "src/content/pages/nl/ai-agents/voorbeelden/index.md", fields: *pagesFieldsNl }
+      - { name: "C6-01", label: "Wat is een AI agent?", file: "src/content/pages/nl/ai-agents/wat-is-een-ai-agent/index.md", fields: *pagesFieldsNl }
+      - { name: "C3-05", label: "AI tools", file: "src/content/pages/nl/ai-automatisering/ai-tools/index.md", fields: *pagesFieldsNl }
+      - { name: "C3-04", label: "AI workflows", file: "src/content/pages/nl/ai-automatisering/ai-workflows/index.md", fields: *pagesFieldsNl }
+      - { name: "C3-03", label: "Bedrijfsprocessen automatiseren", file: "src/content/pages/nl/ai-automatisering/bedrijfsprocessen-automatiseren-met-ai/index.md", fields: *pagesFieldsNl }
+      - { name: "C3-00", label: "AI Automatisering", file: "src/content/pages/nl/ai-automatisering/index.md", fields: *pagesFieldsNl }
+      - { name: "C8-01", label: "AI Act", file: "src/content/pages/nl/ai-beleid/ai-act/index.md", fields: *pagesFieldsNl }
+      - { name: "C8-00", label: "AI beleid", file: "src/content/pages/nl/ai-beleid/index.md", fields: *pagesFieldsNl }
+      - { name: "C1-05", label: "AI advies", file: "src/content/pages/nl/ai-consultancy/ai-advies/index.md", fields: *pagesFieldsNl }
+      - { name: "C1-06", label: "AI consultant inhuren", file: "src/content/pages/nl/ai-consultancy/ai-consultant-inhuren/index.md", fields: *pagesFieldsNl }
+      - { name: "C1-04", label: "AI roadmap", file: "src/content/pages/nl/ai-consultancy/ai-roadmap/index.md", fields: *pagesFieldsNl }
+      - { name: "C1-03", label: "AI strategie", file: "src/content/pages/nl/ai-consultancy/ai-strategie/index.md", fields: *pagesFieldsNl }
+      - { name: "C1-00", label: "AI Consultancy", file: "src/content/pages/nl/ai-consultancy/index.md", fields: *pagesFieldsNl }
+      - { name: "C5-03", label: "AI oplossingen", file: "src/content/pages/nl/ai-development/ai-oplossingen/index.md", fields: *pagesFieldsNl }
+      - { name: "C5-02", label: "AI software", file: "src/content/pages/nl/ai-development/ai-software/index.md", fields: *pagesFieldsNl }
+      - { name: "C5-01", label: "AI specialist", file: "src/content/pages/nl/ai-development/ai-specialist/index.md", fields: *pagesFieldsNl }
+      - { name: "C5-00", label: "AI Development", file: "src/content/pages/nl/ai-development/index.md", fields: *pagesFieldsNl }
+      - { name: "C2-01", label: "AI implementatie advies", file: "src/content/pages/nl/ai-implementatie/advies/index.md", fields: *pagesFieldsNl }
+      - { name: "C2-00", label: "AI Implementatie", file: "src/content/pages/nl/ai-implementatie/index.md", fields: *pagesFieldsNl }
+      - { name: "C2-03", label: "AI implementatie stappenplan", file: "src/content/pages/nl/ai-implementatie/stappenplan/index.md", fields: *pagesFieldsNl }
+      - { name: "C4-03", label: "AI en BI", file: "src/content/pages/nl/ai-voor-bedrijven/ai-en-bi/index.md", fields: *pagesFieldsNl }
+      - { name: "C4-00", label: "AI voor bedrijven", file: "src/content/pages/nl/ai-voor-bedrijven/index.md", fields: *pagesFieldsNl }
+      - { name: "C4-01", label: "AI voor MKB", file: "src/content/pages/nl/ai-voor-bedrijven/mkb/index.md", fields: *pagesFieldsNl }
+      - { name: "C4-02", label: "AI voor dienstverleners", file: "src/content/pages/nl/ai-voor-bedrijven/zakelijke-dienstverleners/index.md", fields: *pagesFieldsNl }
+      - { name: "C9-04", label: "AI coaching", file: "src/content/pages/nl/ai-workshop/ai-coaching/index.md", fields: *pagesFieldsNl }
+      - { name: "C9-05", label: "AI geletterdheid", file: "src/content/pages/nl/ai-workshop/ai-geletterdheid-training/index.md", fields: *pagesFieldsNl }
+      - { name: "C9-03", label: "ChatGPT training", file: "src/content/pages/nl/ai-workshop/chatgpt-training/index.md", fields: *pagesFieldsNl }
+      - { name: "C9-02", label: "Copilot training", file: "src/content/pages/nl/ai-workshop/copilot-training/index.md", fields: *pagesFieldsNl }
+      - { name: "C9-00", label: "AI workshop", file: "src/content/pages/nl/ai-workshop/index.md", fields: *pagesFieldsNl }
+      - { name: "C7-04", label: "AI voor automotive", file: "src/content/pages/nl/markten/automotive/index.md", fields: *pagesFieldsNl }
+      - { name: "C7-03", label: "AI voor fintech", file: "src/content/pages/nl/markten/fintech/index.md", fields: *pagesFieldsNl }
+      - { name: "C7-00", label: "Markten", file: "src/content/pages/nl/markten/index.md", fields: *pagesFieldsNl }
+      - { name: "C7-06", label: "AI in de luchtvaart", file: "src/content/pages/nl/markten/luchtvaart/index.md", fields: *pagesFieldsNl }
+      - { name: "C7-02", label: "AI voor marketing", file: "src/content/pages/nl/markten/marketing/index.md", fields: *pagesFieldsNl }
+      - { name: "C7-05", label: "AI in het onderwijs", file: "src/content/pages/nl/markten/onderwijs/index.md", fields: *pagesFieldsNl }
+      - { name: "C7-07", label: "AI binnen de overheid", file: "src/content/pages/nl/markten/overheid/index.md", fields: *pagesFieldsNl }
+      - { name: "C7-01", label: "AI in de zorg", file: "src/content/pages/nl/markten/zorg/index.md", fields: *pagesFieldsNl }
+      - { name: "P06", label: "Partnernetwerk", file: "src/content/pages/nl/partnernetwerk/index.md", fields: *pagesFieldsNl }
+      - { name: "P04", label: "Tarieven", file: "src/content/pages/nl/tarieven/index.md", fields: *pagesFieldsNl }
