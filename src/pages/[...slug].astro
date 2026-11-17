@@ -7,7 +7,7 @@ import { site } from '../data/site.js';
 import { services } from '../data/services.js';
 import { resolveToken, resolveContactHref } from '../lib/service-tokens.js';
 import { protectedUrls } from '../data/protected-urls.js';
-import { routeById } from '../data/routes';
+import { routeById, routeByPath } from '../data/routes';
 import { t, localeFromPath, SCHEMA_LANG } from '../i18n';
 import { buildFaqPageSchema, buildBreadcrumbList } from '../lib/schema.js';
 import '../styles/content-pages.css';
@@ -17,10 +17,22 @@ export async function getStaticPaths() {
   const entries = await getCollection('pages');
   const seen = new Set();
   for (const entry of entries) {
-    const { url, id } = entry.data;
+    const { url, id, lang } = entry.data;
     if (protectedUrls.includes(url)) throw new Error(`${id} probeert bestaande URL ${url} te genereren.`);
     if (seen.has(url)) throw new Error(`Dubbele URL in content: ${url}`);
     seen.add(url);
+    // Vangnet voor src/data/routes.ts: elke contentpagina moet een route hebben die 'live' is in
+    // haar eigen taal, anders missen sitemap, hreflang en de taalwisselaar deze pagina stil (zie
+    // docs/cms.md). De kennisbank leidt zijn routes automatisch af uit de content (zie
+    // buildKennisbankRoutes() in routes.ts); voor elke andere cluster betekent deze foutmelding
+    // dat er een regel in routes.ts ontbreekt of niet op 'liveEn/liveNl' staat.
+    const route = routeByPath(url, lang);
+    if (!route || !route.live[lang]) {
+      throw new Error(
+        `Pagina ${id} (${url}) heeft geen 'live' route in src/data/routes.ts voor taal '${lang}'. ` +
+          `Voeg een regel toe (of, voor de kennisbank, controleer de front matter) voordat deze pagina gebouwd kan worden.`
+      );
+    }
   }
   return entries.map((entry) => ({
     params: { slug: entry.data.url.slice(1) },
