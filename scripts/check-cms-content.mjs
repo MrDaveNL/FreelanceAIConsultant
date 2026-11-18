@@ -80,17 +80,25 @@ async function main() {
   const added = addedLines(diff);
   const forbidden = findForbidden(added);
 
+  // stdio[2] ('ignore'): git schrijft "fatal: path '...' does not exist in '<ref>'" rechtstreeks
+  // naar stderr zodra het bestand in die ref niet bestaat (execSync erft stderr standaard door
+  // naar de console, ook al wordt de fout hieronder al afgehandeld). Dat is een normaal, verwacht
+  // geval bij een NIEUW bestand (nog niet op main) en zou zonder deze optie een verwarrende
+  // "fatal: ..."-regel op het scherm zetten terwijl de publicatie prima doorgaat.
+  const showFile = (ref, file) => execSync(`git show ${ref}:${file}`, { encoding: 'utf8', stdio: ['pipe', 'pipe', 'ignore'] });
+
   const changedFiles = [...new Set(added.map((l) => l.file))];
   const tokenProblems = [];
   for (const file of changedFiles) {
-    let mainContent, cmsContent;
+    let mainContent;
     try {
-      mainContent = execSync(`git show ${mainRef}:${file}`, { encoding: 'utf8' });
+      mainContent = showFile(mainRef, file);
     } catch {
-      continue; // nieuw bestand, bestaat niet in main, niets om tokens tegen te bewaken.
+      mainContent = ''; // nieuw bestand: behandel als lege basis, er was niets om tokens tegen te bewaken.
     }
+    let cmsContent;
     try {
-      cmsContent = execSync(`git show ${cmsRef}:${file}`, { encoding: 'utf8' });
+      cmsContent = showFile(cmsRef, file);
     } catch {
       continue; // bestand verwijderd in cms; geen token-check hier, de rest van de review vangt dit.
     }

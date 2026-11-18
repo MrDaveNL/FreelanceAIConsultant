@@ -122,13 +122,30 @@ waardenset (gevonden door alle bestaande pagina's onder `src/content/pages` te d
   hub"/"Conversie / tarieven"/"Trust / partnernetwerk" (en de EN-equivalenten), default
   "Kennisbank"/"Knowledge base".
 - **schema**: select service/article/collection/pricing (ongewijzigd), default `article`.
-- **id** en **parent** blijven vrije tekstvelden met een hint en voorbeeld: `id` moet uniek zijn
-  op de hele site (geen eindige lijst om uit te kiezen), en `parent` kan naar een pagina buiten
-  de kennisbank verwijzen (geen relatie-widget beschikbaar over collecties heen).
+- **url** (alleen kennisbank_en/kennisbank_nl): `widget: hidden`, de gebruiker ziet of typt dit
+  veld niet meer. `cms-publish.ps1` draait na de merge `node scripts/fix-kennisbank-urls.mjs`, dat
+  de url van elke kennisbankpagina herschrijft naar wat bij haar mapnaam hoort (zelfde functie,
+  `expectedKennisbankUrl()`, als `assertKennisbankUrl()` in `src/data/routes.ts` gebruikt om dit
+  bij het bouwen te controleren). Commit dit als er iets te corrigeren was, vóór de build. Voor de
+  "overige"-collecties (geen create, dus lager risico) blijft `url` een vrij tekstveld met hint.
+- **parent** (alleen kennisbank_en/kennisbank_nl): select met de bestaande kennisbank-id's van die
+  taal plus de hub (P08). Voor de "overige"-collecties blijft `parent` een vrij tekstveld (kan
+  ook naar een pagina buiten de kennisbank verwijzen, geen relatie-widget beschikbaar over
+  collecties heen); `id` blijft overal vrije tekst (geen eindige lijst om uit te kiezen).
+- **primaryCta.href / secondaryCta.href**: select met de belangrijkste dienst-, cluster- en
+  contactpagina's per taal (zie `&ctaHrefEn`/`&ctaHrefNl` in `config.yml`), voor alle vier de
+  collecties. `content.config.ts` (`isValidHref()` in `src/data/routes.ts`) laat de build hard
+  falen als een href toch geen bestaande, live route of volledige `https://`-URL is — dit vangt
+  ook een href die buiten deze select om is ingevuld (bijv. door Claude Code). Uitzondering:
+  `mailto:<site-email>` blijft geldig voor de oudere EN-kennisbankpagina's die dit al gebruikten
+  vóórdat `/contact` in het Engels live was (zie `resolveContactHref()` in
+  `src/lib/service-tokens.js`); nieuwe pagina's kiezen gewoon de contactpagina-optie.
 
-Deze selects gelden voor alle vier de collecties (ze delen hetzelfde front-matter-schema via een
-YAML-anchor, `&pagesFieldsEn`/`&pagesFieldsNl` in `config.yml`), ook al komt bijvoorbeeld
-"Branche" in de praktijk alleen voor op markten-pagina's.
+Omdat YAML geen manier heeft om een deel van een anchor-lijst te overschrijven (de merge-sleutel
+`<<` werkt alleen voor mappings, niet voor lijsten), staan de velden twee keer voluit in
+`config.yml`: `&kennisbankFieldsEn`/`&kennisbankFieldsNl` (met het verborgen `url`-veld en de
+`parent`/CTA-href-selects hierboven) en `&overigeFieldsEn`/`&overigeFieldsNl` (ongewijzigd:
+`url`/`parent` blijven vrije tekst, alleen de CTA-href is ook hier een select).
 
 ## Byte-identiek-test
 
@@ -154,15 +171,23 @@ controleert:
   gewijzigd bestand niet is verdwenen of veranderd ten opzichte van `main`.
 
 Deze check geldt voor elk bestand dat in de diff voorkomt, dus ook voor de nieuwe
-"overige"-collecties (bijv. tarieven) — niet alleen voor de kennisbank.
+"overige"-collecties (bijv. tarieven) — niet alleen voor de kennisbank. Een NIEUW bestand (bestaat
+nog niet op `main`) wordt behandeld als een lege basis: er zijn dan geen tokens om te verliezen,
+dus geen treffer. `git show` schrijft in dat geval wel een "fatal: path ... does not exist"-regel
+naar stderr; die wordt onderdrukt (`stdio: ['pipe', 'pipe', 'ignore']`) zodat dat niet als
+verwarrende foutmelding op het scherm verschijnt terwijl de check zelf gewoon doorgaat.
 
-`node scripts/check-cms-counterpart.mjs [main-ref] [cms-ref]` waarschuwt (blokkeert niet) als een
-op `cms` NIEUW TOEGEVOEGDE kennisbankpagina geen tegenhanger met hetzelfde `id` in de andere taal
-heeft. Kijkt alleen naar toegevoegde bestanden, niet naar de hele kennisbank: bestaande, bewust
-eentalige pagina's geven dus geen waarschuwing.
+`node scripts/check-cms-counterpart.mjs [main-ref] [cms-ref]` waarschuwt (blokkeert niet, exit-
+code blijft 0) over twee dingen op `cms` t.o.v. `main`:
+1. een NIEUW TOEGEVOEGDE kennisbankpagina zonder tegenhanger met hetzelfde `id` in de andere taal.
+   Kijkt hiervoor alleen naar toegevoegde bestanden, niet naar de hele kennisbank: bestaande,
+   bewust eentalige pagina's geven dus geen waarschuwing.
+2. een TOEGEVOEGDE of GEWIJZIGDE kennisbankpagina waarvan `cluster` of `parent` niet overeenkomt
+   met haar tegenhanger (zelfde `id`) in de andere taal, als die tegenhanger bestaat.
 
 Unit tests: `npm test`. `cms-publish.ps1` roept `check-cms-content.mjs` en
-`check-cms-counterpart.mjs` aan voor elke publicatie.
+`check-cms-counterpart.mjs` aan voor elke publicatie, en draait na de merge ook
+`scripts/fix-kennisbank-urls.mjs` (zie hierboven) vóór de build.
 
 ## Bekende valkuilen in `cms-publish.ps1` zelf
 

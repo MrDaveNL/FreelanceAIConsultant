@@ -63,6 +63,11 @@ test('removedTokens signaleert een gewijzigd token (ander slug ingetypt)', () =>
   assert.equal(removed[0].token, '{{price:ai-readiness-assessment}}');
 });
 
+test('removedTokens vindt niets voor een nieuw bestand (lege basis, geen tokens om te verliezen)', () => {
+  const after = 'tekst {{timing:ai-readiness-assessment}} meer tekst';
+  assert.deepEqual(removedTokens('', after), []);
+});
+
 test('removedTokens laat een extra toegevoegd token ongemoeid', () => {
   const before = '{{timing:ai-readiness-assessment}}';
   const after = '{{timing:ai-readiness-assessment}} en ook {{price:ai-readiness-assessment}}';

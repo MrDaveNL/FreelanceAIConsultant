@@ -17,6 +17,22 @@ export function expectedKennisbankUrl(lang, folderName) {
 export class KennisbankUrlError extends Error {}
 export class KennisbankIdError extends Error {}
 
+// Leest een losse scalaire front-matter-waarde (geen lijsten/objecten) via een regel-regex, zonder
+// YAML-parser. Alleen voor een ongeïndenteerde top-level sleutel (regel begint direct met
+// '<key>:'), zodat bijv. een geïndenteerd 'url' onder 'sources:' niet per ongeluk meetelt.
+export function frontmatterField(raw, key) {
+  const match = raw.match(new RegExp(`^${key}:\\s*(.*)$`, 'm'));
+  if (!match) return undefined;
+  return match[1].trim().replace(/^["']|["']$/g, '');
+}
+
+// Overschrijft de waarde van een top-level front-matter-sleutel (zie frontmatterField) met een
+// nieuwe, letterlijke waarde. Gebruikt door scripts/fix-kennisbank-urls.mjs om de 'url' van een
+// kennisbankpagina gelijk te trekken met de mapnaam.
+export function setFrontmatterField(raw, key, value) {
+  return raw.replace(new RegExp(`^${key}:\\s*.*$`, 'm'), `${key}: ${value}`);
+}
+
 // Gooit een Nederlandse foutmelding als de url in de front matter niet bij de mapnaam past
 // (bijv. map 'ai-specialisten' met url '/nl/kennisbank/test').
 export function assertKennisbankUrl({ lang, folderName, url, id, file }) {

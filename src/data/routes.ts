@@ -8,6 +8,8 @@ import { readdirSync, readFileSync, existsSync } from 'node:fs';
 import { join } from 'node:path';
 import type { Locale } from '../i18n/locales';
 import { assertKennisbankUrl, assertUniqueKennisbankIds } from '../../scripts/kennisbank-routes.mjs';
+import { isValidHref as _isValidHref } from '../../scripts/href-validation.mjs';
+import { site } from './site.js';
 export type { Locale };
 
 export type RouteKind = 'static' | 'content' | 'service' | 'case' | 'article';
@@ -228,6 +230,15 @@ export const routes: RouteEntry[] = [
 
   ...buildKennisbankRoutes(),
 ];
+
+// Voor content.config.ts: een CTA-href (primaryCta/secondaryCta) moet een bestaande, live route
+// zijn (in elke taal) of een volledige https-URL. Voorkomt een getypte tikfout in Sveltia of
+// Claude Code die anders stil een dode link zou opleveren. 'mailto:<site-email>' blijft een
+// uitzondering voor oudere EN-kennisbankpagina's die dit schreven vóórdat /contact in het
+// Engels live was (zie resolveContactHref in service-tokens.js).
+export function isValidHref(href: string): boolean {
+  return _isValidHref(href, routes, site.email);
+}
 
 export function routeById(id: string): RouteEntry | undefined {
   return routes.find((entry) => entry.id === id);
