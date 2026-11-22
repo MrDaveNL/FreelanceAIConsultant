@@ -2,7 +2,7 @@
   "url": "/ai-consultancy/ai-roadmap",
   "build_bestand": "dist/ai-consultancy/ai-roadmap/index.html",
   "html": {
-    "bytes": 45640,
+    "bytes": 45728,
     "lang": "nl"
   },
   "beschermd": {
@@ -360,6 +360,13 @@
       "soort": "intern",
       "href": "/nl/over",
       "anker": "Over mij",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/insights",
+      "anker": "EN",
       "rel": null
     },
     {
@@ -907,5 +914,5 @@
     "aantal_details": 5,
     "aantal_tabellen": 1
   },
-  "gemeten_op": "2026-10-29"
+  "gemeten_op": "2026-11-11"
 }
