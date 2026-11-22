@@ -85,8 +85,7 @@ faq:
 
 <h2>Transparantieplicht: zeg dat het AI is</h2>
 <p>Onder de Europese AI-verordening geldt sinds 2 augustus 2026 de transparantieverplichting van artikel 50: een chatbot moet een gebruiker duidelijk maken dat hij met een AI-systeem te maken heeft, tenzij dat al vanzelfsprekend is uit de context. Voor klantenservice betekent dat in de praktijk een korte, zichtbare melding bij de start van het gesprek, geen kleine letters onderaan de pagina.</p>
-<p>Deze verplichting staat los van wat er met de hoog-risicoregels van de AI Act is gebeurd; de achtergrond daarvan, en wat er wel en niet is uitgesteld, lees je in het artikel over de Digital Omnibus. De basisuitleg van de AI Act en de risicocategorieën staat op <a href="/nl/ai-beleid/ai-act">AI Act voor bedrijven</a>.</p>
-<!-- LINK-TODO BLOG-02 (Digital Omnibus): maak "het artikel over de Digital Omnibus" hierboven een link naar /nl/inzichten/ai-act-digital-omnibus zodra dat artikel live is -->
+<p>Deze verplichting staat los van wat er met de hoog-risicoregels van de AI Act is gebeurd; de achtergrond daarvan, en wat er wel en niet is uitgesteld, lees je in <a href="/nl/inzichten/ai-act-digital-omnibus">het artikel over de Digital Omnibus</a>. De basisuitleg van de AI Act en de risicocategorieën staat op <a href="/nl/ai-beleid/ai-act">AI Act voor bedrijven</a>.</p>
 
 <h2>Stappenplan</h2>
 <ol>

@@ -85,8 +85,7 @@ order: 3
 
 <h2>Transparency obligation: disclose that it's AI</h2>
 <p>Under the EU AI Act, the transparency obligation in Article 50 has applied since 2 August 2026: a chatbot must make it clear to a user that they are dealing with an AI system, unless that's already obvious from the context. For customer service, that means in practice a short, visible notice at the start of the conversation, not fine print at the bottom of the page.</p>
-<p>This obligation is separate from what happened to the AI Act's high-risk rules; the background on that, and what was and wasn't delayed, is covered in the article on the Digital Omnibus. The basic explanation of the AI Act and the risk categories is covered in <a href="/ai-policy/ai-act">the EU AI Act for businesses</a>.</p>
-<!-- LINK-TODO BLOG-02-EN (AI Act after the Digital Omnibus, EN version not live yet): turn "the article on the Digital Omnibus" above into a link to /insights/ai-act-after-the-digital-omnibus once that branch is merged -->
+<p>This obligation is separate from what happened to the AI Act's high-risk rules; the background on that, and what was and wasn't delayed, is covered in <a href="/insights/ai-act-after-the-digital-omnibus">the article on the Digital Omnibus</a>. The basic explanation of the AI Act and the risk categories is covered in <a href="/ai-policy/ai-act">the EU AI Act for businesses</a>.</p>
 
 <h2>Step-by-step plan</h2>
 <ol>
