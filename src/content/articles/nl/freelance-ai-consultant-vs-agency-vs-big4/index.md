@@ -1,32 +1,39 @@
-export default {
-  slug: 'freelance-ai-consultant-vs-agency-vs-big4',
-  category: 'Strategie',
-  tone: 'salmon',
-  icon: '⇄',
-  featured: true,
-  title: 'Freelance AI consultant vs agency vs Big 4',
-  titleLine1: 'Freelance AI consultant',
-  titleLine2: 'vs agency vs Big 4',
-  excerpt: 'Een eerlijke vergelijking op onafhankelijkheid, snelheid, diepgang, kosten en uitvoeringskracht. Zodat jij de juiste partner kiest, ook als dat niet ik ben.',
-  lede: 'Welke partij past het beste bij jouw AI-vraagstuk? Een vergelijking op senioriteit, flexibiliteit, focus, kosten en uitvoeringskracht.',
-  readingTime: '4 min leestijd',
-  date: '2026-11-01',
-  dateLabel: '1 november 2026',
-  order: 5,
-  summary: [
-    'Freelancer = senior, flexibel en direct inzetbaar.',
-    'Agency = specialistische diepte en leveringscapaciteit.',
-    'Big 4 = governance, zekerheid en internationale dekking.',
-  ],
-  summaryClose: 'Kies op basis van doel, tijdsdruk en veranderkracht.',
-  takeaways: [
-    ['Senioriteit maakt het verschil', 'Bij een freelancer werk je altijd met de senior die je sprak. Bij grotere partijen is dat geen vanzelfsprekendheid.'],
-    ['Snelheid en flexibiliteit', 'Een eenmanspraktijk kan de scope in een week bijstellen. Een raamcontract kan dat niet.'],
-    ['Betaal voor impact, niet voor overhead', 'Minder lagen betekent niet automatisch beter, maar wel dat je weet waar je geld heen gaat.'],
-  ],
-  remember: 'De beste keuze is niet de grootste partij, maar de partij die het best past bij jouw vraag, context en tempo.',
-  related: ['wanneer-heb-je-echt-een-ai-strateeg-nodig', 'ai-vendorselectie-in-acht-stappen'],
-  body: `
+---
+id: nl-freelance-ai-consultant-vs-agency-vs-big4
+lang: nl
+slug: freelance-ai-consultant-vs-agency-vs-big4
+counterpart: independent-ai-consultant-vs-agency-vs-big4
+category: Strategie
+tone: salmon
+icon: ⇄
+featured: true
+title: Freelance AI consultant vs agency vs Big 4
+titleLine1: Freelance AI consultant
+titleLine2: vs agency vs Big 4
+excerpt: Een eerlijke vergelijking op onafhankelijkheid, snelheid, diepgang, kosten en uitvoeringskracht. Zodat jij de juiste partner kiest, ook als dat niet ik ben.
+lede: Welke partij past het beste bij jouw AI-vraagstuk? Een vergelijking op senioriteit, flexibiliteit, focus, kosten en uitvoeringskracht.
+readingTime: 4 min leestijd
+date: '2026-11-01'
+dateLabel: 1 november 2026
+order: 5
+summary:
+  - Freelancer = senior, flexibel en direct inzetbaar.
+  - Agency = specialistische diepte en leveringscapaciteit.
+  - Big 4 = governance, zekerheid en internationale dekking.
+summaryClose: Kies op basis van doel, tijdsdruk en veranderkracht.
+takeaways:
+  - - Senioriteit maakt het verschil
+    - Bij een freelancer werk je altijd met de senior die je sprak. Bij grotere partijen is dat geen vanzelfsprekendheid.
+  - - Snelheid en flexibiliteit
+    - Een eenmanspraktijk kan de scope in een week bijstellen. Een raamcontract kan dat niet.
+  - - Betaal voor impact, niet voor overhead
+    - Minder lagen betekent niet automatisch beter, maar wel dat je weet waar je geld heen gaat.
+remember: De beste keuze is niet de grootste partij, maar de partij die het best past bij jouw vraag, context en tempo.
+related:
+  - wanneer-heb-je-echt-een-ai-strateeg-nodig
+  - ai-vendorselectie-in-acht-stappen
+---
+
 <h2>Wanneer kies je voor wie?</h2>
 <p>AI-projecten verschillen sterk in doel, complexiteit en context. De keuze voor een freelancer, agency of Big 4 heeft direct impact op snelheid, wendbaarheid, kosten en resultaat. Er is geen partij die op alle assen wint, en iedereen die dat wél beweert, verkoopt je iets.</p>
 <p>Ik ben zelf de freelancer in dit rijtje. Dat maakt me niet objectief, dus lees dit stuk met die wetenschap. Wat ik wél kan doen, is eerlijk zijn over de gevallen waarin je beter níét bij mij aanklopt. Die staan er allemaal in.</p>
@@ -89,5 +96,3 @@ export default {
 <h2>5. De combinatie die vaak het beste werkt</h2>
 <p>In de praktijk zie ik zelden een zuivere keuze. De opzet die het vaakst goed uitpakt: een onafhankelijke senior die de strategie en de selectie doet, en een agency of systeemintegrator die bouwt, met de adviseur aan jouw kant van de tafel tijdens de bouw. De adviseur heeft dan geen belang bij de scope-groei van de implementatie, wat precies de spanning wegneemt die anders in maand vier ontstaat.</p>
 <p>Dat kost je wat meer aan adviesuren. Het bespaart je doorgaans een veelvoud aan meerwerk.</p>
-`,
-};

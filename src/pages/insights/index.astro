@@ -9,7 +9,9 @@ import { routeById } from '@/data/routes';
 
 const articles = (await getCollection('articles', ({ data }) => data.lang === 'en'))
   .map((a) => a.data)
-  .sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime());
+  // 'order' is de tiebreaker bij gelijke 'date' (laag = nieuwer/boven), zelfde mechanisme als de
+  // NL-tegenhanger (src/pages/nl/inzichten/index.astro). Zie src/content/articles/en/*/index.md.
+  .sort((a, b) => (a.date !== b.date ? new Date(b.date).getTime() - new Date(a.date).getTime() : (a.order ?? 0) - (b.order ?? 0)));
 const featuredArticle = articles.find((a) => a.featured) ?? articles[0];
 const articleCategories = ['All insights', ...Array.from(new Set(articles.map((a) => a.category)))];
 const casesHref = routeById('cases')?.live.en ? routeById('cases')!.paths.en : '/cases';

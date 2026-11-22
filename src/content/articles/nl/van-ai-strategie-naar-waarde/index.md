@@ -1,32 +1,39 @@
-export default {
-  slug: 'van-ai-strategie-naar-waarde',
-  category: 'Strategie',
-  tone: 'salmon',
-  icon: '↗',
-  featured: false,
-  title: 'Van AI-strategie naar waarde: een 3-stappenplan',
-  titleLine1: 'Van AI-strategie',
-  titleLine2: 'naar echte waarde',
-  excerpt: 'De meeste AI-strategieën stranden niet op de strategie, maar op de vertaling ervan. Drie stappen die die vertaling afdwingen.',
-  lede: 'Een strategie die niemand kan uitvoeren is een duur document. Dit zijn de drie stappen die van richting resultaat maken, met de valkuil bij elke stap.',
-  readingTime: '4 min leestijd',
-  date: '2026-11-04',
-  dateLabel: '4 november 2026',
-  order: 2,
-  summary: [
-    'Vertaal ambitie naar meetbare business-uitkomsten, niet naar technologie.',
-    'Kies per use case één eigenaar met budget en mandaat.',
-    'Meet waarde op hetzelfde niveau als waarop je hem beloofde.',
-  ],
-  summaryClose: 'Zonder eigenaar en meetpunt blijft elke strategie een intentie.',
-  takeaways: [
-    ['Begin bij de uitkomst', 'Niet "we gaan AI toepassen op klantcontact" maar "we verlagen de afhandeltijd met 30% zonder dat tevredenheid daalt".'],
-    ['Eén eigenaar per use case', 'Gedeeld eigenaarschap is in de praktijk geen eigenaarschap.'],
-    ['Meet wat je beloofde', 'Als de businesscase over euro’s ging, is gebruikersaantal geen bewijs.'],
-  ],
-  remember: 'Een strategie wordt pas echt op het moment dat iemand er een kwartaaldoel van maakt.',
-  related: ['waarom-ai-pilots-blijven-steken', 'de-business-case-voor-ai'],
-  body: `
+---
+id: nl-van-ai-strategie-naar-waarde
+lang: nl
+slug: van-ai-strategie-naar-waarde
+counterpart: from-ai-strategy-to-value
+category: Strategie
+tone: salmon
+icon: ↗
+featured: false
+title: 'Van AI-strategie naar waarde: een 3-stappenplan'
+titleLine1: Van AI-strategie
+titleLine2: naar echte waarde
+excerpt: De meeste AI-strategieën stranden niet op de strategie, maar op de vertaling ervan. Drie stappen die die vertaling afdwingen.
+lede: Een strategie die niemand kan uitvoeren is een duur document. Dit zijn de drie stappen die van richting resultaat maken, met de valkuil bij elke stap.
+readingTime: 4 min leestijd
+date: '2026-11-04'
+dateLabel: 4 november 2026
+order: 2
+summary:
+  - Vertaal ambitie naar meetbare business-uitkomsten, niet naar technologie.
+  - Kies per use case één eigenaar met budget en mandaat.
+  - Meet waarde op hetzelfde niveau als waarop je hem beloofde.
+summaryClose: Zonder eigenaar en meetpunt blijft elke strategie een intentie.
+takeaways:
+  - - Begin bij de uitkomst
+    - Niet "we gaan AI toepassen op klantcontact" maar "we verlagen de afhandeltijd met 30% zonder dat tevredenheid daalt".
+  - - Eén eigenaar per use case
+    - Gedeeld eigenaarschap is in de praktijk geen eigenaarschap.
+  - - Meet wat je beloofde
+    - Als de businesscase over euro’s ging, is gebruikersaantal geen bewijs.
+remember: Een strategie wordt pas echt op het moment dat iemand er een kwartaaldoel van maakt.
+related:
+  - waarom-ai-pilots-blijven-steken
+  - de-business-case-voor-ai
+---
+
 <h2>Waar het misgaat tussen strategie en resultaat</h2>
 <p>Ik zie zelden een slechte AI-strategie. Wat ik wél vaak zie: een prima strategie die negen maanden later nog exact hetzelfde document is, met dezelfde ambities en zonder een enkel gerealiseerd resultaat. Niet uit onwil, maar omdat er drie vertaalslagen ontbreken die niemand expliciet heeft belegd.</p>
 <p>Die drie vertaalslagen zijn geen methodiek. Het zijn drie vragen die je moet kunnen beantwoorden voordat een strategie uitvoerbaar wordt.</p>
@@ -68,5 +75,3 @@ export default {
 <h2>Wat dit in de praktijk oplevert</h2>
 <p>Deze drie stappen zijn niet ingewikkeld. Ze zijn ongemakkelijk. Ze dwingen je om ambities te verkleinen tot iets waar iemand zijn naam aan verbindt, en om vooraf vast te leggen wanneer je zou concluderen dat het niet gewerkt heeft.</p>
 <p>Dat is precies waarom ze werken. Een portfolio van vier use cases met eigenaren, meetpunten en stopcriteria levert meer op dan een roadmap met twintig initiatieven waar iedereen enthousiast over is en niemand over gaat.</p>
-`,
-};

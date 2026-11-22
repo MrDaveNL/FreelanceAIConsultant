@@ -1,33 +1,40 @@
-export default {
-  slug: 'de-business-case-voor-ai',
-  category: 'Strategie',
-  tone: 'yellow',
-  icon: '€',
-  featured: false,
-  title: 'De business case voor AI: hoe je hem eerlijk berekent',
-  titleLine1: 'De business case voor AI,',
-  titleLine2: 'eerlijk berekend',
-  excerpt: 'Tijdbesparing is geen besparing tot iemand die tijd anders besteedt. Een rekenmodel dat de toets van de CFO doorstaat.',
-  metaDescription: 'Tijdbesparing is geen besparing tot iemand die tijd anders besteedt. Een rekenmodel voor de AI business case dat de toets van de CFO doorstaat.',
-  lede: 'De meeste AI-businesscases sneuvelen niet bij de board, maar een jaar later bij de realisatiecheck. Dit is hoe je er een maakt die dat moment overleeft.',
-  readingTime: '5 min leestijd',
-  date: '2026-10-29',
-  dateLabel: '29 oktober 2026',
-  order: 9,
-  summary: [
-    'Bespaarde uren tellen pas als besparing als de kosten echt dalen.',
-    'Reken de volledige kostenkant mee: bouw, beheer, verbruik, verandering.',
-    'Maak aannames zichtbaar en toetsbaar, met een bandbreedte.',
-  ],
-  summaryClose: 'Een eerlijke businesscase is kleiner en houdbaarder.',
-  takeaways: [
-    ['Uren zijn geen euro’s', 'Tenzij je de uren omzet in omzet of in minder inhuur, is het geen financiële besparing.'],
-    ['Verbruikskosten schalen mee', 'Bij AI stijgen de variabele kosten met het gebruik. Reken door op tien keer volume.'],
-    ['Bandbreedte boven precisie', 'Een onderbouwde range is geloofwaardiger dan een exact bedrag met drie decimalen.'],
-  ],
-  remember: 'Een businesscase is geen verkoopdocument, het is een afspraak over wat je over een jaar gaat meten.',
-  related: ['van-ai-strategie-naar-waarde', 'welke-ai-use-cases-leveren-resultaat'],
-  body: `
+---
+id: nl-de-business-case-voor-ai
+lang: nl
+slug: de-business-case-voor-ai
+counterpart: the-business-case-for-ai
+category: Strategie
+tone: yellow
+icon: €
+featured: false
+title: 'De business case voor AI: hoe je hem eerlijk berekent'
+titleLine1: De business case voor AI,
+titleLine2: eerlijk berekend
+excerpt: Tijdbesparing is geen besparing tot iemand die tijd anders besteedt. Een rekenmodel dat de toets van de CFO doorstaat.
+metaDescription: Tijdbesparing is geen besparing tot iemand die tijd anders besteedt. Een rekenmodel voor de AI business case dat de toets van de CFO doorstaat.
+lede: De meeste AI-businesscases sneuvelen niet bij de board, maar een jaar later bij de realisatiecheck. Dit is hoe je er een maakt die dat moment overleeft.
+readingTime: 5 min leestijd
+date: '2026-10-29'
+dateLabel: 29 oktober 2026
+order: 9
+summary:
+  - Bespaarde uren tellen pas als besparing als de kosten echt dalen.
+  - 'Reken de volledige kostenkant mee: bouw, beheer, verbruik, verandering.'
+  - Maak aannames zichtbaar en toetsbaar, met een bandbreedte.
+summaryClose: Een eerlijke businesscase is kleiner en houdbaarder.
+takeaways:
+  - - Uren zijn geen euro’s
+    - Tenzij je de uren omzet in omzet of in minder inhuur, is het geen financiële besparing.
+  - - Verbruikskosten schalen mee
+    - Bij AI stijgen de variabele kosten met het gebruik. Reken door op tien keer volume.
+  - - Bandbreedte boven precisie
+    - Een onderbouwde range is geloofwaardiger dan een exact bedrag met drie decimalen.
+remember: Een businesscase is geen verkoopdocument, het is een afspraak over wat je over een jaar gaat meten.
+related:
+  - van-ai-strategie-naar-waarde
+  - welke-ai-use-cases-leveren-resultaat
+---
+
 <h2>Waar AI-businesscases sneuvelen</h2>
 <p>Niet bij de goedkeuring, want daar doen ze het meestal prima. Ze sneuvelen een jaar later, bij de vraag of het beloofde resultaat is gehaald. Op dat moment blijkt de belofte niet meetbaar, de kostenkant incompleet, en de besparing niet terug te vinden in enige begroting.</p>
 <p>Dat is jammer, want het beschadigt het vertrouwen in de volgende businesscase, ook als die beter is.</p>
@@ -84,5 +91,3 @@ export default {
 
 <h2>Een laatste toets</h2>
 <p>Laat iemand die niets met het project te maken heeft de case lezen, met één opdracht: zoek de aanname waar de hele uitkomst op rust. Als die persoon hem binnen vijf minuten vindt, is je case transparant. Als hij hem niet kan vinden, zit hij te diep verstopt. En dat komt over een jaar alsnog naar boven, op een ongelegener moment.</p>
-`,
-};

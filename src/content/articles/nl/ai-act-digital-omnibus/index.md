@@ -1,33 +1,50 @@
-export default {
-  slug: 'ai-act-digital-omnibus',
-  category: 'Governance',
-  tone: 'aqua',
-  icon: '⚖',
-  featured: false,
-  title: 'AI Act na de Digital Omnibus: wat schuift op en wat blijft gelden',
-  titleLine1: 'AI Act na de Digital Omnibus:',
-  titleLine2: 'wat schuift op, wat blijft gelden',
-  excerpt: 'De Digital Omnibus stelt de hoog-risico verplichtingen van de AI Act uit. Wat schuift op, wat blijft gewoon gelden en wat je als organisatie nu doet.',
-  metaTitle: 'Digital Omnibus en de AI Act: wat verandert er?',
-  metaDescription: 'De Digital Omnibus stelt de hoog-risico verplichtingen van de AI Act uit. Wat schuift op, wat blijft gewoon gelden en wat je als organisatie nu doet.',
-  lede: 'De Digital Omnibus stelt de zwaarste verplichtingen van de AI Act uit naar 2027 en 2028. Dat voelt als uitstel, maar is selectief: verboden praktijken, AI-geletterdheid en transparantie blijven gewoon gelden. Wie daarom nu stopt met voorbereiden, maakt een planningsfout.',
-  readingTime: '5 min leestijd',
-  date: '2026-11-22',
-  dateLabel: '22 november 2026',
-  summary: [
-    'De Digital Omnibus stelt alleen de hoog-risicoregels uit, niet de hele AI Act.',
-    'Verboden praktijken, AI-geletterdheid en transparantie gelden al sinds 2025 en 2026.',
-    'De extra tijd is nuttig als je hem gebruikt om te classificeren, niet om te wachten.',
-  ],
-  summaryClose: 'Uitstel van de deadline is geen uitstel van het werk.',
-  takeaways: [
-    ['Uitstel is selectief', 'Alleen de hoog-risicoregels uit bijlage I en III schuiven op, de rest van de AI Act staat.'],
-    ['AI-geletterdheid blijft verplicht', 'De datum (2 februari 2025) is niet veranderd, wel de zwaarte: nu een inspanningsverplichting in plaats van een vast niveau.'],
-    ['Nieuwe deadline is geen verre deadline', 'Classificeren, leveranciers bevragen en toezicht beleggen kost maanden; 2 december 2027 is dichterbij dan het klinkt.'],
-  ],
-  remember: 'De Digital Omnibus geeft je meer tijd voor de zwaarste verplichtingen, niet minder werk.',
-  related: ['ai-governance-zonder-bureaucratie', 'shadow-ai'],
-  body: `
+---
+id: nl-ai-act-digital-omnibus
+lang: nl
+slug: ai-act-digital-omnibus
+category: Governance
+tone: aqua
+icon: ⚖
+featured: false
+title: 'AI Act na de Digital Omnibus: wat schuift op en wat blijft gelden'
+titleLine1: 'AI Act na de Digital Omnibus:'
+titleLine2: wat schuift op, wat blijft gelden
+excerpt: De Digital Omnibus stelt de hoog-risico verplichtingen van de AI Act uit. Wat schuift op, wat blijft gewoon gelden en wat je als organisatie nu doet.
+metaTitle: 'Digital Omnibus en de AI Act: wat verandert er?'
+metaDescription: De Digital Omnibus stelt de hoog-risico verplichtingen van de AI Act uit. Wat schuift op, wat blijft gewoon gelden en wat je als organisatie nu doet.
+lede: 'De Digital Omnibus stelt de zwaarste verplichtingen van de AI Act uit naar 2027 en 2028. Dat voelt als uitstel, maar is selectief: verboden praktijken, AI-geletterdheid en transparantie blijven gewoon gelden. Wie daarom nu stopt met voorbereiden, maakt een planningsfout.'
+readingTime: 5 min leestijd
+date: '2026-11-22'
+dateLabel: 22 november 2026
+summary:
+  - De Digital Omnibus stelt alleen de hoog-risicoregels uit, niet de hele AI Act.
+  - Verboden praktijken, AI-geletterdheid en transparantie gelden al sinds 2025 en 2026.
+  - De extra tijd is nuttig als je hem gebruikt om te classificeren, niet om te wachten.
+summaryClose: Uitstel van de deadline is geen uitstel van het werk.
+takeaways:
+  - - Uitstel is selectief
+    - Alleen de hoog-risicoregels uit bijlage I en III schuiven op, de rest van de AI Act staat.
+  - - AI-geletterdheid blijft verplicht
+    - 'De datum (2 februari 2025) is niet veranderd, wel de zwaarte: nu een inspanningsverplichting in plaats van een vast niveau.'
+  - - Nieuwe deadline is geen verre deadline
+    - Classificeren, leveranciers bevragen en toezicht beleggen kost maanden; 2 december 2027 is dichterbij dan het klinkt.
+remember: De Digital Omnibus geeft je meer tijd voor de zwaarste verplichtingen, niet minder werk.
+related:
+  - ai-governance-zonder-bureaucratie
+  - shadow-ai
+faq:
+  - q: Is de AI Act nu grotendeels uitgesteld door de Digital Omnibus?
+    a: 'Nee, alleen de hoog-risicoverplichtingen zijn uitgesteld: bijlage III-toepassingen naar 2 december 2027 en bijlage I naar 2 augustus 2028. De verboden praktijken, de verplichting rond AI-geletterdheid, de transparantieregels en de verplichtingen voor aanbieders van AI-modellen voor algemene doeleinden golden al en zijn ongewijzigd.'
+  - q: Moet ik nu nog iets doen als de hoog-risicoregels zijn uitgesteld?
+    a: Ja. AI-geletterdheid en transparantie gelden al, los van het uitstel. En de voorbereiding op hoog risico, zoals classificeren en leveranciers bevragen, kost maanden; wachten tot kort voor 2 december 2027 levert dezelfde tijdsdruk op die de Omnibus net wilde wegnemen.
+  - q: Wat verandert er precies aan de AI-geletterdheidsverplichting?
+    a: 'Niet de datum, die blijft 2 februari 2025. Wel de zwaarte: in plaats van een vereist kennisniveau moeten aanbieders en gebruiksverantwoordelijken nu maatregelen nemen die passen bij de kennis, ervaring en context van hun medewerkers, zonder dat daar een vastgelegd niveau tegenover staat.'
+  - q: Wat is het nieuwe verbod dat op 2 december 2026 ingaat?
+    a: Een verbod op AI-systemen die zonder toestemming intieme beelden of kindermisbruikmateriaal genereren, zoals zogenoemde nudify-apps. Dat verbod bestond niet in de oorspronkelijke AI Act en is door de Digital Omnibus toegevoegd.
+  - q: Waar vind ik de officiële, actuele data in plaats van een samenvatting op een blog?
+    a: Bij de Europese Commissie (digital-strategy.ec.europa.eu, de pagina over de AI Omnibus) en in het Publicatieblad van de Europese Unie via EUR-Lex, waar Verordening (EU) 2026/1744 integraal staat. Nationale overheidspagina’s lopen daarbij soms achter; ga bij twijfel uit van deze twee bronnen.
+---
+
 <h2>Wat is de Digital Omnibus?</h2>
 <p>De Digital Omnibus op AI is geen nieuw wetsvoorstel, maar een wijziging van de bestaande AI Act (Verordening (EU) 2024/1689). De Europese Commissie stelde de wijziging op 19 november 2025 voor om de regels te vereenvoudigen en een deel van de hoog-risicoverplichtingen uit te stellen. Het Europees Parlement en de Raad bereikten daarover in het voorjaar van 2026 een akkoord, en op 24 juli 2026 is de wijziging gepubliceerd als <a href="https://digital-strategy.ec.europa.eu/en/news/ai-omnibus-enters-force">Verordening (EU) 2026/1744</a>, met inwerkingtreding op 27 juli 2026. Dat is dus geen voorstel meer, maar geldend recht.</p>
 <p>Voor wie de basis van de AI Act, de risicocategorieën en de rolverdeling nog niet scherp heeft: die basis staat op <a href="/nl/ai-beleid/ai-act">AI Act voor bedrijven</a>. Dit artikel herhaalt die basis niet, maar gaat specifiek over wat de Omnibus verandert.</p>
@@ -79,27 +96,3 @@ export default {
 </ul>
 <p>Voor de doorlopende bewaking van die roadmap, zonder dat je er een fulltime functie voor aanstelt, is een <a href="/nl/diensten/fractional-ai-lead">Fractional AI Lead</a> de rol die de agenda bewaakt en bijstuurt zodra de regelgeving opnieuw verschuift. Hoe je die bewaking organiseert zonder er een bureaucratie van te maken, beschrijf ik in <a href="/nl/inzichten/ai-governance-zonder-bureaucratie">AI-governance zonder bureaucratie</a>.</p>
 <p>De Digital Omnibus verandert het tempo van de AI Act, niet de richting. Wie de extra tijd gebruikt om de basis op orde te krijgen, staat er bij de volgende deadline beter voor dan wie wacht tot die dichterbij komt.</p>
-`,
-  faq: [
-    {
-      q: 'Is de AI Act nu grotendeels uitgesteld door de Digital Omnibus?',
-      a: 'Nee, alleen de hoog-risicoverplichtingen zijn uitgesteld: bijlage III-toepassingen naar 2 december 2027 en bijlage I naar 2 augustus 2028. De verboden praktijken, de verplichting rond AI-geletterdheid, de transparantieregels en de verplichtingen voor aanbieders van AI-modellen voor algemene doeleinden golden al en zijn ongewijzigd.',
-    },
-    {
-      q: 'Moet ik nu nog iets doen als de hoog-risicoregels zijn uitgesteld?',
-      a: 'Ja. AI-geletterdheid en transparantie gelden al, los van het uitstel. En de voorbereiding op hoog risico, zoals classificeren en leveranciers bevragen, kost maanden; wachten tot kort voor 2 december 2027 levert dezelfde tijdsdruk op die de Omnibus net wilde wegnemen.',
-    },
-    {
-      q: 'Wat verandert er precies aan de AI-geletterdheidsverplichting?',
-      a: 'Niet de datum, die blijft 2 februari 2025. Wel de zwaarte: in plaats van een vereist kennisniveau moeten aanbieders en gebruiksverantwoordelijken nu maatregelen nemen die passen bij de kennis, ervaring en context van hun medewerkers, zonder dat daar een vastgelegd niveau tegenover staat.',
-    },
-    {
-      q: 'Wat is het nieuwe verbod dat op 2 december 2026 ingaat?',
-      a: 'Een verbod op AI-systemen die zonder toestemming intieme beelden of kindermisbruikmateriaal genereren, zoals zogenoemde nudify-apps. Dat verbod bestond niet in de oorspronkelijke AI Act en is door de Digital Omnibus toegevoegd.',
-    },
-    {
-      q: 'Waar vind ik de officiële, actuele data in plaats van een samenvatting op een blog?',
-      a: 'Bij de Europese Commissie (digital-strategy.ec.europa.eu, de pagina over de AI Omnibus) en in het Publicatieblad van de Europese Unie via EUR-Lex, waar Verordening (EU) 2026/1744 integraal staat. Nationale overheidspagina’s lopen daarbij soms achter; ga bij twijfel uit van deze twee bronnen.',
-    },
-  ],
-};

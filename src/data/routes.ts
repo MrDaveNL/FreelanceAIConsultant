@@ -66,6 +66,7 @@ interface KennisbankPage {
 // server draaien altijd vanuit de projectroot. 'import.meta.url' is hier geen optie: na bundelen
 // door Vite wijst dat naar de locatie van het gebundelde bestand in dist/, niet naar src/.
 const PAGES_ROOT = 'src/content/pages';
+const ARTICLES_ROOT = 'src/content/articles';
 
 function kennisbankPages(lang: Locale): KennisbankPage[] {
   const dir = join(PAGES_ROOT, lang, 'kennisbank');
@@ -122,6 +123,77 @@ function buildKennisbankRoutes(): RouteEntry[] {
   }));
 }
 
+interface ArticleFile {
+  slug: string;
+  counterpart?: string;
+}
+
+// Leest 'slug' en 'counterpart' uit de front matter van elk artikel in één taal (zelfde
+// lichtgewicht regex-aanpak als frontmatterField() hierboven, geen YAML-parser nodig voor deze
+// twee scalaire velden). 'id' is bewust NIET de koppeling tussen talen (zie content.config.ts):
+// dat is altijd '<lang>-<eigen-slug>', de opslagsleutel van de 'articles'-collectie.
+function articleFiles(lang: Locale): ArticleFile[] {
+  const dir = join(ARTICLES_ROOT, lang);
+  if (!existsSync(dir)) return [];
+  const out: ArticleFile[] = [];
+  for (const entry of readdirSync(dir, { withFileTypes: true })) {
+    if (!entry.isDirectory()) continue;
+    const file = join(dir, entry.name, 'index.md');
+    if (!existsSync(file)) continue;
+    const raw = readFileSync(file, 'utf8');
+    const slug = frontmatterField(raw, 'slug') ?? entry.name;
+    const counterpart = frontmatterField(raw, 'counterpart');
+    out.push({ slug, counterpart });
+  }
+  return out;
+}
+
+// Vervangt de vroegere handmatige routes.ts-regels voor de inzichtenartikelen: zonder dit leidde
+// een artikel dat buiten deze lijst om werd toegevoegd (bijv. via de dinsdagroutine, zie
+// docs/cms.md) tot een pagina die wel gebouwd werd (src/pages/nl/inzichten/[slug].astro en
+// src/pages/insights/[slug].astro bouwen gewoon elk bestand in de collectie) maar stil uit de
+// sitemap/hreflang/taalwisselaar bleef, omdat er geen regel voor was. 'counterpart' (optioneel
+// front-matter-veld, content.config.ts) koppelt een NL-artikel aan zijn EN-vertaling; ontbreekt
+// die vertaling nog (zoals bij een net gepubliceerd NL-artikel), dan is de route gewoon nl-only.
+function buildArticleRoutes(): RouteEntry[] {
+  const nl = articleFiles('nl');
+  const en = articleFiles('en');
+  const enBySlug = new Map(en.map((a) => [a.slug, a]));
+  const linkedEnSlugs = new Set<string>();
+  const entries: RouteEntry[] = nl.map((a) => {
+    let enSlug: string | undefined;
+    if (a.counterpart) {
+      if (!enBySlug.has(a.counterpart)) {
+        throw new Error(
+          `Inzichtenartikel src/content/articles/nl/${a.slug}/index.md: counterpart ` +
+            `'${a.counterpart}' bestaat niet in src/content/articles/en.`
+        );
+      }
+      enSlug = a.counterpart;
+      linkedEnSlugs.add(enSlug);
+    }
+    return {
+      id: `art-${a.slug}`,
+      kind: 'article' as RouteKind,
+      cluster: 'inzichten',
+      paths: { nl: `/nl/inzichten/${a.slug}`, en: enSlug ? `/insights/${enSlug}` : '' },
+      live: { nl: true, en: Boolean(enSlug) },
+    };
+  });
+  // EN-artikelen zonder NL-tegenhanger (komt nu niet voor, maar zou anders stilletjes ontbreken).
+  for (const a of en) {
+    if (linkedEnSlugs.has(a.slug)) continue;
+    entries.push({
+      id: `art-en-${a.slug}`,
+      kind: 'article' as RouteKind,
+      cluster: 'inzichten',
+      paths: { nl: '', en: `/insights/${a.slug}` },
+      live: { nl: false, en: true },
+    });
+  }
+  return entries;
+}
+
 export const routes: RouteEntry[] = [
   // Statische kernpagina's
   r('home', 'static', '', '/', { liveEn: true }),
@@ -153,20 +225,9 @@ export const routes: RouteEntry[] = [
   r('case-ai-readiness-scale-up', 'case', '/cases/ai-readiness-scale-up', '/cases/ai-readiness-scale-up', { liveEn: true }),
   r('case-interne-ai-assistent-kenniswerkers', 'case', '/cases/interne-ai-assistent-kenniswerkers', '/cases/internal-ai-assistant-knowledge-workers', { liveEn: true }),
 
-  // Inzichten / insights (artikelen)
-  r('art-ai-agents-wat-ze-wel-en-niet-kunnen', 'article', '/inzichten/ai-agents-wat-ze-wel-en-niet-kunnen', '/insights/what-ai-agents-can-and-cannot-do', { liveEn: true }),
-  r('art-van-ai-strategie-naar-waarde', 'article', '/inzichten/van-ai-strategie-naar-waarde', '/insights/from-ai-strategy-to-value', { liveEn: true }),
-  r('art-build-buy-of-partner', 'article', '/inzichten/build-buy-of-partner', '/insights/build-buy-or-partner', { liveEn: true }),
-  r('art-welke-ai-use-cases-leveren-resultaat', 'article', '/inzichten/welke-ai-use-cases-leveren-resultaat', '/insights/which-ai-use-cases-deliver-results', { liveEn: true }),
-  r('art-freelance-ai-consultant-vs-agency-vs-big4', 'article', '/inzichten/freelance-ai-consultant-vs-agency-vs-big4', '/insights/independent-ai-consultant-vs-agency-vs-big4', { liveEn: true }),
-  r('art-het-datafundament-onder-ai', 'article', '/inzichten/het-datafundament-onder-ai', '/insights/the-data-foundation-under-ai', { liveEn: true }),
-  r('art-ai-governance-zonder-bureaucratie', 'article', '/inzichten/ai-governance-zonder-bureaucratie', '/insights/ai-governance-without-bureaucracy', { liveEn: true }),
-  r('art-waarom-ai-pilots-blijven-steken', 'article', '/inzichten/waarom-ai-pilots-blijven-steken', '/insights/why-ai-pilots-stall', { liveEn: true }),
-  r('art-de-business-case-voor-ai', 'article', '/inzichten/de-business-case-voor-ai', '/insights/the-business-case-for-ai', { liveEn: true }),
-  r('art-ai-vendorselectie-in-acht-stappen', 'article', '/inzichten/ai-vendorselectie-in-acht-stappen', '/insights/ai-vendor-selection-in-eight-steps', { liveEn: true }),
-  r('art-wanneer-heb-je-echt-een-ai-strateeg-nodig', 'article', '/inzichten/wanneer-heb-je-echt-een-ai-strateeg-nodig', '/insights/when-do-you-really-need-an-ai-strategist', { liveEn: true }),
-  r('art-ai-adoptie-begint-bij-het-werk', 'article', '/inzichten/ai-adoptie-begint-bij-het-werk', '/insights/ai-adoption-starts-with-the-work', { liveEn: true }),
-  r('art-shadow-ai', 'article', '/inzichten/shadow-ai', '/insights/shadow-ai', { liveEn: true }),
+  // Inzichten / insights (artikelen): routes NIET hier als handmatige lijst, zie
+  // buildArticleRoutes() hierboven (zelfde patroon als buildKennisbankRoutes() voor de
+  // kennisbank verderop in dit bestand).
 
   // Content-collectie 'pages': 12 clusters, 55 pagina's
   r('C1-00', 'content', '/ai-consultancy', '/ai-consulting', { cluster: 'ai-consultancy', liveEn: true }),
@@ -230,6 +291,7 @@ export const routes: RouteEntry[] = [
   r('P04', 'content', '/tarieven', '/pricing', { cluster: 'tarieven', liveEn: true }),
 
   ...buildKennisbankRoutes(),
+  ...buildArticleRoutes(),
 ];
 
 // Voor content.config.ts: een CTA-href (primaryCta/secondaryCta) moet een bestaande, live route

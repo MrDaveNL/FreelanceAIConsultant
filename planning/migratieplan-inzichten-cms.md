@@ -1,8 +1,10 @@
 # Migratieplan: inzichten naar markdown per artikel per taal (optie 3)
 
-Status: plan, niet uitgevoerd. Alleen lezen en ontwerpen, geen bestand in `src/content`,
-`src/data` of `content.config.ts` is hiervoor aangepast. Dave beslist na dit plan of, en wanneer,
-dit traject start.
+Status: uitgevoerd en gemerged naar `main` op 22 november 2026, na Dave's akkoord. Dist-diff
+vóór/na was byte-identiek op twee verwachte verschillen na (RSS-lastBuildDate, sitemap-lastmod
+van de twee hub-pagina's — de opvolgtaak hierop is afgehandeld op fix/sitemap-automatisch, zie
+`src/lib/sitemap.ts`); `npm run build`/`test`/`check` groen, RAG-telling ongewijzigd op 129
+blokken/0 fouten.
 
 ## Waarom dit nodig is voor een CMS op de inzichten
 
