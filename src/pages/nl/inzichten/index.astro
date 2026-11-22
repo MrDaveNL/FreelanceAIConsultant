@@ -5,13 +5,14 @@ import PageHero from '@/components/PageHero.astro';
 import ArticleCard from '@/components/ArticleCard.astro';
 import FilterBar from '@/components/FilterBar.astro';
 import Newsletter from '@/components/Newsletter.astro';
-import { articleCategories } from '@/data/articles/index.js';
+import { articleCategories as getArticleCategories } from '@/data/articles/index.js';
 
 const articles = (await getCollection('articles', ({ data }) => data.lang === 'nl'))
   .map((a) => a.data)
   // 'order' is de tiebreaker bij gelijke 'date' (laag = nieuwer/boven), zie src/data/articles/index.js.
   .sort((a, b) => (a.date !== b.date ? new Date(b.date).getTime() - new Date(a.date).getTime() : (a.order ?? 0) - (b.order ?? 0)));
 const featuredArticle = articles.find((a) => a.featured) ?? articles[0];
+const articleCategories = await getArticleCategories();
 ---
 <BaseLayout
   title="Inzichten | Freelance AI Consultant"

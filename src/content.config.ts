@@ -1,5 +1,10 @@
+import { existsSync, readFileSync, readdirSync } from 'node:fs';
+import path from 'node:path';
+import { fileURLToPath } from 'node:url';
 import { defineCollection, z } from 'astro:content';
 import { glob, file } from 'astro/loaders';
+import type { Loader } from 'astro/loaders';
+import yaml from 'js-yaml';
 import { isValidHref } from './data/routes';
 
 // Nieuwe content uit de contentplanning (planning/Content_planning_tabblad1_ClaudeCode.xlsx).
@@ -124,8 +129,56 @@ const cases = defineCollection({
   }),
 });
 
+// Eigen loader (geen glob()+render()): leest elk artikel-markdownbestand als ruwe tekst en
+// splitst front matter/body met een regex op de '---'-grenzen + js-yaml, zoals
+// scripts/check-content.mjs dat al doet voor src/content/pages. Bewust NIET Astro's
+// markdown-compiler (geen remarkPlugins hierboven, geen entry.render()): 'body' blijft zo de
+// kant-en-klare HTML-string die het al was in de oude all.json, en loopt dus niet alsnog door
+// remarkServiceTokens of de RAG-remark-plugin van de kennisbank (astro.config.mjs), die beide
+// alleen draaien op content die wél via Astro's markdown-compiler gaat (de 'pages'-collectie
+// hierboven). Zie planning/migratieplan-inzichten-cms.md.
+function articlesLoader(): Loader {
+  return {
+    name: 'articles-loader',
+    load: async ({ store, parseData, config, logger }) => {
+      store.clear();
+      const base = fileURLToPath(new URL('src/content/articles', config.root));
+      const rootDir = fileURLToPath(config.root);
+      for (const lang of ['en', 'nl']) {
+        const langDir = path.join(base, lang);
+        if (!existsSync(langDir)) continue;
+        // Alfabetisch op mapnaam (slug) voor een voorspelbare, reproduceerbare inleesvolgorde.
+        // De sorteervolgorde die de hub-pagina's en RSS-feeds tonen, hangt hier niet van af: die
+        // staat volledig vast via 'date' (en 'order' als tiebreak, voor beide talen expliciet in
+        // de front matter), niet via de volgorde waarin deze loader bestanden inleest.
+        const slugs = readdirSync(langDir, { withFileTypes: true })
+          .filter((d) => d.isDirectory())
+          .map((d) => d.name)
+          .sort();
+        for (const slug of slugs) {
+          const filePath = path.join(langDir, slug, 'index.md');
+          if (!existsSync(filePath)) continue;
+          const raw = readFileSync(filePath, 'utf8');
+          const m = raw.match(/^---\r?\n([\s\S]*?)\r?\n---\r?\n([\s\S]*)$/);
+          if (!m) {
+            logger.error(`Geen front matter gevonden in ${filePath}`);
+            continue;
+          }
+          const frontmatter = yaml.load(m[1]) as Record<string, unknown>;
+          const body = m[2];
+          const rawItem = { ...frontmatter, body };
+          const id = String((frontmatter.id as string | undefined) ?? `${lang}-${slug}`);
+          const relativeFilePath = path.relative(rootDir, filePath).split(path.sep).join('/');
+          const parsedData = await parseData({ id, data: rawItem, filePath });
+          store.set({ id, data: parsedData, filePath: relativeFilePath });
+        }
+      }
+    },
+  };
+}
+
 const articles = defineCollection({
-  loader: file('src/content/articles/all.json'),
+  loader: articlesLoader(),
   schema: z.object({
     id: z.string(),
     lang: locale,

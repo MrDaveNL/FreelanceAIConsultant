@@ -42,10 +42,31 @@ er is daardoor geen create/delete-knop, ook niet per ongeluk. Tarieven zit hieri
 andere clusters: de bestaande tokencheck (zie "Content-check" hieronder) geldt voor elk gewijzigd
 bestand, dus ook voor `{{price:...}}`/`{{timing:...}}` op de tarievenpagina.
 
-**Niet in het CMS:** dienstenpagina's, cases, inzichten, RAG-blokken, data-bestanden, routes,
-componenten, layouts, schema/JSON-LD. Inzichten staan er nu niet in omdat de NL-brontekst in
-`.js`-bestanden staat (geen markdown/YAML/JSON), niet omdat ze minder belangrijk zijn, zie
-`planning/migratieplan-inzichten-cms.md` voor een eventueel vervolg.
+**Inzichten** (`inzichten_en`/`inzichten_nl`, `src/content/articles/{en,nl}/<slug>/index.md`):
+sinds de CMS-migratie van de inzichten (`planning/migratieplan-inzichten-cms.md`) staan ook de
+inzichtenartikelen als losse markdown per taal, naar het patroon van de kennisbank hierboven
+(create en delete staan AAN). Het veldschema wijkt af van de kennisbank/overige-collecties: geen
+`url`/`parent`/`cluster`/`pageType`/`schema`/`navLabel`/`primaryCta` (dat zijn velden van de
+`pages`-collectie), wel `category`/`tone`/`icon`/`featured`/`readingTime`/`summary`/`takeaways`/
+`remember`/`related`/`order`, het eigen schema van de `articles`-collectie in
+`content.config.ts`. Die collectie gebruikt een eigen loader (front matter/body-splitsing met
+een regex + js-yaml, net als `scripts/check-content.mjs`), bewust geen Astro's standaard
+`glob()`-rendering: het `body`-veld blijft zo de kant-en-klare HTML die het al was, en loopt niet
+alsnog door de remark-plugins van `astro.config.mjs` (servicetokens, RAG-remark-plugin), die
+beide alleen op de `pages`-collectie draaien.
+
+**Tijdelijke uitzondering: inzichten NIET via dit scherm bewerken (tot de blogreeks is
+afgerond).** Ondanks dat de collecties hierboven technisch bestaan, gaan inhoudelijke
+wijzigingen aan bestaande of nieuwe inzichtenartikelen voorlopig via de **dinsdagroutine**
+(handmatige branch + extractiescript + dist-diff, zie de sectie "Conversiestap na de
+CMS-migratie" in `planning/werkafspraak-publicatiedagen.md`), niet via Sveltia. Reden: zolang
+deze CMS-migratie en de lopende blogreeks (NL+EN-parity, BLOG-01 t/m 12, nog meerdere branches te
+mergen) allebei nog niet zijn afgerond, zou een directe CMS-opslag op branch `cms` naast die
+blogbranches tot conflicten leiden tussen de twee manieren om dezelfde artikelen te wijzigen.
+Deze uitzondering vervalt zodra Dave aangeeft dat beide trajecten zijn afgerond.
+
+**Niet in het CMS:** dienstenpagina's, cases, RAG-blokken, data-bestanden, routes, componenten,
+layouts, schema/JSON-LD.
 
 **Home, over, werkwijze** staan ook niet in het CMS: dit zijn geen markdown-pagina's in
 `src/content/pages`, maar hardcoded `.astro`-pagina's (`src/pages/index.astro`, `about.astro`,

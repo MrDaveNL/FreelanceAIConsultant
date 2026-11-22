@@ -1,33 +1,50 @@
-export default {
-  slug: 'shadow-ai',
-  category: 'Governance',
-  tone: 'salmon',
-  icon: '◐',
-  featured: false,
-  title: 'Shadow AI: medewerkers gebruiken AI toch al, wat nu?',
-  titleLine1: 'Shadow AI:',
-  titleLine2: 'medewerkers gebruiken het al',
-  excerpt: 'Verbieden werkt niet: medewerkers gebruiken AI al. Hoe je het zichtbaar maakt, het risico serieus neemt en veilige alternatieven biedt zonder alles dicht te timmeren.',
-  metaTitle: "Shadow AI: risico's en aanpak voor organisaties",
-  metaDescription: "Shadow AI is AI-gebruik buiten het zicht van IT en management. Wat de risico's zijn en hoe je het in goede banen leidt zonder alles te verbieden.",
-  lede: 'Verbieden werkt niet, want medewerkers gebruiken AI al. Breng in kaart wat er gebruikt wordt, bied een veilig alternatief en leg een paar minimale afspraken vast. Shadow AI is een signaal van behoefte, geen tuchtzaak.',
-  readingTime: '6 min leestijd',
-  date: '2026-11-06',
-  dateLabel: '6 november 2026',
-  summary: [
-    'Verbieden duwt het gebruik onder de radar, het stopt het niet.',
-    'Eerst zicht krijgen op wat er al gebruikt wordt, dan pas regelen.',
-    'Een zakelijk alternatief en een kort beleid werken beter dan een verbod.',
-  ],
-  summaryClose: 'Shadow AI is een signaal van behoefte, geen tuchtzaak.',
-  takeaways: [
-    ['Verbieden werkt averechts', 'Een verbod maakt het gebruik onzichtbaar, niet kleiner.'],
-    ['Zicht boven controle', 'Je kunt geen risico beheersen dat je niet kent, begin met ontdekken, niet met regels.'],
-    ['Faciliteren is sneller dan handhaven', 'Een goedgekeurd alternatief binnen een week wint het van een verbod dat niemand controleert.'],
-  ],
-  remember: 'Wie AI verbiedt zonder alternatief te bieden, organiseert vooral dat hij het niet meer ziet.',
-  related: ['ai-governance-zonder-bureaucratie', 'ai-adoptie-begint-bij-het-werk'],
-  body: `
+---
+id: nl-shadow-ai
+lang: nl
+slug: shadow-ai
+category: Governance
+tone: salmon
+icon: ◐
+featured: false
+title: 'Shadow AI: medewerkers gebruiken AI toch al, wat nu?'
+titleLine1: 'Shadow AI:'
+titleLine2: medewerkers gebruiken het al
+excerpt: 'Verbieden werkt niet: medewerkers gebruiken AI al. Hoe je het zichtbaar maakt, het risico serieus neemt en veilige alternatieven biedt zonder alles dicht te timmeren.'
+metaTitle: 'Shadow AI: risico''s en aanpak voor organisaties'
+metaDescription: Shadow AI is AI-gebruik buiten het zicht van IT en management. Wat de risico's zijn en hoe je het in goede banen leidt zonder alles te verbieden.
+lede: Verbieden werkt niet, want medewerkers gebruiken AI al. Breng in kaart wat er gebruikt wordt, bied een veilig alternatief en leg een paar minimale afspraken vast. Shadow AI is een signaal van behoefte, geen tuchtzaak.
+readingTime: 6 min leestijd
+date: '2026-11-06'
+dateLabel: 6 november 2026
+summary:
+  - Verbieden duwt het gebruik onder de radar, het stopt het niet.
+  - Eerst zicht krijgen op wat er al gebruikt wordt, dan pas regelen.
+  - Een zakelijk alternatief en een kort beleid werken beter dan een verbod.
+summaryClose: Shadow AI is een signaal van behoefte, geen tuchtzaak.
+takeaways:
+  - - Verbieden werkt averechts
+    - Een verbod maakt het gebruik onzichtbaar, niet kleiner.
+  - - Zicht boven controle
+    - Je kunt geen risico beheersen dat je niet kent, begin met ontdekken, niet met regels.
+  - - Faciliteren is sneller dan handhaven
+    - Een goedgekeurd alternatief binnen een week wint het van een verbod dat niemand controleert.
+remember: Wie AI verbiedt zonder alternatief te bieden, organiseert vooral dat hij het niet meer ziet.
+related:
+  - ai-governance-zonder-bureaucratie
+  - ai-adoptie-begint-bij-het-werk
+faq:
+  - q: Is shadow AI verboden onder de AI Act?
+    a: Nee, niet als zodanig. De AI-verordening verbiedt een beperkt aantal specifieke praktijken, zoals social scoring en emotieherkenning op de werkvloer, maar gewoon AI-gebruik door medewerkers staat daar niet in. Wel geldt voor elk AI-gebruik, dus ook ongeziene varianten, de verplichting om passende maatregelen te nemen voor AI-geletterdheid.
+  - q: Moeten we AI-gebruik via privéaccounts meteen helemaal verbieden?
+    a: 'Een verbod alleen werkt averechts: het gebruik verdwijnt niet, het wordt onzichtbaarder. Effectiever is een zakelijk alternatief bieden met duidelijke grenzen, zodat je weer zicht hebt op wat er gebeurt en kunt bijstellen waar het misgaat.'
+  - q: Hoe ontdek ik welke AI-tools medewerkers nu al gebruiken?
+    a: Begin met open, niet-bestraffende gesprekken per team, kijk in de creditcard- en abonnementenkosten naar kleine terugkerende softwareposten, en vraag IT wat er al zichtbaar is in het netwerkverkeer. Een volledig beeld krijg je zo niet, maar wel een werkbaar startpunt.
+  - q: Is een gratis AI-chatbot risicovoller dan een zakelijk abonnement?
+    a: Over het algemeen wel. Zakelijke abonnementen bevatten meestal afspraken over wat er met je invoer gebeurt en soms een verwerkersovereenkomst, terwijl een persoonlijk gratis account die waarborgen vaak niet heeft. Controleer dit altijd per aanbieder en abonnementsvorm, want de voorwaarden verschillen.
+  - q: Wat zet ik minimaal in een AI-beleid tegen shadow AI?
+    a: 'Drie dingen volstaan om te beginnen: welk zakelijk alternatief beschikbaar is, wat daar nooit in mag (zoals persoonsgegevens van klanten of ongepubliceerde cijfers zonder afweging), en bij wie een medewerker twijfelgevallen meldt. Bouw dat pas later uit als de praktijk daar aanleiding voor geeft.'
+---
+
 <h2>Wat is shadow AI?</h2>
 <p>Shadow AI is AI-gebruik dat buiten het zicht en de goedkeuring van IT en management plaatsvindt. Dat is breder dan "iemand gebruikt ChatGPT in de browser". Het gaat ook om AI-functies die stilletjes aanstaan in bestaande software, browserextensies die meekijken met alles wat iemand typt, een los abonnement dat een team zelf afsluit buiten de inkoop om, en persoonlijke accounts die voor werk worden gebruikt omdat er geen zakelijk alternatief is.</p>
 <p>Hoeveel dat precies voorkomt, hangt sterk af van de definitie en het land, maar de bandbreedte in recent onderzoek ligt ruwweg tussen de helft en driekwart van de kantoormedewerkers. Onderzoek van Censuswide voor Microsoft (oktober 2025, ruim tweeduizend Britse medewerkers) vond dat 71% weleens een niet-goedgekeurde AI-tool voor werk had gebruikt. Dat soort cijfers verschilt per onderzoek, maar de richting is overal hetzelfde: het gebruik is al wijdverspreid voordat een organisatie er beleid op heeft.</p>
@@ -81,27 +98,3 @@ export default {
   <li><b>Week 4, vastleggen en evalueren:</b> schrijf de afspraken op één pagina, wijs aan wie twijfelgevallen beoordeelt, en plan over drie maanden een korte herhaling van de ontdekkingsronde.</li>
 </ul>
 <p>Shadow AI verdwijnt niet door een verbod, en dat is eigenlijk goed nieuws: het is een duidelijk signaal dat er ergens een behoefte is die je officiële aanbod nu niet invult. Behandel het zo, en je lost niet alleen een risico op, je ziet ook meteen waar in de organisatie AI het meeste werk zou kunnen verlichten.</p>
-`,
-  faq: [
-    {
-      q: "Is shadow AI verboden onder de AI Act?",
-      a: "Nee, niet als zodanig. De AI-verordening verbiedt een beperkt aantal specifieke praktijken, zoals social scoring en emotieherkenning op de werkvloer, maar gewoon AI-gebruik door medewerkers staat daar niet in. Wel geldt voor elk AI-gebruik, dus ook ongeziene varianten, de verplichting om passende maatregelen te nemen voor AI-geletterdheid.",
-    },
-    {
-      q: "Moeten we AI-gebruik via privéaccounts meteen helemaal verbieden?",
-      a: "Een verbod alleen werkt averechts: het gebruik verdwijnt niet, het wordt onzichtbaarder. Effectiever is een zakelijk alternatief bieden met duidelijke grenzen, zodat je weer zicht hebt op wat er gebeurt en kunt bijstellen waar het misgaat.",
-    },
-    {
-      q: "Hoe ontdek ik welke AI-tools medewerkers nu al gebruiken?",
-      a: "Begin met open, niet-bestraffende gesprekken per team, kijk in de creditcard- en abonnementenkosten naar kleine terugkerende softwareposten, en vraag IT wat er al zichtbaar is in het netwerkverkeer. Een volledig beeld krijg je zo niet, maar wel een werkbaar startpunt.",
-    },
-    {
-      q: "Is een gratis AI-chatbot risicovoller dan een zakelijk abonnement?",
-      a: "Over het algemeen wel. Zakelijke abonnementen bevatten meestal afspraken over wat er met je invoer gebeurt en soms een verwerkersovereenkomst, terwijl een persoonlijk gratis account die waarborgen vaak niet heeft. Controleer dit altijd per aanbieder en abonnementsvorm, want de voorwaarden verschillen.",
-    },
-    {
-      q: "Wat zet ik minimaal in een AI-beleid tegen shadow AI?",
-      a: "Drie dingen volstaan om te beginnen: welk zakelijk alternatief beschikbaar is, wat daar nooit in mag (zoals persoonsgegevens van klanten of ongepubliceerde cijfers zonder afweging), en bij wie een medewerker twijfelgevallen meldt. Bouw dat pas later uit als de praktijk daar aanleiding voor geeft.",
-    },
-  ],
-};

@@ -118,3 +118,46 @@ op main staat of al gemerged is.
 BLOG-11 linkte live naar BLOG-02, dat op het moment van schrijven nog niet gemerged was, maar wél
 weken vóór BLOG-11 publiceert. Die link was dus terecht een gewone link, geen LINK-TODO, en is
 ook niet aangepast.
+
+## Conversiestap na de CMS-migratie (vanaf dinsdag 24 november 2026)
+
+Sinds de inzichten-CMS-migratie (branch `feat/inzichten-cms-migratie`,
+`planning/migratieplan-inzichten-cms.md`) staan NL- en EN-inzichtenartikelen niet meer als
+`.js`-bestand (`src/data/articles/*.js`) resp. los item in `src/content/articles/all.json`, maar
+als één markdown-bestand per artikel per taal
+(`src/content/articles/{nl,en}/<slug>/index.md`). Vanaf dinsdag 24 november 2026 bevat de
+publicatiedag-routine hierboven daarom een extra stap, ná het mergen van `main` in de
+blogbranch (stap 1) en vóór de build/check/deploy-stap (stap 4):
+
+1. **Extraheer het nieuwe artikel/de nieuwe artikelen.** Een blogbranch die vóór de migratie is
+   afgetakt, voegt een artikel nog toe in het oude formaat: een nieuw bestand onder
+   `src/data/articles/*.js` voor NL, en/of een nieuw item in `src/content/articles/all.json` voor
+   EN. Draai het extractiescript (geschreven bij de migratie, zie stap 1 van
+   `planning/migratieplan-inzichten-cms.md`) op precies dat nieuwe bestand/item:
+   ```
+   node scripts/extract-articles-to-md.mjs --nl-js <pad-naar-het-nieuwe-.js-bestand>
+   node scripts/extract-articles-to-md.mjs --en-json <pad-naar-het-nieuwe-EN-item-als-los-JSON-bestand>
+   ```
+   Dit zet de toevoeging om naar `src/content/articles/{nl,en}/<slug>/index.md`, in het nieuwe
+   per-artikel-formaat. Verwijder daarna de oude `.js`-bronbestanden en eventuele reste van
+   `all.json` die niet meer bestaan op de post-migratie `main` (een merge van een branch die deze
+   nu-verwijderde bestanden nog wijzigt, kan ze laten terugkomen; dat hoort niet, en moet vóór de
+   build worden opgeruimd).
+2. **Draai een dist-diff.** Bouw de site vóór en na deze conversiestap (of vóór en na het mergen
+   van de blogbranch, als dat makkelijker is) en vergelijk de volledige `dist/`-bomen. Het enige
+   toegestane verschil is de set nieuwe URL's van het nieuwe artikel/de nieuwe artikelen zelf
+   (de artikelpagina, de hub-pagina's, de RSS-feeds, de sitemaps). Al het overige bestaande moet
+   byte-identiek blijven. Wijkt er iets anders af, stop en meld dat exact in plaats van het te
+   negeren.
+3. Dit geldt per 24 november 2026 concreet voor **BLOG-01-en, BLOG-02-en en BLOG-03** (op het
+   moment van schrijven nog te mergen branches): zodra een van die branches wordt gemerged, hoort
+   deze conversiestap bij de publicatiedag-routine van dat artikel, bovenop de vier
+   standaardstappen en de taalpaar-stappen hierboven.
+
+**Waarom:** de migratie verandert de opslagvorm van inzichtenartikelen, niet de inhoud of de
+sortering (zie `planning/migratieplan-inzichten-cms.md` voor het bewijs daarvan: een dist-diff
+van de volledige site, vóór en na, met alleen het verwachte verschil in de lastBuildDate van de
+RSS-feeds). Een blogbranch die vóór de migratie is afgetakt, "weet" nog niets van de nieuwe
+opslagvorm en voegt daarom nog in het oude formaat toe; zonder deze conversiestap zou die
+toevoeging als `.js`-bestand of `all.json`-item op `main` belanden, naast de nieuwe
+markdown-collectie, met twee databronnen voor dezelfde inzichten als gevolg.

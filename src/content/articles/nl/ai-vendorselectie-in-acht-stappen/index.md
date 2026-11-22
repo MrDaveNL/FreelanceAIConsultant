@@ -1,33 +1,39 @@
-export default {
-  slug: 'ai-vendorselectie-in-acht-stappen',
-  category: 'Tools & data',
-  tone: 'aqua',
-  icon: '◈',
-  featured: false,
-  title: 'AI-vendorselectie in acht stappen',
-  titleLine1: 'AI-vendorselectie',
-  titleLine2: 'in acht stappen',
-  excerpt: 'Criteria eerst, leveranciers daarna. Een selectieproces dat bestand is tegen goede demo’s en interne voorkeuren.',
-  metaDescription: "Criteria eerst, leveranciers daarna. Een selectieproces voor AI-leveranciers in acht stappen dat bestand is tegen goede demo's en interne voorkeuren.",
-  lede: 'De meeste selecties worden beslist voordat het proces begint. Acht stappen die voorkomen dat je achteraf een onderbouwing zoekt bij een keuze die al vaststond.',
-  readingTime: '5 min leestijd',
-  date: '2026-10-28',
-  dateLabel: '28 oktober 2026',
-  order: 11,
-  summary: [
-    'Stel criteria en wegingen vast vóórdat je leveranciers ziet.',
-    'Test met jouw data, niet met hun demo.',
-    'Reken TCO over drie jaar, inclusief integratie en exit.',
-  ],
-  summaryClose: 'De goedkoopste licentie is zelden de goedkoopste keuze.',
-  takeaways: [
-    ['Wegingen vooraf', 'Criteria die na de demo worden opgesteld, beschrijven de demo.'],
-    ['Eigen scenario', 'Iedere leverancier hetzelfde scenario op jouw data, met dezelfde tijd.'],
-    ['Eigen referenties', 'Bel ook klanten die niet op de aangeleverde lijst staan.'],
-  ],
-  remember: 'Je koopt geen functionaliteit, je koopt een relatie van drie jaar met een organisatie die verandert.',
-  related: ['build-buy-of-partner', 'freelance-ai-consultant-vs-agency-vs-big4'],
-  body: `
+---
+id: nl-ai-vendorselectie-in-acht-stappen
+lang: nl
+slug: ai-vendorselectie-in-acht-stappen
+category: Tools & data
+tone: aqua
+icon: ◈
+featured: false
+title: AI-vendorselectie in acht stappen
+titleLine1: AI-vendorselectie
+titleLine2: in acht stappen
+excerpt: Criteria eerst, leveranciers daarna. Een selectieproces dat bestand is tegen goede demo’s en interne voorkeuren.
+metaDescription: Criteria eerst, leveranciers daarna. Een selectieproces voor AI-leveranciers in acht stappen dat bestand is tegen goede demo's en interne voorkeuren.
+lede: De meeste selecties worden beslist voordat het proces begint. Acht stappen die voorkomen dat je achteraf een onderbouwing zoekt bij een keuze die al vaststond.
+readingTime: 5 min leestijd
+date: '2026-10-28'
+dateLabel: 28 oktober 2026
+order: 11
+summary:
+  - Stel criteria en wegingen vast vóórdat je leveranciers ziet.
+  - Test met jouw data, niet met hun demo.
+  - Reken TCO over drie jaar, inclusief integratie en exit.
+summaryClose: De goedkoopste licentie is zelden de goedkoopste keuze.
+takeaways:
+  - - Wegingen vooraf
+    - Criteria die na de demo worden opgesteld, beschrijven de demo.
+  - - Eigen scenario
+    - Iedere leverancier hetzelfde scenario op jouw data, met dezelfde tijd.
+  - - Eigen referenties
+    - Bel ook klanten die niet op de aangeleverde lijst staan.
+remember: Je koopt geen functionaliteit, je koopt een relatie van drie jaar met een organisatie die verandert.
+related:
+  - build-buy-of-partner
+  - freelance-ai-consultant-vs-agency-vs-big4
+---
+
 <h2>Waarom AI-selectie anders is</h2>
 <p>Bij gewone software kun je functionaliteit afvinken. Bij AI-toepassingen is de kernvraag niet "kan het systeem dit?" maar "hoe goed doet het dit op mijn data, en wat gebeurt er als het ernaast zit?". Dat is een fundamenteel andere vraag, en de standaard-RFP is er niet op ingericht.</p>
 <p>Daarbij komt dat demo’s in dit domein misleidend goed zijn. Een presentatie op zorgvuldig gekozen voorbeelden zegt weinig over prestaties op jouw rommelige werkelijkheid. Dit proces is ontworpen om dat verschil zichtbaar te maken.</p>
@@ -93,5 +99,3 @@ export default {
 
 <h2>Tot slot: documenteer waarom de anderen afvielen</h2>
 <p>Niet alleen waarom de winnaar won. De afvalredenen zijn het waardevolst als er over een jaar tegenvallers zijn en iemand vraagt waarom er niet voor partij B is gekozen. Zonder vastlegging wordt dat een gesprek over gevoel. Met vastlegging is het een gesprek over criteria die je destijds samen hebt bepaald.</p>
-`,
-};

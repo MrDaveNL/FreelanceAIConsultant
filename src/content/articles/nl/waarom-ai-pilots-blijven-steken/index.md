@@ -1,32 +1,38 @@
-export default {
-  slug: 'waarom-ai-pilots-blijven-steken',
-  category: 'Organisatie',
-  tone: 'salmon',
-  icon: '⚠',
-  featured: false,
-  title: 'Waarom AI-pilots blijven steken (en wat je eraan doet)',
-  titleLine1: 'Waarom AI-pilots',
-  titleLine2: 'blijven steken',
-  excerpt: 'De pilot werkte. Iedereen was enthousiast. En toch is er een jaar later niets opgeschaald. Vijf oorzaken, vijf tegenmaatregelen.',
-  lede: 'Bijna elke organisatie die ik spreek heeft geslaagde AI-pilots. Bijna geen enkele heeft er meer dan twee opgeschaald. Dat is geen technologieprobleem.',
-  readingTime: '4 min leestijd',
-  date: '2026-10-30',
-  dateLabel: '30 oktober 2026',
-  order: 8,
-  summary: [
-    'Een pilot bewijst haalbaarheid, geen waarde.',
-    'Opschalen faalt op eigenaarschap, beheer en werkproces, zelden op techniek.',
-    'Spreek de opschaalcriteria af vóór de pilot start.',
-  ],
-  summaryClose: 'Wie de pilot ontwerpt zonder exitcriteria, ontwerpt een doodlopende weg.',
-  takeaways: [
-    ['Definieer succes vooraf', 'Zonder vooraf afgesproken drempel wordt elke uitkomst achteraf positief geïnterpreteerd.'],
-    ['Beheer hoort in de pilot', 'Als niemand het na oplevering onderhoudt, is opschalen per definitie onmogelijk.'],
-    ['Pilots in de echte omgeving', 'Een pilot buiten het echte werkproces bewijst alleen dat de techniek werkt.'],
-  ],
-  remember: 'Een pilot zonder vooraf afgesproken stopcriterium eindigt nooit, hij verdampt alleen.',
-  related: ['welke-ai-use-cases-leveren-resultaat', 'ai-adoptie-begint-bij-het-werk'],
-  body: `
+---
+id: nl-waarom-ai-pilots-blijven-steken
+lang: nl
+slug: waarom-ai-pilots-blijven-steken
+category: Organisatie
+tone: salmon
+icon: ⚠
+featured: false
+title: Waarom AI-pilots blijven steken (en wat je eraan doet)
+titleLine1: Waarom AI-pilots
+titleLine2: blijven steken
+excerpt: De pilot werkte. Iedereen was enthousiast. En toch is er een jaar later niets opgeschaald. Vijf oorzaken, vijf tegenmaatregelen.
+lede: Bijna elke organisatie die ik spreek heeft geslaagde AI-pilots. Bijna geen enkele heeft er meer dan twee opgeschaald. Dat is geen technologieprobleem.
+readingTime: 4 min leestijd
+date: '2026-10-30'
+dateLabel: 30 oktober 2026
+order: 8
+summary:
+  - Een pilot bewijst haalbaarheid, geen waarde.
+  - Opschalen faalt op eigenaarschap, beheer en werkproces, zelden op techniek.
+  - Spreek de opschaalcriteria af vóór de pilot start.
+summaryClose: Wie de pilot ontwerpt zonder exitcriteria, ontwerpt een doodlopende weg.
+takeaways:
+  - - Definieer succes vooraf
+    - Zonder vooraf afgesproken drempel wordt elke uitkomst achteraf positief geïnterpreteerd.
+  - - Beheer hoort in de pilot
+    - Als niemand het na oplevering onderhoudt, is opschalen per definitie onmogelijk.
+  - - Pilots in de echte omgeving
+    - Een pilot buiten het echte werkproces bewijst alleen dat de techniek werkt.
+remember: Een pilot zonder vooraf afgesproken stopcriterium eindigt nooit, hij verdampt alleen.
+related:
+  - welke-ai-use-cases-leveren-resultaat
+  - ai-adoptie-begint-bij-het-werk
+---
+
 <h2>De pilotparadox</h2>
 <p>Pilots zijn ontworpen om risico te verlagen. Klein beginnen, leren, dan opschalen. In de praktijk doen ze vaak het tegenovergestelde: ze creëren de illusie van vooruitgang zonder dat er iets verandert. Een organisatie met zeven geslaagde pilots en nul productietoepassingen is verder van haar doel dan een organisatie met één toepassing die draait.</p>
 <p>De oorzaken zijn opvallend consistent. Vijf stuks, en geen ervan is technisch.</p>
@@ -66,5 +72,3 @@ export default {
   <li><b>De benodigde verandering:</b> wat moet er anders in het werk om de waarde te realiseren.</li>
 </ul>
 <p>Deze pagina kost een uur om te maken en voorkomt het scenario waarin je een jaar later zeven geslaagde pilots hebt en niets in productie. Het grootste effect zit niet in het document zelf, maar in de gesprekken die je moet voeren om het ingevuld te krijgen. Dat is precies waar de blokkades zichtbaar worden, op het moment dat ze nog op te lossen zijn.</p>
-`,
-};

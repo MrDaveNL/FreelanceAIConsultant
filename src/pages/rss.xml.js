@@ -12,7 +12,9 @@ const escape = (value) =>
 export async function GET() {
   const articles = (await getCollection('articles', ({ data }) => data.lang === 'en'))
     .map((a) => a.data)
-    .sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime());
+    // 'order' is de tiebreaker bij gelijke 'date' (laag = nieuwer/boven), zelfde mechanisme als de
+    // NL-feed (src/pages/nl/rss.xml.js). Zie src/content/articles/en/*/index.md.
+    .sort((a, b) => (a.date !== b.date ? new Date(b.date).getTime() - new Date(a.date).getTime() : (a.order ?? 0) - (b.order ?? 0)));
   const items = articles
     .map((article) => {
       const url = `${site.url}/insights/${article.slug}`;

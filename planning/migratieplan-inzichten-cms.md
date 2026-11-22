@@ -1,8 +1,8 @@
 # Migratieplan: inzichten naar markdown per artikel per taal (optie 3)
 
-Status: plan, niet uitgevoerd. Alleen lezen en ontwerpen, geen bestand in `src/content`,
-`src/data` of `content.config.ts` is hiervoor aangepast. Dave beslist na dit plan of, en wanneer,
-dit traject start.
+Status: uitgevoerd op branch `feat/inzichten-cms-migratie` (niet gemerged naar `main`). Wacht op
+Dave's review en akkoord vóór de merge. Zie het eindrapport van die branch voor de volledige
+bewijsvoering (dist-diff vóór/na, `npm run build`/`test`/`check`, RAG-telling vóór/na).
 
 ## Waarom dit nodig is voor een CMS op de inzichten
 
