@@ -63,6 +63,32 @@ branch) over hetzelfde onderwerp bestaat, en gebruik de daar al geverifieerde st
 Wijkt je eigen onderzoek daarvan af, meld dat expliciet in plaats van stilzwijgend een andere
 versie van de feiten te publiceren.
 
+## Per taalpaar (sinds besluit 11 nov 2026, bevestigd 22 nov 2026)
+
+Sinds het besluit dat elke inzichten-blog in beide talen verschijnt, gelden de vier stappen
+hierboven (main inhalen, LINK-TODO's, nulmeting-baseline, build/check/deploy) **per taalpaar**,
+niet per los artikel. Een publicatiedag is pas afgerond als beide taalversies zijn verwerkt.
+
+1. **Merge beide taalbranches** (NL en EN, of de gecombineerde branch die beide bevat) in de
+   aangegeven volgorde eerst main in, zoals stap 1 hierboven. Dit geldt voor elke taalversie
+   afzonderlijk, niet alleen voor de NL-versie.
+2. **LINK-TODO's in beide talen oplossen**: de NL `LINK-TODO`'s wijzen naar `/nl/inzichten/...`,
+   de EN `LINK-TODO`'s naar de EN-tegenhanger onder `/insights/...`. Beide kanten (inkomend en
+   uitgaand, zie onder) per taal nalopen; een opgeloste NL-link betekent niet automatisch dat de
+   EN-link ook is opgelost.
+3. **Beide nulmetingen opnieuw genereren**: de NL-baseline tegen `/nl/inzichten/[slug]` én de
+   EN-baseline tegen `/insights/[en-slug]`, allebei tegen de samengevoegde main van na stap 1 en 2.
+   Eén taal verversen zonder de andere levert een publicatiedag op die voor de helft tegen een
+   verouderde staat is gecontroleerd.
+4. **Hreflang-check**: controleer dat beide pagina's naar elkaar linken via hreflang (NL → EN en
+   EN → NL) en dat de `date`/`datePublished` van beide versies gelijk is. Pas als build, content-
+   checks én de hreflang-koppeling voor beide talen kloppen, gaat de deploy uit.
+
+**Waarom:** het besluit van 11 nov (bevestigd 22 nov) vervangt de oude harde regel "alleen NL, EN
+volgt later" door "NL en EN gaan samen live op dezelfde publicatiedag". De bestaande routine ging
+nog uit van één taal per publicatiedag; zonder deze aanvulling zou de EN-kant stilzwijgend
+overgeslagen kunnen worden, terwijl die nu een vereiste is, niet een nice-to-have.
+
 ## Live link of LINK-TODO: de publicatievolgorde bepaalt het, niet of het doel al bestaat als bestand
 
 Of een interne link naar een andere blog een gewone, werkende link is of een `LINK-TODO [ID]`,
