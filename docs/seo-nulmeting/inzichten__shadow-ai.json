@@ -2,7 +2,7 @@
   "url": "/inzichten/shadow-ai",
   "build_bestand": "dist/inzichten/shadow-ai/index.html",
   "html": {
-    "bytes": 47831,
+    "bytes": 48193,
     "lang": "nl"
   },
   "beschermd": {
@@ -10,7 +10,20 @@
     "meta_description": "Shadow AI is AI-gebruik buiten het zicht van IT en management. Wat de risico's zijn en hoe je het in goede banen leidt zonder alles te verbieden.",
     "canonical": "https://freelanceaiconsultant.com/nl/inzichten/shadow-ai",
     "robots_meta": null,
-    "hreflang": [],
+    "hreflang": [
+      {
+        "hreflang": "en",
+        "href": "https://freelanceaiconsultant.com/insights/shadow-ai"
+      },
+      {
+        "hreflang": "nl",
+        "href": "https://freelanceaiconsultant.com/nl/inzichten/shadow-ai"
+      },
+      {
+        "hreflang": "x-default",
+        "href": "https://freelanceaiconsultant.com/insights/shadow-ai"
+      }
+    ],
     "h1": [
       "Shadow AI: medewerkers gebruiken het al"
     ]
@@ -320,7 +333,7 @@
     {
       "regio": "header",
       "soort": "intern",
-      "href": "/insights",
+      "href": "/insights/shadow-ai",
       "anker": "EN",
       "rel": null
     },

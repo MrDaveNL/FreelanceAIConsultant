@@ -2,7 +2,7 @@
   "url": "/insights",
   "build_bestand": "dist/insights/index.html",
   "html": {
-    "bytes": 41940,
+    "bytes": 44125,
     "lang": "en"
   },
   "beschermd": {
@@ -57,6 +57,24 @@
     {
       "niveau": 2,
       "tekst": "All articles",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 3,
+      "tekst": "Shadow AI: your employees are already using it, now what?",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 3,
+      "tekst": "The AI Act after the Digital Omnibus: what's delayed and what still applies",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 3,
+      "tekst": "AI in customer service: what works and what doesn't",
       "regio": "main",
       "id": null
     },
@@ -141,12 +159,12 @@
   ],
   "bodytekst": {
     "regio": "main",
-    "woorden": 782,
-    "sha256": "c33d05ecab9c5e2b87b5e3632376a86221b0add4421a542f13fa4bdd1c1a1df2",
+    "woorden": 908,
+    "sha256": "3e50dd2e92ce4c45a7d247a806a8f0b53533b85a7c94298d78b8c90bc3f8705f",
     "blokken": [
       "AI advice that helps you decide",
       "Practical insights for better AI decisions.",
-      "Real-world experience, frameworks and no-nonsense advice for senior leaders who want to put AI to work with impact. 12 articles, none of them written to sell you anything.",
+      "Real-world experience, frameworks and no-nonsense advice for senior leaders who want to put AI to work with impact. 15 articles, none of them written to sell you anything.",
       "Book a call → See my case studies → 30 min., no pitch deck",
       "trust, experience, impact ↓",
       "Independent No vendor bias Senior only Since 2006",
@@ -215,14 +233,29 @@
       "◷ 4 min read 1 November 2026",
       "Read article →",
       "All insights",
+      "Governance",
       "Use cases",
       "Strategy",
       "Organisation",
       "Tools & data",
-      "Governance",
       "No results in this category.",
       "All articles",
-      "12 articles · RSS",
+      "15 articles · RSS",
+      "◐",
+      "Governance",
+      "Shadow AI: your employees are already using it, now what?",
+      "Banning it doesn't work: employees are already using AI. How to make it visible, take the risk seriously and offer safe alternatives without locking everything down.",
+      "◷ 6 min read Read article →",
+      "⚖",
+      "Governance",
+      "The AI Act after the Digital Omnibus: what's delayed and what still applies",
+      "The Digital Omnibus delays the AI Act's high-risk obligations. What's delayed, what still applies, and what to do about it right now.",
+      "◷ 5 min read Read article →",
+      "☎",
+      "Use cases",
+      "AI in customer service: what works and what doesn't",
+      "The chatbot is rarely the biggest win. Start with email triage and supporting staff, and only let a chatbot loose once your knowledge base is in order.",
+      "◷ 4 min read Read article →",
       "↯",
       "Use cases",
       "AI agents: what they can and cannot do in a business process",
@@ -381,6 +414,27 @@
       "soort": "intern",
       "href": "/rss.xml",
       "anker": "RSS",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/insights/shadow-ai",
+      "anker": "◐ Governance Shadow AI: your employees are already using it, now what? Banning it doesn't work: employees are already using AI. How to make it visible, take the risk seriously and offer safe alternatives without locking everything down. ◷ 6 min read Read article →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/insights/ai-act-after-the-digital-omnibus",
+      "anker": "⚖ Governance The AI Act after the Digital Omnibus: what's delayed and what still applies The Digital Omnibus delays the AI Act's high-risk obligations. What's delayed, what still applies, and what to do about it right now. ◷ 5 min read Read article →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/insights/ai-customer-service",
+      "anker": "☎ Use cases AI in customer service: what works and what doesn't The chatbot is rarely the biggest win. Start with email triage and supporting staff, and only let a chatbot loose once your knowledge base is in order. ◷ 4 min read Read article →",
       "rel": null
     },
     {
@@ -757,5 +811,5 @@
     "aantal_details": 0,
     "aantal_tabellen": 0
   },
-  "gemeten_op": "2026-11-11"
+  "gemeten_op": "2026-11-22"
 }

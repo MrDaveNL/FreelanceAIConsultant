@@ -2,7 +2,7 @@
   "url": "/inzichten/ai-act-digital-omnibus",
   "build_bestand": "dist/inzichten/ai-act-digital-omnibus/index.html",
   "html": {
-    "bytes": 47426,
+    "bytes": 47958,
     "lang": "nl"
   },
   "beschermd": {
@@ -10,7 +10,20 @@
     "meta_description": "De Digital Omnibus stelt de hoog-risico verplichtingen van de AI Act uit. Wat schuift op, wat blijft gewoon gelden en wat je als organisatie nu doet.",
     "canonical": "https://freelanceaiconsultant.com/nl/inzichten/ai-act-digital-omnibus",
     "robots_meta": null,
-    "hreflang": [],
+    "hreflang": [
+      {
+        "hreflang": "en",
+        "href": "https://freelanceaiconsultant.com/insights/ai-act-after-the-digital-omnibus"
+      },
+      {
+        "hreflang": "nl",
+        "href": "https://freelanceaiconsultant.com/nl/inzichten/ai-act-digital-omnibus"
+      },
+      {
+        "hreflang": "x-default",
+        "href": "https://freelanceaiconsultant.com/insights/ai-act-after-the-digital-omnibus"
+      }
+    ],
     "h1": [
       "AI Act na de Digital Omnibus: wat schuift op, wat blijft gelden"
     ]
@@ -309,6 +322,13 @@
       "soort": "intern",
       "href": "/nl/over",
       "anker": "Over mij",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/insights/ai-act-after-the-digital-omnibus",
+      "anker": "EN",
       "rel": null
     },
     {

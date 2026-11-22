@@ -1,0 +1,778 @@
+{
+  "url": "/insights/shadow-ai",
+  "build_bestand": "dist/insights/shadow-ai/index.html",
+  "html": {
+    "bytes": 43483,
+    "lang": "en"
+  },
+  "beschermd": {
+    "title": "Shadow AI: risks and how to manage it",
+    "meta_description": "Shadow AI is AI use IT and management can't see. What the risks are and how to manage it well without banning everything outright.",
+    "canonical": "https://freelanceaiconsultant.com/insights/shadow-ai",
+    "robots_meta": null,
+    "hreflang": [
+      {
+        "hreflang": "en",
+        "href": "https://freelanceaiconsultant.com/insights/shadow-ai"
+      },
+      {
+        "hreflang": "nl",
+        "href": "https://freelanceaiconsultant.com/nl/inzichten/shadow-ai"
+      },
+      {
+        "hreflang": "x-default",
+        "href": "https://freelanceaiconsultant.com/insights/shadow-ai"
+      }
+    ],
+    "h1": [
+      "Shadow AI: employees are already using it"
+    ]
+  },
+  "social": {
+    "og:type": "website",
+    "og:locale": "en_US",
+    "og:site_name": "freelanceaiconsultant.com",
+    "og:title": "Shadow AI: risks and how to manage it",
+    "og:description": "Shadow AI is AI use IT and management can't see. What the risks are and how to manage it well without banning everything outright.",
+    "og:url": "https://freelanceaiconsultant.com/insights/shadow-ai",
+    "og:image": "https://freelanceaiconsultant.com/images/dave-portrait.jpg",
+    "twitter:card": "summary_large_image",
+    "twitter:title": "Shadow AI: risks and how to manage it",
+    "twitter:description": "Shadow AI is AI use IT and management can't see. What the risks are and how to manage it well without banning everything outright.",
+    "twitter:image": "https://freelanceaiconsultant.com/images/dave-portrait.jpg"
+  },
+  "koppen": [
+    {
+      "niveau": 1,
+      "tekst": "Shadow AI: employees are already using it",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "What is shadow AI?",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "Why employees do it",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "The risks: data, GDPR, IP and quality",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "How to find out what's already being used",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "From banning to enabling",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "Shadow AI and AI literacy (the AI Act)",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "A plan for the first 30 days",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 3,
+      "tekst": "Key takeaways",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 3,
+      "tekst": "AI governance without bureaucracy: what you need at minimum",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 3,
+      "tekst": "AI adoption starts with the work, not the tool",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "From AI ambition to concrete results.",
+      "regio": "main",
+      "id": null
+    }
+  ],
+  "bodytekst": {
+    "regio": "main",
+    "woorden": 1936,
+    "sha256": "84bbdcfdd5b9b7a74617e86558041f11ff590112948dc9d829d8485e3a416d97",
+    "blokken": [
+      "Home",
+      "Insights",
+      "Shadow AI: your employees are already using it, now what?",
+      "← Back to all insights",
+      "Governance",
+      "Shadow AI: employees are already using it",
+      "Banning it doesn't work, because employees are already using AI. Map what's being used, offer a safe alternative, and set a few minimal ground rules. Shadow AI is a signal of unmet need, not a disciplinary matter.",
+      "◷ 6 min read 22 November 2026",
+      "DW",
+      "By Dave Willemstein Independent AI Advisor, independent, no vendor interests",
+      "I help organisations make AI decisions that create value. No bloated decks, just clear choices and tangible results.",
+      "trust, experience, impact ↓",
+      "Independent No vendor bias Senior only Since 2006",
+      "AT A GLANCE",
+      "Banning it only pushes the use underground, it doesn't stop it.",
+      "Get visibility into what is already being used first, then put rules in place.",
+      "A sanctioned business alternative and a short policy work better than a ban.",
+      "Shadow AI is a signal of unmet need, not a disciplinary matter.",
+      "AI in Europe",
+      "European brands already running AI in production.",
+      "Not my clients. Examples of what happens once AI moves past the pilot stage.",
+      "Pause",
+      "Klarna",
+      "Sweden",
+      "AI customer service assistant",
+      "Zalando",
+      "Germany",
+      "Fashion assistant for product advice",
+      "Financial services",
+      "Investment firm",
+      "AI strategy and use-case portfolio",
+      "Booking.com",
+      "Netherlands",
+      "AI Trip Planner for travel planning",
+      "Siemens",
+      "Germany",
+      "Industrial Copilot for engineering",
+      "Retail",
+      "Enterprise retailer",
+      "AI-driven vendor selection",
+      "Spotify",
+      "Sweden",
+      "AI DJ and personalized playlists",
+      "Mercedes-Benz",
+      "Germany",
+      "Generative voice assistant in the car",
+      "Industrial / B2B",
+      "International manufacturer",
+      "AI roadmap and leadership",
+      "ING",
+      "Netherlands",
+      "Generative chatbot for customer queries",
+      "L'Oréal",
+      "France",
+      "Beauty Genius: personalized advice",
+      "Financial services",
+      "Financial services firm",
+      "KYC accelerated with AI document analysis",
+      "SAP",
+      "Germany",
+      "Joule: copilot in business software",
+      "Carrefour",
+      "France",
+      "Hopla: grocery shopping assistant",
+      "Strategy & AI",
+      "SaaS scale-up",
+      "AI readiness assessment",
+      "Adyen",
+      "Netherlands",
+      "AI-driven payment optimization",
+      "Philips",
+      "Netherlands",
+      "AI in medical imaging",
+      "Proces & productivity",
+      "Professional services firm",
+      "Internal AI assistant for knowledge workers",
+      "What is shadow AI?",
+      "Shadow AI is AI use that happens outside the view and approval of IT and management. That's broader than \"someone uses ChatGPT in the browser\". It also covers AI features quietly switched on inside existing software, browser extensions that read along with everything someone types, a standalone subscription a team sets up on its own outside procurement, and personal accounts used for work because there's no business alternative.",
+      "How common this is depends heavily on the definition and the country, but the range in recent research runs roughly between half and three-quarters of office workers. Research by Censuswide for Microsoft (October 2025, more than two thousand UK employees) found that 71% had used an unapproved AI tool for work at some point. Numbers like that vary by study, but the direction is the same everywhere: the use is already widespread before an organisation has any policy on it.",
+      "The difference from classic shadow IT is speed. Buying an unapproved application used to cost a credit card and a manager's sign-off. Using an AI tool costs a browser tab.",
+      "Why employees do it",
+      "Almost nobody does this to dodge the rules. People want to do their work faster or better, and the official alternative isn't there, is too slow, or is unknown.",
+      "I see it almost every time I review a new client's AI or content workflow: marketing and sales staff running customer emails, quote copy or product content through a free chatbot on a personal account. Not secretly out of bad intent, but because it works and there's no business alternative ready. At that point, leadership is often still deliberating \"whether we should do something with AI\". The answer on the shop floor has already been yes for months, just without agreements, without logging, and with company data sitting in tools nobody has a processing agreement with.",
+      "That pattern is the whole problem in miniature: while leadership is still weighing whether AI is something for the organisation, the answer on the floor has already been yes for months, just without anyone having looked at it. I describe that same dynamic, but for setting up approval processes in general, in more detail in AI governance without bureaucracy.",
+      "The risks: data, GDPR, IP and quality",
+      "The risk of shadow AI isn't that employees use AI. The risk is that nobody knows which data ends up where, and there's no agreement on what is and isn't allowed in it.",
+      "Data and IP: source code, strategic documents, unpublished figures or draft contracts pasted into a public chatbot can, with some free services, be used to improve the underlying model, and in any case sit on servers you have no agreements with.",
+      "GDPR: if an employee puts personal data from customers, patients or job applicants into a public tool, the GDPR requirements simply apply: a legal basis, data minimisation and often a processing agreement with the provider. That last one is missing from a personal account by definition. How that works legally overlaps with what I describe in AI agents and GDPR, though that piece is specifically about agents that process data on their own.",
+      "Quality: output that nobody checks, because the use itself is already hidden. A wrong answer in a draft email is annoying; a wrong answer that reaches the customer unseen is something else.",
+      "IBM's annual data breach research found in 2025 that 20% of the organisations studied reported a data breach involving shadow AI, and that 63% of those affected organisations have no AI governance policy or are still working on one (IBM, Cost of a Data Breach Report, 2025). That's not because shadow AI is inherently more dangerous than approved AI, but because there's no control on it at all: no agreements, no visibility, no log.",
+      "How to find out what's already being used",
+      "You can't manage a risk you don't know about. So before you put anything in place, you first need visibility, and that works better with questions than with bans.",
+      "Hold short, non-punitive conversations per team: which AI tools are you already using, for what, and what would you like to be able to do? State upfront that this isn't a disciplinary review.",
+      "Check credit card and subscription statements for small, recurring software charges. A lot of shadow AI is paid for with a personal or departmental card, not through procurement.",
+      "Ask IT whether there's already visibility into network traffic to known AI domains. That won't give a complete picture (personal phones and working from home fall outside it), but it is a first indication.",
+      "Watch for signals in the work itself: text that suddenly reads differently, a team that's delivering faster all of a sudden without a change in headcount.",
+      "If the picture that emerges is bigger than you can interpret yourself, or you want it done thoroughly in one go, including the risk and compliance side, that's exactly what an AI Readiness Assessment is for.",
+      "From banning to enabling",
+      "The reflex is often: ban it, and send an email saying it's no longer allowed. That's not an unreasonable first instinct, because the risks are real. But a ban without an alternative doesn't change the behaviour, it only changes the visibility. Research by IntoTheMinds (2026) among French employees who had been subject to a ban found that nearly seven in ten (69.2%) kept using a personal account anyway. With a ban, you therefore know less than before, not more. Banning is the worst of both worlds: you don't stop the use, you just make it invisible.",
+      "My approach is therefore the reverse. Give employees a business alternative within a few weeks that works at least as easily as what they're already using, and pair it with three agreements instead of a policy document:",
+      "What data can never go in. Think of personal data about customers, patients or job applicants, unpublished figures and draft contracts.",
+      "Which tools are approved. One business subscription with clear agreements about what happens to the input is already a huge improvement over a personal account. You can read what that involves in ChatGPT for business.",
+      "Who to go to with a new use case. One fixed point of contact for borderline cases, so a new need doesn't go underground again.",
+      "That policy fits on a single page. What that looks like is covered under AI policy, including a starting point you can build on yourself. What I would firmly ban: customer and personal data in free tools without a processing agreement. That line is easy to explain, and everything outside it is a matter of enabling and adjusting.",
+      "Shadow AI and AI literacy (the AI Act)",
+      "Since 2 February 2025, the EU AI Act has required organisations to take measures for the AI literacy of everyone who works with AI within them. That obligation applies to every form of AI use, including the use you don't have visibility into yet, and it was not delayed by the Digital Omnibus: only the high-risk rules were pushed back, not this obligation.",
+      "Shadow AI is, in practice, exactly the scenario this obligation targets: people working with AI without instruction on what responsible use looks like. A short, practical instruction alongside the business alternative is therefore not just sensible, it's also the simplest way to meet this requirement. How to set that up together with a register, an approval step and an escalation path, in a light structure that doesn't turn into new bureaucracy, is described in AI governance without bureaucracy.",
+      "A plan for the first 30 days",
+      "You don't need to sort this out completely in one go. A workable sequence over four weeks:",
+      "Week 1, discover: conversations per team, a look at subscription costs, and a question to IT about what's already visible. The goal is an initial picture, not a full inventory.",
+      "Week 2, put an alternative in place: based on what you see, set up at least one business subscription for the most common use, with agreements about the input.",
+      "Week 3, instruct: a short, concrete instruction on what is and isn't allowed, aimed at the teams where you saw the most use. This is also the moment to make the AI literacy obligation demonstrable.",
+      "Week 4, record and evaluate: write the agreements down on a single page, assign who reviews borderline cases, and schedule a short repeat of the discovery round in three months.",
+      "Shadow AI doesn't go away because of a ban, and that's actually good news: it's a clear signal that there's a need somewhere your official offering isn't meeting right now. Treat it that way, and you don't just resolve a risk, you also see straight away where in the organisation AI could take the most work off people's hands.",
+      "Key takeaways",
+      "✓",
+      "Banning backfires",
+      "A ban makes the use invisible, not smaller.",
+      "✓",
+      "Visibility before control",
+      "You can't manage a risk you don't know about; start with discovery, not rules.",
+      "✓",
+      "Enabling beats enforcing",
+      "An approved alternative within a week beats a ban nobody checks.",
+      "REMEMBER “Anyone who bans AI without offering an alternative mainly arranges not to see it anymore.”",
+      "Want to talk through your situation? 30 minutes, no obligation →",
+      "Further reading",
+      "▣",
+      "Governance",
+      "AI governance without bureaucracy: what you need at minimum",
+      "Governance nobody uses protects nobody. Four mechanisms that make the difference, and what you can safely skip.",
+      "◷ 5 min read Read article →",
+      "◉",
+      "Organisation",
+      "AI adoption starts with the work, not the tool",
+      "Giving everyone a licence isn't an adoption strategy. Why an empty input box is the biggest barrier, and what actually works.",
+      "◷ 4 min read Read article →",
+      "Ready for impact?",
+      "From AI ambition to concrete results.",
+      "Book a no-obligation call. No pitch. Just sharp questions.",
+      "30 min., no pitch deckBook a call →"
+    ]
+  },
+  "links": [
+    {
+      "regio": "overig",
+      "soort": "intern",
+      "href": "#main",
+      "anker": "Skip to main content",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/",
+      "anker": "",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/services",
+      "anker": "Services",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/cases",
+      "anker": "Cases",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/approach",
+      "anker": "Approach",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/insights",
+      "anker": "Insights",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/about",
+      "anker": "About",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/nl/inzichten/shadow-ai",
+      "anker": "NL",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/contact",
+      "anker": "Book a call →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/",
+      "anker": "Home",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/insights",
+      "anker": "Insights",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/insights",
+      "anker": "← Back to all insights",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/insights/ai-governance-without-bureaucracy",
+      "anker": "AI governance without bureaucracy",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/knowledge-base/ai-agents-and-gdpr",
+      "anker": "AI agents and GDPR",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/services/ai-readiness-assessment",
+      "anker": "AI Readiness Assessment",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/knowledge-base/chatgpt-for-business",
+      "anker": "ChatGPT for business",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/ai-policy",
+      "anker": "AI policy",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/insights/ai-act-after-the-digital-omnibus",
+      "anker": "Digital Omnibus",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/insights/ai-governance-without-bureaucracy",
+      "anker": "AI governance without bureaucracy",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/contact",
+      "anker": "Want to talk through your situation? 30 minutes, no obligation →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/insights/ai-governance-without-bureaucracy",
+      "anker": "▣ Governance AI governance without bureaucracy: what you need at minimum Governance nobody uses protects nobody. Four mechanisms that make the difference, and what you can safely skip. ◷ 5 min read Read article →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/insights/ai-adoption-starts-with-the-work",
+      "anker": "◉ Organisation AI adoption starts with the work, not the tool Giving everyone a licence isn't an adoption strategy. Why an empty input box is the biggest barrier, and what actually works. ◷ 4 min read Read article →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/contact",
+      "anker": "Book a call →",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/services/ai-readiness-assessment",
+      "anker": "AI Readiness Assessment",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/services/ai-strategy-sprint",
+      "anker": "AI Strategy Sprint",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/services/fractional-ai-lead",
+      "anker": "Fractional AI Lead",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/services",
+      "anker": "All services",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/cases",
+      "anker": "Cases",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/approach",
+      "anker": "Approach",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/insights",
+      "anker": "Insights",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/faq",
+      "anker": "FAQ",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/about",
+      "anker": "About",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-consulting",
+      "anker": "AI consulting",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-implementation",
+      "anker": "AI implementation",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-automation",
+      "anker": "AI automation",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-for-business",
+      "anker": "AI for business",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-development",
+      "anker": "AI development",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-agents",
+      "anker": "AI agents",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-policy",
+      "anker": "AI policy",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-workshop",
+      "anker": "AI workshop",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/markets",
+      "anker": "AI by industry",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/knowledge-base",
+      "anker": "Knowledge base",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/pricing",
+      "anker": "Pricing",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/partner-network",
+      "anker": "Partner network",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "overig",
+      "href": "mailto:dave@freelanceaiconsultant.com",
+      "anker": "dave@freelanceaiconsultant.com",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "extern",
+      "href": "https://www.linkedin.com/in/davewillemstein",
+      "anker": "LinkedIn ↗",
+      "rel": "noopener"
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/contact",
+      "anker": "Book a call",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/privacy",
+      "anker": "Privacy policy",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/terms",
+      "anker": "Terms & conditions",
+      "rel": null
+    }
+  ],
+  "structured_data": {
+    "sha256": "5d1bafb19dcd79b71dd2b84a557ed3755e5eae2ea401cf86c8bf19e6fdc307fd",
+    "items": [
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://freelanceaiconsultant.com/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Insights",
+                "item": "https://freelanceaiconsultant.com/insights"
+              },
+              {
+                "@type": "ListItem",
+                "position": 3,
+                "name": "Shadow AI: your employees are already using it, now what?",
+                "item": "https://freelanceaiconsultant.com/insights/shadow-ai"
+              }
+            ]
+          },
+          {
+            "@type": "Person",
+            "@id": "https://freelanceaiconsultant.com/#dave",
+            "name": "Dave Willemstein",
+            "url": "https://freelanceaiconsultant.com/about",
+            "sameAs": [
+              "https://www.linkedin.com/in/davewillemstein"
+            ],
+            "jobTitle": "Independent AI Advisor"
+          },
+          {
+            "@type": "BlogPosting",
+            "headline": "Shadow AI: your employees are already using it, now what?",
+            "description": "Banning it doesn't work: employees are already using AI. How to make it visible, take the risk seriously and offer safe alternatives without locking everything down.",
+            "datePublished": "2026-11-22",
+            "dateModified": "2026-11-22",
+            "inLanguage": "en-GB",
+            "articleSection": "Governance",
+            "author": {
+              "@id": "https://freelanceaiconsultant.com/#dave"
+            },
+            "publisher": {
+              "@id": "https://freelanceaiconsultant.com/#dave"
+            },
+            "mainEntityOfPage": "https://freelanceaiconsultant.com/insights/shadow-ai"
+          },
+          {
+            "@type": "FAQPage",
+            "mainEntity": [
+              {
+                "@type": "Question",
+                "name": "Is shadow AI banned under the AI Act?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "No, not as such. The AI Act bans a limited number of specific practices, such as social scoring and emotion recognition in the workplace, but ordinary AI use by employees isn't one of them. What does apply to every form of AI use, including the unseen kind, is the obligation to take appropriate measures for AI literacy."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Should we immediately ban all AI use via personal accounts?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "A ban on its own backfires: the use doesn't disappear, it just becomes less visible. It's more effective to offer a business alternative with clear limits, so you regain visibility into what's happening and can adjust where it goes wrong."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "How do I find out which AI tools employees are already using?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Start with open, non-punitive conversations per team, check credit card and subscription costs for small recurring software items, and ask IT what's already visible in network traffic. That won't give you a complete picture, but it is a workable starting point."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Is a free AI chatbot riskier than a business subscription?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Generally, yes. Business subscriptions usually include agreements about what happens to your input and sometimes a processing agreement, while a personal free account often lacks those safeguards. Always check this per provider and subscription type, since the terms differ."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "What's the minimum an AI policy against shadow AI should cover?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Three things are enough to start: which business alternative is available, what can never go into it (such as customers' personal data or unpublished figures without review), and who an employee reports borderline cases to. Expand it later only if practice gives you a reason to."
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "afbeeldingen": [
+    {
+      "regio": "header",
+      "src": "/images/freelance-ai-consultant-logo-header.png",
+      "alt": "freelanceaiconsultant.com logo",
+      "width": "600",
+      "height": "287",
+      "loading": null
+    },
+    {
+      "regio": "main",
+      "src": "/images/dave-portrait.jpg",
+      "alt": "Dave Willemstein, Independent AI Advisor",
+      "width": "500",
+      "height": "620",
+      "loading": "lazy"
+    },
+    {
+      "regio": "footer",
+      "src": "/images/freelance-ai-consultant-icon-footer.png",
+      "alt": "",
+      "width": "192",
+      "height": "192",
+      "loading": "lazy"
+    }
+  ],
+  "laadprestaties": {
+    "scripts": [
+      {
+        "src": "/_astro/CookieConsent.astro_astro_type_script_index_0_lang.COcxE8NY.js",
+        "type": "module",
+        "inline_bytes": 0
+      },
+      {
+        "src": null,
+        "type": null,
+        "inline_bytes": 989
+      },
+      {
+        "src": null,
+        "type": null,
+        "inline_bytes": 493
+      },
+      {
+        "src": "/logo-carousel/logo-carousel.js?v=2",
+        "type": null,
+        "inline_bytes": 0
+      },
+      {
+        "src": null,
+        "type": null,
+        "inline_bytes": 725
+      }
+    ],
+    "stylesheets": [
+      "/_astro/_slug_.CzLXI3HH.css",
+      "/_astro/_slug_.C1c5Do37.css",
+      "/logo-carousel/logo-carousel.css?v=2"
+    ],
+    "aantal_details": 0,
+    "aantal_tabellen": 0
+  },
+  "gemeten_op": "2026-11-22"
+}

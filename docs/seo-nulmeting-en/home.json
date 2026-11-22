@@ -2,7 +2,7 @@
   "url": "/",
   "build_bestand": "dist/index.html",
   "html": {
-    "bytes": 49229,
+    "bytes": 49311,
     "lang": "en"
   },
   "beschermd": {
@@ -152,25 +152,25 @@
     },
     {
       "niveau": 3,
+      "tekst": "The AI Act after the Digital Omnibus: what's delayed and what still applies",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 3,
+      "tekst": "AI in customer service: what works and what doesn't",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 3,
+      "tekst": "Shadow AI: your employees are already using it, now what?",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 3,
       "tekst": "AI agents: what they can and cannot do in a business process",
-      "regio": "main",
-      "id": null
-    },
-    {
-      "niveau": 3,
-      "tekst": "From AI strategy to value: a 3-step plan",
-      "regio": "main",
-      "id": null
-    },
-    {
-      "niveau": 3,
-      "tekst": "Build, buy or partner: what fits your situation?",
-      "regio": "main",
-      "id": null
-    },
-    {
-      "niveau": 3,
-      "tekst": "Which AI use cases actually deliver results?",
       "regio": "main",
       "id": null
     },
@@ -183,8 +183,8 @@
   ],
   "bodytekst": {
     "regio": "main",
-    "woorden": 859,
-    "sha256": "8cbd55375345ddd4bf3d5d2e08863575dd20feae2a20df5a29f71f37472fa9f4",
+    "woorden": 877,
+    "sha256": "399a839f66a2ea26bc32c533f25f7a46fedd9417163fa3d7af4304ecef801745",
     "blokken": [
       "AI decisions that hold up",
       "Make the AI decisions you have to defend to your board.",
@@ -335,25 +335,25 @@
       "Insights",
       "Read before you decide.",
       "All insights →",
+      "⚖",
+      "Governance",
+      "The AI Act after the Digital Omnibus: what's delayed and what still applies",
+      "The Digital Omnibus delays the AI Act's high-risk obligations. What's delayed, what still applies, and what to do about it right now.",
+      "◷ 5 min read Read article →",
+      "☎",
+      "Use cases",
+      "AI in customer service: what works and what doesn't",
+      "The chatbot is rarely the biggest win. Start with email triage and supporting staff, and only let a chatbot loose once your knowledge base is in order.",
+      "◷ 4 min read Read article →",
+      "◐",
+      "Governance",
+      "Shadow AI: your employees are already using it, now what?",
+      "Banning it doesn't work: employees are already using AI. How to make it visible, take the risk seriously and offer safe alternatives without locking everything down.",
+      "◷ 6 min read Read article →",
       "↯",
       "Use cases",
       "AI agents: what they can and cannot do in a business process",
       "Agents that carry out tasks independently are the promise of the moment. Where they work, where they break down, and the question you need to answer first.",
-      "◷ 4 min read Read article →",
-      "↗",
-      "Strategy",
-      "From AI strategy to value: a 3-step plan",
-      "Most AI strategies don't fail on the strategy itself, but on translating it. Three steps that force that translation.",
-      "◷ 4 min read Read article →",
-      "⇄",
-      "Organisation",
-      "Build, buy or partner: what fits your situation?",
-      "The question is rarely \"can we build this ourselves?\" but \"do we still want to be maintaining this in three years?\" A decision framework in four questions.",
-      "◷ 4 min read Read article →",
-      "⌕",
-      "Use cases",
-      "Which AI use cases actually deliver results?",
-      "Not the most spectacular, but the most boring. Four traits the winners share, and four patterns that almost always stall.",
       "◷ 4 min read Read article →",
       "Ready for impact?",
       "Ready to make your AI decisions clear?",
@@ -519,29 +519,29 @@
     {
       "regio": "main",
       "soort": "intern",
+      "href": "/insights/ai-act-after-the-digital-omnibus",
+      "anker": "⚖ Governance The AI Act after the Digital Omnibus: what's delayed and what still applies The Digital Omnibus delays the AI Act's high-risk obligations. What's delayed, what still applies, and what to do about it right now. ◷ 5 min read Read article →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/insights/ai-customer-service",
+      "anker": "☎ Use cases AI in customer service: what works and what doesn't The chatbot is rarely the biggest win. Start with email triage and supporting staff, and only let a chatbot loose once your knowledge base is in order. ◷ 4 min read Read article →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/insights/shadow-ai",
+      "anker": "◐ Governance Shadow AI: your employees are already using it, now what? Banning it doesn't work: employees are already using AI. How to make it visible, take the risk seriously and offer safe alternatives without locking everything down. ◷ 6 min read Read article →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
       "href": "/insights/what-ai-agents-can-and-cannot-do",
       "anker": "↯ Use cases AI agents: what they can and cannot do in a business process Agents that carry out tasks independently are the promise of the moment. Where they work, where they break down, and the question you need to answer first. ◷ 4 min read Read article →",
-      "rel": null
-    },
-    {
-      "regio": "main",
-      "soort": "intern",
-      "href": "/insights/from-ai-strategy-to-value",
-      "anker": "↗ Strategy From AI strategy to value: a 3-step plan Most AI strategies don't fail on the strategy itself, but on translating it. Three steps that force that translation. ◷ 4 min read Read article →",
-      "rel": null
-    },
-    {
-      "regio": "main",
-      "soort": "intern",
-      "href": "/insights/build-buy-or-partner",
-      "anker": "⇄ Organisation Build, buy or partner: what fits your situation? The question is rarely \"can we build this ourselves?\" but \"do we still want to be maintaining this in three years?\" A decision framework in four questions. ◷ 4 min read Read article →",
-      "rel": null
-    },
-    {
-      "regio": "main",
-      "soort": "intern",
-      "href": "/insights/which-ai-use-cases-deliver-results",
-      "anker": "⌕ Use cases Which AI use cases actually deliver results? Not the most spectacular, but the most boring. Four traits the winners share, and four patterns that almost always stall. ◷ 4 min read Read article →",
       "rel": null
     },
     {
@@ -824,5 +824,5 @@
     "aantal_details": 0,
     "aantal_tabellen": 0
   },
-  "gemeten_op": "2026-11-05"
+  "gemeten_op": "2026-11-22"
 }

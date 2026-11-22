@@ -1,0 +1,768 @@
+{
+  "url": "/insights/ai-customer-service",
+  "build_bestand": "dist/insights/ai-customer-service/index.html",
+  "html": {
+    "bytes": 41358,
+    "lang": "en"
+  },
+  "beschermd": {
+    "title": "AI in customer service: uses, costs, pitfalls",
+    "meta_description": "How do you use AI in customer service? Chatbots, email handling and staff support: what works, what it costs and where it goes wrong.",
+    "canonical": "https://freelanceaiconsultant.com/insights/ai-customer-service",
+    "robots_meta": null,
+    "hreflang": [
+      {
+        "hreflang": "en",
+        "href": "https://freelanceaiconsultant.com/insights/ai-customer-service"
+      },
+      {
+        "hreflang": "nl",
+        "href": "https://freelanceaiconsultant.com/nl/inzichten/ai-klantenservice"
+      },
+      {
+        "hreflang": "x-default",
+        "href": "https://freelanceaiconsultant.com/insights/ai-customer-service"
+      }
+    ],
+    "h1": [
+      "AI in customer service: what works and what doesn't"
+    ]
+  },
+  "social": {
+    "og:type": "website",
+    "og:locale": "en_US",
+    "og:site_name": "freelanceaiconsultant.com",
+    "og:title": "AI in customer service: uses, costs, pitfalls",
+    "og:description": "How do you use AI in customer service? Chatbots, email handling and staff support: what works, what it costs and where it goes wrong.",
+    "og:url": "https://freelanceaiconsultant.com/insights/ai-customer-service",
+    "og:image": "https://freelanceaiconsultant.com/images/dave-portrait.jpg",
+    "twitter:card": "summary_large_image",
+    "twitter:title": "AI in customer service: uses, costs, pitfalls",
+    "twitter:description": "How do you use AI in customer service? Chatbots, email handling and staff support: what works, what it costs and where it goes wrong.",
+    "twitter:image": "https://freelanceaiconsultant.com/images/dave-portrait.jpg"
+  },
+  "koppen": [
+    {
+      "niveau": 1,
+      "tekst": "AI in customer service: what works and what doesn't",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "Where AI delivers the most value in customer service",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "Chatbot, email triage or supporting staff",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "What an AI chatbot for customer service needs",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "Costs and payback time (indicative)",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "The most common mistakes",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "Transparency obligation: disclose that it's AI",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "Step-by-step plan",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 3,
+      "tekst": "Key takeaways",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 3,
+      "tekst": "Which AI use cases actually deliver results?",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 3,
+      "tekst": "Shadow AI: your employees are already using it, now what?",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "From AI ambition to concrete results.",
+      "regio": "main",
+      "id": null
+    }
+  ],
+  "bodytekst": {
+    "regio": "main",
+    "woorden": 1541,
+    "sha256": "b178d21a7d7316dd3d6e05f0db19ba1cba71568703adb6a32f0e6ce76450ce50",
+    "blokken": [
+      "Home",
+      "Insights",
+      "AI in customer service: what works and what doesn't",
+      "← Back to all insights",
+      "Use cases",
+      "AI in customer service: what works and what doesn't",
+      "The chatbot is rarely the biggest win. Start with email triage and supporting staff; a chatbot only works once your knowledge base is in order and the handoff to a human is well arranged.",
+      "◷ 4 min read 22 November 2026",
+      "DW",
+      "By Dave Willemstein Independent AI Advisor, independent, no vendor interests",
+      "I help organisations make AI decisions that create value. No bloated decks, just clear choices and tangible results.",
+      "trust, experience, impact ↓",
+      "Independent No vendor bias Senior only Since 2006",
+      "AT A GLANCE",
+      "The chatbot is rarely the biggest win; email triage and supporting staff often are.",
+      "An AI chatbot for customer service only works once the knowledge base is in order.",
+      "Most of the damage isn't caused by AI, but by a poorly arranged handoff to a human.",
+      "Start with the win nobody sees, not the chatbot everyone wants first.",
+      "AI in Europe",
+      "European brands already running AI in production.",
+      "Not my clients. Examples of what happens once AI moves past the pilot stage.",
+      "Pause",
+      "Klarna",
+      "Sweden",
+      "AI customer service assistant",
+      "Zalando",
+      "Germany",
+      "Fashion assistant for product advice",
+      "Financial services",
+      "Investment firm",
+      "AI strategy and use-case portfolio",
+      "Booking.com",
+      "Netherlands",
+      "AI Trip Planner for travel planning",
+      "Siemens",
+      "Germany",
+      "Industrial Copilot for engineering",
+      "Retail",
+      "Enterprise retailer",
+      "AI-driven vendor selection",
+      "Spotify",
+      "Sweden",
+      "AI DJ and personalized playlists",
+      "Mercedes-Benz",
+      "Germany",
+      "Generative voice assistant in the car",
+      "Industrial / B2B",
+      "International manufacturer",
+      "AI roadmap and leadership",
+      "ING",
+      "Netherlands",
+      "Generative chatbot for customer queries",
+      "L'Oréal",
+      "France",
+      "Beauty Genius: personalized advice",
+      "Financial services",
+      "Financial services firm",
+      "KYC accelerated with AI document analysis",
+      "SAP",
+      "Germany",
+      "Joule: copilot in business software",
+      "Carrefour",
+      "France",
+      "Hopla: grocery shopping assistant",
+      "Strategy & AI",
+      "SaaS scale-up",
+      "AI readiness assessment",
+      "Adyen",
+      "Netherlands",
+      "AI-driven payment optimization",
+      "Philips",
+      "Netherlands",
+      "AI in medical imaging",
+      "Proces & productivity",
+      "Professional services firm",
+      "Internal AI assistant for knowledge workers",
+      "Where AI delivers the most value in customer service",
+      "What I often see: companies want to start with a customer-facing chatbot, while the fastest win sits internally. Have a model sort emails first and draft replies that a staff member checks. That way you learn what the model gets right and wrong, without a customer ever seeing the mistakes.",
+      "That order isn't a detour, it's the fastest route to a chatbot that actually works. A staff member correcting a draft reply instead of typing one from scratch works faster, and at the same time you build up exactly what does and doesn't hold up for your customer service, before you put that risk in front of a customer.",
+      "Chatbot, email triage or supporting staff",
+      "These are three different applications that each need a different level of maturity, not three steps in the same funnel:",
+      "Email triage. The model sorts incoming questions by topic and urgency, and drafts a reply that a staff member checks before it's sent. Lowest risk, fastest start, and exactly the place to learn what the model can and can't handle.",
+      "Supporting staff. An assistant that searches the knowledge base alongside a conversation or ticket and suggests an answer, while the staff member runs the conversation. The customer notices nothing of the AI, but the staff member works faster and more consistently.",
+      "Customer-facing chatbot. The model talks to the customer directly, without a staff member checking first. Highest risk, because mistakes are immediately visible to the customer, and it places the highest demands on the knowledge base and the handoff to a human.",
+      "Most organisations can take on the first two within a few weeks. A customer-facing chatbot only becomes sensible once those first two have shown you which questions the model can handle and which it can't.",
+      "What an AI chatbot for customer service needs",
+      "A chatbot is only as good as the source it answers from, not the model behind it. Without a clean, up-to-date knowledge base, a chatbot simply repeats the confusion already sitting in your documentation, just stated with more confidence. Three conditions are the minimum:",
+      "A knowledge base that's accurate. Outdated or contradictory answers in your help centre or internal wiki come straight back in every answer the chatbot gives.",
+      "Clear boundaries. What the chatbot is allowed to answer itself, and what always goes to a human, such as complaints, billing disputes or anything with legal weight.",
+      "A smooth handoff. The customer needs to reach a staff member without hassle and without repeating their question the moment the chatbot gets stuck.",
+      "How to set up that kind of knowledge base and the automation behind it is covered in more detail under AI workflows. More broadly, for processes beyond customer service, you'll find applications and examples under AI examples and in which AI use cases deliver results.",
+      "Costs and payback time (indicative)",
+      "What this costs doesn't primarily depend on the licence, but on three things: how many questions you handle per month, how deep the integration with your existing systems needs to be, and how much staff review time the start-up phase takes. Email triage with a standard tool is cheaper and pays back faster than a chatbot that talks to customers directly and needs to be connected to your CRM and knowledge base.",
+      "Concrete ranges per scenario, and what is and isn't included in them, are covered in the separate article on what AI implementation costs. This piece is about what works, not about what it costs.",
+      "The most common mistakes",
+      "Starting straight away with the customer-facing chatbot. The highest-risk application as a first step, without having learned yet what the model can and can't handle.",
+      "No smooth handoff to a human. A chatbot that leaves a customer stuck with no way out costs more trust than it ever saves in time.",
+      "A knowledge base that hasn't been cleaned up. Contradictory or outdated content produces contradictory or outdated answers, just phrased more convincingly now.",
+      "Not disclosing that it's AI. Besides the trust risk, for a chatbot this is also a legal obligation; see below.",
+      "Nobody measures what's going wrong. Without spot-checking handled conversations, you only notice a quality problem once customers start complaining about it.",
+      "Transparency obligation: disclose that it's AI",
+      "Under the EU AI Act, the transparency obligation in Article 50 has applied since 2 August 2026: a chatbot must make it clear to a user that they are dealing with an AI system, unless that's already obvious from the context. For customer service, that means in practice a short, visible notice at the start of the conversation, not fine print at the bottom of the page.",
+      "This obligation is separate from what happened to the AI Act's high-risk rules; the background on that, and what was and wasn't delayed, is covered in the article on the Digital Omnibus. The basic explanation of the AI Act and the risk categories is covered in the EU AI Act for businesses.",
+      "Step-by-step plan",
+      "Start with email triage. Have the model sort and draft, with a staff member checking. This also doubles as your learning phase for the next steps.",
+      "Clean up the knowledge base. Remove contradictory or outdated content before feeding it to a model, in any form.",
+      "Add support for staff. Have the model search alongside the conversation and suggest an answer, while the staff member runs it.",
+      "Set the boundaries for a customer-facing chatbot. Which questions can it answer itself, and when does the conversation always go to a human?",
+      "Put the transparency notice and the handoff in place before the chatbot goes live, not after.",
+      "Measure and adjust. Spot-check conversations, and set a fixed moment to keep the knowledge base current.",
+      "Not sure where you stand in this plan, or want the risk and compliance side reviewed thoroughly in one go? That's exactly what an AI Readiness Assessment is for. How a similar approach works for internal knowledge, for example when AI needs to answer from your own documents, is covered in the article on RAG. And if you're weighing a chatbot against an AI agent that also carries out tasks, that distinction is covered in the article on AI agent or chatbot.",
+      "Key takeaways",
+      "✓",
+      "Internal before external",
+      "Email triage and supporting staff usually deliver more than a customer-facing chatbot.",
+      "✓",
+      "The knowledge base is the bottleneck",
+      "A chatbot is only as good as the source it answers from, not the model behind it.",
+      "✓",
+      "The handoff determines trust",
+      "A chatbot that hands off smoothly to a human beats one that tries to solve everything itself.",
+      "REMEMBER “A chatbot nobody trusts is more expensive than no chatbot.”",
+      "Want to talk through your situation? 30 minutes, no obligation →",
+      "Further reading",
+      "⌕",
+      "Use cases",
+      "Which AI use cases actually deliver results?",
+      "Not the most spectacular, but the most boring. Four traits the winners share, and four patterns that almost always stall.",
+      "◷ 4 min read Read article →",
+      "◐",
+      "Governance",
+      "Shadow AI: your employees are already using it, now what?",
+      "Banning it doesn't work: employees are already using AI. How to make it visible, take the risk seriously and offer safe alternatives without locking everything down.",
+      "◷ 6 min read Read article →",
+      "Ready for impact?",
+      "From AI ambition to concrete results.",
+      "Book a no-obligation call. No pitch. Just sharp questions.",
+      "30 min., no pitch deckBook a call →"
+    ]
+  },
+  "links": [
+    {
+      "regio": "overig",
+      "soort": "intern",
+      "href": "#main",
+      "anker": "Skip to main content",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/",
+      "anker": "",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/services",
+      "anker": "Services",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/cases",
+      "anker": "Cases",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/approach",
+      "anker": "Approach",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/insights",
+      "anker": "Insights",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/about",
+      "anker": "About",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/nl/inzichten/ai-klantenservice",
+      "anker": "NL",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/contact",
+      "anker": "Book a call →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/",
+      "anker": "Home",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/insights",
+      "anker": "Insights",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/insights",
+      "anker": "← Back to all insights",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/ai-automation/ai-workflows",
+      "anker": "AI workflows",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/knowledge-base/ai-examples",
+      "anker": "AI examples",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/insights/which-ai-use-cases-deliver-results",
+      "anker": "which AI use cases deliver results",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/insights/ai-act-after-the-digital-omnibus",
+      "anker": "the article on the Digital Omnibus",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/ai-policy/ai-act",
+      "anker": "the EU AI Act for businesses",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/services/ai-readiness-assessment",
+      "anker": "AI Readiness Assessment",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/contact",
+      "anker": "Want to talk through your situation? 30 minutes, no obligation →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/insights/which-ai-use-cases-deliver-results",
+      "anker": "⌕ Use cases Which AI use cases actually deliver results? Not the most spectacular, but the most boring. Four traits the winners share, and four patterns that almost always stall. ◷ 4 min read Read article →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/insights/shadow-ai",
+      "anker": "◐ Governance Shadow AI: your employees are already using it, now what? Banning it doesn't work: employees are already using AI. How to make it visible, take the risk seriously and offer safe alternatives without locking everything down. ◷ 6 min read Read article →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/contact",
+      "anker": "Book a call →",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/services/ai-readiness-assessment",
+      "anker": "AI Readiness Assessment",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/services/ai-strategy-sprint",
+      "anker": "AI Strategy Sprint",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/services/fractional-ai-lead",
+      "anker": "Fractional AI Lead",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/services",
+      "anker": "All services",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/cases",
+      "anker": "Cases",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/approach",
+      "anker": "Approach",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/insights",
+      "anker": "Insights",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/faq",
+      "anker": "FAQ",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/about",
+      "anker": "About",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-consulting",
+      "anker": "AI consulting",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-implementation",
+      "anker": "AI implementation",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-automation",
+      "anker": "AI automation",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-for-business",
+      "anker": "AI for business",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-development",
+      "anker": "AI development",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-agents",
+      "anker": "AI agents",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-policy",
+      "anker": "AI policy",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-workshop",
+      "anker": "AI workshop",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/markets",
+      "anker": "AI by industry",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/knowledge-base",
+      "anker": "Knowledge base",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/pricing",
+      "anker": "Pricing",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/partner-network",
+      "anker": "Partner network",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "overig",
+      "href": "mailto:dave@freelanceaiconsultant.com",
+      "anker": "dave@freelanceaiconsultant.com",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "extern",
+      "href": "https://www.linkedin.com/in/davewillemstein",
+      "anker": "LinkedIn ↗",
+      "rel": "noopener"
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/contact",
+      "anker": "Book a call",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/privacy",
+      "anker": "Privacy policy",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/terms",
+      "anker": "Terms & conditions",
+      "rel": null
+    }
+  ],
+  "structured_data": {
+    "sha256": "93b140e390b34f54efbb385e81007308dea46d4dea71cb84c99423b2ec669e5c",
+    "items": [
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://freelanceaiconsultant.com/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Insights",
+                "item": "https://freelanceaiconsultant.com/insights"
+              },
+              {
+                "@type": "ListItem",
+                "position": 3,
+                "name": "AI in customer service: what works and what doesn't",
+                "item": "https://freelanceaiconsultant.com/insights/ai-customer-service"
+              }
+            ]
+          },
+          {
+            "@type": "Person",
+            "@id": "https://freelanceaiconsultant.com/#dave",
+            "name": "Dave Willemstein",
+            "url": "https://freelanceaiconsultant.com/about",
+            "sameAs": [
+              "https://www.linkedin.com/in/davewillemstein"
+            ],
+            "jobTitle": "Independent AI Advisor"
+          },
+          {
+            "@type": "BlogPosting",
+            "headline": "AI in customer service: what works and what doesn't",
+            "description": "The chatbot is rarely the biggest win. Start with email triage and supporting staff, and only let a chatbot loose once your knowledge base is in order.",
+            "datePublished": "2026-11-22",
+            "dateModified": "2026-11-22",
+            "inLanguage": "en-GB",
+            "articleSection": "Use cases",
+            "author": {
+              "@id": "https://freelanceaiconsultant.com/#dave"
+            },
+            "publisher": {
+              "@id": "https://freelanceaiconsultant.com/#dave"
+            },
+            "mainEntityOfPage": "https://freelanceaiconsultant.com/insights/ai-customer-service"
+          },
+          {
+            "@type": "FAQPage",
+            "mainEntity": [
+              {
+                "@type": "Question",
+                "name": "Does an AI chatbot in customer service have to disclose that it isn't human?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Yes. Since 2 August 2026, the AI Act's transparency obligation under Article 50 applies: a user must know they're dealing with an AI system, unless that's already clear from the context. A visible notice at the start of the conversation is enough."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Is a chatbot the best first step for AI in customer service?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Usually not. Email triage and supporting staff carry lower risk, are quicker to set up, and teach you what the model can and can't handle before you put that risk in front of a customer."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "What does an AI chatbot for customer service need at a minimum?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "A knowledge base that is accurate, clear boundaries on what the chatbot may and may not answer itself, and a smooth handoff to a staff member the moment the chatbot gets stuck. Without those three, the chatbot mainly repeats the confusion already in your documentation."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "What does AI in customer service cost?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "That depends on the volume of questions, how deep the integration with your systems needs to be, and how much review time the start-up phase takes. Concrete ranges per scenario are covered in the separate article on what AI implementation costs."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "What goes wrong most often with AI in customer service?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Starting straight away with the customer-facing chatbot without first learning through email triage, a knowledge base that hasn't been cleaned up, a handoff to a human that isn't smooth, and not visibly disclosing that it's an AI system."
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "afbeeldingen": [
+    {
+      "regio": "header",
+      "src": "/images/freelance-ai-consultant-logo-header.png",
+      "alt": "freelanceaiconsultant.com logo",
+      "width": "600",
+      "height": "287",
+      "loading": null
+    },
+    {
+      "regio": "main",
+      "src": "/images/dave-portrait.jpg",
+      "alt": "Dave Willemstein, Independent AI Advisor",
+      "width": "500",
+      "height": "620",
+      "loading": "lazy"
+    },
+    {
+      "regio": "footer",
+      "src": "/images/freelance-ai-consultant-icon-footer.png",
+      "alt": "",
+      "width": "192",
+      "height": "192",
+      "loading": "lazy"
+    }
+  ],
+  "laadprestaties": {
+    "scripts": [
+      {
+        "src": "/_astro/CookieConsent.astro_astro_type_script_index_0_lang.COcxE8NY.js",
+        "type": "module",
+        "inline_bytes": 0
+      },
+      {
+        "src": null,
+        "type": null,
+        "inline_bytes": 989
+      },
+      {
+        "src": null,
+        "type": null,
+        "inline_bytes": 493
+      },
+      {
+        "src": "/logo-carousel/logo-carousel.js?v=2",
+        "type": null,
+        "inline_bytes": 0
+      },
+      {
+        "src": null,
+        "type": null,
+        "inline_bytes": 725
+      }
+    ],
+    "stylesheets": [
+      "/_astro/_slug_.CzLXI3HH.css",
+      "/_astro/_slug_.C1c5Do37.css",
+      "/logo-carousel/logo-carousel.css?v=2"
+    ],
+    "aantal_details": 0,
+    "aantal_tabellen": 0
+  },
+  "gemeten_op": "2026-11-22"
+}

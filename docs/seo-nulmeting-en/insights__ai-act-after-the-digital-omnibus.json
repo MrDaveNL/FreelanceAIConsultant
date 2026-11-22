@@ -1,0 +1,842 @@
+{
+  "url": "/insights/ai-act-after-the-digital-omnibus",
+  "build_bestand": "dist/insights/ai-act-after-the-digital-omnibus/index.html",
+  "html": {
+    "bytes": 45859,
+    "lang": "en"
+  },
+  "beschermd": {
+    "title": "AI Act after the Digital Omnibus: what's changing?",
+    "meta_description": "The Digital Omnibus delays the AI Act's high-risk obligations. What's postponed, what still applies, and what to do about it now.",
+    "canonical": "https://freelanceaiconsultant.com/insights/ai-act-after-the-digital-omnibus",
+    "robots_meta": null,
+    "hreflang": [
+      {
+        "hreflang": "en",
+        "href": "https://freelanceaiconsultant.com/insights/ai-act-after-the-digital-omnibus"
+      },
+      {
+        "hreflang": "nl",
+        "href": "https://freelanceaiconsultant.com/nl/inzichten/ai-act-digital-omnibus"
+      },
+      {
+        "hreflang": "x-default",
+        "href": "https://freelanceaiconsultant.com/insights/ai-act-after-the-digital-omnibus"
+      }
+    ],
+    "h1": [
+      "The AI Act after the Digital Omnibus: what's delayed, what still applies"
+    ]
+  },
+  "social": {
+    "og:type": "website",
+    "og:locale": "en_US",
+    "og:site_name": "freelanceaiconsultant.com",
+    "og:title": "AI Act after the Digital Omnibus: what's changing?",
+    "og:description": "The Digital Omnibus delays the AI Act's high-risk obligations. What's postponed, what still applies, and what to do about it now.",
+    "og:url": "https://freelanceaiconsultant.com/insights/ai-act-after-the-digital-omnibus",
+    "og:image": "https://freelanceaiconsultant.com/images/dave-portrait.jpg",
+    "twitter:card": "summary_large_image",
+    "twitter:title": "AI Act after the Digital Omnibus: what's changing?",
+    "twitter:description": "The Digital Omnibus delays the AI Act's high-risk obligations. What's postponed, what still applies, and what to do about it now.",
+    "twitter:image": "https://freelanceaiconsultant.com/images/dave-portrait.jpg"
+  },
+  "koppen": [
+    {
+      "niveau": 1,
+      "tekst": "The AI Act after the Digital Omnibus: what's delayed, what still applies",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "What does the Digital Omnibus change about the AI Act's deadlines?",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 3,
+      "tekst": "What happens to AI models that were already on the market before the Digital Omnibus?",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 3,
+      "tekst": "Why does the new deadline of 2 December 2027 still require action now?",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "What is the Digital Omnibus?",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "What's being delayed",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "What still applies",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "Deployer or provider: what does it mean for you?",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "Why waiting is a planning mistake",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "Checklist for your AI roadmap",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 3,
+      "tekst": "Key takeaways",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 3,
+      "tekst": "AI governance without bureaucracy: what you need at minimum",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 3,
+      "tekst": "Shadow AI: your employees are already using it, now what?",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 2,
+      "tekst": "From AI ambition to concrete results.",
+      "regio": "main",
+      "id": null
+    }
+  ],
+  "bodytekst": {
+    "regio": "main",
+    "woorden": 1950,
+    "sha256": "4889203babe77c7657b1743d059104469c89d22527511a9b9e31497b1518f39a",
+    "blokken": [
+      "Home",
+      "Insights",
+      "The AI Act after the Digital Omnibus: what's delayed and what still applies",
+      "← Back to all insights",
+      "Governance",
+      "The AI Act after the Digital Omnibus: what's delayed, what still applies",
+      "The Digital Omnibus delays the AI Act's heaviest obligations to 2027 and 2028. That feels like a reprieve, but it's selective: prohibited practices, AI literacy and transparency still apply in full. Anyone who stops preparing because of it is making a planning mistake.",
+      "◷ 5 min read 22 November 2026",
+      "DW",
+      "By Dave Willemstein Independent AI Advisor, independent, no vendor interests",
+      "I help organisations make AI decisions that create value. No bloated decks, just clear choices and tangible results.",
+      "trust, experience, impact ↓",
+      "Independent No vendor bias Senior only Since 2006",
+      "AT A GLANCE",
+      "The Digital Omnibus only delays the high-risk rules, not the whole AI Act.",
+      "Prohibited practices, AI literacy and transparency have already applied since 2025 and 2026.",
+      "The extra time is only useful if you use it to classify, not to wait.",
+      "A delayed deadline is not delayed work.",
+      "AI in Europe",
+      "European brands already running AI in production.",
+      "Not my clients. Examples of what happens once AI moves past the pilot stage.",
+      "Pause",
+      "Klarna",
+      "Sweden",
+      "AI customer service assistant",
+      "Zalando",
+      "Germany",
+      "Fashion assistant for product advice",
+      "Financial services",
+      "Investment firm",
+      "AI strategy and use-case portfolio",
+      "Booking.com",
+      "Netherlands",
+      "AI Trip Planner for travel planning",
+      "Siemens",
+      "Germany",
+      "Industrial Copilot for engineering",
+      "Retail",
+      "Enterprise retailer",
+      "AI-driven vendor selection",
+      "Spotify",
+      "Sweden",
+      "AI DJ and personalized playlists",
+      "Mercedes-Benz",
+      "Germany",
+      "Generative voice assistant in the car",
+      "Industrial / B2B",
+      "International manufacturer",
+      "AI roadmap and leadership",
+      "ING",
+      "Netherlands",
+      "Generative chatbot for customer queries",
+      "L'Oréal",
+      "France",
+      "Beauty Genius: personalized advice",
+      "Financial services",
+      "Financial services firm",
+      "KYC accelerated with AI document analysis",
+      "SAP",
+      "Germany",
+      "Joule: copilot in business software",
+      "Carrefour",
+      "France",
+      "Hopla: grocery shopping assistant",
+      "Strategy & AI",
+      "SaaS scale-up",
+      "AI readiness assessment",
+      "Adyen",
+      "Netherlands",
+      "AI-driven payment optimization",
+      "Philips",
+      "Netherlands",
+      "AI in medical imaging",
+      "Proces & productivity",
+      "Professional services firm",
+      "Internal AI assistant for knowledge workers",
+      "What does the Digital Omnibus change about the AI Act's deadlines?",
+      "The Digital Omnibus delays only the AI Act's high-risk obligations: Annex III applications move to 2 December 2027 and Annex I applications to 2 August 2028. Prohibited practices, the AI literacy obligation and the transparency rules are unaffected and already applied before the Omnibus.",
+      "What happens to AI models that were already on the market before the Digital Omnibus?",
+      "Existing general-purpose AI models placed on the market before 2 August 2026 get a transition period under the Digital Omnibus until 2 December 2026 before the content-labelling rules apply to them.",
+      "Why does the new deadline of 2 December 2027 still require action now?",
+      "Classifying AI applications, questioning suppliers and assigning human oversight takes months of preparation, so organisations that wait near the Digital Omnibus deadline of 2 December 2027 face exactly the time pressure the extension was meant to prevent.",
+      "Source: article by Dave Willemstein; primary source: Regulation (EU) 2026/1744 (Digital Omnibus amending the AI Act), EUR-Lex; European Commission, 'AI Omnibus' page (as of 22 November 2026). Updated: November 2026.",
+      "What is the Digital Omnibus?",
+      "The AI Omnibus is not a new piece of legislation, but an amendment to the existing AI Act (Regulation (EU) 2024/1689). The European Commission proposed the amendment on 19 November 2025 to simplify the rules and delay part of the high-risk obligations. The European Parliament and the Council reached agreement in the spring of 2026, and on 24 July 2026 the amendment was published as Regulation (EU) 2026/1744, entering into force on 27 July 2026. So this is no longer a proposal, it is applicable law.",
+      "If you don't yet have a firm grasp of the AI Act's basics, the risk categories and who plays which role, that groundwork is covered in the EU AI Act for businesses. This article doesn't repeat that groundwork; it focuses specifically on what the Omnibus changes.",
+      "What's being delayed",
+      "The core of the Digital Omnibus is a delay to the high-risk obligations, plus a few smaller adjustments. This is the state of play as of this article's publication date, checked live against the European Commission and EUR-Lex:",
+      "CategoryOld dateNew date",
+      "High-risk, Annex III (e.g. recruitment, education, credit scoring, law enforcement)2 August 20262 December 2027",
+      "High-risk, Annex I (AI in products under existing product legislation, such as machinery and toys)2 August 20272 August 2028",
+      "Labelling of content from AI models already on the market before 2 August 2026no transition periodtransition period until 2 December 2026",
+      "Ban on AI that generates intimate images or child sexual abuse material without consentdid not yet existnew, applies from 2 December 2026",
+      "On top of that, the AI literacy obligation has been softened in weight, not in date: see the next section. The registration requirement in the EU database has also been simplified, and the SME exemptions now also apply to so-called small mid-caps, though that doesn't directly affect most organisations.",
+      "What still applies",
+      "This is the part that often gets underreported in coverage of the Omnibus: the delay only touches the high-risk rules. The rest of the AI Act stands, and part of it has already applied for more than a year.",
+      "Prohibited practices: since 2 February 2025, practices such as social scoring and emotion recognition in the workplace have been banned. That is unchanged, on top of the new ban from 2 December 2026 in the table above.",
+      "AI literacy: the obligation to take measures for the AI literacy of everyone who works with AI still applies from 2 February 2025. What the Omnibus changes is the nature of the obligation: from a required level to a best-efforts obligation, tailored to the knowledge, experience and context of use of the people involved. The date has not been pushed back. That's exactly why this remains a hard requirement even for AI use you don't have visibility into yet, as I describe in shadow AI.",
+      "Transparency obligations: a chatbot must disclose that it is an AI system, and deepfakes must be labelled as such. Those rules apply in full from 2 August 2026.",
+      "Obligations for providers of general-purpose AI models (GPAI): technical documentation and a copyright policy have applied since 2 August 2025 and were untouched by the Omnibus.",
+      "In other words: the Omnibus buys time for the heaviest requirements, not for the AI Act as a whole.",
+      "Deployer or provider: what does it mean for you?",
+      "What the delay means in practice depends on your role. As a deployer, the role of most organisations that use AI, the effect is mainly breathing room on exactly one point: if you're considering or already using an Annex III application, such as a tool that ranks job applicants or scores students, you now have until 2 December 2027 instead of 2 August 2026 to meet the high-risk requirements. Everything outside that scope, from AI literacy to transparency, continues to run on the existing dates.",
+      "As a provider, meaning you place an AI system on the market yourself or modify an existing system so substantially that you take on that role, the delay gives you more time for conformity assessment, technical documentation and CE marking of high-risk systems. For providers of general-purpose AI models, nothing changes: those obligations already applied from 2 August 2025 and fall outside the Omnibus.",
+      "If your organisation uses AI that processes personal data, your GDPR obligations keep running regardless of what the AI Act delays. Those two frameworks overlap more often than you'd think, especially with AI that prepares decisions on its own; see AI agents and GDPR for how that plays out.",
+      "Why waiting is a planning mistake",
+      "It's tempting to read the delay as \"we still have time\". Three reasons why that's a mistake:",
+      "The work doesn't disappear, only the deadline moves. Taking stock of your AI applications, classifying each one and assigning human oversight takes just as much time as it did before the Omnibus. Only the moment you need to be ready has moved.",
+      "Part of the rules actually started applying earlier, not later. The new ban on non-consensual intimate images already applies from 2 December 2026, less than a month after this article was published. Anyone who only looks at \"2027 and 2028\" misses that.",
+      "The obligations that were never delayed keep running. AI literacy and transparency are not a compliance exercise for later; they fall outside the Omnibus's delay. The fact that national enforcement arrangements aren't finalised yet doesn't make them optional.",
+      "If your board or supervisory board needs the same clear picture of what's delayed and what isn't, the Executive Briefing covers that together with the rest of the regulatory landscape in a single session.",
+      "Checklist for your AI roadmap",
+      "Use the delay to revisit your sequencing, not to pause the work:",
+      "Build or update your AI register. Which applications do you have, with what data, and from which supplier? Without a register you can't fill in the rest of this list.",
+      "Reclassify your Annex III applications against the new date. An application you wanted to rush into shape before 2 August 2026 can now be planned properly towards 2 December 2027, without delaying the preparation itself.",
+      "Check whether you already meet what wasn't delayed. AI literacy, transparency and the prohibited practices are not a future obligation. An AI literacy training is a direct, demonstrable way to meet that first requirement.",
+      "Put the new ban from 2 December 2026 on the calendar. Especially relevant if you offer or use AI systems that generate or edit image content.",
+      "Record the current timeline in your AI policy. A policy that still cites the old August 2026 date is out of date as of today. How to set that up is covered under AI policy.",
+      "Have the whole picture reviewed objectively if you can't assess it yourself. The AI Readiness Assessment maps the classification and compliance status of all your applications, including the current facts from this article.",
+      "For ongoing oversight of that roadmap, without creating a full-time role for it, a Fractional AI Lead is the role that keeps the agenda on track and adjusts it the moment the regulation shifts again. How to organise that oversight without turning it into bureaucracy is described in AI governance without bureaucracy.",
+      "The Digital Omnibus changes the pace of the AI Act, not its direction. Organisations that use the extra time to get the basics in order will be in a far better position at the next deadline than those that wait until it's close.",
+      "Key takeaways",
+      "✓",
+      "The delay is selective",
+      "Only the high-risk rules from Annex I and Annex III are postponed; the rest of the AI Act stands.",
+      "✓",
+      "AI literacy stays mandatory",
+      "The date (2 February 2025) hasn't changed, but the bar has: now a best-efforts obligation instead of a fixed level.",
+      "✓",
+      "The new deadline isn't as far off as it sounds",
+      "Classifying applications, questioning suppliers and assigning oversight takes months; 2 December 2027 is closer than it sounds.",
+      "REMEMBER “The Digital Omnibus gives you more time for the heaviest obligations, not less work.”",
+      "Want to talk through your situation? 30 minutes, no obligation →",
+      "Further reading",
+      "▣",
+      "Governance",
+      "AI governance without bureaucracy: what you need at minimum",
+      "Governance nobody uses protects nobody. Four mechanisms that make the difference, and what you can safely skip.",
+      "◷ 5 min read Read article →",
+      "◐",
+      "Governance",
+      "Shadow AI: your employees are already using it, now what?",
+      "Banning it doesn't work: employees are already using AI. How to make it visible, take the risk seriously and offer safe alternatives without locking everything down.",
+      "◷ 6 min read Read article →",
+      "Ready for impact?",
+      "From AI ambition to concrete results.",
+      "Book a no-obligation call. No pitch. Just sharp questions.",
+      "30 min., no pitch deckBook a call →"
+    ]
+  },
+  "links": [
+    {
+      "regio": "overig",
+      "soort": "intern",
+      "href": "#main",
+      "anker": "Skip to main content",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/",
+      "anker": "",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/services",
+      "anker": "Services",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/cases",
+      "anker": "Cases",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/approach",
+      "anker": "Approach",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/insights",
+      "anker": "Insights",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/about",
+      "anker": "About",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/nl/inzichten/ai-act-digital-omnibus",
+      "anker": "NL",
+      "rel": null
+    },
+    {
+      "regio": "header",
+      "soort": "intern",
+      "href": "/contact",
+      "anker": "Book a call →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/",
+      "anker": "Home",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/insights",
+      "anker": "Insights",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/insights",
+      "anker": "← Back to all insights",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "extern",
+      "href": "https://digital-strategy.ec.europa.eu/en/news/ai-omnibus-enters-force",
+      "anker": "Regulation (EU) 2026/1744",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/ai-policy/ai-act",
+      "anker": "the EU AI Act for businesses",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/insights/shadow-ai",
+      "anker": "shadow AI",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/knowledge-base/ai-agents-and-gdpr",
+      "anker": "AI agents and GDPR",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/services/executive-briefing",
+      "anker": "Executive Briefing",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/ai-workshop/ai-literacy-training",
+      "anker": "AI literacy training",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/ai-policy",
+      "anker": "AI policy",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/services/ai-readiness-assessment",
+      "anker": "AI Readiness Assessment",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/services/fractional-ai-lead",
+      "anker": "Fractional AI Lead",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/insights/ai-governance-without-bureaucracy",
+      "anker": "AI governance without bureaucracy",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/contact",
+      "anker": "Want to talk through your situation? 30 minutes, no obligation →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/insights/ai-governance-without-bureaucracy",
+      "anker": "▣ Governance AI governance without bureaucracy: what you need at minimum Governance nobody uses protects nobody. Four mechanisms that make the difference, and what you can safely skip. ◷ 5 min read Read article →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/insights/shadow-ai",
+      "anker": "◐ Governance Shadow AI: your employees are already using it, now what? Banning it doesn't work: employees are already using AI. How to make it visible, take the risk seriously and offer safe alternatives without locking everything down. ◷ 6 min read Read article →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
+      "href": "/contact",
+      "anker": "Book a call →",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/services/ai-readiness-assessment",
+      "anker": "AI Readiness Assessment",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/services/ai-strategy-sprint",
+      "anker": "AI Strategy Sprint",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/services/fractional-ai-lead",
+      "anker": "Fractional AI Lead",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/services",
+      "anker": "All services",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/cases",
+      "anker": "Cases",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/approach",
+      "anker": "Approach",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/insights",
+      "anker": "Insights",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/faq",
+      "anker": "FAQ",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/about",
+      "anker": "About",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-consulting",
+      "anker": "AI consulting",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-implementation",
+      "anker": "AI implementation",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-automation",
+      "anker": "AI automation",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-for-business",
+      "anker": "AI for business",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-development",
+      "anker": "AI development",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-agents",
+      "anker": "AI agents",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-policy",
+      "anker": "AI policy",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/ai-workshop",
+      "anker": "AI workshop",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/markets",
+      "anker": "AI by industry",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/knowledge-base",
+      "anker": "Knowledge base",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/pricing",
+      "anker": "Pricing",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/partner-network",
+      "anker": "Partner network",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "overig",
+      "href": "mailto:dave@freelanceaiconsultant.com",
+      "anker": "dave@freelanceaiconsultant.com",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "extern",
+      "href": "https://www.linkedin.com/in/davewillemstein",
+      "anker": "LinkedIn ↗",
+      "rel": "noopener"
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/contact",
+      "anker": "Book a call",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/privacy",
+      "anker": "Privacy policy",
+      "rel": null
+    },
+    {
+      "regio": "footer",
+      "soort": "intern",
+      "href": "/terms",
+      "anker": "Terms & conditions",
+      "rel": null
+    }
+  ],
+  "structured_data": {
+    "sha256": "15bb10fbbacb2ae4c3e31b3f89584bf7d866e785ad6c56173e460aa6227d7c8e",
+    "items": [
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://freelanceaiconsultant.com/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Insights",
+                "item": "https://freelanceaiconsultant.com/insights"
+              },
+              {
+                "@type": "ListItem",
+                "position": 3,
+                "name": "The AI Act after the Digital Omnibus: what's delayed and what still applies",
+                "item": "https://freelanceaiconsultant.com/insights/ai-act-after-the-digital-omnibus"
+              }
+            ]
+          },
+          {
+            "@type": "Person",
+            "@id": "https://freelanceaiconsultant.com/#dave",
+            "name": "Dave Willemstein",
+            "url": "https://freelanceaiconsultant.com/about",
+            "sameAs": [
+              "https://www.linkedin.com/in/davewillemstein"
+            ],
+            "jobTitle": "Independent AI Advisor"
+          },
+          {
+            "@type": "BlogPosting",
+            "headline": "The AI Act after the Digital Omnibus: what's delayed and what still applies",
+            "description": "The Digital Omnibus delays the AI Act's high-risk obligations. What's delayed, what still applies, and what to do about it right now.",
+            "datePublished": "2026-11-22",
+            "dateModified": "2026-11-22",
+            "inLanguage": "en-GB",
+            "articleSection": "Governance",
+            "author": {
+              "@id": "https://freelanceaiconsultant.com/#dave"
+            },
+            "publisher": {
+              "@id": "https://freelanceaiconsultant.com/#dave"
+            },
+            "mainEntityOfPage": "https://freelanceaiconsultant.com/insights/ai-act-after-the-digital-omnibus"
+          },
+          {
+            "@type": "FAQPage",
+            "mainEntity": [
+              {
+                "@type": "Question",
+                "name": "Has the Digital Omnibus largely delayed the AI Act?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "No, only the high-risk obligations have been delayed: Annex III applications to 2 December 2027 and Annex I to 2 August 2028. The prohibited practices, the AI literacy obligation, the transparency rules and the obligations for providers of general-purpose AI models already applied and are unchanged."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Do I still need to do anything now that the high-risk rules have been delayed?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Yes. AI literacy and transparency already apply, regardless of the delay. And preparing for high-risk obligations, such as classifying applications and questioning suppliers, takes months; waiting until shortly before 2 December 2027 creates exactly the time pressure the Omnibus was meant to remove."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "What exactly changes about the AI literacy obligation?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Not the date, which stays 2 February 2025. What changes is the weight: instead of a required knowledge level, providers and deployers must now take measures that fit the knowledge, experience and context of their staff, without a fixed level attached."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "What is the new ban that takes effect on 2 December 2026?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "A ban on AI systems that generate intimate images or child sexual abuse material without consent, such as so-called 'nudify' apps. That ban didn't exist in the original AI Act and was added by the Digital Omnibus."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Where can I find the official, up-to-date facts instead of a summary on a blog?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "At the European Commission (digital-strategy.ec.europa.eu, the page on the AI Omnibus) and in the Official Journal of the European Union via EUR-Lex, where Regulation (EU) 2026/1744 is published in full. National government pages sometimes lag behind; when in doubt, rely on these two sources."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "What does the Digital Omnibus change about the AI Act's deadlines?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "The Digital Omnibus delays only the AI Act's high-risk obligations: Annex III applications move to 2 December 2027 and Annex I applications to 2 August 2028. Prohibited practices, the AI literacy obligation and the transparency rules are unaffected and already applied before the Omnibus."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "What happens to AI models that were already on the market before the Digital Omnibus?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Existing general-purpose AI models placed on the market before 2 August 2026 get a transition period under the Digital Omnibus until 2 December 2026 before the content-labelling rules apply to them."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Why does the new deadline of 2 December 2027 still require action now?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Classifying AI applications, questioning suppliers and assigning human oversight takes months of preparation, so organisations that wait near the Digital Omnibus deadline of 2 December 2027 face exactly the time pressure the extension was meant to prevent."
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "afbeeldingen": [
+    {
+      "regio": "header",
+      "src": "/images/freelance-ai-consultant-logo-header.png",
+      "alt": "freelanceaiconsultant.com logo",
+      "width": "600",
+      "height": "287",
+      "loading": null
+    },
+    {
+      "regio": "main",
+      "src": "/images/dave-portrait.jpg",
+      "alt": "Dave Willemstein, Independent AI Advisor",
+      "width": "500",
+      "height": "620",
+      "loading": "lazy"
+    },
+    {
+      "regio": "footer",
+      "src": "/images/freelance-ai-consultant-icon-footer.png",
+      "alt": "",
+      "width": "192",
+      "height": "192",
+      "loading": "lazy"
+    }
+  ],
+  "laadprestaties": {
+    "scripts": [
+      {
+        "src": "/_astro/CookieConsent.astro_astro_type_script_index_0_lang.COcxE8NY.js",
+        "type": "module",
+        "inline_bytes": 0
+      },
+      {
+        "src": null,
+        "type": null,
+        "inline_bytes": 989
+      },
+      {
+        "src": null,
+        "type": null,
+        "inline_bytes": 493
+      },
+      {
+        "src": "/logo-carousel/logo-carousel.js?v=2",
+        "type": null,
+        "inline_bytes": 0
+      },
+      {
+        "src": null,
+        "type": null,
+        "inline_bytes": 725
+      }
+    ],
+    "stylesheets": [
+      "/_astro/_slug_.CzLXI3HH.css",
+      "/_astro/_slug_.C1c5Do37.css",
+      "/logo-carousel/logo-carousel.css?v=2"
+    ],
+    "aantal_details": 0,
+    "aantal_tabellen": 0
+  },
+  "gemeten_op": "2026-11-22"
+}

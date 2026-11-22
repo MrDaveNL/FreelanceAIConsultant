@@ -2,7 +2,7 @@
   "url": "/",
   "build_bestand": "dist/index.html",
   "html": {
-    "bytes": 49605,
+    "bytes": 49623,
     "lang": "nl"
   },
   "beschermd": {
@@ -158,6 +158,12 @@
     },
     {
       "niveau": 3,
+      "tekst": "AI in klantenservice: wat werkt wel en wat niet",
+      "regio": "main",
+      "id": null
+    },
+    {
+      "niveau": 3,
       "tekst": "Shadow AI: medewerkers gebruiken AI toch al, wat nu?",
       "regio": "main",
       "id": null
@@ -165,12 +171,6 @@
     {
       "niveau": 3,
       "tekst": "AI-agents: wat ze wel en niet kunnen in een bedrijfsproces",
-      "regio": "main",
-      "id": null
-    },
-    {
-      "niveau": 3,
-      "tekst": "Van AI-strategie naar waarde: een 3-stappenplan",
       "regio": "main",
       "id": null
     },
@@ -183,8 +183,8 @@
   ],
   "bodytekst": {
     "regio": "main",
-    "woorden": 778,
-    "sha256": "ecb4f74a09d3feb1df6833c7683a87c711a67366af9e137c29a0905b6f6e7e74",
+    "woorden": 790,
+    "sha256": "4af2fb54b001d2a1f553bbbf1fdaa510a8880db15ab1c5e0a289fc4be8b9e131",
     "blokken": [
       "AI-advies dat je helpt beslissen",
       "Maak de AI-beslissingen die je aan je board moet uitleggen.",
@@ -340,6 +340,11 @@
       "AI Act na de Digital Omnibus: wat schuift op en wat blijft gelden",
       "De Digital Omnibus stelt de hoog-risico verplichtingen van de AI Act uit. Wat schuift op, wat blijft gewoon gelden en wat je als organisatie nu doet.",
       "◷ 5 min leestijd Lees artikel →",
+      "☎",
+      "Use cases",
+      "AI in klantenservice: wat werkt wel en wat niet",
+      "De chatbot is zelden de grootste winst. Begin bij e-mailtriage en het ondersteunen van medewerkers, en laat een chatbot pas los als je kennisbron op orde is.",
+      "◷ 4 min leestijd Lees artikel →",
       "◐",
       "Governance",
       "Shadow AI: medewerkers gebruiken AI toch al, wat nu?",
@@ -349,11 +354,6 @@
       "Use cases",
       "AI-agents: wat ze wel en niet kunnen in een bedrijfsproces",
       "Agents die zelfstandig taken uitvoeren zijn de belofte van dit moment. Waar ze werken, waar ze stukgaan, en welke vraag je vooraf moet beantwoorden.",
-      "◷ 4 min leestijd Lees artikel →",
-      "↗",
-      "Strategie",
-      "Van AI-strategie naar waarde: een 3-stappenplan",
-      "De meeste AI-strategieën stranden niet op de strategie, maar op de vertaling ervan. Drie stappen die die vertaling afdwingen.",
       "◷ 4 min leestijd Lees artikel →",
       "Klaar voor impact?",
       "Klaar om AI-beslissingen helder te maken?",
@@ -533,6 +533,13 @@
     {
       "regio": "main",
       "soort": "intern",
+      "href": "/nl/inzichten/ai-klantenservice",
+      "anker": "☎ Use cases AI in klantenservice: wat werkt wel en wat niet De chatbot is zelden de grootste winst. Begin bij e-mailtriage en het ondersteunen van medewerkers, en laat een chatbot pas los als je kennisbron op orde is. ◷ 4 min leestijd Lees artikel →",
+      "rel": null
+    },
+    {
+      "regio": "main",
+      "soort": "intern",
       "href": "/nl/inzichten/shadow-ai",
       "anker": "◐ Governance Shadow AI: medewerkers gebruiken AI toch al, wat nu? Verbieden werkt niet: medewerkers gebruiken AI al. Hoe je het zichtbaar maakt, het risico serieus neemt en veilige alternatieven biedt zonder alles dicht te timmeren. ◷ 6 min leestijd Lees artikel →",
       "rel": null
@@ -542,13 +549,6 @@
       "soort": "intern",
       "href": "/nl/inzichten/ai-agents-wat-ze-wel-en-niet-kunnen",
       "anker": "↯ Use cases AI-agents: wat ze wel en niet kunnen in een bedrijfsproces Agents die zelfstandig taken uitvoeren zijn de belofte van dit moment. Waar ze werken, waar ze stukgaan, en welke vraag je vooraf moet beantwoorden. ◷ 4 min leestijd Lees artikel →",
-      "rel": null
-    },
-    {
-      "regio": "main",
-      "soort": "intern",
-      "href": "/nl/inzichten/van-ai-strategie-naar-waarde",
-      "anker": "↗ Strategie Van AI-strategie naar waarde: een 3-stappenplan De meeste AI-strategieën stranden niet op de strategie, maar op de vertaling ervan. Drie stappen die die vertaling afdwingen. ◷ 4 min leestijd Lees artikel →",
       "rel": null
     },
     {
