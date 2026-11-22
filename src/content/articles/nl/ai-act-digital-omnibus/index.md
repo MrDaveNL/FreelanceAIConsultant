@@ -2,6 +2,7 @@
 id: nl-ai-act-digital-omnibus
 lang: nl
 slug: ai-act-digital-omnibus
+counterpart: ai-act-after-the-digital-omnibus
 category: Governance
 tone: aqua
 icon: ⚖
