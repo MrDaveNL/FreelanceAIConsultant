@@ -83,6 +83,7 @@ export const routes: RouteEntry[] = [
   r('art-ai-vendorselectie-in-acht-stappen', 'article', '/inzichten/ai-vendorselectie-in-acht-stappen', '/insights/ai-vendor-selection-in-eight-steps', { liveEn: true }),
   r('art-wanneer-heb-je-echt-een-ai-strateeg-nodig', 'article', '/inzichten/wanneer-heb-je-echt-een-ai-strateeg-nodig', '/insights/when-do-you-really-need-an-ai-strategist', { liveEn: true }),
   r('art-ai-adoptie-begint-bij-het-werk', 'article', '/inzichten/ai-adoptie-begint-bij-het-werk', '/insights/ai-adoption-starts-with-the-work', { liveEn: true }),
+  r('art-ai-klantenservice', 'article', '/inzichten/ai-klantenservice', '/insights/ai-customer-service', { liveEn: true }),
 
   // Content-collectie 'pages': 12 clusters, 55 pagina's
   r('C1-00', 'content', '/ai-consultancy', '/ai-consulting', { cluster: 'ai-consultancy', liveEn: true }),
