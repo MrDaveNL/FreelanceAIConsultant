@@ -156,8 +156,15 @@ blogbranch (stap 1) en vóór de build/check/deploy-stap (stap 4):
 
 **Waarom:** de migratie verandert de opslagvorm van inzichtenartikelen, niet de inhoud of de
 sortering (zie `planning/migratieplan-inzichten-cms.md` voor het bewijs daarvan: een dist-diff
-van de volledige site, vóór en na, met alleen het verwachte verschil in de lastBuildDate van de
-RSS-feeds). Een blogbranch die vóór de migratie is afgetakt, "weet" nog niets van de nieuwe
+van de volledige site, vóór en na. Verwacht verschil 1: de lastBuildDate van de RSS-feeds
+(bouwtijdstip). Verwacht verschil 2: de `lastmod` van de hub-pagina's `/nl/inzichten` en
+`/insights` in de sitemaps schoof op naar de migratiedatum, niet omdat de inhoud van die
+hub-pagina's veranderde (die is byte-identiek), maar omdat `src/lib/sitemap.ts` voor deze
+routes `lastmod` afleidt van de git-commitdatum van het bijbehorende `.astro`-bestand, en de
+migratie `src/pages/nl/inzichten/index.astro`, `src/pages/insights/index.astro` en
+`src/pages/rss.xml.js` moest aanpassen (async/sorteer-tiebreak). Zie
+`planning/TODO-fix-sitemap-automatisch.md` voor de opvolgtaak die dit voorkomt bij een
+volgende codewijziging). Een blogbranch die vóór de migratie is afgetakt, "weet" nog niets van de nieuwe
 opslagvorm en voegt daarom nog in het oude formaat toe; zonder deze conversiestap zou die
 toevoeging als `.js`-bestand of `all.json`-item op `main` belanden, naast de nieuwe
 markdown-collectie, met twee databronnen voor dezelfde inzichten als gevolg.
