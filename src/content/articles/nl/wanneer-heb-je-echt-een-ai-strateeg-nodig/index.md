@@ -2,6 +2,7 @@
 id: nl-wanneer-heb-je-echt-een-ai-strateeg-nodig
 lang: nl
 slug: wanneer-heb-je-echt-een-ai-strateeg-nodig
+counterpart: when-do-you-really-need-an-ai-strategist
 category: Strategie
 tone: yellow
 icon: ◎

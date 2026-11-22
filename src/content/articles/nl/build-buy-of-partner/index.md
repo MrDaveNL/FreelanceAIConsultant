@@ -2,6 +2,7 @@
 id: nl-build-buy-of-partner
 lang: nl
 slug: build-buy-of-partner
+counterpart: build-buy-or-partner
 category: Organisatie
 tone: aqua
 icon: ⇄

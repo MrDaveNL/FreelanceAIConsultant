@@ -2,6 +2,7 @@
 id: en-ai-adoption-starts-with-the-work
 lang: en
 slug: ai-adoption-starts-with-the-work
+counterpart: ai-adoptie-begint-bij-het-werk
 category: Organisation
 tone: sand
 icon: ◉

@@ -2,6 +2,7 @@
 id: en-when-do-you-really-need-an-ai-strategist
 lang: en
 slug: when-do-you-really-need-an-ai-strategist
+counterpart: wanneer-heb-je-echt-een-ai-strateeg-nodig
 category: Strategy
 tone: yellow
 icon: ◎

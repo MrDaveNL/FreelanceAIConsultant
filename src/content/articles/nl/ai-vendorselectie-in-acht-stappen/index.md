@@ -2,6 +2,7 @@
 id: nl-ai-vendorselectie-in-acht-stappen
 lang: nl
 slug: ai-vendorselectie-in-acht-stappen
+counterpart: ai-vendor-selection-in-eight-steps
 category: Tools & data
 tone: aqua
 icon: ◈

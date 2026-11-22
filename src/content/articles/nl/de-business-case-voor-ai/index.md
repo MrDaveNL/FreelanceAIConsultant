@@ -2,6 +2,7 @@
 id: nl-de-business-case-voor-ai
 lang: nl
 slug: de-business-case-voor-ai
+counterpart: the-business-case-for-ai
 category: Strategie
 tone: yellow
 icon: €

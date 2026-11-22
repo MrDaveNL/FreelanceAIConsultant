@@ -2,6 +2,7 @@
 id: nl-welke-ai-use-cases-leveren-resultaat
 lang: nl
 slug: welke-ai-use-cases-leveren-resultaat
+counterpart: which-ai-use-cases-deliver-results
 category: Use cases
 tone: yellow
 icon: ⌕

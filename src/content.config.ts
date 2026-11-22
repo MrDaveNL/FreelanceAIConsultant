@@ -183,6 +183,13 @@ const articles = defineCollection({
     id: z.string(),
     lang: locale,
     slug: z.string(),
+    // Slug van de vertaling van dit artikel in de ANDERE taal, indien die bestaat (leeg = nog
+    // geen vertaling). Enige koppeling tussen de NL- en EN-versie: src/data/routes.ts leidt de
+    // sitemap/hreflang/taalwisselaar-route van elk artikel hieruit af (buildArticleRoutes()), in
+    // plaats van uit een handmatige lijst. Bewust een los veld van 'id' (dat hier altijd
+    // '<lang>-<eigen-slug>' is, de opslagsleutel van articlesLoader() hierboven): 'id' kan dus
+    // nooit de gedeelde sleutel zijn zonder de twee taalversies in de store te laten botsen.
+    counterpart: z.string().optional(),
     category: z.string(),
     tone: z.string(),
     icon: z.string(),
