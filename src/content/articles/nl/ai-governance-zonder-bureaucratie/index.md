@@ -2,6 +2,7 @@
 id: nl-ai-governance-zonder-bureaucratie
 lang: nl
 slug: ai-governance-zonder-bureaucratie
+counterpart: ai-governance-without-bureaucracy
 category: Governance
 tone: aqua
 icon: ▣

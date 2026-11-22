@@ -2,6 +2,7 @@
 id: en-independent-ai-consultant-vs-agency-vs-big4
 lang: en
 slug: independent-ai-consultant-vs-agency-vs-big4
+counterpart: freelance-ai-consultant-vs-agency-vs-big4
 category: Strategy
 tone: salmon
 icon: ⇄

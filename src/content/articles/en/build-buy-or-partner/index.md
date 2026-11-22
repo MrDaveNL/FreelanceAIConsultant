@@ -2,6 +2,7 @@
 id: en-build-buy-or-partner
 lang: en
 slug: build-buy-or-partner
+counterpart: build-buy-of-partner
 category: Organisation
 tone: aqua
 icon: ⇄

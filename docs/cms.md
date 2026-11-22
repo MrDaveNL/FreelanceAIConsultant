@@ -48,12 +48,20 @@ inzichtenartikelen als losse markdown per taal, naar het patroon van de kennisba
 (create en delete staan AAN). Het veldschema wijkt af van de kennisbank/overige-collecties: geen
 `url`/`parent`/`cluster`/`pageType`/`schema`/`navLabel`/`primaryCta` (dat zijn velden van de
 `pages`-collectie), wel `category`/`tone`/`icon`/`featured`/`readingTime`/`summary`/`takeaways`/
-`remember`/`related`/`order`, het eigen schema van de `articles`-collectie in
+`remember`/`related`/`order`/`counterpart`, het eigen schema van de `articles`-collectie in
 `content.config.ts`. Die collectie gebruikt een eigen loader (front matter/body-splitsing met
 een regex + js-yaml, net als `scripts/check-content.mjs`), bewust geen Astro's standaard
 `glob()`-rendering: het `body`-veld blijft zo de kant-en-klare HTML die het al was, en loopt niet
 alsnog door de remark-plugins van `astro.config.mjs` (servicetokens, RAG-remark-plugin), die
 beide alleen op de `pages`-collectie draaien.
+
+`counterpart` (optioneel) is, anders dan `id` hierboven, wel technisch load-bearing: het is de
+slug van de vertaling van dit artikel in de andere taal, als die bestaat. `src/data/routes.ts`
+(`buildArticleRoutes()`, zelfde patroon als `buildKennisbankRoutes()`) leidt hieruit de
+sitemap-, hreflang- en taalwisselaar-route van elk artikel af, in plaats van uit een handmatige
+lijst — zie fix/sitemap-automatisch. Een artikel zonder `counterpart` is gewoon eentalig live
+(bijv. een net gepubliceerd NL-artikel zonder EN-vertaling); een `counterpart`-waarde die niet
+bestaat in de andere taal laat de build hard falen met een duidelijke melding.
 
 **Tijdelijke uitzondering: inzichten NIET via dit scherm bewerken (tot de blogreeks is
 afgerond).** Ondanks dat de collecties hierboven technisch bestaan, gaan inhoudelijke

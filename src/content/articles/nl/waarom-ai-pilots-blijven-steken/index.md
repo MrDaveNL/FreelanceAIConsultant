@@ -2,6 +2,7 @@
 id: nl-waarom-ai-pilots-blijven-steken
 lang: nl
 slug: waarom-ai-pilots-blijven-steken
+counterpart: why-ai-pilots-stall
 category: Organisatie
 tone: salmon
 icon: ⚠

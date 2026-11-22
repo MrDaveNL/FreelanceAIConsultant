@@ -2,8 +2,9 @@
 
 Status: uitgevoerd en gemerged naar `main` op 22 november 2026, na Dave's akkoord. Dist-diff
 vóór/na was byte-identiek op twee verwachte verschillen na (RSS-lastBuildDate, sitemap-lastmod
-van de twee hub-pagina's — zie `planning/TODO-fix-sitemap-automatisch.md` voor de opvolgtaak);
-`npm run build`/`test`/`check` groen, RAG-telling ongewijzigd op 129 blokken/0 fouten.
+van de twee hub-pagina's — de opvolgtaak hierop is afgehandeld op fix/sitemap-automatisch, zie
+`src/lib/sitemap.ts`); `npm run build`/`test`/`check` groen, RAG-telling ongewijzigd op 129
+blokken/0 fouten.
 
 ## Waarom dit nodig is voor een CMS op de inzichten
 

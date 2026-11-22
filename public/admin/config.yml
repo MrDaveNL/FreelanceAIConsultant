@@ -900,6 +900,15 @@ collections:
           Bepaalt de mapnaam en dus de URL (/insights/<slug>). Voorbeeld:
           "why-ai-pilots-stall". Na het aanmaken niet meer wijzigen: dat verplaatst het bestand
           niet en breekt de link met bestaande interne verwijzingen.
+      - label: Counterpart
+        name: counterpart
+        widget: string
+        required: false
+        hint: >-
+          Slug van de NL-vertaling van dit artikel, als die bestaat (leeg = nog geen vertaling).
+          Technische koppeling (anders dan "ID" hierboven): src/data/routes.ts leidt hieruit de
+          sitemap/hreflang/taalwisselaar-route van dit artikel af. Voorbeeld:
+          "waarom-ai-pilots-blijven-steken".
       - label: Category
         name: category
         widget: string
@@ -1047,6 +1056,15 @@ collections:
           Bepaalt de mapnaam en dus de URL (/nl/inzichten/<slug>). Voorbeeld:
           "waarom-ai-pilots-blijven-steken". Na het aanmaken niet meer wijzigen: dat verplaatst
           het bestand niet en breekt de link met bestaande interne verwijzingen.
+      - label: Counterpart
+        name: counterpart
+        widget: string
+        required: false
+        hint: >-
+          Slug van de EN-vertaling van dit artikel, als die bestaat (leeg = nog geen vertaling).
+          Technische koppeling (anders dan "ID" hierboven): src/data/routes.ts leidt hieruit de
+          sitemap/hreflang/taalwisselaar-route van dit artikel af. Voorbeeld:
+          "why-ai-pilots-stall".
       - label: Categorie
         name: category
         widget: string

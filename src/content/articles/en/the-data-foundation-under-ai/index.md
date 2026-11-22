@@ -2,6 +2,7 @@
 id: en-the-data-foundation-under-ai
 lang: en
 slug: the-data-foundation-under-ai
+counterpart: het-datafundament-onder-ai
 category: Tools & data
 tone: sand
 icon: ◫

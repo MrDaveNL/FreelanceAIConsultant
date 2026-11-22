@@ -2,6 +2,7 @@
 id: en-what-ai-agents-can-and-cannot-do
 lang: en
 slug: what-ai-agents-can-and-cannot-do
+counterpart: ai-agents-wat-ze-wel-en-niet-kunnen
 category: Use cases
 tone: salmon
 icon: ↯

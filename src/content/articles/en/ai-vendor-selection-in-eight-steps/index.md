@@ -2,6 +2,7 @@
 id: en-ai-vendor-selection-in-eight-steps
 lang: en
 slug: ai-vendor-selection-in-eight-steps
+counterpart: ai-vendorselectie-in-acht-stappen
 category: Tools & data
 tone: aqua
 icon: ◈

@@ -2,6 +2,7 @@
 id: en-from-ai-strategy-to-value
 lang: en
 slug: from-ai-strategy-to-value
+counterpart: van-ai-strategie-naar-waarde
 category: Strategy
 tone: salmon
 icon: ↗
