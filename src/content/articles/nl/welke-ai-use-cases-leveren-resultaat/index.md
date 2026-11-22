@@ -1,32 +1,38 @@
-export default {
-  slug: 'welke-ai-use-cases-leveren-resultaat',
-  category: 'Use cases',
-  tone: 'yellow',
-  icon: '⌕',
-  featured: false,
-  title: 'Welke AI-use cases leveren écht resultaat op?',
-  titleLine1: 'Welke AI-use cases',
-  titleLine2: 'leveren écht resultaat op?',
-  excerpt: 'Niet de spectaculairste, maar de saaiste. Vier kenmerken die de winnaars delen, en vier patronen die vrijwel altijd stranden.',
-  lede: 'Na tientallen use-case-inventarisaties valt hetzelfde patroon op: de winnaars zijn zelden de ideeën waar de directie enthousiast van wordt. Dit is waar ze wél aan voldoen.',
-  readingTime: '4 min leestijd',
-  date: '2026-11-02',
-  dateLabel: '2 november 2026',
-  order: 4,
-  summary: [
-    'Hoog volume, lage variatie, duidelijke fout-kosten.',
-    'Een menselijke controlestap die goedkoper is dan de fout.',
-    'Data die al bestaat en al gebruikt wordt.',
-  ],
-  summaryClose: 'Saai en frequent verslaat spectaculair en zeldzaam.',
-  takeaways: [
-    ['Volume boven complexiteit', 'Tienduizend keer een klein beetje tijdwinst verslaat één keer een groot inzicht.'],
-    ['De fout moet betaalbaar zijn', 'Als een fout onherstelbaar is, is de businesscase veel kleiner dan hij lijkt.'],
-    ['Bestaande data wint', 'Elke use case die nieuwe dataverzameling vereist, schuift een jaar op.'],
-  ],
-  remember: 'De beste use case is meestal degene waar niemand een presentatie over wil geven.',
-  related: ['van-ai-strategie-naar-waarde', 'waarom-ai-pilots-blijven-steken'],
-  body: `
+---
+id: nl-welke-ai-use-cases-leveren-resultaat
+lang: nl
+slug: welke-ai-use-cases-leveren-resultaat
+category: Use cases
+tone: yellow
+icon: ⌕
+featured: false
+title: Welke AI-use cases leveren écht resultaat op?
+titleLine1: Welke AI-use cases
+titleLine2: leveren écht resultaat op?
+excerpt: Niet de spectaculairste, maar de saaiste. Vier kenmerken die de winnaars delen, en vier patronen die vrijwel altijd stranden.
+lede: 'Na tientallen use-case-inventarisaties valt hetzelfde patroon op: de winnaars zijn zelden de ideeën waar de directie enthousiast van wordt. Dit is waar ze wél aan voldoen.'
+readingTime: 4 min leestijd
+date: '2026-11-02'
+dateLabel: 2 november 2026
+order: 4
+summary:
+  - Hoog volume, lage variatie, duidelijke fout-kosten.
+  - Een menselijke controlestap die goedkoper is dan de fout.
+  - Data die al bestaat en al gebruikt wordt.
+summaryClose: Saai en frequent verslaat spectaculair en zeldzaam.
+takeaways:
+  - - Volume boven complexiteit
+    - Tienduizend keer een klein beetje tijdwinst verslaat één keer een groot inzicht.
+  - - De fout moet betaalbaar zijn
+    - Als een fout onherstelbaar is, is de businesscase veel kleiner dan hij lijkt.
+  - - Bestaande data wint
+    - Elke use case die nieuwe dataverzameling vereist, schuift een jaar op.
+remember: De beste use case is meestal degene waar niemand een presentatie over wil geven.
+related:
+  - van-ai-strategie-naar-waarde
+  - waarom-ai-pilots-blijven-steken
+---
+
 <h2>Het patroon achter de winnaars</h2>
 <p>In use-case-sessies komt altijd hetzelfde soort ideeën boven drijven: een chatbot die alles weet, een systeem dat de markt voorspelt, een assistent die vergaderingen overbodig maakt. Ze zijn aantrekkelijk omdat ze groot klinken. Ze stranden omdat ze vaag zijn.</p>
 <p>De use cases die het wél halen, hebben vier kenmerken gemeen. Geen van die kenmerken gaat over technologie.</p>
@@ -77,5 +83,3 @@ export default {
   <li>Is er een eigenaar in de lijn die er beter van wordt? (trekkracht)</li>
 </ul>
 <p>Use cases die onder de 15 punten scoren, gaan niet eerst. Niet omdat ze slecht zijn, maar omdat je eerste twee use cases moeten slagen: de rest van je roadmap hangt daarvan af.</p>
-`,
-};

@@ -1,9 +1,16 @@
 # Sveltia CMS configuratie voor freelanceaiconsultant.com.
 #
-# Scope: markdown-content onder src/content/pages/{en,nl}. Geen dienstenpagina's, cases,
-# inzichten, RAG-blokken, data-bestanden, routes, componenten, layouts of schema/JSON-LD. Zie
-# docs/cms.md voor de redenen; voor home/over/werkwijze (geen markdown, maar hardcoded
-# .astro-pagina's + src/data/*.js) zie docs/cms.md en planning/migratieplan-kernpaginas-cms.md.
+# Scope: markdown-content onder src/content/pages/{en,nl} én, sinds de CMS-migratie van de
+# inzichten (planning/migratieplan-inzichten-cms.md), onder src/content/articles/{en,nl}. Geen
+# dienstenpagina's, cases, RAG-blokken, data-bestanden, routes, componenten, layouts of
+# schema/JSON-LD. Zie docs/cms.md voor de redenen; voor home/over/werkwijze (geen markdown, maar
+# hardcoded .astro-pagina's + src/data/*.js) zie docs/cms.md en
+# planning/migratieplan-kernpaginas-cms.md.
+#
+# LET OP bij de inzichten-collecties (inzichten_en/inzichten_nl, helemaal onderin dit bestand):
+# zolang de CMS-migratie en de lopende blogreeks (NL+EN-parity, BLOG-01 t/m 12) niet allebei zijn
+# afgerond, gaan inhoudelijke wijzigingen aan bestaande of nieuwe artikelen via de dinsdagroutine
+# (planning/werkafspraak-publicatiedagen.md), NIET via dit scherm. Zie docs/cms.md.
 #
 # Geen Sveltia-i18n (geen top-level "i18n:"-blok): EN en NL zijn losse collecties per taal. De
 # "id"-waarde in de front matter koppelt een EN- en NL-pagina inhoudelijk, maar is voor het CMS
@@ -854,4 +861,309 @@ collections:
       - { name: "C7-07", label: "AI binnen de overheid", file: "src/content/pages/nl/markten/overheid/index.md", fields: *overigeFieldsNl }
       - { name: "C7-01", label: "AI in de zorg", file: "src/content/pages/nl/markten/zorg/index.md", fields: *overigeFieldsNl }
       - { name: "P06", label: "Partnernetwerk", file: "src/content/pages/nl/partnernetwerk/index.md", fields: *overigeFieldsNl }
+
+  # inzichten_en/inzichten_nl: sinds de CMS-migratie (planning/migratieplan-inzichten-cms.md)
+  # staan ook de inzichtenartikelen als losse markdown per taal (src/content/articles/{en,nl}/
+  # <slug>/index.md, content.config.ts, 'articles'-collectie met een eigen loader). create en
+  # delete staan AAN, naar het patroon van kennisbank_en/kennisbank_nl hierboven. LET OP: zolang
+  # de CMS-migratie en de lopende blogreeks (NL+EN-parity, BLOG-01 t/m 12) nog niet allebei
+  # volledig zijn afgerond, gaan inhoudelijke wijzigingen aan deze artikelen via de
+  # dinsdagroutine (handmatige branch + extractiescript + dist-diff, zie
+  # planning/werkafspraak-publicatiedagen.md), NIET via dit CMS-scherm — zie docs/cms.md.
+  # Het veldschema wijkt af van de kennisbank/overige-collecties hierboven (geen url/parent/
+  # cluster/pageType/schema/navLabel/primaryCta: dat zijn velden van de 'pages'-collectie, de
+  # 'articles'-collectie heeft een eigen schema, zie content.config.ts).
+  - name: inzichten_en
+    label: "Insights (EN)"
+    folder: src/content/articles/en
+    path: "{{slug}}/index"
+    identifier_field: slug
+    format: frontmatter
+    extension: md
+    create: true
+    delete: true
+    fields: &inzichtenFieldsEn
+      - label: "ID"
+        name: id
+        widget: string
+        pattern: ["^[A-Za-z0-9-]+$", "Alleen letters, cijfers en -"]
+        hint: >-
+          Koppelt de EN- en NL-versie van dit artikel (geen technische eis, puur informatief).
+          Voorbeeld: "en-why-ai-pilots-stall". Hoeft niet uniek te zijn over de hele site, alleen
+          herkenbaar.
+      - { label: Taal, name: lang, widget: hidden, default: en }
+      - label: Slug
+        name: slug
+        widget: string
+        pattern: ["^[a-z0-9-]+$", "Alleen kleine letters, cijfers en -"]
+        hint: >-
+          Bepaalt de mapnaam en dus de URL (/insights/<slug>). Voorbeeld:
+          "why-ai-pilots-stall". Na het aanmaken niet meer wijzigen: dat verplaatst het bestand
+          niet en breekt de link met bestaande interne verwijzingen.
+      - label: Category
+        name: category
+        widget: string
+        hint: >-
+          Voorbeeld: "Strategy", "Organisation", "Use cases", "Tools & data", "Governance"
+          (bestaande categorieën; een nieuwe mag, verschijnt dan als nieuw filter op de hub).
+      - label: Tone
+        name: tone
+        widget: select
+        options: [aqua, sand, salmon, yellow]
+        hint: "Kleur van het kaartje op de inzichten-hub."
+      - label: Icon
+        name: icon
+        widget: string
+        hint: "Eén teken/symbool voor het kaartje. Voorbeeld: ◷, ⚖, ◐."
+      - label: Featured
+        name: featured
+        widget: boolean
+        default: false
+        hint: "Maximaal één artikel per taal mag 'true' zijn; dat verschijnt uitgelicht op de hub."
+      - label: Title
+        name: title
+        widget: string
+        hint: "Volledige titel, gebruikt in <title>, JSON-LD en kaartjes."
+      - label: "Title (line 1)"
+        name: titleLine1
+        widget: string
+        hint: "Eerste regel van de H1 op de artikelpagina (titel loopt over twee regels)."
+      - label: "Title (line 2, marked)"
+        name: titleLine2
+        widget: string
+        hint: "Tweede regel van de H1, met een markeeraccent."
+      - label: Excerpt
+        name: excerpt
+        widget: text
+        hint: "Korte samenvatting op kaartjes en in de RSS-feed/meta description-fallback."
+      - label: "Meta title"
+        name: metaTitle
+        widget: string
+        required: false
+        hint: "Optioneel; valt terug op Title als dit leeg is."
+      - label: "Meta description"
+        name: metaDescription
+        widget: text
+        required: false
+        hint: "Optioneel; valt terug op Excerpt als dit leeg is."
+      - label: Lede
+        name: lede
+        widget: text
+        hint: "Openingsalinea direct onder de titel."
+      - label: "Reading time"
+        name: readingTime
+        widget: string
+        hint: "Voorbeeld: \"6 min read\"."
+      - label: "Published date"
+        name: date
+        widget: string
+        pattern: ["^\\d{4}-\\d{2}-\\d{2}$", "Formaat JJJJ-MM-DD"]
+        hint: "Publicatiedatum, formaat JJJJ-MM-DD. Bepaalt de sortering op de hub en in de RSS-feed."
+      - label: "Published date (label)"
+        name: dateLabel
+        widget: string
+        hint: "Zichtbare datum. Voorbeeld: \"November 6, 2026\"."
+      - label: Updated
+        name: updated
+        widget: string
+        required: false
+        hint: "Datum van de laatste inhoudelijke wijziging, formaat JJJJ-MM-DD. Leeg = geen wijziging sinds publicatie."
+      - label: Order
+        name: order
+        widget: number
+        required: false
+        valueType: int
+        hint: >-
+          Tiebreak bij een gelijke 'Published date' met een ander artikel (lager = nieuwer/boven
+          op de hub en in de RSS-feed). Alleen nodig bij een exacte datumbotsing; anders leeg laten.
+      - name: summary
+        label: Summary
+        widget: list
+        field: { label: Punt, name: item, widget: string }
+        hint: "Korte bullets in het 'AT A GLANCE'-kaartje."
+      - label: "Summary (closing line)"
+        name: summaryClose
+        widget: string
+        hint: "Afsluitende regel onder de summary-bullets."
+      - name: takeaways
+        label: "Key takeaways"
+        widget: list
+        hint: "Elk item precies twee regels: een korte titel en de toelichting."
+        field:
+          label: Takeaway
+          name: pair
+          widget: list
+          min: 2
+          max: 2
+          field: { label: Regel, name: line, widget: string }
+      - label: Remember
+        name: remember
+        widget: string
+        hint: "Citaat-achtige afsluitregel in het zijpaneel."
+      - name: related
+        label: "Related articles"
+        widget: list
+        required: false
+        field: { label: Slug, name: slug, widget: string, hint: "Slug van een ander EN-artikel, bijv. \"why-ai-pilots-stall\"." }
+      - name: faq
+        label: FAQ
+        widget: list
+        required: false
+        fields:
+          - { label: Question, name: q, widget: string }
+          - { label: Answer, name: a, widget: text }
+      - label: "Content (body)"
+        name: body
+        widget: text
+        hint: >-
+          Gewoon tekstveld, geen markdown-editor, zodat de opmaak niet verandert. Dit veld bevat
+          de kant-en-klare HTML van het artikel; wijzig de structuur (koppen, links) alleen met
+          zorg, zie de werkafspraak in docs/cms.md en planning/werkafspraak-publicatiedagen.md.
+
+  - name: inzichten_nl
+    label: "Inzichten (NL)"
+    folder: src/content/articles/nl
+    path: "{{slug}}/index"
+    identifier_field: slug
+    format: frontmatter
+    extension: md
+    create: true
+    delete: true
+    fields: &inzichtenFieldsNl
+      - label: "ID"
+        name: id
+        widget: string
+        pattern: ["^[A-Za-z0-9-]+$", "Alleen letters, cijfers en -"]
+        hint: >-
+          Koppelt de EN- en NL-versie van dit artikel (geen technische eis, puur informatief).
+          Voorbeeld: "nl-waarom-ai-pilots-blijven-steken". Hoeft niet uniek te zijn over de hele
+          site, alleen herkenbaar.
+      - { label: Taal, name: lang, widget: hidden, default: nl }
+      - label: Slug
+        name: slug
+        widget: string
+        pattern: ["^[a-z0-9-]+$", "Alleen kleine letters, cijfers en -"]
+        hint: >-
+          Bepaalt de mapnaam en dus de URL (/nl/inzichten/<slug>). Voorbeeld:
+          "waarom-ai-pilots-blijven-steken". Na het aanmaken niet meer wijzigen: dat verplaatst
+          het bestand niet en breekt de link met bestaande interne verwijzingen.
+      - label: Categorie
+        name: category
+        widget: string
+        hint: >-
+          Voorbeeld: "Strategie", "Organisatie", "Use cases", "Tools & data", "Governance"
+          (bestaande categorieën; een nieuwe mag, verschijnt dan als nieuw filter op de hub).
+      - label: Tone
+        name: tone
+        widget: select
+        options: [aqua, sand, salmon, yellow]
+        hint: "Kleur van het kaartje op de inzichten-hub."
+      - label: Icon
+        name: icon
+        widget: string
+        hint: "Eén teken/symbool voor het kaartje. Voorbeeld: ◷, ⚖, ◐."
+      - label: Featured
+        name: featured
+        widget: boolean
+        default: false
+        hint: "Maximaal één artikel per taal mag 'true' zijn; dat verschijnt uitgelicht op de hub."
+      - label: Titel
+        name: title
+        widget: string
+        hint: "Volledige titel, gebruikt in <title>, JSON-LD en kaartjes."
+      - label: "Titel (regel 1)"
+        name: titleLine1
+        widget: string
+        hint: "Eerste regel van de H1 op de artikelpagina (titel loopt over twee regels)."
+      - label: "Titel (regel 2, gemarkeerd)"
+        name: titleLine2
+        widget: string
+        hint: "Tweede regel van de H1, met een markeeraccent."
+      - label: Excerpt
+        name: excerpt
+        widget: text
+        hint: "Korte samenvatting op kaartjes en in de RSS-feed/meta description-fallback."
+      - label: "Meta title"
+        name: metaTitle
+        widget: string
+        required: false
+        hint: "Optioneel; valt terug op Titel als dit leeg is."
+      - label: "Meta description"
+        name: metaDescription
+        widget: text
+        required: false
+        hint: "Optioneel; valt terug op Excerpt als dit leeg is."
+      - label: Lede
+        name: lede
+        widget: text
+        hint: "Openingsalinea direct onder de titel."
+      - label: Leestijd
+        name: readingTime
+        widget: string
+        hint: "Voorbeeld: \"6 min leestijd\"."
+      - label: Publicatiedatum
+        name: date
+        widget: string
+        pattern: ["^\\d{4}-\\d{2}-\\d{2}$", "Formaat JJJJ-MM-DD"]
+        hint: "Publicatiedatum, formaat JJJJ-MM-DD. Bepaalt de sortering op de hub en in de RSS-feed."
+      - label: "Publicatiedatum (label)"
+        name: dateLabel
+        widget: string
+        hint: "Zichtbare datum. Voorbeeld: \"6 november 2026\"."
+      - label: Updated
+        name: updated
+        widget: string
+        required: false
+        hint: "Datum van de laatste inhoudelijke wijziging, formaat JJJJ-MM-DD. Leeg = geen wijziging sinds publicatie."
+      - label: Order
+        name: order
+        widget: number
+        required: false
+        valueType: int
+        hint: >-
+          Tiebreak bij een gelijke 'Publicatiedatum' met een ander artikel (lager = nieuwer/boven
+          op de hub en in de RSS-feed). Alleen nodig bij een exacte datumbotsing; anders leeg laten.
+      - name: summary
+        label: Summary
+        widget: list
+        field: { label: Punt, name: item, widget: string }
+        hint: "Korte bullets in het 'IN HET KORT'-kaartje."
+      - label: "Summary (slotregel)"
+        name: summaryClose
+        widget: string
+        hint: "Afsluitende regel onder de summary-bullets."
+      - name: takeaways
+        label: "Key takeaways"
+        widget: list
+        hint: "Elk item precies twee regels: een korte titel en de toelichting."
+        field:
+          label: Takeaway
+          name: pair
+          widget: list
+          min: 2
+          max: 2
+          field: { label: Regel, name: line, widget: string }
+      - label: Onthoud
+        name: remember
+        widget: string
+        hint: "Citaat-achtige afsluitregel in het zijpaneel."
+      - name: related
+        label: "Verder lezen"
+        widget: list
+        required: false
+        field: { label: Slug, name: slug, widget: string, hint: "Slug van een ander NL-artikel, bijv. \"ai-governance-zonder-bureaucratie\"." }
+      - name: faq
+        label: FAQ
+        widget: list
+        required: false
+        fields:
+          - { label: Vraag, name: q, widget: string }
+          - { label: Antwoord, name: a, widget: text }
+      - label: "Inhoud (body)"
+        name: body
+        widget: text
+        hint: >-
+          Gewoon tekstveld, geen markdown-editor, zodat de opmaak niet verandert. Dit veld bevat
+          de kant-en-klare HTML van het artikel; wijzig de structuur (koppen, links) alleen met
+          zorg, zie de werkafspraak in docs/cms.md en planning/werkafspraak-publicatiedagen.md.
       - { name: "P04", label: "Tarieven", file: "src/content/pages/nl/tarieven/index.md", fields: *overigeFieldsNl }

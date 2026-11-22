@@ -1,33 +1,39 @@
-export default {
-  slug: 'ai-governance-zonder-bureaucratie',
-  category: 'Governance',
-  tone: 'aqua',
-  icon: '▣',
-  featured: false,
-  title: 'AI-governance zonder bureaucratie: wat je minimaal nodig hebt',
-  titleLine1: 'AI-governance',
-  titleLine2: 'zonder bureaucratie',
-  excerpt: 'Governance die niemand gebruikt, beschermt niemand. Vier mechanismen die het verschil maken, en wat je gerust kunt overslaan.',
-  metaTitle: 'AI-governance zonder bureaucratie: wat je echt nodig hebt',
-  lede: 'Europese regelgeving dwingt organisaties om AI aantoonbaar te beheersen. Dat kan uitmonden in een commissie die alles vertraagt, of in vier lichte mechanismen die het werk beter maken.',
-  readingTime: '5 min leestijd',
-  date: '2026-10-30',
-  dateLabel: '30 oktober 2026',
-  order: 7,
-  summary: [
-    'Classificeer je toepassingen naar risico, niet naar techniek.',
-    'Eén register, één poort, één periodieke toets, één escalatiepad.',
-    'Zware governance alleen waar het risico dat rechtvaardigt.',
-  ],
-  summaryClose: 'Proportionaliteit is het hele punt van goede governance.',
-  takeaways: [
-    ['Register boven commissie', 'Weten wat er draait is negentig procent van het beheersingsvraagstuk.'],
-    ['Één poort, geen keten', 'Als er drie goedkeuringsmomenten zijn, gaan mensen eromheen.'],
-    ['Leg ook het "nee" vast', 'Een vastgelegde afwijzing voorkomt dat dezelfde discussie elk kwartaal terugkomt.'],
-  ],
-  remember: 'Governance die mensen omzeilen is erger dan geen governance, want je denkt dat je in controle bent.',
-  related: ['het-datafundament-onder-ai', 'ai-adoptie-begint-bij-het-werk'],
-  body: `
+---
+id: nl-ai-governance-zonder-bureaucratie
+lang: nl
+slug: ai-governance-zonder-bureaucratie
+category: Governance
+tone: aqua
+icon: ▣
+featured: false
+title: 'AI-governance zonder bureaucratie: wat je minimaal nodig hebt'
+titleLine1: AI-governance
+titleLine2: zonder bureaucratie
+excerpt: Governance die niemand gebruikt, beschermt niemand. Vier mechanismen die het verschil maken, en wat je gerust kunt overslaan.
+metaTitle: 'AI-governance zonder bureaucratie: wat je echt nodig hebt'
+lede: Europese regelgeving dwingt organisaties om AI aantoonbaar te beheersen. Dat kan uitmonden in een commissie die alles vertraagt, of in vier lichte mechanismen die het werk beter maken.
+readingTime: 5 min leestijd
+date: '2026-10-30'
+dateLabel: 30 oktober 2026
+order: 7
+summary:
+  - Classificeer je toepassingen naar risico, niet naar techniek.
+  - Eén register, één poort, één periodieke toets, één escalatiepad.
+  - Zware governance alleen waar het risico dat rechtvaardigt.
+summaryClose: Proportionaliteit is het hele punt van goede governance.
+takeaways:
+  - - Register boven commissie
+    - Weten wat er draait is negentig procent van het beheersingsvraagstuk.
+  - - Één poort, geen keten
+    - Als er drie goedkeuringsmomenten zijn, gaan mensen eromheen.
+  - - Leg ook het "nee" vast
+    - Een vastgelegde afwijzing voorkomt dat dezelfde discussie elk kwartaal terugkomt.
+remember: Governance die mensen omzeilen is erger dan geen governance, want je denkt dat je in controle bent.
+related:
+  - het-datafundament-onder-ai
+  - ai-adoptie-begint-bij-het-werk
+---
+
 <h2>Het echte risico van AI-governance</h2>
 <p>Het risico is niet dat je te weinig regelt. Het risico is dat je zoveel regelt dat mensen eromheen gaan werken, en dat je vervolgens denkt dat je in controle bent terwijl er een schaduwpraktijk ontstaat met tools die niemand kent.</p>
 <p>Dat gebeurt sneller dan bij klassieke IT, omdat AI-tools laagdrempelig zijn. Een medewerker die een goedkeuringstraject van zes weken tegenkomt, kan het alternatief in twee minuten zelf regelen met een creditcard. Goede governance houdt daar rekening mee.</p>
@@ -74,5 +80,3 @@ export default {
 <h2>Leg ook vast wat je niet doet</h2>
 <p>Dit is het onderdeel dat het meeste rendement geeft en het minste werk kost. Als je besluit een bepaalde toepassing níét te bouwen (bijvoorbeeld AI-ondersteuning bij personeelsbeoordelingen), leg dan vast waarom, wie dat besloot en wanneer het opnieuw bekeken wordt.</p>
 <p>Zonder die vastlegging komt hetzelfde voorstel elk kwartaal terug via een andere route, en voer je elke keer dezelfde discussie met andere mensen. Met vastlegging is het gesprek in twee minuten klaar: hier is het besluit, hier is de afweging, en in oktober kijken we er opnieuw naar.</p>
-`,
-};

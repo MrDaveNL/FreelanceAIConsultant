@@ -20,7 +20,7 @@ export async function getStaticPaths() {
 }
 
 const { article } = Astro.props;
-const related = (article.related ?? []).map(getArticle).filter(Boolean);
+const related = (await Promise.all((article.related ?? []).map(getArticle))).filter(Boolean);
 
 // RAG-ready contentblok: vóór de eerste H2 van de artikeltekst. Zonder blok blijft de tekst zoals hij is.
 const blok = blokVoor(`/nl/inzichten/${article.slug}`);

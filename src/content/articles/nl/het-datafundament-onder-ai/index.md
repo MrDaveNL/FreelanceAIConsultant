@@ -1,33 +1,39 @@
-export default {
-  slug: 'het-datafundament-onder-ai',
-  category: 'Tools & data',
-  tone: 'sand',
-  icon: '◫',
-  featured: false,
-  title: 'De rol van het datafundament in succesvolle AI-initiatieven',
-  titleLine1: 'Het datafundament',
-  titleLine2: 'onder je AI-initiatieven',
-  excerpt: '"Eerst de data op orde" is net zo vaak een excuus als een noodzaak. Hoe je bepaalt welke van de twee bij jou speelt.',
-  metaDescription: '"Eerst de data op orde" is net zo vaak een excuus als een noodzaak. Zo bepaal je welke van de twee speelt bij jouw AI-initiatief, en wat je dan doet.',
-  lede: 'Het meest gegeven advies in AI-land is ook het gevaarlijkste: eerst je data op orde brengen. Soms klopt dat. Vaak is het een manier om nog twee jaar niets te doen.',
-  readingTime: '4 min leestijd',
-  date: '2026-10-31',
-  dateLabel: '31 oktober 2026',
-  order: 6,
-  summary: [
-    'Je hebt geen perfect datafundament nodig, je hebt genoeg fundament voor één use case nodig.',
-    'Definities zijn belangrijker dan volume of infrastructuur.',
-    'Bouw het fundament langs een use case, niet ervoor.',
-  ],
-  summaryClose: 'Data op orde brengen zonder toepassing is een project zonder einde.',
-  takeaways: [
-    ['Fundament per use case', 'Vraag niet "is onze data op orde?" maar "is deze data goed genoeg voor dit besluit?".'],
-    ['Definities eerst', 'Vier systemen met drie definities van "klant" is een groter probleem dan een ontbrekend datawarehouse.'],
-    ['Herkomst telt', 'Bij AI moet je kunnen uitleggen waar een getal vandaan komt. Dat is een governancevraag, geen techniekvraag.'],
-  ],
-  remember: 'Een datafundament dat niet door een concrete toepassing wordt getrokken, wordt nooit af.',
-  related: ['build-buy-of-partner', 'ai-governance-zonder-bureaucratie'],
-  body: `
+---
+id: nl-het-datafundament-onder-ai
+lang: nl
+slug: het-datafundament-onder-ai
+category: Tools & data
+tone: sand
+icon: ◫
+featured: false
+title: De rol van het datafundament in succesvolle AI-initiatieven
+titleLine1: Het datafundament
+titleLine2: onder je AI-initiatieven
+excerpt: '"Eerst de data op orde" is net zo vaak een excuus als een noodzaak. Hoe je bepaalt welke van de twee bij jou speelt.'
+metaDescription: '"Eerst de data op orde" is net zo vaak een excuus als een noodzaak. Zo bepaal je welke van de twee speelt bij jouw AI-initiatief, en wat je dan doet.'
+lede: 'Het meest gegeven advies in AI-land is ook het gevaarlijkste: eerst je data op orde brengen. Soms klopt dat. Vaak is het een manier om nog twee jaar niets te doen.'
+readingTime: 4 min leestijd
+date: '2026-10-31'
+dateLabel: 31 oktober 2026
+order: 6
+summary:
+  - Je hebt geen perfect datafundament nodig, je hebt genoeg fundament voor één use case nodig.
+  - Definities zijn belangrijker dan volume of infrastructuur.
+  - Bouw het fundament langs een use case, niet ervoor.
+summaryClose: Data op orde brengen zonder toepassing is een project zonder einde.
+takeaways:
+  - - Fundament per use case
+    - Vraag niet "is onze data op orde?" maar "is deze data goed genoeg voor dit besluit?".
+  - - Definities eerst
+    - Vier systemen met drie definities van "klant" is een groter probleem dan een ontbrekend datawarehouse.
+  - - Herkomst telt
+    - Bij AI moet je kunnen uitleggen waar een getal vandaan komt. Dat is een governancevraag, geen techniekvraag.
+remember: Een datafundament dat niet door een concrete toepassing wordt getrokken, wordt nooit af.
+related:
+  - build-buy-of-partner
+  - ai-governance-zonder-bureaucratie
+---
+
 <h2>Twee waarheden die elkaar tegenspreken</h2>
 <p>De eerste: zonder betrouwbare data levert AI onbetrouwbare uitkomsten. Dat is onomstreden.</p>
 <p>De tweede: organisaties die eerst hun volledige datalandschap op orde willen brengen voordat ze aan AI beginnen, komen zelden aan AI toe. Het datafundament is namelijk nooit af, en er is altijd een volgende laag die eerst zou moeten.</p>
@@ -75,5 +81,3 @@ export default {
 
 <h2>Een test van een halve dag</h2>
 <p>Wil je weten waar je staat? Neem één concreet besluit dat je met AI wilt ondersteunen en probeer het handmatig te reconstrueren voor tien gevallen uit het verleden. Kost dat een middag, dan is je fundament in orde genoeg. Kost dat twee weken en moet je drie afdelingen bellen, dan weet je precies welk deel je eerst moet aanpakken. En het is bijna nooit het deel waar het platformvoorstel over ging.</p>
-`,
-};

@@ -1,32 +1,38 @@
-export default {
-  slug: 'ai-adoptie-begint-bij-het-werk',
-  category: 'Organisatie',
-  tone: 'sand',
-  icon: '◉',
-  featured: false,
-  title: 'AI-adoptie begint bij het werk, niet bij de tool',
-  titleLine1: 'AI-adoptie begint',
-  titleLine2: 'bij het werk',
-  excerpt: 'Iedereen een licentie geven is geen adoptiestrategie. Waarom een leeg invoerveld de grootste drempel is, en wat er wel werkt.',
-  lede: 'Organisaties die AI-tools uitrollen zien doorgaans tien tot vijftien procent wekelijks gebruik. Dat is geen weerstand tegen verandering, maar een ontwerpprobleem.',
-  readingTime: '4 min leestijd',
-  date: '2026-10-29',
-  dateLabel: '29 oktober 2026',
-  order: 10,
-  summary: [
-    'Een leeg invoerveld is geen werkproces.',
-    'Begin met drie tot vijf concrete scenario’s per rol.',
-    'Adoptie groeit via collega’s, niet via trainingen.',
-  ],
-  summaryClose: 'Ontwerp het gebruik, verwacht het niet.',
-  takeaways: [
-    ['Scenario’s boven vrijheid', 'Geef mensen een startpunt voor hun eigen taken, geen open tekstveld.'],
-    ['Meet per rol', 'Eén adoptiepercentage over de hele organisatie verbergt waar het wel en niet werkt.'],
-    ['Erken wat er verdwijnt', 'Voor sommige mensen is de bespaarde taak het leukste deel van hun werk.'],
-  ],
-  remember: 'Mensen gebruiken geen tool omdat hij goed is, maar omdat hij hun eerstvolgende taak makkelijker maakt.',
-  related: ['waarom-ai-pilots-blijven-steken', 'ai-governance-zonder-bureaucratie'],
-  body: `
+---
+id: nl-ai-adoptie-begint-bij-het-werk
+lang: nl
+slug: ai-adoptie-begint-bij-het-werk
+category: Organisatie
+tone: sand
+icon: ◉
+featured: false
+title: AI-adoptie begint bij het werk, niet bij de tool
+titleLine1: AI-adoptie begint
+titleLine2: bij het werk
+excerpt: Iedereen een licentie geven is geen adoptiestrategie. Waarom een leeg invoerveld de grootste drempel is, en wat er wel werkt.
+lede: Organisaties die AI-tools uitrollen zien doorgaans tien tot vijftien procent wekelijks gebruik. Dat is geen weerstand tegen verandering, maar een ontwerpprobleem.
+readingTime: 4 min leestijd
+date: '2026-10-29'
+dateLabel: 29 oktober 2026
+order: 10
+summary:
+  - Een leeg invoerveld is geen werkproces.
+  - Begin met drie tot vijf concrete scenario’s per rol.
+  - Adoptie groeit via collega’s, niet via trainingen.
+summaryClose: Ontwerp het gebruik, verwacht het niet.
+takeaways:
+  - - Scenario’s boven vrijheid
+    - Geef mensen een startpunt voor hun eigen taken, geen open tekstveld.
+  - - Meet per rol
+    - Eén adoptiepercentage over de hele organisatie verbergt waar het wel en niet werkt.
+  - - Erken wat er verdwijnt
+    - Voor sommige mensen is de bespaarde taak het leukste deel van hun werk.
+remember: Mensen gebruiken geen tool omdat hij goed is, maar omdat hij hun eerstvolgende taak makkelijker maakt.
+related:
+  - waarom-ai-pilots-blijven-steken
+  - ai-governance-zonder-bureaucratie
+---
+
 <h2>Het patroon dat zich overal herhaalt</h2>
 <p>De uitrol verloopt volgens het boekje. Licenties voor iedereen, een kick-off, een trainingssessie, een intranetpagina met tips. Na drie maanden: elf procent wekelijks actieve gebruikers. Na zes maanden: veertien procent, voornamelijk dezelfde mensen.</p>
 <p>De conclusie die dan vaak volgt ("onze mensen zijn er nog niet klaar voor") is bijna altijd onjuist. Diezelfde mensen hebben in hun privéleven zonder training nieuwe apps leren gebruiken. Het probleem zit in het ontwerp van de introductie, niet in de bereidheid.</p>
@@ -71,5 +77,3 @@ export default {
   <li><b>Er komen klachten over beperkingen.</b> Klachten betekenen gebruik. Stilte betekent meestal dat men het heeft opgegeven.</li>
   <li><b>Nieuwe medewerkers krijgen het van collega’s uitgelegd, niet van de IT-afdeling.</b> Dan is het onderdeel geworden van hoe het werk hier gaat. En dat is het enige doel dat telt.</li>
 </ul>
-`,
-};

@@ -1,32 +1,38 @@
-export default {
-  slug: 'build-buy-of-partner',
-  category: 'Organisatie',
-  tone: 'aqua',
-  icon: '⇄',
-  featured: false,
-  title: 'Build, buy of partner: wat past bij jouw situatie?',
-  titleLine1: 'Build, buy of partner:',
-  titleLine2: 'wat past bij jouw situatie?',
-  excerpt: 'De vraag is zelden "kunnen we dit zelf bouwen?" maar "willen we dit over drie jaar nog steeds onderhouden?". Een beslisraamwerk in vier vragen.',
-  lede: 'Zelf bouwen, kopen of samen met een partner? De keuze bepaalt je kostenstructuur, je wendbaarheid en je afhankelijkheid voor jaren. Zo maak je hem onderbouwd.',
-  readingTime: '4 min leestijd',
-  date: '2026-11-03',
-  dateLabel: '3 november 2026',
-  order: 3,
-  summary: [
-    'Bouw alleen wat je onderscheidt in de markt.',
-    'Koop alles wat een commodity is, ook als je het zelf kunt.',
-    'Partner waar je wel de uitkomst wilt sturen maar niet de techniek wilt bezitten.',
-  ],
-  summaryClose: 'De onderhoudsvraag is belangrijker dan de bouwvraag.',
-  takeaways: [
-    ['Onderscheidend of niet?', 'Als je concurrent het morgen kan kopen, bouw het dan niet zelf.'],
-    ['Reken met de vijfde jaar', 'Bouwen is goedkoop in jaar één en duur vanaf jaar drie.'],
-    ['Exit hoort in het ontwerp', 'Bij elke keuze: hoe kom je er weer vanaf, en wat kost dat?'],
-  ],
-  remember: 'Je bouwt geen software, je adopteert een onderhoudsverplichting.',
-  related: ['ai-vendorselectie-in-acht-stappen', 'het-datafundament-onder-ai'],
-  body: `
+---
+id: nl-build-buy-of-partner
+lang: nl
+slug: build-buy-of-partner
+category: Organisatie
+tone: aqua
+icon: ⇄
+featured: false
+title: 'Build, buy of partner: wat past bij jouw situatie?'
+titleLine1: 'Build, buy of partner:'
+titleLine2: wat past bij jouw situatie?
+excerpt: De vraag is zelden "kunnen we dit zelf bouwen?" maar "willen we dit over drie jaar nog steeds onderhouden?". Een beslisraamwerk in vier vragen.
+lede: Zelf bouwen, kopen of samen met een partner? De keuze bepaalt je kostenstructuur, je wendbaarheid en je afhankelijkheid voor jaren. Zo maak je hem onderbouwd.
+readingTime: 4 min leestijd
+date: '2026-11-03'
+dateLabel: 3 november 2026
+order: 3
+summary:
+  - Bouw alleen wat je onderscheidt in de markt.
+  - Koop alles wat een commodity is, ook als je het zelf kunt.
+  - Partner waar je wel de uitkomst wilt sturen maar niet de techniek wilt bezitten.
+summaryClose: De onderhoudsvraag is belangrijker dan de bouwvraag.
+takeaways:
+  - - Onderscheidend of niet?
+    - Als je concurrent het morgen kan kopen, bouw het dan niet zelf.
+  - - Reken met de vijfde jaar
+    - Bouwen is goedkoop in jaar één en duur vanaf jaar drie.
+  - - Exit hoort in het ontwerp
+    - 'Bij elke keuze: hoe kom je er weer vanaf, en wat kost dat?'
+remember: Je bouwt geen software, je adopteert een onderhoudsverplichting.
+related:
+  - ai-vendorselectie-in-acht-stappen
+  - het-datafundament-onder-ai
+---
+
 <h2>Waarom deze keuze zwaarder weegt bij AI</h2>
 <p>Bij klassieke software was build-or-buy vooral een kostenvraag. Bij AI komen er drie factoren bij die de afweging structureel anders maken.</p>
 <p>Ten eerste verandert de onderliggende technologie sneller dan je afschrijvingstermijn. Een model dat je vandaag zelf fijnafstemt, kan over achttien maanden worden ingehaald door een generiek model dat het out-of-the-box beter doet en goedkoper is. Ten tweede is het onderhoud fundamenteel anders: modellen verslechteren stilletjes als de werkelijkheid verschuift, en dat vraagt permanente monitoring in plaats van incidenteel patchen. Ten derde zit de waarde vaak niet in het model maar in je data en je werkproces, en die twee koop je sowieso niet.</p>
@@ -75,5 +81,3 @@ export default {
 <p><b>Koop</b> als er drie of meer serieuze leveranciers zijn, de functionaliteit stabiel is, en je voornaamste zorg time-to-value is.</p>
 <p><b>Partner</b> als de techniek volwassen is maar de toepassing gevoelig, en je wel wilt sturen op de uitkomst maar niet op de codebase.</p>
 <p>Twijfel je nog? Dan is kopen bijna altijd de goedkoopste manier om te leren wat je werkelijk nodig hebt. Je kunt later alsnog bouwen, met een scherpere specificatie en zonder dat je een jaar hebt verloren.</p>
-`,
-};

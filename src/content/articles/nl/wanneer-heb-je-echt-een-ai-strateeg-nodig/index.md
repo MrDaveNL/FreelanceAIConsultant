@@ -1,32 +1,38 @@
-export default {
-  slug: 'wanneer-heb-je-echt-een-ai-strateeg-nodig',
-  category: 'Strategie',
-  tone: 'yellow',
-  icon: '◎',
-  featured: false,
-  title: 'Wanneer heb je echt een AI-strateeg nodig?',
-  titleLine1: 'Wanneer heb je echt',
-  titleLine2: 'een AI-strateeg nodig?',
-  excerpt: 'In de helft van de gevallen is het antwoord: niet. Vier situaties waarin externe hulp loont, en vier waarin je het zelf beter kunt.',
-  lede: 'Ik verdien mijn geld met AI-advies, dus lees dit met die wetenschap. Juist daarom staat er eerst in wanneer je me níét nodig hebt.',
-  readingTime: '4 min leestijd',
-  date: '2026-10-28',
-  dateLabel: '28 oktober 2026',
-  order: 12,
-  summary: [
-    'Externe hulp loont bij onomkeerbare besluiten en interne patstellingen.',
-    'Bij afgebakende, technische vragen ben je intern vaak sneller.',
-    'Huur nooit iemand in om een besluit te legitimeren dat al genomen is.',
-  ],
-  summaryClose: 'De beste adviseur maakt zichzelf overbodig.',
-  takeaways: [
-    ['Onomkeerbaarheid telt', 'Hoe moeilijker een besluit terug te draaien is, hoe meer een buitenstaander waard is.'],
-    ['Patstellingen doorbreken', 'Soms is de waarde niet de kennis, maar dat iemand zonder belang de knoop doorhakt.'],
-    ['Geen legitimatie kopen', 'Advies dat een besluit moet bevestigen, is weggegooid geld.'],
-  ],
-  remember: 'Als je de vraag zelf scherp kunt stellen, kun je hem vaak ook zelf beantwoorden.',
-  related: ['freelance-ai-consultant-vs-agency-vs-big4', 'de-business-case-voor-ai'],
-  body: `
+---
+id: nl-wanneer-heb-je-echt-een-ai-strateeg-nodig
+lang: nl
+slug: wanneer-heb-je-echt-een-ai-strateeg-nodig
+category: Strategie
+tone: yellow
+icon: ◎
+featured: false
+title: Wanneer heb je echt een AI-strateeg nodig?
+titleLine1: Wanneer heb je echt
+titleLine2: een AI-strateeg nodig?
+excerpt: 'In de helft van de gevallen is het antwoord: niet. Vier situaties waarin externe hulp loont, en vier waarin je het zelf beter kunt.'
+lede: Ik verdien mijn geld met AI-advies, dus lees dit met die wetenschap. Juist daarom staat er eerst in wanneer je me níét nodig hebt.
+readingTime: 4 min leestijd
+date: '2026-10-28'
+dateLabel: 28 oktober 2026
+order: 12
+summary:
+  - Externe hulp loont bij onomkeerbare besluiten en interne patstellingen.
+  - Bij afgebakende, technische vragen ben je intern vaak sneller.
+  - Huur nooit iemand in om een besluit te legitimeren dat al genomen is.
+summaryClose: De beste adviseur maakt zichzelf overbodig.
+takeaways:
+  - - Onomkeerbaarheid telt
+    - Hoe moeilijker een besluit terug te draaien is, hoe meer een buitenstaander waard is.
+  - - Patstellingen doorbreken
+    - Soms is de waarde niet de kennis, maar dat iemand zonder belang de knoop doorhakt.
+  - - Geen legitimatie kopen
+    - Advies dat een besluit moet bevestigen, is weggegooid geld.
+remember: Als je de vraag zelf scherp kunt stellen, kun je hem vaak ook zelf beantwoorden.
+related:
+  - freelance-ai-consultant-vs-agency-vs-big4
+  - de-business-case-voor-ai
+---
+
 <h2>Eerst: wanneer je het zelf beter kunt</h2>
 <p>Er zijn vier situaties waarin externe hulp weinig toevoegt, en waarin ik zelf doorverwijs of afhaak.</p>
 
@@ -71,5 +77,3 @@ export default {
 <h2>De omvang die meestal klopt</h2>
 <p>Voor de meeste organisaties geldt: een afgebakende opdracht van twee tot zes weken, of een deeltijdrol van een paar dagen per maand. Trajecten die langer duren zonder tussentijdse beslismomenten, zijn zelden in het belang van de opdrachtgever.</p>
 <p>En als je twijfelt of je het nodig hebt: probeer de vraag eerst zelf op één pagina te formuleren, met de opties en de criteria. Lukt dat, dan is de kans groot dat je hem zelf kunt beantwoorden. Lukt het niet, dan weet je precies waar een gesprek over zou moeten gaan. En dat is een goed begin, of je nu iemand inhuurt of niet.</p>
-`,
-};
