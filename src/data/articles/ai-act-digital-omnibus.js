@@ -12,8 +12,8 @@ export default {
   metaDescription: 'De Digital Omnibus stelt de hoog-risico verplichtingen van de AI Act uit. Wat schuift op, wat blijft gewoon gelden en wat je als organisatie nu doet.',
   lede: 'De Digital Omnibus stelt de zwaarste verplichtingen van de AI Act uit naar 2027 en 2028. Dat voelt als uitstel, maar is selectief: verboden praktijken, AI-geletterdheid en transparantie blijven gewoon gelden. Wie daarom nu stopt met voorbereiden, maakt een planningsfout.',
   readingTime: '5 min leestijd',
-  date: '2026-11-17',
-  dateLabel: '17 november 2026',
+  date: '2026-11-22',
+  dateLabel: '22 november 2026',
   summary: [
     'De Digital Omnibus stelt alleen de hoog-risicoregels uit, niet de hele AI Act.',
     'Verboden praktijken, AI-geletterdheid en transparantie gelden al sinds 2025 en 2026.',

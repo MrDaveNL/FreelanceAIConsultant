@@ -105,7 +105,7 @@
   "bodytekst": {
     "regio": "main",
     "woorden": 1952,
-    "sha256": "f1ea32e0a15944c339a2ee6a37e06263c608a0f46e39e79c8c64bb4d46e7bcf7",
+    "sha256": "1a07bae8901632e18edf90bc9b0b7adb3e4810741a378b4f164a96bafa70cdfa",
     "blokken": [
       "Home",
       "Inzichten",
@@ -114,7 +114,7 @@
       "Governance",
       "AI Act na de Digital Omnibus: wat schuift op, wat blijft gelden",
       "De Digital Omnibus stelt de zwaarste verplichtingen van de AI Act uit naar 2027 en 2028. Dat voelt als uitstel, maar is selectief: verboden praktijken, AI-geletterdheid en transparantie blijven gewoon gelden. Wie daarom nu stopt met voorbereiden, maakt een planningsfout.",
-      "◷ 5 min leestijd 17 november 2026",
+      "◷ 5 min leestijd 22 november 2026",
       "DW",
       "Door Dave Willemstein Independent AI Advisor, onafhankelijk, geen leveranciersbelangen",
       "Ik help organisaties AI-beslissingen nemen die waarde creëren. Geen dikke decks, wel duidelijke keuzes en tastbare resultaten.",
@@ -621,7 +621,7 @@
     }
   ],
   "structured_data": {
-    "sha256": "87834033612f69f69374bc997aa8d7dd1839095efb858780ed7d40d5290c22b0",
+    "sha256": "e9d7e1f22d42d4b5362bd964b3c027fbdc7bb2de12721b0d761d316d9d65138f",
     "items": [
       {
         "@context": "https://schema.org",
@@ -663,8 +663,8 @@
             "@type": "BlogPosting",
             "headline": "AI Act na de Digital Omnibus: wat schuift op en wat blijft gelden",
             "description": "De Digital Omnibus stelt de hoog-risico verplichtingen van de AI Act uit. Wat schuift op, wat blijft gewoon gelden en wat je als organisatie nu doet.",
-            "datePublished": "2026-11-17",
-            "dateModified": "2026-11-17",
+            "datePublished": "2026-11-22",
+            "dateModified": "2026-11-22",
             "inLanguage": "nl-NL",
             "articleSection": "Governance",
             "author": {
@@ -786,5 +786,5 @@
     "aantal_details": 5,
     "aantal_tabellen": 0
   },
-  "gemeten_op": "2026-11-11"
+  "gemeten_op": "2026-11-22"
 }
