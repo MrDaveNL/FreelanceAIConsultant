@@ -1,8 +1,9 @@
 # Migratieplan: inzichten naar markdown per artikel per taal (optie 3)
 
-Status: uitgevoerd op branch `feat/inzichten-cms-migratie` (niet gemerged naar `main`). Wacht op
-Dave's review en akkoord vóór de merge. Zie het eindrapport van die branch voor de volledige
-bewijsvoering (dist-diff vóór/na, `npm run build`/`test`/`check`, RAG-telling vóór/na).
+Status: uitgevoerd en gemerged naar `main` op 22 november 2026, na Dave's akkoord. Dist-diff
+vóór/na was byte-identiek op twee verwachte verschillen na (RSS-lastBuildDate, sitemap-lastmod
+van de twee hub-pagina's — zie `planning/TODO-fix-sitemap-automatisch.md` voor de opvolgtaak);
+`npm run build`/`test`/`check` groen, RAG-telling ongewijzigd op 129 blokken/0 fouten.
 
 ## Waarom dit nodig is voor een CMS op de inzichten
 
