@@ -20,12 +20,14 @@ the VPS checkout only ever tracks `main`, and `deploy.sh` always pulls `main`.
    curl -fsSL https://deb.nodesource.com/setup_lts.x | sudo -E bash -
    sudo apt-get install -y nodejs
    ```
-2. **Directory layout and clone:**
+2. **Directory layout and clone.** `/var/www/freelanceaiconsultant` is itself the git checkout,
+   there is no `repo/` subfolder:
    ```
-   sudo mkdir -p /var/www/freelanceaiconsultant/releases
+   sudo mkdir -p /var/www/freelanceaiconsultant
    sudo chown -R "$USER" /var/www/freelanceaiconsultant
-   git clone -b main <remote-url> /var/www/freelanceaiconsultant/repo
-   cd /var/www/freelanceaiconsultant/repo
+   git clone -b main <remote-url> /var/www/freelanceaiconsultant
+   cd /var/www/freelanceaiconsultant
+   mkdir -p releases
    ```
 3. **Install dependencies**, including Playwright's browser (the check suite's overflow test drives a
    real headless Chromium):
@@ -39,7 +41,7 @@ the VPS checkout only ever tracks `main`, and `deploy.sh` always pulls `main`.
 5. **nginx.** Install nginx, add the config, enable it:
    ```
    sudo apt-get install -y nginx
-   sudo cp /var/www/freelanceaiconsultant/repo/deploy/nginx-freelanceaiconsultant.conf \
+   sudo cp /var/www/freelanceaiconsultant/deploy/nginx-freelanceaiconsultant.conf \
        /etc/nginx/sites-available/freelanceaiconsultant.com
    sudo ln -s /etc/nginx/sites-available/freelanceaiconsultant.com /etc/nginx/sites-enabled/
    sudo rm -f /etc/nginx/sites-enabled/default
@@ -58,13 +60,13 @@ the VPS checkout only ever tracks `main`, and `deploy.sh` always pulls `main`.
 
 ## Update flow
 
-Save this as `/var/www/freelanceaiconsultant/repo/deploy.sh` (`chmod +x`) and run it for every deploy:
+Save this as `/var/www/freelanceaiconsultant/deploy.sh` (`chmod +x`) and run it for every deploy:
 
 ```bash
 #!/usr/bin/env bash
 set -euo pipefail
 
-cd /var/www/freelanceaiconsultant/repo
+cd /var/www/freelanceaiconsultant
 git checkout main
 git pull origin main
 npm ci

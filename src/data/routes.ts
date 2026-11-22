@@ -4,7 +4,12 @@
 // 'live' zegt of die taalversie nu echt gebouwd wordt. Fase 1: alleen nl is live,
 // behalve /404 (infrastructuur, geen content, dus in elke taal al aanwezig).
 
+import { readdirSync, readFileSync, existsSync } from 'node:fs';
+import { join } from 'node:path';
 import type { Locale } from '../i18n/locales';
+import { assertKennisbankUrl, assertUniqueKennisbankIds } from '../../scripts/kennisbank-routes.mjs';
+import { isValidHref as _isValidHref } from '../../scripts/href-validation.mjs';
+import { site } from './site.js';
 export type { Locale };
 
 export type RouteKind = 'static' | 'content' | 'service' | 'case' | 'article';
@@ -38,6 +43,84 @@ const r = (
   noindex: opts.noindex,
   noEn: opts.noEn,
 });
+
+// Leest de 'id', 'url' en 'noindex' uit de front matter van een kennisbank-bestand, zonder een
+// YAML-parser: het zijn altijd losse scalaire regels (geen lijsten/objecten), dus een regex per
+// veld is genoeg en voorkomt een extra productie-afhankelijkheid voor dit ene doel.
+function frontmatterField(raw: string, key: string): string | undefined {
+  const match = raw.match(new RegExp(`^${key}:\\s*(.*)$`, 'm'));
+  if (!match) return undefined;
+  return match[1].trim().replace(/^["']|["']$/g, '');
+}
+
+interface KennisbankPage {
+  id: string;
+  url: string;
+  noindex: boolean;
+  lang: Locale;
+  file: string;
+}
+
+// Relatief t.o.v. de huidige working directory (zoals 'src/content/pages' elders in dit project,
+// bijv. src/lib/sitemap.ts en scripts/generate-content-collections.mjs): Astro's build en dev
+// server draaien altijd vanuit de projectroot. 'import.meta.url' is hier geen optie: na bundelen
+// door Vite wijst dat naar de locatie van het gebundelde bestand in dist/, niet naar src/.
+const PAGES_ROOT = 'src/content/pages';
+
+function kennisbankPages(lang: Locale): KennisbankPage[] {
+  const dir = join(PAGES_ROOT, lang, 'kennisbank');
+  if (!existsSync(dir)) return [];
+  const out: KennisbankPage[] = [];
+  // 'segments' is het pad van submappen tussen de taal-kennisbankmap en index.md, bijv.
+  // ['ai-voorbeelden']. Leeg voor de hub-pagina (index.md direct in kennisbank/).
+  const walk = (current: string, segments: string[]) => {
+    for (const entry of readdirSync(current, { withFileTypes: true })) {
+      const full = join(current, entry.name);
+      if (entry.isDirectory()) walk(full, [...segments, entry.name]);
+      else if (entry.name === 'index.md') {
+        const raw = readFileSync(full, 'utf8');
+        const id = frontmatterField(raw, 'id');
+        const url = frontmatterField(raw, 'url');
+        if (!id || !url) throw new Error(`Kennisbankpagina zonder geldige 'id' of 'url' in front matter: ${full}`);
+        const folderName = segments.join('/');
+        // Voorkomt dat een url wordt opgeslagen die niet bij de map past (bijv. map
+        // 'ai-specialisten' met url '/nl/kennisbank/test'): laat de build hard falen.
+        assertKennisbankUrl({ lang, folderName, url, id, file: full });
+        out.push({ id, url, noindex: frontmatterField(raw, 'noindex') === 'true', lang, file: full });
+      }
+    }
+  };
+  walk(dir, []);
+  // Voorkomt een dubbel id binnen dezelfde taal (hetzelfde id in NL én EN is juist bedoeld:
+  // zo worden de taalversies van een pagina gekoppeld, zie buildKennisbankRoutes()).
+  assertUniqueKennisbankIds(out);
+  return out;
+}
+
+// Vervangt de vroegere handmatige routes.ts-regels voor de kennisbank: de CMS-collecties
+// kennisbank_en/kennisbank_nl staan sinds fase 3 open voor create/delete, dus een nieuwe of
+// verwijderde pagina mag nooit wachten op een los bij te werken regel hier. 'id' koppelt de
+// EN- en NL-versie (net als bij de handmatige routes), 'live' volgt simpelweg uit welke
+// taalversie van dat id daadwerkelijk bestaat als bestand.
+//
+// Bekende beperking: 'noindex' is, net als bij de handmatige routes, één vlag per id, niet per
+// taal. Heeft maar één taalversie noindex: true, dan geldt dat hier voor de hele route-entry
+// (dus ook voor de andere, wel-indexeerbare taalversie). Komt in de praktijk nu niet voor.
+function buildKennisbankRoutes(): RouteEntry[] {
+  const byId = new Map<string, { nl?: KennisbankPage; en?: KennisbankPage }>();
+  for (const page of kennisbankPages('nl')) byId.set(page.id, { ...byId.get(page.id), nl: page });
+  for (const page of kennisbankPages('en')) byId.set(page.id, { ...byId.get(page.id), en: page });
+  return Array.from(byId.entries()).map(([id, { nl, en }]) => ({
+    id,
+    kind: 'content' as RouteKind,
+    cluster: 'kennisbank',
+    // Een taal zonder bestand krijgt een leeg pad: 'live' voor die taal is dan altijd false, en
+    // routeByPath()/sitemapRoutes() lezen 'paths[loc]' nooit wanneer 'live[loc]' false is.
+    paths: { nl: nl?.url ?? '', en: en?.url ?? '' },
+    live: { nl: Boolean(nl), en: Boolean(en) },
+    noindex: Boolean(nl?.noindex || en?.noindex),
+  }));
+}
 
 export const routes: RouteEntry[] = [
   // Statische kernpagina's
@@ -129,22 +212,9 @@ export const routes: RouteEntry[] = [
   r('C9-03', 'content', '/ai-workshop/chatgpt-training', '/ai-workshop/chatgpt-training', { cluster: 'ai-workshop', liveEn: true }),
   r('C9-02', 'content', '/ai-workshop/copilot-training', '/ai-workshop/copilot-training', { cluster: 'ai-workshop', liveEn: true }),
 
-  r('P08', 'content', '/kennisbank', '/knowledge-base', { cluster: 'kennisbank', liveEn: true }),
-  r('C6-05', 'content', '/kennisbank/ai-agents-en-avg', '/knowledge-base/ai-agents-and-gdpr', { cluster: 'kennisbank', liveEn: true }),
-  // Geen EN-tegenhanger: NL-arbeidsmarktdata (salaris), zou misleidend zijn zonder eigen EN-cijfers.
-  r('C5-05', 'content', '/kennisbank/ai-specialist-salaris', '/knowledge-base/ai-specialist-salary', { cluster: 'kennisbank', noEn: true }),
-  r('C3-06', 'content', '/kennisbank/ai-voorbeelden', '/knowledge-base/ai-examples', { cluster: 'kennisbank', liveEn: true }),
-  r('C10-01', 'content', '/kennisbank/chatgpt-voor-bedrijven', '/knowledge-base/chatgpt-for-business', { cluster: 'kennisbank', liveEn: true }),
-  r('C10-02', 'content', '/kennisbank/claude-voor-bedrijven', '/knowledge-base/claude-for-business', { cluster: 'kennisbank', liveEn: true }),
-  r('C10-03', 'content', '/kennisbank/gemini-voor-bedrijven', '/knowledge-base/gemini-for-business', { cluster: 'kennisbank', liveEn: true }),
-  r('C10-04', 'content', '/kennisbank/microsoft-copilot-voor-bedrijven', '/knowledge-base/microsoft-copilot-for-business', { cluster: 'kennisbank', liveEn: true }),
-  // Geen EN-tegenhanger gepland voor deze batch.
-  r('C3-07', 'content', '/kennisbank/notuleren-met-ai', '/knowledge-base/ai-meeting-notes', { cluster: 'kennisbank', noEn: true }),
-  r('C10-05', 'content', '/kennisbank/prompt-engineering', '/knowledge-base/prompt-engineering', { cluster: 'kennisbank', liveEn: true }),
-  r('C3-08', 'content', '/kennisbank/rpa-vs-ai-automatisering', '/knowledge-base/rpa-vs-ai-automation', { cluster: 'kennisbank', liveEn: true }),
-  r('C1-07', 'content', '/kennisbank/wat-doet-een-ai-consultant', '/knowledge-base/what-does-an-ai-consultant-do', { cluster: 'kennisbank', liveEn: true }),
-  r('C5-04', 'content', '/kennisbank/wat-doet-een-ai-developer', '/knowledge-base/what-does-an-ai-developer-do', { cluster: 'kennisbank', liveEn: true }),
-  r('C4-05', 'content', '/kennisbank/wat-doet-een-bi-specialist', '/knowledge-base/what-does-a-bi-specialist-do', { cluster: 'kennisbank', liveEn: true }),
+  // De kennisbank staat hier NIET als handmatige lijst: zie buildKennisbankRoutes() onderaan dit
+  // bestand. Sinds CMS-fase 3 staan create/delete aan voor de kennisbank-collecties, dus een
+  // nieuwe of verwijderde kennisbankpagina mag nooit op een vergeten routes.ts-regel wachten.
 
   r('C7-00', 'content', '/markten', '/markets', { cluster: 'markten', liveEn: true }),
   r('C7-04', 'content', '/markten/automotive', '/markets/automotive', { cluster: 'markten', liveEn: true }),
@@ -157,7 +227,18 @@ export const routes: RouteEntry[] = [
 
   r('P06', 'content', '/partnernetwerk', '/partner-network', { cluster: 'partnernetwerk', liveEn: true }),
   r('P04', 'content', '/tarieven', '/pricing', { cluster: 'tarieven', liveEn: true }),
+
+  ...buildKennisbankRoutes(),
 ];
+
+// Voor content.config.ts: een CTA-href (primaryCta/secondaryCta) moet een bestaande, live route
+// zijn (in elke taal) of een volledige https-URL. Voorkomt een getypte tikfout in Sveltia of
+// Claude Code die anders stil een dode link zou opleveren. 'mailto:<site-email>' blijft een
+// uitzondering voor oudere EN-kennisbankpagina's die dit schreven vóórdat /contact in het
+// Engels live was (zie resolveContactHref in service-tokens.js).
+export function isValidHref(href: string): boolean {
+  return _isValidHref(href, routes, site.email);
+}
 
 export function routeById(id: string): RouteEntry | undefined {
   return routes.find((entry) => entry.id === id);
@@ -188,6 +269,11 @@ export function localeFromPath(path: string): Locale {
 // Mapping van het OUDE, ongeprefixte NL-pad (zoals het er vóór de i18n-migratie
 // uitzag) naar het NIEUWE /nl-pad. Gebruikt om interne links in bestaande NL-content
 // en RAG-blokken te herschrijven: alleen de href verandert, nooit de ankertekst.
+// 'paths.nl' is alleen leeg voor een kennisbankpagina die (nog) geen NL-bestand heeft; zo'n
+// entry heeft geen oud pad om te herschrijven en moet hier overgeslagen worden, anders zou de
+// lege string de homepage-mapping ('/' -> '/nl') overschrijven met een lege target.
 export const legacyNlPathToNewNlPath: Record<string, string> = Object.fromEntries(
-  routes.map((entry) => [entry.paths.nl.replace(/^\/nl/, '') || '/', entry.paths.nl])
+  routes
+    .filter((entry) => entry.paths.nl)
+    .map((entry) => [entry.paths.nl.replace(/^\/nl/, '') || '/', entry.paths.nl])
 );

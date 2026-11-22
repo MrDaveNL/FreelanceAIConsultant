@@ -1,9 +1,15 @@
 import { defineCollection, z } from 'astro:content';
 import { glob, file } from 'astro/loaders';
+import { isValidHref } from './data/routes';
 
 // Nieuwe content uit de contentplanning (planning/Content_planning_tabblad1_ClaudeCode.xlsx).
 // Eén Markdown-bestand per ID; de URL staat expliciet in de frontmatter.
-const cta = z.object({ label: z.string(), href: z.string() });
+const cta = z.object({
+  label: z.string(),
+  href: z.string().refine(isValidHref, (href) => ({
+    message: `Href '${href}' is geen bestaande, live route (in geen van beide talen) en geen volledige https-URL.`,
+  })),
+});
 
 // 'lang' bepaalt de taalboom (src/content/pages/nl/** of src/content/pages/en/**).
 // NL-content is ongewijzigd verplaatst; zie i18n-fase1-rapport.md voor de migratie.
