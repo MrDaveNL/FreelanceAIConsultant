@@ -1,9 +1,20 @@
+import { existsSync, readFileSync, readdirSync } from 'node:fs';
+import path from 'node:path';
+import { fileURLToPath } from 'node:url';
 import { defineCollection, z } from 'astro:content';
 import { glob, file } from 'astro/loaders';
+import type { Loader } from 'astro/loaders';
+import yaml from 'js-yaml';
+import { isValidHref } from './data/routes';
 
 // Nieuwe content uit de contentplanning (planning/Content_planning_tabblad1_ClaudeCode.xlsx).
 // Eén Markdown-bestand per ID; de URL staat expliciet in de frontmatter.
-const cta = z.object({ label: z.string(), href: z.string() });
+const cta = z.object({
+  label: z.string(),
+  href: z.string().refine(isValidHref, (href) => ({
+    message: `Href '${href}' is geen bestaande, live route (in geen van beide talen) en geen volledige https-URL.`,
+  })),
+});
 
 // 'lang' bepaalt de taalboom (src/content/pages/nl/** of src/content/pages/en/**).
 // NL-content is ongewijzigd verplaatst; zie i18n-fase1-rapport.md voor de migratie.
@@ -118,12 +129,67 @@ const cases = defineCollection({
   }),
 });
 
+// Eigen loader (geen glob()+render()): leest elk artikel-markdownbestand als ruwe tekst en
+// splitst front matter/body met een regex op de '---'-grenzen + js-yaml, zoals
+// scripts/check-content.mjs dat al doet voor src/content/pages. Bewust NIET Astro's
+// markdown-compiler (geen remarkPlugins hierboven, geen entry.render()): 'body' blijft zo de
+// kant-en-klare HTML-string die het al was in de oude all.json, en loopt dus niet alsnog door
+// remarkServiceTokens of de RAG-remark-plugin van de kennisbank (astro.config.mjs), die beide
+// alleen draaien op content die wél via Astro's markdown-compiler gaat (de 'pages'-collectie
+// hierboven). Zie planning/migratieplan-inzichten-cms.md.
+function articlesLoader(): Loader {
+  return {
+    name: 'articles-loader',
+    load: async ({ store, parseData, config, logger }) => {
+      store.clear();
+      const base = fileURLToPath(new URL('src/content/articles', config.root));
+      const rootDir = fileURLToPath(config.root);
+      for (const lang of ['en', 'nl']) {
+        const langDir = path.join(base, lang);
+        if (!existsSync(langDir)) continue;
+        // Alfabetisch op mapnaam (slug) voor een voorspelbare, reproduceerbare inleesvolgorde.
+        // De sorteervolgorde die de hub-pagina's en RSS-feeds tonen, hangt hier niet van af: die
+        // staat volledig vast via 'date' (en 'order' als tiebreak, voor beide talen expliciet in
+        // de front matter), niet via de volgorde waarin deze loader bestanden inleest.
+        const slugs = readdirSync(langDir, { withFileTypes: true })
+          .filter((d) => d.isDirectory())
+          .map((d) => d.name)
+          .sort();
+        for (const slug of slugs) {
+          const filePath = path.join(langDir, slug, 'index.md');
+          if (!existsSync(filePath)) continue;
+          const raw = readFileSync(filePath, 'utf8');
+          const m = raw.match(/^---\r?\n([\s\S]*?)\r?\n---\r?\n([\s\S]*)$/);
+          if (!m) {
+            logger.error(`Geen front matter gevonden in ${filePath}`);
+            continue;
+          }
+          const frontmatter = yaml.load(m[1]) as Record<string, unknown>;
+          const body = m[2];
+          const rawItem = { ...frontmatter, body };
+          const id = String((frontmatter.id as string | undefined) ?? `${lang}-${slug}`);
+          const relativeFilePath = path.relative(rootDir, filePath).split(path.sep).join('/');
+          const parsedData = await parseData({ id, data: rawItem, filePath });
+          store.set({ id, data: parsedData, filePath: relativeFilePath });
+        }
+      }
+    },
+  };
+}
+
 const articles = defineCollection({
-  loader: file('src/content/articles/all.json'),
+  loader: articlesLoader(),
   schema: z.object({
     id: z.string(),
     lang: locale,
     slug: z.string(),
+    // Slug van de vertaling van dit artikel in de ANDERE taal, indien die bestaat (leeg = nog
+    // geen vertaling). Enige koppeling tussen de NL- en EN-versie: src/data/routes.ts leidt de
+    // sitemap/hreflang/taalwisselaar-route van elk artikel hieruit af (buildArticleRoutes()), in
+    // plaats van uit een handmatige lijst. Bewust een los veld van 'id' (dat hier altijd
+    // '<lang>-<eigen-slug>' is, de opslagsleutel van articlesLoader() hierboven): 'id' kan dus
+    // nooit de gedeelde sleutel zijn zonder de twee taalversies in de store te laten botsen.
+    counterpart: z.string().optional(),
     category: z.string(),
     tone: z.string(),
     icon: z.string(),

@@ -2,7 +2,7 @@
   "url": "/inzichten",
   "build_bestand": "dist/inzichten/index.html",
   "html": {
-    "bytes": 43822,
+    "bytes": 43839,
     "lang": "nl"
   },
   "beschermd": {
@@ -62,7 +62,7 @@
     },
     {
       "niveau": 3,
-      "tekst": "AI in klantenservice: wat werkt wel en wat niet",
+      "tekst": "AI Act na de Digital Omnibus: wat schuift op en wat blijft gelden",
       "regio": "main",
       "id": null
     },
@@ -153,8 +153,8 @@
   ],
   "bodytekst": {
     "regio": "main",
-    "woorden": 823,
-    "sha256": "040d9c64f939f51abe27fb92e68869836ce3590fafa7a583341a54968a46de67",
+    "woorden": 825,
+    "sha256": "87395cf5f5596cccb6b88c2fb5c52c7613616310be2c4cb8d2c804a90512d769",
     "blokken": [
       "AI-advies dat je helpt beslissen",
       "Praktische inzichten voor betere AI-beslissingen.",
@@ -227,19 +227,19 @@
       "◷ 4 min leestijd 1 november 2026",
       "Lees artikel →",
       "Alle inzichten",
-      "Use cases",
       "Governance",
+      "Use cases",
       "Strategie",
       "Organisatie",
       "Tools & data",
       "Geen resultaten in deze categorie.",
       "Alle artikelen",
       "14 artikelen · RSS",
-      "☎",
-      "Use cases",
-      "AI in klantenservice: wat werkt wel en wat niet",
-      "De chatbot is zelden de grootste winst. Begin bij e-mailtriage en het ondersteunen van medewerkers, en laat een chatbot pas los als je kennisbron op orde is.",
-      "◷ 4 min leestijd Lees artikel →",
+      "⚖",
+      "Governance",
+      "AI Act na de Digital Omnibus: wat schuift op en wat blijft gelden",
+      "De Digital Omnibus stelt de hoog-risico verplichtingen van de AI Act uit. Wat schuift op, wat blijft gewoon gelden en wat je als organisatie nu doet.",
+      "◷ 5 min leestijd Lees artikel →",
       "◐",
       "Governance",
       "Shadow AI: medewerkers gebruiken AI toch al, wat nu?",
@@ -408,8 +408,8 @@
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/nl/inzichten/ai-klantenservice",
-      "anker": "☎ Use cases AI in klantenservice: wat werkt wel en wat niet De chatbot is zelden de grootste winst. Begin bij e-mailtriage en het ondersteunen van medewerkers, en laat een chatbot pas los als je kennisbron op orde is. ◷ 4 min leestijd Lees artikel →",
+      "href": "/nl/inzichten/ai-act-digital-omnibus",
+      "anker": "⚖ Governance AI Act na de Digital Omnibus: wat schuift op en wat blijft gelden De Digital Omnibus stelt de hoog-risico verplichtingen van de AI Act uit. Wat schuift op, wat blijft gewoon gelden en wat je als organisatie nu doet. ◷ 5 min leestijd Lees artikel →",
       "rel": null
     },
     {
@@ -793,5 +793,5 @@
     "aantal_details": 0,
     "aantal_tabellen": 0
   },
-  "gemeten_op": "2026-11-11"
+  "gemeten_op": "2026-11-22"
 }

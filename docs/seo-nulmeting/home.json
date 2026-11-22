@@ -2,7 +2,7 @@
   "url": "/",
   "build_bestand": "dist/index.html",
   "html": {
-    "bytes": 49588,
+    "bytes": 49605,
     "lang": "nl"
   },
   "beschermd": {
@@ -152,7 +152,7 @@
     },
     {
       "niveau": 3,
-      "tekst": "AI in klantenservice: wat werkt wel en wat niet",
+      "tekst": "AI Act na de Digital Omnibus: wat schuift op en wat blijft gelden",
       "regio": "main",
       "id": null
     },
@@ -183,8 +183,8 @@
   ],
   "bodytekst": {
     "regio": "main",
-    "woorden": 776,
-    "sha256": "9ebdfe76399bfeb8066c83f5ac1260a688bae72badb32a8bf92d44d5845fc362",
+    "woorden": 778,
+    "sha256": "ecb4f74a09d3feb1df6833c7683a87c711a67366af9e137c29a0905b6f6e7e74",
     "blokken": [
       "AI-advies dat je helpt beslissen",
       "Maak de AI-beslissingen die je aan je board moet uitleggen.",
@@ -335,11 +335,11 @@
       "Inzichten",
       "Lezen voordat je beslist.",
       "Alle inzichten →",
-      "☎",
-      "Use cases",
-      "AI in klantenservice: wat werkt wel en wat niet",
-      "De chatbot is zelden de grootste winst. Begin bij e-mailtriage en het ondersteunen van medewerkers, en laat een chatbot pas los als je kennisbron op orde is.",
-      "◷ 4 min leestijd Lees artikel →",
+      "⚖",
+      "Governance",
+      "AI Act na de Digital Omnibus: wat schuift op en wat blijft gelden",
+      "De Digital Omnibus stelt de hoog-risico verplichtingen van de AI Act uit. Wat schuift op, wat blijft gewoon gelden en wat je als organisatie nu doet.",
+      "◷ 5 min leestijd Lees artikel →",
       "◐",
       "Governance",
       "Shadow AI: medewerkers gebruiken AI toch al, wat nu?",
@@ -526,8 +526,8 @@
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/nl/inzichten/ai-klantenservice",
-      "anker": "☎ Use cases AI in klantenservice: wat werkt wel en wat niet De chatbot is zelden de grootste winst. Begin bij e-mailtriage en het ondersteunen van medewerkers, en laat een chatbot pas los als je kennisbron op orde is. ◷ 4 min leestijd Lees artikel →",
+      "href": "/nl/inzichten/ai-act-digital-omnibus",
+      "anker": "⚖ Governance AI Act na de Digital Omnibus: wat schuift op en wat blijft gelden De Digital Omnibus stelt de hoog-risico verplichtingen van de AI Act uit. Wat schuift op, wat blijft gewoon gelden en wat je als organisatie nu doet. ◷ 5 min leestijd Lees artikel →",
       "rel": null
     },
     {
@@ -831,5 +831,5 @@
     "aantal_details": 0,
     "aantal_tabellen": 0
   },
-  "gemeten_op": "2026-11-11"
+  "gemeten_op": "2026-11-22"
 }

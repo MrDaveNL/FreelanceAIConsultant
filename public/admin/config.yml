@@ -1,0 +1,1187 @@
+# Sveltia CMS configuratie voor freelanceaiconsultant.com.
+#
+# Scope: markdown-content onder src/content/pages/{en,nl} én, sinds de CMS-migratie van de
+# inzichten (planning/migratieplan-inzichten-cms.md), onder src/content/articles/{en,nl}. Geen
+# dienstenpagina's, cases, RAG-blokken, data-bestanden, routes, componenten, layouts of
+# schema/JSON-LD. Zie docs/cms.md voor de redenen; voor home/over/werkwijze (geen markdown, maar
+# hardcoded .astro-pagina's + src/data/*.js) zie docs/cms.md en
+# planning/migratieplan-kernpaginas-cms.md.
+#
+# LET OP bij de inzichten-collecties (inzichten_en/inzichten_nl, helemaal onderin dit bestand):
+# zolang de CMS-migratie en de lopende blogreeks (NL+EN-parity, BLOG-01 t/m 12) niet allebei zijn
+# afgerond, gaan inhoudelijke wijzigingen aan bestaande of nieuwe artikelen via de dinsdagroutine
+# (planning/werkafspraak-publicatiedagen.md), NIET via dit scherm. Zie docs/cms.md.
+#
+# Geen Sveltia-i18n (geen top-level "i18n:"-blok): EN en NL zijn losse collecties per taal. De
+# "id"-waarde in de front matter koppelt een EN- en NL-pagina inhoudelijk, maar is voor het CMS
+# puur informatief, Sveltia schrijft er niets in terug. Reden: de url/mapnaam per taal is niet
+# hetzelfde (bijv. "ai-examples" vs "ai-voorbeelden"), terwijl Sveltia's i18n-structuren
+# (multiple_files/multiple_folders) een identieke slug per taal verwachten.
+#
+# Twee soorten collecties:
+# - kennisbank_en/kennisbank_nl: create en delete staan AAN. Een nieuwe of verwijderde pagina
+#   werkt zonder handwerk in routes.ts: src/data/routes.ts leidt de kennisbank-routes (sitemap,
+#   hreflang, taalwisselaar) automatisch af uit de front matter van deze bestanden, en de build
+#   faalt met een duidelijke melding (src/pages/[...slug].astro) als een contentpagina toch geen
+#   'live' route heeft. 'identifier_field: navLabel' zorgt dat de mapnaam van een nieuwe pagina
+#   op het korte navigatielabel wordt gebaseerd, niet op de lange titel.
+#   Het 'url'-veld is hier BEWUST verborgen (widget: hidden): de gebruiker typt het nooit meer
+#   zelf, cms-publish.ps1 leidt de echte url na de merge automatisch af uit de mapnaam (zie
+#   scripts/fix-kennisbank-urls.mjs). Daarnaast zijn 'parent' en de CTA-href's hier een 'select'
+#   in plaats van vrije tekst, zodat een nieuwe kennisbankpagina niet kan verwijzen naar een
+#   niet-bestaand id of pad. src/data/routes.ts / content.config.ts blijven deze waarden ook bij
+#   het bouwen controleren (vangnet voor handmatig aangemaakte bestanden, buiten dit CMS om).
+# - overige_pagina_en/overige_pagina_nl: alle andere markdown-pagina's onder src/content/pages
+#   (de 12 clusters, elk een hoofdpagina + eventuele subpagina's), als "files"-collecties: een
+#   vaste lijst van bestaande bestanden, zodat er hier GEEN create/delete-knop kan verschijnen.
+#   Nieuwe pagina's in deze clusters (nieuw id, interne links, RAG-afstemming) blijven via
+#   Claude Code lopen, met de volledige verificatie. 'url' en 'parent' blijven hier vrije tekst
+#   (geen create, dus minder risico op een nieuw, verkeerd pad); de CTA-href krijgt wel dezelfde
+#   'select' als de kennisbank, voor hetzelfde gemak en om typefouten te voorkomen.
+#
+# De twee varianten delen zoveel mogelijk velden, maar YAML kent geen manier om een deel van een
+# anchor-lijst te overschrijven (het merge-sleutel '<<' werkt alleen voor mappings, niet voor
+# lijsten). Daarom staan 'kennisbankFields{En,Nl}' en 'overigeFields{En,Nl}' hieronder voluit,
+# elk met hun eigen 'url'/'parent'/CTA-href-veld, in lijn met hoe dit bestand EN/NL al dubbel
+# uitschrijft (zie hierboven).
+
+backend:
+  name: github
+  repo: MrDaveNL/FreelanceAIConsultant
+  branch: cms
+
+# Niet gebruikt: geen afbeelding staat in content-bestanden (zie fase 1, punt 7). Verplicht veld
+# voor Sveltia, vandaar een map die in de praktijk leeg blijft.
+media_folder: "public/admin/uploads"
+public_folder: "/admin/uploads"
+
+collections:
+  - name: kennisbank_en
+    label: "Knowledge base (EN)"
+    folder: src/content/pages/en/kennisbank
+    path: "{{slug}}/index"
+    identifier_field: navLabel
+    format: frontmatter
+    extension: md
+    create: true
+    delete: true
+    fields: &kennisbankFieldsEn
+      - label: "ID"
+        name: id
+        widget: string
+        pattern: ["^[A-Za-z0-9-]+$", "Alleen letters, cijfers en -"]
+        hint: >-
+          Koppelt de EN- en NL-versie van deze pagina; moet uniek zijn op de hele site.
+          Voorbeeld: C10-06, of een nieuw P-nummer voor een hoofdpagina. Controleer de IDs van de
+          andere pagina's in deze lijst (en de NL-lijst) voordat je kiest, om een dubbele ID te
+          voorkomen.
+      - { label: Taal, name: lang, widget: hidden, default: en }
+      - label: URL
+        name: url
+        widget: hidden
+        default: ""
+        required: false
+        hint: >-
+          Wordt automatisch afgeleid uit de mapnaam (dus uit het Navigatielabel hieronder) zodra
+          deze pagina wordt gepubliceerd. Hoeft hier niet ingevuld te worden.
+      - label: "Parent ID"
+        name: parent
+        widget: select
+        required: false
+        options:
+          - { label: "P08 — Knowledge base (hub)", value: "P08" }
+          - { label: "C1-07 — What does an AI consultant do?", value: "C1-07" }
+          - { label: "C3-06 — AI examples", value: "C3-06" }
+          - { label: "C3-08 — RPA versus AI", value: "C3-08" }
+          - { label: "C4-05 — What does a BI specialist do?", value: "C4-05" }
+          - { label: "C5-04 — What does an AI developer do?", value: "C5-04" }
+          - { label: "C6-05 — AI agents and GDPR", value: "C6-05" }
+          - { label: "C10-01 — ChatGPT for business", value: "C10-01" }
+          - { label: "C10-02 — Claude for business", value: "C10-02" }
+          - { label: "C10-03 — Gemini for business", value: "C10-03" }
+          - { label: "C10-04 — Copilot for business", value: "C10-04" }
+          - { label: "C10-05 — Prompt engineering", value: "C10-05" }
+        hint: >-
+          ID van de bovenliggende kennisbankpagina, of de hub (P08). Leeg laten voor een
+          hoofdpagina. Staat de juiste pagina er niet bij (een nieuwe pagina uit deze lijst,
+          of een pagina buiten de kennisbank), vraag dan Claude Code dit veld na publicatie
+          handmatig te zetten.
+      - label: Cluster
+        name: cluster
+        widget: select
+        options:
+          - "1. AI Consulting & Advice"
+          - "2. AI Implementation"
+          - "3. AI Automation"
+          - "4. AI for business"
+          - "5. AI Development"
+          - "6. AI Agents"
+          - "7. AI markets"
+          - "8. AI policy & governance"
+          - "9. AI workshops & training"
+          - "10. Knowledge base AI tools"
+          - "Core pages"
+        default: "10. Knowledge base AI tools"
+        hint: >-
+          Welke sectie van de site. Voorbeeld: voor een nieuwe kennisbankpagina meestal
+          '10. Knowledge base AI tools' (de standaardwaarde). Moet overeenkomen met het cluster
+          van de NL-tegenhanger (zelfde ID): cms-publish.ps1 waarschuwt anders.
+      - label: "Page type"
+        name: pageType
+        widget: select
+        options: [Hub, Spoke, Sector, "Knowledge base", "Knowledge base hub", "Conversion / pricing", "Trust / partner network"]
+        default: "Knowledge base"
+        hint: "Voorbeeld: 'Knowledge base' voor een gewone kennisbankpagina (de standaardwaarde)."
+      - label: Schema
+        name: schema
+        widget: select
+        options: [service, article, collection, pricing]
+        default: article
+        hint: "Voorbeeld: 'article' voor een gewone kennisbankpagina (de standaardwaarde). 'collection' is alleen voor de kennisbank-hub."
+      - label: "Navigatielabel"
+        name: navLabel
+        widget: string
+        hint: >-
+          Kort label voor het menu en de kruimelpaden. Bepaalt ook de mapnaam en dus de url van
+          deze pagina (bijv. "AI voorbeelden" wordt de map/url "ai-voorbeelden"). Voorbeeld:
+          "AI voorbeelden".
+      - label: "Titel (H1)"
+        name: title
+        widget: string
+        hint: >-
+          De zichtbare hoofdtitel van de pagina. Voorbeeld: "AI voorbeelden: 25 toepassingen uit
+          de praktijk".
+      - label: "Meta title (max 60 tekens)"
+        name: metaTitle
+        widget: string
+        pattern: ["^.{1,60}$", "Max 60 tekens"]
+        hint: >-
+          Titel die in Google getoond wordt (max 60 tekens). Voorbeeld: "AI voorbeelden | 25
+          praktische toepassingen voor bedrijven".
+      - label: "Meta description (120-160 tekens)"
+        name: metaDescription
+        widget: text
+        pattern: ["^.{120,160}$", "120-160 tekens"]
+        hint: >-
+          Omschrijving onder de titel in Google (120-160 tekens). Voorbeeld: "Bekijk 25 concrete
+          AI voorbeelden uit de praktijk, per afdeling en sector. Ontdek welke toepassingen direct
+          waarde opleveren en hoe bedrijven ermee beginnen."
+      - label: Keyphrase
+        name: keyphrase
+        widget: string
+        required: false
+        hint: >-
+          Primaire zoekterm van deze pagina. Voorbeeld: "ai voorbeelden". Leeg laten bij een
+          navigatie-/hubpagina zonder duidelijke eigen keyphrase.
+      - label: Eyebrow
+        name: eyebrow
+        widget: string
+        hint: "Klein label boven de titel. Voorbeeld: \"Knowledge base\"."
+      - label: Lede
+        name: lede
+        widget: text
+        hint: >-
+          Openingsalinea direct onder de titel (1-3 zinnen). Voorbeeld: "Anyone looking for AI
+          examples mostly finds big promises. This list does the opposite: ..."
+      - name: primaryCta
+        label: "Primaire CTA"
+        widget: object
+        fields:
+          - { label: Label, name: label, widget: string, hint: "Tekst op de knop. Voorbeeld: \"See the AI Readiness Assessment\"." }
+          - &ctaHrefEn
+            label: Href
+            name: href
+            widget: select
+            options:
+              - { label: "Contact", value: "/contact" }
+              - { label: "AI Readiness Assessment", value: "/services/ai-readiness-assessment" }
+              - { label: "AI Strategy Sprint", value: "/services/ai-strategy-sprint" }
+              - { label: "Fractional AI Lead", value: "/services/fractional-ai-lead" }
+              - { label: "Vendor Review", value: "/services/vendor-review" }
+              - { label: "Executive Briefing", value: "/services/executive-briefing" }
+              - { label: "AI Due Diligence", value: "/services/ai-due-diligence" }
+              - { label: "Services (overview)", value: "/services" }
+              - { label: "Pricing", value: "/pricing" }
+              - { label: "Knowledge base (hub)", value: "/knowledge-base" }
+              - { label: "AI Consulting", value: "/ai-consulting" }
+              - { label: "AI Implementation", value: "/ai-implementation" }
+              - { label: "AI Automation", value: "/ai-automation" }
+              - { label: "AI for Business", value: "/ai-for-business" }
+              - { label: "AI Development", value: "/ai-development" }
+              - { label: "AI Agents", value: "/ai-agents" }
+              - { label: "AI Policy", value: "/ai-policy" }
+              - { label: "AI Workshop", value: "/ai-workshop" }
+              - { label: "Markets", value: "/markets" }
+              - { label: "Partner network", value: "/partner-network" }
+            hint: >-
+              Alleen de belangrijkste dienst-, cluster- en contactpagina's staan in deze lijst.
+              Moet een bestaande, live pagina zijn; de build faalt anders. Staat het gewenste pad
+              er niet bij, vraag Claude Code het na publicatie handmatig te zetten.
+      - name: secondaryCta
+        label: "Secundaire CTA"
+        widget: object
+        required: false
+        fields:
+          - { label: Label, name: label, widget: string, hint: "Tekst op de knop. Voorbeeld: \"Book a strategy call\"." }
+          - *ctaHrefEn
+      - name: summary
+        label: Summary
+        widget: list
+        required: false
+        max: 4
+        field: { label: Punt, name: item, widget: string, hint: "Korte bullet. Voorbeeld: \"Most useful AI applications are small: read, sort, summarize, draft.\"" }
+      - label: Published
+        name: published
+        widget: string
+        hint: "Publicatiedatum, formaat JJJJ-MM-DD. Voorbeeld: \"2026-09-23\"."
+      - label: Updated
+        name: updated
+        widget: string
+        hint: "Datum van de laatste inhoudelijke wijziging, formaat JJJJ-MM-DD. Voorbeeld: \"2026-09-23\"."
+      - label: "FAQ titel"
+        name: faqTitle
+        widget: string
+        required: false
+        hint: "Titel boven de FAQ-sectie. Voorbeeld: \"Frequently asked questions\"."
+      - name: faq
+        label: FAQ
+        widget: list
+        required: false
+        fields:
+          - { label: Vraag, name: q, widget: string, hint: "Voorbeeld: \"Is ChatGPT safe to use for business data?\"" }
+          - { label: Antwoord, name: a, widget: text, hint: "Kort, concreet antwoord op de vraag hiernaast." }
+      - label: Noindex
+        name: noindex
+        widget: boolean
+        required: false
+        hint: >-
+          Aanzetten als deze pagina nog NIET gepubliceerd mag worden: wordt wel gebouwd, maar
+          krijgt 'noindex, follow' en blijft uit de sitemap.
+      - name: sources
+        label: Bronnen
+        widget: list
+        required: false
+        fields:
+          - { label: Titel, name: title, widget: string, hint: "Naam van de bron. Voorbeeld: \"Google DeepMind: Traffic prediction with advanced Graph Neural Networks\"." }
+          - { label: URL, name: url, widget: string, hint: "Volledige https-link naar de bron." }
+      - label: "Inhoud (body)"
+        name: body
+        widget: text
+        hint: >-
+          Gewoon tekstveld, geen markdown-editor, zodat de opmaak niet verandert.
+          Laat {{price:...}}, {{pricelc:...}}, {{timing:...}} en {{title:...}} altijd
+          ongewijzigd staan: deze tokens worden bij het bouwen automatisch vervangen
+          door de actuele prijzen en doorlooptijden. Verwijderen of aanpassen breekt de publicatie.
+
+  - name: kennisbank_nl
+    label: "Kennisbank (NL)"
+    folder: src/content/pages/nl/kennisbank
+    path: "{{slug}}/index"
+    identifier_field: navLabel
+    format: frontmatter
+    extension: md
+    create: true
+    delete: true
+    fields: &kennisbankFieldsNl
+      - label: "ID"
+        name: id
+        widget: string
+        pattern: ["^[A-Za-z0-9-]+$", "Alleen letters, cijfers en -"]
+        hint: >-
+          Koppelt de EN- en NL-versie van deze pagina; moet uniek zijn op de hele site.
+          Voorbeeld: C10-06, of een nieuw P-nummer voor een hoofdpagina. Controleer de IDs van de
+          andere pagina's in deze lijst (en de EN-lijst) voordat je kiest, om een dubbele ID te
+          voorkomen.
+      - { label: Taal, name: lang, widget: hidden, default: nl }
+      - label: URL
+        name: url
+        widget: hidden
+        default: ""
+        required: false
+        hint: >-
+          Wordt automatisch afgeleid uit de mapnaam (dus uit het Navigatielabel hieronder) zodra
+          deze pagina wordt gepubliceerd. Hoeft hier niet ingevuld te worden.
+      - label: "Parent ID"
+        name: parent
+        widget: select
+        required: false
+        options:
+          - { label: "P08 — Kennisbank (hub)", value: "P08" }
+          - { label: "C1-07 — Wat doet een AI consultant?", value: "C1-07" }
+          - { label: "C3-06 — AI voorbeelden", value: "C3-06" }
+          - { label: "C3-07 — Notuleren met AI", value: "C3-07" }
+          - { label: "C3-08 — RPA versus AI", value: "C3-08" }
+          - { label: "C4-05 — Wat doet een BI specialist?", value: "C4-05" }
+          - { label: "C5-04 — Wat doet een AI developer?", value: "C5-04" }
+          - { label: "C5-05 — AI specialist salaris", value: "C5-05" }
+          - { label: "C6-05 — AI agents en AVG", value: "C6-05" }
+          - { label: "C10-01 — ChatGPT voor bedrijven", value: "C10-01" }
+          - { label: "C10-02 — Claude voor bedrijven", value: "C10-02" }
+          - { label: "C10-03 — Gemini voor bedrijven", value: "C10-03" }
+          - { label: "C10-04 — Copilot voor bedrijven", value: "C10-04" }
+          - { label: "C10-05 — Prompt engineering", value: "C10-05" }
+        hint: >-
+          ID van de bovenliggende kennisbankpagina, of de hub (P08). Leeg laten voor een
+          hoofdpagina. Staat de juiste pagina er niet bij (een nieuwe pagina uit deze lijst,
+          of een pagina buiten de kennisbank), vraag dan Claude Code dit veld na publicatie
+          handmatig te zetten.
+      - label: Cluster
+        name: cluster
+        widget: select
+        options:
+          - "1. AI Consultancy & Advies"
+          - "2. AI Implementatie"
+          - "3. AI Automatisering"
+          - "4. AI voor bedrijven"
+          - "5. AI Development"
+          - "6. AI Agents"
+          - "7. AI markten"
+          - "8. AI beleid & governance"
+          - "9. AI workshops & training"
+          - "10. Kennisbank AI tools"
+          - "Kernpagina's"
+        default: "10. Kennisbank AI tools"
+        hint: >-
+          Welke sectie van de site. Voorbeeld: voor een nieuwe kennisbankpagina meestal
+          '10. Kennisbank AI tools' (de standaardwaarde). Moet overeenkomen met het cluster van
+          de EN-tegenhanger (zelfde ID): cms-publish.ps1 waarschuwt anders.
+      - label: "Page type"
+        name: pageType
+        widget: select
+        options: [Hub, Spoke, Branche, Kennisbank, "Kennisbank hub", "Conversie / tarieven", "Trust / partnernetwerk"]
+        default: "Kennisbank"
+        hint: "Voorbeeld: 'Kennisbank' voor een gewone kennisbankpagina (de standaardwaarde)."
+      - label: Schema
+        name: schema
+        widget: select
+        options: [service, article, collection, pricing]
+        default: article
+        hint: "Voorbeeld: 'article' voor een gewone kennisbankpagina (de standaardwaarde). 'collection' is alleen voor de kennisbank-hub."
+      - label: "Navigatielabel"
+        name: navLabel
+        widget: string
+        hint: >-
+          Kort label voor het menu en de kruimelpaden. Bepaalt ook de mapnaam en dus de url van
+          deze pagina (bijv. "AI voorbeelden" wordt de map/url "ai-voorbeelden"). Voorbeeld:
+          "AI voorbeelden".
+      - label: "Titel (H1)"
+        name: title
+        widget: string
+        hint: >-
+          De zichtbare hoofdtitel van de pagina. Voorbeeld: "AI voorbeelden: 25 toepassingen uit
+          de praktijk".
+      - label: "Meta title (max 60 tekens)"
+        name: metaTitle
+        widget: string
+        pattern: ["^.{1,60}$", "Max 60 tekens"]
+        hint: >-
+          Titel die in Google getoond wordt (max 60 tekens). Voorbeeld: "AI voorbeelden | 25
+          praktische toepassingen voor bedrijven".
+      - label: "Meta description (120-160 tekens)"
+        name: metaDescription
+        widget: text
+        pattern: ["^.{120,160}$", "120-160 tekens"]
+        hint: >-
+          Omschrijving onder de titel in Google (120-160 tekens). Voorbeeld: "Bekijk 25 concrete
+          AI voorbeelden uit de praktijk, per afdeling en sector. Ontdek welke toepassingen direct
+          waarde opleveren en hoe bedrijven ermee beginnen."
+      - label: Keyphrase
+        name: keyphrase
+        widget: string
+        required: false
+        hint: >-
+          Primaire zoekterm van deze pagina. Voorbeeld: "ai voorbeelden". Leeg laten bij een
+          navigatie-/hubpagina zonder duidelijke eigen keyphrase.
+      - label: Eyebrow
+        name: eyebrow
+        widget: string
+        hint: "Klein label boven de titel. Voorbeeld: \"Kennisbank\"."
+      - label: Lede
+        name: lede
+        widget: text
+        hint: >-
+          Openingsalinea direct onder de titel (1-3 zinnen). Voorbeeld: "Wie AI voorbeelden zoekt,
+          vindt vooral grote beloften. Deze lijst doet het omgekeerde: ..."
+      - name: primaryCta
+        label: "Primaire CTA"
+        widget: object
+        fields:
+          - { label: Label, name: label, widget: string, hint: "Tekst op de knop. Voorbeeld: \"Bekijk het AI Readiness Assessment\"." }
+          - &ctaHrefNl
+            label: Href
+            name: href
+            widget: select
+            options:
+              - { label: "Contact", value: "/nl/contact" }
+              - { label: "AI Readiness Assessment", value: "/nl/diensten/ai-readiness-assessment" }
+              - { label: "AI Strategy Sprint", value: "/nl/diensten/ai-strategy-sprint" }
+              - { label: "Fractional AI Lead", value: "/nl/diensten/fractional-ai-lead" }
+              - { label: "Vendor Review", value: "/nl/diensten/vendor-review" }
+              - { label: "Executive Briefing", value: "/nl/diensten/executive-briefing" }
+              - { label: "AI Due Diligence", value: "/nl/diensten/ai-due-diligence" }
+              - { label: "Diensten (overzicht)", value: "/nl/diensten" }
+              - { label: "Tarieven", value: "/nl/tarieven" }
+              - { label: "Kennisbank (hub)", value: "/nl/kennisbank" }
+              - { label: "AI Consultancy", value: "/nl/ai-consultancy" }
+              - { label: "AI Implementatie", value: "/nl/ai-implementatie" }
+              - { label: "AI Automatisering", value: "/nl/ai-automatisering" }
+              - { label: "AI voor bedrijven", value: "/nl/ai-voor-bedrijven" }
+              - { label: "AI Development", value: "/nl/ai-development" }
+              - { label: "AI Agents", value: "/nl/ai-agents" }
+              - { label: "AI beleid", value: "/nl/ai-beleid" }
+              - { label: "AI workshop", value: "/nl/ai-workshop" }
+              - { label: "Markten", value: "/nl/markten" }
+              - { label: "Partnernetwerk", value: "/nl/partnernetwerk" }
+            hint: >-
+              Alleen de belangrijkste dienst-, cluster- en contactpagina's staan in deze lijst.
+              Moet een bestaande, live pagina zijn; de build faalt anders. Staat het gewenste pad
+              er niet bij, vraag Claude Code het na publicatie handmatig te zetten.
+      - name: secondaryCta
+        label: "Secundaire CTA"
+        widget: object
+        required: false
+        fields:
+          - { label: Label, name: label, widget: string, hint: "Tekst op de knop. Voorbeeld: \"Plan een adviesgesprek\"." }
+          - *ctaHrefNl
+      - name: summary
+        label: Summary
+        widget: list
+        required: false
+        max: 4
+        field: { label: Punt, name: item, widget: string, hint: "Korte bullet. Voorbeeld: \"De meeste bruikbare AI-toepassingen zijn klein.\"" }
+      - label: Published
+        name: published
+        widget: string
+        hint: "Publicatiedatum, formaat JJJJ-MM-DD. Voorbeeld: \"2026-09-23\"."
+      - label: Updated
+        name: updated
+        widget: string
+        hint: "Datum van de laatste inhoudelijke wijziging, formaat JJJJ-MM-DD. Voorbeeld: \"2026-09-23\"."
+      - label: "FAQ titel"
+        name: faqTitle
+        widget: string
+        required: false
+        hint: "Titel boven de FAQ-sectie. Voorbeeld: \"Veelgestelde vragen\"."
+      - name: faq
+        label: FAQ
+        widget: list
+        required: false
+        fields:
+          - { label: Vraag, name: q, widget: string, hint: "Voorbeeld: \"Is ChatGPT veilig voor bedrijfsgegevens?\"" }
+          - { label: Antwoord, name: a, widget: text, hint: "Kort, concreet antwoord op de vraag hiernaast." }
+      - label: Noindex
+        name: noindex
+        widget: boolean
+        required: false
+        hint: >-
+          Aanzetten als deze pagina nog NIET gepubliceerd mag worden: wordt wel gebouwd, maar
+          krijgt 'noindex, follow' en blijft uit de sitemap.
+      - name: sources
+        label: Bronnen
+        widget: list
+        required: false
+        fields:
+          - { label: Titel, name: title, widget: string, hint: "Naam van de bron. Voorbeeld: \"Google DeepMind: Traffic prediction with advanced Graph Neural Networks\"." }
+          - { label: URL, name: url, widget: string, hint: "Volledige https-link naar de bron." }
+      - label: "Inhoud (body)"
+        name: body
+        widget: text
+        hint: >-
+          Gewoon tekstveld, geen markdown-editor, zodat de opmaak niet verandert.
+          Laat {{price:...}}, {{pricelc:...}}, {{timing:...}} en {{title:...}} altijd
+          ongewijzigd staan: deze tokens worden bij het bouwen automatisch vervangen
+          door de actuele prijzen en doorlooptijden. Verwijderen of aanpassen breekt de publicatie.
+
+  # Vaste lijst van bestaande bestanden (geen 'folder'): er is hierdoor geen create/delete
+  # mogelijk, ook niet per ongeluk. Nieuwe pagina's in deze clusters blijven via Claude Code lopen.
+  # 'url' en 'parent' blijven hier vrije tekst (zie uitleg hoe deze fields-anchor afwijkt van de
+  # kennisbank-variant hierboven, bovenin dit bestand).
+  - name: overige_pagina_en
+    label: "Other pages (EN)"
+    files:
+      - name: "C6-03"
+        label: "Build an AI agent"
+        file: "src/content/pages/en/ai-agents/build/index.md"
+        fields: &overigeFieldsEn
+          - label: "ID"
+            name: id
+            widget: string
+            pattern: ["^[A-Za-z0-9-]+$", "Alleen letters, cijfers en -"]
+            hint: >-
+              Koppelt de EN- en NL-versie van deze pagina; moet uniek zijn op de hele site.
+              Voorbeeld: C10-06, of een nieuw P-nummer voor een hoofdpagina.
+          - { label: Taal, name: lang, widget: hidden, default: en }
+          - label: URL
+            name: url
+            widget: string
+            pattern: ["^/", "Moet beginnen met /"]
+            hint: "Voorbeeld: /knowledge-base/my-new-page. Moet overeenkomen met de mapnaam van dit bestand."
+          - label: "Parent ID"
+            name: parent
+            widget: string
+            required: false
+            hint: >-
+              ID van de bovenliggende pagina (bijv. C3-05), of leeg laten voor een hoofdpagina
+              (hub). Dit is een vrij tekstveld, geen dropdown: 'parent' kan ook naar een pagina
+              buiten de kennisbank verwijzen.
+          - label: Cluster
+            name: cluster
+            widget: select
+            options:
+              - "1. AI Consulting & Advice"
+              - "2. AI Implementation"
+              - "3. AI Automation"
+              - "4. AI for business"
+              - "5. AI Development"
+              - "6. AI Agents"
+              - "7. AI markets"
+              - "8. AI policy & governance"
+              - "9. AI workshops & training"
+              - "10. Knowledge base AI tools"
+              - "Core pages"
+            default: "10. Knowledge base AI tools"
+            hint: "Welke sectie van de site. Voorbeeld: '6. AI Agents' voor een AI-agentpagina."
+          - label: "Page type"
+            name: pageType
+            widget: select
+            options: [Hub, Spoke, Sector, "Knowledge base", "Knowledge base hub", "Conversion / pricing", "Trust / partner network"]
+            default: "Knowledge base"
+            hint: "Voorbeeld: 'Hub' voor een clusterhoofdpagina, 'Spoke' voor een subpagina daaronder."
+          - label: Schema
+            name: schema
+            widget: select
+            options: [service, article, collection, pricing]
+            default: article
+            hint: "Voorbeeld: 'article' voor een gewone contentpagina."
+          - label: "Navigatielabel"
+            name: navLabel
+            widget: string
+            hint: "Kort label voor het menu en de kruimelpaden. Voorbeeld: \"AI Agents\"."
+          - label: "Titel (H1)"
+            name: title
+            widget: string
+            hint: "De zichtbare hoofdtitel van de pagina. Voorbeeld: \"Build an AI Agent for Your Business\"."
+          - label: "Meta title (max 60 tekens)"
+            name: metaTitle
+            widget: string
+            pattern: ["^.{1,60}$", "Max 60 tekens"]
+            hint: "Titel die in Google getoond wordt (max 60 tekens)."
+          - label: "Meta description (120-160 tekens)"
+            name: metaDescription
+            widget: text
+            pattern: ["^.{120,160}$", "120-160 tekens"]
+            hint: "Omschrijving onder de titel in Google (120-160 tekens)."
+          - label: Keyphrase
+            name: keyphrase
+            widget: string
+            required: false
+            hint: "Primaire zoekterm van deze pagina. Leeg laten bij een navigatie-/hubpagina zonder duidelijke eigen keyphrase."
+          - label: Eyebrow
+            name: eyebrow
+            widget: string
+            hint: "Klein label boven de titel. Voorbeeld: \"AI Agents\"."
+          - label: Lede
+            name: lede
+            widget: text
+            hint: "Openingsalinea direct onder de titel (1-3 zinnen)."
+          - name: primaryCta
+            label: "Primaire CTA"
+            widget: object
+            fields:
+              - { label: Label, name: label, widget: string, hint: "Tekst op de knop. Voorbeeld: \"See the AI Readiness Assessment\"." }
+              - *ctaHrefEn
+          - name: secondaryCta
+            label: "Secundaire CTA"
+            widget: object
+            required: false
+            fields:
+              - { label: Label, name: label, widget: string, hint: "Tekst op de knop. Voorbeeld: \"Book a strategy call\"." }
+              - *ctaHrefEn
+          - name: summary
+            label: Summary
+            widget: list
+            required: false
+            max: 4
+            field: { label: Punt, name: item, widget: string, hint: "Korte bullet." }
+          - label: Published
+            name: published
+            widget: string
+            hint: "Publicatiedatum, formaat JJJJ-MM-DD. Voorbeeld: \"2026-09-23\"."
+          - label: Updated
+            name: updated
+            widget: string
+            hint: "Datum van de laatste inhoudelijke wijziging, formaat JJJJ-MM-DD. Voorbeeld: \"2026-09-23\"."
+          - label: "FAQ titel"
+            name: faqTitle
+            widget: string
+            required: false
+            hint: "Titel boven de FAQ-sectie."
+          - name: faq
+            label: FAQ
+            widget: list
+            required: false
+            fields:
+              - { label: Vraag, name: q, widget: string }
+              - { label: Antwoord, name: a, widget: text }
+          - label: Noindex
+            name: noindex
+            widget: boolean
+            required: false
+            hint: "Aanzetten als deze pagina nog NIET gepubliceerd mag worden."
+          - name: sources
+            label: Bronnen
+            widget: list
+            required: false
+            fields:
+              - { label: Titel, name: title, widget: string }
+              - { label: URL, name: url, widget: string }
+          - label: "Inhoud (body)"
+            name: body
+            widget: text
+            hint: >-
+              Gewoon tekstveld, geen markdown-editor, zodat de opmaak niet verandert.
+              Laat {{price:...}}, {{pricelc:...}}, {{timing:...}} en {{title:...}} altijd
+              ongewijzigd staan: deze tokens worden bij het bouwen automatisch vervangen
+              door de actuele prijzen en doorlooptijden. Verwijderen of aanpassen breekt de publicatie.
+      - { name: "C6-04", label: "AI agent examples", file: "src/content/pages/en/ai-agents/examples/index.md", fields: *overigeFieldsEn }
+      - { name: "C6-00", label: "AI Agents", file: "src/content/pages/en/ai-agents/index.md", fields: *overigeFieldsEn }
+      - { name: "C6-01", label: "What is an AI agent?", file: "src/content/pages/en/ai-agents/what-is-an-ai-agent/index.md", fields: *overigeFieldsEn }
+      - { name: "C3-05", label: "AI Tools", file: "src/content/pages/en/ai-automatisering/ai-tools/index.md", fields: *overigeFieldsEn }
+      - { name: "C3-04", label: "AI Workflows", file: "src/content/pages/en/ai-automatisering/ai-workflows/index.md", fields: *overigeFieldsEn }
+      - { name: "C3-03", label: "Automate Business Processes", file: "src/content/pages/en/ai-automatisering/bedrijfsprocessen-automatiseren-met-ai/index.md", fields: *overigeFieldsEn }
+      - { name: "C3-00", label: "AI Automation", file: "src/content/pages/en/ai-automatisering/index.md", fields: *overigeFieldsEn }
+      - { name: "C8-01", label: "AI Act", file: "src/content/pages/en/ai-beleid/ai-act/index.md", fields: *overigeFieldsEn }
+      - { name: "C8-00", label: "AI Policy", file: "src/content/pages/en/ai-beleid/index.md", fields: *overigeFieldsEn }
+      - { name: "C1-03", label: "AI strategy", file: "src/content/pages/en/ai-consultancy/ai-strategie/index.md", fields: *overigeFieldsEn }
+      - { name: "C1-00", label: "AI Consulting", file: "src/content/pages/en/ai-consultancy/index.md", fields: *overigeFieldsEn }
+      - { name: "C5-03", label: "AI Solutions", file: "src/content/pages/en/ai-development/ai-oplossingen/index.md", fields: *overigeFieldsEn }
+      - { name: "C5-02", label: "AI Software", file: "src/content/pages/en/ai-development/ai-software/index.md", fields: *overigeFieldsEn }
+      - { name: "C5-01", label: "AI Specialist", file: "src/content/pages/en/ai-development/ai-specialist/index.md", fields: *overigeFieldsEn }
+      - { name: "C5-00", label: "AI Development", file: "src/content/pages/en/ai-development/index.md", fields: *overigeFieldsEn }
+      - { name: "C2-01", label: "AI Implementation Consulting", file: "src/content/pages/en/ai-implementatie/advies/index.md", fields: *overigeFieldsEn }
+      - { name: "C2-00", label: "AI Implementation", file: "src/content/pages/en/ai-implementatie/index.md", fields: *overigeFieldsEn }
+      - { name: "C2-03", label: "AI Implementation Step-by-Step Plan", file: "src/content/pages/en/ai-implementatie/stappenplan/index.md", fields: *overigeFieldsEn }
+      - { name: "C4-03", label: "AI and BI", file: "src/content/pages/en/ai-voor-bedrijven/ai-en-bi/index.md", fields: *overigeFieldsEn }
+      - { name: "C4-00", label: "AI for Business", file: "src/content/pages/en/ai-voor-bedrijven/index.md", fields: *overigeFieldsEn }
+      - { name: "C4-01", label: "AI for SMEs", file: "src/content/pages/en/ai-voor-bedrijven/mkb/index.md", fields: *overigeFieldsEn }
+      - { name: "C4-02", label: "AI for Professional Services", file: "src/content/pages/en/ai-voor-bedrijven/zakelijke-dienstverleners/index.md", fields: *overigeFieldsEn }
+      - { name: "C9-05", label: "AI Literacy", file: "src/content/pages/en/ai-workshop/ai-geletterdheid-training/index.md", fields: *overigeFieldsEn }
+      - { name: "C9-03", label: "ChatGPT Training", file: "src/content/pages/en/ai-workshop/chatgpt-training/index.md", fields: *overigeFieldsEn }
+      - { name: "C9-02", label: "Copilot Training", file: "src/content/pages/en/ai-workshop/copilot-training/index.md", fields: *overigeFieldsEn }
+      - { name: "C9-00", label: "AI Workshop", file: "src/content/pages/en/ai-workshop/index.md", fields: *overigeFieldsEn }
+      - { name: "C7-04", label: "AI for automotive", file: "src/content/pages/en/markten/automotive/index.md", fields: *overigeFieldsEn }
+      - { name: "C7-03", label: "AI for fintech", file: "src/content/pages/en/markten/fintech/index.md", fields: *overigeFieldsEn }
+      - { name: "C7-00", label: "Markets", file: "src/content/pages/en/markten/index.md", fields: *overigeFieldsEn }
+      - { name: "P06", label: "Partner network", file: "src/content/pages/en/partnernetwerk/index.md", fields: *overigeFieldsEn }
+      - { name: "P04", label: "Pricing", file: "src/content/pages/en/tarieven/index.md", fields: *overigeFieldsEn }
+
+  - name: overige_pagina_nl
+    label: "Overige pagina's (NL)"
+    files:
+      - name: "C6-00"
+        label: "AI Agents"
+        file: "src/content/pages/nl/ai-agents/index.md"
+        fields: &overigeFieldsNl
+          - label: "ID"
+            name: id
+            widget: string
+            pattern: ["^[A-Za-z0-9-]+$", "Alleen letters, cijfers en -"]
+            hint: >-
+              Koppelt de EN- en NL-versie van deze pagina; moet uniek zijn op de hele site.
+              Voorbeeld: C10-06, of een nieuw P-nummer voor een hoofdpagina.
+          - { label: Taal, name: lang, widget: hidden, default: nl }
+          - label: URL
+            name: url
+            widget: string
+            pattern: ["^/", "Moet beginnen met /"]
+            hint: "Voorbeeld: /nl/kennisbank/mijn-nieuwe-pagina. Moet overeenkomen met de mapnaam van dit bestand."
+          - label: "Parent ID"
+            name: parent
+            widget: string
+            required: false
+            hint: >-
+              ID van de bovenliggende pagina (bijv. C3-05), of leeg laten voor een hoofdpagina
+              (hub). Dit is een vrij tekstveld, geen dropdown: 'parent' kan ook naar een pagina
+              buiten de kennisbank verwijzen.
+          - label: Cluster
+            name: cluster
+            widget: select
+            options:
+              - "1. AI Consultancy & Advies"
+              - "2. AI Implementatie"
+              - "3. AI Automatisering"
+              - "4. AI voor bedrijven"
+              - "5. AI Development"
+              - "6. AI Agents"
+              - "7. AI markten"
+              - "8. AI beleid & governance"
+              - "9. AI workshops & training"
+              - "10. Kennisbank AI tools"
+              - "Kernpagina's"
+            default: "10. Kennisbank AI tools"
+            hint: "Welke sectie van de site. Voorbeeld: '6. AI Agents' voor een AI-agentpagina."
+          - label: "Page type"
+            name: pageType
+            widget: select
+            options: [Hub, Spoke, Branche, Kennisbank, "Kennisbank hub", "Conversie / tarieven", "Trust / partnernetwerk"]
+            default: "Kennisbank"
+            hint: "Voorbeeld: 'Hub' voor een clusterhoofdpagina, 'Spoke' voor een subpagina daaronder."
+          - label: Schema
+            name: schema
+            widget: select
+            options: [service, article, collection, pricing]
+            default: article
+            hint: "Voorbeeld: 'article' voor een gewone contentpagina."
+          - label: "Navigatielabel"
+            name: navLabel
+            widget: string
+            hint: "Kort label voor het menu en de kruimelpaden. Voorbeeld: \"AI Agents\"."
+          - label: "Titel (H1)"
+            name: title
+            widget: string
+            hint: "De zichtbare hoofdtitel van de pagina. Voorbeeld: \"AI Agents: zelfstandig handelende AI voor jouw bedrijf\"."
+          - label: "Meta title (max 60 tekens)"
+            name: metaTitle
+            widget: string
+            pattern: ["^.{1,60}$", "Max 60 tekens"]
+            hint: "Titel die in Google getoond wordt (max 60 tekens)."
+          - label: "Meta description (120-160 tekens)"
+            name: metaDescription
+            widget: text
+            pattern: ["^.{120,160}$", "120-160 tekens"]
+            hint: "Omschrijving onder de titel in Google (120-160 tekens)."
+          - label: Keyphrase
+            name: keyphrase
+            widget: string
+            required: false
+            hint: "Primaire zoekterm van deze pagina. Leeg laten bij een navigatie-/hubpagina zonder duidelijke eigen keyphrase."
+          - label: Eyebrow
+            name: eyebrow
+            widget: string
+            hint: "Klein label boven de titel. Voorbeeld: \"AI Agents\"."
+          - label: Lede
+            name: lede
+            widget: text
+            hint: "Openingsalinea direct onder de titel (1-3 zinnen)."
+          - name: primaryCta
+            label: "Primaire CTA"
+            widget: object
+            fields:
+              - { label: Label, name: label, widget: string, hint: "Tekst op de knop. Voorbeeld: \"Plan een adviesgesprek\"." }
+              - *ctaHrefNl
+          - name: secondaryCta
+            label: "Secundaire CTA"
+            widget: object
+            required: false
+            fields:
+              - { label: Label, name: label, widget: string, hint: "Tekst op de knop. Voorbeeld: \"Bekijk het AI Readiness Assessment\"." }
+              - *ctaHrefNl
+          - name: summary
+            label: Summary
+            widget: list
+            required: false
+            max: 4
+            field: { label: Punt, name: item, widget: string, hint: "Korte bullet." }
+          - label: Published
+            name: published
+            widget: string
+            hint: "Publicatiedatum, formaat JJJJ-MM-DD. Voorbeeld: \"2026-09-23\"."
+          - label: Updated
+            name: updated
+            widget: string
+            hint: "Datum van de laatste inhoudelijke wijziging, formaat JJJJ-MM-DD. Voorbeeld: \"2026-09-23\"."
+          - label: "FAQ titel"
+            name: faqTitle
+            widget: string
+            required: false
+            hint: "Titel boven de FAQ-sectie."
+          - name: faq
+            label: FAQ
+            widget: list
+            required: false
+            fields:
+              - { label: Vraag, name: q, widget: string }
+              - { label: Antwoord, name: a, widget: text }
+          - label: Noindex
+            name: noindex
+            widget: boolean
+            required: false
+            hint: "Aanzetten als deze pagina nog NIET gepubliceerd mag worden."
+          - name: sources
+            label: Bronnen
+            widget: list
+            required: false
+            fields:
+              - { label: Titel, name: title, widget: string }
+              - { label: URL, name: url, widget: string }
+          - label: "Inhoud (body)"
+            name: body
+            widget: text
+            hint: >-
+              Gewoon tekstveld, geen markdown-editor, zodat de opmaak niet verandert.
+              Laat {{price:...}}, {{pricelc:...}}, {{timing:...}} en {{title:...}} altijd
+              ongewijzigd staan: deze tokens worden bij het bouwen automatisch vervangen
+              door de actuele prijzen en doorlooptijden. Verwijderen of aanpassen breekt de publicatie.
+      - { name: "C6-03", label: "AI agent laten maken", file: "src/content/pages/nl/ai-agents/laten-maken/index.md", fields: *overigeFieldsNl }
+      - { name: "C6-04", label: "AI agents voorbeelden", file: "src/content/pages/nl/ai-agents/voorbeelden/index.md", fields: *overigeFieldsNl }
+      - { name: "C6-01", label: "Wat is een AI agent?", file: "src/content/pages/nl/ai-agents/wat-is-een-ai-agent/index.md", fields: *overigeFieldsNl }
+      - { name: "C3-05", label: "AI tools", file: "src/content/pages/nl/ai-automatisering/ai-tools/index.md", fields: *overigeFieldsNl }
+      - { name: "C3-04", label: "AI workflows", file: "src/content/pages/nl/ai-automatisering/ai-workflows/index.md", fields: *overigeFieldsNl }
+      - { name: "C3-03", label: "Bedrijfsprocessen automatiseren", file: "src/content/pages/nl/ai-automatisering/bedrijfsprocessen-automatiseren-met-ai/index.md", fields: *overigeFieldsNl }
+      - { name: "C3-00", label: "AI Automatisering", file: "src/content/pages/nl/ai-automatisering/index.md", fields: *overigeFieldsNl }
+      - { name: "C8-01", label: "AI Act", file: "src/content/pages/nl/ai-beleid/ai-act/index.md", fields: *overigeFieldsNl }
+      - { name: "C8-00", label: "AI beleid", file: "src/content/pages/nl/ai-beleid/index.md", fields: *overigeFieldsNl }
+      - { name: "C1-05", label: "AI advies", file: "src/content/pages/nl/ai-consultancy/ai-advies/index.md", fields: *overigeFieldsNl }
+      - { name: "C1-06", label: "AI consultant inhuren", file: "src/content/pages/nl/ai-consultancy/ai-consultant-inhuren/index.md", fields: *overigeFieldsNl }
+      - { name: "C1-04", label: "AI roadmap", file: "src/content/pages/nl/ai-consultancy/ai-roadmap/index.md", fields: *overigeFieldsNl }
+      - { name: "C1-03", label: "AI strategie", file: "src/content/pages/nl/ai-consultancy/ai-strategie/index.md", fields: *overigeFieldsNl }
+      - { name: "C1-00", label: "AI Consultancy", file: "src/content/pages/nl/ai-consultancy/index.md", fields: *overigeFieldsNl }
+      - { name: "C5-03", label: "AI oplossingen", file: "src/content/pages/nl/ai-development/ai-oplossingen/index.md", fields: *overigeFieldsNl }
+      - { name: "C5-02", label: "AI software", file: "src/content/pages/nl/ai-development/ai-software/index.md", fields: *overigeFieldsNl }
+      - { name: "C5-01", label: "AI specialist", file: "src/content/pages/nl/ai-development/ai-specialist/index.md", fields: *overigeFieldsNl }
+      - { name: "C5-00", label: "AI Development", file: "src/content/pages/nl/ai-development/index.md", fields: *overigeFieldsNl }
+      - { name: "C2-01", label: "AI implementatie advies", file: "src/content/pages/nl/ai-implementatie/advies/index.md", fields: *overigeFieldsNl }
+      - { name: "C2-00", label: "AI Implementatie", file: "src/content/pages/nl/ai-implementatie/index.md", fields: *overigeFieldsNl }
+      - { name: "C2-03", label: "AI implementatie stappenplan", file: "src/content/pages/nl/ai-implementatie/stappenplan/index.md", fields: *overigeFieldsNl }
+      - { name: "C4-03", label: "AI en BI", file: "src/content/pages/nl/ai-voor-bedrijven/ai-en-bi/index.md", fields: *overigeFieldsNl }
+      - { name: "C4-00", label: "AI voor bedrijven", file: "src/content/pages/nl/ai-voor-bedrijven/index.md", fields: *overigeFieldsNl }
+      - { name: "C4-01", label: "AI voor MKB", file: "src/content/pages/nl/ai-voor-bedrijven/mkb/index.md", fields: *overigeFieldsNl }
+      - { name: "C4-02", label: "AI voor dienstverleners", file: "src/content/pages/nl/ai-voor-bedrijven/zakelijke-dienstverleners/index.md", fields: *overigeFieldsNl }
+      - { name: "C9-04", label: "AI coaching", file: "src/content/pages/nl/ai-workshop/ai-coaching/index.md", fields: *overigeFieldsNl }
+      - { name: "C9-05", label: "AI geletterdheid", file: "src/content/pages/nl/ai-workshop/ai-geletterdheid-training/index.md", fields: *overigeFieldsNl }
+      - { name: "C9-03", label: "ChatGPT training", file: "src/content/pages/nl/ai-workshop/chatgpt-training/index.md", fields: *overigeFieldsNl }
+      - { name: "C9-02", label: "Copilot training", file: "src/content/pages/nl/ai-workshop/copilot-training/index.md", fields: *overigeFieldsNl }
+      - { name: "C9-00", label: "AI workshop", file: "src/content/pages/nl/ai-workshop/index.md", fields: *overigeFieldsNl }
+      - { name: "C7-04", label: "AI voor automotive", file: "src/content/pages/nl/markten/automotive/index.md", fields: *overigeFieldsNl }
+      - { name: "C7-03", label: "AI voor fintech", file: "src/content/pages/nl/markten/fintech/index.md", fields: *overigeFieldsNl }
+      - { name: "C7-00", label: "Markten", file: "src/content/pages/nl/markten/index.md", fields: *overigeFieldsNl }
+      - { name: "C7-06", label: "AI in de luchtvaart", file: "src/content/pages/nl/markten/luchtvaart/index.md", fields: *overigeFieldsNl }
+      - { name: "C7-02", label: "AI voor marketing", file: "src/content/pages/nl/markten/marketing/index.md", fields: *overigeFieldsNl }
+      - { name: "C7-05", label: "AI in het onderwijs", file: "src/content/pages/nl/markten/onderwijs/index.md", fields: *overigeFieldsNl }
+      - { name: "C7-07", label: "AI binnen de overheid", file: "src/content/pages/nl/markten/overheid/index.md", fields: *overigeFieldsNl }
+      - { name: "C7-01", label: "AI in de zorg", file: "src/content/pages/nl/markten/zorg/index.md", fields: *overigeFieldsNl }
+      - { name: "P06", label: "Partnernetwerk", file: "src/content/pages/nl/partnernetwerk/index.md", fields: *overigeFieldsNl }
+
+  # inzichten_en/inzichten_nl: sinds de CMS-migratie (planning/migratieplan-inzichten-cms.md)
+  # staan ook de inzichtenartikelen als losse markdown per taal (src/content/articles/{en,nl}/
+  # <slug>/index.md, content.config.ts, 'articles'-collectie met een eigen loader). create en
+  # delete staan AAN, naar het patroon van kennisbank_en/kennisbank_nl hierboven. LET OP: zolang
+  # de CMS-migratie en de lopende blogreeks (NL+EN-parity, BLOG-01 t/m 12) nog niet allebei
+  # volledig zijn afgerond, gaan inhoudelijke wijzigingen aan deze artikelen via de
+  # dinsdagroutine (handmatige branch + extractiescript + dist-diff, zie
+  # planning/werkafspraak-publicatiedagen.md), NIET via dit CMS-scherm — zie docs/cms.md.
+  # Het veldschema wijkt af van de kennisbank/overige-collecties hierboven (geen url/parent/
+  # cluster/pageType/schema/navLabel/primaryCta: dat zijn velden van de 'pages'-collectie, de
+  # 'articles'-collectie heeft een eigen schema, zie content.config.ts).
+  - name: inzichten_en
+    label: "Insights (EN)"
+    folder: src/content/articles/en
+    path: "{{slug}}/index"
+    identifier_field: slug
+    format: frontmatter
+    extension: md
+    create: true
+    delete: true
+    fields: &inzichtenFieldsEn
+      - label: "ID"
+        name: id
+        widget: string
+        pattern: ["^[A-Za-z0-9-]+$", "Alleen letters, cijfers en -"]
+        hint: >-
+          Koppelt de EN- en NL-versie van dit artikel (geen technische eis, puur informatief).
+          Voorbeeld: "en-why-ai-pilots-stall". Hoeft niet uniek te zijn over de hele site, alleen
+          herkenbaar.
+      - { label: Taal, name: lang, widget: hidden, default: en }
+      - label: Slug
+        name: slug
+        widget: string
+        pattern: ["^[a-z0-9-]+$", "Alleen kleine letters, cijfers en -"]
+        hint: >-
+          Bepaalt de mapnaam en dus de URL (/insights/<slug>). Voorbeeld:
+          "why-ai-pilots-stall". Na het aanmaken niet meer wijzigen: dat verplaatst het bestand
+          niet en breekt de link met bestaande interne verwijzingen.
+      - label: Counterpart
+        name: counterpart
+        widget: string
+        required: false
+        hint: >-
+          Slug van de NL-vertaling van dit artikel, als die bestaat (leeg = nog geen vertaling).
+          Technische koppeling (anders dan "ID" hierboven): src/data/routes.ts leidt hieruit de
+          sitemap/hreflang/taalwisselaar-route van dit artikel af. Voorbeeld:
+          "waarom-ai-pilots-blijven-steken".
+      - label: Category
+        name: category
+        widget: string
+        hint: >-
+          Voorbeeld: "Strategy", "Organisation", "Use cases", "Tools & data", "Governance"
+          (bestaande categorieën; een nieuwe mag, verschijnt dan als nieuw filter op de hub).
+      - label: Tone
+        name: tone
+        widget: select
+        options: [aqua, sand, salmon, yellow]
+        hint: "Kleur van het kaartje op de inzichten-hub."
+      - label: Icon
+        name: icon
+        widget: string
+        hint: "Eén teken/symbool voor het kaartje. Voorbeeld: ◷, ⚖, ◐."
+      - label: Featured
+        name: featured
+        widget: boolean
+        default: false
+        hint: "Maximaal één artikel per taal mag 'true' zijn; dat verschijnt uitgelicht op de hub."
+      - label: Title
+        name: title
+        widget: string
+        hint: "Volledige titel, gebruikt in <title>, JSON-LD en kaartjes."
+      - label: "Title (line 1)"
+        name: titleLine1
+        widget: string
+        hint: "Eerste regel van de H1 op de artikelpagina (titel loopt over twee regels)."
+      - label: "Title (line 2, marked)"
+        name: titleLine2
+        widget: string
+        hint: "Tweede regel van de H1, met een markeeraccent."
+      - label: Excerpt
+        name: excerpt
+        widget: text
+        hint: "Korte samenvatting op kaartjes en in de RSS-feed/meta description-fallback."
+      - label: "Meta title"
+        name: metaTitle
+        widget: string
+        required: false
+        hint: "Optioneel; valt terug op Title als dit leeg is."
+      - label: "Meta description"
+        name: metaDescription
+        widget: text
+        required: false
+        hint: "Optioneel; valt terug op Excerpt als dit leeg is."
+      - label: Lede
+        name: lede
+        widget: text
+        hint: "Openingsalinea direct onder de titel."
+      - label: "Reading time"
+        name: readingTime
+        widget: string
+        hint: "Voorbeeld: \"6 min read\"."
+      - label: "Published date"
+        name: date
+        widget: string
+        pattern: ["^\\d{4}-\\d{2}-\\d{2}$", "Formaat JJJJ-MM-DD"]
+        hint: "Publicatiedatum, formaat JJJJ-MM-DD. Bepaalt de sortering op de hub en in de RSS-feed."
+      - label: "Published date (label)"
+        name: dateLabel
+        widget: string
+        hint: "Zichtbare datum. Voorbeeld: \"November 6, 2026\"."
+      - label: Updated
+        name: updated
+        widget: string
+        required: false
+        hint: "Datum van de laatste inhoudelijke wijziging, formaat JJJJ-MM-DD. Leeg = geen wijziging sinds publicatie."
+      - label: Order
+        name: order
+        widget: number
+        required: false
+        valueType: int
+        hint: >-
+          Tiebreak bij een gelijke 'Published date' met een ander artikel (lager = nieuwer/boven
+          op de hub en in de RSS-feed). Alleen nodig bij een exacte datumbotsing; anders leeg laten.
+      - name: summary
+        label: Summary
+        widget: list
+        field: { label: Punt, name: item, widget: string }
+        hint: "Korte bullets in het 'AT A GLANCE'-kaartje."
+      - label: "Summary (closing line)"
+        name: summaryClose
+        widget: string
+        hint: "Afsluitende regel onder de summary-bullets."
+      - name: takeaways
+        label: "Key takeaways"
+        widget: list
+        hint: "Elk item precies twee regels: een korte titel en de toelichting."
+        field:
+          label: Takeaway
+          name: pair
+          widget: list
+          min: 2
+          max: 2
+          field: { label: Regel, name: line, widget: string }
+      - label: Remember
+        name: remember
+        widget: string
+        hint: "Citaat-achtige afsluitregel in het zijpaneel."
+      - name: related
+        label: "Related articles"
+        widget: list
+        required: false
+        field: { label: Slug, name: slug, widget: string, hint: "Slug van een ander EN-artikel, bijv. \"why-ai-pilots-stall\"." }
+      - name: faq
+        label: FAQ
+        widget: list
+        required: false
+        fields:
+          - { label: Question, name: q, widget: string }
+          - { label: Answer, name: a, widget: text }
+      - label: "Content (body)"
+        name: body
+        widget: text
+        hint: >-
+          Gewoon tekstveld, geen markdown-editor, zodat de opmaak niet verandert. Dit veld bevat
+          de kant-en-klare HTML van het artikel; wijzig de structuur (koppen, links) alleen met
+          zorg, zie de werkafspraak in docs/cms.md en planning/werkafspraak-publicatiedagen.md.
+
+  - name: inzichten_nl
+    label: "Inzichten (NL)"
+    folder: src/content/articles/nl
+    path: "{{slug}}/index"
+    identifier_field: slug
+    format: frontmatter
+    extension: md
+    create: true
+    delete: true
+    fields: &inzichtenFieldsNl
+      - label: "ID"
+        name: id
+        widget: string
+        pattern: ["^[A-Za-z0-9-]+$", "Alleen letters, cijfers en -"]
+        hint: >-
+          Koppelt de EN- en NL-versie van dit artikel (geen technische eis, puur informatief).
+          Voorbeeld: "nl-waarom-ai-pilots-blijven-steken". Hoeft niet uniek te zijn over de hele
+          site, alleen herkenbaar.
+      - { label: Taal, name: lang, widget: hidden, default: nl }
+      - label: Slug
+        name: slug
+        widget: string
+        pattern: ["^[a-z0-9-]+$", "Alleen kleine letters, cijfers en -"]
+        hint: >-
+          Bepaalt de mapnaam en dus de URL (/nl/inzichten/<slug>). Voorbeeld:
+          "waarom-ai-pilots-blijven-steken". Na het aanmaken niet meer wijzigen: dat verplaatst
+          het bestand niet en breekt de link met bestaande interne verwijzingen.
+      - label: Counterpart
+        name: counterpart
+        widget: string
+        required: false
+        hint: >-
+          Slug van de EN-vertaling van dit artikel, als die bestaat (leeg = nog geen vertaling).
+          Technische koppeling (anders dan "ID" hierboven): src/data/routes.ts leidt hieruit de
+          sitemap/hreflang/taalwisselaar-route van dit artikel af. Voorbeeld:
+          "why-ai-pilots-stall".
+      - label: Categorie
+        name: category
+        widget: string
+        hint: >-
+          Voorbeeld: "Strategie", "Organisatie", "Use cases", "Tools & data", "Governance"
+          (bestaande categorieën; een nieuwe mag, verschijnt dan als nieuw filter op de hub).
+      - label: Tone
+        name: tone
+        widget: select
+        options: [aqua, sand, salmon, yellow]
+        hint: "Kleur van het kaartje op de inzichten-hub."
+      - label: Icon
+        name: icon
+        widget: string
+        hint: "Eén teken/symbool voor het kaartje. Voorbeeld: ◷, ⚖, ◐."
+      - label: Featured
+        name: featured
+        widget: boolean
+        default: false
+        hint: "Maximaal één artikel per taal mag 'true' zijn; dat verschijnt uitgelicht op de hub."
+      - label: Titel
+        name: title
+        widget: string
+        hint: "Volledige titel, gebruikt in <title>, JSON-LD en kaartjes."
+      - label: "Titel (regel 1)"
+        name: titleLine1
+        widget: string
+        hint: "Eerste regel van de H1 op de artikelpagina (titel loopt over twee regels)."
+      - label: "Titel (regel 2, gemarkeerd)"
+        name: titleLine2
+        widget: string
+        hint: "Tweede regel van de H1, met een markeeraccent."
+      - label: Excerpt
+        name: excerpt
+        widget: text
+        hint: "Korte samenvatting op kaartjes en in de RSS-feed/meta description-fallback."
+      - label: "Meta title"
+        name: metaTitle
+        widget: string
+        required: false
+        hint: "Optioneel; valt terug op Titel als dit leeg is."
+      - label: "Meta description"
+        name: metaDescription
+        widget: text
+        required: false
+        hint: "Optioneel; valt terug op Excerpt als dit leeg is."
+      - label: Lede
+        name: lede
+        widget: text
+        hint: "Openingsalinea direct onder de titel."
+      - label: Leestijd
+        name: readingTime
+        widget: string
+        hint: "Voorbeeld: \"6 min leestijd\"."
+      - label: Publicatiedatum
+        name: date
+        widget: string
+        pattern: ["^\\d{4}-\\d{2}-\\d{2}$", "Formaat JJJJ-MM-DD"]
+        hint: "Publicatiedatum, formaat JJJJ-MM-DD. Bepaalt de sortering op de hub en in de RSS-feed."
+      - label: "Publicatiedatum (label)"
+        name: dateLabel
+        widget: string
+        hint: "Zichtbare datum. Voorbeeld: \"6 november 2026\"."
+      - label: Updated
+        name: updated
+        widget: string
+        required: false
+        hint: "Datum van de laatste inhoudelijke wijziging, formaat JJJJ-MM-DD. Leeg = geen wijziging sinds publicatie."
+      - label: Order
+        name: order
+        widget: number
+        required: false
+        valueType: int
+        hint: >-
+          Tiebreak bij een gelijke 'Publicatiedatum' met een ander artikel (lager = nieuwer/boven
+          op de hub en in de RSS-feed). Alleen nodig bij een exacte datumbotsing; anders leeg laten.
+      - name: summary
+        label: Summary
+        widget: list
+        field: { label: Punt, name: item, widget: string }
+        hint: "Korte bullets in het 'IN HET KORT'-kaartje."
+      - label: "Summary (slotregel)"
+        name: summaryClose
+        widget: string
+        hint: "Afsluitende regel onder de summary-bullets."
+      - name: takeaways
+        label: "Key takeaways"
+        widget: list
+        hint: "Elk item precies twee regels: een korte titel en de toelichting."
+        field:
+          label: Takeaway
+          name: pair
+          widget: list
+          min: 2
+          max: 2
+          field: { label: Regel, name: line, widget: string }
+      - label: Onthoud
+        name: remember
+        widget: string
+        hint: "Citaat-achtige afsluitregel in het zijpaneel."
+      - name: related
+        label: "Verder lezen"
+        widget: list
+        required: false
+        field: { label: Slug, name: slug, widget: string, hint: "Slug van een ander NL-artikel, bijv. \"ai-governance-zonder-bureaucratie\"." }
+      - name: faq
+        label: FAQ
+        widget: list
+        required: false
+        fields:
+          - { label: Vraag, name: q, widget: string }
+          - { label: Antwoord, name: a, widget: text }
+      - label: "Inhoud (body)"
+        name: body
+        widget: text
+        hint: >-
+          Gewoon tekstveld, geen markdown-editor, zodat de opmaak niet verandert. Dit veld bevat
+          de kant-en-klare HTML van het artikel; wijzig de structuur (koppen, links) alleen met
+          zorg, zie de werkafspraak in docs/cms.md en planning/werkafspraak-publicatiedagen.md.
+      - { name: "P04", label: "Tarieven", file: "src/content/pages/nl/tarieven/index.md", fields: *overigeFieldsNl }

@@ -1,28 +1,37 @@
-import a01 from './freelance-ai-consultant-vs-agency-vs-big4.js';
-import a02 from './van-ai-strategie-naar-waarde.js';
-import a03 from './build-buy-of-partner.js';
-import a04 from './welke-ai-use-cases-leveren-resultaat.js';
-import a05 from './het-datafundament-onder-ai.js';
-import a06 from './ai-governance-zonder-bureaucratie.js';
-import a07 from './waarom-ai-pilots-blijven-steken.js';
-import a08 from './de-business-case-voor-ai.js';
-import a09 from './ai-adoptie-begint-bij-het-werk.js';
-import a10 from './ai-vendorselectie-in-acht-stappen.js';
-import a11 from './wanneer-heb-je-echt-een-ai-strateeg-nodig.js';
-import a12 from './ai-agents-wat-ze-wel-en-niet-kunnen.js';
-import a13 from './shadow-ai.js';
-import a14 from './ai-klantenservice.js';
+// NL-inzichtenartikelen staan sinds de CMS-migratie als losse markdown-bestanden in
+// src/content/articles/nl/<slug>/index.md (content.config.ts, 'articles'-collectie), niet meer
+// als JS-objectliteral in dit mapje. Deze helpers lezen nu uit die collectie, maar houden
+// dezelfde naam en signatuur als vóór de migratie (zie planning/migratieplan-inzichten-cms.md),
+// op de 'async' na: getCollection() is zelf async, dus zijn getArticle/articleCategories dat nu
+// ook. Consumenten die deze functies aanroepen, 'await' ze.
+import { getCollection } from 'astro:content';
 
-// Nieuwste eerst. 'order' is de tiebreaker bij gelijke 'date' (laag = nieuwer/boven), zodat de
-// volgorde op de hub en in de RSS-feed niet verschuift als twee artikelen dezelfde datum krijgen.
-export const articles = [a01, a02, a03, a04, a05, a06, a07, a08, a09, a10, a11, a12, a13, a14]
-  .sort((x, y) => (x.date !== y.date ? (x.date < y.date ? 1 : -1) : (x.order ?? 0) - (y.order ?? 0)));
+// 'order' is de tiebreak bij een gelijke 'date' (laag = nieuwer/boven), zodat de volgorde op de
+// hub en in de RSS-feed niet verschuift als twee artikelen dezelfde datum krijgen. Front matter
+// van elk NL-artikel bevat dit veld al (zie src/content/articles/nl/*/index.md).
+const sortNl = (x, y) => (x.date !== y.date ? (x.date < y.date ? 1 : -1) : (x.order ?? 0) - (y.order ?? 0));
 
-export const featuredArticle = articles.find((a) => a.featured) ?? articles[0];
-export const otherArticles = articles.filter((a) => a !== featuredArticle);
-export const getArticle = (slug) => articles.find((a) => a.slug === slug);
+async function nlArticles() {
+  const entries = await getCollection('articles', ({ data }) => data.lang === 'nl');
+  return entries.map((e) => e.data).sort(sortNl);
+}
 
-export const articleCategories = [
-  'Alle inzichten',
-  ...Array.from(new Set(articles.map((a) => a.category))),
-];
+export async function getArticle(slug) {
+  return (await nlArticles()).find((a) => a.slug === slug);
+}
+
+export async function articleCategories() {
+  const articles = await nlArticles();
+  return ['Alle inzichten', ...Array.from(new Set(articles.map((a) => a.category)))];
+}
+
+export async function featuredArticle() {
+  const articles = await nlArticles();
+  return articles.find((a) => a.featured) ?? articles[0];
+}
+
+export async function otherArticles() {
+  const articles = await nlArticles();
+  const featured = await featuredArticle();
+  return articles.filter((a) => a !== featured);
+}

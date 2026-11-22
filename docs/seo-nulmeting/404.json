@@ -2,7 +2,7 @@
   "url": "/404",
   "build_bestand": "dist/404.html",
   "html": {
-    "bytes": 13231,
+    "bytes": 13254,
     "lang": "nl"
   },
   "beschermd": {
@@ -38,8 +38,8 @@
   ],
   "bodytekst": {
     "regio": "main",
-    "woorden": 70,
-    "sha256": "edf334e0b374353d821f5353a16b36a4650f7b95bc11ea054ee465446a94e01a",
+    "woorden": 74,
+    "sha256": "c0291c5c20012f6bea4602b9da449bd85d67857af6af90ccd363cc668512d9e2",
     "blokken": [
       "Foutje",
       "Deze pagina bestaat niet.",
@@ -48,7 +48,7 @@
       "Diensten",
       "AI Readiness Assessment →AI Strategy Sprint →Fractional AI Lead →",
       "Gelezen artikelen",
-      "AI in klantenservice: wat werkt wel en wat niet →Shadow AI: medewerkers gebruiken AI toch al, wat nu? →AI-agents: wat ze wel en niet kunnen in een bedrijfsproces →"
+      "AI Act na de Digital Omnibus: wat schuift op en wat blijft gelden →Shadow AI: medewerkers gebruiken AI toch al, wat nu? →AI-agents: wat ze wel en niet kunnen in een bedrijfsproces →"
     ]
   },
   "links": [
@@ -153,8 +153,8 @@
     {
       "regio": "main",
       "soort": "intern",
-      "href": "/nl/inzichten/ai-klantenservice",
-      "anker": "AI in klantenservice: wat werkt wel en wat niet →",
+      "href": "/nl/inzichten/ai-act-digital-omnibus",
+      "anker": "AI Act na de Digital Omnibus: wat schuift op en wat blijft gelden →",
       "rel": null
     },
     {

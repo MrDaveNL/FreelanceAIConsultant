@@ -21,7 +21,11 @@ const report = (file, msg) => {
   problems++;
   console.log(`✗ ${path.relative(dist, file)}: ${msg}`);
 };
-for (const file of walk(dist)) {
+// /admin is het Sveltia CMS-bewerkscherm, geen contentpagina (noindex/nofollow, geen sitemap-
+// entry, zie deploy/nginx-freelanceaiconsultant.conf en public/admin/index.html): de SEO-checks
+// hieronder (titel-/beschrijvingslengte, H1-telling) gaan niet over deze statische CMS-shell.
+const isAdmin = (file) => path.relative(dist, file).split(path.sep)[0] === 'admin';
+for (const file of walk(dist).filter((f) => !isAdmin(f))) {
   const html = fs.readFileSync(file, 'utf8');
   for (const [, href, hash] of html.matchAll(/href="(\/[^"#?]*)(?:#([^"]*))?"/g)) {
     if (!exists(href)) report(file, `kapotte link ${href}`);
