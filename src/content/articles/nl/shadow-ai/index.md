@@ -2,6 +2,7 @@
 id: nl-shadow-ai
 lang: nl
 slug: shadow-ai
+counterpart: shadow-ai
 category: Governance
 tone: salmon
 icon: ◐
