@@ -118,3 +118,83 @@ op main staat of al gemerged is.
 BLOG-11 linkte live naar BLOG-02, dat op het moment van schrijven nog niet gemerged was, maar wél
 weken vóór BLOG-11 publiceert. Die link was dus terecht een gewone link, geen LINK-TODO, en is
 ook niet aangepast.
+
+## Conversiestap na de CMS-migratie (vanaf dinsdag 24 november 2026)
+
+Sinds de inzichten-CMS-migratie (branch `feat/inzichten-cms-migratie`,
+`planning/migratieplan-inzichten-cms.md`) staan NL- en EN-inzichtenartikelen niet meer als
+`.js`-bestand (`src/data/articles/*.js`) resp. los item in `src/content/articles/all.json`, maar
+als één markdown-bestand per artikel per taal
+(`src/content/articles/{nl,en}/<slug>/index.md`). Vanaf dinsdag 24 november 2026 bevat de
+publicatiedag-routine hierboven daarom een extra stap, ná het mergen van `main` in de
+blogbranch (stap 1) en vóór de build/check/deploy-stap (stap 4):
+
+1. **Extraheer het nieuwe artikel/de nieuwe artikelen.** Een blogbranch die vóór de migratie is
+   afgetakt, voegt een artikel nog toe in het oude formaat: een nieuw bestand onder
+   `src/data/articles/*.js` voor NL, en/of een nieuw item in `src/content/articles/all.json` voor
+   EN. Draai het extractiescript (geschreven bij de migratie, zie stap 1 van
+   `planning/migratieplan-inzichten-cms.md`) op precies dat nieuwe bestand/item:
+   ```
+   node scripts/extract-articles-to-md.mjs --nl-js <pad-naar-het-nieuwe-.js-bestand>
+   node scripts/extract-articles-to-md.mjs --en-json <pad-naar-het-nieuwe-EN-item-als-los-JSON-bestand>
+   ```
+   Dit zet de toevoeging om naar `src/content/articles/{nl,en}/<slug>/index.md`, in het nieuwe
+   per-artikel-formaat. Verwijder daarna de oude `.js`-bronbestanden en eventuele reste van
+   `all.json` die niet meer bestaan op de post-migratie `main` (een merge van een branch die deze
+   nu-verwijderde bestanden nog wijzigt, kan ze laten terugkomen; dat hoort niet, en moet vóór de
+   build worden opgeruimd).
+   Heeft het nieuwe artikel al een vertaling in de andere taal, zet dan in het bron-item vóór de
+   extractie een `counterpart`-veld met de slug van die vertaling (bijv. in het NL `.js`-bestand
+   `counterpart: 'why-ai-pilots-stall'`, in het EN-JSON-item `"counterpart": "waarom-ai-pilots-blijven-steken"`).
+   `src/data/routes.ts` (`buildArticleRoutes()`) leidt hieruit de sitemap/hreflang/taalwisselaar-
+   route van het artikel af; zonder dit veld blijft het artikel gewoon alleen in zijn eigen taal
+   live (geen fout, maar ook geen taalkoppeling) totdat de vertaling verschijnt. Geen routes.ts-
+   regel meer nodig: zie fix/sitemap-automatisch.
+2. **Draai een dist-diff.** Bouw de site vóór en na deze conversiestap (of vóór en na het mergen
+   van de blogbranch, als dat makkelijker is) en vergelijk de volledige `dist/`-bomen. Het enige
+   toegestane verschil is de set nieuwe URL's van het nieuwe artikel/de nieuwe artikelen zelf
+   (de artikelpagina, de hub-pagina's, de RSS-feeds, de sitemaps). Al het overige bestaande moet
+   byte-identiek blijven. Wijkt er iets anders af, stop en meld dat exact in plaats van het te
+   negeren.
+3. Dit geldt per 24 november 2026 concreet voor **BLOG-01-en, BLOG-02-en en BLOG-03** (op het
+   moment van schrijven nog te mergen branches): zodra een van die branches wordt gemerged, hoort
+   deze conversiestap bij de publicatiedag-routine van dat artikel, bovenop de vier
+   standaardstappen en de taalpaar-stappen hierboven.
+
+   **Concreet voor BLOG-01-en en BLOG-02-en** (status 22 november 2026, nog niet gemerged):
+   dit zijn de EN-vertalingen van precies de twee NL-artikelen die met fix/sitemap-automatisch
+   als eentalig (nog geen `counterpart`) zijn gezet: BLOG-01-en = `shadow-ai` (EN-slug ook
+   `shadow-ai`), BLOG-02-en = `ai-act-digital-omnibus` (EN-slug
+   `ai-act-after-the-digital-omnibus`). Zodra een van deze twee gemerged wordt:
+   - Zet bij de extractie het `counterpart`-veld aan **beide** kanten: in het NL-artikel
+     (`src/content/articles/nl/<slug>/index.md`) `counterpart: <en-slug>`, in het nieuwe
+     EN-artikel `counterpart: <nl-slug>`. Zonder dit blijft het paar ten onrechte eentalig
+     (geen build-fout, wel een gemiste taalkoppeling) — dus dit NIET overslaan omdat de build
+     toch slaagt.
+   - Beide branches voegen ook nog een regel toe aan `src/data/routes.ts` (oude, vóór deze fix
+     geschreven commit, toen de handmatige artikel-lijst nog bestond). Die regel hoort nergens
+     meer: de merge geeft hier naar verwachting een conflict (de sectie met handmatige
+     artikel-routes is verwijderd) — **verwijder de toegevoegde regel volledig**, `routes.ts`
+     heeft 'm niet nodig, `buildArticleRoutes()` pikt het artikel automatisch op zodra het
+     bestand en `counterpart` er staan.
+   - Een `counterpart`-waarde die niet bestaat in de andere taal (typefout in de slug, of de
+     extractie per ongeluk maar aan één kant uitgevoerd) laat de build hard falen met een
+     duidelijke melding (`buildArticleRoutes()` in `routes.ts`) — dat is precies de bedoelde
+     werking, dus bij die melding niet de fout omzeilen maar de `counterpart`-waarde of de
+     extractie corrigeren. Dit is de eerste keer dat dit fail-loud-mechanisme in de praktijk
+     wordt getest.
+
+**Waarom:** de migratie verandert de opslagvorm van inzichtenartikelen, niet de inhoud of de
+sortering (zie `planning/migratieplan-inzichten-cms.md` voor het bewijs daarvan: een dist-diff
+van de volledige site, vóór en na. Verwacht verschil 1: de lastBuildDate van de RSS-feeds
+(bouwtijdstip). Verwacht verschil 2: de `lastmod` van de hub-pagina's `/nl/inzichten` en
+`/insights` in de sitemaps schoof op naar de migratiedatum, niet omdat de inhoud van die
+hub-pagina's veranderde (die is byte-identiek), maar omdat `src/lib/sitemap.ts` voor deze
+routes `lastmod` afleidt van de git-commitdatum van het bijbehorende `.astro`-bestand, en de
+migratie `src/pages/nl/inzichten/index.astro`, `src/pages/insights/index.astro` en
+`src/pages/rss.xml.js` moest aanpassen (async/sorteer-tiebreak). Opgelost op fix/sitemap-
+automatisch: `src/lib/sitemap.ts` leidt de `lastmod` van deze hub-pagina's nu af van het meest
+recente artikel in die taal, niet meer van de git-datum van het routebestand. Een blogbranch die vóór de migratie is afgetakt, "weet" nog niets van de nieuwe
+opslagvorm en voegt daarom nog in het oude formaat toe; zonder deze conversiestap zou die
+toevoeging als `.js`-bestand of `all.json`-item op `main` belanden, naast de nieuwe
+markdown-collectie, met twee databronnen voor dezelfde inzichten als gevolg.

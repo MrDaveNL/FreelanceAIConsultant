@@ -44,7 +44,13 @@ export async function sitemapRoutes(loc: Locale): Promise<SitemapRoute[]> {
   const pages = await getCollection('pages', ({ data }) => data.lang === loc);
   const articles = await getCollection('articles', ({ data }) => data.lang === loc);
   const updatedByUrl = new Map(pages.map((p) => [p.data.url, p.data.updated]));
-  const dateBySlug = new Map(articles.map((a) => [a.data.slug, a.data.date]));
+  // 'updated ?? date': dateModified in [slug].astro valt op dezelfde manier terug op 'date',
+  // dus de sitemap-lastmod van een artikel loopt hiermee in de pas met zijn eigen JSON-LD.
+  const dateBySlug = new Map(articles.map((a) => [a.data.slug, a.data.updated ?? a.data.date]));
+  // lastmod van de inzichten/insights-hub = datum van het meest recente artikel in die taal, niet
+  // de git-datum van index.astro: de hub toont precies de artikelenlijst, dus alleen een
+  // nieuw/gewijzigd artikel verandert wat zichtbaar is.
+  const latestArticleDate = Array.from(dateBySlug.values()).reduce((max, d) => (d > max ? d : max), '');
   const servicesFile = loc === 'nl' ? 'src/data/services.js' : 'src/content/services/all.json';
   const casesFile = loc === 'nl' ? 'src/data/cases.js' : 'src/content/cases/all.json';
 
@@ -56,9 +62,10 @@ export async function sitemapRoutes(loc: Locale): Promise<SitemapRoute[]> {
       if (entry.kind === 'content') lastmod = updatedByUrl.get(path) ?? gitLastModified('src/content/pages');
       // dateBySlug is per-locale; de sleutel moet dus de slug van déze taalversie zijn (de laatste
       // padsegment), niet entry.id (dat altijd de NL-slug is, ook voor EN-routes).
-      else if (entry.kind === 'article') lastmod = dateBySlug.get(path.split('/').pop()!) ?? gitLastModified('src/data/articles');
+      else if (entry.kind === 'article') lastmod = dateBySlug.get(path.split('/').pop()!) ?? gitLastModified('src/content/articles');
       else if (entry.kind === 'service') lastmod = gitLastModified(servicesFile);
       else if (entry.kind === 'case') lastmod = gitLastModified(casesFile);
+      else if (entry.id === 'inzichten') lastmod = latestArticleDate || gitLastModified(STATIC_SOURCE[entry.id]?.[loc] ?? 'src/pages');
       else lastmod = gitLastModified(STATIC_SOURCE[entry.id]?.[loc] ?? 'src/pages');
       return { entry, path, lastmod };
     });

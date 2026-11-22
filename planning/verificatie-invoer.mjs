@@ -27,7 +27,7 @@ fs.writeFileSync(path.join(uit, 'prijzen-waarden.txt'), `${waarden.join('\n')}\n
 const bronnenVan = (url) => {
   const md = `src/content/pages${url}/index.md`;
   if (fs.existsSync(path.join(root, md))) return [md];
-  if (url.startsWith('/inzichten/')) return [`src/data/articles/${url.split('/').pop()}.js`];
+  if (url.startsWith('/inzichten/')) return [`src/content/articles/nl/${url.split('/').pop()}/index.md`];
   if (url === '/diensten') return ['src/pages/diensten/index.astro', 'src/data/services.js'];
   if (url.startsWith('/diensten/')) return ['src/data/services.js', 'src/pages/diensten/[slug].astro'];
   throw new Error(`geen bron bekend voor ${url}`);

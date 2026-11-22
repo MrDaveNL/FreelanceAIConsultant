@@ -1,32 +1,39 @@
-export default {
-  slug: 'ai-agents-wat-ze-wel-en-niet-kunnen',
-  category: 'Use cases',
-  tone: 'salmon',
-  icon: '↯',
-  featured: false,
-  title: 'AI-agents: wat ze wel en niet kunnen in een bedrijfsproces',
-  titleLine1: 'AI-agents: wat ze wel',
-  titleLine2: 'en niet kunnen',
-  excerpt: 'Agents die zelfstandig taken uitvoeren zijn de belofte van dit moment. Waar ze werken, waar ze stukgaan, en welke vraag je vooraf moet beantwoorden.',
-  lede: 'Een agent die zelf stappen zet en systemen aanroept, is aantrekkelijk en risicovol tegelijk. Het onderscheid zit in wat er gebeurt als hij ernaast zit.',
-  readingTime: '4 min leestijd',
-  date: '2026-11-05',
-  dateLabel: '5 november 2026',
-  order: 1,
-  summary: [
-    'Agents werken goed bij omkeerbare stappen met een duidelijke eindtoets.',
-    'Ze gaan stuk op processen waar een fout stilletjes doorwerkt.',
-    'Begin met voorbereiden en voorstellen, niet met uitvoeren.',
-  ],
-  summaryClose: 'Bepaal eerst wat een fout kost, dan pas hoeveel autonomie je geeft.',
-  takeaways: [
-    ['Omkeerbaarheid als criterium', 'Geef autonomie op stappen die je zonder schade kunt terugdraaien.'],
-    ['Een agent is een proces, geen tool', 'De vraag is niet welk model, maar welke stappen je uit handen geeft.'],
-    ['Logging is niet optioneel', 'Zonder volledig spoor van stappen kun je een fout niet reconstrueren.'],
-  ],
-  remember: 'Autonomie is geen eigenschap van het model, het is een keuze van de organisatie.',
-  related: ['welke-ai-use-cases-leveren-resultaat', 'ai-governance-zonder-bureaucratie'],
-  body: `
+---
+id: nl-ai-agents-wat-ze-wel-en-niet-kunnen
+lang: nl
+slug: ai-agents-wat-ze-wel-en-niet-kunnen
+counterpart: what-ai-agents-can-and-cannot-do
+category: Use cases
+tone: salmon
+icon: ↯
+featured: false
+title: 'AI-agents: wat ze wel en niet kunnen in een bedrijfsproces'
+titleLine1: 'AI-agents: wat ze wel'
+titleLine2: en niet kunnen
+excerpt: Agents die zelfstandig taken uitvoeren zijn de belofte van dit moment. Waar ze werken, waar ze stukgaan, en welke vraag je vooraf moet beantwoorden.
+lede: Een agent die zelf stappen zet en systemen aanroept, is aantrekkelijk en risicovol tegelijk. Het onderscheid zit in wat er gebeurt als hij ernaast zit.
+readingTime: 4 min leestijd
+date: '2026-11-05'
+dateLabel: 5 november 2026
+order: 1
+summary:
+  - Agents werken goed bij omkeerbare stappen met een duidelijke eindtoets.
+  - Ze gaan stuk op processen waar een fout stilletjes doorwerkt.
+  - Begin met voorbereiden en voorstellen, niet met uitvoeren.
+summaryClose: Bepaal eerst wat een fout kost, dan pas hoeveel autonomie je geeft.
+takeaways:
+  - - Omkeerbaarheid als criterium
+    - Geef autonomie op stappen die je zonder schade kunt terugdraaien.
+  - - Een agent is een proces, geen tool
+    - De vraag is niet welk model, maar welke stappen je uit handen geeft.
+  - - Logging is niet optioneel
+    - Zonder volledig spoor van stappen kun je een fout niet reconstrueren.
+remember: Autonomie is geen eigenschap van het model, het is een keuze van de organisatie.
+related:
+  - welke-ai-use-cases-leveren-resultaat
+  - ai-governance-zonder-bureaucratie
+---
+
 <h2>Wat een agent anders maakt</h2>
 <p>Een gewone AI-toepassing krijgt een opdracht en geeft een antwoord. Een agent krijgt een doel en bepaalt zelf welke stappen nodig zijn: informatie ophalen, een systeem raadplegen, een tussenresultaat beoordelen, een vervolgstap kiezen. Dat maakt het krachtiger en het verandert de risicovraag fundamenteel.</p>
 <p>Bij een gewoon antwoord beoordeel je één uitkomst. Bij een agent beoordeel je een keten waarin een fout in stap twee doorwerkt in stap vijf, mogelijk zonder dat de eindoutput er verkeerd uitziet. Dat is precies waar het in de praktijk misgaat.</p>
@@ -79,5 +86,3 @@ export default {
 <h2>Wat dit in de praktijk betekent</h2>
 <p>De toepassingen die ik in productie zie werken, zijn zelden de spectaculaire. Het zijn agents die dossiers voorbereiden, informatie uit verschillende systemen samenbrengen, of een eerste versie opstellen die een mens afmaakt. De tijdwinst is reëel (vaak tientallen procenten op de voorbereidende stap) en het risico is beheersbaar omdat er altijd iemand naar kijkt voordat het ertoe doet.</p>
 <p>De toepassingen die stranden, zijn de ketens die te vroeg te veel zelfstandigheid kregen. Niet omdat de technologie het niet kon, maar omdat niemand had vastgesteld wat er zou gebeuren als hij het bij het verkeerde eind had. Die vraag kost een half uur en bepaalt of je toepassing over een jaar nog draait.</p>
-`,
-};
