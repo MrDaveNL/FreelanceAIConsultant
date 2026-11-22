@@ -981,7 +981,7 @@ collections:
         name: order
         widget: number
         required: false
-        valueType: int
+        value_type: int
         hint: >-
           Tiebreak bij een gelijke 'Published date' met een ander artikel (lager = nieuwer/boven
           op de hub en in de RSS-feed). Alleen nodig bij een exacte datumbotsing; anders leeg laten.
@@ -1137,7 +1137,7 @@ collections:
         name: order
         widget: number
         required: false
-        valueType: int
+        value_type: int
         hint: >-
           Tiebreak bij een gelijke 'Publicatiedatum' met een ander artikel (lager = nieuwer/boven
           op de hub en in de RSS-feed). Alleen nodig bij een exacte datumbotsing; anders leeg laten.
