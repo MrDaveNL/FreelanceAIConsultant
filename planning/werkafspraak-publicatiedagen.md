@@ -161,6 +161,29 @@ blogbranch (stap 1) en vóór de build/check/deploy-stap (stap 4):
    deze conversiestap bij de publicatiedag-routine van dat artikel, bovenop de vier
    standaardstappen en de taalpaar-stappen hierboven.
 
+   **Concreet voor BLOG-01-en en BLOG-02-en** (status 22 november 2026, nog niet gemerged):
+   dit zijn de EN-vertalingen van precies de twee NL-artikelen die met fix/sitemap-automatisch
+   als eentalig (nog geen `counterpart`) zijn gezet: BLOG-01-en = `shadow-ai` (EN-slug ook
+   `shadow-ai`), BLOG-02-en = `ai-act-digital-omnibus` (EN-slug
+   `ai-act-after-the-digital-omnibus`). Zodra een van deze twee gemerged wordt:
+   - Zet bij de extractie het `counterpart`-veld aan **beide** kanten: in het NL-artikel
+     (`src/content/articles/nl/<slug>/index.md`) `counterpart: <en-slug>`, in het nieuwe
+     EN-artikel `counterpart: <nl-slug>`. Zonder dit blijft het paar ten onrechte eentalig
+     (geen build-fout, wel een gemiste taalkoppeling) — dus dit NIET overslaan omdat de build
+     toch slaagt.
+   - Beide branches voegen ook nog een regel toe aan `src/data/routes.ts` (oude, vóór deze fix
+     geschreven commit, toen de handmatige artikel-lijst nog bestond). Die regel hoort nergens
+     meer: de merge geeft hier naar verwachting een conflict (de sectie met handmatige
+     artikel-routes is verwijderd) — **verwijder de toegevoegde regel volledig**, `routes.ts`
+     heeft 'm niet nodig, `buildArticleRoutes()` pikt het artikel automatisch op zodra het
+     bestand en `counterpart` er staan.
+   - Een `counterpart`-waarde die niet bestaat in de andere taal (typefout in de slug, of de
+     extractie per ongeluk maar aan één kant uitgevoerd) laat de build hard falen met een
+     duidelijke melding (`buildArticleRoutes()` in `routes.ts`) — dat is precies de bedoelde
+     werking, dus bij die melding niet de fout omzeilen maar de `counterpart`-waarde of de
+     extractie corrigeren. Dit is de eerste keer dat dit fail-loud-mechanisme in de praktijk
+     wordt getest.
+
 **Waarom:** de migratie verandert de opslagvorm van inzichtenartikelen, niet de inhoud of de
 sortering (zie `planning/migratieplan-inzichten-cms.md` voor het bewijs daarvan: een dist-diff
 van de volledige site, vóór en na. Verwacht verschil 1: de lastBuildDate van de RSS-feeds
