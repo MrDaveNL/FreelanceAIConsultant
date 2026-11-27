@@ -68,9 +68,15 @@ jobs:
             echo "FILES_EOF"
           } >> "$GITHUB_OUTPUT"
 
+          # Drie pogingen, in volgorde: eigen foutmarkers van onze scripts, dan de eerste regel
+          # met "error" (bijv. Astro's [InvalidContentEntryDataError]), dan pas de eerste regel
+          # van de hele log. Altijd de EERSTE treffer, nooit de laatste regel: bij een gecrashte
+          # build staat de echte oorzaak vooraan, en de laatste regel is vaak alleen ruis
+          # (bijv. een libuv-assertion bij het afsluiten van het Node-proces na de fout).
           if [ "${{ job.status }}" != "success" ]; then
             line="$(grep -m1 -E '^✗|FOUT:|not ok' run-output.log 2>/dev/null || true)"
-            [ -n "$line" ] || line="$(tail -n 1 run-output.log 2>/dev/null || echo 'Onbekende fout, zie de run-log.')"
+            [ -n "$line" ] || line="$(grep -m1 -iE 'error' run-output.log 2>/dev/null || true)"
+            [ -n "$line" ] || line="$(head -n 1 run-output.log 2>/dev/null || echo 'Onbekende fout, zie de run-log.')"
             {
               echo "## npm run build/check/test gefaald"
               echo '```'

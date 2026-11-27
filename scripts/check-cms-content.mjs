@@ -2,8 +2,9 @@
 //
 // Twee soorten controles:
 // 1. Toegevoegde regels (alleen "+"-regels uit de diff, niet de hele pagina) op TEST, TODO,
-//    FIXME, lorem, xxx en op em dashes (—). Hoofdlettergevoelig op TEST/TODO/FIXME, zodat
-//    gewone tekst als "testen" niet blokkeert.
+//    FIXME, lorem, xxx en op em dashes (—). TEST is hoofdletterongevoelig (vangt ook een
+//    vergeten "test" in kleine letters), TODO/FIXME blijven hoofdlettergevoelig. \b aan beide
+//    kanten voorkomt dat gewone tekst als "testen" of "contest" blokkeert.
 // 2. De {{price:...}}, {{pricelc:...}}, {{timing:...}} en {{title:...}}-tokens: voor elk
 //    bestand dat in de diff voorkomt, mag geen token verdwijnen of veranderen ten opzichte van
 //    de main-versie. Dit vangt een CMS-save die per ongeluk een token overtypt of weggooit.
@@ -14,7 +15,7 @@ import { execSync } from 'node:child_process';
 import { pathToFileURL } from 'node:url';
 
 const FORBIDDEN = [
-  { name: 'TEST', re: /\bTEST\b/ },
+  { name: 'TEST', re: /\btest\b/i },
   // Negatieve lookbehind sluit "LINK-TODO" uit: dat is een bewuste, zichtbare placeholder uit de
   // publicatiedag-routine (planning/werkafspraak-publicatiedagen.md), geen vergeten TODO. Deze
   // check draait sowieso alleen op de cms-branch, waar inzichten-artikelen (en dus LINK-TODO's)

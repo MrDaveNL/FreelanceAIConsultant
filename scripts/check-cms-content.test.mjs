@@ -26,6 +26,12 @@ test('findForbidden signaleert TEST als los hoofdletterwoord', () => {
   assert.equal(hits[0].hit, 'TEST');
 });
 
+test('findForbidden signaleert "test" ook los in kleine letters', () => {
+  const hits = findForbidden([{ file: 'x', text: 'Dit page covers how to approach that. test' }]);
+  assert.equal(hits.length, 1);
+  assert.equal(hits[0].hit, 'TEST');
+});
+
 test('findForbidden signaleert TODO, FIXME, lorem, xxx en em dash', () => {
   const cases = ['nog een TODO hier', 'FIXME later', 'lorem ipsum tekst', 'placeholder xxx waarde', 'tekst — met em dash'];
   for (const text of cases) {

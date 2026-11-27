@@ -198,12 +198,22 @@ Omdat YAML geen manier heeft om een deel van een anchor-lijst te overschrijven (
 
 ## Byte-identiek-test
 
-`node scripts/check-cms-roundtrip.mjs` simuleert een Sveltia-opslag (front matter laden en
-opnieuw dumpen met js-yaml) op één pagina per CMS-collectie: een EN- en een NL-kennisbankpagina
-(`ai-examples`/`ai-voorbeelden`) en een EN- en een NL-pagina uit de "overige" collecties
-(`tarieven`, met prijstokens). Bouwt twee kopieën van de site (nooit de echte bestanden) en
-vergelijkt de gebouwde HTML. Uitkomst bij oplevering: alle vier pagina's byte-identiek. Draai dit
-opnieuw na een wijziging aan `content.config.ts` of aan de remark-plugins in `astro.config.mjs`.
+`node scripts/check-cms-roundtrip.mjs` simuleert een Sveltia-opslag (quotes weg, kale datums,
+inline objecten als blokmapping uitgeschreven - zie `sveltiaRewrite()` in dat script) op één
+pagina per CMS-collectie: een EN- en een NL-kennisbankpagina (`ai-examples`/`ai-voorbeelden`), een
+EN- en een NL-pagina uit de "overige" collecties (`tarieven`, met prijstokens), en `ai-agents/build`
+(de pagina die op 27 november 2026 de build brak via commit 550f9af op cms, zie onder). Bouwt twee
+kopieën van de site (nooit de echte bestanden) en vergelijkt de gebouwde HTML. Uitkomst bij
+oplevering: alle vijf pagina's byte-identiek, en beide builds slagen. Draai dit opnieuw na een
+wijziging aan `content.config.ts` of aan de remark-plugins in `astro.config.mjs`.
+
+**Kale datums (`published`/`updated`/`date`):** Sveltia quote een JJJJ-MM-DD-veld bij het opslaan
+niet altijd. Een kale datum in YAML is geen tekst maar een timestamp; Astro's content-schema
+verwachtte tot commit 550f9af alleen `z.string()` op die velden, dus de build faalde met "Expected
+type string, received date". `content.config.ts` gebruikt nu `isoDateString` (een union van
+`z.string()` en `z.date()` die een `Date` terugnormaliseert naar hetzelfde `"JJJJ-MM-DD"`-formaat)
+op `published`/`updated` (pages) en `date`/`updated` (articles), zodat beide schrijfwijzen naar
+identieke gerenderde HTML bouwen.
 
 Daarnaast is bij de oplevering van fase 3 handmatig gecontroleerd dat een geheel NIEUWE
 kennisbankpagina, aangemaakt in beide talen met een nieuw id, zonder enige routes.ts-wijziging

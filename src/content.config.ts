@@ -20,6 +20,15 @@ const cta = z.object({
 // NL-content is ongewijzigd verplaatst; zie i18n-fase1-rapport.md voor de migratie.
 const locale = z.enum(['en', 'nl']);
 
+// Sveltia quote't een JJJJ-MM-DD-veld bij het opslaan niet altijd (zie docs/cms.md): de YAML-
+// parser leest zo'n kale datum dan als een Date-object i.p.v. de verwachte string, en de build
+// faalt op "Expected type string, received date". Accepteert daarom beide en normaliseert altijd
+// naar hetzelfde "JJJJ-MM-DD"-stringformaat, zodat de gerenderde HTML niet verandert ongeacht of
+// het veld in de front matter gequote is.
+const isoDateString = z
+  .union([z.string(), z.date()])
+  .transform((value) => (value instanceof Date ? value.toISOString().slice(0, 10) : value));
+
 const pages = defineCollection({
   loader: glob({ pattern: '**/*.md', base: './src/content/pages' }),
   schema: z.object({
@@ -42,8 +51,8 @@ const pages = defineCollection({
     primaryCta: cta,
     secondaryCta: cta.optional(),
     summary: z.array(z.string()).max(4).optional(),
-    published: z.string(),
-    updated: z.string(),
+    published: isoDateString,
+    updated: isoDateString,
     faqTitle: z.string().optional(),
     faq: z.array(z.object({ q: z.string(), a: z.string() })).optional(),
     // true = wel gebouwd, maar 'noindex, follow' en niet in de sitemap (nog niet publiceren).
@@ -202,11 +211,11 @@ const articles = defineCollection({
     metaDescription: z.string().optional(),
     lede: z.string(),
     readingTime: z.string(),
-    date: z.string(),
+    date: isoDateString,
     dateLabel: z.string(),
     // Optioneel: datum van de laatste inhoudelijke wijziging, voor dateModified in de schema.
     // Zonder dit veld valt dateModified terug op 'date' (nooit op de builddatum).
-    updated: z.string().optional(),
+    updated: isoDateString.optional(),
     // Optioneel: vaste tweede sorteersleutel (laag = nieuwer/boven), zodat de volgorde op de
     // inzichten-hub en in de RSS-feed niet verandert als twee artikelen dezelfde 'date' krijgen.
     order: z.number().optional(),
