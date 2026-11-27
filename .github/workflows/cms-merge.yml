@@ -38,13 +38,32 @@ jobs:
           fetch-depth: 0
       - id: diff
         run: |
-          git fetch origin main cms
-          if [ -n "$(git log origin/main..origin/cms --oneline)" ]; then
-            echo "has_changes=true" >> "$GITHUB_OUTPUT"
-          else
-            echo "has_changes=false" >> "$GITHUB_OUTPUT"
-            echo "Geen nieuwe commits op cms t.o.v. main, niets te verwerken." >> "$GITHUB_STEP_SUMMARY"
-          fi
+          set -o pipefail
+          {
+            git fetch origin main cms
+            if [ -n "$(git log origin/main..origin/cms --oneline)" ]; then
+              echo "has_changes=true" >> "$GITHUB_OUTPUT"
+            else
+              echo "has_changes=false" >> "$GITHUB_OUTPUT"
+              echo "Geen nieuwe commits op cms t.o.v. main, niets te verwerken." >> "$GITHUB_STEP_SUMMARY"
+            fi
+          } 2>&1 | tee run-output.log
+
+      # Zelfde drietrapsfallback als main.yml/verify-and-merge hieronder: eerst de eigen
+      # foutmarkers, dan de eerste regel met "error", dan pas de eerste regel van de log. Nooit de
+      # laatste regel: bij een mislukte "git fetch" staat de echte oorzaak vooraan, niet achteraan.
+      - name: Status voor de samenvatting
+        if: failure()
+        run: |
+          line="$(grep -m1 -E '^✗|FOUT:|not ok' run-output.log 2>/dev/null || true)"
+          [ -n "$line" ] || line="$(grep -m1 -iE 'error' run-output.log 2>/dev/null || true)"
+          [ -n "$line" ] || line="$(head -n 1 run-output.log 2>/dev/null || echo 'Onbekende fout, zie de run-log.')"
+          {
+            echo "## cms-merge (check) gefaald"
+            echo '```'
+            printf '%s\n' "$line"
+            echo '```'
+          } >> "$GITHUB_STEP_SUMMARY"
 
   verify-and-merge:
     needs: check
@@ -131,13 +150,17 @@ jobs:
           # geforceerde push nodig hebben.
           git push origin main:cms
 
+      # Zelfde drietrapsfallback als main.yml: eerst de eigen foutmarkers, dan de eerste regel met
+      # "error" (bijv. Astro's [InvalidContentEntryDataError]), dan pas de eerste regel van de
+      # hele log. Altijd de EERSTE treffer, nooit de laatste regel: de echte oorzaak staat vooraan.
       - name: Status voor de samenvatting en de notificatie
         id: status
         if: always()
         run: |
           if [ "${{ job.status }}" != "success" ]; then
             line="$(grep -m1 -E '^✗|FOUT:|not ok' run-output.log 2>/dev/null || true)"
-            [ -n "$line" ] || line="$(tail -n 1 run-output.log 2>/dev/null || echo 'Onbekende fout, zie de run-log.')"
+            [ -n "$line" ] || line="$(grep -m1 -iE 'error' run-output.log 2>/dev/null || true)"
+            [ -n "$line" ] || line="$(head -n 1 run-output.log 2>/dev/null || echo 'Onbekende fout, zie de run-log.')"
             {
               echo "## npm run build/check/test gefaald op de samengevoegde cms+main-staat"
               echo '```'

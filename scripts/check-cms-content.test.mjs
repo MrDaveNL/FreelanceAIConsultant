@@ -26,10 +26,28 @@ test('findForbidden signaleert TEST als los hoofdletterwoord', () => {
   assert.equal(hits[0].hit, 'TEST');
 });
 
-test('findForbidden signaleert "test" ook los in kleine letters', () => {
-  const hits = findForbidden([{ file: 'x', text: 'Dit page covers how to approach that. test' }]);
-  assert.equal(hits.length, 1);
-  assert.equal(hits[0].hit, 'TEST');
+test('findForbidden laat een los woord "test" in lopende tekst ongemoeid ("a test period")', () => {
+  const hits = findForbidden([
+    { file: 'x', text: '    a: Ask every delivery partner for a phase-by-phase plan, including a test period, and compare them side by side.' },
+  ]);
+  assert.equal(hits.length, 0);
+});
+
+test('findForbidden signaleert een veld waarvan de hele waarde "test" is', () => {
+  const cases = ['title: test', "metaTitle: 'Test'", 'navLabel: "TEST"', '- test'];
+  for (const text of cases) {
+    const hits = findForbidden([{ file: 'x', text }]);
+    assert.equal(hits.length, 1, `geen treffer voor: ${text}`);
+    assert.equal(hits[0].hit, 'TEST');
+  }
+});
+
+test('findForbidden laat een veld waarvan de waarde met "test" begint of eindigt, maar niet gelijk is, ongemoeid', () => {
+  const cases = ['title: test page', "lede: 'Here is some text, test'", 'label: testing'];
+  for (const text of cases) {
+    const hits = findForbidden([{ file: 'x', text }]);
+    assert.equal(hits.length, 0, `onterechte treffer voor: ${text}`);
+  }
 });
 
 test('findForbidden signaleert TODO, FIXME, lorem, xxx en em dash', () => {

@@ -2,9 +2,11 @@
 //
 // Twee soorten controles:
 // 1. Toegevoegde regels (alleen "+"-regels uit de diff, niet de hele pagina) op TEST, TODO,
-//    FIXME, lorem, xxx en op em dashes (—). TEST is hoofdletterongevoelig (vangt ook een
-//    vergeten "test" in kleine letters), TODO/FIXME blijven hoofdlettergevoelig. \b aan beide
-//    kanten voorkomt dat gewone tekst als "testen" of "contest" blokkeert.
+//    FIXME, lorem, xxx en op em dashes (—). TODO/FIXME zijn hoofdlettergevoelig. \b aan beide
+//    kanten voorkomt dat gewone tekst als "testen" of "contest" blokkeert. TEST blokkeert alleen
+//    hoofdletters ("TEST") of een regel waarvan de hele (eventueel gequote) waarde "test" is,
+//    hoofdletterongevoelig (isWholeFieldValueTest hieronder) — een los woord "test" in lopende
+//    tekst ("including a test period") is bewust GEEN treffer, dat is legitieme contenttekst.
 // 2. De {{price:...}}, {{pricelc:...}}, {{timing:...}} en {{title:...}}-tokens: voor elk
 //    bestand dat in de diff voorkomt, mag geen token verdwijnen of veranderen ten opzichte van
 //    de main-versie. Dit vangt een CMS-save die per ongeluk een token overtypt of weggooit.
@@ -15,7 +17,7 @@ import { execSync } from 'node:child_process';
 import { pathToFileURL } from 'node:url';
 
 const FORBIDDEN = [
-  { name: 'TEST', re: /\btest\b/i },
+  { name: 'TEST', test: (text) => /\bTEST\b/.test(text) || isWholeFieldValueTest(text) },
   // Negatieve lookbehind sluit "LINK-TODO" uit: dat is een bewuste, zichtbare placeholder uit de
   // publicatiedag-routine (planning/werkafspraak-publicatiedagen.md), geen vergeten TODO. Deze
   // check draait sowieso alleen op de cms-branch, waar inzichten-artikelen (en dus LINK-TODO's)
@@ -48,12 +50,27 @@ export function addedLines(diffText) {
   return out;
 }
 
+// Geeft true voor een "key: waarde"- of lijst-item-regel ("- waarde") waarvan de volledige,
+// eventueel aanhalingsteken-omsloten waarde letterlijk "test" is (hoofdletterongevoelig).
+// Herkent dus "title: test", "q: 'Test'" of "- TEST", maar niet een zin die toevallig op het
+// losse woord "test" eindigt (de waarde is dan de hele zin, niet "test").
+export function isWholeFieldValueTest(text) {
+  const m = text.match(/^\s*(?:[\w.-]+:\s*|-\s*)(.*)$/);
+  if (!m) return false;
+  let value = m[1].trim();
+  if (value.length >= 2 && ((value[0] === '"' && value.endsWith('"')) || (value[0] === "'" && value.endsWith("'")))) {
+    value = value.slice(1, -1).trim();
+  }
+  return /^test$/i.test(value);
+}
+
 // Geeft [{ file, text, hit }] voor elke toegevoegde regel die een verboden patroon bevat.
 export function findForbidden(lines) {
   const hits = [];
   for (const line of lines) {
-    for (const { name, re } of FORBIDDEN) {
-      if (re.test(line.text)) hits.push({ ...line, hit: name });
+    for (const { name, re, test } of FORBIDDEN) {
+      const matched = test ? test(line.text) : re.test(line.text);
+      if (matched) hits.push({ ...line, hit: name });
     }
   }
   return hits;
