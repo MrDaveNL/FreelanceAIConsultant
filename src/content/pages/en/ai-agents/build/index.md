@@ -3,36 +3,41 @@ id: C6-03
 lang: en
 url: /ai-agents/build
 parent: C6-00
-cluster: "6. AI Agents"
+cluster: 6. AI Agents
 pageType: Spoke
 schema: service
 navLabel: Build an AI agent
-title: "Having an AI agent built: approach, cost and timeline"
-metaTitle: "Build an AI Agent | Approach, Cost & Timeline"
-metaDescription: "Want an AI agent built for your business? See how the development process works, what it costs, how long it takes, and what to check on security and governance."
+title: 'Having an AI agent built: approach, cost and timeline'
+metaTitle: Build an AI Agent | Approach, Cost & Timeline
+metaDescription: Want an AI agent built for your business? See how the development process works, what it costs, how long it takes, and what to check on security and governance.
 keyphrase: build an ai agent
-eyebrow: "Build an AI agent"
-lede: "Having an AI agent built means buying a piece of process that acts on its own, not a product off a shelf. Success is largely decided before a single line of code is written: which task, which boundaries, which human checks, and which delivery partner. This page covers how to approach that, and where I come in."
-primaryCta: { label: "Book a consultation", href: /contact }
-secondaryCta: { label: "See the AI Readiness Assessment", href: /services/ai-readiness-assessment }
+eyebrow: Build an AI agent
+lede: 'Having an AI agent built means buying a piece of process that acts on its own, not a product off a shelf. Success is largely decided before a single line of code is written: which task, which boundaries, which human checks, and which delivery partner. This page covers how to approach that, and where I come in. Test'
+primaryCta:
+  label: Book a consultation
+  href: /contact
+secondaryCta:
+  label: See the AI Readiness Assessment
+  href: /services/ai-readiness-assessment
 summary:
-  - "Choose first between building it yourself, using a platform, or bringing in a partner."
-  - "Set out the tasks, boundaries and human checks before you ask for quotes."
-  - "I don't build agents myself; I guide you independently, from your side of the table."
-published: "2026-10-27"
-updated: "2026-10-27"
-faqTitle: "Frequently asked questions"
+  - Choose first between building it yourself, using a platform, or bringing in a partner.
+  - Set out the tasks, boundaries and human checks before you ask for quotes.
+  - I don't build agents myself; I guide you independently, from your side of the table.
+published: 2026-10-27
+updated: 2026-10-27
+faqTitle: Frequently asked questions
 faq:
-  - q: "How long does it take to have an AI agent built?"
-    a: "That depends mainly on the number of integrations, the quality of the sources, and the requirements for control. An agent that only does preparatory work within an existing platform goes into use faster than a bespoke agent that writes into several systems. Ask every delivery partner for a phase-by-phase plan, including a test period, and compare them side by side."
-  - q: "Can I build an AI agent myself without developers?"
-    a: "For simple tasks within software you already use, often yes: many platforms now offer low-code building blocks for agents. Once the agent needs to write into several systems, handle personal data, or operate within a regulated process, you need technical knowledge of integrations, access rights and logging."
-  - q: "Who owns the agent if a partner builds it?"
-    a: "That's settled in the contract with the delivery partner, and it's worth getting sharp upfront. Think about ownership of the code and the instructions, access to the logging, and what happens if you want to move to another party. Without those agreements, you're more dependent than you think."
-  - q: "What role do you play if I have an AI agent built?"
-    a: "I help you scope the task, draw up the specification, compare delivery partners, and oversee delivery. The building itself is done by your own team or by a party you contract directly. I earn nothing from the build, so my advice doesn't depend on the size of the project."
-  - q: "What if it turns out an AI agent isn't the best solution?"
-    a: "Then you'll hear that. For predictable steps, a rule-based workflow is often cheaper and more reliable, and sometimes the process itself is the problem. An agent is a means; if a simpler means delivers the same result, that's usually the better choice."
+  - q: How long does it take to have an AI agent built?
+    a: That depends mainly on the number of integrations, the quality of the sources, and the requirements for control. An agent that only does preparatory work within an existing platform goes into use faster than a bespoke agent that writes into several systems. Ask every delivery partner for a phase-by-phase plan, including a test period, and compare them side by side.
+  - q: Can I build an AI agent myself without developers?
+    a: 'For simple tasks within software you already use, often yes: many platforms now offer low-code building blocks for agents. Once the agent needs to write into several systems, handle personal data, or operate within a regulated process, you need technical knowledge of integrations, access rights and logging.'
+  - q: Who owns the agent if a partner builds it?
+    a: That's settled in the contract with the delivery partner, and it's worth getting sharp upfront. Think about ownership of the code and the instructions, access to the logging, and what happens if you want to move to another party. Without those agreements, you're more dependent than you think.
+  - q: What role do you play if I have an AI agent built?
+    a: I help you scope the task, draw up the specification, compare delivery partners, and oversee delivery. The building itself is done by your own team or by a party you contract directly. I earn nothing from the build, so my advice doesn't depend on the size of the project.
+  - q: What if it turns out an AI agent isn't the best solution?
+    a: Then you'll hear that. For predictable steps, a rule-based workflow is often cheaper and more reliable, and sometimes the process itself is the problem. An agent is a means; if a simpler means delivers the same result, that's usually the better choice.
+noindex: false
 sources: []
 ---
 
