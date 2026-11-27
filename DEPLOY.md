@@ -4,6 +4,15 @@ Static Astro build, served by nginx from `/var/www/freelanceaiconsultant/live` o
 (Ubuntu). There is no server-side app: the contact form posts straight from the browser to Web3Forms
 (see "Contact form" below), so nginx only ever serves files.
 
+**Deploys are automated.** A push to `main` or `cms` is tested by GitHub Actions
+(`.github/workflows/main.yml`, `cms-merge.yml`) and only deployed when every check passes; on
+`cms` the merge into `main` itself only happens when the tests on the merged result are green
+too. See `docs/deploy-automation.md` for the one-time setup (SSH keys, GitHub secrets) and
+`docs/cms.md` for how the `cms`-branch merge works. `deploy/deploy.sh` below is the one script
+both that automation and a manual run on the server actually execute — it is a real file in this
+repo (`deploy/deploy.sh`), not something to create by hand. `cms-publish.ps1` still works as a
+manual fallback if the GitHub Actions route is ever unavailable.
+
 `live` is a symlink, not a real directory. Each deploy builds into the repo's own `dist/`, runs the
 full check suite against it, and only if everything passes copies that `dist/` into a new
 `releases/<timestamp>/` folder and repoints `live` at it. A failed build or check leaves `live`
@@ -35,7 +44,7 @@ the VPS checkout only ever tracks `main`, and `deploy.sh` always pulls `main`.
    npm ci
    npx playwright install --with-deps chromium
    ```
-4. **First build + release**, using the exact deploy script from "Update flow" below (`deploy.sh`) —
+4. **First build + release**, using `deploy/deploy.sh` (see "Update flow" below) —
    it creates the first `releases/<timestamp>/` and points `live` at it. There is nothing live to
    protect yet, so just run it.
 5. **nginx.** Install nginx, add the config, enable it:
@@ -60,47 +69,34 @@ the VPS checkout only ever tracks `main`, and `deploy.sh` always pulls `main`.
 
 ## Update flow
 
-Save this as `/var/www/freelanceaiconsultant/deploy.sh` (`chmod +x`) and run it for every deploy:
+`deploy/deploy.sh` is the one script every deploy runs — automated (GitHub Actions, see
+`docs/deploy-automation.md`) or manual:
 
-```bash
-#!/usr/bin/env bash
-set -euo pipefail
-
-cd /var/www/freelanceaiconsultant
-git checkout main
-git pull origin main
-npm ci
-
-rm -rf dist
-npm run build   # astro build + postbuild checks (check-dist, check-nulmeting, check-rag)
-npm run check   # re-runs those checks plus check-overflow (Playwright, real headless Chromium)
-
-# Only reached if build and every check above exited 0.
-RELEASE=/var/www/freelanceaiconsultant/releases/$(date +%Y%m%d%H%M%S)
-cp -a dist "$RELEASE"
-ln -sfn "$RELEASE" /var/www/freelanceaiconsultant/live.new
-mv -T /var/www/freelanceaiconsultant/live.new /var/www/freelanceaiconsultant/live
-
-# Keep the last 5 releases for rollback, prune the rest.
-cd /var/www/freelanceaiconsultant/releases
-ls -1t | tail -n +6 | xargs -r rm -rf
+```
+bash /var/www/freelanceaiconsultant/deploy/deploy.sh
 ```
 
-`mv -T live.new live` is a single rename, so nginx (which reads `live` fresh on every request) never
-sees a half-updated symlink — it's either the old release or the new one, nothing in between. No
-`nginx reload` is needed after a deploy.
+It does `git fetch`/`reset --hard origin/main`, `npm ci`, `npm run build` (astro build + postbuild
+checks: `check-frontmatter-yaml`, `check-dist`, `check-sitemap`, `check-nulmeting`, `check-rag`),
+then `npm run check` (re-runs those plus `check-nulmeting-en` and `check-overflow`, Playwright/
+real headless Chromium). Only once both exit 0 does it copy `dist/` into a new
+`releases/<timestamp>/` and repoint the `live` symlink at it with a single atomic rename
+(`mv -T live.new live`) — nginx, which reads `live` fresh on every request, never sees a
+half-updated symlink, so no `nginx reload` is needed. `set -euo pipefail` stops the script before
+touching `live` if the build or any check fails; the site keeps serving the previous release
+untouched. The last 5 releases are kept for rollback, the rest pruned.
 
-If `npm run build` or `npm run check` exits non-zero, `set -e` stops the script before `live` is
-touched — the site keeps serving the previous release untouched.
+GitHub Actions reaches this script over SSH, through a key the server's `authorized_keys`
+restricts to running exactly this script (see `docs/deploy-automation.md`) — the command sent
+over SSH is otherwise ignored.
 
-**Rollback** to the previous release (releases are named by timestamp, so the second-newest is the
-one `live` pointed at before the last deploy):
+**Rollback** to a previous release:
 ```
-cd /var/www/freelanceaiconsultant/releases && ln -sfn "$(pwd)/$(ls -1t | sed -n 2p)" /var/www/freelanceaiconsultant/live.new && mv -T /var/www/freelanceaiconsultant/live.new /var/www/freelanceaiconsultant/live
+bash /var/www/freelanceaiconsultant/deploy/rollback.sh        # back one release
+bash /var/www/freelanceaiconsultant/deploy/rollback.sh 2       # back two releases
 ```
-
-To roll back further, swap `sed -n 2p` for `sed -n 3p` (third-newest), etc. — any folder still in
-`releases/` can be restored the same way.
+Only repoints the `live` symlink; does not touch git, `node_modules`, or `releases/` itself — any
+folder still in `releases/` can be restored this way.
 
 ## Contact form
 

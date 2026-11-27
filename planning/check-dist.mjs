@@ -34,6 +34,11 @@ for (const file of walk(dist).filter((f) => !isAdmin(f))) {
       if (fs.existsSync(target) && !fs.readFileSync(target, 'utf8').includes(`id="${hash}"`)) report(file, `anker #${hash} bestaat niet op ${href}`);
     }
   }
+  // Assets (afbeeldingen e.d.): alleen site-relatieve src's (beginnend met '/'); http(s)- en
+  // data:-URI's matchen deze regex niet en worden dus terecht overgeslagen.
+  for (const [, src] of html.matchAll(/\ssrc="(\/[^"#?]*)"/g)) {
+    if (!exists(src)) report(file, `kapot asset ${src}`);
+  }
   const text = html.replace(/<!--[\s\S]*?-->/g, '').replace(/<script[\s\S]*?<\/script>/g, '');
   if (/\{\{\w+:/.test(text)) report(file, 'onvervangen {{token}}');
   if (/\[PLACEHOLDER|LINK-TODO/.test(text)) report(file, 'zichtbare placeholder of LINK-TODO');

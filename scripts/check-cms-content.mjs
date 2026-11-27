@@ -15,7 +15,11 @@ import { pathToFileURL } from 'node:url';
 
 const FORBIDDEN = [
   { name: 'TEST', re: /\bTEST\b/ },
-  { name: 'TODO', re: /\bTODO\b/ },
+  // Negatieve lookbehind sluit "LINK-TODO" uit: dat is een bewuste, zichtbare placeholder uit de
+  // publicatiedag-routine (planning/werkafspraak-publicatiedagen.md), geen vergeten TODO. Deze
+  // check draait sowieso alleen op de cms-branch, waar inzichten-artikelen (en dus LINK-TODO's)
+  // niet via Sveltia worden bewerkt (zie docs/cms.md) — dit is een extra vangrail, geen noodzaak.
+  { name: 'TODO', re: /(?<!LINK-)\bTODO\b/ },
   { name: 'FIXME', re: /\bFIXME\b/ },
   { name: 'lorem', re: /\blorem\b/i },
   { name: 'xxx', re: /\bxxx\b/i },
@@ -61,6 +65,14 @@ function tokenCounts(content) {
   return counts;
 }
 
+// Tijdelijke uitzondering (docs/cms.md): inzichten-artikelen staan technisch al als CMS-collectie
+// in public/admin/config.yml (create/delete aan), maar gaan voorlopig NIET via dit scherm, tot de
+// blogreeks en de inzichten-CMS-migratie allebei zijn afgerond. Dit is de technische vangrail
+// daarvoor: een cms-wijziging die toch een artikel raakt, blokkeert de geautomatiseerde merge.
+export function articlesTouched(files) {
+  return files.filter((f) => f.startsWith('src/content/articles/'));
+}
+
 // mainContent/cmsContent: bestandsinhoud (string) van dezelfde pad in main resp. cms.
 // Geeft een lijst tokens die verdwenen zijn of waarvan het aantal is afgenomen.
 export function removedTokens(mainContent, cmsContent) {
@@ -88,6 +100,12 @@ async function main() {
   const showFile = (ref, file) => execSync(`git show ${ref}:${file}`, { encoding: 'utf8', stdio: ['pipe', 'pipe', 'ignore'] });
 
   const changedFiles = [...new Set(added.map((l) => l.file))];
+  // Alle gewijzigde paden (ook pure verwijderingen, die geen +-regel hebben en dus niet in
+  // changedFiles hierboven zitten), voor de artikelen-vangrail hieronder.
+  const allChangedFiles = execSync(`git diff --name-only ${mainRef}...${cmsRef}`, { encoding: 'utf8' })
+    .split('\n')
+    .filter(Boolean);
+  const articleHits = articlesTouched(allChangedFiles);
   const tokenProblems = [];
   for (const file of changedFiles) {
     let mainContent;
@@ -105,15 +123,19 @@ async function main() {
     for (const r of removedTokens(mainContent, cmsContent)) tokenProblems.push({ file, ...r });
   }
 
-  if (!forbidden.length && !tokenProblems.length) {
-    console.log('Geen treffers in de toegevoegde regels, alle tokens intact.');
+  if (!forbidden.length && !tokenProblems.length && !articleHits.length) {
+    console.log('Geen treffers in de toegevoegde regels, alle tokens intact, geen inzichten-artikelen geraakt.');
     return;
   }
 
   for (const h of forbidden) console.log(`✗ ${h.file}: "${h.hit}" gevonden in "${h.text.trim()}"`);
   for (const p of tokenProblems)
     console.log(`✗ ${p.file}: token ${p.token} is verdwenen of verminderd (was ${p.before}×, nu ${p.after}×)`);
-  console.log(`\n${forbidden.length} treffer(s) in toegevoegde regels, ${tokenProblems.length} token-probleem(en).`);
+  for (const f of articleHits)
+    console.log(`✗ ${f}: inzichten-artikelen gaan voorlopig niet via het CMS (tijdelijke uitzondering, zie docs/cms.md)`);
+  console.log(
+    `\n${forbidden.length} treffer(s) in toegevoegde regels, ${tokenProblems.length} token-probleem(en), ${articleHits.length} inzichten-artikel(en) geraakt.`,
+  );
   process.exitCode = 1;
 }
 

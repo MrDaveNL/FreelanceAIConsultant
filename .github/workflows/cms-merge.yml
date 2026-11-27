@@ -1,0 +1,173 @@
+name: CMS merge en deploy
+
+# Vervangt cms-publish.ps1 als de normale weg (Dave's besluit, 27 nov 2026 - zie docs/cms.md en
+# docs/beslissingen.md): elke push naar cms wordt getest tegen een lokale merge in main; pas bij
+# groen wordt die merge echt gepusht, cms gelijkgezet en gedeployed. Bij rood wordt niets gemerged,
+# niets gepusht en niets gedeployed - de job faalt voordat de merge-stap de remote raakt.
+# cms-publish.ps1 blijft bestaan als handmatige terugval (zie docs/cms.md).
+#
+# Pusht met GITHUB_TOKEN (geen los token - zie docs/deploy-automation.md, stap 5): zo'n push
+# triggert main.yml niet opnieuw, dus deze workflow deployt na de merge zelf (net als
+# echion.link), in plaats van op een main.yml-run te wachten die er anders niet komt.
+on:
+  push:
+    branches: [cms]
+
+# Zelfde groep als main.yml: een cms-merge en een directe main-push deployen nooit gelijktijdig.
+concurrency:
+  group: freelanceaiconsultant-deploy
+  cancel-in-progress: false
+
+permissions:
+  contents: read
+
+jobs:
+  # Extra vangrail, niet waar de werking van afhangt (zie docs/deploy-automation.md, stap 5):
+  # zowel deze workflow als main.yml pushen met GITHUB_TOKEN, en zo'n push triggert geen andere
+  # workflow-run. Deze check blijft toch staan voor het geval dat ooit verandert (bijv. terug naar
+  # een los token) - dan voorkomt hij nog steeds dat een lege cms-gelijkzet-push een overbodige
+  # merge-poging en dubbele deploy oplevert. main..cms leeg betekent: niets te verwerken, de job
+  # hieronder (en deploy/notify) slaan zichzelf over.
+  check:
+    runs-on: ubuntu-latest
+    outputs:
+      has_changes: ${{ steps.diff.outputs.has_changes }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - id: diff
+        run: |
+          git fetch origin main cms
+          if [ -n "$(git log origin/main..origin/cms --oneline)" ]; then
+            echo "has_changes=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "has_changes=false" >> "$GITHUB_OUTPUT"
+            echo "Geen nieuwe commits op cms t.o.v. main, niets te verwerken." >> "$GITHUB_STEP_SUMMARY"
+          fi
+
+  verify-and-merge:
+    needs: check
+    if: needs.check.outputs.has_changes == 'true'
+    runs-on: ubuntu-latest
+    # Enige job in dit bestand die pusht; GitHub's permissions-sleutel mag dat ten opzichte van
+    # de repository-brede alleen-lezen default verhogen (zie docs/deploy-automation.md, stap 5).
+    permissions:
+      contents: write
+    outputs:
+      error_line: ${{ steps.status.outputs.error_line }}
+      changed_files: ${{ steps.files.outputs.changed_files }}
+      merged: ${{ steps.merge.outputs.merged }}
+    steps:
+      # Checkt main uit, niet cms: de merge in stap "Merge cms in main" gebeurt lokaal op main.
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+          cache: npm
+
+      - run: npm ci
+
+      - name: Fetch cms
+        run: git fetch origin cms
+
+      - name: Gewijzigde bestanden voor de notificatie (vóór de merge, main en cms zijn nog ongewijzigd)
+        id: files
+        run: |
+          {
+            echo "changed_files<<FILES_EOF"
+            git diff --name-only origin/main...origin/cms
+            echo "FILES_EOF"
+          } >> "$GITHUB_OUTPUT"
+
+      - name: Content-check (harde blokkade) en tegenhanger-check (waarschuwing)
+        run: |
+          node scripts/check-cms-content.mjs origin/main origin/cms
+          node scripts/check-cms-counterpart.mjs origin/main origin/cms
+
+      - name: Merge cms in main (lokaal, nog niets gepusht)
+        id: merge
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          if ! git merge --no-ff origin/cms -m "Merge branch 'cms' into main"; then
+            git merge --abort || true
+            echo "merged=false" >> "$GITHUB_OUTPUT"
+            {
+              echo "## Mergeconflict tussen main en cms"
+              echo "cms, main en de live site zijn niet aangeraakt. Los dit handmatig op (bijvoorbeeld met Claude Code of cms-publish.ps1) en push opnieuw naar cms."
+            } >> "$GITHUB_STEP_SUMMARY"
+            exit 1
+          fi
+          echo "merged=true" >> "$GITHUB_OUTPUT"
+
+      - name: Kennisbank-url's afleiden uit de mapnaam
+        run: |
+          node scripts/fix-kennisbank-urls.mjs
+          if ! git diff --quiet -- src/content/pages; then
+            git add -- src/content/pages
+            git commit -m "cms-merge: kennisbank-url(s) afgeleid uit mapnaam"
+          fi
+
+      - name: Installeer Chromium voor de overflow-check (npm run check)
+        run: npx playwright install --with-deps chromium
+
+      - name: Build, check en test tegen de samengevoegde staat
+        run: |
+          set -o pipefail
+          { npm run build && npm run check && npm test; } 2>&1 | tee run-output.log
+
+      - name: Push main en zet cms gelijk
+        run: |
+          set -euo pipefail
+          git push origin main
+          # Altijd een fast-forward: de oude cms-tip (origin/cms, hierboven gefetcht) is per
+          # definitie een voorouder van deze nieuwe mergecommit op main, dus dit kan nooit een
+          # geforceerde push nodig hebben.
+          git push origin main:cms
+
+      - name: Status voor de samenvatting en de notificatie
+        id: status
+        if: always()
+        run: |
+          if [ "${{ job.status }}" != "success" ]; then
+            line="$(grep -m1 -E '^✗|FOUT:|not ok' run-output.log 2>/dev/null || true)"
+            [ -n "$line" ] || line="$(tail -n 1 run-output.log 2>/dev/null || echo 'Onbekende fout, zie de run-log.')"
+            {
+              echo "## npm run build/check/test gefaald op de samengevoegde cms+main-staat"
+              echo '```'
+              printf '%s\n' "$line"
+              echo '```'
+            } >> "$GITHUB_STEP_SUMMARY"
+            echo "error_line=$line" >> "$GITHUB_OUTPUT"
+          fi
+
+  deploy:
+    needs: verify-and-merge
+    uses: ./.github/workflows/deploy-vps.yml
+    secrets:
+      DEPLOY_SSH_HOST: ${{ secrets.DEPLOY_SSH_HOST }}
+      DEPLOY_SSH_PORT: ${{ secrets.DEPLOY_SSH_PORT }}
+      DEPLOY_SSH_USER: ${{ secrets.DEPLOY_SSH_USER }}
+      DEPLOY_SSH_KEY: ${{ secrets.DEPLOY_SSH_KEY }}
+      DEPLOY_SSH_KNOWN_HOSTS: ${{ secrets.DEPLOY_SSH_KNOWN_HOSTS }}
+
+  # if: sluit ook hier het geval uit waarin "check" hierboven niets te verwerken vond (dan is er
+  # niets gebeurd om over te melden) en het geval waarin "verify-and-merge" daardoor is overgeslagen.
+  notify:
+    needs: [check, verify-and-merge, deploy]
+    if: always() && needs.check.outputs.has_changes == 'true'
+    uses: ./.github/workflows/notify.yml
+    with:
+      status: ${{ (needs.verify-and-merge.result == 'success' && needs.deploy.result == 'success') && 'success' || 'failure' }}
+      branch: cms
+      commit_message: ${{ github.event.head_commit.message }}
+      error_line: ${{ needs.verify-and-merge.outputs.error_line }}
+      changed_files: ${{ needs.verify-and-merge.outputs.changed_files }}
+    secrets:
+      ACTIVEPIECES_WEBHOOK_URL: ${{ secrets.ACTIVEPIECES_WEBHOOK_URL }}

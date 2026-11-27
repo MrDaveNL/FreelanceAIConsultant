@@ -1,0 +1,150 @@
+name: Test en deploy (main)
+
+# Vervangt de handmatige stap "pushen, dan zelf inloggen en deploy.sh draaien" uit DEPLOY.md:
+# elke push naar main wordt getest (npm run build, npm run check, npm test), en pas bij groen
+# gedeployed.
+#
+# cms-merge.yml pusht zijn eigen mergecommit ook naar main, met GITHUB_TOKEN (zie
+# docs/deploy-automation.md, stap 5). Een push met GITHUB_TOKEN triggert geen andere
+# workflow-run, dus cms-merge.yml's eigen push naar main start hier in de praktijk geen tweede,
+# overbodige test+deploy van content die daar al getest en gedeployed is. De job hieronder slaat
+# zichzelf ook nog los over zodra de binnengekomen commit de git-identiteit "github-actions[bot]"
+# draagt (zo committert cms-merge.yml zijn mergecommits altijd) - een extra vangrail, niet waar
+# de werking van afhangt.
+on:
+  push:
+    branches: [main]
+
+concurrency:
+  group: freelanceaiconsultant-deploy
+  cancel-in-progress: false
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    if: github.event.head_commit.committer.email != '41898282+github-actions[bot]@users.noreply.github.com'
+    runs-on: ubuntu-latest
+    outputs:
+      error_line: ${{ steps.status.outputs.error_line }}
+      changed_files: ${{ steps.status.outputs.changed_files }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          # src/lib/sitemap.ts leidt lastmod voor een deel van de routes af van de laatste
+          # git-commitdatum per bronbestand (git log -1 --format=%cI); een shallow checkout zou
+          # die datums stil op "vandaag" laten vallen in plaats van de echte laatste wijziging.
+          fetch-depth: 0
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+          cache: npm
+
+      - run: npm ci
+
+      - name: Installeer Chromium voor de overflow-check (npm run check)
+        run: npx playwright install --with-deps chromium
+
+      - name: Build, check en test
+        run: |
+          set -o pipefail
+          { npm run build && npm run check && npm test; } 2>&1 | tee run-output.log
+
+      - name: Status voor de samenvatting en de notificatie
+        id: status
+        if: always()
+        run: |
+          before="${{ github.event.before }}"
+          if [ -z "$before" ] || [ "$before" = "0000000000000000000000000000000000000000" ] || ! git cat-file -e "$before" 2>/dev/null; then
+            files=""
+          else
+            files="$(git diff --name-only "$before" "${{ github.sha }}" || true)"
+          fi
+          {
+            echo "changed_files<<FILES_EOF"
+            echo "$files"
+            echo "FILES_EOF"
+          } >> "$GITHUB_OUTPUT"
+
+          if [ "${{ job.status }}" != "success" ]; then
+            line="$(grep -m1 -E '^✗|FOUT:|not ok' run-output.log 2>/dev/null || true)"
+            [ -n "$line" ] || line="$(tail -n 1 run-output.log 2>/dev/null || echo 'Onbekende fout, zie de run-log.')"
+            {
+              echo "## npm run build/check/test gefaald"
+              echo '```'
+              printf '%s\n' "$line"
+              echo '```'
+            } >> "$GITHUB_STEP_SUMMARY"
+            echo "error_line=$line" >> "$GITHUB_OUTPUT"
+          fi
+
+  deploy:
+    needs: test
+    uses: ./.github/workflows/deploy-vps.yml
+    secrets:
+      DEPLOY_SSH_HOST: ${{ secrets.DEPLOY_SSH_HOST }}
+      DEPLOY_SSH_PORT: ${{ secrets.DEPLOY_SSH_PORT }}
+      DEPLOY_SSH_USER: ${{ secrets.DEPLOY_SSH_USER }}
+      DEPLOY_SSH_KEY: ${{ secrets.DEPLOY_SSH_KEY }}
+      DEPLOY_SSH_KNOWN_HOSTS: ${{ secrets.DEPLOY_SSH_KNOWN_HOSTS }}
+
+  # Houdt de cms-branch gelijk aan main, zodat een volgende CMS-wijziging niet op een verouderde
+  # main begint (vervangt de handmatige "git push origin main:cms" uit CLAUDE.md voor pushes die
+  # via deze workflow lopen; die regel blijft als terugval staan voor als deze stap faalt).
+  # Pusht met GITHUB_TOKEN; de repository-brede workflow-permissie blijft op "alleen-lezen" staan
+  # (zie docs/deploy-automation.md, stap 5) omdat alleen deze job zijn eigen contents: write
+  # permissie heeft. Een GITHUB_TOKEN-push triggert bovendien geen nieuwe cms-merge.yml-run.
+  sync-cms:
+    needs: deploy
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Zet cms gelijk aan main, nooit geforceerd
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git fetch origin cms
+
+          # Eerste poging: gewone (niet-force) branch-push. Lukt alleen als de huidige cms-tip een
+          # voorouder is van main, dus nooit-geforceerd staat hier al vast, niet als extra vlag.
+          if git push origin HEAD:cms; then
+            echo "cms is gelijkgezet aan main (fast-forward)."
+            exit 0
+          fi
+
+          echo "cms wijkt af (eigen, nog niet gemergede commits) - probeer main in cms te mergen..."
+          git checkout -B cms origin/cms
+          if git merge --no-ff origin/main -m "Merge main into cms (auto-sync)"; then
+            git push origin cms
+            echo "main is in cms gemerged en gepusht; cms's eigen commits blijven staan."
+          else
+            git merge --abort || true
+            {
+              echo "## cms-sync overgeslagen"
+              echo "main kon niet fast-forward of conflictvrij in cms worden gemerged. De deploy is wel geslaagd."
+              echo "Zet dit handmatig recht: \`git push origin main:cms\` (of los het conflict op en merge main in cms)."
+            } >> "$GITHUB_STEP_SUMMARY"
+          fi
+
+  # if: sluit ook hier het geval uit waarin "test" zichzelf hierboven heeft overgeslagen (de
+  # bot-eigen cms-merge-push): dan is er niets gebeurd om over te melden, geen mislukte run.
+  notify:
+    needs: [test, deploy, sync-cms]
+    if: always() && needs.test.result != 'skipped'
+    uses: ./.github/workflows/notify.yml
+    with:
+      status: ${{ (needs.test.result == 'success' && needs.deploy.result == 'success') && 'success' || 'failure' }}
+      branch: main
+      commit_message: ${{ github.event.head_commit.message }}
+      error_line: ${{ needs.test.outputs.error_line }}
+      changed_files: ${{ needs.test.outputs.changed_files }}
+    secrets:
+      ACTIVEPIECES_WEBHOOK_URL: ${{ secrets.ACTIVEPIECES_WEBHOOK_URL }}

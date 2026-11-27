@@ -104,20 +104,40 @@ diensten, cases en alle inzichten blijven via Claude Code lopen, met de volledig
    ```
    Unblock-File .\cms-publish.ps1
    ```
+5. **GitHub Actions inrichten** (sinds het besluit van 27 nov 2026, zie `docs/beslissingen.md`),
+   zodat de merge en de deploy hierna automatisch lopen in plaats van via `cms-publish.ps1`: zie
+   `docs/deploy-automation.md` voor de volledige, eenmalige inrichting (SSH-sleutels, GitHub-
+   secrets). Stappen 1-4 hierboven blijven daarna nuttig als handmatige terugval.
 
 ## Workflow voor een tekstaanpassing
+
+**Sinds Dave's besluit van 27 nov 2026 loopt dit automatisch via GitHub Actions**
+(`.github/workflows/cms-merge.yml`, zie `docs/deploy-automation.md` voor de eenmalige inrichting
+en `docs/beslissingen.md`). Dit vervangt de handmatige bevestigingsstap die hieronder nog wordt
+beschreven voor `cms-publish.ps1`: er is geen "ja/nee"-moment meer, CI-groen is de enige poort.
 
 1. Ga naar `freelanceaiconsultant.com/admin`, log in met het fine-grained token.
 2. Open de pagina (kennisbank of een van de "overige pagina's"-collecties), pas de tekst aan,
    **Save**. Dit schrijft direct naar branch `cms` op GitHub (geen lokale stap nodig).
-3. Op je eigen machine, in de projectmap:
-   ```
-   .\cms-publish.ps1
-   ```
-   Dit haalt de wijziging op, laat de diff zien, controleert op TEST/TODO/FIXME/lorem/xxx,
-   em dashes en prijstokens, vraagt een bevestiging, merget naar `main`, bouwt en test de hele
-   site, pusht, en deployt naar de server. Bij een fout op elk punt stopt het script en blijft
-   de live site ongewijzigd.
+3. GitHub Actions test de wijziging tegen een lokale merge in `main` (content-check, build,
+   check, test). Bij groen wordt die merge echt gepusht, `cms` gelijkgezet en de server
+   gedeployed — zonder verdere stap van Dave. Bij rood blijven `cms`, `main` en de live site
+   onaangeraakt; de falende regel staat bovenaan de samenvatting van de run (tabblad "Actions").
+4. Een nieuwe of gewijzigde kennisbankpagina met `TEST`/`TODO`/`FIXME`/`lorem`/`xxx`/em-dash in
+   een toegevoegde regel blokkeert de merge hard (geen override meer, zie
+   `scripts/check-cms-content.mjs`); `LINK-TODO` zelf is daarvan uitgezonderd. Een wijziging die
+   `src/content/articles/**` raakt (inzichten) blokkeert ook hard — die collecties staan
+   technisch al in dit CMS, maar gaan voorlopig niet via dit scherm (zie de uitzondering
+   hierboven).
+
+**Handmatige terugval**, bijvoorbeeld als GitHub Actions niet beschikbaar is:
+```
+.\cms-publish.ps1
+```
+Dit haalt de wijziging op, laat de diff zien, controleert op TEST/TODO/FIXME/lorem/xxx,
+em dashes en prijstokens, vraagt een bevestiging, merget naar `main`, bouwt en test de hele
+site, pusht, en deployt naar de server. Bij een fout op elk punt stopt het script en blijft
+de live site ongewijzigd.
 
 ## Wat Sveltia bij een "Save" verandert aan de front matter
 
@@ -195,9 +215,14 @@ na de controle weer verwijderd (nooit gepubliceerd).
 `node scripts/check-cms-content.mjs [main-ref] [cms-ref]` vergelijkt twee branches en
 controleert:
 - de toegevoegde regels op `TEST`, `TODO`, `FIXME` (hoofdlettergevoelig, dus "testen" blokkeert
-  niet), `lorem`, `xxx` en em dashes (—);
+  niet), `lorem`, `xxx` en em dashes (—). `TODO` heeft één uitzondering: `LINK-TODO` (de bewuste
+  placeholder uit de publicatiedag-routine, `planning/werkafspraak-publicatiedagen.md`) telt niet
+  als treffer;
 - of een `{{price:...}}`, `{{pricelc:...}}`, `{{timing:...}}` of `{{title:...}}`-token in een
-  gewijzigd bestand niet is verdwenen of veranderd ten opzichte van `main`.
+  gewijzigd bestand niet is verdwenen of veranderd ten opzichte van `main`;
+- of de wijziging een bestand onder `src/content/articles/**` raakt (toegevoegd, gewijzigd of
+  verwijderd) — inzichten-artikelen staan technisch al in dit CMS, maar gaan voorlopig niet via
+  dit scherm (zie de uitzondering bovenaan dit document); elke treffer hier blokkeert.
 
 Deze check geldt voor elk bestand dat in de diff voorkomt, dus ook voor de nieuwe
 "overige"-collecties (bijv. tarieven) — niet alleen voor de kennisbank. Een NIEUW bestand (bestaat
@@ -205,6 +230,13 @@ nog niet op `main`) wordt behandeld als een lege basis: er zijn dan geen tokens 
 dus geen treffer. `git show` schrijft in dat geval wel een "fatal: path ... does not exist"-regel
 naar stderr; die wordt onderdrukt (`stdio: ['pipe', 'pipe', 'ignore']`) zodat dat niet als
 verwarrende foutmelding op het scherm verschijnt terwijl de check zelf gewoon doorgaat.
+
+Sinds de automatisering (`.github/workflows/cms-merge.yml`) is deze check een **harde blokkade
+zonder override**: in de interactieve `cms-publish.ps1` kon een treffer nog bewust worden
+genegeerd ("ja, toch doorgaan"); in GitHub Actions is er niemand om dat te vragen, dus stopt elke
+treffer de merge. Draait sowieso alleen op de `cms`-branch (main↔cms-diff); raakt blogbranches
+(`blog/...`) niet, dus een bewuste `LINK-TODO` in een nog te mergen blog wordt hierdoor niet
+geblokkeerd — de uitzondering hierboven is een extra vangrail voor als dat ooit verandert.
 
 `node scripts/check-cms-counterpart.mjs [main-ref] [cms-ref]` waarschuwt (blokkeert niet, exit-
 code blijft 0) over twee dingen op `cms` t.o.v. `main`:
@@ -214,9 +246,10 @@ code blijft 0) over twee dingen op `cms` t.o.v. `main`:
 2. een TOEGEVOEGDE of GEWIJZIGDE kennisbankpagina waarvan `cluster` of `parent` niet overeenkomt
    met haar tegenhanger (zelfde `id`) in de andere taal, als die tegenhanger bestaat.
 
-Unit tests: `npm test`. `cms-publish.ps1` roept `check-cms-content.mjs` en
-`check-cms-counterpart.mjs` aan voor elke publicatie, en draait na de merge ook
-`scripts/fix-kennisbank-urls.mjs` (zie hierboven) vóór de build.
+Unit tests: `npm test`. Zowel `.github/workflows/cms-merge.yml` als `cms-publish.ps1` (de
+handmatige terugval) roepen `check-cms-content.mjs` en `check-cms-counterpart.mjs` aan voor elke
+publicatie, en draaien na de merge ook `scripts/fix-kennisbank-urls.mjs` (zie hierboven) vóór de
+build.
 
 ## Bekende valkuilen in `cms-publish.ps1` zelf
 

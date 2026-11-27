@@ -8,9 +8,9 @@
     "start": "astro dev",
     "prebuild": "node scripts/ensure-env.mjs && node -e \"require('fs').rmSync('node_modules/.astro',{recursive:true,force:true})\" && node scripts/generate-content-collections.mjs",
     "build": "astro build",
-    "postbuild": "node planning/check-dist.mjs && node planning/check-sitemap.mjs && node planning/check-nulmeting.mjs && node planning/check-rag.mjs",
+    "postbuild": "node scripts/check-frontmatter-yaml.mjs && node planning/check-dist.mjs && node planning/check-sitemap.mjs && node planning/check-nulmeting.mjs && node planning/check-rag.mjs",
     "nulmeting": "node planning/nulmeting.mjs",
-    "check": "node planning/check-dist.mjs && node planning/check-sitemap.mjs && node planning/check-nulmeting.mjs && node planning/check-nulmeting-en.mjs && node planning/check-rag.mjs && node planning/check-overflow.mjs",
+    "check": "node scripts/check-frontmatter-yaml.mjs && node planning/check-dist.mjs && node planning/check-sitemap.mjs && node planning/check-nulmeting.mjs && node planning/check-nulmeting-en.mjs && node planning/check-rag.mjs && node planning/check-overflow.mjs",
     "test": "node --test scripts/*.test.mjs",
     "preview": "astro preview"
   },
@@ -21,6 +21,7 @@
     "vanilla-cookieconsent": "3.1.0"
   },
   "devDependencies": {
+    "js-yaml": "^4.3.2",
     "node-html-parser": "^9.0.4",
     "playwright": "^1.64.1",
     "simple-icons": "^16.33.0"

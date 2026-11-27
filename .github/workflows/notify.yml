@@ -1,0 +1,63 @@
+name: Notify Activepieces
+
+# Reusable workflow: main.yml en cms-merge.yml roepen dit allebei aan het eind van elke run aan,
+# geslaagd of niet. Slaat de post zelf over (geen foutmelding, geen rode run) als het secret
+# ACTIVEPIECES_WEBHOOK_URL niet is gezet.
+on:
+  workflow_call:
+    inputs:
+      status:
+        required: true
+        type: string
+      branch:
+        required: true
+        type: string
+      commit_message:
+        required: true
+        type: string
+      error_line:
+        required: false
+        type: string
+        default: ''
+      changed_files:
+        required: false
+        type: string
+        default: ''
+    secrets:
+      ACTIVEPIECES_WEBHOOK_URL:
+        required: false
+
+permissions:
+  contents: read
+
+jobs:
+  notify:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Post statusmelding
+        env:
+          URL: ${{ secrets.ACTIVEPIECES_WEBHOOK_URL }}
+          STATUS: ${{ inputs.status }}
+          BRANCH: ${{ inputs.branch }}
+          COMMIT_MESSAGE: ${{ inputs.commit_message }}
+          ERROR_LINE: ${{ inputs.error_line }}
+          CHANGED_FILES: ${{ inputs.changed_files }}
+        run: |
+          if [ -z "${URL:-}" ]; then
+            echo "ACTIVEPIECES_WEBHOOK_URL niet gezet, deze stap wordt overgeslagen."
+            exit 0
+          fi
+          payload="$(jq -n \
+            --arg status "$STATUS" \
+            --arg branch "$BRANCH" \
+            --arg commit_message "$COMMIT_MESSAGE" \
+            --arg error_line "$ERROR_LINE" \
+            --arg changed_files "$CHANGED_FILES" \
+            '{
+              status: $status,
+              branch: $branch,
+              commit_message: $commit_message,
+              error_line: $error_line,
+              changed_files: ($changed_files | split("\n") | map(select(length > 0)))
+            }')"
+          curl --fail-with-body -sS -X POST -H "Content-Type: application/json" -d "$payload" "$URL"

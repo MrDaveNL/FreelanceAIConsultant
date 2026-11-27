@@ -1,7 +1,7 @@
 // Gebruik: node --test scripts/check-cms-content.test.mjs
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
-import { addedLines, findForbidden, removedTokens } from './check-cms-content.mjs';
+import { addedLines, findForbidden, removedTokens, articlesTouched } from './check-cms-content.mjs';
 
 const diff = (body) => `diff --git a/x b/x\nindex 111..222 100644\n--- a/x\n+++ b/x\n${body}`;
 
@@ -37,6 +37,26 @@ test('findForbidden signaleert TODO, FIXME, lorem, xxx en em dash', () => {
 test('findForbidden laat normale Nederlandse tekst met "test" als deel van een woord erin ongemoeid', () => {
   const hits = findForbidden([{ file: 'x', text: 'We testen de aanpassing, geen contest of attestatie hier.' }]);
   assert.equal(hits.length, 0);
+});
+
+test('findForbidden laat LINK-TODO ongemoeid (bewuste placeholder uit de publicatiedag-routine)', () => {
+  const hits = findForbidden([{ file: 'x', text: 'Zie LINK-TODO [BLOG-05] voor de link naar dit artikel.' }]);
+  assert.equal(hits.length, 0);
+});
+
+test('findForbidden signaleert een losse TODO nog steeds, ook in een regel met LINK-TODO erin', () => {
+  const hits = findForbidden([{ file: 'x', text: 'LINK-TODO opgelost, maar hier staat nog een losse TODO.' }]);
+  assert.equal(hits.length, 1);
+  assert.equal(hits[0].hit, 'TODO');
+});
+
+test('articlesTouched vindt een gewijzigd inzichten-artikel', () => {
+  const files = ['src/content/pages/nl/kennisbank/ai-voorbeelden/index.md', 'src/content/articles/nl/shadow-ai/index.md'];
+  assert.deepEqual(articlesTouched(files), ['src/content/articles/nl/shadow-ai/index.md']);
+});
+
+test('articlesTouched laat kennisbank/overige-pagina-wijzigingen ongemoeid', () => {
+  assert.deepEqual(articlesTouched(['src/content/pages/en/tarieven/index.md']), []);
 });
 
 test('removedTokens vindt niets als de tokens ongewijzigd blijven', () => {

@@ -1,0 +1,71 @@
+name: Deploy to VPS
+
+# Reusable workflow: main.yml en cms-merge.yml roepen dit allebei aan nadat hun eigen checks
+# groen zijn, in plaats van de ssh-stap te dupliceren. Checkt de repo zelf niet uit: de server
+# haalt zijn eigen kopie op via deploy/deploy.sh, met een eigen (read-only) deploy key.
+on:
+  workflow_call:
+    secrets:
+      DEPLOY_SSH_HOST:
+        required: true
+      DEPLOY_SSH_PORT:
+        required: false
+      DEPLOY_SSH_USER:
+        required: true
+      DEPLOY_SSH_KEY:
+        required: true
+      DEPLOY_SSH_KNOWN_HOSTS:
+        required: true
+
+permissions:
+  contents: read
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    outputs:
+      error_line: ${{ steps.ssh.outputs.error_line }}
+    steps:
+      - name: Deploy over ssh
+        id: ssh
+        env:
+          SSH_HOST: ${{ secrets.DEPLOY_SSH_HOST }}
+          SSH_PORT: ${{ secrets.DEPLOY_SSH_PORT }}
+          SSH_USER: ${{ secrets.DEPLOY_SSH_USER }}
+          SSH_KEY: ${{ secrets.DEPLOY_SSH_KEY }}
+          SSH_KNOWN_HOSTS: ${{ secrets.DEPLOY_SSH_KNOWN_HOSTS }}
+        run: |
+          set -o pipefail
+          if [ -z "$SSH_HOST" ] || [ -z "$SSH_USER" ] || [ -z "$SSH_KEY" ] || [ -z "$SSH_KNOWN_HOSTS" ]; then
+            echo "Een of meer DEPLOY_SSH_*-repository-secrets ontbreken." >&2
+            exit 1
+          fi
+          install -m 700 -d ~/.ssh
+          printf '%s\n' "$SSH_KEY" > ~/.ssh/deploy_key
+          chmod 600 ~/.ssh/deploy_key
+          printf '%s\n' "$SSH_KNOWN_HOSTS" > ~/.ssh/known_hosts
+          chmod 600 ~/.ssh/known_hosts
+          set +e
+          {
+            # authorized_keys op de server dwingt deze sleutel altijd exact deploy/deploy.sh uit
+            # te voeren, ongeacht welk commando hier wordt meegestuurd.
+            ssh -i ~/.ssh/deploy_key -p "${SSH_PORT:-22}" -o StrictHostKeyChecking=yes \
+              "$SSH_USER@$SSH_HOST" "deploy"
+          } 2>&1 | tee deploy-output.log
+          status=${PIPESTATUS[0]}
+          set -e
+          if [ "$status" -ne 0 ]; then
+            line="$(tail -n 1 deploy-output.log)"
+            echo "error_line=$line" >> "$GITHUB_OUTPUT"
+            exit "$status"
+          fi
+
+      - name: Zet de mislukte deploystap bovenaan de samenvatting
+        if: failure()
+        run: |
+          {
+            echo "## Deploy naar de VPS mislukt"
+            echo '```'
+            tail -n 40 deploy-output.log 2>/dev/null || echo "Geen output vastgelegd."
+            echo '```'
+          } >> "$GITHUB_STEP_SUMMARY"
